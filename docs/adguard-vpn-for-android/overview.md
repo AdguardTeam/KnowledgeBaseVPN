@@ -5,26 +5,26 @@ sidebar_position: 1
 
 ## What is AdGuard VPN for Android
  
-A VPN is an ideal tool that provides security and anonymity each time you browse the Internet. [How does it work?](http://kb.adguard.com/en/vpn/adguard-vpn-general/how-vpn-works) Without going into technical details, we can say that VPN creates a secure encrypted tunnel between the user's computer or mobile device and a remote VPN server. In this way, data confidentiality is preserved, as well as the anonymity of the user, because a third-party observer sees the IP address of the VPN server and not the actual user's IP.   
+A VPN is an ideal tool that provides security and anonymity each time you browse the Internet. [How does it work?](/general/how-vpn-works.md) Without going into technical details, we can say that VPN creates a secure encrypted tunnel between the user's computer or mobile device and a remote VPN server. In this way, data confidentiality is preserved, as well as the anonymity of the user, because a third-party observer sees the IP address of the VPN server and not the actual user's IP.   
  
 **VPN is frequently used for:**
  
 * Keeping personal data safe even while using public Wi-Fi
-* Preventing tracking online activity by masking the IP address
+* Preventing online activity tracking by masking the IP address
 * Hiding the real geolocation to remain anonymous 
  
-AdGuard VPN for Android can do it all for you — and even offer something unique. To find out why AdGuard VPN is the better option — read [this article](http://kb.adguard.com/en/vpn/adguard-vpn-general/adguard-vpn-is-the-better-option). 
+AdGuard VPN for Android can do it all for you — and even offer something unique. To find out why AdGuard VPN is the better option — read [this article](/general/adguard-vpn-is-the-better-option.md). 
 
 ## How to start using AdGuard VPN for Android
  
-AdGuard VPN for Android is a pretty user-friendly app easy to use. Firstly, download it from [Google Play](https://play.google.com/store/apps/details?id=com.adguard.vpn) and log into your AdGuard account. In case you don’t have it — you should [create it](https://auth.adguard.com/login.html). You can sign in directly with your AdGuard account credentials. Or do it via Google or Facebook, if your AdGuard account was registered using the same email address.
+AdGuard VPN for Android is a very user-friendly app. Firstly, download it from [Google Play](https://play.google.com/store/apps/details?id=com.adguard.vpn) and log into your AdGuard account. In case you don’t have it — you should [create it](https://auth.adguard.com/login.html). You can sign in directly with your AdGuard account credentials. Or do it via Google or Facebook, if your AdGuard account was registered using the same email address.
 
  
 ## Main Screen
  
 There are two bars on the main screen, reflecting the status of the application (Connected/Disconnected) and the selected Exclusions mode ([General/Selective](#lists-of-exclusions)). On the same screen, there are also a *Connect/Disconnect* button and a list of available servers.
  
-Each server has its location and its ping rate, describing the response time of the server. The lower this rate, the faster is your connection. The fastest options are always displayed at the top of the list which consists of more than 50 locations in dozens of countries. You can enable the app by tapping the *Connect/Disconnect* button or by picking a location.
+Each server has its location and its ping rate, describing the response time of the server. The lower this rate, the faster is your connection. The fastest options are always displayed at the top of the list which consists of more than 50 locations in dozens of countries. You can connect to the fastest server by tapping the *Connect/Disconnect* button or by picking a location.
 
  
 ## Exclusions
@@ -42,7 +42,7 @@ You can add domains (e.g. `google.com`) or subdomains (e.g. `*.google.com`) of w
 
 ![Exclusions](https://cdn.adguard.com/public/Adguard/kb/VPN/Screenshots/add_site_android.jpg)
  
->There are some nuances in manual adding domains. For example, if you manually exclude the domain `google.com`, all `*.google.com` subdomains will also be listed in exclusions. However, domain names with other top-level domains, such as `google.ru` or `google.it`, will not be excluded. Or you can add `youtube.com` to the exclusions, but the domain of the same service `youtu.be` will not get into the list. In this case, it’s more safe to use built-in lists of services, because we put there all subdomains related to each platform.
+>There are some nuances in manual adding domains. For example, if you manually exclude the domain `yahoo.com`, all `*.yahoo.com` subdomains will also be listed in exclusions. However, domain names with other top-level domains, such as `yahoo.jp` or `yahoo.fr`, will not be excluded. Or you can add `youtube.com` to the exclusions, but the domain of the same service `youtu.be` will not get into the list. In this case, it’s more safe to use built-in lists of services, because we put there all subdomains related to each platform.
  
 As you can enable subdomains in service lists, we added boxes that reflect the status of each service — you can see them on the main screen of *Exclusions* to the left of each service name: **fully-enabled** status is marked with a white check mark on green background, **fully-disabled** — with a gray box, and **partly-enabled**, which means that one or more parameters were changed — with a green square on white background. Good news: you can always return to the default view of service lists in case you’ve deleted or disabled any domains from there.
  
@@ -61,7 +61,7 @@ Another useful feature is *Import/Export exclusions*. There are only four steps 
  
 As we mentioned above, not only websites can be easily added to the exclusions. Choose for which applications you need AdGuard VPN and for which you don't. Tap the icon next to the *Exclusions lists* icon at the bottom of the screen, to open Apps settings. By default, AdGuard VPN works with all apps, but you can toggle the slider next to any app in the list — and disable AdGuard VPN for it.  
  
-If the *Compatibility mode* with AdGuard is enabled, you can only manage apps through the AdGuard app. Therefore, when you tap the button, the AdGuard app opens.
+If the *Compatibility mode* with AdGuard is enabled, you can only manage apps through the AdGuard Ad Blocker. Therefore, when you tap the button, the AdGuard app opens.
  
 ![Apps settings](https://cdn.adguard.com/public/Adguard/kb/VPN/Screenshots/apps_settings.jpg)
 
@@ -108,10 +108,6 @@ In the *Advanced settings*, you can find five sections. You can *Help us to beco
 The next two sections are *Logging level* and *Diagnostic info*. Concerning the first option, it is not recommended to enable the Extended logging level unless requested by our support team. Diagnostic info, locally stored technical information about the device and connections (IP address, ID, ping, etc.), can be sent to us in case of any technical problems. 
  
 The last section of *Advanced settings* is *Low-level settings*. We urge you not to enter this section unless you are highly qualified or have been asked to do so by our support team. There you will find some options to customize the AdGuard VPN to meet your needs even more. Enable TUN interface logging or IPv6 protocol on the VPN interface, choose a proxy server port or Internet protocol version that should be used — but only if you have the necessary knowledge.
- 
-### Support
- 
-At the *Support* section you can leave feedback, report a bug, or export logs and system info for further submission to the helpdesk.
  
 ## Unlimited version 
  
