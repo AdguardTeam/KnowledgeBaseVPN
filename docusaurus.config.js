@@ -121,7 +121,7 @@ module.exports = {
             },
             {
               label: 'How to install AdGuard VPN',
-              href: 'https://kb.adguard.com/en/vpn/installation',
+              href: 'https://kb.adguard.com/vpn/installation',
             },
             {
               label: 'FAQ',
