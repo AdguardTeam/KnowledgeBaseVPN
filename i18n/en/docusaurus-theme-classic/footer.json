@@ -57,7 +57,7 @@
   },
   "link.item.label.how_to_install": {
     "message": "How to install AdGuard VPN",
-    "description": "The label of footer link with label=how_to_install linking to https://kb.adguard.com/en/vpn/installation"
+    "description": "The label of footer link with label=how_to_install linking to https://kb.adguard.com/vpn/installation"
   },
   "link.item.label.faq": {
     "message": "FAQ",
