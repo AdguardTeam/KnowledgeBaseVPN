@@ -1,5 +1,5 @@
 ---
-title: 'Differences between free and full versions of AdGuard VPN'
+title: 'Benefits of AdGuard VPN Unlimited'
 sidebar_position: 4
 ---
  
@@ -17,3 +17,6 @@ A subscription allows to have more benefits in comparison with a free account:
 * Unlimited traffic 
 * No speed cap 
 * All 50+ locations are available
+* Secure streaming
+
+To use all the advantages, consider [purchasing a subscription](subscription.md).
