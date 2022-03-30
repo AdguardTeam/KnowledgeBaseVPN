@@ -13,7 +13,7 @@ From the very outset, we resolved to develop and deploy an in-house VPN protocol
 Choosing a VPN service, people often face a trade-off between fast vs. safe. The AdGuard VPN protocol is a perfect blend of speed and security, so you don’t have to bear slow internet connection or make privacy sacrifices. Among other things, it disguises itself as regular traffic and it’s much harder to detect and block it.
 
 ## 2. Exclusions 
-The *Exclusions lists* allow you to select sites for which the VPN should be enabled and for which — disabled. There are two operation modes in AdGuard VPN: *General* and *Selective*. In *General mode*, VPN works everywhere except websites added to exclusions. And vice versa, in *Selective mode*, VPN works nowhere but on websites added to exclusions. You can also easily import/export exlcusions lists. Read about this feature in *Features overview* for the platform of your device. 
+The *Exclusions lists* allow you to select sites for which the VPN should be enabled and for which — disabled. There are two operation modes in AdGuard VPN: *General* and *Selective*. In *General mode*, VPN works everywhere except websites added to exclusions. And vice versa, in *Selective mode*, VPN works nowhere but on websites added to exclusions. You can also easily import/export exlcusions lists. Read about this feature in *Features overview* for the product you are interested in. 
 
 ![An example of an exclusion list for Selective mode](https://cdn.adguard.com/public/Adguard/Blog/vpn_export_exclusions.png)
 
@@ -57,7 +57,7 @@ This feature resembles the exclusions lists mentioned above. The only difference
 ## 9. Auto-Protection
 This feature has been developed specifically for unsecured networks. For the convenience of users, we made it impossible to forget to enable VPN when visiting public places. Should you pop into a coffee shop and connect to a local Wi-Fi network, you’ll be automatically connected to AdGuard VPN.
 
-## 10. Simultaneous connection 
+## Up to five connected devices at a time
 AdGuard VPN offers five simultaneous connections to its paid users. We place special emphasis on the word *simultaneous*, and here is why. Some VPN providers only allow to log in to their service on *five devices max*. With AdGuard VPN, *there’s no limit* to the number of devices that can be logged in to your account, but you can have five VPN connections enabled at the same time. Those who don’t have a subscription can use AdGuard VPN on *two devices*, which gives us another trump card to play against competitors — most of the VPN services only have *one device* in their free versions.
 
 ## 11. Secure streaming 

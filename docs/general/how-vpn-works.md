@@ -55,7 +55,7 @@ Since your traffic does not go directly to the web server, but first passes thro
 
 **Access blocking**
 
-Some online services make a lot of effort to detect VPN traffic and block access to VPN users. However, not many VPN protocols can imitate the regular traffic. Therefore, many attempts to go to a particular website without disabling VPN end up in nothing.
+Some online services make a lot of effort to detect VPN traffic and block access to VPN users. However, not many VPNs can mask their traffic as regular. Therefore, many attempts to go to a particular website without disabling VPN end up in nothing.
 
 **VPN connections breaking**
 
