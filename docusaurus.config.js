@@ -38,7 +38,7 @@ module.exports = {
           label: 'docs',
         },
         {
-          to: ADGUARD_WEBSITE_URL + '/blog/tag/adguard-vpn.html',
+          to: VPN_WEBSITE_URL + '/blog/index.html',
           position: 'left',
           label: 'blog',
         },
@@ -128,7 +128,7 @@ module.exports = {
               href: VPN_WEBSITE_URL + '/support/faq.html',
             },
             {
-              label: 'Status of AdGuard Services',
+              label: 'Status Page',
               href: 'https://status.adguard.com/',
             },
             {
