@@ -57,7 +57,7 @@ This feature resembles the exclusions lists mentioned above. The only difference
 ## 9. Auto-Protection
 This feature has been developed specifically for unsecured networks. For the convenience of users, we made it impossible to forget to enable VPN when visiting public places. Should you pop into a coffee shop and connect to a local Wi-Fi network, you’ll be automatically connected to AdGuard VPN.
 
-## Up to five connected devices at a time
+## 10. Up to five connected devices at a time
 AdGuard VPN offers five simultaneous connections to its paid users. We place special emphasis on the word *simultaneous*, and here is why. Some VPN providers only allow to log in to their service on *five devices max*. With AdGuard VPN, *there’s no limit* to the number of devices that can be logged in to your account, but you can have five VPN connections enabled at the same time. Those who don’t have a subscription can use AdGuard VPN on *two devices*, which gives us another trump card to play against competitors — most of the VPN services only have *one device* in their free versions.
 
 ## 11. Secure streaming 
