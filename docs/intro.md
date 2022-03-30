@@ -27,7 +27,7 @@ Passwords, card details, and just plain personal information are at risk when a 
 AdGuard has been present on the market of personal data protection and ad blocking and developing its line of software for more than 12 years. Over this time, our company has built an impeccable reputation, and the number of our customers has exceeded 30 million.
 
 ### Unique VPN protocol
-The main difference between AdGuard VPN and its competitors is that we use [our own developed protocol](how-adguard-vpn-protocol-works.md). It disguises itself as normal traffic, so it is much more difficult to track and block it.
+The main difference between AdGuard VPN and its competitors is that we use [our own developed protocol](adguard-vpn-protocol.md). It disguises itself as normal traffic, so it is much more difficult to track and block it.
 
 ### No logs policy
 No logs policy means that we don’t collect, store or transfer users’ personal data to third parties. The full text of AdGuard privacy policy can be found [here](https://adguard-vpn.com/en/privacy.html).
