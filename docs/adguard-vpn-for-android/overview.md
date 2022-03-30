@@ -13,11 +13,11 @@ A VPN is an ideal tool that provides security and anonymity each time you browse
 * Preventing online activity tracking by masking the IP address
 * Hiding the real geolocation to remain anonymous 
  
-AdGuard VPN for Android can do it all for you — and even offer something unique. To find out why AdGuard VPN is the better option — read [this article](/general/adguard-vpn-is-the-better-option.md). 
+AdGuard VPN for Android can do it all for you — and even offer something unique. To find out why AdGuard VPN is the better option — read [this article](/general/why-adguard-vpn.md). 
 
 ## How to start using AdGuard VPN for Android
  
-AdGuard VPN for Android is a very user-friendly app. Firstly, download it from [Google Play](https://play.google.com/store/apps/details?id=com.adguard.vpn) and log into your AdGuard account. In case you don’t have it — you should [create it](https://auth.adguard.com/login.html). You can sign in directly with your AdGuard account credentials. Or do it via Google or Facebook, if your AdGuard account was registered using the same email address.
+Firstly, download AdGuard VPN from [Google Play](https://play.google.com/store/apps/details?id=com.adguard.vpn) and log into your AdGuard account. In case you don’t have it — you should [create it](https://auth.adguard.com/login.html). You can sign in directly with your AdGuard account credentials. Or do it via Google or Facebook, if your AdGuard account was registered using the same email address.
 
  
 ## Main Screen
@@ -108,26 +108,10 @@ In the *Advanced settings*, you can find five sections. You can *Help us to beco
 The next two sections are *Logging level* and *Diagnostic info*. Concerning the first option, it is not recommended to enable the Extended logging level unless requested by our support team. Diagnostic info, locally stored technical information about the device and connections (IP address, ID, ping, etc.), can be sent to us in case of any technical problems. 
  
 The last section of *Advanced settings* is *Low-level settings*. We urge you not to enter this section unless you are highly qualified or have been asked to do so by our support team. There you will find some options to customize the AdGuard VPN to meet your needs even more. Enable TUN interface logging or IPv6 protocol on the VPN interface, choose a proxy server port or Internet protocol version that should be used — but only if you have the necessary knowledge.
- 
-## Unlimited version 
- 
-You can use AdGuard VPN for Android for free, but then there will be certain restrictions:
 
-* Only 2 devices on which you can simultaneously enable AdGuard VPN
-* 3 GB of traffic per month restriction  
-* 20 Mbit/sec speed limit
-* Only some of the server locations are available
-
-At the same time you can purchase a subscription to get an unlimited version of the app. In the *Settings* choose *About license* and press the *Manage* button. You will be sent to the browser page where you can choose a Monthly, a Yearly or a Two-year payment plan.
+### Support
  
-A subscription allows to have more benefits in comparison with a free account:
- 
-* 5 simultaneously connected devices 
-* Unlimited traffic 
-* No speed cap 
-* All 50+ locations are available 
- 
-You can read more about the differences between the free and the paid versions in [this article](http://kb.adguard.com/en/vpn/adguard-vpn-general/free-and-full-versions).
+At the *Support* section you can leave feedback, report a bug, or export logs and system info for further submission to the helpdesk.
  
  
 
