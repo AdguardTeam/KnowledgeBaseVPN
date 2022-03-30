@@ -1,7 +1,6 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
-const DNS_WEBSITE_URL = 'https://adguard-dns.io';
 const ADGUARD_WEBSITE_URL = 'https://adguard.com';
 const VPN_WEBSITE_URL = 'https://adguard-vpn.com';
 
@@ -39,12 +38,12 @@ module.exports = {
           label: 'docs',
         },
         {
-          to: ADGUARD_WEBSITE_URL + '/blog/tag/adguard-dns.html',
+          to: VPN_WEBSITE_URL + '/blog/index.html',
           position: 'left',
           label: 'blog',
         },
         {
-          to: DNS_WEBSITE_URL,
+          to: VPN_WEBSITE_URL,
           position: 'left',
           label: 'official_website',
         },
@@ -62,72 +61,101 @@ module.exports = {
     footer: {
       style: 'light',
       logo: {
-        alt: 'AdGuard DNS',
+        alt: 'AdGuard VPN',
         src: 'img/logo_dark.svg',
         srcDark: 'img/logo_dark.svg',
       },
       links: [
         {
-          title: 'dns',
+          title: 'vpn',
           items: [
             {
-              html: `Cloud-based DNS service that will help you protect privacy and block ads.`
+              label: 'About',
+              href: VPN_WEBSITE_URL + '/about-us.html',
+            },
+            {
+              label: 'Official Site',
+              href: VPN_WEBSITE_URL,
+            },
+            {
+              label: 'What is VPN',
+              href: VPN_WEBSITE_URL + '/what-is-vpn.html',
+            },
+            {
+              label: 'Blog',
+              href: VPN_WEBSITE_URL + '/blog/index.html',
+            },
+            {
+              label: 'Discuss',
+              href: ADGUARD_WEBSITE_URL + '/discuss.html',
             },
           ]
         },
         {
-          title: 'dns',
+          title: 'Products',
           items: [
             {
-              label: 'connect_dns',
-              href: DNS_WEBSITE_URL + '/public-dns.html',
+              label: 'AdGuard VPN for Android',
+              href: VPN_WEBSITE_URL + '/android/overview.html',
             },
             {
-              label: 'support_center',
-              href: DNS_WEBSITE_URL + '/support.html',
+              label: 'AdGuard VPN for Windows',
+              href: VPN_WEBSITE_URL + '/windows/overview.html',
             },
             {
-              label: 'faq',
-              href: DNS_WEBSITE_URL + '/support/faq.html',
+              label: 'AdGuard VPN for Mac',
+              href: VPN_WEBSITE_URL + '/mac/overview.html',
+            },
+            {
+              label: 'AdGuard VPN for iOS',
+              href: VPN_WEBSITE_URL + '/ios/overview.html',
             },
           ],
         },
         {
-          title: 'engage',
+          title: 'Support',
           items: [
             {
-              label: 'blog',
-              href: ADGUARD_WEBSITE_URL + '/blog/tag/adguard-dns.html',
+              label: 'Support',
+              href: VPN_WEBSITE_URL + '/support/support.html',
             },
             {
-              label: 'privacy_policy',
-              href: ADGUARD_WEBSITE_URL + '/privacy/dns.html',
+              label: 'How to install AdGuard VPN',
+              href: 'https://kb.adguard.com/vpn/installation',
             },
             {
-              label: 'terms',
-              href: ADGUARD_WEBSITE_URL + '/eula.html',
+              label: 'FAQ',
+              href: VPN_WEBSITE_URL + '/support/faq.html',
             },
             {
-              label: 'status',
+              label: 'Status Page',
               href: 'https://status.adguard.com/',
+            },
+            {
+              label: 'AdGuard test page',
+              href: ADGUARD_WEBSITE_URL + '/test.html',
             }
           ],
         },
         {
-          title: 'other_products',
+          title: 'License',
           items: [
             {
-              label: 'ad_blocker',
-              href: ADGUARD_WEBSITE_URL,
+              label: 'Purchase a license',
+              href: VPN_WEBSITE_URL + '/license.html',
             },
             {
-              label: 'vpn',
-              href: VPN_WEBSITE_URL,
+              label: 'Contribute to AdGuard',
+              href: ADGUARD_WEBSITE_URL + '/contribute.html',
+            },
+            {
+              label: 'Distribution',
+              href: ADGUARD_WEBSITE_URL + '/distribution.html',
             },
           ],
         },
       ],
-      copyright: `© AdGuard DNS, ${new Date().getFullYear()}`,
+      copyright: `© AdGuard VPN, ${new Date().getFullYear()}`,
     },
     prism: {
       theme: lightCodeTheme,
