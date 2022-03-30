@@ -41,7 +41,7 @@ In addition to these VPN protocols, there are others (for example, TLS, SSTP, IK
 
 ![How a VPN protocol works](https://cdn.adguard.com/public/Adguard/Blog/vpn/protocol/4.svg)
 
-AdGuard VPN also has its own [*protocol*](how-adguard-vpn-protocol-works.md). One of its advantages is that the traffic transmitted using the AdGuard VPN protocol is difficult to distinguish from the regular traffic. The VPN tunnel looks like normal HTTPS traffic, so it is extremely difficult to detect and block it. In addition, it is based on the mechanisms of the modern HTTP/2 protocol, which ensures high connection speed.
+AdGuard VPN also has its own [*protocol*](adguard-vpn-protocol.md). One of its advantages is that the traffic transmitted using the AdGuard VPN protocol is difficult to distinguish from the regular traffic. The VPN tunnel looks like normal HTTPS traffic, so it is extremely difficult to detect and block it. In addition, it is based on the mechanisms of the modern HTTP/2 protocol, which ensures high connection speed.
 
 ![How concealed VPN works](https://cdn.adguard.com/public/Adguard/Blog/vpn/protocol/5.svg)
 
@@ -65,7 +65,7 @@ A weak signal, network overload, VPN incompatibility with a firewall, antivirus 
 
 Our VPN service has several important [advantages](why-adguard-vpn.md):
 
-* [*Proprietary VPN protocol*](how-adguard-vpn-protocol-works.md), which works stably even with a slow Internet connection and disguises itself as normal traffic, making it more difficult to track and block it
+* [*Proprietary VPN protocol*](adguard-vpn-protocol.md), which works stably even with a slow Internet connection and disguises itself as normal traffic, making it more difficult to track and block it
 
 * [*"No-logs" policy*](https://adguard-vpn.com/en/privacy.html), which means that AdGuard VPN does not collect your personal data and does not transfer it to third parties
 
