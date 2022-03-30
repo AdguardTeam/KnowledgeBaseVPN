@@ -27,7 +27,6 @@ Next goes the *Exclusions* screen. AdGuard VPN has several features that make it
 ![Exclusions screen](https://cdn.adguard.com/public/Adguard/Blog/vpn_export_exclusions.png)
 
 Also you can not only add websites to Exclusions but also choose among the lists of popular services. The lists are divided into eight categories: Social networks, Messengers, Video and Music streaming services, Games, Shopping, Search engines, and Work communication tools. Any of these services can be added to Exclusions in one click! It's especially convenient if you use Selective mode.
-> This feature is available on all platforms except iOS.
 
 Exclusion list can be easily configured. If you've added a domain and some of its subdomains, they'll be grouped inside the root one. When adding a root domain (`example.com`) its mask is added too (`*.example.com`). 
 
