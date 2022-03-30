@@ -39,4 +39,4 @@ In most cases, the default logging level is sufficient to trace down possible bu
 
 >If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, select **Settings** → **General** → **Export logs** in the **Actions** section on the right.
 
-This section is updated regularly. If you have not found a solution to your problem in the articles given in this section, contact AdGuard technical support at  support@adguard-vpn.com.
+This section is updated regularly. If you have not found a solution to your problem in the articles given in this section, contact AdGuard technical support at support@adguard-vpn.com.

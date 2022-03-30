@@ -26,6 +26,13 @@ Next goes the *Exclusions* screen. AdGuard VPN has several features that make it
 
 ![Exclusions screen](https://cdn.adguard.com/public/Adguard/Blog/vpn_export_exclusions.png)
 
+Also you can not only add websites to Exclusions but also choose among the lists of popular services. The lists are divided into eight categories: Social networks, Messengers, Video and Music streaming services, Games, Shopping, Search engines, and Work communication tools. Any of these services can be added to Exclusions in one click! It's especially convenient if you use Selective mode.
+> This feature is available on all platforms except iOS.
+
+Exclusion list can be easily configured. If you've added a domain and some of its subdomains, they'll be grouped inside the root one. When adding a root domain (`example.com`) its mask is added too (`*.example.com`). 
+
+If you've added a service, changed or removed something and now want to recover initial settings, just press *Reset to default* next to the domain — this action will restore any missing domains and tick all checkboxes.
+
 What’s more, ready-made exclusions lists can be transferred to other devices with installed AdGuard VPN. To export exclusions, follow the four-step instruction below:
 
 1. Open AdGuard VPN on the device from where you want to export your lists of exclusions. Find the appropriate section and click on the *Export* button. The `exclusions.zip` archive will be downloaded.
@@ -35,21 +42,11 @@ What’s more, ready-made exclusions lists can be transferred to other devices w
 
 > Archive files from other devices can be similarly imported to your AdGuard VPN for Mac.
 
-## Exclusions 2.0
-
-In version 1.2 we have improved Exclusions. Now you can not only add websites to Exclusions but also choose among the lists of popular services. The lists are divided into eight categories: Social networks, Messengers, Video and Music streaming services, Games, Shopping, Search engines, and Work communication tools. Any of these services can be added to Exclusions in one click! 
-> This feature is available on all platforms except iOS.
-
-Also Exclusion list 2.0 can be easily configured. If you've added a domain and some of its subdomains, they'll be grouped inside the root one. When adding a root domain (example.com) its mask is added too (*.example.com). 
-
-If you've added a service, changed or removed something and now want to recover initial settings, just press *Reset to default* next to the domain — this action will restore any missing domains and tick all checkboxes.
-
-
 ## Support
 
 ![Support screen](https://cdn.adguard.com/public/Adguard/Blog/vpn/release/VPN_for_Mac/support.png)
 
-The third tab is the *Support* screen. Find answers to any questions in the [FAQ](https://adguard-vpn.com/en/welcome.html#faq) or in the [Knowledge base](/intra.md) sections, report a bug if you encounter one, or [discuss AdGuard on any of the platforms](https://adguard.com/en/discuss.html). And feel free to [leave feedback about our product](https://surveys.adguard.com/en/vpn_mac/form.html), we’d appreciate it. 
+The third tab is the *Support* screen. Find answers to any questions in the [FAQ](https://adguard-vpn.com/en/welcome.html#faq) or in the [Knowledge base](/intro.md) sections, report a bug if you encounter one, or [discuss AdGuard on any of the platforms](https://adguard.com/en/discuss.html). And feel free to [leave feedback about our product](https://surveys.adguard.com/en/vpn_mac/form.html), we’d appreciate it. 
 
 ## Settings
 
