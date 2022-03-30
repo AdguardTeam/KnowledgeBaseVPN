@@ -70,86 +70,86 @@ module.exports = {
           title: 'vpn',
           items: [
             {
-              label: 'About',
+              label: 'about',
               href: VPN_WEBSITE_URL + '/about-us.html',
             },
             {
-              label: 'Official Site',
+              label: 'official',
               href: VPN_WEBSITE_URL,
             },
             {
-              label: 'What is VPN',
+              label: 'what_is_vpn',
               href: VPN_WEBSITE_URL + '/what-is-vpn.html',
             },
             {
-              label: 'Blog',
+              label: 'blog',
               href: VPN_WEBSITE_URL + '/blog/index.html',
             },
             {
-              label: 'Discuss',
+              label: 'discuss',
               href: ADGUARD_WEBSITE_URL + '/discuss.html',
             },
           ]
         },
         {
-          title: 'Products',
+          title: 'products',
           items: [
             {
-              label: 'AdGuard VPN for Android',
+              label: 'vpn_android',
               href: VPN_WEBSITE_URL + '/android/overview.html',
             },
             {
-              label: 'AdGuard VPN for Windows',
+              label: 'vpn_windows',
               href: VPN_WEBSITE_URL + '/windows/overview.html',
             },
             {
-              label: 'AdGuard VPN for Mac',
+              label: 'vpn_mac',
               href: VPN_WEBSITE_URL + '/mac/overview.html',
             },
             {
-              label: 'AdGuard VPN for iOS',
+              label: 'vpn_ios',
               href: VPN_WEBSITE_URL + '/ios/overview.html',
             },
           ],
         },
         {
-          title: 'Support',
+          title: 'support',
           items: [
             {
-              label: 'Support',
+              label: 'support',
               href: VPN_WEBSITE_URL + '/support/support.html',
             },
             {
-              label: 'How to install AdGuard VPN',
+              label: 'how_to_install',
               href: 'https://kb.adguard.com/vpn/installation',
             },
             {
-              label: 'FAQ',
+              label: 'faq',
               href: VPN_WEBSITE_URL + '/support/faq.html',
             },
             {
-              label: 'Status Page',
+              label: 'status',
               href: 'https://status.adguard.com/',
             },
             {
-              label: 'AdGuard test page',
+              label: 'test',
               href: ADGUARD_WEBSITE_URL + '/test.html',
             }
           ],
         },
         {
-          title: 'License',
+          title: 'license',
           items: [
             {
-              label: 'Purchase a license',
+              label: 'license',
               href: VPN_WEBSITE_URL + '/license.html',
             },
             {
-              label: 'Contribute to AdGuard',
+              label: 'contribute',
               href: ADGUARD_WEBSITE_URL + '/contribute.html',
             },
             {
-              label: 'Distribution',
+              label: 'distribution',
               href: ADGUARD_WEBSITE_URL + '/distribution.html',
             },
           ],
