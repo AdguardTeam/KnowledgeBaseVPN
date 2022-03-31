@@ -1,5 +1,5 @@
 ---
-title: AdGuard VPN for Mac installation and removal
+title: Installation and removal
 sidebar_position: 2
 ---
 
