@@ -1,44 +1,80 @@
 ---
-title: Overview
+title: AdGuard VPN Overview
 sidebar_position: 1
-slug: /
 ---
 
-## What is DNS
+## What a VPN is and why you need one
 
-DNS stands for "Domain name system", and its purpose is to convert websites' names into IP addresses. Each time you go to a website, your browser sends a DNS query to a DNS server to figure out the IP address of the website. And a regular DNS resolver simply returns the IP address of the requested domain.
+A VPN allows you to create a secure connection to another network on the Internet.
 
-> The default DNS server is usually provided by your ISP. This means that your ISP can track your online activity and sell logs to third parties.
+Initially, VPNs were created for one purpose — to securely connect business networks over the Internet, so that people could connect to the corporate network from home. Now this technology is used for many other things: for example, to get access to websites with geo restrictions, or to protect your online activity from prying eyes while using public Wi-Fi.
 
-![Your device always uses some DNS server to obtain IP addresses of the domain name apps want to navigate to](https://cdn.adguard.com/public/Adguard/Blog/scr1.png)
+A VPN connects a user's computer or mobile device to a server and allows one to browse the net using someone else's IP address. So if the VPN server is located in a different country, it will appear that you have connected to the Internet from that country, hence, plenty of resources will become available to you.
 
-There are also DNS servers that can block certain websites at DNS level. How do they work? When your device sends a "bad" request, be it an ad or a tracker, a DNS server prevents the connection by responding with a non routable IP address for a blocked domain.
+Speaking of VPN, the first thing they mention is traffic encryption and security deriving from it. But what does it mean? A VPN creates an encrypted tunnel between the user's device and the remote server. All your web traffic passes through this tunnel, so your data is protected along the way. For the external observer, your traffic exits the VPN server, so it looks like your device has the IP address of this server. This trick masks the user's identity and true location.
 
-## Why use DNS for content blocking
+VPN can be used to:
 
-Absolutely everything is connected to the Internet these days, from TV to smart light bulbs, from mobile devices to smart auto. And where the Internet is, there are ads and trackers. In this case, a browser-based ad blocker seems to be not enough. To get a better protection, use DNS in combination with VPN and ad blocker.
+* hide your real whereabouts and stay anonymous
+* secure your data — even when connecting to a public Wi-Fi, you can browse the Web safely
+* protect yourself from spoofing (network traffic interception) and tracking on the part of your Internet service provider
 
-Using DNS for content blocking has some advantages as well as obvious flaws. On the one hand, DNS has no blind spots since it observes all devices and not just the browsers. But, on the other hand, DNS blocking alone cannot provide cosmetic filtering.
+Passwords, card details, and just plain personal information are at risk when a user surfs the Internet. But if you connect to the global network using a VPN, you can be sure that no one can intercept your data.
 
-## What is AdGuard DNS
+## Why AdGuard VPN
 
-AdGuard DNS is one of the most privacy-friendly DNS services on the market. It supports such reliable encryption protocols as DNS-over-HTTPS, DNS-over-TLS, and DNS-over-QUIC. It can work as a regular DNS resolver in Non-filtering mode, but also it can provide DNS level content blocking: identify requests to ad, tracking, and/or adult domains (optionally), and respond with an empty response. AdGuard has its own base of domain names that serve ads, trackers, and fraud, and it is regularly updated.
+### Trusted developer
+AdGuard has been present on the market of personal data protection and ad blocking and developing its line of software for more than 12 years. Over this time, our company has built an impeccable reputation, and the number of our customers has exceeded 30 million.
 
-![An approximate scheme of how AdGuard DNS works](https://cdn.adguard.com/public/Adguard/Blog/scr2.png)
+### Unique VPN protocol
+The main difference between AdGuard VPN and its competitors is that we use [our own developed protocol](/general/adguard-vpn-protocol.md). It disguises itself as normal traffic, so it is much more difficult to track and block it.
 
-> About 75% of AdGuard DNS traffic is encrypted. This is actually what differentiates content blocking DNS servers from others. If you take a look at CloudFlare or Quad9 stats, you’ll see that encrypted DNS is just a small share of all queries.
+### No logs policy
+No logs policy means that we don’t collect, store or transfer users’ personal data to third parties. The full text of AdGuard privacy policy can be found [here](https://adguard-vpn.com/en/privacy.html).
 
-AdGuard DNS exists in two main forms: [public AdGuard DNS](public-dns/overview.md) and [private AdGuard DNS](private-dns/overview.md). Both of these services do not require installing any apps. They are easy to set up and use, and provide users with the minimum features necessary to block ads, trackers, malicious websites, and adult content (if required). There are no restrictions on what devices they can be used with.
+### Tracking protection
+Web traffic from any user may be of interest and is particularly valuable in terms of monetization of personal data. Both criminals and unscrupulous ISPs can access it. However, with a trustworthy VPN, you can be confident that neither your provider nor anyone else will see your internet activity.
 
-Despite so many similarities, private AdGuard DNS and public AdGuard DNS are two different services. Their main difference is that you can customize private AdGuard DNS, while public AdGuard DNS cannot.
+### Ultrafast VPN servers in 41 country
 
-## DNS filtering module in AdGuard products
-
-All major AdGuard products, including AdGuard VPN, have a **DNS filtering module** where you can select a DNS server by a provider you trust. Of course, AdGuard DNS Default, AdGuard DNS Non-filtering and AdGuard DNS Family Protection are on the list. Also, AdGuard apps allow users to [easily configure and use AdGuard DNS](https://adguard-dns.io/en/public-dns.html) — public or private.
-
-
-
-
-
-
-
+* Australia
+* Austria
+* Belgium
+* Brazil
+* Bulgaria
+* Cambodia
+* Canada
+* Czech Republic
+* Denmark
+* Egypt
+* Finland
+* France
+* Germany
+* Greece
+* Hong Kong
+* India
+* Ireland
+* Israel
+* Italy
+* Japan
+* Luxembourg
+* Netherlands
+* Norway
+* Philippines
+* Poland
+* Romania
+* Russia
+* Serbia
+* Singapore
+* South Africa
+* South Korea
+* Spain
+* Sweden
+* Switzerland
+* Taiwan
+* Turkey
+* United Kingdom
+* UAE
+* USA
+* Ukraine
+* Vietnam
