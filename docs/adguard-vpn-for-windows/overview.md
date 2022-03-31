@@ -34,7 +34,7 @@ At the top of the screen there is a navigation panel with four tabs: **Home**, *
 
 ## Exclusions
 
-AdGuard VPN for Windows can work in two modes: **General** or **Selective**. What does this mean? If you want the application to work on all but a few sites, activate the **General mode** and list the resources you want to exclude from the tunnel. The **Selective mode** has the opposite effect: it activates AdGuard VPN only on the websites specified in the exclusion list. 
+AdGuard VPN for Windows can work in two modes: **General** or **Selective**. What does this mean? If you want the application to work on all but a few sites, activate the **General mode** and list the resources you want to exclude from the tunnel. The **Selective mode** has the opposite effect: it activates AdGuard VPN only on the websites specified in the exclusion list. Please note that these two modes' exclusions lists are independent from one another.
 
 ![Exclusions](https://cdn.adguard.com/public/Adguard/kb/VPN/for_windows/exclusions_en.png)
 
@@ -117,24 +117,3 @@ Here you will find information about your license status, as well as a link to y
 ## Support
 
 In this tab we've collected a lot of useful links: FAQ page, application feedback form, social media pages, and **Knowledge Base**.
-
-
-## Unlimited version
-
-You can use AdGuard VPN for Windows for free, but then certain restrictions apply:
-
-* AdGuard VPN can only be used on two devices at the same time
-* 3GB/month traffic limit  
-* Speed limit of 20 Mbit/sec.
-* Many locations are not available
-
-In the meantime, you can purchase a subscription to get access to an unlimited version of the app. In **Settings** select **About License** and click the **Manage License** button. You will be sent to the browser page where you can select the **Monthly** or **Yearly** payment plan.
- 
-Subscription allows you to get more benefits than the free version:
- 
-* Up to five connected devices at the same time
-* Unlimited traffic
-* No speed limit
-* All 50+ locations available
- 
-You can read more about the differences between the free and the paid versions of AdGuard VPN in [this article](http://kb.adguard.com/en/vpn/adguard-vpn-general/free-and-full-versions).
