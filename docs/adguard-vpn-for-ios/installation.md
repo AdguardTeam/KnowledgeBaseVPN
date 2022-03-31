@@ -7,7 +7,7 @@ sidebar_position: 2
 
 AdGuard VPN can only be installed on devices with **iOS 11.2 and iPadOS 11.2 or later**.
 
-## AdGuard VPN for iOS installation
+## How to install AdGuard VPN for iOS
 
 You can download and install the *AdGuard VPN for iOS* app for free in the *App Store*. To do this, follow [this link](https://agrd.io/ios_vpn) and tap on the *Download* icon or follow a few simple steps:
 
@@ -27,10 +27,10 @@ You can download and install the *AdGuard VPN for iOS* app for free in the *App 
 
 AdGuard VPN for iOS has been successfully installed!
 
-## AdGuard VPN for iOS uninstallation
+## How to uninstall AdGuard VPN for iOS
 
 If you decided to delete AdGuard VPN for iOS, find the icon of this app on the Home Screen and hold it. In the opened list, tap *Remove App*.
 
 ![Uninstall](https://cdn.adguard.com/public/Adguard/kb/vpn-install/deinstall-en.png)
 
-You can learn more about the AdGuard VPN app for iOS in [this article](../adguard-vpn-for-ios/overview.md).
+You can learn more about the AdGuard VPN app for iOS in [this article](overview.md).

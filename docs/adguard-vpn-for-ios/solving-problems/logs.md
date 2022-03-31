@@ -3,9 +3,6 @@ title: How to collect and send logs
 sidebar_position: 2
 ---
 
-* [Collecting and sending standard logs](#collecting-and-sending-standard-logs)
-* [Collecting and sending extended logs](#Collecting-and-sending-extended-logs)
-
 If you encounter a problem when using AdGuard VPN for iOS, you can inform us about it by sending application logs.
 
 ## Collecting and sending standard logs

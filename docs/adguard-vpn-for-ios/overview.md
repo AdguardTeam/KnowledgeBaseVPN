@@ -13,7 +13,7 @@ Speaking of AdGuard VPN, it has several functions:
 * encrypts your traffic to make it unreachable to scammers
 * lets you configure where to use VPN and where not to (exclusions feature)
 
-The next advantage of AdGuard VPN for iOS is our own VPN protocol. It has two main benefits: comparing to other VPN protocols it is extremely hard to detect and it works stably even with a poor Internet connection. You can read more about AdGuard VPN protocol [in this article](../general/how-adguard-vpn-protocol-works.md).
+The next advantage of AdGuard VPN for iOS is our own VPN protocol. It has two main benefits: comparing to other VPN protocols it is extremely hard to detect and it works stably even with a poor Internet connection. You can read more about AdGuard VPN protocol [in this article](../general/adguard-vpn-protocol.md).
 
 ## How to use AdGuard VPN for iOS
 
@@ -23,17 +23,17 @@ If you don't have an AdGuard account yet, you will have to create it first.
 
 Using AdGuard VPN is quite easy. On the main screen you can see the *Connect/Disconnect* button and the list of available servers. There servers have their own location (a certain country and a city) and ping indicator. The ping describes the response time of the server (in milliseconds). For example, choosing the server with the ping of 22 ms means that the signal will reach the server and return back in 22 milliseconds. So the lower this rate, the faster is your connection. In AdGuard VPN you can choose among over 50 locations in dozens of countries.
 
-![connected](https://cdn.adguard.com/public/Adguard/kb/vpn-ios-screenshots/connected.png)
+![Main screen when VPN is connected](https://cdn.adguard.com/public/Adguard/kb/vpn-ios-screenshots/connected.png)
 
-![locations](https://cdn.adguard.com/public/Adguard/kb/vpn-ios-screenshots/locations.png)
+![Locations screen](https://cdn.adguard.com/public/Adguard/kb/vpn-ios-screenshots/locations.png)
 
 ## Lists of exclusions
 
 You can find the exclusion feature by tapping the middle button below. There you will see two exclusion lists — for Regular and Selective Modes. In the Regular mode the VPN works on all websites except for the ones from the exclusion list. In the Selective mode, conversely, the VPN operates only on the sites from the list. You can add domains (e.g. `google.com`) or subdomains (e.g. `*.google.com`) of websites in two ways: you can enter them manually in the app or right from the browser by clicking the *Share* button and finding AdGuard VPN in the opened list below.
 
-![Exclusions](https://cdn.adguard.com/public/Adguard/kb/vpn-ios-screenshots/exclusions.png)
+![Exclusions screen](https://cdn.adguard.com/public/Adguard/kb/vpn-ios-screenshots/exclusions.png)
 
-![Add an exclusion](https://cdn.adguard.com/public/Adguard/kb/vpn-ios-screenshots/add-an-exclusion.png)
+![Adding an exclusion](https://cdn.adguard.com/public/Adguard/kb/vpn-ios-screenshots/add-an-exclusion.png)
 
 Another useful feature is the import/export of exclusion lists. You can do it by following the next four steps:
 
@@ -45,13 +45,16 @@ Another useful feature is the import/export of exclusion lists. You can do it by
 
 4. Open AdGuard VPN on the device where you want to import the archive with the ready lists of exclusions. Find the appropriate section, click on the *Import* button and select the archive.
 
-![Import export exclusions](https://cdn.adguard.com/public/Adguard/kb/vpn-ios-screenshots/import-export-exclusions.png)
+![Import/export exclusions](https://cdn.adguard.com/public/Adguard/kb/vpn-ios-screenshots/import-export-exclusions.png)
 
 ## App settings
 
-You can find App settings by pressing the *Settings* button in the bottom right of the screen. You can configure AdGuard VPN for iOS as you need by selecting different options.
+To reach App settings:
 
-![Settings](https://cdn.adguard.com/public/Adguard/kb/vpn-ios-screenshots/settings.png)
+1. Tap Settings button (⚙) in the bottom right corner of the AdGuard VPN app's main screen
+2. Tap *App settings* 
+
+Here, you can configure AdGuard VPN for iOS as you need using different options: Operating Mode, DNS server, Wi-Fi auto-protection, Color Theme and Advanced Settings.
 
 ![App Settings](https://cdn.adguard.com/public/Adguard/kb/vpn-ios-screenshots/app-settings.png)
 
@@ -69,7 +72,7 @@ In **Integrated** mode, AdGuard VPN will be able to work at the same time with A
 
 The purpose of Domain name system (DNS) is to translate websites' names into something browsers can understand, i.e. IP addresses. This job is performed by DNS servers. AdGuard VPN for iOS offers a choice between several DNS servers, each with their own special qualities. For example, AdGuard DNS removes ads and protects your device from tracking while AdGuard DNS Family Protection combines the functions of AdGuard DNS with SafeSearch and adult content blocking. DNS servers by different DNS providers may also work faster or slower depending on your location, ISP, and other factors. Choose the one that works best for you. You can find out more about DNS and its characteristics [in this article](https://kb.adguard.com/en/general/dns-filtering#what-is-dns).
 
-![DNS server](https://cdn.adguard.com/public/Adguard/kb/vpn-ios-screenshots/dns-server.png)
+![DNS server screen](https://cdn.adguard.com/public/Adguard/kb/vpn-ios-screenshots/dns-server.png)
 
 ### Wi-Fi auto-protection
 
@@ -95,19 +98,3 @@ To access this feature, touch and hold the app icon, then lift your finger. You'
 The users' accomplishment is the high priority for us. So there is a variety of helping features in the app (press the *Settings* button at the bottom right and then *Support*): you can see the FAQ section, report a bug, leave feedback, discuss your problems and suggestions on our forum, in social networks, or on GitHub, rate AdGuard VPN for iOS in the App Store and export logs.
 
 ![Support](https://cdn.adguard.com/public/Adguard/kb/vpn-ios-screenshots/support.png)
-
-## Unlimited version
-
-You can purchase a subscription of AdGuard VPN to get the unlimited version of the App. In the *Settings* choose *About license* and press the *Manage* button. You will be sent to the browser page where you can choose a monthly or a yearly payment plan. 
-
-A subscription allows to have more benefits comparing to a free account:
-
-* 5 simultaneously connected devices *vs.* 2 devices
-
-* Unlimited traffic *vs.* 3 GB of traffic per month
-
-* No speed cap *vs.* 20 Mbit/sec speed limit
-
-* All locations *vs.* limited number of locations
-
-You can read more about the differences between a free and a paid version [in this arcticle](../general/free-and-full-versions.md).
