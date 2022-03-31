@@ -5,11 +5,11 @@ sidebar_position: 1
 
 AdGuard VPN Browser extension is available for Chrome, Firefox, and Edge. The UI and functionality doesn't differ between browsers so the overview below will be relevant for AdGuard VPN extensions for all browsers.
 
-> Note that you can only use the AdGuard VPN Browser extension when logged in. Sign in with your AdGuard account or via Google, Facebook, or Apple. In the latter case make sure that your account is bound to the same email address as your AdGuard account. If you have an [AdGuard VPN subscription](/general/subscription.md), it will be activated automatically in the AdGuard VPN Browser extension. Don’t have an AdGuard account yet? [Create it here](https://auth.adguard.com/registration.html).
+> Note that you can only use AdGuard VPN Browser extension when logged in. Sign in with your AdGuard account or via Google, Facebook, or Apple. In the latter case make sure that your account is bound to the same email address as your AdGuard account. If you have an [AdGuard VPN subscription](/general/subscription.md), it will be activated automatically in AdGuard VPN Browser extension. Don’t have an AdGuard account yet? [Create it here](https://auth.adguard.com/registration.html).
 
-To manage your AdGuard VPN browser extension, either
+To manage your AdGuard VPN Browser extension, either
 
-* Click its icon on the browser's panel, then click three stripes and select *settings*, or
+* Click its icon on the browser's panel, then click three stripes and select *Settings*, or
 * Go to your browser's *Manage extensions* page and enter the AdGuard VPN's settings from there.
 
 Once done, you'll see several tabs on the left:
@@ -20,7 +20,7 @@ A few important settings are gathered inside this tab. Here you can choose a DNS
 
 ### Choosing a DNS server
 
-By default, the [system DNS server](https://kb.adguard.com/en/general/dns-filtering#what-is-dns) provided by your ISP is selected, but it may compromise your privacy. With the AdGuard VPN Browser extension, you can select a DNS server that provides better speed and security, and even blocks ads or potentially dangerous domains. Brief descriptions under the names of DNS servers will help you navigate and make your decision. 
+By default, the [system DNS server](https://kb.adguard.com/en/general/dns-filtering#what-is-dns) provided by your ISP is selected, but it may compromise your privacy. With AdGuard VPN Browser extension, you can select a DNS server that provides better speed and security, and even blocks ads or potentially dangerous domains. Brief descriptions under the names of DNS servers will help you navigate and make your decision. 
 
 Learn more about [DNS servers from various providers](https://kb.adguard.com/ru/general/dns-providers).
 
@@ -36,7 +36,7 @@ When adding a website to the exclusions list, you can enter the website manually
 
 Not only can you add and remove websites, you can also transfer ready exclusions lists to other devices where AdGuard VPN is installed. To export your exclusions list, follow the 4-step instruction below:
 
-1. Open the AdGuard VPN Browser extension from where you want to export your lists of exclusions. Find the appropriate section and click the "Export" button. The exclusions.zip archive will be downloaded.
+1. Open AdGuard VPN Browser extension from where you want to export your lists of exclusions. Find the appropriate section and click the "Export" button. The `exclusions.zip` archive will be downloaded.
 2. There are two `.txt` files inside the archive, one for each of the Regular and Selective lists. Add more exclusions to them, delete the existing ones, rename files, or just leave the archive as it is.
 3. When transferring between different devices, send the `.zip` file to the device for import.
 4. Open AdGuard VPN on that device. Find the appropriate section, click the "Import" button and select the archive.
@@ -44,7 +44,7 @@ Done!
  
 ## Account
 
-The third tab of the AdGuard VPN Browser extension is utterly minimalistic, containing only the email address you used to sign in to your account and two buttons, *Manage* and *Sign out*. Clicking the *Manage* button takes you to your personal AdGuard account, where you can see all your current licenses and subscriptions, as well as devices connected to them.
+The third tab of AdGuard VPN Browser extension is utterly minimalistic, containing only the email address you used to sign into your account and two buttons, *Manage* and *Sign out*. Clicking the *Manage* button takes you to your personal AdGuard account, where you can see all your current licenses and subscriptions, as well as devices connected to them.
 
 ## Support
 
