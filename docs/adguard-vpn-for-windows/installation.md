@@ -1,5 +1,5 @@
 ---
-title: 'Installation'
+title: 'How to install and uninstall'
 sidebar position: 2
 ---
 

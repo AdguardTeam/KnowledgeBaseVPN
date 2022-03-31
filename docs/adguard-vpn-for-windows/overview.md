@@ -6,17 +6,17 @@ sidebar position: 1
 
 ## What is AdGuard VPN for Windows
 
-A VPN, that stands for "virtual private network", is a service that makes your internet connection safe and helps you stay anonymous online. How does it work? Every time you visit a website without using a VPN, your ISP sees it. It knows who you are and what you're looking for, and it can collect and sell this data. In it's turn, the website you came to can also track your activity. When you enable a VPN application, it redirects your traffic through an encrypted tunnel to a remote VPN server, ensuring your privacy: the ISP doesn't know where to you sent a request, and the site doesn't know where you came from. 
+A VPN, acronym for "virtual private network", is a service that makes your internet connection safe and helps you stay anonymous online. How does it work? Every time you visit a website without using a VPN, your ISP sees it. It knows who you are and what you're looking for, and it can collect and sell this data. In it's turn, the website you came to can also track your activity. When you enable a VPN application, it redirects your traffic through an encrypted tunnel to a remote VPN server, ensuring your privacy: the ISP doesn't know where to you sent a request, and the site doesn't know where you came from. 
 
 **What does AdGuard VPN for Windows do**
 
-* Protects from network traffic interception (spoofing). AdGuard VPN creates an encrypted tunnel between your device and a remote server. All your Internet traffic passes through this tunnel, so your data is protected along the way. And thanks to [AdGuard's unique protocol](https://kb.adguard.com/en/vpn/adguard-vpn-general/how-adguard-vpn-protocol-works), you're guaranteed a fast and secure connection.
+* Protects from network traffic interception (spoofing). AdGuard VPN creates an encrypted tunnel between your device and a remote server. All your Internet traffic passes through this tunnel, so your data is protected along the way. And thanks to [AdGuard's unique protocol](/general/adguard-vpn-protocol.md), you're guaranteed a fast and secure connection.
 
 * Masks your IP address. Your true IP address is the key to your personal data for cybercriminals. Your name, email address, phone number, credit card information can all fall into the hands of fraudsters if you don't hide your IP. With AdGuard VPN, as we said before, all your traffic goes through an encrypted tunnel and comes to the VPN server. Therefore, from the outside it appears that your device has the IP address of said VPN server. 
 
 * Hides your real location. By selecting any of the AdGuard VPN servers, you are instantly "teleported" to its location. What does this give you? For example, the ability to book a hotel at locals' rates or hide from geotargeted advertising.
 
-AdGuard VPN for Windows has many advantages, so we've dedicated [a separate article](http://kb.adguard.com/en/vpn/adguard-vpn-general/adguard-vpn-is-the-better-option) to them. Here, however, we want to focus more on the application itself and how it works.
+AdGuard VPN for Windows has many advantages, so we've dedicated [a separate article](/general/why-adguard-vpn.md) to them. Here, however, we want to focus more on the application itself and how it works.
 
 ## How to start using AdGuard VPN for Windows
 
@@ -46,7 +46,7 @@ There are two options for creating exclusions lists: **Manually** and **From the
 
 > When adding domains manually, you should take into account some nuances. For example, if you manually exclude the domain `google.com`, all the subdomains `*.google.com` will also be added to the exclusions list. However, domain names with other top-level domains such as `google.es` or `google.it` will not be excluded. Or you can add `youtube.com` to the exclusions, but the domain of the same service `youtu.be` will not be included in the list. 
 
-That being said, we recommend to use the option **From the list**, since in each of the eight thematic groups we have placed the most popular services, including all domain names and subdomains related to each platform. 
+We would recommend to use the option **From the list** to avoid unnecessary hassle. We have already grouped eight different categories of popular services for you: Social networks, Messengers, Video and Music streaming services, Games, Shopping, Search engines, and Work communication tools. We have placed the most popular services there, including all domain names and subdomains related to each platform. That way you will be certain you haven't forgotten any service or domain you'd like to keep functioning while VPN is on, or vice versa.
 
 ### Import/export exclusions lists
 
@@ -77,7 +77,7 @@ At the bottom of the page there are two sections: **DNS servers** and **Advanced
 
 The **DNS servers** tab allows you to add your own custom DNS server. Why should you do this? For example, not to rely on the default DNS server, which is often controlled by your ISP. 
 
-You can set up a DNS server by any provider. We recommend adding [AdGuard DNS](https://kb.adguard.com/en/general/dns-providers#adguard-dns), a server that can protect against advertising, tracking and phishing in addition to the standard functions. 
+You can set up a DNS server by any provider. We recommend adding [AdGuard DNS](/general/dns-providers#adguard-dns), a server that can protect against advertising, tracking and phishing in addition to the standard functions. 
 
 #### Advanced Settings
 
@@ -104,7 +104,7 @@ This is an experimental feature that enables AdGuard to use the advanced QUIC en
 
 AdGuard VPN encrypts the traffic not only of your browsers, but also of other apps installed on your computer. If you want to exclude certain applications from AdGuard's work, put them to the **Split tunneling** list. 
 
-## Other settings
+## Other tabs
 
 ### About
 
@@ -118,7 +118,6 @@ Here you will find information about your license status, as well as a link to y
 
 In this tab we've collected a lot of useful links: FAQ page, application feedback form, social media pages, and **Knowledge Base**.
 
-By clicking the **Report a bug** button you will open a dialog box with a field to describe the problem. If anything goes wrong while using AdGuard VPN for Windows, please, tell us about it. 
 
 ## Unlimited version
 
