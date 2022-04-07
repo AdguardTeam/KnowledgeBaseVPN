@@ -7,7 +7,7 @@ There is an AdGuard VPN app for virtually every major platform out there, and we
 
 ### How to become a beta tester
 
-Our requirements are easy: start using [the beta-version of AdGuard VPN](https://adguard-vpn.com/en/beta.html), and report any bugs you notice. However, you will need either a [forum] (https://forum.adguard.com/index.php) or a [GitHub] (https://github.com/) account (or both:)) to become our beta tester, so you may want to get that out of the way first.
+To become an AdGuard VPN beta tester, you only need a few things: the desire, the device on which you will install the app, and [this link](https://adguard-vpn.com/en/beta.html), by following which you will be able to download the latest beta version of AdGuard VPN! 
 
 ### How to report a bug
 
@@ -25,8 +25,4 @@ The above two methods are the most preferred, but you can use others if necessar
 
 ### What else?
 
-There is not much more to add. You don't have to go out of your way to find bugs. You can continue using AdGuard VPN as usual. However, if you encounter a bug, please do not be lazy in reporting it. Of course, we appreciate any additional effort and/or extra forum activity, etc.
-
-Occasionally, you will receive our newsletter, keeping you informed of the latest changes in the beta (in case you missed them) and other important news. You can unsubscribe from it at any time.
-
-And that's it! If you would like to participate in the AdGuard VPN beta testing program, you now know what to do!
+There is not much more to add. You don't have to go out of your way to find bugs. You can continue using AdGuard VPN as usual. And in case you encounter a problem, be sure to let us know about it! 
