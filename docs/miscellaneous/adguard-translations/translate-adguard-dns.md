@@ -1,6 +1,6 @@
 ---
 title: Translate AdGuard DNS
-sidebar_position: 1
+sidebar_position: 3
 ---
 
 TODO: Explain how to translate AdGuard DNS
