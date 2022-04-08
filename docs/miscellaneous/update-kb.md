@@ -1,25 +1,27 @@
 ---
-title: 'Updating the Knowledgebase'
+title: 'Updating the Knowledge Base'
 sidebar_position: 3
 ---
 
-The goal of this Knowledgebase is to provide everyone with the most up-to-date information on all kinds of AdGuard VPN-related topics. But things constantly change, and sometimes an article doesn't reflect the current state of things anymore — there are simply not so many of us to keep an eye on every single bit of information and update it accordingly when new versions are released. 
+The goal of this Knowledge Base is to provide everyone with the most up-to-date information on all kinds of AdGuard VPN-related topics. But things constantly change, and sometimes an article doesn't reflect the current state of things anymore — there are simply not so many of us to keep an eye on every single bit of information and update it accordingly when new versions are released. 
 
 This is why we placed all of our KB content to [GitHub](https://github.com/AdguardTeam/KnowledgeBaseVPN), and now literally anyone can contribute to it by suggesting edits and translations to existing articles, as well as totally new ones. 
 
-## How to suggest a change or write a new article
+## How to suggest a change or write a new article {#suggest-change}
 
-You can suggest changes to current articles and add new ones to the Knowledgebase VPN using the functionality of the GitHub mentioned above. 
-If you are unfamiliar with principles of working with the platform, start by reading [articles in this section](https://docs.github.com/en).
+You can suggest changes to current articles and add new ones to the Knowledge Base using the functionality of the GitHub mentioned above.
+If you are unfamiliar with principles of working with the platform, start by reading [documentation in this section](https://docs.github.com/en).
 
-Once you are ready to start, work in [the KnowledgeBaseVPN repository](https://github.com/AdguardTeam/KnowledgeBaseVPN). Alter articles using [Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) in any source-code editor you like.  
+Once you are ready to start, work in [the KnowledgeBaseVPN repository](https://github.com/AdguardTeam/KnowledgeBaseDNS). All texts in our Knowledge Base are written in `Markdown` markup language. Keep this in mind when editing or writing articles. Follow [this link](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) to learn more about Markdown syntax.
 
-> The Knowledgebase VPN website is buit using [Docusaurus 2](https://docusaurus.io/docs/category/guides) — a modern static website generator. You can use its functionality to build a site from documents placed locally on your computer. 
+The Knowledge Base website is buit using Docusaurus 2 — a modern static website generator. When suggesting changes or additions, take into account that all documents must comply with the principles of the platform. You can read about them in [the guide available via this link](https://docusaurus.io/docs/category/guides).
+
+You can deploy this Knowledge Base locally on your computer to preview the changes you suggest. Detailed instructions on how to do this can be found [in the README.md file](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README.md) on this Knowledge Base's GitHub page.
 
 ## Translating an article
 
-To make the process of translating the AdGuard VPN Knowledge Base articles more convenient, [we moved it to Crowdin](https://crowdin.com/project/adguard-knowledge-bases)! If you are not familiar with this platform and are not registered on it, [go to this article](/miscellaneous/adguard-translations/translate-adguard-vpn.md) for more information on the topic. 
+Translation of the existing articles of the Knowledge Base is carried out on [the Crowdin platform](https://crowdin.com/project/adguard-knowledge-bases). All the details about translations and working with Crowdin can be found [in this article](/miscellaneous/adguard-translations/translate-adguard-vpn.md).
 
 ## Working on open issues
 
-Sometimes there's need to update or complement an existing article, or create a new one, but we can't do it right away for some reason. In such cases usually a task ("issue") gets created in special repository on GitHub. You can get there by [this link](https://github.com/AdguardTeam/KnowledgeBaseVPN/issues/), choose any issue that you find appealing and start working on it. If you have any questions — you can ask them right in the comments to that issue.     
+Sometimes there exist [open tasks](https://github.com/AdguardTeam/KnowledgeBaseVPN/issues/) related to updating the Knowledge Base. You can help us speed up their completion [the same way](#suggest-change) you would suggest any other changes to this Knowledge Base. Choose any issue that you find appealing and start working on it. If you have any questions — you can ask them right in the comments to that issue.   
