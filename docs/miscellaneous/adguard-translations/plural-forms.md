@@ -55,7 +55,7 @@ Let's take a closer look at them.
 
 #### 1. **Phrases with string keys ending in `.singular`, `.dual`, `.plural`**
 
-![Phrases with `.dual`ending](https://cdn.adguard.com/public/Adguard/kb/en/plurals/dual_it.png)
+![Phrases with dual ending](https://cdn.adguard.com/public/Adguard/kb/en/plurals/dual_it.png)
 
 Most of them consist of only one or two words:  
 
