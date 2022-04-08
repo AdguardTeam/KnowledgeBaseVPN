@@ -22,7 +22,3 @@ The above two methods are the most preferred, but you can use others if necessar
 * Find us on various social media platforms, like [Facebook](https://www.facebook.com/AdguardEn/), [Reddit](https://www.reddit.com/r/Adguard/), etc. However, this is not the most efficient way to discuss technical matters.
 
 * Email our support team from the Support tab in the app or write directly to [support@adguard.com](mailto:support@adguard.com).
-
-### What else?
-
-There is not much more to add. You don't have to go out of your way to find bugs. You can continue using AdGuard VPN as usual. And in case you encounter a problem, be sure to let us know about it! 
