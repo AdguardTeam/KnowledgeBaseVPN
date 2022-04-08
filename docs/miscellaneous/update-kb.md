@@ -12,13 +12,13 @@ This is why we placed all of our KB content to [GitHub](https://github.com/Adgua
 You can suggest changes to current articles and add new ones to the Knowledgebase VPN using the functionality of the GitHub mentioned above. 
 If you are unfamiliar with principles of working with the platform, start by reading [articles in this section](https://docs.github.com/en).
 
-Once you are ready to start, work in [the KnowledgeBaseDNS repository](https://github.com/AdguardTeam/KnowledgeBaseVPN). Alter articles using [Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) in any source-code editor you like.  
+Once you are ready to start, work in [the KnowledgeBaseVPN repository](https://github.com/AdguardTeam/KnowledgeBaseVPN). Alter articles using [Markdown](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) in any source-code editor you like.  
 
 > The Knowledgebase VPN website is buit using [Docusaurus 2](https://docusaurus.io/docs/category/guides) — a modern static website generator. You can use its functionality to build a site from documents placed locally on your computer. 
 
 ## Translating an article
 
-To make the process of translating the AdGuard VPN Knowledge Base articles more convenient, [we moved it to Crowdin](https://crowdin.com/project/adguard-knowledge-bases/en#/kb.adguard-vpn.com)! If you are not familiar with this platform and are not registered on it, [go to this article](/miscellaneous/adguard-translations/translate-adguard-vpn.md) for more information on the topic. 
+To make the process of translating the AdGuard VPN Knowledge Base articles more convenient, [we moved it to Crowdin](https://crowdin.com/project/adguard-knowledge-bases)! If you are not familiar with this platform and are not registered on it, [go to this article](/miscellaneous/adguard-translations/translate-adguard-vpn.md) for more information on the topic. 
 
 ## Working on open issues
 
