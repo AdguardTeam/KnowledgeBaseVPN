@@ -3,11 +3,11 @@ title: 'AdGuard VPN beta test'
 sidebar_position: 2
 ---
 
-There is an AdGuard VPN app for virtually every major platform out there, and we regularly release updates for all them. This would not be possible without beta testing and, more importantly, beta testers. Want to become one? Here how you can do it.
+There is an AdGuard VPN app for virtually every major platform out there, and we regularly release updates for all of them. This would not be possible without beta testing and, more importantly, beta testers. Want to become one? Here how you can do it.
 
 ### How to become a beta tester
 
-To become an AdGuard VPN beta tester, you only need a few things: the desire, the device on which you will install the app, and [this link](https://adguard-vpn.com/en/beta.html), by following which you will be able to download the latest beta version of AdGuard VPN! 
+To become an AdGuard VPN beta tester, you only need a few things: the desire, the device on which you will install the app, and [this link](https://adguard-vpn.com/en/beta.html), by following which you will be able to download the latest beta or nightly version of AdGuard VPN! 
 
 ### How to report a bug
 
