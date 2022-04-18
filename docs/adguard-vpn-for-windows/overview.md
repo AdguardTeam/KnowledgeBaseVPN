@@ -77,7 +77,7 @@ At the bottom of the page there are two sections: **DNS servers** and **Advanced
 
 The **DNS servers** tab allows you to add your own custom DNS server. Why should you do this? For example, not to rely on the default DNS server, which is often controlled by your ISP. 
 
-You can set up a DNS server by any provider. We recommend adding [AdGuard DNS](/general/dns-providers#adguard-dns), a server that can protect against advertising, tracking and phishing in addition to the standard functions. 
+You can set up a DNS server by any provider. We recommend adding [AdGuard DNS](https://kb.adguard.com/en/general/dns-providers#adguard-dns), a server that can protect against advertising, tracking and phishing in addition to the standard functions. 
 
 #### Advanced Settings
 
