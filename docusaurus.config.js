@@ -4,16 +4,20 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const ADGUARD_WEBSITE_URL = 'https://adguard.com';
 const VPN_WEBSITE_URL = 'https://adguard-vpn.com';
 
+// Allow to parameterise the website URL and the base path during the build.
+const url = process.env.URL || 'https://adguardteam.github.io/';
+const baseUrl = process.env.BASE_URL || '/KnowledgeBaseDNS/';
+
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
   title: 'AdGuard VPN Knowledge Base',
   tagline: 'Knowledge base for AdGuard VPN',
-  url: 'https://adguardteam.github.io/',
-  baseUrl: '/KnowledgeBaseVPN/',
+  url: url,
+  baseUrl: baseUrl,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  trailingSlash: false,
+  trailingSlash: true,
   organizationName: 'AdGuard',
   projectName: 'adguard-vpn-kb',
   i18n: {
