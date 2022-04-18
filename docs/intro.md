@@ -1,6 +1,7 @@
 ---
 title: AdGuard VPN Overview
 sidebar_position: 1
+slug: /
 ---
 
 ## What a VPN is and why you need one

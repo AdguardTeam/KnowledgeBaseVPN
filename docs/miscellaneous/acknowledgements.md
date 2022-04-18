@@ -1,6 +1,6 @@
 ---
 title: Credits and Acknowledgements
-sidebar_position: 5
+sidebar_position: 1
 ---
 
-TODO: write a stub here, we'll need to fill out special thanks and acknowledge open source software here later.
+Our dev team would like to thank the developers of the third-party software we use in AdGuard VPN, our great beta testers and other engaged users, whose help in finding and eliminating all the bugs, translating AdGuard VPN and moderating our communities is priceless.

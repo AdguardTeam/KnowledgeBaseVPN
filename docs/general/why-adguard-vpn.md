@@ -24,7 +24,7 @@ You can add websites to exclusions manually or choose them among the lists of po
 ## 3. Choosing a DNS server
 No more relying on the DNS server provided by your ISP by default! First, it’s not safe: your ISP most likely has access to your browsing history. Second, People often underestimate DNS, yet it can remove ads and trackers, protect your device from malware or, for instance, enable safe search and block adult content.
     
-From now you can choose DNS servers from [known DNS providers](link) such as AdGuard, Cisco, Cloudflare, Google, or Quad9, or even configure to use your own DNS server. 
+You can choose DNS servers from [known DNS providers](https://kb.adguard.com/en/general/dns-providers) such as AdGuard, Cisco, Cloudflare, Google, or Quad9, or even configure to use your own DNS server. 
 
 ## 4. Fastest locations
     
