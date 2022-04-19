@@ -29,6 +29,12 @@ Our dev team would like to thank the developers of the third-party software we u
 * Reachability component by Ashley Mills: [https://github.com/ashleymills/Reachability.swift](https://github.com/ashleymills/Reachability.swift)
 * Sparkle Project for Sparkle.framework component: [https://sparkle-project.org/](https://github.com/ashleymills/Reachability.swift)
 
+## AdGuard VPN for Windows
+
+* Intercept traffic drivers (wfp & tdi): [https://netfiltersdk.com/nfsdk.html](https://netfiltersdk.com/nfsdk.html) 
+* WPF-based text editor component: [http://avalonedit.net/](http://avalonedit.net/) 
+* High-performance JSON framework for .NET: [https://www.newtonsoft.com/json](https://www.newtonsoft.com/json)
+
 ## AdGuard VPN Extension 
 
 * axios: [https://github.com/axios/axios](https://github.com/axios/axios)
