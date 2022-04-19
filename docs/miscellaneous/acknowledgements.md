@@ -23,6 +23,11 @@ Our dev team would like to thank the developers of the third-party software we u
 * ReachabilitySwift: [https://github.com/ashleymills/Reachability.swift](https://github.com/ashleymills/Reachability.swift)
 * Sentry: [https://github.com/getsentry/sentry-cocoa](https://github.com/getsentry/sentry-cocoa)
 
+## AdGuard VPN for Mac
+
+* Punycode component by Kojiro Futamura: [https://github.com/gumob/PunycodeSwift](https://github.com/gumob/PunycodeSwift)
+* Reachability component by Ashley Mills: [https://github.com/ashleymills/Reachability.swift](https://github.com/ashleymills/Reachability.swift)
+* Sparkle Project for Sparkle.framework component: [https://sparkle-project.org/](https://github.com/ashleymills/Reachability.swift)
 
 ## AdGuard VPN Extension 
 
