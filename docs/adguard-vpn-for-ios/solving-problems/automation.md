@@ -1,6 +1,7 @@
 ---
 title: How to set up AdGuard VPN automation for iPhone and iPad apps
 sidebar_position: 1
+sidebar_label: How to set up AdGuard VPN automation
 ---
 
 AdGuard VPN has an *Exclusions* section and two operation modes – *General* and *Selective*. In *General mode* AdGuard VPN works everywhere except sites added to exclusions. Conversely, in *Selective mode*, VPN doesn't work anywhere except sites listed in the exclusions list. Note, that for each mode you must create a separate list. 
