@@ -4,6 +4,10 @@ This website is built using [Docusaurus 2](https://docusaurus.io/), a modern sta
 
 `main` branch is published automatically to https://adguardteam.github.io/KnowledgeBaseVPN/.
 
+## How to contribute
+
+TODO: We should explain how to contribute to this knowledge base. Translations: https://crowdin.com/project/adguard-vpn-knowledge-base
+
 ## How to develop
 
 ### Prepare
