@@ -22,7 +22,7 @@ module.exports = {
   projectName: 'adguard-vpn-kb',
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'ru'],
+    locales: ['en', 'ru', 'de', 'fr', 'es', 'it', 'ja', 'ko', 'zh-CN', 'zh-TW'],
   },
   themeConfig: {
     hideableSidebar: true,
