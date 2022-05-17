@@ -8,7 +8,7 @@ slug: /
 
 A VPN allows you to create a secure connection to another network on the Internet.
 
-Initially, VPNs were created for one purpose — to securely connect business networks over the Internet, so that people could connect to the corporate network from home. Now this technology is used for many other things: for example, to get access to websites with geo restrictions, or to protect your online activity from prying eyes while using public Wi-Fi.
+Initially, VPNs were created for one purpose — to securely connect business networks over the Internet, so that people could connect to the corporate network from home. his technology is used for many other things: for example, to browse the Internet anonymously or to protect your online activity from prying eyes while using public Wi-Fi. 
 
 A VPN connects a user's computer or mobile device to a server and allows one to browse the net using someone else's IP address. Thus, third-party observers cannot see the user's real IP address, which makes it impossible for them to trace him. 
 
