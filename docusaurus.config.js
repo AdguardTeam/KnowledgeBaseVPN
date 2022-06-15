@@ -25,7 +25,11 @@ module.exports = {
     locales: ['en', 'ru', 'de', 'fr', 'es', 'it', 'ja', 'ko', 'zh-CN', 'zh-TW'],
   },
   themeConfig: {
-    hideableSidebar: true,
+    docs: {
+      sidebar: {
+        hideable: true,
+      }
+    },
     navbar: {
       hideOnScroll: true,
       title: '',
