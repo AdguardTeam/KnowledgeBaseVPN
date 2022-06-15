@@ -184,5 +184,11 @@ module.exports = {
   ],
   plugins: [
     '@docusaurus/plugin-ideal-image',
+    [
+      require.resolve('docusaurus-lunr-search'),
+      {
+        languages: ['en', 'ru', 'de', 'fr', 'es', 'it', 'ja', 'zh'],
+      }
+    ],
   ],
 };
