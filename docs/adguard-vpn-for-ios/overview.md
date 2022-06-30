@@ -101,6 +101,6 @@ The users' accomplishment is the high priority for us. So there is a variety of 
 
 ## Subscription
 
-If you are using the free version of AdGuard VPN, there will be a fourth tab with an arrow icon on the bottom tab bar. In this section you will find a brief information about the main advantages of the paid version of the app and will be able to subscribe easily.
+If you are using the free version of AdGuard VPN, there will be the fourth tab with an arrow icon on the bottom tab bar. In this section you will find brief information about the main advantages of the paid version of the app and will be able to buy a subscription.
 
 ![Subscription](https://cdn.adguard.com/public/Adguard/kb/vpn-ios-screenshots/subscription_en.png)

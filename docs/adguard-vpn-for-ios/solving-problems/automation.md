@@ -12,7 +12,7 @@ But, as it often happens, due to a number of technical nuances, it is impossible
 
 ## Setting up AdGuard VPN automatic activation
 
-If you need a VPN for one or more apps, set up AdGuard VPN on your iOS device to automatically turn on and off for them. Go to the Exclusions tab, select General mode and follow the instructions. Here we describe how to create automation for Twitter, but you can choose any other app. 
+If you need a VPN for one or more apps, set up AdGuard VPN to automatically turn on and off when you open and close them. Go to the Exclusions tab, select General mode and follow the instructions. Here we describe how to create automation for Twitter, but you can choose any other app. 
 
 ![Instruction. Part 1](https://cdn.adguard.com/public/Adguard/Blog/VPNauto/vpn_on1_en.jpg)
 * Download [the *Shortcuts* app](https://apps.apple.com/us/app/shortcuts/id915249334) from the App Store and go to the *Automation* section by tapping the clock icon at the bottom of the screen. 
