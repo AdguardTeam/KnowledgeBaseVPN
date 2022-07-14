@@ -1,5 +1,5 @@
 ---
-title: 'Features overview'
+title: Features overview
 sidebar position: 1
 ---
 
