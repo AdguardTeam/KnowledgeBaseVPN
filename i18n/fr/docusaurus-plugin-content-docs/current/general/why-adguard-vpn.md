@@ -33,7 +33,6 @@ Another feature that makes AdGuard VPN stand out from the crowd is that you can 
 > Note that to access all VPN server locations, you need to purchase an AdGuard VPN subscription.
 
 ## 5. Compatibility with AdGuard Ad Blocker
-![Compatibility mode](https://cdn.adguard.com/public/Adguard/kb/VPN/android_compatibility_mode.png)
 
 With desktop apps and browser extensions this goes without saying — there’s rarely any conflicts between apps, save for antiviruses and other similarly oriented software.
 

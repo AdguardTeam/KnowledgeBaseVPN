@@ -1,18 +1,18 @@
 ---
-title: Compatibility with AdGuard Ad Blocker
+title: Как совместить работу AdGuard VPN и Блокировщика рекламы AdGuard
 sidebar_position: 3
 ---
 
-AdGuard VPN has two operating modes — General and Integrated one. General mode is enabled by default and uses [AdGuard VPN protocol](/general/adguard-vpn-protocol.mdx). It provides the best combination of connection speed and security.
+В AdGuard VPN предусмотрены два режима работы — Основной и Интегрированный. По умолчанию включен Основной режим работы, при котором используется собственный протокол [AdGuard VPN](/general/adguard-vpn-protocol.mdx). Он обеспечивает лучшую комбинацию скорости и безопасности соединения.
 
-However, this operating mode does not allow AdGuard VPN and AdGuard Ad Blocker to work simultaneously.
+Однако этот режим работы не позволяет одновременно работать AdGuard VPN и Блокировщику рекламы AdGuard.
 
-In Integrated mode, in turn, the IPsec protocol is used, which makes it possible for the AdGuard applications to work together. If you already have AdGuard Ad Blocker when installing AdGuard VPN, this mode will turn on automatically and allow you to use our applications at the same time. If you installed AdGuard VPN first and only then decided to try AdGuard Ad Blocker, follow these steps to use two apps together:
+Интегрированный режим, в свою очередь, использует IPSec-протокол, при котором возможна совместная работа приложений AdGuard. Если у вас при установке AdGuard VPN уже есть Блокировщик AdGuard, то этот режим включится автоматически и позволит вам пользоваться нашими приложениями одновременно. Если же сначала вы установили AdGuard VPN, а уже потом решили попробовать Блокировщик AdGuard, то, чтобы пользоваться ими совместно, выполните следующие действия:
 
-1. Open AdGuard VPN for iOS and select "Settings" in the lower-right corner of the screen.
+1. Откройте приложение AdGuard VPN для iOS и выберите «Настройки» в правом нижнем углу экрана.
 
-2. Go to "App settings" and select "Operating mode".
+2. Зайдите в «Настройки приложения» и выберите «Режим работы».
 
-3. Switch the mode from *General* to *Integrated*. Done!
+3. Переключите режим с *Основного* на *Интегрированный*. Готово!
 
-> Note that in **Integrated** mode you can't use the Exclusions feature or the DNS server feature.
+> Обратите внимание, что вы не можете воспользоваться списками исключений, а также выбрать DNS-сервер в **Интегрированном** режиме.

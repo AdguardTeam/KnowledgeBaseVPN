@@ -1,38 +1,38 @@
 ---
-title: How to collect and send logs
+title: Как собрать и отправить логи
 sidebar_position: 2
 ---
 
-If you encounter a problem when using AdGuard VPN for Android, you can inform us about it by sending application logs.
+Если вы столкнулись с технической проблемой во время работы AdGuard VPN для Android, вы можете отправить нам логи приложения.
 
-## Collecting and sending standard logs
+## Сбор и отправка стандартных логов
 
-By default, AdGuard VPN for Android uses the **Default** logging level, that is, the basic collection of data about running processes of the app. To send these logs, follow the next steps:
+По умолчанию AdGuard VPN для Android использует **Стандартный** уровень логирования, при котором приложение собирает базовую информацию о запущенных процессах в приложении. Чтобы отправить логи, пожалуйста, выполните следующие шаги:
 
-1. Open AdGuard VPN for Android and, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
+1. Откройте AdGuard VPN для Android и воспроизведите проблему. Отметьте точное время, когда она возникла.
 
-2. Open **Settings** by clicking the gear icon at the lower right corner → **Support** → **Report a bug**.
+2. В нижнем правом углу нажмите на иконку шестерёнки и откройте **Настройки** → ** Поддержка** → **Сообщить об ошибке**.
 
-3. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred. If you can't reproduce the problem, specify as accurately as possible when it last occurred.
+3. В открывшейся форме введите свой адрес электронной почты для обратной связи и опишите найденную ошибку, указав время, когда эта ошибка произошла. Если воспроизвести проблему невозможно, укажите как можно точнее, когда она произошла в последний раз.
 
-4. There is a check mark next to **Send detailed system info**, which means that when you send a report, you also send logs.
-> If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, go to **Settings** → **Support** → **Export logs and system info**.
+4. Напротив пункта **Отправить детальную информацию** по умолчанию стоит галочка, а это значит, что отправляя отчет, вы также отправляете логи.
+> Если вам по какой-либо причине удобнее отправить нам логи другим способом, вы можете экспортировать их самостоятельно. Для этого выберите **Настройки** → **Поддержка** → **Экспортировать логи и информацию**.
 
-## Collecting and sending extended logs
+## Сбор и отправка расширенных логов
 
-In most cases, the **Default** logging level is sufficient to trace down possible bugs. But there are cases when more detailed technical information about the device and connections is required, and then our support team will ask you to enable the **Extened** or **Extreme** logging level. To send these types of logs, follow these steps:
+В большинстве случаев **Стандартного** уровня логирования хватает, чтобы отслеживать возможные ошибки. Но бывают случаи, когда требуется более подробная техническая информация об устройстве и подключениях, и тогда наша команда поддержки попросит вас включить **Расширенный уровень логирования**. Для отправки такого вида логов выполните следующие действия:
 
-1. Open AdGuard VPN for Android and select **Settings** (the gear icon at the bottom right corner) → **App Settings** → **Advanced Settings** → **Logging level**.
+1. Откройте приложение AdGuard VPN для Android и выберите **Настройки** (иконка шестерёнки в правом нижнем углу) → **Настройки приложения** → **Расширенные настройки** →**Уровень логирования**.
 
-2. In the **Logging level** section, select **Extened** or **Extreme** logging level.
+2. В разделе **Уровень логирования** выберите **Расширенный** или **Экстремальный** уровень логирования, в соответствии с запросом специалиста технической поддержки.
 
-3. Repeat the actions that led to the error and note the time when it occurred.
+3. Воспроизведите действия, которые привели к ошибке, и запомните время, в которое она произошла.
 
-4. Switch the logging level back to **Default**.
+4. Переключите уровень логирования обратно на **Стандартный**.
 
-5. Then open **Settings** by tapping the gear icon at the lower right corner → **Support** → **Report a bug**.
+5. Далее откройте **Настройки**, нажав на иконку шестерёнки в правом нижнем углу → **Поддержка** → **Сообщить об ошибке**.
 
-6. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred.
+6. В открывшейся форме введите свой адрес электронной почты для обратной связи и опишите найденную ошибку, указав время, когда она произошла.
 
-7. Make sure that there is a check mark next to **Send detailed system info** and tap **Send**.
-> If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, go to **Settings** → **Support** → **Export logs and system info**.
+7. Убедитесь, что напротив пункта **Отправить детальную информацию** стоит галочка, и нажмите **Отправить**.
+> Если вам по какой-либо причине удобнее отправить нам логи другим способом, вы можете экспортировать их самостоятельно. Для этого выберите **Настройки** → **Поддержка** → **Экспортировать логи и информацию**.

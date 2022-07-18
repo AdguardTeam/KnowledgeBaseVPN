@@ -1,28 +1,28 @@
 ---
-title: Installation and removal
+title: Установка и удаление
 sidebar_position: 2
 ---
 
-## System requirements
+## Системные требования
 
-AdGuard VPN can only be installed on Android devices with **Android 5.0.0 or later versions**.
+AdGuard VPN может быть установлен только на устройствах Android **версии 5.0.0 и выше**.
 
-## How to install AdGuard VPN for Android
+## Как установить AdGuard VPN для Android
 
-You can download and install the *AdGuard VPN for Android* app for free in *Goodle Play*. To do this, follow [this link](https://play.google.com/store/apps/details?id=com.adguard.vpn) and tap the *Download* icon or follow a few simple steps:
+Вы можете бесплатно скачать и установить приложение *AdGuard VPN для Android* в *Goodle Play*. Для этого перейдите по [ссылке](https://play.google.com/store/apps/details?id=com.adguard.vpn) и нажмите *Скачать*, или следуйте этой простой инструкции:
 
-1. Open the *Google Play* app on your device and tap *Search* at the top of the screen.
+1. Откройте приложение *Google Play* на вашем устройстве и выберите *Поиск* в верхней части экрана.
 
-2. Next, in the search bar, start typing *"AdGuard"* and select *"adguard vpn"* from the list of suggested options.
+2. Затем в строке поиска наберите *"AdGuard"* и выберите *"adguard vpn"* из списка предложенных вариантов.
 
-3. Select *AdGuard VPN - private proxy* from the list of suggested applications and tap *Download*.
+3. Выберите *AdGuard VPN - приватный proxy* из списка приложений и нажмите *Установить*.
 
-4. Wait for the download to finish and tap *Open*.
+4. Дождитесь окончания загрузки и нажмите *Открыть*.
 
-AdGuard VPN for Android has been successfully installed!
+AdGuard VPN для Android успешно установлен!
 
-## How to uninstall AdGuard VPN for Android
+## Как удалить AdGuard VPN для Android
 
-If you decided to delete AdGuard VPN for Android, find the icon of this app and hold it. In the opened list, tap *Uninstall*.
+Если вы хотите удалить AdGuard VPN для Android, нажмите и задержите иконку приложения. В открывшемся списке выберите *Удалить*.
 
-You can learn more about the AdGuard VPN for Android in [this article](overview.md).
+Узнайте больше об AdGuard VPN для Android в [этой статье](overview.md).

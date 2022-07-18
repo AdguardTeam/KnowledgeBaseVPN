@@ -1,40 +1,40 @@
 ---
-title: How to collect and send logs
+title: Как собирать и отправлять логи
 sidebar_position: 2
 ---
 
-If you encounter a problem when using AdGuard VPN for iOS, you can inform us about it by sending application logs.
+Если вы столкнулись с технической проблемой во время работы AdGuard VPN для iOS, вы можете отправить нам логи приложения.
 
-## Collecting and sending standard logs
+## Сбор и отправка стандартных логов
 
-By default, AdGuard VPN for iOS uses the standard logging level, that is, the basic collection of data about running processes of the app. To send these logs, follow the next steps:
+По умолчанию в AdGuard VPN для iOS используется стандартный уровень логирования, то есть базовый сбор данных о работе приложения. Для того, чтобы отправить такие логи, выполните следующие шаги:
 
-1. Open AdGuard VPN for iOS and, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
+1. Откройте AdGuard VPN для iOS и воспроизведите проблему. Запомните точное время, когда эта ошибка произошла.
 
-2. Select "Settings" in the lower-right corner of the screen, then select "Support" and click "Report a bug" in it.
+2. Выберите «Настройки» в правом нижнем углу экрана, далее выберите пункт «Поддержка» и в нем нажнмите на «Сообщить об ошибке».
 
-3. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred. If you can't reproduce the problem, specify as accurately as possible when it last occurred.
+3. В открывшейся форме введите свой email-адрес для обратной связи и опишите найденную ошибку, включив туда время, когда эта ошибка произошла. Если воспроизвести проблему невозможно, укажите как можно точнее, когда она произошла в последний раз.
 
-4. There is a check mark next to the "Send detailed system info", which means that when you send a report, you also send logs.
-> If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, select "Export logs" in the "Support" section.
+4. Напротив пункта «Отправить детальную информацию» по умолчанию стоит галочка, а это значит, что отправляя отчет, вы также отправляете логи.
+> Если вам по какой-либо причине удобнее отправить нам логи другим способом, вы можете экспортировать их самостоятельно. Для этого выберите «Экспортировать логи» в разделе «Поддержка».
 
-## Collecting and sending extended logs
+## Сбор и отправка расширенных логов
 
-In most cases, the default logging level is sufficient to trace down possible bugs. But there are cases when more detailed technical information about the device and connections is required, and then our support team will ask you to enable the extened logging level. To send this type of logs, follow these steps:
+В большинстве случаев стандартного уровня логирования хватает, чтобы отслеживать возможные ошибки. Но бывают случаи, когда требуется более подробная техническая информация об устройстве и подключениях, и тогда наша команда поддержки попросит вас включить расширенный уровень логирования. Для отправки такого вида логов выполните следующие действия:
 
-1. Open AdGuard VPN for iOS and select "Settings" in the lower-right corner of the screen.
+1. Откройте приложение AdGuard VPN для iOS и выберите «Настройки» в правом нижнем углу экрана.
 
-2. Select "App settings" and "Advanced settings" in it.
+2. Выберите «Настройки приложения» и в нем «Расширенные настройки».
 
-3. In the "Logging level" section, select "Extended".
+3. В разделе «Уровень логирования» выберите «Расширенный».
 
-4. Repeat the actions that led to the error, and note the time when it occurred.
+4. Воспроизведите действия, которые привели к ошибке, и запомните время, в которое она произошла.
 
-5. Switch the logging level back to "Default".
+5. Переключите уровень логирования обратно на «Стандартный».
 
-6. Then go back to the main section "Settings", select "Support" and then "Report a bug".
+6. Далее вернитесь в основной раздел «Настройки», выберите «Поддержка» и затем «Сообщить об ошибке».
 
-7. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred.
+7. В открывшейся форме введите свой email-адрес для обратной связи и опишите найденную ошибку, указав время, когда эта ошибка произошла.
 
-8. Make sure that there is a check mark next to "Submit detailed system info" and click "Submit a report".
-> If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, select "Export logs" in the "Support" section.
+8. Убедитесь, что напротив пункта «Отправить детальную информацию о системе» стоит галочка и нажмите «Отправить отчет».
+> Если вам по какой-либо причине удобнее отправить нам логи другим способом, вы можете экспортировать их самостоятельно. Для этого выберите «Экспортировать логи» в разделе «Поддержка».
