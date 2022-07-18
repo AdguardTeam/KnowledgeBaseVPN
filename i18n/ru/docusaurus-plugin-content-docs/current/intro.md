@@ -1,81 +1,83 @@
 ---
-title: AdGuard VPN Overview
+title: Обзор AdGuard VPN
 sidebar_position: 1
 slug: /
 ---
 
-## What a VPN is and why you need one
+## Что такое VPN и зачем он вам нужен
 
-A VPN allows you to create a secure connection to another network on the Internet.
+VPN позволяет создать безопасное соединение с другой сетью в интернете.
 
-Initially, VPNs were created for one purpose — to securely connect business networks over the Internet, so that people could connect to the corporate network from home. Now this technology is used for many other things: for example, to get access to websites with geo restrictions, or to protect your online activity from prying eyes while using public Wi-Fi.
+Изначально VPN создавали для одной цели — для безопасного соединения бизнес-сетей по интернету, чтобы люди могли подключиться к корпоративной сети из дома. Сейчас его используют для многих других вещей: например, чтобы пользоваться интернетом анонимно или защитить свою онлайн-активность от посторонних глаз во время использования публичного Wi-Fi.
 
-A VPN connects a user's computer or mobile device to a server and allows one to browse the net using someone else's IP address. So if the VPN server is located in a different country, it will appear that you have connected to the Internet from that country, hence, plenty of resources will become available to you.
+VPN соединяет компьютер или мобильное устройство пользователя с сервером и позволяет серфить в интернете, используя чужой IP-адрес. Таким образом, сторонние наблюдатели не могут увидеть реальный IP-адрес пользователя, что делает практически невозможным его отслеживание.
 
-Speaking of VPN, the first thing they mention is traffic encryption and security deriving from it. But what does it mean? A VPN creates an encrypted tunnel between the user's device and the remote server. All your web traffic passes through this tunnel, so your data is protected along the way. For the external observer, your traffic exits the VPN server, so it looks like your device has the IP address of this server. This trick masks the user's identity and true location.
+Говоря о VPN, первым делом упоминают шифрование трафика и вытекающую из него безопасность. Но что это значит? VPN создаёт зашифрованный туннель между устройством пользователя и удалённым сервером. Через этот туннель проходит весь ваш интернет-трафик, так что на этом пути ваши данные защищены. Для внешнего наблюдателя ваш трафик идёт от VPN-сервера, поэтому со стороны кажется, что у вашего устройства IP-адрес упомянутого сервера. Этот приём маскирует личность пользователя и его настоящее местоположение.
 
-VPN can be used to:
+VPN можно использовать, чтобы:
 
-* hide your real whereabouts and stay anonymous
-* secure your data — even when connecting to a public Wi-Fi, you can browse the Web safely
-* protect yourself from spoofing (network traffic interception) and tracking on the part of your Internet service provider
+* скрыть настоящее местоположение и сохранить анонимность
+* защитить персональные данные и безопасно просматривать веб-страницы даже при подключении к общественному Wi-Fi
+* защитить себя от спуфинга (перехвата сетевого трафика) и отслеживания со стороны интернет-провайдера
 
-Passwords, card details, and just plain personal information are at risk when a user surfs the Internet. But if you connect to the global network using a VPN, you can be sure that no one can intercept your data.
+Пароли, номера кредитных карт, банковские данные и просто личная информация находятся под угрозой, когда пользователь заходит в интернет. Но если подключаться к сети, используя VPN, можно быть уверенным, что никто не сможет перехватить ваши данные.
 
-## Why AdGuard VPN
+## Почему AdGuard VPN
 
-### Trusted developer
-AdGuard has been present on the market of personal data protection and ad blocking and developing its line of software for more than 12 years. Over this time, our company has built an impeccable reputation, and the number of our customers has exceeded 30 million.
+### Надёжный разработчик
+Больше 12 лет AdGuard присутствует на рынке защиты персональных данных и блокировки рекламы и разрабатывает линейку ПО. За эти годы наша компания построила безупречную репутацию, а число клиентов превысило 25 миллионов.
 
-### Unique VPN protocol
-The main difference between AdGuard VPN and its competitors is that we use [our own developed protocol](/general/adguard-vpn-protocol.mdx). It disguises itself as normal traffic, so it is much more difficult to track and block it.
+### Уникальный VPN-протокол
+Главное отличие AdGuard VPN от конкурентов в наличии [собственного разработанного протокола](/general/adguard-vpn-protocol.mdx). Он маскируется под обычный трафик, поэтому его гораздо сложнее отследить и заблокировать.
 
-### No logs policy
-No logs policy means that we don’t collect, store or transfer users’ personal data to third parties. The full text of AdGuard privacy policy can be found [here](https://adguard-vpn.com/en/privacy.html).
+### Политика «без логов»
+Политика «без записи логов» означает, что мы не собираем и не храним личные данные пользователей, и тем более не передаём их третьим лицам. С полной политикой конфиденциальности AdGuard можно ознакомиться [здесь](https://adguard-vpn.com/en/privacy.html).
 
-### Tracking protection
-Web traffic from any user may be of interest and is particularly valuable in terms of monetization of personal data. Both criminals and unscrupulous ISPs can access it. However, with a trustworthy VPN, you can be confident that neither your provider nor anyone else will see your internet activity.
+### Защита от отслеживания
+Веб-трафик любого пользователя имеет ценность, в первую очередь с точки зрения монетизации личных данных. Доступ к нему могут получить как преступники, так и недобросовестные интернет-провайдеры. Однако с надёжным VPN можно быть уверенным – ни ваш провайдер, ни кто-либо ещё не увидит вашу интернет-активность.
 
-### Ultrafast VPN servers in 41 country
+### Ультрабыстрые VPN-серверы в 43 странах
 
-* Australia
-* Austria
-* Belgium
-* Brazil
-* Bulgaria
-* Cambodia
-* Canada
-* Czech Republic
-* Denmark
-* Egypt
-* Finland
-* France
-* Germany
-* Greece
-* Hong Kong
-* India
-* Ireland
-* Israel
-* Italy
-* Japan
-* Luxembourg
-* Netherlands
-* Norway
-* Philippines
-* Poland
-* Romania
-* Russia
-* Serbia
-* Singapore
-* South Africa
-* South Korea
-* Spain
-* Sweden
-* Switzerland
-* Taiwan
-* Turkey
-* United Kingdom
-* UAE
-* USA
-* Ukraine
-* Vietnam
+* Аргентина
+* Австралия
+* Австрия
+* Бельгия
+* Бразилия
+* Болгария
+* Камбоджа
+* Канада
+* Китай
+* Чехия
+* Дания
+* Египет
+* Финляндия
+* Франция
+* Германия
+* Греция
+* Индия
+* Ирландия
+* Израиль
+* Италия
+* Япония
+* Люксембург
+* Мексика
+* Нидерланды
+* Норвегия
+* Филиппины
+* Польша
+* Румыния
+* Россия
+* Сербия
+* Сингапур
+* Южная Африка
+* Южная Корея
+* Испания
+* Швеция
+* Швейцария
+* Тайвань
+* Турция
+* Великобритания
+* ОАЭ
+* США
+* Украина
+* Вьетнам

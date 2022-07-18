@@ -62,7 +62,7 @@ Here, you can configure AdGuard VPN for iOS as you need using different options:
 
 AdGuard VPN for iOS can operate in two modes: **General** and **Integrated**.
 
-In **General** mode, the [AdGuard VPN protocol](../general/adguard-vpn-protocol.mdx) is employed, which provides the best combination of speed and security. In this mode, AdGuard VPN will not be able to work alongside [AdGuard for iOS ad blocker](https://kb.adguard.com/en/ios).
+In **General** mode, the [AdGuard VPN protocol](../general/adguard-vpn-protocol.mdx) is employed, which provides the best combination of speed and security. In this mode, AdGuard VPN will not be able to work alongside [AdGuard Ad Blocker for iOS](https://kb.adguard.com/en/ios).
 
 In **Integrated** mode, AdGuard VPN will be able to work at the same time with AdGuard for iOS ad blocker by using the IPSec protocol instead. This protocol is also secure, but a little slower and easier to detect. You don't need to perform any additional actions to set up the integration: just install both apps and switch to this mode.
 > Note that in **Integrated** mode you can't use the Exclusions feature or choose a DNS server.
@@ -97,3 +97,9 @@ To access this feature, touch and hold the app icon, then lift your finger. You'
 The users' accomplishment is the high priority for us. So there is a variety of helping features in the app (press the *Settings* button at the bottom right and then *Support*): you can see the FAQ section, report a bug, leave feedback, discuss your problems and suggestions on our forum, in social networks, or on GitHub, rate AdGuard VPN for iOS in the App Store and export logs.
 
 ![Support](https://cdn.adguard.com/public/Adguard/kb/vpn-ios-screenshots/support.png)
+
+## Subscription
+
+If you are using the free version of AdGuard VPN, there will be the fourth tab with an arrow icon on the bottom tab bar. In this section you will find brief information about the main advantages of the paid version of the app and will be able to buy a subscription.
+
+![Subscription](https://cdn.adguard.com/content/kb/vpn/ios/subscription_en.png)

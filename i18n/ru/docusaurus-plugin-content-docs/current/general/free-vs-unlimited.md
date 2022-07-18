@@ -1,21 +1,25 @@
 ---
-title: 'Benefits of AdGuard VPN Unlimited'
+title: 'Преимущества безлимитной версии AdGuard VPN'
 sidebar_position: 4
 ---
  
-You can use AdGuard VPN for free, but then there will be certain restrictions:
+Вы можете пользоваться AdGuard VPN бесплатно, но с определёнными ограничениями:
 
-* Only 2 devices on which you can simultaneously enable AdGuard VPN
-* 3 GB of traffic per month restriction
-* 20 Mbit/sec speed limit
-* Only some of the server locations are available
+* Возможность одновременно подключить к AdGuard VPN только два устройства
+* Только 3 ГБ трафика в месяц
+* Ограничение скорости до 20 Мбит/сек
+* Доступно ограниченное число локаций серверов
+* Почтовые клиенты нельзя использовать для отправки сообщений (на iOS и Android)
 
-At the same time you can purchase a subscription to get an unlimited version of the app. A subscription allows to have more benefits in comparison with a free account:
+> О последнем пункте стоит сказать отдельно: бесплатные пользователи AdGuard VPN для iOS и Android не могут отправлять письма с помощью почтовых клиентов. Это невозможно, потому что мы блокируем порт 25, который используется для исходящих писем, и таким образом перестраховываемся от спама. Тем не менее, отправка электронных писем с помощью веб-сервисов электронной почты работает отлично. А в AdGuard VPN для Android вы можете добавлять приложения в исключения, чтобы почтовые приложения также работали.
 
-* 5 simultaneously connected devices
-* Unlimited traffic
-* No speed cap
-* All 50+ locations are available
-* Secure streaming
+В то же время вы можете купить подписку и получить доступ к безлимитной версии приложения. С подпиской вам будет доступно большее количество преимуществ по сравнению с бесплатной версией:
 
-To use all the advantages, consider [purchasing a subscription](subscription.md).
+* 5 одновременно подключаемых устройств
+* Безлимитный трафик
+* Без ограничений скорости
+* Более 50 доступных локаций
+* Безопасный стриминг
+* Порт 25 не блокируется
+
+Начните пользоваться безлимитной версией AdGuard VPN — [приобретите подписку](subscription.md).

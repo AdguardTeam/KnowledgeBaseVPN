@@ -1,8 +1,8 @@
 ---
-title: How to protect AdGuard VPN from being disabled by the system
+title: Как настроить фоновую работу AdGuard VPN
 sidebar_position: 1
 ---
 
-Apps on Android devices may not always run stably in the background for various reasons, which may differ depending on the device model. This is most often due to Android OS optimization function, or so called "battery save mode". In such cases, the system closes apps in order to reduce the load and free up RAM.
+Приложения на Android-устройствах не всегда продолжают работать и оставаться в фоновом режиме по нескольким причинам. Чаще всего это происходит из-за встроенной функции оптимизации операционной системы (ОС) Android или же из-за включения режима энергосбережения. Поэтому система закрывает приложения для того, чтобы снизить нагрузку и освободить оперативную память.
 
-If AdGuard VPN is disabled on your device, your personal data will become vulnerable. To avoid such problem, you need to open [this link](https://kb.adguard.com/en/android/solving-problems/background-work) and follow the instructions for your device with one difference: wherever it is required, choose AdGuard VPN instead of AdGuard. 
+Если вы выключите AdGuard VPN, личные данные на вашем устройстве могут стать уязвимыми. Чтобы избежать этого, вам необходимо перейти [по этой ссылке](https://kb.adguard.com/ru/android/solving-problems/background-work) и выполнить шаги, указанные в инструкции для вашего устройства. В пунктах, где необходимо выбрать AdGuard, выбирайте AdGuard VPN. 

@@ -70,9 +70,10 @@ Our dev team would like to thank the developers of the third-party software we u
 * zlib: [https://zlib.net](https://zlib.net)
 * Sciter: [https://sciter.com/](https://sciter.com/)
 
-## VPN-server
+## VPN server
 
-Netty: [https://netty.io/](https://netty.io/) Quiche: [https://github.com/cloudflare/quiche](https://github.com/cloudflare/quiche)
+* Netty: [https://netty.io/](https://netty.io/)
+* Quiche: [https://github.com/cloudflare/quiche](https://github.com/cloudflare/quiche)
 
 
 

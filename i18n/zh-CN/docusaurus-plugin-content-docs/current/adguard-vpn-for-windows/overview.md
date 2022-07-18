@@ -1,8 +1,7 @@
 ---
-title: 'Features overview'
+title: Features overview
 sidebar position: 1
 ---
-
 
 ## What is AdGuard VPN for Windows
 
@@ -25,7 +24,7 @@ To start using AdGuard VPN for Windows, download the app from [our website](http
 
 ## Home Screen
 
-![AdGuard VPN for Windows Home Page](https://cdn.adguard.com/public/Adguard/kb/VPN/for_windows/main_en.png)
+![AdGuard VPN for Windows Home Page](https://cdn.adguard.com/content/kb/VPN/windows/main_en.png)
 
 The most noticeable item on the **Home Screen** is the AdGuard VPN connect/disconnect button. Underneath, you can see the [mode](#exclusions) in which the application is running, and below — the selected server. On the right side of the screen you will find all available locations, and the fastest, i.e. with the shortest ping, will be listed at the top of the list.
 
@@ -36,13 +35,13 @@ At the top of the screen there is a navigation panel with four tabs: **Home**, *
 
 AdGuard VPN for Windows can work in two modes: **General** or **Selective**. What does this mean? If you want the application to work on all but a few sites, activate the **General mode** and list the resources you want to exclude from the tunnel. The **Selective mode** has the opposite effect: it activates AdGuard VPN only on the websites specified in the exclusion list. Please note that these two modes' exclusions lists are independent from one another.
 
-![Exclusions](https://cdn.adguard.com/public/Adguard/kb/VPN/for_windows/exclusions_en.png)
+![Exclusions](https://cdn.adguard.com/content/kb/VPN/windows/exclusions_en.png)
 
 There are two options for creating exclusions lists: **Manually** and **From the list**. Click the **Add a website** line and choose the format you prefer for adding sites to the exclusions.
 
-![Add Exclusions](https://cdn.adguard.com/public/Adguard/kb/VPN/for_windows/exclusions_add_en.png)
+![Add Exclusions](https://cdn.adguard.com/content/kb/VPN/windows/exclusions_add_en.png)
 
-![Add Exclusions from list](https://cdn.adguard.com/public/Adguard/kb/VPN/for_windows/exclusions_from_list_en.png)
+![Add Exclusions from list](https://cdn.adguard.com/content/kb/VPN/windows/exclusions_from_list_en.png)
 
 > When adding domains manually, you should take into account some nuances. For example, if you manually exclude the domain `google.com`, all the subdomains `*.google.com` will also be added to the exclusions list. However, domain names with other top-level domains such as `google.es` or `google.it` will not be excluded. Or you can add `youtube.com` to the exclusions, but the domain of the same service `youtu.be` will not be included in the list.
 
@@ -58,7 +57,7 @@ To transfer the exclusions lists to another device, send the `.zip` file to its 
 
 ## Settings
 
-![Settings](https://cdn.adguard.com/public/Adguard/kb/VPN/for_windows/settings_en.png)
+![Settings](https://cdn.adguard.com/content/kb/VPN/windows/settings_en.png)
 
 The fourth tab of app's tab bar contains sections that will help you customize the application. Let's look closer at two of them: **General** and **Split tunneling**.
 
@@ -71,7 +70,7 @@ You can also activate the following features with a single click: **Autoupdate**
 
 At the bottom of the page there are two sections: **DNS servers** and **Advanced settings**.
 
-![DNS settings and Advanced settings](https://cdn.adguard.com/public/Adguard/kb/VPN/for_windows/settings_dns_and_advanced_en.png)
+![DNS settings and Advanced settings](https://cdn.adguard.com/content/kb/VPN/windows/settings_dns_and_advanced_en.png)
 
 #### DNS servers
 
@@ -100,7 +99,7 @@ This is an experimental feature that enables AdGuard to use the advanced QUIC en
 
 ### Split tunneling
 
-![Split tunnelling](https://cdn.adguard.com/public/Adguard/kb/VPN/for_windows/split_tunneling_en.png)
+![Split tunnelling](https://cdn.adguard.com/content/kb/VPN/windows/split_tunneling_en.png)
 
 AdGuard VPN encrypts the traffic not only of your browsers, but also of other apps installed on your computer. If you want to exclude certain applications from AdGuard's work, put them to the **Split tunneling** list.
 

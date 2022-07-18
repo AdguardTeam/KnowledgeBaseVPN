@@ -23,7 +23,7 @@ The first tab is the *Home* screen. Here you can see AdGuard VPN current status 
 
 Next goes the *Exclusions* screen. AdGuard VPN has several features that make it unique, and one of them is certainly switching between two operating modes. In the Regular mode, AdGuard VPN will run on all websites but the ones from the exclusions list. In the Selective mode, conversely, AdGuard VPN will run only on websites from the exclusions list. You yourself can decide where you want VPN to work.
 
-![Exclusions screen](https://cdn.adguard.com/public/Adguard/Blog/vpn_export_exclusions.png)
+![Exclusions screen](https://cdn.adguard.com/public/Adguard/Blog/services.png)
 
 Also you can not only add websites to Exclusions but also choose among the lists of popular services. The lists are divided into eight categories: Social networks, Messengers, Video and Music streaming services, Games, Shopping, Search engines, and Work communication tools. Any of these services can be added to Exclusions in one click! It's especially convenient if you use Selective mode.
 
@@ -50,17 +50,21 @@ The third tab is the *Support* screen. Find answers to any questions in the [FAQ
 
 ![Settings](https://cdn.adguard.com/public/Adguard/Blog/vpn/release/VPN_for_Mac/settings.png)
 
-![About program section](https://cdn.adguard.com/public/Adguard/Blog/vpn/release/VPN_for_Mac/about-program.png)
-
 Finally, we come to the Settings tab. In the *About program* section you can see the current version of AdGuard VPN, check for updates, visit our official website, and get acquainted with AdGuard's EULA and Privacy policy. In the *About license* section you can upgrade from free to unlimited, manage your subscription, or log out. And most importantly, from here you can access *General settings*.
 
 ### General settings
 
 ![General settings](https://cdn.adguard.com/public/Adguard/Blog/vpn/release/VPN_for_Mac/general-settings.png)
 
-The first three basic features make the application more convenient and user-friendly, i.e. *autoupdate*, *launch AdGuard VPN at login*, and *auto-connect on app launch*. What’s more, you can choose between light, dark, and system themes — the latter one matches the theme on your Mac.
+The first four basic features make the application more convenient and user-friendly, i.e. *Kill Switch*, *Autoupdate*, *Launch AdGuard VPN at login*, and *Auto-connect on app launch*. What’s more, you can choose between light, dark, and system themes — the latter one matches the theme on your Mac.
 
 Another option that shouldn't be overlooked is that you can allow AdGuard VPN to gather and send anonymized crash reports, technical and interaction data in order to help us improve our app. Last but not least, thanks to the button on the right, you can export logs to your Mac. This can be useful if you want to attach logs to your message to support.
+
+### DNS servers
+
+![DNS servers](https://cdn.adguard.com/public/Adguard/Blog/vpn/release/VPN_for_Mac/dns.png)
+
+Here you can add a custom DNS server (or servers) in order not to rely on a DNS server provided by your ISP by default. We recommend adding AdGuard DNS, which not only encrypts your DNS traffic but also identifies requests to malicious sites and redirects them to a “blackhole”.
 
 ### Advanced settings
 
@@ -74,3 +78,6 @@ There are only two logging levels but we strongly recommend that you use the fir
 #### Hide menu bar icon
 Although this option is located in *Advanced settings*, it can be enabled without hesitation. You can hide the AdGuard VPN icon from the menu bar, it won’t prevent our app from running in the background.
 
+#### Use QUIC (experimental)
+
+QUIC communication protocol is the latest, cutting-edge version of HTTP. Toggle the switch to get a better connection quality in less-than-ideal conditions, while using mobile data in the subway or elevator, for instance.
