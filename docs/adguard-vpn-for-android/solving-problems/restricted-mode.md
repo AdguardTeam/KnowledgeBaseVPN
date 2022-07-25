@@ -3,7 +3,7 @@ title: 'Problems with Restricted Mode profile'
 sidebar_position: 4
 ---
 
-The owners of phones and tablets running the Android 7+ operating system might face the problem caused by using **a profile with Restricted Mode**. If you have such a profile, **AdGuard VPN**, like other applications that use VPN, gets restrictions on selective handling of VPN traffic. Also, one of the reasons for this problem may be using **Dual app/Dual messenger profile** on your device. Below are described the recommendations that you can apply when this problem occurs.
+The owners of phones and tablets running the Android 7+ operating system might face the problem caused by using **a profile with Restricted Mode**. If you have such a profile, **AdGuard VPN**, like other applications that use VPN, gets restrictions on selective handling of VPN traffic. Also, one of the reasons for this problem may be using **Dual App/Dual Messenger profile** on your device. Below are described the recommendations that you can apply when this problem occurs.
 
 ## Solutions
 
@@ -32,26 +32,26 @@ You have two ways to solve the issue:
 
 You can [find here](https://support.google.com/a/answer/6223444?hl=en) how to manage user accounts from an Android device.
 
-> Please note, that in some cases restricted user accounts are created implicitly and cannot be removed. For instance, when you use Dual messenger or Dual app features on **Samsung** or **LG** devices. You can read below how to fix the issue in these cases.
+> Please note, that in some cases restricted user accounts are created implicitly and cannot be removed. For instance, when you use Dual Messenger or Dual App features on **Samsung** or **LG** devices. You can read below how to fix the issue in these cases.
 
 ### LG and Samsung devices
 
-Owners of **LG** or **Samsung** phones may also encounter a similar issue. It can be caused by using **Dual app/Dual messenger** function (which automatically creates a restricted profile).
+Owners of **LG** or **Samsung** phones may also encounter a similar issue. It can be caused by using **Dual App/Dual Messenger** function (which automatically creates a restricted profile).
 To solve this issue, you need to disable this feature.
 
 #### Samsung
 
 - Open **Settings**;
 - Press **Advanced**;
-- Scroll down, and then press **Dual messenger**;
-- Disable the **Dual messenger** for all applications;
+- Scroll down and then press **Dual Messenger**;
+- Disable the **Dual Messenger** for all applications;
 - Lock the device for 5 minutes;
 - Unlock the screen and try again to create the VPN profile.
 
 #### LG
 
 - Open **Settings**;
-- Choose **General** tab;
-- Scroll down, and then press **Dual app**;
+- Choose the **General** tab;
+- Scroll down and then press **Dual App**;
 - Remove all applications from the list;
 - Reboot your device.

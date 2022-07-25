@@ -9,4 +9,4 @@ Depending on which AdGuard VPN app or browser extension you want to install, fol
 * [AdGuard VPN for iOS](/adguard-vpn-for-ios/installation.md)
 * [AdGuard VPN for Windows](/adguard-vpn-for-windows/installation.md)
 * [AdGuard VPN for Mac](/adguard-vpn-for-mac/installation.md)
-* [AdGuard VPN browser extension](/adguard-vpn-browser-extension/installation.md)
+* [AdGuard VPN Browser extension](/adguard-vpn-browser-extension/installation.md)
