@@ -15,7 +15,7 @@ AdGuard VPN может быть установлен на устройствах
 
 ![App Store](https://cdn.adguard.com/public/Adguard/kb/vpn-install/app-store-ru.png)
 
-2. Введите в строке поиска *"AdGuard"* и выберите *"adguard vpn" из предложенных вариантов.</li> </ol>
+2. Введите в строке поиска *"AdGuard"* и выберите *"adguard vpn" из предложенных вариантов.
 
 ![Поиск](https://cdn.adguard.com/public/Adguard/kb/vpn-install/search-ru.png)
 
