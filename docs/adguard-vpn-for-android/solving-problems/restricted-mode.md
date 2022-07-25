@@ -32,7 +32,7 @@ You have two ways to solve the issue:
 
 You can [find here](https://support.google.com/a/answer/6223444?hl=en) how to manage user accounts from an Android device.
 
-> Please note, that in some cases restricted user accounts are created implicitly and cannot be removed. For instance, when you use Dual Messenger or Dual App features on **Samsung** or **LG** devices. You can read below how to fix the issue in these cases.
+> Please note, that in some cases restricted user accounts are created implicitly and cannot be removed. For instance, when you use Dual Messenger or Dual App features on **Samsung** or **LG** devices. Read below how to fix the issue in these cases.
 
 ### LG and Samsung devices
 
