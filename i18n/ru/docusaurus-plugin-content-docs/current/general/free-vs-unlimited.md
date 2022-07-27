@@ -1,6 +1,6 @@
 ---
 title: 'Преимущества безлимитной версии AdGuard VPN'
-sidebar_position: 4
+sidebar_position: 5
 ---
  
 Вы можете пользоваться AdGuard VPN бесплатно, но с определёнными ограничениями:

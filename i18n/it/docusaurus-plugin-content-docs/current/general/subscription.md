@@ -1,9 +1,9 @@
 ---
 title: How to subscribe
-sidebar_position: 5
+sidebar_position: 6
 ---
 
-AdGuard VPN is available in two versions — free and unlimited. The subscription allows you to use the app without any restrictions on traffic, connection speed and the choice of locations. You can read more about all the advantages of the unlimited version in [this article](free-vs-unlimited.md).
+AdGuard VPN is available in two versions — free and unlimited. The subscription allows you to use the app without any restrictions on traffic, connection speed and the choice of locations. You can [read more about all the advantages of the unlimited version](free-vs-unlimited.md).
 
 If you have decided to purchase a subscription to AdGuard VPN, there are three ways to do this:
 
