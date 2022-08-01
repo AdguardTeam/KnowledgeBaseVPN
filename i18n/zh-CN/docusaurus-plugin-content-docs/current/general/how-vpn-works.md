@@ -1,5 +1,5 @@
 ---
-title: How VPN works
+title: VPN 如何工作
 sidebar_position: 1
 ---
 
