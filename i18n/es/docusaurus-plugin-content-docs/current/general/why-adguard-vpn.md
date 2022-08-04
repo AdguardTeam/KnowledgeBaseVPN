@@ -10,33 +10,33 @@ Cuando se preparan para comprometerse con una [suscripción VPN a largo plazo](s
 ## 1. Protocolo propietario
 Desde el principio, decidimos desarrollar e implementar un protocolo VPN interno en lugar de elegir una solución ya preparada: eso sería demasiado fácil, además, no estábamos satisfechos con los protocolos existentes. El resultado se ha convertido en el protocolo [AdGuard VPN](adguard-vpn-protocol.mdx).
 
-Al elegir un servicio VPN, las personas suelen tener que elegir entre rapidez y seguridad. The AdGuard VPN protocol is a perfect blend of speed and security, so you don’t have to bear slow internet connection or make privacy sacrifices. Among other things, it disguises itself as regular traffic and it’s much harder to detect and block it.
+Al elegir un servicio VPN, las personas suelen tener que elegir entre rapidez y seguridad. El protocolo AdGuard VPN es una combinación perfecta de velocidad y seguridad, por lo que no tienes que sufrir una conexión lenta a Internet ni sacrificar la privacidad. Entre otras cosas, se disfraza de tráfico regular y es mucho más difícil de detectar y bloquear.
 
 ## 2. Exclusiones
-The *Exclusions lists* allow you to select sites for which the VPN should be enabled and for which — disabled. There are two operation modes in AdGuard VPN: *General* and *Selective*. In *General mode*, VPN works everywhere except websites added to exclusions. And vice versa, in *Selective mode*, VPN works nowhere but on websites added to exclusions. You can also easily import/export exlcusions lists. Read about this feature in *Features overview* for the product you are interested in.
+Las *listas de exclusiones* te permiten seleccionar sitios para los cuales la VPN debe estar habilitada y para los cuales, deshabilitada. Hay dos modos de operación en AdGuard VPN: *General* y *Selectivo*. En *Modo general*, la VPN funciona en todas partes excepto en los sitios web añadidos a las exclusiones. Y viceversa, en *Modo selectivo*, la VPN no funciona en ninguna parte sino en los sitios web añadidos a las exclusiones. También puedes importar/exportar fácilmente listas de exlcusiones. Lee acerca de esta función en *Descripción de las funciones* para el producto que te interesa.
 
-![An example of an exclusion list for Selective mode](https://cdn.adguard.com/public/Adguard/Blog/vpn_export_exclusions.png)
+![Un ejemplo de una lista de exclusiones para el Modo selectivo](https://cdn.adguard.com/public/Adguard/Blog/vpn_export_exclusions.png)
 
-You can add websites to exclusions manually or choose them among the lists of popular services. The lists are divided into eight categories: Social networks, Messengers, Video and Music streaming services, Games, Shopping, Search engines, and Work communication tools.
+Puedes añadir sitios web a las exclusiones manualmente o elegirlos entre las listas de servicios populares. Las listas se dividen en ocho categorías: Redes sociales, Mensajeros, Servicios de streaming de vídeo y música, Juegos, Compras, Motores de búsqueda y Herramientas de comunicación laboral.
 
-> This feature is available on all platforms except iOS.
+> Esta función está disponible en todas las plataformas excepto iOS.
 
 ## 3. Elegir un servidor DNS
-No more relying on the DNS server provided by your ISP by default! First, it’s not safe: your ISP most likely has access to your browsing history. Second, People often underestimate DNS, yet it can remove ads and trackers, protect your device from malware or, for instance, enable safe search and block adult content.
+¡Ya no tendrás que depender del servidor DNS proporcionado por tu ISP port defecto! En primer lugar, no es seguro: lo más probable es que tu proveedor de Internet tenga acceso a tu historial de navegación. En segundo lugar, la gente suele subestimar el DNS, aunque puede eliminar anuncios y rastreadores, proteger tu dispositivo contra el malware o, por ejemplo, habilitar la búsqueda segura y bloquear el contenido para adultos.
 
-You can choose DNS servers from [known DNS providers](https://kb.adguard.com/en/general/dns-providers) such as AdGuard, Cisco, Cloudflare, Google, or Quad9, or even configure to use your own DNS server.
+Puedes elegir servidores DNS de [proveedores de DNS conocidos](https://kb.adguard.com/en/general/dns-providers) como AdGuard, Cisco, Cloudflare, Google o Quad9, o incluso configurar para usar tu propio servidor DNS.
 
 ## 4. Ubicaciones más rápidas
 
-Another feature that makes AdGuard VPN stand out from the crowd is that you can select a location based on its ping. In a nutshell, ping is the time it takes the data packet sent from your computer to reach the server and return. When in doubt, use a rule of thumb: the lower the ping, the closer the server, the higher its speed. We are constantly expanding the number of locations so that you can choose from a variety.
+Otra característica que hace que AdGuard VPN destaque entre los demás es que puede seleccionar una ubicación a base de su ping. En pocas palabras, el ping es el tiempo que tarda el paquete de datos enviado desde tu ordenador en llegar al servidor y regresar. En caso de duda, utiliza una regla general: cuanto menor sea el ping, cuanto más cerca esté el servidor, mayor será su velocidad. Ampliamos constantemente el número de locales para que puedas elegir entre una gran variedad.
 
-> Note that to access all VPN server locations, you need to purchase an AdGuard VPN subscription.
+> Ten en cuenta que para acceder a todas las ubicaciones de los servidores VPN, debes adquirir una suscripción a AdGuard VPN.
 
 ## 5. Compatibilidad con el Bloqueador de anuncios AdGuard
 
-With desktop apps and browser extensions this goes without saying — there’s rarely any conflicts between apps, save for antiviruses and other similarly oriented software.
+Con las aplicaciones de escritorio y las extensiones de navegador, esto no hace falta decirlo: rara vez hay conflictos entre las aplicaciones, excepto por los antivirus y otro software orientado de manera similar.
 
-With mobile devices, on the other hand, it’s not that simple. In the vast majority of cases, two VPN-based apps will not work together, just because certain OS-induced limitations exist that prevent that from happening, both on Android and iOS.
+Con los dispositivos móviles, en cambio, no es tan sencillo. In the vast majority of cases, two VPN-based apps will not work together, just because certain OS-induced limitations exist that prevent that from happening, both on Android and iOS.
 
 However, we managed to find a solution to befriend AdGuard VPN and AdGuard Ad Blocker. When you have both AdGuard apps installed on one device simultaneously, they will automatically become compatible without any input required from you. This is a unique opportunity to take advantage of two sets of features, which you would normally have to choose between.
 
