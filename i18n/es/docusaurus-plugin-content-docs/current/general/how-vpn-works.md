@@ -25,7 +25,7 @@ When you connect to a network, your computer or mobile device is assigned a uniq
 
 A VPN creates a tunnel between your device and the VPN server. Your data goes through this tunnel, gets encrypted and then enters the open Internet in a secure form. Therefore, it will seem to the web server that your device has no longer your real IP address, but the IP address of the endpoint of the tunnel, that is, the VPN server. Thus, the site that you get to after passing through the VPN tunnel will consider the geolocation of the VPN server you selected as your real location. And the encrypted data will not fall into the hands of advertisers, hackers and security services.
 
-![Estructura de VPN](https://cdn.adtidy.org/public/Adguard/Website/Images/seo/en/how_vpn_3.jpg)
+![Estructura de VPN](https://cdn.adguard.com/public/Adguard/Website/Images/seo/en/how_vpn_3.jpg)
 
 ## Tipos de protocolos VPN
 
@@ -39,11 +39,11 @@ VPN security protocols are tools that encrypt data in a VPN tunnel and allow you
 
 In addition to these VPN protocols, there are others (for example, TLS, SSTP, IKEv2), but they are unpopular or do not meet modern data encryption standards.
 
-![Cómo funciona un protocolo VPN](https://cdn.adtidy.org/public/Adguard/Blog/vpn/protocol/4.svg)
+![Cómo funciona un protocolo VPN](https://cdn.adguard.com/public/Adguard/Blog/vpn/protocol/4.svg)
 
 AdGuard VPN also has its own [*protocol*](adguard-vpn-protocol.mdx). One of its advantages is that the traffic transmitted using the AdGuard VPN protocol is difficult to distinguish from the regular traffic. The VPN tunnel looks like normal HTTPS traffic, so it is extremely difficult to detect and block it. In addition, it is based on the mechanisms of the modern HTTP/2 protocol, which ensures high connection speed.
 
-![Cómo funciona la VPN oculta](https://cdn.adtidy.org/public/Adguard/Blog/vpn/protocol/5.svg)
+![Cómo funciona la VPN oculta](https://cdn.adguard.com/public/Adguard/Blog/vpn/protocol/5.svg)
 
 ## Inconvenientes de VPN
 

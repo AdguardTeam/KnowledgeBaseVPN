@@ -24,13 +24,13 @@ We developed the AdGuard VPN protocol seeing the disadvantages of popular VPN pr
 
 To "conceal" the use of VPN, the data flow is often "wrapped" in a TCP connection, and sometimes it is additionally encrypted to make the traffic look like a normal website connection. Unfortunately, this approach has a disadvantage – due to the use of TCP, there is a need for additional confirmation of delivery.
 
-<object data="https://cdn.adtidy.org/public/Adguard/Blog/vpn/protocol/6.svg" type="image/svg+xml"><img src="https://cdn.adtidy.org/public/Adguard/Blog/vpn/protocol/6.svg"/></object>
+<object data="https://cdn.adguard.com/public/Adguard/Blog/vpn/protocol/6.svg" type="image/svg+xml"><img src="https://cdn.adguard.com/public/Adguard/Blog/vpn/protocol/6.svg"/></object>
 
 Using any popular VPN protocol, we are always facing a trade-off: fast but easy to detect vs. slow.
 
 ## What's great about AdGuard VPN protocol
 
-<object data="https://cdn.adtidy.org/public/Adguard/Blog/vpn/protocol/5.svg" type="image/svg+xml"><img src="https://cdn.adtidy.org/public/Adguard/Blog/vpn/protocol/5.svg"/></object>
+<object data="https://cdn.adguard.com/public/Adguard/Blog/vpn/protocol/5.svg" type="image/svg+xml"><img src="https://cdn.adguard.com/public/Adguard/Blog/vpn/protocol/5.svg"/></object>
 
 * It's *nearly impossible to distinguish from normal HTTPS traffic*, that is, the connection to the AdGuard VPN server looks exactly the same as the connection to a normal website.
 * For encryption we use **HTTPS (TLS)**, which copes with this task perfectly. It is the most popular encryption method in the world, and the libraries that implement it are constantly audited for security.
@@ -40,4 +40,4 @@ Some existing VPN protocols also handle the encryption task, and they (and thus,
 * We use the **HTTP/2 transport protocol**, which makes it virtually impossible to detect AdGuard VPN protocol while maintaining high speed.
 * Unlike others, AdGuard VPN protocol *operates with data and not with packets*. This means that AdGuard VPN establishes a separate "tunnel" for each connection, each HTTP/2 stream corresponds to one connection. AdGuard VPN transfers data through this tunnel. This allows us to speed up the operation by saving on confirmation packets, because we can buffer the data of several packets into one before sending it to the VPN server (or from the server to the client). And the fewer packets, the fewer confirmations are needed.
 
-<object data="https://cdn.adtidy.org/public/Adguard/Blog/vpn/protocol/sravnenie5:6.svg" type="image/svg+xml"><img src="https://cdn.adtidy.org/public/Adguard/Blog/vpn/protocol/sravnenie5:6.svg"/></object>
+<object data="https://cdn.adguard.com/public/Adguard/Blog/vpn/protocol/sravnenie5:6.svg" type="image/svg+xml"><img src="https://cdn.adguard.com/public/Adguard/Blog/vpn/protocol/sravnenie5:6.svg"/></object>

@@ -15,7 +15,7 @@ Choosing a VPN service, people often face a trade-off between fast vs. safe. The
 ## 2. 排除项
 *排除项列表*允许用户选择应启用 VPN 和禁用 VPN 的网站。 AdGuard VPN 有两个操作模式：*通用*和*选择*。 *在通用模式下，*AdGuard VPN 除了添加到排除项列表里的网站外在所有网站上工作。 And vice versa, in *Selective mode*, VPN works nowhere but on websites added to exclusions. You can also easily import/export exlcusions lists. Read about this feature in *Features overview* for the product you are interested in.
 
-![An example of an exclusion list for Selective mode](https://cdn.adtidy.org/public/Adguard/Blog/vpn_export_exclusions.png)
+![An example of an exclusion list for Selective mode](https://cdn.adguard.com/public/Adguard/Blog/vpn_export_exclusions.png)
 
 You can add websites to exclusions manually or choose them among the lists of popular services. The lists are divided into eight categories: Social networks, Messengers, Video and Music streaming services, Games, Shopping, Search engines, and Work communication tools.
 
@@ -68,6 +68,6 @@ But what if you want to feel safe while watch content specific to your region? O
 
 ## 12. Dark mode
 
-![Dark mode](https://cdn.adtidy.org/public/Adguard/Blog/vpn/main_en_black.png)
+![Dark mode](https://cdn.adguard.com/public/Adguard/Blog/vpn/main_en_black.png)
 
 This little feature deserves special mention. In fact, many users crave for dark mode, so we couldn’t ignore it and added a theme switch for all AdGuard VPN products. Choose the one you like more — light, dark, or system. Hope you’ll join the dark side.
