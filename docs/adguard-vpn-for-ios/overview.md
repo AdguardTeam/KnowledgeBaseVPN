@@ -23,13 +23,13 @@ If you don't have an AdGuard account yet, you will have to create it first.
 
 Using AdGuard VPN is quite easy. On the main screen you can see the *Connect/Disconnect* button and the list of available servers. There servers have their own location (a certain country and a city) and ping indicator. The ping describes the response time of the server (in milliseconds). For example, choosing the server with the ping of 22 ms means that the signal will reach the server and return back in 22 milliseconds. So the lower this rate, the faster is your connection. In AdGuard VPN you can choose among over 50 locations in dozens of countries.
 
-![Main screen and locations](https://cdn.adguard.com/content/kb/vpn/ios/1.png)
+![Main screen and locations](https://cdn.adguard.com/content/kb/vpn/ios/1.png?123)
 
 ## Lists of exclusions
 
 You can find the exclusion feature by tapping the middle button below. There you will see two exclusion lists — for Regular and Selective Modes. In the Regular mode the VPN works on all websites except for the ones from the exclusion list. In the Selective mode, conversely, the VPN operates only on the sites from the list. You can add domains (e.g. `google.com`) or subdomains (e.g. `*.google.com`) of websites in two ways: you can enter them manually in the app or right from the browser by clicking the *Share* button and finding AdGuard VPN in the opened list below.
 
-![Exclusions](https://cdn.adguard.com/content/kb/vpn/ios/2.png)
+![Exclusions](https://cdn.adguard.com/content/kb/vpn/ios/2.png?123)
 
 Another useful feature is the import/export of exclusion lists. You can do it by following the next four steps:
 
@@ -99,4 +99,4 @@ The users' accomplishment is the high priority for us. So there is a variety of 
 
 If you are using the free version of AdGuard VPN, there will be the fourth tab with an arrow icon on the bottom tab bar. In this section you will find brief information about the main advantages of the paid version of the app and will be able to buy a subscription.
 
-![Subscription](https://cdn.adguard.com/content/kb/vpn/ios/subscription_en.png)
+![Subscription](https://cdn.adguard.com/content/kb/vpn/ios/subscription_en.png?123)
