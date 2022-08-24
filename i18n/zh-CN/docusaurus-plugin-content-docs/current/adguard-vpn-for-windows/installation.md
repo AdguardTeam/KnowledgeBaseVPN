@@ -1,27 +1,27 @@
 ---
-title: How to install and uninstall
+title: 安装与卸载
 sidebar position: 2
 ---
 
 
-## System requirements
+## 系统需求
 
 AdGuard VPN can only be installed on devices with **Microsoft Windows 10/8.1/8/7/Vista SP2 (web-based only)**.
 
 
-## AdGuard VPN for Windows installation
+## AdGuard VPN Windows 版 的安装
 
-To install AdGuard VPN for Windows, visit [our website](https://adguard-vpn.com/en/welcome.html) and click the *Download* button. After it, the `adguardVPNInstaller.exe` will be downloaded. Run the installer and follow its instructions. The process will take less than a minute.
+您可以通过 [ 我们的网站 ](https://adguard-vpn.com/en/welcome.html) 并单击 *下载* 按钮来安装 AdGuard VPN Windows 版。 这将下载 `adguardVPNInstaller.exe`。 运行该安装包并依据提示操作。 这个过程仅需一分钟不到。
 
-Then you will need to check the box to accept the terms of the EULA and the Privacy Policy. And in the last step of the installation, you will be prompted to authorize via your AdGuard account or via social networks (Google, Apple, Facebook).
+然后你将需要选中复选框以同意 EULA (最终用户许可协议) 与 隐私政策。 最后，系统会提示您通过 AdGuard 账户 或 社交网络 (Google、Apple、Facebook) 进行授权。
 
 
-## AdGuard VPN for Windows uninstallation
+## AdGuard VPN Windows 版 的卸载
 
-If you decide to remove AdGuard VPN from your computer, use one of three options listed below.
+如果您决定从您的计算机中移除 AdGuard VPN，请使用下面列出的三个选项之一。
 
-1. Click *Start* and find AdGuard VPN in the opened list. Right-click it and select *Uninstall*.
+1. 点击 *开始* 按钮，从列表中找到 AdGuard VPN。 右键单击它，然后选择 *卸载*。
 
-2. Click *Start* -> *Settings* -> *Apps* -> *Applications and features*. Find AdGuard VPN in the list, click it and choose *Uninstall*.
+2. 打开 *开始* -> *设置* -> *应用* -> *应用与功能*。 在应用列表中找到 AdGuard VPN， 点击它并选择 *卸载*。
 
-3. Open the *Control Panel*, then click *Programs* -> *Programs and Features* -> *Uninstall a program*. Find AdGuard VPN in the list, right-click it and select *Uninstall*.
+3. 打开 *控制面板*，然后单击 *程序* -> * 程序和功能* -> *卸载程序*。 在应用列表中找到 AdGuard VPN， 右键单击它并选择 *卸载*。

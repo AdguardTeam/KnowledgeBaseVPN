@@ -1,41 +1,41 @@
 ---
-title: Credits and Acknowledgements
+title: Créditos y agradecimientos
 sidebar_position: 1
 ---
 
-Our dev team would like to thank the developers of the third-party software we use in AdGuard VPN, our great beta testers and other engaged users, whose help in finding and eliminating all the bugs, translating AdGuard VPN and moderating our communities is priceless.
+Nuestro equipo de desarrollo desea agradecer a los desarrolladores del software de terceros que utilizamos en AdGuard VPN, a nuestros excelentes beta testers y a otros usuarios comprometidos, cuya ayuda para encontrar y eliminar todos los errores, traducir AdGuard VPN y moderar nuestras comunidades no tiene precio.
 
-## AdGuard Websites
+## Sitios web de AdGuard
 
 * Symfony: [http://symfony.com/](http://symfony.com/)
 * React: [https://reactjs.org/](https://reactjs.org/)
 * Vue: [https://vuejs.org/](https://vuejs.org/)
 * PostgreSQL: [https://www.postgresql.org/](https://www.postgresql.org/)
-* Spring [https://spring.io/](https://spring.io/)
+* Spring: [https://spring.io/](https://spring.io/)
 
-## AdGuard VPN for Android
+## AdGuard VPN para Android
 
-* Logback-android by Tony19: [https://tony19.github.io/logback-android](https://tony19.github.io/logback-android)
+* Logback-android por Tony19: [https://tony19.github.io/logback-android](https://tony19.github.io/logback-android)
 
-## AdGuard VPN for iOS
+## AdGuard VPN para iOS
 
 * Zip: [https://github.com/marmelroy/Zip](https://github.com/marmelroy/Zip)
 * ReachabilitySwift: [https://github.com/ashleymills/Reachability.swift](https://github.com/ashleymills/Reachability.swift)
 * Sentry: [https://github.com/getsentry/sentry-cocoa](https://github.com/getsentry/sentry-cocoa)
 
-## AdGuard VPN for Mac
+## AdGuard VPN para Mac
 
-* Punycode component by Kojiro Futamura: [https://github.com/gumob/PunycodeSwift](https://github.com/gumob/PunycodeSwift)
-* Reachability component by Ashley Mills: [https://github.com/ashleymills/Reachability.swift](https://github.com/ashleymills/Reachability.swift)
-* Sparkle Project for Sparkle.framework component: [https://sparkle-project.org/](https://github.com/ashleymills/Reachability.swift)
+* Componente Punycode de Kojiro Futamura: [https://github.com/gumob/PunycodeSwift](https://github.com/gumob/PunycodeSwift)
+* Componente de accesibilidad de Ashley Mills: [https://github.com/ashleymills/Reachability.swift](https://github.com/ashleymills/Reachability.swift)
+* Proyecto Sparkle para el componente Sparkle.framework: [https://sparkle-project.org/](https://github.com/ashleymills/Reachability.swift)
 
-## AdGuard VPN for Windows
+## AdGuard VPN para Windows
 
-* Intercept traffic drivers (wfp & tdi): [https://netfiltersdk.com/nfsdk.html](https://netfiltersdk.com/nfsdk.html)
-* WPF-based text editor component: [http://avalonedit.net/](http://avalonedit.net/)
-* High-performance JSON framework for .NET: [https://www.newtonsoft.com/json](https://www.newtonsoft.com/json)
+* Interceptar controladores de tráfico (wfp & tdi): [https://netfiltersdk.com/nfsdk.html](https://netfiltersdk.com/nfsdk.html)
+* Componente de editor de texto basado en WPF: [http://avalonedit.net/](http://avalonedit.net/)
+* Framework JSON de alto rendimiento para .NET: [https://www.newtonsoft.com/json](https://www.newtonsoft.com/json)
 
-## AdGuard VPN Extension
+## Extensión AdGuard VPN
 
 * axios: [https://github.com/axios/axios](https://github.com/axios/axios)
 * babel: [https://github.com/babel/babel](https://github.com/babel/babel)
@@ -54,7 +54,7 @@ Our dev team would like to thank the developers of the third-party software we u
 * webpack: [https://github.com/webpack/webpack](https://github.com/webpack/webpack)
 * xstate: [https://github.com/statelyai/xstate](https://github.com/statelyai/xstate)
 
-## VPN apps
+## Aplicaciones VPN
 
 * BoringSSL: [https://github.com/google/boringssl](https://github.com/google/boringssl)
 * brotli: [https://github.com/google/brotli](https://github.com/google/brotli)
@@ -66,11 +66,11 @@ Our dev team would like to thank the developers of the third-party software we u
 * libevent: [https://github.com/libevent/libevent](https://github.com/libevent/libevent)
 * lwIP: [https://lwip.fandom.com/wiki/LwIP_Wiki](https://lwip.fandom.com/wiki/LwIP_Wiki)
 * nghttp2: [https://github.com/nghttp2/nghttp2](https://github.com/nghttp2/nghttp2)
-* Protocol Buffers - Google's data interchange format: [https://github.com/protocolbuffers](https://github.com/protocolbuffers)
+* Protocol Buffers - Formato de intercambio de datos de Google: [https://github.com/protocolbuffers](https://github.com/protocolbuffers)
 * zlib: [https://zlib.net](https://zlib.net)
 * Sciter: [https://sciter.com/](https://sciter.com/)
 
-## VPN server
+## Servidor VPN
 
 * Netty: [https://netty.io/](https://netty.io/)
 * Quiche: [https://github.com/cloudflare/quiche](https://github.com/cloudflare/quiche)

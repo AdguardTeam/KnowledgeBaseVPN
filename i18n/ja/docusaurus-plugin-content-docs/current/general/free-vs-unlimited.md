@@ -1,25 +1,25 @@
 ---
-title: 'Benefits of AdGuard VPN Unlimited'
+title: '無制限版AdGuard VPNのメリット'
 sidebar_position: 5
 ---
  
-You can use AdGuard VPN for free, but then there will be certain restrictions:
+AdGuard VPNは無料で使用できますが、一定の制限があります:
 
-* Only 2 devices on which you can simultaneously enable AdGuard VPN
-* 3 GB of traffic per month restriction
-* 20 Mbit/sec speed limit
-* Only some of the server locations are available
-* Email clients can’t be used for sending messages (on iOS and Android)
+* AdGuard VPNに同時に接続できる端末数は2台
+* 3GB/月の通信量制限
+* 最大20Mbpsという速度制限
+* 一部のサーバーロケーションのみ利用可能
+* メールクライアントのメッセージ送信を利用できません（iOSおよびAndroidの場合）
 
-> The last point should be addressed separately: free users of AdGuard VPN for iOS and Android cannot send emails in email clients. It’s impossible because we block port 25, which is used for outgoing emails, and thus reinsure against spam. However, sending emails with web email services works perfectly well. And on AdGuard VPN for Android you can add apps to exclusions so that email apps will function as well.
+> 最後の点については、別途説明する必要があります。AdGuard VPN for iOSおよび for Androidの無料ユーザーは、メールクライアントでメールを送信することができません。 なぜかと言いますと、送信メールに使われるポート25をブロックすることで、スパム対策を導入しているためです。 しかし、ウェブメールサービスを使ったメール送信は全く問題なく動作します。 また、AdGuard VPN for Androidでは、メールアプリをVPN対象外リストに追加することで、メールアプリも機能するようにすることができます。
 
-At the same time you can purchase a subscription to get an unlimited version of the app. A subscription allows to have more benefits in comparison with a free account:
+同時に、アプリの無制限版を入手するにはサブスクリプションをご購入いただくことも可能です。 有料サブスクリプションは、無料アカウントと比較して、より多くのメリットを提供します:
 
-* 5 simultaneously connected devices
-* Unlimited traffic
-* No speed cap
-* All 50+ locations are available
-* Secure streaming
-* No port 25 block
+* 同時接続可能端末数 5台
+* 通信量制限なし
+* 速度制限なし
+* 50ヶ所以上の全ロケーションご利用可能
+* 配信（ストリーミング）サービス対応
+* ポート25のブロックなし
 
-To use all the advantages, consider [purchasing a subscription](subscription.md).
+すべてのメリットをご利用いただくには、ぜひ[サブスクリプションのご購入](subscription.md)をご検討ください。

@@ -4,27 +4,27 @@
     "description": "The title of the footer links column with title=vpn in the footer"
   },
   "link.title.products": {
-    "message": "Products",
+    "message": "Productos",
     "description": "The title of the footer links column with title=products in the footer"
   },
   "link.title.support": {
-    "message": "Support",
+    "message": "Soporte",
     "description": "The title of the footer links column with title=support in the footer"
   },
   "link.title.license": {
-    "message": "License",
+    "message": "Licencia",
     "description": "The title of the footer links column with title=license in the footer"
   },
   "link.item.label.about": {
-    "message": "About",
+    "message": "Acerca de",
     "description": "The label of footer link with label=about linking to https://adguard-vpn.com/about-us.html"
   },
   "link.item.label.official": {
-    "message": "Official Site",
+    "message": "Sitio Oficial",
     "description": "The label of footer link with label=official linking to https://adguard-vpn.com"
   },
   "link.item.label.what_is_vpn": {
-    "message": "What is VPN",
+    "message": "Que es VPN",
     "description": "The label of footer link with label=what_is_vpn linking to https://adguard-vpn.com/what-is-vpn.html"
   },
   "link.item.label.blog": {
@@ -32,55 +32,55 @@
     "description": "The label of footer link with label=blog linking to https://adguard-vpn.com/blog/index.html"
   },
   "link.item.label.discuss": {
-    "message": "Discuss",
+    "message": "Debatir",
     "description": "The label of footer link with label=discuss linking to https://adguard.com/discuss.html"
   },
   "link.item.label.vpn_android": {
-    "message": "AdGuard VPN for Android",
+    "message": "AdGuard VPN para Android",
     "description": "The label of footer link with label=vpn_android linking to https://adguard-vpn.com/android/overview.html"
   },
   "link.item.label.vpn_windows": {
-    "message": "AdGuard VPN for Windows",
+    "message": "AdGuard VPN para Windows",
     "description": "The label of footer link with label=vpn_windows linking to https://adguard-vpn.com/windows/overview.html"
   },
   "link.item.label.vpn_mac": {
-    "message": "AdGuard VPN for Mac",
+    "message": "AdGuard VPN para Mac",
     "description": "The label of footer link with label=vpn_mac linking to https://adguard-vpn.com/mac/overview.html"
   },
   "link.item.label.vpn_ios": {
-    "message": "AdGuard VPN for iOS",
+    "message": "AdGuard VPN para iOS",
     "description": "The label of footer link with label=vpn_ios linking to https://adguard-vpn.com/ios/overview.html"
   },
   "link.item.label.support": {
-    "message": "Support",
+    "message": "Soporte",
     "description": "The label of footer link with label=support linking to https://adguard-vpn.com/support/support.html"
   },
   "link.item.label.how_to_install": {
-    "message": "How to install AdGuard VPN",
+    "message": "Cómo instalar AdGuard VPN",
     "description": "The label of footer link with label=how_to_install linking to https://kb.adguard.com/vpn/installation"
   },
   "link.item.label.faq": {
-    "message": "FAQ",
+    "message": "Preguntas frecuentes",
     "description": "The label of footer link with label=faq linking to https://adguard-vpn.com/support/faq.html"
   },
   "link.item.label.status": {
-    "message": "Status Page",
+    "message": "Página de estado",
     "description": "The label of footer link with label=status linking to https://status.adguard.com/"
   },
   "link.item.label.test": {
-    "message": "AdGuard test page",
+    "message": "Página de prueba de AdGuard",
     "description": "The label of footer link with label=test linking to https://adguard.com/test.html"
   },
   "link.item.label.license": {
-    "message": "Purchase a license",
+    "message": "Comprar una licencia",
     "description": "The label of footer link with label=license linking to https://adguard-vpn.com/license.html"
   },
   "link.item.label.contribute": {
-    "message": "Contribute to AdGuard",
+    "message": "Contribuir a AdGuard",
     "description": "The label of footer link with label=contribute linking to https://adguard.com/contribute.html"
   },
   "link.item.label.distribution": {
-    "message": "Distribution",
+    "message": "Distribución",
     "description": "The label of footer link with label=distribution linking to https://adguard.com/distribution.html"
   },
   "copyright": {
