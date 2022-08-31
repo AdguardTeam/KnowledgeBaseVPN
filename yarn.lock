@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@adg/js-website-utils@^1.6.0":
+  version "1.6.0"
+  resolved "https://art.adtidy.org/artifactory/api/npm/adguard-js/@adg/js-website-utils/-/@adg/js-website-utils-1.6.0.tgz#e1f495b7a23f8c982e9ea7f10cdfd23f9f84a21c"
+  integrity sha1-4fSVt6I/jJgunqfxDN/SP5+Eohw=
+
 "@algolia/autocomplete-core@1.2.1":
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/@algolia/autocomplete-core/-/autocomplete-core-1.2.1.tgz#95fc07cfa40b5a38e3f80acd75d1fb94968215a8"
@@ -9525,6 +9530,11 @@ ua-parser-js@^0.7.18:
   version "0.7.28"
   resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.28.tgz#8ba04e653f35ce210239c64661685bf9121dec31"
   integrity sha512-6Gurc1n//gjp9eQNXjD9O3M/sMwVtN5S8Lv9bvOYBfKfDNiIIhqiyi01vMBO45u4zkDE420w/e0se7Vs+sIg+g==
+
+ua-parser-js@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-1.0.2.tgz#e2976c34dbfb30b15d2c300b2a53eac87c57a775"
+  integrity sha512-00y/AXhx0/SsnI51fTc0rLRmafiGOM4/O+ny10Ps7f+j/b8p/ZY11ytMgznXkOVo4GQ+KwQG5UQLkLGirsACRg==
 
 unbox-primitive@^1.0.1:
   version "1.0.1"

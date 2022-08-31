@@ -1,0 +1,215 @@
+.stickyBar {
+    position: sticky;
+    bottom: 0;
+    font-weight: 400;
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(100%);
+    transition: var(--vpn-transition-3s) transform;
+}
+
+.stickyBarOpen {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.stickyBarIn {
+    display: flex;
+    align-items: center;
+    padding: 16px;
+    box-shadow: 17px 0 30px var(--vpn-box-shadow-color);
+    background-color: var(--vpn-white-color);
+}
+
+@media (min-width: 768px) {
+    .stickyBarIn {
+        padding: 16px 40px;
+    }
+}
+
+.stickyBarIntro {
+    display: none;
+    margin-right: 32px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+@media (min-width: 768px) {
+    .stickyBarIntro {
+        display: block;
+    }
+}
+
+.stickyBarBtnWrap {
+    min-width: 200px;
+    position: relative;
+    z-index: 2;
+}
+
+.stickyBarBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0;
+    border: none;
+    border-radius: var(--vpn-small-border-radius);
+    padding: 14px 16px;
+    font-size: 16px;
+    line-height: 1.125;
+    text-decoration: none;
+    text-align: center;
+    background-color: var(--vpn-green-400);
+    color: var(--vpn-white-color);
+    transition: var(--vpn-transition-3s) background-color;
+    font-weight: 600;
+    white-space: nowrap;
+    user-select: none;
+    cursor: pointer;
+}
+
+.stickyBarBtn:hover {
+    text-decoration: none;
+    background-color: var(--vpn-green-700);
+    color: var(--vpn-white-color);
+}
+
+.stickyBarBtn:hover + .stickyBarBaloon {
+    opacity: 1;
+    visibility: visible;
+}
+
+.stickyBarBtn:active {
+    transform: translateY(2px);
+}
+
+.stickyBarBtn:disabled {
+    opacity: 0.5;
+    cursor: default;
+}
+
+.stickyBarBtn:disabled:hover {
+    background-color: var(--vpn-green-400);
+}
+
+@media (min-width: 1024px) {
+    .stickyBarBtn {
+        font-size: 18px;
+        line-height: 1.23;
+    }
+}
+
+.stickyBarBtnIcon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-color: var(--vpn-white-color);
+}
+
+.stickyBarBtnIcon_chrome {
+    mask-image: url("/img/icons/icon-chrome.svg");
+}
+
+.stickyBarBtnIcon_edge {
+    mask-image: url("/img/icons/icon-edge.svg");
+}
+
+.stickyBarBtnIcon_firefox {
+    mask-image: url("/img/icons/icon-firefox.svg");
+}
+
+.stickyBarBtnIcon_opera {
+    mask-image: url("/img/icons/icon-opera.svg");
+}
+
+.stickyBarBtnIcon_windows {
+    mask-image: url("/img/icons/icon-windows.svg");
+}
+
+.stickyBarBtnIcon_mac {
+    mask-image: url("/img/icons/icon-mac.svg");
+}
+
+.stickyBarBtnIcon_ios {
+    mask-image: url("/img/icons/icon-appstore.svg");
+}
+
+.stickyBarBtnIcon_android {
+    mask-image: url("/img/icons/icon-gplay.svg");
+}
+
+.stickyBarBaloon {
+    display: none;
+    min-width: 176px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -100%);
+    padding-bottom: 16px;
+    font-size: 12px;
+    text-align: left;
+    color: var(--vpn-white-color);
+    opacity: 0;
+    visibility: hidden;
+    transition: var(--vpn-transition-3s) opacity, visibility;
+}
+
+.stickyBarBaloon:hover {
+    opacity: 1;
+    visibility: visible;
+}
+
+@media (min-width: 1024px) {
+    .stickyBarBaloon {
+        display: block;
+    }
+}
+
+.stickyBarBaloonContent {
+    position: relative;
+    border-radius: 8px;
+    padding: 8px;
+    background-color: var(--vpn-gray-900);
+}
+
+.stickyBarBaloonContent:before {
+    content: "";
+    width: 14px;
+    height: 8px;
+    position: absolute;
+    left: 50%;
+    bottom: -7px;
+    transform: translateX(-50%);
+    background-image: url("/img/icons/baloon-tail.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.stickyBarCloseBtn {
+    width: 24px;
+    height: 24px;
+    border: none;
+    margin: 0 0 auto auto;
+    padding: 0;
+    mask-image: url("/img/icons/cross.svg");
+    mask-size: 14px;
+    mask-position: center;
+    mask-repeat: no-repeat;
+    background-color: var(--vpn-gray-900);
+    cursor: pointer;
+    outline: none;
+}
+
+@media (min-width: 768px) {
+    .stickyBarCloseBtn {
+        width: 32px;
+        height: 32px;
+        margin: 0 0 0 32px;
+        mask-size: 16px;
+    }
+}

@@ -15,6 +15,13 @@
   --ifm-color-primary-lighter: #5286e4;
   --ifm-color-primary-lightest: #759fe9;
   --ifm-code-font-size: 95%;
+  --vpn-box-shadow-color: rgba(0, 0, 0, 0.1);
+  --vpn-green-400: #74a352;
+  --vpn-green-700: #568040;
+  --vpn-gray-900: #4d4d4d;
+  --vpn-white-color: #ffffff;
+  --vpn-small-border-radius: 8px;
+  --vpn-transition-3s: 0.3s ease;
 
   --ifm-toc-border-color: #D8D8D8;
 }
@@ -32,6 +39,10 @@
 
 html[data-theme='dark'] .docusaurus-highlight-code-line {
   background-color: rgba(0, 0, 0, 0.3);
+}
+
+.container-outer {
+  width: 100%;
 }
 
 .container img {
@@ -105,6 +116,21 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 .table-of-contents__link {
   font-size: 13px;
   font-weight: 300;
+}
+
+.clean-btn.theme-back-to-top-button {
+  width: 1.5rem;
+  height: 1.5rem;
+  right: 16px;
+  bottom: 1rem;
+}
+
+@media (min-width: 768px) {
+  .clean-btn.theme-back-to-top-button {
+    width: 3rem;
+    height: 3rem;
+    right: 1.3rem;
+  }
 }
 
 /* Pagination */
