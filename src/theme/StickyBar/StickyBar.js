@@ -70,16 +70,6 @@ const StickyBar = () => {
         setIsVisible(false);
     };
 
-    const sendStickyBarEvent = (event) => {
-        event.preventDefault();
-
-        utils.sendTrackingEvent(
-            "Indirect Install",
-            `Install ${getCurrentPlatformName()}`,
-            "knowledge_base",
-        );
-    }
-
     return (
         <>
             {isVisible &&
@@ -96,8 +86,7 @@ const StickyBar = () => {
                         <div className={s.stickyBarBtnWrap}>
                             <a
                                 className={s.stickyBarBtn}
-                                href={`${VPN_WEBSITE_URL}/download.html?auto=1`}
-                                onClick={sendStickyBarEvent}
+                                href={`${VPN_WEBSITE_URL}/download.html?auto=1&lbl=knowledge_base`}
                             >
                                 <span className={clsx(s.stickyBarBtnIcon, s[iconClassName])} />
 

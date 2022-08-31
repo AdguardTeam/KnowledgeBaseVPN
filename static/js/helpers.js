@@ -1,6 +1,5 @@
 import Parser from 'ua-parser-js';
 import { OS_NAMES, BROWSER_NAMES, VPN_BROWSER_NAMES } from './consts'; // eslint-disable-line import/no-unresolved
-import adgUtils from '@adg/js-website-utils';
 
 const UNKNOWN_MARK = 'unknown';
 const EDGE_REGEX = /(edge|edgios|edga|edg)\/((\d+)?[\w.]+)/i;
@@ -35,8 +34,6 @@ export const getOSName = () => {
         return UNKNOWN_MARK;
     }
 };
-
-export const utils = adgUtils();
 
 export const getCurrentPlatformName = () => {
     const currentOS = getOSName() === OS_NAMES.MAC_OS ? OS_NAMES.MAC : getOSName();
