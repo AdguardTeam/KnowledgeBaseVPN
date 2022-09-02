@@ -1,36 +1,36 @@
 ---
-title: Installation and removal
+title: Kurulum ve kaldırma
 sidebar_position: 2
 ---
 
-## How to install AdGuard VPN browser extension
+## AdGuard VPN tarayıcı uzantısı nasıl yüklenir
 
-To install AdGuard VPN browser extension, follow these steps:
+AdGuard VPN tarayıcı uzantısını yüklemek için şu adımları izleyin:
 
-1. Visit [adguard-vpn.com](https://adguard-vpn.com/browser-extension/overview.html)
+1. [adguard-vpn.com](https://adguard-vpn.com/browser-extension/overview.html)'i ziyaret edin
 
-2. Click on the icon of your browser and then click *Install*.
+2. Tarayıcınızın simgesine tıklayın ve ardından **Yükle'ye tıklayın.
 
-3. Depending on your browser, one of the websites will open: Chrome Web Store, Firefox Add-ons, or Microsoft Edge Add-ons. Click the respective button: *Add to Chrome*, *Add to Firefox* or *Get* next to AdGuard VPN Browser extension.
+3. Tarayıcınıza bağlı olarak, web sitelerinden biri açılır: Chrome Web Mağazası, Firefox Eklentileri veya Microsoft Edge Eklentileri. İlgili düğmeye tıklayın: *Chrome'a ekle*, *Firefox'a ekle* veya *AdGuard VPN Tarayıcı uzantısının yanındaki* adresini alın.
 
-4. Once the installation is complete, you will be prompted to switch to [unlimited version](https://adguard-vpn.com/thankyou.html). It's completely optional but if you find that the free version is not enough for you, you can purchase a [subscription](/general/subscription.md) at any moment.
+4. Kurulum tamamlandıktan sonra [sınırsız sürüm](https://adguard-vpn.com/thankyou.html)adresine geçmeniz istenecektir. Tamamen isteğe bağlıdır, ancak ücretsiz sürümün sizin için yeterli olmadığını düşünüyorsanız, istediğiniz zaman [aboneliği](/general/subscription.md) satın alabilirsiniz.
 
-4. Read and accept the EULA and Privacy Policy by checking the respective box. You can also allow AdGuard VPN to collect anonymized data on the app usage, which we need to improve our product (this is optional). Then click *Continue*.
+4. İlgili kutuyu işaretleyerek EULA ve Gizlilik Politikası'nı okuyun ve kabul edin. Ayrıca AdGuard VPN'nin, ürünümüzü geliştirmemiz gereken uygulama kullanımı hakkında anonimleştirilmiş veriler toplamasına da izin verebilirsiniz (bu isteğe bağlıdır). Ardından *Devam*'a tıklayın.
 
-5. Sign up or log into your previously created AdGuard account to finish the installation process.
+5. Yükleme işlemini tamamlamak için kaydolun veya önceden oluşturduğunuz AdGuard hesabınıza giriş yapın.
 
-Enjoy AdGuard VPN!
+AdGuard VPN'in keyfini çıkarın!
 
-## How to uninstall AdGuard VPN browser extension
+## AdGuard VPN tarayıcı uzantısı nasıl kaldırılır
 
 ### Chrome
 
-Click the three dots icon in the top right corner of the browser, then select *More tools -> Extensions*. Find AdGuard VPN and click *Remove*.
+Tarayıcının sağ üst köşesindeki üç nokta simgesine tıklayın, ardından *Diğer araçlar -> Uzantılar* öğesini seçin. AdGuard VPN'i bulun ve *Kaldır*'ı tıklayın.
 
 ### Firefox
 
-Click the sandwich menu icon in the top right corner of the browser, then select *Add-ons and themes*. Find AdGuard VPN in the list, click the three dots icon next to it and select *Remove*.
+Tarayıcının sağ üst köşesindeki sandviç menü simgesine tıklayın, ardından *Eklentiler ve temalar* öğesini seçin. Listede AdGuard VPN'yi bulun, yanındaki üç nokta simgesine tıklayın ve *Kaldır*'ı seçin.
 
 ### Edge
 
-Click the three dots icon in the top right corner of the browser, then select *Extensions*. Find AdGuard VPN in the list, click the three dots icon next to it and select *Remove from Microsoft Edge*.
+Tarayıcının sağ üst köşesindeki üç nokta simgesini tıklayın, ardından *Uzantılar*'ı seçin. Listede AdGuard VPN'yi bulun, yanındaki üç nokta simgesine tıklayın ve Microsoft Edge*'den Kaldır*'ı seçin.

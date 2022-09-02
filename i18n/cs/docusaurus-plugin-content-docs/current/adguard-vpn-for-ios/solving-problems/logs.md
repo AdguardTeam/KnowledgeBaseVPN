@@ -1,40 +1,40 @@
 ---
-title: How to collect and send logs
+title: Jak shromažďovat a odesílat protokoly
 sidebar_position: 2
 ---
 
-If you encounter a problem when using AdGuard VPN for iOS, you can inform us about it by sending application logs.
+Pokud při používání AdGuard VPN pro iOS narazíte na problém, můžete nás o něm informovat zasláním protokolů aplikace.
 
-## Collecting and sending standard logs
+## Shromažďování a odesílání standardních protokolů
 
-By default, AdGuard VPN for iOS uses the standard logging level, that is, the basic collection of data about running processes of the app. To send these logs, follow the next steps:
+Ve výchozím nastavení používá AdGuard VPN pro iOS standardní úroveň záznamů, tj. základní sběr dat o spuštěných procesech aplikace. Chcete-li tyto protokoly odeslat, postupujte podle následujících kroků:
 
-1. Open AdGuard VPN for iOS and, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
+1. Otevřete AdGuard VPN pro iOS a pokud je to možné, zopakujte akce, které vedly k chybě. Zaznamenejte přesný čas, kdy k této chybě došlo.
 
-2. Select "Settings" in the lower-right corner of the screen, then select "Support" and click "Report a bug" in it.
+2. Vyberte "Nastavení" v pravém dolním rohu obrazovky, poté vyberte "Podpora" a klikněte na "Nahlásit chybu".
 
-3. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred. If you can't reproduce the problem, specify as accurately as possible when it last occurred.
+3. V otevřeném formuláři zadejte svou e-mailovou adresu pro zpětnou vazbu a popište nalezenou chybu, včetně času, kdy k ní došlo. Pokud nemůžete problém reprodukovat, uveďte co nejpřesněji, kdy k němu naposledy došlo.
 
-4. There is a check mark next to the "Send detailed system info", which means that when you send a report, you also send logs.
-> If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, select "Export logs" in the "Support" section.
+4. Vedle položky "Odeslat podrobné systémové informace" je zaškrtávací políčko, což znamená, že při odesílání hlášení se odesílají také protokoly.
+> Pokud je pro vás z nějakého důvodu pohodlnější poslat nám protokoly jiným způsobem, můžete je exportovat sami. Chcete-li to provést, vyberte možnost "Exportovat protokoly" v části "Podpora".
 
-## Collecting and sending extended logs
+## Shromažďování a odesílání rozšířených protokolů
 
-In most cases, the default logging level is sufficient to trace down possible bugs. But there are cases when more detailed technical information about the device and connections is required, and then our support team will ask you to enable the extened logging level. To send this type of logs, follow these steps:
+Ve většině případů je výchozí úroveň záznamů dostatečná pro dohledání případných chyb. V některých případech jsou však vyžadovány podrobnější technické informace o zařízení a připojeních, a pak vás náš tým podpory požádá o povolení rozšířené úrovně záznamů. Chcete-li odeslat tento typ protokolů, postupujte podle následujících kroků:
 
-1. Open AdGuard VPN for iOS and select "Settings" in the lower-right corner of the screen.
+1. Otevřete AdGuard VPN pro iOS a vyberte "Nastavení" v pravém dolním rohu obrazovky.
 
-2. Select "App settings" and "Advanced settings" in it.
+2. "Vyberte "Nastavení aplikace" a "Pokročilá nastavení".
 
-3. In the "Logging level" section, select "Extended".
+3. V části "Úroveň záznamů" vyberte "Rozšířený".
 
-4. Repeat the actions that led to the error, and note the time when it occurred.
+4. Zopakujte akce, které vedly k chybě a zaznamenejte čas, kdy k ní došlo.
 
-5. Switch the logging level back to "Default".
+5. Přepněte úroveň záznamů zpět na "Výchozí".
 
-6. Then go back to the main section "Settings", select "Support" and then "Report a bug".
+6. Poté se vraťte do hlavní části "Nastavení", vyberte "Podpora" a poté "Nahlásit chybu".
 
-7. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred.
+7. V otevřeném formuláři zadejte svou e-mailovou adresu pro zpětnou vazbu a popište nalezenou chybu, včetně času, kdy k ní došlo.
 
-8. Make sure that there is a check mark next to "Submit detailed system info" and click "Submit a report".
-> If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, select "Export logs" in the "Support" section.
+8. Ujistěte se, že je zaškrtnuto políčko "Odeslat podrobné systémové informace" a klepněte na "Odeslat zprávu".
+> Pokud je pro vás z nějakého důvodu pohodlnější poslat nám protokoly jiným způsobem, můžete je exportovat sami. Chcete-li to provést, vyberte možnost "Exportovat protokoly" v části "Podpora".

@@ -1,56 +1,56 @@
 ---
-title: 'Problems with Restricted Mode profile'
+title: '限制模式账户问题'
 sidebar_position: 4
 ---
 
-The owners of phones and tablets running the Android 7+ operating system might face the problem caused by using **a profile with Restricted Mode**. If you have such a profile, **AdGuard VPN**, like other applications that use VPN, gets restrictions on selective handling of VPN traffic. Also, one of the reasons for this problem may be using **Dual App/Dual Messenger profile** on your device. Below are described the recommendations that you can apply when this problem occurs.
+运行Android 7及以上操作系统的手机和平板电脑用户可能会因为**限制模式下的账户**而遇到问题。 如果您有这样的账户，**AdGuard VPN**和其他使用VPN的应用会在处理VPN流量的时候会受到限制。 此外，在您的设备上使用**应用分身/双账户**也可能导致此问题。 下面是发生此问题时的解决建议。
 
-## Solutions
+## 解决方案
 
-You have two ways to solve the issue:
+您有两种方法可以解决此问题：
 
-### Option 1: Grant permissions to AdGuard VPN using ADB
+### 选项1：使用ADB授予AdGuard VPN权限
 
-1. Activate the **developer mode** and enable **USB debugging**:
-- Open the **Settings** application on your phone;
-- Go to **System** section (last item in the settings menu). In this section find sub-item **About phone**;
-- Click on the **Build number** line 7 times. After that, you will receive a notification that **You are now a developer** (If necessary, enter an unlock code for the device);
-- Open **System Settings** > **Developer Options** > Scroll down and enable **USB debugging** > Confirm debugging is enabled in the window **Allow USB debugging** after reading the warning carefully.
+1. 激活**开发这模式**并启用**USB调试**；
+- 打开手机自带的的**设置**；
+- 点击**系统**部分（一般在设置菜单的最后）。 在此部分中找到子项**关于手机**；
+- 连续点击**版本号**7次。 之后，您会收到通知称**您已处于开发者模式**（有可能会要求您输入设备的解锁密码）；
+- 打开**系统设置**>**开发者选项**>下滑并开启**USB调试**>在阅读提醒后确认**允许USB调试**窗口已为开启状态。
 
-> If you have any difficulties or additional questions, full instructions can be found [here](https://developer.android.com/studio/debug/dev-options).
+> 如果您有任何困难或其他问题，可以在[此处](https://developer.android.com/studio/debug/dev-options)找到完整说明。
 
-2. [Install and configure](https://www.xda-developers.com/install-adb-windows-macos-linux/) adb;
-> On the Windows platform, **Samsung** owners may need to install [this utility](https://developer.samsung.com/mobile/android-usb-driver.html).
+2. [安装和配置](https://www.xda-developers.com/install-adb-windows-macos-linux/)adb；
+> 在Windows平台中，**三星**用户需要安装[此工具](https://developer.samsung.com/mobile/android-usb-driver.html)。
 
-3. Connect your device using a **USB cable** to the computer or laptop on which you installed **ADB**;
-4. Open **the command line** on your PC:
-- **Cmd.exe** if you are using **Windows**;
-- **Terminal** if you are using **macOS**;
-5. Enter the command `adb shell pm grant com.adguard.vpn android.permission.INTERACT_ACROSS_USERS` and press **Enter**.
+3. 在您的电脑或笔记本上安装**ADB**，然后用**USB数据线**将手机和电脑相连；
+4. 在电脑上打开**命令行窗口**
+- 在**Windows**系统中指的是**cmd.exe**；
+- 在**macOS**中指的是**终端**；
+5. 输入命令`adb shell pm grant com.adguard.vpn android.permission.INTERACT_ACROSS_USERS`，然后按下**Enter**键。
 
-### Option 2: Remove *Restricted user account*
+### 选项2：移除*受限用户账户*
 
-You can [find here](https://support.google.com/a/answer/6223444?hl=en) how to manage user accounts from an Android device.
+安卓用户可以在[此处](https://support.google.com/a/answer/6223444?hl=en)找到如何管理用户账户。
 
-> Please note, that in some cases restricted user accounts are created implicitly and cannot be removed. For instance, when you use Dual Messenger or Dual App features on **Samsung** or **LG** devices. Read below how to fix the issue in these cases.
+> 请注意，在某些情况下，受限的用户账户是隐式创建的，无法被移除。 例如，当您在**三星**或**LG**设备上使用双账户/应用分身时。 请阅读下文，了解如何解决此类问题。
 
-### LG and Samsung devices
+### LG和三星设备
 
-Owners of **LG** or **Samsung** phones may also encounter a similar issue. It can be caused by using **Dual App/Dual Messenger** function (which automatically creates a restricted profile). To solve this issue, you need to disable this feature.
+**LG**或**三星**手机用户可能也会遇到类似的问题。 这可能是由**应用分身/双Messenger账户**功能（其本质是隐式创建了受限账户）引起的。 要解决此问题，您需要禁用此功能。
 
-#### Samsung
+#### 三星
 
-- Open **Settings**;
-- Press **Advanced**;
-- Scroll down and then press **Dual Messenger**;
-- Disable the **Dual Messenger** for all applications;
-- Lock the device for 5 minutes;
-- Unlock the screen and try again to create the VPN profile.
+- 打开**设置**；
+- 点击**高级**；
+- 下滑并点击**双Messenger账户**；
+- 禁用所有应用的**双账户**；
+- 锁定设备5分钟；
+- 解锁屏幕并尝试再次创建VPN配置文件。
 
 #### LG
 
-- Open **Settings**;
-- Choose the **General** tab;
-- Scroll down and then press **Dual App**;
-- Remove all applications from the list;
-- Reboot your device.
+- 打开**设置**；
+- 选择**常规**选项；
+- 下滑并点击**应用分身**；
+- 移除列表中的所有应用；
+- 重启设备

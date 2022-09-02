@@ -1,5 +1,5 @@
 ---
-title: 'How to collect and send logs'
+title: 'Jak shromažďovat a odesílat protokoly'
 sidebar position: 1
 ---
 

@@ -1,36 +1,36 @@
 ---
-title: Installation and removal
+title: Instalace a odstranění
 sidebar_position: 2
 ---
 
-## How to install AdGuard VPN browser extension
+## Jak nainstalovat rozšíření prohlížeče AdGuard VPN
 
-To install AdGuard VPN browser extension, follow these steps:
+Chcete-li nainstalovat rozšíření prohlížeče AdGuard VPN, postupujte podle následujících kroků:
 
-1. Visit [adguard-vpn.com](https://adguard-vpn.com/browser-extension/overview.html)
+1. Navštivte [adguard-vpn.com](https://adguard-vpn.com/browser-extension/overview.html)
 
-2. Click on the icon of your browser and then click *Install*.
+2. Klikněte na ikonu prohlížeče a potom klikněte na tlačítko *Instalovat*.
 
-3. Depending on your browser, one of the websites will open: Chrome Web Store, Firefox Add-ons, or Microsoft Edge Add-ons. Click the respective button: *Add to Chrome*, *Add to Firefox* or *Get* next to AdGuard VPN Browser extension.
+3. V závislosti na prohlížeči se otevře jedna z webových stránek: Webový obchod Chrome, Doplňky pro Firefox nebo Doplňky pro Microsoft Edge. Klikněte na příslušné tlačítko: *Přidat do Chrome*, *Přidat do Firefoxu* nebo tlačítko *Získat* vedle položky Rozšíření prohlížeče AdGuard VPN.
 
-4. Once the installation is complete, you will be prompted to switch to [unlimited version](https://adguard-vpn.com/thankyou.html). It's completely optional but if you find that the free version is not enough for you, you can purchase a [subscription](/general/subscription.md) at any moment.
+4. Po dokončení instalace budete vyzváni k přepnutí na [neomezenou verzi](https://adguard-vpn.com/thankyou.html). Je to zcela dobrovolné, ale pokud zjistíte, že vám bezplatná verze nestačí, můžete si kdykoli zakoupit [předplatné](/general/subscription.md).
 
-4. Read and accept the EULA and Privacy Policy by checking the respective box. You can also allow AdGuard VPN to collect anonymized data on the app usage, which we need to improve our product (this is optional). Then click *Continue*.
+4. Přečtěte si smlouvu EULA a zásady ochrany osobních údajů a zaškrtnutím příslušného políčka je přijměte. Můžete také povolit, aby AdGuard VPN shromažďovala anonymizované údaje o používání aplikace, které potřebujeme ke zlepšení našeho produktu (není povinné). Poté klikněte na *Pokračovat*.
 
-5. Sign up or log into your previously created AdGuard account to finish the installation process.
+5. Zaregistrujte se nebo se přihlaste ke svému dříve vytvořenému účtu AdGuard a dokončete proces instalace.
 
-Enjoy AdGuard VPN!
+Užívejte si AdGuard VPN!
 
-## How to uninstall AdGuard VPN browser extension
+## Jak odinstalovat rozšíření prohlížeče AdGuard VPN
 
 ### Chrome
 
-Click the three dots icon in the top right corner of the browser, then select *More tools -> Extensions*. Find AdGuard VPN and click *Remove*.
+Klikněte na ikonu tří teček v pravém horním rohu prohlížeče a poté vyberte *Další nástroje -> Rozšíření*. Vyhledejte AdGuard VPN a klikněte na *Odebrat*.
 
 ### Firefox
 
-Click the sandwich menu icon in the top right corner of the browser, then select *Add-ons and themes*. Find AdGuard VPN in the list, click the three dots icon next to it and select *Remove*.
+Klikněte na ikonu tří vodorovných čar v pravém horním rohu prohlížeče, poté vyberte *Doplňky a motivy*. Vyhledejte v seznamu AdGuard VPN, klikněte na ikonu tří teček vedle a vyberte možnost *Odebrat*.
 
 ### Edge
 
-Click the three dots icon in the top right corner of the browser, then select *Extensions*. Find AdGuard VPN in the list, click the three dots icon next to it and select *Remove from Microsoft Edge*.
+Klikněte na ikonu tří teček v pravém horním rohu prohlížeče a poté vyberte *Rozšíření*. Vyhledejte v seznamu AdGuard VPN, klikněte na ikonu tří teček vedle a vyberte možnost *Odebrat z Microsoft Edge*.

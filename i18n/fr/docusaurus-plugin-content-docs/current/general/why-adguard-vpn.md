@@ -1,28 +1,28 @@
 ---
-title: 'Why AdGuard VPN is the better option'
+title: 'Pourquoi AdGuard VPN est la meilleure option'
 sidebar_position: 2
 ---
 
-When getting ready to commit to a [long-term VPN subscription](subscription.md), users most frequently evaluate its speed, security, and price. Those are very important points but there is so much more! AdGuard VPN has a dozen of key assets that make it 'the better option'.
+When getting ready to commit to a [long-term VPN subscription](subscription.md), users most frequently evaluate its speed, security, and price. Ce sont des points très importants mais il y a tellement plus à dire ! AdGuard VPN dispose d'une dizaine d'atouts clés qui en font "la meilleure option".
 
-*To start with, let’s go over AdGuard VPN’s unmatched features that you won’t find in any other VPN.*
+*Pour commencer, passons en revue les fonctionnalités inégalées de AdGuard VPN que vous ne trouverez dans aucun autre VPN.*
 
-## 1. Proprietary protocol
-From the very outset, we resolved to develop and deploy an in-house VPN protocol instead of picking a canned solution — that’d be too easy, plus, we weren’t satisfied with existing protocols. The result has become the [AdGuard VPN protocol](adguard-vpn-protocol.mdx).
+## 1. Protocole propriétaire
+Dès le départ, nous avons décidé de développer et de déployer un protocole VPN interne au lieu de choisir une solution prédéfinie - ce serait trop facile, de plus, nous n'étions pas satisfaits des protocoles existants. Le résultat est devenu [le protocole AdGuard VPN](adguard-vpn-protocol.mdx).
 
-Choosing a VPN service, people often face a trade-off between fast vs. safe. The AdGuard VPN protocol is a perfect blend of speed and security, so you don’t have to bear slow internet connection or make privacy sacrifices. Among other things, it disguises itself as regular traffic and it’s much harder to detect and block it.
+En choisissant un service VPN, les gens sont souvent confrontés au choix d'un compromis entre la rapidité et la sécurité. Le protocole AdGuard VPN est un mélange parfait de vitesse et de sécurité, vous n'avez donc pas à souffrir d'une connexion Internet lente ou à faire des sacrifices en matière de confidentialité. Entre autres choses, il se déguise en trafic ordinaire et il est beaucoup plus difficile de le détecter et de le bloquer.
 
 ## 2. Exclusions
-The *Exclusions lists* allow you to select sites for which the VPN should be enabled and for which — disabled. There are two operation modes in AdGuard VPN: *General* and *Selective*. In *General mode*, VPN works everywhere except websites added to exclusions. And vice versa, in *Selective mode*, VPN works nowhere but on websites added to exclusions. You can also easily import/export exlcusions lists. Read about this feature in *Features overview* for the product you are interested in.
+Les *listes d'exclusions* vous permettent de sélectionner les sites pour lesquels le VPN doit être activé et pour lesquels — désactivé. Il y a deux modes d'opération de AdGuard VPN : *Général* et *Sélectif*. En mode *Général*, le VPN fonctionne partout sauf les sites ajoutés aux exclusions. Et inversement, en *Mode sélectif*, le VPN ne fonctionne que sur les sites ajoutés aux exclusions. Vous pouvez également facilement importer/exporter des listes d'exclusions. Pour en savoir plus sur cette fonctionnalité, consultez le site *Aperçu des fonctionnalités* pour le produit qui vous intéresse.
 
-![An example of an exclusion list for Selective mode](https://cdn.adguard.com/public/Adguard/Blog/vpn_export_exclusions.png)
+![Un exemple de liste d'exclusion pour le Mode sélectif](https://cdn.adguard.com/public/Adguard/Blog/vpn_export_exclusions.png)
 
-You can add websites to exclusions manually or choose them among the lists of popular services. The lists are divided into eight categories: Social networks, Messengers, Video and Music streaming services, Games, Shopping, Search engines, and Work communication tools.
+Vous pouvez ajouter des sites web aux exclusions manuellement ou les choisir parmi les listes de services populaires. Les listes sont divisées en huit catégories : Réseaux sociaux, messageries, services de streaming vidéo et musical, jeux, achats, moteurs de recherche et outils de télétravail.
 
-> This feature is available on all platforms except iOS.
+> Cette fonctionnalité est disponible sur toutes les plateformes sauf iOS.
 
-## 3. Choosing a DNS server
-No more relying on the DNS server provided by your ISP by default! First, it’s not safe: your ISP most likely has access to your browsing history. Second, People often underestimate DNS, yet it can remove ads and trackers, protect your device from malware or, for instance, enable safe search and block adult content.
+## 3. Choisir un serveur DNS
+Ne vous fiez plus au serveur DNS fourni par défaut par votre FAI ! Tout d'abord, ce n'est pas sécuritaire : votre FAI a très probablement accès à votre historique de navigation. Deuxièmement, les gens sous-estiment souvent le DNS, mais il peut supprimer les publicités et les traqueurs, protéger votre appareil contre les logiciels malveillants ou, par exemple, activer la recherche sécurisée et bloquer le contenu réservé aux adultes.
 
 You can choose DNS servers from [known DNS providers](https://kb.adguard.com/en/general/dns-providers) such as AdGuard, Cisco, Cloudflare, Google, or Quad9, or even configure to use your own DNS server.
 

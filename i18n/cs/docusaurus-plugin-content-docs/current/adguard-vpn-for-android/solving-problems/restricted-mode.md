@@ -1,56 +1,56 @@
 ---
-title: 'Problems with Restricted Mode profile'
+title: 'Problémy s profilem Omezený režim'
 sidebar_position: 4
 ---
 
-The owners of phones and tablets running the Android 7+ operating system might face the problem caused by using **a profile with Restricted Mode**. If you have such a profile, **AdGuard VPN**, like other applications that use VPN, gets restrictions on selective handling of VPN traffic. Also, one of the reasons for this problem may be using **Dual App/Dual Messenger profile** on your device. Below are described the recommendations that you can apply when this problem occurs.
+Majitelé telefonů a tabletů s operačním systémem Android 7+ se mohou potýkat s problémem způsobeným používáním **profilu s Omezený režim**. Pokud máte takový profil, **AdGuard VPN**, stejně jako ostatní aplikace využívající VPN, získá omezení pro selektivní zpracování provozu VPN. Jednou z příčin tohoto problému může být také používání profilu **Duální aplikace/Duální Messenger** ve vašem zařízení. Níže jsou popsána doporučení, která můžete použít v případě výskytu tohoto problému.
 
-## Solutions
+## Řešení
 
-You have two ways to solve the issue:
+Problém můžete vyřešit dvěma způsoby:
 
-### Option 1: Grant permissions to AdGuard VPN using ADB
+### Možnost 1: Udělení oprávnění aplikaci AdGuard VPN pomocí ADB
 
-1. Activate the **developer mode** and enable **USB debugging**:
-- Open the **Settings** application on your phone;
-- Go to **System** section (last item in the settings menu). In this section find sub-item **About phone**;
-- Click on the **Build number** line 7 times. After that, you will receive a notification that **You are now a developer** (If necessary, enter an unlock code for the device);
-- Open **System Settings** > **Developer Options** > Scroll down and enable **USB debugging** > Confirm debugging is enabled in the window **Allow USB debugging** after reading the warning carefully.
+1. Aktivace **Režimu pro vývojáře** a povolení **USB ladění**:
+- V telefonu otevřete **Nastavení**;
+- Přejděte do sekce **Systém** (poslední položka v nabídce). V této sekci vyhledejte podpoložku **Informace o telefonu**;
+- Sedmkrát klepněte na řádek **Číslo sestavení**. Poté se zobrazí oznámení **Nyní jste vývojářem** (v případě potřeby zadejte kód pro odemčení zařízení);
+- Otevřete **Nastavení systému** > **Možnosti pro vývojáře** > přejeďte dolů a zapněte **USB ladění** > po pečlivém přečtení varování potvrďte, že je ladění povoleno v okně **Povolit ladění USB**.
 
-> If you have any difficulties or additional questions, full instructions can be found [here](https://developer.android.com/studio/debug/dev-options).
+> Pokud máte nějaké potíže nebo otázky, úplné pokyny naleznete [zde](https://developer.android.com/studio/debug/dev-options).
 
-2. [Install and configure](https://www.xda-developers.com/install-adb-windows-macos-linux/) adb;
-> On the Windows platform, **Samsung** owners may need to install [this utility](https://developer.samsung.com/mobile/android-usb-driver.html).
+2. [Instalace a konfigurace](https://www.xda-developers.com/install-adb-windows-macos-linux/) ADB;
+> Na platformě Windows mohou majitelé zařízení **Samsung** potřebovat nainstalovat [tento nástroj](https://developer.samsung.com/mobile/android-usb-driver.html).
 
-3. Connect your device using a **USB cable** to the computer or laptop on which you installed **ADB**;
-4. Open **the command line** on your PC:
-- **Cmd.exe** if you are using **Windows**;
-- **Terminal** if you are using **macOS**;
-5. Enter the command `adb shell pm grant com.adguard.vpn android.permission.INTERACT_ACROSS_USERS` and press **Enter**.
+3. Připojte zařízení pomocí **USB kabelu** k počítači nebo notebooku, na který jste nainstalovali **ADB**;
+4. Otevřete **příkazový řádek** v počítači:
+- **Cmd.exe**, pokud používáte **Windows**;
+- **Terminal**, pokud používáte **macOS**;
+5. Zadejet příkaz `adb shell pm grant com.adguard.vpn android.permission.INTERACT_ACROSS_USERS` a stiskněte **Enter**.
 
-### Option 2: Remove *Restricted user account*
+### Možnost 2: Odebrání *Uživatelského účtu s omezeným přístupem*
 
-You can [find here](https://support.google.com/a/answer/6223444?hl=en) how to manage user accounts from an Android device.
+Jak spravovat uživatelské účty ze zařízení se systémem Android můžete [zjistit zde](https://support.google.com/a/answer/6223444?hl=en).
 
-> Please note, that in some cases restricted user accounts are created implicitly and cannot be removed. For instance, when you use Dual Messenger or Dual App features on **Samsung** or **LG** devices. Read below how to fix the issue in these cases.
+> Upozorňujeme, že v některých případech jsou uživatelské účty s omezeným přístupem vytvořeny implicitně a nelze je odstranit. Například při používání funkcí Duální Messenger nebo Duální aplikace na zařízeních **Samsung** nebo **LG**. Níže si přečtěte, jak v těchto případech problém vyřešit.
 
-### LG and Samsung devices
+### Zařízení LG a Samsung
 
-Owners of **LG** or **Samsung** phones may also encounter a similar issue. It can be caused by using **Dual App/Dual Messenger** function (which automatically creates a restricted profile). To solve this issue, you need to disable this feature.
+S podobným problémem se mohou setkat také majitelé telefonů **LG** nebo **Samsung**. Může to být způsobeno použitím funkce **Duální aplikace/Duální Messenger** (která automaticky vytvoří omezený profil). Chcete-li tento problém vyřešit, musíte tuto funkci zakázat.
 
 #### Samsung
 
-- Open **Settings**;
-- Press **Advanced**;
-- Scroll down and then press **Dual Messenger**;
-- Disable the **Dual Messenger** for all applications;
-- Lock the device for 5 minutes;
-- Unlock the screen and try again to create the VPN profile.
+- Otevřete **Nastavení**;
+- Stiskněte **Pokročilé**;
+- Přejeďte dolů a stiskněte **Duální Messenger**;
+- Zakažte **Duální Messenger** pro všechny aplikace;
+- Uzamkněte zařízení na 5 minut;
+- Odemkněte obrazovku a zkuste profil VPN vytvořit znovu.
 
 #### LG
 
-- Open **Settings**;
-- Choose the **General** tab;
-- Scroll down and then press **Dual App**;
-- Remove all applications from the list;
-- Reboot your device.
+- Otevřete **Nastavení**;
+- Vyberte kartu **Obecné**;
+- Přejeďte dolů a stiskněte **Duální aplikace**;
+- Odeberte všechny aplikace ze seznamu;
+- Restartujte zařízení.

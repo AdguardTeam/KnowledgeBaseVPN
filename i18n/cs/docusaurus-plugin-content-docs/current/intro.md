@@ -1,83 +1,83 @@
 ---
-title: AdGuard VPN Overview
+title: Přehled AdGuard VPN
 sidebar_position: 1
 slug: /
 ---
 
-## What a VPN is and why you need one
+## Co je VPN a proč ji potřebujete
 
-A VPN allows you to create a secure connection to another network on the Internet.
+VPN umožňuje vytvořit zabezpečené připojení k jiné síti na internetu.
 
-Initially, VPNs were created for one purpose — to securely connect business networks over the Internet, so that people could connect to the corporate network from home. This technology is used for many other things: for example, to browse the Internet anonymously or to protect your online activity from prying eyes while using public Wi-Fi.
+Původně byly sítě VPN vytvořeny za jediným účelem — k bezpečnému propojení podnikových sítí přes internet, aby se lidé mohli připojit k podnikové síti z domova. Tato technologie se používá k mnoha dalším účelům: například k anonymnímu procházení internetu nebo k ochraně vašich online aktivit před zvědavými pohledy při používání veřejné Wi-Fi.
 
-A VPN connects a user's computer or mobile device to a server and allows one to browse the net using someone else's IP address. Thus, third-party observers cannot see the user's real IP address, which makes it nearly impossible to trace them.
+VPN připojuje počítač nebo mobilní zařízení uživatele k serveru a umožňuje procházet internet pomocí IP adresy někoho jiného. Pozorovatelé třetích stran tak nemohou vidět skutečnou IP adresu uživatele, což téměř znemožňuje jeho vystopování.
 
-Speaking of VPN, the first thing they mention is traffic encryption and security deriving from it. But what does it mean? A VPN creates an encrypted tunnel between the user's device and the remote server. All your web traffic passes through this tunnel, so your data is protected along the way. For the external observer, your traffic exits the VPN server, so it looks like your device has the IP address of this server. This trick masks the user's identity and true location.
+Když už mluvíme o VPN, první věc, kterou zmiňují, je šifrování provozu a z něj plynoucí zabezpečení. Co to však znamená? VPN vytváří šifrovaný tunel mezi zařízením uživatele a vzdáleným serverem. Veškerý webový provoz prochází tímto tunelem, takže vaše data jsou po cestě chráněna. Pro vnějšího pozorovatele odchází váš provoz ze serveru VPN, takže to vypadá, že vaše zařízení má IP adresu tohoto serveru. Tento trik maskuje identitu uživatele a jeho skutečnou polohu.
 
-VPN can be used to:
+VPN umožňuje:
 
-* hide your real whereabouts and stay anonymous
-* secure your data — even when connecting to a public Wi-Fi, you can browse the Web safely
-* protect yourself from spoofing (network traffic interception) and tracking on the part of your Internet service provider
+* skrýt vaše skutečné místo pobytu v anonymitě
+* zabezpečit vaše – i když se připojíte k veřejné Wi-Fi, můžete bezpečně procházet web
+* chránit před spoofingem (odposlechem síťového provozu) a sledováním ze strany poskytovatele internetových služeb
 
-Passwords, card details, and just plain personal information are at risk when a user surfs the Internet. But if you connect to the global network using a VPN, you can be sure that no one can intercept your data.
+Při prohlížení internetu jsou ohrožena hesla, údaje o platebních kartách i obyčejné osobní údaje. Pokud se však připojíte ke globální síti pomocí sítě VPN, můžete si být jisti, že vaše data nikdo nezachytí.
 
-## Why AdGuard VPN
+## Proč AdGuard VPN
 
-### Trusted developer
-AdGuard has been present on the market of personal data protection and ad blocking and developing its line of software for more than 12 years. Over this time, our company has built an impeccable reputation, and the number of our customers has exceeded 30 million.
+### Důvěryhodný vývojář
+AdGuard působí na trhu ochrany osobních údajů a blokování reklamy a vyvíjí svou řadu softwaru již více než 12 let. Za tu dobu si naše společnost vybudovala bezvadnou pověst a počet našich zákazníků přesáhl 30 milionů.
 
-### Unique VPN protocol
-The main difference between AdGuard VPN and its competitors is that we use [our own developed protocol](/general/adguard-vpn-protocol.mdx). It disguises itself as normal traffic, so it is much more difficult to track and block it.
+### Jedinečný VPN protokol
+Hlavní rozdíl mezi AdGuard VPN a konkurencí spočívá v tom, že používáme [vlastní vyvinutý protokol](/general/adguard-vpn-protocol.mdx). Maskuje se jako běžný provoz, takže je mnohem obtížnější jej sledovat a blokovat.
 
-### No logs policy
-No logs policy means that we don’t collect, store or transfer users’ personal data to third parties. The full text of AdGuard privacy policy can be found [here](https://adguard-vpn.com/en/privacy.html).
+### Žádné záznamy aktivit
+Žýdný záznam aktivit znamená, že neshromažďujeme, neukládáme ani nepředáváme osobní údaje uživatelů třetím stranám. Úplné znění zásad ochrany osobních údajů AdGuardu naleznete [zde](https://adguard-vpn.com/en/privacy.html).
 
-### Tracking protection
-Web traffic from any user may be of interest and is particularly valuable in terms of monetization of personal data. Both criminals and unscrupulous ISPs can access it. However, with a trustworthy VPN, you can be confident that neither your provider nor anyone else will see your internet activity.
+### Ochrana před sledováním
+Webový provoz jakéhokoli uživatele může být zajímavý a je cenný zejména z hlediska zpeněžení osobních údajů. Přístup k němu mají zločinci i bezohlední poskytovatelé internetových služeb. S důvěryhodnou sítí VPN si však můžete být jisti, že poskytovatel ani nikdo jiný vaši internetovou aktivitu neuvidí.
 
-### Ultrafast VPN servers in 43 countries
+### Velmi rychlé VPN servery ve 43 zemích
 
 * Argentina
-* Australia
-* Austria
-* Belgium
-* Brazil
-* Bulgaria
-* Cambodia
-* Canada
-* China
-* Czech Republic
-* Denmark
+* Austrálie
+* Rakousko
+* Belgie
+* Brazílie
+* Bulharsko
+* Kambodža
+* Kanada
+* Čína
+* Česká republika
+* Dánsko
 * Egypt
-* Finland
-* France
-* Germany
-* Greece
-* India
-* Ireland
-* Israel
-* Italy
-* Japan
-* Luxembourg
-* Mexico
-* Netherlands
-* Norway
-* Philippines
-* Poland
-* Romania
-* Russia
-* Serbia
-* Singapore
-* South Africa
-* South Korea
-* Spain
-* Sweden
-* Switzerland
-* Taiwan
-* Turkey
-* United Kingdom
-* UAE
+* Finsko
+* Francie
+* Německo
+* Řecko
+* Indie
+* Irsko
+* Izrael
+* Itálie
+* Japonsko
+* Lucembursko
+* Mexiko
+* Nizozemsko
+* Norsko
+* Filipíny
+* Polsko
+* Rumunsko
+* Rusko
+* Srbsko
+* Singapur
+* Jihoafrická republika
+* Jižní Korea
+* Španělsko
+* Švédsko
+* Švýcarsko
+* Tchaj-wan
+* Turecko
+* Spojené království
+* SAE
 * USA
-* Ukraine
+* Ukrajina
 * Vietnam

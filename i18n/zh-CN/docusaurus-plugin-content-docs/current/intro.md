@@ -1,14 +1,14 @@
 ---
-title: AdGuard VPN Overview
+title: AdGuard VPN概述
 sidebar_position: 1
 slug: /
 ---
 
-## What a VPN is and why you need one
+## VPN是什么以及您为什么需要它
 
-A VPN allows you to create a secure connection to another network on the Internet.
+VPN可以让您与互联网上另一处网络创建安全的连接。
 
-Initially, VPNs were created for one purpose — to securely connect business networks over the Internet, so that people could connect to the corporate network from home. This technology is used for many other things: for example, to browse the Internet anonymously or to protect your online activity from prying eyes while using public Wi-Fi.
+起初，VPN的创建只有一个目的——通过互联网安全地连接业务网络，以便人们可以在家中连接到公司网络。 这项技术还有很多其他用途：比如匿名上网，或防止在公共Wi-Fi下不被窥探。
 
 A VPN connects a user's computer or mobile device to a server and allows one to browse the net using someone else's IP address. Thus, third-party observers cannot see the user's real IP address, which makes it nearly impossible to trace them.
 

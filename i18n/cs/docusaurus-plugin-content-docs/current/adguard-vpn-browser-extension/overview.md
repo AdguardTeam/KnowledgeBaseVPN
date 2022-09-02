@@ -1,54 +1,54 @@
 ---
-title: Features overview
+title: Přehled funkcí
 sidebar_position: 1
 ---
 
-AdGuard VPN Browser extension is available for Chrome, Firefox, and Edge. The UI and functionality doesn't differ between browsers so the overview below will be relevant for AdGuard VPN extensions for all browsers.
+Rozšíření prohlížeče AdGuard VPN je k dispozici pro Chrome, Firefox a Edge. Uživatelské rozhraní a funkce se v jednotlivých prohlížečích neliší, takže níže uvedený přehled se bude týkat rozšíření AdGuard VPN pro všechny prohlížeče.
 
-> Note that you can only use AdGuard VPN Browser extension when logged in. Sign in with your AdGuard account or via Google, Facebook, or Apple. In the latter case make sure that your account is bound to the same email address as your AdGuard account. If you have an [AdGuard VPN subscription](/general/subscription.md), it will be activated automatically in AdGuard VPN Browser extension. Don’t have an AdGuard account yet? [Create it here](https://auth.adguard.com/registration.html).
+> Všimněte si, že rozšíření prohlížeče AdGuard VPN můžete používat pouze po přihlášení. Přihlaste se pomocí účtu AdGuard, přes Google, Facebook nebo Apple. Ve druhém případě se ujistěte, že je váš účet vázán na stejnou e-mailovou adresu jako účet AdGuard. Pokud máte [předplatné AdGuard VPN](/general/subscription.md), bude v rozšíření prohlížeče AdGuard VPN aktivováno automaticky. Nemáte ještě účet AdGuard? [Zde si jej vytvořte](https://auth.adguard.com/registration.html).
 
-To manage your AdGuard VPN Browser extension, either
+Chcete-li spravovat rozšíření prohlížeče AdGuard VPN
 
-* Click its icon on the browser's panel, then click three stripes and select *Settings*, or
-* Go to your browser's *Manage extensions* page and enter the AdGuard VPN's settings from there.
+* Klikněte na jeho ikonu na panelu prohlížeče, pak klikněte na tři čáry a vyberte *Nastavení*, nebo
+* Přejděte na stránku *Správa rozšíření* prohlížeče a odtud zadejte nastavení AdGuard VPN.
 
-Once done, you'll see several tabs on the left:
+Po dokončení se vlevo zobrazí několik karet:
 
-## Settings
+## Nastavení
 
-A few important settings are gathered inside this tab. Here you can choose a DNS server to use, add or remove the AdGuard VPN icon from the browser’s context menu, block WebRTC, change the extension's theme, and allow AdGuard to gather anonymized crash reports and technical data.
+Na této kartě je shromážděno několik důležitých nastavení. Zde můžete vybrat DNS server, který chcete používat, přidat nebo odebrat ikonu AdGuard VPN z kontextové nabídky prohlížeče, zablokovat WebRTC, změnit motiv rozšíření a povolit AdGuardu shromažďovat anonymizovaná hlášení o pádech a technické údaje.
 
-### Choosing a DNS server
+### Výběr DNS serveru
 
-By default, the [system DNS server](https://kb.adguard.com/en/general/dns-filtering#what-is-dns) provided by your ISP is selected, but it may compromise your privacy. With AdGuard VPN Browser extension, you can select a DNS server that provides better speed and security, and even blocks ads or potentially dangerous domains. Brief descriptions under the names of DNS servers will help you navigate and make your decision.
+Ve výchozím nastavení je [systémový DNS server](https://kb.adguard.com/en/general/dns-filtering#what-is-dns) poskytovaný vaším ISP, ale to může ohrozit vaše soukromí. S rozšířením prohlížeče AdGuard VPN si můžete vybrat DNS server, který poskytuje vyšší rychlost a zabezpečení a dokonce blokuje reklamy nebo potenciálně nebezpečné domény. Stručné popisy pod názvy DNS serverů vám usnadní orientaci a rozhodování.
 
-Learn more about [DNS servers from various providers](https://kb.adguard.com/ru/general/dns-providers).
+Další informace o [DNS serverech od různých poskytovatelů](https://kb.adguard.com/ru/general/dns-providers).
 
-## Exclusions
+## Výjimky
 
-The next tab contains one of the main distinctive features of AdGuard VPN – two modes with separate exclusions lists.
+Další karta obsahuje jednu z hlavních charakteristických funkcí AdGuard VPN – dva režimy se samostatnými seznamy výjimek.
 
-In **Regular mode**, AdGuard VPN by default works on all websites, with the exception of the websites you've added to the exclusions list. In **Selective mode**, vice versa, AdGuard VPN by default doesn't work anywhere. You can add any websites where you'd like it to work to an exclusions list, separate from the one you saw in the **Regular mode**.
+V **Obvyklém režimu** funguje AdGuard VPN ve výchozím nastavení na všech webových stránkách s výjimkou těch, které jste přidali do seznamu výjimek. V **Selektivním režimu** naopak AdGuard VPN ve výchozím nastavení nefunguje nikde. Do seznamu výjimek můžete přidat všechny webové stránky, na kterých chcete, aby to fungovalo, odděleně od seznamu, který jste viděli v **Obvyklém režimu**.
 
-When adding a website to the exclusions list, you can enter the website manually or select the **From the list** option. In the latter case, you'll see eight categories (e.g. *Shopping*, *Messengers*, etc.), each suggesting several popular services. You can exclude any of those services in one click, and this action will add to exclusions all domains relevant to that specific service.
+Při přidávání webové stránky do seznamu výjimek ji můžete zadat ručně nebo vybrat možnost **Ze seznamu**. V druhém případě se zobrazí osm kategorií (např. *Nákupy*, *Zasílání zpráv* atd.), z nichž každá nabízí několik oblíbených služeb. Jedním kliknutím můžete vyloučit kteroukoli z těchto služeb a tato akce přidá do výjimek všechny domény relevantní pro danou službu.
 
-### Import and export
+### Import a export
 
-Not only can you add and remove websites, you can also transfer ready exclusions lists to other devices where AdGuard VPN is installed. To export your exclusions list, follow the 4-step instruction below:
+Můžete nejen přidávat a odebírat webové stránky, ale také přenášet připravené seznamy výjimek do jiných zařízení, kde je AdGuard VPN nainstalována. Chcete-li exportovat seznam výjimek, postupujte podle následujících čtyř kroků:
 
-1. Open AdGuard VPN Browser extension from where you want to export your lists of exclusions. Find the appropriate section and click the "Export" button. The `exclusions.zip` archive will be downloaded.
-2. There are two `.txt` files inside the archive, one for each of the Regular and Selective lists. Add more exclusions to them, delete the existing ones, rename files, or just leave the archive as it is.
-3. When transferring between different devices, send the `.zip` file to the device for import.
-4. Open AdGuard VPN on that device. Find the appropriate section, click the "Import" button and select the archive. Done!
+1. Otevřete rozšíření prohlížeče AdGuard VPN, odkud chcete exportovat seznamy výjimek. Vyhledejte příslušný oddíl a klikněte na tlačítko "Exportovat". Stáhne se archiv `exclusions.zip`.
+2. Uvnitř archivu jsou dva soubory `.txt`, jeden pro Obvyklý a druhý pro Selektivní seznam. Můžete k nim přidat další výjimky, odstranit stávající, přejmenovat soubory nebo nechat archiv tak, jak je.
+3. Při přenosu mezi různými zařízeními odešlete soubor `.zip` do zařízení pro import.
+4. V tomto zařízení otevřete AdGuard VPN. Vyhledejte příslušnou sekci, klikněte na tlačítko "Importovat" a vyberte archiv. Hotovo!
 
-## Account
+## Účet
 
-The third tab of AdGuard VPN Browser extension is utterly minimalistic, containing only the email address you used to sign into your account and two buttons, *Manage* and *Sign out*. Clicking the *Manage* button takes you to your personal AdGuard account, where you can see all your current licenses and subscriptions, as well as devices connected to them.
+Třetí karta rozšíření prohlížeče AdGuard VPN je naprosto minimalistická a obsahuje pouze e-mailovou adresu, kterou jste použili k přihlášení k účtu, a dvě tlačítka: *Spravovat* a *Odhlásit se*. Kliknutím na tlačítko *Spravovat* se dostanete na svůj osobní účet AdGuard, kde uvidíte všechny své aktuální licence a předplatné a také zařízení, která jsou k nim připojena.
 
-## Support
+## Podpora
 
-You can find answers to common questions in the FAQ section, or leave feedback: report a bug if something isn't working as it should, suggest adding a new feature, or discuss AdGuard on any of the many social media platforms.
+Odpovědi na časté otázky najdete v sekci FAQ nebo můžete zanechat zpětnou vazbu: nahlásit chybu, pokud něco nefunguje, jak má, navrhnout přidání nové funkce nebo diskutovat o AdGuardu na některé z mnoha sociálních sítí.
 
-## About
+## O produktu
 
-Another minor tab, where you can check the extension's version, visit the official website, and view the EULA or Privacy Policy.
+Další menší karta, kde můžete zkontrolovat verzi rozšíření, navštívit oficiální webové stránky a zobrazit smlouvu EULA nebo Zásady ochrany osobních údajů.
