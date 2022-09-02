@@ -64,6 +64,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   --ifm-footer-color: #F3F3F3;
   --ifm-footer-link-color: #F3F3F3;
   --ifm-footer-title-color: #F3F3F3;
+  z-index: 1;
 }
 
 [data-theme="dark"] .footer {

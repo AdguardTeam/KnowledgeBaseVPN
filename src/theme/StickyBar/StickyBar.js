@@ -8,6 +8,7 @@ import s from './StickyBar.module.css';
 
 const OPENING_HEIGHT = 50;
 
+//This function, that switching <Translate> needs for correct generation of translations
 const getCurrentBtnText = () => {
     switch (getOSName()) {
         case OS_NAMES.MAC_OS:
@@ -51,6 +52,29 @@ const getCurrentBtnText = () => {
     }
 }
 
+const eulaText = () => {
+    return (
+        <Translate
+            id="sticky_bar.btn.baloon.text"
+            description="String used for license agreement text in sticky bar"
+            values={{
+                eulaLink: (
+                    <a href={`/eula.html`}>
+                        <Translate
+                            id="sticky_bar.btn.baloon.text.link"
+                            description="The label for the link to license agreement"
+                        >
+                            License agreement
+                        </Translate>
+                    </a>
+                )
+            }}
+        >
+            {'By downloading the program you accept the terms of the {eulaLink}'}
+        </Translate>
+    )
+}
+
 const StickyBar = () => {
     const iconClassName = `stickyBarBtnIcon_${getCurrentPlatformName()}`;
 
@@ -86,7 +110,7 @@ const StickyBar = () => {
                         <div className={s.stickyBarBtnWrap}>
                             <a
                                 className={s.stickyBarBtn}
-                                href={`${VPN_WEBSITE_URL}/download.html?auto=1&lbl=knowledge_base`}
+                                href={`/download.html?auto=1&lbl=knowledge_base`}
                             >
                                 <span className={clsx(s.stickyBarBtnIcon, s[iconClassName])} />
 
@@ -94,23 +118,7 @@ const StickyBar = () => {
                             </a>
                             <div className={s.stickyBarBaloon}>
                                 <div className={s.stickyBarBaloonContent}>
-                                    <Translate
-                                        id="sticky_bar.btn.baloon.text"
-                                        description="String used for license agreement text in sticky bar"
-                                        values={{
-                                            eulaLink: (
-                                                <a href={`${VPN_WEBSITE_URL}/eula.html`}>
-                                                    <Translate
-                                                        id="sticky_bar.btn.baloon.text.link"
-                                                        description="The label for the link to license agreement"
-                                                    >
-                                                        License agreement
-                                                    </Translate>
-                                                </a>
-                                            ),
-                                        }}>
-                                        {'By downloading the program you accept the terms of the {eulaLink}'}
-                                    </Translate>
+                                    {eulaText()}
                                 </div>
                             </div>
                         </div>

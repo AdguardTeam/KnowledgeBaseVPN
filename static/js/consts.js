@@ -1,5 +1,3 @@
-export const VPN_WEBSITE_URL = 'https://adguard-vpn.com';
-
 export const BROWSER_NAMES = {
     EDGE: 'edge',
     SAFARI: 'safari',
