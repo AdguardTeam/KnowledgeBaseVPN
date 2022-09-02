@@ -6,7 +6,7 @@ sidebar position: 2
 
 ## 系统需求
 
-AdGuard VPN can only be installed on devices with **Microsoft Windows 10/8.1/8/7/Vista SP2 (web-based only)**.
+AdGuard VPN支持**Windows 10/8.1/8/7/Vista SP2（仅限联网）**。
 
 
 ## AdGuard VPN Windows 版 的安装

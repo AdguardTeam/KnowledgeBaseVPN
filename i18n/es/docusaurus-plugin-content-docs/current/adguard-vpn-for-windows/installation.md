@@ -1,27 +1,27 @@
 ---
-title: How to install and uninstall
+title: Cómo instalar y desinstalar
 sidebar position: 2
 ---
 
 
-## System requirements
+## Requisitos del sistema
 
-AdGuard VPN can only be installed on devices with **Microsoft Windows 10/8.1/8/7/Vista SP2 (web-based only)**.
-
-
-## AdGuard VPN for Windows installation
-
-To install AdGuard VPN for Windows, visit [our website](https://adguard-vpn.com/en/welcome.html) and click the *Download* button. After it, the `adguardVPNInstaller.exe` will be downloaded. Run the installer and follow its instructions. The process will take less than a minute.
-
-Then you will need to check the box to accept the terms of the EULA and the Privacy Policy. And in the last step of the installation, you will be prompted to authorize via your AdGuard account or via social networks (Google, Apple, Facebook).
+AdGuard VPN solo se puede instalar en dispositivos con **Microsoft Windows 10/ 8.1 / 8 / 7 / Vista SP2 (solo basado en la web)**.
 
 
-## AdGuard VPN for Windows uninstallation
+## Instalación de AdGuard VPN para Windows
 
-If you decide to remove AdGuard VPN from your computer, use one of three options listed below.
+Para instalar AdGuard VPN para Windows, visite [nuestro sitio web](https://adguard-vpn.com/en/welcome.html) y haga clic en el botón *Descargar*. Después de eso, se descargará el `adguardVPNInstaller.exe`. Ejecute el instalador y siga sus instrucciones. El proceso tomará menos de un minuto.
 
-1. Click *Start* and find AdGuard VPN in the opened list. Right-click it and select *Uninstall*.
+Luego deberá marcar la casilla para aceptar los términos del EULA y la Política de privacidad. Y en el último paso de la instalación, se le pedirá que autorice a través de su cuenta de AdGuard o a través de las redes sociales (Google, Apple, Facebook).
 
-2. Click *Start* -> *Settings* -> *Apps* -> *Applications and features*. Find AdGuard VPN in the list, click it and choose *Uninstall*.
 
-3. Open the *Control Panel*, then click *Programs* -> *Programs and Features* -> *Uninstall a program*. Find AdGuard VPN in the list, right-click it and select *Uninstall*.
+## Desinstalación de AdGuard VPN para Windows
+
+Si decide eliminar AdGuard VPN de su computadora, use una de las tres opciones que se enumeran a continuación.
+
+1. Haga clic en *Inicio* y busque AdGuard VPN en la lista abierta. Haga clic derecho en él y seleccione *Desinstalar*.
+
+2. Haga clic en ** Inicio -> *Configuración* -> *Aplicaciones* -> *Aplicaciones y Características*. Encuentre AdGuard VPN en la lista, haga clic en él y elija *Desinstalar*.
+
+3. Abra el *Panel de control*, luego haga clic en *Programas* -> *Programas y características* -> *Desinstale un programa*. Encuentre AdGuard VPN en la lista, haga clic con el botón derecho y seleccione *Desinstalar*.

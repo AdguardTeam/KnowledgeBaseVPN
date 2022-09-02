@@ -1,13 +1,13 @@
 ---
-title: Compatibility with AdGuard Ad Blocker
+title: Kompatibilita s blokátorem reklam AdGuard
 sidebar_position: 3
 ---
 
 
-AdGuard VPN has the General operating mode enabled by default, which uses its own [AdGuard VPN protocol](/general/adguard-vpn-protocol.mdx). It provides the best combination of connection speed and security. However, this operating mode does not allow AdGuard VPN and AdGuard Ad Blocker to work simultaneously. The Compatibility mode, in turn, uses the IPsec protocol, which makes it possible for the AdGuard applications to work together. If you already have AdGuard Ad Blocker when installing AdGuard VPN, this mode will turn on automatically and allow you to use our applications at the same time. If you first installed AdGuard VPN, and only then decided to try AdGuard Ad Blocker, then to use them together, follow these steps:
+AdGuard VPN má ve výchozím nastavení povolen obecný provozní režim, který používá vlastní [Protokol AdGuard VPN](/general/adguard-vpn-protocol.mdx). Ten poskytuje nejlepší kombinaci rychlosti připojení a zabezpečení. Tento provozní režim však neumožňuje současnou práci AdGuard VPN a blokátoru reklam AdGuard. Režim kompatibility zase používá protokol IPsec, který umožňuje spolupráci aplikací AdGuard. Pokud jste již při instalaci AdGuard VPN použili blokátor reklam AdGuard, tento režim se zapne automaticky a umožní vám současně používat naše aplikace. Pokud jste nejprve nainstalovali AdGuard VPN a teprve poté jste se rozhodli vyzkoušet blokátor reklam AdGuard, postupujte podle následujících kroků:
 
-1. Open AdGuard VPN for Android and select the gear icon at the bottom right of the screen.
+1. Otevřete AdGuard VPN pro Android a vyberte ikonu ozubeného kola v pravém dolním rohu obrazovky.
 
-2. Go to "Advanced settings" and select "Operating mode".
+2. Přejděte na "Pokročilá nastavení" a vyberte "Provozní režim".
 
-3. Switch the mode from to *Compatibility mode with AdGuard*. Done!
+3. Přepněte režim na *Režim kompatibility s AdGuardem*. Hotovo!

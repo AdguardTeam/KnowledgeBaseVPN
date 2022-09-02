@@ -1,18 +1,18 @@
 ---
-title: Compatibility with AdGuard Ad Blocker
+title: Kompatibilita s blokátorem reklam AdGuard
 sidebar_position: 3
 ---
 
-AdGuard VPN has two operating modes — General and Integrated one. General mode is enabled by default and uses [AdGuard VPN protocol](/general/adguard-vpn-protocol.mdx). It provides the best combination of connection speed and security.
+AdGuard VPN má dva provozní režimy – Obecný a Integrovaný. Obecný režim je ve výchozím nastavení povolen a používá [protokol AdGuard VPN](/general/adguard-vpn-protocol.mdx). Ten poskytuje nejlepší kombinaci rychlosti připojení a zabezpečení.
 
-However, this operating mode does not allow AdGuard VPN and AdGuard Ad Blocker to work simultaneously.
+Tento provozní režim však neumožňuje současnou práci AdGuard VPN a blokátoru reklam AdGuard.
 
-In Integrated mode, in turn, the IPsec protocol is used, which makes it possible for the AdGuard applications to work together. If you already have AdGuard Ad Blocker when installing AdGuard VPN, this mode will turn on automatically and allow you to use our applications at the same time. If you installed AdGuard VPN first and only then decided to try AdGuard Ad Blocker, follow these steps to use two apps together:
+V režimu integrace se zase používá protokol IPsec, který umožňuje spolupráci aplikací AdGuard. Pokud jste již při instalaci AdGuard VPN použili blokátor reklam AdGuard, tento režim se zapne automaticky a umožní vám současně používat naše aplikace. Pokud jste si nejprve nainstalovali AdGuard VPN a teprve poté jste se rozhodli vyzkoušet blokátor reklam AdGuard, postupujte podle následujících kroků, abyste mohli obě aplikace používat společně:
 
-1. Open AdGuard VPN for iOS and select "Settings" in the lower-right corner of the screen.
+1. Otevřete AdGuard VPN pro iOS a vyberte "Nastavení" v pravém dolním rohu obrazovky.
 
-2. Go to "App settings" and select "Operating mode".
+2. Přejděte na "Nastavení aplikace" a vyberte "Provozní režim".
 
-3. Switch the mode from *General* to *Integrated*. Done!
+3. Přepněte režim z *Obecného* na *Integrovaný*. Hotovo!
 
-> Note that in **Integrated** mode you can't use the Exclusions feature or the DNS server feature.
+> Všimněte si, že v **Integrovaném** režimu nelze použít funkci Výjimky ani funkci DNS server.

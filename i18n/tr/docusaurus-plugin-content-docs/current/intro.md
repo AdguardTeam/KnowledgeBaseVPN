@@ -1,12 +1,12 @@
 ---
-title: AdGuard VPN Overview
+title: AdGuard VPN'e Genel Bakış
 sidebar_position: 1
 slug: /
 ---
 
-## What a VPN is and why you need one
+## VPN nedir ve neden bir VPN'e ihtiyacınız var
 
-A VPN allows you to create a secure connection to another network on the Internet.
+VPN, İnternet üzerindeki başka bir ağa güvenli bir bağlantı oluşturmanızı sağlar.
 
 Initially, VPNs were created for one purpose — to securely connect business networks over the Internet, so that people could connect to the corporate network from home. This technology is used for many other things: for example, to browse the Internet anonymously or to protect your online activity from prying eyes while using public Wi-Fi.
 
