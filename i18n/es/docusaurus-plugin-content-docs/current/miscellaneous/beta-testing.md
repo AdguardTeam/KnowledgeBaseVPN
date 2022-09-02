@@ -1,24 +1,24 @@
 ---
-title: 'AdGuard VPN beta test'
+title: 'Prueba beta de AdGuard VPN'
 sidebar_position: 2
 ---
 
-There is an AdGuard VPN app for virtually every major platform out there, and we regularly release updates for all of them. This would not be possible without beta testing and, more importantly, beta testers. Want to become one? Here how you can do it.
+Hay una aplicación AdGuard VPN para prácticamente todas las plataformas principales que existen, y publicamos regularmente actualizaciones para todas ellas. Esto no sería posible sin las pruebas beta y, lo que es más importante, los probadores beta. ¿Quiere convertirse en uno? Aquí explicamos cómo puede hacerlo.
 
-### How to become a beta tester
+### Cómo convertirse en un probador beta
 
-To become an AdGuard VPN beta tester, you only need a few things: the desire, the device on which you will install the app, and [this link](https://adguard-vpn.com/en/beta.html), by following which you will be able to download the latest beta or nightly version of AdGuard VPN!
+¡Para convertirse en un probador beta de AdGuard VPN, solo necesita algunas cosas: el deseo, el dispositivo en el que instalará la aplicación y [este enlace](https://adguard-vpn.com/en/beta.html), siguiendo el cual podrá descargar la última versión beta o compilación diaria de AdGuard VPN!
 
-### How to report a bug
+### Cómo reportar un error
 
-Let’s imagine it happened — you spotted a bug. Or maybe you just want to share your suggestion with developers? Anyway, there are several ways to let us know:
+Imaginemos que sucedió: detectó un error. ¿O tal vez solo quiere compartir su sugerencia con los desarrolladores? De todos modos, hay varias formas de hacérnoslo saber:
 
-* Go to [forum.adguard.com](https://forum.adguard.com) and post there a new thread (or find an existing one) in [the 'Beta Testing' category of the forum](https://forum.adguard.com/index.php?categories/48/). Make sure to read [forum rules](https://forum.adguard.com/index.php?threads/14859/) first;
+* Vaya a [forum.adguard.com](https://forum.adguard.com) y publique allí un nuevo hilo (o busque uno existente) en [la categoría 'Pruebas beta' del foro](https://forum.adguard.com/index.php?categories/48/). Asegúrese de leer primero las reglas [del foro](https://forum.adguard.com/index.php?threads/14859/);
 
-* Go to [GitHub](https://github.com/AdguardTeam/) and find a suitable repository. Create a new issue there and describe the bug/feature request in detail.
+* Vaya a [GitHub](https://github.com/AdguardTeam/) y busque un repositorio adecuado. Cree un nuevo problema allí y describa la solicitud de error / característica en detalle.
 
-The above two methods are the most preferred, but you can use others if necessary:
+Los dos métodos anteriores son los más preferidos, pero puede usar otros si es necesario:
 
-* Find us on various social media platforms, like [Facebook](https://www.facebook.com/AdguardEn/), [Reddit](https://www.reddit.com/r/Adguard/), etc. However, this is not the most efficient way to discuss technical matters.
+* Encuéntrenos en varias plataformas de redes sociales, como [Facebook](https://www.facebook.com/AdguardEn/), [Reddit](https://www.reddit.com/r/Adguard/), etc. Sin embargo, esta no es la forma más eficiente de discutir asuntos técnicos.
 
-* Email our support team from the Support tab in the app or write directly to [support@adguard.com](mailto:support@adguard.com).
+* Envíe un correo electrónico a nuestro equipo de soporte desde la pestaña Soporte de la aplicación o escriba directamente a [support@adguard.com](mailto:support@adguard.com).

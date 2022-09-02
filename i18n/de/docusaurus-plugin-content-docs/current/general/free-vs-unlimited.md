@@ -1,25 +1,25 @@
 ---
-title: 'Benefits of AdGuard VPN Unlimited'
+title: 'Vorteile von AdGuard VPN Unlimited'
 sidebar_position: 5
 ---
  
-You can use AdGuard VPN for free, but then there will be certain restrictions:
+Sie können AdGuard VPN kostenlos nutzen, aber dann gibt es bestimmte Einschränkungen:
 
-* Only 2 devices on which you can simultaneously enable AdGuard VPN
-* 3 GB of traffic per month restriction
-* 20 Mbit/sec speed limit
-* Only some of the server locations are available
-* Email clients can’t be used for sending messages (on iOS and Android)
+* Nur 2 gleichzeitig verbundene Geräte
+* 3 GB Datenverkehr pro Monat
+* 20 Mbit/s Geschwindigkeitsbegrenzung
+* Nicht alle Serverstandorte sind verfügbar
+* E-Mail-Clients können nicht zum Senden von Nachrichten verwendet werden (auf iOS und Android)
 
-> The last point should be addressed separately: free users of AdGuard VPN for iOS and Android cannot send emails in email clients. It’s impossible because we block port 25, which is used for outgoing emails, and thus reinsure against spam. However, sending emails with web email services works perfectly well. And on AdGuard VPN for Android you can add apps to exclusions so that email apps will function as well.
+> Achten Sie insbesondere auf den letzten Punkt: Kostenlose Nutzer:innen von AdGuard VPN für iOS und Android können keine E-Mails in E-Mail-Clients versenden. Das ist nicht möglich, weil wir den Port 25, der für ausgehende E-Mails verwendet wird, blockieren und uns so gegen Spam absichern. Das Versenden von E-Mails mit Web-E-Mail-Diensten funktioniert jedoch einwandfrei. Außerdem können Sie Apps auf AdGuard VPN für Android zu Ausschlüssen hinzufügen, damit E-Mail-Apps ebenfalls funktionieren.
 
-At the same time you can purchase a subscription to get an unlimited version of the app. A subscription allows to have more benefits in comparison with a free account:
+Gleichzeitig können Sie ein Abonnement erwerben, um eine unbegrenzte Version der App zu erhalten. Ein Abonnement bietet mehr Vorteile im Vergleich zu einem kostenlosen Konto:
 
-* 5 simultaneously connected devices
-* Unlimited traffic
-* No speed cap
-* All 50+ locations are available
-* Secure streaming
-* No port 25 block
+* 5 gleichzeitig verbundene Geräte
+* Unbegrenzter Traffic
+* Unbegrenzte Geschwindigkeit
+* Alle 50+ Standorte sind verfügbar
+* Sicheres Streaming
+* Keine Blockierung von Port 25
 
-To use all the advantages, consider [purchasing a subscription](subscription.md).
+Um alle Vorteile nutzen zu können, sollten Sie [den Kauf eines Abonnements](subscription.md) abschließen.
