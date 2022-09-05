@@ -21,7 +21,7 @@
   --vpn-gray-900: #4d4d4d;
   --vpn-white-color: #ffffff;
   --vpn-small-border-radius: 8px;
-  --vpn-transition-3s: 0.3s ease;
+  --vpn-transition-300ms: 0.3s ease;
 
   --ifm-toc-border-color: #D8D8D8;
 }

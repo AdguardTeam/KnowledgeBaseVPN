@@ -5,7 +5,7 @@
     opacity: 0;
     visibility: hidden;
     transform: translateY(100%);
-    transition: var(--vpn-transition-3s) transform;
+    transition: var(--vpn-transition-300ms) transform;
 }
 
 .stickyBarOpen {
@@ -62,7 +62,7 @@
     text-align: center;
     background-color: var(--vpn-green-400);
     color: var(--vpn-white-color);
-    transition: var(--vpn-transition-3s) background-color;
+    transition: var(--vpn-transition-300ms) background-color;
     font-weight: 600;
     white-space: nowrap;
     user-select: none;
@@ -155,7 +155,7 @@
     color: var(--vpn-white-color);
     opacity: 0;
     visibility: hidden;
-    transition: var(--vpn-transition-3s) opacity, visibility;
+    transition: var(--vpn-transition-300ms) opacity, visibility;
 }
 
 .stickyBarBaloon:hover {

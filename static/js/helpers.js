@@ -1,5 +1,5 @@
 import Parser from 'ua-parser-js';
-import { OS_NAMES, BROWSER_NAMES, VPN_BROWSER_NAMES } from './consts'; // eslint-disable-line import/no-unresolved
+import { OS_NAMES, BROWSER_NAMES, VPN_BROWSER_NAMES } from './consts';
 
 const UNKNOWN_MARK = 'unknown';
 const EDGE_REGEX = /(edge|edgios|edga|edg)\/((\d+)?[\w.]+)/i;
