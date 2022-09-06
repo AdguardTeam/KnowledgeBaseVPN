@@ -7,48 +7,48 @@ AdGuard VPN Tarayıcı uzantısı Chrome, Firefox ve Edge için kullanılabilir.
 
 > AdGuard VPN Tarayıcı uzantısını yalnızca oturum açtığınızda kullanabileceğinizi unutmayın. AdGuard hesabınızla veya Google, Facebook ya da Apple üzerinden oturum açın. İkinci durumda, hesabınızın AdGuard hesabınızla aynı e-posta adresine bağlı olduğundan emin olun. [AdGuard VPN aboneliğiniz varsa](/general/subscription.md), AdGuard VPN Tarayıcı uzantısında otomatik olarak etkinleştirilecektir. Henüz bir AdGuard hesabınız yok mu? [Buradan oluşturun](https://auth.adguard.com/registration.html).
 
-To manage your AdGuard VPN Browser extension, either
+AdGuard VPN Tarayıcı uzantınızı yönetmek için
 
-* Click its icon on the browser's panel, then click three stripes and select *Settings*, or
-* Go to your browser's *Manage extensions* page and enter the AdGuard VPN's settings from there.
+* Tarayıcının panelindeki simgesini tıklayın, sonra üç çizgiyi tıklayın ve Ayarlar **veya
+* Tarayıcınızın *Uzantıları yönet* sayfasına gidin ve AdGuard VPN'nin ayarlarını buradan girin.
 
-Once done, you'll see several tabs on the left:
+İşiniz bittiğinde, solda birkaç sekme göreceksiniz:
 
-## Settings
+## Ayarlar
 
-A few important settings are gathered inside this tab. Here you can choose a DNS server to use, add or remove the AdGuard VPN icon from the browser’s context menu, block WebRTC, change the extension's theme, and allow AdGuard to gather anonymized crash reports and technical data.
+Bu sekmede birkaç önemli ayar toplanmıştır. Burada kullanılacak bir DNS sunucusu seçebilir, tarayıcının içerik menüsüne AdGuard VPN simgesini ekleyebilir veya kaldırabilir, WebRTC'yi engelleyebilir, uzantının temasını değiştirebilir ve AdGuard'ın anonimleştirilmiş çökme raporları ve teknik veriler toplamasına izin verebilirsiniz.
 
-### Choosing a DNS server
+### DNS sunucusu seçme
 
-By default, the [system DNS server](https://kb.adguard.com/en/general/dns-filtering#what-is-dns) provided by your ISP is selected, but it may compromise your privacy. With AdGuard VPN Browser extension, you can select a DNS server that provides better speed and security, and even blocks ads or potentially dangerous domains. Brief descriptions under the names of DNS servers will help you navigate and make your decision.
+Varsayılan olarak, ISS'niz tarafından sağlanan [sistem DNS sunucusu](https://kb.adguard.com/en/general/dns-filtering#what-is-dns) seçilidir, ancak gizliliğinizi tehlikeye atabilir. AdGuard VPN Tarayıcı uzantısıyla, daha iyi hız ve güvenlik sağlayan ve hatta reklamları veya potansiyel olarak tehlikeli alan adlarını engelleyen bir DNS sunucusu seçebilirsiniz. DNS sunucularının adları altındaki kısa açıklamalar, gezinmenize ve kararınızı vermenize yardımcı olacaktır.
 
-Learn more about [DNS servers from various providers](https://kb.adguard.com/ru/general/dns-providers).
+DNS sunucularını çeşitli sağlayıcılardan [hakkında daha fazla bilgi edinin](https://kb.adguard.com/ru/general/dns-providers).
 
-## Exclusions
+## İstisnalar
 
-The next tab contains one of the main distinctive features of AdGuard VPN – two modes with separate exclusions lists.
+Bir sonraki sekme, AdGuard VPN'in ana ayırt edici özelliklerinden birini içerir - ayrı istisna listelerine sahip iki mod.
 
-In **Regular mode**, AdGuard VPN by default works on all websites, with the exception of the websites you've added to the exclusions list. In **Selective mode**, vice versa, AdGuard VPN by default doesn't work anywhere. You can add any websites where you'd like it to work to an exclusions list, separate from the one you saw in the **Regular mode**.
+**Normal mod**, AdGuard VPN varsayılan olarak istisnalar listesine eklediğiniz web siteleri hariç tüm web sitelerinde çalışır. **Seçici mod**, tam tersi, AdGuard VPN varsayılan olarak hiçbir yerde çalışmaz. Çalışmasını istediğiniz web sitelerini, ** Normal mod** gördüğünüzden ayrı olarak bir dışlamalar listesine ekleyebilirsiniz.
 
-When adding a website to the exclusions list, you can enter the website manually or select the **From the list** option. In the latter case, you'll see eight categories (e.g. *Shopping*, *Messengers*, etc.), each suggesting several popular services. You can exclude any of those services in one click, and this action will add to exclusions all domains relevant to that specific service.
+İstisnalar listesine bir web sitesi eklerken, web sitesini manuel olarak girebilir veya **Listeden** seçeneğini belirleyebilirsiniz. İkinci durumda, sekiz kategori görürsünüz (ör. *Alışveriş*, *Messengers*, vb.), Her biri birkaç popüler hizmet öneriyor. Bu hizmetlerden herhangi birini tek bir tıklamayla hariç tutabilirsiniz ve bu işlem, söz konusu hizmetle ilgili tüm alanları hariç tutmalara ekler.
 
-### Import and export
+### İçe ve Dışa Aktarma
 
-Not only can you add and remove websites, you can also transfer ready exclusions lists to other devices where AdGuard VPN is installed. To export your exclusions list, follow the 4-step instruction below:
+Yalnızca web siteleri ekleyip kaldırmakla kalmaz, aynı zamanda hazır dışlama listelerini AdGuard VPN'nin yüklü olduğu diğer cihazlara da aktarabilirsiniz. İstisnalar listenizi dışa aktarmak için aşağıdaki 4 adımlı talimatı uygulayın:
 
 1. Open AdGuard VPN Browser extension from where you want to export your lists of exclusions. Find the appropriate section and click the "Export" button. The `exclusions.zip` archive will be downloaded.
 2. There are two `.txt` files inside the archive, one for each of the Regular and Selective lists. Add more exclusions to them, delete the existing ones, rename files, or just leave the archive as it is.
 3. When transferring between different devices, send the `.zip` file to the device for import.
 4. Open AdGuard VPN on that device. Find the appropriate section, click the "Import" button and select the archive. Done!
 
-## Account
+## Hesap
 
 The third tab of AdGuard VPN Browser extension is utterly minimalistic, containing only the email address you used to sign into your account and two buttons, *Manage* and *Sign out*. Clicking the *Manage* button takes you to your personal AdGuard account, where you can see all your current licenses and subscriptions, as well as devices connected to them.
 
-## Support
+## Destek
 
-You can find answers to common questions in the FAQ section, or leave feedback: report a bug if something isn't working as it should, suggest adding a new feature, or discuss AdGuard on any of the many social media platforms.
+Sık sorulan soruların yanıtlarını SSS bölümünde bulabilir veya geri bildirim bırakabilirsiniz: Bir şey olması gerektiği gibi çalışmıyorsa bir hatayı bildirin, yeni bir özellik eklemeyi önerin veya birçok sosyal medya platformundan herhangi birinde AdGuard'ı tartışın.
 
-## About
+## Hakkında
 
-Another minor tab, where you can check the extension's version, visit the official website, and view the EULA or Privacy Policy.
+Uzantının sürümünü kontrol edebileceğiniz, resmi web sitesini ziyaret edebileceğiniz ve EULA'yı veya Gizlilik Politikasını görüntüleyebileceğiniz başka bir küçük sekme.

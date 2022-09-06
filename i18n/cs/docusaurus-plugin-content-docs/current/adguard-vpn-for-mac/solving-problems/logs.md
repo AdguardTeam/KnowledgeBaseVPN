@@ -22,7 +22,7 @@ Ve výchozím nastavení používá AdGuard VPN pro macOS standardní úroveň z
 
 Ve většině případů je výchozí úroveň záznamů dostatečná pro dohledání případných chyb. V některých případech jsou však vyžadovány podrobnější technické informace o zařízení a připojeních, a pak vás náš tým podpory požádá o povolení rozšířené úrovně záznamů. Chcete-li odeslat tento typ protokolů, postupujte podle následujících kroků:
 
-1. Otevřete AdGuard VPN for macOS a vyberte **Nastavení** → **Obecné** → **Pokročilá nastavení**.
+1. Otevřete AdGuard VPN pro macOS a vyberte **Nastavení** → **Obecné** → **Pokročilá nastavení**.
 
 2. V části **Úroveň záznamu** vyberte možnost **Zaznamenat vše**.
 

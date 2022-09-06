@@ -1,37 +1,37 @@
 ---
-title: 'How AdGuard VPN protocol works'
+title: 'Jak funguje protokol AdGuard VPN'
 sidebar_position: 4
 ---
 
-Our protocol is used by [all AdGuard VPN mobile and desktop applications](https://adguard-vpn.com/en/welcome.html). Download any of our products and use it knowing that your data is protected in the most secure way.
+Náš protokol používají všechny [mobilní a desktopové aplikace AdGuard VPN](https://adguard-vpn.com/en/welcome.html). Stáhněte si některý z našich produktů a používejte jej s vědomím, že vaše data jsou chráněna tím nejbezpečnějším způsobem.
 
-## Why we developed the AdGuard VPN protocol
+## Proč jsme vytvořili protokol AdGuard VPN
 
-For years, we were concentrating on developing all flavors of ad blocking apps and browser extensions. And in 2019 we resolved to develop our own VPN service, seemingly out of nowhere. When in reality, there were a few reasons that prompted us to do so.
+Dlouhá léta jsme se soustředili na vývoj nejrůznějších aplikací a rozšíření prohlížeče pro blokování reklam. A v roce 2019 jsme se zdánlivě z ničeho nic rozhodli vyvinout vlastní službu VPN. Ve skutečnosti nás k tomu vedlo několik důvodů.
 
-* AdGuard mobile apps had compatibility issues with VPN apps. Normally, two VPN-based mobile apps can't work together: in rare cases on iOS, and never on Android. As AdGuard ad blocker apps use local VPN to filter network traffic, using them alongside any VPN app would be out of the question. That's why we saw the development of an in-house VPN as the only feasible solution that could guarantee compatibility: after we apply some magic, the two apps are able to work together as one VPN service.
-* Secondly, VPN seemed more than relevant to our philosophy and priorities. Our primary goal is to protect users' privacy, and this is exactly what VPNs are for.
-* Finally, over the years of developing AdGuard software, we have become experts in filtering network traffic. This allowed us to bring in something new instead of becoming another wishy-washy VPN.
+* Mobilní aplikace AdGuard měly problémy s kompatibilitou s aplikacemi VPN. Obvykle dvě mobilní aplikace založené na VPN nemohou fungovat společně: ve výjimečných případech v systému iOS a nikdy v systému Android. Vzhledem k tomu, že aplikace blokátor reklam AdGuard používá k filtrování síťového provozu místní síť VPN, nepřichází její použití spolu s jakoukoli aplikací VPN v úvahu. Proto jsme považovali vývoj vlastní sítě VPN za jediné schůdné řešení, které by mohlo zaručit kompatibilitu: po použití určité magie jsou obě aplikace schopny spolupracovat jako jedna služba VPN.
+* Za druhé, VPN se zdála být více než relevantní pro naši filozofii a priority. Naším hlavním cílem je chránit soukromí uživatelů, a právě k tomu slouží sítě VPN.
+* Za léta vývoje softwaru AdGuard jsme se stali odborníky na filtrování síťového provozu. To nám umožnilo přinést něco nového namísto toho, abychom se stali další nešťastnou VPN.
 
-From the outset, we decided that AdGuard VPN would have one key difference from its competitors — we shall develop and deploy an in-house VPN protocol which would not force users to choose between security and speed.
+Od začátku jsme se rozhodli, že AdGuard VPN se bude od svých konkurentů lišit jednou zásadní věcí — vytvoříme a nasadíme vlastní protokol VPN, který nebude nutit uživatele volit mezi bezpečností a rychlostí.
 
-## Disadvantages of popular VPN protocols
+## Nevýhody oblíbených protokolů VPN
 
-We developed the AdGuard VPN protocol seeing the disadvantages of popular VPN protocols (OpenVPN, WireGuard, IPSec, etc.):
+Protokol AdGuard VPN jsme vytvořili s ohledem na nevýhody populárních protokolů VPN (OpenVPN, WireGuard, IPSec atd.):
 
-* They can be easily detected and blocked on the network level.
-* If you try to "hide" them, the performance will drop.
+* Lze je snadno odhalit a zablokovat na úrovni sítě.
+* Pokud se je pokusíte "skrýt", výkon se sníží.
 
-To "conceal" the use of VPN, the data flow is often "wrapped" in a TCP connection, and sometimes it is additionally encrypted to make the traffic look like a normal website connection. Unfortunately, this approach has a disadvantage – due to the use of TCP, there is a need for additional confirmation of delivery.
+Pro "utajení" použití VPN je datový tok často "zabalen" do spojení TCP a někdy je navíc šifrován, aby provoz vypadal jako běžné připojení k webové stránce. Tento přístup má bohužel jednu nevýhodu – vzhledem k použití protokolu TCP je nutné dodatečné potvrzení doručení.
 
-Using any popular VPN protocol, we are always facing a trade-off: fast but easy to detect vs. slow.
+Při použití jakéhokoli oblíbeného protokolu VPN se vždy setkáváme s kompromisem: rychlý, ale snadno zjistitelný vs. pomalý.
 
-## What's great about AdGuard VPN protocol
+## Co je na protokolu AdGuard VPN skvělé
 
-* It's *nearly impossible to distinguish from normal HTTPS traffic*, that is, the connection to the AdGuard VPN server looks exactly the same as the connection to a normal website.
-* For encryption we use **HTTPS (TLS)**, which copes with this task perfectly. It is the most popular encryption method in the world, and the libraries that implement it are constantly audited for security.
+* Je *téměř nemožné ho odlišit od běžného provozu HTTPS*, to znamená, že připojení k serveru AdGuard VPN vypadá úplně stejně jako připojení k normální webové stránce.
+* Pro šifrování používáme **HTTPS (TLS)**, který tento úkol zvládá dokonale. Jedná se o nejoblíbenější šifrovací metodu na světě a knihovny, které ji implementují, jsou neustále kontrolovány z hlediska bezpečnosti.
 
-Some existing VPN protocols also handle the encryption task, and they (and thus, the fact of using a VPN) are hard to detect. But this usually comes at the price of reduced speed. This is not our case, thanks to several solutions.
+Některé existující protokoly VPN zvládnou i úlohu šifrování a je obtížné je (a tedy i skutečnost, že používáte VPN) odhalit. Obvykle je to však za cenu snížení rychlosti. Díky několika řešením to není náš případ.
 
-* We use the **HTTP/2 transport protocol**, which makes it virtually impossible to detect AdGuard VPN protocol while maintaining high speed.
-* Unlike others, AdGuard VPN protocol *operates with data and not with packets*. This means that AdGuard VPN establishes a separate "tunnel" for each connection, each HTTP/2 stream corresponds to one connection. AdGuard VPN transfers data through this tunnel. This allows us to speed up the operation by saving on confirmation packets, because we can buffer the data of several packets into one before sending it to the VPN server (or from the server to the client). And the fewer packets, the fewer confirmations are needed.
+* Používáme **přenosový protokol HTTP/2**, který prakticky znemožňuje detekci protokolu AdGuard VPN při zachování vysoké rychlosti.
+* Na rozdíl od ostatních, protokol AdGuard VPN *pracuje s daty, nikoli s pakety*. To znamená, že AdGuard VPN vytváří pro každé připojení samostatný "tunel", přičemž každý stream HTTP/2 odpovídá jednomu připojení. AdGuard VPN přenáší data prostřednictvím tohoto tunelu. To nám umožňuje urychlit operaci úsporou potvrzovacích paketů, protože data několika paketů můžeme před odesláním na server VPN (nebo ze serveru ke klientovi) vložit do jedné vyrovnávací paměti. A čím méně paketů, tím méně potvrzení je potřeba.

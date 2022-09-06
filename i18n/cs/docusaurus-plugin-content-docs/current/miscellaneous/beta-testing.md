@@ -1,24 +1,24 @@
 ---
-title: 'AdGuard VPN beta test'
+title: 'Beta test AdGuard VPN'
 sidebar_position: 2
 ---
 
-There is an AdGuard VPN app for virtually every major platform out there, and we regularly release updates for all of them. This would not be possible without beta testing and, more importantly, beta testers. Want to become one? Here how you can do it.
+Aplikace AdGuard VPN existuje prakticky pro všechny hlavní platformy a pro všechny pravidelně vydáváme aktualizace. To by nebylo možné bez beta testování a hlavně bez beta testerů. Chcete se stát jedním z nich? Zde se dozvíte, jak to můžete udělat.
 
-### How to become a beta tester
+### Jak se stát beta testerem
 
-To become an AdGuard VPN beta tester, you only need a few things: the desire, the device on which you will install the app, and [this link](https://adguard-vpn.com/en/beta.html), by following which you will be able to download the latest beta or nightly version of AdGuard VPN!
+Chcete-li se stát beta testerem AdGuard VPN, potřebujete pouze několik věcí: odhodlání, zařízení, na které budete aplikaci instalovat, a [tento odkaz](https://adguard-vpn.com/en/beta.html), po jehož kliknutí si budete moci stáhnout nejnovější beta nebo nightly verzi AdGuard VPN!
 
-### How to report a bug
+### Jak nahlásit chybu
 
-Let’s imagine it happened — you spotted a bug. Or maybe you just want to share your suggestion with developers? Anyway, there are several ways to let us know:
+Představme si, že se to stalo — objevili jste chybu. Nebo se jen chcete podělit o svůj nápad s vývojáři? Každopádně existuje několik způsobů, jak nám dát vědět:
 
-* Go to [forum.adguard.com](https://forum.adguard.com) and post there a new thread (or find an existing one) in [the 'Beta Testing' category of the forum](https://forum.adguard.com/index.php?categories/48/). Make sure to read [forum rules](https://forum.adguard.com/index.php?threads/14859/) first;
+* Přejděte na [forum.adguard.com](https://forum.adguard.com) a založte tam nové vlákno (nebo najděte stávající) v [kategorii 'Beta testování'](https://forum.adguard.com/index.php?categories/48/). Nejprve si přečtěte [pravidla fóra](https://forum.adguard.com/index.php?threads/14859/).
 
-* Go to [GitHub](https://github.com/AdguardTeam/) and find a suitable repository. Create a new issue there and describe the bug/feature request in detail.
+* Přejděte na [GitHub](https://github.com/AdguardTeam/) a najděte vhodný repozitář. Vytvořte tam nový problém a podrobně popište chybu nebo požadavek na funkci.
 
-The above two methods are the most preferred, but you can use others if necessary:
+Dvě výše uvedené metody jsou nejvhodnější, ale v případě potřeby můžete použít i jiné:
 
-* Find us on various social media platforms, like [Facebook](https://www.facebook.com/AdguardEn/), [Reddit](https://www.reddit.com/r/Adguard/), etc. However, this is not the most efficient way to discuss technical matters.
+* Najdete nás na různých platformách sociálních médií, např. [Facebook](https://www.facebook.com/AdguardEn/), [Reddit](https://www.reddit.com/r/Adguard/) atd. To však není nejefektivnější způsob, jak diskutovat o technických záležitostech.
 
-* Email our support team from the Support tab in the app or write directly to [support@adguard.com](mailto:support@adguard.com).
+* Pošlete e-mail našemu týmu podpory z karty Podpora v aplikaci nebo napište přímo na adresu [support@adguard.com](mailto:support@adguard.com).
