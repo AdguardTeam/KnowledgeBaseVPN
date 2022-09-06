@@ -1,28 +1,28 @@
 ---
-title: Installation and removal
+title: 安装和卸载
 sidebar_position: 2
 ---
 
-## System requirements
+## 系统要求
 
-AdGuard VPN can only be installed on Android devices with **Android 5.0.0 or later versions**.
+AdGuard VPN需要**Android 5.0.0或以上**的系统版本。
 
-## How to install AdGuard VPN for Android
+## 如何在安卓设备上安装AdGuard VPN
 
-You can download and install the *AdGuard VPN for Android* app for free in *Goodle Play*. To do this, follow [this link](https://play.google.com/store/apps/details?id=com.adguard.vpn) and tap the *Download* icon or follow a few simple steps:
+您可以在*谷歌市场*中免费下载安装*AdGuard VPN安卓版*。 为此，可在[此链接](https://play.google.com/store/apps/details?id=com.adguard.vpn)中点击*下载*图标，或按照以下步骤操作：
 
-1. Open the *Google Play* app on your device and tap *Search* at the top of the screen.
+1. 打开您设备中的*谷歌商店*，点击屏幕顶部的*搜索*。
 
-2. Next, in the search bar, start typing *"AdGuard"* and select *"adguard vpn"* from the list of suggested options.
+2. 接下来，在搜索栏中，输入*AdGuard*并在推荐列表中选择*AdGuard VPN*。
 
-3. Select *AdGuard VPN - private proxy* from the list of suggested applications and tap *Download*.
+3. 从推荐列表中选择*AdGuard VPN - 私有代理*，并点击*下载*。
 
-4. Wait for the download to finish and tap *Open*.
+4. 等待下载完成并点击*打开*。
 
-AdGuard VPN for Android has been successfully installed!
+AdGuard VPN安卓版已成功安装！
 
-## How to uninstall AdGuard VPN for Android
+## 如何卸载AdGuard VPN安卓版
 
-If you decided to delete AdGuard VPN for Android, find the icon of this app and hold it. In the opened list, tap *Uninstall*.
+如果您决定卸载AdGuard VPN安卓版，请找到此应用的图标并长按。 在打开的列表中，点击*卸载*。
 
-You can learn more about the AdGuard VPN for Android in [this article](overview.md).
+您可以在[这篇文章](overview.md)中了解有关AdGuard VPN安卓版的更多信息。

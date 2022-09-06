@@ -1,5 +1,5 @@
 ---
-title: 'Problems with Restricted Mode profile'
+title: 'Проблемы с профилем «Ограниченный режим»'
 sidebar_position: 4
 ---
 
@@ -40,11 +40,11 @@ Owners of **LG** or **Samsung** phones may also encounter a similar issue. It ca
 
 #### Samsung
 
-- Open **Settings**;
-- Press **Advanced**;
-- Scroll down and then press **Dual Messenger**;
+- Откройте **Настройки**;
+- Нажмите **Дополнительно**;
+- Прокрутите вниз, а затем нажмите **Dual Messenger**;
 - Disable the **Dual Messenger** for all applications;
-- Lock the device for 5 minutes;
+- Заблокируйте устройство на 5 минут;
 - Unlock the screen and try again to create the VPN profile.
 
 #### LG

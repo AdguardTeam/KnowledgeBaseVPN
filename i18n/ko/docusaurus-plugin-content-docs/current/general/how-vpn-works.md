@@ -1,11 +1,11 @@
 ---
-title: How VPN works
+title: VPN 작동 방식
 sidebar_position: 1
 ---
 
 To understand how AdGuard VPN works, you should at first understand the general principles of the VPN service.
 
-## VPN features
+## VPN 기능
 
 A VPN is a Virtual Private Network that helps hide your location and protect your data on the web. A VPN connects a computer or a mobile device to a VPN server and uses the IP address of this server to make it seem to an outside observer that you are in another place. This allows you to securely access various Internet resources and protect your personal data.
 
@@ -21,7 +21,7 @@ If you connect to an unreliable or public network, the data on your device may b
 
 ## VPN structure
 
-When you connect to a network, your computer or mobile device is assigned a unique ID number, or IP address. It usually consists of numbers from 0 to 255, separated by dots or colons. Knowing this sequence, one can determine the geolocation of the device. The IP address is usually set by your ISP, and it will be visible all the way to the desired resource. For this reason, the web server of the site you are visiting can register your IP address and record what you have requested. This record can then be used primarily for data collection and traffic analysis.
+네트워크에 연결하면 컴퓨터나 모바일 장치에 고유한 ID 번호 또는 IP 주소가 할당됩니다. It usually consists of numbers from 0 to 255, separated by dots or colons. Knowing this sequence, one can determine the geolocation of the device. The IP address is usually set by your ISP, and it will be visible all the way to the desired resource. For this reason, the web server of the site you are visiting can register your IP address and record what you have requested. This record can then be used primarily for data collection and traffic analysis.
 
 A VPN creates a tunnel between your device and the VPN server. Your data goes through this tunnel, gets encrypted and then enters the open Internet in a secure form. Therefore, it will seem to the web server that your device has no longer your real IP address, but the IP address of the endpoint of the tunnel, that is, the VPN server. Thus, the site that you get to after passing through the VPN tunnel will consider the geolocation of the VPN server you selected as your real location. And the encrypted data will not fall into the hands of advertisers, hackers and security services.
 

@@ -1,28 +1,28 @@
 ---
-title: Features overview
+title: Resumen de características
 sidebar_position: 1
 ---
 
-AdGuard VPN Browser extension is available for Chrome, Firefox, and Edge. The UI and functionality doesn't differ between browsers so the overview below will be relevant for AdGuard VPN extensions for all browsers.
+La extensión de navegador AdGuard VPN está disponible para Chrome, Firefox y Edge. La interfaz de usuario y la funcionalidad no difieren entre los navegadores, por lo que el resumen que se presenta a continuación será relevante para las extensiones de AdGuard VPN para todos los navegadores.
 
-> Note that you can only use AdGuard VPN Browser extension when logged in. Sign in with your AdGuard account or via Google, Facebook, or Apple. In the latter case make sure that your account is bound to the same email address as your AdGuard account. If you have an [AdGuard VPN subscription](/general/subscription.md), it will be activated automatically in AdGuard VPN Browser extension. Don’t have an AdGuard account yet? [Create it here](https://auth.adguard.com/registration.html).
+> Tenga en cuenta que sólo puede utilizar la extensión AdGuard VPN Browser cuando está conectado. Inicie sesión con su cuenta de AdGuard o a través de Google, Facebook o Apple. En este último caso, asegúrese de que su cuenta está vinculada a la misma dirección de correo electrónico que su cuenta de AdGuard. Si tiene una suscripción a [AdGuard VPN](/general/subscription.md), se activará automáticamente en la extensión AdGuard VPN Browser. ¿Aún no tienes una cuenta de AdGuard? [Crea una aquí](https://auth.adguard.com/registration.html).
 
-To manage your AdGuard VPN Browser extension, either
+Para administrar la extensión AdGuard VPN Browser, puede
 
-* Click its icon on the browser's panel, then click three stripes and select *Settings*, or
-* Go to your browser's *Manage extensions* page and enter the AdGuard VPN's settings from there.
+* Haga clic en su icono en el panel del navegador, luego haga clic en tres rayas y seleccione *Ajustes*, o
+* Vaya a la página de *Administrar extensiones* de su navegador y entre en la configuración de AdGuard VPN desde allí.
 
-Once done, you'll see several tabs on the left:
+Una vez hecho esto, verás varias pestañas a la izquierda:
 
-## Settings
+## Configuración
 
-A few important settings are gathered inside this tab. Here you can choose a DNS server to use, add or remove the AdGuard VPN icon from the browser’s context menu, block WebRTC, change the extension's theme, and allow AdGuard to gather anonymized crash reports and technical data.
+Algunas configuraciones importantes se reúnen dentro de esta pestaña. Aquí puedes elegir un servidor DNS para utilizar, añadir o eliminar el icono de AdGuard VPN del menú contextual del navegador, bloquear WebRTC, cambiar el tema de la extensión y permitir que AdGuard recopile informes de errores y datos técnicos anónimos.
 
-### Choosing a DNS server
+### Eligiendo un servidor DNS
 
-By default, the [system DNS server](https://kb.adguard.com/en/general/dns-filtering#what-is-dns) provided by your ISP is selected, but it may compromise your privacy. With AdGuard VPN Browser extension, you can select a DNS server that provides better speed and security, and even blocks ads or potentially dangerous domains. Brief descriptions under the names of DNS servers will help you navigate and make your decision.
+Por defecto, se selecciona el servidor DNS del sistema [](https://kb.adguard.com/en/general/dns-filtering#what-is-dns) proporcionado por su ISP, pero puede comprometer su privacidad. Con la extensión AdGuard VPN Browser, puede seleccionar un servidor DNS que le proporcione mayor velocidad y seguridad, e incluso bloquear anuncios o dominios potencialmente peligrosos. Unas breves descripciones bajo los nombres de los servidores DNS le ayudarán a navegar y a tomar su decisión.
 
-Learn more about [DNS servers from various providers](https://kb.adguard.com/ru/general/dns-providers).
+Más información sobre los [Servidores DNS de varios proveedores](https://kb.adguard.com/ru/general/dns-providers).
 
 ## Exclusions
 

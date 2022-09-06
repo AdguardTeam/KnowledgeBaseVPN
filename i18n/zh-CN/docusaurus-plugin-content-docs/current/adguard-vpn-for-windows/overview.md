@@ -1,28 +1,28 @@
 ---
-title: Features overview
+title: 功能概述
 sidebar position: 1
 ---
 
-## What is AdGuard VPN for Windows
+## Windows版AdGuard VPN简介
 
-A VPN, acronym for "virtual private network", is a service that makes your internet connection safe and helps you stay anonymous online. How does it work? Every time you visit a website without using a VPN, your ISP sees it. It knows who you are and what you're looking for, and it can collect and sell this data. In it's turn, the website you came to can also track your activity. When you enable a VPN application, it redirects your traffic through an encrypted tunnel to a remote VPN server, ensuring your privacy: the ISP doesn't know where to you sent a request, and the site doesn't know where you came from.
+VPN是“虚拟专用网络”的缩写，该服务可保证您的网络连接安全，并可以使您能匿名上网。 它是如何工作的呢？ 当您不使用VPN访问网页时，您的ISP（网络业务提供商）会检测到您。 他们会知道您在哪个页面以及您的搜索内容，还会收集出售这些数据。 不仅如此，您访问的网站也可以跟踪您的活动。 当您启用VPN应用程序后，它会通过加密隧道将您的流量重定向到远程VPN服务器，从而保护您的隐私。这样ISP就不会知道您向何处发送请求，站点也不会知道您来自哪里。
 
-**What does AdGuard VPN for Windows do**
+**Windows版AdGuard VPN的功能**
 
-* Protects from network traffic interception (spoofing). AdGuard VPN creates an encrypted tunnel between your device and a remote server. All your Internet traffic passes through this tunnel, so your data is protected along the way. And thanks to [AdGuard's unique protocol](/general/adguard-vpn-protocol.mdx), you're guaranteed a fast and secure connection.
+* 防止网络流量拦截（欺骗）。 AdGuard VPN可在您的设备和远程服务器之间创建加密隧道。 您的所有网络流量都会经由此隧道，从而在此过程中保护您的数据。 得益于[AdGuard特有协议](/general/adguard-vpn-protocol.mdx)，您可以有快速、安全的连接。
 
-* Masks your IP address. Your true IP address is the key to your personal data for cybercriminals. Your name, email address, phone number, credit card information can all fall into the hands of fraudsters if you don't hide your IP. With AdGuard VPN, as we said before, all your traffic goes through an encrypted tunnel and comes to the VPN server. Therefore, from the outside it appears that your device has the IP address of said VPN server.
+* 隐藏您的IP地址。 您的真实IP地址是网络犯罪分子获取您个人数据的关键。 如果您不隐藏IP，那么您的姓名、电子邮件地址、电话号码、信用卡信息都可能落入犯罪分子手中。 正如上文所说，使用AdGuard VPN，您的所有流量都会通过加密隧道到达VPN服务器。 因此，从外部看来，您设备的IP地址就和VPN 服务器的IP地址相同。
 
-* Hides your real location. By selecting any of the AdGuard VPN servers, you are instantly "teleported" to its location. What does this give you? For example, the ability to book a hotel at locals' rates or hide from geotargeted advertising.
+* 隐藏您的真实位置。 选择任意一个AdGuard VPN服务器，您可以立即“传送”到其对应位置。 这有什么作用呢？ 举个例子，这样您就能够以当地的价格预订酒店，或者躲避地理目标广告。
 
-AdGuard VPN for Windows has many advantages, so we've dedicated [a separate article](/general/why-adguard-vpn.md) to them. Here, however, we want to focus more on the application itself and how it works.
+Windows版AdGuard VPN有很多优点，为此我们专门[写了一篇文章](/general/why-adguard-vpn.md)来进行阐述。 不过，这里我们希望更多地着眼于程序本身及其工作原理。
 
-## How to start using AdGuard VPN for Windows
+## 如何开始使用Windows版AdGuard VPN
 
-To start using AdGuard VPN for Windows, download the app from [our website](https://adguard-vpn.com/en/welcome.html). The installation takes no more than a minute — and you'll see a dialog window where you'll need to check at least one box applying the terms of the User Agreement and the Privacy Policy. And it's up to you to decide whether you want AdGuard to collect anonymized data about your app usage. At last the program will ask you to sign in, either via [AdGuard account](https://auth.adguard.com/login.html) or via social networks (Apple, Google, Facebook). That's all, you can now use AdGuard VPN for Windows.
+要使用Windows版AdGuard VPN，请从[我们的网站](https://adguard-vpn.com/en/welcome.html)下载该应用程序。 安装时间不会超过1分钟，之后您会看到一个对话框，您至少要勾选一个框来实施用户协议和隐私政策的条款。 您可以决定是否允许AdGuard收集您应用使用情况的匿名数据。 最后，安装程序会要求您通过[AdGuard账户](https://auth.adguard.com/login.html)或社交平台（苹果、谷歌、脸书）登录。 就这样，您现在可以使用Windows版AdGuard VPN了。
 
 
-## Home Screen
+## 主界面
 
 ![AdGuard VPN for Windows Home Page](https://cdn.adguard.com/content/kb/VPN/windows/main_en.png)
 
