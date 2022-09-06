@@ -5,38 +5,38 @@ sidebar position: 1
 
 
 
-If you encounter a problem when using AdGuard VPN for Windows, you can inform us about it. We would be grateful if you also send application logs our way, they help us resolving problems much quicker.
+Pokud při používání AdGuard VPN pro Windows narazíte na problém, můžete nás o něm informovat. Budeme vám vděční, pokud nám budete posílat také záznamy o aplikacích, které nám pomohou vyřešit problémy mnohem rychleji.
 
 
-## Collecting and sending standard logs
+## Shromažďování a odesílání standardních protokolů
 
-By default, AdGuard VPN for Windows uses the standard logging level, that is, the basic collection of data about running processes of the app. To send these logs, follow the next steps:
+Ve výchozím nastavení používá AdGuard VPN pro Windows standardní úroveň záznamů, tj. základní sběr dat o spuštěných procesech aplikace. Chcete-li tyto protokoly odeslat, postupujte podle následujících kroků:
 
-1. Open AdGuard VPN for Windows and, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
+1. Otevřete AdGuard VPN pro Windows a pokud je to možné, zopakujte akce, které vedly k chybě. Zaznamenejte přesný čas, kdy k této chybě došlo.
 
-2. Click **Support** (in the menu above) → **Report a bug**.
+2. Klikněte na **Podpora** (v nabídce výše) → **Nahlásit chybu**.
 
-3. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred. If you can't reproduce the problem, specify as accurately as possible when it last occurred.
+3. V otevřeném formuláři zadejte svou e-mailovou adresu pro zpětnou vazbu a popište nalezenou chybu, včetně času, kdy k ní došlo. Pokud nemůžete problém reprodukovat, uveďte co nejpřesněji, kdy k němu naposledy došlo.
 
-4. There is a check mark next to the **Attach technical logs**, which means that when you send a report, you also send logs.
-> If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, select **Settings** → **General** → **Export logs** in the **Actions** section on the right.
+4. Vedle položky **Přiložit technické záznamy** je zaškrtávací políčko, což znamená, že při odesílání hlášení se odesílají také protokoly.
+> Pokud je pro vás z nějakého důvodu pohodlnější poslat nám protokoly jiným způsobem, můžete je exportovat sami. Chcete-li to provést, zvolte **Nastavení** → **Obecné** → **Exportovat protokoly** v sekci **Akce** vpravo.
 
 
-## Collecting and sending extended logs
+## Shromažďování a odesílání rozšířených protokolů
 
-In most cases, the default logging level is sufficient to trace down possible bugs. But there are cases when more detailed technical information about the device and connections is required, and then our support team will ask you to enable the extened logging level. To send this type of logs, follow these steps:
+Ve většině případů je výchozí úroveň záznamů dostatečná pro dohledání případných chyb. V některých případech jsou však vyžadovány podrobnější technické informace o zařízení a připojeních, a pak vás náš tým podpory požádá o povolení rozšířené úrovně záznamů. Chcete-li odeslat tento typ protokolů, postupujte podle následujících kroků:
 
-1. Open AdGuard VPN for Windows and select **Settings** (in the menu above) → **General** → **Advanced settings**.
+1. Otevřete AdGuard VPN pro Windows a vyberte **Nastavení** (v nabídce výše) → **Obecné** → **Pokročilá nastavení**.
 
-2. In the **Logging level** section, select **Record everything**.
+2. V části **Úroveň záznamu** vyberte možnost **Zaznamenat vše**.
 
-3. Repeat the actions that led to the error, and note the time when it occurred.
+3. Zopakujte akce, které vedly k chybě a zaznamenejte čas, kdy k ní došlo.
 
-4. Switch the logging level back to **Record by default**.
+4. Přepněte úroveň záznamů zpět na **Zaznamenat výchozí**.
 
-5. Then select **Support** (in the menu above) → **Report a bug**.
+5. Poté vyberte **Podpora** (v nabídce výše) → **Nahlásit chybu**.
 
-6. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred.
+6. V otevřeném formuláři zadejte svou e-mailovou adresu pro zpětnou vazbu a popište nalezenou chybu, včetně času, kdy k ní došlo.
 
-7. Make sure that there is a check mark next to **Attach technical logs** and click **Send**.
-> If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, select **Settings** → **General** → **Export logs** in the **Actions** section on the right.
+7. Ujistěte se, že je zaškrtnuto políčko **Přiložit technické záznamy**, a klepněte na **Odeslat**.
+> Pokud je pro vás z nějakého důvodu pohodlnější poslat nám protokoly jiným způsobem, můžete je exportovat sami. Chcete-li to provést, zvolte **Nastavení** → **Obecné** → **Exportovat protokoly** v sekci **Akce** vpravo.

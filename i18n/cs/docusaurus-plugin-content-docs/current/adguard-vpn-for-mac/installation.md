@@ -14,7 +14,7 @@ sidebar_position: 2
 
 ## Jak nainstalovat AdGuard VPN pro macOS?
 
-1. Pro instalaci AdGuard VPN pro Mac stačí následovat [tento odkaz](https://agrd.io/mac_vpn) nebo otevřít prohlížeč, do adresního řádku zadat *adguard-vpn.com* a na otevřené stránce kliknout na "Vyzkoušet zdarma".
+1. Pro instalaci AdGuard VPN pro macOS stačí následovat [tento odkaz](https://agrd.io/mac_vpn) nebo otevřít prohlížeč, do adresního řádku zadat *adguard-vpn.com* a na otevřené stránce kliknout na "Vyzkoušet zdarma".
 
 ![Stáhnout AdGuard VPN z oficiálních stránek](https://cdn.adguard.com/public/Adguard/kb/vpn-install/mac-install-en.png)
 
@@ -41,7 +41,7 @@ AdGuard VPN pro macOS je nainstalován!
 
 ### Běžná odinstalace
 
-Chcete-li odinstalovat AdGuard VPN for macOS, postupujte podle dvou jednoduchých kroků:
+Chcete-li odinstalovat AdGuard VPN pro macOS, postupujte podle dvou jednoduchých kroků:
 
 1. Otevřete "Finder" a přejděte do sekce "Programy".
 
