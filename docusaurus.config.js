@@ -205,12 +205,13 @@ module.exports = {
             'https://github.com/AdguardTeam/KnowledgeBaseVPN/edit/master/',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve('./src/css/custom.scss'),
         },
       },
     ],
   ],
   plugins: [
+    'docusaurus-plugin-sass',
     '@docusaurus/plugin-ideal-image',
     async function changeImageDomain() {
       return {

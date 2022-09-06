@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import clsx from 'clsx';
 import Translate from '@docusaurus/Translate';
-import { getCurrentPlatformName, utils, getOSName } from '@site/static/js/helpers';
-import { VPN_WEBSITE_URL, OS_NAMES } from '@site/static/js/consts';
+import { getCurrentPlatformName, getOSName } from '@site/static/js/helpers';
+import { OS_NAMES } from '@site/static/js/consts';
 
-import s from './StickyBar.module.css';
+import s from './StickyBar.module.scss';
 
 const OPENING_HEIGHT = 50;
 
@@ -97,7 +97,7 @@ const StickyBar = () => {
     return (
         <>
             {isVisible &&
-                (<div className={clsx(s.stickyBar, 'annoyance', {[s.stickyBarOpen]: scrolling })}>
+                (<div className={clsx(s.stickyBar, 'annoyance', { [s.stickyBarOpen]: scrolling })}>
                     <div className={s.stickyBarIn}>
                         <div className={s.stickyBarIntro}>
                             <Translate

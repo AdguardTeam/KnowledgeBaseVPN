@@ -1,7 +1,7 @@
 import React from 'react';
 import clsx from 'clsx';
 import {useDocsSidebar} from '@docusaurus/theme-common';
-import styles from './styles.module.css';
+import styles from './styles.module.scss';
 import StickyBar from '../../../StickyBar/StickyBar';
 
 export default function DocPageLayoutMain({hiddenSidebarContainer, children}) {

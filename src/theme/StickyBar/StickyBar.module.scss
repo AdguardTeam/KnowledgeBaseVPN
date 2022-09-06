@@ -1,3 +1,5 @@
+@import '../vars';
+
 .stickyBar {
     position: sticky;
     bottom: 0;
@@ -14,6 +16,12 @@
     transform: translateY(0);
 }
 
+.stickyBarClosed {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(100%);
+}
+
 .stickyBarIn {
     display: flex;
     align-items: center;
@@ -22,7 +30,7 @@
     background-color: var(--vpn-white-color);
 }
 
-@media (min-width: 768px) {
+@include vpn-tablet {
     .stickyBarIn {
         padding: 16px 40px;
     }
@@ -35,7 +43,7 @@
     line-height: 1.5;
 }
 
-@media (min-width: 768px) {
+@include vpn-tablet {
     .stickyBarIntro {
         display: block;
     }
@@ -93,7 +101,7 @@
     background-color: var(--vpn-green-400);
 }
 
-@media (min-width: 1024px) {
+@include vpn-desktop {
     .stickyBarBtn {
         font-size: 18px;
         line-height: 1.23;
@@ -163,7 +171,7 @@
     visibility: visible;
 }
 
-@media (min-width: 1024px) {
+@include vpn-desktop {
     .stickyBarBaloon {
         display: block;
     }
@@ -205,7 +213,7 @@
     outline: none;
 }
 
-@media (min-width: 768px) {
+@include vpn-tablet {
     .stickyBarCloseBtn {
         width: 32px;
         height: 32px;

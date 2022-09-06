@@ -6,6 +6,8 @@
  */
 
 /* You can override the default Infima variables here. */
+@import '../theme/vars';
+
 :root {
   --ifm-color-primary: #74A352;
   --ifm-color-primary-dark: #2160d1;
@@ -126,7 +128,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   bottom: 1rem;
 }
 
-@media (min-width: 768px) {
+@include vpn-tablet {
   .clean-btn.theme-back-to-top-button {
     width: 3rem;
     height: 3rem;
@@ -151,14 +153,14 @@ html[lang='ko'] .navbar__search {
   display: none;
 }
 
-@media (max-width: 996px) {
+@include docsaurus-tablet-max {
   .navbar__items [class*='searchBox'] {
     top: 6px;
     right: 7px;
   }
 }
 
-@media (min-width: 997px) {
+@include docsaurus-desktop-min {
   .navbar__items [class*='searchBox'] {
     margin-left: 6px;
     padding: 0;
