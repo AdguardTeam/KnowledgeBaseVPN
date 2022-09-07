@@ -8,76 +8,76 @@ slug: /
 
 VPN, İnternet üzerindeki başka bir ağa güvenli bir bağlantı oluşturmanızı sağlar.
 
-Initially, VPNs were created for one purpose — to securely connect business networks over the Internet, so that people could connect to the corporate network from home. This technology is used for many other things: for example, to browse the Internet anonymously or to protect your online activity from prying eyes while using public Wi-Fi.
+Başlangıçta, VPN'ler tek bir amaç için oluşturuldu - iş ağlarını İnternet üzerinden güvenli bir şekilde bağlamak, böylece insanlar şirket ağına evden bağlanabiliyordu. Bu teknoloji başka birçok şey için kullanılır: örneğin, İnternet'te anonim olarak gezinmek veya halka açık Wi-Fi kullanırken çevrimiçi etkinliğinizi meraklı gözlerden korumak için.
 
-A VPN connects a user's computer or mobile device to a server and allows one to browse the net using someone else's IP address. Thus, third-party observers cannot see the user's real IP address, which makes it nearly impossible to trace them.
+VPN, kullanıcının bilgisayarını veya mobil cihazını bir sunucuya bağlar ve birinin başkasının IP adresini kullanarak ağa göz atmasına izin verir. Bu nedenle, üçüncü taraf gözlemciler kullanıcının gerçek IP adresini göremezler, bu da onları izlemeyi neredeyse imkansız hale getirir.
 
-Speaking of VPN, the first thing they mention is traffic encryption and security deriving from it. But what does it mean? A VPN creates an encrypted tunnel between the user's device and the remote server. All your web traffic passes through this tunnel, so your data is protected along the way. For the external observer, your traffic exits the VPN server, so it looks like your device has the IP address of this server. This trick masks the user's identity and true location.
+VPN'den bahsetmişken, bahsettikleri ilk şey trafik şifrelemesi ve ondan kaynaklanan güvenliktir. Ama bu ne anlama geliyor? VPN, kullanıcının cihazı ile uzak sunucu arasında şifreli bir tünel oluşturur. Tüm web trafiğiniz bu tünelden geçer, böylece verileriniz yol boyunca korunur. Harici gözlemci için, trafiğiniz VPN sunucusundan çıkar, bu nedenle cihazınız bu sunucunun IP adresine sahipmiş gibi görünür. Bu numara, kullanıcının kimliğini ve gerçek konumunu maskeler.
 
-VPN can be used to:
+VPN şunlar için kullanılabilir:
 
-* hide your real whereabouts and stay anonymous
-* secure your data — even when connecting to a public Wi-Fi, you can browse the Web safely
-* protect yourself from spoofing (network traffic interception) and tracking on the part of your Internet service provider
+* gerçek yerinizi gizleyin ve anonim kalın
+* verilerinizi güvence altına alın — herkese açık bir Wi-Fi'ye bağlanırken bile Web'de güvenle gezinebilirsiniz
+* kendinizi adres sahteciliğinden (ağ trafiğinin ele geçirilmesi) ve İnternet servis sağlayıcınızın izlemesinden koruyun
 
-Passwords, card details, and just plain personal information are at risk when a user surfs the Internet. But if you connect to the global network using a VPN, you can be sure that no one can intercept your data.
+Parolalar, kart bilgileri ve yalnızca düz kişisel bilgiler, bir kullanıcı İnternet'te gezinirken risk altındadır. Ancak küresel ağa bir VPN kullanarak bağlanıyorsanız, kimsenin verilerinizi ele geçiremeyeceğinden emin olabilirsiniz.
 
-## Why AdGuard VPN
+## Neden AdGuard VPN
 
-### Trusted developer
-AdGuard has been present on the market of personal data protection and ad blocking and developing its line of software for more than 12 years. Over this time, our company has built an impeccable reputation, and the number of our customers has exceeded 30 million.
+### Güvenilir geliştirici
+AdGuard, 12 yılı aşkın bir süredir kişisel verilerin korunması ve reklam engelleme pazarında yer almakta ve yazılım serisini geliştirmektedir. Bu süre zarfında şirketimiz kusursuz bir itibar kazanmış ve müşterilerimizin sayısı 30 milyonu aşmıştır.
 
-### Unique VPN protocol
-The main difference between AdGuard VPN and its competitors is that we use [our own developed protocol](/general/adguard-vpn-protocol.mdx). It disguises itself as normal traffic, so it is much more difficult to track and block it.
+### Benzersiz VPN protokolü
+AdGuard VPN ile rakipleri arasındaki temel fark, [kendi geliştirdiğimiz](/general/adguard-vpn-protocol.mdx) protokolü kullanmamızdır. Kendisini normal trafik olarak gizler, bu yüzden onu izlemek ve engellemek çok daha zordur.
 
-### No logs policy
-No logs policy means that we don’t collect, store or transfer users’ personal data to third parties. The full text of AdGuard privacy policy can be found [here](https://adguard-vpn.com/en/privacy.html).
+### Kayıt tutmama politikası
+Kayıt tutmama politikası, kullanıcıların kişisel verilerini toplamadığımız, saklamadığımız veya üçüncü taraflara aktarmadığımız anlamına gelir. AdGuard gizlilik politikasının tam metnine [buradan](https://adguard-vpn.com/en/privacy.html) ulaşabilirsiniz.
 
-### Tracking protection
-Web traffic from any user may be of interest and is particularly valuable in terms of monetization of personal data. Both criminals and unscrupulous ISPs can access it. However, with a trustworthy VPN, you can be confident that neither your provider nor anyone else will see your internet activity.
+### İzlenme koruması
+Herhangi bir kullanıcıdan gelen web trafiği ilginizi çekebilir ve özellikle kişisel verilerden para kazanma açısından değerlidir. Hem suçlular hem de vicdansız ISS'ler buna erişebilir. Ancak, güvenilir bir VPN ile, ne sağlayıcınızın ne de başka birinin internet etkinliğinizi görmeyeceğinden emin olabilirsiniz.
 
-### Ultrafast VPN servers in 43 countries
+### 43 ülkede ultra hızlı VPN sunucuları
 
-* Argentina
-* Australia
-* Austria
-* Belgium
-* Brazil
-* Bulgaria
-* Cambodia
-* Canada
-* China
-* Czech Republic
-* Denmark
-* Egypt
-* Finland
-* France
-* Germany
-* Greece
-* India
-* Ireland
-* Israel
-* Italy
-* Japan
-* Luxembourg
-* Mexico
-* Netherlands
-* Norway
-* Philippines
-* Poland
-* Romania
-* Russia
-* Serbia
-* Singapore
-* South Africa
-* South Korea
-* Spain
-* Sweden
-* Switzerland
-* Taiwan
-* Turkey
-* United Kingdom
-* UAE
-* USA
-* Ukraine
+* Arjantin
+* Avustralya
+* Avusturya
+* Belçika
+* Brezilya
+* Bulgaristan
+* Kamboçya
+* Kanada
+* Çin
+* Çek Cumhuriyeti
+* Danimarka
+* Mısır
+* Finlandiya
+* Fransa
+* Almanya
+* Yunanistan
+* Hindistan
+* İrlanda
+* İsrail
+* İtalya
+* Japonya
+* Lüksemburg
+* Meksika
+* Hollanda
+* Norveç
+* Filipinler
+* Polonya
+* Romanya
+* Rusya
+* Sırbistan
+* Singapur
+* Güney Afrika
+* Güney Kore
+* İspanya
+* İsveç
+* İsviçre
+* Tayvan
+* Türkiye
+* Birleşik Krallık
+* BAE
+* Amerika Birleşik Devletleri
+* Ukrayna
 * Vietnam
