@@ -1,12 +1,12 @@
 ---
-title: How to subscribe
+title: Jak předplatit AdGuard VPN
 sidebar_position: 6
 ---
 
-AdGuard VPN is available in two versions — free and unlimited. The subscription allows you to use the app without any restrictions on traffic, connection speed and the choice of locations. You can [read more about all the advantages of the unlimited version](free-vs-unlimited.md).
+AdGuard VPN je k dispozici ve dvou verzích — bezplatné a neomezené. Předplatné umožňuje používat aplikaci bez omezení datového provozu, rychlosti připojení a výběru umístění. [Zde](free-vs-unlimited.md) si můžete přečíst více o všech výhodách neomezené verze.
 
-If you have decided to purchase a subscription to AdGuard VPN, there are three ways to do this:
+Pokud jste se rozhodli zakoupit si předplatné AdGuard VPN, můžete tak učinit třemi způsoby:
 
-1. Via an in-app purchase. Go to the AdGuard VPN app and tap the arrow in the upper-right corner of the screen. There are three subscription plans to choose from — monthly, yearly, and two-year one. Select the most suitable one and tap "Subscribe". This option is available for AdGuard VPN mobile apps for iOS and Android.
-2. Via [AdGuard account](https://my.adguard.com/main.html). Log in to your account and select "My Licenses" from the menu bar. Press "Buy AdGuard VPN" and select a monthly, yearly, or two-year subscription. Pay for it using your card or PayPal account. Done!
-3. Finally, you can purchase an AdGuard VPN subscription on [our website](https://adguard-vpn.com/license.html). Choose a convenient subscription option and enter the email address to which the payment receipt will be sent. You can pay for your subscription using your card or PayPal account.
+1. Prostřednictvím nákupu v aplikaci. Přejděte do aplikace AdGuard VPN a klepněte na šipku v pravém horním rohu obrazovky. Na výběr jsou tři plány předplatného — měsíční, roční a na dva roky. Vyberte ten nejvhodnější a klepněte na "Předplatit". Tato možnost je k dispozici pro mobilní aplikace AdGuard VPN pro iOS a Android.
+2. Prostřednictvím [AdGuard účtu](https://my.adguard.com/main.html). Přihlaste se ke svému účtu a v panelu nabídek vyberte možnost "Moje licence". Stiskněte tlačítko "Zakoupit AdGuard VPN" a vyberte měsíční, roční nebo dvouleté předplatné. Zaplaťte pomocí platební karty nebo účtu PayPal. Hotovo!
+3. Předplatné AdGuard VPN si můžete zakoupit na [našich webových stránkách](https://adguard-vpn.com/license.html). Vyberte vhodnou možnost předplatného a zadejte e-mailovou adresu, na kterou bude zasláno potvrzení o platbě. Předplatné můžete zaplatit platební kartou nebo účtem PayPal.

@@ -1,13 +1,13 @@
 ---
-title: 'Updating the Knowledge Base'
+title: 'Bilgi Tabanının Güncellenmesi'
 sidebar_position: 3
 ---
 
-The goal of this Knowledge Base is to provide everyone with the most up-to-date information on all kinds of AdGuard VPN-related topics. But things constantly change, and sometimes an article doesn't reflect the current state of things anymore — there are simply not so many of us to keep an eye on every single bit of information and update it accordingly when new versions are released.
+Bu Bilgi Tabanının amacı, herkese AdGuard VPN ile ilgili her türlü konuda en güncel bilgileri sağlamaktır. Ancak işler sürekli değişiyor ve bazen bir makale artık mevcut durumu yansıtmıyor - her bir bilgiyi takip edecek ve yeni sürümler yayınlandığında buna göre güncelleyecek çok fazla kişi yok.
 
-This is why we placed all of our KB content to [GitHub](https://github.com/AdguardTeam/KnowledgeBaseVPN), and now literally anyone can contribute to it by suggesting edits and translations to existing articles, as well as totally new ones.
+Bu nedenle, tüm BT içeriğimizi [GitHub](https://github.com/AdguardTeam/KnowledgeBaseVPN)'a yerleştirdik ve şimdi kelimenin tam anlamıyla herkes, mevcut makalelere ve tamamen yeni makalelere düzenlemeler ve çeviriler önererek katkıda bulunabilir.
 
-## How to suggest a change or write a new article {#suggest-change}
+## Bir değişiklik önerme veya yeni bir makale yazma {#suggest-change}
 
 You can suggest changes to current articles and add new ones to the Knowledge Base using the functionality of the GitHub mentioned above. If you are unfamiliar with principles of working with the platform, start by reading [documentation in this section](https://docs.github.com/en).
 
