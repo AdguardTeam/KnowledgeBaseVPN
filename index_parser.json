@@ -1,5 +1,5 @@
 {
-  "index_name": "vpn-kb",
+  "index_name": "adg-vpn-kb",
   "start_urls": [
     "https://adguard-vpn.com/kb/"
   ],
