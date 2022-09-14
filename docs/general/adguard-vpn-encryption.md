@@ -7,7 +7,7 @@ sidebar_position: 7
 
 Encryption is the reason the word "private" exists in the term "Virtual Private Network". A VPN creates a tunnel between your device and a VPN server, passing through which your data gets encrypted and then enters the open Internet in a secure form. The process of encryption, i.e. turning data into gibberish that no one who intercepts it can read, is essential to any VPN service.  
 
-[AdGuard VPN protocol](ссылка) uses the most secure and fast encryption algorithm to date – AES-256. Learn what it is and why it is so good.
+AdGuard VPN protocol uses the most secure and fast encryption algorithm to date – AES-256. Learn what it is and why it is so good.
 
 ## AES historical tour 
 
