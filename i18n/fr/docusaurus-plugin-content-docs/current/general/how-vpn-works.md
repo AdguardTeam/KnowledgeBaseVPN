@@ -1,17 +1,17 @@
 ---
-title: How VPN works
+title: Comment le VPN fonctionne-t-il
 sidebar_position: 1
 ---
 
-To understand how AdGuard VPN works, you should at first understand the general principles of the VPN service.
+Pour comprendre le fonctionnement d'AdGuard VPN, vous devez d'abord comprendre les principes généraux du service VPN.
 
-## VPN features
+## Fonctionnalités VPN
 
-A VPN is a Virtual Private Network that helps hide your location and protect your data on the web. A VPN connects a computer or a mobile device to a VPN server and uses the IP address of this server to make it seem to an outside observer that you are in another place. This allows you to securely access various Internet resources and protect your personal data.
+Un VPN est un réseau privé virtuel qui permet de cacher votre emplacement et de protéger vos données sur le web. Un VPN connecte un ordinateur ou un appareil mobile à un serveur VPN et utilise l'adresse IP de ce serveur pour donner l'impression à un observateur extérieur que vous vous trouvez dans un autre endroit. Cela vous permet d'accéder en toute sécurité à des ressources Internet et de protéger vos données personnelles.
 
-In that way, a VPN performs two important functions:
+De cette façon, un VPN remplit deux fonctions importantes :
 
-1. **Maintaining anonymity**
+1. **Maintien de l’anonymat**
 
 Using an Internet connection, the user leaves their digital footprint, which can then be analyzed and used by third parties. For example, one of the online stores that you have visited can save your search history and then offer you their products based on it through targeted advertising. Or the secret services, having learned your location through the IP address of your device and having determined your identity, can secretly monitor your activity on the web. In addition, web browsers and ISPs themselves can use your browsing history for their own purposes, as well as sell it to advertisers and provide it to government institutions. VPN allows you to hide your IP address and replace it with the IP address of the VPN server to which you are connected. This way you will be able to maintain your privacy and anonymously search for information on the web.
 
@@ -19,17 +19,17 @@ Using an Internet connection, the user leaves their digital footprint, which can
 
 If you connect to an unreliable or public network, the data on your device may become vulnerable to cybercriminals. Bank card details, usernames and passwords, passport data — all this data can be intercepted by online fraudsters. The VPN tunnel encrypts the information that you send and receive from the web, so it can not fall into the wrong hands.
 
-## VPN structure
+## Structure du VPN
 
 When you connect to a network, your computer or mobile device is assigned a unique ID number, or IP address. It usually consists of numbers from 0 to 255, separated by dots or colons. Knowing this sequence, one can determine the geolocation of the device. The IP address is usually set by your ISP, and it will be visible all the way to the desired resource. For this reason, the web server of the site you are visiting can register your IP address and record what you have requested. This record can then be used primarily for data collection and traffic analysis.
 
-A VPN creates a tunnel between your device and the VPN server. Your data goes through this tunnel, gets encrypted and then enters the open Internet in a secure form. Therefore, it will seem to the web server that your device has no longer your real IP address, but the IP address of the endpoint of the tunnel, that is, the VPN server. Thus, the site that you get to after passing through the VPN tunnel will consider the geolocation of the VPN server you selected as your real location. And the encrypted data will not fall into the hands of advertisers, hackers and security services.
+A VPN creates a tunnel between your device and the VPN server. Your data goes through this tunnel, gets encrypted and then enters the open Internet in a secure form. Par conséquent, le serveur web aura l'impression que votre appareil n'a plus votre véritable adresse IP, mais l'adresse IP de l'extrémité du tunnel, c'est-à-dire le serveur VPN. Ainsi, le site auquel vous accédez après avoir traversé le tunnel VPN considérera la géolocalisation du serveur VPN que vous avez sélectionné comme votre emplacement réel. Et les données chiffrées ne tomberont pas entre les mains des publicitaires, des pirates informatiques et des services de sécurité.
 
-![VPN structure](https://cdn.adguard.com/public/Adguard/Website/Images/seo/en/how_vpn_3.jpg)
+![Structure du VPN](https://cdn.adguard.com/public/Adguard/Website/Images/seo/en/how_vpn_3.jpg)
 
-## Types of VPN protocols
+## Types de protocoles VPN
 
-VPN security protocols are tools that encrypt data in a VPN tunnel and allow you to maintain user privacy in an open Internet. At the moment, the vast majority of modern VPN services use one of the following three VPN protocols:
+Les protocoles de sécurité VPN sont des outils qui cryptent les données dans un tunnel VPN et vous permettent de préserver la confidentialité des utilisateurs dans un Internet ouvert. À l'heure actuelle, la grande majorité des services VPN modernes utilisent l'un des trois protocoles VPN suivants :
 
 1. [*IPSec*](https://en.wikipedia.org/wiki/IPsec). One of its main advantages is that it is available on most devices and operating systems and provides a high level of security. However, the use of double [encapsulation](https://en.wikipedia.org/wiki/Encapsulation_(networking)) in this protocol may result in a lower connection speed.
 

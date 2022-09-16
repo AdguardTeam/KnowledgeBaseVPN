@@ -1,5 +1,5 @@
 ---
-title: 'Updating the Knowledge Base'
+title: 'De kennisbank bijwerken'
 sidebar_position: 3
 ---
 

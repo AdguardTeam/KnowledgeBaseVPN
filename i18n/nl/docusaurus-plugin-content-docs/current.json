@@ -1,46 +1,46 @@
 {
   "version.label": {
-    "message": "Next",
+    "message": "Volgende",
     "description": "The label for version current"
   },
   "sidebar.sidebar.category.General": {
-    "message": "General",
+    "message": "Algemeen",
     "description": "The label for category General in sidebar sidebar"
   },
   "sidebar.sidebar.category.Public DNS": {
-    "message": "Public DNS",
+    "message": "Openbare DNS",
     "description": "The label for category Public DNS in sidebar sidebar"
   },
   "sidebar.sidebar.category.Solving problems": {
-    "message": "Solving problems",
+    "message": "Problemen oplossen",
     "description": "The label for category Solving problems in sidebar sidebar"
   },
   "sidebar.sidebar.category.Private DNS": {
-    "message": "Private DNS",
+    "message": "Privé-DNS",
     "description": "The label for category Private DNS in sidebar sidebar"
   },
   "sidebar.sidebar.category.Miscellaneous": {
-    "message": "Miscellaneous",
+    "message": "Diversen",
     "description": "The label for category Miscellaneous in sidebar sidebar"
   },
   "sidebar.sidebar.category.AdGuard VPN for Android": {
-    "message": "AdGuard VPN for Android",
+    "message": "AdGuard VPN voor Android",
     "description": "The label for category AdGuard VPN for Android in sidebar sidebar"
   },
   "sidebar.sidebar.category.AdGuard VPN for iOS": {
-    "message": "AdGuard VPN for iOS",
+    "message": "AdGuard VPN voor iOS",
     "description": "The label for category AdGuard VPN for iOS in sidebar sidebar"
   },
   "sidebar.sidebar.category.AdGuard VPN for Windows": {
-    "message": "AdGuard VPN for Windows",
+    "message": "AdGuard VPN voor Windows",
     "description": "The label for category AdGuard VPN for Windows in sidebar sidebar"
   },
   "sidebar.sidebar.category.AdGuard VPN for Mac": {
-    "message": "AdGuard VPN for Mac",
+    "message": "AdGuard VPN voor macOS",
     "description": "The label for category AdGuard VPN for Mac in sidebar sidebar"
   },
   "sidebar.sidebar.category.AdGuard VPN browser extensions": {
-    "message": "AdGuard VPN browser extensions",
+    "message": "AdGuard VPN browseruitbreidingen",
     "description": "The label for category AdGuard VPN browser extensions in sidebar sidebar"
   }
 }

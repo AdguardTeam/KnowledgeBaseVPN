@@ -1,36 +1,36 @@
 ---
-title: Installation and removal
+title: 설치와 제거
 sidebar_position: 2
 ---
 
-## How to install AdGuard VPN browser extension
+## 애드가드 브라우저 확장 프로그램을 설치하는 방법
 
-To install AdGuard VPN browser extension, follow these steps:
+애드가드 가상사설망 브라우저 확장 프로그램을 설치하시려면 이 단계를 따르십시오:
 
-1. Visit [adguard-vpn.com](https://adguard-vpn.com/browser-extension/overview.html)
+1. [adguard-vpn.com 에 방문합니다.](https://adguard-vpn.com/browser-extension/overview.html)
 
-2. Click on the icon of your browser and then click *Install*.
+2. 브라우저 버튼을 클릭한 후 *설치*를 누르십시오.
 
-3. Depending on your browser, one of the websites will open: Chrome Web Store, Firefox Add-ons, or Microsoft Edge Add-ons. Click the respective button: *Add to Chrome*, *Add to Firefox* or *Get* next to AdGuard VPN Browser extension.
+3. 브라우저에 따라, 크롬 웹 스토어, 파이어폭스 애드온 또는 마이크로소프트 엣지 애드온이 열릴 것입니다. 해당 버튼을 클릭합니다: *크롬에 추가*, *파이어폭스에 추가* 또는*애드가드 가상사설망 확장 옆에* 가져오기를 하십시오.
 
-4. Once the installation is complete, you will be prompted to switch to [unlimited version](https://adguard-vpn.com/thankyou.html). It's completely optional but if you find that the free version is not enough for you, you can purchase a [subscription](/general/subscription.md) at any moment.
+4. 설치가 끝나면, 당신은[무제한 버전](https://adguard-vpn.com/thankyou.html)으로 전환하라는 문구가 표기됩니다. 완전히 선택 사항이지만 무료 버전으로 충분하지 않은 경우 언제든지 [구독](/general/subscription.md) 을 하실 수 있습니다.
 
-4. Read and accept the EULA and Privacy Policy by checking the respective box. You can also allow AdGuard VPN to collect anonymized data on the app usage, which we need to improve our product (this is optional). Then click *Continue*.
+4. 애뉼라와 개인정보 보호정책을 읽고 확인란에 동의 버튼을 클릭합니다. 애드가드 가상사설망 앱 사용중 필요한 익명 데이터를 수집하도록 허용하실 수도 있습니다. 이 데이트는 제품을 개선하는데 사용됩니다. (필수 아님) 그리고 * 계속*을 누릅니다.
 
-5. Sign up or log into your previously created AdGuard account to finish the installation process.
+5. 이전 애드가드 계정에 로그인하거나 새로 가입하여 설치 과정을 완료합니다.
 
-Enjoy AdGuard VPN!
+애드가드 가상사설망을 즐기세요!
 
-## How to uninstall AdGuard VPN browser extension
+## 애드가드 브라우저 확장 프로그램을 제거하는 방법
 
-### Chrome
+### 크롬
 
-Click the three dots icon in the top right corner of the browser, then select *More tools -> Extensions*. Find AdGuard VPN and click *Remove*.
+브라우저의 오른쪽 상단에 모서리에 있는 점 세개의 아이콘을 클릭하신 후 *추가 도구 -> 확장 프로그램을* 선택합니다. 애드가드 가상사설망을 찾아 * 제거*를 클릭합니다.
 
-### Firefox
+### 파이어폭스
 
 Click the sandwich menu icon in the top right corner of the browser, then select *Add-ons and themes*. Find AdGuard VPN in the list, click the three dots icon next to it and select *Remove*.
 
-### Edge
+### 엣지
 
-Click the three dots icon in the top right corner of the browser, then select *Extensions*. Find AdGuard VPN in the list, click the three dots icon next to it and select *Remove from Microsoft Edge*.
+오른쪽 상단에 있는 점 새개의 버튼을 클릭하시고 * 추가 도구 - 확장 프로그램을* 선택하십시오. 목록에서 애드가드 가상사설망을 클릭하신 후 ** 마이크로소프트 엣지에서 제거합니다.

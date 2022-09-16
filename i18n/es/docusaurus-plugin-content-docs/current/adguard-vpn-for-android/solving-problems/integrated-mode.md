@@ -10,4 +10,4 @@ AdGuard VPN has the General operating mode enabled by default, which uses its ow
 
 2. Go to "Advanced settings" and select "Operating mode".
 
-3. Switch the mode from to *Compatibility mode with AdGuard*. Done!
+3. Switch the mode from to *Compatibility mode with AdGuard*. ¡Listo!

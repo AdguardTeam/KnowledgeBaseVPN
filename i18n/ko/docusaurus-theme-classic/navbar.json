@@ -12,7 +12,7 @@
     "description": "Navbar item with label official_website"
   },
   "item.label.github": {
-    "message": "GitHub",
+    "message": "깃허브",
     "description": "Navbar item with label github"
   }
 }

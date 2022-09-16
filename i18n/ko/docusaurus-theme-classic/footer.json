@@ -1,10 +1,10 @@
 {
   "link.title.vpn": {
-    "message": "AdGuard VPN",
+    "message": "애드가드 가상사설망",
     "description": "The title of the footer links column with title=vpn in the footer"
   },
   "link.title.products": {
-    "message": "Products",
+    "message": "제품",
     "description": "The title of the footer links column with title=products in the footer"
   },
   "link.title.support": {
