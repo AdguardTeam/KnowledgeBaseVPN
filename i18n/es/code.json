@@ -291,23 +291,23 @@
     "description": "The ARIA label and placeholder for search button"
   },
   "sticky_bar.promo.free": {
-    "message": "Get 3 GB for free",
+    "message": "Obtén 3 GB gratis",
     "description": "String used for free GB promo in sticky bar"
   },
   "Install": {
-    "message": "Install",
+    "message": "Instalar",
     "description": "String used for free GB promo in sticky bar"
   },
   "sticky_bar.btn.baloon.text": {
-    "message": "By downloading the program you accept the terms of the {eulaLink}",
+    "message": "Al descargar el programa, aceptas las condiciones de {eulaLink}",
     "description": "String used for license agreement text in sticky bar"
   },
   "sticky_bar.btn.baloon.text.link": {
-    "message": "License agreement",
+    "message": "Acuerdo de licencia",
     "description": "The label for the link to license agreement"
   },
   "sticky_bar.btn.text.download": {
-    "message": "Download",
+    "message": "Descargar",
     "description": "Sticky bar btn text with label Download"
   },
   "sticky_bar.btn.text.ios": {
@@ -319,7 +319,7 @@
     "description": "Sticky bar btn text with label Google Play"
   },
   "sticky_bar.btn.text.install": {
-    "message": "Install",
+    "message": "Instalar",
     "description": "Sticky bar btn text with label Install"
   }
 }

@@ -16,9 +16,9 @@ Hablando de VPN, lo primero que mencionan es el cifrado del tráfico y la seguri
 
 La VPN se puede utilizar para:
 
-* Ocultar tu paradero real y permanecer en el anonimato
-* Proteger sus datos: incluso cuando se conecta a una red Wi-Fi pública, puede navegar por la Web de forma segura
-* Protegerse de la suplantación de identidad (interceptación del tráfico de red) y el seguimiento por parte de su proveedor de servicios de Internet
+* ocultar tu paradero real y permanecer en el anonimato
+* proteger sus datos: incluso cuando se conecta a una red Wi-Fi pública, puede navegar por la Web de forma segura
+* protegerse de la suplantación de identidad (interceptación del tráfico de red) y el seguimiento por parte de su proveedor de servicios de Internet
 
 Las contraseñas, los detalles de la tarjeta y simplemente su información personal están en riesgo cuando un usuario navega por Internet. Pero si se conecta a la red global utilizando una VPN, puede estar seguro de que nadie puede interceptar sus datos.
 

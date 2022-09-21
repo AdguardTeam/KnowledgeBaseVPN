@@ -1,17 +1,17 @@
 ---
-title: 'Benefits of AdGuard VPN Unlimited'
+title: 'Les avantages de AdGuard VPN Illimité'
 sidebar_position: 5
 ---
  
-You can use AdGuard VPN for free, but then there will be certain restrictions:
+Vous pouvez utiliser AdGuard VPN gratuitement, mais il y aura alors certaines restrictions :
 
-* Only 2 devices on which you can simultaneously enable AdGuard VPN
-* 3 GB of traffic per month restriction
-* 20 Mbit/sec speed limit
-* Only some of the server locations are available
-* Email clients can’t be used for sending messages (on iOS and Android)
+* Seulement 2 appareils où vous pouvez activer AdGuard VPN simultanément
+* 3 Go de trafic par mois de restriction
+* Limite de vitesse de 20 Mbit/s
+* Seuls certains des emplacements de serveur sont disponibles
+* Les clients de messagerie ne peuvent pas être utilisés pour envoyer des messages (sur iOS et Android)
 
-> The last point should be addressed separately: free users of AdGuard VPN for iOS and Android cannot send emails in email clients. It’s impossible because we block port 25, which is used for outgoing emails, and thus reinsure against spam. However, sending emails with web email services works perfectly well. And on AdGuard VPN for Android you can add apps to exclusions so that email apps will function as well.
+> Le dernier point doit être traité séparément : les utilisateurs gratuits d'AdGuard VPN pour iOS et Android ne peuvent pas envoyer d'e-mails dans les clients de messagerie. It’s impossible because we block port 25, which is used for outgoing emails, and thus reinsure against spam. However, sending emails with web email services works perfectly well. And on AdGuard VPN for Android you can add apps to exclusions so that email apps will function as well.
 
 At the same time you can purchase a subscription to get an unlimited version of the app. A subscription allows to have more benefits in comparison with a free account:
 
