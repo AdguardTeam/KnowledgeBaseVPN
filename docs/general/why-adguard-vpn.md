@@ -62,7 +62,7 @@ AdGuard VPN offers five simultaneous connections to its paid users. We place spe
 ## 11. Secure streaming 
 Streaming services don't like VPNs for obvious reasons: according to statistics, about 20% of users install a VPN mainly to watch shows, TV shows and movies bypassing geo-blocking. That's why streaming platforms tend to do everything they can to track VPN traffic and block it.
 
-But what if you want to feel safe while watch content specific to your region? Or don't want stop watchig exciting series even when you travel to another country? The answer is simple — AdGuard VPN, which thanks to its unique protocol can remain invisible to services.
+But what if you want to feel safe while watch content specific to your region? Or don't want stop watching exciting series even when you travel to another country? The answer is simple — AdGuard VPN, which thanks to its unique protocol can remain invisible to services.
 
 > We don't endorse the use of AdGuard VPN to bypass copyright regulations.
 
