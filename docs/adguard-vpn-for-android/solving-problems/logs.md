@@ -21,11 +21,11 @@ By default, AdGuard VPN for Android uses the **Default** logging level, that is,
 
 ## Collecting and sending extended logs
 
-In most cases, the **Default** logging level is sufficient to trace down possible bugs. But there are cases when more detailed technical information about the device and connections is required, and then our support team will ask you to enable the **Extened** or **Extreme** logging level. To send these types of logs, follow these steps:
+In most cases, the **Default** logging level is sufficient to trace down possible bugs. But there are cases when more detailed technical information about the device and connections is required, and then our support team will ask you to enable the **Extended** or **Extreme** logging level. To send these types of logs, follow these steps:
 
 1. Open AdGuard VPN for Android and select **Settings** (the gear icon at the bottom right corner) → **App Settings** → **Advanced Settings** → **Logging level**.
 
-2. In the **Logging level** section, select **Extened** or **Extreme** logging level.
+2. In the **Logging level** section, select **Extended** or **Extreme** logging level.
 
 3. Repeat the actions that led to the error and note the time when it occurred.
 
