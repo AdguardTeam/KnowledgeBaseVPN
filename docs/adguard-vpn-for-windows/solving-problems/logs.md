@@ -25,7 +25,7 @@ By default, AdGuard VPN for Windows uses the standard logging level, that is, th
 
 ## Collecting and sending extended logs
 
-In most cases, the default logging level is sufficient to trace down possible bugs. But there are cases when more detailed technical information about the device and connections is required, and then our support team will ask you to enable the extened logging level. To send this type of logs, follow these steps:
+In most cases, the default logging level is sufficient to trace down possible bugs. But there are cases when more detailed technical information about the device and connections is required, and then our support team will ask you to enable the extended logging level. To send this type of logs, follow these steps:
 
 1. Open AdGuard VPN for Windows and select **Settings** (in the menu above) → **General** → **Advanced settings**.
 
