@@ -36,7 +36,7 @@ You can [find here](https://support.google.com/a/answer/6223444?hl=en) how to ma
 
 ### LG ve Samsung cihazları
 
-Owners of **LG** or **Samsung** phones may also encounter a similar issue. It can be caused by using **Dual App/Dual Messenger** function (which automatically creates a restricted profile). Bu sorunu çözmek için bu özelliği devre dışı bırakmanız gerekir.
+**LG** veya **Samsung** telefon sahipleri de benzer bir sorunla karşılaşabilir. It can be caused by using **Dual App/Dual Messenger** function (which automatically creates a restricted profile). Bu sorunu çözmek için bu özelliği devre dışı bırakmanız gerekir.
 
 #### Samsung
 

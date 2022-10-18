@@ -96,6 +96,6 @@ Kullanıcıların başarısı bizim için yüksek önceliktir. So there is a var
 
 ## Abonelik
 
-AdGuard VPN'in ücretsiz sürümünü kullanıyorsanız, alt sekme çubuğunda ok simgesi olan dördüncü sekme olacaktır. In this section you will find brief information about the main advantages of the paid version of the app and will be able to buy a subscription.
+AdGuard VPN'in ücretsiz sürümünü kullanıyorsanız, alt sekme çubuğunda ok simgesi olan dördüncü sekme olacaktır. Bu bölümde, uygulamanın ücretli sürümünün temel avantajları hakkında kısa bilgiler bulur ve bir abonelik satın alabilirsiniz.
 
 ![Abonelik](https://cdn.adguard.com/content/kb/vpn/ios/subscription_en.png?123)

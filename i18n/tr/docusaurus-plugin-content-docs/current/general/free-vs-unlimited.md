@@ -11,11 +11,11 @@ AdGuard VPN'i ücretsiz olarak kullanabilirsiniz, ancak o zaman belirli kısıtl
 * Yalnızca bazı sunucu konumları kullanılabilir
 * E-posta istemcileri mesaj göndermek için kullanılamaz (iOS ve Android'de)
 
-> The last point should be addressed separately: free users of AdGuard VPN for iOS and Android cannot send emails in email clients. It’s impossible because we block port 25, which is used for outgoing emails, and thus reinsure against spam. Ancak, web e-posta hizmetleriyle e-posta göndermek mükemmel bir şekilde çalışır. Ve Android için AdGuard VPN'de, e-posta uygulamalarının da çalışması için istisnalara uygulamalar ekleyebilirsiniz.
+> Son nokta ayrıca ele alınmalıdır: iOS ve Android için ücretsiz AdGuard VPN kullanıcıları e-posta istemcilerinde e-posta gönderemez. Giden e-postalar için kullanılan 25 numaralı bağlantı noktasını engellediğimiz ve böylece istenmeyen postalara karşı güvence sağladığımız için bu imkansız. Ancak, web e-posta hizmetleriyle e-posta göndermek mükemmel bir şekilde çalışır. Ve Android için AdGuard VPN'de, e-posta uygulamalarının da çalışması için istisnalara uygulamalar ekleyebilirsiniz.
 
 Aynı zamanda, uygulamanın sınırsız bir sürümünü almak için bir abonelik satın alabilirsiniz. Bir abonelik, ücretsiz bir hesaba kıyasla daha fazla avantaja sahip olmanızı sağlar:
 
-* 5 simultaneously connected devices
+* Aynı anda bağlı 5 cihaz
 * Sınırsız veri
 * Hız sınırı yok
 * 50'den fazla konumun tümü kullanılabilir
