@@ -1,28 +1,28 @@
 ---
-title: 'What type of encryption is used in AdGuard VPN'
+title: 'Jaký typ šifrování je používán v AdGuard VPN'
 sidebar_position: 7
 ---
 
-## Introduction
+## Úvod
 
-Encryption is the reason the word "private" exists in the term "Virtual Private Network". A VPN creates a tunnel between your device and a VPN server, passing through which your data gets encrypted and then enters the open Internet in a secure form. The process of encryption, i.e. turning data into gibberish that no one who intercepts it can read, is essential to any VPN service.
+Šifrování je důvodem, proč se v pojmu "virtuální privátní síť" vyskytuje slovo "privátní". VPN vytvoří mezi vaším zařízením a serverem VPN tunel, přes který se vaše data zašifrují a poté se v zabezpečené podobě dostanou do otevřeného internetu. Proces šifrování, tj. přeměny dat na "nesmysly", které nikdo, kdo je zachytí, nemůže přečíst, je pro každou službu VPN zásadní.
 
-AdGuard VPN protocol uses the most secure and fast encryption algorithm to date – AES-256. Learn what it is and why it is so good.
+Protokol AdGuard VPN používá dosud nejbezpečnější a nejrychlejší šifrovací algoritmus – AES-256. Zjistěte, co to je a proč je to tak dobré.
 
-## AES historical tour
+## Historie AES
 
-AES (Advanced Encryption Standard) encryption was developed in the late 20th century at the U.S. government request: the existing Data Encryption Standard (DES) became obsolete and a new, more secure encryption algorithm was required.
+Šifrování AES (Advanced Encryption Standard) bylo vyvinuto na konci 20. století na žádost americké vlády: Stávající standard DES (Data Encryption Standard) zastaral a bylo zapotřebí nového, bezpečnějšího šifrovacího algoritmu.
 
-In a public competition announced by the government won the Rijndael cipher — rather similar to DES but much more sophisticated. In 2002 it was renamed AES and published by the U.S. National Institute of Standards and Technology.
+Ve veřejné soutěži vyhlášené vládou zvítězila šifra Rijndael — dosti podobná DES, ale mnohem sofistikovanější. V roce 2002 byl přejmenován na AES a vydáván americkým Národním institutem pro standardy a technologie.
 
-Today, AES is the industry standard for encryption. Because of its open nature, it is used by the NSA and government agencies, as well as private, commercial, and non-profit organizations.
+AES je dnes průmyslovým standardem pro šifrování. Vzhledem k jeho otevřené povaze ho používá NSA a vládní agentury, stejně jako soukromé, komerční a neziskové organizace.
 
-## How AES-256 works
+## Jak funguje AES-256
 
-AES is a block cipher with a symmetric key. As a symmetric-key cipher, it requires only one secret key to encrypt and decrypt the data. As a block cipher, AES divides the unencrypted information, which is called plaintext, into blocks, splits the original cryptographic key into several ones and applies them to each block. In the end, a ciphertext, i.e. an encrypted text, is obtained.
+AES je šifra bloků se symetrickým klíčem. Jako šifra se symetrickým klíčem vyžaduje k šifrování a dešifrování dat pouze jeden tajný klíč. Jako šifra bloků, rozděluje AES nešifrované informace, které se nazývají otevřený text, do bloků, původní kryptografický klíč rozdělí na několik a použije je na každý blok. Nakonec se získá text šifry, tj. zašifrovaný text.
 
-There are different key sizes — 128, 192 and 256 bits — and the blocks are also measured in bits. During the encryption process, the encryptor replaces each piece of information with another, depending on the security key. So, for example, AES-256 creates 256 blocks of ciphertext from 256 blocks of plaintext in 14 rounds.
+Existují různé velikosti klíčů — 128, 192 a 256 bitů — bloky se také měří v bitech. Během šifrování nahrazuje šifrovač každou informaci jinou v závislosti na bezpečnostním klíči. Například AES-256 vytvoří 256 bloků šifrovaného textu z 256 bloků prostého textu ve 14 kolech.
 
-The rounds consist of several steps: splitting the data into blocks, swapping bytes, shifting rows and rearranging columns. The result is a completely random set of characters, which will only make sense with an encryption key.
+Kola se skládají z několika kroků: rozdělení dat do bloků, prohození bajtů, posunutí řádků a přeskupení sloupců. Výsledkem je zcela náhodná sada znaků, která bude dávat smysl pouze s šifrovacím klíčem.
 
-AES-256 is the strongest level of encryption: to break this cipher, a bad actor will have to try 2256 discrete combinations, each consisting of 78 digits.
+AES-256 je nejsilnější úrovní šifrování: k prolomení této šifry bude muset zlý činitel vyzkoušet 2256 diskrétních kombinací, z nichž každá se skládá ze 78 číslic.
