@@ -1,13 +1,13 @@
 ---
-title: Compatibility with AdGuard Ad Blocker
+title: Compatibilidad con AdGuard Ad Blocker
 sidebar_position: 3
 ---
 
 
-AdGuard VPN has the General operating mode enabled by default, which uses its own [AdGuard VPN protocol](/general/adguard-vpn-protocol.mdx). It provides the best combination of connection speed and security. However, this operating mode does not allow AdGuard VPN and AdGuard Ad Blocker to work simultaneously. The Compatibility mode, in turn, uses the IPsec protocol, which makes it possible for the AdGuard applications to work together. If you already have AdGuard Ad Blocker when installing AdGuard VPN, this mode will turn on automatically and allow you to use our applications at the same time. If you first installed AdGuard VPN, and only then decided to try AdGuard Ad Blocker, then to use them together, follow these steps:
+AdGuard VPN tiene activado por defecto el modo de funcionamiento General, que utiliza su propio protocolo [AdGuard VPN](/general/adguard-vpn-protocol.mdx). Proporciona la mejor combinación de velocidad de conexión y seguridad. Sin embargo, este modo de funcionamiento no permite que AdGuard VPN y AdGuard Ad Blocker funcionen simultáneamente. El modo de compatibilidad, a su vez, utiliza el protocolo IPsec, lo que hace posible que las aplicaciones de AdGuard funcionen juntas. Si ya tiene AdGuard Ad Blocker al instalar AdGuard VPN, este modo se activará automáticamente y le permitirá utilizar nuestras aplicaciones al mismo tiempo. Si primero instaló AdGuard VPN, y solo entonces decidió probar AdGuard Ad Blocker, para usarlos juntos, siga estos pasos:
 
-1. Open AdGuard VPN for Android and select the gear icon at the bottom right of the screen.
+1. Abra AdGuard VPN para Android y seleccione el icono del engranaje en la parte inferior derecha de la pantalla.
 
-2. Go to "Advanced settings" and select "Operating mode".
+2. Vaya a "Configuración avanzada" y seleccione "Modo de funcionamiento".
 
-3. Switch the mode from to *Compatibility mode with AdGuard*. ¡Listo!
+3. Cambie el modo de a *Modo de compatibilidad con AdGuard*. ¡Listo!

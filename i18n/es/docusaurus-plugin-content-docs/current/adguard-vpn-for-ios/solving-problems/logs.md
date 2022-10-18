@@ -20,21 +20,21 @@ Por defecto, AdGuard VPN para iOS utiliza el nivel de registro estándar, es dec
 
 ## Recopilación y envío de registros extendidos
 
-In most cases, the default logging level is sufficient to trace down possible bugs. But there are cases when more detailed technical information about the device and connections is required, and then our support team will ask you to enable the extened logging level. To send this type of logs, follow these steps:
+En la mayoría de los casos, el nivel de registro predeterminado es suficiente para rastrear posibles errores. Pero hay casos en los que se requiere información técnica más detallada sobre el dispositivo y las conexiones, por ello nuestro equipo de soporte le pedirá que active el nivel de registro ampliado. Para enviar este tipo de registros, siga estos pasos:
 
-1. Open AdGuard VPN for iOS and select "Settings" in the lower-right corner of the screen.
+1. Abra AdGuard VPN para iOS y seleccione "Ajustes" en la esquina inferior derecha de la pantalla.
 
-2. Select "App settings" and "Advanced settings" in it.
+2. En ella, seleccione "Ajustes de la aplicación" y "Ajustes avanzados".
 
-3. In the "Logging level" section, select "Extended".
+3. En la sección "Nivel de registro", seleccione "Extendido".
 
-4. Repeat the actions that led to the error, and note the time when it occurred.
+4. Repita las acciones que llevaron al error y anote la hora en que se produjo.
 
-5. Switch the logging level back to "Default".
+5. Vuelva a cambiar el nivel de registro a "Predeterminado".
 
-6. Then go back to the main section "Settings", select "Support" and then "Report a bug".
+6. A continuación, vuelve a la sección principal "Configuración", selecciona "Soporte" y luego "Informar de un error".
 
-7. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred.
+7. En el formulario, introduzca su dirección de correo electrónico para recibir comentarios y describa el error encontrado, incluyendo la hora en que se produjo.
 
-8. Make sure that there is a check mark next to "Submit detailed system info" and click "Submit a report".
-> If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, select "Export logs" in the "Support" section.
+8. Asegúrese de que haya una marca de verificación junto a "Enviar información detallada del sistema" y haga clic en "Enviar un informe".
+> Si por algún motivo le resulta más cómodo enviarnos los logs de otra forma, puede exportarlos usted mismo. Para hacerlo, seleccione "Exportar registros" en la sección "Soporte".

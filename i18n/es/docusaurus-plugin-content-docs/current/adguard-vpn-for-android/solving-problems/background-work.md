@@ -1,8 +1,8 @@
 ---
-title: How to protect AdGuard VPN from being disabled by the system
+title: Cómo evitar que AdGuard VPN sea desactivado por el sistema
 sidebar_position: 1
 ---
 
-Apps on Android devices may not always run stably in the background for various reasons, which may differ depending on the device model. This is most often due to Android OS optimization function, or so called "battery save mode". In such cases, the system closes apps in order to reduce the load and free up RAM.
+Las aplicaciones de los dispositivos Android no siempre se ejecutan de forma estable en segundo plano por diversos motivos, que pueden variar en función del modelo de dispositivo. Esto se debe en la mayoría de los casos a la función de optimización del sistema operativo Android, o al llamado "modo de ahorro de batería". En estos casos, el sistema cierra las aplicaciones para reducir la carga y liberar RAM.
 
-If AdGuard VPN is disabled on your device, your personal data will become vulnerable. To avoid such problem, you need to open [this link](https://kb.adguard.com/en/android/solving-problems/background-work) and follow the instructions for your device with one difference: wherever it is required, choose AdGuard VPN instead of AdGuard. 
+Si AdGuard VPN está deshabilitado en su dispositivo, sus datos personales se volverán vulnerables. Para evitar este problema, debe abrir [este enlace](https://kb.adguard.com/en/android/solving-problems/background-work) y seguir las instrucciones para su dispositivo con una diferencia: donde sea necesario, elija AdGuard VPN en lugar de AdGuard. 

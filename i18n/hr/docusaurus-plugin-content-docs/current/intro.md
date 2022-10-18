@@ -4,13 +4,13 @@ sidebar_position: 1
 slug: /
 ---
 
-## What a VPN is and why you need one
+## Što je VPN i zašto Vam je potreban
 
-A VPN allows you to create a secure connection to another network on the Internet.
+VPN Vam omogućuje uspostavljanje sigurne veze s nekom drugom mrežom na Internetu.
 
-Initially, VPNs were created for one purpose — to securely connect business networks over the Internet, so that people could connect to the corporate network from home. This technology is used for many other things: for example, to browse the Internet anonymously or to protect your online activity from prying eyes while using public Wi-Fi.
+Inicijalno su VPN-ovi kreirani s jednom svrhom - Sigurno povezivanje poslovnih mreža putem interneta kako bi se ljudi mogli povezati na poslovnu mrežu iz vlastitog doma. Ova se tehnologija koristi za mnoge druge stvari: Primjerice za anonimno pregledavanje interneta ili za zaštitu Vaših aktivnosti od znatiželjnih očiju dok koristite javnu Wi-Fi mrežu.
 
-A VPN connects a user's computer or mobile device to a server and allows one to browse the net using someone else's IP address. Thus, third-party observers cannot see the user's real IP address, which makes it nearly impossible to trace them.
+VPN spaja korisnikovo računalo ili mobilni uređaj na poslužitelj i omogućava da osoba pregledava internet koristeći nečiju tuđu IP adresu. Stoga promatrači treće strane ne mogu vidjeti korisnikovu stvarnu IP adresu, zbog čega je gotovo nemoguće pratiti korisnika.
 
 Speaking of VPN, the first thing they mention is traffic encryption and security deriving from it. But what does it mean? A VPN creates an encrypted tunnel between the user's device and the remote server. All your web traffic passes through this tunnel, so your data is protected along the way. For the external observer, your traffic exits the VPN server, so it looks like your device has the IP address of this server. This trick masks the user's identity and true location.
 

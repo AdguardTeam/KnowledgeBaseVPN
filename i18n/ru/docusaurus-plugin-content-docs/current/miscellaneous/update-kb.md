@@ -19,7 +19,7 @@ sidebar_position: 3
 
 ## Переводы статей {#translate-adguard}
 
-Translation of the existing articles of the Knowledge Base is carried out on [the Crowdin platform](https://crowdin.com/project/adguard-vpn-knowledge-base). Все подробности о переводах статей и работе с Crowdin можно найти [в соответствующей статье](https://kb.adguard.com/en/general/adguard-translations) Базы знаний блокировщика рекламы AdGuard.
+Cуществующие статьи Базы знаний можно перевести на [платформе Crowdin](https://crowdin.com/project/adguard-vpn-knowledge-base). Все подробности о переводах статей и работе с Crowdin можно найти [в соответствующей статье](https://kb.adguard.com/en/general/adguard-translations) Базы знаний блокировщика рекламы AdGuard.
 
 Работая над статьями Базы знаний AdGuard VPN, вы наверняка встретите строки, содержащие формы множественного числа, которые следует переводить с особой аккуратностью. [В отдельной статье](https://kb.adguard.com/en/miscellaneous/plurals) мы подробно описали трудности, которые могут возникнуть при переводе таких строк, и дали исчерпывающие инструкции по работе с ними на платформе Crowdin (на английском языке).
 

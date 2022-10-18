@@ -1,22 +1,22 @@
 ---
-title: Features overview
+title: 功能概述
 sidebar_position: 1
 ---
 
-AdGuard VPN Browser extension is available for Chrome, Firefox, and Edge. The UI and functionality doesn't differ between browsers so the overview below will be relevant for AdGuard VPN extensions for all browsers.
+AdGuard VPN浏览器扩展可在Chrome 浏览器，火狐浏览器和Edge浏览器中使用。 UI 和功能在浏览器之间并没有区别，因此下面将概述所有与浏览器的 AdGuard VPN 。
 
-> Note that you can only use AdGuard VPN Browser extension when logged in. Sign in with your AdGuard account or via Google, Facebook, or Apple. In the latter case make sure that your account is bound to the same email address as your AdGuard account. If you have an [AdGuard VPN subscription](/general/subscription.md), it will be activated automatically in AdGuard VPN Browser extension. Don’t have an AdGuard account yet? [Create it here](https://auth.adguard.com/registration.html).
+> 请注意，您只能在登录 AdGuard VPN 时使用浏览器扩展。 你可以使用 AdGuard 帐户或通过 Google、Facebook 或 Apple 登录。 在后一种情况下，请确保您的帐户与 AdGuard 帐户绑定相同的电子邮件地址。 如果您有 [AdGuard VPN 订阅](/general/subscription.md)，它将会在 AdGuard VPN 浏览器扩展中自动激活。 如果你没有AdGuard账户， [请点击这里。](https://auth.adguard.com/registration.html)。
 
-To manage your AdGuard VPN Browser extension, either
+要管理您的 AdGuard VPN 浏览器扩展，请：
 
-* Click its icon on the browser's panel, then click three stripes and select *Settings*, or
-* Go to your browser's *Manage extensions* page and enter the AdGuard VPN's settings from there.
+* 单击浏览器面板上的图标，然后单击三个条纹并选择 *设置*
+* 转到浏览器的 *管理扩展* 页面，然后从那里设置你的 AdGuard VPN 。
 
-Once done, you'll see several tabs on the left:
+完成后，您将看到几个在左侧的选项卡：
 
-## Settings
+## 设置
 
-A few important settings are gathered inside this tab. Here you can choose a DNS server to use, add or remove the AdGuard VPN icon from the browser’s context menu, block WebRTC, change the extension's theme, and allow AdGuard to gather anonymized crash reports and technical data.
+此选项卡中有一些重要设置。 Here you can choose a DNS server to use, add or remove the AdGuard VPN icon from the browser’s context menu, block WebRTC, change the extension's theme, and allow AdGuard to gather anonymized crash reports and technical data.
 
 ### Choosing a DNS server
 

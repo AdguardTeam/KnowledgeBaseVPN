@@ -7,25 +7,25 @@ To understand how AdGuard VPN works, you should at first understand the general 
 
 ## VPN 기능
 
-A VPN is a Virtual Private Network that helps hide your location and protect your data on the web. A VPN connects a computer or a mobile device to a VPN server and uses the IP address of this server to make it seem to an outside observer that you are in another place. This allows you to securely access various Internet resources and protect your personal data.
+VPN은 위치를 숨기고 웹에서 데이터를 보호하는 데 도움이 되는 가상 사설망입니다. VPN은 컴퓨터나 모바일 기기를 VPN 서버에 연결하고 이 서버의 IP 주소를 사용하여 외부 관찰자에게 사용자가 다른 장소에 있는 것처럼 보이게 합니다. This allows you to securely access various Internet resources and protect your personal data.
 
-In that way, a VPN performs two important functions:
+그런 식으로 VPN은 두 가지 중요한 기능을 수행합니다.
 
-1. **Maintaining anonymity**
+1. **익명성 유지**
 
-Using an Internet connection, the user leaves their digital footprint, which can then be analyzed and used by third parties. For example, one of the online stores that you have visited can save your search history and then offer you their products based on it through targeted advertising. Or the secret services, having learned your location through the IP address of your device and having determined your identity, can secretly monitor your activity on the web. In addition, web browsers and ISPs themselves can use your browsing history for their own purposes, as well as sell it to advertisers and provide it to government institutions. VPN allows you to hide your IP address and replace it with the IP address of the VPN server to which you are connected. This way you will be able to maintain your privacy and anonymously search for information on the web.
+인터넷 연결을 사용하여 사용자는 디지털 발자국을 남기고 이를 제3자가 분석하고 사용할 수 있습니다. For example, one of the online stores that you have visited can save your search history and then offer you their products based on it through targeted advertising. Or the secret services, having learned your location through the IP address of your device and having determined your identity, can secretly monitor your activity on the web. In addition, web browsers and ISPs themselves can use your browsing history for their own purposes, as well as sell it to advertisers and provide it to government institutions. VPN을 사용하면 IP 주소를 숨기고 연결된 VPN 서버의 IP 주소로 바꿀 수 있습니다. 이렇게 하면 개인정보를 보호하고 웹에서 익명으로 정보를 검색할 수 있습니다.
 
-2. **Data protection**
+2. **데이터 보호**
 
-If you connect to an unreliable or public network, the data on your device may become vulnerable to cybercriminals. Bank card details, usernames and passwords, passport data — all this data can be intercepted by online fraudsters. The VPN tunnel encrypts the information that you send and receive from the web, so it can not fall into the wrong hands.
+신뢰할 수 없거나 공용 네트워크에 연결하면 기기의 데이터가 사이버 범죄자에게 취약해질 수 있습니다. 은행 카드 세부 정보, 사용자 이름 및 비밀번호, 여권 데이터와 같은 모든 데이터는 온라인 사기범이 가로챌 수 있습니다. VPN 터널을 통해 웹으로 송수신되는 정보는 암호화되어 유출될 수 없습니다.
 
-## VPN structure
+## VPN 구조
 
-네트워크에 연결하면 컴퓨터나 모바일 장치에 고유한 ID 번호 또는 IP 주소가 할당됩니다. It usually consists of numbers from 0 to 255, separated by dots or colons. Knowing this sequence, one can determine the geolocation of the device. The IP address is usually set by your ISP, and it will be visible all the way to the desired resource. For this reason, the web server of the site you are visiting can register your IP address and record what you have requested. This record can then be used primarily for data collection and traffic analysis.
+네트워크에 연결하면 컴퓨터나 모바일 장치에 고유한 ID 번호 또는 IP 주소가 할당됩니다. 일반적으로 0에서 255까지의 숫자로 구성되며 점이나 콜론으로 구분됩니다. Knowing this sequence, one can determine the geolocation of the device. The IP address is usually set by your ISP, and it will be visible all the way to the desired resource. For this reason, the web server of the site you are visiting can register your IP address and record what you have requested. 이 기록은 주로 데이터 수집 및 트래픽 분석에 사용할 수 있습니다.
 
-A VPN creates a tunnel between your device and the VPN server. Your data goes through this tunnel, gets encrypted and then enters the open Internet in a secure form. Therefore, it will seem to the web server that your device has no longer your real IP address, but the IP address of the endpoint of the tunnel, that is, the VPN server. Thus, the site that you get to after passing through the VPN tunnel will consider the geolocation of the VPN server you selected as your real location. And the encrypted data will not fall into the hands of advertisers, hackers and security services.
+VPN은 기기와 VPN 서버 사이에 터널을 생성합니다. Your data goes through this tunnel, gets encrypted and then enters the open Internet in a secure form. 따라서 웹 서버에는 장치에 더 이상 실제 IP 주소가 없는 것처럼 보이지만 터널의 끝점, 즉 VPN 서버의 IP 주소가 있습니다. 따라서 VPN 터널을 통과한 후 도달하는 사이트는 선택한 VPN 서버의 지리적 위치를 실제 위치로 간주합니다. And the encrypted data will not fall into the hands of advertisers, hackers and security services.
 
-![VPN structure](https://cdn.adguard.com/public/Adguard/Website/Images/seo/en/how_vpn_3.jpg)
+![VPN 구조](https://cdn.adguard.com/public/Adguard/Website/Images/seo/en/how_vpn_3.jpg)
 
 ## Types of VPN protocols
 
@@ -57,28 +57,28 @@ Since your traffic does not go directly to the web server, but first passes thro
 
 Some online services make a lot of effort to detect VPN traffic and block access to VPN users. However, not many VPNs can mask their traffic as regular. Therefore, many attempts to go to a particular website without disabling VPN end up in nothing.
 
-**VPN connections breaking**
+**VPN 연결 끊김**
 
 A weak signal, network overload, VPN incompatibility with a firewall, antivirus and other programs, an outdated VPN protocol — all this can cause a sudden failure in the VPN connection, especially by unreliable VPN providers.
 
 ## AdGuard VPN
 
-Our VPN service has several important [advantages](why-adguard-vpn.md):
+우리의 VPN 서비스에는 몇 가지 중요한 [장점](why-adguard-vpn.md)이 있습니다.
 
 * [*Proprietary VPN protocol*](adguard-vpn-protocol.mdx), which works stably even with a slow Internet connection and disguises itself as normal traffic, making it more difficult to track and block it
 
 * [*"No-logs" policy*](https://adguard-vpn.com/en/privacy.html), which means that AdGuard VPN does not collect your personal data and does not transfer it to third parties
 
-* *More than 50 VPN servers in dozens of countries*
+* *수십 개국에 있는 50개 이상의 VPN 서버*
 
 * *Ease of use and extensive customization options*
 
 Currently, AdGuard VPN is available as:
 
-* [Browser extension](../adguard-vpn-browser-extension/overview.md) for Chrome, Firefox, and Edge
+* Chrome, Firefox 및 Edge용 [확장 프로로그램](../adguard-vpn-browser-extension/overview.md)
 
-* Mobile app for [Android](../adguard-vpn-for-android/overview.md) and [iOS](../adguard-vpn-for-ios/overview.md)
+* [Android](../adguard-vpn-for-android/overview.md) 및 [iOS](../adguard-vpn-for-ios/overview.md)용 모바일 앱
 
-* Desktop application for [Windows](../adguard-vpn-for-windows/overview.md) and [Mac](../adguard-vpn-for-mac/overview.md)
+* [Windows](../adguard-vpn-for-windows/overview.md) 및 [Mac](../adguard-vpn-for-mac/overview.md)용 데스크탑 애플리케이션
 
-You can learn more about AdGuard VPN features (including the unlimited version) [here](https://adguard-vpn.com/en/welcome.html).
+[여기](https://adguard-vpn.com/en/welcome.html)에서 AdGuard VPN 기능(무제한 버전 포함)에 대해 자세히 알아볼 수 있습니다.

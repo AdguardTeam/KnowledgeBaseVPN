@@ -20,19 +20,19 @@ Por defecto, AdGuard VPN para Android utiliza el nivel de registro **Default**, 
 
 ## Recopilación y envío de registros extendidos
 
-En la mayoría de los casos, el nivel de registro **Default** es suficiente para rastrear posibles errores. But there are cases when more detailed technical information about the device and connections is required, and then our support team will ask you to enable the **Extened** or **Extreme** logging level. To send these types of logs, follow these steps:
+En la mayoría de los casos, el nivel de registro **Default** es suficiente para rastrear posibles errores. Pero hay casos en los que se requiere información técnica más detallada sobre el dispositivo y las conexiones. Nuestro equipo de asistencia te pedirá que active el nivel de registro **Ampliado** o **Extremo** . Para enviar este tipo de registros, siga estos pasos:
 
-1. Open AdGuard VPN for Android and select **Settings** (the gear icon at the bottom right corner) → **App Settings** → **Advanced Settings** → **Logging level**.
+1. Abra AdGuard VPN para Android y seleccione **Configuración** (el icono del engranaje en la esquina inferior derecha) → **Configuración de la aplicación** → **Configuración avanzada** → **Nivel de registro**.
 
-2. In the **Logging level** section, select **Extened** or **Extreme** logging level.
+2. En la sección **Nivel de registro**, seleccione **Ampliado** o **Extremo**.
 
-3. Repeat the actions that led to the error and note the time when it occurred.
+3. Repita las acciones que condujeron al error y anote la hora en que ocurrió.
 
-4. Switch the logging level back to **Default**.
+4. Vuelva a cambiar el nivel de registro a **Predeterminado**.
 
-5. Then open **Settings** by tapping the gear icon at the lower right corner → **Support** → **Report a bug**.
+5. Luego abra **Configuración** tocando el ícono de ajustes en la esquina inferior derecha → **Soporte** → **Reportar un error**.
 
-6. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred.
+6. En el formulario, introduzca su dirección de correo electrónico para recibir comentarios y describa el error encontrado, incluyendo la hora en que se produjo.
 
-7. Make sure that there is a check mark next to **Send detailed system info** and tap **Send**.
-> If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, go to **Settings** → **Support** → **Export logs and system info**.
+7. Asegúrese de que haya una marca de verificación junto a **enviar información detallada del sistema** y toque **Enviar**.
+> Si por algún motivo le resulta más cómodo enviarnos los logs de otra forma, puede exportarlos usted mismo. Para ello, vaya a **Configuración** → **Soporte** → **Exportar registros e información del sistema**.

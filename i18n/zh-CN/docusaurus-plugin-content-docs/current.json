@@ -4,11 +4,11 @@
     "description": "The label for version current"
   },
   "sidebar.sidebar.category.General": {
-    "message": "General",
+    "message": "常规",
     "description": "The label for category General in sidebar sidebar"
   },
   "sidebar.sidebar.category.Public DNS": {
-    "message": "Public DNS",
+    "message": "公共 DNS",
     "description": "The label for category Public DNS in sidebar sidebar"
   },
   "sidebar.sidebar.category.Solving problems": {
@@ -16,31 +16,31 @@
     "description": "The label for category Solving problems in sidebar sidebar"
   },
   "sidebar.sidebar.category.Private DNS": {
-    "message": "Private DNS",
+    "message": "私人 DNS",
     "description": "The label for category Private DNS in sidebar sidebar"
   },
   "sidebar.sidebar.category.Miscellaneous": {
-    "message": "Miscellaneous",
+    "message": "其它",
     "description": "The label for category Miscellaneous in sidebar sidebar"
   },
   "sidebar.sidebar.category.AdGuard VPN for Android": {
-    "message": "AdGuard VPN for Android",
+    "message": "AdGuard VPN 安卓版",
     "description": "The label for category AdGuard VPN for Android in sidebar sidebar"
   },
   "sidebar.sidebar.category.AdGuard VPN for iOS": {
-    "message": "AdGuard VPN for iOS",
+    "message": "AdGuard VPN iOS版",
     "description": "The label for category AdGuard VPN for iOS in sidebar sidebar"
   },
   "sidebar.sidebar.category.AdGuard VPN for Windows": {
-    "message": "AdGuard VPN for Windows",
+    "message": "AdGuard VPN Windows版",
     "description": "The label for category AdGuard VPN for Windows in sidebar sidebar"
   },
   "sidebar.sidebar.category.AdGuard VPN for Mac": {
-    "message": "AdGuard VPN for Mac",
+    "message": "AdGuard VPN Mac版",
     "description": "The label for category AdGuard VPN for Mac in sidebar sidebar"
   },
   "sidebar.sidebar.category.AdGuard VPN browser extensions": {
-    "message": "AdGuard VPN browser extensions",
+    "message": "AdGuard VPN 浏览器扩展",
     "description": "The label for category AdGuard VPN browser extensions in sidebar sidebar"
   }
 }

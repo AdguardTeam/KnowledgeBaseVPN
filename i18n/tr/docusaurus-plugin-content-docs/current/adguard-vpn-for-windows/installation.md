@@ -1,27 +1,27 @@
 ---
-title: How to install and uninstall
+title: Nasıl kurulur ve kaldırılır
 sidebar position: 2
 ---
 
 
-## System requirements
+## Sistem gereksinimleri
 
-AdGuard VPN can only be installed on devices with **Microsoft Windows 10/8.1/8/7/Vista SP2 (web-based only)**.
-
-
-## AdGuard VPN for Windows installation
-
-To install AdGuard VPN for Windows, visit [our website](https://adguard-vpn.com/en/welcome.html) and click the *Download* button. After it, the `adguardVPNInstaller.exe` will be downloaded. Run the installer and follow its instructions. The process will take less than a minute.
-
-Then you will need to check the box to accept the terms of the EULA and the Privacy Policy. And in the last step of the installation, you will be prompted to authorize via your AdGuard account or via social networks (Google, Apple, Facebook).
+AdGuard VPN yalnızca **Microsoft Windows 10/8.1/8/7/Vista SP2 (yalnızca web tabanlı)** yüklü cihazlara kurulabilir.
 
 
-## AdGuard VPN for Windows uninstallation
+## Windows için AdGuard VPN kurulumu
 
-If you decide to remove AdGuard VPN from your computer, use one of three options listed below.
+Windows için AdGuard VPN'i kurmak için [sitemizi](https://adguard-vpn.com/en/welcome.html) ziyaret edin ve *İndir* düğmesine tıklayın. Ardından `adguardVPNInstaller.exe` indirilecektir. Kurulum programını çalıştırın ve talimatlarını takip edin. İşlem bir dakikadan az sürer.
 
-1. Click *Start* and find AdGuard VPN in the opened list. Right-click it and select *Uninstall*.
+Ardından, SKLS ve Gizlilik Politikasının şartlarını kabul etmek için kutuyu işaretlemeniz gerekir. Ve kurulumun son adımında AdGuard hesabınız veya sosyal ağlar (Google, Apple, Facebook) üzerinden yetkilendirme yapmanız istenecektir.
 
-2. Click *Start* -> *Settings* -> *Apps* -> *Applications and features*. Find AdGuard VPN in the list, click it and choose *Uninstall*.
 
-3. Open the *Control Panel*, then click *Programs* -> *Programs and Features* -> *Uninstall a program*. Find AdGuard VPN in the list, right-click it and select *Uninstall*.
+## Windows için AdGuard VPN kaldırma
+
+AdGuard VPN'i bilgisayarınızdan kaldırmaya karar verirseniz, aşağıda listelenen üç seçenekten birini kullanın.
+
+1. *Başla* öğesine tıklayın ve açılan listede AdGuard VPN'i bulun. Sağ tıklayın ve *Kaldır* öğesini seçin.
+
+2. Click *Start* -> *Settings* -> *Apps* -> *Applications and features*. Listede AdGuard VPN'i bulun, tıklayın ve *Kaldır* öğesini seçin.
+
+3. Open the *Control Panel*, then click *Programs* -> *Programs and Features* -> *Uninstall a program*. Listede AdGuard VPN'i bulun, sağ tıklayın ve *Kaldır* öğesini seçin.

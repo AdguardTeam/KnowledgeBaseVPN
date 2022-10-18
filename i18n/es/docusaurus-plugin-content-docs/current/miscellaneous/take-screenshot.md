@@ -30,7 +30,7 @@ En Android 8 y versiones posteriores también existe la posibilidad de tomar una
 
 Si este método no funciona, compruebe en *Configuración* > *Funciones avanzadas* para habilitar *Deslice la palma de la mano para capturar*.
 
-Además, siempre puede usar cualquier aplicación especial para tomar capturas de pantalla en sus dispositivos, por ejemplo: *Screenshot Easy*, *Screenshot Ultimate*, *Screenshot Snap*, etc.
+Además, siempre puedes utilizar alguna aplicación especial para hacer capturas de pantalla en tus dispositivos, por ejemplo —*Screenshot Easy*, *Screenshot Ultimate*, *Screenshot Snap*, etc.
 
 ### iOS
 
@@ -70,7 +70,7 @@ Windows 8 y 10 le permiten tomar una captura de pantalla muy rápidamente con un
 
 También hay un programa dedicado para tomar capturas de pantalla llamado *Herramienta Recortes* que puede encontrar a través del menú Inicio entre los programas estándar de su computadora. Herramienta Recortes le permite capturar cualquier área de su escritorio o toda la pantalla. Después de tomar una captura de pantalla con este programa, puede editar la imagen y guardarla en cualquier carpeta de su computadora.
 
-Además, también puede intentar usar diferentes aplicaciones para tomar capturas de pantalla en su computadora, como **PicPick**, **Nimbus Screenshot**, **Screenshot Captor**, **Snipaste**, **Monosnap** etc.
+Además, también puedes probar a utilizar diferentes aplicaciones para hacer capturas de pantalla en tu ordenador, como **PicPick**, **Nimbus Screenshot**, **Screenshot Captor**, **Snipaste**, **Monosnap**, etc.
 
 ### MacOS
 
