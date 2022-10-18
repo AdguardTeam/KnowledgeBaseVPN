@@ -1,40 +1,40 @@
 ---
-title: 'How to collect and send logs'
+title: 'Cómo recopilar y enviar registros'
 sidebar_position: 1
 ---
 
-If you encounter a problem when using AdGuard VPN for Mac, you can inform us about it by sending application logs.
+Si encuentra un problema al usar AdGuard VPN para Mac, puede informarnos al respecto enviando registros de la aplicación.
 
-## Collecting and sending standard logs
+## Recopilación y envío de registros estándar
 
-By default, AdGuard VPN for Mac uses the standard logging level, that is, the basic collection of data about running processes of the app. To send these logs, follow the next steps:
+De forma predeterminada, AdGuard VPN para Mac utiliza el nivel de registro estándar, es decir, la recopilación básica de datos sobre los procesos en ejecución de la aplicación. Para enviar estos registros, siga los siguientes pasos:
 
-1. Open AdGuard VPN for Mac and, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
+1. Abra AdGuard VPN para Mac y, si es posible, repita las acciones que provocaron el error. Tenga en cuenta la hora exacta en que se produjo este error.
 
-2. Click **Support** (in the menu above) → **Report a bug**.
+2. Haga clic en **Soporte** (en el menú superior) → **Informar de un error**.
 
-3. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred. If you can't reproduce the problem, specify as accurately as possible when it last occurred.
+3. En el formulario abierto, introduzca su dirección de correo electrónico para recibir comentarios y describa el error encontrado, incluyendo la hora en que se produjo. Si no puede reproducir el problema, especifique con la mayor precisión posible cuándo ocurrió por última vez.
 
-4. There is a check mark next to the **Attach technical logs**, which means that when you send a report, you also send logs.
-> If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, select **Settings** → **General** → **Export logs** in the **Actions** section on the right.
+4. Hay una marca de verificación junto a **Adjuntar registros técnicos**, lo que significa que cuando se envía un informe, también se envían los registros.
+> Si por alguna razón le resulta más cómodo enviarnos los registros de otra manera, puede exportarlos usted mismo. Para ello, seleccione **Configuración** → **General** → **Exportar registros** en la sección **Acciones** de la derecha.
 
-## Collecting and sending extended logs
+## Recopilación y envío de registros extendidos
 
-In most cases, the default logging level is sufficient to trace down possible bugs. But there are cases when more detailed technical information about the device and connections is required, and then our support team will ask you to enable the extended logging level. To send this type of logs, follow these steps:
+En la mayoría de los casos, el nivel de registro por defecto es suficiente para rastrear posibles errores. Pero hay casos en los que se requiere información técnica más detallada sobre el dispositivo y las conexiones, y entonces nuestro equipo de soporte le pedirá que active el nivel de registro ampliado. Para enviar este tipo de registros, siga estos pasos:
 
-1. Open AdGuard VPN for Mac and select **Settings** → **General** → **Advanced settings**.
+1. Abra AdGuard VPN para Mac y seleccione **Configuración** → **General** → **Configuración avanzada**.
 
-2. In the **Logging level** section, select **Record everything**.
+2. En la sección **Nivel de registro**, seleccione **Registrar todo**.
 
-3. Repeat the actions that led to the error, and note the time when it occurred.
+3. Repita las acciones que condujeron al error y anote la hora en que ocurrió.
 
-4. Switch the logging level back to **Record by default**.
+4. Vuelva a cambiar el nivel de registro a **Registro por defecto**.
 
-5. Then select **Support** (in the menu above) → **Report a bug**.
+5. A continuación, seleccione **Soporte** (en el menú superior) → **Informar de un error**.
 
-6. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred.
+6. En el formulario abierto, introduzca su dirección de correo electrónico para recibir comentarios y describa el error encontrado, incluyendo la hora en que se produjo.
 
-7. Make sure that there is a check mark next to **Attach technical logs** and click **Send**.
-> If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, select **Settings** → **General** → **Export logs** in the **Actions** section on the right.
+7. Asegúrese de que hay una marca de verificación junto a **Adjuntar registros técnicos** y haga clic en **Enviar**.
+> Si por alguna razón le resulta más cómodo enviarnos los registros de otra manera, puede exportarlos usted mismo. Para ello, seleccione **Configuración** → **General** → **Exportar registros** en la sección **Acciones** de la derecha.
 
-This section is updated regularly. If you have not found a solution to your problem in the articles given in this section, contact AdGuard technical support at support@adguard-vpn.com.
+Esta sección se actualiza regularmente. Si no ha encontrado una solución a su problema en los artículos proporcionados en esta sección, comuníquese con el soporte técnico de AdGuard en support@adguard-vpn.com.

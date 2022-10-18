@@ -1,5 +1,5 @@
 ---
-title: 'Bilgi Tabanının Güncellenmesi'
+title: 'Bilgi Tabanını güncelleme'
 sidebar_position: 3
 ---
 
@@ -11,18 +11,18 @@ Bu nedenle, tüm BT içeriğimizi [GitHub](https://github.com/AdguardTeam/Knowle
 
 Mevcut makalelerde değişiklik önerebilir ve yukarıda belirtilen GitHub'ın işlevselliğini kullanarak Bilgi Bankası'na yenilerini ekleyebilirsiniz. Platformla çalışma ilkelerine aşina değilseniz, [bu bölümdeki belgeleri](https://docs.github.com/en) okuyarak başlayın.
 
-Once you are ready to start, work in [the KnowledgeBaseVPN repository](https://github.com/AdguardTeam/KnowledgeBaseVPN). All texts in our Knowledge Base are written in `Markdown` markup language. Keep this in mind when editing or writing articles. Follow [this link](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) to learn more about Markdown syntax.
+Başlamaya hazır olduğunuzda, [KnowledgeBaseVPN deposunda](https://github.com/AdguardTeam/KnowledgeBaseVPN) çalışın. Bilgi Tabanımızdaki tüm metinler `Markdown` işaretleme dilinde yazılmıştır. Makaleleri düzenlerken veya yazarken bunu aklınızda bulundurun. Markdown söz dizimi hakkında daha fazla bilgi edinmek için [bu bağlantıyı](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) takip edin.
 
-The Knowledge Base website is built using Docusaurus 2 — a modern static website generator. When suggesting changes or additions, take into account that all documents must comply with the principles of the platform. You can read about them in [the guide available via this link](https://docusaurus.io/docs/category/guides).
+Bilgi Tabanı sitesi, modern bir statik site oluşturucu olan Docusaurus 2 kullanılarak oluşturulmuştur. Değişiklikler veya eklemeler önerirken, tüm belgelerin platformun ilkelerine uygun olması gerektiğini göz önünde bulundurun. Onlar hakkında [bu bağlantı aracılığıyla mevcut olan rehberde](https://docusaurus.io/docs/category/guides) okuyabilirsiniz.
 
-You can deploy this Knowledge Base locally to your computer to preview the changes you suggest. Detailed instructions on how to do this can be found [in the README.md file](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README.md) on this Knowledge Base's GitHub page.
+Önerdiğiniz değişiklikleri önizlemek için bu Bilgi Tabanını bilgisayarınıza yerel olarak konuşlandırabilirsiniz. Bunun nasıl yapılacağına ilişkin ayrıntılı talimatlar, bu Bilgi Tabanı'nın GitHub sayfasındaki [README.md dosyasında](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README.md) bulunabilir.
 
-## Translating articles {#translate-adguard}
+## Makaleleri çevirme {#translate-adguard}
 
-Translation of the existing articles of the Knowledge Base is carried out on [the Crowdin platform](https://crowdin.com/project/adguard-vpn-knowledge-base). All the details about translations and working with Crowdin can be found [in the dedicated article](https://kb.adguard.com/en/general/adguard-translations) of the AdGuard Ad Blocker Knowledge Base.
+Bilgi Tabanı'nın mevcut makalelerinin çevirisi [Crowdin platformunda](https://crowdin.com/project/adguard-vpn-knowledge-base) gerçekleştirilir. Çeviriler ve Crowdin ile çalışma ile ilgili tüm ayrıntılar AdGuard Reklam Engelleyici Bilgi Tabanı'nın [ilgili makalesinde](https://kb.adguard.com/en/general/adguard-translations) bulunabilir.
 
-When working on AdGuard VPN Knowledge Base articles, you may meet strings containing plural forms that you should translate with extra attention. [In a separate article](https://kb.adguard.com/en/miscellaneous/plurals), we described in detail the difficulties that can arise when translating strings with plural forms, and gave extensive instructions on how to work with them on the Crowdin platform.
+AdGuard VPN Bilgi Tabanı makaleleri üzerinde çalışırken, daha fazla dikkatle çevirmeniz gereken çoğul biçimler içeren dizelerle karşılaşabilirsiniz. [In a separate article](https://kb.adguard.com/en/miscellaneous/plurals), we described in detail the difficulties that can arise when translating strings with plural forms, and gave extensive instructions on how to work with them on the Crowdin platform.
 
-## Working on open issues
+## Açık sorunlar üzerinde çalışma
 
-Sometimes there exist [open tasks](https://github.com/AdguardTeam/KnowledgeBaseVPN/issues/) related to updating the Knowledge Base. You can help us speed up their completion [the same way](#suggest-change) you would suggest any other changes to this Knowledge Base. Choose any issue that you find appealing and start working on it. If you have any questions — you can ask them right in the comments to that issue.
+Bazen Bilgi Tabanının güncellenmesiyle ilgili [açık görevler](https://github.com/AdguardTeam/KnowledgeBaseVPN/issues/) vardır. Bu Bilgi Tabanında başka herhangi bir değişiklik önerdiğiniz gibi, [aynı şekilde](#suggest-change) onların tamamlanmasını hızlandırmamıza da yardımcı olabilirsiniz. İlgi çekici bulduğunuz herhangi bir konuyu seçin ve üzerinde çalışmaya başlayın. Herhangi bir sorunuz varsa — onlara doğrudan bu konudaki yorumlarda sorabilirsiniz.

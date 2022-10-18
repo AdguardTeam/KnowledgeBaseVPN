@@ -1,24 +1,24 @@
 ---
-title: 'AdGuard VPN beta test'
+title: 'AdGuard VPN beta testi'
 sidebar_position: 2
 ---
 
-There is an AdGuard VPN app for virtually every major platform out there, and we regularly release updates for all of them. This would not be possible without beta testing and, more importantly, beta testers. Want to become one? Here how you can do it.
+Hemen hemen her büyük platform için bir AdGuard VPN uygulaması var ve bunların tümü için düzenli olarak güncellemeler yayınlıyoruz. Bu, beta testi ve daha da önemlisi beta test kullanıcısı olmadan mümkün olmazdı. Bunlardan biri olmak ister misiniz? İşte bunu nasıl yapabileceğiniz.
 
-### How to become a beta tester
+### Beta test kullanıcısı nasıl olunur
 
 To become an AdGuard VPN beta tester, you only need a few things: the desire, the device on which you will install the app, and [this link](https://adguard-vpn.com/en/beta.html), by following which you will be able to download the latest beta or nightly version of AdGuard VPN!
 
-### How to report a bug
+### Hata nasıl bildirilir
 
-Let’s imagine it happened — you spotted a bug. Or maybe you just want to share your suggestion with developers? Anyway, there are several ways to let us know:
+Bunun olduğunu düşünelim — bir hata tespit ettiniz. Ya da sadece önerinizi geliştiricilerle paylaşmak mı istiyorsunuz? Neyse ki, bize bildirmenin birkaç yolu var:
 
-* Go to [forum.adguard.com](https://forum.adguard.com) and post there a new thread (or find an existing one) in [the 'Beta Testing' category of the forum](https://forum.adguard.com/index.php?categories/48/). Make sure to read [forum rules](https://forum.adguard.com/index.php?threads/14859/) first;
+* Go to [forum.adguard.com](https://forum.adguard.com) and post there a new thread (or find an existing one) in [the 'Beta Testing' category of the forum](https://forum.adguard.com/index.php?categories/48/). Önce [forum kurallarını](https://forum.adguard.com/index.php?threads/14859/) okuduğunuzdan emin olun;
 
-* Go to [GitHub](https://github.com/AdguardTeam/) and find a suitable repository. Create a new issue there and describe the bug/feature request in detail.
+* Go to [GitHub](https://github.com/AdguardTeam/) and find a suitable repository. Orada yeni bir sorun oluşturun ve hatayı/özellik talebini ayrıntılı olarak açıklayın.
 
-The above two methods are the most preferred, but you can use others if necessary:
+Yukarıdaki iki yöntem en çok tercih edilenlerdir, ancak gerekirse diğerlerini de kullanabilirsiniz:
 
-* Find us on various social media platforms, like [Facebook](https://www.facebook.com/AdguardEn/), [Reddit](https://www.reddit.com/r/Adguard/), etc. However, this is not the most efficient way to discuss technical matters.
+* [Facebook](https://www.facebook.com/AdguardEn/), [Reddit](https://www.reddit.com/r/Adguard/), vb. gibi çeşitli sosyal medya platformlarında bizi bulun. Ancak, bu teknik konuları tartışmanın en etkili yolu değildir.
 
-* Email our support team from the Support tab in the app or write directly to [support@adguard.com](mailto:support@adguard.com).
+* Uygulamadaki Destek sekmesinden destek ekibimize e-posta gönderin veya doğrudan [support@adguard.com](mailto:support@adguard.com) adresine yazın.

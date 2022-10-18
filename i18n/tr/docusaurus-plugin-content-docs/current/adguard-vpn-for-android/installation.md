@@ -1,28 +1,28 @@
 ---
-title: Installation and removal
+title: Kurulum ve kaldırma
 sidebar_position: 2
 ---
 
-## System requirements
+## Sistem gereksinimleri
 
-AdGuard VPN can only be installed on Android devices with **Android 5.0.0 or later versions**.
+AdGuard VPN, yalnızca **Android 5.0.0 veya sonraki sürümlere sahip** Android cihazlara yüklenebilir.
 
-## How to install AdGuard VPN for Android
+## Android için AdGuard VPN nasıl yüklenir
 
-You can download and install the *AdGuard VPN for Android* app for free in *Goodle Play*. To do this, follow [this link](https://play.google.com/store/apps/details?id=com.adguard.vpn) and tap the *Download* icon or follow a few simple steps:
+*Android için AdGuard VPN* uygulamasını *Google Play'den* ücretsiz olarak indirebilir ve yükleyebilirsiniz. Bunu yapmak için [bu bağlantıyı](https://play.google.com/store/apps/details?id=com.adguard.vpn) takip edin ve *İndir* simgesine dokunun veya birkaç basit adımı takip edin:
 
-1. Open the *Google Play* app on your device and tap *Search* at the top of the screen.
+1. Cihazınızda *Google Play* uygulamasını açın ve ekranın üst kısmındaki* Ara* öğesine dokunun.
 
-2. Next, in the search bar, start typing *"AdGuard"* and select *"adguard vpn"* from the list of suggested options.
+2. Ardından, arama çubuğuna *"AdGuard"* yazmaya başlayın ve önerilen seçenekler listesinden *"adguard vpn"* öğesini seçin.
 
-3. Select *AdGuard VPN - private proxy* from the list of suggested applications and tap *Download*.
+3. Önerilen uygulamalar listesinden *AdGuard VPN - özel proxy* öğesini seçin ve *İndir* öğesine dokunun.
 
-4. Wait for the download to finish and tap *Open*.
+4. İndirmenin bitmesini bekleyin ve *Aç* öğesine dokunun.
 
-AdGuard VPN for Android has been successfully installed!
+Android için AdGuard VPN başarıyla yüklendi!
 
-## How to uninstall AdGuard VPN for Android
+## Android için AdGuard VPN nasıl kaldırılır
 
-If you decided to delete AdGuard VPN for Android, find the icon of this app and hold it. In the opened list, tap *Uninstall*.
+Android için AdGuard VPN'i silmeye karar verdiyseniz, bu uygulamanın simgesini bulun ve basılı tutun. Açılan listede *Kaldır* öğesine dokunun.
 
-You can learn more about the AdGuard VPN for Android in [this article](overview.md).
+[Bu makalede](overview.md) Android için AdGuard VPN hakkında daha fazla bilgi edinebilirsiniz.

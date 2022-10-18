@@ -1,10 +1,10 @@
 {
   "theme.NotFound.title": {
-    "message": "Page Not Found",
+    "message": "找不到页面",
     "description": "The title of the 404 page"
   },
   "theme.NotFound.p1": {
-    "message": "We could not find what you were looking for.",
+    "message": "我们没能找到您要找的页面",
     "description": "The first paragraph of the 404 page"
   },
   "theme.NotFound.p2": {
@@ -12,7 +12,7 @@
     "description": "The 2nd paragraph of the 404 page"
   },
   "theme.AnnouncementBar.closeButtonAriaLabel": {
-    "message": "Close",
+    "message": "关闭",
     "description": "The ARIA label for close button of announcement bar"
   },
   "theme.blog.paginator.navAriaLabel": {
@@ -36,11 +36,11 @@
     "description": "The label alongside a tag list"
   },
   "theme.blog.post.readMore": {
-    "message": "Read More",
+    "message": "阅读更多",
     "description": "The label used in blog post item excerpts to link to full blog posts"
   },
   "theme.blog.post.paginator.navAriaLabel": {
-    "message": "Blog post page navigation",
+    "message": "博文页面导航",
     "description": "The ARIA label for the blog posts pagination"
   },
   "theme.blog.post.paginator.newerPost": {
@@ -56,7 +56,7 @@
     "description": "The ARIA label for recent posts in the blog sidebar"
   },
   "theme.tags.tagsPageTitle": {
-    "message": "Tags",
+    "message": "标签",
     "description": "The title of the tag list page"
   },
   "theme.blog.post.plurals": {
@@ -68,19 +68,19 @@
     "description": "The title of the page for a blog tag"
   },
   "theme.tags.tagsPageLink": {
-    "message": "View All Tags",
+    "message": "查看所有标签",
     "description": "The label of the link targeting the tag list page"
   },
   "theme.CodeBlock.copyButtonAriaLabel": {
-    "message": "Copy code to clipboard",
+    "message": "复制代码",
     "description": "The ARIA label for copy code blocks button"
   },
   "theme.CodeBlock.copied": {
-    "message": "Copied",
+    "message": "已复制",
     "description": "The copied button label on code blocks"
   },
   "theme.CodeBlock.copy": {
-    "message": "Copy",
+    "message": "复制",
     "description": "The copy button label on code blocks"
   },
   "theme.docs.sidebar.expandButtonTitle": {
@@ -128,7 +128,7 @@
     "description": "The label used for the latest version suggestion link label"
   },
   "theme.common.editThisPage": {
-    "message": "Edit this page",
+    "message": "编辑此页",
     "description": "The link label to edit the current page"
   },
   "theme.common.headingLinkTitle": {
@@ -164,7 +164,7 @@
     "description": "The title of the fallback page when the page crashed"
   },
   "theme.ErrorPageContent.tryAgain": {
-    "message": "Try again",
+    "message": "重试",
     "description": "The label of the button to try again when the page crashed"
   },
   "theme.BackToTopButton.buttonAriaLabel": {
@@ -188,7 +188,7 @@
     "description": "The ARIA label for the navbar color mode toggle"
   },
   "theme.colorToggle.ariaLabel.mode.dark": {
-    "message": "dark mode",
+    "message": "深色模式",
     "description": "The name for the dark color mode"
   },
   "theme.colorToggle.ariaLabel.mode.light": {
@@ -196,7 +196,7 @@
     "description": "The name for the light color mode"
   },
   "theme.docs.breadcrumbs.home": {
-    "message": "Home page",
+    "message": "主页",
     "description": "The ARIA label for the home page in the breadcrumbs"
   },
   "theme.docs.breadcrumbs.navAriaLabel": {
@@ -219,7 +219,7 @@
     "message": "Version: {versionLabel}"
   },
   "theme.navbar.mobileVersionsDropdown.label": {
-    "message": "Versions",
+    "message": "版本",
     "description": "The label for the navbar versions dropdown on mobile view"
   },
   "theme.CodeBlock.wordWrapToggle": {
@@ -231,11 +231,11 @@
     "description": "The ARIA label to toggle the collapsible sidebar category"
   },
   "theme.navbar.mobileLanguageDropdown.label": {
-    "message": "Languages",
+    "message": "语言",
     "description": "The label for the mobile language switcher dropdown"
   },
   "theme.IdealImageMessage.loading": {
-    "message": "Loading...",
+    "message": "正在加载…",
     "description": "When the full-scale image is loading"
   },
   "theme.IdealImageMessage.load": {
@@ -247,7 +247,7 @@
     "description": "When the user is viewing an offline document"
   },
   "theme.IdealImageMessage.404error": {
-    "message": "404. Image not found",
+    "message": "404. 图片未找到",
     "description": "When the image is not found"
   },
   "theme.IdealImageMessage.error": {
@@ -271,7 +271,7 @@
     "description": "The placeholder for search page input"
   },
   "theme.SearchPage.inputLabel": {
-    "message": "Search",
+    "message": "搜索",
     "description": "The ARIA label for search page input"
   },
   "theme.SearchPage.algoliaLabel": {
@@ -287,39 +287,39 @@
     "description": "The paragraph for fetching new search results"
   },
   "theme.SearchBar.label": {
-    "message": "Search",
+    "message": "搜索",
     "description": "The ARIA label and placeholder for search button"
   },
   "sticky_bar.promo.free": {
-    "message": "Get 3 GB for free",
+    "message": "免费领取 3GB",
     "description": "String used for free GB promo in sticky bar"
   },
   "Install": {
-    "message": "Install",
+    "message": "安装",
     "description": "String used for free GB promo in sticky bar"
   },
   "sticky_bar.btn.baloon.text": {
-    "message": "By downloading the program you accept the terms of the {eulaLink}",
+    "message": "下载本应用程序即表示您接受 {eulaLink} 的条款",
     "description": "String used for license agreement text in sticky bar"
   },
   "sticky_bar.btn.baloon.text.link": {
-    "message": "License agreement",
+    "message": "许可协议",
     "description": "The label for the link to license agreement"
   },
   "sticky_bar.btn.text.download": {
-    "message": "Download",
+    "message": "下载",
     "description": "Sticky bar btn text with label Download"
   },
   "sticky_bar.btn.text.ios": {
-    "message": "Google Play",
+    "message": "谷歌商店",
     "description": "Sticky bar btn text with label App Store"
   },
   "sticky_bar.btn.text.android": {
-    "message": "Google Play",
+    "message": "谷歌商店",
     "description": "Sticky bar btn text with label Google Play"
   },
   "sticky_bar.btn.text.install": {
-    "message": "Install",
+    "message": "安装",
     "description": "Sticky bar btn text with label Install"
   }
 }

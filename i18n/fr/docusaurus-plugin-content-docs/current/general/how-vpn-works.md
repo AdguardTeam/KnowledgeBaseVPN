@@ -13,17 +13,17 @@ De cette façon, un VPN remplit deux fonctions importantes :
 
 1. **Maintien de l’anonymat**
 
-Using an Internet connection, the user leaves their digital footprint, which can then be analyzed and used by third parties. For example, one of the online stores that you have visited can save your search history and then offer you their products based on it through targeted advertising. Or the secret services, having learned your location through the IP address of your device and having determined your identity, can secretly monitor your activity on the web. In addition, web browsers and ISPs themselves can use your browsing history for their own purposes, as well as sell it to advertisers and provide it to government institutions. VPN allows you to hide your IP address and replace it with the IP address of the VPN server to which you are connected. This way you will be able to maintain your privacy and anonymously search for information on the web.
+En utilisant une connexion Internet, l'utilisateur laisse son empreinte numérique, qui peut ensuite être analysée et utilisée par des tiers. Par exemple, une boutique en ligne que vous avez visitée peut enregistrer votre historique de recherche et vous proposer ses produits en fonction de celui-ci par le biais de la publicité ciblée. Ou bien les services secrets, ayant appris votre localisation grâce à l'adresse IP de votre appareil et ayant déterminé votre identité, peuvent surveiller secrètement votre activité sur le web. En outre, les navigateurs web et les fournisseurs d'accès à Internet eux-mêmes peuvent utiliser votre historique de navigation à leurs propres fins, ainsi que le vendre aux annonceurs et le fournir aux institutions gouvernementales. VPN vous permet de masquer votre adresse IP et de la remplacer par l'adresse IP du serveur VPN auquel vous êtes connecté. Vous pourrez ainsi préserver votre confidentialité et rechercher anonymement des informations sur le web.
 
-2. **Data protection**
+2. **Protection des données**
 
-If you connect to an unreliable or public network, the data on your device may become vulnerable to cybercriminals. Bank card details, usernames and passwords, passport data — all this data can be intercepted by online fraudsters. The VPN tunnel encrypts the information that you send and receive from the web, so it can not fall into the wrong hands.
+Si vous vous connectez à un réseau non fiable ou public, des cybercriminels peuvent accéder les données sur votre dispositif. Les détails sur vos cartes bancaires, les noms d'utilisateur et mots de passe, les infos de votre passeport — toutes ces données peuvent être interceptées par des pirates en ligne. Le tunnel VPN chiffre l'information que vous envoyez et recevez sur le web, pour qu'elle ne tombe pas entre de mauvaises mains.
 
 ## Structure du VPN
 
-When you connect to a network, your computer or mobile device is assigned a unique ID number, or IP address. It usually consists of numbers from 0 to 255, separated by dots or colons. Knowing this sequence, one can determine the geolocation of the device. The IP address is usually set by your ISP, and it will be visible all the way to the desired resource. For this reason, the web server of the site you are visiting can register your IP address and record what you have requested. This record can then be used primarily for data collection and traffic analysis.
+Lorsque vous vous connectez à un réseau, votre ordinateur ou appareil mobile se voit attribuer un numéro d'identification unique ou une adresse IP. Il se compose généralement de nombres de 0 à 255, séparés par des points ou des deux-points. En connaissant cette séquence, on peut déterminer la géolocalisation de l'appareil. L'adresse IP est généralement définie par votre FAI et sera visible jusqu'à la ressource souhaitée. Pour cette raison, le serveur web du site que vous visitez peut enregistrer votre adresse IP et enregistrer ce que vous avez demandé. Cet enregistrement peut ensuite être utilisé principalement pour la collecte de données et l'analyse du trafic.
 
-A VPN creates a tunnel between your device and the VPN server. Your data goes through this tunnel, gets encrypted and then enters the open Internet in a secure form. Par conséquent, le serveur web aura l'impression que votre appareil n'a plus votre véritable adresse IP, mais l'adresse IP de l'extrémité du tunnel, c'est-à-dire le serveur VPN. Ainsi, le site auquel vous accédez après avoir traversé le tunnel VPN considérera la géolocalisation du serveur VPN que vous avez sélectionné comme votre emplacement réel. Et les données chiffrées ne tomberont pas entre les mains des publicitaires, des pirates informatiques et des services de sécurité.
+Un VPN crée un tunnel entre votre appareil et le serveur VPN. Vos données passent par ce tunnel, sont cryptées puis entrent sur Internet sous une forme sécurisée. Par conséquent, le serveur web aura l'impression que votre appareil n'a plus votre véritable adresse IP, mais l'adresse IP de l'extrémité du tunnel, c'est-à-dire le serveur VPN. Ainsi, le site auquel vous accédez après avoir traversé le tunnel VPN considérera la géolocalisation du serveur VPN que vous avez sélectionné comme votre emplacement réel. Et les données chiffrées ne tomberont pas entre les mains des publicitaires, des pirates informatiques et des services de sécurité.
 
 ![Structure du VPN](https://cdn.adguard.com/public/Adguard/Website/Images/seo/en/how_vpn_3.jpg)
 
@@ -31,54 +31,54 @@ A VPN creates a tunnel between your device and the VPN server. Your data goes th
 
 Les protocoles de sécurité VPN sont des outils qui cryptent les données dans un tunnel VPN et vous permettent de préserver la confidentialité des utilisateurs dans un Internet ouvert. À l'heure actuelle, la grande majorité des services VPN modernes utilisent l'un des trois protocoles VPN suivants :
 
-1. [*IPSec*](https://en.wikipedia.org/wiki/IPsec). One of its main advantages is that it is available on most devices and operating systems and provides a high level of security. However, the use of double [encapsulation](https://en.wikipedia.org/wiki/Encapsulation_(networking)) in this protocol may result in a lower connection speed.
+1. [*IPSec*](https://en.wikipedia.org/wiki/IPsec). L'un de ses principaux avantages est qu'il est disponible sur la plupart des appareils et systèmes d'exploitation et qu'il offre un haut niveau de sécurité. Toutefois, l'utilisation de la [double encapsulation](https://en.wikipedia.org/wiki/Encapsulation_(networking)) dans ce protocole peut entraîner une baisse de la vitesse de connexion.
 
-2. [*OpenVPN*](https://en.wikipedia.org/wiki/OpenVPN). This modern protocol is open source, so third-party manufacturers can improve and update the technology.
+2. [*OpenVPN*](https://en.wikipedia.org/wiki/OpenVPN). Ce protocole moderne est source ouverte, de sorte que les fabricants tiers peuvent améliorer et mettre la technologie à jour.
 
-3. [*WireGuard*](https://en.wikipedia.org/wiki/WireGuard). Its main advantages are ease of use, high efficiency and low vulnerability to attacks.
+3. [*WireGuard*](https://en.wikipedia.org/wiki/WireGuard). Ses principaux avantages sont sa facilité d'utilisation, son efficacité élevée et sa faible vulnérabilité aux attaques.
 
-In addition to these VPN protocols, there are others (for example, TLS, SSTP, IKEv2), but they are unpopular or do not meet modern data encryption standards.
+En plus de ces protocoles VPN, il en existe d'autres (par exemple, TLS, SSTP, IKEv2), mais ils sont impopulaires ou ne répondent pas aux normes modernes de chiffrement des données.
 
-![How a VPN protocol works](https://cdn.adguard.com/public/Adguard/Blog/vpn/protocol/4.svg)
+![Comment un protocole VPN fonctionne-t-il](https://cdn.adguard.com/public/Adguard/Blog/vpn/protocol/4.svg)
 
-AdGuard VPN also has its own [*protocol*](adguard-vpn-protocol.mdx). One of its advantages is that the traffic transmitted using the AdGuard VPN protocol is difficult to distinguish from the regular traffic. The VPN tunnel looks like normal HTTPS traffic, so it is extremely difficult to detect and block it. In addition, it is based on the mechanisms of the modern HTTP/2 protocol, which ensures high connection speed.
+AdGuard VPN possède également son propre [protocole**](adguard-vpn-protocol.mdx). Un de ses avantages est que le trafic transmis à l'aide du protocole AdGuard VPN est difficile à distinguer du trafic normal. Le tunnel VPN ressemble au trafic HTTPS normal, il est donc extrêmement difficile de le détecter et de le bloquer. De plus, il est basé sur les mécanismes du protocole HTTP/2 moderne, qui assure une vitesse de connexion élevée.
 
-![How concealed VPN works](https://cdn.adguard.com/public/Adguard/Blog/vpn/protocol/5.svg)
+![Comment fonctionne un VPN caché](https://cdn.adguard.com/public/Adguard/Blog/vpn/protocol/5.svg)
 
-## VPN drawbacks
+## Les inconvénients du VPN
 
-Despite the obvious advantages, VPN is not perfect and has some disadvantages:
+Malgré les avantages évidents, le VPN n'est pas parfait et présente quelques inconvénients :
 
-**Lower speed**
+**Vitesse inférieure**
 
-Since your traffic does not go directly to the web server, but first passes through the VPN server, the speed of the VPN connection decreases. Other factors also affect the speed when using a VPN: the load of the VPN server, its bandwidth, the compatibility of the VPN protocol with your operating system. All these factors, as well as the speed of the network itself, can reduce the quality of your VPN connection.
+Comme votre trafic ne va pas directement au serveur web, mais passe d'abord par le serveur VPN, la vitesse de la connexion VPN diminue. D'autres facteurs affectent également la vitesse lors de l'utilisation d'un VPN : la charge du serveur VPN, sa bande passante, la compatibilité du protocole VPN avec votre système d'exploitation. Tous ces facteurs, ainsi que la vitesse du réseau lui-même, peuvent réduire la qualité de votre connexion VPN.
 
-**Access blocking**
+**Blocage d'accès**
 
-Some online services make a lot of effort to detect VPN traffic and block access to VPN users. However, not many VPNs can mask their traffic as regular. Therefore, many attempts to go to a particular website without disabling VPN end up in nothing.
+Certains services en ligne font beaucoup d'efforts pour détecter le trafic VPN et bloquer l'accès aux utilisateurs VPN. Cependant, pas beaucoup de VPNs peuvent faire passer leur trafic pour du trafic régulier. Par conséquent, de nombreuses tentatives pour accéder à un site web particulier sans désactiver le VPN n'aboutissent à rien.
 
-**VPN connections breaking**
+**Connexions VPN interrompues**
 
-A weak signal, network overload, VPN incompatibility with a firewall, antivirus and other programs, an outdated VPN protocol — all this can cause a sudden failure in the VPN connection, especially by unreliable VPN providers.
+Un signal faible, une surcharge du réseau, une incompatibilité VPN avec un pare-feu, un antivirus et d'autres programmes, un protocole VPN obsolète - tout cela peut provoquer une panne soudaine de la connexion VPN, en particulier par des fournisseurs VPN peu fiables.
 
 ## AdGuard VPN
 
-Our VPN service has several important [advantages](why-adguard-vpn.md):
+Notre service VPN présente plusieurs [avantages importants](why-adguard-vpn.md) :
 
-* [*Proprietary VPN protocol*](adguard-vpn-protocol.mdx), which works stably even with a slow Internet connection and disguises itself as normal traffic, making it more difficult to track and block it
+* [*Un protocole VPN propriétaire*](adguard-vpn-protocol.mdx), qui fonctionne de manière stable même avec une connexion Internet lente et se déguise en trafic normal, ce qui le rend plus difficile à suivre et à bloquer
 
-* [*"No-logs" policy*](https://adguard-vpn.com/en/privacy.html), which means that AdGuard VPN does not collect your personal data and does not transfer it to third parties
+* [*Politique "Sans journalisation"*](https://adguard-vpn.com/en/privacy.html), signifiant que AdGuard VPN ne collecte pas vos données personnelles et ne les transfère pas à des tiers
 
-* *More than 50 VPN servers in dozens of countries*
+* *Plus de 50 serveurs VPN dans des dizaines de pays*
 
-* *Ease of use and extensive customization options*
+* *Facilité d'utilisation et nombreuses options de personnalisation*
 
-Currently, AdGuard VPN is available as:
+Actuellement, AdGuard VPN est disponible en tant que :
 
-* [Browser extension](../adguard-vpn-browser-extension/overview.md) for Chrome, Firefox, and Edge
+* [Extension de navigateur](../adguard-vpn-browser-extension/overview.md) pour Chrome, Firefox et Edge
 
-* Mobile app for [Android](../adguard-vpn-for-android/overview.md) and [iOS](../adguard-vpn-for-ios/overview.md)
+* Application mobile pour [Android](../adguard-vpn-for-android/overview.md) et [iOS](../adguard-vpn-for-ios/overview.md)
 
-* Desktop application for [Windows](../adguard-vpn-for-windows/overview.md) and [Mac](../adguard-vpn-for-mac/overview.md)
+* Application de bureau pour [Windows](../adguard-vpn-for-windows/overview.md) et [Mac](../adguard-vpn-for-mac/overview.md)
 
-You can learn more about AdGuard VPN features (including the unlimited version) [here](https://adguard-vpn.com/en/welcome.html).
+Vous pouvez en savoir plus sur les fonctionnalités d'AdGuard VPN (y compris la version illimitée) [ici](https://adguard-vpn.com/en/welcome.html).

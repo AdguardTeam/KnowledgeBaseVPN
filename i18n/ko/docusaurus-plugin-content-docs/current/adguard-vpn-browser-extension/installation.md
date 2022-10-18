@@ -29,8 +29,8 @@ sidebar_position: 2
 
 ### 파이어폭스
 
-Click the sandwich menu icon in the top right corner of the browser, then select *Add-ons and themes*. Find AdGuard VPN in the list, click the three dots icon next to it and select *Remove*.
+브라우저 위에 있는 점 세개를 누르고, *애드옹과 테마*를 선택하십시오. 애드가드 가상사설망을 목록에서 찾은 다음, 세 점 아이콘을 고른 후 *제거합니다*.
 
-### 엣지
+### 마이크로소프트 엣지
 
-오른쪽 상단에 있는 점 새개의 버튼을 클릭하시고 * 추가 도구 - 확장 프로그램을* 선택하십시오. 목록에서 애드가드 가상사설망을 클릭하신 후 ** 마이크로소프트 엣지에서 제거합니다.
+오른쪽 상단에 있는 점 3개의 버튼을 클릭하시고 * 추가 도구 - 확장 프로그램을* 선택하십시오. 목록에서 애드가드 가상사설망을 클릭하신 후 ** 마이크로소프트 엣지에서 제거합니다.

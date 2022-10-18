@@ -11,7 +11,7 @@ Our dev team would like to thank the developers of the third-party software we u
 * React: [https://reactjs.org/](https://reactjs.org/)
 * Vue: [https://vuejs.org/](https://vuejs.org/)
 * PostgreSQL: [https://www.postgresql.org/](https://www.postgresql.org/)
-* Spring [https://spring.io/](https://spring.io/)
+* Spring: [https://spring.io/](https://spring.io/)
 
 ## AdGuard VPN for Android
 
@@ -35,7 +35,7 @@ Our dev team would like to thank the developers of the third-party software we u
 * WPF-based text editor component: [http://avalonedit.net/](http://avalonedit.net/)
 * High-performance JSON framework for .NET: [https://www.newtonsoft.com/json](https://www.newtonsoft.com/json)
 
-## AdGuard VPN Extension
+## Estensione AdGuard VPN
 
 * axios: [https://github.com/axios/axios](https://github.com/axios/axios)
 * babel: [https://github.com/babel/babel](https://github.com/babel/babel)

@@ -1,73 +1,73 @@
 ---
-title: 'Why AdGuard VPN is the better option'
+title: 'AdGuard VPN neden daha iyi bir seçenek'
 sidebar_position: 2
 ---
 
-When getting ready to commit to a [long-term VPN subscription](subscription.md), users most frequently evaluate its speed, security, and price. Those are very important points but there is so much more! AdGuard VPN has a dozen of key assets that make it 'the better option'.
+When getting ready to commit to a [long-term VPN subscription](subscription.md), users most frequently evaluate its speed, security, and price. Bunlar çok önemli noktalar ama çok daha fazlası var! AdGuard VPN, onu 'daha iyi seçenek' yapan bir onlarca önemli varlığa sahiptir.
 
-*To start with, let’s go over AdGuard VPN’s unmatched features that you won’t find in any other VPN.*
+*Başlangıç olarak, AdGuard VPN'in başka hiçbir VPN'de bulamayacağınız eşsiz özelliklerini gözden geçirelim.*
 
-## 1. Proprietary protocol
-From the very outset, we resolved to develop and deploy an in-house VPN protocol instead of picking a canned solution — that’d be too easy, plus, we weren’t satisfied with existing protocols. The result has become the [AdGuard VPN protocol](adguard-vpn-protocol.mdx).
+## 1. Tescilli protokol
+En başından beri, hazır bir çözüm seçmek yerine şirket içi bir VPN protokolü geliştirmeye ve dağıtmaya karar verdik — bu çok kolay olurdu, ayrıca mevcut protokollerden memnun değildik. Sonuç, [AdGuard VPN protokolü](adguard-vpn-protocol.mdx) hâline geldi.
 
-Choosing a VPN service, people often face a trade-off between fast vs. safe. The AdGuard VPN protocol is a perfect blend of speed and security, so you don’t have to bear slow internet connection or make privacy sacrifices. Among other things, it disguises itself as regular traffic and it’s much harder to detect and block it.
+Bir VPN hizmeti seçerken, insanlar genellikle hızlı ve güvenli arasında bir denge ile karşı karşıya kalırlar. AdGuard VPN protokolü, hız ve güvenliğin mükemmel bir karışımıdır, bu nedenle yavaş internet bağlantısına katlanmak veya gizlilikten ödün vermek zorunda kalmazsınız. Diğer şeylerin yanı sıra, kendisini normal trafik olarak gizler, onu tespit etmek ve engellemek çok daha zordur.
 
-## 2. Exclusions
-The *Exclusions lists* allow you to select sites for which the VPN should be enabled and for which — disabled. There are two operation modes in AdGuard VPN: *General* and *Selective*. In *General mode*, VPN works everywhere except websites added to exclusions. And vice versa, in *Selective mode*, VPN works nowhere but on websites added to exclusions. You can also easily import/export exlcusions lists. Read about this feature in *Features overview* for the product you are interested in.
+## 2. İstisnalar
+*İstisna listeleri*, VPN'nin etkinleştirilmesi ve devre dışı bırakılması gereken siteleri seçmenize olanak tanır. AdGuard VPN'de iki çalışma modu vardır: *Genel* ve *Seçici*. *Genel modda* VPN, istisnalara eklenen siteler dışında her yerde çalışır. And vice versa, in *Selective mode*, VPN works nowhere but on websites added to exclusions. Ayrıca istisna listelerini kolayca içe ve dışa aktarabilirsiniz. İlgilendiğiniz ürün için *Özelliklere genel bakış* bölümünde bu özellik hakkında bilgi edinin.
 
-![An example of an exclusion list for Selective mode](https://cdn.adguard.com/public/Adguard/Blog/vpn_export_exclusions.png)
+![Seçici mod için bir istisna listeleri örneği](https://cdn.adguard.com/public/Adguard/Blog/vpn_export_exclusions.png)
 
-You can add websites to exclusions manually or choose them among the lists of popular services. The lists are divided into eight categories: Social networks, Messengers, Video and Music streaming services, Games, Shopping, Search engines, and Work communication tools.
+İstisnalara elle siteler ekleyebilir veya popüler hizmetler listelerinden seçebilirsiniz. Listeler sekiz kategoriye ayrılmıştır: Sosyal ağlar, Mesajlaşma, Video ve Müzik yayın akışı hizmetleri, Oyunlar, Alışveriş, Arama motorları ve İş iletişim araçları.
 
-> This feature is available on all platforms except iOS.
+> Bu özellik iOS hariç tüm platformlarda kullanılabilir.
 
-## 3. Choosing a DNS server
-No more relying on the DNS server provided by your ISP by default! First, it’s not safe: your ISP most likely has access to your browsing history. Second, People often underestimate DNS, yet it can remove ads and trackers, protect your device from malware or, for instance, enable safe search and block adult content.
+## 3. DNS sunucusu seçme
+Artık varsayılan olarak İSS'niz tarafından sağlanan DNS sunucusuna güvenmek yok! Birincisi, güvenli değil: İSS'nizin büyük olasılıkla tarama geçmişinize erişimi vardır. İkincisi, insanlar genellikle DNS'i hafife alır, ancak reklamları ve izleyicileri kaldırabilir, cihazınızı kötü amaçlı yazılımlardan koruyabilir veya örneğin güvenli aramayı etkinleştirebilir ve yetişkinlere yönelik içeriği engelleyebilir.
 
-You can choose DNS servers from [known DNS providers](https://kb.adguard.com/en/general/dns-providers) such as AdGuard, Cisco, Cloudflare, Google, or Quad9, or even configure to use your own DNS server.
+AdGuard, Cisco, Cloudflare, Google veya Quad9 gibi [bilinen DNS sağlayıcılarından](https://kb.adguard.com/en/general/dns-providers) DNS sunucuları seçebilir veya hatta kendi DNS sunucunuzu kullanacak şekilde yapılandırabilirsiniz.
 
-## 4. Fastest locations
+## 4. En hızlı konumlar
 
-Another feature that makes AdGuard VPN stand out from the crowd is that you can select a location based on its ping. In a nutshell, ping is the time it takes the data packet sent from your computer to reach the server and return. When in doubt, use a rule of thumb: the lower the ping, the closer the server, the higher its speed. We are constantly expanding the number of locations so that you can choose from a variety.
+AdGuard VPN'i diğerlerinden farklı kılan bir başka özellik de, pingine göre bir konum seçebilmenizdir. Kısaca ping, cihazınızdan gönderilen veri paketinin sunucuya ulaşması ve geri dönmesi için geçen süredir. Şüphe duyduğunuzda, basit bir kural kullanın: ping ne kadar düşükse, sunucu ne kadar yakınsa, hızı da o kadar yüksek olur. Çeşitlilik arasından seçim yapabilmeniz için konum sayısını sürekli artırıyoruz.
 
-> Note that to access all VPN server locations, you need to purchase an AdGuard VPN subscription.
+> Tüm VPN sunucu konumlarına erişmek için bir AdGuard VPN aboneliği satın almanız gerektiğini unutmayın.
 
-## 5. Compatibility with AdGuard Ad Blocker
+## 5. AdGuard Reklam Engelleyici ile uyumluluk
 
-With desktop apps and browser extensions this goes without saying — there’s rarely any conflicts between apps, save for antiviruses and other similarly oriented software.
+Masaüstü uygulamaları ve tarayıcı uzantıları ile bunu söylemeye gerek yok — uygulamalar arasında nadiren herhangi bir çakışma var, antivirüsler ve diğer benzer odaklı yazılımlar hariç.
 
-With mobile devices, on the other hand, it’s not that simple. In the vast majority of cases, two VPN-based apps will not work together, just because certain OS-induced limitations exist that prevent that from happening, both on Android and iOS.
+Mobil cihazlarda ise durum o kadar basit değil. Durumların büyük çoğunluğunda, iki VPN tabanlı uygulama birlikte çalışmaz, çünkü hem Android hem de iOS'ta bunun olmasını engelleyen işletim sistemi kaynaklı bazı kısıtlamalar vardır.
 
-However, we managed to find a solution to befriend AdGuard VPN and AdGuard Ad Blocker. When you have both AdGuard apps installed on one device simultaneously, they will automatically become compatible without any input required from you. This is a unique opportunity to take advantage of two sets of features, which you would normally have to choose between.
+Ancak AdGuard VPN ve AdGuard Reklam Engelleyici ile arkadaş olmak için bir çözüm bulmayı başardık. Her iki AdGuard uygulamasını aynı anda bir cihaza yüklediğinizde, sizden herhangi bir giriş gerektirmeden otomatik olarak uyumlu hâle gelirler. Bu, normalde aralarından seçim yapmanız gereken iki özellik grubundan yararlanmak için eşsiz bir fırsattır.
 
-## 6. QUIC support
-[QUIC](https://adguard.com/en/blog/dns-over-quic.html) is a cutting-edge protocol that has many perks. The main advantage is it can improve connection quality in non-ideal conditions – for example, on mobile devices or when connecting to public Wi-Fi. Although the new protocol won’t affect speed when the connection is fine and stable, it will definitely make the situation better for users with slow internet.
+## 6. QUIC desteği
+[QUIC](https://adguard.com/en/blog/dns-over-quic.html), birçok avantajı olan son teknoloji bir protokoldür. Başlıca avantajı, ideal olmayan koşullarda bağlantı kalitesini iyileştirebilmesidir –örneğin mobil cihazlarda veya halka açık Wi-Fi'ye bağlanırken. Yeni protokol, bağlantı iyi ve kararlı olduğunda hızı etkilemese de, yavaş internete sahip kullanıcılar için durumu kesinlikle daha iyi hâle getirir.
 
-*Now let’s switch to the item set that any decent VPN can't do without.*
+*Şimdi herhangi bir düzgün VPN'nin onsuz yapamayacağı öğe setine geçelim.*
 
 ## 7. Kill Switch
-Kill Switch is essential if you, for instance, often use a mobile network or connect to public Wi-Fi networks in malls, cafes, on the subway or at the airport. For the simple reason — if VPN will suddenly drop and the connection will become insecure, chances are that your sensitive information will be exposed to fraudsters or cyber criminals.
+Örneğin, sık sık bir mobil ağ kullanıyorsanız veya alışveriş merkezlerinde, kafelerde, metroda veya havalimanı herkese Wi-Fi ağlarına bağlanıyorsanız, Kill Switch çok önemlidir. For the simple reason — if VPN will suddenly drop and the connection will become insecure, chances are that your sensitive information will be exposed to fraudsters or cyber criminals.
 
-If for some reason your VPN connection is interrupted, Kill Switch will automatically disconnect the internet connection, keeping attackers away from seizing your information. With Kill Switch, rest assured that you are in safe hands. If you’re concerned about privacy or at least value your personal data, don’t overlook this bulletproof method.
+Herhangi bir nedenle VPN bağlantınız kesilirse, Kill Switch otomatik olarak internet bağlantısını keserek saldırganların bilgilerinizi ele geçirmesini engeller. Kill Switch ile emin ellerde olduğunuzdan emin olun. Gizlilik konusunda endişeleriniz varsa veya en azından kişisel verilerinize değer veriyorsanız, bu kurşun geçirmez yöntemi gözden kaçırmayın.
 
-## 8. Split tunneling
-This feature resembles the exclusions lists mentioned above. The only difference is that here you can exclude apps instead of websites.
+## 8. Bölünmüş tünelleme
+Bu özellik, yukarıda bahsedilen istisna listelerine benzer. Tek farkı, burada siteler yerine uygulamaları hariç tutabilmenizdir.
 
-## 9. Auto-Protection
-This feature has been developed specifically for unsecured networks. For the convenience of users, we made it impossible to forget to enable VPN when visiting public places. Should you pop into a coffee shop and connect to a local Wi-Fi network, you’ll be automatically connected to AdGuard VPN.
+## 9. Otomatik Koruma
+Bu özellik, özellikle güvenli olmayan ağlar için geliştirilmiştir. Kullanıcıların rahatlığı için, herkese açık yerleri ziyaret ederken VPN'i etkinleştirmeyi unutmayı imkansız hâle getirdik. Bir kafeye girer ve yerel bir Wi-Fi ağına bağlanırsanız, otomatik olarak AdGuard VPN'e bağlanacaksınız.
 
-## 10. Up to five connected devices at a time
-AdGuard VPN offers five simultaneous connections to its paid users. We place special emphasis on the word *simultaneous*, and here is why. Some VPN providers only allow to log in to their service on *five devices max*. With AdGuard VPN, *there’s no limit* to the number of devices that can be logged in to your account, but you can have five VPN connections enabled at the same time. Those who don’t have a subscription can use AdGuard VPN on *two devices*, which gives us another trump card to play against competitors — most of the VPN services only have *one device* in their free versions.
+## 10. Aynı anda bağlı beş cihaza kadar
+AdGuard VPN, ücretli kullanıcılarına aynı anda beş bağlantı sunar. We place special emphasis on the word *simultaneous*, and here is why. Bazı VPN sağlayıcıları, hizmetlerinde *en fazla beş cihazda* giriş yapılmasına izin verir. AdGuard VPN ile hesabınızda giriş yapabilecek cihaz sayısında bir *sınırlama yoktur*, ancak aynı anda beş VPN bağlantınızı etkinleştirebilirsiniz. Those who don’t have a subscription can use AdGuard VPN on *two devices*, which gives us another trump card to play against competitors — most of the VPN services only have *one device* in their free versions.
 
-## 11. Secure streaming
-Streaming services don't like VPNs for obvious reasons: according to statistics, about 20% of users install a VPN mainly to watch shows, TV shows and movies bypassing geo-blocking. That's why streaming platforms tend to do everything they can to track VPN traffic and block it.
+## 11. Güvenli canlı yayın akışı
+Canlı yayın akışı hizmetleri, bariz nedenlerle VPN'leri sevmiyor: istatistiklere göre, kullanıcıların yaklaşık %20'si, coğrafi engellemeyi atlayarak esas olarak programları, TV programları ve filmleri izlemek için bir VPN kuruyor. Bu nedenle canlı yayın akışı platformları, VPN trafiğini izlemek ve engellemek için ellerinden gelen her şeyi yapma eğilimindedir.
 
-But what if you want to feel safe while watch content specific to your region? Or don't want stop watchig exciting series even when you travel to another country? The answer is simple — AdGuard VPN, which thanks to its unique protocol can remain invisible to services.
+Peki ya bölgenize özel içerikler izlerken kendinizi güvende hissetmek istiyorsanız? Veya başka bir ülkeye seyahat ederken bile heyecan verici dizileri izlemeyi bırakmak istemiyor musunuz? Cevap basit — AdGuard VPN, benzersiz protokolü sayesinde hizmetler için görünmez kalabilir.
 
-> We don't endorse the use of AdGuard VPN to bypass copyright regulations.
+> Telif hakkı düzenlemelerini atlamak için AdGuard VPN kullanımını onaylamıyoruz.
 
-## 12. Dark mode
+## 12. Karanlık mod
 
-![Dark mode](https://cdn.adguard.com/public/Adguard/Blog/vpn/main_en_black.png)
+![Karanlık mod](https://cdn.adguard.com/public/Adguard/Blog/vpn/main_en_black.png)
 
-This little feature deserves special mention. In fact, many users crave for dark mode, so we couldn’t ignore it and added a theme switch for all AdGuard VPN products. Choose the one you like more — light, dark, or system. Hope you’ll join the dark side.
+Bu küçük özellik özel olarak anılmayı hak ediyor. Aslında, pek çok kullanıcı karanlık modu çok istiyor, bu yüzden onu görmezden gelemedik ve tüm AdGuard VPN ürünleri için bir tema anahtarı ekledik. Daha çok hoşunuza gideni seçin — açık, koyu veya sistem varsayılanı. Umarız karanlık tarafa katılırsın.

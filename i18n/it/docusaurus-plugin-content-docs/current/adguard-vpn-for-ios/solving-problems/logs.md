@@ -7,7 +7,7 @@ If you encounter a problem when using AdGuard VPN for iOS, you can inform us abo
 
 ## Collecting and sending standard logs
 
-By default, AdGuard VPN for iOS uses the standard logging level, that is, the basic collection of data about running processes of the app. To send these logs, follow the next steps:
+Per impostazione predefinita, AdGuard VPN per iOS utilizza il livello di registrazione standard, ovvero la raccolta di base dei dati sui processi in esecuzione dell'app. To send these logs, follow the next steps:
 
 1. Open AdGuard VPN for iOS and, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
 
@@ -20,7 +20,7 @@ By default, AdGuard VPN for iOS uses the standard logging level, that is, the ba
 
 ## Collecting and sending extended logs
 
-In most cases, the default logging level is sufficient to trace down possible bugs. But there are cases when more detailed technical information about the device and connections is required, and then our support team will ask you to enable the extened logging level. To send this type of logs, follow these steps:
+In most cases, the default logging level is sufficient to trace down possible bugs. But there are cases when more detailed technical information about the device and connections is required, and then our support team will ask you to enable the extended logging level. To send this type of logs, follow these steps:
 
 1. Open AdGuard VPN for iOS and select "Settings" in the lower-right corner of the screen.
 

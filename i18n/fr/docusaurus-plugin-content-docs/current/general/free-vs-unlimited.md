@@ -11,15 +11,15 @@ Vous pouvez utiliser AdGuard VPN gratuitement, mais il y aura alors certaines re
 * Seuls certains des emplacements de serveur sont disponibles
 * Les clients de messagerie ne peuvent pas être utilisés pour envoyer des messages (sur iOS et Android)
 
-> Le dernier point doit être traité séparément : les utilisateurs gratuits d'AdGuard VPN pour iOS et Android ne peuvent pas envoyer d'e-mails dans les clients de messagerie. It’s impossible because we block port 25, which is used for outgoing emails, and thus reinsure against spam. However, sending emails with web email services works perfectly well. And on AdGuard VPN for Android you can add apps to exclusions so that email apps will function as well.
+> Le dernier point doit être traité séparément : les utilisateurs gratuits d'AdGuard VPN pour iOS et Android ne peuvent pas envoyer d'e-mails dans les clients de messagerie. C'est impossible car nous bloquons le port 25, qui est utilisé pour les emails sortants, et ainsi nous réassurons contre le spam. Cependant, l'envoi d'e-mails avec des services de messagerie électronique en ligne fonctionne parfaitement bien. Et sur AdGuard VPN pour Android, vous pouvez ajouter des applications aux exclusions afin que les applications de messagerie fonctionnent également.
 
-At the same time you can purchase a subscription to get an unlimited version of the app. A subscription allows to have more benefits in comparison with a free account:
+En même temps, vous pouvez acheter un abonnement pour obtenir une version illimitée de l'application. Un abonnement permet d'avoir plus d'avantages par rapport à un compte gratuit :
 
-* 5 simultaneously connected devices
-* Unlimited traffic
-* No speed cap
-* All 50+ locations are available
-* Secure streaming
-* No port 25 block
+* 5 appareils connectés simultanément
+* Trafic illimité
+* Aucune limite de vitesse
+* Plus de 50 emplacements sont disponibles
+* Streaming sécurisé
+* Pas de blocage du port 25
 
-To use all the advantages, consider [purchasing a subscription](subscription.md).
+Pour profiter de tous les avantages, pensez à [souscrire un abonnement](subscription.md).

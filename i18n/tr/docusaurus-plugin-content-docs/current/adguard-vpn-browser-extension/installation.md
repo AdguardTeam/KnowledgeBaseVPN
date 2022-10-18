@@ -1,5 +1,5 @@
 ---
-title: Kurulum ve kaldırma
+title: Yükleme ve kaldırma
 sidebar_position: 2
 ---
 

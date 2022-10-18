@@ -4,11 +4,11 @@
     "description": "Navbar item with label docs"
   },
   "item.label.blog": {
-    "message": "Blog",
+    "message": "博客",
     "description": "Navbar item with label blog"
   },
   "item.label.official_website": {
-    "message": "Official Website",
+    "message": "官方网站",
     "description": "Navbar item with label official_website"
   },
   "item.label.github": {

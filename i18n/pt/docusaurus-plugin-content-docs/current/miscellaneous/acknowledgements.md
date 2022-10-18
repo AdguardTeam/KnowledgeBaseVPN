@@ -11,7 +11,7 @@ Nossa equipe de desenvolvimento gostaria de agradecer aos desenvolvedores do sof
 * React: [https://reactjs.org/](https://reactjs.org/)
 * Vue: [https://vuejs.org/](https://vuejs.org/)
 * PostgreSQL: [https://www.postgresql.org/](https://www.postgresql.org/)
-* Spring [https://spring.io/](https://spring.io/)
+* Spring: [https://spring.io/](https://spring.io/)
 
 ## AdGuard VPN para Android
 

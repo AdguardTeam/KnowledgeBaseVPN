@@ -204,7 +204,7 @@
     "description": "The ARIA label for the breadcrumbs"
   },
   "theme.docs.DocCard.categoryDescription": {
-    "message": "{count} items",
+    "message": "{count} 아이템",
     "description": "The default description for a category card in the generated index about how many items this category includes"
   },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
@@ -216,14 +216,14 @@
     "description": "The title of the page for a docs tag"
   },
   "theme.docs.versionBadge.label": {
-    "message": "Version: {versionLabel}"
+    "message": "버전: {versionLabel}"
   },
   "theme.navbar.mobileVersionsDropdown.label": {
-    "message": "Versions",
+    "message": "버전",
     "description": "The label for the navbar versions dropdown on mobile view"
   },
   "theme.CodeBlock.wordWrapToggle": {
-    "message": "Toggle word wrap",
+    "message": "단어 줄 바꿈 토글",
     "description": "The title attribute for toggle word wrapping button of code block lines"
   },
   "theme.DocSidebarItem.toggleCollapsedCategoryAriaLabel": {
@@ -231,27 +231,27 @@
     "description": "The ARIA label to toggle the collapsible sidebar category"
   },
   "theme.navbar.mobileLanguageDropdown.label": {
-    "message": "Languages",
+    "message": "언어",
     "description": "The label for the mobile language switcher dropdown"
   },
   "theme.IdealImageMessage.loading": {
-    "message": "Loading...",
+    "message": "로딩...",
     "description": "When the full-scale image is loading"
   },
   "theme.IdealImageMessage.load": {
-    "message": "Click to load{sizeMessage}",
+    "message": "{sizeMessage} 을 로드하려면 클릭하십시오.",
     "description": "To prompt users to load the full image. sizeMessage is a parenthesized size figure."
   },
   "theme.IdealImageMessage.offline": {
-    "message": "Your browser is offline. Image not loaded",
+    "message": "당신의 브라우저가 오프라인 상태입니다. 이미지가 로드되지 않았습니다.",
     "description": "When the user is viewing an offline document"
   },
   "theme.IdealImageMessage.404error": {
-    "message": "404. Image not found",
+    "message": "404. 이미지를 찾을 수 없음",
     "description": "When the image is not found"
   },
   "theme.IdealImageMessage.error": {
-    "message": "Error. Click to reload",
+    "message": "애려. 새로고침하려면 클릭하십시오.",
     "description": "When the image fails to load for unknown error"
   },
   "theme.SearchPage.documentsFound.plurals": {
@@ -271,7 +271,7 @@
     "description": "The placeholder for search page input"
   },
   "theme.SearchPage.inputLabel": {
-    "message": "Search",
+    "message": "검색",
     "description": "The ARIA label for search page input"
   },
   "theme.SearchPage.algoliaLabel": {
@@ -287,39 +287,39 @@
     "description": "The paragraph for fetching new search results"
   },
   "theme.SearchBar.label": {
-    "message": "Search",
+    "message": "검색",
     "description": "The ARIA label and placeholder for search button"
   },
   "sticky_bar.promo.free": {
-    "message": "Get 3 GB for free",
+    "message": "3 GB 을 무료로 받으십시오.",
     "description": "String used for free GB promo in sticky bar"
   },
   "Install": {
-    "message": "Install",
+    "message": "설치",
     "description": "String used for free GB promo in sticky bar"
   },
   "sticky_bar.btn.baloon.text": {
-    "message": "By downloading the program you accept the terms of the {eulaLink}",
+    "message": "프로그럄을 내려받음으로써 {eulaLink} 라인선스 계약에 동의하게 됩니다.",
     "description": "String used for license agreement text in sticky bar"
   },
   "sticky_bar.btn.baloon.text.link": {
-    "message": "License agreement",
+    "message": "사용권 계약",
     "description": "The label for the link to license agreement"
   },
   "sticky_bar.btn.text.download": {
-    "message": "Download",
+    "message": "다운로드",
     "description": "Sticky bar btn text with label Download"
   },
   "sticky_bar.btn.text.ios": {
-    "message": "Google Play",
+    "message": "구글 플레이",
     "description": "Sticky bar btn text with label App Store"
   },
   "sticky_bar.btn.text.android": {
-    "message": "Google Play",
+    "message": "구글 플레이",
     "description": "Sticky bar btn text with label Google Play"
   },
   "sticky_bar.btn.text.install": {
-    "message": "Install",
+    "message": "설치",
     "description": "Sticky bar btn text with label Install"
   }
 }

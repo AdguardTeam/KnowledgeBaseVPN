@@ -1,5 +1,5 @@
 ---
-title: Installation and removal
+title: Instalación y remoción
 sidebar_position: 2
 ---
 
