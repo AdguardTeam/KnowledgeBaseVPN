@@ -13,7 +13,7 @@ Das AdGuard-Team entschied sich von Anfang an für die Entwicklung und Implement
 Bei der Wahl eines VPN-Dienstes müssen Sie oft zwischen hoher Geschwindigkeit und Sicherheit auswählen. Das AdGuard VPN-Protokoll ist eine perfekte Mischung aus Geschwindigkeit und Sicherheit, so dass Sie weder eine langsame Internetverbindung in Kauf nehmen noch Abstriche beim Datenschutz machen müssen. Unter anderem tarnt er sich als regulärer Datenverkehr und ist viel schwerer zu erkennen und zu blockieren.
 
 ## 2. Ausschlüsse
-Die Listen *Ausschlüsse* ermöglichen es Ihnen, Websites auszuwählen, für die das VPN aktiviert und deaktiviert werden soll. Es gibt zwei Betriebsmodi in AdGuard VPN: *Allgemein* und *Selektiv*. *Allgemeiner Modus:* AdGuard VPN funktioniert nicht auf Websites aus der Ausschlussliste. Und umgekehrt funktioniert VPN im *selektiven Modus* nur auf Websites, die zu den Ausnahmen gehören. Sie können auch problemlos Ausschlusslisten importieren/exportieren. Lesen Sie mehr über diese Funktion unter *Funktionsübersicht* für das Produkt, an dem Sie interessiert sind.
+Die Listen *Ausschlüsse* ermöglichen es Ihnen, Websites auszuwählen, für die das VPN aktiviert und deaktiviert werden soll. Es gibt zwei Betriebsmodi in AdGuard VPN: *Allgemein* und *Selektiv*. *Allgemeiner Modus:* AdGuard VPN funktioniert nicht auf Websites aus der Ausschlussliste. Und umgekehrt funktioniert VPN im *selektiven Modus* nur auf Websites, die zu den Ausnahmen gehören. You can also easily import/export exclusions lists. Lesen Sie mehr über diese Funktion unter *Funktionsübersicht* für das Produkt, an dem Sie interessiert sind.
 
 ![Ein Beispiel für eine Ausschlussliste für den selektiven Modus](https://cdn.adguard.com/public/Adguard/Blog/vpn_export_exclusions.png)
 
@@ -62,7 +62,7 @@ AdGuard VPN bietet seinen zahlenden Nutzer:innen fünf gleichzeitige Verbindunge
 ## 11. Sicheres Streaming
 Streaming-Dienste mögen VPNs aus offensichtlichen Gründen nicht: Statistiken zufolge installieren etwa 20% der Nutzer:innen ein VPN hauptsächlich, um Sendungen, Fernsehsendungen und Filme unter Umgehung von Geoblocking anzusehen. Deshalb setzen Streaming-Plattformen alles daran, den VPN-Verkehr zu verfolgen und zu blockieren.
 
-Was aber, wenn Sie sich sicher fühlen wollen, während Sie sich Inhalte ansehen, die für Ihre Region spezifisch sind? Oder wollen Sie nicht aufhören, spannende Serien zu sehen, auch wenn Sie in ein anderes Land reisen? Die Antwort ist einfach — AdGuard VPN, das dank seines einzigartigen Protokolls für die Dienste unsichtbar bleiben kann.
+Was aber, wenn Sie sich sicher fühlen wollen, während Sie sich Inhalte ansehen, die für Ihre Region spezifisch sind? Or don't want stop watching exciting series even when you travel to another country? Die Antwort ist einfach — AdGuard VPN, das dank seines einzigartigen Protokolls für die Dienste unsichtbar bleiben kann.
 
 > Wir befürworten nicht die Verwendung von AdGuard VPN zur Umgehung von Urheberrechtsbestimmungen.
 

@@ -1,38 +1,38 @@
 ---
-title: How to collect and send logs
+title: Günlükler nasıl toplanır ve gönderilir
 sidebar_position: 2
 ---
 
-If you encounter a problem when using AdGuard VPN for Android, you can inform us about it by sending application logs.
+Android için AdGuard VPN kullanırken bir sorunla karşılaşırsanız, uygulama günlüklerini göndererek bize bildirebilirsiniz.
 
-## Collecting and sending standard logs
+## Standart günlükleri toplama ve gönderme
 
-By default, AdGuard VPN for Android uses the **Default** logging level, that is, the basic collection of data about running processes of the app. To send these logs, follow the next steps:
+Varsayılan olarak, Android için AdGuard VPN **Varsayılan** günlük kayıt düzeyini, yani uygulamanın çalışan süreçleriyle ilgili temel veri toplamasını kullanır. Bu günlükleri göndermek için sonraki adımları izleyin:
 
-1. Open AdGuard VPN for Android and, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
+1. Android için AdGuard VPN'i açın ve mümkünse hataya neden olan işlemleri tekrarlayın. Bu hatanın oluştuğu tam zamana dikkat edin.
 
-2. Open **Settings** by clicking the gear icon at the lower right corner → **Support** → **Report a bug**.
+2. Sağ alt köşedeki dişli çark simgesine tıklayarak **Ayarlar** öğesini açın → **Destek** → **Hata bildir**.
 
-3. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred. If you can't reproduce the problem, specify as accurately as possible when it last occurred.
+3. Açılan formda, geri bildirim için e-posta adresinizi girin ve bulunan hatayı, bu hatanın oluştuğu zaman da dahil olmak üzere açıklayın. Sorunu yeniden oluşturamıyorsanız, en son ne zaman oluştuğunu olabildiğince doğru bir şekilde belirtin.
 
-4. There is a check mark next to **Send detailed system info**, which means that when you send a report, you also send logs.
-> If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, go to **Settings** → **Support** → **Export logs and system info**.
+4. **Detaylı sistem bilgisi gönder** öğesinin yanında bir onay işareti vardır; bu, bir rapor gönderdiğinizde günlükleri de göndereceğiniz anlamına gelir.
+> Herhangi bir nedenle bize günlükleri başka bir şekilde göndermeniz daha uygunsa, bunları kendiniz dışa aktarabilirsiniz. Bunu yapmak için **Ayarlar** → **Destek** → **Günlükleri ve sistem bilgisini dışa aktar** öğesine gidin.
 
-## Collecting and sending extended logs
+## Genişletilmiş günlükleri toplama ve gönderme
 
-In most cases, the **Default** logging level is sufficient to trace down possible bugs. But there are cases when more detailed technical information about the device and connections is required, and then our support team will ask you to enable the **Extened** or **Extreme** logging level. To send these types of logs, follow these steps:
+Çoğu durumda, olası hataların izini sürmek için **Varsayılan** günlük kayıt düzeyi yeterlidir. Ancak, cihaz ve bağlantılar hakkında daha ayrıntılı teknik bilgilerin gerekli olduğu durumlar vardır ve bu durumda destek ekibimiz, **Genişletilmiş** veya **Son derece** günlük kayıt düzeyini etkinleştirmenizi ister. Bu tür günlükleri göndermek için şu adımları takip edin:
 
-1. Open AdGuard VPN for Android and select **Settings** (the gear icon at the bottom right corner) → **App Settings** → **Advanced Settings** → **Logging level**.
+1. Android için AdGuard VPN'i açın ve **Ayarlar** (sağ alt köşedeki dişli çark simgesi) → **Uygulama Ayarları** → **Gelişmiş Ayarlar** → **Günlük kayıt düzeyi** öğesni seçin.
 
-2. In the **Logging level** section, select **Extened** or **Extreme** logging level.
+2. **Günlük kayıt düzeyi** bölümünde, **Genişletilmiş** veya **Son derece** günlük kayıt düzeyini seçin.
 
-3. Repeat the actions that led to the error and note the time when it occurred.
+3. Hataya neden olan işlemleri tekrarlayın ve meydana geldiği zamana dikkat edin.
 
-4. Switch the logging level back to **Default**.
+4. Kayıt düzeyini **Varsayılan** olarak değiştirin.
 
-5. Then open **Settings** by tapping the gear icon at the lower right corner → **Support** → **Report a bug**.
+5. Ardından sağ alt köşedeki dişli çark simgesine dokunarak **Ayarlar** öğesini açın → **Destek** → **Hata bildir**.
 
-6. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred.
+6. Açılan formda, geri bildirim için e-posta adresinizi girin ve bulunan hatayı, bu hatanın oluştuğu zaman da dahil olmak üzere açıklayın.
 
-7. Make sure that there is a check mark next to **Send detailed system info** and tap **Send**.
-> If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, go to **Settings** → **Support** → **Export logs and system info**.
+7. **Detaylı sistem bilgisi gönder** öğesinin yanında bir onay işareti olduğundan emin olun ve **Gönder** öğesine dokunun.
+> Herhangi bir nedenle bize günlükleri başka bir şekilde göndermeniz daha uygunsa, bunları kendiniz dışa aktarabilirsiniz. Bunu yapmak için **Ayarlar** → **Destek** → **Günlükleri ve sistem bilgisini dışa aktar** öğesine gidin.

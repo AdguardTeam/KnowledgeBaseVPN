@@ -3,54 +3,54 @@ title: 'Проблемы с профилем «Ограниченный режи
 sidebar_position: 4
 ---
 
-The owners of phones and tablets running the Android 7+ operating system might face the problem caused by using **a profile with Restricted Mode**. If you have such a profile, **AdGuard VPN**, like other applications that use VPN, gets restrictions on selective handling of VPN traffic. Also, one of the reasons for this problem may be using **Dual App/Dual Messenger profile** on your device. Below are described the recommendations that you can apply when this problem occurs.
+Владельцы телефонов и планшетов под управлением операционной системы Android 7+ могут столкнуться с проблемой, вызванной использованием **профиля с ограниченным режимом**. При наличии такого профиля **AdGuard VPN**, как и другие приложения, использующие VPN, получает ограничения на выборочную обработку VPN-трафика. Кроме того, одной из причин этой проблемы может быть использование профиля **Dual App/Dual Messenger** на вашем устройстве. Ниже описаны рекомендации, которые вы можете применить при возникновении этой проблемы.
 
-## Solutions
+## Решения
 
-You have two ways to solve the issue:
+У вас есть два способа решить проблему:
 
-### Option 1: Grant permissions to AdGuard VPN using ADB
+### Вариант 1: Предоставьте права доступа AdGuard VPN с помощью ADB
 
-1. Activate the **developer mode** and enable **USB debugging**:
-- Open the **Settings** application on your phone;
-- Go to **System** section (last item in the settings menu). In this section find sub-item **About phone**;
-- Click on the **Build number** line 7 times. After that, you will receive a notification that **You are now a developer** (If necessary, enter an unlock code for the device);
-- Open **System Settings** > **Developer Options** > Scroll down and enable **USB debugging** > Confirm debugging is enabled in the window **Allow USB debugging** after reading the warning carefully.
+1. Активируйте режим разработчика **** и включите отладку по USB ****:
+- Откройте приложение **Настройки** на своем телефоне;
+- Перейдите в раздел **О системе** (последний пункт в меню настроек). В этом разделе найдите подпункт **О телефоне**;
+- Нажмите на строку **Номер сборки** 7 раз. После этого вы получите уведомление, что **Теперь вы разработчик** (При необходимости введите код разблокировки устройства);
+- Откройте **Системные настройки** > **Для разработчика** > Прокрутите вниз и включите **Отладка по USB** > Подтвердите, что отладка включена в окне **Разрешить отладку по USB** после внимательного прочтения предупреждения.
 
-> If you have any difficulties or additional questions, full instructions can be found [here](https://developer.android.com/studio/debug/dev-options).
+> Если у вас возникнут трудности или дополнительные вопросы, полные инструкции можно найти [здесь](https://developer.android.com/studio/debug/dev-options).
 
-2. [Install and configure](https://www.xda-developers.com/install-adb-windows-macos-linux/) adb;
-> On the Windows platform, **Samsung** owners may need to install [this utility](https://developer.samsung.com/mobile/android-usb-driver.html).
+2. [Установите и настройте](https://www.xda-developers.com/install-adb-windows-macos-linux/) adb;
+> На платформе Windows владельцам **Samsung** может потребоваться установить [эту утилиту](https://developer.samsung.com/mobile/android-usb-driver.html).
 
-3. Connect your device using a **USB cable** to the computer or laptop on which you installed **ADB**;
-4. Open **the command line** on your PC:
-- **Cmd.exe** if you are using **Windows**;
-- **Terminal** if you are using **macOS**;
-5. Enter the command `adb shell pm grant com.adguard.vpn android.permission.INTERACT_ACROSS_USERS` and press **Enter**.
+3. Подключите устройство с помощью кабеля USB **** к компьютеру или ноутбуку, на котором вы установили **ADB**;
+4. Откройте **командную строку** на вашем ПК:
+- **Cmd.exe** если вы используете **Windows**;
+- **Terminal**, если вы используете **macOS**;
+5. Введите команду `adb shell pm grant com.adguard.vpn android.permission.INTERACT_ACROSS_USERS` и нажмите **Enter**.
 
-### Option 2: Remove *Restricted user account*
+### Вариант 2. Удаление *учетной записи пользователя с ограниченным доступом*
 
-You can [find here](https://support.google.com/a/answer/6223444?hl=en) how to manage user accounts from an Android device.
+[Здесь](https://support.google.com/a/answer/6223444?hl=en) вы можете найти, как управлять учетными записями пользователей с устройства Android.
 
-> Please note, that in some cases restricted user accounts are created implicitly and cannot be removed. For instance, when you use Dual Messenger or Dual App features on **Samsung** or **LG** devices. Read below how to fix the issue in these cases.
+> Обратите внимание, что в некоторых случаях ограниченные учетные записи пользователей создаются неявно и не могут быть удалены. Например, когда вы используете функции Dual Messenger или Dual App на **устройствах Samsung** или **LG**. Читайте ниже, как исправить проблему в этих случаях.
 
-### LG and Samsung devices
+### Устройства LG и Samsung
 
-Owners of **LG** or **Samsung** phones may also encounter a similar issue. It can be caused by using **Dual App/Dual Messenger** function (which automatically creates a restricted profile). To solve this issue, you need to disable this feature.
+Владельцы телефонов **LG** или **Samsung** также могут столкнуться с подобной проблемой. Она может быть вызвана использованием функции **Dual App/Dual Messenger** (которая автоматически создает ограниченный профиль). Чтобы решить эту проблему, необходимо отключить эту функцию.
 
 #### Samsung
 
 - Откройте **Настройки**;
 - Нажмите **Дополнительно**;
 - Прокрутите вниз, а затем нажмите **Dual Messenger**;
-- Disable the **Dual Messenger** for all applications;
+- Отключите **Dual Messenger** для всех приложений;
 - Заблокируйте устройство на 5 минут;
-- Unlock the screen and try again to create the VPN profile.
+- Разблокируйте экран и повторите попытку создания профиля VPN.
 
 #### LG
 
-- Open **Settings**;
-- Choose the **General** tab;
-- Scroll down and then press **Dual App**;
-- Remove all applications from the list;
-- Reboot your device.
+- Откройте **Настройки**;
+- Выберите вкладку **Основные**;
+- Прокрутите вниз, а затем нажмите **Dual App**;
+- Удалите все приложения из списка;
+- Перезагрузите устройство.

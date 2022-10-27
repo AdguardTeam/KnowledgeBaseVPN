@@ -36,14 +36,14 @@ Bir sonraki sekme, AdGuard VPN'in ana ayırt edici özelliklerinden birini içer
 
 Yalnızca web siteleri ekleyip kaldırmakla kalmaz, aynı zamanda hazır dışlama listelerini AdGuard VPN'nin yüklü olduğu diğer cihazlara da aktarabilirsiniz. İstisnalar listenizi dışa aktarmak için aşağıdaki 4 adımlı talimatı uygulayın:
 
-1. Open AdGuard VPN Browser extension from where you want to export your lists of exclusions. Find the appropriate section and click the "Export" button. The `exclusions.zip` archive will be downloaded.
-2. There are two `.txt` files inside the archive, one for each of the Regular and Selective lists. Add more exclusions to them, delete the existing ones, rename files, or just leave the archive as it is.
-3. When transferring between different devices, send the `.zip` file to the device for import.
-4. Open AdGuard VPN on that device. Find the appropriate section, click the "Import" button and select the archive. Done!
+1. Open AdGuard VPN Browser extension from where you want to export your lists of exclusions. Uygun bölümü bulun ve "Dışa aktar" düğmesine tıklayın. `exclusions.zip` arşivi indirilecektir.
+2. Arşivde, Normal ve Seçici listelerin her biri için birer tane olmak üzere iki `.txt` dosyası vardır. Bunlara daha fazla istisna ekleyin, mevcut olanları silin, dosyaları yeniden adlandırın veya arşivi olduğu gibi bırakın.
+3. Farklı cihazlar arasında aktarım yaparken, `.zip` dosyasını içe aktarmak için cihaza gönderin.
+4. Bu cihazda AdGuard VPN'i açın. Uygun bölümü bulun, "İçe aktar" düğmesine tıklayın ve arşivi seçin. Tamamlandı!
 
 ## Hesap
 
-The third tab of AdGuard VPN Browser extension is utterly minimalistic, containing only the email address you used to sign into your account and two buttons, *Manage* and *Sign out*. Clicking the *Manage* button takes you to your personal AdGuard account, where you can see all your current licenses and subscriptions, as well as devices connected to them.
+AdGuard VPN Tarayıcı uzantısının üçüncü sekmesi, yalnızca hesabınıza giriş yapmak için kullandığınız e-posta adresini, *Yönet* ve *Çıkış yap* olmak üzere iki düğmeyi içeren tamamen minimalistiktir. *Yönet* düğmesine tıklamak sizi tüm mevcut lisanslarınızı, aboneliklerinizi ve bunlara bağlı cihazları görebileceğiniz kişisel AdGuard hesabınıza götürür.
 
 ## Destek
 

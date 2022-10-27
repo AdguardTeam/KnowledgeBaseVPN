@@ -1,5 +1,5 @@
 ---
-title: How to subscribe
+title: 구독 방법
 sidebar_position: 6
 ---
 

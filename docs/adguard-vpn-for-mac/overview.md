@@ -16,7 +16,7 @@ Still don't have an AdGuard account? Create it [here](https://auth.adguard.com/r
 
 The first tab is the *Home* screen. Here you can see AdGuard VPN current status and [operating mode](#exclusions), chosen location (if enabled) and its ping. Ping is the response time of a VPN server. Consequently, the lower this number is, the faster the connection. If VPN is disabled, the last location you connected to is displayed below. The fastest locations with the lowest pings are displayed in the upper right corner of the screen. Below you can see the full list of locations. Through the search function, the needed location can be easily found. 
 
-> Free users can connect only to certain locations, while others are blocked. Besides, there is a 3GB monthly traffic limit in the free version.
+> Free users can connect only to certain locations, while others are blocked. Besides, there is a 3 GB monthly traffic limit in the free version.
 
 ## Exclusions
 

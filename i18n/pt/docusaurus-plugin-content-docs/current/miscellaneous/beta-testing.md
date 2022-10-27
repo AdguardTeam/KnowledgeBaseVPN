@@ -1,13 +1,13 @@
 ---
-title: 'AdGuard VPN beta test'
+title: 'Teste beta do AdGuard VPN'
 sidebar_position: 2
 ---
 
-There is an AdGuard VPN app for virtually every major platform out there, and we regularly release updates for all of them. This would not be possible without beta testing and, more importantly, beta testers. Want to become one? Here how you can do it.
+Existe um aplicativo AdGuard VPN para praticamente todas as principais plataformas disponíveis, e lançamos atualizações regularmente para todas elas. Isso não seria possível sem testes beta e, mais importante, testadores beta. Quer se tornar um? Aqui está como você pode fazer isso.
 
 ### Como se tornar um beta tester
 
-To become an AdGuard VPN beta tester, you only need a few things: the desire, the device on which you will install the app, and [this link](https://adguard-vpn.com/en/beta.html), by following which you will be able to download the latest beta or nightly version of AdGuard VPN!
+Para se tornar um testador beta do AdGuard VPN, você só precisa de algumas coisas: o desejo, o dispositivo no qual você instalará o aplicativo e [este link](https://adguard-vpn.com/en/beta.html), seguindo o qual você poderá baixar a versão beta ou noturna mais recente do VPN AdGuard!
 
 ### Como relatar um problema
 
@@ -15,7 +15,7 @@ Vamos imaginar que aconteceu - você detectou um erro. Ou talvez você queira ap
 
 * Vá para [forum.adguard.com](https://forum.adguard.com) e poste um novo tópico (ou encontre um existente) na categoria '[Teste Beta](https://forum.adguard.com/index.php?categories/48/)' do fórum. Certifique-se de ler as [regras do fórum](https://forum.adguard.com/index.php?threads/14859/) primeiro;
 
-* Go to [GitHub](https://github.com/AdguardTeam/) and find a suitable repository. Create a new issue there and describe the bug/feature request in detail.
+* Vá para [GitHub](https://github.com/AdguardTeam/) e encontre um repositório adequado. Crie um novo problema lá e descreva a solicitação de bug/recurso em detalhes.
 
 Os dois métodos acima são os mais preferidos, mas você pode usar outros, se necessário:
 

@@ -1,12 +1,12 @@
 ---
-title: How to subscribe
+title: Nasıl abone olunur
 sidebar_position: 6
 ---
 
-AdGuard VPN is available in two versions — free and unlimited. The subscription allows you to use the app without any restrictions on traffic, connection speed and the choice of locations. You can [read more about all the advantages of the unlimited version](free-vs-unlimited.md).
+AdGuard VPN iki sürümde mevcuttur — ücretsiz ve sınırsız. Abonelik, uygulamayı trafik, bağlantı hızı ve konum seçimi konusunda herhangi bir kısıtlama olmaksızın kullanmanıza olanak tanır. [Sınırsız sürümün tüm avantajları hakkında daha fazla bilgi edinebilirsiniz](free-vs-unlimited.md).
 
-If you have decided to purchase a subscription to AdGuard VPN, there are three ways to do this:
+AdGuard VPN aboneliği satın almaya karar verdiyseniz, bunu yapmanın üç yolu vardır:
 
-1. Via an in-app purchase. Go to the AdGuard VPN app and tap the arrow in the upper-right corner of the screen. There are three subscription plans to choose from — monthly, yearly, and two-year one. Select the most suitable one and tap "Subscribe". This option is available for AdGuard VPN mobile apps for iOS and Android.
-2. Via [AdGuard account](https://my.adguard.com/main.html). Log in to your account and select "My Licenses" from the menu bar. Press "Buy AdGuard VPN" and select a monthly, yearly, or two-year subscription. Pay for it using your card or PayPal account. Done!
-3. Finally, you can purchase an AdGuard VPN subscription on [our website](https://adguard-vpn.com/license.html). Choose a convenient subscription option and enter the email address to which the payment receipt will be sent. You can pay for your subscription using your card or PayPal account.
+1. Uygulama içi satın alma yoluyla. AdGuard VPN uygulamasına gidin ve ekranın sağ üst köşesindeki oka dokunun. Aylık, yıllık ve iki yıllık olmak üzere üç abonelik planı arasından seçim yapabilirsiniz. En uygun olanı seçin ve "Abone ol" öğesine dokunun. Bu seçenek, iOS ve Android için AdGuard VPN mobil uygulamalarında kullanılabilir.
+2. [AdGuard hesabı](https://my.adguard.com/main.html) yoluyla. Hesabınıza giriş yapın ve menü çubuğundan "Lisanslarım" öğesini seçin. "AdGuard VPN Satın Al" öğesine basın ve aylık, yıllık veya iki yıllık bir abonelik seçin. Kartınızı veya PayPal hesabınızı kullanarak ödeme yapın. Tamamlandı!
+3. Son olarak [sitemizden](https://adguard-vpn.com/license.html) bir AdGuard VPN aboneliği satın alabilirsiniz. Uygun bir abonelik seçeneği seçin ve ödeme makbuzunun gönderileceği e-posta adresini girin. Aboneliğiniz için kartınızı veya PayPal hesabınızı kullanarak ödeme yapabilirsiniz.

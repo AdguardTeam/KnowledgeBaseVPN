@@ -14,7 +14,7 @@ To manage your AdGuard VPN Browser extension, either
 
 Once done, you'll see several tabs on the left:
 
-## Settings
+## Impostazioni
 
 A few important settings are gathered inside this tab. Here you can choose a DNS server to use, add or remove the AdGuard VPN icon from the browser’s context menu, block WebRTC, change the extension's theme, and allow AdGuard to gather anonymized crash reports and technical data.
 

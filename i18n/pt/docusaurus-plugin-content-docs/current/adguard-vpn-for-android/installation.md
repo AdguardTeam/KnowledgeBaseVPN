@@ -1,15 +1,15 @@
 ---
-title: Installation and removal
+title: Instalação e remoção
 sidebar_position: 2
 ---
 
-## System requirements
+## Requisitos do Sistema
 
-AdGuard VPN can only be installed on Android devices with **Android 5.0.0 or later versions**.
+O AdGuard VPN só pode ser instalado em dispositivos Android com **Android 5.0.0 ou versões posteriores**.
 
-## How to install AdGuard VPN for Android
+## Como instalar o AdGuard VPN para Android
 
-You can download and install the *AdGuard VPN for Android* app for free in *Goodle Play*. To do this, follow [this link](https://play.google.com/store/apps/details?id=com.adguard.vpn) and tap the *Download* icon or follow a few simple steps:
+Você pode baixar e instalar o aplicativo *AdGuard VPN para Android* gratuitamente no *Google Play*. To do this, follow [this link](https://play.google.com/store/apps/details?id=com.adguard.vpn) and tap the *Download* icon or follow a few simple steps:
 
 1. Open the *Google Play* app on your device and tap *Search* at the top of the screen.
 

@@ -24,7 +24,7 @@ Por defecto, AdGuard VPN para Windows utiliza el nivel de registro estándar, es
 
 ## Recopilación y envío de registros extendidos
 
-En la mayoría de los casos, el nivel de registro por defecto es suficiente para rastrear posibles errores. Pero hay casos en que se requiere información técnica más detallada sobre el dispositivo y las conexiones, y entonces nuestro equipo de soporte le pedirá que habilite el nivel de registro extendido. Para enviar este tipo de registros, siga estos pasos:
+En la mayoría de los casos, el nivel de registro por defecto es suficiente para rastrear posibles errores. Pero hay casos en los que se requiere información técnica más detallada sobre el dispositivo y las conexiones, y entonces nuestro equipo de soporte te pedirá que active el nivel de registro ampliado. Para enviar este tipo de registros, siga estos pasos:
 
 1. Abra AdGuard VPN para Windows y seleccione **Configuración** (en el menú superior) → **General** → **Configuración avanzada**.
 
