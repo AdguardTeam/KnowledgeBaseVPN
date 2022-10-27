@@ -22,6 +22,6 @@ If you decide to remove AdGuard VPN from your computer, use one of three options
 
 1. Click *Start* and find AdGuard VPN in the opened list. Right-click it and select *Uninstall*.
 
-2. Click *Start* -> *Settings* -> *Apps* -> *Applications and features*. Find AdGuard VPN in the list, click it and choose *Uninstall*.
+2. Click *Start* → *Settings* → *Apps* → *Applications and features*. Find AdGuard VPN in the list, click it and choose *Uninstall*.
 
-3. Open the *Control Panel*, then click *Programs* -> *Programs and Features* -> *Uninstall a program*. Find AdGuard VPN in the list, right-click it and select *Uninstall*.
+3. Open the *Control Panel*, then click *Programs* → *Programs and Features* → *Uninstall a program*. Find AdGuard VPN in the list, right-click it and select *Uninstall*.
