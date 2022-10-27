@@ -4,7 +4,7 @@
     "description": "The title of the footer links column with title=vpn in the footer"
   },
   "link.title.products": {
-    "message": "Products",
+    "message": "Prodotti",
     "description": "The title of the footer links column with title=products in the footer"
   },
   "link.title.support": {
@@ -32,7 +32,7 @@
     "description": "The label of footer link with label=blog linking to https://adguard-vpn.com/blog/index.html"
   },
   "link.item.label.discuss": {
-    "message": "Discuss",
+    "message": "Discussione",
     "description": "The label of footer link with label=discuss linking to https://adguard.com/discuss.html"
   },
   "link.item.label.vpn_android": {
@@ -68,7 +68,7 @@
     "description": "The label of footer link with label=status linking to https://status.adguard.com/"
   },
   "link.item.label.test": {
-    "message": "AdGuard test page",
+    "message": "Pagina di prova di AdGuard",
     "description": "The label of footer link with label=test linking to https://adguard.com/test.html"
   },
   "link.item.label.license": {
@@ -80,7 +80,7 @@
     "description": "The label of footer link with label=contribute linking to https://adguard.com/contribute.html"
   },
   "link.item.label.distribution": {
-    "message": "Distribution",
+    "message": "Distribuzione",
     "description": "The label of footer link with label=distribution linking to https://adguard.com/distribution.html"
   },
   "copyright": {

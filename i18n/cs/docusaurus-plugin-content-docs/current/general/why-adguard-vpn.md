@@ -70,4 +70,4 @@ Ale co když se chcete cítit bezpečně při sledování obsahu specifického p
 
 ![Tmavý motiv](https://cdn.adguard.com/public/Adguard/Blog/vpn/main_en_black.png)
 
-Tato drobnost si zaslouží zvláštní zmínku. Mnoho uživatelů touží po tmavém motivu, takže jsme to nemohli ignorovat a přidali jsme přepínač motivů pro všechny produkty AdGuard VPN. Vyberte si ten, který se vám líbí více — světlý, tmavý nebo podle systému. Doufám, že se přidáte na temnou stranu.
+Tato drobnost si zaslouží zvláštní zmínku. Mnoho uživatelů touží po tmavém motivu, takže jsme to nemohli ignorovat a přidali jsme přepínač motivů pro všechny produkty AdGuard VPN. Choose the one you like more — light, dark or system default. Doufám, že se přidáte na temnou stranu.

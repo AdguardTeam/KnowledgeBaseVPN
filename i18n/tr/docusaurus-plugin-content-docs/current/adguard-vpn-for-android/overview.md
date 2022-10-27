@@ -32,7 +32,7 @@ Her sunucunun konumu ve sunucunun yanıt süresini tanımlayan ping hızı vard�
 Sitenizi ve uygulama istisna listelerinizi yönetmenizi kolaylaştırmak için her şeyi yaptık. AdGuard VPN yalnızca seçtiğiniz yerde çalışır.
 
 
-### Lists of exclusions
+### İstisnaların listesi
 
 İstisna listeleri, VPN'nin etkinleştirilmesi ve devre dışı bırakılması gereken siteleri seçmenize olanak tanır. *İstisnalar* bölümüne ulaşmak için ekranın alt kısmındaki soldan ikinci simgeye dokunun.
 
@@ -49,7 +49,7 @@ As you can enable subdomains in service lists, we added boxes that reflect the s
 
 Bir başka kullanışlı özellik ise, *istisnaları İçe ve Dışa aktarma* özelliğidir. Hedefe ulaşmak için sadece dört adım var:
 
-1. Open AdGuard VPN on the device/in the browser from where you want to export your lists of exclusions. Uygun bölümü bulun ve *Dışa aktar* düğmesine tıklayın. `adguard_vpn_exclusions.zip` arşivi indirilecektir.
+1. İstisnalar listenizi dışa aktarmak istediğiniz cihazda veya tarayıcıda AdGuard VPN'i açın. Uygun bölümü bulun ve *Dışa aktar* düğmesine tıklayın. `adguard_vpn_exclusions.zip` arşivi indirilecektir.
 2. Arşivde, *Genel* ve *Seçici* listelerin her biri için birer tane olmak üzere iki `.txt` dosyası vardır. Bunlara daha fazla istisna ekleyin, mevcut olanları silin, dosyaları yeniden adlandırın (ancak daha sonra bu konuda daha fazlası) veya arşivi olduğu gibi bırakın.
 3. Farklı cihazlar arasında aktarım yaparken, `.zip` dosyasını içe aktarmak için cihaza göndermeyi unutmayın. Örneğin, istisna listeleri Windows cihazınızdan Android'inize aktarırsanız, `.zip` dosyasını önceden Android'inize gönderdiğinizden emin olun.
 4. Open AdGuard VPN on the device where you want to import the archive with the ready lists of exclusions. Uygun bölümü bulun, *İçe aktar* düğmesine tıklayın ve arşivi seçin.

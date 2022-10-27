@@ -3,7 +3,7 @@ title: 'AdGuard VPN''de ne tür şifreleme kullanılır'
 sidebar_position: 7
 ---
 
-## Introduction
+## Giriş
 
 "Sanal Özel Ağ" teriminde "özel" kelimesinin bulunmasının nedeni şifrelemedir. Bir VPN, cihazınızla bir VPN sunucusu arasında verilerinizin şifrelendiği ve ardından açık internete güvenli bir biçimde girdiği bir tünel oluşturur. Şifreleme süreci, yani verileri, araya giren hiç kimsenin okuyamayacağı anlamsız kelimelere dönüştürmek, herhangi bir VPN hizmeti için çok önemlidir.
 
@@ -19,10 +19,10 @@ Bugün, AES şifreleme için endüstri standardıdır. Açık doğası nedeniyle
 
 ## AES-256 nasıl çalışır
 
-AES is a block cipher with a symmetric key. As a symmetric-key cipher, it requires only one secret key to encrypt and decrypt the data. As a block cipher, AES divides the unencrypted information, which is called plaintext, into blocks, splits the original cryptographic key into several ones and applies them to each block. In the end, a ciphertext, i.e. an encrypted text, is obtained.
+AES, simetrik anahtarlı bir blok şifredir. Simetrik anahtar şifresi olarak, verileri şifrelemek ve şifresini çözmek için yalnızca bir gizli anahtar gerektirir. Bir blok şifresi olarak AES, düz metin adı verilen şifrelenmemiş bilgiyi bloklara böler, orijinal kriptografik anahtarı birkaç taneye böler ve bunları her bloğa uygular. Sonunda bir şifreli metin, yani şifrelenmiş bir metin elde edilir.
 
-There are different key sizes — 128, 192 and 256 bits — and the blocks are also measured in bits. Şifreleme işlemi sırasında, şifreleyici, güvenlik anahtarına bağlı olarak her bilgiyi bir başkasıyla değiştirir. So, for example, AES-256 creates 256 blocks of ciphertext from 256 blocks of plaintext in 14 rounds.
+Farklı anahtar boyutları vardır — 128, 192 ve 256 bit — ve bloklar da bit cinsinden ölçülür. Şifreleme işlemi sırasında, şifreleyici, güvenlik anahtarına bağlı olarak her bilgiyi bir başkasıyla değiştirir. So, for example, AES-256 creates 256 blocks of ciphertext from 256 blocks of plaintext in 14 rounds.
 
 The rounds consist of several steps: splitting the data into blocks, swapping bytes, shifting rows and rearranging columns. Sonuç, yalnızca bir şifreleme anahtarıyla anlamlı olacak tamamen rastgele bir karakter kümesidir.
 
-AES-256 is the strongest level of encryption: to break this cipher, a bad actor will have to try 2256 discrete combinations, each consisting of 78 digits.
+AES-256 en güçlü şifreleme düzeyidir: Bu şifreyi kırmak için kötü bir oyuncunun her biri 78 basamaktan oluşan 2256 ayrı kombinasyonu denemesi gerekir.

@@ -70,4 +70,4 @@ AdGuard VPN 付费用户可以同时连接五台设备。 我们特别强调*同
 
 ![黑暗主题](https://cdn.adguard.com/public/Adguard/Blog/vpn/main_en_black.png)
 
-但这个小功能值得特别一提。 事实上，对于黑暗主题的呼声一直很大，因此我们为所有 AdGuard VPN 产品增加了一个主题切换开关。 选择你更喜欢的一种：浅色、黑暗或系统主题。 希望你选择加入黑暗势力。
+但这个小功能值得特别一提。 事实上，对于黑暗主题的呼声一直很大，因此我们为所有 AdGuard VPN 产品增加了一个主题切换开关。 Choose the one you like more — light, dark or system default. 希望你选择加入黑暗势力。

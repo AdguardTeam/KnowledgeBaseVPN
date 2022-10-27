@@ -18,15 +18,15 @@ Por defecto, AdGuard VPN para Windows utiliza el nivel de registro estándar, es
 
 3. En el formulario abierto, introduzca su dirección de correo electrónico para recibir comentarios y describa el error encontrado, incluyendo la hora en que se produjo. Si no puedes reproducir el problema, especifica con la mayor precisión posible cuándo se produjo por última vez.
 
-4. Hay una marca de verificación junto a **Adjuntar registros técnicos**, lo que significa que cuando se envía un informe, también se envían los registros.
-> Si por alguna razón le resulta más cómodo enviarnos los registros de otra manera, puede exportarlos usted mismo. Para ello, seleccione **Configuración** → **General** → **Exportar registros** en la sección **Acciones** de la derecha.
+4. There is a check mark next to the **Send detailed system info**, which means that when you send a report, you also send logs.
+> Si por alguna razón le resulta más cómodo enviarnos los registros de otra manera, puede exportarlos usted mismo. To do this, go to **Support** → **Export logs and system info**.
 
 
 ## Recopilación y envío de registros extendidos
 
 En la mayoría de los casos, el nivel de registro por defecto es suficiente para rastrear posibles errores. Pero hay casos en los que se requiere información técnica más detallada sobre el dispositivo y las conexiones, y entonces nuestro equipo de soporte te pedirá que active el nivel de registro ampliado. Para enviar este tipo de registros, siga estos pasos:
 
-1. Abra AdGuard VPN para Windows y seleccione **Configuración** (en el menú superior) → **General** → **Configuración avanzada**.
+1. Open AdGuard VPN for Windows and select **Settings** (in the menu above) → **App settings** → **Advanced settings** → **Logging level**.
 
 2. En la sección **Nivel de registro**, seleccione **Registrar todo**.
 
@@ -38,5 +38,5 @@ En la mayoría de los casos, el nivel de registro por defecto es suficiente para
 
 6. En el formulario abierto, introduzca su dirección de correo electrónico para recibir comentarios y describa el error encontrado, incluyendo la hora en que se produjo.
 
-7. Asegúrese de que hay una marca de verificación junto a **Adjuntar registros técnicos** y haga clic en **Enviar**.
-> Si por alguna razón le resulta más cómodo enviarnos los registros de otra manera, puede exportarlos usted mismo. Para ello, seleccione **Configuración** → **General** → **Exportar registros** en la sección **Acciones** de la derecha.
+7. Make sure that there is a check mark next to **Send detailed system info** and click **Send**.
+> Si por alguna razón le resulta más cómodo enviarnos los registros de otra manera, puede exportarlos usted mismo. To do this, go to **Support** → **Export logs and system info**.

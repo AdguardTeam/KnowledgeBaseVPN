@@ -22,6 +22,6 @@ AdGuard VPN支持**Windows 10/8.1/8/7/Vista SP2（仅限联网）**。
 
 1. 点击 *开始* 按钮，从列表中找到 AdGuard VPN。 右键单击它，然后选择 *卸载*。
 
-2. 打开 *开始* -> *设置* -> *应用* -> *应用与功能*。 在应用列表中找到 AdGuard VPN， 点击它并选择 *卸载*。
+2. Click *Start* → *Settings* → *Apps* → *Applications and features*. 在应用列表中找到 AdGuard VPN， 点击它并选择 *卸载*。
 
-3. 打开 *控制面板*，然后单击 *程序* -> * 程序和功能* -> *卸载程序*。 在应用列表中找到 AdGuard VPN， 右键单击它并选择 *卸载*。
+3. Open the *Control Panel*, then click *Programs* → *Programs and Features* → *Uninstall a program*. 在应用列表中找到 AdGuard VPN， 右键单击它并选择 *卸载*。

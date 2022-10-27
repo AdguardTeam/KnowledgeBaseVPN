@@ -22,6 +22,6 @@ AdGuard VPN'i bilgisayarınızdan kaldırmaya karar verirseniz, aşağıda liste
 
 1. *Başla* öğesine tıklayın ve açılan listede AdGuard VPN'i bulun. Sağ tıklayın ve *Kaldır* öğesini seçin.
 
-2. Click *Start* -> *Settings* -> *Apps* -> *Applications and features*. Listede AdGuard VPN'i bulun, tıklayın ve *Kaldır* öğesini seçin.
+2. Click *Start* → *Settings* → *Apps* → *Applications and features*. Listede AdGuard VPN'i bulun, tıklayın ve *Kaldır* öğesini seçin.
 
-3. Open the *Control Panel*, then click *Programs* -> *Programs and Features* -> *Uninstall a program*. Listede AdGuard VPN'i bulun, sağ tıklayın ve *Kaldır* öğesini seçin.
+3. Open the *Control Panel*, then click *Programs* → *Programs and Features* → *Uninstall a program*. Listede AdGuard VPN'i bulun, sağ tıklayın ve *Kaldır* öğesini seçin.
