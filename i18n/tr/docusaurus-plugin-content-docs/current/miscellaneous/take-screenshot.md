@@ -17,16 +17,16 @@ Bir Android cihazda ekran görüntüsü almak, cihazın modeline ve üreticisine
 
 Genel olarak, Android için aşağıdaki düğme kombinasyonunu kullanmalısınız:
 
-+ **Hold down at once the *Volume Down* and the *Power* buttons for 1–2 seconds**
++ ***Sesi Kısma* ve *Güç* düğmelerini aynı anda 1-2 saniye basılı tutun**
 
 Android cihazınız tüm ekranı yakalayacak ve bir fotoğraf olarak kaydeder. Böylece, ekran görüntüsünü Galerinizdeki bir Ekran Görüntüleri klasöründe bulabilirsiniz.
 
 Ancak, daha önce de söylendiği gibi, belirli bir cihaza bağlı olarak farklılıklar olabilir. Diğer olası kombinasyonlara bakalım:
 
-+ **Hold down at once *Home* and *Power* for 1–2 seconds;**
-+ **Hold down at once the *Back* and the *Home* buttons**
++ ***Home* ve *Power*'ı aynı anda 1-2 saniye basılı tutun;**
++ ***Geri* ve *Ana Sayfa* düğmelerini aynı anda basılı tutun**
 
-On Android 8 and later there is also a possibility to take a screenshot by placing your hand vertically along the left or right edge of your phone and swiping in from that edge with your hand touching the screen.
+Android 8 ve sonraki sürümlerde, elinizi telefonunuzun sol veya sağ kenarına dikey olarak yerleştirerek ve ekrana dokunurken o kenardan kaydırarak ekran görüntüsü alma olanağı da vardır.
 
 If this method doesn’t work, check *Settings* > *Advanced* features to enable *Palm swipe to capture*.
 
@@ -48,9 +48,9 @@ iOS cihazınız tüm ekranı yakalayacak ve bir fotoğraf olarak kaydeder. Bunu 
 
 ### Windows
 
-+ **To take a screenshot on Windows, press the *PrtScn* button**
++ **Windows'ta ekran görüntüsü almak için *PrtScn* düğmesine basın**
 
-On some notebooks you have to hold *Fn* and then press *PrtScn* instead.
+Bazı laptoplarda *Fn* tuşunu basılı tutmanız ve ardından birlilkte *PrtScn* tuşuna basmanız gerekir.
 
 *Please note: PrtScn (Print Screen) button can be differently abbreviated on various keyboards — PrntScrn, PrtScn, PrtScr or PrtSc.*
 
@@ -58,7 +58,7 @@ Windows tüm ekranı yakalar ve (görünmez) panoya kopyalar.
 
 Etkin bir pencerenin ekran görüntüsünü almak için aşağıdaki kombinasyonu kullanın:
 
-+ **Hold down *Alt* and press *PrtScn* (or *Fn + Alt + PrtScn* on some laptops)**
++ ***Alt* tuşunu basılı tutun ve *PrtScn*'e basın (veya bazı dizüstü bilgisayarlarda *Fn + Alt + PrtScn*)**
 
 Belirli bir alanın ekran görüntüsünü almak için aşağıdaki kombinasyonu kullanmalısınız:
 

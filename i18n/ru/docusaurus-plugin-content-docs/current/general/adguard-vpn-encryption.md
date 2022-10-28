@@ -1,28 +1,28 @@
 ---
-title: 'What type of encryption is used in AdGuard VPN'
+title: 'Какой тип шифрования используется в AdGuard VPN'
 sidebar_position: 7
 ---
 
-## Introduction
+## Введение
 
-Encryption is the reason the word "private" exists in the term "Virtual Private Network". A VPN creates a tunnel between your device and a VPN server, passing through which your data gets encrypted and then enters the open Internet in a secure form. The process of encryption, i.e. turning data into gibberish that no one who intercepts it can read, is essential to any VPN service.
+Шифрование — это причина существования слова «частный» в термине «виртуальная частная сеть». VPN создаёт туннель между вашим устройством и VPN-сервером, проходя через который ваши данные шифруются и затем попадают в открытый интернет в защищённом виде. Процесс шифрования, т.е. превращения данных в абракадабру, которую не сможет прочитать никто, кто её перехватит, очень важен для любого VPN-сервиса.
 
-AdGuard VPN protocol uses the most secure and fast encryption algorithm to date – AES-256. Learn what it is and why it is so good.
+Протокол AdGuard VPN использует самый безопасный и быстрый алгоритм шифрования — AES-256. Узнайте, что это за алгоритм и почему он так хорош.
 
-## AES historical tour
+## Исторический экскурс в AES
 
-AES (Advanced Encryption Standard) encryption was developed in the late 20th century at the U.S. government request: the existing Data Encryption Standard (DES) became obsolete and a new, more secure encryption algorithm was required.
+Шифрование AES (Advanced Encryption Standard) было разработано в конце 20-го века по запросу правительства: существующий стандарт шифрования данных (DES) устарел, и требовался новый, более надёжный алгоритм шифрования.
 
-In a public competition announced by the government won the Rijndael cipher — rather similar to DES but much more sophisticated. In 2002 it was renamed AES and published by the U.S. National Institute of Standards and Technology.
+В публичном конкурсе, объявленном правительством, победил шифр Rijndael — довольно похожий на DES, но гораздо более сложный. В 2002 году он был переименован в AES и опубликован Национальным институтом стандартов и технологий США.
 
-Today, AES is the industry standard for encryption. Because of its open nature, it is used by the NSA and government agencies, as well as private, commercial, and non-profit organizations.
+Сегодня AES — промышленный стандарт шифрования. Благодаря своей структуре с открытым исходным кодом он используется агентством национальной безопасности и правительственными агентствами, а также частными, коммерческими и некоммерческими организациями.
 
-## How AES-256 works
+## Как работает AES-256
 
-AES is a block cipher with a symmetric key. As a symmetric-key cipher, it requires only one secret key to encrypt and decrypt the data. As a block cipher, AES divides the unencrypted information, which is called plaintext, into blocks, splits the original cryptographic key into several ones and applies them to each block. In the end, a ciphertext, i.e. an encrypted text, is obtained.
+AES — это блочный шифр с симметричным ключом. Как шифр с симметричным ключом, он требует только один секретный ключ для шифрования и дешифрования данных. Как блочный шифр, AES делит незашифрованную информацию, которая называется открытым текстом, на блоки, разбивает исходный криптографический ключ на несколько и применяет их к каждому блоку. В итоге получается шифротекст, т.е. зашифрованный текст.
 
-There are different key sizes — 128, 192 and 256 bits — and the blocks are also measured in bits. During the encryption process, the encryptor replaces each piece of information with another, depending on the security key. So, for example, AES-256 creates 256 blocks of ciphertext from 256 blocks of plaintext in 14 rounds.
+Существуют разные размеры ключей — 128, 192 и 256 бит, и блоки также измеряются в битах. В процессе шифрования шифровальщик заменяет каждый фрагмент информации другим, в зависимости от ключа безопасности. Так, например, AES-256 создаёт 256 блоков шифротекста из 256 блоков открытого текста за 14 раундов.
 
-The rounds consist of several steps: splitting the data into blocks, swapping bytes, shifting rows and rearranging columns. The result is a completely random set of characters, which will only make sense with an encryption key.
+Раунды состоят из нескольких этапов: разбить данные на блоки, заменить байты, сдвинуть строки и переставить столбцы. В результате получается совершенно случайный набор символов, который будет иметь смысл только при наличии ключа шифрования.
 
-AES-256 is the strongest level of encryption: to break this cipher, a bad actor will have to try 2256 discrete combinations, each consisting of 78 digits.
+AES-256 — это самый сильный уровень шифрования: чтобы взломать этот шифр, злоумышленнику придётся перепробовать 2256 дискретных комбинаций, каждая из которых состоит из 78 цифр.
