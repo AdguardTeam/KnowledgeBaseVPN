@@ -58,9 +58,9 @@ Burada, farklı seçenekleri kullanarak iOS için AdGuard VPN'i yapılandırabil
 
 iOS için AdGuard VPN iki modda çalışabilir: **Genel** ve **Tümleşik**.
 
-In **General** mode, the [AdGuard VPN protocol](../general/adguard-vpn-protocol.mdx) is employed, which provides the best combination of speed and security. Bu modda, AdGuard VPN, [iOS için AdGuard Reklam Engelleyici](https://kb.adguard.com/en/ios) ile birlikte çalışamaz.
+**Genel** modda, hız ve güvenliğin en iyi kombinasyonunu sağlayan [AdGuard VPN protokolü](../general/adguard-vpn-protocol.mdx) kullanılır. Bu modda, AdGuard VPN, [iOS için AdGuard Reklam Engelleyici](https://kb.adguard.com/en/ios) ile birlikte çalışamaz.
 
-In **Integrated** mode, AdGuard VPN will be able to work at the same time with AdGuard for iOS ad blocker by using the IPSec protocol instead. Bu protokol de güvenlidir, ancak biraz daha yavaş ve tespit edilmesi daha kolaydır. Tümleşiği ayarlamak için herhangi bir ek işlem gerçekleştirmeniz gerekmez: her iki uygulamayı da yüklemeniz ve bu moda geçmeniz yeterlidir.
+**Tümleşik** modda, AdGuard VPN, bunun yerine IPSec protokolünü kullanarak iOS için AdGuard reklam engelleyici ile aynı anda çalışabilecektir. Bu protokol de güvenlidir, ancak biraz daha yavaş ve tespit edilmesi daha kolaydır. Tümleşiği ayarlamak için herhangi bir ek işlem gerçekleştirmeniz gerekmez: her iki uygulamayı da yüklemeniz ve bu moda geçmeniz yeterlidir.
 > Note that in **Integrated** mode you can't use the Exclusions feature or choose a DNS server.
 
 ### DNS sunucusu

@@ -17,34 +17,34 @@ Bir veya daha fazla uygulama için bir VPN'e ihtiyacınız varsa, AdGuard VPN'i,
 ![Talimat. Part 1](https://cdn.adguard.com/public/Adguard/Blog/VPNauto/vpn_on1_en.jpg)
 * Download [the *Shortcuts* app](https://apps.apple.com/us/app/shortcuts/id915249334) from the App Store and go to the *Automation* section by tapping the clock icon at the bottom of the screen.
 * Tap the *Create Personal Automation* button, then find *App* in the list that opens and tap it.
-* In the next window, make sure that the *Is Opened* option is selected, and then tap *Choose* to choose the app.
+* Bir sonraki pencerede, *Açıldı* öğesinin seçili olduğundan emin olun ve ardından uygulamayı seçmek için *Seç* öğesine dokunun.
 
 ![Talimat. Part 2](https://cdn.adguard.com/public/Adguard/Blog/VPNauto/vpn_on2_en.jpg)
-* Uygulamanın adını girmeye başlayın, bizim durumumuzda bu Twitter'dır ve onu seçin. Then tap *Done* in the upper right corner of the screen. After it tap *Next* in the upper right corner of the screen. And in the opened window tap *Add Action*.
+* Uygulamanın adını girmeye başlayın, bizim durumumuzda bu Twitter'dır ve onu seçin. Ardından ekranın sağ üst köşesindeki *Bitti* öğesine dokunun. Ardından ekranın sağ üst köşesindeki *Sonraki* öğesine dokunun. Ve açılan pencerede *İşlem Ekle* öğesine dokunun.
 
 ![Talimat. Part 3](https://cdn.adguard.com/public/Adguard/Blog/VPNauto/vpn_on3_en.jpg)
 
-* Start entering “AdGuard VPN” and select the AdGuard VPN app. In the new window tap *Set a VPN connection*.
+* “AdGuard VPN” yazmaya başlayın ve AdGuard VPN uygulamasını seçin. Yeni pencerede *Bir VPN bağlantısı kur* öğesine dokunun.
 
 ![Talimat. Part 4](https://cdn.adguard.com/public/Adguard/Blog/VPNauto/vpn_on4_en.jpg)
 * Make sure the variables say *Turn* VPN connection *On* and tap *Next*.
-* In the next window, move the slider next to the *Ask before running* option to the inactive position. Confirm your choice, the tap *Done*.
+* Bir sonraki pencerede, *Çalıştırmadan önce sor* seçeneğinin yanındaki kaydırıcıyı etkin olmayan konuma getirin. Seçiminizi onaylayın, *Bitti* öğesine dokunun.
 
 Artık yeni bir senaryonuz var: Twitter uygulamasını başlattığınızda AdGuard VPN otomatik olarak etkinleştirilecektir. Şimdi, uygulamayı kapattığınızda AdGuard VPN'nin otomatik olarak kapanmasını sağlayacak başka bir komut oluşturmanız gerekiyor.
 
 ## AdGuard VPN otomatik kapanmasını yapılandırma
 
 ![Talimat. Part 1](https://cdn.adguard.com/public/Adguard/Blog/VPNauto/vpn_off1_en.jpg)
-* In the same *Shortcuts* app start creating a new automation: click *+* in the upper right corner of the screen and then on the *Create Personal Automation* button. In the opened window choose *App*.
-* Make sure that the *Is Closed* option is selected and uncheck the box under the adjacent option. Ardından *Seç* öğesine dokunun.
+* Aynı *Kestirmeler* uygulamasında yeni bir otomasyon oluşturmaya başlayın: ekranın sağ üst köşesindeki *+* öğesine ve ardından *Kişisel Otomasyon Yarat* düğmesine tıklayın. Açılan pencerede *Uygulama* öğesini seçin.
+* *Kapalı* seçeneğinin seçili olduğundan emin olun ve yandaki seçeneğin altındaki kutunun işaretini kaldırın. Ardından *Seç* öğesine dokunun.
 
 ![Talimat. Part 2](https://cdn.adguard.com/public/Adguard/Blog/VPNauto/vpn_off2_en.jpg)
-* *Twitter* adresine girmeye başlayın ve uygulamayı seçin. Then tap *Done* in the upper right corner of the screen. Tap *Add Action* and select AdGuard VPN.
+* *Twitter* adresine girmeye başlayın ve uygulamayı seçin. Ardından ekranın sağ üst köşesindeki *Bitti* öğesine dokunun. *İşlem Ekle* öğesine dokunun ve AdGuard VPN'i seçin.
 
 ![Talimat. Part 3](https://cdn.adguard.com/public/Adguard/Blog/VPNauto/vpn_off3_en.jpg)
 
-* In the new window tap *Set VPN connection*.
+* Yeni pencerede *VPN bağlantısı kur* öğesine dokunun.
 * Then tap the word *On* so that it changes to the word *Off*, then tap *Next* in the upper right corner of the screen.
-* Disable the *Ask before running* option and confirm your selection. Then tap *Done* at the top right corner of the screen to complete the process
+* *Çalıştırmadan önce sor* seçeneğini devre dışı bırakın ve seçiminizi onaylayın. Ardından işlemi tamamlamak için ekranın sağ üst köşesindeki *Bitti* öğesine dokunun.
 
 Tamamlandı! AdGuard VPN artık Twitter uygulamasını her açtığınızda cihazınızda etkinleştirilecek ve kapattığınızda devre dışı bırakılacaktır. Başka bir uygulama için aynı adımları tekrarlayabilirsiniz. 

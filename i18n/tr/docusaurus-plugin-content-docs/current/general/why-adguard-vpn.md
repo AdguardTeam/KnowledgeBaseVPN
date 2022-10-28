@@ -70,4 +70,4 @@ Peki ya bölgenize özel içerikler izlerken kendinizi güvende hissetmek istiyo
 
 ![Karanlık mod](https://cdn.adguard.com/public/Adguard/Blog/vpn/main_en_black.png)
 
-Bu küçük özellik özel olarak anılmayı hak ediyor. Aslında, pek çok kullanıcı karanlık modu çok istiyor, bu yüzden onu görmezden gelemedik ve tüm AdGuard VPN ürünleri için bir tema anahtarı ekledik. Choose the one you like more — light, dark or system default. Umarız karanlık tarafa katılırsın.
+Bu küçük özellik özel olarak anılmayı hak ediyor. Aslında, pek çok kullanıcı karanlık modu çok istiyor, bu yüzden onu görmezden gelemedik ve tüm AdGuard VPN ürünleri için bir tema anahtarı ekledik. Daha çok hoşunuza gideni seçin — açık, koyu veya sistem varsayılanı. Umarız karanlık tarafa katılırsın.
