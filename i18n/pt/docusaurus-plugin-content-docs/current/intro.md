@@ -1,16 +1,16 @@
 ---
-title: AdGuard VPN Overview
+title: Visão geral do AdGuard VPN
 sidebar_position: 1
 slug: /
 ---
 
-## What a VPN is and why you need one
+## O que é uma VPN e por que você precisa de uma
 
-A VPN allows you to create a secure connection to another network on the Internet.
+Uma VPN permite que você crie uma conexão segura com outra rede na Internet.
 
-Initially, VPNs were created for one purpose — to securely connect business networks over the Internet, so that people could connect to the corporate network from home. This technology is used for many other things: for example, to browse the Internet anonymously or to protect your online activity from prying eyes while using public Wi-Fi.
+Inicialmente, as VPNs foram criadas com um propósito – conectar com segurança redes de negócios pela Internet, para que as pessoas pudessem se conectar à rede corporativa de casa. Essa tecnologia é usada para muitas outras coisas: por exemplo, para navegar na Internet anonimamente ou para proteger sua atividade online de olhares indiscretos ao usar o Wi-Fi público.
 
-A VPN connects a user's computer or mobile device to a server and allows one to browse the net using someone else's IP address. Thus, third-party observers cannot see the user's real IP address, which makes it nearly impossible to trace them.
+Uma VPN conecta o computador ou dispositivo móvel de um usuário a um servidor e permite navegar na rede usando o endereço IP de outra pessoa. Assim, observadores de terceiros não podem ver o endereço IP real do usuário, o que torna quase impossível rastreá-los.
 
 Speaking of VPN, the first thing they mention is traffic encryption and security deriving from it. But what does it mean? A VPN creates an encrypted tunnel between the user's device and the remote server. All your web traffic passes through this tunnel, so your data is protected along the way. For the external observer, your traffic exits the VPN server, so it looks like your device has the IP address of this server. This trick masks the user's identity and true location.
 

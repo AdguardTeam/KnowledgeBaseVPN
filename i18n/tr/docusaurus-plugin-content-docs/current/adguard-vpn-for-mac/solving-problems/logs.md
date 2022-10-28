@@ -22,7 +22,7 @@ Varsayılan olarak, Mac için AdGuard VPN, uygulamanın çalışan süreçleri h
 
 Çoğu durumda, olası hataların izini sürmek için varsayılan günlük kayıt düzeyi yeterlidir. Ancak, cihaz ve bağlantılar hakkında daha ayrıntılı teknik bilgilerin gerekli olduğu durumlar vardır ve bu durumda destek ekibimiz, genişletilmiş günlük kayıt düzeyini etkinleştirmenizi ister. Bu tür günlükleri göndermek için şu adımları takip edin:
 
-1. Open AdGuard VPN for Mac and select **Settings** → **General** → **Advanced settings**.
+1. Mac için AdGuard VPN'i açın ve **Ayarlar** → **Genel** → **Gelişmiş ayarlar** öğesini seçin.
 
 2. **Günlük kayıt düzeyi** bölümünde, **Her şeyi kaydet** öğesini seçin.
 

@@ -70,4 +70,4 @@ But what if you want to feel safe while watch content specific to your region? O
 
 ![다크 모드](https://cdn.adguard.com/public/Adguard/Blog/vpn/main_en_black.png)
 
-이 기능은 특별히 언급할 가치가 있습니다. 많은 사용자들이 다크 모드를 원하기 때문에 모든 AdGuard VPN 제품에 테마 테마를 추가했습니다. 라이트, 다크 또는 시스템 중에서 좋아하는 테마를 선택하세요. 다크 테마가 마음에 드셨으면 좋겠습니다.
+이 기능은 특별히 언급할 가치가 있습니다. 많은 사용자들이 다크 모드를 원하기 때문에 모든 AdGuard VPN 제품에 테마 테마를 추가했습니다. Choose the one you like more — light, dark or system default. 다크 테마가 마음에 드셨으면 좋겠습니다.

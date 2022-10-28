@@ -43,7 +43,7 @@ Windows için AdGuard VPN iki modda çalışabilir: **Genel** veya **Seçici**. 
 
 ![Listeden İstisnalar ekle](https://cdn.adguard.com/content/kb/VPN/windows/exclusions_from_list_en.png)
 
-> Alan adlarını el olarak eklerken bazı ince ayrıntıları göz önünde bulundurmalısınız. For example, if you manually exclude the domain `google.com`, all the subdomains `*.google.com` will also be added to the exclusions list. However, domain names with other top-level domains such as `google.es` or `google.it` will not be excluded. Veya `youtube.com` sitesini istisnalara ekleyebilirsiniz, ancak aynı hizmet `youtu.be` sitesinin etki alanı listeye dahil edilmeyecektir.
+> Alan adlarını el olarak eklerken bazı ince ayrıntıları göz önünde bulundurmalısınız. For example, if you manually exclude the domain `google.com`, all the subdomains `*.google.com` will also be added to the exclusions list. Ancak, `google.es` veya `google.it` gibi diğer üst düzey alan adlarına sahip alan adları hariç tutulmayacaktır. Veya `youtube.com` sitesini istisnalara ekleyebilirsiniz, ancak aynı hizmet `youtu.be` sitesinin etki alanı listeye dahil edilmeyecektir.
 
 Gereksiz güçlüklerden kaçınmak için **Listeden** seçeneğini kullanmanızı tavsiye ederiz. Zaten sizin için sekiz farklı popüler hizmet kategorisini grupladık: Sosyal ağlar, Mesajlaşma, Video ve Müzik yayın akışı hizmetleri, Oyunlar, Alışveriş, Arama motorları ve İş iletişim araçları. Her platformla ilgili tüm alan adları ve alt alan adları dahil olmak üzere en popüler hizmetleri oraya yerleştirdik. Bu şekilde, VPN açıkken veya tam tersi durumda çalışmaya devam etmesini istediğiniz herhangi bir hizmeti veya alan adınını unutmadığınızdan emin olacaksınız.
 

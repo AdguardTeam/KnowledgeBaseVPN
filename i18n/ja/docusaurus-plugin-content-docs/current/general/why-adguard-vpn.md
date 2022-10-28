@@ -70,4 +70,4 @@ AdGuard VPNは、有料ユーザーには5つの同時接続を提供します�
 
 ![ダークモード](https://cdn.adguard.com/public/Adguard/Blog/vpn/main_en_black.png)
 
-この小さな機能は特筆に価します。 多くのユーザーがダークモードを利用しているため、すべてのAdGuard VPN製品にテーマスイッチを追加しています。 ライト、ダーク、システムのうち、好きなテーマをお選びいただけます。 Hope you’ll join the dark side.
+この小さな機能は特筆に価します。 多くのユーザーがダークモードを利用しているため、すべてのAdGuard VPN製品にテーマスイッチを追加しています。 Choose the one you like more — light, dark or system default. Hope you’ll join the dark side.

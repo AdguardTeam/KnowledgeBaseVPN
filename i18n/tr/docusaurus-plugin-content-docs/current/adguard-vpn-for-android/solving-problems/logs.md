@@ -22,7 +22,7 @@ Varsayılan olarak, Android için AdGuard VPN **Varsayılan** günlük kayıt d�
 
 Çoğu durumda, olası hataların izini sürmek için **Varsayılan** günlük kayıt düzeyi yeterlidir. Ancak, cihaz ve bağlantılar hakkında daha ayrıntılı teknik bilgilerin gerekli olduğu durumlar vardır ve bu durumda destek ekibimiz, **Genişletilmiş** veya **Son derece** günlük kayıt düzeyini etkinleştirmenizi ister. Bu tür günlükleri göndermek için şu adımları takip edin:
 
-1. Android için AdGuard VPN'i açın ve **Ayarlar** (sağ alt köşedeki dişli çark simgesi) → **Uygulama Ayarları** → **Gelişmiş Ayarlar** → **Günlük kayıt düzeyi** öğesni seçin.
+1. Open AdGuard VPN for Android and select **Settings** (the gear icon at the bottom right corner) → **App settings** → **Advanced settings** → **Logging level**.
 
 2. **Günlük kayıt düzeyi** bölümünde, **Genişletilmiş** veya **Son derece** günlük kayıt düzeyini seçin.
 

@@ -70,4 +70,4 @@ Was aber, wenn Sie sich sicher fühlen wollen, während Sie sich Inhalte ansehen
 
 ![Dunkelmodus](https://cdn.adguard.com/public/Adguard/Blog/vpn/main_en_black.png)
 
-Dieses kleine Feature verdient besondere Erwähnung. Tatsächlich sehnen sich viele Benutzer:innen nach einem dunklen Modus, so dass wir dies nicht ignorieren konnten und einen Themenschalter für alle AdGuard VPN-Produkte hinzugefügt haben. Wählen Sie aus, was Ihnen besser gefällt — hell, dunkel oder System. Hoffentlich wird Ihnen den Dunkelmodus gefallen.
+Dieses kleine Feature verdient besondere Erwähnung. Tatsächlich sehnen sich viele Benutzer:innen nach einem dunklen Modus, so dass wir dies nicht ignorieren konnten und einen Themenschalter für alle AdGuard VPN-Produkte hinzugefügt haben. Choose the one you like more — light, dark or system default. Hoffentlich wird Ihnen den Dunkelmodus gefallen.

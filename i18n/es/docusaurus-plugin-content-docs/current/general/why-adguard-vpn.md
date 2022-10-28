@@ -70,4 +70,4 @@ Pero, ¿qué pasa si quieres sentirte seguro mientras miras contenido específic
 
 ![Modo oscuro](https://cdn.adguard.com/public/Adguard/Blog/vpn/main_en_black.png)
 
-Esta pequeña característica merece una mención especial. De hecho, muchos usuarios anhelan el modo oscuro, por lo que no pudimos ignorarlo y agregamos un cambio de tema para todos los productos AdGuard VPN. Elige el que más te guste: claro, oscuro o sistema. Esperamos que te unas al lado oscuro.
+Esta pequeña característica merece una mención especial. De hecho, muchos usuarios anhelan el modo oscuro, por lo que no pudimos ignorarlo y agregamos un cambio de tema para todos los productos AdGuard VPN. Choose the one you like more — light, dark or system default. Esperamos que te unas al lado oscuro.

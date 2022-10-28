@@ -13,7 +13,7 @@ Dès le départ, nous avons décidé de développer et de déployer un protocole
 En choisissant un service VPN, les gens sont souvent confrontés au choix d'un compromis entre la rapidité et la sécurité. Le protocole AdGuard VPN est un mélange parfait de vitesse et de sécurité, vous n'avez donc pas à souffrir d'une connexion Internet lente ou à faire des sacrifices en matière de confidentialité. Entre autres choses, il se déguise en trafic ordinaire et il est beaucoup plus difficile de le détecter et de le bloquer.
 
 ## 2. Exclusions
-Les *listes d'exclusions* vous permettent de sélectionner les sites pour lesquels le VPN doit être activé et pour lesquels — désactivé. Il y a deux modes d'opération de AdGuard VPN : *Général* et *Sélectif*. En mode *Général*, le VPN fonctionne partout sauf les sites ajoutés aux exclusions. Et inversement, en *Mode sélectif*, le VPN ne fonctionne que sur les sites ajoutés aux exclusions. You can also easily import/export exclusions lists. Pour en savoir plus sur cette fonctionnalité, consultez le site *Aperçu des fonctionnalités* pour le produit qui vous intéresse.
+Les *listes d'exclusions* vous permettent de sélectionner les sites pour lesquels le VPN doit être activé et pour lesquels — désactivé. Il y a deux modes d'opération de AdGuard VPN : *Général* et *Sélectif*. En mode *Général*, le VPN fonctionne partout sauf les sites ajoutés aux exclusions. Et inversement, en *Mode sélectif*, le VPN ne fonctionne que sur les sites ajoutés aux exclusions. Vous pouvez également facilement importer/exporter des listes d'exclusions. Pour en savoir plus sur cette fonctionnalité, consultez le site *Aperçu des fonctionnalités* pour le produit qui vous intéresse.
 
 ![Un exemple de liste d'exclusion pour le Mode sélectif](https://cdn.adguard.com/public/Adguard/Blog/vpn_export_exclusions.png)
 
@@ -70,4 +70,4 @@ Mais que faire si vous voulez vous sentir en sécurité tout en regardant des co
 
 ![Thème sombre](https://cdn.adguard.com/public/Adguard/Blog/vpn/main_en_black.png)
 
-Cette petite fonctionnalité mérite une mention spéciale. En fait, beaucoup d'utilisateurs ont envie d'avoir un thème sombre, donc nous ne pouvions pas l'ignorer et avons ajouté un interrupteur de thème pour tous les produits VPN AdGuard. Choisissez celui qui vous plaît le plus - clair, sombre ou système. En espérant que vous rejoignez le côté sombre.
+Cette petite fonctionnalité mérite une mention spéciale. En fait, beaucoup d'utilisateurs ont envie d'avoir un thème sombre, donc nous ne pouvions pas l'ignorer et avons ajouté un interrupteur de thème pour tous les produits VPN AdGuard. Choose the one you like more — light, dark or system default. En espérant que vous rejoignez le côté sombre.
