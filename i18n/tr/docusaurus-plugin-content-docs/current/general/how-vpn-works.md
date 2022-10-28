@@ -59,7 +59,7 @@ Bazı çevrimiçi hizmetler, VPN trafiğini algılamak ve VPN kullanıcılarına
 
 **VPN bağlantıları kesiliyor**
 
-A weak signal, network overload, VPN incompatibility with a firewall, antivirus and other programs, an outdated VPN protocol — all this can cause a sudden failure in the VPN connection, especially by unreliable VPN providers.
+Zayıf bir sinyal, ağ aşırı yüklenmesi, bir güvenlik duvarı, antivirüs ve diğer programlarla VPN uyumsuzluğu, eski bir VPN protokolü— tüm bunlar, özellikle güvenilmez VPN sağlayıcıları tarafından VPN bağlantısında ani bir arızaya neden olabilir.
 
 ## AdGuard VPN
 
@@ -67,7 +67,7 @@ VPN hizmetimizin birkaç önemli [avantajı](why-adguard-vpn.md) vardır:
 
 * [*Proprietary VPN protocol*](adguard-vpn-protocol.mdx), which works stably even with a slow Internet connection and disguises itself as normal traffic, making it more difficult to track and block it
 
-* [*"No-logs" policy*](https://adguard-vpn.com/en/privacy.html), which means that AdGuard VPN does not collect your personal data and does not transfer it to third parties
+* [*"Günlük tutmama" politikası*](https://adguard-vpn.com/en/privacy.html), AdGuard VPN'nin kişisel verilerinizi toplamadığı ve bunları başkasına aktarmadığı anlamına gelir
 
 * *Onlarca ülkede 50'den fazla VPN sunucusu*
 

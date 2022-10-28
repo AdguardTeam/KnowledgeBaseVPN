@@ -21,7 +21,7 @@ Bilgi Tabanı sitesi, modern bir statik site oluşturucu olan Docusaurus 2 kulla
 
 Bilgi Tabanı'nın mevcut makalelerinin çevirisi [Crowdin platformunda](https://crowdin.com/project/adguard-vpn-knowledge-base) gerçekleştirilir. Çeviriler ve Crowdin ile çalışma ile ilgili tüm ayrıntılar AdGuard Reklam Engelleyici Bilgi Tabanı'nın [ilgili makalesinde](https://kb.adguard.com/en/general/adguard-translations) bulunabilir.
 
-AdGuard VPN Bilgi Tabanı makaleleri üzerinde çalışırken, daha fazla dikkatle çevirmeniz gereken çoğul biçimler içeren dizelerle karşılaşabilirsiniz. [In a separate article](https://kb.adguard.com/en/miscellaneous/plurals), we described in detail the difficulties that can arise when translating strings with plural forms, and gave extensive instructions on how to work with them on the Crowdin platform.
+AdGuard VPN Bilgi Tabanı makaleleri üzerinde çalışırken, daha fazla dikkatle çevirmeniz gereken çoğul biçimler içeren dizelerle karşılaşabilirsiniz. [Ayrı bir makalede](https://kb.adguard.com/en/miscellaneous/plurals), çoğul biçimli dizeleri çevirirken ortaya çıkabilecek zorlukları ayrıntılı olarak açıkladık ve Crowdin platformunda bunlarla nasıl çalışılacağına dair kapsamlı talimatlar verdik.
 
 ## Açık sorunlar üzerinde çalışma
 
