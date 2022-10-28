@@ -38,7 +38,7 @@ Sitenizi ve uygulama istisna listelerinizi yönetmenizi kolaylaştırmak için h
 
 İki mod vardır: *Genel modda*, istisna listesindeki siteler hariç tutulur ve *Seçici modda*, AdGuard VPN'in çalıştığı tek siteler olacaktır.
 
-You can add domains (e.g. `google.com`) or subdomains (e.g. `*.google.com`) of websites to the *Exclusions* in three ways: enter them manually in the app or right from the browser by clicking the *Share* button and selecting AdGuard VPN in the opened list below. Bunları, kategorilere ayrılmış yerleşik hizmet listelerinden de ekleyebilirsiniz.
+*Hariç Tutulanlar*'a web sitelerinin alan adlarını (ör. `google.com`) veya alt alan adlarını (ör. `*.google.com`) üç şekilde ekleyebilirsiniz: bunları uygulamaya manuel olarak girin veya *Paylaş* düğmesini tıklayıp aşağıdaki açılan listeden AdGuard VPN'i seçerek doğrudan tarayıcıdan girin. Bunları, kategorilere ayrılmış yerleşik hizmet listelerinden de ekleyebilirsiniz.
 
 ![İstisnalar](https://cdn.adguard.com/public/Adguard/kb/VPN/Screenshots/add_site_android.jpg)
 > Alan adlarının el olarak eklenmesinde bazı ince ayrıntılar vardır. Örneğin, `yahoo.com` alanını elle hariç tutarsanız, tüm `*.yahoo.com` alt alanları da istisnalarda listelenir. Ancak, `yahoo.jp` veya `yahoo.fr` gibi diğer üst düzey alan adlarına sahip alan adları hariç tutulmayacaktır. Veya `youtube.com` sitesini istisnalara ekleyebilirsiniz, ancak aynı hizmet `youtu.be` sitesinin alan adı listeye girmez. Bu durumda, her platformla ilgili tüm alt alan adlarını oraya koyduğumuz için yerleşik hizmet listelerini kullanmak daha güvenlidir.
