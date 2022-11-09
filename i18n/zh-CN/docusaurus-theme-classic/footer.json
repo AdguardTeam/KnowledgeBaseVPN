@@ -32,7 +32,7 @@
     "description": "The label of footer link with label=blog linking to https://adguard-vpn.com/blog/index.html"
   },
   "link.item.label.discuss": {
-    "message": "Discuss",
+    "message": "讨论",
     "description": "The label of footer link with label=discuss linking to https://adguard.com/discuss.html"
   },
   "link.item.label.vpn_android": {
@@ -64,27 +64,27 @@
     "description": "The label of footer link with label=faq linking to https://adguard-vpn.com/support/faq.html"
   },
   "link.item.label.status": {
-    "message": "Status Page",
+    "message": "状态",
     "description": "The label of footer link with label=status linking to https://status.adguard.com/"
   },
   "link.item.label.test": {
-    "message": "AdGuard test page",
+    "message": "AdGuard 测试页",
     "description": "The label of footer link with label=test linking to https://adguard.com/test.html"
   },
   "link.item.label.license": {
-    "message": "Purchase a license",
+    "message": "购买许可",
     "description": "The label of footer link with label=license linking to https://adguard-vpn.com/license.html"
   },
   "link.item.label.contribute": {
-    "message": "Contribute to AdGuard",
+    "message": "为 AdGuard 做贡献",
     "description": "The label of footer link with label=contribute linking to https://adguard.com/contribute.html"
   },
   "link.item.label.distribution": {
-    "message": "Distribution",
+    "message": "分销",
     "description": "The label of footer link with label=distribution linking to https://adguard.com/distribution.html"
   },
   "copyright": {
-    "message": "© AdGuard VPN, 2022",
+    "message": "© AdGuard VPN，2022",
     "description": "The footer copyright"
   }
 }

@@ -18,15 +18,15 @@ Varsayılan olarak, Windows için AdGuard VPN, uygulamanın çalışan süreçle
 
 3. Açılan formda, geri bildirim için e-posta adresinizi girin ve bulunan hatayı, bu hatanın oluştuğu zaman da dahil olmak üzere açıklayın. Sorunu yeniden oluşturamıyorsanız, en son ne zaman oluştuğunu olabildiğince doğru bir şekilde belirtin.
 
-4. There is a check mark next to the **Send detailed system info**, which means that when you send a report, you also send logs.
-> Herhangi bir nedenle bize günlükleri başka bir şekilde göndermeniz daha uygunsa, bunları kendiniz dışa aktarabilirsiniz. To do this, go to **Support** → **Export logs and system info**.
+4. **Detaylı sistem bilgisi gönder** öğesinin yanında bir onay işareti vardır; bu, bir rapor gönderdiğinizde günlükleri de göndereceğiniz anlamına gelir.
+> Herhangi bir nedenle bize günlükleri başka bir şekilde göndermeniz daha uygunsa, bunları kendiniz dışa aktarabilirsiniz. Bunu yapmak için **Destek** → **Günlükleri ve sistem bilgisini dışa aktar** öğesine gidin.
 
 
 ## Genişletilmiş günlükleri toplama ve gönderme
 
 Çoğu durumda, olası hataların izini sürmek için varsayılan günlük kayıt düzeyi yeterlidir. Ancak, cihaz ve bağlantılar hakkında daha ayrıntılı teknik bilgilerin gerekli olduğu durumlar vardır ve bu durumda destek ekibimiz, genişletilmiş günlük kayıt düzeyini etkinleştirmenizi ister. Bu tür günlükleri göndermek için şu adımları takip edin:
 
-1. Open AdGuard VPN for Windows and select **Settings** (in the menu above) → **App settings** → **Advanced settings** → **Logging level**.
+1. Windows için AdGuard VPN'i açın ve **Ayarlar** (yukarıdaki menüde) → **Uygulama ayarları** → **Gelişmiş ayarlar** → **Günlük kayıt düzeyi** öğesni seçin.
 
 2. **Günlük kayıt düzeyi** bölümünde, **Her şeyi kaydet** öğesini seçin.
 
@@ -38,5 +38,5 @@ Varsayılan olarak, Windows için AdGuard VPN, uygulamanın çalışan süreçle
 
 6. Açılan formda, geri bildirim için e-posta adresinizi girin ve bulunan hatayı, bu hatanın oluştuğu zaman da dahil olmak üzere açıklayın.
 
-7. Make sure that there is a check mark next to **Send detailed system info** and click **Send**.
-> Herhangi bir nedenle bize günlükleri başka bir şekilde göndermeniz daha uygunsa, bunları kendiniz dışa aktarabilirsiniz. To do this, go to **Support** → **Export logs and system info**.
+7. **Detaylı sistem bilgisi gönder** öğesinin yanında bir onay işareti olduğundan emin olun ve **Gönder** öğesine tıklayın.
+> Herhangi bir nedenle bize günlükleri başka bir şekilde göndermeniz daha uygunsa, bunları kendiniz dışa aktarabilirsiniz. Bunu yapmak için **Destek** → **Günlükleri ve sistem bilgisini dışa aktar** öğesine gidin.

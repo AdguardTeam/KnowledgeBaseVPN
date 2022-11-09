@@ -23,12 +23,12 @@ Su dispositivo Android capturará toda la pantalla y la guardará como una foto.
 
 Pero, como ya se ha dicho, puede haber diferencias dependiendo de un dispositivo en particular. Veamos otras combinaciones posibles:
 
-+ **Mantenga presionados a la vez los botones *Inicio* y *Encendido* durante 1-2 segundos;**
++ **Hold down at once *Home* and *Power* buttons for 1–2 seconds;**
 + **Mantenga presionados a la vez los botones *Atrás* e *Inicio***
 
 En Android 8 y versiones posteriores también existe la posibilidad de tomar una captura de pantalla colocando la mano verticalmente a lo largo del borde izquierdo o derecho de su teléfono y deslizando desde ese borde con la mano tocando la pantalla.
 
-Si este método no funciona, compruebe en *Configuración* > *Funciones avanzadas* para habilitar *Deslice la palma de la mano para capturar*.
+If this method doesn’t work, check *Settings* → *Advanced* features to enable *Palm swipe to capture*.
 
 Además, siempre puedes utilizar alguna aplicación especial para hacer capturas de pantalla en tus dispositivos, por ejemplo —*Screenshot Easy*, *Screenshot Ultimate*, *Screenshot Snap*, etc.
 
@@ -42,7 +42,7 @@ Para tomar una captura de pantalla en un dispositivo iOS, use la siguiente combi
 
 y esta para iPhone X o posterior:
 
-+ **Presione el botón ** de Reposo / Activación y el botón *Subir volumen* al mismo tiempo, luego suéltelos rápidamente**
++ **Press the *Sleep/Wake* button and the *Volume Up* button at the same time, then quickly release them**
 
 Su dispositivo iOS capturará toda la pantalla y la guardará como una foto. Puedes encontrarlo en una aplicación de fotos estándar.
 
@@ -66,7 +66,7 @@ Para tomar una captura de pantalla de un área específica, debe usar la siguien
 
 Después de tomar una captura de pantalla, se guardará en el portapapeles. En la mayoría de los casos, podrá pegarlo en un documento que está editando actualmente utilizando *combinación de botones Ctrl + V*. Alternativamente, si necesita guardar la captura de pantalla en un archivo, debe abrir el programa estándar **Paint** (o cualquier otra aplicación que pueda trabajar con imágenes). Pegue su captura de pantalla allí usando la misma combinación de botones o haciendo clic en el botón Pegar (generalmente en la esquina superior izquierda de la pantalla) y luego guárdela.
 
-Windows 8 y 10 le permiten tomar una captura de pantalla muy rápidamente con una combinación de *Win + PrtScn*. Tan pronto como presione estos botones, la captura de pantalla se guardará automáticamente como un archivo en su carpeta Imágenes -> Capturas de pantalla.
+Windows 8 y 10 le permiten tomar una captura de pantalla muy rápidamente con una combinación de *Win + PrtScn*. As soon as you press these buttons, the screenshot will be automatically saved as a file to your Pictures → Screenshots Folder.
 
 También hay un programa dedicado para tomar capturas de pantalla llamado *Herramienta Recortes* que puede encontrar a través del menú Inicio entre los programas estándar de su computadora. Herramienta Recortes le permite capturar cualquier área de su escritorio o toda la pantalla. Después de tomar una captura de pantalla con este programa, puede editar la imagen y guardarla en cualquier carpeta de su computadora.
 

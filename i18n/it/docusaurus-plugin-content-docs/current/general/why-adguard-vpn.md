@@ -22,13 +22,13 @@ Puoi aggiungere siti Web alle esclusioni manualmente o sceglierli tra gli elench
 > Questa funzione è disponibile su tutte le piattaforme tranne iOS.
 
 ## 3. Choosing a DNS server
-No more relying on the DNS server provided by your ISP by default! First, it’s not safe: your ISP most likely has access to your browsing history. Second, People often underestimate DNS, yet it can remove ads and trackers, protect your device from malware or, for instance, enable safe search and block adult content.
+No more relying on the DNS server provided by your ISP by default! First, it’s not safe: your ISP most likely has access to your browsing history. Second, people often underestimate DNS, yet it can remove ads and trackers, protect your device from malware or, for instance, enable safe search and block adult content.
 
 You can choose DNS servers from [known DNS providers](https://kb.adguard.com/en/general/dns-providers) such as AdGuard, Cisco, Cloudflare, Google, or Quad9, or even configure to use your own DNS server.
 
 ## 4. Fastest locations
 
-Another feature that makes AdGuard VPN stand out from the crowd is that you can select a location based on its ping. In a nutshell, ping is the time it takes the data packet sent from your computer to reach the server and return. When in doubt, use a rule of thumb: the lower the ping, the closer the server, the higher its speed. We are constantly expanding the number of locations so that you can choose from a variety.
+Another feature that makes AdGuard VPN stand out from the crowd is that you can select a location based on its ping. In a nutshell, ping is the time it takes the data packet sent from your device to reach the server and return. When in doubt, use a rule of thumb: the lower the ping, the closer the server, the higher its speed. We are constantly expanding the number of locations so that you can choose from a variety.
 
 > Note that to access all VPN server locations, you need to purchase an AdGuard VPN subscription.
 

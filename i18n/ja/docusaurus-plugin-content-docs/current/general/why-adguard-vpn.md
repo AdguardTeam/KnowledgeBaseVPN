@@ -22,13 +22,13 @@ Webサイトを手動で対象外リストに追加したり、人気のある�
 > この機能は、iOSを除いて、すべてのプラットフォームで利用可能です。
 
 ## 3. DNSサーバーの選択
-もう、インターネットプロバイダが提供するDNSサーバーに頼らなくていいんです。 まず、お使いのISP（インターネットプロバイダー）は、あなたの閲覧履歴にアクセスできる可能性が高いのです。 また、DNSは軽視されがちですが、広告やトラッカーを除去したり、マルウェアからデバイスを保護したり、さらにセーフサーチを可能にしたり、アダルトコンテンツをブロックしたりすることができます。
+もう、インターネットプロバイダが提供するDNSサーバーに頼らなくていいんです。 まず、お使いのISP（インターネットプロバイダー）は、あなたの閲覧履歴にアクセスできる可能性が高いのです。 Second, people often underestimate DNS, yet it can remove ads and trackers, protect your device from malware or, for instance, enable safe search and block adult content.
 
 DNSサーバーは、AdGuard、Cisco、Cloudflare、Google、Quad9など、 [有名なDNSプロバイダー](https://kb.adguard.com/ja/general/dns-providers)から選ぶことができ、また、独自のDNSサーバーを使用するように設定することも可能です。
 
 ## 4. 一番速いロケーション
 
-AdGuard VPNを際立たせているもう一つの特徴は、pingに基づいて接続速度が一番速いロケーションを選択できることです。 pingとは、一言で言えば、あなたの端末から送信されたデータパケットがサーバーに到達して、端末に戻ってくるまでの時間です。 ping数字が小さいほど、サーバーは近くにあり、速度が速いということです。 いろいろなところに接続できるように、ロケーションは随時拡大しています。
+AdGuard VPNを際立たせているもう一つの特徴は、pingに基づいて接続速度が一番速いロケーションを選択できることです。 In a nutshell, ping is the time it takes the data packet sent from your device to reach the server and return. ping数字が小さいほど、サーバーは近くにあり、速度が速いということです。 いろいろなところに接続できるように、ロケーションは随時拡大しています。
 
 > ※すべてのAdGuard VPNサーバーロケーションにアクセスするには、AdGuard VPNサブスクリプションを購入する必要があります。
 

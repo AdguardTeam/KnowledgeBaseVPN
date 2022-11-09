@@ -22,13 +22,13 @@ Puedes añadir sitios web a las exclusiones manualmente o elegirlos entre las li
 > Esta función está disponible en todas las plataformas excepto iOS.
 
 ## 3. Elegir un servidor DNS
-¡Ya no tendrás que depender del servidor DNS proporcionado por tu ISP port defecto! En primer lugar, no es seguro: lo más probable es que tu proveedor de Internet tenga acceso a tu historial de navegación. En segundo lugar, la gente suele subestimar el DNS, aunque puede eliminar anuncios y rastreadores, proteger tu dispositivo contra el malware o, por ejemplo, habilitar la búsqueda segura y bloquear el contenido para adultos.
+¡Ya no tendrás que depender del servidor DNS proporcionado por tu ISP port defecto! En primer lugar, no es seguro: lo más probable es que tu proveedor de Internet tenga acceso a tu historial de navegación. Second, people often underestimate DNS, yet it can remove ads and trackers, protect your device from malware or, for instance, enable safe search and block adult content.
 
 Puedes elegir servidores DNS de [proveedores de DNS conocidos](https://kb.adguard.com/en/general/dns-providers) como AdGuard, Cisco, Cloudflare, Google o Quad9, o incluso configurar para usar tu propio servidor DNS.
 
 ## 4. Ubicaciones más rápidas
 
-Otra característica que hace que AdGuard VPN destaque entre los demás es que puede seleccionar una ubicación a base de su ping. En pocas palabras, el ping es el tiempo que tarda el paquete de datos enviado desde tu ordenador en llegar al servidor y regresar. En caso de duda, utiliza una regla general: cuanto menor sea el ping, cuanto más cerca esté el servidor, mayor será su velocidad. Ampliamos constantemente el número de locales para que puedas elegir entre una gran variedad.
+Otra característica que hace que AdGuard VPN destaque entre los demás es que puede seleccionar una ubicación a base de su ping. In a nutshell, ping is the time it takes the data packet sent from your device to reach the server and return. En caso de duda, utiliza una regla general: cuanto menor sea el ping, cuanto más cerca esté el servidor, mayor será su velocidad. Ampliamos constantemente el número de locales para que puedas elegir entre una gran variedad.
 
 > Ten en cuenta que para acceder a todas las ubicaciones de los servidores VPN, debes adquirir una suscripción a AdGuard VPN.
 

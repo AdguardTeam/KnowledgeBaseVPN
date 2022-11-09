@@ -1,6 +1,6 @@
 {
   "version.label": {
-    "message": "Next",
+    "message": "下一页",
     "description": "The label for version current"
   },
   "sidebar.sidebar.category.General": {
@@ -12,7 +12,7 @@
     "description": "The label for category Public DNS in sidebar sidebar"
   },
   "sidebar.sidebar.category.Solving problems": {
-    "message": "Solving problems",
+    "message": "解决问题",
     "description": "The label for category Solving problems in sidebar sidebar"
   },
   "sidebar.sidebar.category.Private DNS": {

@@ -25,7 +25,7 @@ sidebar_position: 2
 
 ### 크롬
 
-브라우저의 오른쪽 상단에 모서리에 있는 점 세개의 아이콘을 클릭하신 후 *추가 도구 -> 확장 프로그램을* 선택합니다. 애드가드 가상사설망을 찾아 * 제거*를 클릭합니다.
+Click the three dots icon in the top right corner of the browser, then select *More tools → Extensions*. 애드가드 가상사설망을 찾아 * 제거*를 클릭합니다.
 
 ### 파이어폭스
 

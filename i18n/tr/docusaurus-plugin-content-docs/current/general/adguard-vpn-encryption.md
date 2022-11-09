@@ -5,15 +5,15 @@ sidebar_position: 7
 
 ## Giriş
 
-"Sanal Özel Ağ" teriminde "özel" kelimesinin bulunmasının nedeni şifrelemedir. Bir VPN, cihazınızla bir VPN sunucusu arasında verilerinizin şifrelendiği ve ardından açık internete güvenli bir biçimde girdiği bir tünel oluşturur. Şifreleme süreci, yani verileri, araya giren hiç kimsenin okuyamayacağı anlamsız kelimelere dönüştürmek, herhangi bir VPN hizmeti için çok önemlidir.
+"Sanal Özel Ağ" teriminde "özel" kelimesinin bulunmasının nedeni şifrelemedir. VPN, cihazınızla bir VPN sunucusu arasında verilerinizin şifrelendiği ve ardından açık internete güvenli bir biçimde girdiği bir tünel oluşturur. Şifreleme süreci, yani verileri, araya giren hiç kimsenin okuyamayacağı anlamsız kelimelere dönüştürmek, herhangi bir VPN hizmeti için çok önemlidir.
 
 AdGuard VPN protokolü, bugüne kadarki en güvenli ve hızlı şifreleme algoritmasını kullanır – AES-256. Ne olduğunu ve neden bu kadar iyi olduğunu öğrenin.
 
 ## AES tarihi turu
 
-AES (Advanced Encryption Standard) encryption was developed in the late 20th century at the U.S. government request: the existing Data Encryption Standard (DES) became obsolete and a new, more secure encryption algorithm was required.
+AES (Gelişmiş Şifreleme Standardı) şifrelemesi, 20. yüzyılın sonlarında ABD'de geliştirildi. hükümet talebi: mevcut Veri Şifreleme Standardı (DES) geçersiz hâle geldi ve yeni, daha güvenli bir şifreleme algoritması gerekliydi.
 
-In a public competition announced by the government won the Rijndael cipher — rather similar to DES but much more sophisticated. 2002 yılında AES olarak yeniden adlandırıldı ve ABD tarafından yayınlandı. National Institute of Standards and Technology.
+In a public competition announced by the government won the Rijndael cipher — rather similar to DES but much more sophisticated. 2002 yılında AES olarak yeniden adlandırıldı ve ABD tarafından yayınlandı. Ulusal Standartlar ve Teknoloji Enstitüsü.
 
 Bugün, AES şifreleme için endüstri standardıdır. Açık doğası nedeniyle, NSA ve devlet kurumlarının yanı sıra özel, ticari ve kar amacı gütmeyen kuruluşlar tarafından kullanılır.
 

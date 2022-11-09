@@ -20,6 +20,6 @@ Aynı zamanda, uygulamanın sınırsız bir sürümünü almak için bir aboneli
 * Hız sınırı yok
 * 50'den fazla konumun tümü kullanılabilir
 * Güvenli canlı yayın akışı
-* No port 25 block
+* Bağlantı noktası 25 bloğu yok
 
-To use all the advantages, consider [purchasing a subscription](subscription.md).
+Tüm avantajlardan yararlanmak için [bir abonelik satın almayı](subscription.md) düşünün.

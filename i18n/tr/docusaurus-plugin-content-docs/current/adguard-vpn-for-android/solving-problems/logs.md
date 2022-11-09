@@ -7,11 +7,11 @@ Android için AdGuard VPN kullanırken bir sorunla karşılaşırsanız, uygulam
 
 ## Standart günlükleri toplama ve gönderme
 
-Varsayılan olarak, Android için AdGuard VPN **Varsayılan** günlük kayıt düzeyini, yani uygulamanın çalışan süreçleriyle ilgili temel veri toplamasını kullanır. Bu günlükleri göndermek için sonraki adımları izleyin:
+Varsayılan olarak, Android için AdGuard VPN **Varsayılan** günlük kayıt düzeyini, yani uygulamanın çalışan süreçleriyle ilgili temel veri toplamasını kullanır. Bu günlükleri göndermek için sonraki adımları takip edin:
 
 1. Android için AdGuard VPN'i açın ve mümkünse hataya neden olan işlemleri tekrarlayın. Bu hatanın oluştuğu tam zamana dikkat edin.
 
-2. Sağ alt köşedeki dişli çark simgesine tıklayarak **Ayarlar** öğesini açın → **Destek** → **Hata bildir**.
+2. Sağ alt köşedeki dişli çark simgesine tıklayarak **Ayarlar** → **Destek** → **Hata bildir** öğesini açın.
 
 3. Açılan formda, geri bildirim için e-posta adresinizi girin ve bulunan hatayı, bu hatanın oluştuğu zaman da dahil olmak üzere açıklayın. Sorunu yeniden oluşturamıyorsanız, en son ne zaman oluştuğunu olabildiğince doğru bir şekilde belirtin.
 
@@ -30,7 +30,7 @@ Varsayılan olarak, Android için AdGuard VPN **Varsayılan** günlük kayıt d�
 
 4. Kayıt düzeyini **Varsayılan** olarak değiştirin.
 
-5. Ardından sağ alt köşedeki dişli çark simgesine dokunarak **Ayarlar** öğesini açın → **Destek** → **Hata bildir**.
+5. Ardından sağ alt köşedeki dişli çark simgesine dokunarak **Ayarlar** → **Destek** → **Hata bildir** öğesini açın.
 
 6. Açılan formda, geri bildirim için e-posta adresinizi girin ve bulunan hatayı, bu hatanın oluştuğu zaman da dahil olmak üzere açıklayın.
 

@@ -22,13 +22,13 @@ Webové stránky můžete do výjimek přidat ručně nebo je vybrat ze seznamu 
 > Tato funkce je dostupná pro všechny platformy kromě iOS.
 
 ## 3. Výběr DNS serveru
-Už se nemusíte spoléhat na server DNS nabízený vaším poskytovatelem internetových služeb (ISP)! Za prvé, není to bezpečné: váš ISP má pravděpodobně přístup k vaší historii prohlížení. Za druhé, lidé DNS často podceňují, přestože dokáže odstranit reklamy a slídiče, chránit zařízení před malwarem nebo například umožnit bezpečné vyhledávání a blokovat obsah pro dospělé.
+Už se nemusíte spoléhat na server DNS nabízený vaším poskytovatelem internetových služeb (ISP)! Za prvé, není to bezpečné: váš ISP má pravděpodobně přístup k vaší historii prohlížení. Second, people often underestimate DNS, yet it can remove ads and trackers, protect your device from malware or, for instance, enable safe search and block adult content.
 
 Můžete si vybrat DNS servery od [známých poskytovatelů](https://kb.adguard.com/en/general/dns-providers) jako je AdGuard, Cisco, Cloudflare, Google nebo Quad9, nebo dokonce nakonfigurovat použití vlastního DNS serveru.
 
 ## 4. Nejrychlejší umístění
 
-Další funkcí, kterou se AdGuard VPN odlišuje od ostatních, je možnost výběru umístění na základě jeho odezvy ping. Stručně řečeno, ping je doba, za kterou datový paket odeslaný z vašeho počítače dosáhne serveru a vrátí se zpět. V případě pochybností se řiďte pravidlem: čím nižší je ping, tím je server blíže a tím vyšší je jeho rychlost. Neustále rozšiřujeme počet umístění, abyste si mohli vybírat z pestré nabídky.
+Další funkcí, kterou se AdGuard VPN odlišuje od ostatních, je možnost výběru umístění na základě jeho odezvy ping. In a nutshell, ping is the time it takes the data packet sent from your device to reach the server and return. V případě pochybností se řiďte pravidlem: čím nižší je ping, tím je server blíže a tím vyšší je jeho rychlost. Neustále rozšiřujeme počet umístění, abyste si mohli vybírat z pestré nabídky.
 
 > Všimněte si, že pro přístup ke všem umístěním VPN serverů si musíte zakoupit předplatné AdGuard VPN.
 
@@ -70,4 +70,4 @@ Ale co když se chcete cítit bezpečně při sledování obsahu specifického p
 
 ![Tmavý motiv](https://cdn.adguard.com/public/Adguard/Blog/vpn/main_en_black.png)
 
-Tato drobnost si zaslouží zvláštní zmínku. Mnoho uživatelů touží po tmavém motivu, takže jsme to nemohli ignorovat a přidali jsme přepínač motivů pro všechny produkty AdGuard VPN. Choose the one you like more — light, dark or system default. Doufám, že se přidáte na temnou stranu.
+Tato drobnost si zaslouží zvláštní zmínku. Mnoho uživatelů touží po tmavém motivu, takže jsme to nemohli ignorovat a přidali jsme přepínač motivů pro všechny produkty AdGuard VPN. Vyberte si ten, který se vám líbí více — světlý, tmavý nebo podle systému. Doufám, že se přidáte na temnou stranu.

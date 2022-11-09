@@ -22,13 +22,13 @@ Sie können Websites manuell zu den Ausschlüssen hinzufügen oder sie aus der L
 > Diese Funktion ist auf allen Plattformen außer iOS verfügbar.
 
 ## 3. Auswahl eines DNS-Servers
-Verlassen Sie sich nicht mehr auf den DNS-Server, den Ihr ISP standardmäßig bereitstellt. Erstens ist es nicht sicher: Ihr Internetanbieter hat höchstwahrscheinlich Zugriff auf Ihren Browserverlauf. Zweitens wird DNS oft unterschätzt, aber es kann Anzeigen und Tracker entfernen, Ihr Gerät vor Malware schützen oder beispielsweise eine sichere Suche aktivieren und nicht jugendfreie Inhalte blockieren.
+Verlassen Sie sich nicht mehr auf den DNS-Server, den Ihr ISP standardmäßig bereitstellt. Erstens ist es nicht sicher: Ihr Internetanbieter hat höchstwahrscheinlich Zugriff auf Ihren Browserverlauf. Second, people often underestimate DNS, yet it can remove ads and trackers, protect your device from malware or, for instance, enable safe search and block adult content.
 
 Sie können DNS-Server von [bekannten DNS-Anbietern](https://kb.adguard.com/en/general/dns-providers) wie AdGuard, Cisco, Cloudflare, Google oder Quad9 auswählen oder sogar Ihren eigenen DNS-Server konfigurieren.
 
 ## 4. Schnellste Standorte
 
-Eine weitere Funktion, mit der sich AdGuard VPN von der Masse abhebt, ist die Möglichkeit, einen Standort anhand seines Ping auszuwählen. Kurz gesagt ist der Ping die Zeit, die das von Ihrem Computer gesendete Datenpaket braucht, um den Server zu erreichen und zurückzukehren. Je niedriger ist der Ping, je näher ist der Server, desto höher ist seine Geschwindigkeit. Wir erweitern ständig die Zahl der Standorte, damit Sie aus einer Vielzahl von Angeboten wählen können.
+Eine weitere Funktion, mit der sich AdGuard VPN von der Masse abhebt, ist die Möglichkeit, einen Standort anhand seines Ping auszuwählen. In a nutshell, ping is the time it takes the data packet sent from your device to reach the server and return. Je niedriger ist der Ping, je näher ist der Server, desto höher ist seine Geschwindigkeit. Wir erweitern ständig die Zahl der Standorte, damit Sie aus einer Vielzahl von Angeboten wählen können.
 
 > Beachten Sie, dass Sie ein AdGuard VPN-Abonnement erwerben müssen, um Zugang zu allen VPN-Serverstandorten zu erhalten.
 

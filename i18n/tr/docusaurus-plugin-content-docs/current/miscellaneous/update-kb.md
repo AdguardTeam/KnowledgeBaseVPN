@@ -25,4 +25,4 @@ AdGuard VPN Bilgi Tabanı makaleleri üzerinde çalışırken, daha fazla dikkat
 
 ## Açık sorunlar üzerinde çalışma
 
-Bazen Bilgi Tabanının güncellenmesiyle ilgili [açık görevler](https://github.com/AdguardTeam/KnowledgeBaseVPN/issues/) vardır. Bu Bilgi Tabanında başka herhangi bir değişiklik önerdiğiniz gibi, [aynı şekilde](#suggest-change) onların tamamlanmasını hızlandırmamıza da yardımcı olabilirsiniz. İlgi çekici bulduğunuz herhangi bir konuyu seçin ve üzerinde çalışmaya başlayın. Herhangi bir sorunuz varsa — onlara doğrudan bu konudaki yorumlarda sorabilirsiniz.
+Bazen Bilgi Tabanının güncellenmesiyle ilgili [açık görevler](https://github.com/AdguardTeam/KnowledgeBaseVPN/issues/) vardır. Bu Bilgi Tabanı'nda başka herhangi bir değişiklik önerdiğiniz gibi, [aynı şekilde](#suggest-change) onların tamamlanmasını hızlandırmamıza da yardımcı olabilirsiniz. İlgi çekici bulduğunuz herhangi bir konuyu seçin ve üzerinde çalışmaya başlayın. Herhangi bir sorunuz varsa — onlara doğrudan bu konudaki yorumlarda sorabilirsiniz.

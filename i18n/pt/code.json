@@ -303,7 +303,7 @@
     "description": "String used for license agreement text in sticky bar"
   },
   "sticky_bar.btn.baloon.text.link": {
-    "message": "Contrato de Licença",
+    "message": "Contrato de licença",
     "description": "The label for the link to license agreement"
   },
   "sticky_bar.btn.text.download": {

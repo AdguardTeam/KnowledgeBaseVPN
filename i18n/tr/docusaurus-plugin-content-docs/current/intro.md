@@ -1,5 +1,5 @@
 ---
-title: AdGuard VPN'e Genel Bakış
+title: AdGuard VPN Genel Bakış
 sidebar_position: 1
 slug: /
 ---
@@ -10,9 +10,9 @@ VPN, İnternet üzerindeki başka bir ağa güvenli bir bağlantı oluşturmanı
 
 Başlangıçta, VPN'ler tek bir amaç için oluşturuldu - iş ağlarını İnternet üzerinden güvenli bir şekilde bağlamak, böylece insanlar şirket ağına evden bağlanabiliyordu. Bu teknoloji başka birçok şey için kullanılır: örneğin, İnternet'te anonim olarak gezinmek veya halka açık Wi-Fi kullanırken çevrimiçi etkinliğinizi meraklı gözlerden korumak için.
 
-VPN, kullanıcının bilgisayarını veya mobil cihazını bir sunucuya bağlar ve birinin başkasının IP adresini kullanarak ağa göz atmasına izin verir. Bu nedenle, üçüncü taraf gözlemciler kullanıcının gerçek IP adresini göremezler, bu da onları izlemeyi neredeyse imkansız hale getirir.
+VPN, bir kullanıcının bilgisayarını veya mobil cihazını bir sunucuya bağlar ve birinin başka birinin IP adresini kullanarak internette gezinmesine izin verir. Bu nedenle, üçüncü taraf gözlemciler kullanıcının gerçek IP adresini göremez ve bu da onları izlemeyi neredeyse imkansız hâle getirir.
 
-VPN'den bahsetmişken, bahsettikleri ilk şey trafik şifrelemesi ve ondan kaynaklanan güvenliktir. Ama bu ne anlama geliyor? VPN, kullanıcının cihazı ile uzak sunucu arasında şifreli bir tünel oluşturur. Tüm web trafiğiniz bu tünelden geçer, böylece verileriniz yol boyunca korunur. Harici gözlemci için, trafiğiniz VPN sunucusundan çıkar, bu nedenle cihazınız bu sunucunun IP adresine sahipmiş gibi görünür. Bu numara, kullanıcının kimliğini ve gerçek konumunu maskeler.
+VPN'den bahsetmişken, bahsettikleri ilk şey trafik şifrelemesi ve ondan kaynaklanan güvenliktir. Ama bu ne anlama geliyor? VPN, kullanıcının cihazı ile uzak sunucu arasında şifrelenmiş bir tünel oluşturur. Tüm web trafiğiniz bu tünelden geçer, böylece verileriniz yol boyunca korunur. Harici gözlemci için, trafiğiniz VPN sunucusundan çıkar, bu nedenle cihazınız bu sunucunun IP adresine sahipmiş gibi görünür. Bu numara, kullanıcının kimliğini ve gerçek konumunu maskeler.
 
 VPN şunlar için kullanılabilir:
 
@@ -30,8 +30,8 @@ AdGuard, 12 yılı aşkın bir süredir kişisel verilerin korunması ve reklam 
 ### Benzersiz VPN protokolü
 AdGuard VPN ile rakipleri arasındaki temel fark, [kendi geliştirdiğimiz](/general/adguard-vpn-protocol.mdx) protokolü kullanmamızdır. Kendisini normal trafik olarak gizler, bu yüzden onu izlemek ve engellemek çok daha zordur.
 
-### Kayıt tutmama politikası
-Kayıt tutmama politikası, kullanıcıların kişisel verilerini toplamadığımız, saklamadığımız veya üçüncü taraflara aktarmadığımız anlamına gelir. AdGuard gizlilik politikasının tam metnine [buradan](https://adguard-vpn.com/en/privacy.html) ulaşabilirsiniz.
+### Günlük kayıt politikası yok
+Günlük kayıt politikası yok, kullanıcıların kişisel verilerini toplamadığımız, saklamadığımız veya üçüncü taraflara aktarmadığımız anlamına gelir. AdGuard gizlilik politikasının tam metnine [buradan](https://adguard-vpn.com/en/privacy.html) ulaşabilirsiniz.
 
 ### İzlenme koruması
 Herhangi bir kullanıcıdan gelen web trafiği ilginizi çekebilir ve özellikle kişisel verilerden para kazanma açısından değerlidir. Hem suçlular hem de vicdansız ISS'ler buna erişebilir. Ancak, güvenilir bir VPN ile, ne sağlayıcınızın ne de başka birinin internet etkinliğinizi görmeyeceğinden emin olabilirsiniz.

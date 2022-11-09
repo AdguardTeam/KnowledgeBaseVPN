@@ -25,15 +25,15 @@ Geliştirme ekibimiz, AdGuard VPN'de kullandığımız üçüncü taraf yazılı
 
 ## Mac için AdGuard VPN
 
-* Punycode component by Kojiro Futamura: [https://github.com/gumob/PunycodeSwift](https://github.com/gumob/PunycodeSwift)
-* Reachability component by Ashley Mills: [https://github.com/ashleymills/Reachability.swift](https://github.com/ashleymills/Reachability.swift)
-* Sparkle Project for Sparkle.framework component: [https://sparkle-project.org/](https://github.com/ashleymills/Reachability.swift)
+* Kojiro Futamura tarafından Punycode bileşeni: [https://github.com/gumob/PunycodeSwift](https://github.com/gumob/PunycodeSwift)
+* Ashley Mills tarafından erişilebilirlik bileşeni: [https://github.com/ashleymills/Reachability.swift](https://github.com/ashleymills/Reachability.swift)
+* Sparkle.framework bileşeni için Sparkle Projesi: [https://sparkle-project.org/](https://github.com/ashleymills/Reachability.swift)
 
 ## Windows için AdGuard VPN
 
 * Intercept traffic drivers (wfp & tdi): [https://netfiltersdk.com/nfsdk.html](https://netfiltersdk.com/nfsdk.html)
-* WPF-based text editor component: [http://avalonedit.net/](http://avalonedit.net/)
-* High-performance JSON framework for .NET: [https://www.newtonsoft.com/json](https://www.newtonsoft.com/json)
+* WPF tabanlı metin düzenleyici bileşeni: [http://avalonedit.net/](http://avalonedit.net/)
+* .NET için yüksek performanslı JSON çerçevesi: [https://www.newtonsoft.com/json](https://www.newtonsoft.com/json)
 
 ## AdGuard VPN Uzantısı
 
@@ -66,7 +66,7 @@ Geliştirme ekibimiz, AdGuard VPN'de kullandığımız üçüncü taraf yazılı
 * libevent: [https://github.com/libevent/libevent](https://github.com/libevent/libevent)
 * lwIP: [https://lwip.fandom.com/wiki/LwIP_Wiki](https://lwip.fandom.com/wiki/LwIP_Wiki)
 * nghttp2: [https://github.com/nghttp2/nghttp2](https://github.com/nghttp2/nghttp2)
-* Protocol Buffers - Google's data interchange format: [https://github.com/protocolbuffers](https://github.com/protocolbuffers)
+* Protokol Arabellekleri - Google'ın veri değişim biçimi: [https://github.com/protocolbuffers](https://github.com/protocolbuffers)
 * zlib: [https://zlib.net](https://zlib.net)
 * Sciter: [https://sciter.com/](https://sciter.com/)
 

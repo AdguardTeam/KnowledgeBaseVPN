@@ -15,7 +15,7 @@ Você tem duas maneiras de resolver o problema:
 - Abra o aplicativo **Configurações** em seu telefone;
 - Vá para a seção **Sistema** (último item no menu de configurações). Nesta seção, encontre o subitem **Sobre o telefone**;
 - Clique na linha **número da compilação** 7 vezes. Depois disso, você receberá uma notificação de que **Você agora é um desenvolvedor** (Se necessário, insira um código de desbloqueio para o dispositivo);
-- Abra **Configurações do sistema** > **Opções do Desenvolvedor** > Role para baixo e ative **Depuração USB** > Confirme se a depuração está ativada na janela **Permitir depuração USB** depois de ler o aviso com atenção.
+- Open **System Settings** → **Developer Options** → Scroll down and enable **USB debugging** → Confirm debugging is enabled in the window **Allow USB debugging** after reading the warning carefully.
 
 > Se você tiver alguma dificuldade ou dúvida adicional, as instruções completas podem ser encontradas [aqui](https://developer.android.com/studio/debug/dev-options).
 

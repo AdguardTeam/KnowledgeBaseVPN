@@ -25,7 +25,7 @@ sidebar_position: 2
 
 ### Chrome
 
-Нажмите на значок с тремя точками в правом верхнем углу браузера, затем выберите *Дополнительные инструменты -> Расширения*. Найдите AdGuard VPN и нажмите *Удалить*.
+Click the three dots icon in the top right corner of the browser, then select *More tools → Extensions*. Найдите AdGuard VPN и нажмите *Удалить*.
 
 ### Firefox
 

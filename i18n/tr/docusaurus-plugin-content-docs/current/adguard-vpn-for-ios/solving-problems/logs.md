@@ -7,7 +7,7 @@ sidebar_position: 2
 
 ## Standart günlükleri toplama ve gönderme
 
-Varsayılan olarak, iOS için AdGuard VPN, uygulamanın çalışan süreçleri hakkında temel veri toplama olan standart günlük kayıt düzeyini kullanır. Bu günlükleri göndermek için sonraki adımları izleyin:
+Varsayılan olarak, iOS için AdGuard VPN, uygulamanın çalışan süreçleri hakkında temel veri toplama olan standart günlük kayıt düzeyini kullanır. Bu günlükleri göndermek için sonraki adımları takip edin:
 
 1. iOS için AdGuard VPN'i açın ve mümkünse hataya neden olan işlemleri tekrarlayın. Bu hatanın oluştuğu tam zamana dikkat edin.
 

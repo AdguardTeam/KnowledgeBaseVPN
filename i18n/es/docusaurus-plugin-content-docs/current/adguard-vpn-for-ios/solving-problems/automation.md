@@ -45,6 +45,6 @@ Ahora tienes un nuevo escenario: AdGuard VPN se activará automáticamente al in
 
 * En la nueva ventana, haz clic en *Establecer conexión VPN*.
 * A continuación, haz clic en la palabra *On* para que cambie a la palabra *Off*, y luego toque *Siguiente* en la esquina superior derecha de la pantalla.
-* Deshabilite la opción *Preguntar antes de ejecutar* y confirme su selección. Luego toque *Listo* en la esquina superior derecha de la pantalla para completar el proceso
+* Deshabilite la opción *Preguntar antes de ejecutar* y confirme su selección. Then tap *Done* at the top right corner of the screen to complete the process.
 
 ¡Listo! AdGuard VPN ahora se habilitará en su dispositivo cada vez que abra la aplicación de Twitter y se deshabilitará cuando la cierre. Puede repetir los mismos pasos para cualquier otra aplicación. 

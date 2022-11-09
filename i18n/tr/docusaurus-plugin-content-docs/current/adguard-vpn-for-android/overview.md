@@ -17,7 +17,7 @@ Android için AdGuard VPN sizin için her şeyi yapabilir — ve hatta benzersiz
 
 ## Android için AdGuard VPN'i kullanmaya nasıl başlanır
 
-İlk olarak, [Google Play'den](https://play.google.com/store/apps/details?id=com.adguard.vpn) AdGuard VPN'i indirin ve AdGuard hesabınıza giriş yapın. Hesabınız yoksa — hesap [oluşturmalısınız](https://auth.adguard.com/login.html). AdGuard hesap bilgilerinizle doğrudan giriş yapabilirsiniz. Veya AdGuard hesabınız aynı e-posta adresini kullanarak kaydolduysa, bunu Google veya Facebook üzerinden yapın.
+İlk olarak, [Google Play'den](https://play.google.com/store/apps/details?id=com.adguard.vpn) AdGuard VPN'i indirin ve AdGuard hesabınıza giriş yapın. Hesabınız yoksa — hesap [oluşturmalısınız](https://auth.adguard.com/login.html). AdGuard hesap bilgilerinizle doğrudan giriş yapabilirsiniz. Veya AdGuard hesabınız aynı e-posta adresini kullanarak kaydolduysa, bunu Google veya Facebook aracılığıyla yapın.
 
 
 ## Ana Ekran
@@ -41,9 +41,9 @@ Sitenizi ve uygulama istisna listelerinizi yönetmenizi kolaylaştırmak için h
 *Hariç Tutulanlar*'a web sitelerinin alan adlarını (ör. `google.com`) veya alt alan adlarını (ör. `*.google.com`) üç şekilde ekleyebilirsiniz: bunları uygulamaya manuel olarak girin veya *Paylaş* düğmesini tıklayıp aşağıdaki açılan listeden AdGuard VPN'i seçerek doğrudan tarayıcıdan girin. Bunları, kategorilere ayrılmış yerleşik hizmet listelerinden de ekleyebilirsiniz.
 
 ![İstisnalar](https://cdn.adguard.com/public/Adguard/kb/VPN/Screenshots/add_site_android.jpg)
-> Alan adlarının el olarak eklenmesinde bazı ince ayrıntılar vardır. Örneğin, `yahoo.com` alanını elle hariç tutarsanız, tüm `*.yahoo.com` alt alanları da istisnalarda listelenir. Ancak, `yahoo.jp` veya `yahoo.fr` gibi diğer üst düzey alan adlarına sahip alan adları hariç tutulmayacaktır. Veya `youtube.com` sitesini istisnalara ekleyebilirsiniz, ancak aynı hizmet `youtu.be` sitesinin alan adı listeye girmez. Bu durumda, her platformla ilgili tüm alt alan adlarını oraya koyduğumuz için yerleşik hizmet listelerini kullanmak daha güvenlidir.
+> Alan adlarının elle eklenmesinde bazı ince ayrıntılar vardır. Örneğin, `yahoo.com` alan adını elle hariç tutarsanız, tüm `*.yahoo.com` alt alanları da istisnalarda listelenir. Ancak, `yahoo.jp` veya `yahoo.fr` gibi diğer üst düzey alan adlarına sahip alan adları hariç tutulmayacaktır. Veya `youtube.com` alan adını istisnalara ekleyebilirsiniz, ancak aynı hizmet `youtu.be` alan adı listeye girmez. Bu durumda, her platformla ilgili tüm alt alan adlarını oraya koyduğumuz için yerleşik hizmet listelerini kullanmak daha güvenlidir.
 
-As you can enable subdomains in service lists, we added boxes that reflect the status of each service — you can see them on the main screen of *Exclusions* to the left of each service name: **fully-enabled** status is marked with a white check mark on green background, **fully-disabled** — with a gray box, and **partly-enabled**, which means that one or more parameters were changed — with a green square on white background. İyi haber: oradan herhangi bir alan adono sildiyseniz veya devre dışı bıraktıysanız, her zaman hizmet listelerinin varsayılan görünümüne dönebilirsiniz.
+Hizmet listelerinde alt alan adlarını etkinleştirebileceğiniz için, her hizmetin durumunu yansıtan kutular ekledik — bunları her hizmet adının solundaki *İstisnalar* ana ekranında görebilirsiniz: **tamamen etkin** durumu yeşil arka plan üzerinde beyaz bir onay işaretiyle, **tamamen devre dışı** — gri kutulu ve **kısmen etkin**, bu bir veya daha fazla parametrenin değiştirildiği anlamına gelir — beyaz arka plan üzerinde yeşil bir kare ile işaretlenmiştir. İyi haber: oradan herhangi bir alan adono sildiyseniz veya devre dışı bıraktıysanız, her zaman hizmet listelerinin varsayılan görünümüne dönebilirsiniz.
 
 ![İstisnalar](https://cdn.adguard.com/content/kb/vpn/android/statuses.png)
 
@@ -52,7 +52,7 @@ Bir başka kullanışlı özellik ise, *istisnaları İçe ve Dışa aktarma* ö
 1. İstisnalar listenizi dışa aktarmak istediğiniz cihazda veya tarayıcıda AdGuard VPN'i açın. Uygun bölümü bulun ve *Dışa aktar* düğmesine tıklayın. `adguard_vpn_exclusions.zip` arşivi indirilecektir.
 2. Arşivde, *Genel* ve *Seçici* listelerin her biri için birer tane olmak üzere iki `.txt` dosyası vardır. Bunlara daha fazla istisna ekleyin, mevcut olanları silin, dosyaları yeniden adlandırın (ancak daha sonra bu konuda daha fazlası) veya arşivi olduğu gibi bırakın.
 3. Farklı cihazlar arasında aktarım yaparken, `.zip` dosyasını içe aktarmak için cihaza göndermeyi unutmayın. Örneğin, istisna listeleri Windows cihazınızdan Android'inize aktarırsanız, `.zip` dosyasını önceden Android'inize gönderdiğinizden emin olun.
-4. Open AdGuard VPN on the device where you want to import the archive with the ready lists of exclusions. Uygun bölümü bulun, *İçe aktar* düğmesine tıklayın ve arşivi seçin.
+4. AdGuard VPN'i, hazır istisnaların listesiyle birlikte arşivi içe aktarmak istediğiniz cihazda açın. Uygun bölümü bulun, *İçe aktar* düğmesine tıklayın ve arşivi seçin.
 
 ![İçe ve Dışa Aktarma](https://cdn.adguard.com/content/kb/vpn/android/imp-exp.png)
 
@@ -100,11 +100,11 @@ Uygulamanın sistem varsayılanı, koyu veya açık temasını seçebilirsiniz.
 
 *Gelişmiş ayarlarda* beş bölüm bulabilirsiniz. Üst bloktaki anahtarı açarak *Daha iyi olmamıza yardımcı* olabilirsiniz. Bu eylem, AdGuard VPN'in çökme raporları, teknik ve etkileşim verileri toplamasına olanak tanır. Bu bilgiler anonim olarak gelir.
 
-*Çalışma modu* bölümü, üç seçenekten birini seçmenize olanak tanır: VPN, Proxy ve Uyumluluk modu. *VPN modunda* tüm trafik otomatik olarak AdGuard VPN üzerinden yönlendirilir. When the *Proxy mode* (SOCKS5) is on, AdGuard VPN runs a local proxy sever which can be used by other apps to route their traffic through it. Bu seçeneği yalnızca ne yaptığınızı biliyorsanız seçin. Etkinleştirilmiş *Uyumluluk modu*, AdGuard VPN ve AdGuard Reklam Engelleyicinin birlikte çalışmasına olanak tanır.
+*Çalışma modu* bölümü, üç seçenekten birini seçmenize olanak tanır: VPN, Proxy ve Uyumluluk modu. *VPN modunda* tüm trafik otomatik olarak AdGuard VPN üzerinden yönlendirilir. *Proxy modu* (SOCKS5) açıkken, AdGuard VPN, trafiğini yönlendirmek için diğer uygulamalar tarafından kullanılabilen yerel bir proxy sunucusu çalıştırır. Bu seçeneği yalnızca ne yaptığınızı biliyorsanız seçin. Etkinleştirilmiş *Uyumluluk modu*, AdGuard VPN ve AdGuard Reklam Engelleyicinin birlikte çalışmasına olanak tanır.
 
 > Lütfen bazı AdGuard VPN özelliklerinin *Uyumluluk modunda* devre dışı bırakıldığını unutmayın: DNS sunucusu seçimi, Kill Switch ve Otomatik koruma. Ayrıca uygulama tünellemeyi yönetmek için AdGuard Reklam Engelleyici uygulamasını açmalısınız.
 
-Sonraki iki bölüm, *Günlük kayıt düzeyi* ve *Tanılama bilgisidir*. İlk seçenekle ilgili olarak, destek ekibimiz tarafından talep edilmedikçe Genişletilmiş günlük kayıt düzeyinin etkinleştirilmesi önerilmez. Herhangi bir teknik sorun olması durumunda tanılama bilgileri, cihaz ve bağlantılarla ilgili yerel olarak saklanan teknik bilgiler (IP adresi, ID, ping, vb.) tarafımıza gönderilebilir.
+Sonraki iki bölüm, *Günlük kayıt düzeyi* ve *Tanılama bilgisidir*. İlk seçenekle ilgili olarak, destek ekibimiz tarafından talep edilmedikçe Genişletilmiş günlük kayıt düzeyinin etkinleştirilmesi tavsiye edilmez. Herhangi bir teknik sorun olması durumunda tanılama bilgileri, cihaz ve bağlantılarla ilgili yerel olarak saklanan teknik bilgiler (IP adresi, ID, ping, vb.) tarafımıza gönderilebilir.
 
 *Gelişmiş ayarların* son bölümü *Alt seviye ayarlardır*. Yüksek nitelikli değilseniz veya destek ekibimiz tarafından istenmedikçe bu bölüme girmemenizi tavsiye ederiz. Orada, AdGuard VPN'i ihtiyaçlarınızı daha da fazla karşılayacak şekilde özelleştirmek için bazı seçenekler bulacaksınız. VPN arabiriminde TUN arabirimi günlüğünü veya IPv6 protokolünü etkinleştirin, kullanılması gereken bir proxy sunucu bağlantı noktası veya İnternet protokolü sürümü seçin — ancak yalnızca gerekli bilgiye sahipseniz.
 
