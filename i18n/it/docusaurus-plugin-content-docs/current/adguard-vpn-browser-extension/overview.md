@@ -3,9 +3,9 @@ title: Features overview
 sidebar_position: 1
 ---
 
-AdGuard VPN Browser extension is available for Chrome, Firefox, and Edge. The UI and functionality doesn't differ between browsers so the overview below will be relevant for AdGuard VPN extensions for all browsers.
+AdGuard VPN Browser extension è disponibile su Chrome, Firefox ed Edge. L'interfaccia utente e la funzionalità non differiscono tra browser, quindi la seguente panoramica sarà rilevante per tutti i browser.
 
-> Note that you can only use AdGuard VPN Browser extension when logged in. Sign in with your AdGuard account or via Google, Facebook, or Apple. In the latter case make sure that your account is bound to the same email address as your AdGuard account. If you have an [AdGuard VPN subscription](/general/subscription.md), it will be activated automatically in AdGuard VPN Browser extension. Don’t have an AdGuard account yet? [Create it here](https://auth.adguard.com/registration.html).
+> Tieni presente che puoi utilizzare AdGuard VPN Browser extension solo dopo aver effettuato l'accesso. Accedi con il tuo account AdGuard o tramite Google, Facebook o Apple. In the latter case make sure that your account is bound to the same email address as your AdGuard account. If you have an [AdGuard VPN subscription](/general/subscription.md), it will be activated automatically in AdGuard VPN Browser extension. Don’t have an AdGuard account yet? [Create it here](https://auth.adguard.com/registration.html).
 
 To manage your AdGuard VPN Browser extension, either
 
@@ -16,7 +16,7 @@ Once done, you'll see several tabs on the left:
 
 ## Impostazioni
 
-A few important settings are gathered inside this tab. Here you can choose a DNS server to use, add or remove the AdGuard VPN icon from the browser’s context menu, block WebRTC, change the extension's theme, and allow AdGuard to gather anonymized crash reports and technical data.
+A few important settings are gathered inside this tab. Qui puoi scegliere un server DNS da utilizzare, aggiungere o rimuovere l'icona AdGuard VPN dal menu contestuale del browser, bloccare WebRTC, modificare il tema dell'estensione e consentire ad AdGuard di raccogliere rapporti di arresto e dati tecnici anonimi.
 
 ### Choosing a DNS server
 
@@ -43,11 +43,11 @@ Not only can you add and remove websites, you can also transfer ready exclusions
 
 ## Account
 
-The third tab of AdGuard VPN Browser extension is utterly minimalistic, containing only the email address you used to sign into your account and two buttons, *Manage* and *Sign out*. Clicking the *Manage* button takes you to your personal AdGuard account, where you can see all your current licenses and subscriptions, as well as devices connected to them.
+La terza scheda dell'estensione del browser AdGuard VPN è assolutamente minimalista e contiene solo l'indirizzo e-mail che hai utilizzato per accedere al tuo account e due pulsanti, *Gestisci* ed *Esci*. Clicking the *Manage* button takes you to your personal AdGuard account, where you can see all your current licenses and subscriptions, as well as devices connected to them.
 
 ## Support
 
-You can find answers to common questions in the FAQ section, or leave feedback: report a bug if something isn't working as it should, suggest adding a new feature, or discuss AdGuard on any of the many social media platforms.
+Puoi trovare le risposte alle domande più frequenti nella sezione FAQ o lasciare un feedback: segnala un bug se qualcosa non funziona come dovrebbe, suggerisci di aggiungere una nuova funzionalità o discuti di AdGuard su una delle tante piattaforme di social media.
 
 ## About
 

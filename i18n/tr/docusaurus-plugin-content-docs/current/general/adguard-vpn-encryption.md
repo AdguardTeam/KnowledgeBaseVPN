@@ -13,7 +13,7 @@ AdGuard VPN protokolü, bugüne kadarki en güvenli ve hızlı şifreleme algori
 
 AES (Gelişmiş Şifreleme Standardı) şifrelemesi, 20. yüzyılın sonlarında ABD'de geliştirildi. hükümet talebi: mevcut Veri Şifreleme Standardı (DES) geçersiz hâle geldi ve yeni, daha güvenli bir şifreleme algoritması gerekliydi.
 
-In a public competition announced by the government won the Rijndael cipher — rather similar to DES but much more sophisticated. 2002 yılında AES olarak yeniden adlandırıldı ve ABD tarafından yayınlandı. Ulusal Standartlar ve Teknoloji Enstitüsü.
+Hükümet tarafından ilan edilen halka açık bir yarışmada Rijndael şifresini kazandı - DES'e oldukça benzer, ancak çok daha karmaşık. 2002 yılında AES olarak yeniden adlandırıldı ve ABD tarafından yayınlandı. Ulusal Standartlar ve Teknoloji Enstitüsü.
 
 Bugün, AES şifreleme için endüstri standardıdır. Açık doğası nedeniyle, NSA ve devlet kurumlarının yanı sıra özel, ticari ve kar amacı gütmeyen kuruluşlar tarafından kullanılır.
 

@@ -1,22 +1,22 @@
 ---
-title: How to install and uninstall
+title: 설치 및 제거 방법
 sidebar position: 2
 ---
 
 
-## System requirements
+## 시스템 요구 사항
 
 AdGuard VPN can only be installed on devices with **Microsoft Windows 10/8.1/8/7/Vista SP2 (web-based only)**.
 
 
-## AdGuard VPN for Windows installation
+## Windows용 AdGuard VPN 설치 방법
 
-To install AdGuard VPN for Windows, visit [our website](https://adguard-vpn.com/en/welcome.html) and click the *Download* button. After it, the `adguardVPNInstaller.exe` will be downloaded. Run the installer and follow its instructions. The process will take less than a minute.
+Windows용 AdGuard VPN을 설치하려면, [저희 웹사이트](https://adguard-vpn.com/en/welcome.html)를 방문하고 *Download* 버튼을 누르십시오. `adguardVPNInstaller.exe` 가 다운로드 될 것입니다. 설치 프로그램을 실행하고 설명을 따릅니다. 이 과정은 1분보다 적게 걸립니다.
 
-Then you will need to check the box to accept the terms of the EULA and the Privacy Policy. And in the last step of the installation, you will be prompted to authorize via your AdGuard account or via social networks (Google, Apple, Facebook).
+다음, 최종 사용자 라이선스 계약 (EULA) 및 개인정보처리방침 조건에 동의하는 확인란을 선택해야 합니다. And in the last step of the installation, you will be prompted to authorize via your AdGuard account or via social networks (Google, Apple, Facebook).
 
 
-## AdGuard VPN for Windows uninstallation
+## Windows용 AdGuard VPN 삭제 방법
 
 If you decide to remove AdGuard VPN from your computer, use one of three options listed below.
 

@@ -43,7 +43,7 @@ You can add domains (e.g. `google.com`) or subdomains (e.g. `*.google.com`) of w
 ![Esclusioni](https://cdn.adguard.com/public/Adguard/kb/VPN/Screenshots/add_site_android.jpg)
 > There are some nuances in manual adding domains. For example, if you manually exclude the domain `yahoo.com`, all `*.yahoo.com` subdomains will also be listed in exclusions. However, domain names with other top-level domains, such as `yahoo.jp` or `yahoo.fr`, will not be excluded. Or you can add `youtube.com` to the exclusions, but the domain of the same service `youtu.be` will not get into the list. In this case, it’s more safe to use built-in lists of services, because we put there all subdomains related to each platform.
 
-As you can enable subdomains in service lists, we added boxes that reflect the status of each service — you can see them on the main screen of *Exclusions* to the left of each service name: **fully-enabled** status is marked with a white check mark on green background, **fully-disabled** — with a gray box, and **partly-enabled**, which means that one or more parameters were changed — with a green square on white background. Good news: you can always return to the default view of service lists in case you’ve deleted or disabled any domains from there.
+Poiché puoi abilitare i sottodomini nelle liste di servizi, abbiamo aggiunto caselle che riflettono lo stato di ciascun servizio - puoi vederle nella schermata principale di *Esclusioni* a sinistra di ogni nome di servizio: lo stato **completamente abilitato** è contrassegnato da un segno di spunta bianco su sfondo verde, **completamente disabilitato** — con una casella grigia e **parzialmente abilitato**, il che significa che uno o più parametri sono stati modificati — con un quadrato verde su sfondo bianco. Good news: you can always return to the default view of service lists in case you’ve deleted or disabled any domains from there.
 
 ![Esclusioni](https://cdn.adguard.com/content/kb/vpn/android/statuses.png)
 
@@ -78,7 +78,7 @@ The slider switched to the right enables an AdGuard VPN autostart after the devi
 
 ### DNS Server
 
-The purpose of the [Domain name system](https://kb.adguard.com/en/general/dns-filtering#what-is-dns) (DNS) is to translate websites' names into something browsers can understand, i.e. IP addresses. This job is performed by DNS servers. AdGuard VPN for Android offers a choice of several DNS servers, each with special qualities. For example, [AdGuard DNS](https://kb.adguard.com/en/dns/overview) removes ads and protects your device from tracking while AdGuard DNS Family Protection combines the functions of AdGuard DNS with SafeSearch and adult content blocking. There is also an option to add a custom DNS server.
+The purpose of the [Domain name system](https://kb.adguard.com/en/general/dns-filtering#what-is-dns) (DNS) is to translate websites' names into something browsers can understand, i.e. IP addresses. This job is performed by DNS servers. AdGuard VPN for Android offers a choice of several DNS servers, each with special qualities. Ad esempio, [AdGuard DNS](https://kb.adguard.com/en/dns/overview) rimuove gli annunci e protegge il tuo dispositivo dal tracciamento, mentre AdGuard DNS Family Protection combina le funzioni di AdGuard DNS con SafeSearch e il blocco dei contenuti per adulti. There is also an option to add a custom DNS server.
 
 ### Protezione automatica
 

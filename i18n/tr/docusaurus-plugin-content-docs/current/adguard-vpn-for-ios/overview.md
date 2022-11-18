@@ -27,7 +27,7 @@ AdGuard VPN'i kullanmak oldukça kolaydır. Ana ekranda *Bağlan ve Bağlantıy�
 
 ## İstisnaların listesi
 
-Aşağıdaki orta düğmeye dokunarak istisna özelliğini bulabilirsiniz. Orada, Normal ve Seçici Modlar için iki istisna listesi göreceksiniz. Normal modda VPN, istisna listesi dışındaki tüm sitelerde çalışır. Seçici modda tam tersine, VPN yalnızca listedeki sitelerde çalışır. You can add domains (e.g. `google.com`) or subdomains (e.g. `*.google.com`) of websites in two ways: you can enter them manually in the app or right from the browser by clicking the *Share* button and finding AdGuard VPN in the opened list below.
+Aşağıdaki orta düğmeye dokunarak istisna özelliğini bulabilirsiniz. Orada, Normal ve Seçici Modlar için iki istisna listesi göreceksiniz. Normal modda VPN, istisna listesi dışındaki tüm sitelerde çalışır. Seçici modda tam tersine, VPN yalnızca listedeki sitelerde çalışır. Sitelerin etki alanlarını (ör. `google.com`) veya alt alt alan adlarını (ör. `*.google.com`) iki şekilde ekleyebilirsiniz: bunları uygulamaya elle veya doğrudan tarayıcıdan, *Paylaş* düğmesine tıklayıp aşağıdaki açılan listede AdGuard VPN'i bularak girebilirsiniz.
 
 ![İstisnalar](https://cdn.adguard.com/content/kb/vpn/ios/2.png?123)
 
@@ -81,7 +81,7 @@ Uygulamanın sistem varsayılanı, koyu veya açık temasını seçebilirsiniz (
 
 *Gelişmiş ayarlarda* iki bölüm bulabilirsiniz — Günlük kayıt düzeyi ve Tanılama bilgileri. İlk seçenekle ilgili olarak, destek ekibimiz tarafından talep edilmedikçe Genişletilmiş günlük kayıt düzeyinin etkinleştirilmesi tavsiye edilmez. Herhangi bir teknik sorun olması durumunda tanılama bilgileri, cihaz ve bağlantılarla ilgili yerel olarak saklanan teknik bilgiler (IP adresi, ID, ping, vb.) tarafımıza gönderilebilir.
 
-## Quick Actions (available in iOS 13 or later)
+## Hızlı İşlemler (iOS 13 veya sonraki sürümlerde mevcuttur)
 
 Bu özelliğe erişmek için uygulama simgesine dokunup basılı tutun, ardından parmağınızı kaldırın. Hızlı Eylemlerin bir listesini göreceksiniz: şu anda seçili sunucuya Bağlan ve Bağlantıyı kes, Yeni bir sunucu konumu seçmek için konum seç. Elbette, uygulamayı kaldırmak veya uygulama simgesini hareket ettirmek gibi tüm varsayılan işlemlere de erişebilirsiniz.
 

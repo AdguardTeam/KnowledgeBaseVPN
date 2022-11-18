@@ -4,11 +4,11 @@
     "description": "The label for version current"
   },
   "sidebar.sidebar.category.General": {
-    "message": "General",
+    "message": "Generale",
     "description": "The label for category General in sidebar sidebar"
   },
   "sidebar.sidebar.category.Public DNS": {
-    "message": "Public DNS",
+    "message": "DNS pubblico",
     "description": "The label for category Public DNS in sidebar sidebar"
   },
   "sidebar.sidebar.category.Solving problems": {

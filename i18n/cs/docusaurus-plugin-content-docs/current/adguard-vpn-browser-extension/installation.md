@@ -25,7 +25,7 @@ Užívejte si AdGuard VPN!
 
 ### Chrome
 
-Click the three dots icon in the top right corner of the browser, then select *More tools → Extensions*. Vyhledejte AdGuard VPN a klikněte na *Odebrat*.
+Klikněte na ikonu tří teček v pravém horním rohu prohlížeče a poté vyberte *Další nástroje → Rozšíření*. Vyhledejte AdGuard VPN a klikněte na *Odebrat*.
 
 ### Firefox
 

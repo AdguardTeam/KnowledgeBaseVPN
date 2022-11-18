@@ -11,9 +11,9 @@ AdGuard VPN tarayıcı uzantısını yüklemek için şu adımları takip edin:
 
 2. Tarayıcınızın simgesine tıklayın ve ardından *Yükle* öğesine tıklayın.
 
-3. Tarayıcınıza bağlı olarak web sitelerinden biri açılır: Chrome Web Mağazası, Firefox Eklentileri veya Microsoft Edge Eklentileri. İlgili düğmeye tıklayın: *Chrome'a ekle*, *Firefox'a ekle* veya *AdGuard VPN Tarayıcı uzantısının yanındaki* adresini alın.
+3. Tarayıcınıza bağlı olarak web sitelerinden biri açılır: Chrome Web Mağazası, Firefox Eklentileri veya Microsoft Edge Eklentileri. İlgili düğmeye tıklayın: *Chrome'a Ekle*, *Firefox'a Ekle* veya AdGuard VPN Tarayıcı uzantısının yanındaki *Edinin*.
 
-4. Yükleme tamamlandıktan sonra [sınırsız sürüme](https://adguard-vpn.com/thankyou.html)geçmeniz istenecektir. Tamamen isteğe bağlıdır, ancak ücretsiz sürümün sizin için yeterli olmadığını düşünüyorsanız, istediğiniz zaman [aboneliği](/general/subscription.md) satın alabilirsiniz.
+4. Yükleme tamamlandıktan sonra [sınırsız sürüme](https://adguard-vpn.com/thankyou.html)geçmeniz istenecektir. Tamamen isteğe bağlıdır ancak ücretsiz sürümün sizin için yeterli olmadığını fark ederseniz, istediğiniz zaman [abonelik](/general/subscription.md) satın alabilirsiniz.
 
 4. İlgili kutuyu işaretleyerek SKLS ve Gizlilik Politikasını okuyun ve kabul edin. Ayrıca AdGuard VPN'in, ürünümüzü geliştirmemiz gereken uygulama kullanımı hakkında anonimleştirilmiş veriler toplamasına da izin verebilirsiniz (bu isteğe bağlıdır). Ardından *Devam* öğesine tıklayın.
 
@@ -25,7 +25,7 @@ AdGuard VPN'in keyfini çıkarın!
 
 ### Chrome
 
-Click the three dots icon in the top right corner of the browser, then select *More tools → Extensions*. AdGuard VPN'i bulun ve *Kaldır* öğesine tıklayın.
+Tarayıcının sağ üst köşesindeki üç nokta simgesini tıklayın, ardından *Diğer araçlar → Uzantılar* öğesini seçin. AdGuard VPN'i bulun ve *Kaldır* öğesine tıklayın.
 
 ### Firefox
 
