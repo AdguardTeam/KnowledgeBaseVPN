@@ -1,5 +1,5 @@
 ---
-title: '限制模式账户问题'
+title: '限制模式描述文件问题'
 sidebar_position: 4
 ---
 
@@ -15,7 +15,7 @@ sidebar_position: 4
 - 打开手机自带的的**设置**；
 - 点击**系统**部分（一般在设置菜单的最后）。 在此部分中找到子项**关于手机**；
 - 连续点击**版本号**7次。 之后，您会收到通知称**您已处于开发者模式**（有可能会要求您输入设备的解锁密码）；
-- 打开**系统设置**>**开发者选项**>下滑并开启**USB调试**>在阅读提醒后确认**允许USB调试**窗口已为开启状态。
+- Open **System Settings** → **Developer Options** → Scroll down and enable **USB debugging** → Confirm debugging is enabled in the window **Allow USB debugging** after reading the warning carefully.
 
 > 如果您有任何困难或其他问题，可以在[此处](https://developer.android.com/studio/debug/dev-options)找到完整说明。
 

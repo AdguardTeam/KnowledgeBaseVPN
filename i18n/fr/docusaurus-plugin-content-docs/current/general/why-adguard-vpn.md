@@ -22,13 +22,13 @@ Vous pouvez ajouter des sites web aux exclusions manuellement ou les choisir par
 > Cette fonctionnalité est disponible sur toutes les plateformes sauf iOS.
 
 ## 3. Choisir un serveur DNS
-Ne vous fiez plus au serveur DNS fourni par défaut par votre FAI ! Tout d'abord, ce n'est pas sécuritaire : votre FAI a très probablement accès à votre historique de navigation. Deuxièmement, les gens sous-estiment souvent le DNS, mais il peut supprimer les publicités et les traqueurs, protéger votre appareil contre les logiciels malveillants ou, par exemple, activer la recherche sécurisée et bloquer le contenu réservé aux adultes.
+Ne vous fiez plus au serveur DNS fourni par défaut par votre FAI ! Tout d'abord, ce n'est pas sécuritaire : votre FAI a très probablement accès à votre historique de navigation. Second, people often underestimate DNS, yet it can remove ads and trackers, protect your device from malware or, for instance, enable safe search and block adult content.
 
 Vous pouvez choisir des serveurs DNS parmi les [fournisseurs DNS connus](https://kb.adguard.com/en/general/dns-providers) tels que AdGuard, Cisco, Cloudflare, Google ou Quad9, ou même configurer l'utilisation de votre propre serveur DNS.
 
 ## 4. Localisations les plus rapides
 
-Une autre caractéristique qui distingue AdGuard VPN de la foule est que vous pouvez sélectionner un emplacement en fonction de son ping. En un mot, le ping est le temps qu'il faut au paquet de données envoyé depuis votre ordinateur pour atteindre le serveur et revenir. En cas de doute, utilisez la règle empirique : plus le ping est faible, plus le serveur est proche, plus sa vitesse est élevée. Nous augmentons constamment le nombre d'emplacements pour que vous puissiez choisir parmi une variété.
+Une autre caractéristique qui distingue AdGuard VPN de la foule est que vous pouvez sélectionner un emplacement en fonction de son ping. In a nutshell, ping is the time it takes the data packet sent from your device to reach the server and return. En cas de doute, utilisez la règle empirique : plus le ping est faible, plus le serveur est proche, plus sa vitesse est élevée. Nous augmentons constamment le nombre d'emplacements pour que vous puissiez choisir parmi une variété.
 
 > Veuillez noter que pour accéder à tous les emplacements de serveurs VPN, vous devez acheter un abonnement AdGuard VPN.
 

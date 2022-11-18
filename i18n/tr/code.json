@@ -28,7 +28,7 @@
     "description": "The label used to navigate to the older blog posts page (next page)"
   },
   "theme.blog.post.readingTime.plurals": {
-    "message": "Bir dakika okuma|{readingTime} dakikalık okuma",
+    "message": "Bir dkokuma|{readingTime} dk okuma",
     "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.tags.tagsListLabel": {
@@ -60,7 +60,7 @@
     "description": "The title of the tag list page"
   },
   "theme.blog.post.plurals": {
-    "message": "Bir gönderi|{count} gönderiler",
+    "message": "Bir gönderi|{count} gönderi",
     "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.blog.tagTitle": {
@@ -92,7 +92,7 @@
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "theme.docs.paginator.navAriaLabel": {
-    "message": "Dokümanlar sayfalarında gezinme",
+    "message": "Dökümanlar sayfasında gezinme",
     "description": "The ARIA label for the docs pagination"
   },
   "theme.docs.paginator.previous": {
@@ -152,7 +152,7 @@
     "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
   },
   "theme.common.skipToMainContent": {
-    "message": "Ana içeriğe geç",
+    "message": "Ana içeriğe atla",
     "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
   },
   "theme.TOCCollapsible.toggleButtonLabel": {
@@ -184,15 +184,15 @@
     "description": "The ARIA label for the link to full blog posts from excerpts"
   },
   "theme.colorToggle.ariaLabel": {
-    "message": "Karanlık ve aydınlık mod arasında geçiş yapın (şu anda {mode})",
+    "message": "Koyu ve açık mod arasında geçiş yapın (şu anki {mode})",
     "description": "The ARIA label for the navbar color mode toggle"
   },
   "theme.colorToggle.ariaLabel.mode.dark": {
-    "message": "karanlık mod",
+    "message": "koyu mod",
     "description": "The name for the dark color mode"
   },
   "theme.colorToggle.ariaLabel.mode.light": {
-    "message": "aydınlık mod",
+    "message": "açık mod",
     "description": "The name for the light color mode"
   },
   "theme.docs.breadcrumbs.home": {
@@ -208,7 +208,7 @@
     "description": "The default description for a category card in the generated index about how many items this category includes"
   },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
-    "message": "Bir doküman etiketlendi|{count} dokümanlar etiketlendi",
+    "message": "Bir doküman etiketlendi|{count} doküman etiketlendi",
     "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.tagDocListPageTitle": {
@@ -227,7 +227,7 @@
     "description": "The title attribute for toggle word wrapping button of code block lines"
   },
   "theme.DocSidebarItem.toggleCollapsedCategoryAriaLabel": {
-    "message": "Katlanabilir kenar çubuğu kategorisini aç / kapat '{label}'",
+    "message": "Daraltılabilir kenar çubuğu kategorisini aç/kapat '{label}'",
     "description": "The ARIA label to toggle the collapsible sidebar category"
   },
   "theme.navbar.mobileLanguageDropdown.label": {
@@ -247,7 +247,7 @@
     "description": "When the user is viewing an offline document"
   },
   "theme.IdealImageMessage.404error": {
-    "message": "404. Resim bulunamadı",
+    "message": "404. Görüntü bulunamadı",
     "description": "When the image is not found"
   },
   "theme.IdealImageMessage.error": {
@@ -255,7 +255,7 @@
     "description": "When the image fails to load for unknown error"
   },
   "theme.SearchPage.documentsFound.plurals": {
-    "message": "Bir belge bulundu|{count} belgeler bulundu",
+    "message": "Bir doküman bulundu|{count} doküman bulundu",
     "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.SearchPage.existingResultsTitle": {
@@ -263,7 +263,7 @@
     "description": "The search page title for non-empty query"
   },
   "theme.SearchPage.emptyResultsTitle": {
-    "message": "Belgeleri arayın",
+    "message": "Dokümanları arayın",
     "description": "The search page title for empty query"
   },
   "theme.SearchPage.inputPlaceholder": {
@@ -275,7 +275,7 @@
     "description": "The ARIA label for search page input"
   },
   "theme.SearchPage.algoliaLabel": {
-    "message": "Typesense ile ara",
+    "message": "Typesense tarafından arama",
     "description": "The ARIA label for Typesense mention"
   },
   "theme.SearchPage.noResultsText": {
@@ -283,7 +283,7 @@
     "description": "The paragraph for empty search result"
   },
   "theme.SearchPage.fetchingNewResults": {
-    "message": "Yeni sonuçlar alınıyor...",
+    "message": "Yeni sonuçlar getiriliyor...",
     "description": "The paragraph for fetching new search results"
   },
   "theme.SearchBar.label": {
@@ -291,7 +291,7 @@
     "description": "The ARIA label and placeholder for search button"
   },
   "sticky_bar.promo.free": {
-    "message": "Ücretsiz 3 GB kazanın",
+    "message": "Ücretsiz 3 GB edinin",
     "description": "String used for free GB promo in sticky bar"
   },
   "Install": {
@@ -303,7 +303,7 @@
     "description": "String used for license agreement text in sticky bar"
   },
   "sticky_bar.btn.baloon.text.link": {
-    "message": "Lisans anlaşması",
+    "message": "Lisans Sözleşmesi",
     "description": "The label for the link to license agreement"
   },
   "sticky_bar.btn.text.download": {

@@ -7,7 +7,7 @@ Existe um aplicativo AdGuard VPN para praticamente todas as principais plataform
 
 ### Como se tornar um beta tester
 
-Para se tornar um testador beta do AdGuard VPN, você só precisa de algumas coisas: o desejo, o dispositivo no qual você instalará o aplicativo e [este link](https://adguard-vpn.com/en/beta.html), seguindo o qual você poderá baixar a versão beta ou noturna mais recente do VPN AdGuard!
+Para se tornar um testador beta do AdGuard VPN, você só precisa de algumas coisas: o desejo, o dispositivo no qual você instalará o aplicativo e [este link](https://adguard-vpn.com/en/beta.html), seguindo o qual você poderá baixar a versão beta ou noturna mais recente do AdGuard VPN!
 
 ### Como relatar um problema
 

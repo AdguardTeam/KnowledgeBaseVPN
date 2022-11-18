@@ -25,7 +25,7 @@ sidebar_position: 2
 
 ### Chrome 浏览器
 
-点击浏览器右上角的三点图标，然后选择*更多->扩展*。 找到AdGuard VPN并点击*移除*。
+Click the three dots icon in the top right corner of the browser, then select *More tools → Extensions*. 找到AdGuard VPN并点击*移除*。
 
 ### 火狐浏览器
 

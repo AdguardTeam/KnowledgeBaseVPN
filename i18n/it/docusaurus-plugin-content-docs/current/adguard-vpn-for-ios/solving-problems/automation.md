@@ -45,6 +45,6 @@ Now you have a new scenario: AdGuard VPN will be automatically enabled when you 
 
 * In the new window tap *Set VPN connection*.
 * Then tap the word *On* so that it changes to the word *Off*, then tap *Next* in the upper right corner of the screen.
-* Disable the *Ask before running* option and confirm your selection. Then tap *Done* at the top right corner of the screen to complete the process
+* Disable the *Ask before running* option and confirm your selection. Then tap *Done* at the top right corner of the screen to complete the process.
 
 Done! AdGuard VPN will now be enabled on your device every time you open the Twitter app, and disabled when you close it. You can repeat the same steps for any other app. 

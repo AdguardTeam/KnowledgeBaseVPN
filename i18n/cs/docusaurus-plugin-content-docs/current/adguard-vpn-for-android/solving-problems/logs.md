@@ -22,7 +22,7 @@ Ve výchozím nastavení používá AdGuard VPN pro Android **Výchozí** úrove
 
 Ve většině případů je **Výchozí** úroveň záznamů dostatečná pro dohledání případných chyb. V některých případech jsou však vyžadovány podrobnější technické informace o zařízení a připojeních, a pak vás náš tým podpory požádá o povolení **Rozšířené** nebo **Extrémní** úrovně záznamů. Chcete-li odeslat tyto typy protokolů, postupujte podle následujících kroků:
 
-1. Open AdGuard VPN for Android and select **Settings** (the gear icon at the bottom right corner) → **App settings** → **Advanced settings** → **Logging level**.
+1. Otevřete AdGuard VPN pro Android a vyberte **Nastavení** (ikona ozubeného kola v pravém dolním rohu) → **Nastavení aplikace** → **Pokročilá nastavení** → **Úroveň záznamů**.
 
 2. V části **Úroveň záznamů** vyberte **Rozšířenou** nebo **Extrémní** úroveň záznamů.
 

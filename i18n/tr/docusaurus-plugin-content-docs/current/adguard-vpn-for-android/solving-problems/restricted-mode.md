@@ -3,7 +3,7 @@ title: 'Kısıtlı Mod profiliyle ilgili sorunlar'
 sidebar_position: 4
 ---
 
-Android 7+ işletim sistemini çalıştıran telefon ve tablet sahipleri, **Kısıtlı Mod ile bir profilin kullanılmasından** kaynaklanan sorunla karşılaşabilir. Böyle bir profiliniz varsa, **AdGuard VPN** de VPN kullanan diğer uygulamalar gibi, VPN trafiğinin seçici kullanımı konusunda kısıtlamalar alır. Ayrıca, bu sorunun nedenlerinden biri, cihazınızda **Dual App / Dual Messenger profil** kullanmak olabilir. Aşağıda bu sorun oluştuğunda uygulayabileceğiniz öneriler açıklanmıştır.
+Android 7+ işletim sistemini çalıştıran telefon ve tablet sahipleri, **Kısıtlı Mod ile bir profilin kullanılmasından** kaynaklanan sorunla karşılaşabilir. Böyle bir profiliniz varsa, **AdGuard VPN** de VPN kullanan diğer uygulamalar gibi, VPN trafiğinin seçici kullanımı konusunda kısıtlamalar alır. Ayrıca, bu sorunun nedenlerinden biri cihazınızda **Dual App/Dual Messenger** profilini kullanmak olabilir. Aşağıda bu sorun oluştuğunda uygulayabileceğiniz tavsiyeler açıklanmıştır.
 
 ## Çözümler
 
@@ -15,14 +15,14 @@ Sorunu çözmek için iki yolunuz var:
 - Telefonunuzda **Ayarlar** uygulamasını açın;
 - **Sistem** bölümüne gidin (ayarlar menüsündeki son öğe). Bu bölümde **Telefon hakkında** alt öğesini bulun;
 - **Yapı numarası** satırına 7 kez tıklayın. Bundan sonra, artık **Bir geliştirici olduğunuza dair** bir bildirim alırsınız (Gerekirse, cihaz için bir kilit açma kodu girin);
-- Open **System Settings** > **Developer Options** > Scroll down and enable **USB debugging** > Confirm debugging is enabled in the window **Allow USB debugging** after reading the warning carefully.
+- Open **System Settings** → **Developer Options** → Scroll down and enable **USB debugging** → Confirm debugging is enabled in the window **Allow USB debugging** after reading the warning carefully.
 
 > Herhangi bir zorluk veya ek sorunuz varsa, tam talimatlar [burada](https://developer.android.com/studio/debug/dev-options) bulunabilir.
 
 2. [Yükleyin ve yapılandırın](https://www.xda-developers.com/install-adb-windows-macos-linux/) adb;
 > Windows platformunda, **Samsung** sahiplerinin [bu yardımcı programı](https://developer.samsung.com/mobile/android-usb-driver.html) yüklemeleri gerekebilir.
 
-3. Cihazınızı **USB kablosu** kullanarak **ADB**kurduğunuz bilgisayara veya dizüstü bilgisayara bağlayın;
+3. Cihazınızı bir **USB kablosu** kullanarak **ADB** kurduğunuz bilgisayara veya dizüstü bilgisayara bağlayın;
 4. PC'nizde **komut satırını** açın:
 - **Windows** kullanıyorsanız **Cmd.exe**;
 - **macOS** kullanıyorsanız **Terminal**;
@@ -32,18 +32,18 @@ Sorunu çözmek için iki yolunuz var:
 
 [Burada](https://support.google.com/a/answer/6223444?hl=en) Android cihazdan kullanıcı hesaplarının nasıl yönetileceğini bulabilirsiniz.
 
-> Lütfen bazı durumlarda kısıtlanmış kullanıcı hesaplarının dolaylı olarak oluşturulduğunu ve kaldırılamayacağını unutmayın. For instance, when you use Dual Messenger or Dual App features on **Samsung** or **LG** devices. Bu durumlarda sorunun nasıl çözüleceğini aşağıda okuyun.
+> Lütfen bazı durumlarda kısıtlanmış kullanıcı hesaplarının dolaylı olarak oluşturulduğunu ve kaldırılamayacağını unutmayın. Örneğin, **Samsung** veya **LG** cihazlarında Dual Messenger veya Dual App özelliklerini kullandığınızda. Bu durumlarda sorunun nasıl çözüleceğini aşağıda okuyun.
 
 ### LG ve Samsung cihazları
 
-**LG** veya **Samsung** telefon sahipleri de benzer bir sorunla karşılaşabilir. It can be caused by using **Dual App/Dual Messenger** function (which automatically creates a restricted profile). Bu sorunu çözmek için bu özelliği devre dışı bırakmanız gerekir.
+**LG** veya **Samsung** telefon sahipleri de benzer bir sorunla karşılaşabilir. **Dual App/Dual Messenger** işlevi (otomatik olarak kısıtlı bir profil oluşturur) kullanılmasından kaynaklanabilir. Bu sorunu çözmek için bu özelliği devre dışı bırakmanız gerekir.
 
 #### Samsung
 
 - **Ayarları** açın;
 - **Gelişmiş** öğesine basın;
-- Scroll down and then press **Dual Messenger**;
-- Disable the **Dual Messenger** for all applications;
+- Aşağı kaydırın ve ardından **Dual Messenger** öğesine basın;
+- Tüm uygulamalar için **Dual Messenger** öğesini devre dışı bırakın;
 - Cihazı 5 dakika kilitleyin;
 - Ekranın kilidini açın ve VPN profilini yeniden oluşturmayı deneyin.
 
@@ -51,6 +51,6 @@ Sorunu çözmek için iki yolunuz var:
 
 - **Ayarları** açın;
 - **Genel** sekmesini seçin;
-- Scroll down and then press **Dual App**;
+- Aşağı kaydırın ve ardından **Dual App** öğesine basın;
 - Tüm uygulamaları listeden kaldırın;
 - Cihazınızı yeniden başlatın.

@@ -8,7 +8,7 @@
     "description": "Navbar item with label blog"
   },
   "item.label.official_website": {
-    "message": "Resmi Web Sitesi",
+    "message": "Resmi Site",
     "description": "Navbar item with label official_website"
   },
   "item.label.github": {

@@ -25,7 +25,7 @@ Enjoy AdGuard VPN!
 
 ### Chrome
 
-Click the three dots icon in the top right corner of the browser, then select *More tools -> Extensions*. Find AdGuard VPN and click *Remove*.
+Click the three dots icon in the top right corner of the browser, then select *More tools → Extensions*. Find AdGuard VPN and click *Remove*.
 
 ### Firefox
 

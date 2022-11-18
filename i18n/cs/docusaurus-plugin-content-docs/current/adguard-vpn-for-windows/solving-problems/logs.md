@@ -18,15 +18,15 @@ Ve výchozím nastavení používá AdGuard VPN pro Windows standardní úroveň
 
 3. V otevřeném formuláři zadejte svou e-mailovou adresu pro zpětnou vazbu a popište nalezenou chybu, včetně času, kdy k ní došlo. Pokud nemůžete problém reprodukovat, uveďte co nejpřesněji, kdy k němu naposledy došlo.
 
-4. There is a check mark next to the **Send detailed system info**, which means that when you send a report, you also send logs.
-> Pokud je pro vás z nějakého důvodu pohodlnější poslat nám protokoly jiným způsobem, můžete je exportovat sami. To do this, go to **Support** → **Export logs and system info**.
+4. Vedle položky **Odeslat podrobné systémové informace** je zaškrtávací políčko, což znamená, že při odesílání hlášení se odesílají také protokoly.
+> Pokud je pro vás z nějakého důvodu pohodlnější poslat nám protokoly jiným způsobem, můžete je exportovat sami. Chcete-li to provést, přejděte do **Podpora** → **Exportovat protokoly a systémové informace**.
 
 
 ## Shromažďování a odesílání rozšířených protokolů
 
 Ve většině případů je výchozí úroveň záznamů dostatečná pro dohledání případných chyb. V některých případech jsou však vyžadovány podrobnější technické informace o zařízení a připojeních, a pak vás náš tým podpory požádá o povolení rozšířené úrovně záznamů. Chcete-li odeslat tento typ protokolů, postupujte podle následujících kroků:
 
-1. Open AdGuard VPN for Windows and select **Settings** (in the menu above) → **App settings** → **Advanced settings** → **Logging level**.
+1. Otevřete AdGuard VPN pro Windows a vyberte **Nastavení** (v nabídce výše) → **Nastavení aplikace** → **Pokročilá nastavení** → **Úroveň záznamů**.
 
 2. V části **Úroveň záznamu** vyberte možnost **Zaznamenat vše**.
 
@@ -38,5 +38,5 @@ Ve většině případů je výchozí úroveň záznamů dostatečná pro dohled
 
 6. V otevřeném formuláři zadejte svou e-mailovou adresu pro zpětnou vazbu a popište nalezenou chybu, včetně času, kdy k ní došlo.
 
-7. Make sure that there is a check mark next to **Send detailed system info** and click **Send**.
-> Pokud je pro vás z nějakého důvodu pohodlnější poslat nám protokoly jiným způsobem, můžete je exportovat sami. To do this, go to **Support** → **Export logs and system info**.
+7. Ujistěte se, že je zaškrtnuto políčko **Odeslat podrobné systémové informace**, a klikněte na **Odeslat**.
+> Pokud je pro vás z nějakého důvodu pohodlnější poslat nám protokoly jiným způsobem, můžete je exportovat sami. Chcete-li to provést, přejděte do **Podpora** → **Exportovat protokoly a systémové informace**.

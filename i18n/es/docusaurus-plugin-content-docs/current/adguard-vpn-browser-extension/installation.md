@@ -25,7 +25,7 @@ Para instalar la extensión del navegador AdGuard VPN, siga estos pasos:
 
 ### Chrome
 
-Haz clic en el icono de tres puntos en la esquina superior derecha del navegador y, a continuación, selecciona *Más herramientas -> Extensiones*. Busque AdGuard VPN y haga clic en *Quitar*.
+Click the three dots icon in the top right corner of the browser, then select *More tools → Extensions*. Busque AdGuard VPN y haga clic en *Quitar*.
 
 ### Firefox
 

@@ -15,7 +15,7 @@ AdGuard VPN can only be installed on devices with **iOS 11.2 and iPadOS 11.2 or 
 
 ![App Store](https://cdn.adguard.com/content/kb/vpn/ios/app-store-en.png)
 
-2. Next, in the search bar, start typing *"AdGuard"* and select *"adguard vpn"* from the list of suggested options.
+2. Ardından, arama çubuğuna *"AdGuard"* yazmaya başlayın ve önerilen seçenekler listesinden *"adguard vpn"* öğesini seçin.
 
 ![Ara](https://cdn.adguard.com/content/kb/vpn/ios/search-en.png)
 
@@ -33,4 +33,4 @@ iOS için AdGuard VPN'i silmeye karar verdiyseniz, Ana Ekranda bu uygulamanın s
 
 ![Kaldır](https://cdn.adguard.com/public/Adguard/kb/vpn-install/deinstall-en.png)
 
-You can learn more about the AdGuard VPN app for iOS in [this article](overview.md).
+[Bu makalede](overview.md) iOS için AdGuard VPN uygulaması hakkında daha fazla bilgi edinebilirsiniz.
