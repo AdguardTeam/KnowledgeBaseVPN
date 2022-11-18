@@ -5,22 +5,22 @@ sidebar_position: 1
 
 AdGuard VPN Tarayıcı uzantısı Chrome, Firefox ve Edge için mevcuttur. Kullanıcı arayüzü ve işlevsellik tarayıcılar arasında farklılık göstermez, bu nedenle aşağıdaki genel bakış, tüm tarayıcılar için AdGuard VPN uzantılarıyla alakalı olacaktır.
 
-> AdGuard VPN Tarayıcı uzantısını yalnızca giriş yaptığınızda kullanabileceğinizi unutmayın. AdGuard hesabınızla veya Google, Facebook ya da Apple aracılığıyla giriş yapın. İkinci durumda, hesabınızın AdGuard hesabınızla aynı e-posta adresine bağlı olduğundan emin olun. [AdGuard VPN aboneliğiniz varsa](/general/subscription.md), AdGuard VPN Tarayıcı uzantısında otomatik olarak etkinleştirilecektir. Henüz bir AdGuard hesabınız yok mu? [Buradan oluşturun](https://auth.adguard.com/registration.html).
+> AdGuard VPN Tarayıcı uzantısını yalnızca giriş yaptığınızda kullanabileceğinizi unutmayın. AdGuard hesabınızla veya Google, Facebook ya da Apple aracılığıyla giriş yapın. İkinci durumda, hesabınızın AdGuard hesabınızla aynı e-posta adresine bağlı olduğundan emin olun. [AdGuard VPN aboneliğiniz](/general/subscription.md) varsa, AdGuard VPN Tarayıcı uzantısında otomatik olarak etkinleştirilecektir. Henüz bir AdGuard hesabınız yok mu? [Buradan oluşturun](https://auth.adguard.com/registration.html).
 
 AdGuard VPN Tarayıcı uzantınızı yönetmek için
 
-* Tarayıcının panelindeki simgesini tıklayın, sonra üç çizgiyi tıklayın ve Ayarlar **veya
+* Tarayıcının panelindeki simgesine tıklayın, ardından üç çizgiye tıklayın ve *Ayarları* seçin veya
 * Tarayıcınızın *Uzantıları yönet* sayfasına gidin ve AdGuard VPN'nin ayarlarını buradan girin.
 
 İşiniz bittiğinde, solda birkaç sekme göreceksiniz:
 
 ## Ayarlar
 
-Bu sekmede birkaç önemli ayar toplanmıştır. Burada kullanılacak bir DNS sunucusu seçebilir, tarayıcının içerik menüsüne AdGuard VPN simgesini ekleyebilir veya kaldırabilir, WebRTC'yi engelleyebilir, uzantının temasını değiştirebilir ve AdGuard'ın anonimleştirilmiş çökme raporları ve teknik veriler toplamasına izin verebilirsiniz.
+Bu sekmede birkaç önemli ayar toplanmıştır. Burada kullanılacak bir DNS sunucusu seçebilir, tarayıcının içerik menüsüne AdGuard VPN simgesini ekleyebilir veya kaldırabilir, WebRTC'i engelleyebilir, uzantının temasını değiştirebilir ve AdGuard'ın anonimleştirilmiş çökme raporları ve teknik veriler toplamasına izin verebilirsiniz.
 
 ### DNS sunucusu seçme
 
-Varsayılan olarak, ISS'niz tarafından sağlanan [sistem DNS sunucusu](https://kb.adguard.com/en/general/dns-filtering#what-is-dns) seçilidir, ancak gizliliğinizi tehlikeye atabilir. AdGuard VPN Tarayıcı uzantısıyla, daha iyi hız ve güvenlik sağlayan ve hatta reklamları veya potansiyel olarak tehlikeli alan adlarını engelleyen bir DNS sunucusu seçebilirsiniz. DNS sunucularının adları altındaki kısa açıklamalar, gezinmenize ve kararınızı vermenize yardımcı olur.
+Varsayılan olarak, İSS'niz tarafından sağlanan [sistem DNS sunucusu](https://kb.adguard.com/en/general/dns-filtering#what-is-dns) seçilidir, ancak gizliliğinizi tehlikeye atabilir. AdGuard VPN Tarayıcı uzantısıyla, daha iyi hız ve güvenlik sağlayan ve hatta reklamları veya potansiyel olarak tehlikeli alan adlarını engelleyen bir DNS sunucusu seçebilirsiniz. DNS sunucularının adları altındaki kısa açıklamalar, gezinmenize ve kararınızı vermenize yardımcı olur.
 
 DNS sunucularını çeşitli sağlayıcılardan [hakkında daha fazla bilgi edinin](https://kb.adguard.com/ru/general/dns-providers).
 
@@ -28,9 +28,9 @@ DNS sunucularını çeşitli sağlayıcılardan [hakkında daha fazla bilgi edin
 
 Bir sonraki sekme, AdGuard VPN'in ana ayırt edici özelliklerinden birini içerir – ayrı istisna listelerine sahip iki mod.
 
-**Normal mod**, AdGuard VPN varsayılan olarak istisnalar listesine eklediğiniz web siteleri hariç tüm web sitelerinde çalışır. **Seçici mod**, tam tersi, AdGuard VPN varsayılan olarak hiçbir yerde çalışmaz. Çalışmasını istediğiniz web sitelerini, ** Normal mod** gördüğünüzden ayrı olarak bir dışlamalar listesine ekleyebilirsiniz.
+**Normal mod**, AdGuard VPN varsayılan olarak istisnalar listesine eklediğiniz web siteleri hariç tüm web sitelerinde çalışır. **Seçici mod**, tam tersi, AdGuard VPN varsayılan olarak hiçbir yerde çalışmaz. **Normal modda** gördüğünüzden ayrı olarak, çalışmasını istediğiniz siteleri bir istisna listesine ekleyebilirsiniz.
 
-İstisnalar listesine bir web sitesi eklerken, web sitesini manuel olarak girebilir veya **Listeden** seçeneğini belirleyebilirsiniz. İkinci durumda, sekiz kategori görürsünüz (ör. *Alışveriş*, *Messengers*, vb.), Her biri birkaç popüler hizmet öneriyor. Bu hizmetlerden herhangi birini tek bir tıklamayla hariç tutabilirsiniz ve bu işlem, söz konusu hizmetle ilgili tüm alanları istisnalara ekler.
+Hariç tutulanlar listesine bir site eklerken, siteyi elle yazabilir veya **Listeden** seçeneğini seçebilirsiniz. İkinci durumda, sekiz kategori görürsünüz (ör. *Alışveriş*, *Messengers*, vb.), Her biri birkaç popüler hizmet öneriyor. Bu hizmetlerden herhangi birini tek bir tıklamayla hariç tutabilirsiniz ve bu işlem, söz konusu hizmetle ilgili tüm alanları istisnalara ekler.
 
 ### İçe ve dışa aktarma
 
@@ -51,4 +51,4 @@ Sık sorulan soruların yanıtlarını SSS bölümünde bulabilir veya geri bild
 
 ## Hakkında
 
-Uzantının sürümünü kontrol edebileceğiniz, resmi web sitesini ziyaret edebileceğiniz ve EULA'yı veya Gizlilik Politikasını görüntüleyebileceğiniz başka bir küçük sekme.
+Uzantının sürümünü kontrol edebileceğiniz, resmi siteyi ziyaret edebileceğiniz ve SKLS veya Gizlilik Politikasını görüntüleyebileceğiniz başka bir küçük sekme.

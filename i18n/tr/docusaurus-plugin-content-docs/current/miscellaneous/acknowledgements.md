@@ -15,7 +15,7 @@ Geliştirme ekibimiz, AdGuard VPN'de kullandığımız üçüncü taraf yazılı
 
 ## Android için AdGuard VPN
 
-* Logback-android by Tony19: [https://tony19.github.io/logback-android](https://tony19.github.io/logback-android)
+* Tony19 tarafından Logback-android: [https://tony19.github.io/logback-android](https://tony19.github.io/logback-android)
 
 ## iOS için AdGuard VPN
 

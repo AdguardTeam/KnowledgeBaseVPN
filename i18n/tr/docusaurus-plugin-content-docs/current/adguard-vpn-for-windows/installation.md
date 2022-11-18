@@ -6,7 +6,7 @@ sidebar position: 2
 
 ## Sistem gereksinimleri
 
-AdGuard VPN yalnızca **Microsoft Windows 10/8.1/8/7/Vista SP2 (yalnızca web tabanlı)** yüklü cihazlara kurulabilir.
+AdGuard VPN yalnızca **Microsoft Windows 10/8.1/8/7/Vista SP2 (yalnızca web tabanlı)** olan cihazlara yüklenebilir.
 
 
 ## Windows için AdGuard VPN kurulumu

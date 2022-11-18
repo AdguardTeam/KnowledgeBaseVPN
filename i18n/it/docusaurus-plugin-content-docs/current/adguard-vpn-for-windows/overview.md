@@ -76,7 +76,7 @@ At the bottom of the page there are two sections: **DNS servers** and **Advanced
 
 The **DNS servers** tab allows you to add your own custom DNS server. Why should you do this? For example, not to rely on the default DNS server, which is often controlled by your ISP.
 
-You can set up a DNS server by any provider. We recommend adding [AdGuard DNS](https://kb.adguard.com/en/general/dns-providers#adguard-dns), a server that can protect against advertising, tracking and phishing in addition to the standard functions.
+You can set up a DNS server by any provider. Consigliamo di aggiungere [AdGuard DNS](https://kb.adguard.com/en/general/dns-providers#adguard-dns), un server in grado di proteggere da pubblicità, tracciamento e phishing oltre alle funzioni standard.
 
 #### Advanced Settings
 
@@ -94,7 +94,7 @@ All logs are stored locally on your device and you can send them to the support 
 
 **Use QUIC**
 
-This is an experimental feature that enables AdGuard to use the advanced QUIC encryption protocol. It has many advantages, but the most notable one is that it can improve connection quality under non-ideal conditions, for example, when using mobile Internet or when connecting to public Wi-Fi networks.
+This is an experimental feature that enables AdGuard to use the advanced QUIC encryption protocol. Ha molti vantaggi, ma il più notevole è che può migliorare la qualità della connessione in condizioni non ideali, ad esempio quando si utilizza Internet mobile o quando ci si connette a reti Wi-Fi pubbliche.
 
 
 ### Split tunneling
@@ -107,7 +107,7 @@ AdGuard VPN encrypts the traffic not only of your browsers, but also of other ap
 
 ### About
 
-The **About program** tab provides information about the current version of AdGuard VPN for Windows, an update button, and a few useful links: AdGuard website, forum, EULA and Privacy Policy.
+La scheda **Informazioni sul programma** fornisce informazioni sulla versione corrente di AdGuard VPN per Windows, un pulsante di aggiornamento e alcuni collegamenti utili: sito Web AdGuard, forum, EULA e Informativa sulla privacy.
 
 ### About license
 

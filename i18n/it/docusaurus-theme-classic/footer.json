@@ -64,7 +64,7 @@
     "description": "The label of footer link with label=faq linking to https://adguard-vpn.com/support/faq.html"
   },
   "link.item.label.status": {
-    "message": "Status Page",
+    "message": "Pagina di stato",
     "description": "The label of footer link with label=status linking to https://status.adguard.com/"
   },
   "link.item.label.test": {

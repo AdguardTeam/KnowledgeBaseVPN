@@ -59,13 +59,13 @@ Some online services make a lot of effort to detect VPN traffic and block access
 
 **VPN connections breaking**
 
-A weak signal, network overload, VPN incompatibility with a firewall, antivirus and other programs, an outdated VPN protocol — all this can cause a sudden failure in the VPN connection, especially by unreliable VPN providers.
+Un segnale debole, sovraccarico di rete, incompatibilità VPN con un firewall, antivirus e altri programmi, un protocollo VPN obsoleto: tutto ciò può causare un guasto improvviso nella connessione VPN, soprattutto da parte di provider VPN inaffidabili.
 
 ## AdGuard VPN
 
 Our VPN service has several important [advantages](why-adguard-vpn.md):
 
-* [*Proprietary VPN protocol*](adguard-vpn-protocol.mdx), which works stably even with a slow Internet connection and disguises itself as normal traffic, making it more difficult to track and block it
+* [*Protocollo VPN proprietario*](adguard-vpn-protocol.mdx), che funziona in maniera stabile anche con una connessione Internet lenta e si maschera da traffico normale, rendendo più tracciarlo e bloccarlo
 
 * [*"No-logs" policy*](https://adguard-vpn.com/en/privacy.html), which means that AdGuard VPN does not collect your personal data and does not transfer it to third parties
 

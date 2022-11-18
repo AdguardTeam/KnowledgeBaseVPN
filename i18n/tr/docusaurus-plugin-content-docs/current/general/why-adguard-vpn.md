@@ -3,7 +3,7 @@ title: 'AdGuard VPN neden daha iyi bir seçenek'
 sidebar_position: 2
 ---
 
-[Uzun vadeli bir VPN aboneliğine](subscription.md) hazırlanırken, kullanıcılar en sık hızını, güvenliğini ve fiyatını değerlendirir. Bunlar çok önemli noktalar ama çok daha fazlası var! AdGuard VPN, onu 'daha iyi seçenek' yapan bir onlarca önemli varlığa sahiptir.
+Kullanıcılar, [uzun vadeli bir VPN aboneliği](subscription.md) almaya hazırlanırken en sık olarak hızını, güvenliğini ve fiyatını değerlendirir. Bunlar çok önemli noktalar ama çok daha fazlası var! AdGuard VPN, onu 'daha iyi seçenek' yapan bir onlarca önemli varlığa sahiptir.
 
 *Başlangıç olarak, AdGuard VPN'in başka hiçbir VPN'de bulamayacağınız eşsiz özelliklerini gözden geçirelim.*
 
@@ -22,13 +22,13 @@ Bir VPN hizmeti seçerken, insanlar genellikle hızlı ve güvenli arasında bir
 > Bu özellik iOS hariç tüm platformlarda kullanılabilir.
 
 ## 3. DNS sunucusu seçme
-Artık varsayılan olarak İSS'niz tarafından sağlanan DNS sunucusuna güvenmek yok! Birincisi, güvenli değil: İSS'nizin büyük olasılıkla tarama geçmişinize erişimi vardır. Second, people often underestimate DNS, yet it can remove ads and trackers, protect your device from malware or, for instance, enable safe search and block adult content.
+Artık varsayılan olarak İSS'niz tarafından sağlanan DNS sunucusuna güvenmek yok! Birincisi, güvenli değil: İSS'nizin büyük olasılıkla tarama geçmişinize erişimi vardır. İkincisi, insanlar genellikle DNS'i hafife alır, ancak reklamları ve izleyicileri kaldırabilir, cihazınızı kötü amaçlı yazılımlardan koruyabilir veya örneğin güvenli aramayı etkinleştirebilir ve yetişkinlere yönelik içeriği engelleyebilir.
 
 AdGuard, Cisco, Cloudflare, Google veya Quad9 gibi [bilinen DNS sağlayıcılarından](https://kb.adguard.com/en/general/dns-providers) DNS sunucuları seçebilir veya hatta kendi DNS sunucunuzu kullanacak şekilde yapılandırabilirsiniz.
 
 ## 4. En hızlı konumlar
 
-AdGuard VPN'i diğerlerinden farklı kılan bir başka özellik de, pingine göre bir konum seçebilmenizdir. In a nutshell, ping is the time it takes the data packet sent from your device to reach the server and return. Şüphe duyduğunuzda, basit bir kural kullanın: ping ne kadar düşükse, sunucu ne kadar yakınsa, hızı da o kadar yüksek olur. Çeşitlilik arasından seçim yapabilmeniz için konum sayısını sürekli artırıyoruz.
+AdGuard VPN'i diğerlerinden farklı kılan bir başka özellik de, pingine göre bir konum seçebilmenizdir. Kısaca ping, cihazınızdan gönderilen veri paketinin sunucuya ulaşması ve geri dönmesi için geçen süredir. Şüphe duyduğunuzda, basit bir kural kullanın: ping ne kadar düşükse, sunucu ne kadar yakınsa, hızı da o kadar yüksek olur. Çeşitlilik arasından seçim yapabilmeniz için konum sayısını sürekli artırıyoruz.
 
 > Tüm VPN sunucu konumlarına erişmek için bir AdGuard VPN aboneliği satın almanız gerektiğini unutmayın.
 
@@ -57,7 +57,7 @@ Bu özellik, yukarıda bahsedilen istisna listelerine benzer. Tek farkı, burada
 Bu özellik, özellikle güvenli olmayan ağlar için geliştirilmiştir. Kullanıcıların rahatlığı için, herkese açık yerleri ziyaret ederken VPN'i etkinleştirmeyi unutmayı imkansız hâle getirdik. Bir kafeye girer ve yerel bir Wi-Fi ağına bağlanırsanız, otomatik olarak AdGuard VPN'e bağlanacaksınız.
 
 ## 10. Aynı anda bağlı beş cihaza kadar
-AdGuard VPN, ücretli kullanıcılarına aynı anda beş bağlantı sunar. *Eşzamanlı* kelimesine özel önem veriyoruz ve işte nedeni. Bazı VPN sağlayıcıları, hizmetlerinde *en fazla beş cihazda* giriş yapılmasına izin verir. AdGuard VPN ile hesabınızda giriş yapabilecek cihaz sayısında bir *sınırlama yoktur*, ancak aynı anda beş VPN bağlantınızı etkinleştirebilirsiniz. Aboneliği olmayanlar, AdGuard VPN'i *iki cihazda* kullanabilir, bu da bize rakiplere karşı oynamak için başka bir koz verir - çoğu VPN hizmetinin ücretsiz sürümlerinde yalnızca *bir cihaz* bulunur.
+AdGuard VPN, ücretli kullanıcılarına aynı anda beş bağlantı sunar. *Aynı anda* kelimesine özel önem veriyoruz ve işte nedeni. Bazı VPN sağlayıcıları, hizmetlerinde *en fazla beş cihazda* giriş yapılmasına izin verir. AdGuard VPN ile hesabınızda giriş yapabilecek cihaz sayısında bir *sınırlama yoktur*, ancak aynı anda beş VPN bağlantınızı etkinleştirebilirsiniz. Aboneliği olmayanlar, AdGuard VPN'i *iki cihazda* kullanabilir, bu da bize rakiplere karşı oynamak için başka bir koz verir - çoğu VPN hizmetinin ücretsiz sürümlerinde yalnızca *bir cihaz* bulunur.
 
 ## 11. Güvenli canlı yayın akışı
 Canlı yayın akışı hizmetleri, bariz nedenlerle VPN'leri sevmiyor: istatistiklere göre, kullanıcıların yaklaşık %20'si, coğrafi engellemeyi atlayarak esas olarak programları, TV programları ve filmleri izlemek için bir VPN yüklüyor. Bu nedenle canlı yayın akışı platformları, VPN trafiğini izlemek ve engellemek için ellerinden gelen her şeyi yapma eğilimindedir.

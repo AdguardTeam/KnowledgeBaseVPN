@@ -23,12 +23,12 @@ Zařízení se systémem Android zachytí celou obrazovku a uloží ji jako foto
 
 Ale jak již bylo řečeno, mohou existovat rozdíly v závislosti na konkrétním zařízení. Podívejme se na další možné kombinace:
 
-+ **Hold down at once *Home* and *Power* buttons for 1–2 seconds;**
++ **Podržte současně tlačítka *Domů* a *Napájení* po dobu 1–2 sekund**
 + **Podržte současně tlačítka *Zpět* a *Domů***
 
 V systému Android 8 a novějších verzích je také možné pořídit snímek obrazovky tak, že položíte ruku svisle podél levého nebo pravého okraje telefonu a přejedete od tohoto okraje dovnitř rukou, která se dotýká obrazovky.
 
-If this method doesn’t work, check *Settings* → *Advanced* features to enable *Palm swipe to capture*.
+Pokud tato metoda nefunguje, zkontrolujte *Nastavení* → *Pokročilé funkce* a povolte *Přejetí dlaní k zachycení snímku obrazovky*.
 
 Kromě toho můžete vždy použít některou ze speciálních aplikací pro pořizování snímků obrazovky na svých zařízeních, např. — *Screenshot Easy*, *Screenshot Ultimate*, *Screenshot Snap* atd.
 
@@ -42,7 +42,7 @@ Chcete-li pořídit snímek obrazovky v zařízení se systémem iOS, použijte 
 
 a tento postup je pro iPhone X nebo novější:
 
-+ **Press the *Sleep/Wake* button and the *Volume Up* button at the same time, then quickly release them**
++ **Stiskněte současně tlačítko *Uspat/Probudit* a tlačítko *Hlasitost nahoru* a poté je rychle uvolněte**
 
 Zařízení se systémem iOS zachytí celou obrazovku a uloží ji jako fotografii. Najdete ji ve standardní aplikaci Fotky.
 
@@ -66,7 +66,7 @@ Chcete-li pořídit snímek obrazovky určité oblasti, použijte následující
 
 Po pořízení snímku obrazovky se snímek uloží do schránky. Ve většině případů jej budete moci vložit do dokumentu, který právě upravujete, pomocí kombinace tlačítek *Ctrl + V*. Pokud potřebujete snímek obrazovky uložit do souboru, otevřete standardní program **Malování** (nebo jinou aplikaci, která umí pracovat s obrázky). Vložte tam snímek obrazovky pomocí stejné kombinace tlačítek nebo kliknutím na tlačítko Vložit (obvykle v levém horním rohu obrazovky) a poté jej uložte.
 
-Windows 8 a 10 umožňují pořídit snímek obrazovky velmi rychle pomocí kombinace *Win + PrtScn*. As soon as you press these buttons, the screenshot will be automatically saved as a file to your Pictures → Screenshots Folder.
+Windows 8 a 10 umožňují pořídit snímek obrazovky velmi rychle pomocí kombinace *Win + PrtScn*. Jakmile stisknete tato tlačítka, snímek obrazovky se automaticky uloží jako soubor do složky Obrázky → Snímky obrazovky.
 
 K pořizování snímků obrazovky existuje také specializovaný program *Výstřižky*, který najdete v nabídce Start mezi standardními programy počítače. Výstřižky vám umožní zachytit jakoukoli oblast vaší pracovní plochy nebo celou obrazovku. Po pořízení snímku obrazovky pomocí tohoto programu můžete obrázek upravit a uložit do libovolné složky v počítači.
 

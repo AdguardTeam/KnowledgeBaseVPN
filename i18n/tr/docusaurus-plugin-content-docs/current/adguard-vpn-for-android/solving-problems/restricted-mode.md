@@ -3,7 +3,7 @@ title: 'Kısıtlı Mod profiliyle ilgili sorunlar'
 sidebar_position: 4
 ---
 
-Android 7+ işletim sistemini çalıştıran telefon ve tablet sahipleri, **Kısıtlı Mod ile bir profilin kullanılmasından** kaynaklanan sorunla karşılaşabilir. Böyle bir profiliniz varsa, **AdGuard VPN** de VPN kullanan diğer uygulamalar gibi, VPN trafiğinin seçici kullanımı konusunda kısıtlamalar alır. Ayrıca, bu sorunun nedenlerinden biri cihazınızda **Dual App/Dual Messenger** profilini kullanmak olabilir. Aşağıda bu sorun oluştuğunda uygulayabileceğiniz tavsiyeler açıklanmıştır.
+Android 7+ işletim sistemini çalıştıran telefon ve tablet sahipleri, **Kısıtlı Mod ile bir profilin kullanılmasından** kaynaklanan sorunla karşılaşabilir. Böyle bir profiliniz varsa, **AdGuard VPN**, VPN kullanan diğer uygulamalar gibi, VPN trafiğinin seçici olarak kullanımı konusunda kısıtlamalar alır. Ayrıca, bu sorunun nedenlerinden biri cihazınızda **Dual App/Dual Messenger** profilini kullanmak olabilir. Aşağıda bu sorun oluştuğunda uygulayabileceğiniz tavsiyeler açıklanmıştır.
 
 ## Çözümler
 
@@ -15,7 +15,7 @@ Sorunu çözmek için iki yolunuz var:
 - Telefonunuzda **Ayarlar** uygulamasını açın;
 - **Sistem** bölümüne gidin (ayarlar menüsündeki son öğe). Bu bölümde **Telefon hakkında** alt öğesini bulun;
 - **Yapı numarası** satırına 7 kez tıklayın. Bundan sonra, artık **Bir geliştirici olduğunuza dair** bir bildirim alırsınız (Gerekirse, cihaz için bir kilit açma kodu girin);
-- Open **System Settings** → **Developer Options** → Scroll down and enable **USB debugging** → Confirm debugging is enabled in the window **Allow USB debugging** after reading the warning carefully.
+- **Sistem Ayarları** → **Geliştirici Seçenekleri** öğesini açın → Aşağı kaydırın ve **USB hata ayıklaması** öğesini etkinleştirin → Uyarıyı dikkatlice okuduktan sonra **USB hata ayıklamasına izin ver** penceresinde hata ayıklamanın etkinleştirildiğini onaylayın.
 
 > Herhangi bir zorluk veya ek sorunuz varsa, tam talimatlar [burada](https://developer.android.com/studio/debug/dev-options) bulunabilir.
 
@@ -26,11 +26,11 @@ Sorunu çözmek için iki yolunuz var:
 4. PC'nizde **komut satırını** açın:
 - **Windows** kullanıyorsanız **Cmd.exe**;
 - **macOS** kullanıyorsanız **Terminal**;
-5. `adb shell pm grant com.adguard.vpn android.permission.INTERACT_ACROSS_USERS` komutunu girin ve **Enter** tuşuna basın.
+5. `adb shell pm grant com.adguard.vpn android.permission.INTERACT_ACROSS_USERS` komutunu yazın ve **Enter** tuşuna basın.
 
 ### 2. Seçenek: *Kısıtlanmış kullanıcı hesabını* kaldırma
 
-[Burada](https://support.google.com/a/answer/6223444?hl=en) Android cihazdan kullanıcı hesaplarının nasıl yönetileceğini bulabilirsiniz.
+Bir Android cihazdan kullanıcı hesaplarını nasıl yöneteceğinizi [burada bulabilirsiniz](https://support.google.com/a/answer/6223444?hl=en).
 
 > Lütfen bazı durumlarda kısıtlanmış kullanıcı hesaplarının dolaylı olarak oluşturulduğunu ve kaldırılamayacağını unutmayın. Örneğin, **Samsung** veya **LG** cihazlarında Dual Messenger veya Dual App özelliklerini kullandığınızda. Bu durumlarda sorunun nasıl çözüleceğini aşağıda okuyun.
 
