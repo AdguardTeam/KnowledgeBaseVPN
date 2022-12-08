@@ -68,6 +68,12 @@ module.exports = {
         {
           type: 'localeDropdown',
           position: 'right',
+          dropdownItemsAfter: [
+            {
+              to: 'https://adguard-vpn.com/kb/miscellaneous/update-kb/',
+              label: 'Help Us Translate',
+            },
+          ],
         },
         {
           href: 'https://github.com/AdguardTeam/KnowledgeBaseVPN',
