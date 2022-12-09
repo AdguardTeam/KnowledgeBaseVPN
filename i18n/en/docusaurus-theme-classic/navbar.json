@@ -11,6 +11,10 @@
     "message": "Official Website",
     "description": "Navbar item with label official_website"
   },
+  "item.label.help_translate": {
+    "message": "Help Us Translate",
+    "description": "Navbar item with label help_translate"
+  },
   "item.label.github": {
     "message": "GitHub",
     "description": "Navbar item with label github"

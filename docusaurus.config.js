@@ -70,8 +70,8 @@ module.exports = {
           position: 'right',
           dropdownItemsAfter: [
             {
-              to: 'https://adguard-vpn.com/kb/miscellaneous/update-kb/',
-              label: 'Help Us Translate',
+              to: '/miscellaneous/update-kb/',
+              label: 'item.label.help_translate',
             },
           ],
         },
