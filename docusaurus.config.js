@@ -71,7 +71,7 @@ module.exports = {
           dropdownItemsAfter: [
             {
               to: '/miscellaneous/update-kb/',
-              label: 'item.label.help_translate',
+              label: 'Help Us Translate',
             },
           ],
         },
