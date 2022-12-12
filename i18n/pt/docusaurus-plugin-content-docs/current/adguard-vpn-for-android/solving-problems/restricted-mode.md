@@ -7,7 +7,7 @@ Os proprietários de telefones e tablets que executam o sistema operacional Andr
 
 ## Soluções
 
-Você tem duas maneiras de resolver o problema:
+Há duas maneiras de resolver o problema:
 
 ### Opção 1: conceder permissões ao AdGuard VPN usando o ADB
 
@@ -15,7 +15,7 @@ Você tem duas maneiras de resolver o problema:
 - Abra o aplicativo **Configurações** em seu telefone;
 - Vá para a seção **Sistema** (último item no menu de configurações). Nesta seção, encontre o subitem **Sobre o telefone**;
 - Clique na linha **número da compilação** 7 vezes. Depois disso, você receberá uma notificação de que **Você agora é um desenvolvedor** (Se necessário, insira um código de desbloqueio para o dispositivo);
-- Open **System Settings** → **Developer Options** → Scroll down and enable **USB debugging** → Confirm debugging is enabled in the window **Allow USB debugging** after reading the warning carefully.
+- Abra **Configurações do sistema** → **Opções do desenvolvedor** → Role para baixo e ative **Depuração USB** → Confirme se a depuração está ativada na janela **Permitir depuração USB** depois de ler o aviso com atenção.
 
 > Se você tiver alguma dificuldade ou dúvida adicional, as instruções completas podem ser encontradas [aqui](https://developer.android.com/studio/debug/dev-options).
 

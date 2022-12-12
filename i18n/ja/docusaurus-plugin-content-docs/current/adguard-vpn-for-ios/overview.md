@@ -1,101 +1,101 @@
 ---
-title: Features overview
+title: 機能概要
 sidebar_position: 1
 ---
 
-## What is AdGuard VPN for iOS
+## AdGuard VPN for iOS とは？
 
-A VPN allows you to create a secure connection to another network on the Internet. It connects a user's computer or mobile device to a server and allows one to browse the net using someone else's IP address. So if the VPN server is located in a different country, it will appear that you have connected to the Internet from that country. [Learn more](/general/how-vpn-works.md) about how a VPN works in detail.
+VPNを利用すると、インターネット上の別のネットワークに安全な接続を確立することができます。 ユーザーのパソコンやスマホをVPNサーバーに接続し、他人のIPアドレスを使ってネットを閲覧できるようにするものです。 そのため、VPNサーバーが別の国にある場合、ユーザーがその国からインターネットに接続したように見えます。 VPNの仕組みについて[詳しくはこちら](/general/how-vpn-works.md)でご確認いただけます。
 
-Speaking of AdGuard VPN, it has several functions:
-* hides your real whereabouts and helps you stay anonymous
-* сhanges your IP address to protect your data from tracking
-* encrypts your traffic to make it unreachable to scammers
-* lets you configure where to use VPN and where not to (exclusions feature)
+AdGuard VPNの機能といえば、複数あります:
+* あなたの本当の居場所を隠し、匿名性を保てるようにします。
+* トラッキングからデータを保護するため、IPアドレスを変更します。
+* トラフィック（通信）を暗号化し、詐欺師やハッカーがアクセスできないようにします。
+* vPNを使用する・しない場所を設定できます（VPN対象外リスト機能）。
 
-The next advantage of AdGuard VPN for iOS is our own VPN protocol. It has two main benefits: comparing to other VPN protocols it is extremely hard to detect and it works stably even with a poor Internet connection. You can read more about AdGuard VPN protocol [in this article](../general/adguard-vpn-protocol.mdx).
+AdGuard VPN for iOS のもう一つの利点は、独自開発のVPNプロトコルです。 その主な利点は2つあります。他のVPNプロトコルと比較して、検出が極めて困難であることと、インターネット接続が悪い場合でも安定して動作することです。 AdGuard VPNプロトコルについて、 [こちらの記事](../general/adguard-vpn-protocol.mdx)で詳しく説明しておりますので、よければご確認ください。
 
-## How to use AdGuard VPN for iOS
+## AdGuard VPN for iOS の使い方
 
-To use AdGuard VPN for iOS, first you need to log into your [AdGuard account](https://my.adguard.com/). You can sign in directly with your AdGuard account credentials, or via Google, Apple ID, or Facebook (if your AdGuard account was registered using the same email address).
+iOS用AdGuard VPNを使用するには、まず、 [AdGuardアカウント](https://my.adguard.com/)にログインする必要があります。 AdGuardアカウントのログイン・パスワードで直接ログインするか、Google、Apple ID、Facebook（AdGuardアカウントと同じメールアドレスの場合）を介してログインすることも可能です。
 
-If you don't have an AdGuard account yet, you will have to create it first.
+AdGuardアカウントをまだお持ちでない場合は、まずアカウントを登録してください（メールアドレスのみが必要になります）。
 
-Using AdGuard VPN is quite easy. On the main screen you can see the *Connect/Disconnect* button and the list of available servers. There servers have their own location (a certain country and a city) and ping indicator. The ping describes the response time of the server (in milliseconds). For example, choosing the server with the ping of 22 ms means that the signal will reach the server and return back in 22 milliseconds. So the lower this rate, the faster is your connection. In AdGuard VPN you can choose among over 50 locations in dozens of countries.
+AdGuard VPN の使い方は非常に簡単です。 メイン画面には、 *接続/切断* ボタンと接続可能なサーバーのリストがあります。 それぞれのサーバーには位置（特定の国と都市）とping値（「〇〇 ms」）があります。 pingは、サーバーの応答時間（ミリ秒単位）を表しています。 例えば、pingが「22 ms」のサーバーを選ぶ場合、サーバーにシグナルが到達して戻ってくるのに22ミリ秒かかる、ということを意味します。 つまり、pingの値が小さいほど、速度の速い接続となります。 AdGuard VPNでは、数十ヶ国、50ヶ所以上のロケーションから選んで接続することができます。
 
-![Main screen and locations](https://cdn.adguard.com/content/kb/vpn/ios/1.png?123)
+![メイン画面とロケーション](https://cdn.adguard.com/content/kb/vpn/ios/1.png?123)
 
-## Lists of exclusions
+## VPN対象外リスト（サイト除外機能）
 
-You can find the exclusion feature by tapping the middle button below. There you will see two exclusion lists — for Regular and Selective Modes. In the Regular mode the VPN works on all websites except for the ones from the exclusion list. In the Selective mode, conversely, the VPN operates only on the sites from the list. You can add domains (e.g. `google.com`) or subdomains (e.g. `*.google.com`) of websites in two ways: you can enter them manually in the app or right from the browser by clicking the *Share* button and finding AdGuard VPN in the opened list below.
+下の真ん中のボタンをタップすると「VPN対象外リスト」機能が表示されます。 There you will see two exclusion lists — for General and Selective Modes. In the General mode the VPN works on all websites except for the ones from the exclusion list. 指定モードではその逆で、VPNはリストにあるサイトに対してのみ機能します。 Webサイトのドメイン (例: `google.com`) またはサブドメイン (例: `*.google.com`) を対象外リストに追加するには、2つの方法があります。①アプリで手入力する　②ブラウザで *共有* ボタンをクリックして、下の開いたリストで「AdGuard VPN」を選択する
 
-![Exclusions](https://cdn.adguard.com/content/kb/vpn/ios/2.png?123)
+![VPN対象外リスト](https://cdn.adguard.com/content/kb/vpn/ios/2.png?123)
 
-Another useful feature is the import/export of exclusion lists. You can do it by following the next four steps:
+もう一つの便利な機能は、除外リストのインポート・エクスポートです。 以下がその4ステップ手順です:
 
-1. Open AdGuard VPN on the device/in the browser from where you want to export your lists of exclusions. Find the appropriate section and click on the *Export* button. The `exclusions.zip` archive will be downloaded.
+1. 除外リストのエクスポート元となる端末・ブラウザで AdGuard VPN を開きます。 該当するセクション（[iOSの場合]「VPN対象外リスト」画面右上の３点アイコン →「*対象外項目をエクスポート*」）で「対象外リストをインポート」ボタンをタップします。 `exclusions.zip` というアーカイブがダウンロードされます。
 
-2. There are two `.txt` files inside the archive, one for each of Regular and Selective lists. Add more exclusions to them, delete the existing ones, rename files (but more on this later), or just leave the archive with files as is.
+2. There are two `.txt` files inside the archive, one for each of General and Selective lists. アーカイブのファイルに、さらに除外項目を追加したり、既存のものを削除したり、ファイル名を変更したり（これについては下記もご確認ください）、そのままにしておいたり、自由にカスタマイズできます。
 
-3. When transferring between different devices, don't forget to send the `.zip` file to the device for import. For example, if you import exclusion lists from your iOS device to your Mac, make sure to send the `.zip` file to your Mac beforehand.
+3. 異なる端末間で除外リストを移行する場合は、インポート先端末に `.zip` ファイルを送信することを忘れずに。 （例えば、Macからの除外リストをiOS端末にインポートする場合、事前に `.zip` ファイルをiOS端末に送信しておいてください。）
 
-4. Open AdGuard VPN on the device where you want to import the archive with the ready lists of exclusions. Find the appropriate section, click on the *Import* button and select the archive.
+4. 除外リストのアーカイブをインポートしたい端末でAdGuard VPNを開きます。 該当するセクション（[iOSの場合]「VPN対象外リスト」画面右上の３点アイコン →「*対象外項目をインポート*」）で「対象外リストをインポート」ボタンをタップして、アーカイブファイルを選びます。
 
-![Import/export exclusions](https://cdn.adguard.com/content/kb/vpn/ios/import-export-exclusions.png)
+![対象外項目のインポート・エクスポート](https://cdn.adguard.com/content/kb/vpn/ios/import-export-exclusions.png)
 
-## App settings
+## アプリの設定
 
-To reach App settings:
+「アプリの設定」画面へ移動する方法:
 
-1. Tap Settings button (⚙) in the bottom right corner of the AdGuard VPN app's main screen
-2. Tap *App settings*
+1. AdGuard VPNアプリのメイン画面の右下にある設定ボタン（⚙）をタップします。
+2. 「アプリの設定」をタップします。
 
-Here, you can configure AdGuard VPN for iOS as you need using different options: Operating Mode, DNS server, Wi-Fi auto-protection, Color Theme and Advanced Settings.
+ここでは、さまざまなオプションを使用して、必要に応じてAdGuard VPN for iOSを設定することができます。動作モード、DNSサーバー、Wi-Fi自動保護、カラーテーマ、詳細設定などといったセクションがあります。
 
-![App Settings](https://cdn.adguard.com/content/kb/vpn/ios/app-settings.png)
+![アプリの設定](https://cdn.adguard.com/content/kb/vpn/ios/app-settings.png)
 
-### Operating mode
+### 動作モード
 
-AdGuard VPN for iOS can operate in two modes: **General** and **Integrated**.
+AdGuard VPN for iOS には、「**標準**」と「**併用**」という2つの動作モードがあります。
 
-In **General** mode, the [AdGuard VPN protocol](../general/adguard-vpn-protocol.mdx) is employed, which provides the best combination of speed and security. In this mode, AdGuard VPN will not be able to work alongside [AdGuard Ad Blocker for iOS](https://kb.adguard.com/en/ios).
+**標準**モードでは、[AdGuard VPN プロトコル](../general/adguard-vpn-protocol.mdx)が採用され、速度とセキュリティの最良の組み合わせが実現されます。 このモードの唯一の欠点は、iOS用AdGuard VPN と [iOS用AdGuard 広告ブロッカー ](https://kb.adguard.com/en/ios)を併用できないということです。
 
-In **Integrated** mode, AdGuard VPN will be able to work at the same time with AdGuard for iOS ad blocker by using the IPSec protocol instead. This protocol is also secure, but a little slower and easier to detect. You don't need to perform any additional actions to set up the integration: just install both apps and switch to this mode.
-> Note that in **Integrated** mode you can't use the Exclusions feature or choose a DNS server.
+**併用**モードでは、AdGuard VPN は、IPSecプロトコルを使用することで、iOS用AdGuard広告ブロッカーと同時に動作することができます。 このプロトコルも安全ですが、少し遅く、若干検出されやすくなっています。 両アプリをインストールし、併用モードに切り替えるだけで両アプリを併用できます。他の追加操作は必要ありません。
+> ※**併用** モードでは、「VPN対象外リスト」機能を使用したり、DNSサーバーを選択することができません。
 
-### DNS server
+### DNSサーバー
 
-The purpose of Domain name system (DNS) is to translate websites' names into something browsers can understand, i.e. IP addresses. This job is performed by DNS servers. AdGuard VPN for iOS offers a choice between several DNS servers, each with their own special qualities. For example, AdGuard DNS removes ads and protects your device from tracking while AdGuard DNS Family Protection combines the functions of AdGuard DNS with SafeSearch and adult content blocking. DNS servers by different DNS providers may also work faster or slower depending on your location, ISP, and other factors. Choose the one that works best for you. You can find out more about DNS and its characteristics [in this article](https://kb.adguard.com/en/general/dns-filtering#what-is-dns).
+ドメインネームシステム（DNS）の目的は、Webサイトの名前をブラウザが理解できるもの、つまりIPアドレスに変換することです。 この変換の仕事は、DNSサーバーが行います。 iOS用AdGuard VPNでは、それぞれの特徴を持つ複数のDNSサーバーの中から選択できます。 例えば、 「AdGuard DNS」サーバーは広告を削除し、トラッキング（個人情報追跡）から端末を保護します。「AdGuard DNS ファミリー保護」サーバーは、AdGuard DNSの機能とセーフサーチおよびアダルトコンテンツブロック機能を兼ね備えています。 それぞれのDNSプロバイダーによるDNSサーバーは、現在いる地域やお使いのインターネットプロバイダ、その他の要因によって動作が速くなったり遅くなったりすることがあります。 ご自身に合ったものをお選びください。 DNSとその特徴については、[こちらの記事](https://kb.adguard.com/ja/general/dns-filtering#what-is-dns)で詳しく説明しております。
 
-![DNS server screen](https://cdn.adguard.com/content/kb/vpn/ios/dns-server.png)
+![DNSサーバー画面](https://cdn.adguard.com/content/kb/vpn/ios/dns-server.png)
 
-### Wi-Fi auto-protection
+### Wi-Fi接続の自動保護
 
-VPN will automatically turn on when the device connects to a Wi-Fi network.
+端末がWi-Fiネットワークに接続すると、VPNが自動的にオンになります。
 
-### Theme
+### カラーテーマ
 
-You can choose system default, dark or light theme of the app (available in iOS 13 and later versions).
+アプリのカラーテーマは、システムデフォルト、ダーク、ライトから選べます（iOS 13以降で利用可能）。
 
-### Advanced settings
+### 詳細設定
 
-In the *Advanced settings* you can find two sections — Logging level and Diagnostic info. Concerning the first option it is not recommended to enable the Extended logging level unless requested by our support team. Diagnostic info, locally stored technical information about the device and connections (IP address, ID, ping, etc.), can be sent to us in case of any technical problems.
+*詳細設定* には、「ログのレベル」と「診断情報」の2つのセクションがあります。 ログのレベルですが、当社のサポートチームからの案内がない限り、「拡張ログ」にログレベルを変更することはお勧めしません。 診断情報とは、端末や接続に関する、ローカルに保存された技術情報（IPアドレス、ID、pingなど）で、技術的な問題が発生した場合に当社に送信されることがあります。
 
-## Quick Actions (available in iOS 13 or later)
+## クイックアクション（iOS 13以降で利用可能）
 
-To access this feature, touch and hold the app icon, then lift your finger. You'll see a list of Quick Actions: Connect/Disconnect to the currently selected server, Choose location to select a new server location. You can also, of course, access all default actions like removing the app or moving the app icon around.
+この機能を利用するには、AdGuard VPNのアプリアイコンを長タップしてから、指を離します。 そうするとクイックアクションのリストが表示されます。現在選択されているサーバーへの接続・切断や、「ロケーションを選択する」で新しいサーバーロケーションを選択することができます。 もちろん、アプリの削除やアプリアイコンの移動など、システムアクションにアクセスすることも可能です。
 
-![Quick actions](https://cdn.adguard.com/content/kb/vpn/ios/quick-actions.png)
+![クイックアクション](https://cdn.adguard.com/content/kb/vpn/ios/quick-actions.png)
 
 
-## Support
+## お客様サポート
 
-The users' accomplishment is the high priority for us. So there is a variety of helping features in the app (press the *Settings* button at the bottom right and then *Support*): you can see the FAQ section, report a bug, leave feedback, discuss your problems and suggestions on our forum, in social networks, or on GitHub, rate AdGuard VPN for iOS in the App Store and export logs.
+ユーザーの満足を最優先しています。 そのため、アプリには様々なヘルプ機能があります（右下の⚙「*設定*」→「*お客様サポート*」）。FAQ、バグの報告、フィードバック、フォーラム・SNS・GitHubで問題や提案について話し合う、App StoreでAdGuard VPN for iOSを評価する、ログをエクスポートすることなどが可能です。
 
-![Support](https://cdn.adguard.com/content/kb/vpn/ios/support.png)
+![サポート](https://cdn.adguard.com/content/kb/vpn/ios/support.png)
 
-## Subscription
+## サブスクリプション
 
-If you are using the free version of AdGuard VPN, there will be the fourth tab with an arrow icon on the bottom tab bar. In this section you will find brief information about the main advantages of the paid version of the app and will be able to buy a subscription.
+AdGuard VPNの無料版をご利用中の場合、下のタブバーに矢印アイコンが付いたタブが4番目に表示されます。 このセクションでは、アプリの有料版の主な利点について簡単な情報を確認し、サブスクリプションを購入することができます。
 
-![Subscription](https://cdn.adguard.com/content/kb/vpn/ios/subscription_en.png?123)
+![サブスクリプション](https://cdn.adguard.com/content/kb/vpn/ios/subscription_en.png?123)

@@ -4,11 +4,11 @@
     "description": "Navbar item with label docs"
   },
   "item.label.blog": {
-    "message": "Blog",
+    "message": "Blogi",
     "description": "Navbar item with label blog"
   },
   "item.label.official_website": {
-    "message": "Official Website",
+    "message": "Virallinen sivusto",
     "description": "Navbar item with label official_website"
   },
   "item.label.github": {
