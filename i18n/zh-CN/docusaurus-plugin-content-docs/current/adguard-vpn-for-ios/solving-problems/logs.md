@@ -1,40 +1,40 @@
 ---
-title: How to collect and send logs
+title: 如何收集和发送日志记录
 sidebar_position: 2
 ---
 
-If you encounter a problem when using AdGuard VPN for iOS, you can inform us about it by sending application logs.
+如果您在使用 AdGuard VPN iOS 版时遇到问题，可以通过发送应用程序日志通知我们。
 
-## Collecting and sending standard logs
+## 收集和发送标准日志
 
-By default, AdGuard VPN for iOS uses the standard logging level, that is, the basic collection of data about running processes of the app. To send these logs, follow the next steps:
+默认情况下，AdGuard VPN iOS 版使用默认日志记录级别，即有关应用程序运行进程的基本数据收集。 要发送这些日志，请按照以下步骤进行操作：
 
-1. Open AdGuard VPN for iOS and, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
+1. 打开 AdGuard VPN iOS 版，如果可以，请您重复导致错误的操作。 请记下发生此错误的确切时间。
 
-2. Select "Settings" in the lower-right corner of the screen, then select "Support" and click "Report a bug" in it.
+2. 选择屏幕右下角的「设置」，然后选择「支持」并点击「报告错误」。
 
-3. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred. If you can't reproduce the problem, specify as accurately as possible when it last occurred.
+3. 在打开的表单中，输入您的电子邮件地址以获取反馈，然后描述发现的错误，包括该错误发生的时间。 如果您无法重复问题，请尽可能准确地指明上次发生的时间。
 
-4. There is a check mark next to the "Send detailed system info", which means that when you send a report, you also send logs.
-> If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, select "Export logs" in the "Support" section.
+4. 勾选发送「详细的系统信息」旁边的复选框，这意味着当您发送报告时，您也会发送日志。
+> 如果出于某种原因，您以其他方式向我们发送日志更方便，您可以自己导出它们。 若要自己导出日志记录，请在「支持」部分选择 「导出日志」。
 
-## Collecting and sending extended logs
+## 收集和发送进阶日志
 
-In most cases, the default logging level is sufficient to trace down possible bugs. But there are cases when more detailed technical information about the device and connections is required, and then our support team will ask you to enable the extended logging level. To send this type of logs, follow these steps:
+在大多数情况下， 默认日志记录级别足以追踪发生的错误。 但在某些情况下，需要有关设备和连接的更详细技术信息，然后我们的支持团队会要求您启用进阶日志记录级别。 要发送进阶日志，请执行以下步骤：
 
-1. Open AdGuard VPN for iOS and select "Settings" in the lower-right corner of the screen.
+1. 打开 AdGuard VPN iOS 版，选择屏幕右下角的「设置」。
 
-2. Select "App settings" and "Advanced settings" in it.
+2. 选择「应用程序设置」和「高级设置」。
 
-3. In the "Logging level" section, select "Extended".
+3. 在「日志记录级别」部分，选择「进阶」。
 
-4. Repeat the actions that led to the error, and note the time when it occurred.
+4. 重复导致错误的操作，并记下错误发生的时间。
 
-5. Switch the logging level back to "Default".
+5. 将日志记录级别切换回「默认」。
 
-6. Then go back to the main section "Settings", select "Support" and then "Report a bug".
+6. 然后回到「设置」部分，选择「支持」，点击「报告错误」。
 
-7. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred.
+7. 在打开的表单中，输入您的电子邮件地址以获取反馈，然后描述发现的错误，包括该错误发生的时间。
 
-8. Make sure that there is a check mark next to "Submit detailed system info" and click "Submit a report".
-> If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, select "Export logs" in the "Support" section.
+8. 确保勾选上「发送详细系统信息」旁边的复选框，然后点击「发送」。
+> 如果出于某种原因，您以其他方式向我们发送日志更方便，您可以自己导出它们。 若要自己导出日志记录，请在「支持」部分选择 「导出日志」。

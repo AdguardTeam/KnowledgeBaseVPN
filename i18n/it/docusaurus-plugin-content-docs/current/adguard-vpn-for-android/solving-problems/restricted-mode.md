@@ -1,56 +1,56 @@
 ---
-title: 'Problems with Restricted Mode profile'
+title: 'Problemi con il profilo Modalità con restrizioni'
 sidebar_position: 4
 ---
 
-The owners of phones and tablets running the Android 7+ operating system might face the problem caused by using **a profile with Restricted Mode**. If you have such a profile, **AdGuard VPN**, like other applications that use VPN, gets restrictions on selective handling of VPN traffic. Also, one of the reasons for this problem may be using **Dual App/Dual Messenger profile** on your device. Below are described the recommendations that you can apply when this problem occurs.
+I possessori di telefoni e tablet con sistema operativo Android 7+ potrebbero dover affrontare il problema causato dall'utilizzo **un profilo con Modalità con restrizioni**. Se disponi di un profilo di questo tipo, **AdGuard VPN**, come altre applicazioni che utilizzano VPN, ottiene restrizioni sulla gestione selettiva del traffico VPN. Inoltre, uno dei motivi di questo problema potrebbe essere l'utilizzo del profilo **Dual App/Dual Messenger** sul dispositivo. Di seguito sono descritte le raccomandazioni da applicare quando si verifica questo problema.
 
-## Solutions
+## Soluzioni
 
-You have two ways to solve the issue:
+Due modi esistano per risolvere il problema:
 
-### Option 1: Grant permissions to AdGuard VPN using ADB
+### Opzione 1: concedere le autorizzazioni ad AdGuard VPN utilizzando ADB
 
-1. Activate the **developer mode** and enable **USB debugging**:
-- Open the **Settings** application on your phone;
-- Go to **System** section (last item in the settings menu). In this section find sub-item **About phone**;
-- Click on the **Build number** line 7 times. After that, you will receive a notification that **You are now a developer** (If necessary, enter an unlock code for the device);
-- Open **System Settings** → **Developer Options** → Scroll down and enable **USB debugging** → Confirm debugging is enabled in the window **Allow USB debugging** after reading the warning carefully.
+1. Attivare la **modalità sviluppatore** e abilitare il **debug USB**:
+- Aprire l'applicazione **Impostazioni** sul telefono;
+- Accedere alla sezione **Sistema** (ultimo punto del menu impostazioni). In questa sezione si trova la sottovoce **Informazioni sul telefono**;
+- Fare clic sulla riga **Numero di build** 7 volte. Dopodiché, si riceverà una notifica all'indirizzo **Ora sei uno sviluppatore** (se necessario, inserire un codice di sblocco per il dispositivo);
+- Aprire **Impostazioni di sistema** → **Opzioni sviluppatore** → Scorrere verso il basso e abilitare **il debug USB** → Confermare l'abilitazione del debug nella finestra **Consenti il debug USB** dopo aver letto attentamente l'avviso.
 
-> If you have any difficulties or additional questions, full instructions can be found [here](https://developer.android.com/studio/debug/dev-options).
+> In caso di difficoltà o di ulteriori domande, le istruzioni complete sono disponibili all'indirizzo [qui](https://developer.android.com/studio/debug/dev-options).
 
-2. [Install and configure](https://www.xda-developers.com/install-adb-windows-macos-linux/) adb;
-> On the Windows platform, **Samsung** owners may need to install [this utility](https://developer.samsung.com/mobile/android-usb-driver.html).
+2. [Install and configure](https://www.xda-developers.com/install-adb-windows-macos-linux/) ADB;
+> Sulla piattaforma Windows, **i possessori di Samsung** potrebbero dover installare [questa utility](https://developer.samsung.com/mobile/android-usb-driver.html).
 
-3. Connect your device using a **USB cable** to the computer or laptop on which you installed **ADB**;
-4. Open **the command line** on your PC:
-- **Cmd.exe** if you are using **Windows**;
-- **Terminal** if you are using **macOS**;
-5. Enter the command `adb shell pm grant com.adguard.vpn android.permission.INTERACT_ACROSS_USERS` and press **Enter**.
+3. Collegare il dispositivo con un **cavo USB** al computer o laptop su cui è stato installato **ADB**;
+4. Aprire **la riga di comando** sul proprio PC:
+- **Cmd.exe** se si utilizza **Windows**;
+- **Terminale** se si utilizza **macOS**;
+5. Immettere il comando `adb shell pm grant com.adguard.vpn android.permission.INTERACT_ACROSS_USERS` e premere **Invio**.
 
-### Option 2: Remove *Restricted user account*
+### Opzione 2: Rimuovere *L'account utente con restrizioni*
 
-You can [find here](https://support.google.com/a/answer/6223444?hl=en) how to manage user accounts from an Android device.
+Puoi [trovare qui](https://support.google.com/a/answer/6223444?hl=en) come gestire gli account utente da un dispositivo Android.
 
-> Please note, that in some cases restricted user accounts are created implicitly and cannot be removed. For instance, when you use Dual Messenger or Dual App features on **Samsung** or **LG** devices. Read below how to fix the issue in these cases.
+> Si noti che in alcuni casi gli account utente limitati vengono creati implicitamente e non possono essere rimossi. Ad esempio, quando si utilizzano le funzioni Dual Messenger o Dual App sui dispositivi **Samsung** o **LG**. Leggere di seguito come risolvere il problema in questi casi.
 
-### LG and Samsung devices
+### Dispositivi LG e Samsung
 
-Owners of **LG** or **Samsung** phones may also encounter a similar issue. It can be caused by using **Dual App/Dual Messenger** function (which automatically creates a restricted profile). To solve this issue, you need to disable this feature.
+Anche i possessori di **LG** o **Samsung** potrebbero riscontrare un problema simile. Può essere causato dall'uso della funzione **Dual App/Dual Messenger** (che crea automaticamente un profilo riservato). Per risolvere questo problema, è necessario disabilitare questa funzione.
 
 #### Samsung
 
-- Open **Settings**;
-- Press **Advanced**;
-- Scroll down and then press **Dual Messenger**;
-- Disable the **Dual Messenger** for all applications;
-- Lock the device for 5 minutes;
-- Unlock the screen and try again to create the VPN profile.
+- Aprire **Impostazioni**;
+- Premere **Avanzate**;
+- Scorrere verso il basso e premere **Dual Messenger**;
+- Disattivare **Dual Messenger** per tutte le applicazioni;
+- Bloccare il dispositivo per 5 minuti;
+- Sbloccare lo schermo e riprovare a creare il profilo VPN.
 
 #### LG
 
-- Open **Settings**;
-- Choose the **General** tab;
-- Scroll down and then press **Dual App**;
-- Remove all applications from the list;
-- Reboot your device.
+- Aprire le **Impostazioni**;
+- Scegliere la scheda **Generale**;
+- Scorrere verso il basso e premere **Dual App**;
+- Rimuovere tutte le applicazioni dall'elenco;
+- Riavviare il dispositivo.

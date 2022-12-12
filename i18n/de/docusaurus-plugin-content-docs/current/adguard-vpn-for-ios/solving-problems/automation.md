@@ -1,50 +1,50 @@
 ---
-title: How to set up AdGuard VPN automation for iPhone and iPad apps
+title: AdGuard VPN für iPhone- und iPad-Apps automatisieren
 sidebar_position: 1
-sidebar_label: How to set up AdGuard VPN automation
+sidebar_label: AdGuard VPN automatisieren
 ---
 
-AdGuard VPN has an *Exclusions* section and two operation modes – *General* and *Selective*. In *General mode* AdGuard VPN works everywhere except sites added to exclusions. Conversely, in *Selective mode*, VPN doesn't work anywhere except sites listed in the exclusions list. Note, that for each mode you must create a separate list.
+AdGuard VPN hat einen Abschnitt *Ausschlüsse* und zwei Betriebsmodi – *Allgemein* und *Selektiv*. Im *Allgemeinen Modus* funktioniert AdGuard VPN überall, mit Ausnahme von Websites, die zu Ausschlüssen hinzugefügt wurden. Umgekehrt funktioniert VPN im *Selektiven* Modus nirgendwo außer Websites, die in der Ausschlussliste aufgeführt sind. Beachten Sie, dass Sie für jeden Modus eine separate Liste erstellen müssen.
 
-As you may notice, only websites can be added to the *Exclusions* section. To adjust AdGuard VPN for apps you need to use another feature. Our desktop apps have the *Split tunneling* module and the app for Android has *Apps settings* — these settings allow you to decide in which apps AdGuard VPN should run.
+Wie Sie vielleicht bemerkt haben, können Sie zum Abschnitt *Ausschlüsse* nur Websites hinzugefügen. Um AdGuard VPN für Apps anzupassen, müssen Sie eine andere Funktion verwenden. Unsere Desktop-Apps haben das Modul *Split-Tunneling* und die App für Android hat *App-Einstellungen*,  mit denen Sie entscheiden können, in welchen Apps AdGuard VPN laufen soll.
 
-But, as it often happens, due to a number of technical nuances, it is impossible to implement such a useful function for iOS, at least for now. Therefore, we offer you an alternative way to automate AdGuard VPN for apps on iPhones and iPads.
+Aber wie so oft, ist es aufgrund einer Reihe technischer Nuancen zumindest im Moment unmöglich, eine so nützliche Funktion für iOS zu implementieren. Deshalb bieten wir Ihnen eine alternative Möglichkeit, AdGuard VPN für Apps auf iPhones und iPads zu automatisieren.
 
-## Setting up AdGuard VPN automatic activation
+## Automatische Aktivierung von AdGuard VPN einrichten
 
-If you need a VPN for one or more apps, set up AdGuard VPN to automatically turn on and off when you open and close them. Go to the Exclusions tab, select General mode and follow the instructions. Here we describe how to create automation for Twitter, but you can choose any other app.
+Wenn Sie ein VPN für eine oder mehrere Apps benötigen, richten Sie AdGuard VPN so ein, dass es beim Öffnen und Schließen automatisch ein- und ausgeschaltet wird. Wechseln Sie zur Registerkarte „Ausschlüsse“, wählen Sie den Modus „Allgemein“ und folgen Sie den Anweisungen. Hier beschreiben wir, wie Sie eine Automatisierung für Twitter erstellen, aber Sie können jede andere App auswählen.
 
-![Instruction. Part 1](https://cdn.adguard.com/public/Adguard/Blog/VPNauto/vpn_on1_en.jpg)
-* Download [the *Shortcuts* app](https://apps.apple.com/us/app/shortcuts/id915249334) from the App Store and go to the *Automation* section by tapping the clock icon at the bottom of the screen.
-* Tap the *Create Personal Automation* button, then find *App* in the list that opens and tap it.
-* In the next window, make sure that the *Is Opened* option is selected, and then tap *Choose* to choose the app.
+![Anweisung. Teil 1](https://cdn.adguard.com/public/Adguard/Blog/VPNauto/vpn_on1_en.jpg)
+1. Download [the *Shortcuts* app](https://apps.apple.com/us/app/shortcuts/id915249334) from the App Store and go to the *Automation* section by tapping the clock icon at the bottom of the screen.
+2. Tap the *Create Personal Automation* button, then find *App* in the list that opens and tap it.
+3. In the next window, make sure that the *Is Opened* option is selected, and then tap *Choose* to choose the app.
 
-![Instruction. Part 2](https://cdn.adguard.com/public/Adguard/Blog/VPNauto/vpn_on2_en.jpg)
-* Start entering the name of the application, in our case it's Twitter, and select it. Then tap *Done* in the upper right corner of the screen. After it tap *Next* in the upper right corner of the screen. And in the opened window tap *Add Action*.
+![Anweisung. Teil 2](https://cdn.adguard.com/public/Adguard/Blog/VPNauto/vpn_on2_en.jpg)
+4. Start entering the name of the application, in our case it's Twitter, and select it. Then tap *Done* in the upper right corner of the screen. After it tap *Next* in the upper right corner of the screen. And in the opened window tap *Add Action*.
 
-![Instruction. Part 3](https://cdn.adguard.com/public/Adguard/Blog/VPNauto/vpn_on3_en.jpg)
+![Anweisung. Teil 3](https://cdn.adguard.com/public/Adguard/Blog/VPNauto/vpn_on3_en.jpg)
 
-* Start entering “AdGuard VPN” and select the AdGuard VPN app. In the new window tap *Set a VPN connection*.
+5. Start entering “AdGuard VPN” and select the AdGuard VPN app. In the new window tap *Set a VPN connection*.
 
-![Instruction. Part 4](https://cdn.adguard.com/public/Adguard/Blog/VPNauto/vpn_on4_en.jpg)
-* Make sure the variables say *Turn* VPN connection *On* and tap *Next*.
-* In the next window, move the slider next to the *Ask before running* option to the inactive position. Confirm your choice, the tap *Done*.
+![Anweisung. Teil 4](https://cdn.adguard.com/public/Adguard/Blog/VPNauto/vpn_on4_en.jpg)
+6. Make sure the variables say *Turn* VPN connection *On* and tap *Next*.
+7. In the next window, move the slider next to the *Ask before running* option to the inactive position. Confirm your choice, the tap *Done*.
 
-Now you have a new scenario: AdGuard VPN will be automatically enabled when you start the Twitter app. Now you need to create another command that will make AdGuard VPN automatically turn off when you close the app.
+Jetzt wird AdGuard VPN automatisch aktiviert, wenn Sie die Twitter-App starten. Nun müssen Sie einen weiteren Befehl erstellen, der AdGuard VPN automatisch deaktiviert, wenn Sie die App schließen.
 
-## Configuring AdGuard VPN automatic shutdown
+## Automatische Deaktivierung von AdGuard VPN einrichten
 
-![Instruction. Part 1](https://cdn.adguard.com/public/Adguard/Blog/VPNauto/vpn_off1_en.jpg)
-* In the same *Shortcuts* app start creating a new automation: click *+* in the upper right corner of the screen and then on the *Create Personal Automation* button. In the opened window choose *App*.
-* Make sure that the *Is Closed* option is selected and uncheck the box under the adjacent option. Then tap *Choose*.
+![Anweisung. Teil 1](https://cdn.adguard.com/public/Adguard/Blog/VPNauto/vpn_off1_en.jpg)
+1. In the same *Shortcuts* app start creating a new automation: click *+* in the upper right corner of the screen and then on the *Create Personal Automation* button. In the opened window choose *App*.
+2. Make sure that the *Is Closed* option is selected and uncheck the box under the adjacent option. Then tap *Choose*.
 
-![Instruction. Part 2](https://cdn.adguard.com/public/Adguard/Blog/VPNauto/vpn_off2_en.jpg)
-* Start entering *Twitter* and select the app. Then tap *Done* in the upper right corner of the screen. Tap *Add Action* and select AdGuard VPN.
+![Anweisung. Teil 2](https://cdn.adguard.com/public/Adguard/Blog/VPNauto/vpn_off2_en.jpg)
+3. Start entering *Twitter* and select the app. Then tap *Done* in the upper right corner of the screen. Tap *Add Action* and select AdGuard VPN.
 
-![Instruction. Part 3](https://cdn.adguard.com/public/Adguard/Blog/VPNauto/vpn_off3_en.jpg)
+![Anweisung. Teil 3](https://cdn.adguard.com/public/Adguard/Blog/VPNauto/vpn_off3_en.jpg)
 
-* In the new window tap *Set VPN connection*.
-* Then tap the word *On* so that it changes to the word *Off*, then tap *Next* in the upper right corner of the screen.
-* Disable the *Ask before running* option and confirm your selection. Then tap *Done* at the top right corner of the screen to complete the process.
+4. In the new window tap *Set VPN connection*.
+5. Then tap the word *On* so that it changes to the word *Off*, then tap *Next* in the upper right corner of the screen.
+6. Disable the *Ask before running* option and confirm your selection. Then tap *Done* at the top right corner of the screen to complete the process.
 
-Done! AdGuard VPN will now be enabled on your device every time you open the Twitter app, and disabled when you close it. You can repeat the same steps for any other app. 
+Fertig! AdGuard VPN wird jetzt jedes Mal auf Ihrem Gerät aktiviert, wenn Sie die Twitter-App öffnen, und deaktiviert, wenn Sie sie schließen. Sie können die gleichen Schritte für jede andere App wiederholen. 

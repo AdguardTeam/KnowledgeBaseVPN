@@ -22,7 +22,7 @@ Por defecto, AdGuard VPN para Android utiliza el nivel de registro **Default**, 
 
 En la mayoría de los casos, el nivel de registro **Default** es suficiente para rastrear posibles errores. Pero hay casos en los que se requiere información técnica más detallada sobre el dispositivo y las conexiones. Nuestro equipo de asistencia te pedirá que active el nivel de registro **Ampliado** o **Extremo** . Para enviar este tipo de registros, siga estos pasos:
 
-1. Open AdGuard VPN for Android and select **Settings** (the gear icon at the bottom right corner) → **App settings** → **Advanced settings** → **Logging level**.
+1. Abre AdGuard VPN para Android y selecciona **Configuración** (el icono de engranaje en la esquina inferior derecha) → **Configuración de la aplicación** → **Configuración avanzada** → **Nivel de registro**.
 
 2. En la sección **Nivel de registro**, seleccione **Ampliado** o **Extremo**.
 

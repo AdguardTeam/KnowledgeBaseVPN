@@ -1,116 +1,116 @@
 ---
-title: Features overview
+title: 機能概要
 sidebar_position: 1
 ---
 
-## What is AdGuard VPN for Android
+## AdGuard VPN for Android とは？
 
-A VPN is an ideal tool that provides security and anonymity each time you browse the Internet. [How does it work?](/general/how-vpn-works.md) Without going into technical details, we can say that VPN creates a secure encrypted tunnel between the user's computer or mobile device and a remote VPN server. In this way, data confidentiality is preserved, as well as the anonymity of the user, because a third-party observer sees the IP address of the VPN server and not the actual user's IP.
+VPNは、インターネットを閲覧するたびに、セキュリティと匿名性を提供してくれるツールです。 [VPNはどのように機能するのか？](/general/how-vpn-works.md)技術的な詳細は省きますが、VPNは、ユーザーのコンピュータまたはモバイル端末とリモートVPNサーバーの間に安全な暗号化トンネルを作成すると言えます。 これにより、データと個人情報の機密性が保たれるだけでなく、オンライン上の第三者にはユーザーの実際のIPではなく、VPNサーバーのIPアドレスが見えるので、ユーザーの位置情報も隠されます。
 
-**VPN is frequently used for:**
+**VPNの主な用途:**
 
-* Keeping personal data safe even while using public Wi-Fi
-* Preventing online activity tracking by masking the IP address
-* Hiding the real geolocation to remain anonymous
+* 公衆無線LAN（フリーWi-Fi等）接続時でも個人情報を保護
+* IPアドレスのマスキングによりオンライン活動追跡を防止
+* 実際の位置情報を隠して匿名性を保持
 
-AdGuard VPN for Android can do it all for you — and even offer something unique. To find out why AdGuard VPN is the better option — read [this article](/general/why-adguard-vpn.md).
+Android用AdGuard VPNは、これらすべてを行うことがで可能で、さらに、ユニークな機能も提供します。 なぜAdGuard VPNがより優れているのかについては、[こちらの記事をご確認ください](/general/why-adguard-vpn.md)。
 
-## How to start using AdGuard VPN for Android
+## AdGuard VPN for Android を使い始める方法
 
-Firstly, download AdGuard VPN from [Google Play](https://play.google.com/store/apps/details?id=com.adguard.vpn) and log into your AdGuard account. In case you don’t have it — you should [create it](https://auth.adguard.com/login.html). You can sign in directly with your AdGuard account credentials. Or do it via Google or Facebook, if your AdGuard account was registered using the same email address.
-
-
-## Main Screen
-
-There are two bars on the main screen, reflecting the status of the application (Connected/Disconnected) and the selected Exclusions mode ([General/Selective](#lists-of-exclusions)). On the same screen, there are also a *Connect/Disconnect* button and a list of available servers.
-
-Each server has its location and its ping rate, describing the response time of the server. The lower this rate, the faster is your connection. The fastest options are always displayed at the top of the list which consists of more than 50 locations in dozens of countries. You can connect to the fastest server by tapping the *Connect/Disconnect* button or by picking a location.
+まず、[Google PlayからAdGuard VPNをダウンロード](https://play.google.com/store/apps/details?id=com.adguard.vpn)し、AdGuard VPNアプリを開いて、AdGuardアカウントにログインしてください。 AdGuardアカウントをお持ちでない場合は、 [こちらでご登録いただく](https://auth.adguard.com/login.html)ことが可能です（登録に必要なのはメールアドレスだけで、すぐに終わります）。 AdGuardアカウントの認証情報をそのまま使ってAdGuard VPNアプリ内でログインすることができます。 または、AdGuardアカウントと同じメールアドレスのGoogleやFacebookアカウントを使ってログインすることも可能です。
 
 
-## Exclusions
+## メイン画面
 
-We've done everything to make it easy for you to manage your site and app exclusion lists. AdGuard VPN will only work where you choose.
+メイン画面には、アプリの状態（接続／切断）と選択されているVPN対象外モード（[一般/指定](#lists-of-exclusions)）を反映する2の表示があります。 同じ画面に、 *接続/切断* ボタンと接続可能なサーバーのリストもあります。
 
-
-### Lists of exclusions
-
-The exclusion lists allow you to select sites for which the VPN should be enabled and for which — disabled. To reach the *Exclusions* section, tap the second icon from the left at the bottom of the screen.
-
-There are two modes: in *General mode* sites from the exclusions list are excluded, and in *Selective mode*, they will be the only ones where AdGuard VPN works.
-
-You can add domains (e.g. `google.com`) or subdomains (e.g. `*.google.com`) of websites to the *Exclusions* in three ways: enter them manually in the app or right from the browser by clicking the *Share* button and selecting AdGuard VPN in the opened list below. You can also add them from built-in lists of services divided by categories.
-
-![Exclusions](https://cdn.adguard.com/public/Adguard/kb/VPN/Screenshots/add_site_android.jpg)
-> There are some nuances in manual adding domains. For example, if you manually exclude the domain `yahoo.com`, all `*.yahoo.com` subdomains will also be listed in exclusions. However, domain names with other top-level domains, such as `yahoo.jp` or `yahoo.fr`, will not be excluded. Or you can add `youtube.com` to the exclusions, but the domain of the same service `youtu.be` will not get into the list. In this case, it’s more safe to use built-in lists of services, because we put there all subdomains related to each platform.
-
-As you can enable subdomains in service lists, we added boxes that reflect the status of each service — you can see them on the main screen of *Exclusions* to the left of each service name: **fully-enabled** status is marked with a white check mark on green background, **fully-disabled** — with a gray box, and **partly-enabled**, which means that one or more parameters were changed — with a green square on white background. Good news: you can always return to the default view of service lists in case you’ve deleted or disabled any domains from there.
-
-![Exclusions](https://cdn.adguard.com/content/kb/vpn/android/statuses.png)
-
-Another useful feature is *Import/Export exclusions*. There are only four steps to reach the goal:
-
-1. Open AdGuard VPN on the device/in the browser from where you want to export your lists of exclusions. Find the appropriate section and click the *Export* button. The `adguard_vpn_exclusions.zip` archive will be downloaded.
-2. There are two `.txt` files inside the archive, one for each of the *General* and *Selective* lists. Add more exclusions to them, delete the existing ones, rename files (but more on this later), or just leave the archive with files as is.
-3. When transferring between different devices, don't forget to send the `.zip` file to the device for import. For example, if you import exclusion lists from your Windows device to your Android, make sure to send the `.zip` file to your Android beforehand.
-4. Open AdGuard VPN on the device where you want to import the archive with the ready lists of exclusions. Find the appropriate section, click the *Import* button and select the archive.
-
-![Import/Export](https://cdn.adguard.com/content/kb/vpn/android/imp-exp.png)
-
-### Apps Settings
-
-As we mentioned above, not only websites can be easily added to the exclusions. Choose for which applications you need AdGuard VPN and for which you don't. Tap the icon next to the *Exclusions lists* icon at the bottom of the screen, to open Apps settings. By default, AdGuard VPN works with all apps, but you can toggle the slider next to any app in the list — and disable AdGuard VPN for it.
-
-If the *Compatibility mode* with AdGuard is enabled, you can only manage apps through the AdGuard Ad Blocker. Therefore, when you tap the button, the AdGuard app opens.
-
-![Apps settings](https://cdn.adguard.com/content/kb/vpn/android/apps_settings.png)
+各サーバーには、その所在地（国と都市）と、サーバーの応答時間を表すPingが表示されています。 pingの値が低いほど、速度の速い接続となります。 ロケーションリストの上位には、常に最速ロケーション3本が表示されます（リストには世界数十カ国、50以上のロケーションがあります）。 「*接続する*」ボタンをタップすると一番速いロケーションに接続します。また、特定のロケーションを選んでタップすると、それに接続されます。
 
 
-## Settings
+## 除外機能
 
-You can reach *Settings* by pressing the gear icon at the bottom right of the screen. The first section there is *App Settings*: configure AdGuard VPN for Android as you need by selecting different options there.
-
-![Apps settings](https://cdn.adguard.com/content/kb/vpn/android/app_settings.png)
-
-### AdGuard VPN autostart
-
-The slider switched to the right enables an AdGuard VPN autostart after the device's startup.
+サイトやアプリの除外リストを簡単に管理できるよう、あらゆる工夫をしています。 AdGuard VPNが動作するとしないころをお好みに合わせて設定することが可能です。
 
 
-### DNS Server
+### VPN対象からの除外（サイト除外）
 
-The purpose of the [Domain name system](https://kb.adguard.com/en/general/dns-filtering#what-is-dns) (DNS) is to translate websites' names into something browsers can understand, i.e. IP addresses. This job is performed by DNS servers. AdGuard VPN for Android offers a choice of several DNS servers, each with special qualities. For example, [AdGuard DNS](https://kb.adguard.com/en/dns/overview) removes ads and protects your device from tracking while AdGuard DNS Family Protection combines the functions of AdGuard DNS with SafeSearch and adult content blocking. There is also an option to add a custom DNS server.
+VPN対象外リストを使って、VPNを有効にするサイトと無効にするサイトを指定することができます。 メイン画面下部の左から2番目のアイコンをタップすると、「*VPN対象からの除外*」画面に移動します。
 
-### Auto-protection
+除外リストには2つのモードがあります。「*一般モード*」では、対象外リストにあるサイトに対してAdGuard VPNはオフになります。「*指定モード*」では、対象外リストにあるサイトに対してのみAdGuard VPNはオンになり、リスト以外のサイトに対してはオフになります。
 
-This feature enables AdGuard VPN automatically when your device connects to a cellular or Wi-Fi network.
+You can add domains (e.g. `google.com`) or subdomains (e.g. `*.google.com`) of websites to the *Exclusions* in three ways: enter them manually in the app, or right from the browser by clicking the *Share* button and selecting AdGuard VPN in the opened list below, or from built-in lists of services divided by categories.
 
-### Kill Switch
+![VPN対象からの除外](https://cdn.adguard.com/public/Adguard/kb/VPN/Screenshots/add_site_android.jpg)
+> ※手動でドメインを追加する場合、注意しておくべき点があります。 例えば、ドメイン`yahoo.com`を手動で追加すると、サブドメイン `*.yahoo.com` のすべても除外対象になります。 ただし、この場合、`yahoo.jp` や `yahoo.fr`など、他のトップレベルドメインを持つドメイン名は除外対象になりません。 もう一つの例として、例えば `youtube.com` を除外リストに追加しても、同サービスのドメインである `youtu.be` は除外対象になりません。 なので、このような場合（YouTubeの場合など）、各サービスに関連するすべてのサブドメインが把握されている既存サービスリストを使用する方がより確かです。
 
-You can set up the Kill Switch function on your Android device by following simple instructions on the screen. Why would you do this? If for some reason your VPN connection suddenly drops while you are using a mobile network or public Wi-Fi, Kill Switch will automatically terminate the internet connection, keeping attackers away from seizing your information.
+サービス一覧でサブドメインを有効／無効にできるので、各サービスのステータスを反映するボックスを追加しました。 ステータスは「*VPN対象からの除外*」画面で、各サービス名の左側に表示されます。「**全部有効**」ステータスは緑の背景に白いチェックマーク、「**全部無効**」ステータスはチェックマークのないグレーボックス、「**一部有効**」（つまり一つまたは複数のパラメータが変更されているという意味）ステータスは白い背景に緑の四角が表示されています。 ※ドメインを削除したり無効にしたりした場合でも、サービスリストをデフォルト表示にいつでも戻すことができます。
 
-Note that if Kill Switch is on, *Apps settings* and *Exclusions* won’t work.
+![VPN対象からの除外](https://cdn.adguard.com/content/kb/vpn/android/statuses.png)
 
-### Theme
+もう一つの便利な機能は、除外リストの*インポート/エクスポート*です。 4ステップでインポート/アクスポートすることができます。
 
-You can choose the system default, dark or light theme of the app.
+1. 除外リストのエクスポート元となる端末・ブラウザで AdGuard VPN を開きます。 「VPN対象からの除外」画面右上の３点アイコンをタップして、「*除外リストをエクスポート*」ボタンをタップします。 `adguard_vpn_exclusions.zip` というアーカイブがダウンロードされます。
+2. アーカイブ内には、 `.txt` ファイルが2つあります（*一般*リストと*指定*リストのファイルです）。 アーカイブのファイルに、さらに除外項目を追加したり、既存のものを削除したり、ファイル名を変更したり（これについては下記もご確認ください）、そのままにしておいたり、自由にカスタマイズできます。
+3. 異なる端末間で除外リストを移行する場合は、インポート先端末に `.zip` ファイルを送信することを忘れずに。 （例えば、Windows端末からの除外リストをAndroid端末にインポートする場合、事前に `.zip` ファイルをAndroid端末に送信しておいてください。）
+4. 除外リストのアーカイブをインポートしたい端末でAdGuard VPNを開きます。 「VPN対象からの除外」画面右上の３点アイコンをタップして、「*除外リストをインポート*」ボタンをタップして、アーカイブファイルを選びます。
 
-![Theme](https://cdn.adguard.com/content/kb/vpn/android/theme-light-dark.png)
+![インポート/エクスポート](https://cdn.adguard.com/content/kb/vpn/android/imp-exp.png)
 
-### Advanced settings
+### アプリに対する設定（アプリ除外）
 
-In the *Advanced settings*, you can find five sections. You can *Help us to become better* by toggling the switch in the upper block. This action will allow AdGuard VPN to gather crash reports, technical and interaction data. This information will come in anonymously.
+Webサイトだけでなく、端末上のアプリごともVPN対象外にすることができます。 AdGuard VPNが動作するとしないアプリをお好みに合わせて指定できます。 メイン画面下部の左から3つ目（*「アプリからの除外」の次*）のアイコンをタップして、「アプリに対する設定」を開きます。 デフォルトでは、AdGuard VPN はすべてのアプリに対して動作しますが、リストにあるアプリの横にあるスイッチを切り替えることで、そのアプリに対して AdGuard VPN をオン・オフにすることが可能です。
 
-*Operating mode* section allows you to choose one of three options: VPN, Proxy, and Compatibility mode. In *VPN mode* all traffic is routed through AdGuard VPN automatically. When the *Proxy mode* (SOCKS5) is on, AdGuard VPN runs a local proxy sever which can be used by other apps to route their traffic through it. Choose this option only if you know what you are doing. Enabled *Compatibility mode* allows AdGuard VPN and AdGuard Ad Blocker to work together.
+※「*AdGuardとの併用モード*」が有効な場合、アプリに対する設定はAdGuard広告ブロッカー経由になります。 ボタンをタップすると、AdGuardアプリが開きます。
 
-> Please note that some AdGuard VPN features are disabled in *Compatibility mode*: DNS server selection, Kill Switch and Auto-protection. Also, to manage application tunneling you should open AdGuard Ad Blocker application.
+![アプリに対する設定](https://cdn.adguard.com/content/kb/vpn/android/apps_settings.png)
 
-The next two sections are *Logging level* and *Diagnostic info*. Concerning the first option, it is not recommended to enable the Extended logging level unless requested by our support team. Diagnostic info, locally stored technical information about the device and connections (IP address, ID, ping, etc.), can be sent to us in case of any technical problems.
 
-The last section of *Advanced settings* is *Low-level settings*. We urge you not to enter this section unless you are highly qualified or have been asked to do so by our support team. There you will find some options to customize the AdGuard VPN to meet your needs even more. Enable TUN interface logging or IPv6 protocol on the VPN interface, choose a proxy server port or Internet protocol version that should be used — but only if you have the necessary knowledge.
+## 設定
 
-### Support
+メイン画面右下の歯車アイコン「⚙」を押すと、 「*設定*」にアクセスできます。 一番上には、「 *AdGuard VPNの設定*」があります。そこにはさまざまなオプションを選択してAndroid用AdGuard VPNを設定できます。
 
-At the *Support* section you can leave feedback, report a bug, or export logs and system info for further submission to the helpdesk.
+![アプリに対する設定](https://cdn.adguard.com/content/kb/vpn/android/app_settings.png)
+
+### AdGuard VPNの自動始動
+
+スイッチをオンにすると、端末の起動後、AdGuard VPNも自動的に起動するようになります。
+
+
+### DNSサーバー
+
+[ドメインネームシステム（DNS）](https://kb.adguard.com/en/general/dns-filtering#what-is-dns)の目的は、Webサイトの名前をブラウザが理解できるもの、つまりIPアドレスに変換することです。 この変換の仕事は、DNSサーバーが行います。 Android用AdGuard VPNでは、それぞれの特徴を持つ複数のDNSサーバーの中から選択できます。 例えば、 「[AdGuard DNS](https://kb.adguard.com/en/dns/overview)」サーバーは広告を削除し、トラッキング（個人情報追跡）から端末を保護します。「AdGuard DNS ファミリー保護」サーバーは、AdGuard DNSの機能とセーフサーチおよびアダルトコンテンツブロック機能を兼ね備えています。 また、カスタムDNSサーバーを追加することもできます。
+
+### 通信の自動保護
+
+端末がモバイルネットワークまたはWi-Fiネットワークに接続すると、自動的にAdGuard VPNが有効になることを設定できる機能です。
+
+### キルスイッチ
+
+画面に表示される簡単な操作で、キルスイッチ機能を設定することができます。 キルスイッチは何のために必要か？ 何らかの理由でVPN接続が遮断された場合、「キルスイッチ」が自動的にインターネット接続を切断し、攻撃者に情報を傍受されないようにします。
+
+※キルスイッチがオンの場合、 「*アプリに対する設定*」と「*VPN対象からの除外*」は機能しませんので、ご注意ください。
+
+### カラーテーマ
+
+アプリのカラーテーマは、「システムデに合わせる」「ダーク」「ライト」のいずれかを選択できます。
+
+![カラーテーマ](https://cdn.adguard.com/content/kb/vpn/android/theme-light-dark.png)
+
+### 高度な設定
+
+「*高度な設定*」には、5つのセクションがあります。 一番上のスイッチをオンにすることで、「*アプリをよりよくするために協力する*」ことができます。 これにより、AdGuard VPNはクラッシュレポート、テクニカルデータ、インタラクションデータを収集することができるようになります。 ※この情報は匿名の状態でAdGuardに転送され、個人情報は一切特定できなくなっております。
+
+「*動作モード*」セクションでは、3つのオプションから1つを選択することができます。「VPN」「SOCKS5」「AdGuardとの併用モード」の3つのモードがあります。 「*VPN」*モードでは、トラフィックはすべて自動的にAdGuard VPNを経由してルーティングされます。 「*SOCKS5*」(プロキシ)モードがオンの場合、AdGuard VPN はローカルプロキシサーバを立ち上げ、他のアプリがそれを経由してトラフィックをルーティングします。 （※詳しくわからない一般ユーザーの方は、「SOCKS5」モードに変更しないことをお勧めします。） 「*AdGuardとの併用モード*」は、AdGuard VPN と AdGuard広告ブロッカーを一緒に動作させて併用することができる互換性モードです。
+
+> ※「*AdGuardとの併用モード*」では、AdGuard VPN 機能の一部（DNSサーバーの選択、「キルスイッチ」、「通信の自動保護」）が無効になりますのでご注意ください。 また、「アプリに対する設定」（アプリ除外）の管理はAdGuard広告ブロッカーアプリ経由になります。
+
+次の2つのセクションは、 「*ログのレベル*」と「*診断情報*」です。 Concerning the first option, it is not recommended to enable the Extended or Extreme logging level unless requested by our support team. 診断情報とは、端末や接続に関する、ローカルに保存された技術情報（IPアドレス、ID、pingなど）で、技術的な問題が発生した場合に当社に送信されることがあります。
+
+*高度な設定*の最後のセクションは「*ローレベル設定*」です。 ※高度な専門知識をお持ちの方もしくはサポートチームから依頼された方以外は、このセクションに入らないようお願いします。 Here it is possible to enable TUN interface logging or IPv6 protocol on the VPN interface, choose a proxy server port or Internet protocol version that should be used.
+
+### お客様サポート
+
+「*お客様サポート*」セクションでは、フィードバックを残したり、バグを報告したり、ログやシステム情報をエクスポートしてサポートチームに送信することができます。（「問題を報告する」からお問い合わせしますと、システム情報を添付することによって、技術的な問題の解決がより早くなることが多くありますので、ぜひご利用ください。）
  
  
 

@@ -1,38 +1,38 @@
 ---
-title: How to collect and send logs
+title: Comment collecter et envoyer des journaux
 sidebar_position: 2
 ---
 
-If you encounter a problem when using AdGuard VPN for Android, you can inform us about it by sending application logs.
+Si vous rencontrez un problème lors de l'utilisation de AdGuard VPN pour Android, vous pouvez nous en informer en envoyant des journaux d'application.
 
-## Collecting and sending standard logs
+## Collecte et envoi de journaux standard
 
-By default, AdGuard VPN for Android uses the **Default** logging level, that is, the basic collection of data about running processes of the app. To send these logs, follow the next steps:
+Par défaut, AdGuard VPN pour Android utilise le niveau de journalisation **Par défaut**, c'est-à-dire la collecte de base de données sur les processus en cours d'exécution de l'application. Pour envoyer ces journaux, procédez comme suit :
 
-1. Open AdGuard VPN for Android and, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
+1. Ouvrez AdGuard VPN pour Android et, si possible, répétez les actions qui ont conduit à l'erreur. Notez l'heure exacte à laquelle cette erreur s'est produite.
 
-2. Open **Settings** by clicking the gear icon at the lower right corner → **Support** → **Report a bug**.
+2. Ouvrez **Paramètres** en cliquant sur l'icône d'engrenage dans le coin inférieur droit → **Assistance** → **Signaler un bug**.
 
-3. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred. If you can't reproduce the problem, specify as accurately as possible when it last occurred.
+3. Dans le formulaire ouvert, entrez votre adresse e-mail pour commentaires et décrivez l'erreur trouvée, y compris l'heure à laquelle cette erreur s'est produite. Si vous ne pouvez pas reproduire le problème, indiquez aussi précisément que possible quand il s'est produit pour la dernière fois.
 
-4. There is a check mark next to **Send detailed system info**, which means that when you send a report, you also send logs.
-> If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, go to **Settings** → **Support** → **Export logs and system info**.
+4. Il y a une coche à côté de **Envoyer des informations système détaillées**, ce qui signifie que lorsque vous envoyez un rapport, vous envoyez également des journaux.
+> Si, pour une raison quelconque, il est plus pratique pour vous de nous envoyer les journaux d'une autre manière, vous pouvez les exporter vous-même. Pour ça, accédez à **Paramètres** → **Assistance** → **Exporter les journaux et les informations système**.
 
-## Collecting and sending extended logs
+## Collecte et envoi de journaux détaillés
 
-In most cases, the **Default** logging level is sufficient to trace down possible bugs. But there are cases when more detailed technical information about the device and connections is required, and then our support team will ask you to enable the **Extended** or **Extreme** logging level. To send these types of logs, follow these steps:
+Dans la plupart des cas, le niveau de journalisation **Par défaut** est suffisant pour détecter les bogues éventuels. Mais il existe des cas où des informations techniques plus détaillées sur l'appareil et les connexions sont requises, puis notre équipe d'assistance vous demandera d'activer le niveau de journalisation **Étendu** ou **Extrême**. Pour envoyer ces types de journaux, procédez comme suit :
 
-1. Open AdGuard VPN for Android and select **Settings** (the gear icon at the bottom right corner) → **App settings** → **Advanced settings** → **Logging level**.
+1. Ouvrez AdGuard VPN pour Android et sélectionnez **Paramètres** (l'icône d'engrenage dans le coin inférieur droit) → **Paramètres de l'application** → **Paramètres avancés** → **Niveau de journalisation**.
 
-2. In the **Logging level** section, select **Extended** or **Extreme** logging level.
+2. Dans la section **Niveau de journalisation** , sélectionnez le niveau de journalisation **Étendu** ou **Extrême** .
 
-3. Repeat the actions that led to the error and note the time when it occurred.
+3. Répétez les actions qui ont conduit à l'erreur et notez l'heure à laquelle elle s'est produite.
 
-4. Switch the logging level back to **Default**.
+4. Remettez le niveau de journalisation sur **Par défaut**.
 
-5. Then open **Settings** by tapping the gear icon at the lower right corner → **Support** → **Report a bug**.
+5. Ouvrez ensuite **Paramètres** en appuyant sur l'icône d'engrenage dans le coin inférieur droit → **Assistance** → **Signaler un bug**.
 
-6. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred.
+6. Dans le formulaire ouvert, indiquez votre adresse émail pour le retour d'information et décrivez l'erreur trouvée, y compris le moment où cette erreur s'est produite.
 
-7. Make sure that there is a check mark next to **Send detailed system info** and tap **Send**.
-> If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, go to **Settings** → **Support** → **Export logs and system info**.
+7. Assurez-vous que la case **Envoyer des informations système détaillées** est cochée et appuyez sur **Envoyer**.
+> Si, pour une raison quelconque, il est plus pratique pour vous de nous envoyer les journaux d'une autre manière, vous pouvez les exporter vous-même. Pour ça, accédez à **Paramètres** → **Assistance** → **Exporter les journaux et les informations système**.

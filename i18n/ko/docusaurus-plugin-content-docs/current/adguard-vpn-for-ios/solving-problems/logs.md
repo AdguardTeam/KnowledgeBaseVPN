@@ -1,40 +1,40 @@
 ---
-title: How to collect and send logs
+title: 로그 수집 및 전송 방법
 sidebar_position: 2
 ---
 
-If you encounter a problem when using AdGuard VPN for iOS, you can inform us about it by sending application logs.
+iOS용 AdGuard VPN을 사용할 때 기술적인 문제가 발생하면 지원 팀에 애플리케이션 로그를 보낼 수 있습니다.
 
-## Collecting and sending standard logs
+## 일반 로그 수집 및 전송
 
-By default, AdGuard VPN for iOS uses the standard logging level, that is, the basic collection of data about running processes of the app. To send these logs, follow the next steps:
+기본적으로 iOS용 AdGuard VPN은 앱에서 실행 중인 프로세스에 대한 기본 정보를 수집하는 일반 로깅 수준을 사용합니다. 이러한 로그를 보내려면 다음 단계를 따르십시오.
 
-1. Open AdGuard VPN for iOS and, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
+1. IOS용 AdGuard VPN을 열고 문제를 재현합니다. 이 문제가 발생한 정확한 시간을 기록하세요.
 
-2. Select "Settings" in the lower-right corner of the screen, then select "Support" and click "Report a bug" in it.
+2. 화면 오른쪽 하단에서 '설정'을 선택한 다음 '고객 지원'을 선택하고 '버그 신고'를 클릭합니다.
 
-3. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred. If you can't reproduce the problem, specify as accurately as possible when it last occurred.
+3. 열리는 양식에 이메일 주소를 입력하고 발견한 오류를 설명하고 이 오류가 언제 발생했는지 알려주세요. 문제를 재현할 수 없는 경우, 마지막으로 발생한 시간을 지정합니다.
 
-4. There is a check mark next to the "Send detailed system info", which means that when you send a report, you also send logs.
-> If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, select "Export logs" in the "Support" section.
+4. '자세한 시스템 정보 보내기' 옆에 확인 표시가 있습니다. 즉, 보고서를 보낼 때 로그도 함께 보냅니다.
+> 다른 방법으로 로그를 보내는 것이 편하다면 직접 로그를 내보내도 됩니다. 직접 로그를 보내려면 '고객 지원' 섹션에서 '로그 내보내기"를 선택합니다.
 
-## Collecting and sending extended logs
+## 고급화된 로그 수집 및 전송
 
-In most cases, the default logging level is sufficient to trace down possible bugs. But there are cases when more detailed technical information about the device and connections is required, and then our support team will ask you to enable the extended logging level. To send this type of logs, follow these steps:
+보통 일반 로깅 수준을 사용하면 가능한 오류를 추적할 수 있습니다. 기기 및 연결에 대한 자세한 기술 정보가 필요한 경우 지원 팀에서 고급화된 로깅 수준을 활성화하도록 요청할 것입니다. 이러한 로그를 보내려면 다음 단계를 따르십시오.
 
-1. Open AdGuard VPN for iOS and select "Settings" in the lower-right corner of the screen.
+1. iOS용 AdGuard VPN을 열고 화면 오른쪽 하단에서 '설정'을 선택합니다.
 
-2. Select "App settings" and "Advanced settings" in it.
+2. '앱 설정'에서 '고급 설정'을 선택합니다.
 
-3. In the "Logging level" section, select "Extended".
+3. '로깅 수준' 섹션에서 '고급화된 로깅'을 선택합니다.
 
-4. Repeat the actions that led to the error, and note the time when it occurred.
+4. 오류가 발생한 작업을 반복하고 오류가 발생한 시간을 기록합니다.
 
-5. Switch the logging level back to "Default".
+5. 로깅 수준을 다시 '기본'으로 전환합니다.
 
-6. Then go back to the main section "Settings", select "Support" and then "Report a bug".
+6. 그런 다음 '설정' 메인 섹션으로 다시 이동하여 '고객 지원'을 선택한 다음 '버그 신고'를 선택합니다.
 
-7. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred.
+7. 열리는 양식에 이메일 주소를 입력하고 발견한 오류를 설명하고 이 오류가 언제 발생했는지 알려주세요.
 
-8. Make sure that there is a check mark next to "Submit detailed system info" and click "Submit a report".
-> If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, select "Export logs" in the "Support" section.
+8. '자세한 시스템 정보 보내기' 옆에 확인 표시가 있는지 확인하고 '전송'을 누릅니다.
+> 다른 방법으로 로그를 보내는 것이 편하다면 직접 로그를 내보내도 됩니다. 직접 로그를 보내려면 '고객 지원' 섹션에서 '로그 내보내기"를 선택합니다.
