@@ -1,40 +1,40 @@
 ---
-title: 'How to collect and send logs'
+title: 'Wie man Protokolle sammelt und versendet'
 sidebar_position: 1
 ---
 
-If you encounter a problem when using AdGuard VPN for Mac, you can inform us about it by sending application logs.
+Wenn Sie bei der Nutzung von AdGuard VPN für Mac auf ein Problem stoßen, informieren Sie uns darüber. Dazu können Sie uns Anwendungsprotokolle schicken.
 
-## Collecting and sending standard logs
+## Sammeln und Senden von Standardprotokollen
 
-By default, AdGuard VPN for Mac uses the standard logging level, that is, the basic collection of data about running processes of the app. To send these logs, follow the next steps:
+Standardmäßig verwendet AdGuard VPN für Mac die Protokollierungsebene Standard, d. h. die grundlegende Sammlung von Daten über laufende Prozesse der App. Um diese Protokolle zu senden, machen Sie Folgendes:
 
-1. Open AdGuard VPN for Mac and, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
+1. Öffnen Sie AdGuard VPN für Mac und wiederholen Sie nach Möglichkeit die Aktionen, die zum Fehler geführt haben. Notieren Sie den genauen Zeitpunkt, zu dem dieser Fehler aufgetreten ist.
 
-2. Click **Support** (in the menu above) → **Report a bug**.
+2. Klicken Sie auf **Support** (im Menü oben) → **Fehler melden**.
 
-3. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred. If you can't reproduce the problem, specify as accurately as possible when it last occurred.
+3. Geben Sie im geöffneten Formular Ihre E-Mail-Adresse für Feedback ein und beschreiben Sie den gefundenen Fehler, einschließlich des Zeitpunkts, zu dem dieser Fehler aufgetreten ist. Wenn Sie das Problem nicht reproduzieren können, geben Sie so genau wie möglich an, wann es zuletzt aufgetreten ist.
 
-4. There is a check mark next to the **Attach technical logs**, which means that when you send a report, you also send logs.
-> If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, select **Settings** → **General** → **Export logs** in the **Actions** section on the right.
+4. Es gibt ein Häkchen neben **Technische Protokolle anhängen**, was bedeutet, dass Sie beim Senden eines Berichts auch Protokolle senden.
+> Wenn es für Sie aus irgendeinem Grund bequemer ist, uns Protokolle auf andere Weise zu senden, können Sie sie selbst exportieren. Wählen Sie dazu **Einstellungen** → **Allgemein** → **Protokolle exportieren** im Bereich **Aktionen** auf der rechten Seite.
 
-## Collecting and sending extended logs
+## Sammeln und Senden erweiterter Protokolle
 
-In most cases, the default logging level is sufficient to trace down possible bugs. But there are cases when more detailed technical information about the device and connections is required, and then our support team will ask you to enable the extended logging level. To send this type of logs, follow these steps:
+In den meisten Fällen reicht die Standardprotokollierungsebene aus, um mögliche Fehler aufzuspüren. Es gibt jedoch Fälle, in denen detailliertere technische Informationen über das Gerät und die Verbindungen erforderlich sind und unser Support-Team Sie dann auffordert, die Erweiterte Protokollierungsebene zu aktivieren. Um diese Protokolle zu senden, machen Sie Folgendes:
 
-1. Open AdGuard VPN for Mac and select **Settings** → **General** → **Advanced settings**.
+1. Öffnen Sie AdGuard VPN für Mac und wählen Sie **Einstellungen** → **Allgemein** → **Erweiterte Einstellungen**.
 
-2. In the **Logging level** section, select **Record everything**.
+2. Im Abschnitt **Protokollierungsebene** wählen Sie **Vollständige Aufzeichnung**.
 
-3. Repeat the actions that led to the error, and note the time when it occurred.
+3. Wiederholen Sie die Aktionen, die zu dem Fehler geführt haben, und notieren Sie den Zeitpunkt, zu dem er aufgetreten ist.
 
-4. Switch the logging level back to **Record by default**.
+4. Schalten Sie die Protokollierungsebene zurück auf **Standard-Aufzeichnung**.
 
-5. Then select **Support** (in the menu above) → **Report a bug**.
+5. Wählen Sie dann **Support** (im Menü oben) → **Fehler melden**.
 
-6. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred.
+6. Geben Sie im geöffneten Formular Ihre E-Mail-Adresse für Feedback ein und beschreiben Sie den gefundenen Fehler, einschließlich des Zeitpunkts, zu dem dieser Fehler aufgetreten ist.
 
-7. Make sure that there is a check mark next to **Attach technical logs** and click **Send**.
-> If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, select **Settings** → **General** → **Export logs** in the **Actions** section on the right.
+7. Stellen Sie sicher, dass neben **Technische Protokolle anhängen** ein Häkchen angezeigt wird, und klicken Sie auf **Senden**.
+> Wenn es für Sie aus irgendeinem Grund bequemer ist, uns Protokolle auf andere Weise zu senden, können Sie sie selbst exportieren. Wählen Sie dazu **Einstellungen** → **Allgemein** → **Protokolle exportieren** im Bereich **Aktionen** auf der rechten Seite.
 
-This section is updated regularly. If you have not found a solution to your problem in the articles given in this section, contact AdGuard technical support at support@adguard-vpn.com.
+Dieser Abschnitt wird regelmäßig aktualisiert. Wenn Sie in den Artikeln in diesem Abschnitt keine Lösung für Ihr Problem gefunden haben, wenden Sie sich an den technischen Support von AdGuard unter support@adguard-vpn.com.

@@ -1,38 +1,38 @@
 ---
-title: How to collect and send logs
+title: Wie man Protokolle sammelt und versendet
 sidebar_position: 2
 ---
 
-If you encounter a problem when using AdGuard VPN for Android, you can inform us about it by sending application logs.
+Wenn Sie bei der Nutzung von AdGuard VPN für Android auf ein Problem stoßen, informieren Sie uns darüber. Dazu können Sie uns Anwendungsprotokolle schicken.
 
-## Collecting and sending standard logs
+## Sammeln und Senden von Standardprotokollen
 
-By default, AdGuard VPN for Android uses the **Default** logging level, that is, the basic collection of data about running processes of the app. To send these logs, follow the next steps:
+Standardmäßig verwendet AdGuard VPN für Android die Protokollierungsebene **Standard**, d. h. die grundlegende Sammlung von Daten über laufende Prozesse der App. Um diese Protokolle zu senden, machen Sie Folgendes:
 
-1. Open AdGuard VPN for Android and, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
+1. Öffnen Sie AdGuard VPN für Android und wiederholen Sie nach Möglichkeit die Aktionen, die zum Fehler geführt haben. Notieren Sie den genauen Zeitpunkt, zu dem dieser Fehler aufgetreten ist.
 
-2. Open **Settings** by clicking the gear icon at the lower right corner → **Support** → **Report a bug**.
+2. Öffnen Sie **Einstellungen** durch Klicken auf das Zahnradsymbol in der unteren rechten Ecke → **Support** → **Fehlerbericht**.
 
-3. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred. If you can't reproduce the problem, specify as accurately as possible when it last occurred.
+3. Geben Sie im geöffneten Formular Ihre E-Mail-Adresse für Feedback ein und beschreiben Sie den gefundenen Fehler, einschließlich des Zeitpunkts, zu dem dieser Fehler aufgetreten ist. Wenn Sie das Problem nicht reproduzieren können, geben Sie so genau wie möglich an, wann es zuletzt aufgetreten ist.
 
-4. There is a check mark next to **Send detailed system info**, which means that when you send a report, you also send logs.
-> If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, go to **Settings** → **Support** → **Export logs and system info**.
+4. Neben **Detaillierte Systeminformationen senden** ist ein Häkchen gesetzt, d. h., wenn Sie einen Bericht senden, senden Sie auch Protokolle.
+> Wenn es für Sie aus irgendeinem Grund bequemer ist, uns Protokolle auf andere Weise zu senden, können Sie sie selbst exportieren. Gehen Sie dazu auf **Einstellungen** → **Support** → **Protokolle und Systeminformationen exportieren**.
 
-## Collecting and sending extended logs
+## Sammeln und Senden erweiterter Protokolle
 
-In most cases, the **Default** logging level is sufficient to trace down possible bugs. But there are cases when more detailed technical information about the device and connections is required, and then our support team will ask you to enable the **Extended** or **Extreme** logging level. To send these types of logs, follow these steps:
+In den meisten Fällen reicht die Protokollierungsebene **Standard** aus, um mögliche Fehler aufzuspüren. Es gibt jedoch Fälle, in denen detailliertere technische Informationen über das Gerät und die Verbindungen erforderlich sind und unser Support-Team Sie dann auffordert, die Protokollierungsebene **Erweitert** oder **Extrem** zu aktivieren. Um diese Protokolle zu senden, machen Sie Folgendes:
 
-1. Open AdGuard VPN for Android and select **Settings** (the gear icon at the bottom right corner) → **App settings** → **Advanced settings** → **Logging level**.
+1. Öffnen Sie AdGuard VPN für Android und wählen Sie **Einstellungen** (das Zahnradsymbol in der unteren rechten Ecke) → **App-Einstellungen** → **Erweiterte Einstellungen** → **Protokollierungsebene**.
 
-2. In the **Logging level** section, select **Extended** or **Extreme** logging level.
+2. Wählen Sie im Abschnitt **Protokollierungsebene** die Protokollierungsebene **Erweitert** oder **Extrem** aus.
 
-3. Repeat the actions that led to the error and note the time when it occurred.
+3. Wiederholen Sie die Aktionen, die zu dem Fehler geführt haben, und notieren Sie den Zeitpunkt, zu dem er aufgetreten ist.
 
-4. Switch the logging level back to **Default**.
+4. Schalten Sie die Protokollierungsebene zurück auf **Standard**.
 
-5. Then open **Settings** by tapping the gear icon at the lower right corner → **Support** → **Report a bug**.
+5. Öffnen Sie **Einstellungen** durch Klicken auf das Zahnradsymbol in der unteren rechten Ecke → **Support** → **Fehlerbericht**.
 
-6. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred.
+6. Geben Sie im geöffneten Formular Ihre E-Mail-Adresse für Feedback ein und beschreiben Sie den gefundenen Fehler, einschließlich des Zeitpunkts, zu dem dieser Fehler aufgetreten ist.
 
-7. Make sure that there is a check mark next to **Send detailed system info** and tap **Send**.
-> If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, go to **Settings** → **Support** → **Export logs and system info**.
+7. Stellen Sie sicher, dass ein Häkchen neben **Detaillierte Systeminformationen senden** gesetzt ist, und tippen Sie auf **Senden**.
+> Wenn es für Sie aus irgendeinem Grund bequemer ist, uns Protokolle auf andere Weise zu senden, können Sie sie selbst exportieren. Gehen Sie dazu auf **Einstellungen** → **Support** → **Protokolle und Systeminformationen exportieren**.

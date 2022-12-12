@@ -1,38 +1,38 @@
 ---
-title: How to collect and send logs
+title: 로그 수집 및 전송 방법
 sidebar_position: 2
 ---
 
-If you encounter a problem when using AdGuard VPN for Android, you can inform us about it by sending application logs.
+Android용 AdGuard VPN을 사용할 때 기술적인 문제가 발생하면 지원 팀에 애플리케이션 로그를 보낼 수 있습니다.
 
-## Collecting and sending standard logs
+## 일반 로그 수집 및 전송
 
-By default, AdGuard VPN for Android uses the **Default** logging level, that is, the basic collection of data about running processes of the app. To send these logs, follow the next steps:
+기본적으로 Android용 AdGuard VPN은 앱에서 실행 중인 프로세스에 대한 기본 정보를 수집하는 **일반 로깅 수준**을 사용합니다. 이러한 로그를 보내려면 다음 단계를 따르십시오.
 
-1. Open AdGuard VPN for Android and, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
+1. Android용 AdGuard VPN을 열고 문제를 재현합니다. 이 문제가 발생한 정확한 시간을 기록하세요.
 
-2. Open **Settings** by clicking the gear icon at the lower right corner → **Support** → **Report a bug**.
+2. 오른쪽 하단의 톱니바퀴 아이콘을 클릭하여 **설정** 열기 → **고객 지원** → **버그 신고**
 
-3. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred. If you can't reproduce the problem, specify as accurately as possible when it last occurred.
+3. 열리는 양식에 이메일 주소를 입력하고 발견한 오류를 설명하고 이 오류가 언제 발생했는지 알려주세요. 문제를 재현할 수 없는 경우, 마지막으로 발생한 시간을 지정합니다.
 
-4. There is a check mark next to **Send detailed system info**, which means that when you send a report, you also send logs.
-> If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, go to **Settings** → **Support** → **Export logs and system info**.
+4. **자세한 시스템 정보 보내기** 옆에 확인 표시가 있습니다. 즉, 보고서를 보낼 때 로그도 함께 보냅니다.
+> 다른 방법으로 로그를 보내는 것이 편하다면 직접 로그를 내보내도 됩니다. 로그를 직접 내보내려면 **설정** → **고객 지원** → **로그 및 시스템 정보** 내보내기로 이동합니다.
 
-## Collecting and sending extended logs
+## 고급화된 로그 수집 및 전송
 
-In most cases, the **Default** logging level is sufficient to trace down possible bugs. But there are cases when more detailed technical information about the device and connections is required, and then our support team will ask you to enable the **Extended** or **Extreme** logging level. To send these types of logs, follow these steps:
+보통 **일반 로깅 수준**을 사용하면 가능한 오류를 추적할 수 있습니다. 기기 및 연결에 대한 자세한 기술 정보가 필요한 경우 지원 팀에서 **고급화된** 로깅 수준 또는 **극한의** 로깅 수준을 활성화하도록 요청할 것입니다. 이러한 로그를 보내려면 다음 단계를 따르십시오.
 
-1. Open AdGuard VPN for Android and select **Settings** (the gear icon at the bottom right corner) → **App settings** → **Advanced settings** → **Logging level**.
+1. Android용 AdGuard VPN을 열고 **설정**(오른쪽 하단의 톱니바퀴 아이콘) → **앱 설정** → **고급 설정** → **로깅 수준**을 선택합니다.
 
-2. In the **Logging level** section, select **Extended** or **Extreme** logging level.
+2. **로깅 수준** 섹션에서 **고급화된 로깅** 또는 **극한의 로깅** 수준을 선택합니다.
 
-3. Repeat the actions that led to the error and note the time when it occurred.
+3. 오류가 발생한 작업을 반복하고 오류가 발생한 시간을 기록합니다.
 
-4. Switch the logging level back to **Default**.
+4. 로깅 수준을 다시 **일반 로깅**으로 전환합니다.
 
-5. Then open **Settings** by tapping the gear icon at the lower right corner → **Support** → **Report a bug**.
+5. 오른쪽 하단의 톱니바퀴 아이콘을 클릭하여 **설정** 열기 → **고객 지원** → **버그 신고**
 
-6. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred.
+6. 열리는 양식에 이메일 주소를 입력하고 발견한 오류를 설명하고 이 오류가 언제 발생했는지 알려주세요.
 
-7. Make sure that there is a check mark next to **Send detailed system info** and tap **Send**.
-> If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, go to **Settings** → **Support** → **Export logs and system info**.
+7. **자세한 시스템 정보 보내기** 옆에 확인 표시가 있는지 확인하고 **전송**을 누릅니다.
+> 다른 방법으로 로그를 보내는 것이 편하다면 직접 로그를 내보내도 됩니다. 로그를 직접 내보내려면 **설정** → **고객 지원** → **로그 및 시스템 정보** 내보내기로 이동합니다.

@@ -4,7 +4,7 @@ sidebar_position: 3
 ---
 
 
-O AdGuard VPN tem o modo de operação Geral ativado por padrão, que usa seu próprio protocolo [AdGuard VPN](/general/adguard-vpn-protocol.mdx). Fornece a melhor combinação de velocidade de conexão e segurança. No entanto, esse modo operacional não permite que o AdGuard VPN e o Bloqueador de anúncios do AdGuard funcionem simultaneamente. O modo Compatibilidade, por sua vez, utiliza o protocolo IPsec, o que possibilita que os aplicativos AdGuard trabalhem juntos. Se você já tiver o Bloqueador de anúncios do AdGuard ao instalar o AdGuard VPN, esse modo será ativado automaticamente e permitirá que você use nossos aplicativos ao mesmo tempo. Se você instalou o AdGuard VPN pela primeira vez e só então decidiu experimentar o Bloqueador de anúncios do AdGuard e desejar utilizá-los juntos, siga estas etapas:
+AdGuard VPN has the VPN operating mode enabled by default, which uses its own [AdGuard VPN protocol](/general/adguard-vpn-protocol.mdx). Fornece a melhor combinação de velocidade de conexão e segurança. No entanto, esse modo operacional não permite que o AdGuard VPN e o Bloqueador de anúncios do AdGuard funcionem simultaneamente. O modo Compatibilidade, por sua vez, utiliza o protocolo IPsec, o que possibilita que os aplicativos AdGuard trabalhem juntos. Se você já tiver o Bloqueador de anúncios do AdGuard ao instalar o AdGuard VPN, esse modo será ativado automaticamente e permitirá que você use nossos aplicativos ao mesmo tempo. Se você instalou o AdGuard VPN pela primeira vez e só então decidiu experimentar o Bloqueador de anúncios do AdGuard e desejar utilizá-los juntos, siga estas etapas:
 
 1. Abra o AdGuard VPN para Android e selecione o ícone de engrenagem no canto inferior direito da tela.
 

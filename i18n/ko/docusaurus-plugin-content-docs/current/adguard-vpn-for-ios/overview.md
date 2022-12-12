@@ -1,101 +1,101 @@
 ---
-title: Features overview
+title: 기능 개요
 sidebar_position: 1
 ---
 
-## What is AdGuard VPN for iOS
+## iOS용 AdGuard VPN이란 무엇인가요?
 
-A VPN allows you to create a secure connection to another network on the Internet. It connects a user's computer or mobile device to a server and allows one to browse the net using someone else's IP address. So if the VPN server is located in a different country, it will appear that you have connected to the Internet from that country. [Learn more](/general/how-vpn-works.md) about how a VPN works in detail.
+VPN을 사용하면 인터넷의 다른 네트워크에 안전하게 연결할 수 있습니다. VPN은 컴퓨터 또는 모바일 기기를 서버에 연결하고, 실제 IP 주소를 사용하지 않고 인터넷을 탐색할 수 있도록 합니다. 따라서 VPN 서버가 다른 국가에 있는 경우 해당 국가에서 인터넷에 연결한 것으로 나타납니다. VPN 작동 방식에 대해 [자세히 알아보세요](/general/how-vpn-works.md).
 
-Speaking of AdGuard VPN, it has several functions:
-* hides your real whereabouts and helps you stay anonymous
-* сhanges your IP address to protect your data from tracking
-* encrypts your traffic to make it unreachable to scammers
-* lets you configure where to use VPN and where not to (exclusions feature)
+AdGuard VPN 기능은 다음과 같습니다.
+* 실제 위치를 숨기고 익명성을 유지합니다.
+* 트래커로부터 데이터를 보호하기 위해 IP 주소를 변경합니다.
+* 사기꾼이나 해커가 액세스할 수 없도록 트래픽을 암호화합니다.
+* VPN을 사용하는 사이트와 사용하지 않는 사이트를 구성할 수 있습니다 (예외 목록).
 
-The next advantage of AdGuard VPN for iOS is our own VPN protocol. It has two main benefits: comparing to other VPN protocols it is extremely hard to detect and it works stably even with a poor Internet connection. You can read more about AdGuard VPN protocol [in this article](../general/adguard-vpn-protocol.mdx).
+iOS용 AdGuard VPN의 다음 장점은 자체 VPN 프로토콜입니다. 두 가지 주요 이점이 있습니다. 다른 VPN 프로토콜에 비해 당사의 프로토콜은 감지하기가 매우 어렵고 인터넷 연결 상태가 좋지 않은 경우에도 안정적으로 작동합니다. [이 글](../general/adguard-vpn-protocol.mdx)에서 AdGuard VPN 프로토콜에 대해 자세히 알아볼 수 있습니다.
 
-## How to use AdGuard VPN for iOS
+## iOS용 AdGuard를 사용하는 방법
 
-To use AdGuard VPN for iOS, first you need to log into your [AdGuard account](https://my.adguard.com/). You can sign in directly with your AdGuard account credentials, or via Google, Apple ID, or Facebook (if your AdGuard account was registered using the same email address).
+iOS용 AdGuard VPN을 사용하려면 먼저 [AdGuard 계정](https://my.adguard.com/)에 로그인하세요. AdGuard 계정 자격 증명으로 직접 로그인하거나 Google, Apple ID 또는 Facebook(동일한 이메일 주소를 사용하여 AdGuard 계정을 등록한 경우)을 통해 로그인할 수 있습니다.
 
-If you don't have an AdGuard account yet, you will have to create it first.
+아직 AdGuard 계정이 없다면 먼저 계정을 만드세요.
 
-Using AdGuard VPN is quite easy. On the main screen you can see the *Connect/Disconnect* button and the list of available servers. There servers have their own location (a certain country and a city) and ping indicator. The ping describes the response time of the server (in milliseconds). For example, choosing the server with the ping of 22 ms means that the signal will reach the server and return back in 22 milliseconds. So the lower this rate, the faster is your connection. In AdGuard VPN you can choose among over 50 locations in dozens of countries.
+AdGuard VPN을 사용하는 것은 매우 쉽습니다. 메인 화면에는 *연결/연결 해제* 버튼과 사용 가능한 서버 목록도 있습니다. 서버에는 자체 위치(특정 국가 및 도시)와 핑 표시기가 있습니다. 핑은 서버의 응답 시간(밀리초)을 표시합니다. 예를 들어, 핑이 22ms인 서버를 선택하면 신호가 22밀리초 내에 서버에 도달하고 다시 반환된다는 의미입니다. 핑이 낮을수록 연결 속도가 빨라집니다. AdGuard VPN을 사용하면 수십 개 국가의 50개 이상의 위치에서 서버를 선택할 수 있습니다.
 
-![Main screen and locations](https://cdn.adguard.com/content/kb/vpn/ios/1.png?123)
+![메인 화면 및 위치](https://cdn.adguard.com/content/kb/vpn/ios/1.png?123)
 
-## Lists of exclusions
+## 예외 목록
 
-You can find the exclusion feature by tapping the middle button below. There you will see two exclusion lists — for Regular and Selective Modes. In the Regular mode the VPN works on all websites except for the ones from the exclusion list. In the Selective mode, conversely, the VPN operates only on the sites from the list. You can add domains (e.g. `google.com`) or subdomains (e.g. `*.google.com`) of websites in two ways: you can enter them manually in the app or right from the browser by clicking the *Share* button and finding AdGuard VPN in the opened list below.
+화면 하단의 가운데 버튼을 클릭하면 예외 목록을 찾을 수 있습니다. There you will see two exclusion lists — for General and Selective Modes. In the General mode the VPN works on all websites except for the ones from the exclusion list. 반대로 선별 모드에서는 AdGuard VPN이 예외 목록의 웹사이트에서만 실행됩니다. 두 가지 방법으로 도메인(예: `google.com`) 또는 하위 도메인(예: `*.google.com`)을 예외 목록에 추가할 수 있습니다. 앱에 수동으로 입력하거나 *공유* 버튼을 클릭하고 아래 열린 목록에서 AdGuard VPN을 선택하여 브라우저에서 바로 입력하세요.
 
-![Exclusions](https://cdn.adguard.com/content/kb/vpn/ios/2.png?123)
+![예외 목록](https://cdn.adguard.com/content/kb/vpn/ios/2.png?123)
 
-Another useful feature is the import/export of exclusion lists. You can do it by following the next four steps:
+또 다른 유용한 기능은 예외 목록 가져오기/내보내기입니다. 이 기능을 사용하려면 다음 네 단계를 따르세요.
 
-1. Open AdGuard VPN on the device/in the browser from where you want to export your lists of exclusions. Find the appropriate section and click on the *Export* button. The `exclusions.zip` archive will be downloaded.
+1. 예외 목록을 내보내려는 브라우저/기기에서 AdGuard VPN을 엽니다. 해당 섹션을 찾아 *내보내기* 버튼을 클릭합니다. `exclusions.zip` 파일이 다운로드됩니다.
 
-2. There are two `.txt` files inside the archive, one for each of Regular and Selective lists. Add more exclusions to them, delete the existing ones, rename files (but more on this later), or just leave the archive with files as is.
+2. There are two `.txt` files inside the archive, one for each of General and Selective lists. 제외 항목을 더 추가하거나, 기존 항목을 삭제하거나, 파일 이름을 바꾸거나, ZIP 파일을 그대로 둡니다.
 
-3. When transferring between different devices, don't forget to send the `.zip` file to the device for import. For example, if you import exclusion lists from your iOS device to your Mac, make sure to send the `.zip` file to your Mac beforehand.
+3. 다른 기기 간에 전송할 때 가져오기를 위해 `.zip` 파일을 기기로 보내는 것을 잊지 마십시오. 예를 들어, iOS 기기에서 Mac으로 예외 목록을 가져오는 경우, 미리 `.zip` 파일을 Mac으로 보내야 합니다.
 
-4. Open AdGuard VPN on the device where you want to import the archive with the ready lists of exclusions. Find the appropriate section, click on the *Import* button and select the archive.
+4. 예외 목록이 있는 ZIP 파일을 가져오려는 기기에서 AdGuard VPN을 엽니다. 해당 섹션을 찾아 *가져오기* 버튼을 클릭하고 ZIP 파일을 선택합니다.
 
-![Import/export exclusions](https://cdn.adguard.com/content/kb/vpn/ios/import-export-exclusions.png)
+![예외 목록 가져오기/내보내기](https://cdn.adguard.com/content/kb/vpn/ios/import-export-exclusions.png)
 
-## App settings
+## 앱 설정
 
-To reach App settings:
+설정을 찾으려면 다음 단계를 따르세요.
 
-1. Tap Settings button (⚙) in the bottom right corner of the AdGuard VPN app's main screen
-2. Tap *App settings*
+1. AdGuard VPN 앱 메인 화면의 오른쪽 하단에 있는 설정 버튼(⚙)을 누릅니다.
+2. *앱 설정*을 누릅니다
 
-Here, you can configure AdGuard VPN for iOS as you need using different options: Operating Mode, DNS server, Wi-Fi auto-protection, Color Theme and Advanced Settings.
+작동 모드, DNS 서버, Wi-Fi 자동 보호, 색상 테마 및 고급 설정과 같은 다양한 옵션을 사용하여 필요에 따라 iOS용 AdGuard VPN을 설정할 수 있습니다.
 
-![App Settings](https://cdn.adguard.com/content/kb/vpn/ios/app-settings.png)
+![앱 설정](https://cdn.adguard.com/content/kb/vpn/ios/app-settings.png)
 
-### Operating mode
+### 운영 모드
 
-AdGuard VPN for iOS can operate in two modes: **General** and **Integrated**.
+iOS용 AdGuard VPN은 두 가지 모드(일반 및 통합)에서 작동할 수 있습니다.
 
-In **General** mode, the [AdGuard VPN protocol](../general/adguard-vpn-protocol.mdx) is employed, which provides the best combination of speed and security. In this mode, AdGuard VPN will not be able to work alongside [AdGuard Ad Blocker for iOS](https://kb.adguard.com/en/ios).
+**일반 모드**에서는 속도와 보안의 최상의 조합을 제공하는 [AdGuard VPN 프로토콜](../general/adguard-vpn-protocol.mdx)이 사용됩니다. 이 모드에서 AdGuard VPN은 [iOS용 AdGuard 광고 차단기](https://kb.adguard.com/en/ios)와 함께 작동할 수 없습니다.
 
-In **Integrated** mode, AdGuard VPN will be able to work at the same time with AdGuard for iOS ad blocker by using the IPSec protocol instead. This protocol is also secure, but a little slower and easier to detect. You don't need to perform any additional actions to set up the integration: just install both apps and switch to this mode.
-> Note that in **Integrated** mode you can't use the Exclusions feature or choose a DNS server.
+**통합 모드**에서 AdGuard VPN은 IPSec 프로토콜을 사용하여 iOS 광고 차단기용 AdGuard와 동시에 작동할 수 있습니다. IPSec 프로토콜도 안전하지만 조금 더 느리고 감지하기 쉽습니다. 통합 모드를 사용하려면 두 앱을 모두 설치하고 통합 모드로 전환하기만 하면 됩니다.
+> **통합 모드**에서는 제외 기능이나 DNS 서버를 사용할 수 없습니다.
 
-### DNS server
+### DNS 서버
 
-The purpose of Domain name system (DNS) is to translate websites' names into something browsers can understand, i.e. IP addresses. This job is performed by DNS servers. AdGuard VPN for iOS offers a choice between several DNS servers, each with their own special qualities. For example, AdGuard DNS removes ads and protects your device from tracking while AdGuard DNS Family Protection combines the functions of AdGuard DNS with SafeSearch and adult content blocking. DNS servers by different DNS providers may also work faster or slower depending on your location, ISP, and other factors. Choose the one that works best for you. You can find out more about DNS and its characteristics [in this article](https://kb.adguard.com/en/general/dns-filtering#what-is-dns).
+DNS(Domain name system, 도메인 이름 시스템)의 목적은 DNS 서버를 통해 웹사이트 이름을 IP 주소로 변환하는 것입니다. iOS용 AdGuard VPN은 각각 특별한 품질을 가진 여러 DNS 서버를 제공합니다. 예를 들어, AdGuard DNS는 광고를 제거하고 기기가 추적되지 않도록 보호하며 AdGuard DNS 자녀 보호는 AdGuard DNS, 세이프 서치 및 성인 콘텐츠 차단 기능을 결합합니다. 다른 DNS 공급자의 DNS 서버는 위치, ISP 및 기타 요인에 따라 더 빠르게 또는 느리게 작동할 수 있습니다. 당신에게 딱 맞는 DNS를 선택하세요. [이 글](https://kb.adguard.com/en/general/dns-filtering#what-is-dns)에서 DNS 및 해당 특성에 대해 자세히 알아볼 수 있습니다.
 
-![DNS server screen](https://cdn.adguard.com/content/kb/vpn/ios/dns-server.png)
+![DNS 서버 화면](https://cdn.adguard.com/content/kb/vpn/ios/dns-server.png)
 
-### Wi-Fi auto-protection
+### Wi-Fi 자동 보호
 
-VPN will automatically turn on when the device connects to a Wi-Fi network.
+기기가 다음 Wi-Fi 네트워크에 연결되면 VPN이 자동으로 활성화됩니다.
 
-### Theme
+### 테마
 
-You can choose system default, dark or light theme of the app (available in iOS 13 and later versions).
+앱의 시스템 기본, 다크 및 라이트 테마를 적용할 수 있습니다(iOS 13 이상 버전에서 사용 가능).
 
-### Advanced settings
+### 고급 설정
 
-In the *Advanced settings* you can find two sections — Logging level and Diagnostic info. Concerning the first option it is not recommended to enable the Extended logging level unless requested by our support team. Diagnostic info, locally stored technical information about the device and connections (IP address, ID, ping, etc.), can be sent to us in case of any technical problems.
+*고급 설정*에서 로깅 수준 및 진단 정보를 찾을 수 있습니다. 지원 팀에서 분명히 이를 요청하지 않은 경우, 고급화된 로깅 수준으로 설정하지 마십시오. 기술적인 문제가 있는 경우, 진단 정보(예: 기기 및 연결(IP 주소, ID, 핑 등)에 대한 로컬로 저장된 기술 정보)를 당사로 보낼 수 있습니다.
 
-## Quick Actions (available in iOS 13 or later)
+## 퀵액션(iOS 13 이상 버전에서 사용 가능)
 
-To access this feature, touch and hold the app icon, then lift your finger. You'll see a list of Quick Actions: Connect/Disconnect to the currently selected server, Choose location to select a new server location. You can also, of course, access all default actions like removing the app or moving the app icon around.
+이 기능을 이용하려면 AdGuard VPN의 앱 아이콘을 길게 터치한 다음 손가락을 뗍니다. 현재 서버에서 연결/연결 해제 및 위치 선택과 같은 퀵액션 목록이 표시됩니다. 물론 앱 제거 또는 앱 아이콘 이동과 같은 기본 액션에 액세스할 수도 있습니다.
 
-![Quick actions](https://cdn.adguard.com/content/kb/vpn/ios/quick-actions.png)
+![퀵액션](https://cdn.adguard.com/content/kb/vpn/ios/quick-actions.png)
 
 
-## Support
+## 고객 지원
 
-The users' accomplishment is the high priority for us. So there is a variety of helping features in the app (press the *Settings* button at the bottom right and then *Support*): you can see the FAQ section, report a bug, leave feedback, discuss your problems and suggestions on our forum, in social networks, or on GitHub, rate AdGuard VPN for iOS in the App Store and export logs.
+저희는 사용자 만족도를 최우선으로 생각합니다 따라서 앱에는 다양한 도움말 기능이 있습니다(오른쪽 하단의 ⚙ *설정* → *고객 지원*). FAQ 섹션을 확인하고, 버그를 신고하고, 피드백을 남길 수 있습니다. 그리고 포럼, SNS 또는 GitHub에서 문제와 제안에 대해 논의하고, App Store에서 iOS용 AdGuard VPN을 평가하고, 로그를 내보낼 수 있습니다.
 
-![Support](https://cdn.adguard.com/content/kb/vpn/ios/support.png)
+![고객 지원](https://cdn.adguard.com/content/kb/vpn/ios/support.png)
 
-## Subscription
+## 구독
 
-If you are using the free version of AdGuard VPN, there will be the fourth tab with an arrow icon on the bottom tab bar. In this section you will find brief information about the main advantages of the paid version of the app and will be able to buy a subscription.
+AdGuard VPN 무료 버전을 사용하는 경우 하단 탭 표시줄에 화살표 아이콘이 있는 네 번째 탭이 있습니다. 이 섹션에서는 앱 유료 버전의 주요 이점에 대한 정보를 확인하고 구독을 구매할 수 있습니다.
 
-![Subscription](https://cdn.adguard.com/content/kb/vpn/ios/subscription_en.png?123)
+![구독](https://cdn.adguard.com/content/kb/vpn/ios/subscription_en.png?123)

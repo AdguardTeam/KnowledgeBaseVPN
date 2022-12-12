@@ -112,11 +112,11 @@
     "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.docs.versions.unreleasedVersionLabel": {
-    "message": "Bu, {siteTitle} {versionLabel} sürümü için yayınlanmamış belgelerdir.",
+    "message": "Bu, {siteTitle} {versionLabel} sürümü için yayınlanmamış dokümanlardır.",
     "description": "The label used to tell the user that he's browsing an unreleased doc version"
   },
   "theme.docs.versions.unmaintainedVersionLabel": {
-    "message": "Bu, artık aktif olarak sürdürülmeyen {siteTitle} {versionLabel} için belgedir.",
+    "message": "Bu, artık aktif olarak sürdürülmeyen {siteTitle} {versionLabel} için dokümanlardır.",
     "description": "The label used to tell the user that he's browsing an unmaintained doc version"
   },
   "theme.docs.versions.latestVersionSuggestionLabel": {
@@ -295,7 +295,7 @@
     "description": "String used for free GB promo in sticky bar"
   },
   "Install": {
-    "message": "Kur",
+    "message": "Yükle",
     "description": "String used for free GB promo in sticky bar"
   },
   "sticky_bar.btn.baloon.text": {
@@ -319,7 +319,7 @@
     "description": "Sticky bar btn text with label Google Play"
   },
   "sticky_bar.btn.text.install": {
-    "message": "Kur",
+    "message": "Yükle",
     "description": "Sticky bar btn text with label Install"
   }
 }

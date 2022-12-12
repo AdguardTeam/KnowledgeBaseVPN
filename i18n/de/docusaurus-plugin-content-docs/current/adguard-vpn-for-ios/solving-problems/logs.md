@@ -1,40 +1,40 @@
 ---
-title: How to collect and send logs
+title: Wie man Protokolle sammelt und versendet
 sidebar_position: 2
 ---
 
-If you encounter a problem when using AdGuard VPN for iOS, you can inform us about it by sending application logs.
+Wenn Sie bei der Nutzung von AdGuard VPN für iOS auf ein Problem stoßen, informieren Sie uns darüber. Dazu können Sie uns Anwendungsprotokolle schicken.
 
-## Collecting and sending standard logs
+## Sammeln und Senden von Standardprotokollen
 
-By default, AdGuard VPN for iOS uses the standard logging level, that is, the basic collection of data about running processes of the app. To send these logs, follow the next steps:
+Standardmäßig verwendet AdGuard VPN für iOS die Protokollierungsebene Standard, d. h. die grundlegende Sammlung von Daten über laufende Prozesse der App. Um diese Protokolle zu senden, machen Sie Folgendes:
 
-1. Open AdGuard VPN for iOS and, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
+1. Öffnen Sie AdGuard VPN für iOS und wiederholen Sie nach Möglichkeit die Aktionen, die zum Fehler geführt haben. Notieren Sie den genauen Zeitpunkt, zu dem dieser Fehler aufgetreten ist.
 
-2. Select "Settings" in the lower-right corner of the screen, then select "Support" and click "Report a bug" in it.
+2. Wählen Sie „Einstellungen“ in der unteren rechten Ecke des Bildschirms, dann „Support“ und klicken Sie darin auf „Support kontaktieren“.
 
-3. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred. If you can't reproduce the problem, specify as accurately as possible when it last occurred.
+3. Geben Sie im geöffneten Formular Ihre E-Mail-Adresse für Feedback ein und beschreiben Sie den gefundenen Fehler, einschließlich des Zeitpunkts, zu dem dieser Fehler aufgetreten ist. Wenn Sie das Problem nicht reproduzieren können, geben Sie so genau wie möglich an, wann es zuletzt aufgetreten ist.
 
-4. There is a check mark next to the "Send detailed system info", which means that when you send a report, you also send logs.
-> If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, select "Export logs" in the "Support" section.
+4. Neben „Detaillierte Systeminformationen senden“ ist ein Häkchen gesetzt, d. h., wenn Sie einen Bericht senden, senden Sie auch Protokolle.
+> Wenn es für Sie aus irgendeinem Grund bequemer ist, uns Protokolle auf andere Weise zu senden, können Sie sie selbst exportieren. Wählen Sie dazu im Bereich „Support“ die Option „Protokolle exportieren“.
 
-## Collecting and sending extended logs
+## Sammeln und Senden erweiterter Protokolle
 
-In most cases, the default logging level is sufficient to trace down possible bugs. But there are cases when more detailed technical information about the device and connections is required, and then our support team will ask you to enable the extended logging level. To send this type of logs, follow these steps:
+In den meisten Fällen reicht die Protokollierungsebene Standard aus, um mögliche Fehler aufzuspüren. Es gibt jedoch Fälle, in denen detailliertere technische Informationen über das Gerät und die Verbindungen erforderlich sind und unser Support-Team Sie dann auffordert, die Erweiterte Protokollierungsebene zu aktivieren. Um diese Protokolle zu senden, machen Sie Folgendes:
 
-1. Open AdGuard VPN for iOS and select "Settings" in the lower-right corner of the screen.
+1. Öffnen Sie AdGuard VPN für iOS und wählen Sie „Einstellungen“ in der unteren rechten Ecke des Bildschirms.
 
-2. Select "App settings" and "Advanced settings" in it.
+2. Wählen Sie darin „App-Einstellungen“ und „Erweiterte Einstellungen“ aus.
 
-3. In the "Logging level" section, select "Extended".
+3. Wählen Sie im Abschnitt „Protokollierungsebene“ die Option „Erweitert“.
 
-4. Repeat the actions that led to the error, and note the time when it occurred.
+4. Wiederholen Sie die Aktionen, die zu dem Fehler geführt haben, und notieren Sie den Zeitpunkt, zu dem er aufgetreten ist.
 
-5. Switch the logging level back to "Default".
+5. Stellen Sie die Protokollierungsebene wieder auf „Standard“.
 
-6. Then go back to the main section "Settings", select "Support" and then "Report a bug".
+6. Gehen Sie dann zurück zum Hauptbereich „Einstellungen“, wählen Sie „Support“ und dann „Support kontaktieren“.
 
-7. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred.
+7. Geben Sie im geöffneten Formular Ihre E-Mail-Adresse für Feedback ein und beschreiben Sie den gefundenen Fehler, einschließlich des Zeitpunkts, zu dem dieser Fehler aufgetreten ist.
 
-8. Make sure that there is a check mark next to "Submit detailed system info" and click "Submit a report".
-> If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, select "Export logs" in the "Support" section.
+8. Stellen Sie sicher, dass neben „Detaillierte Systeminformationen senden“ ein Häkchen gesetzt ist, und klicken Sie auf „Feedback senden“.
+> Wenn es für Sie aus irgendeinem Grund bequemer ist, uns Protokolle auf andere Weise zu senden, können Sie sie selbst exportieren. Wählen Sie dazu im Bereich „Support“ die Option „Protokolle exportieren“.
