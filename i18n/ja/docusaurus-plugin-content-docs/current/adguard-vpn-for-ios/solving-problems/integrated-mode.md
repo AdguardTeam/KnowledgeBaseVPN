@@ -1,18 +1,18 @@
 ---
-title: Compatibility with AdGuard Ad Blocker
+title: AdGuard広告ブロッカーとの併用モード
 sidebar_position: 3
 ---
 
-AdGuard VPN has two operating modes — General and Integrated one. General mode is enabled by default and uses [AdGuard VPN protocol](/general/adguard-vpn-protocol.mdx). It provides the best combination of connection speed and security.
+AdGuard VPNには、標準モードと併用モードという2つの動作モードがあります。 デフォルトでは「標準」動作モードが有効になっており、このモードでは独自開発の[AdGuard VPNプロトコル](/general/adguard-vpn-protocol.mdx)が使用されています。 このプロトコルは、接続速度とセキュリティの最適なコンビネーションを提供します。
 
-However, this operating mode does not allow AdGuard VPN and AdGuard Ad Blocker to work simultaneously.
+しかし、この動作モードでは、AdGuard VPNとAdGuard広告ブロッカーを同時に動作させることはできません。
 
-In Integrated mode, in turn, the IPsec protocol is used, which makes it possible for the AdGuard applications to work together. If you already have AdGuard Ad Blocker when installing AdGuard VPN, this mode will turn on automatically and allow you to use our applications at the same time. If you installed AdGuard VPN first and only then decided to try AdGuard Ad Blocker, follow these steps to use two apps together:
+一方、「併用」モードでは、IPsecプロトコルを使用し、AdGuard広告ブロッカーアプリとの連携が可能になります。 AdGuard VPNのインストール時に、すでにAdGuard広告ブロッカーをインストールしている場合は、併用モードは自動的にオンになり、両方のアプリを同時に使用できるようになります。 AdGuard VPNを先にインストールし、その後AdGuard広告ブロッカーを利用することにした場合は、以下の手順で両アプリを併用することができます。
 
-1. Open AdGuard VPN for iOS and select "Settings" in the lower-right corner of the screen.
+1. AdGuard VPN for iOS を開き、メイン画面右下の⚙「設定」を選択します。
 
-2. Go to "App settings" and select "Operating mode".
+2. 「アプリの設定」→「動作モード」へ移動します。
 
-3. Switch the mode from *General* to *Integrated*. Done!
+3. モードを「*標準*」から「*併用*」に切り替えてください。 これで完了です。
 
-> Note that in **Integrated** mode you can't use the Exclusions feature or the DNS server feature.
+> ※**併用** モードでは、「VPN対象外リスト」機能を使用したり、DNSサーバーを選択することができません。

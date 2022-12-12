@@ -1,11 +1,11 @@
 ---
-title: How VPN works
+title: Cách thức hoạt động của VPN
 sidebar_position: 1
 ---
 
-To understand how AdGuard VPN works, you should at first understand the general principles of the VPN service.
+Để hiểu cách AdGuard VPN hoạt động, trước tiên bạn nên hiểu các nguyên tắc chung của dịch vụ VPN.
 
-## VPN features
+## Các tính năng của VPN
 
 A VPN is a Virtual Private Network that helps hide your location and protect your data on the web. A VPN connects a computer or a mobile device to a VPN server and uses the IP address of this server to make it seem to an outside observer that you are in another place. This allows you to securely access various Internet resources and protect your personal data.
 

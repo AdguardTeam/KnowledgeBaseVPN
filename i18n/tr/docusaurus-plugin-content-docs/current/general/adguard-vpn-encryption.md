@@ -21,8 +21,8 @@ Bugün, AES şifreleme için endüstri standardıdır. Açık doğası nedeniyle
 
 AES, simetrik anahtarlı bir blok şifredir. Simetrik anahtar şifresi olarak, verileri şifrelemek ve şifresini çözmek için yalnızca bir gizli anahtar gerektirir. Bir blok şifresi olarak AES, düz metin adı verilen şifrelenmemiş bilgiyi bloklara böler, orijinal kriptografik anahtarı birkaç taneye böler ve bunları her bloğa uygular. Sonunda bir şifreli metin, yani şifrelenmiş bir metin elde edilir.
 
-Farklı anahtar boyutları vardır — 128, 192 ve 256 bit — ve bloklar da bit cinsinden ölçülür. Şifreleme işlemi sırasında, şifreleyici, güvenlik anahtarına bağlı olarak her bilgiyi bir başkasıyla değiştirir. So, for example, AES-256 creates 256 blocks of ciphertext from 256 blocks of plaintext in 14 rounds.
+Farklı anahtar boyutları vardır — 128, 192 ve 256 bit — ve bloklar da bit cinsinden ölçülür. Şifreleme işlemi sırasında, şifreleyici, güvenlik anahtarına bağlı olarak her bilgiyi bir başkasıyla değiştirir. Bu nedenle, örneğin, AES-256, 14 turda 256 blok düz metinden 256 blok şifreli metin oluşturur.
 
-The rounds consist of several steps: splitting the data into blocks, swapping bytes, shifting rows and rearranging columns. Sonuç, yalnızca bir şifreleme anahtarıyla anlamlı olacak tamamen rastgele bir karakter kümesidir.
+Turlar birkaç adımdan oluşur: verileri bloklara ayırma, baytları değiştirme, satırları kaydırma ve sütunları yeniden düzenlemek. Sonuç, yalnızca bir şifreleme anahtarıyla anlamlı olacak tamamen rastgele bir karakter kümesidir.
 
 AES-256 en güçlü şifreleme düzeyidir: Bu şifreyi kırmak için kötü bir oyuncunun her biri 78 basamaktan oluşan 2256 ayrı kombinasyonu denemesi gerekir.

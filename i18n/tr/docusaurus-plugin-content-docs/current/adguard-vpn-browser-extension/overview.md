@@ -28,9 +28,9 @@ DNS sunucularını çeşitli sağlayıcılardan [hakkında daha fazla bilgi edin
 
 Bir sonraki sekme, AdGuard VPN'in ana ayırt edici özelliklerinden birini içerir – ayrı istisna listelerine sahip iki mod.
 
-**Normal mod**, AdGuard VPN varsayılan olarak istisnalar listesine eklediğiniz web siteleri hariç tüm web sitelerinde çalışır. **Seçici mod**, tam tersi, AdGuard VPN varsayılan olarak hiçbir yerde çalışmaz. **Normal modda** gördüğünüzden ayrı olarak, çalışmasını istediğiniz siteleri bir istisna listesine ekleyebilirsiniz.
+**Normal modda**, AdGuard VPN varsayılan olarak istisna listelerine eklediğiniz siteler dışında tüm sitelerde çalışır. **Seçici modda** tam tersi, AdGuard VPN varsayılan olarak hiçbir yerde çalışmaz. **Normal modda** gördüğünüzden ayrı olarak, çalışmasını istediğiniz siteleri bir istisna listesine ekleyebilirsiniz.
 
-Hariç tutulanlar listesine bir site eklerken, siteyi elle yazabilir veya **Listeden** seçeneğini seçebilirsiniz. İkinci durumda, sekiz kategori görürsünüz (ör. *Alışveriş*, *Messengers*, vb.), Her biri birkaç popüler hizmet öneriyor. Bu hizmetlerden herhangi birini tek bir tıklamayla hariç tutabilirsiniz ve bu işlem, söz konusu hizmetle ilgili tüm alanları istisnalara ekler.
+İstisna listesine bir site eklerken, siteyi elle yazabilir veya **Listeden** seçeneğini seçebilirsiniz. İkinci durumda, sekiz kategori görürsünüz (ör. *Alışveriş*, *Messengers*, vb.), Her biri birkaç popüler hizmet öneriyor. Bu hizmetlerden herhangi birini tek bir tıklamayla hariç tutabilirsiniz ve bu işlem, söz konusu hizmetle ilgili tüm alanları istisnalara ekler.
 
 ### İçe ve dışa aktarma
 

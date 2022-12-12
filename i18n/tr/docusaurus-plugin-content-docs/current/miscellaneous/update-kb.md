@@ -5,11 +5,11 @@ sidebar_position: 3
 
 Bu Bilgi Tabanının amacı, herkese AdGuard VPN ile ilgili her türlü konuda en güncel bilgileri sağlamaktır. Ancak işler sürekli değişiyor ve bazen bir makale artık mevcut durumu yansıtmıyor — her bir bilgi parçasını göz önünde bulunduracak ve yeni sürümler yayınlandığında buna göre güncelleyecek çok fazla insan yok.
 
-Bu nedenle, tüm BT içeriğimizi [GitHub](https://github.com/AdguardTeam/KnowledgeBaseVPN)'a yerleştirdik ve şimdi kelimenin tam anlamıyla herkes, mevcut makalelere ve tamamen yeni makalelere düzenlemeler ve çeviriler önererek katkıda bulunabilir.
+Bu nedenle, tüm Bilgi Tabanı içeriğimizi [GitHub'a](https://github.com/AdguardTeam/KnowledgeBaseVPN) yerleştirdik ve artık herkes, mevcut makalelerin yanı sıra tamamen yeni makaleler için düzenlemeler ve çeviriler önererek kelimenin tam anlamıyla ona katkıda bulunabilir.
 
 ## Bir değişiklik önerme veya yeni bir makale yazma {#suggest-change}
 
-Yukarıda bahsedilen GitHub'ın işlevselliğini kullanarak mevcut makalelerde değişiklik önerebilir ve Bilgi Tabanına yenilerini ekleyebilirsiniz. Platformla çalışma ilkelerine aşina değilseniz, [bu bölümdeki belgeleri](https://docs.github.com/en) okuyarak başlayın.
+Yukarıda bahsedilen GitHub'ın işlevselliğini kullanarak mevcut makalelerde değişiklik önerebilir ve Bilgi Tabanına yenilerini ekleyebilirsiniz. Platformla çalışma ilkelerine aşina değilseniz, [bu bölümdeki dokümanları](https://docs.github.com/en) okuyarak başlayın.
 
 Başlamaya hazır olduğunuzda, [KnowledgeBaseVPN deposunda](https://github.com/AdguardTeam/KnowledgeBaseVPN) çalışın. Bilgi Tabanımızdaki tüm metinler `Markdown` işaretleme dilinde yazılmıştır. Makaleleri düzenlerken veya yazarken bunu aklınızda bulundurun. Markdown söz dizimi hakkında daha fazla bilgi edinmek için [bu bağlantıyı](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) takip edin.
 

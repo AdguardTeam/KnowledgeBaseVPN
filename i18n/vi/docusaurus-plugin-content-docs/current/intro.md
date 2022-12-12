@@ -1,83 +1,83 @@
 ---
-title: AdGuard VPN Overview
+title: Tổng quan về AdGuard VPN
 sidebar_position: 1
 slug: /
 ---
 
-## What a VPN is and why you need one
+## VPN là gì và tại sao bạn lại cần đến
 
-A VPN allows you to create a secure connection to another network on the Internet.
+VPN cho phép bạn kết nối an toàn tới các mạng khác trên Internet.
 
-Initially, VPNs were created for one purpose — to securely connect business networks over the Internet, so that people could connect to the corporate network from home. This technology is used for many other things: for example, to browse the Internet anonymously or to protect your online activity from prying eyes while using public Wi-Fi.
+Ban đầu, VPN được sinh ra vì một mục đích — giúp kết nối an toàn các mạng của doanh nghiệp trên Internet, để các thành viên có thể kết nối đến mạng của cơ quan mình từ nhà. Công nghệ này được sử dụng cho nhiều mục đích khác nhau: ví dụ: để lướt Internet ẩn danh hoặc để bảo vệ hoạt động trực tuyến của bạn khỏi những con mắt tò mò khi sử dụng Wi-Fi công cộng.
 
-A VPN connects a user's computer or mobile device to a server and allows one to browse the net using someone else's IP address. Thus, third-party observers cannot see the user's real IP address, which makes it nearly impossible to trace them.
+VPN kết nối máy tính hoặc thiết bị di động của người dùng tới máy chủ và cho phép người dùng duyệt mạng bằng địa chỉ IP của người khác. Do đó, bên quan sát thứ ba không thể nhìn thấy địa chỉ IP thực của người dùng, điều này khiến cho việc theo dõi người dùng gần như không thể.
 
-Speaking of VPN, the first thing they mention is traffic encryption and security deriving from it. But what does it mean? A VPN creates an encrypted tunnel between the user's device and the remote server. All your web traffic passes through this tunnel, so your data is protected along the way. For the external observer, your traffic exits the VPN server, so it looks like your device has the IP address of this server. This trick masks the user's identity and true location.
+Nói đến VPN, điều đầu tiên được đề cập đến là lưu lượng mã hóa và mức bảo mật của nó. Vậy những điều này có nghĩa gì? VPN tạo một "đường hầm" mã hóa giữa thiết bị của người dùng và máy chủ. Tất cả lưu lượng truy cập web của bạn đi qua đường hầm này, vì vậy dữ liệu của bạn được bảo vệ trên đường đi. Đối với người quan sát bên ngoài, lưu lượng truy cập của bạn xuất phát từ máy chủ VPN, vì vậy có vẻ như thiết bị của bạn có địa chỉ IP của máy chủ này. Thủ thuật này che giấu danh tính và vị trí thực của người dùng.
 
-VPN can be used to:
+VPN có thể được sử dụng để:
 
-* hide your real whereabouts and stay anonymous
-* secure your data — even when connecting to a public Wi-Fi, you can browse the Web safely
-* protect yourself from spoofing (network traffic interception) and tracking on the part of your Internet service provider
+* Ẩn vị trí thực của bạn và ẩn danh
+* Bảo mật dữ liệu của bạn — ngay cả khi kết nối với Wi-Fi công cộng, bạn vẫn có thể duyệt Web an toàn
+* Bảo vệ bạn khỏi tấn công giả mạo (chặn lưu lượng truy cập mạng) và theo dõi từ phía nhà cung cấp dịch vụ Internet của bạn
 
-Passwords, card details, and just plain personal information are at risk when a user surfs the Internet. But if you connect to the global network using a VPN, you can be sure that no one can intercept your data.
+Mật khẩu, thông tin thẻ và thông tin cá nhân cơ bản đều có nguy cơ gặp rủi ro khi người dùng "lướt" Internet. Nhưng nếu bạn kết nối với mạng toàn cầu bằng VPN, bạn có thể chắc chắn rằng không ai có thể chặn dữ liệu của bạn.
 
-## Why AdGuard VPN
+## Tại sao nên chọn AdGuard VPN
 
-### Trusted developer
-AdGuard has been present on the market of personal data protection and ad blocking and developing its line of software for more than 12 years. Over this time, our company has built an impeccable reputation, and the number of our customers has exceeded 30 million.
+### Nhà phát triển tin cậy
+AdGuard đã có mặt trên thị trường bảo vệ dữ liệu cá nhân và chặn quảng cáo cũng như phát triển dòng phần mềm của mình trong hơn 12 năm qua. Trong thời gian này, công ty chúng tôi đã tạo dựng được danh tiếng hoàn hảo với hơn 30 triệu khách hàng.
 
-### Unique VPN protocol
-The main difference between AdGuard VPN and its competitors is that we use [our own developed protocol](/general/adguard-vpn-protocol.mdx). It disguises itself as normal traffic, so it is much more difficult to track and block it.
+### Giao thức VPN độc đáo
+Sự khác biệt chính giữa AdGuard VPN và các đối thủ cạnh tranh là chúng tôi sử dụng [giao thức tự phát triển](/general/adguard-vpn-protocol.mdx). Ngụy trang bản thân thành lưu lượng truy cập bình thường, khiến việc theo dõi và chặn sẽ khó khăn hơn nhiều.
 
-### No logs policy
-No logs policy means that we don’t collect, store or transfer users’ personal data to third parties. The full text of AdGuard privacy policy can be found [here](https://adguard-vpn.com/en/privacy.html).
+### Chính sách không lưu nhật ký
+Chính sách không lưu nhật ký có nghĩa là chúng tôi không thu thập, lưu trữ hoặc chuyển dữ liệu cá nhân của người dùng cho bên thứ ba. Có thể tìm thấy toàn văn chính sách quyền riêng tư của AdGuard [tại đây](https://adguard-vpn.com/en/privacy.html).
 
-### Tracking protection
-Web traffic from any user may be of interest and is particularly valuable in terms of monetization of personal data. Both criminals and unscrupulous ISPs can access it. However, with a trustworthy VPN, you can be confident that neither your provider nor anyone else will see your internet activity.
+### Chống theo dõi
+Lưu lượng truy cập web từ bất kỳ người dùng nào cũng có thể bị để mắt đến và đặc biệt có giá trị đối với các phương thức kiếm tiền từ dữ liệu cá nhân. Cả tội phạm và các nhà cung cấp dịch vụ internet (ISP) vô đạo đức đều có thể truy cập các dữ liệu này. Tuy nhiên, với một dịch vụ VPN đáng tin, bạn có thể yên tâm rằng cả nhà cung cấp của bạn và bất kỳ ai khác đều sẽ không thể thấy hoạt động internet của bạn.
 
-### Ultrafast VPN servers in 43 countries
+### Máy chủ VPN siêu tốc ở 43 quốc gia
 
 * Argentina
-* Australia
-* Austria
-* Belgium
+* Úc
+* Áo
+* Bỉ
 * Brazil
-* Bulgaria
-* Cambodia
+* Bulgari
+* Campuchia
 * Canada
-* China
-* Czech Republic
-* Denmark
-* Egypt
-* Finland
-* France
-* Germany
-* Greece
-* India
+* Trung Quốc
+* Cộng hòa Séc
+* Đan mạch
+* Ai Cập
+* Phần Lan
+* Pháp
+* Đức
+* Hy Lạp
+* Ấn Độ
 * Ireland
 * Israel
-* Italy
-* Japan
+* Ý
+* Nhật Bản
 * Luxembourg
 * Mexico
-* Netherlands
-* Norway
+* Hà Lan
+* Na Uy
 * Philippines
-* Poland
+* Ba Lan
 * Romania
-* Russia
+* Nga
 * Serbia
 * Singapore
-* South Africa
-* South Korea
-* Spain
-* Sweden
-* Switzerland
-* Taiwan
-* Turkey
-* United Kingdom
-* UAE
-* USA
-* Ukraine
-* Vietnam
+* Nam Phi
+* Hàn Quốc
+* Tây Ban Nha
+* Thụy Điển
+* Thụy Sĩ
+* Đài Loan
+* Thổ Nhĩ Kỳ
+* Vương quốc Anh
+* Các Tiểu vương quốc Ả Rập Thống nhất
+* Hoa Kỳ
+* Ukraina
+* Việt Nam
