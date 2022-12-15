@@ -3,42 +3,42 @@ title: Features overview
 sidebar_position: 1
 ---
 
-AdGuard VPN for Mac is a desktop VPN service. AdGuard VPN is fully compatible with AdGuard Ad Blocker, they can be used together and will operate seamlessly. Let’s see what features it has to offer.
+O AdGuard VPN para Mac é um serviço VPN de desktop. O AdGuard VPN é totalmente compatível com o AdGuard Ad Blocker, eles podem ser usados juntos e funcionarão perfeitamente. Vamos ver quais recursos ele tem a oferecer.
 
-Note that **you can't use AdGuard VPN for Mac unless you have logged into your AdGuard account**. You can either sign in with your AdGuard account or with an external account, namely, via Apple, Google or Facebook. Make sure that your external account is bound to the same e-mail address as your AdGuard account. If there is a suitable subscription in your AdGuard account, it will be automatically activated on the desktop app. Still don't have an AdGuard account? Create it [here](https://auth.adguard.com/registration.html).
+Note that **you can't use AdGuard VPN for Mac unless you have logged into your AdGuard account**. Você pode entrar com sua conta AdGuard ou com uma conta externa, ou seja, via Apple, Google ou Facebook. Certifique-se de que sua conta externa esteja vinculada ao mesmo endereço de e-mail da sua conta do AdGuard. Se houver uma assinatura adequada em sua conta do AdGuard, ela será ativada automaticamente no aplicativo de desktop. Ainda não tem uma conta AdGuard? Create it [here](https://auth.adguard.com/registration.html).
 
 > AdGuard VPN for Mac is currently supported on macOS versions starting from macOS Sierra (10.12).
 
-## Home screen
+## Tela inicial
 
 ![Home screen](https://cdn.adguard.com/public/Adguard/Blog/mac-vpn-main.png)
 
-The first tab is the *Home* screen. Here you can see AdGuard VPN current status and [operating mode](#exclusions), chosen location (if enabled) and its ping. Ping is the response time of a VPN server. Consequently, the lower this number is, the faster the connection. If VPN is disabled, the last location you connected to is displayed below. The fastest locations with the lowest pings are displayed in the upper right corner of the screen. Below you can see the full list of locations. Through the search function, the needed location can be easily found.
+A primeira guia é a Tela *Inicial*. Here you can see AdGuard VPN current status and [exclusions mode](#exclusions), chosen location (if enabled) and its ping. Ping é o tempo de resposta de um servidor VPN. Consequentemente, quanto mais baixo for esse número, mais rápida será a conexão. Se a VPN estiver desativada, o último local ao qual você se conectou é exibido abaixo. Os locais mais rápidos com os pings mais baixos são exibidos no canto superior direito da tela. Abaixo pode ver a lista completa dos locais. Através da função de pesquisa, o local necessário pode ser facilmente encontrado.
 
-> Free users can connect only to certain locations, while others are blocked. Besides, there is a 3 GB monthly traffic limit in the free version.
+> Usuários gratuitos podem se conectar apenas a determinados locais, enquanto outros são bloqueados. Além disso, há um limite de tráfego mensal de 3 GB na versão gratuita.
 
-## Exclusions
+## Exclusões
 
 ![Exclusions](https://cdn.adguard.com/public/Adguard/Blog/vpn/release/VPN_for_Mac/exclusions.png)
 
-Next goes the *Exclusions* screen. AdGuard VPN has several features that make it unique, and one of them is certainly switching between two operating modes. In the Regular mode, AdGuard VPN will run on all websites but the ones from the exclusions list. In the Selective mode, conversely, AdGuard VPN will run only on websites from the exclusions list. You yourself can decide where you want VPN to work.
+Em seguida, vem a tela *Exclusões*. AdGuard VPN has several features that make it unique, and one of them is certainly switching between two exclusions modes. In the General mode, AdGuard VPN will run on all websites but the ones from the exclusions list. No modo Seletivo, por outro lado, o AdGuard VPN será executado somente em sites da lista de exclusões. Você mesmo pode decidir onde deseja que a VPN funcione.
 
 ![Exclusions screen](https://cdn.adguard.com/public/Adguard/Blog/services.png)
 
-Also you can not only add websites to Exclusions but also choose among the lists of popular services. The lists are divided into eight categories: Social networks, Messengers, Video and Music streaming services, Games, Shopping, Search engines, and Work communication tools. Any of these services can be added to Exclusions in one click! It's especially convenient if you use Selective mode.
+Além disso, você pode não somente adicionar sites às Exclusões, mas também escolher entre as listas de serviços populares. As listas estão divididas em oito categorias: Redes sociais, Mensageiros, Serviços de streaming de vídeo e música, Jogos, Compras, Mecanismos de Pesquisa e Ferramentas de comunicação no trabalho. Qualquer um desses serviços pode ser adicionado às Exclusões em um clique! É especialmente conveniente se você usar o modo seletivo.
 
-Exclusion list can be easily configured. If you've added a domain and some of its subdomains, they'll be grouped inside the root one. When adding a root domain (`example.com`) its mask is added too (`*.example.com`).
+A lista de exclusão pode ser facilmente configurada. Se você adicionou um domínio e alguns de seus subdomínios, eles serão agrupados dentro do domínio raiz. When adding a root domain (`example.com`) its mask is added too (`*.example.com`).
 
 If you've added a service, changed or removed something and now want to recover initial settings, just press *Reset to default* next to the domain — this action will restore any missing domains and tick all checkboxes.
 
-What’s more, ready-made exclusions lists can be transferred to other devices with installed AdGuard VPN. To export exclusions, follow the four-step instruction below:
+What’s more, ready-made exclusions lists can be transferred to other devices with installed AdGuard VPN. Para exportar exclusões, siga as instruções de quatro etapas abaixo:
 
-1. Open AdGuard VPN on the device from where you want to export your lists of exclusions. Find the appropriate section and click on the *Export* button. The `exclusions.zip` archive will be downloaded.
-2. There are two `.txt` files inside the archive, each for Regular and Selective lists. Add more exclusions to them, delete the existing ones, rename files (but more on this later), or just leave the archive with files as it is.
+1. Abra o AdGuard VPN no dispositivo de onde você deseja exportar as suas listas de exclusões. Find the appropriate section and click on the *Export* button. The `exclusions.zip` archive will be downloaded.
+2. There are two `.txt` files inside the archive, each for General and Selective lists. Adicione mais exclusões a eles, exclua os existentes, renomeie os arquivos (mais sobre isso mais tarde) ou simplesmente deixe o arquivo com os arquivos como está.
 3. When transferring between different devices, don't forget to send the `.zip` file to the device for import. For example, if you import exclusion lists from your Mac to your iPhone, make sure to send the `.zip` file to your phone beforehand.
-4. Open AdGuard VPN on the device/in the browser where you want to import the archive with the ready lists of exclusions. Find the appropriate section, click on the *Import* button and select the archive. Done!
+4. Abra o AdGuard VPN no dispositivo/navegador onde deseja importar o arquivo com as listas de exclusões prontas. Find the appropriate section, click on the *Import* button and select the archive. Feito!
 
-> Archive files from other devices can be similarly imported to your AdGuard VPN for Mac.
+> Os ficheiros de arquivos de outros dispositivos podem ser semelhantemente importados ao seu AdGuard VPN para Mac.
 
 ## Support
 

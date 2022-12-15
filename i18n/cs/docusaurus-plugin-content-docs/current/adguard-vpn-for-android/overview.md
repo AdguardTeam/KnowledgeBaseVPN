@@ -38,7 +38,7 @@ Seznamy výjimek umožňují vybrat weby, pro které má být VPN zapnuta a pro 
 
 Existují dva režimy: v *Obecném režimu* jsou vyloučeny weby ze seznamu výjimek a v *Selektivním režimu* jsou to jen ty weby, kde AdGuard VPN funguje.
 
-Domény (např. `google.com`) nebo subdomény (např. `*.google.com`) webových stránek můžete do *Výjimek* přidat třemi způsoby: zadejte je ručně v aplikaci nebo přímo z prohlížeče kliknutím na tlačítko *Sdílet* a výběrem AdGuard VPN v otevřeném seznamu níže. Můžete je také přidávat z vestavěných seznamů služeb rozdělených podle kategorií.
+You can add domains (e.g. `google.com`) or subdomains (e.g. `*.google.com`) of websites to the *Exclusions* in three ways: enter them manually in the app, or right from the browser by clicking the *Share* button and selecting AdGuard VPN in the opened list below, or from built-in lists of services divided by categories.
 
 ![Výjimky](https://cdn.adguard.com/public/Adguard/kb/VPN/Screenshots/add_site_android.jpg)
 > Při ručním přidávání domén existují určité nuance. Pokud například ručně vyloučíte doménu `yahoo.com`, budou ve výjimkách uvedeny také všechny subdomény `*.yahoo.com`. Doménové názvy s ostatními doménami nejvyšší úrovně, jako je `yahoo.jp` nebo `yahoo.fr`, však vyloučeny nebudou. Nebo můžete do výjimek přidat `youtube.com`, ale doména stejné služby `youtu.be` se do seznamu nedostane. V tomto případě je bezpečnější použít vestavěné seznamy služeb, protože do nich vložíme všechny subdomény související s jednotlivými platformami.
@@ -104,9 +104,9 @@ Sekce *Provozní režim* umožňuje vybrat jednu ze tří možností: Režim VPN
 
 > Upozorňujeme, že některé funkce AdGuard VPN jsou v *Režimu kompatibility* zakázány: výběr DNS serveru, Kill Switch a automatická ochrana. Chcete-li spravovat tunelování aplikací, měli byste také otevřít blokátor reklam AdGuard.
 
-Další dvě sekce jsou *Úroveň záznamu* a *Diagnostické informace*. Pokud jde o první možnost, nedoporučujeme zapínat rozšířenou úroveň záznamu, pokud o to nepožádá náš tým podpory. Diagnostické informace, lokálně uložené technické informace o zařízení a připojeních (IP adresa, ID, ping atd.), nám mohou být zaslány v případě technických problémů.
+Další dvě sekce jsou *Úroveň záznamu* a *Diagnostické informace*. Concerning the first option, it is not recommended to enable the Extended or Extreme logging level unless requested by our support team. Diagnostické informace, lokálně uložené technické informace o zařízení a připojeních (IP adresa, ID, ping atd.), nám mohou být zaslány v případě technických problémů.
 
-Poslední částí v *Pokročilých nastaveních* jsou *Nízkoúrovňová nastavení*. Doporučujeme vám, abyste do této sekce nevstupovali, pokud nejste vysoce kvalifikovaní nebo pokud vás o to nepožádal náš tým podpory. Zde najdete několik možností, jak si AdGuard VPN ještě více přizpůsobit svým potřebám. Povolte ladění rozhraní TUN nebo protokolu IPv6 na rozhraní VPN, vyberte port proxy serveru nebo verzi internetového protokolu, který se má používat. — ale pouze pokud máte potřebné znalosti.
+Poslední částí v *Pokročilých nastaveních* jsou *Nízkoúrovňová nastavení*. Doporučujeme vám, abyste do této sekce nevstupovali, pokud nejste vysoce kvalifikovaní nebo pokud vás o to nepožádal náš tým podpory. Here it is possible to enable TUN interface logging or IPv6 protocol on the VPN interface, choose a proxy server port or Internet protocol version that should be used.
 
 ### Podpora
 

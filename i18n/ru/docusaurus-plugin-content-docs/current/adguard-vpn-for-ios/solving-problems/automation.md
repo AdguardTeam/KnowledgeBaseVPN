@@ -15,36 +15,36 @@ sidebar_label: Как автоматизировать работу AdGuard VPN
 Если вам нужен VPN для одного или нескольких приложений, настройте автоматическое включение и выключение AdGuard VPN при их открытии и закрытии. Откройте вкладку Исключения, выберите Основной режим и следуйте инструкциям. Здесь мы описываем, как создать автоматизацию для Twitter, но вы можете выбрать любое другое приложение.
 
 ![Инструкция. Часть 1](https://cdn.adguard.com/public/Adguard/Blog/VPNauto/vpn_on1_ru.jpg)
-* Скачайте из App Store [приложение *Быстрые команды*](https://apps.apple.com/ru/app/%D0%B1%D1%8B%D1%81%D1%82%D1%80%D1%8B%D0%B5-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B/id915249334) и перейдите в раздел *Автоматизация*, нажав на иконку с изображением часов внизу экрана.
-* Нажмите кнопку *Создать автоматизацию для себя*, далее в открывшемся списке найдите пункт *Приложение* и нажмите на него.
-* В следующем окне проверьте, поставлена ли галочка под параметром *Открыто* и нажмите на *Выбрать*.
+1. Download [the *Shortcuts* app](https://apps.apple.com/us/app/shortcuts/id915249334) from the App Store and go to the *Automation* section by tapping the clock icon at the bottom of the screen.
+2. Tap the *Create Personal Automation* button, then find *App* in the list that opens and tap it.
+3. In the next window, make sure that the *Is Opened* option is selected, and then tap *Choose* to choose the app.
 
 ![Инструкция. Часть 2](https://cdn.adguard.com/public/Adguard/Blog/VPNauto/vpn_on2_ru.jpg)
-* Начните вводить название приложения – в нашем случае это Twitter – и выберите его. Затем нажмите *Готово* в правом верхнем углу экрана. Нажмите *Далее* в правом верхнем углу экрана. В открывшемся окне нажмите *Добавить действие*.
+4. Start entering the name of the application, in our case it's Twitter, and select it. Then tap *Done* in the upper right corner of the screen. After it tap *Next* in the upper right corner of the screen. And in the opened window tap *Add Action*.
 
 ![Инструкция. Часть 3](https://cdn.adguard.com/public/Adguard/Blog/VPNauto/vpn_on3_ru.jpg)
 
-* Начните печатать «AdGuard VPN» и выберите приложение AdGuard VPN. В новом окне нажмите *Настроить VPN-соединение*.
+5. Start entering “AdGuard VPN” and select the AdGuard VPN app. In the new window tap *Set a VPN connection*.
 
-![Инструкция. Часть 4](https://cdn.adguard.com/public/Adguard/Blog/VPNauto/vpn_on4_en.jpg)
-* Убедитесь, что в переменных написано *Включить* VPN *соединение*, и нажмите *Далее*.
-* В следующем окне сместите ползунок напротив параметра *Спрашивать до запуска* в неактивное положение. Подтвердите свой выбор, затем нажмите *Готово*.
+![Инструкция. Часть 4](https://cdn.adguard.com/public/Adguard/Blog/VPNauto/vpn_on4_ru.jpg)
+6. Make sure the variables say *Turn* VPN connection *On* and tap *Next*.
+7. In the next window, move the slider next to the *Ask before running* option to the inactive position. Confirm your choice, the tap *Done*.
 
 У вас появился новый сценарий: AdGuard VPN будет автоматически включаться при запуске приложения Twitter. Теперь необходимо создать ещё одну команду, благодаря которой AdGuard VPN будет автоматически выключаться при закрытии приложения.
 
 ## Настройка автоматического выключения AdGuard VPN
 
-![Инструкция. Часть 1](https://cdn.adguard.com/public/Adguard/Blog/VPNauto/vpn_off1_en.jpg)
-* Всё в том же приложении *Быстрые команды* начните создавать новую автоматизацию: нажмите на *+* в правом верхнем углу экрана, затем *Создать автоматизацию для себя*. В открывшемся окне выберите *Приложение*.
-* Проверьте, поставлена ли галочка под параметром *Закрыто*, при этом галочку под соседним параметром необходимо снять. Нажмите *Выбрать*.
+![Инструкция. Часть 1](https://cdn.adguard.com/public/Adguard/Blog/VPNauto/vpn_off1_ru.jpg)
+1. In the same *Shortcuts* app start creating a new automation: click *+* in the upper right corner of the screen and then on the *Create Personal Automation* button. In the opened window choose *App*.
+2. Make sure that the *Is Closed* option is selected and uncheck the box under the adjacent option. Then tap *Choose*.
 
-![Инструкция. Часть 2](https://cdn.adguard.com/public/Adguard/Blog/VPNauto/vpn_off2_en.jpg)
-* Начните вводить *Twitter* и выберите приложение. Затем нажмите *Готово* в правом верхнем углу экрана. Нажмите *Добавить действие* и выберите AdGuard VPN.
+![Инструкция. Часть 2](https://cdn.adguard.com/public/Adguard/Blog/VPNauto/vpn_off2_ru.jpg)
+3. Start entering *Twitter* and select the app. Then tap *Done* in the upper right corner of the screen. Tap *Add Action* and select AdGuard VPN.
 
-![Инструкция. Часть 3](https://cdn.adguard.com/public/Adguard/Blog/VPNauto/vpn_off3_en.jpg)
+![Инструкция. Часть 3](https://cdn.adguard.com/public/Adguard/Blog/VPNauto/vpn_off3_ru.jpg)
 
-* В новом окне нажмите *Настроить VPN-соединение*.
-* Далее нажмите на слово *Включить*, чтобы оно поменялось на слово *Выключить*, затем нажмите *Далее* в верхнем правом углу экрана.
-* Отключите пункт *Спрашивать до запуска* и подтвердите свой выбор. Then tap *Done* at the top right corner of the screen to complete the process.
+4. In the new window tap *Set VPN connection*.
+5. Then tap the word *On* so that it changes to the word *Off*, then tap *Next* in the upper right corner of the screen.
+6. Disable the *Ask before running* option and confirm your selection. Then tap *Done* at the top right corner of the screen to complete the process.
 
 Готово! Теперь AdGuard VPN будет включаться на вашем устройстве каждый раз, когда вы будете открывать приложение Twitter, и отключаться при его закрытии. Все те же шаги вы можете повторить для любого другого приложения. 

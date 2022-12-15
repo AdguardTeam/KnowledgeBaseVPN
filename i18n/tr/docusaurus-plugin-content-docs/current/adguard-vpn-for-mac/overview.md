@@ -13,7 +13,7 @@ Mac için AdGuard VPN, bir masaüstü VPN hizmetidir. AdGuard VPN, AdGuard Rekla
 
 ![Ana ekran](https://cdn.adguard.com/public/Adguard/Blog/mac-vpn-main.png)
 
-İlk sekme *Ana* ekranıdır. Burada AdGuard VPN'nin mevcut durumunu ve [çalışma modunu](#exclusions), seçilen konumu (etkinleştirilmişse) ve pingini görebilirsiniz. Ping, bir VPN sunucusunun yanıt süresidir. Sonuç olarak, bu sayı ne kadar düşük olursa, bağlantı o kadar hızlı olur. VPN devre dışıysa, en son bağlandığınız konum aşağıda görüntülenir. En düşük pinge sahip en hızlı konumlar ekranın sağ üst köşesinde görüntülenir. Aşağıda konumların tam listesini görebilirsiniz. Arama fonksiyonu sayesinde, ihtiyaç duyulan konum kolayca bulunabilir.
+İlk sekme *Ana* ekranıdır. Here you can see AdGuard VPN current status and [exclusions mode](#exclusions), chosen location (if enabled) and its ping. Ping, bir VPN sunucusunun yanıt süresidir. Sonuç olarak, bu sayı ne kadar düşük olursa, bağlantı o kadar hızlı olur. VPN devre dışıysa, en son bağlandığınız konum aşağıda görüntülenir. En düşük pinge sahip en hızlı konumlar ekranın sağ üst köşesinde görüntülenir. Aşağıda konumların tam listesini görebilirsiniz. Arama fonksiyonu sayesinde, ihtiyaç duyulan konum kolayca bulunabilir.
 
 > Ücretsiz kullanıcılar yalnızca belirli konumlara bağlanabilir, diğerleri ise engellenir. Ayrıca ücretsiz sürümde aylık 3 GB veri sınırı bulunuyor.
 
@@ -21,7 +21,7 @@ Mac için AdGuard VPN, bir masaüstü VPN hizmetidir. AdGuard VPN, AdGuard Rekla
 
 ![İstisnalar](https://cdn.adguard.com/public/Adguard/Blog/vpn/release/VPN_for_Mac/exclusions.png)
 
-Sonraki *İstisnalar* ekranına gider. AdGuard VPN, onu benzersiz kılan çeşitli özelliklere sahiptir ve bunlardan biri kesinlikle iki çalışma modu arasında geçiş yapmaktır. Normal modda AdGuard VPN, istisna listesi dışındaki tüm sitelerde çalışır. Seçici modda tam tersine, AdGuard VPN yalnızca istisna listesindeki sitelerde çalışır. VPN'nin nerede çalışmasını istediğinize kendiniz karar verebilirsiniz.
+Sonraki *İstisnalar* ekranına gider. AdGuard VPN has several features that make it unique, and one of them is certainly switching between two exclusions modes. In the General mode, AdGuard VPN will run on all websites but the ones from the exclusions list. Seçici modda tam tersine, AdGuard VPN yalnızca istisna listesindeki sitelerde çalışır. VPN'nin nerede çalışmasını istediğinize kendiniz karar verebilirsiniz.
 
 ![İstisnalar ekranı](https://cdn.adguard.com/public/Adguard/Blog/services.png)
 
@@ -34,7 +34,7 @@ Bir hizmet eklediyseniz, bir şeyi değiştirdiyseniz veya kaldırdıysanız ve 
 Ayrıca, hazır istisna listeleri, AdGuard VPN'in kurulu olduğu diğer cihazlara aktarılabilir. İstisnaları dışa aktarmak için aşağıdaki dört adımlı talimatı takip edin:
 
 1. İstisnalar listenizi dışa aktarmak istediğiniz cihazda AdGuard VPN'i açın. Uygun bölümü bulun ve *Dışa aktar* düğmesine tıklayın. `exclusions.zip` arşivi indirilecektir.
-2. Arşivde, her biri Normal ve Seçici listeler için iki `.txt` dosyası vardır. Bunlara daha fazla istisna ekleyin, mevcut olanları silin, dosyaları yeniden adlandırın (ancak daha sonra bu konuda daha fazlası) veya arşivi olduğu gibi bırakın.
+2. There are two `.txt` files inside the archive, each for General and Selective lists. Bunlara daha fazla istisna ekleyin, mevcut olanları silin, dosyaları yeniden adlandırın (ancak daha sonra bu konuda daha fazlası) veya arşivi olduğu gibi bırakın.
 3. Farklı cihazlar arasında aktarım yaparken, `.zip` dosyasını içe aktarmak için cihaza göndermeyi unutmayın. Örneğin, istisna listeleri Mac'inizden iPhone'unuza aktarırsanız, `.zip` dosyasını önceden telefonunuza gönderdiğinizden emin olun.
 4. AdGuard VPN'i, hazır istisnaların listesiyle birlikte arşivi içe aktarmak istediğiniz cihazda veya tarayıcıda açın. Uygun bölümü bulun, *İçe aktar* düğmesine tıklayın ve arşivi seçin. Tamamlandı!
 

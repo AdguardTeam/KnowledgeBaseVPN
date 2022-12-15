@@ -8,9 +8,9 @@ sidebar position: 1
 If you encounter a problem when using AdGuard VPN for Windows, you can inform us about it. We would be grateful if you also send application logs our way, they help us resolving problems much quicker.
 
 
-## Collecting and sending standard logs
+## 일반 로그 수집 및 전송
 
-By default, AdGuard VPN for Windows uses the standard logging level, that is, the basic collection of data about running processes of the app. To send these logs, follow the next steps:
+기본적으로 Windows용 AdGuard VPN은 앱에서 실행 중인 프로세스에 대한 기본 정보를 수집하는 일반 로깅 수준을 사용합니다. To send these logs, follow the next steps:
 
 1. Open AdGuard VPN for Windows and, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
 

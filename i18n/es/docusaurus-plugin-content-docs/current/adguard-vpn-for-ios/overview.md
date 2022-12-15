@@ -27,7 +27,7 @@ Usar AdGuard VPN es bastante fácil. En la pantalla principal puede ver el botó
 
 ## Listas de exclusiones
 
-Usted puede encontrar la función de exclusión pulsando el botón central de abajo. Allí verá dos listas de exclusión - para los modos regular y selectivo. En el modo Regular, la VPN funciona en todos los sitios web excepto en los de la lista de exclusión. En el modo Selectivo, por el contrario, la VPN opera solo en los sitios de la lista. Se puede agregar dominios (p. ej., `google.com`) o subdominios (p. ej., `*.google.com`) de sitios web de dos maneras: puede ingresarlos manualmente en la aplicación o directamente desde el navegador haciendo clic en el botón *Compartir* y encontrando AdGuard VPN en la lista abierta a continuación.
+Usted puede encontrar la función de exclusión pulsando el botón central de abajo. There you will see two exclusion lists — for General and Selective Modes. In the General mode the VPN works on all websites except for the ones from the exclusion list. En el modo Selectivo, por el contrario, la VPN opera solo en los sitios de la lista. Se puede agregar dominios (p. ej., `google.com`) o subdominios (p. ej., `*.google.com`) de sitios web de dos maneras: puede ingresarlos manualmente en la aplicación o directamente desde el navegador haciendo clic en el botón *Compartir* y encontrando AdGuard VPN en la lista abierta a continuación.
 
 ![Exclusiones](https://cdn.adguard.com/content/kb/vpn/ios/2.png?123)
 
@@ -35,7 +35,7 @@ Otra función útil es la importación/exportación de listas de exclusión. Pue
 
 1. Abra AdGuard VPN en el dispositivo/navegador desde el que desea exportar sus listas de exclusiones. Busque la sección correspondiente y haga clic en el botón *Exportar* . Se descargará el archivo `exclusions.zip`.
 
-2. Hay dos archivos `.txt` dentro del fichero, uno para cada lista regular y selectiva. Agregue más exclusiones a ellos, elimine las existentes, cambie el nombre de los archivos (más sobre esto más adelante), o simplemente deje el archivo con los archivos como está.
+2. There are two `.txt` files inside the archive, one for each of General and Selective lists. Agregue más exclusiones a ellos, elimine las existentes, cambie el nombre de los archivos (más sobre esto más adelante), o simplemente deje el archivo con los archivos como está.
 
 3. Al transferir entre diferentes dispositivos, no olvides enviar el archivo `.zip` al dispositivo para su importación. Por ejemplo, si importa listas de exclusión desde su dispositivo iOS a su Mac, asegúrese de enviar previamente el archivo `.zip` a su Mac.
 
