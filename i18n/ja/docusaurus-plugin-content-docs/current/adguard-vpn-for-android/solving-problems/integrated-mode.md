@@ -1,13 +1,13 @@
 ---
-title: Compatibility with AdGuard Ad Blocker
+title: AdGuard広告ブロッカーとの併用モード
 sidebar_position: 3
 ---
 
 
-AdGuard VPN has the General operating mode enabled by default, which uses its own [AdGuard VPN protocol](/general/adguard-vpn-protocol.mdx). It provides the best combination of connection speed and security. However, this operating mode does not allow AdGuard VPN and AdGuard Ad Blocker to work simultaneously. The Compatibility mode, in turn, uses the IPsec protocol, which makes it possible for the AdGuard applications to work together. If you already have AdGuard Ad Blocker when installing AdGuard VPN, this mode will turn on automatically and allow you to use our applications at the same time. If you first installed AdGuard VPN, and only then decided to try AdGuard Ad Blocker, then to use them together, follow these steps:
+AdGuard VPN has the VPN operating mode enabled by default, which uses its own [AdGuard VPN protocol](/general/adguard-vpn-protocol.mdx). このプロトコルは、接続速度とセキュリティの最適なコンビネーションを提供します。 しかし、この動作モードでは、AdGuard VPNとAdGuard広告ブロッカーを同時に動作させることはできません。 一方、「AdGuardとの併用モード」モードでは、IPsecプロトコルを使用し、AdGuard広告ブロッカーアプリとの連携が可能になります。 AdGuard VPNのインストール時に、すでにAdGuard広告ブロッカーをインストールしている場合は、併用モードは自動的にオンになり、両方のアプリを同時に使用できるようになります。 AdGuard VPNを最初にインストールし、その後AdGuard広告ブロッカーをインストールされた場合、併用する方法は以下の通りです:
 
-1. Open AdGuard VPN for Android and select the gear icon at the bottom right of the screen.
+1. AdGuard VPN for Androidを開き、画面右下の歯車アイコン（設定）をタップします。
 
-2. Go to "Advanced settings" and select "Operating mode".
+2. 「高度な設定」→「動作モード」へ移動します。
 
-3. Switch the mode from to *Compatibility mode with AdGuard*. Done!
+3. 「*AdGuardとの併用モード*」を選択します。 これで完了です。

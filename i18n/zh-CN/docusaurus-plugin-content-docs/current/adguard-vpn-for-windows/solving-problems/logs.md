@@ -1,42 +1,42 @@
 ---
-title: 'How to collect and send logs'
+title: '如何收集和发送日志记录'
 sidebar position: 1
 ---
 
 
 
-If you encounter a problem when using AdGuard VPN for Windows, you can inform us about it. We would be grateful if you also send application logs our way, they help us resolving problems much quicker.
+如果您在使用 AdGuard VPN Windows 版时遇到问题，您可以随时联系我们。 如果您也能把应用日志发给我们，我们将不胜感激。日志记录能帮助我们更快地解决问题。
 
 
-## Collecting and sending standard logs
+## 收集和发送标准日志
 
-By default, AdGuard VPN for Windows uses the standard logging level, that is, the basic collection of data about running processes of the app. To send these logs, follow the next steps:
+默认情况下，AdGuard VPN Windows 版使用默认日志记录级别，即有关应用程序运行进程的基本数据收集。 要发送这些日志，请按照以下步骤进行操作：
 
-1. Open AdGuard VPN for Windows and, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
+1. 打开 AdGuard VPN Windows 版，如果可以，请您重复导致错误的操作。 请记下发生此错误的确切时间。
 
-2. Click **Support** (in the menu above) → **Report a bug**.
+2. 点击「**支持**」 （在上面的菜单中） → 「**报告错误**」。
 
-3. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred. If you can't reproduce the problem, specify as accurately as possible when it last occurred.
+3. 在打开的表单中，输入您的电子邮件地址以获取反馈，然后描述发现的错误，包括该错误发生的时间。 如果您无法重复问题，请尽可能准确地指明上次发生问题的时间。
 
-4. There is a check mark next to the **Send detailed system info**, which means that when you send a report, you also send logs.
-> If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, go to **Support** → **Export logs and system info**.
+4. 勾选「**发送详细的系统信息**」旁边的复选框，这意味着当您发送报告时，您也会发送日志。
+> 如果出于某种原因，您以其他方式向我们发送日志更方便，您可以自己导出它们。 要做到这一点，请进入「**支持**」→「**导出日志和系统信息**」。
 
 
-## Collecting and sending extended logs
+## 收集和发送进阶日志
 
-In most cases, the default logging level is sufficient to trace down possible bugs. But there are cases when more detailed technical information about the device and connections is required, and then our support team will ask you to enable the extended logging level. To send this type of logs, follow these steps:
+在大多数情况下， 默认日志记录级别足以追踪发生的错误。 但在某些情况下，需要有关设备和连接的更详细技术信息，然后我们的支持团队会要求您启用进阶日志记录级别。 要发送进阶日志，请执行以下步骤：
 
-1. Open AdGuard VPN for Windows and select **Settings** (in the menu above) → **App settings** → **Advanced settings** → **Logging level**.
+1. 打开 AdGuard VPN Windows 版并选择「**设置**」（在上面的菜单中）→「**应用程序设置**」→「**高级设置**」→「**记录级别**」。
 
-2. In the **Logging level** section, select **Record everything**.
+2. 在「**记录级别**」部分，选择「**记录全部**」。
 
-3. Repeat the actions that led to the error, and note the time when it occurred.
+3. 重复导致错误的操作，并记下错误发生的时间。
 
-4. Switch the logging level back to **Record by default**.
+4. 将日志记录级别切换回「**默认记录**」。
 
-5. Then select **Support** (in the menu above) → **Report a bug**.
+5. 然后，请您点击「**支持**」 （在上面的菜单中） → 「**报告错误**」。
 
-6. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred.
+6. 在打开的表单中，输入您的电子邮件地址以获取反馈，然后描述发现的错误，包括该错误发生的时间。
 
-7. Make sure that there is a check mark next to **Send detailed system info** and click **Send**.
-> If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, go to **Support** → **Export logs and system info**.
+7. 确保勾选上「**发送详细系统信息**」旁边的复选框，然后点击「**发送**」。
+> 如果出于某种原因，您以其他方式向我们发送日志更方便，您可以自己导出它们。 要做到这一点，请进入「**支持**」→「**导出日志和系统信息**」。

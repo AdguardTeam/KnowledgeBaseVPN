@@ -14,7 +14,7 @@ sidebar_position: 2
 
 ## Como instalar o AdGuard VPN para Mac?
 
-1. Para instalar o AdGuard VPN para Mac, basta seguir [este link](https://agrd.io/mac_vpn) ou abrir um navegador, digitar *adguard-vpn.com* na barra de endereços e na página aberta clicar em "Experimentar gratuitamente".
+1. To install AdGuard VPN for Mac, just follow [this link](https://agrd.io/mac_vpn) or open a browser, type *adguard-vpn.com* in the address bar and on the opened page click *Download*.
 
 ![Baixe AdGuard VPN do site oficial](https://cdn.adguard.com/public/Adguard/kb/vpn-install/mac-install-en.png)
 

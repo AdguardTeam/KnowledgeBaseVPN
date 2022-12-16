@@ -1,40 +1,40 @@
 ---
-title: 'How to collect and send logs'
+title: 'ログの収集・送信方法'
 sidebar_position: 1
 ---
 
-If you encounter a problem when using AdGuard VPN for Mac, you can inform us about it by sending application logs.
+AdGuard VPN for Mac の使用時に問題が発生した場合、アプリのログを送信することでそれについてお知らせいただけます。
 
-## Collecting and sending standard logs
+## 通常ログの収集・送信
 
-By default, AdGuard VPN for Mac uses the standard logging level, that is, the basic collection of data about running processes of the app. To send these logs, follow the next steps:
+デフォルトでは、AdGuard VPN for Mac は、「通常記録」ログレベル（アプリの実行プロセスに関するデータのベーシックな収集）を使用します。 通常記録ログを送信する方法は以下の通りです:
 
-1. Open AdGuard VPN for Mac and, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
+1. AdGuard VPN for Mac アプリを開き、可能であれば、問題に至った操作を繰り返して、問題を再現してください。 ※問題が発生した時刻を記録しておいてください。
 
-2. Click **Support** (in the menu above) → **Report a bug**.
+2. 「**サポート**」（画面上側メニュー3つ目）→ 「**バグ・不具合を報告する**」をクリックします。
 
-3. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred. If you can't reproduce the problem, specify as accurately as possible when it last occurred.
+3. フォームに、折り返し連絡用メールアドレスを入力し、問題についての概要、再現手順、発生時間などを記述してください。 問題を再現できない場合は、問題が最後に発生した日時をできるだけ正確に記述してください。
 
-4. There is a check mark next to the **Attach technical logs**, which means that when you send a report, you also send logs.
-> If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, select **Settings** → **General** → **Export logs** in the **Actions** section on the right.
+4. 「**テクニカルログを添付する**」チェックボックスにチェックを入れます。これがご報告にログを添付するための項目です。
+> もし、別の方法でログをお送りいただく方が便利な場合は、手動でログをエクスポートすることができます。 これを行うには、「**設定**」 → 「**一般設定**」 → 「**ログをエクスポートする**」（右側の**アクション**の下）をクリックしてください。
 
-## Collecting and sending extended logs
+## 「すべてを記録」ログの収集・送信（デバッグ用）
 
-In most cases, the default logging level is sufficient to trace down possible bugs. But there are cases when more detailed technical information about the device and connections is required, and then our support team will ask you to enable the extended logging level. To send this type of logs, follow these steps:
+ほとんどの場合、潜在的なバグ・不具合を突き止めるのに「通常記録」ログレベルが十分です。 しかし、端末や接続に関するより詳細な技術情報が必要な場合もあり、その場合は、AdGuardのサポートチームが、「 すべてを記録」というログレベルを有効にするようお願いすることがあります。 「すべてを記録」ログを送信する方法は以下の通りです:
 
-1. Open AdGuard VPN for Mac and select **Settings** → **General** → **Advanced settings**.
+1. AdGuard VPN for Macアプリを開き、 「**設定**」→「**一般設定**」→「**詳細設定**」へ移動します。
 
-2. In the **Logging level** section, select **Record everything**.
+2. **ログのレベル** セクションで、 「**すべてを記録**」を選択します。
 
-3. Repeat the actions that led to the error, and note the time when it occurred.
+3. 問題の発生に至った動作を繰り返して問題を再現して、発生時刻を記録します。
 
-4. Switch the logging level back to **Record by default**.
+4. 【重要】ログレベルを「**通常記録**」に戻します。
 
-5. Then select **Support** (in the menu above) → **Report a bug**.
+5. 「**サポート**」（画面上側メニュー3つ目）→ 「**バグ・不具合を報告する**」を選択します。
 
-6. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred.
+6. フォームに、折り返し連絡用メールアドレスを入力し、問題についての概要、再現手順、発生時間などを記述してください。
 
-7. Make sure that there is a check mark next to **Attach technical logs** and click **Send**.
-> If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, select **Settings** → **General** → **Export logs** in the **Actions** section on the right.
+7. 「**テクニカルログを添付する**」チェックボックスにチェックを入れて、「**送信する**」をクリックします。
+> もし、別の方法でログをお送りいただく方が便利な場合は、手動でログをエクスポートすることができます。 これを行うには、「**設定**」 → 「**一般設定**」 → 「**ログをエクスポートする**」（右側の**アクション**の下）をクリックしてください。
 
-This section is updated regularly. If you have not found a solution to your problem in the articles given in this section, contact AdGuard technical support at support@adguard-vpn.com.
+この記事は定期的に更新されます。 この記事で問題の解決方法が見つからない場合は、AdGuardテクニカルサポートのsupport@adguard-vpn.com（日本語対応）にお問い合わせください。

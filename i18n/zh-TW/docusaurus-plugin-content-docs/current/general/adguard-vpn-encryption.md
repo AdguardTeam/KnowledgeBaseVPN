@@ -1,23 +1,23 @@
 ---
-title: 'What type of encryption is used in AdGuard VPN'
+title: 'AdGuard VPN 使用甚麼類型的加密？'
 sidebar_position: 7
 ---
 
-## Introduction
+## 引言
 
-Encryption is the reason the word "private" exists in the term "Virtual Private Network". A VPN creates a tunnel between your device and a VPN server, passing through which your data gets encrypted and then enters the open Internet in a secure form. The process of encryption, i.e. turning data into gibberish that no one who intercepts it can read, is essential to any VPN service.
+加密是令「虛擬私人網路」變得「私人」的原因。 VPN 在您的裝置和 VPN 伺服器之間設置一條隧道，隧道會加密您的數據，令它安全進入公開的互聯網。 加密過程，即將數據變成任何人都無法讀取的亂碼，對於任何 VPN服務都必不可少。
 
-AdGuard VPN protocol uses the most secure and fast encryption algorithm to date – AES-256. Learn what it is and why it is so good.
+AdGuard VPN 協定使用迄今為止最安全、快速的密碼演算法 – AES-256。 了解它是甚麼以及它為何如此出色。
 
-## AES historical tour
+## AES的歷史
 
-AES (Advanced Encryption Standard) encryption was developed in the late 20th century at the U.S. government request: the existing Data Encryption Standard (DES) became obsolete and a new, more secure encryption algorithm was required.
+AES (進階加密標準) 加密在20世紀末期於美國被開發。 由於當時的數據加密標準 (DES) 已過時，因此需要一種新的、更安全的密碼演算法。
 
-In a public competition announced by the government won the Rijndael cipher — rather similar to DES but much more sophisticated. In 2002 it was renamed AES and published by the U.S. National Institute of Standards and Technology.
+在政府的公開競賽中勝出的 Rijndael加密法——與 DES 非常相似，但更複雜。 2002年更名為AES，並由美國 國家標準技術研究所發布。
 
-Today, AES is the industry standard for encryption. Because of its open nature, it is used by the NSA and government agencies, as well as private, commercial, and non-profit organizations.
+如今，AES 已經成為加密的業界標準。 由於其開放性，它被美國國家安全局和政府機構以及私營、商業和非牟利組織採用。
 
-## How AES-256 works
+## AES-256 的工作原理
 
 AES is a block cipher with a symmetric key. As a symmetric-key cipher, it requires only one secret key to encrypt and decrypt the data. As a block cipher, AES divides the unencrypted information, which is called plaintext, into blocks, splits the original cryptographic key into several ones and applies them to each block. In the end, a ciphertext, i.e. an encrypted text, is obtained.
 

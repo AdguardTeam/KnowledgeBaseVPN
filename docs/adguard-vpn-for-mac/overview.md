@@ -14,7 +14,7 @@ Still don't have an AdGuard account? Create it [here](https://auth.adguard.com/r
 
 ![Home screen](https://cdn.adguard.com/public/Adguard/Blog/mac-vpn-main.png)
 
-The first tab is the *Home* screen. Here you can see AdGuard VPN current status and [operating mode](#exclusions), chosen location (if enabled) and its ping. Ping is the response time of a VPN server. Consequently, the lower this number is, the faster the connection. If VPN is disabled, the last location you connected to is displayed below. The fastest locations with the lowest pings are displayed in the upper right corner of the screen. Below you can see the full list of locations. Through the search function, the needed location can be easily found. 
+The first tab is the *Home* screen. Here you can see AdGuard VPN current status and [exclusions mode](#exclusions), chosen location (if enabled) and its ping. Ping is the response time of a VPN server. Consequently, the lower this number is, the faster the connection. If VPN is disabled, the last location you connected to is displayed below. The fastest locations with the lowest pings are displayed in the upper right corner of the screen. Below you can see the full list of locations. Through the search function, the needed location can be easily found. 
 
 > Free users can connect only to certain locations, while others are blocked. Besides, there is a 3 GB monthly traffic limit in the free version.
 
@@ -22,7 +22,7 @@ The first tab is the *Home* screen. Here you can see AdGuard VPN current status 
 
 ![Exclusions](https://cdn.adguard.com/public/Adguard/Blog/vpn/release/VPN_for_Mac/exclusions.png)
 
-Next goes the *Exclusions* screen. AdGuard VPN has several features that make it unique, and one of them is certainly switching between two operating modes. In the Regular mode, AdGuard VPN will run on all websites but the ones from the exclusions list. In the Selective mode, conversely, AdGuard VPN will run only on websites from the exclusions list. You yourself can decide where you want VPN to work.
+Next goes the *Exclusions* screen. AdGuard VPN has several features that make it unique, and one of them is certainly switching between two exclusions modes. In the General mode, AdGuard VPN will run on all websites but the ones from the exclusions list. In the Selective mode, conversely, AdGuard VPN will run only on websites from the exclusions list. You yourself can decide where you want VPN to work.
 
 ![Exclusions screen](https://cdn.adguard.com/public/Adguard/Blog/services.png)
 
@@ -35,7 +35,7 @@ If you've added a service, changed or removed something and now want to recover 
 What’s more, ready-made exclusions lists can be transferred to other devices with installed AdGuard VPN. To export exclusions, follow the four-step instruction below:
 
 1. Open AdGuard VPN on the device from where you want to export your lists of exclusions. Find the appropriate section and click on the *Export* button. The `exclusions.zip` archive will be downloaded.
-2. There are two `.txt` files inside the archive, each for Regular and Selective lists. Add more exclusions to them, delete the existing ones, rename files (but more on this later), or just leave the archive with files as it is.
+2. There are two `.txt` files inside the archive, each for General and Selective lists. Add more exclusions to them, delete the existing ones, rename files (but more on this later), or just leave the archive with files as it is.
 3. When transferring between different devices, don't forget to send the `.zip` file to the device for import. For example, if you import exclusion lists from your Mac to your iPhone, make sure to send the `.zip` file to your phone beforehand.
 4. Open AdGuard VPN on the device/in the browser where you want to import the archive with the ready lists of exclusions. Find the appropriate section, click on the *Import* button and select the archive. Done!
 

@@ -1,38 +1,38 @@
 ---
-title: How to collect and send logs
+title: Come raccogliere e inviare i registri
 sidebar_position: 2
 ---
 
-If you encounter a problem when using AdGuard VPN for Android, you can inform us about it by sending application logs.
+Se si riscontra un problema durante l'utilizzo di AdGuard VPN per Android, è possibile informarci inviando i registri dell'applicazione.
 
-## Collecting and sending standard logs
+## Raccolta e invio di registri standard
 
-By default, AdGuard VPN for Android uses the **Default** logging level, that is, the basic collection of data about running processes of the app. To send these logs, follow the next steps:
+Per impostazione predefinita, AdGuard VPN per Android utilizza il livello di registrazione **Predefinito**, ovvero la raccolta di dati di base sui processi in esecuzione dell'app. Per inviare questi registri, attenersi alla seguente procedura:
 
-1. Open AdGuard VPN for Android and, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
+1. Aprire AdGuard VPN per Android e, se possibile, ripetere le azioni che hanno portato all'errore. Prendere nota dell'ora esatta in cui si è verificato questo errore.
 
-2. Open **Settings** by clicking the gear icon at the lower right corner → **Support** → **Report a bug**.
+2. Aprire **Impostazioni** facendo clic sull'icona dell'ingranaggio nell'angolo in basso a destra → **Supporto** → **Segnalare un bug**.
 
-3. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred. If you can't reproduce the problem, specify as accurately as possible when it last occurred.
+3. Nel modulo aperto, inserisci il tuo indirizzo e-mail per il feedback e descrivi l'errore riscontrato, inclusa l'ora in cui si è verificato l'errore. Se non riesci a riprodurre il problema, specifica nel modo più accurato possibile quando si è verificato l'ultima volta.
 
-4. There is a check mark next to **Send detailed system info**, which means that when you send a report, you also send logs.
-> If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, go to **Settings** → **Support** → **Export logs and system info**.
+4. C'è un segno di spunta accanto al punto **Invia informazioni di sistema dettagliate**, che significa che quando invii un rapporto, invii anche i registri.
+> Se per qualche motivo è più conveniente per te inviarci i log in un altro modo, puoi esportarli tu stesso. Per fare ciò, vai su **Impostazioni** → **Assistenza** → **Esporta registri e informazioni di sistema**.
 
-## Collecting and sending extended logs
+## Raccolta e invio di log estesi
 
-In most cases, the **Default** logging level is sufficient to trace down possible bugs. But there are cases when more detailed technical information about the device and connections is required, and then our support team will ask you to enable the **Extended** or **Extreme** logging level. To send these types of logs, follow these steps:
+Nella maggior parte dei casi, il livello di registrazione **Predefinito** è sufficiente per rintracciare eventuali bug. Ma ci sono casi in cui sono necessarie informazioni tecniche più dettagliate sul dispositivo e sulle connessioni, quindi il nostro team di supporto ti chiederà di abilitare il livello di registrazione **Esteso** o **Estreme**. Per inviare questi tipi di registri, procedi come segue:
 
 1. Apri AdGuard VPN per Android e seleziona **Impostazioni** (l'icona a forma di ingranaggio nell'angolo in basso a destra) → **Impostazioni app** → **Impostazioni avanzate** → **Livello di registrazione**.
 
-2. In the **Logging level** section, select **Extended** or **Extreme** logging level.
+2. Nella sezione **Livello di registrazione**, selezionare **Livello di registrazione esteso** o **Estremo**.
 
-3. Repeat the actions that led to the error and note the time when it occurred.
+3. Ripetere le azioni che hanno portato all'errore e annotare l'ora in cui si è verificato.
 
-4. Switch the logging level back to **Default**.
+4. Riportare il livello di registrazione a **Predefinito**.
 
-5. Then open **Settings** by tapping the gear icon at the lower right corner → **Support** → **Report a bug**.
+5. Quindi aprire **Impostazioni** toccando l'icona dell'ingranaggio nell'angolo in basso a destra → **Supporto** → **Segnala un bug**.
 
-6. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred.
+6. Nel modulo aperto, inserire l'indirizzo e-mail per il feedback e descrivere l'errore riscontrato, compreso l'orario in cui si è verificato l'errore.
 
-7. Make sure that there is a check mark next to **Send detailed system info** and tap **Send**.
-> If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, go to **Settings** → **Support** → **Export logs and system info**.
+7. Assicurarsi che ci sia un segno di spunta accanto a **Invia informazioni dettagliate sul sistema** e toccare **Invia**.
+> Se per qualche motivo è più conveniente per te inviarci i registri in un altro modo, puoi esportarli tu stesso. Per fare ciò, vai su **Impostazioni** → **Assistenza** → **Esporta registri e informazioni di sistema**.
