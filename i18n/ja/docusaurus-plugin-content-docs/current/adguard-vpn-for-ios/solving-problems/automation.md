@@ -15,36 +15,36 @@ AdGuard VPNには、「*VPN対象外リスト*」機能と、「*一般*」と�
 特定のアプリを開くと自動的にAdGuard VPNがオンになり、そのアプリを閉じるとAdGuard VPNが自動的にオフになる方法のご紹介です。 まず、「VPN対象外リスト」（メイン画面下の真ん中のアイコン）→「レギュラー」モードを選択してください。 ※以下では、例として「Twitter」アプリに対するオートメーション作成方法を説明しておりますが、どのアプリに対しても同じ手順を使うことができます。
 
 ![手順 第1部](https://cdn.adtidy.org/public/Adguard/Blog/VPNauto/vpn_on1_ja.jpg)
-1. Download [the *Shortcuts* app](https://apps.apple.com/us/app/shortcuts/id915249334) from the App Store and go to the *Automation* section by tapping the clock icon at the bottom of the screen.
-2. Tap the *Create Personal Automation* button, then find *App* in the list that opens and tap it.
-3. In the next window, make sure that the *Is Opened* option is selected, and then tap *Choose* to choose the app.
+1. 「[*ショートカット*」アプリ](https://apps.apple.com/us/app/shortcuts/id915249334)をApp Storeからダウンロードして開いて、下の🕐アイコン「*オートメーション*」をタップ
+2. 「*個人用オートメーションを作成*」をタップ→リストで「*App*」を選択する
+3. 「*開いている*」のみが選択された状態で、「*選択*」をタップ
 
 ![手順 第2部](https://cdn.adtidy.org/public/Adguard/Blog/VPNauto/vpn_on2_ja.jpg)
-4. Start entering the name of the application, in our case it's Twitter, and select it. Then tap *Done* in the upper right corner of the screen. After it tap *Next* in the upper right corner of the screen. And in the opened window tap *Add Action*.
+4. 対象アプリの名前を入力し始めて（この場合は「Twitter」）、対象アプリが現れたらタップ →右上の「*完了*」をタップ →右上の「*次へ*」をタップ →「*アクションを追加*」をタップ
 
 ![手順 第3部](https://cdn.adtidy.org/public/Adguard/Blog/VPNauto/vpn_on3_ja.jpg)
 
-5. Start entering “AdGuard VPN” and select the AdGuard VPN app. In the new window tap *Set a VPN connection*.
+5. 「AdGuard VPN」と入力して、表示されたAdGuard VPN下の 「*VPNに接続*」をタップ
 
 ![手順 第4部](https://cdn.adtidy.org/public/Adguard/Blog/VPNauto/vpn_on4_ja.jpg)
-6. Make sure the variables say *Turn* VPN connection *On* and tap *Next*.
-7. In the next window, move the slider next to the *Ask before running* option to the inactive position. Confirm your choice, the tap *Done*.
+6. 「VPN接続を*オン**にする*」となっていることを確認して、右上の「*次へ*」をタップ
+7. 「*実行の前に尋ねる*」をオフにする →「尋ねる」 をタップ → 右上の「*完了*」をタップ
 
 これで、新しい自動オートメーションが出来上がりました。 Twitterアプリ（対象アプリ）を起動すると、AdGuard VPNが自動的に有効になります。 あとは、対象アプリ（この例では「Twitter」）を閉じたときに AdGuard VPN を自動的にオフにするもう一つのオートメーションを作成する必要があります。
 
 ## AdGuard VPN の自動シャットダウンを設定する
 
 ![手順 第1部](https://cdn.adtidy.org/public/Adguard/Blog/VPNauto/vpn_off1_ja.jpg)
-1. In the same *Shortcuts* app start creating a new automation: click *+* in the upper right corner of the screen and then on the *Create Personal Automation* button. In the opened window choose *App*.
-2. Make sure that the *Is Closed* option is selected and uncheck the box under the adjacent option. Then tap *Choose*.
+1. 同じ「*ショートカット*」アプリで下の🕐アイコン「オートメーション」をタップ → 右上の「*＋*」をタップ →「*個人用オートメーションを作成*」をタップ →リストで「*App*」を選択する
+2. 「*閉じている*」のみが選択されている状態で、 「*選択*」をタップ
 
 ![手順 第2部](https://cdn.adtidy.org/public/Adguard/Blog/VPNauto/vpn_off2_ja.jpg)
-3. Start entering *Twitter* and select the app. Then tap *Done* in the upper right corner of the screen. Tap *Add Action* and select AdGuard VPN.
+3. 対象アプリの名前を入力し始めて（この場合は「*Twitter*」）、対象アプリが現れたらタップ →右上の「*完了*」をタップ →「*アクションを追加*」をタップ
 
 ![手順 第3部](https://cdn.adtidy.org/public/Adguard/Blog/VPNauto/vpn_off3_ja.jpg)
 
-4. In the new window tap *Set VPN connection*.
-5. Then tap the word *On* so that it changes to the word *Off*, then tap *Next* in the upper right corner of the screen.
-6. Disable the *Ask before running* option and confirm your selection. Then tap *Done* at the top right corner of the screen to complete the process.
+4. 「AdGuard VPN」と入力して、表示されたAdGuard VPN項目の「*VPNに接続*」をタップ
+5. 「オン」をタップして「*オフ*」に変え、「VPN接続を*オフにする*」となっていることを確認 → 右上の「*次へ*」をタップ
+6. 「*実行の前に尋ねる*」をオフにする → 「尋ねない」をタップ → 右上の「*完了*」をタップ
 
 完了です。 これで、対象アプリ（今回の例としてはTwitterアプリ）を開くたびにAdGuard VPNがお使いのiPhone/iPadでオンになり、対象アプリを閉じるとAdGuard VPNはオフになります。 他のどの数のアプリに対してもこのオートメーション作成手順を繰り返すことができます。 

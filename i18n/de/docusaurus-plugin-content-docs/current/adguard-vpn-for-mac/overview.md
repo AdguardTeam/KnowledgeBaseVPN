@@ -13,7 +13,7 @@ Beachten Sie, dass **Sie AdGuard VPN für Mac nur verwenden können, wenn Sie si
 
 ![Startbildschirm](https://cdn.adguard.com/public/Adguard/Blog/mac-vpn-main.png)
 
-Die erste Registerkarte ist der Bildschirm *Home*. Here you can see AdGuard VPN current status and [exclusions mode](#exclusions), chosen location (if enabled) and its ping. Ping ist die Reaktionszeit eines VPN-Servers. Je niedriger diese Zahl ist, desto schneller ist die Verbindung. Wenn VPN deaktiviert ist, wird unten der letzte Standort angezeigt, mit dem Sie verbunden waren. Die schnellsten Standorte mit den niedrigsten Pings werden in der oberen rechten Ecke des Bildschirms angezeigt. Unten sehen Sie die vollständige Liste der Standorte. Sie können den gewünschten Ort leicht mit der Suchfunktion finden.
+Die erste Registerkarte ist der Bildschirm *Home*. Hier sehen Sie den aktuellen Status von AdGuard VPN und [Ausschlussmodus](#exclusions), den ausgewählten Standort (falls aktiviert) und seinen Ping. Ping ist die Reaktionszeit eines VPN-Servers. Je niedriger diese Zahl ist, desto schneller ist die Verbindung. Wenn VPN deaktiviert ist, wird unten der letzte Standort angezeigt, mit dem Sie verbunden waren. Die schnellsten Standorte mit den niedrigsten Pings werden in der oberen rechten Ecke des Bildschirms angezeigt. Unten sehen Sie die vollständige Liste der Standorte. Sie können den gewünschten Ort leicht mit der Suchfunktion finden.
 
 > Kostenlose Benutzer können sich nur mit bestimmten Standorten verbinden, während andere blockiert sind. Außerdem gibt es in der kostenlosen Version ein monatliches Traffic-Limit von 3 GB.
 

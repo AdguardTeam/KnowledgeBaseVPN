@@ -1,21 +1,21 @@
 ---
-title: 'How to take a screenshot'
+title: 'Wie man einen Screenshot macht'
 sidebar_position: 4
 ---
 
-Screenshot is a capture of your computer’s or mobile device’s screen, which can be obtained by using standard tools or a special program/app.
+Ein Screenshot ist eine Aufnahme des Bildschirms Ihres Computers oder Mobilgeräts, die mit Standardwerkzeugen oder einem speziellen Programm bzw. einer App erstellt werden kann.
 
-Sometimes a screenshot (or screenshots) is required by support team to better understand the problem, and not everyone knows how to take screenshots, especially of a separate window or a specific screen area on their devices. If you recognize yourself as one of these users, don’t worry. This article will help you as it describes a range of ways to take screenshots on different platforms.
+Manchmal benötigt das Support-Team einen Screenshot (oder mehrere Screenshots), um das Problem besser zu verstehen. Aber nicht jeder weiß, wie einen Screenshot zu machen, insbesondere von einem separaten Fenster oder einem bestimmten Bildschirmbereich auf seinem Gerät. Wenn Sie sich als einer dieser Benutzer erkennen, machen Sie sich keine Sorgen. Dieser Artikel hilft Ihnen dabei, denn er beschreibt eine Reihe von Möglichkeiten, Screenshots auf verschiedenen Plattformen zu erstellen.
 
-## How to take a screenshot
+## Wie man einen Screenshot macht
 
-Here you will find all the necessary hotkeys you should know in order to take screenshots on your computer or mobile device.
+Hier finden Sie alle notwendigen Hotkeys, die Sie kennen sollten, um Screenshots auf Ihrem Computer oder Mobilgerät zu machen.
 
 ### Android
 
-Taking a screenshot on an Android device can be done in various ways — depending on the device model and its manufacturer.
+Das Erstellen eines Screenshots auf einem Android-Gerät kann auf verschiedene Arten erfolgen – je nach Gerätemodell und Hersteller.
 
-Generally, you should use the following button combination for Android:
+Im Allgemeinen sollten Sie für Android die folgende Tastenkombination verwenden:
 
 + **Hold down at once the *Volume Down* and the *Power* buttons for 1–2 seconds**
 

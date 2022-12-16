@@ -3,9 +3,9 @@ title: Credits and Acknowledgements
 sidebar_position: 1
 ---
 
-Our dev team would like to thank the developers of the third-party software we use in AdGuard VPN, our great beta testers and other engaged users, whose help in finding and eliminating all the bugs, translating AdGuard VPN and moderating our communities is priceless.
+私たちの開発チームは、AdGuard VPNで使用しているサードパーティソフトウェアの開発者、優れたベータテスター、その他の熱心なユーザーの方々に感謝いたします。彼らは、すべてのバグの発見と除去、AdGuard VPNの翻訳、コミュニティのモデレーションに多大な貢献をしてくれています。
 
-## AdGuard Websites
+## AdGuard公式ページ
 
 * Symfony: [http://symfony.com/](http://symfony.com/)
 * React: [https://reactjs.org/](https://reactjs.org/)

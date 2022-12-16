@@ -1,60 +1,60 @@
 ---
-title: 'How to take a screenshot'
+title: 'スクリーンショットの撮り方'
 sidebar_position: 4
 ---
 
-Screenshot is a capture of your computer’s or mobile device’s screen, which can be obtained by using standard tools or a special program/app.
+スクリーンショットとは、パソコンや携帯端末の画面をキャプチャしたもので、標準的なツールや専用のプログラム/アプリを使用して取得することができます。
 
-Sometimes a screenshot (or screenshots) is required by support team to better understand the problem, and not everyone knows how to take screenshots, especially of a separate window or a specific screen area on their devices. If you recognize yourself as one of these users, don’t worry. This article will help you as it describes a range of ways to take screenshots on different platforms.
+サポートチームが問題をより正確に理解するためにスクリーンショットの提出をお願いすることがありますが、誰もがスクリーンショットの撮り方、デバイスの別ウィンドウや特定の画面領域の撮り方を知っているわけではありません。 スクリーンショットについてわからなくても、ご安心ください。 この記事では、さまざまなプラットフォームでスクリーンショットを撮る方法について説明します。
 
-## How to take a screenshot
+## スクリーンショットの撮り方
 
-Here you will find all the necessary hotkeys you should know in order to take screenshots on your computer or mobile device.
+ここでは、コンピュータやモバイル・デバイスでスクリーンショットを撮るために必要なショートカットキーがすべて紹介されています。
 
 ### Android
 
-Taking a screenshot on an Android device can be done in various ways — depending on the device model and its manufacturer.
+Android端末でスクリーンショットを撮るには、機種やメーカーによってさまざまな方法があります。
 
-Generally, you should use the following button combination for Android:
+通常、Android では次のボタンの組み合わせでスクリーンショットを撮ります。
 
-+ **Hold down at once the *Volume Down* and the *Power* buttons for 1–2 seconds**
++ ***音量ダウン* と *電源* ボタンを同時に 1 ～ 2 秒間押し続けます。**
 
-Your Android device will capture the entire screen and save it as a photo. So, you can find the screenshot in a Screenshots folder in your Gallery.
+こうすることによって画面全体をキャプチャして、写真として保存できます。 先ほど撮ったスクリーンショットはギャラリーのスクリーンショット フォルダーで確認することができます。
 
-But, as it has been already said, there can be differences depending on a particular device. Let’s look at other possible combinations:
+ただし、先ほど述べたように、デバイスによって異なる場合があります。 他の組み合わせを見てみましょう。
 
-+ **Hold down at once *Home* and *Power* buttons for 1–2 seconds;**
-+ **Hold down at once the *Back* and the *Home* buttons**
++ ***音量ダウン* と *電源* ボタンを同時に 1 ～ 2 秒間押し続けます。**
++ ***戻る* と *ホーム* ボタンを同時に長押し**
 
-On Android 8 and later there is also a possibility to take a screenshot by placing your hand vertically along the left or right edge of your phone and swiping in from that edge with your hand touching the screen.
+Android 8以降では、スマートフォンの左端または右端に沿って手を垂直に置き、その端からスワイプして画面に触れることで、スクリーンショットを撮ることもできます。
 
-If this method doesn’t work, check *Settings* → *Advanced* features to enable *Palm swipe to capture*.
+この方法がうまくいかない場合は、 *設定* → *詳細* 機能をチェックして、 *パーム・スワイプでキャプチャ*を有効にしてください。
 
-Besides, you can always use any special applications for taking screenshots on your devices, for example — *Screenshot Easy*, *Screenshot Ultimate*, *Screenshot Snap*, etc.
+さらに、デバイスでスクリーンショットを撮る専用のアプリケーションを使用できます。たとえば、 *Screenshot Easy*、 *Screenshot Ultimate*、 *Screenshot Snap*などです。
 
 ### iOS
 
-Any iOS device (barring ancient ones) lets you take a screenshot using standard tools.
+IOSデバイス（古いものを除く）であれば、標準的なツールを使ってスクリーンショットを撮ることができます。
 
-To take a screenshot on an iOS device, use the following combination:
+iOS デバイスでスクリーンショットを撮るには、次の組み合わせを使用します。
 
-+ **Press the *Sleep/Wake* (side) button and the *Home* button at the same time, then quickly release them**
++ ***電源* （サイド）ボタンと *ホーム* ボタンを同時に押し、すばやく離す**
 
-and this one for iPhone X or later:
+そしてこれはiPhone X以降のものです：
 
-+ **Press the *Sleep/Wake* button and the *Volume Up* button at the same time, then quickly release them**
++ ***電源* （サイド）ボタンと *ホーム* ボタンを同時に押し、すばやく離す**
 
-Your iOS device will capture the entire screen and save it as a photo. You can find it in a standard Photo app.
+こうすることによって画面全体をキャプチャして、写真として保存できます。 標準のフォトアプリで先ほどとったスクリーンショットを見つけることができます。
 
 ### Windows
 
-+ **To take a screenshot on Windows, press the *PrtScn* button**
++ **Windows でスクリーンショットを撮るには、 *PrtScn* ボタンを押します。**
 
-On some notebooks you have to hold *Fn* and then press *PrtScn* instead.
+一部のノートパソコンでは、 *Fn* を押しながら、代わりに *PrtScn* を押す必要があります。
 
-*Please note: PrtScn (Print Screen) button can be differently abbreviated on various keyboards — PrntScrn, PrtScn, PrtScr or PrtSc.*
+*注意：PrtScn（Print Screen）ボタンは、キーボードによってPrntScrn、PrtScn、PrtScr、PrtScと略し方が異なる場合がありますのでご注意ください。*
 
-Windows captures the entire screen and copies it to the (invisible) clipboard.
+Windowsは画面全体をキャプチャし、クリップボードにコピーします。
 
 To take a screenshot of an active window, use the following combination:
 

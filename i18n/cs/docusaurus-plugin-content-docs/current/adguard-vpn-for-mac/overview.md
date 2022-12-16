@@ -13,7 +13,7 @@ Všimněte si, že **nemůžete používat AdGuard VPN pro macOS, pokud jste se 
 
 ![Domovská obrazovka](https://cdn.adguard.com/public/Adguard/Blog/mac-vpn-main.png)
 
-První karta je *Domovská* obrazovka. Here you can see AdGuard VPN current status and [exclusions mode](#exclusions), chosen location (if enabled) and its ping. Ping je doba odezvy serveru VPN. Čím nižší je toto číslo, tím rychlejší je připojení. Pokud je VPN vypnuta, zobrazí se níže poslední umístění, ke kterému jste se připojili. Nejrychlejší umístění s nejnižší hodnotou ping jsou zobrazena v pravém horním rohu obrazovky. Níže naleznete úplný seznam umístění. Pomocí funkce vyhledávání lze snadno najít potřebné umístění.
+První karta je *Domovská* obrazovka. Zde můžete vidět aktuální stav AdGuard VPN a [režim výjimek](#exclusions), vybrané umístění (pokud je povoleno) a jeho ping. Ping je doba odezvy serveru VPN. Čím nižší je toto číslo, tím rychlejší je připojení. Pokud je VPN vypnuta, zobrazí se níže poslední umístění, ke kterému jste se připojili. Nejrychlejší umístění s nejnižší hodnotou ping jsou zobrazena v pravém horním rohu obrazovky. Níže naleznete úplný seznam umístění. Pomocí funkce vyhledávání lze snadno najít potřebné umístění.
 
 > Uživatelé bezplatné verze se mohou připojit pouze k určitým umístěním, zatímco jiná jsou blokována. Kromě toho je v bezplatné verzi omezen měsíční datový provoz na 3 GB.
 
@@ -21,7 +21,7 @@ První karta je *Domovská* obrazovka. Here you can see AdGuard VPN current stat
 
 ![Výjimky](https://cdn.adguard.com/public/Adguard/Blog/vpn/release/VPN_for_Mac/exclusions.png)
 
-Následuje obrazovka *Výjimky*. AdGuard VPN has several features that make it unique, and one of them is certainly switching between two exclusions modes. In the General mode, AdGuard VPN will run on all websites but the ones from the exclusions list. Naopak v selektivním režimu bude AdGuard VPN spuštěna pouze na webových stránkách ze seznamu výjimek. Sami se můžete rozhodnout, kde chcete VPN provozovat.
+Následuje obrazovka *Výjimky*. AdGuard VPN má několik funkcí, které ji činí jedinečnou. Jednou z nich je určitě přepínání mezi dvěma režimy výjimek. V Obecném režimu bude AdGuard VPN spuštěna na všech webových stránkách kromě těch ze seznamu výjimek. Naopak v selektivním režimu bude AdGuard VPN spuštěna pouze na webových stránkách ze seznamu výjimek. Sami se můžete rozhodnout, kde chcete VPN provozovat.
 
 ![Záložka Výjimky](https://cdn.adguard.com/public/Adguard/Blog/services.png)
 
@@ -34,7 +34,7 @@ Pokud jste přidali službu, něco změnili nebo odebrali a nyní chcete obnovit
 Připravené seznamy vyloučení lze navíc přenést do jiných zařízení s nainstalovanou službou AdGuard VPN. Chcete-li exportovat výjimky, postupujte podle následujících čtyř kroků:
 
 1. Otevřete AdGuard VPN v zařízení, ze kterého chcete exportovat seznamy výjimek. Vyhledejte příslušný oddíl a klikněte na tlačítko *Exportovat*. Stáhne se archiv `exclusions.zip`.
-2. There are two `.txt` files inside the archive, each for General and Selective lists. Můžete k nim přidat další výjimky, odstranit stávající, přejmenovat soubory (ale o tom až později) nebo nechat archiv se soubory tak, jak je.
+2. Uvnitř archivu jsou dva soubory `.txt`, jeden pro Obecný a druhý pro Selektivní seznam. Můžete k nim přidat další výjimky, odstranit stávající, přejmenovat soubory (ale o tom až později) nebo nechat archiv se soubory tak, jak je.
 3. Při přenosu mezi různými zařízeními nezapomeňte odeslat soubor `.zip` do zařízení pro import. Pokud například importujete seznamy výjimek ze zařízení Mac do iPhone, nezapomeňte soubor `.zip` předem odeslat do telefonu.
 4. Otevřete AdGuard VPN v zařízení/prohlížeči, do kterého chcete importovat archiv s připravenými seznamy výjimek. Vyhledejte příslušnou sekci, klikněte na tlačítko *Importovat* a vyberte archiv. Hotovo!
 

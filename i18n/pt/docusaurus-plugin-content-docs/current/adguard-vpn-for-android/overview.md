@@ -38,7 +38,7 @@ As listas de exclusões permitem selecionar sites para os quais a VPN deve ser h
 
 Existem dois modos: no *Modo geral*, os sites da lista de exclusões são excluídos e, no *Modo seletivo*, eles serão os únicos em que o AdGuard VPN será habilitado.
 
-You can add domains (e.g. `google.com`) or subdomains (e.g. `*.google.com`) of websites to the *Exclusions* in three ways: enter them manually in the app, or right from the browser by clicking the *Share* button and selecting AdGuard VPN in the opened list below, or from built-in lists of services divided by categories.
+Você pode adicionar domínios (por exemplo `google.com`) ou subdomínios (por exemplo, `*.google.com`) de sites às *Exclusões* de três maneiras: insira-os manualmente no aplicativo ou diretamente no navegador clicando no botão *Share* e selecionando AdGuard VPN na lista aberta abaixo ou nas listas integradas de serviços divididos por categorias.
 
 ![Exclusões](https://cdn.adguard.com/public/Adguard/kb/VPN/Screenshots/add_site_android.jpg)
 > Há alguns detalhes importantes na adição manual de domínios. Por exemplo, se você excluir manualmente o domínio `yahoo.com`, todos os `*.yahoo.com` subdomínios também serão listados nas exclusões. No entanto, nomes de domínio com outros domínios de nível superior, como `yahoo.jp` ou `yahoo.fr`, não serão excluídos. Ou você pode adicionar `youtube.com` às exclusões, mas o domínio do mesmo serviço `youtu.be` não entrará na lista. Nesse caso, é mais seguro usar listas de serviços integradas, pois nela colocamos todos os subdomínios relacionados a cada plataforma.
@@ -104,9 +104,9 @@ A seção *Modo de operação* permite que você escolha uma das três opções:
 
 > Tenha em conta que alguns recursos do AdGuard VPN ficam desativados no *Modo de compatibilidade*: seleção de servidor DNS, Kill Switch e proteção automática. Além disso, para gerenciar o tunelamento de aplicativos, você deve abrir o aplicativo AdGuard Ad Blocker.
 
-As próximas duas seções são *Nível de registro* e *Informações de diagnóstico*. Concerning the first option, it is not recommended to enable the Extended or Extreme logging level unless requested by our support team. Informações de diagnóstico e informações técnicas armazenadas localmente sobre o dispositivo e conexões (endereço IP, ID, ping etc.) podem ser enviadas para nós em caso de problemas técnicos.
+As próximas duas seções são *Nível de registro* e *Informações de diagnóstico*. Em relação à primeira opção, não é recomendável habilitar o nível de registro Estendido ou Extremo, a menos que solicitado por nossa equipe de suporte. Informações de diagnóstico e informações técnicas armazenadas localmente sobre o dispositivo e conexões (endereço IP, ID, ping etc.) podem ser enviadas para nós em caso de problemas técnicos.
 
-A última seção de *Configurações avançadas* é *Configurações de nível baixo*. Pedimos que você não entre nesta seção, a menos que seja altamente qualificado ou tenha sido solicitado a fazê-lo por nossa equipe de suporte. Here it is possible to enable TUN interface logging or IPv6 protocol on the VPN interface, choose a proxy server port or Internet protocol version that should be used.
+A última seção de *Configurações avançadas* é *Configurações de nível baixo*. Pedimos que você não entre nesta seção, a menos que seja altamente qualificado ou tenha sido solicitado a fazê-lo por nossa equipe de suporte. Aqui é possível habilitar o registro da interface TUN ou protocolo IPv6 na interface VPN, escolher uma porta do servidor proxy ou versão do protocolo Internet que deve ser usada.
 
 ### Suporte
 
