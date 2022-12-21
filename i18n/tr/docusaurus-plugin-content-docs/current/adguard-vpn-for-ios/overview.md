@@ -27,7 +27,7 @@ AdGuard VPN'i kullanmak oldukça kolaydır. Ana ekranda *Bağlan ve Bağlantıy�
 
 ## İstisnaların listesi
 
-Aşağıdaki orta düğmeye dokunarak istisna özelliğini bulabilirsiniz. There you will see two exclusion lists — for General and Selective Modes. In the General mode the VPN works on all websites except for the ones from the exclusion list. Seçici modda tam tersine, VPN yalnızca listedeki sitelerde çalışır. Sitelerin etki alanlarını (ör. `google.com`) veya alt alt alan adlarını (ör. `*.google.com`) iki şekilde ekleyebilirsiniz: bunları uygulamaya elle veya doğrudan tarayıcıdan, *Paylaş* düğmesine tıklayıp aşağıdaki açılan listede AdGuard VPN'i bularak girebilirsiniz.
+Aşağıdaki orta düğmeye dokunarak istisna özelliğini bulabilirsiniz. Orada, Genel ve Seçici Modlar için iki istisna listesi göreceksiniz. Genel modda VPN, istisna listesi dışındaki tüm sitelerde çalışır. Seçici modda tam tersine, VPN yalnızca listedeki sitelerde çalışır. Sitelerin etki alanlarını (ör. `google.com`) veya alt alt alan adlarını (ör. `*.google.com`) iki şekilde ekleyebilirsiniz: bunları uygulamaya elle veya doğrudan tarayıcıdan, *Paylaş* düğmesine tıklayıp aşağıdaki açılan listede AdGuard VPN'i bularak girebilirsiniz.
 
 ![İstisnalar](https://cdn.adguard.com/content/kb/vpn/ios/2.png?123)
 
@@ -35,7 +35,7 @@ Bir başka kullanışlı özellik, istisna listelerinin içe ve dışa aktarılm
 
 1. İstisnalar listenizi dışa aktarmak istediğiniz cihazda veya tarayıcıda AdGuard VPN'i açın. Uygun bölümü bulun ve *Dışa aktar* düğmesine tıklayın. `exclusions.zip` arşivi indirilecektir.
 
-2. There are two `.txt` files inside the archive, one for each of General and Selective lists. Bunlara daha fazla istisna ekleyin, mevcut olanları silin, dosyaları yeniden adlandırın (ancak daha sonra bu konuda daha fazlası) veya arşivi olduğu gibi bırakın.
+2. Arşivde, Genel ve Seçici listelerin her biri için birer tane olmak üzere iki `.txt` dosyası vardır. Bunlara daha fazla istisna ekleyin, mevcut olanları silin, dosyaları yeniden adlandırın (ancak daha sonra bu konuda daha fazlası) veya arşivi olduğu gibi bırakın.
 
 3. Farklı cihazlar arasında aktarım yaparken, `.zip` dosyasını içe aktarmak için cihaza göndermeyi unutmayın. Örneğin, istisna listeleri iOS cihazınızdan Mac'inize aktarırsanız, `.zip` dosyasını önceden Mac'inize gönderdiğinizden emin olun.
 

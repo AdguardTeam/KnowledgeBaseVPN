@@ -1,9 +1,9 @@
 ---
-title: Installation and removal
+title: インストール方法と削除方法
 sidebar_position: 2
 ---
 
-## How to install AdGuard VPN browser extension
+## AdGuard VPN ブラウザ拡張機能のインストール方法
 
 To install AdGuard VPN browser extension, follow these steps:
 

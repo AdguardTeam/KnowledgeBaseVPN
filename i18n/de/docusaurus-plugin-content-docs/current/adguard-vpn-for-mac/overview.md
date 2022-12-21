@@ -13,7 +13,7 @@ Beachten Sie, dass **Sie AdGuard VPN für Mac nur verwenden können, wenn Sie si
 
 ![Startbildschirm](https://cdn.adguard.com/public/Adguard/Blog/mac-vpn-main.png)
 
-Die erste Registerkarte ist der Bildschirm *Home*. Here you can see AdGuard VPN current status and [exclusions mode](#exclusions), chosen location (if enabled) and its ping. Ping ist die Reaktionszeit eines VPN-Servers. Je niedriger diese Zahl ist, desto schneller ist die Verbindung. Wenn VPN deaktiviert ist, wird unten der letzte Standort angezeigt, mit dem Sie verbunden waren. Die schnellsten Standorte mit den niedrigsten Pings werden in der oberen rechten Ecke des Bildschirms angezeigt. Unten sehen Sie die vollständige Liste der Standorte. Sie können den gewünschten Ort leicht mit der Suchfunktion finden.
+Die erste Registerkarte ist der Bildschirm *Home*. Hier sehen Sie den aktuellen Status von AdGuard VPN und [Ausschlussmodus](#exclusions), den ausgewählten Standort (falls aktiviert) und seinen Ping. Ping ist die Reaktionszeit eines VPN-Servers. Je niedriger diese Zahl ist, desto schneller ist die Verbindung. Wenn VPN deaktiviert ist, wird unten der letzte Standort angezeigt, mit dem Sie verbunden waren. Die schnellsten Standorte mit den niedrigsten Pings werden in der oberen rechten Ecke des Bildschirms angezeigt. Unten sehen Sie die vollständige Liste der Standorte. Sie können den gewünschten Ort leicht mit der Suchfunktion finden.
 
 > Kostenlose Benutzer können sich nur mit bestimmten Standorten verbinden, während andere blockiert sind. Außerdem gibt es in der kostenlosen Version ein monatliches Traffic-Limit von 3 GB.
 
@@ -21,7 +21,7 @@ Die erste Registerkarte ist der Bildschirm *Home*. Here you can see AdGuard VPN 
 
 ![Ausschlüsse](https://cdn.adguard.com/public/Adguard/Blog/vpn/release/VPN_for_Mac/exclusions.png)
 
-Als nächstes erscheint der Bildschirm *Ausschlüsse*. AdGuard VPN has several features that make it unique, and one of them is certainly switching between two exclusions modes. In the General mode, AdGuard VPN will run on all websites but the ones from the exclusions list. Im Selektiven Modus hingegen arbeitet das VPN nur auf den Sites aus der Liste. Sie können selbst entscheiden, wo VPN funktionieren soll.
+Als nächstes erscheint der Bildschirm *Ausschlüsse*. AdGuard VPN hat mehrere Funktionen, die es einzigartig machen, und eine davon ist sicherlich das Umschalten zwischen zwei Auschlussmodi. Im Allgemeinen Modus funktioniert das VPN auf allen Websites mit Ausnahme derjenigen, die in der Ausschlussliste aufgeführt sind. Im Selektiven Modus hingegen arbeitet das VPN nur auf den Sites aus der Liste. Sie können selbst entscheiden, wo VPN funktionieren soll.
 
 ![Abschnitt: Ausschlüsse](https://cdn.adguard.com/public/Adguard/Blog/services.png)
 
@@ -34,7 +34,7 @@ Wenn Sie einen Dienst hinzugefügt, etwas geändert oder entfernt haben und nun 
 Außerdem können fertige Ausschlusslisten auf andere Geräte mit installiertem AdGuard VPN übertragen werden. Befolgen Sie zum Exportieren von Ausschlüssen die nachstehende Anleitung:
 
 1. Öffnen Sie AdGuard VPN auf dem Gerät, von dem Sie Ihre Ausschlusslisten exportieren möchten. Suchen Sie den entsprechenden Abschnitt und klicken Sie auf die Schaltfläche *Exportieren*. Das Archiv `exclusions.zip` wird heruntergeladen.
-2. There are two `.txt` files inside the archive, each for General and Selective lists. Fügen Sie ihnen weitere Ausschlüsse hinzu, löschen Sie die vorhandenen, benennen Sie Dateien um (mehr dazu — später) oder lassen Sie das Archiv mit den Dateien einfach unverändert.
+2. Im Archiv befinden sich zwei `.txt` Dateien, jeweils für Allgemeine und Selektive Listen. Fügen Sie ihnen weitere Ausschlüsse hinzu, löschen Sie die vorhandenen, benennen Sie Dateien um (mehr dazu — später) oder lassen Sie das Archiv mit den Dateien einfach unverändert.
 3. Vergessen Sie beim Übertragen zwischen verschiedenen Geräten nicht, die `.zip`-Datei zum Importieren an das Gerät zu senden. Wenn Sie beispielsweise Ausschlusslisten von Ihrem Mac-Gerät auf Ihr iPhone importieren, stellen Sie sicher, dass Sie die `.zip`-Datei vorher an Ihr iPhone senden.
 4. Öffnen Sie AdGuard VPN auf dem Gerät/im Browser, wo Sie das Archiv mit den fertigen Ausschlusslisten importieren möchten. Suchen Sie den entsprechenden Abschnitt, klicken Sie auf die Schaltfläche *Importieren* und wählen Sie das Archiv aus. Fertig!
 

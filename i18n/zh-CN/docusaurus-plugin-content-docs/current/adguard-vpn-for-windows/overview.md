@@ -11,108 +11,108 @@ VPN是“虚拟专用网络”的缩写，该服务可保证您的网络连接�
 
 * 防止网络流量拦截（欺骗）。 AdGuard VPN可在您的设备和远程服务器之间创建加密隧道。 您的所有网络流量都会经由此隧道，从而在此过程中保护您的数据。 得益于 [AdGuard 特有协议](/general/adguard-vpn-protocol.mdx)，您可以有快速、安全的连接。
 
-* 隐藏您的 IP 地址。 您的真实IP地址是网络犯罪分子获取您个人数据的关键。 如果您不隐藏IP，那么您的姓名、电子邮件地址、电话号码、信用卡信息都可能落入犯罪分子手中。 正如上文所说，使用AdGuard VPN，您的所有流量都会通过加密隧道到达VPN服务器。 因此，从外部看来，您设备的IP地址就和VPN 服务器的IP地址相同。
+* 隐藏您的 IP 地址。 您的真实 IP 地址是网络犯罪分子获取您个人数据的关键。 如果您不隐藏 IP，那么您的姓名、电子邮件地址、电话号码、信用卡信息都可能落入犯罪分子手中。 正如上文所说，使用 AdGuard VPN，您的所有流量都会通过加密隧道到达 VPN 服务器。 因此，从外部看来，您设备的 IP 地址就和 VPN 服务器的 IP 地址相同。
 
-* 隐藏您的真实位置。 选择任意一个AdGuard VPN服务器，您可以立即“传送”到其对应位置。 这有什么作用呢？ 举个例子，这样您就能够以当地的价格预订酒店，或者躲避地理目标广告。
+* 隐藏您的真实位置。 选择任意一个 AdGuard VPN 服务器，您可以立即“传送”到其对应位置。 这有什么作用呢？ 举个例子，这样您就能够以当地的价格预订酒店，或者躲避地理目标广告。
 
-Windows版AdGuard VPN有很多优点，为此我们专门[写了一篇文章](/general/why-adguard-vpn.md)来进行阐述。 不过，这里我们希望更多地着眼于程序本身及其工作原理。
+Windows 版 AdGuard VPN 有很多优点，为此我们专门[写了一篇文章](/general/why-adguard-vpn.md)来进行阐述。 不过，这里我们希望更多地着眼于程序本身及其工作原理。
 
-## 如何开始使用Windows版AdGuard VPN
+## 如何开始使用 Windows 版 AdGuard VPN
 
-要使用Windows版AdGuard VPN，请从[我们的网站](https://adguard-vpn.com/en/welcome.html)下载该应用程序。 安装时间不会超过1分钟，之后您会看到一个对话框，您至少要勾选一个框来实施用户协议和隐私政策的条款。 您可以决定是否允许AdGuard收集您应用使用情况的匿名数据。 最后，安装程序会要求您通过[AdGuard账户](https://auth.adguard.com/login.html)或社交平台（苹果、谷歌、脸书）登录。 就这样，您现在可以使用Windows版AdGuard VPN了。
+要使用 Windows 版 AdGuard VPN，请从[我们的网站](https://adguard-vpn.com/en/welcome.html)下载该应用程序。 安装时间不会超过1分钟，之后您会看到一个对话框，您至少要勾选一个框来实施用户协议和隐私政策的条款。 您可以决定是否允许 AdGuard 收集您应用使用情况的匿名数据。 最后，安装程序会要求您通过 [AdGuard 账号](https://auth.adguard.com/login.html)或社交平台（Apple、Google、Facebook）登录。 就这样，您现在可以使用 Windows 版 AdGuard VPN 了。
 
 
 ## 主界面
 
-![AdGuard VPN for Windows Home Page](https://cdn.adguard.com/content/kb/VPN/windows/main_en.png)
+![AdGuard VPN Windows版主界面](https://cdn.adguard.com/content/kb/VPN/windows/main_en.png)
 
-The most noticeable item on the **Home Screen** is the AdGuard VPN connect/disconnect button. Underneath, you can see the [mode](#exclusions) in which the application is running, and below — the selected server. On the right side of the screen you will find all available locations, and the fastest, i.e. with the shortest ping, will be listed at the top of the list.
+**主屏幕**上最引人注目的项目是 AdGuard VPN 连接/断开按钮。 在下面，用户可以看到应用程序正在其中运行的[模式](#exclusions)，在下面也显示选定的服务器。 在屏幕的右侧，用户可以看到所有可用的服务器位置，最快的，也就是 Ping 时间最短的，将被列在列表的顶部。
 
-At the top of the screen there is a navigation panel with four tabs: **Home**, **Exclusions**, **Support**, **Settings**. With the first tab done, let's move on.
-
-
-## Exclusions
-
-AdGuard VPN for Windows can work in two modes: **General** or **Selective**. What does this mean? If you want the application to work on all but a few sites, activate the **General mode** and list the resources you want to exclude from the tunnel. The **Selective mode** has the opposite effect: it activates AdGuard VPN only on the websites specified in the exclusion list. Please note that these two modes' exclusions lists are independent from one another.
-
-![Exclusions](https://cdn.adguard.com/content/kb/VPN/windows/exclusions_en.png)
-
-There are two options for creating exclusions lists: **Manually** and **From the list**. Click the **Add a website** line and choose the format you prefer for adding sites to the exclusions.
-
-![Add Exclusions](https://cdn.adguard.com/content/kb/VPN/windows/exclusions_add_en.png)
-
-![Add Exclusions from list](https://cdn.adguard.com/content/kb/VPN/windows/exclusions_from_list_en.png)
-
-> When adding domains manually, you should take into account some nuances. For example, if you manually exclude the domain `google.com`, all the subdomains `*.google.com` will also be added to the exclusions list. However, domain names with other top-level domains such as `google.es` or `google.it` will not be excluded. Or you can add `youtube.com` to the exclusions, but the domain of the same service `youtu.be` will not be included in the list.
-
-We would recommend to use the option **From the list** to avoid unnecessary hassle. We have already grouped eight different categories of popular services for you: Social networks, Messengers, Video and Music streaming services, Games, Shopping, Search engines, and Work communication tools. We have placed the most popular services there, including all domain names and subdomains related to each platform. That way you will be certain you haven't forgotten any service or domain you'd like to keep functioning while VPN is on, or vice versa.
-
-### Import/export exclusions lists
-
-In the **Exclusions** tab on the right side of the screen there is a section **Actions**. It may come in handy if you need to export or import ready-made exclusions lists.
-
-To export the list of exclusions from AdGuard for Windows to your computer, click **Export exclusions**, select the folder where the list will be stored and click **Save**. An archive `exclusions.zip` with two `.txt` files will be downloaded, one for each of the lists — **General** and **Selective**. You can edit them by adding new exclusions or deleting old ones.
-
-To transfer the exclusions lists to another device, send the `.zip` file to its destination. Open AdGuard VPN on the device where you want to import the archive with the ready-made exclusions lists, click *Exclusions*, then *Import exclusions* and select the previously sent archive.
-
-## Settings
-
-![Settings](https://cdn.adguard.com/content/kb/VPN/windows/settings_en.png)
-
-The fourth tab of app's tab bar contains sections that will help you customize the application. Let's look closer at two of them: **General** and **Split tunneling**.
+在屏幕顶部有一个带有四个标签的导航面板： 「**主页**」、「**排除项**」、「**支持**」、「**设置**」。 让我们继续往下看下一个标签。
 
 
-### General
+## 排除项
 
-The **General** section contains many useful features. Here you can set the app language and also enable **Kill Switch**, which will block access to the Internet if your VPN connection fails. This is needed to prevent intruders from getting to your data if you find yourself without VPN protection while connected to a public Wi-Fi or mobile network.
+适用于 Windows 的 AdGuard VPN 可以在两种模式下运行：「**常规**」和「**选择**」。 这是什么意思？ 如果用户想让应用程序在除少数站点外的所有站点上运作，请激活「**常规模式** ，并列出您想从隧道中排除的网站。 **选择模式**具有相反的效果：它仅在排除列表中指定的网站上启动 AdGuard VPN。 请注意，这两种模式的排除项列表是相互独立的。
 
-You can also activate the following features with a single click: **Autoupdate**, **Launch AdGuard VPN at Windows startup**, **Auto-connect on app launch**, and allow AdGuard to collect anonymized app usage data so that we can make it better. Here you can also change the default **Light Theme** to a **Dark Theme**.
+![排除项](https://cdn.adguard.com/content/kb/VPN/windows/exclusions_en.png)
 
-At the bottom of the page there are two sections: **DNS servers** and **Advanced settings**.
+创建排除项列表有两个方式：「**手动**」和「**从列表中**」。 单击「**添加网站**」行并选择您喜欢的格式以将网站添加到排除项中。
 
-![DNS settings and Advanced settings](https://cdn.adguard.com/content/kb/VPN/windows/settings_dns_and_advanced_en.png)
+![添加排除项](https://cdn.adguard.com/content/kb/VPN/windows/exclusions_add_en.png)
 
-#### DNS servers
+![从列表中添加排除项](https://cdn.adguard.com/content/kb/VPN/windows/exclusions_from_list_en.png)
 
-The **DNS servers** tab allows you to add your own custom DNS server. Why should you do this? For example, not to rely on the default DNS server, which is often controlled by your ISP.
+> 手动添加域名时，用户应该考虑到一些细微差别。 例如，如果用户手动排除域名 `google.com`，所有 `*.google.com` 的子域名也将被列在排除项中。 然而，具有其他顶级域名的域名，如 `google.es` 或`google.it`，将不会被排除。 或者您可以把 `youtube.com` 添加到排除项中，但同一服务的域名 `youtu.be` 将不会进入列表中。
 
-You can set up a DNS server by any provider. We recommend adding [AdGuard DNS](https://kb.adguard.com/en/general/dns-providers#adguard-dns), a server that can protect against advertising, tracking and phishing in addition to the standard functions.
+我们建议使用「**从列表中**」以避免不必要的麻烦。 我们已经为用户把名单分为八个流行服务的类别，包括社交网络、通信、视频和音乐流媒体服务、游戏、购物、搜索引擎和工作通信工具。 我们将最受欢迎的服务放在列表内，包括与每个平台相关的所有域名和子域名。 这样用户就可以确定自己没有忘记任何您想在 VPN 开启时保持运作的服务或域名，反之亦然。
 
-#### Advanced Settings
+### 导入/导出排除项列表
 
-It is entirely possible to use AdGuard VPN for Windows without ever touching the Advanced settings, but they can be useful if you're willing to take time to learn what they do.
+在屏幕右侧的「**排除项**」标签中，有一个「**操作**」部分。 如果用户需要导出或导入现成的排除项列表，本功能派上用场。
 
-**Operating Mode**
+要从 AdGuard Windows 版导出排除项列表到您的计算机，请点击「**导出排除项**」，选择将存储列表的文件夹并点击「**保存**」。 将下载一个存档 `exclusions.zip` 和两个 `.txt` 文件，每个列表有一个，包括**常规**和**选择**模式的列表。 您可以通过添加新的排除项或删除旧的排除项来编辑它们。
 
-Despite the fact that there are two operating modes — VPN and SOCKS5 — we advise you to use only the one chosen by default (VPN). When the **VPN mode** is enabled, all the traffic of your device will be directed via AdGuard VPN, while in **SOCKS5 mode** AdGuard VPN uses a local proxy server which can be used by other applications to redirect their traffic.
+要将排除项列表传输到另一台设备，请将 `.zip` 文件发送到相应的设备。 在您要导入带有现成排除项列表的存档的设备上打开 AdGuard VPN，点击「*排除项*」，然后点击「*导入排除项*」并选择之前发送的存档。
 
-**Logging level**
+## 设置
 
-Two levels of logging are available to choose from: **Record by default** and **Record everything**. The first option is enabled by default. The **Record everything** option should only be activated if our support team has asked you to do so. Using the app in this mode for an extended period of time result in increased battery consumption.
+![设置](https://cdn.adguard.com/content/kb/VPN/windows/settings_en.png)
 
-All logs are stored locally on your device and you can send them to the support team if needed.
-
-**Use QUIC**
-
-This is an experimental feature that enables AdGuard to use the advanced QUIC encryption protocol. It has many advantages, but the most notable one is that it can improve connection quality under non-ideal conditions, for example, when using mobile Internet or when connecting to public Wi-Fi networks.
+应用程序标签栏的第四个标签包含可帮助用户自定义应用程序的部分。 让我们仔细看看其中的两个：「**常规**」和「**分离隧道**」。
 
 
-### Split tunneling
+### 常规
 
-![Split tunnelling](https://cdn.adguard.com/content/kb/VPN/windows/split_tunneling_en.png)
+**常规**部分包含许多有用的功能。 在这里，用户可以设置应用程序的语言，也可以启用「**Kill Switch**」，如果您的 VPN 连接失败，本功能将阻止对互联网的访问。 如果您发现自己在连接到公共 Wi-Fi 或移动网络时没有 VPN 保护，则需要断开连接防止黑客窃取您的个人数据。
 
-AdGuard VPN encrypts the traffic not only of your browsers, but also of other apps installed on your computer. If you want to exclude certain applications from AdGuard's work, put them to the **Split tunneling** list.
+您还可以一键启动以下功能：「**自动更新**」、「**随 Windows 开机启动 AdGuard VPN**」、「**应用开启时自动连接**」，以及「允许 AdGuard VPN 收集与应用程序使用情况有关的匿名数据」，以便我们进一步改进软件. 在这里，您还可以将默认的**浅色主题**更改为**黑暗主题**。
 
-## Other tabs
+页面底部有两个部分：「**DNS 服务器**」和「**高级设置**」。
 
-### About
+![DNS 设置和高级设置](https://cdn.adguard.com/content/kb/VPN/windows/settings_dns_and_advanced_en.png)
 
-The **About program** tab provides information about the current version of AdGuard VPN for Windows, an update button, and a few useful links: AdGuard website, forum, EULA and Privacy Policy.
+#### DNS 服务器
 
-### About license
+**DNS 服务器**标签允许用户添加自定义 DNS 服务器。 为什么要添加服务器？ 例如，不要依赖通常由您的 ISP 控制的默认 DNS 服务器。
 
-Here you will find information about your license status, as well as a link to your personal AdGuard account, where you can manage your current subscriptions and purchase new ones.
+用户可以设置任何提供商的 DNS 服务器。 我们建议添加 [AdGuard DNS](https://kb.adguard.com/en/general/dns-providers#adguard-dns)。这是一个除了标准功能外还可以拦截广告、跟踪和网络钓鱼的服务器。
 
-## Support
+#### 高级设置
 
-In this tab we've collected a lot of useful links: FAQ page, application feedback form, social media pages, and **Knowledge Base**.
+为了正常使用 AdGuard VPN Windows 版，用户并不需要更改高级设置，但如果您愿意花时间了解它们的作用，高级设置很有用。
+
+**操作模式**
+
+尽管有两种运行模式，包括 VPN 和 SOCKS5，我们建议用户只使用默认选择的模式，即 VPN。 当用户启用 **VPN 模式**时，您设备的所有流量都将通过 AdGuard VPN 定向，而在 **SOCKS5 模式**下，AdGuard VPN 使用本地代理服务器，其他应用程序可以使用它来重定向它们的流量。
+
+**日志记录级别**
+
+一共有两个记录级别。「**默认记录**」和「**记录全部**」。 默认情况下启用第一个选项。 只有在我们的支持团队要求您这样做时，才应启动「**记录全部**」选项。 在本模式下长时间使用应用程序会导致电池消耗增加。
+
+所有日志记录在设备上本地存储。必要的话，用户可以将日志记录发给我们的技术支持。
+
+**使用 QUIC**
+
+这是一项实验性功能，使 AdGuard 使用高级 QUIC 加密协议。 本功能有许多优点，但最值得注意的是，它可以在非理想的条件下改善连接质量，例如，在用户使用移动互联网或连接到公共 Wi-Fi 网络时。
+
+
+### 分离隧道
+
+![分离隧道](https://cdn.adguard.com/content/kb/VPN/windows/split_tunneling_en.png)
+
+AdGuard VPN 不仅加密浏览器的流量，还加密您计算机上安装的其他应用程序的流量。 如果用户想从 AdGuard 的运作中排除某些应用程序，请将它们添加到「**分离隧道**」的列表。
+
+## 其他标签
+
+### 关于
+
+「**关于程序**」的标签提供有关 Windows 版 AdGuard VPN 当前版本的信息、更新按钮和一些有用的链接，包括 AdGuard 官网、论坛、EULA（最终用户许可协议）和隐私政策。
+
+### 关于许可证
+
+在这里用户可以查看关于许可证状态的信息，以及您个人 AdGuard 账号的链接。用户可以在账号里管理当前的订阅或购买新的订阅。
+
+## 支持
+
+在此标签里，我们收集了很多有用的链接。常见问题页面、应用反馈表、社交媒体页面和**知识库**。

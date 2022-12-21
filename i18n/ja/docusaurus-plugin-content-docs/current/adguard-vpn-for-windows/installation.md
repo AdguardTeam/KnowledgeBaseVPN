@@ -1,27 +1,27 @@
 ---
-title: How to install and uninstall
+title: インストール・アンインストール方法
 sidebar position: 2
 ---
 
 
-## System requirements
+## 動作環境
 
-AdGuard VPN can only be installed on devices with **Microsoft Windows 10/8.1/8/7/Vista SP2 (web-based only)**.
-
-
-## AdGuard VPN for Windows installation
-
-To install AdGuard VPN for Windows, visit [our website](https://adguard-vpn.com/en/welcome.html) and click the *Download* button. After it, the `adguardVPNInstaller.exe` will be downloaded. Run the installer and follow its instructions. The process will take less than a minute.
-
-Then you will need to check the box to accept the terms of the EULA and the Privacy Policy. And in the last step of the installation, you will be prompted to authorize via your AdGuard account or via social networks (Google, Apple, Facebook).
+AdGuard VPN は、 **Microsoft Windows 11/10/8.1/8/7/Vista SP2 (web-based only)** を搭載した端末にインストールできます。
 
 
-## AdGuard VPN for Windows uninstallation
+## AdGuard VPN for Windows のインストール方法
 
-If you decide to remove AdGuard VPN from your computer, use one of three options listed below.
+AdGuard VPN for Windowsをインストールするには、[ホームページ](https://adguard-vpn.com/ja/welcome.html)にアクセスし、「*ダウンロード*」ボタンをクリックしてください。 その後、 `adguardVPNInstaller.exe` がダウンロードされます。 インストーラーを実行し、表示される手順を行ってください。 このプロセスは1分程度で終わります。
 
-1. Click *Start* and find AdGuard VPN in the opened list. Right-click it and select *Uninstall*.
+次に、EULAとプライバシーポリシーの条項に同意するチェックボックスにチェックを入れる必要があります。 そして、インストールの最後のステップとしては、AdGuardアカウント経由またはSNS（Google、Apple、Facebook）経由でログインします。
 
-2. Click *Start* → *Settings* → *Apps* → *Applications and features*. Find AdGuard VPN in the list, click it and choose *Uninstall*.
 
-3. Open the *Control Panel*, then click *Programs* → *Programs and Features* → *Uninstall a program*. Find AdGuard VPN in the list, right-click it and select *Uninstall*.
+## AdGuard VPN for Windows のアンインストール方法
+
+お使いのコンピュータからAdGuard VPNを削除する場合、以下の3つのオプションのいずれかを使用してください。
+
+1. *スタート* をクリックし、開いたリストでAdGuard VPNを見つけます。 右クリックして、 *アンインストール*を選択します。
+
+2. *スタート* → *設定* → *アプリ* → *アプリケーションと機能*に移動し、 リストでAdGuard VPNを見つけてクリックし、 *アンインストール*を選択します。
+
+3. *コントロールパネル*を開き、*プログラム* → *プログラムと機能* → *プログラムのアンインストール*をクリックします。 リストでAdGuard VPNを見つけてクリックし、 *アンインストール*を選択します。

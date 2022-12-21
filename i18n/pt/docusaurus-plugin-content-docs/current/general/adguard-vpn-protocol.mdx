@@ -1,28 +1,28 @@
 ---
-title: 'How AdGuard VPN protocol works'
+title: 'Como funciona o protocolo AdGuard VPN'
 sidebar_position: 4
 ---
 
-Our protocol is used by [all AdGuard VPN mobile and desktop applications](https://adguard-vpn.com/en/welcome.html). Download any of our products and use it knowing that your data is protected in the most secure way.
+Nosso protocolo é usado por [todos os aplicativos móveis e de desktop AdGuard VPN](https://adguard-vpn.com/en/welcome.html). Baixe qualquer um de nossos produtos e use-o sabendo que seus dados estão protegidos da maneira mais segura.
 
 <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7149L3xPmSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## Why we developed the AdGuard VPN protocol
+## Por que desenvolvemos o protocolo AdGuard VPN
 
-For years, we were concentrating on developing all flavors of ad blocking apps and browser extensions. And in 2019 we resolved to develop our own VPN service, seemingly out of nowhere. When in reality, there were a few reasons that prompted us to do so.
+Durante anos, nos concentramos no desenvolvimento de todos os tipos de aplicativos de bloqueio de anúncios e extensões de navegador. E em 2019 resolvemos desenvolver nosso próprio serviço VPN, aparentemente do nada. Quando, na realidade, houve alguns motivos que nos levaram a fazê-lo.
 
-* AdGuard mobile apps had compatibility issues with VPN apps. Normally, two VPN-based mobile apps can't work together: in rare cases on iOS, and never on Android. As AdGuard ad blocker apps use local VPN to filter network traffic, using them alongside any VPN app would be out of the question. That's why we saw the development of an in-house VPN as the only feasible solution that could guarantee compatibility: after we apply some magic, the two apps are able to work together as one VPN service.
-* Secondly, VPN seemed more than relevant to our philosophy and priorities. Our primary goal is to protect users' privacy, and this is exactly what VPNs are for.
-* Finally, over the years of developing AdGuard software, we have become experts in filtering network traffic. This allowed us to bring in something new instead of becoming another wishy-washy VPN.
+* Os aplicativos móveis AdGuard tiveram problemas de compatibilidade com aplicativos VPN. Normalmente, dois aplicativos móveis baseados em VPN não podem funcionar juntos: em casos raros no iOS e nunca no Android. Como os aplicativos bloqueadores de anúncios AdGuard usam VPN local para filtrar o tráfego de rede, usá-los junto com qualquer aplicativo VPN estaria fora de questão. É por isso que vimos o desenvolvimento de uma VPN interna como a única solução viável que poderia garantir a compatibilidade: depois de aplicarmos um pouco de mágica, os dois aplicativos são capazes de trabalhar juntos como um serviço VPN.
+* Em segundo lugar, a VPN parecia mais do que relevante para nossa filosofia e prioridades. Nosso principal objetivo é proteger a privacidade dos usuários, e é exatamente para isso que servem as VPNs.
+* Por fim, ao longo dos anos desenvolvendo o software AdGuard, nos tornamos especialistas em filtrar o tráfego de rede. Isso nos permitiu trazer algo novo em vez de nos tornarmos outra VPN insípida.
 
-From the outset, we decided that AdGuard VPN would have one key difference from its competitors — we shall develop and deploy an in-house VPN protocol which would not force users to choose between security and speed.
+Desde o início, decidimos que o AdGuard VPN teria uma diferença fundamental em relação aos seus concorrentes — desenvolveríamos e implantaríamos um protocolo VPN interno que não forçaria os usuários a escolher entre segurança e velocidade.
 
-## Disadvantages of popular VPN protocols
+## Desvantagens dos protocolos VPN populares
 
-We developed the AdGuard VPN protocol seeing the disadvantages of popular VPN protocols (OpenVPN, WireGuard, IPSec, etc.):
+Desenvolvemos o protocolo VPN AdGuard vendo as desvantagens dos protocolos VPN populares (OpenVPN, WireGuard, IPSec, etc.):
 
-* They can be easily detected and blocked on the network level.
-* If you try to "hide" them, the performance will drop.
+* Eles podem ser facilmente detectados e bloqueados no nível da rede.
+* Se você tentar "escondê-los", o desempenho cairá.
 
 To "conceal" the use of VPN, the data flow is often "wrapped" in a TCP connection, and sometimes it is additionally encrypted to make the traffic look like a normal website connection. Unfortunately, this approach has a disadvantage – due to the use of TCP, there is a need for additional confirmation of delivery.
 

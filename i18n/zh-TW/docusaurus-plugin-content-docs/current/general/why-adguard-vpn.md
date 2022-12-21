@@ -1,5 +1,5 @@
 ---
-title: 'Why AdGuard VPN is the better option'
+title: '為何 AdGuard VPN 是更好的選擇'
 sidebar_position: 2
 ---
 

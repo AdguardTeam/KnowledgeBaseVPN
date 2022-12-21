@@ -1,14 +1,14 @@
 ---
-title: 'Why AdGuard VPN is the better option'
+title: 'AdGuard VPN이 타사 제품보다 나은 이유'
 sidebar_position: 2
 ---
 
-When getting ready to commit to a [long-term VPN subscription](subscription.md), users most frequently evaluate its speed, security, and price. Those are very important points but there is so much more! AdGuard VPN has a dozen of key assets that make it 'the better option'.
+[장기 VPN 구독](subscription.md)을 구매하기로 결정할 때 사용자는 먼저 속도, 보안 및 가격을 평가합니다. 물론 이것들은 중요한 포인트이지만 더 많은 포인트가 있습니다! AdGuard VPN에는 몇 가지 고유한 이점이 있습니다.
 
-*To start with, let’s go over AdGuard VPN’s unmatched features that you won’t find in any other VPN.*
+*먼저 다른 VPN에는 없는 AdGuard VPN 기능을 자세히 살펴보겠습니다.*
 
 ## 1. 독점 프로토콜
-From the very outset, we resolved to develop and deploy an in-house VPN protocol instead of picking a canned solution — that’d be too easy, plus, we weren’t satisfied with existing protocols. The result has become the [AdGuard VPN protocol](adguard-vpn-protocol.mdx).
+경쟁사와 AdGuard VPN 주요 차이점은 기존 프로토콜 대신 자체 VPN 프로토콜을 사용한다는 것입니다. The result has become the [AdGuard VPN protocol](adguard-vpn-protocol.mdx).
 
 Choosing a VPN service, people often face a trade-off between fast vs. safe. The AdGuard VPN protocol is a perfect blend of speed and security, so you don’t have to bear slow internet connection or make privacy sacrifices. Among other things, it disguises itself as regular traffic and it’s much harder to detect and block it.
 
