@@ -19,7 +19,7 @@ Due modi esistano per risolvere il problema:
 
 > In caso di difficoltà o di ulteriori domande, le istruzioni complete sono disponibili all'indirizzo [qui](https://developer.android.com/studio/debug/dev-options).
 
-2. [Install and configure](https://www.xda-developers.com/install-adb-windows-macos-linux/) ADB;
+2. [Installa e configura](https://www.xda-developers.com/install-adb-windows-macos-linux/) ADB;
 > Sulla piattaforma Windows, **i possessori di Samsung** potrebbero dover installare [questa utility](https://developer.samsung.com/mobile/android-usb-driver.html).
 
 3. Collegare il dispositivo con un **cavo USB** al computer o laptop su cui è stato installato **ADB**;

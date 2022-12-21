@@ -38,7 +38,7 @@ Les listes d'exclusions vous permettent de sélectionner les sites pour lesquels
 
 Il existe deux modes : en *Mode général* les sites de la liste des exclusions sont exclus, et en *Mode sélectif*, ils seront les seuls où AdGuard VPN fonctionnera.
 
-You can add domains (e.g. `google.com`) or subdomains (e.g. `*.google.com`) of websites to the *Exclusions* in three ways: enter them manually in the app, or right from the browser by clicking the *Share* button and selecting AdGuard VPN in the opened list below, or from built-in lists of services divided by categories.
+Vous pouvez ajouter des domaines (par exemple `google.com`) ou des sous-domaines (par exemple `*.google.com`) de sites web aux *exclusions* de trois manières : saisissez-les manuellement dans l'application ou directement depuis le navigateur en cliquant sur le bouton *Partager* et en sélectionnant AdGuard VPN dans la liste déroulante ci-dessous, soit dans les listes integrées de services triées par catégories.
 
 ![Exclusions](https://cdn.adguard.com/public/Adguard/kb/VPN/Screenshots/add_site_android.jpg)
 > Il y a quelques nuances dans le processus d'ajout manuel de domaines. Par exemple, si vous excluez manuellement le domaine `yahoo.com`, les `sous-domaines *.yahoo.com` seront également répertoriés dans les exclusions. Toutefois, les noms de domaine avec d'autres domaines de premier niveau, tels que `yahoo.jp` ou `yahoo.fr`, ne seront pas exclus. Ou vous pouvez ajouter `youtube.com` aux exclusions, mais le domaine du même service `youtu.be` n'entrera pas dans la liste. Dans ce cas-là c'est plus sécuritaire d'utiliser les listes de services intégrées, car nous y plaçons tous les sous-domaines liés à chaque plate-forme.
@@ -104,9 +104,9 @@ La section *Mode de fonctionnement* vous permet de choisir l'une des trois optio
 
 > Veuillez noter que certaines fonctionnalités du VPN AdGuard sont désactivées en *Mode de compatibilité* : sélection du serveur DNS, Kill Switch et protection automatique. En outre, pour gérer le tunnelage des applications, vous devez ouvrir l'application Bloqueur de AdGuard.
 
-Les deux sections suivantes sont *Niveau de journalisation* et *Informations diagnostiques*. Concerning the first option, it is not recommended to enable the Extended or Extreme logging level unless requested by our support team. Des informations de diagnostic, des informations techniques stockées localement sur l'appareil et les connexions (adresse IP, ID, ping, etc.), peuvent nous être envoyées en cas de problème technique.
+Les deux sections suivantes sont *Niveau de journalisation* et *Informations diagnostiques*. Concernant la première option, il n'est pas recommandé d'activer le niveau de journalisation étendu ou extrême, sauf par demande de notre équipe de support. Des informations de diagnostic, des informations techniques stockées localement sur l'appareil et les connexions (adresse IP, ID, ping, etc.), peuvent nous être envoyées en cas de problème technique.
 
-La dernière section des *Paramètres avancés* est *Paramètres de bas niveau*. Nous vous conseillons de ne pas accéder à cette section, sauf si vous êtes hautement qualifié ou si notre équipe d'assistance vous l'a demandé. Here it is possible to enable TUN interface logging or IPv6 protocol on the VPN interface, choose a proxy server port or Internet protocol version that should be used.
+La dernière section des *Paramètres avancés* est *Paramètres de bas niveau*. Nous vous conseillons de ne pas accéder à cette section, sauf si vous êtes hautement qualifié ou si notre équipe d'assistance vous l'a demandé. Ici vous pouvez activer la journalisation de l'interface TUN ou le protocole IPv6 sur l'interface VPN, choisir un port de serveur proxy ou une version de protocole Internet à utiliser.
 
 ### Assistance
 

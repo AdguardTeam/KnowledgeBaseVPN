@@ -13,7 +13,7 @@ Das AdGuard-Team entschied sich von Anfang an für die Entwicklung und Implement
 Bei der Wahl eines VPN-Dienstes müssen Sie oft zwischen hoher Geschwindigkeit und Sicherheit auswählen. Das AdGuard VPN-Protokoll ist eine perfekte Mischung aus Geschwindigkeit und Sicherheit, so dass Sie weder eine langsame Internetverbindung in Kauf nehmen noch Abstriche beim Datenschutz machen müssen. Unter anderem tarnt er sich als regulärer Datenverkehr und ist viel schwerer zu erkennen und zu blockieren.
 
 ## 2. Ausschlüsse
-Die Listen *Ausschlüsse* ermöglichen es Ihnen, Websites auszuwählen, für die das VPN aktiviert und deaktiviert werden soll. Es gibt zwei Betriebsmodi in AdGuard VPN: *Allgemein* und *Selektiv*. *Allgemeiner Modus:* AdGuard VPN funktioniert nicht auf Websites aus der Ausschlussliste. Und umgekehrt funktioniert VPN im *selektiven Modus* nur auf Websites, die zu den Ausnahmen gehören. You can also easily import/export exclusions lists. Lesen Sie mehr über diese Funktion unter *Funktionsübersicht* für das Produkt, an dem Sie interessiert sind.
+Die Listen *Ausschlüsse* ermöglichen es Ihnen, Websites auszuwählen, für die das VPN aktiviert und deaktiviert werden soll. Es gibt zwei Betriebsmodi in AdGuard VPN: *Allgemein* und *Selektiv*. *Allgemeiner Modus:* AdGuard VPN funktioniert nicht auf Websites aus der Ausschlussliste. Und umgekehrt funktioniert VPN im *selektiven Modus* nur auf Websites, die zu den Ausnahmen gehören. Sie können auch problemlos Ausschlusslisten importieren/exportieren. Lesen Sie mehr über diese Funktion unter *Funktionsübersicht* für das Produkt, an dem Sie interessiert sind.
 
 ![Ein Beispiel für eine Ausschlussliste für den selektiven Modus](https://cdn.adguard.com/public/Adguard/Blog/vpn_export_exclusions.png)
 
@@ -22,13 +22,13 @@ Sie können Websites manuell zu den Ausschlüssen hinzufügen oder sie aus der L
 > Diese Funktion ist auf allen Plattformen außer iOS verfügbar.
 
 ## 3. Auswahl eines DNS-Servers
-Verlassen Sie sich nicht mehr auf den DNS-Server, den Ihr ISP standardmäßig bereitstellt. Erstens ist es nicht sicher: Ihr Internetanbieter hat höchstwahrscheinlich Zugriff auf Ihren Browserverlauf. Second, people often underestimate DNS, yet it can remove ads and trackers, protect your device from malware or, for instance, enable safe search and block adult content.
+Verlassen Sie sich nicht mehr auf den DNS-Server, den Ihr ISP standardmäßig bereitstellt. Erstens ist es nicht sicher: Ihr Internetanbieter hat höchstwahrscheinlich Zugriff auf Ihren Browserverlauf. Zweitens wird DNS oft unterschätzt, aber es kann Anzeigen und Tracker entfernen, Ihr Gerät vor Malware schützen oder beispielsweise eine sichere Suche aktivieren und nicht jugendfreie Inhalte blockieren.
 
 Sie können DNS-Server von [bekannten DNS-Anbietern](https://kb.adguard.com/en/general/dns-providers) wie AdGuard, Cisco, Cloudflare, Google oder Quad9 auswählen oder sogar Ihren eigenen DNS-Server konfigurieren.
 
 ## 4. Schnellste Standorte
 
-Eine weitere Funktion, mit der sich AdGuard VPN von der Masse abhebt, ist die Möglichkeit, einen Standort anhand seines Ping auszuwählen. In a nutshell, ping is the time it takes the data packet sent from your device to reach the server and return. Je niedriger ist der Ping, je näher ist der Server, desto höher ist seine Geschwindigkeit. Wir erweitern ständig die Zahl der Standorte, damit Sie aus einer Vielzahl von Angeboten wählen können.
+Eine weitere Funktion, mit der sich AdGuard VPN von der Masse abhebt, ist die Möglichkeit, einen Standort anhand seines Ping auszuwählen. Kurz gesagt ist der Ping die Zeit, die das von Ihrem Computer gesendete Datenpaket braucht, um den Server zu erreichen und zurückzukehren. Je niedriger ist der Ping, je näher ist der Server, desto höher ist seine Geschwindigkeit. Wir erweitern ständig die Zahl der Standorte, damit Sie aus einer Vielzahl von Angeboten wählen können.
 
 > Beachten Sie, dass Sie ein AdGuard VPN-Abonnement erwerben müssen, um Zugang zu allen VPN-Serverstandorten zu erhalten.
 
@@ -62,7 +62,7 @@ AdGuard VPN bietet seinen zahlenden Nutzer:innen fünf gleichzeitige Verbindunge
 ## 11. Sicheres Streaming
 Streaming-Dienste mögen VPNs aus offensichtlichen Gründen nicht: Statistiken zufolge installieren etwa 20% der Nutzer:innen ein VPN hauptsächlich, um Sendungen, Fernsehsendungen und Filme unter Umgehung von Geoblocking anzusehen. Deshalb setzen Streaming-Plattformen alles daran, den VPN-Verkehr zu verfolgen und zu blockieren.
 
-Was aber, wenn Sie sich sicher fühlen wollen, während Sie sich Inhalte ansehen, die für Ihre Region spezifisch sind? Or don't want stop watching exciting series even when you travel to another country? Die Antwort ist einfach — AdGuard VPN, das dank seines einzigartigen Protokolls für die Dienste unsichtbar bleiben kann.
+Was aber, wenn Sie sich sicher fühlen wollen, während Sie sich Inhalte ansehen, die für Ihre Region spezifisch sind? Oder wollen Sie nicht aufhören, spannende Serien zu sehen, auch wenn Sie in ein anderes Land reisen? Die Antwort ist einfach — AdGuard VPN, das dank seines einzigartigen Protokolls für die Dienste unsichtbar bleiben kann.
 
 > Wir befürworten nicht die Verwendung von AdGuard VPN zur Umgehung von Urheberrechtsbestimmungen.
 
@@ -70,4 +70,4 @@ Was aber, wenn Sie sich sicher fühlen wollen, während Sie sich Inhalte ansehen
 
 ![Dunkelmodus](https://cdn.adguard.com/public/Adguard/Blog/vpn/main_en_black.png)
 
-Dieses kleine Feature verdient besondere Erwähnung. Tatsächlich sehnen sich viele Benutzer:innen nach einem dunklen Modus, so dass wir dies nicht ignorieren konnten und einen Themenschalter für alle AdGuard VPN-Produkte hinzugefügt haben. Choose the one you like more — light, dark or system default. Hoffentlich wird Ihnen den Dunkelmodus gefallen.
+Dieses kleine Feature verdient besondere Erwähnung. Tatsächlich sehnen sich viele Benutzer:innen nach einem dunklen Modus, so dass wir dies nicht ignorieren konnten und einen Themenschalter für alle AdGuard VPN-Produkte hinzugefügt haben. Wählen Sie aus, was Ihnen besser gefällt — hell, dunkel oder System. Hoffentlich wird Ihnen den Dunkelmodus gefallen.

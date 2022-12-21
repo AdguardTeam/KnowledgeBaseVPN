@@ -1,118 +1,118 @@
 ---
-title: Features overview
+title: 機能概要
 sidebar position: 1
 ---
 
-## What is AdGuard VPN for Windows
+## AdGuard VPN for Windows とは？
 
-A VPN, acronym for "virtual private network", is a service that makes your internet connection safe and helps you stay anonymous online. How does it work? Every time you visit a website without using a VPN, your ISP sees it. It knows who you are and what you're looking for, and it can collect and sell this data. In it's turn, the website you came to can also track your activity. When you enable a VPN application, it redirects your traffic through an encrypted tunnel to a remote VPN server, ensuring your privacy: the ISP doesn't know where to you sent a request, and the site doesn't know where you came from.
+VPNとは、「Virtual Private Network」の略で、インターネット接続を安全にし、ネット上での匿名性を確保するためのサービスです。 その仕組みは？ VPNを使用せずにウェブサイトを訪問するたびに、ISP（インターネットプロバイダ）はそれを見れます。 あなたが誰で、何を検索しているのか、どこにアクセスしたりしているのはを知り、そのデータを収集し、販売することができるのです。 さらに、アクセスしたWebサイトも、あなたの行動を追跡することができます。 そこでVPNアプリを有効にすると、トラフィック（通信）は暗号化されたトンネルを経由してリモートのVPNサーバーにリダイレクトされ、プライバシーが保証されます。ISPは、あなたがリクエストをどこに送信するかを知らず、サイトもあなたがどこからアクセスしたのかをわかりません。
 
-**What does AdGuard VPN for Windows do**
+**AdGuard VPN for Windows の効果**
 
-* Protects from network traffic interception (spoofing). AdGuard VPN creates an encrypted tunnel between your device and a remote server. All your Internet traffic passes through this tunnel, so your data is protected along the way. And thanks to [AdGuard's unique protocol](/general/adguard-vpn-protocol.mdx), you're guaranteed a fast and secure connection.
+* ネットワークトラフィックの傍受（スプーフィング）から保護します。 AdGuard VPNは、お使いの端末とVPNサーバーの間に暗号化トンネルを作成します。 すべてのインターネットトラフィックはこのトンネルを通過することによって、データ・個人情報は保護されます。 また、 [AdGuardの独自開発プロトコル](/general/adguard-vpn-protocol.mdx)のおかげで、高速で安全な接続が保証されます。
 
-* Masks your IP address. Your true IP address is the key to your personal data for cybercriminals. Your name, email address, phone number, credit card information can all fall into the hands of fraudsters if you don't hide your IP. With AdGuard VPN, as we said before, all your traffic goes through an encrypted tunnel and comes to the VPN server. Therefore, from the outside it appears that your device has the IP address of said VPN server.
+* IPアドレスを隠します。 サイバー犯罪者にとって、あなたの実際のIPアドレスは、あなたの個人情報を把握するための鍵です。 IPを隠さないと、名前、メールアドレス、電話番号、クレジットカード情報などがすべて詐欺師等の手に渡ってしまう可能性があるのです。 AdGuard VPNを使えば、すべてのトラフィックが暗号化されたトンネルを通過してVPNサーバーにたどり着きます。 そのため、オンライン上ではあなたの端末がそのVPNサーバーのIPアドレスを持っているように見えるのです。
 
-* Hides your real location. By selecting any of the AdGuard VPN servers, you are instantly "teleported" to its location. What does this give you? For example, the ability to book a hotel at locals' rates or hide from geotargeted advertising.
+* 現在位置を隠します。 AdGuard VPN サーバーのいずれかを選択することで、その場所に瞬時に「テレポート」します。 その効果は？ 例えば、地元の人の料金でホテルを予約できたり、地域をもとにターゲットしてくる広告から隠れることができたりします。
 
-AdGuard VPN for Windows has many advantages, so we've dedicated [a separate article](/general/why-adguard-vpn.md) to them. Here, however, we want to focus more on the application itself and how it works.
+AdGuard VPN for Windows には多くのメリットがあるので、よければ優れているところを[別記事で詳しく](/general/why-adguard-vpn.md)ご確認いただけます。 本記事では、アプリそのものと、その仕組みに焦点を当てたいと思います。
 
-## How to start using AdGuard VPN for Windows
+## AdGuard VPN for Windows を使い始める方法
 
-To start using AdGuard VPN for Windows, download the app from [our website](https://adguard-vpn.com/en/welcome.html). The installation takes no more than a minute — and you'll see a dialog window where you'll need to check at least one box applying the terms of the User Agreement and the Privacy Policy. And it's up to you to decide whether you want AdGuard to collect anonymized data about your app usage. At last the program will ask you to sign in, either via [AdGuard account](https://auth.adguard.com/login.html) or via social networks (Apple, Google, Facebook). That's all, you can now use AdGuard VPN for Windows.
-
-
-## Home Screen
-
-![AdGuard VPN for Windows Home Page](https://cdn.adguard.com/content/kb/VPN/windows/main_en.png)
-
-The most noticeable item on the **Home Screen** is the AdGuard VPN connect/disconnect button. Underneath, you can see the [mode](#exclusions) in which the application is running, and below — the selected server. On the right side of the screen you will find all available locations, and the fastest, i.e. with the shortest ping, will be listed at the top of the list.
-
-At the top of the screen there is a navigation panel with four tabs: **Home**, **Exclusions**, **Support**, **Settings**. With the first tab done, let's move on.
+AdGuard VPN for Windows の使用を開始するには、[こちら](https://adguard-vpn.com/ja/welcome.html)からアプリをダウンロードしてください。 インストールは1分もかかりません。ダイアログウィンドウが表示されますので、EULA（使用許諾書）とプライバシーポリシーの条項に関するチェックボックスに少なくとも1つチェックを入れてください。 AdGuardがアプリの使用状況に関する匿名化されたデータを収集することを許可するかどうかは、お客様次第です。 最後に、[AdGuardアカウント](https://auth.adguard.com/login.html)またはSNS (Apple、Google、Facebook) 経由でログインします。 これで、AdGuard VPN for Windowsの利用が可能になります。
 
 
-## Exclusions
+## ホーム画面
 
-AdGuard VPN for Windows can work in two modes: **General** or **Selective**. What does this mean? If you want the application to work on all but a few sites, activate the **General mode** and list the resources you want to exclude from the tunnel. The **Selective mode** has the opposite effect: it activates AdGuard VPN only on the websites specified in the exclusion list. Please note that these two modes' exclusions lists are independent from one another.
+![AdGuard VPN for Windows のホーム画面](https://cdn.adguard.com/content/kb/VPN/windows/main_en.png)
 
-![Exclusions](https://cdn.adguard.com/content/kb/VPN/windows/exclusions_en.png)
+**ホーム画面**で最も目立つ項目は、AdGuard VPNの接続/切断ボタンです。 その下に、アプリが現在動作している[除外モード](#exclusions)が表示され、さらにその下には選択されているサーバー（ロケーション）が表示されます。 画面右側には、利用可能なロケーションが表示され、pingが最も小さい、つまり接続速度が一番速いロケーションがリストの一番上に表示されます。
 
-There are two options for creating exclusions lists: **Manually** and **From the list**. Click the **Add a website** line and choose the format you prefer for adding sites to the exclusions.
-
-![Add Exclusions](https://cdn.adguard.com/content/kb/VPN/windows/exclusions_add_en.png)
-
-![Add Exclusions from list](https://cdn.adguard.com/content/kb/VPN/windows/exclusions_from_list_en.png)
-
-> When adding domains manually, you should take into account some nuances. For example, if you manually exclude the domain `google.com`, all the subdomains `*.google.com` will also be added to the exclusions list. However, domain names with other top-level domains such as `google.es` or `google.it` will not be excluded. Or you can add `youtube.com` to the exclusions, but the domain of the same service `youtu.be` will not be included in the list.
-
-We would recommend to use the option **From the list** to avoid unnecessary hassle. We have already grouped eight different categories of popular services for you: Social networks, Messengers, Video and Music streaming services, Games, Shopping, Search engines, and Work communication tools. We have placed the most popular services there, including all domain names and subdomains related to each platform. That way you will be certain you haven't forgotten any service or domain you'd like to keep functioning while VPN is on, or vice versa.
-
-### Import/export exclusions lists
-
-In the **Exclusions** tab on the right side of the screen there is a section **Actions**. It may come in handy if you need to export or import ready-made exclusions lists.
-
-To export the list of exclusions from AdGuard for Windows to your computer, click **Export exclusions**, select the folder where the list will be stored and click **Save**. An archive `exclusions.zip` with two `.txt` files will be downloaded, one for each of the lists — **General** and **Selective**. You can edit them by adding new exclusions or deleting old ones.
-
-To transfer the exclusions lists to another device, send the `.zip` file to its destination. Open AdGuard VPN on the device where you want to import the archive with the ready-made exclusions lists, click *Exclusions*, then *Import exclusions* and select the previously sent archive.
-
-## Settings
-
-![Settings](https://cdn.adguard.com/content/kb/VPN/windows/settings_en.png)
-
-The fourth tab of app's tab bar contains sections that will help you customize the application. Let's look closer at two of them: **General** and **Split tunneling**.
+画面上部には、タブ4つ（ **ホーム画面**、**VPN対象外リスト**、**サポート**、**設定**）のナビゲーションパネルがあります。 ２つ目のタブ、「VPN対象外リスト」を見てみましょう。
 
 
-### General
+## VPN対象外リスト（除外機能）
 
-The **General** section contains many useful features. Here you can set the app language and also enable **Kill Switch**, which will block access to the Internet if your VPN connection fails. This is needed to prevent intruders from getting to your data if you find yourself without VPN protection while connected to a public Wi-Fi or mobile network.
+AdGuard VPN for Windows には、「**一般**」と「**指定**」という2つの除外モードがあります。 これは一体どういうことなのか？ 一部のサイトだけに対して、AdGuard VPNを常時オンにしたい場合は、**一般モード** を有効にして、除外したいサイトをリストに追加してください。 **指定モード**は、その逆で、リストにあるWebサイトのみに対して、AdGuard VPNが有効になります。 ※それぞれのモードの除外リストは、別々のリストであることにご注意ください。
 
-You can also activate the following features with a single click: **Autoupdate**, **Launch AdGuard VPN at Windows startup**, **Auto-connect on app launch**, and allow AdGuard to collect anonymized app usage data so that we can make it better. Here you can also change the default **Light Theme** to a **Dark Theme**.
+![VPN対象外リスト（除外機能）](https://cdn.adguard.com/content/kb/VPN/windows/exclusions_en.png)
 
-At the bottom of the page there are two sections: **DNS servers** and **Advanced settings**.
+除外リストは、**手動で作成**と**リストから選択**という2つの方法で作成できます。 「**ウェブサイトを追加する**」をクリックし、ご希望の方法を選べます。
 
-![DNS settings and Advanced settings](https://cdn.adguard.com/content/kb/VPN/windows/settings_dns_and_advanced_en.png)
+![対象外項目を追加する](https://cdn.adguard.com/content/kb/VPN/windows/exclusions_add_en.png)
 
-#### DNS servers
+![リストから対象外項目を追加する](https://cdn.adguard.com/content/kb/VPN/windows/exclusions_from_list_en.png)
 
-The **DNS servers** tab allows you to add your own custom DNS server. Why should you do this? For example, not to rely on the default DNS server, which is often controlled by your ISP.
+> 手動でドメインを追加する場合、いくつかのニュアンスに注意する必要があります。 例えば、ドメイン`google.com`を手動で追加すると、サブドメイン `*.google.com` のすべても除外対象になります。 ただし、この場合、`google.es` や `google.it`など、他のトップレベルドメインを持つドメイン名は除外対象になりません。 もう一つの例として、例えば `youtube.com` を除外リストに追加しても、同サービスのドメインである `youtu.be` は除外対象になりません。
 
-You can set up a DNS server by any provider. We recommend adding [AdGuard DNS](https://kb.adguard.com/en/general/dns-providers#adguard-dns), a server that can protect against advertising, tracking and phishing in addition to the standard functions.
+不要な手間を省くために、**リストから追加する**ことをお勧めします。 人気サービスのリストは8つのカテゴリーに分けられています（SNS、メッセンジャー、動画・音楽配信サービス、ゲーム、ショッピング、検索エンジン、ワークコミュニケーションツール）。 リストには最も人気のあるサービスがあり、各サービスの各プラットフォームに関連するドメイン名とサブドメインも全部含まれています。 そうすることで、リストに追加したいサービスやドメインをまるごと見逃さず追加することができます。
 
-#### Advanced Settings
+### VPN対象外項目のインポート・エクスポート
 
-It is entirely possible to use AdGuard VPN for Windows without ever touching the Advanced settings, but they can be useful if you're willing to take time to learn what they do.
+**VPN対象外リスト**画面の右側には、**アクション**というセクションがあります。 既存の除外リストをエクスポート・インポートする必要がある場合に便利です。
 
-**Operating Mode**
+AdGuard for Windows から除外リストをコンピュータにエクスポートするには、「**対象外項目をアクスポート**」をクリックし、保存するフォルダを選択し、「**保存する**」をクリックします。 2つの`.txt`ファイル（ **一般**リストと**指定**リスト）を含む`exclusions.zip`アーカイブがダウンロードされます。 必要であれば、新しい除外項目を追加したり、古い除外項目を削除したりして、ファイルを編集することができます。
 
-Despite the fact that there are two operating modes — VPN and SOCKS5 — we advise you to use only the one chosen by default (VPN). When the **VPN mode** is enabled, all the traffic of your device will be directed via AdGuard VPN, while in **SOCKS5 mode** AdGuard VPN uses a local proxy server which can be used by other applications to redirect their traffic.
+除外リストを他のデバイスに転送するには、 `.zip` ファイルを転送先端末に送信します。 アーカイブをインポートするデバイスでAdGuard VPNを開き、「*VPN対象外リスト*」→「*対象外項目をインポート*」をクリックし、転送したアーカイブを選択します。
 
-**Logging level**
+## 設定
 
-Two levels of logging are available to choose from: **Record by default** and **Record everything**. The first option is enabled by default. The **Record everything** option should only be activated if our support team has asked you to do so. Using the app in this mode for an extended period of time result in increased battery consumption.
+![設定](https://cdn.adguard.com/content/kb/VPN/windows/settings_en.png)
 
-All logs are stored locally on your device and you can send them to the support team if needed.
-
-**Use QUIC**
-
-This is an experimental feature that enables AdGuard to use the advanced QUIC encryption protocol. It has many advantages, but the most notable one is that it can improve connection quality under non-ideal conditions, for example, when using mobile Internet or when connecting to public Wi-Fi networks.
+4番目の「設定」タブには、アプリをカスタマイズするためのセクションがあります。 そのうちの2つ、**一般設定** と **Split tunneling**を詳しく見てみましょう。
 
 
-### Split tunneling
+### 一般設定
 
-![Split tunnelling](https://cdn.adguard.com/content/kb/VPN/windows/split_tunneling_en.png)
+**一般設定**セクションには、多くの便利な機能が含まれています。 ここでは、アプリの言語を設定したり、「**キルスイッチ**」（VPN接続が落ちた場合にインターネットへのアクセスをブロックする安全対策機能）を有効にしたりすることができます。 キルスイッチは、公共Wi-Fiやモバイルネットワークに接続しているときに、万が一接続が落ちてVPNによる保護がなくなった場合でも、ハッカー・侵入者があなたのデータにアクセスするのを防ぎます。
 
-AdGuard VPN encrypts the traffic not only of your browsers, but also of other apps installed on your computer. If you want to exclude certain applications from AdGuard's work, put them to the **Split tunneling** list.
+また、ワンクリックで「**自動更新**」「**Windows起動時にAdGuard VPNを起動する**」「**アプリ起動時にVPNに自動接続する**」という機能を有効にすることができます。そしてアプリ改善のために、AdGuardが匿名化されたアプリ使用データを収集することを許可することもできます。 また、デフォルトの **ライトテーマ** を **ダークテーマ**に変更することができます。
 
-## Other tabs
+画面の下部には、「**DNS サーバー**」と「**詳細設定**」という2つのセクションがあります。
 
-### About
+![DNS設定と詳細設定](https://cdn.adguard.com/content/kb/VPN/windows/settings_dns_and_advanced_en.png)
 
-The **About program** tab provides information about the current version of AdGuard VPN for Windows, an update button, and a few useful links: AdGuard website, forum, EULA and Privacy Policy.
+#### DNSサーバー
 
-### About license
+**DNS サーバー**タブでは、独自のカスタムDNSサーバーを追加することができます。 これをする意味は？ 例えば、デフォルトDNSサーバー以外のものを使うためです（デフォルトDNSサーバーはISP（インターネットプロバイダ）によって管理していることが多い）。
 
-Here you will find information about your license status, as well as a link to your personal AdGuard account, where you can manage your current subscriptions and purchase new ones.
+任意のプロバイダーのDNSサーバーを設定できます。 標準機能に加えて、広告、トラッキング、フィッシングから保護するサーバー、 [AdGuard DNS](https://kb.adguard.com/ja/general/dns-providers#adguard-dns)を追加することをお勧めします。
 
-## Support
+#### 詳細設定
 
-In this tab we've collected a lot of useful links: FAQ page, application feedback form, social media pages, and **Knowledge Base**.
+基本的に、詳細設定に一切触れずに AdGuard VPN for Windows を使用することも可能ですが、時間をかけて詳細設定を理解することができれば、便利な高度設定もあったりします。
+
+**動作モード**
+
+VPNとSOCKS5という2つの動作モードがありますが、デフォルトで選択されている方（VPN）のみを使用することがお勧めです。 **VPNモード** が有効な場合、デバイスのすべてのトラフィックは AdGuard VPN を介して通過されます。一方、**SOCKS5 モード**でAdGuard VPNは、ローカルプロキシサーバーを使用します（端末上の他のアプリも、トラフィックをリダイレクトするためにこのプロキシサーバーを使えます）。
+
+**ログのレベル**
+
+ログの記録は、2つのレベルから選択できます。「**通常の記録**」および「**すべてを記録**」です。 前者のレベルはデフォルトで有効になっています。 「**すべてを記録**」レベルは、AdGuardのサポートチームから依頼された場合のみ、有効にしてください。 「すべてを記録」モードで長時間アプリを使用すると、バッテリーの消費量が増加します。
+
+すべてのログは端末でローカルに保存され、必要に応じて不具合検証などのためにAdGuardサポートに送信することができます。
+
+**QUICを使用する**
+
+AdGuard VPNが最新で高度なQUIC暗号化プロトコルを使用できるようにするための実験的な機能です。 主なメリットは、モバイル端末や公共フリーWi-Fi接続時など、不安定な接続環境で接続品質を改善できることです。
+
+
+### Split tunneling (VPN対象外アプリ)
+
+![Split tunneling (VPN対象外アプリ)](https://cdn.adguard.com/content/kb/VPN/windows/split_tunneling_en.png)
+
+AdGuard VPNは、ブラウザだけでなく、PC上の他のアプリのトラフィックも暗号化します。 一部のアプリだけに対してAdGuard VPNを無効にしたい場合は、 この**Split tunneling（VPN対象外アプリ）**機能をお使いください。
+
+## その他のタブ
+
+### このアプリについて
+
+**このアプリについて**タブには、AdGuard VPN for Windows の現在のバージョンに関する情報、アップデートボタン、およびいくつかの便利なリンク（AdGuardのホームページ、フォーラム・SNS、EULA（使用許諾契約）、プライバシー ポリシー）があります。
+
+### ライセンス情報
+
+ここには、お客様のライセンス（お使いのプラン）に関する情報と、お客様のAdGuardアカウントへのリンクが表示されます。AdGuardアカウントでは、現在のサブスクリプション（プラン）を管理したり、新しいサブスクリプションを購入したりできます。
+
+## サポート
+
+このタブには、たくさんの便利なサポート用リンク（FAQページ、お問い合わせフォーム、SNSページ、 **ナレッジベース**）が集められています。問題・お困りの点についてお問い合わせしたり、よくあるご質問ページにアクセスしたりできます。

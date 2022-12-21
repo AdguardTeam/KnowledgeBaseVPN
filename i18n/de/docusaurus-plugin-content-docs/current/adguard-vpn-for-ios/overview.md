@@ -27,7 +27,7 @@ AdGuard VPN ist ganz einfach zu verwenden. Auf dem Hauptbildschirm sehen Sie die
 
 ## Ausschlusslisten
 
-Sie finden die Ausschlussfunktion, indem Sie auf die mittlere Schaltfläche unten tippen. There you will see two exclusion lists — for General and Selective Modes. In the General mode the VPN works on all websites except for the ones from the exclusion list. Im Selektiven Modus hingegen arbeitet das VPN nur auf den Sites aus der Liste. Sie können Domains (z. B. `google.com`) oder Subdomains (z. B. `*.google.com`) von Websites auf zwei Arten hinzufügen: Sie können sie manuell in der App oder direkt im Browser eingeben, indem Sie auf die Schaltfläche *Teilen* klicken und AdGuard VPN in der geöffneten Liste unten finden.
+Sie finden die Ausschlussfunktion, indem Sie auf die mittlere Schaltfläche unten tippen. Dort sehen Sie zwei Ausschlusslisten – für den Allgemeinen und den Selektiven Modus. Im Allgemeinen Modus funktioniert das VPN auf allen Websites mit Ausnahme derjenigen, die in der Ausschlussliste aufgeführt sind. Im Selektiven Modus hingegen arbeitet das VPN nur auf den Sites aus der Liste. Sie können Domains (z. B. `google.com`) oder Subdomains (z. B. `*.google.com`) von Websites auf zwei Arten hinzufügen: Sie können sie manuell in der App oder direkt im Browser eingeben, indem Sie auf die Schaltfläche *Teilen* klicken und AdGuard VPN in der geöffneten Liste unten finden.
 
 ![Ausschlüsse](https://cdn.adguard.com/content/kb/vpn/ios/2.png?123)
 
@@ -35,7 +35,7 @@ Eine weitere nützliche Funktion ist der Import/Export von Ausschlusslisten. Sie
 
 1. Öffnen Sie AdGuard VPN auf dem Gerät/im Browser, von dem aus Sie Ihre Ausschlusslisten exportieren möchten. Suchen Sie den entsprechenden Abschnitt und klicken Sie auf die Schaltfläche *Exportieren*. Das Archiv `exclusions.zip` wird heruntergeladen.
 
-2. There are two `.txt` files inside the archive, one for each of General and Selective lists. Fügen Sie ihnen weitere Ausschlüsse hinzu, löschen Sie die vorhandenen, benennen Sie Dateien um (mehr dazu — später) oder lassen Sie das Archiv mit den Dateien einfach unverändert.
+2. Es gibt zwei `.txt`-Dateien im Archiv, eine für jede der Allgemeinen und Selektiven Listen. Fügen Sie ihnen weitere Ausschlüsse hinzu, löschen Sie die vorhandenen, benennen Sie Dateien um (mehr dazu — später) oder lassen Sie das Archiv mit den Dateien einfach unverändert.
 
 3. Vergessen Sie beim Übertragen zwischen verschiedenen Geräten nicht, die `.zip`-Datei zum Importieren an das Gerät zu senden. Wenn Sie beispielsweise Ausschlusslisten von Ihrem iOS-Gerät auf Ihr Mac importieren, stellen Sie sicher, dass Sie die `.zip`-Datei vorher an Ihr Mac senden.
 

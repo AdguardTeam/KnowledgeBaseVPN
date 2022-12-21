@@ -104,9 +104,9 @@ Webサイトだけでなく、端末上のアプリごともVPN対象外にす�
 
 > ※「*AdGuardとの併用モード*」では、AdGuard VPN 機能の一部（DNSサーバーの選択、「キルスイッチ」、「通信の自動保護」）が無効になりますのでご注意ください。 また、「アプリに対する設定」（アプリ除外）の管理はAdGuard広告ブロッカーアプリ経由になります。
 
-次の2つのセクションは、 「*ログのレベル*」と「*診断情報*」です。 Concerning the first option, it is not recommended to enable the Extended or Extreme logging level unless requested by our support team. 診断情報とは、端末や接続に関する、ローカルに保存された技術情報（IPアドレス、ID、pingなど）で、技術的な問題が発生した場合に当社に送信されることがあります。
+次の2つのセクションは、 「*ログのレベル*」と「*診断情報*」です。 ログレベルですが、当社のサポートチームからの案内がない限りは「デバッグ」や「エクストリーム」にログレベルを変更することはお勧めしません。 診断情報とは、端末や接続に関する、ローカルに保存された技術情報（IPアドレス、ID、pingなど）で、技術的な問題が発生した場合に当社に送信されることがあります。
 
-*高度な設定*の最後のセクションは「*ローレベル設定*」です。 ※高度な専門知識をお持ちの方もしくはサポートチームから依頼された方以外は、このセクションに入らないようお願いします。 Here it is possible to enable TUN interface logging or IPv6 protocol on the VPN interface, choose a proxy server port or Internet protocol version that should be used.
+*高度な設定*の最後のセクションは「*ローレベル設定*」です。 ※高度な専門知識をお持ちの方もしくはサポートチームから依頼された方以外は、このセクションに入らないようお願いします。 ここでは、VPNインターフェイスでTUNインターフェイスロギングまたはIPv6プロトコルを有効にし、使用するプロキシサーバーポートまたはインターネットプロトコルバージョンを選択できます。
 
 ### お客様サポート
 

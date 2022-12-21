@@ -27,7 +27,7 @@ Používání AdGuard VPN je poměrně snadné. Na hlavní obrazovce se zobrazí
 
 ## Seznamy výjimek
 
-Funkci výjimek najdete klepnutím na prostřední tlačítko níže. There you will see two exclusion lists — for General and Selective Modes. In the General mode the VPN works on all websites except for the ones from the exclusion list. V Selektivním režimu naopak VPN funguje pouze na stránkách ze seznamu. Domény webových stránek (např. `google.com`) nebo subdomény (např. `*.google.com`) můžete přidávat dvěma způsoby: můžete je zadat ručně v aplikaci nebo přímo z prohlížeče kliknutím na tlačítko *Sdílet* a vyhledáním AdGuard VPN v otevřeném seznamu níže.
+Funkci výjimek najdete klepnutím na prostřední tlačítko níže. Zde uvidíte dva seznamy výjimek — pro Obecný a Selektivní režim. V Obecném režimu VPN funguje na všech webových stránkách kromě těch ze seznamu výjimek. V Selektivním režimu naopak VPN funguje pouze na stránkách ze seznamu. Domény webových stránek (např. `google.com`) nebo subdomény (např. `*.google.com`) můžete přidávat dvěma způsoby: můžete je zadat ručně v aplikaci nebo přímo z prohlížeče kliknutím na tlačítko *Sdílet* a vyhledáním AdGuard VPN v otevřeném seznamu níže.
 
 ![Výjimky](https://cdn.adguard.com/content/kb/vpn/ios/2.png?123)
 
@@ -35,7 +35,7 @@ Další užitečnou funkcí je Import/Export seznamů výjimek. Můžete to udě
 
 1. Otevřete AdGuard VPN v zařízení/prohlížeči, ze kterého chcete exportovat seznamy výjimek. Vyhledejte příslušný oddíl a klikněte na tlačítko *Exportovat*. Stáhne se archiv `exclusions.zip`.
 
-2. There are two `.txt` files inside the archive, one for each of General and Selective lists. Můžete k nim přidat další výjimky, odstranit stávající, přejmenovat soubory (ale o tom až později) nebo nechat archiv se soubory tak, jak je.
+2. Uvnitř archivu jsou dva soubory `.txt`, jeden pro Obecný a druhý pro Selektivní seznam. Můžete k nim přidat další výjimky, odstranit stávající, přejmenovat soubory (ale o tom až později) nebo nechat archiv se soubory tak, jak je.
 
 3. Při přenosu mezi různými zařízeními nezapomeňte odeslat soubor `.zip` do zařízení pro import. Pokud například importujete seznamy výjimek ze zařízení se systémem iOS do systému macOS, nezapomeňte soubor `.zip` předem odeslat do systému macOS.
 

@@ -1,9 +1,9 @@
 ---
-title: 'What type of encryption is used in AdGuard VPN'
+title: 'AdGuard VPN에서 사용되는 암호화 유형'
 sidebar_position: 7
 ---
 
-## Introduction
+## 소개
 
 Encryption is the reason the word "private" exists in the term "Virtual Private Network". A VPN creates a tunnel between your device and a VPN server, passing through which your data gets encrypted and then enters the open Internet in a secure form. The process of encryption, i.e. turning data into gibberish that no one who intercepts it can read, is essential to any VPN service.
 
