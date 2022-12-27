@@ -5,15 +5,15 @@ sidebar_position: 2
 
 ## AdGuard VPN ブラウザ拡張機能のインストール方法
 
-To install AdGuard VPN browser extension, follow these steps:
+AdGuard VPNブラウザ拡張をインストールするには、以下の手順に従ってください。
 
-1. Visit [adguard-vpn.com](https://adguard-vpn.com/browser-extension/overview.html)
+1. [adguard-vpn.com](https://adguard-vpn.com/browser-extension/overview.html)をご覧ください。
 
-2. Click on the icon of your browser and then click *Install*.
+2. ブラウザのアイコンをクリックし、 *インストール*してください。
 
-3. Depending on your browser, one of the websites will open: Chrome Web Store, Firefox Add-ons, or Microsoft Edge Add-ons. Click the respective button: *Add to Chrome*, *Add to Firefox* or *Get* next to AdGuard VPN Browser extension.
+3. お使いのブラウザによって、いずれかのWebサイトが開きます。Chrome Web Store、Firefox Add-ons、Microsoft Edge Add-onsのいずれかが開きます。 それぞれのボタンをクリックしてください。 *Chromeに追加*, *Firefoxに追加* または、 *Get* AdGuard VPN Browser extensionの横にあるボタンをクリックしてください。
 
-4. Once the installation is complete, you will be prompted to switch to [unlimited version](https://adguard-vpn.com/thankyou.html). It's completely optional but if you find that the free version is not enough for you, you can purchase a [subscription](/general/subscription.md) at any moment.
+4. インストールが完了すると、 [無制限版](https://adguard-vpn.com/thankyou.html)に切り替えるよう促されます。 It's completely optional but if you find that the free version is not enough for you, you can purchase a [subscription](/general/subscription.md) at any moment.
 
 4. Read and accept the EULA and Privacy Policy by checking the respective box. You can also allow AdGuard VPN to collect anonymized data on the app usage, which we need to improve our product (this is optional). Then click *Continue*.
 

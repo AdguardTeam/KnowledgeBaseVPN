@@ -19,7 +19,7 @@ sidebar_position: 4
 
 > 如果您有任何困难或其他问题，可以在[此处](https://developer.android.com/studio/debug/dev-options)找到完整说明。
 
-2. [Install and configure](https://www.xda-developers.com/install-adb-windows-macos-linux/) ADB;
+2. [安装和配置](https://www.xda-developers.com/install-adb-windows-macos-linux/) ADB；
 > 在 Windows 平台中，**三星**用户需要安装[此工具](https://developer.samsung.com/mobile/android-usb-driver.html)。
 
 3. 在您的电脑或笔记本上安装 **ADB**，然后用 **USB 数据线**将手机和电脑相连；

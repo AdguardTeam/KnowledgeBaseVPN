@@ -27,7 +27,7 @@ AdGuard VPN 有以下的功能：
 
 ## 排除项列表
 
-用户可以点击下方的中间按钮查看排除项功能。 There you will see two exclusion lists — for General and Selective Modes. In the General mode the VPN works on all websites except for the ones from the exclusion list. 在选择模式下，VPN 只在列表内的网站上运行。 用户可以通过三种方式将网站的域名（如 `google.com`）或子域名（如 `*.google.com`）添加到排除项中：在应用程序中手动输入，或直接从浏览器中点击*共享*按钮，在下面打开的列表中选择 AdGuard VPN。
+用户可以点击下方的中间按钮查看排除项功能。 在排除项部分里用户可以看到两个排除项列表，即常规模式和选择模式的列表。 在常规模式下，除了添加到列表的网站外 VPN 在所有网站上运行。 在选择模式下，VPN 只在列表内的网站上运行。 用户可以通过三种方式将网站的域名（如 `google.com`）或子域名（如 `*.google.com`）添加到排除项中：在应用程序中手动输入，或直接从浏览器中点击*共享*按钮，在下面打开的列表中选择 AdGuard VPN。
 
 ![排除项](https://cdn.adguard.com/content/kb/vpn/ios/2.png?123)
 
@@ -35,7 +35,7 @@ AdGuard VPN 有以下的功能：
 
 1. 在您想要导出排除项列表的设备或浏览器里打开 AdGuard VPN。 找到相应的部分并单击「*导出*」按钮。 `exclusions.zip` 档案将被下载。
 
-2. There are two `.txt` files inside the archive, one for each of General and Selective lists. 用户可以在其中添加更多的排除项，删除现有的排除项，重命名文件（下面还有更多详情），或者也可以将存档中的文件内容保持不变。
+2. 档案中有两个 `.txt` 文件，常规模式的列表和选择模式的列表。 用户可以在其中添加更多的排除项，删除现有的排除项，重命名文件（下面还有更多详情），或者也可以将存档中的文件内容保持不变。
 
 3. 在不同设备之间传输时，不要忘记将 `.zip` 文件发送到设备上进行导入。 例如，如果您将排除项列表从自己的 iOS 设备导入到 Mac 设备，确保先将 `.zip` 文件发送到 Mac 设备。
 

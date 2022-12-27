@@ -38,7 +38,7 @@ VPN 是一个在用户每次浏览互联网时提供安全性和匿名性的理�
 
 有两种模式：*在常规模式下*，排除项列表内的网站被排除，而*在选择性模式下*，AdGuard VPN 仅在列表内的网站上运作。
 
-You can add domains (e.g. `google.com`) or subdomains (e.g. `*.google.com`) of websites to the *Exclusions* in three ways: enter them manually in the app, or right from the browser by clicking the *Share* button and selecting AdGuard VPN in the opened list below, or from built-in lists of services divided by categories.
+用户可以通过三种方式将网站的域名（如 `google.com`）或子域名（如 `*.google.com`）添加到*排除项*中：在应用程序中手动输入，直接从浏览器中点击*共享*按钮，在下面打开的列表中选择 AdGuard VPN，或者从按类别划分的内置服务列表中。
 
 ![排除项](https://cdn.adguard.com/public/Adguard/kb/VPN/Screenshots/add_site_android.jpg)
 > 在手动添加域名方面有一些细微差别。 例如，如果用户手动排除域名 `yahoo.com`，所有 `*.yahoo.com` 的子域名也将被列在排除项中。 然而，具有其他顶级域名的域名，如 `yahoo.jp` 或`yahoo.fr`，将不会被排除。 或者您可以把 `youtube.com` 添加到排除项中，但同一服务的域名 `youtu.be` 将不会进入列表中。 在这种情况下，使用内置的服务列表更安全，因为我们把与每个平台相关的所有子域都放在那里。
@@ -104,9 +104,9 @@ You can add domains (e.g. `google.com`) or subdomains (e.g. `*.google.com`) of w
 
 > 请注意，AdGuard VPN 的一些功能在*兼容模式*下被禁用，比如 DNS 服务器选择、Kill Switch 和自动保护。 此外，要管理应用程序的隧道，您应该打开 AdGuard 广告拦截程序。
 
-接下来的两个部分是*记录级别*和*诊断信息*。 Concerning the first option, it is not recommended to enable the Extended or Extreme logging level unless requested by our support team. 诊断信息，本地存储的关于设备和连接的技术信息（IP 地址、ID、Ping等等），在出现任何技术问题时，可以发送给我们。
+接下来的两个部分是*记录级别*和*诊断信息*。 关于第一个选项，除非我们的支持团队要求，否则不建议启用扩展或极端记录级别。 诊断信息，本地存储的关于设备和连接的技术信息（IP 地址、ID、Ping等等），在出现任何技术问题时，可以发送给我们。
 
-*高级设置*的最后一个选项是*低级设置*。 我们建议用户不进入这一部分，除非您了解技术方面或被我们的支持团队要求设置它们。 Here it is possible to enable TUN interface logging or IPv6 protocol on the VPN interface, choose a proxy server port or Internet protocol version that should be used.
+*高级设置*的最后一个选项是*低级设置*。 我们建议用户不进入这一部分，除非您了解技术方面或被我们的支持团队要求设置它们。 这里可以在 VPN 接口上启用 TUN 接口记录或 IPv6 协议，选择一个代理服务器端口或应该使用的互联网协议版本。
 
 ### 支持
 

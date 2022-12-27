@@ -5,7 +5,7 @@ sidebar_position: 4
 
 Nosso protocolo é usado por [todos os aplicativos móveis e de desktop AdGuard VPN](https://adguard-vpn.com/en/welcome.html). Baixe qualquer um de nossos produtos e use-o sabendo que seus dados estão protegidos da maneira mais segura.
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7149L3xPmSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7149L3xPmSE" title="Player de vídeo do YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Por que desenvolvemos o protocolo AdGuard VPN
 
@@ -24,16 +24,16 @@ Desenvolvemos o protocolo VPN AdGuard vendo as desvantagens dos protocolos VPN p
 * Eles podem ser facilmente detectados e bloqueados no nível da rede.
 * Se você tentar "escondê-los", o desempenho cairá.
 
-To "conceal" the use of VPN, the data flow is often "wrapped" in a TCP connection, and sometimes it is additionally encrypted to make the traffic look like a normal website connection. Unfortunately, this approach has a disadvantage – due to the use of TCP, there is a need for additional confirmation of delivery.
+Para "ocultar" o uso de VPN, o fluxo de dados geralmente é "envolto" em uma conexão TCP e, às vezes, é criptografado adicionalmente para fazer com que o tráfego pareça uma conexão normal de site. Infelizmente, essa abordagem tem uma desvantagem – devido ao uso do TCP, há necessidade de confirmação adicional de entrega.
 
-Using any popular VPN protocol, we are always facing a trade-off: fast but easy to detect vs. slow.
+Ao usar qualquer protocolo VPN popular, sempre enfrentamos uma desvantagem: rápido, mas fácil de detectar, versus lento.
 
-## What's great about AdGuard VPN protocol
+## O que há de bom no protocolo AdGuard VPN
 
-* It's *nearly impossible to distinguish from normal HTTPS traffic*, that is, the connection to the AdGuard VPN server looks exactly the same as the connection to a normal website.
-* For encryption we use **HTTPS (TLS)**, which copes with this task perfectly. It is the most popular encryption method in the world, and the libraries that implement it are constantly audited for security.
+* É *quase impossível distinguir do tráfego HTTPS normal*, ou seja, a conexão com o servidor AdGuard VPN parece exatamente igual à conexão com um site normal.
+* Para criptografia, usamos **HTTPS (TLS)**, que lida perfeitamente com essa tarefa. É o método de criptografia mais popular do mundo, e as bibliotecas que o implementam são constantemente auditadas quanto à segurança.
 
-Some existing VPN protocols also handle the encryption task, and they (and thus, the fact of using a VPN) are hard to detect. But this usually comes at the price of reduced speed. This is not our case, thanks to several solutions.
+Alguns protocolos VPN existentes também lidam com a tarefa de criptografia e eles (e, portanto, o fato de usar uma VPN) são difíceis de detectar. Mas isso geralmente vem com o preço da velocidade reduzida. Este não é o nosso caso, graças a várias soluções.
 
-* We use the **HTTP/2 transport protocol**, which makes it virtually impossible to detect AdGuard VPN protocol while maintaining high speed.
-* Unlike others, AdGuard VPN protocol *operates with data and not with packets*. This means that AdGuard VPN establishes a separate "tunnel" for each connection, each HTTP/2 stream corresponds to one connection. AdGuard VPN transfers data through this tunnel. This allows us to speed up the operation by saving on confirmation packets, because we can buffer the data of several packets into one before sending it to the VPN server (or from the server to the client). And the fewer packets, the fewer confirmations are needed.
+* Usamos o protocolo de transporte **HTTP/2**, o que torna praticamente impossível detectar o protocolo AdGuard VPN enquanto mantemos alta velocidade.
+* Ao contrário de outros, o protocolo AdGuard VPN *opera com dados e não com pacotes*. Isso significa que o AdGuard VPN estabelece um "túnel" separado para cada conexão, cada fluxo HTTP/2 corresponde a uma conexão. O AdGuard VPN transfere dados por meio desse túnel. Isso nos permite acelerar a operação economizando nos pacotes de confirmação, pois podemos armazenar em buffer os dados de vários pacotes em um antes de enviá-los ao servidor VPN (ou do servidor ao cliente). E quanto menos pacotes, menos confirmações são necessárias.

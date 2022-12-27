@@ -11,7 +11,7 @@ Tieni presente che **non puoi utilizzare AdGuard VPN per Mac a meno che tu non a
 
 ## Schermata principale
 
-![Schermata principale](https://cdn.adguard.com/public/Adguard/Blog/mac-vpn-main.png)
+![Schermata principale](https://cdn.adguardvpn.com/content/kb/vpn/mac/main_en.png)
 
 La prima scheda è la *Schermata iniziale*. Qui puoi vedere lo stato corrente di AdGuard VPN e la [modalità esclusioni](#exclusions), la posizione scelta (se abilitata) e il suo ping. Il ping è il tempo di risposta di un server VPN. Quindi, più basso è questo numero, più veloce è la connessione. Se la VPN è disattivata, l'ultima posizione a cui ti sei connesso viene visualizzata di seguito. Le posizioni più veloci con i ping più bassi vengono visualizzate nell'angolo in alto a destra dello schermo. Di seguito è possibile visualizzare l'elenco completo delle località. È possibile trovare la posizione desiderata facilmente attraverso la funzione di ricerca.
 
@@ -19,11 +19,11 @@ La prima scheda è la *Schermata iniziale*. Qui puoi vedere lo stato corrente di
 
 ## Esclusioni
 
-![Esclusioni](https://cdn.adguard.com/public/Adguard/Blog/vpn/release/VPN_for_Mac/exclusions.png)
+![Esclusioni](https://cdn.adguardvpn.com/content/kb/vpn/mac/exclusions_en.png)
 
 Poi va la schermata *Esclusioni*. AdGuard VPN ha diverse funzionalità che lo rendono unico, e la commutazione tra due modalità di esclusione certo è una di questi. Nella modalità Generale AdGuard VPN funzionerà su tutti i siti web tranne quelli dell'elenco di esclusione. Invece, nella Modalità selettiva, AdGuard VPN funzionerà solo sui siti dell'elenco delle esclusioni. Tu stesso puoi decidere dove vuoi che la VPN funzioni.
 
-![Schermata Esclusioni](https://cdn.adguard.com/public/Adguard/Blog/services.png)
+![Schermata Esclusioni](https://cdn.adguardvpn.com/content/kb/vpn/mac/services_en.png)
 
 Inoltre puoi non solo aggiungere siti web a Esclusioni, ma anche scegliere tra gli elenchi di servizi popolari. Gli elenchi sono suddivisi in otto categorie: Social network, Servizi di messaggistica, Servizi di streaming video e musicale, Videogiochi, Shopping, Motori di ricerca e Strumenti di comunicazione di lavoro. Tutti questi servizi possono essere aggiunti alle Esclusioni con un solo clic! È particolarmente comodo se si utilizza la modalità selettiva.
 
@@ -42,19 +42,19 @@ Inoltre, gli elenchi di esclusioni già pronti possono essere trasferiti ad altr
 
 ## Supporto
 
-![Schermata di supporto](https://cdn.adguard.com/public/Adguard/Blog/vpn/release/VPN_for_Mac/support.png)
+![Schermata di supporto](https://cdn.adguardvpn.com/content/kb/vpn/mac/support_en.png)
 
 La terza scheda è la schermata *Supporto*. Trova le risposte a qualsiasi domanda nelle [FAQ](https://adguard-vpn.com/en/welcome.html#faq) o nelle [sezioni della Knowledge base](/intro.md), segnala un bug se ne incontri uno o [discuti di AdGuard su una qualsiasi delle piattaforme](https://adguard.com/en/discuss.html). E sentiti libero di [lasciare un feedback sul nostro prodotto](https://surveys.adguard.com/en/vpn_mac/form.html), lo apprezzeremmo.
 
 ## Impostazioni
 
-![Impostazioni](https://cdn.adguard.com/public/Adguard/Blog/vpn/release/VPN_for_Mac/settings.png)
+![Impostazioni](https://cdn.adguardvpn.com/content/kb/vpn/mac/settings_en.png)
 
 Finalmente, arriviamo alla scheda Impostazioni. Nella sezione *Informazioni sul programma* puoi vedere la versione corrente di AdGuard VPN, controllare gli aggiornamenti, visitare il nostro sito web ufficiale e conoscere l'EULA e l'informativa sulla privacy di AdGuard. Nella sezione *Informazioni sulla licenza* puoi eseguire l'upgrade da gratuito a illimitato, gestire il tuo abbonamento o disconnetterti. E, soprattutto, da qui puoi accedere alle *Impostazioni generali*.
 
-### Impostazioni generali
+### App settings
 
-![Impostazioni generali](https://cdn.adguard.com/public/Adguard/Blog/vpn/release/VPN_for_Mac/general-settings.png)
+![App settings](https://cdn.adguardvpn.com/content/kb/vpn/mac/general-settings_en.png)
 
 Le prime quattro funzionalità di base rendono l'applicazione più comoda e intuitiva, ovvero *Kill Switch*, *Aggiornamento automatico*, *Avvia AdGuard VPN all'accesso*e *Connessione automatica all'avvio dell'app*. Inoltre, è possibile scegliere tra il tema chiaro, scuro e di sistema - quest'ultimo si adatta al tema del Mac.
 
@@ -62,13 +62,13 @@ Un'altra opzione da non trascurare è la possibilità di consentire ad AdGuard V
 
 ### Server DNS
 
-![Server DNS](https://cdn.adguard.com/public/Adguard/Blog/vpn/release/VPN_for_Mac/dns.png)
+![Server DNS](https://cdn.adguardvpn.com/content/kb/vpn/mac/dns_en.png)
 
 Qui puoi aggiungere uno (o più) server DNS personalizzati per non fare affidamento su un server DNS fornito dal tuo ISP per impostazione predefinita. Ti consigliamo di aggiungere AdGuard DNS, che non solo crittografa il tuo traffico DNS, ma identifica anche le richieste a siti dannosi e le reindirizza a un "buco nero".
 
 ### Impostazioni avanzate
 
-![Impostazioni avanzate](https://cdn.adguard.com/public/Adguard/Blog/vpn/release/VPN_for_Mac/advanced-settings.png)
+![Impostazioni avanzate](https://cdn.adguardvpn.com/content/kb/vpn/mac/advanced-settings_en.png)
 
 Non si consiglia di regolare le impostazioni avanzate. Non modificarli a meno che non ti venga richiesto dal nostro supporto tecnico o a meno che tu non sia sicuro di quello che stai facendo.
 
