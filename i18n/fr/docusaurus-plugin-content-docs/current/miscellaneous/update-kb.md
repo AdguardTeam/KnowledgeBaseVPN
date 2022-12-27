@@ -1,11 +1,11 @@
 ---
-title: 'Updating the Knowledge Base'
+title: 'Mise à jour de la Base de connaissances'
 sidebar_position: 3
 ---
 
-The goal of this Knowledge Base is to provide everyone with the most up-to-date information on all kinds of AdGuard VPN-related topics. But things constantly change, and sometimes an article doesn't reflect the current state of things anymore — there are simply not so many of us to keep an eye on every single bit of information and update it accordingly when new versions are released.
+L'objectif de cette Base de connaissances est de fournir à chacun les informations les plus récentes sur toutes sortes de sujets liés à AdGuard VPN. Mais les choses changent constamment, et parfois un article ne reflète plus l'état actuel des choses - nous ne sommes tout simplement pas si nombreux à garder un œil sur chaque information et à la mettre à jour en conséquence lorsque de nouvelles versions sont publiées.
 
-This is why we placed all of our KB content to [GitHub](https://github.com/AdguardTeam/KnowledgeBaseVPN), and now literally anyone can contribute to it by suggesting edits and translations to existing articles, as well as totally new ones.
+C'est pourquoi nous avons placé l'ensemble du contenu de notre base de données sur [GitHub](https://github.com/AdguardTeam/KnowledgeBaseVPN). Désormais, tout le monde peut y contribuer en suggérant des modifications et des traductions pour les articles existants, ainsi que de nouveaux articles.
 
 ## How to suggest a change or write a new article {#suggest-change}
 

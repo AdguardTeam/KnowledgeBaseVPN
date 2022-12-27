@@ -1,5 +1,5 @@
 ---
-title: 'How to take a screenshot'
+title: 'Como fazer uma captura de tela'
 sidebar_position: 4
 ---
 
@@ -82,18 +82,18 @@ Your Mac will capture the entire screen and save it as a file on the desktop.
 
 To take a screenshot of an active window, use the following combination:
 
-+ **Press and hold together *⌘ Cmd + Shift + 4 + Space bar*.  The pointer will change to a camera icon. Click the window to capture it. Press the Esc button to cancel taking a screenshot**
++ **Press and hold together *⌘ Cmd + Shift + 4 + Space bar*.  The pointer will change to a camera icon. Clique na janela para capturar. Pressione o botão Esc para cancelar a captura de tela**
 
-To take a screenshot of a specific area, you should use the following combination:
+Para tirar uma captura de tela de uma área específica, você deve usar a seguinte combinação:
 
-+ ***Press and hold together ***⌘ Cmd + Shift + 4******. Drag the crosshair to select the needed area. Release your mouse or trackpad to take a screenshot, press the Esc button to cancel it.
++ ***Pressione e segure ***⌘ Cmd + Shift + 4******. Arraste a mira para selecionar a área necessária. Solte o mouse ou o trackpad para fazer uma captura de tela, pressione o botão Esc para cancelá-la.
 
-To take a screenshot of the *Touch Bar* (MacBook Pro) use the following combination:
+Para fazer uma captura de tela do *Touch Bar* (MacBook Pro), use a seguinte combinação:
 
-+ ***Hold down ***⌘ Cmd + Shift + 6******
++ ***Mantenha pressionado ***⌘ Cmd + Shift + 6******
 
-Your Mac captures the entire *Touch Bar* and saves it as a file on the desktop.
+Seu Mac captura toda a *Touch Bar* e a salva como um arquivo na área de trabalho.
 
-To copy a screenshot to the clipboard instead of saving it, hold down *Ctrl* together with any of the combinations above. Then you can paste the screenshot (from the clipboard) into a document or an image you are currently editing by using *Cmd + V* combination.
+Para copiar uma captura de tela para a área de transferência em vez de salvá-la, mantenha pressionada a tecla *Ctrl* junto com qualquer uma das combinações acima. Em seguida, você pode colar a captura de tela (da área de transferência) em um documento ou imagem que está editando no momento usando a combinação *Cmd + V*.
 
-You can also take screenshots by using **Preview** and choosing **Take screenshot** (of the selected area, window, or the entire screen). With **Preview** you can save your screenshots in JPG, TIFF, PDF, and other file formats.
+Você também pode fazer capturas de tela usando **Visualização** e escolhendo **Tirar captura de tela** (da área selecionada, janela ou tela inteira). Com **Preview** você pode salvar suas capturas de tela em JPG, TIFF, PDF e outros formatos de arquivo.

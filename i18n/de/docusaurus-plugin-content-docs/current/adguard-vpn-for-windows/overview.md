@@ -5,7 +5,7 @@ sidebar position: 1
 
 ## Was ist AdGuard VPN für Windows
 
-Ein VPN, Akronym für „virtuelles privates Netzwerk“, ist ein Dienst, der Ihre Internetverbindung sicher macht und Ihnen hilft, online anonym zu bleiben. Wie funktioniert VPN? Jedes Mal, wenn Sie eine Website besuchen, ohne ein VPN zu verwenden, kann Ihr ISP dies sehen. Er weiß, wer Sie sind und wonach Sie suchen, und kann diese Daten sammeln und verkaufen. Auch die Website, die Sie besucht haben, kann Ihre Aktivitäten verfolgen. Wenn Sie eine VPN-App aktivieren, leitet sie Ihren Datenverkehr durch einen verschlüsselten Tunnel zu einem Remote-VPN-Server um, wodurch Ihre Privatsphäre geschützt wird — Der ISP weiß nicht, wohin Sie eine Anfrage gesendet haben, und die Website weiß nicht, woher Sie gekommen sind.
+A VPN, acronym for "virtual private network", is a service that makes your Internet connection safe and helps you stay anonymous online. Wie funktioniert VPN? Jedes Mal, wenn Sie eine Website besuchen, ohne ein VPN zu verwenden, kann Ihr ISP dies sehen. Er weiß, wer Sie sind und wonach Sie suchen, und kann diese Daten sammeln und verkaufen. Auch die Website, die Sie besucht haben, kann Ihre Aktivitäten verfolgen. Wenn Sie eine VPN-App aktivieren, leitet sie Ihren Datenverkehr durch einen verschlüsselten Tunnel zu einem Remote-VPN-Server um, wodurch Ihre Privatsphäre geschützt wird — Der ISP weiß nicht, wohin Sie eine Anfrage gesendet haben, und die Website weiß nicht, woher Sie gekommen sind.
 
 **Was macht AdGuard VPN für Windows?**
 
@@ -19,25 +19,25 @@ AdGuard VPN für Windows hat viele Vorteile, daher haben wir ihnen [separaten Ar
 
 ## Wie Sie AdGuard VPN für Windows verwenden können
 
-Um AdGuard VPN für Windows zu nutzen, laden Sie die App von [unserer Website](https://adguard-vpn.com/en/welcome.html) herunter. Die Installation dauert nicht länger als eine Minute – und Sie sehen ein Dialogfenster, in dem Sie mindestens ein Kästchen ankreuzen müssen, um die Bedingungen der Benutzervereinbarung und der Datenschutzerklärung anzuwenden. Es liegt an Ihnen zu entscheiden, ob AdGuard anonymisierte Daten über Ihre App-Nutzung sammeln wird. Zuletzt fordert Sie das Programm auf, sich anzumelden, entweder über [AdGuard-Konto](https://auth.adguard.com/login.html) oder über soziale Netzwerke (Apple, Google, Facebook). Danach können Sie AdGuard VPN für Windows verwenden.
+To start using AdGuard VPN for Windows, download the app from [our website](https://adguard-vpn.com/welcome.html). Die Installation dauert nicht länger als eine Minute – und Sie sehen ein Dialogfenster, in dem Sie mindestens ein Kästchen ankreuzen müssen, um die Bedingungen der Benutzervereinbarung und der Datenschutzerklärung anzuwenden. Es liegt an Ihnen zu entscheiden, ob AdGuard anonymisierte Daten über Ihre App-Nutzung sammeln wird. Zuletzt fordert Sie das Programm auf, sich anzumelden, entweder über [AdGuard-Konto](https://auth.adguard.com/login.html) oder über soziale Netzwerke (Apple, Google, Facebook). Danach können Sie AdGuard VPN für Windows verwenden.
 
 
 ## Startbildschirm
 
-![AdGuard VPN für Windows Startseite](https://cdn.adguard.com/content/kb/VPN/windows/main_en.png)
+![AdGuard VPN für Windows Startseite](https://cdn.adguard.com/content/release_notes/vpn/windows/v2.0/new_main_window_en.png)
 
-Das auffälligste Element auf dem **Startbildschirm** ist die Verbindungs-/Trennschaltfläche von AdGuard VPN. Darunter sehen Sie den [Modus](#exclusions), in dem die App ausgeführt wird und den ausgewählten Server. Auf der rechten Seite des Bildschirms finden Sie alle verfügbaren Standorte, und der schnellste (d. h. mit dem kürzesten Ping) wird ganz oben in der Liste aufgeführt.
+Das auffälligste Element auf dem **Startbildschirm** ist die Verbindungs-/Trennschaltfläche von AdGuard VPN. Underneath, you can see the [mode](#exclusions) in which the application is running and the selected server below. On the right side of the screen you will find all available locations. The fastest location, i.e. the one with the shortest ping, is shown at the top of the list.
 
-Oben auf dem Bildschirm befindet sich ein Navigationsbereich mit vier Registerkarten: **Startseite**, **Ausschlüsse**, **Support**, **Einstellungen**. Nun sehen wir uns die einzelnen Registerkarten genauer an.
+At the top of the screen there is a navigation panel with four tabs: **Home**, **Exclusions**, **Support**, **Settings**.
 
 
 ## Ausschlüsse
 
-AdGuard VPN für Windows kann in zwei Modi arbeiten: **Allgemein** oder **Selektiv**. Was bedeuten sie? Wenn Sie möchten, dass die App auf allen Sites mit Ausnahme einiger weniger funktioniert, aktivieren Sie den **Allgemeinen Modus** und listen Sie die Ressourcen auf, die Sie vom Tunnel ausschließen möchten. Der **Selektive Modus** hat den gegenteiligen Effekt: Er aktiviert AdGuard VPN nur auf den in der Ausschlussliste angegebenen Websites. Bitte beachten Sie, dass die Ausschlusslisten dieser beiden Modi unabhängig voneinander sind.
+AdGuard VPN for Windows can operate in two modes: **General** or **Selective**. Was bedeuten sie? If you want the application to work everywhere except for some websites, activate the **General mode** and list the websites you want to exclude from the tunnel. Der **Selektive Modus** hat den gegenteiligen Effekt: Er aktiviert AdGuard VPN nur auf den in der Ausschlussliste angegebenen Websites. Bitte beachten Sie, dass die Ausschlusslisten dieser beiden Modi unabhängig voneinander sind.
 
 ![Ausschlüsse](https://cdn.adguard.com/content/kb/VPN/windows/exclusions_en.png)
 
-Es gibt zwei Möglichkeiten, Ausschlusslisten zu erstellen: **Manuell** und **Aus der Liste**. Klicken Sie auf die Zeile **Website hinzufügen** und wählen Sie das bevorzugte Format zum Hinzufügen von Websites zu den Ausschlüssen.
+You can add websites to exclusions **manually** by entering their domain names. The app also offers you an option to choose popular websites **from the list**.
 
 ![App-Ausschlüsse](https://cdn.adguard.com/content/kb/VPN/windows/exclusions_add_en.png)
 
@@ -45,74 +45,70 @@ Es gibt zwei Möglichkeiten, Ausschlusslisten zu erstellen: **Manuell** und **Au
 
 > Beim manuellen Hinzufügen von Domains sollten Sie einige Nuancen berücksichtigen. Wenn Sie beispielsweise die Domain `google.com` manuell ausschließen, werden alle Subdomains `*.google.com` ebenfalls zur Ausschlussliste hinzugefügt. Domainnamen mit anderen Top-Level-Domains wie `google.es` oder `google.it` werden jedoch nicht ausgeschlossen. Oder Sie können `youtube.com` zu den Ausschlüssen hinzufügen, aber die Domain desselben Dienstes `youtu.be` wird nicht in die Liste aufgenommen.
 
-Wir empfehlen, die Option **Aus der Liste** zu verwenden, um unnötige Schwierigkeiten zu vermeiden. Wir haben bereits acht verschiedene Kategorien beliebter Dienste für Sie gruppiert: Soziale Netzwerke, Messenger, Video- und Musik-Streaming-Dienste, Spiele, Shopping, Suchmaschinen und Arbeitskommunikationstools. Wir haben dort alle Domainnamen und Subdomains platziert, die sich auf jede Plattform beziehen. Auf diese Weise können Sie sicher sein, dass Sie keinen Dienst oder keine Domain vergessen haben, die Sie weiterhin verwenden möchten, während das VPN aktiviert ist, oder umgekehrt.
+We recommend using the **From the list** option. Websites are grouped into eight categories: Social networks, Messengers, Video and Music streaming services, Games, Shopping, Search engines, and Work communication tools. Wir haben dort alle Domainnamen und Subdomains platziert, die sich auf jede Plattform beziehen.
 
-### Import-/Export der Ausschlüsse
+### Import/export exclusion lists
 
-Auf der Registerkarte **Ausschlüsse** auf der rechten Seite des Bildschirms gibt es einen Abschnitt **Aktionen**. Es kann nützlich sein, wenn Sie vorgefertigte Ausschlusslisten exportieren oder importieren müssen.
+To export the list of exclusions from AdGuard VPN for Windows to your computer, click **Export exclusions**, select the folder where the list will be stored and click **Save**. An archive `exclusions.zip` with two `.txt` files will be downloaded, one for each of the lists — **General** and **Selective**. You can edit them by adding new exclusions or deleting old ones.
 
-Um die Ausschlussliste von AdGuard für Windows auf Ihren Computer zu exportieren, klicken Sie auf **Ausschlüsse exportieren**, wählen Sie den Ordner aus, in dem die Liste gespeichert werden soll, und klicken Sie auf **Speichern**. Ein Archiv `Exclusions.zip` mit zwei `.txt` Dateien wird heruntergeladen, eine für jede der Listen – **Allgemein** und **Selectiv**. Sie können sie bearbeiten, indem Sie neue Ausschlüsse hinzufügen oder alte löschen.
-
-Um die Ausschlusslisten auf ein anderes Gerät zu übertragen, senden Sie die Datei `.zip` an ihr Ziel. Öffnen Sie AdGuard VPN auf dem Gerät, auf dem Sie das Archiv mit den vorgefertigten Ausschlusslisten importieren möchten, klicken Sie auf *Ausschlüsse*, dann auf *Ausschlüsse importieren* und wählen Sie das zuvor gesendete Archiv aus.
+To transfer the exclusion lists to another device, send the `.zip` file to its destination. Open AdGuard VPN on the device where you want to import the archive with the exclusion lists, click *Exclusions*, then *Import exclusions*, and select the previously sent archive.
 
 ## Einstellungen
 
-![Einstellungen](https://cdn.adguard.com/content/kb/VPN/windows/settings_en.png)
+![Settings](https://cdn.adguard.com/content/release_notes/vpn/windows/v2.0/settings_en.png)
 
-Die vierte Registerkarte der Registerkartenleiste der App enthält Abschnitte, mit denen Sie die App anpassen können. Schauen wir uns zwei von ihnen näher an: **Allgemein** und **Split-Tunneling**.
+The fourth tab of app's tab bar contains sections that will help you customize the application. Let's look closer at two of them: **App settings** and **App exclusions**.
 
 
-### Allgemein
+### App settings
 
-Der Abschnitt **Allgemein** enthält viele nützliche Funktionen. Hier können Sie die App-Sprache einstellen und auch **Kill Switch** aktivieren, der den Zugriff auf das Internet blockiert, wenn Ihre VPN-Verbindung fehlschlägt. Dies ist erforderlich, um zu verhindern, dass Eindringlinge an Ihre Daten gelangen, wenn Sie sich ohne VPN-Schutz befinden, während Sie mit einem öffentlichen WLAN- oder Mobilfunk-Netz verbunden sind.
+![App settings](https://cdn.adguard.com/content/release_notes/vpn/windows/v2.0/app_settings_en.png)
 
-Sie können auch die folgenden Funktionen mit einem einzigen Klick aktivieren: **Automatisch aktualisieren**, **AdGuard VPN zusammen mit Windows starten**, **Automatisch beim App-Start verbinden** und auch erlauben, anonymisierte App-Nutzungsdaten zu sammeln. Hier können Sie auch das standardmäßige **helle Thema** in ein **dunkles Thema** ändern.
+In the **App settings** section, you can set the app language and also enable **Kill Switch**, which will block access to the Internet if your VPN connection drops. This is needed to prevent intruders from getting to your data if you find yourself without VPN protection while connected to a public Wi-Fi or mobile network.
+
+You can also activate the following features with a single click: **Autoupdate**, **Launch AdGuard VPN at Windows startup**, **Auto-connect on app launch**, and allow AdGuard to collect anonymized app usage data so that the AdGuard team gets the info on potential usability issues. Here you can also change the theme to **Light**, **System**, or **Dark**.
 
 Unten auf der Seite befinden sich zwei Bereiche: **DNS-Server** und **Erweiterte Einstellungen**.
 
-![DNS-Einstellungen und Erweiterte Einstellungen](https://cdn.adguard.com/content/kb/VPN/windows/settings_dns_and_advanced_en.png)
-
 #### DNS-Server
 
-Auf der Registerkarte **DNS-Server** können Sie Ihren eigenen benutzerdefinierten DNS-Server hinzufügen. Warum ist es nützlich? So müssen Sie sich nicht auf den Standard-DNS-Server verlassen, der oft von Ihrem ISP kontrolliert wird.
+The **DNS servers** tab allows you to add your own DNS server. You can set up a DNS server by any provider. We recommend adding [AdGuard DNS](https://kb.adguard.com/en/general/dns-providers#adguard-dns), a server that can protect against advertising, tracking, and phishing, in addition to the standard functions.
 
-Sie können einen DNS-Server von jedem Anbieter einrichten. Wir empfehlen, [AdGuard DNS](https://kb.adguard.com/en/general/dns-providers#adguard-dns) hinzuzufügen — zusätzlich zu den Standardfunktionen bietet er Schutz vor Werbung, Tracking und Phishing.
+#### Advanced settings
 
-#### Erweiterte Einstellungen
+It is entirely possible to use AdGuard VPN for Windows without ever touching the Advanced settings, but they can be useful if you're willing to take time to learn what they do.
 
-Es ist durchaus möglich, AdGuard VPN für Windows zu verwenden, ohne jemals die erweiterten Einstellungen zu berühren, aber manchmal können sie nützlich sein. Dafür sollten Sie aber zuerst lernen, was sie tun.
+**Operating mode**
 
-**Betriebsmodus**
+Despite the fact that there are two operating modes — VPN and SOCKS5 — we advise you to use only the one chosen by default (VPN). When the **VPN mode** is enabled, all the traffic of your device will be directed via AdGuard VPN, while in **SOCKS5 mode** AdGuard VPN uses a local proxy server which can be used by other applications to redirect their traffic.
 
-Trotz der Tatsache, dass es zwei Betriebsmodi gibt – VPN und SOCKS5 – empfehlen wir Ihnen, nur den standardmäßig ausgewählten (VPN) zu verwenden. Wenn der **VPN-Modus** aktiviert ist, wird der gesamte Datenverkehr Ihres Geräts über AdGuard VPN geleitet, während im **SOCKS5-Modus** AdGuard VPN einen lokalen Proxyserver verwendet, der von anderen Apps verwendet werden kann, um ihren Datenverkehr umzuleiten.
+**Logging level**
 
-**Protokollierungsebene**
+Two levels of logging are available to choose from: **Record by default** and **Record everything**. The first option is enabled by default. The **Record everything** option should only be activated if our support team has asked you to do so. Using the app in this mode for an extended period of time result in increased battery consumption.
 
-Es stehen zwei Protokollierungsstufen zur Auswahl: **Standard-Aufzeichnung** und **Vollständige Aufzeichnung**. Die erste Option ist standardmäßig aktiviert. Die Option **Vollständige Aufzeichnung** sollte nur aktiviert werden, wenn unser Support-Team Sie darum gebeten hat. Die Verwendung der App in diesem Modus über einen längeren Zeitraum führt zu einem erhöhten Akkuverbrauch.
+All logs are stored locally on your device and you can send them to the support team if needed.
 
-Alle Protokolle werden lokal auf Ihrem Gerät gespeichert und Sie können sie bei Bedarf an das Support-Team senden.
+**Use QUIC**
 
-**QUIC verwenden**
-
-Dies ist eine experimentelle Funktion, die es AdGuard ermöglicht, das erweiterte QUIC-Verschlüsselungsprotokoll zu verwenden. Es hat viele Vorteile, aber der bemerkenswerteste ist, dass es die Verbindungsqualität unter nicht idealen Bedingungen verbessern kann, beispielsweise bei der Nutzung des mobilen Internets oder bei der Verbindung mit öffentlichen WLAN-Netzwerken.
+This is an experimental feature that enables AdGuard to use the advanced QUIC encryption protocol. It has many advantages, but the most notable one is that it can improve connection quality under non-ideal conditions, for example, when using mobile Internet or when connecting to public Wi-Fi networks.
 
 
-### Split-Tunneling
+### App exclusions
 
-![Split-Tunneling](https://cdn.adguard.com/content/kb/VPN/windows/split_tunneling_en.png)
+![Adding an app to exclusions](https://cdn.adguard.com/content/release_notes/vpn/windows/v2.0/add_app_en.png)
 
-AdGuard VPN verschlüsselt nicht nur den Datenverkehr Ihrer Browser, sondern auch anderer auf Ihrem Computer installierter Apps. Wenn Sie bestimmte Apps von der Arbeit von AdGuard ausschließen möchten, setzen Sie sie auf die **Split-Tunneling** Liste.
+Not only does AdGuard VPN encrypt the traffic of your browsers, but also of other apps installed on your device. If you want to exclude certain applications from the tunnel, put them to the **App exclusions** list.
 
 ## Andere Registerkarten
 
 ### Über das Programm
 
-Die Registerkarte **Über das Programm** bietet Informationen über die aktuelle Version von AdGuard VPN für Windows, eine Update-Schaltfläche und einige nützliche Links: AdGuard-Website, Forum, EULA und Datenschutzerklärung.
+The **About** tab provides information about the current version of AdGuard VPN for Windows, an update button, and links to the AdGuard VPN website, forum, EULA, and Privacy Policy.
 
-### Über die Lizenz
+### Account
 
-Hier finden Sie Informationen zu Ihrem Lizenzstatus sowie einen Link zu Ihrem persönlichen AdGuard-Konto, wo Sie Ihre aktuellen Abonnements verwalten und neue erwerben können.
+Here you can find information about your license status, as well as a link to your personal AdGuard account, where you can manage your current subscriptions and purchase new ones.
 
 ## Support
 
-Auf dieser Registerkarte haben wir viele nützliche Links zusammengestellt: FAQ-Seite, Bewerbungs-Feedback-Formular, Social-Media-Seiten und **Wissensdatenbank**.
+This tab is aimed to solve users' questions: there you can find a link to the FAQ page, report a bug or leave feedback, and export logs if the support team asks you to.

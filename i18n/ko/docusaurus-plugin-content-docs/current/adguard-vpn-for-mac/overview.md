@@ -11,7 +11,7 @@ Mac용 AdGuard VPN은 데스크톱 VPN 서비스입니다. AdGuard VPN은 AdGuar
 
 ## 홈 화면
 
-![홈 화면](https://cdn.adguard.com/public/Adguard/Blog/mac-vpn-main.png)
+![홈 화면](https://cdn.adguardvpn.com/content/kb/vpn/mac/main_en.png)
 
 첫 번째 탭은 *홈 *화면입니다. Here you can see AdGuard VPN current status and [exclusions mode](#exclusions), chosen location (if enabled) and its ping. 핑은 VPN 서버의 응답 시간입니다. 핑이 낮을수록 연결 속도가 빠릅니다. VPN이 비활성화된 경우 마지막으로 연결한 위치가 아래에 표시됩니다. 핑이 가장 낮은 가장 빠른 위치가 화면 오른쪽 상단에 표시됩니다. 아래에서 전체 위치 목록을 볼 수 있습니다. 검색 기능을 통해 필요한 위치를 손쉽게 찾을 수 있습니다.
 
@@ -19,11 +19,11 @@ Mac용 AdGuard VPN은 데스크톱 VPN 서비스입니다. AdGuard VPN은 AdGuar
 
 ## 예외 목록
 
-![예외 목록](https://cdn.adguard.com/public/Adguard/Blog/vpn/release/VPN_for_Mac/exclusions.png)
+![예외 목록](https://cdn.adguardvpn.com/content/kb/vpn/mac/exclusions_en.png)
 
 다음 탭은 *예외 목록*입니다. AdGuard VPN has several features that make it unique, and one of them is certainly switching between two exclusions modes. In the General mode, AdGuard VPN will run on all websites but the ones from the exclusions list. 반대로 선별 모드에서는 AdGuard VPN이 예외 목록의 웹사이트에서만 실행됩니다. VPN이 작동할 웹사이트를 직접 결정할 수 있습니다.
 
-![예외 화면](https://cdn.adguard.com/public/Adguard/Blog/services.png)
+![예외 화면](https://cdn.adguardvpn.com/content/kb/vpn/mac/services_en.png)
 
 또한 예외 목록에 웹사이트를 추가할 수 있을 뿐만 아니라 인기 있는 서비스 목록에서도 선택할 수 있습니다. 이 서비스 목록은 소셜 네트워크, 메신저, 비디오 및 음악 스트리밍 서비스, 게임, 쇼핑, 검색 엔진 및 업무용 커뮤니케이션 도구 등 8개의 범주로 나뉩니다. 이 중 어느 서비스든 한 클릭으로 예외 목록에 추가할 수 있습니다. 예외 목록에 추가된 도메인에서만 작동하는 AdGuard VPN 선택 모드를 사용할 경우, 아주 편리합니다.
 
@@ -42,19 +42,19 @@ Mac용 AdGuard VPN은 데스크톱 VPN 서비스입니다. AdGuard VPN은 AdGuar
 
 ## 고객 지원
 
-![지원 화면](https://cdn.adguard.com/public/Adguard/Blog/vpn/release/VPN_for_Mac/support.png)
+![지원 화면](https://cdn.adguardvpn.com/content/kb/vpn/mac/support_en.png)
 
 세 번째 탭은 *고객 지원* 화면입니다. [FAQ](https://adguard-vpn.com/en/welcome.html#faq) 또는 [지식 창고](/intro.md)에서 질문에 대한 답을 찾거나, 버그를 보고하거나, [다른 플랫폼에서 AdGuard에 대해 토론](https://adguard.com/en/discuss.html)하세요. [AdGuard 제품에 대한 피드백](https://surveys.adguard.com/en/vpn_mac/form.html)을 남겨주시면 감사하겠습니다.
 
 ## 설정
 
-![설정](https://cdn.adguard.com/public/Adguard/Blog/vpn/release/VPN_for_Mac/settings.png)
+![설정](https://cdn.adguardvpn.com/content/kb/vpn/mac/settings_en.png)
 
 마지막으로 설정 탭을 살펴보겠습니다. 프로그램 *정보* 섹션에서 AdGuard VPN의 현재 버전 및 업데이트를 확인하고, 공식 웹사이트를 방문하고, AdGuard의 EULA 및 개인정보취급방침에 대해 알아볼 수 있습니다. *라이선스 정보* 섹션에서 무료 버전에서 무제한 버전으로 업그레이드하거나 구독을 관리하거나 로그아웃할 수 있습니다. 그리고 가장 중요한 것은 여기에서 *일반 설정*으로 이동할 수 있습니다.
 
-### 일반 설정
+### App settings
 
-![일반 설정](https://cdn.adguard.com/public/Adguard/Blog/vpn/release/VPN_for_Mac/general-settings.png)
+![App settings](https://cdn.adguardvpn.com/content/kb/vpn/mac/general-settings_en.png)
 
 *킬 스위치*, *자동 업데이트*, *로그인 시 AdGuard VPN 실행* 및 *앱 실행 시 자동 연결*과 같은 네 가지 기본 기능은 애플리케이션을 더욱 편리하고 사용자 친화적으로 만듭니다. 시스템 기본 테마, 다크 테마 또는 라이트 테마를 적용할 수 있습니다. 시스템 기본 테마는 Mac의 테마와 일치합니다.
 
@@ -62,13 +62,13 @@ Mac용 AdGuard VPN은 데스크톱 VPN 서비스입니다. AdGuard VPN은 AdGuar
 
 ### DNS 서버
 
-![DNS 서버](https://cdn.adguard.com/public/Adguard/Blog/vpn/release/VPN_for_Mac/dns.png)
+![DNS 서버](https://cdn.adguardvpn.com/content/kb/vpn/mac/dns_en.png)
 
 여기에서 기본적으로 ISP에서 제공하는 DNS 서버를 사용하지 않도록 사용자 지정 DNS 서버를 추가할 수 있습니다. DNS 트래픽을 암호화할 뿐만 아니라 악성 사이트에 대한 요청을 식별하고 '블랙홀'로 리디렉션하는 AdGuard DNS를 추가하는 것이 좋습니다.
 
 ### 고급 설정
 
-![고급 설정](https://cdn.adguard.com/public/Adguard/Blog/vpn/release/VPN_for_Mac/advanced-settings.png)
+![고급 설정](https://cdn.adguardvpn.com/content/kb/vpn/mac/advanced-settings_en.png)
 
 고급 설정은 변경하지 않는 것이 좋습니다. 특별한 지식이 있거나 지원 팀에서 요청한 경우가 아니면 이 기능을 변경하지 않는 것이 좋습니다.
 
