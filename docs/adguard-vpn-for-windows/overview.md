@@ -37,7 +37,7 @@ AdGuard VPN for Windows can operate in two modes: **General** or **Selective**. 
 
 ![Exclusions](https://cdn.adguard.com/content/kb/VPN/windows/exclusions_en.png)
 
-You can add websites to exclusiond **manually** by entering their domain names. The app also offers you an option to choose popular websites **from the list**.
+You can add websites to exclusions **manually** by entering their domain names. The app also offers you an option to choose popular websites **from the list**.
 
 ![Add Exclusions](https://cdn.adguard.com/content/kb/VPN/windows/exclusions_add_en.png)
 
@@ -97,7 +97,7 @@ This is an experimental feature that enables AdGuard to use the advanced QUIC en
 
 ![Adding an app to exclusions](https://cdn.adguard.com/content/release_notes/vpn/windows/v2.0/add_app_en.png)
 
-AdGuard VPN not only encrypts the traffic of your browsers, but also of other apps installed on your computer. If you want to exclude certain applications from the tunnel, put them to the **App exclusions** list. 
+Not only does AdGuard VPN encrypt the traffic of your browsers, but also of other apps installed on your device. If you want to exclude certain applications from the tunnel, put them to the **App exclusions** list. 
 
 ## Other tabs
 
