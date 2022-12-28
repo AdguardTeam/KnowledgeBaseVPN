@@ -1,6 +1,6 @@
 ---
 title: Features overview
-sidebar position: 1
+sidebar_position: 1
 ---
 
 ## What is AdGuard VPN for Windows

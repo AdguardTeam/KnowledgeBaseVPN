@@ -1,6 +1,6 @@
 ---
 title: How to install and uninstall
-sidebar position: 2
+sidebar_position: 2
 ---
 
 
