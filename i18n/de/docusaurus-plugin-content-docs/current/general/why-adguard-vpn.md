@@ -15,7 +15,7 @@ Bei der Wahl eines VPN-Dienstes müssen Sie oft zwischen hoher Geschwindigkeit u
 ## 2. Ausschlüsse
 Die Listen *Ausschlüsse* ermöglichen es Ihnen, Websites auszuwählen, für die das VPN aktiviert und deaktiviert werden soll. Es gibt zwei Betriebsmodi in AdGuard VPN: *Allgemein* und *Selektiv*. *Allgemeiner Modus:* AdGuard VPN funktioniert nicht auf Websites aus der Ausschlussliste. Und umgekehrt funktioniert VPN im *selektiven Modus* nur auf Websites, die zu den Ausnahmen gehören. Sie können auch problemlos Ausschlusslisten importieren/exportieren. Lesen Sie mehr über diese Funktion unter *Funktionsübersicht* für das Produkt, an dem Sie interessiert sind.
 
-![Ein Beispiel für eine Ausschlussliste für den selektiven Modus](https://cdn.adguard.com/public/Adguard/Blog/vpn_export_exclusions.png)
+![Ein Beispiel für eine Ausschlussliste für den selektiven Modus](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn_export_exclusions.png)
 
 Sie können Websites manuell zu den Ausschlüssen hinzufügen oder sie aus der Liste der beliebten Dienste auswählen. Die Listen sind in acht Kategorien unterteilt: Soziale Netzwerke, Messenger, Video- und Musik-Streaming-Dienste, Spiele, Shopping, Suchmaschinen und Tools für die Arbeitskommunikation.
 
@@ -68,6 +68,6 @@ Was aber, wenn Sie sich sicher fühlen wollen, während Sie sich Inhalte ansehen
 
 ## 12. Dunkelmodus
 
-![Dunkelmodus](https://cdn.adguard.com/public/Adguard/Blog/vpn/main_en_black.png)
+![Dunkelmodus](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/main_en_black.png)
 
 Dieses kleine Feature verdient besondere Erwähnung. Tatsächlich sehnen sich viele Benutzer:innen nach einem dunklen Modus, so dass wir dies nicht ignorieren konnten und einen Themenschalter für alle AdGuard VPN-Produkte hinzugefügt haben. Wählen Sie aus, was Ihnen besser gefällt — hell, dunkel oder System. Hoffentlich wird Ihnen den Dunkelmodus gefallen.

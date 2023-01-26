@@ -15,7 +15,7 @@ Při výběru služby VPN se lidé často rozhodují mezi rychlostí a bezpečno
 ## 2. Výjimky
 *Seznamy výjimek* umožňují vybrat weby, pro které má být VPN zapnuta a pro které vypnuta. V AdGuard VPN existují dva provozní režimy: *Obecný* a *Selektivní*. V *Obecném režimu* funguje AdGuard VPN všude kromě webů přidaných do výjimek. A naopak v *Selektivním režimu* VPN nefunguje nikde jinde než na webech zařazených do výjimek. Můžete také snadno importovat/exportovat seznamy výjimek. Informace o této funkci naleznete v *přehledu funkcí* pro produkt, o který máte zájem.
 
-![Příklad seznamu výjimek pro selektivní režim](https://cdn.adguard.com/public/Adguard/Blog/vpn_export_exclusions.png)
+![Příklad seznamu výjimek pro selektivní režim](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn_export_exclusions.png)
 
 Webové stránky můžete do výjimek přidat ručně nebo je vybrat ze seznamu oblíbených služeb. Seznamy jsou rozděleny do osmi kategorií: sociální sítě, messengery, služby pro streamování videa a hudby, hry, nakupování, vyhledávače a nástroje pro pracovní komunikaci.
 
@@ -68,6 +68,6 @@ Ale co když se chcete cítit bezpečně při sledování obsahu specifického p
 
 ## 12. Tmavý motiv
 
-![Tmavý motiv](https://cdn.adguard.com/public/Adguard/Blog/vpn/main_en_black.png)
+![Tmavý motiv](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/main_en_black.png)
 
 Tato drobnost si zaslouží zvláštní zmínku. Mnoho uživatelů touží po tmavém motivu, takže jsme to nemohli ignorovat a přidali jsme přepínač motivů pro všechny produkty AdGuard VPN. Vyberte si ten, který se vám líbí více — světlý, tmavý nebo podle systému. Doufám, že se přidáte na temnou stranu.

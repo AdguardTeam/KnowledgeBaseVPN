@@ -19,7 +19,7 @@ Android 7 이상 운영 체제를 실행하는 휴대폰 또는 태블릿 사용
 
 > 어려움이나 추가 질문이있는 경우 [여기](https://developer.android.com/studio/debug/dev-options)에서 자세한 지침을 확인할 수 있습니다.
 
-2. [Install and configure](https://www.xda-developers.com/install-adb-windows-macos-linux/) ADB;
+2. ADB를 [설치하고 구성합니다.](https://www.xda-developers.com/install-adb-windows-macos-linux/)
 > Windows 플랫폼을 사용하는 경우, adb를 설치하고 구성합니다. **삼성 기기**를 사용하는 경우, [이 드라이버](https://developer.samsung.com/mobile/android-usb-driver.html)를 설치해야 합니다.
 
 3. **USB 케이블**을 사용하여 **ADB**를 설치한 컴퓨터 또는 노트북에 기기를 연결합니다.

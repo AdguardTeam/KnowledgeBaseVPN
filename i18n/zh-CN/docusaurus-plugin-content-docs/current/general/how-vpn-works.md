@@ -25,7 +25,7 @@ VPN 是一种虚拟专用网络，有助于隐藏用户的位置并保护网络�
 
 VPN 在用户的设备和 VPN 服务器之间建立一个隧道。 你的数据通过这个隧道，得到加密，然后以安全的形式进入开放的互联网。 因此，在网络服务器看来，你的设备不再有你的真实 IP 地址，而是隧道端点的 IP 地址，即 VPN 服务器。 因此，你通过 VPN 隧道后到达的网站将把你选择的 VPN 服务器的地理位置视为你的真实位置。 而且，加密的数据不会落入广告商、黑客和政府机构的手中。
 
-![VPN 结构](https://cdn.adguard.com/public/Adguard/Website/Images/seo/en/how_vpn_3.jpg)
+![VPN 结构](https://cdn.adguardvpn.com/public/Adguard/Website/Images/seo/en/how_vpn_3.jpg)
 
 ## VPN 协议的类型
 
@@ -39,11 +39,11 @@ VPN 安全协议是对 VPN 隧道中的数据进行加密的工具，允许你�
 
 除了这些 VPN 协议外，还有其他协议（例如 TLS、SSTP、IKEv2），但它们要么不流行，要么不符合现代数据加密标准。
 
-![VPN 协议的工作原理](https://cdn.adguard.com/public/Adguard/Blog/vpn/protocol/4.svg)
+![VPN 协议的工作原理](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/4.svg)
 
 AdGuard VPN 也有自己的[*协议*](adguard-vpn-protocol.mdx)。 其最大优点之一是，使用 AdGuard VPN 协议传输的流量极难与普通流量区分。 VPN 隧道可以完全伪装成正常的 HTTPS 流量，因此极难检测和阻止它。 此外，基于现代 HTTP/2 协议的机制确保了高连接速度。
 
-![隐藏式 VPN 的工作原理](https://cdn.adguard.com/public/Adguard/Blog/vpn/protocol/5.svg)
+![隐藏式 VPN 的工作原理](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/5.svg)
 
 ## VPN 的缺点
 

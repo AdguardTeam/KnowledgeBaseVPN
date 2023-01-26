@@ -4,7 +4,7 @@ sidebar_position: 1
 slug: /
 ---
 
-## Qué es una VPN y por qué necesita una
+## Qué es una VPN y por qué necesitas una?
 
 Una VPN le permite crear una conexión segura a otra red en Internet.
 
@@ -22,7 +22,7 @@ La VPN se puede utilizar para:
 
 Las contraseñas, los detalles de la tarjeta y simplemente su información personal están en riesgo cuando un usuario navega por Internet. Pero si se conecta a la red global utilizando una VPN, puede estar seguro de que nadie puede interceptar sus datos.
 
-## Por qué AdGuard VPN
+## ¿Por qué AdGuard VPN?
 
 ### Desarrollador de confianza
 AdGuard ha estado presente en el mercado de protección de datos personales y bloqueo de anuncios y ha desarrollado su línea de software durante más de 12 años. Durante este tiempo, nuestra empresa ha construido una reputación impecable, y el número de nuestros clientes ha superado los 30 millones.

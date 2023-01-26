@@ -25,7 +25,7 @@ Lorsque vous vous connectez à un réseau, votre ordinateur ou appareil mobile s
 
 Un VPN crée un tunnel entre votre appareil et le serveur VPN. Vos données passent par ce tunnel, sont cryptées puis entrent sur Internet sous une forme sécurisée. Par conséquent, le serveur web aura l'impression que votre appareil n'a plus votre véritable adresse IP, mais l'adresse IP de l'extrémité du tunnel, c'est-à-dire le serveur VPN. Ainsi, le site auquel vous accédez après avoir traversé le tunnel VPN considérera la géolocalisation du serveur VPN que vous avez sélectionné comme votre emplacement réel. Et les données chiffrées ne tomberont pas entre les mains des publicitaires, des pirates informatiques et des services de sécurité.
 
-![Structure du VPN](https://cdn.adguard.com/public/Adguard/Website/Images/seo/en/how_vpn_3.jpg)
+![Structure du VPN](https://cdn.adguardvpn.com/public/Adguard/Website/Images/seo/en/how_vpn_3.jpg)
 
 ## Types de protocoles VPN
 
@@ -39,11 +39,11 @@ Les protocoles de sécurité VPN sont des outils qui cryptent les données dans 
 
 En plus de ces protocoles VPN, il en existe d'autres (par exemple, TLS, SSTP, IKEv2), mais ils sont impopulaires ou ne répondent pas aux normes modernes de chiffrement des données.
 
-![Comment un protocole VPN fonctionne-t-il](https://cdn.adguard.com/public/Adguard/Blog/vpn/protocol/4.svg)
+![Comment un protocole VPN fonctionne-t-il](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/4.svg)
 
 AdGuard VPN possède également son propre [protocole**](adguard-vpn-protocol.mdx). Un de ses avantages est que le trafic transmis à l'aide du protocole AdGuard VPN est difficile à distinguer du trafic normal. Le tunnel VPN ressemble au trafic HTTPS normal, il est donc extrêmement difficile de le détecter et de le bloquer. De plus, il est basé sur les mécanismes du protocole HTTP/2 moderne, qui assure une vitesse de connexion élevée.
 
-![Comment fonctionne un VPN caché](https://cdn.adguard.com/public/Adguard/Blog/vpn/protocol/5.svg)
+![Comment fonctionne un VPN caché](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/5.svg)
 
 ## Les inconvénients du VPN
 

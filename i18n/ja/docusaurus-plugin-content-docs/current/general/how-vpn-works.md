@@ -25,7 +25,7 @@ VPNとは、Virtual Private Networkの略で、ウェブ上で自分の居場所
 
 VPNは、お使いの端末とVPNサーバーの間にトンネルを作成します。 あなたのデータはこのトンネルを通り、暗号化され、安全な形でオープンインターネットに出るのです。 そのため、ウェブサーバーにとって、あなたのデバイスの本当のIPアドレスではなく、トンネルの終点、つまりVPNサーバーのIPアドレスに見えるようになります。 したがって、VPNトンネルを通過した後にたどり着くサイトは、あなたが選択したVPNサーバーのジオロケーションをあなたの本当の場所とみなします。 そして、暗号化されたデータは、広告主やハッカー、セキュリティサービスの手に落ちることはありません。
 
-![VPNの構造](https://cdn.adguard.com/public/Adguard/Website/Images/seo/ja/how_vpn_3.jpg)
+![VPNの構造](https://cdn.adguardvpn.com/public/Adguard/Website/Images/seo/en/how_vpn_3.jpg)
 
 ## VPNプロトコルの種類
 
@@ -39,11 +39,11 @@ VPNセキュリティプロトコルは、VPNトンネル内のデータを暗�
 
 これらのVPNプロトコルに加えて、他のプロトコル（例えば、TLS、SSTP、IKEv2）もありますが、不人気であったり、最新のデータ暗号化規格に対応していなかったりします。
 
-![VPNプロトコルの仕組み](https://cdn.adguard.com/public/Adguard/Blog/vpn/protocol/4.svg)
+![VPNプロトコルの仕組み](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/4.svg)
 
 AdGuard VPNには、[*独自開発のプロトコル*](adguard-vpn-protocol.mdx)があります。 その利点の1つは、AdGuard VPNプロトコルを使用して送信されるトラフィックは、通常のトラフィックと区別することが困難であることです。 VPNトンネルは通常のHTTPSトラフィックのように見えるため、VPN通信を検知してブロックすることは極めて困難です。 また、最新のHTTP/2プロトコルの仕組みに基づいているため、高い接続速度を確保します。
 
-![検出対策VPNの仕組み](https://cdn.adguard.com/public/Adguard/Blog/vpn/protocol/5.svg)
+![検出対策VPNの仕組み](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/5.svg)
 
 ## VPNの欠点
 

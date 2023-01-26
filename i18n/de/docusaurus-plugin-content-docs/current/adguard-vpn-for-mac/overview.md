@@ -52,9 +52,9 @@ Die dritte Registerkarte ist der Bildschirm *Support*. Finden Sie Antworten auf 
 
 Schließlich kommen wir zur Registerkarte Einstellungen. Im Abschnitt *Über das Programm* können Sie die aktuelle Version von AdGuard VPN sehen, nach Updates suchen, unsere offizielle Website besuchen und sich mit der EULA und Datenschutzrichtlinie von AdGuard vertraut machen. Im Abschnitt *Über Lizenz* können Sie von kostenlos auf unbegrenzt upgraden, Ihr Abonnement verwalten oder sich abmelden. Und vor allem können Sie von hier aus auf *Allgemeine Einstellungen* zugreifen.
 
-### App settings
+### App-Einstellungen
 
-![App settings](https://cdn.adguardvpn.com/content/kb/vpn/mac/general-settings_en.png)
+![App-Einstellungen](https://cdn.adguardvpn.com/content/kb/vpn/mac/general-settings_en.png)
 
 Die ersten vier Grundfunktionen machen die App bequemer und benutzerfreundlicher, d.h. *Kill Switch*, *Automatisch aktualisieren*, *AdGuard VPN bei der Anmeldung starten* und *Automatisch beim App-Start verbinden*. Darüber hinaus können Sie zwischen hellen, dunklen und Systemthemen wählen – letzteres entspricht dem Thema auf Ihrem Mac.
 

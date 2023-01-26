@@ -15,22 +15,22 @@ sidebar_position: 2
 
 4. 一旦完成安裝，軟件會推薦您轉到 [無限制版本](https://adguard-vpn.com/thankyou.html)。 它不是強迫性的，但如果您發現免費版本對您來說不夠用，您可以隨時[訂閱](/general/subscription.md)。
 
-4. 通過選中相應的框來閱讀並接受 終端用戶授權協定 和 隱私政策。 You can also allow AdGuard VPN to collect anonymized data on the app usage, which we need to improve our product (this is optional). Then click *Continue*.
+4. 通過選中相應的框來閱讀並接受 終端用戶授權協定 和 隱私政策。 您還可以允許 AdGuard VPN 收集應用程序使用狀況的匿名數據，我們需要這些數據來改進我們的產品（這是可選的）。 然後點擊 *繼續*。
 
-5. Sign up or log into your previously created AdGuard account to finish the installation process.
+5. 註冊或登入您之前創建的 AdGuard 帳號以完成安裝。
 
-Enjoy AdGuard VPN!
+享受 AdGuard VPN！
 
-## How to uninstall AdGuard VPN browser extension
+## 如何解除安裝 AdGuard VPN 擴充功能
 
 ### Chrome
 
-Click the three dots icon in the top right corner of the browser, then select *More tools → Extensions*. Find AdGuard VPN and click *Remove*.
+點擊瀏覽器右上角的三點圖示，然後按下 *更多工具 → 擴充功能*。 找到 AdGuard VPN 並點擊 *删除*。
 
 ### Firefox
 
-Click the sandwich menu icon in the top right corner of the browser, then select *Add-ons and themes*. Find AdGuard VPN in the list, click the three dots icon next to it and select *Remove*.
+點擊瀏覽器右上角的「三明治」選單圖示，然後按下 *附加元件和佈景主題*。 在清單中找到 AdGuard VPN，點擊其旁邊的三點圖示並選擇 *删除*。
 
 ### Edge
 
-Click the three dots icon in the top right corner of the browser, then select *Extensions*. Find AdGuard VPN in the list, click the three dots icon next to it and select *Remove from Microsoft Edge*.
+點擊瀏覽器右上角的三點圖示，然後按下 *擴充功能*。 在清單中找到 AdGuard VPN，點擊其旁邊的三點圖示並選擇 *從 Microsoft Edge 移除*。

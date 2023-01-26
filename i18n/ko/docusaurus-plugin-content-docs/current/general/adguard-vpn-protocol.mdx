@@ -1,39 +1,39 @@
 ---
-title: 'How AdGuard VPN protocol works'
+title: 'AdGuard VPN 프로토콜 작동 방식'
 sidebar_position: 4
 ---
 
 당사의 프로토콜은 [모든 AdGuard VPN 모바일 및 데스크톱 애플리케이션](https://adguard-vpn.com/en/welcome.html)에서 사용됩니다. 데이터가 가장 안전한 방식으로 보호되므로 안심하고 AdGuard VPN 제품을 다운로드하여 사용할 수 있습니다.
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7149L3xPmSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7149L3xPmSE" title="유튜브 동영상 플레이어" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## AdGuard VPN 프로토콜을 개발한 이유
 
-For years, we were concentrating on developing all flavors of ad blocking apps and browser extensions. And in 2019 we resolved to develop our own VPN service, seemingly out of nowhere. When in reality, there were a few reasons that prompted us to do so.
+수년 동안 저희는 모든 종류의 광고 차단 앱과 확장 프로그램을 개발하는 데 집중했습니다. 그리고 2019년에 저희는 자체 VPN 서비스를 개발하기로 결정했습니다. 실제로 자체 VPN 서비스를 개발해야 하는 몇 가지 이유가 있었습니다.
 
-* AdGuard mobile apps had compatibility issues with VPN apps. Normally, two VPN-based mobile apps can't work together: in rare cases on iOS, and never on Android. As AdGuard ad blocker apps use local VPN to filter network traffic, using them alongside any VPN app would be out of the question. That's why we saw the development of an in-house VPN as the only feasible solution that could guarantee compatibility: after we apply some magic, the two apps are able to work together as one VPN service.
-* Secondly, VPN seemed more than relevant to our philosophy and priorities. Our primary goal is to protect users' privacy, and this is exactly what VPNs are for.
-* Finally, over the years of developing AdGuard software, we have become experts in filtering network traffic. This allowed us to bring in something new instead of becoming another wishy-washy VPN.
+* AdGuard 모바일 앱에는 VPN 앱과의 호환성 문제가 있었습니다. 일반적으로 두 개의 VPN 기반 모바일 앱은 함께 작동할 수 없습니다. 드물게 iOS에서는 작동이 가능하지만 Android에서는 작동이 불가능합니다. AdGuard 광고 차단기 앱은 로컬 VPN을 사용하여 네트워크 트래픽을 필터링하므로 VPN 앱과 함께 사용하는 것은 불가능합니다. 그렇기 때문에 자체 VPN을 개발하는 것이 호환성을 보장할 수 있는 유일한 솔루션이었습니다. 이제 두 개의 AdGuard 애플리케이션이 동일한 VPN 터널 내에서 작동할 수 있습니다.
+* 둘째, VPN은 우리의 철학과 우선 순위와 관련이 있는 것 이상으로 보였습니다. 우리의 주요 목표는 사용자의 개인정보를 보호하는 것이며 이것이 바로 VPN의 목적입니다.
+* 마지막으로 수년간 AdGuard 소프트웨어를 개발하면서 저희는 네트워크 트래픽 필터링의 전문가가 되었습니다. 이제 일반적인 VPN이 아닌 고유한 기능을 갖춘 VPN을 사용자에게 제공할 수 있습니다.
 
-From the outset, we decided that AdGuard VPN would have one key difference from its competitors — we shall develop and deploy an in-house VPN protocol which would not force users to choose between security and speed.
+처음부터 저희는 AdGuard VPN이 경쟁사와 한 가지 중요한 차이점이 있다고 결정했습니다. 저희는 사용자가 보안과 속도 사이에서 선택하도록 강요하지 않는 사내 VPN 프로토콜을 개발하고 배포할 것입니다.
 
-## Disadvantages of popular VPN protocols
+## 널리 사용되는 VPN 프로토콜의 단점
 
-We developed the AdGuard VPN protocol seeing the disadvantages of popular VPN protocols (OpenVPN, WireGuard, IPSec, etc.):
+널리 사용되는 VPN 프로토콜(OpenVPN, WireGuard, IPSec 등)의 단점을 고려하여 AdGuard VPN 프로토콜을 개발했습니다.
 
-* They can be easily detected and blocked on the network level.
-* If you try to "hide" them, the performance will drop.
+* 이러한 프로토콜은 네트워크 수준에서 쉽게 탐지하고 차단할 수 있습니다.
+* 하지만 숨기려고 하면 성능이 저하됩니다.
 
-To "conceal" the use of VPN, the data flow is often "wrapped" in a TCP connection, and sometimes it is additionally encrypted to make the traffic look like a normal website connection. Unfortunately, this approach has a disadvantage – due to the use of TCP, there is a need for additional confirmation of delivery.
+VPN 사용을 '숨기기' 위해 대부분의 경우 데이터 스트림은 TCP 연결로 래핑'되며 때로는 추가로 암호화되어 트래픽이 일반 사이트에 대한 연결처럼 보이도록 합니다. 불행히도 이 방식에는 단점이 있습니다. TCP를 사용하기 때문에 추가 배송 확인이 필요합니다.
 
-Using any popular VPN protocol, we are always facing a trade-off: fast but easy to detect vs. slow.
+일반적인 VPN 프로토콜을 사용하는 경우, 빠르지만 감지하기 쉽고, 느리지만 감지하기 어렵다는 선택을 해야 합니다.
 
-## What's great about AdGuard VPN protocol
+## AdGuard VPN 프로토콜의 이점
 
-* It's *nearly impossible to distinguish from normal HTTPS traffic*, that is, the connection to the AdGuard VPN server looks exactly the same as the connection to a normal website.
-* For encryption we use **HTTPS (TLS)**, which copes with this task perfectly. It is the most popular encryption method in the world, and the libraries that implement it are constantly audited for security.
+* AdGuard 프로토콜은 *일반 HTTPS 트래픽과 거의 구별할 수 없습니다*. 즉, AdGuard VPN 서버에 대한 연결은 일반 웹 사이트에 대한 연결처럼 보입니다.
+* 암호화를 위해 **HTTPS(TLS)**를 사용합니다. 이것은 세계에서 가장 널리 사용되는 암호화 방법이며 이를 구현하는 라이브러리는 보안을 위해 지속적으로 감사를 받습니다.
 
-Some existing VPN protocols also handle the encryption task, and they (and thus, the fact of using a VPN) are hard to detect. But this usually comes at the price of reduced speed. This is not our case, thanks to several solutions.
+일부 기존 VPN 프로토콜은 암호화 문제를 잘 처리할 수 있으므로 VPN이 사용 중인지 감지하기 어렵습니다. 그러나 인터넷 속도가 느려질 수 있습니다. 여러 솔루션 덕분에 AdGuard VPN 프로토콜은 인터넷 속도를 저하시키지 않습니다.
 
-* We use the **HTTP/2 transport protocol**, which makes it virtually impossible to detect AdGuard VPN protocol while maintaining high speed.
-* Unlike others, AdGuard VPN protocol *operates with data and not with packets*. This means that AdGuard VPN establishes a separate "tunnel" for each connection, each HTTP/2 stream corresponds to one connection. AdGuard VPN transfers data through this tunnel. This allows us to speed up the operation by saving on confirmation packets, because we can buffer the data of several packets into one before sending it to the VPN server (or from the server to the client). And the fewer packets, the fewer confirmations are needed.
+* **HTTP/2 전송 프로토콜**을 사용하므로 AdGuard VPN 프로토콜을 탐지하는 것이 사실상 불가능합니다.
+* 다른 프로토콜과 달리 AdGuard VPN 프로토콜 *은 패킷이 아닌 데이터로 작동합니다*. 즉, AdGuard VPN은 각 연결에 대해 별도의 터널을 설정하고 각 HTTP/2 스트림은 하나의 연결에 해당합니다. AdGuard VPN은 이 터널을 통해 데이터를 전송합니다. 이렇게 하면 확인 패킷을 저장하여 작업 속도를 높일 수 있습니다. 여러 패킷의 데이터를 VPN 서버로(또는 서버에서 클라이언트로) 보내기 전에 하나로 버퍼링할 수 있기 때문입니다. 그리고 패킷이 적을수록 확인이 더 적게 필요합니다.

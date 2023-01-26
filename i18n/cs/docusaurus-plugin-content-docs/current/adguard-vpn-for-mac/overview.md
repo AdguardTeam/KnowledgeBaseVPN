@@ -52,9 +52,9 @@ Třetí karta je obrazovka *Podpory*. Odpovědi na všechny otázky najdete v se
 
 Nakonec se dostáváme ke kartě Nastavení. V sekci *O programu* si můžete prohlédnout aktuální verzi AdGuard VPN, zkontrolovat aktualizace, navštívit naše oficiální webové stránky a seznámit se s licenční smlouvou EULA a zásadami ochrany osobních údajů AdGuardu. V sekci *O licenci* můžete provést upgrade z bezplatné verze na neomezenou, spravovat své předplatné nebo se odhlásit. A co je nejdůležitější, odtud máte přístup k *Obecným nastavením*.
 
-### App settings
+### Nastavení aplikace
 
-![App settings](https://cdn.adguardvpn.com/content/kb/vpn/mac/general-settings_en.png)
+![Nastavení aplikace](https://cdn.adguardvpn.com/content/kb/vpn/mac/general-settings_en.png)
 
 První čtyři základní funkce činí aplikaci pohodlnější a uživatelsky přívětivější, tj. *Kill Switch*, *automatické aktualizace*, *spuštění AdGuard VPN při přihlášení *a *automatické připojení při spuštění aplikace*. Navíc si můžete vybrat mezi světlým, tmavým a systémovým motivem — poslední jmenovaný motiv odpovídá motivu vašeho počítače Mac.
 

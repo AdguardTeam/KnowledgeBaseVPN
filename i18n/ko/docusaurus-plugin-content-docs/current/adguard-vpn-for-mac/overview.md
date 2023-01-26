@@ -13,7 +13,7 @@ Mac용 AdGuard VPN은 데스크톱 VPN 서비스입니다. AdGuard VPN은 AdGuar
 
 ![홈 화면](https://cdn.adguardvpn.com/content/kb/vpn/mac/main_en.png)
 
-첫 번째 탭은 *홈 *화면입니다. Here you can see AdGuard VPN current status and [exclusions mode](#exclusions), chosen location (if enabled) and its ping. 핑은 VPN 서버의 응답 시간입니다. 핑이 낮을수록 연결 속도가 빠릅니다. VPN이 비활성화된 경우 마지막으로 연결한 위치가 아래에 표시됩니다. 핑이 가장 낮은 가장 빠른 위치가 화면 오른쪽 상단에 표시됩니다. 아래에서 전체 위치 목록을 볼 수 있습니다. 검색 기능을 통해 필요한 위치를 손쉽게 찾을 수 있습니다.
+첫 번째 탭은 *홈 *화면입니다. 여기에서 AdGuard VPN 현재 상태와 [예외 모드](#exclusions), 선택한 위치(활성화된 경우) 및 해당 핑을 볼 수 있습니다. 핑은 VPN 서버의 응답 시간입니다. 핑이 낮을수록 연결 속도가 빠릅니다. VPN이 비활성화된 경우 마지막으로 연결한 위치가 아래에 표시됩니다. 핑이 가장 낮은 가장 빠른 위치가 화면 오른쪽 상단에 표시됩니다. 아래에서 전체 위치 목록을 볼 수 있습니다. 검색 기능을 통해 필요한 위치를 손쉽게 찾을 수 있습니다.
 
 > 무료 버전의 사용자는 특정 위치에만 연결할 수 있고, 다른 위치가 차단됩니다. 게다가 무료 버전에서는 매월 3GB의 트래픽만 사용할 수 있습니다.
 
@@ -21,7 +21,7 @@ Mac용 AdGuard VPN은 데스크톱 VPN 서비스입니다. AdGuard VPN은 AdGuar
 
 ![예외 목록](https://cdn.adguardvpn.com/content/kb/vpn/mac/exclusions_en.png)
 
-다음 탭은 *예외 목록*입니다. AdGuard VPN has several features that make it unique, and one of them is certainly switching between two exclusions modes. In the General mode, AdGuard VPN will run on all websites but the ones from the exclusions list. 반대로 선별 모드에서는 AdGuard VPN이 예외 목록의 웹사이트에서만 실행됩니다. VPN이 작동할 웹사이트를 직접 결정할 수 있습니다.
+다음 탭은 *예외 목록*입니다. AdGuard VPN에는 고유한 몇 가지 기능이 있으며 그 중 하나는 두 가지 예외 모드 사이를 전환하는 것입니다. 일반 모드에서 AdGuard VPN은 예외 목록에 있는 웹사이트를 제외한 모든 웹사이트에서 실행됩니다. 반대로 선별 모드에서는 AdGuard VPN이 예외 목록의 웹사이트에서만 실행됩니다. VPN이 작동할 웹사이트를 직접 결정할 수 있습니다.
 
 ![예외 화면](https://cdn.adguardvpn.com/content/kb/vpn/mac/services_en.png)
 
@@ -34,7 +34,7 @@ Mac용 AdGuard VPN은 데스크톱 VPN 서비스입니다. AdGuard VPN은 AdGuar
 예외 목록은 AdGuard VPN이 설치된 다른 기기로 전송할 수 있습니다. 예외 항목을 내보내려면 아래의 4단계 지침을 따르십시오.
 
 1. 예외 목록을 내보내려는 기기에서 AdGuard VPN을 엽니다. 해당 섹션을 찾아 *내보내기* 버튼을 클릭합니다. `exclusions.zip` 파일이 다운로드됩니다.
-2. There are two `.txt` files inside the archive, each for General and Selective lists. 제외 항목을 더 추가하거나, 기존 항목을 삭제하거나, 파일 이름을 바꾸거나, ZIP 파일을 그대로 둡니다.
+2. ZIP 파일 내부에는 일반 및 선별 목록 각각에 대해 하나씩 두 개의 `.txt` 파일이 있습니다. 제외 항목을 더 추가하거나, 기존 항목을 삭제하거나, 파일 이름을 바꾸거나, ZIP 파일을 그대로 둡니다.
 3. 다른 기기 간에 전송할 때 가져오기를 위해 `.zip` 파일을 기기로 보내는 것을 잊지 마십시오. 예를 들어, Mac 기기에서 아이폰으로 예외 목록을 가져오는 경우, 미리 `.zip` 파일을 Android로 보내야 합니다.
 4. 예외 목록이 있는 ZIP 파일을 가져오려는 기기에서 AdGuard VPN을 엽니다. 해당 섹션을 찾아 *가져오기* 버튼을 클릭하고 ZIP 파일을 선택합니다. 끝!
 
@@ -52,9 +52,9 @@ Mac용 AdGuard VPN은 데스크톱 VPN 서비스입니다. AdGuard VPN은 AdGuar
 
 마지막으로 설정 탭을 살펴보겠습니다. 프로그램 *정보* 섹션에서 AdGuard VPN의 현재 버전 및 업데이트를 확인하고, 공식 웹사이트를 방문하고, AdGuard의 EULA 및 개인정보취급방침에 대해 알아볼 수 있습니다. *라이선스 정보* 섹션에서 무료 버전에서 무제한 버전으로 업그레이드하거나 구독을 관리하거나 로그아웃할 수 있습니다. 그리고 가장 중요한 것은 여기에서 *일반 설정*으로 이동할 수 있습니다.
 
-### App settings
+### 앱 설정
 
-![App settings](https://cdn.adguardvpn.com/content/kb/vpn/mac/general-settings_en.png)
+![앱 설정](https://cdn.adguardvpn.com/content/kb/vpn/mac/general-settings_en.png)
 
 *킬 스위치*, *자동 업데이트*, *로그인 시 AdGuard VPN 실행* 및 *앱 실행 시 자동 연결*과 같은 네 가지 기본 기능은 애플리케이션을 더욱 편리하고 사용자 친화적으로 만듭니다. 시스템 기본 테마, 다크 테마 또는 라이트 테마를 적용할 수 있습니다. 시스템 기본 테마는 Mac의 테마와 일치합니다.
 
