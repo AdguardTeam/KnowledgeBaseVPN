@@ -19,7 +19,7 @@ sidebar_position: 4
 
 > 上記に関してまだご不明な点やお困りの点ございましたら、[こちら](https://developer.android.com/studio/debug/dev-options)でさらに詳しい手順をご確認ください。
 
-2. [Install and configure](https://www.xda-developers.com/install-adb-windows-macos-linux/) ADB;
+2. ADBをインストトールして設定します（方法：[Windows編](https://expnote.com/how-to-install-android-debug-bridge/)、[Mac編](https://child-programmer.com/m-adb/)）
 > Windowsでは、**Samsung** のユーザーは、[こちらのユーティリティ](https://developer.samsung.com/mobile/android-usb-driver.html)をインストールする必要があるかもしれません。
 
 3. **USBケーブル**を使用して**ADB**をインストールしたコンピューターまたはラップトップにAndroidデバイスを接続します。

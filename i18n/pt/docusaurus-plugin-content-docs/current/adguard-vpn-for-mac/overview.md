@@ -52,9 +52,9 @@ A terceira guia é a tela *Suporte*. Encontre respostas para quaisquer perguntas
 
 Por fim, chegamos à guia Configurações. Na seção *Sobre o programa*, você pode ver a versão atual do AdGuard VPN, verificar se há atualizações, visitar nosso site oficial e se familiarizar com o EULA e a política de privacidade do AdGuard. Na seção *Sobre a licença* , você pode atualizar de gratuito para ilimitado, gerenciar sua assinatura ou sair. E o mais importante, a partir daqui você pode acessar *Configurações gerais*.
 
-### App settings
+### Configurações de aplicativo
 
-![App settings](https://cdn.adguardvpn.com/content/kb/vpn/mac/general-settings_en.png)
+![Configurações de aplicativo](https://cdn.adguardvpn.com/content/kb/vpn/mac/general-settings_en.png)
 
 Os primeiros quatro recursos básicos tornam o aplicativo mais conveniente e fácil de usar, ou seja, *Kill Switch*, *Autoupdate*, *Iniciar AdGuard VPN no login*, e *Auto conectar no início da aplicação*. Além do mais, você pode escolher entre temas claros, escuros e do sistema - o último corresponde ao tema do seu Mac.
 

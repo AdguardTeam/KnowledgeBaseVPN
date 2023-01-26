@@ -7,22 +7,22 @@ L'objectif de cette Base de connaissances est de fournir à chacun les informati
 
 C'est pourquoi nous avons placé l'ensemble du contenu de notre base de données sur [GitHub](https://github.com/AdguardTeam/KnowledgeBaseVPN). Désormais, tout le monde peut y contribuer en suggérant des modifications et des traductions pour les articles existants, ainsi que de nouveaux articles.
 
-## How to suggest a change or write a new article {#suggest-change}
+## Comment suggérer un changement ou écrire un nouvel article {#suggest-change}
 
-You can suggest changes to current articles and add new ones to the Knowledge Base using the functionality of the GitHub mentioned above. If you are unfamiliar with principles of working with the platform, start by reading [documentation in this section](https://docs.github.com/en).
+Vous pouvez suggérer des modifications aux articles actuels et en ajouter de nouveaux à la Base de connaissances en utilisant la fonctionnalité du GitHub mentionnée ci-dessus. Si vous n'êtes pas familier avec les principes de travail avec la plate-forme, commencez par lire [documentation dans cette section](https://docs.github.com/en).
 
-Once you are ready to start, work in [the KnowledgeBaseVPN repository](https://github.com/AdguardTeam/KnowledgeBaseVPN). All texts in our Knowledge Base are written in `Markdown` markup language. Keep this in mind when editing or writing articles. Follow [this link](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) to learn more about Markdown syntax.
+Une fois que vous êtes prêt à commencer, procédez dans [le référentiel KnowledgeBaseVPN](https://github.com/AdguardTeam/KnowledgeBaseVPN). Tous les textes de notre base de connaissances sont rédigés en langage de balisage `Markdown`. Gardez cela à l'esprit lorsque vous modifiez ou rédigez des articles. Suivez [ce lien](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) pour apprendre plus sur la syntaxe Markdown.
 
-The Knowledge Base website is built using Docusaurus 2 — a modern static website generator. When suggesting changes or additions, take into account that all documents must comply with the principles of the platform. You can read about them in [the guide available via this link](https://docusaurus.io/docs/category/guides).
+Le site web de la base de connaissances est construit à l'aide de Docusaurus 2 - un générateur moderne de sites web statiques. Lorsque vous suggérez des modifications ou des ajouts d'infos, tenez compte du fait que tous les documents doivent respecter les principes de la plateforme. Vous pouvez en prendre connaissance dans le guide [disponible via ce lien](https://docusaurus.io/docs/category/guides).
 
-You can deploy this Knowledge Base locally to your computer to preview the changes you suggest. Detailed instructions on how to do this can be found [in the README.md file](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README.md) on this Knowledge Base's GitHub page.
+Vous pouvez déployer cette Base de connaissances localement sur votre ordinateur pour prévisualiser les modifications que vous suggérez. Des instructions détaillées sur la façon de procéder peuvent être trouvées [dans le fichier README.md](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README.md) sur la page GitHub de cette base de connaissances.
 
-## Translating articles {#translate-adguard}
+## Traduction des articles {#translate-adguard}
 
-Translation of the existing articles of the Knowledge Base is carried out on [the Crowdin platform](https://crowdin.com/project/adguard-vpn-knowledge-base). All the details about translations and working with Crowdin can be found [in the dedicated article](https://kb.adguard.com/en/general/adguard-translations) of the AdGuard Ad Blocker Knowledge Base.
+La traduction des articles existants de la Base de connaissances est réalisée sur [la plateforme Crowdin](https://crowdin.com/project/adguard-vpn-knowledge-base). Tous les détails sur les traductions et le travail avec Crowdin peuvent être trouvés [dans l'article dédié](https://kb.adguard.com/en/general/adguard-translations) de la base de connaissances du Bloqueur AdGuard.
 
-When working on AdGuard VPN Knowledge Base articles, you may meet strings containing plural forms that you should translate with extra attention. [In a separate article](https://kb.adguard.com/en/miscellaneous/plurals), we described in detail the difficulties that can arise when translating strings with plural forms, and gave extensive instructions on how to work with them on the Crowdin platform.
+Lorsque vous travaillez sur des articles de la Base de connaissances de AdGuard VPN, vous pouvez rencontrer des chaînes contenant des formes plurielles que vous devrez traduire avec une attention particulière. [Dans un article séparé](https://kb.adguard.com/en/miscellaneous/plurals), nous avons décrit en détail les difficultés qui peuvent survenir lors de la traduction de chaînes avec des formes plurielles, et avons donné des instructions détaillées sur la façon de les utiliser sur la plate-forme Crowdin.
 
-## Working on open issues
+## Travail sur les questions ouvertes
 
-Sometimes there exist [open tasks](https://github.com/AdguardTeam/KnowledgeBaseVPN/issues/) related to updating the Knowledge Base. You can help us speed up their completion [the same way](#suggest-change) you would suggest any other changes to this Knowledge Base. Choose any issue that you find appealing and start working on it. If you have any questions — you can ask them right in the comments to that issue.
+Parfois, il y aura des [tâches ouvertes](https://github.com/AdguardTeam/KnowledgeBaseVPN/issues/) liées à la mise à jour de la Base de connaissances. Vous pouvez nous aider à accélérer leur réalisation [de la même manière](#suggest-change) que vous suggéreriez toute autre modification à cette Base de connaissances. Choisissez un sujet qui vous intéresse et commencez à travailler dessus. Si vous avez des questions, vous pouvez les poser directement dans les commentaires de cette tâche.

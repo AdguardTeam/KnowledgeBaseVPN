@@ -15,7 +15,7 @@ Ao escolher um serviço VPN, as pessoas geralmente precisam escolher entre rápi
 ## 2. Exclusões
 As listas de *Exclusões* permitem selecionar sites para os quais a VPN deve ser habilitada e para os quais de ser desabilitada. Existem dois modos de operação no AdGuard VPN: *Geral* e *Selectivo*. No modo geral **, a VPN funciona em todos os lugares, exceto sites adicionados às exclusões. E vice-versa, no *modo Seletivo*, a VPN funciona apenas em sites adicionados às exclusões. Você também pode facilmente importar/exportar listas de exclusões. Leia sobre esse recurso na *Visão geral dos recursos* para o produto em que está interessado.
 
-![Um exemplo de uma lista de exclusão para o modo Seletivo](https://cdn.adguard.com/public/Adguard/Blog/vpn_export_exclusions.png)
+![Um exemplo de uma lista de exclusão para o modo Seletivo](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn_export_exclusions.png)
 
 Você pode adicionar sites às exclusões manualmente ou escolhê-los entre as listas de serviços populares. As listas estão divididas em oito categorias: Redes sociais, Mensageiros, Serviços de streaming de vídeo e música, Jogos, Compras, Mecanismos de Pesquisa e Ferramentas de comunicação no trabalho.
 
@@ -54,20 +54,20 @@ Se, por algum motivo, sua conexão VPN for interrompida, o Kill Switch desconect
 Esse recurso é semelhante às listas de exclusões mencionadas acima. A única diferença é que aqui você pode excluir aplicativos em vez de sites.
 
 ## 9. Proteção automática
-This feature has been developed specifically for unsecured networks. For the convenience of users, we made it impossible to forget to enable VPN when visiting public places. Should you pop into a coffee shop and connect to a local Wi-Fi network, you’ll be automatically connected to AdGuard VPN.
+Este recurso foi desenvolvido especificamente para redes não seguras. Para comodidade dos usuários, tornamos impossível esquecer de habilitar a VPN ao visitar locais públicos. Se você entrar em uma cafeteria e se conectar a uma rede Wi-Fi local, será automaticamente conectado ao AdGuard VPN.
 
-## 10. Up to five connected devices at a time
-AdGuard VPN offers five simultaneous connections to its paid users. We place special emphasis on the word *simultaneous*, and here is why. Some VPN providers only allow to log in to their service on *five devices max*. With AdGuard VPN, *there’s no limit* to the number of devices that can be logged in to your account, but you can have five VPN connections enabled at the same time. Those who don’t have a subscription can use AdGuard VPN on *two devices*, which gives us another trump card to play against competitors — most of the VPN services only have *one device* in their free versions.
+## 10. Até cinco dispositivos conectados por vez
+AdGuard VPN oferece cinco conexões simultâneas para seus usuários pagos. Colocamos ênfase especial na palavra *simultâneo*, e aqui está o porquê. Alguns provedores de VPN só permitem fazer login em seus serviços em *cinco dispositivos no máximo*. Com AdGuard VPN, *não há limite* para o número de dispositivos que podem ser conectados à sua conta, mas você pode ter cinco conexões VPN habilitadas ao mesmo tempo. Quem não tem assinatura pode usar o AdGuard VPN em *dois dispositivos*, o que nos dá mais um trunfo para jogar contra os concorrentes — a maioria dos serviços VPN tem apenas *um dispositivo* em suas versões gratuitas.
 
-## 11. Secure streaming
-Streaming services don't like VPNs for obvious reasons: according to statistics, about 20% of users install a VPN mainly to watch shows, TV shows and movies bypassing geo-blocking. That's why streaming platforms tend to do everything they can to track VPN traffic and block it.
+## 11. Streaming seguro
+Os serviços de streaming não gostam de VPNs por razões óbvias: de acordo com as estatísticas, cerca de 20% dos usuários instalam uma VPN principalmente para assistir programas, programas de TV e filmes ignorando o bloqueio geográfico. É por isso que as plataformas de streaming tendem a fazer tudo o que podem para rastrear o tráfego VPN e bloqueá-lo.
 
-But what if you want to feel safe while watch content specific to your region? Or don't want stop watching exciting series even when you travel to another country? The answer is simple — AdGuard VPN, which thanks to its unique protocol can remain invisible to services.
+Mas e se você quiser se sentir seguro enquanto assiste a conteúdos específicos da sua região? Ou não quer parar de assistir séries emocionantes mesmo quando viaja para outro país? A resposta é simples: AdGuard VPN, que graças ao seu protocolo exclusivo pode permanecer invisível para os serviços.
 
-> We don't endorse the use of AdGuard VPN to bypass copyright regulations.
+> Não endossamos o uso do AdGuard VPN para contornar os regulamentos de direitos autorais.
 
-## 12. Dark mode
+## 12. Modo escuro
 
-![Dark mode](https://cdn.adguard.com/public/Adguard/Blog/vpn/main_en_black.png)
+![Modo escuro](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/main_en_black.png)
 
-This little feature deserves special mention. In fact, many users crave for dark mode, so we couldn’t ignore it and added a theme switch for all AdGuard VPN products. Choose the one you like more — light, dark or system default. Hope you’ll join the dark side.
+Este pequeno recurso merece menção especial. Na verdade, muitos usuários anseiam pelo modo escuro, então não podíamos ignorá-lo e adicionamos uma opção de tema para todos os produtos AdGuard VPN. Escolha o que você mais gosta - claro, escuro ou padrão do sistema. Espero que você se junte ao lado negro.

@@ -4,7 +4,7 @@ sidebar_position: 1
 slug: /
 ---
 
-## VPN là gì và tại sao bạn lại cần đến
+## What is a VPN and why do you need one?
 
 VPN cho phép bạn kết nối an toàn tới các mạng khác trên Internet.
 
@@ -22,7 +22,7 @@ VPN có thể được sử dụng để:
 
 Mật khẩu, thông tin thẻ và thông tin cá nhân cơ bản đều có nguy cơ gặp rủi ro khi người dùng "lướt" Internet. Nhưng nếu bạn kết nối với mạng toàn cầu bằng VPN, bạn có thể chắc chắn rằng không ai có thể chặn dữ liệu của bạn.
 
-## Tại sao nên chọn AdGuard VPN
+## Why AdGuard VPN?
 
 ### Nhà phát triển tin cậy
 AdGuard đã có mặt trên thị trường bảo vệ dữ liệu cá nhân và chặn quảng cáo cũng như phát triển dòng phần mềm của mình trong hơn 12 năm qua. Trong thời gian này, công ty chúng tôi đã tạo dựng được danh tiếng hoàn hảo với hơn 30 triệu khách hàng.

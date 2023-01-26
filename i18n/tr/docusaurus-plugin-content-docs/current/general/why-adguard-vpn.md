@@ -15,7 +15,7 @@ Bir VPN hizmeti seçerken, insanlar genellikle hızlı ve güvenli arasında bir
 ## 2. İstisnalar
 *İstisna listeleri*, VPN'nin etkinleştirilmesi ve devre dışı bırakılması gereken siteleri seçmenize olanak tanır. AdGuard VPN'de iki çalışma modu vardır: *Genel* ve *Seçici*. *Genel modda* VPN, istisnalara eklenen siteler dışında her yerde çalışır. Ve tam tersi olan *Seçici modda*, VPN istisnalara eklenen sitelerden başka hiçbir yerde çalışmaz. Ayrıca istisna listelerini kolayca içe ve dışa aktarabilirsiniz. İlgilendiğiniz ürün için *Özelliklere genel bakış* bölümünde bu özellik hakkında bilgi edinin.
 
-![Seçici mod için bir istisna listeleri örneği](https://cdn.adguard.com/public/Adguard/Blog/vpn_export_exclusions.png)
+![Seçici mod için bir istisna listeleri örneği](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn_export_exclusions.png)
 
 İstisnalara elle siteler ekleyebilir veya popüler hizmetler listelerinden seçebilirsiniz. Listeler sekiz kategoriye ayrılmıştır: Sosyal ağlar, Mesajlaşma, Video ve Müzik yayın akışı hizmetleri, Oyunlar, Alışveriş, Arama motorları ve İş iletişim araçları.
 
@@ -68,6 +68,6 @@ Peki ya bölgenize özel içerikler izlerken kendinizi güvende hissetmek istiyo
 
 ## 12. Koyu mod
 
-![Koyu mod](https://cdn.adguard.com/public/Adguard/Blog/vpn/main_en_black.png)
+![Koyu mod](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/main_en_black.png)
 
 Bu küçük özellik özel olarak anılmayı hak ediyor. Aslında, pek çok kullanıcı koyu modu çok istiyor, bu yüzden onu görmezden gelemedik ve tüm AdGuard VPN ürünleri için bir tema anahtarı ekledik. Daha çok hoşunuza gideni seçin — açık, koyu veya sistem varsayılanı. Umarız karanlık tarafa katılırsınız.

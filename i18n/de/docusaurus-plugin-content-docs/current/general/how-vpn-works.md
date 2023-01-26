@@ -25,7 +25,7 @@ Wenn Sie sich mit einem Netzwerk verbinden, wird Ihrem Computer oder Mobilgerät
 
 Ein VPN erstellt einen Tunnel zwischen Ihrem Gerät und dem VPN-Server. Ihre Daten durchlaufen diesen Tunnel, werden verschlüsselt und gelangen dann in gesicherter Form ins offene Internet. Für den Webserver sieht es daher so aus, als hätte Ihr Gerät nicht mehr Ihre echte IP-Adresse, sondern die IP-Adresse des Endpunkts des Tunnels, d. h. des VPN-Servers. Die Website, auf die Sie nach dem Durchqueren des VPN-Tunnels gelangen, wird also die Geolocation des von Ihnen gewählten VPN-Servers als Ihren tatsächlichen Standort betrachten. Und die verschlüsselten Daten fallen nicht in die Hände von Werbetreibenden, Hackern und Sicherheitsdiensten.
 
-![VPN-Struktur](https://cdn.adguard.com/public/Adguard/Website/Images/seo/en/how_vpn_3.jpg)
+![VPN-Struktur](https://cdn.adguardvpn.com/public/Adguard/Website/Images/seo/en/how_vpn_3.jpg)
 
 ## Arten der VPN-Protokolle
 
@@ -39,11 +39,11 @@ VPN-Sicherheitsprotokolle sind Tools, die Daten in einem VPN-Tunnel verschlüsse
 
 Neben diesen VPN-Protokollen gibt es noch weitere (z. B. TLS, SSTP, IKEv2), die aber nicht sehr beliebt sind oder nicht den modernen Standards der Datenverschlüsselung entsprechen.
 
-![Wie ein VPN-Protokoll funktioniert](https://cdn.adguard.com/public/Adguard/Blog/vpn/protocol/4.svg)
+![Wie ein VPN-Protokoll funktioniert](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/4.svg)
 
 AdGuard VPN hat auch ein eigenes [*Protokoll*](adguard-vpn-protocol.mdx). Einer der Vorteile besteht darin, dass der über das AdGuard VPN-Protokoll übertragene Datenverkehr nur schwer vom regulären Datenverkehr zu unterscheiden ist. Der VPN-Tunnel sieht wie normaler HTTPS-Verkehr aus, daher ist es äußerst schwierig, ihn zu erkennen und zu blockieren. Darüber hinaus basiert es auf den Mechanismen des modernen HTTP/2-Protokolls, das eine hohe Verbindungsgeschwindigkeit gewährleistet.
 
-![Wie verstecktes VPN funktioniert](https://cdn.adguard.com/public/Adguard/Blog/vpn/protocol/5.svg)
+![Wie verstecktes VPN funktioniert](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/5.svg)
 
 ## VPN-Nachteile
 

@@ -52,9 +52,9 @@ AdGuard VPN Mac版是一个桌面 VPN 服务。 AdGuard VPN 与 AdGuard 广告�
 
 最后是「设置」标签。 在*关于程序* 部分，用户可以查看 AdGuard VPN 的当前版本，检查更新，访问我们的官网，并熟悉 AdGuard 的 EULA（最终用户许可协议）和隐私政策。 在*关于许可证*部分，用户可以从免费版升级到无限版、管理自己的订阅或登出。 最重要的是，用户可以从这里访问*常规设置*。
 
-### App settings
+### 应用程序设置
 
-![App settings](https://cdn.adguardvpn.com/content/kb/vpn/mac/general-settings_en.png)
+![应用程序设置](https://cdn.adguardvpn.com/content/kb/vpn/mac/general-settings_en.png)
 
 前四个基本功能提高应用程序的用户友好性，即 *Kill Switch*、 *自动更新*、 *随系统启动自动运行 AdGuard VPN* 和*在应用程序启动时自动连接*。 此外，用户可以在浅色、深色和系统主题之间进行选择。系统主题与您 Mac 上的主题相匹配。
 

@@ -52,9 +52,9 @@ Le troisième onglet est l'écran d'*Assistance*. Trouvez des réponses à toute
 
 Enfin, nous arrivons à l'onglet Paramètres. Dans la section *À propos du programme* , vous pouvez voir la version actuelle d'AdGuard VPN, vérifier les mises à jour, visiter notre site web officiel et vous familiariser avec le CLUF et la politique de confidentialité d'AdGuard. Dans la section *À propos de la licence* , vous pouvez passer de gratuit à illimité, gérer votre abonnement ou vous déconnecter. Et surtout, à partir de là, vous pouvez accéder aux *Paramètres généraux*.
 
-### App settings
+### Paramètres de l'app
 
-![App settings](https://cdn.adguardvpn.com/content/kb/vpn/mac/general-settings_en.png)
+![Paramètres de l'app](https://cdn.adguardvpn.com/content/kb/vpn/mac/general-settings_en.png)
 
 Les quatre premières fonctionnalités de base rendent l'application plus pratique et conviviale, à savoir *Kill Switch*, *Mise à jour automatique*, *Démarrer AdGuard VPN après connexion* et *Auto-connexion après démarrage*. De plus, vous pouvez choisir entre des thèmes clairs, sombres et système - ce dernier correspond au thème de votre Mac.
 

@@ -15,7 +15,7 @@ VPNサービスを選択する際、高速性と安全性のどちらかを優�
 ## 2. VPN対象外リスト
 *VPN対象外リスト*を使って、VPNを有効にするサイトと無効にするサイトを指定することができます。 AdGuard VPNには、 「*一般*」 と 「*指定*」という2つの動作モードがあります。 *一般モード*では、「VPN対象外リスト」に追加されたウェブサイトに対してAdGuard VPNはオフになります。 逆に、*指定モード*では、「VPN対象外リスト」に追加されたウェブサイトに対してのみAdGuard VPNはオンになります。 また、対象外リストのインポート/エクスポートも簡単に行えます。 この機能については、各製品の*機能概要*記事において、その方法をご確認いただけます。
 
-![指定モードの対象外リストの例](https://cdn.adguard.com/public/Adguard/Blog/vpn_export_exclusions.png)
+![指定モードの対象外リストの例](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn_export_exclusions.png)
 
 Webサイトを手動で対象外リストに追加したり、人気のあるサービスのリストから選択することもできます。 リストは8つのカテゴリーに分けられています（SNS、メッセンジャー、動画・音楽配信サービス、ゲーム、ショッピング、検索エンジン、ワークコミュニケーションツール）。
 
@@ -68,6 +68,6 @@ AdGuard VPNは、有料ユーザーには5つの同時接続を提供します�
 
 ## 12. ダークモード
 
-![ダークモード](https://cdn.adguard.com/public/Adguard/Blog/vpn/main_en_black.png)
+![ダークモード](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/main_en_black.png)
 
 この小さな機能は特筆に価します。 多くのユーザーがダークモードを利用しているため、すべてのAdGuard VPN製品にテーマスイッチを追加しています。 ライト、ダーク、システムのうち、好きなテーマをお選びいただけます。
