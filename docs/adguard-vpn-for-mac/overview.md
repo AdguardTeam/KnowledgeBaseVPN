@@ -8,7 +8,7 @@ AdGuard VPN for Mac is a desktop VPN service. AdGuard VPN is fully compatible wi
 Note that **you can't use AdGuard VPN for Mac unless you have logged into your AdGuard account**. You can either sign in with your AdGuard account or with an external account, namely, via Apple, Google or Facebook. Make sure that your external account is bound to the same e-mail address as your AdGuard account. If there is a suitable subscription in your AdGuard account, it will be automatically activated on the desktop app. 
 Still don't have an AdGuard account? Create it [here](https://auth.adguard.com/registration.html).
  
-> AdGuard VPN for Mac is currently supported on macOS versions starting from macOS Sierra (10.12).
+> AdGuard VPN for Mac is currently supported on macOS versions starting from macOS Catalina (10.15).
 
 ## Home screen
 
