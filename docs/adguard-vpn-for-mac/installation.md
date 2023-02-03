@@ -45,7 +45,7 @@ To uninstall AdGuard VPN for Mac, follow two simple steps:
 
 1. Open "Finder" and go to the "Programs" section.
 
-2. Select *AdGuard VPN* from the list, right-click on it and then click *Move to Trash*.
+2. Select *AdGuard VPN* from the list, right-click it and then click *Move to Trash*.
 
 ![Standard uninstallation](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-uninstall-1-en.png)
 

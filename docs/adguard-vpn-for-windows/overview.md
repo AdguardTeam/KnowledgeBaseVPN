@@ -5,7 +5,7 @@ sidebar_position: 1
 
 ## What is AdGuard VPN for Windows?
 
-A VPN, acronym for "virtual private network", is a service that makes your Internet connection safe and helps you stay anonymous online. How does it work? Every time you visit a website without using a VPN, your ISP sees it. It knows who you are and what you're looking for, and it can collect and sell this data. In it's turn, the website you came to can also track your activity. When you enable a VPN application, it redirects your traffic through an encrypted tunnel to a remote VPN server, ensuring your privacy: the ISP doesn't know where to you sent a request, and the site doesn't know where you came from.
+A VPN, acronym for "Virtual Private Network", is a service that makes your Internet connection safe and helps you stay anonymous online. How does it work? Every time you visit a website without using a VPN, your ISP sees it. It knows who you are and what you're looking for, and it can collect and sell this data. In it's turn, the website you came to can also track your activity. When you enable a VPN application, it redirects your traffic through an encrypted tunnel to a remote VPN server, ensuring your privacy: the ISP doesn't know where to you sent a request, and the site doesn't know where you came from.
 
 **What AdGuard VPN for Windows does**
 
@@ -19,13 +19,13 @@ AdGuard VPN for Windows has many advantages, so we've dedicated [a separate arti
 
 ## How to start using AdGuard VPN for Windows
 
-To start using AdGuard VPN for Windows, download the app from [our website](https://adguard-vpn.com/welcome.html). The installation takes no more than a minute — and you'll see a dialog window where you'll need to check at least one box applying the terms of the User Agreement and the Privacy Policy. And it's up to you to decide whether you want AdGuard to collect anonymized data about your app usage. At last the program will ask you to sign in, either via [AdGuard account](https://auth.adguard.com/login.html) or via social networks (Apple, Google, Facebook). That's all, you can now use AdGuard VPN for Windows.
+To start using AdGuard VPN for Windows, download the app from [our website](https://adguard-vpn.com/welcome.html). The installation takes no more than a minute — and you'll see a dialog window where you'll need to check at least one box applying the terms of the User Agreement and the Privacy policy. And it's up to you to decide whether you want AdGuard to collect anonymized data about your app usage. At last the program will ask you to sign in, either via [AdGuard account](https://auth.adguard.com/login.html) or via social networks (Apple, Google, Facebook). That's all, you can now use AdGuard VPN for Windows.
 
 ## Home screen
 
 ![AdGuard VPN for Windows Home Page](https://cdn.adguardvpn.com/content/release_notes/vpn/windows/v2.0/new_main_window_en.png)
 
-The most noticeable item on the **Home Screen** is the AdGuard VPN connect/disconnect button. Underneath, you can see the [mode](#exclusions) in which the application is running and the selected server below. On the right side of the screen you will find all available locations. The fastest location, i.e. the one with the shortest ping, is shown at the top of the list.
+The most noticeable item on the **Home Screen** is the AdGuard VPN connect/disconnect button. Underneath, you can see the [mode](#exclusions) in which the application is running and the selected server below. On the right side of the screen you will find all available locations. The fastest location, i.e. the one with the lowest ping, is shown at the top of the list.
 
 At the top of the screen there is a navigation panel with four tabs: **Home**, **Exclusions**, **Support**, **Settings**.
 
@@ -63,13 +63,13 @@ The fourth tab of app's tab bar contains sections that will help you customize t
 
 In the **App settings** section, you can set the app language and also enable **Kill Switch**, which will block access to the Internet if your VPN connection drops. This is needed to prevent intruders from getting to your data if you find yourself without VPN protection while connected to a public Wi-Fi or mobile network.
 
-You can also activate the following features with a single click: **Autoupdate**, **Launch AdGuard VPN at Windows startup**, **Auto-connect on app launch**, and allow AdGuard to collect anonymized app usage data so that the AdGuard team gets the info on potential usability issues. Here you can also change the theme to **Light**, **System**, or **Dark**.
+You can also activate the following features with a single click: **Auto-update**, **Launch AdGuard VPN at Windows startup**, **Auto-connect on app launch**, and allow AdGuard to collect anonymized app usage data so that the AdGuard team gets the info on potential usability issues. Here you can also change the theme to **Light**, **System**, or **Dark**.
 
 At the bottom of the page there are two sections: **DNS servers** and **Advanced settings**.
 
 #### DNS servers
 
-The **DNS servers** tab allows you to add your own DNS server. You can set up a DNS server by any provider. We recommend adding [AdGuard DNS](https://kb.adguard.com/en/general/dns-providers#adguard-dns), a server that can protect against advertising, tracking, and phishing, in addition to the standard functions.
+The **DNS servers** tab allows you to add your own DNS server. You can set up a DNS server by any provider. We recommend adding [AdGuard DNS](https://adguard-dns.io/kb/general/dns-providers/#adguard-dns), a server that can protect against advertising, tracking, and phishing, in addition to the standard functions.
 
 #### Advanced settings
 
@@ -99,7 +99,7 @@ Not only does AdGuard VPN encrypt the traffic of your browsers, but also of othe
 
 ### About
 
-The **About** tab provides information about the current version of AdGuard VPN for Windows, an update button, and links to the AdGuard VPN website, forum, EULA, and Privacy Policy.
+The **About** tab provides information about the current version of AdGuard VPN for Windows, an update button, and links to the AdGuard VPN website, forum, EULA, and Privacy policy.
 
 ### Account
 
