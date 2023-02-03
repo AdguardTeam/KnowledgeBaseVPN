@@ -22,7 +22,7 @@ Sie können ein VPN verwenden, um:
 
 Passwörter, Kartendetails und einfach nur persönliche Informationen sind gefährdet, wenn ein Benutzer im Internet surft. Wenn Sie sich jedoch über ein VPN mit dem globalen Netzwerk verbinden, können Sie sicher sein, dass niemand Ihre Daten abfangen kann.
 
-## Warum AdGuard VPN
+## Warum AdGuard VPN?
 
 ### Vertrauenswürdiger Entwickler
 AdGuard ist seit mehr als 12 Jahren auf dem Markt für den Schutz personenbezogener Daten und der Werbeblockierung präsent und entwickelt seine Softwarelinie. In dieser Zeit hat sich unser Unternehmen einen tadellosen Ruf aufgebaut und die Zahl unserer Kunden hat 30 Millionen überschritten.

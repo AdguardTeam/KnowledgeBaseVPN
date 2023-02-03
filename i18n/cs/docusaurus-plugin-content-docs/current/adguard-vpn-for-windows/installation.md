@@ -1,20 +1,17 @@
 ---
 title: Jak nainstalovat a odinstalovat
-sidebar position: 2
+sidebar_position: 2
 ---
-
 
 ## Požadavky na systém
 
 AdGuard VPN lze nainstalovat pouze na zařízení s **Microsoft Windows 10/8.1/8/7/Vista SP2 (pouze přes web)**.
-
 
 ## Instalace AdGuard VPN pro Windows
 
 Chcete-li nainstalovat AdGuard VPN pro Windows, navštivte [náš web](https://adguard-vpn.com/en/welcome.html) a klikněte na tlačítko *Stáhnout*. Poté se stáhne soubor `adguardVPNInstaller.exe`. Spusťte instalační program a postupujte podle pokynů. Proces zabere méně než minutu.
 
 Poté je třeba zaškrtnout políčko pro přijetí podmínek smlouvy EULA a zásad ochrany osobních údajů. V posledním kroku instalace budete vyzváni k autorizaci prostřednictvím účtu AdGuard nebo sociálních sítí (Google, Apple, Facebook).
-
 
 ## Odinstalace AdGuard VPN pro Windows
 

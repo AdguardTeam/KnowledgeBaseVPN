@@ -15,7 +15,7 @@ sidebar_position: 2
 ## 2. 排除项
 *排除项列表*允许用户选择应启用 VPN 和禁用 VPN 的网站。 AdGuard VPN 有两个操作模式：*常规*和*选择*。 *在常规模式下，*AdGuard VPN 除了添加到排除项列表里的网站外在所有网站上工作。 相反，在*选择模式下*，除了添加到排除项的网站外，VPN 在任何地方都不起作用。 用户也可以很容易导入/导出排除项列表。 请阅读自己感兴趣的产品的*功能概述*中关于此功能的介绍。
 
-![选择模式排除项列表的例子](https://cdn.adguard.com/public/Adguard/Blog/vpn_export_exclusions.png)
+![选择模式排除项列表的例子](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn_export_exclusions.png)
 
 用户可以将网站手动添加到排除项列表，或者在流行服务的列表里选择特定的网站。 这些名单分为八个类别，包括社交网络、通信、视频和音乐流媒体服务、游戏、购物、搜索引擎和工作通信工具。
 
@@ -68,6 +68,6 @@ AdGuard VPN 付费用户可以同时连接五台设备。 我们特别强调*同
 
 ## 12. 黑暗主题
 
-![黑暗主题](https://cdn.adguard.com/public/Adguard/Blog/vpn/main_en_black.png)
+![黑暗主题](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/main_en_black.png)
 
 但这个小功能值得特别一提。 事实上，对于黑暗主题的呼声一直很大，因此我们为所有 AdGuard VPN 产品增加了一个主题切换开关。 选择您更喜欢的一个，即浅色、黑暗或系统默认。 希望你选择加入黑暗势力。

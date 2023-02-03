@@ -19,18 +19,15 @@ Android용 AdGuard VPN은 모든 일반 기능뿐만 아니라 여러 고유한 
 
 먼저 [Google Play](https://play.google.com/store/apps/details?id=com.adguard.vpn)에서 AdGuard VPN을 다운로드하고 AdGuard 계정에 로그인하세요. 계정이 없는 경우 계정을 [만들어야 합니다](https://auth.adguard.com/login.html). AdGuard 계정 자격 증명으로 직접 로그인하거나 AdGuard 계정이 Google 또는 Facebook 계정과 동일한 이메일 주소로 등록된 경우 Google 또는 Facebook을 통해 로그인할 수 있습니다.
 
-
 ## 메인 화면
 
 기본 화면에는 애플리케이션 상태(연결됨/연결 해제됨)와 선택한 예외 목록 작동 모드([일반/선별 모드](#lists-of-exclusions))를 반영하는 두 줄이 있습니다. 같은 화면에는 *연결/연결 해제* 버튼과 사용 가능한 서버 목록도 있습니다.
 
 서버의 위치와 핑 속도는 각 서버 옆에 표시됩니다. 핑 속도는 서버의 응답 시간을 나타냅니다. 이 속도가 낮을수록 연결 속도가 빨라집니다. 가장 빠른 서버는 항상 목록 맨 위에 표시됩니다. *연결/연결 해제* 버튼을 누르거나 위치를 선택하여 가장 빠른 서버에 연결할 수 있습니다.
 
-
 ## 예외
 
 AdGuard VPN이 선택한 곳에서만 작동하도록 사이트 및 앱 예외 목록을 손쉽게 관리할 수 있습니다.
-
 
 ### 예외 목록
 
@@ -38,14 +35,14 @@ AdGuard VPN이 선택한 곳에서만 작동하도록 사이트 및 앱 예외 �
 
 AdGuard VPN에는 두 가지 모드가 있습니다. *일반 모드*에서는 VPN이 예외 목록의 사이트에서 작동하지 않으며 *선별 모드*에서는 AdGuard VPN이 예외 목록의 사이트에서만 작동합니다.
 
-You can add domains (e.g. `google.com`) or subdomains (e.g. `*.google.com`) of websites to the *Exclusions* in three ways: enter them manually in the app, or right from the browser by clicking the *Share* button and selecting AdGuard VPN in the opened list below, or from built-in lists of services divided by categories.
+세 가지 방법으로 웹사이트의 도메인(예: `google.com`) 또는 하위 도메인(예: `*.google.com`)을 *예외 목록*에 추가할 수 있습니다. 첫 번째 방법은 앱에 수동으로 입력하는 것입니다. 두 번째 방법은 *공유 버튼*을 클릭하고 아래 열린 목록에서 AdGuard VPN을 선택하여 브라우저에서 바로 도메인 또는 하위 도메인을 추가하는 것입니다. 또한 범주별로 구분된 서비스 목록에서 예외 목록에 도메인 및 하위 도메인을 추가할 수 있습니다.
 
-![예외](https://cdn.adguard.com/public/Adguard/kb/VPN/Screenshots/add_site_android.jpg)
+![예외](https://cdn.adguardvpn.com/public/Adguard/kb/VPN/Screenshots/add_site_android.jpg)
 > 도메인을 수동으로 추가할 때 약간의 뉘앙스가 있습니다. 예를 들어 도메인 `yahoo.com`을 수동으로 제외하면 모든 `*.yahoo.com` 하위 도메인도 예외 목록에 나열되지만 `yahoo.jp` 또는 `yahoo.fr`과 같은 최상위 도메인이 있는 도메인 이름은 제외되지 않습니다. 또는 `youtube.com`을 예외 목록에 추가할 수 있지만 동일한 서비스 `youtu.be`의 도메인은 목록에 포함되지 않습니다. 이 경우 각 플랫폼과 관련된 모든 하위 도메인을 추가하기 때문에 기본 제공 서비스 목록을 사용하는 것이 더 안전합니다.
 
 서비스 목록에서 하위 도메인을 비활성화할 수 있으므로 각 서비스의 상태를 표시하는 아이콘을 추가했습니다. 아이콘은 각 서비스 이름 왼쪽의 기본 *예외* 화면에서 볼 수 있습니다. **완전히 활성화됨**은 녹색 배경에 흰색 확인 표시로, **완전히 비활성화됨**은 회색 사각형으로, **부분적으로 활성화됨**(하나 이상의 설정이 변경되었음을 나타냄)은 흰색 배경에 녹색 사각형으로 표시됩니다. 그러나 목록에서 도메인을 삭제하거나 비활성화한 경우, 서비스 목록의 기본 보기로 언제든지 돌아갈 수 있습니다.
 
-![예외 목록](https://cdn.adguard.com/content/kb/vpn/android/statuses.png)
+![예외 목록](https://cdn.adguardvpn.com/content/kb/vpn/android/statuses.png)
 
 또 다른 유용한 기능은 *예외 목록 가져오기/내보내기*입니다. 이 기능을 사용하려면 4단계만 수행하면 됩니다.
 
@@ -54,7 +51,7 @@ You can add domains (e.g. `google.com`) or subdomains (e.g. `*.google.com`) of w
 3. 다른 기기 간에 전송할 때 가져오기를 위해 `.zip` 파일을 기기로 보내는 것을 잊지 마십시오. 예를 들어, Windows 기기에서 Android로 예외 목록을 가져오는 경우, 미리 `.zip` 파일을 Android로 보내야 합니다.
 4. 예외 목록이 있는 ZIP 파일을 가져오려는 기기에서 AdGuard VPN을 엽니다. 해당 섹션을 찾아 *가져오기* 버튼을 클릭하고 ZIP 파일을 선택합니다.
 
-![가져오기/내보내기](https://cdn.adguard.com/content/kb/vpn/android/imp-exp.png)
+![가져오기/내보내기](https://cdn.adguardvpn.com/content/kb/vpn/android/imp-exp.png)
 
 ### 앱 설정
 
@@ -62,19 +59,17 @@ You can add domains (e.g. `google.com`) or subdomains (e.g. `*.google.com`) of w
 
 AdGuard와의 *호환성 모드*가 활성화된 경우, AdGuard 광고 차단기를 통해서만 앱을 관리할 수 있습니다. 그래서 버튼을 탭하면 AdGuard 앱이 열립니다.
 
-![앱 설정](https://cdn.adguard.com/content/kb/vpn/android/apps_settings.png)
-
+![앱 설정](https://cdn.adguardvpn.com/content/kb/vpn/android/apps_settings.png)
 
 ## 설정
 
 화면 오른쪽 하단의 톱니바퀴 아이콘을 눌러 *설정*으로 이동할 수 있습니다. 첫 번째 섹션에는 *앱 설정*이 있습니다. 여기에서 다른 옵션을 선택하여 필요에 따라 Android용 AdGuard VPN을 구성하세요.
 
-![앱 설정](https://cdn.adguard.com/content/kb/vpn/android/app_settings.png)
+![앱 설정](https://cdn.adguardvpn.com/content/kb/vpn/android/app_settings.png)
 
 ### AdGuard VPN 자동 시작
 
 슬라이더를 오른쪽으로 전환하면 장치 시작 후 AdGuard VPN 자동 시작이 활성화됩니다.
-
 
 ### DNS 서버
 
@@ -94,7 +89,7 @@ DNS(Domain name system, [도메인 이름 시스템](https://kb.adguard.com/en/g
 
 앱의 시스템 기본, 다크 및 라이트 테마를 적용할 수 있습니다.
 
-![테마](https://cdn.adguard.com/content/kb/vpn/android/theme-light-dark.png)
+![테마](https://cdn.adguardvpn.com/content/kb/vpn/android/theme-light-dark.png)
 
 ### 고급 설정
 
@@ -104,13 +99,11 @@ DNS(Domain name system, [도메인 이름 시스템](https://kb.adguard.com/en/g
 
 > 일부 AdGuard VPN 기능(DNS 서버 선택, 킬 스위치 및 자동 보호)은 *호환성 모드*에서 비활성화됩니다. 또한 애플리케이션 터널링을 관리하려면 AdGuard 광고 차단기 애플리케이션을 열어야 합니다.
 
-다음 두 섹션은 *로깅 수준*과 *진단 정보*입니다. Concerning the first option, it is not recommended to enable the Extended or Extreme logging level unless requested by our support team. 기술적인 문제가 있는 경우, 진단 정보(예: 기기 및 연결(IP 주소, ID, 핑 등)에 대한 로컬로 저장된 기술 정보)를 당사로 보낼 수 있습니다.
+다음 두 섹션은 *로깅 수준*과 *진단 정보*입니다. 지원 팀에서 분명히 이를 요청하지 않은 경우, 고급화된 로깅 수준 또는 극한의 로깅 수준으로 설정하지 마십시오. 기술적인 문제가 있는 경우, 진단 정보(예: 기기 및 연결(IP 주소, ID, 핑 등)에 대한 로컬로 저장된 기술 정보)를 당사로 보낼 수 있습니다.
 
-*고급 설정*의 마지막 섹션은 *로우 레벨 설정*입니다. 특별한 지식이 있거나 지원 팀에서 요청한 경우가 아니면 이 섹션을 사용하지 않는 것이 좋습니다. Here it is possible to enable TUN interface logging or IPv6 protocol on the VPN interface, choose a proxy server port or Internet protocol version that should be used.
+*고급 설정*의 마지막 섹션은 *로우 레벨 설정*입니다. 특별한 지식이 있거나 지원 팀에서 요청한 경우가 아니면 이 섹션을 사용하지 않는 것이 좋습니다. 여기에서 VPN 인터페이스에서 TUN 인터페이스 로깅 또는 IPv6 프로토콜을 활성화하고 사용할 프록시 서버 포트 또는 인터넷 프로토콜 버전을 선택할 수 있습니다.
 
 ### 고객 지원
 
 *지원* 섹션에서 피드백을 남기거나, 버그를 신고하거나 지원 팀에 보낼 로그 및 시스템 정보를 내보낼 수 있습니다.
  
- 
-

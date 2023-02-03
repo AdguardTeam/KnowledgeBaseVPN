@@ -15,7 +15,7 @@ En choisissant un service VPN, les gens sont souvent confrontés au choix d'un c
 ## 2. Exclusions
 Les *listes d'exclusions* vous permettent de sélectionner les sites pour lesquels le VPN doit être activé et pour lesquels — désactivé. Il y a deux modes d'opération de AdGuard VPN : *Général* et *Sélectif*. En mode *Général*, le VPN fonctionne partout sauf les sites ajoutés aux exclusions. Et inversement, en *Mode sélectif*, le VPN ne fonctionne que sur les sites ajoutés aux exclusions. Vous pouvez également facilement importer/exporter des listes d'exclusions. Pour en savoir plus sur cette fonctionnalité, consultez le site *Aperçu des fonctionnalités* pour le produit qui vous intéresse.
 
-![Un exemple de liste d'exclusion pour le Mode sélectif](https://cdn.adguard.com/public/Adguard/Blog/vpn_export_exclusions.png)
+![Un exemple de liste d'exclusion pour le Mode sélectif](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn_export_exclusions.png)
 
 Vous pouvez ajouter des sites web aux exclusions manuellement ou les choisir parmi les listes de services populaires. Les listes sont divisées en huit catégories : Réseaux sociaux, messageries, services de streaming vidéo et musical, jeux, achats, moteurs de recherche et outils de télétravail.
 
@@ -68,6 +68,6 @@ Mais que faire si vous voulez vous sentir en sécurité tout en regardant des co
 
 ## 12. Thème sombre
 
-![Thème sombre](https://cdn.adguard.com/public/Adguard/Blog/vpn/main_en_black.png)
+![Thème sombre](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/main_en_black.png)
 
 Cette petite fonctionnalité mérite une mention spéciale. En fait, beaucoup d'utilisateurs ont envie d'avoir un thème sombre, donc nous ne pouvions pas l'ignorer et avons ajouté un interrupteur de thème pour tous les produits VPN AdGuard. Choisissez celui qui vous plaît le plus - clair, sombre ou système. En espérant que vous rejoignez le côté sombre.

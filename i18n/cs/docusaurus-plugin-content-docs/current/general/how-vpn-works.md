@@ -25,7 +25,7 @@ Po připojení k síti je počítači nebo mobilnímu zařízení přiděleno je
 
 VPN vytváří tunel mezi vaším zařízením a serverem VPN. Vaše data projdou tímto tunelem, zašifrují se a poté se v zabezpečené podobě dostanou do otevřeného internetu. Proto se webovému serveru bude zdát, že vaše zařízení již nemá vaši skutečnou IP adresu, ale IP adresu koncového bodu tunelu, tedy serveru VPN. Stránky, na které se dostanete po průchodu tunelem VPN, tak budou považovat geolokaci vybraného serveru VPN za vaši skutečnou polohu. A zašifrovaná data se nedostanou do rukou inzerentů, hackerů ani bezpečnostních služeb.
 
-![Struktura VPN](https://cdn.adguard.com/public/Adguard/Website/Images/seo/en/how_vpn_3.jpg)
+![Struktura VPN](https://cdn.adguardvpn.com/public/Adguard/Website/Images/seo/en/how_vpn_3.jpg)
 
 ## Typy VPN protokolů
 
@@ -39,11 +39,11 @@ Bezpečnostní protokoly VPN jsou nástroje, které šifrují data v tunelu VPN 
 
 Kromě těchto protokolů VPN existují i další (například TLS, SSTP, IKEv2), které však nejsou oblíbené nebo nesplňují moderní standardy šifrování dat.
 
-![Jak funguje protokol VPN](https://cdn.adguard.com/public/Adguard/Blog/vpn/protocol/4.svg)
+![Jak funguje protokol VPN](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/4.svg)
 
 AdGuard VPN má také svůj vlastní [*protokol*](adguard-vpn-protocol.mdx). Jednou z jeho výhod je, že provoz přenášený pomocí protokolu AdGuard VPN je obtížné odlišit od běžného provozu. VPN tunel vypadá jako běžný provoz HTTPS, takže je velmi obtížné jej odhalit a zablokovat. Navíc je založen na mechanismech moderního protokolu HTTP/2, který zajišťuje vysokou rychlost připojení.
 
-![Jak funguje skrytá síť VPN](https://cdn.adguard.com/public/Adguard/Blog/vpn/protocol/5.svg)
+![Jak funguje skrytá síť VPN](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/5.svg)
 
 ## Nevýhody VPN
 

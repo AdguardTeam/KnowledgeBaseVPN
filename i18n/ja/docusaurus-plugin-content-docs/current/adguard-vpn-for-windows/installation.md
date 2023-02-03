@@ -1,20 +1,17 @@
 ---
 title: インストール・アンインストール方法
-sidebar position: 2
+sidebar_position: 2
 ---
-
 
 ## 動作環境
 
 AdGuard VPN は、 **Microsoft Windows 11/10/8.1/8/7/Vista SP2 (web-based only)** を搭載した端末にインストールできます。
-
 
 ## AdGuard VPN for Windows のインストール方法
 
 AdGuard VPN for Windowsをインストールするには、[ホームページ](https://adguard-vpn.com/ja/welcome.html)にアクセスし、「*ダウンロード*」ボタンをクリックしてください。 その後、 `adguardVPNInstaller.exe` がダウンロードされます。 インストーラーを実行し、表示される手順を行ってください。 このプロセスは1分程度で終わります。
 
 次に、EULAとプライバシーポリシーの条項に同意するチェックボックスにチェックを入れる必要があります。 そして、インストールの最後のステップとしては、AdGuardアカウント経由またはSNS（Google、Apple、Facebook）経由でログインします。
-
 
 ## AdGuard VPN for Windows のアンインストール方法
 

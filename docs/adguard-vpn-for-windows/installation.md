@@ -5,7 +5,7 @@ sidebar_position: 2
 
 ## System requirements
 
-AdGuard VPN can only be installed on devices with **Microsoft Windows 10/8.1/8/7/Vista SP2 (web-based only)**.
+AdGuard VPN can only be installed on devices with **Microsoft Windows 11/10/8.1/8/7/Vista SP2 (web-based only)**.
 
 ## AdGuard VPN for Windows installation
 

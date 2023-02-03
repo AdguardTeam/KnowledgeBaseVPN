@@ -1,20 +1,17 @@
 ---
 title: How to install and uninstall
-sidebar position: 2
+sidebar_position: 2
 ---
-
 
 ## System requirements
 
 AdGuard VPN can only be installed on devices with **Microsoft Windows 10/8.1/8/7/Vista SP2 (web-based only)**.
-
 
 ## AdGuard VPN for Windows installation
 
 To install AdGuard VPN for Windows, visit [our website](https://adguard-vpn.com/en/welcome.html) and click the *Download* button. After it, the `adguardVPNInstaller.exe` will be downloaded. Run the installer and follow its instructions. The process will take less than a minute.
 
 Then you will need to check the box to accept the terms of the EULA and the Privacy Policy. And in the last step of the installation, you will be prompted to authorize via your AdGuard account or via social networks (Google, Apple, Facebook).
-
 
 ## AdGuard VPN for Windows uninstallation
 
