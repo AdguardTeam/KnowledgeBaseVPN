@@ -14,12 +14,12 @@ You have two ways to solve the issue:
 1. Activate the **developer mode** and enable **USB debugging**:
 - Open the **Settings** application on your phone;
 - Go to **System** section (last item in the settings menu). In this section find sub-item **About phone**;
-- Click on the **Build number** line 7 times. After that, you will receive a notification that **You are now a developer** (If necessary, enter an unlock code for the device);
+- Click the **Build number** line 7 times. After that, you will receive a notification that **You are now a developer** (If necessary, enter an unlock code for the device);
 - Open **System Settings** → **Developer Options** → Scroll down and enable **USB debugging** → Confirm debugging is enabled in the window **Allow USB debugging** after reading the warning carefully.
 
 >  If you have any difficulties or additional questions, full instructions can be found [here](https://developer.android.com/studio/debug/dev-options).
 
-2. [Install and configure](https://www.xda-developers.com/install-adb-windows-macos-linux/) ADB; 
+2. [Install and configure](https://www.xda-developers.com/install-adb-windows-macos-linux/) ADB;
 > On the Windows platform, **Samsung** owners may need to install [this utility](https://developer.samsung.com/mobile/android-usb-driver.html).
 
 3. Connect your device using a **USB cable** to the computer or laptop on which you installed **ADB**;
