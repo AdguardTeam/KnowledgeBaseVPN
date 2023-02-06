@@ -52,7 +52,7 @@ You can find reactions in the upper right corner or at the bottom of an issue.
 * Open a [page for creating new issues](https://github.com/AdguardTeam/AdguardVPNForWindows/issues/new/choose) and select *Bug report*.
 * Fill out the form. If possible, attach screenshots or a screen recording.
 
-![Reporting a bug via GitHub *mobile_border](cdn.adguardvpn.com/content/kb/vpn/general/bug-rep.png)
+![Reporting a bug via GitHub *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/general/bug-rep.png)
 
 ### AdGuard for Mac
 
