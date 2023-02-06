@@ -13,7 +13,7 @@ Check that you have the most up-to-date version of the app, and if not, upgrade 
 
 Check if the bug hasn’t been reported before. We advise paying attention to both open and closed issues.
 
-![Closed issues *border](cdn.adguardvpn.com/content/kb/vpn/general/closed.png) 
+![Closed issues *border](https://cdn.adguardvpn.com/content/kb/vpn/general/closed.png) 
 
 ### How to describe a problem
 
