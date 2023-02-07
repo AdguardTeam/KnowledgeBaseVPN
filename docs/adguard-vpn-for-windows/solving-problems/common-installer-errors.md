@@ -7,7 +7,7 @@ This article contains some of the most common errors you can encounter during th
 
 ### Error 5: Access Denied {#error-5}
 
-This error occurs when there's something wrong with permissions. There may be several different reasons why AdGuard VPN installer does not have the permissions it requires to properly finish the installation process. You can try the following steps:
+This error occurs when there is something wrong with permissions. There may be several different reasons why AdGuard VPN installer does not have the permissions it requires to properly finish the installation process. You can try the following steps:
 
 - Temporarily disable your antiviruses. Some of them may interfere with the installation, depending on the severity of their settings.
 
@@ -43,11 +43,11 @@ You could say this is a particular subtype of Error 1603. The possible solutions
 
 If you got this error code, chances are you have interrupted the installation process manually in one way or another. What you can do is:
 
-- Don't close the installer window. When the installation is complete, it will close automatically.
+- Do not close the installer window. When the installation is complete, it will close automatically.
 
 - If a dialogue window pops up during the installation, hit "Yes" to grant the installer the required permissions. Clicking "No" will cancel the installation.
 
-- Don't start other processes while the installation is in progress.
+- Do not start other processes while the installation is in progress.
 
 ### Error 1603: Fatal error during installation {#error-1603}
 
@@ -85,7 +85,7 @@ This error occurs when there are several instances of AdGuard VPN installer laun
 
 - Reboot your PC and start the installer again. When you restart the computer, all ongoing processes will stop, including all copies of the installer.
 
-- Don't make multiple clicks on the installer even if doesn't start right away. Sometimes it may take a few seconds to display the installer UI.
+- Do not make multiple clicks on the installer even if it doesn't start right away. Sometimes it may take a few seconds to display the installer UI.
 
 ### Error 1638: Another version of this product is already installed {#error-1638}
 
@@ -97,9 +97,9 @@ It's very likely that you've already installed AdGuard VPN before.
 
 ### Other errors {#other}
 
-If you've encountered an error that's not listed above, it is possible that we can solve it by ourselves. But in order to do that, we need log files from you. Please perform the following steps:
+If you have encountered an error that's not listed above, it is possible that we can solve it by ourselves. But in order to do that, we need log files from you. Please perform the following steps:
 
-- Find and archive **AdGuard VPN installation logs** in the same way that it is described in [this article](https://adguard.com/kb/adguard-for-windows/solving-problems/installation-logs/).
+- Find and archive **AdGuard VPN installation logs** in the same way that is described in [this article](https://adguard.com/kb/adguard-for-windows/solving-problems/installation-logs/).
 
 - Find and save to disk **Event Viewer** logs. [This article](https://adguard.com/kb/adguard-for-windows/solving-problems/system-logs/) explains how to do that.
 
