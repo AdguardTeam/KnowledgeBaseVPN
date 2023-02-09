@@ -19,13 +19,13 @@ Some security scanning websites consider the coincidence of the user's IP addres
 
 ## Why there are no DNS leaks in AdGuard VPN 
 
-If you enable AdGuard VPN on your device and run a check on any of the scanner websites, it finds that DNS queries go to the [AdGuard DNS](https://adguard-dns.io/welcome.html) servers. However, this cannot be considered a leak.
+If you enable AdGuard VPN on your device and run a check on any of the scanner websites, it finds that DNS queries go to the [AdGuard DNS](https://adguard-dns.io) servers. However, this cannot be considered a leak.
 
 Using a non-filtering AdGuard DNS server is set by default in AdGuard VPN. This ensures that your queries do not go to the DNS servers of your ISP, which means that you stay private and anonymous online.
 
 What's more, AdGuard DNS is a very popular DNS service, used by over 50 million people. What does this mean for you? Imagine the following situation: the usual VPN service uses the DNS server which is located at the same IP address as the VPN server. The number of its users hardly exceeds 1,000.
 
-And in the case of AdGuard DNS you will "merge" with 50 million users so nobody will be able to track you by the fact of using the DNS server.
+And in the case of AdGuard DNS you will "merge" with 50 million users so nobody will be able to track you by the mere fact of using that DNS server.
 
 ## How to set up a custom DNS server in AdGuard VPN
 
