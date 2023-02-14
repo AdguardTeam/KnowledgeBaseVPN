@@ -3,7 +3,7 @@ title: How to collect and send logs
 sidebar_position: 1
 ---
 
-There are several ways for collecting AdGuard VPN Browser Extension logs, but whichever one you choose, the same data will be collected. In the extension, logs are not divided into standard and debug ones. And different options for collecting logs are provided for those cases when a problem you encounter prevents you from using one or another instruction.
+There are several ways for collecting AdGuard VPN Browser extension logs, but whichever one you choose, the same data will be collected. In the extension, logs are not divided into standard and debug ones. And different options for collecting logs are provided for those cases when a problem you encounter prevents you from using one or another instruction.
 
 ## Collecting and sending logs via the *Report a bug* section
 
