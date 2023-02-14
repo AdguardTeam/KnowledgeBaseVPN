@@ -21,7 +21,7 @@ There are several ways for collecting AdGuard VPN Browser Extension logs, but wh
 
 Now that you have collected the logs, you need to hand them over to our development team. To do this: 
 
-1.  Report a bug on GitHub. Detailed instructions on creating an issue on GitHub can be found in [this article]().  
+1.  Report a bug on GitHub. Detailed instructions on creating an issue on GitHub can be found in this article.  
 2.  Send an archive with logs and playback time to `devteam@adguard.com` and attach a link to your issue on GitHub or add an archive with logs and playback time to Google Drive and share it with `devteam@adguard.com`. Attach the Google Drive link to your issue on GitHub.
 
 ## Collecting and sending logs via browser developer's tools
@@ -48,7 +48,7 @@ Now that you have collected the logs, you need to hand them over to our developm
 
 Now that you have collected the logs, you need to hand them over to our development team. To do this: 
 
-1.  Report a bug on GitHub. Detailed instructions on creating an issue on GitHub can be found in [this article](). 
+1.  Report a bug on GitHub. Detailed instructions on creating an issue on GitHub can be found in this article. 
 2.  Send an archive with logs and playback time to `devteam@adguard.com` and attach a link to your issue on GitHub or add an archive with logs and playback time to Google Drive and share it with `devteam@adguard.com`. Attach the Google Drive link to your issue on GitHub.
 
 ### Firefox
@@ -73,5 +73,5 @@ Now that you have collected the logs, you need to hand them over to our developm
 
 Now that you have collected the logs, you need to hand them over to our development team. To do this: 
 
-1.  Report a bug on GitHub. Detailed instructions on creating an issue on GitHub can be found in [this article](). 
+1.  Report a bug on GitHub. Detailed instructions on creating an issue on GitHub can be found in this article. 
 2.  Send an archive with logs and playback time to `devteam@adguard.com` and attach a link to your issue on GitHub or add an archive with logs and playback time to Google Drive and share it with `devteam@adguard.com`. Attach the Google Drive link to your issue on GitHub.
