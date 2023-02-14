@@ -31,12 +31,12 @@ And in the case of AdGuard DNS you will "merge" with 50 million users so nobody 
 
 There are many popular public DNS servers from [well-known DNS providers](https://adguard-dns.io/kb/general/dns-providers). Some of them can only perform their direct duties – giving the IP addresses of the requested domains, and some can do more. 
 
-For example, the filtering AdGuard DNS removes ads and protects your device from being tracked, while AdGuard DNS Family Protection combines AdGuard DNS features with Safe search and Parental control.
+For example, AdGuard DNS removes ads and protects your device from being tracked, and AdGuard DNS Family Protection combines AdGuard DNS features with Safe search and Parental control.
 
 You can select any DNS server and configure it in AdGuard VPN:
 
-* in AdGuard VPN for Windows: *Settings* → *App settings* → *DNS servers*.
-* in AdGuard VPN for Mac: *Settings* → *App settings* → *DNS servers*.
+* in AdGuard VPN for Windows: *Settings* → *App settings* → *DNS servers*
+* in AdGuard VPN for Mac: *Settings* → *App settings* → *DNS servers*
 * in AdGuard VPN for Android: *Settings* (gear icon) → *App settings* → *DNS server*
-* in AdGuard VPN for iOS: *Settings* (gear icon) → *App settings* → *DNS server
-* in AdGuard VPN Browser extension: the burger menu → *Settings* → *DNS-server
+* in AdGuard VPN for iOS: *Settings* (gear icon) → *App settings* → *DNS server*
+* in AdGuard VPN Browser extension: the burger menu → *Settings* → *DNS server*
