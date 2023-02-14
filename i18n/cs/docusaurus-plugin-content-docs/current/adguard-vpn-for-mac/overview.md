@@ -11,19 +11,19 @@ Všimněte si, že **nemůžete používat AdGuard VPN pro macOS, pokud jste se 
 
 ## Domovská obrazovka
 
-![Domovská obrazovka](https://cdn.adguard.com/public/Adguard/Blog/mac-vpn-main.png)
+![Domovská obrazovka](https://cdn.adguardvpn.com/content/kb/vpn/mac/main_en.png)
 
-První karta je *Domovská* obrazovka. Here you can see AdGuard VPN current status and [exclusions mode](#exclusions), chosen location (if enabled) and its ping. Ping je doba odezvy serveru VPN. Čím nižší je toto číslo, tím rychlejší je připojení. Pokud je VPN vypnuta, zobrazí se níže poslední umístění, ke kterému jste se připojili. Nejrychlejší umístění s nejnižší hodnotou ping jsou zobrazena v pravém horním rohu obrazovky. Níže naleznete úplný seznam umístění. Pomocí funkce vyhledávání lze snadno najít potřebné umístění.
+První karta je *Domovská* obrazovka. Zde můžete vidět aktuální stav AdGuard VPN a [režim výjimek](#exclusions), vybrané umístění (pokud je povoleno) a jeho ping. Ping je doba odezvy serveru VPN. Čím nižší je toto číslo, tím rychlejší je připojení. Pokud je VPN vypnuta, zobrazí se níže poslední umístění, ke kterému jste se připojili. Nejrychlejší umístění s nejnižší hodnotou ping jsou zobrazena v pravém horním rohu obrazovky. Níže naleznete úplný seznam umístění. Pomocí funkce vyhledávání lze snadno najít potřebné umístění.
 
 > Uživatelé bezplatné verze se mohou připojit pouze k určitým umístěním, zatímco jiná jsou blokována. Kromě toho je v bezplatné verzi omezen měsíční datový provoz na 3 GB.
 
 ## Výjimky
 
-![Výjimky](https://cdn.adguard.com/public/Adguard/Blog/vpn/release/VPN_for_Mac/exclusions.png)
+![Výjimky](https://cdn.adguardvpn.com/content/kb/vpn/mac/exclusions_en.png)
 
-Následuje obrazovka *Výjimky*. AdGuard VPN has several features that make it unique, and one of them is certainly switching between two exclusions modes. In the General mode, AdGuard VPN will run on all websites but the ones from the exclusions list. Naopak v selektivním režimu bude AdGuard VPN spuštěna pouze na webových stránkách ze seznamu výjimek. Sami se můžete rozhodnout, kde chcete VPN provozovat.
+Následuje obrazovka *Výjimky*. AdGuard VPN má několik funkcí, které ji činí jedinečnou. Jednou z nich je určitě přepínání mezi dvěma režimy výjimek. V Obecném režimu bude AdGuard VPN spuštěna na všech webových stránkách kromě těch ze seznamu výjimek. Naopak v selektivním režimu bude AdGuard VPN spuštěna pouze na webových stránkách ze seznamu výjimek. Sami se můžete rozhodnout, kde chcete VPN provozovat.
 
-![Záložka Výjimky](https://cdn.adguard.com/public/Adguard/Blog/services.png)
+![Záložka Výjimky](https://cdn.adguardvpn.com/content/kb/vpn/mac/services_en.png)
 
 Nemusíte jen přidávat webové stránky do výjimek, ale také můžete vybírat ze seznamů oblíbených služeb. Seznamy jsou rozděleny do osmi kategorií: sociální sítě, messengery, služby pro streamování videa a hudby, hry, nakupování, vyhledávače a nástroje pro pracovní komunikaci. Kteroukoli z těchto služeb lze přidat do Výjimek jedním kliknutím! Je to obzvlášť výhodné, pokud používáte Selektivní režim.
 
@@ -34,7 +34,7 @@ Pokud jste přidali službu, něco změnili nebo odebrali a nyní chcete obnovit
 Připravené seznamy vyloučení lze navíc přenést do jiných zařízení s nainstalovanou službou AdGuard VPN. Chcete-li exportovat výjimky, postupujte podle následujících čtyř kroků:
 
 1. Otevřete AdGuard VPN v zařízení, ze kterého chcete exportovat seznamy výjimek. Vyhledejte příslušný oddíl a klikněte na tlačítko *Exportovat*. Stáhne se archiv `exclusions.zip`.
-2. There are two `.txt` files inside the archive, each for General and Selective lists. Můžete k nim přidat další výjimky, odstranit stávající, přejmenovat soubory (ale o tom až později) nebo nechat archiv se soubory tak, jak je.
+2. Uvnitř archivu jsou dva soubory `.txt`, jeden pro Obecný a druhý pro Selektivní seznam. Můžete k nim přidat další výjimky, odstranit stávající, přejmenovat soubory (ale o tom až později) nebo nechat archiv se soubory tak, jak je.
 3. Při přenosu mezi různými zařízeními nezapomeňte odeslat soubor `.zip` do zařízení pro import. Pokud například importujete seznamy výjimek ze zařízení Mac do iPhone, nezapomeňte soubor `.zip` předem odeslat do telefonu.
 4. Otevřete AdGuard VPN v zařízení/prohlížeči, do kterého chcete importovat archiv s připravenými seznamy výjimek. Vyhledejte příslušnou sekci, klikněte na tlačítko *Importovat* a vyberte archiv. Hotovo!
 
@@ -42,19 +42,19 @@ Připravené seznamy vyloučení lze navíc přenést do jiných zařízení s n
 
 ## Podpora
 
-![Obrazovka podpory](https://cdn.adguard.com/public/Adguard/Blog/vpn/release/VPN_for_Mac/support.png)
+![Obrazovka podpory](https://cdn.adguardvpn.com/content/kb/vpn/mac/support_en.png)
 
 Třetí karta je obrazovka *Podpory*. Odpovědi na všechny otázky najdete v sekcích [FAQ](https://adguard-vpn.com/en/welcome.html#faq) nebo [Databáze znalostí](/intro.md), můžete nahlásit chybu, pokud na ni narazíte, nebo [diskutovat o AdGuardu na některé z platforem](https://adguard.com/en/discuss.html). A neváhejte [zanechat zpětnou vazbu o našem produktu](https://surveys.adguard.com/en/vpn_mac/form.html), budeme vám vděčni.
 
 ## Nastavení
 
-![Nastavení](https://cdn.adguard.com/public/Adguard/Blog/vpn/release/VPN_for_Mac/settings.png)
+![Nastavení](https://cdn.adguardvpn.com/content/kb/vpn/mac/settings_en.png)
 
 Nakonec se dostáváme ke kartě Nastavení. V sekci *O programu* si můžete prohlédnout aktuální verzi AdGuard VPN, zkontrolovat aktualizace, navštívit naše oficiální webové stránky a seznámit se s licenční smlouvou EULA a zásadami ochrany osobních údajů AdGuardu. V sekci *O licenci* můžete provést upgrade z bezplatné verze na neomezenou, spravovat své předplatné nebo se odhlásit. A co je nejdůležitější, odtud máte přístup k *Obecným nastavením*.
 
-### Obecná nastavení
+### Nastavení aplikace
 
-![Obecná nastavení](https://cdn.adguard.com/public/Adguard/Blog/vpn/release/VPN_for_Mac/general-settings.png)
+![Nastavení aplikace](https://cdn.adguardvpn.com/content/kb/vpn/mac/general-settings_en.png)
 
 První čtyři základní funkce činí aplikaci pohodlnější a uživatelsky přívětivější, tj. *Kill Switch*, *automatické aktualizace*, *spuštění AdGuard VPN při přihlášení *a *automatické připojení při spuštění aplikace*. Navíc si můžete vybrat mezi světlým, tmavým a systémovým motivem — poslední jmenovaný motiv odpovídá motivu vašeho počítače Mac.
 
@@ -62,13 +62,13 @@ Další možností, kterou byste neměli přehlížet, je možnost povolit aplik
 
 ### DNS servery
 
-![DNS servery](https://cdn.adguard.com/public/Adguard/Blog/vpn/release/VPN_for_Mac/dns.png)
+![DNS servery](https://cdn.adguardvpn.com/content/kb/vpn/mac/dns_en.png)
 
 Zde můžete přidat vlastní server (nebo servery) DNS, abyste se nemuseli spoléhat na server DNS poskytovaný vaším poskytovatelem internetových služeb ve výchozím nastavení. Doporučujeme přidat službu AdGuard DNS, která nejen šifruje provoz DNS, ale také identifikuje požadavky na škodlivé weby a přesměrovává je do "černé díry".
 
 ### Pokročilá nastavení
 
-![Pokročilá nastavení](https://cdn.adguard.com/public/Adguard/Blog/vpn/release/VPN_for_Mac/advanced-settings.png)
+![Pokročilá nastavení](https://cdn.adguardvpn.com/content/kb/vpn/mac/advanced-settings_en.png)
 
 Pokročilá nastavení se nedoporučuje měnit. Neměňte je, pokud vás o to nepožádá naše technická podpora nebo pokud si nejste jisti, co děláte.
 

@@ -15,7 +15,7 @@ Al elegir un servicio VPN, las personas suelen tener que elegir entre rapidez y 
 ## 2. Exclusiones
 Las *listas de exclusiones* te permiten seleccionar sitios para los cuales la VPN debe estar habilitada y para los cuales, deshabilitada. Hay dos modos de operación en AdGuard VPN: *General* y *Selectivo*. En *Modo general*, la VPN funciona en todas partes excepto en los sitios web añadidos a las exclusiones. Y viceversa, en *Modo selectivo*, la VPN no funciona en ninguna parte sino en los sitios web añadidos a las exclusiones. También puedes importar/exportar fácilmente listas de exclusión. Lee acerca de esta función en *Descripción de las funciones* para el producto que te interesa.
 
-![Un ejemplo de una lista de exclusiones para el Modo selectivo](https://cdn.adguard.com/public/Adguard/Blog/vpn_export_exclusions.png)
+![Un ejemplo de una lista de exclusiones para el Modo selectivo](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn_export_exclusions.png)
 
 Puedes añadir sitios web a las exclusiones manualmente o elegirlos entre las listas de servicios populares. Las listas se dividen en ocho categorías: Redes sociales, Mensajeros, Servicios de streaming de vídeo y música, Juegos, Compras, Motores de búsqueda y Herramientas de comunicación laboral.
 
@@ -68,6 +68,6 @@ Pero, ¿qué pasa si quieres sentirte seguro mientras miras contenido específic
 
 ## 12. Modo oscuro
 
-![Modo oscuro](https://cdn.adguard.com/public/Adguard/Blog/vpn/main_en_black.png)
+![Modo oscuro](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/main_en_black.png)
 
 Esta pequeña característica merece una mención especial. De hecho, muchos usuarios anhelan el modo oscuro, por lo que no pudimos ignorarlo y agregamos un cambio de tema para todos los productos AdGuard VPN. Elige el que más te guste: claro, oscuro o predeterminado del sistema. Esperamos que te unas al lado oscuro.

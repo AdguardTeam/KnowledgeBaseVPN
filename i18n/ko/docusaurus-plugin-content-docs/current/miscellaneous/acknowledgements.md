@@ -1,11 +1,11 @@
 ---
-title: Credits and Acknowledgements
+title: 감사의 말
 sidebar_position: 1
 ---
 
-Our dev team would like to thank the developers of the third-party software we use in AdGuard VPN, our great beta testers and other engaged users, whose help in finding and eliminating all the bugs, translating AdGuard VPN and moderating our communities is priceless.
+저희 개발 팀은 AdGuard VPN에서 사용하는 타사 소프트웨어 개발자, 베타 테스터 및 관심 있는 사용자에게 감사드립니다. 버그를 찾아 수정하고, AdGuard VPN을 번역하고, 커뮤니티를 조정하는 데 도움을 주셔서 감사합니다.
 
-## AdGuard Websites
+## AdGuard 공식 사이트
 
 * Symfony: [http://symfony.com/](http://symfony.com/)
 * React: [https://reactjs.org/](https://reactjs.org/)
@@ -13,29 +13,29 @@ Our dev team would like to thank the developers of the third-party software we u
 * PostgreSQL: [https://www.postgresql.org/](https://www.postgresql.org/)
 * Spring: [https://spring.io/](https://spring.io/)
 
-## AdGuard VPN for Android
+## Android용 AdGuard VPN
 
-* Logback-android by Tony19: [https://tony19.github.io/logback-android](https://tony19.github.io/logback-android)
+* Tony19의 Logback-android: [https://tony19.github.io/logback-android](https://tony19.github.io/logback-android)
 
-## AdGuard VPN for iOS
+## iOS용 AdGuard VPN
 
 * Zip: [https://github.com/marmelroy/Zip](https://github.com/marmelroy/Zip)
 * ReachabilitySwift: [https://github.com/ashleymills/Reachability.swift](https://github.com/ashleymills/Reachability.swift)
 * Sentry: [https://github.com/getsentry/sentry-cocoa](https://github.com/getsentry/sentry-cocoa)
 
-## AdGuard VPN for Mac
+## Mac용 AdGuard VPN
 
-* Punycode component by Kojiro Futamura: [https://github.com/gumob/PunycodeSwift](https://github.com/gumob/PunycodeSwift)
-* Reachability component by Ashley Mills: [https://github.com/ashleymills/Reachability.swift](https://github.com/ashleymills/Reachability.swift)
-* Sparkle Project for Sparkle.framework component: [https://sparkle-project.org/](https://github.com/ashleymills/Reachability.swift)
+* Kojiro Futamura의 Punycode 구성 요소: [https://github.com/gumob/PunycodeSwift](https://github.com/gumob/PunycodeSwift)
+* Ashley Mills의 도달 가능성 구성 요소: [https://github.com/ashleymills/Reachability.swift](https://github.com/ashleymills/Reachability.swift)
+* Sparkle.framework 구성 요소용 Sparkle Project: [https://sparkle-project.org/](https://github.com/ashleymills/Reachability.swift)
 
-## AdGuard VPN for Windows
+## Windows용 AdGuard VPN
 
-* Intercept traffic drivers (wfp & tdi): [https://netfiltersdk.com/nfsdk.html](https://netfiltersdk.com/nfsdk.html)
-* WPF-based text editor component: [http://avalonedit.net/](http://avalonedit.net/)
-* High-performance JSON framework for .NET: [https://www.newtonsoft.com/json](https://www.newtonsoft.com/json)
+* 인터셉트 트래픽 드라이버(wfp & tdi):[https://netfiltersdk.com/nfsdk.html](https://netfiltersdk.com/nfsdk.html)
+* WPF 기반 텍스트 편집기 구성 요소: [http://avalonedit.net/](http://avalonedit.net/)
+* .NET용 고성능 JSON 프레임워크: [https://www.newtonsoft.com/json](https://www.newtonsoft.com/json)
 
-## AdGuard VPN Extension
+## AdGuard VPN 확장 프로그램
 
 * axios: [https://github.com/axios/axios](https://github.com/axios/axios)
 * babel: [https://github.com/babel/babel](https://github.com/babel/babel)
@@ -54,7 +54,7 @@ Our dev team would like to thank the developers of the third-party software we u
 * webpack: [https://github.com/webpack/webpack](https://github.com/webpack/webpack)
 * xstate: [https://github.com/statelyai/xstate](https://github.com/statelyai/xstate)
 
-## VPN apps
+## VPN 앱
 
 * BoringSSL: [https://github.com/google/boringssl](https://github.com/google/boringssl)
 * brotli: [https://github.com/google/brotli](https://github.com/google/brotli)
@@ -66,11 +66,11 @@ Our dev team would like to thank the developers of the third-party software we u
 * libevent: [https://github.com/libevent/libevent](https://github.com/libevent/libevent)
 * lwIP: [https://lwip.fandom.com/wiki/LwIP_Wiki](https://lwip.fandom.com/wiki/LwIP_Wiki)
 * nghttp2: [https://github.com/nghttp2/nghttp2](https://github.com/nghttp2/nghttp2)
-* Protocol Buffers - Google's data interchange format: [https://github.com/protocolbuffers](https://github.com/protocolbuffers)
+* 프로토콜 버퍼 - Google의 데이터 교환 형식: [https://github.com/protocolbuffers](https://github.com/protocolbuffers)
 * zlib: [https://zlib.net](https://zlib.net)
 * Sciter: [https://sciter.com/](https://sciter.com/)
 
-## VPN server
+## VPN 서버
 
 * Netty: [https://netty.io/](https://netty.io/)
 * Quiche: [https://github.com/cloudflare/quiche](https://github.com/cloudflare/quiche)

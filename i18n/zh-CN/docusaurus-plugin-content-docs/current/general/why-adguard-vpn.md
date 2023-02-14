@@ -15,20 +15,20 @@ sidebar_position: 2
 ## 2. 排除项
 *排除项列表*允许用户选择应启用 VPN 和禁用 VPN 的网站。 AdGuard VPN 有两个操作模式：*常规*和*选择*。 *在常规模式下，*AdGuard VPN 除了添加到排除项列表里的网站外在所有网站上工作。 相反，在*选择模式下*，除了添加到排除项的网站外，VPN 在任何地方都不起作用。 用户也可以很容易导入/导出排除项列表。 请阅读自己感兴趣的产品的*功能概述*中关于此功能的介绍。
 
-![选择模式排除项列表的例子](https://cdn.adguard.com/public/Adguard/Blog/vpn_export_exclusions.png)
+![选择模式排除项列表的例子](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn_export_exclusions.png)
 
 用户可以将网站手动添加到排除项列表，或者在流行服务的列表里选择特定的网站。 这些名单分为八个类别，包括社交网络、通信、视频和音乐流媒体服务、游戏、购物、搜索引擎和工作通信工具。
 
 > 本功能除了 iOS 之外，在所有系统上都可以使用。
 
 ## 3. 正在选择 DNS 服务器
-不再依赖你的 ISP 默认提供的 DNS 服务器吧！ 首先，这并不安全，你的 ISP 很可能可以访问客户的浏览历史记录。 Second, people often underestimate DNS, yet it can remove ads and trackers, protect your device from malware or, for instance, enable safe search and block adult content.
+不再依赖你的 ISP 默认提供的 DNS 服务器吧！ 首先，这并不安全，你的 ISP 很可能可以访问客户的浏览历史记录。 第二，人们经常低估 DNS，然而它可以删除广告和跟踪器，保护您的设备免受恶意软件的影响，或者，例如，启用安全搜索和阻止成人内容。
 
 你可以从[知名的 DNS 供应商](https://kb.adguard.com/en/general/dns-providers)中选择 DNS 服务器，如 AdGuard、Cisco、Cloudflare、Google 或 Quad9，甚至可以使用你自己私人的 DNS 服务器。
 
 ## 4. 最快的位置
 
-使 AdGuard VPN 脱颖而出的另一个特点是，你可以根据其 Ping 值选择一个地点。 In a nutshell, ping is the time it takes the data packet sent from your device to reach the server and return. 不懂？记住一条：Ping 越低，服务器物理距离越近，其速度越快。 我们正在不断扩大地点的数量，以便你可以选择不同的地点。
+使 AdGuard VPN 脱颖而出的另一个特点是，你可以根据其 Ping 值选择一个地点。 简而言之，Ping 是指从您的设备发送的数据包到达服务器并返回所需的时间。 不懂？记住一条：Ping 越低，服务器物理距离越近，其速度越快。 我们正在不断扩大地点的数量，以便你可以选择不同的地点。
 
 > 请注意，要访问所有的 VPN 服务器位置，你需要购买 AdGuard VPN 订阅。
 
@@ -68,6 +68,6 @@ AdGuard VPN 付费用户可以同时连接五台设备。 我们特别强调*同
 
 ## 12. 黑暗主题
 
-![黑暗主题](https://cdn.adguard.com/public/Adguard/Blog/vpn/main_en_black.png)
+![黑暗主题](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/main_en_black.png)
 
-但这个小功能值得特别一提。 事实上，对于黑暗主题的呼声一直很大，因此我们为所有 AdGuard VPN 产品增加了一个主题切换开关。 选择你更喜欢的一个--浅色、深色或系统默认颜色。 希望你选择加入黑暗势力。
+但这个小功能值得特别一提。 事实上，对于黑暗主题的呼声一直很大，因此我们为所有 AdGuard VPN 产品增加了一个主题切换开关。 选择您更喜欢的一个，即浅色、黑暗或系统默认。 希望你选择加入黑暗势力。

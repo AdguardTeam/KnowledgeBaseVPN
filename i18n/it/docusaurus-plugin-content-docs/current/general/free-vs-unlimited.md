@@ -1,25 +1,25 @@
 ---
-title: 'Benefits of AdGuard VPN Unlimited'
+title: 'Vantaggi di AdGuard VPN Unlimited'
 sidebar_position: 5
 ---
  
-You can use AdGuard VPN for free, but then there will be certain restrictions:
+Puoi utilizzare AdGuard VPN gratuitamente, ma poi ci saranno alcune restrizioni:
 
-* Only 2 devices on which you can simultaneously enable AdGuard VPN
-* 3 GB of traffic per month restriction
-* 20 Mbit/sec speed limit
-* Only some of the server locations are available
-* Email clients can’t be used for sending messages (on iOS and Android)
+* Solo 2 dispositivi su cui puoi abilitare AdGuard VPN simultanemente
+* Restrizione di 3 GB di traffico al mese
+* Limite di velocità 20 Mbit/sec
+* Sono disponibili solo alcune delle posizioni dei server
+* I client di posta elettronica non possono essere utilizzati per l'invio di messaggi (su iOS e Android)
 
-> The last point should be addressed separately: free users of AdGuard VPN for iOS and Android cannot send emails in email clients. It’s impossible because we block port 25, which is used for outgoing emails, and thus reinsure against spam. However, sending emails with web email services works perfectly well. And on AdGuard VPN for Android you can add apps to exclusions so that email apps will function as well.
+> L'ultimo punto dovrebbe essere affrontato separatamente: gli utenti gratuiti di AdGuard VPN per iOS e Android non possono inviare e-mail nei client di posta. È impossibile perché blocchiamo la porta 25, utilizzata per le e-mail in uscita, e quindi ci assicuriamo contro lo spam. Tuttavia, l'invio di e-mail con i servizi di web e-mail funziona perfettamente. E su AdGuard VPN per Android è possibile aggiungere le app alle esclusioni, in modo che funzionino anche le app di posta elettronica.
 
-At the same time you can purchase a subscription to get an unlimited version of the app. A subscription allows to have more benefits in comparison with a free account:
+Allo stesso tempo puoi acquistare un abbonamento per ottenere una versione illimitata dell'app. Un abbonamento permette di avere più vantaggi rispetto a un account gratuito:
 
-* 5 simultaneously connected devices
-* Unlimited traffic
-* No speed cap
-* All 50+ locations are available
-* Secure streaming
-* No port 25 block
+* 5 dispositivi collegati simultaneamente
+* Traffico illimitato
+* Nessun limite di velocità
+* Tutte le 50+ posizioni sono disponibili
+* Streaming sicuro
+* Nessun blocco della porta 25
 
-To use all the advantages, consider [purchasing a subscription](subscription.md).
+Per usufruire di tutti i vantaggi, considera [l'acquisto di un abbonamento](subscription.md).

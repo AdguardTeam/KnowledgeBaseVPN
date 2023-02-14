@@ -1,42 +1,42 @@
 ---
-title: 'How to collect and send logs'
+title: 'Come raccogliere e inviare i registri'
 sidebar position: 1
 ---
 
 
 
-If you encounter a problem when using AdGuard VPN for Windows, you can inform us about it. We would be grateful if you also send application logs our way, they help us resolving problems much quicker.
+Se si riscontra un problema durante l'utilizzo di AdGuard VPN per Windows, è possibile informarci al riguardo. Ti saremmo grati se inviassi anche i registri delle applicazioni, ci aiutano a risolvere i problemi molto più rapidamente.
 
 
-## Collecting and sending standard logs
+## Raccolta e invio di registri standard
 
-By default, AdGuard VPN for Windows uses the standard logging level, that is, the basic collection of data about running processes of the app. To send these logs, follow the next steps:
+Per impostazione predefinita, AdGuard VPN per Windows utilizza il livello di registrazione standard, ovvero la raccolta di base dei dati sui processi in esecuzione dell'app. Per inviare questi registri, attenersi alla seguente procedura:
 
-1. Open AdGuard VPN for Windows and, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
+1. Aprire AdGuard VPN per Windows e, se possibile, ripetere le azioni che hanno portato all'errore. Prendere nota dell'ora esatta in cui si è verificato questo errore.
 
-2. Click **Support** (in the menu above) → **Report a bug**.
+2. Cliccare su **Support** (nel menu in alto) → **Segnalare un bug**.
 
-3. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred. If you can't reproduce the problem, specify as accurately as possible when it last occurred.
+3. Nel modulo aperto, inserisci il tuo indirizzo e-mail per il feedback e descrivi l'errore riscontrato, inclusa l'ora in cui si è verificato l'errore. Se non riesci a riprodurre il problema, specifica nel modo più accurato possibile quando si è verificato l'ultima volta.
 
-4. There is a check mark next to the **Send detailed system info**, which means that when you send a report, you also send logs.
-> If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, go to **Support** → **Export logs and system info**.
+4. C'è un segno di spunta accanto al punto **Invia informazioni di sistema dettagliate**, che significa che quando invii un rapporto, invii anche i registri.
+> Se per qualche motivo è più conveniente per te inviarci i registri in un altro modo, puoi esportarli tu stesso. Per fare ciò, vai su **Assistenza** → **Esporta registri e informazioni di sistema**.
 
 
-## Collecting and sending extended logs
+## Raccolta e invio di registri estesi
 
-In most cases, the default logging level is sufficient to trace down possible bugs. But there are cases when more detailed technical information about the device and connections is required, and then our support team will ask you to enable the extended logging level. To send this type of logs, follow these steps:
+Nella maggior parte dei casi, il livello di registrazione predefinito è sufficiente per rintracciare eventuali bug. Ma ci sono casi in cui sono necessarie informazioni tecniche più dettagliate sul dispositivo e sulle connessioni, quindi il nostro team di supporto ti chiederà di abilitare il livello di registrazione esteso. Per inviare questi tipi di registri, attenersi alla seguente procedura:
 
-1. Open AdGuard VPN for Windows and select **Settings** (in the menu above) → **App settings** → **Advanced settings** → **Logging level**.
+1. Aprire AdGuard VPN per Windows e selezionare **Impostazioni** (nel menu in alto) → **Impostazioni app** → **Impostazioni avanzate** → **Livello di registrazione**.
 
-2. In the **Logging level** section, select **Record everything**.
+2. Nella sezione **Livello di registrazione**, selezionare **Registra tutto**.
 
-3. Repeat the actions that led to the error, and note the time when it occurred.
+3. Ripetere le azioni che hanno portato all'errore e annotare l'ora in cui si è verificato.
 
-4. Switch the logging level back to **Record by default**.
+4. Ripristina il livello di registrazione su **Registra per impostazione predefinita**.
 
-5. Then select **Support** (in the menu above) → **Report a bug**.
+5. Quindi selezionare **Support** (nel menu in alto) → **Segnalare un bug**.
 
-6. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred.
+6. Nel modulo aperto, inserire l'indirizzo e-mail per il feedback e descrivere l'errore riscontrato, compreso l'orario in cui si è verificato l'errore.
 
-7. Make sure that there is a check mark next to **Send detailed system info** and click **Send**.
-> If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, go to **Support** → **Export logs and system info**.
+7. Assicurarsi che ci sia un segno di spunta accanto a **Invia informazioni dettagliate sul sistema** e toccare **Invia**.
+> Se per qualche motivo è più conveniente per te inviarci i registri in un altro modo, puoi esportarli tu stesso. Per fare ciò, vai su **Assistenza** → **Esporta registri e informazioni di sistema**.

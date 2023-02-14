@@ -1,24 +1,24 @@
 ---
-title: 'AdGuard VPN beta test'
+title: 'AdGuard VPNのベータテスト'
 sidebar_position: 2
 ---
 
-There is an AdGuard VPN app for virtually every major platform out there, and we regularly release updates for all of them. This would not be possible without beta testing and, more importantly, beta testers. Want to become one? Here how you can do it.
+AdGuard VPN アプリは、基本的にすべての主要なプラットフォームに対応しており、定期的にすべてのプラットフォーム用のアップデートをリリースしております。 これは、ベータテストそのものと、特にベータテスターの皆様なしでは不可能です。 ベータテスターになりたいですか？ 以下では、その方法をご紹介します。
 
-### How to become a beta tester
+### ベータ版テスターになる方法
 
-To become an AdGuard VPN beta tester, you only need a few things: the desire, the device on which you will install the app, and [this link](https://adguard-vpn.com/en/beta.html), by following which you will be able to download the latest beta or nightly version of AdGuard VPN!
+AdGuard VPNのベータテスターになるために必要なものは、アプリをインストールできる端末と、[このリンク](https://adguard-vpn.com/ja/beta.html)です。このリンクを使って、AdGuard VPNの最新のベータ版またはNightly版をダウンロードすることができます。
 
-### How to report a bug
+### バグ・不具合を報告する方法
 
-Let’s imagine it happened — you spotted a bug. Or maybe you just want to share your suggestion with developers? Anyway, there are several ways to let us know:
+バグを発見したとします。 あるいは、開発者と提案を共有したいだけかもしれません。 いずれにして、開発者にお知らせする方法は複数あり、以下の通りです:
 
-* Go to [forum.adguard.com](https://forum.adguard.com) and post there a new thread (or find an existing one) in [the 'Beta Testing' category of the forum](https://forum.adguard.com/index.php?categories/48/). Make sure to read [forum rules](https://forum.adguard.com/index.php?threads/14859/) first;
+* [forum.adguard.com](https://forum.adguard.com) にアクセスし、[フォーラムの「Beta Testing」カテゴリ](https://forum.adguard.com/index.php?categories/48/)に新しいスレッドを投稿してください（または同じ問題に関する既存のスレッドを見つけてください）。 ※事前に[フォーラムルール](https://forum.adguard.com/index.php?threads/14859/)をお読みください。
 
-* Go to [GitHub](https://github.com/AdguardTeam/) and find a suitable repository. Create a new issue there and describe the bug/feature request in detail.
+* [AdGuard VPNのGitHub](https://github.com/AdguardTeam/)にアクセスし、適当なレポジトリを見つけます。 新issueを作成してバグや機能リクエストを詳細にご説明ください。
 
-The above two methods are the most preferred, but you can use others if necessary:
+上記の2つの方法が最も望ましいですが、必要に応じて以下の方法を用いることもできます:
 
-* Find us on various social media platforms, like [Facebook](https://www.facebook.com/AdguardEn/), [Reddit](https://www.reddit.com/r/Adguard/), etc. However, this is not the most efficient way to discuss technical matters.
+* [Facebook](https://www.facebook.com/AdguardEn/)、[Reddit](https://www.reddit.com/r/Adguard/)など、様々なSNSプラットフォームで私たちを見つけてご連絡ください。 ※技術的なことを話し合うのに一番効率的な方法とは言えません。
 
-* Email our support team from the Support tab in the app or write directly to [support@adguard.com](mailto:support@adguard.com).
+* アプリ内の「サポート」セクションからサポートチームにメッセージを送るか、[support@adguard.com](mailto:support@adguard.com)（日本語対応）までご連絡ください。

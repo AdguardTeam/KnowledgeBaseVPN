@@ -1,5 +1,5 @@
 ---
-title: 'Why AdGuard VPN is the better option'
+title: '為何 AdGuard VPN 是更好的選擇'
 sidebar_position: 2
 ---
 
@@ -15,7 +15,7 @@ Choosing a VPN service, people often face a trade-off between fast vs. safe. The
 ## 2. Exclusions
 The *Exclusions lists* allow you to select sites for which the VPN should be enabled and for which — disabled. There are two operation modes in AdGuard VPN: *General* and *Selective*. In *General mode*, VPN works everywhere except websites added to exclusions. And vice versa, in *Selective mode*, VPN works nowhere but on websites added to exclusions. You can also easily import/export exclusions lists. Read about this feature in *Features overview* for the product you are interested in.
 
-![An example of an exclusion list for Selective mode](https://cdn.adguard.com/public/Adguard/Blog/vpn_export_exclusions.png)
+![An example of an exclusion list for Selective mode](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn_export_exclusions.png)
 
 You can add websites to exclusions manually or choose them among the lists of popular services. The lists are divided into eight categories: Social networks, Messengers, Video and Music streaming services, Games, Shopping, Search engines, and Work communication tools.
 
@@ -68,6 +68,6 @@ But what if you want to feel safe while watch content specific to your region? O
 
 ## 12. Dark mode
 
-![Dark mode](https://cdn.adguard.com/public/Adguard/Blog/vpn/main_en_black.png)
+![Dark mode](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/main_en_black.png)
 
 This little feature deserves special mention. In fact, many users crave for dark mode, so we couldn’t ignore it and added a theme switch for all AdGuard VPN products. Choose the one you like more — light, dark or system default. Hope you’ll join the dark side.

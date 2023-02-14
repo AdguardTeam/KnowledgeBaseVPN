@@ -13,22 +13,22 @@ sidebar_position: 2
 VPNサービスを選択する際、高速性と安全性のどちらかを優先して選ばないといけないケースが多いです。 そこで、AdGuard VPNプロトコルは、速度とセキュリティの完璧な調和であり、遅いインターネット接続を我慢する必要も、プライバシーを犠牲にする必要もないのです。 なかでも、AdGuard VPNプトロコルは通常のトラフィックに偽装しているため、検知対策やブロック対策がしっかりしています。
 
 ## 2. VPN対象外リスト
-*VPN対象外リスト*を使って、VPNを有効にするサイトと無効にするサイトを指定することができます。 AdGuard VPNには、 「*一般*」 と 「*指定*」という2つの動作モードがあります。 *一般モード*では、「VPN対象外リスト」に追加されたウェブサイトに対してAdGuard VPNはオフになります。 逆に、*指定モード*では、「VPN対象外リスト」に追加されたウェブサイトに対してのみAdGuard VPNはオンになります。 You can also easily import/export exclusions lists. この機能については、 *機能解説記事* において、ご興味のある製品の説明でお読みください。
+*VPN対象外リスト*を使って、VPNを有効にするサイトと無効にするサイトを指定することができます。 AdGuard VPNには、 「*一般*」 と 「*指定*」という2つの動作モードがあります。 *一般モード*では、「VPN対象外リスト」に追加されたウェブサイトに対してAdGuard VPNはオフになります。 逆に、*指定モード*では、「VPN対象外リスト」に追加されたウェブサイトに対してのみAdGuard VPNはオンになります。 また、対象外リストのインポート/エクスポートも簡単に行えます。 この機能については、各製品の*機能概要*記事において、その方法をご確認いただけます。
 
-![指定モードの対象外リストの例](https://cdn.adguard.com/public/Adguard/Blog/vpn_export_exclusions.png)
+![指定モードの対象外リストの例](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn_export_exclusions.png)
 
 Webサイトを手動で対象外リストに追加したり、人気のあるサービスのリストから選択することもできます。 リストは8つのカテゴリーに分けられています（SNS、メッセンジャー、動画・音楽配信サービス、ゲーム、ショッピング、検索エンジン、ワークコミュニケーションツール）。
 
 > この機能は、iOSを除いて、すべてのプラットフォームで利用可能です。
 
 ## 3. DNSサーバーの選択
-もう、インターネットプロバイダが提供するDNSサーバーに頼らなくていいんです。 まず、お使いのISP（インターネットプロバイダー）は、あなたの閲覧履歴にアクセスできる可能性が高いのです。 Second, people often underestimate DNS, yet it can remove ads and trackers, protect your device from malware or, for instance, enable safe search and block adult content.
+もう、インターネットプロバイダが提供するDNSサーバーに頼らなくていいんです。 まず、お使いのISP（インターネットプロバイダー）は、あなたの閲覧履歴にアクセスできる可能性が高いのです。 また、DNS機能は軽視されがちですが、広告やトラッカー（個人情報追跡）を除去したり、マルウェアからデバイスを保護したり、セーフサーチを適用にしたり、アダルトコンテンツをブロックしたりすることができます。
 
 DNSサーバーは、AdGuard、Cisco、Cloudflare、Google、Quad9など、 [有名なDNSプロバイダー](https://kb.adguard.com/ja/general/dns-providers)から選ぶことができ、また、独自のDNSサーバーを使用するように設定することも可能です。
 
 ## 4. 一番速いロケーション
 
-AdGuard VPNを際立たせているもう一つの特徴は、pingに基づいて接続速度が一番速いロケーションを選択できることです。 In a nutshell, ping is the time it takes the data packet sent from your device to reach the server and return. ping数字が小さいほど、サーバーは近くにあり、速度が速いということです。 いろいろなところに接続できるように、ロケーションは随時拡大しています。
+AdGuard VPNを際立たせているもう一つの特徴は、pingに基づいて接続速度が一番速いロケーションを選択できることです。 簡単で言えば、pingは、あなたの端末から送信されたデータパケットがサーバーに到達して、端末に戻ってくるまでの時間です。 ping数字が小さいほど、サーバーは近くにあり、速度が速いということです。 いろいろなところに接続できるように、ロケーションは随時拡大しています。
 
 > ※すべてのAdGuard VPNサーバーロケーションにアクセスするには、AdGuard VPNサブスクリプションを購入する必要があります。
 
@@ -62,12 +62,12 @@ AdGuard VPNは、有料ユーザーには5つの同時接続を提供します�
 ## 11. 配信（ストリーミング）サービス対応
 ストリーミングサービス（動画・音楽配信サービス）がVPNを嫌う理由は明白です。統計によると、約20％のユーザーが、地域ブロッキングを回避して番組、テレビ番組、映画を見るためにVPNをインストールしています。 そのため、ストリーミング・プラットフォームは、VPNトラフィックを検出し、ブロックするためにあらゆる手段を講じる傾向があります。
 
-しかし、自分の地域に特化したコンテンツを安心して視聴したい場合はどうすればいいのでしょうか？ Or don't want stop watching exciting series even when you travel to another country? AdGuard VPNは、そのユニークなプロトコルのおかげで、配信サービスからVPN利用が見えないようにすることができます。
+しかし、自分の地域に特化したコンテンツを安心して視聴したい場合はどうすればいいのでしょうか？ また、海外旅行中・出張中で、コンテンツを見るのをやめたくない時は？ AdGuard VPNは、そのユニークなプロトコルのおかげで、配信サービスからVPN利用が見えないようにすることができます。
 
 > ※私たちは、著作権規制を回避するためにAdGuard VPNを使用することは推奨しません。
 
 ## 12. ダークモード
 
-![ダークモード](https://cdn.adguard.com/public/Adguard/Blog/vpn/main_en_black.png)
+![ダークモード](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/main_en_black.png)
 
-この小さな機能は特筆に価します。 多くのユーザーがダークモードを利用しているため、すべてのAdGuard VPN製品にテーマスイッチを追加しています。 Choose the one you like more — light, dark or system default. Hope you’ll join the dark side.
+この小さな機能は特筆に価します。 多くのユーザーがダークモードを利用しているため、すべてのAdGuard VPN製品にテーマスイッチを追加しています。 ライト、ダーク、システムのうち、好きなテーマをお選びいただけます。

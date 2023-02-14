@@ -1,83 +1,83 @@
 ---
-title: AdGuard VPN Overview
+title: AdGuard VPN の概要
 sidebar_position: 1
 slug: /
 ---
 
-## What a VPN is and why you need one
+## VPNとは何ですか？どのようなことに必要なのですか？
 
-A VPN allows you to create a secure connection to another network on the Internet.
+VPNを利用すると、インターネット上の別のネットワークに安全な接続を確立することができます。
 
-Initially, VPNs were created for one purpose — to securely connect business networks over the Internet, so that people could connect to the corporate network from home. This technology is used for many other things: for example, to browse the Internet anonymously or to protect your online activity from prying eyes while using public Wi-Fi.
+当初、VPNは、ビジネス・ネットワークをインターネット上で安全に接続し、自宅から企業ネットワークに接続できるようにする、という唯一の目的のために作られたものでした。 この技術は、例えば、匿名でインターネットを閲覧したり、公共のWi-Fiを利用する際にネット上の行動を監視から保護したりと、他にもさまざまなことに利用されています。
 
-A VPN connects a user's computer or mobile device to a server and allows one to browse the net using someone else's IP address. Thus, third-party observers cannot see the user's real IP address, which makes it nearly impossible to trace them.
+VPNは、ユーザーのパソコンやスマホをVPNサーバーに接続し、他人のIPアドレスを使ってネットを閲覧できるようにします。 したがって、第三者はユーザーの実際のIPアドレスを見ることができず、追跡はほぼ不可能になります。
 
-Speaking of VPN, the first thing they mention is traffic encryption and security deriving from it. But what does it mean? A VPN creates an encrypted tunnel between the user's device and the remote server. All your web traffic passes through this tunnel, so your data is protected along the way. For the external observer, your traffic exits the VPN server, so it looks like your device has the IP address of this server. This trick masks the user's identity and true location.
+VPNといえば、まずトラフィックの暗号化とそこから派生するセキュリティが挙げられます。 しかし、それはどういう意味なのでしょうか？ VPNは、ユーザーの端末とVPNサーバーの間に暗号化トンネルを作成します。 すべてのインターネットトラフィックはこのトンネルを通過することによって、データ・個人情報は保護されます。 外部の第三者にとっては、あなたのトラフィックはVPNサーバーから出るので、あなたの端末がこのVPNサーバーのIPアドレスを持っているように見えます。 これにより、ユーザーの身元や本当の居場所を隠すことができるのです。
 
-VPN can be used to:
+VPNは次の目的で使用できます:
 
-* hide your real whereabouts and stay anonymous
-* secure your data — even when connecting to a public Wi-Fi, you can browse the Web safely
-* protect yourself from spoofing (network traffic interception) and tracking on the part of your Internet service provider
+* あなたの本当の居場所を隠し、匿名性を保てるようにする
+* 公衆無線LAN（フリーWi-Fi）などに接続した場合でも、安全にWebを閲覧することができ、個人情報・データを保護
+* スプーフィング（ネットワークトラフィックの傍受）やインターネットプロバイダーによるトラッキング（追跡）から身を守ることができる
 
-Passwords, card details, and just plain personal information are at risk when a user surfs the Internet. But if you connect to the global network using a VPN, you can be sure that no one can intercept your data.
+パスワードやカード情報などの個人情報は、インターネットを利用する際に危険にさらされます。 しかし、VPNを使用してインターネットに接続すれば、誰にもデータ・個人情報を傍受されることはありません。
 
-## Why AdGuard VPN
+## AdGuard VPN を選ぶ理由
 
-### Trusted developer
-AdGuard has been present on the market of personal data protection and ad blocking and developing its line of software for more than 12 years. Over this time, our company has built an impeccable reputation, and the number of our customers has exceeded 30 million.
+### 世界中で信頼されている開発者
+AdGuardは、個人情報保護・広告ブロック業界に12年以上前から参入し、ソフトウェア製品を開発しています。 この間、当社はいい評判を得ており、ユーザー様の数は3,000万人を超えています。
 
-### Unique VPN protocol
-The main difference between AdGuard VPN and its competitors is that we use [our own developed protocol](/general/adguard-vpn-protocol.mdx). It disguises itself as normal traffic, so it is much more difficult to track and block it.
+### 独自開発のVPNプロトコル
+AdGuard VPNと競合他社との主な違いは、当社が[独自開発したVPNプロトコル](/general/adguard-vpn-protocol.mdx)を使用していることです。 通常のトラフィックに偽装しているため、検知やブロックがより困難になっています。
 
-### No logs policy
-No logs policy means that we don’t collect, store or transfer users’ personal data to third parties. The full text of AdGuard privacy policy can be found [here](https://adguard-vpn.com/en/privacy.html).
+### ログ一切なしポリシー
+ログ一切なしポリシーとは、ユーザーの個人情報の収集・保存・第三者との共有を一切しないことを意味します。 AdGuardのプライバシーポリシーの全文は、 [こちら](https://adguard-vpn.com/ja/privacy.html)でご確認いただけます。
 
-### Tracking protection
-Web traffic from any user may be of interest and is particularly valuable in terms of monetization of personal data. Both criminals and unscrupulous ISPs can access it. However, with a trustworthy VPN, you can be confident that neither your provider nor anyone else will see your internet activity.
+### トラッキング（個人情報追跡）を防止
+ユーザーのウェブトラフィックは第三者の関心を引く可能性があり、特に個人情報のマネタイズという点で価値があります。 犯罪者や悪徳インターネットプロバイダがトラフィックにアクセスできます。 しかし、信頼できるVPNを利用すれば、プロバイダーや他の第三者にもあなたのインターネット行動を見られることはありません。
 
-### Ultrafast VPN servers in 43 countries
+### 43か国での超高速VPNサーバー
 
-* Argentina
-* Australia
-* Austria
-* Belgium
-* Brazil
-* Bulgaria
-* Cambodia
-* Canada
-* China
-* Czech Republic
-* Denmark
-* Egypt
-* Finland
-* France
-* Germany
-* Greece
-* India
-* Ireland
-* Israel
-* Italy
-* Japan
-* Luxembourg
-* Mexico
-* Netherlands
-* Norway
-* Philippines
-* Poland
-* Romania
-* Russia
-* Serbia
-* Singapore
-* South Africa
-* South Korea
-* Spain
-* Sweden
-* Switzerland
-* Taiwan
-* Turkey
-* United Kingdom
-* UAE
-* USA
-* Ukraine
-* Vietnam
+* アルゼンチン
+* オーストラリア
+* オーストリア
+* ベルギー
+* ブラジル
+* ブルガリア
+* カンボジア
+* カナダ
+* 中国
+* チェコ共和国
+* デンマーク
+* エジプト
+* フィンランド
+* フランス
+* ドイツ
+* ギリシャ
+* インド
+* アイルランド
+* イスラエル
+* イタリア
+* 日本
+* ルクセンブルク
+* メキシコ
+* オランダ
+* ノルウェー
+* フィリピン
+* ポーランド
+* ルーマニア
+* ロシア
+* セルビア
+* シンガポール
+* 南アフリカ
+* 韓国
+* スペイン
+* スウェーデン
+* スイス
+* 台湾
+* トルコ
+* イギリス（英国）
+* UAE（アラブ首長国連邦）
+* アメリカ合衆国（米国）
+* ウクライナ
+* ベトナム

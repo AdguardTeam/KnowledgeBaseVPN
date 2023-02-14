@@ -1,18 +1,18 @@
 {
   "item.label.docs": {
-    "message": "Docs",
+    "message": "문서",
     "description": "Navbar item with label docs"
   },
   "item.label.blog": {
-    "message": "Blog",
+    "message": "블로그",
     "description": "Navbar item with label blog"
   },
   "item.label.official_website": {
-    "message": "Official Website",
+    "message": "공식 웹사이트",
     "description": "Navbar item with label official_website"
   },
   "item.label.github": {
-    "message": "깃허브",
+    "message": "GitHub",
     "description": "Navbar item with label github"
   }
 }

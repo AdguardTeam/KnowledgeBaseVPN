@@ -12,25 +12,25 @@ sidebar_position: 2
 **Espacio libre en disco**: 120 Mb
 
 
-## Como instalar AdGuard VPN para Mac?
+## Como instalar AdGuard VPN para Mac
 
-1. To install AdGuard VPN for Mac, just follow [this link](https://agrd.io/mac_vpn) or open a browser, type *adguard-vpn.com* in the address bar and on the opened page click *Download*.
+1. Para instalar AdGuard VPN para Mac, sólo tienes que seguir [este enlace](https://agrd.io/mac_vpn) o abrir un navegador, escribir *adguard-vpn.com* en la barra de direcciones y en la página abierta hacer clic en *Descargar*.
 
-![Descarga AdGuard VPN desde el sitio web oficial](https://cdn.adguard.com/public/Adguard/kb/vpn-install/mac-install-en.png)
+![Descarga AdGuard VPN desde el sitio web oficial](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-install-en.png)
 
 2. Espere hasta que finalice la descarga del archivo *AdGuardVPN.dmg* y ábralo en la carpeta "Descargas".
 
 3. Espere hasta que se abra la ventana del programa de instalación. Haga doble clic en el icono.
 
-![Ventana de instalación del programa](https://cdn.adguard.com/public/Adguard/kb/vpn-install/mac-install-ru-1.png)
+![Ventana de instalación del programa](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-install-ru-1.png)
 
 4. Cuando inicie AdGuard VPN por primera vez, el sistema operativo mostrará una advertencia en la pantalla que indica que esta aplicación se ha descargado del Internet. Haga clic en *Abrir*.
 
 5. Luego haga clic en *Continuar* y *Instalar*.
 
-![Haga clic en Continuar](https://cdn.adguard.com/public/Adguard/kb/vpn-install/mac-install-2-en.png)
+![Haga clic en Continuar](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-install-2-en.png)
 
-![haga clic en Instalar](https://cdn.adguard.com/public/Adguard/kb/vpn-install/mac-install-3-en.png)
+![haga clic en Instalar](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-install-3-en.png)
 
 6. Espera a que el instalador descargue los archivos necesarios.
 
@@ -47,7 +47,7 @@ Para desinstalar AdGuard VPN para Mac, siga dos pasos sencillos:
 
 2. Seleccione *AdGuard VPN* de la lista, haga clic derecho sobre él y luego haga clic en *Mover a la Papelera*.
 
-![Desinstalación estándar](https://cdn.adguard.com/public/Adguard/kb/vpn-install/mac-uninstall-1-en.png)
+![Desinstalación estándar](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-uninstall-1-en.png)
 
 
 ### Desinstalación avanzada
@@ -58,13 +58,13 @@ A veces, como resultado de una eliminación incorrecta, o en otros casos excepci
 
 2. Abra "Finder" o "Spotlight" e ingrese `Llavero` en la búsqueda.
 
-![Desinstalación avanzada. Introducir llavero](https://cdn.adguard.com/public/Adguard/kb/vpn-install/mac-key-chain-en.png)
+![Desinstalación avanzada. Introducir llavero](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-key-chain-en.png)
 
 3. Haga clic en el icono del programa encontrado e ingrese `com.adguard.mac.vpn` en la búsqueda. Si existe tal registro en los resultados de búsqueda, elimínelo.
 
 4. Vuelva a "Finder" o "Spotlight" e ingrese `Terminal`.
 
-![Desinstalación avanzada. Ingrese terminal](https://cdn.adguard.com/public/Adguard/kb/vpn-install/mac-terminal-en.png)
+![Desinstalación avanzada. Ingrese terminal](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-terminal-en.png)
 
 5. Abra el programa e ingrese el comando — `defaults delete com.adguard.mac.vpn`.
 

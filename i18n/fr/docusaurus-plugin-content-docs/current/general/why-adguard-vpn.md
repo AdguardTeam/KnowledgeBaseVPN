@@ -15,20 +15,20 @@ En choisissant un service VPN, les gens sont souvent confrontés au choix d'un c
 ## 2. Exclusions
 Les *listes d'exclusions* vous permettent de sélectionner les sites pour lesquels le VPN doit être activé et pour lesquels — désactivé. Il y a deux modes d'opération de AdGuard VPN : *Général* et *Sélectif*. En mode *Général*, le VPN fonctionne partout sauf les sites ajoutés aux exclusions. Et inversement, en *Mode sélectif*, le VPN ne fonctionne que sur les sites ajoutés aux exclusions. Vous pouvez également facilement importer/exporter des listes d'exclusions. Pour en savoir plus sur cette fonctionnalité, consultez le site *Aperçu des fonctionnalités* pour le produit qui vous intéresse.
 
-![Un exemple de liste d'exclusion pour le Mode sélectif](https://cdn.adguard.com/public/Adguard/Blog/vpn_export_exclusions.png)
+![Un exemple de liste d'exclusion pour le Mode sélectif](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn_export_exclusions.png)
 
 Vous pouvez ajouter des sites web aux exclusions manuellement ou les choisir parmi les listes de services populaires. Les listes sont divisées en huit catégories : Réseaux sociaux, messageries, services de streaming vidéo et musical, jeux, achats, moteurs de recherche et outils de télétravail.
 
 > Cette fonctionnalité est disponible sur toutes les plateformes sauf iOS.
 
 ## 3. Choisir un serveur DNS
-Ne vous fiez plus au serveur DNS fourni par défaut par votre FAI ! Tout d'abord, ce n'est pas sécuritaire : votre FAI a très probablement accès à votre historique de navigation. Second, people often underestimate DNS, yet it can remove ads and trackers, protect your device from malware or, for instance, enable safe search and block adult content.
+Ne vous fiez plus au serveur DNS fourni par défaut par votre FAI ! Tout d'abord, ce n'est pas sécuritaire : votre FAI a très probablement accès à votre historique de navigation. Deuxièmement, les gens sous-estiment souvent le DNS, mais il peut supprimer les publicités et les traqueurs, protéger votre appareil contre les logiciels malveillants ou, par exemple, activer la recherche sécurisée et bloquer le contenu réservé aux adultes.
 
 Vous pouvez choisir des serveurs DNS parmi les [fournisseurs DNS connus](https://kb.adguard.com/en/general/dns-providers) tels que AdGuard, Cisco, Cloudflare, Google ou Quad9, ou même configurer l'utilisation de votre propre serveur DNS.
 
 ## 4. Localisations les plus rapides
 
-Une autre caractéristique qui distingue AdGuard VPN de la foule est que vous pouvez sélectionner un emplacement en fonction de son ping. In a nutshell, ping is the time it takes the data packet sent from your device to reach the server and return. En cas de doute, utilisez la règle empirique : plus le ping est faible, plus le serveur est proche, plus sa vitesse est élevée. Nous augmentons constamment le nombre d'emplacements pour que vous puissiez choisir parmi une variété.
+Une autre caractéristique qui distingue AdGuard VPN de la foule est que vous pouvez sélectionner un emplacement en fonction de son ping. En un mot, le ping est le temps qu'il faut au paquet de données envoyé depuis votre dispositif pour atteindre le serveur et revenir. En cas de doute, utilisez la règle empirique : plus le ping est faible, plus le serveur est proche, plus sa vitesse est élevée. Nous augmentons constamment le nombre d'emplacements pour que vous puissiez choisir parmi une variété.
 
 > Veuillez noter que pour accéder à tous les emplacements de serveurs VPN, vous devez acheter un abonnement AdGuard VPN.
 
@@ -62,12 +62,12 @@ AdGuard VPN offre cinq connexions simultanées à ses utilisateurs payants. Nous
 ## 11. Streaming sécurisé
 Les services de streaming n'aiment pas les VPN pour des raisons évidentes : selon les statistiques, environ 20 % des utilisateurs installent un VPN principalement pour regarder des émissions, des séries télévisées et des films en contournant le blocage géographique. C'est pourquoi les plateformes de streaming ont tendance à faire tout ce qu'elles peuvent pour repérer le trafic VPN et le bloquer.
 
-Mais que faire si vous voulez vous sentir en sécurité tout en regardant des contenus spécifiques à votre région ? Or don't want stop watching exciting series even when you travel to another country? La réponse est simple : AdGuard VPN, qui, grâce à son protocole unique, peut rester invisible pour les services.
+Mais que faire si vous voulez vous sentir en sécurité tout en regardant des contenus spécifiques à votre région ? Ou bien vous ne souhaitez pas arrêter le visionnage des séries passionnantes même lorsque vous voyagez dans un autre pays ? La réponse est simple : AdGuard VPN, qui, grâce à son protocole unique, peut rester invisible pour les services.
 
 > Nous n'approuvons pas l'utilisation d'AdGuard VPN pour contourner les réglementations sur les droits d'auteur.
 
 ## 12. Thème sombre
 
-![Thème sombre](https://cdn.adguard.com/public/Adguard/Blog/vpn/main_en_black.png)
+![Thème sombre](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/main_en_black.png)
 
-Cette petite fonctionnalité mérite une mention spéciale. En fait, beaucoup d'utilisateurs ont envie d'avoir un thème sombre, donc nous ne pouvions pas l'ignorer et avons ajouté un interrupteur de thème pour tous les produits VPN AdGuard. Choose the one you like more — light, dark or system default. En espérant que vous rejoignez le côté sombre.
+Cette petite fonctionnalité mérite une mention spéciale. En fait, beaucoup d'utilisateurs ont envie d'avoir un thème sombre, donc nous ne pouvions pas l'ignorer et avons ajouté un interrupteur de thème pour tous les produits VPN AdGuard. Choisissez celui qui vous plaît le plus - clair, sombre ou système. En espérant que vous rejoignez le côté sombre.

@@ -25,7 +25,7 @@ Bir ağa bağlandığınızda, bilgisayarınıza veya mobil cihazınıza benzers
 
 VPN, cihazınızla VPN sunucusu arasında bir tünel oluşturur. Verileriniz bu tünelden geçer, şifrelenir ve ardından açık internete güvenli bir biçimde girer. Bu nedenle, web sunucusuna, cihazınızın artık gerçek IP adresiniz değil, tünelin uç noktasının IP adresi, yani VPN sunucusu gibi görünür. Böylece VPN tünelinden geçtikten sonra ulaştığınız site, seçtiğiniz VPN sunucusunun coğrafi konumunu gerçek konumunuz olarak kabul eder. Ve şifrelenmiş veriler reklamcıların, hackerların ve güvenlik servislerinin eline geçmez.
 
-![VPN yapısı](https://cdn.adguard.com/public/Adguard/Website/Images/seo/en/how_vpn_3.jpg)
+![VPN yapısı](https://cdn.adguardvpn.com/public/Adguard/Website/Images/seo/en/how_vpn_3.jpg)
 
 ## VPN protokol türleri
 
@@ -39,11 +39,11 @@ VPN güvenlik protokolleri, verileri bir VPN tünelinde şifreleyen ve açık bi
 
 Bu VPN protokollerine ek olarak başkaları da vardır (örneğin, TLS, SSTP, IKEv2), ancak bunlar popüler değildir veya modern veri şifreleme standartlarını karşılamamaktadır.
 
-![VPN protokolü nasıl çalışır](https://cdn.adguard.com/public/Adguard/Blog/vpn/protocol/4.svg)
+![VPN protokolü nasıl çalışır](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/4.svg)
 
 AdGuard VPN'in de kendi [*protokolü*](adguard-vpn-protocol.mdx). Avantajlarından biri, AdGuard VPN protokolü kullanılarak iletilen trafiğin normal trafikten ayırt edilmesinin zor olmasıdır. VPN tüneli normal HTTPS trafiğine benziyor, bu yüzden onu tespit etmek ve engellemek son derece zor. Ayrıca, yüksek bağlantı hızı sağlayan modern HTTP/2 protokolünün mekanizmalarına dayanmaktadır.
 
-![Gizli VPN nasıl çalışır](https://cdn.adguard.com/public/Adguard/Blog/vpn/protocol/5.svg)
+![Gizli VPN nasıl çalışır](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/5.svg)
 
 ## VPN dezavantajları
 

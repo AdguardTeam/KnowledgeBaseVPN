@@ -25,7 +25,7 @@ Cuando se conecta a una red, a su computadora o dispositivo móvil se le asigna 
 
 Una VPN crea un túnel entre su dispositivo y el servidor VPN. Tus datos pasan por este túnel, se encriptan y luego entran en la Internet abierta de forma segura. Por lo tanto, al servidor web le parecerá que su dispositivo ya no tiene su dirección IP real, sino la dirección IP del punto final del túnel, es decir, el servidor VPN. Así, el sitio al que llegue después de pasar por el túnel VPN considerará la geolocalización del servidor VPN que haya seleccionado como su ubicación real. Y los datos encriptados no caerán en manos de anunciantes, hackers y servicios de seguridad.
 
-![Estructura de VPN](https://cdn.adguard.com/public/Adguard/Website/Images/seo/en/how_vpn_3.jpg)
+![Estructura de VPN](https://cdn.adguardvpn.com/public/Adguard/Website/Images/seo/en/how_vpn_3.jpg)
 
 ## Tipos de protocolos VPN
 
@@ -39,11 +39,11 @@ Los protocolos de seguridad de las VPN son herramientas que cifran los datos en 
 
 Además de estos protocolos VPN, existen otros (por ejemplo, TLS, SSTP, IKEv2), pero no son populares o no cumplen con los estándares modernos de cifrado de datos.
 
-![Cómo funciona un protocolo VPN](https://cdn.adguard.com/public/Adguard/Blog/vpn/protocol/4.svg)
+![Cómo funciona un protocolo VPN](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/4.svg)
 
 AdGuard VPN también tiene su propio protocolo [**](adguard-vpn-protocol.mdx). Una de sus ventajas es que el tráfico transmitido mediante el protocolo AdGuard VPN es difícil de distinguir del tráfico normal. El túnel VPN parece tráfico HTTPS normal, por lo que es extremadamente difícil detectarlo y bloquearlo. Además, se basa en los mecanismos del moderno protocolo HTTP/2, que garantiza una alta velocidad de conexión.
 
-![Cómo funciona la VPN oculta](https://cdn.adguard.com/public/Adguard/Blog/vpn/protocol/5.svg)
+![Cómo funciona la VPN oculta](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/5.svg)
 
 ## Inconvenientes de VPN
 
