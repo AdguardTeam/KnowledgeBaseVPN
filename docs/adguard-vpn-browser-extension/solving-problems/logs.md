@@ -16,7 +16,7 @@ There are several ways for collecting AdGuard VPN Browser extension logs, but wh
 
 1.  Open AdGuard VPN Browser extension, if possible, repeat the actions that led to the error. Note the exact time when this error occurred. 
 2.  Right-click the AdGuard VPN Browser extension icon. 
-3.  In the opened menu click *Export Logs*.
+3.  In the opened menu click *Export logs*.
 4.  As a result, the logs file will be saved to your device in `txt` format.
 
 Now that you have collected the logs, you need to hand them over to our development team. To do this: 
