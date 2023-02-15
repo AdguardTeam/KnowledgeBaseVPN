@@ -11,7 +11,7 @@ By default, AdGuard VPN for iOS uses the standard logging level, that is, the ba
 
 1. Open AdGuard VPN for iOS and, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
 
-2. Select *Settings* in the lower-right corner of the screen, then select *Support* and click *Leave feedback* in it.
+2. Select *Settings* in the lower right corner of the screen, then select *Support* and click *Leave feedback* in it.
 
 3. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred. If you can't reproduce the problem, specify as accurately as possible when it last occurred.
 
@@ -23,7 +23,7 @@ By default, AdGuard VPN for iOS uses the standard logging level, that is, the ba
 
 In most cases, the default logging level is sufficient to trace down possible bugs. But there are cases when more detailed technical information about the device and connections is required, and then our support team will ask you to enable the extended logging level. To send this type of logs, follow these steps:
 
-1. Open AdGuard VPN for iOS and select *Settings* in the lower-right corner of the screen.
+1. Open AdGuard VPN for iOS and select *Settings* in the lower right corner of the screen.
 
 2. Select *App settings* and *Advanced settings* in it.
 

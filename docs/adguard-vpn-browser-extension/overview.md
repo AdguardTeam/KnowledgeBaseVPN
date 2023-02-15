@@ -3,13 +3,13 @@ title: Features overview
 sidebar_position: 1
 ---
 
-AdGuard VPN Browser extension is available for Chrome, Firefox, and Edge. The UI and functionality doesn't differ between browsers so the overview below will be relevant for AdGuard VPN extensions for all browsers.
+AdGuard VPN Browser extension is available for Chrome, Firefox, Opera, and Edge. The UI and functionality doesn't differ between browsers so the overview below will be relevant for AdGuard VPN extensions for all browsers.
 
 > Note that you can only use AdGuard VPN Browser extension when logged in. Sign in with your AdGuard account or via Google, Facebook, or Apple. In the latter case make sure that your account is bound to the same email address as your AdGuard account. If you have an [AdGuard VPN subscription](/general/subscription.md), it will be activated automatically in AdGuard VPN Browser extension. Don’t have an AdGuard account yet? [Create it here](https://auth.adguard.com/registration.html).
 
 To manage your AdGuard VPN Browser extension:
 
-* Either click its icon on the browser's panel, click three stripes, and select *Settings*,
+* Either click its icon on the browser's panel, click the hamburger menu icon, and select *Settings*,
 * Or go to the *Manage extensions* page in your browser, click *Details* below *AdGuard VPN* and manage its settings from there.
 
 Once done, you'll see several tabs on the left:
