@@ -141,11 +141,11 @@ module.exports = {
           items: [
             {
               label: 'support',
-              href: VPN_WEBSITE_URL + '/support/support.html',
+              href: VPN_WEBSITE_URL + '/support.html',
             },
             {
               label: 'how_to_install',
-              href: 'https://kb.adguard.com/vpn/installation',
+              href: '/general/how-to-install/',
             },
             {
               label: 'faq',
