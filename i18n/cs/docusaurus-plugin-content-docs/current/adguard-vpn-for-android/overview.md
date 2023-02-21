@@ -73,7 +73,7 @@ Posuvník přepnutý doprava umožňuje automatické spuštění AdGuard VPN po 
 
 ### DNS servery
 
-Účelem [decentralizovaného systému doménových názvů](https://kb.adguard.com/en/general/dns-filtering#what-is-dns) (DNS) je převádět názvy webových stránek na něco, čemu prohlížeče rozumí, tj. na IP adresy. Tuto úlohu vykonávají DNS servery. AdGuard VPN pro Android nabízí výběr z několika DNS serverů, z nichž každý má specifické vlastnosti. Například [AdGuard DNS](https://kb.adguard.com/en/dns/overview) odstraňuje reklamy a chrání vaše zařízení před sledováním, zatímco AdGuard DNS Family Protection kombinuje funkce AdGuard DNS s funkcí bezpečného vyhledávání a blokování obsahu pro dospělé. K dispozici je také možnost přidat vlastní DNS server.
+Účelem [decentralizovaného systému doménových názvů](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns) (DNS) je převádět názvy webových stránek na něco, čemu prohlížeče rozumí, tj. na IP adresy. Tuto úlohu vykonávají DNS servery. AdGuard VPN pro Android nabízí výběr z několika DNS serverů, z nichž každý má specifické vlastnosti. Například [AdGuard DNS](https://adguard-dns.io/kb/) odstraňuje reklamy a chrání vaše zařízení před sledováním, zatímco AdGuard DNS Family Protection kombinuje funkce AdGuard DNS s funkcí bezpečného vyhledávání a blokování obsahu pro dospělé. K dispozici je také možnost přidat vlastní DNS server.
 
 ### Automatická ochrana
 
@@ -106,4 +106,3 @@ Poslední částí v *Pokročilých nastaveních* jsou *Nízkoúrovňová nastav
 ### Podpora
 
 V sekci *Podpora* můžete zanechat zpětnou vazbu, nahlásit chybu nebo exportovat protokoly a systémové informace pro další odeslání na linku pomoci.
- 

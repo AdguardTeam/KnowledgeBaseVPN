@@ -24,7 +24,7 @@ Sie können Websites manuell zu den Ausschlüssen hinzufügen oder sie aus der L
 ## 3. Auswahl eines DNS-Servers
 Verlassen Sie sich nicht mehr auf den DNS-Server, den Ihr ISP standardmäßig bereitstellt. Erstens ist es nicht sicher: Ihr Internetanbieter hat höchstwahrscheinlich Zugriff auf Ihren Browserverlauf. Zweitens wird DNS oft unterschätzt, aber es kann Anzeigen und Tracker entfernen, Ihr Gerät vor Malware schützen oder beispielsweise eine sichere Suche aktivieren und nicht jugendfreie Inhalte blockieren.
 
-Sie können DNS-Server von [bekannten DNS-Anbietern](https://kb.adguard.com/en/general/dns-providers) wie AdGuard, Cisco, Cloudflare, Google oder Quad9 auswählen oder sogar Ihren eigenen DNS-Server konfigurieren.
+Sie können DNS-Server von [bekannten DNS-Anbietern](https://adguard-dns.io/kb/general/dns-providers/) wie AdGuard, Cisco, Cloudflare, Google oder Quad9 auswählen oder sogar Ihren eigenen DNS-Server konfigurieren.
 
 ## 4. Schnellste Standorte
 
@@ -41,7 +41,7 @@ Bei mobilen Geräten hingegen ist das nicht so einfach. In meisten Fällen werde
 Es ist uns jedoch gelungen, eine Lösung zu finden, um AdGuard VPN und AdGuard Werbeblocker zu vereinen. Wenn Sie beide AdGuard-Apps gleichzeitig auf einem Gerät installiert haben, werden sie automatisch kompatibel, ohne dass Sie etwas dafür tun müssen. Dies ist eine einzigartige Gelegenheit, die Vorteile von zwei Leistungsmerkmalen zu nutzen, zwischen denen Sie normalerweise wählen müssten.
 
 ## 6. QUIC-Unterstützung
-[QUIC](https://adguard.com/en/blog/dns-over-quic.html) ist ein hochmodernes Protokoll, das viele Vorteile bietet. Der Hauptvorteil besteht darin, dass die Verbindungsqualität auch unter ungünstigen Bedingungen verbessert werden kann, z. B. bei mobilen Geräten oder bei der Verbindung zu öffentlichen WLAN-Netzen. Obwohl das neue Protokoll keine Auswirkungen auf die Geschwindigkeit hat, wenn die Verbindung gut und stabil ist, wird es die Situation für Nutzer:innen mit  dem langsamen Internet definitiv verbessern.
+[QUIC](https://adguard.com/blog/dns-over-quic.html) ist ein hochmodernes Protokoll, das viele Vorteile bietet. Der Hauptvorteil besteht darin, dass die Verbindungsqualität auch unter ungünstigen Bedingungen verbessert werden kann, z. B. bei mobilen Geräten oder bei der Verbindung zu öffentlichen WLAN-Netzen. Obwohl das neue Protokoll keine Auswirkungen auf die Geschwindigkeit hat, wenn die Verbindung gut und stabil ist, wird es die Situation für Nutzer:innen mit  dem langsamen Internet definitiv verbessern.
 
 *Jetzt kommen wir zu den Punkten, die in keinem anständigen VPN fehlen dürfen.*
 

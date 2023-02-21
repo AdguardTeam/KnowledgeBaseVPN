@@ -28,7 +28,7 @@ Ma, come è già stato detto, possono esserci differenze a seconda di un partico
 
 Su Android 8 e versioni successive c'è anche la possibilità di acquisire screenshot posizionando la mano verticalmente lungo il bordo sinistro o destro del telefono e scorrendo da quel bordo con la mano che tocca lo schermo.
 
-Se questo metodo non funziona, verificare *Impostazioni* → *Funzioni avanzate* per attivare *Passaggio del palmo della mano per catturare*.
+If this method doesn’t work, check *Settings* → *Advanced features* → *Motions and gestures* → enable *Palm swipe to capture*.
 
 Inoltre, puoi sempre utilizzare qualsiasi applicazione speciale per acquisire schermate sui tuoi dispositivi, ad esempio: *Screenshot Easy*, *Screenshot Ultimate*, *Screenshot Snap*, ecc.
 
@@ -72,7 +72,7 @@ Esiste anche un programma dedicato per fare screenshot chiamato *Snipping Tool* 
 
 Inoltre, puoi anche provare a utilizzare diverse app per acquisire schermate sul tuo computer, come **PicPick**, **Nimbus Screenshot**, **Screenshot Captor**, **Snipaste**, **Monosnap**, ecc.
 
-### MacOS
+### macOS
 
 Per effettuare uno screenshot su Mac, utilizzare la seguente combinazione di tasti:
 

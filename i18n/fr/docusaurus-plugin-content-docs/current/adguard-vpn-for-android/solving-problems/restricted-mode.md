@@ -14,7 +14,7 @@ Vous avez deux façons de résoudre le problème :
 1. Activez le **mode développeur** et activez **le débogage USB** :
 - Ouvrez l'application **Paramètres** sur votre téléphone ;
 - Accédez à la section **Système** (dernier élément du menu des paramètres). Dans cette section, trouvez le sous-élément **À propos du téléphone** ;
-- Cliquez 7 fois sur la ligne **Numéro de version**. Ensuite, vous recevrez une notification indiquant **Vous êtes maintenant un développeur** (Si nécessaire, saisissez un code de déverrouillage pour l'appareil) ;
+- Click the **Build number** line 7 times. Ensuite, vous recevrez une notification indiquant **Vous êtes maintenant un développeur** (Si nécessaire, saisissez un code de déverrouillage pour l'appareil) ;
 - Ouvrez **Paramètres système** → **Options du développeur** → Faites défiler vers le bas et activez **Débogage USB** → Confirmez que le débogage est activé dans la fenêtre **Autoriser le débogage USB** après avoir lu attentivement l'avertissement.
 
 > Si vous avez des difficultés ou des questions supplémentaires, vous trouverez des instructions complètes [ici](https://developer.android.com/studio/debug/dev-options).

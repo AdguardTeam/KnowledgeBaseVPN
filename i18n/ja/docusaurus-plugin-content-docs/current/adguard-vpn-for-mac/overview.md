@@ -7,7 +7,7 @@ AdGuard VPN for Macは、デスクトップVPNサービスです。 AdGuard VPN�
 
 **AdGuard VPN for Macを使用するには、AdGuardアカウントにログインする必要があります。**. AdGuardアカウントでログインするか、外部アカウント（Apple、Google、Facebook経由）でログインすることができます （外部アカウントの場合、AdGuardアカウントと同じメールアドレスのアカウントを使用してください）。 AdGuardアカウントに適切なサブスクリプションがある場合、AdGuard VPN for Macアプリでログインの際にそのサブスクリプションが自動的に有効化されます。 まだAdGuardのアカウントをお持ちでない方は、 [こちら](https://auth.adguard.com/registration.html)からご登録いただけます（アカウント登録に必要なのははメールアドレスのみです）。
 
-> AdGuard VPN for Mac は、現在、macOS Sierra（10.12）以降のmacOSバージョンに対応しています。
+> AdGuard VPN for Mac is currently supported on macOS versions starting from macOS Catalina (10.15).
 
 ## ホーム画面
 
@@ -33,10 +33,10 @@ Webサイトを手動で対象外リストに追加するだけでなく、人�
 
 さらに、既製の対象外リストは、（AdGuard VPNをインストールした）他の端末に以降することができます。 対象外項目をエクスポートする方法は以下の4です:
 
-1. 除外リストのエクスポート元となる端末で AdGuard VPN を開きます。 該当するセクションで「*対象外リストをエクスポート*」ボタンをタップします。 `exclusions.zip` というアーカイブがダウンロードされます。
+1. 除外リストのエクスポート元となる端末で AdGuard VPN を開きます。 Find the appropriate section and click the *Export* button. `exclusions.zip` というアーカイブがダウンロードされます。
 2. アーカイブ内には、 `.txt` ファイルが2つあります（一般リスト用と指定リスト用のファイルです）。 アーカイブのファイルに、さらに除外項目を追加したり、既存のものを削除したり、ファイル名を変更したり（これについては下記もご確認ください）、そのままにしておいたり、自由にカスタマイズできます。
 3. 異なる端末間で除外リストを移行する場合は、インポート先端末に `.zip` ファイルを送信することを忘れずに。 （例えば、Macからの除外リストをiPhoneにインポートする場合、事前に `.zip` ファイルをiPhoneに送信しておいてください。）
-4. 除外リストのアーカイブをインポートしたい端末でAdGuard VPNを開きます。 該当するセクション（VPN対象外リスト画面）で「対象外リストをインポート」ボタンをタップして、アーカイブファイルを選びます。 完了です。
+4. 除外リストのアーカイブをインポートしたい端末でAdGuard VPNを開きます。 Find the appropriate section, click the *Import* button and select the archive. 完了です。
 
 > 他のデバイスからのアーカイブファイルも同様に、AdGuard VPN for Macにインポートすることができます。
 
@@ -44,7 +44,7 @@ Webサイトを手動で対象外リストに追加するだけでなく、人�
 
 ![サポート画面](https://cdn.adguardvpn.com/content/kb/vpn/mac/support_en.png)
 
-3つ目のタブは、 *サポート*画面です。 お問い合わせしたり、[FAQ](https://adguard-vpn.com/ja/welcome.html#faq) または [ナレッジベース](/intro.md)のセクションで質問の答えを見つけたり、バグ・不具合を報告したり、 [AdGuard についてあらゆるプラットフォームで話し合ったり](https://adguard.com/ja/discuss.html)することができます。 そしてぜひ当社製品に関する[フィードバック](https://surveys.adguard.com/en/vpn_mac/form.html)もお待ちしております。
+3つ目のタブは、 *サポート*画面です。 Find answers to any questions in the [FAQ](https://adguard-vpn.com/welcome.html#faq) or in the [Knowledge base](/intro.md) sections, report a bug if you encounter one, or [discuss AdGuard on any of the platforms](https://adguard.com/discuss.html). And feel free to [leave feedback about our product](https://surveys.adguard.com/vpn_mac/form.html), we’d appreciate it.
 
 ## 設定
 
@@ -56,7 +56,7 @@ Webサイトを手動で対象外リストに追加するだけでなく、人�
 
 ![本アプリの設定](https://cdn.adguardvpn.com/content/kb/vpn/mac/general-settings_en.png)
 
-最初の4つの基本機能は、アプリをより便利でユーザーフレンドリーにします（「*キルスイッチ*」「*自動更新*」「*Mac起動時にAdGuard VPNを起動する*」「*「AdGuard VPN起動時に自動接続する*」） さらに、カラーテーマは「ライト」「ダーク」「システムに合わせる」から選ぶことができ、後者はMacのカラーテーマとAdGuard VPNのテーマを一致します。
+The first four basic features make the application more convenient and user-friendly, i.e. *Kill Switch*, *Auto-update*, *Launch AdGuard VPN at login*, and *Auto-connect on app launch*. さらに、カラーテーマは「ライト」「ダーク」「システムに合わせる」から選ぶことができ、後者はMacのカラーテーマとAdGuard VPNのテーマを一致します。
 
 もう一つの見逃せないオプションは、「AdGuard VPNの改善に協力する」であり、匿名化されたクラッシュレポート、テクニカルデータ、インタラクションデータを収集し送信することを許可することで、AdGuard VPNの開発の手助けをできる機能です。 最後に、右側の「ログをエクスポートする」ボタンで、ログをMacにエクスポートすることができます。 サポートへのメッセージにログを添付したい場合などに便利です。
 

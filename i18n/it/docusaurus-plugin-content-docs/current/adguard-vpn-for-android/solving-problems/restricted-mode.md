@@ -14,7 +14,7 @@ Due modi esistano per risolvere il problema:
 1. Attivare la **modalità sviluppatore** e abilitare il **debug USB**:
 - Aprire l'applicazione **Impostazioni** sul telefono;
 - Accedere alla sezione **Sistema** (ultimo punto del menu impostazioni). In questa sezione si trova la sottovoce **Informazioni sul telefono**;
-- Fare clic sulla riga **Numero di build** 7 volte. Dopodiché, si riceverà una notifica all'indirizzo **Ora sei uno sviluppatore** (se necessario, inserire un codice di sblocco per il dispositivo);
+- Clicca la voce **Numero build** per 7 volte. Dopodiché, si riceverà una notifica all'indirizzo **Ora sei uno sviluppatore** (se necessario, inserire un codice di sblocco per il dispositivo);
 - Aprire **Impostazioni di sistema** → **Opzioni sviluppatore** → Scorrere verso il basso e abilitare **il debug USB** → Confermare l'abilitazione del debug nella finestra **Consenti il debug USB** dopo aver letto attentamente l'avviso.
 
 > In caso di difficoltà o di ulteriori domande, le istruzioni complete sono disponibili all'indirizzo [qui](https://developer.android.com/studio/debug/dev-options).

@@ -5,7 +5,7 @@ sidebar_position: 2
 
 ## 動作環境
 
-**OSバージョン**: macOS 10.12 (64 bit) 以上
+**Operating system version**: macOS 10.15 (64-bit) or higher
 
 **RAM**: 2 GB以上
 
@@ -45,7 +45,7 @@ AdGuard VPN for Macをアンインストールするには、2つの簡単なス
 
 1. 「Finder」を開き、「アプリケーション」セクションに移動します。
 
-2. 「*AdGuard VPN*」をリストから選択し、右クリックして、「*ゴミ箱に入れる*」をクリックします。
+2. Select *AdGuard VPN* from the list, right-click it and then click *Move to Trash*.
 
 ![通常のアンインストール](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-uninstall-1-en.png)
 

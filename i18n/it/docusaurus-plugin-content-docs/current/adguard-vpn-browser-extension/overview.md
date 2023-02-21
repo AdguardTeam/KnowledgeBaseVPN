@@ -3,14 +3,14 @@ title: Panoramica delle caratteristiche
 sidebar_position: 1
 ---
 
-AdGuard VPN Browser extension è disponibile su Chrome, Firefox ed Edge. L'interfaccia utente e la funzionalità non differiscono tra browser, quindi la seguente panoramica sarà rilevante per tutti i browser.
+AdGuard VPN Browser extension is available for Chrome, Firefox, Opera, and Edge. L'interfaccia utente e la funzionalità non differiscono tra browser, quindi la seguente panoramica sarà rilevante per tutti i browser.
 
 > Tieni presente che puoi utilizzare l'estensione di browser AdGuard VPN solo dopo aver effettuato l'accesso. Accedi con il tuo account AdGuard o tramite Google, Facebook o Apple. In quest'ultimo caso assicurati che il tuo account sia associato allo stesso indirizzo email del tuo account AdGuard. Se disponi di un [abbonamento AdGuard VPN](/general/subscription.md), verrà attivato automaticamente nell'estensione di browser AdGuard VPN. Non hai ancora un account AdGuard? [Crealo qui](https://auth.adguard.com/registration.html).
 
-Per gestire anche l'estensione del browser VPN AdGuard
+Per gestire l'estensione del browser AdGuard VPN:
 
-* Fare clic sulla sua icona nel pannello del browser, quindi fare clic su tre strisce e selezionare *Impostazioni*, o
-* Accedere alla pagina *Gestione estensioni* e inserire le impostazioni di AdGuard VPN da lì.
+* Either click its icon on the browser's panel, click the hamburger menu icon, and select *Settings*,
+* Oppure vai alla pagina *Gestisci estensioni* nel tuo browser, fai clic su *Dettagli* sotto *AdGuard VPN* e gestisci le sue impostazioni da lì.
 
 Una volta fatto, vedrai diverse schede sulla sinistra:
 
@@ -20,15 +20,15 @@ Alcune impostazioni importanti sono raccolte all'interno di questa scheda. Qui p
 
 ### Scegliere un server DNS
 
-Per impostazione predefinita, viene selezionato il [server DNS di sistema ](https://kb.adguard.com/en/general/dns-filtering#what-is-dns) fornito dal tuo ISP, ma potrebbe compromettere la tua privacy. Con l'estensione di browser AdGuard VPN, puoi selezionare un server DNS che offre maggiore velocità e sicurezza e persino bloccare annunci o domini potenzialmente pericolosi. Brevi descrizioni sotto i nomi dei server DNS ti aiuteranno a navigare e prendere la tua decisione.
+Di default, il [server DNS di sistema](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns) fornito dal tuo ISP è selezionato, ma potrebbe compromettere la tua privacy. Con l'estensione di browser AdGuard VPN, puoi selezionare un server DNS che offre maggiore velocità e sicurezza e persino bloccare annunci o domini potenzialmente pericolosi. Brevi descrizioni sotto i nomi dei server DNS ti aiuteranno a navigare e prendere la tua decisione.
 
-Per saperne di più sui [server DNS di vari provider](https://kb.adguard.com/ru/general/dns-providers).
+Scopri di più sui [server DNS dai vari fornitori](https://adguard-dns.io/kb/general/dns-providers/).
 
 ## Esclusioni
 
 La scheda successiva contiene una delle principali caratteristiche distintive di AdGuard VPN: due modalità con elenchi di esclusioni separati.
 
-In **Modalità regolare**, AdGuard VPN funziona di default su tutti i siti web, a eccezione di quelli aggiunti all'elenco delle esclusioni. In **Modalità selettiva**, viceversa, AdGuard VPN per impostazione predefinita non funziona da nessuna parte. È possibile aggiungere a un elenco di esclusioni tutti i siti web sui quali si desidera che funzioni, separato da quello visto nella **modalità regolare**.
+In **Modalità generale**, AdGuard VPN opera di default su tutti i siti web, tranne sui siti web aggiunti all'elenco d'esclusione. In **Modalità selettiva**, viceversa, AdGuard VPN per impostazione predefinita non funziona da nessuna parte. Puoi aggiungere qualsiasi sito web su cui vorresti che funzionasse a un elenco d'esclusione, separato da quello visto nella **Modalità generale**.
 
 Quando si aggiunge un sito web all'elenco delle esclusioni, è possibile inserire il sito web manualmente o selezionare l'opzione **Dall'elenco**. In quest'ultimo caso, vedrai otto categorie (ad es. *Shopping*, *Messageria*, ecc.), ognuna delle quali suggerisce diversi servizi popolari. Puoi escludere uno qualsiasi di questi servizi con un clic e questa azione aggiungerà alle esclusioni tutti i domini pertinenti a quel servizio specifico.
 
@@ -37,7 +37,7 @@ Quando si aggiunge un sito web all'elenco delle esclusioni, è possibile inserir
 Non solo puoi aggiungere e rimuovere siti web, ma puoi anche trasferire elenchi di esclusioni pronti ad altri dispositivi su cui è installato AdGuard VPN. Per esportare l'elenco delle esclusioni, segui le istruzioni in 4 passaggi riportate di seguito:
 
 1. Aprire l'estensione del browser AdGuard VPN da cui desideri esportare i tuoi elenchi di esclusioni. Trovare la sezione appropriata e fare clic sul pulsante "Esportazione". L'archivio `exclusions.zip` verrà scaricato.
-2. Ci sono due file `.txt` all'interno dell'archivio, uno per ciascuno degli elenchi Regolare e Selettivo. Aggiungi loro altre esclusioni, elimina quelle esistenti, rinomina i file o lascia semplicemente l'archivio così com'è.
+2. Esistono due file `.txt` nell'archivio, uno per ognuno degli elenchi Generale e Selettivo. Aggiungi loro altre esclusioni, elimina quelle esistenti, rinomina i file o lascia semplicemente l'archivio così com'è.
 3. Durante il trasferimento tra dispositivi diversi, inviare il file `.zip` al dispositivo per l'importazione.
 4. Aprire AdGuard VPN su quel dispositivo. Trova la sezione appropriata, fai clic sul pulsante "Importazione" e seleziona l'archivio. Tutto fatto!
 
@@ -51,4 +51,4 @@ Puoi trovare le risposte alle domande più frequenti nella sezione FAQ o lasciar
 
 ## Informazioni
 
-Un'altra scheda minore, in cui è possibile controllare la versione dell'estensione, visitare il sito web ufficiale e visualizzare l'EULA o l'informativa sulla privacy.
+Un'altra scheda minore, dove puoi verificare la versione dell'estensione, visitare il sito web ufficiale e visualizzare l'EULA o la Politica sulla privacy.

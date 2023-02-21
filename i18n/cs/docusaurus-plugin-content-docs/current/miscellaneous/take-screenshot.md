@@ -28,7 +28,7 @@ Ale jak již bylo řečeno, mohou existovat rozdíly v závislosti na konkrétn�
 
 V systému Android 8 a novějších verzích je také možné pořídit snímek obrazovky tak, že položíte ruku svisle podél levého nebo pravého okraje telefonu a přejedete od tohoto okraje dovnitř rukou, která se dotýká obrazovky.
 
-Pokud tato metoda nefunguje, zkontrolujte *Nastavení* → *Pokročilé funkce* a povolte *Přejetí dlaní k zachycení snímku obrazovky*.
+Pokud tato metoda nefunguje, zkontrolujte *Nastavení* → *Pokročilé funkce* → *Pohyby a gesta* a povolte *Přejetí dlaní k zachycení snímku obrazovky*.
 
 Kromě toho můžete vždy použít některou ze speciálních aplikací pro pořizování snímků obrazovky na svých zařízeních, např. — *Screenshot Easy*, *Screenshot Ultimate*, *Screenshot Snap* atd.
 
@@ -72,7 +72,7 @@ K pořizování snímků obrazovky existuje také specializovaný program *Výst
 
 Kromě toho můžete zkusit používat různé aplikace pro pořizování snímků obrazovky v počítači, například **PicPick**, **Nimbus Screenshot**, **Screenshot Captor**, **Snipaste**, **Monosnap** atd.
 
-### MacOS
+### macOS
 
 Chcete-li pořídit snímek obrazovky v zařízení se systémem macOS, použijte následující kombinaci tlačítek:
 

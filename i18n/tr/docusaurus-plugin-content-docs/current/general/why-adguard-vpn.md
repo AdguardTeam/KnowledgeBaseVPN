@@ -24,7 +24,7 @@ Bir VPN hizmeti seçerken, insanlar genellikle hızlı ve güvenli arasında bir
 ## 3. DNS sunucusu seçme
 Artık varsayılan olarak İSS'niz tarafından sağlanan DNS sunucusuna güvenmek yok! Birincisi, güvenli değil: İSS'nizin büyük olasılıkla tarama geçmişinize erişimi vardır. İkincisi, insanlar genellikle DNS'i hafife alır, ancak reklamları ve izleyicileri kaldırabilir, cihazınızı kötü amaçlı yazılımlardan koruyabilir veya örneğin güvenli aramayı etkinleştirebilir ve yetişkinlere yönelik içeriği engelleyebilir.
 
-AdGuard, Cisco, Cloudflare, Google veya Quad9 gibi [bilinen DNS sağlayıcılarından](https://kb.adguard.com/en/general/dns-providers) DNS sunucuları seçebilir veya hatta kendi DNS sunucunuzu kullanacak şekilde yapılandırabilirsiniz.
+AdGuard, Cisco, Cloudflare, Google veya Quad9 gibi [bilinen DNS sağlayıcılarından](https://adguard-dns.io/kb/general/dns-providers/) DNS sunucuları seçebilir veya hatta kendi DNS sunucunuzu kullanacak şekilde yapılandırabilirsiniz.
 
 ## 4. En hızlı konumlar
 
@@ -38,10 +38,10 @@ Masaüstü uygulamaları ve tarayıcı uzantıları ile bunu söylemeye gerek yo
 
 Mobil cihazlarda ise durum o kadar basit değil. Durumların büyük çoğunluğunda, iki VPN tabanlı uygulama birlikte çalışmaz, çünkü hem Android hem de iOS'ta bunun olmasını engelleyen işletim sistemi kaynaklı bazı kısıtlamalar vardır.
 
-Ancak AdGuard VPN ve AdGuard Reklam Engelleyici ile arkadaş olmak için bir çözüm bulmayı başardık. Her iki AdGuard uygulamasını aynı anda bir cihaza yüklediğinizde, sizden herhangi bir giriş gerektirmeden otomatik olarak uyumlu hâle gelirler. Bu, normalde aralarından seçim yapmanız gereken iki özellik grubundan yararlanmak için eşsiz bir fırsattır.
+Ancak AdGuard VPN ve AdGuard Reklam Engelleyici ile arkadaş olmak için bir çözüm bulmayı başardık. When you have both AdGuard apps installed on one device, they will automatically become compatible without any input required from you. Bu, normalde aralarından seçim yapmanız gereken iki özellik grubundan yararlanmak için eşsiz bir fırsattır.
 
 ## 6. QUIC desteği
-[QUIC](https://adguard.com/en/blog/dns-over-quic.html), birçok avantajı olan son teknoloji bir protokoldür. Başlıca avantajı, ideal olmayan koşullarda bağlantı kalitesini iyileştirebilmesidir –örneğin mobil cihazlarda veya halka açık Wi-Fi'ye bağlanırken. Yeni protokol, bağlantı iyi ve kararlı olduğunda hızı etkilemese de, yavaş internete sahip kullanıcılar için durumu kesinlikle daha iyi hâle getirir.
+[QUIC](https://adguard.com/blog/dns-over-quic.html), birçok avantajı olan son teknoloji bir protokoldür. Başlıca avantajı, ideal olmayan koşullarda bağlantı kalitesini iyileştirebilmesidir –örneğin mobil cihazlarda veya halka açık Wi-Fi'ye bağlanırken. Yeni protokol, bağlantı iyi ve kararlı olduğunda hızı etkilemese de, yavaş internete sahip kullanıcılar için durumu kesinlikle daha iyi hâle getirir.
 
 *Şimdi herhangi bir düzgün VPN'nin onsuz yapamayacağı öğe setine geçelim.*
 

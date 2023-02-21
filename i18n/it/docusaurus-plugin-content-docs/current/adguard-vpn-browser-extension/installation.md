@@ -7,17 +7,15 @@ sidebar_position: 2
 
 Per installare l'estensione di browser AdGuard VPN, segui i passaggi elencati:
 
-1. Visita [adguard-vpn.com](https://adguard-vpn.com/browser-extension/overview.html)
+1. Visit [adguard-vpn.com](https://adguard-vpn.com/browser-extension/overview.html).
 
-2. Fare clic sull'icona del browser e quindi su *Installa*.
+2. Clicca l'icona del browser e poi su *Installa*.
 
-3. A seconda del browser, si aprirà uno dei siti web: Chrome Web Store, Componenti aggiuntivi di Firefox o Componenti aggiuntivi di Microsoft Edge. Fare clic sul rispettivo pulsante: *Aggiungi a Chrome*, *Aggiungi a Firefox* o *Ottieni* accanto all'estensione del browser AdGuard VPN.
+3. Depending on your browser, one of the websites will open: Chrome Web Store, Firefox Add-ons, Opera addons, or Microsoft Edge Add-ons. Click the respective button: *Add to Chrome*, *Add to Firefox*, *Add to Opera* or *Get* next to AdGuard VPN Browser extension.
 
-4. Una volta completata l'installazione, ti verrà chiesto di passare alla versione [illimitata](https://adguard-vpn.com/thankyou.html). È completamente facoltativo, ma se la versione gratuita non ti basta, puoi [abbonarti](/general/subscription.md) in qualsiasi momento.
+4. Read and accept the EULA and Privacy Policy by checking the respective box. You can also allow AdGuard VPN to collect anonymous data on the app usage, which we need to improve our product (this is optional). Poi clicca su *Continua*.
 
-4. Leggi e accetta l'EULA e la Politica sulla riservatezza spuntando la rispettiva casella. Puoi anche consentire ad AdGuard VPN di raccogliere dati anonimi sull'utilizzo dell'app, di cui abbiamo bisogno per migliorare il nostro prodotto (è facoltativo). Quindi fare clic su *Continua*.
-
-5. Registrati o accedi al tuo account AdGuard creato in precedenza per completare il processo d'installazione.
+5. Registrati o accecdi al tuo profilo di Adguard per terminare l'installazione.
 
 Goditi AdGuard VPN!
 
@@ -34,3 +32,7 @@ Fai clic sull'icona dei tre strisce nell'angolo in alto a destra del browser, qu
 ### Edge
 
 Fai clic sull'icona dei tre punti nell'angolo in alto a destra del browser, quindi seleziona *Estensioni*. Trova AdGuard VPN nell'elenco, fai clic sull'icona dei tre punti accanto ad essa e seleziona *Rimuovi da Microsoft Edge*.
+
+### Opera
+
+Click the *Extensions* icon in the top right corner of the browser, then select *Manage extensions...*. Find AdGuard VPN in the list and click the *Remove* button.  

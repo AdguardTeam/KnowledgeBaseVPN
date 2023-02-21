@@ -25,7 +25,7 @@ Chcete-li začít používat AdGuard VPN pro Windows, stáhněte si aplikaci z [
 
 ![Domovská stránka AdGuard VPN pro Windows](https://cdn.adguardvpn.com/content/release_notes/vpn/windows/v2.0/new_main_window_en.png)
 
-Nejvýraznější položkou na domovské obrazovce **** je tlačítko pro připojení/odpojení AdGuard VPN. Pod ním vidíte [režim](#exclusions), ve kterém je aplikace spuštěna, a vybraný server. Na pravé straně obrazovky najdete všechna dostupná umístění. Nejrychlejší umístění, tj. umístění s nejkratší odezvou ping se zobrazí na začátku seznamu.
+Nejvýraznější položkou na domovské obrazovce **** je tlačítko pro připojení/odpojení AdGuard VPN. Nad tlačítkem se zobrazí [režim](#exclusions), ve kterém je aplikace spuštěna a pod ním vybraný server. Na pravé straně obrazovky najdete všechna dostupná umístění. Nejrychlejší umístění, tj. umístění s nejmenší odezvou ping se zobrazí na začátku seznamu.
 
 V horní části obrazovky se nachází navigační panel se čtyřmi kartami: **Domů**, **Výjimky**, **Podpora**, **Nastavení**.
 
@@ -69,7 +69,7 @@ Ve spodní části stránky jsou dvě sekce: **DNS servery** a **Pokročilá nas
 
 #### DNS servery
 
-Karta **DNS servery** umožňuje přidat vlastní DNS server. DNS server můžete nastavit u libovolného poskytovatele. Doporučujeme přidat server [AdGuard DNS](https://kb.adguard.com/en/general/dns-providers#adguard-dns), který kromě standardních funkcí dokáže chránit před reklamami, sledováním a krádeží identity.
+Karta **DNS servery** umožňuje přidat vlastní DNS server. DNS server můžete nastavit u libovolného poskytovatele. Doporučujeme přidat server [AdGuard DNS](https://adguard-dns.io/kb/general/dns-providers/#adguard-dns), který kromě standardních funkcí dokáže chránit před reklamami, sledováním a krádeží identity.
 
 #### Pokročilá nastavení
 

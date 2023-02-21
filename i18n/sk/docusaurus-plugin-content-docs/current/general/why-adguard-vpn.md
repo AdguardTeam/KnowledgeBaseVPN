@@ -24,7 +24,7 @@ You can add websites to exclusions manually or choose them among the lists of po
 ## 3. Choosing a DNS server
 No more relying on the DNS server provided by your ISP by default! First, it’s not safe: your ISP most likely has access to your browsing history. Second, people often underestimate DNS, yet it can remove ads and trackers, protect your device from malware or, for instance, enable safe search and block adult content.
 
-You can choose DNS servers from [known DNS providers](https://kb.adguard.com/en/general/dns-providers) such as AdGuard, Cisco, Cloudflare, Google, or Quad9, or even configure to use your own DNS server.
+You can choose DNS servers from [known DNS providers](https://adguard-dns.io/kb/general/dns-providers/) such as AdGuard, Cisco, Cloudflare, Google, or Quad9, or even configure to use your own DNS server.
 
 ## 4. Fastest locations
 
@@ -38,10 +38,10 @@ With desktop apps and browser extensions this goes without saying — there’s 
 
 With mobile devices, on the other hand, it’s not that simple. In the vast majority of cases, two VPN-based apps will not work together, just because certain OS-induced limitations exist that prevent that from happening, both on Android and iOS.
 
-However, we managed to find a solution to befriend AdGuard VPN and AdGuard Ad Blocker. When you have both AdGuard apps installed on one device simultaneously, they will automatically become compatible without any input required from you. This is a unique opportunity to take advantage of two sets of features, which you would normally have to choose between.
+However, we managed to find a solution to befriend AdGuard VPN and AdGuard Ad Blocker. When you have both AdGuard apps installed on one device, they will automatically become compatible without any input required from you. This is a unique opportunity to take advantage of two sets of features, which you would normally have to choose between.
 
 ## 6. QUIC support
-[QUIC](https://adguard.com/en/blog/dns-over-quic.html) is a cutting-edge protocol that has many perks. The main advantage is it can improve connection quality in non-ideal conditions – for example, on mobile devices or when connecting to public Wi-Fi. Although the new protocol won’t affect speed when the connection is fine and stable, it will definitely make the situation better for users with slow internet.
+[QUIC](https://adguard.com/blog/dns-over-quic.html) is a cutting-edge protocol that has many perks. The main advantage is it can improve connection quality in non-ideal conditions – for example, on mobile devices or when connecting to public Wi-Fi. Although the new protocol won’t affect speed when the connection is fine and stable, it will definitely make the situation better for users with slow internet.
 
 *Now let’s switch to the item set that any decent VPN can't do without.*
 

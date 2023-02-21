@@ -5,7 +5,7 @@ sidebar_position: 2
 
 ## Systemanforderungen
 
-**Betriebssystemversion**: macOS 10.12 (64 Bit) oder höher
+**Betriebssystemversion**: macOS 10.15 (64-Bit) oder höher
 
 **RAM**: mindestens 2 GB
 

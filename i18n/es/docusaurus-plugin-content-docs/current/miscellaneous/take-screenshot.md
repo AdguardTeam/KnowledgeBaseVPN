@@ -28,7 +28,7 @@ Pero, como ya se ha dicho, puede haber diferencias dependiendo de un dispositivo
 
 En Android 8 y versiones posteriores también existe la posibilidad de tomar una captura de pantalla colocando la mano verticalmente a lo largo del borde izquierdo o derecho de su teléfono y deslizando desde ese borde con la mano tocando la pantalla.
 
-Si este método no funciona, compruebe en *Configuración* → *Funciones avanzadas* para habilitar *Deslice la palma de la mano para capturar*.
+If this method doesn’t work, check *Settings* → *Advanced features* → *Motions and gestures* → enable *Palm swipe to capture*.
 
 Además, siempre puedes utilizar alguna aplicación especial para hacer capturas de pantalla en tus dispositivos, por ejemplo —*Screenshot Easy*, *Screenshot Ultimate*, *Screenshot Snap*, etc.
 
@@ -72,7 +72,7 @@ También hay un programa dedicado para tomar capturas de pantalla llamado *Herra
 
 Además, también puedes probar a utilizar diferentes aplicaciones para hacer capturas de pantalla en tu ordenador, como **PicPick**, **Nimbus Screenshot**, **Screenshot Captor**, **Snipaste**, **Monosnap**, etc.
 
-### MacOS
+### macOS
 
 Para tomar una captura de pantalla en Mac, use la siguiente combinación de botones:
 

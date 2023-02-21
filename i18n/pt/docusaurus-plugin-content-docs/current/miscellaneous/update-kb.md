@@ -19,9 +19,9 @@ Você pode implantar esta Base de Conhecimento localmente em seu computador para
 
 ## Traduzindo artigos {#translate-adguard}
 
-A tradução dos artigos existentes da Base de Conhecimento é realizada [na plataforma Crowdin](https://crowdin.com/project/adguard-vpn-knowledge-base). Todos os detalhes sobre traduções e como trabalhar com o Crowdin podem ser encontrados [no artigo dedicado](https://kb.adguard.com/en/general/adguard-translations) da Base de conhecimento do bloqueador de anúncios do AdGuard.
+A tradução dos artigos existentes da Base de Conhecimento é realizada [na plataforma Crowdin](https://crowdin.com/project/adguard-vpn-knowledge-base). All the details about translations and working with Crowdin can be found [in the dedicated article](https://adguard.com/kb/miscellaneous/contribute/translate/program/) of the AdGuard Ad Blocker Knowledge Base.
 
-Ao trabalhar em artigos da Base de Conhecimento de AdGuard VPN, você pode encontrar strings contendo formas plurais que devem ser traduzidas com atenção extra. [Em um artigo separado](https://kb.adguard.com/en/miscellaneous/plurals), descrevemos em detalhes as dificuldades que podem surgir ao traduzir strings com formas plurais e fornecemos instruções extensas sobre como trabalhar com elas na plataforma Crowdin.
+Ao trabalhar em artigos da Base de Conhecimento de AdGuard VPN, você pode encontrar strings contendo formas plurais que devem ser traduzidas com atenção extra. [In a separate article](https://adguard.com/kb/miscellaneous/contribute/translate/plural-forms/), we described in detail the difficulties that can arise when translating strings with plural forms, and gave extensive instructions on how to work with them on the Crowdin platform.
 
 ## Trabalhando em problemas abertos
 

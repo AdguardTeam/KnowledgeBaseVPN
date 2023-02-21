@@ -73,7 +73,7 @@ Webサイトだけでなく、端末上のアプリごともVPN対象外にす�
 
 ### DNSサーバー
 
-[ドメインネームシステム（DNS）](https://kb.adguard.com/en/general/dns-filtering#what-is-dns)の目的は、Webサイトの名前をブラウザが理解できるもの、つまりIPアドレスに変換することです。 この変換の仕事は、DNSサーバーが行います。 Android用AdGuard VPNでは、それぞれの特徴を持つ複数のDNSサーバーの中から選択できます。 例えば、 「[AdGuard DNS](https://kb.adguard.com/en/dns/overview)」サーバーは広告を削除し、トラッキング（個人情報追跡）から端末を保護します。「AdGuard DNS ファミリー保護」サーバーは、AdGuard DNSの機能とセーフサーチおよびアダルトコンテンツブロック機能を兼ね備えています。 また、カスタムDNSサーバーを追加することもできます。
+The purpose of the [Domain name system](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns) (DNS) is to translate websites' names into something browsers can understand, i.e. IP addresses. この変換の仕事は、DNSサーバーが行います。 Android用AdGuard VPNでは、それぞれの特徴を持つ複数のDNSサーバーの中から選択できます。 For example, [AdGuard DNS](https://adguard-dns.io/kb/) removes ads and protects your device from tracking while AdGuard DNS Family Protection combines the functions of AdGuard DNS with SafeSearch and adult content blocking. また、カスタムDNSサーバーを追加することもできます。
 
 ### 通信の自動保護
 
@@ -95,7 +95,7 @@ Webサイトだけでなく、端末上のアプリごともVPN対象外にす�
 
 「*高度な設定*」には、5つのセクションがあります。 一番上のスイッチをオンにすることで、「*アプリをよりよくするために協力する*」ことができます。 これにより、AdGuard VPNはクラッシュレポート、テクニカルデータ、インタラクションデータを収集することができるようになります。 ※この情報は匿名の状態でAdGuardに転送され、個人情報は一切特定できなくなっております。
 
-「*動作モード*」セクションでは、3つのオプションから1つを選択することができます。「VPN」「SOCKS5」「AdGuardとの併用モード」の3つのモードがあります。 「*VPN」*モードでは、トラフィックはすべて自動的にAdGuard VPNを経由してルーティングされます。 「*SOCKS5*」(プロキシ)モードがオンの場合、AdGuard VPN はローカルプロキシサーバを立ち上げ、他のアプリがそれを経由してトラフィックをルーティングします。 （※詳しくわからない一般ユーザーの方は、「SOCKS5」モードに変更しないことをお勧めします。） 「*AdGuardとの併用モード*」は、AdGuard VPN と AdGuard広告ブロッカーを一緒に動作させて併用することができる互換性モードです。
+「*動作モード*」セクションでは、3つのオプションから1つを選択することができます。「VPN」「SOCKS5」「AdGuardとの併用モード」の3つのモードがあります。 「*VPN」*モードでは、トラフィックはすべて自動的にAdGuard VPNを経由してルーティングされます。 When the *Proxy mode* (SOCKS5) is on, AdGuard VPN runs a local proxy server which can be used by other apps to route their traffic through it. （※詳しくわからない一般ユーザーの方は、「SOCKS5」モードに変更しないことをお勧めします。） 「*AdGuardとの併用モード*」は、AdGuard VPN と AdGuard広告ブロッカーを一緒に動作させて併用することができる互換性モードです。
 
 > ※「*AdGuardとの併用モード*」では、AdGuard VPN 機能の一部（DNSサーバーの選択、「キルスイッチ」、「通信の自動保護」）が無効になりますのでご注意ください。 また、「アプリに対する設定」（アプリ除外）の管理はAdGuard広告ブロッカーアプリ経由になります。
 
@@ -106,4 +106,3 @@ Webサイトだけでなく、端末上のアプリごともVPN対象外にす�
 ### お客様サポート
 
 「*お客様サポート*」セクションでは、フィードバックを残したり、バグを報告したり、ログやシステム情報をエクスポートしてサポートチームに送信することができます。（「問題を報告する」からお問い合わせしますと、システム情報を添付することによって、技術的な問題の解決がより早くなることが多くありますので、ぜひご利用ください。）
- 

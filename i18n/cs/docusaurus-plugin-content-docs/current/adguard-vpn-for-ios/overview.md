@@ -58,14 +58,14 @@ Zde můžete AdGuard VPN pro iOS nakonfigurovat podle svých potřeb pomocí rů
 
 AdGuard VPN pro iOS může fungovat ve dvou režimech: **Obecném** a **Integrovaném**.
 
-V **Obecném režimu** je použit [protokol AdGuard VPN](../general/adguard-vpn-protocol.mdx), který poskytuje nejlepší kombinaci rychlosti a zabezpečení. V tomto režimu nebude moci AdGuard VPN fungovat spolu s [blokátorem reklam AdGuard pro iOS](https://kb.adguard.com/en/ios).
+V **Obecném režimu** je použit [protokol AdGuard VPN](../general/adguard-vpn-protocol.mdx), který poskytuje nejlepší kombinaci rychlosti a zabezpečení. V tomto režimu nebude moci AdGuard VPN fungovat spolu s [blokátorem reklam AdGuard pro iOS](https://adguard.com/kb/adguard-for-ios/overview/).
 
 V **Integrovaném** režimu bude AdGuard VPN schopna pracovat současně s blokátorem reklam AdGuard pro iOS pomocí protokolu IPSec. Tento protokol je také bezpečný, ale o něco pomalejší a snáze zjistitelný. K nastavení integrace není třeba provádět žádné další akce: stačí nainstalovat obě aplikace a přepnout do tohoto režimu.
 > Všimněte si, že v **Integrovaném** režimu nelze použít funkci Výjimky nebo vybrat DNS server.
 
 ### DNS server
 
-Účelem decentralizovaného systému doménových názvů (DNS) je překládat názvy webových stránek do podoby srozumitelné prohlížečům, tj. do podoby IP adres. Tuto úlohu vykonávají DNS servery. AdGuard VPN pro iOS nabízí výběr z několika DNS serverů, z nichž každý má specifické vlastnosti. Například AdGuard DNS odstraňuje reklamy a chrání vaše zařízení před sledováním, zatímco AdGuard DNS Family Protection kombinuje funkce AdGuard DNS s funkcí bezpečného vyhledávání a blokování obsahu pro dospělé. DNS servery různých poskytovatelů DNS mohou také fungovat rychleji nebo pomaleji v závislosti na vaší poloze, poskytovateli internetových služeb a dalších faktorech. Vyberte si ten, který vám nejlépe vyhovuje. Více informací o DNS a jeho vlastnostech se dozvíte v [ tomto článku](https://kb.adguard.com/en/general/dns-filtering#what-is-dns).
+Účelem decentralizovaného systému doménových názvů (DNS) je překládat názvy webových stránek do podoby srozumitelné prohlížečům, tj. do podoby IP adres. Tuto úlohu vykonávají DNS servery. AdGuard VPN pro iOS nabízí výběr z několika DNS serverů, z nichž každý má specifické vlastnosti. Například AdGuard DNS odstraňuje reklamy a chrání vaše zařízení před sledováním, zatímco AdGuard DNS Family Protection kombinuje funkce AdGuard DNS s funkcí bezpečného vyhledávání a blokování obsahu pro dospělé. DNS servery různých poskytovatelů DNS mohou také fungovat rychleji nebo pomaleji v závislosti na vaší poloze, poskytovateli internetových služeb a dalších faktorech. Vyberte si ten, který vám nejlépe vyhovuje. Více informací o DNS a jeho vlastnostech se dozvíte v [ tomto článku](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns).
 
 ![Obrazovka DNS serveru](https://cdn.adguardvpn.com/content/kb/vpn/ios/dns-server.png)
 

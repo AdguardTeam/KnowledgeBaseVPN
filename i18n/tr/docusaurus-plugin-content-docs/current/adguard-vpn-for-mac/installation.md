@@ -5,7 +5,7 @@ sidebar_position: 2
 
 ## Sistem gereksinimleri
 
-**İşletim sistemi sürümü**: macOS 10.12 (64 bit) veya üstü
+**İşletim sistemi sürümü**: macOS 10.15 (64-bit) veya üstü
 
 **RAM**: en az 2 GB
 

@@ -5,7 +5,7 @@ sidebar_position: 1
 
 ## AdGuard VPN for Windows とは？
 
-VPNとは、「Virtual Private Network」の略で、インターネット接続を安全にし、ネット上での匿名性を確保するためのサービスです。 その仕組みは？ VPNを使用せずにウェブサイトを訪問するたびに、ISP（インターネットプロバイダ）はそれを見れます。 あなたが誰で、何を検索しているのか、どこにアクセスしたりしているのはを知り、そのデータを収集し、販売することができるのです。 さらに、アクセスしたWebサイトも、あなたの行動を追跡することができます。 そこでVPNアプリを有効にすると、トラフィック（通信）は暗号化されたトンネルを経由してリモートのVPNサーバーにリダイレクトされ、プライバシーが保証されます。ISPは、あなたがリクエストをどこに送信するかを知らず、サイトもあなたがどこからアクセスしたのかをわかりません。
+A VPN, acronym for "Virtual Private Network", is a service that makes your Internet connection safe and helps you stay anonymous online. その仕組みは？ VPNを使用せずにウェブサイトを訪問するたびに、ISP（インターネットプロバイダ）はそれを見れます。 あなたが誰で、何を検索しているのか、どこにアクセスしたりしているのはを知り、そのデータを収集し、販売することができるのです。 さらに、アクセスしたWebサイトも、あなたの行動を追跡することができます。 そこでVPNアプリを有効にすると、トラフィック（通信）は暗号化されたトンネルを経由してリモートのVPNサーバーにリダイレクトされ、プライバシーが保証されます。ISPは、あなたがリクエストをどこに送信するかを知らず、サイトもあなたがどこからアクセスしたのかをわかりません。
 
 **AdGuard VPN for Windows の機能・効果**
 
@@ -19,13 +19,13 @@ AdGuard VPN for Windows には多くのメリットがあるので、よけれ�
 
 ## AdGuard VPN for Windows を使い始める方法
 
-AdGuard VPN for Windows の使用を開始するには、[こちら](https://adguard-vpn.com/ja/welcome.html)からアプリをダウンロードしてください。 インストールは1分もかかりません。ダイアログウィンドウが表示されますので、EULA（使用許諾書）とプライバシーポリシーの条項に関するチェックボックスに少なくとも1つチェックを入れてください。 AdGuardがアプリの使用状況に関する匿名化されたデータを収集することを許可するかどうかは、お客様次第です。 最後に、[AdGuardアカウント](https://auth.adguard.com/login.html)またはSNS (Apple、Google、Facebook) 経由でログインします。 これで、AdGuard VPN for Windowsの利用が可能になります。
+AdGuard VPN for Windows の使用を開始するには、[こちら](https://adguard-vpn.com/ja/welcome.html)からアプリをダウンロードしてください。 The installation takes no more than a minute — and you'll see a dialog window where you'll need to check at least one box applying the terms of the User Agreement and the Privacy policy. AdGuardがアプリの使用状況に関する匿名化されたデータを収集することを許可するかどうかは、お客様次第です。 最後に、[AdGuardアカウント](https://auth.adguard.com/login.html)またはSNS (Apple、Google、Facebook) 経由でログインします。 これで、AdGuard VPN for Windowsの利用が可能になります。
 
 ## ホーム画面
 
 ![AdGuard VPN for Windows のホーム画面](https://cdn.adguardvpn.com/content/release_notes/vpn/windows/v2.0/new_main_window_en.png)
 
-**ホーム画面**で最も目立つ項目は、AdGuard VPNの接続/切断ボタンです。 その下に、アプリが現在動作している[除外モード](#exclusions)（一般／指定）が表示され、さらにその下には選択されているサーバー（ロケーション）が表示されます。 画面右側には、利用可能なすべてのロケーションが表示されます。 最速のロケーション、つまりpingが最も小さい（＝接続速度が速い）ロケーションがリストの一番上に表示されます。
+**ホーム画面**で最も目立つ項目は、AdGuard VPNの接続/切断ボタンです。 ボタンの上には、アプリの現在の[除外モード](#exclusions)（一般／指定）が表示され、ボタンの下には選択されているサーバー（ロケーション）が表示されます。 画面右側には、利用可能なすべてのロケーションが表示されます。 The fastest location, i.e. the one with the lowest ping, is shown at the top of the list.
 
 画面上部には、タブ4つ（ **ホーム画面**、**VPN対象外リスト**、**サポート**、**設定**）のナビゲーションパネルがあります。
 
@@ -63,13 +63,13 @@ AdGuard VPN for Windows から除外リストをコンピュータにエクス�
 
 「**本アプリの設定**」では、アプリの言語を設定したり、「**キルスイッチ**」（VPN接続が落ちた場合にインターネットへのアクセスをブロックする安全対策機能）を有効にしたりすることができます。 キルスイッチは、公共Wi-Fiやモバイルネットワークに接続しているときに、万が一接続が落ちてVPNによる保護がなくなった場合でも、ハッカー・侵入者があなたのデータ・個人情報にアクセスするのを防ぎます。
 
-また、ワンクリックで「**自動更新**」「**Windows起動時にAdGuard VPNを起動する**」「**アプリ起動時にVPNに自動接続する**」という機能を有効にすることができます。そして、AdGuardに匿名化されたアプリ使用データを収集することを許可することで、アプリ改善に協力いただくこともできます。 また、AdGuard VPNのカラーテーマを「**ライト**」「**システムに合わせる**」「**ダーク**」に変更することも可能です。
+You can also activate the following features with a single click: **Auto-update**, **Launch AdGuard VPN at Windows startup**, **Auto-connect on app launch**, and allow AdGuard to collect anonymized app usage data so that the AdGuard team gets the info on potential usability issues. また、AdGuard VPNのカラーテーマを「**ライト**」「**システムに合わせる**」「**ダーク**」に変更することも可能です。
 
 画面の下部には、「**DNS サーバー**」と「**詳細設定**」という2つのセクションがあります。
 
 #### DNSサーバー
 
-「**DNS サーバー**」タブでは、独自のカスタムDNSサーバーを追加することができます。 任意のプロバイダーのDNSサーバーを設定できます。 標準機能に加えて、広告、トラッキング（個人情報追跡）、フィッシングから保護する[AdGuard DNS](https://kb.adguard.com/ja/general/dns-providers#adguard-dns)サーバーを追加することをお勧めします。
+「**DNS サーバー**」タブでは、独自のカスタムDNSサーバーを追加することができます。 任意のプロバイダーのDNSサーバーを設定できます。 We recommend adding [AdGuard DNS](https://adguard-dns.io/kb/general/dns-providers/#adguard-dns), a server that can protect against advertising, tracking, and phishing, in addition to the standard functions.
 
 #### 上級者向けの設定
 
@@ -99,7 +99,7 @@ AdGuard VPNは、ブラウザだけでなく、PC上の他のアプリのトラ�
 
 ### このアプリについて
 
-**このアプリについて**タブには、AdGuard VPN for Windows の現在のバージョンに関する情報、アップデートボタン、およびいくつかの便利なリンク（AdGuard VPNのホームページ、フォーラム・SNS、EULA（使用許諾契約）、プライバシー ポリシー）があります。
+The **About** tab provides information about the current version of AdGuard VPN for Windows, an update button, and links to the AdGuard VPN website, forum, EULA, and Privacy policy.
 
 ### アカウント
 

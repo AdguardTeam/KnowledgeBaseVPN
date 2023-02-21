@@ -3,14 +3,14 @@ title: Přehled funkcí
 sidebar_position: 1
 ---
 
-Rozšíření prohlížeče AdGuard VPN je k dispozici pro Chrome, Firefox a Edge. Uživatelské rozhraní a funkce se v jednotlivých prohlížečích neliší, takže níže uvedený přehled se bude týkat rozšíření AdGuard VPN pro všechny prohlížeče.
+Rozšíření prohlížeče AdGuard VPN je k dispozici pro Chrome, Firefox, Operu a Edge. Uživatelské rozhraní a funkce se v jednotlivých prohlížečích neliší, takže níže uvedený přehled se bude týkat rozšíření AdGuard VPN pro všechny prohlížeče.
 
 > Všimněte si, že rozšíření prohlížeče AdGuard VPN můžete používat pouze po přihlášení. Přihlaste se pomocí účtu AdGuard, přes Google, Facebook nebo Apple. Ve druhém případě se ujistěte, že je váš účet vázán na stejnou e-mailovou adresu jako účet AdGuard. Pokud máte [předplatné AdGuard VPN](/general/subscription.md), bude v rozšíření prohlížeče AdGuard VPN aktivováno automaticky. Nemáte ještě účet AdGuard? [Zde si jej vytvořte](https://auth.adguard.com/registration.html).
 
-Chcete-li spravovat rozšíření prohlížeče AdGuard VPN
+Chcete-li spravovat rozšíření prohlížeče AdGuard VPN:
 
-* Klikněte na jeho ikonu na panelu prohlížeče, pak klikněte na tři čáry a vyberte *Nastavení*, nebo
-* Přejděte na stránku *Správa rozšíření* prohlížeče a odtud zadejte nastavení AdGuard VPN.
+* Klikněte na jeho ikonu na panelu prohlížeče, klikněte na tři čáry a vyberte *Nastavení*,
+* Nebo přejděte ve svém prohlížeči na stránku *Správa rozšíření*, klikněte na *Podrobnosti* pod *AdGuard VPN* a spravujte nastavení odtud.
 
 Po dokončení se vlevo zobrazí několik karet:
 
@@ -20,15 +20,15 @@ Na této kartě je shromážděno několik důležitých nastavení. Zde můžet
 
 ### Výběr DNS serveru
 
-Ve výchozím nastavení je [systémový DNS server](https://kb.adguard.com/en/general/dns-filtering#what-is-dns) poskytovaný vaším ISP, ale to může ohrozit vaše soukromí. S rozšířením prohlížeče AdGuard VPN si můžete vybrat DNS server, který poskytuje vyšší rychlost a zabezpečení a dokonce blokuje reklamy nebo potenciálně nebezpečné domény. Stručné popisy pod názvy DNS serverů vám usnadní orientaci a rozhodování.
+Ve výchozím nastavení je [systémový DNS server](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns) poskytovaný vaším ISP, ale to může ohrozit vaše soukromí. S rozšířením prohlížeče AdGuard VPN si můžete vybrat DNS server, který poskytuje vyšší rychlost a zabezpečení a dokonce blokuje reklamy nebo potenciálně nebezpečné domény. Stručné popisy pod názvy DNS serverů vám usnadní orientaci a rozhodování.
 
-Další informace o [DNS serverech od různých poskytovatelů](https://kb.adguard.com/ru/general/dns-providers).
+Další informace o [DNS serverech od různých poskytovatelů](https://adguard-dns.io/kb/general/dns-providers/).
 
 ## Výjimky
 
 Další karta obsahuje jednu z hlavních charakteristických funkcí AdGuard VPN – dva režimy se samostatnými seznamy výjimek.
 
-V **Obvyklém režimu** funguje AdGuard VPN ve výchozím nastavení na všech webových stránkách s výjimkou těch, které jste přidali do seznamu výjimek. V **Selektivním režimu** naopak AdGuard VPN ve výchozím nastavení nefunguje nikde. Do seznamu výjimek můžete přidat všechny webové stránky, na kterých chcete, aby to fungovalo, odděleně od seznamu, který jste viděli v **Obvyklém režimu**.
+V **Obecném režimu** funguje AdGuard VPN ve výchozím nastavení na všech webových stránkách s výjimkou těch, které jste přidali do seznamu výjimek. V **Selektivním režimu** naopak AdGuard VPN ve výchozím nastavení nefunguje nikde. Do seznamu výjimek můžete přidat všechny webové stránky, na kterých chcete, aby to fungovalo, odděleně od seznamu, který jste viděli v **Obecném režimu**.
 
 Při přidávání webové stránky do seznamu výjimek ji můžete zadat ručně nebo vybrat možnost **Ze seznamu**. V druhém případě se zobrazí osm kategorií (např. *Nákupy*, *Zasílání zpráv* atd.), z nichž každá nabízí několik oblíbených služeb. Jedním kliknutím můžete vyloučit kteroukoli z těchto služeb a tato akce přidá do výjimek všechny domény relevantní pro danou službu.
 
@@ -37,7 +37,7 @@ Při přidávání webové stránky do seznamu výjimek ji můžete zadat ručn�
 Můžete nejen přidávat a odebírat webové stránky, ale také přenášet připravené seznamy výjimek do jiných zařízení, kde je AdGuard VPN nainstalována. Chcete-li exportovat seznam výjimek, postupujte podle následujících čtyř kroků:
 
 1. Otevřete rozšíření prohlížeče AdGuard VPN, odkud chcete exportovat seznamy výjimek. Vyhledejte příslušný oddíl a klikněte na tlačítko "Exportovat". Stáhne se archiv `exclusions.zip`.
-2. Uvnitř archivu jsou dva soubory `.txt`, jeden pro Obvyklý a druhý pro Selektivní seznam. Můžete k nim přidat další výjimky, odstranit stávající, přejmenovat soubory nebo nechat archiv tak, jak je.
+2. Uvnitř archivu jsou dva soubory `.txt`, jeden pro Obecný a druhý pro Selektivní seznam. Můžete k nim přidat další výjimky, odstranit stávající, přejmenovat soubory nebo nechat archiv tak, jak je.
 3. Při přenosu mezi různými zařízeními odešlete soubor `.zip` do zařízení pro import.
 4. V tomto zařízení otevřete AdGuard VPN. Vyhledejte příslušnou sekci, klikněte na tlačítko "Importovat" a vyberte archiv. Hotovo!
 

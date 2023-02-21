@@ -7,7 +7,7 @@ AdGuard VPN Mac版是一个桌面 VPN 服务。 AdGuard VPN 与 AdGuard 广告�
 
 请注意：**登录 AdGuard 账号后，您才可以运行 AdGuard VPN Mac版**。 用户可以用 AdGuard 账号登录，也可以通过其他账号登录，即通过 Apple、Google 或 Facebook 登录。 请确保您的其他账号与 AdGuard 账号绑定到同一个电子邮件地址。 如果用户的 AdGuard 账号中有合适的订阅，订阅将在桌面应用程序上自动激活。 还没有 AdGuard 账号？ 请[点击这里](https://auth.adguard.com/registration.html)建立账号。
 
-> 适用于 Mac 的 AdGuard VPN 支持 macOS Sierra (10.12) 以上的 macOS 版本。
+> AdGuard VPN for Mac is currently supported on macOS versions starting from macOS Catalina (10.15).
 
 ## 主界面
 
@@ -33,10 +33,10 @@ AdGuard VPN Mac版是一个桌面 VPN 服务。 AdGuard VPN 与 AdGuard 广告�
 
 此外，现成的排除项列表可以传输到被安装 AdGuard VPN 的其他设备。 要导出排除项，请按照以下四步说明进行操作：
 
-1. 在您想要导出排除项列表的设备上打开 AdGuard VPN。 找到相应的部分并单击「*导出*」按钮。 `exclusions.zip` 档案将被下载。
+1. 在您想要导出排除项列表的设备上打开 AdGuard VPN。 Find the appropriate section and click the *Export* button. `exclusions.zip` 档案将被下载。
 2. 档案中有两个 `.txt` 文件，常规模式的列表和选择模式的列表。 用户可以在其中添加更多的排除项，删除现有的排除项，重命名文件（下面还有更多详情），或者也可以将存档中的文件内容保持不变。
 3. 在不同设备之间传输时，不要忘记将 `.zip` 文件发送到设备上进行导入。 例如，如果您将排除项列表从自己的 Mac 设备导入到 iPhone 设备，确保先将 `.zip` 文件发送到手机上。
-4. 在要导入存档的设备/浏览器上打开 AdGuard VPN，其中包含要应用的排除项列表。 找到相应的部分，单击「*导入*」按钮并选择存档。 完成！
+4. 在要导入存档的设备/浏览器上打开 AdGuard VPN，其中包含要应用的排除项列表。 Find the appropriate section, click the *Import* button and select the archive. 完成！
 
 > 其他设备的存档文件也可以类似地导入到您的 AdGuard VPN Mac版。
 
@@ -44,7 +44,7 @@ AdGuard VPN Mac版是一个桌面 VPN 服务。 AdGuard VPN 与 AdGuard 广告�
 
 ![支持屏幕](https://cdn.adguardvpn.com/content/kb/vpn/mac/support_en.png)
 
-第三个标签是*支持*。 在[常见问题解答](https://adguard-vpn.com/en/welcome.html#faq)或[知识库](/intro.md) 部分中查找任何问题的答案，如果您晕倒问题，请报告错误，或[在任何平台上讨论 AdGuard](https://adguard.com/en/discuss.html)。 请随时[留下有关我们服务](https://surveys.adguard.com/en/vpn_mac/form.html)的反馈意见，我们将不胜感激。
+第三个标签是*支持*。 Find answers to any questions in the [FAQ](https://adguard-vpn.com/welcome.html#faq) or in the [Knowledge base](/intro.md) sections, report a bug if you encounter one, or [discuss AdGuard on any of the platforms](https://adguard.com/discuss.html). And feel free to [leave feedback about our product](https://surveys.adguard.com/vpn_mac/form.html), we’d appreciate it.
 
 ## 设置
 
@@ -56,7 +56,7 @@ AdGuard VPN Mac版是一个桌面 VPN 服务。 AdGuard VPN 与 AdGuard 广告�
 
 ![应用程序设置](https://cdn.adguardvpn.com/content/kb/vpn/mac/general-settings_en.png)
 
-前四个基本功能提高应用程序的用户友好性，即 *Kill Switch*、 *自动更新*、 *随系统启动自动运行 AdGuard VPN* 和*在应用程序启动时自动连接*。 此外，用户可以在浅色、深色和系统主题之间进行选择。系统主题与您 Mac 上的主题相匹配。
+The first four basic features make the application more convenient and user-friendly, i.e. *Kill Switch*, *Auto-update*, *Launch AdGuard VPN at login*, and *Auto-connect on app launch*. 此外，用户可以在浅色、深色和系统主题之间进行选择。系统主题与您 Mac 上的主题相匹配。
 
 另一个不应忽视的功能是，用户可以允许 AdGuard VPN 收集和匿名发送崩溃报告、技术和互动数据，以帮助我们改进我们的应用程序。 最后但同样重要的是，借助右侧的按钮，用户可以将日志导出到 Mac。 如果您想将日志附加到您的消息以提供客服支持，本功能很有用。
 

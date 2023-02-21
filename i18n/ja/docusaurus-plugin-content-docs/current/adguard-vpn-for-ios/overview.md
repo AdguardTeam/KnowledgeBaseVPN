@@ -33,13 +33,13 @@ AdGuard VPN の使い方は非常に簡単です。 メイン画面には、 *�
 
 もう一つの便利な機能は、除外リストのインポート・エクスポートです。 以下がその4ステップ手順です:
 
-1. 除外リストのエクスポート元となる端末・ブラウザで AdGuard VPN を開きます。 該当するセクション（[iOSの場合]「VPN対象外リスト」画面右上の３点アイコン →「*対象外項目をエクスポート*」）で「対象外リストをインポート」ボタンをタップします。 `exclusions.zip` というアーカイブがダウンロードされます。
+1. 除外リストのエクスポート元となる端末・ブラウザで AdGuard VPN を開きます。 Find the appropriate section and click the *Export* button. `exclusions.zip` というアーカイブがダウンロードされます。
 
 2. アーカイブ内には、 `.txt` ファイルが2つあります（レギュラーリスト用と指定リスト用のファイルです）。 アーカイブのファイルに、さらに除外項目を追加したり、既存のものを削除したり、ファイル名を変更したり（これについては下記もご確認ください）、そのままにしておいたり、自由にカスタマイズできます。
 
 3. 異なる端末間で除外リストを移行する場合は、インポート先端末に `.zip` ファイルを送信することを忘れずに。 （例えば、Macからの除外リストをiOS端末にインポートする場合、事前に `.zip` ファイルをiOS端末に送信しておいてください。）
 
-4. 除外リストのアーカイブをインポートしたい端末でAdGuard VPNを開きます。 該当するセクション（[iOSの場合]「VPN対象外リスト」画面右上の３点アイコン →「*対象外項目をインポート*」）で「対象外リストをインポート」ボタンをタップして、アーカイブファイルを選びます。
+4. 除外リストのアーカイブをインポートしたい端末でAdGuard VPNを開きます。 Find the appropriate section, click the *Import* button and select the archive.
 
 ![対象外項目のインポート・エクスポート](https://cdn.adguardvpn.com/content/kb/vpn/ios/import-export-exclusions.png)
 
@@ -58,14 +58,14 @@ AdGuard VPN の使い方は非常に簡単です。 メイン画面には、 *�
 
 AdGuard VPN for iOS には、「**標準**」と「**併用**」という2つの動作モードがあります。
 
-**標準**モードでは、[AdGuard VPN プロトコル](../general/adguard-vpn-protocol.mdx)が採用され、速度とセキュリティの最良の組み合わせが実現されます。 このモードの唯一の欠点は、iOS用AdGuard VPN と [iOS用AdGuard 広告ブロッカー ](https://kb.adguard.com/en/ios)を併用できないということです。
+**標準**モードでは、[AdGuard VPN プロトコル](../general/adguard-vpn-protocol.mdx)が採用され、速度とセキュリティの最良の組み合わせが実現されます。 In this mode, AdGuard VPN will not be able to work alongside [AdGuard Ad Blocker for iOS](https://adguard.com/kb/adguard-for-ios/overview/).
 
 **併用**モードでは、AdGuard VPN は、IPSecプロトコルを使用することで、iOS用AdGuard広告ブロッカーと同時に動作することができます。 このプロトコルも安全ですが、少し遅く、若干検出されやすくなっています。 両アプリをインストールし、併用モードに切り替えるだけで両アプリを併用できます。他の追加操作は必要ありません。
 > ※**併用** モードでは、「VPN対象外リスト」機能を使用したり、DNSサーバーを選択することができません。
 
 ### DNSサーバー
 
-ドメインネームシステム（DNS）の目的は、Webサイトの名前をブラウザが理解できるもの、つまりIPアドレスに変換することです。 この変換の仕事は、DNSサーバーが行います。 iOS用AdGuard VPNでは、それぞれの特徴を持つ複数のDNSサーバーの中から選択できます。 例えば、 「AdGuard DNS」サーバーは広告を削除し、トラッキング（個人情報追跡）から端末を保護します。「AdGuard DNS ファミリー保護」サーバーは、AdGuard DNSの機能とセーフサーチおよびアダルトコンテンツブロック機能を兼ね備えています。 それぞれのDNSプロバイダーによるDNSサーバーは、現在いる地域やお使いのインターネットプロバイダ、その他の要因によって動作が速くなったり遅くなったりすることがあります。 ご自身に合ったものをお選びください。 DNSとその特徴については、[こちらの記事](https://kb.adguard.com/ja/general/dns-filtering#what-is-dns)で詳しく説明しております。
+ドメインネームシステム（DNS）の目的は、Webサイトの名前をブラウザが理解できるもの、つまりIPアドレスに変換することです。 この変換の仕事は、DNSサーバーが行います。 iOS用AdGuard VPNでは、それぞれの特徴を持つ複数のDNSサーバーの中から選択できます。 例えば、 「AdGuard DNS」サーバーは広告を削除し、トラッキング（個人情報追跡）から端末を保護します。「AdGuard DNS ファミリー保護」サーバーは、AdGuard DNSの機能とセーフサーチおよびアダルトコンテンツブロック機能を兼ね備えています。 それぞれのDNSプロバイダーによるDNSサーバーは、現在いる地域やお使いのインターネットプロバイダ、その他の要因によって動作が速くなったり遅くなったりすることがあります。 ご自身に合ったものをお選びください。 You can find out more about DNS and its characteristics [in this article](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns).
 
 ![DNSサーバー画面](https://cdn.adguardvpn.com/content/kb/vpn/ios/dns-server.png)
 

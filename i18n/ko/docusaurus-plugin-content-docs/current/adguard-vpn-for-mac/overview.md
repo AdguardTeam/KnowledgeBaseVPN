@@ -7,7 +7,7 @@ Mac용 AdGuard VPN은 데스크톱 VPN 서비스입니다. AdGuard VPN은 AdGuar
 
 **AdGuard 계정에 로그인하지 않으면 Mac용 AdGuard VPN을 사용할 수 없습니다**. AdGuard 계정이나 Apple, Google 또는 Facebook으로 로그인할 수 있습니다. 다른 계정이 AdGuard 계정과 동일한 이메일 주소에 연결되어 있는지 확인하세요. AdGuard 계정에 적합한 구독이 있으면 데스크톱 앱에서 자동으로 활성화됩니다. 아직도 AdGuard 계정이 없다면 [여기](https://auth.adguard.com/registration.html)에서 만들 수 있습니다.
 
-> 현재 Mac용 AdGuard VPN은 macOS Sierra(10.12) 이상 버전에서 지원됩니다.
+> 현재 Mac용 AdGuard VPN은 macOS Catalina(10.15) 이상 버전에서 지원됩니다.
 
 ## 홈 화면
 
@@ -44,7 +44,7 @@ Mac용 AdGuard VPN은 데스크톱 VPN 서비스입니다. AdGuard VPN은 AdGuar
 
 ![지원 화면](https://cdn.adguardvpn.com/content/kb/vpn/mac/support_en.png)
 
-세 번째 탭은 *고객 지원* 화면입니다. [FAQ](https://adguard-vpn.com/en/welcome.html#faq) 또는 [지식 창고](/intro.md)에서 질문에 대한 답을 찾거나, 버그를 보고하거나, [다른 플랫폼에서 AdGuard에 대해 토론](https://adguard.com/en/discuss.html)하세요. [AdGuard 제품에 대한 피드백](https://surveys.adguard.com/en/vpn_mac/form.html)을 남겨주시면 감사하겠습니다.
+세 번째 탭은 *고객 지원* 화면입니다. Find answers to any questions in the [FAQ](https://adguard-vpn.com/welcome.html#faq) or in the [Knowledge base](/intro.md) sections, report a bug if you encounter one, or [discuss AdGuard on any of the platforms](https://adguard.com/discuss.html). And feel free to [leave feedback about our product](https://surveys.adguard.com/vpn_mac/form.html), we’d appreciate it.
 
 ## 설정
 

@@ -7,7 +7,7 @@ AdGuard VPN pro macOS je služba VPN pro desktopy. AdGuard VPN je plně kompatib
 
 Všimněte si, že **nemůžete používat AdGuard VPN pro macOS, pokud jste se nepřihlásili ke svému účtu AdGuard**. Můžete se přihlásit buď pomocí svého účtu AdGuard, nebo pomocí externího účtu, konkrétně přes Apple, Google nebo Facebook. Ujistěte se, že je váš externí účet vázán na stejnou e-mailovou adresu jako účet AdGuard. Pokud máte v účtu AdGuard vhodné předplatné, bude automaticky aktivováno v aplikaci pro počítače. Ještě nemáte účet AdGuard? [Zde si jej vytvořte](https://auth.adguard.com/registration.html).
 
-> AdGuard VPN pro macOS je v současné době podporována ve verzích macOS počínaje macOS Sierra (10.12).
+> AdGuard VPN pro macOS je v současné době podporována ve verzích macOS počínaje macOS Catalina (10.15).
 
 ## Domovská obrazovka
 
@@ -44,7 +44,7 @@ Připravené seznamy vyloučení lze navíc přenést do jiných zařízení s n
 
 ![Obrazovka podpory](https://cdn.adguardvpn.com/content/kb/vpn/mac/support_en.png)
 
-Třetí karta je obrazovka *Podpory*. Odpovědi na všechny otázky najdete v sekcích [FAQ](https://adguard-vpn.com/en/welcome.html#faq) nebo [Databáze znalostí](/intro.md), můžete nahlásit chybu, pokud na ni narazíte, nebo [diskutovat o AdGuardu na některé z platforem](https://adguard.com/en/discuss.html). A neváhejte [zanechat zpětnou vazbu o našem produktu](https://surveys.adguard.com/en/vpn_mac/form.html), budeme vám vděčni.
+Třetí karta je obrazovka *Podpory*. Odpovědi na všechny otázky najdete v sekcích [FAQ](https://adguard-vpn.com/welcome.html#faq) nebo [Databáze znalostí](/intro.md), můžete nahlásit chybu, pokud na ni narazíte, nebo [diskutovat o AdGuardu na některé z platforem](https://adguard.com/discuss.html). A neváhejte [zanechat zpětnou vazbu o našem produktu](https://surveys.adguard.com/vpn_mac/form.html), budeme vám vděčni.
 
 ## Nastavení
 

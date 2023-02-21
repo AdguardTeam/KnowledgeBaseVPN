@@ -7,17 +7,15 @@ sidebar_position: 2
 
 要安裝 AdGuard VPN 瀏覽器擴展，請跟從以下步驟：
 
-1. 進入 [adguard-vpn.com](https://adguard-vpn.com/browser-extension/overview.html)
+1. Visit [adguard-vpn.com](https://adguard-vpn.com/browser-extension/overview.html).
 
-2. 點擊瀏覽器圖示，然後點擊 *安裝*。
+2. Click the icon of your browser and then click *Install*.
 
-3. 取決於您用的瀏覽器，將打開以下網站之一：Chrome Web Store、Firefox Add-ons 或 Microsoft Edge Add-ons。 點擊相應的按鈕：*添加到 Chrome*、*添加到 Firefox*或 AdGuard VPN擴充功能旁邊的*獲取*。
+3. Depending on your browser, one of the websites will open: Chrome Web Store, Firefox Add-ons, Opera addons, or Microsoft Edge Add-ons. Click the respective button: *Add to Chrome*, *Add to Firefox*, *Add to Opera* or *Get* next to AdGuard VPN Browser extension.
 
-4. 一旦完成安裝，軟件會推薦您轉到 [無限制版本](https://adguard-vpn.com/thankyou.html)。 它不是強迫性的，但如果您發現免費版本對您來說不夠用，您可以隨時[訂閱](/general/subscription.md)。
+4. Read and accept the EULA and Privacy Policy by checking the respective box. You can also allow AdGuard VPN to collect anonymous data on the app usage, which we need to improve our product (this is optional). Then click *Continue*.
 
-4. 通過選中相應的框來閱讀並接受 終端用戶授權協定 和 隱私政策。 您還可以允許 AdGuard VPN 收集應用程序使用狀況的匿名數據，我們需要這些數據來改進我們的產品（這是可選的）。 然後點擊 *繼續*。
-
-5. 註冊或登入您之前創建的 AdGuard 帳號以完成安裝。
+5. Sign up or log into your AdGuard account to finish the installation.
 
 享受 AdGuard VPN！
 
@@ -34,3 +32,7 @@ sidebar_position: 2
 ### Edge
 
 點擊瀏覽器右上角的三點圖示，然後按下 *擴充功能*。 在清單中找到 AdGuard VPN，點擊其旁邊的三點圖示並選擇 *從 Microsoft Edge 移除*。
+
+### Opera
+
+Click the *Extensions* icon in the top right corner of the browser, then select *Manage extensions...*. Find AdGuard VPN in the list and click the *Remove* button.  

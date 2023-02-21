@@ -24,7 +24,7 @@ sidebar_position: 2
 ## 3. 正在选择 DNS 服务器
 不再依赖你的 ISP 默认提供的 DNS 服务器吧！ 首先，这并不安全，你的 ISP 很可能可以访问客户的浏览历史记录。 第二，人们经常低估 DNS，然而它可以删除广告和跟踪器，保护您的设备免受恶意软件的影响，或者，例如，启用安全搜索和阻止成人内容。
 
-你可以从[知名的 DNS 供应商](https://kb.adguard.com/en/general/dns-providers)中选择 DNS 服务器，如 AdGuard、Cisco、Cloudflare、Google 或 Quad9，甚至可以使用你自己私人的 DNS 服务器。
+You can choose DNS servers from [known DNS providers](https://adguard-dns.io/kb/general/dns-providers/) such as AdGuard, Cisco, Cloudflare, Google, or Quad9, or even configure to use your own DNS server.
 
 ## 4. 最快的位置
 
@@ -38,10 +38,10 @@ sidebar_position: 2
 
 不过，说到移动设备就没那么简单了。 在绝大多数情况下，两个基于 VPN 的应用程序不会一起工作，是因为存在某些由操作系统引起的限制，阻止了这种情况的发生，无论是在 Android 还是 iOS 上。
 
-然而，我们设法找到了一个解决方案，以兼容的方式，结合 AdGuard VPN 和 AdGuard 广告拦截程序。 当你在一台设备上同时安装了两个 AdGuard 应用程序时，它们就将自动兼容。 这是 AdGuard 为大家提供的一个独特的机会，可以同时利用两套功能，而你通常必须在这两套功能中做出选择。
+然而，我们设法找到了一个解决方案，以兼容的方式，结合 AdGuard VPN 和 AdGuard 广告拦截程序。 When you have both AdGuard apps installed on one device, they will automatically become compatible without any input required from you. 这是 AdGuard 为大家提供的一个独特的机会，可以同时利用两套功能，而你通常必须在这两套功能中做出选择。
 
 ## 6. QUIC 的支持
-[QUIC](https://adguard.com/zh_cn/blog/dns-over-quic.html) 是具有很多优点的尖端协议。 主要优点是它可以改善非理想条件下的连接质量 —— 例如，在移动设备上或连接到公共 Wi-Fi 时。 虽然新协议在连接正常和稳定的情况下不会影响速度，但对于网络速度慢的用户来说，它肯定会使情况好转。
+[QUIC](https://adguard.com/blog/dns-over-quic.html) is a cutting-edge protocol that has many perks. 主要优点是它可以改善非理想条件下的连接质量 —— 例如，在移动设备上或连接到公共 Wi-Fi 时。 虽然新协议在连接正常和稳定的情况下不会影响速度，但对于网络速度慢的用户来说，它肯定会使情况好转。
 
 *现在让我们转到任何 VPN 都不能缺少的项目。*
 

@@ -73,7 +73,7 @@ Der nach rechts geschaltete Schieberegler aktiviert einen AdGuard VPN-Autostart 
 
 ### DNS-Server
 
-Der Zweck des [Domain-Name-Systems](https://kb.adguard.com/en/general/dns-filtering#what-is-dns) (DNS) besteht darin, die Namen von Websites in etwas zu übersetzen, das Browser verstehen können — IP-Adressen. Diese Aufgabe wird von DNS-Servern ausgeführt. AdGuard VPN für Android bietet eine Auswahl aus mehreren DNS-Servern mit jeweils besonderen Eigenschaften. Zum Beispiel entfernt [AdGuard DNS](https://kb.adguard.com/en/dns/overview) Werbung und schützt Ihr Gerät vor Tracking, während AdGuard DNS Family Protection die Funktionen von AdGuard DNS mit SafeSearch und dem Blockieren von Inhalten für Erwachsene kombiniert. Es besteht auch die Möglichkeit, einen eigenen DNS-Server hinzuzufügen.
+Der Zweck des [Domain-Name-Systems](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns) (DNS) besteht darin, die Namen von Websites in etwas zu übersetzen, das Browser verstehen können — IP-Adressen. Diese Aufgabe wird von DNS-Servern ausgeführt. AdGuard VPN für Android bietet eine Auswahl aus mehreren DNS-Servern mit jeweils besonderen Eigenschaften. Zum Beispiel entfernt [AdGuard DNS](https://adguard-dns.io/kb/) Werbung und schützt Ihr Gerät vor Tracking, während AdGuard DNS Family Protection die Funktionen von AdGuard DNS mit SafeSearch und dem Blockieren von Inhalten für Erwachsene kombiniert. Es besteht auch die Möglichkeit, einen eigenen DNS-Server hinzuzufügen.
 
 ### Auto-Schutz
 
@@ -106,4 +106,3 @@ Der letzte Abschnitt von *Erweiterten Einstellungen* ist *Low-Level-Einstellunge
 ### Support
 
 Im Abschnitt *Support* können Sie Feedback hinterlassen, einen Fehler melden oder Protokolle und Systeminformationen zur weiteren Übermittlung an den Helpdesk exportieren.
- 

@@ -73,7 +73,7 @@ O controle deslizante à direita permite uma inicialização automática do AdGu
 
 ### Servidores DNS
 
-O objetivo do [Domain Name System](https://kb.adguard.com/en/general/dns-filtering#what-is-dns) (DNS) é traduzir os nomes dos sites em algo que os navegadores possam entender, ou seja, endereços IP. Este trabalho é executado por servidores DNS. O AdGuard VPN para Android oferece uma escolha de vários servidores DNS, cada um com características especiais. Por exemplo, o [AdGuard DNS](https://kb.adguard.com/en/dns/overview) remove anúncios e protege seu dispositivo contra rastreamento, enquanto o AdGuard DNS Family Protection combina as funções do AdGuard DNS com SafeSearch e bloqueio de conteúdo adulto. Há também uma opção para adicionar um servidor DNS personalizado.
+The purpose of the [Domain name system](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns) (DNS) is to translate websites' names into something browsers can understand, i.e. IP addresses. Este trabalho é executado por servidores DNS. O AdGuard VPN para Android oferece uma escolha de vários servidores DNS, cada um com características especiais. For example, [AdGuard DNS](https://adguard-dns.io/kb/) removes ads and protects your device from tracking while AdGuard DNS Family Protection combines the functions of AdGuard DNS with SafeSearch and adult content blocking. Há também uma opção para adicionar um servidor DNS personalizado.
 
 ### Proteção automática
 
@@ -95,7 +95,7 @@ Você pode escolher o tema padrão do sistema, escuro ou claro para o aplicativo
 
 Nas *Configurações avançadas*, você encontrará cinco seções. Você pode *nos ajudar a melhorar* alternando a chave no bloco superior. Essa ação permitirá que o AdGuard VPN colete relatórios de falhas, dados técnicos e de interação. Esta informação chegará anonimamente.
 
-A seção *Modo de operação* permite que você escolha uma das três opções: VPN, Proxy e Modo de compatibilidade. No *modo VPN*, todo o tráfego é roteado automaticamente através do AdGuard VPN. Quando o modo *Proxy* (SOCKS5) está ativado, o AdGuard VPN executa um servidor proxy local que pode ser usado por outros aplicativos para rotear seu tráfego. Escolha esta opção somente se você souber o que está fazendo. A ativação do *Modo de compatibilidade* permite que o AdGuard VPN e o AdGuard Ad Blocker funcionem juntos.
+A seção *Modo de operação* permite que você escolha uma das três opções: VPN, Proxy e Modo de compatibilidade. No *modo VPN*, todo o tráfego é roteado automaticamente através do AdGuard VPN. When the *Proxy mode* (SOCKS5) is on, AdGuard VPN runs a local proxy server which can be used by other apps to route their traffic through it. Escolha esta opção somente se você souber o que está fazendo. A ativação do *Modo de compatibilidade* permite que o AdGuard VPN e o AdGuard Ad Blocker funcionem juntos.
 
 > Tenha em conta que alguns recursos do AdGuard VPN ficam desativados no *Modo de compatibilidade*: seleção de servidor DNS, Kill Switch e proteção automática. Além disso, para gerenciar o tunelamento de aplicativos, você deve abrir o aplicativo AdGuard Ad Blocker.
 
@@ -106,4 +106,3 @@ A última seção de *Configurações avançadas* é *Configurações de nível 
 ### Suporte
 
 Na seção *Suporte*, você pode deixar comentários, relatar um bug ou exportar logs e informações do sistema para posterior envio ao helpdesk.
- 

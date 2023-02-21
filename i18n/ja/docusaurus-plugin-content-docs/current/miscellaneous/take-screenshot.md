@@ -28,7 +28,7 @@ Android端末でスクリーンショットを撮るには、機種やメーカ�
 
 Android 8以降では、スマートフォンの左端または右端に沿って手を垂直に置き、画面に触れながらその端からスワイプすることで、スクリーンショットを撮ることもできます。
 
-この方法で撮れない場合は、 *設定* → *便利な機能* → モーションとジェスチャー → 「*スワイプキャプチャ*」を有効にしてください。
+If this method doesn’t work, check *Settings* → *Advanced features* → *Motions and gestures* → enable *Palm swipe to capture*.
 
 さらに、端末でスクリーンショットを撮る専用アプリを使用できます。たとえば、 *Screenshot Easy*、 *Screenshot Ultimate*、 *Screenshot Snap*などです。
 

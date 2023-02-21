@@ -5,7 +5,7 @@ sidebar_position: 2
 
 ## Requisitos do Sistema
 
-**Versão do sistema operacional**: macOS 10.12 (64 bits) ou superior
+**Operating system version**: macOS 10.15 (64-bit) or higher
 
 **RAM**: pelo menos 2 GB
 
@@ -45,7 +45,7 @@ Para desinstalar o AdGuard VPN para Mac, siga duas etapas simples:
 
 1. Abra o "Finder" e vá para a seção "Programas".
 
-2. Selecione *AdGuard VPN* na lista, clique com o botão direito do mouse e clique em *Move to Trash*.
+2. Select *AdGuard VPN* from the list, right-click it and then click *Move to Trash*.
 
 ![Desinstalação padrão](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-uninstall-1-en.png)
 
