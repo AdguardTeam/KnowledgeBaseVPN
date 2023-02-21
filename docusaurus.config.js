@@ -103,7 +103,7 @@ module.exports = {
             },
             {
               label: 'what_is_vpn',
-              href: VPN_WEBSITE_URL + '/what-is-vpn.html',
+              href: VPN_WEBSITE_URL + '/en/what-is-vpn.html',
             },
             {
               label: 'blog',
