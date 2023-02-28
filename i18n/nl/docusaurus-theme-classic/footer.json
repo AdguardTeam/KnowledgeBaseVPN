@@ -25,7 +25,7 @@
   },
   "link.item.label.what_is_vpn": {
     "message": "Wat is VPN",
-    "description": "The label of footer link with label=what_is_vpn linking to https://adguard-vpn.com/what-is-vpn.html"
+    "description": "The label of footer link with label=what_is_vpn linking to https://adguard-vpn.com/en/what-is-vpn.html"
   },
   "link.item.label.blog": {
     "message": "Blog",
@@ -53,11 +53,11 @@
   },
   "link.item.label.support": {
     "message": "Ondersteuning",
-    "description": "The label of footer link with label=support linking to https://adguard-vpn.com/support/support.html"
+    "description": "The label of footer link with label=support linking to https://adguard-vpn.com/support.html"
   },
   "link.item.label.how_to_install": {
     "message": "Hoe AdGuard VPN te installeren",
-    "description": "The label of footer link with label=how_to_install linking to https://kb.adguard.com/vpn/installation"
+    "description": "The label of footer link with label=how_to_install linking to /general/how-to-install/"
   },
   "link.item.label.faq": {
     "message": "Veelgestelde vragen",

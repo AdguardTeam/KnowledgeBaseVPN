@@ -7,17 +7,15 @@ sidebar_position: 2
 
 ブラウザ拡張機能版AdGuard VPNをインストールする方法は以下の通りです。
 
-1. [adguard-vpn.com](https://adguard-vpn.com/browser-extension/overview.html)にアクセスする
+1. Visit [adguard-vpn.com](https://adguard-vpn.com/browser-extension/overview.html).
 
-2. お使いのブラウザのアイコンをクリックし、「*インストール*」ボタンをクリックする
+2. Click the icon of your browser and then click *Install*.
 
-3. お使いのブラウザによって、いずれかのWebサイト（Chromeウェブストア、Firefox Add-ons、Microsoft Edge Add-ons、Opera addons）が開きます。 該当するボタンをクリックしてください（「*Chromeに追加*」「*Firefoxに追加*」 やAdGuard VPNブラウザ拡張機能の横の「*入手* 」ボタンをクリックしてください。
+3. Depending on your browser, one of the websites will open: Chrome Web Store, Firefox Add-ons, Opera addons, or Microsoft Edge Add-ons. Click the respective button: *Add to Chrome*, *Add to Firefox*, *Add to Opera* or *Get* next to AdGuard VPN Browser extension.
 
-4. インストールが完了すると、 [無制限版](https://adguard-vpn.com/thankyou.html)に切り替えるようお勧めするページが表示されます。 ※こちらは完全任意でお客様次第でございまして、もし無料版では物足りないと感じたら、いつでも無制限版の[サブスクリプション](/general/subscription.md)を購入することができるというお知らせページに過ぎません。
+4. Read and accept the EULA and Privacy Policy by checking the respective box. You can also allow AdGuard VPN to collect anonymous data on the app usage, which we need to improve our product (this is optional). Then click *Continue*.
 
-4. 拡張機能を開いたら、利用許諾契約（EULA）とプライバシーポリシーを確認し、チェックボックスにチェックを入れて同意してください。 また、AdGuard VPNが製品向上のために必要な、アプリの使用状況に関する匿名化されたデータを収集することを許可するチェックボックスにチェックを入れることもできます（これは任意です）。 「*続行する*」をクリックします。
-
-5. AdGuardアカウントを登録する（メールアドレスのみが必要で、すぐに終わります）か、既にお持ちのアカウントでログインして、インストール完了です。
+5. Sign up or log into your AdGuard account to finish the installation.
 
 ぜひAdGuard VPNのご利用をお楽しみください！
 
@@ -34,3 +32,7 @@ sidebar_position: 2
 ### Edge版
 
 ブラウザの右上にある3点アイコンをクリックし、 「*拡張機能*」を選択します。 リストでAdGuard VPNを見つけ、その横にある3点アイコンをクリックし、 「*Microsoft Edgeから削除*」を選択します。
+
+### Opera
+
+Click the *Extensions* icon in the top right corner of the browser, then select *Manage extensions...*. Find AdGuard VPN in the list and click the *Remove* button.  

@@ -73,7 +73,7 @@ Sağa kaydırılan kaydırıcı, cihaz başlatıldıktan sonra AdGuard VPN'nin o
 
 ### DNS sunucuları
 
-[Alan adı sisteminin](https://kb.adguard.com/en/general/dns-filtering#what-is-dns) (DNS) amacı, site adlarını tarayıcıların anlayabileceği bir şeye, yani IP adreslerine çevirmektir. Bu iş DNS sunucuları tarafından gerçekleştirilir. Android için AdGuard VPN, her biri özel niteliklere sahip birkaç DNS sunucusu seçeneği sunar. Örneğin, [AdGuard DNS](https://kb.adguard.com/en/dns/overview) reklamları kaldırır ve cihazınızı izlemeye karşı korurken AdGuard DNS Family Protection, AdGuard DNS'nin işlevlerini Güvenli Arama ve yetişkinlere yönelik içerik engelleme ile birleştirir. Özel bir DNS sunucusu ekleme seçeneği de vardır.
+[Alan adı sisteminin](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns) (DNS) amacı, site adlarını tarayıcıların anlayabileceği bir şeye, yani IP adreslerine çevirmektir. Bu iş DNS sunucuları tarafından gerçekleştirilir. Android için AdGuard VPN, her biri özel niteliklere sahip birkaç DNS sunucusu seçeneği sunar. Örneğin, [AdGuard DNS](https://adguard-dns.io/kb/) reklamları kaldırır ve cihazınızı izlemeye karşı korurken AdGuard DNS Family Protection, AdGuard DNS'nin işlevlerini Güvenli Arama ve yetişkinlere yönelik içerik engelleme ile birleştirir. Özel bir DNS sunucusu ekleme seçeneği de vardır.
 
 ### Otomatik koruma
 
@@ -106,4 +106,3 @@ Sonraki iki bölüm, *Günlük kayıt düzeyi* ve *Tanılama bilgisidir*. İlk s
 ### Destek
 
 *Destek* bölümünde, yardım masasına daha fazla göndermek için geri bildirimde bulunabilir, bir hata bildirebilir veya günlükleri ve sistem bilgisini dışa aktarabilirsiniz.
- 

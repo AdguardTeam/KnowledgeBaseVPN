@@ -58,14 +58,14 @@ AdGuard VPN을 사용하는 것은 매우 쉽습니다. 메인 화면에는 *연
 
 iOS용 AdGuard VPN은 두 가지 모드(일반 및 통합)에서 작동할 수 있습니다.
 
-**일반 모드**에서는 속도와 보안의 최상의 조합을 제공하는 [AdGuard VPN 프로토콜](../general/adguard-vpn-protocol.mdx)이 사용됩니다. 이 모드에서 AdGuard VPN은 [iOS용 AdGuard 광고 차단기](https://kb.adguard.com/en/ios)와 함께 작동할 수 없습니다.
+**일반 모드**에서는 속도와 보안의 최상의 조합을 제공하는 [AdGuard VPN 프로토콜](../general/adguard-vpn-protocol.mdx)이 사용됩니다. 이 모드에서 AdGuard VPN은 [iOS용 AdGuard 광고 차단기](https://adguard.com/kb/adguard-for-ios/overview/)와 함께 작동할 수 없습니다.
 
 **통합 모드**에서 AdGuard VPN은 IPSec 프로토콜을 사용하여 iOS 광고 차단기용 AdGuard와 동시에 작동할 수 있습니다. IPSec 프로토콜도 안전하지만 조금 더 느리고 감지하기 쉽습니다. 통합 모드를 사용하려면 두 앱을 모두 설치하고 통합 모드로 전환하기만 하면 됩니다.
 > **통합 모드**에서는 제외 기능이나 DNS 서버를 사용할 수 없습니다.
 
 ### DNS 서버
 
-DNS(Domain name system, 도메인 이름 시스템)의 목적은 DNS 서버를 통해 웹사이트 이름을 IP 주소로 변환하는 것입니다. iOS용 AdGuard VPN은 각각 특별한 품질을 가진 여러 DNS 서버를 제공합니다. 예를 들어, AdGuard DNS는 광고를 제거하고 기기가 추적되지 않도록 보호하며 AdGuard DNS 자녀 보호는 AdGuard DNS, 세이프 서치 및 성인 콘텐츠 차단 기능을 결합합니다. 다른 DNS 공급자의 DNS 서버는 위치, ISP 및 기타 요인에 따라 더 빠르게 또는 느리게 작동할 수 있습니다. 당신에게 딱 맞는 DNS를 선택하세요. [이 글](https://kb.adguard.com/en/general/dns-filtering#what-is-dns)에서 DNS 및 해당 특성에 대해 자세히 알아볼 수 있습니다.
+DNS(Domain name system, 도메인 이름 시스템)의 목적은 DNS 서버를 통해 웹사이트 이름을 IP 주소로 변환하는 것입니다. iOS용 AdGuard VPN은 각각 특별한 품질을 가진 여러 DNS 서버를 제공합니다. 예를 들어, AdGuard DNS는 광고를 제거하고 기기가 추적되지 않도록 보호하며 AdGuard DNS 자녀 보호는 AdGuard DNS, 세이프 서치 및 성인 콘텐츠 차단 기능을 결합합니다. 다른 DNS 공급자의 DNS 서버는 위치, ISP 및 기타 요인에 따라 더 빠르게 또는 느리게 작동할 수 있습니다. 당신에게 딱 맞는 DNS를 선택하세요. [이 글](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns)에서 DNS 및 해당 특성에 대해 자세히 알아볼 수 있습니다.
 
 ![DNS 서버 화면](https://cdn.adguardvpn.com/content/kb/vpn/ios/dns-server.png)
 

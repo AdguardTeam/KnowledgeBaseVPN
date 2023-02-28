@@ -28,7 +28,7 @@ Aber wie bereits gesagt, kann es je nach Gerät Unterschiede geben. Schauen wir 
 
 Auf Android 8 und höher gibt es auch die Möglichkeit, einen Screenshot zu machen, indem Sie Ihre Hand vertikal entlang der linken oder rechten Kante Ihres Telefons platzieren und von dieser Kante mit Ihrer Hand nach innen wischen, indem Sie den Bildschirm berühren.
 
-Wenn diese Methode nicht funktioniert, prüfen Sie *Einstellungen* → *Erweiterte* Funktionen, um *Palm Swipe to Capture* zu aktivieren.
+Wenn diese Methode nicht funktioniert, überprüfen Sie *Einstellungen* → *Erweiterte Funktionen* → *Bewegungen und Gesten* → und aktivieren Sie *Handflächenwischen zur Erfassung*.
 
 Außerdem können Sie jederzeit spezielle Apps zum Aufnehmen von Screenshots auf Ihren Geräten verwenden, z. B. — *Screenshot Easy*, *Screenshot Ultimate*, *Screenshot Snap* usw.
 
@@ -72,7 +72,7 @@ Es gibt auch ein spezielles Programm zum Aufnehmen von Screenshots namens *Snipp
 
 Außerdem können Sie auch versuchen, verschiedene Apps zum Aufnehmen von Screenshots auf Ihrem Computer zu verwenden, z. B. **PicPick**, **Nimbus Screenshot**, **Screenshot Captor**, **Snipaste**, **Monosnap** usw.
 
-### MacOS
+### macOS
 
 Um einen Screenshot auf dem Mac zu machen, verwenden Sie die folgende Tastenkombination:
 

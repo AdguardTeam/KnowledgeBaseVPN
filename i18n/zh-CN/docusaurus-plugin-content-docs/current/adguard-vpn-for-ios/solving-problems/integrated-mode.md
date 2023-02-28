@@ -9,7 +9,7 @@ AdGuard VPN 具有两个操作模式，即常规模式和整合模式。 常规�
 
 在整合模式下，使用的是 IPsec 协议，因此可以使 AdGuard 系列应用协同工作。 如果您在安装 AdGuard VPN 时已经安装了 AdGuard 广告拦截程序，那么整合模式将会自动开启使得同系列应用程序同时运行。 如果您先安装了 AdGuard VPN，然后才决定试用 AdGuard 广告拦截程序，请按照以下步骤执行操作一起使用两款应用程序。
 
-1. 打开 AdGuard VPN iOS 版，选择屏幕右下角的「设置」。
+1. Open AdGuard VPN for iOS and select "Settings" in the lower right corner of the screen.
 
 2. 点击「应用程序设置」，选择「操作模式」。
 

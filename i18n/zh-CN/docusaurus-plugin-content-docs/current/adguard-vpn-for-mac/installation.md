@@ -5,7 +5,7 @@ sidebar_position: 2
 
 ## 系统要求
 
-**操作系统版本**： macOS 10.12（64 位）或更高版本
+**Operating system version**: macOS 10.15 (64-bit) or higher
 
 **RAM**： 至少 2GB
 
@@ -45,7 +45,7 @@ AdGuard VPN Mac 版安装成功！
 
 1. 打开「Finder」并转到「程序」部分。
 
-2. 从列表中右键单击「*AdGuard VPN*」，然后单击「*移到废纸篓*」。
+2. Select *AdGuard VPN* from the list, right-click it and then click *Move to Trash*.
 
 ![标准卸载](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-uninstall-1-en.png)
 

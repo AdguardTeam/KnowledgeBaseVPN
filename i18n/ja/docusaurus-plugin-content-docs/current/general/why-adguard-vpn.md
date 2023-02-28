@@ -24,7 +24,7 @@ Webサイトを手動で対象外リストに追加したり、人気のある�
 ## 3. DNSサーバーの選択
 もう、インターネットプロバイダが提供するDNSサーバーに頼らなくていいんです。 まず、お使いのISP（インターネットプロバイダー）は、あなたの閲覧履歴にアクセスできる可能性が高いのです。 また、DNS機能は軽視されがちですが、広告やトラッカー（個人情報追跡）を除去したり、マルウェアからデバイスを保護したり、セーフサーチを適用にしたり、アダルトコンテンツをブロックしたりすることができます。
 
-DNSサーバーは、AdGuard、Cisco、Cloudflare、Google、Quad9など、 [有名なDNSプロバイダー](https://kb.adguard.com/ja/general/dns-providers)から選ぶことができ、また、独自のDNSサーバーを使用するように設定することも可能です。
+You can choose DNS servers from [known DNS providers](https://adguard-dns.io/kb/general/dns-providers/) such as AdGuard, Cisco, Cloudflare, Google, or Quad9, or even configure to use your own DNS server.
 
 ## 4. 一番速いロケーション
 
@@ -38,10 +38,10 @@ PCアプリやブラウザ拡張機能の場合、言うまでもありません
 
 一方、モバイル端末の場合は、問題が起こったりします。 AndroidとiOSの両方において、ほとんどの場合、OSに起因する制限が存在するため、2つのVPNベースアプリは一緒に同時動作しません。
 
-しかし、私たちはAdGuard VPNとAdGuard広告ブロッカーを併用するための解決策を見つけることができました。 1台のモバイル端末に両方のAdGuardアプリ（AdGuard VPNとAdGuard広告ブロッカー）を同時にインストールしますと、何も操作しなくても自動的に互換性（併用モード）が保たれます。 通常であればどちらかを選択しなければならない2つの機能セット（VPNと広告ブロッカー）を同時に利用できるということです。
+しかし、私たちはAdGuard VPNとAdGuard広告ブロッカーを併用するための解決策を見つけることができました。 When you have both AdGuard apps installed on one device, they will automatically become compatible without any input required from you. 通常であればどちらかを選択しなければならない2つの機能セット（VPNと広告ブロッカー）を同時に利用できるということです。
 
 ## 6. QUIC対応
-[QUIC](https://adguard.com/ja/blog/dns-over-quic.html) は、多くの長所を持つ最先端のプロトコルです。 主なメリットは、モバイル端末や公衆Wi-Fi接続時など、理想的でない接続環境で接続品質を改善できることです。 QUICプロトコルは、接続が問題なく安定している場合には速度に影響を与えませんが、インターネットが遅いユーザーにとっては状況が良くなることは間違いありません。
+[QUIC](https://adguard.com/blog/dns-over-quic.html) is a cutting-edge protocol that has many perks. 主なメリットは、モバイル端末や公衆Wi-Fi接続時など、理想的でない接続環境で接続品質を改善できることです。 QUICプロトコルは、接続が問題なく安定している場合には速度に影響を与えませんが、インターネットが遅いユーザーにとっては状況が良くなることは間違いありません。
 
 *さて、ここでまともなVPNには欠かせない機能をみてましょう。*
 

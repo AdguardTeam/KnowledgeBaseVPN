@@ -24,7 +24,7 @@ Webové stránky můžete do výjimek přidat ručně nebo je vybrat ze seznamu 
 ## 3. Výběr DNS serveru
 Už se nemusíte spoléhat na server DNS nabízený vaším poskytovatelem internetových služeb (ISP)! Za prvé, není to bezpečné: váš ISP má pravděpodobně přístup k vaší historii prohlížení. Za druhé, lidé DNS často podceňují, přestože dokáže odstranit reklamy a slídiče, chránit zařízení před malwarem nebo například umožnit bezpečné vyhledávání a blokovat obsah pro dospělé.
 
-Můžete si vybrat DNS servery od [známých poskytovatelů](https://kb.adguard.com/en/general/dns-providers) jako je AdGuard, Cisco, Cloudflare, Google nebo Quad9, nebo dokonce nakonfigurovat použití vlastního DNS serveru.
+Můžete si vybrat DNS servery od [známých poskytovatelů](https://adguard-dns.io/kb/general/dns-providers/) jako je AdGuard, Cisco, Cloudflare, Google nebo Quad9, nebo dokonce nakonfigurovat použití vlastního DNS serveru.
 
 ## 4. Nejrychlejší umístění
 
@@ -38,10 +38,10 @@ U desktopových aplikací a rozšíření prohlížeče je to samozřejmé — m
 
 Naproti tomu u mobilních zařízení to tak jednoduché není. V naprosté většině případů nebudou dvě aplikace VPN fungovat společně, protože tomu brání určitá omezení způsobená operačním systémem, a to jak v systému Android, tak v systému iOS.
 
-Podařilo se nám však najít řešení, jak spřátelit AdGuard VPN a blokátor reklam AdGuard. Pokud máte v jednom zařízení nainstalovány obě aplikace AdGuard současně, stanou se automaticky kompatibilními, aniž byste museli cokoli dělat. Jedná se o jedinečnou příležitost využít dvě sady funkcí, mezi kterými byste si za normálních okolností museli vybrat.
+Podařilo se nám však najít řešení, jak spřátelit AdGuard VPN a blokátor reklam AdGuard. Pokud máte v jednom zařízení nainstalovány obě aplikace AdGuard, stanou se automaticky kompatibilními, aniž byste museli cokoli dělat. Jedná se o jedinečnou příležitost využít dvě sady funkcí, mezi kterými byste si za normálních okolností museli vybrat.
 
 ## 6. Podpora QUIC
-[QUIC](https://adguard.com/en/blog/dns-over-quic.html) je špičkový protokol, který má mnoho výhod. Hlavní výhodou je, že může zlepšit kvalitu připojení v neideálních podmínkách – například na mobilních zařízeních nebo při připojení k veřejné Wi-Fi. Nový protokol sice neovlivní rychlost, pokud je připojení v pořádku a stabilní, ale rozhodně zlepší situaci uživatelů s pomalým internetem.
+[QUIC](https://adguard.com/blog/dns-over-quic.html) je špičkový protokol, který má mnoho výhod. Hlavní výhodou je, že může zlepšit kvalitu připojení v neideálních podmínkách – například na mobilních zařízeních nebo při připojení k veřejné Wi-Fi. Nový protokol sice neovlivní rychlost, pokud je připojení v pořádku a stabilní, ale rozhodně zlepší situaci uživatelů s pomalým internetem.
 
 *Nyní přejděme k sadě položek, bez kterých se žádná slušná VPN neobejde.*
 

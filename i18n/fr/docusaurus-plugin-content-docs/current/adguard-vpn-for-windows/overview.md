@@ -5,7 +5,7 @@ sidebar_position: 1
 
 ## Qu’est-ce que AdGuard VPN pour Windows ?
 
-Un VPN, acronyme anglais de "réseau privé virtuel", est un service qui sécurise votre connexion Internet et vous aide à rester anonyme en ligne. Comment ça marche ? Chaque fois que vous visitez un site web sans utiliser un VPN, votre FAI le voit. Il sait qui vous êtes et ce que vous recherchez, et il peut collecter et vendre ces données. À son tour, le site web que vous avez visité peut également suivre votre activité. Lorsque vous activez une application VPN, elle redirige votre trafic à travers un tunnel chiffré vers un serveur VPN distant, ce qui garantit le respect de votre vie privée : le fournisseur d'accès ne sait pas où vous avez envoyé une demande et le site ne sait pas d'où vous venez.
+A VPN, acronym for "Virtual Private Network", is a service that makes your Internet connection safe and helps you stay anonymous online. Comment ça marche ? Chaque fois que vous visitez un site web sans utiliser un VPN, votre FAI le voit. Il sait qui vous êtes et ce que vous recherchez, et il peut collecter et vendre ces données. À son tour, le site web que vous avez visité peut également suivre votre activité. Lorsque vous activez une application VPN, elle redirige votre trafic à travers un tunnel chiffré vers un serveur VPN distant, ce qui garantit le respect de votre vie privée : le fournisseur d'accès ne sait pas où vous avez envoyé une demande et le site ne sait pas d'où vous venez.
 
 **Qu’est-ce que fait AdGuard VPN pour Windows**
 
@@ -19,13 +19,13 @@ AdGuard VPN pour Windows présente de nombreux avantages, c'est pourquoi nous le
 
 ## Comment commencer à utiliser AdGuard VPN pour Windows
 
-Pour commencer à utiliser AdGuard VPN pour Windows, téléchargez l'application depuis [notre site web](https://adguard-vpn.com/welcome.html). L'installation ne prend pas plus d'une minute - et vous verrez une fenêtre de dialogue dans laquelle vous devrez cocher au moins une case appliquant les termes de l'accord d'utilisation et de la politique de confidentialité. Et c'est à vous de décider si vous souhaitez qu'AdGuard collecte des données anonymisées sur l'utilisation de votre application. Enfin le programme vous demandera de vous connecter, soit via le compte [AdGuard](https://auth.adguard.com/login.html) soit via les réseaux sociaux (Apple, Google, Facebook). C'est tout, vous pouvez maintenant utiliser AdGuard VPN pour Windows.
+Pour commencer à utiliser AdGuard VPN pour Windows, téléchargez l'application depuis [notre site web](https://adguard-vpn.com/welcome.html). The installation takes no more than a minute — and you'll see a dialog window where you'll need to check at least one box applying the terms of the User Agreement and the Privacy policy. Et c'est à vous de décider si vous souhaitez qu'AdGuard collecte des données anonymisées sur l'utilisation de votre application. Enfin le programme vous demandera de vous connecter, soit via le compte [AdGuard](https://auth.adguard.com/login.html) soit via les réseaux sociaux (Apple, Google, Facebook). C'est tout, vous pouvez maintenant utiliser AdGuard VPN pour Windows.
 
 ## Écran d'accueil
 
 ![Page d'accueil de AdGuard VPN pour Windows](https://cdn.adguardvpn.com/content/release_notes/vpn/windows/v2.0/new_main_window_en.png)
 
-L’élément le plus visible sur **l’écran d’accueil** est le bouton de connexion/déconnexion de AdGuard VPN. Dessous, vous pouvez voir le [mode](#exclusions) dans lequel l’application s’exécute, et ci-dessous - le serveur sélectionné. Sur le côté droit de l'écran, vous trouverez tous les emplacements disponibles. L'emplacement le plus rapide, c'est-à-dire celui avec le ping le plus court, est affiché en haut de la liste.
+L’élément le plus visible sur **l’écran d’accueil** est le bouton de connexion/déconnexion de AdGuard VPN. Above the button you can see the [mode](#exclusions) in which the application is running, and below it you can see the selected server. Sur le côté droit de l'écran, vous trouverez tous les emplacements disponibles. The fastest location, i.e. the one with the lowest ping, is shown at the top of the list.
 
 En haut de l'écran se trouve un panneau de navigation avec quatre onglets : **Accueil**, **Exclusions**, **Assistance**, **Paramètres**.
 
@@ -63,13 +63,13 @@ Le quatrième onglet de la barre d'onglets de l'application contient des section
 
 Dans la section **Paramètres de l'application** , vous pouvez définir la langue de l'application et également activer **Kill Switch**, qui bloquera l'accès à Internet si votre connexion VPN plante. Ceci est nécessaire pour empêcher les intrus d'accéder à vos données si vous vous retrouvez sans protection VPN alors que vous êtes connecté à un réseau Wi-Fi public ou mobile.
 
-Vous pouvez également activer les fonctionnalités suivantes en un seul clic : **Mise à jour automatique**, **Lancer le VPN AdGuard au démarrage de Windows**, **Se connecter automatiquement au lancement de l'application** et autoriser AdGuard à collecter des données d'utilisation anonymes de l'application pour que l'équipe AdGuard puisse obtenir l'info sur des problèmes potentiels d'utilisation. Ici, vous pouvez également changer le thème en **Clair**, **Système** ou **Sombre**.
+You can also activate the following features with a single click: **Auto-update**, **Launch AdGuard VPN at Windows startup**, **Auto-connect on app launch**, and allow AdGuard to collect anonymized app usage data so that the AdGuard team gets the info on potential usability issues. Ici, vous pouvez également changer le thème en **Clair**, **Système** ou **Sombre**.
 
 En bas de la page, il y a deux sections : **Serveurs DNS** et **Paramètres avancés**.
 
 #### Serveurs DNS
 
-L'onglet **Serveurs DNS** vous permet d'ajouter votre serveur DNS personnalisé. Vous pouvez configurer un serveur DNS par n'importe quel fournisseur. Nous recommandons d'ajouter [AdGuard DNS](https://kb.adguard.com/en/general/dns-providers#adguard-dns), un serveur qui peut protéger contre la publicité, le suivi et l'hameçonnage en plus des fonctions standard.
+L'onglet **Serveurs DNS** vous permet d'ajouter votre serveur DNS personnalisé. Vous pouvez configurer un serveur DNS par n'importe quel fournisseur. We recommend adding [AdGuard DNS](https://adguard-dns.io/kb/general/dns-providers/#adguard-dns), a server that can protect against advertising, tracking, and phishing, in addition to the standard functions.
 
 #### Paramètres avancés
 
@@ -99,7 +99,7 @@ Non seulement AdGuard VPN chiffre le trafic de vos navigateurs, mais également 
 
 ### À propos
 
-L'onglet **À propos** fournit des informations sur la version actuelle de AdGuard VPN pour Windows, un bouton de mise à jour et des liens vers le site web AdGuard, le forum, la CLUF et politique de confidentialité.
+The **About** tab provides information about the current version of AdGuard VPN for Windows, an update button, and links to the AdGuard VPN website, forum, EULA, and Privacy policy.
 
 ### Compte
 

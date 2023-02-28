@@ -33,13 +33,13 @@ AdGuard VPN 有以下的功能：
 
 另一个好用的功能是导入/导出排除项列表。 用户可以按照以下四个步骤进行操作：
 
-1. 在您想要导出排除项列表的设备或浏览器里打开 AdGuard VPN。 找到相应的部分并单击「*导出*」按钮。 `exclusions.zip` 档案将被下载。
+1. 在您想要导出排除项列表的设备或浏览器里打开 AdGuard VPN。 找到相应的部分并点击*导出*按钮。 `exclusions.zip` 档案将被下载。
 
 2. 档案中有两个 `.txt` 文件，常规模式的列表和选择模式的列表。 用户可以在其中添加更多的排除项，删除现有的排除项，重命名文件（下面还有更多详情），或者也可以将存档中的文件内容保持不变。
 
 3. 在不同设备之间传输时，不要忘记将 `.zip` 文件发送到设备上进行导入。 例如，如果您将排除项列表从自己的 iOS 设备导入到 Mac 设备，确保先将 `.zip` 文件发送到 Mac 设备。
 
-4. 在要导入存档的设备上打开 AdGuard VPN，其中包含要应用的排除项列表。 找到相应的部分，单击「*导入*」按钮并选择存档。
+4. 在要导入存档的设备上打开 AdGuard VPN，其中包含要应用的排除项列表。 找到相应的部分，点击*导入*按钮并选择存档。
 
 ![导入/导出排除项](https://cdn.adguardvpn.com/content/kb/vpn/ios/import-export-exclusions.png)
 
@@ -58,14 +58,14 @@ AdGuard VPN 有以下的功能：
 
 适用于 iOS 的 AdGuard VPN 可以在两种模式下运行：**常规**和**整合**。
 
-在**常规**模式下，使用 [AdGuard VPN 协议](../general/adguard-vpn-protocol.mdx)。本协议提供速度和安全性的最佳组合。 启用常规模式时，AdGuard VPN 无法与 [AdGuard 广告拦截程序 iOS 版](https://kb.adguard.com/en/ios)同时运行。
+在**常规**模式下，使用 [AdGuard VPN 协议](../general/adguard-vpn-protocol.mdx)。本协议提供速度和安全性的最佳组合。 启用常规模式时，AdGuard VPN 无法与 [AdGuard 广告拦截程序 iOS 版](https://adguard.com/kb/adguard-for-ios/overview/)同时运行。
 
 在**选择**模式下，AdGuard VPN 能够通过使用 IPSec 协议与 AdGuard 广告拦截程序 iOS 版同时运作。 该协议也是安全的，但速度稍慢且更容易检测。 您不需要执行任何其他操作设置整合：只需安装这两个应用程序并切换到此模式即可。
 > 请注意，在**整合**模式下，您不能使用排除项功能或 DNS 服务器功能。
 
 ### DNS 服务器
 
-域名系统（DNS）的主要目的是，将网站名称转换成浏览器能识别的 IP 地址。 DNS 服务器执行此操作。 iOS 版 AdGuard VPN 提供几个 DNS 服务器，每个都有无与伦比的质量。 例如，AdGuard DNS 可以删除广告并防止用户的设备被追踪，而 AdGuard DNS 家庭保护则将 AdGuard DNS 的功能与安全搜索和成人内容拦截相结合。 不同 DNS 供应商的 DNS 服务器也可能工作得更快或更慢，这取决于用户的位置、ISP 和其他因素。 选择最适合您的服务器。 用户可以在[本文](https://kb.adguard.com/en/general/dns-filtering#what-is-dns)中找到有关 DNS 及其特征的更多信息。
+域名系统（DNS）的主要目的是，将网站名称转换成浏览器能识别的 IP 地址。 DNS 服务器执行此操作。 iOS 版 AdGuard VPN 提供几个 DNS 服务器，每个都有无与伦比的质量。 例如，AdGuard DNS 可以删除广告并防止用户的设备被追踪，而 AdGuard DNS 家庭保护则将 AdGuard DNS 的功能与安全搜索和成人内容拦截相结合。 不同 DNS 供应商的 DNS 服务器也可能工作得更快或更慢，这取决于用户的位置、ISP 和其他因素。 选择最适合您的服务器。 用户可以在[本文](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns)中找到有关 DNS 及其特征的更多信息。
 
 ![DNS 服务器屏幕](https://cdn.adguardvpn.com/content/kb/vpn/ios/dns-server.png)
 

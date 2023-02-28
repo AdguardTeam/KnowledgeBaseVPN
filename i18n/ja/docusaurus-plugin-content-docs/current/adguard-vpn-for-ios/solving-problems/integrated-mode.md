@@ -9,7 +9,7 @@ AdGuard VPNには、標準モードと併用モードという2つの動作モ�
 
 一方、「併用」モードでは、IPsecプロトコルを使用し、AdGuard広告ブロッカーアプリとの連携が可能になります。 AdGuard VPNのインストール時に、すでにAdGuard広告ブロッカーをインストールしている場合は、併用モードは自動的にオンになり、両方のアプリを同時に使用できるようになります。 AdGuard VPNを先にインストールし、その後AdGuard広告ブロッカーを利用することにした場合は、以下の手順で両アプリを併用することができます。
 
-1. AdGuard VPN for iOS を開き、メイン画面右下の⚙「設定」を選択します。
+1. Open AdGuard VPN for iOS and select "Settings" in the lower right corner of the screen.
 
 2. 「アプリの設定」→「動作モード」へ移動します。
 

@@ -19,9 +19,9 @@ sidebar_position: 3
 
 ## 翻译文章 {#translate-adguard}
 
-知识库现有文章的翻译是在 [Crowdin 平台](https://crowdin.com/project/adguard-vpn-knowledge-base)上进行的。 有关翻译和使用 Crowdin 的所有详细信息，都可以在 [AdGuard 广告拦截程序知识库的专用文章](https://kb.adguard.com/en/general/adguard-translations)中找到。
+知识库现有文章的翻译是在 [Crowdin 平台](https://crowdin.com/project/adguard-vpn-knowledge-base)上进行的。 All the details about translations and working with Crowdin can be found [in the dedicated article](https://adguard.com/kb/miscellaneous/contribute/translate/program/) of the AdGuard Ad Blocker Knowledge Base.
 
-在撰写 AdGuard VPN 知识库文章时，您可能会遇到包含复数形式的字符串，您应该格外注意翻译。 [在另一篇文章中](https://kb.adguard.com/en/miscellaneous/plurals)，我们详细描述了翻译具有复数形式的字符串时可能出现的困难，并就如何在 Crowdin 平台上处理这些问题给出了大量说明。
+在撰写 AdGuard VPN 知识库文章时，您可能会遇到包含复数形式的字符串，您应该格外注意翻译。 [In a separate article](https://adguard.com/kb/miscellaneous/contribute/translate/plural-forms/), we described in detail the difficulties that can arise when translating strings with plural forms, and gave extensive instructions on how to work with them on the Crowdin platform.
 
 ## 处理未解决的问题
 

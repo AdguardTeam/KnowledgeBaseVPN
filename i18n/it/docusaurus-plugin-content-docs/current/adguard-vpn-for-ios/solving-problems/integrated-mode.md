@@ -9,7 +9,7 @@ Tuttavia, questa modalità operativa non consente ad AdGuard VPN e al Blocco AdG
 
 La modalità Integrata, a sua volta, utilizza il protocollo IPsec, che consente alle applicazioni AdGuard di lavorare insieme. Se disponi già di Blocco AdGuard durante l'installazione di AdGuard VPN, questa modalità si attiverà automaticamente e ti consentirà di utilizzare le nostre applicazioni contemporaneamente. Se prima hai installato AdGuard VPN e solo successivamente hai deciso di provare il Blocco AdGuard, segui questi passaggi per utilizzare due app insieme:
 
-1. Apri AdGuard VPN per iOS e seleziona "Impostazioni" nell'angolo in basso a destra dello schermo.
+1. Open AdGuard VPN for iOS and select "Settings" in the lower right corner of the screen.
 
 2. Accedere a "Impostazioni dell'app" e selezionare "Modalità operativa".
 

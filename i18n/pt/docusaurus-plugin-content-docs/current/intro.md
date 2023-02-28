@@ -31,7 +31,8 @@ A AdGuard está presente no mercado de proteção de dados pessoais e bloqueio d
 A principal diferença entre AdGuard VPN e seus concorrentes é que usamos [nosso próprio protocolo desenvolvido](/general/adguard-vpn-protocol.mdx). Ele se disfarça de tráfego normal, por isso é muito mais difícil rastreá-lo e bloqueá-lo.
 
 ### Sem política de registros
-A política de não registro significa que não coletamos, armazenamos ou transferimos dados pessoais dos usuários para terceiros. O texto completo da política de privacidade do AdGuard pode ser encontrado [aqui](https://adguard-vpn.com/en/privacy.html).
+
+A política de não registro significa que não coletamos, armazenamos ou transferimos dados pessoais dos usuários para terceiros. The full text of AdGuard VPN Privacy policy can be found [here](https://adguard-vpn.com/privacy.html).
 
 ### Proteção contra rastreamento
 O tráfego da Web de qualquer usuário pode ser de interesse e é particularmente valioso em termos de monetização de dados pessoais. Tanto criminosos quanto ISPs sem escrúpulos podem acessá-lo. No entanto, com uma VPN confiável, você pode ter certeza de que nem seu provedor nem ninguém verá sua atividade na Internet.

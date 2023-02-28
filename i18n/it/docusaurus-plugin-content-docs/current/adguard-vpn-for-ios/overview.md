@@ -33,13 +33,13 @@ Puoi trovare la funzione di esclusione toccando il pulsante centrale in basso. L
 
 Un'altra caratteristica utile è l'Importazione/Esportazione degli elenchi di esclusione. Puoi farlo seguendo i prossimi quattro passaggi:
 
-1. Aprire AdGuard VPN sul dispositivo/nel browser da cui si desidera esportare gli elenchi di esclusioni. Trovare la sezione appropriata e fare clic sul pulsante *Esportare*. L'archivio `exclusions.zip` verrà scaricato.
+1. Aprire AdGuard VPN sul dispositivo/nel browser da cui si desidera esportare gli elenchi di esclusioni. Trovare la sezione appropriata e fare clic sul pulsante *Esporta*. L'archivio `exclusions.zip` verrà scaricato.
 
 2. Ci sono due file `.txt` all'interno dell'archivio, uno per ciascuno dei elenchi Generale e Selettivo. Aggiungi altre esclusioni, elimina quelli esistenti, rinomina i file (ma ne parleremo più avanti) o semplicemente lascia l'archivio con i file così come sono.
 
 3. Durante il trasferimento tra dispositivi diversi, non dimenticare d'inviare il file `.zip` al dispositivo per l'importazione. Ad esempio, se importi gli elenchi di esclusione dal tuo dispositivo iOS al tuo Mac, assicurati d'inviare prima il file `.zip` al tuo Mac.
 
-4. Aprire AdGuard VPN sul dispositivo in cui si desidera importare l'archivio con gli elenchi di esclusioni già creati. Trova la sezione appropriata, fai clic sul pulsante *Importa* e seleziona l'archivio.
+4. Aprire AdGuard VPN sul dispositivo in cui si desidera importare l'archivio con gli elenchi di esclusioni già creati. Trovare la sezione appropriata, clicca sul pulsante *Importa* e seleziona l'archivio.
 
 ![Importare/esportare esclusioni](https://cdn.adguardvpn.com/content/kb/vpn/ios/import-export-exclusions.png)
 
@@ -58,14 +58,14 @@ Qui puoi configurare AdGuard VPN per iOS in base alle tue esigenze utilizzando d
 
 AdGuard VPN per iOS può funzionare in due modalità: **Generale** e **Integrata**.
 
-In modalità **Generale**, viene utilizzato il protocollo [AdGuard VPN](../general/adguard-vpn-protocol.mdx), che fornisce la migliore combinazione di velocità e sicurezza. In questa modalità, AdGuard VPN non sarà in grado di funzionare insieme al [Blocco-annunci AdGuard per iOS](https://kb.adguard.com/en/ios).
+In modalità **Generale**, viene utilizzato il protocollo [AdGuard VPN](../general/adguard-vpn-protocol.mdx), che fornisce la migliore combinazione di velocità e sicurezza. In questa modalità, AdGuard VPN non potrà funzionare insieme ad [AdGuard Ad Blocker per iOS](https://adguard.com/kb/adguard-for-ios/overview/).
 
 In modalità **Integrata**, AdGuard VPN sarà in grado di funzionare contemporaneamente con il Blocco AdGuard per iOS utilizzando invece il protocollo IPSec. Anche questo protocollo è sicuro, ma un po' più lento e più facile da rilevare. Non è necessario eseguire alcuna azione aggiuntiva per configurare l'integrazione: è sufficiente installare entrambe le app e passare a questa modalità.
 > Si noti che in modalità **Integrata** non è possibile utilizzare la funzione Esclusioni o scegliere il server DNS.
 
 ### Server DNS
 
-Lo scopo del Domain Name System (DNS) è quello di tradurre i nomi dei siti web in qualcosa che i browser possono capire, ad esempio gli indirizzi IP. Questo lavoro viene eseguito dai server DNS. AdGuard VPN per iOS offre una scelta tra diversi server DNS, ognuno con le proprie qualità speciali. Ad esempio, AdGuard DNS rimuove gli annunci e protegge il tuo dispositivo dal tracciamento, mentre AdGuard DNS Protezione Familiale combina le funzioni di AdGuard DNS con SafeSearch e il blocco dei contenuti per adulti. I server DNS di diversi provider DNS possono anche funzionare più velocemente o più lentamente a seconda della posizione, dell'ISP e di altri fattori. Scegli quello che funziona meglio per te. Per saperne di più sul DNS e sulle sue caratteristiche è possibile consultare [questo articolo](https://kb.adguard.com/en/general/dns-filtering#what-is-dns).
+Lo scopo del Domain Name System (DNS) è quello di tradurre i nomi dei siti web in qualcosa che i browser possono capire, ad esempio gli indirizzi IP. Questo lavoro viene eseguito dai server DNS. AdGuard VPN per iOS offre una scelta tra diversi server DNS, ognuno con le proprie qualità speciali. Ad esempio, AdGuard DNS rimuove gli annunci e protegge il tuo dispositivo dal tracciamento, mentre AdGuard DNS Protezione Familiale combina le funzioni di AdGuard DNS con SafeSearch e il blocco dei contenuti per adulti. I server DNS di diversi provider DNS possono anche funzionare più velocemente o più lentamente a seconda della posizione, dell'ISP e di altri fattori. Scegli quello che funziona meglio per te. Puoi scoprire di più sul DNS e le sue caratteristiche [in questo articolo](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns).
 
 ![Schermata del server DNS](https://cdn.adguardvpn.com/content/kb/vpn/ios/dns-server.png)
 

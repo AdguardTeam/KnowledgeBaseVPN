@@ -19,9 +19,9 @@ Sie können die Wissensdatenbank auch lokal auf Ihrem Computer bereitstellen, um
 
 ## Artikel übersetzen {#translate-adguard}
 
-Die Übersetzung der bestehenden Artikel der Wissensdatenbank erfolgt auf [der Crowdin-Plattform](https://crowdin.com/project/adguard-vpn-knowledge-base). Alle Details zu Übersetzungen und zur Arbeit mit Crowdin finden Sie [im entsprechenden Artikel](https://kb.adguard.com/en/general/adguard-translations) der Wissensdatenbank von AdGuard Werbeblocker.
+Die Übersetzung der bestehenden Artikel der Wissensdatenbank erfolgt auf [der Crowdin-Plattform](https://crowdin.com/project/adguard-vpn-knowledge-base). Alle Details zu Übersetzungen und zur Arbeit mit Crowdin finden Sie [im entsprechenden Artikel](https://adguard.com/kb/miscellaneous/contribute/translate/program/) der Wissensdatenbank von AdGuard Werbeblocker.
 
-Wenn Sie an Artikeln der AdGuard VPN-Wissensdatenbank arbeiten, stoßen Sie möglicherweise auf Zeichenfolgen mit Pluralformen, die Sie mit besonderer Aufmerksamkeit übersetzen sollten. [In einem separaten Artikel](https://kb.adguard.com/en/miscellaneous/plurals) haben wir ausführlich die Schwierigkeiten beschrieben, die beim Übersetzen von Zeichenketten mit Pluralformen auftreten können, und eine ausführliche Anleitung gegeben, wie man damit auf der Crowdin-Plattform arbeiten kann.
+Wenn Sie an Artikeln der AdGuard VPN-Wissensdatenbank arbeiten, stoßen Sie möglicherweise auf Zeichenfolgen mit Pluralformen, die Sie mit besonderer Aufmerksamkeit übersetzen sollten. [In einem separaten Artikel](https://adguard.com/kb/miscellaneous/contribute/translate/plural-forms/) haben wir ausführlich die Schwierigkeiten beschrieben, die beim Übersetzen von Zeichenketten mit Pluralformen auftreten können, und eine ausführliche Anleitung gegeben, wie man damit auf der Crowdin-Plattform arbeiten kann.
 
 ## An  Open Issues arbeiten
 

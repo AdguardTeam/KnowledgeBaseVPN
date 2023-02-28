@@ -31,7 +31,8 @@ AdGuard 进入个人数据保护和广告拦截市场并开发其软件系列已
 AdGuard VPN 与其竞争对手的主要区别是，我们使用[我们自己开发的协议](/general/adguard-vpn-protocol.mdx)。 本协议将自己伪装成正常流量，因此更难追踪和阻止它。
 
 ### 无记录政策
-无日志政策意味着我们不收集、储存或转让用户的个人数据给第三方。 AdGuard 隐私政策的全文可以[在这里](https://adguard-vpn.com/en/privacy.html)找到。
+
+无日志政策意味着我们不收集、储存或转让用户的个人数据给第三方。 The full text of AdGuard VPN Privacy policy can be found [here](https://adguard-vpn.com/privacy.html).
 
 ### 跟踪保护
 任何用户的网络流量都可能引起兴趣，在个人数据的货币化方面尤其有价值。 犯罪分子和不诚实的互联网服务提供商都可以访问用户个人数据。 然而，有了值得信赖的 VPN，您可以确信，无论是您的服务提供商还是其他人都不会检测您的互联网活动。

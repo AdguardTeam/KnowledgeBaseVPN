@@ -42,5 +42,9 @@
   "sidebar.sidebar.category.AdGuard VPN browser extensions": {
     "message": "AdGuard VPN tarayıcı uzantıları",
     "description": "The label for category AdGuard VPN browser extensions in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.solving-problems": {
+    "message": "sorunları çözme",
+    "description": "The label for category solving-problems in sidebar sidebar"
   }
 }

@@ -73,7 +73,7 @@ VPN 是一个在用户每次浏览互联网时提供安全性和匿名性的理�
 
 ### DNS 服务器
 
-[域名系统](https://kb.adguard.com/en/general/dns-filtering#what-is-dns)（DNS）的目的是将网站的名称“翻译”成浏览器可以识别的代码，即 IP 地址。 DNS 服务器执行此操作。 安卓版 AdGuard VPN 提供几个 DNS 服务器，每个都有无与伦比的质量。 例如，[AdGuard DNS](https://kb.adguard.com/en/dns/overview) 可以删除广告并防止用户的设备被追踪，而 AdGuard DNS 家庭保护则将 AdGuard DNS 的功能与安全搜索和成人内容拦截相结合。 用户也可以添加一个自定义 DNS 服务器。
+The purpose of the [Domain name system](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns) (DNS) is to translate websites' names into something browsers can understand, i.e. IP addresses. DNS 服务器执行此操作。 安卓版 AdGuard VPN 提供几个 DNS 服务器，每个都有无与伦比的质量。 For example, [AdGuard DNS](https://adguard-dns.io/kb/) removes ads and protects your device from tracking while AdGuard DNS Family Protection combines the functions of AdGuard DNS with SafeSearch and adult content blocking. 用户也可以添加一个自定义 DNS 服务器。
 
 ### 自动保护
 
@@ -95,7 +95,7 @@ VPN 是一个在用户每次浏览互联网时提供安全性和匿名性的理�
 
 在「*高级设置*」中，用户可以找到五个部分。 您可以切换上部方块中的开关*帮助我们变得更好*。 这样您允许 AdGuard VPN 收集崩溃报告、技术和互动数据。 这些信息将以匿名方式传送。
 
-*操作模式*部分允许用户在三个选项中选择一个，即 VPN、代理和兼容模式。 在 *VPN 模式*下，所有流量都会自动通过 AdGuard VPN 路由。 当*代理模式*（SOCKS5）打开时，AdGuard VPN 运行一个本地代理服务器，其他应用程序可以经过它路由流量。 只要您了解如何操作，才能选择该选项。 启用的*兼容模式*允许 AdGuard VPN 和 AdGuard 广告拦截程序一起工作。
+*操作模式*部分允许用户在三个选项中选择一个，即 VPN、代理和兼容模式。 在 *VPN 模式*下，所有流量都会自动通过 AdGuard VPN 路由。 When the *Proxy mode* (SOCKS5) is on, AdGuard VPN runs a local proxy server which can be used by other apps to route their traffic through it. 只要您了解如何操作，才能选择该选项。 启用的*兼容模式*允许 AdGuard VPN 和 AdGuard 广告拦截程序一起工作。
 
 > 请注意，AdGuard VPN 的一些功能在*兼容模式*下被禁用，比如 DNS 服务器选择、Kill Switch 和自动保护。 此外，要管理应用程序的隧道，您应该打开 AdGuard 广告拦截程序。
 
@@ -106,4 +106,3 @@ VPN 是一个在用户每次浏览互联网时提供安全性和匿名性的理�
 ### 支持
 
 在*支持*部分，您可以留下反馈意见，报告一个错误，或导出日志和系统信息，以便进一步提交给客服支持。
- 

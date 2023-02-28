@@ -3,14 +3,14 @@ title: 功能概述
 sidebar_position: 1
 ---
 
-AdGuard VPN 浏览器扩展可在 Chrome 浏览器，火狐浏览器和 Edge 浏览器中使用。 UI 和功能在浏览器之间并没有区别，因此下面将概述所有用于浏览器的 AdGuard VPN 。
+AdGuard VPN Browser extension is available for Chrome, Firefox, Opera, and Edge. UI 和功能在浏览器之间并没有区别，因此下面将概述所有用于浏览器的 AdGuard VPN 。
 
 > 请注意，您只能在登录 AdGuard VPN 时使用浏览器扩展。 您可以使用 AdGuard 账号或通过 Google、Facebook 或 Apple 登录。 在后一种情况下，请确保您的账号与 AdGuard 账号绑定在同一个电子邮件地址上。 如果您有 [AdGuard VPN 订阅](/general/subscription.md)，它将会在 AdGuard VPN 浏览器扩展中自动激活。 如果您没有 AdGuard 账号， [请点击这里。](https://auth.adguard.com/registration.html)。
 
-要管理您的 AdGuard VPN 浏览器扩展，请：
+To manage your AdGuard VPN Browser extension:
 
-* 单击浏览器面板上的图标，然后单击三个条纹并选择*「设置」*
-* 转到浏览器的*「管理扩展」*页面，然后从那里设置您的 AdGuard VPN 。
+* Either click its icon on the browser's panel, click the hamburger menu icon, and select *Settings*,
+* Or go to the *Manage extensions* page in your browser, click *Details* below *AdGuard VPN* and manage its settings from there.
 
 完成后，您将看到几个在左侧的选项卡：
 
@@ -20,15 +20,15 @@ AdGuard VPN 浏览器扩展可在 Chrome 浏览器，火狐浏览器和 Edge 浏
 
 ### 选择一个 DNS 服务器
 
-默认情况下选择的是由您的 ISP 提供的[系统 DNS 服务器](https://kb.adguard.com/en/general/dns-filtering#what-is-dns) ，但它可能会损害您的隐私。 凭借 AdGuard VPN 浏览器扩展，您可以选择一个提供更好的速度和安全性，甚至阻止广告或有潜在危险的域名的 DNS 服务器。 以下对于 DNS 服务器的简要说明将帮助您导航并做出决定。
+默认情况下选择的是由您的 ISP 提供的[系统 DNS 服务器](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns) ，但它可能会损害您的隐私。 凭借 AdGuard VPN 浏览器扩展，您可以选择一个提供更好的速度和安全性，甚至阻止广告或有潜在危险的域名的 DNS 服务器。 以下对于 DNS 服务器的简要说明将帮助您导航并做出决定。
 
-了解更多有关[不同提供商提供的 DNS 服务器](https://kb.adguard.com/ru/general/dns-providers)的信息。
+了解更多有关[来自不同服务商的DNS服务器](https://adguard-dns.io/kb/general/dns-providers/)。
 
 ## 排除项
 
 下一个选项卡包含 AdGuard VPN 的主要特点之一，即有独立的排除项列表的两种模式。
 
-在 **常规模式**，除了用户添加到排除项列表的网站除外，AdGuard VPN 默认对所有网站都有效，。 在 **选择模式**，反之亦然，AdGuard VPN 默认在任何地方都不工作。 用户可以将自己希望启用 AdGuard VPN 的任何网站添加到排除项列表中，与您在**常规模式中看到的列表分开**。
+在 **通用模式**，除了用户添加到排除项列表的网站除外，AdGuard VPN 默认在所有网站都运行。 在 **选择模式**，反之亦然，AdGuard VPN 默认在任何地方都不工作。 You can add any websites where you'd like it to work to an exclusions list, separate from the one you saw in the **General mode**.
 
 在添加网站到排除项列表时，用户可以手动输入网站或**从列表中**选择它们。 在后一种情况下，用户会看到八个类别（例如： *购物*， *通信*等等），每个类别包含几个流行服务。 用户可以一键排除这些服务中的任何一项，该操作将把与该特定服务相关的所有域名添加到排除项中。
 
@@ -37,7 +37,7 @@ AdGuard VPN 浏览器扩展可在 Chrome 浏览器，火狐浏览器和 Edge 浏
 用户不仅可以添加和删除网站，还可以将准备好的排除项列表转移到安装 AdGuard VPN 的其他设备上。 要导出你的排除项列表，请按照以下 4 步说明操作：
 
 1. 在您想要导出排除项列表的设备上打开 AdGuard VPN 浏览器扩展。 找到相应的部分并单击「导出」按钮。 `exclusions.zip` 档案将被下载。
-2. 档案中有两个 `.txt` 文件，常规模式的列表和选择模式的列表。 用户可以在其中添加更多的排除项，删除现有的排除项，重命名文件，或者也可以将存档中的文件内容保持不变。
+2. There are two `.txt` files inside the archive, one for each of the General and Selective lists. 用户可以在其中添加更多的排除项，删除现有的排除项，重命名文件，或者也可以将存档中的文件内容保持不变。
 3. 在不同设备之间传输时，将 `.zip` 文件发送到设备上进行导入。
 4. 在该设备上打开 AdGuard VPN。 找到相应的部分，单击「导入」按钮并选择存档。 完成！
 
@@ -51,4 +51,4 @@ AdGuard VPN 浏览器扩展的第三个标签是完全简约的，只包含用�
 
 ## 关于
 
-另一个小标签，用户可以检查扩展的版本，访问官网，并查看 EULA 或隐私政策。
+另一个小标签，用户可以查看扩展的版本，访问官网，并查看 EULA（最终用户许可协议） 或隐私政策。
