@@ -7,57 +7,57 @@ AdGuard VPN Tarayıcı uzantısı günlüklerini toplamanın birkaç yolu vardı
 
 ## *Hata bildir* bölümü aracılığıyla günlükleri toplama ve gönderme
 
-1.  Open AdGuard VPN Browser extension, if possible, repeat the actions that led to the error. Bu hatanın oluştuğu tam zamana dikkat edin.
-2.  Open *Settings* by clicking the hamburger menu icon (☰) → *Support* → *Report a bug*.
-3.  In the opened form, leave an automatically inserted email address or enter another one and describe the error found, including the time when this error occurred. If you can't reproduce the problem, specify as accurately as possible when it last occurred.
-4.  Make sure that there is a check mark next to *Include the diagnostic report in the message*, and tap *Submit*. This way, you will send logs along with the bug report.
+1.  AdGuard VPN Tarayıcı uzantısını açın, mümkünse hataya neden olan işlemleri tekrarlayın. Bu hatanın oluştuğu tam zamana dikkat edin.
+2.  Hamburger menü simgesine (☰) tıklayarak *Ayarlar* öğesini açın → *Destek* → *Hata bildir*.
+3.  Açılan formda, otomatik olarak eklenen bir e-posta adresi bırakın veya başka bir tane girin ve bu hatanın meydana geldiği zaman da dahil olmak üzere bulunan hatayı açıklayın. Sorunu yeniden oluşturamıyorsanız, en son ne zaman oluştuğunu olabildiğince doğru bir şekilde belirtin.
+4.  Make sure that there is a check mark next to *Include the diagnostic report in the message*, and tap *Submit*. Bu şekilde, hata raporuyla birlikte günlükleri de göndermiş olursunuz.
 
-## Collecting and sending logs via the *Export logs* button
+## *Günlükleri dışa aktar* düğmesi aracılığıyla günlükleri toplama ve gönderme
 
-1.  Open AdGuard VPN Browser extension, if possible, repeat the actions that led to the error. Bu hatanın oluştuğu tam zamana dikkat edin.
+1.  AdGuard VPN Tarayıcı uzantısını açın, mümkünse hataya neden olan işlemleri tekrarlayın. Bu hatanın oluştuğu tam zamana dikkat edin.
 2.  AdGuard VPN Tarayıcı uzantısı simgesini sağ tıklayın.
-3.  In the opened menu click *Export logs*.
+3.  Açılan menüde *Günlükleri dışa aktar* öğesine tıklayın.
 4.  Sonuç olarak, günlük dosyası cihazınıza `txt` biçiminde kaydedilecektir.
 
 Artık günlükleri topladığınıza göre, onları geliştirme ekibimize teslim etmeniz gerekir. Bunu yapmak için:
 
-1.  GitHub'da bir hata bildirin. Detailed instructions on creating an issue on GitHub can be found in this article.
-2.  Send an archive with logs and playback time to `devteam@adguard.com` and attach a link to your GitHub issue. Also you can add an archive with logs and playback time to Google Drive and share it with `devteam@adguard.com` attaching the Google Drive link to your issue on GitHub.
+1.  GitHub'da bir hata bildirin. GitHub'da bir sorun oluşturmaya ilişkin ayrıntılı talimatları bu makalede bulabilirsiniz.
+2.  Günlükleri ve yeniden oluşturma süresini içeren bir arşivi `devteam@adguard.com` adresine gönderin ve GitHub sorununuza bir bağlantı ekleyin. Ayrıca Google Drive'a günlükleri ve yeniden üretim süresini içeren bir arşiv ekleyebilir ve GitHub'daki sorununuza Google Drive bağlantısını ekleyerek `devteam@adguard.com` ile paylaşabilirsiniz.
 
-## Collecting and sending logs via browser developer's tools
+## Tarayıcı geliştirici araçları aracılığıyla günlükleri toplama ve gönderme
 
 ### Chrome
 
-1.  Open AdGuard VPN Browser extension, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
-2.  Go to `chrome://extensions`
-3.  Turn on *developer mode*
+1.  AdGuard VPN Tarayıcı uzantısını açın, mümkünse hataya neden olan işlemleri tekrarlayın. Bu hatanın oluştuğu tam zamana dikkat edin.
+2.  `chrome://extensions` adresine gidin
+3.  *geliştirici modunu* açın
 
-    ![The developer mode *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/dev_mode.png)
+    ![Geliştirici modu *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/dev_mode.png)
 
-4.  Click `background.html`
+4.  `background.html` öğesine tıklayın
 
-    ![Background *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/backgroung.png)
+    ![Arka plan *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/backgroung.png)
 
 5.  Open the *Console tab*
 
-    ![The Console tab *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/console.png)
+    ![Konsol sekmesi *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/console.png)
 
 6.  Open the context menu and click *Save as…*
 
     ![Save as *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/save.png)
 
-Now that you have collected the logs, you need to hand them over to our development team. To do this:
+Artık günlükleri topladığınıza göre, onları geliştirme ekibimize teslim etmeniz gerekir. Bunu yapmak için:
 
-1.  Report a bug on GitHub. Detailed instructions on creating an issue on GitHub can be found in this article.
-2.  Send an archive with logs and playback time to `devteam@adguard.com` and attach a link to your GitHub issue. Also you can add an archive with logs and playback time to Google Drive and share it with `devteam@adguard.com` attaching the Google Drive link to your issue on GitHub.
+1.  GitHub'da bir hata bildirin. GitHub'da bir sorun oluşturmaya ilişkin ayrıntılı talimatları bu makalede bulabilirsiniz.
+2.  Günlükleri ve yeniden oluşturma süresini içeren bir arşivi `devteam@adguard.com` adresine gönderin ve GitHub sorununuza bir bağlantı ekleyin. Ayrıca Google Drive'a günlükleri ve yeniden üretim süresini içeren bir arşiv ekleyebilir ve GitHub'daki sorununuza Google Drive bağlantısını ekleyerek `devteam@adguard.com` ile paylaşabilirsiniz.
 
 ### Firefox
 
-1.  Open AdGuard VPN Browser extension, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
-2.  Go to `about:addons`
+1.  AdGuard VPN Tarayıcı uzantısını açın, mümkünse hataya neden olan işlemleri tekrarlayın. Bu hatanın oluştuğu tam zamana dikkat edin.
+2.  `about:addons` öğesine gidin
 3.  Click *Debug Add-ons*
 
-    ![Debug Add-ons *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/add-ons.png)
+    ![Eklentilerde hata ayıklama *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/add-ons.png)
 
 4.  Click *Inspect*
 
@@ -65,13 +65,13 @@ Now that you have collected the logs, you need to hand them over to our developm
 
 5.  Go to the *Console* tab
 
-    ![Console *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/ff_console.png)
+    ![Konsol *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/ff_console.png)
 
 6.  Click *Save all Messages to file*
 
-    ![Save *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/save-to-file.png)
+    ![Kaydet *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/save-to-file.png)
 
-Now that you have collected the logs, you need to hand them over to our development team. To do this:
+Artık günlükleri topladığınıza göre, onları geliştirme ekibimize teslim etmeniz gerekir. Bunu yapmak için:
 
-1.  Report a bug on GitHub. Detailed instructions on creating an issue on GitHub can be found in this article.
-2.  Send an archive with logs and playback time to `devteam@adguard.com` and attach a link to your GitHub issue. Also you can add an archive with logs and playback time to Google Drive and share it with `devteam@adguard.com` attaching the Google Drive link to your issue on GitHub.
+1.  GitHub'da bir hata bildirin. GitHub'da bir sorun oluşturmaya ilişkin ayrıntılı talimatları bu makalede bulabilirsiniz.
+2.  Günlükleri ve yeniden oluşturma süresini içeren bir arşivi `devteam@adguard.com` adresine gönderin ve GitHub sorununuza bir bağlantı ekleyin. Ayrıca Google Drive'a günlükleri ve yeniden üretim süresini içeren bir arşiv ekleyebilir ve GitHub'daki sorununuza Google Drive bağlantısını ekleyerek `devteam@adguard.com` ile paylaşabilirsiniz.

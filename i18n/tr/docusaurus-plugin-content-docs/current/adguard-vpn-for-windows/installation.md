@@ -25,24 +25,24 @@ AdGuard VPN'i bilgisayarınızdan kaldırmaya karar verirseniz, aşağıda liste
 
 ### Gelişmiş kaldırma {#advanced}
 
-Normal kaldırma herhangi bir nedenle işe yaramazsa, gelişmiş bir yöntem kullanmayı deneyebilirsiniz. First of all, you need to [download the uninstaller tool](https://cdn.adguardvpn.com/public/Adguard/tools/Uninstall_Utility.zip) created by our developers. Extract the archive to any folder on your PC, run the **Adguard.UninstallUtility.exe** file, and allow the app to make changes to your device. Ardından aşağıdaki talimatı takip edin:
+Normal kaldırma herhangi bir nedenle işe yaramazsa, gelişmiş bir yöntem kullanmayı deneyebilirsiniz. Her şeyden önce, geliştiricilerimiz tarafından oluşturulan [kaldırma aracını indirmeniz](https://cdn.adguardvpn.com/public/Adguard/tools/Uninstall_Utility.zip) gerekir. Arşivi bilgisayarınızdaki herhangi bir klasöre çıkarın, **Adguard.UninstallUtility.exe** dosyasını çalıştırın ve uygulamanın cihazınızda değişiklik yapmasına izin verin. Ardından aşağıdaki talimatı takip edin:
 
-* Choose *Standard uninstall*, ***Delete AdGuard VPN*** and click *Uninstall*.
+* *Standart kaldırma*, ***AdGuard VPN'i Kaldır*** öğesini seçin ve *Kaldır* öğesine tıklayın.
 
 ![Standart kaldırma *border](https://cdn.adguardvpn.com/content/kb/ad_blocker/windows/installation/standard-uninstall.png)
 
-* Kaldırma tamamlanana kadar bekleyin — pencerede bir dize olacaktır: `[OK] Kaldırma tamamlandı`
+* Kaldırma tamamlanana kadar bekleyin — pencerede bir metin olacaktır: `[OK] Uninstall finished`
 
-![Uninstall finished *border](https://cdn.adguardvpn.com/content/kb/ad_blocker/windows/installation/standard-uninstall-2.png)
+![Kaldırma işlemi tamamlandı *border](https://cdn.adguardvpn.com/content/kb/ad_blocker/windows/installation/standard-uninstall-2.png)
 
 > Sonraki adımları, yalnızca ilk iki adımı gerçekleştirmek herhangi bir nedenle yeterli olmadıysa uygulayın. Gelişmiş kaldırma talimatının 3–4. adımlarını kullanmadan önce destek ekibimizle iletişime geçmenizi önemle tavsiye ederiz.
 
-* Choose *Advanced uninstall*, ***Delete AdGuard VPN*** and click *Uninstall*.
+* *Gelişmiş kaldırma*, ***AdGuard VPN'i Kaldır*** öğesini seçin ve *Kaldır* öğesine tıklayın.
 
-![Advanced uninstall *border](https://cdn.adguardvpn.com/content/kb/ad_blocker/windows/installation/advanced-uninstall.png)
+![Gelişmiş kaldırma *border](https://cdn.adguardvpn.com/content/kb/ad_blocker/windows/installation/advanced-uninstall.png)
 
-* Kaldırma tamamlanana kadar bekleyin — pencerede bir dize olacaktır: `[OK] Kaldırma tamamlandı`
+* Kaldırma tamamlanana kadar bekleyin — pencerede bir metin olacaktır: `[OK] Uninstall finished`
 
-![Uninstall finished *border](https://cdn.adguardvpn.com/content/kb/ad_blocker/windows/installation/advanced-uninstall-2.png)
+![Kaldırma işlemi tamamlandı *border](https://cdn.adguardvpn.com/content/kb/ad_blocker/windows/installation/advanced-uninstall-2.png)
 
 AdGuard başarıyla kaldırıldı!

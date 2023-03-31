@@ -1,30 +1,30 @@
 ---
-title: How to collect and send logs
+title: Cách thu thập và gửi nhật ký
 sidebar_position: 1
 ---
 
-There are several ways for collecting AdGuard VPN Browser extension logs, but whichever one you choose, the same data will be collected. In the extension, logs are not divided into standard and debug ones. And different options for collecting logs are provided for those cases when a problem you encounter prevents you from using one or another instruction.
+Có một số cách để thu thập nhật ký tiện ích mở rộng Trình duyệt AdGuard VPN, nhưng cho dù bạn chọn cách nào, dữ liệu giống nhau sẽ được thu thập. Trong tiện ích mở rộng, nhật ký không được chia thành tiêu chuẩn và gỡ lỗi. Và các tùy chọn khác nhau để thu thập nhật ký được cung cấp cho những trường hợp khi sự cố bạn gặp phải ngăn bạn sử dụng một hoặc một hướng dẫn khác.
 
-## Collecting and sending logs via the *Report a bug* section
+## Thu thập và gửi nhật ký qua *Báo cáo lỗi*
 
-1.  Open AdGuard VPN Browser extension, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
-2.  Open *Settings* by clicking the hamburger menu icon (☰) → *Support* → *Report a bug*.
-3.  In the opened form, leave an automatically inserted email address or enter another one and describe the error found, including the time when this error occurred. If you can't reproduce the problem, specify as accurately as possible when it last occurred.
-4.  Make sure that there is a check mark next to *Include the diagnostic report in the message*, and tap *Submit*. This way, you will send logs along with the bug report.
+1.  Mở tiện ích mở rộng Trình duyệt AdGuard VPN, nếu có thể, hãy lặp lại các hành động dẫn đến lỗi. Lưu ý thời gian chính xác khi lỗi này xảy ra.
+2.  Mở *Cài đặt* bằng cách nhấp vào biểu tượng menu hamburger (☰) → *Hỗ trợ* → *Báo cáo lỗi*.
+3.  Trong biểu mẫu đã mở, hãy để lại địa chỉ email được chèn tự động hoặc nhập địa chỉ email khác và mô tả lỗi tìm thấy, bao gồm cả thời gian xảy ra lỗi này. Nếu bạn không thể tái tạo sự cố, hãy chỉ định chính xác nhất có thể khi sự cố xảy ra lần cuối.
+4.  Đảm bảo rằng có dấu kiểm bên cạnh *Bao gồm báo cáo chẩn đoán trong thư*, rồi nhấn vào *Trình*. Bằng cách này, bạn sẽ gửi nhật ký cùng với báo cáo lỗi.
 
-## Collecting and sending logs via the *Export logs* button
+## Thu thập và gửi nhật ký qua nút *Xuất nhật ký*
 
-1.  Open AdGuard VPN Browser extension, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
-2.  Right-click the AdGuard VPN Browser extension icon.
-3.  In the opened menu click *Export logs*.
-4.  As a result, the logs file will be saved to your device in `txt` format.
+1.  Mở tiện ích mở rộng Trình duyệt AdGuard VPN, nếu có thể, hãy lặp lại các hành động dẫn đến lỗi. Lưu ý thời gian chính xác khi lỗi này xảy ra.
+2.  Nhấp chuột phải vào biểu tượng tiện ích mở rộng AdGuard VPN Browser.
+3.  Trong menu đã mở, nhấp vào *Nhật ký xuất khẩu*.
+4.  Do đó, tệp nhật ký sẽ được lưu vào thiết bị của bạn trong `txt` định dạng.
 
-Now that you have collected the logs, you need to hand them over to our development team. To do this:
+Bây giờ bạn đã thu thập nhật ký, bạn cần bàn giao chúng cho nhóm phát triển của chúng tôi. Để làm điều này:
 
-1.  Report a bug on GitHub. Detailed instructions on creating an issue on GitHub can be found in this article.
-2.  Send an archive with logs and playback time to `devteam@adguard.com` and attach a link to your GitHub issue. Also you can add an archive with logs and playback time to Google Drive and share it with `devteam@adguard.com` attaching the Google Drive link to your issue on GitHub.
+1.  Báo cáo lỗi trên GitHub. Bạn có thể tìm thấy hướng dẫn chi tiết về cách tạo sự cố trên GitHub trong bài viết này.
+2.  Gửi kho lưu trữ có nhật ký và thời gian phát lại tới `devteam@adguard.com` và đính kèm liên kết đến vấn đề GitHub của bạn. Ngoài ra, bạn có thể thêm một kho lưu trữ với nhật ký và thời gian phát lại vào Google Drive và chia sẻ nó với `devteam@adguard.com` đính kèm liên kết Google Drive vào vấn đề của bạn trên GitHub.
 
-## Collecting and sending logs via browser developer's tools
+## Thu thập và gửi nhật ký thông qua các công cụ của nhà phát triển trình duyệt
 
 ### Chrome
 
@@ -46,10 +46,10 @@ Now that you have collected the logs, you need to hand them over to our developm
 
     ![Save as *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/save.png)
 
-Now that you have collected the logs, you need to hand them over to our development team. To do this:
+Bây giờ bạn đã thu thập nhật ký, bạn cần bàn giao chúng cho nhóm phát triển của chúng tôi. Để làm điều này:
 
-1.  Report a bug on GitHub. Detailed instructions on creating an issue on GitHub can be found in this article.
-2.  Send an archive with logs and playback time to `devteam@adguard.com` and attach a link to your GitHub issue. Also you can add an archive with logs and playback time to Google Drive and share it with `devteam@adguard.com` attaching the Google Drive link to your issue on GitHub.
+1.  Báo cáo lỗi trên GitHub. Bạn có thể tìm thấy hướng dẫn chi tiết về cách tạo sự cố trên GitHub trong bài viết này.
+2.  Gửi kho lưu trữ có nhật ký và thời gian phát lại tới `devteam@adguard.com` và đính kèm liên kết đến vấn đề GitHub của bạn. Ngoài ra, bạn có thể thêm một kho lưu trữ với nhật ký và thời gian phát lại vào Google Drive và chia sẻ nó với `devteam@adguard.com` đính kèm liên kết Google Drive vào vấn đề của bạn trên GitHub.
 
 ### Firefox
 
@@ -71,7 +71,7 @@ Now that you have collected the logs, you need to hand them over to our developm
 
     ![Save *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/save-to-file.png)
 
-Now that you have collected the logs, you need to hand them over to our development team. To do this:
+Bây giờ bạn đã thu thập nhật ký, bạn cần bàn giao chúng cho nhóm phát triển của chúng tôi. Để làm điều này:
 
-1.  Report a bug on GitHub. Detailed instructions on creating an issue on GitHub can be found in this article.
-2.  Send an archive with logs and playback time to `devteam@adguard.com` and attach a link to your GitHub issue. Also you can add an archive with logs and playback time to Google Drive and share it with `devteam@adguard.com` attaching the Google Drive link to your issue on GitHub.
+1.  Báo cáo lỗi trên GitHub. Bạn có thể tìm thấy hướng dẫn chi tiết về cách tạo sự cố trên GitHub trong bài viết này.
+2.  Gửi kho lưu trữ có nhật ký và thời gian phát lại tới `devteam@adguard.com` và đính kèm liên kết đến vấn đề GitHub của bạn. Ngoài ra, bạn có thể thêm một kho lưu trữ với nhật ký và thời gian phát lại vào Google Drive và chia sẻ nó với `devteam@adguard.com` đính kèm liên kết Google Drive vào vấn đề của bạn trên GitHub.

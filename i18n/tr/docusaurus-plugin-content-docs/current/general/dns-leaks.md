@@ -3,40 +3,40 @@ title: 'DNS sızıntısı nedir?'
 sidebar_position: 9
 ---
 
-Once you install a VPN, you want to be sure that there won't be any leaks that will lead to your de-anonymization. AdGuard VPN reliably protects your traffic and your data from prying eyes. Nevertheless, in some cases you may suspect the presence of DNS leaks in our VPN service. We'll explain where these concerns come from and why they are unfounded.
+Bir VPN kurduktan sonra, anonimleştirilmenize yol açacak herhangi bir sızıntı olmayacağından emin olmak istersiniz. AdGuard VPN, trafiğinizi ve verilerinizi meraklı gözlerden güvenilir bir şekilde korur. Bununla birlikte, bazı durumlarda VPN hizmetimizde DNS sızıntılarının varlığından şüphelenebilirsiniz. Bu endişelerin nereden kaynaklandığını ve neden asılsız olduğunu açıklayacağız.
 
-## What are DNS leaks?
+## DNS sızıntıları nedir?
 
-When you use a VPN, a connection to a DNS server may travel outside of the encrypted VPN tunnel and your traffic may become visible to the ISP.
+Bir VPN kullandığınızda, bir DNS sunucusuna bağlantı şifrelenmiş VPN tünelinin dışına çıkabilir ve trafiğiniz İSS tarafından görülebilir hâle gelebilir.
 
-In other words, every time you open a website, your browser sends a request to the ISP's DNS server and in return receives the IP address of the requested website. In this way, your ISP sees all your online activity and can track you.
+Başka bir deyişle, bir siteyi her açtığınızda, tarayıcınız İSS'nin DNS sunucusuna bir istek gönderir ve karşılığında istenen sitenin IP adresini alır. Bu şekilde, İSS'niz tüm çevrimiçi etkinliğinizi görür ve sizi izleyebilir.
 
-## How to detect DNS leaks
+## DNS sızıntıları nasıl tespit edilir
 
-There are all sorts of anonymity check services for detecting DNS leaks, such as `whoer.net`. It should be understood that these websites themselves are not perfect and their algorithms are not clear, as opposed to their intentions to intimidate users with imaginary leaks and potentially sell some service.
+DNS sızıntılarını tespit etmek için `whoer.net` gibi her türlü anonimlik kontrol hizmeti vardır. Kullanıcıları hayali sızıntılarla korkutma ve potansiyel olarak bazı hizmetleri satma niyetlerinin aksine, bu sitelerin kendilerinin mükemmel olmadığı ve algoritmalarının net olmadığı anlaşılmalıdır.
 
-Some security scanning websites consider the coincidence of the user's IP address and the DNS server's IP address to be a "good" result, indicating that there are no leaks. In reality, such a match may indicate the use of a VPN. When VPN is disabled and the requests go to your ISP's DNS server, the IP address of the DNS server and your own one do not coincide.
+Bazı güvenlik tarama web siteleri, kullanıcının IP adresi ile DNS sunucusunun IP adresinin çakışmasını "iyi" bir sonuç olarak kabul eder ve bu da herhangi bir sızıntı olmadığını gösterir. Gerçekte, böyle bir eşleşme bir VPN kullanımına işaret edebilir. VPN devre dışı bırakıldığında ve istekler İSS'nizin DNS sunucusuna gittiğinde, DNS sunucusunun IP adresi ile sizinkinin IP adresi çakışmaz.
 
-## Why there are no DNS leaks in AdGuard VPN
+## AdGuard VPN'de neden DNS sızıntısı yok
 
-If you enable AdGuard VPN on your device and run a check on any of the scanner websites, it finds that DNS queries go to the [AdGuard DNS](https://adguard-dns.io) servers. However, this cannot be considered a leak.
+Cihazınızda AdGuard VPN'i etkinleştirir ve tarayıcı sitelerinden herhangi birini kontrol ederseniz, DNS sorgularının [AdGuard DNS](https://adguard-dns.io) sunucularına gittiğini tespit eder. Ancak bu bir sızıntı olarak kabul edilemez.
 
-Using a non-filtering AdGuard DNS server is set by default in AdGuard VPN. This ensures that your queries do not go to the DNS servers of your ISP, which means that you stay private and anonymous online.
+Filtrelemeyen bir AdGuard DNS sunucusu kullanmak, AdGuard VPN'de varsayılan olarak ayarlanır. Bu, sorgularınızın İSS'nizin DNS sunucularına gitmemesini sağlar, bu da çevrimiçi olarak gizli ve anonim kalmanız anlamına gelir.
 
-What's more, AdGuard DNS is a very popular DNS service, used by over 50 million people. Bu sizin için ne anlama geliyor? Şu durumu hayal edin: normal VPN hizmeti, VPN sunucusuyla aynı IP adresinde bulunan DNS sunucusunu kullanır. Kullanıcı sayısı neredeyse 1.000'i geçmiyor.
+Dahası, AdGuard DNS, 50 milyondan fazla kişi tarafından kullanılan çok popüler bir DNS hizmetidir. Bu sizin için ne anlama geliyor? Şu durumu hayal edin: normal VPN hizmeti, VPN sunucusuyla aynı IP adresinde bulunan DNS sunucusunu kullanır. Kullanıcı sayısı neredeyse 1.000'i geçmiyor.
 
 Ve AdGuard DNS söz konusu olduğunda, 50 milyon kullanıcıyla "birleşirsiniz", böylece yalnızca o DNS sunucusunu kullandığınız gerçeğiyle kimse sizi izleyemez.
 
-## How to set up a custom DNS server in AdGuard VPN
+## AdGuard VPN'de özel DNS sunucusu nasıl ayarlanır
 
-There are many popular public DNS servers from [well-known DNS providers](https://adguard-dns.io/kb/general/dns-providers). Some of them can only perform their direct duties – giving the IP addresses of the requested domains, and some can do more.
+[İyi bilinen DNS sağlayıcılarının](https://adguard-dns.io/kb/general/dns-providers) birçok popüler genel DNS sunucusu vardır. Bazıları yalnızca doğrudan görevlerini yerine getirebilir - istenen alan adlarının IP adreslerini verir ve bazıları daha fazlasını yapabilir.
 
-For example, AdGuard DNS removes ads and protects your device from being tracked, and AdGuard DNS Family Protection combines AdGuard DNS features with Safe search and Parental control.
+Örneğin, AdGuard DNS reklamları kaldırır ve cihazınızı izlenmeye karşı korur ve AdGuard DNS Family Protection, AdGuard DNS özelliklerini Güvenli arama ve Ebeveyn denetimi ile birleştirir.
 
 Herhangi bir DNS sunucusunu seçebilir ve AdGuard VPN'de yapılandırabilirsiniz:
 
-* in AdGuard VPN for Windows: *Settings* → *App settings* → *DNS servers*
-* in AdGuard VPN for Mac: *Settings* → *App settings* → *DNS servers*
-* in AdGuard VPN for Android: *Settings* (gear icon) → *App settings* → *DNS server*
-* in AdGuard VPN for iOS: *Settings* (gear icon) → *App settings* → *DNS server*
-* in AdGuard VPN Browser extension: the hamburger menu icon → *Settings* → *DNS server*
+* Windows için AdGuard VPN'de: *Ayarlar* → *Uygulama ayarları* → *DNS sunucular*
+* Mac için AdGuard VPN'de: *Ayarlar* → *Uygulama ayarları* → *DNS sunucular*
+* Android için AdGuard VPN'de: *Ayarlar* (Dişli çark simgesi) → *Uygulama ayarları* → *DNS sunucular*
+* iOS için AdGuard VPN'de: *Ayarlar* (Dişli çark simgesi) → *Uygulama ayarları* → *DNS sunucular*
+* AdGuard VPN Tarayıcı uzantısında: hamburger menü simgesi → *Ayarlar* → *DNS sunucusu*

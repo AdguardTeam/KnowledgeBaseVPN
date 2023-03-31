@@ -38,7 +38,7 @@ Masaüstü uygulamaları ve tarayıcı uzantıları ile bunu söylemeye gerek yo
 
 Mobil cihazlarda ise durum o kadar basit değil. Durumların büyük çoğunluğunda, iki VPN tabanlı uygulama birlikte çalışmaz, çünkü hem Android hem de iOS'ta bunun olmasını engelleyen işletim sistemi kaynaklı bazı kısıtlamalar vardır.
 
-Ancak AdGuard VPN ve AdGuard Reklam Engelleyici ile arkadaş olmak için bir çözüm bulmayı başardık. When you have both AdGuard apps installed on one device, they will automatically become compatible without any input required from you. Bu, normalde aralarından seçim yapmanız gereken iki özellik grubundan yararlanmak için eşsiz bir fırsattır.
+Ancak AdGuard VPN ve AdGuard Reklam Engelleyici ile arkadaş olmak için bir çözüm bulmayı başardık. Her iki AdGuard uygulamasını da bir cihaza yüklediğinizde, sizden herhangi bir işlem yapmanıza gerek kalmadan otomatik olarak uyumlu hâle gelirler. Bu, normalde aralarından seçim yapmanız gereken iki özellik grubundan yararlanmak için eşsiz bir fırsattır.
 
 ## 6. QUIC desteği
 [QUIC](https://adguard.com/blog/dns-over-quic.html), birçok avantajı olan son teknoloji bir protokoldür. Başlıca avantajı, ideal olmayan koşullarda bağlantı kalitesini iyileştirebilmesidir –örneğin mobil cihazlarda veya halka açık Wi-Fi'ye bağlanırken. Yeni protokol, bağlantı iyi ve kararlı olduğunda hızı etkilemese de, yavaş internete sahip kullanıcılar için durumu kesinlikle daha iyi hâle getirir.

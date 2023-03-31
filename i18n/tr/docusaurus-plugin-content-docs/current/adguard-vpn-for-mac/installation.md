@@ -28,7 +28,7 @@ sidebar_position: 2
 
 5. Ardından *Devam et* ve *Kur* öğesine tıklayın.
 
-![Devam et öğesine tıklayın](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-install-2-en.png)
+![Devam et öğesine tıklayın](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/.mac-install-2-en~imageoptim.png)
 
 ![Yükle öğesine tıklayın](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-install-3-en.png)
 
