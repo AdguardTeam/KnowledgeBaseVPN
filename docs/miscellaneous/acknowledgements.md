@@ -59,7 +59,7 @@ Our dev team would like to thank the developers of the third-party software we u
 * BoringSSL: [https://github.com/google/boringssl](https://github.com/google/boringssl)
 * brotli: [https://github.com/google/brotli](https://github.com/google/brotli)
 * Detours: [https://github.com/microsoft/Detours](https://github.com/microsoft/Detours)
-* FF/FFOS libs: [https://github.com/stsaz/ff](https://github.com/stsaz/ff)
+* FF/FFOS libs: [https://github.com/stsaz/ffos](https://github.com/stsaz/ffos)
 * Google test: [https://github.com/google/googletest](https://github.com/google/googletest)
 * http-parser: [https://github.com/nodejs/http-parser](https://github.com/nodejs/http-parser)
 * klib: [https://github.com/attractivechaos/klib](https://github.com/attractivechaos/klib)
