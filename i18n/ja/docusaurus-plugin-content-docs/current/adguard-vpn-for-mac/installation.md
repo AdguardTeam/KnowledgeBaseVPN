@@ -28,7 +28,7 @@ sidebar_position: 2
 
 5. 次に、「*続ける*」と「*インストール*」をクリックします。
 
-![「続行」をクリック](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-install-2-en.png)
+![「続行」をクリック](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/.mac-install-2-en~imageoptim.png)
 
 ![「インストール」をクリック](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-install-3-en.png)
 

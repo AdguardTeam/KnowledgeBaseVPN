@@ -28,7 +28,7 @@ sidebar_position: 2
 
 5. Then click *Continue* and *Install*.
 
-![Click Continue](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-install-2-en.png)
+![Click Continue](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/.mac-install-2-en~imageoptim.png)
 
 ![click Install](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-install-3-en.png)
 

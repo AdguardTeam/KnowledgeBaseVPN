@@ -1,5 +1,5 @@
 ---
-title: Common installer errors
+title: Yaygın kurulum programı hataları
 sidebar_position: 2
 ---
 
@@ -7,11 +7,11 @@ Bu makale, Windows için AdGuard VPN kurulumu sırasında karşılaşabileceğin
 
 ### Hata 5: Erişim Reddedildi {#error-5}
 
-Bu hata, izinlerle ilgili bir sorun olduğunda ortaya çıkar. There may be several different reasons why AdGuard VPN installer does not have the permissions it requires to properly finish the installation process. Aşağıdaki adımları deneyebilirsiniz:
+Bu hata, izinlerle ilgili bir sorun olduğunda ortaya çıkar. AdGuard VPN kurulum programının, yükleme işlemini düzgün bir şekilde tamamlamak için ihtiyaç duyduğu izinlere sahip olmamasının birkaç farklı nedeni olabilir. Aşağıdaki adımları deneyebilirsiniz:
 
 - Antivirüslerinizi geçici olarak devre dışı bırakın. Bazıları, ayarlarının ciddiyetine bağlı olarak kuruluma müdahale edebilir.
 
-- Farklı bir kurulum klasörü seçin. Mevcut kurulum klasörünün bazı erişim kısıtlamaları olabilir. Also make sure you don't select an external drive, a virtual drive, etc.
+- Farklı bir kurulum klasörü seçin. Mevcut kurulum klasörünün bazı erişim kısıtlamaları olabilir. Ayrıca harici sürücü, sanal sürücü, vb. seçmediğinizden emin olun.
 
 - Bilgisayarınızı yeniden başlatın. Bazen izin sorunları geçicidir ve bilgisayarı yeniden başlatarak çözülebilir.
 
@@ -21,61 +21,61 @@ Bunlar çok benzer çözümlere sahip iki farklı hatadır. Adlarından da anla�
 
 - AdGuard VPN'i kurmaya çalıştığınız sürücüden bazı programları kaldırın veya gereksiz dosyaları silin.
 
-- Download, install, and run [AdwCleaner](http://www.bleepingcomputer.com/download/adwcleaner/), a free piece of software by Malwarebytes. It will, among other things, clean your system from all kinds of extra "leftover" files that remain after incorrectly uninstalled programs and such. Biraz disk alanı temizlemeye yardımcı olur.
+- Malwarebytes'in ücretsiz bir yazılımı olan [AdwCleaner](http://www.bleepingcomputer.com/download/adwcleaner/) yazılımını indirin, kurun ve çalıştırın. Diğer şeylerin yanı sıra, sisteminizi yanlış bir şekilde kaldırılan programlardan sonra kalan her türlü fazladan "artık" dosyalardan temizler. Biraz disk alanı temizlemeye yardımcı olur.
 
 - Bilgisayarınızı yeniden başlatın. Bazen geçici dosyalar önemli miktarda disk alanı kaplayabilir ve bilgisayarınızı yeniden başlatmak bunlardan kurtulmanın en güvenilir yoludur.
 
-### Hata 1601: Windows Installer'a erişilemiyor {#error-1601}
+### Hata 1601: Windows Installer Hizmetine Erişilemiyor {#error-1601}
 
 Bunun, Hata 1603'ün belirli bir alt türü olduğunu söyleyebilirsiniz. Olası çözümler benzerdir:
 
-- Start and re-register Microsoft Installer service. It requires some work.
+- Microsoft Installer hizmetini başlatın ve yeniden kaydettirin. Bu biraz uğraş gerektirir.
 
-    1) Press *Win + R* and enter **services.msc**. 2) Find in the list and double click *Windows Installer*. 3) Hit *Start* button under *Service status* and hit *OK*. If the service status is **running**, you should click *Stop* first and then hit *Start*. 4) Press *Win + R*, type and enter ***msiexec /unregister*** and hit *Enter*. 5) Press *Win + R* again, type and enter ***msiexec /regserver*** and hit *Enter*
+    1) *Win + R* tuşlarına basın ve **services.msc** yazın. 2) Listeden *Windows Installer* öğesini bulun ve çift tıklayın. 3) *Hizmet durumu* altındaki *Başlat* düğmesine basın ve *Tamam* öğesine basın. Hizmet durumu **çalışıyor** ise, önce *Durdur* öğesine ve ardından *Başlat* öğesine tıklamalısınız. 4) *Win + R* tuşlarına basın, ***msiexec /unregister*** yazın ve *Enter* öğesine basın. 5) *Win + R* tuşlarına tekrar basın, ***msiexec /regserver*** yazın ve *Enter* öğesine basın
 
 - PC'yi yeniden başlatın ve kurulumu baştan başlatın. Bazen sorunu çözmek için bu yeterli olur.
 
-### Error 1602: Canceled by user {#error-1602}
+### Hata 1602: Kullanıcı tarafından iptal edildi {#error-1602}
 
-If you got this error code, chances are you have interrupted the installation process manually in one way or another. What you can do is:
+Bu hata kodunu aldıysanız, yükleme işlemini bir şekilde elle kesintiye uğratmış olabilirsiniz. Yapabileceğiniz şey:
 
-- Do not close the installer window. When the installation is complete, it will close automatically.
+- Kurulum programı penceresini kapatmayın. Kurulum tamamlandığında otomatik olarak kapanır.
 
-- If a dialogue window pops up during the installation, hit "Yes" to grant the installer the required permissions. Clicking "No" will cancel the installation.
+- Yükleme sırasında bir diyalog penceresi açılırsa, kurulum programına gerekli izinleri vermek için "Evet" öğesine basın. "Hayır" öğesine tıklandığında kurulum iptal edilir.
 
-- Do not start other processes while the installation is in progress.
+- Kurulum devam ederken başka işlemler başlatmayın.
 
-### Error 1603: Fatal error during installation {#error-1603}
+### Hata 1603: Kurulum sırasında kritik hata oluştu {#error-1603}
 
-The error sounds scarier than it actually is. In reality, this is a rather generic error that can have many different causes, and some of them are easily fixed. Try the following solutions:
+Hata kulağa gerçekte olduğundan daha korkutucu geliyor. Gerçekte bu, birçok farklı nedeni olabilen oldukça genel bir hatadır ve bazıları kolayca düzeltilebilir. Aşağıdaki çözümleri deneyin:
 
-- Press the *Win* key, search for *Command Prompt*, and run it. There, type in `sfc /scannow` and press *Enter*.
+- *Win* tuşuna basın, *Komut İstemi* öğesini arayın ve çalıştırın. Orada, `sfc /scannow` yazın ve *Enter* öğesine basın.
 
-- Choose a different installation folder. It is possible that the current installation folder has some access restrictions. Also make sure you don't select an external drive, a virtual drive, etc.
+- Farklı bir kurulum klasörü seçin. Mevcut kurulum klasörünün bazı erişim kısıtlamaları olabilir. Ayrıca harici sürücü, sanal sürücü, vb. seçmediğinizden emin olun.
 
 - Uninstall AdGuard VPN using our special [uninstall tool](../../installation#advanced) and then repeat the installation.
 
-- Start and re-register Microsoft Installer service. It requires some work.
+- Microsoft Installer hizmetini başlatın ve yeniden kaydettirin. Bu biraz uğraş gerektirir.
 
-    1) Press *Win + R* and enter ***services.msc***. 2) Find in the list and double click *Windows Installer*. 3) Hit *Start* button under *Service status* and hit *OK*. If the service status is **running**, you should click *Stop* first and then hit *Start*. 4) Press *Win + R*, type and enter ***msiexec /unregister*** and hit *Enter*. 5) Press *Win + R* again, type and enter ***msiexec /regserver*** and hit *Enter*
+    1) *Win + R* tuşlarına basın ve ***services.msc*** yazın. 2) Listeden *Windows Installer* öğesini bulun ve çift tıklayın. 3) *Hizmet durumu* altındaki *Başlat* düğmesine basın ve *Tamam* öğesine basın. Hizmet durumu **çalışıyor** ise, önce *Durdur* öğesine ve ardından *Başlat* öğesine tıklamalısınız. 4) *Win + R* tuşlarına basın, ***msiexec /unregister*** yazın ve *Enter* öğesine basın. 5) *Win + R* tuşlarına tekrar basın, ***msiexec /regserver*** yazın ve *Enter* öğesine basın
 
-- Acquire full permissions on the drive for installation. It is possible that the error 1603 occurs because you don’t have full permissions on the file location. It's also not as easy as some of the other solutions:
+- Kurulum için sürücüde tam izinleri alın. Dosya konumunda tam izinlere sahip olmadığınız için 1603 hatasının oluşması olasıdır. Ayrıca diğer bazı çözümler kadar kolay değildir:
 
-    1) Open *File Explorer*, right-click the drive containing the installation location, and select *Properties*. 2) Go to *Security* tab and click *Edit*. 3) Single-click *SYSTEM* and ensure that the *Allow* box of every item in *Permissions for SYSTEM* is checked (if it is checkable). Do the same check for *Administrators*. 4) Click *OK* to go back to *Properties* dialog. Then click *Advanced*. 5) Click *Change Permissions*. 6) In *Permissions* tab, double-click *Administrators*. 7) Select *This folder, subfolders and files* for the *Applies to* field and tick all the available *Basic permissions*. Bundan sonra *Tamam* öğesine basın. 8) Do the same operation above (from item 7) for *SYSTEM*. 9) Click *OK* all the way out. AdGuard'ı yeniden kurmayı deneyin.
+    1) *Dosya Gezgini* öğesini açın, kurulum konumunu içeren sürücüye sağ tıklayın ve *Özellikler* öğesini seçin. 2) *Güvenlik* sekmesine gidin ve *Düzenle* öğesine tıklayın. 3) Single-click *SYSTEM* and ensure that the *Allow* box of every item in *Permissions for SYSTEM* is checked (if it is checkable). Do the same check for *Administrators*. 4) *Özellikler* uyarı kutusuna geri dönmek için *Tamam* öğesine tıklayın. Ardından *Gelişmiş* öğesine tıklayın. 5) *İzinleri Değiştir* öğesine tıklayın. 6) *İzinler* sekmesinde, *Yöneticiler* öğesine çift tıklayın. 7) Select *This folder, subfolders and files* for the *Applies to* field and tick all the available *Basic permissions*. Bundan sonra *Tamam* öğesine basın. 8) Do the same operation above (from item 7) for *SYSTEM*. 9) Sonuna kadar *Tamam* öğesine tıklayın. AdGuard'ı yeniden kurmayı deneyin.
 
 ### Hata 1618: Başka bir kurulum zaten devam ediyor {#error-1618}
 
 Bu hata, aynı anda başlatılan birkaç AdGuard VPN kurulum programı olduğunda ortaya çıkar. What to do if you get this error:
 
-- Reboot your PC and start the installer again. Bilgisayarı yeniden başlattığınızda, kurulum programının tüm kopyaları dahil devam eden tüm işlemler durur.
+- Bilgisayarınızı yeniden başlatın ve kurulum programını tekrar başlatın. Bilgisayarı yeniden başlattığınızda, kurulum programının tüm kopyaları dahil devam eden tüm işlemler durur.
 
-- Hemen başlamasa bile kurulum programına birden çok tıklama yapmayın. Sometimes it may take a few seconds to display the installer UI.
+- Hemen başlamasa bile kurulum programına birden çok tıklama yapmayın. Bazen kurulum programı kullanıcı arayüzünün görüntülenmesi birkaç saniye sürebilir.
 
 ### Error 1638: Bu ürünün başka bir sürümü zaten kurulu {#error-1638}
 
 Daha önce AdGuard VPN kurmuş olmanız çok olasıdır.
 
-- AdGuard VPN'in bilgisayarınızda kurulu olup olmadığını kontrol edin. You can do it by pressing the *Win* key and typing in ***AdGuard VPN***.
+- AdGuard VPN'in bilgisayarınızda kurulu olup olmadığını kontrol edin. Bunu *Win* tuşuna basarak ve ***AdGuard VPN*** yazarak yapabilirsiniz.
 
 - Belki önceki bir AdGuard VPN kurulumundan kalan bazı dosyalar vardır. Uninstall AdGuard using our special [uninstall tool](../../installation#advanced) and then repeat the installation.
 
@@ -83,8 +83,8 @@ Daha önce AdGuard VPN kurmuş olmanız çok olasıdır.
 
 Yukarıda listelenmeyen bir hatayla karşılaştıysanız, bunu kendimiz çözmemiz mümkündür. Ancak bunu yapabilmek için sizden günlük dosyalarına ihtiyacımız var. Lütfen aşağıdaki adımları uygulayın:
 
-- Find and archive **AdGuard VPN installation logs** in the same way that is described in [this article](https://adguard.com/kb/adguard-for-windows/solving-problems/installation-logs/).
+- **AdGuard VPN kurulum günlüklerini** [bu makalede](https://adguard.com/kb/adguard-for-windows/solving-problems/installation-logs/) açıklanan şekilde bulun ve arşivleyin.
 
-- Find and save to disk **Event Viewer** logs. [This article](https://adguard.com/kb/adguard-for-windows/solving-problems/system-logs/) explains how to do that.
+- **Olay Görüntüleyicisi** günlüklerini bulun ve diske kaydedin. [Bu makale](https://adguard.com/kb/adguard-for-windows/solving-problems/system-logs/) bunun nasıl yapılacağını açıklar.
 
-Please email all these files from the two previous steps at **support@adguard.com** and describe the problem in the message body. Destek ekibimiz en kısa sürede size cevap verir.
+Lütfen önceki iki adımdaki tüm bu dosyaları **support@adguard.com** adresine e-postayla gönderin ve sorunu mesaj metninde açıklayın. Destek ekibimiz en kısa sürede size cevap verir.

@@ -9,7 +9,7 @@ Ancak bu çalışma modu, AdGuard VPN ve AdGuard Reklam Engelleyicinin aynı and
 
 Entegre modda ise IPsec protokolü kullanılır, bu da AdGuard uygulamalarının birlikte çalışmasını mümkün kılar. AdGuard VPN'i yüklerken zaten AdGuard Reklam Engelleyiciniz varsa, bu mod otomatik olarak açılır ve uygulamalarımızı aynı anda kullanmanıza izin verir. Önce AdGuard VPN'i yüklediyseniz ve ardından AdGuard AdGuard Reklam Engelleyiciyi denemeye karar verdiyseniz, iki uygulamayı birlikte kullanmak için şu adımları takip edin:
 
-1. Open AdGuard VPN for iOS and select "Settings" in the lower right corner of the screen.
+1. iOS için AdGuard VPN'i açın ve ekranın sağ alt köşesindeki "Ayarlar" öğesini seçin.
 
 2. "Uygulama ayarları" öğesine gidin ve "Çalışma modu" öğesini seçin.
 

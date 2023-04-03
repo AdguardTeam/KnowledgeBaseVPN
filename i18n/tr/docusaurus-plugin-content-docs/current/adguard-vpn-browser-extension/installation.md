@@ -13,7 +13,7 @@ AdGuard VPN tarayıcı uzantısını yüklemek için şu adımları takip edin:
 
 3. Tarayıcınıza bağlı olarak web sitelerinden biri açılır: Chrome Web Mağazası, Firefox Eklentileri, Opera eklentileri veya Microsoft Edge Eklentileri. İlgili düğmeye tıklayın: *Chrome'a Ekle*, *Firefox'a Ekle*, *Opera'ya Ekle* veya AdGuard VPN Tarayıcı uzantısının yanındaki *Edinin*.
 
-4. İlgili kutuyu işaretleyerek SKLS ve Gizlilik Politikasını okuyun ve kabul edin. You can also allow AdGuard VPN to collect anonymous data on the app usage, which we need to improve our product (this is optional). Ardından *Devam* öğesine tıklayın.
+4. İlgili kutuyu işaretleyerek SKLS ve Gizlilik Politikasını okuyun ve kabul edin. AdGuard VPN'in, ürünümüzü geliştirmek için ihtiyaç duyduğumuz uygulama kullanımıyla ilgili anonim verileri toplamasına da izin verebilirsiniz (bu isteğe bağlıdır). Ardından *Devam* öğesine tıklayın.
 
 5. Yüklemeyi tamamlamak için kaydolun veya AdGuard hesabınıza giriş yapın.
 
@@ -35,4 +35,4 @@ Tarayıcının sağ üst köşesindeki üç nokta simgesini tıklayın, ardında
 
 ### Opera
 
-Click the *Extensions* icon in the top right corner of the browser, then select *Manage extensions...*. Find AdGuard VPN in the list and click the *Remove* button.  
+Tarayıcının sağ üst köşesindeki *Uzantılar* simgesine tıklayın, ardından *Uzantıları yönet...* öğesini seçin. Listede AdGuard VPN'i bulun ve *Kaldır* düğmesine tıklayın.  

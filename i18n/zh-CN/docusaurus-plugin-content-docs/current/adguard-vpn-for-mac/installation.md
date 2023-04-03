@@ -28,7 +28,7 @@ sidebar_position: 2
 
 5. 然后单击「*继续*」和「*安装*」。
 
-![点击继续](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-install-2-en.png)
+![点击继续](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/.mac-install-2-en~imageoptim.png)
 
 ![点击安装](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-install-3-en.png)
 
