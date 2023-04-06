@@ -79,6 +79,11 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   font-weight: 700;
 }
 
+.container .footer__logo {
+  max-width: none;
+  width: auto;
+}
+
 .navbar {
   box-shadow: none;
 }
@@ -106,6 +111,7 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
 .footer__item {
   max-width: 165px;
   font-size: 13px;
+  white-space: nowrap;
 }
 
 .footer__link-item {
