@@ -7,7 +7,6 @@ import { OS_NAMES } from '@site/static/js/consts';
 import s from './StickyBar.module.scss';
 
 const OPENING_HEIGHT = 50;
-const VPN_WEBSITE_URL = 'https://adguard-vpn.com';
 
 //This function, that switching <Translate> needs for correct generation of translations
 const getCurrentBtnText = () => {
@@ -60,7 +59,7 @@ const eulaText = () => {
             description="String used for license agreement text in sticky bar"
             values={{
                 eulaLink: (
-                    <a href={`${VPN_WEBSITE_URL}/eula.html`}>
+                    <a href={`/eula.html`}>
                         <Translate
                             id="sticky_bar.btn.baloon.text.link"
                             description="The label for the link to license agreement"
@@ -111,7 +110,7 @@ const StickyBar = () => {
                         <div className={s.stickyBarBtnWrap}>
                             <a
                                 className={s.stickyBarBtn}
-                                href={`${VPN_WEBSITE_URL}/download.html?auto=1&lbl=knowledge_base`}
+                                href={`/download.html?auto=1&lbl=knowledge_base`}
                             >
                                 <span className={clsx(s.stickyBarBtnIcon, s[iconClassName])} />
 
