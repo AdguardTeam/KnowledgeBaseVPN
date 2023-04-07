@@ -63,11 +63,13 @@ module.exports = {
           to: VPN_WEBSITE_URL + '/blog/index.html',
           position: 'left',
           label: 'blog',
+          target: '_self',
         },
         {
           to: VPN_WEBSITE_URL,
           position: 'left',
           label: 'official_website',
+          target: '_self',
         },
         {
           type: 'localeDropdown',
@@ -100,22 +102,27 @@ module.exports = {
             {
               label: 'about',
               href: VPN_WEBSITE_URL + '/about-us.html',
+              target: '_self',
             },
             {
               label: 'official',
               href: VPN_WEBSITE_URL,
+              target: '_self',
             },
             {
               label: 'what_is_vpn',
               href: VPN_WEBSITE_URL + '/en/what-is-vpn.html',
+              target: '_self',
             },
             {
               label: 'blog',
               href: VPN_WEBSITE_URL + '/blog/index.html',
+              target: '_self',
             },
             {
               label: 'discuss',
-              href: ADGUARD_WEBSITE_URL + '/discuss.html',
+              href: VPN_WEBSITE_URL + '/discuss.html',
+              target: '_self',
             },
           ]
         },
@@ -125,18 +132,27 @@ module.exports = {
             {
               label: 'vpn_android',
               href: VPN_WEBSITE_URL + '/android/overview.html',
+              target: '_self',
             },
             {
               label: 'vpn_windows',
               href: VPN_WEBSITE_URL + '/windows/overview.html',
+              target: '_self',
             },
             {
               label: 'vpn_mac',
               href: VPN_WEBSITE_URL + '/mac/overview.html',
+              target: '_self',
             },
             {
               label: 'vpn_ios',
               href: VPN_WEBSITE_URL + '/ios/overview.html',
+              target: '_self',
+            },
+            {
+              label: 'vpn_browser_ext',
+              href: VPN_WEBSITE_URL + '/browser-extension/overview.html',
+              target: '_self',
             },
           ],
         },
@@ -146,6 +162,7 @@ module.exports = {
             {
               label: 'support',
               href: VPN_WEBSITE_URL + '/support.html',
+              target: '_self',
             },
             {
               label: 'how_to_install',
@@ -154,6 +171,7 @@ module.exports = {
             {
               label: 'faq',
               href: VPN_WEBSITE_URL + '/support/faq.html',
+              target: '_self',
             },
             {
               label: 'status',
@@ -171,6 +189,7 @@ module.exports = {
             {
               label: 'license',
               href: VPN_WEBSITE_URL + '/license.html',
+              target: '_self',
             },
             {
               label: 'contribute',

@@ -51,6 +51,10 @@
     "message": "AdGuard VPN for iOS",
     "description": "The label of footer link with label=vpn_ios linking to https://adguard-vpn.com/ios/overview.html"
   },
+  "link.item.label.vpn_browser_ext": {
+    "message": "AdGuard VPN Browser extension",
+    "description": "The label of footer link with label=vpn_browser_ext linking to https://adguard-vpn.com/browser-extension/overview.html"
+  },
   "link.item.label.support": {
     "message": "Support",
     "description": "The label of footer link with label=support linking to https://adguard-vpn.com/support.html"
