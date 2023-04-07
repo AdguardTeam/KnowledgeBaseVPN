@@ -1,77 +1,77 @@
 ---
-title: How to collect and send logs
+title: Sådan indsamles og indsendes logfiler
 sidebar_position: 1
 ---
 
-There are several ways for collecting AdGuard VPN Browser extension logs, but whichever one you choose, the same data will be collected. In the extension, logs are not divided into standard and debug ones. And different options for collecting logs are provided for those cases when a problem you encounter prevents you from using one or another instruction.
+Indsamling af logfiler for AdGuard VPN-browserudvidelse kan ske på flere måder, men uanset måde, vil indsamlede data være de samme. I udvidelsen er logger ikke opdelt i hhv. standard- og fejlfindingsfiler. Der er forskellige muligheder for logfilindsamling for de tilfælde, hvor et aktuelt problem forhindrer brugen af en eller anden instruktion.
 
-## Collecting and sending logs via the *Report a bug* section
+## Indsamling og indsendelse af logfiler via sektionen *Anmeld en fejl*
 
-1.  Open AdGuard VPN Browser extension, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
-2.  Open *Settings* by clicking the hamburger menu icon (☰) → *Support* → *Report a bug*.
-3.  In the opened form, leave an automatically inserted email address or enter another one and describe the error found, including the time when this error occurred. If you can't reproduce the problem, specify as accurately as possible when it last occurred.
-4.  Make sure that there is a check mark next to *Include the diagnostic report in the message*, and tap *Submit*. This way, you will send logs along with the bug report.
+1.  Åbn AdGuard VPN-browserudvidelsen, hvis det er muligt, og gentag handlingerne, som førte til fejlen. Notér det nøjagtige tidspunkt, hvor fejlen opstod.
+2.  Åbn *Indstillinger* ved at klikke på hamburgermenuikonet (☰) → *Support* → *Anmeld en fejl*.
+3.  Angiv i den åbnede formular en automatisk indsat e-mailadresse eller angiv en anden og beskriv den fundne fejl, herunder tidspunktet, hvor denne fejl opstod. Kan problemet ikke genskabes, så angiv så nøjagtigt som muligt, hvornår det senest opstod.
+4.  Sørg for, at der er sat flueben ved *Inkludér diagnosticeringsrapporten i meddelelsen*, og tryk på *Indsend*. På denne måde indsendes logfiler sammen med fejlrapporten.
 
-## Collecting and sending logs via the *Export logs* button
+## Indsamling og indsendelse af logfiler via knappen *Eksportér logfiler*
 
-1.  Open AdGuard VPN Browser extension, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
-2.  Right-click the AdGuard VPN Browser extension icon.
-3.  In the opened menu click *Export logs*.
-4.  As a result, the logs file will be saved to your device in `txt` format.
+1.  Åbn AdGuard VPN-browserudvidelsen, hvis det er muligt, og gentag handlingerne, som førte til fejlen. Notér det nøjagtige tidspunkt, hvor fejlen opstod.
+2.  Højreklik på AdGuard VPN-browserudvidelsesikonet.
+3.  Klik på *Eksportér logfiler* i den viste menu.
+4.  Logfilerne gemmes dernæst på enheden i `txt`-format.
 
-Now that you have collected the logs, you need to hand them over to our development team. To do this:
+Nu, hvor logfilerne er indsamlet, skal de videregives til vores udviklingsteam. For at gøre dette:
 
-1.  Report a bug on GitHub. Detailed instructions on creating an issue on GitHub can be found in this article.
+1.  Anmeld en fejl på GitHub. Detaljeret vejledning til problematikoprettelse på GitHub fremgår i denne artikel.
 2.  Send an archive with logs and playback time to `devteam@adguard.com` and attach a link to your GitHub issue. Also you can add an archive with logs and playback time to Google Drive and share it with `devteam@adguard.com` attaching the Google Drive link to your issue on GitHub.
 
-## Collecting and sending logs via browser developer's tools
+## Indsamling og indsendelse af logfiler via browserudviklerens værktøjer
 
 ### Chrome
 
-1.  Open AdGuard VPN Browser extension, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
-2.  Go to `chrome://extensions`
-3.  Turn on *developer mode*
+1.  Åbn AdGuard VPN-browserudvidelsen, hvis det er muligt, og gentag handlingerne, som førte til fejlen. Notér det nøjagtige tidspunkt, hvor fejlen opstod.
+2.  Gå til `chrome://extensions`
+3.  Slå *udviklertilstand* til
 
-    ![The developer mode *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/dev_mode.png)
+    ![Udviklertilstanden *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/dev_mode.png)
 
-4.  Click `background.html`
+4.  Klik på `background.html`
 
-    ![Background *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/backgroung.png)
+    ![Baggrund *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/backgroung.png)
 
-5.  Open the *Console tab*
+5.  Åbn fanen *Konsol*
 
-    ![The Console tab *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/console.png)
+    ![Konsolfanen *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/console.png)
 
-6.  Open the context menu and click *Save as…*
+6.  Åbn kontekstmenuen, og klik på *Gem som…*
 
-    ![Save as *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/save.png)
+    ![Gem som *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/save.png)
 
-Now that you have collected the logs, you need to hand them over to our development team. To do this:
+Nu, hvor logfilerne er indsamlet, skal de videregives til vores udviklingsteam. For at gøre dette:
 
-1.  Report a bug on GitHub. Detailed instructions on creating an issue on GitHub can be found in this article.
+1.  Anmeld en fejl på GitHub. Detaljeret vejledning til problematikoprettelse på GitHub fremgår i denne artikel.
 2.  Send an archive with logs and playback time to `devteam@adguard.com` and attach a link to your GitHub issue. Also you can add an archive with logs and playback time to Google Drive and share it with `devteam@adguard.com` attaching the Google Drive link to your issue on GitHub.
 
 ### Firefox
 
-1.  Open AdGuard VPN Browser extension, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
-2.  Go to `about:addons`
-3.  Click *Debug Add-ons*
+1.  Åbn AdGuard VPN-browserudvidelsen, hvis det er muligt, og gentag handlingerne, som udløste fejlen. Notér det nøjagtige tidspunkt, hvor fejlen opstod.
+2.  Gå til `about:addons`
+3.  Klik på *Debug Add-ons*
 
     ![Debug Add-ons *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/add-ons.png)
 
-4.  Click *Inspect*
+4.  Klik på *Inspicér*
 
-    ![Inspect *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/inspect.png)
+    ![Inspicér *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/inspect.png)
 
-5.  Go to the *Console* tab
+5.  Gå til fanen *Konsol*
 
-    ![Console *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/ff_console.png)
+    ![Konsol *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/ff_console.png)
 
-6.  Click *Save all Messages to file*
+6.  Klik på *Gem alle meddelelser til fil*
 
-    ![Save *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/save-to-file.png)
+    ![Gem *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/save-to-file.png)
 
-Now that you have collected the logs, you need to hand them over to our development team. To do this:
+Nu, hvor logfilerne er indsamlet, skal de videregives til vores udviklingsteam. For at gøre dette:
 
-1.  Report a bug on GitHub. Detailed instructions on creating an issue on GitHub can be found in this article.
+1.  Anmeld en fejl på GitHub. Detaljeret vejledning til problematikoprettelse på GitHub fremgår i denne artikel.
 2.  Send an archive with logs and playback time to `devteam@adguard.com` and attach a link to your GitHub issue. Also you can add an archive with logs and playback time to Google Drive and share it with `devteam@adguard.com` attaching the Google Drive link to your issue on GitHub.
