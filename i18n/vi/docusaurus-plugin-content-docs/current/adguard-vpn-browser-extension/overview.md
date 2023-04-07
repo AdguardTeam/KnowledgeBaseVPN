@@ -3,41 +3,41 @@ title: Features overview
 sidebar_position: 1
 ---
 
-AdGuard VPN Browser extension is available for Chrome, Firefox, and Edge. The UI and functionality doesn't differ between browsers so the overview below will be relevant for AdGuard VPN extensions for all browsers.
+Tiện ích mở rộng Trình duyệt AdGuard VPN có sẵn cho Chrome, Firefox, Opera và Edge. Giao diện người dùng và chức năng không khác nhau giữa các trình duyệt, vì vậy tổng quan bên dưới sẽ phù hợp với các tiện ích mở rộng AdGuard VPN cho tất cả các trình duyệt.
 
-> Note that you can only use AdGuard VPN Browser extension when logged in. Sign in with your AdGuard account or via Google, Facebook, or Apple. In the latter case make sure that your account is bound to the same email address as your AdGuard account. If you have an [AdGuard VPN subscription](/general/subscription.md), it will be activated automatically in AdGuard VPN Browser extension. Don’t have an AdGuard account yet? [Create it here](https://auth.adguard.com/registration.html).
+> Lưu ý rằng bạn chỉ có thể sử dụng tiện ích mở rộng AdGuard VPN Browser khi đăng nhập. Đăng nhập bằng tài khoản AdGuard của bạn hoặc qua Google, Facebook hoặc Apple. Trong trường hợp sau, hãy đảm bảo rằng tài khoản của bạn được liên kết với cùng một địa chỉ email với tài khoản AdGuard của bạn. Nếu bạn có [Đăng ký AdGuard VPN](/general/subscription.md), nó sẽ được kích hoạt tự động trong tiện ích mở rộng Trình duyệt AdGuard VPN. Bạn chưa có tài khoản AdGuard? [Tạo tài khoản ở đây](https://auth.adguard.com/registration.html).
 
-To manage your AdGuard VPN Browser extension, either
+Để quản lý tiện ích mở rộng Trình duyệt AdGuard VPN của bạn:
 
-* Click its icon on the browser's panel, then click three stripes and select *Settings*, or
-* Go to your browser's *Manage extensions* page and enter the AdGuard VPN's settings from there.
+* Nhấp vào biểu tượng của nó trên bảng điều khiển của trình duyệt, nhấp vào biểu tượng menu bánh hamburger và chọn *Cài đặt*,
+* Hoặc đi đến *Quản lý tiện ích mở rộng* Trong trình duyệt của bạn, hãy nhấp vào *Chi tiết* dưới *AdGuard VPN* và quản lý cài đặt của nó từ đó.
 
-Once done, you'll see several tabs on the left:
+Sau khi hoàn tất, bạn sẽ thấy một số tab ở bên trái:
 
-## Settings
+## Cài đặt
 
-A few important settings are gathered inside this tab. Here you can choose a DNS server to use, add or remove the AdGuard VPN icon from the browser’s context menu, block WebRTC, change the extension's theme, and allow AdGuard to gather anonymized crash reports and technical data.
+Một vài cài đặt quan trọng được tập hợp bên trong tab này. Tại đây, bạn có thể chọn máy chủ DNS để sử dụng, thêm hoặc xóa biểu tượng AdGuard VPN khỏi menu ngữ cảnh của trình duyệt, chặn WebRTC, thay đổi chủ đề của tiện ích mở rộng và cho phép AdGuard thu thập báo cáo sự cố ẩn danh và dữ liệu kỹ thuật.
 
-### Choosing a DNS server
+### Chọn máy chủ DNS
 
-By default, the [system DNS server](https://kb.adguard.com/en/general/dns-filtering#what-is-dns) provided by your ISP is selected, but it may compromise your privacy. With AdGuard VPN Browser extension, you can select a DNS server that provides better speed and security, and even blocks ads or potentially dangerous domains. Brief descriptions under the names of DNS servers will help you navigate and make your decision.
+Theo mặc định, biểu tượng [máy chủ DNS hệ thống](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns) do ISP của bạn cung cấp được chọn, nhưng nó có thể ảnh hưởng đến quyền riêng tư của bạn. Với tiện ích mở rộng Trình duyệt AdGuard VPN, bạn có thể chọn máy chủ DNS cung cấp tốc độ và bảo mật tốt hơn, thậm chí chặn quảng cáo hoặc các miền nguy hiểm tiềm tàng. Mô tả ngắn gọn dưới tên của máy chủ DNS sẽ giúp bạn điều hướng và đưa ra quyết định của mình.
 
-Learn more about [DNS servers from various providers](https://kb.adguard.com/ru/general/dns-providers).
+Tìm hiểu thêm về [máy chủ DNS từ các nhà cung cấp khác nhau](https://adguard-dns.io/kb/general/dns-providers/).
 
-## Exclusions
+## Danh sách loại trừ
 
-The next tab contains one of the main distinctive features of AdGuard VPN – two modes with separate exclusions lists.
+Tab tiếp theo chứa một trong những tính năng đặc biệt chính của AdGuard VPN – hai chế độ với danh sách loại trừ riêng biệt.
 
-In **Regular mode**, AdGuard VPN by default works on all websites, with the exception of the websites you've added to the exclusions list. In **Selective mode**, vice versa, AdGuard VPN by default doesn't work anywhere. You can add any websites where you'd like it to work to an exclusions list, separate from the one you saw in the **Regular mode**.
+Trong **Chế độ chung**, AdGuard VPN theo mặc định hoạt động trên tất cả các trang web, ngoại trừ các trang web bạn đã thêm vào danh sách loại trừ. Trong **Chế độ chọn lọc**, ngược lại, AdGuard VPN theo mặc định không hoạt động ở bất cứ đâu. Bạn có thể thêm bất kỳ trang web nào mà bạn muốn nó hoạt động vào danh sách loại trừ, tách biệt với trang web bạn đã thấy trong **Chế độ chung**.
 
-When adding a website to the exclusions list, you can enter the website manually or select the **From the list** option. In the latter case, you'll see eight categories (e.g. *Shopping*, *Messengers*, etc.), each suggesting several popular services. You can exclude any of those services in one click, and this action will add to exclusions all domains relevant to that specific service.
+Khi thêm trang web vào danh sách loại trừ, bạn có thể nhập trang web theo cách thủ công hoặc chọn **Từ danh sách** sự quyết định. Trong trường hợp sau, bạn sẽ thấy tám danh mục (ví dụ: *Mua sắm*, *Sứ giả*, v.v.), mỗi dịch vụ đề xuất một số dịch vụ phổ biến. Bạn có thể loại trừ bất kỳ dịch vụ nào trong số đó chỉ bằng một cú nhấp chuột và hành động này sẽ thêm vào loại trừ tất cả các miền có liên quan đến dịch vụ cụ thể đó.
 
 ### Import and export
 
-Not only can you add and remove websites, you can also transfer ready exclusions lists to other devices where AdGuard VPN is installed. To export your exclusions list, follow the 4-step instruction below:
+Bạn không chỉ có thể thêm và xóa các trang web, bạn còn có thể chuyển danh sách loại trừ sẵn sàng sang các thiết bị khác có cài đặt AdGuard VPN. Để xuất danh sách loại trừ, hãy làm theo hướng dẫn 4 bước bên dưới:
 
-1. Open AdGuard VPN Browser extension from where you want to export your lists of exclusions. Find the appropriate section and click the "Export" button. The `exclusions.zip` archive will be downloaded.
-2. There are two `.txt` files inside the archive, one for each of the Regular and Selective lists. Add more exclusions to them, delete the existing ones, rename files, or just leave the archive as it is.
+1. Mở tiện ích mở rộng Trình duyệt AdGuard VPN từ nơi bạn muốn xuất danh sách loại trừ của mình. Tìm phần thích hợp và nhấp vào nút "Xuất". The `exclusions.zip` archive will be downloaded.
+2. Có hai tệp `.txt` bên trong kho lưu trữ, một tệp cho mỗi danh sách Chung và Chọn lọc. Thêm nhiều loại trừ cho chúng, xóa các loại trừ hiện có, đổi tên tệp hoặc chỉ để nguyên kho lưu trữ.
 3. When transferring between different devices, send the `.zip` file to the device for import.
 4. Open AdGuard VPN on that device. Find the appropriate section, click the "Import" button and select the archive. Done!
 
@@ -51,4 +51,4 @@ You can find answers to common questions in the FAQ section, or leave feedback: 
 
 ## About
 
-Another minor tab, where you can check the extension's version, visit the official website, and view the EULA or Privacy Policy.
+Another minor tab, where you can check the extension's version, visit the official website, and view the EULA or Privacy policy.

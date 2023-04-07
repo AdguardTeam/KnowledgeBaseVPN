@@ -15,7 +15,7 @@ Al elegir un servicio VPN, las personas suelen tener que elegir entre rapidez y 
 ## 2. Exclusiones
 Las *listas de exclusiones* te permiten seleccionar sitios para los cuales la VPN debe estar habilitada y para los cuales, deshabilitada. Hay dos modos de operación en AdGuard VPN: *General* y *Selectivo*. En *Modo general*, la VPN funciona en todas partes excepto en los sitios web añadidos a las exclusiones. Y viceversa, en *Modo selectivo*, la VPN no funciona en ninguna parte sino en los sitios web añadidos a las exclusiones. También puedes importar/exportar fácilmente listas de exclusión. Lee acerca de esta función en *Descripción de las funciones* para el producto que te interesa.
 
-![Un ejemplo de una lista de exclusiones para el Modo selectivo](https://cdn.adguard.com/public/Adguard/Blog/vpn_export_exclusions.png)
+![Un ejemplo de una lista de exclusiones para el Modo selectivo](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn_export_exclusions.png)
 
 Puedes añadir sitios web a las exclusiones manualmente o elegirlos entre las listas de servicios populares. Las listas se dividen en ocho categorías: Redes sociales, Mensajeros, Servicios de streaming de vídeo y música, Juegos, Compras, Motores de búsqueda y Herramientas de comunicación laboral.
 
@@ -24,7 +24,7 @@ Puedes añadir sitios web a las exclusiones manualmente o elegirlos entre las li
 ## 3. Elegir un servidor DNS
 ¡Ya no tendrás que depender del servidor DNS proporcionado por tu ISP port defecto! En primer lugar, no es seguro: lo más probable es que tu proveedor de Internet tenga acceso a tu historial de navegación. En segundo lugar, la gente suele subestimar el DNS, aunque puede eliminar anuncios y rastreadores, proteger tu dispositivo contra el malware o, por ejemplo, habilitar la búsqueda segura y bloquear el contenido para adultos.
 
-Puedes elegir servidores DNS de [proveedores de DNS conocidos](https://kb.adguard.com/en/general/dns-providers) como AdGuard, Cisco, Cloudflare, Google o Quad9, o incluso configurar para usar tu propio servidor DNS.
+You can choose DNS servers from [known DNS providers](https://adguard-dns.io/kb/general/dns-providers/) such as AdGuard, Cisco, Cloudflare, Google, or Quad9, or even configure to use your own DNS server.
 
 ## 4. Ubicaciones más rápidas
 
@@ -38,10 +38,10 @@ Con las aplicaciones de escritorio y las extensiones de navegador, esto no hace 
 
 Con los dispositivos móviles, en cambio, no es tan sencillo. En la gran mayoría de los casos, dos aplicaciones basadas en VPN no funcionarán juntas, solo porque existen ciertas limitaciones inducidas por el sistema operativo que evitan que eso suceda, tanto en Android como en iOS.
 
-Sin embargo, logramos encontrar una solución para unir AdGuard VPN y AdGuard Ad Blocker. Cuando tens ambas aplicaciones de AdGuard instaladas simultáneamente en un dispositivo, automáticamente se volverán compatibles sin que tengas que ingresar nada. Se trata de una oportunidad única para aprovechar dos conjuntos de características, entre las que normalmente tendría que elegir.
+Sin embargo, logramos encontrar una solución para unir AdGuard VPN y AdGuard Ad Blocker. When you have both AdGuard apps installed on one device, they will automatically become compatible without any input required from you. Se trata de una oportunidad única para aprovechar dos conjuntos de características, entre las que normalmente tendría que elegir.
 
 ## 6. Soporte QUIC
-[QUIC](https://adguard.com/en/blog/dns-over-quic.html) es un protocolo de vanguardia con muchas ventajas. La principal ventaja es que puedes mejorar la calidad de la conexión en condiciones no ideales, por ejemplo, en dispositivos móviles o cuando te conectas a una red Wi-Fi pública. Aunque el nuevo protocolo no afectará la velocidad cuando la conexión sea buena y estable, definitivamente mejorará la situación para los usuarios con Internet lento.
+[QUIC](https://adguard.com/blog/dns-over-quic.html) is a cutting-edge protocol that has many perks. La principal ventaja es que puedes mejorar la calidad de la conexión en condiciones no ideales, por ejemplo, en dispositivos móviles o cuando te conectas a una red Wi-Fi pública. Aunque el nuevo protocolo no afectará la velocidad cuando la conexión sea buena y estable, definitivamente mejorará la situación para los usuarios con Internet lento.
 
 *Ahora pasemos al conjunto de elementos de los que no puede prescindir cualquier VPN decente.*
 
@@ -68,6 +68,6 @@ Pero, ¿qué pasa si quieres sentirte seguro mientras miras contenido específic
 
 ## 12. Modo oscuro
 
-![Modo oscuro](https://cdn.adguard.com/public/Adguard/Blog/vpn/main_en_black.png)
+![Modo oscuro](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/main_en_black.png)
 
 Esta pequeña característica merece una mención especial. De hecho, muchos usuarios anhelan el modo oscuro, por lo que no pudimos ignorarlo y agregamos un cambio de tema para todos los productos AdGuard VPN. Elige el que más te guste: claro, oscuro o predeterminado del sistema. Esperamos que te unas al lado oscuro.

@@ -3,7 +3,7 @@ title: 'Problémy s profilem Omezený režim'
 sidebar_position: 4
 ---
 
-Majitelé telefonů a tabletů s operačním systémem Android 7+ se mohou potýkat s problémem způsobeným používáním **profilu s Omezený režim**. Pokud máte takový profil, **AdGuard VPN**, stejně jako ostatní aplikace využívající VPN, získá omezení pro selektivní zpracování provozu VPN. Jednou z příčin tohoto problému může být také používání profilu **Duální aplikace/Duální Messenger** ve vašem zařízení. Níže jsou popsána doporučení, která můžete použít v případě výskytu tohoto problému.
+Majitelé telefonů a tabletů s operačním systémem Android 7+ se mohou potýkat s problémem způsobeným používáním **profilu s Omezeným režimem**. Pokud máte takový profil, **AdGuard VPN**, stejně jako ostatní aplikace využívající VPN, získá omezení pro selektivní zpracování provozu VPN. Jednou z příčin tohoto problému může být také používání profilu **Duální aplikace/Duální Messenger** ve vašem zařízení. Níže jsou popsána doporučení, která můžete použít v případě výskytu tohoto problému.
 
 ## Řešení
 
@@ -19,7 +19,7 @@ Problém můžete vyřešit dvěma způsoby:
 
 > Pokud máte nějaké potíže nebo otázky, úplné pokyny naleznete [zde](https://developer.android.com/studio/debug/dev-options).
 
-2. [Install and configure](https://www.xda-developers.com/install-adb-windows-macos-linux/) ADB;
+2. [Instalace a konfigurace](https://www.xda-developers.com/install-adb-windows-macos-linux/) ADB;
 > Na platformě Windows mohou majitelé zařízení **Samsung** potřebovat nainstalovat [tento nástroj](https://developer.samsung.com/mobile/android-usb-driver.html).
 
 3. Připojte zařízení pomocí **USB kabelu** k počítači nebo notebooku, na který jste nainstalovali **ADB**;

@@ -1,28 +1,28 @@
 ---
-title: 'What type of encryption is used in AdGuard VPN'
+title: 'Che tipo di crittografia viene utilizzata in AdGuard VPN'
 sidebar_position: 7
 ---
 
-## Introduction
+## Introduzione
 
-Encryption is the reason the word "private" exists in the term "Virtual Private Network". A VPN creates a tunnel between your device and a VPN server, passing through which your data gets encrypted and then enters the open Internet in a secure form. The process of encryption, i.e. turning data into gibberish that no one who intercepts it can read, is essential to any VPN service.
+La crittografia è la ragione per cui esiste la parola "privata" nel termine "Rete privata virtuale". Una VPN crea un tunnel tra il tuo dispositivo e un server VPN, attraverso il quale i tuoi dati vengono crittografati e quindi entrano in Internet aperto in una forma sicura. Il processo di crittografia, che consiste nel trasformare i dati in parole incomprensibili che non possono essere lette da chi li intercetta, è essenziale per qualsiasi servizio VPN.
 
-AdGuard VPN protocol uses the most secure and fast encryption algorithm to date – AES-256. Learn what it is and why it is so good.
+Il protocollo AdGuard VPN utilizza l'algoritmo di crittografia più sicuro e veloce fino ad oggi: AES-256. Scopri cos'è e perché è così buono.
 
-## AES historical tour
+## Tour storico dell'AES
 
-AES (Advanced Encryption Standard) encryption was developed in the late 20th century at the U.S. government request: the existing Data Encryption Standard (DES) became obsolete and a new, more secure encryption algorithm was required.
+La crittografia AES (Advanced Encryption Standard) è stata sviluppata alla fine del XX secolo negli Stati Uniti. richiesta del governo: il Data Encryption Standard (DES) esistente è diventato obsoleto ed è stato richiesto un nuovo algoritmo di crittografia più sicuro.
 
-In a public competition announced by the government won the Rijndael cipher — rather similar to DES but much more sophisticated. In 2002 it was renamed AES and published by the U.S. National Institute of Standards and Technology.
+In un concorso pubblico indetto dal governo ha vinto il cifrario Rijndael - piuttosto simile al DES ma molto più sofisticato. Nel 2002 è stato rinominato AES ed è stato pubblicato dalla U.S.A. Istituto nazionale di standard e tecnologia.
 
-Today, AES is the industry standard for encryption. Because of its open nature, it is used by the NSA and government agencies, as well as private, commercial, and non-profit organizations.
+Oggi, AES è lo standard del settore per la crittografia. A causa della sua natura aperta, è utilizzato dalla NSA e dalle agenzie governative, nonché da organizzazioni private, commerciali e senza scopo di lucro.
 
-## How AES-256 works
+## Come funziona AES-256
 
-AES is a block cipher with a symmetric key. As a symmetric-key cipher, it requires only one secret key to encrypt and decrypt the data. As a block cipher, AES divides the unencrypted information, which is called plaintext, into blocks, splits the original cryptographic key into several ones and applies them to each block. In the end, a ciphertext, i.e. an encrypted text, is obtained.
+AES è un cifrario a blocchi con una chiave simmetrica. Essendo un cifrario a chiave simmetrica, richiede una sola chiave segreta per criptare e decriptare i dati. Essendo un cifrario a blocchi, AES divide le informazioni non cifrate, chiamate plaintext, in blocchi, divide la chiave crittografica originale in più chiavi e le applica a ciascun blocco. Alla fine, si ottiene un testo cifrato, cioè un testo crittografato.
 
-There are different key sizes — 128, 192 and 256 bits — and the blocks are also measured in bits. During the encryption process, the encryptor replaces each piece of information with another, depending on the security key. So, for example, AES-256 creates 256 blocks of ciphertext from 256 blocks of plaintext in 14 rounds.
+Esistono chiavi di diverse dimensioni - 128, 192 e 256 bit - e anche i blocchi sono misurati in bit. Durante il processo di crittografia, il codificatore sostituisce ogni informazione con un'altra, a seconda della chiave di sicurezza. Quindi, ad esempio, AES-256 crea 256 blocchi di testo cifrato da 256 blocchi di testo plaintext in 14 round.
 
-The rounds consist of several steps: splitting the data into blocks, swapping bytes, shifting rows and rearranging columns. The result is a completely random set of characters, which will only make sense with an encryption key.
+I round consistono in diverse fasi: suddivisione dei dati in blocchi, scambio di byte, spostamento di righe e riordino di colonne. Il risultato è un insieme di caratteri completamente casuale, che avrà senso solo con una chiave di crittografia.
 
-AES-256 is the strongest level of encryption: to break this cipher, a bad actor will have to try 2256 discrete combinations, each consisting of 78 digits.
+AES-256 è il livello di crittografia più forte: per decifrarlo, un malintenzionato dovrà provare 2256 combinazioni discrete, ciascuna composta da 78 cifre.

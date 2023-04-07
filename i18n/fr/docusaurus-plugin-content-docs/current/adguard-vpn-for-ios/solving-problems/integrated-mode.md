@@ -1,18 +1,18 @@
 ---
-title: Compatibility with AdGuard Ad Blocker
+title: Compatibilité avec le Bloqueur AdGuard
 sidebar_position: 3
 ---
 
-AdGuard VPN has two operating modes — General and Integrated one. General mode is enabled by default and uses [AdGuard VPN protocol](/general/adguard-vpn-protocol.mdx). It provides the best combination of connection speed and security.
+AdGuard VPN a deux modes de fonctionnement - le mode Général et le mode Intégré. Le mode général est activé par défaut et utilise [le protocole VPN AdGuard](/general/adguard-vpn-protocol.mdx). Il offre la meilleure combinaison de vitesse de connexion et de sécurité.
 
-However, this operating mode does not allow AdGuard VPN and AdGuard Ad Blocker to work simultaneously.
+Cependant, ce mode de fonctionnement ne permet pas à AdGuard VPN et au Bloqueur AdGuard de fonctionner simultanément.
 
-In Integrated mode, in turn, the IPsec protocol is used, which makes it possible for the AdGuard applications to work together. If you already have AdGuard Ad Blocker when installing AdGuard VPN, this mode will turn on automatically and allow you to use our applications at the same time. If you installed AdGuard VPN first and only then decided to try AdGuard Ad Blocker, follow these steps to use two apps together:
+En Mode intégré, c'est le protocole IPsec qui est utilisé, ce qui permet aux applications AdGuard de travailler ensemble. Si vous avez déjà le Bloqueur AdGuard lors de l'installation d'AdGuard VPN, ce mode s'activera automatiquement et vous permettra d'utiliser nos applications en même temps. Si vous avez d'abord installé AdGuard VPN et ensuite seulement décidé d'essayer le Bloqueur AdGuard, suivez ces étapes pour utiliser deux applications ensemble :
 
-1. Open AdGuard VPN for iOS and select "Settings" in the lower-right corner of the screen.
+1. Open AdGuard VPN for iOS and select "Settings" in the lower right corner of the screen.
 
-2. Go to "App settings" and select "Operating mode".
+2. Allez dans "Paramètres de l'application" et sélectionnez "Mode de fonctionnement".
 
-3. Switch the mode from *General* to *Integrated*. Done!
+3. Passez du mode *Général* au mode *Intégré*. C'est fait !
 
-> Note that in **Integrated** mode you can't use the Exclusions feature or the DNS server feature.
+> Veuillez noter qu'en mode **Intégré** , vous ne pouvez pas utiliser la fonction Exclusions ou la fonction Serveur DNS.

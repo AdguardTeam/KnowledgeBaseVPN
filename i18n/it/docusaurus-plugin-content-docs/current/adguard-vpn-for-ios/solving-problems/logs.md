@@ -1,40 +1,40 @@
 ---
-title: How to collect and send logs
+title: Come raccogliere e inviare i registri
 sidebar_position: 2
 ---
 
-If you encounter a problem when using AdGuard VPN for iOS, you can inform us about it by sending application logs.
+Se si riscontra un problema durante l'utilizzo di AdGuard VPN per iOS, è possibile informarci inviando i registri dell'applicazione.
 
-## Collecting and sending standard logs
+## Raccolta e invio di registri standard
 
-Per impostazione predefinita, AdGuard VPN per iOS utilizza il livello di registrazione standard, ovvero la raccolta di base dei dati sui processi in esecuzione dell'app. To send these logs, follow the next steps:
+Per impostazione predefinita, AdGuard VPN per iOS utilizza il livello di registrazione standard, ovvero la raccolta di base dei dati sui processi in esecuzione dell'app. Per inviare questi registri, attenersi alla seguente procedura:
 
-1. Open AdGuard VPN for iOS and, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
+1. Aprire AdGuard VPN per iOS e, se possibile, ripetere le azioni che hanno portato all'errore. Prendere nota dell'ora esatta in cui si è verificato questo errore.
 
-2. Select "Settings" in the lower-right corner of the screen, then select "Support" and click "Report a bug" in it.
+2. Select *Settings* in the lower right corner of the screen, then select *Support* and click *Leave feedback* in it.
 
-3. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred. If you can't reproduce the problem, specify as accurately as possible when it last occurred.
+3. Nel modulo aperto, inserisci il tuo indirizzo e-mail per il feedback e descrivi l'errore riscontrato, inclusa l'ora in cui si è verificato l'errore. Se non riesci a riprodurre il problema, specifica nel modo più accurato possibile quando si è verificato l'ultima volta.
 
-4. There is a check mark next to the "Send detailed system info", which means that when you send a report, you also send logs.
-> If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, select "Export logs" in the "Support" section.
+4. There is a check mark next to the *Submit detailed system info*, which means that when you send a report, you also send logs. Finally, click *Send*.
+> Se per qualche motivo è più conveniente per te inviarci i log in un altro modo, puoi esportarli tu stesso. To do this, select *Export logs* in the *Support* section.
 
-## Collecting and sending extended logs
+## Raccolta e invio di log estesi
 
-In most cases, the default logging level is sufficient to trace down possible bugs. But there are cases when more detailed technical information about the device and connections is required, and then our support team will ask you to enable the extended logging level. To send this type of logs, follow these steps:
+Nella maggior parte dei casi, il livello di registrazione predefinito è sufficiente per rintracciare eventuali bug. Ma ci sono casi in cui sono necessarie informazioni tecniche più dettagliate sul dispositivo e sulle connessioni, quindi il nostro team di supporto ti chiederà di abilitare il livello di registrazione esteso. Per inviare questi tipi di registri, attenersi alla seguente procedura:
 
-1. Open AdGuard VPN for iOS and select "Settings" in the lower-right corner of the screen.
+1. Open AdGuard VPN for iOS and select *Settings* in the lower right corner of the screen.
 
-2. Select "App settings" and "Advanced settings" in it.
+2. Select *App settings* and *Advanced settings* in it.
 
-3. In the "Logging level" section, select "Extended".
+3. In the *Logging level* section, select *Extended*.
 
-4. Repeat the actions that led to the error, and note the time when it occurred.
+4. Ripetere le azioni che hanno portato all'errore e annotare l'ora in cui si è verificato.
 
-5. Switch the logging level back to "Default".
+5. Switch the logging level back to *Default*.
 
-6. Then go back to the main section "Settings", select "Support" and then "Report a bug".
+6. Then go back to the main section *Settings*, select *Support* and then *Leave feedback*.
 
-7. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred.
+7. Nel modulo aperto, inserisci il tuo indirizzo e-mail per il feedback e descrivi l'errore riscontrato, inclusa l'ora in cui si è verificato l'errore.
 
-8. Make sure that there is a check mark next to "Submit detailed system info" and click "Submit a report".
-> If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, select "Export logs" in the "Support" section.
+8. Make sure that there is a check mark next to *Submit detailed system info* and click *Send*.
+> Se per qualche motivo è più conveniente per te inviarci i registri in un altro modo, puoi esportarli tu stesso. To do this, select *Export logs* in the *Support* section.

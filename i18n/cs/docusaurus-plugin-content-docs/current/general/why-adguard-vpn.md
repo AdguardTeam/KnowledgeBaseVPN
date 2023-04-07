@@ -15,7 +15,7 @@ Při výběru služby VPN se lidé často rozhodují mezi rychlostí a bezpečno
 ## 2. Výjimky
 *Seznamy výjimek* umožňují vybrat weby, pro které má být VPN zapnuta a pro které vypnuta. V AdGuard VPN existují dva provozní režimy: *Obecný* a *Selektivní*. V *Obecném režimu* funguje AdGuard VPN všude kromě webů přidaných do výjimek. A naopak v *Selektivním režimu* VPN nefunguje nikde jinde než na webech zařazených do výjimek. Můžete také snadno importovat/exportovat seznamy výjimek. Informace o této funkci naleznete v *přehledu funkcí* pro produkt, o který máte zájem.
 
-![Příklad seznamu výjimek pro selektivní režim](https://cdn.adguard.com/public/Adguard/Blog/vpn_export_exclusions.png)
+![Příklad seznamu výjimek pro selektivní režim](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn_export_exclusions.png)
 
 Webové stránky můžete do výjimek přidat ručně nebo je vybrat ze seznamu oblíbených služeb. Seznamy jsou rozděleny do osmi kategorií: sociální sítě, messengery, služby pro streamování videa a hudby, hry, nakupování, vyhledávače a nástroje pro pracovní komunikaci.
 
@@ -24,7 +24,7 @@ Webové stránky můžete do výjimek přidat ručně nebo je vybrat ze seznamu 
 ## 3. Výběr DNS serveru
 Už se nemusíte spoléhat na server DNS nabízený vaším poskytovatelem internetových služeb (ISP)! Za prvé, není to bezpečné: váš ISP má pravděpodobně přístup k vaší historii prohlížení. Za druhé, lidé DNS často podceňují, přestože dokáže odstranit reklamy a slídiče, chránit zařízení před malwarem nebo například umožnit bezpečné vyhledávání a blokovat obsah pro dospělé.
 
-Můžete si vybrat DNS servery od [známých poskytovatelů](https://kb.adguard.com/en/general/dns-providers) jako je AdGuard, Cisco, Cloudflare, Google nebo Quad9, nebo dokonce nakonfigurovat použití vlastního DNS serveru.
+Můžete si vybrat DNS servery od [známých poskytovatelů](https://adguard-dns.io/kb/general/dns-providers/) jako je AdGuard, Cisco, Cloudflare, Google nebo Quad9, nebo dokonce nakonfigurovat použití vlastního DNS serveru.
 
 ## 4. Nejrychlejší umístění
 
@@ -38,10 +38,10 @@ U desktopových aplikací a rozšíření prohlížeče je to samozřejmé — m
 
 Naproti tomu u mobilních zařízení to tak jednoduché není. V naprosté většině případů nebudou dvě aplikace VPN fungovat společně, protože tomu brání určitá omezení způsobená operačním systémem, a to jak v systému Android, tak v systému iOS.
 
-Podařilo se nám však najít řešení, jak spřátelit AdGuard VPN a blokátor reklam AdGuard. Pokud máte v jednom zařízení nainstalovány obě aplikace AdGuard současně, stanou se automaticky kompatibilními, aniž byste museli cokoli dělat. Jedná se o jedinečnou příležitost využít dvě sady funkcí, mezi kterými byste si za normálních okolností museli vybrat.
+Podařilo se nám však najít řešení, jak spřátelit AdGuard VPN a blokátor reklam AdGuard. Pokud máte v jednom zařízení nainstalovány obě aplikace AdGuard, stanou se automaticky kompatibilními, aniž byste museli cokoli dělat. Jedná se o jedinečnou příležitost využít dvě sady funkcí, mezi kterými byste si za normálních okolností museli vybrat.
 
 ## 6. Podpora QUIC
-[QUIC](https://adguard.com/en/blog/dns-over-quic.html) je špičkový protokol, který má mnoho výhod. Hlavní výhodou je, že může zlepšit kvalitu připojení v neideálních podmínkách – například na mobilních zařízeních nebo při připojení k veřejné Wi-Fi. Nový protokol sice neovlivní rychlost, pokud je připojení v pořádku a stabilní, ale rozhodně zlepší situaci uživatelů s pomalým internetem.
+[QUIC](https://adguard.com/blog/dns-over-quic.html) je špičkový protokol, který má mnoho výhod. Hlavní výhodou je, že může zlepšit kvalitu připojení v neideálních podmínkách – například na mobilních zařízeních nebo při připojení k veřejné Wi-Fi. Nový protokol sice neovlivní rychlost, pokud je připojení v pořádku a stabilní, ale rozhodně zlepší situaci uživatelů s pomalým internetem.
 
 *Nyní přejděme k sadě položek, bez kterých se žádná slušná VPN neobejde.*
 
@@ -68,6 +68,6 @@ Ale co když se chcete cítit bezpečně při sledování obsahu specifického p
 
 ## 12. Tmavý motiv
 
-![Tmavý motiv](https://cdn.adguard.com/public/Adguard/Blog/vpn/main_en_black.png)
+![Tmavý motiv](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/main_en_black.png)
 
 Tato drobnost si zaslouží zvláštní zmínku. Mnoho uživatelů touží po tmavém motivu, takže jsme to nemohli ignorovat a přidali jsme přepínač motivů pro všechny produkty AdGuard VPN. Vyberte si ten, který se vám líbí více — světlý, tmavý nebo podle systému. Doufám, že se přidáte na temnou stranu.

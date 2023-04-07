@@ -1,36 +1,38 @@
 ---
-title: Installation and removal
+title: インストール方法・削除方法
 sidebar_position: 2
 ---
 
-## How to install AdGuard VPN browser extension
+## AdGuard VPNブラウザ拡張機能をインストールする方法
 
-To install AdGuard VPN browser extension, follow these steps:
+ブラウザ拡張機能版AdGuard VPNをインストールする方法は以下の通りです。
 
-1. Visit [adguard-vpn.com](https://adguard-vpn.com/browser-extension/overview.html)
+1. Visit [adguard-vpn.com](https://adguard-vpn.com/browser-extension/overview.html).
 
-2. Click on the icon of your browser and then click *Install*.
+2. Click the icon of your browser and then click *Install*.
 
-3. Depending on your browser, one of the websites will open: Chrome Web Store, Firefox Add-ons, or Microsoft Edge Add-ons. Click the respective button: *Add to Chrome*, *Add to Firefox* or *Get* next to AdGuard VPN Browser extension.
+3. Depending on your browser, one of the websites will open: Chrome Web Store, Firefox Add-ons, Opera addons, or Microsoft Edge Add-ons. Click the respective button: *Add to Chrome*, *Add to Firefox*, *Add to Opera* or *Get* next to AdGuard VPN Browser extension.
 
-4. Once the installation is complete, you will be prompted to switch to [unlimited version](https://adguard-vpn.com/thankyou.html). It's completely optional but if you find that the free version is not enough for you, you can purchase a [subscription](/general/subscription.md) at any moment.
+4. Read and accept the EULA and Privacy Policy by checking the respective box. You can also allow AdGuard VPN to collect anonymous data on the app usage, which we need to improve our product (this is optional). Then click *Continue*.
 
-4. Read and accept the EULA and Privacy Policy by checking the respective box. You can also allow AdGuard VPN to collect anonymized data on the app usage, which we need to improve our product (this is optional). Then click *Continue*.
+5. Sign up or log into your AdGuard account to finish the installation.
 
-5. Sign up or log into your previously created AdGuard account to finish the installation process.
+ぜひAdGuard VPNのご利用をお楽しみください！
 
-Enjoy AdGuard VPN!
+## AdGuard VPNブラウザ拡張機能をアンインストール（削除）する方法
 
-## How to uninstall AdGuard VPN browser extension
+### Chrome版
 
-### Chrome
+ブラウザの右上にある3つの点のアイコン（ ⋮ ）をクリックし、 *「その他のツール」→「拡張機能」*を選択します。 AdGuard VPNを見つけて、 「*削除*」をクリックします。
 
-Click the three dots icon in the top right corner of the browser, then select *More tools → Extensions*. Find AdGuard VPN and click *Remove*.
+### Firefox版
 
-### Firefox
+ブラウザの右上にあるサンドイッチメニューアイコン（ ≡ ）をクリックし、「 *アドオンとテーマ*」を選択します。 リストでAdGuard VPNを見つけ、その横の3点アイコンをクリックし、「 *削除*」を選択します。
 
-Click the sandwich menu icon in the top right corner of the browser, then select *Add-ons and themes*. Find AdGuard VPN in the list, click the three dots icon next to it and select *Remove*.
+### Edge版
 
-### Edge
+ブラウザの右上にある3点アイコンをクリックし、 「*拡張機能*」を選択します。 リストでAdGuard VPNを見つけ、その横にある3点アイコンをクリックし、 「*Microsoft Edgeから削除*」を選択します。
 
-Click the three dots icon in the top right corner of the browser, then select *Extensions*. Find AdGuard VPN in the list, click the three dots icon next to it and select *Remove from Microsoft Edge*.
+### Opera
+
+Click the *Extensions* icon in the top right corner of the browser, then select *Manage extensions...*. Find AdGuard VPN in the list and click the *Remove* button.  

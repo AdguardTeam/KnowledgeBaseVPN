@@ -4,35 +4,35 @@
     "description": "The title of the footer links column with title=vpn in the footer"
   },
   "link.title.products": {
-    "message": "Products",
+    "message": "製品一覧",
     "description": "The title of the footer links column with title=products in the footer"
   },
   "link.title.support": {
-    "message": "Support",
+    "message": "サポート",
     "description": "The title of the footer links column with title=support in the footer"
   },
   "link.title.license": {
-    "message": "License",
+    "message": "ライセンス",
     "description": "The title of the footer links column with title=license in the footer"
   },
   "link.item.label.about": {
-    "message": "About",
+    "message": "AdGuard VPNについて",
     "description": "The label of footer link with label=about linking to https://adguard-vpn.com/about-us.html"
   },
   "link.item.label.official": {
-    "message": "Official Site",
+    "message": "公式ホームページ",
     "description": "The label of footer link with label=official linking to https://adguard-vpn.com"
   },
   "link.item.label.what_is_vpn": {
-    "message": "What is VPN",
-    "description": "The label of footer link with label=what_is_vpn linking to https://adguard-vpn.com/what-is-vpn.html"
+    "message": "「VPN」とは？",
+    "description": "The label of footer link with label=what_is_vpn linking to https://adguard-vpn.com/en/what-is-vpn.html"
   },
   "link.item.label.blog": {
-    "message": "Blog",
+    "message": "AdGuard VPN公式ブログ",
     "description": "The label of footer link with label=blog linking to https://adguard-vpn.com/blog/index.html"
   },
   "link.item.label.discuss": {
-    "message": "Discuss",
+    "message": "話し合う",
     "description": "The label of footer link with label=discuss linking to https://adguard.com/discuss.html"
   },
   "link.item.label.vpn_android": {
@@ -52,35 +52,35 @@
     "description": "The label of footer link with label=vpn_ios linking to https://adguard-vpn.com/ios/overview.html"
   },
   "link.item.label.support": {
-    "message": "Support",
-    "description": "The label of footer link with label=support linking to https://adguard-vpn.com/support/support.html"
+    "message": "サポート",
+    "description": "The label of footer link with label=support linking to https://adguard-vpn.com/support.html"
   },
   "link.item.label.how_to_install": {
-    "message": "How to install AdGuard VPN",
-    "description": "The label of footer link with label=how_to_install linking to https://kb.adguard.com/vpn/installation"
+    "message": "AdGuard VPNのインストール方法",
+    "description": "The label of footer link with label=how_to_install linking to /general/how-to-install/"
   },
   "link.item.label.faq": {
-    "message": "FAQ",
+    "message": "FAQ（よくあるご質問）",
     "description": "The label of footer link with label=faq linking to https://adguard-vpn.com/support/faq.html"
   },
   "link.item.label.status": {
-    "message": "Status Page",
+    "message": "ステータスページ",
     "description": "The label of footer link with label=status linking to https://status.adguard.com/"
   },
   "link.item.label.test": {
-    "message": "AdGuard test page",
+    "message": "AdGuardテストページ",
     "description": "The label of footer link with label=test linking to https://adguard.com/test.html"
   },
   "link.item.label.license": {
-    "message": "Purchase a license",
+    "message": "ライセンスを購入する",
     "description": "The label of footer link with label=license linking to https://adguard-vpn.com/license.html"
   },
   "link.item.label.contribute": {
-    "message": "Contribute to AdGuard",
+    "message": "AdGuardに貢献する",
     "description": "The label of footer link with label=contribute linking to https://adguard.com/contribute.html"
   },
   "link.item.label.distribution": {
-    "message": "Distribution",
+    "message": "パートナー",
     "description": "The label of footer link with label=distribution linking to https://adguard.com/distribution.html"
   },
   "copyright": {

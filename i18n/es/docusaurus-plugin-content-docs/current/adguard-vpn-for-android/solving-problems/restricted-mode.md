@@ -14,12 +14,12 @@ Tienes dos maneras de resolver el problema:
 1. Active el modo de desarrollador **** y habilite la depuración USB ****:
 - Abra la aplicación **Configuración** en su teléfono;
 - Vaya a la sección **Sistema** (último elemento en el menú de configuración). En esta sección, encuentre el subelemento **Acerca del teléfono**;
-- Haga clic en la línea **Número de compilación** 7 veces. Después de eso, recibirás una notificación que dice **Ahora eres un desarrollador** (Si es necesario, introduce un código de desbloqueo para el dispositivo);
+- Click the **Build number** line 7 times. Después de eso, recibirás una notificación que dice **Ahora eres un desarrollador** (Si es necesario, introduce un código de desbloqueo para el dispositivo);
 - Abra **Configuración del sistema** → **Opciones de desarrollador** → Desplácese hacia abajo y habilite **depuración USB**  → Confirme que la depuración está habilitada en la ventana **Permitir la depuración USB** después de leer la advertencia cuidadosamente.
 
 > Si tiene alguna dificultad o pregunta adicional, puede encontrar las instrucciones completas en [aquí](https://developer.android.com/studio/debug/dev-options).
 
-2. [Install and configure](https://www.xda-developers.com/install-adb-windows-macos-linux/) ADB;
+2. [Instalar y configurar](https://www.xda-developers.com/install-adb-windows-macos-linux/) ADB;
 > En la plataforma Windows, **los propietarios de Samsung** pueden necesitar instalar [esta utilidad](https://developer.samsung.com/mobile/android-usb-driver.html).
 
 3. Conecte su dispositivo usando un cable **USB** a la computadora o portátil en la que instaló **ADB**;

@@ -35,6 +35,10 @@ module.exports = {
     locales: ['en', 'ru', 'de', 'fr', 'es', 'it', 'ja', 'ko', 'zh-CN', 'zh-TW'],
   },
   themeConfig: {
+    colorMode: {
+      defaultMode: 'light',
+      respectPrefersColorScheme: true,
+    },
     docs: {
       sidebar: {
         hideable: true,
@@ -107,7 +111,7 @@ module.exports = {
             },
             {
               label: 'what_is_vpn',
-              href: VPN_WEBSITE_URL + '/what-is-vpn.html',
+              href: VPN_WEBSITE_URL + '/en/what-is-vpn.html',
               target: '_self',
             },
             {
@@ -162,7 +166,7 @@ module.exports = {
             },
             {
               label: 'how_to_install',
-              href: 'https://kb.adguard.com/vpn/installation',
+              href: '/general/how-to-install/',
             },
             {
               label: 'faq',

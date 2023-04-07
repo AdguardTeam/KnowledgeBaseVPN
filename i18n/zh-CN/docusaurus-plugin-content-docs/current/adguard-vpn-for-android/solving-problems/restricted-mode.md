@@ -14,12 +14,12 @@ sidebar_position: 4
 1. 激活**开发者模式**并启用**USB 调试**；
 - 打开手机自带的「**设置**」；
 - 点击**系统**部分（一般在设置菜单的最后）。 在此部分中找到子项「**关于手机**」；
-- 连续点击**版本号**7次。 之后，您会收到通知称**您已处于开发者模式**（有可能会要求您输入设备的解锁密码）；
+- Click the **Build number** line 7 times. 之后，您会收到通知称**您已处于开发者模式**（有可能会要求您输入设备的解锁密码）；
 - 前往**系统设置** → **开发者选项** → 向下移动，启用 **USB 调试** → 在是否**允许 USB 调试**提示中仔细阅读警告后，确定允许调试。
 
 > 如果您有任何困难或其他问题，可以在[此处](https://developer.android.com/studio/debug/dev-options)找到完整说明。
 
-2. [Install and configure](https://www.xda-developers.com/install-adb-windows-macos-linux/) ADB;
+2. [安装和配置](https://www.xda-developers.com/install-adb-windows-macos-linux/) ADB；
 > 在 Windows 平台中，**三星**用户需要安装[此工具](https://developer.samsung.com/mobile/android-usb-driver.html)。
 
 3. 在您的电脑或笔记本上安装 **ADB**，然后用 **USB 数据线**将手机和电脑相连；

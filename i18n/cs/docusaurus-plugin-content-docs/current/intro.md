@@ -4,7 +4,7 @@ sidebar_position: 1
 slug: /
 ---
 
-## Co je VPN a proč ji potřebujete
+## Co je VPN a proč ji potřebujete?
 
 VPN umožňuje vytvořit zabezpečené připojení k jiné síti na internetu.
 
@@ -22,7 +22,7 @@ VPN umožňuje:
 
 Při prohlížení internetu jsou ohrožena hesla, údaje o platebních kartách i obyčejné osobní údaje. Pokud se však připojíte ke globální síti pomocí sítě VPN, můžete si být jisti, že vaše data nikdo nezachytí.
 
-## Proč AdGuard VPN
+## Proč AdGuard VPN?
 
 ### Důvěryhodný vývojář
 AdGuard působí na trhu ochrany osobních údajů a blokování reklamy a vyvíjí svou řadu softwaru již více než 12 let. Za tu dobu si naše společnost vybudovala bezvadnou pověst a počet našich zákazníků přesáhl 30 milionů.
@@ -31,7 +31,8 @@ AdGuard působí na trhu ochrany osobních údajů a blokování reklamy a vyví
 Hlavní rozdíl mezi AdGuard VPN a konkurencí spočívá v tom, že používáme [vlastní vyvinutý protokol](/general/adguard-vpn-protocol.mdx). Maskuje se jako běžný provoz, takže je mnohem obtížnější jej sledovat a blokovat.
 
 ### Žádné záznamy aktivit
-Žýdný záznam aktivit znamená, že neshromažďujeme, neukládáme ani nepředáváme osobní údaje uživatelů třetím stranám. Úplné znění zásad ochrany osobních údajů AdGuardu naleznete [zde](https://adguard-vpn.com/en/privacy.html).
+
+Žýdný záznam aktivit znamená, že neshromažďujeme, neukládáme ani nepředáváme osobní údaje uživatelů třetím stranám. Úplné znění zásad ochrany osobních údajů AdGuard VPN naleznete [zde](https://adguard-vpn.com/privacy.html).
 
 ### Ochrana před sledováním
 Webový provoz jakéhokoli uživatele může být zajímavý a je cenný zejména z hlediska zpeněžení osobních údajů. Přístup k němu mají zločinci i bezohlední poskytovatelé internetových služeb. S důvěryhodnou sítí VPN si však můžete být jisti, že poskytovatel ani nikdo jiný vaši internetovou aktivitu neuvidí.

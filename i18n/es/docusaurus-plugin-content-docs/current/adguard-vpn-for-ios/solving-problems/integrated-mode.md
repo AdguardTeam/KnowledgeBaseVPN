@@ -9,7 +9,7 @@ Sin embargo, este modo de funcionamiento no permite que AdGuard VPN y AdGuard Ad
 
 A su vez, en el modo integrado se utiliza el protocolo IPsec, que hace posible que las aplicaciones de AdGuard trabajen juntas. Si ya tiene AdGuard Ad Blocker al instalar AdGuard VPN, este modo se activará automáticamente y le permitirá usar nuestras aplicaciones al mismo tiempo. Si instalaste primero AdGuard VPN y sólo entonces decidiste probar AdGuard Ad Blocker, sigue estos pasos para usar las dos aplicaciones juntas:
 
-1. Abra AdGuard VPN para iOS y seleccione "Configuración" en la esquina inferior derecha de la pantalla.
+1. Open AdGuard VPN for iOS and select "Settings" in the lower right corner of the screen.
 
 2. Vaya a "Configuración de la aplicación" y seleccione "Modo de funcionamiento".
 

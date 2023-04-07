@@ -1,99 +1,99 @@
 ---
-title: 'How to take a screenshot'
+title: 'スクリーンショットの撮り方'
 sidebar_position: 4
 ---
 
-Screenshot is a capture of your computer’s or mobile device’s screen, which can be obtained by using standard tools or a special program/app.
+スクリーンショットとは、パソコンやモバイル端末の画面をキャプチャしたもので、標準的なツールや専用のプログラム・アプリを使用して撮ることができます。
 
-Sometimes a screenshot (or screenshots) is required by support team to better understand the problem, and not everyone knows how to take screenshots, especially of a separate window or a specific screen area on their devices. If you recognize yourself as one of these users, don’t worry. This article will help you as it describes a range of ways to take screenshots on different platforms.
+サポートチームが問題をより正確に理解するためにスクリーンショットのご送信をお願いすることがありますが、スクリーンショットの撮り方そのものや、デバイスの個別ウィンドウや特定画面領域などの撮り方を知らない方も少なくありません。 スクリーンショットについてわからなくても、ご安心ください。 この記事では、さまざまなプラットフォームでスクリーンショットを撮る方法について説明します。
 
-## How to take a screenshot
+## スクリーンショットを撮る方法
 
-Here you will find all the necessary hotkeys you should know in order to take screenshots on your computer or mobile device.
+こちらでは、コンピュータやモバイル端末でスクリーンショットを撮るために必要なショートカットキーがすべて紹介されています。
 
 ### Android
 
-Taking a screenshot on an Android device can be done in various ways — depending on the device model and its manufacturer.
+Android端末でスクリーンショットを撮るには、機種やメーカーによってさまざまな方法があります。
 
-Generally, you should use the following button combination for Android:
+通常、Android では次のボタンの組み合わせでスクリーンショットを撮れます。
 
-+ **Hold down at once the *Volume Down* and the *Power* buttons for 1–2 seconds**
++ ***音量ダウン*と*電源*ボタンを同時に押して離します。**
 
-Your Android device will capture the entire screen and save it as a photo. So, you can find the screenshot in a Screenshots folder in your Gallery.
+こうすることによって画面全体をキャプチャして、写真として保存できます。 先ほど撮ったスクリーンショットはギャラリーのスクリーンショットフォルダーで確認することができます。
 
-But, as it has been already said, there can be differences depending on a particular device. Let’s look at other possible combinations:
+ただし、先ほど述べたように、デバイスによって方法が異なる場合があります。 他の組み合わせを見てみましょう。
 
-+ **Hold down at once *Home* and *Power* buttons for 1–2 seconds;**
-+ **Hold down at once the *Back* and the *Home* buttons**
++ ***ホーム*と*電源*ボタンを同時に押します。**
++ ***戻る*と*ホーム*ボタンを同時に押します。**
 
-On Android 8 and later there is also a possibility to take a screenshot by placing your hand vertically along the left or right edge of your phone and swiping in from that edge with your hand touching the screen.
+Android 8以降では、スマートフォンの左端または右端に沿って手を垂直に置き、画面に触れながらその端からスワイプすることで、スクリーンショットを撮ることもできます。
 
-If this method doesn’t work, check *Settings* → *Advanced* features to enable *Palm swipe to capture*.
+If this method doesn’t work, check *Settings* → *Advanced features* → *Motions and gestures* → enable *Palm swipe to capture*.
 
-Besides, you can always use any special applications for taking screenshots on your devices, for example — *Screenshot Easy*, *Screenshot Ultimate*, *Screenshot Snap*, etc.
+さらに、端末でスクリーンショットを撮る専用アプリを使用できます。たとえば、 *Screenshot Easy*、 *Screenshot Ultimate*、 *Screenshot Snap*などです。
 
 ### iOS
 
-Any iOS device (barring ancient ones) lets you take a screenshot using standard tools.
+iOS端末（古いものを除く）であれば、標準的なツールを使ってスクリーンショットを撮ることができます。
 
-To take a screenshot on an iOS device, use the following combination:
+iPhone/iPadでスクリーンショットを撮るには、次の組み合わせを使用します:
 
-+ **Press the *Sleep/Wake* (side) button and the *Home* button at the same time, then quickly release them**
++ ***電源*（サイド）ボタンと *ホーム* ボタンを同時に押し、すばやく離す**
 
-and this one for iPhone X or later:
+【iPhone X以降の場合】
 
-+ **Press the *Sleep/Wake* button and the *Volume Up* button at the same time, then quickly release them**
++ ***電源*（サイド）ボタンと *音量アップ*ボタンを同時に押し、すばやく離す**
 
-Your iOS device will capture the entire screen and save it as a photo. You can find it in a standard Photo app.
+こうすることによって画面全体をキャプチャして、写真として保存できます。 標準の「フォト」アプリで先ほどとったスクリーンショットを見つけることができます。
 
 ### Windows
 
-+ **To take a screenshot on Windows, press the *PrtScn* button**
++ **Windowsでスクリーンショットを撮るには、 *PrtScn*ボタンを押します。**
 
-On some notebooks you have to hold *Fn* and then press *PrtScn* instead.
+一部のノートパソコンでは、 *Fn* を押しながら、代わりに *PrtScn* を押す必要があります。
 
-*Please note: PrtScn (Print Screen) button can be differently abbreviated on various keyboards — PrntScrn, PrtScn, PrtScr or PrtSc.*
+*※PrtScn（Print Screen）ボタンは、キーボードによってPrntScrn、PrtScn、PrtScr、PrtScと略し方が異なる場合がありますのでご注意ください。*
 
-Windows captures the entire screen and copies it to the (invisible) clipboard.
+Windowsは画面全体をキャプチャし、クリップボードにコピーします。
 
-To take a screenshot of an active window, use the following combination:
+現在使用中ウィンドウのスクリーンショットを撮るには、次の組み合わせを使用します:
 
-+ **Hold down *Alt* and press *PrtScn* (or *Fn + Alt + PrtScn* on some laptops)**
++ ***Alt* を押しながら、 *PrtScn* (機種によっては *Fn + Alt + PrtScn*) を押します。**
 
-To take a screenshot of a specific area, you should use the following combination:
+画面の特定領域のスクリーンショットを撮るには、次の組み合わせを使用します:
 
-+ ***Hold down *Win* (the Windows button) and *Shift* and press ***S******
++ ****Win* （Windowsボタン）と *Shift* を押しながら ***S*** を押します。***
 
-After you take a screenshot, it will be saved in the clipboard. In most cases you will be able to paste it into a document that you are currently editing by using *Ctrl + V* button combination. Alternatively, if you need to save the screenshot into a file, you should open the standard **Paint** program (or any other app that can work with images). Paste your screenshot there using the same button combination or by clicking the Paste button (usually in the top left corner of the screen) and then save it.
+スクリーンショットを撮った後、クリップボードに保存されます。 ほとんどの場合、 *Ctrl + V* ボタンの組み合わせで、現在編集中の文書にペーストすることができます。 また、スクリーンショットをファイルに保存する必要がある場合は、標準の「**ペイント**」プログラム（または画像を扱うことができるその他のアプリ）を開いてください。 Ctrl+V 、または貼り付けボタン（通常、画面の左上隅）をクリックしてスクリーンショットを貼り付け、保存してください。
 
-Windows 8 and 10 let you take a screenshot very quickly with a *Win + PrtScn* combination. As soon as you press these buttons, the screenshot will be automatically saved as a file to your Pictures → Screenshots Folder.
+Windows 8 と 10 では、 *Win + PrtScn* の組み合わせで、非常に素早くスクリーンショットを撮ることができます。 これらのボタンを押すと同時に、スクリーンショットは自動的にファイルとして「写真」→「スクリーンショット」フォルダに保存されます。
 
-There is also a dedicated program for taking screenshots called *Snipping Tool* that you can find via Start menu among standard programs of your computer. Snipping Tool lets you capture of any area of your desktop or the entire screen. After taking a screenshot using this program you can edit the picture and save it to any folder on your computer.
+また、スクリーンショットを撮るための専用プログラム「 *Snipping Tool* 」があり、コンピュータのスタートメニューにある標準プログラムの中から見つけることができます。 Snipping Tool を使用すると、デスクトップの任意の領域または画面全体をキャプチャできます。 このプログラムを使ってスクリーンショットを撮った後、画像を編集し、コンピュータの任意のフォルダに保存することができます。
 
-Besides, you can also try using different apps for taking screenshots on your computer, like **PicPick**, **Nimbus Screenshot**, **Screenshot Captor**, **Snipaste**, **Monosnap**, etc.
+そのほか、 「**PicPick**」「**Nimbus Screenshot**」「**Screenshot Captor**」「**Snipaste**」「**Monosnap**」など、コンピュータでスクリーンショットを撮るための様々なアプリを使ってみることも可能です。
 
-### MacOS
+### macOS
 
-To take a screenshot on Mac, use the following button combination:
+Macでスクリーンショットを撮るには、次の組み合わせを使用します:
 
-+ ***Press and hold together ***⌘ Cmd + Shift + 3******
++ ******⌘ Cmd + Shift + 3*** を同時に押します。***
 
-Your Mac will capture the entire screen and save it as a file on the desktop.
+こうすることによって画面全体がキャプチャされ、ファイルとしてデスクトップに保存しされます。
 
-To take a screenshot of an active window, use the following combination:
+現在使用中ウィンドウのスクリーンショットを撮るには、次の組み合わせを使用します:
 
-+ **Press and hold together *⌘ Cmd + Shift + 4 + Space bar*.  The pointer will change to a camera icon. Click the window to capture it. Press the Esc button to cancel taking a screenshot**
++ *****⌘ Cmd + Shift + 4 + Space*** を同時に押します。  ポインターがカメラアイコンに変わります。 撮りたいウィンドウをクリックすると、キャプチャします。 （スクリーンショットの撮影をキャンセルするには、Escボタンを押します。）**
 
-To take a screenshot of a specific area, you should use the following combination:
+画面の特定領域のスクリーンショットを撮るには、次の組み合わせを使用します:
 
-+ ***Press and hold together ***⌘ Cmd + Shift + 4******. Drag the crosshair to select the needed area. Release your mouse or trackpad to take a screenshot, press the Esc button to cancel it.
++ ******⌘ Cmd + Shift + 4*** を同時に押します。*** 十字をドラッグして必要な領域を選択します。 マウスまたはトラックパッドを離すとスクリーンショットが撮影されます（Escボタンを押すとキャンセルされます）。
 
-To take a screenshot of the *Touch Bar* (MacBook Pro) use the following combination:
+*タッチバー* (MacBook Pro)のスクリーンショットを撮るには、以下の組み合わせで撮影します。
 
-+ ***Hold down ***⌘ Cmd + Shift + 6******
++ ******⌘ Cmd + Shift + 6*** を同時に押します。***
 
-Your Mac captures the entire *Touch Bar* and saves it as a file on the desktop.
+こうすることによって*タッチバー*全体がキャプチャされ、ファイルとしてデスクトップに保存しされます。
 
-To copy a screenshot to the clipboard instead of saving it, hold down *Ctrl* together with any of the combinations above. Then you can paste the screenshot (from the clipboard) into a document or an image you are currently editing by using *Cmd + V* combination.
+スクリーンショットを保存せずにクリップボードにコピーするには、 *Ctrl* を押しながら、上記のいずれかの組み合わせを押してください。 その後、 *Cmd + V* の組み合わせで、（クリップボードから）スクリーンショットを現在編集中の文書、画像、アプリなどに貼り付けることができます。
 
-You can also take screenshots by using **Preview** and choosing **Take screenshot** (of the selected area, window, or the entire screen). With **Preview** you can save your screenshots in JPG, TIFF, PDF, and other file formats.
+また、 「**プレビュー**」アプリを使用して、 「**スクリーンショットを撮る**」 を選択することによって、スクリーンショットを撮る（選択した領域、ウィンドウ、または画面全体）ことができます。 「**プレビュー**」では、スクリーンショットを JPG、TIFF、PDF、その他のファイル形式で保存することができます。

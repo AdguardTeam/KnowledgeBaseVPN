@@ -4,7 +4,7 @@ sidebar_position: 1
 slug: /
 ---
 
-## Qué es una VPN y por qué necesita una
+## Qué es una VPN y por qué necesitas una?
 
 Una VPN le permite crear una conexión segura a otra red en Internet.
 
@@ -22,7 +22,7 @@ La VPN se puede utilizar para:
 
 Las contraseñas, los detalles de la tarjeta y simplemente su información personal están en riesgo cuando un usuario navega por Internet. Pero si se conecta a la red global utilizando una VPN, puede estar seguro de que nadie puede interceptar sus datos.
 
-## Por qué AdGuard VPN
+## ¿Por qué AdGuard VPN?
 
 ### Desarrollador de confianza
 AdGuard ha estado presente en el mercado de protección de datos personales y bloqueo de anuncios y ha desarrollado su línea de software durante más de 12 años. Durante este tiempo, nuestra empresa ha construido una reputación impecable, y el número de nuestros clientes ha superado los 30 millones.
@@ -31,7 +31,8 @@ AdGuard ha estado presente en el mercado de protección de datos personales y bl
 La principal diferencia entre AdGuard VPN y sus competidores es que utilizamos [nuestro propio protocolo desarrollado](/general/adguard-vpn-protocol.mdx). Se disfraza de tráfico normal, por lo que es mucho más difícil rastrearlo y bloquearlo.
 
 ### Política de no registros
-La política de no registros significa que no recopilamos, almacenamos ni transferimos los datos personales de los usuarios a terceros. El texto completo de la política de privacidad de AdGuard se puede encontrar [aquí](https://adguard-vpn.com/en/privacy.html).
+
+La política de no registros significa que no recopilamos, almacenamos ni transferimos los datos personales de los usuarios a terceros. The full text of AdGuard VPN Privacy policy can be found [here](https://adguard-vpn.com/privacy.html).
 
 ### Protección de rastreo
 El tráfico web de cualquier usuario puede ser de interés y es particularmente valioso en términos de monetización de datos personales. Tanto los delincuentes como los ISP sin escrúpulos pueden acceder a él. Sin embargo, con una VPN confiable, puede estar seguro de que ni su proveedor ni nadie más verá su actividad en Internet.

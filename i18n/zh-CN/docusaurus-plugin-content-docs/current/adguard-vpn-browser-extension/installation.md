@@ -3,34 +3,36 @@ title: 安装和移除
 sidebar_position: 2
 ---
 
-## 如何安装AdGuard VPN浏览器扩展
+## 如何安装 AdGuard VPN 浏览器扩展
 
-要安装AdGuard VPN浏览器扩展，请遵循以下步骤：
+要安装 AdGuard VPN 浏览器扩展，请遵循以下步骤：
 
-1. 访问[adguard-vpn.com](https://adguard-vpn.com/browser-extension/overview.html)
+1. Visit [adguard-vpn.com](https://adguard-vpn.com/browser-extension/overview.html).
 
-2. 点击您的浏览器图标，然后点击*安装*。
+2. 点击您的浏览器图标，然后点击「*安装*」。
 
-3. 根据您的浏览器种类，网站会自动打开以下页面中的一个：谷歌浏览器应用商店、火狐插件市场、微软Edge插件市场。 点击相应的选项：*添加至Chrome浏览器*、*添加至火狐浏览器*或者在AdGuard VPN浏览器扩展旁边的*获取*。
+3. Depending on your browser, one of the websites will open: Chrome Web Store, Firefox Add-ons, Opera addons, or Microsoft Edge Add-ons. Click the respective button: *Add to Chrome*, *Add to Firefox*, *Add to Opera* or *Get* next to AdGuard VPN Browser extension.
 
-4. 安装完成后，软件会提醒您是否购买[付费版本](https://adguard-vpn.com/thankyou.html)。 该选项完全自愿，不过如果您觉得免费版无法满足您的需求，您随时可以选择[订阅](/general/subscription.md)。
+4. Read and accept the EULA and Privacy Policy by checking the respective box. You can also allow AdGuard VPN to collect anonymous data on the app usage, which we need to improve our product (this is optional). 然后点击「*继续*」。
 
-4. 阅读并接受EULA和隐私政策，勾选相应的方框。 您还可以允许AdGuard VPN收集与应用程序使用情况有关的匿名数据，我们可以通过这些数据来改进我们的产品（这是可选的）。 然后点击*继续*。
+5. 注册或登录您的 AdGuard 账号来完成安装。
 
-5. 注册或登录您之前创建的AdGuard账户来结束安装。
+尽情使用 AdGuard VPN 吧！
 
-尽情使用AdGuard VPN吧！
-
-## 如何卸载AdGuard VPN浏览器扩展
+## 如何卸载 AdGuard VPN 浏览器扩展
 
 ### Chrome 浏览器
 
-Click the three dots icon in the top right corner of the browser, then select *More tools → Extensions*. 找到AdGuard VPN并点击*移除*。
+单击浏览器右上角的三个点图标，然后选择*「扩展」→「更多工具」* 找到 AdGuard VPN 并点击*「移除」*。
 
 ### 火狐浏览器
 
-点击浏览器右上角的三线图标，然后点击*扩展程序及主题*。 在列表中找到AdGuard VPN，点击一旁的三点图标并选择*移除*。
+点击浏览器右上角的三线图标，然后点击*「扩展程序及主题」*。 在列表中找到 AdGuard VPN，点击一旁的三点图标并选择*「移除」*。
 
-### Edge浏览器
+### Edge 浏览器
 
-点击浏览器右上角的三点图标，然后选择*扩展程序*。 在列表中找到AdGuard VPN，点击一旁的三点图标并选择*从Edge中移除*。
+点击浏览器右上角的三点图标，然后选择*「扩展程序」*。 在列表中找到 AdGuard VPN，点击一旁的三点图标并选择*「从 Edge 中移除」*。
+
+### Opera
+
+Click the *Extensions* icon in the top right corner of the browser, then select *Manage extensions...*. Find AdGuard VPN in the list and click the *Remove* button.  

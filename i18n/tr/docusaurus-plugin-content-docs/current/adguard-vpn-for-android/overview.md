@@ -3,7 +3,7 @@ title: Özelliklere genel bakış
 sidebar_position: 1
 ---
 
-## Android için AdGuard VPN nedir
+## Android için AdGuard VPN nedir?
 
 VPN, internette her gezindiğinizde güvenlik ve anonimlik sağlayan ideal bir araçtır. [Nasıl çalışır?](/general/how-vpn-works.md) Teknik detaylara girmeden VPN'in kullanıcının bilgisayarı veya mobil cihazı ile uzak bir VPN sunucusu arasında güvenli bir şifreli tünel oluşturduğunu söyleyebiliriz. Bu şekilde, üçüncü taraf bir gözlemci gerçek kullanıcının IP'sini değil VPN sunucusunun IP adresini gördüğünden, kullanıcının anonimliğinin yanı sıra veri gizliliği de korunur.
 
@@ -19,18 +19,15 @@ Android için AdGuard VPN sizin için her şeyi yapabilir — ve hatta benzersiz
 
 İlk olarak, [Google Play'den](https://play.google.com/store/apps/details?id=com.adguard.vpn) AdGuard VPN'i indirin ve AdGuard hesabınıza giriş yapın. Hesabınız yoksa — hesap [oluşturmalısınız](https://auth.adguard.com/login.html). AdGuard hesap bilgilerinizle doğrudan giriş yapabilirsiniz. Veya AdGuard hesabınız aynı e-posta adresini kullanarak kaydolduysa, bunu Google veya Facebook aracılığıyla yapın.
 
-
-## Ana Ekran
+## Ana ekran
 
 Ana ekranda uygulamanın durumunu (Bağlandı ve Bağlantı kesildi) ve seçilen İstisnalar modunu ([Genel ve Seçici](#lists-of-exclusions)) yansıtan iki çubuk vardır. Aynı ekranda ayrıca bir *Bağlan ve Bağlantıyı kes* düğmesi ve kullanılabilir sunucuların bir listesi vardır.
 
 Her sunucunun konumu ve sunucunun yanıt süresini tanımlayan ping hızı vardır. Bu değer ne kadar düşükse, bağlantınız o kadar hızlı olur. Onlarca ülkede 50'den fazla lokasyondan oluşan listenin en üstünde her zaman en hızlı seçenekler gösteriliyor. *Bağlan ve Bağlantıyı kes* düğmesine dokunarak veya bir konum seçerek en hızlı sunucuya bağlanabilirsiniz.
 
-
 ## İstisnalar
 
 Sitenizi ve uygulama istisna listelerinizi yönetmenizi kolaylaştırmak için her şeyi yaptık. AdGuard VPN yalnızca seçtiğiniz yerde çalışır.
-
 
 ### İstisnaların listesi
 
@@ -38,14 +35,14 @@ Sitenizi ve uygulama istisna listelerinizi yönetmenizi kolaylaştırmak için h
 
 İki mod vardır: *Genel modda*, istisna listesindeki siteler hariç tutulur ve *Seçici modda*, AdGuard VPN'in çalıştığı tek siteler olacaktır.
 
-You can add domains (e.g. `google.com`) or subdomains (e.g. `*.google.com`) of websites to the *Exclusions* in three ways: enter them manually in the app, or right from the browser by clicking the *Share* button and selecting AdGuard VPN in the opened list below, or from built-in lists of services divided by categories.
+Sitelerin alan adlarını (ör. `google.com`) veya alt alan adlarını (ör. `*.google.com`) *İstisnalara* üç şekilde ekleyebilirsiniz: bunları uygulamaya elle veya doğrudan tarayıcıdan *Paylaş* düğmesine tıklayıp aşağıdaki açılan listeden AdGuard VPN'i seçerek veya kategorilere ayrılmış yerleşik hizmet listelerinden girin.
 
-![İstisnalar](https://cdn.adguard.com/public/Adguard/kb/VPN/Screenshots/add_site_android.jpg)
+![İstisnalar](https://cdn.adguardvpn.com/public/Adguard/kb/VPN/Screenshots/add_site_android.jpg)
 > Alan adlarının elle eklenmesinde bazı ince ayrıntılar vardır. Örneğin, `yahoo.com` alan adını elle hariç tutarsanız, tüm `*.yahoo.com` alt alanları da istisnalarda listelenir. Ancak, `yahoo.jp` veya `yahoo.fr` gibi diğer üst düzey alan adlarına sahip alan adları hariç tutulmayacaktır. Veya `youtube.com` alan adını istisnalara ekleyebilirsiniz, ancak aynı hizmet `youtu.be` alan adı listeye girmez. Bu durumda, her platformla ilgili tüm alt alan adlarını oraya koyduğumuz için yerleşik hizmet listelerini kullanmak daha güvenlidir.
 
 Hizmet listelerinde alt alan adlarını etkinleştirebileceğiniz için, her hizmetin durumunu yansıtan kutular ekledik — bunları her hizmet adının solundaki *İstisnalar* ana ekranında görebilirsiniz: **tamamen etkin** durumu yeşil arka plan üzerinde beyaz bir onay işaretiyle, **tamamen devre dışı** — gri kutulu ve **kısmen etkin**, bu bir veya daha fazla parametrenin değiştirildiği anlamına gelir — beyaz arka plan üzerinde yeşil bir kare ile işaretlenmiştir. İyi haber: oradan herhangi bir alan adono sildiyseniz veya devre dışı bıraktıysanız, her zaman hizmet listelerinin varsayılan görünümüne dönebilirsiniz.
 
-![İstisnalar](https://cdn.adguard.com/content/kb/vpn/android/statuses.png)
+![İstisnalar](https://cdn.adguardvpn.com/content/kb/vpn/android/statuses.png)
 
 Bir başka kullanışlı özellik ise, *istisnaları İçe ve Dışa aktarma* özelliğidir. Hedefe ulaşmak için sadece dört adım var:
 
@@ -54,7 +51,7 @@ Bir başka kullanışlı özellik ise, *istisnaları İçe ve Dışa aktarma* ö
 3. Farklı cihazlar arasında aktarım yaparken, `.zip` dosyasını içe aktarmak için cihaza göndermeyi unutmayın. Örneğin, istisna listeleri Windows cihazınızdan Android'inize aktarırsanız, `.zip` dosyasını önceden Android'inize gönderdiğinizden emin olun.
 4. AdGuard VPN'i, hazır istisnaların listesiyle birlikte arşivi içe aktarmak istediğiniz cihazda açın. Uygun bölümü bulun, *İçe aktar* düğmesine tıklayın ve arşivi seçin.
 
-![İçe ve Dışa Aktarma](https://cdn.adguard.com/content/kb/vpn/android/imp-exp.png)
+![İçe ve Dışa Aktarma](https://cdn.adguardvpn.com/content/kb/vpn/android/imp-exp.png)
 
 ### Uygulama Ayarları
 
@@ -62,23 +59,21 @@ Yukarıda bahsettiğimiz gibi, istisnalara sadece siteler kolayca eklenemez. Han
 
 AdGuard ile *Uyumluluk modu* etkinse, uygulamaları yalnızca AdGuard Reklam Engelleyici aracılığıyla yönetebilirsiniz. Bu nedenle, düğmeye dokunduğunuzda AdGuard uygulaması açılır.
 
-![Uygulama ayarları](https://cdn.adguard.com/content/kb/vpn/android/apps_settings.png)
-
+![Uygulama ayarları](https://cdn.adguardvpn.com/content/kb/vpn/android/apps_settings.png)
 
 ## Ayarlar
 
 Ekranın sağ alt kısmındaki dişli çark simgesine basarak *Ayarlar* öğesine ulaşabilirsiniz. İlk bölüm *Uygulama Ayarları* var: orada farklı seçenekleri seçerek Android için AdGuard VPN'i ihtiyacınıza göre yapılandırın.
 
-![Uygulama ayarları](https://cdn.adguard.com/content/kb/vpn/android/app_settings.png)
+![Uygulama ayarları](https://cdn.adguardvpn.com/content/kb/vpn/android/app_settings.png)
 
 ### AdGuard VPN'i otomatik başlat
 
 Sağa kaydırılan kaydırıcı, cihaz başlatıldıktan sonra AdGuard VPN'nin otomatik olarak başlatılmasını sağlar.
 
+### DNS sunucuları
 
-### DNS Sunucusu
-
-[Alan adı sisteminin](https://kb.adguard.com/en/general/dns-filtering#what-is-dns) (DNS) amacı, site adlarını tarayıcıların anlayabileceği bir şeye, yani IP adreslerine çevirmektir. Bu iş DNS sunucuları tarafından gerçekleştirilir. Android için AdGuard VPN, her biri özel niteliklere sahip birkaç DNS sunucusu seçeneği sunar. Örneğin, [AdGuard DNS](https://kb.adguard.com/en/dns/overview) reklamları kaldırır ve cihazınızı izlemeye karşı korurken AdGuard DNS Family Protection, AdGuard DNS'nin işlevlerini Güvenli Arama ve yetişkinlere yönelik içerik engelleme ile birleştirir. Özel bir DNS sunucusu ekleme seçeneği de vardır.
+[Alan adı sisteminin](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns) (DNS) amacı, site adlarını tarayıcıların anlayabileceği bir şeye, yani IP adreslerine çevirmektir. Bu iş DNS sunucuları tarafından gerçekleştirilir. Android için AdGuard VPN, her biri özel niteliklere sahip birkaç DNS sunucusu seçeneği sunar. Örneğin, [AdGuard DNS](https://adguard-dns.io/kb/) reklamları kaldırır ve cihazınızı izlemeye karşı korurken AdGuard DNS Family Protection, AdGuard DNS'nin işlevlerini Güvenli Arama ve yetişkinlere yönelik içerik engelleme ile birleştirir. Özel bir DNS sunucusu ekleme seçeneği de vardır.
 
 ### Otomatik koruma
 
@@ -94,7 +89,7 @@ Kill Switch açıksa, *Uygulama ayarları* ve *İstisnaların* çalışmayacağ�
 
 Uygulamanın sistem varsayılanı, koyu veya açık temasını seçebilirsiniz.
 
-![Tema](https://cdn.adguard.com/content/kb/vpn/android/theme-light-dark.png)
+![Tema](https://cdn.adguardvpn.com/content/kb/vpn/android/theme-light-dark.png)
 
 ### Gelişmiş ayarlar
 
@@ -104,13 +99,10 @@ Uygulamanın sistem varsayılanı, koyu veya açık temasını seçebilirsiniz.
 
 > Lütfen bazı AdGuard VPN özelliklerinin *Uyumluluk modunda* devre dışı bırakıldığını unutmayın: DNS sunucusu seçimi, Kill Switch ve Otomatik koruma. Ayrıca uygulama tünellemeyi yönetmek için AdGuard Reklam Engelleyici uygulamasını açmalısınız.
 
-Sonraki iki bölüm, *Günlük kayıt düzeyi* ve *Tanılama bilgisidir*. Concerning the first option, it is not recommended to enable the Extended or Extreme logging level unless requested by our support team. Herhangi bir teknik sorun olması durumunda tanılama bilgileri, cihaz ve bağlantılarla ilgili yerel olarak saklanan teknik bilgiler (IP adresi, ID, ping, vb.) tarafımıza gönderilebilir.
+Sonraki iki bölüm, *Günlük kayıt düzeyi* ve *Tanılama bilgisidir*. İlk seçenekle ilgili olarak, destek ekibimiz tarafından talep edilmedikçe Genişletilmiş veya Son derece günlük kayıt düzeyinin etkinleştirilmesi tavsiye edilmez. Herhangi bir teknik sorun olması durumunda tanılama bilgileri, cihaz ve bağlantılarla ilgili yerel olarak saklanan teknik bilgiler (IP adresi, ID, ping, vb.) tarafımıza gönderilebilir.
 
-*Gelişmiş ayarların* son bölümü *Alt seviye ayarlardır*. Yüksek nitelikli değilseniz veya destek ekibimiz tarafından istenmedikçe bu bölüme girmemenizi tavsiye ederiz. Here it is possible to enable TUN interface logging or IPv6 protocol on the VPN interface, choose a proxy server port or Internet protocol version that should be used.
+*Gelişmiş ayarların* son bölümü *Alt seviye ayarlardır*. Yüksek nitelikli değilseniz veya destek ekibimiz tarafından istenmedikçe bu bölüme girmemenizi tavsiye ederiz. Burada, VPN arayüzünde TUN arayüzü günlüğünü veya IPv6 protokolünü etkinleştirmek, kullanılması gereken bir proxy sunucu bağlantı noktası veya internet protokolü sürümünü seçmek mümkündür.
 
 ### Destek
 
 *Destek* bölümünde, yardım masasına daha fazla göndermek için geri bildirimde bulunabilir, bir hata bildirebilir veya günlükleri ve sistem bilgisini dışa aktarabilirsiniz.
- 
- 
-

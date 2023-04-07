@@ -25,7 +25,7 @@
   },
   "link.item.label.what_is_vpn": {
     "message": "什么是 VPN？",
-    "description": "The label of footer link with label=what_is_vpn linking to https://adguard-vpn.com/what-is-vpn.html"
+    "description": "The label of footer link with label=what_is_vpn linking to https://adguard-vpn.com/en/what-is-vpn.html"
   },
   "link.item.label.blog": {
     "message": "博客",
@@ -53,18 +53,18 @@
   },
   "link.item.label.support": {
     "message": "支持",
-    "description": "The label of footer link with label=support linking to https://adguard-vpn.com/support/support.html"
+    "description": "The label of footer link with label=support linking to https://adguard-vpn.com/support.html"
   },
   "link.item.label.how_to_install": {
     "message": "如何安装 AdGuard VPN",
-    "description": "The label of footer link with label=how_to_install linking to https://kb.adguard.com/vpn/installation"
+    "description": "The label of footer link with label=how_to_install linking to /general/how-to-install/"
   },
   "link.item.label.faq": {
     "message": "常见问题解答",
     "description": "The label of footer link with label=faq linking to https://adguard-vpn.com/support/faq.html"
   },
   "link.item.label.status": {
-    "message": "状态",
+    "message": "查看状态",
     "description": "The label of footer link with label=status linking to https://status.adguard.com/"
   },
   "link.item.label.test": {

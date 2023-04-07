@@ -4,7 +4,7 @@
     "description": "The title of the 404 page"
   },
   "theme.NotFound.p1": {
-    "message": "我们没能找到您要找的页面",
+    "message": "我们没能找到您搜索的页面。",
     "description": "The first paragraph of the 404 page"
   },
   "theme.NotFound.p2": {
@@ -60,7 +60,7 @@
     "description": "The title of the tag list page"
   },
   "theme.blog.post.plurals": {
-    "message": "一篇文章|{count} 篇文章",
+    "message": "一篇文章|{count}篇文章",
     "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.blog.tagTitle": {
@@ -180,11 +180,11 @@
     "description": "The page & hero description of the blog archive page"
   },
   "theme.blog.post.readMoreLabel": {
-    "message": "阅读更多有关{title} 的信息",
+    "message": "阅读更多有关{title}的信息",
     "description": "The ARIA label for the link to full blog posts from excerpts"
   },
   "theme.colorToggle.ariaLabel": {
-    "message": "在深色模式和浅色模式之间切换(当前为 {mode})",
+    "message": "在深色模式和浅色模式之间切换（当前为 {mode}）",
     "description": "The ARIA label for the navbar color mode toggle"
   },
   "theme.colorToggle.ariaLabel.mode.dark": {
@@ -208,7 +208,7 @@
     "description": "The default description for a category card in the generated index about how many items this category includes"
   },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
-    "message": "一个文档被标记|{count} 个文档被标记",
+    "message": "一个文档被标记|{count}个文档被标记",
     "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.tagDocListPageTitle": {
@@ -227,7 +227,7 @@
     "description": "The title attribute for toggle word wrapping button of code block lines"
   },
   "theme.DocSidebarItem.toggleCollapsedCategoryAriaLabel": {
-    "message": "切换为可折叠的侧边栏分类'{label}'",
+    "message": "切换为可折叠的侧边栏分类 '{label}'",
     "description": "The ARIA label to toggle the collapsible sidebar category"
   },
   "theme.navbar.mobileLanguageDropdown.label": {
@@ -239,11 +239,11 @@
     "description": "When the full-scale image is loading"
   },
   "theme.IdealImageMessage.load": {
-    "message": "Click to load{sizeMessage}",
+    "message": "点击加载 {sizeMessage}",
     "description": "To prompt users to load the full image. sizeMessage is a parenthesized size figure."
   },
   "theme.IdealImageMessage.offline": {
-    "message": "Your browser is offline. Image not loaded",
+    "message": "您的浏览器已经离线。图片没有被加载",
     "description": "When the user is viewing an offline document"
   },
   "theme.IdealImageMessage.404error": {
@@ -251,23 +251,23 @@
     "description": "When the image is not found"
   },
   "theme.IdealImageMessage.error": {
-    "message": "Error. Click to reload",
+    "message": "错误。点击重新加载",
     "description": "When the image fails to load for unknown error"
   },
   "theme.SearchPage.documentsFound.plurals": {
-    "message": "One document found|{count} documents found",
+    "message": "找到了1个文档|找到了{count}个文档",
     "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.SearchPage.existingResultsTitle": {
-    "message": "Search results for \"{query}\"",
+    "message": "“{query}” 的搜索结果",
     "description": "The search page title for non-empty query"
   },
   "theme.SearchPage.emptyResultsTitle": {
-    "message": "Search the documentation",
+    "message": "搜索文档",
     "description": "The search page title for empty query"
   },
   "theme.SearchPage.inputPlaceholder": {
-    "message": "Type your search here",
+    "message": "在此处输入您的搜索",
     "description": "The placeholder for search page input"
   },
   "theme.SearchPage.inputLabel": {
@@ -275,15 +275,15 @@
     "description": "The ARIA label for search page input"
   },
   "theme.SearchPage.algoliaLabel": {
-    "message": "Search by Typesense",
+    "message": "用 Typesense 搜索",
     "description": "The ARIA label for Typesense mention"
   },
   "theme.SearchPage.noResultsText": {
-    "message": "No results were found",
+    "message": "没有结果",
     "description": "The paragraph for empty search result"
   },
   "theme.SearchPage.fetchingNewResults": {
-    "message": "Fetching new results...",
+    "message": "正在获取新结果...",
     "description": "The paragraph for fetching new search results"
   },
   "theme.SearchBar.label": {
@@ -311,7 +311,7 @@
     "description": "Sticky bar btn text with label Download"
   },
   "sticky_bar.btn.text.ios": {
-    "message": "谷歌商店",
+    "message": "应用商店",
     "description": "Sticky bar btn text with label App Store"
   },
   "sticky_bar.btn.text.android": {

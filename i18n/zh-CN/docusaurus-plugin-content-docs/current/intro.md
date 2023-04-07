@@ -1,83 +1,84 @@
 ---
-title: AdGuard VPN概述
+title: AdGuard VPN 概述
 sidebar_position: 1
 slug: /
 ---
 
-## VPN是什么以及您为什么需要它
+## VPN 是什么以，您为什么需要它?
 
-VPN可以让您与互联网上另一处网络创建安全的连接。
+VPN 可以让用户与互联网上另一处网络创建安全的连接。
 
-起初，VPN的创建只有一个目的——通过互联网安全地连接业务网络，以便人们可以在家中连接到公司网络。 这项技术还有很多其他用途：比如匿名上网，或防止在公共Wi-Fi下不被窥探。
+起初，VPN 的创建只有一个目的——通过互联网安全地连接业务网络，以便人们可以在家中连接到公司网络。 这项技术还有很多其他用途：比如匿名上网，或防止在公共 Wi-Fi 下不被窥探。
 
-A VPN connects a user's computer or mobile device to a server and allows one to browse the net using someone else's IP address. Thus, third-party observers cannot see the user's real IP address, which makes it nearly impossible to trace them.
+VPN 将用户的电脑或移动设备连接到服务器，并允许用户使用其他 IP 地址浏览网络。 因此，第三方观察者无法检测用户的真实 IP 地址，这使得追踪TA们几乎不可能。
 
-Speaking of VPN, the first thing they mention is traffic encryption and security deriving from it. But what does it mean? A VPN creates an encrypted tunnel between the user's device and the remote server. All your web traffic passes through this tunnel, so your data is protected along the way. For the external observer, your traffic exits the VPN server, so it looks like your device has the IP address of this server. This trick masks the user's identity and true location.
+说到 VPN，首先提到的就是流量加密以及由此衍生出来的安全性。 但这意味着什么呢？ VPN 在用户的设备和远程服务器之间创建加密隧道。 您的所有网络流量都会经由此隧道，从而在此过程中保护您的数据。 对于外部观察者来说，用户的流量从 VPN 服务器流出，所以看起来用户的设备有这个服务器的 IP 地址。 这种“技巧”掩盖用户的身份和真实位置。
 
-VPN can be used to:
+VPN 可用于：
 
-* hide your real whereabouts and stay anonymous
-* secure your data — even when connecting to a public Wi-Fi, you can browse the Web safely
-* protect yourself from spoofing (network traffic interception) and tracking on the part of your Internet service provider
+* 隐藏用户的真实位置帮助保持匿名性
+* 保护用户的数据，即使连接到公共 Wi-Fi，您也可以安全地浏览网页
+* 保护自己免受互联网服务提供商的欺骗（网络流量拦截）和跟踪。
 
-Passwords, card details, and just plain personal information are at risk when a user surfs the Internet. But if you connect to the global network using a VPN, you can be sure that no one can intercept your data.
+当用户在互联网冲浪时，密码、银行卡信息和普通的个人信息都处于危险之中。 但如果您启用 VPN 连接到全球网络，您可以确信没有他人可以截获您的个人数据。
 
-## Why AdGuard VPN
+## 为什么要选择 AdGuard VPN？
 
-### Trusted developer
-AdGuard has been present on the market of personal data protection and ad blocking and developing its line of software for more than 12 years. Over this time, our company has built an impeccable reputation, and the number of our customers has exceeded 30 million.
+### 靠谱的开发者
+AdGuard 进入个人数据保护和广告拦截市场并开发其软件系列已超过 12 年。 在这段时间里，我们公司已经建立了无可挑剔的声誉，我们的客户数量已经超过了 3000万。
 
-### Unique VPN protocol
-The main difference between AdGuard VPN and its competitors is that we use [our own developed protocol](/general/adguard-vpn-protocol.mdx). It disguises itself as normal traffic, so it is much more difficult to track and block it.
+### 特有的 VPN 协议
+AdGuard VPN 与其竞争对手的主要区别是，我们使用[我们自己开发的协议](/general/adguard-vpn-protocol.mdx)。 本协议将自己伪装成正常流量，因此更难追踪和阻止它。
 
-### No logs policy
-No logs policy means that we don’t collect, store or transfer users’ personal data to third parties. The full text of AdGuard privacy policy can be found [here](https://adguard-vpn.com/en/privacy.html).
+### 无记录政策
 
-### Tracking protection
-Web traffic from any user may be of interest and is particularly valuable in terms of monetization of personal data. Both criminals and unscrupulous ISPs can access it. However, with a trustworthy VPN, you can be confident that neither your provider nor anyone else will see your internet activity.
+无日志政策意味着我们不收集、储存或转让用户的个人数据给第三方。 The full text of AdGuard VPN Privacy policy can be found [here](https://adguard-vpn.com/privacy.html).
 
-### Ultrafast VPN servers in 43 countries
+### 跟踪保护
+任何用户的网络流量都可能引起兴趣，在个人数据的货币化方面尤其有价值。 犯罪分子和不诚实的互联网服务提供商都可以访问用户个人数据。 然而，有了值得信赖的 VPN，您可以确信，无论是您的服务提供商还是其他人都不会检测您的互联网活动。
 
-* Argentina
-* Australia
-* Austria
-* Belgium
-* Brazil
-* Bulgaria
-* Cambodia
-* Canada
-* China
-* Czech Republic
-* Denmark
-* Egypt
-* Finland
-* France
-* Germany
-* Greece
-* India
-* Ireland
-* Israel
-* Italy
-* Japan
-* Luxembourg
-* Mexico
-* Netherlands
-* Norway
-* Philippines
-* Poland
-* Romania
-* Russia
-* Serbia
-* Singapore
-* South Africa
-* South Korea
-* Spain
-* Sweden
-* Switzerland
-* Taiwan
-* Turkey
-* United Kingdom
-* UAE
-* USA
-* Ukraine
-* Vietnam
+### 位于 43 个国家的超高速 VPN 服务器
+
+* 阿根廷
+* 澳大利亚
+* 奥地利
+* 比利时
+* 巴西
+* 保加利亚
+* 柬埔寨
+* 加拿大
+* 中国
+* 捷克共和国
+* 丹麦
+* 埃及
+* 芬兰
+* 法国
+* 德国
+* 希腊
+* 印度
+* 爱尔兰
+* 以色列
+* 意大利
+* 日本
+* 卢森堡
+* 墨西哥
+* 荷兰
+* 挪威
+* 菲律宾
+* 波兰
+* 罗马尼亚
+* 俄罗斯
+* 塞尔维亚
+* 新加坡
+* 南非
+* 韩国
+* 西班牙
+* 瑞典
+* 瑞士
+* 台湾
+* 土耳其
+* 英国
+* 阿联酋
+* 美国
+* 乌克兰
+* 越南

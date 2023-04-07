@@ -1,28 +1,28 @@
 ---
-title: 'Updating the Knowledge Base'
+title: 'Aktualisieren der Wissensdatenbank'
 sidebar_position: 3
 ---
 
-The goal of this Knowledge Base is to provide everyone with the most up-to-date information on all kinds of AdGuard VPN-related topics. But things constantly change, and sometimes an article doesn't reflect the current state of things anymore — there are simply not so many of us to keep an eye on every single bit of information and update it accordingly when new versions are released.
+Das Ziel dieser Wissensdatenbank ist es, jedem die aktuellsten Informationen zu allen möglichen VPN-bezogenen Themen von AdGuard zur Verfügung zu stellen. Aber etwas in unseren Produkten ändert sich ständig, und manchmal spiegelt ein Artikel nicht mehr den aktuellen Stand der Dinge wider.
 
-This is why we placed all of our KB content to [GitHub](https://github.com/AdguardTeam/KnowledgeBaseVPN), and now literally anyone can contribute to it by suggesting edits and translations to existing articles, as well as totally new ones.
+Aus diesem Grund haben wir alle Inhalte unserer Wissensdatenbank auf [GitHub](https://github.com/AdguardTeam/KnowledgeBaseVPN) eingestellt, und jetzt kann buchstäblich jeder dazu beitragen, indem er Bearbeitungen und Übersetzungen zu bestehenden Artikeln vorschlägt, aber auch völlig neue Artikel erstellt.
 
-## How to suggest a change or write a new article {#suggest-change}
+## Wie man eine Änderung vorschlägt oder einen neuen Artikel schreibt {#suggest-change}
 
-You can suggest changes to current articles and add new ones to the Knowledge Base using the functionality of the GitHub mentioned above. If you are unfamiliar with principles of working with the platform, start by reading [documentation in this section](https://docs.github.com/en).
+Sie können Änderungen an aktuellen Artikeln vorschlagen und neue Artikel zur Wissensdatenbank hinzufügen, indem Sie die oben genannten Funktionen von GitHub nutzen. Wenn Sie mit den Grundsätzen der Arbeit mit der Plattform GitHub nicht vertraut sind, lesen Sie zunächst die Dokumentation [in diesem Abschnitt](https://docs.github.com/en).
 
-Once you are ready to start, work in [the KnowledgeBaseVPN repository](https://github.com/AdguardTeam/KnowledgeBaseVPN). All texts in our Knowledge Base are written in `Markdown` markup language. Keep this in mind when editing or writing articles. Follow [this link](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) to learn more about Markdown syntax.
+Sobald Sie bereit sind, arbeiten Sie unter [dem KnowledgeBaseVPN-Repository](https://github.com/AdguardTeam/KnowledgeBaseVPN). Alle Texte in unserer Wissensdatenbank sind in der Auszeichnungssprache `Markdown` verfasst. Befolgen Sie die Markdown-Regeln, wenn Sie Artikel bearbeiten oder schreiben. Folgen Sie [diesem Link](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax), um mehr über die Markdown-Syntax zu erfahren.
 
-The Knowledge Base website is built using Docusaurus 2 — a modern static website generator. When suggesting changes or additions, take into account that all documents must comply with the principles of the platform. You can read about them in [the guide available via this link](https://docusaurus.io/docs/category/guides).
+Die Website der Wissensdatenbank wurde mit Docusaurus 2 erstellt, einem modernen Generator für statische Websites. Wenn Sie Änderungen oder Ergänzungen vorschlagen, beachten Sie bitte, dass alle Dokumente den Grundsätzen der Plattform entsprechen müssen. Sie können sie in dem Leitfaden nachlesen, der über [diesen Link](https://docusaurus.io/docs/category/guides) verfügbar ist.
 
-You can deploy this Knowledge Base locally to your computer to preview the changes you suggest. Detailed instructions on how to do this can be found [in the README.md file](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README.md) on this Knowledge Base's GitHub page.
+Sie können die Wissensdatenbank auch lokal auf Ihrem Computer bereitstellen, um eine Vorschau auf die von Ihnen vorgeschlagenen Änderungen zu erhalten. Detaillierte Anweisungen dazu finden Sie [in der Datei README.md](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README.md) auf der GitHub-Seite dieser Knowledge Base.
 
-## Translating articles {#translate-adguard}
+## Artikel übersetzen {#translate-adguard}
 
-Translation of the existing articles of the Knowledge Base is carried out on [the Crowdin platform](https://crowdin.com/project/adguard-vpn-knowledge-base). All the details about translations and working with Crowdin can be found [in the dedicated article](https://kb.adguard.com/en/general/adguard-translations) of the AdGuard Ad Blocker Knowledge Base.
+Die Übersetzung der bestehenden Artikel der Wissensdatenbank erfolgt auf [der Crowdin-Plattform](https://crowdin.com/project/adguard-vpn-knowledge-base). Alle Details zu Übersetzungen und zur Arbeit mit Crowdin finden Sie [im entsprechenden Artikel](https://adguard.com/kb/miscellaneous/contribute/translate/program/) der Wissensdatenbank von AdGuard Werbeblocker.
 
-When working on AdGuard VPN Knowledge Base articles, you may meet strings containing plural forms that you should translate with extra attention. [In a separate article](https://kb.adguard.com/en/miscellaneous/plurals), we described in detail the difficulties that can arise when translating strings with plural forms, and gave extensive instructions on how to work with them on the Crowdin platform.
+Wenn Sie an Artikeln der AdGuard VPN-Wissensdatenbank arbeiten, stoßen Sie möglicherweise auf Zeichenfolgen mit Pluralformen, die Sie mit besonderer Aufmerksamkeit übersetzen sollten. [In einem separaten Artikel](https://adguard.com/kb/miscellaneous/contribute/translate/plural-forms/) haben wir ausführlich die Schwierigkeiten beschrieben, die beim Übersetzen von Zeichenketten mit Pluralformen auftreten können, und eine ausführliche Anleitung gegeben, wie man damit auf der Crowdin-Plattform arbeiten kann.
 
-## Working on open issues
+## An  Open Issues arbeiten
 
-Sometimes there exist [open tasks](https://github.com/AdguardTeam/KnowledgeBaseVPN/issues/) related to updating the Knowledge Base. You can help us speed up their completion [the same way](#suggest-change) you would suggest any other changes to this Knowledge Base. Choose any issue that you find appealing and start working on it. If you have any questions — you can ask them right in the comments to that issue.
+Manchmal gibt es [Open Issues auf GitHub](https://github.com/AdguardTeam/KnowledgeBaseVPN/issues/) im Zusammenhang mit der Aktualisierung der Wissensdatenbank. Sie können uns dabei helfen, ihre Fertigstellung zu beschleunigen, [genauso](#suggest-change) wie Sie andere Änderungen an dieser Wissensdatenbank vorschlagen würden. Wählen Sie ein beliebiges Thema, das Sie ansprechend finden, und beginnen Sie, daran zu arbeiten. Wenn Sie Fragen haben, können Sie diese direkt in den Kommentaren zum Issue stellen.

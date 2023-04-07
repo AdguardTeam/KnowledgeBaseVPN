@@ -1,28 +1,28 @@
 ---
-title: 'Updating the Knowledge Base'
+title: '지식 창고 업데이트'
 sidebar_position: 3
 ---
 
-The goal of this Knowledge Base is to provide everyone with the most up-to-date information on all kinds of AdGuard VPN-related topics. But things constantly change, and sometimes an article doesn't reflect the current state of things anymore — there are simply not so many of us to keep an eye on every single bit of information and update it accordingly when new versions are released.
+이 기술 자료의 목표는 모든 종류의 AdGuard VPN 관련 주제에 대한 최신 정보를 모든 사용자에게 제공하는 것입니다. 그러나 상황은 끊임없이 변하고 때로는 기사가 현재 상태를 반영하지 않을 수도 있습니다. 새로운 버전이 출시될 때 모든 정보를 주시하고 그에 따라 업데이트할 수 있는 사람은 많지 않습니다.
 
-This is why we placed all of our KB content to [GitHub](https://github.com/AdguardTeam/KnowledgeBaseVPN), and now literally anyone can contribute to it by suggesting edits and translations to existing articles, as well as totally new ones.
+그래서 우리가 모든 지식 창고 콘텐츠를 [GitHub](https://github.com/AdguardTeam/KnowledgeBaseVPN)에 배치했습니다. 이제 누구나 기존 및 새 기사에 대한 편집 및 번역을 제안할 수 있습니다.
 
-## How to suggest a change or write a new article {#suggest-change}
+## 기존 기사에 변경 사항을 제안하거나 새 기사를 작성하는 방법 {#suggest-change}
 
-You can suggest changes to current articles and add new ones to the Knowledge Base using the functionality of the GitHub mentioned above. If you are unfamiliar with principles of working with the platform, start by reading [documentation in this section](https://docs.github.com/en).
+위에서 언급한 GitHub의 기능을 사용하여 현재 기사에 대한 변경 내용을 제안하고 기술 자료에 새 기사를 추가할 수 있습니다. 플랫폼 작업 원칙에 익숙하지 않은 경우 [이 섹션의 설명서](https://docs.github.com/en)를 읽는 것이 좋습니다.
 
-Once you are ready to start, work in [the KnowledgeBaseVPN repository](https://github.com/AdguardTeam/KnowledgeBaseVPN). All texts in our Knowledge Base are written in `Markdown` markup language. Keep this in mind when editing or writing articles. Follow [this link](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) to learn more about Markdown syntax.
+시작할 준비가 되면 [KnowledgeBaseVPN 레포지터리](https://github.com/AdguardTeam/KnowledgeBaseVPN)에서 작업하십시오. 기술 창고의 모든 글은 `Markdown` 마크업 언어로 작성되었습니다. 기사를 편집하거나 작성할 때 이것을 명심하십시오. [이 링크](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)를 클릭하여 Markdown 구문에 대해 자세히 알아보세요.
 
-The Knowledge Base website is built using Docusaurus 2 — a modern static website generator. When suggesting changes or additions, take into account that all documents must comply with the principles of the platform. You can read about them in [the guide available via this link](https://docusaurus.io/docs/category/guides).
+지식 창고 웹 사이트는 최신 웹 사이트 생성기인 Docusaurus 2를 사용하여 제작되었습니다. 텍스트를 변경하거나 추가할 때 모든 기사가 플랫폼의 원칙을 준수해야 한다는 점을 고려하십시오. 플랫폼의 원칙에 대한 자세한 내용은 [이 가이드](https://docusaurus.io/docs/category/guides)에서 확인할 수 있습니다.
 
-You can deploy this Knowledge Base locally to your computer to preview the changes you suggest. Detailed instructions on how to do this can be found [in the README.md file](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README.md) on this Knowledge Base's GitHub page.
+이 지식 창고를 컴퓨터에 배포하여 제안한 변경 사항을 미리 볼 수 있습니다. 자세한 지침은 이 지식 창고의 GitHub 페이지에 있는 [README.md 파일](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README.md)에서 찾을 수 있습니다.
 
-## Translating articles {#translate-adguard}
+## 기사 번역 {#translate-adguard}
 
-Translation of the existing articles of the Knowledge Base is carried out on [the Crowdin platform](https://crowdin.com/project/adguard-vpn-knowledge-base). All the details about translations and working with Crowdin can be found [in the dedicated article](https://kb.adguard.com/en/general/adguard-translations) of the AdGuard Ad Blocker Knowledge Base.
+[Crowdin 플랫폼](https://crowdin.com/project/adguard-vpn-knowledge-base)에서 지식 창고의 기존 기사를 번역할 수 있습니다. Crowdin 사용 방법에 대한 자세한 내용은 [AdGuard 광고 차단기의 지식 창고 기사](https://adguard.com/kb/miscellaneous/contribute/translate/program/)에서 확인할 수 있습니다.
 
-When working on AdGuard VPN Knowledge Base articles, you may meet strings containing plural forms that you should translate with extra attention. [In a separate article](https://kb.adguard.com/en/miscellaneous/plurals), we described in detail the difficulties that can arise when translating strings with plural forms, and gave extensive instructions on how to work with them on the Crowdin platform.
+AdGuard VPN 지식 창고에서 기사를 번역하는 동안 번역에 특별한 주의를 기울여야 하는 복수형이 포함된 문자열을 보게 될 것입니다. [In a separate article](https://adguard.com/kb/miscellaneous/contribute/translate/plural-forms/), we described in detail the difficulties that can arise when translating strings with plural forms, and gave extensive instructions on how to work with them on the Crowdin platform.
 
-## Working on open issues
+## Github의 기존 이슈에 대한 작업
 
-Sometimes there exist [open tasks](https://github.com/AdguardTeam/KnowledgeBaseVPN/issues/) related to updating the Knowledge Base. You can help us speed up their completion [the same way](#suggest-change) you would suggest any other changes to this Knowledge Base. Choose any issue that you find appealing and start working on it. If you have any questions — you can ask them right in the comments to that issue.
+지식 창고 업데이트와 관련된 [열린 태스크](https://github.com/AdguardTeam/KnowledgeBaseVPN/issues/)가 있을 수 있습니다. 이 지식 창고에 대한 다른 변경 사항을 제안하는 것과 [동일한 방식](#suggest-change)으로 이러한 태스크를 해결하는 데 도움을 줄 수 있습니다. 원하는 태스크를 선택하고, 작업을 시작하세요. 질문이 있는 경우, 해당 태스크에 대한 댓글에서 바로 질문할 수 있습니다.

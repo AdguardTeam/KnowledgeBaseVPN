@@ -1,83 +1,84 @@
 ---
-title: AdGuard VPN Overview
+title: Panoramica di AdGuard VPN
 sidebar_position: 1
 slug: /
 ---
 
-## What a VPN is and why you need one
+## Cos'è una VPN e perché ne hai bisogno?
 
-A VPN allows you to create a secure connection to another network on the Internet.
+Una VPN consente di creare una connessione sicura a un'altra rete su Internet.
 
-Initially, VPNs were created for one purpose — to securely connect business networks over the Internet, so that people could connect to the corporate network from home. This technology is used for many other things: for example, to browse the Internet anonymously or to protect your online activity from prying eyes while using public Wi-Fi.
+Inizialmente, le VPN sono state create per uno scopo: connettere in modo sicuro le reti aziendali su Internet, in modo che le persone potessero connettersi alla rete aziendale da casa. Questa tecnologia viene utilizzata per molte altre cose: ad esempio, per navigare in Internet in modo anonimo o per proteggere la tua attività online da occhi indiscreti durante l'utilizzo del Wi-Fi pubblico.
 
-A VPN connects a user's computer or mobile device to a server and allows one to browse the net using someone else's IP address. Thus, third-party observers cannot see the user's real IP address, which makes it nearly impossible to trace them.
+Una VPN collega il computer o il dispositivo mobile di un utente a un server e consente di navigare in rete utilizzando l'indirizzo IP di un'altra persona. Pertanto, gli osservatori di terze parti non possono vedere il vero indirizzo IP dell'utente, il che rende quasi impossibile rintracciarli.
 
-Speaking of VPN, the first thing they mention is traffic encryption and security deriving from it. But what does it mean? A VPN creates an encrypted tunnel between the user's device and the remote server. All your web traffic passes through this tunnel, so your data is protected along the way. For the external observer, your traffic exits the VPN server, so it looks like your device has the IP address of this server. This trick masks the user's identity and true location.
+Parlando di VPN, la prima cosa che menzionano è la crittografia del traffico e la sicurezza che ne deriva. Ma cosa significa? Una VPN crea un tunnel crittografato tra il dispositivo dell'utente e il server remoto. Tutto il tuo traffico web passa attraverso questo tunnel, in modo che i tuoi dati siano protetti lungo il percorso. Per l'osservatore esterno, il tuo traffico esce dal server VPN, quindi sembra che il tuo dispositivo abbia l'indirizzo IP di questo server. Questo trucco maschera l'identità dell'utente e la vera posizione.
 
-VPN can be used to:
+La VPN può essere utilizzata per:
 
-* hide your real whereabouts and stay anonymous
-* secure your data — even when connecting to a public Wi-Fi, you can browse the Web safely
-* protect yourself from spoofing (network traffic interception) and tracking on the part of your Internet service provider
+* nascondi la tua vera posizione rimanendo anonimo
+* proteggi i tuoi dati: anche quando ti connetti a una rete Wi-Fi pubblica, puoi navigare sul web in tutta sicurezza
+* proteggersi dallo spoofing (intercettazione del traffico di rete) e dal tracciamento da parte del proprio provider di servizi Internet
 
-Passwords, card details, and just plain personal information are at risk when a user surfs the Internet. But if you connect to the global network using a VPN, you can be sure that no one can intercept your data.
+Password, dettagli della carta e semplici informazioni personali sono a rischio quando un utente naviga in Internet. Ma se ti connetti alla rete globale utilizzando una VPN, puoi essere certo che nessuno possa intercettare i tuoi dati.
 
-## Why AdGuard VPN
+## Perché AdGuard VPN?
 
-### Trusted developer
-AdGuard has been present on the market of personal data protection and ad blocking and developing its line of software for more than 12 years. Over this time, our company has built an impeccable reputation, and the number of our customers has exceeded 30 million.
+### Sviluppatore affidabile
+AdGuard è presente nel mercato della protezione dei dati personali e del blocco degli annunci e sviluppa la sua linea di software da oltre 12 anni. In questo periodo, la nostra azienda ha costruito una reputazione impeccabile e il numero dei nostri clienti ha superato i 30 milioni.
 
-### Unique VPN protocol
-The main difference between AdGuard VPN and its competitors is that we use [our own developed protocol](/general/adguard-vpn-protocol.mdx). It disguises itself as normal traffic, so it is much more difficult to track and block it.
+### Protocollo VPN unico
+La differenza principale tra AdGuard VPN e i suoi concorrenti è che utilizziamo [il nostro protocollo sviluppato](/general/adguard-vpn-protocol.mdx). Si maschera da traffico normale, quindi è molto più difficile rintracciarlo e bloccarlo.
 
-### No logs policy
-No logs policy means that we don’t collect, store or transfer users’ personal data to third parties. The full text of AdGuard privacy policy can be found [here](https://adguard-vpn.com/en/privacy.html).
+### Politica senza registri
 
-### Tracking protection
-Web traffic from any user may be of interest and is particularly valuable in terms of monetization of personal data. Both criminals and unscrupulous ISPs can access it. However, with a trustworthy VPN, you can be confident that neither your provider nor anyone else will see your internet activity.
+La politica Senza registri significa che non raccogliamo, memorizziamo o trasferiamo i dati personali degli utenti a terzi. The full text of AdGuard VPN Privacy policy can be found [here](https://adguard-vpn.com/privacy.html).
 
-### Ultrafast VPN servers in 43 countries
+### Protezione anti-monitoraggio
+Il traffico web proveniente da qualsiasi utente può essere interessante ed è particolarmente prezioso in termini di monetizzazione dei dati personali. Sia i criminali che gli ISP senza scrupoli possono accedervi. Tuttavia, con una VPN affidabile, puoi essere sicuro che né il tuo provider né nessun altro vedrà la tua attività su Internet.
+
+### Server VPN ultraveloci in 43 paesi
 
 * Argentina
 * Australia
 * Austria
-* Belgium
-* Brazil
+* Belgio
+* Brasile
 * Bulgaria
-* Cambodia
+* Cambogia
 * Canada
-* China
-* Czech Republic
-* Denmark
-* Egypt
-* Finland
-* France
-* Germany
-* Greece
+* Cina
+* Repubblica Ceca
+* Danimarca
+* Egitto
+* Finlandia
+* Francia
+* Germania
+* Grecia
 * India
-* Ireland
-* Israel
-* Italy
-* Japan
-* Luxembourg
-* Mexico
-* Netherlands
-* Norway
-* Philippines
-* Poland
+* Irlanda
+* Israele
+* Italia
+* Giappone
+* Lussemburgo
+* Messico
+* Paesi Bassi
+* Norvegia
+* Filippine
+* Polonia
 * Romania
 * Russia
 * Serbia
 * Singapore
-* South Africa
-* South Korea
-* Spain
-* Sweden
-* Switzerland
+* Sud Africa
+* Corea del Sud
+* Spagna
+* Svezia
+* Svizzera
 * Taiwan
-* Turkey
-* United Kingdom
-* UAE
+* Turchia
+* Regno Unito
+* Emirati Arabi Uniti
 * USA
-* Ukraine
+* Ucraina
 * Vietnam
