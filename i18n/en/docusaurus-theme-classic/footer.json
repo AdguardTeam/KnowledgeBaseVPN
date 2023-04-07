@@ -33,7 +33,7 @@
   },
   "link.item.label.discuss": {
     "message": "Discuss",
-    "description": "The label of footer link with label=discuss linking to https://adguard.com/discuss.html"
+    "description": "The label of footer link with label=discuss linking to https://adguard-vpn.com/discuss.html"
   },
   "link.item.label.vpn_android": {
     "message": "AdGuard VPN for Android",

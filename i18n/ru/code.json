@@ -299,7 +299,7 @@
     "description": "String used for free GB promo in sticky bar"
   },
   "sticky_bar.btn.baloon.text": {
-    "message": "Скачивая программу, вы принимаете условия {eulaLink}",
+    "message": "Скачивая программу, вы принимаете условия [Лицензионного соглашения]{eulaLink}",
     "description": "String used for license agreement text in sticky bar"
   },
   "sticky_bar.btn.baloon.text.link": {
