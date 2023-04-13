@@ -9,8 +9,8 @@ AdGuard VPN Tarayıcı uzantısı Chrome, Firefox, Opera ve Edge için mevcuttur
 
 AdGuard VPN Tarayıcı uzantınızı yönetmek için:
 
-* Either click its icon on the browser's panel, click the hamburger menu icon, and select *Settings*,
-* Or go to the *Manage extensions* page in your browser, click *Details* below *AdGuard VPN* and manage its settings from there.
+* Tarayıcı panelindeki simgesine tıklayın, hamburger menü simgesine tıklayın ve *Ayarlar* öğesini seçin,
+* Veya tarayıcınızda *Uzantıları yönet* sayfasına gidin, *AdGuard VPN* altındaki *Ayrıntılar* öğesine tıklayın ve ayarlarını buradan yönetin.
 
 İşiniz bittiğinde, solda birkaç sekme göreceksiniz:
 

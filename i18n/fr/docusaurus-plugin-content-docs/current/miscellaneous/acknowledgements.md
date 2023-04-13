@@ -59,7 +59,7 @@ Notre équipe de développement tient à remercier les développeurs du logiciel
 * BoringSSL : [https://github.com/google/boringssl](https://github.com/google/boringssl)
 * brotli : [https://github.com/google/brotli](https://github.com/google/brotli)
 * Detours : [https://github.com/microsoft/Detours](https://github.com/microsoft/Detours)
-* FF/FFOS libs: [https://github.com/stsaz/ffos](https://github.com/stsaz/ffos)
+* Bibliothèques FF/FFOS : [https://github.com/stsaz/ffos](https://github.com/stsaz/ffos)
 * Google test : [https://github.com/google/googletest](https://github.com/google/googletest)
 * http-parser : [https://github.com/nodejs/http-parser](https://github.com/nodejs/http-parser)
 * klib : [https://github.com/attractivechaos/klib](https://github.com/attractivechaos/klib)

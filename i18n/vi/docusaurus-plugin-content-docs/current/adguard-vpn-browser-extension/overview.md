@@ -39,16 +39,16 @@ Bạn không chỉ có thể thêm và xóa các trang web, bạn còn có thể
 1. Mở tiện ích mở rộng Trình duyệt AdGuard VPN từ nơi bạn muốn xuất danh sách loại trừ của mình. Tìm phần thích hợp và nhấp vào nút "Xuất". The `exclusions.zip` archive will be downloaded.
 2. Có hai tệp `.txt` bên trong kho lưu trữ, một tệp cho mỗi danh sách Chung và Chọn lọc. Thêm nhiều loại trừ cho chúng, xóa các loại trừ hiện có, đổi tên tệp hoặc chỉ để nguyên kho lưu trữ.
 3. When transferring between different devices, send the `.zip` file to the device for import.
-4. Open AdGuard VPN on that device. Find the appropriate section, click the "Import" button and select the archive. Done!
+4. Mở AdGuard VPN trên thiết bị đó. Tìm phần thích hợp, nhấp vào nút "Nhập" và chọn kho lưu trữ. Xong!
 
-## Account
+## Tài khoản
 
-The third tab of AdGuard VPN Browser extension is utterly minimalistic, containing only the email address you used to sign into your account and two buttons, *Manage* and *Sign out*. Clicking the *Manage* button takes you to your personal AdGuard account, where you can see all your current licenses and subscriptions, as well as devices connected to them.
+Tab thứ ba của tiện ích mở rộng Trình duyệt AdGuard VPN hoàn toàn tối giản, chỉ chứa địa chỉ email bạn đã sử dụng để đăng nhập vào tài khoản của mình và hai nút, *Điều khiển* và *Đăng xuất*. Nhấp vào nút *Quản lý* sẽ đưa bạn đến tài khoản AdGuard cá nhân của mình, nơi bạn có thể xem tất cả các giấy phép và đăng ký hiện tại của mình, cũng như các thiết bị được kết nối với chúng.
 
-## Support
+## Hỗ trợ
 
-You can find answers to common questions in the FAQ section, or leave feedback: report a bug if something isn't working as it should, suggest adding a new feature, or discuss AdGuard on any of the many social media platforms.
+Bạn có thể tìm thấy câu trả lời cho các câu hỏi phổ biến trong phần Câu hỏi thường gặp hoặc để lại phản hồi: báo cáo lỗi nếu có điều gì đó không hoạt động bình thường, đề xuất thêm tính năng mới hoặc thảo luận về AdGuard trên bất kỳ nền tảng truyền thông xã hội nào.
 
-## About
+## Giới thiệu
 
-Another minor tab, where you can check the extension's version, visit the official website, and view the EULA or Privacy policy.
+Một tab nhỏ khác, nơi bạn có thể kiểm tra phiên bản của tiện ích mở rộng, truy cập trang web chính thức và xem EULA hoặc Chính sách quyền riêng tư.

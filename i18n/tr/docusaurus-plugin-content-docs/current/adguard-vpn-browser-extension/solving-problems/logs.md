@@ -38,7 +38,7 @@ Artık günlükleri topladığınıza göre, onları geliştirme ekibimize tesli
 
     ![Arka plan *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/backgroung.png)
 
-5.  Open the *Console tab*
+5.  *Konsol sekmesi* öğesini açın
 
     ![Konsol sekmesi *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/console.png)
 
