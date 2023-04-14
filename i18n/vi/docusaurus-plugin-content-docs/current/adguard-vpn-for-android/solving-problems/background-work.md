@@ -1,8 +1,8 @@
 ---
-title: How to protect AdGuard VPN from being disabled by the system
+title: Cách bảo vệ AdGuard VPN không bị vô hiệu hóa bởi hệ thống
 sidebar_position: 1
 ---
 
-Apps on Android devices may not always run stably in the background for various reasons, which may differ depending on the device model. This is most often due to Android OS optimization function, or so called "battery save mode". In such cases, the system closes apps in order to reduce the load and free up RAM.
+Các ứng dụng trên thiết bị Android có thể không phải lúc nào cũng chạy ổn định trong nền vì nhiều lý do, điều này có thể khác nhau tùy thuộc vào kiểu thiết bị. Điều này thường xảy ra nhất là do chức năng tối ưu hóa hệ điều hành Android hay còn gọi là "chế độ tiết kiệm pin". Trong những trường hợp như vậy, hệ thống sẽ đóng các ứng dụng để giảm tải và giải phóng RAM.
 
-If AdGuard VPN is disabled on your device, your personal data will become vulnerable. To avoid such problem, you need to open [this link](https://adguard.com/kb/adguard-for-android/solving-problems/background-work/) and follow the instructions for your device with one difference: wherever it is required, choose AdGuard VPN instead of AdGuard.
+Nếu AdGuard VPN bị tắt trên thiết bị của bạn, dữ liệu cá nhân của bạn sẽ dễ bị tấn công. Để tránh sự cố như vậy, bạn cần mở [liên kết này](https://adguard.com/kb/adguard-for-android/solving-problems/background-work/) và làm theo hướng dẫn dành cho thiết bị của mình với một điểm khác biệt: bất cứ nơi nào được yêu cầu, hãy chọn AdGuard VPN thay vì AdGuard.

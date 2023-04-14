@@ -28,7 +28,7 @@ Ancak, daha önce de söylendiği gibi, belirli bir cihaza bağlı olarak farkl�
 
 Android 8 ve sonraki sürümlerde, elinizi telefonunuzun sol veya sağ kenarına dikey olarak yerleştirerek ve ekrana dokunurken o kenardan kaydırarak ekran görüntüsü alma olanağı da vardır.
 
-If this method doesn’t work, check *Settings* → *Advanced features* → *Motions and gestures* → enable *Palm swipe to capture*.
+Bu yöntem işe yaramazsa, *Ayarlar* → *Gelişmiş özellikler* → *Hareketler ve işaretler* → *Yakalamak için avuç içi kaydırma* öğesini etkinleştir seçeneğini kontrol edin.
 
 Ayrıca, cihazlarınızda ekran görüntüsü almak için her zaman özel uygulamaları kullanabilirsiniz, örneğin — *Ekran Görüntüsü Kolay*, *Screenshot Ultimate*, *Screenshot Snap*, vb.
 
