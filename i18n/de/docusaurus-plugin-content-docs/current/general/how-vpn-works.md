@@ -41,7 +41,7 @@ Neben diesen VPN-Protokollen gibt es noch weitere (z. B. TLS, SSTP, IKEv2), die 
 
 ![Wie ein VPN-Protokoll funktioniert](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/4.svg)
 
-AdGuard VPN hat auch ein eigenes [*Protokoll*](adguard-vpn-protocol.mdx). Einer der Vorteile besteht darin, dass der über das AdGuard VPN-Protokoll übertragene Datenverkehr nur schwer vom regulären Datenverkehr zu unterscheiden ist. Der VPN-Tunnel sieht wie normaler HTTPS-Verkehr aus, daher ist es äußerst schwierig, ihn zu erkennen und zu blockieren. Darüber hinaus basiert es auf den Mechanismen des modernen HTTP/2-Protokolls, das eine hohe Verbindungsgeschwindigkeit gewährleistet.
+AdGuard VPN hat auch ein eigenes [*Protokoll*](adguard-vpn-protocol.mdx). Einer der Vorteile besteht darin, dass der über das AdGuard VPN-Protokoll übertragene Datenverkehr nur schwer vom regulären Datenverkehr zu unterscheiden ist. Der VPN-Tunnel sieht wie normaler HTTPS-Verkehr aus, daher ist es äußerst schwierig, ihn zu erkennen und zu sperren. Darüber hinaus basiert es auf den Mechanismen des modernen HTTP/2-Protokolls, das eine hohe Verbindungsgeschwindigkeit gewährleistet.
 
 ![Wie verstecktes VPN funktioniert](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/5.svg)
 
@@ -55,7 +55,7 @@ Da Ihr Datenverkehr nicht direkt an den Webserver geht, sondern zunächst den VP
 
 **Zugriffssperre**
 
-Einige Online-Dienste unternehmen große Anstrengungen, um VPN-Verkehr zu erkennen und den Zugriff für VPN-Benutzer:innen zu blockieren. Allerdings können nicht viele VPNs ihren Datenverkehr als normal maskieren. Daher enden viele Versuche, auf eine bestimmte Website zu gehen, ohne VPN zu deaktivieren, im Nichts.
+Einige Online-Dienste unternehmen große Anstrengungen, um VPN-Verkehr zu erkennen und den Zugriff für VPN-Benutzer:innen zu sperren. Allerdings können nicht viele VPNs ihren Datenverkehr als normal maskieren. Daher enden viele Versuche, auf eine bestimmte Website zu gehen, ohne VPN zu deaktivieren, im Nichts.
 
 **Unterbrechung von VPN-Verbindungen**
 
@@ -65,7 +65,7 @@ Ein schwaches Signal, Netzwerküberlastung, VPN-Inkompatibilität mit einer Fire
 
 Unser VPN-Dienst hat mehrere wichtige [Vorteile](why-adguard-vpn.md):
 
-* [*Proprietäres VPN-Protokoll*](adguard-vpn-protocol.mdx), das auch bei einer langsamen Internetverbindung stabil funktioniert und sich als normaler Datenverkehr tarnt, wodurch es schwieriger wird, ihn zu verfolgen und zu blockieren
+* [*Proprietäres VPN-Protokoll*](adguard-vpn-protocol.mdx), das auch bei einer langsamen Internetverbindung stabil funktioniert und sich als normaler Datenverkehr tarnt, wodurch es schwieriger wird, ihn zu verfolgen und zu sperren
 
 * [*No-Logs-Politik*](https://adguard-vpn.com/en/privacy.html), was bedeutet, dass AdGuard VPN Ihre personenbezogenen Daten nicht sammelt und nicht an Dritte weitergibt
 

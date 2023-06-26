@@ -1,77 +1,77 @@
 ---
-title: How to collect and send logs
+title: Como coletar e enviar logs
 sidebar_position: 1
 ---
 
-There are several ways for collecting AdGuard VPN Browser extension logs, but whichever one you choose, the same data will be collected. In the extension, logs are not divided into standard and debug ones. And different options for collecting logs are provided for those cases when a problem you encounter prevents you from using one or another instruction.
+Existem várias maneiras de coletar logs de extensão do navegador AdGuard VPN. Não importa o método que você escolher, os mesmos dados serão coletados. Na extensão, os logs não são divididos em padrão e debug. E diferentes opções para coletar logs são fornecidas para os casos em que um problema encontrado o impede de usar uma ou outra instrução.
 
-## Collecting and sending logs via the *Report a bug* section
+## Coleta e envio de logs através de *Relatar um bug* secção
 
-1.  Open AdGuard VPN Browser extension, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
-2.  Open *Settings* by clicking the hamburger menu icon (☰) → *Support* → *Report a bug*.
-3.  In the opened form, leave an automatically inserted email address or enter another one and describe the error found, including the time when this error occurred. If you can't reproduce the problem, specify as accurately as possible when it last occurred.
-4.  Make sure that there is a check mark next to *Include the diagnostic report in the message*, and tap *Submit*. This way, you will send logs along with the bug report.
+1.  Abra a extensão AdGuard VPN Browser, se possível, repita as ações que levaram ao erro. Observe a hora exata em que esse erro ocorreu.
+2.  Abra *Configurações* clicando no ícone do menu hambúrguer (☰) → *Suporte* → *Relate um bug*.
+3.  No formulário aberto, deixe um endereço de e-mail inserido automaticamente ou insira outro e descreva o erro encontrado, incluindo o horário em que ocorreu esse erro. Se você não conseguir reproduzir o problema, especifique com a maior precisão possível quando ocorreu pela última vez.
+4.  Certifique-se de que haja uma marca de seleção ao lado de *Incluir o relatório de diagnóstico na mensagem*e toque em *Enviar*. Dessa forma, você enviará os logs junto com o relatório do bug.
 
-## Collecting and sending logs via the *Export logs* button
+## Coleta e envio de logs por meio do botão *Exportar logs*
 
-1.  Open AdGuard VPN Browser extension, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
-2.  Right-click the AdGuard VPN Browser extension icon.
-3.  In the opened menu click *Export logs*.
-4.  As a result, the logs file will be saved to your device in `txt` format.
+1.  Abra a extensão AdGuard VPN Browser, se possível, repita as ações que levaram ao erro. Observe a hora exata em que esse erro ocorreu.
+2.  Clique com o botão direito do mouse no ícone da extensão AdGuard VPN Browser.
+3.  No menu aberto, clique em *Exportar logs*.
+4.  Como resultado, o arquivo de logs será salvo em seu dispositivo no formato `txt`.
 
-Now that you have collected the logs, you need to hand them over to our development team. To do this:
+Agora que você coletou os logs, você precisa entregá-los à nossa equipe de desenvolvimento. Para isso:
 
-1.  Report a bug on GitHub. Detailed instructions on creating an issue on GitHub can be found in this article.
-2.  Send an archive with logs and playback time to `devteam@adguard.com` and attach a link to your GitHub issue. Also you can add an archive with logs and playback time to Google Drive and share it with `devteam@adguard.com` attaching the Google Drive link to your issue on GitHub.
+1.  Reporte um bug no GitHub. Instruções detalhadas sobre como criar um problema no GitHub podem ser encontradas neste artigo.
+2.  Envie um arquivo com logs e tempo de reprodução para `devteam@adguard.com` e anexe um link para seu chamado no GitHub. Além disso, você pode adicionar um arquivo com logs e tempo de reprodução ao Google Drive e compartilhá-lo com `devteam@adguard.com` anexando o link do Google Drive ao seu problema no GitHub.
 
-## Collecting and sending logs via browser developer's tools
+## Coletando e enviando logs por meio das ferramentas de desenvolvedor do navegador
 
 ### Chrome
 
-1.  Open AdGuard VPN Browser extension, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
-2.  Go to `chrome://extensions`
-3.  Turn on *developer mode*
+1.  Abra a extensão de navegador AdGuard VPN e, se possível, repita as ações que levaram ao erro. Observe a hora exata em que esse erro ocorreu.
+2.  Vá para `chrome://extensions`
+3.  Ativar o *modo de desenvolvedor*
 
-    ![The developer mode *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/dev_mode.png)
+    ![O modo de desenvolvedor *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/dev_mode.png)
 
-4.  Click `background.html`
+4.  Clique em `background.html`
 
-    ![Background *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/backgroung.png)
+    ![Plano de fundo * borda](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/backgroung.png)
 
-5.  Open the *Console tab*
+5.  Abra a aba *Console*
 
-    ![The Console tab *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/console.png)
+    ![A aba Console *borda](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/console.png)
 
-6.  Open the context menu and click *Save as…*
+6.  Abra o menu de contexto e clique em *Salvar como…*
 
-    ![Save as *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/save.png)
+    ![Salvar como *borda](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/save.png)
 
-Now that you have collected the logs, you need to hand them over to our development team. To do this:
+Agora que você coletou os logs, você precisa entregá-los à nossa equipe de desenvolvimento. Para isso:
 
-1.  Report a bug on GitHub. Detailed instructions on creating an issue on GitHub can be found in this article.
-2.  Send an archive with logs and playback time to `devteam@adguard.com` and attach a link to your GitHub issue. Also you can add an archive with logs and playback time to Google Drive and share it with `devteam@adguard.com` attaching the Google Drive link to your issue on GitHub.
+1.  Reportar um problema no GitHub. Instruções detalhadas sobre como criar um problema no GitHub podem ser encontradas neste artigo.
+2.  Envie um arquivo com logs e tempo de reprodução para `devteam@adguard.com` e anexe um link para seu problema no GitHub. Além disso, você pode adicionar um arquivo com logs e tempo de reprodução ao Google Drive e compartilhá-lo com `devteam@adguard.com` anexando o link do Google Drive ao seu problema no GitHub.
 
 ### Firefox
 
-1.  Open AdGuard VPN Browser extension, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
-2.  Go to `about:addons`
-3.  Click *Debug Add-ons*
+1.  Abra a extensão AdGuard VPN Browser, se possível, repita as ações que levaram ao erro. Observe a hora exata em que esse erro ocorreu.
+2.  Ir para `sobre: addons`
+3.  Clique *Debug Add-ons*
 
-    ![Debug Add-ons *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/add-ons.png)
+    ![Debug Add-ons *borda](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/add-ons.png)
 
-4.  Click *Inspect*
+4.  Clique em *Inspecionar*
 
-    ![Inspect *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/inspect.png)
+    ![Inspecionar *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/inspect.png)
 
-5.  Go to the *Console* tab
+5.  Vá para a aba *Console*
 
     ![Console *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/ff_console.png)
 
-6.  Click *Save all Messages to file*
+6.  Clique em *Salvar todas as mensagens no arquivo*
 
-    ![Save *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/save-to-file.png)
+    ![Salvar *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/save-to-file.png)
 
-Now that you have collected the logs, you need to hand them over to our development team. To do this:
+Agora que você coletou os logs, você precisa entregá-los à nossa equipe de desenvolvimento. Para isso:
 
-1.  Report a bug on GitHub. Detailed instructions on creating an issue on GitHub can be found in this article.
-2.  Send an archive with logs and playback time to `devteam@adguard.com` and attach a link to your GitHub issue. Also you can add an archive with logs and playback time to Google Drive and share it with `devteam@adguard.com` attaching the Google Drive link to your issue on GitHub.
+1.  Reportar um problema no GitHub. Instruções detalhadas sobre como criar um problema no GitHub podem ser encontradas neste artigo.
+2.  Envie um arquivo com logs e tempo de reprodução para `devteam@adguard.com` e anexe um link para seu problema no GitHub. Além disso, você pode adicionar um arquivo com logs e tempo de reprodução ao Google Drive e compartilhá-lo com `devteam@adguard.com` anexando o link do Google Drive ao seu problema no GitHub.

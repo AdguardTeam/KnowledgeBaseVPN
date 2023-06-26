@@ -24,7 +24,7 @@ Você pode adicionar sites às exclusões manualmente ou escolhê-los entre as l
 ## 3. Escolhendo um servidor DNS
 Chega de depender do servidor DNS fornecido pelo seu ISP por padrão! Primeiro, não é seguro: seu ISP provavelmente tem acesso ao seu histórico de navegação. Em segundo lugar, as pessoas geralmente subestimam o DNS, mas ele pode remover anúncios e rastreadores, proteger seu dispositivo contra malware ou, por exemplo, permitir uma pesquisa segura e bloquear conteúdo adulto.
 
-You can choose DNS servers from [known DNS providers](https://adguard-dns.io/kb/general/dns-providers/) such as AdGuard, Cisco, Cloudflare, Google, or Quad9, or even configure to use your own DNS server.
+Você pode escolher servidores DNS de [provedores DNS conhecidos](https://adguard-dns.io/kb/general/dns-providers/), como AdGuard, Cisco, Cloudflare, Google ou Quad9, ou até mesmo configurar para usar seu próprio servidor DNS.
 
 ## 4. Locais mais rápidos
 
@@ -38,10 +38,10 @@ Com aplicativos de desktop e extensões de navegador, nem é preciso dizer: rara
 
 Com dispositivos móveis, por outro lado, a situação não é tão simples. Na grande maioria dos casos, dois aplicativos baseados em VPN não funcionarão juntos, apenas porque existem certas limitações induzidas pelo sistema operacional que impedem que isso aconteça, tanto no Android quanto no iOS.
 
-No entanto, conseguimos encontrar uma solução para garantir a compatibilidade entre o AdGuard VPN e o AdGuard Ad Blocker. When you have both AdGuard apps installed on one device, they will automatically become compatible without any input required from you. Esta é uma oportunidade única de aproveitar dois conjuntos de recursos, entre os quais você normalmente teria que escolher.
+No entanto, conseguimos encontrar uma solução para garantir a compatibilidade entre o AdGuard VPN e o AdGuard Ad Blocker. Quando você tiver ambos os aplicativos AdGuard instalados em um dispositivo, eles se tornarão automaticamente compatíveis sem qualquer ação necessária de sua parte. Esta é uma oportunidade única de aproveitar dois conjuntos de recursos, entre os quais você normalmente teria que escolher.
 
 ## 6. Suporte QUIC
-[QUIC](https://adguard.com/blog/dns-over-quic.html) is a cutting-edge protocol that has many perks. A principal vantagem é que pode melhorar a qualidade da conexão em condições não ideais como, por exemplo, em dispositivos móveis ou ao se conectar a um Wi-Fi público. Embora o novo protocolo não afete a velocidade quando a conexão estiver boa e estável, com certeza melhorará a situação para usuários com internet lenta.
+O [QUIC](https://adguard.com/blog/dns-over-quic.html) é um protocolo de ponta que tem muitas vantagens. A principal vantagem é que pode melhorar a qualidade da conexão em condições não ideais como, por exemplo, em dispositivos móveis ou ao se conectar a um Wi-Fi público. Embora o novo protocolo não afete a velocidade quando a conexão estiver boa e estável, com certeza melhorará a situação para usuários com internet lenta.
 
 *Agora vamos mudar para o conjunto de itens que não podem faltar em uma boa VPN.*
 

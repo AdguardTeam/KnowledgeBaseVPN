@@ -1,9 +1,9 @@
 ---
-title: 'Tietopankin päivittäminen'
+title: 'Updating the Knowledge Base'
 sidebar_position: 3
 ---
 
-Tämän tietopankin on tarkoitus tarjota kaikille viimeisimmät tiedot kaikenlaisista AdGuard VPN -aiheista. But things constantly change, and sometimes an article doesn't reflect the current state of things anymore — there are simply not so many of us to keep an eye on every single bit of information and update it accordingly when new versions are released.
+The goal of this Knowledge Base is to provide everyone with the most up-to-date information on all kinds of AdGuard VPN-related topics. But things constantly change, and sometimes an article doesn't reflect the current state of things anymore — there are simply not so many of us to keep an eye on every single bit of information and update it accordingly when new versions are released.
 
 This is why we placed all of our KB content to [GitHub](https://github.com/AdguardTeam/KnowledgeBaseVPN), and now literally anyone can contribute to it by suggesting edits and translations to existing articles, as well as totally new ones.
 

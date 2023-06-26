@@ -37,7 +37,7 @@ Chính sách không lưu nhật ký có nghĩa là chúng tôi không thu thập
 ### Chống theo dõi
 Lưu lượng truy cập web từ bất kỳ người dùng nào cũng có thể bị để mắt đến và đặc biệt có giá trị đối với các phương thức kiếm tiền từ dữ liệu cá nhân. Cả tội phạm và các nhà cung cấp dịch vụ internet (ISP) vô đạo đức đều có thể truy cập các dữ liệu này. Tuy nhiên, với một dịch vụ VPN đáng tin, bạn có thể yên tâm rằng cả nhà cung cấp của bạn và bất kỳ ai khác đều sẽ không thể thấy hoạt động internet của bạn.
 
-### Máy chủ VPN siêu tốc ở 43 quốc gia
+### Ultrafast VPN servers in 53 countries
 
 * Argentina
 * Úc
@@ -47,38 +47,48 @@ Lưu lượng truy cập web từ bất kỳ người dùng nào cũng có thể
 * Bulgari
 * Campuchia
 * Canada
-* Trung Quốc
-* Cộng hòa Séc
-* Đan mạch
-* Ai Cập
-* Phần Lan
-* Pháp
-* Đức
-* Hy Lạp
-* Ấn Độ
+* Chile
+* Colombia
+* Croatia
+* Cyprus
+* Czechia
+* Denmark
+* Egypt
+* Estonia
+* Finland
+* France
+* Germany
+* Greece
+* Hong Kong
+* Hungary
+* India
 * Ireland
 * Israel
-* Ý
-* Nhật Bản
+* Italy
+* Japan
+* Kazakhstan
 * Luxembourg
 * Mexico
-* Hà Lan
-* Na Uy
+* Netherlands
+* New Zealand
+* Norway
 * Philippines
-* Ba Lan
+* Poland
+* Portugal
 * Romania
-* Nga
+* Russia
 * Serbia
 * Singapore
-* Nam Phi
-* Hàn Quốc
-* Tây Ban Nha
-* Thụy Điển
-* Thụy Sĩ
-* Đài Loan
-* Thổ Nhĩ Kỳ
-* Vương quốc Anh
-* Các Tiểu vương quốc Ả Rập Thống nhất
-* Hoa Kỳ
-* Ukraina
-* Việt Nam
+* Slovakia
+* South Africa
+* South Korea
+* Spain
+* Sweden
+* Switzerland
+* Taiwan
+* Turkey
+* United Kingdom
+* United Arab Emirates
+* United States of America
+* Ukraine
+* Vietnam

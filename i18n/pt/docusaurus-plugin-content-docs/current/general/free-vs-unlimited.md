@@ -15,7 +15,7 @@ Você pode usar o AdGuard VPN gratuitamente, mas haverá algumas restrições:
 
 Ao mesmo tempo, você pode comprar uma assinatura para obter uma versão ilimitada do aplicativo. Uma assinatura permite ter mais benefícios em comparação com uma conta gratuita:
 
-* 5 dispositivos conectados simultaneamente
+* 10 dispositivos conectados simultaneamente
 * Tráfego ilimitado
 * Sem limite de velocidade
 * Todos os mais de 50 locais estão disponíveis

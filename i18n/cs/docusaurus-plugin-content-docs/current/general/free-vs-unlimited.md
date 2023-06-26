@@ -15,7 +15,7 @@ AdGuard VPN můžete používat zdarma, ale pak budou platit určitá omezení:
 
 Zároveň si můžete zakoupit předplatné a získat tak neomezenou verzi aplikace. Předplatné umožňuje získat více výhod ve srovnání s bezplatným účtem:
 
-* 5 současně připojených zařízení
+* 10 současně připojených zařízení
 * Neomezený datový provoz
 * Neomezenou rychlost
 * Všech více než 50 umístění

@@ -15,7 +15,7 @@ You can use AdGuard VPN for free, but then there will be certain restrictions:
 
 At the same time you can purchase a subscription to get an unlimited version of the app. A subscription allows to have more benefits in comparison with a free account:
 
-* 5 simultaneously connected devices
+* 10 simultaneously connected devices
 * Unlimited traffic
 * No speed cap
 * All 50+ locations are available
