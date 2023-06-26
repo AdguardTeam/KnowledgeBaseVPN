@@ -4,7 +4,7 @@ sidebar_position: 1
 slug: /
 ---
 
-## O que é uma VPN e por que você precisa de uma?
+## O que é uma VPN e por que você precisa dela?
 
 Uma VPN permite que você crie uma conexão segura com outra rede na Internet.
 
@@ -32,12 +32,12 @@ A principal diferença entre AdGuard VPN e seus concorrentes é que usamos [noss
 
 ### Sem política de registros
 
-A política de não registro significa que não coletamos, armazenamos ou transferimos dados pessoais dos usuários para terceiros. The full text of AdGuard VPN Privacy policy can be found [here](https://adguard-vpn.com/privacy.html).
+A política de não registro significa que não coletamos, armazenamos ou transferimos dados pessoais dos usuários para terceiros. O texto completo da política de privacidade do AdGuard VPN pode ser encontrado [aqui](https://adguard-vpn.com/privacy.html).
 
 ### Proteção contra rastreamento
 O tráfego da Web de qualquer usuário pode ser de interesse e é particularmente valioso em termos de monetização de dados pessoais. Tanto criminosos quanto ISPs sem escrúpulos podem acessá-lo. No entanto, com uma VPN confiável, você pode ter certeza de que nem seu provedor nem ninguém verá sua atividade na Internet.
 
-### Servidores VPN ultrarrápidos em 43 países
+### Servidores VPN velozes em 53 países
 
 * Argentina
 * Austrália
@@ -47,29 +47,39 @@ O tráfego da Web de qualquer usuário pode ser de interesse e é particularment
 * Bulgária
 * Camboja
 * Canadá
-* China
+* Chile
+* Colômbia
+* Croácia
+* Chipre
 * República Checa
 * Dinamarca
 * Egito
+* Estônia
 * Finlândia
 * França
 * Alemanha
 * Grécia
+* Hong Kong
+* Hungria
 * Índia
 * Irlanda
 * Israel
 * Itália
 * Japão
+* Cazaquistão
 * Luxemburgo
 * México
 * Holanda
+* Nova Zelândia
 * Noruega
 * Filipinas
 * Polônia
+* Portugal
 * Romênia
 * Rússia
 * Sérvia
 * Cingapura
+* Eslováquia
 * África do Sul
 * Coreia do Sul
 * Espanha
@@ -79,6 +89,6 @@ O tráfego da Web de qualquer usuário pode ser de interesse e é particularment
 * Turquia
 * Reino Unido
 * Emirados Árabes Unidos
-* EUA
+* Estados Unidos da América
 * Ucrânia
 * Vietnã

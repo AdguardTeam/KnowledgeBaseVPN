@@ -28,7 +28,7 @@ Passwörter, Kartendetails und einfach nur persönliche Informationen sind gefä
 AdGuard ist seit mehr als 12 Jahren auf dem Markt für den Schutz personenbezogener Daten und der Werbeblockierung präsent und entwickelt seine Softwarelinie. In dieser Zeit hat sich unser Unternehmen einen tadellosen Ruf aufgebaut und die Zahl unserer Kunden hat 30 Millionen überschritten.
 
 ### Einzigartiges VPN-Protokoll
-Der Hauptunterschied zwischen AdGuard VPN und seinen Konkurrenten besteht darin, dass wir [unser selbst entwickeltes Protokoll](/general/adguard-vpn-protocol.mdx) verwenden. Es tarnt sich als normaler Verkehr, daher ist es viel schwieriger, es zu verfolgen und zu blockieren.
+Der Hauptunterschied zwischen AdGuard VPN und seinen Konkurrenten besteht darin, dass wir [unser selbst entwickeltes Protokoll](/general/adguard-vpn-protocol.mdx) verwenden. Es tarnt sich als normaler Verkehr, daher ist es viel schwieriger, es zu verfolgen und zu sperren.
 
 ### No-Logs-Politik
 
@@ -37,7 +37,7 @@ Keine Protokollierungsrichtlinie bedeutet, dass wir die personenbezogenen Daten 
 ### Schutz vor Tracking
 Web-Traffic von jedem Benutzer kann von Interesse sein und ist besonders wertvoll im Hinblick auf die Monetarisierung persönlicher Daten. Sowohl Kriminelle als auch skrupellose ISPs können darauf zugreifen. Mit einem vertrauenswürdigen VPN können Sie jedoch sicher sein, dass weder Ihr Anbieter noch sonst jemand Ihre Internetaktivitäten sehen wird.
 
-### Ultraschnelle VPN-Server in 43 Ländern
+### Ultraschnelle VPN-Server in 53 Ländern
 
 * Argentinien
 * Australien
@@ -47,29 +47,39 @@ Web-Traffic von jedem Benutzer kann von Interesse sein und ist besonders wertvol
 * Bulgarien
 * Kambodscha
 * Kanada
-* China
+* Chile
+* Kolumbien
+* Kroatien
+* Zypern
 * Tschechische Republik
 * Dänemark
 * Ägypten
+* Estland
 * Finnland
 * Frankreich
 * Deutschland
 * Griechenland
+* Hongkong
+* Ungarn
 * Indien
 * Irland
 * Israel
 * Italien
 * Japan
+* Kasachstan
 * Luxemburg
 * Mexiko
 * Niederlande
+* Neuseeland
 * Norwegen
 * Philippinen
 * Polen
+* Portugal
 * Rumänien
 * Russland
 * Serbien
 * Singapur
+* Slowakei
 * Südafrika
 * Südkorea
 * Spanien
@@ -78,7 +88,7 @@ Web-Traffic von jedem Benutzer kann von Interesse sein und ist besonders wertvol
 * Taiwan
 * Türkei
 * Großbritannien
-* VAE
-* USA
+* Vereinigte Arabische Emirate
+* Vereinigte Staaten von Amerika
 * Ukraine
 * Vietnam

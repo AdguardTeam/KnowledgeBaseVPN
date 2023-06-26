@@ -15,7 +15,7 @@ sidebar_position: 5
 
 同時，您也可以付費訂閱以獲取無限制版本應用程式。 與免費帳户相比，訂閱帳户有更多好處：
 
-* 同時連接 5部裝置
+* 10 simultaneously connected devices
 * 無限流量
 * 無限速
 * 50 多個地點全都可用

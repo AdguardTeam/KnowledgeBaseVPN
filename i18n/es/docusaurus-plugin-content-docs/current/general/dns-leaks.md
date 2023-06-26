@@ -1,42 +1,42 @@
 ---
-title: 'What is a DNS leak?'
+title: '¿Qué es una fuga de DNS?'
 sidebar_position: 9
 ---
 
-Once you install a VPN, you want to be sure that there won't be any leaks that will lead to your de-anonymization. AdGuard VPN reliably protects your traffic and your data from prying eyes. Nevertheless, in some cases you may suspect the presence of DNS leaks in our VPN service. We'll explain where these concerns come from and why they are unfounded.
+Una vez que instales una VPN, debes estar seguro de que no habrá filtraciones que conduzcan a la perca de tu anonimato. AdGuard VPN protege de manera confiable tu tráfico y tus datos de miradas indiscretas. No obstante, en algunos casos puedes sospechar la presencia de fugas de DNS en nuestro servicio VPN. Explicaremos de dónde vienen estas preocupaciones y por qué son infundadas.
 
-## What are DNS leaks?
+## ¿Qué es una fuga de DNS?
 
-When you use a VPN, a connection to a DNS server may travel outside of the encrypted VPN tunnel and your traffic may become visible to the ISP.
+Cuando usas una VPN, una conexión a un servidor DNS puede viajar fuera del túnel VPN encriptado y tu tráfico puede volverse visible para el ISP.
 
-In other words, every time you open a website, your browser sends a request to the ISP's DNS server and in return receives the IP address of the requested website. In this way, your ISP sees all your online activity and can track you.
+En otras palabras, cada vez que abres un sitio web, tu navegador envía una solicitud al servidor DNS del ISP y, a cambio, recibe la dirección IP del sitio web solicitado. Así, tu ISP ve toda tu actividad en línea y puede rastrearte.
 
-## How to detect DNS leaks
+## Cómo detectar fugas de DNS
 
-There are all sorts of anonymity check services for detecting DNS leaks, such as `whoer.net`. It should be understood that these websites themselves are not perfect and their algorithms are not clear, as opposed to their intentions to intimidate users with imaginary leaks and potentially sell some service.
+Hay todo tipo de servicios de verificación de anonimato para detectar fugas de DNS, como `whoer.net`. Debe entenderse que estos sitios web en sí mismos no son perfectos y sus algoritmos no son claros, a diferencia de sus intenciones de intimidar a los usuarios con filtraciones imaginarias y potencialmente vender algún servicio.
 
-Some security scanning websites consider the coincidence of the user's IP address and the DNS server's IP address to be a "good" result, indicating that there are no leaks. In reality, such a match may indicate the use of a VPN. When VPN is disabled and the requests go to your ISP's DNS server, the IP address of the DNS server and your own one do not coincide.
+Algunos sitios web de análisis de seguridad consideran que la coincidencia de la dirección IP del usuario y la dirección IP del servidor DNS es un resultado "bueno", lo que indica que no hay fuga de datos. En realidad, tal coincidencia puede indicar el uso de una VPN. Cuando la VPN está deshabilitada y las solicitudes van al servidor DNS de su ISP, la dirección IP del servidor DNS y la tuya no coinciden.
 
-## Why there are no DNS leaks in AdGuard VPN
+## Por qué no hay fugas de DNS en AdGuard VPN
 
-If you enable AdGuard VPN on your device and run a check on any of the scanner websites, it finds that DNS queries go to the [AdGuard DNS](https://adguard-dns.io) servers. However, this cannot be considered a leak.
+Si habilitas AdGuard VPN en tu dispositivo y ejecutas una verificación en cualquiera de los sitios web del escáner, verás que las consultas de DNS van a los [servidores AdGuard DNS](https://adguard-dns.io). Sin embargo, esto no puede considerarse una fuga.
 
-Using a non-filtering AdGuard DNS server is set by default in AdGuard VPN. This ensures that your queries do not go to the DNS servers of your ISP, which means that you stay private and anonymous online.
+El uso de un servidor AdGuard DNS sin filtrado está configurado de forma predeterminada en AdGuard VPN. Esto asegura que tus consultas no vayan a los servidores DNS de tu ISP, lo que significa que permaneces privado y anónimo en línea.
 
-What's more, AdGuard DNS is a very popular DNS service, used by over 50 million people. What does this mean for you? Imagine the following situation: the usual VPN service uses the DNS server which is located at the same IP address as the VPN server. The number of its users hardly exceeds 1,000.
+Además, AdGuard DNS es un servicio de DNS muy popular, utilizado por más de 50 millones de personas. ¿Qué significa esto para ti? Imagina la siguiente situación: el servicio VPN habitual utiliza el servidor DNS que se encuentra en la misma dirección IP que el servidor VPN. El número de sus usuarios apenas supera los 1000.
 
-And in the case of AdGuard DNS you will "merge" with 50 million users so nobody will be able to track you by the mere fact of using that DNS server.
+Y en el caso de AdGuard DNS te "fusionarás" con 50 millones de usuarios por lo que nadie podrá rastrearte por el mero hecho de usar ese servidor DNS.
 
-## How to set up a custom DNS server in AdGuard VPN
+## Cómo configurar un servidor DNS personalizado en AdGuard VPN
 
-There are many popular public DNS servers from [well-known DNS providers](https://adguard-dns.io/kb/general/dns-providers). Some of them can only perform their direct duties – giving the IP addresses of the requested domains, and some can do more.
+Hay muchos servidores DNS públicos populares de [proveedores de DNS conocidos](https://adguard-dns.io/kb/general/dns-providers). Algunos de ellos solo pueden realizar sus funciones directas, dando las direcciones IP de los dominios solicitados, y algunos pueden hacer más.
 
-For example, AdGuard DNS removes ads and protects your device from being tracked, and AdGuard DNS Family Protection combines AdGuard DNS features with Safe search and Parental control.
+Por ejemplo, AdGuard DNS elimina los anuncios y protege tu dispositivo para que no sea rastreado, y AdGuard DNS Family Protection combina las funciones de AdGuard DNS con la búsqueda segura y el control parental.
 
-You can select any DNS server and configure it in AdGuard VPN:
+Puedes seleccionar cualquier servidor DNS y configurarlo en AdGuard VPN:
 
-* in AdGuard VPN for Windows: *Settings* → *App settings* → *DNS servers*
-* in AdGuard VPN for Mac: *Settings* → *App settings* → *DNS servers*
-* in AdGuard VPN for Android: *Settings* (gear icon) → *App settings* → *DNS server*
-* in AdGuard VPN for iOS: *Settings* (gear icon) → *App settings* → *DNS server*
-* in AdGuard VPN Browser extension: the hamburger menu icon → *Settings* → *DNS server*
+* en AdGuard VPN para Windows: *Configuración* → *Configuración de la aplicación* → *Servidores DNS*
+* en AdGuard VPN para Mac: *Configuración* → *Configuración de la aplicación* → *Servidores DNS*
+* en AdGuard VPN para Android: *Configuración* (ícono de engranaje) → *Configuración de la aplicación* → *Servidor DNS*
+* en AdGuard VPN para iOS: *Configuración* (ícono de engranaje) → *Configuración de la aplicación* → *Servidor DNS*
+* en la extensión de navegador AdGuard VPN: ícono del menú → *Configuración* → *Servidor DNS*

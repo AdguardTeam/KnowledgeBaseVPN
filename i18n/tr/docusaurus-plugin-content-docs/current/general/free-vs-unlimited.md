@@ -15,7 +15,7 @@ AdGuard VPN'i ücretsiz olarak kullanabilirsiniz, ancak o zaman belirli kısıtl
 
 Aynı zamanda, uygulamanın sınırsız bir sürümünü almak için bir abonelik satın alabilirsiniz. Bir abonelik, ücretsiz bir hesaba kıyasla daha fazla avantaja sahip olmanızı sağlar:
 
-* Aynı anda bağlı 5 cihaz
+* Aynı anda bağlı 10 cihaz
 * Sınırsız veri
 * Hız sınırı yok
 * 50'den fazla konumun tümü kullanılabilir

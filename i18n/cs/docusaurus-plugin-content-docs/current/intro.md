@@ -37,7 +37,7 @@ Hlavní rozdíl mezi AdGuard VPN a konkurencí spočívá v tom, že používám
 ### Ochrana před sledováním
 Webový provoz jakéhokoli uživatele může být zajímavý a je cenný zejména z hlediska zpeněžení osobních údajů. Přístup k němu mají zločinci i bezohlední poskytovatelé internetových služeb. S důvěryhodnou sítí VPN si však můžete být jisti, že poskytovatel ani nikdo jiný vaši internetovou aktivitu neuvidí.
 
-### Velmi rychlé VPN servery ve 43 zemích
+### Velmi rychlé VPN servery ve 53 zemích
 
 * Argentina
 * Austrálie
@@ -47,29 +47,39 @@ Webový provoz jakéhokoli uživatele může být zajímavý a je cenný zejmén
 * Bulharsko
 * Kambodža
 * Kanada
-* Čína
-* Česká republika
+* Chile
+* Kolumbie
+* Chorvatsko
+* Kypr
+* Česko
 * Dánsko
 * Egypt
+* Estonsko
 * Finsko
 * Francie
 * Německo
 * Řecko
+* Hong Kong
+* Maďarsko
 * Indie
 * Irsko
 * Izrael
 * Itálie
 * Japonsko
+* Kazachstán
 * Lucembursko
 * Mexiko
 * Nizozemsko
+* Nový Zéland
 * Norsko
 * Filipíny
 * Polsko
+* Portugalsko
 * Rumunsko
 * Rusko
 * Srbsko
 * Singapur
+* Slovensko
 * Jihoafrická republika
 * Jižní Korea
 * Španělsko
@@ -77,8 +87,8 @@ Webový provoz jakéhokoli uživatele může být zajímavý a je cenný zejmén
 * Švýcarsko
 * Tchaj-wan
 * Turecko
-* Spojené království
-* SAE
+* Velká Británie
+* Spojené arabské emiráty
 * USA
 * Ukrajina
 * Vietnam

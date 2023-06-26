@@ -25,7 +25,7 @@ Windows용 AdGuard VPN을 설치하려면, [저희 웹 사이트](https://adguar
 
 ### 고급 제거 방법 {#advanced}
 
-일반 방법으로 프로그램이 제거되지 않으면 고급 방법을 시도할 수 있습니다. 먼저 개발자들이 만든 [제거 도구](https://cdn.adguardvpn.com/public/Adguard/tools/Uninstall_Utility.zip)를 다운로드하세요. ZIP 파일을 PC의 임의 폴더에 추출하고 **Adguard.UninstallUtility.exe** 파일을 실행한 다음 앱이 장치를 변경하도록 허용합니다. 그런 다음 아래 지침을 따르십시오.
+일반 방법으로 프로그램이 제거되지 않으면 고급 방법을 시도할 수 있습니다. First of all, you need to [download the uninstaller tool](https://cdn.adtidy.org/distr/windows/Uninstall_Utility.zip) created by our developers. ZIP 파일을 PC의 임의 폴더에 추출하고 **Adguard.UninstallUtility.exe** 파일을 실행한 다음 앱이 장치를 변경하도록 허용합니다. 그런 다음 아래 지침을 따르십시오.
 
 * Choose *Standard uninstall*, ***Delete AdGuard VPN*** and click *Uninstall*.
 
