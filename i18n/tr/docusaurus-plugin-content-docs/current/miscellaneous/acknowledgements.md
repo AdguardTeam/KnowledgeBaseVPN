@@ -31,7 +31,7 @@ Geliştirme ekibimiz, AdGuard VPN'de kullandığımız üçüncü taraf yazılı
 
 ## Windows için AdGuard VPN
 
-* Trafik sürücülerinin kesilmesi (wfp & tdi): [https://netfiltersdk.com/nfsdk.html](https://netfiltersdk.com/nfsdk.html)
+* Trafik sürücülerini durdurma (wfp & tdi): [https://netfiltersdk.com/nfsdk.html](https://netfiltersdk.com/nfsdk.html)
 * WPF tabanlı metin düzenleyici bileşeni: [http://avalonedit.net/](http://avalonedit.net/)
 * .NET için yüksek performanslı JSON çerçevesi: [https://www.newtonsoft.com/json](https://www.newtonsoft.com/json)
 

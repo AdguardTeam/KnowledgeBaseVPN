@@ -61,7 +61,7 @@ Die vierte Registerkarte der Registerkartenleiste der App enthält Abschnitte, m
 
 ![App-Einstellungen](https://cdn.adguardvpn.com/content/release_notes/vpn/windows/v2.0/app_settings_en.png)
 
-Im Abschnitt **App-Einstellungen** können Sie die Sprache der App einstellen und auch **Kill Switch** aktivieren, der den Zugriff auf das Internet blockiert, wenn Ihre VPN-Verbindung abbricht. Dies ist erforderlich, um zu verhindern, dass Eindringlinge an Ihre Daten gelangen, wenn Sie sich ohne VPN-Schutz befinden, während Sie mit einem öffentlichen WLAN- oder Mobilfunk-Netz verbunden sind.
+Im Abschnitt **App-Einstellungen** können Sie die Sprache der App einstellen und auch **Kill Switch** aktivieren, der den Zugriff auf das Internet sperrt, wenn Ihre VPN-Verbindung abbricht. Dies ist erforderlich, um zu verhindern, dass Eindringlinge an Ihre Daten gelangen, wenn Sie sich ohne VPN-Schutz befinden, während Sie mit einem öffentlichen WLAN- oder Mobilfunk-Netz verbunden sind.
 
 Sie können auch die folgenden Funktionen mit einem einzigen Klick aktivieren: **Automatisch aktualisieren**, **AdGuard VPN zusammen mit Windows starten**, **Automatisch beim App-Start verbinden** und auch erlauben, anonymisierte App-Nutzungsdaten zu sammeln, damit das AdGuard-Team Informationen über potenzielle Probleme mit der Benutzerfreundlichkeit erhält. Hier können Sie auch das Thema ändern: **Hell**, **System**, oder **Dunkel**.
 

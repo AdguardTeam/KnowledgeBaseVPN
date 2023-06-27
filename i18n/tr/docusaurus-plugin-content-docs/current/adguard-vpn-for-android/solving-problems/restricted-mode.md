@@ -9,7 +9,7 @@ Android 7 üstündeki işletim sistemini çalıştıran telefon ve tablet sahipl
 
 Sorunu çözmek için iki yolunuz var:
 
-### 1. Seçenek: ADB kullanarak AdGuard VPN'ye izinler verme
+### 1. Seçenek: ADB kullanarak AdGuard VPN'e izinler verme
 
 1. **Geliştirici modunu** etkinleştirin ve **USB hata ayıklamayı** etkinleştirin:
 - Telefonunuzda **Ayarlar** uygulamasını açın;
@@ -19,7 +19,7 @@ Sorunu çözmek için iki yolunuz var:
 
 > Herhangi bir zorluk veya ek sorunuz varsa, tam talimatlar [burada](https://developer.android.com/studio/debug/dev-options) bulunabilir.
 
-2. [Install and configure](https://www.xda-developers.com/install-adb-windows-macos-linux/) ADB;
+2. ADB'yi [kurun ve yapılandırın](https://www.xda-developers.com/install-adb-windows-macos-linux/);
 > Windows platformunda, **Samsung** sahiplerinin [bu yardımcı programı](https://developer.samsung.com/mobile/android-usb-driver.html) yüklemeleri gerekebilir.
 
 3. Cihazınızı bir **USB kablosu** kullanarak **ADB** kurduğunuz bilgisayara veya dizüstü bilgisayara bağlayın;

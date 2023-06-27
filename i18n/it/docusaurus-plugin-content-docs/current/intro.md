@@ -37,7 +37,7 @@ La politica Senza registri significa che non raccogliamo, memorizziamo o trasfer
 ### Protezione anti-monitoraggio
 Il traffico web proveniente da qualsiasi utente può essere interessante ed è particolarmente prezioso in termini di monetizzazione dei dati personali. Sia i criminali che gli ISP senza scrupoli possono accedervi. Tuttavia, con una VPN affidabile, puoi essere sicuro che né il tuo provider né nessun altro vedrà la tua attività su Internet.
 
-### Server VPN ultraveloci in 43 paesi
+### Ultrafast VPN servers in 53 countries
 
 * Argentina
 * Australia
@@ -47,38 +47,48 @@ Il traffico web proveniente da qualsiasi utente può essere interessante ed è p
 * Bulgaria
 * Cambogia
 * Canada
-* Cina
-* Repubblica Ceca
-* Danimarca
-* Egitto
-* Finlandia
-* Francia
-* Germania
-* Grecia
+* Chile
+* Colombia
+* Croatia
+* Cyprus
+* Czechia
+* Denmark
+* Egypt
+* Estonia
+* Finland
+* France
+* Germany
+* Greece
+* Hong Kong
+* Hungary
 * India
-* Irlanda
-* Israele
-* Italia
-* Giappone
-* Lussemburgo
-* Messico
-* Paesi Bassi
-* Norvegia
-* Filippine
-* Polonia
+* Ireland
+* Israel
+* Italy
+* Japan
+* Kazakhstan
+* Luxembourg
+* Mexico
+* Netherlands
+* New Zealand
+* Norway
+* Philippines
+* Poland
+* Portugal
 * Romania
 * Russia
 * Serbia
 * Singapore
-* Sud Africa
-* Corea del Sud
-* Spagna
-* Svezia
-* Svizzera
+* Slovakia
+* South Africa
+* South Korea
+* Spain
+* Sweden
+* Switzerland
 * Taiwan
-* Turchia
-* Regno Unito
-* Emirati Arabi Uniti
-* USA
-* Ucraina
+* Turkey
+* United Kingdom
+* United Arab Emirates
+* United States of America
+* Ukraine
 * Vietnam

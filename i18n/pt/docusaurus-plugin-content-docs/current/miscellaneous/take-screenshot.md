@@ -28,7 +28,7 @@ Mas, como já foi dito, pode haver diferenças dependendo de um determinado disp
 
 No Android 8 e posterior, também é possível fazer uma captura de tela colocando a mão verticalmente ao longo da borda esquerda ou direita do telefone e deslizando a partir dessa borda com a mão tocando a tela.
 
-If this method doesn’t work, check *Settings* → *Advanced features* → *Motions and gestures* → enable *Palm swipe to capture*.
+Se este método não funcionar, verifique *Configurações* → *Recursos avançados* → *Movimentos e gestos* → ativar *Deslizar da palma da mão para capturar*.
 
 Além disso, você sempre pode usar qualquer aplicativo especial para capturar a tela em seus dispositivos, por exemplo — *Screenshot Easy*, *Screenshot Ultimate*, *Screenshot Snap*, etc.
 
