@@ -4,12 +4,12 @@ preserve_hierarchy: true
 
 # We generally want to use the "two-letters-code" of a locale (ie the language)
 # But not for all locales!
-# "pt-BR" may be better to remain as "pt-BR" instead of being transformed to "pt"
 # Note: &/* is Yaml anchor syntax: https://support.atlassian.com/bitbucket-cloud/docs/yaml-anchors/
 languages_mapping: &languages_mapping
   two_letters_code:
     zh-CN: zh-CN
     zh-TW: zh-TW
+    pt-BR: pt-BR
 
 files:
   - source: /i18n/en/**/*
