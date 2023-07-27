@@ -81,7 +81,7 @@ Bu özellik, cihazınız bir hücresel veya Wi-Fi ağına bağlandığında AdGu
 
 ### Kill Switch
 
-Ekrandaki basit talimatları takip ederek Android cihazınızda Kill Switch işlevini ayarlayabilirsiniz. Bunu neden yapmalısınız? Bir mobil ağ veya genel Wi-Fi kullanırken herhangi bir nedenle VPN bağlantınız aniden kesilirse, Kill Switch internet bağlantısını otomatik olarak sonlandırarak saldırganların bilgilerinizi ele geçirmesini engeller.
+Ekrandaki basit talimatları izleyerek Android cihazınızda Kill Switch işlevini ayarlayabilirsiniz. Bunu neden yapmalısınız? Bir mobil ağ veya genel Wi-Fi kullanırken herhangi bir nedenle VPN bağlantınız aniden kesilirse, Kill Switch internet bağlantısını otomatik olarak sonlandırarak saldırganların bilgilerinizi ele geçirmesini engeller.
 
 Kill Switch açıksa, *Uygulama ayarları* ve *İstisnaların* çalışmayacağını unutmayın.
 

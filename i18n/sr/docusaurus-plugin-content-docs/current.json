@@ -1,50 +1,50 @@
 {
   "version.label": {
-    "message": "Next",
+    "message": "Dalje",
     "description": "The label for version current"
   },
   "sidebar.sidebar.category.General": {
-    "message": "General",
+    "message": "Opšte",
     "description": "The label for category General in sidebar sidebar"
   },
   "sidebar.sidebar.category.Public DNS": {
-    "message": "Public DNS",
+    "message": "Javni DNS",
     "description": "The label for category Public DNS in sidebar sidebar"
   },
   "sidebar.sidebar.category.Solving problems": {
-    "message": "Solving problems",
+    "message": "Rešavanje problema",
     "description": "The label for category Solving problems in sidebar sidebar"
   },
   "sidebar.sidebar.category.Private DNS": {
-    "message": "Private DNS",
+    "message": "PRivatni DNS",
     "description": "The label for category Private DNS in sidebar sidebar"
   },
   "sidebar.sidebar.category.Miscellaneous": {
-    "message": "Miscellaneous",
+    "message": "Razno",
     "description": "The label for category Miscellaneous in sidebar sidebar"
   },
   "sidebar.sidebar.category.AdGuard VPN for Android": {
-    "message": "AdGuard VPN for Android",
+    "message": "AdGuard VPN za Android",
     "description": "The label for category AdGuard VPN for Android in sidebar sidebar"
   },
   "sidebar.sidebar.category.AdGuard VPN for iOS": {
-    "message": "AdGuard VPN for iOS",
+    "message": "AdGuard VPN za iOS",
     "description": "The label for category AdGuard VPN for iOS in sidebar sidebar"
   },
   "sidebar.sidebar.category.AdGuard VPN for Windows": {
-    "message": "AdGuard VPN for Windows",
+    "message": "AdGuard VPN za Windows",
     "description": "The label for category AdGuard VPN for Windows in sidebar sidebar"
   },
   "sidebar.sidebar.category.AdGuard VPN for Mac": {
-    "message": "AdGuard VPN for Mac",
+    "message": "AdGuard VPN za Mac",
     "description": "The label for category AdGuard VPN for Mac in sidebar sidebar"
   },
   "sidebar.sidebar.category.AdGuard VPN browser extensions": {
-    "message": "AdGuard VPN browser extensions",
+    "message": "AdGuard VPN proširenja preglednika",
     "description": "The label for category AdGuard VPN browser extensions in sidebar sidebar"
   },
   "sidebar.sidebar.category.solving-problems": {
-    "message": "solving-problems",
+    "message": "rešavanje problema",
     "description": "The label for category solving-problems in sidebar sidebar"
   }
 }

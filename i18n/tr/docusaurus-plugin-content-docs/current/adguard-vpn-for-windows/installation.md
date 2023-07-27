@@ -9,7 +9,7 @@ AdGuard VPN yalnızca **Microsoft Windows 11/10/8.1/8/7/Vista SP2 (yalnızca web
 
 ## Windows için AdGuard VPN kurulumu
 
-Windows için AdGuard VPN'i kurmak için [sitemizi](https://adguard-vpn.com/welcome.html) ziyaret edin ve *İndir* düğmesine tıklayın. Ardından `adguardVPNInstaller.exe` indirilecektir. Kurulum programını çalıştırın ve talimatlarını takip edin. İşlem bir dakikadan az sürer.
+Windows için AdGuard VPN'i kurmak için [sitemizi](https://adguard-vpn.com/welcome.html) ziyaret edin ve *İndir* düğmesine tıklayın. Ardından `adguardVPNInstaller.exe` indirilecektir. Kurulum programını çalıştırın ve talimatlarını izleyin. İşlem bir dakikadan az sürer.
 
 Ardından, SKLS ve Gizlilik politikasının şartlarını kabul etmek için kutuyu işaretlemeniz gerekir. Ve kurulumun son adımında AdGuard hesabınız veya sosyal ağlar (Google, Apple, Facebook) aracılığıyla yetkilendirme yapmanız istenecektir.
 

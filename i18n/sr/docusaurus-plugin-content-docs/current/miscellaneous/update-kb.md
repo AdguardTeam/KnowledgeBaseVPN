@@ -11,18 +11,18 @@ This is why we placed all of our KB content to [GitHub](https://github.com/Adgua
 
 You can suggest changes to current articles and add new ones to the Knowledge Base using the functionality of the GitHub mentioned above. If you are unfamiliar with principles of working with the platform, start by reading [documentation in this section](https://docs.github.com/en).
 
-Once you are ready to start, work in [the KnowledgeBaseVPN repository](https://github.com/AdguardTeam/KnowledgeBaseVPN). All texts in our Knowledge Base are written in `Markdown` markup language. Keep this in mind when editing or writing articles. Follow [this link](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) to learn more about Markdown syntax.
+Once you are ready to start, work in [the KnowledgeBaseVPN repository](https://github.com/AdguardTeam/KnowledgeBaseVPN). Svi tekstovi u našoj bazi znanja su pisani u `Markdown` markup jeziku. Imajte ovo na umu prilikom uređivanja ili pisanja članaka. Pratite [ovaj link](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) da biste saznali više o Markdown sintaksi.
 
-The Knowledge Base website is built using Docusaurus 2 — a modern static website generator. When suggesting changes or additions, take into account that all documents must comply with the principles of the platform. You can read about them in [the guide available via this link](https://docusaurus.io/docs/category/guides).
+Web lokacija Baze znanja je izgrađena pomoću Docusaurus 2 — modernog statičnog generatora veb sajta. Kada predlažete promene ili dodatke, uzmite u obzir da svi dokumenti moraju biti u skladu sa principima platforme. O njima možete čitati u [vodič dostupan putem ovog linka](https://docusaurus.io/docs/category/guides).
 
-You can deploy this Knowledge Base locally to your computer to preview the changes you suggest. Detailed instructions on how to do this can be found [in the README.md file](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README.md) on this Knowledge Base's GitHub page.
+Ovu bazu znanja možete da primenite lokalno na računar da biste pregledali promene koje predlažete. Detaljna uputstva kako to da uradite možete pronaći [u README.md arhivi](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README.md) na ovoj GitHub stranici baze znanja.
 
-## Translating articles {#translate-adguard}
+## Prevođenje članaka {#translate-adguard}
 
-Translation of the existing articles of the Knowledge Base is carried out on [the Crowdin platform](https://crowdin.com/project/adguard-vpn-knowledge-base). All the details about translations and working with Crowdin can be found [in the dedicated article](https://adguard.com/kb/miscellaneous/contribute/translate/program/) of the AdGuard Ad Blocker Knowledge Base.
+Prevođenje postojećih članaka Baze znanja se sprovodi na [Crowdin platforma](https://crowdin.com/project/adguard-vpn-knowledge-base). Svi detalji o prevodima i radu sa Crowdinom mogu se pronaći [u posvećenom članku](https://adguard.com/kb/miscellaneous/contribute/translate/program/) AdGuard Ad Blocker baze znanja.
 
-When working on AdGuard VPN Knowledge Base articles, you may meet strings containing plural forms that you should translate with extra attention. [In a separate article](https://adguard.com/kb/miscellaneous/contribute/translate/plural-forms/), we described in detail the difficulties that can arise when translating strings with plural forms, and gave extensive instructions on how to work with them on the Crowdin platform.
+Kada radite na člancima AdGuard VPN baze znanja, možete da se susretnete sa niskama koje sadrže množine obrazaca koje bi trebalo da prevedete sa dodatnom pažnjom. [U posebnom članku](https://adguard.com/kb/miscellaneous/contribute/translate/plural-forms/), detaljno smo opisali poteškoće koje mogu nastati prilikom prevođenja struna sa množinom, i dali opsežna uputstva kako da radite sa njima na Crowdin platformi.
 
-## Working on open issues
+## Rad na otvorenim pitanjima
 
-Sometimes there exist [open tasks](https://github.com/AdguardTeam/KnowledgeBaseVPN/issues/) related to updating the Knowledge Base. You can help us speed up their completion [the same way](#suggest-change) you would suggest any other changes to this Knowledge Base. Choose any issue that you find appealing and start working on it. If you have any questions — you can ask them right in the comments to that issue.
+Ponekad postoji [otvaranje zadataka](https://github.com/AdguardTeam/KnowledgeBaseVPN/issues/) u vezi sa ažuriranjem baze znanja. Možete nam pomoći da ubrzamo njihov završetak [na isti način](#suggest-change) na koji biste predložili bilo kakve druge promene u ovoj bazi znanja. Odaberite bilo koji problem koji vam se dopadne i počnite da radite na njemu. Ako imate bilo kakvih pitanja – možete da ih postavite tačno u komentarima na to pitanje.
