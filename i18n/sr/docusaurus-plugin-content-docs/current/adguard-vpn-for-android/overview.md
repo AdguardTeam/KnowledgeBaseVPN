@@ -35,10 +35,10 @@ Liste izuzetaka vam omogućavaju da izaberete lokacije za koje VPN treba da bude
 
 Postoje dva režima: u *Opštem režimu* lokacije sa liste izuzetaka su isključene i u *Selektivnom režimu*, oni će biti jedini gde AdGuard VPN radi.
 
-You can add domains (e.g. `google.com`) or subdomains (e.g. `*.google.com`) of websites to the *Exclusions* in three ways: enter them manually in the app, or right from the browser by clicking the *Share* button and selecting AdGuard VPN in the opened list below, or from built-in lists of services divided by categories.
+Možete dodati domene (npr. `google.com`) ili poddomene (npr. `*.google.com`) web sajtove na *Izuzeci* na tri načina: unesite ih ručno u aplikaciju, ili direktno iz preglednika klikom na *Delite* i izabrati AdGuard VPN na otvorenoj listi ispod ili sa ugrađenih lista usluga podeljenih po kategorijama.
 
-![Exclusions](https://cdn.adguardvpn.com/public/Adguard/kb/VPN/Screenshots/add_site_android.jpg)
-> There are some nuances in manual adding domains. For example, if you manually exclude the domain `yahoo.com`, all `*.yahoo.com` subdomains will also be listed in exclusions. However, domain names with other top-level domains, such as `yahoo.jp` or `yahoo.fr`, will not be excluded. Or you can add `youtube.com` to the exclusions, but the domain of the same service `youtu.be` will not get into the list. In this case, it’s more safe to use built-in lists of services, because we put there all subdomains related to each platform.
+![Izuzeci](https://cdn.adguardvpn.com/public/Adguard/kb/VPN/Screenshots/add_site_android.jpg)
+> Postoje neke nijanse u ručnom dodavanju domena. Na primer, ako ručno isključite domen `yahoo.com`Svi `*.yahoo.com` poddomeni će takođe biti navedeni u izuzecima. However, domain names with other top-level domains, such as `yahoo.jp` or `yahoo.fr`, will not be excluded. Or you can add `youtube.com` to the exclusions, but the domain of the same service `youtu.be` will not get into the list. In this case, it’s more safe to use built-in lists of services, because we put there all subdomains related to each platform.
 
 As you can enable subdomains in service lists, we added boxes that reflect the status of each service — you can see them on the main screen of *Exclusions* to the left of each service name: **fully-enabled** status is marked with a white check mark on green background, **fully-disabled** — with a gray box, and **partly-enabled**, which means that one or more parameters were changed — with a green square on white background. Good news: you can always return to the default view of service lists in case you’ve deleted or disabled any domains from there.
 
@@ -93,16 +93,16 @@ You can choose the system default, dark or light theme of the app.
 
 ### Advanced settings
 
-In the *Advanced settings*, you can find five sections. You can *Help us to become better* by toggling the switch in the upper block. This action will allow AdGuard VPN to gather crash reports, technical and interaction data. This information will come in anonymously.
+In the *Advanced settings*, you can find five sections. Možete nam *pomoći da postanemo bolji* prebacivanjem prekidača u gornjem bloku. Ova radnja će omogućiti AdGuard VPN-u da prikupi izveštaje o padu, tehničke i interakcijske podatke. Ova informacija će ići anonimno.
 
-*Operating mode* section allows you to choose one of three options: VPN, Proxy, and Compatibility mode. In *VPN mode* all traffic is routed through AdGuard VPN automatically. When the *Proxy mode* (SOCKS5) is on, AdGuard VPN runs a local proxy server which can be used by other apps to route their traffic through it. Choose this option only if you know what you are doing. Enabled *Compatibility mode* allows AdGuard VPN and AdGuard Ad Blocker to work together.
+Odeljak *Operativni režim* vam omogućava da odaberete jednu od tri opcije: VPN, Proxy i režim kompatibilnosti. U *VPN režimu* sav saobraćaj se automatski usmerava kroz AdGuard VPN. Kada ste u *Proxy režimu* (SOCKS5), AdGuard VPN pokreće lokalni proxy server koji druge aplikacije mogu da koriste za usmeravanje svog saobraćaja kroz njega. Odaberite ovu opciju samo ako znate šta radite. Omogućen *Režim kompatibilnosti* omogućava AdGuard VPN i AdGuard blokatoru reklama da rade zajedno.
 
-> Please note that some AdGuard VPN features are disabled in *Compatibility mode*: DNS server selection, Kill Switch and Auto-protection. Also, to manage application tunneling you should open AdGuard Ad Blocker application.
+> Imajte na umu da su neke AdGuard VPN funkcije onemogućene u *Režimu kompatibilnosti*: izbor DNS servera, Kill Switch i auto-zaštita. Takođe, da biste upravljali tunelom aplikacije trebalo bi da otvorite AdGuard blokator reklama.
 
-The next two sections are *Logging level* and *Diagnostic info*. Concerning the first option, it is not recommended to enable the Extended or Extreme logging level unless requested by our support team. Diagnostic info, locally stored technical information about the device and connections (IP address, ID, ping, etc.), can be sent to us in case of any technical problems.
+Sledeća dva odeljka su *Nivo vođenja evidencije* I *Dijagnostičke informacije*. Što se tiče prve opcije, nije preporučljivo omogućiti prošireni ili ekstremni nivo vođenja evidencije ukoliko to ne zahteva naš tim za podršku. Dijagnostičke informacije, lokalno uskladištene tehničke informacije o uređaju i vezama (IP adresa, lična slika, ping itd.), mogu nam se poslati u slučaju bilo kakvih tehničkih problema.
 
-The last section of *Advanced settings* is *Low-level settings*. We urge you not to enter this section unless you are highly qualified or have been asked to do so by our support team. Here it is possible to enable TUN interface logging or IPv6 protocol on the VPN interface, choose a proxy server port or Internet protocol version that should be used.
+Poslednji odeljak *Naprednih postavki* Je *Postavke najnižeg nivoa*. Apelujemo na vas da ne ulazite u ovaj odeljak ukoliko niste visoko kvalifikovani ili je od vas to zatražio naš tim za podršku. Ovde je moguće omogućiti evidentiranje TUN interfejsa ili IPv6 protokol na VPN interfejsu, odabrati port proxy servera ili verziju Internet protokola koja bi trebalo da se koristi.
 
-### Support
+### Podrška
 
-At the *Support* section you can leave feedback, report a bug, or export logs and system info for further submission to the helpdesk.
+U odeljku *Podrška* možete ostaviti povratne informacije, prijaviti grešku, ili izvesti evidencije i sistemske informacije za dalje slanje podršci.
