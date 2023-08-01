@@ -1,9 +1,6 @@
 {
     "ul-indent": { "indent": 4 },
-    "line-length": {
-        "stern": true,
-        "line_length": 120
-    },
+    "line-length": false,
     "no-bare-urls": false,
     "ul-style": { "style": "dash" }
 
