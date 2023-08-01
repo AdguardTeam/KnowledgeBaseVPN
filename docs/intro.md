@@ -16,9 +16,9 @@ Speaking of VPN, the first thing they mention is traffic encryption and security
 
 VPN can be used to:
 
-* hide your real whereabouts and stay anonymous
-* secure your data — even when connecting to a public Wi-Fi, you can browse the Web safely
-* protect yourself from spoofing (network traffic interception) and tracking on the part of your Internet service provider
+- hide your real whereabouts and stay anonymous
+- secure your data — even when connecting to a public Wi-Fi, you can browse the Web safely
+- protect yourself from spoofing (network traffic interception) and tracking on the part of your Internet service provider
 
 Passwords, card details, and just plain personal information are at risk when a user surfs the Internet. But if you connect to the global network using a VPN, you can be sure that no one can intercept your data.
 
@@ -42,46 +42,46 @@ Web traffic from any user may be of interest and is particularly valuable in ter
 
 ### Ultrafast VPN servers in 43 countries
 
-* Argentina
-* Australia
-* Austria
-* Belgium
-* Brazil
-* Bulgaria
-* Cambodia
-* Canada
-* China
-* Czech Republic
-* Denmark
-* Egypt
-* Finland
-* France
-* Germany
-* Greece
-* India
-* Ireland
-* Israel
-* Italy
-* Japan
-* Luxembourg
-* Mexico
-* Netherlands
-* Norway
-* Philippines
-* Poland
-* Romania
-* Russia
-* Serbia
-* Singapore
-* South Africa
-* South Korea
-* Spain
-* Sweden
-* Switzerland
-* Taiwan
-* Turkey
-* United Kingdom
-* UAE
-* USA
-* Ukraine
-* Vietnam
+- Argentina
+- Australia
+- Austria
+- Belgium
+- Brazil
+- Bulgaria
+- Cambodia
+- Canada
+- China
+- Czech Republic
+- Denmark
+- Egypt
+- Finland
+- France
+- Germany
+- Greece
+- India
+- Ireland
+- Israel
+- Italy
+- Japan
+- Luxembourg
+- Mexico
+- Netherlands
+- Norway
+- Philippines
+- Poland
+- Romania
+- Russia
+- Serbia
+- Singapore
+- South Africa
+- South Korea
+- Spain
+- Sweden
+- Switzerland
+- Taiwan
+- Turkey
+- United Kingdom
+- UAE
+- USA
+- Ukraine
+- Vietnam
