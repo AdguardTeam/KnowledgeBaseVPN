@@ -1,7 +1,7 @@
 {
     "ul-indent": { "indent": 4 },
+    "ul-style": { "style": "dash" },
     "line-length": false,
     "no-bare-urls": false,
-    "ul-style": { "style": "dash" }
-
+    "link-fragments": false
 }
