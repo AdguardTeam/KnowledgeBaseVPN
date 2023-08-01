@@ -73,7 +73,7 @@ VPN 是一个在用户每次浏览互联网时提供安全性和匿名性的理�
 
 ### DNS 服务器
 
-[域名系统](https://kb.adguard.com/en/general/dns-filtering#what-is-dns)（DNS）的目的是将网站的名称“翻译”成浏览器可以识别的代码，即 IP 地址。 DNS 服务器执行此操作。 安卓版 AdGuard VPN 提供几个 DNS 服务器，每个都有无与伦比的质量。 例如，[AdGuard DNS](https://kb.adguard.com/en/dns/overview) 可以删除广告并防止用户的设备被追踪，而 AdGuard DNS 家庭保护则将 AdGuard DNS 的功能与安全搜索和成人内容拦截相结合。 用户也可以添加一个自定义 DNS 服务器。
+[域名系统](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns) (DNS) 的目的是将网站的名称“翻译”成浏览器可以识别的代码，即 IP 地址。 DNS 服务器执行此操作。 安卓版 AdGuard VPN 提供几个 DNS 服务器，每个都有无与伦比的质量。 例如，[AdGuard DNS](https://adguard-dns.io/kb/) 可以删除广告并防止用户的设备被追踪，而 AdGuard DNS 家庭保护则将 AdGuard DNS 的功能与安全搜索和成人内容拦截相结合。 用户也可以添加一个自定义 DNS 服务器。
 
 ### 自动保护
 
@@ -106,4 +106,3 @@ VPN 是一个在用户每次浏览互联网时提供安全性和匿名性的理�
 ### 支持
 
 在*支持*部分，您可以留下反馈意见，报告一个错误，或导出日志和系统信息，以便进一步提交给客服支持。
- 

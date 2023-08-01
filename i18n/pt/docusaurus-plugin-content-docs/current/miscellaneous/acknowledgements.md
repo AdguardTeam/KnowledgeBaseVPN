@@ -1,11 +1,11 @@
 ---
-title: Créditos e agradecimentos
+title: Créditos e Agradecimentos
 sidebar_position: 1
 ---
 
-Nossa equipe de desenvolvimento gostaria de agradecer aos desenvolvedores do software de terceiros que usamos no AdGuard DNS, nossos ótimos testadores beta e outros usuários comprometidos, cuja ajuda para encontrar e eliminar todos os bugs, traduzir o AdGuard VPN e moderar nossas comunidades é inestimável.
+Our dev team would like to thank the developers of the third-party software we use in AdGuard VPN, our great beta testers and other engaged users, whose help in finding and eliminating all the bugs, translating AdGuard VPN and moderating our communities is priceless.
 
-## Sites do AdGuard
+## AdGuard Websites
 
 * Symfony: [http://symfony.com/](http://symfony.com/)
 * React: [https://reactjs.org/](https://reactjs.org/)
@@ -13,29 +13,29 @@ Nossa equipe de desenvolvimento gostaria de agradecer aos desenvolvedores do sof
 * PostgreSQL: [https://www.postgresql.org/](https://www.postgresql.org/)
 * Spring: [https://spring.io/](https://spring.io/)
 
-## AdGuard VPN para Android
+## AdGuard VPN for Android
 
-* Logback-android por Tony19: [https://tony19.github.io/logback-android](https://tony19.github.io/logback-android)
+* Logback-android by Tony19: [https://tony19.github.io/logback-android](https://tony19.github.io/logback-android)
 
-## AdGuard VPN para iOS
+## AdGuard VPN for iOS
 
 * Zip: [https://github.com/marmelroy/Zip](https://github.com/marmelroy/Zip)
 * ReachabilitySwift: [https://github.com/ashleymills/Reachability.swift](https://github.com/ashleymills/Reachability.swift)
 * Sentry: [https://github.com/getsentry/sentry-cocoa](https://github.com/getsentry/sentry-cocoa)
 
-## AdGuard VPN para Mac
+## AdGuard VPN for Mac
 
-* Componente Punycode por Kojiro Futamura: [https://github.com/gumob/PunycodeSwift](https://github.com/gumob/PunycodeSwift)
-* Componente de acessibilidade por Ashley Mills: [https://github.com/ashleymills/Reachability.swift](https://github.com/ashleymills/Reachability.swift)
-* Projeto Sparkle para o componente Sparkle.framework: [https://sparkle-project.org/](https://github.com/ashleymills/Reachability.swift)
+* Punycode component by Kojiro Futamura: [https://github.com/gumob/PunycodeSwift](https://github.com/gumob/PunycodeSwift)
+* Reachability component by Ashley Mills: [https://github.com/ashleymills/Reachability.swift](https://github.com/ashleymills/Reachability.swift)
+* Sparkle Project for Sparkle.framework component: [https://sparkle-project.org/](https://github.com/ashleymills/Reachability.swift)
 
-## AdGuard VPN para Windows
+## AdGuard VPN for Windows
 
-* Driver de interceptação de tráfego (wfp & tdi): [https://netfiltersdk.com/nfsdk.html](https://netfiltersdk.com/nfsdk.html)
-* Componente de editor de texto baseado em WPF: [http://avalonedit.net/](http://avalonedit.net/)
-* Estrutura JSON de alto desempenho para .NET: [https://www.newtonsoft.com/json](https://www.newtonsoft.com/json)
+* Intercept traffic drivers (wfp & tdi): [https://netfiltersdk.com/nfsdk.html](https://netfiltersdk.com/nfsdk.html)
+* WPF-based text editor component: [http://avalonedit.net/](http://avalonedit.net/)
+* High-performance JSON framework for .NET: [https://www.newtonsoft.com/json](https://www.newtonsoft.com/json)
 
-## Extensões do AdGuard VPN
+## AdGuard VPN Extension
 
 * axios: [https://github.com/axios/axios](https://github.com/axios/axios)
 * babel: [https://github.com/babel/babel](https://github.com/babel/babel)
@@ -54,12 +54,12 @@ Nossa equipe de desenvolvimento gostaria de agradecer aos desenvolvedores do sof
 * webpack: [https://github.com/webpack/webpack](https://github.com/webpack/webpack)
 * xstate: [https://github.com/statelyai/xstate](https://github.com/statelyai/xstate)
 
-## Aplicativos VPN
+## VPN apps
 
 * BoringSSL: [https://github.com/google/boringssl](https://github.com/google/boringssl)
 * brotli: [https://github.com/google/brotli](https://github.com/google/brotli)
 * Detours: [https://github.com/microsoft/Detours](https://github.com/microsoft/Detours)
-* FF/FFOS libs: [https://github.com/stsaz/ff](https://github.com/stsaz/ff)
+* FF/FFOS libs: [https://github.com/stsaz/ffos](https://github.com/stsaz/ffos)
 * Google test: [https://github.com/google/googletest](https://github.com/google/googletest)
 * http-parser: [https://github.com/nodejs/http-parser](https://github.com/nodejs/http-parser)
 * klib: [https://github.com/attractivechaos/klib](https://github.com/attractivechaos/klib)
@@ -70,7 +70,7 @@ Nossa equipe de desenvolvimento gostaria de agradecer aos desenvolvedores do sof
 * zlib: [https://zlib.net](https://zlib.net)
 * Sciter: [https://sciter.com/](https://sciter.com/)
 
-## Servidor VPN
+## VPN server
 
 * Netty: [https://netty.io/](https://netty.io/)
 * Quiche: [https://github.com/cloudflare/quiche](https://github.com/cloudflare/quiche)

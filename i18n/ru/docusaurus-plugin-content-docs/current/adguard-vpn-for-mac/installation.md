@@ -5,7 +5,7 @@ sidebar_position: 2
 
 ## Системные требования
 
-**Версия операционной системы**: macOS 10.12 (64 bit) или более поздняя
+**Версия операционной системы**: macOS 10.15 (64-битная) или более поздняя
 
 **Объём оперативной памяти**: от 2 Гб
 
@@ -16,7 +16,7 @@ sidebar_position: 2
 
 1. Для того, чтобы установить AdGuard VPN для Mac, просто перейдите [по этой ссылке](https://agrd.io/mac_vpn) или откройте браузер, напишите в адресной строке *adguard-vpn.com* и на открывшейся странице нажмите *«Скачать»*.
 
-![Загрузить AdGuard VPN с официального сайта](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-install-en.png)
+![Загрузить AdGuard VPN с официального сайта](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-install-ru.png)
 
 2. Дождитесь окончания загрузки файла *AdGuardVPN.dmg* и откройте его в папке «Загрузки».
 
@@ -28,9 +28,9 @@ sidebar_position: 2
 
 5. Далее нажмите *Продолжить* и *Установить*.
 
-![Нажмите «Продолжить»](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-install-2-en.png)
+![Нажмите «Продолжить»](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/.mac-install-2-en~imageoptim.png)
 
-![Нажмите «Установить»](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-install-3-en.png)
+![Нажмите «Установить»](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-install-ru-2.png)
 
 6. Подождите, пока установщик загрузит необходимые файлы.
 
@@ -47,7 +47,7 @@ AdGuard VPN для Mac установлен!
 
 2. Выберите в списке *AdGuard VPN*, кликните по нему правой кнопкой мыши и нажмите *Переместить в корзину*.
 
-![Стандартное удаление](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-uninstall-1-en.png)
+![Стандартное удаление](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-uninstall-1-ru.png)
 
 
 ### Продвинутое удаление
@@ -58,13 +58,13 @@ AdGuard VPN для Mac установлен!
 
 2. Откройте Finder и в поиске введите `Связка ключей`.
 
-![Продвинутое удаление Введите «Связка ключей»](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-key-chain-en.png)
+![Продвинутое удаление Введите «Связка ключей»](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-key-chain-ru.png)
 
 3. Нажмите на значок найденной программы и в её внутреннем поиске введите `com.adguard.mac.vpn`. Если в результатах поиска есть такая запись, удалите её.
 
 4. Вернитесь в Finder и в поиске введите `Терминал`.
 
-![Продвинутое удаление Напиште «Терминал»](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-terminal-en.png)
+![Продвинутое удаление Напиште «Терминал»](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-terminal-ru.png)
 
 5. Откройте найденную программу и введите команду — `defaults delete com.adguard.mac.vpn`.
 

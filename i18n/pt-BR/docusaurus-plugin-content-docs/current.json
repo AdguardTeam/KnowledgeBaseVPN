@@ -1,0 +1,50 @@
+{
+  "version.label": {
+    "message": "Próximo",
+    "description": "The label for version current"
+  },
+  "sidebar.sidebar.category.General": {
+    "message": "Geral",
+    "description": "The label for category General in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Public DNS": {
+    "message": "DNS público",
+    "description": "The label for category Public DNS in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Solving problems": {
+    "message": "Resolvendo problemas",
+    "description": "The label for category Solving problems in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Private DNS": {
+    "message": "DNS privado",
+    "description": "The label for category Private DNS in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Miscellaneous": {
+    "message": "Diversos",
+    "description": "The label for category Miscellaneous in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.AdGuard VPN for Android": {
+    "message": "AdGuard VPN para Android",
+    "description": "The label for category AdGuard VPN for Android in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.AdGuard VPN for iOS": {
+    "message": "AdGuard VPN para iOS",
+    "description": "The label for category AdGuard VPN for iOS in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.AdGuard VPN for Windows": {
+    "message": "AdGuard VPN para Windows",
+    "description": "The label for category AdGuard VPN for Windows in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.AdGuard VPN for Mac": {
+    "message": "AdGuard VPN para Mac",
+    "description": "The label for category AdGuard VPN for Mac in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.AdGuard VPN browser extensions": {
+    "message": "Extensão para navegador do AdGuard VPN",
+    "description": "The label for category AdGuard VPN browser extensions in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.solving-problems": {
+    "message": "resolvendo problemas",
+    "description": "The label for category solving-problems in sidebar sidebar"
+  }
+}

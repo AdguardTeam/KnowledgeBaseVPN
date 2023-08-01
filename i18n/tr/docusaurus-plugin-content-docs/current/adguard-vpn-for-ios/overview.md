@@ -58,14 +58,14 @@ Burada, farklı seçenekleri kullanarak iOS için AdGuard VPN'i yapılandırabil
 
 iOS için AdGuard VPN iki modda çalışabilir: **Genel** ve **Entegre**.
 
-**Genel** modda, hız ve güvenliğin en iyi kombinasyonunu sağlayan [AdGuard VPN protokolü](../general/adguard-vpn-protocol.mdx) kullanılır. Bu modda, AdGuard VPN, [iOS için AdGuard Reklam Engelleyici](https://kb.adguard.com/en/ios) ile birlikte çalışamaz.
+**Genel** modda, hız ve güvenliğin en iyi kombinasyonunu sağlayan [AdGuard VPN protokolü](../general/adguard-vpn-protocol.mdx) kullanılır. Bu modda, AdGuard VPN, [iOS için AdGuard Reklam Engelleyici](https://adguard.com/kb/adguard-for-ios/overview/) ile birlikte çalışamaz.
 
 **Entegre** modda, AdGuard VPN, bunun yerine IPSec protokolünü kullanarak iOS için AdGuard reklam engelleyici ile aynı anda çalışabilecektir. Bu protokol de güvenlidir, ancak biraz daha yavaş ve tespit edilmesi daha kolaydır. Entegrasyonu ayarlamak için herhangi bir ek işlem gerçekleştirmeniz gerekmez: her iki uygulamayı da yüklemeniz ve bu moda geçmeniz yeterlidir.
 > **Entegre** modda, İstisnalar özelliğini kullanamayacağınızı veya bir DNS sunucusu seçemeyeceğinizi unutmayın.
 
 ### DNS sunucusu
 
-Alan adı sisteminin (DNS) amacı, site adlarını tarayıcıların anlayabileceği bir şeye, yani IP adreslerine çevirmektir. Bu iş DNS sunucuları tarafından gerçekleştirilir. iOS için AdGuard VPN, her biri kendi özel niteliklerine sahip birkaç DNS sunucusu arasında bir seçim sunar. Örneğin, AdGuard DNS reklamları kaldırır ve cihazınızı izlemeye karşı korurken AdGuard DNS Family Protection, AdGuard DNS'nin işlevlerini Güvenli Arama ve yetişkinlere yönelik içerik engelleme ile birleştirir. Farklı DNS sağlayıcılarının DNS sunucuları da konumunuza, İSS'nize ve diğer faktörlere bağlı olarak daha hızlı veya daha yavaş çalışabilir. Sizin için en uygun olanı seçin. [Bu makalede](https://kb.adguard.com/en/general/dns-filtering#what-is-dns) DNS ve özellikleri hakkında daha fazla bilgi edinebilirsiniz.
+Alan adı sisteminin (DNS) amacı, site adlarını tarayıcıların anlayabileceği bir şeye, yani IP adreslerine çevirmektir. Bu iş DNS sunucuları tarafından gerçekleştirilir. iOS için AdGuard VPN, her biri kendi özel niteliklerine sahip birkaç DNS sunucusu arasında bir seçim sunar. Örneğin, AdGuard DNS reklamları kaldırır ve cihazınızı izlemeye karşı korurken AdGuard DNS Family Protection, AdGuard DNS'nin işlevlerini Güvenli Arama ve yetişkinlere yönelik içerik engelleme ile birleştirir. Farklı DNS sağlayıcılarının DNS sunucuları da konumunuza, İSS'nize ve diğer faktörlere bağlı olarak daha hızlı veya daha yavaş çalışabilir. Sizin için en uygun olanı seçin. [Bu makalede](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns) DNS ve özellikleri hakkında daha fazla bilgi edinebilirsiniz.
 
 ![DNS sunucusu ekranı](https://cdn.adguardvpn.com/content/kb/vpn/ios/dns-server.png)
 
@@ -81,7 +81,7 @@ Uygulamanın sistem varsayılanı, koyu veya açık temasını seçebilirsiniz (
 
 *Gelişmiş ayarlarda* iki bölüm bulabilirsiniz — Günlük kayıt düzeyi ve Tanılama bilgileri. İlk seçenekle ilgili olarak, destek ekibimiz tarafından talep edilmedikçe Genişletilmiş günlük kayıt düzeyinin etkinleştirilmesi tavsiye edilmez. Herhangi bir teknik sorun olması durumunda tanılama bilgileri, cihaz ve bağlantılarla ilgili yerel olarak saklanan teknik bilgiler (IP adresi, ID, ping, vb.) tarafımıza gönderilebilir.
 
-## Hızlı İşlemler (iOS 13 veya sonraki sürümlerde mevcuttur)
+## Hızlı Eylemler (iOS 13 veya sonraki sürümlerde mevcuttur)
 
 Bu özelliğe erişmek için uygulama simgesine dokunup basılı tutun, ardından parmağınızı kaldırın. Hızlı Eylemlerin bir listesini göreceksiniz: şu anda seçili sunucuya Bağlan ve Bağlantıyı kes, Yeni bir sunucu konumu seçmek için konum seç. Elbette, uygulamayı kaldırmak veya uygulama simgesini hareket ettirmek gibi tüm varsayılan işlemlere de erişebilirsiniz.
 

@@ -5,7 +5,7 @@ sidebar_position: 2
 
 ## Sistem gereksinimleri
 
-**İşletim sistemi sürümü**: macOS 10.12 (64 bit) veya üstü
+**İşletim sistemi sürümü**: macOS 10.15 (64-bit) veya üstü
 
 **RAM**: en az 2 GB
 
@@ -28,7 +28,7 @@ sidebar_position: 2
 
 5. Ardından *Devam et* ve *Kur* öğesine tıklayın.
 
-![Devam et öğesine tıklayın](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-install-2-en.png)
+![Devam et öğesine tıklayın](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/.mac-install-2-en~imageoptim.png)
 
 ![Yükle öğesine tıklayın](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-install-3-en.png)
 

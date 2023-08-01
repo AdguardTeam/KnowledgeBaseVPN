@@ -19,9 +19,9 @@ sidebar_position: 3
 
 ## 기사 번역 {#translate-adguard}
 
-[Crowdin 플랫폼](https://crowdin.com/project/adguard-vpn-knowledge-base)에서 지식 창고의 기존 기사를 번역할 수 있습니다. Crowdin의 번역 및 작업에 대한 자세한 내용은 AdGuard 광고 차단기의 [지식 창고 기사](https://kb.adguard.com/en/general/adguard-translations)에서 확인할 수 있습니다.
+[Crowdin 플랫폼](https://crowdin.com/project/adguard-vpn-knowledge-base)에서 지식 창고의 기존 기사를 번역할 수 있습니다. Crowdin 사용 방법에 대한 자세한 내용은 [AdGuard 광고 차단기의 지식 창고 기사](https://adguard.com/kb/miscellaneous/contribute/translate/program/)에서 확인할 수 있습니다.
 
-AdGuard VPN 지식 창고에서 기사를 번역하는 동안 번역에 특별한 주의를 기울여야 하는 복수형이 포함된 문자열을 보게 될 것입니다. 또 [다른 기사](https://kb.adguard.com/en/miscellaneous/plurals)에서는 복수형 문자열을 번역할 때 발생할 수 있는 어려움에 대해 자세히 설명하고, Crowdin 플랫폼에서 작업하는 방법에 대해 자세히 설명했습니다.
+AdGuard VPN 지식 창고에서 기사를 번역하는 동안 번역에 특별한 주의를 기울여야 하는 복수형이 포함된 문자열을 보게 될 것입니다. [In a separate article](https://adguard.com/kb/miscellaneous/contribute/translate/plural-forms/), we described in detail the difficulties that can arise when translating strings with plural forms, and gave extensive instructions on how to work with them on the Crowdin platform.
 
 ## Github의 기존 이슈에 대한 작업
 

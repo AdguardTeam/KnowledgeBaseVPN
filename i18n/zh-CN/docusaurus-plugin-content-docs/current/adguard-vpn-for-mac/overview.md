@@ -7,7 +7,7 @@ AdGuard VPN Mac版是一个桌面 VPN 服务。 AdGuard VPN 与 AdGuard 广告�
 
 请注意：**登录 AdGuard 账号后，您才可以运行 AdGuard VPN Mac版**。 用户可以用 AdGuard 账号登录，也可以通过其他账号登录，即通过 Apple、Google 或 Facebook 登录。 请确保您的其他账号与 AdGuard 账号绑定到同一个电子邮件地址。 如果用户的 AdGuard 账号中有合适的订阅，订阅将在桌面应用程序上自动激活。 还没有 AdGuard 账号？ 请[点击这里](https://auth.adguard.com/registration.html)建立账号。
 
-> 适用于 Mac 的 AdGuard VPN 支持 macOS Sierra (10.12) 以上的 macOS 版本。
+> 适用于 Mac 的 AdGuard VPN 支持 macOS Sierra (10.15) 以上的 macOS 版本。
 
 ## 主界面
 
@@ -44,7 +44,7 @@ AdGuard VPN Mac版是一个桌面 VPN 服务。 AdGuard VPN 与 AdGuard 广告�
 
 ![支持屏幕](https://cdn.adguardvpn.com/content/kb/vpn/mac/support_en.png)
 
-第三个标签是*支持*。 在[常见问题解答](https://adguard-vpn.com/en/welcome.html#faq)或[知识库](/intro.md) 部分中查找任何问题的答案，如果您晕倒问题，请报告错误，或[在任何平台上讨论 AdGuard](https://adguard.com/en/discuss.html)。 请随时[留下有关我们服务](https://surveys.adguard.com/en/vpn_mac/form.html)的反馈意见，我们将不胜感激。
+第三个标签是*支持*。 在[常见问题解答](https://adguard-vpn.com/welcome.html#faq)或[知识库](/intro.md) 部分中查找任何问题的答案，如果您晕倒问题，请报告错误，或[在任何平台上讨论 AdGuard](https://adguard.com/discuss.html)。 请随时[留下有关我们服务](https://surveys.adguard.com/vpn_mac/form.html)的反馈意见，我们将不胜感激。
 
 ## 设置
 

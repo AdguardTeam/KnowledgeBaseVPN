@@ -303,7 +303,7 @@
     "description": "String used for license agreement text in sticky bar"
   },
   "sticky_bar.btn.baloon.text.link": {
-    "message": "Лицензионное соглашение",
+    "message": "Лицензионного соглашения",
     "description": "The label for the link to license agreement"
   },
   "sticky_bar.btn.text.download": {
@@ -311,7 +311,7 @@
     "description": "Sticky bar btn text with label Download"
   },
   "sticky_bar.btn.text.ios": {
-    "message": "Google Play",
+    "message": "App Store",
     "description": "Sticky bar btn text with label App Store"
   },
   "sticky_bar.btn.text.android": {

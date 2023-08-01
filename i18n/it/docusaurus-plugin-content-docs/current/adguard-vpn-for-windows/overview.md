@@ -5,7 +5,7 @@ sidebar_position: 1
 
 ## Che cos'è AdGuard VPN per Windows?
 
-Una VPN, acronimo di "virtual private network", è un servizio che rende sicura la tua connessione Internet e ti aiuta a rimanere anonimo online. Come funziona? Ogni volta che visiti un sito web senza utilizzare una VPN, il tuo ISP lo vede. Sa chi sei e cosa stai cercando e può raccogliere e vendere questi dati. A sua volta, il sito web a cui sei arrivato può anche tracciare la tua attività. Quando abiliti un'applicazione VPN, reindirizza il tuo traffico attraverso un tunnel crittografato a un server VPN remoto, garantendo la tua privacy: l'ISP non sa da dove hai inviato una richiesta e il sito non sa da dove provieni.
+Una VPN, acronimo di "Rete Privata Virtuale", è un servizio che rende sicura la tua connessione a Internet e ti aiuta a rimanere anonimo online. Come funziona? Ogni volta che visiti un sito web senza utilizzare una VPN, il tuo ISP lo vede. Sa chi sei e cosa stai cercando e può raccogliere e vendere questi dati. A sua volta, il sito web a cui sei arrivato può anche tracciare la tua attività. Quando abiliti un'applicazione VPN, reindirizza il tuo traffico attraverso un tunnel crittografato a un server VPN remoto, garantendo la tua privacy: l'ISP non sa da dove hai inviato una richiesta e il sito non sa da dove provieni.
 
 **Cosa fa AdGuard VPN per Windows**
 
@@ -19,13 +19,13 @@ AdGuard VPN per Windows ha molti vantaggi, quindi abbiamo dedicato [un articolo 
 
 ## Come iniziare a utilizzare AdGuard VPN per Windows
 
-Per iniziare a utilizzare AdGuard VPN per Windows, scaricare l'applicazione dal [nostro sito web](https://adguard-vpn.com/welcome.html). L'installazione non richiede più di un minuto e vedrai una finestra di dialogo in cui dovrai selezionare almeno una casella applicando i termini dell'Accordo per gli utenti e l'Informativa sulla privacy. E sta a te decidere se vuoi che AdGuard raccolga dati anonimi sull'utilizzo della tua app. Alla fine il programma ti chiederà di accedere, tramite il [account AdGuard](https://auth.adguard.com/login.html) o tramite social network (Apple, Google, Facebook). È tutto, ora puoi utilizzare AdGuard VPN per Windows.
+Per iniziare a utilizzare AdGuard VPN per Windows, scaricare l'applicazione dal [nostro sito web](https://adguard-vpn.com/welcome.html). L'installazione non richiede più di un minuto e vedrai una finestra, in cui dovrai spuntare almeno una casella, applicando i termini dell'Accordo con gli utenti e la Politica sulla Privacy. E sta a te decidere se vuoi che AdGuard raccolga dati anonimi sull'utilizzo della tua app. Alla fine il programma ti chiederà di accedere, tramite il [account AdGuard](https://auth.adguard.com/login.html) o tramite social network (Apple, Google, Facebook). È tutto, ora puoi utilizzare AdGuard VPN per Windows.
 
 ## Schermata principale
 
 ![Pagina iniziale di AdGuard VPN per Windows](https://cdn.adguardvpn.com/content/release_notes/vpn/windows/v2.0/new_main_window_en.png)
 
-L'elemento più evidente nella **Schermata iniziale** è il pulsante di connessione/disconnessione di AdGuard VPN. Qui è possibile vedere la [modalità](#exclusions) in cui l'applicazione è in esecuzione e, sotto, il server selezionato. Sul lato destro dello schermo troverai tutte le posizioni disponibili. La posizione più veloce, cioè quella con il ping più breve, viene mostrata in cima all'elenco.
+L'elemento più evidente nella **Schermata iniziale** è il pulsante di connessione/disconnessione di AdGuard VPN. Sopra il bottone è possibile vedere la [modalità](#exclusions) in cui l'applicazione è in esecuzione e, sotto è possibile vedere il server selezionato. Sul lato destro dello schermo troverai tutte le posizioni disponibili. La posizione più veloce, cioè quella con il ping più basso, è mostrata in cima all'elenco.
 
 Nella parte superiore dello schermo è presente un pannello di navigazione con quattro schede: **Pagina iniziale**, **Esclusioni**, **Supporto**, **Impostazioni**.
 
@@ -63,13 +63,13 @@ La quarta scheda della barra delle schede dell'applicazione contiene sezioni che
 
 Nella sezione **Impostazioni app** è possibile impostare la lingua dell'app e attivare **Kill Switch**, che blocca l'accesso a Internet se la connessione VPN cade. Questo è necessario per evitare che gli intrusi possano accedere ai vostri dati se vi trovate senza protezione VPN mentre siete connessi a una rete Wi-Fi o mobile pubblica.
 
-È inoltre possibile attivare le seguenti funzioni con un solo clic: **Aggiornamento automatico**, **Avvio di AdGuard VPN all'avvio di Windows**, **Connessione automatica all'avvio dell'app**, e consentire ad AdGuard di raccogliere dati anonimi sull'utilizzo dell'app in modo che la team AdGuard riceve l'informazione sugli problemi potenziali dell'utilizzo. Qui puoi anche cambiare il tema in **Chiaro**, **Sistema** o **Scuro**.
+Inoltre, puoi attivare le seguenti funzionalità con un solo click: **Aggiornamento Automatico**, **Avvia AdGuard VPN all'avvio di Windows**, **Connessione automatica all'avvio dell'app** e consenti ad AdGuard di raccogliere i dati anonimizzati di utilizzo dell'app, così che il team di AdGuard ottenga le informazioni sui potenziali problemi di utilizzabilità. Qui puoi anche cambiare il tema in **Chiaro**, **Sistema** o **Scuro**.
 
 Nella parte inferiore della pagina sono presenti due sezioni: **Server DNS** e **Impostazioni avanzate**.
 
 #### Server DNS
 
-La scheda **Server DNS** consente di aggiungere il tuo proprio server DNS. Puoi impostare un server DNS da qualsiasi provider. Consigliamo di aggiungere [AdGuard DNS](https://kb.adguard.com/en/general/dns-providers#adguard-dns), un server in grado di proteggere da pubblicità, tracciamento e phishing oltre alle funzioni standard.
+La scheda **Server DNS** consente di aggiungere il tuo proprio server DNS. Puoi impostare un server DNS da qualsiasi provider. Consigliamo di aggiungere [AdGuard DNS](https://adguard-dns.io/kb/general/dns-providers/#adguard-dns), un server in grado di proteggere da pubblicità, tracciamento e phishing oltre alle funzionalità standard.
 
 #### Impostazioni avanzate
 
@@ -99,7 +99,7 @@ AdGuard VPN non solo cripta il traffico dei propri browser, ma anche quello dell
 
 ### Informazioni
 
-La scheda **Informazioni** fornisce informazioni sulla versione corrente di AdGuard VPN per Windows, un pulsante di aggiornamento e url utili: sito web AdGuard VPN, forum, EULA e Informativa sulla privacy.
+La scheda **Info** fornisce le informazioni sulla versione corrente di AdGuard VPN per Windows, un pulsante per l'aggiornamento e link al sito web di AdGuard VPN, forum, EULA, e Politica sulla Privacy.
 
 ### Account
 

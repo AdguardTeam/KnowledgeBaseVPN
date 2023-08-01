@@ -5,7 +5,7 @@ sidebar_position: 1
 
 ## 什么是 Windows版 AdGuard VPN？
 
-VPN 是“虚拟专用网络”的缩写，该服务可保证您的互联网连接安全，并可以使您能匿名上网。 它是如何工作的呢？ 当您不使用 VPN 访问网页时，您的 ISP（网络业务提供商）会检测到您。 他们会知道您在哪个页面以及您的搜索内容，还会收集出售这些数据。 不仅如此，您访问的网站也可以跟踪您的活动。 当您启用 VPN 应用程序后，它会通过加密隧道将您的流量重定向到远程 VPN 服务器，从而保护您的隐私。这样 ISP 就不会知道您向何处发送请求，站点也不会知道您来自哪里。
+A VPN, acronym for "Virtual Private Network", is a service that makes your Internet connection safe and helps you stay anonymous online. 它是如何工作的呢？ 当您不使用 VPN 访问网页时，您的 ISP（网络业务提供商）会检测到您。 他们会知道您在哪个页面以及您的搜索内容，还会收集出售这些数据。 不仅如此，您访问的网站也可以跟踪您的活动。 当您启用 VPN 应用程序后，它会通过加密隧道将您的流量重定向到远程 VPN 服务器，从而保护您的隐私。这样 ISP 就不会知道您向何处发送请求，站点也不会知道您来自哪里。
 
 **Windows版 AdGuard VPN 工作原理**
 
@@ -19,13 +19,13 @@ Windows 版 AdGuard VPN 有很多优点，为此我们专门[写了一篇文章]
 
 ## 如何开始使用 Windows 版 AdGuard VPN
 
-要开始使用 Windows版 AdGuard VPN，请从[我们的网站](https://adguard-vpn.com/welcome.html)下载此应用程序。 安装时间不会超过1分钟，之后您会看到一个对话框，您至少要勾选一个框来实施用户协议和隐私政策的条款。 您可以决定是否允许 AdGuard 收集您应用使用情况的匿名数据。 最后，安装程序会要求您通过 [AdGuard 账号](https://auth.adguard.com/login.html)或社交平台（Apple、Google、Facebook）登录。 就这样，您现在可以使用 Windows 版 AdGuard VPN 了。
+要开始使用 Windows版 AdGuard VPN，请从[我们的网站](https://adguard-vpn.com/welcome.html)下载此应用程序。 The installation takes no more than a minute — and you'll see a dialog window where you'll need to check at least one box applying the terms of the User Agreement and the Privacy policy. 您可以决定是否允许 AdGuard 收集您应用使用情况的匿名数据。 最后，安装程序会要求您通过 [AdGuard 账号](https://auth.adguard.com/login.html)或社交平台（Apple、Google、Facebook）登录。 就这样，您现在可以使用 Windows 版 AdGuard VPN 了。
 
 ## 主界面
 
 ![AdGuard VPN Windows版主界面](https://cdn.adguardvpn.com/content/release_notes/vpn/windows/v2.0/new_main_window_en.png)
 
-**主屏幕**上最引人注目的项目是 AdGuard VPN 连接/断开按钮。 在下面，用户可以看到应用程序运行的[模式](#exclusions)，在下面也显示选定的服务器。 在屏幕右侧，您可以找到所有可用的服务器位置。 最快的服务器位置，即具有最小延时的位置，显示在列表的顶部。
+**主屏幕**上最引人注目的项目是 AdGuard VPN 连接/断开按钮。 按钮上面用户可以看到应用程序正在运行的[模式](#exclusions)，在下面显示连接的服务器。 在屏幕右侧，您可以找到所有可用的服务器位置。 The fastest location, i.e. the one with the lowest ping, is shown at the top of the list.
 
 在屏幕顶部有一个带有四个标签的导航面板： 「**主页**」、「**排除项**」、「**支持**」、「**设置**」。
 
@@ -63,13 +63,13 @@ Windows 版 AdGuard VPN 有很多优点，为此我们专门[写了一篇文章]
 
 在**应用程序设置**里，用户可以设置应用程序的语言，也可以启用「**Kill Switch**」，如果您的 VPN 连接失败，本功能将阻止对互联网的访问。 如果您发现自己在连接到公共 Wi-Fi 或移动网络时没有 VPN 保护，则需要断开连接防止黑客窃取您的个人数据。
 
-您还可以一键启动以下功能：「**自动更新**」、「**随 Windows 开机启动 AdGuard VPN**」、「**应用开启时自动连接**」，以及「允许 AdGuard 收集与应用程序使用情况有关的匿名数据」，以便 AdGuard 团队获得潜在可用性问题的信息。 在这里您还可以将主题更改为 「**浅色**」，「**跟随系统**」，或「**深色**」。
+You can also activate the following features with a single click: **Auto-update**, **Launch AdGuard VPN at Windows startup**, **Auto-connect on app launch**, and allow AdGuard to collect anonymized app usage data so that the AdGuard team gets the info on potential usability issues. 在这里您还可以将主题更改为 「**浅色**」，「**跟随系统**」，或「**深色**」。
 
 页面底部有两个部分：「**DNS 服务器**」和「**高级设置**」。
 
 #### DNS 服务器
 
-「**DNS 服务器**」标签允许用户添加自己的 DNS 服务器。 用户可以设置任何提供商的 DNS 服务器。 我们建议添加 [AdGuard DNS](https://kb.adguard.com/en/general/dns-providers#adguard-dns)。这是一个除了标准功能外还可以拦截广告、跟踪和网络钓鱼的服务器。
+「**DNS 服务器**」标签允许用户添加自己的 DNS 服务器。 用户可以设置任何提供商的 DNS 服务器。 We recommend adding [AdGuard DNS](https://adguard-dns.io/kb/general/dns-providers/#adguard-dns), a server that can protect against advertising, tracking, and phishing, in addition to the standard functions.
 
 #### 高级设置
 
@@ -99,7 +99,7 @@ AdGuard VPN 不仅加密浏览器的流量，还加密您计算机上安装的�
 
 ### 关于
 
-「**关于程序**」的标签提供有关 Windows版 AdGuard VPN 当前版本的信息、更新按钮和 AdGuard VPN 官网、论坛、EULA（最终用户许可协议）和隐私政策的链接。
+「**关于程序**」的标签提供有关当前版本的 Windows版 AdGuard VPN 信息、更新按钮和 AdGuard VPN 官网、论坛、EULA（最终用户许可协议）和隐私政策的链接。
 
 ### 账号
 

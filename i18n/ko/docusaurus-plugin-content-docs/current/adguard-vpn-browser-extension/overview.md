@@ -3,14 +3,14 @@ title: 기능 개요
 sidebar_position: 1
 ---
 
-AdGuard VPN 확장 프로그램은 Chrome, Firefox 및 Edge에서 사용할 수 있습니다. 사용자 인터페이스와 기능은 브라우저마다 다르지 않으므로 아래의 기능 개요는 모든 브라우저의 AdGuard VPN 확장과 관련이 있습니다.
+AdGuard VPN Browser extension is available for Chrome, Firefox, Opera, and Edge. 사용자 인터페이스와 기능은 브라우저마다 다르지 않으므로 아래의 기능 개요는 모든 브라우저의 AdGuard VPN 확장과 관련이 있습니다.
 
 > AdGuard VPN에 로그인한 경우에만 확장 프로그램을 사용할 수 있습니다. AdGuard 계정이나 Google, Facebook 또는 Apple을 통해 로그인이 가능합니다. Google, Facebook 또는 Apple을 통해 로그인하는 경우 이 계정이 AdGuard 계정과 동일한 이메일 주소에 연결되어 있는지 확인하십시오. [AdGuard VPN 구독](/general/subscription.md)이 있는 경우, AdGuard VPN 확장 프로그램에서 자동으로 활성화됩니다. 아직 AdGuard 계정이 없으신가요? [여기](https://auth.adguard.com/registration.html)에서 만들 수 있습니다.
 
-AdGuard VPN 확장 프로그램을 관리하려면 다음 중 하나를 수행하세요.
+To manage your AdGuard VPN Browser extension:
 
-* 브라우저 패널에서 해당 아이콘을 클릭한 다음 세 개의 줄무늬를 클릭하고 *설정*을 선택합니다.
-* 브라우저의 *확장 프로그램 관리* 페이지로 이동하여 AdGuard VPN 설정을 입력합니다.
+* Either click its icon on the browser's panel, click the hamburger menu icon, and select *Settings*,
+* Or go to the *Manage extensions* page in your browser, click *Details* below *AdGuard VPN* and manage its settings from there.
 
 완료되면 왼쪽에 여러 탭이 표시됩니다.
 
@@ -20,9 +20,9 @@ AdGuard VPN 확장 프로그램을 관리하려면 다음 중 하나를 수행�
 
 ### DNS 서버 선택
 
-기본적으로 ISP에서 제공하는 [시스템 DNS 서버](https://kb.adguard.com/en/general/dns-filtering#what-is-dns)가 선택되지만 개인정보가 손상될 수 있습니다. AdGuard VPN 확장 프로그램을 사용하면 더 나은 속도와 보안을 제공하고 광고나 잠재적으로 위험한 도메인을 차단하는 DNS 서버를 선택할 수 있습니다. DNS 서버 이름 아래에 있는 간단한 설명은 사용할 서버를 결정하는 데 도움이 됩니다.
+기본적으로 ISP에서 제공하는 [시스템 DNS 서버](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns)가 선택되지만 개인정보가 손상될 수 있습니다. AdGuard VPN 확장 프로그램을 사용하면 더 나은 속도와 보안을 제공하고 광고나 잠재적으로 위험한 도메인을 차단하는 DNS 서버를 선택할 수 있습니다. DNS 서버 이름 아래에 있는 간단한 설명은 사용할 서버를 결정하는 데 도움이 됩니다.
 
-[다양한 공급자의 DNS 서버에 대해 자세히 알아보십시오](https://kb.adguard.com/ru/general/dns-providers).
+[다양한 공급자의 DNS 서버에 대해 자세히 알아보십시오](https://adguard-dns.io/kb/general/dns-providers/).
 
 ## 예외 목록
 

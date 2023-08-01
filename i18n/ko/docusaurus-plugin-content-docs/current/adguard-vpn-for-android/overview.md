@@ -73,7 +73,7 @@ AdGuard와의 *호환성 모드*가 활성화된 경우, AdGuard 광고 차단�
 
 ### DNS 서버
 
-DNS(Domain name system, [도메인 이름 시스템](https://kb.adguard.com/en/general/dns-filtering#what-is-dns))의 목적은 DNS 서버를 통해 웹 사이트 이름을 IP 주소로 변환하는 것입니다. IP 주소로 변환하는 것입니다. Android용 AdGuard VPN은 각각 특별한 품질을 가진 여러 DNS 서버를 제공합니다. 예를 들어, [AdGuard DNS](https://kb.adguard.com/en/dns/overview)는 광고를 제거하고 장치가 추적되지 않도록 보호하며 AdGuard DNS 자녀 보호는 AdGuard DNS, 세이프 서치 및 성인 콘텐츠 차단 기능을 결합합니다. 사용자 지정 DNS 서버를 추가하는 옵션도 있습니다.
+DNS(Domain name system, [도메인 이름 시스템](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns))의 목적은 DNS 서버를 통해 웹 사이트 이름을 IP 주소로 변환하는 것입니다. IP 주소로 변환하는 것입니다. Android용 AdGuard VPN은 각각 특별한 품질을 가진 여러 DNS 서버를 제공합니다. 예를 들어, [AdGuard DNS](https://adguard-dns.io/kb/)는 광고를 제거하고 기기가 추적되지 않도록 보호하며 AdGuard DNS 자녀 보호는 AdGuard DNS, 세이프 서치 및 성인 콘텐츠 차단 기능을 결합합니다. 사용자 지정 DNS 서버를 추가하는 옵션도 있습니다.
 
 ### 자동 보호
 
@@ -95,7 +95,7 @@ DNS(Domain name system, [도메인 이름 시스템](https://kb.adguard.com/en/g
 
 *고급 설정*에서 5개의 섹션을 찾을 수 있습니다. 상단의 스위치를 켜면 *프로그램을 개선*하는 데 도움이 됩니다. 이렇게 하면 AdGuard VPN이 충돌 보고서, 기술 및 상호 작용 데이터를 수집할 수 있기 때문입니다. 이 정보는 익명으로 처리됩니다.
 
-*작동 모드* 섹션에서는 VPN, 프록시 및 호환성 모드의 세 가지 옵션 중 하나를 선택할 수 있습니다. *VPN 모드*에서 모든 트래픽은 AdGuard VPN을 통해 자동으로 라우팅됩니다. *프록시 모드*(SOCKS5)가 켜져 있으면 AdGuard VPN은 다른 앱에서 트래픽을 라우팅하는 데 사용할 수 있는 로컬 프록시 서버를 실행합니다. 하고자 하시는 것을 확실히 알 때 이 옵션을 선택하세요. *호환성 모드*를 활성화하면 AdGuard VPN과 AdGuard 광고 차단기가 함께 작동할 수 있습니다.
+*작동 모드* 섹션에서는 VPN, 프록시 및 호환성 모드의 세 가지 옵션 중 하나를 선택할 수 있습니다. *VPN 모드*에서 모든 트래픽은 AdGuard VPN을 통해 자동으로 라우팅됩니다. When the *Proxy mode* (SOCKS5) is on, AdGuard VPN runs a local proxy server which can be used by other apps to route their traffic through it. 하고자 하시는 것을 확실히 알 때 이 옵션을 선택하세요. *호환성 모드*를 활성화하면 AdGuard VPN과 AdGuard 광고 차단기가 함께 작동할 수 있습니다.
 
 > 일부 AdGuard VPN 기능(DNS 서버 선택, 킬 스위치 및 자동 보호)은 *호환성 모드*에서 비활성화됩니다. 또한 애플리케이션 터널링을 관리하려면 AdGuard 광고 차단기 애플리케이션을 열어야 합니다.
 
@@ -106,4 +106,3 @@ DNS(Domain name system, [도메인 이름 시스템](https://kb.adguard.com/en/g
 ### 고객 지원
 
 *지원* 섹션에서 피드백을 남기거나, 버그를 신고하거나 지원 팀에 보낼 로그 및 시스템 정보를 내보낼 수 있습니다.
- 

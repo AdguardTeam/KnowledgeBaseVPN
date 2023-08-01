@@ -19,9 +19,9 @@ sidebar_position: 3
 
 ## 記事の翻訳 {#translate-adguard}
 
-ナレッジベースの既存記事の翻訳は、 [Crowdin platform](https://crowdin.com/project/adguard-vpn-knowledge-base)を使って行われています。 Crowdinの翻訳と作業に関するすべての詳細は、AdGuard広告ブロッカーのナレッジベースにある[専用記事](https://kb.adguard.com/en/general/adguard-translations)に記載されています。
+ナレッジベースの既存記事の翻訳は、 [Crowdin platform](https://crowdin.com/project/adguard-vpn-knowledge-base)を使って行われています。 All the details about translations and working with Crowdin can be found [in the dedicated article](https://adguard.com/kb/miscellaneous/contribute/translate/program/) of the AdGuard Ad Blocker Knowledge Base.
 
-AdGuard VPN ナレッジベースの記事を翻訳する際、複数形を含む文字列に遭遇することがありますが、複数形がいっぱいある言語の場合は特に注意して翻訳してください。 [別の記事](https://kb.adguard.com/ja/miscellaneous/plurals)で、複数形の文字列を翻訳する際に起こりうる困難について詳しく説明し、Crowdinプラットフォームでの作業方法について幅広く解説しています。
+AdGuard VPN ナレッジベースの記事を翻訳する際、複数形を含む文字列に遭遇することがありますが、複数形がいっぱいある言語の場合は特に注意して翻訳してください。 [In a separate article](https://adguard.com/kb/miscellaneous/contribute/translate/plural-forms/), we described in detail the difficulties that can arise when translating strings with plural forms, and gave extensive instructions on how to work with them on the Crowdin platform.
 
 ## Open issue（GitHub）の作業
 

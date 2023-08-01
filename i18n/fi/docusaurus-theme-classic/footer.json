@@ -25,7 +25,7 @@
   },
   "link.item.label.what_is_vpn": {
     "message": "Mikä on VPN",
-    "description": "The label of footer link with label=what_is_vpn linking to https://adguard-vpn.com/what-is-vpn.html"
+    "description": "The label of footer link with label=what_is_vpn linking to https://adguard-vpn.com/en/what-is-vpn.html"
   },
   "link.item.label.blog": {
     "message": "Blogi",
@@ -33,7 +33,7 @@
   },
   "link.item.label.discuss": {
     "message": "Keskustele",
-    "description": "The label of footer link with label=discuss linking to https://adguard.com/discuss.html"
+    "description": "The label of footer link with label=discuss linking to https://adguard-vpn.com/discuss.html"
   },
   "link.item.label.vpn_android": {
     "message": "AdGuard VPN Androidille",
@@ -51,13 +51,17 @@
     "message": "AdGuard VPN iOS:lle",
     "description": "The label of footer link with label=vpn_ios linking to https://adguard-vpn.com/ios/overview.html"
   },
+  "link.item.label.vpn_browser_ext": {
+    "message": "AdGuard VPN Selainlaajennus",
+    "description": "The label of footer link with label=vpn_browser_ext linking to https://adguard-vpn.com/browser-extension/overview.html"
+  },
   "link.item.label.support": {
     "message": "Tuki",
-    "description": "The label of footer link with label=support linking to https://adguard-vpn.com/support/support.html"
+    "description": "The label of footer link with label=support linking to https://adguard-vpn.com/support.html"
   },
   "link.item.label.how_to_install": {
     "message": "Miten AdGuard VPN asennetaan",
-    "description": "The label of footer link with label=how_to_install linking to https://kb.adguard.com/vpn/installation"
+    "description": "The label of footer link with label=how_to_install linking to /general/how-to-install/"
   },
   "link.item.label.faq": {
     "message": "UKK",
@@ -84,7 +88,7 @@
     "description": "The label of footer link with label=distribution linking to https://adguard.com/distribution.html"
   },
   "copyright": {
-    "message": "© AdGuard VPN, 2022",
+    "message": "© AdGuard VPN, 2023",
     "description": "The footer copyright"
   }
 }

@@ -5,7 +5,7 @@ sidebar_position: 1
 
 ## Was ist AdGuard VPN für Windows?
 
-Ein VPN, Akronym für „virtuelles privates Netzwerk“, ist ein Dienst, der Ihre Internetverbindung sicher macht und Ihnen hilft, online anonym zu bleiben. Wie funktioniert VPN? Jedes Mal, wenn Sie eine Website besuchen, ohne ein VPN zu verwenden, kann Ihr ISP dies sehen. Er weiß, wer Sie sind und wonach Sie suchen, und kann diese Daten sammeln und verkaufen. Auch die Website, die Sie besucht haben, kann Ihre Aktivitäten verfolgen. Wenn Sie eine VPN-App aktivieren, leitet sie Ihren Datenverkehr durch einen verschlüsselten Tunnel zu einem Remote-VPN-Server um, wodurch Ihre Privatsphäre geschützt wird — Der ISP weiß nicht, wohin Sie eine Anfrage gesendet haben, und die Website weiß nicht, woher Sie gekommen sind.
+Ein VPN, Akronym für „Virtuelles Privates Netzwerk“, ist ein Dienst, der Ihre Internetverbindung sicher macht und Ihnen hilft, online anonym zu bleiben. Wie funktioniert VPN? Jedes Mal, wenn Sie eine Website besuchen, ohne ein VPN zu verwenden, kann Ihr ISP dies sehen. Er weiß, wer Sie sind und wonach Sie suchen, und kann diese Daten sammeln und verkaufen. Auch die Website, die Sie besucht haben, kann Ihre Aktivitäten verfolgen. Wenn Sie eine VPN-App aktivieren, leitet sie Ihren Datenverkehr durch einen verschlüsselten Tunnel zu einem Remote-VPN-Server um, wodurch Ihre Privatsphäre geschützt wird — Der ISP weiß nicht, wohin Sie eine Anfrage gesendet haben, und die Website weiß nicht, woher Sie gekommen sind.
 
 **Was macht AdGuard VPN für Windows?**
 
@@ -61,7 +61,7 @@ Die vierte Registerkarte der Registerkartenleiste der App enthält Abschnitte, m
 
 ![App-Einstellungen](https://cdn.adguardvpn.com/content/release_notes/vpn/windows/v2.0/app_settings_en.png)
 
-Im Abschnitt **App-Einstellungen** können Sie die Sprache der App einstellen und auch **Kill Switch** aktivieren, der den Zugriff auf das Internet blockiert, wenn Ihre VPN-Verbindung abbricht. Dies ist erforderlich, um zu verhindern, dass Eindringlinge an Ihre Daten gelangen, wenn Sie sich ohne VPN-Schutz befinden, während Sie mit einem öffentlichen WLAN- oder Mobilfunk-Netz verbunden sind.
+Im Abschnitt **App-Einstellungen** können Sie die Sprache der App einstellen und auch **Kill Switch** aktivieren, der den Zugriff auf das Internet sperrt, wenn Ihre VPN-Verbindung abbricht. Dies ist erforderlich, um zu verhindern, dass Eindringlinge an Ihre Daten gelangen, wenn Sie sich ohne VPN-Schutz befinden, während Sie mit einem öffentlichen WLAN- oder Mobilfunk-Netz verbunden sind.
 
 Sie können auch die folgenden Funktionen mit einem einzigen Klick aktivieren: **Automatisch aktualisieren**, **AdGuard VPN zusammen mit Windows starten**, **Automatisch beim App-Start verbinden** und auch erlauben, anonymisierte App-Nutzungsdaten zu sammeln, damit das AdGuard-Team Informationen über potenzielle Probleme mit der Benutzerfreundlichkeit erhält. Hier können Sie auch das Thema ändern: **Hell**, **System**, oder **Dunkel**.
 
@@ -69,7 +69,7 @@ Unten auf der Seite befinden sich zwei Bereiche: **DNS-Server** und **Erweiterte
 
 #### DNS-Server
 
-Auf der Registerkarte **DNS-Server** können Sie Ihren eigenen benutzerdefinierten DNS-Server hinzufügen. Sie können einen DNS-Server von jedem Anbieter einrichten. Wir empfehlen, [AdGuard DNS](https://kb.adguard.com/en/general/dns-providers#adguard-dns) hinzuzufügen — zusätzlich zu den Standardfunktionen bietet er Schutz vor Werbung, Tracking und Phishing.
+Auf der Registerkarte **DNS-Server** können Sie Ihren eigenen benutzerdefinierten DNS-Server hinzufügen. Sie können einen DNS-Server von jedem Anbieter einrichten. Wir empfehlen, [AdGuard DNS](https://adguard-dns.io/kb/general/dns-providers/#adguard-dns) hinzuzufügen — zusätzlich zu den Standardfunktionen bietet er Schutz vor Werbung, Tracking und Phishing.
 
 #### Erweiterte Einstellungen
 

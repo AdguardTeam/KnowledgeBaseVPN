@@ -28,7 +28,7 @@ Mais, comme cela a déjà été dit, il peut y avoir des différences selon les 
 
 Sur Android 8 et versions ultérieures, il est également possible de prendre une capture d'écran en plaçant votre main verticalement le long du bord gauche ou droit de votre téléphone et en glissant depuis ce bord avec votre main touchant l'écran.
 
-Si cette méthode ne fonctionne pas, cochez *Paramètres* → *Fonctionnalités avancées* pour activer *Balayage de la paume pour capturer*.
+If this method doesn’t work, check *Settings* → *Advanced features* → *Motions and gestures* → enable *Palm swipe to capture*.
 
 En outre, vous pouvez toujours utiliser des applications spéciales pour prendre des captures d'écran sur vos appareils, par exemple — *Screenshot Easy*, *Screenshot Ultimate*, *Screenshot Snap*, etc.
 
@@ -72,7 +72,7 @@ Il existe également un programme dédié pour prendre des captures d'écran app
 
 En outre, vous pouvez également essayer d'utiliser des applications différentes pour prendre des captures d'écran sur votre ordinateur, comme **PicPick**, **Nimbus Screenshot**, **Screenshot Captor**, **Snipaste**, **Monosnap**, etc.
 
-### MacOS
+### macOS
 
 Pour prendre une capture d'écran sur un appareil Mac, utilisez la combinaison suivante :
 

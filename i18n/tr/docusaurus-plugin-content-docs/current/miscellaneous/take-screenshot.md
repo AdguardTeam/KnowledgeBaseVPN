@@ -28,7 +28,7 @@ Ancak, daha önce de söylendiği gibi, belirli bir cihaza bağlı olarak farkl�
 
 Android 8 ve sonraki sürümlerde, elinizi telefonunuzun sol veya sağ kenarına dikey olarak yerleştirerek ve ekrana dokunurken o kenardan kaydırarak ekran görüntüsü alma olanağı da vardır.
 
-Bu yöntem işe yaramazsa, *Ayarlar* → *Gelişmiş* özellikleri kontrol ederek *Avuç içi kaydırarak yakalama* özelliğini etkinleştirin.
+Bu yöntem işe yaramazsa, *Ayarlar* → *Gelişmiş özellikler* → *Hareketler ve işaretler* → *Yakalamak için avuç içi kaydırma* öğesini etkinleştir seçeneğini kontrol edin.
 
 Ayrıca, cihazlarınızda ekran görüntüsü almak için her zaman özel uygulamaları kullanabilirsiniz, örneğin — *Ekran Görüntüsü Kolay*, *Screenshot Ultimate*, *Screenshot Snap*, vb.
 
@@ -72,7 +72,7 @@ Bilgisayarınızın standart programları arasında Başlat menüsünden bulabil
 
 Ayrıca, bilgisayarınızda ekran görüntüsü almak için **PicPick**, **Nimbus Screenshot**, **Screenshot Captor**, **Snipaste**, **Monosnap**, vb. gibi farklı uygulamaları kullanmayı da deneyebilirsiniz.
 
-### MacOS
+### macOS
 
 Mac'te ekran görüntüsü almak için aşağıdaki düğme kombinasyonunu kullanın:
 

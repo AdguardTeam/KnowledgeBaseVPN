@@ -1,12 +1,12 @@
 ---
-title: 'Como instalar o AdGuard VPN'
+title: 'How to install AdGuard VPN'
 sidebar_position: 3
 ---
 
-Dependendo de qual aplicativo AdGuard VPN ou extensão de navegador você deseja instalar, siga um destes links para encontrar o artigo relevante:
+Depending on which AdGuard VPN app or browser extension you want to install, follow one of these links to find the relevant article:
 
-* [AdGuard VPN para Android](/adguard-vpn-for-android/installation.md)
-* [AdGuard VPN para iOS](/adguard-vpn-for-ios/installation.md)
-* [AdGuard VPN para Windows](/adguard-vpn-for-windows/installation.md)
-* [AdGuard VPN para Mac](/adguard-vpn-for-mac/installation.md)
-* [Extensão para navegador do AdGuard VPN](/adguard-vpn-browser-extension/installation.md)
+* [AdGuard VPN for Android](/adguard-vpn-for-android/installation.md)
+* [AdGuard VPN for iOS](/adguard-vpn-for-ios/installation.md)
+* [AdGuard VPN for Windows](/adguard-vpn-for-windows/installation.md)
+* [AdGuard VPN for Mac](/adguard-vpn-for-mac/installation.md)
+* [AdGuard VPN Browser extension](/adguard-vpn-browser-extension/installation.md)

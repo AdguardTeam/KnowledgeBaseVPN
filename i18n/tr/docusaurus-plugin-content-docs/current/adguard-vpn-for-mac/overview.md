@@ -7,7 +7,7 @@ Mac için AdGuard VPN, bir masaüstü VPN hizmetidir. AdGuard VPN, AdGuard Rekla
 
 **AdGuard hesabınıza giriş yapmadıkça Mac için AdGuard VPN'i kullanamayacağınızı** unutmayın. AdGuard hesabınızla veya harici bir hesapla, yani Apple, Google veya Facebook aracılığıyla giriş yapabilirsiniz. Harici hesabınızın AdGuard hesabınızla aynı e-posta adresine bağlı olduğundan emin olun. AdGuard hesabınızda uygun bir abonelik varsa, masaüstü uygulamasında otomatik olarak etkinleştirilecektir. Henüz bir AdGuard hesabınız yok mu? [Buradan](https://auth.adguard.com/registration.html) oluşturun.
 
-> Mac için AdGuard VPN, şu anda macOS Sierra'dan (10.12) başlayan macOS sürümlerinde desteklenmektedir.
+> Mac için AdGuard VPN, şu anda macOS Catalina'dan (10.15) başlayan macOS sürümlerinde desteklenmektedir.
 
 ## Ana ekran
 
@@ -44,7 +44,7 @@ Ayrıca, hazır istisna listeleri, AdGuard VPN'in kurulu olduğu diğer cihazlar
 
 ![Destek ekranı](https://cdn.adguardvpn.com/content/kb/vpn/mac/support_en.png)
 
-Üçüncü sekme *Destek* ekranıdır. [SSS'de](https://adguard-vpn.com/en/welcome.html#faq) veya [Bilgi tabanı](/intro.md) bölümlerinde tüm soruların yanıtlarını bulun, bir hatayla karşılaşırsanız hata bildirin veya [herhangi bir platformda AdGuard'ı tartışın](https://adguard.com/en/discuss.html). Ve [ürünümüz hakkında geri bildirim bırakmaktan](https://surveys.adguard.com/en/vpn_mac/form.html) çekinmeyin, bunu takdir ediyoruz.
+Üçüncü sekme *Destek* ekranıdır. [SSS'de](https://adguard-vpn.com/welcome.html#faq) veya [Bilgi tabanı](/intro.md) bölümlerinde tüm soruların yanıtlarını bulun, bir hatayla karşılaşırsanız hata bildirin veya [herhangi bir platformda AdGuard'ı tartışın](https://adguard.com/discuss.html). Ve [ürünümüz hakkında geri bildirim bırakmaktan](https://surveys.adguard.com/vpn_mac/form.html) çekinmeyin, bunu takdir ediyoruz.
 
 ## Ayarlar
 

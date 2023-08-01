@@ -5,7 +5,7 @@ sidebar_position: 2
 
 ## Požadavky na systém
 
-**Verze operačního systému**: macOS 10.12 (64 bitů) nebo vyšší
+**Verze operačního systému**: macOS 10.15 (64 bitů) nebo vyšší
 
 **RAM**: alespoň 2 GB
 
@@ -28,7 +28,7 @@ sidebar_position: 2
 
 5. Poté klikněte na *Pokračovat* a *Nainstalovat*.
 
-![Kliknout na Pokračovat](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-install-2-en.png)
+![Kliknout na Pokračovat](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/.mac-install-2-en~imageoptim.png)
 
 ![kliknout na Instalovat](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-install-3-en.png)
 

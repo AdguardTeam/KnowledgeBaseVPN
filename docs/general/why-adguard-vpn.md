@@ -41,7 +41,7 @@ With desktop apps and browser extensions this goes without saying — there’s 
 
 With mobile devices, on the other hand, it’s not that simple. In the vast majority of cases, two VPN-based apps will not work together, just because certain OS-induced limitations exist that prevent that from happening, both on Android and iOS.
 
-However, we managed to find a solution to befriend AdGuard VPN and AdGuard Ad Blocker. When you have both AdGuard apps installed on one device simultaneously, they will automatically become compatible without any input required from you. This is a unique opportunity to take advantage of two sets of features, which you would normally have to choose between.
+However, we managed to find a solution to befriend AdGuard VPN and AdGuard Ad Blocker. When you have both AdGuard apps installed on one device, they will automatically become compatible without any input required from you. This is a unique opportunity to take advantage of two sets of features, which you would normally have to choose between.
 
 ## 6. QUIC support
 

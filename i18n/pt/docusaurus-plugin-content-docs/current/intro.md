@@ -1,83 +1,94 @@
 ---
-title: Visão geral do AdGuard VPN
+title: AdGuard VPN Overview
 sidebar_position: 1
 slug: /
 ---
 
-## O que é uma VPN e por que você precisa de uma?
+## What is a VPN and why do you need one?
 
-Uma VPN permite que você crie uma conexão segura com outra rede na Internet.
+A VPN allows you to create a secure connection to another network on the Internet.
 
-Inicialmente, as VPNs foram criadas com um propósito – conectar com segurança redes de negócios pela Internet, para que as pessoas pudessem se conectar à rede corporativa de casa. Essa tecnologia é usada para muitas outras coisas: por exemplo, para navegar na Internet anonimamente ou para proteger sua atividade online de olhares indiscretos ao usar o Wi-Fi público.
+Initially, VPNs were created for one purpose — to securely connect business networks over the Internet, so that people could connect to the corporate network from home. This technology is used for many other things: for example, to browse the Internet anonymously or to protect your online activity from prying eyes while using public Wi-Fi.
 
-Uma VPN conecta o computador ou dispositivo móvel de um usuário a um servidor e permite navegar na rede usando o endereço IP de outra pessoa. Assim, observadores de terceiros não podem ver o endereço IP real do usuário, o que torna quase impossível rastreá-los.
+A VPN connects a user's computer or mobile device to a server and allows one to browse the net using someone else's IP address. Thus, third-party observers cannot see the user's real IP address, which makes it nearly impossible to trace them.
 
-Falando em VPN, a primeira coisa que eles mencionam é a criptografia de tráfego e a segurança decorrente dela. Mas o que isso significa? Uma VPN cria um túnel criptografado entre o dispositivo do usuário e o servidor remoto. Todo o tráfego da web passa por esse túnel, portanto, seus dados são protegidos ao longo do caminho. Para o observador externo, seu tráfego sai do servidor VPN, então parece que seu dispositivo possui o endereço IP deste servidor. Esse truque mascara a identidade e a verdadeira localização do usuário.
+Speaking of VPN, the first thing they mention is traffic encryption and security deriving from it. But what does it mean? A VPN creates an encrypted tunnel between the user's device and the remote server. All your web traffic passes through this tunnel, so your data is protected along the way. For the external observer, your traffic exits the VPN server, so it looks like your device has the IP address of this server. This trick masks the user's identity and true location.
 
-A VPN pode ser usada para:
+VPN can be used to:
 
-* esconder o seu verdadeiro paradeiro e permanecer anônimo
-* proteger seus dados - mesmo ao se conectar a um Wi-Fi público, você pode navegar na Web com segurança
-* proteger-se contra spoofing (interceptação de tráfego de rede) e rastreamento por parte do seu provedor de serviços de Internet
+* hide your real whereabouts and stay anonymous
+* secure your data — even when connecting to a public Wi-Fi, you can browse the Web safely
+* protect yourself from spoofing (network traffic interception) and tracking on the part of your Internet service provider
 
-Senhas, detalhes de cartões e simples informações pessoais estão em risco quando um usuário navega na Internet. Mas se você se conectar à rede global usando uma VPN, pode ter certeza de que ninguém poderá interceptar seus dados.
+Passwords, card details, and just plain personal information are at risk when a user surfs the Internet. But if you connect to the global network using a VPN, you can be sure that no one can intercept your data.
 
-## Por que usar o AdGuard VPN?
+## Why AdGuard VPN?
 
-### Desenvolvedor confiável
-A AdGuard está presente no mercado de proteção de dados pessoais e bloqueio de anúncios e desenvolve sua linha de softwares há mais de 12 anos. Ao longo desse tempo, nossa empresa construiu uma reputação impecável e o número de nossos clientes ultrapassou 30 milhões.
+### Trusted developer
+AdGuard has been present on the market of personal data protection and ad blocking and developing its line of software for more than 12 years. Over this time, our company has built an impeccable reputation, and the number of our customers has exceeded 30 million.
 
-### Protocolo VPN exclusivo
-A principal diferença entre AdGuard VPN e seus concorrentes é que usamos [nosso próprio protocolo desenvolvido](/general/adguard-vpn-protocol.mdx). Ele se disfarça de tráfego normal, por isso é muito mais difícil rastreá-lo e bloqueá-lo.
+### Unique VPN protocol
+The main difference between AdGuard VPN and its competitors is that we use [our own developed protocol](/general/adguard-vpn-protocol.mdx). It disguises itself as normal traffic, so it is much more difficult to track and block it.
 
-### Sem política de registros
-A política de não registro significa que não coletamos, armazenamos ou transferimos dados pessoais dos usuários para terceiros. O texto completo da política de privacidade do AdGuard pode ser encontrado [aqui](https://adguard-vpn.com/en/privacy.html).
+### No logs policy
 
-### Proteção contra rastreamento
-O tráfego da Web de qualquer usuário pode ser de interesse e é particularmente valioso em termos de monetização de dados pessoais. Tanto criminosos quanto ISPs sem escrúpulos podem acessá-lo. No entanto, com uma VPN confiável, você pode ter certeza de que nem seu provedor nem ninguém verá sua atividade na Internet.
+No logs policy means that we don’t collect, store or transfer users’ personal data to third parties. The full text of AdGuard VPN Privacy policy can be found [here](https://adguard-vpn.com/privacy.html).
 
-### Servidores VPN ultrarrápidos em 43 países
+### Tracking protection
+Web traffic from any user may be of interest and is particularly valuable in terms of monetization of personal data. Both criminals and unscrupulous ISPs can access it. However, with a trustworthy VPN, you can be confident that neither your provider nor anyone else will see your internet activity.
+
+### Ultrafast VPN servers in 53 countries
 
 * Argentina
-* Austrália
-* Áustria
-* Bélgica
-* Brasil
-* Bulgária
-* Camboja
-* Canadá
-* China
-* República Checa
-* Dinamarca
-* Egito
-* Finlândia
-* França
-* Alemanha
-* Grécia
-* Índia
-* Irlanda
+* Australia
+* Austria
+* Belgium
+* Brazil
+* Bulgaria
+* Cambodia
+* Canada
+* Chile
+* Colombia
+* Croatia
+* Cyprus
+* Czechia
+* Denmark
+* Egypt
+* Estonia
+* Finland
+* France
+* Germany
+* Greece
+* Hong Kong
+* Hungary
+* India
+* Ireland
 * Israel
-* Itália
-* Japão
-* Luxemburgo
-* México
-* Holanda
-* Noruega
-* Filipinas
-* Polônia
-* Romênia
-* Rússia
-* Sérvia
-* Cingapura
-* África do Sul
-* Coreia do Sul
-* Espanha
-* Suécia
-* Suíça
+* Italy
+* Japan
+* Kazakhstan
+* Luxembourg
+* Mexico
+* Netherlands
+* New Zealand
+* Norway
+* Philippines
+* Poland
+* Portugal
+* Romania
+* Russia
+* Serbia
+* Singapore
+* Slovakia
+* South Africa
+* South Korea
+* Spain
+* Sweden
+* Switzerland
 * Taiwan
-* Turquia
-* Reino Unido
-* Emirados Árabes Unidos
-* EUA
-* Ucrânia
-* Vietnã
+* Turkey
+* United Kingdom
+* United Arab Emirates
+* United States of America
+* Ukraine
+* Vietnam

@@ -24,7 +24,7 @@ VPN 서비스를 선택할 때 사람들은 종종 빠른 인터넷과 안전한
 ## 3. DNS 서버 선택
 기본적으로 더 이상 ISP에서 제공하는 DNS 서버를 사용할 필요가 없습니다! 첫째, ISP가 검색 기록에 액세스할 가능성이 높기 때문에 안전하지 않습니다. 둘째, 사람들은 종종 DNS를 과소평가하지만 DNS는 광고와 추적기를 제거하고, 맬웨어로부터 기기를 보호하고, 성인 콘텐츠를 차단할 수 있습니다.
 
-AdGuard, Cisco, Cloudflare, Google 또는 Quad9와 같은 [알려진 DNS 공급자](https://kb.adguard.com/en/general/dns-providers)의 DNS 서버를 선택하거나 자체 DNS 서버를 사용하도록 설정할 수도 있습니다.
+AdGuard, Cisco, Cloudflare, Google 또는 Quad9와 같은 [알려진 DNS 공급자](https://adguard-dns.io/kb/general/dns-providers/)의 DNS 서버를 선택하거나 자체 DNS 서버를 사용하도록 설정할 수도 있습니다.
 
 ## 4. 가장 빠른 위치
 
@@ -38,10 +38,10 @@ AdGuard VPN의 또 다른 훌륭한 기능은 핑을 기반으로 위치를 선�
 
 반면에 모바일 기기에서는 그렇게 간단하지 않습니다. 대부분의 경우, Android와 iOS 모두에 특정 시스템 제한이 있기 때문에 두 개의 VPN 앱이 함께 작동하지 않습니다.
 
-하지만 AdGuard VPN과 AdGuard 광고 차단기가 함께 작동하도록 하는 솔루션을 찾았습니다. 하나의 모바일 기기에 두 개의 AdGuard 앱(AdGuard VPN 및 AdGuard 광고 차단기)을 설치하면 자동으로 호환됩니다. 이제 사용자는 두 앱 중 하나를 선택하지 않고도 두 앱의 기능을 모두 즐길 수 있습니다.
+하지만 AdGuard VPN과 AdGuard 광고 차단기가 함께 작동하도록 하는 솔루션을 찾았습니다. When you have both AdGuard apps installed on one device, they will automatically become compatible without any input required from you. 이제 사용자는 두 앱 중 하나를 선택하지 않고도 두 앱의 기능을 모두 즐길 수 있습니다.
 
 ## 6. QUIC 지원
-[QUIC](https://adguard.com/en/blog/dns-over-quic.html)는 많은 특전을 가진 최첨단 프로토콜입니다. 주요 이점은 모바일 인터넷을 사용하거나 공용 Wi-Fi 네트워크에 연결할 때와 같이 이상적이지 않은 조건에서 연결 품질을 향상시킬 수 있다는 것입니다 새 프로토콜은 연결 상태가 양호하고 안정적이면 속도에 영향을 미치지 않지만 인터넷 속도가 느리면 확실히 개선될 것입니다.
+[QUIC](https://adguard.com/blog/dns-over-quic.html)는 많은 특전을 가진 최첨단 프로토콜입니다. 주요 이점은 모바일 인터넷을 사용하거나 공용 Wi-Fi 네트워크에 연결할 때와 같이 이상적이지 않은 조건에서 연결 품질을 향상시킬 수 있다는 것입니다 새 프로토콜은 연결 상태가 양호하고 안정적이면 속도에 영향을 미치지 않지만 인터넷 속도가 느리면 확실히 개선될 것입니다.
 
 *다음으로 모든 VPN의 필수 기능을 살펴보겠습니다.*
 

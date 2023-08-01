@@ -28,7 +28,7 @@ sidebar_position: 4
 
 在 Android 8 及更高版本上，您还可以通过将手垂直放置在手机的左边缘或右边缘并用手触摸屏幕从该边缘向内滑动来截取屏幕截图。
 
-如果此方法不起作用，请检查*设置* → *高级*功能，以启用 *轻扫以捕获*。
+If this method doesn’t work, check *Settings* → *Advanced features* → *Motions and gestures* → enable *Palm swipe to capture*.
 
 此外，您可以使用任何特殊的应用程序在设备上拍摄屏幕截图，例如，*轻松截屏*、*终极截图*、*Screenshot Snap* 等。
 
@@ -72,7 +72,7 @@ Windows 8 和 10 使您可以通过 *Win + PrtScn* 组合快速捕获屏幕截�
 
 此外，您还可以尝试使用其他应用在计算机上截图，例如 **PicPick**、**Nimbus Screenshot**、**Screenshot Captor**、**Snipaste**、**Monosnap** 等。
 
-### MacOS
+### macOS
 
 要在 Mac 上截图，请使用以下按钮组合：
 

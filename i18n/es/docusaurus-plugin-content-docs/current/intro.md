@@ -31,12 +31,13 @@ AdGuard ha estado presente en el mercado de protección de datos personales y bl
 La principal diferencia entre AdGuard VPN y sus competidores es que utilizamos [nuestro propio protocolo desarrollado](/general/adguard-vpn-protocol.mdx). Se disfraza de tráfico normal, por lo que es mucho más difícil rastrearlo y bloquearlo.
 
 ### Política de no registros
-La política de no registros significa que no recopilamos, almacenamos ni transferimos los datos personales de los usuarios a terceros. El texto completo de la política de privacidad de AdGuard se puede encontrar [aquí](https://adguard-vpn.com/en/privacy.html).
+
+La política de no registros significa que no recopilamos, almacenamos ni transferimos los datos personales de los usuarios a terceros. Encontra [aquí](https://adguard-vpn.com/privacy.html) el texto completo de la política de privacidad de AdGuard VPN.
 
 ### Protección de rastreo
 El tráfico web de cualquier usuario puede ser de interés y es particularmente valioso en términos de monetización de datos personales. Tanto los delincuentes como los ISP sin escrúpulos pueden acceder a él. Sin embargo, con una VPN confiable, puede estar seguro de que ni su proveedor ni nadie más verá su actividad en Internet.
 
-### Servidores VPN ultrarrápidos en 43 países
+### Servidores VPN rápidos en 53 países
 
 * Argentina
 * Australia
@@ -46,29 +47,39 @@ El tráfico web de cualquier usuario puede ser de interés y es particularmente 
 * Bulgaria
 * Camboya
 * Canadá
-* China
-* República Checa
+* Chile
+* Colombia
+* Croacia
+* Chipre
+* Chequia
 * Dinamarca
 * Egipto
+* Estonia
 * Finlandia
 * Francia
 * Alemania
 * Grecia
+* Hong Kong
+* Hungría
 * India
 * Irlanda
 * Israel
 * Italia
 * Japón
+* Kazajstán
 * Luxemburgo
 * México
 * Países Bajos
+* Nueva Zelanda
 * Noruega
 * Filipinas
 * Polonia
+* Portugal
 * Rumania
 * Rusia
 * Serbia
 * Singapur
+* Eslovaquia
 * Sudáfrica
 * Corea del Sur
 * España
@@ -78,6 +89,6 @@ El tráfico web de cualquier usuario puede ser de interés y es particularmente 
 * Turquía
 * Reino Unido
 * Emiratos Árabes Unidos
-* Estados Unidos
+* Estados Unidos de América
 * Ucrania
 * Vietnam

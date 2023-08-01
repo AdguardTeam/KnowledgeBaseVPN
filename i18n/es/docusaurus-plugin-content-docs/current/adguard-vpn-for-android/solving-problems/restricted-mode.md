@@ -14,7 +14,7 @@ Tienes dos maneras de resolver el problema:
 1. Active el modo de desarrollador **** y habilite la depuración USB ****:
 - Abra la aplicación **Configuración** en su teléfono;
 - Vaya a la sección **Sistema** (último elemento en el menú de configuración). En esta sección, encuentre el subelemento **Acerca del teléfono**;
-- Haga clic en la línea **Número de compilación** 7 veces. Después de eso, recibirás una notificación que dice **Ahora eres un desarrollador** (Si es necesario, introduce un código de desbloqueo para el dispositivo);
+- Haz clic en **Número de build** 7 veces. Después de eso, recibirás una notificación que dice **Ahora eres un desarrollador** (Si es necesario, introduce un código de desbloqueo para el dispositivo);
 - Abra **Configuración del sistema** → **Opciones de desarrollador** → Desplácese hacia abajo y habilite **depuración USB**  → Confirme que la depuración está habilitada en la ventana **Permitir la depuración USB** después de leer la advertencia cuidadosamente.
 
 > Si tiene alguna dificultad o pregunta adicional, puede encontrar las instrucciones completas en [aquí](https://developer.android.com/studio/debug/dev-options).

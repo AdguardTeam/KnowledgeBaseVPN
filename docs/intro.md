@@ -34,54 +34,64 @@ The main difference between AdGuard VPN and its competitors is that we use [our 
 
 ### No logs policy
 
-No logs policy means that we don’t collect, store or transfer users’ personal data to third parties. The full text of the AdGuard Privacy policy can be found [here](https://adguard-vpn.com/en/privacy.html).
+No logs policy means that we don’t collect, store or transfer users’ personal data to third parties. The full text of AdGuard VPN Privacy policy can be found [here](https://adguard-vpn.com/privacy.html).
 
 ### Tracking protection
 
 Web traffic from any user may be of interest and is particularly valuable in terms of monetization of personal data. Both criminals and unscrupulous ISPs can access it. However, with a trustworthy VPN, you can be confident that neither your provider nor anyone else will see your internet activity.
 
-### Ultrafast VPN servers in 43 countries
+### Ultrafast VPN servers in 53 countries
 
-- Argentina
-- Australia
-- Austria
-- Belgium
-- Brazil
-- Bulgaria
-- Cambodia
-- Canada
-- China
-- Czech Republic
-- Denmark
-- Egypt
-- Finland
-- France
-- Germany
-- Greece
-- India
-- Ireland
-- Israel
-- Italy
-- Japan
-- Luxembourg
-- Mexico
-- Netherlands
-- Norway
-- Philippines
-- Poland
-- Romania
-- Russia
-- Serbia
-- Singapore
-- South Africa
-- South Korea
-- Spain
-- Sweden
-- Switzerland
-- Taiwan
-- Turkey
-- United Kingdom
-- UAE
-- USA
-- Ukraine
-- Vietnam
+* Argentina
+* Australia
+* Austria
+* Belgium
+* Brazil
+* Bulgaria
+* Cambodia
+* Canada
+* Chile
+* Colombia
+* Croatia
+* Cyprus
+* Czechia
+* Denmark
+* Egypt
+* Estonia
+* Finland
+* France
+* Germany
+* Greece
+* Hong Kong
+* Hungary
+* India
+* Ireland
+* Israel
+* Italy
+* Japan
+* Kazakhstan
+* Luxembourg
+* Mexico
+* Netherlands
+* New Zealand
+* Norway
+* Philippines
+* Poland
+* Portugal
+* Romania
+* Russia
+* Serbia
+* Singapore
+* Slovakia
+* South Africa
+* South Korea
+* Spain
+* Sweden
+* Switzerland
+* Taiwan
+* Turkey
+* United Kingdom
+* United Arab Emirates
+* United States of America
+* Ukraine
+* Vietnam

@@ -1,39 +1,39 @@
 ---
-title: Features overview
+title: Pregled funkcija
 sidebar_position: 1
 ---
 
-## What is AdGuard VPN for Android?
+## Šta je AdGuard VPN za Android?
 
-A VPN is an ideal tool that provides security and anonymity each time you browse the Internet. [How does it work?](/general/how-vpn-works.md) Without going into technical details, we can say that VPN creates a secure encrypted tunnel between the user's computer or mobile device and a remote VPN server. In this way, data confidentiality is preserved, as well as the anonymity of the user, because a third-party observer sees the IP address of the VPN server and not the actual user's IP.
+VPN je idealna alatka koja obezbeđuje sigurnost i anonimnost svaki put kada pregledate Internet. [Kako to funkcioniše?](/general/how-vpn-works.md) Bez ulaženja u tehničke detalje, možemo reći da VPN kreira bezbedan šifrovani tunel između računara korisnika ili mobilnog uređaja i udaljenog VPN servera. Na taj način se čuva poverljivost podataka, kao i anonimnost korisnika, jer posmatrač nezavisnog proizvođača vidi IP adresu VPN servera, a ne IP stvarnog korisnika.
 
-**VPN is frequently used for:**
+**VPN se često koristi za:**
 
-* Keeping personal data safe even while using public Wi-Fi
-* Preventing online activity tracking by masking the IP address
-* Hiding the real geolocation to remain anonymous
+* Čuvanje ličnih podataka čak i dok koristite javni Wi-Fi
+* Sprečavanje praćenja aktivnosti na mreži maskiranjem IP adrese
+* Skrivanje prave geolokacije da bi ostali anonimni
 
-AdGuard VPN for Android can do it all for you — and even offer something unique. To find out why AdGuard VPN is the better option — read [this article](/general/why-adguard-vpn.md).
+AdGuard VPN za Android sve to može da uradi za vas – pa čak i da ponudi nešto jedinstveno. Da biste saznali zašto je AdGuard VPN bolja opcija – pročitajte [ovaj članak](/general/why-adguard-vpn.md).
 
-## How to start using AdGuard VPN for Android
+## Kako početi sa kkorišćenjem AdGuard VPN-a za Android
 
-Firstly, download AdGuard VPN from [Google Play](https://play.google.com/store/apps/details?id=com.adguard.vpn) and log into your AdGuard account. In case you don’t have it — you should [create it](https://auth.adguard.com/login.html). You can sign in directly with your AdGuard account credentials. Or do it via Google or Facebook, if your AdGuard account was registered using the same email address.
+Prvo preuzmite AdGuard VPN sa [Google Play](https://play.google.com/store/apps/details?id=com.adguard.vpn) i prijavite se na svoj AdGuard nalog. U slučaju da ga nemate – trebalo bi [da ga napravite](https://auth.adguard.com/login.html). Možete se direktno prijaviti pomoću akreditiva AdGuard naloga. Ili to uradite preko Google-a ili Facebook-a, ako je vaš AdGuard nalog registrovan koristeći istu email adresu.
 
-## Main screen
+## Glavni ekran
 
-There are two bars on the main screen, reflecting the status of the application (Connected/Disconnected) and the selected Exclusions mode ([General/Selective](#lists-of-exclusions)). On the same screen, there are also a *Connect/Disconnect* button and a list of available servers.
+Na glavnom ekranu postoje dve trake koje odražavaju status aplikacije (Povezano/Prekinuto veza) i izabrani režim izuzetaka ([Opšte/selektivno](#lists-of-exclusions)). Na istom ekranu, postoji takođe *Poveži se/Prekini vezu* dugmići i lista dostupnih servera.
 
-Each server has its location and its ping rate, describing the response time of the server. The lower this rate, the faster is your connection. The fastest options are always displayed at the top of the list which consists of more than 50 locations in dozens of countries. You can connect to the fastest server by tapping the *Connect/Disconnect* button or by picking a location.
+Svaki server ima svoju lokaciju i brzinu pinga, opisujući vreme odziva servera. Što je ova stopa niža, vaša veza je brža. Najbrže opcije su uvek prikazane na vrhu liste koja se sastoji od više od 50 lokacija u desetinama zemalja. Možete se povezati sa najbržim serverom tako što ćete dodirnuti *Poveži/prekini vezu* ili odabirom lokacije.
 
-## Exclusions
+## Izuzeci
 
-We've done everything to make it easy for you to manage your site and app exclusion lists. AdGuard VPN will only work where you choose.
+Učinili smo sve da vam olakšamo upravljanje listom izuzetaka vaših sajtova i aplikacija. AdGuard VPN će raditi samo tamo gde vi odaberete.
 
-### Lists of exclusions
+### Lista izuzetaka
 
-The exclusion lists allow you to select sites for which the VPN should be enabled and for which — disabled. To reach the *Exclusions* section, tap the second icon from the left at the bottom of the screen.
+Liste izuzetaka vam omogućavaju da izaberete lokacije za koje VPN treba da bude omogućen, a za koje – onemogućen. Da biste došli do *Izuzetaka* kliknite na drugu ikonu sleva na dnu ekrana.
 
-There are two modes: in *General mode* sites from the exclusions list are excluded, and in *Selective mode*, they will be the only ones where AdGuard VPN works.
+Postoje dva režima: u *Opštem režimu* lokacije sa liste izuzetaka su isključene i u *Selektivnom režimu*, oni će biti jedini gde AdGuard VPN radi.
 
 You can add domains (e.g. `google.com`) or subdomains (e.g. `*.google.com`) of websites to the *Exclusions* in three ways: enter them manually in the app, or right from the browser by clicking the *Share* button and selecting AdGuard VPN in the opened list below, or from built-in lists of services divided by categories.
 
@@ -73,7 +73,7 @@ The slider switched to the right enables an AdGuard VPN autostart after the devi
 
 ### DNS servers
 
-The purpose of the [Domain name system](https://kb.adguard.com/en/general/dns-filtering#what-is-dns) (DNS) is to translate websites' names into something browsers can understand, i.e. IP addresses. This job is performed by DNS servers. AdGuard VPN for Android offers a choice of several DNS servers, each with special qualities. For example, [AdGuard DNS](https://kb.adguard.com/en/dns/overview) removes ads and protects your device from tracking while AdGuard DNS Family Protection combines the functions of AdGuard DNS with SafeSearch and adult content blocking. There is also an option to add a custom DNS server.
+The purpose of the [Domain name system](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns) (DNS) is to translate websites' names into something browsers can understand, i.e. IP addresses. This job is performed by DNS servers. AdGuard VPN for Android offers a choice of several DNS servers, each with special qualities. For example, [AdGuard DNS](https://adguard-dns.io/kb/) removes ads and protects your device from tracking while AdGuard DNS Family Protection combines the functions of AdGuard DNS with SafeSearch and adult content blocking. There is also an option to add a custom DNS server.
 
 ### Auto-protection
 
@@ -95,7 +95,7 @@ You can choose the system default, dark or light theme of the app.
 
 In the *Advanced settings*, you can find five sections. You can *Help us to become better* by toggling the switch in the upper block. This action will allow AdGuard VPN to gather crash reports, technical and interaction data. This information will come in anonymously.
 
-*Operating mode* section allows you to choose one of three options: VPN, Proxy, and Compatibility mode. In *VPN mode* all traffic is routed through AdGuard VPN automatically. When the *Proxy mode* (SOCKS5) is on, AdGuard VPN runs a local proxy sever which can be used by other apps to route their traffic through it. Choose this option only if you know what you are doing. Enabled *Compatibility mode* allows AdGuard VPN and AdGuard Ad Blocker to work together.
+*Operating mode* section allows you to choose one of three options: VPN, Proxy, and Compatibility mode. In *VPN mode* all traffic is routed through AdGuard VPN automatically. When the *Proxy mode* (SOCKS5) is on, AdGuard VPN runs a local proxy server which can be used by other apps to route their traffic through it. Choose this option only if you know what you are doing. Enabled *Compatibility mode* allows AdGuard VPN and AdGuard Ad Blocker to work together.
 
 > Please note that some AdGuard VPN features are disabled in *Compatibility mode*: DNS server selection, Kill Switch and Auto-protection. Also, to manage application tunneling you should open AdGuard Ad Blocker application.
 
@@ -106,4 +106,3 @@ The last section of *Advanced settings* is *Low-level settings*. We urge you not
 ### Support
 
 At the *Support* section you can leave feedback, report a bug, or export logs and system info for further submission to the helpdesk.
- 

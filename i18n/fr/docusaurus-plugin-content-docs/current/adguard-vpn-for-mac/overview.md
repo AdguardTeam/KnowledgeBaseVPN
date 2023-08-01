@@ -7,7 +7,7 @@ AdGuard VPN pour Mac est un service VPN de bureau. AdGuard VPN est entièrement 
 
 Notez que **vous ne pouvez pas utiliser AdGuard VPN pour Mac si vous ne vous êtes pas connecté à votre compte AdGuard**. Vous pouvez soit vous connecter avec votre compte AdGuard, soit avec un compte externe, par exemple via Apple, Google ou Facebook. Assurez-vous que votre compte externe est lié à la même adresse e-mail que votre compte AdGuard. S'il existe un abonnement approprié dans votre compte AdGuard, il sera automatiquement activé sur l'application de bureau. Vous n'avez toujours pas de compte AdGuard ? Créez-le [ici](https://auth.adguard.com/registration.html).
 
-> AdGuard VPN pour Mac est actuellement pris en charge sur les versions de macOS à partir de macOS Sierra (10.12).
+> AdGuard VPN for Mac is currently supported on macOS versions starting from macOS Catalina (10.15).
 
 ## Écran d'accueil
 
@@ -33,10 +33,10 @@ Si vous avez ajouté un service, modifié ou supprimé quelque chose et souhaite
 
 De plus, les listes d'exclusions prêtes à l'emploi peuvent être transférées sur d'autres appareils sur lesquels AdGuard VPN est installé. Pour exporter des exclusions, suivez les instructions en quatre étapes ci-dessous :
 
-1. Ouvrez AdGuard VPN sur l'appareil à partir duquel vous souhaitez exporter vos listes d'exclusions. Trouvez la section appropriée et cliquez sur le bouton *Exporter*. L'archive `exclusions.zip` sera téléchargée.
+1. Ouvrez AdGuard VPN sur l'appareil à partir duquel vous souhaitez exporter vos listes d'exclusions. Find the appropriate section and click the *Export* button. L'archive `exclusions.zip` sera téléchargée.
 2. Il y a deux fichiers `.txt` dans l'archive, un pour les listes Générale et Sélective. Ajoutez-y plus d'exclusions, supprimez celles qui existent, renommez les fichiers (mais nous en parlerons plus tard) ou laissez simplement l'archive avec les fichiers tels quels.
 3. Lors du transfert entre différents appareils, n'oubliez pas d'envoyer le fichier `.zip` à l'appareil pour importation. Par exemple, si vous importez des listes d'exclusion de votre appareil Mac vers votre iPhone, assurez-vous d'envoyer au préalable le fichier `.zip` vers votre iPhone.
-4. Ouvrez AdGuard VPN sur l'appareil/le navigateur où vous souhaitez importer l'archive avec les listes d'exclusions prêtes. Trouvez la section appropriée, cliquez sur le bouton *Importer* et sélectionnez l'archive. C'est fait !
+4. Ouvrez AdGuard VPN sur l'appareil/le navigateur où vous souhaitez importer l'archive avec les listes d'exclusions prêtes. Find the appropriate section, click the *Import* button and select the archive. C'est fait !
 
 > Les fichiers d'archives d'autres appareils peuvent être importés de la même manière dans votre AdGuard VPN pour Mac.
 
@@ -44,7 +44,7 @@ De plus, les listes d'exclusions prêtes à l'emploi peuvent être transférées
 
 ![Écran d'assistance](https://cdn.adguardvpn.com/content/kb/vpn/mac/support_en.png)
 
-Le troisième onglet est l'écran d'*Assistance*. Trouvez des réponses à toutes vos questions dans la section [FAQ](https://adguard-vpn.com/en/welcome.html#faq) ou dans les [sections de la Base de connaissances](/intro.md) , signalez un bogue si vous en rencontrez un, ou [discutez d'AdGuard sur l'une des plates-formes](https://adguard.com/en/discuss.html). Et n'hésitez pas à [laisser des commentaires sur notre produit](https://surveys.adguard.com/en/vpn_mac/form.html), nous vous en serions reconnaissants.
+Le troisième onglet est l'écran d'*Assistance*. Find answers to any questions in the [FAQ](https://adguard-vpn.com/welcome.html#faq) or in the [Knowledge base](/intro.md) sections, report a bug if you encounter one, or [discuss AdGuard on any of the platforms](https://adguard.com/discuss.html). And feel free to [leave feedback about our product](https://surveys.adguard.com/vpn_mac/form.html), we’d appreciate it.
 
 ## Paramètres
 
@@ -56,7 +56,7 @@ Enfin, nous arrivons à l'onglet Paramètres. Dans la section *À propos du prog
 
 ![Paramètres de l'app](https://cdn.adguardvpn.com/content/kb/vpn/mac/general-settings_en.png)
 
-Les quatre premières fonctionnalités de base rendent l'application plus pratique et conviviale, à savoir *Kill Switch*, *Mise à jour automatique*, *Démarrer AdGuard VPN après connexion* et *Auto-connexion après démarrage*. De plus, vous pouvez choisir entre des thèmes clairs, sombres et système - ce dernier correspond au thème de votre Mac.
+The first four basic features make the application more convenient and user-friendly, i.e. *Kill Switch*, *Auto-update*, *Launch AdGuard VPN at login*, and *Auto-connect on app launch*. De plus, vous pouvez choisir entre des thèmes clairs, sombres et système - ce dernier correspond au thème de votre Mac.
 
 Une autre option à ne pas négliger est que vous pouvez autoriser AdGuard VPN à collecter et envoyer des rapports de plantage anonymisés, des données techniques et d'interaction afin de nous aider à améliorer notre application. Enfin, grâce au bouton à droite, vous pouvez exporter les journaux vers votre Mac. Cela peut être utile si vous voulez joindre des journaux à votre message au support.
 

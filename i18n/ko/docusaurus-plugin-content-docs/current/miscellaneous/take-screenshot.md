@@ -28,7 +28,7 @@ Android 기기는 전체 화면을 캡처하여 사진으로 저장합니다. �
 
 Android 8 이상에서는 휴대전화의 왼쪽 또는 오른쪽 가장자리를 따라 수직으로 손을 놓고 화면을 터치한 손으로 해당 가장자리에서 안쪽으로 스와이프하여 스크린샷을 찍을 수도 있습니다.
 
-이 방법이 작동하지 않으면 *설정* → *고급* 기능 → 동작 및 제스처로 이동하여 *손바닥으로 화면 캡처* 기능 스위치가 활성화되어 있는지 확인하십시오.
+If this method doesn’t work, check *Settings* → *Advanced features* → *Motions and gestures* → enable *Palm swipe to capture*.
 
 게다가, 예를 들어 *Screenshot Easy*, *Screenshot Ultimate*, *Screenshot Snap* 등과 같이 기기에서 스크린샷을 찍기 위해 특별한 응용 프로그램을 사용할 수 있습니다.
 
@@ -72,7 +72,7 @@ Windows 8 및 10 에서는 *Win + PrtScn* 조합으로 매우 빠르게 스크�
 
 게다가 **PicPick**, **Nimbus Screenshot**, **Screenshot Captor**, **Snipaste**, **Monosnap** 등과 같이 컴퓨터에서 스크린샷을 찍기 위해 다른 앱을 사용할 수 있습니다.
 
-### MacOS
+### macOS
 
 Mac에서 스크린샷을 찍으려면 다음 버튼 조합을 사용하십시오.
 

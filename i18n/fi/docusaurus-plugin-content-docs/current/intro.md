@@ -1,83 +1,94 @@
 ---
-title: AdGuard VPN Overview
+title: AdGuard VPN -yhteenveto
 sidebar_position: 1
 slug: /
 ---
 
-## What is a VPN and why do you need one?
+## Mikä on VPN ja miksi tarvitset sellaisen?
 
-A VPN allows you to create a secure connection to another network on the Internet.
+VPN:n avulla voit muodostaa turvallisen yhteyden toiseen verkkoon Internetissä.
 
-Initially, VPNs were created for one purpose — to securely connect business networks over the Internet, so that people could connect to the corporate network from home. This technology is used for many other things: for example, to browse the Internet anonymously or to protect your online activity from prying eyes while using public Wi-Fi.
+Alun perin VPN:t luotiin yhtä tarkoitukseen — yritysverkkojen turvalliseen yhdistämiseen Internetin kautta, jotta työntekijät voivat liittyä työnantajiensa verkkoihin esimerkiksi kotonaan. Tekniikkaa käytetään myös monissa muissa yhteyksissä, kuten mm. anonyymiin Internet-selaukseen tai oman Internet-käytön piilottamiseen vakoilijoilta julkisissa Wi-Fi-verkoissa.
 
-A VPN connects a user's computer or mobile device to a server and allows one to browse the net using someone else's IP address. Thus, third-party observers cannot see the user's real IP address, which makes it nearly impossible to trace them.
+VPN yhdistää käyttäjän tietokoneen tai mobiililaitteen palvelimeen, joka mahdollistaa verkon selaamisen eri IP-osoitteella. Tällöin ulkopuoliset tarkkailijat eivät näe käyttäjän todellista IP-osoitetta, mikä tekee heidän jäljittämisestään mahdotonta.
 
-Speaking of VPN, the first thing they mention is traffic encryption and security deriving from it. But what does it mean? A VPN creates an encrypted tunnel between the user's device and the remote server. All your web traffic passes through this tunnel, so your data is protected along the way. For the external observer, your traffic exits the VPN server, so it looks like your device has the IP address of this server. This trick masks the user's identity and true location.
+VPN:stä puhuttaessa ensimmäinen asia, joka mainitaan, on tietoliikenteen salaus ja siitä seuraava turvallisuus. Mutta mitä se tarkoittaa? VPN luo salatun tunnelin käyttäjän laitteen ja etäpalvelimen välille. Kaikki verkkoliikenteesi kulkee tämän tunnelin läpi, joten tietosi ovat matkan varrella suojassa. Ulkoiselle tarkkailijalle tietoliikenteesi lähde on VPN-palvelin, joten laitteellasi näyttää olevan tämän palvelimen IP-osoite. Tämä konsti peittää käyttäjän identiteetin ja todellisen sijainnin.
 
-VPN can be used to:
+VPN-yhteyttä voidaan käyttää:
 
-* hide your real whereabouts and stay anonymous
-* secure your data — even when connecting to a public Wi-Fi, you can browse the Web safely
-* protect yourself from spoofing (network traffic interception) and tracking on the part of your Internet service provider
+* todellisen olinpaikan piilotukseen ja anonyymiteettiin
+* tietojen suojaukseen — jopa julkisiin Wi-Fi-verkkoihin yhdistettäessä voidaan selata Internetiä turvallisesti
+* tiedon väärennykseltä (verkkoliikenteen sieppaukselta) ja Internet-palveluntarjoajan seurannalta suojautumiseen
 
-Passwords, card details, and just plain personal information are at risk when a user surfs the Internet. But if you connect to the global network using a VPN, you can be sure that no one can intercept your data.
+Salasanat, korttitiedot ja tavalliset henkilökohtaiset perustiedot ovat alttiina Internetiä selattaessa. Jos muodostat yhteyden yleiseen verkkoon VPN:n välityksellä, voit varmistaa, ettei kukaan voi siepata tietojasi.
 
-## Why AdGuard VPN?
+## Miksi AdGuard VPN?
 
-### Trusted developer
-AdGuard has been present on the market of personal data protection and ad blocking and developing its line of software for more than 12 years. Over this time, our company has built an impeccable reputation, and the number of our customers has exceeded 30 million.
+### Luotettu kehittäjä
+AdGuard on toiminut henkilökohtaisen tietosuojauksen ja mainoseston markkinoilla sekä kehittänyt ohjelmistojaan yli 12 vuoden ajan. Tänä aikana yrityksemme on rakentanut moitteettoman maineen ja asiakasmäärämme on ylittänyt 30 miljoonaa.
 
-### Unique VPN protocol
-The main difference between AdGuard VPN and its competitors is that we use [our own developed protocol](/general/adguard-vpn-protocol.mdx). It disguises itself as normal traffic, so it is much more difficult to track and block it.
+### Ainutlaatuinen VPN-protokolla
+Merkittävin ero AdGuard VPN:n ja sen kilpailijoiden välillä on [itse kehittämämme VPN-protokolla](/general/adguard-vpn-protocol.mdx). Se naamioituu normaaliksi tietoliikenteeksi, jonka ansiosta sen jäljittäminen ja estäminen on paljon vaikeampaa.
 
-### No logs policy
-No logs policy means that we don’t collect, store or transfer users’ personal data to third parties. The full text of AdGuard privacy policy can be found [here](https://adguard-vpn.com/en/privacy.html).
+### Lokitiedoton käytäntö
 
-### Tracking protection
-Web traffic from any user may be of interest and is particularly valuable in terms of monetization of personal data. Both criminals and unscrupulous ISPs can access it. However, with a trustworthy VPN, you can be confident that neither your provider nor anyone else will see your internet activity.
+Lokitiedoton käytäntö tarkoittaa, ettemme kerää tai säilytä käyttäjien henkilökohtaisia tietoja, emmekä myöskään luovuta niitä ulkopuolisille tahoille. AdGuard VPN:n tietosuojakäytäntö löytyy kokonaisuudessaan [täältä](https://adguard-vpn.com/privacy.html).
 
-### Ultrafast VPN servers in 43 countries
+### Seurantasuojaus
+Minkä tahansa käyttäjän verkkoliikenne voi olla kiinnostavaa ja olla erittäin arvokasta henkilökohtaisten tietojen kaupallistamisen kannalta. Sekä rikolliset että häikäilemättömät Internet-palveluntarjoajat voivat käyttää näitä tietoja. Luotettavan VPN:n avulla voit kuitenkin olla vakuuttunut siitä, ettei palveluntarjoajasi tai kukaan muukaan näe Internet-toimintaasi.
 
-* Argentina
+### Erittäin nopeat VPN-palvelimet 53 maassa
+
+* Argentiina
 * Australia
-* Austria
-* Belgium
-* Brazil
+* Itävalta
+* Belgia
+* Brasilia
 * Bulgaria
-* Cambodia
-* Canada
-* China
-* Czech Republic
-* Denmark
-* Egypt
-* Finland
-* France
-* Germany
-* Greece
-* India
-* Ireland
+* Kambodža
+* Kanada
+* Chile
+* Kolumbia
+* Kroatia
+* Kypros
+* Tšekki
+* Tanska
+* Egypti
+* Viro
+* Suomi
+* Ranska
+* Saksa
+* Kreikka
+* Hong Kong
+* Unkari
+* Intia
+* Irlanti
 * Israel
-* Italy
-* Japan
-* Luxembourg
-* Mexico
-* Netherlands
-* Norway
-* Philippines
-* Poland
+* Italia
+* Japani
+* Kazakstan
+* Luxemburg
+* Meksiko
+* Alankomaat
+* Uusi Seelanti
+* Norja
+* Filippiinit
+* Puola
+* Portugali
 * Romania
-* Russia
+* Venäjä
 * Serbia
 * Singapore
-* South Africa
-* South Korea
-* Spain
-* Sweden
-* Switzerland
+* Slovakia
+* Etelä-Afrikka
+* Etelä-Korea
+* Espanja
+* Ruotsi
+* Sveitsi
 * Taiwan
-* Turkey
-* United Kingdom
-* UAE
-* USA
-* Ukraine
+* Turkki
+* Yhdistynyt kuningaskunta
+* Yhdistyneet Arabiemiirikunnat
+* Yhdysvallat
+* Ukraina
 * Vietnam

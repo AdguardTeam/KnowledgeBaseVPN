@@ -3,26 +3,26 @@ title: Funktionsübersicht
 sidebar_position: 1
 ---
 
-Die AdGuard VPN-Browsererweiterung ist für Chrome, Firefox und Edge verfügbar. Die Benutzeroberfläche und Funktionalität unterscheiden sich nicht zwischen den Browsern, daher ist die folgende Übersicht für AdGuard VPN-Erweiterungen für alle Browser relevant.
+Die AdGuard VPN-Browsererweiterung ist für Chrome, Firefox, Opera und Edge verfügbar. Die Benutzeroberfläche und Funktionalität unterscheiden sich nicht zwischen den Browsern, daher ist die folgende Übersicht für AdGuard VPN-Erweiterungen für alle Browser relevant.
 
 > Beachten Sie, dass Sie die AdGuard VPN-Browsererweiterung nur verwenden können, wenn Sie angemeldet sind. Melden Sie sich mit Ihrem AdGuard-Konto oder über Google, Facebook oder Apple an. Stellen Sie im letzteren Fall sicher, dass Ihr Konto an dieselbe E-Mail-Adresse wie Ihr AdGuard-Konto gebunden ist. Wenn Sie ein [AdGuard VPN-Abonnement](/general/subscription.md) haben, wird es automatisch in der AdGuard VPN-Browsererweiterung aktiviert. Haben Sie noch kein AdGuard-Konto? [Erstellen Sie es hier](https://auth.adguard.com/registration.html).
 
-Um Ihre AdGuard VPN Browsererweiterung zu verwalten, entweder
+Um Ihre AdGuard VPN Browsererweiterung zu verwalten, entweder:
 
-* Klicken Sie im Bedienfeld des Browsers auf das entsprechende Symbol, dann auf die drei Streifen und wählen Sie *Einstellungen* aus, oder
-* Gehen Sie zur Seite *Erweiterungen verwalten* Ihres Browsers und geben Sie dort die Einstellungen des AdGuard VPN ein.
+* Klicken Sie entweder auf das Symbol in der Browserleiste oder auf das Hamburger-Menü-Symbol und wählen Sie *Einstellungen*,
+* Gehen Sie auf die Seite *Erweiterungen verwalten* in Ihrem Browser, klicken Sie auf *Details* unter *AdGuard VPN* und verwalten Sie die Einstellungen von dort aus.
 
 Sobald Sie fertig sind, sehen Sie auf der linken Seite mehrere Registerkarten:
 
 ## Einstellungen
 
-Auf dieser Registerkarte sind einige wichtige Einstellungen zusammengefasst. Hier können Sie einen zu verwendenden DNS-Server auswählen, das AdGuard VPN-Symbol zum Kontextmenü des Browsers hinzufügen oder entfernen, WebRTC blockieren, das Thema der Erweiterung ändern und AdGuard erlauben, anonymisierte Absturzberichte und technische Daten zu sammeln.
+Auf dieser Registerkarte sind einige wichtige Einstellungen zusammengefasst. Hier können Sie einen zu verwendenden DNS-Server auswählen, das AdGuard VPN-Symbol zum Kontextmenü des Browsers hinzufügen oder entfernen, WebRTC sperren, das Thema der Erweiterung ändern und AdGuard erlauben, anonymisierte Absturzberichte und technische Daten zu sammeln.
 
 ### Auswahl eines DNS-Servers
 
-Standardmäßig ist der von Ihrem ISP bereitgestellte [System-DNS-Server](https://kb.adguard.com/en/general/dns-filtering#what-is-dns) ausgewählt, aber dies kann Ihre Privatsphäre gefährden. Mit der AdGuard VPN-Browsererweiterung können Sie einen DNS-Server auswählen, der eine bessere Geschwindigkeit und Sicherheit bietet und sogar Werbung oder potenziell gefährliche Domains blockiert. Kurze Beschreibungen unter den Namen von DNS-Servern helfen Ihnen bei der Entscheidungsfindung.
+Standardmäßig ist der von Ihrem ISP bereitgestellte [System-DNS-Server](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns) ausgewählt, aber dies kann Ihre Privatsphäre gefährden. Mit der AdGuard VPN-Browsererweiterung können Sie einen DNS-Server auswählen, der eine bessere Geschwindigkeit und Sicherheit bietet und sogar Werbung oder potenziell gefährliche Domains blockiert. Kurze Beschreibungen unter den Namen von DNS-Servern helfen Ihnen bei der Entscheidungsfindung.
 
-Erfahren Sie mehr über [DNS-Server verschiedener Anbieter](https://kb.adguard.com/ru/general/dns-providers).
+Erfahren Sie mehr über [DNS-Server verschiedener Anbieter](https://adguard-dns.io/kb/general/dns-providers/).
 
 ## Ausschlüsse
 

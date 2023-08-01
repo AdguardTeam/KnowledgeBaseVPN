@@ -1,36 +1,38 @@
 ---
-title: Installation and removal
+title: Cài đặt và gỡ bỏ
 sidebar_position: 2
 ---
 
-## How to install AdGuard VPN browser extension
+## Cách cài đặt tiện ích mở rộng trình duyệt AdGuard VPN
 
-To install AdGuard VPN browser extension, follow these steps:
+Để cài đặt tiện ích mở rộng trình duyệt AdGuard VPN, hãy làm theo các bước sau:
 
-1. Visit [adguard-vpn.com](https://adguard-vpn.com/browser-extension/overview.html)
+1. Truy cập [adguard-vpn.com](https://adguard-vpn.com/browser-extension/overview.html).
 
-2. Click on the icon of your browser and then click *Install*.
+2. Nhấp vào biểu tượng của trình duyệt của bạn và sau đó nhấp vào *Cài đặt*.
 
-3. Depending on your browser, one of the websites will open: Chrome Web Store, Firefox Add-ons, or Microsoft Edge Add-ons. Click the respective button: *Add to Chrome*, *Add to Firefox* or *Get* next to AdGuard VPN Browser extension.
+3. Tùy thuộc vào trình duyệt của bạn, một trong các trang web sẽ mở ra: Cửa hàng Chrome trực tuyến, Tiện ích bổ sung Firefox, Tiện ích bổ sung Opera hoặc Tiện ích bổ sung Microsoft Edge. Nhấp vào nút tương ứng: *Thêm vào Chrome*, *Thêm vào Firefox*, *Thêm vào Opera* hoặc *Được* bên cạnh tiện ích mở rộng Trình duyệt AdGuard VPN.
 
-4. Once the installation is complete, you will be prompted to switch to [unlimited version](https://adguard-vpn.com/thankyou.html). It's completely optional but if you find that the free version is not enough for you, you can purchase a [subscription](/general/subscription.md) at any moment.
+4. Đọc và chấp nhận EULA và Chính sách bảo mật bằng cách chọn hộp tương ứng. Bạn cũng có thể cho phép AdGuard VPN thu thập dữ liệu ẩn danh về việc sử dụng ứng dụng mà chúng tôi cần để cải thiện sản phẩm của mình (đây là tùy chọn). Sau đó nhấp vào *Tiếp tục*.
 
-4. Read and accept the EULA and Privacy Policy by checking the respective box. You can also allow AdGuard VPN to collect anonymized data on the app usage, which we need to improve our product (this is optional). Then click *Continue*.
+5. Đăng ký hoặc đăng nhập vào tài khoản AdGuard của bạn để hoàn tất cài đặt.
 
-5. Sign up or log into your previously created AdGuard account to finish the installation process.
+Tận hưởng việc sử dụng AdGuard VPN!
 
-Enjoy AdGuard VPN!
-
-## How to uninstall AdGuard VPN browser extension
+## Cách cài đặt tiện ích mở rộng trình duyệt AdGuard VPN
 
 ### Chrome
 
-Click the three dots icon in the top right corner of the browser, then select *More tools → Extensions*. Find AdGuard VPN and click *Remove*.
+Nhấp vào biểu tượng ba chấm ở góc trên cùng bên phải của trình duyệt, sau đó chọn *Các công cụ khác → Tiện ích mở rộng*. Tìm AdGuard VPN và nhấp vào *Xóa*.
 
 ### Firefox
 
-Click the sandwich menu icon in the top right corner of the browser, then select *Add-ons and themes*. Find AdGuard VPN in the list, click the three dots icon next to it and select *Remove*.
+Nhấp vào biểu tượng ba chấm ở góc trên cùng bên phải của trình duyệt, sau đó chọn *Các công cụ khác → Tiện ích mở rộng*. Tìm AdGuard VPN trong danh sách, nhấp vào biểu tượng ba chấm bên cạnh và chọn *Xóa*.
 
 ### Edge
 
-Click the three dots icon in the top right corner of the browser, then select *Extensions*. Find AdGuard VPN in the list, click the three dots icon next to it and select *Remove from Microsoft Edge*.
+Nhấp vào biểu tượng ba chấm ở góc trên cùng bên phải của trình duyệt, sau đó chọn *Các công cụ khác → Tiện ích mở rộng*. Tìm AdGuard VPN trong danh sách, nhấp vào biểu tượng ba chấm bên cạnh và chọn *Xóa khỏi Microsoft Edge*.
+
+### Opera
+
+Nhấp vào biểu tượng *Phần mở rộng* ở góc trên cùng bên phải của trình duyệt, sau đó chọn *Quản lý tiện ích...*. Tìm AdGuard VPN trong danh sách và nhấp vào nút *Xóa*.  

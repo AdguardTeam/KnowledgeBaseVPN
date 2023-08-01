@@ -1,73 +1,73 @@
 ---
-title: 'Por que o AdGuard VPN é a melhor opção'
+title: 'Why AdGuard VPN is the better option'
 sidebar_position: 2
 ---
 
-Ao se preparar para se comprometer com uma assinatura de VPN de longo prazo [](subscription.md), os usuários levam em conta com mais frequência a velocidade, segurança e preço. Esses são pontos muito importantes, mas há muito mais! O AdGuard VPN possui vários recursos importantes que o tornam "a melhor opção".
+When getting ready to commit to a [long-term VPN subscription](subscription.md), users most frequently evaluate its speed, security, and price. Those are very important points but there is so much more! AdGuard VPN has a dozen of key assets that make it 'the better option'.
 
-*Para começar, vamos examinar os recursos do AdGuard VPN que você não encontrará em nenhuma outra VPN.*
+*To start with, let’s go over AdGuard VPN’s unmatched features that you won’t find in any other VPN.*
 
-## 1. Protocolo proprietário
-Desde o início, resolvemos desenvolver e implantar um protocolo VPN interno em vez de optar por uma solução pronta. Isso seria fácil de mais, além disso, não estávamos satisfeitos com os protocolos existentes. O resultado tornou-se o [protocolo AdGuard VPN](adguard-vpn-protocol.mdx).
+## 1. Proprietary protocol
+From the very outset, we resolved to develop and deploy an in-house VPN protocol instead of picking a canned solution — that’d be too easy, plus, we weren’t satisfied with existing protocols. The result has become the [AdGuard VPN protocol](adguard-vpn-protocol.mdx).
 
-Ao escolher um serviço VPN, as pessoas geralmente precisam escolher entre rápido e seguro. O protocolo AdGuard VPN é uma mistura perfeita de velocidade e segurança, para que você não precise lidar com uma conexão de internet lenta ou sacrificar sua privacidade. Entre outras coisas, ele se disfarça de tráfego regular e é muito mais difícil detectar e bloquear.
+Choosing a VPN service, people often face a trade-off between fast vs. safe. The AdGuard VPN protocol is a perfect blend of speed and security, so you don’t have to bear slow internet connection or make privacy sacrifices. Among other things, it disguises itself as regular traffic and it’s much harder to detect and block it.
 
-## 2. Exclusões
-As listas de *Exclusões* permitem selecionar sites para os quais a VPN deve ser habilitada e para os quais de ser desabilitada. Existem dois modos de operação no AdGuard VPN: *Geral* e *Selectivo*. No modo geral **, a VPN funciona em todos os lugares, exceto sites adicionados às exclusões. E vice-versa, no *modo Seletivo*, a VPN funciona apenas em sites adicionados às exclusões. Você também pode facilmente importar/exportar listas de exclusões. Leia sobre esse recurso na *Visão geral dos recursos* para o produto em que está interessado.
+## 2. Exclusions
+The *Exclusions lists* allow you to select sites for which the VPN should be enabled and for which — disabled. There are two operation modes in AdGuard VPN: *General* and *Selective*. In *General mode*, VPN works everywhere except websites added to exclusions. And vice versa, in *Selective mode*, VPN works nowhere but on websites added to exclusions. You can also easily import/export exclusions lists. Read about this feature in *Features overview* for the product you are interested in.
 
-![Um exemplo de uma lista de exclusão para o modo Seletivo](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn_export_exclusions.png)
+![An example of an exclusion list for Selective mode](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn_export_exclusions.png)
 
-Você pode adicionar sites às exclusões manualmente ou escolhê-los entre as listas de serviços populares. As listas estão divididas em oito categorias: Redes sociais, Mensageiros, Serviços de streaming de vídeo e música, Jogos, Compras, Mecanismos de Pesquisa e Ferramentas de comunicação no trabalho.
+You can add websites to exclusions manually or choose them among the lists of popular services. The lists are divided into eight categories: Social networks, Messengers, Video and Music streaming services, Games, Shopping, Search engines, and Work communication tools.
 
-> Este recurso está disponível em todas as plataformas, exceto iOS.
+> This feature is available on all platforms except iOS.
 
-## 3. Escolhendo um servidor DNS
-Chega de depender do servidor DNS fornecido pelo seu ISP por padrão! Primeiro, não é seguro: seu ISP provavelmente tem acesso ao seu histórico de navegação. Em segundo lugar, as pessoas geralmente subestimam o DNS, mas ele pode remover anúncios e rastreadores, proteger seu dispositivo contra malware ou, por exemplo, permitir uma pesquisa segura e bloquear conteúdo adulto.
+## 3. Choosing a DNS server
+No more relying on the DNS server provided by your ISP by default! First, it’s not safe: your ISP most likely has access to your browsing history. Second, people often underestimate DNS, yet it can remove ads and trackers, protect your device from malware or, for instance, enable safe search and block adult content.
 
-Você pode escolher servidores DNS de [provedores DNS conhecidos](https://kb.adguard.com/en/general/dns-providers) , como AdGuard, Cisco, Cloudflare, Google ou Quad9, ou até mesmo configurar para usar seu próprio servidor DNS.
+You can choose DNS servers from [known DNS providers](https://adguard-dns.io/kb/general/dns-providers/) such as AdGuard, Cisco, Cloudflare, Google, or Quad9, or even configure to use your own DNS server.
 
-## 4. Locais mais rápidos
+## 4. Fastest locations
 
-Outro recurso que destaca o AdGuard VPN da multidão é que você pode selecionar um local com base em seu ping. Em poucas palavras, ping é o tempo que o pacote de dados enviado do seu dispositivo leva para chegar ao servidor e retornar. Em caso de dúvida, use uma regra prática: quanto menor o ping, mais próximo o servidor, maior sua velocidade. Estamos constantemente expandindo o número de locais para que você possa escolher entre uma grande variedade.
+Another feature that makes AdGuard VPN stand out from the crowd is that you can select a location based on its ping. In a nutshell, ping is the time it takes the data packet sent from your device to reach the server and return. When in doubt, use a rule of thumb: the lower the ping, the closer the server, the higher its speed. We are constantly expanding the number of locations so that you can choose from a variety.
 
-> Observe que, para acessar todos os locais de servidor VPN, você precisa adquirir uma assinatura do AdGuard VPN.
+> Note that to access all VPN server locations, you need to purchase an AdGuard VPN subscription.
 
-## 5. Compatibilidade com o AdGuard Ad Blocker
+## 5. Compatibility with AdGuard Ad Blocker
 
-Com aplicativos de desktop e extensões de navegador, nem é preciso dizer: raramente há conflitos entre aplicativos, exceto antivírus e outros softwares com funções parecidas.
+With desktop apps and browser extensions this goes without saying — there’s rarely any conflicts between apps, save for antiviruses and other similarly oriented software.
 
-Com dispositivos móveis, por outro lado, a situação não é tão simples. Na grande maioria dos casos, dois aplicativos baseados em VPN não funcionarão juntos, apenas porque existem certas limitações induzidas pelo sistema operacional que impedem que isso aconteça, tanto no Android quanto no iOS.
+With mobile devices, on the other hand, it’s not that simple. In the vast majority of cases, two VPN-based apps will not work together, just because certain OS-induced limitations exist that prevent that from happening, both on Android and iOS.
 
-No entanto, conseguimos encontrar uma solução para garantir a compatibilidade entre o AdGuard VPN e o AdGuard Ad Blocker. Quando você tiver ambos os aplicativos AdGuard instalados em um dispositivo simultaneamente, eles se tornarão automaticamente compatíveis sem qualquer ação necessária de sua parte. Esta é uma oportunidade única de aproveitar dois conjuntos de recursos, entre os quais você normalmente teria que escolher.
+However, we managed to find a solution to befriend AdGuard VPN and AdGuard Ad Blocker. When you have both AdGuard apps installed on one device, they will automatically become compatible without any input required from you. This is a unique opportunity to take advantage of two sets of features, which you would normally have to choose between.
 
-## 6. Suporte QUIC
-[QUIC](https://adguard.com/en/blog/dns-over-quic.html) é um protocolo de ponta que tem muitas vantagens. A principal vantagem é que pode melhorar a qualidade da conexão em condições não ideais como, por exemplo, em dispositivos móveis ou ao se conectar a um Wi-Fi público. Embora o novo protocolo não afete a velocidade quando a conexão estiver boa e estável, com certeza melhorará a situação para usuários com internet lenta.
+## 6. QUIC support
+[QUIC](https://adguard.com/blog/dns-over-quic.html) is a cutting-edge protocol that has many perks. The main advantage is it can improve connection quality in non-ideal conditions – for example, on mobile devices or when connecting to public Wi-Fi. Although the new protocol won’t affect speed when the connection is fine and stable, it will definitely make the situation better for users with slow internet.
 
-*Agora vamos mudar para o conjunto de itens que não podem faltar em uma boa VPN.*
+*Now let’s switch to the item set that any decent VPN can't do without.*
 
-## 7. Kill switch
-O Kill Switch é essencial se você, por exemplo, costuma usar uma rede móvel ou se conectar a redes Wi-Fi públicas em shoppings, cafés, metrô ou aeroporto. Por uma simples razão: se a VPN cair repentinamente e a conexão se tornar insegura, é provável que suas informações confidenciais sejam expostas a fraudadores ou criminosos cibernéticos.
+## 7. Kill Switch
+Kill Switch is essential if you, for instance, often use a mobile network or connect to public Wi-Fi networks in malls, cafes, on the subway or at the airport. For the simple reason — if VPN will suddenly drop and the connection will become insecure, chances are that your sensitive information will be exposed to fraudsters or cyber criminals.
 
-Se, por algum motivo, sua conexão VPN for interrompida, o Kill Switch desconectará automaticamente a conexão com a Internet, evitando que invasores tenham acesso a suas informações. Com o Kill Switch, você pode ter certeza de que está em boas mãos. Se você está preocupado com a privacidade ou pelo menos valoriza seus dados pessoais, não ignore este método infalível.
+If for some reason your VPN connection is interrupted, Kill Switch will automatically disconnect the internet connection, keeping attackers away from seizing your information. With Kill Switch, rest assured that you are in safe hands. If you’re concerned about privacy or at least value your personal data, don’t overlook this bulletproof method.
 
-## 8. Túnel dividido
-Esse recurso é semelhante às listas de exclusões mencionadas acima. A única diferença é que aqui você pode excluir aplicativos em vez de sites.
+## 8. Split tunneling
+This feature resembles the exclusions lists mentioned above. The only difference is that here you can exclude apps instead of websites.
 
-## 9. Proteção automática
-Este recurso foi desenvolvido especificamente para redes não seguras. Para comodidade dos usuários, tornamos impossível esquecer de habilitar a VPN ao visitar locais públicos. Se você entrar em uma cafeteria e se conectar a uma rede Wi-Fi local, será automaticamente conectado ao AdGuard VPN.
+## 9. Auto-Protection
+This feature has been developed specifically for unsecured networks. For the convenience of users, we made it impossible to forget to enable VPN when visiting public places. Should you pop into a coffee shop and connect to a local Wi-Fi network, you’ll be automatically connected to AdGuard VPN.
 
-## 10. Até cinco dispositivos conectados por vez
-AdGuard VPN oferece cinco conexões simultâneas para seus usuários pagos. Colocamos ênfase especial na palavra *simultâneo*, e aqui está o porquê. Alguns provedores de VPN só permitem fazer login em seus serviços em *cinco dispositivos no máximo*. Com AdGuard VPN, *não há limite* para o número de dispositivos que podem ser conectados à sua conta, mas você pode ter cinco conexões VPN habilitadas ao mesmo tempo. Quem não tem assinatura pode usar o AdGuard VPN em *dois dispositivos*, o que nos dá mais um trunfo para jogar contra os concorrentes — a maioria dos serviços VPN tem apenas *um dispositivo* em suas versões gratuitas.
+## 10. Up to five connected devices at a time
+AdGuard VPN offers five simultaneous connections to its paid users. We place special emphasis on the word *simultaneous*, and here is why. Some VPN providers only allow to log in to their service on *five devices max*. With AdGuard VPN, *there’s no limit* to the number of devices that can be logged in to your account, but you can have five VPN connections enabled at the same time. Those who don’t have a subscription can use AdGuard VPN on *two devices*, which gives us another trump card to play against competitors — most of the VPN services only have *one device* in their free versions.
 
-## 11. Streaming seguro
-Os serviços de streaming não gostam de VPNs por razões óbvias: de acordo com as estatísticas, cerca de 20% dos usuários instalam uma VPN principalmente para assistir programas, programas de TV e filmes ignorando o bloqueio geográfico. É por isso que as plataformas de streaming tendem a fazer tudo o que podem para rastrear o tráfego VPN e bloqueá-lo.
+## 11. Secure streaming
+Streaming services don't like VPNs for obvious reasons: according to statistics, about 20% of users install a VPN mainly to watch shows, TV shows and movies bypassing geo-blocking. That's why streaming platforms tend to do everything they can to track VPN traffic and block it.
 
-Mas e se você quiser se sentir seguro enquanto assiste a conteúdos específicos da sua região? Ou não quer parar de assistir séries emocionantes mesmo quando viaja para outro país? A resposta é simples: AdGuard VPN, que graças ao seu protocolo exclusivo pode permanecer invisível para os serviços.
+But what if you want to feel safe while watch content specific to your region? Or don't want stop watching exciting series even when you travel to another country? The answer is simple — AdGuard VPN, which thanks to its unique protocol can remain invisible to services.
 
-> Não endossamos o uso do AdGuard VPN para contornar os regulamentos de direitos autorais.
+> We don't endorse the use of AdGuard VPN to bypass copyright regulations.
 
-## 12. Modo escuro
+## 12. Dark mode
 
-![Modo escuro](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/main_en_black.png)
+![Dark mode](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/main_en_black.png)
 
-Este pequeno recurso merece menção especial. Na verdade, muitos usuários anseiam pelo modo escuro, então não podíamos ignorá-lo e adicionamos uma opção de tema para todos os produtos AdGuard VPN. Escolha o que você mais gosta - claro, escuro ou padrão do sistema. Espero que você se junte ao lado negro.
+This little feature deserves special mention. In fact, many users crave for dark mode, so we couldn’t ignore it and added a theme switch for all AdGuard VPN products. Choose the one you like more — light, dark or system default. Hope you’ll join the dark side.

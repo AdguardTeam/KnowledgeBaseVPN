@@ -25,7 +25,7 @@ Windows용 AdGuard VPN을 사용하려면 [당사 웹사이트](https://adguard-
 
 ![Windows용 AdGuard VPN 메인 화면](https://cdn.adguardvpn.com/content/release_notes/vpn/windows/v2.0/new_main_window_en.png)
 
-**홈 화면**에서 가장 눈에 띄는 항목은 AdGuard VPN 연결/연결 해제 버튼입니다. 버튼 아래에는 응용 프로그램이 실행 중인 [모드](#exclusions)가 표시되고, 그 아래에는 선택한 서버가 표시됩니다. 화면 오른쪽에는 사용 가능한 모든 서버가 표시됩니다. 가장 빠른 위치, 즉 핑이 가장 짧은 위치가 목록의 맨 위에 표시됩니다.
+**홈 화면**에서 가장 눈에 띄는 항목은 AdGuard VPN 연결/연결 해제 버튼입니다. 버튼 위에는 애플리케이션이 실행 중인 [모드](#exclusions)가 표시되고, 버튼 아래에는 선택한 서버가 표시됩니다. 화면 오른쪽에는 사용 가능한 모든 서버가 표시됩니다. 가장 빠른 위치, 즉 핑이 가장 낮은 위치가 목록의 맨 위에 표시됩니다.
 
 화면 상단에는 **홈**, **예외 목록**, **고객 지원**, **설정**의 네 가지 탭이 있는 탐색 패널이 있습니다.
 
@@ -69,7 +69,7 @@ Windows용 AdGuard Vpn의 마지막 상단 탭에는 응용 프로그램을 사�
 
 #### DNS 서버
 
-**DNS 서버** 탭에서는 자신만의 DNS 서버를 추가할 수 있습니다. 사용자는 모든 공급자의 DNS 서버를 설정할 수 있습니다. 표준 기능 외에도 광고, 추적 및 피싱으로부터 보호할 수 있는 서버인 [AdGuard DNS](https://kb.adguard.com/en/general/dns-providers#adguard-dns)를 추가하는 것이 좋습니다.
+**DNS 서버** 탭에서는 자신만의 DNS 서버를 추가할 수 있습니다. 사용자는 모든 공급자의 DNS 서버를 설정할 수 있습니다. 표준 기능 외에도 광고, 추적 및 피싱으로부터 보호할 수 있는 서버인 [AdGuard DNS](https://adguard-dns.io/kb/general/dns-providers/#adguard-dns)를 추가하는 것이 좋습니다.
 
 #### 고급 설정
 

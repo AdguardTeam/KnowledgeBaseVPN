@@ -32,9 +32,13 @@ module.exports = {
   themes: ['docusaurus-theme-search-typesense'],
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'ru', 'de', 'fr', 'es', 'it', 'ja', 'ko', 'zh-CN', 'zh-TW'],
+    locales: ['en', 'ru', 'de', 'cs', 'fr', 'es', 'it', 'ja', 'ko', 'pt-BR', 'tr', 'zh-CN', 'zh-TW'],
   },
   themeConfig: {
+    colorMode: {
+      defaultMode: 'light',
+      respectPrefersColorScheme: true,
+    },
     docs: {
       sidebar: {
         hideable: true,
@@ -59,11 +63,13 @@ module.exports = {
           to: VPN_WEBSITE_URL + '/blog/index.html',
           position: 'left',
           label: 'blog',
+          target: '_self',
         },
         {
           to: VPN_WEBSITE_URL,
           position: 'left',
           label: 'official_website',
+          target: '_self',
         },
         {
           type: 'localeDropdown',
@@ -96,22 +102,27 @@ module.exports = {
             {
               label: 'about',
               href: VPN_WEBSITE_URL + '/about-us.html',
+              target: '_self',
             },
             {
               label: 'official',
               href: VPN_WEBSITE_URL,
+              target: '_self',
             },
             {
               label: 'what_is_vpn',
-              href: VPN_WEBSITE_URL + '/what-is-vpn.html',
+              href: VPN_WEBSITE_URL + '/en/what-is-vpn.html',
+              target: '_self',
             },
             {
               label: 'blog',
               href: VPN_WEBSITE_URL + '/blog/index.html',
+              target: '_self',
             },
             {
               label: 'discuss',
-              href: ADGUARD_WEBSITE_URL + '/discuss.html',
+              href: VPN_WEBSITE_URL + '/discuss.html',
+              target: '_self',
             },
           ]
         },
@@ -121,18 +132,27 @@ module.exports = {
             {
               label: 'vpn_android',
               href: VPN_WEBSITE_URL + '/android/overview.html',
+              target: '_self',
             },
             {
               label: 'vpn_windows',
               href: VPN_WEBSITE_URL + '/windows/overview.html',
+              target: '_self',
             },
             {
               label: 'vpn_mac',
               href: VPN_WEBSITE_URL + '/mac/overview.html',
+              target: '_self',
             },
             {
               label: 'vpn_ios',
               href: VPN_WEBSITE_URL + '/ios/overview.html',
+              target: '_self',
+            },
+            {
+              label: 'vpn_browser_ext',
+              href: VPN_WEBSITE_URL + '/browser-extension/overview.html',
+              target: '_self',
             },
           ],
         },
@@ -141,15 +161,17 @@ module.exports = {
           items: [
             {
               label: 'support',
-              href: VPN_WEBSITE_URL + '/support/support.html',
+              href: VPN_WEBSITE_URL + '/support.html',
+              target: '_self',
             },
             {
               label: 'how_to_install',
-              href: 'https://kb.adguard.com/vpn/installation',
+              href: '/general/how-to-install/',
             },
             {
               label: 'faq',
               href: VPN_WEBSITE_URL + '/support/faq.html',
+              target: '_self',
             },
             {
               label: 'status',
@@ -167,6 +189,7 @@ module.exports = {
             {
               label: 'license',
               href: VPN_WEBSITE_URL + '/license.html',
+              target: '_self',
             },
             {
               label: 'contribute',
