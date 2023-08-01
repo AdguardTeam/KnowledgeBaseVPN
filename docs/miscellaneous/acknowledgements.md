@@ -31,11 +31,11 @@ Our dev team would like to thank the developers of the third-party software we u
 
 ## AdGuard VPN for Windows
 
-* Intercept traffic drivers (wfp & tdi): [https://netfiltersdk.com/nfsdk.html](https://netfiltersdk.com/nfsdk.html) 
-* WPF-based text editor component: [http://avalonedit.net/](http://avalonedit.net/) 
+* Intercept traffic drivers (wfp & tdi): [https://netfiltersdk.com/nfsdk.html](https://netfiltersdk.com/nfsdk.html)
+* WPF-based text editor component: [http://avalonedit.net/](http://avalonedit.net/)
 * High-performance JSON framework for .NET: [https://www.newtonsoft.com/json](https://www.newtonsoft.com/json)
 
-## AdGuard VPN Extension 
+## AdGuard VPN Extension
 
 * axios: [https://github.com/axios/axios](https://github.com/axios/axios)
 * babel: [https://github.com/babel/babel](https://github.com/babel/babel)
@@ -72,9 +72,5 @@ Our dev team would like to thank the developers of the third-party software we u
 
 ## VPN server
 
-* Netty: [https://netty.io/](https://netty.io/) 
+* Netty: [https://netty.io/](https://netty.io/)
 * Quiche: [https://github.com/cloudflare/quiche](https://github.com/cloudflare/quiche)
-
-
-
-
