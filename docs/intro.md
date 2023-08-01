@@ -42,56 +42,56 @@ Web traffic from any user may be of interest and is particularly valuable in ter
 
 ### Ultrafast VPN servers in 53 countries
 
-* Argentina
-* Australia
-* Austria
-* Belgium
-* Brazil
-* Bulgaria
-* Cambodia
-* Canada
-* Chile
-* Colombia
-* Croatia
-* Cyprus
-* Czechia
-* Denmark
-* Egypt
-* Estonia
-* Finland
-* France
-* Germany
-* Greece
-* Hong Kong
-* Hungary
-* India
-* Ireland
-* Israel
-* Italy
-* Japan
-* Kazakhstan
-* Luxembourg
-* Mexico
-* Netherlands
-* New Zealand
-* Norway
-* Philippines
-* Poland
-* Portugal
-* Romania
-* Russia
-* Serbia
-* Singapore
-* Slovakia
-* South Africa
-* South Korea
-* Spain
-* Sweden
-* Switzerland
-* Taiwan
-* Turkey
-* United Kingdom
-* United Arab Emirates
-* United States of America
-* Ukraine
-* Vietnam
+- Argentina
+- Australia
+- Austria
+- Belgium
+- Brazil
+- Bulgaria
+- Cambodia
+- Canada
+- Chile
+- Colombia
+- Croatia
+- Cyprus
+- Czechia
+- Denmark
+- Egypt
+- Estonia
+- Finland
+- France
+- Germany
+- Greece
+- Hong Kong
+- Hungary
+- India
+- Ireland
+- Israel
+- Italy
+- Japan
+- Kazakhstan
+- Luxembourg
+- Mexico
+- Netherlands
+- New Zealand
+- Norway
+- Philippines
+- Poland
+- Portugal
+- Romania
+- Russia
+- Serbia
+- Singapore
+- Slovakia
+- South Africa
+- South Korea
+- Spain
+- Sweden
+- Switzerland
+- Taiwan
+- Turkey
+- United Kingdom
+- United Arab Emirates
+- United States of America
+- Ukraine
+- Vietnam
