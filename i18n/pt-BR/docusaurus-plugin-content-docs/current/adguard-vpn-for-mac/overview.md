@@ -73,9 +73,11 @@ Aqui você pode adicionar um servidor DNS personalizado (ou servidores) para nã
 Configurações avançadas não são recomendadas para serem ajustadas. Não os altere a menos que solicitado pelo nosso suporte técnico ou a menos que você tenha certeza do que está fazendo.
 
 #### Nível de registro
+
 Existem apenas dois níveis de registro, mas recomendamos enfaticamente que você use o primeiro, o padrão. A segunda opção (registro estendido) deve ser definida apenas para registrar um comportamento estranho do programa após consultar nosso suporte técnico. Mesmo se você habilitou o segundo nível de log, certifique-se de voltar ao padrão após gravar os logs.
 
 #### Ocultar ícone da barra de menus
+
 Embora esta opção esteja localizada em *Configurações avançadas*, ela pode ser ativada sem hesitação. Você pode ocultar o ícone do AdGuard VPN na barra de menus, isso não impedirá que nosso aplicativo seja executado em segundo plano.
 
 #### Usar QUIC (experimental)

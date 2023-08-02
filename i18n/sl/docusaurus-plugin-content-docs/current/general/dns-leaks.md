@@ -35,8 +35,8 @@ For example, AdGuard DNS removes ads and protects your device from being tracked
 
 You can select any DNS server and configure it in AdGuard VPN:
 
-* in AdGuard VPN for Windows: *Settings* → *App settings* → *DNS servers*
-* in AdGuard VPN for Mac: *Settings* → *App settings* → *DNS servers*
-* in AdGuard VPN for Android: *Settings* (gear icon) → *App settings* → *DNS server*
-* in AdGuard VPN for iOS: *Settings* (gear icon) → *App settings* → *DNS server*
-* in AdGuard VPN Browser extension: the hamburger menu icon → *Settings* → *DNS server*
+- in AdGuard VPN for Windows: *Settings* → *App settings* → *DNS servers*
+- in AdGuard VPN for Mac: *Settings* → *App settings* → *DNS servers*
+- in AdGuard VPN for Android: *Settings* (gear icon) → *App settings* → *DNS server*
+- in AdGuard VPN for iOS: *Settings* (gear icon) → *App settings* → *DNS server*
+- in AdGuard VPN Browser extension: the hamburger menu icon → *Settings* → *DNS server*

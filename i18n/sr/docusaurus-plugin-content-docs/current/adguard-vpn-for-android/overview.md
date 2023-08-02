@@ -9,9 +9,9 @@ VPN je idealna alatka koja obezbeđuje sigurnost i anonimnost svaki put kada pre
 
 **VPN se često koristi za:**
 
-* Čuvanje ličnih podataka čak i dok koristite javni Wi-Fi
-* Sprečavanje praćenja aktivnosti na mreži maskiranjem IP adrese
-* Skrivanje prave geolokacije da bi ostali anonimni
+- Čuvanje ličnih podataka čak i dok koristite javni Wi-Fi
+- Sprečavanje praćenja aktivnosti na mreži maskiranjem IP adrese
+- Skrivanje prave geolokacije da bi ostali anonimni
 
 AdGuard VPN za Android sve to može da uradi za vas – pa čak i da ponudi nešto jedinstveno. Da biste saznali zašto je AdGuard VPN bolja opcija – pročitajte [ovaj članak](/general/why-adguard-vpn.md).
 
@@ -38,7 +38,7 @@ Postoje dva režima: u *Opštem režimu* lokacije sa liste izuzetaka su isključ
 Možete dodati domene (npr. `google.com`) ili poddomene (npr. `*.google.com`) web sajtove na *Izuzeci* na tri načina: unesite ih ručno u aplikaciju, ili direktno iz preglednika klikom na *Delite* i izabrati AdGuard VPN na otvorenoj listi ispod ili sa ugrađenih lista usluga podeljenih po kategorijama.
 
 ![Izuzeci](https://cdn.adguardvpn.com/public/Adguard/kb/VPN/Screenshots/add_site_android.jpg)
-> Postoje neke nijanse u ručnom dodavanju domena. Na primer, ako ručno isključite domen `yahoo.com`Svi `*.yahoo.com` poddomeni će takođe biti navedeni u izuzecima. However, domain names with other top-level domains, such as `yahoo.jp` or `yahoo.fr`, will not be excluded. Or you can add `youtube.com` to the exclusions, but the domain of the same service `youtu.be` will not get into the list. In this case, it’s more safe to use built-in lists of services, because we put there all subdomains related to each platform.
+> Postoje neke nijanse u ručnom dodavanju domena. Na primer, ako ručno isključite domen `yahoo.com`Svi `*.yahoo.com` poddomeni će takođe biti navedeni u izuzecima. Međutim, imena domena sa drugim domenima najvišeg nivoa, kao što su `yahoo.jp` Ili `yahoo.fr`, neće biti izuzeti. Ili možete dodati `youtube.com` u izuzetke, ali domen iste usluge `youtu.be` neće ući na listu. U ovom slučaju, sigurnije je koristiti ugrađene liste usluga, jer tu stavljamo sve poddomene vezane za svaku platformu.
 
 As you can enable subdomains in service lists, we added boxes that reflect the status of each service — you can see them on the main screen of *Exclusions* to the left of each service name: **fully-enabled** status is marked with a white check mark on green background, **fully-disabled** — with a gray box, and **partly-enabled**, which means that one or more parameters were changed — with a green square on white background. Good news: you can always return to the default view of service lists in case you’ve deleted or disabled any domains from there.
 

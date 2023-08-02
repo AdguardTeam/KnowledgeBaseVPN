@@ -9,9 +9,9 @@ VPN je ideální nástroj, který zajišťuje bezpečnost a anonymitu při každ
 
 **VPN se často používá pro:**
 
-* Zabezpečení osobních údajů i při používání veřejné sítě Wi-Fi
-* Zabránění sledování online aktivit maskováním IP adresy
-* Skrytí skutečné zeměpisné polohy pro zachování anonymity
+- Zabezpečení osobních údajů i při používání veřejné sítě Wi-Fi
+- Zabránění sledování online aktivit maskováním IP adresy
+- Skrytí skutečné zeměpisné polohy pro zachování anonymity
 
 AdGuard VPN pro Android to všechno zvládne za vás — a dokonce nabízí něco jedinečného. Chcete-li zjistit, proč je AdGuard VPN nejlepší volbou — přečtěte si [tento článek](/general/why-adguard-vpn.md).
 

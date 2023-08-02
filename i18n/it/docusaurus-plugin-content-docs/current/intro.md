@@ -16,18 +16,20 @@ Parlando di VPN, la prima cosa che menzionano è la crittografia del traffico e 
 
 La VPN può essere utilizzata per:
 
-* nascondi la tua vera posizione rimanendo anonimo
-* proteggi i tuoi dati: anche quando ti connetti a una rete Wi-Fi pubblica, puoi navigare sul web in tutta sicurezza
-* proteggersi dallo spoofing (intercettazione del traffico di rete) e dal tracciamento da parte del proprio provider di servizi Internet
+- nascondi la tua vera posizione rimanendo anonimo
+- proteggi i tuoi dati: anche quando ti connetti a una rete Wi-Fi pubblica, puoi navigare sul web in tutta sicurezza
+- proteggersi dallo spoofing (intercettazione del traffico di rete) e dal tracciamento da parte del proprio provider di servizi Internet
 
 Password, dettagli della carta e semplici informazioni personali sono a rischio quando un utente naviga in Internet. Ma se ti connetti alla rete globale utilizzando una VPN, puoi essere certo che nessuno possa intercettare i tuoi dati.
 
 ## Perché AdGuard VPN?
 
 ### Sviluppatore affidabile
+
 AdGuard è presente nel mercato della protezione dei dati personali e del blocco degli annunci e sviluppa la sua linea di software da oltre 12 anni. In questo periodo, la nostra azienda ha costruito una reputazione impeccabile e il numero dei nostri clienti ha superato i 30 milioni.
 
 ### Protocollo VPN unico
+
 La differenza principale tra AdGuard VPN e i suoi concorrenti è che utilizziamo [il nostro protocollo sviluppato](/general/adguard-vpn-protocol.mdx). Si maschera da traffico normale, quindi è molto più difficile rintracciarlo e bloccarlo.
 
 ### Politica senza registri
@@ -35,60 +37,61 @@ La differenza principale tra AdGuard VPN e i suoi concorrenti è che utilizziamo
 La politica Senza registri significa che non raccogliamo, memorizziamo o trasferiamo i dati personali degli utenti a terzi. The full text of AdGuard VPN Privacy policy can be found [here](https://adguard-vpn.com/privacy.html).
 
 ### Protezione anti-monitoraggio
+
 Il traffico web proveniente da qualsiasi utente può essere interessante ed è particolarmente prezioso in termini di monetizzazione dei dati personali. Sia i criminali che gli ISP senza scrupoli possono accedervi. Tuttavia, con una VPN affidabile, puoi essere sicuro che né il tuo provider né nessun altro vedrà la tua attività su Internet.
 
 ### Ultrafast VPN servers in 53 countries
 
-* Argentina
-* Australia
-* Austria
-* Belgio
-* Brasile
-* Bulgaria
-* Cambogia
-* Canada
-* Chile
-* Colombia
-* Croatia
-* Cyprus
-* Czechia
-* Denmark
-* Egypt
-* Estonia
-* Finland
-* France
-* Germany
-* Greece
-* Hong Kong
-* Hungary
-* India
-* Ireland
-* Israel
-* Italy
-* Japan
-* Kazakhstan
-* Luxembourg
-* Mexico
-* Netherlands
-* New Zealand
-* Norway
-* Philippines
-* Poland
-* Portugal
-* Romania
-* Russia
-* Serbia
-* Singapore
-* Slovakia
-* South Africa
-* South Korea
-* Spain
-* Sweden
-* Switzerland
-* Taiwan
-* Turkey
-* United Kingdom
-* United Arab Emirates
-* United States of America
-* Ukraine
-* Vietnam
+- Argentina
+- Australia
+- Austria
+- Belgio
+- Brasile
+- Bulgaria
+- Cambogia
+- Canada
+- Chile
+- Colombia
+- Croatia
+- Cyprus
+- Czechia
+- Denmark
+- Egypt
+- Estonia
+- Finland
+- France
+- Germany
+- Greece
+- Hong Kong
+- Hungary
+- India
+- Ireland
+- Israel
+- Italy
+- Japan
+- Kazakhstan
+- Luxembourg
+- Mexico
+- Netherlands
+- New Zealand
+- Norway
+- Philippines
+- Poland
+- Portugal
+- Romania
+- Russia
+- Serbia
+- Singapore
+- Slovakia
+- South Africa
+- South Korea
+- Spain
+- Sweden
+- Switzerland
+- Taiwan
+- Turkey
+- United Kingdom
+- United Arab Emirates
+- United States of America
+- Ukraine
+- Vietnam

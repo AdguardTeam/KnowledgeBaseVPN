@@ -9,8 +9,8 @@ Rozšíření prohlížeče AdGuard VPN je k dispozici pro Chrome, Firefox, Oper
 
 Chcete-li spravovat rozšíření prohlížeče AdGuard VPN:
 
-* Klikněte na jeho ikonu na panelu prohlížeče, klikněte na tři čáry a vyberte *Nastavení*,
-* Nebo přejděte ve svém prohlížeči na stránku *Správa rozšíření*, klikněte na *Podrobnosti* pod *AdGuard VPN* a spravujte nastavení odtud.
+- Klikněte na jeho ikonu na panelu prohlížeče, klikněte na tři čáry a vyberte *Nastavení*,
+- Nebo přejděte ve svém prohlížeči na stránku *Správa rozšíření*, klikněte na *Podrobnosti* pod *AdGuard VPN* a spravujte nastavení odtud.
 
 Po dokončení se vlevo zobrazí několik karet:
 

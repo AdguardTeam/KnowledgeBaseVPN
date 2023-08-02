@@ -13,12 +13,12 @@ Hay una aplicación AdGuard VPN para prácticamente todas las plataformas princi
 
 Imaginemos que sucedió: detectó un error. ¿O tal vez solo quiere compartir su sugerencia con los desarrolladores? De todos modos, hay varias formas de hacérnoslo saber:
 
-* Vaya a [forum.adguard.com](https://forum.adguard.com) y publique allí un nuevo hilo (o busque uno existente) en [la categoría 'Pruebas beta' del foro](https://forum.adguard.com/index.php?categories/48/). Asegúrese de leer primero las reglas [del foro](https://forum.adguard.com/index.php?threads/14859/);
+- Vaya a [forum.adguard.com](https://forum.adguard.com) y publique allí un nuevo hilo (o busque uno existente) en [la categoría 'Pruebas beta' del foro](https://forum.adguard.com/index.php?categories/48/). Asegúrese de leer primero las reglas [del foro](https://forum.adguard.com/index.php?threads/14859/);
 
-* Vaya a [GitHub](https://github.com/AdguardTeam/) y busque un repositorio adecuado. Cree un nuevo problema allí y describa la solicitud de error / característica en detalle.
+- Vaya a [GitHub](https://github.com/AdguardTeam/) y busque un repositorio adecuado. Cree un nuevo problema allí y describa la solicitud de error / característica en detalle.
 
 Los dos métodos anteriores son los más preferidos, pero puede usar otros si es necesario:
 
-* Encuéntrenos en varias plataformas de redes sociales, como [Facebook](https://www.facebook.com/AdguardEn/), [Reddit](https://www.reddit.com/r/Adguard/), etc. Sin embargo, esta no es la forma más eficiente de discutir asuntos técnicos.
+- Encuéntrenos en varias plataformas de redes sociales, como [Facebook](https://www.facebook.com/AdguardEn/), [Reddit](https://www.reddit.com/r/Adguard/), etc. Sin embargo, esta no es la forma más eficiente de discutir asuntos técnicos.
 
-* Envíe un correo electrónico a nuestro equipo de soporte desde la pestaña Soporte de la aplicación o escriba directamente a [support@adguard.com](mailto:support@adguard.com).
+- Envíe un correo electrónico a nuestro equipo de soporte desde la pestaña Soporte de la aplicación o escriba directamente a [support@adguard.com](mailto:support@adguard.com).

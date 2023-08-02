@@ -17,14 +17,14 @@ Pořízení snímku obrazovky na zařízení se systémem Android lze provést r
 
 Obecně byste pro systém Android měli používat následující kombinaci tlačítek:
 
-+ **Podržte současně tlačítka *Hlasitost dolů* a *Napájení* po dobu 1–2 sekund**
+- **Podržte současně tlačítka *Hlasitost dolů* a *Napájení* po dobu 1–2 sekund**
 
 Zařízení se systémem Android zachytí celou obrazovku a uloží ji jako fotografii. Snímek obrazovky tak najdete ve složce Snímky obrazovky v Galerii.
 
 Ale jak již bylo řečeno, mohou existovat rozdíly v závislosti na konkrétním zařízení. Podívejme se na další možné kombinace:
 
-+ **Podržte současně tlačítka *Domů* a *Napájení* po dobu 1–2 sekund**
-+ **Podržte současně tlačítka *Zpět* a *Domů***
+- **Podržte současně tlačítka *Domů* a *Napájení* po dobu 1–2 sekund**
+- **Podržte současně tlačítka *Zpět* a *Domů***
 
 V systému Android 8 a novějších verzích je také možné pořídit snímek obrazovky tak, že položíte ruku svisle podél levého nebo pravého okraje telefonu a přejedete od tohoto okraje dovnitř rukou, která se dotýká obrazovky.
 
@@ -38,17 +38,17 @@ Každé zařízení se systémem iOS (s výjimkou starých zařízení) umožňu
 
 Chcete-li pořídit snímek obrazovky v zařízení se systémem iOS, použijte následující kombinaci:
 
-+ **Stiskněte současně tlačítko *Uspat/Probudit* (boční) a tlačítko *Domů* a poté je rychle uvolněte**
+- **Stiskněte současně tlačítko *Uspat/Probudit* (boční) a tlačítko *Domů* a poté je rychle uvolněte**
 
 a tento postup je pro iPhone X nebo novější:
 
-+ **Stiskněte současně tlačítko *Uspat/Probudit* a tlačítko *Hlasitost nahoru* a poté je rychle uvolněte**
+- **Stiskněte současně tlačítko *Uspat/Probudit* a tlačítko *Hlasitost nahoru* a poté je rychle uvolněte**
 
 Zařízení se systémem iOS zachytí celou obrazovku a uloží ji jako fotografii. Najdete ji ve standardní aplikaci Fotky.
 
 ### Windows
 
-+ **Chcete-li pořídit snímek obrazovky ve Windows, stiskněte tlačítko *PrtScn***
+- **Chcete-li pořídit snímek obrazovky ve Windows, stiskněte tlačítko *PrtScn***
 
 Na některých noteboocích musíte podržet *Fn* a pak místo toho stisknout *PrtScn*.
 
@@ -58,11 +58,11 @@ Windows zachytí celou obrazovku a zkopíruje ji do (neviditelné) schránky.
 
 Chcete-li pořídit snímek obrazovky aktivního okna, použijte následující kombinaci:
 
-+ **Podržte stisknutý *Alt* a stiskněte *PrtScn* (nebo na některých noteboocích *Fn + Alt + PrtScn*)**
+- **Podržte stisknutý *Alt* a stiskněte *PrtScn* (nebo na některých noteboocích *Fn + Alt + PrtScn*)**
 
 Chcete-li pořídit snímek obrazovky určité oblasti, použijte následující kombinaci:
 
-+ ***Podržte stisknuté *Win* (tlačítko Windows) + *Shift* a stiskněte ***S******
+- ***Podržte stisknuté *Win* (tlačítko Windows) + *Shift* a stiskněte ***S******
 
 Po pořízení snímku obrazovky se snímek uloží do schránky. Ve většině případů jej budete moci vložit do dokumentu, který právě upravujete, pomocí kombinace tlačítek *Ctrl + V*. Pokud potřebujete snímek obrazovky uložit do souboru, otevřete standardní program **Malování** (nebo jinou aplikaci, která umí pracovat s obrázky). Vložte tam snímek obrazovky pomocí stejné kombinace tlačítek nebo kliknutím na tlačítko Vložit (obvykle v levém horním rohu obrazovky) a poté jej uložte.
 
@@ -76,21 +76,21 @@ Kromě toho můžete zkusit používat různé aplikace pro pořizování snímk
 
 Chcete-li pořídit snímek obrazovky v zařízení se systémem macOS, použijte následující kombinaci tlačítek:
 
-+ ***Stiskněte a podržte současně tlačítka ***⌘ Cmd + Shift + 3******
+- ***Stiskněte a podržte současně tlačítka ***⌘ Cmd + Shift + 3******
 
 Váš Mac zachytí celou obrazovku a uloží ji jako soubor na plochu.
 
 Chcete-li pořídit snímek obrazovky aktivního okna, použijte následující kombinaci:
 
-+ **Stiskněte a podržte současně tlačítka *⌘ Cmd + Shift + 4 + mezerník*.  Ukazatel se změní na ikonu fotoaparátu. Klikněte na okno a zachyťte snímek. Stisknutím tlačítka Esc zrušíte pořizování snímku obrazovky**
+- **Stiskněte a podržte současně tlačítka *⌘ Cmd + Shift + 4 + mezerník*.  Ukazatel se změní na ikonu fotoaparátu. Klikněte na okno a zachyťte snímek. Stisknutím tlačítka Esc zrušíte pořizování snímku obrazovky**
 
 Chcete-li pořídit snímek obrazovky určité oblasti, použijte následující kombinaci:
 
-+ ***Stiskněte a podržte současně tlačítka ***⌘ Cmd + Shift + 4******. Přetažením křížku vyberte potřebnou oblast. Pro pořízení snímku obrazovky, uvolněte myš nebo trackpad, pro zrušení stiskněte tlačítko Esc.
+- ***Stiskněte a podržte současně tlačítka ***⌘ Cmd + Shift + 4******. Přetažením křížku vyberte potřebnou oblast. Pro pořízení snímku obrazovky, uvolněte myš nebo trackpad, pro zrušení stiskněte tlačítko Esc.
 
 Chcete-li pořídit snímek obrazovky pomocí *Touch Bar* (MacBook Pro), použijte následující kombinaci:
 
-+ ***Podržte stisknuté tlačítka ***⌘ Cmd + Shift + 6******
+- ***Podržte stisknuté tlačítka ***⌘ Cmd + Shift + 6******
 
 Mac zachytí celý *Touch Bar* a uloží jej jako soubor na plochu.
 

@@ -8,10 +8,11 @@ sidebar_position: 1
 VPN umožňuje vytvořit zabezpečené připojení k jiné síti na internetu. Připojuje počítač nebo mobilní zařízení uživatele k serveru a umožňuje procházet internet pomocí IP adresy někoho jiného. Pokud se tedy VPN server nachází v jiné zemi, bude se zdát, že jste se k internetu připojili z této země. Zde jsou [další informace](/general/how-vpn-works.md) o tom, jak VPN funguje.
 
 Pokud jde o AdGuard VPN, má několik funkcí:
-* skrývá vaše skutečné místo pobytu a pomáhá vám zůstat v anonymitě
-* změní vaši IP adresu a ochrání vaše data před sledováním
-* zašifruje váš provoz, aby byl pro podvodníky nedostupný
-* umožňuje nastavit, kde se má VPN používat a kde ne (funkce výjimek)
+
+- skrývá vaše skutečné místo pobytu a pomáhá vám zůstat v anonymitě
+- changes your IP address to protect your data from tracking
+- zašifruje váš provoz, aby byl pro podvodníky nedostupný
+- umožňuje nastavit, kde se má VPN používat a kde ne (funkce výjimek)
 
 Další výhodou AdGuard VPN pro iOS je náš vlastní VPN protokol. Má dvě hlavní výhody: ve srovnání s ostatními VPN protokoly je velmi obtížné jej odhalit a funguje stabilně i při špatném internetovém připojení. Více informací o protokolu AdGuard VPN najdete v [tomto článku](../general/adguard-vpn-protocol.mdx).
 

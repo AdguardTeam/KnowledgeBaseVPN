@@ -12,27 +12,32 @@ Sorunu çözmek için iki yolunuz var:
 ### 1. Seçenek: ADB kullanarak AdGuard VPN'e izinler verme
 
 1. **Geliştirici modunu** etkinleştirin ve **USB hata ayıklamayı** etkinleştirin:
-- Telefonunuzda **Ayarlar** uygulamasını açın;
-- **Sistem** bölümüne gidin (ayarlar menüsündeki son öğe). Bu bölümde **Telefon hakkında** alt öğesini bulun;
-- **Yapı numarası** satırına 7 kez tıklayın. Bundan sonra, artık **Bir geliştirici olduğunuza dair** bir bildirim alırsınız (Gerekirse, cihaz için bir kilit açma kodu girin);
-- **Sistem Ayarları** → **Geliştirici Seçenekleri** öğesini açın → Aşağı kaydırın ve **USB hata ayıklaması** öğesini etkinleştirin → Uyarıyı dikkatlice okuduktan sonra **USB hata ayıklamasına izin ver** penceresinde hata ayıklamanın etkinleştirildiğini onaylayın.
 
-> Herhangi bir zorluk veya ek sorunuz varsa, tam talimatlar [burada](https://developer.android.com/studio/debug/dev-options) bulunabilir.
+    - Telefonunuzda **Ayarlar** uygulamasını açın;
+    - **Sistem** bölümüne gidin (ayarlar menüsündeki son öğe). Bu bölümde **Telefon hakkında** alt öğesini bulun;
+    - **Yapı numarası** satırına 7 kez tıklayın. Bundan sonra, artık **Bir geliştirici olduğunuza dair** bir bildirim alırsınız (Gerekirse, cihaz için bir kilit açma kodu girin);
+    - Open **System Settings** → **Developer Options** → Scroll down and enable **USB debugging** → Confirm debugging is enabled in the window **Allow USB debugging** after reading the warning carefully.
 
-2. ADB'yi [kurun ve yapılandırın](https://www.xda-developers.com/install-adb-windows-macos-linux/);
-> Windows platformunda, **Samsung** sahiplerinin [bu yardımcı programı](https://developer.samsung.com/mobile/android-usb-driver.html) yüklemeleri gerekebilir.
+    > If you have any difficulties or additional questions, full instructions can be found [here](https://developer.android.com/studio/debug/dev-options).
 
-3. Cihazınızı bir **USB kablosu** kullanarak **ADB** kurduğunuz bilgisayara veya dizüstü bilgisayara bağlayın;
-4. PC'nizde **komut satırını** açın:
-- **Windows** kullanıyorsanız **Cmd.exe**;
-- **macOS** kullanıyorsanız **Terminal**;
-5. `adb shell pm grant com.adguard.vpn android.permission.INTERACT_ACROSS_USERS` komutunu yazın ve **Enter** tuşuna basın.
+1. ADB'yi [kurun ve yapılandırın](https://www.xda-developers.com/install-adb-windows-macos-linux/);
+
+    > Windows platformunda, **Samsung** sahiplerinin [bu yardımcı programı](https://developer.samsung.com/mobile/android-usb-driver.html) yüklemeleri gerekebilir.
+
+1. Cihazınızı bir **USB kablosu** kullanarak **ADB** kurduğunuz bilgisayara veya dizüstü bilgisayara bağlayın;
+
+1. Open **the command line** on your PC:
+
+    - **Windows** kullanıyorsanız **Cmd.exe**;
+    - **macOS** kullanıyorsanız **Terminal**;
+
+1. `adb shell pm grant com.adguard.vpn android.permission.INTERACT_ACROSS_USERS` komutunu yazın ve **Enter** tuşuna basın.
 
 ### 2. Seçenek: *Kısıtlanmış kullanıcı hesabını* kaldırma
 
 Bir Android cihazdan kullanıcı hesaplarını nasıl yöneteceğinizi [burada bulabilirsiniz](https://support.google.com/a/answer/6223444?hl=en).
 
-> Lütfen bazı durumlarda kısıtlanmış kullanıcı hesaplarının dolaylı olarak oluşturulduğunu ve kaldırılamayacağını unutmayın. Örneğin, **Samsung** veya **LG** cihazlarında Dual Messenger veya Dual App özelliklerini kullandığınızda. Bu durumlarda sorunun nasıl çözüleceğini aşağıda okuyun.
+> Please note that in some cases restricted user accounts are created implicitly and cannot be removed. For instance, when you use Dual Messenger or Dual App features on **Samsung** or **LG** devices. Read below how to fix the issue in these cases.
 
 ### LG ve Samsung cihazları
 

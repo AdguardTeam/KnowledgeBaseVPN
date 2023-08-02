@@ -7,7 +7,6 @@ sidebar position: 1
 
 Si vous rencontrez un problème lors de l'utilisation de AdGuard VPN pour Windows, vous pouvez nous en informer. Nous vous serions reconnaissants si vous nous envoyiez également les journaux d'application, ils nous aident à résoudre les problèmes beaucoup plus rapidement.
 
-
 ## Collecte et envoi de journaux standard
 
 Par défaut, AdGuard VPN pour Windows utilise le niveau de journalisation standard, c'est-à-dire la collecte simple de données sur les processus en cours d'exécution de l'application. Pour envoyer ces journaux, procédez comme suit :
@@ -20,7 +19,6 @@ Par défaut, AdGuard VPN pour Windows utilise le niveau de journalisation standa
 
 4. Il y a une coche à côté de **Envoyer des informations système détaillées**, ce qui signifie que lorsque vous envoyez un rapport, vous envoyez également des journaux.
 > Si, pour une raison quelconque, il est plus pratique pour vous de nous envoyer les journaux d'une autre manière, vous pouvez les exporter vous-même. Pour ça, accédez à **Assistance** → **Exporter les journaux et les informations système**.
-
 
 ## Collecte et envoi de journaux détaillés
 

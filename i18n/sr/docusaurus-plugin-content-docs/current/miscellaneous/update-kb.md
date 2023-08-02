@@ -1,17 +1,17 @@
 ---
-title: 'Updating the Knowledge Base'
+title: 'Ažuriranje baze znanja'
 sidebar_position: 3
 ---
 
-The goal of this Knowledge Base is to provide everyone with the most up-to-date information on all kinds of AdGuard VPN-related topics. But things constantly change, and sometimes an article doesn't reflect the current state of things anymore — there are simply not so many of us to keep an eye on every single bit of information and update it accordingly when new versions are released.
+Cilj ove Baze znanja je da svima pruži najnovije informacije o svim vrstama tema vezanih za AdGuard VPN. Međutim, stvari se konstantno menjaju, a ponekad članak više ne odražava trenutno stanje stvari – jednostavno nema toliko nas da pripazimo na svaki delić informacija i ažuriramo ih u skladu sa tim kada se nove verzije budu objavile.
 
-This is why we placed all of our KB content to [GitHub](https://github.com/AdguardTeam/KnowledgeBaseVPN), and now literally anyone can contribute to it by suggesting edits and translations to existing articles, as well as totally new ones.
+Zato smo sve sadržaje iz baze znanja stavili na [GitHub](https://github.com/AdguardTeam/KnowledgeBaseVPN), a sada bukvalno svako može da doprinese tome predlažući izmene i prevode na postojeće članke, kao i potpuno nove.
 
-## How to suggest a change or write a new article {#suggest-change}
+## Kako predložiti promenu ili napisati novi članak {#suggest-change}
 
-You can suggest changes to current articles and add new ones to the Knowledge Base using the functionality of the GitHub mentioned above. If you are unfamiliar with principles of working with the platform, start by reading [documentation in this section](https://docs.github.com/en).
+Možete predložiti promene trenutnih članaka i dodati nove u bazu znanja koristeći funkcionalnost gore pomenutog GitHub-a. Ako niste upoznati sa principima rada platforme, počnite sa čitanjem [dokumentacija u ovom odeljku](https://docs.github.com/en).
 
-Once you are ready to start, work in [the KnowledgeBaseVPN repository](https://github.com/AdguardTeam/KnowledgeBaseVPN). Svi tekstovi u našoj bazi znanja su pisani u `Markdown` markup jeziku. Imajte ovo na umu prilikom uređivanja ili pisanja članaka. Pratite [ovaj link](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) da biste saznali više o Markdown sintaksi.
+Kada budete spremni za početak, radite u [depo Baze znanjaVPN](https://github.com/AdguardTeam/KnowledgeBaseVPN). Svi tekstovi u našoj bazi znanja su pisani u `Markdown` markup jeziku. Imajte ovo na umu prilikom uređivanja ili pisanja članaka. Pratite [ovaj link](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) da biste saznali više o Markdown sintaksi.
 
 Web lokacija Baze znanja je izgrađena pomoću Docusaurus 2 — modernog statičnog generatora veb sajta. Kada predlažete promene ili dodatke, uzmite u obzir da svi dokumenti moraju biti u skladu sa principima platforme. O njima možete čitati u [vodič dostupan putem ovog linka](https://docusaurus.io/docs/category/guides).
 

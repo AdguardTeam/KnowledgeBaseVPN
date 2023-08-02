@@ -7,7 +7,6 @@ sidebar position: 1
 
 Se si riscontra un problema durante l'utilizzo di AdGuard VPN per Windows, è possibile informarci al riguardo. Ti saremmo grati se inviassi anche i registri delle applicazioni, ci aiutano a risolvere i problemi molto più rapidamente.
 
-
 ## Raccolta e invio di registri standard
 
 Per impostazione predefinita, AdGuard VPN per Windows utilizza il livello di registrazione standard, ovvero la raccolta di base dei dati sui processi in esecuzione dell'app. Per inviare questi registri, attenersi alla seguente procedura:
@@ -20,7 +19,6 @@ Per impostazione predefinita, AdGuard VPN per Windows utilizza il livello di reg
 
 4. C'è un segno di spunta accanto al punto **Invia informazioni di sistema dettagliate**, che significa che quando invii un rapporto, invii anche i registri.
 > Se per qualche motivo è più conveniente per te inviarci i registri in un altro modo, puoi esportarli tu stesso. Per fare ciò, vai su **Assistenza** → **Esporta registri e informazioni di sistema**.
-
 
 ## Raccolta e invio di registri estesi
 

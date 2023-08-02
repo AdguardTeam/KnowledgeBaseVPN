@@ -9,8 +9,8 @@ A extensão AdGuard VPN Browser está disponível para Chrome, Firefox, Opera e 
 
 Para gerenciar sua extensão de navegador AdGuard VPN:
 
-* Clique em seu ícone no painel do navegador, clique no ícone do menu e selecione *Configurações*,
-* Ou vá para a página *Gerenciar extensões* em seu navegador, clique em *Detalhes* abaixo de *AdGuard VPN* e gerencie suas configurações a partir daí.
+- Clique em seu ícone no painel do navegador, clique no ícone do menu e selecione *Configurações*,
+- Ou vá para a página *Gerenciar extensões* em seu navegador, clique em *Detalhes* abaixo de *AdGuard VPN* e gerencie suas configurações a partir daí.
 
 Uma vez terminado, você verá várias guias à esquerda:
 

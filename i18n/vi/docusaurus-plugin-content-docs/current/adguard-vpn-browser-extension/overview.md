@@ -9,8 +9,8 @@ Tiện ích mở rộng Trình duyệt AdGuard VPN có sẵn cho Chrome, Firefox
 
 Để quản lý tiện ích mở rộng Trình duyệt AdGuard VPN của bạn:
 
-* Nhấp vào biểu tượng của nó trên bảng điều khiển của trình duyệt, nhấp vào biểu tượng menu bánh hamburger và chọn *Cài đặt*,
-* Hoặc đi đến *Quản lý tiện ích mở rộng* Trong trình duyệt của bạn, hãy nhấp vào *Chi tiết* dưới *AdGuard VPN* và quản lý cài đặt của nó từ đó.
+- Nhấp vào biểu tượng của nó trên bảng điều khiển của trình duyệt, nhấp vào biểu tượng menu bánh hamburger và chọn *Cài đặt*,
+- Hoặc đi đến *Quản lý tiện ích mở rộng* Trong trình duyệt của bạn, hãy nhấp vào *Chi tiết* dưới *AdGuard VPN* và quản lý cài đặt của nó từ đó.
 
 Sau khi hoàn tất, bạn sẽ thấy một số tab ở bên trái:
 

@@ -5,8 +5,8 @@ sidebar_position: 3
 
 설치하려는 AdGuard VPN 앱 또는 확장 프로그램에 따라 다음 링크 중 하나를 클릭하여 관련 기사를 찾으십시오.
 
-* [Android용 AdGuard VPN](/adguard-vpn-for-android/installation.md)
-* [iOS용 AdGuard VPN](/adguard-vpn-for-ios/installation.md)
-* [Windows용 AdGuard VPN](/adguard-vpn-for-windows/installation.md)
-* [Mac용 AdGuard VPN](/adguard-vpn-for-mac/installation.md)
-* [AdGuard VPN 확장 프로그램](/adguard-vpn-browser-extension/installation.md)
+- [Android용 AdGuard VPN](/adguard-vpn-for-android/installation.md)
+- [iOS용 AdGuard VPN](/adguard-vpn-for-ios/installation.md)
+- [Windows용 AdGuard VPN](/adguard-vpn-for-windows/installation.md)
+- [Mac용 AdGuard VPN](/adguard-vpn-for-mac/installation.md)
+- [AdGuard VPN 확장 프로그램](/adguard-vpn-browser-extension/installation.md)

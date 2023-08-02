@@ -35,8 +35,8 @@ Por ejemplo, AdGuard DNS elimina los anuncios y protege tu dispositivo para que 
 
 Puedes seleccionar cualquier servidor DNS y configurarlo en AdGuard VPN:
 
-* en AdGuard VPN para Windows: *Configuración* → *Configuración de la aplicación* → *Servidores DNS*
-* en AdGuard VPN para Mac: *Configuración* → *Configuración de la aplicación* → *Servidores DNS*
-* en AdGuard VPN para Android: *Configuración* (ícono de engranaje) → *Configuración de la aplicación* → *Servidor DNS*
-* en AdGuard VPN para iOS: *Configuración* (ícono de engranaje) → *Configuración de la aplicación* → *Servidor DNS*
-* en la extensión de navegador AdGuard VPN: ícono del menú → *Configuración* → *Servidor DNS*
+- en AdGuard VPN para Windows: *Configuración* → *Configuración de la aplicación* → *Servidores DNS*
+- en AdGuard VPN para Mac: *Configuración* → *Configuración de la aplicación* → *Servidores DNS*
+- en AdGuard VPN para Android: *Configuración* (ícono de engranaje) → *Configuración de la aplicación* → *Servidor DNS*
+- en AdGuard VPN para iOS: *Configuración* (ícono de engranaje) → *Configuración de la aplicación* → *Servidor DNS*
+- en la extensión de navegador AdGuard VPN: ícono del menú → *Configuración* → *Servidor DNS*

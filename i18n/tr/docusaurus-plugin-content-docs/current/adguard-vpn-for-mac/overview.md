@@ -73,9 +73,11 @@ Burada, varsayılan olarak İSS'niz tarafından sağlanan bir DNS sunucusuna gü
 Gelişmiş ayarların değiştirilmesi tavsiye edilmez. Teknik desteğimiz tarafından istenmedikçe veya ne yaptığınızdan emin değilseniz bunları değiştirmeyin.
 
 #### Günlük kayıt düzeyi
+
 Yalnızca iki günlük kayıt düzeyi vardır ancak ilki, varsayılan olanı kullanmanızı şiddetle tavsiye ederiz. İkinci seçenek (genişletilmiş günlük kayıt), yalnızca teknik desteğimize danıştıktan sonra garip bir program davranışını kaydetmek için ayarlanmalıdır. İkinci günlük kayıt düzeyini etkinleştirmiş olsanız bile, günlükleri kaydettikten sonra varsayılan düzeye geri döndüğünüzden emin olun.
 
 #### Menü çubuğu simgesini gizle
+
 Bu seçenek *Gelişmiş ayarlarda* yer almasına rağmen tereddüt etmeden etkinleştirilebilir. AdGuard VPN simgesini menü çubuğundan gizleyebilirsiniz, bu uygulamamızın arka planda çalışmasına engel olmaz.
 
 #### QUIC kullan (deneysel)

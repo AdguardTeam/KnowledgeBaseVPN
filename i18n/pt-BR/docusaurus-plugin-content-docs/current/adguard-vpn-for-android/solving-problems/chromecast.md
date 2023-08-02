@@ -3,7 +3,7 @@ title: 'Compatibilidade do AdGuard VPN com Chromecast'
 sidebar_position: 5
 ---
 
-A tecnologia integrada do Chromecast é incompatível com a execução de uma VPN porque usa o protocolo [DLNA](https://en.wikipedia.org/wiki/Digital_Living_Network_Alliance), que não oferece suporte a conexões VPN. Isso significa que, se um dispositivo Chromecast e um smartphone ou tablet executando uma VPN estiverem na mesma rede Wi-Fi, na maioria dos casos, o Chromecast não será reconhecido pelo dispositivo móvel.
+A tecnologia integrada do Chromecast é incompatível com a execução de uma VPN porque usa o protocolo [DLNA](https://en.wikipedia.org/wiki/Digital_Living_Network_Alliance), que não oferece suporte a conexões VPN. This means that if a Chromecast device and a smartphone or tablet running a VPN are on the same Wi-Fi network, in most cases Chromecast won't be recognized by the mobile device.
 
 O Google também bloqueou a capacidade de alterar as configurações de rede do Chromecast, restringindo o acesso às suas configurações de DNS. Isso também impede que o Chromecast funcione com uma VPN.
 

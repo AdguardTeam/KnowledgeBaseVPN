@@ -9,9 +9,9 @@ Ein VPN ist ein ideales Tool, das bei jedem Surfen im Internet Sicherheit und An
 
 **AdGuard VPN wird häufig für folgende Zwecke eingesetzt:**
 
-* Schutz personenbezogener Daten auch bei Nutzung öffentlicher WLANs
-* Verhindern der Verfolgung von Online-Aktivitäten durch Maskieren der IP-Adresse
-* Ausblenden der tatsächlichen Geolokalisierung
+- Schutz personenbezogener Daten auch bei Nutzung öffentlicher WLANs
+- Verhindern der Verfolgung von Online-Aktivitäten durch Maskieren der IP-Adresse
+- Ausblenden der tatsächlichen Geolokalisierung
 
 AdGuard VPN für Android kann das alles für Sie tun — aber das ist noch nicht alles. Um herauszufinden, warum AdGuard VPN die bessere Option ist, lesen Sie [diesen Artikel](/general/why-adguard-vpn.md).
 

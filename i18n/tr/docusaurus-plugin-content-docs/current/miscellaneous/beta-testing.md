@@ -13,12 +13,12 @@ AdGuard VPN beta test kullanıcısı olmak için yalnızca birkaç şeye ihtiyac
 
 Bunun olduğunu düşünelim — bir hata tespit ettiniz. Ya da sadece önerinizi geliştiricilerle paylaşmak mı istiyorsunuz? Neyse ki, bize bildirmenin birkaç yolu var:
 
-* [forum.adguard.com](https://forum.adguard.com) adresine gidin ve orada [forumun 'Beta Testing' kategorisinde](https://forum.adguard.com/index.php?categories/48/) yeni bir konu açın (veya mevcut bir tane bulun). Önce [forum kurallarını](https://forum.adguard.com/index.php?threads/14859/) okuduğunuzdan emin olun;
+- [forum.adguard.com](https://forum.adguard.com) adresine gidin ve orada [forumun 'Beta Testing' kategorisinde](https://forum.adguard.com/index.php?categories/48/) yeni bir konu açın (veya mevcut bir tane bulun). Önce [forum kurallarını](https://forum.adguard.com/index.php?threads/14859/) okuduğunuzdan emin olun;
 
-* [GitHub'a](https://github.com/AdguardTeam/) gidin ve uygun bir depo bulun. Orada yeni bir sorun oluşturun ve hatayı/özellik talebini ayrıntılı olarak açıklayın.
+- [GitHub'a](https://github.com/AdguardTeam/) gidin ve uygun bir depo bulun. Orada yeni bir sorun oluşturun ve hatayı/özellik talebini ayrıntılı olarak açıklayın.
 
 Yukarıdaki iki yöntem en çok tercih edilenlerdir, ancak gerekirse diğerlerini de kullanabilirsiniz:
 
-* [Facebook](https://www.facebook.com/AdguardEn/), [Reddit](https://www.reddit.com/r/Adguard/), vb. gibi çeşitli sosyal medya platformlarında bizi bulun. Ancak, bu teknik konuları tartışmanın en etkili yolu değildir.
+- [Facebook](https://www.facebook.com/AdguardEn/), [Reddit](https://www.reddit.com/r/Adguard/), vb. gibi çeşitli sosyal medya platformlarında bizi bulun. Ancak, bu teknik konuları tartışmanın en etkili yolu değildir.
 
-* Uygulamadaki Destek sekmesinden destek ekibimize e-posta gönderin veya doğrudan [support@adguard.com](mailto:support@adguard.com) adresine yazın.
+- Uygulamadaki Destek sekmesinden destek ekibimize e-posta gönderin veya doğrudan [support@adguard.com](mailto:support@adguard.com) adresine yazın.

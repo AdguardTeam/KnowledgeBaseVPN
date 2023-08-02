@@ -8,10 +8,11 @@ sidebar_position: 1
 VPN 可以让用户与互联网上另一处网络创建安全连接。 它将用户的电脑或移动设备连接到服务器，并允许用户使用其他 IP 地址浏览网络。 因此，如果 VPN 服务器位于某一个其他国家，那么您本身也看起来从那个国家连接到互联网。 [详细了解](/general/how-vpn-works.md) VPN 的工作原理。
 
 AdGuard VPN 有以下的功能：
-* 隐藏用户的真实位置帮助保持匿名性
-* 更改用户的 IP 地址避免他人跟踪您的个人数据
-* 加密用户的流量不让诈骗者访问您的数据
-* 让用户自己配置在哪里启用或关闭 VPN（排除项功能）
+
+- 隐藏用户的真实位置帮助保持匿名性
+- changes your IP address to protect your data from tracking
+- 加密用户的流量不让诈骗者访问您的数据
+- 让用户自己配置在哪里启用或关闭 VPN（排除项功能）
 
 适用于 iOS 的 AdGuard VPN 下一个优势是我们自建的 VPN 协议。 我们的协议有两个主要优点：与其他 VPN 协议相比，它难以检测，并且即使在互联网连接不佳的情况下也能稳定运行。 用户可以在[这篇文章](../general/adguard-vpn-protocol.mdx)中了解有关 AdGuard VPN 协议的更多信息。
 

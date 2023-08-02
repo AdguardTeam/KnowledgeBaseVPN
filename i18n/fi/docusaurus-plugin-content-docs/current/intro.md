@@ -16,18 +16,20 @@ VPN:stä puhuttaessa ensimmäinen asia, joka mainitaan, on tietoliikenteen salau
 
 VPN-yhteyttä voidaan käyttää:
 
-* todellisen olinpaikan piilotukseen ja anonyymiteettiin
-* tietojen suojaukseen — jopa julkisiin Wi-Fi-verkkoihin yhdistettäessä voidaan selata Internetiä turvallisesti
-* tiedon väärennykseltä (verkkoliikenteen sieppaukselta) ja Internet-palveluntarjoajan seurannalta suojautumiseen
+- todellisen olinpaikan piilotukseen ja anonyymiteettiin
+- tietojen suojaukseen — jopa julkisiin Wi-Fi-verkkoihin yhdistettäessä voidaan selata Internetiä turvallisesti
+- tiedon väärennykseltä (verkkoliikenteen sieppaukselta) ja Internet-palveluntarjoajan seurannalta suojautumiseen
 
 Salasanat, korttitiedot ja tavalliset henkilökohtaiset perustiedot ovat alttiina Internetiä selattaessa. Jos muodostat yhteyden yleiseen verkkoon VPN:n välityksellä, voit varmistaa, ettei kukaan voi siepata tietojasi.
 
 ## Miksi AdGuard VPN?
 
 ### Luotettu kehittäjä
+
 AdGuard on toiminut henkilökohtaisen tietosuojauksen ja mainoseston markkinoilla sekä kehittänyt ohjelmistojaan yli 12 vuoden ajan. Tänä aikana yrityksemme on rakentanut moitteettoman maineen ja asiakasmäärämme on ylittänyt 30 miljoonaa.
 
 ### Ainutlaatuinen VPN-protokolla
+
 Merkittävin ero AdGuard VPN:n ja sen kilpailijoiden välillä on [itse kehittämämme VPN-protokolla](/general/adguard-vpn-protocol.mdx). Se naamioituu normaaliksi tietoliikenteeksi, jonka ansiosta sen jäljittäminen ja estäminen on paljon vaikeampaa.
 
 ### Lokitiedoton käytäntö
@@ -35,60 +37,61 @@ Merkittävin ero AdGuard VPN:n ja sen kilpailijoiden välillä on [itse kehittä
 Lokitiedoton käytäntö tarkoittaa, ettemme kerää tai säilytä käyttäjien henkilökohtaisia tietoja, emmekä myöskään luovuta niitä ulkopuolisille tahoille. AdGuard VPN:n tietosuojakäytäntö löytyy kokonaisuudessaan [täältä](https://adguard-vpn.com/privacy.html).
 
 ### Seurantasuojaus
+
 Minkä tahansa käyttäjän verkkoliikenne voi olla kiinnostavaa ja olla erittäin arvokasta henkilökohtaisten tietojen kaupallistamisen kannalta. Sekä rikolliset että häikäilemättömät Internet-palveluntarjoajat voivat käyttää näitä tietoja. Luotettavan VPN:n avulla voit kuitenkin olla vakuuttunut siitä, ettei palveluntarjoajasi tai kukaan muukaan näe Internet-toimintaasi.
 
 ### Erittäin nopeat VPN-palvelimet 53 maassa
 
-* Argentiina
-* Australia
-* Itävalta
-* Belgia
-* Brasilia
-* Bulgaria
-* Kambodža
-* Kanada
-* Chile
-* Kolumbia
-* Kroatia
-* Kypros
-* Tšekki
-* Tanska
-* Egypti
-* Viro
-* Suomi
-* Ranska
-* Saksa
-* Kreikka
-* Hong Kong
-* Unkari
-* Intia
-* Irlanti
-* Israel
-* Italia
-* Japani
-* Kazakstan
-* Luxemburg
-* Meksiko
-* Alankomaat
-* Uusi Seelanti
-* Norja
-* Filippiinit
-* Puola
-* Portugali
-* Romania
-* Venäjä
-* Serbia
-* Singapore
-* Slovakia
-* Etelä-Afrikka
-* Etelä-Korea
-* Espanja
-* Ruotsi
-* Sveitsi
-* Taiwan
-* Turkki
-* Yhdistynyt kuningaskunta
-* Yhdistyneet Arabiemiirikunnat
-* Yhdysvallat
-* Ukraina
-* Vietnam
+- Argentiina
+- Australia
+- Itävalta
+- Belgia
+- Brasilia
+- Bulgaria
+- Kambodža
+- Kanada
+- Chile
+- Kolumbia
+- Kroatia
+- Kypros
+- Tšekki
+- Tanska
+- Egypti
+- Viro
+- Suomi
+- Ranska
+- Saksa
+- Kreikka
+- Hong Kong
+- Unkari
+- Intia
+- Irlanti
+- Israel
+- Italia
+- Japani
+- Kazakstan
+- Luxemburg
+- Meksiko
+- Alankomaat
+- Uusi Seelanti
+- Norja
+- Filippiinit
+- Puola
+- Portugali
+- Romania
+- Venäjä
+- Serbia
+- Singapore
+- Slovakia
+- Etelä-Afrikka
+- Etelä-Korea
+- Espanja
+- Ruotsi
+- Sveitsi
+- Taiwan
+- Turkki
+- Yhdistynyt kuningaskunta
+- Yhdistyneet Arabiemiirikunnat
+- Yhdysvallat
+- Ukraina
+- Vietnam

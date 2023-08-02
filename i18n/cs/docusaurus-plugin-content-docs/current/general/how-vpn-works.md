@@ -11,74 +11,70 @@ VPN je virtuální privátní síť, která pomáhá skrýt vaši polohu a chrá
 
 VPN tak plní dvě důležité funkce:
 
-1. **Zachování anonymity**
+1. **Maintaining anonymity** Using an Internet connection, the user leaves their digital footprint, which can then be analyzed and used by third parties. For example, one of the online stores that you have visited can save your search history and then offer you their products based on it through targeted advertising. Or the secret services, having learned your location through the IP address of your device and having determined your identity, can secretly monitor your activity on the web. In addition, web browsers and ISPs themselves can use your browsing history for their own purposes, as well as sell it to advertisers and provide it to government institutions. VPN allows you to hide your IP address and replace it with the IP address of the VPN server to which you are connected. This way you will be able to maintain your privacy and anonymously search for information on the web.
 
-Pomocí internetového připojení zanechává uživatel svou digitální stopu, kterou pak mohou analyzovat a využívat třetí strany. Například některý z internetových obchodů, které jste navštívili, si může uložit historii vašeho vyhledávání a na jejím základě vám pak nabízet své produkty prostřednictvím cílené reklamy. Nebo mohou tajné služby po zjištění vaší polohy prostřednictvím IP adresy vašeho zařízení a zjištění vaší totožnosti tajně sledovat vaši aktivitu na webu. Kromě toho mohou webové prohlížeče a samotní poskytovatelé internetových služeb používat historii procházení pro své vlastní účely, prodávat ji inzerentům a poskytovat ji státním institucím. VPN umožňuje skrýt vaši IP adresu a nahradit ji IP adresou serveru VPN, ke kterému jste připojeni. Tímto způsobem budete moci zachovat své soukromí a anonymně vyhledávat informace na webu.
-
-2. **Ochrana dat**
-
-Pokud se připojíte k nespolehlivé nebo veřejné síti, mohou být data ve vašem zařízení zranitelná pro kyberzločince. Údaje o bankovních kartách, uživatelská jména a hesla, údaje o cestovních pasech — všechny tyto údaje mohou zachytit online podvodníci. VPN tunel šifruje informace, které odesíláte a přijímáte z webu, takže se nemohou dostat do nepovolaných rukou.
+2. **Data protection** If you connect to an unreliable or public network, the data on your device may become vulnerable to cybercriminals. Bank card details, usernames and passwords, passport data — all this data can be intercepted by online fraudsters. The VPN tunnel encrypts the information that you send and receive from the web, so it can not fall into the wrong hands.
 
 ## Struktura VPN
 
-Po připojení k síti je počítači nebo mobilnímu zařízení přiděleno jedinečné identifikační číslo neboli IP adresa. Obvykle se skládá z čísel od 0 do 255 oddělených tečkami nebo dvojtečkami. Znalost této sekvence umožňuje určit zeměpisnou polohu zařízení. IP adresa je obvykle nastavena poskytovatelem internetových služeb a je viditelná až k požadovanému zdroji. Z tohoto důvodu může webový server navštívené stránky zaregistrovat vaši IP adresu a zaznamenat, co jste požadovali. Tento záznam pak může sloužit především ke sběru dat a analýze provozu.
+When you connect to a network, your computer or mobile device is assigned a unique ID number, or IP address. It usually consists of numbers from 0 to 255, separated by dots or colons. Knowing this sequence, one can determine the geolocation of the device. The IP address is usually set by your ISP, and it will be visible all the way to the desired resource. For this reason, the web server of the site you are visiting can register your IP address and record what you have requested. This record can then be used primarily for data collection and traffic analysis.
 
-VPN vytváří tunel mezi vaším zařízením a serverem VPN. Vaše data projdou tímto tunelem, zašifrují se a poté se v zabezpečené podobě dostanou do otevřeného internetu. Proto se webovému serveru bude zdát, že vaše zařízení již nemá vaši skutečnou IP adresu, ale IP adresu koncového bodu tunelu, tedy serveru VPN. Stránky, na které se dostanete po průchodu tunelem VPN, tak budou považovat geolokaci vybraného serveru VPN za vaši skutečnou polohu. A zašifrovaná data se nedostanou do rukou inzerentů, hackerů ani bezpečnostních služeb.
+A VPN creates a tunnel between your device and the VPN server. Your data goes through this tunnel, gets encrypted and then enters the open Internet in a secure form. Therefore, it will seem to the web server that your device has no longer your real IP address, but the IP address of the endpoint of the tunnel, that is, the VPN server. Thus, the site that you get to after passing through the VPN tunnel will consider the geolocation of the VPN server you selected as your real location. And the encrypted data will not fall into the hands of advertisers, hackers and security services.
 
-![Struktura VPN](https://cdn.adguardvpn.com/public/Adguard/Website/Images/seo/en/how_vpn_3.jpg)
+![VPN structure](https://cdn.adguardvpn.com/public/Adguard/Website/Images/seo/en/how_vpn_3.jpg)
 
 ## Typy VPN protokolů
 
-Bezpečnostní protokoly VPN jsou nástroje, které šifrují data v tunelu VPN a umožňují zachovat soukromí uživatele v otevřeném internetu. V současné době používá naprostá většina moderních služeb VPN jeden ze tří následujících protokolů VPN:
+VPN security protocols are tools that encrypt data in a VPN tunnel and allow you to maintain user privacy in an open Internet. At the moment, the vast majority of modern VPN services use one of the following three VPN protocols:
 
-1. [*IPSec*](https://en.wikipedia.org/wiki/IPsec). Jednou z jeho hlavních výhod je, že je k dispozici na většině zařízení a operačních systémech a poskytuje vysokou úroveň zabezpečení. Použití dvojitého [zapouzdření](https://en.wikipedia.org/wiki/Encapsulation_(networking)) v tomto protokolu však může mít za následek nižší rychlost připojení.
+1. [*IPSec*](https://en.wikipedia.org/wiki/IPsec). One of its main advantages is that it is available on most devices and operating systems and provides a high level of security. However, the use of double [encapsulation](https://en.wikipedia.org/wiki/Encapsulation_(networking)) in this protocol may result in a lower connection speed.
 
-2. [*OpenVPN*](https://en.wikipedia.org/wiki/OpenVPN). Tento moderní protokol má otevřený zdrojový kód, takže výrobci třetích stran mohou technologii vylepšovat a aktualizovat.
+2. [*OpenVPN*](https://en.wikipedia.org/wiki/OpenVPN). This modern protocol is open source, so third-party manufacturers can improve and update the technology.
 
-3. [*WireGuard*](https://en.wikipedia.org/wiki/WireGuard). Jeho hlavními výhodami jsou snadné použití, vysoká účinnost a nízká zranitelnost vůči útokům.
+3. [*WireGuard*](https://en.wikipedia.org/wiki/WireGuard). Its main advantages are ease of use, high efficiency and low vulnerability to attacks.
 
-Kromě těchto protokolů VPN existují i další (například TLS, SSTP, IKEv2), které však nejsou oblíbené nebo nesplňují moderní standardy šifrování dat.
+In addition to these VPN protocols, there are others (for example, TLS, SSTP, IKEv2), but they are unpopular or do not meet modern data encryption standards.
 
-![Jak funguje protokol VPN](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/4.svg)
+![How a VPN protocol works](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/4.svg)
 
-AdGuard VPN má také svůj vlastní [*protokol*](adguard-vpn-protocol.mdx). Jednou z jeho výhod je, že provoz přenášený pomocí protokolu AdGuard VPN je obtížné odlišit od běžného provozu. VPN tunel vypadá jako běžný provoz HTTPS, takže je velmi obtížné jej odhalit a zablokovat. Navíc je založen na mechanismech moderního protokolu HTTP/2, který zajišťuje vysokou rychlost připojení.
+AdGuard VPN also has its own [*protocol*](adguard-vpn-protocol.mdx). One of its advantages is that the traffic transmitted using the AdGuard VPN protocol is difficult to distinguish from the regular traffic. The VPN tunnel looks like normal HTTPS traffic, so it is extremely difficult to detect and block it. In addition, it is based on the mechanisms of the modern HTTP/2 protocol, which ensures high connection speed.
 
-![Jak funguje skrytá síť VPN](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/5.svg)
+![How concealed VPN works](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/5.svg)
 
 ## Nevýhody VPN
 
-Navzdory zjevným výhodám není VPN dokonalá a má některé nevýhody:
+Despite the obvious advantages, VPN is not perfect and has some disadvantages:
 
-**Nižší rychlosti**
+### Lower speed
 
-Protože váš provoz nesměřuje přímo na webový server, ale nejprve prochází serverem VPN, rychlost připojení VPN se tím snižuje. Rychlost při používání VPN ovlivňují i další faktory: zatížení serveru VPN, jeho šířka pásma, kompatibilita protokolu VPN s vaším operačním systémem. Všechny tyto faktory, stejně jako rychlost samotné sítě, mohou snížit kvalitu připojení VPN.
+Since your traffic does not go directly to the web server, but first passes through the VPN server, the speed of the VPN connection decreases. Other factors also affect the speed when using a VPN: the load of the VPN server, its bandwidth, the compatibility of the VPN protocol with your operating system. All these factors, as well as the speed of the network itself, can reduce the quality of your VPN connection.
 
-**Blokování přístupu**
+### Access blocking
 
-Některé online služby vynakládají velké úsilí na detekci provozu VPN a blokují přístup uživatelům VPN. Málokterá síť VPN však dokáže maskovat svůj provoz jako běžný. Proto mnoho pokusů přejít na určitou webovou stránku bez vypnutí VPN skončí bez úspěchu.
+Some online services make a lot of effort to detect VPN traffic and block access to VPN users. However, not many VPNs can mask their traffic as regular. Therefore, many attempts to go to a particular website without disabling VPN end up in nothing.
 
-**Přerušení VPN připojení**
+### VPN connections breaking
 
-Slabý signál, přetížení sítě, nekompatibilita VPN s firewallem, antivirem a dalšími programy, zastaralý protokol VPN — to vše může způsobit náhlý výpadek připojení VPN, zejména u nespolehlivých poskytovatelů VPN.
+A weak signal, network overload, VPN incompatibility with a firewall, antivirus and other programs, an outdated VPN protocol — all this can cause a sudden failure in the VPN connection, especially by unreliable VPN providers.
 
 ## AdGuard VPN
 
-Naše služba VPN má několik důležitých [výhod](why-adguard-vpn.md):
+Our VPN service has several important [advantages](why-adguard-vpn.md):
 
-* [*Vlastní protokol VPN*](adguard-vpn-protocol.mdx), který funguje stabilně i při pomalém připojení k internetu a maskuje se jako běžný provoz, takže je obtížnější jej sledovat a blokovat
+- [*Vlastní protokol VPN*](adguard-vpn-protocol.mdx), který funguje stabilně i při pomalém připojení k internetu a maskuje se jako běžný provoz, takže je obtížnější jej sledovat a blokovat
 
-* [*"Zásady nulových záznamů aktivit"*](https://adguard-vpn.com/en/privacy.html), což znamená, že AdGuard VPN neshromažďuje vaše osobní údaje a nepředává je třetím stranám
+- [*"Zásady nulových záznamů aktivit"*](https://adguard-vpn.com/en/privacy.html), což znamená, že AdGuard VPN neshromažďuje vaše osobní údaje a nepředává je třetím stranám
 
-* *Více než 50 VPN serverů v desítkách zemí*
+- *Více než 50 VPN serverů v desítkách zemí*
 
-* *Snadné používání a rozsáhlé možnosti přizpůsobení*
+- *Snadné používání a rozsáhlé možnosti přizpůsobení*
 
-V současné době je AdGuard VPN k dispozici jako:
+Currently, AdGuard VPN is available as:
 
-* [Rozšíření prohlížeče](../adguard-vpn-browser-extension/overview.md) pro Chrome, Firefox a Edge
+- [Rozšíření prohlížeče](../adguard-vpn-browser-extension/overview.md) pro Chrome, Firefox a Edge
 
-* Mobilní aplikace pro [Android](../adguard-vpn-for-android/overview.md) a [iOS](../adguard-vpn-for-ios/overview.md)
+- Mobilní aplikace pro [Android](../adguard-vpn-for-android/overview.md) a [iOS](../adguard-vpn-for-ios/overview.md)
 
-* Desktopová aplikace pro [Windows](../adguard-vpn-for-windows/overview.md) a [Mac](../adguard-vpn-for-mac/overview.md)
+- Desktopová aplikace pro [Windows](../adguard-vpn-for-windows/overview.md) a [Mac](../adguard-vpn-for-mac/overview.md)
 
-Více informací o funkcích AdGuard VPN (včetně neomezené verze) najdete [zde](https://adguard-vpn.com/en/welcome.html).
+You can learn more about AdGuard VPN features (including the unlimited version) [here](https://adguard-vpn.com/en/welcome.html).

@@ -7,7 +7,6 @@ sidebar position: 1
 
 Se você encontrar algum problema ao usar o AdGuard VPN para Windows, informe-nos sobre isso. Ficaríamos gratos se você também enviasse logs de aplicativos para nós, eles nos ajudam a resolver problemas muito mais rapidamente.
 
-
 ## Coletando e enviando logs padrão
 
 Por padrão, o AdGuard VPN para Windows usa o nível de registro padrão, ou seja, a coleta básica de dados sobre os processos em execução do aplicativo. Para enviar esses logs, siga os próximos passos:
@@ -20,7 +19,6 @@ Por padrão, o AdGuard VPN para Windows usa o nível de registro padrão, ou sej
 
 4. Há uma marca de seleção ao lado de **Enviar informações detalhadas do sistema**, o que significa que, ao enviar um relatório, você também envia logs.
 > Se por algum motivo for mais conveniente para você nos enviar os logs de outra maneira, você mesmo poderá exportá-los. Para fazer isso, vá para **Suporte** → **Exportar logs e informações do sistema**.
-
 
 ## Coletando e enviando logs estendidos
 

@@ -8,10 +8,11 @@ sidebar_position: 1
 Una VPN consente di creare una connessione sicura a un'altra rete su Internet. Collega il computer o il dispositivo mobile di un utente a un server e consente di navigare in rete utilizzando l'indirizzo IP di un'altra persona. Quindi, se il server VPN si trova in un paese diverso, sembrerà che ti sei connesso a Internet da quel paese. [Ulteriori informazioni](/general/how-vpn-works.md) su come funziona una VPN in dettaglio.
 
 Parlando di AdGuard VPN, ha diverse funzioni:
-* nasconde la tua vera posizione e ti aiuta a rimanere anonimo
-* cambia il tuo indirizzo IP per proteggere i tuoi dati dal tracciamento
-* crittografa il tuo traffico per renderlo irraggiungibile ai truffatori
-* ti consente di configurare dove utilizzare la VPN e dove no (funzione di esclusione)
+
+- nasconde la tua vera posizione e ti aiuta a rimanere anonimo
+- changes your IP address to protect your data from tracking
+- crittografa il tuo traffico per renderlo irraggiungibile ai truffatori
+- ti consente di configurare dove utilizzare la VPN e dove no (funzione di esclusione)
 
 Il prossimo vantaggio di AdGuard VPN per iOS è il nostro protocollo VPN. Ha due vantaggi principali: rispetto ad altri protocolli VPN è estremamente difficile da rilevare e funziona in modo stabile anche con una connessione Internet scadente. Puoi saperne di più sul protocollo AdGuard VPN in [questo articolo](../general/adguard-vpn-protocol.mdx).
 
