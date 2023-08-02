@@ -17,7 +17,7 @@ sidebar_position: 2
 ![Download AdGuard VPN from the official website](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-install-en.png)
 2. Wait until the download of the *AdGuardVPN.dmg* file is finished and open it in the "Downloads" folder.
 3. Wait until the installation program window opens. Double-click the icon in it.
-![Program installation window](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-install-ru-1.png)
+![Program installation window *mobile_border](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-install-ru-1.png)
 4. When you first start AdGuard VPN, the operating system will show a warning on the screen that this application has been downloaded from the Internet. Click *Open*.
 5. Then click *Continue* and *Install*.
 
