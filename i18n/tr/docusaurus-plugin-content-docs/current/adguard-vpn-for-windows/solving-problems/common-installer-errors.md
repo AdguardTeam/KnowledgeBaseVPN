@@ -29,9 +29,13 @@ Bunlar çok benzer çözümlere sahip iki farklı hatadır. Adlarından da anla�
 
 Bunun, Hata 1603'ün belirli bir alt türü olduğunu söyleyebilirsiniz. Olası çözümler benzerdir:
 
-- Microsoft Installer hizmetini başlatın ve yeniden kaydettirin. Bu biraz uğraş gerektirir.
+- Start and re-register Microsoft Installer service. It requires some work.
 
-    1) *Win + R* tuşlarına basın ve **services.msc** yazın. 2) Listeden *Windows Installer* öğesini bulun ve çift tıklayın. 3) *Hizmet durumu* altındaki *Başlat* düğmesine basın ve *Tamam* öğesine basın. Hizmet durumu **çalışıyor** ise, önce *Durdur* öğesine ve ardından *Başlat* öğesine tıklamalısınız. 4) *Win + R* tuşlarına basın, ***msiexec /unregister*** yazın ve *Enter* öğesine basın. 5) *Win + R* tuşlarına tekrar basın, ***msiexec /regserver*** yazın ve *Enter* öğesine basın
+    1. Press *Win + R* and enter **services.msc**.
+    1. Find in the list and double click *Windows Installer*.
+    1. Hit *Start* button under *Service status* and hit *OK*. If the service status is **running**, you should click *Stop* first and then hit *Start*.
+    1. Press *Win + R*, type and enter ***msiexec /unregister*** and hit *Enter*.
+    1. Press *Win + R* again, type and enter ***msiexec /regserver*** and hit *Enter*
 
 - PC'yi yeniden başlatın ve kurulumu baştan başlatın. Bazen sorunu çözmek için bu yeterli olur.
 
@@ -55,13 +59,25 @@ Hata kulağa gerçekte olduğundan daha korkutucu geliyor. Gerçekte bu, birçok
 
 - Özel [kaldırma aracımızı](../../installation#advanced) kullanarak AdGuard VPN'i kaldırın ve ardından kurulumu tekrarlayın.
 
-- Microsoft Installer hizmetini başlatın ve yeniden kaydettirin. Bu biraz uğraş gerektirir.
+- Start and re-register Microsoft Installer service. It requires some work.
 
-    1) *Win + R* tuşlarına basın ve ***services.msc*** yazın. 2) Listeden *Windows Installer* öğesini bulun ve çift tıklayın. 3) *Hizmet durumu* altındaki *Başlat* düğmesine basın ve *Tamam* öğesine basın. Hizmet durumu **çalışıyor** ise, önce *Durdur* öğesine ve ardından *Başlat* öğesine tıklamalısınız. 4) *Win + R* tuşlarına basın, ***msiexec /unregister*** yazın ve *Enter* öğesine basın. 5) *Win + R* tuşlarına tekrar basın, ***msiexec /regserver*** yazın ve *Enter* öğesine basın
+    1. Press *Win + R* and enter ***services.msc***.
+    1. Find in the list and double click *Windows Installer*.
+    1. Hit *Start* button under *Service status* and hit *OK*. If the service status is **running**, you should click *Stop* first and then hit *Start*.
+    1. Press *Win + R*, type and enter ***msiexec /unregister*** and hit *Enter*.
+    1. Press *Win + R* again, type and enter ***msiexec /regserver*** and hit *Enter*
 
-- Kurulum için sürücüde tam izinleri alın. Dosya konumunda tam izinlere sahip olmadığınız için 1603 hatasının oluşması olasıdır. Ayrıca diğer bazı çözümler kadar kolay değildir:
+- Acquire full permissions on the drive for installation. It is possible that the error 1603 occurs because you don’t have full permissions on the file location. It's also not as easy as some of the other solutions:
 
-    1) *Dosya Gezgini* öğesini açın, kurulum konumunu içeren sürücüye sağ tıklayın ve *Özellikler* öğesini seçin. 2) *Güvenlik* sekmesine gidin ve *Düzenle* öğesine tıklayın. 3) *SYSTEM* öğesine tek tıklayın ve *İzin ver* kutusundaki her öğenin *SİSTEM için izinler* işaretli olduğundan emin olun (işaretlenebilirse). Aynı kontrolü *Administrators* için de yapın. 4) *Özellikler* uyarı kutusuna geri dönmek için *Tamam* öğesine tıklayın. Ardından *Gelişmiş* öğesine tıklayın. 5) *İzinleri Değiştir* öğesine tıklayın. 6) *İzinler* sekmesinde, *Yöneticiler* öğesine çift tıklayın. 7) *Uygulandığı öğe* alanı için *Bu klasör, alt klasörler ve dosyalar* öğesini seçin ve mevcut tüm *Temel izinleri* işaretleyin. Bundan sonra *Tamam* öğesine basın. 8) *SYSTEM* için yukarıdaki (madde 7'den itibaren) aynı işlemi yapın. 9) Sonuna kadar *Tamam* öğesine tıklayın. AdGuard'ı yeniden kurmayı deneyin.
+    1. Open *File Explorer*, right-click the drive containing the installation location, and select *Properties*.
+    1. Go to *Security* tab and click *Edit*.
+    1. Single-click *SYSTEM* and ensure that the *Allow* box of every item in *Permissions for SYSTEM* is checked (if it is checkable). Do the same check for *Administrators*.
+    1. Click *OK* to go back to *Properties* dialog. Then click *Advanced*.
+    1. Click *Change Permissions*.
+    1. In *Permissions* tab, double-click *Administrators*.
+    1. Select *This folder, subfolders and files* for the *Applies to* field and tick all the available *Basic permissions*. After that hit *OK*.
+    1. Do the same operation above (from item 7) for *SYSTEM*.
+    1. Click *OK* all the way out. Try installing AdGuard again.
 
 ### Hata 1618: Başka bir kurulum zaten devam ediyor {#error-1618}
 

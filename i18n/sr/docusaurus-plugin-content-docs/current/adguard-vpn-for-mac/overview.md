@@ -3,19 +3,19 @@ title: Pregled funkcija
 sidebar_position: 1
 ---
 
-AdGuard VPN za Mac je VPN usluga na radnoj površini. AdGuard VPN is fully compatible with AdGuard Ad Blocker, they can be used together and will operate seamlessly. Let’s see what features it has to offer.
+AdGuard VPN za Mac je VPN usluga na radnoj površini. AdGuard VPN je u potpunosti kompatibilan sa AdGuard blokatorom reklama, mogu se koristiti zajedno i radiće neprimetno. Da vidimo koje karakteristike ima da ponudi.
 
-Note that **you can't use AdGuard VPN for Mac unless you have logged into your AdGuard account**. You can either sign in with your AdGuard account or with an external account, namely, via Apple, Google or Facebook. Make sure that your external account is bound to the same e-mail address as your AdGuard account. If there is a suitable subscription in your AdGuard account, it will be automatically activated on the desktop app. Still don't have an AdGuard account? Create it [here](https://auth.adguard.com/registration.html).
+Imajte na umu da **ne možete da koristite AdGuard VPN za Mac osim ako se niste prijavili na svoj AdGuard nalog**. Možete da se prijavite pomoću svog AdGuard naloga ili sa spoljašnjim nalogom, tačnije preko Apple-a, Google-a ili Facebook-a. Uverite se da je vaš spoljni nalog povezan sa istom e-adresom kao i vaš AdGuard nalog. Ako postoji odgovarajuća pretplata na vašem AdGuard nalogu, ona će biti automatski aktivirana na aplikaciji radne površine. Još uvek nemate AdGuard nalog? Kreirajte ga [Ovde](https://auth.adguard.com/registration.html).
 
-> AdGuard VPN for Mac is currently supported on macOS versions starting from macOS Catalina (10.15).
+> AdGuard VPN za Mac je trenutno podržan na macOS verzijama počev od macOS Catalina (10.15).
 
-## Home screen
+## Početni ekran
 
-![Home screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/main_en.png)
+![Početni ekran](https://cdn.adguardvpn.com/content/kb/vpn/mac/main_en.png)
 
-The first tab is the *Home* screen. Here you can see AdGuard VPN current status and [exclusions mode](#exclusions), chosen location (if enabled) and its ping. Ping is the response time of a VPN server. Consequently, the lower this number is, the faster the connection. If VPN is disabled, the last location you connected to is displayed below. The fastest locations with the lowest pings are displayed in the upper right corner of the screen. Below you can see the full list of locations. Through the search function, the needed location can be easily found.
+Prva kartica je *Početni* Ekran. Ovde možete videti AdGuard VPN trenutni status i [režim isključenja](#exclusions), odabranu lokaciju (ako je omogućen) i njen ping. Ping je vreme odziva VPN servera. Shodno tome, što je ovaj broj manji, veza je brža. Ako je VPN onemogućen, ispod će biti prikazana poslednja lokacija sa kojom ste se povezali. Najbrže lokacije sa najnižim pingovima prikazane su u gornjem desnom uglu ekrana. U nastavku možete videti kompletnu listu lokacija. Putem funkcije pretrage, potrebna lokacija se može lako pronaći.
 
-> Free users can connect only to certain locations, while others are blocked. Besides, there is a 3 GB monthly traffic limit in the free version.
+> Korisnici besplatne verzije mogu da se povežu samo sa određenim lokacijama, dok su druge blokirane. Osim toga, u besplatnoj verziji postoji ograničenje saobraćaja od 3 GB mesečno.
 
 ## Izuzeci
 
@@ -73,9 +73,11 @@ Ovde možete dodati prilagođeni DNS server (ili servere) da se ne biste podrazu
 Ne preporučuje se menjanje naprednih postavki. Ne menjajte ih osim ako to od vas nije tražila naša tehnička podrška ili ako niste sigurni šta radite.
 
 #### Nivo vođenja evidencije
+
 Postoje samo dva nivoa vođenja evidencije, ali preporučujemo da koristite prvi, podrazumevani. Drugu opciju (produženo evidentiranje) treba postaviti samo da bi se zabeležilo čudno ponašanje programa nakon konsultacija sa našom tehničkom podrškom. Čak i ako ste omogućili drugi nivo vođenja evidencije, uverite se da ste se vratili na podrazumevani nivo nakon snimanja evidencija.
 
 #### Sakrij ikonu trake sa menijima
+
 Iako se ova opcija nalazi u *naprednim postavkama*, može se omogućiti bez oklevanja. Možete da sakrijete ikonu AdGuard VPN sa trake sa menijima, to neće sprečiti pokretanje naše aplikacije u pozadini.
 
 #### Koristi QUIC (eksperimentalno)

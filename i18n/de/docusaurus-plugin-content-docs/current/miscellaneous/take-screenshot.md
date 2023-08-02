@@ -17,14 +17,14 @@ Das Erstellen eines Screenshots auf einem Android-Gerät kann auf verschiedene A
 
 Im Allgemeinen sollten Sie für Android die folgende Tastenkombination verwenden:
 
-+ **Halten Sie die Tasten *Leiser* und *Power* gleichzeitig 1–2 Sekunden lang gedrückt**
+- **Halten Sie die Tasten *Leiser* und *Power* gleichzeitig 1–2 Sekunden lang gedrückt**
 
 Ihr Android-Gerät erfasst den gesamten Bildschirm und speichert ihn als Foto. Sie finden den Screenshot also in einem Screenshots-Ordner in Ihrer Galerie.
 
 Aber wie bereits gesagt, kann es je nach Gerät Unterschiede geben. Schauen wir uns andere mögliche Kombinationen an:
 
-+ **Halten Sie die Tasten *Home* und *Power* gleichzeitig 1–2 Sekunden lang gedrückt;**
-+ **Halten Sie gleichzeitig die Tasten *Zurück* und *Home* gedrückt**
+- **Halten Sie die Tasten *Home* und *Power* gleichzeitig 1–2 Sekunden lang gedrückt;**
+- **Halten Sie gleichzeitig die Tasten *Zurück* und *Home* gedrückt**
 
 Auf Android 8 und höher gibt es auch die Möglichkeit, einen Screenshot zu machen, indem Sie Ihre Hand vertikal entlang der linken oder rechten Kante Ihres Telefons platzieren und von dieser Kante mit Ihrer Hand nach innen wischen, indem Sie den Bildschirm berühren.
 
@@ -38,17 +38,17 @@ Mit jedem iOS-Gerät (mit Ausnahme der alten) können Sie mit Standardwerkzeugen
 
 Verwenden Sie die folgende Kombination, um einen Screenshot auf einem iOS-Gerät zu erstellen:
 
-+ **Drücken Sie gleichzeitig die *Sleep/Wake*-Taste (Seitentaste) und die *Home*-Taste und lassen Sie sie dann schnell los**
+- **Drücken Sie gleichzeitig die *Sleep/Wake*-Taste (Seitentaste) und die *Home*-Taste und lassen Sie sie dann schnell los**
 
 und diese hier für das iPhone X oder höher:
 
-+ **Drücken Sie gleichzeitig die Taste *Sleep/Wake* und die Taste *Lauter* und lassen Sie sie dann schnell los**
+- **Drücken Sie gleichzeitig die Taste *Sleep/Wake* und die Taste *Lauter* und lassen Sie sie dann schnell los**
 
 Ihr iOS-Gerät erfasst den gesamten Bildschirm und speichert ihn als Foto. Sie finden es in einer Standard-Foto-App.
 
 ### Windows
 
-+ **Um unter Windows einen Screenshot zu machen, drücken Sie die Taste *PrtScn***
+- **Um unter Windows einen Screenshot zu machen, drücken Sie die Taste *PrtScn***
 
 Auf einigen Notebooks müssen Sie *Fn* gedrückt halten und stattdessen *PrtScn* drücken.
 
@@ -58,11 +58,11 @@ Windows nimmt den gesamten Bildschirm auf und kopiert ihn in die (unsichtbare) Z
 
 Um einen Screenshot eines aktiven Fensters zu machen, verwenden Sie die folgende Kombination:
 
-+ **Halten Sie *Alt* gedrückt und drücken Sie *PrtScn* (oder *Fn + Alt + PrtScn* auf einigen Laptops)**
+- **Halten Sie *Alt* gedrückt und drücken Sie *PrtScn* (oder *Fn + Alt + PrtScn* auf einigen Laptops)**
 
 Um einen Screenshot eines bestimmten Bereichs zu machen, sollten Sie die folgende Kombination verwenden:
 
-+ ***Halten Sie *Win* (die Windows-Taste) und *Shift* gedrückt und drücken Sie ***S******
+- ***Halten Sie *Win* (die Windows-Taste) und *Shift* gedrückt und drücken Sie ***S******
 
 Nachdem Sie einen Screenshot gemacht haben, wird er in der Zwischenablage gespeichert. In den meisten Fällen können Sie es in ein Dokument einfügen, das Sie gerade bearbeiten, indem Sie die Tastenkombination *Strg + V* verwenden. Wenn Sie den Screenshot alternativ in einer Datei speichern müssen, sollten Sie das Standardprogramm **Paint** öffnen (oder jede andere App, die mit Bildern arbeiten kann). Fügen Sie Ihren Screenshot dort mit der gleichen Tastenkombination oder durch Klicken auf die Schaltfläche Einfügen (normalerweise in der oberen linken Ecke des Bildschirms) ein und speichern Sie ihn dann.
 
@@ -76,21 +76,21 @@ Außerdem können Sie auch versuchen, verschiedene Apps zum Aufnehmen von Screen
 
 Um einen Screenshot auf dem Mac zu machen, verwenden Sie die folgende Tastenkombination:
 
-+ ***Drücken und halten Sie zusammen ***⌘ Cmd + Shift + 3******
+- ***Drücken und halten Sie zusammen ***⌘ Cmd + Shift + 3******
 
 Ihr Mac erfasst den gesamten Bildschirm und speichert ihn als Datei auf dem Desktop.
 
 Um einen Screenshot eines aktiven Fensters zu machen, verwenden Sie die folgende Kombination:
 
-+ **Drücken und halten Sie zusammen *⌘ Cmd + Shift + 4 + Leertaste*.  Der Mauszeiger ändert sich in ein Kamerasymbol. Klicken Sie auf das Fenster, um es aufzunehmen. Drücken Sie die Esc-Taste, um die Aufnahme eines Screenshots abzubrechen**
+- **Drücken und halten Sie zusammen *⌘ Cmd + Shift + 4 + Leertaste*.  Der Mauszeiger ändert sich in ein Kamerasymbol. Klicken Sie auf das Fenster, um es aufzunehmen. Drücken Sie die Esc-Taste, um die Aufnahme eines Screenshots abzubrechen**
 
 Um einen Screenshot eines bestimmten Bereichs zu machen, sollten Sie die folgende Kombination verwenden:
 
-+ ***Drücken und halten Sie zusammen ***⌘ Cmd + Shift + 4******. Ziehen Sie das Fadenkreuz, um den gewünschten Bereich auszuwählen. Lassen Sie Ihre Maus oder Ihr Trackpad los, um einen Screenshot aufzunehmen, und drücken Sie die Esc-Taste, um den Vorgang abzubrechen.
+- ***Drücken und halten Sie zusammen ***⌘ Cmd + Shift + 4******. Ziehen Sie das Fadenkreuz, um den gewünschten Bereich auszuwählen. Lassen Sie Ihre Maus oder Ihr Trackpad los, um einen Screenshot aufzunehmen, und drücken Sie die Esc-Taste, um den Vorgang abzubrechen.
 
 Verwenden Sie die folgende Kombination, um einen Screenshot der *Touch Bar* (MacBook Pro) zu erstellen:
 
-+ ***Halten Sie ***⌘ Cmd + Shift + 6*** gedrückt***
+- ***Halten Sie ***⌘ Cmd + Shift + 6*** gedrückt***
 
 Ihr Mac erfasst die gesamte *Touch Bar* und speichert sie als Datei auf dem Desktop.
 

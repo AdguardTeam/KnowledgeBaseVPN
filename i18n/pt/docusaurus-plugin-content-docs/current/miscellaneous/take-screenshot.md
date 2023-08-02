@@ -17,14 +17,14 @@ A captura de tela em um dispositivo Android pode ser feita de várias maneiras, 
 
 Geralmente, você deve usar a seguinte combinação de botões para Android:
 
-+ **Mantenha pressionados simultaneamente os botões *Diminuir volume* e *Ligar* por 1 a 2 segundos**
+- **Mantenha pressionados simultaneamente os botões *Diminuir volume* e *Ligar* por 1 a 2 segundos**
 
 Seu dispositivo Android irá capturar a tela inteira e salvá-la como uma foto. Então, você pode encontrar a captura de tela em uma pasta Capturas de tela em sua Galeria.
 
 Mas, como já foi dito, pode haver diferenças dependendo do dispositivo. Vejamos outras combinações possíveis:
 
-+ **Mantenha pressionados simultaneamente os botões *Home* e *Ligar* por 1–2 segundos;**
-+ **Mantenha pressionados simultaneamente os botões *Voltar* e *Home***
+- **Mantenha pressionados simultaneamente os botões *Home* e *Ligar* por 1–2 segundos;**
+- **Mantenha pressionados simultaneamente os botões *Voltar* e *Home***
 
 No Android 8 e posterior, também é possível fazer uma captura de tela colocando a mão verticalmente ao longo da borda esquerda ou direita do telefone e deslizando a partir dessa borda com a mão tocando a tela.
 
@@ -38,17 +38,17 @@ Qualquer dispositivo iOS (com exceção dos antigos) permite tirar uma captura d
 
 Para fazer uma captura de tela em um dispositivo iOS, use a seguinte combinação:
 
-+ **Pressione o botão *Sleep/Wake* (lateral) e o botão *Home* ao mesmo tempo e solte-os rapidamente**
+- **Pressione o botão *Sleep/Wake* (lateral) e o botão *Home* ao mesmo tempo e solte-os rapidamente**
 
 e este para iPhone X ou posterior:
 
-+ **Pressione o botão *Sleep/Wake* e o botão *Aumentar volume* ao mesmo tempo e solte-os rapidamente**
+- **Pressione o botão *Sleep/Wake* e o botão *Aumentar volume* ao mesmo tempo e solte-os rapidamente**
 
 Seu dispositivo iOS irá capturar a tela inteira e salvá-la como uma foto. Você pode encontrá-lo no aplicativo Fotos padrão.
 
 ### Windows
 
-+ **Para fazer uma captura de tela no Windows, pressione o botão *PrtScn***
+- **Para fazer uma captura de tela no Windows, pressione o botão *PrtScn***
 
 On some notebooks you have to hold *Fn* and then press *PrtScn* instead.
 
@@ -58,11 +58,11 @@ Windows captures the entire screen and copies it to the (invisible) clipboard.
 
 To take a screenshot of an active window, use the following combination:
 
-+ **Hold down *Alt* and press *PrtScn* (or *Fn + Alt + PrtScn* on some laptops)**
+- **Hold down *Alt* and press *PrtScn* (or *Fn + Alt + PrtScn* on some laptops)**
 
 To take a screenshot of a specific area, you should use the following combination:
 
-+ ***Hold down *Win* (the Windows button) and *Shift* and press ***S******
+- ***Hold down *Win* (the Windows button) and *Shift* and press ***S******
 
 After you take a screenshot, it will be saved in the clipboard. In most cases you will be able to paste it into a document that you are currently editing by using *Ctrl + V* button combination. Alternatively, if you need to save the screenshot into a file, you should open the standard **Paint** program (or any other app that can work with images). Paste your screenshot there using the same button combination or by clicking the Paste button (usually in the top left corner of the screen) and then save it.
 
@@ -76,21 +76,21 @@ Besides, you can also try using different apps for taking screenshots on your co
 
 To take a screenshot on Mac, use the following button combination:
 
-+ ***Press and hold together ***⌘ Cmd + Shift + 3******
+- ***Press and hold together ***⌘ Cmd + Shift + 3******
 
 Your Mac will capture the entire screen and save it as a file on the desktop.
 
 To take a screenshot of an active window, use the following combination:
 
-+ **Press and hold together *⌘ Cmd + Shift + 4 + Space bar*.  The pointer will change to a camera icon. Click the window to capture it. Press the Esc button to cancel taking a screenshot**
+- **Press and hold together *⌘ Cmd + Shift + 4 + Space bar*.  The pointer will change to a camera icon. Click the window to capture it. Press the Esc button to cancel taking a screenshot**
 
 To take a screenshot of a specific area, you should use the following combination:
 
-+ ***Press and hold together ***⌘ Cmd + Shift + 4******. Drag the crosshair to select the needed area. Release your mouse or trackpad to take a screenshot, press the Esc button to cancel it.
+- ***Press and hold together ***⌘ Cmd + Shift + 4******. Drag the crosshair to select the needed area. Release your mouse or trackpad to take a screenshot, press the Esc button to cancel it.
 
 To take a screenshot of the *Touch Bar* (MacBook Pro) use the following combination:
 
-+ ***Hold down ***⌘ Cmd + Shift + 6******
+- ***Hold down ***⌘ Cmd + Shift + 6******
 
 Your Mac captures the entire *Touch Bar* and saves it as a file on the desktop.
 

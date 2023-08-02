@@ -25,4 +25,4 @@ AdGuard VPN 安卓版已成功安装！
 
 如果您决定卸载 AdGuard VPN 安卓版，请找到此应用的图标并长按。 在打开的列表中，点击*卸载*。
 
-您可以在[这篇文章](overview.md)中了解有关 AdGuard VPN 安卓版的更多信息。
+You can learn more about the AdGuard VPN for Android in [this article](overview.md)

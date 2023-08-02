@@ -9,8 +9,8 @@ Die AdGuard VPN-Browsererweiterung ist für Chrome, Firefox, Opera und Edge verf
 
 Um Ihre AdGuard VPN Browsererweiterung zu verwalten, entweder:
 
-* Klicken Sie entweder auf das Symbol in der Browserleiste oder auf das Hamburger-Menü-Symbol und wählen Sie *Einstellungen*,
-* Gehen Sie auf die Seite *Erweiterungen verwalten* in Ihrem Browser, klicken Sie auf *Details* unter *AdGuard VPN* und verwalten Sie die Einstellungen von dort aus.
+- Klicken Sie entweder auf das Symbol in der Browserleiste oder auf das Hamburger-Menü-Symbol und wählen Sie *Einstellungen*,
+- Gehen Sie auf die Seite *Erweiterungen verwalten* in Ihrem Browser, klicken Sie auf *Details* unter *AdGuard VPN* und verwalten Sie die Einstellungen von dort aus.
 
 Sobald Sie fertig sind, sehen Sie auf der linken Seite mehrere Registerkarten:
 

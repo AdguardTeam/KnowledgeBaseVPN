@@ -17,14 +17,14 @@ La capture d'écran sur un appareil Android peut être faite de différentes man
 
 Généralement, vous devez utiliser la combinaison de boutons suivante pour Android :
 
-+ **Maintenez simultanément enfoncées les touches *Baisser le volume* et *Mise en marche* pendant 1 à 2 secondes**
+- **Maintenez simultanément enfoncées les touches *Baisser le volume* et *Mise en marche* pendant 1 à 2 secondes**
 
 Votre appareil Android capturera tout l'écran et l'enregistrera sous forme de photo. Ainsi, vous pouvez trouver la capture d'écran dans un dossier Captures d'écran de votre Galerie.
 
 Mais, comme cela a déjà été dit, il peut y avoir des différences selon les appareils. Examinons d'autres combinaisons possibles :
 
-+ **Maintenez simultanément les boutons *Accueil* et *Mise en marche* enfoncés pendant 1 à 2 secondes ;**
-+ **Maintenez simultanément enfoncées les touches *Retour* et *Accueil***
+- **Maintenez simultanément les boutons *Accueil* et *Mise en marche* enfoncés pendant 1 à 2 secondes ;**
+- **Maintenez simultanément enfoncées les touches *Retour* et *Accueil***
 
 Sur Android 8 et versions ultérieures, il est également possible de prendre une capture d'écran en plaçant votre main verticalement le long du bord gauche ou droit de votre téléphone et en glissant depuis ce bord avec votre main touchant l'écran.
 
@@ -38,17 +38,17 @@ Tout appareil iOS (sauf les plus anciens) vous permet de faire une capture d'éc
 
 Pour prendre une capture d'écran sur un appareil iOS, utilisez la combinaison suivante :
 
-+ **Appuyez simultanément sur le bouton *Veille/réveil* (du côté) et sur le bouton *Accueil*, puis relâchez-les rapidement**
+- **Appuyez simultanément sur le bouton *Veille/réveil* (du côté) et sur le bouton *Accueil*, puis relâchez-les rapidement**
 
 et celui-ci pour iPhone X ou ultérieur :
 
-+ **Appuyez simultanément sur le bouton *Veille/réveil* et sur le bouton *Augmentation de volume*, puis relâchez-les rapidement**
+- **Appuyez simultanément sur le bouton *Veille/réveil* et sur le bouton *Augmentation de volume*, puis relâchez-les rapidement**
 
 Votre appareil iOS capturera tout l'écran et l'enregistrera sous forme de photo. Vous pouvez le trouver dans une application Photo standard.
 
 ### Windows
 
-+ **Pour prendre une capture d'écran sous Windows, appuyez sur le bouton *PrtScn***
+- **Pour prendre une capture d'écran sous Windows, appuyez sur le bouton *PrtScn***
 
 Sur certains ordinateurs portables, vous devez maintenir *Fn* puis appuyer sur *PrtScn* à la place.
 
@@ -58,11 +58,11 @@ Windows capture tout l'écran et le copie dans le presse-papiers (invisible).
 
 Pour prendre une capture d'écran d'une fenêtre active, utilisez la combinaison suivante :
 
-+ **Maintenez *Alt* enfoncé et appuyez sur *PrtScn* (ou *Fn + Alt + PrtScn* sur certains ordinateurs portables)**
+- **Maintenez *Alt* enfoncé et appuyez sur *PrtScn* (ou *Fn + Alt + PrtScn* sur certains ordinateurs portables)**
 
 Pour prendre une capture d'écran d'une zone spécifique, vous devez utiliser la combinaison suivante :
 
-+ ***Maintenez enfoncés *Win* (le bouton Windows) et *Shift* et appuyez sur ***S******
+- ***Maintenez enfoncés *Win* (le bouton Windows) et *Shift* et appuyez sur ***S******
 
 Après avoir effectué une capture d'écran, celle-ci sera enregistrée dans le presse-papiers. Dans la plupart des cas, vous pourrez la coller dans un document que vous êtes en train de rédiger en utilisant la combinaison de boutons *Ctrl + V*. Alternativement, si vous devez enregistrer la capture d'écran dans un fichier, vous devez ouvrir le programme standard **Paint** (ou toute autre application pouvant travailler avec des images). Collez-y votre capture d'écran en utilisant la même combinaison de boutons ou en cliquant sur le bouton Coller (généralement dans le coin supérieur gauche de l'écran), puis enregistrez-le.
 
@@ -76,21 +76,21 @@ En outre, vous pouvez également essayer d'utiliser des applications différente
 
 Pour prendre une capture d'écran sur un appareil Mac, utilisez la combinaison suivante :
 
-+ ***Appuyez et maintenez ensemble ***⌘ Cmd + Shift + 3******
+- ***Appuyez et maintenez ensemble ***⌘ Cmd + Shift + 3******
 
 Votre Mac capturera tout l'écran et l'enregistrera sous forme de fichier sur le bureau.
 
 Pour prendre une capture d'écran d'une fenêtre active, utilisez la combinaison suivante :
 
-+ **Appuyez et maintenez ensemble *⌘ Cmd + Shift + 4 + barre d'espace*.  Le pointeur se transforme en icône d'appareil photo. Cliquez sur la fenêtre pour la capturer. Appuyez sur le bouton Esc pour annuler la capture d'écran**
+- **Appuyez et maintenez ensemble *⌘ Cmd + Shift + 4 + barre d'espace*.  Le pointeur se transforme en icône d'appareil photo. Cliquez sur la fenêtre pour la capturer. Appuyez sur le bouton Esc pour annuler la capture d'écran**
 
 Pour prendre une capture d'écran d'une zone spécifique, vous devez utiliser la combinaison suivante :
 
-+ ***Appuyez et maintenez ensemble ***⌘ Cmd + Shift + 4******. Faites glisser le pointeur pour sélectionner la zone requise. Lâchez votre souris ou votre tracas pour prendre une capture d'écran, appuyez sur le bouton Esc pour l'annuler.
+- ***Appuyez et maintenez ensemble ***⌘ Cmd + Shift + 4******. Faites glisser le pointeur pour sélectionner la zone requise. Lâchez votre souris ou votre tracas pour prendre une capture d'écran, appuyez sur le bouton Esc pour l'annuler.
 
 Pour réaliser une capture d'écran de *la barre tactile* (MacBook Pro), utilisez la combinaison suivante :
 
-+ ***Maintenez les touches ***⌘ Cmd + Shift + 6******
+- ***Maintenez les touches ***⌘ Cmd + Shift + 6******
 
 Votre Mac capture l'intégralité de la *Barre tactile* et l'enregistre sous forme de fichier sur le bureau.
 

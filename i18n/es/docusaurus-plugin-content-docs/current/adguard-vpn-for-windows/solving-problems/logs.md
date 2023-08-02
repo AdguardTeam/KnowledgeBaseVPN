@@ -7,7 +7,6 @@ sidebar position: 1
 
 Si encuentra un problema al usar AdGuard VPN para Windows, puede informarnos al respecto. Le agradeceríamos que también enviara los registros de la aplicación a nuestra manera, nos ayudan a resolver problemas mucho más rápido.
 
-
 ## Recopilación y envío de registros estándar
 
 Por defecto, AdGuard VPN para Windows utiliza el nivel de registro estándar, es decir, la recopilación básica de datos sobre los procesos en ejecución de la aplicación. Para enviar estos registros, siga los siguientes pasos:
@@ -20,7 +19,6 @@ Por defecto, AdGuard VPN para Windows utiliza el nivel de registro estándar, es
 
 4. Hay una marca de verificación junto a **Enviar información detallada sobre el sistema**, lo que significa que cuando se envía un informe, también se envían los registros.
 > Si por alguna razón le resulta más cómodo enviarnos los registros de otra manera, puede exportarlos usted mismo. Para ello, vaya a **Soporte** → **Exportar registros e información del sistema**.
-
 
 ## Recopilación y envío de registros extendidos
 

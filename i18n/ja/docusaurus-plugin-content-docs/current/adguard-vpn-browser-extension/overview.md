@@ -9,8 +9,8 @@ AdGuard VPN Browser extension is available for Chrome, Firefox, Opera, and Edge.
 
 To manage your AdGuard VPN Browser extension:
 
-* Either click its icon on the browser's panel, click the hamburger menu icon, and select *Settings*,
-* Or go to the *Manage extensions* page in your browser, click *Details* below *AdGuard VPN* and manage its settings from there.
+- Either click its icon on the browser's panel, click the hamburger menu icon, and select *Settings*,
+- Or go to the *Manage extensions* page in your browser, click *Details* below *AdGuard VPN* and manage its settings from there.
 
 そうする設定ページが開かれ、左側に以下の項目が表示されます:
 

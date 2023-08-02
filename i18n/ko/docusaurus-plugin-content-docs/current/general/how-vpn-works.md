@@ -11,74 +11,70 @@ VPN은 위치를 숨기고 웹에서 데이터를 보호하는 데 도움이 되
 
 따라서 VPN은 두 가지 중요한 기능을 수행합니다.
 
-1. **익명성 유지**
+1. **Maintaining anonymity** Using an Internet connection, the user leaves their digital footprint, which can then be analyzed and used by third parties. For example, one of the online stores that you have visited can save your search history and then offer you their products based on it through targeted advertising. Or the secret services, having learned your location through the IP address of your device and having determined your identity, can secretly monitor your activity on the web. In addition, web browsers and ISPs themselves can use your browsing history for their own purposes, as well as sell it to advertisers and provide it to government institutions. VPN allows you to hide your IP address and replace it with the IP address of the VPN server to which you are connected. This way you will be able to maintain your privacy and anonymously search for information on the web.
 
-인터넷 연결을 사용하여 사용자는 디지털 발자국을 남기고 이를 제3자가 분석하고 사용할 수 있습니다. 예를 들어, 사용자가 방문한 온라인 상점 중 하나는 사용자의 검색 기록을 저장한 다음 타겟 광고를 통해 이를 기반으로 제품을 제공할 수 있습니다. 또는 비밀 서비스는 기기의 IP 주소를 통해 사용자의 위치를 파악하고 사용자의 신원을 확인한 후 사용자의 온라인 활동을 모니터링할 수 있습니다. 또한 웹 브라우저 및 ISP 자체는 사용자의 검색 기록을 자체 목적으로 사용할 수 있을 뿐만 아니라 광고주에게 판매하여 정부 기관에 공유할 수도 있습니다. VPN을 사용하면 IP 주소를 숨기고 연결된 VPN 서버의 IP 주소로 바꿀 수 있습니다. 이렇게 하면 개인정보를 보호하고 웹에서 익명으로 정보를 검색할 수 있습니다.
-
-2. **데이터 보호**
-
-신뢰할 수 없거나 공용 네트워크에 연결하면 기기의 데이터가 사이버 범죄자에게 취약해질 수 있습니다. 은행 카드 세부 정보, 사용자 이름 및 비밀번호, 여권 데이터와 같은 모든 데이터는 사이버 범죄자가 가로챌 수 있습니다. VPN 터널을 통해 웹으로 송수신되는 정보는 암호화되어 유출될 수 없습니다.
+2. **Data protection** If you connect to an unreliable or public network, the data on your device may become vulnerable to cybercriminals. Bank card details, usernames and passwords, passport data — all this data can be intercepted by online fraudsters. The VPN tunnel encrypts the information that you send and receive from the web, so it can not fall into the wrong hands.
 
 ## VPN 구조
 
-네트워크에 연결하면 컴퓨터나 모바일 기기에 고유한 ID 번호 또는 IP 주소가 할당됩니다. 일반적으로 0에서 255까지의 숫자로 구성되며 점이나 콜론으로 구분됩니다. 이 번호를 알면 기기의 지리적 위치를 알아볼 수 있습니다. IP 주소는 일반적으로 ISP(인터넷 공급자)에 의해 설정되며, 원하는 리소스(웹 사이트 등)까지 계속 보이게 됩니다. 이러한 이유로 방문하는 사이트의 웹 서버는 사용자의 IP 주소를 등록하고 요청한 내용을 기록할 수 있습니다. 이 기록은 주로 데이터 수집 및 트래픽 분석에 사용할 수 있습니다.
+When you connect to a network, your computer or mobile device is assigned a unique ID number, or IP address. It usually consists of numbers from 0 to 255, separated by dots or colons. Knowing this sequence, one can determine the geolocation of the device. The IP address is usually set by your ISP, and it will be visible all the way to the desired resource. For this reason, the web server of the site you are visiting can register your IP address and record what you have requested. This record can then be used primarily for data collection and traffic analysis.
 
-VPN은 기기와 VPN 서버 사이에 터널을 생성합니다. 고객님의 데이터는 이 터널을 통과하고 암호화된 다음 안전한 형태로 개방된 인터넷에 들어갑니다. 따라서 기기가 실제 IP가 아닌 터널 끝점(즉, VPN 서버)의 IP 주소를 가지고 있는 것으로 웹 서버에 표시됩니다. VPN 터널을 통과한 후 방문하는 사이트는 사용자가 선택한 VPN 서버의 지리적 위치를 실제 위치로 간주합니다. 그리고 암호화된 데이터는 광고주나 해커, 보안 서비스의 손에 들어가지 않습니다.
+A VPN creates a tunnel between your device and the VPN server. Your data goes through this tunnel, gets encrypted and then enters the open Internet in a secure form. Therefore, it will seem to the web server that your device has no longer your real IP address, but the IP address of the endpoint of the tunnel, that is, the VPN server. Thus, the site that you get to after passing through the VPN tunnel will consider the geolocation of the VPN server you selected as your real location. And the encrypted data will not fall into the hands of advertisers, hackers and security services.
 
-![VPN 구조](https://cdn.adguardvpn.com/public/Adguard/Website/Images/seo/en/how_vpn_3.jpg)
+![VPN structure](https://cdn.adguardvpn.com/public/Adguard/Website/Images/seo/en/how_vpn_3.jpg)
 
 ## VPN 프로토콜의 종류
 
-VPN 보안 프로토콜은 데이터를 VPN 터널에 암호화하고 사용자가 개방된 인터넷에서 개인 정보 보호를 유지할 수 있게 해주는 도구입니다. 현재 대다수의 최신 VPN 서비스는 다음 세 가지 VPN 프로토콜 중 하나를 사용합니다.
+VPN security protocols are tools that encrypt data in a VPN tunnel and allow you to maintain user privacy in an open Internet. At the moment, the vast majority of modern VPN services use one of the following three VPN protocols:
 
-1. [*IPSec*](https://en.wikipedia.org/wiki/IPsec). 이 프로토콜의 주요 이점 중 하나는 대부분의 기기 및 운영 체제에서 사용할 수 있으며 높은 수준의 보안을 제공한다는 것입니다. 그러나 이 프로토콜에서 [이중 캡슐화](https://en.wikipedia.org/wiki/Encapsulation_(networking))를 사용하면 연결 속도가 느려질 수 있습니다.
+1. [*IPSec*](https://en.wikipedia.org/wiki/IPsec). One of its main advantages is that it is available on most devices and operating systems and provides a high level of security. However, the use of double [encapsulation](https://en.wikipedia.org/wiki/Encapsulation_(networking)) in this protocol may result in a lower connection speed.
 
-2. [*OpenVPN*](https://en.wikipedia.org/wiki/OpenVPN). 이 최신 프로토콜은 오픈 소스이므로 타사 제조업체가 기술을 개선하고 업데이트할 수 있습니다.
+2. [*OpenVPN*](https://en.wikipedia.org/wiki/OpenVPN). This modern protocol is open source, so third-party manufacturers can improve and update the technology.
 
-3. [*WireGuard*](https://en.wikipedia.org/wiki/WireGuard). 이 프로토콜의 주요 장점은 사용 용이성, 고효율 및 공격에 대한 낮은 취약성입니다.
+3. [*WireGuard*](https://en.wikipedia.org/wiki/WireGuard). Its main advantages are ease of use, high efficiency and low vulnerability to attacks.
 
-이러한 VPN 프로토콜 외에도 다른 프로토콜(예: TLS, SSTP, IKEv2)이 있지만 널리 사용되지 않거나 최신 데이터 암호화 표준을 충족하지 않습니다.
+In addition to these VPN protocols, there are others (for example, TLS, SSTP, IKEv2), but they are unpopular or do not meet modern data encryption standards.
 
-![VPN 프로토콜 작동 방식](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/4.svg)
+![How a VPN protocol works](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/4.svg)
 
-AdGuard VPN에는 자체 [*프로토콜*](adguard-vpn-protocol.mdx)이 있습니다. AdGuard VPN 프로토콜의 장점 중 하나는 이를 사용하여 전송되는 트래픽이 일반 트래픽과 구분하기 어렵다는 것입니다. VPN 터널은 일반 HTTPS 트래픽처럼 보이므로 이를 감지하고 차단하기가 매우 어렵습니다. 또한 빠른 연결 속도를 보장하는 최신 HTTP/2 프로토콜의 메커니즘을 기반으로 합니다.
+AdGuard VPN also has its own [*protocol*](adguard-vpn-protocol.mdx). One of its advantages is that the traffic transmitted using the AdGuard VPN protocol is difficult to distinguish from the regular traffic. The VPN tunnel looks like normal HTTPS traffic, so it is extremely difficult to detect and block it. In addition, it is based on the mechanisms of the modern HTTP/2 protocol, which ensures high connection speed.
 
-![숨겨진 VPN 작동 방식](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/5.svg)
+![How concealed VPN works](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/5.svg)
 
 ## VPN의 단점
 
-명백한 장점에도 불구하고 VPN은 완벽하지 않으며 몇 가지 단점이 있습니다.
+Despite the obvious advantages, VPN is not perfect and has some disadvantages:
 
-**더 낮은 속도**
+### Lower speed
 
-트래픽이 웹 서버로 직접 가지 않고 먼저 VPN 서버를 통과하기 때문에 VPN을 사용할 때 연결 속도가 느려집니다. VPN 사용 시 속도는 VPN 서버의 부하, 대역폭, VPN 프로토콜과 운영 체제의 호환성과 같은 요인의 영향을 받습니다. 이러한 모든 요인과 네트워크 속도는 VPN 연결 속도를 저하시킬 수 있습니다.
+Since your traffic does not go directly to the web server, but first passes through the VPN server, the speed of the VPN connection decreases. Other factors also affect the speed when using a VPN: the load of the VPN server, its bandwidth, the compatibility of the VPN protocol with your operating system. All these factors, as well as the speed of the network itself, can reduce the quality of your VPN connection.
 
-**액세스 차단**
+### Access blocking
 
-일부 온라인 서비스는 VPN 트래픽을 감지하고 VPN 사용자에 대한 액세스를 차단하기 위해 많은 노력을 기울입니다. 그러나 자체 트래픽을 일반 트래픽으로 마스킹할 수 있는 VPN은 많지 않습니다. 따라서 VPN을 비활성화하지 않아도 특정 사이트를 방문하지 못할 수 있습니다.
+Some online services make a lot of effort to detect VPN traffic and block access to VPN users. However, not many VPNs can mask their traffic as regular. Therefore, many attempts to go to a particular website without disabling VPN end up in nothing.
 
-**VPN 연결 끊김**
+### VPN connections breaking
 
-VPN 연결이 갑자기 끊어지는 이유(특히 신뢰할 수 없는 VPN 공급자)는 약한 신호, 네트워크 정체, 방화벽, 바이러스 백신 및 기타 프로그램과의 VPN 비호환성, 오래된 VPN 프로토콜일 수 있습니다.
+A weak signal, network overload, VPN incompatibility with a firewall, antivirus and other programs, an outdated VPN protocol — all this can cause a sudden failure in the VPN connection, especially by unreliable VPN providers.
 
 ## AdGuard VPN
 
-우리의 VPN 서비스에는 몇 가지 중요한 [장점](why-adguard-vpn.md)이 있습니다.
+Our VPN service has several important [advantages](why-adguard-vpn.md):
 
-* [*독점 VPN 프로토콜입니다*](adguard-vpn-protocol.mdx). 느린 인터넷 연결에도 안정적으로 작동하고, 일반 트래픽으로 위장해 추적과 차단이 더욱 어려워집니다.
+- [*독점 VPN 프로토콜입니다*](adguard-vpn-protocol.mdx). 느린 인터넷 연결에도 안정적으로 작동하고, 일반 트래픽으로 위장해 추적과 차단이 더욱 어려워집니다.
 
-* [*노로깅 정책*](https://adguard-vpn.com/en/privacy.html). AdGuard VPN은 개인 데이터를 수집하지 않으며 제3자와 공유하지 않습니다.
+- [*노로깅 정책*](https://adguard-vpn.com/en/privacy.html). AdGuard VPN은 개인 데이터를 수집하지 않으며 제3자와 공유하지 않습니다.
 
-* *수십 개국에 있는 50개 이상의 VPN 서버*
+- *수십 개국에 있는 50개 이상의 VPN 서버*
 
-* *사용하기 쉽고 확장성이 좋은 사용자 정의 옵션*
+- *사용하기 쉽고 확장성이 좋은 사용자 정의 옵션*
 
-현재 AdGuard VPN은 다음과 같이 제공됩니다.
+Currently, AdGuard VPN is available as:
 
-* Chrome, Firefox 및 Edge용 [확장 프로그램](../adguard-vpn-browser-extension/overview.md)
+- Chrome, Firefox 및 Edge용 [확장 프로그램](../adguard-vpn-browser-extension/overview.md)
 
-* [Android](../adguard-vpn-for-android/overview.md) 및 [iOS](../adguard-vpn-for-ios/overview.md)용 모바일 앱
+- [Android](../adguard-vpn-for-android/overview.md) 및 [iOS](../adguard-vpn-for-ios/overview.md)용 모바일 앱
 
-* [Windows](../adguard-vpn-for-windows/overview.md) 및 [Mac](../adguard-vpn-for-mac/overview.md)용 데스크탑 애플리케이션
+- [Windows](../adguard-vpn-for-windows/overview.md) 및 [Mac](../adguard-vpn-for-mac/overview.md)용 데스크탑 애플리케이션
 
-[여기](https://adguard-vpn.com/en/welcome.html)에서 AdGuard VPN 기능(무제한 버전 포함)에 대해 자세히 알아볼 수 있습니다.
+You can learn more about AdGuard VPN features (including the unlimited version) [here](https://adguard-vpn.com/en/welcome.html).

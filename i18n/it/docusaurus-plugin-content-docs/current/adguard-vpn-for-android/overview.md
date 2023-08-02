@@ -9,9 +9,9 @@ Una VPN è il strumento ideale che fornisce sicurezza e anonimato ogni volta che
 
 **La VPN è spesso utilizzata per:**
 
-* Mantenere i dati personali al sicuro anche durante l'utilizzo del Wi-Fi pubblico
-* Impedire il tracciamento delle attività online mascherando l'indirizzo IP
-* Nascondere la vera geolocalizzazione per rimanere anonimi
+- Mantenere i dati personali al sicuro anche durante l'utilizzo del Wi-Fi pubblico
+- Impedire il tracciamento delle attività online mascherando l'indirizzo IP
+- Nascondere la vera geolocalizzazione per rimanere anonimi
 
 AdGuard VPN per Android può fare tutto questo per te e persino offrire qualcosa di unico. Per scoprire perché AdGuard VPN è l'opzione migliore, leggi [questo articolo](/general/why-adguard-vpn.md).
 

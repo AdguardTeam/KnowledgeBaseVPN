@@ -16,18 +16,20 @@ En parlant de VPN, la première chose qu'ils mentionnent est le chiffrement du t
 
 Le VPN peut être utilisé pour :
 
-* dissimuler votre localisation réelle et conservant l'anonymat
-* sécuriser vos données - même lorsque vous vous connectez à un réseau Wi-Fi public, vous pouvez naviguer sur le web en toute sécurité
-* vous protéger du spoofing (interception du trafic réseau) et du pistage de la part de votre fournisseur d'accès Internet
+- dissimuler votre localisation réelle et conservant l'anonymat
+- sécuriser vos données - même lorsque vous vous connectez à un réseau Wi-Fi public, vous pouvez naviguer sur le web en toute sécurité
+- vous protéger du spoofing (interception du trafic réseau) et du pistage de la part de votre fournisseur d'accès Internet
 
 Les mots de passe, les détails de la carte bancaire et tout simplement les informations personnelles sont à risque lorsqu'un utilisateur navigue sur Internet. Mais si vous vous connectez au réseau à l'aide d'un VPN, vous pouvez être sûr que personne ne pourra intercepter vos données.
 
 ## Pourquoi AdGuard VPN ?
 
 ### Développeur fiable
+
 AdGuard est présent sur le marché de la protection des données personnelles et du blocage des publicités et développe sa gamme de logiciels depuis plus de 12 ans. Au fil du temps, notre entreprise s'est forgée une réputation irréprochable et le nombre de nos clients a dépassé les 30 millions.
 
 ### Protocole VPN unique
+
 La différence principale entre AdGuard VPN et ses concurrents est que nous utilisons [notre propre protocole développé](/general/adguard-vpn-protocol.mdx). Il se déguise en trafic normal, de sorte qu'il est beaucoup plus difficile de le repérer et de le bloquer.
 
 ### Politique sans journalisation
@@ -35,60 +37,61 @@ La différence principale entre AdGuard VPN et ses concurrents est que nous util
 La politique d'absence de journalisation signifie que nous ne collectons, ne stockons ni ne transférons les données personnelles des utilisateurs à des tiers. Le texte intégral de la Politique de confidentialité d'AdGuard est disponible [ici](https://adguard-vpn.com/privacy.html).
 
 ### Protection contre le suivi
+
 Le trafic web de tout utilisateur peut être intéressant et est particulièrement précieux en termes de monétisation des données personnelles. Les criminels et les FAI peu scrupuleux peuvent y accéder. Cependant, avec un VPN fiable, vous pouvez être sûr que ni votre fournisseur ni personne d'autre ne verra votre activité sur Internet.
 
 ### Serveurs VPN ultrarapides dans 53 pays
 
-* Argentine
-* Australie
-* Autriche
-* Belgique
-* Brésil
-* Bulgarie
-* Cambodge
-* Canada
-* Chili
-* Colombie
-* Croatie
-* Chypre
-* Tchéquie
-* Danemark
-* Egypte
-* Estonie
-* Finlande
-* France
-* Allemagne
-* Grèce
-* Hong Kong
-* Hongrie
-* Inde
-* Irlande
-* Israël
-* Italie
-* Japon
-* Kazakhstan
-* Luxembourg
-* Mexique
-* Pays-Bas
-* Nouvelle-Zélande
-* Norvège
-* Philippines
-* Pologne
-* Portugal
-* Roumanie
-* Russie
-* Serbie
-* Singapour
-* Slovaquie
-* Afrique du Sud
-* Corée du Sud
-* Espagne
-* Suède
-* Suisse
-* Taïwan
-* Turquie
-* Royaume-Uni
-* Émirats arabes unis
-* États-Unis
-* Ukraine
-* Vietnam
+- Argentine
+- Australie
+- Autriche
+- Belgique
+- Brésil
+- Bulgarie
+- Cambodge
+- Canada
+- Chili
+- Colombie
+- Croatie
+- Chypre
+- Tchéquie
+- Danemark
+- Egypte
+- Estonie
+- Finlande
+- France
+- Allemagne
+- Grèce
+- Hong Kong
+- Hongrie
+- Inde
+- Irlande
+- Israël
+- Italie
+- Japon
+- Kazakhstan
+- Luxembourg
+- Mexique
+- Pays-Bas
+- Nouvelle-Zélande
+- Norvège
+- Philippines
+- Pologne
+- Portugal
+- Roumanie
+- Russie
+- Serbie
+- Singapour
+- Slovaquie
+- Afrique du Sud
+- Corée du Sud
+- Espagne
+- Suède
+- Suisse
+- Taïwan
+- Turquie
+- Royaume-Uni
+- Émirats arabes unis
+- États-Unis
+- Ukraine
+- Vietnam

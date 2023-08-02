@@ -11,74 +11,70 @@ VPNとは、Virtual Private Networkの略で、ウェブ上で自分の居場所
 
 このように、VPNは2つの重要な機能を担っているのです。
 
-1. **匿名性の確保**
+1. **Maintaining anonymity** Using an Internet connection, the user leaves their digital footprint, which can then be analyzed and used by third parties. For example, one of the online stores that you have visited can save your search history and then offer you their products based on it through targeted advertising. Or the secret services, having learned your location through the IP address of your device and having determined your identity, can secretly monitor your activity on the web. In addition, web browsers and ISPs themselves can use your browsing history for their own purposes, as well as sell it to advertisers and provide it to government institutions. VPN allows you to hide your IP address and replace it with the IP address of the VPN server to which you are connected. This way you will be able to maintain your privacy and anonymously search for information on the web.
 
-インターネットに接続することで、ユーザーは自分の“デジタルフットプリント”（跡）をインターネットに残し、それを第三者が分析・利用することができます。 例えば、あなたが訪れたことのあるオンラインストアは、あなたの検索履歴を保存し、それをもとにターゲティング広告で商品を提供することができます。 あるいは、端末のIPアドレスからあなた居場所を知り、あなたの身元を割り出した諜報機関が、ウェブ上でのあなたの行動を密かに監視することも可能です。 さらに、お使いのブラウザやISP（インターネットプロバイダー）も、閲覧履歴を独自の目的で利用するほか、広告主への販売や政府機関への提供なども可能です。 VPNを利用すると、自分のIPアドレスを隠して、接続先のVPNサーバーのIPアドレスに置き換えることができます。 こうすることで、オンラインプライバシーを守りながら、匿名でウェブ上の情報を検索することができます。
-
-2. **個人情報とデータの保護**
-
-不安定なネットワークや公衆ネットワークに接続すると、端末内のデータがサイバー犯罪の標的となる可能性があります。 銀行のカード情報、ユーザー名とパスワード、パスポート情報など、これらのデータはすべてオンライン詐欺師によって傍受される可能性があります。 VPNトンネルは、あなたがウェブから送受信する情報を暗号化するので、データが悪意ある第三者の手に落ちることはありません。
+2. **Data protection** If you connect to an unreliable or public network, the data on your device may become vulnerable to cybercriminals. Bank card details, usernames and passwords, passport data — all this data can be intercepted by online fraudsters. The VPN tunnel encrypts the information that you send and receive from the web, so it can not fall into the wrong hands.
 
 ## VPNの構造
 
-ネットワークに接続すると、コンピューターやモバイル端末に固有のID番号、つまりIPアドレスが割り当てられます。 通常、0から255までの数字をドットやコロンで区切ったものになります。 この番号を知ることで、デバイスのジオロケーション（現在位置）を特定することができます。 IPアドレスは通常、ISP（インターネットプロバイダー）によって設定され、目的のリソース（サイト等）までずっと見えるようになります。 このため、あなたが訪問されているサイトのウェブサーバーは、あなたのIPアドレスを登録し、あなたがリクエストした内容を記録することができます。 この記録は、主にデータ収集や通信解析のために使用されることができます。
+When you connect to a network, your computer or mobile device is assigned a unique ID number, or IP address. It usually consists of numbers from 0 to 255, separated by dots or colons. Knowing this sequence, one can determine the geolocation of the device. The IP address is usually set by your ISP, and it will be visible all the way to the desired resource. For this reason, the web server of the site you are visiting can register your IP address and record what you have requested. This record can then be used primarily for data collection and traffic analysis.
 
-VPNは、お使いの端末とVPNサーバーの間にトンネルを作成します。 あなたのデータはこのトンネルを通り、暗号化され、安全な形でオープンインターネットに出るのです。 そのため、ウェブサーバーにとって、あなたのデバイスの本当のIPアドレスではなく、トンネルの終点、つまりVPNサーバーのIPアドレスに見えるようになります。 したがって、VPNトンネルを通過した後にたどり着くサイトは、あなたが選択したVPNサーバーのジオロケーションをあなたの本当の場所とみなします。 そして、暗号化されたデータは、広告主やハッカー、セキュリティサービスの手に落ちることはありません。
+A VPN creates a tunnel between your device and the VPN server. Your data goes through this tunnel, gets encrypted and then enters the open Internet in a secure form. Therefore, it will seem to the web server that your device has no longer your real IP address, but the IP address of the endpoint of the tunnel, that is, the VPN server. Thus, the site that you get to after passing through the VPN tunnel will consider the geolocation of the VPN server you selected as your real location. And the encrypted data will not fall into the hands of advertisers, hackers and security services.
 
-![VPNの構造](https://cdn.adguardvpn.com/public/Adguard/Website/Images/seo/en/how_vpn_3.jpg)
+![VPN structure](https://cdn.adguardvpn.com/public/Adguard/Website/Images/seo/en/how_vpn_3.jpg)
 
 ## VPNプロトコルの種類
 
-VPNセキュリティプロトコルは、VPNトンネル内のデータを暗号化し、オープンなインターネット上でユーザーのプライバシーを維持することを可能にするツールです。 現在、現代VPNサービスの大半は、以下の3つのVPNプロトコルのいずれかを使用しています。
+VPN security protocols are tools that encrypt data in a VPN tunnel and allow you to maintain user privacy in an open Internet. At the moment, the vast majority of modern VPN services use one of the following three VPN protocols:
 
-1. [*IPSec*](https://ja.wikipedia.org/wiki/IPsec) その大きなメリットは、ほとんどのデバイスやOSで利用でき、高いセキュリティレベルを実現できることです。 ただし、このプロトコルでダブル[カプセル化](https://ja.wikipedia.org/wiki/%E3%82%AB%E3%83%97%E3%82%BB%E3%83%AB%E5%8C%96_(%E9%80%9A%E4%BF%A1))を使用すると、接続速度が低下する場合があります。
+1. [*IPSec*](https://en.wikipedia.org/wiki/IPsec). One of its main advantages is that it is available on most devices and operating systems and provides a high level of security. However, the use of double [encapsulation](https://en.wikipedia.org/wiki/Encapsulation_(networking)) in this protocol may result in a lower connection speed.
 
-2. [*OpenVPN*](https://ja.wikipedia.org/wiki/OpenVPN). この現代プロトコルはオープンソースであるため、サードパーティーのメーカーが技術の改善や更新を行うことができます。
+2. [*OpenVPN*](https://en.wikipedia.org/wiki/OpenVPN). This modern protocol is open source, so third-party manufacturers can improve and update the technology.
 
-3. [*WireGuard*](https://ja.wikipedia.org/wiki/WireGuard) 主な利点は、使いやすさと高い効率性、攻撃に対する脆弱性の低さです。
+3. [*WireGuard*](https://en.wikipedia.org/wiki/WireGuard). Its main advantages are ease of use, high efficiency and low vulnerability to attacks.
 
-これらのVPNプロトコルに加えて、他のプロトコル（例えば、TLS、SSTP、IKEv2）もありますが、不人気であったり、最新のデータ暗号化規格に対応していなかったりします。
+In addition to these VPN protocols, there are others (for example, TLS, SSTP, IKEv2), but they are unpopular or do not meet modern data encryption standards.
 
-![VPNプロトコルの仕組み](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/4.svg)
+![How a VPN protocol works](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/4.svg)
 
-AdGuard VPNには、[*独自開発のプロトコル*](adguard-vpn-protocol.mdx)があります。 その利点の1つは、AdGuard VPNプロトコルを使用して送信されるトラフィックは、通常のトラフィックと区別することが困難であることです。 VPNトンネルは通常のHTTPSトラフィックのように見えるため、VPN通信を検知してブロックすることは極めて困難です。 また、最新のHTTP/2プロトコルの仕組みに基づいているため、高い接続速度を確保します。
+AdGuard VPN also has its own [*protocol*](adguard-vpn-protocol.mdx). One of its advantages is that the traffic transmitted using the AdGuard VPN protocol is difficult to distinguish from the regular traffic. The VPN tunnel looks like normal HTTPS traffic, so it is extremely difficult to detect and block it. In addition, it is based on the mechanisms of the modern HTTP/2 protocol, which ensures high connection speed.
 
-![検出対策VPNの仕組み](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/5.svg)
+![How concealed VPN works](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/5.svg)
 
 ## VPNの欠点
 
-明らかな利点があるにもかかわらず、VPNにはいくつかの欠点もあります。
+Despite the obvious advantages, VPN is not perfect and has some disadvantages:
 
-**速度が遅くなる**
+### Lower speed
 
-トラフィックが直接ウェブサーバーに行かず、VPNサーバーを経由するため、VPN接続の速度は低下します。 さらに、VPNサーバーの負荷、帯域幅、VPNプロトコルとOSの互換性など、VPN使用時の速度には他の要素も影響します。 これらすべての要素、およびネットワーク自体の速度は、VPN接続の品質を低下させる可能性があります。
+Since your traffic does not go directly to the web server, but first passes through the VPN server, the speed of the VPN connection decreases. Other factors also affect the speed when using a VPN: the load of the VPN server, its bandwidth, the compatibility of the VPN protocol with your operating system. All these factors, as well as the speed of the network itself, can reduce the quality of your VPN connection.
 
-**サイト・サービスへのアクセスブロック**
+### Access blocking
 
-オンラインサービスの中には、VPNトラフィックを検出し、VPNユーザーのアクセスをブロックするために多大な努力を払っているものがあります。 しかし、VPNトラフィックを通常のものとしてマスクできるVPNは多くありません。 そのため、VPNを無効せずに特定のウェブサイトにアクセスしようとすると、無駄に終わることがあります。
+Some online services make a lot of effort to detect VPN traffic and block access to VPN users. However, not many VPNs can mask their traffic as regular. Therefore, many attempts to go to a particular website without disabling VPN end up in nothing.
 
-**VPN接続の切断**
+### VPN connections breaking
 
-弱い電波、ネットワークの過負荷、ファイアウォールやアンチウイルスなどのプログラムとVPNの非互換性、旧VPNプロトコルなど、これらはすべて、特に信頼性の低いVPNプロバイダの場合、VPN接続が突然落ちてしまう原因となる可能性があります。
+A weak signal, network overload, VPN incompatibility with a firewall, antivirus and other programs, an outdated VPN protocol — all this can cause a sudden failure in the VPN connection, especially by unreliable VPN providers.
 
 ## AdGuard VPN
 
-当社のAdGuard VPNには、いくつかの重要な[利点](why-adguard-vpn.md)があります:
+Our VPN service has several important [advantages](why-adguard-vpn.md):
 
-* [*独自開発のVPNプロトコル*](adguard-vpn-protocol.mdx)。低速なインターネット回線でも安定して動作し、通常のトラフィックに偽装するため、検出やブロックが難しい
+- [*独自開発のVPNプロトコル*](adguard-vpn-protocol.mdx)。低速なインターネット回線でも安定して動作し、通常のトラフィックに偽装するため、検出やブロックが難しい
 
-* [*"ノーログ"ポリシー*](https://adguard-vpn.com/ja/privacy.html)。AdGuard VPNがお客様の個人情報を一切収集せず、第三者に転送しないことを意味します。
+- [*"ノーログ"ポリシー*](https://adguard-vpn.com/ja/privacy.html)。AdGuard VPNがお客様の個人情報を一切収集せず、第三者に転送しないことを意味します。
 
-* *数十カ国に50台以上のVPNサーバーを設置*
+- *数十カ国に50台以上のVPNサーバーを設置*
 
-* *使いやすさと柔軟なカスタマイズ機能*
+- *使いやすさと柔軟なカスタマイズ機能*
 
-現在、AdGuard VPNは、以下の形で利用できます:
+Currently, AdGuard VPN is available as:
 
-* Chrome/Firefox/Edge用[ブラウザ拡張機能](../adguard-vpn-browser-extension/overview.md)
+- Chrome/Firefox/Edge用[ブラウザ拡張機能](../adguard-vpn-browser-extension/overview.md)
 
-* [Android用](../adguard-vpn-for-android/overview.md)と[iOS用](../adguard-vpn-for-ios/overview.md)モバイルアプリ
+- [Android用](../adguard-vpn-for-android/overview.md)と[iOS用](../adguard-vpn-for-ios/overview.md)モバイルアプリ
 
-* [Windows用](../adguard-vpn-for-windows/overview.md)と[Mac用](../adguard-vpn-for-mac/overview.md)デスクトップアプリ
+- [Windows用](../adguard-vpn-for-windows/overview.md)と[Mac用](../adguard-vpn-for-mac/overview.md)デスクトップアプリ
 
-AdGuard VPN機能の詳細（無制限版を含む）については、[こちらで](https://adguard-vpn.com/ja/welcome.html)ご確認いただけます。
+You can learn more about AdGuard VPN features (including the unlimited version) [here](https://adguard-vpn.com/en/welcome.html).

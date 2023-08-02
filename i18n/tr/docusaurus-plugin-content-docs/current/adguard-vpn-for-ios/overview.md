@@ -8,10 +8,11 @@ sidebar_position: 1
 VPN, İnternet üzerindeki başka bir ağa güvenli bir bağlantı oluşturmanızı sağlar. Bir kullanıcının bilgisayarını veya mobil cihazını bir sunucuya bağlar ve birinin başka birinin IP adresini kullanarak internette gezinmesini sağlar. Yani VPN sunucusu farklı bir ülkede bulunuyorsa o ülkeden internete bağlandığınız görülür. Bir VPN'nin nasıl çalıştığı hakkında [daha fazla bilgi edinin](/general/how-vpn-works.md).
 
 AdGuard VPN'den bahsetmişken, birkaç işlevi vardır:
-* gerçek nerede olduğunuzu gizler ve anonim kalmanıza yardımcı olur
-* verilerinizi izlemekten korumak için IP adresinizi değiştirir
-* trafiğinizi dolandırıcıların erişemeyeceği şekilde şifreler
-* VPN'nin nerede kullanılacağını ve nerede kullanılmayacağını yapılandırmanıza olanak tanır (istisnalar özelliği)
+
+- gerçek nerede olduğunuzu gizler ve anonim kalmanıza yardımcı olur
+- changes your IP address to protect your data from tracking
+- trafiğinizi dolandırıcıların erişemeyeceği şekilde şifreler
+- VPN'nin nerede kullanılacağını ve nerede kullanılmayacağını yapılandırmanıza olanak tanır (istisnalar özelliği)
 
 iOS için AdGuard VPN'in bir sonraki avantajı, kendi VPN protokolümüzdür. İki ana avantajı vardır: diğer VPN protokolleriyle karşılaştırıldığında, tespit edilmesi son derece zordur ve zayıf bir internet bağlantısıyla bile kararlı bir şekilde çalışır. [Bu makalede](../general/adguard-vpn-protocol.mdx) AdGuard VPN protokolü hakkında daha fazla bilgi edinebilirsiniz.
 

@@ -9,9 +9,9 @@ VPN, internette her gezindiğinizde güvenlik ve anonimlik sağlayan ideal bir a
 
 **VPN sıklıkla şunlar için kullanılır:**
 
-* Herkese açık Wi-Fi kullanırken bile kişisel verileri güvende tutmak
-* IP adresini gizleyerek çevrimiçi etkinlik izlemeyi önlemek
-* Anonim kalmak için gerçek coğrafi konumu gizlemek
+- Herkese açık Wi-Fi kullanırken bile kişisel verileri güvende tutmak
+- IP adresini gizleyerek çevrimiçi etkinlik izlemeyi önlemek
+- Anonim kalmak için gerçek coğrafi konumu gizlemek
 
 Android için AdGuard VPN sizin için her şeyi yapabilir — ve hatta benzersiz bir şey sunabilir. AdGuard VPN'in neden daha iyi bir seçenek olduğunu öğrenmek için — [bu makaleyi](/general/why-adguard-vpn.md) okuyun.
 

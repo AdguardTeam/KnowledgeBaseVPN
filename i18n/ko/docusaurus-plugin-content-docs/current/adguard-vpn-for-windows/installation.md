@@ -27,22 +27,22 @@ Windows용 AdGuard VPN을 설치하려면, [저희 웹 사이트](https://adguar
 
 일반 방법으로 프로그램이 제거되지 않으면 고급 방법을 시도할 수 있습니다. First of all, you need to [download the uninstaller tool](https://cdn.adtidy.org/distr/windows/Uninstall_Utility.zip) created by our developers. ZIP 파일을 PC의 임의 폴더에 추출하고 **Adguard.UninstallUtility.exe** 파일을 실행한 다음 앱이 장치를 변경하도록 허용합니다. 그런 다음 아래 지침을 따르십시오.
 
-* Choose *Standard uninstall*, ***Delete AdGuard VPN*** and click *Uninstall*.
+- Choose *Standard uninstall*, ***Delete AdGuard VPN*** and click *Uninstall*.
 
-![Standard uninstall *border](https://cdn.adguardvpn.com/content/kb/ad_blocker/windows/installation/standard-uninstall.png)
+    ![Standard uninstall *border](https://cdn.adguardvpn.com/content/kb/ad_blocker/windows/installation/standard-uninstall.png)
 
-* 제거가 완료되면 창에 다음과 같은 문자열이 표시됩니다. `[OK] 제거 완료`
+- Wait until uninstall is finished — there will be a string in the window: `[OK] Uninstall finished`
 
-![제거 완료 *border](https://cdn.adguardvpn.com/content/kb/ad_blocker/windows/installation/standard-uninstall-2.png)
+    ![Uninstall finished *border](https://cdn.adguardvpn.com/content/kb/ad_blocker/windows/installation/standard-uninstall-2.png)
 
-> 1~2 단계를 수행해도 프로그램이 제거되지 않은 경우에만 다음 단계를 따르십시오. 고급 제거 지침의 3~4단계를 사용하기 전에 지원 팀에 문의하는 것이 좋습니다.
+    > Follow the next steps only if performing first two steps wasn’t enough for some reason. We strongly recommend contacting our support team before using steps 3–4 of advanced uninstall instruction.
 
-* Choose *Advanced uninstall*, ***Delete AdGuard VPN*** and click *Uninstall*.
+- Choose *Advanced uninstall*, ***Delete AdGuard VPN*** and click *Uninstall*.
 
-![고급 제거 *border](https://cdn.adguardvpn.com/content/kb/ad_blocker/windows/installation/advanced-uninstall.png)
+    ![Advanced uninstall *border](https://cdn.adguardvpn.com/content/kb/ad_blocker/windows/installation/advanced-uninstall.png)
 
-* 제거가 완료되면 창에 다음과 같은 문자열이 표시됩니다. `[OK] 제거 완료`
+- Wait until uninstall is finished — there will be a string in the window: `[OK] Uninstall finished`
 
-![제거 완료 *border](https://cdn.adguardvpn.com/content/kb/ad_blocker/windows/installation/advanced-uninstall-2.png)
+    ![Uninstall finished *border](https://cdn.adguardvpn.com/content/kb/ad_blocker/windows/installation/advanced-uninstall-2.png)
 
-AdGuard가 제거되었습니다!
+AdGuard is successfully uninstalled!

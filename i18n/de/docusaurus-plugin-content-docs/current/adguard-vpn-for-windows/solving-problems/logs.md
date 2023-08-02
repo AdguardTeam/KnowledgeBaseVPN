@@ -7,7 +7,6 @@ sidebar position: 1
 
 Wenn Sie bei der Verwendung von AdGuard VPN für Windows auf ein Problem stoßen, können Sie uns darüber informieren. Es wäre noch effektiver, falls Sie uns auch Anwendungsprotokolle zusenden würden, da diese uns helfen, Probleme schneller zu lösen.
 
-
 ## Sammeln und Senden von Standardprotokollen
 
 Standardmäßig verwendet AdGuard VPN für Windows die Protokollierungsebene Standard, d. h. die grundlegende Sammlung von Daten über laufende Prozesse der App. Um diese Protokolle zu senden, machen Sie Folgendes:
@@ -20,7 +19,6 @@ Standardmäßig verwendet AdGuard VPN für Windows die Protokollierungsebene Sta
 
 4. Neben **Detaillierte Systeminformationen senden** ist ein Häkchen gesetzt, d. h., wenn Sie einen Bericht senden, senden Sie auch Protokolle.
 > Wenn es für Sie aus irgendeinem Grund bequemer ist, uns Protokolle auf andere Weise zu senden, können Sie sie selbst exportieren. Gehen Sie dazu auf **Support** → **Protokolle und Systeminformationen exportieren**.
-
 
 ## Sammeln und Senden erweiterter Protokolle
 

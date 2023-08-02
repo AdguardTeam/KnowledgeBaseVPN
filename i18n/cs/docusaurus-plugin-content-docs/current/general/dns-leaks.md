@@ -35,8 +35,8 @@ Například AdGuard DNS odstraňuje reklamy a chrání zařízení před sledov�
 
 Můžete si vybrat libovolný DNS server a nakonfigurovat jej v AdGuard VPN:
 
-* v AdGuard VPN pro Windows: *Nastavení* → *Nastavení aplikace* → *DNS servery*
-* v AdGuard VPN pro macOS: *Nastavení* → *Nastavení aplikace* → *DNS servery*
-* v AdGuard VPN pro Android: *Nastavení* (ikona ozubeného kola) → *Nastavení aplikace* → *DNS server*
-* v AdGuard VPN pro iOS: *Nastavení* (ikona ozubeného kola) → *Nastavení aplikace* → *DNS server*
-* v Rozšíření prohlížeče AdGuard VPN: ikona hamburger menu → *Nastavení* → *DNS-server*
+- v AdGuard VPN pro Windows: *Nastavení* → *Nastavení aplikace* → *DNS servery*
+- v AdGuard VPN pro macOS: *Nastavení* → *Nastavení aplikace* → *DNS servery*
+- v AdGuard VPN pro Android: *Nastavení* (ikona ozubeného kola) → *Nastavení aplikace* → *DNS server*
+- v AdGuard VPN pro iOS: *Nastavení* (ikona ozubeného kola) → *Nastavení aplikace* → *DNS server*
+- v Rozšíření prohlížeče AdGuard VPN: ikona hamburger menu → *Nastavení* → *DNS-server*

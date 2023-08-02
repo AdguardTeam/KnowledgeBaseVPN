@@ -73,9 +73,11 @@ Hier können Sie einen benutzerdefinierten DNS-Server (oder mehrere Server) hinz
 Erweiterte Einstellungen sollten nicht angepasst werden. Ändern Sie sie nicht, es sei denn, Sie werden von unserem technischen Support dazu aufgefordert oder Sie sind sich sicher, was Sie tun.
 
 #### Protokollierungsebene
+
 Es gibt nur zwei Protokollierungsebenen, aber wir empfehlen dringend, dass Sie die erste Standardebene verwenden. Die zweite Option (erweiterte Protokollierung) sollte nur nach Rücksprache mit unserem technischen Support eingestellt werden, um ein ungewöhnliches Programmverhalten aufzuzeichnen. Auch wenn Sie die zweite Protokollierungsebene aktiviert haben, stellen Sie sicher, dass Sie nach dem Aufzeichnen von Protokollen zur Standardebene zurückkehren.
 
 #### Menüleistensymbol ausblenden
+
 Diese Option befindet sich zwar in *Erweiterten Einstellungen*, kann aber bedenkenlos aktiviert werden. Sie können das AdGuard VPN-Symbol in der Menüleiste ausblenden, es verhindert jedoch nicht, dass unsere App im Hintergrund läuft.
 
 #### QUIC verwenden (experimentell)

@@ -7,7 +7,6 @@ sidebar position: 1
 
 Pokud při používání AdGuard VPN pro Windows narazíte na problém, můžete nás o něm informovat. Budeme vám vděční, pokud nám budete posílat také záznamy o aplikacích, které nám pomohou vyřešit problémy mnohem rychleji.
 
-
 ## Shromažďování a odesílání standardních protokolů
 
 Ve výchozím nastavení používá AdGuard VPN pro Windows standardní úroveň záznamů, tj. základní sběr dat o spuštěných procesech aplikace. Chcete-li tyto protokoly odeslat, postupujte podle následujících kroků:
@@ -20,7 +19,6 @@ Ve výchozím nastavení používá AdGuard VPN pro Windows standardní úroveň
 
 4. Vedle položky **Odeslat podrobné systémové informace** je zaškrtávací políčko, což znamená, že při odesílání hlášení se odesílají také protokoly.
 > Pokud je pro vás z nějakého důvodu pohodlnější poslat nám protokoly jiným způsobem, můžete je exportovat sami. Chcete-li to provést, přejděte do **Podpora** → **Exportovat protokoly a systémové informace**.
-
 
 ## Shromažďování a odesílání rozšířených protokolů
 

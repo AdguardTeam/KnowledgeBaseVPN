@@ -11,26 +11,26 @@ AdGuard VPN, yalnızca **iOS 11.2 ve iPadOS 11.2 veya sonraki sürümlere** sahi
 
 *iOS için AdGuard VPN* uygulamasını *App Store'dan* ücretsiz olarak indirebilir ve yükleyebilirsiniz. Bunu yapmak için [bu bağlantıyı](https://agrd.io/ios_vpn) takip edin ve *İndir* simgesine dokunun veya birkaç basit adımı takip edin:
 
-1. Cihazınızda *App Store* uygulamasını açın ve ekranın sağ alt köşesindeki *Ara* öğesine dokunun.
+1. Open the *App Store* app on your device and tap *Search* in the bottom right corner of the screen.
 
-![App Store](https://cdn.adguardvpn.com/content/kb/vpn/ios/app-store-en.png)
+    ![App Store](https://cdn.adguardvpn.com/content/kb/vpn/ios/app-store-en.png)
 
-2. Ardından, arama çubuğuna *"AdGuard"* yazmaya başlayın ve önerilen seçenekler listesinden *"adguard vpn"* öğesini seçin.
+1. Next, in the search bar, start typing *"AdGuard"* and select *"adguard vpn"* from the list of suggested options.
 
-![Ara](https://cdn.adguardvpn.com/content/kb/vpn/ios/search-en.png)
+    ![Search](https://cdn.adguardvpn.com/content/kb/vpn/ios/search-en.png)
 
-3. Önerilen uygulamalar listesinden *AdGuard VPN - Unlimited & Fast* öğesini seçin ve *İndir* öğesine dokunun. Gerekirse, açılan pencereye Apple Kimliği hesap şifrenizi girin.
+1. Select *AdGuard VPN - Unlimited & Fast* from the list of suggested applications and tap *Download*. If necessary, enter your Apple ID account password in the opened window.
 
-![AdGuard VPN](https://cdn.adguardvpn.com/content/kb/vpn/ios/adguard-vpn-en.png)
+    ![AdGuard VPN](https://cdn.adguardvpn.com/content/kb/vpn/ios/adguard-vpn-en.png)
 
-4. İndirmenin bitmesini bekleyin ve *Aç* öğesine dokunun.
+1. Wait for the download to finish and tap *Open*.
 
-iOS için AdGuard VPN başarıyla yüklendi!
+AdGuard VPN for iOS has been successfully installed!
 
 ## iOS için AdGuard VPN nasıl kaldırılır
 
-iOS için AdGuard VPN'i silmeye karar verdiyseniz, Ana Ekranda bu uygulamanın simgesini bulun ve basılı tutun. Açılan listede *Uygulamayı Kaldır* öğesine dokunun.
+If you decided to delete AdGuard VPN for iOS, find the icon of this app on the Home Screen and hold it. In the opened list, tap *Remove App*.
 
-![Kaldır](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/deinstall-en.png)
+![Uninstall](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/deinstall-en.png)
 
-[Bu makalede](overview.md) iOS için AdGuard VPN uygulaması hakkında daha fazla bilgi edinebilirsiniz.
+You can learn more about the AdGuard VPN app for iOS in [this article](overview.md).
