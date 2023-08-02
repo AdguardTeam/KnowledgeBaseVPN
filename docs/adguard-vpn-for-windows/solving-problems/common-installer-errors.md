@@ -31,11 +31,11 @@ You could say this is a particular subtype of Error 1603. The possible solutions
 
 - Start and re-register Microsoft Installer service. It requires some work.
 
-    1) Press *Win + R* and enter **services.msc**.
-    2) Find in the list and double click *Windows Installer*.
-    3) Hit *Start* button under *Service status* and hit *OK*. If the service status is **running**, you should click *Stop* first and then hit *Start*. 
-    4) Press *Win + R*, type and enter ***msiexec /unregister*** and hit *Enter*.
-    5) Press *Win + R* again, type and enter ***msiexec /regserver*** and hit *Enter*
+    1. Press *Win + R* and enter **services.msc**.
+    1. Find in the list and double click *Windows Installer*.
+    1. Hit *Start* button under *Service status* and hit *OK*. If the service status is **running**, you should click *Stop* first and then hit *Start*.
+    1. Press *Win + R*, type and enter ***msiexec /unregister*** and hit *Enter*.
+    1. Press *Win + R* again, type and enter ***msiexec /regserver*** and hit *Enter*
 
 - Reboot the PC and start the installation all over again. Sometimes that's enough to fix the problem.
 
@@ -61,23 +61,23 @@ The error sounds scarier than it actually is. In reality, this is a rather gener
 
 - Start and re-register Microsoft Installer service. It requires some work.
 
-    1) Press *Win + R* and enter ***services.msc***.
-    2) Find in the list and double click *Windows Installer*.
-    3) Hit *Start* button under *Service status* and hit *OK*. If the service status is **running**, you should click *Stop* first and then hit *Start*. 
-    4) Press *Win + R*, type and enter ***msiexec /unregister*** and hit *Enter*.
-    5) Press *Win + R* again, type and enter ***msiexec /regserver*** and hit *Enter*
+    1. Press *Win + R* and enter ***services.msc***.
+    1. Find in the list and double click *Windows Installer*.
+    1. Hit *Start* button under *Service status* and hit *OK*. If the service status is **running**, you should click *Stop* first and then hit *Start*.
+    1. Press *Win + R*, type and enter ***msiexec /unregister*** and hit *Enter*.
+    1. Press *Win + R* again, type and enter ***msiexec /regserver*** and hit *Enter*
 
 - Acquire full permissions on the drive for installation. It is possible that the error 1603 occurs because you don’t have full permissions on the file location. It's also not as easy as some of the other solutions:
 
-    1) Open *File Explorer*, right-click the drive containing the installation location, and select *Properties*.
-    2) Go to *Security* tab and click *Edit*.
-    3) Single-click *SYSTEM* and ensure that the *Allow* box of every item in *Permissions for SYSTEM* is checked (if it is checkable). Do the same check for *Administrators*.
-    4) Click *OK* to go back to *Properties* dialog. Then click *Advanced*.
-    5) Click *Change Permissions*.
-    6) In *Permissions* tab, double-click *Administrators*.
-    7) Select *This folder, subfolders and files* for the *Applies to* field and tick all the available *Basic permissions*. After that hit *OK*.
-    8) Do the same operation above (from item 7) for *SYSTEM*.
-    9) Click *OK* all the way out. Try installing AdGuard again.
+    1. Open *File Explorer*, right-click the drive containing the installation location, and select *Properties*.
+    1. Go to *Security* tab and click *Edit*.
+    1. Single-click *SYSTEM* and ensure that the *Allow* box of every item in *Permissions for SYSTEM* is checked (if it is checkable). Do the same check for *Administrators*.
+    1. Click *OK* to go back to *Properties* dialog. Then click *Advanced*.
+    1. Click *Change Permissions*.
+    1. In *Permissions* tab, double-click *Administrators*.
+    1. Select *This folder, subfolders and files* for the *Applies to* field and tick all the available *Basic permissions*. After that hit *OK*.
+    1. Do the same operation above (from item 7) for *SYSTEM*.
+    1. Click *OK* all the way out. Try installing AdGuard again.
 
 ### Error 1618: Another installation is already in progress {#error-1618}
 
