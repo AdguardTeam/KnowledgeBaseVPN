@@ -77,6 +77,6 @@ Ma cosa succede se vuoi sentirti al sicuro mentre guardi contenuti specifici per
 
 ## 12. Modalità scura
 
-![Modalità scura](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/main_en_black.png)
+![Dark mode *mobile_border](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/main_en_black.png)
 
 Questa piccola caratteristica merita una menzione speciale. In effetti, molti utenti desiderano la modalità scura, quindi non potevamo ignorarli e abbiamo aggiunto un interruttore del tema per tutti i prodotti AdGuard VPN. Scegli quello che ti piace di più: chiaro, scuro o predefinito di sistema. Speriamo che ti unirai al lato oscuro.

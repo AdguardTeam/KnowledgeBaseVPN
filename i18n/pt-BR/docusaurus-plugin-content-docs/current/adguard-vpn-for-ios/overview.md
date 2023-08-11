@@ -24,13 +24,13 @@ Se você ainda não tem uma conta AdGuard, você terá que criá-la primeiro.
 
 Usar o AdGuard VPN é muito fácil. Na tela principal você pode ver o botão *Conectar/Desconectar* e a lista de servidores disponíveis. Lá, os servidores têm sua própria localização (um determinado país e uma cidade) e um indicador de ping. O ping descreve o tempo de resposta do servidor (em milissegundos). Por exemplo, escolher o servidor com ping de 22 ms significa que o sinal chegará ao servidor e retornará em 22 milissegundos. Então, quanto menor esta taxa, mais rápida será sua conexão. No AdGuard VPN, você pode escolher entre mais de 50 locais em dezenas de países.
 
-![Tela principal e localizações](https://cdn.adguardvpn.com/content/kb/vpn/ios/1.png?123)
+![Main screen and locations *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/1.png?123)
 
 ## Listas de exclusões
 
 Você pode encontrar o recurso de exclusão tocando no botão do meio abaixo. Lá você verá duas listas de exclusão: para os modos geral e seletivo. No modo Geral, a VPN funciona em todos os sites, exceto os da lista de exclusão. No modo Seletivo, por outro lado, a VPN opera apenas nos sites da lista. Você pode adicionar domínios (por exemplo, `google.com`) ou subdomínios (por exemplo, `*.google.com`) de sites de duas maneiras: você pode inseri-los manualmente no aplicativo ou diretamente no navegador, clicando no botão *Compartilhar* e encontrar AdGuard VPN na lista aberta abaixo.
 
-![Exclusões](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.png?123)
+![Exclusions *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.png?123)
 
 Outro recurso útil é a importação/exportação de listas de exclusão. Você pode fazer isso seguindo as próximas quatro etapas:
 
@@ -42,7 +42,7 @@ Outro recurso útil é a importação/exportação de listas de exclusão. Você
 
 4. Abra o AdGuard VPN no dispositivo para o qual deseja importar o arquivo com as listas de exclusões prontas. Encontre a seção apropriada, clique no botão *Importar* e selecione o arquivo.
 
-![Importar/exportar exclusões](https://cdn.adguardvpn.com/content/kb/vpn/ios/import-export-exclusions.png)
+![Import/export exclusions *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/import-export-exclusions.png)
 
 ## Configurações de aplicativo
 
@@ -53,7 +53,7 @@ Para acessar as configurações do aplicativo:
 
 Aqui, você pode configurar o AdGuard VPN para iOS conforme necessário usando diferentes opções: Modo operacional, servidor DNS, proteção automática de Wi-Fi, tema de cores e configurações avançadas.
 
-![Configurações do aplicativo](https://cdn.adguardvpn.com/content/kb/vpn/ios/app-settings.png)
+![App Settings *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/app-settings.png)
 
 ### Modo operacional
 
@@ -68,7 +68,7 @@ No modo **integrado**, o AdGuard VPN poderá funcionar ao mesmo tempo com o bloq
 
 O objetivo do sistema de nome de domínio (DNS) é traduzir os nomes dos sites em algo que os navegadores possam entender, ou seja, endereços IP. Este trabalho é executado por servidores DNS. O AdGuard VPN para iOS oferece uma escolha entre vários servidores DNS, cada um com suas próprias qualidades especiais. Por exemplo, o AdGuard DNS remove anúncios e protege seu dispositivo contra rastreamento, enquanto o AdGuard DNS Family Protection combina as funções do AdGuard DNS com SafeSearch e bloqueio de conteúdo adulto. Os servidores DNS de diferentes provedores de DNS também podem funcionar mais rápido ou mais devagar, dependendo da sua localização, ISP e outros fatores. Escolha o que funciona melhor para você. Você pode saber mais sobre o DNS e suas características [neste artigo](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns).
 
-![Tela do servidor DNS](https://cdn.adguardvpn.com/content/kb/vpn/ios/dns-server.png)
+![DNS server screen *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/dns-server.png)
 
 ### Proteção automática de Wi-Fi
 
@@ -86,16 +86,16 @@ Em *Configurações avançadas* você pode encontrar duas seções — Nível de
 
 Para acessar esse recurso, toque e segure o ícone do aplicativo e levante o dedo. Você verá uma lista de Ações rápidas: Conectar/Desconectar ao servidor atualmente selecionado, Escolher localização para selecionar um novo local de servidor. Você também pode, é claro, acessar todas as ações padrão, como remover o aplicativo ou mover o ícone do aplicativo.
 
-![Ações Rápidas](https://cdn.adguardvpn.com/content/kb/vpn/ios/quick-actions.png)
+![Quick actions *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/quick-actions.png)
 
 ## Suporte
 
 A realização dos usuários é a nossa maior prioridade. Portanto, há uma variedade de recursos de ajuda no aplicativo (pressione o botão *Configurações* no canto inferior direito e depois *Suporte*): você pode ver a seção de perguntas frequentes, relatar um bug, deixar comentários, discutir seus problemas e sugestões em nosso fórum, nas redes sociais ou no GitHub, avalie o AdGuard VPN para iOS na App Store e exporte os logs.
 
-![Suporte](https://cdn.adguardvpn.com/content/kb/vpn/ios/support.png)
+![Support *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/support.png)
 
 ## Assinatura
 
 Se você estiver usando a versão gratuita do AdGuard VPN, haverá a quarta guia com um ícone de seta na barra de guias inferior. Nesta seção você encontrará uma breve informação sobre as principais vantagens da versão paga do app e poderá adquirir uma assinatura.
 
-![Assinatura](https://cdn.adguardvpn.com/content/kb/vpn/ios/subscription_en.png)
+![Subscription *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/subscription_en.png)

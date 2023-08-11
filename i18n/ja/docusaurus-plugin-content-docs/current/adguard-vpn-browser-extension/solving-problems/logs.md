@@ -1,14 +1,14 @@
 ---
-title: How to collect and send logs
+title: ログの収集・送信方法
 sidebar_position: 1
 ---
 
-There are several ways for collecting AdGuard VPN Browser extension logs, but whichever one you choose, the same data will be collected. In the extension, logs are not divided into standard and debug ones. And different options for collecting logs are provided for those cases when a problem you encounter prevents you from using one or another instruction.
+AdGuard VPNブラウザ拡張機能のログを集めるやり方はたくさんですけれど、どっちが選ぶしてにもかかわらず、集めるのデータは同じものだ。 拡張機能にあるログは通常とかデバッグなどで分けるはない。 だから、どれでも仕方を妨げる問題があれば、ログを集めるの他の仕方がある。
 
-## Collecting and sending logs via the *Report a bug* section
+## *「不具合を報告する」*を使うでログを収集・送信
 
-1. Open AdGuard VPN Browser extension, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
-1. Open *Settings* by clicking the hamburger menu icon (☰) → *Support* → *Report a bug*.
+1. AdGuard VPN ブラウザ拡張機能を開き、可能であれば、エラーに至った操作を繰り返して、問題を再現してください。 ※問題が発生した時刻を記録しておいてください。
+1. (☰) のメニューアイコンをクリックすると「*設定*」を開く→ 「*サポート*」 → 「*不具合を報告する*」
 1. In the opened form, leave an automatically inserted email address or enter another one and describe the error found, including the time when this error occurred. If you can't reproduce the problem, specify as accurately as possible when it last occurred.
 1. Make sure that there is a check mark next to *Include the diagnostic report in the message*, and tap *Submit*. This way, you will send logs along with the bug report.
 

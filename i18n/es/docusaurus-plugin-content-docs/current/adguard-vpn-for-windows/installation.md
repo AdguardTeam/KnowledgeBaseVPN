@@ -27,22 +27,22 @@ Si decide eliminar AdGuard VPN de su computadora, use una de las tres opciones q
 
 En caso de que la desinstalación normal no funcione por algún motivo, puedes intentar utilizar un método avanzado. En primer lugar, debes [descargar la herramienta de desinstalación](https://cdn.adtidy.org/distr/windows/Uninstall_Utility.zip) creada por nuestros desarrolladores. Extrae el archivo a cualquier carpeta de tu PC, ejecuta el archivo **Adguard.UninstallUtility.exe** y permite que la aplicación realice cambios en tu dispositivo. Luego siga las instrucciones a continuación:
 
-- Choose *Standard uninstall*, ***Delete AdGuard VPN*** and click *Uninstall*.
+- Elige *Desinstalación estándar*, ***Borrar AdGuard VPN*** y haz clic en *Desinstalar*.
 
     ![Standard uninstall *border](https://cdn.adguardvpn.com/content/kb/ad_blocker/windows/installation/standard-uninstall.png)
 
-- Wait until uninstall is finished — there will be a string in the window: `[OK] Uninstall finished`
+- Espera hasta que finalice la desinstalación, aparecerá un mensaje en la ventana: `[OK] Desinstalación finalizada`
 
     ![Uninstall finished *border](https://cdn.adguardvpn.com/content/kb/ad_blocker/windows/installation/standard-uninstall-2.png)
 
-    > Follow the next steps only if performing first two steps wasn’t enough for some reason. We strongly recommend contacting our support team before using steps 3–4 of advanced uninstall instruction.
+    > Sigue los siguientes pasos solo si los primeros dos pasos no fueron suficiente por alguna razón. Recomendamos encarecidamente ponerte en contacto con nuestro equipo de soporte antes de seguir los pasos 3 y 4 de las instrucciones de desinstalación avanzada.
 
-- Choose *Advanced uninstall*, ***Delete AdGuard VPN*** and click *Uninstall*.
+- Elige *Desinstalación avanzada*, ***Borrar AdGuard VPN*** y haz clic en *Desinstalar*.
 
     ![Advanced uninstall *border](https://cdn.adguardvpn.com/content/kb/ad_blocker/windows/installation/advanced-uninstall.png)
 
-- Wait until uninstall is finished — there will be a string in the window: `[OK] Uninstall finished`
+- Espera hasta que finalice la desinstalación, aparecerá un mensaje en la ventana: `[OK] Desinstalación finalizada`
 
     ![Uninstall finished *border](https://cdn.adguardvpn.com/content/kb/ad_blocker/windows/installation/advanced-uninstall-2.png)
 
-AdGuard is successfully uninstalled!
+¡AdGuard se ha desinstalado correctamente!

@@ -42,7 +42,7 @@ Você pode adicionar domínios (por exemplo `google.com`) ou subdomínios (por e
 
 Como você pode ativar subdomínios em listas de serviço, adicionamos caixas que refletem o status de cada serviço. Você pode vê-los na tela principal de *Exclusões* à esquerda de cada nome de serviço: o status **Totalmente ativado** é sinalizado com um marca de verificação branca sobre fundo verde, o **Totalmente desativado**, com uma caixa cinza e o **Parcialmente ativado**, o que significa que um ou mais parâmetros foram alterados, com um quadrado verde sobre fundo branco. Boas notícias: você sempre pode retornar à exibição padrão das listas de serviços, caso tenha excluído ou desativado algum domínio de lá.
 
-![Exclusões](https://cdn.adguardvpn.com/content/kb/vpn/android/statuses.png)
+![Exclusions *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/statuses.png)
 
 Outro recurso útil é a *Importação/exportação de exclusões*. Existem apenas quatro passos para atingir a meta:
 
@@ -51,7 +51,7 @@ Outro recurso útil é a *Importação/exportação de exclusões*. Existem apen
 3. Ao transferir entre dispositivos diferentes, não se esqueça de enviar o arquivo `.zip` para o dispositivo para importação. Por exemplo, se você importar listas de exclusão do seu dispositivo Windows para o Android, certifique-se de enviar o arquivo `.zip` para o Android com antecedência.
 4. Abra o AdGuard VPN no dispositivo para o qual deseja importar o arquivo com as listas de exclusões prontas. Encontre a seção apropriada, clique no botão *Importar* e selecione o arquivo.
 
-![Importar/Exportar](https://cdn.adguardvpn.com/content/kb/vpn/android/imp-exp.png)
+![Import/Export *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/imp-exp.png)
 
 ### Configurações de aplicativos
 
@@ -59,13 +59,13 @@ Como mencionamos acima, não apenas os sites podem ser facilmente adicionados à
 
 Se o modo de compatibilidade ** com AdGuard estiver ativado, você só poderá gerenciar aplicativos por meio do AdGuard Ad Blocker. Portanto, quando você toca no botão, o aplicativo AdGuard é aberto.
 
-![Configurações de aplicativo](https://cdn.adguardvpn.com/content/kb/vpn/android/apps_settings.png)
+![Apps settings *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/apps_settings.png)
 
 ## Configurações
 
 Você pode acessar as *Configurações* pressionando o ícone de engrenagem no canto inferior direito da tela. A primeira seção contém *Configurações do aplicativo*: configure o AdGuard VPN para Android conforme necessário, selecionando diferentes opções.
 
-![Configurações de aplicativo](https://cdn.adguardvpn.com/content/kb/vpn/android/app_settings.png)
+![Apps settings *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/app_settings.png)
 
 ### Início automático do AdGuard VPN
 
@@ -89,7 +89,7 @@ Lembre-se de que, se o Kill Switch estiver ativado, as *Configurações de aplic
 
 Você pode escolher o tema padrão do sistema, escuro ou claro para o aplicativo.
 
-![Tema](https://cdn.adguardvpn.com/content/kb/vpn/android/theme-light-dark.png)
+![Theme *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/theme-light-dark.png)
 
 ### Configurações avançadas
 
