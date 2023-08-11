@@ -18,11 +18,11 @@ You have two ways to solve the issue:
     - Click the **Build number** line 7 times. After that, you will receive a notification that **You are now a developer** (If necessary, enter an unlock code for the device);
     - Open **System Settings** → **Developer Options** → Scroll down and enable **USB debugging** → Confirm debugging is enabled in the window **Allow USB debugging** after reading the warning carefully.
 
-    > If you have any difficulties or additional questions, full instructions can be found [here](https://developer.android.com/studio/debug/dev-options).
+    If you have any difficulties or additional questions, full instructions can be found [here](https://developer.android.com/studio/debug/dev-options).
 
 1. [Install and configure](https://www.xda-developers.com/install-adb-windows-macos-linux/) ADB;
 
-    > On the Windows platform, **Samsung** owners may need to install [this utility](https://developer.samsung.com/mobile/android-usb-driver.html).
+    On the Windows platform, **Samsung** owners may need to install [this utility](https://developer.samsung.com/mobile/android-usb-driver.html).
 
 1. Connect your device using a **USB cable** to the computer or laptop on which you installed **ADB**;
 
@@ -37,7 +37,11 @@ You have two ways to solve the issue:
 
 You can [find here](https://support.google.com/a/answer/6223444?hl=en) how to manage user accounts from an Android device.
 
-> Please note that in some cases restricted user accounts are created implicitly and cannot be removed. For instance, when you use Dual Messenger or Dual App features on **Samsung** or **LG** devices. Read below how to fix the issue in these cases.
+:::note
+
+In some cases restricted user accounts are created implicitly and cannot be removed. For instance, when you use Dual Messenger or Dual App features on **Samsung** or **LG** devices. Read below how to fix the issue in these cases.
+
+:::
 
 ### LG and Samsung devices
 

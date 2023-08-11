@@ -21,7 +21,7 @@ The *Exclusions lists* allow you to select sites for which the VPN should be ena
 
 You can add websites to exclusions manually or choose them among the lists of popular services. The lists are divided into eight categories: Social networks, Messengers, Video and Music streaming services, Games, Shopping, Search engines, and Work communication tools.
 
-> This feature is available on all platforms except iOS.
+This feature is available on all platforms except iOS.
 
 ## 3. Choosing a DNS server
 
@@ -33,7 +33,11 @@ You can choose DNS servers from [known DNS providers](https://adguard-dns.io/kb/
 
 Another feature that makes AdGuard VPN stand out from the crowd is that you can select a location based on its ping. In a nutshell, ping is the time it takes the data packet sent from your device to reach the server and return. When in doubt, use a rule of thumb: the lower the ping, the closer the server, the higher its speed. We are constantly expanding the number of locations so that you can choose from a variety.
 
-> Note that to access all VPN server locations, you need to purchase an AdGuard VPN subscription.
+:::note
+
+To access all VPN server locations, you need to purchase an AdGuard VPN subscription.
+
+:::
 
 ## 5. Compatibility with AdGuard Ad Blocker
 
@@ -73,7 +77,7 @@ Streaming services don't like VPNs for obvious reasons: according to statistics,
 
 But what if you want to feel safe while watch content specific to your region? Or don't want stop watching exciting series even when you travel to another country? The answer is simple — AdGuard VPN, which thanks to its unique protocol can remain invisible to services.
 
-> We don't endorse the use of AdGuard VPN to bypass copyright regulations.
+We don't endorse the use of AdGuard VPN to bypass copyright regulations.
 
 ## 12. Dark mode
 

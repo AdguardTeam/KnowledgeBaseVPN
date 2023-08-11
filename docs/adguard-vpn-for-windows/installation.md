@@ -36,7 +36,11 @@ In case regular uninstall doesn't work for any reason, you can try to use an adv
 
     ![Uninstall finished *border](https://cdn.adguardvpn.com/content/kb/ad_blocker/windows/installation/standard-uninstall-2.png)
 
-    > Follow the next steps only if performing first two steps wasn’t enough for some reason. We strongly recommend contacting our support team before using steps 3–4 of advanced uninstall instruction.
+    :::caution
+
+    Follow the next steps only if performing first two steps wasn’t enough for some reason. We strongly recommend contacting our support team before using steps 3–4 of advanced uninstall instruction.
+
+    :::
 
 - Choose *Advanced uninstall*, ***Delete AdGuard VPN*** and click *Uninstall*.
 

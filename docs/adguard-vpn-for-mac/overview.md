@@ -8,7 +8,11 @@ AdGuard VPN for Mac is a desktop VPN service. AdGuard VPN is fully compatible wi
 Note that **you can't use AdGuard VPN for Mac unless you have logged into your AdGuard account**. You can either sign in with your AdGuard account or with an external account, namely, via Apple, Google or Facebook. Make sure that your external account is bound to the same e-mail address as your AdGuard account. If there is a suitable subscription in your AdGuard account, it will be automatically activated on the desktop app.
 Still don't have an AdGuard account? Create it [here](https://auth.adguard.com/registration.html).
 
-> AdGuard VPN for Mac is currently supported on macOS versions starting from macOS Catalina (10.15).
+:::note Compatibility
+
+AdGuard VPN for Mac is currently supported on macOS versions starting from macOS Catalina (10.15).
+
+:::
 
 ## Home screen
 
@@ -16,7 +20,7 @@ Still don't have an AdGuard account? Create it [here](https://auth.adguard.com/r
 
 The first tab is the *Home* screen. Here you can see AdGuard VPN current status and [exclusions mode](#exclusions), chosen location (if enabled) and its ping. Ping is the response time of a VPN server. Consequently, the lower this number is, the faster the connection. If VPN is disabled, the last location you connected to is displayed below. The fastest locations with the lowest pings are displayed in the upper right corner of the screen. Below you can see the full list of locations. Through the search function, the needed location can be easily found.
 
-> Free users can connect only to certain locations, while others are blocked. Besides, there is a 3 GB monthly traffic limit in the free version.
+Free users can connect only to certain locations, while others are blocked. Besides, there is a 3 GB monthly traffic limit in the free version.
 
 ## Exclusions
 
@@ -39,7 +43,7 @@ What’s more, ready-made exclusions lists can be transferred to other devices w
 3. When transferring between different devices, don't forget to send the `.zip` file to the device for import. For example, if you import exclusion lists from your Mac to your iPhone, make sure to send the `.zip` file to your phone beforehand.
 4. Open AdGuard VPN on the device/in the browser where you want to import the archive with the ready lists of exclusions. Find the appropriate section, click the *Import* button and select the archive. Done!
 
-> Archive files from other devices can be similarly imported to your AdGuard VPN for Mac.
+Archive files from other devices can be similarly imported to your AdGuard VPN for Mac.
 
 ## Support
 

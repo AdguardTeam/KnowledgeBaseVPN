@@ -15,4 +15,8 @@ In Integrated mode, in turn, the IPsec protocol is used, which makes it possible
 
 3. Switch the mode from *General* to *Integrated*. Done!
 
-> Note that in **Integrated** mode you can't use the Exclusions feature or the DNS server feature.
+:::note
+
+In **Integrated** mode, you can't use the Exclusions feature or the DNS server feature.
+
+:::
