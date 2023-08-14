@@ -16,9 +16,9 @@ Sie haben zwei Möglichkeiten, das Problem zu lösen:
     - Öffnen Sie die App **Einstellungen** auf Ihrem Gerät;
     - Gehen Sie zum Abschnitt **System** (letzter Punkt im Einstellungsmenü). In diesem Abschnitt finden Sie den Unterpunkt **Über das Telefon**;
     - Klicken Sie 7 Mal auf die Zeile **Build-Nummer** . Danach erhalten Sie eine Benachrichtigung: **Sie sind jetzt ein Entwickler** (Geben Sie ggf. einen Entsperrcode für das Gerät ein);
-    - Open **System Settings** → **Developer Options** → Scroll down and enable **USB debugging** → Confirm debugging is enabled in the window **Allow USB debugging** after reading the warning carefully.
+    - Öffnen Sie **Systemeinstellungen** ➜ **Entwickleroptionen** ➜ Blättern Sie nach unten und aktivieren Sie **USB-Debugging** ➜ Bestätigen Sie, dass das Debugging in dem Fenster **USB-Debugging zulassen** aktiviert ist, nachdem Sie die Warnung sorgfältig gelesen haben.
 
-    > If you have any difficulties or additional questions, full instructions can be found [here](https://developer.android.com/studio/debug/dev-options).
+    > Wenn Sie Schwierigkeiten oder zusätzliche Fragen haben, finden Sie die vollständige Anleitung [hier](https://developer.android.com/studio/debug/dev-options).
 
 1. [Installieren und konfigurieren Sie](https://www.xda-developers.com/install-adb-windows-macos-linux/) ADB;
 
@@ -26,7 +26,7 @@ Sie haben zwei Möglichkeiten, das Problem zu lösen:
 
 1. Verbinden Sie Ihr Gerät mit einem **USB-Kabel** mit dem Computer oder Laptop, auf dem Sie **ADB** installiert haben;
 
-1. Open **the command line** on your PC:
+1. Öffnen Sie **die Kommandozeile** auf Ihrem PC:
 
     - **Cmd.exe**, wenn Sie **Windows** verwenden;
     - **Terminal**, wenn Sie **macOS** verwenden;
@@ -37,7 +37,7 @@ Sie haben zwei Möglichkeiten, das Problem zu lösen:
 
 Hier finden Sie [Informationen zum Verwalten von Benutzerkonten](https://support.google.com/a/answer/6223444?hl=en) von einem Android-Gerät aus.
 
-> Please note that in some cases restricted user accounts are created implicitly and cannot be removed. For instance, when you use Dual Messenger or Dual App features on **Samsung** or **LG** devices. Read below how to fix the issue in these cases.
+> Bitte beachten Sie, dass in einigen Fällen eingeschränkte Benutzerkonten implizit erstellt werden und nicht entfernt werden können. Zum Beispiel, wenn Sie Dual Messenger oder Dual App Funktionen auf **Samsung** oder **LG** Geräten verwenden. Lesen Sie unten, wie Sie das Problem in diesen Fällen beheben können.
 
 ### LG- und Samsung-Geräte
 

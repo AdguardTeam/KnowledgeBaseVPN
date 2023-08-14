@@ -42,7 +42,7 @@ Sitelerin alan adlarını (ör. `google.com`) veya alt alan adlarını (ör. `*.
 
 Hizmet listelerinde alt alan adlarını etkinleştirebileceğiniz için, her hizmetin durumunu yansıtan kutular ekledik — bunları her hizmet adının solundaki *İstisnalar* ana ekranında görebilirsiniz: **tamamen etkin** durumu yeşil arka plan üzerinde beyaz bir onay işaretiyle, **tamamen devre dışı** — gri kutulu ve **kısmen etkin**, bu bir veya daha fazla parametrenin değiştirildiği anlamına gelir — beyaz arka plan üzerinde yeşil bir kare ile işaretlenmiştir. İyi haber: oradan herhangi bir alan adono sildiyseniz veya devre dışı bıraktıysanız, her zaman hizmet listelerinin varsayılan görünümüne dönebilirsiniz.
 
-![İstisnalar](https://cdn.adguardvpn.com/content/kb/vpn/android/statuses.png)
+![İstisnalar *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/statuses.png)
 
 Bir başka kullanışlı özellik ise, *istisnaları İçe ve Dışa aktarma* özelliğidir. Hedefe ulaşmak için sadece dört adım var:
 
@@ -51,7 +51,7 @@ Bir başka kullanışlı özellik ise, *istisnaları İçe ve Dışa aktarma* ö
 3. Farklı cihazlar arasında aktarım yaparken, `.zip` dosyasını içe aktarmak için cihaza göndermeyi unutmayın. Örneğin, istisna listeleri Windows cihazınızdan Android'inize aktarırsanız, `.zip` dosyasını önceden Android'inize gönderdiğinizden emin olun.
 4. AdGuard VPN'i, hazır istisnaların listesiyle birlikte arşivi içe aktarmak istediğiniz cihazda açın. Uygun bölümü bulun, *İçe aktar* düğmesine tıklayın ve arşivi seçin.
 
-![İçe ve Dışa Aktarma](https://cdn.adguardvpn.com/content/kb/vpn/android/imp-exp.png)
+![Import/Export *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/imp-exp.png)
 
 ### Uygulama Ayarları
 
@@ -59,13 +59,13 @@ Yukarıda bahsettiğimiz gibi, istisnalara sadece siteler kolayca eklenemez. Han
 
 AdGuard ile *Uyumluluk modu* etkinse, uygulamaları yalnızca AdGuard Reklam Engelleyici aracılığıyla yönetebilirsiniz. Bu nedenle, düğmeye dokunduğunuzda AdGuard uygulaması açılır.
 
-![Uygulama ayarları](https://cdn.adguardvpn.com/content/kb/vpn/android/apps_settings.png)
+![Uygulama ayarları *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/apps_settings.png)
 
 ## Ayarlar
 
 Ekranın sağ alt kısmındaki dişli çark simgesine basarak *Ayarlar* öğesine ulaşabilirsiniz. İlk bölüm *Uygulama Ayarları* var: orada farklı seçenekleri seçerek Android için AdGuard VPN'i ihtiyacınıza göre yapılandırın.
 
-![Uygulama ayarları](https://cdn.adguardvpn.com/content/kb/vpn/android/app_settings.png)
+![Uygulama ayarları *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/app_settings.png)
 
 ### AdGuard VPN'i otomatik başlat
 
@@ -89,7 +89,7 @@ Kill Switch açıksa, *Uygulama ayarları* ve *İstisnaların* çalışmayacağ�
 
 Uygulamanın sistem varsayılanı, koyu veya açık temasını seçebilirsiniz.
 
-![Tema](https://cdn.adguardvpn.com/content/kb/vpn/android/theme-light-dark.png)
+![Tema *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/theme-light-dark.png)
 
 ### Gelişmiş ayarlar
 

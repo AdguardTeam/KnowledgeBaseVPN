@@ -42,7 +42,7 @@ Webサイトのドメイン (例: `google.com`) またはサブドメイン (例
 
 サービス一覧でサブドメインを有効／無効にできるので、各サービスのステータスを反映するボックスを追加しました。 ステータスは「*VPN対象からの除外*」画面で、各サービス名の左側に表示されます。「**全部有効**」ステータスは緑の背景に白いチェックマーク、「**全部無効**」ステータスはチェックマークのないグレーボックス、「**一部有効**」（つまり一つまたは複数のパラメータが変更されているという意味）ステータスは白い背景に緑の四角が表示されています。 ※ドメインを削除したり無効にしたりした場合でも、サービスリストをデフォルト表示にいつでも戻すことができます。
 
-![VPN対象からの除外](https://cdn.adguardvpn.com/content/kb/vpn/android/statuses.png)
+![Exclusions *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/statuses.png)
 
 もう一つの便利な機能は、除外リストの*インポート/エクスポート*です。 4ステップでインポート/アクスポートすることができます。
 
@@ -51,7 +51,7 @@ Webサイトのドメイン (例: `google.com`) またはサブドメイン (例
 3. 異なる端末間で除外リストを移行する場合は、インポート先端末に `.zip` ファイルを送信することを忘れずに。 （例えば、Windows端末からの除外リストをAndroid端末にインポートする場合、事前に `.zip` ファイルをAndroid端末に送信しておいてください。）
 4. 除外リストのアーカイブをインポートしたい端末でAdGuard VPNを開きます。 「VPN対象からの除外」画面右上の３点アイコンをタップして、「*除外リストをインポート*」ボタンをタップして、アーカイブファイルを選びます。
 
-![インポート/エクスポート](https://cdn.adguardvpn.com/content/kb/vpn/android/imp-exp.png)
+![Import/Export *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/imp-exp.png)
 
 ### アプリに対する設定（アプリ除外）
 
@@ -59,13 +59,13 @@ Webサイトだけでなく、端末上のアプリごともVPN対象外にす�
 
 ※「*AdGuardとの併用モード*」が有効な場合、アプリに対する設定はAdGuard広告ブロッカー経由になります。 ボタンをタップすると、AdGuardアプリが開きます。
 
-![アプリに対する設定](https://cdn.adguardvpn.com/content/kb/vpn/android/apps_settings.png)
+![Apps settings *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/apps_settings.png)
 
 ## 設定
 
 メイン画面右下の歯車アイコン「⚙」を押すと、 「*設定*」にアクセスできます。 一番上には、「 *AdGuard VPNの設定*」があります。そこにはさまざまなオプションを選択してAndroid用AdGuard VPNを設定できます。
 
-![アプリに対する設定](https://cdn.adguardvpn.com/content/kb/vpn/android/app_settings.png)
+![Apps settings *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/app_settings.png)
 
 ### AdGuard VPNの自動始動
 
@@ -89,7 +89,7 @@ The purpose of the [Domain name system](https://adguard-dns.io/kb/general/dns-fi
 
 アプリのカラーテーマは、「システムデに合わせる」「ダーク」「ライト」のいずれかを選択できます。
 
-![カラーテーマ](https://cdn.adguardvpn.com/content/kb/vpn/android/theme-light-dark.png)
+![Theme *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/theme-light-dark.png)
 
 ### 高度な設定
 

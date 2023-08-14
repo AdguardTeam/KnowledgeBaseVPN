@@ -16,9 +16,9 @@ Tienes dos maneras de resolver el problema:
     - Abra la aplicación **Configuración** en su teléfono;
     - Vaya a la sección **Sistema** (último elemento en el menú de configuración). En esta sección, encuentre el subelemento **Acerca del teléfono**;
     - Haz clic en **Número de build** 7 veces. Después de eso, recibirás una notificación que dice **Ahora eres un desarrollador** (Si es necesario, introduce un código de desbloqueo para el dispositivo);
-    - Open **System Settings** → **Developer Options** → Scroll down and enable **USB debugging** → Confirm debugging is enabled in the window **Allow USB debugging** after reading the warning carefully.
+    - Abre **Configuración del sistema** → **Opciones de desarrollador** → Desplácese hacia abajo y habilita **Depuración USB**  → Confirme que la depuración está habilitada en la ventana **Permitir la depuración USB** después de leer la advertencia cuidadosamente.
 
-    > If you have any difficulties or additional questions, full instructions can be found [here](https://developer.android.com/studio/debug/dev-options).
+    > Si tienes alguna dificultad o pregunta adicional, puedes encontrar las instrucciones completas en [aquí](https://developer.android.com/studio/debug/dev-options).
 
 1. [Instalar y configurar](https://www.xda-developers.com/install-adb-windows-macos-linux/) ADB;
 
@@ -26,7 +26,7 @@ Tienes dos maneras de resolver el problema:
 
 1. Conecte su dispositivo usando un cable **USB** a la computadora o portátil en la que instaló **ADB**;
 
-1. Open **the command line** on your PC:
+1. Abre **la línea de comando** en su PC:
 
     - **Cmd.exe** si está utilizando **Windows**;
     - **Terminal** si está utilizando **macOS**;
@@ -37,7 +37,7 @@ Tienes dos maneras de resolver el problema:
 
 Puede [encontrar aquí](https://support.google.com/a/answer/6223444?hl=en) cómo administrar cuentas de usuario desde un dispositivo Android.
 
-> Please note that in some cases restricted user accounts are created implicitly and cannot be removed. For instance, when you use Dual Messenger or Dual App features on **Samsung** or **LG** devices. Read below how to fix the issue in these cases.
+> Ten en cuenta que, en algunos casos, las cuentas de usuario restringidas se crean implícitamente y no se pueden eliminar. Por ejemplo, cuando se utilizan las funciones Dual Messenger o Dual App en los dispositivos **Samsung** o **LG**. Lee a continuación cómo solucionar el problema en estos casos.
 
 ### Dispositivos LG y Samsung
 

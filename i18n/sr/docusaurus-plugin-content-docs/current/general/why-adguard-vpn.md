@@ -77,6 +77,6 @@ Ali šta ako želite da se osećate bezbedno dok gledate sadržaj specifičan za
 
 ## 12. Tamni režim
 
-![Tamni režim](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/main_en_black.png)
+![Dark mode *mobile_border](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/main_en_black.png)
 
 Ova mala osobina zaslužuje posebbnu pažnju. Zapravo, mnogi korisnici žude za tamnim režimom, pa nismo mogli da ga ignorišemo i dodali smo tematski prekidač za sve AdGuard VPN proizvode. Odaberite onaj koji vam se više dopada – svetlo, tamno ili podrazumevano sistem. Nadam se da ćete se pridružiti tamnoj strani.

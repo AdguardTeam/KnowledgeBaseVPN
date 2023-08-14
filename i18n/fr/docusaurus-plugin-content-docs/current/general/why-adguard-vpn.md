@@ -77,6 +77,6 @@ Mais que faire si vous voulez vous sentir en sécurité tout en regardant des co
 
 ## 12. Thème sombre
 
-![Thème sombre](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/main_en_black.png)
+![Dark mode *mobile_border](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/main_en_black.png)
 
 Cette petite fonctionnalité mérite une mention spéciale. En fait, beaucoup d'utilisateurs ont envie d'avoir un thème sombre, donc nous ne pouvions pas l'ignorer et avons ajouté un interrupteur de thème pour tous les produits VPN AdGuard. Choisissez celui qui vous plaît le plus - clair, sombre ou système. En espérant que vous rejoignez le côté sombre.
