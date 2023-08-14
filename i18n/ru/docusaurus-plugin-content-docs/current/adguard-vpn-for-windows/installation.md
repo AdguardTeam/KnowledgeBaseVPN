@@ -27,22 +27,22 @@ AdGuard VPN может быть установлен только на устр�
 
 Если по какой-либо причине обычное удаление не работает, вы можете попробовать продвинутый способ. Прежде всего, вам нужно [загрузить инструмент удаления](https://cdn.adtidy.org/distr/windows/Uninstall_Utility.zip), созданный нашими разработчиками. Распакуйте скачанный архив в любую папку на компьютере, запустите файл **AdGuard_Uninstall_Utility.exe** и разрешите приложению вносить изменения на вашем устройстве. Затем следуйте инструкции ниже:
 
-- Choose *Standard uninstall*, ***Delete AdGuard VPN*** and click *Uninstall*.
+- Выберите *Стандартное удаление*, ***Удалить AdGuard*** и нажмите *Удалить*.
 
-    ![Standard uninstall *border](https://cdn.adguardvpn.com/content/kb/ad_blocker/windows/installation/standard-uninstall.png)
+    ![Стандартное удаление *border](https://cdn.adguardvpn.com/content/kb/ad_blocker/windows/installation/standard-uninstall.png)
 
-- Wait until uninstall is finished — there will be a string in the window: `[OK] Uninstall finished`
+- Дождитесь завершения удаления — в окне появится строка: `[OK] Удаление завершено`
 
-    ![Uninstall finished *border](https://cdn.adguardvpn.com/content/kb/ad_blocker/windows/installation/standard-uninstall-2.png)
+    ![Удаление завершено *border](https://cdn.adguardvpn.com/content/kb/ad_blocker/windows/installation/standard-uninstall-2.png)
 
-    > Follow the next steps only if performing first two steps wasn’t enough for some reason. We strongly recommend contacting our support team before using steps 3–4 of advanced uninstall instruction.
+    > Следующие шаги выполняйте только в том случае, если первых двух шагов по каким-то причинам оказалось недостаточно. Мы настоятельно рекомендуем связаться с нашей командой поддержки, прежде чем использовать шаги 3–4 расширенной инструкции по удалению.
 
-- Choose *Advanced uninstall*, ***Delete AdGuard VPN*** and click *Uninstall*.
+- Выберите *Продвинутое удаление*, ***Удалить AdGuard*** и нажмите *Удалить*.
 
-    ![Advanced uninstall *border](https://cdn.adguardvpn.com/content/kb/ad_blocker/windows/installation/advanced-uninstall.png)
+    ![Продвинутое удаление *border](https://cdn.adguardvpn.com/content/kb/ad_blocker/windows/installation/advanced-uninstall.png)
 
-- Wait until uninstall is finished — there will be a string in the window: `[OK] Uninstall finished`
+- Дождитесь завершения удаления — в окне появится строка: `[OK] Удаление завершено`
 
-    ![Uninstall finished *border](https://cdn.adguardvpn.com/content/kb/ad_blocker/windows/installation/advanced-uninstall-2.png)
+    ![Удаление завершено *border](https://cdn.adguardvpn.com/content/kb/ad_blocker/windows/installation/advanced-uninstall-2.png)
 
-AdGuard is successfully uninstalled!
+AdGuard успешно удалён
