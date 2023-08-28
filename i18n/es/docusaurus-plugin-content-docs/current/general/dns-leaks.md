@@ -1,5 +1,5 @@
 ---
-title: '¿Qué es una fuga de DNS?'
+title: 'What is a DNS leak'
 sidebar_position: 9
 ---
 

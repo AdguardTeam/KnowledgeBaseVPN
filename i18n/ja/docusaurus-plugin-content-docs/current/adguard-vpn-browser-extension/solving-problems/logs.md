@@ -22,7 +22,7 @@ AdGuard VPNブラウザ拡張機能のログを集めるやり方はたくさん
 Now that you have collected the logs, you need to hand them over to our development team. To do this:
 
 1. Report a bug on GitHub. Detailed instructions on creating an issue on GitHub can be found in this article.
-1. Send an archive with logs and playback time to `devteam@adguard.com` and attach a link to your GitHub issue. Also you can add an archive with logs and playback time to Google Drive and share it with `devteam@adguard.com` attaching the Google Drive link to your issue on GitHub.
+1. Send an archive with logs and reproduce time to `devteam@adguard.com` and attach a link to your GitHub issue. Also you can add an archive with logs and reproduce time to Google Drive and share it with `devteam@adguard.com` attaching the Google Drive link to your issue on GitHub.
 
 ## Collecting and sending logs via browser developer's tools
 

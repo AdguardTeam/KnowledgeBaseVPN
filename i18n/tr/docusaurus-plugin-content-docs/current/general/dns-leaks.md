@@ -1,5 +1,5 @@
 ---
-title: 'DNS sızıntısı nedir?'
+title: 'What is a DNS leak'
 sidebar_position: 9
 ---
 

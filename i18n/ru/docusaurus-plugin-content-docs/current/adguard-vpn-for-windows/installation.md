@@ -1,5 +1,5 @@
 ---
-title: Как установить или удалить AdGuard VPN
+title: Installation and removal
 sidebar_position: 2
 ---
 

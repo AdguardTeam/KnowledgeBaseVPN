@@ -22,7 +22,7 @@ Có một số cách để thu thập nhật ký tiện ích mở rộng Trình 
 Bây giờ bạn đã thu thập nhật ký, bạn cần bàn giao chúng cho nhóm phát triển của chúng tôi. Để làm điều này:
 
 1. Báo cáo lỗi trên GitHub. Bạn có thể tìm thấy hướng dẫn chi tiết về cách tạo sự cố trên GitHub trong bài viết này.
-1. Gửi kho lưu trữ có nhật ký và thời gian phát lại tới `devteam@adguard.com` và đính kèm liên kết đến vấn đề GitHub của bạn. Ngoài ra, bạn có thể thêm một kho lưu trữ với nhật ký và thời gian phát lại vào Google Drive và chia sẻ nó với `devteam@adguard.com` đính kèm liên kết Google Drive vào vấn đề của bạn trên GitHub.
+1. Send an archive with logs and reproduce time to `devteam@adguard.com` and attach a link to your GitHub issue. Also you can add an archive with logs and reproduce time to Google Drive and share it with `devteam@adguard.com` attaching the Google Drive link to your issue on GitHub.
 
 ## Thu thập và gửi nhật ký thông qua các công cụ của nhà phát triển trình duyệt
 

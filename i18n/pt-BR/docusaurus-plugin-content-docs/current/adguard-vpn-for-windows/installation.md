@@ -1,5 +1,5 @@
 ---
-title: Como instalar e desinstalar
+title: Installation and removal
 sidebar_position: 2
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: Nasıl kurulur ve kaldırılır
+title: Installation and removal
 sidebar_position: 2
 ---
 

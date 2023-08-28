@@ -1,5 +1,5 @@
 ---
-title: 安装与卸载
+title: Installation and removal
 sidebar_position: 2
 ---
 
