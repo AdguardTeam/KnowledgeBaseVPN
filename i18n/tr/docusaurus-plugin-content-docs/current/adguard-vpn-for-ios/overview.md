@@ -9,8 +9,8 @@ VPN, İnternet üzerindeki başka bir ağa güvenli bir bağlantı oluşturmanı
 
 AdGuard VPN'den bahsetmişken, birkaç işlevi vardır:
 
-- gerçek nerede olduğunuzu gizler ve anonim kalmanıza yardımcı olur
-- changes your IP address to protect your data from tracking
+- gerçek yerinizi gizler ve anonim kalmanıza yardımcı olur
+- verilerinizi izlemekten korumak için IP adresinizi değiştirir
 - trafiğinizi dolandırıcıların erişemeyeceği şekilde şifreler
 - VPN'nin nerede kullanılacağını ve nerede kullanılmayacağını yapılandırmanıza olanak tanır (istisnalar özelliği)
 
@@ -24,13 +24,13 @@ Henüz bir AdGuard hesabınız yoksa, önce hesap oluşturmanız gerekir.
 
 AdGuard VPN'i kullanmak oldukça kolaydır. Ana ekranda *Bağlan ve Bağlantıyı kes* düğmesini ve kullanılabilir sunucuların listesini görebilirsiniz. Sunucuların kendi konumları (belirli bir ülke ve şehir) ve ping göstergesi vardır. Ping, sunucunun yanıt süresini (milisaniye olarak) tanımlar. Örneğin, 22 ms ping ile sunucuyu seçmek, sinyalin sunucuya ulaşacağı ve 22 milisaniyede geri döneceği anlamına gelir. Yani bu değer ne kadar düşükse, bağlantınız o kadar hızlı olur. AdGuard VPN'de onlarca ülkede 50'den fazla konum arasından seçim yapabilirsiniz.
 
-![Main screen and locations *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/1.png?123)
+![Ana ekran ve konumlar *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/1.png?123)
 
 ## İstisnaların listesi
 
 Aşağıdaki orta düğmeye dokunarak istisna özelliğini bulabilirsiniz. Orada, Genel ve Seçici Modlar için iki istisna listesi göreceksiniz. Genel modda VPN, istisna listesi dışındaki tüm sitelerde çalışır. Seçici modda tam tersine, VPN yalnızca listedeki sitelerde çalışır. Sitelerin etki alanlarını (ör. `google.com`) veya alt alt alan adlarını (ör. `*.google.com`) iki şekilde ekleyebilirsiniz: bunları uygulamaya elle veya doğrudan tarayıcıdan, *Paylaş* düğmesine tıklayıp aşağıdaki açılan listede AdGuard VPN'i bularak girebilirsiniz.
 
-![Exclusions *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.png?123)
+![İstisnalar *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.png?123)
 
 Bir başka kullanışlı özellik, istisna listelerinin içe ve dışa aktarılmasıdır. Sonraki dört adımı takip ederek bunu yapabilirsiniz:
 
@@ -42,7 +42,7 @@ Bir başka kullanışlı özellik, istisna listelerinin içe ve dışa aktarılm
 
 4. AdGuard VPN'i, hazır istisnaların listesiyle birlikte arşivi içe aktarmak istediğiniz cihazda açın. Uygun bölümü bulun, *İçe aktar* düğmesine tıklayın ve arşivi seçin.
 
-![Import/export exclusions *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/import-export-exclusions.png)
+![İstisnaları içe ve dışa aktarma *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/import-export-exclusions.png)
 
 ## Uygulama ayarları
 
@@ -53,7 +53,7 @@ Uygulama ayarlarına ulaşmak için:
 
 Burada, farklı seçenekleri kullanarak iOS için AdGuard VPN'i yapılandırabilirsiniz: Çalışma Modu, DNS sunucusu, Wi-Fi otomatik koruması, Renk Teması ve Gelişmiş Ayarlar.
 
-![App Settings *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/app-settings.png)
+![Uygulama Ayarları *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/app-settings.png)
 
 ### Çalışma modu
 
@@ -68,7 +68,7 @@ iOS için AdGuard VPN iki modda çalışabilir: **Genel** ve **Entegre**.
 
 Alan adı sisteminin (DNS) amacı, site adlarını tarayıcıların anlayabileceği bir şeye, yani IP adreslerine çevirmektir. Bu iş DNS sunucuları tarafından gerçekleştirilir. iOS için AdGuard VPN, her biri kendi özel niteliklerine sahip birkaç DNS sunucusu arasında bir seçim sunar. Örneğin, AdGuard DNS reklamları kaldırır ve cihazınızı izlemeye karşı korurken AdGuard DNS Family Protection, AdGuard DNS'nin işlevlerini Güvenli Arama ve yetişkinlere yönelik içerik engelleme ile birleştirir. Farklı DNS sağlayıcılarının DNS sunucuları da konumunuza, İSS'nize ve diğer faktörlere bağlı olarak daha hızlı veya daha yavaş çalışabilir. Sizin için en uygun olanı seçin. [Bu makalede](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns) DNS ve özellikleri hakkında daha fazla bilgi edinebilirsiniz.
 
-![DNS server screen *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/dns-server.png)
+![DNS sunucusu ekranı *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/dns-server.png)
 
 ### Wi-Fi otomatik koruma
 
@@ -86,7 +86,7 @@ Uygulamanın sistem varsayılanı, koyu veya açık temasını seçebilirsiniz (
 
 Bu özelliğe erişmek için uygulama simgesine dokunup basılı tutun, ardından parmağınızı kaldırın. Hızlı Eylemlerin bir listesini göreceksiniz: şu anda seçili sunucuya Bağlan ve Bağlantıyı kes, Yeni bir sunucu konumu seçmek için konum seç. Elbette, uygulamayı kaldırmak veya uygulama simgesini hareket ettirmek gibi tüm varsayılan işlemlere de erişebilirsiniz.
 
-![Quick actions *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/quick-actions.png)
+![Hızlı eylemler *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/quick-actions.png)
 
 ## Destek
 

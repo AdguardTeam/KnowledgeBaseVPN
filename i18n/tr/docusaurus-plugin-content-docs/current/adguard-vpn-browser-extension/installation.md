@@ -35,4 +35,4 @@ Tarayıcının sağ üst köşesindeki üç nokta simgesini tıklayın, ardında
 
 ### Opera
 
-Tarayıcının sağ üst köşesindeki *Uzantılar* simgesine tıklayın, ardından *Uzantıları yönet...* öğesini seçin. Listede AdGuard VPN'i bulun ve *Kaldır* düğmesine tıklayın.  
+Tarayıcının sağ üst köşesindeki *Uzantılar* simgesine tıklayın, ardından *Uzantıları yönet...* öğesini seçin. Listede AdGuard VPN'i bulun ve *Kaldır* düğmesine tıklayın.

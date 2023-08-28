@@ -35,4 +35,4 @@ Fai clic sull'icona dei tre punti nell'angolo in alto a destra del browser, quin
 
 ### Opera
 
-Clicca l' *Icona* estensioni nell'angolo alto a destra del browser, poi seleziona *Gestisci estensioni*. Cerca AdGuard VPN nella lista e clicca sul *bottone* Rimuovi.  
+Clicca l' *Icona* estensioni nell'angolo alto a destra del browser, poi seleziona *Gestisci estensioni*. Cerca AdGuard VPN nella lista e clicca sul *bottone* Rimuovi.

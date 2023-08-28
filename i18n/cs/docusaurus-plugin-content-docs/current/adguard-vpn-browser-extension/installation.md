@@ -35,4 +35,4 @@ Klikněte na ikonu tří teček v pravém horním rohu prohlížeče a poté vyb
 
 ### Opera
 
-Klikněte na ikonu *Rozšíření* v pravém horním rohu prohlížeče, poté vyberte *Správa rozšíření...*. Vyhledejte AdGuard VPN v seznamu a klikněte na tlačítko *Odebrat*.  
+Klikněte na ikonu *Rozšíření* v pravém horním rohu prohlížeče, poté vyberte *Správa rozšíření...*. Vyhledejte AdGuard VPN v seznamu a klikněte na tlačítko *Odebrat*.
