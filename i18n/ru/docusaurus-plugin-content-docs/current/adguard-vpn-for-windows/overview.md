@@ -7,7 +7,7 @@ sidebar_position: 1
 
 VPN, или виртуальная частная сеть — это инструмент, который обеспечивает безопасность вашего интернет-соединения и помогает вам сохранять анонимность в сети. Как это работает? Каждый раз, когда вы открываете вебсайт без использования VPN, ваш интернет-провайдер видит это. Он знает, кто вы и что ищете, может собирать эти данные и продавать их. В свою очередь, сайт, на который вы пришли, также может отслеживать вашу онлайн-активность. Когда вы активируете VPN-приложение, оно перенаправляет ваш трафик через зашифрованный туннель на удалённый VPN-сервер, обеспечивая вашу конфиденциальность: интернет-провайдер не знает, куда вы отправили запрос, а сайт не в курсе, откуда вы пришли.
 
-## What AdGuard VPN for Windows does
+## Что делает AdGuard VPN для Windows
 
 - Защищает от перехвата сетевого трафика (спуфинга). VPN создаёт зашифрованный туннель между вашим устройством и удалённым сервером. Через этот туннель проходит весь ваш интернет-трафик, так что на этом пути ваши данные защищены. А благодаря [уникальному протоколу AdGuard](/general/adguard-vpn-protocol.mdx), вы получаете гарантированно быстрое и безопасное соединение.
 
@@ -15,96 +15,96 @@ VPN, или виртуальная частная сеть — это инстр
 
 - Скрывает ваше местоположение. Как только вы выбираете любой из серверов AdGuard VPN, вы мгновенно «телепортируетесь» туда, где он расположен. Для чего это нужно? Например, чтобы забронировать отель по ценам «для своих» или спрятаться от геотаргетированной рекламы.
 
-AdGuard VPN for Windows has many advantages, so we've dedicated [a separate article](/general/why-adguard-vpn.md) to them. Here, however, we want to focus more on the application itself and how it works.
+У AdGuard VPN для Windows есть большое количество преимуществ, так что этой теме мы посвятили [отдельную статью](/general/why-adguard-vpn.md). А здесь мы хотим больше сосредоточиться на самом приложении и на том, как оно работает.
 
-## How to start using AdGuard VPN for Windows
+## Как начать пользоваться AdGuard VPN для Windows
 
-To start using AdGuard VPN for Windows, download the app from [our website](https://adguard-vpn.com/welcome.html). The installation takes no more than a minute — and you'll see a dialog window where you'll need to check at least one box applying the terms of the User Agreement and the Privacy policy. And it's up to you to decide whether you want AdGuard to collect anonymized data about your app usage. At last the program will ask you to sign in, either via [AdGuard account](https://auth.adguard.com/login.html) or via social networks (Apple, Google, Facebook). That's all, you can now use AdGuard VPN for Windows.
+Чтобы начать пользоваться AdGuard VPN для Windows, скачайте приложение с [нашего сайта](https://adguard-vpn.com/welcome.html). Установка займёт не больше минуты — и вы увидите диалоговое окно, в котором потребуется поставить как минимум одну галочку, чтобы принять условия Пользовательского соглашения и Политики конфиденциальности. А вот, давать ли AdGuard право собирать анонимные данные об использовании приложения на вашем устройстве или нет, решать вам. В завершении процесса установки программа попросит вас войти в систему, либо через [учётную запись AdGuard](https://auth.adguard.com/login.html), либо через социальные сети (Apple, Google, Facebook). Вот и всё, теперь вы можете начать пользоваться AdGuard VPN для Windows.
 
-## Home screen
+## Главный экран
 
-![AdGuard VPN for Windows Home Page](https://cdn.adguardvpn.com/content/release_notes/vpn/windows/v2.0/new_main_window_en.png)
+![Главный экран AdGuard VPN для Windows](https://cdn.adguardvpn.com/content/release_notes/vpn/windows/v2.0/new_main_window_en.png)
 
-The most noticeable item on the **Home Screen** is the AdGuard VPN connect/disconnect button. Above the button you can see the [mode](#exclusions) in which the application is running, and below it you can see the selected server. On the right side of the screen you will find all available locations. The fastest location, i.e. the one with the lowest ping, is shown at the top of the list.
+Наиболее заметный элемент на **Главном экране** — это кнопка включения/выключения AdGuard VPN. Над кнопкой указан [режим](#exclusions), в котором работает приложение, а под ней — выбранный сервер. В правой части экрана вы найдёте все доступные локации. Самая быстрая локация, то есть локация с наименьшим пингом, отображается в верхней части списка.
 
-At the top of the screen there is a navigation panel with four tabs: **Home**, **Exclusions**, **Support**, **Settings**.
+В верхней части экрана расположена навигационная панель с четырьмя вкладками: **Главная**, **Исключения**, **Поддержка**, **Настройки**.
 
-## Exclusions
+## Исключения
 
-AdGuard VPN for Windows can operate in two modes: **General** or **Selective**. What does this mean? If you want the application to work everywhere except for some websites, activate the **General mode** and list the websites you want to exclude from the tunnel. The **Selective mode** has the opposite effect: it activates AdGuard VPN only on the websites specified in the exclusion list. Please note that these two modes' exclusions lists are independent from one another.
+AdGuard VPN для Windows может работать в двух режимах — **Обычном** или **Выборочном**. Что это значит? Если вы хотите, чтобы приложение работало везде, кроме нескольких сайтов, активируйте **Обычный режим** и перечислите сайты, которые надо исключить из туннеля. У **Выборочного режима** обратный принцип действия: он активирует работу AdGuard VPN только на сайтах, указанных в списке исключений. Обратите внимание, что списки исключений в этих двух режимах не зависят друг от друга.
 
-![Exclusions](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_en.png)
+![Исключения](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_en.png)
 
-You can add websites to exclusions **manually** by entering their domain names. The app also offers you an option to choose popular websites **from the list**.
+Вы можете добавить сайты в исключения **вручную**, указав их доменные имена. В приложении также есть возможность выбрать популярные сайты **из списка**.
 
-![Add Exclusions](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_add_en.png)
+![Добавить исключения](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_add_en.png)
 
-![Add Exclusions from list](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_from_list_en.png)
+![Добавить исключения из списка](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_from_list_en.png)
 
 > При ручном добавлении доменов нужно учитывать некоторые нюансы. Например, если вы вручную исключите домен `google.com`, все поддомены `*.google.com` также будут внесены в список исключений. Однако доменные имена с другими доменами верхнего уровня, такие как `google.es` или `google.it`, не будут исключены. Или вы можете добавить `youtube.com` в исключения, но домен того же сервиса `youtu.be` не попадёт в список.
 
-We recommend using the **From the list** option. Websites are grouped into eight categories: Social networks, Messengers, Video and Music streaming services, Games, Shopping, Search engines, and Work communication tools. We have placed the most popular services there, including all domain names and subdomains related to each platform.
+Мы рекомендуем использовать опцию **Из списка**. Сайты сгруппированы в восемь категорий: Сервисы для работы, Сервисы потокового видео, Социальные сети, Шопинг, Поисковые системы, Мессенджеры, Игры. В каждую группу мы поместили все доменные имена и поддомены, относящиеся к каждому сервису.
 
 ### Импорт/экспорт списков исключений
 
-To export the list of exclusions from AdGuard VPN for Windows to your computer, click **Export exclusions**, select the folder where the list will be stored and click **Save**. An archive `exclusions.zip` with two `.txt` files will be downloaded, one for each of the lists — **General** and **Selective**. You can edit them by adding new exclusions or deleting old ones.
+Чтобы выгрузить список исключений из AdGuard VPN для Windows на ваш компьютер, нажмите **Экспортировать исключения**, выберите папку, где будет храниться список, и нажмите **Сохранить**. Будет загружен архив `exclusions.zip` с двумя файлами `.txt`, по одному для каждого из списков — **Обычного** и **Выборочного**. Вы можете их редактировать, добавляя новые исключения или удаляя старые.
 
-To transfer the exclusion lists to another device, send the `.zip` file to its destination. Open AdGuard VPN on the device where you want to import the archive with the exclusion lists, click *Exclusions*, then *Import exclusions*, and select the previously sent archive.
+Чтобы передать списки исключений на другое устройство, отправьте файл `.zip` по назначению. Откройте AdGuard VPN на устройстве, куда вы хотите импортировать архив со списками исключений, нажмите *Исключения*, затем *Импортировать исключения* и выберите ранее отправленный архив.
 
-## Settings
+## Настройки
 
-![Settings](https://cdn.adguardvpn.com/content/release_notes/vpn/windows/v2.0/settings_en.png)
+![Настройки](https://cdn.adguardvpn.com/content/release_notes/vpn/windows/v2.0/settings_en.png)
 
-The fourth tab of app's tab bar contains sections that will help you customize the application. Let's look closer at two of them: **App settings** and **App exclusions**.
+Четвёртая вкладка содержит разделы, которые помогут вам настроить приложение. Особое внимание стоит уделить двум из них: **Настройки приложения** и **Исключения приложений**.
 
 ### Настройки приложения
 
-![App settings](https://cdn.adguardvpn.com/content/release_notes/vpn/windows/v2.0/app_settings_en.png)
+![Настройки приложения](https://cdn.adguardvpn.com/content/release_notes/vpn/windows/v2.0/app_settings_en.png)
 
-In the **App settings** section, you can set the app language and also enable **Kill Switch**, which will block access to the Internet if your VPN connection drops. This is needed to prevent intruders from getting to your data if you find yourself without VPN protection while connected to a public Wi-Fi or mobile network.
+В **Настройках приложения** вы можете установить язык приложения, а также включить **Kill Switch**, благодаря которому при обрыве VPN-соединения будет заблокирован доступ к интернету. Это нужно, чтобы не дать злоумышленникам добраться до ваших данных, если вы окажетесь без защиты VPN, будучи подключёнными к общественному Wi-Fi или к мобильной сети.
 
-You can also activate the following features with a single click: **Auto-update**, **Launch AdGuard VPN at Windows startup**, **Auto-connect on app launch**, and allow AdGuard to collect anonymized app usage data so that the AdGuard team gets the info on potential usability issues. Here you can also change the theme to **Light**, **System**, or **Dark**.
+Одним нажатием на переключатель вы можете активировать следующие функции: **Автообновление**, **Запускать AdGuard VPN при загрузке Windows**, **Автоподключение при запуске приложения**, а ещё разрешить AdGuard собирать анонимизированные данные об использовании приложения, чтобы команда AdGuard получала информацию о потенциальных проблемах юзабилити. Здесь вы также можете изменить тему на **Тёмную**, **Светлую** или **По умолчанию**.
 
-At the bottom of the page there are two sections: **DNS servers** and **Advanced settings**.
+Внизу страницы расположены два важных раздела — **DNS-серверы** и **Расширенные настройки**.
 
 #### DNS-серверы
 
-The **DNS servers** tab allows you to add your own DNS server. You can set up a DNS server by any provider. We recommend adding [AdGuard DNS](https://adguard-dns.io/kb/general/dns-providers/#adguard-dns), a server that can protect against advertising, tracking, and phishing, in addition to the standard functions.
+Во вкладке **DNS-серверы** вы можете добавить собственный DNS-сервер. Вы можете настроить DNS-сервер любого провайдера. Мы рекомендуем добавить [AdGuard DNS](https://adguard-dns.io/kb/general/dns-providers/#adguard-dns) — сервер, который помимо стандартных функций защищает от рекламы, трекинга и фишинга.
 
 #### Расширенные настройки
 
-It is entirely possible to use AdGuard VPN for Windows without ever touching the Advanced settings, but they can be useful if you're willing to take time to learn what they do.
+Вы вполне можете пользоваться AdGuard VPN для Windows, вообще не открывая Расширенные настройки. Однако они могут быть полезны, если вы найдёте время в них разобраться.
 
-##### Operating mode
+##### Режим работы
 
-Despite the fact that there are two operating modes — VPN and SOCKS5 — we advise you to use only the one chosen by default (VPN). When the **VPN mode** is enabled, all the traffic of your device will be directed via AdGuard VPN, while in **SOCKS5 mode** AdGuard VPN uses a local proxy server which can be used by other applications to redirect their traffic.
+Несмотря на то, что режимов работы два — VPN и SOCKS5 — мы советуем использовать лишь тот, что выбран по умолчанию (VPN). При включённом **VPN-режиме** весь трафик устройства направляется через AdGuard VPN, в то время как в **режиме SOCKS5** AdGuard VPN использует локальный прокси-сервер, которым могут воспользоваться другие приложения для перенаправления своего трафика.
 
-##### Logging level
+##### Уровень логирования
 
-Two levels of logging are available to choose from: **Record by default** and **Record everything**. The first option is enabled by default. The **Record everything** option should only be activated if our support team has asked you to do so. Using the app in this mode for an extended period of time result in increased battery consumption.
+К выбору доступны два уровня логирования: **Записывать по умолчанию** и **Записывать всё**. Первая опция включена по умолчанию. Опцию **Записывать всё** стоит активировать, только если наша служба поддержки попросила вас об этом. Продолжительная работа приложения в этом режиме может привести к повышенному потреблению ресурса батареи.
 
-All logs are stored locally on your device and you can send them to the support team if needed.
+Все логи хранятся локально на вашем устройстве, и вы можете отправить их команде поддержки, если возникнет необходимость.
 
-##### Use QUIC
+##### Использовать QUIC
 
-This is an experimental feature that enables AdGuard to use the advanced QUIC encryption protocol. It has many advantages, but the most notable one is that it can improve connection quality under non-ideal conditions, for example, when using mobile Internet or when connecting to public Wi-Fi networks.
+Это экспериментальная функция, включение которой позволит AdGuard использовать передовой протокол шифрования QUIC. У него много преимуществ, но самое заметное в том, что он может улучшать качество соединения в неидеальных условиях — например, при использовании мобильного интернета или при подключении к общественным сетям Wi-Fi.
 
 ### Исключения приложений
 
-![Adding an app to exclusions](https://cdn.adguardvpn.com/content/release_notes/vpn/windows/v2.0/add_app_en.png)
+![Добавление приложения в исключения](https://cdn.adguardvpn.com/content/release_notes/vpn/windows/v2.0/add_app_en.png)
 
-Not only does AdGuard VPN encrypt the traffic of your browsers, but also of other apps installed on your device. If you want to exclude certain applications from the tunnel, put them to the **App exclusions** list.
+AdGuard VPN шифрует трафик не только браузеров, но и приложений, установленных на вашем устройстве. Если хотите исключить из туннеля некоторые приложения, перечислите их в списке **Исключений приложений**.
 
-## Other tabs
+## Другие настройки
 
 ### О программе
 
-The **About** tab provides information about the current version of AdGuard VPN for Windows, an update button, and links to the AdGuard VPN website, forum, EULA, and Privacy policy.
+Во вкладке **О программе** вы найдёте информацию о текущей версии AdGuard VPN для Windows, кнопку проверки наличия обновлений, а также ссылки: на сайт AdGuard VPN, форум, Лицензионное соглашение и Политику конфиденциальности.
 
 ### Личный кабинет
 
-Here you can find information about your license status, as well as a link to your personal AdGuard account, where you can manage your current subscriptions and purchase new ones.
+Здесь размещена информация о статусе вашей лицензии, а также ссылка на ваш личный кабинет AdGuard, где вы можете купить новую подписку, улучшить или продлить уже существующую.
 
-## Support
+## Поддержка
 
-This tab is aimed to solve users' questions: there you can find a link to the FAQ page, report a bug or leave feedback, and export logs if the support team asks you to.
+Эта вкладка предназначена для помощи в решении вопросов пользователей: здесь вы найдёте ссылку на FAQ, сможете сообщить об ошибке или оставить отзыв, а также здесь можно экспортировать логи, если служба поддержки попросит вас об этом.

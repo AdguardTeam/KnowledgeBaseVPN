@@ -16,9 +16,9 @@ sidebar_position: 4
     - Откройте приложение **Настройки** на своем телефоне;
     - Перейдите в раздел **О системе** (последний пункт в меню настроек). В этом разделе найдите подпункт **О телефоне**;
     - Нажмите на строку **Номер сборки** 7 раз. После этого вы получите уведомление о том, что **Теперь вы разработчик** (при необходимости введите код разблокировки устройства);
-    - Open **System Settings** → **Developer Options** → Scroll down and enable **USB debugging** → Confirm debugging is enabled in the window **Allow USB debugging** after reading the warning carefully.
+    - Откройте **Настройки системы** → **Для разработчиков** → Прокрутите вниз и включите **отладку по USB** → Подтвердите включение отладки в окне **Разрешить отладку по USB**, внимательно прочитав предупреждение.
 
-    > If you have any difficulties or additional questions, full instructions can be found [here](https://developer.android.com/studio/debug/dev-options).
+    > Если у вас возникнут трудности или дополнительные вопросы, полные инструкции можно найти [здесь](https://developer.android.com/studio/debug/dev-options).
 
 1. [Установите и настройте](https://www.xda-developers.com/install-adb-windows-macos-linux/) ADB;
 
@@ -26,7 +26,7 @@ sidebar_position: 4
 
 1. Подключите устройство с помощью кабеля USB **** к компьютеру или ноутбуку, на котором вы установили **ADB**;
 
-1. Open **the command line** on your PC:
+1. Откройте **командную строку** на вашем ПК:
 
     - **Cmd.exe** если вы используете **Windows**;
     - **Terminal**, если вы используете **macOS**;
@@ -37,7 +37,7 @@ sidebar_position: 4
 
 [Здесь](https://support.google.com/a/answer/6223444?hl=en) вы можете найти, как управлять учётными записями пользователей с Android-устройства.
 
-> Please note that in some cases restricted user accounts are created implicitly and cannot be removed. For instance, when you use Dual Messenger or Dual App features on **Samsung** or **LG** devices. Read below how to fix the issue in these cases.
+> Обратите внимание, что в некоторых случаях ограниченные учётные записи пользователей создаются неявно и не могут быть удалены. Например, когда вы используете функции Dual Messenger или Dual App на **устройствах Samsung** или **LG**. Читайте ниже, как исправить проблему в этих случаях.
 
 ### Устройства LG и Samsung
 

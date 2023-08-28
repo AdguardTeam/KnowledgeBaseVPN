@@ -15,7 +15,7 @@ sidebar_position: 2
 
 1. Mac için AdGuard VPN'i kurmak için [bu bağlantıyı](https://agrd.io/mac_vpn) takip edin veya bir tarayıcı açın, adres çubuğuna *adguard-vpn.com* yazın ve açılan sayfada *İndir* öğesine tıklayın. ![AdGuard VPN'i resmi siteden indirin](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-install-en.png)
 2. *AdGuardVPN.dmg* dosyasının indirilmesi bitene kadar bekleyin ve dosyayı "İndirilenler" klasöründe açın.
-3. Kurulum programı penceresi açılana kadar bekleyin. İçindeki simgeye çift tıklayın. ![Program installation window *mobile_border](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-install-ru-1.png)
+3. Kurulum programı penceresi açılana kadar bekleyin. İçindeki simgeye çift tıklayın. ![Program kurulum penceresi *mobile_border](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-install-ru-1.png)
 4. AdGuard VPN'i ilk başlattığınızda, işletim sistemi ekranda bu uygulamanın internetten indirildiğine dair bir uyarı gösterir. *Aç* öğesine tıklayın.
 5. Ardından *Devam et* ve *Kur* öğesine tıklayın.
 

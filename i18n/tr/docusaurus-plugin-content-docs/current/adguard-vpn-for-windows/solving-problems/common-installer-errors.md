@@ -7,7 +7,7 @@ Bu makale, Windows için AdGuard VPN kurulumu sırasında karşılaşabileceğin
 
 ### Hata 5: Erişim Reddedildi {#error-5}
 
-Bu hata, izinlerle ilgili bir sorun olduğunda ortaya çıkar. AdGuard VPN kurulum programının, yükleme işlemini düzgün bir şekilde tamamlamak için ihtiyaç duyduğu izinlere sahip olmamasının birkaç farklı nedeni olabilir. Aşağıdaki adımları deneyebilirsiniz:
+Bu hata, izinlerle ilgili bir sorun olduğunda ortaya çıkar. AdGuard VPN kurulum programının, kurma işlemini düzgün bir şekilde tamamlamak için ihtiyaç duyduğu izinlere sahip olmamasının birkaç farklı nedeni olabilir. Aşağıdaki adımları deneyebilirsiniz:
 
 - Antivirüslerinizi geçici olarak devre dışı bırakın. Bazıları, ayarlarının ciddiyetine bağlı olarak kuruluma müdahale edebilir.
 
@@ -17,13 +17,13 @@ Bu hata, izinlerle ilgili bir sorun olduğunda ortaya çıkar. AdGuard VPN kurul
 
 ### Hata 112: Disk dolu, Hata 1632: Geçici klasör dolu veya erişilemiyor {#error-112}
 
-Bunlar çok benzer çözümlere sahip iki farklı hatadır. Adlarından da anlaşılacağı gibi, AdGuard VPN Kurulum Programı, kurulumu tamamlamak için yeterli disk alanı bulamadı. Sorunu çözmek için deneyebileceğiniz birkaç şey var:
+Bunlar çok benzer çözümlere sahip iki farklı hatadır. Adlarından da anlaşılacağı gibi, AdGuard VPN kurulum programı, kurulumu tamamlamak için yeterli disk alanı bulamadı. Sorunu çözmek için deneyebileceğiniz birkaç şey var:
 
 - AdGuard VPN'i kurmaya çalıştığınız sürücüden bazı programları kaldırın veya gereksiz dosyaları silin.
 
-- Malwarebytes'in ücretsiz bir yazılımı olan [AdwCleaner](http://www.bleepingcomputer.com/download/adwcleaner/) yazılımını indirin, kurun ve çalıştırın. Diğer şeylerin yanı sıra, sisteminizi yanlış bir şekilde kaldırılan programlardan sonra kalan her türlü fazladan "artık" dosyalardan temizler. Biraz disk alanı temizlemeye yardımcı olur.
+- Malwarebytes'in ücretsiz bir yazılımı olan [AdwCleaner](http://www.bleepingcomputer.com/download/adwcleaner/) yazılımını indirin, kurun ve çalıştırın. Diğer şeylerin yanı sıra, sisteminizi yanlış bir şekilde kaldırılan programlar ve benzerlerinden sonra kalan her türlü fazladan "artık" dosyalardan temizler. Biraz disk alanı temizlemeye yardımcı olur.
 
-- Bilgisayarınızı yeniden başlatın. Bazen geçici dosyalar önemli miktarda disk alanı kaplayabilir ve bilgisayarınızı yeniden başlatmak bunlardan kurtulmanın en güvenilir yoludur.
+- Bilgisayarınızı yeniden başlatın. Bazen geçici dosyalar önemli miktarda disk alanı kaplayabilir ve PC'nizi yeniden başlatmak bunlardan kurtulmanın en güvenilir yoludur.
 
 ### Hata 1601: Windows Installer Hizmetine Erişilemiyor {#error-1601}
 
@@ -34,18 +34,18 @@ Bunun, Hata 1603'ün belirli bir alt türü olduğunu söyleyebilirsiniz. Olası
     1. *Win + R* tuşlarına basın ve **services.msc** yazın.
     1. Listeden *Windows Installer* öğesini bulun ve çift tıklayın.
     1. *Hizmet durumu* altındaki *Başlat* düğmesine basın ve *Tamam* öğesine basın. Hizmet durumu **çalışıyor** ise, önce *Durdur* öğesine ve ardından *Başlat* öğesine tıklamalısınız.
-    1. *Win + R* tuşlarına basın, ***msiexec /unregister*** yazın ve *Enter* öğesine basın.
-    1. *Win + R* tuşlarına tekrar basın, ***msiexec /regserver*** yazın ve *Enter* öğesine basın
+    1. *Win + R* tuşlarına basın, ***msiexec /unregister*** yazın ve *Enter* düğmesine basın.
+    1. *Win + R* tuşlarına tekrar basın, ***msiexec /regserver*** yazın ve *Enter* düğmesine basın
 
 - PC'yi yeniden başlatın ve kurulumu baştan başlatın. Bazen sorunu çözmek için bu yeterli olur.
 
 ### Hata 1602: Kullanıcı tarafından iptal edildi {#error-1602}
 
-Bu hata kodunu aldıysanız, yükleme işlemini bir şekilde elle kesintiye uğratmış olabilirsiniz. Yapabileceğiniz şey:
+Bu hata kodunu aldıysanız, kurma işlemini bir şekilde elle kesintiye uğratmış olabilirsiniz. Yapabileceğiniz şey:
 
 - Kurulum programı penceresini kapatmayın. Kurulum tamamlandığında otomatik olarak kapanır.
 
-- Yükleme sırasında bir diyalog penceresi açılırsa, kurulum programına gerekli izinleri vermek için "Evet" öğesine basın. "Hayır" öğesine tıklandığında kurulum iptal edilir.
+- Kurma sırasında bir diyalog penceresi açılırsa, kurulum programına gerekli izinleri vermek için "Evet" öğesine basın. "Hayır" öğesine tıklandığında kurulum iptal edilir.
 
 - Kurulum devam ederken başka işlemler başlatmayın.
 
@@ -53,7 +53,7 @@ Bu hata kodunu aldıysanız, yükleme işlemini bir şekilde elle kesintiye uğr
 
 Hata kulağa gerçekte olduğundan daha korkutucu geliyor. Gerçekte bu, birçok farklı nedeni olabilen oldukça genel bir hatadır ve bazıları kolayca düzeltilebilir. Aşağıdaki çözümleri deneyin:
 
-- *Win* tuşuna basın, *Komut İstemi* öğesini arayın ve çalıştırın. Orada, `sfc /scannow` yazın ve *Enter* öğesine basın.
+- *Win* tuşuna basın, *Komut İstemi* öğesini arayın ve çalıştırın. Orada, `sfc /scannow` yazın ve *Enter* düğmesine basın.
 
 - Farklı bir kurulum klasörü seçin. Mevcut kurulum klasörünün bazı erişim kısıtlamaları olabilir. Ayrıca harici sürücü, sanal sürücü, vb. seçmediğinizden emin olun.
 
@@ -64,8 +64,8 @@ Hata kulağa gerçekte olduğundan daha korkutucu geliyor. Gerçekte bu, birçok
     1. *Win + R* tuşlarına basın ve ***services.msc*** yazın.
     1. Listeden *Windows Installer* öğesini bulun ve çift tıklayın.
     1. *Hizmet durumu* altındaki *Başlat* düğmesine basın ve *Tamam* öğesine basın. Hizmet durumu **çalışıyor** ise, önce *Durdur* öğesine ve ardından *Başlat* öğesine tıklamalısınız.
-    1. *Win + R* tuşlarına basın, ***msiexec /unregister*** yazın ve *Enter* öğesine basın.
-    1. *Win + R* tuşlarına tekrar basın, ***msiexec /regserver*** yazın ve *Enter* öğesine basın
+    1. *Win + R* tuşlarına basın, ***msiexec /unregister*** yazın ve *Enter* düğmesine basın.
+    1. *Win + R* tuşlarına tekrar basın, ***msiexec /regserver*** yazın ve *Enter* düğmesine basın
 
 - Kurulum için sürücüde tam izinleri alın. Dosya konumunda tam izinlere sahip olmadığınız için 1603 hatasının oluşması olasıdır. Ayrıca diğer bazı çözümler kadar kolay değildir:
 
@@ -83,7 +83,7 @@ Hata kulağa gerçekte olduğundan daha korkutucu geliyor. Gerçekte bu, birçok
 
 Bu hata, aynı anda başlatılan birkaç AdGuard VPN kurulum programı olduğunda ortaya çıkar. Bu hatayı alırsanız yapmanız gerekenler:
 
-- Bilgisayarınızı yeniden başlatın ve kurulum programını tekrar başlatın. Bilgisayarı yeniden başlattığınızda, kurulum programının tüm kopyaları dahil devam eden tüm işlemler durur.
+- PC'yi yeniden başlatın ve kurulum programını tekrar başlatın. Bilgisayarı yeniden başlattığınızda, kurulum programının tüm kopyaları dahil devam eden tüm işlemler durur.
 
 - Hemen başlamasa bile kurulum programına birden çok tıklama yapmayın. Bazen kurulum programı kullanıcı arayüzünün görüntülenmesi birkaç saniye sürebilir.
 

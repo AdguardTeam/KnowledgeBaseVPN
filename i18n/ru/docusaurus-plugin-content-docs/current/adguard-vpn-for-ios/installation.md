@@ -11,26 +11,26 @@ AdGuard VPN может быть установлен на устройствах
 
 Вы можете бесплатно скачать и установить *AdGuard VPN для iOS* в приложении *App Store*. Для этого перейдите по [ссылке](https://agrd.io/ios_vpn) и нажмите *Загрузить* или выпоните эти простые действия:
 
-1. Open the *App Store* app on your device and tap *Search* in the bottom right corner of the screen.
+1. Откройте *App Store* на вашем устройстве и нажмите *Поиск* в правом нижнем углу экрана.
 
     ![App Store *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/app-store-en.png)
 
-1. Next, in the search bar, start typing *"AdGuard"* and select *"adguard vpn"* from the list of suggested options.
+1. Введите в строке поиска *AdGuard* и выберите *adguard vpn* из предложенных вариантов.
 
-    ![Search *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/search-en.png)
+    ![Поиск *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/search-en.png)
 
-1. Select *AdGuard VPN - Unlimited & Fast* from the list of suggested applications and tap *Download*. If necessary, enter your Apple ID account password in the opened window.
+1. Выберите *AdGuard VPN - Unlimited & Fast* и нажмите *Загрузить*. При необходимости введите ваш пароль от Apple ID.
 
     ![AdGuard VPN *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/adguard-vpn-en.png)
 
-1. Wait for the download to finish and tap *Open*.
+1. Дождитесь окончания загрузки и нажмите *Открыть*.
 
-AdGuard VPN for iOS has been successfully installed!
+AdGuard VPN для iOS успешно установлен!
 
 ## Как удалить AdGuard VPN для iOS
 
-If you decided to delete AdGuard VPN for iOS, find the icon of this app on the Home Screen and hold it. In the opened list, tap *Remove App*.
+Если вы хотите удалить AdGuard VPN для iOS, нажмите и удержите иконку приложения. В открывшемся списке выберите *Удалить приложение*.
 
-![Uninstall *mobile_border](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/deinstall-en.png)
+![Удалить *mobile_border](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/deinstall-en.png)
 
-You can learn more about the AdGuard VPN app for iOS in [this article](overview.md).
+Узнайте больше об AdGuard VPN для iOS в [этой статье](overview.md).
