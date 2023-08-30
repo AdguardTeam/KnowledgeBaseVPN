@@ -22,7 +22,7 @@ AdGuard VPN Tarayıcı uzantısı günlüklerini toplamanın birkaç yolu vardı
 Artık günlükleri topladığınıza göre, onları geliştirme ekibimize teslim etmeniz gerekir. Bunu yapmak için:
 
 1. GitHub'da bir hata bildirin. GitHub'da bir sorun oluşturmaya ilişkin ayrıntılı talimatları bu makalede bulabilirsiniz.
-1. Send an archive with logs and reproduce time to `devteam@adguard.com` and attach a link to your GitHub issue. Also you can add an archive with logs and reproduce time to Google Drive and share it with `devteam@adguard.com` attaching the Google Drive link to your issue on GitHub.
+1. Günlükleri ve yeniden oluşturma süresini içeren bir arşivi `devteam@adguard.com` adresine gönderin ve GitHub sorununuza bir bağlantı ekleyin. Ayrıca Google Drive'a günlükleri ve yeniden üretim süresini içeren bir arşiv ekleyebilir ve GitHub'daki sorununuza Google Drive bağlantısını ekleyerek `devteam@adguard.com` ile paylaşabilirsiniz.
 
 ## Tarayıcı geliştirici araçları aracılığıyla günlükleri toplama ve gönderme
 

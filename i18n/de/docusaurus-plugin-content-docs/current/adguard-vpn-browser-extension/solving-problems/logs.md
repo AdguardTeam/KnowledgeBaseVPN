@@ -22,7 +22,7 @@ Es gibt mehrere Möglichkeiten zum Sammeln von AdGuard VPN-Browsererweiterungspr
 Jetzt, wo Sie die Protokolle gesammelt haben, müssen Sie sie unserem Entwicklungsteam übergeben. Um dies zu tun:
 
 1. Melden Sie einen Fehler auf GitHub. Detaillierte Anweisungen zum Erstellen eines Problems auf GitHub finden Sie in diesem Artikel.
-1. Send an archive with logs and reproduce time to `devteam@adguard.com` and attach a link to your GitHub issue. Also you can add an archive with logs and reproduce time to Google Drive and share it with `devteam@adguard.com` attaching the Google Drive link to your issue on GitHub.
+1. Senden Sie ein Archiv mit Protokollen und Reproduktionszeit an `devteam@adguard.com` und fügen Sie einen Link zu Ihrem GitHub-Problem hinzu. Sie können auch ein Archiv mit den Protokollen und der Reproduktionszeit zu Google Drive hinzufügen und es mit `devteam@adguard.com` teilen, indem Sie den Google Drive-Link an Ihr Problem auf GitHub anhängen.
 
 ## Sammeln und Senden von Protokollen über die Tools des Browser-Entwicklers
 
