@@ -1,5 +1,5 @@
 ---
-title: Come installare e disinstallare AdGuard VPN per Windows
+title: Installation and removal
 sidebar_position: 2
 ---
 

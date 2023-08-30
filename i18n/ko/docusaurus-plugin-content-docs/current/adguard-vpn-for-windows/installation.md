@@ -1,5 +1,5 @@
 ---
-title: 설치 및 제거 방법
+title: Installation and removal
 sidebar_position: 2
 ---
 

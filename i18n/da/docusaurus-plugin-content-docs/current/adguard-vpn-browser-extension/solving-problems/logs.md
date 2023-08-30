@@ -22,7 +22,7 @@ Indsamling af logfiler for AdGuard VPN-browserudvidelse kan ske på flere måder
 Nu, hvor logfilerne er indsamlet, skal de videregives til vores udviklingsteam. For at gøre dette:
 
 1. Anmeld en fejl på GitHub. Detaljeret vejledning til problematikoprettelse på GitHub fremgår i denne artikel.
-1. Send an archive with logs and playback time to `devteam@adguard.com` and attach a link to your GitHub issue. Also you can add an archive with logs and playback time to Google Drive and share it with `devteam@adguard.com` attaching the Google Drive link to your issue on GitHub.
+1. Send an archive with logs and reproduce time to `devteam@adguard.com` and attach a link to your GitHub issue. Also you can add an archive with logs and reproduce time to Google Drive and share it with `devteam@adguard.com` attaching the Google Drive link to your issue on GitHub.
 
 ## Indsamling og indsendelse af logfiler via browserudviklerens værktøjer
 

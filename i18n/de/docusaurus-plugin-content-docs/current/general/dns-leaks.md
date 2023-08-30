@@ -1,5 +1,5 @@
 ---
-title: 'Was ist ein DNS-Leck?'
+title: 'What is a DNS leak'
 sidebar_position: 9
 ---
 
