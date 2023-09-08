@@ -9,9 +9,9 @@ Ein VPN ist ein ideales Tool, das bei jedem Surfen im Internet Sicherheit und An
 
 **AdGuard VPN wird häufig für folgende Zwecke eingesetzt:**
 
-* Schutz personenbezogener Daten auch bei Nutzung öffentlicher WLANs
-* Verhindern der Verfolgung von Online-Aktivitäten durch Maskieren der IP-Adresse
-* Ausblenden der tatsächlichen Geolokalisierung
+- Schutz personenbezogener Daten auch bei Nutzung öffentlicher WLANs
+- Verhindern der Verfolgung von Online-Aktivitäten durch Maskieren der IP-Adresse
+- Ausblenden der tatsächlichen Geolokalisierung
 
 AdGuard VPN für Android kann das alles für Sie tun — aber das ist noch nicht alles. Um herauszufinden, warum AdGuard VPN die bessere Option ist, lesen Sie [diesen Artikel](/general/why-adguard-vpn.md).
 
@@ -42,7 +42,7 @@ Sie können Domains (z. B. `google.com`) oder Subdomains (z. B. `*.google.com`) 
 
 Da Sie Subdomains in Dienstlisten aktivieren können, haben wir Kästchen hinzugefügt, die den Status jedes Dienstes widerspiegeln – Sie können sie auf dem Hauptbildschirm von *Ausschlüssen* links neben jedem Dienstnamen sehen. Der Status **vollständig aktiviert** ist mit einem weißen Häkchen auf grünem Hintergrund gekennzeichnet, **vollständig deaktiviert** – mit einem grauen Kästchen und **teilweise aktiviert**, was bedeutet, dass ein oder mehrere Parameter geändert wurden – mit einem grünen Quadrat auf weißem Hintergrund. Gute Nachrichten: Sie können jederzeit zur Standardansicht der Dienstlisten zurückkehren, falls Sie dort Domains gelöscht oder deaktiviert haben.
 
-![Ausschlüsse](https://cdn.adguardvpn.com/content/kb/vpn/android/statuses.png)
+![Ausschlüsse *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/statuses.png)
 
 Eine weitere nützliche Funktion ist *Import/Export der Ausschlüsse*. Sie müssen nur vier Schritte machen:
 
@@ -51,7 +51,7 @@ Eine weitere nützliche Funktion ist *Import/Export der Ausschlüsse*. Sie müss
 3. Vergessen Sie beim Übertragen zwischen verschiedenen Geräten nicht, die `.zip`-Datei zum Importieren an das Gerät zu senden. Wenn Sie beispielsweise Ausschlusslisten von Ihrem Windows-Gerät auf Ihr Android-Gerät importieren, stellen Sie sicher, dass Sie die `.zip`-Datei vorher an Ihr Android-Gerät senden.
 4. Öffnen Sie AdGuard VPN auf dem Gerät, auf das Sie das Archiv mit den fertigen Ausschlusslisten importieren möchten. Finden Sie den entsprechenden Abschnitt, klicken Sie auf die Schaltfläche *Importieren* und wählen Sie das Archiv aus.
 
-![Import/Export](https://cdn.adguardvpn.com/content/kb/vpn/android/imp-exp.png)
+![Import/Export *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/imp-exp.png)
 
 ### Apps-Einstellungen
 
@@ -59,13 +59,13 @@ Wie oben erwähnt, können Sie nicht nur Websites einfach zu den Ausschlüssen h
 
 Wenn der *Kompatibilitätsmodus* mit AdGuard aktiviert ist, können Sie Apps nur über den AdGuard-Werbeblocker verwalten. Wenn Sie also auf die Schaltfläche tippen, wird die AdGuard-App geöffnet.
 
-![Apps-Einstellungen](https://cdn.adguardvpn.com/content/kb/vpn/android/apps_settings.png)
+![App-Einstellungen *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/apps_settings.png)
 
 ## Einstellungen
 
 Sie können *Einstellungen* erreichen, indem Sie auf das Zahnradsymbol unten rechts auf dem Bildschirm drücken. Der erste Abschnitt enthält *App-Einstellungen*: Konfigurieren Sie AdGuard VPN für Android nach Bedarf.
 
-![Apps-Einstellungen](https://cdn.adguardvpn.com/content/kb/vpn/android/app_settings.png)
+![App-Einstellungen *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/app_settings.png)
 
 ### Autostart von AdGuard VPN
 
@@ -73,7 +73,7 @@ Der nach rechts geschaltete Schieberegler aktiviert einen AdGuard VPN-Autostart 
 
 ### DNS-Server
 
-Der Zweck des [Domain-Name-Systems](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns) (DNS) besteht darin, die Namen von Websites in etwas zu übersetzen, das Browser verstehen können — IP-Adressen. Diese Aufgabe wird von DNS-Servern ausgeführt. AdGuard VPN für Android bietet eine Auswahl aus mehreren DNS-Servern mit jeweils besonderen Eigenschaften. Zum Beispiel entfernt [AdGuard DNS](https://adguard-dns.io/kb/) Werbung und schützt Ihr Gerät vor Tracking, während AdGuard DNS Family Protection die Funktionen von AdGuard DNS mit SafeSearch und dem Blockieren von Inhalten für Erwachsene kombiniert. Es besteht auch die Möglichkeit, einen eigenen DNS-Server hinzuzufügen.
+Der Zweck des [Domain-Name-Systems](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns) (DNS) besteht darin, die Namen von Websites in etwas zu übersetzen, das Browser verstehen können — IP-Adressen. Diese Aufgabe wird von DNS-Servern ausgeführt. AdGuard VPN für Android bietet eine Auswahl aus mehreren DNS-Servern mit jeweils besonderen Eigenschaften. Zum Beispiel entfernt [AdGuard DNS](https://adguard-dns.io/kb/) Werbung und schützt Ihr Gerät vor Tracking, während AdGuard DNS Family Protection die Funktionen von AdGuard DNS mit SafeSearch und dem Sperren von Inhalten für Erwachsene kombiniert. Es besteht auch die Möglichkeit, einen eigenen DNS-Server hinzuzufügen.
 
 ### Auto-Schutz
 
@@ -85,11 +85,11 @@ Sie können die Kill Switch-Funktion auf Ihrem Android-Gerät einrichten, indem 
 
 Beachten Sie, dass bei aktiviertem Kill Switch die *Apps-Einstellungen* und *Ausschlüsse* nicht funktionieren.
 
-### Thema
+### Farbschema
 
-Sie können das dunkle oder das helle Thema der App wählen.
+Sie können das dunkle oder das helle Farbschema der App wählen.
 
-![Thema](https://cdn.adguardvpn.com/content/kb/vpn/android/theme-light-dark.png)
+![Farbschema *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/theme-light-dark.png)
 
 ### Erweiterte Einstellungen
 

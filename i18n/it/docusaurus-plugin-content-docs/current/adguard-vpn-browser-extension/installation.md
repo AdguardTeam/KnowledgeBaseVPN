@@ -7,15 +7,15 @@ sidebar_position: 2
 
 Per installare l'estensione di browser AdGuard VPN, segui i passaggi elencati:
 
-1. Visit [adguard-vpn.com](https://adguard-vpn.com/browser-extension/overview.html).
+1. Vai su <zero>adguard-vpn.com</zero>.
 
-2. Clicca l'icona del browser e poi su *Installa*.
+2. Clicca l'icona del tuo browser e poi su *Installa*.
 
-3. Depending on your browser, one of the websites will open: Chrome Web Store, Firefox Add-ons, Opera addons, or Microsoft Edge Add-ons. Click the respective button: *Add to Chrome*, *Add to Firefox*, *Add to Opera* or *Get* next to AdGuard VPN Browser extension.
+3. Relativamente al tuo browser in uso, uno dei siti web aprirà: Chrome Web Store, Firefox Estensioni, Opera Estensioni oppure Microsoft Edge Estensioni Clicca sul relativo bottone: *Aggiungi a Chrome*, *Aggiungi a Firefox*, *Aggiungi a Opera* oppure *Aggiungi* accanto all'estensione browser AdGuard VPN.
 
-4. Read and accept the EULA and Privacy Policy by checking the respective box. You can also allow AdGuard VPN to collect anonymous data on the app usage, which we need to improve our product (this is optional). Poi clicca su *Continua*.
+4. Leggi e accetta l'EULA e l'Informativa sulla Privacy cliccando sulla corrispondente casella. Permetti inoltre AdGuard VPN a raccogliere dati anonimi sull'utilizzo delle applicazioni, necessari al miglioramento dei nostri prodotti (opzionale). Clicca poi su *Continua*.
 
-5. Registrati o accecdi al tuo profilo di Adguard per terminare l'installazione.
+5. Registrati o Accedi al tuo profilo di AdGuard per terminare l'installazione.
 
 Goditi AdGuard VPN!
 
@@ -35,4 +35,4 @@ Fai clic sull'icona dei tre punti nell'angolo in alto a destra del browser, quin
 
 ### Opera
 
-Click the *Extensions* icon in the top right corner of the browser, then select *Manage extensions...*. Find AdGuard VPN in the list and click the *Remove* button.  
+Clicca l' *Icona* estensioni nell'angolo alto a destra del browser, poi seleziona *Gestisci estensioni*. Cerca AdGuard VPN nella lista e clicca sul *bottone* Rimuovi.

@@ -9,9 +9,9 @@ Una VPN è il strumento ideale che fornisce sicurezza e anonimato ogni volta che
 
 **La VPN è spesso utilizzata per:**
 
-* Mantenere i dati personali al sicuro anche durante l'utilizzo del Wi-Fi pubblico
-* Impedire il tracciamento delle attività online mascherando l'indirizzo IP
-* Nascondere la vera geolocalizzazione per rimanere anonimi
+- Mantenere i dati personali al sicuro anche durante l'utilizzo del Wi-Fi pubblico
+- Impedire il tracciamento delle attività online mascherando l'indirizzo IP
+- Nascondere la vera geolocalizzazione per rimanere anonimi
 
 AdGuard VPN per Android può fare tutto questo per te e persino offrire qualcosa di unico. Per scoprire perché AdGuard VPN è l'opzione migliore, leggi [questo articolo](/general/why-adguard-vpn.md).
 
@@ -42,7 +42,7 @@ Puoi aggiungere domini (es. `google.com`) o sottodomini (es. `*.google.com`) di 
 
 Poiché puoi abilitare i sottodomini nelle liste di servizi, abbiamo aggiunto caselle che riflettono lo stato di ciascun servizio - puoi vederle nella schermata principale di *Esclusioni* a sinistra di ogni nome di servizio: lo stato **completamente abilitato** è contrassegnato da un segno di spunta bianco su sfondo verde, **completamente disabilitato** — con una casella grigia e **parzialmente abilitato**, il che significa che uno o più parametri sono stati modificati — con un quadrato verde su sfondo bianco. Buone notizie: puoi sempre tornare alla visualizzazione predefinita degli elenchi di servizi nel caso in cui tu abbia eliminato o disabilitato qualsiasi dominio da lì.
 
-![Esclusioni](https://cdn.adguardvpn.com/content/kb/vpn/android/statuses.png)
+![Exclusions *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/statuses.png)
 
 Un'altra caratteristica utile è l'*Importazione/Esportazione di esclusioni*. Ci sono solo quattro passi per raggiungere l'obiettivo:
 
@@ -51,7 +51,7 @@ Un'altra caratteristica utile è l'*Importazione/Esportazione di esclusioni*. Ci
 3. Durante il trasferimento tra dispositivi diversi, non dimenticare di inviare il file `.zip` al dispositivo per l'importazione. Ad esempio, se importi gli elenchi di esclusione dal tuo dispositivo Windows al tuo Android, assicurati d'inviare prima il file `.zip` al tuo Android.
 4. Aprire AdGuard VPN sul dispositivo in cui si desidera importare l'archivio con gli elenchi di esclusioni già creati. Trova la sezione appropriata, fai clic sul pulsante *Importa* e seleziona l'archivio.
 
-![Importazione/Esportazione](https://cdn.adguardvpn.com/content/kb/vpn/android/imp-exp.png)
+![Import/Export *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/imp-exp.png)
 
 ### Impostazioni app
 
@@ -59,13 +59,13 @@ Come abbiamo già detto, non solo i siti web possono essere facilmente aggiunti 
 
 Se la *Modalità di compatibilità * con AdGuard è abilitata, puoi gestire le app solo tramite il Blocco AdGuard. Pertanto, quando si tocca il pulsante, si apre l'applicazione AdGuard.
 
-![Impostazioni app](https://cdn.adguardvpn.com/content/kb/vpn/android/apps_settings.png)
+![Apps settings *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/apps_settings.png)
 
 ## Impostazioni
 
 È possibile accedere alle *Impostazioni* premendo l'icona dell'ingranaggio in basso a destra dello schermo. La prima sezione contiene le *Impostazioni app*: configura AdGuard VPN per Android in base alle tue esigenze selezionando diverse opzioni lì.
 
-![Impostazioni app](https://cdn.adguardvpn.com/content/kb/vpn/android/app_settings.png)
+![Apps settings *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/app_settings.png)
 
 ### Avvio automatico di AdGuard VPN
 
@@ -89,7 +89,7 @@ Si noti che se Kill Switch è attivo, le *Impostazioni Apps* e *Esclusioni* non 
 
 È possibile scegliere il tema dell'app predefinito del sistema, scuro o chiaro.
 
-![Tema](https://cdn.adguardvpn.com/content/kb/vpn/android/theme-light-dark.png)
+![Theme *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/theme-light-dark.png)
 
 ### Impostazioni avanzate
 

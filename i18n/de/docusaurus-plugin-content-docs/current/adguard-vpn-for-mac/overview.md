@@ -15,7 +15,7 @@ Beachten Sie, dass **Sie AdGuard VPN für Mac nur verwenden können, wenn Sie si
 
 Die erste Registerkarte ist der Bildschirm *Home*. Hier sehen Sie den aktuellen Status von AdGuard VPN und [Ausschlussmodus](#exclusions), den ausgewählten Standort (falls aktiviert) und seinen Ping. Ping ist die Reaktionszeit eines VPN-Servers. Je niedriger diese Zahl ist, desto schneller ist die Verbindung. Wenn VPN deaktiviert ist, wird unten der letzte Standort angezeigt, mit dem Sie verbunden waren. Die schnellsten Standorte mit den niedrigsten Pings werden in der oberen rechten Ecke des Bildschirms angezeigt. Unten sehen Sie die vollständige Liste der Standorte. Sie können den gewünschten Ort leicht mit der Suchfunktion finden.
 
-> Kostenlose Benutzer können sich nur mit bestimmten Standorten verbinden, während andere blockiert sind. Außerdem gibt es in der kostenlosen Version ein monatliches Traffic-Limit von 3 GB.
+> Kostenlose Benutzer können sich nur mit bestimmten Standorten verbinden, während andere gesperrt sind. Außerdem gibt es in der kostenlosen Version ein monatliches Traffic-Limit von 3 GB.
 
 ## Ausschlüsse
 
@@ -73,9 +73,11 @@ Hier können Sie einen benutzerdefinierten DNS-Server (oder mehrere Server) hinz
 Erweiterte Einstellungen sollten nicht angepasst werden. Ändern Sie sie nicht, es sei denn, Sie werden von unserem technischen Support dazu aufgefordert oder Sie sind sich sicher, was Sie tun.
 
 #### Protokollierungsebene
+
 Es gibt nur zwei Protokollierungsebenen, aber wir empfehlen dringend, dass Sie die erste Standardebene verwenden. Die zweite Option (erweiterte Protokollierung) sollte nur nach Rücksprache mit unserem technischen Support eingestellt werden, um ein ungewöhnliches Programmverhalten aufzuzeichnen. Auch wenn Sie die zweite Protokollierungsebene aktiviert haben, stellen Sie sicher, dass Sie nach dem Aufzeichnen von Protokollen zur Standardebene zurückkehren.
 
 #### Menüleistensymbol ausblenden
+
 Diese Option befindet sich zwar in *Erweiterten Einstellungen*, kann aber bedenkenlos aktiviert werden. Sie können das AdGuard VPN-Symbol in der Menüleiste ausblenden, es verhindert jedoch nicht, dass unsere App im Hintergrund läuft.
 
 #### QUIC verwenden (experimentell)

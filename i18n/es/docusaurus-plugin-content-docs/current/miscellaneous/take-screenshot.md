@@ -17,18 +17,18 @@ Tomar una captura de pantalla en un dispositivo Android se puede hacer de varias
 
 En general, debe usar la siguiente combinación de botones para Android:
 
-+ **Mantenga presionados a la vez los botones *Bajar volumen* y *Encendido* durante 1-2 segundos**
+- **Mantenga presionados a la vez los botones *Bajar volumen* y *Encendido* durante 1-2 segundos**
 
 Su dispositivo Android capturará toda la pantalla y la guardará como una foto. Por lo tanto, puede encontrar la captura de pantalla en una carpeta Capturas de pantalla en su Galería.
 
 Pero, como ya se ha dicho, puede haber diferencias dependiendo de un dispositivo en particular. Veamos otras combinaciones posibles:
 
-+ **Mantenga presionado al mismo tiempo el botón de *Inicio* y el de *Encendido* durante 1-2 segundos;**
-+ **Mantenga presionados a la vez los botones *Atrás* e *Inicio***
+- **Mantenga presionado al mismo tiempo el botón de *Inicio* y el de *Encendido* durante 1-2 segundos;**
+- **Mantenga presionados a la vez los botones *Atrás* e *Inicio***
 
 En Android 8 y versiones posteriores también existe la posibilidad de tomar una captura de pantalla colocando la mano verticalmente a lo largo del borde izquierdo o derecho de su teléfono y deslizando desde ese borde con la mano tocando la pantalla.
 
-If this method doesn’t work, check *Settings* → *Advanced features* → *Motions and gestures* → enable *Palm swipe to capture*.
+Si este método no funciona, marca *Configuración* → *Funciones avanzadas* → *Movimientos y gestos* → habilitar *Deslizar la palma de la mano para capturar*.
 
 Además, siempre puedes utilizar alguna aplicación especial para hacer capturas de pantalla en tus dispositivos, por ejemplo —*Screenshot Easy*, *Screenshot Ultimate*, *Screenshot Snap*, etc.
 
@@ -38,17 +38,17 @@ Cualquier dispositivo iOS (excepto los antiguos) le permite tomar una captura de
 
 Para tomar una captura de pantalla en un dispositivo iOS, use la siguiente combinación:
 
-+ **Presione el botón ** de Reposo / Activación (lateral) y el botón *Inicio* al mismo tiempo, luego suéltelos rápidamente**
+- **Presione el botón ** de Reposo / Activación (lateral) y el botón *Inicio* al mismo tiempo, luego suéltelos rápidamente**
 
 y esta para iPhone X o posterior:
 
-+ **Presione el botón de *reposo/despertar* y el botón de *Subir el Volumen* al mismo tiempo, y luego suéltalos rápidamente**
+- **Presione el botón de *reposo/despertar* y el botón de *Subir el Volumen* al mismo tiempo, y luego suéltalos rápidamente**
 
 Su dispositivo iOS capturará toda la pantalla y la guardará como una foto. Puedes encontrarlo en una aplicación de fotos estándar.
 
 ### Windows
 
-+ **Para tomar una captura de pantalla en Windows, presione el botón *PrtScn***
+- **Para tomar una captura de pantalla en Windows, presione el botón *PrtScn***
 
 En algunas computadoras portátiles, debe mantener presionado *Fn* y luego presionar *PrtScn* en su lugar.
 
@@ -58,11 +58,11 @@ Windows captura toda la pantalla y la copia en el portapapeles (invisible).
 
 Para tomar una captura de pantalla de una ventana activa, use la siguiente combinación:
 
-+ **Mantenga presionado *Alt* y presione *PrtScn* (o *Fn + Alt + PrtScn* en algunas computadoras portátiles)**
+- **Mantenga presionado *Alt* y presione *PrtScn* (o *Fn + Alt + PrtScn* en algunas computadoras portátiles)**
 
 Para tomar una captura de pantalla de un área específica, debe usar la siguiente combinación:
 
-+ ***Mantenga presionado *Win* (el botón de Windows) y *Shift* y presione ***S******
+- ***Mantenga presionado *Win* (el botón de Windows) y *Shift* y presione ***S******
 
 Después de tomar una captura de pantalla, se guardará en el portapapeles. En la mayoría de los casos, podrá pegarlo en un documento que está editando actualmente utilizando *combinación de botones Ctrl + V*. Alternativamente, si necesita guardar la captura de pantalla en un archivo, debe abrir el programa estándar **Paint** (o cualquier otra aplicación que pueda trabajar con imágenes). Pegue su captura de pantalla allí usando la misma combinación de botones o haciendo clic en el botón Pegar (generalmente en la esquina superior izquierda de la pantalla) y luego guárdela.
 
@@ -76,21 +76,21 @@ Además, también puedes probar a utilizar diferentes aplicaciones para hacer ca
 
 Para tomar una captura de pantalla en Mac, use la siguiente combinación de botones:
 
-+ ***Presione y mantenga presionado ***⌘ Cmd + Shift + 3******
+- ***Presione y mantenga presionado ***⌘ Cmd + Shift + 3******
 
 Su Mac capturará toda la pantalla y la guardará como un archivo en el escritorio.
 
 Para tomar una captura de pantalla de una ventana activa, use la siguiente combinación:
 
-+ **Presione y mantenga presionado *⌘ Cmd + Shift + 4 + barra espaciadora*.  El puntero cambiará a un icono de cámara. Haz clic en la ventana para capturarla. Presione el botón Esc para cancelar la toma de una captura de pantalla**
+- **Presione y mantenga presionado *⌘ Cmd + Shift + 4 + barra espaciadora*.  El puntero cambiará a un icono de cámara. Haz clic en la ventana para capturarla. Presione el botón Esc para cancelar la toma de una captura de pantalla**
 
 Para tomar una captura de pantalla de un área específica, debe usar la siguiente combinación:
 
-+ ***Presione y mantenga presionado ***⌘ Cmd + Shift + 4******. Arrastre la cruz para seleccionar el área necesaria. Suelte el mouse o el panel táctil para tomar una captura de pantalla, presione el botón Esc para cancelarla.
+- ***Presione y mantenga presionado ***⌘ Cmd + Shift + 4******. Arrastre la cruz para seleccionar el área necesaria. Suelte el mouse o el panel táctil para tomar una captura de pantalla, presione el botón Esc para cancelarla.
 
 Para tomar una captura de pantalla del *Touch Bar* (MacBook Pro), use la siguiente combinación:
 
-+ ***Mantenga presionado ***⌘ Cmd + Shift + 6******
+- ***Mantenga presionado ***⌘ Cmd + Shift + 6******
 
 Su Mac captura todo el *Touch Bar* y lo guarda como un archivo en el escritorio.
 

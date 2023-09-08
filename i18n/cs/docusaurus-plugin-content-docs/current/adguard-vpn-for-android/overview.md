@@ -9,9 +9,9 @@ VPN je ideální nástroj, který zajišťuje bezpečnost a anonymitu při každ
 
 **VPN se často používá pro:**
 
-* Zabezpečení osobních údajů i při používání veřejné sítě Wi-Fi
-* Zabránění sledování online aktivit maskováním IP adresy
-* Skrytí skutečné zeměpisné polohy pro zachování anonymity
+- Zabezpečení osobních údajů i při používání veřejné sítě Wi-Fi
+- Zabránění sledování online aktivit maskováním IP adresy
+- Skrytí skutečné zeměpisné polohy pro zachování anonymity
 
 AdGuard VPN pro Android to všechno zvládne za vás — a dokonce nabízí něco jedinečného. Chcete-li zjistit, proč je AdGuard VPN nejlepší volbou — přečtěte si [tento článek](/general/why-adguard-vpn.md).
 
@@ -37,12 +37,12 @@ Existují dva režimy: v *Obecném režimu* jsou vyloučeny weby ze seznamu výj
 
 Domény (např. `google.com`) nebo subdomény (např. `*.google.com`) webových stránek můžete do *Výjimek* přidat třemi způsoby: zadejte je ručně v aplikaci nebo přímo z prohlížeče kliknutím na tlačítko *Sdílet* a výběrem AdGuard VPN v otevřeném seznamu níže, nebo z vestavěných seznamů služeb rozdělených podle kategorií.
 
-![Výjimky](https://cdn.adguardvpn.com/public/Adguard/kb/VPN/Screenshots/add_site_android.jpg)
+![Exclusions](https://cdn.adguardvpn.com/public/Adguard/kb/VPN/Screenshots/add_site_android.jpg)
 > Při ručním přidávání domén existují určité nuance. Pokud například ručně vyloučíte doménu `yahoo.com`, budou ve výjimkách uvedeny také všechny subdomény `*.yahoo.com`. Doménové názvy s ostatními doménami nejvyšší úrovně, jako je `yahoo.jp` nebo `yahoo.fr`, však vyloučeny nebudou. Nebo můžete do výjimek přidat `youtube.com`, ale doména stejné služby `youtu.be` se do seznamu nedostane. V tomto případě je bezpečnější použít vestavěné seznamy služeb, protože do nich vložíme všechny subdomény související s jednotlivými platformami.
 
 Vzhledem k tomu, že v seznamech služeb můžete povolit subdomény, přidali jsme pole, která odrážejí stav každé služby — můžete je vidět na hlavní obrazovce v sekci *Výjimky* vlevo od názvu každé služby: **zcela povoleno** stav je označen bílým zaškrtnutím na zeleném pozadí., **zcela zakázáno** — s šedým rámečkem a **částečně povoleno**, což znamená, že byl změněn jeden nebo více parametrů — se zeleným čtverečkem na bílém pozadí. Dobrá zpráva: vždy se můžete vrátit k výchozímu zobrazení seznamů služeb, pokud jste z nich odstranili nebo zakázali některé domény.
 
-![Výjimky](https://cdn.adguardvpn.com/content/kb/vpn/android/statuses.png)
+![Exclusions *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/statuses.png)
 
 Další užitečnou funkcí je *Import/Export výjimek*. K dosažení cíle vedou pouhé čtyři kroky:
 
@@ -51,7 +51,7 @@ Další užitečnou funkcí je *Import/Export výjimek*. K dosažení cíle vedo
 3. Při přenosu mezi různými zařízeními nezapomeňte odeslat soubor `.zip` do zařízení pro import. Pokud například importujete seznamy výjimek ze zařízení se systémem Windows do systému Android, nezapomeňte soubor `.zip` předem odeslat do systému Android.
 4. Otevřete AdGuard VPN v zařízení, do kterého chcete importovat archiv s připravenými seznamy výjimek. Vyhledejte příslušnou sekci, klikněte na tlačítko *Importovat* a vyberte archiv.
 
-![Importovat/exportovat](https://cdn.adguardvpn.com/content/kb/vpn/android/imp-exp.png)
+![Import/Export *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/imp-exp.png)
 
 ### Nastavení aplikací
 
@@ -59,13 +59,13 @@ Jak jsme uvedli výše, do výjimek lze snadno přidat nejen webové stránky. V
 
 Pokud je povolen *režim kompatibility* s AdGuardem, můžete spravovat aplikace pouze prostřednictvím blokátoru reklam AdGuard. Proto se po klepnutí na tlačítko otevře aplikace AdGuard.
 
-![Nastavení aplikací](https://cdn.adguardvpn.com/content/kb/vpn/android/apps_settings.png)
+![Apps settings *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/apps_settings.png)
 
 ## Nastavení
 
 Do *Nastavení* se dostanete stisknutím ikony ozubeného kola v pravém dolním rohu obrazovky. První sekcí je *Nastavení aplikace*: nakonfigurujte AdGuard VPN pro Android podle svých potřeb výběrem různých možností.
 
-![Nastavení aplikací](https://cdn.adguardvpn.com/content/kb/vpn/android/app_settings.png)
+![Apps settings *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/app_settings.png)
 
 ### Automatické spuštění AdGuard VPN
 
@@ -89,7 +89,7 @@ Všimněte si, že pokud je funkce Kill Switch zapnutá, *Nastavení aplikací* 
 
 Můžete si vybrat systémový, tmavý nebo světlý motiv aplikace.
 
-![Motiv](https://cdn.adguardvpn.com/content/kb/vpn/android/theme-light-dark.png)
+![Theme *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/theme-light-dark.png)
 
 ### Pokročilá nastavení
 

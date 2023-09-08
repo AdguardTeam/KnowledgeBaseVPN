@@ -9,9 +9,9 @@ VPN은 인터넷을 사용할 때 보안과 익명성을 제공하는 도구입�
 
 **VPN은 다음과 같은 목적으로 자주 사용됩니다.**
 
-* 공용 Wi-Fi를 사용하는 동안에도 개인 데이터 보호
-* IP 주소를 마스킹하여 온라인 활동 추적 방지
-* 익명성을 유지하기 위해 실제 위치 숨기기
+- 공용 Wi-Fi를 사용하는 동안에도 개인 데이터 보호
+- IP 주소를 마스킹하여 온라인 활동 추적 방지
+- 익명성을 유지하기 위해 실제 위치 숨기기
 
 Android용 AdGuard VPN은 모든 일반 기능뿐만 아니라 여러 고유한 기능도 제공합니다. [이 글](/general/why-adguard-vpn.md)에서 AdGuard VPN 사용의 이점을 확인할 수 있습니다.
 
@@ -42,7 +42,7 @@ AdGuard VPN에는 두 가지 모드가 있습니다. *일반 모드*에서는 VP
 
 서비스 목록에서 하위 도메인을 비활성화할 수 있으므로 각 서비스의 상태를 표시하는 아이콘을 추가했습니다. 아이콘은 각 서비스 이름 왼쪽의 기본 *예외* 화면에서 볼 수 있습니다. **완전히 활성화됨**은 녹색 배경에 흰색 확인 표시로, **완전히 비활성화됨**은 회색 사각형으로, **부분적으로 활성화됨**(하나 이상의 설정이 변경되었음을 나타냄)은 흰색 배경에 녹색 사각형으로 표시됩니다. 그러나 목록에서 도메인을 삭제하거나 비활성화한 경우, 서비스 목록의 기본 보기로 언제든지 돌아갈 수 있습니다.
 
-![예외 목록](https://cdn.adguardvpn.com/content/kb/vpn/android/statuses.png)
+![Exclusions *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/statuses.png)
 
 또 다른 유용한 기능은 *예외 목록 가져오기/내보내기*입니다. 이 기능을 사용하려면 4단계만 수행하면 됩니다.
 
@@ -51,7 +51,7 @@ AdGuard VPN에는 두 가지 모드가 있습니다. *일반 모드*에서는 VP
 3. 다른 기기 간에 전송할 때 가져오기를 위해 `.zip` 파일을 기기로 보내는 것을 잊지 마십시오. 예를 들어, Windows 기기에서 Android로 예외 목록을 가져오는 경우, 미리 `.zip` 파일을 Android로 보내야 합니다.
 4. 예외 목록이 있는 ZIP 파일을 가져오려는 기기에서 AdGuard VPN을 엽니다. 해당 섹션을 찾아 *가져오기* 버튼을 클릭하고 ZIP 파일을 선택합니다.
 
-![가져오기/내보내기](https://cdn.adguardvpn.com/content/kb/vpn/android/imp-exp.png)
+![Import/Export *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/imp-exp.png)
 
 ### 앱 설정
 
@@ -59,13 +59,13 @@ AdGuard VPN에는 두 가지 모드가 있습니다. *일반 모드*에서는 VP
 
 AdGuard와의 *호환성 모드*가 활성화된 경우, AdGuard 광고 차단기를 통해서만 앱을 관리할 수 있습니다. 그래서 버튼을 탭하면 AdGuard 앱이 열립니다.
 
-![앱 설정](https://cdn.adguardvpn.com/content/kb/vpn/android/apps_settings.png)
+![Apps settings *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/apps_settings.png)
 
 ## 설정
 
 화면 오른쪽 하단의 톱니바퀴 아이콘을 눌러 *설정*으로 이동할 수 있습니다. 첫 번째 섹션에는 *앱 설정*이 있습니다. 여기에서 다른 옵션을 선택하여 필요에 따라 Android용 AdGuard VPN을 구성하세요.
 
-![앱 설정](https://cdn.adguardvpn.com/content/kb/vpn/android/app_settings.png)
+![Apps settings *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/app_settings.png)
 
 ### AdGuard VPN 자동 시작
 
@@ -89,7 +89,7 @@ DNS(Domain name system, [도메인 이름 시스템](https://adguard-dns.io/kb/g
 
 앱의 시스템 기본, 다크 및 라이트 테마를 적용할 수 있습니다.
 
-![테마](https://cdn.adguardvpn.com/content/kb/vpn/android/theme-light-dark.png)
+![Theme *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/theme-light-dark.png)
 
 ### 고급 설정
 

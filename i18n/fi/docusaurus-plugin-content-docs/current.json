@@ -40,11 +40,11 @@
     "description": "The label for category AdGuard VPN for Mac in sidebar sidebar"
   },
   "sidebar.sidebar.category.AdGuard VPN browser extensions": {
-    "message": "AdGuard VPN:n selainlaajennus",
+    "message": "AdGuard VPN Selainlaajennus",
     "description": "The label for category AdGuard VPN browser extensions in sidebar sidebar"
   },
   "sidebar.sidebar.category.solving-problems": {
-    "message": "solving-problems",
+    "message": "ongelmien-ratkaisu",
     "description": "The label for category solving-problems in sidebar sidebar"
   }
 }

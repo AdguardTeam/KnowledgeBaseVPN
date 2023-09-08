@@ -1,13 +1,12 @@
 ---
-title: Compatibilidade com o Bloqueador de anúncios do AdGuard
+title: Compatibility with AdGuard Ad Blocker
 sidebar_position: 3
 ---
 
+AdGuard VPN has the VPN operating mode enabled by default, which uses its own [AdGuard VPN protocol](/general/adguard-vpn-protocol.mdx). It provides the best combination of connection speed and security. However, this operating mode does not allow AdGuard VPN and AdGuard Ad Blocker to work simultaneously. The Compatibility mode, in turn, uses the IPsec protocol, which makes it possible for the AdGuard applications to work together. If you already have AdGuard Ad Blocker when installing AdGuard VPN, this mode will turn on automatically and allow you to use our applications at the same time. If you first installed AdGuard VPN, and only then decided to try AdGuard Ad Blocker, then to use them together, follow these steps:
 
-O AdGuard VPN tem o modo de operação VPN ativado por padrão, que usa seu próprio [protocolo AdGuard VPN](/general/adguard-vpn-protocol. mdx). Fornece a melhor combinação de velocidade de conexão e segurança. No entanto, esse modo operacional não permite que o AdGuard VPN e o Bloqueador de anúncios do AdGuard funcionem simultaneamente. O modo Compatibilidade, por sua vez, utiliza o protocolo IPsec, o que possibilita que os aplicativos AdGuard trabalhem juntos. Se você já tiver o Bloqueador de anúncios do AdGuard ao instalar o AdGuard VPN, esse modo será ativado automaticamente e permitirá que você use nossos aplicativos ao mesmo tempo. Se você instalou o AdGuard VPN pela primeira vez e só então decidiu experimentar o Bloqueador de anúncios do AdGuard e desejar utilizá-los juntos, siga estas etapas:
+1. Open AdGuard VPN for Android and select the gear icon at the bottom right of the screen.
 
-1. Abra o AdGuard VPN para Android e selecione o ícone de engrenagem no canto inferior direito da tela.
+2. Go to "Advanced settings" and select "Operating mode".
 
-2. Vá para "Configurações avançadas" e selecione "Modo de operação".
-
-3. Mude o modo para *Modo de compatibilidade com AdGuard*. Pronto!
+3. Switch the mode from to *Compatibility mode with AdGuard*. Done!

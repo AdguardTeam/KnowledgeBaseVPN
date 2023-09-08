@@ -11,13 +11,9 @@ VPN, konumunuzu gizlemeye ve web'deki verilerinizi korumaya yardımcı olan bir 
 
 Bu şekilde, bir VPN iki önemli işlevi yerine getirir:
 
-1. **Anonimliğin korunması**
+1. **Anonimliğin korunması** Kullanıcı bir internet bağlantısı kullanarak dijital ayak izini bırakır, bu iz üçüncü taraflarca analiz edilebilir ve kullanılabilir. Örneğin, ziyaret ettiğiniz çevrimiçi mağazalardan biri arama geçmişinizi kaydedebilir ve ardından hedefli reklamcılık yoluyla size ürünlerini buna göre sunabilir. Veya cihazınızın IP adresi üzerinden konumunuzu öğrenen ve kimliğinizi belirleyen gizli servisler, web üzerindeki hareketlerinizi gizlice izleyebilir. Buna ek olarak, web tarayıcıları ve İSS'lerin kendileri, tarama geçmişinizi kendi amaçları için kullanabilir, ayrıca reklamcılara satabilir ve devlet kurumlarına sağlayabilir. VPN, IP adresinizi gizlemenize ve bağlı olduğunuz VPN sunucusunun IP adresiyle değiştirmenize olanak tanır. Bu şekilde gizliliğinizi koruyabilecek ve web'de anonim olarak bilgi arayabileceksiniz.
 
-Bir internet bağlantısı kullanarak, kullanıcı, daha sonra üçüncü şahıslar tarafından analiz edilebilecek ve kullanılabilecek dijital ayak izini bırakır. Örneğin, ziyaret ettiğiniz çevrimiçi mağazalardan biri arama geçmişinizi kaydedebilir ve ardından hedefli reklamcılık yoluyla size ürünlerini buna göre sunabilir. Veya cihazınızın IP adresi üzerinden konumunuzu öğrenen ve kimliğinizi belirleyen gizli servisler, web üzerindeki hareketlerinizi gizlice izleyebilir. Buna ek olarak, web tarayıcıları ve İSS'lerin kendileri, tarama geçmişinizi kendi amaçları için kullanabilir, ayrıca reklamcılara satabilir ve devlet kurumlarına sağlayabilir. VPN, IP adresinizi gizlemenize ve bağlı olduğunuz VPN sunucusunun IP adresiyle değiştirmenize olanak tanır. Bu şekilde gizliliğinizi koruyabilecek ve web'de anonim olarak bilgi arayabileceksiniz.
-
-2. **Veri koruması**
-
-Güvenilir olmayan veya herkese açık bir ağa bağlanırsanız cihazınızdaki veriler siber suçlulara karşı savunmasız hâle gelebilir. Banka kartı bilgileri, kullanıcı adları ve şifreler, pasaport verileri — tüm bu veriler çevrimiçi dolandırıcılar tarafından ele geçirilebilir. VPN tüneli, web'den gönderdiğiniz ve aldığınız bilgileri şifreler, böylece yanlış ellere düşmez.
+2. **Veri koruması** Güvenilir olmayan veya halka açık bir ağa bağlanırsanız, cihazınızdaki veriler siber suçlulara karşı savunmasız hâle gelebilir. Banka kartı bilgileri, kullanıcı adları ve şifreler, pasaport verileri — tüm bu veriler çevrimiçi dolandırıcılar tarafından ele geçirilebilir. VPN tüneli, web'den gönderdiğiniz ve aldığınız bilgileri şifreler, böylece yanlış ellere düşmez.
 
 ## VPN yapısı
 
@@ -49,15 +45,15 @@ AdGuard VPN'in de kendi [*protokolü*](adguard-vpn-protocol.mdx). Avantajlarınd
 
 Bariz avantajlarına rağmen, VPN mükemmel değildir ve bazı dezavantajları vardır:
 
-**Düşük hız**
+### Düşük hız
 
 Trafiğiniz doğrudan web sunucusuna gitmeyip önce VPN sunucusundan geçtiği için VPN bağlantısının hızı düşer. Diğer faktörler de VPN kullanırken hızı etkiler: VPN sunucusunun yükü, bant genişliği, VPN protokolünün işletim sisteminizle uyumluluğu. Tüm bu faktörler ve ağın hızı VPN bağlantınızın kalitesini düşürebilir.
 
-**Erişim engelleme**
+### Erişim engelleme
 
 Bazı çevrimiçi hizmetler, VPN trafiğini algılamak ve VPN kullanıcılarına erişimi engellemek için çok çaba harcar. Ancak, pek çok VPN trafiğini normal şekilde gizleyemez. Bu nedenle, VPN'i devre dışı bırakmadan belirli bir siteye gitme girişimlerinin çoğu hiçbir şeyle sonuçlanmaz.
 
-**VPN bağlantıları kesiliyor**
+### VPN bağlantıları kesiliyor
 
 Zayıf bir sinyal, ağ aşırı yüklenmesi, bir güvenlik duvarı, antivirüs ve diğer programlarla VPN uyumsuzluğu, eski bir VPN protokolü— tüm bunlar, özellikle güvenilmez VPN sağlayıcıları tarafından VPN bağlantısında ani bir arızaya neden olabilir.
 
@@ -65,20 +61,20 @@ Zayıf bir sinyal, ağ aşırı yüklenmesi, bir güvenlik duvarı, antivirüs v
 
 VPN hizmetimizin birkaç önemli [avantajı](why-adguard-vpn.md) vardır:
 
-* [*Tescilli VPN protokolü*](adguard-vpn-protocol.mdx), yavaş bir İnternet bağlantısıyla bile kararlı bir şekilde çalışan ve kendisini normal trafik olarak gizleyerek izlemeyi ve engellemeyi daha zor hâle getirir
+- [*Tescilli VPN protokolü*](adguard-vpn-protocol.mdx), yavaş bir İnternet bağlantısıyla bile kararlı bir şekilde çalışan ve kendisini normal trafik olarak gizleyerek izlemeyi ve engellemeyi daha zor hâle getirir
 
-* [*"Günlük tutmama" politikası*](https://adguard-vpn.com/en/privacy.html), AdGuard VPN'nin kişisel verilerinizi toplamadığı ve bunları başkasına aktarmadığı anlamına gelir
+- [*"Günlük tutmama" politikası*](https://adguard-vpn.com/en/privacy.html), AdGuard VPN'nin kişisel verilerinizi toplamadığı ve bunları başkasına aktarmadığı anlamına gelir
 
-* *Onlarca ülkede 50'den fazla VPN sunucusu*
+- *Onlarca ülkede 50'den fazla VPN sunucusu*
 
-* *Kullanım kolaylığı ve kapsamlı özelleştirme seçenekleri*
+- *Kullanım kolaylığı ve kapsamlı özelleştirme seçenekleri*
 
 Şu anda AdGuard VPN şu şekilde mevcuttur:
 
-* Chrome, Firefox ve Edge için [tarayıcı uzantısı](../adguard-vpn-browser-extension/overview.md)
+- Chrome, Firefox ve Edge için [tarayıcı uzantısı](../adguard-vpn-browser-extension/overview.md)
 
-* [Android](../adguard-vpn-for-android/overview.md) ve [iOS](../adguard-vpn-for-ios/overview.md) için mobil uygulama
+- [Android](../adguard-vpn-for-android/overview.md) ve [iOS](../adguard-vpn-for-ios/overview.md) için mobil uygulama
 
-* [Windows](../adguard-vpn-for-windows/overview.md) ve [Mac](../adguard-vpn-for-mac/overview.md) için masaüstü uygulaması
+- [Windows](../adguard-vpn-for-windows/overview.md) ve [Mac](../adguard-vpn-for-mac/overview.md) için masaüstü uygulaması
 
 AdGuard VPN özellikleri (sınırsız sürüm dahil) hakkında daha fazla bilgiyi [buradan](https://adguard-vpn.com/en/welcome.html) edinebilirsiniz.

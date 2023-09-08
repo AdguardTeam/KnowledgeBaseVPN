@@ -1,5 +1,5 @@
 ---
-title: Kurulum ve kaldırma
+title: Yükleme ve kaldırma
 sidebar_position: 2
 ---
 
@@ -25,4 +25,4 @@ Android için AdGuard VPN başarıyla yüklendi!
 
 Android için AdGuard VPN'i silmeye karar verdiyseniz, bu uygulamanın simgesini bulun ve basılı tutun. Açılan listede *Kaldır* öğesine dokunun.
 
-[Bu makalede](overview.md) Android için AdGuard VPN hakkında daha fazla bilgi edinebilirsiniz.
+[Bu makalede](overview.md) Android için AdGuard VPN hakkında daha fazla bilgi edinebilirsiniz

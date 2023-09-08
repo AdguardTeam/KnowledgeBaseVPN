@@ -7,104 +7,104 @@ sidebar_position: 1
 
 VPN(가상 사설망)은 안전한 인터넷 연결을 제공하고 온라인에서 익명성을 유지하는 데 도움이 되는 도구입니다. VPN은 어떻게 작동하나요? VPN을 사용하지 않으면 ISP는 사용자가 방문하는 웹사이트를 볼 수 있습니다. 사용자가 누구인지, 무엇을 찾고 있는지 알고 있으며 이 데이터를 수집하고 판매할 수 있습니다. 그리고 방문하는 웹사이트에서 활동을 추적할 수도 있습니다. VPN은 암호화된 터널을 통해 트래픽을 원격 VPN 서버로 리디렉션하여 개인 정보를 보호합니다. ISP는 사용자가 요청을 보낸 위치를 모르고 사이트는 사용자가 어디에서 왔는지 모릅니다.
 
-**Windows용 AdGuard VPN의 기능**
+## What AdGuard VPN for Windows does
 
-* 네트워크 트래픽 가로채기(스푸핑)로부터 보호합니다. AdGuard VPN은 기기와 원격 서버 사이에 터널을 생성합니다. 모든 인터넷 트래픽은 이 터널을 통과하므로 데이터가 보호됩니다. 그리고 [AdGuard의 고유한 프로토콜](/general/adguard-vpn-protocol.mdx) 덕분에 빠르고 안전한 연결이 보장됩니다.
+- 네트워크 트래픽 가로채기(스푸핑)로부터 보호합니다. AdGuard VPN은 기기와 원격 서버 사이에 터널을 생성합니다. 모든 인터넷 트래픽은 이 터널을 통과하므로 데이터가 보호됩니다. 그리고 [AdGuard의 고유한 프로토콜](/general/adguard-vpn-protocol.mdx) 덕분에 빠르고 안전한 연결이 보장됩니다.
 
-* IP 주소를 숨깁니다. 실제 IP 주소는 사이버 범죄자의 개인 데이터의 핵심입니다. IP를 숨기지 않으면 이름, 이메일 주소, 전화번호, 신용카드 정보가 모두 유출될 수 있습니다. AdGuard VPN을 사용하면 모든 트래픽이 암호화된 터널을 통과하여 VPN 서버로 이동합니다. 따라서 기기에 해당 VPN 서버의 IP 주소가 있는 것으로 보입니다.
+- IP 주소를 숨깁니다. 실제 IP 주소는 사이버 범죄자의 개인 데이터의 핵심입니다. IP를 숨기지 않으면 이름, 이메일 주소, 전화번호, 신용카드 정보가 모두 유출될 수 있습니다. AdGuard VPN을 사용하면 모든 트래픽이 암호화된 터널을 통과하여 VPN 서버로 이동합니다. 따라서 기기에 해당 VPN 서버의 IP 주소가 있는 것으로 보입니다.
 
-* 실제 위치를 숨깁니다. AdGuard VPN 서버를 선택하면 해당 위치로 즉시 순간이동됩니다. 이 기능을 언제 사용하나요? 예를 들어, 저렴한 요금으로 호텔을 예약해야 하거나 지역 타겟팅 광고를 피해야 할 때 사용할 수 있습니다.
+- 실제 위치를 숨깁니다. AdGuard VPN 서버를 선택하면 해당 위치로 즉시 순간이동됩니다. 이 기능을 언제 사용하나요? 예를 들어, 저렴한 요금으로 호텔을 예약해야 하거나 지역 타겟팅 광고를 피해야 할 때 사용할 수 있습니다.
 
-Windows용 AdGuard VPN에는 많은 이점이 있으므로 [별도의 기사](/general/why-adguard-vpn.md)를 작성했습니다. 이 기사에서는 프로그램이 어떻게 작동하는지 살펴보겠습니다.
+AdGuard VPN for Windows has many advantages, so we've dedicated [a separate article](/general/why-adguard-vpn.md) to them. Here, however, we want to focus more on the application itself and how it works.
 
-## Windows용 AdGuard VPN 사용을 시작하는 방법
+## How to start using AdGuard VPN for Windows
 
-Windows용 AdGuard VPN을 사용하려면 [당사 웹사이트](https://adguard-vpn.com/welcome.html)에서 프로그램을 다운로드하세요. 설치는 1분도 걸리지 않습니다. 사용자 약관 및 개인정보취급방침의 조건에 동의하기 위해 하나 이상의 확인란을 선택하라는 대화 상자가 나타납니다. AdGuard가 앱 사용에 대한 익명 데이터를 수집할지 여부를 결정할 수 있습니다. 마지막으로 프로그램은 [AdGuard 계정](https://auth.adguard.com/login.html)이나 소셜 네트워크(Apple, Google, Facebook)를 통해 로그인하라는 메시지를 표시합니다. 이제 Windows용 AdGuard VPN을 사용할 수 있습니다.
+To start using AdGuard VPN for Windows, download the app from [our website](https://adguard-vpn.com/welcome.html). The installation takes no more than a minute — and you'll see a dialog window where you'll need to check at least one box applying the terms of the User Agreement and the Privacy policy. And it's up to you to decide whether you want AdGuard to collect anonymized data about your app usage. At last the program will ask you to sign in, either via [AdGuard account](https://auth.adguard.com/login.html) or via social networks (Apple, Google, Facebook). That's all, you can now use AdGuard VPN for Windows.
 
-## 홈 화면
+## Home screen
 
-![Windows용 AdGuard VPN 메인 화면](https://cdn.adguardvpn.com/content/release_notes/vpn/windows/v2.0/new_main_window_en.png)
+![AdGuard VPN for Windows Home Page](https://cdn.adguardvpn.com/content/release_notes/vpn/windows/v2.0/new_main_window_en.png)
 
-**홈 화면**에서 가장 눈에 띄는 항목은 AdGuard VPN 연결/연결 해제 버튼입니다. 버튼 위에는 애플리케이션이 실행 중인 [모드](#exclusions)가 표시되고, 버튼 아래에는 선택한 서버가 표시됩니다. 화면 오른쪽에는 사용 가능한 모든 서버가 표시됩니다. 가장 빠른 위치, 즉 핑이 가장 낮은 위치가 목록의 맨 위에 표시됩니다.
+The most noticeable item on the **Home Screen** is the AdGuard VPN connect/disconnect button. Above the button you can see the [mode](#exclusions) in which the application is running, and below it you can see the selected server. On the right side of the screen you will find all available locations. The fastest location, i.e. the one with the lowest ping, is shown at the top of the list.
 
-화면 상단에는 **홈**, **예외 목록**, **고객 지원**, **설정**의 네 가지 탭이 있는 탐색 패널이 있습니다.
+At the top of the screen there is a navigation panel with four tabs: **Home**, **Exclusions**, **Support**, **Settings**.
 
-## 예외 목록
+## Exclusions
 
-Windows용 AdGuard VPN은 두 가지 모드(**일반** 및 **선별**)에서 작동할 수 있습니다. 이 기능을 언제 사용하나요? 응용 프로그램이 일부 사이트를 제외한 모든 사이트에서 작동하도록 하려면 **일반 모드**를 활성화하고 터널에서 제외할 리소스를 나열합니다. **선별 모드**는 예외 목록에 지정된 웹사이트에서만 AdGuard VPN을 활성화합니다. 이 두 모드의 예외 목록은 서로 영향을 주지 않습니다.
+AdGuard VPN for Windows can operate in two modes: **General** or **Selective**. What does this mean? If you want the application to work everywhere except for some websites, activate the **General mode** and list the websites you want to exclude from the tunnel. The **Selective mode** has the opposite effect: it activates AdGuard VPN only on the websites specified in the exclusion list. Please note that these two modes' exclusions lists are independent from one another.
 
-![예외 목록](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_en.png)
+![Exclusions](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_en.png)
 
-도메인 이름을 입력하여 웹사이트를 예외 목록에 **수동**으로 추가할 수 있습니다. 또한 **목록**에서 인기 있는 웹사이트를 선택할 수 있습니다.
+You can add websites to exclusions **manually** by entering their domain names. The app also offers you an option to choose popular websites **from the list**.
 
-![예외 추가](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_add_en.png)
+![Add Exclusions](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_add_en.png)
 
-![목록에서 예외 항목 추가](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_from_list_en.png)
+![Add Exclusions from list](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_from_list_en.png)
 
 > 도메인을 수동으로 추가할 때 몇 가지 미묘한 차이가 있습니다. 예를 들어 도메인 `google.com`을 수동으로 제외하면 모든 `*.google.com` 하위 도메인도 예외 목록에 추가됩니다. `google.es` 또는 `google.it`과 같은 최상위 도메인이 있는 도메인 이름은 제외되지 않습니다. 또는 `youtube.com`을 예외 목록에 추가할 수 있지만 동일한 서비스 `youtu.be`의 도메인은 목록에 포함되지 않습니다.
 
-**목록에서 선택** 옵션을 사용하는 것이 좋습니다. 이 서비스 목록은 소셜 네트워크, 메신저, 비디오 및 음악 스트리밍 서비스, 게임, 쇼핑, 검색 엔진 및 업무용 커뮤니케이션 도구 등 8개의 범주로 나뉩니다. 각 그룹에는 각 서비스와 관련된 모든 도메인 이름과 하위 도메인이 포함되었습니다.
+We recommend using the **From the list** option. Websites are grouped into eight categories: Social networks, Messengers, Video and Music streaming services, Games, Shopping, Search engines, and Work communication tools. We have placed the most popular services there, including all domain names and subdomains related to each platform.
 
 ### 예외 목록 가져오기/내보내기
 
-Windows용 AdGuard VPN에서 컴퓨터로 예외 목록을 내보내려면 **예외 목록 내보내기**를 클릭하고 목록을 저장할 폴더를 선택한 다음 **저장**을 클릭하세요. `exclusions.zip` 파일이 다운로드됩니다. ZIP 파일 내부에는 **일반** 및 **선별** 목록 각각에 대해 하나씩 두 개의 `.txt` 파일이 있습니다. 새 예외 항목을 추가하거나 이전 항목을 삭제하여 편집할 수 있습니다.
+To export the list of exclusions from AdGuard VPN for Windows to your computer, click **Export exclusions**, select the folder where the list will be stored and click **Save**. An archive `exclusions.zip` with two `.txt` files will be downloaded, one for each of the lists — **General** and **Selective**. You can edit them by adding new exclusions or deleting old ones.
 
-예외 목록을 다른 기기로 가져오려면 `.zip 파일`을 해당 기기로 전송하세요. 미리 만들어진 예외 목록이 있는 ZIP 파일을 가져오려는 기기에서 AdGuard VPN을 열고 *예외 목록*을 클릭한 다음 *예외 목록 가져오기*를 클릭하고 이전에 보낸 ZIP 파일을 선택합니다.
+To transfer the exclusion lists to another device, send the `.zip` file to its destination. Open AdGuard VPN on the device where you want to import the archive with the exclusion lists, click *Exclusions*, then *Import exclusions*, and select the previously sent archive.
 
-## 설정
+## Settings
 
-![설정](https://cdn.adguardvpn.com/content/release_notes/vpn/windows/v2.0/settings_en.png)
+![Settings](https://cdn.adguardvpn.com/content/release_notes/vpn/windows/v2.0/settings_en.png)
 
-Windows용 AdGuard Vpn의 마지막 상단 탭에는 응용 프로그램을 사용자 지정하는 데 도움이 되는 섹션이 포함되어 있습니다. **앱 설정** 및 **앱 예외 목록**에 대해 자세히 살펴보겠습니다.
+The fourth tab of app's tab bar contains sections that will help you customize the application. Let's look closer at two of them: **App settings** and **App exclusions**.
 
 ### 앱 설정
 
-![앱 설정](https://cdn.adguardvpn.com/content/release_notes/vpn/windows/v2.0/app_settings_en.png)
+![App settings](https://cdn.adguardvpn.com/content/release_notes/vpn/windows/v2.0/app_settings_en.png)
 
-**앱 설정**에서 앱 언어를 설정하고 VPN 연결이 실패할 경우, 인터넷 액세스를 차단하는 **킬 스위치**를 활성화할 수도 있습니다. 이 기능은 공용 Wi-Fi 또는 모바일 네트워크에 연결되어 있는 동안 VPN 보호가 없는 경우, 공격자가 데이터에 접근하지 못하도록 방지하는 데 필요합니다.
+In the **App settings** section, you can set the app language and also enable **Kill Switch**, which will block access to the Internet if your VPN connection drops. This is needed to prevent intruders from getting to your data if you find yourself without VPN protection while connected to a public Wi-Fi or mobile network.
 
-그리고 스위치를 한 번만 클릭하면 **자동 업데이트**, **윈도우 시작 시 AdGuard VPN 실행**, **앱 실행 시 자동 연결**과 같은 기능을 활성화할 수 있습니다. 또한 AdGuard가 익명화된 앱 사용 데이터를 수집하도록 허용하면 프로그램을 개선하는 데 도움이 됩니다. 여기에서 테마를 **라이트**, **기본** 또는 **다크 테마**로 변경할 수도 있습니다.
+You can also activate the following features with a single click: **Auto-update**, **Launch AdGuard VPN at Windows startup**, **Auto-connect on app launch**, and allow AdGuard to collect anonymized app usage data so that the AdGuard team gets the info on potential usability issues. Here you can also change the theme to **Light**, **System**, or **Dark**.
 
-페이지 하단에는 **DNS 서버** 및 **고급 설정**의 두 섹션이 있습니다.
+At the bottom of the page there are two sections: **DNS servers** and **Advanced settings**.
 
 #### DNS 서버
 
-**DNS 서버** 탭에서는 자신만의 DNS 서버를 추가할 수 있습니다. 사용자는 모든 공급자의 DNS 서버를 설정할 수 있습니다. 표준 기능 외에도 광고, 추적 및 피싱으로부터 보호할 수 있는 서버인 [AdGuard DNS](https://adguard-dns.io/kb/general/dns-providers/#adguard-dns)를 추가하는 것이 좋습니다.
+The **DNS servers** tab allows you to add your own DNS server. You can set up a DNS server by any provider. We recommend adding [AdGuard DNS](https://adguard-dns.io/kb/general/dns-providers/#adguard-dns), a server that can protect against advertising, tracking, and phishing, in addition to the standard functions.
 
 #### 고급 설정
 
-고급 설정을 열지 않고도 Windows용 AdGuard VPN을 사용할 수 있지만 이러한 기능이 무엇인지 알기 위해 시간을 할애한다면 유용할 수 있습니다.
+It is entirely possible to use AdGuard VPN for Windows without ever touching the Advanced settings, but they can be useful if you're willing to take time to learn what they do.
 
-**운영 모드**
+##### Operating mode
 
-두 가지 작동 모드(VPN 및 SOCKS5)가 있음에도 불구하고 기본적으로 선택된 모드(VPN)만 사용하는 것이 좋습니다. **VPN 모드**가 활성화되면 장치의 모든 트래픽이 AdGuard VPN을 통해 전달되는 반면, **SOCKS5 모드**에서는 AdGuard VPN이 다른 애플리케이션에서 트래픽을 리디렉션하는 데 사용할 수 있는 로컬 프록시 서버를 사용합니다.
+Despite the fact that there are two operating modes — VPN and SOCKS5 — we advise you to use only the one chosen by default (VPN). When the **VPN mode** is enabled, all the traffic of your device will be directed via AdGuard VPN, while in **SOCKS5 mode** AdGuard VPN uses a local proxy server which can be used by other applications to redirect their traffic.
 
-**로깅 수준**
+##### Logging level
 
-로깅 수준으로 **기본 수준의 기록** 또는 **모두 기록**을 선택할 수 있습니다. 기본적으로 기록 옵션은 기본적으로 활성화되어 있습니다. **모두 기록** 옵션은 지원 팀에서 요청한 경우에만 활성화하세요. 장시간 이 모드에서 앱을 사용하면 배터리 소모가 증가합니다.
+Two levels of logging are available to choose from: **Record by default** and **Record everything**. The first option is enabled by default. The **Record everything** option should only be activated if our support team has asked you to do so. Using the app in this mode for an extended period of time result in increased battery consumption.
 
-모든 로그는 기기의 로컬 영역에만 저장되며 필요한 경우 지원 팀으로 이를 전송할 수 있습니다.
+All logs are stored locally on your device and you can send them to the support team if needed.
 
-**QUIC 사용**
+##### Use QUIC
 
-이 기능은 AdGuard가 고급 QUIC 암호화 프로토콜을 사용할 수 있도록 하는 실험적 기능입니다. 이 기능은 많은 장점이 있지만 가장 주목할만한 것은 모바일 인터넷을 사용하거나 공용 Wi-Fi 네트워크에 연결할 때와 같이 이상적이지 않은 조건에서 연결 품질을 향상시킬 수 있다는 것입니다.
+This is an experimental feature that enables AdGuard to use the advanced QUIC encryption protocol. It has many advantages, but the most notable one is that it can improve connection quality under non-ideal conditions, for example, when using mobile Internet or when connecting to public Wi-Fi networks.
 
 ### 앱 예외 목록
 
-![예외 목록에 앱 추가](https://cdn.adguardvpn.com/content/release_notes/vpn/windows/v2.0/add_app_en.png)
+![Adding an app to exclusions](https://cdn.adguardvpn.com/content/release_notes/vpn/windows/v2.0/add_app_en.png)
 
-AdGuard VPN은 브라우저뿐만 아니라 기기에 설치된 다른 앱의 트래픽도 암호화합니다. AdGuard VPN이 특정 애플리케이션에서 작동하지 않도록 하려면 이 애플리케이션을 **예외 목록**에 추가하세요.
+Not only does AdGuard VPN encrypt the traffic of your browsers, but also of other apps installed on your device. If you want to exclude certain applications from the tunnel, put them to the **App exclusions** list.
 
-## 기타 탭
+## Other tabs
 
 ### 정보
 
-**정보** 탭에서 Windows용 AdGuard VPN의 현재 버전, 업데이트 버튼 및 몇 가지 유용한 링크(AdGuard 웹사이트, 포럼, EULA 및 개인정보취급방침)를 확인할 수 있습니다.
+The **About** tab provides information about the current version of AdGuard VPN for Windows, an update button, and links to the AdGuard VPN website, forum, EULA, and Privacy policy.
 
 ### 계정
 
-여기에서 라이선스 상태에 대한 정보와 현재 구독을 관리하고 새 구독을 구매할 수 있는 개인 AdGuard 계정 링크를 찾을 수 있습니다.
+Here you can find information about your license status, as well as a link to your personal AdGuard account, where you can manage your current subscriptions and purchase new ones.
 
-## 고객 지원
+## Support
 
-이 탭은 사용자의 질문을 해결하기 위한 것입니다. 여기에서 FAQ 페이지에 대한 링크를 찾고, 버그를 보고하거나 피드백을 남기고, 지원 팀이 요청하는 경우 로그를 내보낼 수 있습니다.
+This tab is aimed to solve users' questions: there you can find a link to the FAQ page, report a bug or leave feedback, and export logs if the support team asks you to.

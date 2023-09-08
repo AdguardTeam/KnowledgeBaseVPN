@@ -1,5 +1,5 @@
 ---
-title: 'What is a DNS leak?'
+title: 'What is a DNS leak'
 sidebar_position: 9
 ---
 
@@ -7,7 +7,7 @@ Once you install a VPN, you want to be sure that there won't be any leaks that w
 
 ## What are DNS leaks?
 
-When you use a VPN, a connection to a DNS server may travel outside of the encrypted VPN tunnel and your traffic may become visible to the ISP.  
+When you use a VPN, a connection to a DNS server may travel outside of the encrypted VPN tunnel and your traffic may become visible to the ISP.
 
 In other words, every time you open a website, your browser sends a request to the ISP's DNS server and in return receives the IP address of the requested website. In this way, your ISP sees all your online activity and can track you.
 
@@ -17,7 +17,7 @@ There are all sorts of anonymity check services for detecting DNS leaks, such as
 
 Some security scanning websites consider the coincidence of the user's IP address and the DNS server's IP address to be a "good" result, indicating that there are no leaks. In reality, such a match may indicate the use of a VPN. When VPN is disabled and the requests go to your ISP's DNS server, the IP address of the DNS server and your own one do not coincide.
 
-## Why there are no DNS leaks in AdGuard VPN 
+## Why there are no DNS leaks in AdGuard VPN
 
 If you enable AdGuard VPN on your device and run a check on any of the scanner websites, it finds that DNS queries go to the [AdGuard DNS](https://adguard-dns.io) servers. However, this cannot be considered a leak.
 
@@ -29,14 +29,14 @@ And in the case of AdGuard DNS you will "merge" with 50 million users so nobody 
 
 ## How to set up a custom DNS server in AdGuard VPN
 
-There are many popular public DNS servers from [well-known DNS providers](https://adguard-dns.io/kb/general/dns-providers). Some of them can only perform their direct duties – giving the IP addresses of the requested domains, and some can do more. 
+There are many popular public DNS servers from [well-known DNS providers](https://adguard-dns.io/kb/general/dns-providers). Some of them can only perform their direct duties – giving the IP addresses of the requested domains, and some can do more.
 
 For example, AdGuard DNS removes ads and protects your device from being tracked, and AdGuard DNS Family Protection combines AdGuard DNS features with Safe search and Parental control.
 
 You can select any DNS server and configure it in AdGuard VPN:
 
-* in AdGuard VPN for Windows: *Settings* → *App settings* → *DNS servers*
-* in AdGuard VPN for Mac: *Settings* → *App settings* → *DNS servers*
-* in AdGuard VPN for Android: *Settings* (gear icon) → *App settings* → *DNS server*
-* in AdGuard VPN for iOS: *Settings* (gear icon) → *App settings* → *DNS server*
-* in AdGuard VPN Browser extension: the hamburger menu icon → *Settings* → *DNS server*
+- in AdGuard VPN for Windows: *Settings* → *App settings* → *DNS servers*
+- in AdGuard VPN for Mac: *Settings* → *App settings* → *DNS servers*
+- in AdGuard VPN for Android: *Settings* (gear icon) → *App settings* → *DNS server*
+- in AdGuard VPN for iOS: *Settings* (gear icon) → *App settings* → *DNS server*
+- in AdGuard VPN Browser extension: the hamburger menu icon → *Settings* → *DNS server*

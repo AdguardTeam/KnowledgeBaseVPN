@@ -12,21 +12,26 @@ Problém můžete vyřešit dvěma způsoby:
 ### Možnost 1: Udělení oprávnění aplikaci AdGuard VPN pomocí ADB
 
 1. Aktivace **Režimu pro vývojáře** a povolení **USB ladění**:
-- V telefonu otevřete **Nastavení**;
-- Přejděte do sekce **Systém** (poslední položka v nabídce). V této sekci vyhledejte podpoložku **Informace o telefonu**;
-- Sedmkrát klepněte na řádek **Číslo sestavení**. Poté se zobrazí oznámení **Nyní jste vývojářem** (v případě potřeby zadejte kód pro odemčení zařízení);
-- Otevřete **Nastavení systému** → **Možnosti pro vývojáře** → přejeďte dolů a zapněte **USB ladění** → po pečlivém přečtení varování potvrďte, že je ladění povoleno v okně **Povolit ladění USB**.
 
-> Pokud máte nějaké potíže nebo otázky, úplné pokyny naleznete [zde](https://developer.android.com/studio/debug/dev-options).
+    - V telefonu otevřete **Nastavení**;
+    - Přejděte do sekce **Systém** (poslední položka v nabídce). V této sekci vyhledejte podpoložku **Informace o telefonu**;
+    - Sedmkrát klepněte na řádek **Číslo sestavení**. Poté se zobrazí oznámení **Nyní jste vývojářem** (v případě potřeby zadejte kód pro odemčení zařízení);
+    - Otevřete **Nastavení systému** → **Možnosti pro vývojáře** → přejeďte dolů a zapněte **USB ladění** → po pečlivém přečtení varování potvrďte, že je ladění povoleno v okně **Povolit ladění USB**.
 
-2. [Instalace a konfigurace](https://www.xda-developers.com/install-adb-windows-macos-linux/) ADB;
-> Na platformě Windows mohou majitelé zařízení **Samsung** potřebovat nainstalovat [tento nástroj](https://developer.samsung.com/mobile/android-usb-driver.html).
+    > Pokud máte nějaké potíže nebo otázky, úplné pokyny naleznete [zde](https://developer.android.com/studio/debug/dev-options).
 
-3. Připojte zařízení pomocí **USB kabelu** k počítači nebo notebooku, na který jste nainstalovali **ADB**;
-4. Otevřete **příkazový řádek** v počítači:
-- **Cmd.exe**, pokud používáte **Windows**;
-- **Terminal**, pokud používáte **macOS**;
-5. Zadejet příkaz `adb shell pm grant com.adguard.vpn android.permission.INTERACT_ACROSS_USERS` a stiskněte **Enter**.
+1. [Instalace a konfigurace](https://www.xda-developers.com/install-adb-windows-macos-linux/) ADB;
+
+    > Na platformě Windows mohou majitelé zařízení **Samsung** potřebovat nainstalovat [tento nástroj](https://developer.samsung.com/mobile/android-usb-driver.html).
+
+1. Připojte zařízení pomocí **USB kabelu** k počítači nebo notebooku, na který jste nainstalovali **ADB**;
+
+1. Otevřete **příkazový řádek** v počítači:
+
+    - **Cmd.exe**, pokud používáte **Windows**;
+    - **Terminal**, pokud používáte **macOS**;
+
+1. Zadejet příkaz `adb shell pm grant com.adguard.vpn android.permission.INTERACT_ACROSS_USERS` a stiskněte **Enter**.
 
 ### Možnost 2: Odebrání *Uživatelského účtu s omezeným přístupem*
 

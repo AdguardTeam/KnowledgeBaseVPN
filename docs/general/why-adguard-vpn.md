@@ -8,9 +8,11 @@ When getting ready to commit to a [long-term VPN subscription](subscription.md),
 *To start with, let’s go over AdGuard VPN’s unmatched features that you won’t find in any other VPN.*
 
 ## 1. Proprietary protocol
+
 From the very outset, we resolved to develop and deploy an in-house VPN protocol instead of picking a canned solution — that’d be too easy, plus, we weren’t satisfied with existing protocols. The result has become the [AdGuard VPN protocol](adguard-vpn-protocol.mdx).
 
 Choosing a VPN service, people often face a trade-off between fast vs. safe. The AdGuard VPN protocol is a perfect blend of speed and security, so you don’t have to bear slow Internet connection or make privacy sacrifices. Among other things, it disguises itself as regular traffic and it’s much harder to detect and block it.
+
 
 ## 2. Website and app exclusions
 
@@ -57,11 +59,13 @@ However, we managed to find a solution to befriend AdGuard VPN and AdGuard Ad Bl
 *Now let’s switch to the item set that any decent VPN can't do without.*
 
 ## 7. Kill Switch
+
 Kill Switch is essential if you, for instance, often use a mobile network or connect to public Wi-Fi networks in malls, cafes, on the subway or at the airport. For the simple reason — if VPN will suddenly drop and the connection will become insecure, chances are that your sensitive information will be exposed to fraudsters or cyber criminals.
 
 If for some reason your VPN connection is interrupted, Kill Switch will automatically disconnect you from the Internet, keeping attackers away from seizing your information.
 
 ## 8. Auto-protection
+
 This feature has been developed specifically for unsecured networks. If you enable Auto-protection, you won't ever forget to enable VPN when visiting public places. Should you pop into a coffee shop and connect to a local Wi-Fi network, you’ll be automatically connected to AdGuard VPN.
 
 > Auto-protection is available in AdGuard VPN for iOS and Android.
@@ -74,6 +78,7 @@ Some VPN providers only allow to log in to their service on *ten devices max*. W
 Those who don’t have a subscription, can use AdGuard VPN on *two devices simultaneously*, which gives us another trump card to play against competitors: most free VPN services only allow you to use one device at a time.
 
 ## 10. Secure streaming
+
 Streaming services don't like VPNs for obvious reasons: according to statistics, about 20% of users install a VPN mainly to watch shows, TV shows and movies bypassing geo-blocking. That's why streaming platforms tend to do everything they can to track VPN traffic and block it.
 
 But what if you want to feel safe while watch content specific to your region? Or don't want stop watching exciting series even when you travel to another country? The answer is simple — AdGuard VPN, which thanks to its unique protocol can remain invisible to services.
@@ -82,6 +87,6 @@ But what if you want to feel safe while watch content specific to your region? O
 
 ## 11. Dark mode
 
-![Dark mode](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/main_en_black.png)
+![Dark mode *mobile_border](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/main_en_black.png)
 
 This little feature deserves special mention. In fact, many users crave for dark mode, so we couldn’t ignore it and added a theme switch for all AdGuard VPN products. Choose the one you like more — light, dark or system default. Hope you’ll join the dark side.

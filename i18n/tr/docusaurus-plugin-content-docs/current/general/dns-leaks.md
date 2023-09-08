@@ -1,5 +1,5 @@
 ---
-title: 'DNS sızıntısı nedir?'
+title: 'What is a DNS leak'
 sidebar_position: 9
 ---
 
@@ -35,8 +35,8 @@ Ve AdGuard DNS söz konusu olduğunda, 50 milyon kullanıcıyla "birleşirsiniz"
 
 Herhangi bir DNS sunucusunu seçebilir ve AdGuard VPN'de yapılandırabilirsiniz:
 
-* Windows için AdGuard VPN'de: *Ayarlar* → *Uygulama ayarları* → *DNS sunucular*
-* Mac için AdGuard VPN'de: *Ayarlar* → *Uygulama ayarları* → *DNS sunucular*
-* Android için AdGuard VPN'de: *Ayarlar* (Dişli çark simgesi) → *Uygulama ayarları* → *DNS sunucular*
-* iOS için AdGuard VPN'de: *Ayarlar* (Dişli çark simgesi) → *Uygulama ayarları* → *DNS sunucular*
-* AdGuard VPN Tarayıcı uzantısında: hamburger menü simgesi → *Ayarlar* → *DNS sunucusu*
+- Windows için AdGuard VPN'de: *Ayarlar* → *Uygulama ayarları* → *DNS sunucular*
+- Mac için AdGuard VPN'de: *Ayarlar* → *Uygulama ayarları* → *DNS sunucular*
+- Android için AdGuard VPN'de: *Ayarlar* (Dişli çark simgesi) → *Uygulama ayarları* → *DNS sunucular*
+- iOS için AdGuard VPN'de: *Ayarlar* (Dişli çark simgesi) → *Uygulama ayarları* → *DNS sunucular*
+- AdGuard VPN Tarayıcı uzantısında: hamburger menü simgesi → *Ayarlar* → *DNS sunucusu*

@@ -12,27 +12,32 @@ Due modi esistano per risolvere il problema:
 ### Opzione 1: concedere le autorizzazioni ad AdGuard VPN utilizzando ADB
 
 1. Attivare la **modalità sviluppatore** e abilitare il **debug USB**:
-- Aprire l'applicazione **Impostazioni** sul telefono;
-- Accedere alla sezione **Sistema** (ultimo punto del menu impostazioni). In questa sezione si trova la sottovoce **Informazioni sul telefono**;
-- Clicca la voce **Numero build** per 7 volte. Dopodiché, si riceverà una notifica all'indirizzo **Ora sei uno sviluppatore** (se necessario, inserire un codice di sblocco per il dispositivo);
-- Aprire **Impostazioni di sistema** → **Opzioni sviluppatore** → Scorrere verso il basso e abilitare **il debug USB** → Confermare l'abilitazione del debug nella finestra **Consenti il debug USB** dopo aver letto attentamente l'avviso.
 
-> In caso di difficoltà o di ulteriori domande, le istruzioni complete sono disponibili all'indirizzo [qui](https://developer.android.com/studio/debug/dev-options).
+    - Aprire l'applicazione **Impostazioni** sul telefono;
+    - Accedere alla sezione **Sistema** (ultimo punto del menu impostazioni). In questa sezione si trova la sottovoce **Informazioni sul telefono**;
+    - Clicca la voce **Numero build** per 7 volte. Dopodiché, si riceverà una notifica all'indirizzo **Ora sei uno sviluppatore** (se necessario, inserire un codice di sblocco per il dispositivo);
+    - Open **System Settings** → **Developer Options** → Scroll down and enable **USB debugging** → Confirm debugging is enabled in the window **Allow USB debugging** after reading the warning carefully.
 
-2. [Installa e configura](https://www.xda-developers.com/install-adb-windows-macos-linux/) ADB;
-> Sulla piattaforma Windows, **i possessori di Samsung** potrebbero dover installare [questa utility](https://developer.samsung.com/mobile/android-usb-driver.html).
+    > If you have any difficulties or additional questions, full instructions can be found [here](https://developer.android.com/studio/debug/dev-options).
 
-3. Collegare il dispositivo con un **cavo USB** al computer o laptop su cui è stato installato **ADB**;
-4. Aprire **la riga di comando** sul proprio PC:
-- **Cmd.exe** se si utilizza **Windows**;
-- **Terminale** se si utilizza **macOS**;
-5. Immettere il comando `adb shell pm grant com.adguard.vpn android.permission.INTERACT_ACROSS_USERS` e premere **Invio**.
+1. [Installa e configura](https://www.xda-developers.com/install-adb-windows-macos-linux/) ADB;
+
+    > Sulla piattaforma Windows, **i possessori di Samsung** potrebbero dover installare [questa utility](https://developer.samsung.com/mobile/android-usb-driver.html).
+
+1. Collegare il dispositivo con un **cavo USB** al computer o laptop su cui è stato installato **ADB**;
+
+1. Open **the command line** on your PC:
+
+    - **Cmd.exe** se si utilizza **Windows**;
+    - **Terminale** se si utilizza **macOS**;
+
+1. Immettere il comando `adb shell pm grant com.adguard.vpn android.permission.INTERACT_ACROSS_USERS` e premere **Invio**.
 
 ### Opzione 2: Rimuovere *L'account utente con restrizioni*
 
 Puoi [trovare qui](https://support.google.com/a/answer/6223444?hl=en) come gestire gli account utente da un dispositivo Android.
 
-> Si noti che in alcuni casi gli account utente limitati vengono creati implicitamente e non possono essere rimossi. Ad esempio, quando si utilizzano le funzioni Dual Messenger o Dual App sui dispositivi **Samsung** o **LG**. Leggere di seguito come risolvere il problema in questi casi.
+> Please note that in some cases restricted user accounts are created implicitly and cannot be removed. For instance, when you use Dual Messenger or Dual App features on **Samsung** or **LG** devices. Read below how to fix the issue in these cases.
 
 ### Dispositivi LG e Samsung
 

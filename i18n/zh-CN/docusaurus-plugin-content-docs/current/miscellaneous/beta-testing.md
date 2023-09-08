@@ -13,12 +13,12 @@ sidebar_position: 2
 
 假如您发现了一个 Bug 错误。 或者您只是想与开发人员分享您的建议？ 无论如何，有几种方法可以让我们了解情况：
 
-* 转到 [forum.adguard.com](https://forum.adguard.com) 并在[论坛的 “Beta 测试”类别](https://forum.adguard.com/index.php?categories/48/)中发布一个新主题（或查找现有主题）。 请务必先阅读[论坛规则](https://forum.adguard.com/index.php?threads/14859/)；
+- 转到 [forum.adguard.com](https://forum.adguard.com) 并在[论坛的 “Beta 测试”类别](https://forum.adguard.com/index.php?categories/48/)中发布一个新主题（或查找现有主题）。 请务必先阅读[论坛规则](https://forum.adguard.com/index.php?threads/14859/)；
 
-* 转到 [GitHub](https://github.com/AdguardTeam/) ，找到一个合适的存储库。 在那里创建一个新问题，并详细描述该错误/功能请求。
+- 转到 [GitHub](https://github.com/AdguardTeam/) ，找到一个合适的存储库。 在那里创建一个新问题，并详细描述该错误/功能请求。
 
 上述两个方法是最优选的，但如果需要，您可以使用其他方法：
 
-* 在各种社交媒体平台上找到我们，例如 [Facebook](https://www.facebook.com/AdguardEn/)、[Reddit](https://www.reddit.com/r/Adguard/) 等等。 然而，这并不是讨论技术问题的最有效方式。
+- 在各种社交媒体平台上找到我们，例如 [Facebook](https://www.facebook.com/AdguardEn/)、[Reddit](https://www.reddit.com/r/Adguard/) 等等。 然而，这并不是讨论技术问题的最有效方式。
 
-* 从应用程序中的「支持」选项以向我们的支持团队发送电子邮件，或直接写信至 [support@adguard.com](mailto:support@adguard.com)。
+- 从应用程序中的「支持」选项以向我们的支持团队发送电子邮件，或直接写信至 [support@adguard.com](mailto:support@adguard.com)。

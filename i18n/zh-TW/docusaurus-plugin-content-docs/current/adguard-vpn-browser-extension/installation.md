@@ -3,9 +3,9 @@ title: 安裝和移除
 sidebar_position: 2
 ---
 
-## 如何安裝 AdGuard VPN 擴充功能
+## 如何安裝 AdGuard VPN 擴充套件
 
-要安裝 AdGuard VPN 瀏覽器擴展，請跟從以下步驟：
+要安裝 AdGuard VPN 瀏覽器擴充套件，請遵循以下步驟：
 
 1. Visit [adguard-vpn.com](https://adguard-vpn.com/browser-extension/overview.html).
 
@@ -35,4 +35,4 @@ sidebar_position: 2
 
 ### Opera
 
-Click the *Extensions* icon in the top right corner of the browser, then select *Manage extensions...*. Find AdGuard VPN in the list and click the *Remove* button.  
+Click the *Extensions* icon in the top right corner of the browser, then select *Manage extensions...*. Find AdGuard VPN in the list and click the *Remove* button.

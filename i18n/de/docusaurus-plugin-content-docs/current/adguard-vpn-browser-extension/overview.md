@@ -9,14 +9,14 @@ Die AdGuard VPN-Browsererweiterung ist für Chrome, Firefox, Opera und Edge verf
 
 Um Ihre AdGuard VPN Browsererweiterung zu verwalten, entweder:
 
-* Klicken Sie entweder auf das Symbol in der Browserleiste oder auf das Hamburger-Menü-Symbol und wählen Sie *Einstellungen*,
-* Gehen Sie auf die Seite *Erweiterungen verwalten* in Ihrem Browser, klicken Sie auf *Details* unter *AdGuard VPN* und verwalten Sie die Einstellungen von dort aus.
+- Klicken Sie entweder auf das Symbol in der Browserleiste oder auf das Hamburger-Menü-Symbol und wählen Sie *Einstellungen*,
+- Gehen Sie auf die Seite *Erweiterungen verwalten* in Ihrem Browser, klicken Sie auf *Details* unter *AdGuard VPN* und verwalten Sie die Einstellungen von dort aus.
 
 Sobald Sie fertig sind, sehen Sie auf der linken Seite mehrere Registerkarten:
 
 ## Einstellungen
 
-Auf dieser Registerkarte sind einige wichtige Einstellungen zusammengefasst. Hier können Sie einen zu verwendenden DNS-Server auswählen, das AdGuard VPN-Symbol zum Kontextmenü des Browsers hinzufügen oder entfernen, WebRTC blockieren, das Thema der Erweiterung ändern und AdGuard erlauben, anonymisierte Absturzberichte und technische Daten zu sammeln.
+Auf dieser Registerkarte sind einige wichtige Einstellungen zusammengefasst. Hier können Sie einen zu verwendenden DNS-Server auswählen, das AdGuard VPN-Symbol zum Kontextmenü des Browsers hinzufügen oder entfernen, WebRTC sperren, das Thema der Erweiterung ändern und AdGuard erlauben, anonymisierte Absturzberichte und technische Daten zu sammeln.
 
 ### Auswahl eines DNS-Servers
 

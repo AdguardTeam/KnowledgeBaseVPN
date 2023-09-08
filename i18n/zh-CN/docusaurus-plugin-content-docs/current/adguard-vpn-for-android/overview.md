@@ -9,9 +9,9 @@ VPN 是一个在用户每次浏览互联网时提供安全性和匿名性的理�
 
 **VPN 经常用于以下几项：**
 
-* 即使在用户连接公共 Wi-Fi 时也能保证个人数据安全
-* 通过掩盖 IP 地址防止用户在线活动追踪
-* 隐藏真实的地理位置以保持用户的匿名性
+- 即使在用户连接公共 Wi-Fi 时也能保证个人数据安全
+- 通过掩盖 IP 地址防止用户在线活动追踪
+- 隐藏真实的地理位置以保持用户的匿名性
 
 安卓版的 AdGuard VPN 可以为用户做这一切，甚至提供一些独特的功能。 要了解为什么 AdGuard VPN 是用户的不二之选，请阅读[这篇文章](/general/why-adguard-vpn.md)。
 
@@ -42,7 +42,7 @@ VPN 是一个在用户每次浏览互联网时提供安全性和匿名性的理�
 
 由于用户可以在服务列表中启用子域，我们增加了显示每个服务状态的方框，您可以在*排除项*的主屏幕上每个服务名称左边看到它们：**完全启用**状态用绿色背景上的白色复选标记，**完全禁用**则用灰色方框，以及**部分启用**，是指一个或多个参数被改变，用白色背景上的绿色方框。 好消息是：用户可以随时返回服务列表的默认视图，以防您从那里删除或禁用任何网域。
 
-![排除项](https://cdn.adguardvpn.com/content/kb/vpn/android/statuses.png)
+![Exclusions *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/statuses.png)
 
 另一个好用的功能是*导入/导出排除项*。 一共只有四个步骤就能导入/导出排除项：
 
@@ -51,7 +51,7 @@ VPN 是一个在用户每次浏览互联网时提供安全性和匿名性的理�
 3. 在不同设备之间传输时，不要忘记将 `.zip` 文件发送到设备上进行导入。 例如，如果您将排除项列表从自己的 Windows 设备导入到安卓设备，确保先将 `.zip` 文件发送到安卓设备。
 4. 在要导入存档的设备上打开 AdGuard VPN，其中包含要应用的排除项列表。 找到相应的部分，单击「*导入*」按钮并选择存档。
 
-![导入/导出](https://cdn.adguardvpn.com/content/kb/vpn/android/imp-exp.png)
+![Import/Export *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/imp-exp.png)
 
 ### 应用程序设置
 
@@ -59,13 +59,13 @@ VPN 是一个在用户每次浏览互联网时提供安全性和匿名性的理�
 
 如果启用与 AdGuard 的*兼容模式*，您只能通过 AdGuard 广告拦截程序管理应用程序。 因此，当您点击按钮后，AdGuard 应用程序将被启用。
 
-![应用设置](https://cdn.adguardvpn.com/content/kb/vpn/android/apps_settings.png)
+![Apps settings *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/apps_settings.png)
 
 ## 设置
 
 用户可以通过按屏幕右下方的齿轮图标转到*设置*。 第一部分是*应用程序设置*：根据自己的需求选择不同的功能配置 AdGuard VPN 安卓版。
 
-![应用设置](https://cdn.adguardvpn.com/content/kb/vpn/android/app_settings.png)
+![Apps settings *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/app_settings.png)
 
 ### AdGuard VPN 自动启动
 
@@ -89,7 +89,7 @@ VPN 是一个在用户每次浏览互联网时提供安全性和匿名性的理�
 
 您可以选择系统默认、黑暗或浅色的应用程序模式。
 
-![主题](https://cdn.adguardvpn.com/content/kb/vpn/android/theme-light-dark.png)
+![Theme *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/theme-light-dark.png)
 
 ### 高级设置
 

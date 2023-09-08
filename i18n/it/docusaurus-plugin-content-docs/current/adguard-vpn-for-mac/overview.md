@@ -73,9 +73,11 @@ Qui puoi aggiungere uno (o più) server DNS personalizzati per non fare affidame
 Non si consiglia di regolare le impostazioni avanzate. Non modificarli a meno che non ti venga richiesto dal nostro supporto tecnico o a meno che tu non sia sicuro di quello che stai facendo.
 
 #### Livello di registrazione
+
 Esistono solo due livelli di registrazione, ma ti consigliamo vivamente di utilizzare il primo, quello predefinito. La seconda opzione (registrazione estesa) dovrebbe essere impostata solo per registrare uno strano comportamento del programma dopo aver consultato il nostro supporto tecnico. Anche se hai abilitato il secondo livello di registrazione, assicurati di tornare a quello predefinito dopo aver registrato i registri.
 
 #### Nascondi icona della barra dei menu
+
 Anche se questa opzione si trova in *Impostazioni avanzate*, può essere attivata senza esitazione. Puoi nascondere l'icona AdGuard VPN dalla barra dei menu, non impedirà alla nostra app di funzionare in background.
 
 #### Utilizza QUIC (sperimentale)

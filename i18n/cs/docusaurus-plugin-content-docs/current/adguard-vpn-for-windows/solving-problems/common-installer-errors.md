@@ -31,7 +31,11 @@ Dalo by se říci, že se jedná o zvláštní podtyp chyby 1603. Možná řeše
 
 - Spusťte a znovu zaregistrujte službu Microsoft Installer. Vyžaduje to určitou práci.
 
-    1) Stiskněte *Win + R* a napište **services.msc**. 2) Vyhledejte v seznamu *Instalační služba systému Windows* a dvakrát na něj klikněte. 3) Stiskněte tlačítko *Spustit* pod položkou *Stav služby* a stiskněte *OK*. Pokud stav služby **běží**, měli byste nejprve kliknout na *Ukončit* a poté stisknout *Spustit*. 4) Stiskněte *Win + R*, napište ***msiexec /unregister*** a stiskněte *enter*. 5) Stiskněte znovu *Win + R*, napište ***msiexec /regserver*** a stiskněte *enter*
+    1. Stiskněte *Win + R* a napište **services.msc**.
+    1. Vyhledejte v seznamu *Instalační služba systému Windows* a dvakrát na ni klikněte.
+    1. Stiskněte tlačítko *Spustit* pod položkou *Stav služby* a stiskněte *OK*. Pokud stav služby **běží**, měli byste nejprve kliknout na *Ukončit* a poté stisknout *Spustit*.
+    1. Stiskněte *Win + R*, napište ***msiexec /unregister*** a stiskněte *Enter*.
+    1. Stiskněte znovu *Win + R*, napište ***msiexec /regserver*** a stiskněte *Enter*.
 
 - Restartujte počítač a spusťte instalaci znovu. Někdy to k odstranění problému stačí.
 
@@ -57,11 +61,23 @@ Chyba zní děsivěji, než ve skutečnosti je. Ve skutečnosti se jedná o pom�
 
 - Spusťte a znovu zaregistrujte službu Microsoft Installer. Vyžaduje to určitou práci.
 
-    1) Stiskněte *Win + R* a napište ***services.msc***. 2) Vyhledejte v seznamu *Instalační služba systému Windows* a dvakrát na něj klikněte. 3) Stiskněte tlačítko *Spustit* pod položkou *Stav služby* a stiskněte *OK*. Pokud stav služby **běží**, měli byste nejprve kliknout na *Ukončit* a poté stisknout *Spustit*. 4) Stiskněte *Win + R*, napište ***msiexec /unregister*** a stiskněte *enter*. 5) Stiskněte znovu *Win + R*, napište ***msiexec /regserver*** a stiskněte *enter*
+    1. Stiskněte *Win + R* a napište ***services.msc***.
+    1. Vyhledejte v seznamu *Instalační služba systému Windows* a dvakrát na ni klikněte.
+    1. Stiskněte tlačítko *Spustit* pod položkou *Stav služby* a stiskněte *OK*. Pokud stav služby **běží**, měli byste nejprve kliknout na *Ukončit* a poté stisknout *Spustit*.
+    1. Stiskněte *Win + R*, napište ***msiexec /unregister*** a stiskněte *Enter*.
+    1. Stiskněte znovu *Win + R*, napište ***msiexec /regserver*** a stiskněte *Enter*.
 
 - Získejte plná oprávnění na jednotce pro instalaci. Je možné, že k chybě 1603 dochází, protože nemáte úplná oprávnění k umístění souboru. Také to není tak snadné jako některá jiná řešení:
 
-    1) Otevřete *Průzkumník souborů*, klepněte pravým tlačítkem myši na jednotku obsahující umístění instalace a vyberte *Vlastnosti*. 2) Přejděte na *Zabezpečení* a klikněte na *Upravit*. 3) Klikněte jednou myší na *SYSTÉM* a ujistěte se, že je *zaškrtnuto* políčko u každé položky v části *Oprávnění pro SYSTÉM* (pokud je možné je zaškrtnout). Stejnou kontrolu proveďte i pro *Správce*. 4) Kliknutím na *OK* se vrátíte do dialogu *Vlastnosti*. Poté klikněte na *Pokročilé*. 5) Klikněte na *Změnit oprávnění*. 6) Na kartě *Oprávnění* dvakrát klikněte na *Správci*. 7) Vyberte *Tato složka, podsložky a soubory* pro pole *Použít pro* a zaškrtněte všechna dostupná *Základní oprávnění*. Poté stiskněte *OK*. 8) Proveďte stejnou operaci jako výše (od bodu 7) pro *SYSTÉM*. 9) Úplně nakonec klikněte na *OK*. Zkuste AdGuard nainstalovat znovu.
+    1. Otevřete *Průzkumník souborů*, klepněte pravým tlačítkem myši na jednotku obsahující umístění instalace a vyberte *Vlastnosti*.
+    1. Přejděte na *Zabezpečení* a klikněte na *Upravit*.
+    1. Klikněte jednou myší na *SYSTÉM* a ujistěte se, že je *zaškrtnuto* políčko u každé položky v části *Oprávnění pro SYSTÉM* (pokud je možné je zaškrtnout). Stejnou kontrolu proveďte i pro *Správce*.
+    1. Kliknutím na *OK* se vrátíte do dialogu *Vlastnosti*. Poté klikněte na *Pokročilé*.
+    1. Klikněte na *Změnit oprávnění*.
+    1. Na kartě *Oprávnění* dvakrát klikněte na *Správci*.
+    1. Vyberte *Tato složka, podsložky a soubory* pro pole *Použít pro* a zaškrtněte všechna dostupná *Základní oprávnění*. Poté stiskněte *OK*.
+    1. Proveďte stejnou operaci jako výše (od bodu 7) pro *SYSTÉM*.
+    1. Úplně nakonec klikněte na *OK*. Zkuste AdGuard nainstalovat znovu.
 
 ### Chyba 1618: Již probíhá jiná instalace {#error-1618}
 

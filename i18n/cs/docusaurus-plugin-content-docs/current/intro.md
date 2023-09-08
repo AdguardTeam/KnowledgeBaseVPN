@@ -16,18 +16,20 @@ Když už mluvíme o VPN, první věc, kterou zmiňují, je šifrování provozu
 
 VPN umožňuje:
 
-* skrýt vaše skutečné místo pobytu v anonymitě
-* zabezpečit vaše – i když se připojíte k veřejné Wi-Fi, můžete bezpečně procházet web
-* chránit před spoofingem (odposlechem síťového provozu) a sledováním ze strany poskytovatele internetových služeb
+- skrýt vaše skutečné místo pobytu v anonymitě
+- zabezpečit vaše – i když se připojíte k veřejné Wi-Fi, můžete bezpečně procházet web
+- chránit před spoofingem (odposlechem síťového provozu) a sledováním ze strany poskytovatele internetových služeb
 
 Při prohlížení internetu jsou ohrožena hesla, údaje o platebních kartách i obyčejné osobní údaje. Pokud se však připojíte ke globální síti pomocí sítě VPN, můžete si být jisti, že vaše data nikdo nezachytí.
 
 ## Proč AdGuard VPN?
 
 ### Důvěryhodný vývojář
+
 AdGuard působí na trhu ochrany osobních údajů a blokování reklamy a vyvíjí svou řadu softwaru již více než 12 let. Za tu dobu si naše společnost vybudovala bezvadnou pověst a počet našich zákazníků přesáhl 30 milionů.
 
 ### Jedinečný VPN protokol
+
 Hlavní rozdíl mezi AdGuard VPN a konkurencí spočívá v tom, že používáme [vlastní vyvinutý protokol](/general/adguard-vpn-protocol.mdx). Maskuje se jako běžný provoz, takže je mnohem obtížnější jej sledovat a blokovat.
 
 ### Žádné záznamy aktivit
@@ -35,50 +37,61 @@ Hlavní rozdíl mezi AdGuard VPN a konkurencí spočívá v tom, že používám
 Žýdný záznam aktivit znamená, že neshromažďujeme, neukládáme ani nepředáváme osobní údaje uživatelů třetím stranám. Úplné znění zásad ochrany osobních údajů AdGuard VPN naleznete [zde](https://adguard-vpn.com/privacy.html).
 
 ### Ochrana před sledováním
+
 Webový provoz jakéhokoli uživatele může být zajímavý a je cenný zejména z hlediska zpeněžení osobních údajů. Přístup k němu mají zločinci i bezohlední poskytovatelé internetových služeb. S důvěryhodnou sítí VPN si však můžete být jisti, že poskytovatel ani nikdo jiný vaši internetovou aktivitu neuvidí.
 
-### Velmi rychlé VPN servery ve 43 zemích
+### Velmi rychlé VPN servery ve 53 zemích
 
-* Argentina
-* Austrálie
-* Rakousko
-* Belgie
-* Brazílie
-* Bulharsko
-* Kambodža
-* Kanada
-* Čína
-* Česká republika
-* Dánsko
-* Egypt
-* Finsko
-* Francie
-* Německo
-* Řecko
-* Indie
-* Irsko
-* Izrael
-* Itálie
-* Japonsko
-* Lucembursko
-* Mexiko
-* Nizozemsko
-* Norsko
-* Filipíny
-* Polsko
-* Rumunsko
-* Rusko
-* Srbsko
-* Singapur
-* Jihoafrická republika
-* Jižní Korea
-* Španělsko
-* Švédsko
-* Švýcarsko
-* Tchaj-wan
-* Turecko
-* Spojené království
-* SAE
-* USA
-* Ukrajina
-* Vietnam
+- Argentina
+- Austrálie
+- Rakousko
+- Belgie
+- Brazílie
+- Bulharsko
+- Kambodža
+- Kanada
+- Chile
+- Kolumbie
+- Chorvatsko
+- Kypr
+- Česko
+- Dánsko
+- Egypt
+- Estonsko
+- Finsko
+- Francie
+- Německo
+- Řecko
+- Hong Kong
+- Maďarsko
+- Indie
+- Irsko
+- Izrael
+- Itálie
+- Japonsko
+- Kazachstán
+- Lucembursko
+- Mexiko
+- Nizozemsko
+- Nový Zéland
+- Norsko
+- Filipíny
+- Polsko
+- Portugalsko
+- Rumunsko
+- Rusko
+- Srbsko
+- Singapur
+- Slovensko
+- Jihoafrická republika
+- Jižní Korea
+- Španělsko
+- Švédsko
+- Švýcarsko
+- Tchaj-wan
+- Turecko
+- Velká Británie
+- Spojené arabské emiráty
+- USA
+- Ukrajina
+- Vietnam

@@ -12,27 +12,32 @@ sidebar_position: 4
 ### 【方法①】ADB経由でAdGuard VPNに権限を与える
 
 1. **開発者モード**をアクティブにし、**USBデバッグ**を有効にします（※端末によって下記メニュー項目の名称が多少違ったりする場合がございます）:
-- 端末で**設定**アプリを開きます。
-- **システム**セクションに移動し（設定メニューの最後の項目）、 サブアイテム「**端末について**」・「端末情報」を見つけます。
-- 「**ビルド番号**」の行を7回タップします（端末によっては「ソフトウェア情報」→「ビルド番号」となります）。 その後、「**開発者になりました！**」のような通知が表示されます（必要に応じて、デバイスのロック解除コードを入力してください）。
-- 設定→システム→**詳細設定**→**開発者向けオプション**→下にスクロールして「**USBデバッグ**」を開く（もしくはオンにする）→警告を注意深く読んでいただいた後、[**USBデバッグを許可する**]ウィンドウでデバッグが有効になっていることを確認します。
 
-> 上記に関してまだご不明な点やお困りの点ございましたら、[こちら](https://developer.android.com/studio/debug/dev-options)でさらに詳しい手順をご確認ください。
+    - 端末で**設定**アプリを開きます。
+    - **システム**セクションに移動し（設定メニューの最後の項目）、 サブアイテム「**端末について**」・「端末情報」を見つけます。
+    - 「**ビルド番号**」の行を7回タップします（端末によっては「ソフトウェア情報」→「ビルド番号」となります）。 その後、「**開発者になりました！**」のような通知が表示されます（必要に応じて、デバイスのロック解除コードを入力してください）。
+    - Open **System Settings** → **Developer Options** → Scroll down and enable **USB debugging** → Confirm debugging is enabled in the window **Allow USB debugging** after reading the warning carefully.
 
-2. ADBをインストトールして設定します（方法：[Windows編](https://expnote.com/how-to-install-android-debug-bridge/)、[Mac編](https://child-programmer.com/m-adb/)）
-> Windowsでは、**Samsung** のユーザーは、[こちらのユーティリティ](https://developer.samsung.com/mobile/android-usb-driver.html)をインストールする必要があるかもしれません。
+    > If you have any difficulties or additional questions, full instructions can be found [here](https://developer.android.com/studio/debug/dev-options).
 
-3. **USBケーブル**を使用して**ADB**をインストールしたコンピューターまたはラップトップにAndroidデバイスを接続します。
-4. PCで**コマンドライン**を開きます。
-- **Windows**を使用している場合は**Cmd.exe**
-- **macOS**を使用している場合は**ターミナル**
-5. `adb shell pm grant com.adguard.vpn android.permission.INTERACT_ACROSS_USERS` というコマンドを入力して**Enter**を押します。これで完了です。
+1. ADBをインストトールして設定します（方法：[Windows編](https://expnote.com/how-to-install-android-debug-bridge/)、[Mac編](https://child-programmer.com/m-adb/)）
+
+    > Windowsでは、**Samsung** のユーザーは、[こちらのユーティリティ](https://developer.samsung.com/mobile/android-usb-driver.html)をインストールする必要があるかもしれません。
+
+1. **USBケーブル**を使用して**ADB**をインストールしたコンピューターまたはラップトップにAndroidデバイスを接続します。
+
+1. Open **the command line** on your PC:
+
+    - **Windows**を使用している場合は**Cmd.exe**
+    - **macOS**を使用している場合は**ターミナル**
+
+1. `adb shell pm grant com.adguard.vpn android.permission.INTERACT_ACROSS_USERS` というコマンドを入力して**Enter**を押します。これで完了です。
 
 ### 【方法②】*制限付きアカウント*を削除する
 
 Android端末からユーザーアカウントを管理する方法は[こちら](https://support.google.com/a/answer/6223444?hl=ja) をご覧ください。
 
-> 制限付きユーザーアカウントが他の機能を通じて作成され、直接削除できない場合があることに注意してください。 たとえば、**Samsung**または**LG**デバイスでデュアルメッセンジャーまたはデュアルアプリ機能を使用する場合です。 これらのケースで問題を解決する方法を以下に記載しております。
+> Please note that in some cases restricted user accounts are created implicitly and cannot be removed. For instance, when you use Dual Messenger or Dual App features on **Samsung** or **LG** devices. Read below how to fix the issue in these cases.
 
 ### LGとSamsungデバイスの場合
 

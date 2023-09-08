@@ -16,69 +16,82 @@ Apropos VPN, das erste, was sie erwähnen, ist die Verschlüsselung des Datenver
 
 Sie können ein VPN verwenden, um:
 
-* Ihren tatsächlichen Aufenthaltsort zu verbergen und anonym zu bleiben
-* Ihre Daten zu schützen — auch wenn Sie eine Verbindung zu einem öffentlichen WLAN herstellen, können Sie sicher im Internet surfen
-* sich vor Spoofing (Abhören des Netzverkehrs) und Tracking seitens Ihres Internetanbieters zu schützen
+- Ihren tatsächlichen Aufenthaltsort zu verbergen und anonym zu bleiben
+- Ihre Daten zu schützen — auch wenn Sie eine Verbindung zu einem öffentlichen WLAN herstellen, können Sie sicher im Internet surfen
+- sich vor Spoofing (Abhören des Netzverkehrs) und Tracking seitens Ihres Internetanbieters zu schützen
 
 Passwörter, Kartendetails und einfach nur persönliche Informationen sind gefährdet, wenn ein Benutzer im Internet surft. Wenn Sie sich jedoch über ein VPN mit dem globalen Netzwerk verbinden, können Sie sicher sein, dass niemand Ihre Daten abfangen kann.
 
 ## Warum AdGuard VPN?
 
 ### Vertrauenswürdiger Entwickler
+
 AdGuard ist seit mehr als 12 Jahren auf dem Markt für den Schutz personenbezogener Daten und der Werbeblockierung präsent und entwickelt seine Softwarelinie. In dieser Zeit hat sich unser Unternehmen einen tadellosen Ruf aufgebaut und die Zahl unserer Kunden hat 30 Millionen überschritten.
 
 ### Einzigartiges VPN-Protokoll
-Der Hauptunterschied zwischen AdGuard VPN und seinen Konkurrenten besteht darin, dass wir [unser selbst entwickeltes Protokoll](/general/adguard-vpn-protocol.mdx) verwenden. Es tarnt sich als normaler Verkehr, daher ist es viel schwieriger, es zu verfolgen und zu blockieren.
+
+Der Hauptunterschied zwischen AdGuard VPN und seinen Konkurrenten besteht darin, dass wir [unser selbst entwickeltes Protokoll](/general/adguard-vpn-protocol.mdx) verwenden. Es tarnt sich als normaler Verkehr, daher ist es viel schwieriger, es zu verfolgen und zu sperren.
 
 ### No-Logs-Politik
 
 Keine Protokollierungsrichtlinie bedeutet, dass wir die personenbezogenen Daten der Benutzer nicht sammeln, speichern oder an Dritte weitergeben. Den vollständigen Text der Datenschutzerklärung von AdGuard VPN finden Sie [hier](https://adguard-vpn.com/privacy.html).
 
 ### Schutz vor Tracking
+
 Web-Traffic von jedem Benutzer kann von Interesse sein und ist besonders wertvoll im Hinblick auf die Monetarisierung persönlicher Daten. Sowohl Kriminelle als auch skrupellose ISPs können darauf zugreifen. Mit einem vertrauenswürdigen VPN können Sie jedoch sicher sein, dass weder Ihr Anbieter noch sonst jemand Ihre Internetaktivitäten sehen wird.
 
-### Ultraschnelle VPN-Server in 43 Ländern
+### Ultraschnelle VPN-Server in 53 Ländern
 
-* Argentinien
-* Australien
-* Österreich
-* Belgien
-* Brasilien
-* Bulgarien
-* Kambodscha
-* Kanada
-* China
-* Tschechische Republik
-* Dänemark
-* Ägypten
-* Finnland
-* Frankreich
-* Deutschland
-* Griechenland
-* Indien
-* Irland
-* Israel
-* Italien
-* Japan
-* Luxemburg
-* Mexiko
-* Niederlande
-* Norwegen
-* Philippinen
-* Polen
-* Rumänien
-* Russland
-* Serbien
-* Singapur
-* Südafrika
-* Südkorea
-* Spanien
-* Schweden
-* Schweiz
-* Taiwan
-* Türkei
-* Großbritannien
-* VAE
-* USA
-* Ukraine
-* Vietnam
+- Argentinien
+- Australien
+- Österreich
+- Belgien
+- Brasilien
+- Bulgarien
+- Kambodscha
+- Kanada
+- Chile
+- Kolumbien
+- Kroatien
+- Zypern
+- Tschechische Republik
+- Dänemark
+- Ägypten
+- Estland
+- Finnland
+- Frankreich
+- Deutschland
+- Griechenland
+- Hongkong
+- Ungarn
+- Indien
+- Irland
+- Israel
+- Italien
+- Japan
+- Kasachstan
+- Luxemburg
+- Mexiko
+- Niederlande
+- Neuseeland
+- Norwegen
+- Philippinen
+- Polen
+- Portugal
+- Rumänien
+- Russland
+- Serbien
+- Singapur
+- Slowakei
+- Südafrika
+- Südkorea
+- Spanien
+- Schweden
+- Schweiz
+- Taiwan
+- Türkei
+- Großbritannien
+- Vereinigte Arabische Emirate
+- Vereinigte Staaten von Amerika
+- Ukraine
+- Vietnam

@@ -1,38 +1,38 @@
 ---
-title: How to collect and send logs
+title: Kako prikupiti i poslati evidencije
 sidebar_position: 2
 ---
 
-If you encounter a problem when using AdGuard VPN for Android, you can inform us about it by sending application logs.
+Ukoliko naiđete na problem prilikom korišćenja AdGuard VPN-a za Android, o tome nas možete obavestiti slanjem evidencija aplikacija.
 
-## Collecting and sending standard logs
+## Prikupljanje i slanje standardnih evidencija
 
-By default, AdGuard VPN for Android uses the **Default** logging level, that is, the basic collection of data about running processes of the app. To send these logs, follow the next steps:
+Po podrazumevanoj vrednosti, AdGuard VPN za Android koristi **Podrazumevani** nivo vođenja evidencije, to jest osnovno prikupljanje podataka o pokrenutim procesima aplikacija. Da biste poslali ove evidencije, sledite sledeće korake:
 
-1. Open AdGuard VPN for Android and, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
+1. Otvorite AdGuard VPN za Android i, ako je moguće, ponovite radnje koje su dovele do greške. Zabeležite tačno vreme kada je došlo do ove greške.
 
-2. Open **Settings** by clicking the gear icon at the lower right corner → **Support** → **Report a bug**.
+2. Otvorite **Postavke** klikom na ikonu zupčanika u donjem desnom uglu → **Podrška** → **Prijavite grešku**.
 
-3. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred. If you can't reproduce the problem, specify as accurately as possible when it last occurred.
+3. U otvoreni obrazac unesite e-adresu za povratne informacije i opišite pronađenu grešku, uključujući i vreme kada je došlo do ove greške. Ako ne možete da reprodukujete problem, navedite što preciznije kada se poslednji put dogodio.
 
-4. There is a check mark next to **Send detailed system info**, which means that when you send a report, you also send logs.
-> If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, go to **Settings** → **Support** → **Export logs and system info**.
+4. Pored je potvrdni znak **Slanje detaljnih informacija o sistemu**, što znači da prilikom slanja izveštaja šaljete i evidencije.
+> Ako vam je iz nekog razloga zgodnije da nam evidencije šaljete na drugi način, možete ih sami izvesti. Da biste to uradili, idite na **Postavke** → **Podrška** → **Izvoz evidencija i sistemskih informacija**.
 
-## Collecting and sending extended logs
+## Prikupljanje i slanje proširenih evidencija
 
-In most cases, the **Default** logging level is sufficient to trace down possible bugs. But there are cases when more detailed technical information about the device and connections is required, and then our support team will ask you to enable the **Extended** or **Extreme** logging level. To send these types of logs, follow these steps:
+U većini slučajeva, **Podrazumevani** nivo vođenja evidencije je dovoljan da bi se ušlo u trag mogućim greškama. Ali postoje slučajevi kada su potrebne detaljnije tehničke informacije o uređaju i vezama, a onda će naš tim za podršku zatražiti od vas da omogućite **Prošireni** Ili **Ekstremni** nivo evidentiranja. Da biste poslali ove tipove evidencija, sledite ove korake:
 
-1. Open AdGuard VPN for Android and select **Settings** (the gear icon at the bottom right corner) → **App settings** → **Advanced settings** → **Logging level**.
+1. Otvorite AdGuard VPN za Android i izaberite **Postavke** (ikona zupčanik u donjem desnom uglu) → **Postavke aplikacije** → **Napredne postavke** → **Nivo vođenja evidencije**.
 
-2. In the **Logging level** section, select **Extended** or **Extreme** logging level.
+2. U **Nivo vođenja evidencije** izaberite **Prošireni** Ili **Ekstremni** nivo evidentiranja.
 
-3. Repeat the actions that led to the error and note the time when it occurred.
+3. Ponovite radnje koje su dovele do greške i zabeležite vreme kada je do nje došlo.
 
-4. Switch the logging level back to **Default**.
+4. Vratite nivo vođenja evidencije na **Podrazumevani**.
 
-5. Then open **Settings** by tapping the gear icon at the lower right corner → **Support** → **Report a bug**.
+5. Onda otvorite **Postavke** tapkanjem ikone zupčanik u donjem desnom uglu → **Podrška** → **Prijavite grešku**.
 
-6. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred.
+6. U otvoreni obrazac unesite e-adresu za povratne informacije i opišite pronađenu grešku, uključujući i vreme kada je došlo do ove greške.
 
-7. Make sure that there is a check mark next to **Send detailed system info** and tap **Send**.
-> If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, go to **Settings** → **Support** → **Export logs and system info**.
+7. Budite sigurni da je označen kvadratić pored **Pošalji detaljne sistemske informacije** i dodirnite **Pošalji**.
+> Ako vam je iz nekog razloga zgodnije da nam evidencije šaljete na drugi način, možete ih sami izvesti. Da biste to uradili, idite na **Postavke** → **Podrška** → **Izvoz evidencija i sistemskih informacija**.

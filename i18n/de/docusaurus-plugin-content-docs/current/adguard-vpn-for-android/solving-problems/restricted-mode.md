@@ -12,27 +12,32 @@ Sie haben zwei Möglichkeiten, das Problem zu lösen:
 ### Option 1: Erteilen von Berechtigungen für AdGuard VPN mit ADB
 
 1. Aktivieren Sie den **Entwicklermodus** und **USB-Debugging**:
-- Öffnen Sie die App **Einstellungen** auf Ihrem Gerät;
-- Gehen Sie zum Abschnitt **System** (letzter Punkt im Einstellungsmenü). In diesem Abschnitt finden Sie den Unterpunkt **Über das Telefon**;
-- Klicken Sie 7 Mal auf die Zeile **Build-Nummer** . Danach erhalten Sie eine Benachrichtigung: **Sie sind jetzt ein Entwickler** (Geben Sie ggf. einen Entsperrcode für das Gerät ein);
-- Öffnen Sie **Systemeinstellungen** → **Entwickleroptionen** → Scrollen Sie nach unten und aktivieren Sie **USB-Debugging** → Bestätigen Sie, dass das Debugging im Fenster aktiviert ist **USB-Debugging zulassen**, nachdem Sie die Warnung sorgfältig gelesen haben.
 
-> Sollten Sie Schwierigkeiten oder zusätzliche Fragen haben, finden Sie eine vollständige Anleitung [hier](https://developer.android.com/studio/debug/dev-options).
+    - Öffnen Sie die App **Einstellungen** auf Ihrem Gerät;
+    - Gehen Sie zum Abschnitt **System** (letzter Punkt im Einstellungsmenü). In diesem Abschnitt finden Sie den Unterpunkt **Über das Telefon**;
+    - Klicken Sie 7 Mal auf die Zeile **Build-Nummer** . Danach erhalten Sie eine Benachrichtigung: **Sie sind jetzt ein Entwickler** (Geben Sie ggf. einen Entsperrcode für das Gerät ein);
+    - Öffnen Sie **Systemeinstellungen** ➜ **Entwickleroptionen** ➜ Blättern Sie nach unten und aktivieren Sie **USB-Debugging** ➜ Bestätigen Sie, dass das Debugging in dem Fenster **USB-Debugging zulassen** aktiviert ist, nachdem Sie die Warnung sorgfältig gelesen haben.
 
-2. [Installieren und konfigurieren Sie](https://www.xda-developers.com/install-adb-windows-macos-linux/) ADB;
-> Auf der Windows-Plattform **müssen Besitzer von Samsung** möglicherweise [dieses Dienstprogramm](https://developer.samsung.com/mobile/android-usb-driver.html).
+    > Wenn Sie Schwierigkeiten oder zusätzliche Fragen haben, finden Sie die vollständige Anleitung [hier](https://developer.android.com/studio/debug/dev-options).
 
-3. Verbinden Sie Ihr Gerät mit einem **USB-Kabel** mit dem Computer oder Laptop, auf dem Sie **ADB** installiert haben;
-4. Öffnen Sie **die Kommandozeile** auf Ihrem PC:
-- **Cmd.exe**, wenn Sie **Windows** verwenden;
-- **Terminal**, wenn Sie **macOS** verwenden;
-5. Geben Sie den Befehl `adb shell pm grant com.adguard.vpn android.permission.INTERACT_ACROSS_USERS` ein und drücken Sie **Enter**.
+1. [Installieren und konfigurieren Sie](https://www.xda-developers.com/install-adb-windows-macos-linux/) ADB;
+
+    > Auf der Windows-Plattform **müssen Besitzer von Samsung** möglicherweise [dieses Dienstprogramm](https://developer.samsung.com/mobile/android-usb-driver.html).
+
+1. Verbinden Sie Ihr Gerät mit einem **USB-Kabel** mit dem Computer oder Laptop, auf dem Sie **ADB** installiert haben;
+
+1. Öffnen Sie **die Kommandozeile** auf Ihrem PC:
+
+    - **Cmd.exe**, wenn Sie **Windows** verwenden;
+    - **Terminal**, wenn Sie **macOS** verwenden;
+
+1. Geben Sie den Befehl `adb shell pm grant com.adguard.vpn android.permission.INTERACT_ACROSS_USERS` ein und drücken Sie **Enter**.
 
 ### Option 2: Entfernen vom *eingeschränkten Benutzerkonto*
 
 Hier finden Sie [Informationen zum Verwalten von Benutzerkonten](https://support.google.com/a/answer/6223444?hl=en) von einem Android-Gerät aus.
 
-> Bitte beachten Sie, dass in einigen Fällen eingeschränkte Benutzerkonten implizit erstellt werden und nicht entfernt werden können. Zum Beispiel, wenn Sie Dual Messenger- oder Dual App-Funktionen auf **Samsung** oder **LG** -Geräten verwenden. Lesen Sie unten, wie Sie das Problem in diesen Fällen beheben können.
+> Bitte beachten Sie, dass in einigen Fällen eingeschränkte Benutzerkonten implizit erstellt werden und nicht entfernt werden können. Zum Beispiel, wenn Sie Dual Messenger oder Dual App Funktionen auf **Samsung** oder **LG** Geräten verwenden. Lesen Sie unten, wie Sie das Problem in diesen Fällen beheben können.
 
 ### LG- und Samsung-Geräte
 

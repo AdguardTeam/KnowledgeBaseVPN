@@ -7,7 +7,6 @@ sidebar position: 1
 
 Windows için AdGuard VPN kullanırken bir sorunla karşılaşırsanız, bizi bu konuda bilgilendirebilirsiniz. Uygulama günlüklerini de yolumuza gönderirseniz minnettar oluruz, sorunları çok daha hızlı çözmemize yardımcı olurlar.
 
-
 ## Standart günlükleri toplama ve gönderme
 
 Varsayılan olarak, Windows için AdGuard VPN, uygulamanın çalışan süreçleri hakkında temel veri toplama olan standart günlük kayıt düzeyini kullanır. Bu günlükleri göndermek için sonraki adımları izleyin:
@@ -20,7 +19,6 @@ Varsayılan olarak, Windows için AdGuard VPN, uygulamanın çalışan süreçle
 
 4. **Detaylı sistem bilgisi gönder** öğesinin yanında bir onay işareti vardır; bu, bir rapor gönderdiğinizde günlükleri de göndereceğiniz anlamına gelir.
 > Herhangi bir nedenle bize günlükleri başka bir şekilde göndermeniz daha uygunsa, bunları kendiniz dışa aktarabilirsiniz. Bunu yapmak için **Destek** → **Günlükleri ve sistem bilgisini dışa aktar** öğesine gidin.
-
 
 ## Genişletilmiş günlükleri toplama ve gönderme
 

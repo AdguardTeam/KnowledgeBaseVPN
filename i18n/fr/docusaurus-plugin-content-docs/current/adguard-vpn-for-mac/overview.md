@@ -73,9 +73,11 @@ Ici, vous pouvez ajouter un (ou plusieurs) serveurs DNS personnalisés pour ne p
 Il n'est pas recommandé d'ajuster les paramètres avancés. Ne les modifiez pas, sauf si notre support technique vous le demande ou si vous êtes sûr de ce que vous faites.
 
 #### Niveau de journalisation
+
 Il n'y a que deux niveaux de journalisation, mais nous vous recommandons fortement d'utiliser le premier, celui par défaut. La deuxième option (journalisation détaillée) doit être définie uniquement pour enregistrer un comportement étrange du programme après avoir consulté notre assistance technique. Même si vous avez activé le deuxième niveau de journalisation, assurez-vous de revenir à celui par défaut après avoir enregistré les journaux.
 
 #### Masquer l’icône de la barre de menus
+
 Bien que cette option se trouve dans *Paramètres avancés*, elle peut être activée sans hésitation. Vous pouvez masquer l'icône AdGuard VPN dans la barre de menus, cela n'empêchera pas notre application de s'exécuter en arrière-plan.
 
 #### Utiliser QUIC (expérimental)

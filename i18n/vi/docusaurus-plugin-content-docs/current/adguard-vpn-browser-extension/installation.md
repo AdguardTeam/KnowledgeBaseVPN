@@ -35,4 +35,4 @@ Nhấp vào biểu tượng ba chấm ở góc trên cùng bên phải của tr�
 
 ### Opera
 
-Nhấp vào biểu tượng *Phần mở rộng* ở góc trên cùng bên phải của trình duyệt, sau đó chọn *Quản lý tiện ích...*. Tìm AdGuard VPN trong danh sách và nhấp vào nút *Xóa*.  
+Nhấp vào biểu tượng *Phần mở rộng* ở góc trên cùng bên phải của trình duyệt, sau đó chọn *Quản lý tiện ích...*. Tìm AdGuard VPN trong danh sách và nhấp vào nút *Xóa*.

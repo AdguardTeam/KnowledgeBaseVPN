@@ -73,9 +73,11 @@ Zde můžete přidat vlastní server (nebo servery) DNS, abyste se nemuseli spol
 Pokročilá nastavení se nedoporučuje měnit. Neměňte je, pokud vás o to nepožádá naše technická podpora nebo pokud si nejste jisti, co děláte.
 
 #### Úroveň záznamu
+
 Existují pouze dvě úrovně záznamu, ale důrazně doporučujeme používat první, výchozí úroveň. Druhá možnost (rozšířený záznam) by měla být nastavena pouze pro záznam podivného chování programu po konzultaci s naší technickou podporou. I když jste povolili druhou úroveň záznamu nezapomeňte se po záznamu protokolů vrátit na výchozí úroveň.
 
 #### Skrýt panel nabídky
+
 Přestože se tato možnost nachází v *Rozšířených nastavení*, lze ji bez váhání povolit. Ikonu AdGuard VPN můžete z panelu nabídek skrýt, nezabrání to běhu naší aplikace na pozadí.
 
 #### Použít QUIC (experimentální)

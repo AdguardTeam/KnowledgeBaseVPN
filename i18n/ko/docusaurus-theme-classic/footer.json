@@ -88,7 +88,7 @@
     "description": "The label of footer link with label=distribution linking to https://adguard.com/distribution.html"
   },
   "copyright": {
-    "message": "© 2022, AdGuard VPN",
+    "message": "© AdGuard VPN, 2023",
     "description": "The footer copyright"
   }
 }

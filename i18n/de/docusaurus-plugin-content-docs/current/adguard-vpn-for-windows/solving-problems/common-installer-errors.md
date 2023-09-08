@@ -29,9 +29,13 @@ Es handelt sich um zwei verschiedene Fehler mit sehr ähnlichen Lösungen. Wie d
 
 Man könnte sagen, dass dies eine besondere Unterart des Fehlers 1603 ist. Die möglichen Lösungen sind ähnlich:
 
-- Starten und registrieren Sie den Microsoft Installer-Dienst erneut. Es erfordert etwas Arbeit.
+- Starten und registrieren Sie den Microsoft Installer-Dienst erneut. Das erfordert etwas Arbeit.
 
-    1) Drücken Sie *Win + R* und geben Sie **services.msc** ein. 2) Suchen Sie in der Liste und doppelklicken Sie auf *Windows Installer*. 3) Drücken Sie *Start* unter *Dienststatus* und drücken Sie *OK*. Wenn der Dienststatus **Running (Wird ausgeführt)** ist, sollten Sie zuerst auf *Stop* und dann auf *Start* klicken. 4) Drücken Sie *Win + R*, geben Sie ***msiexec /unregister*** ein und drücken Sie *Enter*. 5) Drücken Sie erneut *Win + R*, geben Sie ***msiexec /regserver*** ein und drücken Sie *Enter*.
+    1. Drücken Sie *Win ⊞ + R* und geben Sie **services.msc** ein.
+    1. Suchen Sie in der Liste und doppelklicken Sie auf *Windows Installer*.
+    1. Klicken Sie auf *Starten* unter *Dienststatus* und auf *OK*. Wenn der Dienststatus **Wird ausgeführt** lautet, sollten Sie zuerst auf *Beenden* und anschließend auf *Starten* klicken.
+    1. Drücken Sie *Win + R*, geben Sie ***msiexec /unregister*** ein und drücken Sie *Eingabetaste* ⏎.
+    1. Drücken Sie erneut *Win ⊞ + R*, geben Sie ***msiexec /regserver*** ein und drücken Sie *Eingabetaste* ⏎
 
 - Starten Sie den PC neu und beginnen Sie die Installation von vorne. Manchmal reicht das schon aus, um das Problem zu beheben.
 
@@ -55,13 +59,25 @@ Der Fehler klingt erschreckender als er tatsächlich ist. In Wirklichkeit handel
 
 - Deinstallieren Sie AdGuard VPN mit unserem speziellen [Deinstallationstool](../../installation#advanced) und wiederholen Sie dann die Installation.
 
-- Starten und registrieren Sie den Microsoft Installer-Dienst erneut. Es erfordert etwas Arbeit.
+- Starten und registrieren Sie den Microsoft Installer-Dienst erneut. Das erfordert etwas Arbeit.
 
-    1) Drücken Sie *Win + R* und geben Sie ***services.msc*** ein. 2) Suchen Sie in der Liste und doppelklicken Sie auf *Windows Installer*. 3) Drücken Sie *Start* unter *Dienststatus* und drücken Sie *OK*. Wenn der Dienststatus **Running (Wird ausgeführt)** ist, sollten Sie zuerst auf *Stop* und dann auf *Start* klicken. 4) Drücken Sie *Win + R*, geben Sie ***msiexec /unregister*** ein und drücken Sie *Enter*. 5) Drücken Sie erneut *Win + R*, geben Sie ***msiexec /regserver*** ein und drücken Sie *Enter*
+    1. Drücken Sie *Win ⊞ + R* und geben Sie ***services.msc*** ein.
+    1. Suchen Sie in der Liste und doppelklicken Sie auf *Windows Installer*.
+    1. Klicken Sie auf *Starten* unter *Dienststatus* und auf *OK*. Wenn der Dienststatus **Wird ausgeführt** lautet, sollten Sie zuerst auf *Beenden* und anschließend auf *Starten* klicken.
+    1. Drücken Sie *Win + R*, geben Sie ***msiexec /unregister*** ein und drücken Sie *Eingabetaste* ⏎.
+    1. Drücken Sie erneut *Win ⊞ + R*, geben Sie ***msiexec /regserver*** ein und drücken Sie *Eingabetaste* ⏎
 
-- Erwerben Sie vollständige Berechtigungen auf dem Laufwerk für die Installation. Es ist möglich, dass der Fehler 1603 auftritt, weil Sie keine vollständigen Berechtigungen für den Dateispeicherort haben. Es ist auch nicht so einfach wie einige der anderen Lösungen:
+- Verschaffen Sie sich für die Installation volle Berechtigungen auf dem Laufwerk. Es ist möglich, dass der Fehler 1603 auftritt, weil Sie nicht die vollen Berechtigungen für den Speicherort der Datei haben. Es ist auch nicht so einfach wie einige der anderen Lösungen:
 
-    1) Öffnen Sie *Datei-Explorer*, klicken Sie mit der rechten Maustaste auf das Laufwerk mit dem Installationsort und wählen Sie *Eigenschaften*. 2) Gehen Sie zur Registerkarte *Sicherheit* und klicken Sie auf *Bearbeiten*. 3) Klicken Sie einmal auf *SYSTEM* und vergewissern Sie sich, dass das Kontrollkästchen *Zulassen* für jedes Element in *Berechtigungen für SYSTEM* aktiviert ist (falls es aktiviert werden kann). Führen Sie die gleiche Prüfung für *Administratoren* durch. 4) Klicken Sie auf *OK*, um zum Dialogfeld *Eigenschaften* zurückzukehren. Klicken Sie dann auf *Erweitert*. 5) Klicken Sie auf *Berechtigungen ändern*. 6) Doppelklicken Sie auf der Registerkarte *Berechtigungen* auf *Administratoren*. 7) Wählen Sie *Dieser Ordner, Unterordner und Dateien* für das Feld *Gilt für* und markieren Sie alle verfügbaren *Grundlegenden Berechtigungen*. Klicken Sie danach auf *OK*. 8) Führen Sie den gleichen Vorgang wie oben (ab Punkt 7) für *SYSTEM* durch. 9) Klicken Sie auf *OK* bis zum Ende. Versuchen Sie, AdGuard erneut zu installieren.
+    1. Öffnen Sie *Datei-Explorer*, klicken Sie mit der rechten Maustaste auf das Laufwerk mit dem Installationsort und wählen Sie *Eigenschaften*.
+    1. Öffnen Sie den Tab *Sicherheit* und klicken Sie auf *Bearbeiten*.
+    1. Klicken Sie auf *SYSTEM* und vergewissern Sie sich, dass das Kästchen *Zulassen* für jedes Element in *Berechtigungen für SYSTEM* aktiviert ist (sofern es aktiviert werden kann). Führen Sie die gleiche Prüfung für *Administratoren* durch.
+    1. Klicken Sie auf *OK*, um zum Dialogfeld *Eigenschaften* zurückzukehren. Klicken Sie dann auf *Erweitert*.
+    1. Klicken Sie auf *Berechtigungen ändern*.
+    1. Doppelklicken Sie im Tab *Berechtigungen* auf *Administratoren*.
+    1. Wählen Sie *Dieser Ordner, Unterordner und Dateien* für das Feld *Gilt für* und markieren Sie alle verfügbaren *Grundlegenden Berechtigungen*. Klicken Sie danach auf *OK*.
+    1. Führen Sie den gleichen Vorgang (ab Punkt 7) für *SYSTEM* durch.
+    1. Klicken Sie auf *OK* bis zum Ende. Versuchen Sie, AdGuard erneut zu installieren.
 
 ### Fehler 1618: Eine andere Installation ist bereits im Gange {#error-1618}
 

@@ -52,7 +52,7 @@
     "description": "The label of footer link with label=vpn_ios linking to https://adguard-vpn.com/ios/overview.html"
   },
   "link.item.label.vpn_browser_ext": {
-    "message": "AdGuard VPN Browser extension",
+    "message": "AdGuard VPN Selainlaajennus",
     "description": "The label of footer link with label=vpn_browser_ext linking to https://adguard-vpn.com/browser-extension/overview.html"
   },
   "link.item.label.support": {
@@ -88,7 +88,7 @@
     "description": "The label of footer link with label=distribution linking to https://adguard.com/distribution.html"
   },
   "copyright": {
-    "message": "© AdGuard VPN, 2022",
+    "message": "© AdGuard VPN, 2023",
     "description": "The footer copyright"
   }
 }
