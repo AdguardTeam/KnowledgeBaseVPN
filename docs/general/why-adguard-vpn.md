@@ -13,7 +13,6 @@ From the very outset, we resolved to develop and deploy an in-house VPN protocol
 
 Choosing a VPN service, people often face a trade-off between fast vs. safe. The AdGuard VPN protocol is a perfect blend of speed and security, so you don’t have to bear slow Internet connection or make privacy sacrifices. Among other things, it disguises itself as regular traffic and it’s much harder to detect and block it.
 
-
 ## 2. Website and app exclusions
 
 There are situations where you don't need your VPN to be active: for instance, when you're ordering food or using maps. For this reason, AdGuard VPN has a special feature: Exclusions.
