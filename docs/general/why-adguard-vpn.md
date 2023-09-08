@@ -71,6 +71,7 @@ This feature has been developed specifically for unsecured networks. If you enab
 > Auto-protection is available in AdGuard VPN for iOS and Android.
 
 ## 9. Ten simultaneous connections
+
 With an AdGuard VPN subscription, you can connect up to ten devices *simultaneously*.
 
 Some VPN providers only allow to log in to their service on *ten devices max*. With AdGuard VPN, *it doesn't matter* on how many devices you log in to your AdGuard account, but you can have ten VPN connections enabled at the same time.
