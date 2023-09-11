@@ -18,25 +18,28 @@ Speaking of VPN, the first thing they mention is traffic encryption and security
 
 VPN can be used to:
 
-* Hide your real whereabouts and stay anonymous
-* Secure your data — even when connecting to a public Wi-Fi, you can browse the Web safely
-* Protect yourself from spoofing (network traffic interception) and tracking on the part of your Internet service provider
+- Hide your real whereabouts and stay anonymous
+- Secure your data — even when connecting to a public Wi-Fi, you can browse the Web safely
+- Protect yourself from spoofing (network traffic interception) and tracking on the part of your Internet service provider
 
 Passwords, card details, and just plain personal information are at risk when a user surfs the Internet. But if you connect to the global network using a VPN, you can be sure that no one can intercept your data.
 
 ## Why AdGuard VPN?
 
 ### Trusted developer
+
 AdGuard has been present on the market of personal data protection and ad blocking and developing its line of software for more than 12 years. Over this time, our company has built an impeccable reputation, and the number of our customers has exceeded 30 million.
 
 ### Unique VPN protocol
-The main difference between AdGuard VPN and its competitors is that we use [our own developed protocol](/general/adguard-vpn-protocol.mdx). It disguises itself as normal traffic, so it is much more difficult to track and block it.
+
+The main difference between AdGuard VPN and its competitors is that we use [our own developed protocol](/general/adguard-vpn-protocol). It disguises itself as normal traffic, so it is much more difficult to track and block it.
 
 ### No-logging policy
 
 No-logging policy means that we don’t collect, store, or transfer users’ personal data to third parties. [Read AdGuard VPN Privacy policy](https://adguard-vpn.com/privacy.html)
 
 ### Tracking protection
+
 Web traffic from any user may be of interest and is particularly valuable in terms of monetization of personal data. Both criminals and unscrupulous ISPs can access it. However, with a trustworthy VPN, you can be confident that neither your provider nor anyone else will see your internet activity.
 
 ### Ultra-fast VPN servers in 53 countries

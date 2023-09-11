@@ -23,4 +23,4 @@ A subscription allows to have more benefits in comparison with a free account:
 - Secure streaming
 - No port 25 block
 
-To use all the advantages, consider [purchasing a subscription](subscription.md).
+To use all the advantages, consider [purchasing a subscription](/general/subscription).
