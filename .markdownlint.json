@@ -2,6 +2,12 @@
     "ul-indent": { "indent": 4 },
     "ul-style": { "style": "dash" },
     "no-trailing-spaces": { "br_spaces": 0 },
+    "no-inline-html": {
+        "allowed_elements": [
+            "iframe",
+            "img",
+            "object"
+    ]},
     "line-length": false,
     "no-bare-urls": false,
     "link-fragments": false
