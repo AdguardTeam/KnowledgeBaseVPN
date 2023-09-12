@@ -1,5 +1,5 @@
 ---
-title: 'What is a DNS leak'
+title: 'Co je únik DNS'
 sidebar_position: 9
 ---
 

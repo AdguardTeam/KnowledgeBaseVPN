@@ -22,7 +22,7 @@ Existuje několik způsobů shromažďování záznamů rozšíření prohlíže
 Po shromáždění záznamů je třeba je předat našemu vývojovému týmu. K tomu je potřeba:
 
 1. Nahlásit chybu na GitHub. Podrobné pokyny k vytvoření problému na GitHubu najdete v tomto článku.
-1. Send an archive with logs and reproduce time to `devteam@adguard.com` and attach a link to your GitHub issue. Also you can add an archive with logs and reproduce time to Google Drive and share it with `devteam@adguard.com` attaching the Google Drive link to your issue on GitHub.
+1. Odešlete archiv s protokoly a časem reprodukce na adresu `devteam@adguard.com` a připojte odkaz na svůj problém na GitHubu. Archiv s protokoly a časem reprodukce můžete také přidat na Disk Google a sdílet jej pomocí `devteam@adguard.com` a připojit odkaz na Disk Google ke svému problému na GitHubu.
 
 ## Shromažďování a odesílání protokolů prostřednictvím nástrojů pro vývojáře v prohlížeči
 
