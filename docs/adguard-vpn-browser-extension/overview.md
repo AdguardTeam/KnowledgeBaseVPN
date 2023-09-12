@@ -7,7 +7,7 @@ AdGuard VPN Browser Extension is available for Chrome, Firefox, Opera, and Edge.
 
 :::note
 
-Note that you can only use AdGuard VPN Browser Extension when logged in. Sign in with your AdGuard account or via Google, Facebook, or Apple. In the latter case make sure that your account is bound to the same email address as your AdGuard account. If you have an [AdGuard VPN subscription](/general/subscription), it will be activated automatically in AdGuard VPN Browser extension. Don’t have an AdGuard account yet? [Create it here](https://auth.adguard.com/registration.html).
+You can only use AdGuard VPN Browser Extension when logged in. Sign in with your AdGuard account or via Google, Facebook, or Apple. In the latter case make sure that your account is bound to the same email address as your AdGuard account. If you have an [AdGuard VPN subscription](/general/subscription), it will be activated automatically in AdGuard VPN Browser extension. Don’t have an AdGuard account yet? [Create it here](https://auth.adguard.com/registration.html).
 
 :::
 

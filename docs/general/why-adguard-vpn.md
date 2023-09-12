@@ -37,7 +37,11 @@ We recommend using an AdGuard DNS server: it blocks ads and trackers and protect
 
 Another feature that makes AdGuard VPN stand out from the crowd is that you can select a location based on its ping. In a nutshell, ping is the time it takes the data packet sent from your device to reach the server and return. When in doubt, use a rule of thumb: the lower the ping, the closer the server, the higher its speed. We are constantly expanding the number of locations so that you can choose from a variety.
 
-> Note that to access all VPN server locations, you need to purchase an AdGuard VPN subscription.
+:::note
+
+To access all VPN server locations, you need to purchase an AdGuard VPN subscription.
+
+:::
 
 ## 5. Integration with AdGuard Ad Blocker
 
@@ -53,7 +57,11 @@ However, we managed to find a solution to befriend AdGuard VPN and AdGuard Ad Bl
 
 [QUIC](https://adguard-dns.io/en/blog/dns-over-quic.html#whatisquic) is a cutting-edge protocol that has many perks. The main advantage is it can improve the connection quality in non-ideal conditions – for example, on mobile devices or when connecting to public Wi-Fi. Although the new protocol won’t affect speed when the connection is fine and stable, it will definitely make the situation better for users with slow Internet.
 
-> The QUIC protocol is rather new and may be unstable. We cannot guarantee its complete reliability for every case.
+:::caution
+
+The QUIC protocol is rather new and may be unstable. We cannot guarantee its complete reliability for every case.
+
+:::
 
 *Now let’s switch to the item set that any decent VPN can't do without.*
 
@@ -67,7 +75,11 @@ If for some reason your VPN connection is interrupted, Kill Switch will automati
 
 This feature has been developed specifically for unsecured networks. If you enable Auto-protection, you won't ever forget to enable VPN when visiting public places. Should you pop into a coffee shop and connect to a local Wi-Fi network, you’ll be automatically connected to AdGuard VPN.
 
-> Auto-protection is available in AdGuard VPN for iOS and Android.
+:::note Compatibility
+
+Auto-protection is available in AdGuard VPN for iOS and Android.
+
+:::
 
 ## 9. Ten simultaneous connections
 
@@ -83,7 +95,7 @@ Streaming services don't like VPNs for obvious reasons: according to statistics,
 
 But what if you want to feel safe while watch content specific to your region? Or don't want stop watching exciting series even when you travel to another country? The answer is simple — AdGuard VPN, which thanks to its unique protocol can remain invisible to services.
 
-> We don't endorse the use of AdGuard VPN to bypass copyright regulations.
+We don't endorse the use of AdGuard VPN to bypass copyright regulations.
 
 ## 11. Dark mode
 
