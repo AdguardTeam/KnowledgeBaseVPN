@@ -22,4 +22,4 @@ Aynı zamanda, uygulamanın sınırsız bir sürümünü almak için bir aboneli
 - Güvenli canlı yayın akışı
 - Bağlantı noktası 25 bloğu yok
 
-Tüm avantajlardan yararlanmak için [bir abonelik satın almayı](subscription.md) düşünün.
+To use all the advantages, consider [purchasing a subscription](/general/subscription).

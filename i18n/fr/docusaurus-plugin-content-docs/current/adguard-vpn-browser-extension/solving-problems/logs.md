@@ -1,18 +1,18 @@
 ---
-title: How to collect and send logs
+title: Comment collecter et envoyer les journaux (logs)
 sidebar_position: 1
 ---
 
-There are several ways for collecting AdGuard VPN Browser extension logs, but whichever one you choose, the same data will be collected. In the extension, logs are not divided into standard and debug ones. And different options for collecting logs are provided for those cases when a problem you encounter prevents you from using one or another instruction.
+Il existe plusieurs façons de collecter les journaux (logs) de l'extension de navigateur AdGuard VPN, mais quelle que soit celle que vous choisissez, les mêmes données seront collectées. In the extension, logs are not divided into standard and debug ones. And different options for collecting logs are provided for those cases when a problem you encounter prevents you from using one or another instruction.
 
-## Collecting and sending logs via the *Report a bug* section
+## Collecter et envoyer des logs via la section *Signaler un bug*
 
-1. Open AdGuard VPN Browser extension, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
-1. Open *Settings* by clicking the hamburger menu icon (☰) → *Support* → *Report a bug*.
-1. In the opened form, leave an automatically inserted email address or enter another one and describe the error found, including the time when this error occurred. If you can't reproduce the problem, specify as accurately as possible when it last occurred.
-1. Make sure that there is a check mark next to *Include the diagnostic report in the message*, and tap *Submit*. This way, you will send logs along with the bug report.
+1. Ouvrez l'extension AdGuard VPN, si possible, et répétez les actions qui ont conduit à l'erreur. Notez le moment exacte auquel cette erreur s'est produite.
+1. Ouvrez *Paramètres* en cliquant sur l'icône du menu hamburger (☰)→ *Support* → *Signaler un bug*.
+1. Dans le formulaire ouvert, laissez une adresse e-mail insérée automatiquement ou saisissez-en une autre et décrivez l'erreur trouvée, y compris l'heure à laquelle cette erreur s'est produite. Si vous ne pouvez pas reproduire le problème, indiquez aussi précisément que possible quand il s'est produit pour la dernière fois.
+1. Assurez-vous que la case *Inclure le rapport de diagnostic dans le message*est cochée, puis cliquez sur *Soumettre*. De cette façon, vous enverrez les journaux avec le rapport de bug.
 
-## Collecting and sending logs via the *Export logs* button
+## Collecter et envoyer des logs via le bouton *Exporter les logs*
 
 1. Open AdGuard VPN Browser extension, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
 1. Right-click the AdGuard VPN Browser extension icon.
@@ -34,15 +34,15 @@ Now that you have collected the logs, you need to hand them over to our developm
 
     ![The developer mode *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/dev_mode.png)
 
-1. Click `background.html`
+1. Cliquez sur `background.html`
 
     ![Background *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/backgroung.png)
 
-1. Open the *Console tab*
+1. Ouvrez l'*onglet Console*
 
     ![The Console tab *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/console.png)
 
-1. Open the context menu and click *Save as…*
+1. Ouvrez le menu contextuel et cliquez sur *Enregistrer sous…*
 
     ![Save as *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/save.png)
 

@@ -22,4 +22,4 @@ At the same time you can purchase a subscription to get an unlimited version of 
 - Secure streaming
 - No port 25 block
 
-To use all the advantages, consider [purchasing a subscription](subscription.md).
+To use all the advantages, consider [purchasing a subscription](/general/subscription).

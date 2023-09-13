@@ -3,7 +3,7 @@ title: Kompatibilität mit AdGuard Werbeblocker
 sidebar_position: 3
 ---
 
-AdGuard VPN hat zwei Betriebsmodi – Allgemein und Integriert. Der Allgemeine Modus ist standardmäßig aktiviert und verwendet das [AdGuard VPN-Protokoll](/general/adguard-vpn-protocol.mdx). Es bietet die beste Kombination aus Verbindungsgeschwindigkeit und Sicherheit.
+AdGuard VPN hat zwei Betriebsmodi – Allgemein und Integriert. General mode is enabled by default and uses [AdGuard VPN protocol](/general/adguard-vpn-protocol). Es bietet die beste Kombination aus Verbindungsgeschwindigkeit und Sicherheit.
 
 In diesem Betriebsmodus können AdGuard VPN und AdGuard Werbeblocker jedoch nicht gleichzeitig arbeiten.
 

@@ -3,80 +3,102 @@ title: 'AdGuard VPNが他社製品より優れている理由'
 sidebar_position: 2
 ---
 
-[長期VPNプラン](subscription.md)を検討する場合、ユーザーはその速度、セキュリティ、価格を第一に評価する方が多いです。 この３つはとても重要なポイントですが、それ以外にもたくさん注目すべき点があります。 AdGuard VPNには、ユニークなメリットが何個もあります。
+When getting ready to commit to a [long-term VPN subscription](/general/subscription), users most frequently evaluate its speed, security, and price. この３つはとても重要なポイントですが、それ以外にもたくさん注目すべき点があります。 AdGuard VPNには、ユニークなメリットが何個もあります。
 
 *まず始めに、他のVPNにはないAdGuard VPN機能について説明したく思います。*
 
 ## 1. 独自開発プロトコル
 
-当初から、既存のプロトコルに満足できず、独自VPNプロトコルを自社で開発し、実装することを決めていました。 その結果、 [AdGuard VPNプロトコル](adguard-vpn-protocol.mdx)が登場しました。
+当初から、既存のプロトコルに満足できず、独自VPNプロトコルを自社で開発し、実装することを決めていました。 The result has become the [AdGuard VPN protocol](/general/adguard-vpn-protocol).
 
-VPNサービスを選択する際、高速性と安全性のどちらかを優先して選ばないといけないケースが多いです。 そこで、AdGuard VPNプロトコルは、速度とセキュリティの完璧な調和であり、遅いインターネット接続を我慢する必要も、プライバシーを犠牲にする必要もないのです。 なかでも、AdGuard VPNプトロコルは通常のトラフィックに偽装しているため、検知対策やブロック対策がしっかりしています。
+VPNサービスを選択する際、高速性と安全性のどちらかを優先して選ばないといけないケースが多いです。 The AdGuard VPN protocol is a perfect blend of speed and security, so you don’t have to bear slow Internet connection or make privacy sacrifices. なかでも、AdGuard VPNプトロコルは通常のトラフィックに偽装しているため、検知対策やブロック対策がしっかりしています。
 
-## 2. VPN対象外リスト
+## 2. Website and app exclusions
 
-*VPN対象外リスト*を使って、VPNを有効にするサイトと無効にするサイトを指定することができます。 AdGuard VPNには、 「*一般*」 と 「*指定*」という2つの動作モードがあります。 *一般モード*では、「VPN対象外リスト」に追加されたウェブサイトに対してAdGuard VPNはオフになります。 逆に、*指定モード*では、「VPN対象外リスト」に追加されたウェブサイトに対してのみAdGuard VPNはオンになります。 また、対象外リストのインポート/エクスポートも簡単に行えます。 この機能については、各製品の*機能概要*記事において、その方法をご確認いただけます。
+There are situations where you don't need your VPN to be active: for instance, when you're ordering food or using maps. For this reason, AdGuard VPN has a special feature: Exclusions.
 
-![指定モードの対象外リストの例](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn_export_exclusions.png)
+![Exclusions](https://cdn.adguard.com/content/blog/articles/adguard-vpn/exclusions-en.png)
 
-Webサイトを手動で対象外リストに追加したり、人気のあるサービスのリストから選択することもできます。 リストは8つのカテゴリーに分けられています（SNS、メッセンジャー、動画・音楽配信サービス、ゲーム、ショッピング、検索エンジン、ワークコミュニケーションツール）。
+You can activate AdGuard VPN **selectively** — only for certain websites or apps. This option is for those who use a VPN service only in specific situations: to enter a blocked website, use an app or watch a TV show that's not available in their country, or not to expose their data when visiting some websites. Turning a VPN on selectively also helps save VPN traffic.
 
-> この機能は、iOSを除いて、すべてのプラットフォームで利用可能です。
+If you prefer absolute anonymity in most cases, you can activate AdGuard VPN **everywhere except for the excluded websites or apps**. Just add your food delivery apps and utility payment websites to Exclusions — for them, VPN will be off.
 
-## 3. DNSサーバーの選択
+## 3. Block ads and trackers with a DNS server
 
-もう、インターネットプロバイダが提供するDNSサーバーに頼らなくていいんです。 まず、お使いのISP（インターネットプロバイダー）は、あなたの閲覧履歴にアクセスできる可能性が高いのです。 また、DNS機能は軽視されがちですが、広告やトラッカー（個人情報追跡）を除去したり、マルウェアからデバイスを保護したり、セーフサーチを適用にしたり、アダルトコンテンツをブロックしたりすることができます。
+Relying on the DNS server provided by your ISP by default is not safe: your ISP most likely has access to your browsing history. With the AdGuard VPN app, you can choose a secure and encrypted DNS server from [known DNS providers](https://adguard-dns.io/kb/general/dns-providers/), such as AdGuard DNS, Cisco, Cloudflare, Google, or Quad9, or even add your own DNS server.
 
-You can choose DNS servers from [known DNS providers](https://adguard-dns.io/kb/general/dns-providers/) such as AdGuard, Cisco, Cloudflare, Google, or Quad9, or even configure to use your own DNS server.
+We recommend using an AdGuard DNS server: it blocks ads and trackers and protects your device from malware.
+
+![DNS servers](https://cdn.adtidy.org/blog/new/lkarpag_dns_screen_en.png)
 
 ## 4. 一番速いロケーション
 
-AdGuard VPNを際立たせているもう一つの特徴は、pingに基づいて接続速度が一番速いロケーションを選択できることです。 簡単で言えば、pingは、あなたの端末から送信されたデータパケットがサーバーに到達して、端末に戻ってくるまでの時間です。 ping数字が小さいほど、サーバーは近くにあり、速度が速いということです。 いろいろなところに接続できるように、ロケーションは随時拡大しています。
+![VPN server locations](https://cdn.adguard.com/content/blog/articles/adguard-vpn/locations-en.png)
 
-> ※すべてのAdGuard VPNサーバーロケーションにアクセスするには、AdGuard VPNサブスクリプションを購入する必要があります。
+Another feature that makes AdGuard VPN stand out from the crowd is that you can select a location based on its ping. In a nutshell, ping is the time it takes the data packet sent from your device to reach the server and return. When in doubt, use a rule of thumb: the lower the ping, the closer the server, the higher its speed. We are constantly expanding the number of locations so that you can choose from a variety.
 
-## 5. AdGuard広告ブロッカーとの併用モード
+:::note
 
-PCアプリやブラウザ拡張機能の場合、言うまでもありません。アンチウイルスやその他の類似ソフトウェアを除けば、PCでアプリケーション間で競合が発生することはほとんどありません。
+To access all VPN server locations, you need to purchase an AdGuard VPN subscription.
 
-一方、モバイル端末の場合は、問題が起こったりします。 AndroidとiOSの両方において、ほとんどの場合、OSに起因する制限が存在するため、2つのVPNベースアプリは一緒に同時動作しません。
+:::
 
-しかし、私たちはAdGuard VPNとAdGuard広告ブロッカーを併用するための解決策を見つけることができました。 When you have both AdGuard apps installed on one device, they will automatically become compatible without any input required from you. 通常であればどちらかを選択しなければならない2つの機能セット（VPNと広告ブロッカー）を同時に利用できるということです。
+## 5. Integration with AdGuard Ad Blocker
+
+With desktop apps and browser extensions this goes without saying — there’s rarely any conflicts between apps, save for antiviruses and other similarly oriented software.
+
+With mobile devices, hovewer, it’s not that simple. In the vast majority of cases, two VPN-based apps will not work together. Both in Android and iOS, there are limitations that prevent it.
+
+![Integrated mode](https://cdn.adguard.com/content/blog/articles/adguard-vpn/integration-en.png)
+
+However, we managed to find a solution to befriend AdGuard VPN and AdGuard Ad Blocker. When you have both AdGuard apps installed on one device, they will automatically become compatible without any input required from you. This is a unique opportunity to take advantage of two sets of features, which you would normally have to choose between.
 
 ## 6. QUIC対応
 
-[QUIC](https://adguard.com/blog/dns-over-quic.html) is a cutting-edge protocol that has many perks. 主なメリットは、モバイル端末や公衆Wi-Fi接続時など、理想的でない接続環境で接続品質を改善できることです。 QUICプロトコルは、接続が問題なく安定している場合には速度に影響を与えませんが、インターネットが遅いユーザーにとっては状況が良くなることは間違いありません。
+[QUIC](https://adguard-dns.io/en/blog/dns-over-quic.html#whatisquic) is a cutting-edge protocol that has many perks. The main advantage is it can improve the connection quality in non-ideal conditions – for example, on mobile devices or when connecting to public Wi-Fi. Although the new protocol won’t affect speed when the connection is fine and stable, it will definitely make the situation better for users with slow Internet.
 
-*さて、ここでまともなVPNには欠かせない機能をみてましょう。*
+:::caution
+
+The QUIC protocol is rather new and may be unstable. We cannot guarantee its complete reliability for every case.
+
+:::
+
+*Now let’s switch to the item set that any decent VPN can't do without.*
 
 ## 7. キルスイッチ
 
-モバイルネットワークや、ショッピングモール、カフェ、地下鉄、空港などで公衆Wi-Fiネットワークに接続することが多い場合、「キルスイッチ」は欠かせません。 理由は簡単で、VPNが突然切断され、接続が不安全になると、あなたの機密情報が詐欺師やサイバー犯罪者にさらされる可能性があるからです。
+Kill Switch is essential if you, for instance, often use a mobile network or connect to public Wi-Fi networks in malls, cafes, on the subway or at the airport. For the simple reason — if VPN will suddenly drop and the connection will become insecure, chances are that your sensitive information will be exposed to fraudsters or cyber criminals.
 
-何らかの理由でVPN接続が遮断された場合、「キルスイッチ」が自動的にインターネット接続を切断し、攻撃者に情報を奪われないようにします。 キルスイッチがあれば安心です。 プライバシーを重視する方、個人情報を大切にする方は、この頑丈な対策をぜひ見逃さないでください。
+If for some reason your VPN connection is interrupted, Kill Switch will automatically disconnect you from the Internet, keeping attackers away from seizing your information.
 
-## 8. Split tunneling (VPN対象外アプリ)
+## 8. Auto-protection
 
-この機能は、前述の「VPN対象外リスト」に似ています。 唯一の違いは、Webサイトではなくアプリを除外できることです。
+This feature has been developed specifically for unsecured networks. If you enable Auto-protection, you won't ever forget to enable VPN when visiting public places. Should you pop into a coffee shop and connect to a local Wi-Fi network, you’ll be automatically connected to AdGuard VPN.
 
-## 9. 通信の自動保護
+:::note Compatibility
 
-この機能は、セキュリティのないネットワークのために特別に開発されました。 ユーザーの利便性を考慮し、公共の場を訪れる際にVPNを有効にすることを忘れることがないようにしました。 例えば喫茶店に立ち寄って、そのWi-Fiネットワークに接続すると、自動的にAdGuard VPNに接続される、という機能です。
+Auto-protection is available in AdGuard VPN for iOS and Android.
 
-## 10. 同時に最大5台の端末を接続可能
+:::
 
-AdGuard VPNは、有料ユーザーには5つの同時接続を提供します。 「*同時*」という言葉に重きを置いていますが、その理由は以下の通りです。 VPNプロバイダによっては、サービスにログインできる*端末が最大5台*になっています。 AdGuard VPNでは、アカウントにログインできるデバイスの数に*制限はなく*、同時に5台の端末をVPNに接続することができます。 有料サブスクリプションをご利用でない方は、AdGuard VPNを*2台の端末*で使用することができます。VPNサービスのほとんどは、無料版を*1台の端末でしか*使えないため、これもまた、競合他社に比べてAdGuard VPNの大きなメリットです。
+## 9. Ten simultaneous connections
 
-## 11. 配信（ストリーミング）サービス対応
+With an AdGuard VPN subscription, you can connect up to ten devices *simultaneously*.
 
-ストリーミングサービス（動画・音楽配信サービス）がVPNを嫌う理由は明白です。統計によると、約20％のユーザーが、地域ブロッキングを回避して番組、テレビ番組、映画を見るためにVPNをインストールしています。 そのため、ストリーミング・プラットフォームは、VPNトラフィックを検出し、ブロックするためにあらゆる手段を講じる傾向があります。
+Some VPN providers only allow to log in to their service on *ten devices max*. With AdGuard VPN, *it doesn't matter* on how many devices you log in to your AdGuard account, but you can have ten VPN connections enabled at the same time.
 
-しかし、自分の地域に特化したコンテンツを安心して視聴したい場合はどうすればいいのでしょうか？ また、海外旅行中・出張中で、コンテンツを見るのをやめたくない時は？ AdGuard VPNは、そのユニークなプロトコルのおかげで、配信サービスからVPN利用が見えないようにすることができます。
+Those who don’t have a subscription, can use AdGuard VPN on *two devices simultaneously*, which gives us another trump card to play against competitors: most free VPN services only allow you to use one device at a time.
 
-> ※私たちは、著作権規制を回避するためにAdGuard VPNを使用することは推奨しません。
+## 10. Secure streaming
 
-## 12. ダークモード
+Streaming services don't like VPNs for obvious reasons: according to statistics, about 20% of users install a VPN mainly to watch shows, TV shows and movies bypassing geo-blocking. That's why streaming platforms tend to do everything they can to track VPN traffic and block it.
+
+But what if you want to feel safe while watch content specific to your region? Or don't want stop watching exciting series even when you travel to another country? The answer is simple — AdGuard VPN, which thanks to its unique protocol can remain invisible to services.
+
+We don't endorse the use of AdGuard VPN to bypass copyright regulations.
+
+## 11. Dark mode
 
 ![Dark mode *mobile_border](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/main_en_black.png)
 
-この小さな機能は特筆に価します。 多くのユーザーがダークモードを利用しているため、すべてのAdGuard VPN製品にテーマスイッチを追加しています。 ライト、ダーク、システムのうち、好きなテーマをお選びいただけます。
+This little feature deserves special mention. In fact, many users crave for dark mode, so we couldn’t ignore it and added a theme switch for all AdGuard VPN products. Choose the one you like more — light, dark or system default. Hope you’ll join the dark side.

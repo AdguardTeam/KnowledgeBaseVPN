@@ -15,7 +15,7 @@ Kada budete spremni za početak, radite u [depo Baze znanjaVPN](https://github.c
 
 Web lokacija Baze znanja je izgrađena pomoću Docusaurus 2 — modernog statičnog generatora veb sajta. Kada predlažete promene ili dodatke, uzmite u obzir da svi dokumenti moraju biti u skladu sa principima platforme. O njima možete čitati u [vodič dostupan putem ovog linka](https://docusaurus.io/docs/category/guides).
 
-Ovu bazu znanja možete da primenite lokalno na računar da biste pregledali promene koje predlažete. Detaljna uputstva kako to da uradite možete pronaći [u README.md arhivi](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README.md) na ovoj GitHub stranici baze znanja.
+Ovu bazu znanja možete da primenite lokalno na računar da biste pregledali promene koje predlažete. Detailed instructions on how to do this can be found [in the README.md file](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README) on this Knowledge Base's GitHub page.
 
 ## Prevođenje članaka {#translate-adguard}
 

@@ -3,7 +3,7 @@ title: Comment s'abonner
 sidebar_position: 6
 ---
 
-AdGuard VPN est disponible en deux versions : gratuite et illimitée. L'abonnement vous permet d'utiliser l'application sans aucune restriction sur le trafic, la vitesse de connexion et le choix des emplacements. Vous pouvez [en savoir plus sur tous les avantages de la version illimitée](free-vs-unlimited.md).
+AdGuard VPN est disponible en deux versions : gratuite et illimitée. L'abonnement vous permet d'utiliser l'application sans aucune restriction sur le trafic, la vitesse de connexion et le choix des emplacements. You can [read more about all the advantages of the unlimited version](/general/free-vs-unlimited).
 
 Si vous avez décidé d'acheter un abonnement à AdGuard VPN, il existe trois façons de procéder :
 

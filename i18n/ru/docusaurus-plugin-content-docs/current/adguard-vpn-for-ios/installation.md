@@ -1,5 +1,5 @@
 ---
-title: Installation and removal
+title: Установка и удаление
 sidebar_position: 2
 ---
 
@@ -33,4 +33,4 @@ AdGuard VPN для iOS успешно установлен!
 
 ![Удалить *mobile_border](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/deinstall-en.png)
 
-Узнайте больше об AdGuard VPN для iOS в [этой статье](overview.md).
+You can learn more about the AdGuard VPN app for iOS in [this article](adguard-vpn-for-ios/overview).

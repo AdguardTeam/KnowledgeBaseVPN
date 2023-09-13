@@ -9,13 +9,13 @@ A VPN, acronym for "Virtual Private Network", is a service that makes your Inter
 
 ## What AdGuard VPN for Windows does
 
-- Protects from network traffic interception (spoofing). AdGuard VPN creates an encrypted tunnel between your device and a remote server. All your Internet traffic passes through this tunnel, so your data is protected along the way. And thanks to [AdGuard's unique protocol](/general/adguard-vpn-protocol.mdx), you're guaranteed a fast and secure connection.
+- Protects from network traffic interception (spoofing). AdGuard VPN creates an encrypted tunnel between your device and a remote server. All your Internet traffic passes through this tunnel, so your data is protected along the way. And thanks to [AdGuard's unique protocol](/general/adguard-vpn-protocol), you're guaranteed a fast and secure connection.
 
 - Masks your IP address. Your true IP address is the key to your personal data for cybercriminals. Your name, email address, phone number, credit card information can all fall into the hands of fraudsters if you don't hide your IP. With AdGuard VPN, as we said before, all your traffic goes through an encrypted tunnel and comes to the VPN server. Therefore, from the outside it appears that your device has the IP address of said VPN server.
 
 - Hides your real location. By selecting any of the AdGuard VPN servers, you are instantly "teleported" to its location. What does this give you? For example, the ability to book a hotel at locals' rates or hide from geotargeted advertising.
 
-AdGuard VPN for Windows has many advantages, so we've dedicated [a separate article](/general/why-adguard-vpn.md) to them. Here, however, we want to focus more on the application itself and how it works.
+AdGuard VPN for Windows has many advantages, so we've dedicated [a separate article](/general/why-adguard-vpn) to them. Here, however, we want to focus more on the application itself and how it works.
 
 ## How to start using AdGuard VPN for Windows
 

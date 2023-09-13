@@ -57,7 +57,7 @@ Hata kulağa gerçekte olduğundan daha korkutucu geliyor. Gerçekte bu, birçok
 
 - Farklı bir kurulum klasörü seçin. Mevcut kurulum klasörünün bazı erişim kısıtlamaları olabilir. Ayrıca harici sürücü, sanal sürücü, vb. seçmediğinizden emin olun.
 
-- Özel [kaldırma aracımızı](../../installation#advanced) kullanarak AdGuard VPN'i kaldırın ve ardından kurulumu tekrarlayın.
+- Uninstall AdGuard VPN using our special [uninstall tool](/adguard-vpn-for-windows/installation#advanced) and then repeat the installation.
 
 - Microsoft Installer hizmetini başlatın ve yeniden kaydettirin. Bu biraz uğraş gerektirir.
 
@@ -93,7 +93,7 @@ Daha önce AdGuard VPN kurmuş olmanız çok olasıdır.
 
 - AdGuard VPN'in bilgisayarınızda kurulu olup olmadığını kontrol edin. Bunu *Win* tuşuna basarak ve ***AdGuard VPN*** yazarak yapabilirsiniz.
 
-- Belki önceki bir AdGuard VPN kurulumundan kalan bazı dosyalar vardır. Özel [kaldırma aracımızı](../../installation#advanced) kullanarak AdGuard'ı kaldırın ve ardından kurulumu tekrarlayın.
+- Belki önceki bir AdGuard VPN kurulumundan kalan bazı dosyalar vardır. Uninstall AdGuard using our special [uninstall tool](/adguard-vpn-for-windows/installation#advanced) and then repeat the installation.
 
 ### Diğer hatalar {#other}
 

@@ -3,7 +3,7 @@ title: AdGuard広告ブロッカーとの併用モード
 sidebar_position: 3
 ---
 
-AdGuard VPNには、標準モードと併用モードという2つの動作モードがあります。 デフォルトでは「標準」動作モードが有効になっており、このモードでは独自開発の[AdGuard VPNプロトコル](/general/adguard-vpn-protocol.mdx)が使用されています。 このプロトコルは、接続速度とセキュリティの最適なコンビネーションを提供します。
+AdGuard VPNには、標準モードと併用モードという2つの動作モードがあります。 General mode is enabled by default and uses [AdGuard VPN protocol](/general/adguard-vpn-protocol). このプロトコルは、接続速度とセキュリティの最適なコンビネーションを提供します。
 
 しかし、この動作モードでは、AdGuard VPNとAdGuard広告ブロッカーを同時に動作させることはできません。
 

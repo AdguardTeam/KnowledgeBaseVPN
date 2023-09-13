@@ -28,7 +28,7 @@ sidebar_position: 4
 
 在 Android 8 及更高版本上，您还可以通过将手垂直放置在手机的左边缘或右边缘并用手触摸屏幕从该边缘向内滑动来截取屏幕截图。
 
-If this method doesn’t work, check *Settings* → *Advanced features* → *Motions and gestures* → enable *Palm swipe to capture*.
+如果此方法不起作用，请检查「*设置*」→「*高级功能*」→「*动作和手势*」→启用「*手掌滑动截屏*」。
 
 此外，您可以使用任何特殊的应用程序在设备上拍摄屏幕截图，例如，*轻松截屏*、*终极截图*、*Screenshot Snap* 等。
 

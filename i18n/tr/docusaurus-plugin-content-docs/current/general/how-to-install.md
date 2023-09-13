@@ -5,8 +5,8 @@ sidebar_position: 3
 
 Hangi AdGuard VPN uygulamasını veya tarayıcı uzantısını yüklemek istediğinize bağlı olarak, ilgili makaleyi bulmak için şu bağlantılardan birini takip edin:
 
-- [Android için AdGuard VPN](/adguard-vpn-for-android/installation.md)
-- [iOS için AdGuard VPN](/adguard-vpn-for-ios/installation.md)
-- [Windows için AdGuard VPN](/adguard-vpn-for-windows/installation.md)
-- [Mac için AdGuard VPN](/adguard-vpn-for-mac/installation.md)
-- [AdGuard VPN Tarayıcı eklentisi](/adguard-vpn-browser-extension/installation.md)
+- [Android için AdGuard VPN](/adguard-vpn-for-android/installation)
+- [iOS için AdGuard VPN](/adguard-vpn-for-ios/installation)
+- [Windows için AdGuard VPN](/adguard-vpn-for-windows/installation)
+- [Mac için AdGuard VPN](/adguard-vpn-for-mac/installation)
+- [AdGuard VPN Browser Extension](/adguard-vpn-browser-extension/installation)

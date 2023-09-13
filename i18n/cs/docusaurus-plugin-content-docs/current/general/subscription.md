@@ -3,7 +3,7 @@ title: Jak předplatit AdGuard VPN
 sidebar_position: 6
 ---
 
-AdGuard VPN je k dispozici ve dvou verzích — bezplatné a neomezené. Předplatné umožňuje používat aplikaci bez omezení datového provozu, rychlosti připojení a výběru umístění. [Zde](free-vs-unlimited.md) si můžete přečíst více o všech výhodách neomezené verze.
+AdGuard VPN je k dispozici ve dvou verzích — bezplatné a neomezené. Předplatné umožňuje používat aplikaci bez omezení datového provozu, rychlosti připojení a výběru umístění. You can [read more about all the advantages of the unlimited version](/general/free-vs-unlimited).
 
 Pokud jste se rozhodli zakoupit si předplatné AdGuard VPN, můžete tak učinit třemi způsoby:
 

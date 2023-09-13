@@ -22,4 +22,4 @@ Allo stesso tempo puoi acquistare un abbonamento per ottenere una versione illim
 - Streaming sicuro
 - Nessun blocco della porta 25
 
-Per usufruire di tutti i vantaggi, considera [l'acquisto di un abbonamento](subscription.md).
+To use all the advantages, consider [purchasing a subscription](/general/subscription).

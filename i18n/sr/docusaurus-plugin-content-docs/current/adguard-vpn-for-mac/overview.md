@@ -44,7 +44,7 @@ Ako ste dodali uslugu, promenili ili uklonili nešto i sada želite da vratite p
 
 ![Ekran podrške](https://cdn.adguardvpn.com/content/kb/vpn/mac/support_en.png)
 
-Treća kartica je *Ekran*podrške. Pronađite odgovore na sva pitanja u [FAQ](https://adguard-vpn.com/welcome.html#faq) ili u [Baza znanja](/intro.md) sekcije, prijavite grešku ako naiđete na jednu ili [diskutujte o AdGuard-u na bilo kojoj od platformi](https://adguard.com/discuss.html). I slobodno [ostavite povratne informacije o našem proizvodu](https://surveys.adguard.com/vpn_mac/form.html)Cenili bismo to.
+Treća kartica je *Ekran*podrške. Find answers to any questions in the [FAQ](https://adguard-vpn.com/welcome.html#faq) or in the [Knowledge base](/) sections, report a bug if you encounter one, or [discuss AdGuard on any of the platforms](https://adguard.com/discuss.html). I slobodno [ostavite povratne informacije o našem proizvodu](https://surveys.adguard.com/vpn_mac/form.html)Cenili bismo to.
 
 ## Postavke
 

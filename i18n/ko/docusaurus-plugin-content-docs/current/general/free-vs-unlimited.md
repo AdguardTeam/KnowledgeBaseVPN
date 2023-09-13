@@ -22,4 +22,4 @@ AdGuard VPN을 무료로 사용할 수 있지만 다음과 같은 몇 가지 제
 - 안전한 스트리밍
 - 25번 포트를 차단하지 않음
 
-모든 이점을 사용하려면 [구독 구매](subscription.md)를 고려하십시오.
+To use all the advantages, consider [purchasing a subscription](/general/subscription).

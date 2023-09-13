@@ -6,9 +6,11 @@ slug: /
 
 ## Mikä on VPN ja miksi tarvitset sellaisen?
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7149L3xPmSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 VPN:n avulla voit muodostaa turvallisen yhteyden toiseen verkkoon Internetissä.
 
-Alun perin VPN:t luotiin yhtä tarkoitukseen — yritysverkkojen turvalliseen yhdistämiseen Internetin kautta, jotta työntekijät voivat liittyä työnantajiensa verkkoihin esimerkiksi kotonaan. Tekniikkaa käytetään myös monissa muissa yhteyksissä, kuten mm. anonyymiin Internet-selaukseen tai oman Internet-käytön piilottamiseen vakoilijoilta julkisissa Wi-Fi-verkoissa.
+Initially, VPNs were created to securely connect business networks over the Internet, so that people could connect to the corporate network from home. Tekniikkaa käytetään myös monissa muissa yhteyksissä, kuten mm. anonyymiin Internet-selaukseen tai oman Internet-käytön piilottamiseen vakoilijoilta julkisissa Wi-Fi-verkoissa.
 
 VPN yhdistää käyttäjän tietokoneen tai mobiililaitteen palvelimeen, joka mahdollistaa verkon selaamisen eri IP-osoitteella. Tällöin ulkopuoliset tarkkailijat eivät näe käyttäjän todellista IP-osoitetta, mikä tekee heidän jäljittämisestään mahdotonta.
 
@@ -16,9 +18,9 @@ VPN:stä puhuttaessa ensimmäinen asia, joka mainitaan, on tietoliikenteen salau
 
 VPN-yhteyttä voidaan käyttää:
 
-- todellisen olinpaikan piilotukseen ja anonyymiteettiin
-- tietojen suojaukseen — jopa julkisiin Wi-Fi-verkkoihin yhdistettäessä voidaan selata Internetiä turvallisesti
-- tiedon väärennykseltä (verkkoliikenteen sieppaukselta) ja Internet-palveluntarjoajan seurannalta suojautumiseen
+- Hide your real whereabouts and stay anonymous
+- Secure your data — even when connecting to a public Wi-Fi, you can browse the Web safely
+- Protect yourself from spoofing (network traffic interception) and tracking on the part of your Internet service provider
 
 Salasanat, korttitiedot ja tavalliset henkilökohtaiset perustiedot ovat alttiina Internetiä selattaessa. Jos muodostat yhteyden yleiseen verkkoon VPN:n välityksellä, voit varmistaa, ettei kukaan voi siepata tietojasi.
 
@@ -30,17 +32,17 @@ AdGuard on toiminut henkilökohtaisen tietosuojauksen ja mainoseston markkinoill
 
 ### Ainutlaatuinen VPN-protokolla
 
-Merkittävin ero AdGuard VPN:n ja sen kilpailijoiden välillä on [itse kehittämämme VPN-protokolla](/general/adguard-vpn-protocol.mdx). Se naamioituu normaaliksi tietoliikenteeksi, jonka ansiosta sen jäljittäminen ja estäminen on paljon vaikeampaa.
+The main difference between AdGuard VPN and its competitors is that we use [our own developed protocol](/general/adguard-vpn-protocol). Se naamioituu normaaliksi tietoliikenteeksi, jonka ansiosta sen jäljittäminen ja estäminen on paljon vaikeampaa.
 
-### Lokitiedoton käytäntö
+### No-logging policy
 
-Lokitiedoton käytäntö tarkoittaa, ettemme kerää tai säilytä käyttäjien henkilökohtaisia tietoja, emmekä myöskään luovuta niitä ulkopuolisille tahoille. AdGuard VPN:n tietosuojakäytäntö löytyy kokonaisuudessaan [täältä](https://adguard-vpn.com/privacy.html).
+No-logging policy means that we don’t collect, store, or transfer users’ personal data to third parties. [Read AdGuard VPN Privacy policy](https://adguard-vpn.com/privacy.html)
 
 ### Seurantasuojaus
 
 Minkä tahansa käyttäjän verkkoliikenne voi olla kiinnostavaa ja olla erittäin arvokasta henkilökohtaisten tietojen kaupallistamisen kannalta. Sekä rikolliset että häikäilemättömät Internet-palveluntarjoajat voivat käyttää näitä tietoja. Luotettavan VPN:n avulla voit kuitenkin olla vakuuttunut siitä, ettei palveluntarjoajasi tai kukaan muukaan näe Internet-toimintaasi.
 
-### Erittäin nopeat VPN-palvelimet 53 maassa
+### Ultra-fast VPN servers in 53 countries
 
 - Argentiina
 - Australia

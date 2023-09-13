@@ -9,13 +9,13 @@ Ein VPN, Akronym für „Virtuelles Privates Netzwerk“, ist ein Dienst, der Ih
 
 ## Was AdGuard VPN für Windows leistet
 
-- Schützt vor dem Abfangen des Netzwerkverkehrs (Spoofing). AdGuard VPN erstellt einen verschlüsselten Tunnel zwischen Ihrem Gerät und einem Remote-Server. Ihr gesamter Internetverkehr wird durch diesen Tunnel geleitet, sodass Ihre Daten unterwegs geschützt sind. Und dank des [einzigartigen Protokolls von AdGuard](/general/adguard-vpn-protocol.mdx) ist Ihnen eine schnelle und sichere Verbindung garantiert.
+- Schützt vor dem Abfangen des Netzwerkverkehrs (Spoofing). AdGuard VPN erstellt einen verschlüsselten Tunnel zwischen Ihrem Gerät und einem Remote-Server. Ihr gesamter Internetverkehr wird durch diesen Tunnel geleitet, sodass Ihre Daten unterwegs geschützt sind. And thanks to [AdGuard's unique protocol](/general/adguard-vpn-protocol), you're guaranteed a fast and secure connection.
 
 - Maskiert Ihre IP-Adresse. Ihre wahre IP-Adresse ist für Cyberkriminelle der Schlüssel zu Ihren persönlichen Daten. Ihr Name, Ihre E-Mail-Adresse, Telefonnummer und Kreditkarteninformationen können Betrügern in die Hände fallen, wenn Sie Ihre IP-Adresse nicht verbergen. Mit AdGuard VPN wird, wie bereits erwähnt, Ihr gesamter Datenverkehr durch einen verschlüsselten Tunnel geleitet und gelangt zum VPN-Server. Daher scheint es von außen, dass Ihr Gerät die IP-Adresse dieses VPN-Servers hat.
 
 - Verbirgt Ihren tatsächlichen Standort. Wenn Sie einen der AdGuard VPN-Server auswählen, werden Sie sofort zu dessen Standort „teleportiert“. Was bedeutet das für Sie? Zum Beispiel die Möglichkeit, ein Hotel zu den Preisen der Einheimischen zu buchen oder sich vor geografisch ausgerichteter Werbung zu verstecken.
 
-AdGuard VPN für Windows hat viele Vorteile, daher haben wir ihnen [separaten Artikel](/general/why-adguard-vpn.md) gewidmet. Hier wollen wir uns jedoch mehr auf die Anwendung selbst und ihre Funktionsweise konzentrieren.
+AdGuard VPN for Windows has many advantages, so we've dedicated [a separate article](/general/why-adguard-vpn) to them. Hier wollen wir uns jedoch mehr auf die Anwendung selbst und ihre Funktionsweise konzentrieren.
 
 ## So verwenden Sie AdGuard VPN für Windows
 

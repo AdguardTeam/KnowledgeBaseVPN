@@ -44,7 +44,7 @@ Além disso, listas de exclusões prontas podem ser transferidas para outros dis
 
 ![Tela de suporte](https://cdn.adguardvpn.com/content/kb/vpn/mac/support_en.png)
 
-A terceira guia é a tela *Suporte*. Encontre respostas para quaisquer perguntas nas seções [FAQ](https://adguard-vpn.com/welcome.html#faq) ou [Base de conhecimento](/intro.md), relate um bug se encontrar ou [discuta o AdGuard em qualquer uma das plataformas](https://adguard.com/discuss.html). E sinta-se à vontade para [deixar comentários sobre nosso produto](https://surveys.adguard.com/vpn_mac/form.html), ficaremos gratos.
+A terceira guia é a tela *Suporte*. Find answers to any questions in the [FAQ](https://adguard-vpn.com/welcome.html#faq) or in the [Knowledge base](/) sections, report a bug if you encounter one, or [discuss AdGuard on any of the platforms](https://adguard.com/discuss.html). E sinta-se à vontade para [deixar comentários sobre nosso produto](https://surveys.adguard.com/vpn_mac/form.html), ficaremos gratos.
 
 ## Configurações
 

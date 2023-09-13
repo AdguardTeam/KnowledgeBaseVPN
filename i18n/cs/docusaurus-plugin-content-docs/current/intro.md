@@ -6,9 +6,11 @@ slug: /
 
 ## Co je VPN a proč ji potřebujete?
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7149L3xPmSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 VPN umožňuje vytvořit zabezpečené připojení k jiné síti na internetu.
 
-Původně byly sítě VPN vytvořeny za jediným účelem — k bezpečnému propojení podnikových sítí přes internet, aby se lidé mohli připojit k podnikové síti z domova. Tato technologie se používá k mnoha dalším účelům: například k anonymnímu procházení internetu nebo k ochraně vašich online aktivit před zvědavými pohledy při používání veřejné Wi-Fi.
+Initially, VPNs were created to securely connect business networks over the Internet, so that people could connect to the corporate network from home. Tato technologie se používá k mnoha dalším účelům: například k anonymnímu procházení internetu nebo k ochraně vašich online aktivit před zvědavými pohledy při používání veřejné Wi-Fi.
 
 VPN připojuje počítač nebo mobilní zařízení uživatele k serveru a umožňuje procházet internet pomocí IP adresy někoho jiného. Pozorovatelé třetích stran tak nemohou vidět skutečnou IP adresu uživatele, což téměř znemožňuje jeho vystopování.
 
@@ -16,9 +18,9 @@ Když už mluvíme o VPN, první věc, kterou zmiňují, je šifrování provozu
 
 VPN umožňuje:
 
-- skrýt vaše skutečné místo pobytu v anonymitě
-- zabezpečit vaše – i když se připojíte k veřejné Wi-Fi, můžete bezpečně procházet web
-- chránit před spoofingem (odposlechem síťového provozu) a sledováním ze strany poskytovatele internetových služeb
+- Hide your real whereabouts and stay anonymous
+- Secure your data — even when connecting to a public Wi-Fi, you can browse the Web safely
+- Protect yourself from spoofing (network traffic interception) and tracking on the part of your Internet service provider
 
 Při prohlížení internetu jsou ohrožena hesla, údaje o platebních kartách i obyčejné osobní údaje. Pokud se však připojíte ke globální síti pomocí sítě VPN, můžete si být jisti, že vaše data nikdo nezachytí.
 
@@ -30,17 +32,17 @@ AdGuard působí na trhu ochrany osobních údajů a blokování reklamy a vyví
 
 ### Jedinečný VPN protokol
 
-Hlavní rozdíl mezi AdGuard VPN a konkurencí spočívá v tom, že používáme [vlastní vyvinutý protokol](/general/adguard-vpn-protocol.mdx). Maskuje se jako běžný provoz, takže je mnohem obtížnější jej sledovat a blokovat.
+The main difference between AdGuard VPN and its competitors is that we use [our own developed protocol](/general/adguard-vpn-protocol). Maskuje se jako běžný provoz, takže je mnohem obtížnější jej sledovat a blokovat.
 
-### Žádné záznamy aktivit
+### No-logging policy
 
-Žýdný záznam aktivit znamená, že neshromažďujeme, neukládáme ani nepředáváme osobní údaje uživatelů třetím stranám. Úplné znění zásad ochrany osobních údajů AdGuard VPN naleznete [zde](https://adguard-vpn.com/privacy.html).
+No-logging policy means that we don’t collect, store, or transfer users’ personal data to third parties. [Read AdGuard VPN Privacy policy](https://adguard-vpn.com/privacy.html)
 
 ### Ochrana před sledováním
 
 Webový provoz jakéhokoli uživatele může být zajímavý a je cenný zejména z hlediska zpeněžení osobních údajů. Přístup k němu mají zločinci i bezohlední poskytovatelé internetových služeb. S důvěryhodnou sítí VPN si však můžete být jisti, že poskytovatel ani nikdo jiný vaši internetovou aktivitu neuvidí.
 
-### Velmi rychlé VPN servery ve 53 zemích
+### Ultra-fast VPN servers in 53 countries
 
 - Argentina
 - Austrálie

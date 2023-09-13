@@ -9,13 +9,13 @@ VPN, což je zkratka pro "virtuální privátní síť", je služba, která zaji
 
 ## Co dělá AdGuard VPN pro Windows
 
-- Chrání před zachycením síťového provozu (spoofing). AdGuard VPN vytvoří šifrovaný tunel mezi vaším zařízením a vzdáleným serverem. Veškerý internetový provoz prochází tímto tunelem, takže vaše data jsou po cestě chráněna. A díky [jedinečnému AdGuard protokolu](/general/adguard-vpn-protocol.mdx) máte zaručeno rychlé a bezpečné připojení.
+- Chrání před zachycením síťového provozu (spoofing). AdGuard VPN vytvoří šifrovaný tunel mezi vaším zařízením a vzdáleným serverem. Veškerý internetový provoz prochází tímto tunelem, takže vaše data jsou po cestě chráněna. And thanks to [AdGuard's unique protocol](/general/adguard-vpn-protocol), you're guaranteed a fast and secure connection.
 
 - Maskuje IP adresu. Vaše skutečná IP adresa je pro kyberzločince klíčem k vašim osobním údajům. Vaše jméno, e-mailová adresa, telefonní číslo a údaje o kreditní kartě se mohou dostat do rukou podvodníků, pokud neskryjete svou IP adresu. Jak jsme již uvedli, s AdGuard VPN prochází veškerý váš datový provoz šifrovaným tunelem a přichází na server VPN. Zvenčí se tedy zdá, že vaše zařízení má IP adresu uvedeného serveru VPN.
 
 - Skrývá vaši skutečnou polohu. Výběrem některého ze serverů AdGuard VPN budete okamžitě "teleportováni" do jeho umístění. Co tím získáte? Například možnost rezervovat si hotel za ceny pro místní obyvatele nebo se skrýt před geograficky cílenou reklamou.
 
-AdGuard VPN pro Windows má mnoho výhod, proto jsme tomu věnovali [samostatný článek](/general/why-adguard-vpn.md). Zde se však chceme zaměřit spíše na samotnou aplikaci a její fungování.
+AdGuard VPN for Windows has many advantages, so we've dedicated [a separate article](/general/why-adguard-vpn) to them. Zde se však chceme zaměřit spíše na samotnou aplikaci a její fungování.
 
 ## Jak začít používat AdGuard VPN pro Windows
 

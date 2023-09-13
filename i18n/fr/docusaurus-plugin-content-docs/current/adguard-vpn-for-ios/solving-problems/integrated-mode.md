@@ -3,7 +3,7 @@ title: Compatibilité avec le Bloqueur AdGuard
 sidebar_position: 3
 ---
 
-AdGuard VPN a deux modes de fonctionnement - le mode Général et le mode Intégré. Le mode général est activé par défaut et utilise [le protocole VPN AdGuard](/general/adguard-vpn-protocol.mdx). Il offre la meilleure combinaison de vitesse de connexion et de sécurité.
+AdGuard VPN a deux modes de fonctionnement - le mode Général et le mode Intégré. General mode is enabled by default and uses [AdGuard VPN protocol](/general/adguard-vpn-protocol). Il offre la meilleure combinaison de vitesse de connexion et de sécurité.
 
 Cependant, ce mode de fonctionnement ne permet pas à AdGuard VPN et au Bloqueur AdGuard de fonctionner simultanément.
 

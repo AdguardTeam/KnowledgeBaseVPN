@@ -57,7 +57,7 @@ sidebar_position: 2
 
 - Выберите другую папку установки. Возможно, что у текущей папки есть ограничения доступа. Также удостоверьтесь, что не выбрали внешний или виртуальный жёсткий диск.
 
-- Удалите AdGuard VPN с помощью нашего специального [инструмента удаления](../../installation#advanced), а затем повторите установку.
+- Uninstall AdGuard VPN using our special [uninstall tool](/adguard-vpn-for-windows/installation#advanced) and then repeat the installation.
 
 - Запустите и пройдите перерегистрацию службы установщика Microsoft. На это потребуется некоторое время.
 
@@ -93,7 +93,7 @@ sidebar_position: 2
 
 - Проверьте, установлен ли AdGuard VPN на вашем компьютере. Вы можете сделать это, нажав клавишу *Win* и введя ***AdGuard VPN***.
 
-- Может быть, у вас остались файлы от предыдущей установки AdGuard VPN. Удалите AdGuard с помощью нашего специального [инструмента удаления](../../installation#advanced), а затем повторите установку.
+- Может быть, у вас остались файлы от предыдущей установки AdGuard VPN. Uninstall AdGuard using our special [uninstall tool](/adguard-vpn-for-windows/installation#advanced) and then repeat the installation.
 
 ### Другие ошибки {#other}
 

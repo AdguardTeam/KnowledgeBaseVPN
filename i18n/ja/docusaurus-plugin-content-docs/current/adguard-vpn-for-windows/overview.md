@@ -9,13 +9,13 @@ A VPN, acronym for "Virtual Private Network", is a service that makes your Inter
 
 ## What AdGuard VPN for Windows does
 
-- ネットワークトラフィックの傍受（スプーフィング）から保護します。 AdGuard VPNは、お使いの端末とVPNサーバーの間に暗号化トンネルを作成します。 すべてのインターネットトラフィックはこのトンネルを通過することによって、データ・個人情報は保護されます。 また、 [AdGuardの独自開発プロトコル](/general/adguard-vpn-protocol.mdx)のおかげで、高速で安全な接続が保証されます。
+- ネットワークトラフィックの傍受（スプーフィング）から保護します。 AdGuard VPNは、お使いの端末とVPNサーバーの間に暗号化トンネルを作成します。 すべてのインターネットトラフィックはこのトンネルを通過することによって、データ・個人情報は保護されます。 And thanks to [AdGuard's unique protocol](/general/adguard-vpn-protocol), you're guaranteed a fast and secure connection.
 
 - IPアドレスを隠します。 サイバー犯罪者にとって、あなたの実際のIPアドレスは、あなたの個人情報を把握するための鍵です。 IPを隠さないと、名前、メールアドレス、電話番号、クレジットカード情報などがすべて詐欺師等の手に渡ってしまう可能性があるのです。 AdGuard VPNを使えば、すべてのトラフィックが暗号化されたトンネルを通過してVPNサーバーにたどり着きます。 そのため、オンライン上ではあなたの端末がそのVPNサーバーのIPアドレスを持っているように見えるのです。
 
 - 現在位置を隠します。 AdGuard VPN サーバーのいずれかを選択することで、その場所に瞬時に「テレポート」します。 その効果は？ 例えば、地元の人の料金でホテルを予約できたり、地域をもとにターゲットしてくる広告から隠れることができたりします。
 
-AdGuard VPN for Windows has many advantages, so we've dedicated [a separate article](/general/why-adguard-vpn.md) to them. Here, however, we want to focus more on the application itself and how it works.
+AdGuard VPN for Windows has many advantages, so we've dedicated [a separate article](/general/why-adguard-vpn) to them. Here, however, we want to focus more on the application itself and how it works.
 
 ## How to start using AdGuard VPN for Windows
 

@@ -44,7 +44,7 @@ Připravené seznamy vyloučení lze navíc přenést do jiných zařízení s n
 
 ![Obrazovka podpory](https://cdn.adguardvpn.com/content/kb/vpn/mac/support_en.png)
 
-Třetí karta je obrazovka *Podpory*. Odpovědi na všechny otázky najdete v sekcích [FAQ](https://adguard-vpn.com/welcome.html#faq) nebo [Databáze znalostí](/intro.md), můžete nahlásit chybu, pokud na ni narazíte, nebo [diskutovat o AdGuardu na některé z platforem](https://adguard.com/discuss.html). A neváhejte [zanechat zpětnou vazbu o našem produktu](https://surveys.adguard.com/vpn_mac/form.html), budeme vám vděčni.
+Třetí karta je obrazovka *Podpory*. Find answers to any questions in the [FAQ](https://adguard-vpn.com/welcome.html#faq) or in the [Knowledge base](/) sections, report a bug if you encounter one, or [discuss AdGuard on any of the platforms](https://adguard.com/discuss.html). A neváhejte [zanechat zpětnou vazbu o našem produktu](https://surveys.adguard.com/vpn_mac/form.html), budeme vám vděčni.
 
 ## Nastavení
 

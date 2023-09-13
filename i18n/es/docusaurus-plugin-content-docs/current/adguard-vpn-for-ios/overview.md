@@ -5,7 +5,7 @@ sidebar_position: 1
 
 ## Qué es AdGuard VPN para iOS?
 
-Una VPN le permite crear una conexión segura a otra red en Internet. Conecta la computadora o el dispositivo móvil de un usuario a un servidor y le permite navegar por la red utilizando la dirección IP de otra persona. Así, si el servidor VPN está situado en un país diferente, parecerá que se ha conectado a Internet desde ese país. [Obtenga más información](/general/how-vpn-works.md) sobre cómo funciona una VPN en detalle.
+Una VPN le permite crear una conexión segura a otra red en Internet. Conecta la computadora o el dispositivo móvil de un usuario a un servidor y le permite navegar por la red utilizando la dirección IP de otra persona. Así, si el servidor VPN está situado en un país diferente, parecerá que se ha conectado a Internet desde ese país. [Learn more](/general/how-vpn-works) about how a VPN works in detail.
 
 Hablando de AdGuard VPN, la app tiene varias funciones:
 
@@ -14,7 +14,7 @@ Hablando de AdGuard VPN, la app tiene varias funciones:
 - encripta su tráfico para que sea inalcanzable para los estafadores
 - le permite configurar dónde usar VPN y dónde no (función de exclusiones)
 
-La siguiente ventaja de AdGuard VPN para iOS es nuestro propio protocolo VPN. Hay dos ventajas principales: en comparación con otros protocolos VPN, es extremadamente difícil de detectarla y funciona de manera estable incluso con una conexión a Internet deficiente. Usted puede leer más sobre el protocolo de AdGuard VPN [en este artículo](../general/adguard-vpn-protocol.mdx).
+La siguiente ventaja de AdGuard VPN para iOS es nuestro propio protocolo VPN. Hay dos ventajas principales: en comparación con otros protocolos VPN, es extremadamente difícil de detectarla y funciona de manera estable incluso con una conexión a Internet deficiente. You can read more about AdGuard VPN protocol [in this article](/general/adguard-vpn-protocol).
 
 ## Cómo utilizar AdGuard VPN para iOS
 
@@ -59,7 +59,7 @@ Aquí, puedes configurar AdGuard VPN para iOS como necesites usando diferentes o
 
 AdGuard VPN para iOS puede funcionar en dos modos: **General** y **Integrado**.
 
-En el modo **General**, se emplea el protocolo [AdGuard VPN](../general/adguard-vpn-protocol.mdx), que proporciona la mejor combinación de velocidad y seguridad. En este modo, AdGuard VPN no podrá funcionar junto al [ bloqueador de anuncios AdGuard para iOS](https://adguard.com/kb/adguard-for-ios/overview/).
+In **General** mode, the [AdGuard VPN protocol](/general/adguard-vpn-protocol) is employed, which provides the best combination of speed and security. En este modo, AdGuard VPN no podrá funcionar junto al [ bloqueador de anuncios AdGuard para iOS](https://adguard.com/kb/adguard-for-ios/overview/).
 
 En el modo **Integrado**, AdGuard VPN podrá trabajar al mismo tiempo con el bloqueador de anuncios AdGuard para iOS utilizando el protocolo IPSec en su lugar. Este protocolo también es seguro, pero un poco más lento y más fácil de detectar. No es necesario realizar ninguna acción adicional para configurar la integración: basta con instalar ambas aplicaciones y cambiar a este modo.
 > Tenga en cuenta que en el modo **Integrado** no se puede usar la función Exclusiones ni elegir un servidor DNS.

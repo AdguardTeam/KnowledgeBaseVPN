@@ -9,13 +9,13 @@ Una VPN, acrónimo de "Red privada virtual", es un servicio que hace que tu cone
 
 ## Qué hace AdGuard VPN para Windows
 
-- Protege de la interceptación del tráfico de red (spoofing). AdGuard VPN crea un túnel cifrado entre su dispositivo y un servidor remoto. Todo el tráfico de Internet pasa por este túnel, por lo que tus datos están protegidos en todo momento. Y gracias al protocolo único de [AdGuard](/general/adguard-vpn-protocol.mdx), se garantiza una conexión rápida y segura.
+- Protege de la interceptación del tráfico de red (spoofing). AdGuard VPN crea un túnel cifrado entre su dispositivo y un servidor remoto. Todo el tráfico de Internet pasa por este túnel, por lo que tus datos están protegidos en todo momento. And thanks to [AdGuard's unique protocol](/general/adguard-vpn-protocol), you're guaranteed a fast and secure connection.
 
 - Enmascara su dirección IP. Su verdadera dirección IP es la clave de sus datos personales para los ciberdelincuentes. Su nombre, dirección de correo electrónico, número de teléfono, información de tarjeta de crédito pueden caer en manos de estafadores si no oculta su IP. Con AdGuard VPN, como hemos dicho antes, todo su tráfico pasa por un túnel cifrado y llega al servidor VPN. Por lo tanto, desde el exterior parece que su dispositivo tiene la dirección IP de dicho servidor VPN.
 
 - Oculta su ubicación real. Al seleccionar cualquiera de los servidores VPN de AdGuard, se le "teletransporta" instantáneamente a su ubicación. ¿Qué le da esto? Por ejemplo, la capacidad de reservar un hotel a las tarifas de los lugareños u ocultarse de la publicidad geodirigida.
 
-AdGuard VPN para Windows tiene muchas ventajas, por lo que hemos dedicado [un artículo separado](/general/why-adguard-vpn.md) a ellas. Aquí, sin embargo, queremos centrarnos más en la aplicación en sí y en cómo funciona.
+AdGuard VPN for Windows has many advantages, so we've dedicated [a separate article](/general/why-adguard-vpn) to them. Aquí, sin embargo, queremos centrarnos más en la aplicación en sí y en cómo funciona.
 
 ## Cómo empezar a usar AdGuard VPN para Windows
 
