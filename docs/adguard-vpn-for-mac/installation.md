@@ -55,4 +55,4 @@ Sometimes, as a result of incorrect removal, or in other rare cases, the standar
 
 AdGuard VPN has been completely removed from your Mac.
 
-You can learn more about AdGuard VPN for Mac in [this article](/adguard-vpn-for-mac/overview.md).
+You can learn more about AdGuard VPN for Mac in [this article](/adguard-vpn-for-mac/overview).
