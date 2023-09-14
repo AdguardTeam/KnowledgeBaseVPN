@@ -3,7 +3,7 @@ title: Kompatibilita s blokátorem reklam AdGuard
 sidebar_position: 3
 ---
 
-AdGuard VPN má dva provozní režimy – Obecný a Integrovaný. General mode is enabled by default and uses [AdGuard VPN protocol](/general/adguard-vpn-protocol). Ten poskytuje nejlepší kombinaci rychlosti připojení a zabezpečení.
+AdGuard VPN má dva provozní režimy – Obecný a Integrovaný. Obecný režim je ve výchozím nastavení povolen a používá [protokol AdGuard VPN](/general/adguard-vpn-protocol). Ten poskytuje nejlepší kombinaci rychlosti připojení a zabezpečení.
 
 Tento provozní režim však neumožňuje současnou práci AdGuard VPN a blokátoru reklam AdGuard.
 

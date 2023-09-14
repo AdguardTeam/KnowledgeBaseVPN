@@ -5,7 +5,7 @@ sidebar_position: 1
 
 ## Co je AdGuard VPN pro Android?
 
-VPN je ideální nástroj, který zajišťuje bezpečnost a anonymitu při každém procházení internetu. [How does it work?](/general/how-vpn-works) Without going into technical details, we can say that VPN creates a secure encrypted tunnel between the user's computer or mobile device and a remote VPN server. Tímto způsobem je zachována důvěrnost dat i anonymita uživatele, protože pozorovatel třetí strany vidí IP adresu serveru VPN, a nikoli skutečnou IP adresu uživatele.
+VPN je ideální nástroj, který zajišťuje bezpečnost a anonymitu při každém procházení internetu. [Jak funguje?](/general/how-vpn-works) Aniž bychom zacházeli do technických podrobností, můžeme říci, že VPN vytváří bezpečný šifrovaný tunel mezi počítačem nebo mobilním zařízením uživatele a vzdáleným serverem VPN. Tímto způsobem je zachována důvěrnost dat i anonymita uživatele, protože pozorovatel třetí strany vidí IP adresu serveru VPN, a nikoli skutečnou IP adresu uživatele.
 
 **VPN se často používá pro:**
 
@@ -13,7 +13,7 @@ VPN je ideální nástroj, který zajišťuje bezpečnost a anonymitu při každ
 - Zabránění sledování online aktivit maskováním IP adresy
 - Skrytí skutečné zeměpisné polohy pro zachování anonymity
 
-AdGuard VPN pro Android to všechno zvládne za vás — a dokonce nabízí něco jedinečného. To find out why AdGuard VPN is the better option — read [this article](/general/why-adguard-vpn).
+AdGuard VPN pro Android to všechno zvládne za vás — a dokonce nabízí něco jedinečného. Chcete-li zjistit, proč je AdGuard VPN nejlepší volbou — přečtěte si [tento článek](/general/why-adguard-vpn).
 
 ## Jak začít používat AdGuard VPN pro Android
 

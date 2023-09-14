@@ -15,7 +15,7 @@ Sobald Sie bereit sind, arbeiten Sie unter [dem KnowledgeBaseVPN-Repository](htt
 
 Die Website der Wissensdatenbank wurde mit Docusaurus 2 erstellt, einem modernen Generator für statische Websites. Wenn Sie Änderungen oder Ergänzungen vorschlagen, beachten Sie bitte, dass alle Dokumente den Grundsätzen der Plattform entsprechen müssen. Sie können sie in dem Leitfaden nachlesen, der über [diesen Link](https://docusaurus.io/docs/category/guides) verfügbar ist.
 
-Sie können die Wissensdatenbank auch lokal auf Ihrem Computer bereitstellen, um eine Vorschau auf die von Ihnen vorgeschlagenen Änderungen zu erhalten. Detailed instructions on how to do this can be found [in the README.md file](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README) on this Knowledge Base's GitHub page.
+Sie können die Wissensdatenbank auch lokal auf Ihrem Computer bereitstellen, um eine Vorschau auf die von Ihnen vorgeschlagenen Änderungen zu erhalten. Detaillierte Anweisungen dazu finden Sie [in der Datei README.md](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README) auf der GitHub-Seite dieser Knowledge Base.
 
 ## Artikel übersetzen {#translate-adguard}
 

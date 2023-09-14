@@ -1,9 +1,9 @@
 ---
-title: 'How AdGuard VPN protocol works'
+title: 'Wie das AdGuard VPN-Protokoll funktioniert'
 sidebar_position: 4
 ---
 
-Our protocol is used by [all AdGuard VPN mobile and desktop applications](https://adguard-vpn.com/welcome.html). Download any of our products and use it knowing that your data is protected in the most secure way.
+Unser Protokoll wird von [allen mobilen und Desktop-Apps von AdGuard VPN](https://adguard-vpn.com/welcome.html) verwendet. Sie können eines unserer Produkte heruntergeladen und sicher sein, dass Ihre Daten auf die sicherste Weise geschützt sind.
 
 ## Why we developed the AdGuard VPN protocol
 

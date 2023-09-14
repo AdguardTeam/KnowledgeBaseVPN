@@ -6,11 +6,11 @@ slug: /
 
 ## Что такое VPN и зачем он нужен?
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7149L3xPmSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7149L3xPmSE" title="Видеоплеер YouTube" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 VPN позволяет создать безопасное соединение с другой сетью в интернете.
 
-Initially, VPNs were created to securely connect business networks over the Internet, so that people could connect to the corporate network from home. Сейчас его используют для многих других вещей: например, чтобы пользоваться интернетом анонимно или защитить свою онлайн-активность от посторонних глаз во время использования публичного Wi-Fi.
+Изначально VPN создавали для безопасного соединения бизнес-сетей по интернету, чтобы люди могли подключиться к корпоративной сети из дома. Сейчас его используют для многих других вещей: например, чтобы пользоваться интернетом анонимно или защитить свою онлайн-активность от посторонних глаз во время использования публичного Wi-Fi.
 
 VPN соединяет компьютер или мобильное устройство пользователя с сервером и позволяет серфить в интернете, используя чужой IP-адрес. Таким образом, сторонние наблюдатели не могут увидеть реальный IP-адрес пользователя, что делает практически невозможным его отслеживание.
 
@@ -18,9 +18,9 @@ VPN соединяет компьютер или мобильное устрой
 
 VPN можно использовать, чтобы:
 
-- Hide your real whereabouts and stay anonymous
-- Secure your data — even when connecting to a public Wi-Fi, you can browse the Web safely
-- Protect yourself from spoofing (network traffic interception) and tracking on the part of your Internet service provider
+- Скрыть настоящее местоположение и сохранить анонимность
+- Защитить персональные данные и безопасно просматривать веб-страницы даже при подключении к общественному Wi-Fi
+- Защитить себя от спуфинга (перехвата сетевого трафика) и отслеживания со стороны интернет-провайдера
 
 Пароли, номера кредитных карт, банковские данные и просто личная информация находятся под угрозой, когда пользователь заходит в интернет. Но если подключаться к сети, используя VPN, можно быть уверенным, что никто не сможет перехватить ваши данные.
 
@@ -32,17 +32,17 @@ VPN можно использовать, чтобы:
 
 ### Уникальный VPN-протокол
 
-The main difference between AdGuard VPN and its competitors is that we use [our own developed protocol](/general/adguard-vpn-protocol). Он маскируется под обычный трафик, поэтому его гораздо сложнее отследить и заблокировать.
+Главное отличие AdGuard VPN от конкурентов в том, что мы используем [протокол собственнной разработки](/general/adguard-vpn-protocol). Он маскируется под обычный трафик, поэтому его гораздо сложнее отследить и заблокировать.
 
-### No-logging policy
+### Политика «Без логов»
 
-No-logging policy means that we don’t collect, store, or transfer users’ personal data to third parties. [Read AdGuard VPN Privacy policy](https://adguard-vpn.com/privacy.html)
+Политика «без записи логов» означает, что мы не собираем и не храним личные данные пользователей, и тем более не передаём их третьим лицам. [Читать политику конфиденциальности AdGuard VPN](https://adguard-vpn.com/privacy.html)
 
 ### Защита от отслеживания
 
 Веб-трафик любого пользователя имеет ценность, в первую очередь с точки зрения монетизации личных данных. Доступ к нему могут получить как преступники, так и недобросовестные интернет-провайдеры. Однако с надёжным VPN можно быть уверенным – ни ваш провайдер, ни кто-либо ещё не увидит вашу интернет-активность.
 
-### Ultra-fast VPN servers in 53 countries
+### Ультрабыстрые VPN-серверы в 53 странах
 
 - Аргентина
 - Австралия

@@ -3,23 +3,23 @@ title: 'Proč je AdGuard VPN tou lepší volbou'
 sidebar_position: 2
 ---
 
-When getting ready to commit to a [long-term VPN subscription](/general/subscription), users most frequently evaluate its speed, security, and price. To jsou velmi důležité body, ale je toho mnohem víc! AdGuard VPN má tucet klíčových výhod, které z ní dělají "lepší možnost".
+Když se uživatelé rozhodují o [dlouhodobém předplatném VPN](/general/subscription), nejčastěji hodnotí rychlost, zabezpečení a cenu. To jsou velmi důležité body, ale je toho mnohem víc! AdGuard VPN má tucet klíčových výhod, které z ní dělají "lepší možnost".
 
 *Začněme tím, že si projdeme bezkonkurenční funkce AdGuard VPN, které nenajdete u žádné jiné VPN.*
 
 ## 1. Vlastní protokol
 
-Od samého počátku jsme se rozhodli vytvořit a nasadit vlastní protokol VPN, místo toho, abychom vybrali hotové řešení — to by bylo příliš snadné a navíc jsme nebyli spokojeni se stávajícími protokoly. The result has become the [AdGuard VPN protocol](/general/adguard-vpn-protocol).
+Od samého počátku jsme se rozhodli vytvořit a nasadit vlastní protokol VPN, místo toho, abychom vybrali hotové řešení — to by bylo příliš snadné a navíc jsme nebyli spokojeni se stávajícími protokoly. Výsledkem je [protokol AdGuard VPN](/general/adguard-vpn-protocol).
 
-Při výběru služby VPN se lidé často rozhodují mezi rychlostí a bezpečností. The AdGuard VPN protocol is a perfect blend of speed and security, so you don’t have to bear slow Internet connection or make privacy sacrifices. Mimo jiné se maskuje jako běžný datový provoz a je mnohem těžší ho odhalit a zablokovat.
+Při výběru služby VPN se lidé často rozhodují mezi rychlostí a bezpečností. Protokol AdGuard VPN je dokonalou kombinací rychlosti a zabezpečení, takže nemusíte snášet pomalé připojení k internetu ani obětovat své soukromí. Mimo jiné se maskuje jako běžný datový provoz a je mnohem těžší ho odhalit a zablokovat.
 
-## 2. Website and app exclusions
+## 2. Výjimky webů a aplikací
 
-There are situations where you don't need your VPN to be active: for instance, when you're ordering food or using maps. For this reason, AdGuard VPN has a special feature: Exclusions.
+V některých situacích není třeba, aby byla VPN aktivní: např. při objednávání jídla nebo používání map. Z tohoto důvodu má AdGuard VPN speciální funkci: Výjimky.
 
 ![Exclusions](https://cdn.adguard.com/content/blog/articles/adguard-vpn/exclusions-en.png)
 
-You can activate AdGuard VPN **selectively** — only for certain websites or apps. This option is for those who use a VPN service only in specific situations: to enter a blocked website, use an app or watch a TV show that's not available in their country, or not to expose their data when visiting some websites. Turning a VPN on selectively also helps save VPN traffic.
+AdGuard VPN **můžete aktivovat selektivně** — pouze pro určité webové stránky nebo aplikace. Tato možnost je určena těm, kteří používají službu VPN pouze ve specifických situacích: aby mohli vstoupit na blokované webové stránky, používat aplikace nebo sledovat televizní pořady, které nejsou v jejich zemi dostupné, nebo aby při návštěvě některých webových stránek nezveřejňovali svá data. Zapnutí VPN v selektivním režimu také pomáhá šetřit provoz VPN.
 
 If you prefer absolute anonymity in most cases, you can activate AdGuard VPN **everywhere except for the excluded websites or apps**. Just add your food delivery apps and utility payment websites to Exclusions — for them, VPN will be off.
 
@@ -35,7 +35,7 @@ We recommend using an AdGuard DNS server: it blocks ads and trackers and protect
 
 ![VPN server locations](https://cdn.adguard.com/content/blog/articles/adguard-vpn/locations-en.png)
 
-Another feature that makes AdGuard VPN stand out from the crowd is that you can select a location based on its ping. In a nutshell, ping is the time it takes the data packet sent from your device to reach the server and return. When in doubt, use a rule of thumb: the lower the ping, the closer the server, the higher its speed. We are constantly expanding the number of locations so that you can choose from a variety.
+Další funkcí, kterou se AdGuard VPN odlišuje od ostatních, je možnost výběru umístění na základě jeho odezvy ping. Stručně řečeno, ping je doba, za kterou datový paket odeslaný z vašeho zařízení dosáhne serveru a vrátí se zpět. V případě pochybností se řiďte pravidlem: čím nižší je ping, tím je server blíže a tím vyšší je jeho rychlost. Neustále rozšiřujeme počet umístění, abyste si mohli vybírat z pestré nabídky.
 
 :::note
 
@@ -43,19 +43,19 @@ To access all VPN server locations, you need to purchase an AdGuard VPN subscrip
 
 :::
 
-## 5. Integration with AdGuard Ad Blocker
+## 5. Integrace s blokátorem reklam AdGuard
 
-With desktop apps and browser extensions this goes without saying — there’s rarely any conflicts between apps, save for antiviruses and other similarly oriented software.
+U desktopových aplikací a rozšíření prohlížeče je to samozřejmé — málokdy dochází ke konfliktům mezi aplikacemi, s výjimkou antivirů a dalšího podobně zaměřeného softwaru.
 
 With mobile devices, hovewer, it’s not that simple. In the vast majority of cases, two VPN-based apps will not work together. Both in Android and iOS, there are limitations that prevent it.
 
 ![Integrated mode](https://cdn.adguard.com/content/blog/articles/adguard-vpn/integration-en.png)
 
-However, we managed to find a solution to befriend AdGuard VPN and AdGuard Ad Blocker. When you have both AdGuard apps installed on one device, they will automatically become compatible without any input required from you. This is a unique opportunity to take advantage of two sets of features, which you would normally have to choose between.
+Podařilo se nám však najít řešení, jak spřátelit AdGuard VPN a blokátor reklam AdGuard. Pokud máte v jednom zařízení nainstalovány obě aplikace AdGuard, stanou se automaticky kompatibilními, aniž byste museli cokoli dělat. Jedná se o jedinečnou příležitost využít dvě sady funkcí, mezi kterými byste si za normálních okolností museli vybrat.
 
 ## 6. Podpora QUIC
 
-[QUIC](https://adguard-dns.io/en/blog/dns-over-quic.html#whatisquic) is a cutting-edge protocol that has many perks. The main advantage is it can improve the connection quality in non-ideal conditions – for example, on mobile devices or when connecting to public Wi-Fi. Although the new protocol won’t affect speed when the connection is fine and stable, it will definitely make the situation better for users with slow Internet.
+[QUIC](https://adguard-dns.io/en/blog/dns-over-quic.html#whatisquic) je špičkový protokol, který má mnoho výhod. Hlavní výhodou je, že může zlepšit kvalitu připojení v neideálních podmínkách – například na mobilních zařízeních nebo při připojení k veřejné Wi-Fi. Nový protokol sice neovlivní rychlost, pokud je připojení v pořádku a stabilní, ale rozhodně zlepší situaci uživatelů s pomalým internetem.
 
 :::caution
 
@@ -63,17 +63,17 @@ The QUIC protocol is rather new and may be unstable. We cannot guarantee its com
 
 :::
 
-*Now let’s switch to the item set that any decent VPN can't do without.*
+*Nyní přejděme k sadě položek, bez kterých se žádná slušná VPN neobejde.*
 
 ## 7. Kill Switch
 
-Kill Switch is essential if you, for instance, often use a mobile network or connect to public Wi-Fi networks in malls, cafes, on the subway or at the airport. For the simple reason — if VPN will suddenly drop and the connection will become insecure, chances are that your sensitive information will be exposed to fraudsters or cyber criminals.
+Kill Switch je nezbytný, pokud například často používáte mobilní síť nebo se připojujete k veřejným sítím Wi-Fi v nákupních centrech, kavárnách, v metru nebo na letišti. Z jednoduchého důvodu — pokud VPN náhle přestane fungovat a připojení se stane nezabezpečeným, je pravděpodobné, že vaše citlivé informace budou vystaveny podvodníkům nebo kyberzločincům.
 
 If for some reason your VPN connection is interrupted, Kill Switch will automatically disconnect you from the Internet, keeping attackers away from seizing your information.
 
-## 8. Auto-protection
+## 8. Automatická ochrana
 
-This feature has been developed specifically for unsecured networks. If you enable Auto-protection, you won't ever forget to enable VPN when visiting public places. Should you pop into a coffee shop and connect to a local Wi-Fi network, you’ll be automatically connected to AdGuard VPN.
+Tato funkce byla vyvinuta speciálně pro nezabezpečené sítě. If you enable Auto-protection, you won't ever forget to enable VPN when visiting public places. Pokud zavítáte do kavárny a připojíte se k místní síti Wi-Fi, budete automaticky připojeni k AdGuard VPN.
 
 :::note Compatibility
 
@@ -81,24 +81,24 @@ Auto-protection is available in AdGuard VPN for iOS and Android.
 
 :::
 
-## 9. Ten simultaneous connections
+## 9. Souběžná připojení
 
 With an AdGuard VPN subscription, you can connect up to ten devices *simultaneously*.
 
-Some VPN providers only allow to log in to their service on *ten devices max*. With AdGuard VPN, *it doesn't matter* on how many devices you log in to your AdGuard account, but you can have ten VPN connections enabled at the same time.
+Někteří poskytovatelé VPN umožňují přihlášení ke své službě pouze na *maximálně deseti zařízeních*. With AdGuard VPN, *it doesn't matter* on how many devices you log in to your AdGuard account, but you can have ten VPN connections enabled at the same time.
 
 Those who don’t have a subscription, can use AdGuard VPN on *two devices simultaneously*, which gives us another trump card to play against competitors: most free VPN services only allow you to use one device at a time.
 
-## 10. Secure streaming
+## 10. Bezpečné streamování
 
-Streaming services don't like VPNs for obvious reasons: according to statistics, about 20% of users install a VPN mainly to watch shows, TV shows and movies bypassing geo-blocking. That's why streaming platforms tend to do everything they can to track VPN traffic and block it.
+Streamovací služby nemají VPN rády ze zřejmých důvodů: podle statistik si přibližně 20 % uživatelů instaluje VPN hlavně proto, aby mohli sledovat pořady, seriály a filmy s cílem obejít geografické blokování. Proto se streamovací platformy snaží sledovat provoz VPN a blokovat jej.
 
-But what if you want to feel safe while watch content specific to your region? Or don't want stop watching exciting series even when you travel to another country? The answer is simple — AdGuard VPN, which thanks to its unique protocol can remain invisible to services.
+Ale co když se chcete cítit bezpečně při sledování obsahu specifického pro váš region? Nebo nechcete přestat sledovat vzrušující seriály, i když cestujete do jiné země? Odpověď je jednoduchá — AdGuard VPN, která díky svému jedinečnému protokolu může zůstat pro služby neviditelná.
 
-We don't endorse the use of AdGuard VPN to bypass copyright regulations.
+Neschvalujeme používání AdGuard VPN k obcházení předpisů o autorských právech.
 
-## 11. Dark mode
+## 11. Tmavý motiv
 
 ![Dark mode *mobile_border](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/main_en_black.png)
 
-This little feature deserves special mention. In fact, many users crave for dark mode, so we couldn’t ignore it and added a theme switch for all AdGuard VPN products. Choose the one you like more — light, dark or system default. Hope you’ll join the dark side.
+Tato drobnost si zaslouží zvláštní zmínku. Mnoho uživatelů touží po tmavém motivu, takže jsme to nemohli ignorovat a přidali jsme přepínač motivů pro všechny produkty AdGuard VPN. Vyberte si ten, který se vám líbí více — světlý, tmavý nebo podle systému. Doufám, že se přidáte na temnou stranu.

@@ -51,4 +51,4 @@ Někdy v důsledku nesprávného odstranění nebo v jiných vzácných případ
 
 AdGuard VPN byla z vašeho počítače Mac zcela odstraněna.
 
-You can learn more about AdGuard VPN for Mac in [this article](/adguard-vpn-for-mac/overview).
+Více informací o aplikaci AdGuard VPN pro macOS najdete v [tomto článku](/adguard-vpn-for-mac/overview).
