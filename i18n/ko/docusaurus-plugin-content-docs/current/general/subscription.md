@@ -3,7 +3,7 @@ title: 구독 방법
 sidebar_position: 6
 ---
 
-AdGuard VPN에는 무료 버전과 무제한 버전(유료 버전)이 있습니다. 유료 구독을 사용할 경우, 트래픽, 연결 속도, 위치 선택 등의 제한 없이 AdGuard VPN을 이용할 수 있습니다. 무제한 버전의 장점에 대한 [자세한 내용](free-vs-unlimited.md)은 여기에서 확인할 수 있습니다.
+AdGuard VPN에는 무료 버전과 무제한 버전(유료 버전)이 있습니다. 유료 구독을 사용할 경우, 트래픽, 연결 속도, 위치 선택 등의 제한 없이 AdGuard VPN을 이용할 수 있습니다. You can [read more about all the advantages of the unlimited version](/general/free-vs-unlimited).
 
 AdGuard VPN 구독을 구매하려면 세 가지 방법이 있습니다.
 

@@ -3,52 +3,56 @@ title: 功能概述
 sidebar_position: 1
 ---
 
-AdGuard VPN Browser extension is available for Chrome, Firefox, Opera, and Edge. UI 和功能在浏览器之间并没有区别，因此下面将概述所有用于浏览器的 AdGuard VPN 。
+AdGuard VPN Browser Extension is available for Chrome, Firefox, Opera, and Edge. UI 和功能在浏览器之间并没有区别，因此下面将概述所有用于浏览器的 AdGuard VPN 。
 
-> 请注意，您只能在登录 AdGuard VPN 时使用浏览器扩展。 您可以使用 AdGuard 账号或通过 Google、Facebook 或 Apple 登录。 在后一种情况下，请确保您的账号与 AdGuard 账号绑定在同一个电子邮件地址上。 如果您有 [AdGuard VPN 订阅](/general/subscription.md)，它将会在 AdGuard VPN 浏览器扩展中自动激活。 如果您没有 AdGuard 账号， [请点击这里。](https://auth.adguard.com/registration.html)。
+:::note
 
-To manage your AdGuard VPN Browser extension:
+You can only use AdGuard VPN Browser Extension when logged in. Sign in with your AdGuard account or via Google, Facebook, or Apple. In the latter case make sure that your account is bound to the same email address as your AdGuard account. If you have an [AdGuard VPN subscription](/general/subscription), it will be activated automatically in AdGuard VPN Browser extension. Don’t have an AdGuard account yet? [Create it here](https://auth.adguard.com/registration.html).
 
-- Either click its icon on the browser's panel, click the hamburger menu icon, and select *Settings*,
-- Or go to the *Manage extensions* page in your browser, click *Details* below *AdGuard VPN* and manage its settings from there.
+:::
 
-完成后，您将看到几个在左侧的选项卡：
+To manage your AdGuard VPN Browser Extension:
+
+- 单击浏览器面板上的图标，然后单击汉堡菜单图标（☰）并选择*「设置」*
+- 或者到浏览器中的*「管理扩展」*页面中，单击*「AdGuard VPN」*下面的*「详细信息」*并在其中管理设置。
+
+Once done, you'll see several tabs on the left:
 
 ## 设置
 
-此选项卡中有一些重要设置。 在这里，您可以选择一个 DNS 服务器来使用，从浏览器的上下文菜单中添加或删除 AdGuard VPN 图标，拦截 WebRTC，改变扩展的主题，并允许 AdGuard 收集匿名的崩溃报告和技术数据。
+A few important settings are gathered inside this tab. Here you can choose a DNS server to use, add or remove the AdGuard VPN icon from the browser’s context menu, block WebRTC, change the extension's theme, and allow AdGuard to gather anonymized crash reports and technical data.
 
 ### 选择一个 DNS 服务器
 
-默认情况下选择的是由您的 ISP 提供的[系统 DNS 服务器](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns) ，但它可能会损害您的隐私。 凭借 AdGuard VPN 浏览器扩展，您可以选择一个提供更好的速度和安全性，甚至阻止广告或有潜在危险的域名的 DNS 服务器。 以下对于 DNS 服务器的简要说明将帮助您导航并做出决定。
+By default, the [system DNS server](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns) provided by your ISP is selected, but it may compromise your privacy. With AdGuard VPN Browser extension, you can select a DNS server that provides better speed and security, and even blocks ads or potentially dangerous domains. Brief descriptions under the names of DNS servers will help you navigate and make your decision.
 
-了解更多有关[来自不同服务商的DNS服务器](https://adguard-dns.io/kb/general/dns-providers/)。
+Learn more about [DNS servers from various providers](https://adguard-dns.io/kb/general/dns-providers/).
 
 ## 排除项
 
-下一个选项卡包含 AdGuard VPN 的主要特点之一，即有独立的排除项列表的两种模式。
+The next tab contains one of the main distinctive features of AdGuard VPN – two modes with separate exclusions lists.
 
-在 **通用模式**，除了用户添加到排除项列表的网站除外，AdGuard VPN 默认在所有网站都运行。 在 **选择模式**，反之亦然，AdGuard VPN 默认在任何地方都不工作。 You can add any websites where you'd like it to work to an exclusions list, separate from the one you saw in the **General mode**.
+In **General mode**, AdGuard VPN by default works on all websites, with the exception of the websites you've added to the exclusions list. In **Selective mode**, vice versa, AdGuard VPN by default doesn't work anywhere. You can add any websites where you'd like it to work to an exclusions list, separate from the one you saw in the **General mode**.
 
-在添加网站到排除项列表时，用户可以手动输入网站或**从列表中**选择它们。 在后一种情况下，用户会看到八个类别（例如： *购物*， *通信*等等），每个类别包含几个流行服务。 用户可以一键排除这些服务中的任何一项，该操作将把与该特定服务相关的所有域名添加到排除项中。
+When adding a website to the exclusions list, you can enter the website manually or select the **From the list** option. In the latter case, you'll see eight categories (e.g. *Shopping*, *Messengers*, etc.), each suggesting several popular services. You can exclude any of those services in one click, and this action will add to exclusions all domains relevant to that specific service.
 
 ### 导入和导出
 
-用户不仅可以添加和删除网站，还可以将准备好的排除项列表转移到安装 AdGuard VPN 的其他设备上。 要导出你的排除项列表，请按照以下 4 步说明操作：
+Not only can you add and remove websites, you can also transfer ready exclusions lists to other devices where AdGuard VPN is installed. To export your exclusions list, follow the 4-step instruction below:
 
 1. 在您想要导出排除项列表的设备上打开 AdGuard VPN 浏览器扩展。 找到相应的部分并单击「导出」按钮。 `exclusions.zip` 档案将被下载。
-2. There are two `.txt` files inside the archive, one for each of the General and Selective lists. 用户可以在其中添加更多的排除项，删除现有的排除项，重命名文件，或者也可以将存档中的文件内容保持不变。
-3. 在不同设备之间传输时，将 `.zip` 文件发送到设备上进行导入。
-4. 在该设备上打开 AdGuard VPN。 找到相应的部分，单击「导入」按钮并选择存档。 完成！
+1. 档案中有两个 `.txt` 文件，分别是常规模式列表和选择模式列表。 用户可以在其中添加更多的排除项，删除现有的排除项，重命名文件，或者也可以将存档中的文件内容保持不变。
+1. 在不同设备之间传输时，将 `.zip` 文件发送到设备上进行导入。
+1. 在该设备上打开 AdGuard VPN。 找到相应的部分，单击「导入」按钮并选择存档。 完成！
 
 ## 账号
 
-AdGuard VPN 浏览器扩展的第三个标签是完全简约的，只包含用户用来登录账号的电子邮件地址和两个按钮，「*管理*」和「*退出*」。 点击「*管理*」按钮，用户就会进入个人 AdGuard 账号，在那里您可以看到当前所有的许可证和订阅，以及与之连接的设备。
+The third tab of AdGuard VPN Browser extension is utterly minimalistic, containing only the email address you used to sign into your account and two buttons, *Manage* and *Sign out*. Clicking the *Manage* button takes you to your personal AdGuard account, where you can see all your current licenses and subscriptions, as well as devices connected to them.
 
 ## 支持
 
-用户可以在「常见问题」部分找到常见问题的答案，或留下反馈意见：如果您面临问题无法正常运行应用程序，请您报告错误，建议增加一个新功能，或在社交媒体平台上讨论 AdGuard。
+You can find answers to common questions in the FAQ section, or leave feedback: report a bug if something isn't working as it should, suggest adding a new feature, or discuss AdGuard on any of the many social media platforms.
 
 ## 关于
 
-另一个小标签，用户可以查看扩展的版本，访问官网，并查看 EULA（最终用户许可协议） 或隐私政策。
+Another minor tab, where you can check the extension's version, visit the official website, and view the EULA or Privacy policy.

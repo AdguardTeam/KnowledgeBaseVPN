@@ -22,4 +22,4 @@ sidebar_position: 5
 - Безопасный стриминг
 - Порт 25 не блокируется
 
-Начните пользоваться безлимитной версией AdGuard VPN — [приобретите подписку](subscription.md).
+To use all the advantages, consider [purchasing a subscription](/general/subscription).

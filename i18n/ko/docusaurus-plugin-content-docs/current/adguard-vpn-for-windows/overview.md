@@ -9,13 +9,13 @@ VPN(가상 사설망)은 안전한 인터넷 연결을 제공하고 온라인에
 
 ## What AdGuard VPN for Windows does
 
-- 네트워크 트래픽 가로채기(스푸핑)로부터 보호합니다. AdGuard VPN은 기기와 원격 서버 사이에 터널을 생성합니다. 모든 인터넷 트래픽은 이 터널을 통과하므로 데이터가 보호됩니다. 그리고 [AdGuard의 고유한 프로토콜](/general/adguard-vpn-protocol.mdx) 덕분에 빠르고 안전한 연결이 보장됩니다.
+- 네트워크 트래픽 가로채기(스푸핑)로부터 보호합니다. AdGuard VPN은 기기와 원격 서버 사이에 터널을 생성합니다. 모든 인터넷 트래픽은 이 터널을 통과하므로 데이터가 보호됩니다. And thanks to [AdGuard's unique protocol](/general/adguard-vpn-protocol), you're guaranteed a fast and secure connection.
 
 - IP 주소를 숨깁니다. 실제 IP 주소는 사이버 범죄자의 개인 데이터의 핵심입니다. IP를 숨기지 않으면 이름, 이메일 주소, 전화번호, 신용카드 정보가 모두 유출될 수 있습니다. AdGuard VPN을 사용하면 모든 트래픽이 암호화된 터널을 통과하여 VPN 서버로 이동합니다. 따라서 기기에 해당 VPN 서버의 IP 주소가 있는 것으로 보입니다.
 
 - 실제 위치를 숨깁니다. AdGuard VPN 서버를 선택하면 해당 위치로 즉시 순간이동됩니다. 이 기능을 언제 사용하나요? 예를 들어, 저렴한 요금으로 호텔을 예약해야 하거나 지역 타겟팅 광고를 피해야 할 때 사용할 수 있습니다.
 
-AdGuard VPN for Windows has many advantages, so we've dedicated [a separate article](/general/why-adguard-vpn.md) to them. Here, however, we want to focus more on the application itself and how it works.
+AdGuard VPN for Windows has many advantages, so we've dedicated [a separate article](/general/why-adguard-vpn) to them. Here, however, we want to focus more on the application itself and how it works.
 
 ## How to start using AdGuard VPN for Windows
 

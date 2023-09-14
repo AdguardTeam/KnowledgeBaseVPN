@@ -6,9 +6,11 @@ slug: /
 
 ## What is a VPN and why do you need one?
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7149L3xPmSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 VPN cho phép bạn kết nối an toàn tới các mạng khác trên Internet.
 
-Ban đầu, VPN được sinh ra vì một mục đích — giúp kết nối an toàn các mạng của doanh nghiệp trên Internet, để các thành viên có thể kết nối đến mạng của cơ quan mình từ nhà. Công nghệ này được sử dụng cho nhiều mục đích khác nhau: ví dụ: để lướt Internet ẩn danh hoặc để bảo vệ hoạt động trực tuyến của bạn khỏi những con mắt tò mò khi sử dụng Wi-Fi công cộng.
+Initially, VPNs were created to securely connect business networks over the Internet, so that people could connect to the corporate network from home. Công nghệ này được sử dụng cho nhiều mục đích khác nhau: ví dụ: để lướt Internet ẩn danh hoặc để bảo vệ hoạt động trực tuyến của bạn khỏi những con mắt tò mò khi sử dụng Wi-Fi công cộng.
 
 VPN kết nối máy tính hoặc thiết bị di động của người dùng tới máy chủ và cho phép người dùng duyệt mạng bằng địa chỉ IP của người khác. Do đó, bên quan sát thứ ba không thể nhìn thấy địa chỉ IP thực của người dùng, điều này khiến cho việc theo dõi người dùng gần như không thể.
 
@@ -16,9 +18,9 @@ Nói đến VPN, điều đầu tiên được đề cập đến là lưu lư�
 
 VPN có thể được sử dụng để:
 
-- Ẩn vị trí thực của bạn và ẩn danh
-- Bảo mật dữ liệu của bạn — ngay cả khi kết nối với Wi-Fi công cộng, bạn vẫn có thể duyệt Web an toàn
-- Bảo vệ bạn khỏi tấn công giả mạo (chặn lưu lượng truy cập mạng) và theo dõi từ phía nhà cung cấp dịch vụ Internet của bạn
+- Hide your real whereabouts and stay anonymous
+- Secure your data — even when connecting to a public Wi-Fi, you can browse the Web safely
+- Protect yourself from spoofing (network traffic interception) and tracking on the part of your Internet service provider
 
 Mật khẩu, thông tin thẻ và thông tin cá nhân cơ bản đều có nguy cơ gặp rủi ro khi người dùng "lướt" Internet. Nhưng nếu bạn kết nối với mạng toàn cầu bằng VPN, bạn có thể chắc chắn rằng không ai có thể chặn dữ liệu của bạn.
 
@@ -30,17 +32,17 @@ AdGuard đã có mặt trên thị trường bảo vệ dữ liệu cá nhân v�
 
 ### Giao thức VPN độc đáo
 
-Sự khác biệt chính giữa AdGuard VPN và các đối thủ cạnh tranh là chúng tôi sử dụng [giao thức tự phát triển](/general/adguard-vpn-protocol.mdx). Ngụy trang bản thân thành lưu lượng truy cập bình thường, khiến việc theo dõi và chặn sẽ khó khăn hơn nhiều.
+The main difference between AdGuard VPN and its competitors is that we use [our own developed protocol](/general/adguard-vpn-protocol). Ngụy trang bản thân thành lưu lượng truy cập bình thường, khiến việc theo dõi và chặn sẽ khó khăn hơn nhiều.
 
-### Chính sách không lưu nhật ký
+### No-logging policy
 
-Chính sách không lưu nhật ký có nghĩa là chúng tôi không thu thập, lưu trữ hoặc chuyển dữ liệu cá nhân của người dùng cho bên thứ ba. The full text of AdGuard VPN Privacy policy can be found [here](https://adguard-vpn.com/privacy.html).
+No-logging policy means that we don’t collect, store, or transfer users’ personal data to third parties. [Read AdGuard VPN Privacy policy](https://adguard-vpn.com/privacy.html)
 
 ### Chống theo dõi
 
 Lưu lượng truy cập web từ bất kỳ người dùng nào cũng có thể bị để mắt đến và đặc biệt có giá trị đối với các phương thức kiếm tiền từ dữ liệu cá nhân. Cả tội phạm và các nhà cung cấp dịch vụ internet (ISP) vô đạo đức đều có thể truy cập các dữ liệu này. Tuy nhiên, với một dịch vụ VPN đáng tin, bạn có thể yên tâm rằng cả nhà cung cấp của bạn và bất kỳ ai khác đều sẽ không thể thấy hoạt động internet của bạn.
 
-### Ultrafast VPN servers in 53 countries
+### Ultra-fast VPN servers in 53 countries
 
 - Argentina
 - Úc

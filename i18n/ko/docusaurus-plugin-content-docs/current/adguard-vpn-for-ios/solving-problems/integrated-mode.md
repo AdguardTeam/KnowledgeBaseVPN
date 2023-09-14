@@ -3,7 +3,7 @@ title: AdGuard 광고 차단기와의 호환성
 sidebar_position: 3
 ---
 
-AdGuard VPN에는 두 가지 작동 모드(일반 및 통합 모드)가 있습니다. 일반 모드는 기본적으로 활성화되어 있으며 [AdGuard VPN 프로토콜](/general/adguard-vpn-protocol.mdx)을 사용합니다. 이 프로토콜은 연결 속도와 보안의 최상의 조합을 제공합니다.
+AdGuard VPN에는 두 가지 작동 모드(일반 및 통합 모드)가 있습니다. General mode is enabled by default and uses [AdGuard VPN protocol](/general/adguard-vpn-protocol). 이 프로토콜은 연결 속도와 보안의 최상의 조합을 제공합니다.
 
 그러나 이 작동 모드에서는 AdGuard VPN과 AdGuard 광고 차단기가 동시에 작동할 수 없습니다.
 

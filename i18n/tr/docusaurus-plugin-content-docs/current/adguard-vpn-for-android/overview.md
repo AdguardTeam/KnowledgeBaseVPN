@@ -5,7 +5,7 @@ sidebar_position: 1
 
 ## Android için AdGuard VPN nedir?
 
-VPN, internette her gezindiğinizde güvenlik ve anonimlik sağlayan ideal bir araçtır. [Nasıl çalışır?](/general/how-vpn-works.md) Teknik detaylara girmeden VPN'in kullanıcının bilgisayarı veya mobil cihazı ile uzak bir VPN sunucusu arasında güvenli bir şifreli tünel oluşturduğunu söyleyebiliriz. Bu şekilde, üçüncü taraf bir gözlemci gerçek kullanıcının IP'sini değil VPN sunucusunun IP adresini gördüğünden, kullanıcının anonimliğinin yanı sıra veri gizliliği de korunur.
+VPN, internette her gezindiğinizde güvenlik ve anonimlik sağlayan ideal bir araçtır. [How does it work?](/general/how-vpn-works) Without going into technical details, we can say that VPN creates a secure encrypted tunnel between the user's computer or mobile device and a remote VPN server. Bu şekilde, üçüncü taraf bir gözlemci gerçek kullanıcının IP'sini değil VPN sunucusunun IP adresini gördüğünden, kullanıcının anonimliğinin yanı sıra veri gizliliği de korunur.
 
 **VPN sıklıkla şunlar için kullanılır:**
 
@@ -13,7 +13,7 @@ VPN, internette her gezindiğinizde güvenlik ve anonimlik sağlayan ideal bir a
 - IP adresini gizleyerek çevrimiçi etkinlik izlemeyi önlemek
 - Anonim kalmak için gerçek coğrafi konumu gizlemek
 
-Android için AdGuard VPN sizin için her şeyi yapabilir — ve hatta benzersiz bir şey sunabilir. AdGuard VPN'in neden daha iyi bir seçenek olduğunu öğrenmek için — [bu makaleyi](/general/why-adguard-vpn.md) okuyun.
+Android için AdGuard VPN sizin için her şeyi yapabilir — ve hatta benzersiz bir şey sunabilir. To find out why AdGuard VPN is the better option — read [this article](/general/why-adguard-vpn).
 
 ## Android için AdGuard VPN'i kullanmaya nasıl başlanır
 

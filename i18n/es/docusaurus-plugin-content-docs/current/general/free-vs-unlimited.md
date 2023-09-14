@@ -22,4 +22,4 @@ Al mismo tiempo, puede comprar una suscripción para obtener una versión ilimit
 - Streaming seguro
 - Sin bloque de puerto 25
 
-Para usar todas las ventajas, considere [comprar una suscripción](subscription.md).
+To use all the advantages, consider [purchasing a subscription](/general/subscription).

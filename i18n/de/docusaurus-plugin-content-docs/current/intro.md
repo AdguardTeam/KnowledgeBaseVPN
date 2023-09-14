@@ -6,9 +6,11 @@ slug: /
 
 ## Was ein VPN ist und warum Sie eines brauchen
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7149L3xPmSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Mit einem VPN können Sie eine sichere Verbindung zu einem anderen Netzwerk im Internet herstellen.
 
-Ursprünglich wurden VPNs zu einem einzigen Zweck entwickelt — um Unternehmensnetzwerke sicher über das Internet zu verbinden, damit die Mitarbeiter:innen von zu Hause aus auf das Unternehmensnetzwerk zugreifen können. Diese Technologie wird für viele andere Dinge verwendet: zum Beispiel, um anonym im Internet zu surfen oder um Ihre Online-Aktivitäten vor neugierigen Blicken zu schützen, während Sie öffentliches WLAN verwenden.
+Initially, VPNs were created to securely connect business networks over the Internet, so that people could connect to the corporate network from home. Diese Technologie wird für viele andere Dinge verwendet: zum Beispiel, um anonym im Internet zu surfen oder um Ihre Online-Aktivitäten vor neugierigen Blicken zu schützen, während Sie öffentliches WLAN verwenden.
 
 Ein VPN verbindet den Computer oder das mobile Gerät eines Benutzers mit einem Server und ermöglicht es Ihnen, mit einer anderen IP-Adresse im Internet zu surfen. So können Dritte die tatsächlichen IP-Adressen der Nutzer nicht sehen, was es nahezu unmöglich macht, sie aufzuspüren.
 
@@ -16,9 +18,9 @@ Apropos VPN, das erste, was sie erwähnen, ist die Verschlüsselung des Datenver
 
 Sie können ein VPN verwenden, um:
 
-- Ihren tatsächlichen Aufenthaltsort zu verbergen und anonym zu bleiben
-- Ihre Daten zu schützen — auch wenn Sie eine Verbindung zu einem öffentlichen WLAN herstellen, können Sie sicher im Internet surfen
-- sich vor Spoofing (Abhören des Netzverkehrs) und Tracking seitens Ihres Internetanbieters zu schützen
+- Hide your real whereabouts and stay anonymous
+- Secure your data — even when connecting to a public Wi-Fi, you can browse the Web safely
+- Protect yourself from spoofing (network traffic interception) and tracking on the part of your Internet service provider
 
 Passwörter, Kartendetails und einfach nur persönliche Informationen sind gefährdet, wenn ein Benutzer im Internet surft. Wenn Sie sich jedoch über ein VPN mit dem globalen Netzwerk verbinden, können Sie sicher sein, dass niemand Ihre Daten abfangen kann.
 
@@ -30,17 +32,17 @@ AdGuard ist seit mehr als 12 Jahren auf dem Markt für den Schutz personenbezoge
 
 ### Einzigartiges VPN-Protokoll
 
-Der Hauptunterschied zwischen AdGuard VPN und seinen Konkurrenten besteht darin, dass wir [unser selbst entwickeltes Protokoll](/general/adguard-vpn-protocol.mdx) verwenden. Es tarnt sich als normaler Verkehr, daher ist es viel schwieriger, es zu verfolgen und zu sperren.
+The main difference between AdGuard VPN and its competitors is that we use [our own developed protocol](/general/adguard-vpn-protocol). Es tarnt sich als normaler Verkehr, daher ist es viel schwieriger, es zu verfolgen und zu sperren.
 
-### No-Logs-Politik
+### No-logging policy
 
-Keine Protokollierungsrichtlinie bedeutet, dass wir die personenbezogenen Daten der Benutzer nicht sammeln, speichern oder an Dritte weitergeben. Den vollständigen Text der Datenschutzerklärung von AdGuard VPN finden Sie [hier](https://adguard-vpn.com/privacy.html).
+No-logging policy means that we don’t collect, store, or transfer users’ personal data to third parties. [Read AdGuard VPN Privacy policy](https://adguard-vpn.com/privacy.html)
 
 ### Schutz vor Tracking
 
 Web-Traffic von jedem Benutzer kann von Interesse sein und ist besonders wertvoll im Hinblick auf die Monetarisierung persönlicher Daten. Sowohl Kriminelle als auch skrupellose ISPs können darauf zugreifen. Mit einem vertrauenswürdigen VPN können Sie jedoch sicher sein, dass weder Ihr Anbieter noch sonst jemand Ihre Internetaktivitäten sehen wird.
 
-### Ultraschnelle VPN-Server in 53 Ländern
+### Ultra-fast VPN servers in 53 countries
 
 - Argentinien
 - Australien

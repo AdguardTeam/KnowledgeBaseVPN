@@ -5,7 +5,7 @@ sidebar_position: 1
 
 ## Qu’est-ce que AdGuard VPN pour Android ?
 
-Un VPN est l'outil idéal qui offre sécurité et anonymat à chaque fois que vous naviguez sur Internet. [Comment ça marche ?](/general/how-vpn-works.md) Sans entrer dans les détails techniques, nous pouvons dire que le VPN crée un tunnel crypté sécurisé entre l'ordinateur ou l'appareil mobile de l'utilisateur et un serveur VPN distant. De cette manière, la confidentialité des données est préservée, ainsi que l'anonymat de l'utilisateur, car un observateur tiers voit l'adresse IP du serveur VPN et non l'adresse IP réelle de l'utilisateur.
+Un VPN est l'outil idéal qui offre sécurité et anonymat à chaque fois que vous naviguez sur Internet. [How does it work?](/general/how-vpn-works) Without going into technical details, we can say that VPN creates a secure encrypted tunnel between the user's computer or mobile device and a remote VPN server. De cette manière, la confidentialité des données est préservée, ainsi que l'anonymat de l'utilisateur, car un observateur tiers voit l'adresse IP du serveur VPN et non l'adresse IP réelle de l'utilisateur.
 
 **Le VPN est fréquemment utilisé pour :**
 
@@ -13,7 +13,7 @@ Un VPN est l'outil idéal qui offre sécurité et anonymat à chaque fois que vo
 - Empêcher le suivi des activités en ligne en masquant l'adresse IP
 - Cacher la géolocalisation réelle pour rester anonyme
 
-AdGuard VPN pour Android peut faire tout cela pour vous - et même offrir quelque chose d'unique. Pour savoir pourquoi AdGuard VPN est la meilleure option — lisez [cet article](/general/why-adguard-vpn.md).
+AdGuard VPN pour Android peut faire tout cela pour vous - et même offrir quelque chose d'unique. To find out why AdGuard VPN is the better option — read [this article](/general/why-adguard-vpn).
 
 ## Comment commencer à utiliser AdGuard VPN pour Android
 

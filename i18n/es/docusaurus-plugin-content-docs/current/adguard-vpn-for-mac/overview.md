@@ -44,7 +44,7 @@ Además, las listas de exclusiones ya definidas se pueden transferir a otros dis
 
 ![Pantalla de Centro de Asistencia](https://cdn.adguardvpn.com/content/kb/vpn/mac/support_en.png)
 
-La tercera pestaña es la pantalla *Centro de Asistencia*. Encuentra respuestas a cualquier pregunta en las [Preguntas Frecuentes](https://adguard-vpn.com/welcome.html#faq) o en la [Base de Conocimiento](/intro.md), informe un error si lo encuentras o [habla sobre AdGuard en diferentes plataformas](https://adguard.com/discuss.html). Y no dudes en [dejar tu opinión sobre nuestro producto](https://surveys.adguard.com/vpn_mac/form.html), te lo agradeceremos.
+La tercera pestaña es la pantalla *Centro de Asistencia*. Find answers to any questions in the [FAQ](https://adguard-vpn.com/welcome.html#faq) or in the [Knowledge base](/) sections, report a bug if you encounter one, or [discuss AdGuard on any of the platforms](https://adguard.com/discuss.html). Y no dudes en [dejar tu opinión sobre nuestro producto](https://surveys.adguard.com/vpn_mac/form.html), te lo agradeceremos.
 
 ## Configuración
 

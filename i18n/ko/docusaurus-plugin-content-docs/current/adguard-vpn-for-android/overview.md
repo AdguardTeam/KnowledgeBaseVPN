@@ -5,7 +5,7 @@ sidebar_position: 1
 
 ## Android용 AdGuard VPN이란 무엇인가요?
 
-VPN은 인터넷을 사용할 때 보안과 익명성을 제공하는 도구입니다. VPN은 사용자의 컴퓨터 또는 모바일 [기기와 원격 VPN 서버 간에 암호화된 보안 터널](/general/how-vpn-works.md)을 생성합니다. 따라서 실제 사용자 IP가 아닌 VPN 서버의 IP 주소가 표시되기 때문에 데이터 기밀성과 사용자 익명성이 유지됩니다.
+VPN은 인터넷을 사용할 때 보안과 익명성을 제공하는 도구입니다. [How does it work?](/general/how-vpn-works) Without going into technical details, we can say that VPN creates a secure encrypted tunnel between the user's computer or mobile device and a remote VPN server. 따라서 실제 사용자 IP가 아닌 VPN 서버의 IP 주소가 표시되기 때문에 데이터 기밀성과 사용자 익명성이 유지됩니다.
 
 **VPN은 다음과 같은 목적으로 자주 사용됩니다.**
 
@@ -13,7 +13,7 @@ VPN은 인터넷을 사용할 때 보안과 익명성을 제공하는 도구입�
 - IP 주소를 마스킹하여 온라인 활동 추적 방지
 - 익명성을 유지하기 위해 실제 위치 숨기기
 
-Android용 AdGuard VPN은 모든 일반 기능뿐만 아니라 여러 고유한 기능도 제공합니다. [이 글](/general/why-adguard-vpn.md)에서 AdGuard VPN 사용의 이점을 확인할 수 있습니다.
+Android용 AdGuard VPN은 모든 일반 기능뿐만 아니라 여러 고유한 기능도 제공합니다. To find out why AdGuard VPN is the better option — read [this article](/general/why-adguard-vpn).
 
 ## Android용 AdGuard VPN 사용을 시작하는 방법
 

@@ -22,4 +22,4 @@ sidebar_position: 5
 - 安全串流
 - 25 連接埠不被封鎖
 
-要獲取所有好處，請考慮[付費訂閱](subscription.md)。
+To use all the advantages, consider [purchasing a subscription](/general/subscription).

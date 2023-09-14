@@ -9,13 +9,13 @@ A VPN, acronym for "Virtual Private Network", is a service that makes your Inter
 
 ## What AdGuard VPN for Windows does
 
-- Protège contre l'interception du trafic réseau (spoofing). AdGuard VPN crée un tunnel chiffré entre votre appareil et un serveur distant. Tout votre trafic Internet passe par ce tunnel, vos données sont donc protégées en cours de route. Et grâce au protocole unique de [AdGuard](/general/adguard-vpn-protocol.mdx), vous avez la garantie d'une connexion rapide et sécurisée.
+- Protège contre l'interception du trafic réseau (spoofing). AdGuard VPN crée un tunnel chiffré entre votre appareil et un serveur distant. Tout votre trafic Internet passe par ce tunnel, vos données sont donc protégées en cours de route. And thanks to [AdGuard's unique protocol](/general/adguard-vpn-protocol), you're guaranteed a fast and secure connection.
 
 - Masque votre adresse IP. Votre véritable adresse IP est la clé à vos données personnelles pour les cybercriminels. Votre nom, adresse e-mail, numéro de téléphone, informations de carte bancaire peuvent tous tomber entre les mains de fraudeurs si vous ne cachez pas votre adresse IP. Avec AdGuard VPN, comme nous l'avons déjà dit, tout votre trafic passe par un tunnel chiffré et arrive sur le serveur VPN. Par conséquent, de l’extérieur, il semble que votre appareil ait l’adresse IP dudit serveur VPN.
 
 - Masque votre emplacement réel. En sélectionnant l'un des serveurs VPN AdGuard, vous êtes instantanément "téléporté" vers son emplacement. Qu'est-ce que cela vous donne ? Par exemple, la possibilité de réserver un hôtel aux tarifs locaux ou de se cacher de la publicité géo-ciblée.
 
-AdGuard VPN for Windows has many advantages, so we've dedicated [a separate article](/general/why-adguard-vpn.md) to them. Here, however, we want to focus more on the application itself and how it works.
+AdGuard VPN for Windows has many advantages, so we've dedicated [a separate article](/general/why-adguard-vpn) to them. Here, however, we want to focus more on the application itself and how it works.
 
 ## How to start using AdGuard VPN for Windows
 

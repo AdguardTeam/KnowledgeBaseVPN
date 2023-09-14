@@ -15,7 +15,7 @@ Jakmile budete připraveni začít, zapracujte [na repozitáři KnowledgeBaseVPN
 
 Webová stránka databáze znalostí je vytvořena pomocí moderního generátoru statických webových stránek Docusaurus 2. Při navrhování změn nebo doplňků berte v úvahu, že všechny dokumenty musí být v souladu se zásadami platformy. Můžete si o nich přečíst v [průvodci dostupném na tomto odkazu](https://docusaurus.io/docs/category/guides).
 
-Tuto databázi znalostí můžete lokálně uložit do svého počítače a zobrazit náhled navrhovaných změn. Podrobný návod, jak to provést, najdete na adrese [v souboru README.md](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README.md) na stránce GitHub této databáze znalostí.
+Tuto databázi znalostí můžete lokálně uložit do svého počítače a zobrazit náhled navrhovaných změn. Detailed instructions on how to do this can be found [in the README.md file](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README) on this Knowledge Base's GitHub page.
 
 ## Překládání článků {#translate-adguard}
 

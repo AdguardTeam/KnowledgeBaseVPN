@@ -3,7 +3,7 @@ title: Como se inscrever
 sidebar_position: 6
 ---
 
-O AdGuard VPN está disponível em duas versões — gratuita e ilimitada. A assinatura permite que você use o aplicativo sem restrições de tráfego, velocidade de conexão e escolha de locais. Você pode [ler mais sobre todas as vantagens da versão ilimitada](free-vs-unlimited.md).
+O AdGuard VPN está disponível em duas versões — gratuita e ilimitada. A assinatura permite que você use o aplicativo sem restrições de tráfego, velocidade de conexão e escolha de locais. You can [read more about all the advantages of the unlimited version](/general/free-vs-unlimited).
 
 Se você decidiu comprar uma assinatura do AdGuard VPN, há três maneiras de fazer isso:
 

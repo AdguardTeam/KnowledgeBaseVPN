@@ -15,7 +15,7 @@ Başlamaya hazır olduğunuzda, [KnowledgeBaseVPN deposunda](https://github.com/
 
 Bilgi Tabanı sitesi, modern bir statik site oluşturucu olan Docusaurus 2 kullanılarak oluşturulmuştur. Değişiklikler veya eklemeler önerirken, tüm belgelerin platformun ilkelerine uygun olması gerektiğini göz önünde bulundurun. Onlar hakkında [bu bağlantı aracılığıyla mevcut olan rehberde](https://docusaurus.io/docs/category/guides) okuyabilirsiniz.
 
-Önerdiğiniz değişiklikleri önizlemek için bu Bilgi Tabanını bilgisayarınıza yerel olarak konuşlandırabilirsiniz. Bunun nasıl yapılacağına ilişkin ayrıntılı talimatlar, bu Bilgi Tabanının GitHub sayfasındaki [README.md dosyasında](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README.md) bulunabilir.
+Önerdiğiniz değişiklikleri önizlemek için bu Bilgi Tabanını bilgisayarınıza yerel olarak konuşlandırabilirsiniz. Detailed instructions on how to do this can be found [in the README.md file](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README) on this Knowledge Base's GitHub page.
 
 ## Makaleleri çevirme {#translate-adguard}
 

@@ -11,30 +11,30 @@ sidebar_position: 2
 
 1. 打开 AdGuard VPN iOS 版，如果可以，请您重复导致错误的操作。 请记下发生此错误的确切时间。
 
-2. Select *Settings* in the lower right corner of the screen, then select *Support* and click *Leave feedback* in it.
+2. 选择屏幕右下角的*「设置」*，然后选择*「支持」*，然后单击*「留下反馈」*。
 
 3. 在打开的表单中，输入您的电子邮件地址以获取反馈，然后描述发现的错误，包括该错误发生的时间。 如果您无法重复问题，请尽可能准确地指明上次发生的时间。
 
-4. There is a check mark next to the *Submit detailed system info*, which means that when you send a report, you also send logs. Finally, click *Send*.
-> 如果出于某种原因，您以其他方式向我们发送日志更方便，您可以自己导出它们。 To do this, select *Export logs* in the *Support* section.
+4. *「发送详细的系统信息」*旁边有一个复选框，勾选则意味着当您发送报告时，也会自动发送日志。 最后，点击*发送*。
+> 如果出于某种原因，您以其他方式向我们发送日志更方便，您可以自己导出它们。 为此，请在*「支持」*部分中选择*「导出日志」*。
 
 ## 收集和发送进阶日志
 
 在大多数情况下， 默认日志记录级别足以追踪发生的错误。 但在某些情况下，需要有关设备和连接的更详细技术信息，然后我们的支持团队会要求您启用进阶日志记录级别。 要发送进阶日志，请执行以下步骤：
 
-1. Open AdGuard VPN for iOS and select *Settings* in the lower right corner of the screen.
+1. 打开 AdGuard VPN iOS 版，选择屏幕右下角的*「设置」*。
 
-2. Select *App settings* and *Advanced settings* in it.
+2. 选择*「应用程序设置」*和*「高级设置」*。
 
-3. In the *Logging level* section, select *Extended*.
+3. 在*「日志记录级别」*部分中，选择*「扩展」*。
 
 4. 重复导致错误的操作，并记下错误发生的时间。
 
-5. Switch the logging level back to *Default*.
+5. 将日志记录级别切回*「默认」*。
 
-6. Then go back to the main section *Settings*, select *Support* and then *Leave feedback*.
+6. 然后返回*「设置」*主界面，选择*「支持」*，然后选择*「留下反馈」*。
 
 7. 在打开的表单中，输入您的电子邮件地址以获取反馈，然后描述发现的错误，包括该错误发生的时间。
 
-8. Make sure that there is a check mark next to *Submit detailed system info* and click *Send*.
-> 如果出于某种原因，您以其他方式向我们发送日志更方便，您可以自己导出它们。 To do this, select *Export logs* in the *Support* section.
+8. 确保勾选*「提交详细系统信息」* 旁边的复选框，然后单击*「发送」*。
+> 如果出于某种原因，您以其他方式向我们发送日志更方便，您可以自己导出它们。 为此，请在*「支持」*部分中选择*「导出日志」*。

@@ -15,7 +15,7 @@ Une fois que vous êtes prêt à commencer, procédez dans [le référentiel Kno
 
 Le site web de la base de connaissances est construit à l'aide de Docusaurus 2 - un générateur moderne de sites web statiques. Lorsque vous suggérez des modifications ou des ajouts d'infos, tenez compte du fait que tous les documents doivent respecter les principes de la plateforme. Vous pouvez en prendre connaissance dans le guide [disponible via ce lien](https://docusaurus.io/docs/category/guides).
 
-Vous pouvez déployer cette Base de connaissances localement sur votre ordinateur pour prévisualiser les modifications que vous suggérez. Des instructions détaillées sur la façon de procéder peuvent être trouvées [dans le fichier README.md](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README.md) sur la page GitHub de cette base de connaissances.
+Vous pouvez déployer cette Base de connaissances localement sur votre ordinateur pour prévisualiser les modifications que vous suggérez. Detailed instructions on how to do this can be found [in the README.md file](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README) on this Knowledge Base's GitHub page.
 
 ## Traduction des articles {#translate-adguard}
 

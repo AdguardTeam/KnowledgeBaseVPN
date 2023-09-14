@@ -44,7 +44,7 @@ Webサイトを手動で対象外リストに追加するだけでなく、人�
 
 ![サポート画面](https://cdn.adguardvpn.com/content/kb/vpn/mac/support_en.png)
 
-3つ目のタブは、 *サポート*画面です。 Find answers to any questions in the [FAQ](https://adguard-vpn.com/welcome.html#faq) or in the [Knowledge base](/intro.md) sections, report a bug if you encounter one, or [discuss AdGuard on any of the platforms](https://adguard.com/discuss.html). And feel free to [leave feedback about our product](https://surveys.adguard.com/vpn_mac/form.html), we’d appreciate it.
+3つ目のタブは、 *サポート*画面です。 Find answers to any questions in the [FAQ](https://adguard-vpn.com/welcome.html#faq) or in the [Knowledge base](/) sections, report a bug if you encounter one, or [discuss AdGuard on any of the platforms](https://adguard.com/discuss.html). And feel free to [leave feedback about our product](https://surveys.adguard.com/vpn_mac/form.html), we’d appreciate it.
 
 ## 設定
 

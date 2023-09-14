@@ -33,4 +33,4 @@ Pokud jste se rozhodli odstranit AdGuard VPN pro iOS, najděte ikonu této aplik
 
 ![Uninstall *mobile_border](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/deinstall-en.png)
 
-Více informací o aplikaci AdGuard VPN pro iOS najdete v [tomto článku](overview.md).
+You can learn more about the AdGuard VPN app for iOS in [this article](adguard-vpn-for-ios/overview).

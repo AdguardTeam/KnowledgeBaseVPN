@@ -3,7 +3,7 @@ title: 有料サブスクリプション の入手方法
 sidebar_position: 6
 ---
 
-AdGuard VPNには、無料版と無制限版（有料版）があります。 有料サブスクリプションでは、通信量、接続速度、ロケーション選択などの制限なしにAdGuard VPNを利用することができます。 無制限版（有料版）のメリットについては、 [こちら](free-vs-unlimited.md)をご覧ください。
+AdGuard VPNには、無料版と無制限版（有料版）があります。 有料サブスクリプションでは、通信量、接続速度、ロケーション選択などの制限なしにAdGuard VPNを利用することができます。 You can [read more about all the advantages of the unlimited version](/general/free-vs-unlimited).
 
 AdGuard VPNサブスクリプションをご購入いただくには、3つの方法があります:
 

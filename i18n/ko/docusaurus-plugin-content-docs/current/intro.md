@@ -6,9 +6,11 @@ slug: /
 
 ## VPN이란 무엇이며 왜 필요한가요?
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7149L3xPmSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 VPN을 사용하면 인터넷의 다른 네트워크에 안전하게 연결할 수 있습니다.
 
-원래 VPN은 사람들이 집에서 회사 네트워크에 연결할 수 있도록 인터넷을 통해 비즈니스 네트워크를 안전하게 연결하기 위해 만들어졌습니다. 그러나 이 기술은 다른 많은 용도로 사용됩니다. 예를 들어, 익명으로 인터넷을 탐색하거나 공용 Wi-Fi를 사용하는 동안 온라인 활동을 엿보는 눈으로부터 보호합니다.
+Initially, VPNs were created to securely connect business networks over the Internet, so that people could connect to the corporate network from home. 그러나 이 기술은 다른 많은 용도로 사용됩니다. 예를 들어, 익명으로 인터넷을 탐색하거나 공용 Wi-Fi를 사용하는 동안 온라인 활동을 엿보는 눈으로부터 보호합니다.
 
 VPN은 컴퓨터 또는 모바일 기기를 서버에 연결하고, 실제 IP 주소를 사용하지 않고 인터넷을 탐색할 수 있도록 합니다. 따라서 제3자는 사용자의 실제 IP 주소를 볼 수 없으므로 IP 주소를 추적하는 것이 거의 불가능합니다.
 
@@ -16,9 +18,9 @@ VPN과 관련하여 가장 먼저 언급하는 것은 트래픽 암호화와 보
 
 VPN은 다음 용도로 사용할 수 있습니다.
 
-- 실제 위치를 숨기고 익명성을 유지합니다.
-- 데이터를 보호합니다. 공용 Wi-Fi에 연결되어 있어도 안전하게 웹 브라우징을 할 수 있습니다.
-- 인터넷 서비스 제공업체 측의 스푸핑(네트워크 트래픽 가로채기) 및 추적으로부터 기기를 보호합니다.
+- Hide your real whereabouts and stay anonymous
+- Secure your data — even when connecting to a public Wi-Fi, you can browse the Web safely
+- Protect yourself from spoofing (network traffic interception) and tracking on the part of your Internet service provider
 
 사용자가 인터넷을 사용할 때 비밀번호, 카드 세부 정보 및 개인정보 등이 노출될 위험이 있습니다. 그러나 VPN을 사용하여 글로벌 네트워크에 연결하면 아무도 데이터를 가로챌 수 없습니다.
 
@@ -30,17 +32,17 @@ AdGuard는 12년 이상 개인 데이터를 보호하고 광고를 차단하는 
 
 ### 사내 VPN 프로토콜
 
-AdGuard VPN과 경쟁업체의 주요 차이점은 [자체 프로토콜](/general/adguard-vpn-protocol.mdx)을 사용한다는 것입니다. 이 프로토콜은 일반 트래픽으로 위장하므로 이를 추적하고 차단하기가 훨씬 더 어렵습니다.
+The main difference between AdGuard VPN and its competitors is that we use [our own developed protocol](/general/adguard-vpn-protocol). 이 프로토콜은 일반 트래픽으로 위장하므로 이를 추적하고 차단하기가 훨씬 더 어렵습니다.
 
-### 노로그 정책
+### No-logging policy
 
-노로그 정책은 당사가 사용자의 개인 데이터를 수집하거나 저장하지 않으며 제3자와 공유하지 않음을 의미합니다. AdGuard VPN 개인정보취급방침은 [여기](https://adguard-vpn.com/privacy.html)에서 확인하실 수 있습니다.
+No-logging policy means that we don’t collect, store, or transfer users’ personal data to third parties. [Read AdGuard VPN Privacy policy](https://adguard-vpn.com/privacy.html)
 
 ### 추적 보호
 
 모든 사용자의 웹 트래픽은 주로 개인 데이터의 수익 창출 측면에서 가치가 있습니다. 사이버 범죄자와 인터넷 공급자 모두 사용자의 트래픽에 액세스할 수 있습니다. 그러나 신뢰할 수 있는 VPN을 사용하면 공급자나 다른 사람이 귀하의 인터넷 활동을 볼 수 없다고 확신할 수 있습니다.
 
-### 53개국의 초고속 VPN 서버
+### Ultra-fast VPN servers in 53 countries
 
 - 아르헨티나
 - 호주

@@ -51,4 +51,4 @@ A veces, como resultado de una eliminación incorrecta, o en otros casos excepci
 
 AdGuard VPN se eliminó por completo de su Mac.
 
-Puedes aprender más sobre AdGuard VPN para Mac en [este artículo](/adguard-vpn-for-mac/overview.md).
+You can learn more about AdGuard VPN for Mac in [this article](/adguard-vpn-for-mac/overview).

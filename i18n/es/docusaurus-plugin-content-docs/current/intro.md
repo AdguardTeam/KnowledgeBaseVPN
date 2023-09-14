@@ -6,9 +6,11 @@ slug: /
 
 ## Qué es una VPN y por qué necesitas una?
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7149L3xPmSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Una VPN le permite crear una conexión segura a otra red en Internet.
 
-Inicialmente, las VPN se crearon con un propósito: conectar de forma segura las redes comerciales a través de Internet, de modo que las personas pudieran conectarse a la red corporativa desde casa. Esta tecnología se utiliza para muchas otras cosas: por ejemplo, para navegar por Internet de forma anónima o para proteger su actividad en línea de miradas indiscretas mientras usa Wi-Fi público.
+Initially, VPNs were created to securely connect business networks over the Internet, so that people could connect to the corporate network from home. Esta tecnología se utiliza para muchas otras cosas: por ejemplo, para navegar por Internet de forma anónima o para proteger su actividad en línea de miradas indiscretas mientras usa Wi-Fi público.
 
 Una VPN conecta la computadora o el dispositivo móvil de un usuario a un servidor y le permite a uno navegar por la red utilizando la dirección IP de otra persona. Por lo tanto, los observadores de terceros no pueden ver la dirección IP real del usuario, lo que hace que sea casi imposible rastrearlos.
 
@@ -16,9 +18,9 @@ Hablando de VPN, lo primero que mencionan es el cifrado del tráfico y la seguri
 
 La VPN se puede utilizar para:
 
-- ocultar tu paradero real y permanecer en el anonimato
-- proteger sus datos: incluso cuando se conecta a una red Wi-Fi pública, puede navegar por la Web de forma segura
-- protegerse de la suplantación de identidad (interceptación del tráfico de red) y el seguimiento por parte de su proveedor de servicios de Internet
+- Hide your real whereabouts and stay anonymous
+- Secure your data — even when connecting to a public Wi-Fi, you can browse the Web safely
+- Protect yourself from spoofing (network traffic interception) and tracking on the part of your Internet service provider
 
 Las contraseñas, los detalles de la tarjeta y simplemente su información personal están en riesgo cuando un usuario navega por Internet. Pero si se conecta a la red global utilizando una VPN, puede estar seguro de que nadie puede interceptar sus datos.
 
@@ -30,17 +32,17 @@ AdGuard ha estado presente en el mercado de protección de datos personales y bl
 
 ### Protocolo VPN único
 
-La principal diferencia entre AdGuard VPN y sus competidores es que utilizamos [nuestro propio protocolo desarrollado](/general/adguard-vpn-protocol.mdx). Se disfraza de tráfico normal, por lo que es mucho más difícil rastrearlo y bloquearlo.
+The main difference between AdGuard VPN and its competitors is that we use [our own developed protocol](/general/adguard-vpn-protocol). Se disfraza de tráfico normal, por lo que es mucho más difícil rastrearlo y bloquearlo.
 
-### Política de no registros
+### No-logging policy
 
-La política de no registros significa que no recopilamos, almacenamos ni transferimos los datos personales de los usuarios a terceros. Encontra [aquí](https://adguard-vpn.com/privacy.html) el texto completo de la política de privacidad de AdGuard VPN.
+No-logging policy means that we don’t collect, store, or transfer users’ personal data to third parties. [Read AdGuard VPN Privacy policy](https://adguard-vpn.com/privacy.html)
 
 ### Protección de rastreo
 
 El tráfico web de cualquier usuario puede ser de interés y es particularmente valioso en términos de monetización de datos personales. Tanto los delincuentes como los ISP sin escrúpulos pueden acceder a él. Sin embargo, con una VPN confiable, puede estar seguro de que ni su proveedor ni nadie más verá su actividad en Internet.
 
-### Servidores VPN rápidos en 53 países
+### Ultra-fast VPN servers in 53 countries
 
 - Argentina
 - Australia

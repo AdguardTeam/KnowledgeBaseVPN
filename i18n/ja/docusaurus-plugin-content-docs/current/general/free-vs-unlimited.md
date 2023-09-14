@@ -22,4 +22,4 @@ AdGuard VPNは無料で使用できますが、一定の制限があります:
 - 配信（ストリーミング）サービス対応
 - ポート25のブロックなし
 
-すべてのメリットをご利用いただくには、ぜひ[サブスクリプションのご購入](subscription.md)をご検討ください。
+To use all the advantages, consider [purchasing a subscription](/general/subscription).

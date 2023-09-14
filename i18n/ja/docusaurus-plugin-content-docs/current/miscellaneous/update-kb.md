@@ -15,7 +15,7 @@ sidebar_position: 3
 
 ナレッジベースのウェブサイトは、現代の静的ウェブサイトジェネレータである「Docusaurus 2」を使用して構築されています。 変更または追加を提案する場合、すべてのテキストがのDocusaurus 2に準拠している必要があります。 Docusaurus 2の原則は、 [このリンク先のガイド](https://docusaurus.io/docs/category/guides)で確認することができます。
 
-このナレッジベースは、お使いのコンピュータにローカルに展開し、提案する変更をプレビューすることができます。 この方法の詳細な説明は、本ナレッジベースのGitHubページにある [README.md ファイル](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README.md)に記載されています。
+このナレッジベースは、お使いのコンピュータにローカルに展開し、提案する変更をプレビューすることができます。 Detailed instructions on how to do this can be found [in the README.md file](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README) on this Knowledge Base's GitHub page.
 
 ## 記事の翻訳 {#translate-adguard}
 

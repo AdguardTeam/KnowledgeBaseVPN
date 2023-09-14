@@ -3,7 +3,7 @@ title: Wie Sie sich anmelden
 sidebar_position: 6
 ---
 
-AdGuard VPN ist in zwei Versionen verfügbar – kostenlos und unbegrenzt. Mit dem bezahlten Abonnement können Sie die App ohne Einschränkungen in Bezug auf den Datenverkehr, die Verbindungsgeschwindigkeit und die Auswahl der Standorte nutzen. Sie können mehr über [alle Vorteile der unbegrenzten Version](free-vs-unlimited.md) lesen.
+AdGuard VPN ist in zwei Versionen verfügbar – kostenlos und unbegrenzt. Mit dem bezahlten Abonnement können Sie die App ohne Einschränkungen in Bezug auf den Datenverkehr, die Verbindungsgeschwindigkeit und die Auswahl der Standorte nutzen. You can [read more about all the advantages of the unlimited version](/general/free-vs-unlimited).
 
 Wenn Sie sich für ein Abonnement von AdGuard VPN entschieden haben, gibt es drei Möglichkeiten, es zu erwerben:
 

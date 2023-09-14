@@ -5,7 +5,7 @@ sidebar_position: 1
 
 ## AdGuard VPN for iOS とは？
 
-VPNを利用すると、インターネット上の別のネットワークに安全な接続を確立することができます。 ユーザーのパソコンやスマホをVPNサーバーに接続し、他人のIPアドレスを使ってネットを閲覧できるようにするものです。 そのため、VPNサーバーが別の国にある場合、ユーザーがその国からインターネットに接続したように見えます。 VPNの仕組みについて[詳しくはこちら](/general/how-vpn-works.md)でご確認いただけます。
+VPNを利用すると、インターネット上の別のネットワークに安全な接続を確立することができます。 ユーザーのパソコンやスマホをVPNサーバーに接続し、他人のIPアドレスを使ってネットを閲覧できるようにするものです。 そのため、VPNサーバーが別の国にある場合、ユーザーがその国からインターネットに接続したように見えます。 [Learn more](/general/how-vpn-works) about how a VPN works in detail.
 
 AdGuard VPNの機能といえば、複数あります:
 
@@ -14,7 +14,7 @@ AdGuard VPNの機能といえば、複数あります:
 - トラフィック（通信）を暗号化し、詐欺師やハッカーがアクセスできないようにします。
 - vPNを使用する・しない場所を設定できます（VPN対象外リスト機能）。
 
-AdGuard VPN for iOS のもう一つの利点は、独自開発のVPNプロトコルです。 その主な利点は2つあります。他のVPNプロトコルと比較して、検出が極めて困難であることと、インターネット接続が悪い場合でも安定して動作することです。 AdGuard VPNプロトコルについて、 [こちらの記事](../general/adguard-vpn-protocol.mdx)で詳しく説明しておりますので、よければご確認ください。
+AdGuard VPN for iOS のもう一つの利点は、独自開発のVPNプロトコルです。 その主な利点は2つあります。他のVPNプロトコルと比較して、検出が極めて困難であることと、インターネット接続が悪い場合でも安定して動作することです。 You can read more about AdGuard VPN protocol [in this article](/general/adguard-vpn-protocol).
 
 ## AdGuard VPN for iOS の使い方
 
@@ -59,7 +59,7 @@ AdGuard VPN の使い方は非常に簡単です。 メイン画面には、 *�
 
 AdGuard VPN for iOS には、「**標準**」と「**併用**」という2つの動作モードがあります。
 
-**標準**モードでは、[AdGuard VPN プロトコル](../general/adguard-vpn-protocol.mdx)が採用され、速度とセキュリティの最良の組み合わせが実現されます。 In this mode, AdGuard VPN will not be able to work alongside [AdGuard Ad Blocker for iOS](https://adguard.com/kb/adguard-for-ios/overview/).
+In **General** mode, the [AdGuard VPN protocol](/general/adguard-vpn-protocol) is employed, which provides the best combination of speed and security. In this mode, AdGuard VPN will not be able to work alongside [AdGuard Ad Blocker for iOS](https://adguard.com/kb/adguard-for-ios/overview/).
 
 **併用**モードでは、AdGuard VPN は、IPSecプロトコルを使用することで、iOS用AdGuard広告ブロッカーと同時に動作することができます。 このプロトコルも安全ですが、少し遅く、若干検出されやすくなっています。 両アプリをインストールし、併用モードに切り替えるだけで両アプリを併用できます。他の追加操作は必要ありません。
 > ※**併用** モードでは、「VPN対象外リスト」機能を使用したり、DNSサーバーを選択することができません。

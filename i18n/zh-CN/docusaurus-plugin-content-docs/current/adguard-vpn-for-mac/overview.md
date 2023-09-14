@@ -44,7 +44,7 @@ AdGuard VPN Mac版是一个桌面 VPN 服务。 AdGuard VPN 与 AdGuard 广告�
 
 ![支持屏幕](https://cdn.adguardvpn.com/content/kb/vpn/mac/support_en.png)
 
-第三个标签是*支持*。 在[常见问题解答](https://adguard-vpn.com/welcome.html#faq)或[知识库](/intro.md) 部分中查找任何问题的答案，如果您晕倒问题，请报告错误，或[在任何平台上讨论 AdGuard](https://adguard.com/discuss.html)。 请随时[留下有关我们服务](https://surveys.adguard.com/vpn_mac/form.html)的反馈意见，我们将不胜感激。
+第三个标签是*支持*。 Find answers to any questions in the [FAQ](https://adguard-vpn.com/welcome.html#faq) or in the [Knowledge base](/) sections, report a bug if you encounter one, or [discuss AdGuard on any of the platforms](https://adguard.com/discuss.html). 请随时[留下有关我们服务](https://surveys.adguard.com/vpn_mac/form.html)的反馈意见，我们将不胜感激。
 
 ## 设置
 

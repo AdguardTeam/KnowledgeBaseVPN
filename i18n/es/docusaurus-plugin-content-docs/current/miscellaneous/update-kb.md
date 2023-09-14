@@ -15,7 +15,7 @@ Una vez que esté listo para comenzar, trabaje en [el repositorio de KnowledgeBa
 
 El sitio web de Knowledge Base está construido con Docusaurus 2, un moderno generador de sitios web estáticos. Al sugerir cambios o adiciones, tenga en cuenta que todos los documentos deben cumplir con los principios de la plataforma. Puede leer sobre ellos en [la guía disponible a través de este enlace](https://docusaurus.io/docs/category/guides).
 
-Puede implementar esta base de conocimientos localmente en el equipo para obtener una vista previa de los cambios que sugiera. Las instrucciones detalladas sobre cómo hacerlo se pueden encontrar [en el archivo README.md](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README.md) en la página de GitHub de esta base de conocimientos.
+Puede implementar esta base de conocimientos localmente en el equipo para obtener una vista previa de los cambios que sugiera. Detailed instructions on how to do this can be found [in the README.md file](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README) on this Knowledge Base's GitHub page.
 
 ## Traducción de artículos {#translate-adguard}
 

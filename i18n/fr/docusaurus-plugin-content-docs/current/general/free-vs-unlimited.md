@@ -22,4 +22,4 @@ En même temps, vous pouvez acheter un abonnement pour obtenir une version illim
 - Streaming sécurisé
 - Pas de blocage du port 25
 
-Pour profiter de tous les avantages, pensez à [souscrire un abonnement](subscription.md).
+To use all the advantages, consider [purchasing a subscription](/general/subscription).

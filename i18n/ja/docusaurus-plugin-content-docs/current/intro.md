@@ -6,9 +6,11 @@ slug: /
 
 ## VPNとは何ですか？どのようなことに必要なのですか？
 
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7149L3xPmSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 VPNを利用すると、インターネット上の別のネットワークに安全な接続を確立することができます。
 
-当初、VPNは、ビジネス・ネットワークをインターネット上で安全に接続し、自宅から企業ネットワークに接続できるようにする、という唯一の目的のために作られたものでした。 この技術は、例えば、匿名でインターネットを閲覧したり、公共のWi-Fiを利用する際にネット上の行動を監視から保護したりと、他にもさまざまなことに利用されています。
+Initially, VPNs were created to securely connect business networks over the Internet, so that people could connect to the corporate network from home. この技術は、例えば、匿名でインターネットを閲覧したり、公共のWi-Fiを利用する際にネット上の行動を監視から保護したりと、他にもさまざまなことに利用されています。
 
 VPNは、ユーザーのパソコンやスマホをVPNサーバーに接続し、他人のIPアドレスを使ってネットを閲覧できるようにします。 したがって、第三者はユーザーの実際のIPアドレスを見ることができず、追跡はほぼ不可能になります。
 
@@ -16,9 +18,9 @@ VPNといえば、まずトラフィックの暗号化とそこから派生す�
 
 VPNは次の目的で使用できます:
 
-- あなたの本当の居場所を隠し、匿名性を保てるようにする
-- 公衆無線LAN（フリーWi-Fi）などに接続した場合でも、安全にWebを閲覧することができ、個人情報・データを保護
-- スプーフィング（ネットワークトラフィックの傍受）やインターネットプロバイダーによるトラッキング（追跡）から身を守ることができる
+- Hide your real whereabouts and stay anonymous
+- Secure your data — even when connecting to a public Wi-Fi, you can browse the Web safely
+- Protect yourself from spoofing (network traffic interception) and tracking on the part of your Internet service provider
 
 パスワードやカード情報などの個人情報は、インターネットを利用する際に危険にさらされます。 しかし、VPNを使用してインターネットに接続すれば、誰にもデータ・個人情報を傍受されることはありません。
 
@@ -30,17 +32,17 @@ AdGuardは、個人情報保護・広告ブロック業界に12年以上前か�
 
 ### 独自開発のVPNプロトコル
 
-AdGuard VPNと競合他社との主な違いは、当社が[独自開発したVPNプロトコル](/general/adguard-vpn-protocol.mdx)を使用していることです。 通常のトラフィックに偽装しているため、検知やブロックがより困難になっています。
+The main difference between AdGuard VPN and its competitors is that we use [our own developed protocol](/general/adguard-vpn-protocol). 通常のトラフィックに偽装しているため、検知やブロックがより困難になっています。
 
-### ログ一切なしポリシー
+### No-logging policy
 
-ログ一切なしポリシーとは、ユーザーの個人情報の収集・保存・第三者との共有を一切しないことを意味します。 AdGuard VPNのプライバシーポリシーの全文は、 [こちら](https://adguard-vpn.com/ja/privacy.html)でご確認いただけます。
+No-logging policy means that we don’t collect, store, or transfer users’ personal data to third parties. [Read AdGuard VPN Privacy policy](https://adguard-vpn.com/privacy.html)
 
 ### トラッキング（個人情報追跡）を防止
 
 ユーザーのウェブトラフィックは第三者の関心を引く可能性があり、特に個人情報のマネタイズという点で価値があります。 犯罪者や悪徳インターネットプロバイダがトラフィックにアクセスできます。 しかし、信頼できるVPNを利用すれば、プロバイダーや他の第三者にもあなたのインターネット行動を見られることはありません。
 
-### 53ヵ国での超高速VPNサーバー
+### Ultra-fast VPN servers in 53 countries
 
 - アルゼンチン
 - オーストラリア

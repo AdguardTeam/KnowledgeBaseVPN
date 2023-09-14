@@ -22,7 +22,7 @@ sidebar_position: 1
 Теперь, когда вы собрали логи, вам нужно передать их нашей команде разработчиков. Для этого:
 
 1. Сообщите об ошибке на GitHub. Подробные инструкции по созданию задачи на GitHub можно найти в этой статье.
-1. Send an archive with logs and reproduce time to `devteam@adguard.com` and attach a link to your GitHub issue. Also you can add an archive with logs and reproduce time to Google Drive and share it with `devteam@adguard.com` attaching the Google Drive link to your issue on GitHub.
+1. Отправьте архив с логами и временем воспроизведения на `devteam@adguard.com` и прикрепите ссылку на вашу GitHub проблему. Также вы можете добавить архив с журналами и временем воспроизведения на Google Диск и поделиться им с `devteam@adguard.com ` прикрепляя ссылку на Google Диск к вашей проблеме на GitHub.
 
 ## Сбор и отправка логов через инструменты разработчика в браузере
 
