@@ -12,8 +12,10 @@ The feature is only available for iOS 15 and higher and requires an iCloud+ subs
 :::
 
 To use this feature, go to *Settings* → [Your name] → *iCloud* → *Hide My Email* and follow the on-screen instructions.
+
 You can generate a unique and random email address that forwards incoming messages to your actual address. It might look like this: chimney-floture@privaterelay.appleid.com. There is no explicit limit to the number of emails that can be created. You can categorize them with labels and use each one for different purposes: signing up, receiving newsletters, etc. Apple ensures that the content of messages that pass through the *Hide My Email* service is not inspected, except for standard spam filtering.
 
 The *Hide My Email* feature is also available in Apple Mail. To send an email without disclosing your real email address, simply select *Hide My Email* in the *From* field when composing your message.
 
-The *Email Protection* service by DuckDuckGo works in a similar way. You get a @duck.com email address and can create temporary email aliases for sign ups and newsletters. If these aliases begin to attract too much spam, they can be easily discarded.
+The *Email Protection* service by DuckDuckGo works in a similar way. You get a `@duck.com` email address and can create email aliases for sign ups and newsletters. If these aliases begin to attract too much spam, they can be easily discarded.
+
