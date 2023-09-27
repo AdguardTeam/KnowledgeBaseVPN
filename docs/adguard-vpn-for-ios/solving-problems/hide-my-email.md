@@ -18,4 +18,3 @@ You can generate a unique and random email address that forwards incoming messag
 The *Hide My Email* feature is also available in Apple Mail. To send an email without disclosing your real email address, simply select *Hide My Email* in the *From* field when composing your message.
 
 The *Email Protection* service by DuckDuckGo works in a similar way. You get a `@duck.com` email address and can create email aliases for sign ups and newsletters. If these aliases begin to attract too much spam, they can be easily discarded.
-
