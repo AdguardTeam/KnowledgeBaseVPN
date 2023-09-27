@@ -44,7 +44,7 @@ Außerdem können fertige Ausschlusslisten auf andere Geräte mit installiertem 
 
 ![Support-Bildschirm](https://cdn.adguardvpn.com/content/kb/vpn/mac/support_en.png)
 
-Die dritte Registerkarte ist der Bildschirm *Support*. Find answers to any questions in the [FAQ](https://adguard-vpn.com/welcome.html#faq) or in the [Knowledge base](/) sections, report a bug if you encounter one, or [discuss AdGuard on any of the platforms](https://adguard.com/discuss.html). Und zögern Sie nicht, [Feedback zu unserem Produkt zu hinterlassen](https://surveys.adguard.com/vpn_mac/form.html).
+Die dritte Registerkarte ist der Bildschirm *Support*. Finden Sie Antworten auf alle Fragen in den [FAQ](https://adguard-vpn.com/welcome.html#faq) oder in den Abschnitten der [Wissensdatenbank](/), melden Sie einen Fehler, wenn Sie auf einen stoßen, oder [diskutieren Sie AdGuard auf einer der Plattformen](https://adguard.com/discuss.html). Und zögern Sie nicht, [Feedback zu unserem Produkt zu hinterlassen](https://surveys.adguard.com/vpn_mac/form.html).
 
 ## Einstellungen
 

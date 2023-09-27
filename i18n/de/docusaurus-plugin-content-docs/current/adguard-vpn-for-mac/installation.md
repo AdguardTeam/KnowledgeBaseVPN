@@ -51,4 +51,4 @@ Manchmal reicht die standardmäßige Deinstallation aufgrund einer fehlerhaften 
 
 AdGuard VPN wurde vollständig von Ihrem Mac entfernt.
 
-You can learn more about AdGuard VPN for Mac in [this article](/adguard-vpn-for-mac/overview).
+Weitere Informationen über die AdGuard VPN-App für Mac finden Sie in [diesem Artikel](/adguard-vpn-for-mac/overview).

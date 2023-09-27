@@ -22,4 +22,4 @@ Zároveň si můžete zakoupit předplatné a získat tak neomezenou verzi aplik
 - Bezpečné streamování
 - Bez blokace portu 25
 
-To use all the advantages, consider [purchasing a subscription](/general/subscription).
+Chcete-li využít všech výhod, zvažte [zakoupení předplatného](/general/subscription).

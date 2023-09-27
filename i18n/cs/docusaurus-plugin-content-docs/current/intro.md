@@ -10,7 +10,7 @@ slug: /
 
 VPN umožňuje vytvořit zabezpečené připojení k jiné síti na internetu.
 
-Initially, VPNs were created to securely connect business networks over the Internet, so that people could connect to the corporate network from home. Tato technologie se používá k mnoha dalším účelům: například k anonymnímu procházení internetu nebo k ochraně vašich online aktivit před zvědavými pohledy při používání veřejné Wi-Fi.
+Původně byly VPN vytvořeny k bezpečnému propojení podnikových sítí přes Internet, aby se lidé mohli připojit k podnikové síti z domova. Tato technologie se používá k mnoha dalším účelům: například k anonymnímu procházení internetu nebo k ochraně vašich online aktivit před zvědavými pohledy při používání veřejné Wi-Fi.
 
 VPN připojuje počítač nebo mobilní zařízení uživatele k serveru a umožňuje procházet internet pomocí IP adresy někoho jiného. Pozorovatelé třetích stran tak nemohou vidět skutečnou IP adresu uživatele, což téměř znemožňuje jeho vystopování.
 
@@ -18,9 +18,9 @@ Když už mluvíme o VPN, první věc, kterou zmiňují, je šifrování provozu
 
 VPN umožňuje:
 
-- Hide your real whereabouts and stay anonymous
-- Secure your data — even when connecting to a public Wi-Fi, you can browse the Web safely
-- Protect yourself from spoofing (network traffic interception) and tracking on the part of your Internet service provider
+- Skrýt vaše skutečné místo pobytu v anonymitě
+- Zabezpečit vaše – i když se připojíte k veřejné Wi-Fi, můžete bezpečně procházet web
+- Chránit před spoofingem (odposlechem síťového provozu) a sledováním ze strany poskytovatele internetových služeb
 
 Při prohlížení internetu jsou ohrožena hesla, údaje o platebních kartách i obyčejné osobní údaje. Pokud se však připojíte ke globální síti pomocí sítě VPN, můžete si být jisti, že vaše data nikdo nezachytí.
 
@@ -32,17 +32,17 @@ AdGuard působí na trhu ochrany osobních údajů a blokování reklamy a vyví
 
 ### Jedinečný VPN protokol
 
-The main difference between AdGuard VPN and its competitors is that we use [our own developed protocol](/general/adguard-vpn-protocol). Maskuje se jako běžný provoz, takže je mnohem obtížnější jej sledovat a blokovat.
+Hlavní rozdíl mezi AdGuard VPN a konkurencí spočívá v tom, že používáme [vlastní vyvinutý protokol](/general/adguard-vpn-protocol). Maskuje se jako běžný provoz, takže je mnohem obtížnější jej sledovat a blokovat.
 
-### No-logging policy
+### Žádné záznamy aktivit
 
-No-logging policy means that we don’t collect, store, or transfer users’ personal data to third parties. [Read AdGuard VPN Privacy policy](https://adguard-vpn.com/privacy.html)
+Žádný záznam aktivit znamená, že neshromažďujeme, neukládáme ani nepředáváme osobní údaje uživatelů třetím stranám. [Přečtěte si zásady ochrany osobních údajů AdGuard VPN](https://adguard-vpn.com/privacy.html)
 
 ### Ochrana před sledováním
 
 Webový provoz jakéhokoli uživatele může být zajímavý a je cenný zejména z hlediska zpeněžení osobních údajů. Přístup k němu mají zločinci i bezohlední poskytovatelé internetových služeb. S důvěryhodnou sítí VPN si však můžete být jisti, že poskytovatel ani nikdo jiný vaši internetovou aktivitu neuvidí.
 
-### Ultra-fast VPN servers in 53 countries
+### Velmi rychlé VPN servery v 53 zemích
 
 - Argentina
 - Austrálie

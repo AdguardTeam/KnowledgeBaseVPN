@@ -57,7 +57,7 @@ Der Fehler klingt erschreckender als er tatsächlich ist. In Wirklichkeit handel
 
 - Wählen Sie einen anderen Installationsordner. Es ist möglich, dass der aktuelle Installationsordner Zugriffsbeschränkungen hat. Stellen Sie außerdem sicher, dass Sie kein externes oder virtuelles Laufwerk usw. auswählen.
 
-- Uninstall AdGuard VPN using our special [uninstall tool](/adguard-vpn-for-windows/installation#advanced) and then repeat the installation.
+- Deinstallieren Sie AdGuard VPN mit unserem speziellen [Deinstallationstool](/adguard-vpn-for-windows/installation#advanced) und wiederholen Sie anschließend die Installation.
 
 - Starten und registrieren Sie den Microsoft Installer-Dienst erneut. Das erfordert etwas Arbeit.
 
@@ -93,7 +93,7 @@ Es ist sehr wahrscheinlich, dass Sie AdGuard VPN schon einmal installiert haben.
 
 - Überprüfen Sie, ob AdGuard VPN bereits auf Ihrem Computer installiert ist. Sie können dies tun, indem Sie die Taste *Win* drücken und ***AdGuard VPN*** eingeben.
 
-- Möglicherweise gibt es einige übrig gebliebene Dateien von einer früheren AdGuard VPN-Installation. Uninstall AdGuard using our special [uninstall tool](/adguard-vpn-for-windows/installation#advanced) and then repeat the installation.
+- Möglicherweise gibt es einige übrig gebliebene Dateien von einer früheren AdGuard VPN-Installation. Deinstallieren Sie AdGuard mit unserem speziellen [Deinstallationsprogramm](/adguard-vpn-for-windows/installation#advanced) und wiederholen Sie anschließend die Installation.
 
 ### Andere Fehler {#other}
 
