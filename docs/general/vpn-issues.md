@@ -7,13 +7,40 @@ In certain regions, such as China, Iran, and Russia, users might have problems c
 
 ## Accessing AdGuard VPN’s website
 
-If adguard-vpn.com is not accessible, try using a [mirror website](https://adguardvpn-help.com/).
+If adguard-vpn.com is not accessible, try using the [mirror website](https://adguardvpn-help.com/).
 
 :::info
 
 To avoid potential phishing or malicious websites, only follow mirror links provided in this Knowledge base or by the AdGuard VPN support team.
 
 :::
+
+## Downloading the app
+
+### AdGuard VPN for iOS
+
+If don't see AdGuard VPN in your App Store, try changing your Apple ID country:
+
+1. Open the App Store and tap your profile picture.
+2. Tap your name, then tap *Country/Region*.
+3. Tap *Change Country or Region*.
+4. Select a country, then accept the terms and conditions.
+
+[Alternative ways](https://support.apple.com/en-us/HT201389)
+
+After changing the region, [install AdGuard VPN](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602).
+
+### AdGuard VPN for Android
+
+If you have problems with Google Play, download the APK file from [AdGuard VPN's mirror website](https://adguardvpn-help.com/android/overview.html).
+
+### AdGuard VPN for Mac
+
+Download the installation file from [AdGuard VPN's mirror website](https://adguardvpn-help.com/windows/overview.html).
+
+### AdGuard VPN for Windows
+
+Download the installation file from [AdGuard VPN's mirror website](https://adguardvpn-help.com/mac/overview.html).
 
 ## Other useful tips
 
