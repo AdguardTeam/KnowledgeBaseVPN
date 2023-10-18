@@ -7,7 +7,7 @@ In certain regions, such as China, Iran, and Russia, users might have problems c
 
 ## Accessing AdGuard VPN’s website
 
-If adguard-vpn.com is not accessible, use the mirror websites: [adguard-vpn.info](https://adguard-vpn.info/welcome.html) or [adguardvpn-help.com](https://adguardvpn-help.com/welcome.html).
+If adguard-vpn.com is not accessible, try using a [mirror website](https://adguardvpn-help.com/).
 
 :::info
 
