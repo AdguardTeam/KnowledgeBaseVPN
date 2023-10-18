@@ -22,9 +22,9 @@ To avoid potential phishing or malicious websites, only follow mirror links prov
 If don't see AdGuard VPN in your App Store, try changing your Apple ID country:
 
 1. Open the App Store and tap your profile picture.
-2. Tap your name, then tap *Country/Region*.
-3. Tap *Change Country or Region*.
-4. Select a country, then accept the terms and conditions.
+1. Tap your name, then tap *Country/Region*.
+1. Tap *Change Country or Region*.
+1. Select a country, then accept the terms and conditions.
 
 [Alternative ways](https://support.apple.com/en-us/HT201389)
 
