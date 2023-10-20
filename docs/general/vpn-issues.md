@@ -46,7 +46,7 @@ Download the installation file from [AdGuard VPN's mirror website](https://adgua
 
 - Always make sure that you are using the latest version of AdGuard VPN, as updates typically include vital fixes and enhancements.
 
-- Use AdGuard VPN’s full apps instead of browser extensions for a more robust and stable connection.
+- Use AdGuard VPN’s full-fledged apps instead of browser extensions for a more robust and stable connection.
 
 - If you encounter problems connecting to a particular location, try connecting to an alternative one. If all locations fail to respond, restart the app to refresh the server list.
 
