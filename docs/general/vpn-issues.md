@@ -48,7 +48,7 @@ Download the installation file from [AdGuard VPN's mirror website](https://adgua
 
 - Use AdGuard VPN’s full-fledged apps instead of browser extensions for a more robust and stable connection.
 
-- If you encounter problems connecting to a particular location, try connecting to an alternative one. If all locations fail to respond, restart the app to refresh the server list.
+- If you encounter problems connecting to a particular location, try connecting to another one. If all locations fail to respond, restart the app to refresh the server list.
 
 - Try switching between mobile data and Wi-Fi: the problem may be network-specific.
 
