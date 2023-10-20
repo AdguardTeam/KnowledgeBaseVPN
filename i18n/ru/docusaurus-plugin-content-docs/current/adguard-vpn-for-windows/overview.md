@@ -99,7 +99,7 @@ AdGuard VPN шифрует трафик не только браузеров, н
 
 ### О программе
 
-Во вкладке **О программе** вы найдёте информацию о текущей версии AdGuard VPN для Windows, кнопку проверки наличия обновлений, а также ссылки: на сайт AdGuard VPN, форум, Лицензионное соглашение и Политику конфиденциальности.
+The **About** tab provides information about the current version of AdGuard VPN for Windows, an update button, and links to the AdGuard VPN website, EULA, and Privacy policy.
 
 ### Личный кабинет
 

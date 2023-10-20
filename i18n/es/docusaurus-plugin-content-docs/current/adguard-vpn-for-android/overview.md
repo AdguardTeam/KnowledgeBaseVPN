@@ -5,7 +5,7 @@ sidebar_position: 1
 
 ## Que es AdGuard VPN para Andriod?
 
-Un VPN es una herramienta ideal que brinda seguridad y anonimato cada vez que navegas por Internet. [How does it work?](/general/how-vpn-works) Without going into technical details, we can say that VPN creates a secure encrypted tunnel between the user's computer or mobile device and a remote VPN server. De esta manera, se preserva la confidencialidad de los datos, así como el anonimato del usuario, porque un observador de un tercer partido ve la dirección IP del servidor VPN y no la dirrecion IP verdadero del usuario.
+Un VPN es una herramienta ideal que brinda seguridad y anonimato cada vez que navegas por Internet. [¿Cómo funciona?](/general/how-vpn-works) Sin entrar en detalles técnicos, podemos decir que un VPN crea un túnel encriptado seguro entre la computadora o dispositivo móvil del usuario y un servidor VPN remoto. De esta manera, se preserva la confidencialidad de los datos, así como el anonimato del usuario, porque un observador de un tercer partido ve la dirección IP del servidor VPN y no la dirrecion IP verdadero del usuario.
 
 **Una VPN se usa comúnmente para:**
 
@@ -13,7 +13,7 @@ Un VPN es una herramienta ideal que brinda seguridad y anonimato cada vez que na
 - Evitar el seguimiento de la actividad en línea al enmascarar la dirección IP
 - Ocultar la geolocalización real para permanecer anónimo
 
-AdGuard VPN para Android puede hacerlo todo por usted, e incluso ofrecer algo único. To find out why AdGuard VPN is the better option — read [this article](/general/why-adguard-vpn).
+AdGuard VPN para Android puede hacerlo todo por usted, e incluso ofrecer algo único. Para saber por qué AdGuard VPN es la mejor opción - lea [este artículo](/general/why-adguard-vpn).
 
 ## Cómo empezar usar AdGuard VPN para Android
 
@@ -42,7 +42,7 @@ Puedes agregar dominios (p. ej., `google.com`) o subdominios (p. ej., `*.google.
 
 Como puedes habilitar subdominios en las listas de servicios, agregamos cuadros que reflejan el estado de cada servicio. Puedes verlos en la pantalla principal de *Exclusiones* a la izquierda de cada nombre de servicio:**totalmente habilitado** está marcado con una verificación blanca sobre fondo verde, **totalmente deshabilitado** — con un cuadro gris y **parcialmente habilitado**, lo que significa que se cambiaron uno o más parámetros, con un cuadrado verde sobre fondo blanco. Buenas noticias: siempre puedes volver a la vista predeterminada de las listas de servicios en caso de que hayas eliminado o deshabilitado algún dominio desde allí.
 
-![Exclusions *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/statuses.png)
+![Exclusiones *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/statuses.png)
 
 Otra función útil es *Exclusiones de importación/exportación*. Sólo son necesarios cuatro pasos para hacerlo:
 
@@ -51,7 +51,7 @@ Otra función útil es *Exclusiones de importación/exportación*. Sólo son nec
 3. Al transferir entre diferentes dispositivos, no olvides enviar el fichero `.zip` al dispositivo para importarlo. Por ejemplo, si importas listas de exclusión desde tu dispositivo Windows a tu Android, asegúrate de enviar el fichero `.zip` a tu Android de antemano.
 4. Abre AdGuard VPN en el dispositivo donde deseas importar el fichero con las listas listas de exclusiones. Busca la sección adecuada, haz clic en el botón *Importar* y selecciona el archivo.
 
-![Import/Export *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/imp-exp.png)
+![Importar/Exportar *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/imp-exp.png)
 
 ### Configuración de aplicaciones
 
@@ -59,13 +59,13 @@ Como mencionamos anteriormente, no solo los sitios web se pueden agregar fácilm
 
 Si el modo de compatibilidad ** con AdGuard está habilitado, solo puedes administrar aplicaciones a través de AdGuard Ad Blocker. Por lo tanto, al tocar el botón, se abre la aplicación AdGuard.
 
-![Apps settings *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/apps_settings.png)
+![Configuración de aplicación *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/apps_settings.png)
 
 ## Configuración
 
 Puedess acceder a *Configuración* presionando el ícono de ajustes en la parte inferior derecha de la pantalla. La primera sección es *Configuración de la aplicación*: configura AdGuard VPN para Android según tus necesidades seleccionando diferentes opciones.
 
-![Apps settings *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/app_settings.png)
+![Configuración de aplicación *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/app_settings.png)
 
 ### Inicio automático de AdGuard VPN
 
@@ -89,7 +89,7 @@ Tenga en cuenta que si Kill Switch está activado, *Configuración de la app* y 
 
 Puedes elegir el tema por defecto, oscuro o claro de la aplicación.
 
-![Theme *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/theme-light-dark.png)
+![Tema *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/theme-light-dark.png)
 
 ### Configuración avanzada
 

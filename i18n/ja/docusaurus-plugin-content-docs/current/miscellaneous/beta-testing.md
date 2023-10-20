@@ -11,14 +11,10 @@ AdGuard VPNのベータテスターになるために必要なものは、アプ
 
 ### バグ・不具合を報告する方法
 
-バグを発見したとします。 あるいは、開発者と提案を共有したいだけかもしれません。 いずれにして、開発者にお知らせする方法は複数あり、以下の通りです:
+バグを発見したとします。 あるいは、開発者と提案を共有したいだけかもしれません。 Let us know: go to [GitHub](https://github.com/AdguardTeam/), find a suitable repository, create a new issue there, and describe the bug/feature request in detail.
 
-- [forum.adguard.com](https://forum.adguard.com) にアクセスし、[フォーラムの「Beta Testing」カテゴリ](https://forum.adguard.com/index.php?categories/48/)に新しいスレッドを投稿してください（または同じ問題に関する既存のスレッドを見つけてください）。 ※事前に[フォーラムルール](https://forum.adguard.com/index.php?threads/14859/)をお読みください。
+The above method is the most preferred, but you can use others if necessary:
 
-- [AdGuard VPNのGitHub](https://github.com/AdguardTeam/)にアクセスし、適当なレポジトリを見つけます。 新issueを作成してバグや機能リクエストを詳細にご説明ください。
+- Find us on various social media platforms, like [Facebook](https://www.facebook.com/AdguardEn/), [Reddit](https://www.reddit.com/r/Adguard/), etc. However, this is not the most efficient way to discuss technical matters.
 
-上記の2つの方法が最も望ましいですが、必要に応じて以下の方法を用いることもできます:
-
-- [Facebook](https://www.facebook.com/AdguardEn/)、[Reddit](https://www.reddit.com/r/Adguard/)など、様々なSNSプラットフォームで私たちを見つけてご連絡ください。 ※技術的なことを話し合うのに一番効率的な方法とは言えません。
-
-- アプリ内の「サポート」セクションからサポートチームにメッセージを送るか、[support@adguard.com](mailto:support@adguard.com)（日本語対応）までご連絡ください。
+- Email our support team from the Support tab in the app or write directly to [support@adguard.com](mailto:support@adguard.com).

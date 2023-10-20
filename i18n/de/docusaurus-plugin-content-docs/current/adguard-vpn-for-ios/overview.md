@@ -90,7 +90,7 @@ Um auf diese Funktion zuzugreifen, berühren und halten Sie das App-Symbol und h
 
 ## Support
 
-Die Zufriedenheit der Nutzer:innen hat für uns höchste Priorität. Daher gibt es in der App eine Reihe von Hilfsfunktionen (klicken Sie auf die Schaltfläche *Einstellungen* unten rechts und dann auf *Support*): Sie können den FAQ-Bereich einsehen, einen Fehler melden, Feedback hinterlassen, Ihre Probleme und Vorschläge in unserem Forum, in sozialen Netzwerken oder auf GitHub diskutieren, AdGuard VPN für iOS im App Store bewerten und Logs exportieren.
+There is a variety of helping features in the app (press the *Settings* button at the bottom right and then *Support*): you can see the FAQ section, report a bug, leave feedback, discuss your problems and suggestions in social networks or on GitHub, rate AdGuard VPN for iOS in the App Store and export logs.
 
 ![Support *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/support.png)
 

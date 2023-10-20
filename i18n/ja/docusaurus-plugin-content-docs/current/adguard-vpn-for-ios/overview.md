@@ -90,7 +90,7 @@ In **General** mode, the [AdGuard VPN protocol](/general/adguard-vpn-protocol) i
 
 ## お客様サポート
 
-ユーザーの満足を最優先しています。 そのため、アプリには様々なヘルプ機能があります（右下の⚙「*設定*」→「*お客様サポート*」）。FAQ、バグの報告、フィードバック、フォーラム・SNS・GitHubで問題や提案について話し合う、App StoreでAdGuard VPN for iOSを評価する、ログをエクスポートすることなどが可能です。
+There is a variety of helping features in the app (press the *Settings* button at the bottom right and then *Support*): you can see the FAQ section, report a bug, leave feedback, discuss your problems and suggestions in social networks or on GitHub, rate AdGuard VPN for iOS in the App Store and export logs.
 
 ![Support *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/support.png)
 

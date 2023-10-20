@@ -11,14 +11,10 @@ Um AdGuard VPN-Beta-Tester zu werden, brauchen Sie nur ein paar Dinge: den Wunsc
 
 ### Wie Sie einen Fehler melden können
 
-Nehmen wir an, haben Sie einen Fehler entdeckt. Oder vielleicht möchten Sie Ihre Vorschläge einfach nur mit den Entwicklern teilen. Wie auch immer, es gibt mehrere Möglichkeiten, uns dies mitzuteilen:
+Nehmen wir an, haben Sie einen Fehler entdeckt. Oder vielleicht möchten Sie Ihre Vorschläge einfach nur mit den Entwicklern teilen. Let us know: go to [GitHub](https://github.com/AdguardTeam/), find a suitable repository, create a new issue there, and describe the bug/feature request in detail.
 
-- Gehen Sie auf [forum.adguard.com](https://forum.adguard.com) und eröffnen Sie dort einen neuen Thread (oder suchen Sie einen bestehenden) in [in der Kategorie 'Beta Testing' des Forums](https://forum.adguard.com/index.php?categories/48/). Bitte lesen Sie zuerst die [Forenregeln](https://forum.adguard.com/index.php?threads/14859/);
+The above method is the most preferred, but you can use others if necessary:
 
-- Gehen Sie zu [GitHub](https://github.com/AdguardTeam/) und finden Sie ein geeignetes Repository. Erstellen Sie dort ein neues Problem und beschreiben Sie den Fehler/Funktionswunsch im Detail.
+- Find us on various social media platforms, like [Facebook](https://www.facebook.com/AdguardEn/), [Reddit](https://www.reddit.com/r/Adguard/), etc. However, this is not the most efficient way to discuss technical matters.
 
-Die oben genannten Methoden sind die bevorzugten, aber Sie können bei Bedarf auch andere verwenden:
-
-- Finden Sie uns auf verschiedenen Social-Media-Plattformen wie [Facebook](https://www.facebook.com/AdguardEn/), [Reddit](https://www.reddit.com/r/Adguard/), usw. Dies ist jedoch nicht die effizienteste Art, technische Angelegenheiten zu besprechen.
-
-- Senden Sie eine E-Mail an unser Support-Team über die Registerkarte „Support“ in der App oder schreiben Sie direkt an [support@adguard.com](mailto:support@adguard.com).
+- Email our support team from the Support tab in the app or write directly to [support@adguard.com](mailto:support@adguard.com).

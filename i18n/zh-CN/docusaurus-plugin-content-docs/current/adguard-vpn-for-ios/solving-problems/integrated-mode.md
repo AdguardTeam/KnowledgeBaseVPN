@@ -3,7 +3,7 @@ title: AdGuard 广告拦截程序的兼容性
 sidebar_position: 3
 ---
 
-AdGuard VPN 具有两个操作模式，即常规模式和整合模式。 General mode is enabled by default and uses [AdGuard VPN protocol](/general/adguard-vpn-protocol). 它提供连接速度和安全性的最佳组合。
+AdGuard VPN 具有两个操作模式，即常规模式和整合模式。 默认启用常规模式并使用 [AdGuard VPN 协议](/general/adguard-vpn-protocol)。 它提供连接速度和安全性的最佳组合。
 
 不过，常规操作模式不允许 AdGuard VPN 和 AdGuard 广告拦截程序同时工作。
 

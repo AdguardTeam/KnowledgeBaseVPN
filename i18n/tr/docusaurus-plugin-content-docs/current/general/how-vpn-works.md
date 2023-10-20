@@ -5,19 +5,19 @@ sidebar_position: 1
 
 AdGuard VPN'in nasıl çalıştığını anlamak için, öncelikle VPN hizmetinin genel ilkelerini anlamalısınız.
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/aOmkjgfSsIY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/aOmkjgfSsIY" title="YouTube video oynatıcı" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## VPN özellikleri
 
-A VPN is a virtual private network that helps hide your location and protect your data on the Web. Bir VPN, bir bilgisayarı veya mobil cihazı bir VPN sunucusuna bağlar ve bu sunucunun IP adresini kullanarak dışarıdan bir gözlemciye sizin başka bir yerde olduğunuzu göstermesini sağlar. Bu, çeşitli internet kaynaklarına güvenli bir şekilde erişmenizi ve kişisel verilerinizi korumanızı sağlar.
+VPN, konumunuzu gizlemeye ve Web'deki verilerinizi korumaya yardımcı olan bir sanal özel ağdır. Bir VPN, bir bilgisayarı veya mobil cihazı bir VPN sunucusuna bağlar ve bu sunucunun IP adresini kullanarak dışarıdan bir gözlemciye sizin başka bir yerde olduğunuzu göstermesini sağlar. Bu, çeşitli internet kaynaklarına güvenli bir şekilde erişmenizi ve kişisel verilerinizi korumanızı sağlar.
 
 Bu şekilde, bir VPN iki önemli işlevi yerine getirir:
 
-1. **Maintaining anonymity**
+1. **Anonimliğin korunması**
 
-    Using an Internet connection, the user leaves their digital footprint, which can then be analyzed and used by third parties. For example, one of the online stores that you have visited can save your search history and then offer you their products based on it through targeted advertising. Or the secret services, having learned your location through the IP address of your device and having determined your identity, can secretly monitor your activity on the web. In addition, web browsers and ISPs themselves can use your browsing history for their own purposes, as well as sell it to advertisers and provide it to government institutions. VPN allows you to hide your IP address and replace it with the IP address of the VPN server to which you are connected. This way you will be able to maintain your privacy and anonymously search for information on the web.
+    Bir internet bağlantısı kullanarak, kullanıcı, daha sonra üçüncü şahıslar tarafından analiz edilebilecek ve kullanılabilecek dijital ayak izini bırakır. Örneğin, ziyaret ettiğiniz çevrimiçi mağazalardan biri arama geçmişinizi kaydedebilir ve ardından hedefli reklamcılık yoluyla size ürünlerini buna göre sunabilir. Veya cihazınızın IP adresi üzerinden konumunuzu öğrenen ve kimliğinizi belirleyen gizli servisler, web üzerindeki hareketlerinizi gizlice izleyebilir. Buna ek olarak, web tarayıcıları ve İSS'lerin kendileri, tarama geçmişinizi kendi amaçları için kullanabilir, ayrıca reklamcılara satabilir ve devlet kurumlarına sağlayabilir. VPN, IP adresinizi gizlemenize ve bağlı olduğunuz VPN sunucusunun IP adresiyle değiştirmenize olanak tanır. Bu şekilde gizliliğinizi koruyabilecek ve web'de anonim olarak bilgi arayabileceksiniz.
 
-1. **Data protection** If you connect to an unreliable or public network, the data on your device may become vulnerable to cybercriminals. Banka kartı bilgileri, kullanıcı adları ve şifreler, pasaport verileri — tüm bu veriler çevrimiçi dolandırıcılar tarafından ele geçirilebilir. VPN tüneli, web'den gönderdiğiniz ve aldığınız bilgileri şifreler, böylece yanlış ellere düşmez.
+1. **Veri koruması** Güvenilir olmayan veya halka açık bir ağa bağlanırsanız, cihazınızdaki veriler siber suçlulara karşı savunmasız hâle gelebilir. Banka kartı bilgileri, kullanıcı adları ve şifreler, pasaport verileri — tüm bu veriler çevrimiçi dolandırıcılar tarafından ele geçirilebilir. VPN tüneli, web'den gönderdiğiniz ve aldığınız bilgileri şifreler, böylece yanlış ellere düşmez.
 
 ## VPN yapısı
 
@@ -39,42 +39,42 @@ VPN güvenlik protokolleri, verileri bir VPN tünelinde şifreleyen ve açık bi
 
 Bu VPN protokollerine ek olarak başkaları da vardır (örneğin, TLS, SSTP, IKEv2), ancak bunlar popüler değildir veya modern veri şifreleme standartlarını karşılamamaktadır.
 
-AdGuard VPN also has its own [*protocol*](/general/adguard-vpn-protocol). One of its advantages is that the traffic transmitted using the AdGuard VPN protocol is difficult to distinguish from the regular traffic. The VPN tunnel looks like normal HTTPS traffic, so it is extremely difficult to detect and block it. In addition, it is based on the mechanisms of the modern HTTP/2 protocol, which ensures high connection speed.
+AdGuard VPN'in de kendi [*protokolü*](/general/adguard-vpn-protocol). Avantajlarından biri, AdGuard VPN protokolü kullanılarak iletilen trafiğin normal trafikten ayırt edilmesinin zor olmasıdır. VPN tüneli normal HTTPS trafiğine benziyor, bu yüzden onu tespit etmek ve engellemek son derece zor. Ayrıca, yüksek bağlantı hızı sağlayan modern HTTP/2 protokolünün mekanizmalarına dayanmaktadır.
 
 ## VPN dezavantajları
 
-Despite the obvious advantages, VPN is not perfect and has some disadvantages:
+Bariz avantajlarına rağmen, VPN mükemmel değildir ve bazı dezavantajları vardır:
 
 ### Düşük hız
 
-Since your traffic does not go directly to the web server, but first passes through the VPN server, the speed of the VPN connection decreases. Other factors also affect the speed when using a VPN: the load of the VPN server, its bandwidth, the compatibility of the VPN protocol with your operating system. All these factors, as well as the speed of the network itself, can reduce the quality of your VPN connection.
+Trafiğiniz doğrudan web sunucusuna gitmeyip önce VPN sunucusundan geçtiği için VPN bağlantısının hızı düşer. Diğer faktörler de VPN kullanırken hızı etkiler: VPN sunucusunun yükü, bant genişliği, VPN protokolünün işletim sisteminizle uyumluluğu. Tüm bu faktörler ve ağın hızı VPN bağlantınızın kalitesini düşürebilir.
 
 ### Erişim engelleme
 
-Some online services make a lot of effort to detect VPN traffic and block access to VPN users. However, not many VPNs can mask their traffic as regular. Therefore, many attempts to go to a particular website without disabling VPN end up in nothing.
+Bazı çevrimiçi hizmetler, VPN trafiğini algılamak ve VPN kullanıcılarına erişimi engellemek için çok çaba harcar. Ancak, pek çok VPN trafiğini normal şekilde gizleyemez. Bu nedenle, VPN'i devre dışı bırakmadan belirli bir siteye gitme girişimlerinin çoğu hiçbir şeyle sonuçlanmaz.
 
 ### VPN bağlantıları kesiliyor
 
-A weak signal, network overload, VPN incompatibility with a firewall, antivirus and other programs, an outdated VPN protocol — all this can cause a sudden failure in the VPN connection, especially by unreliable VPN providers.
+Zayıf bir sinyal, ağ aşırı yüklenmesi, bir güvenlik duvarı, antivirüs ve diğer programlarla VPN uyumsuzluğu, eski bir VPN protokolü— tüm bunlar, özellikle güvenilmez VPN sağlayıcıları tarafından VPN bağlantısında ani bir arızaya neden olabilir.
 
 ## AdGuard VPN
 
-Our VPN service has several important [advantages](/general/why-adguard-vpn):
+VPN hizmetimizin birkaç önemli [avantajı](/general/why-adguard-vpn) vardır:
 
-- [*Proprietary VPN protocol*](/general/adguard-vpn-protocol), which works stably even with a slow Internet connection and disguises itself as normal traffic, making it more difficult to track and block it
+- [*Tescilli VPN protokolü*](/general/adguard-vpn-protocol), yavaş bir İnternet bağlantısıyla bile kararlı bir şekilde çalışan ve kendisini normal trafik olarak gizleyerek izlemeyi ve engellemeyi daha zor hâle getirir
 
-- [*No-logging policy*](https://adguard-vpn.com/privacy.html), which means that AdGuard VPN does not collect your personal data and does not transfer it to third parties
+- [*Günlük tutmama politikası*](https://adguard-vpn.com/privacy.html), bu da AdGuard VPN'in kişisel verilerinizi toplamadığı ve üçüncü taraflara aktarmadığı anlamına gelir
 
 - *Onlarca ülkede 50'den fazla VPN sunucusu*
 
 - *Kullanım kolaylığı ve kapsamlı özelleştirme seçenekleri*
 
-Currently, AdGuard VPN is available as:
+Şu anda AdGuard VPN şu şekilde mevcuttur:
 
-- [Browser extension](/adguard-vpn-browser-extension/overview) for Chrome, Firefox, and Edge
+- Chrome, Firefox ve Edge için [tarayıcı uzantısı](/adguard-vpn-browser-extension/overview)
 
-- Mobile app for [Android](/adguard-vpn-for-android/overview) and [iOS](/adguard-vpn-for-ios/overview)
+- [Android](/adguard-vpn-for-android/overview) ve [iOS](/adguard-vpn-for-ios/overview) için mobil uygulama
 
-- Desktop application for [Windows](/adguard-vpn-for-windows/overview) and [Mac](/adguard-vpn-for-mac/overview)
+- [Windows](/adguard-vpn-for-windows/overview) ve [Mac](/adguard-vpn-for-mac/overview) için masaüstü uygulaması
 
-[Learn more about AdGuard VPN features](https://adguard-vpn.com/welcome.html)
+[AdGuard VPN özellikleri hakkında daha fazla bilgi edinin](https://adguard-vpn.com/welcome.html)

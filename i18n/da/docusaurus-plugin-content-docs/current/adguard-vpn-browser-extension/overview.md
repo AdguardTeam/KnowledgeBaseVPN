@@ -1,58 +1,58 @@
 ---
-title: Features overview
+title: Funktionsoversigt
 sidebar_position: 1
 ---
 
-AdGuard VPN Browser Extension is available for Chrome, Firefox, Opera, and Edge. The UI and functionality doesn't differ between browsers so the overview below will be relevant for AdGuard VPN extensions for all browsers.
+AdGuard VPN Browser Extension er tilgængelig til Chrome, Firefox, Opera og Edge. Brugergrænsefladen og funktionaliteten adskiller sig ikke mellem browsere, så oversigten nedenfor gælder for AdGuard VPN-udvidelser til alle browsere.
 
 :::note
 
-You can only use AdGuard VPN Browser Extension when logged in. Sign in with your AdGuard account or via Google, Facebook, or Apple. In the latter case make sure that your account is bound to the same email address as your AdGuard account. If you have an [AdGuard VPN subscription](/general/subscription), it will be activated automatically in AdGuard VPN Browser extension. Don’t have an AdGuard account yet? [Create it here](https://auth.adguard.com/registration.html).
+AdGuard VPN Browser Extension kan kun bruges, når man er logget ind. Log ind med AdGuard-kontoen eller via Google, Facebook eller Apple. I sidstnævnte tilfælde skal man sikre sig, at kontoen er tilknyttet den samme e-mailadresse som AdGuard-kontoen. Har man et [AdGuard VPN-abonnement](/general/subscription), aktiveres det automatisk i AdGuard VPN-browserudvidelsen. Har endnu ingen AdGuard-konto? [Opret en hér](https://auth.adguard.com/registration.html).
 
 :::
 
-To manage your AdGuard VPN Browser Extension:
+Sådan håndteres AdGuard VPN Browser Extension:
 
-- Either click its icon on the browser's panel, click the hamburger menu icon, and select *Settings*,
-- Or go to the *Manage extensions* page in your browser, click *Details* below *AdGuard VPN* and manage its settings from there.
+- Klik enten på dets ikon på browserens panel, klik på hamburgermenuikonet og vælg *Indstillinger*,
+- Eller gå til siden *Håndtere udvidelser* i browseren, klik på *Detaljer* under *AdGuard VPN* og håndtér dens indstillinger derfra.
 
-Once done, you'll see several tabs on the left:
+Når man er færdig, vil man se flere faner til venstre:
 
-## Settings
+## Indstillinger
 
-A few important settings are gathered inside this tab. Here you can choose a DNS server to use, add or remove the AdGuard VPN icon from the browser’s context menu, block WebRTC, change the extension's theme, and allow AdGuard to gather anonymized crash reports and technical data.
+Et par vigtige indstillinger er samlet under denne fane. Her kan vælges en DNS-server at bruge, tilføje eller fjerne AdGuard VPN-ikonet fra browserens kontekstmenu, blokere WebRTC, ændre udvidelsens tema og tillade AdGuard at indsamle anonymiserede nedbrudsrapporter og tekniske data.
 
-### Choosing a DNS server
+### Valg af DNS-server
 
-By default, the [system DNS server](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns) provided by your ISP is selected, but it may compromise your privacy. With AdGuard VPN Browser extension, you can select a DNS server that provides better speed and security, and even blocks ads or potentially dangerous domains. Brief descriptions under the names of DNS servers will help you navigate and make your decision.
+Som standard er [systemets DNS-server](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns) fra internetudbyderen valgt, men den kan muligvis kompromittere fortroligheden. Med AdGuard VPN Browser-udvidelse kan en DNS-server vælges, der giver bedre hastighed og sikkerhed, og endda blokerer annoncer eller potentielt farlige domæner. Korte beskrivelser under DNS-servernavnene hjælper med at finde rundt og træffe en beslutning.
 
-Learn more about [DNS servers from various providers](https://adguard-dns.io/kb/general/dns-providers/).
+Læs mere om [DNS-servere fra forskellige udbydere](https://adguard-dns.io/kb/general/dns-providers/).
 
-## Exclusions
+## Undtagelser
 
-The next tab contains one of the main distinctive features of AdGuard VPN – two modes with separate exclusions lists.
+Den næste fane indeholder en af de vigtigste karakteristika ved AdGuard VPN – to tilstande med separate undtagelseslister.
 
-In **General mode**, AdGuard VPN by default works on all websites, with the exception of the websites you've added to the exclusions list. In **Selective mode**, vice versa, AdGuard VPN by default doesn't work anywhere. You can add any websites where you'd like it to work to an exclusions list, separate from the one you saw in the **General mode**.
+I **Generel tilstand** fungerer AdGuard VPN som standard på alle websteder, undtagen på de websteder, som er føjet til undtagelseslisten. I **Selektiv tilstand**, omvendt, fungerer AdGuard VPN som standard ingen steder. Alle websteder, hvor den ønskes at fungere, kan føjes til en undtagelsesliste, adskilt fra den, der findes i **Generel tilstand**.
 
-When adding a website to the exclusions list, you can enter the website manually or select the **From the list** option. In the latter case, you'll see eight categories (e.g. *Shopping*, *Messengers*, etc.), each suggesting several popular services. You can exclude any of those services in one click, and this action will add to exclusions all domains relevant to that specific service.
+Når et websted føjes til undtagelseslisten, kan man gå ind på webstedet manuelt eller vælge muligheden **Fra listen**. I sidstnævnte tilfælde ses otte kategorier (f.eks *Shopping*, *Beskedtjenester* mv.), der hver foreslår flere populære tjenester. Hver af disse tjenester kan undtages med ét enkelt klik, og denne handling vil føje alle domæner med relevans for den bestemte tjeneste til udtagelser.
 
-### Import and export
+### Import og eksport
 
-Not only can you add and remove websites, you can also transfer ready exclusions lists to other devices where AdGuard VPN is installed. To export your exclusions list, follow the 4-step instruction below:
+Ikke alene kan websteder tilføjes og fjernes, undtagelseslister kan også overføres til andre enheder, hvor AdGuard VPN er installeret. Følg nedenstående 4-trins vejledning for at eksportere undtagelseslisten:
 
-1. Open AdGuard VPN Browser extension from where you want to export your lists of exclusions. Find the appropriate section and click the "Export" button. The `exclusions.zip` archive will be downloaded.
-1. There are two `.txt` files inside the archive, one for each of the General and Selective lists. Add more exclusions to them, delete the existing ones, rename files, or just leave the archive as it is.
-1. When transferring between different devices, send the `.zip` file to the device for import.
-1. Open AdGuard VPN on that device. Find the appropriate section, click the "Import" button and select the archive. Done!
+1. Åbn den AdGuard VPN Browserudvidelse, fra hvilken undtagelseslisten skal eksporteres. Find den relevante sektion og klik på knappen "Eksportér". Et `exclusions.zip`-arkiv vil blive downloadet.
+1. Arkivet indeholder to `.txt`-filer, én for hver af listerne Generel og Selektiv. Føj flere undtagelser til dem, slet de eksisterende, omdøb filer eller lad blot arkivet forblive uændret.
+1. Ved overførsel mellem forskellige enheder, send `.zip`-filen til enheden til import.
+1. Åbn AdGuard VPN på den pågældende enhed. Find det relevante afsnit, klik på knappen "Importér" og vælg arkivet. Færdig!
 
-## Account
+## Konto
 
-The third tab of AdGuard VPN Browser extension is utterly minimalistic, containing only the email address you used to sign into your account and two buttons, *Manage* and *Sign out*. Clicking the *Manage* button takes you to your personal AdGuard account, where you can see all your current licenses and subscriptions, as well as devices connected to them.
+Den tredje fane i AdGuard VPN Browserudvidelsen er helt minimalistisk og indeholder kun e-mailadressen brugt til indlogning på kontoen samt to knapper, *Håndtering* og *Log ud*. Ved klik på knappen *Håndtering* kommer man til sin personlige AdGuard-konto, hvor alle aktuelle licenser, abonnementer, samt enhederne tilknyttede hertil, kan ses.
 
 ## Support
 
-You can find answers to common questions in the FAQ section, or leave feedback: report a bug if something isn't working as it should, suggest adding a new feature, or discuss AdGuard on any of the many social media platforms.
+Man kan finde svar på almindelige spørgsmål i FAQ-afsnittet eller give feedback: Anmelde fejl, hvis noget ikke fungerer, som det skal, foreslå tilføjelse af en ny funktion eller debattere AdGuard på en af de mange sociale medieplatforme.
 
-## About
+## Om
 
-Another minor tab, where you can check the extension's version, visit the official website, and view the EULA or Privacy policy.
+Fra en anden mindre fane kan man se versionen på udvidelsen, besøge det officielle websted og se EULA samt Fortrolighedspolitik.

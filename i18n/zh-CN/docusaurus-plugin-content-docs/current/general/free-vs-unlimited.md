@@ -22,4 +22,4 @@ sidebar_position: 5
 - 安全串流
 - 不阻挡端口 25
 
-To use all the advantages, consider [purchasing a subscription](/general/subscription).
+要使用所有优势功能，请考虑[购买订阅](/general/subscription)。

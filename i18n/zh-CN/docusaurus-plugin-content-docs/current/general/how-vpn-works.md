@@ -5,19 +5,19 @@ sidebar_position: 1
 
 要了解 AdGuard VPN 的工作原理，用户首先应该了解 VPN 服务的一般原则。
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/aOmkjgfSsIY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/aOmkjgfSsIY" title="YouTube 视频播放器" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## VPN 功能
 
-A VPN is a virtual private network that helps hide your location and protect your data on the Web. VPN 将计算机或移动设备连接到 VPN服务器，并使用该服务器的 IP 地址，使外部观察者认为你在另一个地方。 这使你能够安全地访问各种互联网资源并保护你的个人数据。
+VPN 是一种虚拟专用网络，有助于隐藏用户的位置并保护的个人网络数据。 VPN 将计算机或移动设备连接到 VPN服务器，并使用该服务器的 IP 地址，使外部观察者认为你在另一个地方。 这使你能够安全地访问各种互联网资源并保护你的个人数据。
 
 这样，VPN 就发挥两个重要功能。
 
-1. **Maintaining anonymity**
+1. **保持匿名**
 
-    Using an Internet connection, the user leaves their digital footprint, which can then be analyzed and used by third parties. For example, one of the online stores that you have visited can save your search history and then offer you their products based on it through targeted advertising. Or the secret services, having learned your location through the IP address of your device and having determined your identity, can secretly monitor your activity on the web. In addition, web browsers and ISPs themselves can use your browsing history for their own purposes, as well as sell it to advertisers and provide it to government institutions. VPN allows you to hide your IP address and replace it with the IP address of the VPN server to which you are connected. This way you will be able to maintain your privacy and anonymously search for information on the web.
+    在使用互联网连接时，用户会留下数字足迹，这些足迹会被第三方分析和使用。 例如，你访问过的某个网店可以保存你的搜索历史，这样他们就可以有针对性地向你推送产品。 或者，一些别有用心的人通过你设备的 IP 地址得知你的位置并确定你的真实身份，然后就可以秘密监控你在网上的一举一动。 不仅如此，浏览器和网络服务提供商都有可能会为了自己的利益去利用你的浏览记录，并且将其出售给广告商或提供给政府机构。 VPN 可以让你隐藏实际 IP 地址，转而用你所连接的 VPN 服务器的 IP 地址进行代替。 这样你就能保护自己的隐私，并在网上匿名搜索信息。
 
-1. **Data protection** If you connect to an unreliable or public network, the data on your device may become vulnerable to cybercriminals. 银行卡详情、用户名和密码、护照数据，所有这些数据都可能被网络欺诈者截获。 VPN 隧道可以加密你从网上发送和接收的信息，保证重要的隐私数据不会落入不法分子手中。
+1. **数据保护**：如果您连接到不可靠的网络或公共网络，你设备上的数据可能会容易受到网络犯罪分子的攻击。 银行卡详情、用户名和密码、护照数据，所有这些数据都可能被网络欺诈者截获。 VPN 隧道可以加密你从网上发送和接收的信息，保证重要的隐私数据不会落入不法分子手中。
 
 ## VPN 结构
 
@@ -39,42 +39,42 @@ VPN 安全协议是对 VPN 隧道中数据进行加密的工具，同时能让�
 
 除了这些 VPN 协议外，还有其他协议（例如 TLS、SSTP、IKEv2），但它们要么不流行，要么不符合现代数据加密标准。
 
-AdGuard VPN also has its own [*protocol*](/general/adguard-vpn-protocol). One of its advantages is that the traffic transmitted using the AdGuard VPN protocol is difficult to distinguish from the regular traffic. The VPN tunnel looks like normal HTTPS traffic, so it is extremely difficult to detect and block it. In addition, it is based on the mechanisms of the modern HTTP/2 protocol, which ensures high connection speed.
+AdGuard VPN 也有自己的[*协议*](/general/adguard-vpn-protocol)。 其最大的优点之一，就是使用 AdGuard VPN 协议传输的流量与普通流量极难区分。 因为 VPN 隧道可以完全伪装成正常的 HTTPS 流量，所以极难检测和阻止。 不仅如此，基于现代 HTTP/2 协议的机制确保了高连接速度。
 
 ## VPN 的缺点
 
-Despite the obvious advantages, VPN is not perfect and has some disadvantages:
+尽管优点很多，但 VPN 也不是完美的：
 
 ### 速度缓慢
 
-Since your traffic does not go directly to the web server, but first passes through the VPN server, the speed of the VPN connection decreases. Other factors also affect the speed when using a VPN: the load of the VPN server, its bandwidth, the compatibility of the VPN protocol with your operating system. All these factors, as well as the speed of the network itself, can reduce the quality of your VPN connection.
+由于你的网络流量不直接进入网络服务器，而是首先经过 VPN 服务器，因此 VPN 连接的速度会下降。 其他因素也会影响使用 VPN 时的速度：VPN 服务器的负载、带宽、VPN 协议与你操作系统的兼容性。 所有这些因素以及网络本身的速度，都会降低你的 VPN 连接质量。
 
 ### 访问阻止
 
-Some online services make a lot of effort to detect VPN traffic and block access to VPN users. However, not many VPNs can mask their traffic as regular. Therefore, many attempts to go to a particular website without disabling VPN end up in nothing.
+有些在线服务会费尽心思去检测 VPN 流量，并阻止 VPN 用户的访问。 然而，很多 VPN 都不能把流量伪装成普通流量。 所以许多人在用其他 VPN 时会常常被拦截，无法进入网站。
 
 ### VPN 连接中断
 
-A weak signal, network overload, VPN incompatibility with a firewall, antivirus and other programs, an outdated VPN protocol — all this can cause a sudden failure in the VPN connection, especially by unreliable VPN providers.
+信号弱，网络过载，VPN 与防火墙、杀毒软件和其他程序不兼容，VPN 协议过时——所有这些因素都可能导致 VPN 连接突然断开，特别是不可靠供应商的 VPN。
 
 ## AdGuard VPN
 
-Our VPN service has several important [advantages](/general/why-adguard-vpn):
+我们的 VPN 服务有几个独特的[优势](/general/why-adguard-vpn)：
 
-- [*Proprietary VPN protocol*](/general/adguard-vpn-protocol), which works stably even with a slow Internet connection and disguises itself as normal traffic, making it more difficult to track and block it
+- [*专有 VPN 协议*](/general/adguard-vpn-protocol)，即使在互联网连接速度较慢的情况下也能稳定工作，并将自身伪装成正常流量以防被跟踪和阻止
 
-- [*No-logging policy*](https://adguard-vpn.com/privacy.html), which means that AdGuard VPN does not collect your personal data and does not transfer it to third parties
+- [*无日志政策*](https://adguard-vpn.com/privacy.html)，这意味着 AdGuard VPN 不会收集您的个人数据，也不会将其传输给第三方
 
 - *位于十几个国家的超过 50 个 VPN 服务器位置*
 
 - *使用便捷，具有广泛的自定义选项*
 
-Currently, AdGuard VPN is available as:
+目前，AdGuard VPN 有以下版本：
 
-- [Browser extension](/adguard-vpn-browser-extension/overview) for Chrome, Firefox, and Edge
+- 适用于 Chrome、Firefox 和 Edge 的[浏览器扩展](/adguard-vpn-browser-extension/overview)
 
-- Mobile app for [Android](/adguard-vpn-for-android/overview) and [iOS](/adguard-vpn-for-ios/overview)
+- 适用于[安卓](/adguard-vpn-for-android/overview)和 [iOS](/adguard-vpn-for-ios/overview) 的移动应用程序
 
-- Desktop application for [Windows](/adguard-vpn-for-windows/overview) and [Mac](/adguard-vpn-for-mac/overview)
+- 适用于 [Windows](/adguard-vpn-for-windows/overview) 和 [Mac](/adguard-vpn-for-mac/overview) 的桌面应用程序
 
-[Learn more about AdGuard VPN features](https://adguard-vpn.com/welcome.html)
+[了解有关 AdGuard VPN 功能的更多信息](https://adguard-vpn.com/welcome.html)

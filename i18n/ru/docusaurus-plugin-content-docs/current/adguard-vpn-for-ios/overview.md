@@ -90,7 +90,7 @@ VPN будет автоматически включаться при подкл
 
 ## Поддержка
 
-Мы всегда стремимся удовлетворить потребности пользователей. Поэтому в приложении есть множество функций, помогающих пользователям (нажмите кнопку *Настройки* в правом нижнем углу экрана, затем *Поддержка*): вы можете посмотреть раздел FAQ, сообщить об ошибке, оставить отзыв, обсудить свои проблемы и предложения на нашем форуме, в социальных сетях или на GitHub, оценить AdGuard VPN для iOS в App Store и экспортировать журналы.
+There is a variety of helping features in the app (press the *Settings* button at the bottom right and then *Support*): you can see the FAQ section, report a bug, leave feedback, discuss your problems and suggestions in social networks or on GitHub, rate AdGuard VPN for iOS in the App Store and export logs.
 
 ![Поддержка *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/support.png)
 

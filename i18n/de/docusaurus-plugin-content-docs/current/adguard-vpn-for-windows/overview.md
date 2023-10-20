@@ -99,7 +99,7 @@ AdGuard VPN verschlüsselt nicht nur den Datenverkehr Ihrer Browser, sondern auc
 
 ### Über das Programm
 
-Die Registerkarte **Über das Programm** bietet Informationen über die aktuelle Version von AdGuard VPN für Windows, eine Update-Schaltfläche und einige nützliche Links: AdGuard VPN-Website, Forum, EULA und Datenschutzerklärung.
+The **About** tab provides information about the current version of AdGuard VPN for Windows, an update button, and links to the AdGuard VPN website, EULA, and Privacy policy.
 
 ### Konto
 

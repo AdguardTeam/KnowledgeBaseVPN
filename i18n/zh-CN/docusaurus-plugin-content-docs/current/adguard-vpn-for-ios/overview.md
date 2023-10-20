@@ -5,7 +5,7 @@ sidebar_position: 1
 
 ## 什么是 iOS版 AdGuard VPN？
 
-VPN 可以让用户与互联网上另一处网络创建安全连接。 它将用户的电脑或移动设备连接到服务器，并允许用户使用其他 IP 地址浏览网络。 因此，如果 VPN 服务器位于某一个其他国家，那么您本身也看起来从那个国家连接到互联网。 [Learn more](/general/how-vpn-works) about how a VPN works in detail.
+VPN 可以让用户与互联网上另一处网络创建安全连接。 它将用户的电脑或移动设备连接到服务器，并允许用户使用其他 IP 地址浏览网络。 因此，如果 VPN 服务器位于某一个其他国家，那么您本身也看起来从那个国家连接到互联网。 [详细了解](/general/how-vpn-works) VPN 的工作原理。
 
 AdGuard VPN 有以下的功能：
 
@@ -14,7 +14,7 @@ AdGuard VPN 有以下的功能：
 - 加密用户的流量不让诈骗者访问您的数据
 - 让用户自己配置在哪里启用或关闭 VPN（排除项功能）
 
-适用于 iOS 的 AdGuard VPN 下一个优势是我们自建的 VPN 协议。 我们的协议有两个主要优点：与其他 VPN 协议相比，它难以检测，并且即使在互联网连接不佳的情况下也能稳定运行。 You can read more about AdGuard VPN protocol [in this article](/general/adguard-vpn-protocol).
+适用于 iOS 的 AdGuard VPN 下一个优势是我们自建的 VPN 协议。 我们的协议有两个主要优点：与其他 VPN 协议相比，它难以检测，并且即使在互联网连接不佳的情况下也能稳定运行。 您可以在[这篇文章](/general/adguard-vpn-protocol)中了解有关 AdGuard VPN 协议的更多信息。
 
 ## 如何使用 AdGuard VPN iOS 版
 
@@ -59,7 +59,7 @@ AdGuard VPN 有以下的功能：
 
 适用于 iOS 的 AdGuard VPN 可以在两种模式下运行：**常规**和**整合**。
 
-In **General** mode, the [AdGuard VPN protocol](/general/adguard-vpn-protocol) is employed, which provides the best combination of speed and security. 在此模式下，AdGuard VPN 无法与 [AdGuard 广告拦截程序 iOS 版](https://adguard.com/kb/adguard-for-ios/overview/)同时运行。
+在**常规**模式下使用 [AdGuard VPN 协议](/general/adguard-vpn-protocol)。本协议提供速度和安全性的最佳组合。 在此模式下，AdGuard VPN 无法与 [AdGuard 广告拦截程序 iOS 版](https://adguard.com/kb/adguard-for-ios/overview/)同时运行。
 
 在**选择**模式下，AdGuard VPN 能够通过使用 IPSec 协议与 AdGuard 广告拦截程序 iOS 版同时运作。 该协议也是安全的，但速度稍慢且更容易检测。 您不需要执行任何其他操作设置整合：只需安装这两个应用程序并切换到此模式即可。
 > 请注意，在**整合**模式下，您不能使用排除项功能或 DNS 服务器功能。
@@ -90,7 +90,7 @@ In **General** mode, the [AdGuard VPN protocol](/general/adguard-vpn-protocol) i
 
 ## 支持
 
-用户的成就感是我们的重中之重。 因此，应用程序中有各种“帮助”功能（按右下角的「*设置*」按钮，然后按「*支持*」）：您可以看到「常见问题」部分、「报告错误」、「留下反馈意见」、在我们的论坛、社交网络或 GitHub 上「讨论」您的问题和建议，在 App Store 为 AdGuard VPN iOS 版「评分」，以及「导出日志」。
+There is a variety of helping features in the app (press the *Settings* button at the bottom right and then *Support*): you can see the FAQ section, report a bug, leave feedback, discuss your problems and suggestions in social networks or on GitHub, rate AdGuard VPN for iOS in the App Store and export logs.
 
 ![支持 *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/support.png)
 

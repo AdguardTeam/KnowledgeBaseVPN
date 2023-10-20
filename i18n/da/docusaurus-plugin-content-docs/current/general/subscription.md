@@ -1,12 +1,12 @@
 ---
-title: How to subscribe
+title: Sådan oprettes et abonnement
 sidebar_position: 6
 ---
 
-AdGuard VPN is available in two versions — free and unlimited. The subscription allows you to use the app without any restrictions on traffic, connection speed and the choice of locations. You can [read more about all the advantages of the unlimited version](/general/free-vs-unlimited).
+AdGuard VPN er tilgængelig i to versioner — gratis og ubegrænset. Abonnementet muliggør brug af appen uden begrænsning ift. trafik, forbindelseshastighed og lokationsantal. Der kan [læses mere om alle fordelene ved den ubegrænsede version](/general/free-vs-unlimited).
 
-If you have decided to purchase a subscription to AdGuard VPN, there are three ways to do this:
+Med hensyn til køb af abonnement på AdGuard VPN, så er der tre valgmuligheder:
 
-1. Via an in-app purchase. Go to the AdGuard VPN app and tap the arrow in the upper right corner of the screen. There are three subscription plans to choose from — monthly, yearly, and two-year one. Select the most suitable one and tap *Subscribe*. This option is available for AdGuard VPN mobile apps for iOS and Android.
-2. Via [AdGuard account](https://my.adguard.com/). Log in to your account and select *My Licenses* from the menu bar. Click *Buy AdGuard VPN* and select a monthly, yearly, or two-year subscription. Pay for it using your card, PayPal account, or one of the supported cryptocurrencies: Bitcoin, Ethereum, Litecoin, or Tether. Done!
-3. Finally, you can purchase an AdGuard VPN subscription on [our website](https://adguard-vpn.com/license.html). Choose a suitable subscription plan and enter the email address to which the payment receipt will be sent. You can pay for your subscription using your card or PayPal account.
+1. Via køb i appen. Åbn AdGuard VPN-appen, og tryk på pilen øverst til højre på skærmen. Der findes tre abonnementstyper — månedlig, årlig og toårig. Vælg den bedst egnede, og tryk på *Abonnér*. Denne mulighed er tilgængelig for AdGuard VPN mobil-apps til Android og iOS.
+2. Via en [AdGuard-konto](https://my.adguard.com/). Log ind på kontoen og vælg *Mine licenser* fra menubjælken. Klik på *Køb AdGuard VPN* og vælg et månedligt, årligt eller toårigt abonnement. Gennemfør betalingen via kort, PayPal-konto eller med en af de understøttede kryptovalutaer: Bitcoin, Ethereum, Litecoin eller Tether. Færdig!
+3. Endelig kan et AdGuard VPN-abonnement købes via [vores websted](https://adguard-vpn.com/license.html). Vælg en passende abonnementstype og angiv den e-mailadresse, som betalingskvitteringen skal sendes til. Abonnementsbetaling kan ske via kort eller PayPal-konto.

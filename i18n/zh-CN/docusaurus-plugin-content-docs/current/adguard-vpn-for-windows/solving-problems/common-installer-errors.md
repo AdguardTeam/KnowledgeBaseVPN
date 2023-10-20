@@ -57,7 +57,7 @@ sidebar_position: 2
 
 - 选择一个不同的安装文件夹。 原本设置的安装文件夹可能存在某些访问限制。 您还要确保没有选择外部驱动器、虚拟驱动器等。
 
-- Uninstall AdGuard VPN using our special [uninstall tool](/adguard-vpn-for-windows/installation#advanced) and then repeat the installation.
+- 使用我们专用的[卸载工具](/adguard-vpn-for-windows/installation#advanced)卸载 AdGuard，然后重新安装。
 
 - 启动并重新注册 Microsoft Installer 服务。 这需要如下操作。
 
@@ -93,7 +93,7 @@ sidebar_position: 2
 
 - 检查您的计算机上是否已安装 AdGuard VPN。 您可以通过按 *Win* 键并输入 ***AdGuard VPN*** 来实现查询。
 
-- 也有可能您的电脑上存在一些以前安装 AdGuard VPN 的残余文件。 Uninstall AdGuard using our special [uninstall tool](/adguard-vpn-for-windows/installation#advanced) and then repeat the installation.
+- 也有可能您的电脑上存在一些以前安装 AdGuard VPN 的残余文件。 请使用我们专用的[卸载工具](/adguard-vpn-for-windows/installation#advanced)卸载 AdGuard，然后重新安装。
 
 ### 其他错误 {#other}
 

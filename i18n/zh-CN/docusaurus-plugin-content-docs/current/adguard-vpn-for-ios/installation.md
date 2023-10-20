@@ -33,4 +33,4 @@ AdGuard VPN iOS 版已成功安装！
 
 ![卸载 *mobile_border](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/deinstall-en.png)
 
-You can learn more about the AdGuard VPN app for iOS in [this article](adguard-vpn-for-ios/overview).
+您可以在[这篇文章](adguard-vpn-for-ios/overview)中了解有关 AdGuard VPN iOS 版的更多信息。

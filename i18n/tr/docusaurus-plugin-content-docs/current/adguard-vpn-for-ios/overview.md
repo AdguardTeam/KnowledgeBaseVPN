@@ -5,7 +5,7 @@ sidebar_position: 1
 
 ## iOS için AdGuard VPN nedir?
 
-VPN, İnternet üzerindeki başka bir ağa güvenli bir bağlantı oluşturmanızı sağlar. Bir kullanıcının bilgisayarını veya mobil cihazını bir sunucuya bağlar ve birinin başka birinin IP adresini kullanarak internette gezinmesini sağlar. Yani VPN sunucusu farklı bir ülkede bulunuyorsa o ülkeden internete bağlandığınız görülür. [Learn more](/general/how-vpn-works) about how a VPN works in detail.
+VPN, İnternet üzerindeki başka bir ağa güvenli bir bağlantı oluşturmanızı sağlar. Bir kullanıcının bilgisayarını veya mobil cihazını bir sunucuya bağlar ve birinin başka birinin IP adresini kullanarak internette gezinmesini sağlar. Yani VPN sunucusu farklı bir ülkede bulunuyorsa o ülkeden internete bağlandığınız görülür. Bir VPN'nin nasıl çalıştığı hakkında [daha fazla bilgi edinin](/general/how-vpn-works).
 
 AdGuard VPN'den bahsetmişken, birkaç işlevi vardır:
 
@@ -14,7 +14,7 @@ AdGuard VPN'den bahsetmişken, birkaç işlevi vardır:
 - trafiğinizi dolandırıcıların erişemeyeceği şekilde şifreler
 - VPN'nin nerede kullanılacağını ve nerede kullanılmayacağını yapılandırmanıza olanak tanır (istisnalar özelliği)
 
-iOS için AdGuard VPN'in bir sonraki avantajı, kendi VPN protokolümüzdür. İki ana avantajı vardır: diğer VPN protokolleriyle karşılaştırıldığında, tespit edilmesi son derece zordur ve zayıf bir internet bağlantısıyla bile kararlı bir şekilde çalışır. You can read more about AdGuard VPN protocol [in this article](/general/adguard-vpn-protocol).
+iOS için AdGuard VPN'in bir sonraki avantajı, kendi VPN protokolümüzdür. İki ana avantajı vardır: diğer VPN protokolleriyle karşılaştırıldığında, tespit edilmesi son derece zordur ve zayıf bir internet bağlantısıyla bile kararlı bir şekilde çalışır. [Bu makalede](/general/adguard-vpn-protocol) AdGuard VPN protokolü hakkında daha fazla bilgi edinebilirsiniz.
 
 ## iOS için AdGuard VPN nasıl kullanılır
 
@@ -59,7 +59,7 @@ Burada, farklı seçenekleri kullanarak iOS için AdGuard VPN'i yapılandırabil
 
 iOS için AdGuard VPN iki modda çalışabilir: **Genel** ve **Entegre**.
 
-In **General** mode, the [AdGuard VPN protocol](/general/adguard-vpn-protocol) is employed, which provides the best combination of speed and security. Bu modda, AdGuard VPN, [iOS için AdGuard Reklam Engelleyici](https://adguard.com/kb/adguard-for-ios/overview/) ile birlikte çalışamaz.
+**Genel** modda, hız ve güvenliğin en iyi kombinasyonunu sağlayan [AdGuard VPN protokolü](/general/adguard-vpn-protocol) kullanılır. Bu modda, AdGuard VPN, [iOS için AdGuard Reklam Engelleyici](https://adguard.com/kb/adguard-for-ios/overview/) ile birlikte çalışamaz.
 
 **Entegre** modda, AdGuard VPN, bunun yerine IPSec protokolünü kullanarak iOS için AdGuard reklam engelleyici ile aynı anda çalışabilecektir. Bu protokol de güvenlidir, ancak biraz daha yavaş ve tespit edilmesi daha kolaydır. Entegrasyonu ayarlamak için herhangi bir ek işlem gerçekleştirmeniz gerekmez: her iki uygulamayı da yüklemeniz ve bu moda geçmeniz yeterlidir.
 > **Entegre** modda, İstisnalar özelliğini kullanamayacağınızı veya bir DNS sunucusu seçemeyeceğinizi unutmayın.
@@ -90,7 +90,7 @@ Bu özelliğe erişmek için uygulama simgesine dokunup basılı tutun, ardında
 
 ## Destek
 
-Kullanıcıların başarısı bizim için yüksek önceliktir. Bu nedenle uygulamada çeşitli yardım özellikleri vardır (sağ alttaki *Ayarlar* düğmesine ve ardından *Destek* öğesine basın): SSS bölümünü görebilir, hata bildirebilir, geri bildirim bırakabilir, sorunlarınızı ve önerilerinizi forumumuzda, sosyal ağlarda veya GitHub'da tartışabilir, App Store'da iOS için AdGuard VPN'i derecelendirebilir ve günlükleri dışa aktarabilirsiniz.
+There is a variety of helping features in the app (press the *Settings* button at the bottom right and then *Support*): you can see the FAQ section, report a bug, leave feedback, discuss your problems and suggestions in social networks or on GitHub, rate AdGuard VPN for iOS in the App Store and export logs.
 
 ![Destek *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/support.png)
 

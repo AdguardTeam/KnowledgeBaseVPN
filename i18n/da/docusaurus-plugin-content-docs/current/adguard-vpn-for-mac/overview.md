@@ -1,85 +1,85 @@
 ---
-title: Features overview
+title: Funktionsoversigt
 sidebar_position: 1
 ---
 
-AdGuard VPN for Mac is a desktop VPN service. AdGuard VPN is fully compatible with AdGuard Ad Blocker, they can be used together and will operate seamlessly. Let’s see what features it has to offer.
+AdGuard VPN til Mac er en computer VPN-tjeneste. AdGuard VPN er fuldt ud kompatibel med AdGuard Ad Blocker, de kan bruges sammen og vil fungere problemfrit. Her er de funktioner, den har at tilbyde.
 
-Note that **you can't use AdGuard VPN for Mac unless you have logged into your AdGuard account**. You can either sign in with your AdGuard account or with an external account, namely, via Apple, Google or Facebook. Make sure that your external account is bound to the same e-mail address as your AdGuard account. If there is a suitable subscription in your AdGuard account, it will be automatically activated on the desktop app. Still don't have an AdGuard account? Create it [here](https://auth.adguard.com/registration.html).
+Bemærk, at **AdGuard VPN til Mac ikke kan bruges, medmindre man er logget ind på en AdGuard-konto**. Man kan enten logge ind med AdGuard-kontoen eller med en ekstern konto via Apple, Google eller Facebook. Sørg for, at den eksterne konto er tilknyttet den samme e-mailadresse som AdGuard-kontoen. Er der et passende abonnement i AdGuard-kontoen, aktiveres det automatisk i computer-appen. Har stadig ingen AdGuard-konto? [Opret en hér](https://auth.adguard.com/registration.html).
 
-> AdGuard VPN for Mac is currently supported on macOS versions starting from macOS Catalina (10.15).
+> AdGuard VPN til Mac understøttes pt. på macOS-versioner startende med macOS Catalina (10.15).
 
-## Home screen
+## Startskærm
 
-![Home screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/main_en.png)
+![Startskærm](https://cdn.adguardvpn.com/content/kb/vpn/mac/main_en.png)
 
-The first tab is the *Home* screen. Here you can see AdGuard VPN current status and [exclusions mode](#exclusions), chosen location (if enabled) and its ping. Ping is the response time of a VPN server. Consequently, the lower this number is, the faster the connection. If VPN is disabled, the last location you connected to is displayed below. The fastest locations with the lowest pings are displayed in the upper right corner of the screen. Below you can see the full list of locations. Through the search function, the needed location can be easily found.
+Den første fane er skærmen *Start*. Her kan man se AdGuard VPNs aktuelle status, [undtagelsestilstand](#exclusions) og valgte placering (hvis aktiveret) samt dens ping. Ping er en VPN-servers svartid. Jo lavere dette tal er, des hurtigere er forbindelsen. Hvis VPN er deaktiveret, vises den sidste placering, der har været oprettet forbindelse til, nedenfor. De hurtigste placeringer med de laveste ping vises i øverste til højre på skærmen. Nedenfor kan ses den fulde liste over placeringer. Via søgefunktionen kan den ønskede placering let findes.
 
-> Free users can connect only to certain locations, while others are blocked. Besides, there is a 3 GB monthly traffic limit in the free version.
+> Gratis-brugere kan kun oprette forbindelse til bestemte placeringer, mens andre er blokeret. Desuden er der en månedlig trafikkvote på 3 GB i den gratis version.
 
-## Exclusions
+## Undtagelser
 
-![Exclusions](https://cdn.adguardvpn.com/content/kb/vpn/mac/exclusions_en.png)
+![Undtagelser](https://cdn.adguardvpn.com/content/kb/vpn/mac/exclusions_en.png)
 
-Next goes the *Exclusions* screen. AdGuard VPN has several features that make it unique, and one of them is certainly switching between two exclusions modes. In the General mode, AdGuard VPN will run on all websites but the ones from the exclusions list. In the Selective mode, conversely, AdGuard VPN will run only on websites from the exclusions list. You yourself can decide where you want VPN to work.
+Dernæst kommer skærmen *Undtagelser*. AdGuard VPN har flere funktioner, som gør den unik, og én af dem bestemt at kunne skifter mellem to undtagelsestilstande. I tilstanden Generel virker VPN på alle websteder, undtagen dem på undtagelseslisten. I tilstanden Selektiv virker VPN omvendt kun på webstederne på undtagelseslisten. Man kan selv bestemme, hvor VPN skal virke.
 
-![Exclusions screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/services_en.png)
+![Skærmen Undtagelser](https://cdn.adguardvpn.com/content/kb/vpn/mac/services_en.png)
 
-Also you can not only add websites to Exclusions but also choose among the lists of popular services. The lists are divided into eight categories: Social networks, Messengers, Video and Music streaming services, Games, Shopping, Search engines, and Work communication tools. Any of these services can be added to Exclusions in one click! It's especially convenient if you use Selective mode.
+Man kan ikke blot føje websteder til Undtagelser, men også vælge blandt listerne over populære tjenester. Listerne er opdelt i otte kategorier: Sociale netværk, Messengers, Video- og musikstreamingtjenester, Spil, Shopping, Søgemaskiner og Arbejdskommunikationsværktøjer. Enhver af disse tjenester kan føjes til Undtagelser med ét enkelt klik! Det er især praktisk, hvis tilstanden Selektiv anvendes.
 
-Exclusion list can be easily configured. If you've added a domain and some of its subdomains, they'll be grouped inside the root one. When adding a root domain (`example.com`) its mask is added too (`*.example.com`).
+Undtagelser-listen kan nemt opsættes. Har man tilføjet et domæne og nogle af dets underdomæner, grupperes disse under roddomænet. Ved tilføjelse af et roddomæne (`eksempel.com`), tilføjes også dets maske (`*.eksempel.com`).
 
-If you've added a service, changed or removed something and now want to recover initial settings, just press *Reset to default* next to the domain — this action will restore any missing domains and tick all checkboxes.
+Har man tilføjet en tjeneste, ændret eller fjernet noget og nu ønsker at gendanne de oprindelige indstillinger, trykkes blot på *Nulstil til standard* ved siden af domænet — denne handling gendanner evt. manglende domæner og markere alle afkrydsningsfelter.
 
-What’s more, ready-made exclusions lists can be transferred to other devices with installed AdGuard VPN. To export exclusions, follow the four-step instruction below:
+Endvidere kan færdiglavede undtagelseslister overføres til andre enheder, hvor AdGuard VPN er installeret. Følg nedenstående 4-trins vejledning for at eksportere undtagelser:
 
-1. Open AdGuard VPN on the device from where you want to export your lists of exclusions. Find the appropriate section and click the *Export* button. The `exclusions.zip` archive will be downloaded.
-2. There are two `.txt` files inside the archive, each for General and Selective lists. Add more exclusions to them, delete the existing ones, rename files (but more on this later), or just leave the archive with files as it is.
-3. When transferring between different devices, don't forget to send the `.zip` file to the device for import. For example, if you import exclusion lists from your Mac to your iPhone, make sure to send the `.zip` file to your phone beforehand.
-4. Open AdGuard VPN on the device/in the browser where you want to import the archive with the ready lists of exclusions. Find the appropriate section, click the *Import* button and select the archive. Done!
+1. Åbn AdGuard VPN på den enhed, fra hvilken undtagelseslisten skal eksporteres. Find det relevante afsnit og klik på knappen *Eksportér*. Et `exclusions.zip`-arkiv vil blive downloadet.
+2. Arkivet indeholder to `.txt`-filer, én for hver af listerne Generel og Selektiv. Føj flere undtagelser til dem, slet eksisterende, omdøb filer (mere om dette senere) eller lad blot arkivet forblive uændret.
+3. Ved overførsel mellem forskellige enheder, så husk at sende `.zip`-filen til enheden til import. Importeres f.eks. undtagelseslister fra Mac til iPhone, sørg da for først at sende `.zip`-filen til mobilen.
+4. Åbn AdGuard VPN på/i enheden/browseren, hvor arkivet med undtagelseslisterne skal importeres. Find det relevante afsnit, klik på knappen *Importér* og vælg arkivet. Færdig!
 
-> Archive files from other devices can be similarly imported to your AdGuard VPN for Mac.
+> Arkivfiler fra andre enheder kan på samme vis importeres til AdGuard VPN til Mac.
 
 ## Support
 
-![Support screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/support_en.png)
+![Supportskærm](https://cdn.adguardvpn.com/content/kb/vpn/mac/support_en.png)
 
-The third tab is the *Support* screen. Find answers to any questions in the [FAQ](https://adguard-vpn.com/welcome.html#faq) or in the [Knowledge base](/) sections, report a bug if you encounter one, or [discuss AdGuard on any of the platforms](https://adguard.com/discuss.html). And feel free to [leave feedback about our product](https://surveys.adguard.com/vpn_mac/form.html), we’d appreciate it.
+Den tredje fane er skærmen *Support*. Find svar på alle spørgsmål i [FAQ'en](https://adguard-vpn.com/welcome.html#faq) eller i [Vidensbase](/)- afsnittene, anmeld en fejl, hvis der stødes på én eller [debattér AdGuard på en af platformene](https://adguard.com/discuss.html). Man er ligeledes meget velkommen til at [give feedback om vores produkt](https://surveys.adguard.com/vpn_mac/form.html), hvilket vi ville sætte pris på.
 
-## Settings
+## Indstillinger
 
-![Settings](https://cdn.adguardvpn.com/content/kb/vpn/mac/settings_en.png)
+![Indstillinger](https://cdn.adguardvpn.com/content/kb/vpn/mac/settings_en.png)
 
-Finally, we come to the Settings tab. In the *About program* section you can see the current version of AdGuard VPN, check for updates, visit our official website, and get acquainted with AdGuard's EULA and Privacy policy. In the *About license* section you can upgrade from free to unlimited, manage your subscription, or log out. And most importantly, from here you can access *General settings*.
+Til sidst er der fanen Indstillinger. I afsnittet *Om program* kan man se det aktuelle AdGuard VPN-versionsnummer, tjekke for opdateringer, besøge vores officielle websted og gøre sig bekendt med AdGuards EULA (Slutbrugerlicensaftale) samt Fortrolighedspolitik. I afsnittet *Om licens* kan man opgraderes fra gratis til ubegrænset, håndtere abonnement eller logge ud. Og vigtigst af alt, herfra kan *Generelle indstillinger* tilgås.
 
-### App settings
+### App-indstillinger
 
-![App settings](https://cdn.adguardvpn.com/content/kb/vpn/mac/general-settings_en.png)
+![App-indstillinger](https://cdn.adguardvpn.com/content/kb/vpn/mac/general-settings_en.png)
 
-The first four basic features make the application more convenient and user-friendly, i.e. *Kill Switch*, *Auto-update*, *Launch AdGuard VPN at login*, and *Auto-connect on app launch*. What’s more, you can choose between light, dark, and system themes — the latter one matches the theme on your Mac.
+De første fire basisfunktioner gør applikationen mere bekvem og brugervenlig, dvs. *Kill Switch*, *Auto-opdatering*, *Start AdGuard VPN ved login*og *Auto-tilslut ved app-start*. Derudover kan der vælges mellem lyse, mørke og systemtemaer – sidstnævnte matcher temaet på Mac'en.
 
-Another option that shouldn't be overlooked is that you can allow AdGuard VPN to gather and send anonymized crash reports, technical and interaction data in order to help us improve our app. Last but not least, thanks to the button on the right, you can export logs to your Mac. This can be useful if you want to attach logs to your message to support.
+En anden mulighed, som ikke bør overses, er, at man kan tillade AdGuard VPN at indsamle og indsende anonymiserede nedbrudsrapporter, tekniske data samt interaktionsdata for at hjælpe os med at forbedre appen. Sidst, men ikke mindst, kan Mac'ens logfiler eksporteres via knappen til højre. Dette kan være nyttigt, hvis disse ønskes vedhæftet en besked til supporten.
 
-### DNS servers
+### DNS-servere
 
-![DNS servers](https://cdn.adguardvpn.com/content/kb/vpn/mac/dns_en.png)
+![DNS-servere](https://cdn.adguardvpn.com/content/kb/vpn/mac/dns_en.png)
 
-Here you can add a custom DNS server (or servers) in order not to rely on a DNS server provided by your ISP by default. We recommend adding AdGuard DNS, which not only encrypts your DNS traffic but also identifies requests to malicious sites and redirects them to a “blackhole”.
+Her kan tilføjes en tilpasset DNS-server (eller flere) for ikke at være afhængig af den af internetudbyderen leverede standard DNS-server. Vi anbefaler at tilføje AdGuard DNS, der ikke kun krypterer DNS-trafikken, men også opfanger forespørgsler til ondsindede websteder og omdirigerer dem til et "sort hul".
 
-### Advanced settings
+### Avancerede indstillinger
 
-![Advanced settings](https://cdn.adguardvpn.com/content/kb/vpn/mac/advanced-settings_en.png)
+![Avancerede indstillinger](https://cdn.adguardvpn.com/content/kb/vpn/mac/advanced-settings_en.png)
 
-Advanced settings are not recommended to be adjusted. Don't change them unless asked by our technical support or unless you're sure what you're doing.
+Justering af Avancerede indstillinger anbefales ikke. Ændr dem ikke, medmindre vores tekniske support anmoder herom, eller man ved, hvad man foretager sig.
 
-#### Logging level
+#### Logningsniveau
 
-There are only two logging levels but we strongly recommend that you use the first, default one. The second option (extended logging) should be set only to record a strange program behavior after consulting our technical support. Even if you enabled the second logging level, make sure to go back to the default one after recording logs.
+Der er kun to logningsniveauer, men brug af det første, standardniveauet, anbefaler kraftigt. Det anden niveau (udvidet logning) bør kun vælges til registrering af unormal programadfærd i samråd med vores tekniske support. Har man aktiveret udvidet logningsniveau, sørg da for at skifte til standardniveauet efter generering af logfiler.
 
-#### Hide menu bar icon
+#### Skjul menubjælkeikon
 
-Although this option is located in *Advanced settings*, it can be enabled without hesitation. You can hide the AdGuard VPN icon from the menu bar, it won’t prevent our app from running in the background.
+Selvom denne mulighed er findes under *Avancerede indstillinger*, kan den aktiveres uden tøven. Man kan skjule AdGuard VPN-ikonet fra menubjælken, da dette ikke påvirker appens baggrundsdrift.
 
-#### Use QUIC (experimental)
+#### Anvend QUIC (eksperimentel)
 
-QUIC communication protocol is the latest, cutting-edge version of HTTP. Toggle the switch to get a better connection quality in less-than-ideal conditions, while using mobile data in the subway or elevator, for instance.
+QUIC-kommunikationsprotokollen er den seneste, avancerede version af HTTP. Skift kontakten for at opnå bedre forbindelseskvalitet under mindre end ideelle forhold, f.eks. når man bruger mobildata i metroen eller elevatoren.

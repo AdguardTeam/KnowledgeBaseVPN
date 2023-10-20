@@ -3,7 +3,7 @@ title: Nasıl abone olunur
 sidebar_position: 6
 ---
 
-AdGuard VPN iki sürümde mevcuttur — ücretsiz ve sınırsız. Abonelik, uygulamayı trafik, bağlantı hızı ve konum seçimi konusunda herhangi bir kısıtlama olmaksızın kullanmanıza olanak tanır. You can [read more about all the advantages of the unlimited version](/general/free-vs-unlimited).
+AdGuard VPN iki sürümde mevcuttur — ücretsiz ve sınırsız. Abonelik, uygulamayı trafik, bağlantı hızı ve konum seçimi konusunda herhangi bir kısıtlama olmaksızın kullanmanıza olanak tanır. [Sınırsız sürümün tüm avantajları hakkında daha fazla bilgi](/general/free-vs-unlimited) edinebilirsiniz.
 
 AdGuard VPN aboneliği satın almaya karar verdiyseniz, bunu yapmanın üç yolu vardır:
 

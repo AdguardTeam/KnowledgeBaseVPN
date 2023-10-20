@@ -51,4 +51,4 @@ AdGuard VPN Mac 版安装成功！
 
 AdGuard VPN 已成功地从您的 Mac 中删除。
 
-You can learn more about AdGuard VPN for Mac in [this article](/adguard-vpn-for-mac/overview).
+您可以在[这篇文章](/adguard-vpn-for-mac/overview)中了解有关 AdGuard VPN Mac 版的更多信息。

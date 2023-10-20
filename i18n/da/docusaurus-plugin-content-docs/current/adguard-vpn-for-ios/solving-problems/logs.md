@@ -1,40 +1,40 @@
 ---
-title: How to collect and send logs
+title: Sådan indsamles og indsendes logfiler
 sidebar_position: 2
 ---
 
-If you encounter a problem when using AdGuard VPN for iOS, you can inform us about it by sending application logs.
+Opleves problemer under brug af AdGuard VPN til iOS, kan vi informeres herom ved indsendelse af app-logfiler.
 
-## Collecting and sending standard logs
+## Indsamling og indsendelse af standardlogfiler
 
-By default, AdGuard VPN for iOS uses the standard logging level, that is, the basic collection of data about running processes of the app. To send these logs, follow the next steps:
+Som standard bruger AdGuard VPN til iOS logningsniveauet Standard, dvs. basisindsamling af data om kørende app-processer. Følg de næste trin for at indsende disse logfiler:
 
-1. Open AdGuard VPN for iOS and, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
+1. Åbn AdGuard VPN til iOS, og gentag om muligt handlingerne, som udløste fejlen. Notér det nøjagtige tidspunkt for fejlens opståen.
 
-2. Select *Settings* in the lower right corner of the screen, then select *Support* and click *Leave feedback* in it.
+2. Vælg *Indstillinger* nederste til højre på skærmen, vælg dernæst *Support* og klik her på *Giv feedback*.
 
-3. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred. If you can't reproduce the problem, specify as accurately as possible when it last occurred.
+3. Angiv i den åbnede formular en e-mailadresse for feedback og beskriv den fundne fejl, herunder tidspunktet, da denne opstod. Kan problemet ikke genskabes, angiv da så nøjagtigt som muligt, hvornår det senest opstod.
 
-4. There is a check mark next to the *Submit detailed system info*, which means that when you send a report, you also send logs. Finally, click *Send*.
-> If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, select *Export logs* in the *Support* section.
+4. Der er et flueben ud for *Indsend detaljeret systeminfo*, hvilket betyder, at når en anmeldelse indsendes, inkluderes logfiler ligeledes. Tryk til sidst på *Indsend*.
+> Er det af en eller anden grund mere bekvemt at indsende logfiler på anden vis, kan man selv eksportere dem. For at gøre dette, vælges *Eksportere logfiler* i afsnittet *Support*.
 
-## Collecting and sending extended logs
+## Indsamling og indsendelse af udvidede logfiler
 
-In most cases, the default logging level is sufficient to trace down possible bugs. But there are cases when more detailed technical information about the device and connections is required, and then our support team will ask you to enable the extended logging level. To send this type of logs, follow these steps:
+I de fleste tilfælde er logningsniveauet Standard tilstrækkeligt til at spore mulige fejl. Der er dog tilfælde, hvor mere detaljerede tekniske oplysninger om enheden og forbindelser er nødvendig, og så vil vores supportteam bede om at få aktiveret det udvidet logningsniveau. Følg disse næste trin for at indsende denne type logfiler:
 
-1. Open AdGuard VPN for iOS and select *Settings* in the lower right corner of the screen.
+1. Åbn AdGuard VPN til iOS, og vælg *Indstillinger* nederst til højre på skærmen.
 
-2. Select *App settings* and *Advanced settings* in it.
+2. Vælg *App-indstillinger* og dernæst *Avancerede indstillinger*.
 
-3. In the *Logging level* section, select *Extended*.
+3. Vælg i afsnittet *Logningsniveau* *Udvidet*.
 
-4. Repeat the actions that led to the error, and note the time when it occurred.
+4. Gentag de handlinger, som førte til fejlen, og notér tidspunktet, da den opstod.
 
-5. Switch the logging level back to *Default*.
+5. Skift logningsniveauet tilbage til *Standard*.
 
-6. Then go back to the main section *Settings*, select *Support* and then *Leave feedback*.
+6. Returnér dernæst til hovedafsnittet *Indstillinger*, vælg *Support* og dernæst *Giv feedback*.
 
-7. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred.
+7. Angiv i den viste formular en e-mailadresse for feedback og beskriv den fundne fejl, herunder tidspunktet for dens opståen.
 
-8. Make sure that there is a check mark next to *Submit detailed system info* and click *Send*.
-> If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, select *Export logs* in the *Support* section.
+8. Sørg for, at der er et flueben ud for *Indsend detaljerede systemoplysninger*, og klik på *Indsend*.
+> Er det af en eller anden grund mere bekvemt at indsende logfiler på anden vis, kan man selv eksportere dem. For at gøre dette, vælges *Eksportere logfiler* i afsnittet *Support*.
