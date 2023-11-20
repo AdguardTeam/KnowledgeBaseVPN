@@ -11,14 +11,10 @@ AdGuard VPN beta test kullanıcısı olmak için yalnızca birkaç şeye ihtiyac
 
 ### Hata nasıl bildirilir
 
-Bunun olduğunu düşünelim — bir hata tespit ettiniz. Ya da sadece önerinizi geliştiricilerle paylaşmak mı istiyorsunuz? Neyse ki, bize bildirmenin birkaç yolu var:
+Bunun olduğunu düşünelim — bir hata tespit ettiniz. Ya da sadece önerinizi geliştiricilerle paylaşmak mı istiyorsunuz? Let us know: go to [GitHub](https://github.com/AdguardTeam/), find a suitable repository, create a new issue there, and describe the bug/feature request in detail.
 
-- [forum.adguard.com](https://forum.adguard.com) adresine gidin ve orada [forumun 'Beta Testing' kategorisinde](https://forum.adguard.com/index.php?categories/48/) yeni bir konu açın (veya mevcut bir tane bulun). Önce [forum kurallarını](https://forum.adguard.com/index.php?threads/14859/) okuduğunuzdan emin olun;
+The above method is the most preferred, but you can use others if necessary:
 
-- [GitHub'a](https://github.com/AdguardTeam/) gidin ve uygun bir depo bulun. Orada yeni bir sorun oluşturun ve hatayı/özellik talebini ayrıntılı olarak açıklayın.
+- Find us on various social media platforms, like [Facebook](https://www.facebook.com/AdguardEn/), [Reddit](https://www.reddit.com/r/Adguard/), etc. However, this is not the most efficient way to discuss technical matters.
 
-Yukarıdaki iki yöntem en çok tercih edilenlerdir, ancak gerekirse diğerlerini de kullanabilirsiniz:
-
-- [Facebook](https://www.facebook.com/AdguardEn/), [Reddit](https://www.reddit.com/r/Adguard/), vb. gibi çeşitli sosyal medya platformlarında bizi bulun. Ancak, bu teknik konuları tartışmanın en etkili yolu değildir.
-
-- Uygulamadaki Destek sekmesinden destek ekibimize e-posta gönderin veya doğrudan [support@adguard.com](mailto:support@adguard.com) adresine yazın.
+- Email our support team from the Support tab in the app or write directly to [support@adguard.com](mailto:support@adguard.com).

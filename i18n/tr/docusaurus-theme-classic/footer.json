@@ -48,7 +48,7 @@
     "description": "The label of footer link with label=vpn_mac linking to https://adguard-vpn.com/mac/overview.html"
   },
   "link.item.label.vpn_ios": {
-    "message": "IOS için AdGuard VPN",
+    "message": "iOS için AdGuard VPN",
     "description": "The label of footer link with label=vpn_ios linking to https://adguard-vpn.com/ios/overview.html"
   },
   "link.item.label.vpn_browser_ext": {

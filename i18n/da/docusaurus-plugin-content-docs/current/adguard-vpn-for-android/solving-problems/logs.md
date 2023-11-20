@@ -1,38 +1,38 @@
 ---
-title: How to collect and send logs
+title: Sådan indsamles og indsendes logfiler
 sidebar_position: 2
 ---
 
-If you encounter a problem when using AdGuard VPN for Android, you can inform us about it by sending application logs.
+Opleves problemer under brug af AdGuard VPN til Android, kan vi informeres herom ved indsendelse af applikationslogfiler.
 
-## Collecting and sending standard logs
+## Indsamling og indsendelse af standardlogfiler
 
-By default, AdGuard VPN for Android uses the **Default** logging level, that is, the basic collection of data about running processes of the app. To send these logs, follow the next steps:
+Som standard bruger AdGuard VPN til Android logningsniveauet **Standard**, dvs. basisindsamling af data om kørende app-processer. Følg de næste trin for at indsende disse logfiler:
 
-1. Open AdGuard VPN for Android and, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
+1. Åbn AdGuard VPN til Android, og gentag om muligt handlingerne, som udløste fejlen. Notér det nøjagtige tidspunkt, da fejlen opstod.
 
-2. Open **Settings** by clicking the gear icon at the lower right corner → **Support** → **Report a bug**.
+2. Åbn **Indstillinger** ved at klikke på tandhjulsikonet nederste til højre → **Support** → **Anmeld en fejl**.
 
-3. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred. If you can't reproduce the problem, specify as accurately as possible when it last occurred.
+3. Angiv i den åbnede formular en e-mailadresse for feedback og beskriv den fundne fejl, herunder tidspunktet, da denne opstod. Kan problemet ikke genskabes, angiv da nøjagtigt som muligt, hvornår det senest opstod.
 
-4. There is a check mark next to **Send detailed system info**, which means that when you send a report, you also send logs.
-> If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, go to **Settings** → **Support** → **Export logs and system info**.
+4. Der er et flueben ud for **Indsend detaljeret systeminfo**, hvilket betyder, at når en anmeldelse indsendes, inkluderes logfiler ligeledes.
+> Er det af en eller anden grund mere bekvemt at indsende logfiler på anden vis, kan man selv eksportere dem. Dette gøres ved at gå til **Indstillinger** → **Support** → **Eksportere logfiler og systeminfo**.
 
-## Collecting and sending extended logs
+## Indsamling og indsendelse af udvidede logfiler
 
-In most cases, the **Default** logging level is sufficient to trace down possible bugs. But there are cases when more detailed technical information about the device and connections is required, and then our support team will ask you to enable the **Extended** or **Extreme** logging level. To send these types of logs, follow these steps:
+I de fleste tilfælde er logningsniveauet **Standard** tilstrækkeligt til at spore mulige fejl. Der er dog tilfælde, hvor mere detaljerede tekniske oplysninger om enheden og forbindelser er nødvendig, og så vil vores supportteam bede om at få aktiveret enten logningsniveauet **Udvidet** eller **Ekstremt**. Følg de næste trin for at indsende disse typer logfiler:
 
-1. Open AdGuard VPN for Android and select **Settings** (the gear icon at the bottom right corner) → **App settings** → **Advanced settings** → **Logging level**.
+1. Åbn AdGuard VPN til Android og vælg **Indstillinger** (tandhjulsikonet nederst til højre) → **App-indstillinger** → **Avancerede indstillinger** → **Logningsniveau**.
 
-2. In the **Logging level** section, select **Extended** or **Extreme** logging level.
+2. Vælg i afsnittet **Logningsniveau** **Udvidet** eller **Ekstremt** niveau.
 
-3. Repeat the actions that led to the error and note the time when it occurred.
+3. Gentag de handlinger, som førte til fejlen, og notér tidspunktet, da den opstod.
 
-4. Switch the logging level back to **Default**.
+4. Skift logningsniveauet tilbage til **Standard**.
 
-5. Then open **Settings** by tapping the gear icon at the lower right corner → **Support** → **Report a bug**.
+5. Åbn **Indstillinger** ved at klikke på tandhjulsikonet nederste til højre → **Support** → **Anmeld en fejl**.
 
-6. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred.
+6. Angiv i den åbnede formular en e-mailadresse for feedback og beskriv den fundne fejl, herunder tidspunktet, da denne opstod.
 
-7. Make sure that there is a check mark next to **Send detailed system info** and tap **Send**.
-> If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, go to **Settings** → **Support** → **Export logs and system info**.
+7. Sørg for, at der er et flueben ud for **Indsend detaljeret systeminfo**, og tryk på **Indsend**.
+> Er det af en eller anden grund mere bekvemt at indsende logfiler på anden vis, kan man selv eksportere dem. Dette gøres ved at gå til **Indstillinger** → **Support** → **Eksportere logfiler og systeminfo**.

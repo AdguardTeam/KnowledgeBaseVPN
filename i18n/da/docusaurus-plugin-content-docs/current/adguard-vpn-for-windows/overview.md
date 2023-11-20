@@ -1,110 +1,110 @@
 ---
-title: Features overview
+title: Funktionsoversigt
 sidebar_position: 1
 ---
 
-## What is AdGuard VPN for Windows?
+## Hvad er AdGuard VPN til Windows?
 
-A VPN, acronym for "Virtual Private Network", is a service that makes your Internet connection safe and helps you stay anonymous online. How does it work? Every time you visit a website without using a VPN, your ISP sees it. It knows who you are and what you're looking for, and it can collect and sell this data. In it's turn, the website you came to can also track your activity. When you enable a VPN application, it redirects your traffic through an encrypted tunnel to a remote VPN server, ensuring your privacy: the ISP doesn't know where to you sent a request, and the site doesn't know where you came from.
+Et VPN, akronym for "Virtual Private Network", er en tjeneste, der gør internetforbindelsen sikker og hjælper brugeren med at forblive anonym online. Hvordan fungerer VPN? Internetudbyderen vil kunne se, hvilket websted, en bruger besøger uden brug af et VPN. Internetudbyderen ved, hvem man er, og hvad man leder efter, og kan indsamle og sælge disse data. Derudover kan webstedet, der besøges, også spore brugerens aktivitet. Når en VPN-applikation aktiveres, ruter den trafikken via en krypteret tunnel til en fjern VPN-server, hvilket sikrer fortrolighed: Internetudbyderen ved ikke, hvortil en forespørgsel er sendt, og webstedet ved ikke, hvorfra man kommer.
 
-## What AdGuard VPN for Windows does
+## Hvad AdGuard VPN til Windows gør
 
-- Protects from network traffic interception (spoofing). AdGuard VPN creates an encrypted tunnel between your device and a remote server. All your Internet traffic passes through this tunnel, so your data is protected along the way. And thanks to [AdGuard's unique protocol](/general/adguard-vpn-protocol), you're guaranteed a fast and secure connection.
+- Beskytter mod aflytning af netværkstrafik (spoofing). AdGuard VPN opretter en krypteret tunnel mellem brugerens enhed og en fjernserver. Al internettrafikken passerer igennem denne tunnel, så data er beskyttet undervejs. Og grundet [AdGuards unikke protokol](/general/adguard-vpn-protocol)er man garanteret en hurtig og sikker forbindelse.
 
-- Masks your IP address. Your true IP address is the key to your personal data for cybercriminals. Your name, email address, phone number, credit card information can all fall into the hands of fraudsters if you don't hide your IP. With AdGuard VPN, as we said before, all your traffic goes through an encrypted tunnel and comes to the VPN server. Therefore, from the outside it appears that your device has the IP address of said VPN server.
+- Maskerer IP-adressen. Den reelle IP-adresse er nøglen til personlige data for cyberkriminelle. Navn, e-mailadresse, telefonnummer, betalingskortoplysninger kan alle falde i hænderne på svindlere, hvis man ikke skjuler sin IP. Med AdGuard VPN rutes al trafik igennem en krypteret tunnel og til en VPN-server, som tidligere nævnt. Udefra ser det derfor ud som om, at enheden har den nævnte VPN-servers IP-adresse.
 
-- Hides your real location. By selecting any of the AdGuard VPN servers, you are instantly "teleported" to its location. What does this give you? For example, the ability to book a hotel at locals' rates or hide from geotargeted advertising.
+- Skjuler den reelle placering. Ved at vælge en af AdGuard VPN-serverne bliver man øjeblikkeligt "teleporteret" til dens placering. Hvad giver det dig? Mulighed for eksempelvis hotelbookning til lokale priser eller at undgå geomålrettet annoncering.
 
-AdGuard VPN for Windows has many advantages, so we've dedicated [a separate article](/general/why-adguard-vpn) to them. Here, however, we want to focus more on the application itself and how it works.
+AdGuard VPN til Windows har mange fordele, så vi har dedikeret [en separat artikel](/general/why-adguard-vpn) til dem. Her vil vi dog fokusere mere på selve applikationen, og hvorledes den fungerer.
 
-## How to start using AdGuard VPN for Windows
+## Komme i gang med at bruge AdGuard VPN til Windows
 
-To start using AdGuard VPN for Windows, download the app from [our website](https://adguard-vpn.com/welcome.html). The installation takes no more than a minute — and you'll see a dialog window where you'll need to check at least one box applying the terms of the User Agreement and the Privacy policy. And it's up to you to decide whether you want AdGuard to collect anonymized data about your app usage. At last the program will ask you to sign in, either via [AdGuard account](https://auth.adguard.com/login.html) or via social networks (Apple, Google, Facebook). That's all, you can now use AdGuard VPN for Windows.
+For at begynde at bruge AdGuard VPN til Windows, download først appen fra [vores websted](https://adguard-vpn.com/welcome.html). Installationen tager et minuts tid. Et dialogvindue vises, hvori mindst ét felt skal markeres, nemlig accept af Vilkår for Brug samt Fortrolighedspolitik. Det er dog valgfrit, hvorvidt AdGuard VPN skal tillades at indsamle anonymiserede data om app-brugen. Til sidst vil programmet anmode om, at der logges ind via enten en [AdGuard-konto](https://auth.adguard.com/login.html) eller sociale netværk (Apple, Google, Facebook). Det er alt, man kan nu begynde at bruge AdGuard VPN til Windows.
 
-## Home screen
+## Startskærm
 
-![AdGuard VPN for Windows Home Page](https://cdn.adguardvpn.com/content/release_notes/vpn/windows/v2.0/new_main_window_en.png)
+![AdGuard VPN til Windows Startskærm](https://cdn.adguardvpn.com/content/release_notes/vpn/windows/v2.0/new_main_window_en.png)
 
-The most noticeable item on the **Home Screen** is the AdGuard VPN connect/disconnect button. Above the button you can see the [mode](#exclusions) in which the application is running, and below it you can see the selected server. On the right side of the screen you will find all available locations. The fastest location, i.e. the one with the lowest ping, is shown at the top of the list.
+Det mest fremtrædende element på **startskærmen** er AdGuard VPN-knappen Tilslut/Afbryd. Over knappen ses den [Tilstand](#exclusions), programmet opererer i, og derunder den server, der pt. er valgt. Til højre på skærmen findes alle tilgængelige placeringer. Den hurtigste serverplacering, dvs. den med laveste ping, vises øverst på listen.
 
-At the top of the screen there is a navigation panel with four tabs: **Home**, **Exclusions**, **Support**, **Settings**.
+Øverst på skærmen findes et navigationspanel med fire faner: **Hjem**, **Undtagelser**, **Support**, **Indstillinger**.
 
-## Exclusions
+## Undtagelser
 
-AdGuard VPN for Windows can operate in two modes: **General** or **Selective**. What does this mean? If you want the application to work everywhere except for some websites, activate the **General mode** and list the websites you want to exclude from the tunnel. The **Selective mode** has the opposite effect: it activates AdGuard VPN only on the websites specified in the exclusion list. Please note that these two modes' exclusions lists are independent from one another.
+AdGuard VPN til Windows kan operere i to tilstande: **Generel** og **Selektiv**. Hvad betyder det? Skal et program kunne fungere overalt undtagen på visse websteder, aktivér da **Generel tilstand** og angiv de websteder, som skal undtages fra tunnelen. **Selektiv tilstand** virker modsat: Den aktiverer kun AdGuard VPN på websteder angivet på undtagelseslisten. Bemærk, at disse to tilstandes undtagelseslister er uafhængige af hinanden.
 
-![Exclusions](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_en.png)
+![Undtagelser](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_en.png)
 
-You can add websites to exclusions **manually** by entering their domain names. The app also offers you an option to choose popular websites **from the list**.
+Der kan **manuelt** føjes websteder til undtagelser ved at angive deres domænenavne. Appen giver også mulighed for at vælge populære websteder **fra listen**.
 
-![Add Exclusions](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_add_en.png)
+![Tilføj undtagelser](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_add_en.png)
 
-![Add Exclusions from list](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_from_list_en.png)
+![Tilføj undtagelser fra liste](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_from_list_en.png)
 
-> When adding domains manually, you should take into account some nuances. For example, if you manually exclude the domain `google.com`, all the subdomains `*.google.com` will also be added to the exclusions list. However, domain names with other top-level domains such as `google.es` or `google.it` will not be excluded. Or you can add `youtube.com` to the exclusions, but the domain of the same service `youtu.be` will not be included in the list.
+> Når domæner tilføjes manuelt, bør der tages højde for visse nuancer. Undtager man f.eks. manuelt domænet `google.com`, føjes alle underdomæner herfra `*.google.com` også til undtagelseslisten. Domænenavne med andre topniveaudomæner, såsom `google.es` eller `google.it`, undtages dog ikke. Man kan også føje `youtube.com` til Undtagelser, mens domænet for samme tjeneste, `youtu.be`, ikke tilføjes listen.
 
-We recommend using the **From the list** option. Websites are grouped into eight categories: Social networks, Messengers, Video and Music streaming services, Games, Shopping, Search engines, and Work communication tools. We have placed the most popular services there, including all domain names and subdomains related to each platform.
+Vi anbefaler at bruge indstillingen **Fra listen**. Websteder grupperes i otte kategorier: Sociale netværk, Messengers, Video- og musikstreamingtjenester, Spil, Shopping, Søgemaskiner og Arbejdskommunikationsværktøjer. Vi har placeret de mest populære tjenester dér, inkl. alle domænenavne og underdomæner relateret til hver platform.
 
-### Import/export exclusion lists
+### Import/eksport af undtagelseslister
 
-To export the list of exclusions from AdGuard VPN for Windows to your computer, click **Export exclusions**, select the folder where the list will be stored and click **Save**. An archive `exclusions.zip` with two `.txt` files will be downloaded, one for each of the lists — **General** and **Selective**. You can edit them by adding new exclusions or deleting old ones.
+For at eksportere undtagelseslisten fra AdGuard VPN til Windows til computeren, klik på **Eksportere undtagelser**, vælg mappen, hvor listen skal gemmes, og klik på **Gem**. Et arkiv `exclusions.zip` med to `.txt`-filer gemmes, en for hver af listerne — **Generel** og **Selektiv**. De kan redigeres ved at tilføje nye undtagelser eller slette gamle.
 
-To transfer the exclusion lists to another device, send the `.zip` file to its destination. Open AdGuard VPN on the device where you want to import the archive with the exclusion lists, click *Exclusions*, then *Import exclusions*, and select the previously sent archive.
+For at overføre undtagelseslisterne til en anden enhed, send `.zip`-filen til den. Åbn AdGuard VPN på enheden, hvor undtagelseslisterne skal importeres, klik på *Undtagelser*, og dernæst *Importere undtagelser*, og vælg den tilsendte zip-fil.
 
-## Settings
+## Indstillinger
 
-![Settings](https://cdn.adguardvpn.com/content/release_notes/vpn/windows/v2.0/settings_en.png)
+![Indstillinger](https://cdn.adguardvpn.com/content/release_notes/vpn/windows/v2.0/settings_en.png)
 
-The fourth tab of app's tab bar contains sections that will help you customize the application. Let's look closer at two of them: **App settings** and **App exclusions**.
+Den fjerde fane programfanebjælke indeholder afsnit til tilpasning af programmet. Lad os se nærmere på to af dem: **App-indstillinger** og **App-undtagelser**.
 
-### App settings
+### App-indstillinger
 
-![App settings](https://cdn.adguardvpn.com/content/release_notes/vpn/windows/v2.0/app_settings_en.png)
+![App-indstillinger](https://cdn.adguardvpn.com/content/release_notes/vpn/windows/v2.0/app_settings_en.png)
 
-In the **App settings** section, you can set the app language and also enable **Kill Switch**, which will block access to the Internet if your VPN connection drops. This is needed to prevent intruders from getting to your data if you find yourself without VPN protection while connected to a public Wi-Fi or mobile network.
+I afsnittet **App-indstillinger** kan der angives app-sprog og aktiveres **Kill Switch**, der blokerer internetadgangen, hvis VPN-forbindelse falder ud. Dette er nødvendigt for at forhindre ubudne gæster i at kunne tilgå private data, hvis VPN-beskyttelsen stopper, mens man er tilsluttet et offentligt Wi-Fi eller mobilnetværk.
 
-You can also activate the following features with a single click: **Auto-update**, **Launch AdGuard VPN at Windows startup**, **Auto-connect on app launch**, and allow AdGuard to collect anonymized app usage data so that the AdGuard team gets the info on potential usability issues. Here you can also change the theme to **Light**, **System**, or **Dark**.
+Flg. funktioner kan også aktiveres med ét enkelt klik: **Auto-opdatering**, **Start AdGuard VPN ved opstart af Windows**, **Auto-tilslut ved start af app** samt tillade AdGuard at indsamle anonymiserede data om apps-brugen, så AdGuard-teamet får info om potentielle anvendelighedsproblemer. Her kan temaet også ændres til **Lyst**, **System**eller **Mørkt**.
 
-At the bottom of the page there are two sections: **DNS servers** and **Advanced settings**.
+Nederst på siden findes to afsnit: **DNS-servere** og **Avancerede indstillinger**.
 
-#### DNS servers
+#### DNS-servere
 
-The **DNS servers** tab allows you to add your own DNS server. You can set up a DNS server by any provider. We recommend adding [AdGuard DNS](https://adguard-dns.io/kb/general/dns-providers/#adguard-dns), a server that can protect against advertising, tracking, and phishing, in addition to the standard functions.
+Fanen **DNS-servere** muliggør at tilføje en DNS-server efter eget valg. En DNS-server fra enhver udbyder kan opsættes. Vi anbefaler at tilføje [AdGuard DNS](https://adguard-dns.io/kb/general/dns-providers/#adguard-dns), en server, der kan beskytte mod annoncering, sporing og phishing, ud over standardfunktionerne.
 
-#### Advanced settings
+#### Avancerede indstillinger
 
-It is entirely possible to use AdGuard VPN for Windows without ever touching the Advanced settings, but they can be useful if you're willing to take time to learn what they do.
+Det er fuldt ud muligt at bruge AdGuard VPN til Windows uden nogensinde at røre Avancerede indstillinger, men de kan være nyttige, hvis man er villig til at bruge tid på at lære, hvad de gør.
 
-##### Operating mode
+##### Driftstilstand
 
-Despite the fact that there are two operating modes — VPN and SOCKS5 — we advise you to use only the one chosen by default (VPN). When the **VPN mode** is enabled, all the traffic of your device will be directed via AdGuard VPN, while in **SOCKS5 mode** AdGuard VPN uses a local proxy server which can be used by other applications to redirect their traffic.
+På trods af at der er to driftstilstande — VPN og SOCKS5 — anbefaler det kun at bruge den, der er valgt som standard (VPN). Når **VPN-tilstand** er aktiveret, rutes al trafik på enheden igennem AdGuard VPN, mens der i **SOCKS5-tilstand** bruges en lokal proxyserver, der ligeledes kan bruges af andre apps til rutning af deres trafik.
 
-##### Logging level
+##### Logningsniveau
 
-Two levels of logging are available to choose from: **Record by default** and **Record everything**. The first option is enabled by default. The **Record everything** option should only be activated if our support team has asked you to do so. Using the app in this mode for an extended period of time result in increased battery consumption.
+Der kan vælges mellem to logningsniveauer: **Optag som standard** og **Optag alt**. Den første indstilling er aktiveret som standard. Indstillingen **Optag alt** bør kun aktiveres, såfremt vores supportteam har anmodet herom. Brug af appen i denne tilstand i en længere periode resulterer i øget strømforbrug.
 
-All logs are stored locally on your device and you can send them to the support team if needed.
+Alle logger opbevares lokalt på enheden, og de kan om nødvendigt indsendes til supportteamet.
 
-##### Use QUIC
+##### Brug QUIC
 
-This is an experimental feature that enables AdGuard to use the advanced QUIC encryption protocol. It has many advantages, but the most notable one is that it can improve connection quality under non-ideal conditions, for example, when using mobile Internet or when connecting to public Wi-Fi networks.
+Dette er en eksperimentel funktion, via hvilken AdGuard kan anvende den avancerede QUIC-krypteringsprotokol. Den har mange fordele, men den mest fremtrædende er, at den kan forbedre forbindelseskvaliteten under ikke-ideelle forhold, såsom ved brug af mobilt internet eller offentlige Wi-Fi netværk.
 
-### App exclusions
+### App-undtagelser
 
-![Adding an app to exclusions](https://cdn.adguardvpn.com/content/release_notes/vpn/windows/v2.0/add_app_en.png)
+![Tilføjelse af en app til undtagelser](https://cdn.adguardvpn.com/content/release_notes/vpn/windows/v2.0/add_app_en.png)
 
-Not only does AdGuard VPN encrypt the traffic of your browsers, but also of other apps installed on your device. If you want to exclude certain applications from the tunnel, put them to the **App exclusions** list.
+Ikke alene krypterer AdGuard VPN internetbrowseres trafik, men også trafik fra andre apps installeret på enheden. Ønskes visse apps undtaget fra tunnelen, skal disse placeres på listen **App-undtagelser**.
 
-## Other tabs
+## Andre faner
 
-### About
+### Om
 
-The **About** tab provides information about the current version of AdGuard VPN for Windows, an update button, and links to the AdGuard VPN website, forum, EULA, and Privacy policy.
+The **About** tab provides information about the current version of AdGuard VPN for Windows, an update button, and links to the AdGuard VPN website, EULA, and Privacy policy.
 
-### Account
+### Konto
 
-Here you can find information about your license status, as well as a link to your personal AdGuard account, where you can manage your current subscriptions and purchase new ones.
+Her findes information om licensstatus, samt et link til den personlige AdGuard-konto, hvorfra aktuelle abonnementer kan håndteres og nye købes.
 
 ## Support
 
-This tab is aimed to solve users' questions: there you can find a link to the FAQ page, report a bug or leave feedback, and export logs if the support team asks you to.
+Denne fane har til formål at besvare brugernes spørgsmål: Her findes links til FAQ-siden, anmelde fejl eller give feedback og eksportere logfiler, hvis supportteamet anmoder herom.

@@ -22,7 +22,7 @@ Hay varias formas de recopilar registros de la extensión del navegador AdGuard 
 Ahora que has recopilado los registros, debes enviarlos a nuestro equipo de desarrollo. Para ello:
 
 1. Reportar un error en GitHub. En este artículo puedes encontrar instrucciones detalladas sobre cómo crear una propuesta en GitHub.
-1. Send an archive with logs and reproduce time to `devteam@adguard.com` and attach a link to your GitHub issue. Also you can add an archive with logs and reproduce time to Google Drive and share it with `devteam@adguard.com` attaching the Google Drive link to your issue on GitHub.
+1. Envía un archivo con los registros y el tiempo de reproducción a `devteam@adguard.com` y adjunta un enlace a tu incidencia de GitHub. También puedes agregar un archivo con los registros y el tiempo de reproducción a Google Drive y compartirlo con `devteam@adguard.com` adjuntando el enlace de Google Drive a tu incidencia en GitHub.
 
 ## Recopilación y envío de registros a través de las herramientas del desarrollador del navegador
 

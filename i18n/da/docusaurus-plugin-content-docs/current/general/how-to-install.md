@@ -1,12 +1,12 @@
 ---
-title: 'How to install AdGuard VPN'
+title: 'Sådan installeres AdGuard VPN'
 sidebar_position: 3
 ---
 
-Depending on which AdGuard VPN app or browser extension you want to install, follow one of these links to find the relevant article:
+Afhængigt af AdGuard-appen eller browserudvidelsen, der skal installere, følg et af disse links til den relevante artikel:
 
-- [AdGuard VPN for Android](/adguard-vpn-for-android/installation)
-- [AdGuard VPN for iOS](/adguard-vpn-for-ios/installation)
-- [AdGuard VPN for Windows](/adguard-vpn-for-windows/installation)
-- [AdGuard VPN for Mac](/adguard-vpn-for-mac/installation)
+- [AdGuard VPN til Android](/adguard-vpn-for-android/installation)
+- [AdGuard VPN til iOS](/adguard-vpn-for-ios/installation)
+- [AdGuard VPN til Windows](/adguard-vpn-for-windows/installation)
+- [AdGuard VPN til Mac](/adguard-vpn-for-mac/installation)
 - [AdGuard VPN Browser Extension](/adguard-vpn-browser-extension/installation)

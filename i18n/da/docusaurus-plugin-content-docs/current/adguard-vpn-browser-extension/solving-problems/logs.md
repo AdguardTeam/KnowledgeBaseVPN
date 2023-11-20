@@ -22,13 +22,13 @@ Indsamling af logfiler for AdGuard VPN-browserudvidelse kan ske på flere måder
 Nu, hvor logfilerne er indsamlet, skal de videregives til vores udviklingsteam. For at gøre dette:
 
 1. Anmeld en fejl på GitHub. Detaljeret vejledning til problematikoprettelse på GitHub fremgår i denne artikel.
-1. Send an archive with logs and reproduce time to `devteam@adguard.com` and attach a link to your GitHub issue. Also you can add an archive with logs and reproduce time to Google Drive and share it with `devteam@adguard.com` attaching the Google Drive link to your issue on GitHub.
+1. Indsend et arkiv vedhæftet logfiler og linket til GitHub-problematikken samt med genskabelsestidspunkt til `devteam@adguard.com`. Et arkiv med logfiler og genskabelsestidspunkt kan også tilføjes Google Drev og deles med `devteam@adguard.com` ved at vedhæfte Google Drev-linket til problematikken på GitHub.
 
 ## Indsamling og indsendelse af logfiler via browserudviklerens værktøjer
 
 ### Chrome
 
-1. Åbn AdGuard VPN-browserudvidelsen, hvis det er muligt, og gentag handlingerne, som førte til fejlen. Notér det nøjagtige tidspunkt, hvor fejlen opstod.
+1. Åbn AdGuard VPN-browserudvidelsen, hvis det er muligt, og gentag handlingerne, som førte til fejlen. Notér det nøjagtige tidspunkt, da fejlen opstod.
 1. Gå til `chrome://extensions`
 1. Slå *udviklertilstand* til
 
@@ -49,7 +49,7 @@ Nu, hvor logfilerne er indsamlet, skal de videregives til vores udviklingsteam. 
 Nu, hvor logfilerne er indsamlet, skal de videregives til vores udviklingsteam. For at gøre dette:
 
 1. Anmeld en fejl på GitHub. Detaljeret vejledning til problematikoprettelse på GitHub fremgår i denne artikel.
-1. Send an archive with logs and playback time to `devteam@adguard.com` and attach a link to your GitHub issue. Also you can add an archive with logs and playback time to Google Drive and share it with `devteam@adguard.com` attaching the Google Drive link to your issue on GitHub.
+1. Indsend et arkiv vedhæftet logfiler, afspilningstidspunkt og linket til GitHub-problematikken til `devteam@adguard.com`. Et arkiv med logfiler og afspilningstidspunkt kan også tilføjes Google Drev og deles med `devteam@adguard.com` ved at vedhæfte Google Drev-linket til problematikken på GitHub.
 
 ### Firefox
 
@@ -74,4 +74,4 @@ Nu, hvor logfilerne er indsamlet, skal de videregives til vores udviklingsteam. 
 Nu, hvor logfilerne er indsamlet, skal de videregives til vores udviklingsteam. For at gøre dette:
 
 1. Anmeld en fejl på GitHub. Detaljeret vejledning til problematikoprettelse på GitHub fremgår i denne artikel.
-1. Send an archive with logs and playback time to `devteam@adguard.com` and attach a link to your GitHub issue. Also you can add an archive with logs and playback time to Google Drive and share it with `devteam@adguard.com` attaching the Google Drive link to your issue on GitHub.
+1. Indsend et arkiv vedhæftet logfiler, linket til GitHub-problematikken og med angivelse af afspilningstidspunktet til `devteam@adguard.com`. Et arkiv vedhæftet logfiler, og med angivelse af afspilningstidspunktet, kan også tilføjes Google Drev og deles med `devteam@adguard.com` ved at vedhæfte Google Drev-linket til problematikken på GitHub.

@@ -11,14 +11,10 @@ sidebar_position: 2
 
 ### Как сообщить о проблеме
 
-Давайте представим, что случилось худшее — вы заметили ошибку в работе AdGuard VPN. Или, может быть, вы просто хотите поделиться предложением с разработчиками? В любом случае, есть несколько способов связаться с нами:
+Давайте представим, что случилось худшее — вы заметили ошибку в работе AdGuard VPN. Или, может быть, вы просто хотите поделиться предложением с разработчиками? Let us know: go to [GitHub](https://github.com/AdguardTeam/), find a suitable repository, create a new issue there, and describe the bug/feature request in detail.
 
-- Зайдите на [forum.adguard.com](https://forum.adguard.com) и опубликуйте там новую тему (или найдите уже существующую) в [категории «Бета-тестирование» форума](https://forum.adguard.com/index.php?categories/48/). Обязательно сначала прочтите [правила форума](https://forum.adguard.com/index.php?threads/14859/);
+The above method is the most preferred, but you can use others if necessary:
 
-- Перейдите на [GitHub](https://github.com/AdguardTeam/) и найдите нужный репозиторий. Создайте новую задачу и детально опишите обнаруженный баг или ваш вопрос/предложение.
+- Find us on various social media platforms, like [Facebook](https://www.facebook.com/AdguardEn/), [Reddit](https://www.reddit.com/r/Adguard/), etc. However, this is not the most efficient way to discuss technical matters.
 
-Эти два метода являются предпочитаемыми, но если нет возможности использовать их, можете использовать другие:
-
-- Найдите наш аккаунт в любой из удобных для вас социальных сетей, таких как [Facebook](https://www.facebook.com/AdguardEn/), [Reddit](https://www.reddit.com/r/Adguard/) и др., и напишите нам. Однако это не самый эффективный способ обсуждения технических вопросов.
-
-- Напишите в нашу службу поддержки из вкладки «Поддержка» в приложении или напрямую по адресу [support@adguard.com](mailto:support@adguard.com).
+- Email our support team from the Support tab in the app or write directly to [support@adguard.com](mailto:support@adguard.com).

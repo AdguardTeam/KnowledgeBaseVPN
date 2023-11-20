@@ -99,7 +99,7 @@ AdGuard VPN no solo encripta el tráfico de tus navegadores, sino también de ot
 
 ### Acerca de
 
-La pestaña **Acerca de** ofrece información sobre la versión actual de AdGuard VPN para Windows, un botón de actualización y enlaces al sitio web de AdGuard VPN, foro, EULA y Política de privacidad.
+The **About** tab provides information about the current version of AdGuard VPN for Windows, an update button, and links to the AdGuard VPN website, EULA, and Privacy policy.
 
 ### Cuenta
 

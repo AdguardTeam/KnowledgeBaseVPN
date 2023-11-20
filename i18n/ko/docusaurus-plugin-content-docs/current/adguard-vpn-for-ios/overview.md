@@ -90,7 +90,7 @@ DNS(Domain name system, 도메인 이름 시스템)의 목적은 DNS 서버를 �
 
 ## 고객 지원
 
-저희는 사용자 만족도를 최우선으로 생각합니다 따라서 앱에는 다양한 도움말 기능이 있습니다(오른쪽 하단의 ⚙ *설정* → *고객 지원*). FAQ 섹션을 확인하고, 버그를 신고하고, 피드백을 남길 수 있습니다. 그리고 포럼, SNS 또는 GitHub에서 문제와 제안에 대해 논의하고, App Store에서 iOS용 AdGuard VPN을 평가하고, 로그를 내보낼 수 있습니다.
+There is a variety of helping features in the app (press the *Settings* button at the bottom right and then *Support*): you can see the FAQ section, report a bug, leave feedback, discuss your problems and suggestions in social networks or on GitHub, rate AdGuard VPN for iOS in the App Store and export logs.
 
 ![Support *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/support.png)
 

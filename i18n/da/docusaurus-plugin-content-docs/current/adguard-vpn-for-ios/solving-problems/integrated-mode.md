@@ -1,18 +1,18 @@
 ---
-title: Compatibility with AdGuard Ad Blocker
+title: Kompatibilitet med AdGuard Ad Blocker
 sidebar_position: 3
 ---
 
-AdGuard VPN has two operating modes — General and Integrated one. General mode is enabled by default and uses [AdGuard VPN protocol](/general/adguard-vpn-protocol). It provides the best combination of connection speed and security.
+AdGuard VPN har to driftstilstande — General og Integreret. Generel tilstand er som standard aktiveret og bruger [AdGuard VPN-protokollen](/general/adguard-vpn-protocol). Det giver den bedste kombination af forbindelseshastighed og sikkerhed.
 
-However, this operating mode does not allow AdGuard VPN and AdGuard Ad Blocker to work simultaneously.
+Denne driftstilstand tillader dog ikke AdGuard VPN og AdGuard Ad Blocker at køre samtidigt.
 
-In Integrated mode, in turn, the IPsec protocol is used, which makes it possible for the AdGuard applications to work together. If you already have AdGuard Ad Blocker when installing AdGuard VPN, this mode will turn on automatically and allow you to use our applications at the same time. If you installed AdGuard VPN first and only then decided to try AdGuard Ad Blocker, follow these steps to use two apps together:
+Kompatibilitetstilstanden bruger til gengæld IPsec-protokollen, hvilket gør det muligt for AdGuard-apps at samarbejde. Kører AdGuard Ad Blocker allered, når AdGuard VPN installeres, aktiveres denne tilstand automatisk, så apperne kan køre samtidigt. Har man installeret AdGuard VPN først og så senere besluttet at prøve AdGuard Ad Blocker, skal disse trin følges for at bruge to apps sammen:
 
-1. Open AdGuard VPN for iOS and select "Settings" in the lower right corner of the screen.
+1. Åbn AdGuard VPN til iOS, og vælg "Indstillinger" i nederste til højre på skærmen.
 
-2. Go to "App settings" and select "Operating mode".
+2. Gå til "App-indstillinger" og vælg "Driftstilstand".
 
-3. Switch the mode from *General* to *Integrated*. Done!
+3. Skift tilstanden fra *Generel* til *Integreret*. Færdig!
 
-> Note that in **Integrated** mode you can't use the Exclusions feature or the DNS server feature.
+> Bemærk, at i tilstanden **Integreret** er funktionerne Undtagelser eller DNS-server utilgngelige.

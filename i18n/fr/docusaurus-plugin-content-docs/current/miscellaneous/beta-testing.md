@@ -11,14 +11,10 @@ Pour devenir un bêta-testeur de AdGuard VPN, vous n'avez besoin que de quelques
 
 ### Comment signaler un problème
 
-Imaginons que cela se produise — vous avez repéré un bogue. Ou peut-être souhaitez-vous simplement partager votre suggestion avec les développeurs ? Quoi qu'il en soit, il existe plusieurs façons de nous le faire savoir :
+Imaginons que cela se produise — vous avez repéré un bogue. Ou peut-être souhaitez-vous simplement partager votre suggestion avec les développeurs ? Let us know: go to [GitHub](https://github.com/AdguardTeam/), find a suitable repository, create a new issue there, and describe the bug/feature request in detail.
 
-- Rendez-vous sur [forum.adguard.com](https://forum.adguard.com) et publiez-y un nouveau fil de discussion (ou trouvez-en un existant) dans [la catégorie "Test Bêta" du forum](https://forum.adguard.com/index.php?categories/48/). Assurez-vous de lire d'abord les [règles du forum](https://forum.adguard.com/index.php?threads/14859/) ;
+The above method is the most preferred, but you can use others if necessary:
 
-- Accédez à [GitHub](https://github.com/AdguardTeam/) et trouvez un référentiel approprié. Créez-y un nouveau problème et décrivez le bogue ou la demande de fonctionnalité en détail.
+- Find us on various social media platforms, like [Facebook](https://www.facebook.com/AdguardEn/), [Reddit](https://www.reddit.com/r/Adguard/), etc. However, this is not the most efficient way to discuss technical matters.
 
-Les deux méthodes ci-dessus sont les plus privilégiées, mais vous pouvez en utiliser d'autres si nécessaire :
-
-- Retrouvez-nous sur des plateformes de médias sociaux diverses, comme [Facebook](https://www.facebook.com/AdguardEn/), [Reddit](https://www.reddit.com/r/Adguard/), etc. Toutefois, ce n'est pas le moyen le plus efficace de discuter de questions techniques.
-
-- Envoyez un e-mail à notre équipe d'assistance depuis l'onglet Assistance dans l'application ou écrivez directement à [support@adguard.com](mailto:support@adguard.com).
+- Email our support team from the Support tab in the app or write directly to [support@adguard.com](mailto:support@adguard.com).

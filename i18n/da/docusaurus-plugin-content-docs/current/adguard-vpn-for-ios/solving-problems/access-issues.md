@@ -1,18 +1,18 @@
 ---
-title: Usage issues with subscriptions purchased via the App Store
+title: Problemer med brugen af abonnementer købt via App Store
 sidebar_position: 4
 ---
 
-Some users can't use their AdGuard VPN subscription purchased through the App Store. This issue may occur in two cases:
+Nogle brugere kan ikke bruge deres AdGuard VPN-abonnement købt gennem App Store. Dette problem kan opstå i to tilfælde:
 
-- if you use a different account for App Store purchases
-- or if you have hidden your email address from app developers
+- hvis en forkert Apple-ID blev brugt ved dette App Store-køb
+- eller hvis man har skjult sin e-mailadresse for app-udviklere
 
-To solve this problem, please follow these steps:
+Følg disse trin for at løse problemet:
 
-1. Go to Settings → Apple ID → iTunes & App Store → View Apple ID
-1. Make sure that the email address matches the one you use for your Apple ID
-1. If the email addresses do not match, please email to `support@adguard.com`: describe your problem and provide us with the address used for the App Store
-1. If the email addresses match, navigate to Apple ID → iCloud → Hide My Email, find our app in the list, copy the email address, and send it to `support@adguard.com` along with your problem description. Usually, it ends with "@privaterelay.appleid.com"
+1. Gå til Indstillinger → Apple-ID → iTunes og App Store → Vis Apple-ID
+1. Sørg for, at e-mailadressen matcher den, der bruges til Apple-ID'et
+1. Matcher e-mailadresserne ikke, send os en e-mail via `support@adguard.com`, beskriv problemet og oplys den e-mailadresse, der blev brugt ved App Store-købet
+1. Hvis e-mailadresserne matcher, gå til Apple-ID → iCloud → Skjul Min E-mail, find vores app på listen, kopiér e-mailadressen og indsend den til `support@adguard.com` sammen med en problembeskrivelse. Normalt slutter den på "@privaterelay.appleid.com"
 
-Once the support team has the email address you used for the purchase, they'll transfer your subscription to the correct account and you'll be able to start using it. Or they may ask for additional information. You can provide the support team with your Apple purchase receipt to help speed up the process.
+Når supportteamet har e-mailadressen brugt til købet, overfører de abonnementet til den korrekte konto, hvorefter det vil kunne bruges. Alternativt kan de bede om yderligere oplysninger. Man kan give supportteamet sin Apple-købskvittering for at afkorte processen.

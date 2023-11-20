@@ -1,37 +1,37 @@
 ---
-title: 'How AdGuard VPN protocol works'
+title: 'Sådan fungerer AdGuard VPN-protokollen'
 sidebar_position: 4
 ---
 
-Our protocol is used by [all AdGuard VPN mobile and desktop applications](https://adguard-vpn.com/welcome.html). Download any of our products and use it knowing that your data is protected in the most secure way.
+Vores protokol bruges af [alle AdGuard VPN mobil- og computer-apps](https://adguard-vpn.com/welcome.html). Download ethvert af vores produkter og brug det, vel vidende, at dine data er beskyttet på den mest sikre måde.
 
-## Why we developed the AdGuard VPN protocol
+## Derfor udviklede vi AdGuard VPN-protokollen
 
-For years, we were concentrating on developing all flavors of ad blocking apps and browser extensions. And in 2019 we resolved to develop our own VPN service, seemingly out of nowhere. When in reality, there were a few reasons that prompted us to do so.
+I årevis koncentrerede vi os om at udvikle alle typer varianter af adbloker-apps og browserudvidelser. I 2019 besluttede vi så, uden nogen special anledning, at udvikle vores egen VPN-tjeneste. I virkeligheden var der et par grunde til, at vi gjorde det.
 
-- AdGuard mobile apps had compatibility issues with VPN apps. Normally, two VPN-based mobile apps can't work together: in rare cases on iOS, and never on Android. As AdGuard ad blocker apps use local VPN to filter network traffic, using them alongside any VPN app would be out of the question. That's why we saw the development of an in-house VPN as the only feasible solution that could guarantee compatibility: after we apply some magic, the two apps are able to work together as one VPN service.
-- Secondly, VPN seemed more than relevant to our philosophy and priorities. Our primary goal is to protect users' privacy, and this is exactly what VPNs are for.
-- Finally, over the years of developing AdGuard software, we have become experts in filtering network traffic. This allowed us to bring in something new instead of becoming another wishy-washy VPN.
+- AdGuard mobil-apps havde kompatibilitetsproblemer med VPN-apps. Normalt kan to VPN-baserede mobil-apps ikke fungere sammen: Dog i sjældne tilfælde på iOS, men aldrig på Android. Da AdGuard adblocker-apps bruger et lokalt VPN til at filtrere netværkstrafik, ville de ikke kunne bruges sammen med nogen anden VPN-app. Vi så derfor udviklingen af et internt VPN som den eneste mulige løsning, der kunne garantere kompatibilitet: Efter at have anvendt noget magi, er de to apps i stand til at arbejde sammen som én VPN-tjeneste.
+- For det andet virkede VPN mere end relevant for vores filosofi og prioriteter. Vores primære mål er at beskytte brugernes fortrolighed, og dét er præcis, hvad VPN er beregnet til.
+- Endelig er vi gennem årene med udvikling af AdGuard-software blevet eksperter i at filtrere netværkstrafik. Dette muliggjorde det for os at bringe noget nyt ind i stedet for at blive endnu en udvandet VPN.
 
-From the outset, we decided that AdGuard VPN would have one key difference from its competitors — we shall develop and deploy an in-house VPN protocol which would not force users to choose between security and speed.
+Fra starten besluttede vi, at AdGuard VPN skulle have én afgørende forskel ift. konkurrenterne — vi ville udvikle og implementere en intern VPN-protokol, der ikke ville tvinge brugerne til at vælge mellem sikkerhed og hastighed.
 
-## Disadvantages of popular VPN protocols
+## Ulemper ved populære VPN-protokoller
 
-We developed the AdGuard VPN protocol seeing the disadvantages of popular VPN protocols (OpenVPN, WireGuard, IPSec, etc.):
+Vi udviklede AdGuard VPN-protokollen ved at observere ulemperne i populære VPN-protokoller (OpenVPN, WireGuard, IPSec mv.):
 
-- They can be easily detected and blocked on the network level.
-- If you try to "hide" them, the performance will drop.
+- De kan let detekteres og blokeres på netværksniveau.
+- Hvis man forsøger at "skjule" dem, falder deres ydeevne.
 
-To "conceal" the use of VPN, the data flow is often "wrapped" in a TCP connection, and sometimes it is additionally encrypted to make the traffic look like a normal website connection. Unfortunately, this approach has a disadvantage – due to the use of TCP, there is a need for additional confirmation of delivery.
+For at "skjule" brugen af VPN er datastrømmen ofte "indpakket" i en TCP-forbindelse, og nogle gange er den yderligere krypteret for at få trafikken til at ligne normal webstedskommunikation. Desværre har denne fremgangsmåde en ulempe – grundet brugen af TCP, er der behov for yderligere bekræftelse af levering.
 
-Using any popular VPN protocol, we are always facing a trade-off: fast but easy to detect vs. slow.
+Ved bruge af de populære VPN-protokoller er der derfor altid en afvejning: Hurtig, men nem at opdage kontra langsom.
 
-## What's great about AdGuard VPN protocol
+## Hvad er godt ved AdGuard VPN-protokollen
 
-- It's *nearly impossible to distinguish from normal HTTPS traffic*, that is, the connection to the AdGuard VPN server looks exactly the same as the connection to a normal website.
-- For encryption we use **HTTPS (TLS)**, which copes with this task perfectly. It is the most popular encryption method in the world, and the libraries that implement it are constantly audited for security.
+- Den er *næsten umuligt at skelne fra normal HTTPS-trafik*, dvs., at forbindelsen til AdGuard VPN-serveren ligner nøjagtigt forbindelsen til et alm. websted.
+- Til kryptering bruges **HTTPS (TLS)**, der klarer denne opgave perfekt. Det er den mest populære krypteringsmetode i verden, og de biblioteker, som implementerer den, bliver konstant revideret for sikkerhed.
 
-Some existing VPN protocols also handle the encryption task, and they (and thus, the fact of using a VPN) are hard to detect. But this usually comes at the price of reduced speed. This is not our case, thanks to several solutions.
+Visse eksisterende VPN-protokoller håndterer også krypteringsopgaven, og de (og dermed det faktum, at VPN bruges) er svære at opdage. Omkostningen er dog normalt en reduceret hastighed. Dette sker ikke vores tilfælde, takket være flere løsninger.
 
-- We use the **HTTP/2 transport protocol**, which makes it virtually impossible to detect AdGuard VPN protocol while maintaining high speed.
-- Unlike others, AdGuard VPN protocol *operates with data and not with packets*. This means that AdGuard VPN establishes a separate "tunnel" for each connection, each HTTP/2 stream corresponds to one connection. AdGuard VPN transfers data through this tunnel. This allows us to speed up the operation by saving on confirmation packets, because we can buffer the data of several packets into one before sending it to the VPN server (or from the server to the client). And the fewer packets, the fewer confirmations are needed.
+- Vi bruger **HTTP/2-transportprotokollen**, hvilket gør det praktisk talt umuligt at detektere AdGuard VPN-protokollen, samtidig med at høj hastighed opretholdes.
+- Ulig andre, opererer AdGuard VPN-protokollen *med data og ikke med pakker*. Det betyder, at AdGuard VPN etablerer en separat "tunnel" for hver forbindelse, hver HTTP/2-stream svarer til en forbindelse. AdGuard VPN overfører data igennem denne tunnel. Dette muliggør at accelerere operationen ved at spare bekræftelsespakker, fordi vi kan buffer data fra flere pakker til én før videresendelse til VPN-serveren (eller omvendt). Jo færre pakker, des færre bekræftelser behøves.

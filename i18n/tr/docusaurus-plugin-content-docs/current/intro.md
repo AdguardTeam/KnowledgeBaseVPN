@@ -6,11 +6,11 @@ slug: /
 
 ## VPN nedir ve neden bir VPN'e ihtiyacınız var?
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7149L3xPmSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7149L3xPmSE" title="YouTube video oynatıcı" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 VPN, internet üzerindeki başka bir ağa güvenli bir bağlantı oluşturmanızı sağlar.
 
-Initially, VPNs were created to securely connect business networks over the Internet, so that people could connect to the corporate network from home. Bu teknoloji başka pek çok şey için kullanılır: örneğin internette anonim olarak gezinmek veya halka açık Wi-Fi kullanırken çevrimiçi etkinliğinizi meraklı gözlerden korumak.
+Başlangıçta VPN'ler, insanların kurumsal ağa evden bağlanabilmesi için iş ağlarını internet üzerinden güvenli bir şekilde bağlamak için oluşturuldu. Bu teknoloji başka pek çok şey için kullanılır: örneğin internette anonim olarak gezinmek veya halka açık Wi-Fi kullanırken çevrimiçi etkinliğinizi meraklı gözlerden korumak.
 
 VPN, bir kullanıcının bilgisayarını veya mobil cihazını bir sunucuya bağlar ve birinin başka birinin IP adresini kullanarak internette gezinmesine izin verir. Bu nedenle, üçüncü taraf gözlemciler kullanıcının gerçek IP adresini göremez ve bu da onları izlemeyi neredeyse imkansız hâle getirir.
 
@@ -18,9 +18,9 @@ VPN'den bahsetmişken, bahsettikleri ilk şey trafik şifrelemesi ve ondan kayna
 
 VPN şunlar için kullanılabilir:
 
-- Hide your real whereabouts and stay anonymous
-- Secure your data — even when connecting to a public Wi-Fi, you can browse the Web safely
-- Protect yourself from spoofing (network traffic interception) and tracking on the part of your Internet service provider
+- Gerçek yerinizi gizleyin ve anonim kalın
+- Verilerinizi güvence altına alın — halka açık bir Wi-Fi'ye bağlanırken bile Web'de güvenle gezinebilirsiniz
+- Kendinizi internet servis sağlayıcınız tarafından yapılan aldatma (ağ trafiğini kesme) ve izlemeye karşı koruyun
 
 Parolalar, kart bilgileri ve yalnızca düz kişisel bilgiler, bir kullanıcı internette gezinirken risk altındadır. Ancak küresel ağa bir VPN kullanarak bağlanıyorsanız, kimsenin verilerinizi ele geçiremeyeceğinden emin olabilirsiniz.
 
@@ -32,17 +32,17 @@ AdGuard, 12 yılı aşkın bir süredir kişisel verilerin korunması ve reklam 
 
 ### Benzersiz VPN protokolü
 
-The main difference between AdGuard VPN and its competitors is that we use [our own developed protocol](/general/adguard-vpn-protocol). Kendisini normal trafik olarak gizler, bu yüzden onu izlemek ve engellemek çok daha zordur.
+AdGuard VPN ile rakipleri arasındaki temel fark, [kendi geliştirdiğimiz](/general/adguard-vpn-protocol) protokolü kullanmamızdır. Kendisini normal trafik olarak gizler, bu yüzden onu izlemek ve engellemek çok daha zordur.
 
-### No-logging policy
+### Günlük tutmama politikası
 
-No-logging policy means that we don’t collect, store, or transfer users’ personal data to third parties. [Read AdGuard VPN Privacy policy](https://adguard-vpn.com/privacy.html)
+Günlük tutmama politikası, kullanıcıların kişisel verilerini toplamadığımız, saklamadığımız veya üçüncü taraflara aktarmadığımız anlamına gelir. [AdGuard VPN Gizlilik politikasını okuyun](https://adguard-vpn.com/privacy.html)
 
 ### İzleme koruması
 
 Herhangi bir kullanıcıdan gelen web trafiği ilginizi çekebilir ve özellikle kişisel verilerden para kazanma açısından değerlidir. Hem suçlular hem de vicdansız İSS'ler buna erişebilir. Ancak, güvenilir bir VPN ile, ne sağlayıcınızın ne de başka birinin internet etkinliğinizi görmeyeceğinden emin olabilirsiniz.
 
-### Ultra-fast VPN servers in 53 countries
+### 53 ülkede aşırı hızlı VPN sunucuları
 
 - Arjantin
 - Avustralya

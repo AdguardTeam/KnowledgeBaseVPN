@@ -51,4 +51,4 @@ Bazen hatalı kaldırma sonucunda veya diğer nadir durumlarda standart kaldırm
 
 AdGuard VPN, Mac'inizden tamamen kaldırıldı.
 
-You can learn more about AdGuard VPN for Mac in [this article](/adguard-vpn-for-mac/overview).
+[Bu makalede](/adguard-vpn-for-mac/overview) Mac için AdGuard VPN hakkında daha fazla bilgi edinebilirsiniz.

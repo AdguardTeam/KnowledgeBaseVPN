@@ -7,7 +7,7 @@ AdGuard VPN for Macは、デスクトップVPNサービスです。 AdGuard VPN�
 
 **AdGuard VPN for Macを使用するには、AdGuardアカウントにログインする必要があります。**. AdGuardアカウントでログインするか、外部アカウント（Apple、Google、Facebook経由）でログインすることができます （外部アカウントの場合、AdGuardアカウントと同じメールアドレスのアカウントを使用してください）。 AdGuardアカウントに適切なサブスクリプションがある場合、AdGuard VPN for Macアプリでログインの際にそのサブスクリプションが自動的に有効化されます。 まだAdGuardのアカウントをお持ちでない方は、 [こちら](https://auth.adguard.com/registration.html)からご登録いただけます（アカウント登録に必要なのははメールアドレスのみです）。
 
-> AdGuard VPN for Mac is currently supported on macOS versions starting from macOS Catalina (10.15).
+> AdGuard VPN for Macは現在macOS Catalina (10.15) より新しいバージョンのmacOSをサポートしています。
 
 ## ホーム画面
 

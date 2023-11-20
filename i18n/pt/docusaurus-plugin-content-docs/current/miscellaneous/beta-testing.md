@@ -11,14 +11,10 @@ Para se tornar um testador beta AdGuard VPN, você só precisa de algumas coisas
 
 ### Como comunicar um problema
 
-Vamos imaginar que isso aconteceu: você encontrou um bug. Ou pode ser que você apenas queira compartilhar sua sugestão com os desenvolvedores De qualquer forma, existem várias maneiras de nos informar sobre isso:
+Vamos imaginar que isso aconteceu: você encontrou um bug. Ou pode ser que você apenas queira compartilhar sua sugestão com os desenvolvedores Let us know: go to [GitHub](https://github.com/AdguardTeam/), find a suitable repository, create a new issue there, and describe the bug/feature request in detail.
 
-- Vá para [forum.adguard.com](https://forum.adguard.com) e poste lá um novo tópico (ou encontre um já existente) na [categoria "Teste Beta" do fórum](https://forum.adguard.com/index.php?categories/48/). Não deixe de ler primeiro as [regras do fórum](https://forum.adguard.com/index.php?threads/14859/) ;
+The above method is the most preferred, but you can use others if necessary:
 
-- Vá até [GitHub](https://github.com/AdguardTeam/) e encontre um repositório adequado. Crie uma nova entrada lá e descreva a solicitação de bug/recurso em detalhes.
+- Find us on various social media platforms, like [Facebook](https://www.facebook.com/AdguardEn/), [Reddit](https://www.reddit.com/r/Adguard/), etc. However, this is not the most efficient way to discuss technical matters.
 
-Os dois métodos acima são os mais adequados, mas você pode usar outros, se necessário:
-
-- Encontre-nos em várias plataformas de mídia social, como [Facebook](https://www.facebook.com/AdguardEn/), [Reddit](https://www.reddit.com/r/Adguard/), etc. No entanto, esta não é a maneira mais eficiente de discutir assuntos técnicos.
-
-- Envie um e-mail para nossa equipe de suporte na aba Suporte do aplicativo ou escreva diretamente para [support@adguard.com](mailto:support@adguard.com).
+- Email our support team from the Support tab in the app or write directly to [support@adguard.com](mailto:support@adguard.com).

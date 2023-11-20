@@ -9,4 +9,4 @@ Hangi AdGuard VPN uygulamasını veya tarayıcı uzantısını yüklemek istedi�
 - [iOS için AdGuard VPN](/adguard-vpn-for-ios/installation)
 - [Windows için AdGuard VPN](/adguard-vpn-for-windows/installation)
 - [Mac için AdGuard VPN](/adguard-vpn-for-mac/installation)
-- [AdGuard VPN Browser Extension](/adguard-vpn-browser-extension/installation)
+- [AdGuard VPN Tarayıcı Uzantısı](/adguard-vpn-browser-extension/installation)

@@ -1,42 +1,42 @@
 ---
-title: 'What is a DNS leak'
+title: 'Hvad er DNS-lækage'
 sidebar_position: 9
 ---
 
-Once you install a VPN, you want to be sure that there won't be any leaks that will lead to your de-anonymization. AdGuard VPN reliably protects your traffic and your data from prying eyes. Nevertheless, in some cases you may suspect the presence of DNS leaks in our VPN service. We'll explain where these concerns come from and why they are unfounded.
+Efter installation af et VPN, bør det sikres, at der ikke vil være nogen lækager, som kan føre til afanonymisering. AdGuard VPN beskytter pålideligt trafikken og dataene mod nysgerrige øjne. I nogle tilfælde kan der måske opstå mistanke om mulige DNS-lækager i vores VPN-tjeneste. Vi vil forklare, hvordan disse bekymringer opstår, og hvorfor de er ubegrundede.
 
-## What are DNS leaks?
+## Hvad er DNS-lækage?
 
-When you use a VPN, a connection to a DNS server may travel outside of the encrypted VPN tunnel and your traffic may become visible to the ISP.
+Når der bruges VPN, kan en forbindelse til en DNS-server bevæge uden for den krypterede VPN-tunnel, og trafikken kan blive synlig for internetudbyderen.
 
-In other words, every time you open a website, your browser sends a request to the ISP's DNS server and in return receives the IP address of the requested website. In this way, your ISP sees all your online activity and can track you.
+Med andre ord, hver gang et websted tilgås, sender browseren en forespørgsel til internetudbyderens DNS-server og modtager derefter IP-adressen på dette websted. Internetudbyderen ser dermed al online-aktivitet og kan spore brugeren.
 
-## How to detect DNS leaks
+## Sådan opdages DNS-lækager
 
-There are all sorts of anonymity check services for detecting DNS leaks, such as `whoer.net`. It should be understood that these websites themselves are not perfect and their algorithms are not clear, as opposed to their intentions to intimidate users with imaginary leaks and potentially sell some service.
+Der er alle mulige former for anonymitetstjektjenester til detektering af DNS-lækager, såsom `whoer.net`. Det bør forstås, at disse websteder i sig selv ikke er perfekte, og deres algoritmer er ikke klare, i modsætning til deres intentioner om at skræmme brugere med imaginære lækager for potentielt at sælge kunne ydelser.
 
-Some security scanning websites consider the coincidence of the user's IP address and the DNS server's IP address to be a "good" result, indicating that there are no leaks. In reality, such a match may indicate the use of a VPN. When VPN is disabled and the requests go to your ISP's DNS server, the IP address of the DNS server and your own one do not coincide.
+Visse websteder med sikkerhedsskanning anser sammenfaldet af brugerens IP-adresse og DNS-serverens IP-adresse for at være et "godt" resultat, hvilket indikerer fravær af lækager. Reelt kan et sådant match indikere brugen af et VPN. Når VPN er deaktiveret, og forespørgsler sendes til internetudbyderens DNS-server, har brugeren og DNS-serveren ikke sammenfaldende IP-adresser.
 
-## Why there are no DNS leaks in AdGuard VPN
+## Derfor er der ingen DNS-lækager i AdGuard VPN
 
-If you enable AdGuard VPN on your device and run a check on any of the scanner websites, it finds that DNS queries go to the [AdGuard DNS](https://adguard-dns.io) servers. However, this cannot be considered a leak.
+Aktiverer man AdGuard VPN på enheden og kører et tjek på en af skannerwebstederne, finder det ud af, at DNS-forespørgsler går til [AdGuard DNS](https://adguard-dns.io)-serverne. Dette kan dog ikke betragtes som en lækage.
 
-Using a non-filtering AdGuard DNS server is set by default in AdGuard VPN. This ensures that your queries do not go to the DNS servers of your ISP, which means that you stay private and anonymous online.
+Brug af en ikke-filtrerende AdGuard DNS-server er opsat som standard i AdGuard VPN. Dette sikrer, at forespørgsler ikke går til internetudbyders DNS-servere, hvilket betyder, at fortrolighed og anonymitet bevares online.
 
-What's more, AdGuard DNS is a very popular DNS service, used by over 50 million people. What does this mean for you? Imagine the following situation: the usual VPN service uses the DNS server which is located at the same IP address as the VPN server. The number of its users hardly exceeds 1,000.
+Derudover er AdGuard DNS en meget populær DNS-tjeneste, med flere end 50 millioner brugere. Hvad betyder så det? Forestiller man sig flg. situation: Den vanlige VPN-tjeneste bruger en DNS-server placeret på samme IP-adresse som VPN-serveren. Antallet af brugere overstiger næppe 1.000.
 
-And in the case of AdGuard DNS you will "merge" with 50 million users so nobody will be able to track you by the mere fact of using that DNS server.
+I tilfælde af AdGuard DNS "smelter" man sammen med 50 millioner brugere, så man vil ikke kunne spores af nogen blot ved brug af denne DNS-server.
 
-## How to set up a custom DNS server in AdGuard VPN
+## Sådan opsættes en tilpasset DNS-server i AdGuard VPN
 
-There are many popular public DNS servers from [well-known DNS providers](https://adguard-dns.io/kb/general/dns-providers). Some of them can only perform their direct duties – giving the IP addresses of the requested domains, and some can do more.
+Der er mange populære offentlige DNS-servere fra [velkendte DNS-udbydere](https://adguard-dns.io/kb/general/dns-providers). Nogle heraf kan kun udføre deres direkte opgaver – at levere IP-adresserne på de forespurgte domæner – mens nogle kan gøre mere.
 
-For example, AdGuard DNS removes ads and protects your device from being tracked, and AdGuard DNS Family Protection combines AdGuard DNS features with Safe search and Parental control.
+F.eks. fjerner AdGuard DNS annoncer og beskytter enheden mod sporing, mens AdGuard DNS Family Protection kombinerer funktionerne i AdGuard DNS med SafeSearch og Forældrekontrol.
 
-You can select any DNS server and configure it in AdGuard VPN:
+En hvilken som helst DNS-server kan vælges og opsættes i AdGuard VPN:
 
-- in AdGuard VPN for Windows: *Settings* → *App settings* → *DNS servers*
-- in AdGuard VPN for Mac: *Settings* → *App settings* → *DNS servers*
-- in AdGuard VPN for Android: *Settings* (gear icon) → *App settings* → *DNS server*
-- in AdGuard VPN for iOS: *Settings* (gear icon) → *App settings* → *DNS server*
-- in AdGuard VPN Browser extension: the hamburger menu icon → *Settings* → *DNS server*
+- i AdGuard VPN til Windows: *Indstillinger* → *App-indstillinger* → *DNS-servere*
+- i AdGuard VPN til Mac: *Indstillinger* → *App-indstillinger* → *DNS-servere*
+- i AdGuard VPN til Android: *Indstillinger* (tandhjulsikon) → *App-indstillinger* → *DNS-server*
+- i AdGuard VPN til iOS: *Indstillinger* (tandhjulsikon) → *App-indstillinger* → *DNS-server*
+- i AdGuard VPN Browser Extension: Hamburgermenuikon → *Indstillinger* → *DNS-server*

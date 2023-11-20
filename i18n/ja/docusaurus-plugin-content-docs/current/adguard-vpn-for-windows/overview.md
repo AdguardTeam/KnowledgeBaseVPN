@@ -99,7 +99,7 @@ Not only does AdGuard VPN encrypt the traffic of your browsers, but also of othe
 
 ### このアプリについて
 
-The **About** tab provides information about the current version of AdGuard VPN for Windows, an update button, and links to the AdGuard VPN website, forum, EULA, and Privacy policy.
+The **About** tab provides information about the current version of AdGuard VPN for Windows, an update button, and links to the AdGuard VPN website, EULA, and Privacy policy.
 
 ### アカウント
 

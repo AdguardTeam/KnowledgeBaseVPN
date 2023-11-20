@@ -3,7 +3,7 @@ title: AdGuard Reklam Engelleyici ile uyumluluk
 sidebar_position: 3
 ---
 
-AdGuard VPN'in iki çalışma modu vardır — Genel ve Entegre. General mode is enabled by default and uses [AdGuard VPN protocol](/general/adguard-vpn-protocol). Bağlantı hızı ve güvenliğin en iyi kombinasyonunu sağlar.
+AdGuard VPN'in iki çalışma modu vardır — Genel ve Entegre. Genel mod varsayılan olarak etkindir ve [AdGuard VPN protokolünü](/general/adguard-vpn-protocol) kullanır. Bağlantı hızı ve güvenliğin en iyi kombinasyonunu sağlar.
 
 Ancak bu çalışma modu, AdGuard VPN ve AdGuard Reklam Engelleyicinin aynı anda çalışmasına izin vermez.
 

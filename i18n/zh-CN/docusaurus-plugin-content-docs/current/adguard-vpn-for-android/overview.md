@@ -5,7 +5,7 @@ sidebar_position: 1
 
 ## 什么是 Android版 AdGuard VPN?
 
-VPN 是一个在用户每次浏览互联网时提供安全性和匿名性的理想工具。 [How does it work?](/general/how-vpn-works) Without going into technical details, we can say that VPN creates a secure encrypted tunnel between the user's computer or mobile device and a remote VPN server. 通过这种方式，数据的保密性以及用户的匿名性得以保留，因为第三方观察者看到的是 VPN 服务器的 IP 地址而不是用户的实际 IP。
+VPN 是一个在用户每次浏览互联网时提供安全性和匿名性的理想工具。 [它是如何工作的？](/general/how-vpn-works)在不讨论技术细节的情况下，我们可以说 VPN 在用户的计算机或移动设备与远程 VPN 服务器之间创建了一条安全的加密隧道。 通过这种方式，数据的保密性以及用户的匿名性得以保留，因为第三方观察者看到的是 VPN 服务器的 IP 地址而不是用户的实际 IP。
 
 **VPN 经常用于以下几项：**
 
@@ -13,7 +13,7 @@ VPN 是一个在用户每次浏览互联网时提供安全性和匿名性的理�
 - 通过掩盖 IP 地址防止用户在线活动追踪
 - 隐藏真实的地理位置以保持用户的匿名性
 
-安卓版的 AdGuard VPN 可以为用户做这一切，甚至提供一些独特的功能。 To find out why AdGuard VPN is the better option — read [this article](/general/why-adguard-vpn).
+安卓版的 AdGuard VPN 可以为用户做这一切，甚至提供一些独特的功能。 要了解为什么 AdGuard VPN 是用户的不二之选，请阅读[这篇文章](/general/why-adguard-vpn)。
 
 ## 如何开始使用安卓版的 AdGuard VPN
 

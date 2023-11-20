@@ -1,99 +1,99 @@
 ---
-title: AdGuard VPN Overview
+title: AdGuard VPN-oversigt
 sidebar_position: 1
 slug: /
 ---
 
-## What is a VPN and why do you need one?
+## Hvad er et VPN, og hvorfor behøver man det?
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7149L3xPmSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7149L3xPmSE" title="YouTube-videoafspiller" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-A VPN allows you to create a secure connection to another network on the Internet.
+Et VPN muliggør at oprette en sikker forbindelse til et andet netværk på internet.
 
-Initially, VPNs were created to securely connect business networks over the Internet, so that people could connect to the corporate network from home. This technology is used for many other things: for example, to browse the Internet anonymously or to protect your online activity from prying eyes while using public Wi-Fi.
+Oprindeligt blev VPN'er skabt mhp. sikkert at kunne forbinde forretningsnetværk over internet, så ansatte f.eks. kunne oprette forbindelse til, og arbejde på, virksomhedens netværk hjemmefra. Teknologien bruges i dag til mange andre ting, såsom at surfe anonymt på internet eller beskytte onlineaktivitet mod nysgerrige øjne, mens der bruges offentlig Wi-Fi.
 
-A VPN connects a user's computer or mobile device to a server and allows one to browse the net using someone else's IP address. Thus, third-party observers cannot see the user's real IP address, which makes it nearly impossible to trace them.
+Et VPN forbinder en brugers enhed (computer/mobil) til en server, og brugeren kan så surfe på nettet vha. en IP-adresse tildelt af denne server. Tredjepartsobservatører kan således ikke se brugerens reelle IP-adresse, hvilket gør videre sporing næsten umulig.
 
-Speaking of VPN, the first thing they mention is traffic encryption and security deriving from it. But what does it mean? A VPN creates an encrypted tunnel between the user's device and the remote server. All your web traffic passes through this tunnel, so your data is protected along the way. For the external observer, your traffic exits the VPN server, so it looks like your device has the IP address of this server. This trick masks the user's identity and true location.
+Det første, der nævnes af brugere i forhold til VPN, er trafikkryptering og dens afledte sikkerhed. Hvad betyder det? Et VPN opretter en krypteret tunnel mellem brugerens enhed og en fjernserver. Al internettrafikken passerer igennem denne tunnel, så data er beskyttet undervejs. Set udefra, så forlader trafikken VPN-serveren, hvorfor brugerenheden derfor ser ud til at have denne servers IP-adresse. Dette trick maskerer brugerens identitet og reelle placering.
 
-VPN can be used to:
+VPN kan bruges til at:
 
-- Hide your real whereabouts and stay anonymous
-- Secure your data — even when connecting to a public Wi-Fi, you can browse the Web safely
-- Protect yourself from spoofing (network traffic interception) and tracking on the part of your Internet service provider
+- Skjuler den reelle færden og forblive anonym
+- Beskytte brugerdata — selv når der oprettes forbindelse til et offentligt Wi-Fi, kan der surfes sikkert på nettet
+- Beskytte sig selv mod spoofing (netværkstrafikaflytning) og sporing fra internetudbyders side
 
-Passwords, card details, and just plain personal information are at risk when a user surfs the Internet. But if you connect to the global network using a VPN, you can be sure that no one can intercept your data.
+Adgangskoder, kortoplysninger og alm. personlige oplysninger er i fare, når en bruger surfer på nettet. Opretter man i stedet forbindelse til internet via et VPN, kan man være sikker på, at ingen kan opsnappe ens data.
 
-## Why AdGuard VPN?
+## Hvorfor AdGuard VPN?
 
-### Trusted developer
+### Betroet udvikler
 
-AdGuard has been present on the market of personal data protection and ad blocking and developing its line of software for more than 12 years. Over this time, our company has built an impeccable reputation, and the number of our customers has exceeded 30 million.
+AdGuard har været på markedet for beskyttelse af personlige data samt adblocking, og udviklet sin serie af software, i flere end 12 år. I løbet af denne tid har vores virksomhed opbygget et upåklageligt ry, og antallet af kunder har rundet 30 millioner.
 
-### Unique VPN protocol
+### Unik VPN-protokol
 
-The main difference between AdGuard VPN and its competitors is that we use [our own developed protocol](/general/adguard-vpn-protocol). It disguises itself as normal traffic, so it is much more difficult to track and block it.
+Den største forskel mellem AdGuard VPN og konkurrenterne er, at vi bruger [vores egenudviklede protokol](/general/adguard-vpn-protocol). Den forklæder sig som normal trafik, så den er meget sværere at spore og blokere.
 
-### No-logging policy
+### Nul logning-politik
 
-No-logging policy means that we don’t collect, store, or transfer users’ personal data to third parties. [Read AdGuard VPN Privacy policy](https://adguard-vpn.com/privacy.html)
+Nul logning-politik betyder, at vi ikke indsamler, opbevarer eller overfører brugeres personlige data til tredjeparter. [Læs AdGuard VPN Fortrolighedspolitik](https://adguard-vpn.com/privacy.html)
 
-### Tracking protection
+### Sporingsbeskyttelse
 
-Web traffic from any user may be of interest and is particularly valuable in terms of monetization of personal data. Both criminals and unscrupulous ISPs can access it. However, with a trustworthy VPN, you can be confident that neither your provider nor anyone else will see your internet activity.
+Alle brugeres webtrafik kan være af interesse og er særlig værdifuld mht. indtægtsgenerering fra personlige data. Både kriminelle og skruppelløse internetudbydere kan tilgå den. Med en pålidelig VPN kan man dog være sikker på, at hverken udbyderen eller nogen andre vil se ens internetaktivitet.
 
-### Ultra-fast VPN servers in 53 countries
+### Ultrahurtige VPN-servere i 53 lande
 
 - Argentina
-- Australia
-- Austria
-- Belgium
-- Brazil
-- Bulgaria
-- Cambodia
+- Australien
+- Østrig
+- Belgien
+- Brasilien
+- Bulgarien
+- Cambodja
 - Canada
 - Chile
 - Colombia
-- Croatia
-- Cyprus
-- Czechia
-- Denmark
-- Egypt
-- Estonia
+- Kroatien
+- Cypern
+- Tjekkiet
+- Danmark
+- Egypten
+- Estland
 - Finland
-- France
-- Germany
-- Greece
+- Frankrig
+- Tyskland
+- Grækenland
 - Hong Kong
-- Hungary
-- India
-- Ireland
+- Ungarn
+- Indien
+- Irland
 - Israel
-- Italy
+- Italien
 - Japan
-- Kazakhstan
+- Kasakhstan
 - Luxembourg
 - Mexico
-- Netherlands
+- Holland
 - New Zealand
-- Norway
-- Philippines
-- Poland
+- Norge
+- Filippinerne
+- Polen
 - Portugal
-- Romania
-- Russia
-- Serbia
+- Rumænien
+- Rusland
+- Serbien
 - Singapore
-- Slovakia
-- South Africa
-- South Korea
-- Spain
-- Sweden
-- Switzerland
+- Slovakiet
+- Sydafrika
+- Sydkorea
+- Spanien
+- Sverige
+- Schweiz
 - Taiwan
-- Turkey
-- United Kingdom
-- United Arab Emirates
-- United States of America
+- Tyrkiet
+- Storbritannien
+- Forenede Arabiske Emirater
+- USA
 - Ukraine
 - Vietnam

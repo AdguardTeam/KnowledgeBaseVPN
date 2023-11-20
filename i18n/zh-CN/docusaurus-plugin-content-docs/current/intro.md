@@ -6,11 +6,11 @@ slug: /
 
 ## VPN 是什么以，您为什么需要它?
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7149L3xPmSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7149L3xPmSE" title="YouTube 视频播放器" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 VPN 可以让用户与互联网上另一处网络创建安全的连接。
 
-Initially, VPNs were created to securely connect business networks over the Internet, so that people could connect to the corporate network from home. 这项技术还有很多其他用途：比如匿名上网，或防止在公共 Wi-Fi 下不被窥探。
+最初，创建 VPN 是为了通过互联网安全地连接企业网络，以便人们可以从家里连接到企业网络。 这项技术还有很多其他用途：比如匿名上网，或防止在公共 Wi-Fi 下不被窥探。
 
 VPN 将用户的电脑或移动设备连接到服务器，并允许用户使用其他 IP 地址浏览网络。 因此，第三方观察者无法检测用户的真实 IP 地址，这使得追踪TA们几乎不可能。
 
@@ -18,9 +18,9 @@ VPN 将用户的电脑或移动设备连接到服务器，并允许用户使用�
 
 VPN 可用于：
 
-- Hide your real whereabouts and stay anonymous
-- Secure your data — even when connecting to a public Wi-Fi, you can browse the Web safely
-- Protect yourself from spoofing (network traffic interception) and tracking on the part of your Internet service provider
+- 隐藏您的真实行踪并保持匿名
+- 保护您的数据——即使连接到公共 Wi-Fi，您也可以安全地浏览网页
+- 保护您免受互联网服务提供商的欺骗（网络流量拦截）和跟踪。
 
 当用户在互联网冲浪时，密码、银行卡信息和普通的个人信息都处于危险之中。 但如果您启用 VPN 连接到全球网络，您可以确信没有他人可以截获您的个人数据。
 
@@ -32,17 +32,17 @@ AdGuard 进入个人数据保护和广告拦截市场并开发其软件系列已
 
 ### 特有的 VPN 协议
 
-The main difference between AdGuard VPN and its competitors is that we use [our own developed protocol](/general/adguard-vpn-protocol). 本协议将自己伪装成正常流量，因此更难追踪和阻止它。
+AdGuard VPN 与其竞争对手的主要区别在于，我们使用[我们自己开发的协议](/general/adguard-vpn-protocol)。 本协议将自己伪装成正常流量，因此更难追踪和阻止它。
 
-### No-logging policy
+### 无日志政策
 
-No-logging policy means that we don’t collect, store, or transfer users’ personal data to third parties. [Read AdGuard VPN Privacy policy](https://adguard-vpn.com/privacy.html)
+无日志政策意味着我们不会收集、存储或将用户的个人数据传输给第三方。 [阅读 AdGuard VPN 隐私政策](https://adguard-vpn.com/privacy.html)
 
 ### 跟踪保护
 
 任何用户的网络流量都可能引起兴趣，在个人数据的货币化方面尤其有价值。 犯罪分子和不诚实的互联网服务提供商都可以访问用户个人数据。 然而，有了值得信赖的 VPN，您可以确信，无论是您的服务提供商还是其他人都不会检测您的互联网活动。
 
-### Ultra-fast VPN servers in 53 countries
+### 遍布 53 个国家的高速 VPN 服务器
 
 - 阿根廷
 - 澳大利亚

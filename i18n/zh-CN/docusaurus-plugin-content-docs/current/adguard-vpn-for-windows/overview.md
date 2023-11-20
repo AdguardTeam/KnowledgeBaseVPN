@@ -9,13 +9,13 @@ VPN 是“虚拟专用网络”的缩写，该服务可保证您的互联网连�
 
 ## AdGuard VPN Windows 版的功能
 
-- 防止网络流量拦截（欺骗）。 AdGuard VPN可在您的设备和远程服务器之间创建加密隧道。 您的所有网络流量都会经由此隧道，从而在此过程中保护您的数据。 And thanks to [AdGuard's unique protocol](/general/adguard-vpn-protocol), you're guaranteed a fast and secure connection.
+- 防止网络流量拦截（欺骗）。 AdGuard VPN可在您的设备和远程服务器之间创建加密隧道。 您的所有网络流量都会经由此隧道，从而在此过程中保护您的数据。 得益于 [AdGuard 特有协议](/general/adguard-vpn-protocol)，您可以有快速、安全的连接。
 
 - 隐藏您的 IP 地址。 您的真实 IP 地址是网络犯罪分子获取您个人数据的关键。 如果您不隐藏 IP，那么您的姓名、电子邮件地址、电话号码、信用卡信息都可能落入犯罪分子手中。 正如上文所说，使用 AdGuard VPN，您的所有流量都会通过加密隧道到达 VPN 服务器。 因此，从外部看来，您设备的 IP 地址就和 VPN 服务器的 IP 地址相同。
 
 - 隐藏您的真实位置。 选择任意一个 AdGuard VPN 服务器，您可以立即“传送”到其对应位置。 这有什么作用呢？ 举个例子，这样您就能够以当地的价格预订酒店，或者躲避地理目标广告。
 
-AdGuard VPN for Windows has many advantages, so we've dedicated [a separate article](/general/why-adguard-vpn) to them. 不过，这里我们会着眼于程序本身及其工作原理。
+AdGuard VPN Windows 版有很多优点，为此我们专门写了一篇[文章](/general/why-adguard-vpn)来进行阐述。 不过，这里我们会着眼于程序本身及其工作原理。
 
 ## 如何开始使用 AdGuard VPN Windows 版
 
@@ -99,7 +99,7 @@ AdGuard VPN 不仅会加密浏览器的流量，还会加密您计算机上其�
 
 ### 关于
 
-「**关于**」标签中提供了有关当前版本的 AdGuard VPN Windows 版 信息，更新按钮，AdGuard VPN 官网、论坛、EULA（最终用户许可协议）和隐私政策的链接。
+The **About** tab provides information about the current version of AdGuard VPN for Windows, an update button, and links to the AdGuard VPN website, EULA, and Privacy policy.
 
 ### 账号
 

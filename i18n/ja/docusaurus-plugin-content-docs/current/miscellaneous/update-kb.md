@@ -15,13 +15,13 @@ sidebar_position: 3
 
 ナレッジベースのウェブサイトは、現代の静的ウェブサイトジェネレータである「Docusaurus 2」を使用して構築されています。 変更または追加を提案する場合、すべてのテキストがのDocusaurus 2に準拠している必要があります。 Docusaurus 2の原則は、 [このリンク先のガイド](https://docusaurus.io/docs/category/guides)で確認することができます。
 
-このナレッジベースは、お使いのコンピュータにローカルに展開し、提案する変更をプレビューすることができます。 Detailed instructions on how to do this can be found [in the README.md file](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README) on this Knowledge Base's GitHub page.
+このナレッジベースは、お使いのコンピュータにローカルに展開し、提案する変更をプレビューすることができます。 この方法の詳細な説明は [in the README.md file](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README) Knowledge BaseのGitHubページで閲覧できます。
 
 ## 記事の翻訳 {#translate-adguard}
 
-ナレッジベースの既存記事の翻訳は、 [Crowdin platform](https://crowdin.com/project/adguard-vpn-knowledge-base)を使って行われています。 All the details about translations and working with Crowdin can be found [in the dedicated article](https://adguard.com/kb/miscellaneous/contribute/translate/program/) of the AdGuard Ad Blocker Knowledge Base.
+ナレッジベースの既存記事の翻訳は、 [Crowdin platform](https://crowdin.com/project/adguard-vpn-knowledge-base)を使って行われています。 翻訳、またCrowdinの使い方は[AdGuard Ad Blocked Knowledge Base内の専用ページ](https://adguard.com/kb/miscellaneous/contribute/translate/program/)にて閲覧できます。
 
-AdGuard VPN ナレッジベースの記事を翻訳する際、複数形を含む文字列に遭遇することがありますが、複数形がいっぱいある言語の場合は特に注意して翻訳してください。 [In a separate article](https://adguard.com/kb/miscellaneous/contribute/translate/plural-forms/), we described in detail the difficulties that can arise when translating strings with plural forms, and gave extensive instructions on how to work with them on the Crowdin platform.
+AdGuard VPN ナレッジベースの記事を翻訳する際、複数形を含む文字列に遭遇することがありますが、複数形がいっぱいある言語の場合は特に注意して翻訳してください。 [この記事](https://adguard.com/kb/miscellaneous/contribute/translate/plural-forms/)には、複数の意味を持つ単語を翻訳するときの難しさ、それへの対応、またCrowdinに慣れていくための貴重なガイドも含まれています。
 
 ## Open issue（GitHub）の作業
 

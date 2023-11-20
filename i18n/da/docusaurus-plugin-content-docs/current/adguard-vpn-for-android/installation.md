@@ -1,28 +1,28 @@
 ---
-title: Installation and removal
+title: Installation og fjernelse
 sidebar_position: 2
 ---
 
-## System requirements
+## Systemkrav
 
-AdGuard VPN can only be installed on Android devices with **Android 5.0.0 or later versions**.
+AdGuard VPN kan kun installeres på Android-enheder med **Android 5.0.0 eller senere versioner**.
 
-## How to install AdGuard VPN for Android
+## Sådan installeres AdGuard VPN til Android
 
-You can find the AdGuard VPN for Android app in *Google Play* and install it for free. To do this, follow [this link](https://play.google.com/store/apps/details?id=com.adguard.vpn) and tap the Install icon or follow a few simple steps:
+AdGuard VPN til Android-appen kan gratis installeres fra *Google Play*. For at gøre dette, følg [dette link](https://play.google.com/store/apps/details?id=com.adguard.vpn) og tryk på Installér-ikonet eller følg et par enkle trin:
 
-1. Open the *Google Play* app on your device and tap *Search* at the top of the screen.
+1. Åbn *Google Play*-appen på enheden, og tryk på *Søg* øverst på skærmen.
 
-2. Next, in the search bar, start typing *"AdGuard"* and select *"adguard vpn"* from the list of suggested options.
+2. Begynd derefter at skrive *"AdGuard"* på søgebjælken og vælg *"adguard vpn"* fra listen over viste muligheder.
 
-3. Select *AdGuard VPN - private proxy* from the list of suggested applications and tap *Install*.
+3. Vælg *AdGuard VPN - privat proxy* fra listen over viste apps, og tryk på *Installér*.
 
-4. Wait for the installation to finish and tap *Open*.
+4. Afvent at installationen færdiggøres og tryk derefter på *Åbn*.
 
-AdGuard VPN for Android has been successfully installed!
+AdGuard VPN til Android er hermed installeret!
 
-## How to uninstall AdGuard VPN for Android
+## Sådan afinstalleres AdGuard VPN til Android
 
-If you decided to delete AdGuard VPN for Android, find the icon of this app and hold it. In the opened list, tap *Uninstall*.
+Ønsker man at fjerne AdGuard VPN til Android, find appens ikon og tryk og hold på det. På den viste liste trykkes på *Afinstallér*.
 
-You can learn more about the AdGuard VPN for Android in [this article](/adguard-vpn-for-android/overview).
+Der kan læses mere om AdGuard VPN til Android i [denne artikel](/adguard-vpn-for-android/overview).
