@@ -104,6 +104,8 @@ The next two sections are *Logging level* and *Diagnostic info*. Concerning the 
 
 The last section of *Advanced settings* is *Low-level settings*. We urge you not to enter this section unless you are highly qualified or have been asked to do so by our support team. Here it is possible to enable TUN interface logging or IPv6 protocol on the VPN interface, choose a proxy server port or Internet protocol version that should be used.
 
+> *Enable IPv6* option is only available for networks that support IPv6.
+
 ### Support
 
 At the *Support* section you can leave feedback, report a bug, or export logs and system info for further submission to the helpdesk.
