@@ -99,7 +99,7 @@ Ikke alene krypterer AdGuard VPN internetbrowseres trafik, men også trafik fra 
 
 ### Om
 
-The **About** tab provides information about the current version of AdGuard VPN for Windows, an update button, and links to the AdGuard VPN website, EULA, and Privacy policy.
+Fanen **Om** indeholder oplysninger om aktuel version af AdGuard VPN til Windows, en opdateringsknap og links til AdGuard VPN-webstedet, EULA og Fortrolighedspolitik.
 
 ### Konto
 

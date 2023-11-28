@@ -11,10 +11,10 @@ Per diventare beta tester di AdGuard VPN, sono necessarie solo poche cose: il de
 
 ### Come segnalare un bug
 
-Immaginiamo che sia successo: hai trovato un bug. O forse vuoi solo suggerire qualcosa agli sviluppatori? Let us know: go to [GitHub](https://github.com/AdguardTeam/), find a suitable repository, create a new issue there, and describe the bug/feature request in detail.
+Immaginiamo che sia successo: hai trovato un bug. O forse vuoi solo suggerire qualcosa agli sviluppatori? Faccelo sapere: visita [GitHub](https://github.com/AdguardTeam/), trova una repository adeguata, creaci un nuovo ticket e descrivi il bug / la richiesta di funzionalità nel dettaglio.
 
-The above method is the most preferred, but you can use others if necessary:
+Il suddetto metodo è il preferito, ma puoi anche utilizzarne altri se necessario:
 
-- Find us on various social media platforms, like [Facebook](https://www.facebook.com/AdguardEn/), [Reddit](https://www.reddit.com/r/Adguard/), etc. However, this is not the most efficient way to discuss technical matters.
+- Trovaci sulle varie piattaforme social, come [Facebook](https://www.facebook.com/AdguardEn/), [Reddit](https://www.reddit.com/r/Adguard/), etc. Tuttavia, questo non è il modo più efficiente per discutere di questioni tecniche.
 
-- Email our support team from the Support tab in the app or write directly to [support@adguard.com](mailto:support@adguard.com).
+- Invia un'email al nostro team di supporto dalla scheda Supporto nell'app o scrivi direttamente a [support@adguard.com](mailto:support@adguard.com).

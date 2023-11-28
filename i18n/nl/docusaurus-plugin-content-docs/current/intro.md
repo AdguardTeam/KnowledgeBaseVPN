@@ -1,99 +1,99 @@
 ---
-title: AdGuard VPN Overview
+title: AdGuard VPN-overzicht
 sidebar_position: 1
 slug: /
 ---
 
-## What is a VPN and why do you need one?
+## Wat is een VPN en waarom heb je er een nodig?
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7149L3xPmSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7149L3xPmSE" title="YouTube-videospeler" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-A VPN allows you to create a secure connection to another network on the Internet.
+Met een VPN kun je een beveiligde verbinding maken met een ander netwerk op het internet.
 
-Initially, VPNs were created to securely connect business networks over the Internet, so that people could connect to the corporate network from home. This technology is used for many other things: for example, to browse the Internet anonymously or to protect your online activity from prying eyes while using public Wi-Fi.
+Aanvankelijk werden VPN's gemaakt om bedrijfsnetwerken veilig via internet te verbinden, zodat mensen vanuit huis verbinding konden maken met het bedrijfsnetwerk. Deze technologie wordt voor veel andere dingen gebruikt: bijvoorbeeld om anoniem op het internet te surfen of om je online activiteiten te beschermen tegen nieuwsgierige ogen wanneer je openbare Wi-Fi gebruikt.
 
-A VPN connects a user's computer or mobile device to a server and allows one to browse the net using someone else's IP address. Thus, third-party observers cannot see the user's real IP address, which makes it nearly impossible to trace them.
+Een VPN verbindt de computer of het mobiele apparaat van een gebruiker met een server en zorgt ervoor dat iemand op internet kan surfen met het IP-adres van iemand anders. Derden kunnen dus niet het echte IP-adres van de gebruiker zien, waardoor het bijna onmogelijk is om ze te traceren.
 
-Speaking of VPN, the first thing they mention is traffic encryption and security deriving from it. But what does it mean? A VPN creates an encrypted tunnel between the user's device and the remote server. All your web traffic passes through this tunnel, so your data is protected along the way. For the external observer, your traffic exits the VPN server, so it looks like your device has the IP address of this server. This trick masks the user's identity and true location.
+Over VPN gesproken: het eerste dat ze noemen is verkeersversleuteling en de daaruit voortvloeiende beveiliging. Maar wat betekent het? Een VPN creëert een gecodeerde tunnel tussen het apparaat van de gebruiker en de externe server. Al je webverkeer gaat door deze tunnel, zodat je gegevens onderweg worden beschermd. Voor de externe waarnemer verlaat je verkeer de VPN-server, dus het lijkt alsof je apparaat het IP-adres van deze server heeft. Deze truc verhult de identiteit en werkelijke locatie van de gebruiker.
 
-VPN can be used to:
+VPN kan worden gebruikt om:
 
-- Hide your real whereabouts and stay anonymous
-- Secure your data — even when connecting to a public Wi-Fi, you can browse the Web safely
-- Protect yourself from spoofing (network traffic interception) and tracking on the part of your Internet service provider
+- Verberg je echte verblijfplaats en blijf anoniem
+- Beveilig je gegevens - zelfs als je verbinding maakt met een openbare Wi-Fi-netwerk, kun je veilig op internet surfen
+- Bescherm jezelf tegen spoofing (onderschepping van netwerkverkeer) en volgen door jouw internetprovider
 
-Passwords, card details, and just plain personal information are at risk when a user surfs the Internet. But if you connect to the global network using a VPN, you can be sure that no one can intercept your data.
+Wachtwoorden, kaartgegevens en gewone persoonlijke gegevens lopen gevaar wanneer een gebruiker op internet surft. Maar als je verbinding maakt met het wereldwijde netwerk via een VPN, kun je er zeker van zijn dat niemand je gegevens kan onderscheppen.
 
-## Why AdGuard VPN?
+## Waarom AdGuard VPN?
 
-### Trusted developer
+### Vertrouwde ontwikkelaar
 
-AdGuard has been present on the market of personal data protection and ad blocking and developing its line of software for more than 12 years. Over this time, our company has built an impeccable reputation, and the number of our customers has exceeded 30 million.
+AdGuard is al meer dan 12 jaar aanwezig op de markt van de bescherming van persoonsgegevens en advertentieblokkering en ontwikkelt zijn softwarelijn. In deze periode heeft ons bedrijf een onberispelijke reputatie opgebouwd en heeft het aantal klanten de 30 miljoen overschreden.
 
-### Unique VPN protocol
+### Uniek VPN-protocol
 
-The main difference between AdGuard VPN and its competitors is that we use [our own developed protocol](/general/adguard-vpn-protocol). It disguises itself as normal traffic, so it is much more difficult to track and block it.
+Het belangrijkste verschil tussen AdGuard VPN en zijn concurrenten is dat wij gebruik maken van [ons eigen ontwikkelde protocol](/general/adguard-vpn-protocol). Het vermomt zichzelf als normaal verkeer, dus het is veel moeilijker om het te volgen en te blokkeren.
 
-### No-logging policy
+### Geen logboekregistratie
 
-No-logging policy means that we don’t collect, store, or transfer users’ personal data to third parties. [Read AdGuard VPN Privacy policy](https://adguard-vpn.com/privacy.html)
+Geen logboekregistratie betekent dat we de persoonlijke gegevens van gebruikers niet verzamelen, opslaan of overdragen aan derden. [Lees het AdGuard VPN-privacybeleid](https://adguard-vpn.com/privacy.html)
 
-### Tracking protection
+### Bescherming tegen volgen
 
-Web traffic from any user may be of interest and is particularly valuable in terms of monetization of personal data. Both criminals and unscrupulous ISPs can access it. However, with a trustworthy VPN, you can be confident that neither your provider nor anyone else will see your internet activity.
+Webverkeer van elke gebruiker kan interessant zijn en is vooral waardevol als het gaat om het genereren van inkomsten met persoonlijke gegevens. Zowel criminelen als gewetenloze ISP's hebben er toegang toe. Met een betrouwbare VPN kun je er echter op vertrouwen dat noch je provider, noch iemand anders je internetactiviteiten kan zien.
 
-### Ultra-fast VPN servers in 53 countries
+### Ultrasnelle VPN-servers in 53 landen
 
-- Argentina
-- Australia
-- Austria
-- Belgium
-- Brazil
-- Bulgaria
-- Cambodia
+- Argentinië
+- Australië
+- Oostenrijk
+- België
+- Brazilië
+- Bulgarije
+- Cambodja
 - Canada
-- Chile
+- Chili
 - Colombia
-- Croatia
+- Kroatië
 - Cyprus
-- Czechia
-- Denmark
-- Egypt
-- Estonia
+- Tsjechië
+- Denemarken
+- Egypte
+- Estland
 - Finland
-- France
-- Germany
-- Greece
-- Hong Kong
-- Hungary
-- India
-- Ireland
-- Israel
-- Italy
+- Frankrijk
+- Duitsland
+- Griekenland
+- Hongkong
+- Hongarije
+- Indië
+- Ierland
+- Israël
+- Italië
 - Japan
-- Kazakhstan
-- Luxembourg
+- Kazachstan
+- Luxemburg
 - Mexico
-- Netherlands
-- New Zealand
-- Norway
-- Philippines
-- Poland
+- Nederland
+- Nieuw-Zeeland
+- Noorwegen
+- Filippijnen
+- Polen
 - Portugal
-- Romania
-- Russia
-- Serbia
+- Roemenië
+- Rusland
+- Servië
 - Singapore
-- Slovakia
-- South Africa
-- South Korea
-- Spain
-- Sweden
-- Switzerland
+- Slowakije
+- Zuid-Afrika
+- Zuid-Korea
+- Spanje
+- Zweden
+- Zwitserland
 - Taiwan
-- Turkey
-- United Kingdom
-- United Arab Emirates
-- United States of America
-- Ukraine
+- Turkije
+- Verenigd Koninkrijk
+- Verenigde Arabische Emiraten
+- Verenigde Staten van Amerika
+- Oekraïne
 - Vietnam

@@ -3,13 +3,13 @@ title: Compatibilità con il Blocco AdGuard
 sidebar_position: 3
 ---
 
-AdGuard VPN ha due modalità operative: Generale e Integrata. General mode is enabled by default and uses [AdGuard VPN protocol](/general/adguard-vpn-protocol). Offre la migliore combinazione di velocità di connessione e sicurezza.
+AdGuard VPN ha due modalità operative: Generale e Integrata. La modalità generale è abilitata di default e utilizza il [protocollo di AdGuard VPN](/general/adguard-vpn-protocol). Offre la migliore combinazione di velocità di connessione e sicurezza.
 
 Tuttavia, questa modalità operativa non consente ad AdGuard VPN e al Blocco AdGuard di funzionare contemporaneamente.
 
 La modalità Integrata, a sua volta, utilizza il protocollo IPsec, che consente alle applicazioni AdGuard di lavorare insieme. Se disponi già di Blocco AdGuard durante l'installazione di AdGuard VPN, questa modalità si attiverà automaticamente e ti consentirà di utilizzare le nostre applicazioni contemporaneamente. Se prima hai installato AdGuard VPN e solo successivamente hai deciso di provare il Blocco AdGuard, segui questi passaggi per utilizzare due app insieme:
 
-1. Open AdGuard VPN for iOS and select "Settings" in the lower right corner of the screen.
+1. Apri AdGuard VPN per iOS e seleziona "Impostazioni" nell'angolo inferiore destro della schermata.
 
 2. Accedere a "Impostazioni dell'app" e selezionare "Modalità operativa".
 

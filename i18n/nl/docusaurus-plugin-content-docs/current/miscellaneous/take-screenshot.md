@@ -1,99 +1,99 @@
 ---
-title: 'How to take a screenshot'
+title: 'Hoe een schermafbeelding te maken'
 sidebar_position: 4
 ---
 
-Screenshot is a capture of your computer’s or mobile device’s screen, which can be obtained by using standard tools or a special program/app.
+Een schermafbeelding is een opname van het scherm van je computer of mobiele apparaat, die kan worden verkregen met standaard tools of een speciaal programma/app.
 
-Sometimes a screenshot (or screenshots) is required by support team to better understand the problem, and not everyone knows how to take screenshots, especially of a separate window or a specific screen area on their devices. If you recognize yourself as one of these users, don’t worry. This article will help you as it describes a range of ways to take screenshots on different platforms.
+Soms is een schermafbeelding (of -afbeeldingen) vereist door het ondersteuningsteam om het probleem beter te begrijpen, en niet iedereen weet hoe ze deze moeten maken, vooral van een apart venster of een specifiek schermgebied op hun apparaten. Als je jezelf herkent als een van deze gebruikers, maak je dan geen zorgen. Dit artikel zal je helpen omdat het een reeks manieren beschrijft om schermafbeeldingen te maken op verschillende platforms.
 
-## How to take a screenshot
+## Hoe een schermafbeelding te maken
 
-Here you will find all the necessary hotkeys you should know in order to take screenshots on your computer or mobile device.
+Hier vind je alle benodigde sneltoetsen die je moet kennen om schermafbeeldingen te maken op jouw computer of mobiele apparaat.
 
 ### Android
 
-Taking a screenshot on an Android device can be done in various ways — depending on the device model and its manufacturer.
+Een schermafbeelding maken op een Android-apparaat kan op verschillende manieren worden gedaan, afhankelijk van het apparaatmodel en de fabrikant.
 
-Generally, you should use the following button combination for Android:
+Over het algemeen moet je voor Android de volgende knoppencombinatie gebruiken:
 
-- **Hold down at once the *Volume Down* and the *Power* buttons for 1–2 seconds**
+- **Houd de knoppen *Volume omlaag* en *Aan/uit* tegelijkertijd 1-2 seconden ingedrukt**
 
-Your Android device will capture the entire screen and save it as a photo. So, you can find the screenshot in a Screenshots folder in your Gallery.
+Jouw Android-apparaat legt het volledige scherm vast en slaat het op als foto. Je kunt de schermafbeelding dus vinden in een map Schermafbeeldingen in je Galerij.
 
-But, as it has been already said, there can be differences depending on a particular device. Let’s look at other possible combinations:
+Maar zoals al is gezegd, kunnen er verschillen zijn, afhankelijk van een bepaald apparaat. Laten we eens kijken naar andere mogelijke combinaties:
 
-- **Hold down at once *Home* and *Power* buttons for 1–2 seconds;**
-- **Hold down at once the *Back* and the *Home* buttons**
+- **Houd de knoppen *Volume omlaag* en *Aan/uit* tegelijkertijd 1-2 seconden ingedrukt;**
+- **Houd de knoppen *Terug* en *Start* tegelijkertijd ingedrukt**
 
-On Android 8 and later there is also a possibility to take a screenshot by placing your hand vertically along the left or right edge of your phone and swiping in from that edge with your hand touching the screen.
+Op Android 8 en hoger is er ook een mogelijkheid om een schermafbeelding te maken door je hand verticaal langs de linker- of rechterrand van je telefoon te plaatsen en vanaf die rand naar binnen te vegen met je hand die het scherm raakt.
 
-If this method doesn’t work, check *Settings* → *Advanced features* → *Motions and gestures* → enable *Palm swipe to capture*.
+Als deze methode niet werkt, controleer dan *Instellingen* → *Geavanceerde functies* → *Bewegingen en gebaren* → inschakelen *Veeg met de handpalm om vast te leggen*.
 
-Besides, you can always use any special applications for taking screenshots on your devices, for example — *Screenshot Easy*, *Screenshot Ultimate*, *Screenshot Snap*, etc.
+Bovendien kun je altijd speciale toepassingen gebruiken om schermafbeeldingen op jouw apparaten te maken, bijvoorbeeld - *Screenshot Easy*, *Screenshot Ultimate*, *Screenshot Snap*, enz.
 
 ### iOS
 
-Any iOS device (barring ancient ones) lets you take a screenshot using standard tools.
+Met elk iOS-apparaat (behalve oude apparaten) kun je een schermafbeelding maken met standaardhulpmiddelen.
 
-To take a screenshot on an iOS device, use the following combination:
+Om een schermafbeelding te maken op een iOS-apparaat, gebruik je de volgende combinatie:
 
-- **Press the *Sleep/Wake* (side) button and the *Home* button at the same time, then quickly release them**
+- **Druk tegelijkertijd op de *Sleep/Wake* (zijkant)-knop en de *Home* knop en laat ze vervolgens snel los**
 
-and this one for iPhone X or later:
+en deze voor iPhone X of nieuwer:
 
-- **Press the *Sleep/Wake* button and the *Volume Up* button at the same time, then quickly release them**
+- **Druk tegelijkertijd op de knop *Sleep/Wake* en de knop *Volume omhoog* en laat ze vervolgens snel los**
 
-Your iOS device will capture the entire screen and save it as a photo. You can find it in a standard Photo app.
+Jouw iOS-apparaat legt het volledige scherm vast en slaat het op als foto. Je vindt het in een standaard Foto-app.
 
 ### Windows
 
-- **To take a screenshot on Windows, press the *PrtScn* button**
+- **Om in Windows een schermafbeelding te maken, druk je op de knop *PrtScn***
 
-On some notebooks you have to hold *Fn* and then press *PrtScn* instead.
+Op sommige notebooks moet je *Fn* ingedrukt houden en vervolgens op *PrtScn* drukken.
 
-*Please note: PrtScn (Print Screen) button can be differently abbreviated on various keyboards — PrntScrn, PrtScn, PrtScr or PrtSc.*
+*Let op: de knop PrtScn (Print Screen) kan op verschillende toetsenborden verschillend worden afgekort: PrntScrn, PrtScn, PrtScr of PrtSc.*
 
-Windows captures the entire screen and copies it to the (invisible) clipboard.
+Windows legt het volledige scherm vast en kopieert dit naar het (onzichtbare) klembord.
 
-To take a screenshot of an active window, use the following combination:
+Gebruik de volgende combinatie om een schermafbeelding van een actief venster te maken:
 
-- **Hold down *Alt* and press *PrtScn* (or *Fn + Alt + PrtScn* on some laptops)**
+- **Houd *Alt* ingedrukt en druk op *PrtScn* (of *Fn + Alt + PrtScn* op sommige laptops)**
 
-To take a screenshot of a specific area, you should use the following combination:
+Om een schermafbeelding van een specifiek gebied te maken, moet je de volgende combinatie gebruiken:
 
-- ***Hold down *Win* (the Windows button) and *Shift* and press ***S******
+- ***Houd *Win* (de Windows-knop) en *Shift* ingedrukt en druk op ***S******
 
-After you take a screenshot, it will be saved in the clipboard. In most cases you will be able to paste it into a document that you are currently editing by using *Ctrl + V* button combination. Alternatively, if you need to save the screenshot into a file, you should open the standard **Paint** program (or any other app that can work with images). Paste your screenshot there using the same button combination or by clicking the Paste button (usually in the top left corner of the screen) and then save it.
+Nadat je een schermafbeelding hebt gemaakt, wordt deze opgeslagen op het klembord. In de meeste gevallen kun je het in een document plakken dat je momenteel aan het bewerken bent door de knopcombinatie *Ctrl + V* te gebruiken. Als alternatief, als je de schermafbeelding in een bestand wilt opslaan, kun je het standaard **Paint** -programma openen (of een andere app die met afbeeldingen kan werken). Plak je schermafbeelding daar met dezelfde knoppencombinatie of door op de knop Plakken te klikken (meestal in de linkerbovenhoek van het scherm) en sla deze vervolgens op.
 
-Windows 8 and 10 let you take a screenshot very quickly with a *Win + PrtScn* combination. As soon as you press these buttons, the screenshot will be automatically saved as a file to your Pictures → Screenshots Folder.
+Met Windows 8 en 10 kun je heel snel een schermafbeelding maken met een combinatie van *Win + PrtScn*. Zodra je op deze knoppen drukt, wordt de schermafbeelding automatisch opgeslagen als bestand in jouw map Afbeeldingen → Schermafbeeldingen.
 
-There is also a dedicated program for taking screenshots called *Snipping Tool* that you can find via Start menu among standard programs of your computer. Snipping Tool lets you capture of any area of your desktop or the entire screen. After taking a screenshot using this program you can edit the picture and save it to any folder on your computer.
+Er is ook een speciaal programma voor het maken van schermafbeeldingen genaamd *Knippen en aantekenen* dat je kunt vinden via het Start-menu tussen de standaardprogramma's van je computer. Met het Knippen en aantekenen-programma kun je elk deel van jouw bureaublad of het hele scherm vastleggen. Nadat je met dit programma een schermafbeelding hebt gemaakt, kun je de afbeelding bewerken en opslaan in een map op je computer.
 
-Besides, you can also try using different apps for taking screenshots on your computer, like **PicPick**, **Nimbus Screenshot**, **Screenshot Captor**, **Snipaste**, **Monosnap**, etc.
+Bovendien kun je ook proberen verschillende apps te gebruiken voor het maken van schermafbeeldingen op jouw computer, zoals **PicPick**, **Nimbus Screenshot**, **Screenshot Captor**, **Snipaste**, **Monosnap**, enz.
 
 ### macOS
 
-To take a screenshot on Mac, use the following button combination:
+Om een schermafbeelding te maken op een Mac, gebruik je de volgende knoppencombinatie:
 
-- ***Press and hold together ***⌘ Cmd + Shift + 3******
+- ***Houd ***⌘ Cmd + Shift + 3***samen ingedrukt***
 
-Your Mac will capture the entire screen and save it as a file on the desktop.
+Je Mac legt het volledige scherm vast en slaat dit op als een bestand op het bureaublad.
 
-To take a screenshot of an active window, use the following combination:
+Gebruik de volgende combinatie om een schermafbeelding van een actief venster te maken:
 
-- **Press and hold together *⌘ Cmd + Shift + 4 + Space bar*.  The pointer will change to a camera icon. Click the window to capture it. Press the Esc button to cancel taking a screenshot**
+- **Houd samen ingedrukt *⌘ Cmd + Shift + 4 + Spatiebalk*.  De aanwijzer verandert in een camerapictogram. Klik op het venster om het vast te leggen. Druk op de Esc-knop om het maken van een schermafbeelding te annuleren**
 
-To take a screenshot of a specific area, you should use the following combination:
+Om een schermafbeelding van een specifiek gebied te maken, moet je de volgende combinatie gebruiken:
 
-- ***Press and hold together ***⌘ Cmd + Shift + 4******. Drag the crosshair to select the needed area. Release your mouse or trackpad to take a screenshot, press the Esc button to cancel it.
+- ***Samen ingedrukt houden ***⌘ Cmd + Shift + 4******. Sleep het dradenkruis om het gewenste gebied te selecteren. Laat je muis of trackpad los om een schermafbeelding te maken, druk op de Esc-knop om deze te annuleren.
 
-To take a screenshot of the *Touch Bar* (MacBook Pro) use the following combination:
+Om een schermafbeelding te maken van de *Touch Bar* (MacBook Pro) gebruik je de volgende combinatie:
 
-- ***Hold down ***⌘ Cmd + Shift + 6******
+- ***Houd ***⌘ Cmd + Shift + 6***ingedrukt***
 
-Your Mac captures the entire *Touch Bar* and saves it as a file on the desktop.
+Je Mac legt de volledige *Touch Bar* vast en slaat deze op als een bestand op het bureaublad.
 
-To copy a screenshot to the clipboard instead of saving it, hold down *Ctrl* together with any of the combinations above. Then you can paste the screenshot (from the clipboard) into a document or an image you are currently editing by using *Cmd + V* combination.
+Om een schermafbeelding naar het klembord te kopiëren in plaats van deze op te slaan, houd je *Ctrl* ingedrukt samen met een van de bovenstaande combinaties. Vervolgens kun je de schermafbeelding (van het klembord) plakken in een document of afbeelding die je aan het bewerken bent met de combinatie *Cmd + V*.
 
-You can also take screenshots by using **Preview** and choosing **Take screenshot** (of the selected area, window, or the entire screen). With **Preview** you can save your screenshots in JPG, TIFF, PDF, and other file formats.
+Je kunt ook schermafbeeldingen maken door **Voorbeeld** te gebruiken en **Schermafbeelding maken** te kiezen (van het geselecteerde gebied, venster of het hele scherm). Met **Voorbeeld** kun je je schermafbeeldingen opslaan in JPG, TIFF, PDF en andere bestandsindelingen.

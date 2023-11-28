@@ -38,7 +38,12 @@ Hay dos modos: en el modo *General* se excluyen los sitios de la lista de exclus
 Puedes agregar dominios (p. ej., `google.com`) o subdominios (p. ej., `*.google.com`) de sitios web a las *Exclusiones* de tres maneras: ingrésalos manualmente en la aplicación o directamente desde el navegador haciendo clic en el *Comparta el botón* y selecciona AdGuard VPN en la lista abierta a continuación, o en las listas integradas de servicios divididas por categorías.
 
 ![Exclusiones](https://cdn.adguardvpn.com/public/Adguard/kb/VPN/Screenshots/add_site_android.jpg)
-> Hay algunos detalles para la adición manual de dominios. Por ejemplo, si excluyes manualmente el dominio `yahoo.com`, todos los subdominios `*.yahoo.com` también se añadirán a la lista de exclusiones. Sin embargo, no se excluirán los nombres de dominio con otros dominios de nivel superior, como `yahoo.jp` o `yahoo.fr`. O puedes añadir `youtube.com` a las exclusiones, pero el dominio del mismo servicio `youtu.be` no se incluirá en la lista. En este caso, es más seguro usar listas de servicios integradas, porque ponemos todos los subdominios relacionados con cada plataforma.
+
+:::note
+
+Hay algunos detalles para la adición manual de dominios. Por ejemplo, si excluyes manualmente el dominio `yahoo.com`, todos los subdominios `*.yahoo.com` también se añadirán a la lista de exclusiones. Sin embargo, no se excluirán los nombres de dominio con otros dominios de nivel superior, como `yahoo.jp` o `yahoo.fr`. O puedes añadir `youtube.com` a las exclusiones, pero el dominio del mismo servicio `youtu.be` no se incluirá en la lista. En este caso, es más seguro usar listas de servicios integradas, porque ponemos todos los subdominios relacionados con cada plataforma.
+
+:::
 
 Como puedes habilitar subdominios en las listas de servicios, agregamos cuadros que reflejan el estado de cada servicio. Puedes verlos en la pantalla principal de *Exclusiones* a la izquierda de cada nombre de servicio:**totalmente habilitado** está marcado con una verificación blanca sobre fondo verde, **totalmente deshabilitado** — con un cuadro gris y **parcialmente habilitado**, lo que significa que se cambiaron uno o más parámetros, con un cuadrado verde sobre fondo blanco. Buenas noticias: siempre puedes volver a la vista predeterminada de las listas de servicios en caso de que hayas eliminado o deshabilitado algún dominio desde allí.
 
@@ -97,11 +102,21 @@ En la página *Configuración avanzada*, puedes encontrar cinco secciones. Puede
 
 La sección*Modo de funcionamiento* te permite elegir una de tres opciones: VPN, Proxy y Modo de compatibilidad. En el *modo VPN*, todo el tráfico se enruta a través de AdGuard VPN automáticamente. Cuando el modo *Proxy* (SOCKS5) está activado, AdGuard VPN ejecuta un servidor proxy local que otras aplicaciones pueden utilizar para enrutar su tráfico. Elija esta opción solo si sabes lo que está haciendo. El *Modo de Compatibilidad* habilitado permite que AdGuard VPN y AdGuard Ad Blocker funcionen juntos.
 
-> Tenga en cuenta que algunas funciones de AdGuard VPN están deshabilitadas en *Modo de compatibilidad*: selección de servidor DNS, Kill Switch y Auto-protección. Además, para gestionar la tunelización de aplicaciones, debe abrir la aplicación AdGuard Ad Blocker.
+:::note
+
+Some AdGuard VPN features are disabled in *Compatibility mode*: DNS server selection, Kill Switch and Auto-protection. Además, para gestionar la tunelización de aplicaciones, debe abrir la aplicación AdGuard Ad Blocker.
+
+:::
 
 Las dos secciones siguientes son *Nivel de registro* y *Información de diagnóstico*. En cuanto a la primera opción, no se recomienda activar el nivel de registro Ampliado o Extremo a menos que lo solicite nuestro equipo de soporte. Se nos puede enviar información de diagnóstico y información técnica almacenada localmente sobre el dispositivo y las conexiones (dirección IP, ID, ping, etc.), en caso de cualquier problema técnico.
 
 La última sección de *Configuración avanzada* es *Configuración de bajo nivel*. Le recomendamos que no ingrese a esta sección a menos que esté altamente calificado o nuestro equipo de soporte se lo haya pedido. Aquí es posible habilitar el registro de la interfaz TUN o el protocolo IPv6 en la interfaz VPN, elegir un puerto de servidor proxy o la versión del protocolo de Internet que se debe usar.
+
+:::note Compatibility
+
+The *Enable IPv6* option is only available for networks that support IPv6.
+
+:::
 
 ### Asistencia técnica
 

@@ -5,7 +5,7 @@ sidebar_position: 5
 
 *E-postamı Gizle* özelliği, iOS için AdGuard gibi Apple kimliğini kullanan sitelere ve uygulamalara kaydolurken gerçek e-posta adresinizi gizli tutmak için harika bir araçtır. Özel yazışmalar için bile kullanabilir ve gelen tüm mesajları normal bir e-posta hesabında yaptığınız gibi yönetebilirsiniz. Bu şekilde, gizliliğinizi koruyabilir ve gerçek e-posta adresinizi meraklı gözlerden uzak tutabilirsiniz.
 
-:::not
+:::note
 
 Bu özellik yalnızca iOS 15 ve üzeri sürümlerde mevcuttur ve iCloud+ aboneliği gerektirir.
 

@@ -1,18 +1,18 @@
 ---
-title: Usage issues with subscriptions purchased via the App Store
+title: Problemi di utilizzo con gli abbonamenti acquistati tramite l'App Store
 sidebar_position: 4
 ---
 
-Some users can't use their AdGuard VPN subscription purchased through the App Store. This issue may occur in two cases:
+Alcuni utenti non possono utilizzare il proprio abbonamento ad AdGuard VPN acquistato tramite l'App Store. Questo problema potrebbe verificarsi in due casi:
 
-- if you use a different account for App Store purchases
-- or if you have hidden your email address from app developers
+- se utilizzi un profilo differente per gli acquisti dell'App Store
+- o se hai nascosto il tuo indirizzo email agli sviluppatori dell'app
 
-To solve this problem, please follow these steps:
+Per risolvere questo problema, ti preghiamo di seguire questi passaggi:
 
-1. Go to Settings → Apple ID → iTunes & App Store → View Apple ID
-1. Make sure that the email address matches the one you use for your Apple ID
-1. If the email addresses do not match, please email to `support@adguard.com`: describe your problem and provide us with the address used for the App Store
-1. If the email addresses match, navigate to Apple ID → iCloud → Hide My Email, find our app in the list, copy the email address, and send it to `support@adguard.com` along with your problem description. Usually, it ends with "@privaterelay.appleid.com"
+1. Vai in Impostazioni → Apple ID → iTunes e App Store → Visualizza Apple ID
+1. Assicurati che l'indirizzo email corrisponda a quello che utilizzi per il tuo Apple ID
+1. Se gli indirizzi email non corrispondono, ti preghiamo di inviare un'email a `support@adguard.com`: descrivi il tuo problema e forniscici l'indirizzo utilizzato per l'App Store
+1. Se gli indirizzi email corrispondono, naviga ad Apple ID → iCloud → Nascondi la mia email, trova la nostra app nell'elenco, copia l'indirizzo email e invialo a `support@adguard.com` insieme alla descrizione del tuo problema. Solitamente, termina per "@privaterelay.appleid.com"
 
-Once the support team has the email address you used for the purchase, they'll transfer your subscription to the correct account and you'll be able to start using it. Or they may ask for additional information. You can provide the support team with your Apple purchase receipt to help speed up the process.
+Una volta che il team di supporto avrà l'indirizzo email che hai utilizzato per l'acquisto, trasferirà il tuo abbonamento al profilo corretto e potrai iniziare a utilizzarlo. Altrimenti, potrebbero chiedere ulteriori informazioni. Puoi fornire al team di supporto la tua ricevuta d'acquisto di Apple per aiutare a velocizzare il procedimento.

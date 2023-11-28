@@ -21,7 +21,7 @@ Bazı güvenlik tarama web siteleri, kullanıcının IP adresi ile DNS sunucusun
 
 Cihazınızda AdGuard VPN'i etkinleştirir ve tarayıcı sitelerinden herhangi birini kontrol ederseniz, DNS sorgularının [AdGuard DNS](https://adguard-dns.io) sunucularına gittiğini tespit eder. Ancak bu bir sızıntı olarak kabul edilemez.
 
-Filtrelemeyen bir AdGuard DNS sunucusu kullanmak, AdGuard VPN'de varsayılan olarak ayarlanır. Bu, sorgularınızın İSS'nizin DNS sunucularına gitmemesini sağlar, bu da çevrimiçi olarak gizli ve anonim kalmanız anlamına gelir.
+Non-filtering bir AdGuard DNS sunucusu kullanmak, AdGuard VPN'de varsayılan olarak ayarlanır. Bu, sorgularınızın İSS'nizin DNS sunucularına gitmemesini sağlar, bu da çevrimiçi olarak gizli ve anonim kalmanız anlamına gelir.
 
 Dahası, AdGuard DNS, 50 milyondan fazla kişi tarafından kullanılan çok popüler bir DNS hizmetidir. Bu sizin için ne anlama geliyor? Şu durumu hayal edin: normal VPN hizmeti, VPN sunucusuyla aynı IP adresinde bulunan DNS sunucusunu kullanır. Kullanıcı sayısı neredeyse 1.000'i geçmiyor.
 

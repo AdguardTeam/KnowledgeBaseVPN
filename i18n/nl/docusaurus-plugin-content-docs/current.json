@@ -44,7 +44,7 @@
     "description": "The label for category AdGuard VPN browser extensions in sidebar sidebar"
   },
   "sidebar.sidebar.category.solving-problems": {
-    "message": "solving-problems",
+    "message": "problemen oplossen",
     "description": "The label for category solving-problems in sidebar sidebar"
   }
 }

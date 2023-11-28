@@ -38,7 +38,12 @@ Il existe deux modes : en *Mode général* les sites de la liste des exclusions 
 Vous pouvez ajouter des domaines (par exemple `google.com`) ou des sous-domaines (par exemple `*.google.com`) de sites web aux *exclusions* de trois manières : saisissez-les manuellement dans l'application ou directement depuis le navigateur en cliquant sur le bouton *Partager* et en sélectionnant AdGuard VPN dans la liste déroulante ci-dessous, soit dans les listes integrées de services triées par catégories.
 
 ![Exclusions](https://cdn.adguardvpn.com/public/Adguard/kb/VPN/Screenshots/add_site_android.jpg)
-> Il y a quelques nuances dans le processus d'ajout manuel de domaines. Par exemple, si vous excluez manuellement le domaine `yahoo.com`, les `sous-domaines *.yahoo.com` seront également répertoriés dans les exclusions. Toutefois, les noms de domaine avec d'autres domaines de premier niveau, tels que `yahoo.jp` ou `yahoo.fr`, ne seront pas exclus. Ou vous pouvez ajouter `youtube.com` aux exclusions, mais le domaine du même service `youtu.be` n'entrera pas dans la liste. Dans ce cas-là c'est plus sécuritaire d'utiliser les listes de services intégrées, car nous y plaçons tous les sous-domaines liés à chaque plate-forme.
+
+:::note
+
+Il y a quelques nuances dans le processus d'ajout manuel de domaines. Par exemple, si vous excluez manuellement le domaine `yahoo.com`, les `sous-domaines *.yahoo.com` seront également répertoriés dans les exclusions. Toutefois, les noms de domaine avec d'autres domaines de premier niveau, tels que `yahoo.jp` ou `yahoo.fr`, ne seront pas exclus. Ou vous pouvez ajouter `youtube.com` aux exclusions, mais le domaine du même service `youtu.be` n'entrera pas dans la liste. Dans ce cas-là c'est plus sécuritaire d'utiliser les listes de services intégrées, car nous y plaçons tous les sous-domaines liés à chaque plate-forme.
+
+:::
 
 Puisque vous pouvez activer les sous-domaines dans les listes de services, nous avons ajouté des cases qui reflètent le statut de chaque service - vous pouvez les voir sur l'écran principal des *Exclusions* à gauche du nom de chaque service : le statut **entièrement activé** est marqué par une coche blanche sur fond vert, **entièrement désactivé** - avec une case grise, et **partiellement activé**, ce qui signifie qu'un ou plusieurs paramètres ont été modifiés - avec un carré vert sur fond blanc. Bonne nouvelle : vous pouvez toujours revenir à la vue par défaut des listes de services au cas où vous auriez supprimé ou désactivé des domaines à partir de là.
 
@@ -97,11 +102,21 @@ Dans les *Paramètres avancés*, vous trouverez cinq sections. Vous pouvez *nous
 
 La section *Mode de fonctionnement* vous permet de choisir l'une des trois options suivantes : VPN, Proxy, et mode Compatibilité. En *mode VPN* tout le trafic est automatiquement acheminé via AdGuard VPN. When the *Proxy mode* (SOCKS5) is on, AdGuard VPN runs a local proxy server which can be used by other apps to route their traffic through it. Choisissez cette option uniquement si vous savez ce que vous faites. *Le mode de compatibilité* actif permet à AdGuard VPN et au Bloqueur AdGuard de fonctionner ensemble.
 
-> Veuillez noter que certaines fonctionnalités du VPN AdGuard sont désactivées en *Mode de compatibilité* : sélection du serveur DNS, Kill Switch et protection automatique. En outre, pour gérer le tunnelage des applications, vous devez ouvrir l'application Bloqueur de AdGuard.
+:::note
+
+Some AdGuard VPN features are disabled in *Compatibility mode*: DNS server selection, Kill Switch and Auto-protection. En outre, pour gérer le tunnelage des applications, vous devez ouvrir l'application Bloqueur de AdGuard.
+
+:::
 
 Les deux sections suivantes sont *Niveau de journalisation* et *Informations diagnostiques*. Concernant la première option, il n'est pas recommandé d'activer le niveau de journalisation étendu ou extrême, sauf par demande de notre équipe de support. Des informations de diagnostic, des informations techniques stockées localement sur l'appareil et les connexions (adresse IP, ID, ping, etc.), peuvent nous être envoyées en cas de problème technique.
 
 La dernière section des *Paramètres avancés* est *Paramètres de bas niveau*. Nous vous conseillons de ne pas accéder à cette section, sauf si vous êtes hautement qualifié ou si notre équipe d'assistance vous l'a demandé. Ici vous pouvez activer la journalisation de l'interface TUN ou le protocole IPv6 sur l'interface VPN, choisir un port de serveur proxy ou une version de protocole Internet à utiliser.
+
+:::note Compatibility
+
+The *Enable IPv6* option is only available for networks that support IPv6.
+
+:::
 
 ### Assistance
 

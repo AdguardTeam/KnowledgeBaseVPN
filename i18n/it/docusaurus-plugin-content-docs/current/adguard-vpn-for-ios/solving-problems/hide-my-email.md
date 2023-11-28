@@ -1,20 +1,20 @@
 ---
-title: How to use Hide My Email
+title: Come utilzzare Nascondi la mia email
 sidebar_position: 5
 ---
 
-The *Hide My Email* feature is a great tool to keep your real email address private when signing up for websites and apps that use Apple ID, such as AdGuard for iOS. You can even use it for private correspondence and manage all incoming messages just as you would with a regular email account. This way, you can protect your privacy and keep your real email address hidden from prying eyes.
+La funzionalità *Nascondi la mia email* è un ottimo strumnto per mantenere privato il tuo indirizzo email reale all'iscrizione sui siti web e alle app che utilizzano l'Apple ID, come AdGuard per iOS. Puoi persino utilizzarla per la corrispondenza privata e per gestire tutti i messaggi in entrata, proprio come faresti con un profilo email regolare. Così, puoi proteggere la tua privacy e mantenere il tuo indirizzo email nascosto da occhi indiscreti.
 
 :::note
 
-The feature is only available for iOS 15 and higher and requires an iCloud+ subscription.
+La funzionalità è disponibile soltanto per iOS 15 e superiori e richiede un abbonamento a iCloud+.
 
 :::
 
-To use this feature, go to *Settings* → [Your name] → *iCloud* → *Hide My Email* and follow the on-screen instructions.
+Per utilizzare questa funzionalità, vai in *Impostazioni* → [Il tuo nome] → *iCloud* → *Nascondi la mia email* e segui le istruzioni visualizzate a schermo.
 
-You can generate a unique and random email address that forwards incoming messages to your actual address. It might look like this: chimney-floture@privaterelay.appleid.com. There is no explicit limit to the number of emails that can be created. You can categorize them with labels and use each one for different purposes: signing up, receiving newsletters, etc. Apple ensures that the content of messages that pass through the *Hide My Email* service is not inspected, except for standard spam filtering.
+Puoi generare un indirizzo email casuale e univoco che inoltri i messaggi in entrata al tuo indirizzo reale. Potrebbe somigliare a questo: chimney-floture@privaterelay.appleid.com. Non esiste un limite esplicito per il numero di email che possono essere create. Puoi classificarli con etichette e utilizzare ognuno di essi per scopi differenti: iscrizioni, ricezione di newsletter, etc. Apple si assicura che i contenuti dei messaggi che passano per il servizio *Nascondi la mia email* non siano ispezionati, tranne che per il filtraggio antispam standard.
 
-The *Hide My Email* feature is also available in Apple Mail. To send an email without disclosing your real email address, simply select *Hide My Email* in the *From* field when composing your message.
+La funzionalità *Nascondi la mia email* è disponibile anche su Apple Mail. Per inviare un'email senza rivelare il tuo indirizzo email reale, basta selezionare *Nascondi la mia email* nel campo *Da*, durante la composizione del tuo messaggio.
 
-The *Email Protection* service by DuckDuckGo works in a similar way. You get a `@duck.com` email address and can create email aliases for sign ups and newsletters. If these aliases begin to attract too much spam, they can be easily discarded.
+Il servizio di *Protezione Email* di DuckDuckGo funziona in modo simile. Ottiieni un indirizzo email `@duck.com` e potrai creare degli aliasi email per le iscrizioni e le newsletter. Se questi alias iniziano ad attirare troppo spam, potranno essere facilmente scartati.

@@ -11,10 +11,10 @@ Chcete-li se stát beta testerem AdGuard VPN, potřebujete pouze několik věcí
 
 ### Jak nahlásit chybu
 
-Představme si, že se to stalo — objevili jste chybu. Nebo se jen chcete podělit o svůj nápad s vývojáři? Let us know: go to [GitHub](https://github.com/AdguardTeam/), find a suitable repository, create a new issue there, and describe the bug/feature request in detail.
+Představme si, že se to stalo — objevili jste chybu. Nebo se jen chcete podělit o svůj nápad s vývojáři? Dejte nám vědět: přejděte na [GitHub](https://github.com/AdguardTeam/), najděte vhodný repozitář, vytvořte tam nový problém a podrobně popište požadavek na chybu/funkci.
 
-The above method is the most preferred, but you can use others if necessary:
+Výše uvedená metoda je nejvhodnější, ale v případě potřeby můžete použít i jiné:
 
-- Find us on various social media platforms, like [Facebook](https://www.facebook.com/AdguardEn/), [Reddit](https://www.reddit.com/r/Adguard/), etc. However, this is not the most efficient way to discuss technical matters.
+- Najdete nás na různých platformách sociálních médií, např. [Facebook](https://www.facebook.com/AdguardEn/), [Reddit](https://www.reddit.com/r/Adguard/) atd. To však není nejefektivnější způsob, jak diskutovat o technických záležitostech.
 
-- Email our support team from the Support tab in the app or write directly to [support@adguard.com](mailto:support@adguard.com).
+- Pošlete e-mail našemu týmu podpory z karty Podpora v aplikaci nebo napište přímo na adresu [support@adguard.com](mailto:support@adguard.com).

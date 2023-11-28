@@ -38,7 +38,12 @@ Der findes to tilstande: I *Generel tilstand* er websteder fra undtagelseslisten
 Der kan føjes domæner (f.eks. `google.com`) eller underdomæner (f.eks. `*.google.com`) for websteder til *Undtagelser* på tre måder: Angiv dem manuelt i appen, direkte fra browseren ved at klikke på knappen *Del* og vælge AdGuard VPN på den liste, der åbnes nedenfor eller fra de indbyggede lister over tjenester opdelt efter kategorier.
 
 ![Undtagelser](https://cdn.adguardvpn.com/public/Adguard/kb/VPN/Screenshots/add_site_android.jpg)
-> Der er nogle nuancer i manuel tilføjelse af domæner. Undtager man f.eks. manuelt domænet `yahoo.com`, vil alle `*.yahoo.com` underdomæner også blive opført i Undtagelser. Domænenavne med andre topniveaudomæner, såsom `yahoo.jp` eller `yahoo.fr`, undtages dog ikke. Eller man kan tilføje `youtube.com` til Undtagelser, mens domænet for samme tjeneste, `youtu.be`, ikke opføres på listen. I så tilfælde er det mere sikkert at bruge indbyggede lister over tjenester, fordi vi her placerer alle underdomæner relateret til hver platform.
+
+:::note
+
+Der er nogle nuancer i manuel tilføjelse af domæner. Undtager man f.eks. manuelt domænet `yahoo.com`, vil alle `*.yahoo.com` underdomæner også blive opført i Undtagelser. Domænenavne med andre topniveaudomæner, såsom `yahoo.jp` eller `yahoo.fr`, undtages dog ikke. Eller man kan tilføje `youtube.com` til Undtagelser, mens domænet for samme tjeneste, `youtu.be`, ikke opføres på listen. I så tilfælde er det mere sikkert at bruge indbyggede lister over tjenester, fordi vi her placerer alle underdomæner relateret til hver platform.
+
+:::
 
 Da underdomæner kan aktiveres i tjenestelisterne, har vi tilføjet felter, som afspejler status for hver tjeneste — disse kan ses på hovedskærmen for *Undtagelser* til venstre for hvert tjenestenavn: Status **Fuldt aktiveret** er markeret med et hvidt flueben på grøn baggrund, **Fuldt deativeret** med et gråt felt, og **Delvist aktiveret**, hvilket betyder, at en eller flere parametre blev ændret, med en grøn firkant på hvid baggrund. Gode nyheder: Man kan altid vende tilbage til standardvisningen for tjenestelister, hvis man har slettet eller deaktiveret domæner derfra.
 
@@ -97,11 +102,21 @@ I *Avancerede indstillinger* findes fem afsnit. Du kan *Hjælpe os med at blive 
 
 Afsnittet *Driftstilstand* muliggør at vælge en af tre muligheder: VPN, Proxy og Kompatibilitetstilstand. I *VPN-tilstand* rutes al trafik automatisk igennem AdGuard VPN. Når *Proxytilstand* (SOCKS5) er aktiv, kører AdGuard VPN en lokal proxyserver, igennem hvilken trafik fra andre apps kan rutes. Man bør kun vælge denne indstilling, såfremt man ved, hvad man foretager sig. Aktiv *Kompatibilitetstilstand* lader AdGuard VPN og AdGuard Ad Blocker samarbejde.
 
-> Bemærk venligst, at i *Kompatibilitetstilstand* er flg. AdGuard VPN-funktioner deaktiveret: DNS-servervalg, Kill Switch og Auto-beskyttelse. For at håndtere app-tunneling, skal AdGuard Ad Blocker-appen åbnes.
+:::note
+
+Some AdGuard VPN features are disabled in *Compatibility mode*: DNS server selection, Kill Switch and Auto-protection. For at håndtere app-tunneling, skal AdGuard Ad Blocker-appen åbnes.
+
+:::
 
 De næste to afsnit er *Logningsniveau* og *Diagnostisk info*. Mht. den første mulighed anbefales det ikke at aktivere logningsniveauerne Udvidet eller Ekstrem, medmindre vores supportteam anmoder herom. Diagnostisk info, lokalt gemt teknisk information om enheden og forbindelser (IP-adresse, ID, ping mv.) kan indsendes til os i tilfælde af tekniske problemer.
 
 Det sidste afsnit under *Avancerede indstillinger* er *Lavniveauindstillinger*. Vi opfordrer til ikke at tilgå dette afsnit, medmindre man er højt kvalificeret eller er blevet anmodet herom af vores supportteam. Her er det muligt at aktivere TUN-grænsefladelogning eller IPv6-protokol på VPN-grænsefladen, vælge proxyserverporten eller internetprotokolversionen, der skal bruges.
+
+:::note Compatibility
+
+The *Enable IPv6* option is only available for networks that support IPv6.
+
+:::
 
 ### Support
 

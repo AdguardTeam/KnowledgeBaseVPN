@@ -38,7 +38,12 @@ Es gibt zwei Modi: Im *Allgemeinen Modus* werden Sites von der Ausschlussliste a
 Sie können Domains (z. B. `google.com`) oder Subdomains (z. B. `*.google.com`) von Websites zu den *Ausschlüssen* auf drei Arten hinzufügen: Geben Sie sie manuell in der App oder direkt im Browser ein, indem Sie auf die Schaltfläche *Teilen* klicken, und wählen Sie AdGuard VPN in der geöffneten Liste unten aus oder aus integrierten Listen von Diensten, die nach Kategorien unterteilt sind.
 
 ![Ausschlüsse](https://cdn.adguardvpn.com/public/Adguard/kb/VPN/Screenshots/add_site_android.jpg)
-> Beim manuellen Hinzufügen von Domains gibt es einige Nuancen. Wenn Sie beispielsweise die Domains `yahoo.com` manuell ausschließen, werden alle `*.yahoo.com` Subdomains ebenfalls in den Ausschlüssen aufgeführt. Domainnamen mit anderen Top-Level-Domains wie `yahoo.jp` oder `yahoo.fr` werden jedoch nicht ausgeschlossen. Oder Sie können `youtube.com` zu den Ausschlüssen hinzufügen, aber die Domain desselben Dienstes `youtu.be` wird nicht in die Liste aufgenommen. In diesem Fall ist es sicherer, integrierte Dienstlisten zu verwenden, da wir dort alle Subdomains für jede Plattform ablegen.
+
+:::note
+
+Beim manuellen Hinzufügen von Domains gibt es einige Nuancen. Wenn Sie beispielsweise die Domains `yahoo.com` manuell ausschließen, werden alle `*.yahoo.com` Subdomains ebenfalls in den Ausschlüssen aufgeführt. Domainnamen mit anderen Top-Level-Domains wie `yahoo.jp` oder `yahoo.fr` werden jedoch nicht ausgeschlossen. Oder Sie können `youtube.com` zu den Ausschlüssen hinzufügen, aber die Domain desselben Dienstes `youtu.be` wird nicht in die Liste aufgenommen. In diesem Fall ist es sicherer, integrierte Dienstlisten zu verwenden, da wir dort alle Subdomains für jede Plattform ablegen.
+
+:::
 
 Da Sie Subdomains in Dienstlisten aktivieren können, haben wir Kästchen hinzugefügt, die den Status jedes Dienstes widerspiegeln – Sie können sie auf dem Hauptbildschirm von *Ausschlüssen* links neben jedem Dienstnamen sehen. Der Status **vollständig aktiviert** ist mit einem weißen Häkchen auf grünem Hintergrund gekennzeichnet, **vollständig deaktiviert** – mit einem grauen Kästchen und **teilweise aktiviert**, was bedeutet, dass ein oder mehrere Parameter geändert wurden – mit einem grünen Quadrat auf weißem Hintergrund. Gute Nachrichten: Sie können jederzeit zur Standardansicht der Dienstlisten zurückkehren, falls Sie dort Domains gelöscht oder deaktiviert haben.
 
@@ -97,11 +102,21 @@ In den *Erweiterten Einstellungen* finden Sie fünf Abschnitte. Sie können *AdG
 
 *Betriebsmodus* ermöglicht Ihnen die Auswahl einer von drei Optionen: VPN-, Proxy- und Kompatibilitätsmodus. Im *VPN-Modus* wird der gesamte Datenverkehr automatisch durch AdGuard VPN geleitet. Wenn der *Proxy-Modus* (SOCKS5) aktiviert ist, führt AdGuard VPN einen lokalen Proxy-Server aus, der von anderen Apps verwendet werden kann, um ihren Datenverkehr darüber zu leiten. Wählen Sie diese Option nur, wenn Sie wissen, was Sie tun. Aktivierter *Kompatibilitätsmodus* ermöglicht die Zusammenarbeit von AdGuard VPN und AdGuard Werbeblocker.
 
-> Bitte beachten Sie, dass einige AdGuard VPN-Funktionen im *Kompatibilitätsmodus* deaktiviert sind: DNS-Server-Auswahl, Kill Switch und Auto-Schutz. Um das Anwendungstunneling zu verwalten, sollten Sie außerdem AdGuard Werbeblocker öffnen.
+:::note
+
+Some AdGuard VPN features are disabled in *Compatibility mode*: DNS server selection, Kill Switch and Auto-protection. Um das Anwendungstunneling zu verwalten, sollten Sie außerdem AdGuard Werbeblocker öffnen.
+
+:::
 
 Die nächsten beiden Abschnitte sind *Protokollierungsebene* und *Diagnosedaten*. In Bezug auf die erste Option wird nicht empfohlen, die erweiterte Protokollierungsebene zu aktivieren, es sei denn, dies wird von unserem Support-Team angefordert. Diagnosedaten, lokal gespeicherte technische Informationen über das Gerät und Verbindungen (IP-Adresse, ID, Ping usw.), können bei technischen Problemen an uns gesendet werden.
 
 Der letzte Abschnitt von *Erweiterten Einstellungen* ist *Low-Level-Einstellungen*. Wir bitten Sie dringend, die Einstellungen in diesem Abschnitt nicht zu ändern, es sei denn, Sie sind hochqualifiziert oder wurden von unserem Support-Team dazu aufgefordert. Hier ist es möglich, die TUN-Schnittstellenprotokollierung oder das IPv6-Protokoll auf der VPN-Schnittstelle zu aktivieren, einen Proxy-Server-Port oder eine zu verwendende Internetprotokollversion auszuwählen.
+
+:::note Compatibility
+
+The *Enable IPv6* option is only available for networks that support IPv6.
+
+:::
 
 ### Support
 

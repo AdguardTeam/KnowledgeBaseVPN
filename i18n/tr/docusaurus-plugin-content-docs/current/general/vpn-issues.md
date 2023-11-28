@@ -1,59 +1,59 @@
 ---
-title: 'How to use AdGuard VPN in countries with Internet restrictions'
+title: 'İnternet kısıtlamalarının olduğu ülkelerde AdGuard VPN nasıl kullanılır'
 sidebar_position: 10
 ---
 
-In certain regions, such as China, Iran, and Russia, users might have problems connecting to AdGuard VPN. Here are the options that might help.
+Çin, İran ve Rusya gibi belirli bölgelerde kullanıcılar AdGuard VPN'e bağlanırken sorun yaşayabilir. İşte size yardımcı olabilecek seçenekler.
 
-## Accessing AdGuard VPN’s website
+## AdGuard VPN'in sitesine erişme
 
-If adguard-vpn.com is not accessible, try using the [mirror website](https://adguardvpn-help.com/).
+adguard-vpn.com adresine erişilemiyorsa, [yansıtma sitesini](https://adguardvpn-help.com/) kullanmayı deneyin.
 
 :::info
 
-To avoid potential phishing or malicious websites, only follow mirror links provided in this Knowledge base or by the AdGuard VPN support team.
+Olası kimlik avı veya kötü amaçlı sitelerden kaçınmak için, yalnızca bu Bilgi tabanında veya AdGuard VPN destek ekibi tarafından sağlanan yansıtma bağlantılarını izleyin.
 
 :::
 
-## Downloading the app
+## Uygulamayı indirme
 
-### AdGuard VPN for iOS
+### iOS için AdGuard VPN
 
-If don't see AdGuard VPN in your App Store, try changing the country or region in your Apple ID settings:
+App Store'unuzda AdGuard VPN'i görmüyorsanız Apple Kimliği ayarlarınızda ülkeyi veya bölgeyi değiştirmeyi deneyin:
 
-1. Open the App Store and tap your profile picture.
-1. Tap your name, then tap *Country/Region*.
-1. Tap *Change Country or Region*.
-1. Select a country, then accept the terms and conditions.
+1. App Store'u açın ve profil resminize dokunun.
+1. Adınıza ve ardından *Ülke/Bölge* öğesine dokunun.
+1. *Ülkeyi veya Bölgeyi Değiştir* öğesine dokunun.
+1. Bir ülke seçin, ardından şartlar ve koşulları kabul edin.
 
-[Alternative ways](https://support.apple.com/en-us/HT201389)
+[Alternatif yollar](https://support.apple.com/en-us/HT201389)
 
-After changing the region, [install AdGuard VPN](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602).
+Bölgeyi değiştirdikten sonra, [AdGuard VPN'i yükleyin](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602).
 
-### AdGuard VPN for Android
+### Android için AdGuard VPN
 
-If you have problems with Google Play, download the APK file from [AdGuard VPN's mirror website](https://adguardvpn-help.com/android/overview.html).
+Google Play ile ilgili sorun yaşıyorsanız, APK dosyasını [AdGuard VPN'in yansıtma sitesinde](https://adguardvpn-help.com/android/overview.html)n indirin.
 
-### AdGuard VPN for Mac
+### Mac için AdGuard VPN
 
-Download the installation file from [AdGuard VPN's mirror website](https://adguardvpn-help.com/windows/overview.html).
+Kurulum dosyasını [AdGuard VPN'in yansıtma sitesinden](https://adguardvpn-help.com/windows/overview.html) indirin.
 
-### AdGuard VPN for Windows
+### Windows için AdGuard VPN
 
-Download the installation file from [AdGuard VPN's mirror website](https://adguardvpn-help.com/mac/overview.html).
+Kurulum dosyasını [AdGuard VPN'in yansıtma sitesinden](https://adguardvpn-help.com/mac/overview.html) indirin.
 
-## Other useful tips
+## Diğer faydalı ipuçları
 
-- Always make sure that you are using the latest version of AdGuard VPN, as updates typically include vital fixes and enhancements.
+- Güncellemeler genellikle önemli düzeltmeler ve geliştirmeler içerdiğinden her zaman AdGuard VPN'in en son sürümünü kullandığınızdan emin olun.
 
-- Use AdGuard VPN’s full-fledged apps instead of browser extensions for a more robust and stable connection.
+- Daha sağlam ve istikrarlı bir bağlantı için tarayıcı uzantıları yerine AdGuard VPN'in tam donanımlı uygulamalarını kullanın.
 
-- If you encounter problems connecting to a particular location, try connecting to another one. If all locations fail to respond, restart the app to refresh the server list.
+- Belirli bir konuma bağlanırken sorunla karşılaşırsanı, başka bir konuma bağlanmayı deneyin. Tüm konumlar yanıt vermezse, sunucu listesini yenilemek için uygulamayı yeniden başlatın.
 
-- Try switching between mobile data and Wi-Fi: the problem may be network-specific.
+- Mobil veri ve Wi-Fi arasında geçiş yapmayı deneyin: sorun ağa özgü olabilir.
 
-- If you use AdGuard VPN alongside AdGuard Ad Blocker on mobile, ensure that the *General* or *VPN* operating mode is selected in the app settings.
+- Mobil cihazlarda AdGuard Reklam Engelleyici ile birlikte AdGuard VPN kullanıyorsanız, uygulama ayarlarında *Genel* veya *VPN* işletim modunun seçildiğinden emin olun.
 
-- If you have connectivity issues, do not enable *Use QUIC* in *Advanced settings*.
+- Bağlantı sorunlarınız varsa, *Gelişmiş ayarlar* bölümünde *QUIC'i kullan* öğesini seçeneğini etkinleştirmeyin.
 
-If all else fails, don't hesitate to reach out to our support team at support@adguard-vpn.com for further assistance.
+Her şey yolunda gitmezse, daha fazla yardım için support@adguard-vpn.com adresinden destek ekibimizle iletişime geçmekten çekinmeyin.

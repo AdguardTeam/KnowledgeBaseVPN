@@ -3,7 +3,7 @@ title: '为什么 AdGuard VPN 是更好的选择'
 sidebar_position: 2
 ---
 
-当准备[长期订购 VPN](/general/subscription) 时，用户最看重的就是速度、安全性和价格。 这些都是 VPN 能带来的最大好处，但还有更多功能等待你去探索！ AdGuard VPN 有不少能让其从同行中脱颖而出的优点，让它成为您的不二之选。
+当准备[长期订购 VPN](/general/subscription) 时，用户最看重的就是速度、安全性以及价格。 这些都是 VPN 能带来的最大好处，但还有更多功能等待你去探索！ AdGuard VPN 有不少能让其从同行中脱颖而出的优点，让它成为您的不二之选。
 
 *首先，让我们来看看 AdGuard VPN 独家的功能，这是你在其他任何 VPN 中都找不到的。*
 
@@ -17,7 +17,7 @@ sidebar_position: 2
 
 在某些情况下，您并不需要激活 VPN：例如，当您点餐或使用地图时。 针对这种情况，AdGuard VPN 有一个特殊功能：排除。
 
-![Exclusions](https://cdn.adguard.com/content/blog/articles/adguard-vpn/exclusions-en.png)
+![排除项](https://cdn.adguard.com/content/blog/articles/adguard-vpn/exclusions-en.png)
 
 您可以针对某些网站或应用**有选择性**地激活 AdGuard VPN。 该选项适用于仅在特定情况下使用 VPN 服务的用户：进入被屏蔽的网站、使用应用或观看本国无法提供的应用或电视节目，或在访问某些网站时不暴露自己的数据。 有选择地启用 VPN 也有助于节省 VPN 流量。
 
@@ -29,11 +29,11 @@ sidebar_position: 2
 
 我们建议使用 AdGuard DNS 服务器：它可以拦截广告和跟踪器，保护您的设备免受恶意软件的侵害。
 
-![DNS servers](https://cdn.adtidy.org/blog/new/lkarpag_dns_screen_en.png)
+![DNS 服务器](https://cdn.adtidy.org/blog/new/lkarpag_dns_screen_en.png)
 
 ## 4. 最快的位置
 
-![VPN server locations](https://cdn.adguard.com/content/blog/articles/adguard-vpn/locations-en.png)
+![VPN 服务器位置](https://cdn.adguard.com/content/blog/articles/adguard-vpn/locations-en.png)
 
 AdGuard VPN 脱颖而出的另一个特点是，你可以根据其 Ping 值选择位置。 简而言之，Ping 是指从您的设备发送的数据包到达服务器再返回所需的时间。 如有疑问可以依据常识：ping 值越低，服务器越近，速度越高。 我们还在不断扩大服务点的数量，以便您有更多选择。
 
@@ -49,56 +49,56 @@ AdGuard VPN 脱颖而出的另一个特点是，你可以根据其 Ping 值选�
 
 但是，对于移动设备来说就没那么简单了。 在绝大多数情况下，两个基于 VPN 的应用程序无法一起使用。 安卓和 iOS 系统都有一些限制，无法实现这一点。
 
-![Integrated mode](https://cdn.adguard.com/content/blog/articles/adguard-vpn/integration-en.png)
+![集成模式](https://cdn.adguard.com/content/blog/articles/adguard-vpn/integration-en.png)
 
 不过，我们还是找到了一个解决方案，让 AdGuard VPN 和 AdGuard Ad Blocker 可以共存。 当您在一台设备上安装了两个 AdGuard 应用程序时，它们会自动兼容。 这是 AdGuard 提供的一个独家操作，您可以同时利用两套功能，而一般您需要在这两套功能中做出选择。
 
 ## 6. QUIC 的支持
 
-[QUIC](https://adguard-dns.io/en/blog/dns-over-quic.html#whatisquic) is a cutting-edge protocol that has many perks. The main advantage is it can improve the connection quality in non-ideal conditions – for example, on mobile devices or when connecting to public Wi-Fi. Although the new protocol won’t affect speed when the connection is fine and stable, it will definitely make the situation better for users with slow Internet.
+[QUIC](https://adguard-dns.io/en/blog/dns-over-quic.html#whatisquic) 是一种具有很多优点的尖端协议。 它的主要优点是可以改善非理想条件下的连接质量——例如，在移动设备上或连接公共 Wi-Fi 时。 虽然新协议不会影响正常稳定连接的速度，但对于网速较慢的用户来说，情况肯定会有所改善。
 
 :::注意
 
-The QUIC protocol is rather new and may be unstable. We cannot guarantee its complete reliability for every case.
+QUIC 协议非常新，可能不稳定。 我们不能保证它在任何情况下都完全可靠。
 
 :::
 
-*Now let’s switch to the item set that any decent VPN can't do without.*
+*现在让我们转到任何 VPN 都不能缺少的项目。*
 
 ## 7. Kill Switch
 
-Kill Switch is essential if you, for instance, often use a mobile network or connect to public Wi-Fi networks in malls, cafes, on the subway or at the airport. For the simple reason — if VPN will suddenly drop and the connection will become insecure, chances are that your sensitive information will be exposed to fraudsters or cyber criminals.
+如果你经常使用移动网络，或者在商场、咖啡馆、地铁或机场连接公共 Wi-Fi 网络，那么 Kill Switch 是必不可少的。 原因很简单，如果 VPN 突然中断，连接就会变得不安全，您的敏感信息就有可能暴露给欺诈者或网络犯罪分子。
 
-If for some reason your VPN connection is interrupted, Kill Switch will automatically disconnect you from the Internet, keeping attackers away from seizing your information.
+如果由于某种原因，您的 VPN 连接被中断，Kill Switch 将自动断开互联网连接，使攻击者无法获取你的信息。
 
-## 8. Auto-protection
+## 8. 自动保护
 
-This feature has been developed specifically for unsecured networks. If you enable Auto-protection, you won't ever forget to enable VPN when visiting public places. Should you pop into a coffee shop and connect to a local Wi-Fi network, you’ll be automatically connected to AdGuard VPN.
+这个功能是专门为不安全的网络开发的。 如果启用自动保护，您在访问公共场所时就不会忘记启用 VPN。 如果你突然进入一家咖啡店并连接到Wi-Fi 网络，就会自动连接到 AdGuard VPN。
 
-:::note Compatibility
+:::兼容性
 
-Auto-protection is available in AdGuard VPN for iOS and Android.
+AdGuard VPN 的 iOS 和 Android 版提供自动保护功能。
 
 :::
 
-## 9. Ten simultaneous connections
+## 9. 十个同时连接
 
-With an AdGuard VPN subscription, you can connect up to ten devices *simultaneously*.
+当您使用AdGuard的VPN时，可最多使用十台设备
 
-Some VPN providers only allow to log in to their service on *ten devices max*. With AdGuard VPN, *it doesn't matter* on how many devices you log in to your AdGuard account, but you can have ten VPN connections enabled at the same time.
+一些VPN供应商只允许使用最多十台设备。 但是使用Ad Guard提供的VPN时，您同时将多少个与您的Ad Guard账户所关联的个人设备都不重要，，您可以同时启用10个VPN线路**
 
-Those who don’t have a subscription, can use AdGuard VPN on *two devices simultaneously*, which gives us another trump card to play against competitors: most free VPN services only allow you to use one device at a time.
+*这些没有订阅的用户，您依然可以同时在两个设备上使用我们的VPN*这也给了我们一张与别的公司竞争的王牌，因为其他的免费vpn只允许使用一个设备
 
-## 10. Secure streaming
+## 10. 安全流媒体
 
-Streaming services don't like VPNs for obvious reasons: according to statistics, about 20% of users install a VPN mainly to watch shows, TV shows and movies bypassing geo-blocking. That's why streaming platforms tend to do everything they can to track VPN traffic and block it.
+流媒体服务不喜欢 VPN 的原因显而易见：据统计，约有 20% 的用户安装 VPN 主要是为了绕过地理限制观看节目、电视节目和电影。 这就是为什么流媒体平台往往会想尽一切办法跟踪 VPN 流量并加以阻止。
 
-But what if you want to feel safe while watch content specific to your region? Or don't want stop watching exciting series even when you travel to another country? The answer is simple — AdGuard VPN, which thanks to its unique protocol can remain invisible to services.
+但是，如果您想在观看您所在地区的特定内容时感到安全，该怎么办？ 或者，即使到了另一个国家，也不想停止观看精彩的连续剧？ 答案很简单--AdGuard VPN，由于其独特的协议，它可以对服务保持隐形。
 
-We don't endorse the use of AdGuard VPN to bypass copyright regulations.
+我们不赞成使用 AdGuard VPN 来绕过版权法规。
 
-## 11. Dark mode
+## 11. 深色模式
 
-![Dark mode *mobile_border](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/main_en_black.png)
+![深色模式 *mobile_border](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/main_en_black.png)
 
-This little feature deserves special mention. In fact, many users crave for dark mode, so we couldn’t ignore it and added a theme switch for all AdGuard VPN products. Choose the one you like more — light, dark or system default. Hope you’ll join the dark side.
+这个小功能值得特别一提。 事实上，许多用户都渴望使用暗色模式，因此我们不能忽视这一需求，并为所有 AdGuard VPN 产品添加了主题开关。 选择你更喜欢的颜色--浅色、深色或系统默认值。 希望你能喜欢这个功能。

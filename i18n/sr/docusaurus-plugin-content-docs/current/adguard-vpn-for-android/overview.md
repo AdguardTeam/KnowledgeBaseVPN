@@ -38,7 +38,12 @@ Postoje dva režima: u *Opštem režimu* lokacije sa liste izuzetaka su isključ
 Možete dodati domene (npr. `google.com`) ili poddomene (npr. `*.google.com`) web sajtove na *Izuzeci* na tri načina: unesite ih ručno u aplikaciju, ili direktno iz preglednika klikom na *Delite* i izabrati AdGuard VPN na otvorenoj listi ispod ili sa ugrađenih lista usluga podeljenih po kategorijama.
 
 ![Izuzeci](https://cdn.adguardvpn.com/public/Adguard/kb/VPN/Screenshots/add_site_android.jpg)
-> Postoje neke nijanse u ručnom dodavanju domena. Na primer, ako ručno isključite domen `yahoo.com`Svi `*.yahoo.com` poddomeni će takođe biti navedeni u izuzecima. Međutim, imena domena sa drugim domenima najvišeg nivoa, kao što su `yahoo.jp` Ili `yahoo.fr`, neće biti izuzeti. Ili možete dodati `youtube.com` u izuzetke, ali domen iste usluge `youtu.be` neće ući na listu. U ovom slučaju, sigurnije je koristiti ugrađene liste usluga, jer tu stavljamo sve poddomene vezane za svaku platformu.
+
+:::note
+
+Postoje neke nijanse u ručnom dodavanju domena. Na primer, ako ručno isključite domen `yahoo.com`Svi `*.yahoo.com` poddomeni će takođe biti navedeni u izuzecima. Međutim, imena domena sa drugim domenima najvišeg nivoa, kao što su `yahoo.jp` Ili `yahoo.fr`, neće biti izuzeti. Ili možete dodati `youtube.com` u izuzetke, ali domen iste usluge `youtu.be` neće ući na listu. U ovom slučaju, sigurnije je koristiti ugrađene liste usluga, jer tu stavljamo sve poddomene vezane za svaku platformu.
+
+:::
 
 As you can enable subdomains in service lists, we added boxes that reflect the status of each service — you can see them on the main screen of *Exclusions* to the left of each service name: **fully-enabled** status is marked with a white check mark on green background, **fully-disabled** — with a gray box, and **partly-enabled**, which means that one or more parameters were changed — with a green square on white background. Good news: you can always return to the default view of service lists in case you’ve deleted or disabled any domains from there.
 
@@ -97,11 +102,21 @@ In the *Advanced settings*, you can find five sections. Možete nam *pomoći da 
 
 Odeljak *Operativni režim* vam omogućava da odaberete jednu od tri opcije: VPN, Proxy i režim kompatibilnosti. U *VPN režimu* sav saobraćaj se automatski usmerava kroz AdGuard VPN. Kada ste u *Proxy režimu* (SOCKS5), AdGuard VPN pokreće lokalni proxy server koji druge aplikacije mogu da koriste za usmeravanje svog saobraćaja kroz njega. Odaberite ovu opciju samo ako znate šta radite. Omogućen *Režim kompatibilnosti* omogućava AdGuard VPN i AdGuard blokatoru reklama da rade zajedno.
 
-> Imajte na umu da su neke AdGuard VPN funkcije onemogućene u *Režimu kompatibilnosti*: izbor DNS servera, Kill Switch i auto-zaštita. Takođe, da biste upravljali tunelom aplikacije trebalo bi da otvorite AdGuard blokator reklama.
+:::note
+
+Some AdGuard VPN features are disabled in *Compatibility mode*: DNS server selection, Kill Switch and Auto-protection. Takođe, da biste upravljali tunelom aplikacije trebalo bi da otvorite AdGuard blokator reklama.
+
+:::
 
 Sledeća dva odeljka su *Nivo vođenja evidencije* I *Dijagnostičke informacije*. Što se tiče prve opcije, nije preporučljivo omogućiti prošireni ili ekstremni nivo vođenja evidencije ukoliko to ne zahteva naš tim za podršku. Dijagnostičke informacije, lokalno uskladištene tehničke informacije o uređaju i vezama (IP adresa, lična slika, ping itd.), mogu nam se poslati u slučaju bilo kakvih tehničkih problema.
 
 Poslednji odeljak *Naprednih postavki* Je *Postavke najnižeg nivoa*. Apelujemo na vas da ne ulazite u ovaj odeljak ukoliko niste visoko kvalifikovani ili je od vas to zatražio naš tim za podršku. Ovde je moguće omogućiti evidentiranje TUN interfejsa ili IPv6 protokol na VPN interfejsu, odabrati port proxy servera ili verziju Internet protokola koja bi trebalo da se koristi.
+
+:::note Compatibility
+
+The *Enable IPv6* option is only available for networks that support IPv6.
+
+:::
 
 ### Podrška
 

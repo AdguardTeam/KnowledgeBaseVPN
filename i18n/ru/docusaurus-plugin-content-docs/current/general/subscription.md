@@ -1,5 +1,5 @@
 ---
-title: Как подписаться
+title: Как купить
 sidebar_position: 6
 ---
 

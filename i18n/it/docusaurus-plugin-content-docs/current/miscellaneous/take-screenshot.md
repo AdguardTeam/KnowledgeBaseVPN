@@ -28,7 +28,7 @@ Ma, come è già stato detto, possono esserci differenze a seconda di un partico
 
 Su Android 8 e versioni successive c'è anche la possibilità di acquisire screenshot posizionando la mano verticalmente lungo il bordo sinistro o destro del telefono e scorrendo da quel bordo con la mano che tocca lo schermo.
 
-If this method doesn’t work, check *Settings* → *Advanced features* → *Motions and gestures* → enable *Palm swipe to capture*.
+Se questo metodo non funziona, controlla le *Impostazioni* → *Funzioni avanzate* → *Movimenti e gesti* → abilita *Scorrimento del palmo per catturare*.
 
 Inoltre, puoi sempre utilizzare qualsiasi applicazione speciale per acquisire schermate sui tuoi dispositivi, ad esempio: *Screenshot Easy*, *Screenshot Ultimate*, *Screenshot Snap*, ecc.
 

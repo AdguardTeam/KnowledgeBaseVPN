@@ -5,7 +5,7 @@ sidebar_position: 1
 
 AdGuard VPN Tarayıcı Uzantısı Chrome, Firefox, Opera ve Edge için mevcuttur. Kullanıcı arayüzü ve işlevsellik tarayıcılar arasında farklılık göstermez, bu nedenle aşağıdaki genel bakış, tüm tarayıcılar için AdGuard VPN uzantılarıyla alakalı olacaktır.
 
-:::not
+:::note
 
 AdGuard VPN Tarayıcı Uzantısını yalnızca giriş yaptığınızda kullanabilirsiniz. AdGuard hesabınızla veya Google, Facebook ya da Apple aracılığıyla giriş yapın. İkinci durumda, hesabınızın AdGuard hesabınızla aynı e-posta adresine bağlı olduğundan emin olun. [AdGuard VPN aboneliğiniz](/general/subscription) varsa, AdGuard VPN Tarayıcı uzantısında otomatik olarak etkinleştirilecektir. Henüz bir AdGuard hesabınız yok mu? [Buradan oluşturun](https://auth.adguard.com/registration.html).
 
