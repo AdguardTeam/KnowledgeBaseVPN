@@ -99,7 +99,7 @@ AdGuard VPN šifruje nejen provoz vašich prohlížečů, ale také ostatních a
 
 ### O programu
 
-The **About** tab provides information about the current version of AdGuard VPN for Windows, an update button, and links to the AdGuard VPN website, EULA, and Privacy policy.
+Na kartě **O programu** najdete informace o aktuální verzi AdGuard VPN pro Windows, tlačítko pro aktualizaci a odkazy na webové stránky AdGuardu, fórum, smlouvu EULA a zásady ochrany osobních údajů.
 
 ### Účet
 

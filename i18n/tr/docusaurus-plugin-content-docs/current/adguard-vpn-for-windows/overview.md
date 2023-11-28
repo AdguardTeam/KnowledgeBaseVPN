@@ -99,7 +99,7 @@ AdGuard VPN yalnızca tarayıcılarınızın değil, cihazınızda yüklü diğe
 
 ### Hakkında
 
-The **About** tab provides information about the current version of AdGuard VPN for Windows, an update button, and links to the AdGuard VPN website, EULA, and Privacy policy.
+**Hakkında** sekmesi, Windows için AdGuard VPN'in geçerli sürümü hakkında bilgi, bir güncelleme düğmesi ve AdGuard VPN sitesi, SKLS ve Gizlilik politikası bağlantıları sağlar.
 
 ### Hesap
 

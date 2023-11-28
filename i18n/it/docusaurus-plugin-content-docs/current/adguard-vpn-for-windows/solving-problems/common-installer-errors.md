@@ -29,13 +29,13 @@ Esistono due errori differenti con soluzioni molto simili. Come suggerito dai lo
 
 Si potrebbe dire che questo sia un caso secondario particolare dell'Errore 1603. Le possibili soluzioni sono simili:
 
-- Start and re-register Microsoft Installer service. It requires some work.
+- Avvia e registra nuovamente il servizio di Microsoft Installer. Richiede un po' di lavoro.
 
-    1. Press *Win + R* and enter **services.msc**.
-    1. Find in the list and double click *Windows Installer*.
-    1. Hit *Start* button under *Service status* and hit *OK*. If the service status is **running**, you should click *Stop* first and then hit *Start*.
-    1. Press *Win + R*, type and enter ***msiexec /unregister*** and hit *Enter*.
-    1. Press *Win + R* again, type and enter ***msiexec /regserver*** and hit *Enter*
+    1. Premi *Win + R* e digita **services.msc**.
+    1. Trovalo nell'elenco e fai doppio click su *Windows Installer*.
+    1. Clicca il pulsante *Start* in *Stato del servizio* e clicca su *OK*. Se lo stato del servizio è **in esecuzione**, dovresti prima cliccare su *Arresta*, quindi su *Avvia*.
+    1. Premi *Win + R*, digita e cerca ***msiexec /unregister*** e premi *Invio*.
+    1. Premi ancora *Win + R*, digita e cerca ***msiexec /regserver*** e premi *Invio*
 
 - Riavvia il PC e ricomincia l'installazione. Talvolta, ciò è sufficiente per risolvere il problema.
 

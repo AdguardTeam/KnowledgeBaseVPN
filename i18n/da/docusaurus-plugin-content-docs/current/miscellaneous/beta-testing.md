@@ -11,10 +11,10 @@ Det kræver kun et par få ting, at blive AdGuard VPN-betatester: Lysten, en enh
 
 ### Sådan anmeldes en fejl
 
-Lad os sige, at det er sket — en fejl er blevet opdaget. Eller måske vil man blot dele et forslag med udviklerne? Let us know: go to [GitHub](https://github.com/AdguardTeam/), find a suitable repository, create a new issue there, and describe the bug/feature request in detail.
+Lad os sige, at det er sket — en fejl er blevet opdaget. Eller måske vil man blot dele et forslag med udviklerne? Fortæl os om det: Gå til [GitHub](https://github.com/AdguardTeam/), find et passende repo, opret en ny problematik dér, og beskriv detaljeret fejlen/funktionsanmodningen.
 
-The above method is the most preferred, but you can use others if necessary:
+Ovenstående metoder er de mest foretrukne, men andre kan om nødvendigt bruges:
 
-- Find us on various social media platforms, like [Facebook](https://www.facebook.com/AdguardEn/), [Reddit](https://www.reddit.com/r/Adguard/), etc. However, this is not the most efficient way to discuss technical matters.
+- Find os på forskellige sociale medieplatforme, såsom [Facebook](https://www.facebook.com/AdguardEn/), [Reddit](https://www.reddit.com/r/Adguard/) mv. Dog er dette ikke den mest effektive måde at debattere tekniske spørgsmål på.
 
-- Email our support team from the Support tab in the app or write directly to [support@adguard.com](mailto:support@adguard.com).
+- E-mail supportteamet via fanen Support i appen eller direkte via [support@adguard.com](mailto:support@adguard.com).

@@ -38,7 +38,12 @@ Existují dva režimy: v *Obecném režimu* jsou vyloučeny weby ze seznamu výj
 Domény (např. `google.com`) nebo subdomény (např. `*.google.com`) webových stránek můžete do *Výjimek* přidat třemi způsoby: zadejte je ručně v aplikaci nebo přímo z prohlížeče kliknutím na tlačítko *Sdílet* a výběrem AdGuard VPN v otevřeném seznamu níže, nebo z vestavěných seznamů služeb rozdělených podle kategorií.
 
 ![Exclusions](https://cdn.adguardvpn.com/public/Adguard/kb/VPN/Screenshots/add_site_android.jpg)
-> Při ručním přidávání domén existují určité nuance. Pokud například ručně vyloučíte doménu `yahoo.com`, budou ve výjimkách uvedeny také všechny subdomény `*.yahoo.com`. Doménové názvy s ostatními doménami nejvyšší úrovně, jako je `yahoo.jp` nebo `yahoo.fr`, však vyloučeny nebudou. Nebo můžete do výjimek přidat `youtube.com`, ale doména stejné služby `youtu.be` se do seznamu nedostane. V tomto případě je bezpečnější použít vestavěné seznamy služeb, protože do nich vložíme všechny subdomény související s jednotlivými platformami.
+
+:::note
+
+Při ručním přidávání domén existují určité nuance. Pokud například ručně vyloučíte doménu `yahoo.com`, budou ve výjimkách uvedeny také všechny subdomény `*.yahoo.com`. Doménové názvy s ostatními doménami nejvyšší úrovně, jako je `yahoo.jp` nebo `yahoo.fr`, však vyloučeny nebudou. Nebo můžete do výjimek přidat `youtube.com`, ale doména stejné služby `youtu.be` se do seznamu nedostane. V tomto případě je bezpečnější použít vestavěné seznamy služeb, protože do nich vložíme všechny subdomény související s jednotlivými platformami.
+
+:::
 
 Vzhledem k tomu, že v seznamech služeb můžete povolit subdomény, přidali jsme pole, která odrážejí stav každé služby — můžete je vidět na hlavní obrazovce v sekci *Výjimky* vlevo od názvu každé služby: **zcela povoleno** stav je označen bílým zaškrtnutím na zeleném pozadí., **zcela zakázáno** — s šedým rámečkem a **částečně povoleno**, což znamená, že byl změněn jeden nebo více parametrů — se zeleným čtverečkem na bílém pozadí. Dobrá zpráva: vždy se můžete vrátit k výchozímu zobrazení seznamů služeb, pokud jste z nich odstranili nebo zakázali některé domény.
 
@@ -97,11 +102,21 @@ V části *Pokročilá nastavení* najdete pět sekcí. Přepnutím tlačítka *
 
 Sekce *Provozní režim* umožňuje vybrat jednu ze tří možností: Režim VPN, Proxy a Režim kompatibility. V *Režimu VPN* je veškerý provoz automaticky směrován přes AdGuard VPN. Pokud je zapnutý *Režim Proxy* (SOCKS5), AdGuard VPN spustí místní proxy server, který mohou využívat jiné aplikace ke směrování svého provozu přes něj. Tuto možnost vyberte pouze v případě, že víte, co děláte. Zapnutí *Režimu kompatibility* umožňuje spolupráci AdGuard VPN s blokátorem reklam AdGuard.
 
-> Upozorňujeme, že některé funkce AdGuard VPN jsou v *Režimu kompatibility* zakázány: výběr DNS serveru, Kill Switch a automatická ochrana. Chcete-li spravovat tunelování aplikací, měli byste také otevřít blokátor reklam AdGuard.
+:::note
+
+Some AdGuard VPN features are disabled in *Compatibility mode*: DNS server selection, Kill Switch and Auto-protection. Chcete-li spravovat tunelování aplikací, měli byste také otevřít blokátor reklam AdGuard.
+
+:::
 
 Další dvě sekce jsou *Úroveň záznamu* a *Diagnostické informace*. Pokud jde o první možnost, nedoporučujeme zapínat rozšířenou nebo extrémní úroveň záznamu, pokud o to nepožádá náš tým podpory. Diagnostické informace, lokálně uložené technické informace o zařízení a připojeních (IP adresa, ID, ping atd.), nám mohou být zaslány v případě technických problémů.
 
 Poslední částí v *Pokročilých nastaveních* jsou *Nízkoúrovňová nastavení*. Doporučujeme vám, abyste do této sekce nevstupovali, pokud nejste vysoce kvalifikovaní nebo pokud vás o to nepožádal náš tým podpory. Zde je možné povolit protokolování rozhraní TUN nebo protokolu IPv6 na rozhraní VPN, vybrat port proxy serveru nebo verzi Internetového protokolu, která se má používat.
+
+:::note Compatibility
+
+The *Enable IPv6* option is only available for networks that support IPv6.
+
+:::
 
 ### Podpora
 

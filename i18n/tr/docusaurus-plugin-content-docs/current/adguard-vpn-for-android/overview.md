@@ -38,7 +38,12 @@ Sitenizi ve uygulama istisna listelerinizi yönetmenizi kolaylaştırmak için h
 Sitelerin alan adlarını (ör. `google.com`) veya alt alan adlarını (ör. `*.google.com`) *İstisnalara* üç şekilde ekleyebilirsiniz: bunları uygulamaya elle veya doğrudan tarayıcıdan *Paylaş* düğmesine tıklayıp aşağıdaki açılan listeden AdGuard VPN'i seçerek veya kategorilere ayrılmış yerleşik hizmet listelerinden girin.
 
 ![İstisnalar](https://cdn.adguardvpn.com/public/Adguard/kb/VPN/Screenshots/add_site_android.jpg)
-> Alan adlarının elle eklenmesinde bazı ince ayrıntılar vardır. Örneğin, `yahoo.com` alan adını elle hariç tutarsanız, tüm `*.yahoo.com` alt alanları da istisnalarda listelenir. Ancak, `yahoo.jp` veya `yahoo.fr` gibi diğer üst düzey alan adlarına sahip alan adları hariç tutulmayacaktır. Veya `youtube.com` alan adını istisnalara ekleyebilirsiniz, ancak aynı hizmet `youtu.be` alan adı listeye girmez. Bu durumda, her platformla ilgili tüm alt alan adlarını oraya koyduğumuz için yerleşik hizmet listelerini kullanmak daha güvenlidir.
+
+:::note
+
+Alan adlarının elle eklenmesinde bazı ince ayrıntılar vardır. Örneğin, `yahoo.com` alan adını elle hariç tutarsanız, tüm `*.yahoo.com` alt alanları da istisnalarda listelenir. Ancak, `yahoo.jp` veya `yahoo.fr` gibi diğer üst düzey alan adlarına sahip alan adları hariç tutulmayacaktır. Veya `youtube.com` alan adını istisnalara ekleyebilirsiniz, ancak aynı hizmet `youtu.be` alan adı listeye girmez. Bu durumda, her platformla ilgili tüm alt alan adlarını oraya koyduğumuz için yerleşik hizmet listelerini kullanmak daha güvenlidir.
+
+:::
 
 Hizmet listelerinde alt alan adlarını etkinleştirebileceğiniz için, her hizmetin durumunu yansıtan kutular ekledik — bunları her hizmet adının solundaki *İstisnalar* ana ekranında görebilirsiniz: **tamamen etkin** durumu yeşil arka plan üzerinde beyaz bir onay işaretiyle, **tamamen devre dışı** — gri kutulu ve **kısmen etkin**, bu bir veya daha fazla parametrenin değiştirildiği anlamına gelir — beyaz arka plan üzerinde yeşil bir kare ile işaretlenmiştir. İyi haber: oradan herhangi bir alan adono sildiyseniz veya devre dışı bıraktıysanız, her zaman hizmet listelerinin varsayılan görünümüne dönebilirsiniz.
 
@@ -97,11 +102,21 @@ Uygulamanın sistem varsayılanı, koyu veya açık temasını seçebilirsiniz.
 
 *Çalışma modu* bölümü, üç seçenekten birini seçmenize olanak tanır: VPN, Proxy ve Uyumluluk modu. *VPN modunda* tüm trafik otomatik olarak AdGuard VPN üzerinden yönlendirilir. *Proxy modu* (SOCKS5) açıkken, AdGuard VPN, trafiğini yönlendirmek için diğer uygulamalar tarafından kullanılabilen yerel bir proxy sunucusu çalıştırır. Bu seçeneği yalnızca ne yaptığınızı biliyorsanız seçin. Etkinleştirilmiş *Uyumluluk modu*, AdGuard VPN ve AdGuard Reklam Engelleyicinin birlikte çalışmasına olanak tanır.
 
-> Lütfen bazı AdGuard VPN özelliklerinin *Uyumluluk modunda* devre dışı bırakıldığını unutmayın: DNS sunucusu seçimi, Kill Switch ve Otomatik koruma. Ayrıca uygulama tünellemeyi yönetmek için AdGuard Reklam Engelleyici uygulamasını açmalısınız.
+:::note
+
+Some AdGuard VPN features are disabled in *Compatibility mode*: DNS server selection, Kill Switch and Auto-protection. Ayrıca uygulama tünellemeyi yönetmek için AdGuard Reklam Engelleyici uygulamasını açmalısınız.
+
+:::
 
 Sonraki iki bölüm, *Günlük kayıt düzeyi* ve *Tanılama bilgisidir*. İlk seçenekle ilgili olarak, destek ekibimiz tarafından talep edilmedikçe Genişletilmiş veya Son derece günlük kayıt düzeyinin etkinleştirilmesi tavsiye edilmez. Herhangi bir teknik sorun olması durumunda tanılama bilgileri, cihaz ve bağlantılarla ilgili yerel olarak saklanan teknik bilgiler (IP adresi, ID, ping, vb.) tarafımıza gönderilebilir.
 
 *Gelişmiş ayarların* son bölümü *Alt seviye ayarlardır*. Yüksek nitelikli değilseniz veya destek ekibimiz tarafından istenmedikçe bu bölüme girmemenizi tavsiye ederiz. Burada, VPN arayüzünde TUN arayüzü günlüğünü veya IPv6 protokolünü etkinleştirmek, kullanılması gereken bir proxy sunucu bağlantı noktası veya internet protokolü sürümünü seçmek mümkündür.
+
+:::note Compatibility
+
+The *Enable IPv6* option is only available for networks that support IPv6.
+
+:::
 
 ### Destek
 

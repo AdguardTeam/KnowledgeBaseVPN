@@ -29,20 +29,20 @@ Fungerer alm. afinstallation af en eller anden grund ikke, kan en avanceret meto
 
 - Vælg *Standard afinstallation*, ***Slet AdGuard VPN*** og klik på *Afinstallér*.
 
-    ![Standardafinstallation *border](https://cdn.adguardvpn.com/content/kb/ad_blocker/windows/installation/standard-uninstall.png)
+    ![Standardafinstallation *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/standard_uninstall.png)
 
 - Afvent afinstallationens færdiggørelse — en tekst vil fremgå i vinduet: `[OK] Afinstallation afsluttet`
 
-    ![Afinstallation afsluttet *border](https://cdn.adguardvpn.com/content/kb/ad_blocker/windows/installation/standard-uninstall-2.png)
+    ![Afinstallation afsluttet *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/standard_uninstall_2.png)
 
     > Følg kun de næste trin, såfremt gennemførelsen af de første to trin viser sig utilstrækkelig. Det anbefales kraftigt at kontakte vores supportteam før brug af trin 3-4 i avanceret afinstallationsvejledning.
 
 - Vælg *Avanceret afinstallation*, ***Slet AdGuard VPN*** og klik på *Afinstallér*.
 
-    ![Avanceret afinstallation *border](https://cdn.adguardvpn.com/content/kb/ad_blocker/windows/installation/advanced-uninstall.png)
+    ![Avanceret afinstallation *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/advanced_uninstall.png)
 
 - Afvent afinstallationens færdiggørelse — en tekst vil fremgå i vinduet: `[OK] Afinstallation afsluttet`
 
-    ![Afinstallation afsluttet *border](https://cdn.adguardvpn.com/content/kb/ad_blocker/windows/installation/advanced-uninstall-2.png)
+    ![Afinstallation afsluttet *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/advanced_uninstall_2.png)
 
 AdGuard VPN er hermed afinstalleret!

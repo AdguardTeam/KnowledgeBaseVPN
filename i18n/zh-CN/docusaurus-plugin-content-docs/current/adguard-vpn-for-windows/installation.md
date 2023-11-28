@@ -29,20 +29,20 @@ AdGuard VPN 支持 **Windows 11/10/8.1/8/Vista SP2（仅限联网）**。
 
 - 选择「*标准卸载*」，「***删除 AdGuard***」，并点击「*卸载*」。
 
-    ![标准卸载 *border](https://cdn.adguardvpn.com/content/kb/ad_blocker/windows/installation/standard-uninstall.png)
+    ![标准卸载 *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/standard_uninstall.png)
 
 - 请等待卸载完成。卸载成功完成后，您将会在窗口中看到： `[OK] 卸载完成`
 
-    ![卸载完成 *border](https://cdn.adguardvpn.com/content/kb/ad_blocker/windows/installation/standard-uninstall-2.png)
+    ![卸载完成 *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/standard_uninstall_2.png)
 
     > 只有当上述两个步骤由于某些原因无法卸载时，才需要执行接下来的几步。 我们强烈建议您，在执行进阶卸载说明的第三四步之前，先联系我们的支持团队。
 
 - 选择「*进阶卸载*」，「***删除 AdGuard VPN***」，然后单击「*卸载*」。
 
-    ![进阶卸载 *border](https://cdn.adguardvpn.com/content/kb/ad_blocker/windows/installation/advanced-uninstall.png)
+    ![进阶卸载 *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/advanced_uninstall.png)
 
 - 请等待卸载完成。卸载成功完成后，您将会在窗口中看到： `[OK] 卸载完成`
 
-    ![卸载完成 *border](https://cdn.adguardvpn.com/content/kb/ad_blocker/windows/installation/advanced-uninstall-2.png)
+    ![卸载完成 *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/advanced_uninstall_2.png)
 
 AdGuard 已成功卸载！

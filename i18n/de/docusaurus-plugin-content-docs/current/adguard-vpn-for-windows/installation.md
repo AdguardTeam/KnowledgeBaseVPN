@@ -29,20 +29,20 @@ Falls die reguläre Deinstallation aus irgendeinem Grund nicht funktioniert, kö
 
 - Wählen Sie ⦿ *Standard uninstall* und ⦿ ***Delete AdGuard VPN*** und klicken Sie auf *Uninstall*.
 
-    ![Standard-Deinstallation *border](https://cdn.adguardvpn.com/content/kb/ad_blocker/windows/installation/standard-uninstall.png)
+    ![Standard-Deinstallation *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/standard_uninstall.png)
 
 - Warten Sie, bis die Deinstallation abgeschlossen ist – im Fenster wird `[OK] Uninstall finished` angezeigt
 
-    ![Deinstallation abgeschlossen *border](https://cdn.adguardvpn.com/content/kb/ad_blocker/windows/installation/standard-uninstall-2.png)
+    ![Deinstallation abgeschlossen *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/standard_uninstall_2.png)
 
     > Befolgen Sie die nächsten Schritte nur, wenn die Ausführung der ersten beiden Schritte aus irgendeinem Grund nicht ausreichte. Wir empfehlen dringend, sich an unser Support-Team zu wenden, bevor Sie die Schritte 3–4 der erweiterten Deinstallationsanleitung ausführen.
 
 - Wählen Sie ⦿ *Advanced Uninstall* und ⦿ ***Delete AdGuard VPN*** und klicken Sie auf *Uninstall*.
 
-    ![Erweiterte Deinstallation *border](https://cdn.adguardvpn.com/content/kb/ad_blocker/windows/installation/advanced-uninstall.png)
+    ![Erweiterte Deinstallation *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/advanced_uninstall.png)
 
 - Warten Sie, bis die Deinstallation abgeschlossen ist – im Fenster wird `[OK] Uninstall finished` angezeigt
 
-    ![Deinstallation abgeschlossen *border](https://cdn.adguardvpn.com/content/kb/ad_blocker/windows/installation/advanced-uninstall-2.png)
+    ![Deinstallation abgeschlossen *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/advanced_uninstall_2.png)
 
 AdGuard wurde erfolgreich deinstalliert!

@@ -44,7 +44,7 @@ Inoltre, gli elenchi di esclusioni già pronti possono essere trasferiti ad altr
 
 ![Schermata di supporto](https://cdn.adguardvpn.com/content/kb/vpn/mac/support_en.png)
 
-La terza scheda è la schermata *Supporto*. Find answers to any questions in the [FAQ](https://adguard-vpn.com/welcome.html#faq) or in the [Knowledge base](/) sections, report a bug if you encounter one, or [discuss AdGuard on any of the platforms](https://adguard.com/discuss.html). And feel free to [leave feedback about our product](https://surveys.adguard.com/vpn_mac/form.html), we’d appreciate it.
+La terza scheda è la schermata *Supporto*. Trova le risposte a qualsiasi domanda nelle [Domande Frequenti](https://adguard-vpn.com/welcome.html#faq) o nella [Base di conoscenza](/), segnala un bug se ne riscontri uno o [discuti di AdGuard su una qualsiasi delle piattaforme](https://adguard.com/discuss.html). E sentiti liber* di [lasciare un feedback sul nostro prodotto](https://surveys.adguard.com/vpn_mac/form.html), lo apprezzeremmo.
 
 ## Impostazioni
 

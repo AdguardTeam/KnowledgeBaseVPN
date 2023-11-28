@@ -99,7 +99,7 @@ AdGuard VPN 不仅会加密浏览器的流量，还会加密您计算机上其�
 
 ### 关于
 
-The **About** tab provides information about the current version of AdGuard VPN for Windows, an update button, and links to the AdGuard VPN website, EULA, and Privacy policy.
+「**关于**」标签中有当前版本 AdGuard VPN Windows 版的信息，更新按钮，以及 AdGuard VPN 官网、EULA（最终用户许可协议）、隐私政策的链接。
 
 ### 账号
 

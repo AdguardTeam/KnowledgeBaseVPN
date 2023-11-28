@@ -90,7 +90,7 @@ AdGuard VPN 有以下的功能：
 
 ## 支持
 
-There is a variety of helping features in the app (press the *Settings* button at the bottom right and then *Support*): you can see the FAQ section, report a bug, leave feedback, discuss your problems and suggestions in social networks or on GitHub, rate AdGuard VPN for iOS in the App Store and export logs.
+应用程序中有许多帮助功能（点击右下角的「*设置*」按钮，然后点击「*支持*」）：您可以查看常见问题解答部分、报告错误、留下反馈、在社交网络或 GitHub 上讨论您的问题和建议、在 App Store 中对 AdGuard VPN iOS 版进行评分并导出日志。
 
 ![支持 *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/support.png)
 

@@ -37,7 +37,7 @@ AdGuard DNS sunucusu kullanmanızı öneririz: reklamları ve izleyicileri engel
 
 AdGuard VPN'i diğerlerinden farklı kılan bir başka özellik de, pingine göre bir konum seçebilmenizdir. Kısaca ping, cihazınızdan gönderilen veri paketinin sunucuya ulaşması ve geri dönmesi için geçen süredir. Şüphe duyduğunuzda, basit bir kural kullanın: ping ne kadar düşükse, sunucu ne kadar yakınsa, hızı da o kadar yüksek olur. Çeşitlilik arasından seçim yapabilmeniz için konum sayısını sürekli artırıyoruz.
 
-:::not
+:::note
 
 Tüm VPN sunucusu konumlarına erişmek için bir AdGuard VPN aboneliği satın almanız gerekir.
 
@@ -57,7 +57,7 @@ Ancak AdGuard VPN ve AdGuard Reklam Engelleyici ile arkadaş olmak için bir ç�
 
 [QUIC](https://adguard-dns.io/en/blog/dns-over-quic.html#whatisquic), birçok avantajı olan son teknoloji bir protokoldür. Başlıca avantajı, ideal olmayan koşullarda bağlantı kalitesini iyileştirebilmesidir –örneğin mobil cihazlarda veya halka açık Wi-Fi'ye bağlanırken. Yeni protokol, bağlantı iyi ve kararlı olduğunda hızı etkilemese de, yavaş internete sahip kullanıcılar için durumu kesinlikle daha iyi hâle getirir.
 
-:::dikkat
+:::caution
 
 QUIC protokolü oldukça yenidir ve kararsız olabilir. Her durumda tam güvenilirliğini garanti edemeyiz.
 
@@ -75,7 +75,7 @@ Herhangi bir nedenle VPN bağlantınız kesilirse Kill Switch otomatik olarak in
 
 Bu özellik, özellikle güvenli olmayan ağlar için geliştirilmiştir. Otomatik korumayı etkinleştirirseniz halka açık yerleri ziyaret ederken VPN'i etkinleştirmeyi asla unutmazsınız. Bir kafeye girer ve yerel bir Wi-Fi ağına bağlanırsanız, otomatik olarak AdGuard VPN'e bağlanacaksınız.
 
-:::info Uyumluluk
+:::note Uyumluluk
 
 Otomatik koruma, iOS ve Android için AdGuard VPN'de mevcuttur.
 

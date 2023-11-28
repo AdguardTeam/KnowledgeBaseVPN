@@ -90,7 +90,7 @@ Bu özelliğe erişmek için uygulama simgesine dokunup basılı tutun, ardında
 
 ## Destek
 
-There is a variety of helping features in the app (press the *Settings* button at the bottom right and then *Support*): you can see the FAQ section, report a bug, leave feedback, discuss your problems and suggestions in social networks or on GitHub, rate AdGuard VPN for iOS in the App Store and export logs.
+Uygulamada çeşitli yardım özellikleri bulunmaktadır (sağ alttaki *Ayarlar* ve ardından *Destek* düğmesine basın): SSS bölümünü görebilir, hata bildirebilir, geri bildirim bırakabilir, sorunlarınızı ve önerilerinizi sosyal ağlarda tartışabilirsiniz. veya GitHub'da, App Store'da iOS için AdGuard VPN'i derecelendirin ve günlükleri dışa aktarın.
 
 ![Destek *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/support.png)
 

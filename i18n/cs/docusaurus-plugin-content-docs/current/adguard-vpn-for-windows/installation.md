@@ -29,20 +29,20 @@ Pokud běžná odinstalace z nějakého důvodu nefunguje, můžete zkusit pokro
 
 - Vyberte *Standardní odinstalaci*, ***Smazat AdGuard VPN*** a klikněte na *Odinstalovat*.
 
-    ![Standard uninstall *border](https://cdn.adguardvpn.com/content/kb/ad_blocker/windows/installation/standard-uninstall.png)
+    ![Standard uninstall *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/standard_uninstall.png)
 
 - Počkejte na dokončení odinstalace — v okně se objeví řetězec: `[OK] Odinstalace dokončena`
 
-    ![Uninstall finished *border](https://cdn.adguardvpn.com/content/kb/ad_blocker/windows/installation/standard-uninstall-2.png)
+    ![Uninstall finished *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/standard_uninstall_2.png)
 
     > Další kroky proveďte pouze v případě, že provedení prvních dvou kroků z nějakého důvodu nestačilo. Důrazně doporučujeme kontaktovat náš tým podpory před použitím kroků 3.-4. pokročilého pokynu k odinstalaci.
 
 - Vyberte *Pokročilou odinstalaci*, ***Smazat AdGuard VPN*** a klikněte na *Odinstalovat*.
 
-    ![Advanced uninstall *border](https://cdn.adguardvpn.com/content/kb/ad_blocker/windows/installation/advanced-uninstall.png)
+    ![Advanced uninstall *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/advanced_uninstall.png)
 
 - Počkejte na dokončení odinstalace — v okně se objeví řetězec: `[OK] Odinstalace dokončena`
 
-    ![Uninstall finished *border](https://cdn.adguardvpn.com/content/kb/ad_blocker/windows/installation/advanced-uninstall-2.png)
+    ![Uninstall finished *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/advanced_uninstall_2.png)
 
 AdGuard byl úspěšně odinstalován!

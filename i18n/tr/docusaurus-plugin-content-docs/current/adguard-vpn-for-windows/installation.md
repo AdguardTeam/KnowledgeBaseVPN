@@ -29,20 +29,20 @@ Normal kaldırma herhangi bir nedenle işe yaramazsa, gelişmiş bir yöntem kul
 
 - *Standart kaldırma*, ***AdGuard VPN'i Kaldır*** öğesini seçin ve *Kaldır* öğesine tıklayın.
 
-    ![Standart kaldırma *border](https://cdn.adguardvpn.com/content/kb/ad_blocker/windows/installation/standard-uninstall.png)
+    ![Standart kaldırma *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/standard_uninstall.png)
 
 - Kaldırma tamamlanana kadar bekleyin — pencerede bir metin olacaktır: `[OK] Uninstall finished`
 
-    ![Kaldırma işlemi tamamlandı *border](https://cdn.adguardvpn.com/content/kb/ad_blocker/windows/installation/standard-uninstall-2.png)
+    ![Kaldırma işlemi tamamlandı *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/standard_uninstall_2.png)
 
     > Sonraki adımları, yalnızca ilk iki adımı gerçekleştirmek herhangi bir nedenle yeterli olmadıysa uygulayın. Gelişmiş kaldırma talimatının 3–4. adımlarını kullanmadan önce destek ekibimizle iletişime geçmenizi önemle tavsiye ederiz.
 
 - *Gelişmiş kaldırma*, ***AdGuard VPN'i Kaldır*** öğesini seçin ve *Kaldır* öğesine tıklayın.
 
-    ![Gelişmiş kaldırma *border](https://cdn.adguardvpn.com/content/kb/ad_blocker/windows/installation/advanced-uninstall.png)
+    ![Gelişmiş kaldırma *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/advanced_uninstall.png)
 
 - Kaldırma tamamlanana kadar bekleyin — pencerede bir metin olacaktır: `[OK] Uninstall finished`
 
-    ![Kaldırma işlemi tamamlandı *border](https://cdn.adguardvpn.com/content/kb/ad_blocker/windows/installation/advanced-uninstall-2.png)
+    ![Kaldırma işlemi tamamlandı *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/advanced_uninstall_2.png)
 
 AdGuard başarıyla kaldırıldı!
