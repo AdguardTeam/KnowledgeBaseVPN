@@ -6,6 +6,7 @@ sidebar_position: 8
 By setting up AdGuard VPN on your router, you can protect your data on devices where you cannot install VPN apps, such as smart TVs and game consoles.
 
 ## System requirements
+
 AdGuard VPN can only be installed on routers that support IPsec.
 
 ## How to set up AdGuard VPN on your router
