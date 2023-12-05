@@ -14,7 +14,7 @@ You can find the AdGuard VPN for Android app in *Google Play* and install it for
 
 2. Next, in the search bar, start typing *"AdGuard"* and select *"adguard vpn"* from the list of suggested options.
 
-3. Select *AdGuard VPN - private proxy* from the list of suggested applications and tap *Install*.
+3. Select *AdGuard VPN - private proxy* from the list of suggested apps and tap *Install*.
 
 4. Wait for the installation to finish and tap *Open*.
 
