@@ -3,13 +3,13 @@ title: Common installer errors
 sidebar_position: 2
 ---
 
-This article contains some of the most common errors you can encounter during the installation of AdGuard VPN for Windows and possible ways to solve them.
+This article outlines some of the most common errors you may encounter while installing AdGuard VPN for Windows and possible ways to resolve them.
 
 ### Error 5: Access Denied {#error-5}
 
-This error occurs when there is something wrong with permissions. There may be several different reasons why AdGuard VPN installer does not have the permissions it requires to properly finish the installation process. You can try the following steps:
+This error message appears if required permissions are not granted. There may be several different reasons why AdGuard VPN installer does not have the permissions it requires to properly finish the installation process. You can try the following steps:
 
-- Temporarily disable your antiviruses. Some of them may interfere with the installation, depending on the severity of their settings.
+- Temporarily disable your antiviruses. Some of them may interfere with the installation, depending on the restrictiveness of their settings.
 
 - Choose a different installation folder. It is possible that the current installation folder has some access restrictions. Also make sure you don't select an external drive, a virtual drive, etc.
 
@@ -51,7 +51,7 @@ If you got this error code, chances are you have interrupted the installation pr
 
 ### Error 1603: Fatal error during installation {#error-1603}
 
-The error sounds scarier than it actually is. In reality, this is a rather generic error that can have many different causes, and some of them are easily fixed. Try the following solutions:
+This error sounds more worrying than it actually is. In reality, this is a rather generic error that can have many different causes, and some of them are easily fixed. Try the following solutions:
 
 - Press the *Win* key, search for *Command Prompt*, and run it. There, type in `sfc /scannow` and press *Enter*.
 
@@ -81,17 +81,17 @@ The error sounds scarier than it actually is. In reality, this is a rather gener
 
 ### Error 1618: Another installation is already in progress {#error-1618}
 
-This error occurs when there are several instances of AdGuard VPN installer launched at the same time. What to do if you get this error:
+This error appears when trying to run multiple instances of the AdGuard VPN installer simultaneously. What to do if you get this error:
 
 - Reboot your PC and start the installer again. When you restart the computer, all ongoing processes will stop, including all copies of the installer.
 
-- Do not make multiple clicks on the installer even if it doesn't start right away. Sometimes it may take a few seconds to display the installer UI.
+- Don't click multiple times on the installer, even if it doesn't start right away. Sometimes it may take a few seconds to display the installer UI.
 
 ### Error 1638: Another version of this product is already installed {#error-1638}
 
 It's very likely that you've already installed AdGuard VPN before.
 
-- Check if AdGuard VPN is already installed on your computer. You can do it by pressing the *Win* key and typing in ***AdGuard VPN***.
+- Check if AdGuard VPN is already installed on your computer. You can do that by pressing the *Win* key and start typing ***adguard vpn***.
 
 - Maybe there are some leftover files from a previous AdGuard VPN installation. Uninstall AdGuard using our special [uninstall tool](/adguard-vpn-for-windows/installation#advanced) and then repeat the installation.
 
@@ -101,6 +101,6 @@ If you have encountered an error that's not listed above, it is possible that we
 
 - Find and archive **AdGuard VPN installation logs** in the same way that is described in [this article](https://adguard.com/kb/adguard-for-windows/solving-problems/installation-logs/).
 
-- Find and save to disk **Event Viewer** logs. [This article](https://adguard.com/kb/adguard-for-windows/solving-problems/system-logs/) explains how to do that.
+- Find and save to disk the **Event Viewer** logs. [This article](https://adguard.com/kb/adguard-for-windows/solving-problems/system-logs/) explains how to do that.
 
 Please email all these files from the two previous steps at **support@adguard.com** and describe the problem in the message body. Our support team will reply to you as soon as possible.

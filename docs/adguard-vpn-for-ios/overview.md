@@ -14,7 +14,7 @@ AdGuard VPN has several functions:
 - encrypts your traffic, making contents inaccessible
 - lets you configure where to use VPN and where not to (exclusions feature)
 
-The next advantage of AdGuard VPN for iOS is our own VPN protocol. It has two main advantages: it is extremely difficult to detect compared to other VPN protocols, and it is stable even with a poor Internet connection.. You can read more about AdGuard VPN protocol [in this article](/general/adguard-vpn-protocol).
+The next advantage of AdGuard VPN for iOS is our own VPN protocol. It has two main advantages: it is extremely difficult to detect compared to other VPN protocols, and it is stable even with a poor Internet connection.. You can read more about the AdGuard VPN protocol [in this article](/general/adguard-vpn-protocol).
 
 ## How to use AdGuard VPN for iOS
 

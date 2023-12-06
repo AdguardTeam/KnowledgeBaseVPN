@@ -10,7 +10,7 @@ There are several ways for collecting AdGuard VPN Browser extension logs, but wh
 1. Open AdGuard VPN Browser extension, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
 1. Open *Settings* by clicking the hamburger menu icon (☰) → *Support* → *Report a bug*.
 1. In the opened form, leave an automatically inserted email address or enter another one and describe the error found, including the time when this error occurred. If you can't reproduce the problem, specify as accurately as possible when it last occurred.
-1. Make sure that there is a check mark next to *Include the diagnostic report in the message*, and tap *Submit*. This way, you will send logs along with the bug report.
+1. Make sure that there is a checkmark next to *Include the diagnostic report in the message*, and tap *Submit*. This way, you will send logs along with the bug report.
 
 ## Collecting and sending logs via the *Export logs* button
 
