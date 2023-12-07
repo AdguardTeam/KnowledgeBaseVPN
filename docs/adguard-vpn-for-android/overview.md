@@ -68,7 +68,7 @@ Another useful feature is *Import/Export exclusions*. There are only four steps 
 
 As we mentioned above, not only websites can be easily added to the exclusions. Choose for which apps you need AdGuard VPN and for which you don't. By default, AdGuard VPN works for all apps, but you can easily switch to the other mode.
 
-If the *Compatibility mode* with AdGuard is enabled, you can only manage apps through the AdGuard Ad Blocker. Therefore, when you tap the button, the AdGuard app opens.
+In *Integrated mode*, you can only manage apps through AdGuard Ad Blocker.
 
 ![App exclusions *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/apps_settings.png)
 
