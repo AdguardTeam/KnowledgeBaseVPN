@@ -1,20 +1,20 @@
 ---
-title: How to use Hide My Email
+title: Как использовать функцию «Скрыть мой e-mail»
 sidebar_position: 5
 ---
 
-The *Hide My Email* feature is a great tool to keep your real email address private when signing up for websites and apps that use Apple ID, such as AdGuard for iOS. You can even use it for private correspondence and manage all incoming messages just as you would with a regular email account. This way, you can protect your privacy and keep your real email address hidden from prying eyes.
+Функция *Скрыть мой e-mail* — отличный инструмент, позволяющий сохранить конфиденциальность вашего реального адреса электронной почты при регистрации на сайтах и в приложениях, использующих Apple ID. Вы можете использовать его даже для личной переписки и управлять всеми входящими сообщениями так же, как и при в обычном почтовом ящике. Таким образом, вы сможете защитить свою конфиденциальность и скрыть свой настоящий адрес электронной почты от посторонних глаз.
 
 :::note
 
-The feature is only available for iOS 15 and higher and requires an iCloud+ subscription.
+Эта функция доступна только для iOS 15 и выше и требует подписки iCloud+.
 
 :::
 
-To use this feature, go to *Settings* → [Your name] → *iCloud* → *Hide My Email* and follow the on-screen instructions.
+Чтобы воспользоваться этой функцией, перейдите в *Настройки* → [Ваше имя] → *iCloud* → *Скрыть мою почту* и следуйте инструкциям на экране.
 
-You can generate a unique and random email address that forwards incoming messages to your actual address. It might look like this: chimney-floture@privaterelay.appleid.com. There is no explicit limit to the number of emails that can be created. You can categorize them with labels and use each one for different purposes: signing up, receiving newsletters, etc. Apple ensures that the content of messages that pass through the *Hide My Email* service is not inspected, except for standard spam filtering.
+Вы можете создать уникальный и случайный адрес электронной почты, который будет перенаправлять входящие сообщения на ваш фактический адрес. Он может выглядеть так: chimney-floture@privaterelay.appleid.com. Нет явного ограничения на количество писем, которые можно создать. Вы можете распределить их по категориям с помощью ярлыков и использовать каждый из них для разных целей: подписка, получение рассылки и т. д. Apple гарантирует, что содержимое сообщений, проходящих через сервис *Скрыть e-mail*, не будет проверяться, за исключением стандартной фильтрации спама.
 
-The *Hide My Email* feature is also available in Apple Mail. To send an email without disclosing your real email address, simply select *Hide My Email* in the *From* field when composing your message.
+Функция *Скрыть e-mail* также доступна в Apple Mail. Чтобы отправить письмо, не раскрывая свою настоящую почту, просто выберите *Скрыть e-mail* в поле *От*.
 
-The *Email Protection* service by DuckDuckGo works in a similar way. You get a `@duck.com` email address and can create email aliases for sign ups and newsletters. If these aliases begin to attract too much spam, they can be easily discarded.
+Сервис *Email Protection* от DuckDuckGo работает аналогичным образом. Вы получаете адрес электронной почты `@duck.com` и можете создавать псевдонимы электронной почты для подписки и рассылки новостей. Если эти псевдонимы начинают привлекать слишком много спама, их можно легко удалить.
