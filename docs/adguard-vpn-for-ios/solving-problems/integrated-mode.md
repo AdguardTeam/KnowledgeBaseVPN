@@ -17,6 +17,6 @@ In the Integrated mode, in turn, the IPsec protocol is used, which makes it poss
 
 :::note
 
-In the Integrated mode, the features *Exclusions* or *DNS server* are unavailable.
+In *Integrated mode*, *Exclusions* and *DNS server* are not available.
 
 :::
