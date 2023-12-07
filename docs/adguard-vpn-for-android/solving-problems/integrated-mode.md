@@ -9,4 +9,4 @@ AdGuard VPN has the VPN operating mode enabled by default, which uses its own [A
 
 2. Go to *Advanced settings* and select *Operating mode*.
 
-3. Switch to *Compatibility mode with AdGuard*. Done!
+3. Switch to *Integrated mode*. Done!
