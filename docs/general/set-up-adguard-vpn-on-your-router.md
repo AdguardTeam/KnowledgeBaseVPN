@@ -41,4 +41,4 @@ You’ll need to update your router settings if you want to change the VPN serve
 
 - With AdGuard VPN on your router, neither your VPN provider nor anyone else has access to your Internet activity
 - Installing AdGuard VPN on your router secures your entire network, meaning that all devices connected to it are protected
-- You can protect multiple devices, including those that don't normally support VPN software such as PlayStation, Apple TV and other gaming or streaming consoles
+- You can enhance security and protect your data on devices where it's not possible to install AdGuard VPN apps — smart TVs (*currently, AdGuard VPN is only available on Android TV*) and game consoles
