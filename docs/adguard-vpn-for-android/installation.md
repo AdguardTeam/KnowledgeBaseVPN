@@ -8,7 +8,7 @@ AdGuard VPN can only be installed on Android devices with **Android 5.0.0 or lat
 
 ## How to install AdGuard VPN for Android
 
-You can install the AdGuard VPN for Android app for free from *Google Play*. To do this, follow [this link](https://play.google.com/store/apps/details?id=com.adguard.vpn) and tap the Install icon or follow a few simple steps:
+You can install the AdGuard VPN for Android app for free from [*Google Play*. To do this, follow [this link](https://play.google.com/store/apps/details?id=com.adguard.vpn) and tap *Install* or follow a few simple steps:
 
 1. Open the *Google Play* app on your device and tap *Search* at the top of the screen.
 

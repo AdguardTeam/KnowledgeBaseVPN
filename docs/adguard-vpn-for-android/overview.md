@@ -21,9 +21,9 @@ Firstly, download AdGuard VPN from [Google Play](https://play.google.com/store/a
 
 ## Main screen
 
-There are two bars on the main screen, reflecting the app status (Connected/Disconnected) and the selected Exclusions mode ([General/Selective](#lists-of-exclusions)). On the same screen, there are also a *Connect/Disconnect* button and a list of available servers.
+The main screen reflects the VPN status (Connected/Disconnected). There are also the *Connect/Disconnect* button and a list of available servers.
 
-Each server has its location and its ping rate, describing the response time of the server. The lower this rate, the faster the connection. The fastest servers always appear at the top of the list, which consists of more than 50 locations in dozens of countries. You can connect to the fastest server by tapping the *Connect/Disconnect* button or by picking a location.
+Each server has its location and its ping rate, describing the response time of the server. The lower this rate, the faster the connection. The fastest servers always appear at the top of the list that consists of more than 50 locations in dozens of countries. You can connect to the fastest server by tapping the *Connect* button or by picking a location.
 
 ## Exclusions
 
@@ -31,7 +31,7 @@ We've done everything to make it easy for you to manage your site and app exclus
 
 ### Lists of exclusions
 
-The exclusion lists allow you to select sites for which the VPN should be enabled — and vice versa. To reach the *Exclusions* section, tap the second icon from the left at the bottom of the screen.
+Exclusion lists allow you to manage the VPN connection for specific websites and apps. To access *Exclusions*, tap the second icon from the left at the bottom of the screen. To reach the *Exclusions* section, tap the second icon from the left at the bottom of the screen.
 
 There are two modes: in *General mode* sites from the exclusions list are excluded, and in *Selective mode*, they will be the only ones where AdGuard VPN works.
 
@@ -45,7 +45,13 @@ There are some nuances in manual adding domains. For example, if you manually ex
 
 :::
 
-As you can enable subdomains in service lists, we added boxes that reflect the status of each service — you can see them on the main screen of *Exclusions* to the left of each service name: **fully-enabled** status is marked with a white checkmark on green background, **fully-disabled** — with a gray box, and **partly-enabled**, which means that one or more parameters were changed — with a green square on white background. Good news: you can always return to the default view of service lists in case you’ve deleted or disabled any domains from there.
+As you can enable subdomains in service lists, we added boxes that reflect the status of each service — you can see them on the main screen of *Exclusions* to the left of each service name:
+
+- **Fully enabled** is indicated by a white check mark on a green background
+- **Partially enabled** (enabled subdomains without the main domain) is marked with a green square on a white background
+- **Fully disabled** is marked with a blank checkbox
+
+ Good news: you can always return to the default view of service lists in case you’ve deleted or disabled any domains from there.
 
 ![Exclusions *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/statuses.png)
 
@@ -58,13 +64,13 @@ Another useful feature is *Import/Export exclusions*. There are only four steps 
 
 ![Import/Export *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/imp-exp.png)
 
-### Apps Settings
+### App exclusions
 
-As we mentioned above, not only websites can be easily added to the exclusions. Choose for which apps you need AdGuard VPN — and vice versa. Tap the icon next to the *Exclusions lists* icon at the bottom of the screen, to open Apps settings. By default, AdGuard VPN works for all apps, but the slider can be toggled — thus turning off AdGuard VPN — for any app on the list.
+As we mentioned above, not only websites can be easily added to the exclusions. Choose for which apps you need AdGuard VPN and for which you don't. By default, AdGuard VPN works for all apps, but you can easily switch to the other mode.
 
 If the *Compatibility mode* with AdGuard is enabled, you can only manage apps through the AdGuard Ad Blocker. Therefore, when you tap the button, the AdGuard app opens.
 
-![Apps settings *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/apps_settings.png)
+![App exclusions *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/apps_settings.png)
 
 ## Settings
 
@@ -98,9 +104,9 @@ You can choose the system default, dark or light theme of the app.
 
 ### Advanced settings
 
-In the *Advanced settings*, you can find five sections. You can *Help us to become better* by toggling the switch in the upper block. This action will allow AdGuard VPN to gather crash reports, technical and interaction data. Submission will be in the form of anonymous information.
+In *Advanced settings*, you can find four sections.
 
-*Operating mode* section allows you to choose one of three options: VPN, Proxy, and Compatibility mode. In *VPN mode* all traffic is routed through AdGuard VPN automatically. When the *Proxy mode* (SOCKS5) is on, AdGuard VPN runs a local proxy server through which traffic from other apps can be routed. Choose this option only if you know what you are doing. Enabled *Compatibility mode* allows AdGuard VPN and AdGuard Ad Blocker to work together.
+*Operating mode* allows you to choose one of three options: VPN, Proxy, and Compatibility mode. In *VPN mode* all traffic is routed through AdGuard VPN automatically. When the *Proxy mode* (SOCKS5) is on, AdGuard VPN runs a local proxy server through which traffic from other apps can be routed. Choose this option only if you know what you are doing. Enabled *Compatibility mode* allows AdGuard VPN and AdGuard Ad Blocker to work together.
 
 :::note
 
