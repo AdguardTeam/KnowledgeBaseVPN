@@ -6,7 +6,7 @@ sidebar_label: How to set up AdGuard VPN automation
 
 AdGuard VPN has an *Exclusions* section and two operation modes — *General* and *Selective*. In *General mode* AdGuard VPN works everywhere except sites added to exclusions. Conversely, in *Selective mode*, VPN doesn't work anywhere except sites listed in the exclusions list. Note, that for each mode you must create a separate list.
 
-As you may notice, only websites can be added to the *Exclusions* section. To adjust AdGuard VPN for apps you need to use another feature. Our desktop apps have the *Split tunneling* module and the app for Android has *Apps settings* — these settings allow you to decide for which apps AdGuard VPN should be enabled.
+AdGuard VPN for iOS allows you to enable or disable VPN for specific websites. Unlike other AdGuard VPN apps, our iOS app can't manage app traffic.
 
 But, as it often happens, due to a number of technical nuances, it is impossible to implement such a useful function for iOS, at least for now. Therefore, we offer you an alternative way to automate AdGuard VPN for apps on iPhones and iPads.
 
