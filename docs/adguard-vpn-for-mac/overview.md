@@ -67,7 +67,7 @@ You can also allow AdGuard VPN to gather and send anonymized crash reports, tech
 
 ![DNS servers](https://cdn.adguardvpn.com/content/kb/vpn/mac/dns_en.png)
 
-Here you can add a custom DNS server (or servers) in order not to rely on a DNS server provided by your ISP by default. We recommend adding AdGuard DNS, which not only encrypts your DNS traffic but also identifies requests to malicious sites and redirects them to a “blackhole”.
+Here you can add a custom DNS server (or servers) in order not to rely on a DNS server provided by your ISP by default. We recommend adding AdGuard DNS, which not only encrypts your DNS traffic but also identifies requests to malicious websites and redirects them to a “blackhole”.
 
 ### Advanced settings
 
@@ -75,7 +75,7 @@ Here you can add a custom DNS server (or servers) in order not to rely on a DNS 
 
 #### Logging level
 
-There are only two logging levels but we strongly recommend that you use the first, default one. The second option (extended logging) should be set only to record a strange program behavior after consulting our technical support. If you have enabled the extended logging level, make sure to switch to the default one after generating the logs.
+There are only two logging levels but we strongly recommend that you use the first, default one. The second option (extended logging) should be set only to record a strange program behavior after consulting our technical support. If you have enabled the extended logging level, make sure to switch to the default one after recording logs.
 
 #### Hide menu bar icon
 

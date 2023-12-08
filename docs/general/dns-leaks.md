@@ -13,7 +13,7 @@ In other words, every time you open a website, your browser sends a request to t
 
 ## How to detect DNS leaks
 
-There are all sorts of anonymity check services for detecting DNS leaks, such as `whoer.net`. It should be understood that these sites themselves are not perfect, and their algorithms are not clear, contrary to their intentions to scare users with imaginary leaks, potentially enabling them to sell their services.
+There are all sorts of anonymity check services for detecting DNS leaks, such as `whoer.net`. The algorithms of these websites are not clear, but their intentions are — to scare users with imaginary leaks, potentially enabling them to sell their services.
 
 Some security scanning websites consider the coincidence of the user's IP address and the DNS server's IP address to be a "good" result, indicating that there are no leaks. In reality, such a match may indicate the use of a VPN. When VPN is disabled and the requests go to your ISP's DNS server, the IP address of the DNS server and your own one do not coincide.
 

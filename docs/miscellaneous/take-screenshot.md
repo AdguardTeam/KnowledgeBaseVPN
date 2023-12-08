@@ -50,7 +50,7 @@ iOS will capture the entire screen and save it as a photo. You can find it in a 
 
 - **To take a screenshot on a Windows device, press the *PrtScn* button**
 
-On some notebooks, you first have to press and hold *Fn* before pressing *PrtScn*.
+On some devices, you first have to press and hold *Fn* before pressing *PrtScn*.
 
 :::note
 
