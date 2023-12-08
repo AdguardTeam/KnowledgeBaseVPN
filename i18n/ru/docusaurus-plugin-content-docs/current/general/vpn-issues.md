@@ -1,59 +1,59 @@
 ---
-title: 'How to use AdGuard VPN in countries with Internet restrictions'
+title: 'Как использовать AdGuard VPN в странах с интернет-ограничениями'
 sidebar_position: 10
 ---
 
-In certain regions, such as China, Iran, and Russia, users might have problems connecting to AdGuard VPN. Here are the options that might help.
+В некоторых регионах, таких как Китай, Иран и Россия, у пользователей могут возникнуть проблемы с подключением к AdGuard VPN. Вот варианты, которые могут помочь.
 
-## Accessing AdGuard VPN’s website
+## Открыть сайт AdGuard VPN
 
-If adguard-vpn.com is not accessible, try using the [mirror website](https://adguardvpn-help.com/).
+Если adguard-vpn.com недоступен, попробуйте использовать [сайт-зеркало](https://adguardvpn-help.com/).
 
 :::info
 
-To avoid potential phishing or malicious websites, only follow mirror links provided in this Knowledge base or by the AdGuard VPN support team.
+Чтобы избежать фишинговых или вредоносных сайтов, переходите только по зеркальным ссылкам, предоставленным в этой базе знаний или командой поддержки AdGuard VPN.
 
 :::
 
-## Downloading the app
+## Скачать приложение
 
-### AdGuard VPN for iOS
+### AdGuard VPN для iOS
 
-If don't see AdGuard VPN in your App Store, try changing the country or region in your Apple ID settings:
+Если AdGuard VPN нет в App Store, попробуйте изменить страну или регион в настройках Apple ID:
 
-1. Open the App Store and tap your profile picture.
-1. Tap your name, then tap *Country/Region*.
-1. Tap *Change Country or Region*.
-1. Select a country, then accept the terms and conditions.
+1. Откройте App Store и коснитесь изображения своего профиля.
+1. Нажмите на своё имя, а затем *Страна/регион*.
+1. Нажмите *Изменить страну или регион*.
+1. Выберите страну, затем примите условия и положения.
 
-[Alternative ways](https://support.apple.com/en-us/HT201389)
+[Альтернативные способы](https://support.apple.com/en-us/HT201389)
 
-After changing the region, [install AdGuard VPN](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602).
+После смены региона [установите AdGuard VPN](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602).
 
-### AdGuard VPN for Android
+### AdGuard  VPN для Android
 
-If you have problems with Google Play, download the APK file from [AdGuard VPN's mirror website](https://adguardvpn-help.com/android/overview.html).
+Если у вас возникли проблемы с Google Play, скачайте APK-файл [с зеркального сайта AdGuard VPN](https://adguardvpn-help.com/android/overview.html).
 
-### AdGuard VPN for Mac
+### AdGuard VPN для Mac
 
-Download the installation file from [AdGuard VPN's mirror website](https://adguardvpn-help.com/windows/overview.html).
+Загрузите установочный файл [с зеркального сайта AdGuard VPN](https://adguardvpn-help.com/windows/overview.html).
 
-### AdGuard VPN for Windows
+### AdGuard VPN для Windows
 
-Download the installation file from [AdGuard VPN's mirror website](https://adguardvpn-help.com/mac/overview.html).
+Загрузите установочный файл [с зеркального сайта AdGuard VPN](https://adguardvpn-help.com/mac/overview.html).
 
-## Other useful tips
+## Другие полезные советы
 
-- Always make sure that you are using the latest version of AdGuard VPN, as updates typically include vital fixes and enhancements.
+- Всегда следите за тем, чтобы использовать последнюю версию AdGuard VPN, так как обновления обычно содержат важные исправления и улучшения.
 
-- Use AdGuard VPN’s full-fledged apps instead of browser extensions for a more robust and stable connection.
+- Используйте полноценные приложения AdGuard VPN вместо браузерных расширений для более надёжного и стабильного соединения.
 
-- If you encounter problems connecting to a particular location, try connecting to another one. If all locations fail to respond, restart the app to refresh the server list.
+- Если у вас возникли проблемы с подключением к определённой локации, попробуйте подключиться к другой. Если все локации не отвечают, перезапустите приложение, чтобы обновить список серверов.
 
-- Try switching between mobile data and Wi-Fi: the problem may be network-specific.
+- Попробуйте переключиться между сотовой связью и Wi-Fi: проблема может быть связана с сетью.
 
-- If you use AdGuard VPN alongside AdGuard Ad Blocker on mobile, ensure that the *General* or *VPN* operating mode is selected in the app settings.
+- Если вы используете AdGuard VPN вместе с Блокировщиком AdGuard на мобильных устройствах, убедитесь, что в Исключениях выбран *Основной* режим, в Режиме работы — *VPN*.
 
-- If you have connectivity issues, do not enable *Use QUIC* in *Advanced settings*.
+- Если у вас проблемы с подключением, не включайте *Использовать QUIC* в *Расширенных* настройках.
 
-If all else fails, don't hesitate to reach out to our support team at support@adguard-vpn.com for further assistance.
+Если ничего не помогает, не стесняйтесь обращаться за помощью в поддержку по адресу support@adguard-vpn.com.

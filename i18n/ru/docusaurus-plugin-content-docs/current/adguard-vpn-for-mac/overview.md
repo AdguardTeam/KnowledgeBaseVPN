@@ -44,7 +44,7 @@ AdGuard VPN для Mac – это VPN-сервис для компьютеров
 
 ![Экран поддержки](https://cdn.adguardvpn.com/content/kb/vpn/mac/support_ru.png)
 
-Третья вкладка — это раздел *Поддержка*. Find answers to any questions in the [FAQ](https://adguard-vpn.com/welcome.html#faq) or in the [Knowledge base](/) sections, report a bug if you encounter one, or [discuss AdGuard on any of the platforms](https://adguard.com/discuss.html). Здесь же вы можете [оставить отзыв о нашем продукте](https://surveys.adguard.com/vpn_mac/form.html). Будем благодарны, если поделитесь впечатлениями.
+Третья вкладка — это раздел *Поддержка*. Найдите ответы на любые вопросы в [FAQ](https://adguard-vpn.com/welcome.html#faq) или [Базе знаний](/), сообщите об ошибке, если обнаружите её, или [обсудите AdGuard на любой из платформ](https://adguard.com/discuss.html). Здесь же вы можете [оставить отзыв о нашем продукте](https://surveys.adguard.com/vpn_mac/form.html). Будем благодарны, если поделитесь впечатлениями.
 
 ## Настройки
 

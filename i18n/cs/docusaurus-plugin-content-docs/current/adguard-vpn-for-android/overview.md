@@ -104,7 +104,7 @@ Sekce *Provozní režim* umožňuje vybrat jednu ze tří možností: Režim VPN
 
 :::note
 
-Some AdGuard VPN features are disabled in *Compatibility mode*: DNS server selection, Kill Switch and Auto-protection. Chcete-li spravovat tunelování aplikací, měli byste také otevřít blokátor reklam AdGuard.
+Některé funkce AdGuard VPN jsou v *Režimu kompatibility* zakázány: výběr DNS serveru, Kill Switch a automatická ochrana. Chcete-li spravovat tunelování aplikací, měli byste také otevřít blokátor reklam AdGuard.
 
 :::
 
@@ -112,9 +112,9 @@ Další dvě sekce jsou *Úroveň záznamu* a *Diagnostické informace*. Pokud j
 
 Poslední částí v *Pokročilých nastaveních* jsou *Nízkoúrovňová nastavení*. Doporučujeme vám, abyste do této sekce nevstupovali, pokud nejste vysoce kvalifikovaní nebo pokud vás o to nepožádal náš tým podpory. Zde je možné povolit protokolování rozhraní TUN nebo protokolu IPv6 na rozhraní VPN, vybrat port proxy serveru nebo verzi Internetového protokolu, která se má používat.
 
-:::note Compatibility
+:::note Kompatibilita
 
-The *Enable IPv6* option is only available for networks that support IPv6.
+Možnost *Povolit IPv6* je k dispozici pouze pro sítě, které podporují IPv6.
 
 :::
 

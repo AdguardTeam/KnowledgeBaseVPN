@@ -104,7 +104,7 @@ Uygulamanın sistem varsayılanı, koyu veya açık temasını seçebilirsiniz.
 
 :::note
 
-Some AdGuard VPN features are disabled in *Compatibility mode*: DNS server selection, Kill Switch and Auto-protection. Ayrıca uygulama tünellemeyi yönetmek için AdGuard Reklam Engelleyici uygulamasını açmalısınız.
+Bazı AdGuard VPN özellikleri *Uyumluluk modunda* devre dışı bırakılır: DNS sunucu seçimi, Kill Switch ve Otomatik koruma. Ayrıca uygulama tünellemeyi yönetmek için AdGuard Reklam Engelleyici uygulamasını açmalısınız.
 
 :::
 
@@ -112,9 +112,9 @@ Sonraki iki bölüm, *Günlük kayıt düzeyi* ve *Tanılama bilgisidir*. İlk s
 
 *Gelişmiş ayarların* son bölümü *Alt seviye ayarlardır*. Yüksek nitelikli değilseniz veya destek ekibimiz tarafından istenmedikçe bu bölüme girmemenizi tavsiye ederiz. Burada, VPN arayüzünde TUN arayüzü günlüğünü veya IPv6 protokolünü etkinleştirmek, kullanılması gereken bir proxy sunucu bağlantı noktası veya internet protokolü sürümünü seçmek mümkündür.
 
-:::note Compatibility
+:::note Uyumluluk
 
-The *Enable IPv6* option is only available for networks that support IPv6.
+*IPv6'yı Etkinleştir* öğesini yalnızca IPv6'yı destekleyen ağlar için kullanılabilir.
 
 :::
 

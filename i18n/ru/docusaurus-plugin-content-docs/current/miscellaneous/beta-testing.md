@@ -11,10 +11,10 @@ sidebar_position: 2
 
 ### Как сообщить о проблеме
 
-Давайте представим, что случилось худшее — вы заметили ошибку в работе AdGuard VPN. Или, может быть, вы просто хотите поделиться предложением с разработчиками? Let us know: go to [GitHub](https://github.com/AdguardTeam/), find a suitable repository, create a new issue there, and describe the bug/feature request in detail.
+Давайте представим, что случилось худшее — вы заметили ошибку в работе AdGuard VPN. Или, может быть, вы просто хотите поделиться предложением с разработчиками? Сообщите нам об этом: перейдите [на GitHub](https://github.com/AdguardTeam/), найдите подходящий репозиторий, создайте там новую задачу и подробно опишите ошибку/запрос на добавление функции.
 
-The above method is the most preferred, but you can use others if necessary:
+Описанный выше метод мы считаем предпочтительным, но при необходимости вы можете использовать и другие:
 
-- Find us on various social media platforms, like [Facebook](https://www.facebook.com/AdguardEn/), [Reddit](https://www.reddit.com/r/Adguard/), etc. However, this is not the most efficient way to discuss technical matters.
+- Найдите наш аккаунт в любой из удобных для вас социальных сетей, таких как [Facebook](https://www.facebook.com/AdguardEn/), [Reddit](https://www.reddit.com/r/Adguard/) и др., и напишите нам. Однако это не самый эффективный способ обсуждения технических вопросов.
 
-- Email our support team from the Support tab in the app or write directly to [support@adguard.com](mailto:support@adguard.com).
+- Напишите в нашу команду поддержки из вкладки «Поддержка» в приложении или напрямую по адресу [support@adguard.com](mailto:support@adguard.com).

@@ -1,5 +1,5 @@
 ---
-title: 'What is a DNS leak'
+title: 'Cos''è una fuga di dati DNS'
 sidebar_position: 9
 ---
 
@@ -31,12 +31,12 @@ E, nel caso di AdGuard DNS, ti "fonderai" con 50 milioni di utenti, quindi, ness
 
 Esistono molti server DNS pubblici popolari, di [fornitori DNS ben noti](https://adguard-dns.io/kb/general/dns-providers). Alcuni di essi possono soltanto svolgere i propri compiti diretti, fornendo gli indirizzi IP dei domini richiesti; altri, possono fare di più.
 
-For example, AdGuard DNS removes ads and protects your device from being tracked, and AdGuard DNS Family Protection combines AdGuard DNS features with Safe search and Parental control.
+Ad esempio, AdGuard DNS rimuove gli annunci e protegge il tuo dispositivo dal tracciamento e AdGuard DNS Protezione Famiglia combina le funzionalità di AdGuard DNS con la Ricerca sicura e il Controllo genitori.
 
 Puoi selezionare qualsiasi server DNS e configurarlo su AdGuard VPN:
 
-- in AdGuard VPN for Windows: *Settings* → *App settings* → *DNS servers*
-- in AdGuard VPN for Mac: *Settings* → *App settings* → *DNS servers*
+- su AdGuard VPN per Windows: *Impostazioni* → *Impostazioni app* → *Server DNS*
+- su AdGuard VPN per Mac: *Impostazioni* → *Impostazioni app* → *Server DNS*
 - su AdGuard VPN per Android: *Impostazioni* (icona dell'ingranaggio) → *Impostazioni app* → *Server DNS*
-- in AdGuard VPN for iOS: *Settings* (gear icon) → *App settings* → *DNS server*
-- in AdGuard VPN Browser extension: the hamburger menu icon → *Settings* → *DNS server*
+- su AdGuard VPN per iOS: *Impostazioni* (icona dell'ingranaggio) → *Impostazioni app* → *Server DNS*
+- sull'estensione AdGuard VPN Browser: l'icona del menu hamburgr → *Impostazioni* → *Server DNS*

@@ -104,7 +104,7 @@ In den *Erweiterten Einstellungen* finden Sie fünf Abschnitte. Sie können *AdG
 
 :::note
 
-Some AdGuard VPN features are disabled in *Compatibility mode*: DNS server selection, Kill Switch and Auto-protection. Um das Anwendungstunneling zu verwalten, sollten Sie außerdem AdGuard Werbeblocker öffnen.
+Einige AdGuard VPN-Funktionen sind im *Kompatibilitätsmodus* deaktiviert: DNS-Server-Auswahl, Kill Switch und Automat. Schutz. Um das Anwendungstunneling zu verwalten, sollten Sie außerdem AdGuard Werbeblocker öffnen.
 
 :::
 
@@ -112,9 +112,9 @@ Die nächsten beiden Abschnitte sind *Protokollierungsebene* und *Diagnosedaten*
 
 Der letzte Abschnitt von *Erweiterten Einstellungen* ist *Low-Level-Einstellungen*. Wir bitten Sie dringend, die Einstellungen in diesem Abschnitt nicht zu ändern, es sei denn, Sie sind hochqualifiziert oder wurden von unserem Support-Team dazu aufgefordert. Hier ist es möglich, die TUN-Schnittstellenprotokollierung oder das IPv6-Protokoll auf der VPN-Schnittstelle zu aktivieren, einen Proxy-Server-Port oder eine zu verwendende Internetprotokollversion auszuwählen.
 
-:::note Compatibility
+:::note Kompatibilität
 
-The *Enable IPv6* option is only available for networks that support IPv6.
+Die Option *IPv6 aktivieren* ist nur für Netzwerke verfügbar, die IPv6 unterstützen.
 
 :::
 

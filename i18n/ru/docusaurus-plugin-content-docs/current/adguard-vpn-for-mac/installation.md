@@ -51,4 +51,4 @@ AdGuard VPN для Mac установлен!
 
 AdGuard VPN полностью удалён с вашего Mac.
 
-You can learn more about AdGuard VPN for Mac in [this article](/adguard-vpn-for-mac/overview).
+Подробнее об AdGuard VPN для Mac вы можете узнать [в этой статье](/adguard-vpn-for-mac/overview).
