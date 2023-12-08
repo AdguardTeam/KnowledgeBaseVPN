@@ -17,7 +17,7 @@ If you need a VPN for one or more apps, set up AdGuard VPN to automatically turn
 3. In the next window, make sure that the *Is Opened* option is selected, and then tap *Choose* to choose the app.
 
 ![Instruction. Part 2](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_on2_en.jpg)
-4. Start entering the name of the application, in our case it's Twitter, and select it. Then tap *Done* in the upper right corner of the screen. Then tap *Next* in the upper right corner of the screen. And in the opened window tap *Add Action*.
+4. Start entering the name of the app (in our case it's Twitter) and select it. Tap *Done*, then tap *Next* in the upper right corner of the screen. In the opened window, tap *Add Action*.
 
 ![Instruction. Part 3](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_on3_en.jpg)
 5. Start entering “AdGuard VPN” and select the AdGuard VPN app. In the new window tap *Set a VPN connection*.

@@ -45,7 +45,7 @@ We recommend using the **From the list** option. Websites are grouped into eight
 
 To export the list of exclusions from AdGuard VPN for Windows to your computer, click **Export exclusions**, select the folder where the list will be stored and click **Save**. An archive `exclusions.zip` with two `.txt` files will be downloaded, one for each of the lists — **General** and **Selective**. You can edit them by adding new exclusions or deleting old ones.
 
-To transfer the exclusion lists to another device, send the `.zip` file to that device. On the device where the exclusion lists are to be imported, open AdGuard VPN, click *Exclusions*, then *Import Exclusions* and select the received archive.
+On the destination device, open AdGuard VPN, click *Exclusions*, and select *Websites* or *Apps*. Click *Import exclusions* and select the received archive.
 
 ## Settings
 
