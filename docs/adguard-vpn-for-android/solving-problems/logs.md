@@ -35,6 +35,6 @@ In most cases, the **Default** logging level is sufficient to trace down possibl
 
 6. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred.
 
-7. Make sure that there is a check mark next to **end app logs and system info** and tap **Send**.
+7. Make sure that there is a check mark next to **Send app logs and system info** and tap **Send**.
 
 >If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, go to **Settings** → **Support** → **Export logs and system info**.

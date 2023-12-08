@@ -54,7 +54,7 @@ On some devices, you first have to press and hold *Fn* before pressing *PrtScn*.
 
 :::note
 
-PrtScn (Print Screen) button can be differently abbreviated on various keyboards — PrntScrn, PrtScn, PrtScr or PrtSc.
+PrtScn (Print Screen) can be differently abbreviated on various keyboards — PrntScrn, PrtScn, PrtScr or PrtSc.
 
 :::
 
@@ -68,7 +68,7 @@ To take a screenshot of a specific area, you should use the following combinatio
 
 - **Hold down *Win* (the Windows button) and *Shift* and press *S***
 
-After you take a screenshot, it will be saved in the clipboard. Usually, you will then be able to insert/paste it into, e.g., a document using the standard button combination *Ctrl + V*. Alternatively, if you need to save the screenshot into a file, you should open the standard **Paint** program (or any other app that can work with images). Paste your screenshot there using the same button combination or by clicking the Paste button (usually in the top left corner of the screen) and then save it.
+After you take a screenshot, it will be saved in the clipboard. Usually, you will then be able to paste it into a document using the standard button combination *Ctrl + V*. Alternatively, if you need to save the screenshot into a file, you should open the standard **Paint** program (or any other app that can work with images). Paste your screenshot there using the same button combination or by clicking the Paste button (usually in the top left corner of the screen) and then save it.
 
 Windows 8 and 10 let you take a screenshot very quickly with a *Win + PrtScn* combination. As soon as you press these buttons, the screenshot will be automatically saved as a file to your Pictures → Screenshots Folder.
 
