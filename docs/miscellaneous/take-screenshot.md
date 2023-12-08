@@ -54,7 +54,7 @@ On some devices, you first have to press and hold *Fn* before pressing *PrtScn*.
 
 :::note
 
-PrtScn (Print Screen) button can be differently abbreviated on various keyboards — PrntScrn, PrtScn, PrtScr or PrtSc.
+PrtScn (Print Screen) can be differently abbreviated on various keyboards — PrntScrn, PrtScn, PrtScr or PrtSc.
 
 :::
 
