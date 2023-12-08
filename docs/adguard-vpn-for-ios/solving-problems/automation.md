@@ -4,7 +4,7 @@ sidebar_position: 1
 sidebar_label: How to set up AdGuard VPN automation
 ---
 
-There are no app exclusions in AdGuard VPN for iOS. Our desktop apps have the *Split tunneling* module and the app for Android has *Apps settings* — these settings allow you to decide for which apps AdGuard VPN should be enabled. Yet, there is an alternative way to automate AdGuard VPN for apps on iPhones and iPads.
+There are no app exclusions in AdGuard VPN for iOS. Yet, there is a way to automate AdGuard VPN for apps on iPhones and iPads.
 
 ## Setting up AdGuard VPN automatic activation
 

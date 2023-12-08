@@ -63,7 +63,11 @@ In **General** mode, the [AdGuard VPN protocol](/general/adguard-vpn-protocol) i
 
 In **Integrated** mode, AdGuard VPN will be able to work at the same time with AdGuard for iOS ad blocker by using the IPSec protocol instead. This protocol is also secure, but a little slower and easier to detect. You don't need to perform any additional actions to set up the integration: just install both apps and switch to this mode.
 
-> Note that in **Integrated** mode you can't use the Exclusions feature or choose a DNS server.
+:::note
+
+In **Integrated** mode, you can't use the Exclusions feature or choose a DNS server.
+
+:::
 
 ### DNS server
 
