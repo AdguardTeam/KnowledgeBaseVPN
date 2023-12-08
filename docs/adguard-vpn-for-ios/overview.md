@@ -11,10 +11,10 @@ AdGuard VPN has several functions:
 
 - hides your real whereabouts and helps you stay anonymous
 - changes your IP address to protect your data from tracking
-- encrypts your traffic, making contents inaccessible
+- encrypts your traffic to make it unreachable to scammers
 - lets you configure where to use VPN and where not to (exclusions feature)
 
-The next advantage of AdGuard VPN for iOS is our own VPN protocol. It has two main advantages: it is extremely difficult to detect compared to other VPN protocols, and it is stable even with a poor Internet connection.. You can read more about the AdGuard VPN protocol [in this article](/general/adguard-vpn-protocol).
+The next advantage of AdGuard VPN for iOS is our own VPN protocol. It is extremely difficult to detect compared to other VPN protocols, and it is stable even with a poor Internet connection. You can [read more](/general/adguard-vpn-protocol) about the AdGuard VPN protocol.
 
 ## How to use AdGuard VPN for iOS
 
@@ -67,7 +67,7 @@ In **Integrated** mode, AdGuard VPN will be able to work at the same time with A
 
 ### DNS server
 
-The purpose of the Domain Name System (DNS) is to translate a domain name or hostname (e.g., example.com or www.example.com) into something browsers can understand, i.e. IP addresses. This job is performed by DNS servers. AdGuard VPN for iOS offers a choice between several DNS servers, each with their own special qualities. For example, AdGuard DNS removes ads and protects your device from tracking while AdGuard DNS Family Protection combines the functions of AdGuard DNS with SafeSearch and adult content blocking. DNS servers by different DNS providers may also work faster or slower depending on your location, ISP, and other factors. Choose the one that works best for you. You can find out more about DNS and its characteristics [in this article](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns).
+DNS servers translate a domain name or hostname (e.g., example.com or www.example.com) into something browsers can understand, i.e. IP addresses. AdGuard VPN for iOS offers a choice between several DNS servers, each with their own special qualities. For example, AdGuard DNS removes ads and protects your device from tracking while AdGuard DNS Family Protection combines the functions of AdGuard DNS with Safe search and adult content blocking. DNS servers by different DNS providers may also work faster or slower depending on your location, ISP, and other factors. Choose the one that works best for you. You can [find out more about DNS](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns) and its characteristics.
 
 ![DNS server screen *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/dns-server.png)
 

@@ -34,8 +34,8 @@ You could say this is a particular subtype of Error 1603. The possible solutions
     1. Press *Win + R* and enter **services.msc**.
     1. Find in the list and double click *Windows Installer*.
     1. Hit *Start* button under *Service status* and hit *OK*. If the service status is **running**, you should click *Stop* first and then hit *Start*.
-    1. Press *Win + R*, type and enter ***msiexec /unregister*** and hit *Enter*.
-    1. Press *Win + R* again, type and enter ***msiexec /regserver*** and hit *Enter*
+    1. Press *Win + R*, type and enter **msiexec /unregister** and hit *Enter*.
+    1. Press *Win + R* again, type and enter **msiexec /regserver** and hit *Enter*
 
 - Reboot the PC and start the installation all over again. Sometimes that's enough to fix the problem.
 
@@ -61,11 +61,11 @@ This error sounds more worrying than it actually is. In reality, this is a rathe
 
 - Start and re-register Microsoft Installer service. It requires some work.
 
-    1. Press *Win + R* and enter ***services.msc***.
+    1. Press *Win + R* and enter **services.msc**.
     1. Find in the list and double click *Windows Installer*.
     1. Hit *Start* button under *Service status* and hit *OK*. If the service status is **running**, you should click *Stop* first and then hit *Start*.
-    1. Press *Win + R*, type and enter ***msiexec /unregister*** and hit *Enter*.
-    1. Press *Win + R* again, type and enter ***msiexec /regserver*** and hit *Enter*
+    1. Press *Win + R*, type and enter **msiexec /unregister** and hit *Enter*.
+    1. Press *Win + R* again, type and enter **msiexec /regserver** and hit *Enter*
 
 - Acquire full permissions on the drive for installation. It is possible that the error 1603 occurs because you don’t have full permissions on the file location. It's also not as easy as some of the other solutions:
 
@@ -91,7 +91,7 @@ This error appears when trying to run multiple instances of the AdGuard VPN inst
 
 It's very likely that you've already installed AdGuard VPN before.
 
-- Check if AdGuard VPN is already installed on your computer. You can do that by pressing the *Win* key and start typing ***adguard vpn***.
+- Check if AdGuard VPN is already installed on your computer. You can do that by pressing the *Win* key and start typing *adguard vpn*.
 
 - Maybe there are some leftover files from a previous AdGuard VPN installation. Uninstall AdGuard using our special [uninstall tool](/adguard-vpn-for-windows/installation#advanced) and then repeat the installation.
 

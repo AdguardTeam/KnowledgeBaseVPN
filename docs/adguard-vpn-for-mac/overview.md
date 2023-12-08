@@ -22,7 +22,7 @@ The first tab is the *Home* screen. Here you can see AdGuard VPN current status 
 
 ![Exclusions](https://cdn.adguardvpn.com/content/kb/vpn/mac/exclusions_en.png)
 
-Next goes the *Exclusions* screen. AdGuard VPN has several features that make it unique, and one of them is definitely being able to switch between two exclusion modes. In the General mode, AdGuard VPN will run on all websites but the ones from the exclusions list. In the Selective mode, conversely, AdGuard VPN will run only on websites from the exclusions list. You yourself can decide where you want VPN to work.
+AdGuard VPN has several features that make it unique, and one of them is definitely *Exclusions*. By default, AdGuard VPN will run on all websites and in all apps but the ones from the exclusions list. But you can switch to the other mode, so AdGuard VPN will run only on websites and in apps from the exclusions list.
 
 ![Exclusions screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/services_en.png)
 
@@ -39,7 +39,9 @@ What’s more, ready-made exclusions lists can be transferred to other devices w
 3. When transferring between different devices, don't forget to send the `.zip` file to the device for import. For example, if you import exclusion lists from your Mac to your iPhone, make sure to send the `.zip` file to your phone beforehand.
 4. Open AdGuard VPN on the device/in the browser where you want to import the archive with the ready lists of exclusions. Find the appropriate section, click the *Import* button and select the archive. Done!
 
-> Archive files from other devices can be similarly imported to your AdGuard VPN for Mac.
+:::note Archive files from other devices can be similarly imported to your AdGuard VPN for Mac.
+
+:::
 
 ## Support
 
@@ -59,7 +61,7 @@ Finally, we come to the Settings tab. In the *About program* section you can see
 
 The first four basic features make the application more convenient and user-friendly, i.e. *Kill Switch*, *Auto-update*, *Launch AdGuard VPN at login*, and *Auto-connect on app launch*. What’s more, you can choose between light, dark, and system themes — the latter one matches the theme on your Mac.
 
-Another option that shouldn't be overlooked is that you can allow AdGuard VPN to gather and send anonymized crash reports, technical and interaction data in order to help us improve our app. Last but not least, using the button on the right, you can export logs from your Mac. This can be useful if you want to attach logs to your message to support.
+You can also allow AdGuard VPN to gather and send anonymized crash reports, technical and interaction data in order to help us improve our app. Last but not least, you can export logs from your Mac. This can be useful if you want to attach logs to your message to support.
 
 ### DNS servers
 
@@ -71,11 +73,9 @@ Here you can add a custom DNS server (or servers) in order not to rely on a DNS 
 
 ![Advanced settings](https://cdn.adguardvpn.com/content/kb/vpn/mac/advanced-settings_en.png)
 
-It's not recommended to adjust Advanced settings. Don't change them unless asked by our technical support or unless you're sure what you're doing.
-
 #### Logging level
 
-There are only two logging levels but we strongly recommend that you use the first, default one. The second option (extended logging) should be set only to record a strange program behavior after consulting our technical support. If you have enabled the extended logging level, make sure to revert to the default one after generating the logs.
+There are only two logging levels but we strongly recommend that you use the first, default one. The second option (extended logging) should be set only to record a strange program behavior after consulting our technical support. If you have enabled the extended logging level, make sure to switch to the default one after generating the logs.
 
 #### Hide menu bar icon
 
