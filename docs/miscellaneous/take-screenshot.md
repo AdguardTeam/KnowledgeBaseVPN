@@ -19,7 +19,7 @@ Generally, you should use the following button combination for Android:
 
 - **Hold down at once the *Volume Down* and the *Power* buttons for 1–2 seconds**
 
-Android will capture the entire screen and save it as a photo. So, you can find the screenshot in a Screenshots folder in your Gallery.
+Your Android device will capture the entire screen and save it as a photo. So, you can find the screenshot in a Screenshots folder in your Gallery.
 
 But, as it has been already said, there can be differences depending on a particular device. Let’s look at other possible combinations:
 
@@ -44,7 +44,7 @@ and this one for iPhone X or later:
 
 - **Press the *Sleep/Wake* button and the *Volume Up* button at the same time, then quickly release them**
 
-iOS will capture the entire screen and save it as a photo. You can find it in a standard Photo app.
+Your iOS device will capture the entire screen and save it as a photo. You can find it in a standard Photo app.
 
 ### Windows
 
