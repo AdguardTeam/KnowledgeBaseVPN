@@ -5,7 +5,7 @@ sidebar position: 1
 
 
 
-If you encounter a problem when using AdGuard VPN for Windows, you can inform us about it. We would be grateful if you also send application logs our way, they help us resolving problems much quicker.
+If you encounter any problems while using AdGuard VPN for Windows, you can inform us about it. We would appreciate it if you also send application logs, as they help us resolve issues much quicker.
 
 ## Collecting and sending standard logs
 
