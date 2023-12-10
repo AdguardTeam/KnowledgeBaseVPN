@@ -7,6 +7,6 @@ AdGuard VPN 默认开启 VPN 操作模式，该模式使用自带的 [AdGuard VP
 
 1. 打开 AdGuard VPN 安卓版，点击屏幕右上角的齿轮图标。
 
-2. 点击「高级设置」，选择「操作模式」。
+2. Go to *Advanced settings* and select *Operating mode*.
 
-3. 将模式切换为 *AdGuard 兼容模式*。 完成！
+3. Switch to *Integrated mode*. 完成！

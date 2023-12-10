@@ -30,7 +30,7 @@ Erfahren Sie mehr über [DNS-Server verschiedener Anbieter](https://adguard-dns.
 
 ## Ausschlüsse
 
-Der nächste Tab enthält eines der Hauptunterscheidungsmerkmale von AdGuard VPN – zwei Modi mit separaten Ausschlusslisten.
+The next tab contains one of the main distinctive features of AdGuard VPN — two modes with separate exclusion lists.
 
 Im **Allgemeinen Modus** funktioniert AdGuard VPN standardmäßig auf allen Websites, mit Ausnahme der Websites, die Sie der Ausschlussliste hinzugefügt haben. Im **Selektiven Modus** hingegen funktioniert AdGuard VPN standardmäßig nirgendwo. Sie können alle Websites, bei denen Sie dies wünschen, in eine Ausschlussliste aufnehmen, die sich von der im **Allgemeinen Modus** angezeigten Liste unterscheidet.
 

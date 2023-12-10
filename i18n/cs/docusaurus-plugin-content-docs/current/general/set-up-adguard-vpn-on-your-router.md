@@ -1,46 +1,46 @@
 ---
-title: How to set up AdGuard VPN on your router
+title: Jak nastavit AdGuard VPN na routeru
 sidebar_position: 8
 ---
 
-By setting up AdGuard VPN on your router, you can protect your data on devices where you cannot install VPN apps, such as smart TVs and game consoles.
+Nastavením AdGuard VPN na routeru můžete chránit svá data na zařízeních, kam nelze instalovat aplikace VPN, jako jsou chytré TV a herní konzole.
 
 :::note
 
-This option is only available if you have an AdGuard VPN subscription and your router supports IPsec.
+Tato možnost je k dispozici pouze v případě, že máte předplatné AdGuard VPN a váš router podporuje IPsec.
 
 :::
 
-## How to set up AdGuard VPN on your router
+## Jak nastavit AdGuard VPN na routeru
 
-- In your [AdGuard account](https://auth.adguard.com/login.html), select AdGuard VPN
-- Under _Devices_, click _Add router_
+- Ve svém [AdGuard účtu](https://auth.adguard.com/login.html) vyberte AdGuard VPN
+- V části _Zařízení_ klikněte na _Přidat router_
 
 ![Add router \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/2_year.jpg)
 
-- Select the desired VPN server location and generate credentials
+- Vyberte požadované umístění serveru VPN a vygenerujte přihlašovací údaje
 
 ![Generate credentials \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/configure_router.png)
 
-Please note that the next steps may vary depending on your router. We have used the Keenetic router as an example.
+Upozorňujeme, že další kroky se mohou lišit v závislosti na vašem routeru. Jako příklad jsme použili router Keenetic.
 
-- In your admin page, go to the router settings
-- Enable _VPN Client_ and click _Add VPN server_
-- Select IPsec-client (it may be called IKE; not L2TP/IPsec)
-- Enter the credentials you created in step 3
+- Na stránce administrátora přejděte do nastavení routeru
+- Povolte _klienta VPN_ a klikněte na _Přidat server VPN_
+- Vyberte možnost IPsec-client (může se nazývat IKE, nikoli L2TP/IPsec)
+- Zadejte přihlašovací údaje, které jste vytvořili v kroku 3
 
 ![Enter the credentials \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/vpn_connection.jpg)
 
-- Connect devices to your router
+- Připojte zařízení k routeru
 
 :::note
 
-You’ll need to update your router settings if you want to change the VPN server location.
+Pokud chcete změnit umístění serveru VPN, musíte aktualizovat nastavení routeru.
 
 :::
 
-## Why setting up AdGuard VPN on your router may be useful
+## Proč může být nastavení AdGuard VPN na vašem routeru užitečné
 
-- With AdGuard VPN on your router, neither your VPN provider nor anyone else has access to your Internet activity
-- Installing AdGuard VPN on your router secures your entire network, meaning that all devices connected to it are protected
-- You can enhance security and protect your data on devices where it's not possible to install AdGuard VPN apps — smart TVs (_currently, AdGuard VPN is only available on Android TV_) and game consoles
+- S AdGuard VPN na vašem routeru nemá poskytovatel VPN ani nikdo jiný přístup k vaší internetové aktivitě
+- Instalace AdGuard VPN na váš router zabezpečí celou vaši síť, což znamená, že všechna zařízení k ní připojená jsou chráněná
+- Můžete zvýšit zabezpečení a chránit svá data na zařízeních, na která není možné nainstalovat aplikace AdGuard VPN — chytré TV (_v současné době je AdGuard VPN k dispozici pouze pro Android TV_) a herní konzole

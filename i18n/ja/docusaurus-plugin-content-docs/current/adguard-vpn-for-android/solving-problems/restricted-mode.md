@@ -18,11 +18,15 @@ sidebar_position: 4
     - 「**ビルド番号**」の行を7回タップします（端末によっては「ソフトウェア情報」→「ビルド番号」となります）。 その後、「**開発者になりました！**」のような通知が表示されます（必要に応じて、デバイスのロック解除コードを入力してください）。
     - Open **System Settings** → **Developer Options** → Scroll down and enable **USB debugging** → Confirm debugging is enabled in the window **Allow USB debugging** after reading the warning carefully.
 
-    > If you have any difficulties or additional questions, full instructions can be found [here](https://developer.android.com/studio/debug/dev-options).
+    :::note If you have any difficulties or additional questions, full instructions can be found [here](https://developer.android.com/studio/debug/dev-options).
+
+    :::
 
 1. ADBをインストトールして設定します（方法：[Windows編](https://expnote.com/how-to-install-android-debug-bridge/)、[Mac編](https://child-programmer.com/m-adb/)）
 
-    > Windowsでは、**Samsung** のユーザーは、[こちらのユーティリティ](https://developer.samsung.com/mobile/android-usb-driver.html)をインストールする必要があるかもしれません。
+    :::note On the Windows platform, **Samsung** owners may need to install [this utility](https://developer.samsung.com/mobile/android-usb-driver.html).
+
+    :::
 
 1. **USBケーブル**を使用して**ADB**をインストールしたコンピューターまたはラップトップにAndroidデバイスを接続します。
 
@@ -37,7 +41,11 @@ sidebar_position: 4
 
 Android端末からユーザーアカウントを管理する方法は[こちら](https://support.google.com/a/answer/6223444?hl=ja) をご覧ください。
 
-> Please note that in some cases restricted user accounts are created implicitly and cannot be removed. For instance, when you use Dual Messenger or Dual App features on **Samsung** or **LG** devices. Read below how to fix the issue in these cases.
+:::note
+
+In some cases restricted user accounts are created implicitly and cannot be removed. For instance, when you use Dual Messenger or Dual App features on **Samsung** or **LG** devices. Read below how to fix the issue in these cases.
+
+:::
 
 ### LGとSamsungデバイスの場合
 
@@ -48,7 +56,7 @@ Android端末からユーザーアカウントを管理する方法は[こちら
 - 端末**設定**を開く
 - **高度な設定**をタップ
 - 下にスクロールして**デュアルメッセンジャー**をタップ
-- チェックついているアプリをすべて**オフ**にする
+- Disable the **Dual Messenger** for all apps;
 - 端末画面オフにして5～10分程度放置する
 - 画面のロックを解除し、再度VPNプロファイルの作成を試みてください。
 
@@ -57,5 +65,5 @@ Android端末からユーザーアカウントを管理する方法は[こちら
 - **設定**を開く
 - 「**便利な機能**」を開く（端末によっては「一般」や他のメニュー名称の場合もあります）
 - 下にスクロールして、「**デュアルアプリ**」をタップ
-- アプリに対するスイッチをすべてオフにする
+- Remove all apps from the list;
 - 端末を再起動する

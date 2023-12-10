@@ -7,6 +7,6 @@ AdGuard VPN has the VPN operating mode enabled by default, which uses its own [A
 
 1. Otvorite AdGuard VPN za Android i izaberite ikonu zupčanik u donjem desnom uglu ekrana.
 
-2. Idite na opciju "Napredne postavke" i izaberite stavku "Operativni režim".
+2. Go to *Advanced settings* and select *Operating mode*.
 
-3. Prebacite režim na *Režim kompatibilnosti sa AdGuard-om*. Gotovo!
+3. Switch to *Integrated mode*. Gotovo!

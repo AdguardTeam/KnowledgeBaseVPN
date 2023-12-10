@@ -10,11 +10,11 @@ slug: /
 
 VPN:n avulla voit muodostaa turvallisen yhteyden toiseen verkkoon Internetissä.
 
-Initially, VPNs were created to securely connect business networks over the Internet, so that people could connect to the corporate network from home. Tekniikkaa käytetään myös monissa muissa yhteyksissä, kuten mm. anonyymiin Internet-selaukseen tai oman Internet-käytön piilottamiseen vakoilijoilta julkisissa Wi-Fi-verkoissa.
+Initially, VPNs were created to securely connect business networks over the Internet, so that people could connect to the corporate network from home. Today, this technology is used for many other things: for example, to browse the Internet anonymously or to protect your online activity from prying eyes while using public Wi-Fi.
 
-VPN yhdistää käyttäjän tietokoneen tai mobiililaitteen palvelimeen, joka mahdollistaa verkon selaamisen eri IP-osoitteella. Tällöin ulkopuoliset tarkkailijat eivät näe käyttäjän todellista IP-osoitetta, mikä tekee heidän jäljittämisestään mahdotonta.
+A VPN connects a user's computer or mobile device to a server and allows one to browse the net using a "cover" IP address. Tällöin ulkopuoliset tarkkailijat eivät näe käyttäjän todellista IP-osoitetta, mikä tekee heidän jäljittämisestään mahdotonta.
 
-VPN:stä puhuttaessa ensimmäinen asia, joka mainitaan, on tietoliikenteen salaus ja siitä seuraava turvallisuus. Mutta mitä se tarkoittaa? VPN luo salatun tunnelin käyttäjän laitteen ja etäpalvelimen välille. Kaikki verkkoliikenteesi kulkee tämän tunnelin läpi, joten tietosi ovat matkan varrella suojassa. Ulkoiselle tarkkailijalle tietoliikenteesi lähde on VPN-palvelin, joten laitteellasi näyttää olevan tämän palvelimen IP-osoite. Tämä konsti peittää käyttäjän identiteetin ja todellisen sijainnin.
+The first thing that users mention in relation to VPN is traffic encryption and the security derived from it. Mutta mitä se tarkoittaa? VPN luo salatun tunnelin käyttäjän laitteen ja etäpalvelimen välille. Kaikki verkkoliikenteesi kulkee tämän tunnelin läpi, joten tietosi ovat matkan varrella suojassa. Ulkoiselle tarkkailijalle tietoliikenteesi lähde on VPN-palvelin, joten laitteellasi näyttää olevan tämän palvelimen IP-osoite. Tämä konsti peittää käyttäjän identiteetin ja todellisen sijainnin.
 
 VPN-yhteyttä voidaan käyttää:
 

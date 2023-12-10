@@ -13,7 +13,7 @@ Başka bir deyişle, bir siteyi her açtığınızda, tarayıcınız İSS'nin DN
 
 ## DNS sızıntıları nasıl tespit edilir
 
-DNS sızıntılarını tespit etmek için `whoer.net` gibi her türlü anonimlik kontrol hizmeti vardır. Kullanıcıları hayali sızıntılarla korkutma ve potansiyel olarak bazı hizmetleri satma niyetlerinin aksine, bu sitelerin kendilerinin mükemmel olmadığı ve algoritmalarının net olmadığı anlaşılmalıdır.
+DNS sızıntılarını tespit etmek için `whoer.net` gibi her türlü anonimlik kontrol hizmeti vardır. The algorithms of these websites are not clear, but their intentions are — to scare users with imaginary leaks, potentially enabling them to sell their services.
 
 Bazı güvenlik tarama web siteleri, kullanıcının IP adresi ile DNS sunucusunun IP adresinin çakışmasını "iyi" bir sonuç olarak kabul eder ve bu da herhangi bir sızıntı olmadığını gösterir. Gerçekte, böyle bir eşleşme bir VPN kullanımına işaret edebilir. VPN devre dışı bırakıldığında ve istekler İSS'nizin DNS sunucusuna gittiğinde, DNS sunucusunun IP adresi ile sizinkinin IP adresi çakışmaz.
 
@@ -29,7 +29,7 @@ Ve AdGuard DNS söz konusu olduğunda, 50 milyon kullanıcıyla "birleşirsiniz"
 
 ## AdGuard VPN'de özel DNS sunucusu nasıl ayarlanır
 
-[İyi bilinen DNS sağlayıcılarının](https://adguard-dns.io/kb/general/dns-providers) birçok popüler genel DNS sunucusu vardır. Bazıları yalnızca doğrudan görevlerini yerine getirebilir - istenen alan adlarının IP adreslerini verir ve bazıları daha fazlasını yapabilir.
+[İyi bilinen DNS sağlayıcılarının](https://adguard-dns.io/kb/general/dns-providers) birçok popüler genel DNS sunucusu vardır. Some of them can only perform their direct duties — giving the IP addresses of the requested domains, and some can do more.
 
 Örneğin, AdGuard DNS reklamları kaldırır ve cihazınızı izlenmeye karşı korur ve AdGuard DNS Family Protection, AdGuard DNS özelliklerini Güvenli arama ve Ebeveyn denetimi ile birleştirir.
 

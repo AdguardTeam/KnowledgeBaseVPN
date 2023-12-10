@@ -16,13 +16,17 @@ sidebar_position: 4
     - 打开手机自带的「**设置**」；
     - 点击**系统**部分（一般在设置菜单的最后）。 在此部分中找到子项「**关于手机**」；
     - 点击**版本号**7次。 之后，您会收到通知称**您已处于开发者模式**（有可能会要求您输入设备的解锁密码）；
-    - 打开「**系统设置**」→「**开发者选项**」→下滑并启用「**USB 调试**」→在仔细阅读警告内容后在「**允许 USB 调试**」窗口中确认启用
+    - Open **System Settings** → **Developer Options** → Scroll down and enable **USB debugging** → Confirm debugging is enabled in the window **Allow USB debugging** after reading the warning carefully.
 
-    > 如您遇到任何困难或其他问题，可在[此处](https://developer.android.com/studio/debug/dev-options)查看完整说明。
+    :::note If you have any difficulties or additional questions, full instructions can be found [here](https://developer.android.com/studio/debug/dev-options).
+
+    :::
 
 1. [安装和配置](https://www.xda-developers.com/install-adb-windows-macos-linux/) ADB；
 
-    > 在 Windows 平台中，**三星**用户需要安装[此工具](https://developer.samsung.com/mobile/android-usb-driver.html)。
+    :::note On the Windows platform, **Samsung** owners may need to install [this utility](https://developer.samsung.com/mobile/android-usb-driver.html).
+
+    :::
 
 1. 在您的电脑或笔记本上安装 **ADB**，然后用 **USB 数据线**将手机和电脑相连；
 
@@ -37,7 +41,11 @@ sidebar_position: 4
 
 安卓用户可以在[此处](https://support.google.com/a/answer/6223444?hl=en)找到如何管理用户账户。
 
-> 请注意，在某些情况下，受限用户帐户会自动创建，无法删除。 例如，当您在**三星**或 **LG** 设备上使用双账户/应用分身时。 请阅读下文，了解如何解决此类问题。
+:::note
+
+In some cases restricted user accounts are created implicitly and cannot be removed. 例如，当您在**三星**或 **LG** 设备上使用双账户/应用分身时。 请阅读下文，了解如何解决此类问题。
+
+:::
 
 ### LG 和三星设备
 
@@ -48,7 +56,7 @@ sidebar_position: 4
 - 打开**设置**；
 - 点击「**高级**」；
 - 下滑并点击「**双Messenger 账户**」；
-- 禁用所有应用的**双账户**；
+- Disable the **Dual Messenger** for all apps;
 - 锁定设备5分钟；
 - 解锁屏幕并尝试再次创建 VPN 配置文件。
 
@@ -57,5 +65,5 @@ sidebar_position: 4
 - 打开**设置**；
 - 选择「**常规**」选项；
 - 下滑并点击「**应用分身**」；
-- 移除列表中的所有应用；
+- Remove all apps from the list;
 - 重启设备。

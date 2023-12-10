@@ -13,7 +13,7 @@ En otras palabras, cada vez que abres un sitio web, tu navegador envía una soli
 
 ## Cómo detectar fugas de DNS
 
-Hay todo tipo de servicios de verificación de anonimato para detectar fugas de DNS, como `whoer.net`. Debe entenderse que estos sitios web en sí mismos no son perfectos y sus algoritmos no son claros, a diferencia de sus intenciones de intimidar a los usuarios con filtraciones imaginarias y potencialmente vender algún servicio.
+Hay todo tipo de servicios de verificación de anonimato para detectar fugas de DNS, como `whoer.net`. The algorithms of these websites are not clear, but their intentions are — to scare users with imaginary leaks, potentially enabling them to sell their services.
 
 Algunos sitios web de análisis de seguridad consideran que la coincidencia de la dirección IP del usuario y la dirección IP del servidor DNS es un resultado "bueno", lo que indica que no hay fuga de datos. En realidad, tal coincidencia puede indicar el uso de una VPN. Cuando la VPN está deshabilitada y las solicitudes van al servidor DNS de su ISP, la dirección IP del servidor DNS y la tuya no coinciden.
 
@@ -29,7 +29,7 @@ Y en el caso de AdGuard DNS te "fusionarás" con 50 millones de usuarios por lo 
 
 ## Cómo configurar un servidor DNS personalizado en AdGuard VPN
 
-Hay muchos servidores DNS públicos populares de [proveedores de DNS conocidos](https://adguard-dns.io/kb/general/dns-providers). Algunos de ellos solo pueden realizar sus funciones directas, dando las direcciones IP de los dominios solicitados, y algunos pueden hacer más.
+Hay muchos servidores DNS públicos populares de [proveedores de DNS conocidos](https://adguard-dns.io/kb/general/dns-providers). Some of them can only perform their direct duties — giving the IP addresses of the requested domains, and some can do more.
 
 Por ejemplo, AdGuard DNS elimina los anuncios y protege tu dispositivo para que no sea rastreado, y AdGuard DNS Family Protection combina las funciones de AdGuard DNS con la búsqueda segura y el control parental.
 

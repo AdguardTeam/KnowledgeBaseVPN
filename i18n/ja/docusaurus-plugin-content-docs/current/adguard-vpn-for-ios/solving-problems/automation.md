@@ -4,11 +4,7 @@ sidebar_position: 1
 sidebar_label: アプリごとにAdGuard VPNを常時オン・オフにする方法
 ---
 
-AdGuard VPNには、「*VPN対象外リスト*」機能と、「*一般*」と「*指定*」という2つの操作モードがあります。 *一般モード*では、「VPN対象外リスト」に追加されたウェブサイトに対してAdGuard VPNはオフになります。 逆に、*指定モード*では、リストに記載されたサイト以外でVPNはオフになります。 なお、それぞれのモードに対して個別のリストを作成する必要があります。
-
-お気づきのように、*VPN対象外リスト*に追加できるのはWebサイトのみです。 「AdGuard VPNをアプリごとにオン・オフ設定する方法は?」 と思われる方も多いかと思います。 この目的のために、AdGuard VPNのデスクトップアプリには「*Split-tunneling（VPN対象外アプリ）*」機能があり、Android用アプリには「*アプリに対する設定*」機能があります。 これらの設定により、AdGuard VPNがどのアプリに対して機能するかしないかをカスタマイズすることができます。
-
-しかし、よくあることですが、技術的なニュアンスの違いにより、（少なくとも現時点では）このような便利な機能をiOSに実装することは不可能です。 そこで、iPhone・iPadのアプリに対してAdGuard VPNを自動化する代替方法を紹介したく思います。
+There are no app exclusions in AdGuard VPN for iOS. Yet, there is a way to automate AdGuard VPN for apps on iPhones and iPads.
 
 ## AdGuard VPN の自動起動を設定する方法
 
@@ -21,14 +17,14 @@ AdGuard VPNには、「*VPN対象外リスト*」機能と、「*一般*」と�
 3. 「*開いている*」のみが選択された状態で、「*選択*」をタップ
 
 ![手順 第2部](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_on2_en.jpg)
-4. 対象アプリの名前を入力し始めて（この場合は「Twitter」）、対象アプリが現れたらタップ →右上の「*完了*」をタップ →右上の「*次へ*」をタップ →「*アクションを追加*」をタップ
+4. Start entering the name of the app (in our case it's Twitter) and select it. Tap *Done*, then tap *Next* in the upper right corner of the screen. In the opened window, tap *Add Action*.
 
 ![手順 第3部](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_on3_en.jpg)
 5. 「AdGuard VPN」と入力して、表示されたAdGuard VPN下の 「*VPNに接続*」をタップ
 
 ![手順 第4部](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_on4_en.jpg)
 6. 「VPN接続を*オン**にする*」となっていることを確認して、右上の「*次へ*」をタップ
-7. 「*実行の前に尋ねる*」をオフにする →「尋ねる」 をタップ → 右上の「*完了*」をタップ
+7. 「*実行の前に尋ねる*」をオフにする Confirm your choice, then tap *Done*.
 
 これで、新しい自動オートメーションが出来上がりました。 Twitterアプリ（対象アプリ）を起動すると、AdGuard VPNが自動的に有効になります。 あとは、対象アプリ（この例では「Twitter」）を閉じたときに AdGuard VPN を自動的にオフにするもう一つのオートメーションを作成する必要があります。
 
@@ -36,7 +32,7 @@ AdGuard VPNには、「*VPN対象外リスト*」機能と、「*一般*」と�
 
 ![手順 第1部](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_off1_en.jpg)
 
-1. 同じ「*ショートカット*」アプリで下の🕐アイコン「オートメーション」をタップ → 右上の「*＋*」をタップ →「*個人用オートメーションを作成*」をタップ →リストで「*App*」を選択する
+1. In the same *Shortcuts* app start creating a new automation: tap *Automation* → *Create Personal Automation* → *App*.
 2. 「*閉じている*」のみが選択されている状態で、 「*選択*」をタップ
 
 ![手順 第2部](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_off2_en.jpg)

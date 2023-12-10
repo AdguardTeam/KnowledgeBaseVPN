@@ -10,11 +10,11 @@ slug: /
 
 VPN을 사용하면 인터넷의 다른 네트워크에 안전하게 연결할 수 있습니다.
 
-Initially, VPNs were created to securely connect business networks over the Internet, so that people could connect to the corporate network from home. 그러나 이 기술은 다른 많은 용도로 사용됩니다. 예를 들어, 익명으로 인터넷을 탐색하거나 공용 Wi-Fi를 사용하는 동안 온라인 활동을 엿보는 눈으로부터 보호합니다.
+Initially, VPNs were created to securely connect business networks over the Internet, so that people could connect to the corporate network from home. Today, this technology is used for many other things: for example, to browse the Internet anonymously or to protect your online activity from prying eyes while using public Wi-Fi.
 
-VPN은 컴퓨터 또는 모바일 기기를 서버에 연결하고, 실제 IP 주소를 사용하지 않고 인터넷을 탐색할 수 있도록 합니다. 따라서 제3자는 사용자의 실제 IP 주소를 볼 수 없으므로 IP 주소를 추적하는 것이 거의 불가능합니다.
+A VPN connects a user's computer or mobile device to a server and allows one to browse the net using a "cover" IP address. 따라서 제3자는 사용자의 실제 IP 주소를 볼 수 없으므로 IP 주소를 추적하는 것이 거의 불가능합니다.
 
-VPN과 관련하여 가장 먼저 언급하는 것은 트래픽 암호화와 보안입니다. 그러나 그것은 무엇을 의미합니까? AdGuard VPN은 사용자의 기기와 원격 서버 사이에 터널을 생성합니다. 모든 웹 트래픽은 이 터널을 통과하므로 데이터가 보호됩니다. 제3자의 경우, 트래픽이 VPN 서버를 나가므로 기기가 이 서버의 IP 주소를 가지고 있는 것처럼 보입니다. 이 트릭은 사용자의 신원과 실제 위치를 숨깁니다.
+The first thing that users mention in relation to VPN is traffic encryption and the security derived from it. 그러나 그것은 무엇을 의미합니까? AdGuard VPN은 사용자의 기기와 원격 서버 사이에 터널을 생성합니다. 모든 웹 트래픽은 이 터널을 통과하므로 데이터가 보호됩니다. 제3자의 경우, 트래픽이 VPN 서버를 나가므로 기기가 이 서버의 IP 주소를 가지고 있는 것처럼 보입니다. 이 트릭은 사용자의 신원과 실제 위치를 숨깁니다.
 
 VPN은 다음 용도로 사용할 수 있습니다.
 

@@ -5,7 +5,7 @@ sidebar position: 1
 
 
 
-Pokud při používání AdGuard VPN pro Windows narazíte na problém, můžete nás o něm informovat. Budeme vám vděční, pokud nám budete posílat také záznamy o aplikacích, které nám pomohou vyřešit problémy mnohem rychleji.
+Pokud při používání AdGuard VPN pro Windows narazíte na problém, můžete nás o něm informovat. Uvítali bychom, kdybyste zasílali také protokoly aplikací, protože nám pomáhají řešit problémy mnohem rychleji.
 
 ## Shromažďování a odesílání standardních protokolů
 

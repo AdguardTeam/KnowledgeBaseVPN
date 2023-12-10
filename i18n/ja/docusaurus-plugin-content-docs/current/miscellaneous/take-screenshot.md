@@ -30,7 +30,7 @@ Android 8以降では、スマートフォンの左端または右端に沿っ�
 
 If this method doesn’t work, check *Settings* → *Advanced features* → *Motions and gestures* → enable *Palm swipe to capture*.
 
-さらに、端末でスクリーンショットを撮る専用アプリを使用できます。たとえば、 *Screenshot Easy*、 *Screenshot Ultimate*、 *Screenshot Snap*などです。
+Besides, you can always use any special apps for taking screenshots on your devices, for example — *Screenshot Easy*, *Screenshot Ultimate*, *Screenshot Snap*, etc.
 
 ### iOS
 
@@ -48,11 +48,15 @@ iPhone/iPadでスクリーンショットを撮るには、次の組み合わせ
 
 ### Windows
 
-- **Windowsでスクリーンショットを撮るには、 *PrtScn*ボタンを押します。**
+- **To take a screenshot on a Windows device, press the *PrtScn* button**
 
-一部のノートパソコンでは、 *Fn* を押しながら、代わりに *PrtScn* を押す必要があります。
+On some devices, you first have to press and hold *Fn* before pressing *PrtScn*.
 
-*※PrtScn（Print Screen）ボタンは、キーボードによってPrntScrn、PrtScn、PrtScr、PrtScと略し方が異なる場合がありますのでご注意ください。*
+:::note
+
+PrtScn (Print Screen) can be differently abbreviated on various keyboards — PrntScrn, PrtScn, PrtScr or PrtSc.
+
+:::
 
 Windowsは画面全体をキャプチャし、クリップボードにコピーします。
 
@@ -64,17 +68,17 @@ Windowsは画面全体をキャプチャし、クリップボードにコピー�
 
 - ****Win* （Windowsボタン）と *Shift* を押しながら ***S*** を押します。***
 
-スクリーンショットを撮った後、クリップボードに保存されます。 ほとんどの場合、 *Ctrl + V* ボタンの組み合わせで、現在編集中の文書にペーストすることができます。 また、スクリーンショットをファイルに保存する必要がある場合は、標準の「**ペイント**」プログラム（または画像を扱うことができるその他のアプリ）を開いてください。 Ctrl+V 、または貼り付けボタン（通常、画面の左上隅）をクリックしてスクリーンショットを貼り付け、保存してください。
+スクリーンショットを撮った後、クリップボードに保存されます。 Usually, you will then be able to paste it into a document using the standard button combination *Ctrl + V*. また、スクリーンショットをファイルに保存する必要がある場合は、標準の「**ペイント**」プログラム（または画像を扱うことができるその他のアプリ）を開いてください。 Ctrl+V 、または貼り付けボタン（通常、画面の左上隅）をクリックしてスクリーンショットを貼り付け、保存してください。
 
 Windows 8 と 10 では、 *Win + PrtScn* の組み合わせで、非常に素早くスクリーンショットを撮ることができます。 これらのボタンを押すと同時に、スクリーンショットは自動的にファイルとして「写真」→「スクリーンショット」フォルダに保存されます。
 
-また、スクリーンショットを撮るための専用プログラム「 *Snipping Tool* 」があり、コンピュータのスタートメニューにある標準プログラムの中から見つけることができます。 Snipping Tool を使用すると、デスクトップの任意の領域または画面全体をキャプチャできます。 このプログラムを使ってスクリーンショットを撮った後、画像を編集し、コンピュータの任意のフォルダに保存することができます。
+また、スクリーンショットを撮るための専用プログラム「 *Snipping Tool* 」があり、コンピュータのスタートメニューにある標準プログラムの中から見つけることができます。 Snipping Tool を使用すると、デスクトップの任意の領域または画面全体をキャプチャできます。 After taking a screenshot using this program you can edit the picture and then save it.
 
 そのほか、 「**PicPick**」「**Nimbus Screenshot**」「**Screenshot Captor**」「**Snipaste**」「**Monosnap**」など、コンピュータでスクリーンショットを撮るための様々なアプリを使ってみることも可能です。
 
 ### macOS
 
-Macでスクリーンショットを撮るには、次の組み合わせを使用します:
+To take a screenshot on a Mac device, use the following button combination:
 
 - ******⌘ Cmd + Shift + 3*** を同時に押します。***
 

@@ -19,7 +19,7 @@ AdGuard VPN, yalnızca **iOS 11.2 ve iPadOS 11.2 veya sonraki sürümlere** sahi
 
     ![Ara *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/search-en.png)
 
-1. Önerilen uygulamalar listesinden *AdGuard VPN - Unlimited & Fast* öğesini seçin ve *İndir* öğesine dokunun. Gerekirse, açılan pencereye Apple Kimliği hesap parolanızı girin.
+1. Select *AdGuard VPN - Unlimited & Fast* from the list of suggested apps and tap *Download*. Gerekirse, açılan pencereye Apple Kimliği hesap parolanızı girin.
 
     ![AdGuard VPN *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/adguard-vpn-en.png)
 

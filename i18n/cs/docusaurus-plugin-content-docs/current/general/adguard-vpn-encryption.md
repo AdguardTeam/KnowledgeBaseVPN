@@ -5,9 +5,9 @@ sidebar_position: 7
 
 ## Úvod
 
-Šifrování je důvodem, proč se v pojmu "virtuální privátní síť" vyskytuje slovo "privátní". VPN vytvoří mezi vaším zařízením a serverem VPN tunel, přes který se vaše data zašifrují a poté se v zabezpečené podobě dostanou do otevřeného internetu. Proces šifrování, tj. přeměny dat na "nesmysly", které nikdo, kdo je zachytí, nemůže přečíst, je pro každou službu VPN zásadní.
+Šifrování je důvodem, proč se v pojmu "virtuální privátní síť" vyskytuje slovo "privátní". VPN vytvoří mezi vaším zařízením a serverem VPN tunel, přes který jsou vaše data zašifrována a poté bezpečně přenesena do otevřeného internetu. Proces šifrování, tj. přeměny dat na "nesmysly", které nikdo, kdo je zachytí, nemůže přečíst, je pro každou službu VPN zásadní.
 
-Protokol AdGuard VPN používá dosud nejbezpečnější a nejrychlejší šifrovací algoritmus – AES-256. Zjistěte, co to je a proč je to tak dobré.
+Protokol AdGuard VPN používá dosud nejbezpečnější a nejrychlejší šifrovací algoritmus — AES-256. Zjistěte, co to je a proč je to tak dobré.
 
 ## Historie AES
 
@@ -23,6 +23,6 @@ AES je šifra bloků se symetrickým klíčem. Jako šifra se symetrickým klí�
 
 Existují různé velikosti klíčů — 128, 192 a 256 bitů — bloky se také měří v bitech. Během šifrování nahrazuje šifrovač každou informaci jinou v závislosti na bezpečnostním klíči. Například AES-256 vytvoří 256 bloků šifrovaného textu z 256 bloků prostého textu ve 14 kolech.
 
-Kola se skládají z několika kroků: rozdělení dat do bloků, prohození bajtů, posunutí řádků a přeskupení sloupců. Výsledkem je zcela náhodná sada znaků, která bude dávat smysl pouze s šifrovacím klíčem.
+Kola se skládají z několika kroků: rozdělení dat do bloků, prohození bajtů, posunutí řádků a přeskupení sloupců. Výsledkem je zcela náhodná sada znaků, která dává smysl pouze při použití správného šifrovacího klíče.
 
-AES-256 je nejsilnější úrovní šifrování: k prolomení této šifry bude muset zlý činitel vyzkoušet 2256 diskrétních kombinací, z nichž každá se skládá ze 78 číslic.
+AES-256 je nejsilnější úroveň šifrování: k prolomení této šifry by bylo třeba vyzkoušet 2256 diskrétních kombinací, z nichž každá se skládá ze 78 číslic.

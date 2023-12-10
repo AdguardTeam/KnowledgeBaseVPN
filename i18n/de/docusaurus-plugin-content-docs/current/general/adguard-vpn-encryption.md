@@ -5,9 +5,9 @@ sidebar_position: 7
 
 ## Einleitung
 
-Verschlüsselung ist der Grund, warum das Wort „privat“ im Begriff „virtuelles privates Netzwerk“ vorkommt. Ein VPN erstellt einen Tunnel zwischen Ihrem Gerät und einem VPN-Server, durch den Ihre Daten verschlüsselt werden und dann in sicherer Form in das offene Internet gelangen. Der Verschlüsselungsprozess, d. h. das Umwandeln von Daten in Kauderwelsch, das niemand lesen kann, der sie abfängt, ist für jeden VPN-Dienst unerlässlich.
+Verschlüsselung ist der Grund, warum das Wort „privat“ im Begriff „virtuelles privates Netzwerk“ vorkommt. A VPN creates a tunnel between your device and a VPN server, passing through which your data is encrypted and then securely transmitted to the open Internet. Der Verschlüsselungsprozess, d. h. das Umwandeln von Daten in Kauderwelsch, das niemand lesen kann, der sie abfängt, ist für jeden VPN-Dienst unerlässlich.
 
-Das AdGuard VPN-Protokoll verwendet den bisher sichersten und schnellsten Verschlüsselungsalgorithmus – AES-256. Erfahren Sie, was es ist und warum es so gut ist.
+The AdGuard VPN protocol uses the most secure and fast encryption algorithm to date — AES-256. Erfahren Sie, was es ist und warum es so gut ist.
 
 ## Ein historischer Überblick über die AES
 
@@ -23,6 +23,6 @@ AES ist eine Blockverschlüsselung mit einem symmetrischen Schlüssel. Als Versc
 
 Es gibt verschiedene Schlüsselgrößen – 128, 192 und 256 Bit – und die Blöcke werden auch in Bit gemessen. Während des Verschlüsselungsprozesses ersetzt der Verschlüssler je nach Sicherheitsschlüssel jede Information durch eine andere. So erzeugt beispielsweise AES-256 in 14 Runden aus 256 Blöcken Klartext 256 Blöcke Chiffretext.
 
-Die Runden bestehen aus mehreren Schritten: Daten in Blöcke aufteilen, Bytes ersetzen, Zeilen verschieben und Spalten neu anordnen. Das Ergebnis ist ein völlig zufälliger Satz von Zeichen, der nur mit einem Verschlüsselungsschlüssel sinnvoll ist.
+Die Runden bestehen aus mehreren Schritten: Daten in Blöcke aufteilen, Bytes ersetzen, Zeilen verschieben und Spalten neu anordnen. The result is a completely random set of characters that will only make sense when using the right encryption key.
 
-AES-256 ist die stärkste Verschlüsselungsstufe: Um diese Chiffre zu knacken, muss ein Angreifer 2256 diskrete Kombinationen ausprobieren, die jeweils aus 78 Ziffern bestehen.
+AES-256 is the strongest level of encryption: to break this cipher, 2256 discrete combinations, each consisting of 78 digits, would have to be tried.

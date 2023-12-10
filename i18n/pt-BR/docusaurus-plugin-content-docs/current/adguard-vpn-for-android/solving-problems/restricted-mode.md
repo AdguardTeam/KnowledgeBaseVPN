@@ -18,11 +18,15 @@ Há duas maneiras de resolver o problema:
     - Clique na linha **Número de build** 7 vezes. Depois disso, você receberá uma notificação de que **Você agora é um desenvolvedor** (Se necessário, insira um código de desbloqueio para o dispositivo);
     - Open **System Settings** → **Developer Options** → Scroll down and enable **USB debugging** → Confirm debugging is enabled in the window **Allow USB debugging** after reading the warning carefully.
 
-    > If you have any difficulties or additional questions, full instructions can be found [here](https://developer.android.com/studio/debug/dev-options).
+    :::note If you have any difficulties or additional questions, full instructions can be found [here](https://developer.android.com/studio/debug/dev-options).
+
+    :::
 
 1. [Instale e configure](https://www.xda-developers.com/install-adb-windows-macos-linux/) o adb;
 
-    > Na plataforma Windows, **proprietários de Samsung** podem precisar instalar [este utilitário](https://developer.samsung.com/mobile/android-usb-driver.html).
+    :::note On the Windows platform, **Samsung** owners may need to install [this utility](https://developer.samsung.com/mobile/android-usb-driver.html).
+
+    :::
 
 1. Conecte seu dispositivo usando um cabo **USB** ao computador ou laptop no qual você instalou **ADB**;
 
@@ -37,7 +41,11 @@ Há duas maneiras de resolver o problema:
 
 Você pode [encontrar aqui](https://support.google.com/a/answer/6223444?hl=en) como gerenciar contas de usuário de um dispositivo Android.
 
-> Please note that in some cases restricted user accounts are created implicitly and cannot be removed. For instance, when you use Dual Messenger or Dual App features on **Samsung** or **LG** devices. Read below how to fix the issue in these cases.
+:::note
+
+In some cases restricted user accounts are created implicitly and cannot be removed. For instance, when you use Dual Messenger or Dual App features on **Samsung** or **LG** devices. Read below how to fix the issue in these cases.
+
+:::
 
 ### Dispositivos LG e Samsung
 
@@ -48,7 +56,7 @@ Os proprietários de telefones **LG** ou **Samsung** também podem encontrar um 
 - Abra **Configurações**;
 - Pressione **Avançado**;
 - Role para baixo e pressione **Dual Messenger**;
-- Desative o **Dual Messenger** para todos os aplicativos;
+- Disable the **Dual Messenger** for all apps;
 - Bloqueie o dispositivo por 5 minutos;
 - Desbloqueie a tela e tente novamente criar o perfil VPN.
 
@@ -57,5 +65,5 @@ Os proprietários de telefones **LG** ou **Samsung** também podem encontrar um 
 - Abra **Configurações**;
 - Escolha a guia **Geral**;
 - Role para baixo e pressione **Dual App**;
-- Remova todos os aplicativos da lista;
+- Remove all apps from the list;
 - Reinicie seu dispositivo.

@@ -3,15 +3,11 @@ title: Özelliklere genel bakış
 sidebar_position: 1
 ---
 
-## Windows için AdGuard VPN nedir?
-
-"Sanal Özel Ağ" kısaltması olan VPN, internet bağlantınızı güvenli hâle getiren ve çevrimiçi anonim kalmanıza yardımcı olan bir hizmettir. Nasıl çalışır? VPN kullanmadan bir siteyi her ziyaret ettiğinizde, İSS'niz onu görür. Kim olduğunuzu, ne aradığınızı bilir ve bu verileri toplayıp satabilir. Sırasıyla, geldiğiniz site de etkinliğinizi izleyebilir. Bir VPN uygulamasını etkinleştirdiğinizde, trafiğinizi şifreli bir tünel üzerinden uzak bir VPN sunucusuna yönlendirerek gizliliğinizi sağlar: İSS nereye istek gönderdiğinizi bilmez ve site nereden geldiğinizi bilmez.
-
 ## Windows için AdGuard VPN ne yapar
 
 - Ağ trafiğinin kesilmesine (aldatma) karşı korur. AdGuard VPN, cihazınızla uzak sunucu arasında şifreli bir tünel oluşturur. Tüm internet trafiğiniz bu tünelden geçer, böylece verileriniz yol boyunca korunur. [AdGuard'ın benzersiz protokolü](/general/adguard-vpn-protocol) sayesinde hızlı ve güvenli bir bağlantı garanti edilir.
 
-- IP adresinizi gizler. Gerçek IP adresiniz, siber suçlular için kişisel verilerinizin anahtarıdır. IP'nizi gizlemezseniz adınız, e-posta adresiniz, telefon numaranız, kredi kartı bilgileriniz dolandırıcıların eline geçebilir. AdGuard VPN ile daha önce de söylediğimiz gibi tüm trafiğiniz şifreli bir tünelden geçer ve VPN sunucusuna gelir. Bu nedenle, dışarıdan bakıldığında, cihazınızın söz konusu VPN sunucusunun IP adresine sahip olduğu görülmektedir.
+- IP adresinizi gizler. Gerçek IP adresiniz, siber suçlular için kişisel verilerinizin anahtarıdır. IP'nizi gizlemezseniz adınız, e-posta adresiniz, telefon numaranız, kredi kartı bilgileriniz dolandırıcıların eline geçebilir. With AdGuard VPN, all your traffic goes through an encrypted tunnel and comes to the VPN server. The web server registers the IP address of the endpoint of the tunnel, i.e. the VPN server, and not the device's real IP address.
 
 - Gerçek konumunuzu gizler. AdGuard VPN sunucularından herhangi birini seçerek, o sunucunun konumuna anında "ışınlanırsınız". Bu size ne kazandırıyor? Örneğin, yerel fiyatlarla otel rezervasyonu yapma veya coğrafi hedefli reklamlardan saklanma yeteneği.
 
@@ -31,7 +27,7 @@ Ekranın üst kısmında dört sekmeli bir gezinme paneli vardır: **Ana Sayfa**
 
 ## İstisnalar
 
-Windows için AdGuard VPN iki modda çalışabilir: **Genel** veya **Seçici**. Bu ne anlama geliyor? Uygulamanın bazı siteler dışında her yerde çalışmasını istiyorsanız **Genel modu** etkinleştirin ve tünelden hariç tutmak istediğiniz siteleri listeleyin. **Seçici modun** tam tersi bir etkisi vardır: AdGuard VPN'i yalnızca dışlama listesinde belirtilen sitelerde etkinleştirir. Lütfen bu iki modun istisna listelerinin birbirinden bağımsız olduğunu unutmayın.
+AdGuard VPN for Windows can operate in two modes. By default, the application works everywhere, and you can list the websites and apps you want to exclude from the tunnel. But you can switch to the opposite mode: AdGuard VPN will only run on the websites and in the apps specified in the list of exclusions. Please note that these two lists are independent from one another.
 
 ![İstisnalar](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_en.png)
 
@@ -41,21 +37,23 @@ Alan adlarını girerek siteleri **el ile** istisnalara ekleyebilirsiniz. Uygula
 
 ![Listeden İstisnalar ekle](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_from_list_en.png)
 
-> Alan adlarını elle eklerken bazı ince ayrıntıları göz önünde bulundurmalısınız. Örneğin, `google.com` alan adını elle hariç tutarsanız, tüm `*.google.com` alt alanları da istisna listesine eklenecektir. Ancak, `google.es` veya `google.it` gibi diğer üst düzey alan adlarına sahip alan adları hariç tutulmayacaktır. Veya `youtube.com` alan adını istisnalara ekleyebilirsiniz, ancak aynı hizmet `youtu.be` alan adı listeye dahil edilmeyecektir.
+:::note When adding domains manually, you should take into account some nuances. Örneğin, `google.com` alan adını elle hariç tutarsanız, tüm `*.google.com` alt alanları da istisna listesine eklenecektir. Ancak, `google.es` veya `google.it` gibi diğer üst düzey alan adlarına sahip alan adları hariç tutulmayacaktır. Veya `youtube.com` alan adını istisnalara ekleyebilirsiniz, ancak aynı hizmet `youtu.be` alan adı listeye dahil edilmeyecektir.
+
+:::
 
 **Listeden** seçeneğini kullanmanızı tavsiye ederiz. Siteler sekiz kategoriye ayrılmıştır: Sosyal ağlar, Mesajlaşma, Video ve Müzik yayın akışı hizmetleri, Oyunlar, Alışveriş, Arama motorları ve İş iletişim araçları. Her platformla ilgili tüm alan adları ve alt alan adları dahil olmak üzere en popüler hizmetleri oraya yerleştirdik.
 
 ### İstisna listelerini içe ve dışa aktarma
 
-Windows için AdGuard VPN'dan istisnalar listesini bilgisayarınıza aktarmak için **İstisnaları dışa aktar** öğesine tıklayın, listenin depolanacağı klasörü seçin ve **Kaydet** öğesine tıklayın. Listelerin her biri için bir tane olmak üzere iki `.txt` dosyası içeren bir `exclusions.zip` arşivi indirilecektir — **Genel** ve **Seçici**. Bunları yeni istisnalar ekleyerek veya eskileri silerek düzenleyebilirsiniz.
+Windows için AdGuard VPN'dan istisnalar listesini bilgisayarınıza aktarmak için **İstisnaları dışa aktar** öğesine tıklayın, listenin depolanacağı klasörü seçin ve **Kaydet** öğesine tıklayın. An archive `exclusions.zip` with two `.txt` files will be downloaded, one for each of the lists. Bunları yeni istisnalar ekleyerek veya eskileri silerek düzenleyebilirsiniz.
 
-İstisna listelerini başka bir cihaza aktarmak için `.zip` dosyasını hedefine gönderin. İstisna listeleriyle arşivi içe aktarmak istediğiniz cihazda AdGuard VPN'i açın, *İstisnalar* ve ardından *İstisnaları içe aktar* öğesine tıklayın ve daha önce gönderilen arşivi seçin.
+On the destination device, open AdGuard VPN, click *Exclusions*, and select *Websites* or *Apps*. Click *Import exclusions* and select the received archive.
 
 ## Ayarlar
 
 ![Ayarlar](https://cdn.adguardvpn.com/content/release_notes/vpn/windows/v2.0/settings_en.png)
 
-Uygulamanın sekme çubuğunun dördüncü sekmesi, uygulamayı özelleştirmenize yardımcı olacak bölümler içerir. İkisine daha yakından bakalım: **Uygulama ayarları** ve **Uygulama istisnaları**.
+The fourth tab contains sections that will help you customize the application.
 
 ### Uygulama ayarları
 
@@ -83,7 +81,7 @@ Gelişmiş ayarlara hiç dokunmadan Windows için AdGuard VPN'i kullanmak tamame
 
 Aralarından seçim yapabileceğiniz iki günlük kayıt düzeyi mevcuttur: **Varsayılan olarak kaydet** ve **Her şeyi kaydet**. İlk seçenek varsayılan olarak etkindir. **Her şeyi kaydet** seçeneği, yalnızca destek ekibimiz sizden bunu yapmanızı isterse etkinleştirilmelidir. Uygulamayı bu modda uzun süre kullanmak, batarya tüketiminin artmasına neden olur.
 
-Tüm günlükler cihazınızda yerel olarak depolanır ve gerekirse bunları destek ekibine gönderebilirsiniz.
+All logs are stored locally on your device, and you can send them to the support team if needed.
 
 ##### QUIC'i kullan
 
@@ -93,7 +91,7 @@ Bu, AdGuard'ın gelişmiş QUIC şifreleme protokolünü kullanmasını sağlaya
 
 ![İstisnalara bir uygulama ekleme](https://cdn.adguardvpn.com/content/release_notes/vpn/windows/v2.0/add_app_en.png)
 
-AdGuard VPN yalnızca tarayıcılarınızın değil, cihazınızda yüklü diğer uygulamaların trafiğini de şifreler. Belirli uygulamaları tünelden hariç tutmak istiyorsanız, onları **Uygulama istisnaları** listesine koyun.
+Not only does AdGuard VPN encrypt the traffic of browsers, but also of other apps installed on your device. Belirli uygulamaları tünelden hariç tutmak istiyorsanız, onları **Uygulama istisnaları** listesine koyun.
 
 ## Diğer sekmeler
 

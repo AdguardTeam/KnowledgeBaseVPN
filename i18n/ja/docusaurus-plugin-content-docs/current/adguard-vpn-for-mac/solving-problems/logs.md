@@ -3,7 +3,7 @@ title: 'ログの収集・送信方法'
 sidebar_position: 1
 ---
 
-AdGuard VPN for Mac の使用時に問題が発生した場合、アプリのログを送信することでそれについてお知らせいただけます。
+If you encounter any problems while using AdGuard VPN for Mac, you can inform us about it by sending application logs.
 
 ## 通常ログの収集・送信
 
@@ -15,8 +15,11 @@ AdGuard VPN for Mac の使用時に問題が発生した場合、アプリのロ
 
 3. フォームに、折り返し連絡用メールアドレスを入力し、問題についての概要、再現手順、発生時間などを記述してください。 問題を再現できない場合は、問題が最後に発生した日時をできるだけ正確に記述してください。
 
-4. 「**テクニカルログを添付する**」チェックボックスにチェックを入れます。これがご報告にログを添付するための項目です。
-> もし、別の方法でログをお送りいただく方が便利な場合は、手動でログをエクスポートすることができます。 これを行うには、「**設定**」 → 「**一般設定**」 → 「**ログをエクスポートする**」（右側の**アクション**の下）をクリックしてください。
+4. There is a check mark next to the **Send detailed system info**, which means that when you send a report, you also send logs.
+
+:::note If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, select **Settings** → **General** → **Export logs** in the **Actions** section on the right.
+
+:::
 
 ## 「すべてを記録」ログの収集・送信（デバッグ用）
 
@@ -34,7 +37,12 @@ AdGuard VPN for Mac の使用時に問題が発生した場合、アプリのロ
 
 6. フォームに、折り返し連絡用メールアドレスを入力し、問題についての概要、再現手順、発生時間などを記述してください。
 
-7. 「**テクニカルログを添付する**」チェックボックスにチェックを入れて、「**送信する**」をクリックします。
-> もし、別の方法でログをお送りいただく方が便利な場合は、手動でログをエクスポートすることができます。 これを行うには、「**設定**」 → 「**一般設定**」 → 「**ログをエクスポートする**」（右側の**アクション**の下）をクリックしてください。
+7. Make sure that there is a check mark next to **Send detailed system info** and click **Send**.
+
+:::note
+
+もし、別の方法でログをお送りいただく方が便利な場合は、手動でログをエクスポートすることができます。 これを行うには、「**設定**」 → 「**一般設定**」 → 「**ログをエクスポートする**」（右側の**アクション**の下）をクリックしてください。
+
+:::
 
 この記事は定期的に更新されます。 この記事で問題の解決方法が見つからない場合は、AdGuardテクニカルサポートのsupport@adguard-vpn.com（日本語対応）にお問い合わせください。

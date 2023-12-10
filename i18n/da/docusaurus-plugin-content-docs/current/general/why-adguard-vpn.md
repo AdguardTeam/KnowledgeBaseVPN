@@ -45,7 +45,7 @@ For at få adgang til alle VPN-serverplaceringer skal et AdGuard VPN-abonnement 
 
 ## 5. Integrering med AdGuard Ad Blocker
 
-Med computer-apps og webbrowserudvidelser er der sjældent nogen konflikter mellem apps, undtagen antivirus og anden lignende type software.
+With desktop apps and web browser extensions, there are rarely conflicts between apps, except for antiviruses and other similar types of software.
 
 Med mobilenheder er det dog ikke så enkelt. I langt de fleste tilfælde vil to VPN-baserede apps ikke fungere sammen. Både i Android og iOS er der begrænsninger, som forhindrer det.
 
@@ -55,7 +55,7 @@ Det er dog lykkedes os at løse konflikten mellem AdGuard VPN og AdGuard Ad Bloc
 
 ## 6. QUIC-understøttelse
 
-[QUIC](https://adguard-dns.io/en/blog/dns-over-quic.html#whatisquic) er en banebrydende protokol med mange fordele. Den største fordel er, at den kan forbedre forbindelseskvaliteten under ikke-ideelle forhold – f.eks. på mobilenheder eller ved tilslutning til offentlig Wi-Fi. Selvom den nye protokol ikke påvirker hastigheden, når forbindelsen er fin og stabil, vil den uden tvivl gøre situationen bedre for brugere med langsomt internet.
+[QUIC](https://adguard-dns.io/en/blog/dns-over-quic.html#whatisquic) er en banebrydende protokol med mange fordele. The main advantage is it can improve the connection quality in non-ideal conditions — for example, on mobile devices or when connecting to public Wi-Fi. Selvom den nye protokol ikke påvirker hastigheden, når forbindelsen er fin og stabil, vil den uden tvivl gøre situationen bedre for brugere med langsomt internet.
 
 :::caution
 
@@ -67,7 +67,7 @@ QUIC-protokollen er ret ny og kan være ustabil. Vi kan ikke garantere dens fuld
 
 ## 7. Kill Switch
 
-Kill Switch er afgørende, hvis man f.eks. ofte bruger et mobilnetværk eller opretter forbindelse til offentlige Wi-Fi netværk i indkøbscentre, caféer, i metroen eller i lufthavnen. Grunden er simpel — falder VPN'et pludseligt ud, og forbindelsen dermed bliver usikker, er risikoen, at sensitive oplysninger kan blotlægges for svindlere eller cyberkriminelle.
+Kill Switch er afgørende, hvis man f.eks. ofte bruger et mobilnetværk eller opretter forbindelse til offentlige Wi-Fi netværk i indkøbscentre, caféer, i metroen eller i lufthavnen. For the simple reason that if your VPN suddenly fails and the connection becomes insecure, chances are your sensitive information will be exposed to fraudsters or cyber criminals.
 
 Afbrydes VPN-forbindelsen af en eller anden grund, afbryder Kill Switch automatisk internetforbindelsen, så evt. angribere forhindres i at nå enheden og dens oplysninger.
 
@@ -93,7 +93,7 @@ Brugere uden abonnement kan bruge AdGuard VPN på *to enheder samtidigt*, hvilke
 
 Streamingtjenester kan, af indlysende årsager, ikke lide VPN'er: Jf. statistikker, installerer omkring 20% af brugerne et VPN primært for at kigge serier, TV-shows og film uden at geoblokering. Streamingplatforme gør derfor typisk alt, hvad de kan, for at spore og blokere VPN-trafik.
 
-Men hvad, hvis man vil føle dig tryg, mens der kigges indhold specifikt for regionen man er i? Eller man ikke vil gå glip af spændende serier, selvom man rejser udenlands? Svaret er enkelt — AdGuard VPN, med sin unikke protokol kan den forblive usynlig for tjenesteudbydere.
+But what if you want to feel safe while watching content specific to your region? Or don't want to stop watching exciting series even when you travel to another country? Svaret er enkelt — AdGuard VPN, med sin unikke protokol kan den forblive usynlig for tjenesteudbydere.
 
 Vi bifalder ikke brugen af AdGuard VPN til omgåelse af ophavsretsregler.
 

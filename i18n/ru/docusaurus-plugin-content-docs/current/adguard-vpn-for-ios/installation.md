@@ -19,7 +19,7 @@ AdGuard VPN может быть установлен на устройствах
 
     ![Поиск *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/search-en.png)
 
-1. Выберите *AdGuard VPN - Unlimited & Fast* и нажмите *Загрузить*. При необходимости введите ваш пароль от Apple ID.
+1. Выберите *AdGuard VPN - Unlimited & Fast* и нажмите *Скачать*. При необходимости введите ваш пароль от Apple ID.
 
     ![AdGuard VPN *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/adguard-vpn-en.png)
 

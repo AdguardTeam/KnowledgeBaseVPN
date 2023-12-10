@@ -30,7 +30,7 @@ AdGuard VPN 浏览器扩展可在 Chrome 浏览器、火狐浏览器、Opera 浏
 
 ## 排除项
 
-下一个选项卡包含 AdGuard VPN 的主要特点之一——两种有独立排除项列表的模式。
+The next tab contains one of the main distinctive features of AdGuard VPN — two modes with separate exclusion lists.
 
 在**常规模式**中，AdGuard VPN 默认对所有网站都有效，但您添加到排除列表的网站除外。 在**选择模式**中正好相反，AdGuard VPN 默认不工作。 您可以在排除列表中添加希望启用 AdGuard VPN 的网站，该列表与**常规模式**中的列表相独立。
 

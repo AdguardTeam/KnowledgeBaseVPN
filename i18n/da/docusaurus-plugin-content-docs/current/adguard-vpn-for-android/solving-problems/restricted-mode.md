@@ -16,13 +16,17 @@ Der er tre måder at løse problemet på:
     - Åbn appen **Indstillinger** på mobilen;
     - Gå til afsnittet **System** (sidste punkt på indstillingsmenuen). Find underpunktet **Om telefon** i dette afsnit;
     - Tryk 7 gange på linjen **Build-nummer**. Herefter ses meddelelse **Du er nu udvikler** (angiv om nødvendigt enhedens oplåsningskode);
-    - Åbn **Systemindstillinger** → **Udviklerindstillinger** → rul ned, og aktivér **USB-fejlretning** → Bekræft, at fejlretning er aktiveret i vinduet **Tillade USB-fejlretning** efter at have nærlæst advarslen.
+    - Open **System Settings** → **Developer Options** → Scroll down and enable **USB debugging** → Confirm debugging is enabled in the window **Allow USB debugging** after reading the warning carefully.
 
-    > Ved problemer eller yderligere spørgsmål findes den komplette vejledning [hér](https://developer.android.com/studio/debug/dev-options).
+    :::note If you have any difficulties or additional questions, full instructions can be found [here](https://developer.android.com/studio/debug/dev-options).
+
+    :::
 
 1. [Installér og opsæt](https://www.xda-developers.com/install-adb-windows-macos-linux/) ADB;
 
-    > På Windows-platformen skal **Samsung**-ejere muligvis installere [dette værktøj](https://developer.samsung.com/mobile/android-usb-driver.html).
+    :::note On the Windows platform, **Samsung** owners may need to install [this utility](https://developer.samsung.com/mobile/android-usb-driver.html).
+
+    :::
 
 1. Tilslut enheden vha. et **USB-kabel** til den computer/bærbare, på hvilken **ADB** er installeret;
 
@@ -37,7 +41,11 @@ Der er tre måder at løse problemet på:
 
 Info kan [findes hér](https://support.google.com/a/answer/6223444?hl=en) om, hvordan brugerkonti håndteres på en Android-enhed.
 
-> Bemærk dog, at begrænsede brugerkonti i visse tilfælde oprettes obligatorisk og ikke kan fjernes. Eksempelvis, hvis Dual Messenger- eller Dual App-funktioner bruges på enheder fra **Samsung** eller **LG**. Se nedenfor, hvordan problemet løses i sådanne tilfælde.
+:::note
+
+In some cases restricted user accounts are created implicitly and cannot be removed. Eksempelvis, hvis Dual Messenger- eller Dual App-funktioner bruges på enheder fra **Samsung** eller **LG**. Se nedenfor, hvordan problemet løses i sådanne tilfælde.
+
+:::
 
 ### LG- og Samsung-enheder
 
@@ -48,7 +56,7 @@ Ejere af mobiler fra **LG** eller **Samsung** kan også støde på et lignende p
 - Åbn **Indstillinger**;
 - Tryk på **Avanceret**;
 - Rul ned og tryk på **Dual Messenger**;
-- Deaktivér **Dual Messenger** for alle apps;
+- Disable the **Dual Messenger** for all apps;
 - Lås enheden i 5 minutter;
 - Oplås skærmen, og prøv at oprette VPN-profilen igen.
 
@@ -57,5 +65,5 @@ Ejere af mobiler fra **LG** eller **Samsung** kan også støde på et lignende p
 - Åbn **Indstillinger**;
 - Vælg fanen **Generelt**;
 - Rul ned og tryk på **Dual App**;
-- Fjern alle apps fra listen;
+- Remove all apps from the list;
 - Genstart enheden.

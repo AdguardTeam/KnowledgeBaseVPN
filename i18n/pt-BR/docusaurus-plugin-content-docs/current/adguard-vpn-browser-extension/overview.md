@@ -30,7 +30,7 @@ Learn more about [DNS servers from various providers](https://adguard-dns.io/kb/
 
 ## Exclusões
 
-The next tab contains one of the main distinctive features of AdGuard VPN – two modes with separate exclusions lists.
+The next tab contains one of the main distinctive features of AdGuard VPN — two modes with separate exclusion lists.
 
 In **General mode**, AdGuard VPN by default works on all websites, with the exception of the websites you've added to the exclusions list. In **Selective mode**, vice versa, AdGuard VPN by default doesn't work anywhere. You can add any websites where you'd like it to work to an exclusions list, separate from the one you saw in the **General mode**.
 

@@ -13,7 +13,7 @@ Mit anderen Worten, bei jedem Aufruf einer Website sendet Ihr Browser eine Anfra
 
 ## Wie man DNS-Lecks entdeckt
 
-Es gibt alle möglichen Anonymitätsprüfungsdienste zum Aufspüren von DNS-Lecks, wie `whoer.net`. Es sollte klar sein, dass diese Websites selbst nicht perfekt sind und ihre Algorithmen nicht klar sind, im Gegensatz zu ihren Absichten, die Nutzer:innen mit imaginären Lecks einzuschüchtern und möglicherweise einen Dienst zu verkaufen.
+Es gibt alle möglichen Anonymitätsprüfungsdienste zum Aufspüren von DNS-Lecks, wie `whoer.net`. The algorithms of these websites are not clear, but their intentions are — to scare users with imaginary leaks, potentially enabling them to sell their services.
 
 Einige Websites für Sicherheitsscans betrachten die Übereinstimmung der IP-Adresse des Benutzers und der IP-Adresse des DNS-Servers als „gutes“ Ergebnis, was darauf hinweist, dass es keine Lecks gibt. In Wirklichkeit kann eine solche Übereinstimmung auf die Verwendung eines VPN hinweisen. Wenn VPN deaktiviert ist und die Anfragen an den DNS-Server Ihres Internetanbieters gehen, stimmen die IP-Adresse des DNS-Servers und Ihre eigene nicht überein.
 
@@ -29,7 +29,7 @@ Und im Fall von AdGuard DNS „verschmelzen“ Sie mit 50 Millionen Benutzern, s
 
 ## Wie man einen benutzerdefinierten DNS-Server in AdGuard VPN einrichtet
 
-Es gibt viele beliebte öffentliche DNS-Server von [bekannten DNS-Anbietern](https://adguard-dns.io/kb/general/dns-providers). Einige von ihnen können nur ihre direkten Aufgaben erfüllen – die IP-Adressen der angeforderten Domains angeben, und einige können mehr tun.
+Es gibt viele beliebte öffentliche DNS-Server von [bekannten DNS-Anbietern](https://adguard-dns.io/kb/general/dns-providers). Some of them can only perform their direct duties — giving the IP addresses of the requested domains, and some can do more.
 
 Beispielsweise entfernt AdGuard DNS Werbung und schützt Ihr Gerät vor Verfolgung, und AdGuard DNS Family Protection kombiniert AdGuard DNS-Funktionen mit Sicherer Suche und Kindersicherung.
 

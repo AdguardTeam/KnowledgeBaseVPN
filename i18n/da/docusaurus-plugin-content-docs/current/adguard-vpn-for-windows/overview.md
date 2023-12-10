@@ -3,15 +3,11 @@ title: Funktionsoversigt
 sidebar_position: 1
 ---
 
-## Hvad er AdGuard VPN til Windows?
-
-Et VPN, akronym for "Virtual Private Network", er en tjeneste, der gør internetforbindelsen sikker og hjælper brugeren med at forblive anonym online. Hvordan fungerer VPN? Internetudbyderen vil kunne se, hvilket websted, en bruger besøger uden brug af et VPN. Internetudbyderen ved, hvem man er, og hvad man leder efter, og kan indsamle og sælge disse data. Derudover kan webstedet, der besøges, også spore brugerens aktivitet. Når en VPN-applikation aktiveres, ruter den trafikken via en krypteret tunnel til en fjern VPN-server, hvilket sikrer fortrolighed: Internetudbyderen ved ikke, hvortil en forespørgsel er sendt, og webstedet ved ikke, hvorfra man kommer.
-
 ## Hvad AdGuard VPN til Windows gør
 
 - Beskytter mod aflytning af netværkstrafik (spoofing). AdGuard VPN opretter en krypteret tunnel mellem brugerens enhed og en fjernserver. Al internettrafikken passerer igennem denne tunnel, så data er beskyttet undervejs. Og grundet [AdGuards unikke protokol](/general/adguard-vpn-protocol)er man garanteret en hurtig og sikker forbindelse.
 
-- Maskerer IP-adressen. Den reelle IP-adresse er nøglen til personlige data for cyberkriminelle. Navn, e-mailadresse, telefonnummer, betalingskortoplysninger kan alle falde i hænderne på svindlere, hvis man ikke skjuler sin IP. Med AdGuard VPN rutes al trafik igennem en krypteret tunnel og til en VPN-server, som tidligere nævnt. Udefra ser det derfor ud som om, at enheden har den nævnte VPN-servers IP-adresse.
+- Maskerer IP-adressen. Den reelle IP-adresse er nøglen til personlige data for cyberkriminelle. Navn, e-mailadresse, telefonnummer, betalingskortoplysninger kan alle falde i hænderne på svindlere, hvis man ikke skjuler sin IP. With AdGuard VPN, all your traffic goes through an encrypted tunnel and comes to the VPN server. The web server registers the IP address of the endpoint of the tunnel, i.e. the VPN server, and not the device's real IP address.
 
 - Skjuler den reelle placering. Ved at vælge en af AdGuard VPN-serverne bliver man øjeblikkeligt "teleporteret" til dens placering. Hvad giver det dig? Mulighed for eksempelvis hotelbookning til lokale priser eller at undgå geomålrettet annoncering.
 
@@ -31,7 +27,7 @@ Det mest fremtrædende element på **startskærmen** er AdGuard VPN-knappen Tils
 
 ## Undtagelser
 
-AdGuard VPN til Windows kan operere i to tilstande: **Generel** og **Selektiv**. Hvad betyder det? Skal et program kunne fungere overalt undtagen på visse websteder, aktivér da **Generel tilstand** og angiv de websteder, som skal undtages fra tunnelen. **Selektiv tilstand** virker modsat: Den aktiverer kun AdGuard VPN på websteder angivet på undtagelseslisten. Bemærk, at disse to tilstandes undtagelseslister er uafhængige af hinanden.
+AdGuard VPN for Windows can operate in two modes. By default, the application works everywhere, and you can list the websites and apps you want to exclude from the tunnel. But you can switch to the opposite mode: AdGuard VPN will only run on the websites and in the apps specified in the list of exclusions. Please note that these two lists are independent from one another.
 
 ![Undtagelser](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_en.png)
 
@@ -41,21 +37,23 @@ Der kan **manuelt** føjes websteder til undtagelser ved at angive deres domæne
 
 ![Tilføj undtagelser fra liste](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_from_list_en.png)
 
-> Når domæner tilføjes manuelt, bør der tages højde for visse nuancer. Undtager man f.eks. manuelt domænet `google.com`, føjes alle underdomæner herfra `*.google.com` også til undtagelseslisten. Domænenavne med andre topniveaudomæner, såsom `google.es` eller `google.it`, undtages dog ikke. Man kan også føje `youtube.com` til Undtagelser, mens domænet for samme tjeneste, `youtu.be`, ikke tilføjes listen.
+:::note When adding domains manually, you should take into account some nuances. Undtager man f.eks. manuelt domænet `google.com`, føjes alle underdomæner herfra `*.google.com` også til undtagelseslisten. Domænenavne med andre topniveaudomæner, såsom `google.es` eller `google.it`, undtages dog ikke. Man kan også føje `youtube.com` til Undtagelser, mens domænet for samme tjeneste, `youtu.be`, ikke tilføjes listen.
+
+:::
 
 Vi anbefaler at bruge indstillingen **Fra listen**. Websteder grupperes i otte kategorier: Sociale netværk, Messengers, Video- og musikstreamingtjenester, Spil, Shopping, Søgemaskiner og Arbejdskommunikationsværktøjer. Vi har placeret de mest populære tjenester dér, inkl. alle domænenavne og underdomæner relateret til hver platform.
 
 ### Import/eksport af undtagelseslister
 
-For at eksportere undtagelseslisten fra AdGuard VPN til Windows til computeren, klik på **Eksportere undtagelser**, vælg mappen, hvor listen skal gemmes, og klik på **Gem**. Et arkiv `exclusions.zip` med to `.txt`-filer gemmes, en for hver af listerne — **Generel** og **Selektiv**. De kan redigeres ved at tilføje nye undtagelser eller slette gamle.
+For at eksportere undtagelseslisten fra AdGuard VPN til Windows til computeren, klik på **Eksportere undtagelser**, vælg mappen, hvor listen skal gemmes, og klik på **Gem**. An archive `exclusions.zip` with two `.txt` files will be downloaded, one for each of the lists. De kan redigeres ved at tilføje nye undtagelser eller slette gamle.
 
-For at overføre undtagelseslisterne til en anden enhed, send `.zip`-filen til den. Åbn AdGuard VPN på enheden, hvor undtagelseslisterne skal importeres, klik på *Undtagelser*, og dernæst *Importere undtagelser*, og vælg den tilsendte zip-fil.
+On the destination device, open AdGuard VPN, click *Exclusions*, and select *Websites* or *Apps*. Click *Import exclusions* and select the received archive.
 
 ## Indstillinger
 
 ![Indstillinger](https://cdn.adguardvpn.com/content/release_notes/vpn/windows/v2.0/settings_en.png)
 
-Den fjerde fane programfanebjælke indeholder afsnit til tilpasning af programmet. Lad os se nærmere på to af dem: **App-indstillinger** og **App-undtagelser**.
+The fourth tab contains sections that will help you customize the application.
 
 ### App-indstillinger
 
@@ -83,7 +81,7 @@ På trods af at der er to driftstilstande — VPN og SOCKS5 — anbefaler det ku
 
 Der kan vælges mellem to logningsniveauer: **Optag som standard** og **Optag alt**. Den første indstilling er aktiveret som standard. Indstillingen **Optag alt** bør kun aktiveres, såfremt vores supportteam har anmodet herom. Brug af appen i denne tilstand i en længere periode resulterer i øget strømforbrug.
 
-Alle logger opbevares lokalt på enheden, og de kan om nødvendigt indsendes til supportteamet.
+All logs are stored locally on your device, and you can send them to the support team if needed.
 
 ##### Brug QUIC
 
@@ -93,7 +91,7 @@ Dette er en eksperimentel funktion, via hvilken AdGuard kan anvende den avancere
 
 ![Tilføjelse af en app til undtagelser](https://cdn.adguardvpn.com/content/release_notes/vpn/windows/v2.0/add_app_en.png)
 
-Ikke alene krypterer AdGuard VPN internetbrowseres trafik, men også trafik fra andre apps installeret på enheden. Ønskes visse apps undtaget fra tunnelen, skal disse placeres på listen **App-undtagelser**.
+Not only does AdGuard VPN encrypt the traffic of browsers, but also of other apps installed on your device. Ønskes visse apps undtaget fra tunnelen, skal disse placeres på listen **App-undtagelser**.
 
 ## Andre faner
 

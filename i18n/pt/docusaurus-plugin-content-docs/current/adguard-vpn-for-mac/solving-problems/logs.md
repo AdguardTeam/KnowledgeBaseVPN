@@ -3,7 +3,7 @@ title: 'How to collect and send logs'
 sidebar_position: 1
 ---
 
-If you encounter a problem when using AdGuard VPN for Mac, you can inform us about it by sending application logs.
+If you encounter any problems while using AdGuard VPN for Mac, you can inform us about it by sending application logs.
 
 ## Collecting and sending standard logs
 
@@ -15,8 +15,11 @@ By default, AdGuard VPN for Mac uses the standard logging level, that is, the ba
 
 3. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred. If you can't reproduce the problem, specify as accurately as possible when it last occurred.
 
-4. There is a check mark next to the **Attach technical logs**, which means that when you send a report, you also send logs.
-> If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, select **Settings** → **General** → **Export logs** in the **Actions** section on the right.
+4. There is a check mark next to the **Send detailed system info**, which means that when you send a report, you also send logs.
+
+:::note If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, select **Settings** → **General** → **Export logs** in the **Actions** section on the right.
+
+:::
 
 ## Collecting and sending extended logs
 
@@ -34,7 +37,12 @@ In most cases, the default logging level is sufficient to trace down possible bu
 
 6. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred.
 
-7. Make sure that there is a check mark next to **Attach technical logs** and click **Send**.
-> If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, select **Settings** → **General** → **Export logs** in the **Actions** section on the right.
+7. Make sure that there is a check mark next to **Send detailed system info** and click **Send**.
+
+:::note
+
+If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, select **Settings** → **General** → **Export logs** in the **Actions** section on the right.
+
+:::
 
 This section is updated regularly. If you have not found a solution to your problem in the articles given in this section, contact AdGuard technical support at support@adguard-vpn.com.

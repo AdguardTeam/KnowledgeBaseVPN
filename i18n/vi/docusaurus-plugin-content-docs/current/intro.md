@@ -10,11 +10,11 @@ slug: /
 
 VPN cho phép bạn kết nối an toàn tới các mạng khác trên Internet.
 
-Initially, VPNs were created to securely connect business networks over the Internet, so that people could connect to the corporate network from home. Công nghệ này được sử dụng cho nhiều mục đích khác nhau: ví dụ: để lướt Internet ẩn danh hoặc để bảo vệ hoạt động trực tuyến của bạn khỏi những con mắt tò mò khi sử dụng Wi-Fi công cộng.
+Initially, VPNs were created to securely connect business networks over the Internet, so that people could connect to the corporate network from home. Today, this technology is used for many other things: for example, to browse the Internet anonymously or to protect your online activity from prying eyes while using public Wi-Fi.
 
-VPN kết nối máy tính hoặc thiết bị di động của người dùng tới máy chủ và cho phép người dùng duyệt mạng bằng địa chỉ IP của người khác. Do đó, bên quan sát thứ ba không thể nhìn thấy địa chỉ IP thực của người dùng, điều này khiến cho việc theo dõi người dùng gần như không thể.
+A VPN connects a user's computer or mobile device to a server and allows one to browse the net using a "cover" IP address. Do đó, bên quan sát thứ ba không thể nhìn thấy địa chỉ IP thực của người dùng, điều này khiến cho việc theo dõi người dùng gần như không thể.
 
-Nói đến VPN, điều đầu tiên được đề cập đến là lưu lượng mã hóa và mức bảo mật của nó. Vậy những điều này có nghĩa gì? VPN tạo một "đường hầm" mã hóa giữa thiết bị của người dùng và máy chủ. Tất cả lưu lượng truy cập web của bạn đi qua đường hầm này, vì vậy dữ liệu của bạn được bảo vệ trên đường đi. Đối với người quan sát bên ngoài, lưu lượng truy cập của bạn xuất phát từ máy chủ VPN, vì vậy có vẻ như thiết bị của bạn có địa chỉ IP của máy chủ này. Thủ thuật này che giấu danh tính và vị trí thực của người dùng.
+The first thing that users mention in relation to VPN is traffic encryption and the security derived from it. Vậy những điều này có nghĩa gì? VPN tạo một "đường hầm" mã hóa giữa thiết bị của người dùng và máy chủ. Tất cả lưu lượng truy cập web của bạn đi qua đường hầm này, vì vậy dữ liệu của bạn được bảo vệ trên đường đi. Đối với người quan sát bên ngoài, lưu lượng truy cập của bạn xuất phát từ máy chủ VPN, vì vậy có vẻ như thiết bị của bạn có địa chỉ IP của máy chủ này. Thủ thuật này che giấu danh tính và vị trí thực của người dùng.
 
 VPN có thể được sử dụng để:
 

@@ -3,15 +3,11 @@ title: Přehled funkcí
 sidebar_position: 1
 ---
 
-## Co je AdGuard VPN pro Windows?
-
-VPN, což je zkratka pro "virtuální privátní síť", je služba, která zajišťuje bezpečné připojení k internetu a pomáhá vám zůstat v anonymitě online. Jak VPN funguje? Pokaždé, když navštívíte webovou stránku bez použití sítě VPN, vidí ji váš poskytovatel internetových služeb (ISP). Ví, kdo jste a co hledáte, a může tato data shromažďovat a prodávat. Webové stránky, které jste navštívili, zase mohou sledovat vaši aktivitu. Když zapnete aplikaci VPN, přesměruje váš datový provoz přes šifrovaný tunel na vzdálený server VPN, čímž zajistí vaše soukromí: ISP neví, kam jste odeslali požadavek, a web neví, odkud jste přišli.
-
 ## Co dělá AdGuard VPN pro Windows
 
 - Chrání před zachycením síťového provozu (spoofing). AdGuard VPN vytvoří šifrovaný tunel mezi vaším zařízením a vzdáleným serverem. Veškerý internetový provoz prochází tímto tunelem, takže vaše data jsou po cestě chráněna. A díky [jedinečnému AdGuard protokolu](/general/adguard-vpn-protocol) máte zaručeno rychlé a bezpečné připojení.
 
-- Maskuje IP adresu. Vaše skutečná IP adresa je pro kyberzločince klíčem k vašim osobním údajům. Vaše jméno, e-mailová adresa, telefonní číslo a údaje o kreditní kartě se mohou dostat do rukou podvodníků, pokud neskryjete svou IP adresu. Jak jsme již uvedli, s AdGuard VPN prochází veškerý váš datový provoz šifrovaným tunelem a přichází na server VPN. Zvenčí se tedy zdá, že vaše zařízení má IP adresu uvedeného serveru VPN.
+- Maskuje IP adresu. Vaše skutečná IP adresa je pro kyberzločince klíčem k vašim osobním údajům. Vaše jméno, e-mailová adresa, telefonní číslo a údaje o kreditní kartě se mohou dostat do rukou podvodníků, pokud neskryjete svou IP adresu. S AdGuard VPN prochází veškerý váš datový provoz šifrovaným tunelem a přichází na server VPN. Webový server registruje IP adresu koncového bodu tunelu, tj. serveru VPN, a nikoli skutečnou IP adresu zařízení.
 
 - Skrývá vaši skutečnou polohu. Výběrem některého ze serverů AdGuard VPN budete okamžitě "teleportováni" do jeho umístění. Co tím získáte? Například možnost rezervovat si hotel za ceny pro místní obyvatele nebo se skrýt před geograficky cílenou reklamou.
 
@@ -31,7 +27,7 @@ V horní části obrazovky se nachází navigační panel se čtyřmi kartami: *
 
 ## Výjimky
 
-AdGuard VPN pro Windows může pracovat ve dvou režimech: **Obecném** nebo **Selektivním**. Co to znamená? Pokud chcete, aby aplikace fungovala na všech webech kromě několika, zapněte **Obecný režim** a uveďte weby, které chcete z tunelu vyloučit. **Selektivní režim** má opačný účinek: zapne AdGuard VPN pouze na webových stránkách uvedených v seznamu výjimek. Upozorňujeme, že seznamy výjimek těchto dvou režimů jsou na sobě nezávislé.
+AdGuard VPN pro Windows může pracovat ve dvou režimech. Ve výchozím nastavení funguje aplikace všude a můžete vypsat weby a aplikace, které chcete z tunelu vyloučit. Můžete však přepnout do opačného režimu: AdGuard VPN se spustí pouze na webových stránkách a v aplikacích uvedených v seznamu výjimek. Upozorňujeme, že tyto dva seznamy jsou na sobě nezávislé.
 
 ![Exclusions](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_en.png)
 
@@ -41,21 +37,23 @@ Webové stránky můžete do výjimek **přidat ručně** zadáním názvů jeji
 
 ![Add Exclusions from list](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_from_list_en.png)
 
-> Při ručním přidávání domén byste měli vzít v úvahu některé nuance. Pokud například ručně vyloučíte doménu `google.com`, budou do výjimek přidány také všechny subdomény `*.google.com`. Doménové názvy s ostatními doménami nejvyšší úrovně, jako je `google.es` nebo `google.it`, však vyloučeny nebudou. Nebo můžete do výjimek přidat `youtube.com`, ale doména stejné služby `youtu.be` se do seznamu nedostane.
+:::note Při ručním přidávání domén byste měli vzít v úvahu některé nuance. Pokud například ručně vyloučíte doménu `google.com`, budou do výjimek přidány také všechny subdomény `*.google.com`. Doménové názvy s ostatními doménami nejvyšší úrovně, jako je `google.es` nebo `google.it`, však vyloučeny nebudou. Nebo můžete do výjimek přidat `youtube.com`, ale doména stejné služby `youtu.be` se do seznamu nedostane.
+
+:::
 
 Doporučujeme použít možnost **Ze seznamu**. Weby jsou rozděleny do osmi kategorií: sociální sítě, messengery, služby pro streamování videa a hudby, hry, nakupování, vyhledávače a nástroje pro pracovní komunikaci. Umístili jsme tam nejoblíbenější služby, včetně všech názvů domén a subdomén souvisejících s každou platformou.
 
 ### Import/export seznamů výjimek
 
-Chcete-li exportovat seznam výjimek z AdGuard VPN pro Windows do počítače, klikněte na **Exportovat výjimky**, vyberte složku, do které bude seznam uložen, a klikněte na **Uložit**. Stáhne se archiv `exclusions.zip` se dvěma soubory `.txt`, po jednom pro každý ze seznamů — **Obecný** a **Selektivní**. Můžete je upravit přidáním nových výjimek nebo odstraněním starých.
+Chcete-li exportovat seznam výjimek z AdGuard VPN pro Windows do počítače, klikněte na **Exportovat výjimky**, vyberte složku, do které bude seznam uložen, a klikněte na **Uložit**. Stáhne se archiv `exclusions.zip` se dvěma soubory `.txt`, jeden pro každý ze seznamů. Můžete je upravit přidáním nových výjimek nebo odstraněním starých.
 
-Chcete-li přenést seznamy výjimek do jiného zařízení, odešlete tam soubor `.zip`. Otevřete AdGuard VPN na zařízení, do kterého chcete importovat archiv se seznamy výjimek, klikněte na *Výjimky*, poté na *Importovat výjimky* a vyberte dříve odeslaný archiv.
+V cílovém zařízení otevřete AdGuard VPN, klikněte na *Výjimky* a vyberte *Webové stránky* nebo *Aplikace*. Klikněte na *Importovat výjimky* a vyberte přijatý archiv.
 
 ## Nastavení
 
 ![Settings](https://cdn.adguardvpn.com/content/release_notes/vpn/windows/v2.0/settings_en.png)
 
-Čtvrtá karta v panelu aplikace obsahuje sekce, které vám pomohou přizpůsobit aplikaci. Podívejme se blíže na dvě z nich: **Nastavení aplikace** a **Výjimky aplikací**.
+Čtvrtá karta obsahuje části, které vám pomohou přizpůsobit aplikaci.
 
 ### Nastavení aplikace
 

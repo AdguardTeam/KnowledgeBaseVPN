@@ -3,13 +3,13 @@ title: Yaygın kurulum programı hataları
 sidebar_position: 2
 ---
 
-Bu makale, Windows için AdGuard VPN kurulumu sırasında karşılaşabileceğiniz en yaygın hatalardan bazılarını ve bunları çözmenin olası yollarını içerir.
+This article outlines some of the most common errors you may encounter while installing AdGuard VPN for Windows and possible ways to resolve them.
 
 ### Hata 5: Erişim Reddedildi {#error-5}
 
-Bu hata, izinlerle ilgili bir sorun olduğunda ortaya çıkar. AdGuard VPN kurulum programının, kurma işlemini düzgün bir şekilde tamamlamak için ihtiyaç duyduğu izinlere sahip olmamasının birkaç farklı nedeni olabilir. Aşağıdaki adımları deneyebilirsiniz:
+This error message appears if required permissions are not granted. AdGuard VPN kurulum programının, kurma işlemini düzgün bir şekilde tamamlamak için ihtiyaç duyduğu izinlere sahip olmamasının birkaç farklı nedeni olabilir. Aşağıdaki adımları deneyebilirsiniz:
 
-- Antivirüslerinizi geçici olarak devre dışı bırakın. Bazıları, ayarlarının ciddiyetine bağlı olarak kuruluma müdahale edebilir.
+- Antivirüslerinizi geçici olarak devre dışı bırakın. Some of them may interfere with the installation, depending on the restrictiveness of their settings.
 
 - Farklı bir kurulum klasörü seçin. Mevcut kurulum klasörünün bazı erişim kısıtlamaları olabilir. Ayrıca harici sürücü, sanal sürücü, vb. seçmediğinizden emin olun.
 
@@ -34,8 +34,8 @@ Bunun, Hata 1603'ün belirli bir alt türü olduğunu söyleyebilirsiniz. Olası
     1. *Win + R* tuşlarına basın ve **services.msc** yazın.
     1. Listeden *Windows Installer* öğesini bulun ve çift tıklayın.
     1. *Hizmet durumu* altındaki *Başlat* düğmesine basın ve *Tamam* öğesine basın. Hizmet durumu **çalışıyor** ise, önce *Durdur* öğesine ve ardından *Başlat* öğesine tıklamalısınız.
-    1. *Win + R* tuşlarına basın, ***msiexec /unregister*** yazın ve *Enter* düğmesine basın.
-    1. *Win + R* tuşlarına tekrar basın, ***msiexec /regserver*** yazın ve *Enter* düğmesine basın
+    1. Press *Win + R*, type and enter **msiexec /unregister** and hit *Enter*.
+    1. Press *Win + R* again, type and enter **msiexec /regserver** and hit *Enter*
 
 - PC'yi yeniden başlatın ve kurulumu baştan başlatın. Bazen sorunu çözmek için bu yeterli olur.
 
@@ -51,7 +51,7 @@ Bu hata kodunu aldıysanız, kurma işlemini bir şekilde elle kesintiye uğratm
 
 ### Hata 1603: Kurulum sırasında kritik hata oluştu {#error-1603}
 
-Hata kulağa gerçekte olduğundan daha korkutucu geliyor. Gerçekte bu, birçok farklı nedeni olabilen oldukça genel bir hatadır ve bazıları kolayca düzeltilebilir. Aşağıdaki çözümleri deneyin:
+This error sounds more worrying than it actually is. Gerçekte bu, birçok farklı nedeni olabilen oldukça genel bir hatadır ve bazıları kolayca düzeltilebilir. Aşağıdaki çözümleri deneyin:
 
 - *Win* tuşuna basın, *Komut İstemi* öğesini arayın ve çalıştırın. Orada, `sfc /scannow` yazın ve *Enter* düğmesine basın.
 
@@ -61,11 +61,11 @@ Hata kulağa gerçekte olduğundan daha korkutucu geliyor. Gerçekte bu, birçok
 
 - Microsoft Installer hizmetini başlatın ve yeniden kaydettirin. Bu biraz uğraş gerektirir.
 
-    1. *Win + R* tuşlarına basın ve ***services.msc*** yazın.
+    1. Press *Win + R* and enter **services.msc**.
     1. Listeden *Windows Installer* öğesini bulun ve çift tıklayın.
     1. *Hizmet durumu* altındaki *Başlat* düğmesine basın ve *Tamam* öğesine basın. Hizmet durumu **çalışıyor** ise, önce *Durdur* öğesine ve ardından *Başlat* öğesine tıklamalısınız.
-    1. *Win + R* tuşlarına basın, ***msiexec /unregister*** yazın ve *Enter* düğmesine basın.
-    1. *Win + R* tuşlarına tekrar basın, ***msiexec /regserver*** yazın ve *Enter* düğmesine basın
+    1. Press *Win + R*, type and enter **msiexec /unregister** and hit *Enter*.
+    1. Press *Win + R* again, type and enter **msiexec /regserver** and hit *Enter*
 
 - Kurulum için sürücüde tam izinleri alın. Dosya konumunda tam izinlere sahip olmadığınız için 1603 hatasının oluşması olasıdır. Ayrıca diğer bazı çözümler kadar kolay değildir:
 
@@ -81,17 +81,17 @@ Hata kulağa gerçekte olduğundan daha korkutucu geliyor. Gerçekte bu, birçok
 
 ### Hata 1618: Başka bir kurulum zaten devam ediyor {#error-1618}
 
-Bu hata, aynı anda başlatılan birkaç AdGuard VPN kurulum programı olduğunda ortaya çıkar. Bu hatayı alırsanız yapmanız gerekenler:
+This error appears when trying to run multiple instances of the AdGuard VPN installer simultaneously. Bu hatayı alırsanız yapmanız gerekenler:
 
 - PC'yi yeniden başlatın ve kurulum programını tekrar başlatın. Bilgisayarı yeniden başlattığınızda, kurulum programının tüm kopyaları dahil devam eden tüm işlemler durur.
 
-- Hemen başlamasa bile kurulum programına birden çok tıklama yapmayın. Bazen kurulum programı kullanıcı arayüzünün görüntülenmesi birkaç saniye sürebilir.
+- Don't click multiple times on the installer, even if it doesn't start right away. Bazen kurulum programı kullanıcı arayüzünün görüntülenmesi birkaç saniye sürebilir.
 
 ### Error 1638: Bu ürünün başka bir sürümü zaten kurulu {#error-1638}
 
 Daha önce AdGuard VPN kurmuş olmanız çok olasıdır.
 
-- AdGuard VPN'in bilgisayarınızda kurulu olup olmadığını kontrol edin. Bunu *Win* tuşuna basarak ve ***AdGuard VPN*** yazarak yapabilirsiniz.
+- AdGuard VPN'in bilgisayarınızda kurulu olup olmadığını kontrol edin. You can do that by pressing the *Win* key and start typing *adguard vpn*.
 
 - Belki önceki bir AdGuard VPN kurulumundan kalan bazı dosyalar vardır. Özel [kaldırma aracımızı](/adguard-vpn-for-windows/installation#advanced) kullanarak AdGuard'ı kaldırın ve ardından kurulumu tekrarlayın.
 
@@ -101,6 +101,6 @@ Yukarıda listelenmeyen bir hatayla karşılaştıysanız, bunu kendimiz çözme
 
 - **AdGuard VPN kurulum günlüklerini** [bu makalede](https://adguard.com/kb/adguard-for-windows/solving-problems/installation-logs/) açıklanan şekilde bulun ve arşivleyin.
 
-- **Olay Görüntüleyicisi** günlüklerini bulun ve diske kaydedin. [Bu makale](https://adguard.com/kb/adguard-for-windows/solving-problems/system-logs/) bunun nasıl yapılacağını açıklar.
+- Find and save to disk the **Event Viewer** logs. [Bu makale](https://adguard.com/kb/adguard-for-windows/solving-problems/system-logs/) bunun nasıl yapılacağını açıklar.
 
 Lütfen önceki iki adımdaki tüm bu dosyaları **support@adguard.com** adresine e-postayla gönderin ve sorunu mesaj metninde açıklayın. Destek ekibimiz en kısa sürede size cevap verir.

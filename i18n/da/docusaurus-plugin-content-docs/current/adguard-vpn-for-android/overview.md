@@ -5,7 +5,7 @@ sidebar_position: 1
 
 ## Hvad er AdGuard VPN til Android?
 
-Et VPN er et ideelt værktøj, der giver sikkerhed og anonymitet, mens der surfes på internet. [Hvordan fungere det?](/general/how-vpn-works)Uden at gå i tekniske detaljer, så opretter VPN en sikker krypteret forbindelse (betegnet tunnel) mellem en brugers enhed og en ekstern VPN-server. På denne måde bevares datafortroligheden, samt brugerens anonymitet, da en tredjepartsobservatør ser IP-adr. på VPN-serveren og ikke brugerens reelle IP-adr.
+Et VPN er et ideelt værktøj, der giver sikkerhed og anonymitet, mens der surfes på internet. [How does it work?](/general/how-vpn-works) Without going into technical details, we can say that VPN creates a secure encrypted connection (called a tunnel) between a user's device and a remote VPN server. På denne måde bevares datafortroligheden, samt brugerens anonymitet, da en tredjepartsobservatør ser IP-adr. på VPN-serveren og ikke brugerens reelle IP-adr.
 
 **VPN bruges ofte til:**
 
@@ -21,9 +21,9 @@ Download først AdGuard VPN fra [Google Play](https://play.google.com/store/apps
 
 ## Hovedskærm
 
-Der er to bjælker på hovedskærmen, som afspejler appens status (Tilsluttet/Afbrudt) og den valgte Undtagelsestilstand ([Generel/Selektiv](#lists-of-exclusions)). På samme skærm findes også knappen *Tilslut/Afbryd* samt listen over tilgængelige servere.
+The main screen reflects the VPN status (Connected/Disconnected). There are also the *Connect/Disconnect* button and a list of available servers.
 
-Ved hver server ses placering og ping-tid, dvs. hvor hurtigt serveren svarer. Jo lavere ping-tid er, des hurtigere en forbindelse. De hurtigste servere vises altid øverst på listen bestående af flere end 50 placeringer i snesevis af lande. Der kan oprettes forbindelse til den hurtigste server ved at trykke på knappen *Tilslut/Afbryd* eller ved at vælge en placering.
+Ved hver server ses placering og ping-tid, dvs. hvor hurtigt serveren svarer. The lower this rate, the faster the connection. The fastest servers always appear at the top of the list that consists of more than 50 locations in dozens of countries. You can connect to the fastest server by tapping the *Connect* button or by picking a location.
 
 ## Undtagelser
 
@@ -31,9 +31,11 @@ Vi har gjort alt for at gøre det nemt at håndtere websteds- og app-undtagelses
 
 ### Lister over undtagelser
 
-Undtagelseslisterne muliggør at vælge websteder, for hvilke VPN skal aktiveres, og omvendt. Tryk på det andet ikon fra venstre nederst på skærmen for at gå til afsnittet *Undtagelser*.
+#### For websites
 
-Der findes to tilstande: I *Generel tilstand* er websteder fra undtagelseslisten udelukket, og i *Selektiv tilstand* vil de være de eneste, hvor AdGuard VPN fungerer.
+Exclusion lists allow you to manage the VPN connection for specific websites and apps. To access *Exclusions*, tap the second icon from the left at the bottom of the screen. Tryk på det andet ikon fra venstre nederst på skærmen for at gå til afsnittet *Undtagelser*.
+
+There are two modes: in *General mode*, websites from the list of exclusions are excluded, and in *Selective mode*, they will be the only ones where AdGuard VPN works.
 
 Der kan føjes domæner (f.eks. `google.com`) eller underdomæner (f.eks. `*.google.com`) for websteder til *Undtagelser* på tre måder: Angiv dem manuelt i appen, direkte fra browseren ved at klikke på knappen *Del* og vælge AdGuard VPN på den liste, der åbnes nedenfor eller fra de indbyggede lister over tjenester opdelt efter kategorier.
 
@@ -45,26 +47,32 @@ Der er nogle nuancer i manuel tilføjelse af domæner. Undtager man f.eks. manue
 
 :::
 
-Da underdomæner kan aktiveres i tjenestelisterne, har vi tilføjet felter, som afspejler status for hver tjeneste — disse kan ses på hovedskærmen for *Undtagelser* til venstre for hvert tjenestenavn: Status **Fuldt aktiveret** er markeret med et hvidt flueben på grøn baggrund, **Fuldt deativeret** med et gråt felt, og **Delvist aktiveret**, hvilket betyder, at en eller flere parametre blev ændret, med en grøn firkant på hvid baggrund. Gode nyheder: Man kan altid vende tilbage til standardvisningen for tjenestelister, hvis man har slettet eller deaktiveret domæner derfra.
+As you can enable subdomains in service lists, we added boxes that reflect the status of each service — you can see them on the main screen of *Exclusions* to the left of each service name:
+
+- **Fully enabled** is indicated by a white check mark on a green background
+- **Partially enabled** (enabled subdomains without the main domain) is marked with a green square on a white background
+- **Fully disabled** is marked with a blank checkbox
+
+ Gode nyheder: Man kan altid vende tilbage til standardvisningen for tjenestelister, hvis man har slettet eller deaktiveret domæner derfra.
 
 ![Undtagelser *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/statuses.png)
 
 En anden nyttig funktion er *Import/eksport af undtagelser*. Det kræver kun fire trin at gøre dette:
 
 1. Åbn AdGuard VPN på/i den enhed/browser, fra hvilken undtagelser skal eksporteres. Find det relevante afsnit og klik på knappen *Eksportér*. Et `adguard_vpn_exclusions.zip`-arkiv vil blive downloadet.
-2. Der er to `.txt` filer i arkivet, én for hver af listerne *General* og *Selektiv*. Føj flere undtagelser til dem, slet eksisterende, omdøb filer (mere om dette senere) eller lad blot arkivet forblive uændret.
+2. There are two `.txt` files inside the archive, one for each of the lists. Føj flere undtagelser til dem, slet eksisterende, omdøb filer (mere om dette senere) eller lad blot arkivet forblive uændret.
 3. Ved overførsel mellem forskellige enheder, så husk at sende `.zip`-filen til enheden til import. Hvis man f.eks. importerer undtagelseslister fra en Windows- til en Android-enhed, så sørg for først at sende `.zip`-filen til Android-enheden.
 4. Åbn AdGuard VPN på enheden, hvor arkivet med undtagelseslisterne skal importeres. Find det relevante afsnit, klik på knappen *Importér* og vælg arkivet.
 
 ![Import/Eksport *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/imp-exp.png)
 
-### Apps-indstillinger
+#### For apps
 
-Som nævnt ovenfor, kan ikke blot websteder nemt føjes til undtagelserne. Vælg for hvilke apps AdGuard VPN skal bruges, og omvendt. Tryk på ikonet ved siden af ikonet *Undtagelseslister* nederst på skærmen for at åbne Apps-indstillinger. Som standard fungerer AdGuard VPN for alle apps, men skyderen kan skiftes – og dermed slå AdGuard VPN fra – for enhver app på listen.
+Som nævnt ovenfor, kan ikke blot websteder nemt føjes til undtagelserne. Choose for which apps you need AdGuard VPN and for which you don't. By default, AdGuard VPN works for all apps, but you can easily switch to the other mode.
 
-Hvis *Kompatibilitetstilstand* med AdGuard er aktiveret, kan apps kun håndteres via AdGuard Ad Blocker. AdGuard-appen åbnes derfor ved tryk på knappen.
+In *Integrated mode*, you can only manage apps through AdGuard Ad Blocker.
 
-![App-indstillinger *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/apps_settings.png)
+![App exclusions *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/apps_settings.png)
 
 ## Indstillinger
 
@@ -78,7 +86,7 @@ Skyderen, der er skiftet til højre, aktiverer autostart af AdGuard VPN efter en
 
 ### DNS-servere
 
-Formålet med [Domain Name System](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns) (DNS) er at oversætte websteders host- eller domænenavne til noget, browsere kan forstå, dvs. IP-adresser. Denne opgave udføres af DNS-servere. AdGuard VPN til Android tilbyder et bredt udvalg af DNS-servere, hver med særlige kvaliteter. F.eks. fjerner [AdGuard DNS](https://adguard-dns.io/kb/) annoncer og beskytter enheden mod sporing, mens AdGuard DNS Family Protection kombinerer funktionerne i AdGuard DNS med SafeSearch og blokering af voksenindhold. Der er også mulighed for at tilføje en tilpasset DNS-server.
+DNS servers translate websites' names into something browsers can understand, i.e. IP addresses. AdGuard VPN for Android offers a wide selection of DNS servers, each with special qualities. For example, [AdGuard DNS](https://adguard-dns.io/kb/) removes ads and protects your device from tracking while AdGuard DNS Family Protection combines the functions of AdGuard DNS with Safe search and adult content blocking. Der er også mulighed for at tilføje en tilpasset DNS-server.
 
 ### Auto-beskyttelse
 
@@ -98,13 +106,13 @@ Der kan vælges mellem systemstandard, mørkt eller lyst app-tema.
 
 ### Avancerede indstillinger
 
-I *Avancerede indstillinger* findes fem afsnit. Du kan *Hjælpe os med at blive bedre* ved at omskifte kontakten øverst oppe. Denne indstilling vil tillade AdGuard VPN at indsamle nedbrudsrapporter, tekniske data og interaktionsdata. Indsendelse vil ske i form af anonym information.
+In *Advanced settings*, you can find four sections.
 
-Afsnittet *Driftstilstand* muliggør at vælge en af tre muligheder: VPN, Proxy og Kompatibilitetstilstand. I *VPN-tilstand* rutes al trafik automatisk igennem AdGuard VPN. Når *Proxytilstand* (SOCKS5) er aktiv, kører AdGuard VPN en lokal proxyserver, igennem hvilken trafik fra andre apps kan rutes. Man bør kun vælge denne indstilling, såfremt man ved, hvad man foretager sig. Aktiv *Kompatibilitetstilstand* lader AdGuard VPN og AdGuard Ad Blocker samarbejde.
+*Operating mode* allows you to specify how your traffic is routed. There are three modes: VPN, SOCKS5, and Integrated mode. In the *VPN* mode, all traffic is routed through AdGuard VPN. In the *SOCKS5* mode, AdGuard VPN runs a local proxy server that can be used by other apps for traffic routing. *Integrated mode* allows AdGuard VPN and AdGuard Ad Blocker to work together.
 
 :::note
 
-Some AdGuard VPN features are disabled in *Compatibility mode*: DNS server selection, Kill Switch and Auto-protection. For at håndtere app-tunneling, skal AdGuard Ad Blocker-appen åbnes.
+Some AdGuard VPN features are disabled in *Integrated mode*: DNS servers, Kill Switch, Auto-protection, and app exclusions. You can manage DNS protection and route apps through your AdGuard VPN proxy in the AdGuard Ad Blocker app.
 
 :::
 

@@ -10,7 +10,7 @@ Existem várias maneiras de coletar logs de extensão do navegador AdGuard VPN. 
 1. Abra a extensão AdGuard VPN Browser, se possível, repita as ações que levaram ao erro. Observe a hora exata em que esse erro ocorreu.
 1. Abra *Configurações* clicando no ícone do menu hambúrguer (☰) → *Suporte* → *Relate um bug*.
 1. No formulário aberto, deixe um endereço de e-mail inserido automaticamente ou insira outro e descreva o erro encontrado, incluindo o horário em que ocorreu esse erro. Se você não conseguir reproduzir o problema, especifique com a maior precisão possível quando ocorreu pela última vez.
-1. Certifique-se de que haja uma marca de seleção ao lado de *Incluir o relatório de diagnóstico na mensagem*e toque em *Enviar*. Dessa forma, você enviará os logs junto com o relatório do bug.
+1. Make sure that there is a check mark next to *Include the diagnostic report in the message* and tap *Submit*. Dessa forma, você enviará os logs junto com o relatório do bug.
 
 ## Coleta e envio de logs por meio do botão *Exportar logs*
 

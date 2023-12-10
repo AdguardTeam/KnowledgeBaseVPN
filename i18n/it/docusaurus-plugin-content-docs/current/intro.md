@@ -10,11 +10,11 @@ slug: /
 
 Una VPN consente di creare una connessione sicura a un'altra rete su Internet.
 
-Inizialmente, le VPN sono state create per connettere in modo sicuro le reti aziendali su Internet, in modo che le persone potessero connettersi alla rete aziendale da casa. Questa tecnologia viene utilizzata per molte altre cose: ad esempio, per navigare in Internet in modo anonimo o per proteggere la tua attività online da occhi indiscreti durante l'utilizzo del Wi-Fi pubblico.
+Inizialmente, le VPN sono state create per connettere in modo sicuro le reti aziendali su Internet, in modo che le persone potessero connettersi alla rete aziendale da casa. Today, this technology is used for many other things: for example, to browse the Internet anonymously or to protect your online activity from prying eyes while using public Wi-Fi.
 
-Una VPN collega il computer o il dispositivo mobile di un utente a un server e consente di navigare in rete utilizzando l'indirizzo IP di un'altra persona. Pertanto, gli osservatori di terze parti non possono vedere il vero indirizzo IP dell'utente, il che rende quasi impossibile rintracciarli.
+A VPN connects a user's computer or mobile device to a server and allows one to browse the net using a "cover" IP address. Pertanto, gli osservatori di terze parti non possono vedere il vero indirizzo IP dell'utente, il che rende quasi impossibile rintracciarli.
 
-Parlando di VPN, la prima cosa che menzionano è la crittografia del traffico e la sicurezza che ne deriva. Ma cosa significa? Una VPN crea un tunnel crittografato tra il dispositivo dell'utente e il server remoto. Tutto il tuo traffico web passa attraverso questo tunnel, in modo che i tuoi dati siano protetti lungo il percorso. Per l'osservatore esterno, il tuo traffico esce dal server VPN, quindi sembra che il tuo dispositivo abbia l'indirizzo IP di questo server. Questo trucco maschera l'identità dell'utente e la vera posizione.
+The first thing that users mention in relation to VPN is traffic encryption and the security derived from it. Ma cosa significa? Una VPN crea un tunnel crittografato tra il dispositivo dell'utente e il server remoto. Tutto il tuo traffico web passa attraverso questo tunnel, in modo che i tuoi dati siano protetti lungo il percorso. Per l'osservatore esterno, il tuo traffico esce dal server VPN, quindi sembra che il tuo dispositivo abbia l'indirizzo IP di questo server. Questo trucco maschera l'identità dell'utente e la vera posizione.
 
 La VPN può essere utilizzata per:
 

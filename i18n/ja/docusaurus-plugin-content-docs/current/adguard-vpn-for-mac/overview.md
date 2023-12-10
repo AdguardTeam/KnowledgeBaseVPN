@@ -7,21 +7,29 @@ AdGuard VPN for Macは、デスクトップVPNサービスです。 AdGuard VPN�
 
 **AdGuard VPN for Macを使用するには、AdGuardアカウントにログインする必要があります。**. AdGuardアカウントでログインするか、外部アカウント（Apple、Google、Facebook経由）でログインすることができます （外部アカウントの場合、AdGuardアカウントと同じメールアドレスのアカウントを使用してください）。 AdGuardアカウントに適切なサブスクリプションがある場合、AdGuard VPN for Macアプリでログインの際にそのサブスクリプションが自動的に有効化されます。 まだAdGuardのアカウントをお持ちでない方は、 [こちら](https://auth.adguard.com/registration.html)からご登録いただけます（アカウント登録に必要なのははメールアドレスのみです）。
 
-> AdGuard VPN for Macは現在macOS Catalina (10.15) より新しいバージョンのmacOSをサポートしています。
+:::note Compatibility
+
+AdGuard VPN for Macは現在macOS Catalina (10.15) より新しいバージョンのmacOSをサポートしています。
+
+:::
 
 ## ホーム画面
 
-![ホーム画面](https://cdn.adguardvpn.com/content/kb/vpn/mac/main_en.png)
+![Home screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/main_en.png)
 
-最初のタブは、 *ホーム*画面です。 ここでは、AdGuard VPN の現在の状態（接続／切断）と選択中の[VPN対象外モード](#exclusions)（一般／指定）、選択中のロケーション（VPNがオンの場合）とそのping値を確認することができます。 pingとは、VPNサーバーの応答時間です。 つまり、ping数値が小さいほど接続速度は速くなるということになります。 VPNがオフの場合、最後に接続した最終ロケーションが下に表示されます。 画面右上には、pingが最も低く、最速のロケーションが表示されます。 その下には、全ロケーションの一覧が表示されます。 検索機能により、必要なロケーションを簡単に見つけることができます。
+最初のタブは、 *ホーム*画面です。 ここでは、AdGuard VPN の現在の状態（接続／切断）と選択中の[VPN対象外モード](#exclusions)（一般／指定）、選択中のロケーション（VPNがオンの場合）とそのping値を確認することができます。 pingとは、VPNサーバーの応答時間です。 Consequently, the lower this number, the faster the connection. VPNがオフの場合、最後に接続した最終ロケーションが下に表示されます。 画面右上には、pingが最も低く、最速のロケーションが表示されます。 その下には、全ロケーションの一覧が表示されます。 検索機能により、必要なロケーションを簡単に見つけることができます。
 
-> 無料ユーザーは特定のロケーションにしか接続できず、それ以外のロケーションはロックされています。 その上、無料版では月間3GBというデータ通信量制限があります。
+:::note
+
+無料ユーザーは特定のロケーションにしか接続できず、それ以外のロケーションはロックされています。 その上、無料版では月間3GBというデータ通信量制限があります。
+
+:::
 
 ## VPN対象外リスト（サイト除外機能）
 
 ![VPN対象外リスト](https://cdn.adguardvpn.com/content/kb/vpn/mac/exclusions_en.png)
 
-次に、 *VPN対象外*画面へ。 AdGuard VPNにはいくつかのユニークな特徴がありますが、中でも2つの除外モードの切り替えがあるという機能があります。 一般モードでは、VPNはリストにあるサイト以外に対して機能します。 指定モードはその逆で、VPNはリストにあるサイトのみに対して機能します。 つまり、VPNを有効にしたい・したくないサイトを自分で設定できる機能なのです。
+AdGuard VPN has several features that make it unique, and one of them is definitely *Exclusions*. By default, AdGuard VPN will run on all websites and in all apps but the ones from the exclusions list. But you can switch to the other mode, so AdGuard VPN will run only on websites and in apps from the exclusions list.
 
 ![VPN対象外リスト画面](https://cdn.adguardvpn.com/content/kb/vpn/mac/services_en.png)
 
@@ -38,7 +46,9 @@ Webサイトを手動で対象外リストに追加するだけでなく、人�
 3. 異なる端末間で除外リストを移行する場合は、インポート先端末に `.zip` ファイルを送信することを忘れずに。 （例えば、Macからの除外リストをiPhoneにインポートする場合、事前に `.zip` ファイルをiPhoneに送信しておいてください。）
 4. 除外リストのアーカイブをインポートしたい端末でAdGuard VPNを開きます。 Find the appropriate section, click the *Import* button and select the archive. 完了です。
 
-> 他のデバイスからのアーカイブファイルも同様に、AdGuard VPN for Macにインポートすることができます。
+:::note Archive files from other devices can be similarly imported to your AdGuard VPN for Mac.
+
+:::
 
 ## サポート
 
@@ -58,23 +68,21 @@ Webサイトを手動で対象外リストに追加するだけでなく、人�
 
 The first four basic features make the application more convenient and user-friendly, i.e. *Kill Switch*, *Auto-update*, *Launch AdGuard VPN at login*, and *Auto-connect on app launch*. さらに、カラーテーマは「ライト」「ダーク」「システムに合わせる」から選ぶことができ、後者はMacのカラーテーマとAdGuard VPNのテーマを一致します。
 
-もう一つの見逃せないオプションは、「AdGuard VPNの改善に協力する」であり、匿名化されたクラッシュレポート、テクニカルデータ、インタラクションデータを収集し送信することを許可することで、AdGuard VPNの開発の手助けをできる機能です。 最後に、右側の「ログをエクスポートする」ボタンで、ログをMacにエクスポートすることができます。 サポートへのメッセージにログを添付したい場合などに便利です。
+You can also allow AdGuard VPN to gather and send anonymized crash reports, technical and interaction data in order to help us improve our app. Last but not least, you can export logs from your Mac. サポートへのメッセージにログを添付したい場合などに便利です。
 
 ### DNSサーバー
 
 ![DNSサーバー](https://cdn.adguardvpn.com/content/kb/vpn/mac/dns_en.png)
 
-インターネットプロバイダがデフォルトで提供するDNSサーバーに依存しないように、こちらではカスタムDNSサーバー（一つまたは複数）を追加することができます。 DNSトラフィックを暗号化するだけでなく、悪意のあるサイトへのリクエストを特定し“ブラックホール”にリダイレクトする、AdGuard DNSサーバーをお勧めします。
+インターネットプロバイダがデフォルトで提供するDNSサーバーに依存しないように、こちらではカスタムDNSサーバー（一つまたは複数）を追加することができます。 We recommend adding AdGuard DNS, which not only encrypts your DNS traffic but also identifies requests to malicious websites and redirects them to a “blackhole”.
 
 ### 詳細設定
 
 ![詳細設定](https://cdn.adguardvpn.com/content/kb/vpn/mac/advanced-settings_en.png)
 
-詳細設定は、調整することをお勧めしません。 サポートからの案内がった場合や、技術的に詳しい方でない限り、これらを変更しないでください。
-
 #### ログのレベル
 
-ログのレベルは2つしかありませんが、最初のデフォルトの「通常記録」を使用することを強くお勧めします。 （※弊社のサポートにご相談いただいた後に、プログラムの異常な動作を記録する場合にのみ、「すべてを記録」オプションを選択してください。） 「すべてを記録」ログレベルを有効にした場合でも、ログを記録した後は必ず「通常記録」ログレベルに戻してください。
+ログのレベルは2つしかありませんが、最初のデフォルトの「通常記録」を使用することを強くお勧めします。 （※弊社のサポートにご相談いただいた後に、プログラムの異常な動作を記録する場合にのみ、「すべてを記録」オプションを選択してください。） If you have enabled the extended logging level, make sure to switch to the default one after recording logs.
 
 #### メニューバーアイコンを非表示にする
 

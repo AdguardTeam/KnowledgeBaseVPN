@@ -13,7 +13,7 @@ Med andre ord, hver gang et websted tilgås, sender browseren en forespørgsel t
 
 ## Sådan opdages DNS-lækager
 
-Der er alle mulige former for anonymitetstjektjenester til detektering af DNS-lækager, såsom `whoer.net`. Det bør forstås, at disse websteder i sig selv ikke er perfekte, og deres algoritmer er ikke klare, i modsætning til deres intentioner om at skræmme brugere med imaginære lækager for potentielt at sælge kunne ydelser.
+Der er alle mulige former for anonymitetstjektjenester til detektering af DNS-lækager, såsom `whoer.net`. The algorithms of these websites are not clear, but their intentions are — to scare users with imaginary leaks, potentially enabling them to sell their services.
 
 Visse websteder med sikkerhedsskanning anser sammenfaldet af brugerens IP-adresse og DNS-serverens IP-adresse for at være et "godt" resultat, hvilket indikerer fravær af lækager. Reelt kan et sådant match indikere brugen af et VPN. Når VPN er deaktiveret, og forespørgsler sendes til internetudbyderens DNS-server, har brugeren og DNS-serveren ikke sammenfaldende IP-adresser.
 
@@ -29,7 +29,7 @@ I tilfælde af AdGuard DNS "smelter" man sammen med 50 millioner brugere, så ma
 
 ## Sådan opsættes en tilpasset DNS-server i AdGuard VPN
 
-Der er mange populære offentlige DNS-servere fra [velkendte DNS-udbydere](https://adguard-dns.io/kb/general/dns-providers). Nogle heraf kan kun udføre deres direkte opgaver – at levere IP-adresserne på de forespurgte domæner – mens nogle kan gøre mere.
+Der er mange populære offentlige DNS-servere fra [velkendte DNS-udbydere](https://adguard-dns.io/kb/general/dns-providers). Some of them can only perform their direct duties — giving the IP addresses of the requested domains, and some can do more.
 
 F.eks. fjerner AdGuard DNS annoncer og beskytter enheden mod sporing, mens AdGuard DNS Family Protection kombinerer funktionerne i AdGuard DNS med SafeSearch og Forældrekontrol.
 

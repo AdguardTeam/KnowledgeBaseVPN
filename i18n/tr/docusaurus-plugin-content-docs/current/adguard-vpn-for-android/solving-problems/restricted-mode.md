@@ -16,13 +16,17 @@ Sorunu çözmek için iki yolunuz var:
     - Telefonunuzda **Ayarlar** uygulamasını açın;
     - **Sistem** bölümüne gidin (ayarlar menüsündeki son öğe). Bu bölümde **Telefon hakkında** alt öğesini bulun;
     - **Yapı numarası** satırına 7 kez tıklayın. Bundan sonra, artık **Bir geliştirici olduğunuza dair** bir bildirim alırsınız (Gerekirse, cihaz için bir kilit açma kodu girin);
-    - **Sistem Ayarları** → **Geliştirici Seçenekleri** öğesini açın → Aşağı kaydırın ve **USB hata ayıklama** öğesini etkinleştirin → Uyarıyı dikkatlice okuduktan sonra **USB hata ayıklamasına izin ver** penceresinde hata ayıklamanın etkinleştirildiğini onaylayın.
+    - Open **System Settings** → **Developer Options** → Scroll down and enable **USB debugging** → Confirm debugging is enabled in the window **Allow USB debugging** after reading the warning carefully.
 
-    > Herhangi bir zorluk veya ek sorunuz varsa, tam talimatlar [burada](https://developer.android.com/studio/debug/dev-options) bulunabilir.
+    :::note If you have any difficulties or additional questions, full instructions can be found [here](https://developer.android.com/studio/debug/dev-options).
+
+    :::
 
 1. ADB'yi [kurun ve yapılandırın](https://www.xda-developers.com/install-adb-windows-macos-linux/);
 
-    > Windows platformunda, **Samsung** sahiplerinin [bu yardımcı programı](https://developer.samsung.com/mobile/android-usb-driver.html) yüklemeleri gerekebilir.
+    :::note On the Windows platform, **Samsung** owners may need to install [this utility](https://developer.samsung.com/mobile/android-usb-driver.html).
+
+    :::
 
 1. Cihazınızı bir **USB kablosu** kullanarak **ADB** kurduğunuz bilgisayara veya dizüstü bilgisayara bağlayın;
 
@@ -37,7 +41,11 @@ Sorunu çözmek için iki yolunuz var:
 
 Bir Android cihazdan kullanıcı hesaplarını nasıl yöneteceğinizi [burada bulabilirsiniz](https://support.google.com/a/answer/6223444?hl=en).
 
-> Lütfen bazı durumlarda kısıtlanmış kullanıcı hesaplarının dolaylı olarak oluşturulduğunu ve kaldırılamayacağını unutmayın. Örneğin, **Samsung** veya **LG** cihazlarında Dual Messenger veya Dual App özelliklerini kullandığınızda. Bu durumlarda sorunun nasıl çözüleceğini aşağıda okuyun.
+:::note
+
+In some cases restricted user accounts are created implicitly and cannot be removed. Örneğin, **Samsung** veya **LG** cihazlarında Dual Messenger veya Dual App özelliklerini kullandığınızda. Bu durumlarda sorunun nasıl çözüleceğini aşağıda okuyun.
+
+:::
 
 ### LG ve Samsung cihazları
 
@@ -48,7 +56,7 @@ Bir Android cihazdan kullanıcı hesaplarını nasıl yöneteceğinizi [burada b
 - **Ayarları** açın;
 - **Gelişmiş** öğesine basın;
 - Aşağı kaydırın ve ardından **Dual Messenger** öğesine basın;
-- Tüm uygulamalar için **Dual Messenger** öğesini devre dışı bırakın;
+- Disable the **Dual Messenger** for all apps;
 - Cihazı 5 dakika kilitleyin;
 - Ekranın kilidini açın ve VPN profilini yeniden oluşturmayı deneyin.
 
@@ -57,5 +65,5 @@ Bir Android cihazdan kullanıcı hesaplarını nasıl yöneteceğinizi [burada b
 - **Ayarları** açın;
 - **Genel** sekmesini seçin;
 - Aşağı kaydırın ve ardından **Dual App** öğesine basın;
-- Tüm uygulamaları listeden kaldırın;
+- Remove all apps from the list;
 - Cihazınızı yeniden başlatın.

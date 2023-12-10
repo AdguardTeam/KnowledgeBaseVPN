@@ -3,15 +3,11 @@ title: 功能概述
 sidebar_position: 1
 ---
 
-## 什么是 Windows版 AdGuard VPN？
-
-VPN 是“虚拟专用网络”的缩写，该服务可保证您的互联网连接安全，并能使您可以匿名上网。 它是如何工作的呢？ 当您不使用 VPN 访问网页时，您的 ISP（网络业务提供商）会检测到您。 他们会知道您在哪个页面以及您的搜索内容，还会收集出售这些数据。 不仅如此，您访问的网站也可以跟踪您的活动。 当您启用 VPN 应用程序后，它会通过加密隧道将您的流量重定向到远程 VPN 服务器，从而保护您的隐私。这样 ISP 就不会知道您向何处发送请求，站点也不会知道您来自哪里。
-
 ## AdGuard VPN Windows 版的功能
 
 - 防止网络流量拦截（欺骗）。 AdGuard VPN可在您的设备和远程服务器之间创建加密隧道。 您的所有网络流量都会经由此隧道，从而在此过程中保护您的数据。 得益于 [AdGuard 特有协议](/general/adguard-vpn-protocol)，您可以有快速、安全的连接。
 
-- 隐藏您的 IP 地址。 您的真实 IP 地址是网络犯罪分子获取您个人数据的关键。 如果您不隐藏 IP，那么您的姓名、电子邮件地址、电话号码、信用卡信息都可能落入犯罪分子手中。 正如上文所说，使用 AdGuard VPN，您的所有流量都会通过加密隧道到达 VPN 服务器。 因此，从外部看来，您设备的 IP 地址就和 VPN 服务器的 IP 地址相同。
+- 隐藏您的 IP 地址。 您的真实 IP 地址是网络犯罪分子获取您个人数据的关键。 如果您不隐藏 IP，那么您的姓名、电子邮件地址、电话号码、信用卡信息都可能落入犯罪分子手中。 With AdGuard VPN, all your traffic goes through an encrypted tunnel and comes to the VPN server. The web server registers the IP address of the endpoint of the tunnel, i.e. the VPN server, and not the device's real IP address.
 
 - 隐藏您的真实位置。 选择任意一个 AdGuard VPN 服务器，您可以立即“传送”到其对应位置。 这有什么作用呢？ 举个例子，这样您就能够以当地的价格预订酒店，或者躲避地理目标广告。
 
@@ -31,7 +27,7 @@ AdGuard VPN Windows 版有很多优点，为此我们专门写了一篇[文章](
 
 ## 排除项
 
-AdGuard VPN Windows 版可以在两种模式下运行：「**常规模式**」和「**选择模式**」。 这是什么意思呢？ 如果您想让应用程序在除少数网站外的其他所有网站运行，请激活「**常规模式**」，并列出您想从隧道中排除的网站。 **选择模式**有相反的效果：它仅在排除列表里的网站中启动 AdGuard VPN。 请注意，这两种模式的排除列表是相互独立的。
+AdGuard VPN for Windows can operate in two modes. By default, the application works everywhere, and you can list the websites and apps you want to exclude from the tunnel. But you can switch to the opposite mode: AdGuard VPN will only run on the websites and in the apps specified in the list of exclusions. Please note that these two lists are independent from one another.
 
 ![排除项](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_en.png)
 
@@ -41,21 +37,23 @@ AdGuard VPN Windows 版可以在两种模式下运行：「**常规模式**」�
 
 ![在列表中添加排除项](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_from_list_en.png)
 
-> 手动添加域名时，用户应该考虑到一些细微差别。 例如，如果用户手动排除域名 `google.com`，所有 `*.google.com` 的子域名也将被列在排除项中。 然而，具有其他顶级域名的域名，如 `google.es` 或`google.it`，将不会被排除。 或者您可以把 `youtube.com` 添加到排除项中，但同一服务的域名 `youtu.be` 将不会进入列表中。
+:::note When adding domains manually, you should take into account some nuances. 例如，如果用户手动排除域名 `google.com`，所有 `*.google.com` 的子域名也将被列在排除项中。 然而，具有其他顶级域名的域名，如 `google.es` 或`google.it`，将不会被排除。 或者您可以把 `youtube.com` 添加到排除项中，但同一服务的域名 `youtu.be` 将不会进入列表中。
+
+:::
 
 我们建议使用**从列表**选项。 网站共分为八个类别，包括社交网络、通信、视频、音乐流媒体服务、游戏、购物、搜索引擎和工作通信工具。 我们将最受欢迎的服务记在列表内，包括与每个平台相关的所有域名和子域名。
 
 ### 导入/导出排除项列表
 
-如果您要从 AdGuard VPN Windows 版里导出排除项列表到您的计算机中，请点击「**导出排除项**」，选择用于存储列表文件的文件夹，然后点击「**保存**」。 本程序会下载一个 `exclusions.zip` 文件和两个 `.txt` 文件，后者分别对应**常规模式**和**选择模式**的列表。 您可以通过添加新排除项或删除旧排除项来直接编辑它们。
+如果您要从 AdGuard VPN Windows 版里导出排除项列表到您的计算机中，请点击「**导出排除项**」，选择用于存储列表文件的文件夹，然后点击「**保存**」。 An archive `exclusions.zip` with two `.txt` files will be downloaded, one for each of the lists. 您可以通过添加新排除项或删除旧排除项来直接编辑它们。
 
-如要将排除项列表传输到另一台设备，请将 `.zip` 文件发送到目标设备。 在您要导入排除项列表的设备上打开 AdGuard VPN，点击「*排除项*」，然后点击「*导入排除项*」并选择之前发送的文件。
+On the destination device, open AdGuard VPN, click *Exclusions*, and select *Websites* or *Apps*. Click *Import exclusions* and select the received archive.
 
 ## 设置
 
 ![设置](https://cdn.adguardvpn.com/content/release_notes/vpn/windows/v2.0/settings_en.png)
 
-在程序标签栏的第四个标签中，您可以对应用程序进行自定义。 具体内容包括：「**应用程序设置**」和「**应用程序排除项**」。
+The fourth tab contains sections that will help you customize the application.
 
 ### 应用程序设置
 
@@ -83,7 +81,7 @@ AdGuard VPN Windows 版可以在两种模式下运行：「**常规模式**」�
 
 共有两个记录级别：「**默认记录**」和「**记录全部**」。 默认情况下启用第一个选项。 只有在我们的支持团队要求您时，您才用启动「**记录全部**」选项。 长时间使用此模式会增加耗电量。
 
-所有日志都保存在本地设备上。有需要的话，您可以将日志记录发给我们的技术支持团队。
+All logs are stored locally on your device, and you can send them to the support team if needed.
 
 ##### 使用 QUIC 协议
 
@@ -93,7 +91,7 @@ AdGuard VPN Windows 版可以在两种模式下运行：「**常规模式**」�
 
 ![将应用程序添加到排除项中](https://cdn.adguardvpn.com/content/release_notes/vpn/windows/v2.0/add_app_en.png)
 
-AdGuard VPN 不仅会加密浏览器的流量，还会加密您计算机上其他应用程序的流量。 如果您想从 AdGuard 的隧道中排除某些程序，请将它们添加到「**应用程序排除项**」的列表。
+Not only does AdGuard VPN encrypt the traffic of browsers, but also of other apps installed on your device. 如果您想从 AdGuard 的隧道中排除某些程序，请将它们添加到「**应用程序排除项**」的列表。
 
 ## 其他标签
 

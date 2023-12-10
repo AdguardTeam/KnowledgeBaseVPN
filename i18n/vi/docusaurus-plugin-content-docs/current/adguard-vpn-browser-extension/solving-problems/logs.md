@@ -10,7 +10,7 @@ Có một số cách để thu thập nhật ký tiện ích mở rộng Trình 
 1. Mở tiện ích mở rộng Trình duyệt AdGuard VPN, nếu có thể, hãy lặp lại các hành động dẫn đến lỗi. Lưu ý thời gian chính xác khi lỗi này xảy ra.
 1. Mở *Cài đặt* bằng cách nhấp vào biểu tượng menu hamburger (☰) → *Hỗ trợ* → *Báo cáo lỗi*.
 1. Trong biểu mẫu đã mở, hãy để lại địa chỉ email được chèn tự động hoặc nhập địa chỉ email khác và mô tả lỗi tìm thấy, bao gồm cả thời gian xảy ra lỗi này. Nếu bạn không thể tái tạo sự cố, hãy chỉ định chính xác nhất có thể khi sự cố xảy ra lần cuối.
-1. Đảm bảo rằng có dấu kiểm bên cạnh *Bao gồm báo cáo chẩn đoán trong thư*, rồi nhấn vào *Trình*. Bằng cách này, bạn sẽ gửi nhật ký cùng với báo cáo lỗi.
+1. Make sure that there is a check mark next to *Include the diagnostic report in the message* and tap *Submit*. Bằng cách này, bạn sẽ gửi nhật ký cùng với báo cáo lỗi.
 
 ## Thu thập và gửi nhật ký qua nút *Xuất nhật ký*
 

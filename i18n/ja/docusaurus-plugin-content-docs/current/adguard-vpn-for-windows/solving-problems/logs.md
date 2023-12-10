@@ -5,7 +5,7 @@ sidebar position: 1
 
 
 
-AdGuard VPN for Windows の使用時に問題が発生した場合、それについてご連絡ただけます。 その時、一緒にアプリのログをお送りいただけると、より早く問題を解決することができて助かります。
+If you encounter any problems while using AdGuard VPN for Windows, you can inform us about it. We would appreciate it if you also send application logs, as they help us resolve issues much quicker.
 
 ## 通常ログの収集・送信
 

@@ -30,7 +30,7 @@ No Android 8 e posterior, também é possível fazer uma captura de tela colocan
 
 If this method doesn’t work, check *Settings* → *Advanced features* → *Motions and gestures* → enable *Palm swipe to capture*.
 
-Além disso, você pode usar um aplicativo específico para tirar screenshots em seus dispositivos, como o — *Screenshot Easy*, *Screenshot Ultimate*, *Screenshot Snap*, etc.
+Besides, you can always use any special apps for taking screenshots on your devices, for example — *Screenshot Easy*, *Screenshot Ultimate*, *Screenshot Snap*, etc.
 
 ### iOS
 
@@ -48,11 +48,15 @@ Seu dispositivo iOS irá capturar a tela inteira e salvá-la como uma foto. Voc�
 
 ### Windows
 
-- **Para fazer uma captura de tela no Windows, pressione o botão *PrtScn***
+- **To take a screenshot on a Windows device, press the *PrtScn* button**
 
-On some notebooks you have to hold *Fn* and then press *PrtScn* instead.
+On some devices, you first have to press and hold *Fn* before pressing *PrtScn*.
 
-*Please note: PrtScn (Print Screen) button can be differently abbreviated on various keyboards — PrntScrn, PrtScn, PrtScr or PrtSc.*
+:::note
+
+PrtScn (Print Screen) can be differently abbreviated on various keyboards — PrntScrn, PrtScn, PrtScr or PrtSc.
+
+:::
 
 Windows captures the entire screen and copies it to the (invisible) clipboard.
 
@@ -64,17 +68,17 @@ To take a screenshot of a specific area, you should use the following combinatio
 
 - ***Hold down *Win* (the Windows button) and *Shift* and press ***S******
 
-After you take a screenshot, it will be saved in the clipboard. In most cases you will be able to paste it into a document that you are currently editing by using *Ctrl + V* button combination. Alternatively, if you need to save the screenshot into a file, you should open the standard **Paint** program (or any other app that can work with images). Paste your screenshot there using the same button combination or by clicking the Paste button (usually in the top left corner of the screen) and then save it.
+After you take a screenshot, it will be saved in the clipboard. Usually, you will then be able to paste it into a document using the standard button combination *Ctrl + V*. Alternatively, if you need to save the screenshot into a file, you should open the standard **Paint** program (or any other app that can work with images). Paste your screenshot there using the same button combination or by clicking the Paste button (usually in the top left corner of the screen) and then save it.
 
 Windows 8 and 10 let you take a screenshot very quickly with a *Win + PrtScn* combination. As soon as you press these buttons, the screenshot will be automatically saved as a file to your Pictures → Screenshots Folder.
 
-There is also a dedicated program for taking screenshots called *Snipping Tool* that you can find via Start menu among standard programs of your computer. Snipping Tool lets you capture of any area of your desktop or the entire screen. After taking a screenshot using this program you can edit the picture and save it to any folder on your computer.
+There is also a dedicated program for taking screenshots called *Snipping Tool* that you can find via Start menu among standard programs of your computer. Snipping Tool lets you capture of any area of your desktop or the entire screen. After taking a screenshot using this program you can edit the picture and then save it.
 
 Besides, you can also try using different apps for taking screenshots on your computer, like **PicPick**, **Nimbus Screenshot**, **Screenshot Captor**, **Snipaste**, **Monosnap**, etc.
 
 ### macOS
 
-To take a screenshot on Mac, use the following button combination:
+To take a screenshot on a Mac device, use the following button combination:
 
 - ***Press and hold together ***⌘ Cmd + Shift + 3******
 

@@ -3,7 +3,7 @@ title: Como coletar e enviar logs
 sidebar_position: 2
 ---
 
-Se você encontrar um problema ao usar o AdGuard VPN para iOS, poderá nos informar sobre isso enviando os logs do aplicativo.
+If you encounter any problems while using AdGuard VPN for iOS, you can inform us about it by sending the app logs.
 
 ## Coletando e enviando logs padrão
 

@@ -18,11 +18,15 @@ sidebar_position: 4
     - Нажмите на строку **Номер сборки** 7 раз. После этого вы получите уведомление о том, что **Теперь вы разработчик** (при необходимости введите код разблокировки устройства);
     - Откройте **Настройки системы** → **Для разработчиков** → Прокрутите вниз и включите **отладку по USB** → Подтвердите включение отладки в окне **Разрешить отладку по USB**, внимательно прочитав предупреждение.
 
-    > Если у вас возникнут трудности или дополнительные вопросы, полные инструкции можно найти [здесь](https://developer.android.com/studio/debug/dev-options).
+    :::note If you have any difficulties or additional questions, full instructions can be found [here](https://developer.android.com/studio/debug/dev-options).
+
+    :::
 
 1. [Установите и настройте](https://www.xda-developers.com/install-adb-windows-macos-linux/) ADB;
 
-    > На платформе Windows владельцам **Samsung** может потребоваться установить [эту утилиту](https://developer.samsung.com/mobile/android-usb-driver.html).
+    :::note On the Windows platform, **Samsung** owners may need to install [this utility](https://developer.samsung.com/mobile/android-usb-driver.html).
+
+    :::
 
 1. Подключите устройство с помощью кабеля USB **** к компьютеру или ноутбуку, на котором вы установили **ADB**;
 
@@ -37,7 +41,11 @@ sidebar_position: 4
 
 [Здесь](https://support.google.com/a/answer/6223444?hl=en) вы можете найти, как управлять учётными записями пользователей с Android-устройства.
 
-> Обратите внимание, что в некоторых случаях ограниченные учётные записи пользователей создаются неявно и не могут быть удалены. Например, когда вы используете функции Dual Messenger или Dual App на **устройствах Samsung** или **LG**. Читайте ниже, как исправить проблему в этих случаях.
+:::note
+
+В некоторых случаях аккаунты с ограниченным доступом создаются неявно и не могут быть удалены. Например, когда вы используете функции Dual Messenger или Dual App на **устройствах Samsung** или **LG**. Читайте ниже, как исправить проблему в этих случаях.
+
+:::
 
 ### Устройства LG и Samsung
 

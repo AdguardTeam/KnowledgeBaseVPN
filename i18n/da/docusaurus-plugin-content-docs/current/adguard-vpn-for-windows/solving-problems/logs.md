@@ -5,7 +5,7 @@ sidebar position: 1
 
 
 
-Opleves problemer under brug af AdGuard VPN til Windows, kan vi informeres herom. Vi vil også værdsætte, at applikationslogfiler ligeledes indsendes, da de bidrager til hurtigere problemløsninger.
+If you encounter any problems while using AdGuard VPN for Windows, you can inform us about it. We would appreciate it if you also send application logs, as they help us resolve issues much quicker.
 
 ## Indsamling og indsendelse af standardlogfiler
 

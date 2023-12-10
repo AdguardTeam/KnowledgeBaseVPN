@@ -3,7 +3,7 @@ title: Günlükler nasıl toplanır ve gönderilir
 sidebar_position: 2
 ---
 
-Android için AdGuard VPN kullanırken bir sorunla karşılaşırsanız, uygulama günlüklerini göndererek bize bildirebilirsiniz.
+If you encounter any problem while using AdGuard VPN for Android, you can inform us about it by sending the app logs.
 
 ## Standart günlükleri toplama ve gönderme
 
@@ -15,7 +15,7 @@ Varsayılan olarak, Android için AdGuard VPN **Varsayılan** günlük kayıt d�
 
 3. Açılan formda, geri bildirim için e-posta adresinizi girin ve bulunan hatayı, bu hatanın oluştuğu zaman da dahil olmak üzere açıklayın. Sorunu yeniden oluşturamıyorsanız, en son ne zaman oluştuğunu olabildiğince doğru bir şekilde belirtin.
 
-4. **Detaylı sistem bilgisi gönder** öğesinin yanında bir onay işareti vardır; bu, bir rapor gönderdiğinizde günlükleri de göndereceğiniz anlamına gelir.
+4. There is a check mark next to **Send app logs and system info**, which means that when you send a report, you also send logs.
 > Herhangi bir nedenle bize günlükleri başka bir şekilde göndermeniz daha uygunsa, bunları kendiniz dışa aktarabilirsiniz. Bunu yapmak için **Ayarlar** → **Destek** → **Günlükleri ve sistem bilgisini dışa aktar** öğesine gidin.
 
 ## Genişletilmiş günlükleri toplama ve gönderme
@@ -34,5 +34,5 @@ Varsayılan olarak, Android için AdGuard VPN **Varsayılan** günlük kayıt d�
 
 6. Açılan formda, geri bildirim için e-posta adresinizi girin ve bulunan hatayı, bu hatanın oluştuğu zaman da dahil olmak üzere açıklayın.
 
-7. **Detaylı sistem bilgisi gönder** öğesinin yanında bir onay işareti olduğundan emin olun ve **Gönder** öğesine dokunun.
+7. Make sure that there is a check mark next to **Send app logs and system info** and tap **Send**.
 > Herhangi bir nedenle bize günlükleri başka bir şekilde göndermeniz daha uygunsa, bunları kendiniz dışa aktarabilirsiniz. Bunu yapmak için **Ayarlar** → **Destek** → **Günlükleri ve sistem bilgisini dışa aktar** öğesine gidin.

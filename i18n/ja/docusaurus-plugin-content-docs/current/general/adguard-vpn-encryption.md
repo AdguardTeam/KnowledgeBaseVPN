@@ -5,9 +5,9 @@ sidebar_position: 7
 
 ## はじめに
 
-Virtual Private Network（VPN）という言葉に「プライベート」（Private）という言葉があるのは、暗号化されているからです。 VPNは、お持ちの端末とVPNサーバーの間に暗号化トンネルを作り、それを通るデータ・個人情報は暗号化され、安全な形でオープンインターネットに出るのです。 暗号化とは、データを傍受した人が解読不可解な形に変えることであり、暗号化はVPNサービスにとって不可欠なものです。
+Virtual Private Network（VPN）という言葉に「プライベート」（Private）という言葉があるのは、暗号化されているからです。 A VPN creates a tunnel between your device and a VPN server, passing through which your data is encrypted and then securely transmitted to the open Internet. 暗号化とは、データを傍受した人が解読不可解な形に変えることであり、暗号化はVPNサービスにとって不可欠なものです。
 
-AdGuard VPNプロトコルは、最も安全で高速な暗号化アルゴリズムである「AES-256」を使用しています。 このアルゴリズムはなぜそんなに抜群なのかを見てみましょう。
+The AdGuard VPN protocol uses the most secure and fast encryption algorithm to date — AES-256. このアルゴリズムはなぜそんなに抜群なのかを見てみましょう。
 
 ## AESの歴史
 
@@ -23,6 +23,6 @@ AESは共通鍵によるブロック暗号です。 共通鍵暗号であるた�
 
 鍵のサイズは128ビット、192ビット、256ビットがあり、ブロックもビット単位で計測されます。 暗号化中、暗号元はセキュリティキーに応じて、各情報を別の情報に置き換えます。 例えばAES-256は、256個の平文ブロックから256個の暗号文ブロックを、14回のラウンドで作成します。
 
-各ラウンドは、データをブロックに分割する、バイトを入れ替える、行をずらす、列を並べ替えるといった複数ステップで構成されます。 その結果が、暗号化鍵がなければ何の意味もない、完全にランダムな文字の集まりとなります。
+各ラウンドは、データをブロックに分割する、バイトを入れ替える、行をずらす、列を並べ替えるといった複数ステップで構成されます。 The result is a completely random set of characters that will only make sense when using the right encryption key.
 
-AES-256は最強レベルの暗号であり、この暗号を破るには、2256本の個別組み合わせ（各組み合わせは78桁の数字）を試さなければなりません。
+AES-256 is the strongest level of encryption: to break this cipher, 2256 discrete combinations, each consisting of 78 digits, would have to be tried.

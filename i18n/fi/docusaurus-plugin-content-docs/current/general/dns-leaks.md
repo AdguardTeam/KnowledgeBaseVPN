@@ -13,7 +13,7 @@ In other words, every time you open a website, your browser sends a request to t
 
 ## How to detect DNS leaks
 
-There are all sorts of anonymity check services for detecting DNS leaks, such as `whoer.net`. It should be understood that these websites themselves are not perfect and their algorithms are not clear, as opposed to their intentions to intimidate users with imaginary leaks and potentially sell some service.
+There are all sorts of anonymity check services for detecting DNS leaks, such as `whoer.net`. The algorithms of these websites are not clear, but their intentions are — to scare users with imaginary leaks, potentially enabling them to sell their services.
 
 Some security scanning websites consider the coincidence of the user's IP address and the DNS server's IP address to be a "good" result, indicating that there are no leaks. In reality, such a match may indicate the use of a VPN. When VPN is disabled and the requests go to your ISP's DNS server, the IP address of the DNS server and your own one do not coincide.
 
@@ -29,7 +29,7 @@ And in the case of AdGuard DNS you will "merge" with 50 million users so nobody 
 
 ## How to set up a custom DNS server in AdGuard VPN
 
-There are many popular public DNS servers from [well-known DNS providers](https://adguard-dns.io/kb/general/dns-providers). Some of them can only perform their direct duties – giving the IP addresses of the requested domains, and some can do more.
+There are many popular public DNS servers from [well-known DNS providers](https://adguard-dns.io/kb/general/dns-providers). Some of them can only perform their direct duties — giving the IP addresses of the requested domains, and some can do more.
 
 For example, AdGuard DNS removes ads and protects your device from being tracked, and AdGuard DNS Family Protection combines AdGuard DNS features with Safe search and Parental control.
 

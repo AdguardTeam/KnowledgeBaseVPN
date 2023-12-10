@@ -15,8 +15,11 @@ Ve výchozím nastavení používá AdGuard VPN pro macOS standardní úroveň z
 
 3. V otevřeném formuláři zadejte svou e-mailovou adresu pro zpětnou vazbu a popište nalezenou chybu, včetně času, kdy k ní došlo. Pokud nemůžete problém reprodukovat, uveďte co nejpřesněji, kdy k němu naposledy došlo.
 
-4. Vedle položky **Přiložit technické záznamy** je zaškrtávací políčko, což znamená, že při odesílání hlášení se odesílají také protokoly.
-> Pokud je pro vás z nějakého důvodu pohodlnější poslat nám protokoly jiným způsobem, můžete je exportovat sami. Chcete-li to provést, zvolte **Nastavení** → **Obecné** → **Exportovat protokoly** v sekci **Akce** vpravo.
+4. Vedle položky **Odeslat podrobné systémové informace** je zaškrtávací políčko, což znamená, že při odesílání hlášení se odesílají také protokoly.
+
+:::note Pokud je pro vás z nějakého důvodu pohodlnější poslat nám protokoly jiným způsobem, můžete je exportovat sami. Chcete-li to provést, zvolte **Nastavení** → **Obecné** → **Exportovat protokoly** v sekci **Akce** vpravo.
+
+:::
 
 ## Shromažďování a odesílání rozšířených protokolů
 
@@ -34,7 +37,12 @@ Ve většině případů je výchozí úroveň záznamů dostatečná pro dohled
 
 6. V otevřeném formuláři zadejte svou e-mailovou adresu pro zpětnou vazbu a popište nalezenou chybu, včetně času, kdy k ní došlo.
 
-7. Ujistěte se, že je zaškrtnuto políčko **Přiložit technické záznamy**, a klepněte na **Odeslat**.
-> Pokud je pro vás z nějakého důvodu pohodlnější poslat nám protokoly jiným způsobem, můžete je exportovat sami. Chcete-li to provést, zvolte **Nastavení** → **Obecné** → **Exportovat protokoly** v sekci **Akce** vpravo.
+7. Ujistěte se, že je zaškrtnuto políčko **Odeslat podrobné systémové informace**, a klikněte na **Odeslat**.
+
+:::note
+
+Pokud je pro vás z nějakého důvodu pohodlnější poslat nám protokoly jiným způsobem, můžete je exportovat sami. Chcete-li to provést, zvolte **Nastavení** → **Obecné** → **Exportovat protokoly** v sekci **Akce** vpravo.
+
+:::
 
 Tato sekce je pravidelně aktualizována. Pokud jste v článcích uvedených v této sekci nenašli řešení svého problému, kontaktujte technickou podporu AdGuardu na adrese support@adguard-vpn.com.

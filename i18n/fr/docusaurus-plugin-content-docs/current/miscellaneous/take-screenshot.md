@@ -30,7 +30,7 @@ Sur Android 8 et versions ultérieures, il est également possible de prendre un
 
 If this method doesn’t work, check *Settings* → *Advanced features* → *Motions and gestures* → enable *Palm swipe to capture*.
 
-En outre, vous pouvez toujours utiliser des applications spéciales pour prendre des captures d'écran sur vos appareils, par exemple — *Screenshot Easy*, *Screenshot Ultimate*, *Screenshot Snap*, etc.
+Besides, you can always use any special apps for taking screenshots on your devices, for example — *Screenshot Easy*, *Screenshot Ultimate*, *Screenshot Snap*, etc.
 
 ### iOS
 
@@ -48,11 +48,15 @@ Votre appareil iOS capturera tout l'écran et l'enregistrera sous forme de photo
 
 ### Windows
 
-- **Pour prendre une capture d'écran sous Windows, appuyez sur le bouton *PrtScn***
+- **To take a screenshot on a Windows device, press the *PrtScn* button**
 
-Sur certains ordinateurs portables, vous devez maintenir *Fn* puis appuyer sur *PrtScn* à la place.
+On some devices, you first have to press and hold *Fn* before pressing *PrtScn*.
 
-*Veuillez noter : le bouton PrtScn (Impr écran) peut être abrégé différemment sur différents claviers — PrntScrn, PrtScn, PrtScr ou PrtSc.*
+:::note
+
+PrtScn (Print Screen) can be differently abbreviated on various keyboards — PrntScrn, PrtScn, PrtScr or PrtSc.
+
+:::
 
 Windows capture tout l'écran et le copie dans le presse-papiers (invisible).
 
@@ -64,17 +68,17 @@ Pour prendre une capture d'écran d'une zone spécifique, vous devez utiliser la
 
 - ***Maintenez enfoncés *Win* (le bouton Windows) et *Shift* et appuyez sur ***S******
 
-Après avoir effectué une capture d'écran, celle-ci sera enregistrée dans le presse-papiers. Dans la plupart des cas, vous pourrez la coller dans un document que vous êtes en train de rédiger en utilisant la combinaison de boutons *Ctrl + V*. Alternativement, si vous devez enregistrer la capture d'écran dans un fichier, vous devez ouvrir le programme standard **Paint** (ou toute autre application pouvant travailler avec des images). Collez-y votre capture d'écran en utilisant la même combinaison de boutons ou en cliquant sur le bouton Coller (généralement dans le coin supérieur gauche de l'écran), puis enregistrez-le.
+Après avoir effectué une capture d'écran, celle-ci sera enregistrée dans le presse-papiers. Usually, you will then be able to paste it into a document using the standard button combination *Ctrl + V*. Alternativement, si vous devez enregistrer la capture d'écran dans un fichier, vous devez ouvrir le programme standard **Paint** (ou toute autre application pouvant travailler avec des images). Collez-y votre capture d'écran en utilisant la même combinaison de boutons ou en cliquant sur le bouton Coller (généralement dans le coin supérieur gauche de l'écran), puis enregistrez-le.
 
 Windows 8 et 10 vous permettent de prendre une capture d'écran très rapidement avec la combinaison *Win + PrtScn*. Dès que vous appuyez sur ces boutons, la capture d'écran sera automatiquement enregistrée sous forme de fichier dans votre dossier Images → Captures d'écran.
 
-Il existe également un programme dédié pour prendre des captures d'écran appelé *Snipping Tool* que vous pouvez trouver via le menu Démarrer parmi les programmes standard de votre ordinateur. Snipping Tool vous permet de capturer n'importe quelle zone de votre bureau ou de l'écran entier. Après avoir pris une capture d'écran à l'aide de ce programme, vous pouvez modifier l'image et l'enregistrer dans n'importe quel dossier de votre ordinateur.
+Il existe également un programme dédié pour prendre des captures d'écran appelé *Snipping Tool* que vous pouvez trouver via le menu Démarrer parmi les programmes standard de votre ordinateur. Snipping Tool vous permet de capturer n'importe quelle zone de votre bureau ou de l'écran entier. After taking a screenshot using this program you can edit the picture and then save it.
 
 En outre, vous pouvez également essayer d'utiliser des applications différentes pour prendre des captures d'écran sur votre ordinateur, comme **PicPick**, **Nimbus Screenshot**, **Screenshot Captor**, **Snipaste**, **Monosnap**, etc.
 
 ### macOS
 
-Pour prendre une capture d'écran sur un appareil Mac, utilisez la combinaison suivante :
+To take a screenshot on a Mac device, use the following button combination:
 
 - ***Appuyez et maintenez ensemble ***⌘ Cmd + Shift + 3******
 

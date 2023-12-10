@@ -10,11 +10,11 @@ slug: /
 
 Una VPN le permite crear una conexión segura a otra red en Internet.
 
-Initially, VPNs were created to securely connect business networks over the Internet, so that people could connect to the corporate network from home. Esta tecnología se utiliza para muchas otras cosas: por ejemplo, para navegar por Internet de forma anónima o para proteger su actividad en línea de miradas indiscretas mientras usa Wi-Fi público.
+Initially, VPNs were created to securely connect business networks over the Internet, so that people could connect to the corporate network from home. Today, this technology is used for many other things: for example, to browse the Internet anonymously or to protect your online activity from prying eyes while using public Wi-Fi.
 
-Una VPN conecta la computadora o el dispositivo móvil de un usuario a un servidor y le permite a uno navegar por la red utilizando la dirección IP de otra persona. Por lo tanto, los observadores de terceros no pueden ver la dirección IP real del usuario, lo que hace que sea casi imposible rastrearlos.
+A VPN connects a user's computer or mobile device to a server and allows one to browse the net using a "cover" IP address. Por lo tanto, los observadores de terceros no pueden ver la dirección IP real del usuario, lo que hace que sea casi imposible rastrearlos.
 
-Hablando de VPN, lo primero que mencionan es el cifrado del tráfico y la seguridad derivada de ella. Pero, ¿qué significa? Una VPN crea un túnel cifrado entre el dispositivo del usuario y el servidor remoto. Todo su tráfico web pasa a través de este túnel, por lo que sus datos están protegidos en el camino. Para el observador externo, su tráfico sale del servidor VPN, por lo que parece que su dispositivo tiene la dirección IP de este servidor. Este truco enmascara la identidad del usuario y la verdadera ubicación.
+The first thing that users mention in relation to VPN is traffic encryption and the security derived from it. Pero, ¿qué significa? Una VPN crea un túnel cifrado entre el dispositivo del usuario y el servidor remoto. Todo su tráfico web pasa a través de este túnel, por lo que sus datos están protegidos en el camino. Para el observador externo, su tráfico sale del servidor VPN, por lo que parece que su dispositivo tiene la dirección IP de este servidor. Este truco enmascara la identidad del usuario y la verdadera ubicación.
 
 La VPN se puede utilizar para:
 

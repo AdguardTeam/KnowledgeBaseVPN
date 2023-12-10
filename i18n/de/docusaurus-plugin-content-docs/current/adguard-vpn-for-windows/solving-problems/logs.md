@@ -5,7 +5,7 @@ sidebar position: 1
 
 
 
-Wenn Sie bei der Verwendung von AdGuard VPN für Windows auf ein Problem stoßen, können Sie uns darüber informieren. Es wäre noch effektiver, falls Sie uns auch Anwendungsprotokolle zusenden würden, da diese uns helfen, Probleme schneller zu lösen.
+If you encounter any problems while using AdGuard VPN for Windows, you can inform us about it. We would appreciate it if you also send application logs, as they help us resolve issues much quicker.
 
 ## Sammeln und Senden von Standardprotokollen
 

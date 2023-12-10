@@ -7,21 +7,29 @@ O AdGuard VPN para Mac é um serviço VPN de desktop. O AdGuard VPN é totalment
 
 Observe que **você não pode usar o AdGuard VPN para Mac, a menos que tenha feito login na sua conta do AdGuard**. Você pode entrar com sua conta AdGuard ou com uma conta externa, ou seja, via Apple, Google ou Facebook. Certifique-se de que sua conta externa esteja vinculada ao mesmo endereço de e-mail da sua conta do AdGuard. Se houver uma assinatura adequada em sua conta do AdGuard, ela será ativada automaticamente no aplicativo de desktop. Ainda não tem uma conta AdGuard? Crie [aqui](https://auth. adguard. com/registration. html).
 
-> Atualmente, o AdGuard VPN para Mac é compatível com versões do macOS a partir do macOS Catalina (10.15).
+:::note Compatibility
+
+Atualmente, o AdGuard VPN para Mac é compatível com versões do macOS a partir do macOS Catalina (10.15).
+
+:::
 
 ## Tela inicial
 
-![Tela inicial](https://cdn.adguardvpn.com/content/kb/vpn/mac/main_en.png)
+![Home screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/main_en.png)
 
-A primeira guia é a Tela *Inicial*. Aqui você pode ver o status atual do AdGuard VPN e o [modo de exclusões](#exclusions), local escolhido (se ativado) e seu ping. Ping é o tempo de resposta de um servidor VPN. Consequentemente, quanto mais baixo for esse número, mais rápida será a conexão. Se a VPN estiver desativada, o último local ao qual você se conectou é exibido abaixo. Os locais mais rápidos com os pings mais baixos são exibidos no canto superior direito da tela. Abaixo pode ver a lista completa dos locais. Através da função de pesquisa, o local necessário pode ser facilmente encontrado.
+A primeira guia é a Tela *Inicial*. Aqui você pode ver o status atual do AdGuard VPN e o [modo de exclusões](#exclusions), local escolhido (se ativado) e seu ping. Ping é o tempo de resposta de um servidor VPN. Consequently, the lower this number, the faster the connection. Se a VPN estiver desativada, o último local ao qual você se conectou é exibido abaixo. Os locais mais rápidos com os pings mais baixos são exibidos no canto superior direito da tela. Abaixo pode ver a lista completa dos locais. Através da função de pesquisa, o local necessário pode ser facilmente encontrado.
 
-> Usuários gratuitos podem se conectar apenas a determinados locais, enquanto outros são bloqueados. Além disso, há um limite de tráfego mensal de 3 GB na versão gratuita.
+:::note
+
+Usuários gratuitos podem se conectar apenas a determinados locais, enquanto outros são bloqueados. Além disso, há um limite de tráfego mensal de 3 GB na versão gratuita.
+
+:::
 
 ## Exclusões
 
 ![Exclusões](https://cdn.adguardvpn.com/content/kb/vpn/mac/exclusions_en.png)
 
-Em seguida, vem a tela *Exclusões*. O AdGuard VPN possui vários recursos que o tornam único, e um deles certamente é alternar entre dois modos de exclusão. No modo Geral, o AdGuard VPN será executado em todos os sites, exceto os da lista de exclusões. No modo Seletivo, por outro lado, o AdGuard VPN será executado somente em sites da lista de exclusões. Você mesmo pode decidir onde deseja que a VPN funcione.
+AdGuard VPN has several features that make it unique, and one of them is definitely *Exclusions*. By default, AdGuard VPN will run on all websites and in all apps but the ones from the exclusions list. But you can switch to the other mode, so AdGuard VPN will run only on websites and in apps from the exclusions list.
 
 ![Tela de exclusões](https://cdn.adguardvpn.com/content/kb/vpn/mac/services_en.png)
 
@@ -38,7 +46,9 @@ Além disso, listas de exclusões prontas podem ser transferidas para outros dis
 3. Ao transferir entre dispositivos diferentes, não se esqueça de enviar o arquivo `.zip` para o dispositivo para importação. Por exemplo, se você importar listas de exclusão do Mac para o iPhone, certifique-se de enviar o arquivo `.zip` para o telefone com antecedência.
 4. Abra o AdGuard VPN no dispositivo/navegador onde deseja importar o arquivo com as listas de exclusões prontas. Encontre a seção apropriada, clique no botão *Importar* e selecione o arquivo. Feito!
 
-> Os ficheiros de arquivos de outros dispositivos podem ser semelhantemente importados ao seu AdGuard VPN para Mac.
+:::note Archive files from other devices can be similarly imported to your AdGuard VPN for Mac.
+
+:::
 
 ## Suporte
 
@@ -58,23 +68,21 @@ Por fim, chegamos à guia Configurações. Na seção *Sobre o programa*, você 
 
 Os primeiros quatro recursos básicos tornam o aplicativo mais conveniente e fácil de usar, ou seja, *Kill Switch*, *Autoupdate*, *Iniciar AdGuard VPN no login*, e *Auto conectar no início da aplicação*. Além do mais, você pode escolher entre temas claros, escuros e do sistema - o último corresponde ao tema do seu Mac.
 
-Outra opção que não deve ser negligenciada é que você pode permitir que o AdGuard VPN colete e envie relatórios de falhas anônimos, dados técnicos e de interação para nos ajudar a melhorar nosso aplicativo. Por último, mas não menos importante, graças ao botão à direita, você pode exportar logs para o seu Mac. Isso pode ser útil se você quiser anexar logs à sua mensagem para o suporte.
+You can also allow AdGuard VPN to gather and send anonymized crash reports, technical and interaction data in order to help us improve our app. Last but not least, you can export logs from your Mac. Isso pode ser útil se você quiser anexar logs à sua mensagem para o suporte.
 
 ### Servidores DNS
 
 ![Servidores DNS](https://cdn.adguardvpn.com/content/kb/vpn/mac/dns_en.png)
 
-Aqui você pode adicionar um servidor DNS personalizado (ou servidores) para não depender de um servidor DNS fornecido por seu ISP por padrão. Recomendamos adicionar AdGuard DNS, que não apenas criptografa seu tráfego DNS, mas também identifica solicitações para sites maliciosos e os redireciona para um “buraco negro”.
+Aqui você pode adicionar um servidor DNS personalizado (ou servidores) para não depender de um servidor DNS fornecido por seu ISP por padrão. We recommend adding AdGuard DNS, which not only encrypts your DNS traffic but also identifies requests to malicious websites and redirects them to a “blackhole”.
 
 ### Configurações avançadas
 
 ![Configurações avançadas](https://cdn.adguardvpn.com/content/kb/vpn/mac/advanced-settings_en.png)
 
-Configurações avançadas não são recomendadas para serem ajustadas. Não os altere a menos que solicitado pelo nosso suporte técnico ou a menos que você tenha certeza do que está fazendo.
-
 #### Nível de registro
 
-Existem apenas dois níveis de registro, mas recomendamos enfaticamente que você use o primeiro, o padrão. A segunda opção (registro estendido) deve ser definida apenas para registrar um comportamento estranho do programa após consultar nosso suporte técnico. Mesmo se você habilitou o segundo nível de log, certifique-se de voltar ao padrão após gravar os logs.
+Existem apenas dois níveis de registro, mas recomendamos enfaticamente que você use o primeiro, o padrão. A segunda opção (registro estendido) deve ser definida apenas para registrar um comportamento estranho do programa após consultar nosso suporte técnico. If you have enabled the extended logging level, make sure to switch to the default one after recording logs.
 
 #### Ocultar ícone da barra de menus
 

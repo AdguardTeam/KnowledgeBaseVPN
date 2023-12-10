@@ -5,9 +5,9 @@ sidebar_position: 7
 
 ## Introduction
 
-Le chiffrement est la raison pour laquelle le mot "privé" existe dans le terme "réseau privé virtuel". Un VPN crée un tunnel entre votre appareil et un serveur VPN, à travers lequel vos données sont cryptées, puis entrent sur Internet ouvert sous une forme sécurisée. Le processus de chiffrement, c'est-à-dire transformer les données en charabia que personne qui les intercepte ne peut lire, est essentiel à tout service VPN.
+Le chiffrement est la raison pour laquelle le mot "privé" existe dans le terme "réseau privé virtuel". A VPN creates a tunnel between your device and a VPN server, passing through which your data is encrypted and then securely transmitted to the open Internet. Le processus de chiffrement, c'est-à-dire transformer les données en charabia que personne qui les intercepte ne peut lire, est essentiel à tout service VPN.
 
-Le protocole AdGuard VPN utilise l'algorithme de chiffrement le plus sécurisé et le plus rapide à ce jour - AES-256. Apprenez ce que c'est et pourquoi c'est bien.
+The AdGuard VPN protocol uses the most secure and fast encryption algorithm to date — AES-256. Apprenez ce que c'est et pourquoi c'est bien.
 
 ## L'historique de l'AES
 
@@ -23,6 +23,6 @@ AES est un chiffrement par bloc avec une clé symétrique. En tant que chiffreme
 
 Il existe différentes tailles de clé - 128, 192 et 256 bits - et les blocs sont également mesurés en bits. Au cours du processus de chiffrement, le chiffreur remplace chaque élément d'information par un autre, en fonction de la clé de sécurité. Ainsi, par exemple, AES-256 crée 256 blocs de texte chiffré à partir de 256 blocs de texte en clair en 14 tours.
 
-Les tours se composent de plusieurs étapes : diviser les données en blocs, échanger des octets, déplacer des lignes et réorganiser les colonnes. Le résultat est un ensemble de caractères complètement aléatoire, qui n'aura de sens qu'avec une clé de chiffrement.
+Les tours se composent de plusieurs étapes : diviser les données en blocs, échanger des octets, déplacer des lignes et réorganiser les colonnes. The result is a completely random set of characters that will only make sense when using the right encryption key.
 
-AES-256 est le niveau de chiffrement le plus fort : pour casser ce chiffre, un mauvais acteur devra essayer 2256 combinaisons discrètes, chacune composée de 78 chiffres.
+AES-256 is the strongest level of encryption: to break this cipher, 2256 discrete combinations, each consisting of 78 digits, would have to be tried.

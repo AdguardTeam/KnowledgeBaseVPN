@@ -3,13 +3,13 @@ title: 常见安装程序错误
 sidebar_position: 2
 ---
 
-本文包含您在安装 AdGuard Windows 版时可能遇到的一些最常见的错误，以及可能的解决方法。
+This article outlines some of the most common errors you may encounter while installing AdGuard VPN for Windows and possible ways to resolve them.
 
 ### 错误5：访问被拒绝 {#error-5}
 
-发生此错误是由于权限出现问题。 有多种原因可能会导致 AdGuard VPN 安装程序无法获得其所需的权限。 您可以尝试以下步骤：
+This error message appears if required permissions are not granted. 有多种原因可能会导致 AdGuard VPN 安装程序无法获得其所需的权限。 您可以尝试以下步骤：
 
-- 暂时禁用您的防病毒软件。 部分防病毒软件可能会干扰安装，具体取决于其设置的严格程度。
+- 暂时禁用您的防病毒软件。 Some of them may interfere with the installation, depending on the restrictiveness of their settings.
 
 - 选择不同的安装文件夹。 当前设置的安装文件夹可能存在某些访问限制。 您还要确保没有选择外部驱动器、虚拟驱动器等。
 
@@ -34,8 +34,8 @@ sidebar_position: 2
     1. 按 *Win + R* 并输入 **services.msc**。
     1. 在列表中找到并双击*「Windows Installer」*。
     1. 点击*「服务状态」*下的*「开始」*按钮，然后点击 *「确定」*。 如果服务状态是**正在运行**，则先点击*「停止」*，然后再点击*「启动」*。
-    1. 按 *Win + R*，输入 ***msiexec /unregister*** 并按 *Enter*。
-    1. 再次按 *Win + R* ，输入 ***msiexec /regserver*** 并按 *Enter*
+    1. Press *Win + R*, type and enter **msiexec /unregister** and hit *Enter*.
+    1. Press *Win + R* again, type and enter **msiexec /regserver** and hit *Enter*
 
 - 重启电脑并重新开始安装。 有时这个操作可以修复此问题。
 
@@ -51,7 +51,7 @@ sidebar_position: 2
 
 ### 错误 1603：安装过程中出现致命错误 {#error-1603}
 
-这个错误只是听起来比较吓人。 实际上，这是一个相当普遍的错误，成因可能有很多，其中有些很容易修复。 请尝试以下解决方案：
+This error sounds more worrying than it actually is. 实际上，这是一个相当普遍的错误，成因可能有很多，其中有些很容易修复。 请尝试以下解决方案：
 
 - 按 *Win* 键，搜索 *cmd* 并运行。 输入 `sfc /scannow` 并按 *Enter*。
 
@@ -61,11 +61,11 @@ sidebar_position: 2
 
 - 启动并重新注册 Microsoft Installer 服务。 这需要如下操作。
 
-    1. 按 *Win + R* 并输入 ***services.msc***。
+    1. Press *Win + R* and enter **services.msc**.
     1. 在列表中找到并双击*「Windows Installer」*。
     1. 点击*「服务状态」*下的*「开始」*按钮，然后点击 *「确定」*。 如果服务状态是**正在运行**，则先点击*「停止」*，然后再点击*「启动」*。
-    1. 按 *Win + R*，输入 ***msiexec /unregister*** 并按 *Enter*。
-    1. 再次按 *Win + R* ，输入 ***msiexec /regserver*** 并按 *Enter*
+    1. Press *Win + R*, type and enter **msiexec /unregister** and hit *Enter*.
+    1. Press *Win + R* again, type and enter **msiexec /regserver** and hit *Enter*
 
 - 获取驱动器用于安装的完全权限。 出现错误 1603 可能是由于您对该文件位置没有完全权限。 这种情况的解决方案会稍微复杂一些：
 
@@ -81,17 +81,17 @@ sidebar_position: 2
 
 ### 错误 1618：另一个安装已在进行中 {#error-1618}
 
-当同时启动多个 AdGuard VPN 安装程序时会出现此错误。 如果出现此错误，您应该：
+This error appears when trying to run multiple instances of the AdGuard VPN installer simultaneously. 如果出现此错误，您应该：
 
 - 重启电脑并重新开始安装。 当您重启计算机后，所有正在进行的进程都将停止，包括安装程序的所有副本。
 
-- 即使安装没有立即开始，也不要多次点击安装程序。 有时候显示安装界面可能会需要几秒钟。
+- Don't click multiple times on the installer, even if it doesn't start right away. 有时候显示安装界面可能会需要几秒钟。
 
 ### 错误 1638：已安装此软件的另一个版本 {#error-1638}
 
 您之前很可能已经安装过 AdGuard VPN。
 
-- 检查您的计算机上是否已安装 AdGuard VPN。 您可以通过按 *Win* 键并输入 ***AdGuard VPN*** 来实现查询。
+- 检查您的计算机上是否已安装 AdGuard VPN。 You can do that by pressing the *Win* key and start typing *adguard vpn*.
 
 - 也有可能您的电脑上存在一些以前安装 AdGuard VPN 的残余文件。 请使用我们专用的[卸载工具](/adguard-vpn-for-windows/installation#advanced)卸载 AdGuard，然后重新安装。
 
@@ -101,6 +101,6 @@ sidebar_position: 2
 
 - 按照和[本文](https://adguard.com/kb/adguard-for-windows/solving-problems/installation-logs/)中相同的方式查找并留档 **AdGuard VPN 安装日志**。
 
-- 查找**事件查看器**日志，并将其保存到磁盘。 [本文](https://adguard.com/kb/adguard-for-windows/solving-problems/system-logs/)介绍了如何操作。
+- Find and save to disk the **Event Viewer** logs. [本文](https://adguard.com/kb/adguard-for-windows/solving-problems/system-logs/)介绍了如何操作。
 
 请将前两个步骤中涉及到的文件通过电子邮件发送到 **support@adguard.com**，并在邮件正文中描述您的问题。 我们的支持团队将尽快回复您。

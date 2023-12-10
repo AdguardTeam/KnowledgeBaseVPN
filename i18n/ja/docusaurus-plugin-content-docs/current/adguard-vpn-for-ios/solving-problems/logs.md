@@ -3,7 +3,7 @@ title: ログの収集と送信方法
 sidebar_position: 2
 ---
 
-AdGuard VPN for iOS の使用時に問題が発生した場合、アプリのログを送信することでそれについてお知らせいただけます。
+If you encounter any problems while using AdGuard VPN for iOS, you can inform us about it by sending the app logs.
 
 ## 通常ログの収集と送信
 

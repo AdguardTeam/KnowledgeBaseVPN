@@ -3,7 +3,7 @@ title: Kako prikupiti i poslati evidencije
 sidebar_position: 2
 ---
 
-Ukoliko naiđete na problem prilikom korišćenja AdGuard VPN-a za Android, o tome nas možete obavestiti slanjem evidencija aplikacija.
+If you encounter any problem while using AdGuard VPN for Android, you can inform us about it by sending the app logs.
 
 ## Prikupljanje i slanje standardnih evidencija
 
@@ -15,7 +15,7 @@ Po podrazumevanoj vrednosti, AdGuard VPN za Android koristi **Podrazumevani** ni
 
 3. U otvoreni obrazac unesite e-adresu za povratne informacije i opišite pronađenu grešku, uključujući i vreme kada je došlo do ove greške. Ako ne možete da reprodukujete problem, navedite što preciznije kada se poslednji put dogodio.
 
-4. Pored je potvrdni znak **Slanje detaljnih informacija o sistemu**, što znači da prilikom slanja izveštaja šaljete i evidencije.
+4. There is a check mark next to **Send app logs and system info**, which means that when you send a report, you also send logs.
 > Ako vam je iz nekog razloga zgodnije da nam evidencije šaljete na drugi način, možete ih sami izvesti. Da biste to uradili, idite na **Postavke** → **Podrška** → **Izvoz evidencija i sistemskih informacija**.
 
 ## Prikupljanje i slanje proširenih evidencija
@@ -34,5 +34,5 @@ U većini slučajeva, **Podrazumevani** nivo vođenja evidencije je dovoljan da 
 
 6. U otvoreni obrazac unesite e-adresu za povratne informacije i opišite pronađenu grešku, uključujući i vreme kada je došlo do ove greške.
 
-7. Budite sigurni da je označen kvadratić pored **Pošalji detaljne sistemske informacije** i dodirnite **Pošalji**.
+7. Make sure that there is a check mark next to **Send app logs and system info** and tap **Send**.
 > Ako vam je iz nekog razloga zgodnije da nam evidencije šaljete na drugi način, možete ih sami izvesti. Da biste to uradili, idite na **Postavke** → **Podrška** → **Izvoz evidencija i sistemskih informacija**.

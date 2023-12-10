@@ -11,7 +11,11 @@ Puedes usar AdGuard VPN de forma gratuita, pero entonces habrá ciertas restricc
 - Sólo algunas de las ubicaciones de los servidores están disponibles
 - Los clientes de correo electrónico no pueden utilizarse para enviar mensajes (en iOS y Android)
 
-> El último punto debe abordarse por separado: los usuarios gratuitos de AdGuard VPN para iOS y Android no pueden enviar correos electrónicos en los clientes de correo electrónico. Es imposible porque bloqueamos el puerto 25, que se utiliza para los correos electrónicos salientes, y así nos reaseguramos contra el spam. Sin embargo, el envío de correos electrónicos con servicios de correo electrónico web funciona perfectamente. Y en AdGuard VPN para Android puedes añadir aplicaciones a las exclusiones para que las aplicaciones de correo electrónico también funcionen.
+:::note
+
+El último punto debe abordarse por separado: los usuarios gratuitos de AdGuard VPN para iOS y Android no pueden enviar correos electrónicos en los clientes de correo electrónico. Es imposible porque bloqueamos el puerto 25, que se utiliza para los correos electrónicos salientes, y así nos reaseguramos contra el spam. Sin embargo, el envío de correos electrónicos con servicios de correo electrónico web funciona perfectamente. Y en AdGuard VPN para Android puedes añadir aplicaciones a las exclusiones para que las aplicaciones de correo electrónico también funcionen.
+
+:::
 
 Al mismo tiempo, puede comprar una suscripción para obtener una versión ilimitada de la aplicación. Una suscripción permite tener más beneficios en comparación con una cuenta gratuita:
 

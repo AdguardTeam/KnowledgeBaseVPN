@@ -50,9 +50,13 @@ Zařízení se systémem iOS zachytí celou obrazovku a uloží ji jako fotograf
 
 - **Chcete-li pořídit snímek obrazovky ve Windows, stiskněte tlačítko *PrtScn***
 
-Na některých noteboocích musíte podržet *Fn* a pak místo toho stisknout *PrtScn*.
+Na některých zařízeních musíte nejprve stisknout a podržet *Fn* před stisknutím *PrtScn*.
 
-*Poznámka: Tlačítko PrtScn (Print Screen) může být na různých klávesnicích označováno různými zkratkami — PrntScrn, PrtScn, PrtScr nebo PrtSc.*
+:::note
+
+PrtScn (Print Screen) může být na různých klávesnicích označováno různými zkratkami — PrntScrn, PrtScn, PrtScr nebo PrtSc.
+
+:::
 
 Windows zachytí celou obrazovku a zkopíruje ji do (neviditelné) schránky.
 
@@ -64,11 +68,11 @@ Chcete-li pořídit snímek obrazovky určité oblasti, použijte následující
 
 - ***Podržte stisknuté *Win* (tlačítko Windows) + *Shift* a stiskněte ***S******
 
-Po pořízení snímku obrazovky se snímek uloží do schránky. Ve většině případů jej budete moci vložit do dokumentu, který právě upravujete, pomocí kombinace tlačítek *Ctrl + V*. Pokud potřebujete snímek obrazovky uložit do souboru, otevřete standardní program **Malování** (nebo jinou aplikaci, která umí pracovat s obrázky). Vložte tam snímek obrazovky pomocí stejné kombinace tlačítek nebo kliknutím na tlačítko Vložit (obvykle v levém horním rohu obrazovky) a poté jej uložte.
+Po pořízení snímku obrazovky se snímek uloží do schránky. Obvykle jej pak můžete vložit do dokumentu pomocí standardní kombinace tlačítek *Ctrl + V*. Pokud potřebujete snímek obrazovky uložit do souboru, otevřete standardní program **Malování** (nebo jinou aplikaci, která umí pracovat s obrázky). Vložte tam snímek obrazovky pomocí stejné kombinace tlačítek nebo kliknutím na tlačítko Vložit (obvykle v levém horním rohu obrazovky) a poté jej uložte.
 
 Windows 8 a 10 umožňují pořídit snímek obrazovky velmi rychle pomocí kombinace *Win + PrtScn*. Jakmile stisknete tato tlačítka, snímek obrazovky se automaticky uloží jako soubor do složky Obrázky → Snímky obrazovky.
 
-K pořizování snímků obrazovky existuje také specializovaný program *Výstřižky*, který najdete v nabídce Start mezi standardními programy počítače. Výstřižky vám umožní zachytit jakoukoli oblast vaší pracovní plochy nebo celou obrazovku. Po pořízení snímku obrazovky pomocí tohoto programu můžete obrázek upravit a uložit do libovolné složky v počítači.
+K pořizování snímků obrazovky existuje také specializovaný program *Výstřižky*, který najdete v nabídce Start mezi standardními programy počítače. Výstřižky vám umožní zachytit jakoukoli oblast vaší pracovní plochy nebo celou obrazovku. Po pořízení snímku obrazovky pomocí tohoto programu můžete obrázek upravit a poté uložit.
 
 Kromě toho můžete zkusit používat různé aplikace pro pořizování snímků obrazovky v počítači, například **PicPick**, **Nimbus Screenshot**, **Screenshot Captor**, **Snipaste**, **Monosnap** atd.
 

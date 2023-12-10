@@ -3,7 +3,7 @@ title: Comment collecter et envoyer des journaux
 sidebar_position: 2
 ---
 
-Si vous rencontrez un problème lors de l'utilisation de AdGuard VPN pour Android, vous pouvez nous en informer en envoyant des journaux d'application.
+If you encounter any problem while using AdGuard VPN for Android, you can inform us about it by sending the app logs.
 
 ## Collecte et envoi de journaux standard
 
@@ -15,7 +15,7 @@ Par défaut, AdGuard VPN pour Android utilise le niveau de journalisation **Par 
 
 3. Dans le formulaire ouvert, entrez votre adresse e-mail pour commentaires et décrivez l'erreur trouvée, y compris l'heure à laquelle cette erreur s'est produite. Si vous ne pouvez pas reproduire le problème, indiquez aussi précisément que possible quand il s'est produit pour la dernière fois.
 
-4. Il y a une coche à côté de **Envoyer des informations système détaillées**, ce qui signifie que lorsque vous envoyez un rapport, vous envoyez également des journaux.
+4. There is a check mark next to **Send app logs and system info**, which means that when you send a report, you also send logs.
 > Si, pour une raison quelconque, il est plus pratique pour vous de nous envoyer les journaux d'une autre manière, vous pouvez les exporter vous-même. Pour ça, accédez à **Paramètres** → **Assistance** → **Exporter les journaux et les informations système**.
 
 ## Collecte et envoi de journaux détaillés
@@ -34,5 +34,5 @@ Dans la plupart des cas, le niveau de journalisation **Par défaut** est suffisa
 
 6. Dans le formulaire ouvert, indiquez votre adresse émail pour le retour d'information et décrivez l'erreur trouvée, y compris le moment où cette erreur s'est produite.
 
-7. Assurez-vous que la case **Envoyer des informations système détaillées** est cochée et appuyez sur **Envoyer**.
+7. Make sure that there is a check mark next to **Send app logs and system info** and tap **Send**.
 > Si, pour une raison quelconque, il est plus pratique pour vous de nous envoyer les journaux d'une autre manière, vous pouvez les exporter vous-même. Pour ça, accédez à **Paramètres** → **Assistance** → **Exporter les journaux et les informations système**.

@@ -5,7 +5,7 @@ sidebar_position: 1
 
 ## Que es AdGuard VPN para Andriod?
 
-Un VPN es una herramienta ideal que brinda seguridad y anonimato cada vez que navegas por Internet. [¿Cómo funciona?](/general/how-vpn-works) Sin entrar en detalles técnicos, podemos decir que un VPN crea un túnel encriptado seguro entre la computadora o dispositivo móvil del usuario y un servidor VPN remoto. De esta manera, se preserva la confidencialidad de los datos, así como el anonimato del usuario, porque un observador de un tercer partido ve la dirección IP del servidor VPN y no la dirrecion IP verdadero del usuario.
+Un VPN es una herramienta ideal que brinda seguridad y anonimato cada vez que navegas por Internet. [How does it work?](/general/how-vpn-works) Without going into technical details, we can say that VPN creates a secure encrypted connection (called a tunnel) between a user's device and a remote VPN server. De esta manera, se preserva la confidencialidad de los datos, así como el anonimato del usuario, porque un observador de un tercer partido ve la dirección IP del servidor VPN y no la dirrecion IP verdadero del usuario.
 
 **Una VPN se usa comúnmente para:**
 
@@ -21,9 +21,9 @@ Primeramente, descargue AdGuard VPN desde [Google Play](https://play.google.com/
 
 ## Pantalla principal
 
-Hay dos barras en la pantalla principal, que reflejan el estado de la aplicación (Conectado/Desconectado) y el modo de Exclusiones seleccionado ([General/Selectivo](#lists-of-exclusions)). En la misma pantalla, también hay un botón *Conectar/Desconectar* y una lista de servidores disponibles.
+The main screen reflects the VPN status (Connected/Disconnected). There are also the *Connect/Disconnect* button and a list of available servers.
 
-Cada servidor tiene su ubicación y su velocidad de ping, que describe el tiempo de respuesta del servidor. Cuanto más baja sea esta tasa, más rápida será tu conexión. Las opciones más rápidas siempre se muestran en la parte superior de la lista, que consta de más de 50 ubicaciones en docenas de países. Puede conectarse al servidor más rápido tocando el botón *Conectar/Desconectar* o eligiendo una ubicación.
+Cada servidor tiene su ubicación y su velocidad de ping, que describe el tiempo de respuesta del servidor. The lower this rate, the faster the connection. The fastest servers always appear at the top of the list that consists of more than 50 locations in dozens of countries. You can connect to the fastest server by tapping the *Connect* button or by picking a location.
 
 ## Exclusiones
 
@@ -31,9 +31,11 @@ Hemos hecho todo lo posible para facilitarte la administración de las listas de
 
 ### Listas de exclusiones
 
-Las listas de exclusiones te permiten seleccionar sitios para los cuales la VPN debe estar habilitada y para los cuales, deshabilitada. Para llegar a la sección *Exclusiones*, toque el segundo icono de la izquierda en la parte inferior de la pantalla.
+#### For websites
 
-Hay dos modos: en el modo *General* se excluyen los sitios de la lista de exclusiones, y en el modo *Selectivo*, serán los únicos donde funcione AdGuard VPN.
+Exclusion lists allow you to manage the VPN connection for specific websites and apps. To access *Exclusions*, tap the second icon from the left at the bottom of the screen. Para llegar a la sección *Exclusiones*, toque el segundo icono de la izquierda en la parte inferior de la pantalla.
+
+There are two modes: in *General mode*, websites from the list of exclusions are excluded, and in *Selective mode*, they will be the only ones where AdGuard VPN works.
 
 Puedes agregar dominios (p. ej., `google.com`) o subdominios (p. ej., `*.google.com`) de sitios web a las *Exclusiones* de tres maneras: ingrésalos manualmente en la aplicación o directamente desde el navegador haciendo clic en el *Comparta el botón* y selecciona AdGuard VPN en la lista abierta a continuación, o en las listas integradas de servicios divididas por categorías.
 
@@ -45,26 +47,32 @@ Hay algunos detalles para la adición manual de dominios. Por ejemplo, si excluy
 
 :::
 
-Como puedes habilitar subdominios en las listas de servicios, agregamos cuadros que reflejan el estado de cada servicio. Puedes verlos en la pantalla principal de *Exclusiones* a la izquierda de cada nombre de servicio:**totalmente habilitado** está marcado con una verificación blanca sobre fondo verde, **totalmente deshabilitado** — con un cuadro gris y **parcialmente habilitado**, lo que significa que se cambiaron uno o más parámetros, con un cuadrado verde sobre fondo blanco. Buenas noticias: siempre puedes volver a la vista predeterminada de las listas de servicios en caso de que hayas eliminado o deshabilitado algún dominio desde allí.
+As you can enable subdomains in service lists, we added boxes that reflect the status of each service — you can see them on the main screen of *Exclusions* to the left of each service name:
+
+- **Fully enabled** is indicated by a white check mark on a green background
+- **Partially enabled** (enabled subdomains without the main domain) is marked with a green square on a white background
+- **Fully disabled** is marked with a blank checkbox
+
+ Buenas noticias: siempre puedes volver a la vista predeterminada de las listas de servicios en caso de que hayas eliminado o deshabilitado algún dominio desde allí.
 
 ![Exclusiones *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/statuses.png)
 
 Otra función útil es *Exclusiones de importación/exportación*. Sólo son necesarios cuatro pasos para hacerlo:
 
 1. Abre AdGuard VPN en el dispositivo/navegador desde donde deseas exportar tus listas de exclusiones. Busca la sección adecuada y haz clic en el botón *Exportar*. Se descargará el archivo `adguard_vpn_exclusions.zip`.
-2. Hay dos archivos `.txt` dentro del fichero, uno para cada una de las listas, *General* y *Selectiva*. Agrega más exclusiones a ellos, elimina las existentes, cambia el nombre de los archivos (más sobre esto adelante), o simplemente deja el fichero con los archivos como está.
+2. There are two `.txt` files inside the archive, one for each of the lists. Agrega más exclusiones a ellos, elimina las existentes, cambia el nombre de los archivos (más sobre esto adelante), o simplemente deja el fichero con los archivos como está.
 3. Al transferir entre diferentes dispositivos, no olvides enviar el fichero `.zip` al dispositivo para importarlo. Por ejemplo, si importas listas de exclusión desde tu dispositivo Windows a tu Android, asegúrate de enviar el fichero `.zip` a tu Android de antemano.
 4. Abre AdGuard VPN en el dispositivo donde deseas importar el fichero con las listas listas de exclusiones. Busca la sección adecuada, haz clic en el botón *Importar* y selecciona el archivo.
 
 ![Importar/Exportar *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/imp-exp.png)
 
-### Configuración de aplicaciones
+#### For apps
 
-Como mencionamos anteriormente, no solo los sitios web se pueden agregar fácilmente a las exclusiones. Elije para qué aplicaciones necesitas AdGuard VPN o no. Haz clic en el icono junto al icono *Listas de exclusiones* en la parte inferior de la pantalla para abrir la configuración de aplicaciones. Por defecto, AdGuard VPN funciona con todas las aplicaciones, pero puedes activar el control deslizante junto a cualquier aplicación de la lista y desactivar AdGuard VPN para ella.
+Como mencionamos anteriormente, no solo los sitios web se pueden agregar fácilmente a las exclusiones. Choose for which apps you need AdGuard VPN and for which you don't. By default, AdGuard VPN works for all apps, but you can easily switch to the other mode.
 
-Si el modo de compatibilidad ** con AdGuard está habilitado, solo puedes administrar aplicaciones a través de AdGuard Ad Blocker. Por lo tanto, al tocar el botón, se abre la aplicación AdGuard.
+In *Integrated mode*, you can only manage apps through AdGuard Ad Blocker.
 
-![Configuración de aplicación *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/apps_settings.png)
+![App exclusions *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/apps_settings.png)
 
 ## Configuración
 
@@ -78,7 +86,7 @@ El control deslizante cambiado a la derecha habilita un inicio automático de Ad
 
 ### Servidores DNS
 
-El propósito del [sistema de nombres de dominio](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns) (DNS) es traducir los nombres de los sitios web a algo que los navegadores puedan entender, es decir, las direcciones IP. Este trabajo lo realizan los servidores DNS. AdGuard VPN para Android ofrece una selección de varios servidores DNS, cada uno con cualidades especiales. Por ejemplo, [AdGuard DNS](https://adguard-dns.io/kb/) elimina los anuncios y protege tu dispositivo del rastreo, mientras que AdGuard DNS Family Protection combina las funciones de AdGuard DNS con SafeSearch y el bloqueo de contenido para adultos. También hay una opción para agregar un servidor DNS personalizado.
+DNS servers translate websites' names into something browsers can understand, i.e. IP addresses. AdGuard VPN for Android offers a wide selection of DNS servers, each with special qualities. For example, [AdGuard DNS](https://adguard-dns.io/kb/) removes ads and protects your device from tracking while AdGuard DNS Family Protection combines the functions of AdGuard DNS with Safe search and adult content blocking. También hay una opción para agregar un servidor DNS personalizado.
 
 ### Protección automática
 
@@ -98,13 +106,13 @@ Puedes elegir el tema por defecto, oscuro o claro de la aplicación.
 
 ### Configuración avanzada
 
-En la página *Configuración avanzada*, puedes encontrar cinco secciones. Puedes *. Ayúdanos mejorar* activando el interruptor del bloque superior. Esta acción permitirá que AdGuard VPN recopile informes de fallas, datos técnicos y de interacción. Esta información llegará de forma anónima.
+In *Advanced settings*, you can find four sections.
 
-La sección*Modo de funcionamiento* te permite elegir una de tres opciones: VPN, Proxy y Modo de compatibilidad. En el *modo VPN*, todo el tráfico se enruta a través de AdGuard VPN automáticamente. Cuando el modo *Proxy* (SOCKS5) está activado, AdGuard VPN ejecuta un servidor proxy local que otras aplicaciones pueden utilizar para enrutar su tráfico. Elija esta opción solo si sabes lo que está haciendo. El *Modo de Compatibilidad* habilitado permite que AdGuard VPN y AdGuard Ad Blocker funcionen juntos.
+*Operating mode* allows you to specify how your traffic is routed. There are three modes: VPN, SOCKS5, and Integrated mode. In the *VPN* mode, all traffic is routed through AdGuard VPN. In the *SOCKS5* mode, AdGuard VPN runs a local proxy server that can be used by other apps for traffic routing. *Integrated mode* allows AdGuard VPN and AdGuard Ad Blocker to work together.
 
 :::note
 
-Some AdGuard VPN features are disabled in *Compatibility mode*: DNS server selection, Kill Switch and Auto-protection. Además, para gestionar la tunelización de aplicaciones, debe abrir la aplicación AdGuard Ad Blocker.
+Some AdGuard VPN features are disabled in *Integrated mode*: DNS servers, Kill Switch, Auto-protection, and app exclusions. You can manage DNS protection and route apps through your AdGuard VPN proxy in the AdGuard Ad Blocker app.
 
 :::
 

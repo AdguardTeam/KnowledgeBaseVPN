@@ -3,7 +3,7 @@ title: Come raccogliere e inviare i registri
 sidebar_position: 2
 ---
 
-Se si riscontra un problema durante l'utilizzo di AdGuard VPN per Android, è possibile informarci inviando i registri dell'applicazione.
+If you encounter any problem while using AdGuard VPN for Android, you can inform us about it by sending the app logs.
 
 ## Raccolta e invio di registri standard
 
@@ -15,7 +15,7 @@ Per impostazione predefinita, AdGuard VPN per Android utilizza il livello di reg
 
 3. Nel modulo aperto, inserisci il tuo indirizzo e-mail per il feedback e descrivi l'errore riscontrato, inclusa l'ora in cui si è verificato l'errore. Se non riesci a riprodurre il problema, specifica nel modo più accurato possibile quando si è verificato l'ultima volta.
 
-4. C'è un segno di spunta accanto al punto **Invia informazioni di sistema dettagliate**, che significa che quando invii un rapporto, invii anche i registri.
+4. There is a check mark next to **Send app logs and system info**, which means that when you send a report, you also send logs.
 > Se per qualche motivo è più conveniente per te inviarci i log in un altro modo, puoi esportarli tu stesso. Per fare ciò, vai su **Impostazioni** → **Assistenza** → **Esporta registri e informazioni di sistema**.
 
 ## Raccolta e invio di log estesi
@@ -34,5 +34,5 @@ Nella maggior parte dei casi, il livello di registrazione **Predefinito** è suf
 
 6. Nel modulo aperto, inserire l'indirizzo e-mail per il feedback e descrivere l'errore riscontrato, compreso l'orario in cui si è verificato l'errore.
 
-7. Assicurarsi che ci sia un segno di spunta accanto a **Invia informazioni dettagliate sul sistema** e toccare **Invia**.
+7. Make sure that there is a check mark next to **Send app logs and system info** and tap **Send**.
 > Se per qualche motivo è più conveniente per te inviarci i registri in un altro modo, puoi esportarli tu stesso. Per fare ciò, vai su **Impostazioni** → **Assistenza** → **Esporta registri e informazioni di sistema**.

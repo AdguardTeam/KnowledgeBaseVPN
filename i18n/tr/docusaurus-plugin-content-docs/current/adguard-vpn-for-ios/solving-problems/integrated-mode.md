@@ -3,16 +3,20 @@ title: AdGuard Reklam Engelleyici ile uyumluluk
 sidebar_position: 3
 ---
 
-AdGuard VPN'in iki çalışma modu vardır — Genel ve Entegre. Genel mod varsayılan olarak etkindir ve [AdGuard VPN protokolünü](/general/adguard-vpn-protocol) kullanır. Bağlantı hızı ve güvenliğin en iyi kombinasyonunu sağlar.
+AdGuard VPN has two operating modes: *VPN* and *Integrated*.
 
-Ancak bu çalışma modu, AdGuard VPN ve AdGuard Reklam Engelleyicinin aynı anda çalışmasına izin vermez.
+The VPN mode is enabled by default and uses the [AdGuard VPN protocol](/general/adguard-vpn-protocol). It provides the best combination of connection speed and security. However, this operating mode does not allow AdGuard VPN and AdGuard Ad Blocker to work simultaneously.
 
-Entegre modda ise IPsec protokolü kullanılır, bu da AdGuard uygulamalarının birlikte çalışmasını mümkün kılar. AdGuard VPN'i yüklerken zaten AdGuard Reklam Engelleyiciniz varsa, bu mod otomatik olarak açılır ve uygulamalarımızı aynı anda kullanmanıza izin verir. Önce AdGuard VPN'i yüklediyseniz ve ardından AdGuard AdGuard Reklam Engelleyiciyi denemeye karar verdiyseniz, iki uygulamayı birlikte kullanmak için şu adımları takip edin:
+In Integrated mode, in turn, the IPsec protocol is used, which makes it possible for the AdGuard apps to work together. If you already have AdGuard Ad Blocker when installing AdGuard VPN, this mode will turn on automatically and allow you to use our apps at the same time. If you have installed AdGuard VPN first and only then decided to try AdGuard Ad Blocker, follow these steps to use two apps together:
 
-1. iOS için AdGuard VPN'i açın ve ekranın sağ alt köşesindeki "Ayarlar" öğesini seçin.
+1. Open AdGuard VPN for iOS and select *Settings* in the lower right corner of the screen.
 
-2. "Uygulama ayarları" öğesine gidin ve "Çalışma modu" öğesini seçin.
+2. Go to *App settings* and select *Operating mode*.
 
-3. Modu *Genel* moddan *Entegre* moduna değiştirin. Tamamlandı!
+3. Switch the mode from *VPN* to *Integrated*. Tamamlandı!
 
-> **Entegre** modda, İstisnalar özelliğini veya DNS sunucusu özelliğini kullanamayacağınızı unutmayın.
+:::note
+
+In *Integrated mode*, *Exclusions* and *DNS server* are not available.
+
+:::

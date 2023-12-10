@@ -3,7 +3,7 @@ title: 로그 수집 및 전송 방법
 sidebar_position: 2
 ---
 
-iOS용 AdGuard VPN을 사용할 때 기술적인 문제가 발생하면 지원 팀에 애플리케이션 로그를 보낼 수 있습니다.
+If you encounter any problems while using AdGuard VPN for iOS, you can inform us about it by sending the app logs.
 
 ## 일반 로그 수집 및 전송
 
