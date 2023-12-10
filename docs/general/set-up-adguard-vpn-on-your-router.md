@@ -16,11 +16,11 @@ This option is only available if you have an AdGuard VPN subscription and your r
 - In your [AdGuard account](https://auth.adguard.com/login.html), select AdGuard VPN
 - Under *Devices*, click *Add router*
 
-![Add router *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/general/2_year.jpg)
+    ![Add router *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/general/2_year.jpg)
 
 - Select the desired VPN server location and generate credentials
 
-![Generate credentials *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/general/configure_router.png)
+    ![Generate credentials *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/general/configure_router.png)
 
 Please note that the next steps may vary depending on your router. We have used the Keenetic router as an example.
 
@@ -29,7 +29,7 @@ Please note that the next steps may vary depending on your router. We have used 
 - Select IPsec-client (it may be called IKE; not L2TP/IPsec)
 - Enter the credentials you created in step 3
 
-![Enter the credentials *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/general/vpn_connection.jpg)
+    ![Enter the credentials *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/general/vpn_connection.jpg)
 
 - Connect devices to your router
 
@@ -43,4 +43,4 @@ You’ll need to update your router settings if you want to change the VPN serve
 
 - With AdGuard VPN on your router, neither your VPN provider nor anyone else has access to your Internet activity
 - Installing AdGuard VPN on your router secures your entire network, meaning that all devices connected to it are protected
-- You can enhance security and protect your data on devices where it's not possible to install AdGuard VPN apps — smart TVs (*currently, AdGuard VPN is only available on Android TV*) and game consoles
+- You can enhance security and protect your data on devices where it's not possible to install AdGuard VPN apps — smart TVs (currently, AdGuard VPN is only available on Android TV) and game consoles
