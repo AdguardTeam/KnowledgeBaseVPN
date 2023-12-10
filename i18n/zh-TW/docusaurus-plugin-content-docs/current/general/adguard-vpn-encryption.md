@@ -5,9 +5,9 @@ sidebar_position: 7
 
 ## 引言
 
-加密是令「虛擬私人網路」變得「私人」的原因。 VPN 在您的裝置和 VPN 伺服器之間設置一條隧道，隧道會加密您的數據，令它安全進入公開的互聯網。 加密過程，即將數據變成任何人都無法讀取的亂碼，對於任何 VPN服務都必不可少。
+加密是令「虛擬私人網路」變得「私人」的原因。 A VPN creates a tunnel between your device and a VPN server, passing through which your data is encrypted and then securely transmitted to the open Internet. 加密過程，即將數據變成任何人都無法讀取的亂碼，對於任何 VPN服務都必不可少。
 
-AdGuard VPN 協定使用迄今為止最安全、快速的密碼演算法 – AES-256。 了解它是甚麼以及它為何如此出色。
+The AdGuard VPN protocol uses the most secure and fast encryption algorithm to date — AES-256. 了解它是甚麼以及它為何如此出色。
 
 ## AES的歷史
 
@@ -23,6 +23,6 @@ AES is a block cipher with a symmetric key. As a symmetric-key cipher, it requir
 
 There are different key sizes — 128, 192 and 256 bits — and the blocks are also measured in bits. During the encryption process, the encryptor replaces each piece of information with another, depending on the security key. So, for example, AES-256 creates 256 blocks of ciphertext from 256 blocks of plaintext in 14 rounds.
 
-The rounds consist of several steps: splitting the data into blocks, swapping bytes, shifting rows and rearranging columns. The result is a completely random set of characters, which will only make sense with an encryption key.
+The rounds consist of several steps: splitting the data into blocks, swapping bytes, shifting rows and rearranging columns. The result is a completely random set of characters that will only make sense when using the right encryption key.
 
-AES-256 is the strongest level of encryption: to break this cipher, a bad actor will have to try 2256 discrete combinations, each consisting of 78 digits.
+AES-256 is the strongest level of encryption: to break this cipher, 2256 discrete combinations, each consisting of 78 digits, would have to be tried.

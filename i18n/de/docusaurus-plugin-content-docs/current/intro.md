@@ -10,11 +10,11 @@ slug: /
 
 Mit einem VPN können Sie eine sichere Verbindung zu einem anderen Netzwerk im Internet herstellen.
 
-Ursprünglich wurden VPNs entwickelt, um Unternehmensnetzwerke sicher über das Internet zu verbinden, damit die Mitarbeiter von zu Hause aus auf das Unternehmensnetzwerk zugreifen konnten. Diese Technologie wird für viele andere Dinge verwendet: zum Beispiel, um anonym im Internet zu surfen oder um Ihre Online-Aktivitäten vor neugierigen Blicken zu schützen, während Sie öffentliches WLAN verwenden.
+Ursprünglich wurden VPNs entwickelt, um Unternehmensnetzwerke sicher über das Internet zu verbinden, damit die Mitarbeiter von zu Hause aus auf das Unternehmensnetzwerk zugreifen konnten. Today, this technology is used for many other things: for example, to browse the Internet anonymously or to protect your online activity from prying eyes while using public Wi-Fi.
 
-Ein VPN verbindet den Computer oder das mobile Gerät eines Benutzers mit einem Server und ermöglicht es Ihnen, mit einer anderen IP-Adresse im Internet zu surfen. So können Dritte die tatsächlichen IP-Adressen der Nutzer nicht sehen, was es nahezu unmöglich macht, sie aufzuspüren.
+A VPN connects a user's computer or mobile device to a server and allows one to browse the net using a "cover" IP address. So können Dritte die tatsächlichen IP-Adressen der Nutzer nicht sehen, was es nahezu unmöglich macht, sie aufzuspüren.
 
-Apropos VPN, das erste, was sie erwähnen, ist die Verschlüsselung des Datenverkehrs und die daraus resultierende Sicherheit. Aber was bedeutet das? Ein VPN erstellt einen verschlüsselten Tunnel zwischen dem Gerät des Benutzers und dem Remote-Server. Ihr gesamter Internetverkehr wird durch diesen Tunnel geleitet, sodass Ihre Daten unterwegs geschützt sind. Für den externen Beobachter verlässt Ihr Datenverkehr den VPN-Server, sodass es so aussieht, als hätte Ihr Gerät die IP-Adresse dieses Servers. Dieser Trick verschleiert die Identität und den wahren Standort des Benutzers.
+The first thing that users mention in relation to VPN is traffic encryption and the security derived from it. Aber was bedeutet das? Ein VPN erstellt einen verschlüsselten Tunnel zwischen dem Gerät des Benutzers und dem Remote-Server. Ihr gesamter Internetverkehr wird durch diesen Tunnel geleitet, sodass Ihre Daten unterwegs geschützt sind. Für den externen Beobachter verlässt Ihr Datenverkehr den VPN-Server, sodass es so aussieht, als hätte Ihr Gerät die IP-Adresse dieses Servers. Dieser Trick verschleiert die Identität und den wahren Standort des Benutzers.
 
 Sie können ein VPN verwenden, um:
 

@@ -7,21 +7,29 @@ Mac için AdGuard VPN, bir masaüstü VPN hizmetidir. AdGuard VPN, AdGuard Rekla
 
 **AdGuard hesabınıza giriş yapmadıkça Mac için AdGuard VPN'i kullanamayacağınızı** unutmayın. AdGuard hesabınızla veya harici bir hesapla, yani Apple, Google veya Facebook aracılığıyla giriş yapabilirsiniz. Harici hesabınızın AdGuard hesabınızla aynı e-posta adresine bağlı olduğundan emin olun. AdGuard hesabınızda uygun bir abonelik varsa, masaüstü uygulamasında otomatik olarak etkinleştirilecektir. Henüz bir AdGuard hesabınız yok mu? [Buradan](https://auth.adguard.com/registration.html) oluşturun.
 
-> Mac için AdGuard VPN, şu anda macOS Catalina'dan (10.15) başlayan macOS sürümlerinde desteklenmektedir.
+:::note Compatibility
+
+Mac için AdGuard VPN, şu anda macOS Catalina'dan (10.15) başlayan macOS sürümlerinde desteklenmektedir.
+
+:::
 
 ## Ana ekran
 
-![Ana ekran](https://cdn.adguardvpn.com/content/kb/vpn/mac/main_en.png)
+![Home screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/main_en.png)
 
-İlk sekme *Ana* ekranıdır. Burada AdGuard VPN'nin mevcut durumunu ve [istisna modunu](#exclusions), seçilen konumu (etkinleştirilmişse) ve pingini görebilirsiniz. Ping, bir VPN sunucusunun yanıt süresidir. Sonuç olarak, bu sayı ne kadar düşük olursa, bağlantı o kadar hızlı olur. VPN devre dışıysa, en son bağlandığınız konum aşağıda görüntülenir. En düşük pinge sahip en hızlı konumlar ekranın sağ üst köşesinde görüntülenir. Aşağıda konumların tam listesini görebilirsiniz. Arama fonksiyonu sayesinde, ihtiyaç duyulan konum kolayca bulunabilir.
+İlk sekme *Ana* ekranıdır. Burada AdGuard VPN'nin mevcut durumunu ve [istisna modunu](#exclusions), seçilen konumu (etkinleştirilmişse) ve pingini görebilirsiniz. Ping, bir VPN sunucusunun yanıt süresidir. Consequently, the lower this number, the faster the connection. VPN devre dışıysa, en son bağlandığınız konum aşağıda görüntülenir. En düşük pinge sahip en hızlı konumlar ekranın sağ üst köşesinde görüntülenir. Aşağıda konumların tam listesini görebilirsiniz. Arama fonksiyonu sayesinde, ihtiyaç duyulan konum kolayca bulunabilir.
 
-> Ücretsiz kullanıcılar yalnızca belirli konumlara bağlanabilir, diğerleri ise engellenir. Ayrıca ücretsiz sürümde aylık 3 GB veri sınırı bulunuyor.
+:::note
+
+Ücretsiz kullanıcılar yalnızca belirli konumlara bağlanabilir, diğerleri ise engellenir. Ayrıca ücretsiz sürümde aylık 3 GB veri sınırı bulunuyor.
+
+:::
 
 ## İstisnalar
 
 ![İstisnalar](https://cdn.adguardvpn.com/content/kb/vpn/mac/exclusions_en.png)
 
-Sonraki *İstisnalar* ekranına gider. AdGuard VPN, onu benzersiz kılan çeşitli özelliklere sahiptir ve bunlardan biri kesinlikle iki istisna modu arasında geçiş yapmaktır. Genel modda AdGuard VPN, istisna listesi dışındaki tüm sitelerde çalışır. Seçici modda tam tersine, AdGuard VPN yalnızca istisna listesindeki sitelerde çalışır. VPN'nin nerede çalışmasını istediğinize kendiniz karar verebilirsiniz.
+AdGuard VPN has several features that make it unique, and one of them is definitely *Exclusions*. By default, AdGuard VPN will run on all websites and in all apps but the ones from the exclusions list. But you can switch to the other mode, so AdGuard VPN will run only on websites and in apps from the exclusions list.
 
 ![İstisnalar ekranı](https://cdn.adguardvpn.com/content/kb/vpn/mac/services_en.png)
 
@@ -38,7 +46,9 @@ Ayrıca, hazır istisna listeleri, AdGuard VPN'in kurulu olduğu diğer cihazlar
 3. Farklı cihazlar arasında aktarım yaparken, `.zip` dosyasını içe aktarmak için cihaza göndermeyi unutmayın. Örneğin, istisna listeleri Mac'inizden iPhone'unuza aktarırsanız, `.zip` dosyasını önceden telefonunuza gönderdiğinizden emin olun.
 4. AdGuard VPN'i, hazır istisnaların listesiyle birlikte arşivi içe aktarmak istediğiniz cihazda veya tarayıcıda açın. Uygun bölümü bulun, *İçe aktar* düğmesine tıklayın ve arşivi seçin. Tamamlandı!
 
-> Diğer cihazlardan arşiv dosyaları benzer şekilde Mac için AdGuard VPN'inize aktarılabilir.
+:::note Archive files from other devices can be similarly imported to your AdGuard VPN for Mac.
+
+:::
 
 ## Destek
 
@@ -58,23 +68,21 @@ Son olarak Ayarlar sekmesine geliyoruz. *Program hakkında* bölümünde, AdGuar
 
 İlk dört temel özellik, uygulamayı daha kullanışlı ve kullanıcı dostu hâle getirir, örneğin *Kill Switch*, *Otomatik güncelle*, *Oturum açılışında AdGuard VPN'i başlat* ve *Uygulama başlatıldığında otomatik bağlan*. Ayrıca, açık, koyu ve sistem varsayılanı temaları arasında seçim yapabilirsiniz — sonuncu olan, Mac'inizdeki temayla eşleşir.
 
-Göz ardı edilmemesi gereken bir başka seçenek de, AdGuard VPN'nin uygulamamızı geliştirmemize yardımcı olması için anonimleştirilmiş çökme raporları, teknik ve etkileşim verileri toplamasına ve göndermesine izin verebilmenizdir. Son olarak, sağdaki düğme sayesinde günlükleri Mac'inize aktarabilirsiniz. Destek için mesajınıza günlük eklemek istiyorsanız bu yararlı olabilir.
+You can also allow AdGuard VPN to gather and send anonymized crash reports, technical and interaction data in order to help us improve our app. Last but not least, you can export logs from your Mac. Destek için mesajınıza günlük eklemek istiyorsanız bu yararlı olabilir.
 
 ### DNS sunucuları
 
 ![DNS sunucuları](https://cdn.adguardvpn.com/content/kb/vpn/mac/dns_en.png)
 
-Burada, varsayılan olarak İSS'niz tarafından sağlanan bir DNS sunucusuna güvenmemek için özel bir DNS sunucusu (veya sunucuları) ekleyebilirsiniz. Yalnızca DNS trafiğinizi şifrelemekle kalmayıp aynı zamanda kötü amaçlı sitelere yönelik istekleri tespit eden ve bunları bir "kara deliğe" yönlendiren AdGuard DNS'i eklemenizi tavsiye ederiz.
+Burada, varsayılan olarak İSS'niz tarafından sağlanan bir DNS sunucusuna güvenmemek için özel bir DNS sunucusu (veya sunucuları) ekleyebilirsiniz. We recommend adding AdGuard DNS, which not only encrypts your DNS traffic but also identifies requests to malicious websites and redirects them to a “blackhole”.
 
 ### Gelişmiş ayarlar
 
 ![Gelişmiş ayarlar](https://cdn.adguardvpn.com/content/kb/vpn/mac/advanced-settings_en.png)
 
-Gelişmiş ayarların değiştirilmesi tavsiye edilmez. Teknik desteğimiz tarafından istenmedikçe veya ne yaptığınızdan emin değilseniz bunları değiştirmeyin.
-
 #### Günlük kayıt düzeyi
 
-Yalnızca iki günlük kayıt düzeyi vardır ancak ilki, varsayılan olanı kullanmanızı şiddetle tavsiye ederiz. İkinci seçenek (genişletilmiş günlük kayıt), yalnızca teknik desteğimize danıştıktan sonra garip bir program davranışını kaydetmek için ayarlanmalıdır. İkinci günlük kayıt düzeyini etkinleştirmiş olsanız bile, günlükleri kaydettikten sonra varsayılan düzeye geri döndüğünüzden emin olun.
+Yalnızca iki günlük kayıt düzeyi vardır ancak ilki, varsayılan olanı kullanmanızı şiddetle tavsiye ederiz. İkinci seçenek (genişletilmiş günlük kayıt), yalnızca teknik desteğimize danıştıktan sonra garip bir program davranışını kaydetmek için ayarlanmalıdır. If you have enabled the extended logging level, make sure to switch to the default one after recording logs.
 
 #### Menü çubuğu simgesini gizle
 

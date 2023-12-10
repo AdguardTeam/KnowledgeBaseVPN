@@ -7,6 +7,6 @@ AdGuard VPN má ve výchozím nastavení povolen provozní režim VPN, který po
 
 1. Otevřete AdGuard VPN pro Android a vyberte ikonu ozubeného kola v pravém dolním rohu obrazovky.
 
-2. Přejděte na "Pokročilá nastavení" a vyberte "Provozní režim".
+2. Přejděte na *Pokročilá nastavení* a vyberte *Pracovní režim*.
 
-3. Přepněte režim na *Režim kompatibility s AdGuardem*. Hotovo!
+3. Přepněte na *Režim integrace*. Hotovo!

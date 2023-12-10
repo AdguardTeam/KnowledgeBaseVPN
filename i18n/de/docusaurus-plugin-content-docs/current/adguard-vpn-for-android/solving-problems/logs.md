@@ -3,7 +3,7 @@ title: Wie man Protokolle sammelt und versendet
 sidebar_position: 2
 ---
 
-Wenn Sie bei der Nutzung von AdGuard VPN für Android auf ein Problem stoßen, informieren Sie uns darüber. Dazu können Sie uns Anwendungsprotokolle schicken.
+If you encounter any problem while using AdGuard VPN for Android, you can inform us about it by sending the app logs.
 
 ## Sammeln und Senden von Standardprotokollen
 
@@ -15,7 +15,7 @@ Standardmäßig verwendet AdGuard VPN für Android die Protokollierungsebene **S
 
 3. Geben Sie im geöffneten Formular Ihre E-Mail-Adresse für Feedback ein und beschreiben Sie den gefundenen Fehler, einschließlich des Zeitpunkts, zu dem dieser Fehler aufgetreten ist. Wenn Sie das Problem nicht reproduzieren können, geben Sie so genau wie möglich an, wann es zuletzt aufgetreten ist.
 
-4. Neben **Detaillierte Systeminformationen senden** ist ein Häkchen gesetzt, d. h., wenn Sie einen Bericht senden, senden Sie auch Protokolle.
+4. There is a check mark next to **Send app logs and system info**, which means that when you send a report, you also send logs.
 > Wenn es für Sie aus irgendeinem Grund bequemer ist, uns Protokolle auf andere Weise zu senden, können Sie sie selbst exportieren. Gehen Sie dazu auf **Einstellungen** → **Support** → **Protokolle und Systeminformationen exportieren**.
 
 ## Sammeln und Senden erweiterter Protokolle
@@ -34,5 +34,5 @@ In den meisten Fällen reicht die Protokollierungsebene **Standard** aus, um mö
 
 6. Geben Sie im geöffneten Formular Ihre E-Mail-Adresse für Feedback ein und beschreiben Sie den gefundenen Fehler, einschließlich des Zeitpunkts, zu dem dieser Fehler aufgetreten ist.
 
-7. Stellen Sie sicher, dass ein Häkchen neben **Detaillierte Systeminformationen senden** gesetzt ist, und tippen Sie auf **Senden**.
+7. Make sure that there is a check mark next to **Send app logs and system info** and tap **Send**.
 > Wenn es für Sie aus irgendeinem Grund bequemer ist, uns Protokolle auf andere Weise zu senden, können Sie sie selbst exportieren. Gehen Sie dazu auf **Einstellungen** → **Support** → **Protokolle und Systeminformationen exportieren**.

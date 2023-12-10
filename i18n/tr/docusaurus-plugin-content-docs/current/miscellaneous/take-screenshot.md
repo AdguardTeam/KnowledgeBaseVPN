@@ -30,7 +30,7 @@ Android 8 ve sonraki sürümlerde, elinizi telefonunuzun sol veya sağ kenarına
 
 Bu yöntem işe yaramazsa, *Ayarlar* → *Gelişmiş özellikler* → *Hareketler ve işaretler* → *Yakalamak için avuç içi kaydırma* öğesini etkinleştir seçeneğini kontrol edin.
 
-Ayrıca, cihazlarınızda ekran görüntüsü almak için her zaman özel uygulamaları kullanabilirsiniz, örneğin — *Ekran Görüntüsü Kolay*, *Screenshot Ultimate*, *Screenshot Snap*, vb.
+Besides, you can always use any special apps for taking screenshots on your devices, for example — *Screenshot Easy*, *Screenshot Ultimate*, *Screenshot Snap*, etc.
 
 ### iOS
 
@@ -48,11 +48,15 @@ iOS cihazınız tüm ekranı yakalar ve bir fotoğraf olarak kaydeder. Bunu stan
 
 ### Windows
 
-- **Windows'ta ekran görüntüsü almak için *PrtScn* düğmesine basın**
+- **To take a screenshot on a Windows device, press the *PrtScn* button**
 
-Bazı dizüstü bilgisayarlarda *Fn* tuşunu basılı tutmanız ve ardından bunun yerine *PrtScn* tuşuna basmanız gerekir.
+On some devices, you first have to press and hold *Fn* before pressing *PrtScn*.
 
-*Lütfen unutmayın: PrtScn (Print Screen) düğmesi çeşitli klavyelerde farklı şekilde kısaltılmış hâlinda olabilir – PrntScrn, PrtScn, PrtScr veya PrtSc.*
+:::note
+
+PrtScn (Print Screen) can be differently abbreviated on various keyboards — PrntScrn, PrtScn, PrtScr or PrtSc.
+
+:::
 
 Windows tüm ekranı yakalar ve (görünmez) panoya kopyalar.
 
@@ -64,17 +68,17 @@ Belirli bir alanın ekran görüntüsünü almak için aşağıdaki kombinasyonu
 
 - ****Win* (Windows düğmesi) ve *Shift* tuşuna basılı tutun ve ***S*** tuşuna basın***
 
-Bir ekran görüntüsü aldıktan sonra panoya kaydedilecektir. Çoğu durumda, *Ctrl + V* tuş kombinasyonunu kullanarak düzenlemekte olduğunuz bir belgeye yapıştırabilirsiniz. Alternatif olarak, ekran görüntüsünü bir dosyaya kaydetmeniz gerekiyorsa, standart **Paint** programını (veya görüntülerle çalışabilen başka bir uygulamayı) açmalısınız. Aynı düğme kombinasyonunu kullanarak veya Yapıştır düğmesine (genellikle ekranın sol üst köşesinde) tıklayarak ekran görüntünüzü buraya yapıştırın ve ardından kaydedin.
+Bir ekran görüntüsü aldıktan sonra panoya kaydedilecektir. Usually, you will then be able to paste it into a document using the standard button combination *Ctrl + V*. Alternatif olarak, ekran görüntüsünü bir dosyaya kaydetmeniz gerekiyorsa, standart **Paint** programını (veya görüntülerle çalışabilen başka bir uygulamayı) açmalısınız. Aynı düğme kombinasyonunu kullanarak veya Yapıştır düğmesine (genellikle ekranın sol üst köşesinde) tıklayarak ekran görüntünüzü buraya yapıştırın ve ardından kaydedin.
 
 Windows 8 ve 10, *Win + PrtScn* kombinasyonu ile çok hızlı bir şekilde ekran görüntüsü almanızı sağlar. Bu düğmelere basar basmaz, ekran görüntüsü otomatik olarak Resimler → Ekran Görüntüleri Klasörünüze bir dosya olarak kaydedilecektir.
 
-Bilgisayarınızın standart programları arasında Başlat menüsünden bulabileceğiniz *Ekran Alıntısı Aracı* adlı ekran görüntüsü almak için özel bir program da bulunmaktadır. Ekran Alıntısı Aracı, masaüstünüzün herhangi bir alanını veya tüm ekranı yakalamanıza olanak tanır. Bu programı kullanarak ekran görüntüsü aldıktan sonra resmi düzenleyebilir ve bilgisayarınızdaki herhangi bir klasöre kaydedebilirsiniz.
+Bilgisayarınızın standart programları arasında Başlat menüsünden bulabileceğiniz *Ekran Alıntısı Aracı* adlı ekran görüntüsü almak için özel bir program da bulunmaktadır. Ekran Alıntısı Aracı, masaüstünüzün herhangi bir alanını veya tüm ekranı yakalamanıza olanak tanır. After taking a screenshot using this program you can edit the picture and then save it.
 
 Ayrıca, bilgisayarınızda ekran görüntüsü almak için **PicPick**, **Nimbus Screenshot**, **Screenshot Captor**, **Snipaste**, **Monosnap**, vb. gibi farklı uygulamaları kullanmayı da deneyebilirsiniz.
 
 ### macOS
 
-Mac'te ekran görüntüsü almak için aşağıdaki düğme kombinasyonunu kullanın:
+To take a screenshot on a Mac device, use the following button combination:
 
 - ******⌘ Cmd + Shift + 3*** tuşlarına basın ve birlikte basılı tutun***
 

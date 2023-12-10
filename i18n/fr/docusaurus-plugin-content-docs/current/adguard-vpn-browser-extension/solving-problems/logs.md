@@ -10,7 +10,7 @@ Il existe plusieurs façons de collecter les journaux (logs) de l'extension de n
 1. Ouvrez l'extension AdGuard VPN, si possible, et répétez les actions qui ont conduit à l'erreur. Notez le moment exacte auquel cette erreur s'est produite.
 1. Ouvrez *Paramètres* en cliquant sur l'icône du menu hamburger (☰)→ *Support* → *Signaler un bug*.
 1. Dans le formulaire ouvert, laissez une adresse e-mail insérée automatiquement ou saisissez-en une autre et décrivez l'erreur trouvée, y compris l'heure à laquelle cette erreur s'est produite. Si vous ne pouvez pas reproduire le problème, indiquez aussi précisément que possible quand il s'est produit pour la dernière fois.
-1. Assurez-vous que la case *Inclure le rapport de diagnostic dans le message*est cochée, puis cliquez sur *Soumettre*. De cette façon, vous enverrez les journaux avec le rapport de bug.
+1. Make sure that there is a check mark next to *Include the diagnostic report in the message* and tap *Submit*. De cette façon, vous enverrez les journaux avec le rapport de bug.
 
 ## Collecter et envoyer des logs via le bouton *Exporter les logs*
 

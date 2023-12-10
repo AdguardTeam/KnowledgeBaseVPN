@@ -9,7 +9,7 @@ AdGuard VPN lze nainstalovat pouze do zařízení se systémem **Android 5.0.0 n
 
 ## Jak nainstalovat AdGuard VPN pro Android
 
-Aplikaci AdGuard VPN pro Android najdete v *Obchodě Google Play* a můžete si ji zdarma nainstalovat. Za tímto účelem následujte [tento odkaz](https://play.google.com/store/apps/details?id=com.adguard.vpn) a klepněte na ikonu Instalovat nebo postupujte podle těchto jednoduchých kroků:
+Aplikaci AdGuard VPN pro Android si můžete zdarma nainstalovat z Google Play. Za tímto účelem následujte [tento odkaz](https://play.google.com/store/apps/details?id=com.adguard.vpn) a klepněte na *Instalovat* nebo postupujte podle těchto jednoduchých kroků:
 
 1. Otevřete v zařízení aplikaci *Obchod Play* a klepněte na *Hledat* v horní části obrazovky.
 

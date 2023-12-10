@@ -30,7 +30,7 @@ Su Android 8 e versioni successive c'è anche la possibilità di acquisire scree
 
 Se questo metodo non funziona, controlla le *Impostazioni* → *Funzioni avanzate* → *Movimenti e gesti* → abilita *Scorrimento del palmo per catturare*.
 
-Inoltre, puoi sempre utilizzare qualsiasi applicazione speciale per acquisire schermate sui tuoi dispositivi, ad esempio: *Screenshot Easy*, *Screenshot Ultimate*, *Screenshot Snap*, ecc.
+Besides, you can always use any special apps for taking screenshots on your devices, for example — *Screenshot Easy*, *Screenshot Ultimate*, *Screenshot Snap*, etc.
 
 ### iOS
 
@@ -48,11 +48,15 @@ Il tuo dispositivo iOS catturerà l'intero schermo e lo salverà come foto. Puoi
 
 ### Windows
 
-- **Per fare uno screenshot su Windows, premere il pulsante *PrtScn***
+- **To take a screenshot on a Windows device, press the *PrtScn* button**
 
-Su alcuni notebook è necessario tenere premuto *Fn* e poi premere *PrtScn*.
+On some devices, you first have to press and hold *Fn* before pressing *PrtScn*.
 
-*Nota: il pulsante PrtScn (Stampa schermo) può essere abbreviato in modo diverso su varie tastiere: PrntScrn, PrtScn, PrtScr o PrtSc.*
+:::note
+
+PrtScn (Print Screen) can be differently abbreviated on various keyboards — PrntScrn, PrtScn, PrtScr or PrtSc.
+
+:::
 
 Windows acquisisce l'intero schermo e lo copia negli appunti (invisibili).
 
@@ -64,17 +68,17 @@ Per acquisire uno screenshot di un'area specifica, è necessario utilizzare la s
 
 - ***Tenere premuto *Win* (il pulsante di Windows) e *Shift* e premere ***S******
 
-Dopo aver acquisito uno screenshot, verrà salvato negli appunti. Nella maggior parte dei casi è possibile incollarlo in un documento che si sta modificando utilizzando la combinazione di tasti *Ctrl + V*. In alternativa, se si desidera salvare lo screenshot in un file, è necessario aprire il programma standard **Paint** (o qualsiasi altra applicazione in grado di lavorare con le immagini). Incollare lo screenshot utilizzando la stessa combinazione di pulsanti o facendo clic sul pulsante Incolla (di solito nell'angolo in alto a sinistra dello schermo) e poi salvarlo.
+Dopo aver acquisito uno screenshot, verrà salvato negli appunti. Usually, you will then be able to paste it into a document using the standard button combination *Ctrl + V*. In alternativa, se si desidera salvare lo screenshot in un file, è necessario aprire il programma standard **Paint** (o qualsiasi altra applicazione in grado di lavorare con le immagini). Incollare lo screenshot utilizzando la stessa combinazione di pulsanti o facendo clic sul pulsante Incolla (di solito nell'angolo in alto a sinistra dello schermo) e poi salvarlo.
 
 Windows 8 e 10 ti consentono di acquisire uno screenshot molto rapidamente con una combinazione *Win + PrtScn*. Quando si premono questi pulsanti, lo screenshot viene automaticamente salvato come file nella cartella Immagini → Screenshots.
 
-Esiste anche un programma dedicato per fare screenshot chiamato *Snipping Tool* che si può trovare nel menu Start tra i programmi standard del computer. Snipping Tool consente di catturare qualsiasi area del desktop o l'intero schermo. Dopo aver scattato uno screenshot con questo programma, è possibile modificare l'immagine e salvarla in qualsiasi cartella del computer.
+Esiste anche un programma dedicato per fare screenshot chiamato *Snipping Tool* che si può trovare nel menu Start tra i programmi standard del computer. Snipping Tool consente di catturare qualsiasi area del desktop o l'intero schermo. After taking a screenshot using this program you can edit the picture and then save it.
 
 Inoltre, puoi anche provare a utilizzare diverse app per acquisire schermate sul tuo computer, come **PicPick**, **Nimbus Screenshot**, **Screenshot Captor**, **Snipaste**, **Monosnap**, ecc.
 
 ### macOS
 
-Per effettuare uno screenshot su Mac, utilizzare la seguente combinazione di tasti:
+To take a screenshot on a Mac device, use the following button combination:
 
 - ***Tenere premuto insieme ***⌘ Cmd + Shift + 3******
 

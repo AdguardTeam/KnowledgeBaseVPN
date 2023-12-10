@@ -7,21 +7,29 @@ Mac용 AdGuard VPN은 데스크톱 VPN 서비스입니다. AdGuard VPN은 AdGuar
 
 **AdGuard 계정에 로그인하지 않으면 Mac용 AdGuard VPN을 사용할 수 없습니다**. AdGuard 계정이나 Apple, Google 또는 Facebook으로 로그인할 수 있습니다. 다른 계정이 AdGuard 계정과 동일한 이메일 주소에 연결되어 있는지 확인하세요. AdGuard 계정에 적합한 구독이 있으면 데스크톱 앱에서 자동으로 활성화됩니다. 아직도 AdGuard 계정이 없다면 [여기](https://auth.adguard.com/registration.html)에서 만들 수 있습니다.
 
-> 현재 Mac용 AdGuard VPN은 macOS Catalina(10.15) 이상 버전에서 지원됩니다.
+:::note Compatibility
+
+현재 Mac용 AdGuard VPN은 macOS Catalina(10.15) 이상 버전에서 지원됩니다.
+
+:::
 
 ## 홈 화면
 
-![홈 화면](https://cdn.adguardvpn.com/content/kb/vpn/mac/main_en.png)
+![Home screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/main_en.png)
 
-첫 번째 탭은 *홈 *화면입니다. 여기에서 AdGuard VPN 현재 상태와 [예외 모드](#exclusions), 선택한 위치(활성화된 경우) 및 해당 핑을 볼 수 있습니다. 핑은 VPN 서버의 응답 시간입니다. 핑이 낮을수록 연결 속도가 빠릅니다. VPN이 비활성화된 경우 마지막으로 연결한 위치가 아래에 표시됩니다. 핑이 가장 낮은 가장 빠른 위치가 화면 오른쪽 상단에 표시됩니다. 아래에서 전체 위치 목록을 볼 수 있습니다. 검색 기능을 통해 필요한 위치를 손쉽게 찾을 수 있습니다.
+첫 번째 탭은 *홈 *화면입니다. 여기에서 AdGuard VPN 현재 상태와 [예외 모드](#exclusions), 선택한 위치(활성화된 경우) 및 해당 핑을 볼 수 있습니다. 핑은 VPN 서버의 응답 시간입니다. Consequently, the lower this number, the faster the connection. VPN이 비활성화된 경우 마지막으로 연결한 위치가 아래에 표시됩니다. 핑이 가장 낮은 가장 빠른 위치가 화면 오른쪽 상단에 표시됩니다. 아래에서 전체 위치 목록을 볼 수 있습니다. 검색 기능을 통해 필요한 위치를 손쉽게 찾을 수 있습니다.
 
-> 무료 버전의 사용자는 특정 위치에만 연결할 수 있고, 다른 위치가 차단됩니다. 게다가 무료 버전에서는 매월 3GB의 트래픽만 사용할 수 있습니다.
+:::note
+
+무료 버전의 사용자는 특정 위치에만 연결할 수 있고, 다른 위치가 차단됩니다. 게다가 무료 버전에서는 매월 3GB의 트래픽만 사용할 수 있습니다.
+
+:::
 
 ## 예외 목록
 
 ![예외 목록](https://cdn.adguardvpn.com/content/kb/vpn/mac/exclusions_en.png)
 
-다음 탭은 *예외 목록*입니다. AdGuard VPN에는 고유한 몇 가지 기능이 있으며 그 중 하나는 두 가지 예외 모드 사이를 전환하는 것입니다. 일반 모드에서 AdGuard VPN은 예외 목록에 있는 웹사이트를 제외한 모든 웹사이트에서 실행됩니다. 반대로 선별 모드에서는 AdGuard VPN이 예외 목록의 웹사이트에서만 실행됩니다. VPN이 작동할 웹사이트를 직접 결정할 수 있습니다.
+AdGuard VPN has several features that make it unique, and one of them is definitely *Exclusions*. By default, AdGuard VPN will run on all websites and in all apps but the ones from the exclusions list. But you can switch to the other mode, so AdGuard VPN will run only on websites and in apps from the exclusions list.
 
 ![예외 화면](https://cdn.adguardvpn.com/content/kb/vpn/mac/services_en.png)
 
@@ -38,7 +46,9 @@ Mac용 AdGuard VPN은 데스크톱 VPN 서비스입니다. AdGuard VPN은 AdGuar
 3. 다른 기기 간에 전송할 때 가져오기를 위해 `.zip` 파일을 기기로 보내는 것을 잊지 마십시오. 예를 들어, Mac 기기에서 아이폰으로 예외 목록을 가져오는 경우, 미리 `.zip` 파일을 Android로 보내야 합니다.
 4. 예외 목록이 있는 ZIP 파일을 가져오려는 기기에서 AdGuard VPN을 엽니다. 해당 섹션을 찾아 *가져오기* 버튼을 클릭하고 ZIP 파일을 선택합니다. 끝!
 
-> 다른 기기의 ZIP 파일은 동일한 방식으로 Mac용 AdGuard VPN으로 가져올 수 있습니다.
+:::note Archive files from other devices can be similarly imported to your AdGuard VPN for Mac.
+
+:::
 
 ## 고객 지원
 
@@ -58,23 +68,21 @@ Mac용 AdGuard VPN은 데스크톱 VPN 서비스입니다. AdGuard VPN은 AdGuar
 
 *킬 스위치*, *자동 업데이트*, *로그인 시 AdGuard VPN 실행* 및 *앱 실행 시 자동 연결*과 같은 네 가지 기본 기능은 애플리케이션을 더욱 편리하고 사용자 친화적으로 만듭니다. 시스템 기본 테마, 다크 테마 또는 라이트 테마를 적용할 수 있습니다. 시스템 기본 테마는 Mac의 테마와 일치합니다.
 
-또 다른 옵션은 AdGuard VPN이 앱을 개선하는 데 도움이 되도록 익명화된 충돌 보고서, 기술 및 상호 작용 데이터를 수집하고 전송하도록 허용할 수 있다는 것입니다. 마지막으로 오른쪽에 있는 버튼 덕분에 로그를 Mac으로 내보낼 수 있습니다. 이는 지원 팀에 보내는 메시지에 로그를 첨부하려는 경우에 유용할 수 있습니다.
+You can also allow AdGuard VPN to gather and send anonymized crash reports, technical and interaction data in order to help us improve our app. Last but not least, you can export logs from your Mac. 이는 지원 팀에 보내는 메시지에 로그를 첨부하려는 경우에 유용할 수 있습니다.
 
 ### DNS 서버
 
 ![DNS 서버](https://cdn.adguardvpn.com/content/kb/vpn/mac/dns_en.png)
 
-여기에서 기본적으로 ISP에서 제공하는 DNS 서버를 사용하지 않도록 사용자 지정 DNS 서버를 추가할 수 있습니다. DNS 트래픽을 암호화할 뿐만 아니라 악성 사이트에 대한 요청을 식별하고 '블랙홀'로 리디렉션하는 AdGuard DNS를 추가하는 것이 좋습니다.
+여기에서 기본적으로 ISP에서 제공하는 DNS 서버를 사용하지 않도록 사용자 지정 DNS 서버를 추가할 수 있습니다. We recommend adding AdGuard DNS, which not only encrypts your DNS traffic but also identifies requests to malicious websites and redirects them to a “blackhole”.
 
 ### 고급 설정
 
 ![고급 설정](https://cdn.adguardvpn.com/content/kb/vpn/mac/advanced-settings_en.png)
 
-고급 설정은 변경하지 않는 것이 좋습니다. 특별한 지식이 있거나 지원 팀에서 요청한 경우가 아니면 이 기능을 변경하지 않는 것이 좋습니다.
-
 #### 로깅 수준
 
-로깅 수준은 두 가지뿐이지만 첫 번째 기본 수준을 사용하는 것이 좋습니다. 두 번째 옵션(고급화된 로깅)은 기술 지원 팀과 상담을 받은 후에 이상한 프로그램 동작을 수정하도록 설정해야 합니다. 두 번째 로깅 수준을 활성화하더라도 로그를 기록한 후에는 기본 수준으로 돌아가세요.
+로깅 수준은 두 가지뿐이지만 첫 번째 기본 수준을 사용하는 것이 좋습니다. 두 번째 옵션(고급화된 로깅)은 기술 지원 팀과 상담을 받은 후에 이상한 프로그램 동작을 수정하도록 설정해야 합니다. If you have enabled the extended logging level, make sure to switch to the default one after recording logs.
 
 #### 메뉴 아이콘 숨기기
 

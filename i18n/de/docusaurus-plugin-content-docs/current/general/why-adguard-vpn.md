@@ -45,7 +45,7 @@ Um Zugang zu allen VPN-Serverstandorten zu erhalten, müssen Sie ein AdGuard VPN
 
 ## 5. Integration mit AdGuard Werbeblocker
 
-Bei Desktop-Anwendungen und Browser-Erweiterungen ist dies selbstverständlich — es gibt selten Konflikte zwischen Anwendungen, außer bei Antivirenprogrammen und anderer, ähnlich ausgerichteter Software.
+With desktop apps and web browser extensions, there are rarely conflicts between apps, except for antiviruses and other similar types of software.
 
 Bei mobilen Geräten ist das nicht so einfach. In den allermeisten Fällen funktionieren zwei VPN-basierte Anwendungen nicht zusammen. Sowohl bei Android als auch bei iOS gibt es Beschränkungen, die dies verhindern.
 
@@ -55,7 +55,7 @@ Es ist uns jedoch gelungen, eine Lösung zu finden, um AdGuard VPN und AdGuard A
 
 ## 6. QUIC-Unterstützung
 
-[QUIC](https://adguard-dns.io/en/blog/dns-over-quic.html#whatisquic) ist ein hochmodernes Protokoll, das viele Vorteile bietet. Der Hauptvorteil besteht darin, dass die Verbindungsqualität auch unter ungünstigen Bedingungen verbessert werden kann, z. B. bei mobilen Geräten oder bei der Verbindung zu öffentlichen WLAN-Netzen. Obwohl das neue Protokoll keine Auswirkungen auf die Geschwindigkeit hat, wenn die Verbindung gut und stabil ist, wird es die Situation für Nutzer mit langsamem Internet definitiv verbessern.
+[QUIC](https://adguard-dns.io/en/blog/dns-over-quic.html#whatisquic) ist ein hochmodernes Protokoll, das viele Vorteile bietet. The main advantage is it can improve the connection quality in non-ideal conditions — for example, on mobile devices or when connecting to public Wi-Fi. Obwohl das neue Protokoll keine Auswirkungen auf die Geschwindigkeit hat, wenn die Verbindung gut und stabil ist, wird es die Situation für Nutzer mit langsamem Internet definitiv verbessern.
 
 :::caution
 
@@ -67,7 +67,7 @@ Das QUIC-Protokoll ist noch relativ neu und kann instabil sein. Es kann nicht in
 
 ## 7. Kill Switch
 
-Kill Switch ist unverzichtbar, wenn Sie z. B. häufig ein mobiles Netzwerk nutzen oder sich mit öffentlichen WLAN-Netzwerken in Einkaufszentren, Cafés, in der U-Bahn oder auf dem Flughafen verbinden. Aus einem einfachen Grund: Wenn die VPN-Verbindung plötzlich abbricht und unsicher wird, besteht die Gefahr, dass Ihre sensiblen Daten Betrügern oder Cyber-Kriminellen zugänglich gemacht werden.
+Kill Switch ist unverzichtbar, wenn Sie z. B. häufig ein mobiles Netzwerk nutzen oder sich mit öffentlichen WLAN-Netzwerken in Einkaufszentren, Cafés, in der U-Bahn oder auf dem Flughafen verbinden. For the simple reason that if your VPN suddenly fails and the connection becomes insecure, chances are your sensitive information will be exposed to fraudsters or cyber criminals.
 
 Wenn Ihre VPN-Verbindung aus irgendeinem Grund unterbrochen wird, trennt Kill Switch automatisch die Verbindung zum Internet und hält Angreifer davon ab, Ihre Daten abzugreifen.
 
@@ -93,7 +93,7 @@ Wer kein Abonnement hat, kann AdGuard VPN auf *zwei Geräten gleichzeitig* nutze
 
 Streaming-Dienste mögen VPNs aus offensichtlichen Gründen nicht: Statistiken zufolge installieren etwa 20 % der Nutzer ein VPN hauptsächlich, um Sendungen, Fernsehsendungen und Filme unter Umgehung von Landessperren anzusehen. Deshalb setzen Streaming-Plattformen alles daran, den VPN-Verkehr zu verfolgen und zu sperren.
 
-Was aber, wenn Sie sich sicher fühlen wollen, während Sie sich Inhalte ansehen, die für Ihre Region bestimmt sind? Oder wollen Sie nicht aufhören, spannende Serien zu sehen, auch wenn Sie in ein anderes Land reisen? Die Antwort ist einfach — AdGuard VPN, das dank seines einzigartigen Protokolls für die Dienste unsichtbar bleiben kann.
+But what if you want to feel safe while watching content specific to your region? Or don't want to stop watching exciting series even when you travel to another country? Die Antwort ist einfach — AdGuard VPN, das dank seines einzigartigen Protokolls für die Dienste unsichtbar bleiben kann.
 
 Wir befürworten nicht die Verwendung von AdGuard VPN zur Umgehung von Urheberrechtsbestimmungen.
 

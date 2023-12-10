@@ -3,7 +3,7 @@ title: 로그 수집 및 전송 방법
 sidebar_position: 2
 ---
 
-Android용 AdGuard VPN을 사용할 때 기술적인 문제가 발생하면 지원 팀에 애플리케이션 로그를 보낼 수 있습니다.
+If you encounter any problem while using AdGuard VPN for Android, you can inform us about it by sending the app logs.
 
 ## 일반 로그 수집 및 전송
 
@@ -15,7 +15,7 @@ Android용 AdGuard VPN을 사용할 때 기술적인 문제가 발생하면 지�
 
 3. 열리는 양식에 이메일 주소를 입력하고 발견한 오류를 설명하고 이 오류가 언제 발생했는지 알려주세요. 문제를 재현할 수 없는 경우, 마지막으로 발생한 시간을 지정합니다.
 
-4. **자세한 시스템 정보 보내기** 옆에 확인 표시가 있습니다. 즉, 보고서를 보낼 때 로그도 함께 보냅니다.
+4. There is a check mark next to **Send app logs and system info**, which means that when you send a report, you also send logs.
 > 다른 방법으로 로그를 보내는 것이 편하다면 직접 로그를 내보내도 됩니다. 로그를 직접 내보내려면 **설정** → **고객 지원** → **로그 및 시스템 정보** 내보내기로 이동합니다.
 
 ## 고급화된 로그 수집 및 전송
@@ -34,5 +34,5 @@ Android용 AdGuard VPN을 사용할 때 기술적인 문제가 발생하면 지�
 
 6. 열리는 양식에 이메일 주소를 입력하고 발견한 오류를 설명하고 이 오류가 언제 발생했는지 알려주세요.
 
-7. **자세한 시스템 정보 보내기** 옆에 확인 표시가 있는지 확인하고 **전송**을 누릅니다.
+7. Make sure that there is a check mark next to **Send app logs and system info** and tap **Send**.
 > 다른 방법으로 로그를 보내는 것이 편하다면 직접 로그를 내보내도 됩니다. 로그를 직접 내보내려면 **설정** → **고객 지원** → **로그 및 시스템 정보** 내보내기로 이동합니다.

@@ -7,21 +7,29 @@ AdGuard VPN Mac版是一个桌面 VPN 服务。 AdGuard VPN 与 AdGuard 广告�
 
 请注意：**登录 AdGuard 账号后，您才可以运行 AdGuard VPN Mac版**。 用户可以用 AdGuard 账号登录，也可以通过其他账号登录，即通过 Apple、Google 或 Facebook 登录。 请确保您的其他账号与 AdGuard 账号绑定到同一个电子邮件地址。 如果用户的 AdGuard 账号中有合适的订阅，订阅将在桌面应用程序上自动激活。 还没有 AdGuard 账号？ 请[点击这里](https://auth.adguard.com/registration.html)建立账号。
 
-> 适用于 Mac 的 AdGuard VPN 支持 macOS Sierra (10.15) 以上的 macOS 版本。
+:::note Compatibility
+
+适用于 Mac 的 AdGuard VPN 支持 macOS Sierra (10.15) 以上的 macOS 版本。
+
+:::
 
 ## 主界面
 
-![主界面](https://cdn.adguardvpn.com/content/kb/vpn/mac/main_en.png)
+![Home screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/main_en.png)
 
-第一个标签是*主页*屏幕。 在主页用户可以查看 AdGuard VPN 当前状态和[排除项模式](#exclusions)、选择的服务器位置（如果出于启用状态）及服务器的 Ping。 Ping 是指 VPN 服务器的响应时间。 因此，Ping 的数值越低，连接速度越快。 如果 VPN 连接被禁用，您最后次连接的服务器位置将显示在连接状态的下面。 具有最低 Ping 值的最快位置将显示在屏幕的右上角。 下面用户可以看到全部服务器位置的列表。 通过搜索功能，可以轻松找到所需要的服务器位置。
+第一个标签是*主页*屏幕。 在主页用户可以查看 AdGuard VPN 当前状态和[排除项模式](#exclusions)、选择的服务器位置（如果出于启用状态）及服务器的 Ping。 Ping 是指 VPN 服务器的响应时间。 Consequently, the lower this number, the faster the connection. 如果 VPN 连接被禁用，您最后次连接的服务器位置将显示在连接状态的下面。 具有最低 Ping 值的最快位置将显示在屏幕的右上角。 下面用户可以看到全部服务器位置的列表。 通过搜索功能，可以轻松找到所需要的服务器位置。
 
-> 免费用户只可以连接到一些服务器位置，而其他位置则被封锁。 除此之外，免费版有每月 3GB 的流量限制。
+:::note
+
+免费用户只可以连接到一些服务器位置，而其他位置则被封锁。 除此之外，免费版有每月 3GB 的流量限制。
+
+:::
 
 ## 排除项
 
 ![排除项](https://cdn.adguardvpn.com/content/kb/vpn/mac/exclusions_en.png)
 
-下一个标签是*排除项*。 AdGuard VPN 有几个独一无二的功能，其中之一当然是在两个排除项模式。 在常规模式下，除了添加到列表的网站外 AdGuard VPN 在所有网站上运行。 在选择模式下，AdGuard VPN 只在列表内的网站上运行。 用户自己决定，VPN 在什么网站上工作。
+AdGuard VPN has several features that make it unique, and one of them is definitely *Exclusions*. By default, AdGuard VPN will run on all websites and in all apps but the ones from the exclusions list. But you can switch to the other mode, so AdGuard VPN will run only on websites and in apps from the exclusions list.
 
 ![排除项屏幕](https://cdn.adguardvpn.com/content/kb/vpn/mac/services_en.png)
 
@@ -38,7 +46,9 @@ AdGuard VPN Mac版是一个桌面 VPN 服务。 AdGuard VPN 与 AdGuard 广告�
 3. 在不同设备之间传输时，不要忘记将 `.zip` 文件发送到设备上进行导入。 例如，如果您将排除项列表从自己的 Mac 设备导入到 iPhone 设备，确保先将 `.zip` 文件发送到手机上。
 4. 在要导入存档的设备/浏览器上打开 AdGuard VPN，其中包含要应用的排除项列表。 找到相应的部分，单击「*导入*」按钮并选择存档。 完成！
 
-> 其他设备的存档文件也可以类似地导入到您的 AdGuard VPN Mac版。
+:::note Archive files from other devices can be similarly imported to your AdGuard VPN for Mac.
+
+:::
 
 ## 支持
 
@@ -58,23 +68,21 @@ AdGuard VPN Mac版是一个桌面 VPN 服务。 AdGuard VPN 与 AdGuard 广告�
 
 前四个基本功能提高应用程序的用户友好性，即 *Kill Switch*、 *自动更新*、 *随系统启动自动运行 AdGuard VPN* 和*在应用程序启动时自动连接*。 此外，用户可以在浅色、深色和系统主题之间进行选择。系统主题与您 Mac 上的主题相匹配。
 
-另一个不应忽视的功能是，用户可以允许 AdGuard VPN 收集和匿名发送崩溃报告、技术和互动数据，以帮助我们改进我们的应用程序。 最后但同样重要的是，借助右侧的按钮，用户可以将日志导出到 Mac。 如果您想将日志附加到您的消息以提供客服支持，本功能很有用。
+You can also allow AdGuard VPN to gather and send anonymized crash reports, technical and interaction data in order to help us improve our app. Last but not least, you can export logs from your Mac. 如果您想将日志附加到您的消息以提供客服支持，本功能很有用。
 
 ### DNS 服务器
 
 ![DNS 服务器](https://cdn.adguardvpn.com/content/kb/vpn/mac/dns_en.png)
 
-用户可以在此处添加一个（或多个）自定义 DNS 服务器，以便不依赖您的 ISP 默认提供的 DNS 服务器。 我们建议用户添加 AdGuard DNS。它不仅可以加密用户的 DNS 流量，还可以识别对恶意网站的请求并将它们重定向到“黑洞”。
+用户可以在此处添加一个（或多个）自定义 DNS 服务器，以便不依赖您的 ISP 默认提供的 DNS 服务器。 We recommend adding AdGuard DNS, which not only encrypts your DNS traffic but also identifies requests to malicious websites and redirects them to a “blackhole”.
 
 ### 高级设置
 
 ![高级设置](https://cdn.adguardvpn.com/content/kb/vpn/mac/advanced-settings_en.png)
 
-我们不建议调整高级设置。 除非我们的技术支持要求或除非您知道自己在做什么，否则不要更改它们。
-
 #### 日志记录级别
 
-软件只有两个日志记录级别，但我们强烈建议用户使用第一个默认级别。 第二个选项（扩展日志级别）应该在咨询我们的技术支持后，仅在记录一个异常的程序行为时设置。 即使用户启用第二个日志记录级别，也要确保在记录日志完成后返回到默认级别。
+软件只有两个日志记录级别，但我们强烈建议用户使用第一个默认级别。 第二个选项（扩展日志级别）应该在咨询我们的技术支持后，仅在记录一个异常的程序行为时设置。 If you have enabled the extended logging level, make sure to switch to the default one after recording logs.
 
 #### 隐藏菜单栏的图标
 

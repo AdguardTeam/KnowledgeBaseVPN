@@ -45,7 +45,7 @@ AdGuard VPN 脱颖而出的另一个特点是，你可以根据其 Ping 值选�
 
 ## 5. 与 AdGuard 广告拦截器集成
 
-对于桌面应用程序和浏览器扩展，除了杀毒软件和其他类似的软件以外，很少会出现应用程序之间的冲突。
+With desktop apps and web browser extensions, there are rarely conflicts between apps, except for antiviruses and other similar types of software.
 
 但是，对于移动设备来说就没那么简单了。 在绝大多数情况下，两个基于 VPN 的应用程序无法一起使用。 安卓和 iOS 系统都有一些限制，无法实现这一点。
 
@@ -55,7 +55,7 @@ AdGuard VPN 脱颖而出的另一个特点是，你可以根据其 Ping 值选�
 
 ## 6. QUIC 的支持
 
-[QUIC](https://adguard-dns.io/en/blog/dns-over-quic.html#whatisquic) 是一种具有很多优点的尖端协议。 它的主要优点是可以改善非理想条件下的连接质量——例如，在移动设备上或连接公共 Wi-Fi 时。 虽然新协议不会影响正常稳定连接的速度，但对于网速较慢的用户来说，情况肯定会有所改善。
+[QUIC](https://adguard-dns.io/en/blog/dns-over-quic.html#whatisquic) 是一种具有很多优点的尖端协议。 The main advantage is it can improve the connection quality in non-ideal conditions — for example, on mobile devices or when connecting to public Wi-Fi. 虽然新协议不会影响正常稳定连接的速度，但对于网速较慢的用户来说，情况肯定会有所改善。
 
 :::注意
 
@@ -67,7 +67,7 @@ QUIC 协议非常新，可能不稳定。 我们不能保证它在任何情况�
 
 ## 7. Kill Switch
 
-如果你经常使用移动网络，或者在商场、咖啡馆、地铁或机场连接公共 Wi-Fi 网络，那么 Kill Switch 是必不可少的。 原因很简单，如果 VPN 突然中断，连接就会变得不安全，您的敏感信息就有可能暴露给欺诈者或网络犯罪分子。
+如果你经常使用移动网络，或者在商场、咖啡馆、地铁或机场连接公共 Wi-Fi 网络，那么 Kill Switch 是必不可少的。 For the simple reason that if your VPN suddenly fails and the connection becomes insecure, chances are your sensitive information will be exposed to fraudsters or cyber criminals.
 
 如果由于某种原因，您的 VPN 连接被中断，Kill Switch 将自动断开互联网连接，使攻击者无法获取你的信息。
 
@@ -93,7 +93,7 @@ AdGuard VPN 的 iOS 和 Android 版提供自动保护功能。
 
 流媒体服务不喜欢 VPN 的原因显而易见：据统计，约有 20% 的用户安装 VPN 主要是为了绕过地理限制观看节目、电视节目和电影。 这就是为什么流媒体平台往往会想尽一切办法跟踪 VPN 流量并加以阻止。
 
-但是，如果您想在观看您所在地区的特定内容时感到安全，该怎么办？ 或者，即使到了另一个国家，也不想停止观看精彩的连续剧？ 答案很简单--AdGuard VPN，由于其独特的协议，它可以对服务保持隐形。
+But what if you want to feel safe while watching content specific to your region? Or don't want to stop watching exciting series even when you travel to another country? 答案很简单--AdGuard VPN，由于其独特的协议，它可以对服务保持隐形。
 
 我们不赞成使用 AdGuard VPN 来绕过版权法规。
 

@@ -9,7 +9,7 @@ sidebar_position: 2
 
 **RAM:** Minimum 2 GB
 
-**Ledig diskplads:** 120 MB
+**Free disk space**: 120 MB
 
 ## Sådan installeres AdGuard VPN til Mac
 
@@ -40,7 +40,7 @@ Følg to enkle trin for at afinstallere AdGuard VPN til Mac:
 
 ### Avanceret afinstallation
 
-Som følge af forkert fjernelse, eller i andre sjældne tilfælde, kan standardafinstallationen muligvis være utilstrækkelig. Supporten kan i så fald anmode om at der foretages en avanceret afinstallation for helt at fjerne AdGuard VPN fra Mac'en. Dette gøres på flg. måde:
+Sometimes, as a result of incorrect removal or in other rare cases, the standard uninstallation may not be enough. In that case, our support may ask you to perform an advanced uninstall to completely remove AdGuard VPN from your Mac. Dette gøres på flg. måde:
 
 1. Følg trinene beskrevet i afsnittet ["Standardafinstallation"](#how-to-uninstall-adguard-vpn-for-mac).
 2. Åbn "Finder" eller "Spotlight", og skriv `Nøglering` i søgefeltet. ![Avanceret afinstallation. Angiv Nøglering](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-key-chain-en.png)

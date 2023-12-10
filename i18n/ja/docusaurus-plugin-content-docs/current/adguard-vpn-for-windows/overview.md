@@ -3,15 +3,11 @@ title: 機能概要
 sidebar_position: 1
 ---
 
-## AdGuard VPN for Windows とは？
-
-A VPN, acronym for "Virtual Private Network", is a service that makes your Internet connection safe and helps you stay anonymous online. その仕組みは？ VPNを使用せずにウェブサイトを訪問するたびに、ISP（インターネットプロバイダ）はそれを見れます。 あなたが誰で、何を検索しているのか、どこにアクセスしたりしているのはを知り、そのデータを収集し、販売することができるのです。 さらに、アクセスしたWebサイトも、あなたの行動を追跡することができます。 そこでVPNアプリを有効にすると、トラフィック（通信）は暗号化されたトンネルを経由してリモートのVPNサーバーにリダイレクトされ、プライバシーが保証されます。ISPは、あなたがリクエストをどこに送信するかを知らず、サイトもあなたがどこからアクセスしたのかをわかりません。
-
 ## What AdGuard VPN for Windows does
 
 - ネットワークトラフィックの傍受（スプーフィング）から保護します。 AdGuard VPNは、お使いの端末とVPNサーバーの間に暗号化トンネルを作成します。 すべてのインターネットトラフィックはこのトンネルを通過することによって、データ・個人情報は保護されます。 And thanks to [AdGuard's unique protocol](/general/adguard-vpn-protocol), you're guaranteed a fast and secure connection.
 
-- IPアドレスを隠します。 サイバー犯罪者にとって、あなたの実際のIPアドレスは、あなたの個人情報を把握するための鍵です。 IPを隠さないと、名前、メールアドレス、電話番号、クレジットカード情報などがすべて詐欺師等の手に渡ってしまう可能性があるのです。 AdGuard VPNを使えば、すべてのトラフィックが暗号化されたトンネルを通過してVPNサーバーにたどり着きます。 そのため、オンライン上ではあなたの端末がそのVPNサーバーのIPアドレスを持っているように見えるのです。
+- IPアドレスを隠します。 サイバー犯罪者にとって、あなたの実際のIPアドレスは、あなたの個人情報を把握するための鍵です。 IPを隠さないと、名前、メールアドレス、電話番号、クレジットカード情報などがすべて詐欺師等の手に渡ってしまう可能性があるのです。 With AdGuard VPN, all your traffic goes through an encrypted tunnel and comes to the VPN server. The web server registers the IP address of the endpoint of the tunnel, i.e. the VPN server, and not the device's real IP address.
 
 - 現在位置を隠します。 AdGuard VPN サーバーのいずれかを選択することで、その場所に瞬時に「テレポート」します。 その効果は？ 例えば、地元の人の料金でホテルを予約できたり、地域をもとにターゲットしてくる広告から隠れることができたりします。
 
@@ -31,7 +27,7 @@ At the top of the screen there is a navigation panel with four tabs: **Home**, *
 
 ## Exclusions
 
-AdGuard VPN for Windows can operate in two modes: **General** or **Selective**. What does this mean? If you want the application to work everywhere except for some websites, activate the **General mode** and list the websites you want to exclude from the tunnel. The **Selective mode** has the opposite effect: it activates AdGuard VPN only on the websites specified in the exclusion list. Please note that these two modes' exclusions lists are independent from one another.
+AdGuard VPN for Windows can operate in two modes. By default, the application works everywhere, and you can list the websites and apps you want to exclude from the tunnel. But you can switch to the opposite mode: AdGuard VPN will only run on the websites and in the apps specified in the list of exclusions. Please note that these two lists are independent from one another.
 
 ![Exclusions](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_en.png)
 
@@ -41,21 +37,23 @@ You can add websites to exclusions **manually** by entering their domain names. 
 
 ![Add Exclusions from list](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_from_list_en.png)
 
-> 手動でドメインを追加する場合、いくつかのニュアンスに注意する必要があります。 例えば、ドメイン`google.com`を手動で追加すると、サブドメイン `*.google.com` のすべても除外対象になります。 ただし、この場合、`google.es` や `google.it`など、他のトップレベルドメインを持つドメイン名は除外対象になりません。 もう一つの例として、例えば `youtube.com` を除外リストに追加しても、同サービスのドメインである `youtu.be` は除外対象になりません。
+:::note When adding domains manually, you should take into account some nuances. 例えば、ドメイン`google.com`を手動で追加すると、サブドメイン `*.google.com` のすべても除外対象になります。 ただし、この場合、`google.es` や `google.it`など、他のトップレベルドメインを持つドメイン名は除外対象になりません。 もう一つの例として、例えば `youtube.com` を除外リストに追加しても、同サービスのドメインである `youtu.be` は除外対象になりません。
+
+:::
 
 We recommend using the **From the list** option. Websites are grouped into eight categories: Social networks, Messengers, Video and Music streaming services, Games, Shopping, Search engines, and Work communication tools. We have placed the most popular services there, including all domain names and subdomains related to each platform.
 
 ### VPN対象外リストのインポート・エクスポート
 
-To export the list of exclusions from AdGuard VPN for Windows to your computer, click **Export exclusions**, select the folder where the list will be stored and click **Save**. An archive `exclusions.zip` with two `.txt` files will be downloaded, one for each of the lists — **General** and **Selective**. You can edit them by adding new exclusions or deleting old ones.
+To export the list of exclusions from AdGuard VPN for Windows to your computer, click **Export exclusions**, select the folder where the list will be stored and click **Save**. An archive `exclusions.zip` with two `.txt` files will be downloaded, one for each of the lists. You can edit them by adding new exclusions or deleting old ones.
 
-To transfer the exclusion lists to another device, send the `.zip` file to its destination. Open AdGuard VPN on the device where you want to import the archive with the exclusion lists, click *Exclusions*, then *Import exclusions*, and select the previously sent archive.
+On the destination device, open AdGuard VPN, click *Exclusions*, and select *Websites* or *Apps*. Click *Import exclusions* and select the received archive.
 
 ## Settings
 
 ![Settings](https://cdn.adguardvpn.com/content/release_notes/vpn/windows/v2.0/settings_en.png)
 
-The fourth tab of app's tab bar contains sections that will help you customize the application. Let's look closer at two of them: **App settings** and **App exclusions**.
+The fourth tab contains sections that will help you customize the application.
 
 ### 本アプリの設定
 
@@ -83,7 +81,7 @@ Despite the fact that there are two operating modes — VPN and SOCKS5 — we ad
 
 Two levels of logging are available to choose from: **Record by default** and **Record everything**. The first option is enabled by default. The **Record everything** option should only be activated if our support team has asked you to do so. Using the app in this mode for an extended period of time result in increased battery consumption.
 
-All logs are stored locally on your device and you can send them to the support team if needed.
+All logs are stored locally on your device, and you can send them to the support team if needed.
 
 ##### Use QUIC
 
@@ -93,7 +91,7 @@ This is an experimental feature that enables AdGuard to use the advanced QUIC en
 
 ![Adding an app to exclusions](https://cdn.adguardvpn.com/content/release_notes/vpn/windows/v2.0/add_app_en.png)
 
-Not only does AdGuard VPN encrypt the traffic of your browsers, but also of other apps installed on your device. If you want to exclude certain applications from the tunnel, put them to the **App exclusions** list.
+Not only does AdGuard VPN encrypt the traffic of browsers, but also of other apps installed on your device. If you want to exclude certain applications from the tunnel, put them to the **App exclusions** list.
 
 ## Other tabs
 

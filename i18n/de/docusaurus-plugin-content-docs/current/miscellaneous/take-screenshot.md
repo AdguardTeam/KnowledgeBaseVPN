@@ -30,7 +30,7 @@ Auf Android 8 und höher gibt es auch die Möglichkeit, einen Screenshot zu mach
 
 Wenn diese Methode nicht funktioniert, überprüfen Sie *Einstellungen* → *Erweiterte Funktionen* → *Bewegungen und Gesten* → und aktivieren Sie *Handflächenwischen zur Erfassung*.
 
-Außerdem können Sie jederzeit spezielle Apps zum Aufnehmen von Screenshots auf Ihren Geräten verwenden, z. B. — *Screenshot Easy*, *Screenshot Ultimate*, *Screenshot Snap* usw.
+Besides, you can always use any special apps for taking screenshots on your devices, for example — *Screenshot Easy*, *Screenshot Ultimate*, *Screenshot Snap*, etc.
 
 ### iOS
 
@@ -48,11 +48,15 @@ Ihr iOS-Gerät erfasst den gesamten Bildschirm und speichert ihn als Foto. Sie f
 
 ### Windows
 
-- **Um unter Windows einen Screenshot zu machen, drücken Sie die Taste *PrtScn***
+- **To take a screenshot on a Windows device, press the *PrtScn* button**
 
-Auf einigen Notebooks müssen Sie *Fn* gedrückt halten und stattdessen *PrtScn* drücken.
+On some devices, you first have to press and hold *Fn* before pressing *PrtScn*.
 
-*Bitte beachten Sie: Die Taste PrtScn (Print Screen) kann auf verschiedenen Tastaturen unterschiedlich abgekürzt werden — PrntScrn, PrtScn, PrtScr oder PrtSc.*
+:::note
+
+PrtScn (Print Screen) can be differently abbreviated on various keyboards — PrntScrn, PrtScn, PrtScr or PrtSc.
+
+:::
 
 Windows nimmt den gesamten Bildschirm auf und kopiert ihn in die (unsichtbare) Zwischenablage.
 
@@ -64,17 +68,17 @@ Um einen Screenshot eines bestimmten Bereichs zu machen, sollten Sie die folgend
 
 - ***Halten Sie *Win* (die Windows-Taste) und *Shift* gedrückt und drücken Sie ***S******
 
-Nachdem Sie einen Screenshot gemacht haben, wird er in der Zwischenablage gespeichert. In den meisten Fällen können Sie es in ein Dokument einfügen, das Sie gerade bearbeiten, indem Sie die Tastenkombination *Strg + V* verwenden. Wenn Sie den Screenshot alternativ in einer Datei speichern müssen, sollten Sie das Standardprogramm **Paint** öffnen (oder jede andere App, die mit Bildern arbeiten kann). Fügen Sie Ihren Screenshot dort mit der gleichen Tastenkombination oder durch Klicken auf die Schaltfläche Einfügen (normalerweise in der oberen linken Ecke des Bildschirms) ein und speichern Sie ihn dann.
+Nachdem Sie einen Screenshot gemacht haben, wird er in der Zwischenablage gespeichert. Usually, you will then be able to paste it into a document using the standard button combination *Ctrl + V*. Wenn Sie den Screenshot alternativ in einer Datei speichern müssen, sollten Sie das Standardprogramm **Paint** öffnen (oder jede andere App, die mit Bildern arbeiten kann). Fügen Sie Ihren Screenshot dort mit der gleichen Tastenkombination oder durch Klicken auf die Schaltfläche Einfügen (normalerweise in der oberen linken Ecke des Bildschirms) ein und speichern Sie ihn dann.
 
 Mit Windows 8 und 10 können Sie mit einer Kombination aus *Win + PrtScn* sehr schnell einen Screenshot erstellen. Sobald Sie diese Schaltflächen drücken, wird der Screenshot automatisch als Datei in Ihrem Ordner Bilder → Screenshots gespeichert.
 
-Es gibt auch ein spezielles Programm zum Aufnehmen von Screenshots namens *Snipping Tool* , das Sie über das Startmenü unter den Standardprogrammen Ihres Computers finden können. Mit dem Snipping Tool können Sie jeden Bereich Ihres Desktops oder den gesamten Bildschirm erfassen. Nachdem Sie mit diesem Programm einen Screenshot gemacht haben, können Sie das Bild bearbeiten und in einem beliebigen Ordner auf Ihrem Computer speichern.
+Es gibt auch ein spezielles Programm zum Aufnehmen von Screenshots namens *Snipping Tool* , das Sie über das Startmenü unter den Standardprogrammen Ihres Computers finden können. Mit dem Snipping Tool können Sie jeden Bereich Ihres Desktops oder den gesamten Bildschirm erfassen. After taking a screenshot using this program you can edit the picture and then save it.
 
 Außerdem können Sie auch versuchen, verschiedene Apps zum Aufnehmen von Screenshots auf Ihrem Computer zu verwenden, z. B. **PicPick**, **Nimbus Screenshot**, **Screenshot Captor**, **Snipaste**, **Monosnap** usw.
 
 ### macOS
 
-Um einen Screenshot auf dem Mac zu machen, verwenden Sie die folgende Tastenkombination:
+To take a screenshot on a Mac device, use the following button combination:
 
 - ***Drücken und halten Sie zusammen ***⌘ Cmd + Shift + 3******
 

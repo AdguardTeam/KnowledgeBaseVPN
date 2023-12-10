@@ -30,7 +30,7 @@ sidebar_position: 10
 
 После смены региона [установите AdGuard VPN](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602).
 
-### AdGuard  VPN для Android
+### AdGuard VPN для Android
 
 Если у вас возникли проблемы с Google Play, скачайте APK-файл [с зеркального сайта AdGuard VPN](https://adguardvpn-help.com/android/overview.html).
 
@@ -54,6 +54,6 @@ sidebar_position: 10
 
 - Если вы используете AdGuard VPN вместе с Блокировщиком AdGuard на мобильных устройствах, убедитесь, что в Исключениях выбран *Основной* режим, в Режиме работы — *VPN*.
 
-- Если у вас проблемы с подключением, не включайте *Использовать QUIC* в *Расширенных* настройках.
+- Если у вас проблемы с подключением, не включайте *Использовать QUIC* *в Расширенных настройках*.
 
 Если ничего не помогает, не стесняйтесь обращаться за помощью в поддержку по адресу support@adguard-vpn.com.

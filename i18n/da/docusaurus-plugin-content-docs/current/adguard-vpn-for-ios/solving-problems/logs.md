@@ -3,7 +3,7 @@ title: Sådan indsamles og indsendes logfiler
 sidebar_position: 2
 ---
 
-Opleves problemer under brug af AdGuard VPN til iOS, kan vi informeres herom ved indsendelse af app-logfiler.
+If you encounter any problems while using AdGuard VPN for iOS, you can inform us about it by sending the app logs.
 
 ## Indsamling og indsendelse af standardlogfiler
 

@@ -10,11 +10,11 @@ slug: /
 
 VPNを利用すると、インターネット上の別のネットワークに安全な接続を確立することができます。
 
-Initially, VPNs were created to securely connect business networks over the Internet, so that people could connect to the corporate network from home. この技術は、例えば、匿名でインターネットを閲覧したり、公共のWi-Fiを利用する際にネット上の行動を監視から保護したりと、他にもさまざまなことに利用されています。
+Initially, VPNs were created to securely connect business networks over the Internet, so that people could connect to the corporate network from home. Today, this technology is used for many other things: for example, to browse the Internet anonymously or to protect your online activity from prying eyes while using public Wi-Fi.
 
-VPNは、ユーザーのパソコンやスマホをVPNサーバーに接続し、他人のIPアドレスを使ってネットを閲覧できるようにします。 したがって、第三者はユーザーの実際のIPアドレスを見ることができず、追跡はほぼ不可能になります。
+A VPN connects a user's computer or mobile device to a server and allows one to browse the net using a "cover" IP address. したがって、第三者はユーザーの実際のIPアドレスを見ることができず、追跡はほぼ不可能になります。
 
-VPNといえば、まずトラフィックの暗号化とそこから派生するセキュリティが挙げられます。 しかし、それはどういう意味なのでしょうか？ VPNは、ユーザーの端末とVPNサーバーの間に暗号化トンネルを作成します。 すべてのインターネットトラフィックはこのトンネルを通過することによって、データ・個人情報は保護されます。 外部の第三者にとっては、あなたのトラフィックはVPNサーバーから出るので、あなたの端末がこのVPNサーバーのIPアドレスを持っているように見えます。 これにより、ユーザーの身元や本当の居場所を隠すことができるのです。
+The first thing that users mention in relation to VPN is traffic encryption and the security derived from it. しかし、それはどういう意味なのでしょうか？ VPNは、ユーザーの端末とVPNサーバーの間に暗号化トンネルを作成します。 すべてのインターネットトラフィックはこのトンネルを通過することによって、データ・個人情報は保護されます。 外部の第三者にとっては、あなたのトラフィックはVPNサーバーから出るので、あなたの端末がこのVPNサーバーのIPアドレスを持っているように見えます。 これにより、ユーザーの身元や本当の居場所を隠すことができるのです。
 
 VPNは次の目的で使用できます:
 

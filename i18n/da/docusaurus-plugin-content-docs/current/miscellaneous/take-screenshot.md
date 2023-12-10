@@ -30,7 +30,7 @@ Fra Android 8 kan et skærmfoto også tages ved at placere kanten af en åben h�
 
 Fungerer metoden ikke, tjek *Indstillinger* → *Avancerede funktioner* → *Bevægelser og fagter* → aktivér *Stryg håndkant for skærmfoto*.
 
-Derudover kan der altid bruges særlige skærmfoto-apps, f.eks. *Screenshot Easy*, *Screenshot Ultimate*, *Screenshot Snap* mv.
+Besides, you can always use any special apps for taking screenshots on your devices, for example — *Screenshot Easy*, *Screenshot Ultimate*, *Screenshot Snap*, etc.
 
 ### iOS
 
@@ -48,11 +48,15 @@ iOS fotograferer hele skærmen og gemme den som et foto. Det kan herefter findes
 
 ### Windows
 
-- **Tryk på tasten *PrtScn* for at tage et skærmfoto i Windows**
+- **To take a screenshot on a Windows device, press the *PrtScn* button**
 
-På nogle bærbare skal knappen *Fn* holdes nede, før der trykkes på *PrtScn*.
+On some devices, you first have to press and hold *Fn* before pressing *PrtScn*.
 
-*Bemærk, at knappen PrtScn (Print Screen) forkortes forskelligt på forskellige tastaturer — PrntScrn, PrtScn, PrtScr eller PrtSc.*
+:::note
+
+PrtScn (Print Screen) can be differently abbreviated on various keyboards — PrntScrn, PrtScn, PrtScr or PrtSc.
+
+:::
 
 Windows fotograferer hele skærmen og kopierer den til udklipsholderen.
 
@@ -64,17 +68,17 @@ Brug flg. kombination for at tage et skærmfoto af et bestemt område:
 
 - ***Hold knapperne *Win* (Windows-knappen) samt *Shift* nede, og tryk på ***S******
 
-Når skærmfotoet er taget, gemmes det i udklipsholderen. Normalt vil det derefter kunne indsættes i f.eks. et dokument vha. standardknapkombinationen *Ctrl + V*. Ved behov for at gemme skærmfotoet i en fil, åbn standardprogrammet **Paint** (eller ethvert andet billedbehandlingsprogram). Indsæt skærmfotoet i Paint vha. samme standardknapkombination eller ved at klikke på Indsæt-knappen (normalt øverst til venstre) og derefter gemme det.
+Når skærmfotoet er taget, gemmes det i udklipsholderen. Usually, you will then be able to paste it into a document using the standard button combination *Ctrl + V*. Ved behov for at gemme skærmfotoet i en fil, åbn standardprogrammet **Paint** (eller ethvert andet billedbehandlingsprogram). Indsæt skærmfotoet i Paint vha. samme standardknapkombination eller ved at klikke på Indsæt-knappen (normalt øverst til venstre) og derefter gemme det.
 
 I Windows 8 og 10 kan skærmfoto tages meget hurtigt med *Win + PrtScn*-kombinationen. Så snart der trykkes på disse taster, gemmes skærmfotoet automatisk som en billedfil i mappen Billeder → Screenshots.
 
-Der er også et dedikeret program til brug for skærmfotos kaldet *Snipping Tool*, tilgængeligt via Start-menuen blandt computerens standardprogrammer. Med Snipping Tool kan ethvert skrivebordsområde eller hele skærmen knipses. Efter at have taget et skærmfoto med dette program, kan fotoet f.eks. redigeres og gemmes lokalt eller eksternt.
+Der er også et dedikeret program til brug for skærmfotos kaldet *Snipping Tool*, tilgængeligt via Start-menuen blandt computerens standardprogrammer. Med Snipping Tool kan ethvert skrivebordsområde eller hele skærmen knipses. After taking a screenshot using this program you can edit the picture and then save it.
 
 Man kan også afprøve forskellige apps til at tage computerskærmfotos, såsom **PicPick**, **Nimbus Screenshot**, **Screenshot Captor**, **Snipaste**, **Monosnap** mv.
 
 ### macOS
 
-Brug flg. knapkombination for at tage et skærmfoto på en Mac:
+To take a screenshot on a Mac device, use the following button combination:
 
 - ***Tryk og hold på ***⌘ Cmd + Shift + 3*** samtidigt***
 

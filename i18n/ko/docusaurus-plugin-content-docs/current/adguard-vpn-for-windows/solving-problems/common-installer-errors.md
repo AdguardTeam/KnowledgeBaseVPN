@@ -3,13 +3,13 @@ title: 일반적인 설치 프로그램 오류
 sidebar_position: 2
 ---
 
-이 문서에서는 Windows용 AdGuard VPN을 설치하는 동안 발생할 수 있는 오류와 해결 방법을 확인할 수 있습니다.
+This article outlines some of the most common errors you may encounter while installing AdGuard VPN for Windows and possible ways to resolve them.
 
 ### 오류 5: 액세스 거부 {#error-5}
 
-이 오류는 권한에 문제가 있을 때 발생합니다. AdGuard VPN 설치 프로그램에 설치 프로세스를 제대로 완료하는 데 필요한 권한이 없는 데는 여러 가지 이유가 있을 수 있습니다. 다음 단계를 시도하세요.
+This error message appears if required permissions are not granted. AdGuard VPN 설치 프로그램에 설치 프로세스를 제대로 완료하는 데 필요한 권한이 없는 데는 여러 가지 이유가 있을 수 있습니다. 다음 단계를 시도하세요.
 
-- 바이러스 백신을 일시적으로 비활성화하세요. 일부 바이러스 백신은 설치를 방해할 수 있습니다.
+- 바이러스 백신을 일시적으로 비활성화하세요. Some of them may interfere with the installation, depending on the restrictiveness of their settings.
 
 - 다른 설치 폴더를 선택하세요. 현재 설치 폴더에 일부 액세스 제한이 있을 수 있습니다. 또한 외장 드라이브, 가상 드라이브 등을 선택하지 않았는지 확인하세요.
 
@@ -34,8 +34,8 @@ You could say this is a particular subtype of Error 1603. The possible solutions
     1. Press *Win + R* and enter **services.msc**.
     1. Find in the list and double click *Windows Installer*.
     1. Hit *Start* button under *Service status* and hit *OK*. If the service status is **running**, you should click *Stop* first and then hit *Start*.
-    1. Press *Win + R*, type and enter ***msiexec /unregister*** and hit *Enter*.
-    1. Press *Win + R* again, type and enter ***msiexec /regserver*** and hit *Enter*
+    1. Press *Win + R*, type and enter **msiexec /unregister** and hit *Enter*.
+    1. Press *Win + R* again, type and enter **msiexec /regserver** and hit *Enter*
 
 - Reboot the PC and start the installation all over again. Sometimes that's enough to fix the problem.
 
@@ -51,7 +51,7 @@ If you got this error code, chances are you have interrupted the installation pr
 
 ### Error 1603: Fatal error during installation {#error-1603}
 
-The error sounds scarier than it actually is. In reality, this is a rather generic error that can have many different causes, and some of them are easily fixed. Try the following solutions:
+This error sounds more worrying than it actually is. In reality, this is a rather generic error that can have many different causes, and some of them are easily fixed. Try the following solutions:
 
 - Press the *Win* key, search for *Command Prompt*, and run it. There, type in `sfc /scannow` and press *Enter*.
 
@@ -61,11 +61,11 @@ The error sounds scarier than it actually is. In reality, this is a rather gener
 
 - Start and re-register Microsoft Installer service. It requires some work.
 
-    1. Press *Win + R* and enter ***services.msc***.
+    1. Press *Win + R* and enter **services.msc**.
     1. Find in the list and double click *Windows Installer*.
     1. Hit *Start* button under *Service status* and hit *OK*. If the service status is **running**, you should click *Stop* first and then hit *Start*.
-    1. Press *Win + R*, type and enter ***msiexec /unregister*** and hit *Enter*.
-    1. Press *Win + R* again, type and enter ***msiexec /regserver*** and hit *Enter*
+    1. Press *Win + R*, type and enter **msiexec /unregister** and hit *Enter*.
+    1. Press *Win + R* again, type and enter **msiexec /regserver** and hit *Enter*
 
 - Acquire full permissions on the drive for installation. It is possible that the error 1603 occurs because you don’t have full permissions on the file location. It's also not as easy as some of the other solutions:
 
@@ -81,17 +81,17 @@ The error sounds scarier than it actually is. In reality, this is a rather gener
 
 ### Error 1618: Another installation is already in progress {#error-1618}
 
-This error occurs when there are several instances of AdGuard VPN installer launched at the same time. What to do if you get this error:
+This error appears when trying to run multiple instances of the AdGuard VPN installer simultaneously. What to do if you get this error:
 
 - Reboot your PC and start the installer again. When you restart the computer, all ongoing processes will stop, including all copies of the installer.
 
-- Do not make multiple clicks on the installer even if it doesn't start right away. Sometimes it may take a few seconds to display the installer UI.
+- Don't click multiple times on the installer, even if it doesn't start right away. Sometimes it may take a few seconds to display the installer UI.
 
 ### Error 1638: Another version of this product is already installed {#error-1638}
 
 It's very likely that you've already installed AdGuard VPN before.
 
-- Check if AdGuard VPN is already installed on your computer. You can do it by pressing the *Win* key and typing in ***AdGuard VPN***.
+- Check if AdGuard VPN is already installed on your computer. You can do that by pressing the *Win* key and start typing *adguard vpn*.
 
 - Maybe there are some leftover files from a previous AdGuard VPN installation. Uninstall AdGuard using our special [uninstall tool](/adguard-vpn-for-windows/installation#advanced) and then repeat the installation.
 
@@ -101,6 +101,6 @@ If you have encountered an error that's not listed above, it is possible that we
 
 - Find and archive **AdGuard VPN installation logs** in the same way that is described in [this article](https://adguard.com/kb/adguard-for-windows/solving-problems/installation-logs/).
 
-- Find and save to disk **Event Viewer** logs. [This article](https://adguard.com/kb/adguard-for-windows/solving-problems/system-logs/) explains how to do that.
+- Find and save to disk the **Event Viewer** logs. [This article](https://adguard.com/kb/adguard-for-windows/solving-problems/system-logs/) explains how to do that.
 
 Please email all these files from the two previous steps at **support@adguard.com** and describe the problem in the message body. Our support team will reply to you as soon as possible.

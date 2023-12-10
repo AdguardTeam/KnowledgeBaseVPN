@@ -7,21 +7,29 @@ AdGuard VPN za Mac je VPN usluga na radnoj površini. AdGuard VPN je u potpunost
 
 Imajte na umu da **ne možete da koristite AdGuard VPN za Mac osim ako se niste prijavili na svoj AdGuard nalog**. Možete da se prijavite pomoću svog AdGuard naloga ili sa spoljašnjim nalogom, tačnije preko Apple-a, Google-a ili Facebook-a. Uverite se da je vaš spoljni nalog povezan sa istom e-adresom kao i vaš AdGuard nalog. Ako postoji odgovarajuća pretplata na vašem AdGuard nalogu, ona će biti automatski aktivirana na aplikaciji radne površine. Još uvek nemate AdGuard nalog? Kreirajte ga [Ovde](https://auth.adguard.com/registration.html).
 
-> AdGuard VPN za Mac je trenutno podržan na macOS verzijama počev od macOS Catalina (10.15).
+:::note Compatibility
+
+AdGuard VPN za Mac je trenutno podržan na macOS verzijama počev od macOS Catalina (10.15).
+
+:::
 
 ## Početni ekran
 
-![Početni ekran](https://cdn.adguardvpn.com/content/kb/vpn/mac/main_en.png)
+![Home screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/main_en.png)
 
-Prva kartica je *Početni* Ekran. Ovde možete videti AdGuard VPN trenutni status i [režim isključenja](#exclusions), odabranu lokaciju (ako je omogućen) i njen ping. Ping je vreme odziva VPN servera. Shodno tome, što je ovaj broj manji, veza je brža. Ako je VPN onemogućen, ispod će biti prikazana poslednja lokacija sa kojom ste se povezali. Najbrže lokacije sa najnižim pingovima prikazane su u gornjem desnom uglu ekrana. U nastavku možete videti kompletnu listu lokacija. Putem funkcije pretrage, potrebna lokacija se može lako pronaći.
+Prva kartica je *Početni* Ekran. Ovde možete videti AdGuard VPN trenutni status i [režim isključenja](#exclusions), odabranu lokaciju (ako je omogućen) i njen ping. Ping je vreme odziva VPN servera. Consequently, the lower this number, the faster the connection. Ako je VPN onemogućen, ispod će biti prikazana poslednja lokacija sa kojom ste se povezali. Najbrže lokacije sa najnižim pingovima prikazane su u gornjem desnom uglu ekrana. U nastavku možete videti kompletnu listu lokacija. Putem funkcije pretrage, potrebna lokacija se može lako pronaći.
 
-> Korisnici besplatne verzije mogu da se povežu samo sa određenim lokacijama, dok su druge blokirane. Osim toga, u besplatnoj verziji postoji ograničenje saobraćaja od 3 GB mesečno.
+:::note
+
+Korisnici besplatne verzije mogu da se povežu samo sa određenim lokacijama, dok su druge blokirane. Osim toga, u besplatnoj verziji postoji ograničenje saobraćaja od 3 GB mesečno.
+
+:::
 
 ## Izuzeci
 
 ![Izuzeci](https://cdn.adguardvpn.com/content/kb/vpn/mac/exclusions_en.png)
 
-Sledeće ide *Izuzeci* Ekran. AdGuard VPN ima nekoliko funkcija koje ga čine jedinstvenim, a jedna od njih je svakako prebacivanje između dva režima izuzetaka. U opštem režimu, AdGuard VPN će raditi na svim veb lokacijama osim na onima sa liste izuzetaka. U selektivnom režimu, obrnuto, AdGuard VPN će raditi samo na Veb lokacijama sa liste izuzetaka. Vi sami možete da odlučite gde želite da VPN radi.
+AdGuard VPN has several features that make it unique, and one of them is definitely *Exclusions*. By default, AdGuard VPN will run on all websites and in all apps but the ones from the exclusions list. But you can switch to the other mode, so AdGuard VPN will run only on websites and in apps from the exclusions list.
 
 ![Ekran "Izuzetaka"](https://cdn.adguardvpn.com/content/kb/vpn/mac/services_en.png)
 
@@ -38,7 +46,9 @@ Ako ste dodali uslugu, promenili ili uklonili nešto i sada želite da vratite p
 3. Prilikom prenosa između različitih uređaja, ne zaboravite da pošaljete `..zip` datoteku na uređaj radi uvoza. Na primer, ako uvozite liste izuzetaka iz Mac računara na iPhone, obavezno pošaljite `..zip` datoteku na telefon unapred.
 4. Otvorite AdGuard VPN na uređaju/u pregledniku gde želite da uvezete arhivu sa spremnim listama izuzetaka. Pronađite odgovarajući odeljak, kliknite na *Uvoz* i izaberite arhivu. Gotovo!
 
-> Datoteke arhive sa drugih uređaja mogu biti slično uvezene u AdGuard VPN za Mac.
+:::note Archive files from other devices can be similarly imported to your AdGuard VPN for Mac.
+
+:::
 
 ## Podrška
 
@@ -58,23 +68,21 @@ Konačno, dolazimo na karticu "Postavke". U *Osnovni podaci o programu* možete 
 
 Prve četiri osnovne funkcije čine aplikaciju pogodnijim i prilagođenijim korisniku, pa naime. *Prekidač za ubijanje*, *Automatsko ažuriranje*, *Pokrenite AdGuard VPN pri uključivanju*I *Automatsko povezivanje pri pokretanju aplikacije*. Šta više, možete da birate između svetlih, tamnih i sistemskih tema – ova druga se podudara sa temom na vašem Mac računaru.
 
-Još jedna opcija koju ne treba zanemariti je da možete dozvoliti AdGuard VPN-u da prikuplja i šalje anonimne izveštaje o padu, tehničke i interakcijske podatke kako bi nam pomogao da poboljšamo našu aplikaciju. Na kraju, ali ne i najmanje važno, zahvaljujući dugmetu sa desne strane, možete da izvezete evidencije u svoj Mac. Ovo može biti korisno ako želite da priložite evidencije u vašu poruku koju šaljete podršci.
+You can also allow AdGuard VPN to gather and send anonymized crash reports, technical and interaction data in order to help us improve our app. Last but not least, you can export logs from your Mac. Ovo može biti korisno ako želite da priložite evidencije u vašu poruku koju šaljete podršci.
 
 ### DNS serveri
 
 ![DNS serveri](https://cdn.adguardvpn.com/content/kb/vpn/mac/dns_en.png)
 
-Ovde možete dodati prilagođeni DNS server (ili servere) da se ne biste podrazumevano oslanjali na DNS server koji obezbeđuje dobavljač Internet usluga. Preporučujemo dodavanje AdGuard DNS-a, koji ne samo da šifruje vaš DNS saobraćaj već i identifikuje zahteve ka zlonamernim sajtovima i preusmerava ih na "crnu rupu".
+Ovde možete dodati prilagođeni DNS server (ili servere) da se ne biste podrazumevano oslanjali na DNS server koji obezbeđuje dobavljač Internet usluga. We recommend adding AdGuard DNS, which not only encrypts your DNS traffic but also identifies requests to malicious websites and redirects them to a “blackhole”.
 
 ### Napredne postavke
 
 ![Napredne postavke](https://cdn.adguardvpn.com/content/kb/vpn/mac/advanced-settings_en.png)
 
-Ne preporučuje se menjanje naprednih postavki. Ne menjajte ih osim ako to od vas nije tražila naša tehnička podrška ili ako niste sigurni šta radite.
-
 #### Nivo vođenja evidencije
 
-Postoje samo dva nivoa vođenja evidencije, ali preporučujemo da koristite prvi, podrazumevani. Drugu opciju (produženo evidentiranje) treba postaviti samo da bi se zabeležilo čudno ponašanje programa nakon konsultacija sa našom tehničkom podrškom. Čak i ako ste omogućili drugi nivo vođenja evidencije, uverite se da ste se vratili na podrazumevani nivo nakon snimanja evidencija.
+Postoje samo dva nivoa vođenja evidencije, ali preporučujemo da koristite prvi, podrazumevani. Drugu opciju (produženo evidentiranje) treba postaviti samo da bi se zabeležilo čudno ponašanje programa nakon konsultacija sa našom tehničkom podrškom. If you have enabled the extended logging level, make sure to switch to the default one after recording logs.
 
 #### Sakrij ikonu trake sa menijima
 

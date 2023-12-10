@@ -30,7 +30,7 @@ Další informace o [DNS serverech od různých poskytovatelů](https://adguard-
 
 ## Výjimky
 
-Další karta obsahuje jednu z hlavních charakteristických funkcí AdGuard VPN – dva režimy se samostatnými seznamy výjimek.
+Další karta obsahuje jednu z hlavních charakteristických funkcí AdGuard VPN — dva režimy se samostatnými seznamy výjimek.
 
 V **Obecném režimu** funguje AdGuard VPN ve výchozím nastavení na všech webových stránkách s výjimkou těch, které jste přidali do seznamu výjimek. V **Selektivním režimu** naopak AdGuard VPN ve výchozím nastavení nefunguje nikde. Do seznamu výjimek můžete přidat všechny webové stránky, na kterých chcete, aby to fungovalo, odděleně od seznamu, který jste viděli v **Obecném režimu**.
 

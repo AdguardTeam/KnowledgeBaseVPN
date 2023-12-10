@@ -17,11 +17,11 @@ De este modo, una VPN cumple dos importantes funciones:
 
     Using an Internet connection, the user leaves their digital footprint, which can then be analyzed and used by third parties. For example, one of the online stores that you have visited can save your search history and then offer you their products based on it through targeted advertising. Or the secret services, having learned your location through the IP address of your device and having determined your identity, can secretly monitor your activity on the web. In addition, web browsers and ISPs themselves can use your browsing history for their own purposes, as well as sell it to advertisers and provide it to government institutions. VPN allows you to hide your IP address and replace it with the IP address of the VPN server to which you are connected. This way you will be able to maintain your privacy and anonymously search for information on the web.
 
-1. **Data protection** If you connect to an unreliable or public network, the data on your device may become vulnerable to cybercriminals. Detalles de tarjetas bancarias, nombres de usuario y contraseñas, datos de pasaporte: todos estos datos pueden ser interceptados por estafadores online. El túnel VPN encripta la información que envías y recibes de la web, para que no pueda caer en manos equivocadas.
+1. **Data protection** If you connect to an unreliable or public network, the data on your device may become vulnerable to cybercriminals. Detalles de tarjetas bancarias, nombres de usuario y contraseñas, datos de pasaporte: todos estos datos pueden ser interceptados por estafadores online. The VPN tunnel encrypts the information you send to and receive from the Web, making it useless in the wrong hands.
 
 ## Estructura de VPN
 
-Cuando se conecta a una red, a su computadora o dispositivo móvil se le asigna un número de identificación único, más conocido como dirección IP. Suele estar formado por números del 0 al 255, separados por puntos o dos puntos. Conociendo esta secuencia, se puede determinar la geolocalización del dispositivo. La dirección IP generalmente es establecida por su ISP, y será visible hasta el recurso deseado. Por esta razón, el servidor web del sitio que está visitando puede registrar su dirección IP y grabar lo que ha solicitado. Este registro se puede utilizar principalmente para la recopilación de datos y el análisis del tráfico.
+Cuando se conecta a una red, a su computadora o dispositivo móvil se le asigna un número de identificación único, más conocido como dirección IP. Suele estar formado por números del 0 al 255, separados por puntos o dos puntos. Conociendo esta secuencia, se puede determinar la geolocalización del dispositivo. The IP address is usually assigned by your ISP, and it will be visible all the way to the desired resource. Por esta razón, el servidor web del sitio que está visitando puede registrar su dirección IP y grabar lo que ha solicitado. Este registro se puede utilizar principalmente para la recopilación de datos y el análisis del tráfico.
 
 Una VPN crea un túnel entre su dispositivo y el servidor VPN. Tus datos pasan por este túnel, se encriptan y luego entran en la Internet abierta de forma segura. Por lo tanto, al servidor web le parecerá que su dispositivo ya no tiene su dirección IP real, sino la dirección IP del punto final del túnel, es decir, el servidor VPN. Por lo tanto, el sitio al que llegue después de pasar por el túnel VPN considerará la geolocalización del servidor VPN que haya seleccionado como su ubicación real. Y los datos encriptados no caerán en manos de anunciantes, hackers y servicios de seguridad.
 
@@ -29,7 +29,7 @@ Una VPN crea un túnel entre su dispositivo y el servidor VPN. Tus datos pasan p
 
 ## Tipos de protocolos VPN
 
-Los protocolos de seguridad de las VPN son herramientas que cifran los datos en un túnel VPN y permiten mantener la privacidad del usuario en una Internet abierta. Por el momento, la gran mayoría de los servicios VPN modernos utilizan uno de los siguientes tres protocolos VPN:
+VPN security protocols are tools that encrypt data in a VPN tunnel and allow you to maintain user privacy in the open Internet. Por el momento, la gran mayoría de los servicios VPN modernos utilizan uno de los siguientes tres protocolos VPN:
 
 1. [*IPSec*](https://en.wikipedia.org/wiki/IPsec). Una de sus principales ventajas es que está disponible en la mayoría de dispositivos y sistemas operativos y proporciona un alto nivel de seguridad. Sin embargo, el uso de la doble [encapsulación](https://en.wikipedia.org/wiki/Encapsulation_(networking)) en este protocolo puede dar lugar a una menor velocidad de conexión.
 
@@ -47,15 +47,15 @@ Despite the obvious advantages, VPN is not perfect and has some disadvantages:
 
 ### Menor velocidad
 
-Since your traffic does not go directly to the web server, but first passes through the VPN server, the speed of the VPN connection decreases. Other factors also affect the speed when using a VPN: the load of the VPN server, its bandwidth, the compatibility of the VPN protocol with your operating system. All these factors, as well as the speed of the network itself, can reduce the quality of your VPN connection.
+Since your traffic does not go directly to the web server, but first passes through the VPN server, the speed of the VPN connection decreases. Other factors also affect the speed when using a VPN: the load of the VPN server, its bandwidth, the compatibility of the VPN protocol with your operating system. All these factors, as well as the speed of the network itself, may impact the overall user experience of a VPN connection.
 
 ### Bloqueo de acceso
 
-Some online services make a lot of effort to detect VPN traffic and block access to VPN users. However, not many VPNs can mask their traffic as regular. Therefore, many attempts to go to a particular website without disabling VPN end up in nothing.
+Some online services make a lot of effort to detect VPN traffic and block access to VPN users. However, not many VPNs can mask themselves in such a way that they are only seen as regular traffic. Therefore, many attempts to go to a particular website without disabling VPN end up in nothing.
 
 ### Ruptura de conexiones VPN
 
-A weak signal, network overload, VPN incompatibility with a firewall, antivirus and other programs, an outdated VPN protocol — all this can cause a sudden failure in the VPN connection, especially by unreliable VPN providers.
+A weak signal, network overload, VPN incompatibility with a firewall, antivirus and other programs, an outdated VPN protocol — all this can cause a sudden failure in the VPN connection, especially with unreliable VPN providers.
 
 ## AdGuard VPN
 

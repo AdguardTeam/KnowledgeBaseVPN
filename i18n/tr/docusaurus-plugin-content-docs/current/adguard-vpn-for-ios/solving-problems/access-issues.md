@@ -10,7 +10,7 @@ Bazı kullanıcılar App Store üzerinden satın aldıkları AdGuard VPN aboneli
 
 Bu sorunu çözmek için lütfen şu adımları takip edin:
 
-1. Ayarlar → Apple Kimliği → iTunes & App Store → Apple Kimliğini Görüntüle öğesine gidin
+1. Go to Settings → Apple ID → Media & Purchases → View Apple ID
 1. E-posta adresinin, Apple Kimliğiniz için kullandığınız adresle eşleştiğinden emin olun
 1. E-posta adresleri uyuşmuyorsa, lütfen `support@adguard.com` adresine e-posta gönderin: sorununuzu açıklayın ve App Store için kullanılan adresi bize bildirin
 1. E-posta adresleri eşleşirse, Apple Kimliği → iCloud → E-postamı Gizle öğesine gidin, listede uygulamamızı bulun, e-posta adresini kopyalayın ve sorun açıklamanızla birlikte `support@adguard.com` adresine gönderin. Genellikle "@privaterelay.appleid.com" ile biter

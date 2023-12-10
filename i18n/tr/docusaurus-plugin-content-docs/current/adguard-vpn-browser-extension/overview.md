@@ -30,7 +30,7 @@ DNS sunucularını çeşitli sağlayıcılardan [hakkında daha fazla bilgi edin
 
 ## İstisnalar
 
-Bir sonraki sekme, AdGuard VPN'in ana ayırt edici özelliklerinden birini içerir – ayrı istisna listelerine sahip iki mod.
+The next tab contains one of the main distinctive features of AdGuard VPN — two modes with separate exclusion lists.
 
 **Genel modda**, AdGuard VPN varsayılan olarak istisna listelerine eklediğiniz siteler dışında tüm sitelerde çalışır. **Seçici modda** tam tersi, AdGuard VPN varsayılan olarak hiçbir yerde çalışmaz. **Genel modda** gördüğünüzden ayrı olarak, çalışmasını istediğiniz siteleri bir istisna listesine ekleyebilirsiniz.
 

@@ -5,7 +5,7 @@ sidebar_position: 1
 
 ## Android용 AdGuard VPN이란 무엇인가요?
 
-VPN은 인터넷을 사용할 때 보안과 익명성을 제공하는 도구입니다. [How does it work?](/general/how-vpn-works) Without going into technical details, we can say that VPN creates a secure encrypted tunnel between the user's computer or mobile device and a remote VPN server. 따라서 실제 사용자 IP가 아닌 VPN 서버의 IP 주소가 표시되기 때문에 데이터 기밀성과 사용자 익명성이 유지됩니다.
+VPN은 인터넷을 사용할 때 보안과 익명성을 제공하는 도구입니다. [How does it work?](/general/how-vpn-works) Without going into technical details, we can say that VPN creates a secure encrypted connection (called a tunnel) between a user's device and a remote VPN server. 따라서 실제 사용자 IP가 아닌 VPN 서버의 IP 주소가 표시되기 때문에 데이터 기밀성과 사용자 익명성이 유지됩니다.
 
 **VPN은 다음과 같은 목적으로 자주 사용됩니다.**
 
@@ -21,9 +21,9 @@ Android용 AdGuard VPN은 모든 일반 기능뿐만 아니라 여러 고유한 
 
 ## 메인 화면
 
-기본 화면에는 애플리케이션 상태(연결됨/연결 해제됨)와 선택한 예외 목록 작동 모드([일반/선별 모드](#lists-of-exclusions))를 반영하는 두 줄이 있습니다. 같은 화면에는 *연결/연결 해제* 버튼과 사용 가능한 서버 목록도 있습니다.
+The main screen reflects the VPN status (Connected/Disconnected). There are also the *Connect/Disconnect* button and a list of available servers.
 
-서버의 위치와 핑 속도는 각 서버 옆에 표시됩니다. 핑 속도는 서버의 응답 시간을 나타냅니다. 이 속도가 낮을수록 연결 속도가 빨라집니다. 가장 빠른 서버는 항상 목록 맨 위에 표시됩니다. *연결/연결 해제* 버튼을 누르거나 위치를 선택하여 가장 빠른 서버에 연결할 수 있습니다.
+서버의 위치와 핑 속도는 각 서버 옆에 표시됩니다. 핑 속도는 서버의 응답 시간을 나타냅니다. The lower this rate, the faster the connection. The fastest servers always appear at the top of the list that consists of more than 50 locations in dozens of countries. You can connect to the fastest server by tapping the *Connect* button or by picking a location.
 
 ## 예외
 
@@ -31,9 +31,11 @@ AdGuard VPN이 선택한 곳에서만 작동하도록 사이트 및 앱 예외 �
 
 ### 예외 목록
 
-예외 목록을 사용하면 VPN이 작동할 사이트와 작동하지 않을 사이트를 선택할 수 있습니다. *예외* 섹션에 도달하려면 화면 하단 왼쪽에서 두 번째 아이콘을 누르세요.
+#### For websites
 
-AdGuard VPN에는 두 가지 모드가 있습니다. *일반 모드*에서는 VPN이 예외 목록의 사이트에서 작동하지 않으며 *선별 모드*에서는 AdGuard VPN이 예외 목록의 사이트에서만 작동합니다.
+Exclusion lists allow you to manage the VPN connection for specific websites and apps. To access *Exclusions*, tap the second icon from the left at the bottom of the screen. *예외* 섹션에 도달하려면 화면 하단 왼쪽에서 두 번째 아이콘을 누르세요.
+
+There are two modes: in *General mode*, websites from the list of exclusions are excluded, and in *Selective mode*, they will be the only ones where AdGuard VPN works.
 
 세 가지 방법으로 웹사이트의 도메인(예: `google.com`) 또는 하위 도메인(예: `*.google.com`)을 *예외 목록*에 추가할 수 있습니다. 첫 번째 방법은 앱에 수동으로 입력하는 것입니다. 두 번째 방법은 *공유 버튼*을 클릭하고 아래 열린 목록에서 AdGuard VPN을 선택하여 브라우저에서 바로 도메인 또는 하위 도메인을 추가하는 것입니다. 또한 범주별로 구분된 서비스 목록에서 예외 목록에 도메인 및 하위 도메인을 추가할 수 있습니다.
 
@@ -45,26 +47,32 @@ AdGuard VPN에는 두 가지 모드가 있습니다. *일반 모드*에서는 VP
 
 :::
 
-서비스 목록에서 하위 도메인을 비활성화할 수 있으므로 각 서비스의 상태를 표시하는 아이콘을 추가했습니다. 아이콘은 각 서비스 이름 왼쪽의 기본 *예외* 화면에서 볼 수 있습니다. **완전히 활성화됨**은 녹색 배경에 흰색 확인 표시로, **완전히 비활성화됨**은 회색 사각형으로, **부분적으로 활성화됨**(하나 이상의 설정이 변경되었음을 나타냄)은 흰색 배경에 녹색 사각형으로 표시됩니다. 그러나 목록에서 도메인을 삭제하거나 비활성화한 경우, 서비스 목록의 기본 보기로 언제든지 돌아갈 수 있습니다.
+As you can enable subdomains in service lists, we added boxes that reflect the status of each service — you can see them on the main screen of *Exclusions* to the left of each service name:
+
+- **Fully enabled** is indicated by a white check mark on a green background
+- **Partially enabled** (enabled subdomains without the main domain) is marked with a green square on a white background
+- **Fully disabled** is marked with a blank checkbox
+
+ 그러나 목록에서 도메인을 삭제하거나 비활성화한 경우, 서비스 목록의 기본 보기로 언제든지 돌아갈 수 있습니다.
 
 ![Exclusions *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/statuses.png)
 
 또 다른 유용한 기능은 *예외 목록 가져오기/내보내기*입니다. 이 기능을 사용하려면 4단계만 수행하면 됩니다.
 
 1. 예외 목록을 내보내려는 브라우저/기기에서 AdGuard VPN을 엽니다. 해당 섹션을 찾아 *내보내기* 버튼을 클릭합니다. `adguard_vpn_exclusions.zip` 파일이 다운로드됩니다.
-2. ZIP 파일 내부에는 *일반* 및 *선별* 목록 각각에 대해 하나씩 두 개의 `.txt` 파일이 있습니다. 제외 항목을 더 추가하거나, 기존 항목을 삭제하거나, 파일 이름을 바꾸거나, ZIP 파일을 그대로 둡니다.
+2. There are two `.txt` files inside the archive, one for each of the lists. 제외 항목을 더 추가하거나, 기존 항목을 삭제하거나, 파일 이름을 바꾸거나, ZIP 파일을 그대로 둡니다.
 3. 다른 기기 간에 전송할 때 가져오기를 위해 `.zip` 파일을 기기로 보내는 것을 잊지 마십시오. 예를 들어, Windows 기기에서 Android로 예외 목록을 가져오는 경우, 미리 `.zip` 파일을 Android로 보내야 합니다.
 4. 예외 목록이 있는 ZIP 파일을 가져오려는 기기에서 AdGuard VPN을 엽니다. 해당 섹션을 찾아 *가져오기* 버튼을 클릭하고 ZIP 파일을 선택합니다.
 
 ![Import/Export *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/imp-exp.png)
 
-### 앱 설정
+#### For apps
 
-웹 사이트뿐만 아니라 앱도 예외 목록에 추가될 수 있습니다. AdGuard VPN이 작동할 애플리케이션과 작동하지 않을 애플리케이션을 선택합니다. 화면 하단의 *예외 목록* 아이콘 옆에 있는 아이콘을 탭하여 앱 설정을 엽니다. 기본적으로 AdGuard VPN은 모든 앱에서 작동하지만 목록의 모든 앱 옆에 있는 슬라이더를 전환하고 AdGuard VPN을 비활성화할 수 있습니다.
+웹 사이트뿐만 아니라 앱도 예외 목록에 추가될 수 있습니다. Choose for which apps you need AdGuard VPN and for which you don't. By default, AdGuard VPN works for all apps, but you can easily switch to the other mode.
 
-AdGuard와의 *호환성 모드*가 활성화된 경우, AdGuard 광고 차단기를 통해서만 앱을 관리할 수 있습니다. 그래서 버튼을 탭하면 AdGuard 앱이 열립니다.
+In *Integrated mode*, you can only manage apps through AdGuard Ad Blocker.
 
-![Apps settings *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/apps_settings.png)
+![App exclusions *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/apps_settings.png)
 
 ## 설정
 
@@ -78,7 +86,7 @@ AdGuard와의 *호환성 모드*가 활성화된 경우, AdGuard 광고 차단�
 
 ### DNS 서버
 
-DNS(Domain name system, [도메인 이름 시스템](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns))의 목적은 DNS 서버를 통해 웹 사이트 이름을 IP 주소로 변환하는 것입니다. IP 주소로 변환하는 것입니다. Android용 AdGuard VPN은 각각 특별한 품질을 가진 여러 DNS 서버를 제공합니다. 예를 들어, [AdGuard DNS](https://adguard-dns.io/kb/)는 광고를 제거하고 기기가 추적되지 않도록 보호하며 AdGuard DNS 자녀 보호는 AdGuard DNS, 세이프 서치 및 성인 콘텐츠 차단 기능을 결합합니다. 사용자 지정 DNS 서버를 추가하는 옵션도 있습니다.
+DNS servers translate websites' names into something browsers can understand, i.e. IP addresses. AdGuard VPN for Android offers a wide selection of DNS servers, each with special qualities. For example, [AdGuard DNS](https://adguard-dns.io/kb/) removes ads and protects your device from tracking while AdGuard DNS Family Protection combines the functions of AdGuard DNS with Safe search and adult content blocking. 사용자 지정 DNS 서버를 추가하는 옵션도 있습니다.
 
 ### 자동 보호
 
@@ -98,13 +106,13 @@ DNS(Domain name system, [도메인 이름 시스템](https://adguard-dns.io/kb/g
 
 ### 고급 설정
 
-*고급 설정*에서 5개의 섹션을 찾을 수 있습니다. 상단의 스위치를 켜면 *프로그램을 개선*하는 데 도움이 됩니다. 이렇게 하면 AdGuard VPN이 충돌 보고서, 기술 및 상호 작용 데이터를 수집할 수 있기 때문입니다. 이 정보는 익명으로 처리됩니다.
+In *Advanced settings*, you can find four sections.
 
-*작동 모드* 섹션에서는 VPN, 프록시 및 호환성 모드의 세 가지 옵션 중 하나를 선택할 수 있습니다. *VPN 모드*에서 모든 트래픽은 AdGuard VPN을 통해 자동으로 라우팅됩니다. When the *Proxy mode* (SOCKS5) is on, AdGuard VPN runs a local proxy server which can be used by other apps to route their traffic through it. 하고자 하시는 것을 확실히 알 때 이 옵션을 선택하세요. *호환성 모드*를 활성화하면 AdGuard VPN과 AdGuard 광고 차단기가 함께 작동할 수 있습니다.
+*Operating mode* allows you to specify how your traffic is routed. There are three modes: VPN, SOCKS5, and Integrated mode. In the *VPN* mode, all traffic is routed through AdGuard VPN. In the *SOCKS5* mode, AdGuard VPN runs a local proxy server that can be used by other apps for traffic routing. *Integrated mode* allows AdGuard VPN and AdGuard Ad Blocker to work together.
 
 :::note
 
-Some AdGuard VPN features are disabled in *Compatibility mode*: DNS server selection, Kill Switch and Auto-protection. 또한 애플리케이션 터널링을 관리하려면 AdGuard 광고 차단기 애플리케이션을 열어야 합니다.
+Some AdGuard VPN features are disabled in *Integrated mode*: DNS servers, Kill Switch, Auto-protection, and app exclusions. You can manage DNS protection and route apps through your AdGuard VPN proxy in the AdGuard Ad Blocker app.
 
 :::
 

@@ -5,9 +5,9 @@ sidebar_position: 7
 
 ## Introducción
 
-El cifrado es la razón por la que la palabra "privada" existe en el término "Red Privada Virtual". Una VPN crea un túnel entre tu dispositivo y un servidor VPN, a través del cual sus datos se encriptan y luego entran en la Internet abierta de forma segura. El proceso de encriptación, es decir, convertir los datos en galimatías de manera de quien los intercepte no los pueda leer, es esencial para cualquier servicio VPN.
+El cifrado es la razón por la que la palabra "privada" existe en el término "Red Privada Virtual". A VPN creates a tunnel between your device and a VPN server, passing through which your data is encrypted and then securely transmitted to the open Internet. El proceso de encriptación, es decir, convertir los datos en galimatías de manera de quien los intercepte no los pueda leer, es esencial para cualquier servicio VPN.
 
-El protocolo VPN de AdGuard utiliza el algoritmo de cifrado más seguro y rápido hasta la fecha: AES-256. Aprende qué es y por qué es tan bueno.
+The AdGuard VPN protocol uses the most secure and fast encryption algorithm to date — AES-256. Aprende qué es y por qué es tan bueno.
 
 ## Recorrido histórico de AES
 
@@ -23,6 +23,6 @@ AES es un cifrado por bloques con una clave simétrica. Al ser un cifrado de cla
 
 Hay diferentes tamaños de clave — 128, 192 y 256 bits —  y los bloques también se miden en bits. Durante el proceso de encriptación, el encriptador sustituye cada pieza de información por otra, dependiendo de la clave de seguridad. Así, por ejemplo, AES-256 crea 256 bloques de texto cifrado a partir de 256 bloques de texto plano en 14 rondas.
 
-Las rondas constan de varios pasos: dividir los datos en bloques, intercambiar bytes, desplazar filas y reordenar columnas. El resultado es un conjunto de caracteres completamente aleatorio, que solo tendrá sentido con una clave de encriptación.
+Las rondas constan de varios pasos: dividir los datos en bloques, intercambiar bytes, desplazar filas y reordenar columnas. The result is a completely random set of characters that will only make sense when using the right encryption key.
 
-AES-256 es el nivel de cifrado más potente: para romper este cifrado, un actor malintencionado tendrá que probar 2256 combinaciones discretas, cada una de ellas compuesta por 78 dígitos.
+AES-256 is the strongest level of encryption: to break this cipher, 2256 discrete combinations, each consisting of 78 digits, would have to be tried.

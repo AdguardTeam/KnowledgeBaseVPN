@@ -10,11 +10,11 @@ slug: /
 
 VPN umožňuje vytvořit zabezpečené připojení k jiné síti na internetu.
 
-Původně byly VPN vytvořeny k bezpečnému propojení podnikových sítí přes Internet, aby se lidé mohli připojit k podnikové síti z domova. Tato technologie se používá k mnoha dalším účelům: například k anonymnímu procházení internetu nebo k ochraně vašich online aktivit před zvědavými pohledy při používání veřejné Wi-Fi.
+Původně byly VPN vytvořeny k bezpečnému propojení podnikových sítí přes Internet, aby se lidé mohli připojit k podnikové síti z domova. Dnes se tato technologie používá k mnoha dalším účelům: například k anonymnímu procházení internetu nebo k ochraně vašich online aktivit před zvědavými pohledy při používání veřejné Wi-Fi.
 
-VPN připojuje počítač nebo mobilní zařízení uživatele k serveru a umožňuje procházet internet pomocí IP adresy někoho jiného. Pozorovatelé třetích stran tak nemohou vidět skutečnou IP adresu uživatele, což téměř znemožňuje jeho vystopování.
+VPN připojuje počítač nebo mobilní zařízení uživatele k serveru a umožňuje procházet síť pomocí "krycí" IP adresy. Pozorovatelé třetích stran tak nemohou vidět skutečnou IP adresu uživatele, což téměř znemožňuje jeho vystopování.
 
-Když už mluvíme o VPN, první věc, kterou zmiňují, je šifrování provozu a z něj plynoucí zabezpečení. Co to však znamená? VPN vytváří šifrovaný tunel mezi zařízením uživatele a vzdáleným serverem. Veškerý webový provoz prochází tímto tunelem, takže vaše data jsou po cestě chráněna. Pro vnějšího pozorovatele odchází váš provoz ze serveru VPN, takže to vypadá, že vaše zařízení má IP adresu tohoto serveru. Tento trik maskuje identitu uživatele a jeho skutečnou polohu.
+První věc, kterou uživatelé v souvislosti s VPN zmiňují, je šifrování provozu a z něj plynoucí bezpečnost. Co to však znamená? VPN vytváří šifrovaný tunel mezi zařízením uživatele a vzdáleným serverem. Veškerý webový provoz prochází tímto tunelem, takže vaše data jsou po cestě chráněna. Pro vnějšího pozorovatele odchází váš provoz ze serveru VPN, takže to vypadá, že vaše zařízení má IP adresu tohoto serveru. Tento trik maskuje identitu uživatele a jeho skutečnou polohu.
 
 VPN umožňuje:
 

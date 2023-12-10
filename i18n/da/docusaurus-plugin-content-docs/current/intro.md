@@ -10,11 +10,11 @@ slug: /
 
 Et VPN muliggør at oprette en sikker forbindelse til et andet netværk på internet.
 
-Oprindeligt blev VPN'er skabt mhp. sikkert at kunne forbinde forretningsnetværk over internet, så ansatte f.eks. kunne oprette forbindelse til, og arbejde på, virksomhedens netværk hjemmefra. Teknologien bruges i dag til mange andre ting, såsom at surfe anonymt på internet eller beskytte onlineaktivitet mod nysgerrige øjne, mens der bruges offentlig Wi-Fi.
+Oprindeligt blev VPN'er skabt mhp. sikkert at kunne forbinde forretningsnetværk over internet, så ansatte f.eks. kunne oprette forbindelse til, og arbejde på, virksomhedens netværk hjemmefra. Today, this technology is used for many other things: for example, to browse the Internet anonymously or to protect your online activity from prying eyes while using public Wi-Fi.
 
-Et VPN forbinder en brugers enhed (computer/mobil) til en server, og brugeren kan så surfe på nettet vha. en IP-adresse tildelt af denne server. Tredjepartsobservatører kan således ikke se brugerens reelle IP-adresse, hvilket gør videre sporing næsten umulig.
+A VPN connects a user's computer or mobile device to a server and allows one to browse the net using a "cover" IP address. Tredjepartsobservatører kan således ikke se brugerens reelle IP-adresse, hvilket gør videre sporing næsten umulig.
 
-Det første, der nævnes af brugere i forhold til VPN, er trafikkryptering og dens afledte sikkerhed. Hvad betyder det? Et VPN opretter en krypteret tunnel mellem brugerens enhed og en fjernserver. Al internettrafikken passerer igennem denne tunnel, så data er beskyttet undervejs. Set udefra, så forlader trafikken VPN-serveren, hvorfor brugerenheden derfor ser ud til at have denne servers IP-adresse. Dette trick maskerer brugerens identitet og reelle placering.
+The first thing that users mention in relation to VPN is traffic encryption and the security derived from it. Hvad betyder det? Et VPN opretter en krypteret tunnel mellem brugerens enhed og en fjernserver. Al internettrafikken passerer igennem denne tunnel, så data er beskyttet undervejs. Set udefra, så forlader trafikken VPN-serveren, hvorfor brugerenheden derfor ser ud til at have denne servers IP-adresse. Dette trick maskerer brugerens identitet og reelle placering.
 
 VPN kan bruges til at:
 

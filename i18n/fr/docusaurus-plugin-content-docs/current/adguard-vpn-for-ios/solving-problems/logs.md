@@ -3,7 +3,7 @@ title: Comment collecter et envoyer des journaux
 sidebar_position: 2
 ---
 
-Si vous rencontrez un problème lors de l'utilisation de AdGuard VPN pour iOS, vous pouvez nous en informer en envoyant des journaux d'application.
+If you encounter any problems while using AdGuard VPN for iOS, you can inform us about it by sending the app logs.
 
 ## Collecte et envoi de journaux standard
 

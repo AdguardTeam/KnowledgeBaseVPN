@@ -30,7 +30,7 @@ Læs mere om [DNS-servere fra forskellige udbydere](https://adguard-dns.io/kb/ge
 
 ## Undtagelser
 
-Den næste fane indeholder en af de vigtigste karakteristika ved AdGuard VPN – to tilstande med separate undtagelseslister.
+The next tab contains one of the main distinctive features of AdGuard VPN — two modes with separate exclusion lists.
 
 I **Generel tilstand** fungerer AdGuard VPN som standard på alle websteder, undtagen på de websteder, som er føjet til undtagelseslisten. I **Selektiv tilstand**, omvendt, fungerer AdGuard VPN som standard ingen steder. Alle websteder, hvor den ønskes at fungere, kan føjes til en undtagelsesliste, adskilt fra den, der findes i **Generel tilstand**.
 

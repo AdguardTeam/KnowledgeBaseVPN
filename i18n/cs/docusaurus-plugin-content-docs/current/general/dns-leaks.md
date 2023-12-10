@@ -13,7 +13,7 @@ Jinými slovy, při každém otevření webové stránky odešle prohlížeč po
 
 ## Jak zjistit úniky DNS
 
-Existují nejrůznější služby kontroly anonymity pro zjišťování úniků DNS, například `whoer.net`. Je třeba si uvědomit, že tyto webové stránky samy o sobě nejsou dokonalé a jejich algoritmy nejsou jasné, na rozdíl od jejich záměrů zastrašit uživatele imaginárními úniky a případně prodat nějakou službu.
+Existují nejrůznější služby kontroly anonymity pro zjišťování úniků DNS, například `whoer.net`. Algoritmy těchto webových stránek nejsou jasné, ale jejich záměry jsou — vyděsit uživatele imaginárními úniky, což jim potenciálně umožní prodávat své služby.
 
 Některé webové stránky provádějící bezpečnostní skenování považují shodu IP adresy uživatele a IP adresy serveru DNS za "dobrý" výsledek, který znamená, že nedochází k únikům. Ve skutečnosti může taková shoda znamenat použití sítě VPN. Pokud je VPN vypnuta a požadavky směřují na DNS server vašeho poskytovatele internetových služeb, IP adresa DNS serveru a vaše vlastní adresa se neshodují.
 
@@ -29,7 +29,7 @@ A v případě AdGuard DNS se "spojíte" s 50 miliony uživatelů, takže vás n
 
 ## Jak nastavit vlastní DNS server v AdGuard VPN
 
-Existuje mnoho oblíbených veřejných DNS serverů od [dobře známých poskytovatelů DNS](https://adguard-dns.io/kb/general/dns-providers). Některé z nich mohou plnit pouze své přímé úkoly – poskytovat IP adresy požadovaných domén a některé mohou dělat více.
+Existuje mnoho oblíbených veřejných DNS serverů od [dobře známých poskytovatelů DNS](https://adguard-dns.io/kb/general/dns-providers). Některé z nich mohou plnit pouze své přímé úkoly — poskytovat IP adresy požadovaných domén a některé mohou dělat více.
 
 Například AdGuard DNS odstraňuje reklamy a chrání zařízení před sledováním, zatímco Ochrana rodiny AdGuard DNS kombinuje funkce AdGuard DNS s bezpečným vyhledáváním a rodičovskou kontrolou.
 

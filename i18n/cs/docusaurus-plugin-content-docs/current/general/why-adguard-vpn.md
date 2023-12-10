@@ -45,7 +45,7 @@ Pro přístup ke všem umístěním VPN serverů si musíte zakoupit předplatn�
 
 ## 5. Integrace s blokátorem reklam AdGuard
 
-U desktopových aplikací a rozšíření prohlížeče je to samozřejmé — málokdy dochází ke konfliktům mezi aplikacemi, s výjimkou antivirů a dalšího podobně zaměřeného softwaru.
+U aplikací pro počítače a rozšíření webového prohlížeče dochází ke konfliktům mezi aplikacemi jen zřídka, s výjimkou antivirů a dalších podobných typů softwaru.
 
 U mobilních zařízení to tak jednoduché není. V naprosté většině případů nebudou dvě aplikace VPN fungovat společně. V Androidu i v iOS existují omezení, která tomu brání.
 
@@ -55,7 +55,7 @@ Podařilo se nám však najít řešení, jak spřátelit AdGuard VPN a blokáto
 
 ## 6. Podpora QUIC
 
-[QUIC](https://adguard-dns.io/en/blog/dns-over-quic.html#whatisquic) je špičkový protokol, který má mnoho výhod. Hlavní výhodou je, že může zlepšit kvalitu připojení v neideálních podmínkách – například na mobilních zařízeních nebo při připojení k veřejné Wi-Fi. Nový protokol sice neovlivní rychlost, pokud je připojení v pořádku a stabilní, ale rozhodně zlepší situaci uživatelů s pomalým internetem.
+[QUIC](https://adguard-dns.io/en/blog/dns-over-quic.html#whatisquic) je špičkový protokol, který má mnoho výhod. Hlavní výhodou je, že může zlepšit kvalitu připojení v neideálních podmínkách — například na mobilních zařízeních nebo při připojení k veřejné Wi-Fi. Nový protokol sice neovlivní rychlost, pokud je připojení v pořádku a stabilní, ale rozhodně zlepší situaci uživatelů s pomalým internetem.
 
 :::caution
 
@@ -67,7 +67,7 @@ Protokol QUIC je poměrně nový a může být nestabilní. Nemůžeme zaručit 
 
 ## 7. Kill Switch
 
-Kill Switch je nezbytný, pokud například často používáte mobilní síť nebo se připojujete k veřejným sítím Wi-Fi v nákupních centrech, kavárnách, v metru nebo na letišti. Z jednoduchého důvodu — pokud VPN náhle přestane fungovat a připojení se stane nezabezpečeným, je pravděpodobné, že vaše citlivé informace budou vystaveny podvodníkům nebo kyberzločincům.
+Kill Switch je nezbytný, pokud například často používáte mobilní síť nebo se připojujete k veřejným sítím Wi-Fi v nákupních centrech, kavárnách, v metru nebo na letišti. Z prostého důvodu, že pokud vaše VPN náhle přestane fungovat a připojení se stane nezabezpečeným, je pravděpodobné, že vaše citlivé informace budou vystaveny podvodníkům nebo kyberzločincům.
 
 Pokud dojde z nějakého důvodu k přerušení připojení k síti VPN, Kill Switch automaticky odpojí internetové připojení a zabrání tak útočníkům zmocnit se vašich informací.
 

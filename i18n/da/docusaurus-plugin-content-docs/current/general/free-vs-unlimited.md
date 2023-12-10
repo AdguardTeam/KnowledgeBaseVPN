@@ -11,7 +11,11 @@ AdGuard VPN kan bruges gratis, dog vil flg. begrænsninger være gældende:
 - Ikke alle serverplaceringer vil være tilgængelige
 - E-mailklienter kan ikke bruges til at sende beskeder (på iOS og Android)
 
-> Det sidste punkt bør behandles separat: Gratis brugere af AdGuard VPN til iOS og Android kan ikke sende e-mails via e-mailklienter. Det er umuligt, da vi blokerer port 25, som bruges til udgående e-mails, og dermed genforsikrer os mod spam. Afsendelse af e-mails via webbaserede e-mail tjenester fungerer dog fuldt ud. I AdGuard VPN til Android kan der desuden tilføjes apps til undtagelser, så e-mail apps også fungerer.
+:::note
+
+Det sidste punkt bør behandles separat: Gratis brugere af AdGuard VPN til iOS og Android kan ikke sende e-mails via e-mailklienter. Det er umuligt, da vi blokerer port 25, som bruges til udgående e-mails, og dermed genforsikrer os mod spam. Afsendelse af e-mails via webbaserede e-mail tjenester fungerer dog fuldt ud. I AdGuard VPN til Android kan der desuden tilføjes apps til undtagelser, så e-mail apps også fungerer.
+
+:::
 
 Der kan også købes et abonnement for at få en ubegrænset version af appen. Et abonnement har flere fordele sammenlignet med en gratis konto:
 

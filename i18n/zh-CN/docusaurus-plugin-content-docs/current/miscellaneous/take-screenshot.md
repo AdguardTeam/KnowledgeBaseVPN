@@ -30,7 +30,7 @@ sidebar_position: 4
 
 如果此方法不起作用，请检查「*设置*」→「*高级功能*」→「*动作和手势*」→启用「*手掌滑动截屏*」。
 
-此外，您可以使用任何特殊的应用程序在设备上拍摄屏幕截图，例如，*轻松截屏*、*终极截图*、*Screenshot Snap* 等。
+Besides, you can always use any special apps for taking screenshots on your devices, for example — *Screenshot Easy*, *Screenshot Ultimate*, *Screenshot Snap*, etc.
 
 ### iOS
 
@@ -48,11 +48,15 @@ sidebar_position: 4
 
 ### Windows
 
-- **要在 Windows 上截图，请按 *PrtScn* 按钮**
+- **To take a screenshot on a Windows device, press the *PrtScn* button**
 
-在某些笔记本电脑上，您要按住 *Fn*，然后再按 *PrtScn*。
+On some devices, you first have to press and hold *Fn* before pressing *PrtScn*.
 
-*请注意，各种键盘上的 PrtScn（打印屏幕）存在不同的缩写方式，比如 PrntScrn，PrtScn，PrtScr 或 PrtSc 等。*
+:::note
+
+PrtScn (Print Screen) can be differently abbreviated on various keyboards — PrntScrn, PrtScn, PrtScr or PrtSc.
+
+:::
 
 Windows 捕获整个屏幕并将其复制到剪贴板。
 
@@ -64,17 +68,17 @@ Windows 捕获整个屏幕并将其复制到剪贴板。
 
 - ***按住 *Win*（Windows 按钮）和 *Shift*，然后按 ***S******
 
-截屏后，它将保存在剪贴板中。 在大多数情况下，您可以使用 *Ctrl + V* 按钮组合将其粘贴到当前正在编辑的文档中。 另外，如果您需要将屏幕截图保存到文件中，则应打开标准的 **Paint** 程序（或任何其他可以处理图像的应用程序）。 使用相同的按钮组合或单击「粘贴」按钮（通常在屏幕的左上角）将您的屏幕截图粘贴到那里，然后将其保存。
+截屏后，它将保存在剪贴板中。 Usually, you will then be able to paste it into a document using the standard button combination *Ctrl + V*. 另外，如果您需要将屏幕截图保存到文件中，则应打开标准的 **Paint** 程序（或任何其他可以处理图像的应用程序）。 使用相同的按钮组合或单击「粘贴」按钮（通常在屏幕的左上角）将您的屏幕截图粘贴到那里，然后将其保存。
 
 Windows 8 和 10 使您可以通过 *Win + PrtScn* 组合快速捕获屏幕截图。 按下这些按钮后，屏幕快照将自动作为文件保存到图片 → 屏幕截图文件夹中。
 
-还有一个专用的屏幕截图程序，称为 *Snipping Tool* (自带截图工具) ，可通过开始菜单在计算机的标准程序中找到。 该截图工具使您可以捕获桌面的任何区域或整个屏幕。 使用此程序拍摄屏幕快照后，您可以编辑图片并将其保存到计算机上的任何文件夹中。
+还有一个专用的屏幕截图程序，称为 *Snipping Tool* (自带截图工具) ，可通过开始菜单在计算机的标准程序中找到。 该截图工具使您可以捕获桌面的任何区域或整个屏幕。 After taking a screenshot using this program you can edit the picture and then save it.
 
 此外，您还可以尝试使用其他应用在计算机上截图，例如 **PicPick**、**Nimbus Screenshot**、**Screenshot Captor**、**Snipaste**、**Monosnap** 等。
 
 ### macOS
 
-要在 Mac 上截图，请使用以下按钮组合：
+To take a screenshot on a Mac device, use the following button combination:
 
 - ***同时按住 ***⌘Cmd + Shift + 3******
 

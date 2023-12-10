@@ -5,7 +5,7 @@ sidebar position: 1
 
 
 
-Windows용 AdGuard VPN을 사용할 때 문제가 발생하면 지원 팀에 문의하실 수 있습니다. 애플리케이션 로그도 보내 주시면 감사하겠습니다. 문제를 훨씬 더 빨리 해결하는 데 도움이 됩니다.
+If you encounter any problems while using AdGuard VPN for Windows, you can inform us about it. We would appreciate it if you also send application logs, as they help us resolve issues much quicker.
 
 ## 일반 로그 수집 및 전송
 

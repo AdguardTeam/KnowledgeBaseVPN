@@ -5,7 +5,7 @@ sidebar position: 1
 
 
 
-如果您在使用 AdGuard VPN Windows 版时遇到问题，您可以随时联系我们。 如果您也能把应用日志发给我们，我们将不胜感激。日志记录能帮助我们更快地解决问题。
+If you encounter any problems while using AdGuard VPN for Windows, you can inform us about it. We would appreciate it if you also send application logs, as they help us resolve issues much quicker.
 
 ## 收集和发送标准日志
 

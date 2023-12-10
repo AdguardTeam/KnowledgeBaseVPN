@@ -3,13 +3,13 @@ title: Běžné chyby instalačního programu
 sidebar_position: 2
 ---
 
-Tento článek obsahuje některé z nejčastějších chyb, se kterými se můžete setkat během instalace AdGuard VPN pro Windows, a možné způsoby jejich řešení.
+V tomto článku jsou popsány některé z nejčastějších chyb, se kterými se můžete setkat při instalaci AdGuard VPN pro Windows, a možné způsoby jejich řešení.
 
 ### Chyba 5: Přístup odepřen {#error-5}
 
-K této chybě dochází, pokud je něco v nepořádku s oprávněními. Může existovat několik různých důvodů, proč instalační program AdGuard VPN nemá oprávnění potřebná k řádnému dokončení procesu instalace. Můžete vyzkoušet následující kroky:
+Tato chybová zpráva se zobrazí, pokud nejsou udělena požadovaná oprávnění. Může existovat několik různých důvodů, proč instalační program AdGuard VPN nemá oprávnění potřebná k řádnému dokončení procesu instalace. Můžete vyzkoušet následující kroky:
 
-- Dočasně vypněte antivirové programy. Některé z nich mohou v závislosti na závažnosti svého nastavení instalaci narušovat.
+- Dočasně vypněte antivirové programy. Některé z nich mohou instalaci narušovat v závislosti na omezení jejich nastavení.
 
 - Zvolte jinou složku pro instalaci. Je možné, že aktuální složka pro instalaci má nějaká omezení přístupu. Také se ujistěte, že jste nevybrali externí jednotku, virtuální jednotku atd.
 
@@ -34,8 +34,8 @@ Dalo by se říci, že se jedná o zvláštní podtyp chyby 1603. Možná řeše
     1. Stiskněte *Win + R* a napište **services.msc**.
     1. Vyhledejte v seznamu *Instalační služba systému Windows* a dvakrát na ni klikněte.
     1. Stiskněte tlačítko *Spustit* pod položkou *Stav služby* a stiskněte *OK*. Pokud stav služby **běží**, měli byste nejprve kliknout na *Ukončit* a poté stisknout *Spustit*.
-    1. Stiskněte *Win + R*, napište ***msiexec /unregister*** a stiskněte *Enter*.
-    1. Stiskněte znovu *Win + R*, napište ***msiexec /regserver*** a stiskněte *Enter*.
+    1. Stiskněte *Win + R*, napište **msiexec /unregister** a stiskněte *Enter*.
+    1. Stiskněte znovu *Win + R*, napište **msiexec /regserver** a stiskněte *Enter*
 
 - Restartujte počítač a spusťte instalaci znovu. Někdy to k odstranění problému stačí.
 
@@ -51,7 +51,7 @@ Pokud se vám zobrazil tento chybový kód, je pravděpodobné, že jste tak či
 
 ### Chyba 1603: Závažná chyba během instalace {#error-1603}
 
-Chyba zní děsivěji, než ve skutečnosti je. Ve skutečnosti se jedná o poměrně obecnou chybu, která může mít mnoho různých příčin a některé z nich lze snadno odstranit. Vyzkoušejte následující řešení:
+Tato chyba zní více znepokojivě, než jaká ve skutečnosti je. Ve skutečnosti se jedná o poměrně obecnou chybu, která může mít mnoho různých příčin a některé z nich lze snadno odstranit. Vyzkoušejte následující řešení:
 
 - Stiskněte klávesu *Win*, vyhledejte *Příkazový řádek* a spusťte jej. Zde napište `sfc /scannow` a stiskněte *enter*.
 
@@ -61,11 +61,11 @@ Chyba zní děsivěji, než ve skutečnosti je. Ve skutečnosti se jedná o pom�
 
 - Spusťte a znovu zaregistrujte službu Microsoft Installer. Vyžaduje to určitou práci.
 
-    1. Stiskněte *Win + R* a napište ***services.msc***.
+    1. Stiskněte *Win + R* a napište **services.msc**.
     1. Vyhledejte v seznamu *Instalační služba systému Windows* a dvakrát na ni klikněte.
     1. Stiskněte tlačítko *Spustit* pod položkou *Stav služby* a stiskněte *OK*. Pokud stav služby **běží**, měli byste nejprve kliknout na *Ukončit* a poté stisknout *Spustit*.
-    1. Stiskněte *Win + R*, napište ***msiexec /unregister*** a stiskněte *Enter*.
-    1. Stiskněte znovu *Win + R*, napište ***msiexec /regserver*** a stiskněte *Enter*.
+    1. Stiskněte *Win + R*, napište **msiexec /unregister** a stiskněte *Enter*.
+    1. Stiskněte znovu *Win + R*, napište **msiexec /regserver** a stiskněte *Enter*
 
 - Získejte plná oprávnění na jednotce pro instalaci. Je možné, že k chybě 1603 dochází, protože nemáte úplná oprávnění k umístění souboru. Také to není tak snadné jako některá jiná řešení:
 
@@ -81,7 +81,7 @@ Chyba zní děsivěji, než ve skutečnosti je. Ve skutečnosti se jedná o pom�
 
 ### Chyba 1618: Již probíhá jiná instalace {#error-1618}
 
-K této chybě dochází při současném spuštění několika instancí instalačního programu AdGuard VPN. Co dělat, když se tato chyba zobrazí:
+Tato chyba se objeví při pokusu o spuštění více instancí instalačního programu AdGuard VPN současně. Co dělat, když se tato chyba zobrazí:
 
 - Restartujte počítač a spusťte instalaci znovu. Po restartování počítače se zastaví všechny probíhající procesy, včetně všech kopií instalačního programu.
 
@@ -91,7 +91,7 @@ K této chybě dochází při současném spuštění několika instancí instal
 
 Je velmi pravděpodobné, že jste si AdGuard VPN již dříve nainstalovali.
 
-- Zkontrolujte, zda je v počítači již nainstalována AdGuard VPN. Můžete to udělat stisknutím klávesy *Win* a zadáním názvu ***AdGuard VPN***.
+- Zkontrolujte, zda je v počítači již nainstalována AdGuard VPN. To provedete tak, že stisknete klávesu *Win* a začnete psát *adguard vpn*.
 
 - Možná tam jsou nějaké zbytky souborů z předchozí instalace AdGuard VPN. Odinstalujte AdGuard pomocí našeho speciálního [nástroje pro odinstalaci](/adguard-vpn-for-windows/installation#advanced) a poté instalaci zopakujte.
 

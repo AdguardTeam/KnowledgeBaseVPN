@@ -10,11 +10,11 @@ slug: /
 
 Met een VPN kun je een beveiligde verbinding maken met een ander netwerk op het internet.
 
-Aanvankelijk werden VPN's gemaakt om bedrijfsnetwerken veilig via internet te verbinden, zodat mensen vanuit huis verbinding konden maken met het bedrijfsnetwerk. Deze technologie wordt voor veel andere dingen gebruikt: bijvoorbeeld om anoniem op het internet te surfen of om je online activiteiten te beschermen tegen nieuwsgierige ogen wanneer je openbare Wi-Fi gebruikt.
+Aanvankelijk werden VPN's gemaakt om bedrijfsnetwerken veilig via internet te verbinden, zodat mensen vanuit huis verbinding konden maken met het bedrijfsnetwerk. Today, this technology is used for many other things: for example, to browse the Internet anonymously or to protect your online activity from prying eyes while using public Wi-Fi.
 
-Een VPN verbindt de computer of het mobiele apparaat van een gebruiker met een server en zorgt ervoor dat iemand op internet kan surfen met het IP-adres van iemand anders. Derden kunnen dus niet het echte IP-adres van de gebruiker zien, waardoor het bijna onmogelijk is om ze te traceren.
+A VPN connects a user's computer or mobile device to a server and allows one to browse the net using a "cover" IP address. Derden kunnen dus niet het echte IP-adres van de gebruiker zien, waardoor het bijna onmogelijk is om ze te traceren.
 
-Over VPN gesproken: het eerste dat ze noemen is verkeersversleuteling en de daaruit voortvloeiende beveiliging. Maar wat betekent het? Een VPN creëert een gecodeerde tunnel tussen het apparaat van de gebruiker en de externe server. Al je webverkeer gaat door deze tunnel, zodat je gegevens onderweg worden beschermd. Voor de externe waarnemer verlaat je verkeer de VPN-server, dus het lijkt alsof je apparaat het IP-adres van deze server heeft. Deze truc verhult de identiteit en werkelijke locatie van de gebruiker.
+The first thing that users mention in relation to VPN is traffic encryption and the security derived from it. Maar wat betekent het? Een VPN creëert een gecodeerde tunnel tussen het apparaat van de gebruiker en de externe server. Al je webverkeer gaat door deze tunnel, zodat je gegevens onderweg worden beschermd. Voor de externe waarnemer verlaat je verkeer de VPN-server, dus het lijkt alsof je apparaat het IP-adres van deze server heeft. Deze truc verhult de identiteit en werkelijke locatie van de gebruiker.
 
 VPN kan worden gebruikt om:
 

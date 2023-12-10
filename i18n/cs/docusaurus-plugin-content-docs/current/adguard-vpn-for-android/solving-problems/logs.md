@@ -15,7 +15,7 @@ Ve výchozím nastavení používá AdGuard VPN pro Android **Výchozí** úrove
 
 3. V otevřeném formuláři zadejte svou e-mailovou adresu pro zpětnou vazbu a popište nalezenou chybu, včetně času, kdy k ní došlo. Pokud nemůžete problém reprodukovat, uveďte co nejpřesněji, kdy k němu naposledy došlo.
 
-4. Vedle položky **Odeslat podrobné systémové informace** je zaškrtávací políčko, což znamená, že při odesílání hlášení se odesílají také protokoly.
+4. Vedle položky **Odeslat protokoly aplikace a systémové informace** je zaškrtávací políčko, což znamená, že při odesílání hlášení se odesílají také protokoly.
 > Pokud je pro vás z nějakého důvodu pohodlnější poslat nám protokoly jiným způsobem, můžete je exportovat sami. Chcete-li to provést, přejděte do **Nastavení** → **Podpora** → **Exportovat protokoly a systémové informace**.
 
 ## Shromažďování a odesílání rozšířených protokolů
@@ -34,5 +34,5 @@ Ve většině případů je **Výchozí** úroveň záznamů dostatečná pro do
 
 6. V otevřeném formuláři zadejte svou e-mailovou adresu pro zpětnou vazbu a popište nalezenou chybu, včetně času, kdy k ní došlo.
 
-7. Ujistěte se, že je zaškrtnuto políčko **Odeslat podrobné systémové informace**, a klepněte na **Odeslat**.
+7. Ujistěte se, že je zaškrtnuto políčko **Odeslat protokoly aplikace a systémové informace** a klepněte na **Odeslat**.
 > Pokud je pro vás z nějakého důvodu pohodlnější poslat nám protokoly jiným způsobem, můžete je exportovat sami. Chcete-li to provést, přejděte do **Nastavení** → **Podpora** → **Exportovat protokoly a systémové informace**.

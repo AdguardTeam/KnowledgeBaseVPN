@@ -5,9 +5,9 @@ sidebar_position: 7
 
 ## Introduktion
 
-Kryptering er grunden til, at ordet "private" findes i udtrykket "Virtual Private Network". Et VPN opretter en tunnel mellem enheden og en VPN-server, på hvilken data krypteres og dernæst når det åbne internet i en sikker form. Krypteringsprocessen, dvs. konvertering af data til volapyk, som ingen, der opsnapper det, kan læse, er afgørende for enhver VPN-tjeneste.
+Kryptering er grunden til, at ordet "private" findes i udtrykket "Virtual Private Network". A VPN creates a tunnel between your device and a VPN server, passing through which your data is encrypted and then securely transmitted to the open Internet. Krypteringsprocessen, dvs. konvertering af data til volapyk, som ingen, der opsnapper det, kan læse, er afgørende for enhver VPN-tjeneste.
 
-AdGuard VPN-protokollen bruger den mest sikre og hurtigste krypteringsalgoritme til dato – AES-256. Læs, hvad det vil sige, og hvorfor det er så godt.
+The AdGuard VPN protocol uses the most secure and fast encryption algorithm to date — AES-256. Læs, hvad det vil sige, og hvorfor det er så godt.
 
 ## AES historisk tur
 
@@ -23,6 +23,6 @@ AES er en blokchiffer med en symmetrisk nøgle. Som en symmetrisk nøglechiffer,
 
 Der er forskellige nøglestørrelser - 128, 192 og 256 bit — og blokkene måles også i bits. Under krypteringsprocessen erstatter krypteringen hver enkelt informationsdel med en anden, afhængigt af sikkerhedsnøglen. Så f.eks. opretter AES-256 256 blokke med chiffertekst ud fra 256 blokke med almindelig tekst ad 14 omgange.
 
-Omgangene består af flere trin: Opdeling af dataene i blokke, ombytning af bytes, omskiftning af rækker og omarrangering af kolonner. Resultatet er et helt tilfældigt sæt tegn, som kun vil give mening ved brug af den rette krypteringsnøgle.
+Omgangene består af flere trin: Opdeling af dataene i blokke, ombytning af bytes, omskiftning af rækker og omarrangering af kolonner. The result is a completely random set of characters that will only make sense when using the right encryption key.
 
-AES-256 er det stærkeste krypteringsniveau: For at bryde denne chiffer, vil der skulle afprøves 2256 diskrete kombinationer, hver bestående af 78 cifre.
+AES-256 is the strongest level of encryption: to break this cipher, 2256 discrete combinations, each consisting of 78 digits, would have to be tried.

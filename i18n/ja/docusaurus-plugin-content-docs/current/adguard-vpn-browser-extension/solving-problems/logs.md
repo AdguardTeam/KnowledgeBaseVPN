@@ -10,7 +10,7 @@ AdGuard VPNブラウザ拡張機能のログを集めるやり方はたくさん
 1. AdGuard VPN ブラウザ拡張機能を開き、可能であれば、エラーに至った操作を繰り返して、問題を再現してください。 ※問題が発生した時刻を記録しておいてください。
 1. (☰) のメニューアイコンをクリックすると「*設定*」を開く→ 「*サポート*」 → 「*不具合を報告する*」
 1. In the opened form, leave an automatically inserted email address or enter another one and describe the error found, including the time when this error occurred. If you can't reproduce the problem, specify as accurately as possible when it last occurred.
-1. Make sure that there is a check mark next to *Include the diagnostic report in the message*, and tap *Submit*. This way, you will send logs along with the bug report.
+1. Make sure that there is a check mark next to *Include the diagnostic report in the message* and tap *Submit*. This way, you will send logs along with the bug report.
 
 ## Collecting and sending logs via the *Export logs* button
 

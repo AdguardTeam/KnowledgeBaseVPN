@@ -10,7 +10,7 @@ Nogle brugere kan ikke bruge deres AdGuard VPN-abonnement købt gennem App Store
 
 Følg disse trin for at løse problemet:
 
-1. Gå til Indstillinger → Apple-ID → iTunes og App Store → Vis Apple-ID
+1. Go to Settings → Apple ID → Media & Purchases → View Apple ID
 1. Sørg for, at e-mailadressen matcher den, der bruges til Apple-ID'et
 1. Matcher e-mailadresserne ikke, send os en e-mail via `support@adguard.com`, beskriv problemet og oplys den e-mailadresse, der blev brugt ved App Store-købet
 1. Hvis e-mailadresserne matcher, gå til Apple-ID → iCloud → Skjul Min E-mail, find vores app på listen, kopiér e-mailadressen og indsend den til `support@adguard.com` sammen med en problembeskrivelse. Normalt slutter den på "@privaterelay.appleid.com"

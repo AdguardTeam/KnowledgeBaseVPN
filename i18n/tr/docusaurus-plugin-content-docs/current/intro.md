@@ -10,11 +10,11 @@ slug: /
 
 VPN, internet üzerindeki başka bir ağa güvenli bir bağlantı oluşturmanızı sağlar.
 
-Başlangıçta VPN'ler, insanların kurumsal ağa evden bağlanabilmesi için iş ağlarını internet üzerinden güvenli bir şekilde bağlamak için oluşturuldu. Bu teknoloji başka pek çok şey için kullanılır: örneğin internette anonim olarak gezinmek veya halka açık Wi-Fi kullanırken çevrimiçi etkinliğinizi meraklı gözlerden korumak.
+Başlangıçta VPN'ler, insanların kurumsal ağa evden bağlanabilmesi için iş ağlarını internet üzerinden güvenli bir şekilde bağlamak için oluşturuldu. Today, this technology is used for many other things: for example, to browse the Internet anonymously or to protect your online activity from prying eyes while using public Wi-Fi.
 
-VPN, bir kullanıcının bilgisayarını veya mobil cihazını bir sunucuya bağlar ve birinin başka birinin IP adresini kullanarak internette gezinmesine izin verir. Bu nedenle, üçüncü taraf gözlemciler kullanıcının gerçek IP adresini göremez ve bu da onları izlemeyi neredeyse imkansız hâle getirir.
+A VPN connects a user's computer or mobile device to a server and allows one to browse the net using a "cover" IP address. Bu nedenle, üçüncü taraf gözlemciler kullanıcının gerçek IP adresini göremez ve bu da onları izlemeyi neredeyse imkansız hâle getirir.
 
-VPN'den bahsetmişken, bahsettikleri ilk şey trafik şifrelemesi ve ondan kaynaklanan güvenliktir. Ama bu ne anlama geliyor? VPN, kullanıcının cihazı ile uzak sunucu arasında şifrelenmiş bir tünel oluşturur. Tüm web trafiğiniz bu tünelden geçer, böylece verileriniz yol boyunca korunur. Harici gözlemci için, trafiğiniz VPN sunucusundan çıkar, bu nedenle cihazınız bu sunucunun IP adresine sahipmiş gibi görünür. Bu numara, kullanıcının kimliğini ve gerçek konumunu gizler.
+The first thing that users mention in relation to VPN is traffic encryption and the security derived from it. Ama bu ne anlama geliyor? VPN, kullanıcının cihazı ile uzak sunucu arasında şifrelenmiş bir tünel oluşturur. Tüm web trafiğiniz bu tünelden geçer, böylece verileriniz yol boyunca korunur. Harici gözlemci için, trafiğiniz VPN sunucusundan çıkar, bu nedenle cihazınız bu sunucunun IP adresine sahipmiş gibi görünür. Bu numara, kullanıcının kimliğini ve gerçek konumunu gizler.
 
 VPN şunlar için kullanılabilir:
 

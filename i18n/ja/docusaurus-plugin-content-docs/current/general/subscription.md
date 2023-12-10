@@ -5,8 +5,7 @@ sidebar_position: 6
 
 AdGuard VPNには、無料版と無制限版（有料版）があります。 有料サブスクリプションでは、通信量、接続速度、ロケーション選択などの制限なしにAdGuard VPNを利用することができます。 You can [read more about all the advantages of the unlimited version](/general/free-vs-unlimited).
 
-AdGuard VPNサブスクリプションをご購入いただくには、3つの方法があります:
+If you have decided to purchase a subscription to AdGuard VPN, there are two ways to do this:
 
-1. 【アプリ内課金を使って】 Go to the AdGuard VPN app and tap the arrow in the upper right corner of the screen. 月額、1年、2年という3つのプランからお選びいただけます。 Select the most suitable one and tap *Subscribe*. ※このオプションは、iOSとAndroidのAdGuard VPNモバイルアプリのみで利用可能です。
-2. Via [AdGuard account](https://my.adguard.com/). Log in to your account and select *My Licenses* from the menu bar. Click *Buy AdGuard VPN* and select a monthly, yearly, or two-year subscription. Pay for it using your card, PayPal account, or one of the supported cryptocurrencies: Bitcoin, Ethereum, Litecoin, or Tether. 完了！
-3. 【[公式ウェブサイト](https://adguard-vpn.com/license.html)経由】 Choose a suitable subscription plan and enter the email address to which the payment receipt will be sent. カードまたはPayPalアカウントでお支払いいただけます。
+1. 【アプリ内課金を使って】 Go to the AdGuard VPN app and tap the arrow in the upper right corner of the screen. Select the most suitable subscription plan and tap *Subscribe*. ※このオプションは、iOSとAndroidのAdGuard VPNモバイルアプリのみで利用可能です。
+2. On [our website](https://adguard-vpn.com/license.html). There are three subscription plans to choose from — monthly, 1-year, and 2-year. Choose the one that suits you best and enter the email address that will be associated with your subscription. You can pay for your subscription using your bank card, PayPal account, or cryptocurrency.

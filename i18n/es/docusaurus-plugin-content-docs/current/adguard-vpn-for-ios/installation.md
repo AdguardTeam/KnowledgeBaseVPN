@@ -19,7 +19,7 @@ Puede descargar e instalar la aplicación *AdGuard VPN para iOS* de forma gratui
 
     ![Search *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/search-en.png)
 
-1. Selecciona *AdGuard VPN - Unlimited & Fast* de la lista de aplicaciones sugeridas y pulse *Descargar*. Si es necesario, introduce la contraseña de su cuenta de ID de Apple en la ventana abierta.
+1. Select *AdGuard VPN - Unlimited & Fast* from the list of suggested apps and tap *Download*. Si es necesario, introduce la contraseña de su cuenta de ID de Apple en la ventana abierta.
 
     ![AdGuard VPN *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/adguard-vpn-en.png)
 

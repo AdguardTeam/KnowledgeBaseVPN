@@ -11,7 +11,11 @@ Vous pouvez utiliser AdGuard VPN gratuitement, mais il y aura alors certaines re
 - Seuls certains des emplacements de serveur sont disponibles
 - Les clients de messagerie ne peuvent pas être utilisés pour envoyer des messages (sur iOS et Android)
 
-> Le dernier point doit être traité séparément : les utilisateurs gratuits d'AdGuard VPN pour iOS et Android ne peuvent pas envoyer d'e-mails dans les clients de messagerie. C'est impossible car nous bloquons le port 25, qui est utilisé pour les emails sortants, et ainsi nous réassurons contre le spam. Cependant, l'envoi d'e-mails avec des services de messagerie électronique en ligne fonctionne parfaitement bien. Et sur AdGuard VPN pour Android, vous pouvez ajouter des applications aux exclusions afin que les applications de messagerie fonctionnent également.
+:::note
+
+Le dernier point doit être traité séparément : les utilisateurs gratuits d'AdGuard VPN pour iOS et Android ne peuvent pas envoyer d'e-mails dans les clients de messagerie. C'est impossible car nous bloquons le port 25, qui est utilisé pour les emails sortants, et ainsi nous réassurons contre le spam. Cependant, l'envoi d'e-mails avec des services de messagerie électronique en ligne fonctionne parfaitement bien. Et sur AdGuard VPN pour Android, vous pouvez ajouter des applications aux exclusions afin que les applications de messagerie fonctionnent également.
+
+:::
 
 En même temps, vous pouvez acheter un abonnement pour obtenir une version illimitée de l'application. Un abonnement permet d'avoir plus d'avantages par rapport à un compte gratuit :
 

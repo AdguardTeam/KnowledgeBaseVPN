@@ -10,11 +10,11 @@ slug: /
 
 VPN 可以让用户与互联网上另一处网络创建安全的连接。
 
-最初，创建 VPN 是为了通过互联网安全地连接企业网络，以便人们可以从家里连接到企业网络。 这项技术还有很多其他用途：比如匿名上网，或防止在公共 Wi-Fi 下不被窥探。
+最初，创建 VPN 是为了通过互联网安全地连接企业网络，以便人们可以从家里连接到企业网络。 Today, this technology is used for many other things: for example, to browse the Internet anonymously or to protect your online activity from prying eyes while using public Wi-Fi.
 
-VPN 将用户的电脑或移动设备连接到服务器，并允许用户使用其他 IP 地址浏览网络。 因此，第三方观察者无法检测用户的真实 IP 地址，这使得追踪TA们几乎不可能。
+A VPN connects a user's computer or mobile device to a server and allows one to browse the net using a "cover" IP address. 因此，第三方观察者无法检测用户的真实 IP 地址，这使得追踪TA们几乎不可能。
 
-说到 VPN，首先提到的就是流量加密以及由此衍生出来的安全性。 但这意味着什么呢？ VPN 在用户的设备和远程服务器之间创建加密隧道。 您的所有网络流量都会经由此隧道，从而在此过程中保护您的数据。 对于外部观察者来说，用户的流量从 VPN 服务器流出，所以看起来用户的设备有这个服务器的 IP 地址。 这种“技巧”掩盖用户的身份和真实位置。
+The first thing that users mention in relation to VPN is traffic encryption and the security derived from it. 但这意味着什么呢？ VPN 在用户的设备和远程服务器之间创建加密隧道。 您的所有网络流量都会经由此隧道，从而在此过程中保护您的数据。 对于外部观察者来说，用户的流量从 VPN 服务器流出，所以看起来用户的设备有这个服务器的 IP 地址。 这种“技巧”掩盖用户的身份和真实位置。
 
 VPN 可用于：
 

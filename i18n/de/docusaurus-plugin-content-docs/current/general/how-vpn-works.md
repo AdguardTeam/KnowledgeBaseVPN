@@ -17,11 +17,11 @@ Auf diese Weise erfüllt ein VPN zwei wichtige Funktionen:
 
     Über eine Internetverbindung hinterlässt der Nutzer seinen digitalen Fußabdruck, der dann von Dritten analysiert und genutzt werden kann. Beispielsweise kann einer der von Ihnen besuchten Online-Shops Ihren Suchverlauf speichern und Ihnen darauf basierend seine Produkte durch gezielte Werbung anbieten. Oder die Geheimdienste, die Ihren Standort über die IP-Adresse Ihres Geräts erfahren und Ihre Identität festgestellt haben, können Ihre Aktivitäten im Internet heimlich überwachen. Darüber hinaus können Webbrowser und Internetdiensteanbieter Ihren Browserverlauf für ihre eigenen Zwecke nutzen, ihn an Werbetreibende verkaufen und ihn an Regierungsbehörden weitergeben. Mit VPN können Sie Ihre IP-Adresse verbergen und sie durch die IP-Adresse des VPN-Servers ersetzen, mit dem Sie verbunden sind. Auf diese Weise können Sie Ihre Privatsphäre wahren und anonym nach Informationen im Internet suchen.
 
-1. **Datenschutz** Wenn Sie sich mit einem unzuverlässigen oder öffentlichen Netzwerk verbinden, können die Daten auf Ihrem Gerät für Cyberkriminelle anfällig werden. Bankkartendaten, Benutzernamen und Passwörter, Passdaten – all diese Informationen können von Online-Betrügern abgefangen werden. Der VPN-Tunnel verschlüsselt die Informationen, die Sie über das Internet senden und empfangen, sodass sie nicht in falsche Hände geraten können.
+1. **Datenschutz** Wenn Sie sich mit einem unzuverlässigen oder öffentlichen Netzwerk verbinden, können die Daten auf Ihrem Gerät für Cyberkriminelle anfällig werden. Bankkartendaten, Benutzernamen und Passwörter, Passdaten – all diese Informationen können von Online-Betrügern abgefangen werden. The VPN tunnel encrypts the information you send to and receive from the Web, making it useless in the wrong hands.
 
 ## VPN-Struktur
 
-Wenn Sie sich mit einem Netzwerk verbinden, wird Ihrem Computer oder Mobilgerät eine eindeutige ID-Nummer oder IP-Adresse zugewiesen. Es besteht normalerweise aus Zahlen von 0 bis 255, die durch Punkte oder Doppelpunkte getrennt sind. Wenn man diese Sequenz kennt, kann man die Geolokalisierung des Geräts bestimmen. Die IP-Adresse wird normalerweise von Ihrem ISP festgelegt und ist bis zur gewünschten Ressource sichtbar. Aus diesem Grund kann der Webserver der Website, die Sie besuchen, Ihre IP-Adresse registrieren und aufzeichnen, was Sie angefordert haben. Dieser Datensatz kann dann hauptsächlich zur Datenerfassung und Verkehrsanalyse verwendet werden.
+Wenn Sie sich mit einem Netzwerk verbinden, wird Ihrem Computer oder Mobilgerät eine eindeutige ID-Nummer oder IP-Adresse zugewiesen. Es besteht normalerweise aus Zahlen von 0 bis 255, die durch Punkte oder Doppelpunkte getrennt sind. Wenn man diese Sequenz kennt, kann man die Geolokalisierung des Geräts bestimmen. The IP address is usually assigned by your ISP, and it will be visible all the way to the desired resource. Aus diesem Grund kann der Webserver der Website, die Sie besuchen, Ihre IP-Adresse registrieren und aufzeichnen, was Sie angefordert haben. Dieser Datensatz kann dann hauptsächlich zur Datenerfassung und Verkehrsanalyse verwendet werden.
 
 Ein VPN erstellt einen Tunnel zwischen Ihrem Gerät und dem VPN-Server. Ihre Daten durchlaufen diesen Tunnel, werden verschlüsselt und gelangen dann in gesicherter Form ins offene Internet. Für den Webserver sieht es daher so aus, als hätte Ihr Gerät nicht mehr Ihre echte IP-Adresse, sondern die IP-Adresse des Endpunkts des Tunnels, d. h. des VPN-Servers. Die Website, auf die Sie nach dem Durchqueren des VPN-Tunnels gelangen, wird also die Geolocation des von Ihnen gewählten VPN-Servers als Ihren tatsächlichen Standort betrachten. Und die verschlüsselten Daten fallen nicht in die Hände von Werbetreibenden, Hackern und Sicherheitsdiensten.
 
@@ -29,7 +29,7 @@ Ein VPN erstellt einen Tunnel zwischen Ihrem Gerät und dem VPN-Server. Ihre Dat
 
 ## Arten der VPN-Protokolle
 
-VPN-Sicherheitsprotokolle sind Hilfsmittel, die Daten in einem VPN-Tunnel verschlüsseln und es Ihnen ermöglichen, die Privatsphäre der Benutzer in einem offenen Internet zu wahren. Gegenwärtig verwenden die meisten modernen VPN-Dienste eines der folgenden drei VPN-Protokolle:
+VPN security protocols are tools that encrypt data in a VPN tunnel and allow you to maintain user privacy in the open Internet. Gegenwärtig verwenden die meisten modernen VPN-Dienste eines der folgenden drei VPN-Protokolle:
 
 1. [*IPSec*](https://en.wikipedia.org/wiki/IPsec). Einer der Hauptvorteile besteht darin, dass es auf den meisten Geräten und Betriebssystemen verfügbar ist und ein hohes Maß an Sicherheit bietet. Die Verwendung der doppelten [Verkapselung](https://en.wikipedia.org/wiki/Encapsulation_(networking)) in diesem Protokoll kann jedoch zu einer geringeren Verbindungsgeschwindigkeit führen.
 
@@ -47,15 +47,15 @@ Trotz der offensichtlichen Vorteile ist VPN nicht perfekt und hat einige Nachtei
 
 ### Geringere Geschwindigkeit
 
-Da Ihr Datenverkehr nicht direkt an den Webserver geht, sondern zunächst den VPN-Server durchläuft, verringert sich die Geschwindigkeit der VPN-Verbindung. Auch andere Faktoren beeinflussen die Geschwindigkeit bei der Nutzung eines VPN: die Auslastung des VPN-Servers, seine Bandbreite, die Kompatibilität des VPN-Protokolls mit Ihrem Betriebssystem. All diese Faktoren sowie die Geschwindigkeit des Netzwerks selbst können die Qualität Ihrer VPN-Verbindung beeinträchtigen.
+Da Ihr Datenverkehr nicht direkt an den Webserver geht, sondern zunächst den VPN-Server durchläuft, verringert sich die Geschwindigkeit der VPN-Verbindung. Auch andere Faktoren beeinflussen die Geschwindigkeit bei der Nutzung eines VPN: die Auslastung des VPN-Servers, seine Bandbreite, die Kompatibilität des VPN-Protokolls mit Ihrem Betriebssystem. All these factors, as well as the speed of the network itself, may impact the overall user experience of a VPN connection.
 
 ### Zugriffssperre
 
-Einige Online-Dienste unternehmen große Anstrengungen, um VPN-Verkehr zu erkennen und den Zugang für VPN-Nutzer zu sperren. Allerdings können nicht viele VPNs ihren Datenverkehr als normal maskieren. Daher enden viele Versuche, auf eine bestimmte Website zu gehen, ohne VPN zu deaktivieren, im Nichts.
+Einige Online-Dienste unternehmen große Anstrengungen, um VPN-Verkehr zu erkennen und den Zugang für VPN-Nutzer zu sperren. However, not many VPNs can mask themselves in such a way that they are only seen as regular traffic. Daher enden viele Versuche, auf eine bestimmte Website zu gehen, ohne VPN zu deaktivieren, im Nichts.
 
 ### Unterbrechung von VPN-Verbindungen
 
-Ein schwaches Signal, Netzwerküberlastung, VPN-Inkompatibilität mit einer Firewall, Antiviren- und anderen Programmen, ein veraltetes VPN-Protokoll – all dies kann insbesondere bei unzuverlässigen VPN-Anbietern zu einem plötzlichen Ausfall der VPN-Verbindung führen.
+A weak signal, network overload, VPN incompatibility with a firewall, antivirus and other programs, an outdated VPN protocol — all this can cause a sudden failure in the VPN connection, especially with unreliable VPN providers.
 
 ## AdGuard VPN
 

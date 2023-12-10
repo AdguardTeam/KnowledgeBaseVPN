@@ -19,7 +19,7 @@ AdGuard VPN は、 **iOS 11.2以降 および iPadOS 11.2以降**を搭載した
 
     ![Search *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/search-en.png)
 
-1. Select *AdGuard VPN - Unlimited & Fast* from the list of suggested applications and tap *Download*. If necessary, enter your Apple ID account password in the opened window.
+1. Select *AdGuard VPN - Unlimited & Fast* from the list of suggested apps and tap *Download*. If necessary, enter your Apple ID account password in the opened window.
 
     ![AdGuard VPN *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/adguard-vpn-en.png)
 

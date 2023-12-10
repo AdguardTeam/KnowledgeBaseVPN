@@ -3,7 +3,7 @@ title: Kako prikupiti i poslati evidencije
 sidebar_position: 2
 ---
 
-Ukoliko naiđete na problem prilikom korišćenja AdGuard VPN-a za iOS, o tome nas možete obavestiti slanjem evidencija aplikacije.
+If you encounter any problems while using AdGuard VPN for iOS, you can inform us about it by sending the app logs.
 
 ## Collecting and sending standard logs
 

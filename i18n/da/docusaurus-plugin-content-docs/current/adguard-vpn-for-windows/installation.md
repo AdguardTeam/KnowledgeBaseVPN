@@ -15,33 +15,33 @@ Markér dernæst afkrydsningsfeltet til accept af vilkår i hhv. EULA (Slutbruge
 
 ## AdGuard VPN til Windows — afinstallation
 
-Besluttes det at fjerne AdGuard VPN fra computeren, brug en af de tre muligheder angivet nedenfor.
+If you decide to remove AdGuard VPN from your computer, use one of three options listed below:
 
-1. Klik på *Start* og find AdGuard VPN på den viste liste. Højreklik på den og vælg *Afinstallér*.
-
-2. Klik på *Start* → *Indstillinger* → *Apps* → *Programmer og funktioner*. Find AdGuard VPN på listen over installerede programmer, og tryk på *Afinstallér*.
-
-3. Åbn *Kontrolpanel*, og klik dernæst på *Programmer* → *Programmer og funktioner* → *Afinstallér eller ændr et program*. Find og højreklik på AdGuard VPN på listen, og vælg *Afinstallér*.
+- Click *Start* and find AdGuard VPN in the opened list. Right-click it and select *Uninstall*.
+- Click *Start* → *Settings* → *Apps* → *Apps and features*. Find AdGuard VPN in the list, click it and choose *Uninstall*.
+- Open the *Control Panel*, then click *Programs* → *Programs and Features* → *Uninstall or change a program*. Find AdGuard VPN in the list, right-click it and select *Uninstall*.
 
 ### Avanceret afinstallation {#advanced}
 
 Fungerer alm. afinstallation af en eller anden grund ikke, kan en avanceret metode prøves. Først trin er at [downloade afinstallationsværktøjet](https://cdn.adtidy.org/distr/windows/Uninstall_Utility.zip) fra vores udviklere. Udpak arkivet til en mappe på PC'en, og kør filen **Adguard.UninstallUtility.exe**, og tillad appen at foretage ændringer på enheden. Følg dernæst vejledningen nedenfor:
 
-- Vælg *Standard afinstallation*, ***Slet AdGuard VPN*** og klik på *Afinstallér*.
+1. Choose *Standard uninstall*, *Delete AdGuard VPN*, and click *Uninstall*
 
-    ![Standardafinstallation *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/standard_uninstall.png)
+    ![Standard uninstall *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/standard_uninstall.png)
 
-- Afvent afinstallationens færdiggørelse — en tekst vil fremgå i vinduet: `[OK] Afinstallation afsluttet`
+1. Wait until uninstall is finished
 
-    ![Afinstallation afsluttet *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/standard_uninstall_2.png)
+    ![Uninstall finished *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/standard_uninstall_2.png)
 
-    > Følg kun de næste trin, såfremt gennemførelsen af de første to trin viser sig utilstrækkelig. Det anbefales kraftigt at kontakte vores supportteam før brug af trin 3-4 i avanceret afinstallationsvejledning.
+    :::note Follow the next steps only if performing the first two steps wasn’t enough for some reason. We strongly recommend contacting our support team before using steps 3–4 of the advanced uninstall instructions.
 
-- Vælg *Avanceret afinstallation*, ***Slet AdGuard VPN*** og klik på *Afinstallér*.
+    :::
+
+1. Choose *Advanced uninstall*, *Delete AdGuard VPN*, and click *Uninstall*
 
     ![Avanceret afinstallation *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/advanced_uninstall.png)
 
-- Afvent afinstallationens færdiggørelse — en tekst vil fremgå i vinduet: `[OK] Afinstallation afsluttet`
+1. Wait until uninstall is finished
 
     ![Afinstallation afsluttet *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/advanced_uninstall_2.png)
 

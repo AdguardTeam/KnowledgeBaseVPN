@@ -5,7 +5,7 @@ sidebar_position: 1
 
 ## 什么是 Android版 AdGuard VPN?
 
-VPN 是一个在用户每次浏览互联网时提供安全性和匿名性的理想工具。 [它是如何工作的？](/general/how-vpn-works)在不讨论技术细节的情况下，我们可以说 VPN 在用户的计算机或移动设备与远程 VPN 服务器之间创建了一条安全的加密隧道。 通过这种方式，数据的保密性以及用户的匿名性得以保留，因为第三方观察者看到的是 VPN 服务器的 IP 地址而不是用户的实际 IP。
+VPN 是一个在用户每次浏览互联网时提供安全性和匿名性的理想工具。 [How does it work?](/general/how-vpn-works) Without going into technical details, we can say that VPN creates a secure encrypted connection (called a tunnel) between a user's device and a remote VPN server. 通过这种方式，数据的保密性以及用户的匿名性得以保留，因为第三方观察者看到的是 VPN 服务器的 IP 地址而不是用户的实际 IP。
 
 **VPN 经常用于以下几项：**
 
@@ -21,9 +21,9 @@ VPN 是一个在用户每次浏览互联网时提供安全性和匿名性的理�
 
 ## 主屏幕
 
-主屏幕上有两个栏，反映应用程序的状态（连接/断开连接）和选择的排除模式（[常规/选择](#lists-of-exclusions)）。 在同一个屏幕上，还有一个*连接/断开连接*的按钮和一个可用的服务器列表。
+The main screen reflects the VPN status (Connected/Disconnected). There are also the *Connect/Disconnect* button and a list of available servers.
 
-每个服务器旁边都有位置和 Ping。Ping 是指服务器的响应时间。 数值越低，用户的连接就越快。 最快的响应时间总是显示在列表的顶部，包括位于几十个国家的五十多个服务器位置。 用户可以通过点击*连接/断开连接*按钮或选择一个节点连接到最快的服务器。
+每个服务器旁边都有位置和 Ping。Ping 是指服务器的响应时间。 The lower this rate, the faster the connection. The fastest servers always appear at the top of the list that consists of more than 50 locations in dozens of countries. You can connect to the fastest server by tapping the *Connect* button or by picking a location.
 
 ## 排除项
 
@@ -31,9 +31,11 @@ VPN 是一个在用户每次浏览互联网时提供安全性和匿名性的理�
 
 ### 排除项列表
 
-排除项列表允许用户选择应启用 VPN 和禁用 VPN 的网站。 要转到*排除项*部分，请点击屏幕底部左侧第二个图标。
+#### For websites
 
-有两种模式：*在常规模式下*，排除项列表内的网站被排除，而*在选择性模式下*，AdGuard VPN 仅在列表内的网站上运作。
+Exclusion lists allow you to manage the VPN connection for specific websites and apps. To access *Exclusions*, tap the second icon from the left at the bottom of the screen. 要转到*排除项*部分，请点击屏幕底部左侧第二个图标。
+
+There are two modes: in *General mode*, websites from the list of exclusions are excluded, and in *Selective mode*, they will be the only ones where AdGuard VPN works.
 
 用户可以通过三种方式将网站的域名（如 `google.com`）或子域名（如 `*.google.com`）添加到*排除项*中：在应用程序中手动输入，直接从浏览器中点击*共享*按钮，在下面打开的列表中选择 AdGuard VPN，或者从按类别划分的内置服务列表中。
 
@@ -45,26 +47,32 @@ VPN 是一个在用户每次浏览互联网时提供安全性和匿名性的理�
 
 :::
 
-由于用户可以在服务列表中启用子域，我们增加了显示每个服务状态的方框，您可以在*排除项*的主屏幕上每个服务名称左边看到它们：**完全启用**状态用绿色背景上的白色复选标记，**完全禁用**则用灰色方框，以及**部分启用**，是指一个或多个参数被改变，用白色背景上的绿色方框。 好消息是：用户可以随时返回服务列表的默认视图，以防您从那里删除或禁用任何网域。
+As you can enable subdomains in service lists, we added boxes that reflect the status of each service — you can see them on the main screen of *Exclusions* to the left of each service name:
+
+- **Fully enabled** is indicated by a white check mark on a green background
+- **Partially enabled** (enabled subdomains without the main domain) is marked with a green square on a white background
+- **Fully disabled** is marked with a blank checkbox
+
+ 好消息是：用户可以随时返回服务列表的默认视图，以防您从那里删除或禁用任何网域。
 
 ![排除 *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/statuses.png)
 
 另一个好用的功能是*导入/导出排除项*。 一共只有四个步骤就能导入/导出排除项：
 
 1. 在您想要导出排除项列表的设备或浏览器里打开 AdGuard VPN。 找到相应的部分并单击「*导出*」按钮。 `adguard_vpn_exclusions.zip` 档案将被下载。
-2. 档案中有两个 `.txt` 文件，*常规模式*的列表和*选择模式*的列表。 用户可以在其中添加更多的排除项，删除现有的排除项，重命名文件（下面还有更多详情），或者也可以将存档中的文件内容保持不变。
+2. There are two `.txt` files inside the archive, one for each of the lists. 用户可以在其中添加更多的排除项，删除现有的排除项，重命名文件（下面还有更多详情），或者也可以将存档中的文件内容保持不变。
 3. 在不同设备之间传输时，不要忘记将 `.zip` 文件发送到设备上进行导入。 例如，如果您将排除项列表从自己的 Windows 设备导入到安卓设备，确保先将 `.zip` 文件发送到安卓设备。
 4. 在要导入存档的设备上打开 AdGuard VPN，其中包含要应用的排除项列表。 找到相应的部分，单击「*导入*」按钮并选择存档。
 
 ![导入/导出 *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/imp-exp.png)
 
-### 应用程序设置
+#### For apps
 
-正如我们上面提到的，不仅是网站可以很容易地添加到排除项中。 用户可以选择哪些应用程序需要通过 AdGuard VPN 发送流量，哪些不需要。 点击屏幕底部的*排除项列表*图标旁边的图标，前往应用程序设置。 AdGuard VPN 默认适用于所有应用程序，但用户可以在列表中的任何应用程序旁边点击关闭，并为其禁用 AdGuard VPN。
+正如我们上面提到的，不仅是网站可以很容易地添加到排除项中。 Choose for which apps you need AdGuard VPN and for which you don't. By default, AdGuard VPN works for all apps, but you can easily switch to the other mode.
 
-如果启用与 AdGuard 的*兼容模式*，您只能通过 AdGuard 广告拦截程序管理应用程序。 因此，当您点击按钮后，AdGuard 应用程序将被启用。
+In *Integrated mode*, you can only manage apps through AdGuard Ad Blocker.
 
-![应用设置 *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/apps_settings.png)
+![App exclusions *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/apps_settings.png)
 
 ## 设置
 
@@ -78,7 +86,7 @@ VPN 是一个在用户每次浏览互联网时提供安全性和匿名性的理�
 
 ### DNS 服务器
 
-[域名系统](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns) (DNS) 的目的是将网站的名称“翻译”成浏览器可以识别的代码，即 IP 地址。 DNS 服务器执行此操作。 安卓版 AdGuard VPN 提供几个 DNS 服务器，每个都有无与伦比的质量。 例如，[AdGuard DNS](https://adguard-dns.io/kb/) 可以删除广告并防止用户的设备被追踪，而 AdGuard DNS 家庭保护则将 AdGuard DNS 的功能与安全搜索和成人内容拦截相结合。 用户也可以添加一个自定义 DNS 服务器。
+DNS servers translate websites' names into something browsers can understand, i.e. IP addresses. AdGuard VPN for Android offers a wide selection of DNS servers, each with special qualities. For example, [AdGuard DNS](https://adguard-dns.io/kb/) removes ads and protects your device from tracking while AdGuard DNS Family Protection combines the functions of AdGuard DNS with Safe search and adult content blocking. 用户也可以添加一个自定义 DNS 服务器。
 
 ### 自动保护
 
@@ -98,13 +106,13 @@ VPN 是一个在用户每次浏览互联网时提供安全性和匿名性的理�
 
 ### 高级设置
 
-在「*高级设置*」中，用户可以找到五个部分。 您可以切换上部方块中的开关*帮助我们变得更好*。 这样您允许 AdGuard VPN 收集崩溃报告、技术和互动数据。 这些信息将以匿名方式传送。
+In *Advanced settings*, you can find four sections.
 
-*操作模式*部分允许用户在三个选项中选择一个，即 VPN、代理和兼容模式。 在 *VPN 模式*下，所有流量都会自动通过 AdGuard VPN 路由。 当*代理模式*（SOCKS5）打开时，AdGuard VPN 运行一个本地代理服务器，其他应用程序可以经过它路由流量。 只要您了解如何操作，才能选择该选项。 启用的*兼容模式*允许 AdGuard VPN 和 AdGuard 广告拦截程序一起工作。
+*Operating mode* allows you to specify how your traffic is routed. There are three modes: VPN, SOCKS5, and Integrated mode. In the *VPN* mode, all traffic is routed through AdGuard VPN. In the *SOCKS5* mode, AdGuard VPN runs a local proxy server that can be used by other apps for traffic routing. *Integrated mode* allows AdGuard VPN and AdGuard Ad Blocker to work together.
 
 :::注意
 
-请注意，AdGuard VPN 的一些功能在*兼容模式*下被禁用，比如 DNS 服务器选择、Kill Switch 和自动保护。 此外，要管理应用程序的隧道，您应该打开 AdGuard 广告拦截程序。
+Some AdGuard VPN features are disabled in *Integrated mode*: DNS servers, Kill Switch, Auto-protection, and app exclusions. You can manage DNS protection and route apps through your AdGuard VPN proxy in the AdGuard Ad Blocker app.
 
 :::
 

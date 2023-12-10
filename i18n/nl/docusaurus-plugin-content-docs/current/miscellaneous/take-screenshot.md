@@ -30,7 +30,7 @@ Op Android 8 en hoger is er ook een mogelijkheid om een schermafbeelding te make
 
 Als deze methode niet werkt, controleer dan *Instellingen* → *Geavanceerde functies* → *Bewegingen en gebaren* → inschakelen *Veeg met de handpalm om vast te leggen*.
 
-Bovendien kun je altijd speciale toepassingen gebruiken om schermafbeeldingen op jouw apparaten te maken, bijvoorbeeld - *Screenshot Easy*, *Screenshot Ultimate*, *Screenshot Snap*, enz.
+Besides, you can always use any special apps for taking screenshots on your devices, for example — *Screenshot Easy*, *Screenshot Ultimate*, *Screenshot Snap*, etc.
 
 ### iOS
 
@@ -48,11 +48,15 @@ Jouw iOS-apparaat legt het volledige scherm vast en slaat het op als foto. Je vi
 
 ### Windows
 
-- **Om in Windows een schermafbeelding te maken, druk je op de knop *PrtScn***
+- **To take a screenshot on a Windows device, press the *PrtScn* button**
 
-Op sommige notebooks moet je *Fn* ingedrukt houden en vervolgens op *PrtScn* drukken.
+On some devices, you first have to press and hold *Fn* before pressing *PrtScn*.
 
-*Let op: de knop PrtScn (Print Screen) kan op verschillende toetsenborden verschillend worden afgekort: PrntScrn, PrtScn, PrtScr of PrtSc.*
+:::note
+
+PrtScn (Print Screen) can be differently abbreviated on various keyboards — PrntScrn, PrtScn, PrtScr or PrtSc.
+
+:::
 
 Windows legt het volledige scherm vast en kopieert dit naar het (onzichtbare) klembord.
 
@@ -64,17 +68,17 @@ Om een schermafbeelding van een specifiek gebied te maken, moet je de volgende c
 
 - ***Houd *Win* (de Windows-knop) en *Shift* ingedrukt en druk op ***S******
 
-Nadat je een schermafbeelding hebt gemaakt, wordt deze opgeslagen op het klembord. In de meeste gevallen kun je het in een document plakken dat je momenteel aan het bewerken bent door de knopcombinatie *Ctrl + V* te gebruiken. Als alternatief, als je de schermafbeelding in een bestand wilt opslaan, kun je het standaard **Paint** -programma openen (of een andere app die met afbeeldingen kan werken). Plak je schermafbeelding daar met dezelfde knoppencombinatie of door op de knop Plakken te klikken (meestal in de linkerbovenhoek van het scherm) en sla deze vervolgens op.
+Nadat je een schermafbeelding hebt gemaakt, wordt deze opgeslagen op het klembord. Usually, you will then be able to paste it into a document using the standard button combination *Ctrl + V*. Als alternatief, als je de schermafbeelding in een bestand wilt opslaan, kun je het standaard **Paint** -programma openen (of een andere app die met afbeeldingen kan werken). Plak je schermafbeelding daar met dezelfde knoppencombinatie of door op de knop Plakken te klikken (meestal in de linkerbovenhoek van het scherm) en sla deze vervolgens op.
 
 Met Windows 8 en 10 kun je heel snel een schermafbeelding maken met een combinatie van *Win + PrtScn*. Zodra je op deze knoppen drukt, wordt de schermafbeelding automatisch opgeslagen als bestand in jouw map Afbeeldingen → Schermafbeeldingen.
 
-Er is ook een speciaal programma voor het maken van schermafbeeldingen genaamd *Knippen en aantekenen* dat je kunt vinden via het Start-menu tussen de standaardprogramma's van je computer. Met het Knippen en aantekenen-programma kun je elk deel van jouw bureaublad of het hele scherm vastleggen. Nadat je met dit programma een schermafbeelding hebt gemaakt, kun je de afbeelding bewerken en opslaan in een map op je computer.
+Er is ook een speciaal programma voor het maken van schermafbeeldingen genaamd *Knippen en aantekenen* dat je kunt vinden via het Start-menu tussen de standaardprogramma's van je computer. Met het Knippen en aantekenen-programma kun je elk deel van jouw bureaublad of het hele scherm vastleggen. After taking a screenshot using this program you can edit the picture and then save it.
 
 Bovendien kun je ook proberen verschillende apps te gebruiken voor het maken van schermafbeeldingen op jouw computer, zoals **PicPick**, **Nimbus Screenshot**, **Screenshot Captor**, **Snipaste**, **Monosnap**, enz.
 
 ### macOS
 
-Om een schermafbeelding te maken op een Mac, gebruik je de volgende knoppencombinatie:
+To take a screenshot on a Mac device, use the following button combination:
 
 - ***Houd ***⌘ Cmd + Shift + 3***samen ingedrukt***
 

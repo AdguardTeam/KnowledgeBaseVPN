@@ -18,11 +18,15 @@ Problém můžete vyřešit dvěma způsoby:
     - Sedmkrát klepněte na řádek **Číslo sestavení**. Poté se zobrazí oznámení **Nyní jste vývojářem** (v případě potřeby zadejte kód pro odemčení zařízení);
     - Otevřete **Nastavení systému** → **Možnosti pro vývojáře** → přejeďte dolů a zapněte **USB ladění** → po pečlivém přečtení varování potvrďte, že je ladění povoleno v okně **Povolit ladění USB**.
 
-    > Pokud máte nějaké potíže nebo otázky, úplné pokyny naleznete [zde](https://developer.android.com/studio/debug/dev-options).
+    :::note Pokud máte nějaké potíže nebo otázky, úplné pokyny naleznete [zde](https://developer.android.com/studio/debug/dev-options).
+
+    :::
 
 1. [Instalace a konfigurace](https://www.xda-developers.com/install-adb-windows-macos-linux/) ADB;
 
-    > Na platformě Windows mohou majitelé zařízení **Samsung** potřebovat nainstalovat [tento nástroj](https://developer.samsung.com/mobile/android-usb-driver.html).
+    :::note Na platformě Windows mohou majitelé zařízení **Samsung** potřebovat nainstalovat [tento nástroj](https://developer.samsung.com/mobile/android-usb-driver.html).
+
+    :::
 
 1. Připojte zařízení pomocí **USB kabelu** k počítači nebo notebooku, na který jste nainstalovali **ADB**;
 
@@ -37,7 +41,11 @@ Problém můžete vyřešit dvěma způsoby:
 
 Jak spravovat uživatelské účty ze zařízení se systémem Android můžete [zjistit zde](https://support.google.com/a/answer/6223444?hl=en).
 
-> Upozorňujeme, že v některých případech jsou uživatelské účty s omezeným přístupem vytvořeny implicitně a nelze je odstranit. Například při používání funkcí Duální Messenger nebo Duální aplikace na zařízeních **Samsung** nebo **LG**. Níže si přečtěte, jak v těchto případech problém vyřešit.
+:::note
+
+V některých případech jsou uživatelské účty s omezeným přístupem vytvořeny implicitně a nelze je odstranit. Například při používání funkcí Duální Messenger nebo Duální aplikace na zařízeních **Samsung** nebo **LG**. Níže si přečtěte, jak v těchto případech problém vyřešit.
+
+:::
 
 ### Zařízení LG a Samsung
 

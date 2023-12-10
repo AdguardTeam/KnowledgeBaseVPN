@@ -7,6 +7,6 @@ AdGuard VPN har VPN-driftstilstanden aktiveret som standard, der bruger sin egen
 
 1. Åbn AdGuard VPN til Android, og vælg tandhjulsikonet nederst til højre på skærmen.
 
-2. Gå til "Avancerede indstillinger" og vælg "Driftstilstand".
+2. Go to *Advanced settings* and select *Operating mode*.
 
-3. Skift tilstanden til *Kompatibilitetstilstand med AdGuard*. Færdig!
+3. Switch to *Integrated mode*. Færdig!

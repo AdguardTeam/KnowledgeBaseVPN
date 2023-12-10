@@ -45,7 +45,7 @@ AdGuard VPN의 훌륭한 기능 중 하나는 지연 시간을 기반으로 위�
 
 ## 5. AdGuard 광고 차단기와의 결합
 
-바이러스 백신이나 비슷한 유형의 소프트웨어들을 제외한다면 데스크톱 앱과 브라우저 확장 프로그램을 동시에 사용해도 앱 간의 충돌이 일어나는 일은 드뭅니다.
+With desktop apps and web browser extensions, there are rarely conflicts between apps, except for antiviruses and other similar types of software.
 
 그러나 모바일 기기에서는 간단한 문제가 아닙니다. 대부분의 경우 두 가지의 VPN 기반 앱들은 동시에 작동하지 않습니다. Android와 iOS 모두 이를 막는 제한 사항이 존재합니다.
 
@@ -55,7 +55,7 @@ AdGuard VPN의 훌륭한 기능 중 하나는 지연 시간을 기반으로 위�
 
 ## 6. QUIC 지원
 
-[QUIC](https://adguard-dns.io/en/blog/dns-over-quic.html#whatisquic) is a cutting-edge protocol that has many perks. The main advantage is it can improve the connection quality in non-ideal conditions – for example, on mobile devices or when connecting to public Wi-Fi. Although the new protocol won’t affect speed when the connection is fine and stable, it will definitely make the situation better for users with slow Internet.
+[QUIC](https://adguard-dns.io/en/blog/dns-over-quic.html#whatisquic) is a cutting-edge protocol that has many perks. The main advantage is it can improve the connection quality in non-ideal conditions — for example, on mobile devices or when connecting to public Wi-Fi. Although the new protocol won’t affect speed when the connection is fine and stable, it will definitely make the situation better for users with slow Internet.
 
 :::caution
 
@@ -67,7 +67,7 @@ The QUIC protocol is rather new and may be unstable. We cannot guarantee its com
 
 ## 7. 킬 스위치
 
-Kill Switch is essential if you, for instance, often use a mobile network or connect to public Wi-Fi networks in malls, cafes, on the subway or at the airport. For the simple reason — if VPN will suddenly drop and the connection will become insecure, chances are that your sensitive information will be exposed to fraudsters or cyber criminals.
+Kill Switch is essential if you, for instance, often use a mobile network or connect to public Wi-Fi networks in malls, cafes, on the subway or at the airport. For the simple reason that if your VPN suddenly fails and the connection becomes insecure, chances are your sensitive information will be exposed to fraudsters or cyber criminals.
 
 If for some reason your VPN connection is interrupted, Kill Switch will automatically disconnect you from the Internet, keeping attackers away from seizing your information.
 
@@ -93,7 +93,7 @@ Those who don’t have a subscription, can use AdGuard VPN on *two devices simul
 
 Streaming services don't like VPNs for obvious reasons: according to statistics, about 20% of users install a VPN mainly to watch shows, TV shows and movies bypassing geo-blocking. That's why streaming platforms tend to do everything they can to track VPN traffic and block it.
 
-But what if you want to feel safe while watch content specific to your region? Or don't want stop watching exciting series even when you travel to another country? The answer is simple — AdGuard VPN, which thanks to its unique protocol can remain invisible to services.
+But what if you want to feel safe while watching content specific to your region? Or don't want to stop watching exciting series even when you travel to another country? The answer is simple — AdGuard VPN, which thanks to its unique protocol can remain invisible to services.
 
 We don't endorse the use of AdGuard VPN to bypass copyright regulations.
 

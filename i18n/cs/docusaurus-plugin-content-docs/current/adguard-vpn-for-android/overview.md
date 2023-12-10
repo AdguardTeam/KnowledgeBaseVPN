@@ -5,7 +5,7 @@ sidebar_position: 1
 
 ## Co je AdGuard VPN pro Android?
 
-VPN je ideální nástroj, který zajišťuje bezpečnost a anonymitu při každém procházení internetu. [Jak funguje?](/general/how-vpn-works) Aniž bychom zacházeli do technických podrobností, můžeme říci, že VPN vytváří bezpečný šifrovaný tunel mezi počítačem nebo mobilním zařízením uživatele a vzdáleným serverem VPN. Tímto způsobem je zachována důvěrnost dat i anonymita uživatele, protože pozorovatel třetí strany vidí IP adresu serveru VPN, a nikoli skutečnou IP adresu uživatele.
+VPN je ideální nástroj, který zajišťuje bezpečnost a anonymitu při každém procházení internetu. [Jak funguje?](/general/how-vpn-works) Aniž bychom zacházeli do technických podrobností, můžeme říci, že VPN vytváří bezpečné šifrované spojení (tzv. tunel) mezi zařízením uživatele a vzdáleným serverem VPN. Tímto způsobem je zachována důvěrnost dat i anonymita uživatele, protože pozorovatel třetí strany vidí IP adresu serveru VPN, a nikoli skutečnou IP adresu uživatele.
 
 **VPN se často používá pro:**
 
@@ -21,9 +21,9 @@ Nejprve stáhněte AdGuard VPN z [Obchodu Play](https://play.google.com/store/ap
 
 ## Hlavní obrazovka
 
-Na hlavní obrazovce jsou dva panely, které odrážejí stav aplikace (Připojeno/Odpojeno) a zvolený režim výjimek ([Obecný/Selektivní](#lists-of-exclusions)). Na stejné obrazovce je také tlačítko *Připojit/Odpojit* a seznam dostupných serverů.
+Na hlavní obrazovce je zobrazen stav VPN (Připojeno/odpojeno). Je zde také tlačítko *Připojit/odpojit* a seznam dostupných serverů.
 
-U každého serveru je uvedeno jeho umístění a hodnota ping, která popisuje dobu odezvy serveru. Čím nižší je tato hodnota, tím rychlejší je připojení. Nejrychlejší možnosti se vždy zobrazují v horní části seznamu, který obsahuje více než 50 umístění v desítkách zemí. K nejrychlejšímu serveru se můžete připojit klepnutím na tlačítko *Připojit/Odpojit* nebo výběrem umístění.
+U každého serveru je uvedeno jeho umístění a hodnota ping, která popisuje dobu odezvy serveru. Čím nižší je tato hodnota, tím rychlejší je připojení. Nejrychlejší servery se vždy objevují v horní části seznamu, který obsahuje více než 50 umístění v desítkách zemí. K nejrychlejšímu serveru se můžete připojit klepnutím na tlačítko *Připojit* nebo výběrem umístění.
 
 ## Výjimky
 
@@ -31,9 +31,11 @@ Udělali jsme vše pro to, abychom vám usnadnili správu seznamů výjimek web�
 
 ### Seznamy výjimek
 
-Seznamy výjimek umožňují vybrat weby, pro které má být VPN zapnuta a pro které vypnuta. Do sekce *Výjimky* se dostanete klepnutím na druhou ikonu zleva ve spodní části obrazovky.
+#### Pro webové stránky
 
-Existují dva režimy: v *Obecném režimu* jsou vyloučeny weby ze seznamu výjimek a v *Selektivním režimu* jsou to jen ty weby, kde AdGuard VPN funguje.
+Seznamy výjimek vám umožňují spravovat připojení VPN pro konkrétní webové stránky a aplikace. Do sekce *Výjimky* se dostanete klepnutím na druhou ikonu zleva ve spodní části obrazovky. Do sekce *Výjimky* se dostanete klepnutím na druhou ikonu zleva ve spodní části obrazovky.
+
+Existují dva režimy: v *Obecném režimu* jsou vyloučeny webové stránky ze seznamu výjimek a v *Selektivním režimu* jsou to jen ty, kde AdGuard VPN funguje.
 
 Domény (např. `google.com`) nebo subdomény (např. `*.google.com`) webových stránek můžete do *Výjimek* přidat třemi způsoby: zadejte je ručně v aplikaci nebo přímo z prohlížeče kliknutím na tlačítko *Sdílet* a výběrem AdGuard VPN v otevřeném seznamu níže, nebo z vestavěných seznamů služeb rozdělených podle kategorií.
 
@@ -45,26 +47,32 @@ Při ručním přidávání domén existují určité nuance. Pokud například 
 
 :::
 
-Vzhledem k tomu, že v seznamech služeb můžete povolit subdomény, přidali jsme pole, která odrážejí stav každé služby — můžete je vidět na hlavní obrazovce v sekci *Výjimky* vlevo od názvu každé služby: **zcela povoleno** stav je označen bílým zaškrtnutím na zeleném pozadí., **zcela zakázáno** — s šedým rámečkem a **částečně povoleno**, což znamená, že byl změněn jeden nebo více parametrů — se zeleným čtverečkem na bílém pozadí. Dobrá zpráva: vždy se můžete vrátit k výchozímu zobrazení seznamů služeb, pokud jste z nich odstranili nebo zakázali některé domény.
+Vzhledem k tomu, že v seznamech služeb můžete povolit subdomény, přidali jsme pole, která odrážejí stav každé služby — můžete je vidět na hlavní obrazovce *Výjimky* vlevo od názvu každé služby:
+
+- **Plně povoleno** je označeno bílým zaškrtnutím na zeleném pozadí
+- **Částečně povoleno** (povolené subdomény bez hlavní domény) je označeno zeleným čtvercem na bílém pozadí
+- **Plně zakázáno** je označeno prázdným zaškrtávacím políčkem
+
+ Dobrá zpráva: vždy se můžete vrátit k výchozímu zobrazení seznamů služeb, pokud jste z nich odstranili nebo zakázali některé domény.
 
 ![Exclusions *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/statuses.png)
 
 Další užitečnou funkcí je *Import/Export výjimek*. K dosažení cíle vedou pouhé čtyři kroky:
 
 1. Otevřete AdGuard VPN v zařízení/prohlížeči, ze kterého chcete exportovat seznamy výjimek. Vyhledejte příslušný oddíl a klikněte na tlačítko *Exportovat*. Stáhne se archiv `adguard_vpn_exclusions.zip`.
-2. Uvnitř archivu jsou dva soubory `.txt`, jeden pro *Obecný* a druhý pro *Selektivní* seznam. Můžete k nim přidat další výjimky, odstranit stávající, přejmenovat soubory (ale o tom až později) nebo nechat archiv se soubory tak, jak je.
+2. Uvnitř archivu jsou dva soubory `.txt`, jeden pro každý ze seznamů. Můžete k nim přidat další výjimky, odstranit stávající, přejmenovat soubory (ale o tom až později) nebo nechat archiv se soubory tak, jak je.
 3. Při přenosu mezi různými zařízeními nezapomeňte odeslat soubor `.zip` do zařízení pro import. Pokud například importujete seznamy výjimek ze zařízení se systémem Windows do systému Android, nezapomeňte soubor `.zip` předem odeslat do systému Android.
 4. Otevřete AdGuard VPN v zařízení, do kterého chcete importovat archiv s připravenými seznamy výjimek. Vyhledejte příslušnou sekci, klikněte na tlačítko *Importovat* a vyberte archiv.
 
 ![Import/Export *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/imp-exp.png)
 
-### Nastavení aplikací
+#### Pro aplikace
 
-Jak jsme uvedli výše, do výjimek lze snadno přidat nejen webové stránky. Vyberte, pro které aplikace potřebujete AdGuard VPN a pro které ne. Klepnutím na ikonu vedle ikony *Seznam výjimek* v dolní části obrazovky otevřete nastavení aplikací. Ve výchozím nastavení funguje AdGuard VPN se všemi aplikacemi, ale můžete přepnout posuvník vedle libovolné aplikace v seznamu — a AdGuard VPN pro ni zakázat.
+Jak jsme uvedli výše, do výjimek lze snadno přidat nejen webové stránky. Vyberte, pro které aplikace potřebujete AdGuard VPN a pro které ne. Ve výchozím nastavení funguje AdGuard VPN pro všechny aplikace, ale můžete snadno přepnout do jiného režimu.
 
-Pokud je povolen *režim kompatibility* s AdGuardem, můžete spravovat aplikace pouze prostřednictvím blokátoru reklam AdGuard. Proto se po klepnutí na tlačítko otevře aplikace AdGuard.
+V *Režimu integrace* můžete aplikace spravovat pouze prostřednictvím Blokátoru reklam AdGuard.
 
-![Apps settings *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/apps_settings.png)
+![App exclusions *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/apps_settings.png)
 
 ## Nastavení
 
@@ -78,7 +86,7 @@ Posuvník přepnutý doprava umožňuje automatické spuštění AdGuard VPN po 
 
 ### DNS servery
 
-Účelem [decentralizovaného systému doménových názvů](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns) (DNS) je převádět názvy webových stránek na něco, čemu prohlížeče rozumí, tj. na IP adresy. Tuto úlohu vykonávají DNS servery. AdGuard VPN pro Android nabízí výběr z několika DNS serverů, z nichž každý má specifické vlastnosti. Například [AdGuard DNS](https://adguard-dns.io/kb/) odstraňuje reklamy a chrání vaše zařízení před sledováním, zatímco AdGuard DNS Family Protection kombinuje funkce AdGuard DNS s funkcí bezpečného vyhledávání a blokování obsahu pro dospělé. K dispozici je také možnost přidat vlastní DNS server.
+Servery DNS překládají názvy webových stránek do podoby srozumitelné prohlížečům, tj. do podoby IP adres. AdGuard VPN pro Android nabízí výběr z několika DNS serverů, z nichž každý má specifické vlastnosti. Například [AdGuard DNS](https://adguard-dns.io/kb/) odstraňuje reklamy a chrání vaše zařízení před sledováním, zatímco AdGuard DNS Family Protection kombinuje funkce AdGuard DNS s funkcí bezpečného vyhledávání a blokování obsahu pro dospělé. K dispozici je také možnost přidat vlastní DNS server.
 
 ### Automatická ochrana
 
@@ -98,13 +106,13 @@ Můžete si vybrat systémový, tmavý nebo světlý motiv aplikace.
 
 ### Pokročilá nastavení
 
-V části *Pokročilá nastavení* najdete pět sekcí. Přepnutím tlačítka *Pomozte nám vylepšit AdGuard* v horní části nám můžete pomoci. Tato akce umožní AdGuard VPN shromažďovat hlášení o pádech aplikace, technické údaje a údaje o interakci. Tyto informace budou získávány anonymně.
+V části *Pokročilá nastavení* najdete čtyři sekce.
 
-Sekce *Provozní režim* umožňuje vybrat jednu ze tří možností: Režim VPN, Proxy a Režim kompatibility. V *Režimu VPN* je veškerý provoz automaticky směrován přes AdGuard VPN. Pokud je zapnutý *Režim Proxy* (SOCKS5), AdGuard VPN spustí místní proxy server, který mohou využívat jiné aplikace ke směrování svého provozu přes něj. Tuto možnost vyberte pouze v případě, že víte, co děláte. Zapnutí *Režimu kompatibility* umožňuje spolupráci AdGuard VPN s blokátorem reklam AdGuard.
+*Pracovní režim* vám umožňuje určit, jak je směrován váš provoz. K dispozici jsou tři režimy: VPN, SOCKS5 a Režim integrace. V režimu *VPN* je veškerý provoz směrován skrze AdGuard VPN. V režimu *SOCKS5* provozuje AdGuard VPN místní proxy server, který mohou ostatní aplikace používat pro směrování provozu. *Režim integrace* umožňuje AdGuard VPN a Blokátoru reklam AdGuard spolupracovat.
 
 :::note
 
-Některé funkce AdGuard VPN jsou v *Režimu kompatibility* zakázány: výběr DNS serveru, Kill Switch a automatická ochrana. Chcete-li spravovat tunelování aplikací, měli byste také otevřít blokátor reklam AdGuard.
+Některé funkce AdGuard VPN jsou v *Režimu integrace* deaktivovány: DNS servery, Kill Switch, Automatická ochrana a výjimky aplikací. V aplikaci Blokátor reklam AdGuard můžete spravovat ochranu DNS a směrovat aplikace prostřednictvím proxy serveru AdGuard VPN.
 
 :::
 

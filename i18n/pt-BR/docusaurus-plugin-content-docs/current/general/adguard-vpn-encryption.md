@@ -5,9 +5,9 @@ sidebar_position: 7
 
 ## Introdução
 
-A criptografia é a razão pela qual a palavra "privado" existe no termo "Rede Privada Virtual". Uma VPN cria um túnel entre seu dispositivo e um servidor VPN, passando por onde seus dados são criptografados e depois entram na Internet aberta de forma segura. O processo de criptografia, ou seja, transformar dados em rabiscos que ninguém que os intercepta possa ler, é essencial para qualquer serviço VPN.
+A criptografia é a razão pela qual a palavra "privado" existe no termo "Rede Privada Virtual". A VPN creates a tunnel between your device and a VPN server, passing through which your data is encrypted and then securely transmitted to the open Internet. O processo de criptografia, ou seja, transformar dados em rabiscos que ninguém que os intercepta possa ler, é essencial para qualquer serviço VPN.
 
-O protocolo AdGuard VPN usa o algoritmo de criptografia mais seguro e rápido até hoje – AES-256. Saiba o que é e porque é tão bom.
+The AdGuard VPN protocol uses the most secure and fast encryption algorithm to date — AES-256. Saiba o que é e porque é tão bom.
 
 ## Tour histórico da AES
 
@@ -23,6 +23,6 @@ AES é uma cifra de bloco com uma chave simétrica. Como uma cifra de chave sim�
 
 Existem diferentes tamanhos de chave — 128, 192 e 256 bits — e os blocos também são medidos em bits. Durante o processo de criptografia, o criptografador substitui cada informação por outra, dependendo da chave de segurança. Assim, por exemplo, o AES-256 cria 256 blocos de texto cifrado a partir de 256 blocos de texto simples em 14 rodadas.
 
-As rodadas consistem em várias etapas: dividir os dados em blocos, trocar bytes, deslocar linhas e reorganizar colunas. O resultado é um conjunto de caracteres completamente aleatório, que só fará sentido com uma chave de criptografia.
+As rodadas consistem em várias etapas: dividir os dados em blocos, trocar bytes, deslocar linhas e reorganizar colunas. The result is a completely random set of characters that will only make sense when using the right encryption key.
 
-AES-256 é o nível mais forte de criptografia: para quebrar essa cifra, um agente mal-intencionado terá que tentar 2.256 combinações discretas, cada uma composta por 78 dígitos.
+AES-256 is the strongest level of encryption: to break this cipher, 2256 discrete combinations, each consisting of 78 digits, would have to be tried.
