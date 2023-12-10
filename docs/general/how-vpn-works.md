@@ -77,7 +77,7 @@ Our VPN service has several important [advantages](/general/why-adguard-vpn):
 
 Currently, AdGuard VPN is available as:
 
-- [Browser extension](/adguard-vpn-browser-extension/overview) for Chrome, Firefox, and Edge
+- [Browser extension](/adguard-vpn-browser-extension/overview) for Chrome, Edge, Firefox, and Opera
 
 - Mobile app for [Android](/adguard-vpn-for-android/overview) and [iOS](/adguard-vpn-for-ios/overview)
 

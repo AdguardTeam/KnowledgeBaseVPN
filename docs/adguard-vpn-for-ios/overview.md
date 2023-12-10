@@ -22,7 +22,7 @@ To use AdGuard VPN for iOS, first you need to log into your [AdGuard account](ht
 
 If you don't have an AdGuard account yet, you will have to create it first.
 
-Using AdGuard VPN is quite easy. On the main screen you can see the *Connect/Disconnect* button and the list of available servers. There servers have their own location (a certain country and a city) and ping indicator. The ping describes the the server's response time (in milliseconds). Choosing the server with a ping of 22 ms means that a data packet sent to this server is returned (received again) after 22 ms. In AdGuard VPN you can choose among over 50 locations in dozens of countries.
+Using AdGuard VPN is quite easy. On the main screen you can see the *Connect/Disconnect* button and the list of available servers. There servers have their own location (a certain country and a city) and ping indicator. The ping shows the server's response time (in milliseconds). Choosing the server with a ping of 22 ms means that a data packet sent to this server is returned (received again) after 22 ms. In AdGuard VPN you can choose among over 50 locations in dozens of countries.
 
 ![Main screen and locations *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/1.png?123)
 

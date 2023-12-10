@@ -13,25 +13,29 @@ This option is only available if you have an AdGuard VPN subscription and your r
 
 ## How to set up AdGuard VPN on your router
 
-- In your [AdGuard account](https://auth.adguard.com/login.html), select AdGuard VPN
-- Under *Devices*, click *Add router*
+1. In your [AdGuard account](https://auth.adguard.com/login.html), select AdGuard VPN.
+1. Under *Devices*, click *Add router*.
 
     ![Add router *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/general/2_year.jpg)
 
-- Select the desired VPN server location and generate credentials
+1. Select the desired VPN server location and generate credentials.
 
     ![Generate credentials *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/general/configure_router.png)
 
-Please note that the next steps may vary depending on your router. We have used the Keenetic router as an example.
+    :::note
 
-- In your admin page, go to the router settings
-- Enable *VPN Client* and click *Add VPN server*
-- Select IPsec-client (it may be called IKE; not L2TP/IPsec)
-- Enter the credentials you created in step 3
+    The next steps may vary depending on your router. We have used the Keenetic router as an example.
+
+    :::
+
+1. In your admin page, go to the router settings.
+1. Enable *VPN Client* and click *Add VPN server*.
+1. Select IPsec-client (it may be called IKE; not L2TP/IPsec).
+1. Enter the credentials you created in step 3.
 
     ![Enter the credentials *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/general/vpn_connection.jpg)
 
-- Connect devices to your router
+1. Connect devices to your router.
 
 :::note
 
