@@ -31,11 +31,11 @@ The main screen reflects the VPN status (Connected/Disconnected). There are also
 
 ### VPN対象からの除外（サイト除外）
 
-#### For websites
-
 Exclusion lists allow you to manage the VPN connection for specific websites and apps. To access *Exclusions*, tap the second icon from the left at the bottom of the screen. メイン画面下部の左から2番目のアイコンをタップすると、「*VPN対象からの除外*」画面に移動します。
 
-There are two modes: in *General mode*, websites from the list of exclusions are excluded, and in *Selective mode*, they will be the only ones where AdGuard VPN works.
+By default, AdGuard VPN works for all websites and apps except those added to exclusions, but you can easily switch to the other mode.
+
+#### For websites
 
 Webサイトのドメイン (例: `google.com`) またはサブドメイン (例: `*.google.com`) を *対象外リスト* に追加するには、3つの方法があります：　①アプリで手入力する　②ブラウザで *共有* ボタンをクリックして、下の開いたリストで「AdGuard VPN」を選択する　③サービスの既存カテゴリ別リストから選択する
 
@@ -68,7 +68,7 @@ As you can enable subdomains in service lists, we added boxes that reflect the s
 
 #### For apps
 
-Webサイトだけでなく、端末上のアプリごともVPN対象外にすることができます。 Choose for which apps you need AdGuard VPN and for which you don't. By default, AdGuard VPN works for all apps, but you can easily switch to the other mode.
+Webサイトだけでなく、端末上のアプリごともVPN対象外にすることができます。 Choose for which apps you need AdGuard VPN and for which you don't.
 
 In *Integrated mode*, you can only manage apps through AdGuard Ad Blocker.
 
@@ -112,7 +112,7 @@ In *Advanced settings*, you can find four sections.
 
 :::note
 
-Some AdGuard VPN features are disabled in *Integrated mode*: DNS servers, Kill Switch, Auto-protection, and app exclusions. You can manage DNS protection and route apps through your AdGuard VPN proxy in the AdGuard Ad Blocker app.
+Some AdGuard VPN features are disabled in *Integrated mode*: DNS servers, Kill Switch, Auto-protection, and App exclusions. You can manage DNS protection and route apps through your AdGuard VPN proxy in the AdGuard Ad Blocker app.
 
 :::
 

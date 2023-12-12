@@ -46,7 +46,9 @@ AdGuard VPN has several features that make it unique, and one of them is definit
 3. 在不同设备之间传输时，不要忘记将 `.zip` 文件发送到设备上进行导入。 例如，如果您将排除项列表从自己的 Mac 设备导入到 iPhone 设备，确保先将 `.zip` 文件发送到手机上。
 4. 在要导入存档的设备/浏览器上打开 AdGuard VPN，其中包含要应用的排除项列表。 找到相应的部分，单击「*导入*」按钮并选择存档。 完成！
 
-:::note Archive files from other devices can be similarly imported to your AdGuard VPN for Mac.
+:::note
+
+Archive files from other devices can be similarly imported to your AdGuard VPN for Mac.
 
 :::
 
@@ -68,7 +70,7 @@ AdGuard VPN has several features that make it unique, and one of them is definit
 
 前四个基本功能提高应用程序的用户友好性，即 *Kill Switch*、 *自动更新*、 *随系统启动自动运行 AdGuard VPN* 和*在应用程序启动时自动连接*。 此外，用户可以在浅色、深色和系统主题之间进行选择。系统主题与您 Mac 上的主题相匹配。
 
-You can also allow AdGuard VPN to gather and send anonymized crash reports, technical and interaction data in order to help us improve our app. Last but not least, you can export logs from your Mac. 如果您想将日志附加到您的消息以提供客服支持，本功能很有用。
+You can also allow AdGuard VPN to gather and send anonymous crash reports, technical and interaction data in order to help us improve our app. Last but not least, you can export logs from your Mac. 如果您想将日志附加到您的消息以提供客服支持，本功能很有用。
 
 ### DNS 服务器
 

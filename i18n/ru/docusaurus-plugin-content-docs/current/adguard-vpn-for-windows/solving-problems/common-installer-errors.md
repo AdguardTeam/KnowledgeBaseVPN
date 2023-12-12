@@ -91,7 +91,7 @@ sidebar_position: 2
 
 Очень вероятно, что вы ранее устанавливали AdGuard VPN.
 
-- Проверьте, установлен ли AdGuard VPN на вашем компьютере. Вы можете сделать это, нажав клавишу *Win* и начав печатать *adguard vpn*.
+- Проверьте, установлен ли AdGuard VPN на вашем компьютере. To do that, press the *Win* key and start typing *adguard vpn*.
 
 - Может быть, у вас остались файлы от предыдущей установки AdGuard VPN. Удалите AdGuard с помощью нашего специального [инструмента удаления](/adguard-vpn-for-windows/installation#advanced), а затем повторите установку.
 

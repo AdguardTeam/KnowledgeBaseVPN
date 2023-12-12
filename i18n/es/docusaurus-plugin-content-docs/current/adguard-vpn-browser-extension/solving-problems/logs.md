@@ -67,7 +67,7 @@ Ahora que has recopilado los registros, debes enviarlos a nuestro equipo de desa
 
     ![Consola *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/ff_console.png)
 
-1. Haga clic en *Guardar todos los mensajes en el archivo*
+1. Click *Save all Messages to File*
 
     ![Guardar * border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/save-to-file.png)
 

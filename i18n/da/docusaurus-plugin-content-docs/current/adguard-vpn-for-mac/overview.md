@@ -7,7 +7,7 @@ AdGuard VPN til Mac er en computer VPN-tjeneste. AdGuard VPN er fuldt ud kompati
 
 Bemærk, at **AdGuard VPN til Mac ikke kan bruges, medmindre man er logget ind på en AdGuard-konto**. Man kan enten logge ind med AdGuard-kontoen eller med en ekstern konto via Apple, Google eller Facebook. Sørg for, at den eksterne konto er tilknyttet den samme e-mailadresse som AdGuard-kontoen. Er der et passende abonnement i AdGuard-kontoen, aktiveres det automatisk i computer-appen. Har stadig ingen AdGuard-konto? [Opret en hér](https://auth.adguard.com/registration.html).
 
-:::note Compatibility
+:::note Kompatibilitet
 
 AdGuard VPN til Mac understøttes pt. på macOS-versioner startende med macOS Catalina (10.15).
 
@@ -15,9 +15,9 @@ AdGuard VPN til Mac understøttes pt. på macOS-versioner startende med macOS Ca
 
 ## Startskærm
 
-![Home screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/main_en.png)
+![Startskærm](https://cdn.adguardvpn.com/content/kb/vpn/mac/main_en.png)
 
-Den første fane er skærmen *Start*. Her kan man se AdGuard VPNs aktuelle status, [undtagelsestilstand](#exclusions) og valgte placering (hvis aktiveret) samt dens ping. Ping er en VPN-servers svartid. Consequently, the lower this number, the faster the connection. Hvis VPN er deaktiveret, vises den sidste placering, der har været oprettet forbindelse til, nedenfor. De hurtigste placeringer med de laveste ping vises i øverste til højre på skærmen. Nedenfor kan ses den fulde liste over placeringer. Via søgefunktionen kan den ønskede placering let findes.
+Den første fane er skærmen *Start*. Her kan man se AdGuard VPNs aktuelle status, [undtagelsestilstand](#exclusions) og valgte placering (hvis aktiveret) samt dens ping. Ping er en VPN-servers svartid. Jo lavere dette tal er, des hurtigere er forbindelsen. Hvis VPN er deaktiveret, vises den sidste placering, der har været oprettet forbindelse til, nedenfor. De hurtigste placeringer med de laveste ping vises i øverste til højre på skærmen. Nedenfor kan ses den fulde liste over placeringer. Via søgefunktionen kan den ønskede placering let findes.
 
 :::note
 
@@ -29,7 +29,7 @@ Gratis-brugere kan kun oprette forbindelse til bestemte placeringer, mens andre 
 
 ![Undtagelser](https://cdn.adguardvpn.com/content/kb/vpn/mac/exclusions_en.png)
 
-AdGuard VPN has several features that make it unique, and one of them is definitely *Exclusions*. By default, AdGuard VPN will run on all websites and in all apps but the ones from the exclusions list. But you can switch to the other mode, so AdGuard VPN will run only on websites and in apps from the exclusions list.
+AdGuard VPN har flere funktioner, som gør den unik, og én af dem er afgjort *Undtagelser*. Som standard vil AdGuard VPN køre på alle websteder og i alle apps, undtagen dem på undtagelseslisten. Man kan dog skifte til den anden tilstand, så AdGuard kun VPN kører på websteder og i apps på undtagelseslisten.
 
 ![Skærmen Undtagelser](https://cdn.adguardvpn.com/content/kb/vpn/mac/services_en.png)
 
@@ -46,7 +46,9 @@ Endvidere kan færdiglavede undtagelseslister overføres til andre enheder, hvor
 3. Ved overførsel mellem forskellige enheder, så husk at sende `.zip`-filen til enheden til import. Importeres f.eks. undtagelseslister fra Mac til iPhone, sørg da for først at sende `.zip`-filen til mobilen.
 4. Åbn AdGuard VPN på/i enheden/browseren, hvor arkivet med undtagelseslisterne skal importeres. Find det relevante afsnit, klik på knappen *Importér* og vælg arkivet. Færdig!
 
-:::note Archive files from other devices can be similarly imported to your AdGuard VPN for Mac.
+:::note
+
+Archive files from other devices can be similarly imported to your AdGuard VPN for Mac.
 
 :::
 
@@ -68,13 +70,13 @@ Til sidst er der fanen Indstillinger. I afsnittet *Om program* kan man se det ak
 
 De første fire basisfunktioner gør applikationen mere bekvem og brugervenlig, dvs. *Kill Switch*, *Auto-opdatering*, *Start AdGuard VPN ved login*og *Auto-tilslut ved app-start*. Derudover kan der vælges mellem lyse, mørke og systemtemaer – sidstnævnte matcher temaet på Mac'en.
 
-You can also allow AdGuard VPN to gather and send anonymized crash reports, technical and interaction data in order to help us improve our app. Last but not least, you can export logs from your Mac. Dette kan være nyttigt, hvis disse ønskes vedhæftet en besked til supporten.
+You can also allow AdGuard VPN to gather and send anonymous crash reports, technical and interaction data in order to help us improve our app. Sidst, men ikke mindst, kan man eksportere logfiler fra Mac'en. Dette kan være nyttigt, hvis disse ønskes vedhæftet en besked til supporten.
 
 ### DNS-servere
 
 ![DNS-servere](https://cdn.adguardvpn.com/content/kb/vpn/mac/dns_en.png)
 
-Her kan tilføjes en tilpasset DNS-server (eller flere) for ikke at være afhængig af den af internetudbyderen leverede standard DNS-server. We recommend adding AdGuard DNS, which not only encrypts your DNS traffic but also identifies requests to malicious websites and redirects them to a “blackhole”.
+Her kan tilføjes en tilpasset DNS-server (eller flere) for ikke at være afhængig af den af internetudbyderen leverede standard DNS-server. Vi anbefaler at tilføje AdGuard DNS, der ikke alene krypterer DNS-trafikken, men også identificerer forespørgsler til ondsindede websteder og omdirigerer dem til et "sort hul" ("black hole").
 
 ### Avancerede indstillinger
 
@@ -82,7 +84,7 @@ Her kan tilføjes en tilpasset DNS-server (eller flere) for ikke at være afhæn
 
 #### Logningsniveau
 
-Der er kun to logningsniveauer, men brug af det første, standardniveauet, anbefaler kraftigt. Det anden niveau (udvidet logning) bør kun vælges til registrering af unormal programadfærd i samråd med vores tekniske support. If you have enabled the extended logging level, make sure to switch to the default one after recording logs.
+Der er kun to logningsniveauer, men brug af det første, standardniveauet, anbefaler kraftigt. Det anden niveau (udvidet logning) bør kun vælges til registrering af unormal programadfærd i samråd med vores tekniske support. Har man aktiveret udvidet logningsniveau, sørg da for at skifte til standardniveauet efter generering af logfiler.
 
 #### Skjul menubjælkeikon
 

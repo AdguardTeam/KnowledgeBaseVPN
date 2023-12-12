@@ -17,9 +17,9 @@ sidebar_position: 4
 
 一般来说，您应该在安卓系统使用以下按钮组合：
 
-- **同时按住*音量*和*电源键*按钮 1-2 秒**
+- **Press and hold both the *Volume Down* and the *Power* buttons for 1–2 seconds**
 
-您的安卓设备将捕获整个屏幕并将其保存为照片。 您可以在「相册」的「截屏」文件夹中找到该屏幕快照。
+Android will capture the entire screen and save it as a photo. 您可以在「相册」的「截屏」文件夹中找到该屏幕快照。
 
 但是，正如上述所言，在一些特定的设备上可能会存在差异。 让我们来看看其他可能的组合：
 
@@ -44,7 +44,7 @@ Besides, you can always use any special apps for taking screenshots on your devi
 
 - **同时按下*睡眠/唤醒*按钮和*增大音量*按钮，然后迅速松开它们**
 
-您的 iOS 设备将捕获整个屏幕，并将其另存为照片。 您可以在照片应用中找到它。
+iOS will capture the entire screen and save it as a photo. 您可以在照片应用中找到它。
 
 ### Windows
 
@@ -58,7 +58,7 @@ PrtScn (Print Screen) can be differently abbreviated on various keyboards — Pr
 
 :::
 
-Windows 捕获整个屏幕并将其复制到剪贴板。
+Windows will capture the entire screen and copy it to the (invisible) clipboard.
 
 要获取活动窗口的屏幕截图，请使用以下组合：
 
@@ -82,7 +82,7 @@ To take a screenshot on a Mac device, use the following button combination:
 
 - ***同时按住 ***⌘Cmd + Shift + 3******
 
-Mac 会捕获整个屏幕，并将其另存为在桌面上的文件。
+Mac will capture the entire screen and save it as a file on the desktop.
 
 要获取活动窗口的屏幕截图，请使用以下组合：
 

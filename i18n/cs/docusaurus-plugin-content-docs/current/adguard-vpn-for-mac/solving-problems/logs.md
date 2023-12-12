@@ -17,7 +17,9 @@ Ve výchozím nastavení používá AdGuard VPN pro macOS standardní úroveň z
 
 4. Vedle položky **Odeslat podrobné systémové informace** je zaškrtávací políčko, což znamená, že při odesílání hlášení se odesílají také protokoly.
 
-:::note Pokud je pro vás z nějakého důvodu pohodlnější poslat nám protokoly jiným způsobem, můžete je exportovat sami. Chcete-li to provést, zvolte **Nastavení** → **Obecné** → **Exportovat protokoly** v sekci **Akce** vpravo.
+:::note
+
+Pokud je pro vás z nějakého důvodu pohodlnější poslat nám protokoly jiným způsobem, můžete je exportovat sami. Chcete-li to provést, zvolte **Nastavení** → **Obecné** → **Exportovat protokoly** v sekci **Akce** vpravo.
 
 :::
 
@@ -41,7 +43,7 @@ Ve většině případů je výchozí úroveň záznamů dostatečná pro dohled
 
 :::note
 
-Pokud je pro vás z nějakého důvodu pohodlnější poslat nám protokoly jiným způsobem, můžete je exportovat sami. Chcete-li to provést, zvolte **Nastavení** → **Obecné** → **Exportovat protokoly** v sekci **Akce** vpravo.
+If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. Chcete-li to provést, zvolte **Nastavení** → **Obecné** → **Exportovat protokoly** v sekci **Akce** vpravo.
 
 :::
 

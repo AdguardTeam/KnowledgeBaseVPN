@@ -33,7 +33,9 @@ Pokud běžná odinstalace z nějakého důvodu nefunguje, můžete zkusit pokro
 
     ![Uninstall finished *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/standard_uninstall_2.png)
 
-    :::note Další kroky proveďte pouze v případě, že provedení prvních dvou kroků z nějakého důvodu nestačilo. Důrazně doporučujeme kontaktovat náš tým podpory před použitím kroků 3.-4. pokročilého pokynu k odinstalaci.
+    :::note
+
+    Follow the next steps only if performing the first two steps wasn’t enough for some reason. Důrazně doporučujeme kontaktovat náš tým podpory před použitím kroků 3.-4. pokročilého pokynu k odinstalaci.
 
     :::
 

@@ -17,13 +17,15 @@ På denne vis udfører et VPN to vigtige funktioner:
 
     På en internetforbindelse efterlader brugeren et digitale fodaftryk, der derefter kan analyseres og bruges af tredjeparter. F.eks. kan en onlinebutik gemme den besøgendes søgehistorik og derefter tilbyde deres produkter baseret herpå via målrettet annoncering. Ligeledes kan efterretningstjenester, som har udledt brugerens placering via enhedens IP-adresse og samt fastslået den reelle identitet, i hemmelighed overvåge brugerens aktivitet på nettet. Derudover kan webbrowsere og internetudbydere bruge browserhistorikken til egne formål, samt sælge den til annoncører og videregive den til offentlige myndigheder. VPN muliggør at skjule de reelle IP-adresse og erstatte den med IP-adressen på den VPN-server, man er forbundet til. På denne måde vil man kunne bevare sin fortrolighed og anonymt søge efter information på nettet.
 
-1. **Databeskyttelse** Oprettes forbindelse til et upålideligt eller offentligt netværk, kan dataene på enheden blive sårbare over for cyberkriminelle. Bankkortoplysninger, brugernavne og adgangskoder, pasdata — alle disse data kan opsnappes af onlinesvindlere. The VPN tunnel encrypts the information you send to and receive from the Web, making it useless in the wrong hands.
+1. **Data protection**
+
+    If you connect to an unreliable or public network, the data on your device may become vulnerable to cybercriminals. Bankkortoplysninger, brugernavne og adgangskoder, pasdata — alle disse data kan opsnappes af onlinesvindlere. The VPN tunnel encrypts the information you send to and receive from the Web, making it useless in the wrong hands.
 
 ## VPN-struktur
 
 Når der oprettes forbindelse til et netværk, tildeles en computer eller mobilenhed et unikt ID-nummer eller IP-adresse. Det består normalt af tal fra 0 til 255, adskilt af prikker eller koloner. Vha. denne sekvens kan enhedens geografiske placering bestemmes. The IP address is usually assigned by your ISP, and it will be visible all the way to the desired resource. Webserveren på det besøgte websted kan derfor registrere både IP-adressen, og hvad der er anmodet om. Denne post kan så primært bruges til dataindsamling og trafikanalyse.
 
-Et VPN opretter en krypteret tunnel mellem brugerens enhed og en VPN-server. Dataene passerer igennem denne tunnel, krypteres og kommer derefter ud på det åbne internet i en sikker form. Webserveren registrerer derfor tunnelslutpunktets IP-adresse, altså VPN-serverens, og dermed ikke den af internetudbyderen tildelte enheds IP-adresse. Efter forespørgslens passage igennem VPN-tunnelen, vil det besøgte websted derfor betragte geolokationen af den valgte VPN-server som den reelle placering. De krypterede data vil derfor heller ikke falde i hænderne på annoncører, hackere og sikkerhedstjenester.
+Et VPN opretter en krypteret tunnel mellem brugerens enhed og en VPN-server. Dataene passerer igennem denne tunnel, krypteres og kommer derefter ud på det åbne internet i en sikker form. The web server therefore registers the IP address of the endpoint of the tunnel, meaning the VPN server, and thus not the device's real IP address. Efter forespørgslens passage igennem VPN-tunnelen, vil det besøgte websted derfor betragte geolokationen af den valgte VPN-server som den reelle placering. De krypterede data vil derfor heller ikke falde i hænderne på annoncører, hackere og sikkerhedstjenester.
 
 ![VPN-struktur](https://cdn.adguardvpn.com/public/Adguard/Website/Images/seo/en/how_vpn_3.jpg)
 
@@ -71,7 +73,7 @@ Vores VPN-tjeneste har flere vigtige [fordele](/general/why-adguard-vpn):
 
 Pt. er AdGuard VPN tilgængelig som:
 
-- [Webbrowserudvidelse](/adguard-vpn-browser-extension/overview) til Chrome, Firefox og Edge
+- [Browser extension](/adguard-vpn-browser-extension/overview) for Chrome, Edge, Firefox, and Opera
 
 - Mobil-app til [Android](/adguard-vpn-for-android/overview) og [iOS](/adguard-vpn-for-ios/overview)
 

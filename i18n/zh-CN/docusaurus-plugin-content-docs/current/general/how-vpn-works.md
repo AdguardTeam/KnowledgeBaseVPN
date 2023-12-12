@@ -17,13 +17,15 @@ VPN 是一种虚拟专用网络，有助于隐藏用户的位置并保护的个�
 
     在使用互联网连接时，用户会留下数字足迹，这些足迹会被第三方分析和使用。 例如，你访问过的某个网店可以保存你的搜索历史，这样他们就可以有针对性地向你推送产品。 或者，一些别有用心的人通过你设备的 IP 地址得知你的位置并确定你的真实身份，然后就可以秘密监控你在网上的一举一动。 不仅如此，浏览器和网络服务提供商都有可能会为了自己的利益去利用你的浏览记录，并且将其出售给广告商或提供给政府机构。 VPN 可以让你隐藏实际 IP 地址，转而用你所连接的 VPN 服务器的 IP 地址进行代替。 这样你就能保护自己的隐私，并在网上匿名搜索信息。
 
-1. **数据保护**：如果您连接到不可靠的网络或公共网络，你设备上的数据可能会容易受到网络犯罪分子的攻击。 银行卡详情、用户名和密码、护照数据，所有这些数据都可能被网络欺诈者截获。 The VPN tunnel encrypts the information you send to and receive from the Web, making it useless in the wrong hands.
+1. **Data protection**
+
+    If you connect to an unreliable or public network, the data on your device may become vulnerable to cybercriminals. 银行卡详情、用户名和密码、护照数据，所有这些数据都可能被网络欺诈者截获。 The VPN tunnel encrypts the information you send to and receive from the Web, making it useless in the wrong hands.
 
 ## VPN 结构
 
 当你连接到网络时，你的电脑或移动设备会被分配一个独特的 ID 号，也就是 IP 地址。 它通常由从 0 到 255 的数字组成，用点或冒号隔开。 知道了这个序列，就可以确定设备的地理位置。 The IP address is usually assigned by your ISP, and it will be visible all the way to the desired resource. 因此，你访问的网站的网络服务器可以注册您的 IP 地址并记录你的请求。 这类记录主要用于数据收集和流量分析。
 
-VPN 在用户设备和 VPN 服务器之间建立了一个隧道。 你的数据通过这个隧道得到加密，然后以安全的形式进入公开网络。 所以，在网络服务器看来，你的设备不再有你的真实 IP 地址，而是隧道端点的 IP 地址，即 VPN 服务器。 于是，你通过 VPN 隧道访问的网站会将你所选的 VPN 服务器位置视为你的真实位置。 并且加密后的数据不会落入广告商、黑客和安全服务机构的手中。
+VPN 在用户设备和 VPN 服务器之间建立了一个隧道。 你的数据通过这个隧道得到加密，然后以安全的形式进入公开网络。 The web server therefore registers the IP address of the endpoint of the tunnel, meaning the VPN server, and thus not the device's real IP address. 于是，你通过 VPN 隧道访问的网站会将你所选的 VPN 服务器位置视为你的真实位置。 并且加密后的数据不会落入广告商、黑客和安全服务机构的手中。
 
 ![VPN 结构](https://cdn.adguardvpn.com/public/Adguard/Website/Images/seo/en/how_vpn_3.jpg)
 
@@ -71,7 +73,7 @@ A weak signal, network overload, VPN incompatibility with a firewall, antivirus 
 
 目前，AdGuard VPN 有以下版本：
 
-- 适用于 Chrome、Firefox 和 Edge 的[浏览器扩展](/adguard-vpn-browser-extension/overview)
+- [Browser extension](/adguard-vpn-browser-extension/overview) for Chrome, Edge, Firefox, and Opera
 
 - 适用于[安卓](/adguard-vpn-for-android/overview)和 [iOS](/adguard-vpn-for-ios/overview) 的移动应用程序
 

@@ -11,7 +11,7 @@ AdGuard VPN has several functions:
 
 - 실제 위치를 숨기고 익명성을 유지합니다.
 - changes your IP address to protect your data from tracking
-- 사기꾼이나 해커가 액세스할 수 없도록 트래픽을 암호화합니다.
+- encrypts your traffic and makes contents inaccessible to scammers
 - VPN을 사용하는 사이트와 사용하지 않는 사이트를 구성할 수 있습니다 (예외 목록).
 
 iOS용 AdGuard VPN의 다음 장점은 자체 VPN 프로토콜입니다. It is extremely difficult to detect compared to other VPN protocols, and it is stable even with a poor Internet connection. You can [read more](/general/adguard-vpn-protocol) about the AdGuard VPN protocol.
@@ -22,7 +22,7 @@ iOS용 AdGuard VPN을 사용하려면 먼저 [AdGuard 계정](https://my.adguard
 
 아직 AdGuard 계정이 없다면 먼저 계정을 만드세요.
 
-AdGuard VPN을 사용하는 것은 매우 쉽습니다. 메인 화면에는 *연결/연결 해제* 버튼과 사용 가능한 서버 목록도 있습니다. 서버에는 자체 위치(특정 국가 및 도시)와 핑 표시기가 있습니다. The ping describes the the server's response time (in milliseconds). Choosing the server with a ping of 22 ms means that a data packet sent to this server is returned (received again) after 22 ms. AdGuard VPN을 사용하면 수십 개 국가의 50개 이상의 위치에서 서버를 선택할 수 있습니다.
+AdGuard VPN을 사용하는 것은 매우 쉽습니다. 메인 화면에는 *연결/연결 해제* 버튼과 사용 가능한 서버 목록도 있습니다. 서버에는 자체 위치(특정 국가 및 도시)와 핑 표시기가 있습니다. The ping shows the server's response time (in milliseconds). Choosing the server with a ping of 22 ms means that a data packet sent to this server is returned (received again) after 22 ms. AdGuard VPN을 사용하면 수십 개 국가의 50개 이상의 위치에서 서버를 선택할 수 있습니다.
 
 ![Main screen and locations *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/1.png?123)
 
@@ -61,7 +61,7 @@ iOS용 AdGuard VPN은 두 가지 모드(일반 및 통합)에서 작동할 수 �
 
 In **General** mode, the [AdGuard VPN protocol](/general/adguard-vpn-protocol) is employed, which provides the best combination of speed and security. 이 모드에서 AdGuard VPN은 [iOS용 AdGuard 광고 차단기](https://adguard.com/kb/adguard-for-ios/overview/)와 함께 작동할 수 없습니다.
 
-**통합 모드**에서 AdGuard VPN은 IPSec 프로토콜을 사용하여 iOS 광고 차단기용 AdGuard와 동시에 작동할 수 있습니다. IPSec 프로토콜도 안전하지만 조금 더 느리고 감지하기 쉽습니다. 통합 모드를 사용하려면 두 앱을 모두 설치하고 통합 모드로 전환하기만 하면 됩니다.
+In **Integrated** mode, AdGuard VPN will be able to work at the same time with AdGuard Ad Blocker for iOS by using the IPSec protocol instead. IPSec 프로토콜도 안전하지만 조금 더 느리고 감지하기 쉽습니다. 통합 모드를 사용하려면 두 앱을 모두 설치하고 통합 모드로 전환하기만 하면 됩니다.
 
 :::note
 
@@ -85,11 +85,11 @@ You can choose system default, dark or light theme of the app (available in iOS 
 
 ### 고급 설정
 
-In *Advanced settings* you can find two sections — Logging level and Diagnostic info. Concerning the first option it is not recommended to enable the Extended logging level unless requested by our support team. Diagnostic info, locally stored technical information about the device and connections (IP address, ID, ping, etc.), can be sent to us in case of any technical problems.
+In *Advanced settings* you can find two sections — Logging level and Diagnostic info. Concerning the first option, it is not recommended to enable the Extended logging level unless requested by our support team. Diagnostic info, locally stored technical information about the device and connections (IP address, ID, ping, etc.), can be sent to us in case of any technical problems.
 
 ## 퀵액션(iOS 13 이상 버전에서 사용 가능)
 
-To access this feature, touch and hold the app icon, then lift your finger. You'll see a list of Quick Actions: Connect/Disconnect to the currently selected server, Choose location to select a new server location. You can also, of course, access all default actions like removing the app or moving the app icon around.
+To access this feature, touch and hold the app icon, then lift your finger. You'll see quick actions: Connect/Disconnect, Select location, Edit Home Screen, and Remove app.
 
 ![Quick actions *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/quick-actions.png)
 

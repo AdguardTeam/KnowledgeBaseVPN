@@ -3,7 +3,7 @@ title: 'Sådan indsamles og indsendes logfiler'
 sidebar_position: 1
 ---
 
-If you encounter any problems while using AdGuard VPN for Mac, you can inform us about it by sending application logs.
+Opleves problemer under brug af AdGuard VPN til Mac, kan vi informeres herom ved indsendelse af app-logfiler.
 
 ## Indsamling og indsendelse af standardlogfiler
 
@@ -15,9 +15,11 @@ Som standard bruger AdGuard VPN til Mac logningsniveauet Standard, dvs. basisind
 
 3. Angiv i den viste formular en e-mailadresse for feedback og beskriv den fundne fejl, herunder tidspunktet, da denne opstod. Kan problemet ikke genskabes, angiv da så nøjagtigt som muligt, hvornår det senest opstod.
 
-4. There is a check mark next to the **Send detailed system info**, which means that when you send a report, you also send logs.
+4. Der er et flueben ud for **Indsend detaljeret systeminfo**, hvilket betyder, at når en anmeldelse indsendes, inkluderes logfiler ligeledes.
 
-:::note If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, select **Settings** → **General** → **Export logs** in the **Actions** section on the right.
+:::note
+
+Er det af en eller anden grund mere bekvemt at indsende logfiler på anden vis, kan man selv eksportere dem. Dette gøres ved at vælge **Indstillinger** → **Generelt** → **Eksportere logfiler** i afsnittet **Handlinger** til højre.
 
 :::
 
@@ -37,11 +39,11 @@ I de fleste tilfælde er logningsniveauet Standard tilstrækkeligt til at spore 
 
 6. Angiv i den viste formular en e-mailadresse for feedback og beskriv den fundne fejl, herunder tidspunktet, da denne opstod.
 
-7. Make sure that there is a check mark next to **Send detailed system info** and click **Send**.
+7. Sørg for, at der er et flueben ud for **Indsend detaljeret systeminfo**, og tryk på **Indsend**.
 
 :::note
 
-Er det af en eller anden grund mere bekvemt at indsende logfiler på anden vis, kan man selv eksportere dem. Dette gøres ved at vælge **Indstillinger** → **Generelt** → **Eksportere logfiler** i afsnittet **Handlinger** til højre.
+If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. Dette gøres ved at vælge **Indstillinger** → **Generelt** → **Eksportere logfiler** i afsnittet **Handlinger** til højre.
 
 :::
 

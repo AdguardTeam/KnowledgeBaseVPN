@@ -10,7 +10,7 @@ Indsamling af logfiler for AdGuard VPN-browserudvidelse kan ske på flere måder
 1. Åbn AdGuard VPN-browserudvidelsen, hvis det er muligt, og gentag handlingerne, som førte til fejlen. Notér det nøjagtige tidspunkt, hvor fejlen opstod.
 1. Åbn *Indstillinger* ved at klikke på hamburgermenuikonet (☰) → *Support* → *Anmeld en fejl*.
 1. Angiv i den åbnede formular en automatisk indsat e-mailadresse eller angiv en anden og beskriv den fundne fejl, herunder tidspunktet, hvor denne fejl opstod. Kan problemet ikke genskabes, så angiv så nøjagtigt som muligt, hvornår det senest opstod.
-1. Make sure that there is a check mark next to *Include the diagnostic report in the message* and tap *Submit*. På denne måde indsendes logfiler sammen med fejlrapporten.
+1. Sørg for, at der er sat flueben ved *Inkludér diagnosticeringsrapporten i meddelelsen*, og tryk på *Indsend*. På denne måde indsendes logfiler sammen med fejlrapporten.
 
 ## Indsamling og indsendelse af logfiler via knappen *Eksportér logfiler*
 
@@ -67,7 +67,7 @@ Nu, hvor logfilerne er indsamlet, skal de videregives til vores udviklingsteam. 
 
     ![Konsol *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/ff_console.png)
 
-1. Klik på *Gem alle meddelelser til fil*
+1. Click *Save all Messages to File*
 
     ![Gem *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/save-to-file.png)
 

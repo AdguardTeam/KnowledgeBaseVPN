@@ -17,9 +17,9 @@ Een schermafbeelding maken op een Android-apparaat kan op verschillende manieren
 
 Over het algemeen moet je voor Android de volgende knoppencombinatie gebruiken:
 
-- **Houd de knoppen *Volume omlaag* en *Aan/uit* tegelijkertijd 1-2 seconden ingedrukt**
+- **Press and hold both the *Volume Down* and the *Power* buttons for 1–2 seconds**
 
-Jouw Android-apparaat legt het volledige scherm vast en slaat het op als foto. Je kunt de schermafbeelding dus vinden in een map Schermafbeeldingen in je Galerij.
+Android will capture the entire screen and save it as a photo. Je kunt de schermafbeelding dus vinden in een map Schermafbeeldingen in je Galerij.
 
 Maar zoals al is gezegd, kunnen er verschillen zijn, afhankelijk van een bepaald apparaat. Laten we eens kijken naar andere mogelijke combinaties:
 
@@ -44,7 +44,7 @@ en deze voor iPhone X of nieuwer:
 
 - **Druk tegelijkertijd op de knop *Sleep/Wake* en de knop *Volume omhoog* en laat ze vervolgens snel los**
 
-Jouw iOS-apparaat legt het volledige scherm vast en slaat het op als foto. Je vindt het in een standaard Foto-app.
+iOS will capture the entire screen and save it as a photo. Je vindt het in een standaard Foto-app.
 
 ### Windows
 
@@ -58,7 +58,7 @@ PrtScn (Print Screen) can be differently abbreviated on various keyboards — Pr
 
 :::
 
-Windows legt het volledige scherm vast en kopieert dit naar het (onzichtbare) klembord.
+Windows will capture the entire screen and copy it to the (invisible) clipboard.
 
 Gebruik de volgende combinatie om een schermafbeelding van een actief venster te maken:
 
@@ -82,7 +82,7 @@ To take a screenshot on a Mac device, use the following button combination:
 
 - ***Houd ***⌘ Cmd + Shift + 3***samen ingedrukt***
 
-Je Mac legt het volledige scherm vast en slaat dit op als een bestand op het bureaublad.
+Mac will capture the entire screen and save it as a file on the desktop.
 
 Gebruik de volgende combinatie om een schermafbeelding van een actief venster te maken:
 

@@ -67,7 +67,7 @@ Agora que você coletou os logs, você precisa entregá-los à nossa equipe de d
 
     ![Console *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/ff_console.png)
 
-1. Clique em *Salvar todas as mensagens no arquivo*
+1. Click *Save all Messages to File*
 
     ![Salvar *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/save-to-file.png)
 

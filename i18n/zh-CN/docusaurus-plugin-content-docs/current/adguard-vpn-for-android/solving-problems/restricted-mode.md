@@ -18,13 +18,17 @@ sidebar_position: 4
     - 点击**版本号**7次。 之后，您会收到通知称**您已处于开发者模式**（有可能会要求您输入设备的解锁密码）；
     - Open **System Settings** → **Developer Options** → Scroll down and enable **USB debugging** → Confirm debugging is enabled in the window **Allow USB debugging** after reading the warning carefully.
 
-    :::note If you have any difficulties or additional questions, full instructions can be found [here](https://developer.android.com/studio/debug/dev-options).
+    :::note
+
+    If you have any difficulties or additional questions, full instructions can be found [here](https://developer.android.com/studio/debug/dev-options).
 
     :::
 
 1. [安装和配置](https://www.xda-developers.com/install-adb-windows-macos-linux/) ADB；
 
-    :::note On the Windows platform, **Samsung** owners may need to install [this utility](https://developer.samsung.com/mobile/android-usb-driver.html).
+    :::note
+
+    On the Windows platform, **Samsung** owners may need to install [this utility](https://developer.samsung.com/mobile/android-usb-driver.html).
 
     :::
 

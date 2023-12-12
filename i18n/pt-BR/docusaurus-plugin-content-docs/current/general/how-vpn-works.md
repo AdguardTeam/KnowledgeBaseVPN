@@ -17,13 +17,15 @@ Dessa forma, uma VPN executa duas funções importantes:
 
     Using an Internet connection, the user leaves their digital footprint, which can then be analyzed and used by third parties. For example, one of the online stores that you have visited can save your search history and then offer you their products based on it through targeted advertising. Or the secret services, having learned your location through the IP address of your device and having determined your identity, can secretly monitor your activity on the web. In addition, web browsers and ISPs themselves can use your browsing history for their own purposes, as well as sell it to advertisers and provide it to government institutions. VPN allows you to hide your IP address and replace it with the IP address of the VPN server to which you are connected. This way you will be able to maintain your privacy and anonymously search for information on the web.
 
-1. **Data protection** If you connect to an unreliable or public network, the data on your device may become vulnerable to cybercriminals. Detalhes do cartão bancário, nomes de usuário e senhas, dados do passaporte — todos esses dados podem ser interceptados por fraudadores online. The VPN tunnel encrypts the information you send to and receive from the Web, making it useless in the wrong hands.
+1. **Data protection**
+
+    If you connect to an unreliable or public network, the data on your device may become vulnerable to cybercriminals. Detalhes do cartão bancário, nomes de usuário e senhas, dados do passaporte — todos esses dados podem ser interceptados por fraudadores online. The VPN tunnel encrypts the information you send to and receive from the Web, making it useless in the wrong hands.
 
 ## Estrutura VPN
 
 Quando você se conecta a uma rede, seu computador ou dispositivo móvel recebe um número de identificação exclusivo ou endereço IP. Geralmente consiste em números de 0 a 255, separados por pontos ou dois pontos. Conhecendo essa sequência, pode-se determinar a geolocalização do dispositivo. The IP address is usually assigned by your ISP, and it will be visible all the way to the desired resource. Por esse motivo, o servidor web do site que você está visitando pode registrar seu endereço IP e registrar as solicitações. Este registro pode então ser utilizado principalmente para coleta de dados e análise do tráfego.
 
-A VPN creates a tunnel between your device and the VPN server. Your data goes through this tunnel, gets encrypted and then enters the open Internet in a secure form. Therefore, it will seem to the web server that your device has no longer your real IP address, but the IP address of the endpoint of the tunnel, that is, the VPN server. Thus, the site that you get to after passing through the VPN tunnel will consider the geolocation of the VPN server you selected as your real location. And the encrypted data will not fall into the hands of advertisers, hackers and security services.
+A VPN creates a tunnel between your device and the VPN server. Your data goes through this tunnel, gets encrypted and then enters the open Internet in a secure form. The web server therefore registers the IP address of the endpoint of the tunnel, meaning the VPN server, and thus not the device's real IP address. Thus, the site that you get to after passing through the VPN tunnel will consider the geolocation of the VPN server you selected as your real location. And the encrypted data will not fall into the hands of advertisers, hackers and security services.
 
 ![Estrutura VPN](https://cdn.adguardvpn.com/public/Adguard/Website/Images/seo/en/how_vpn_3.jpg)
 
@@ -71,7 +73,7 @@ Our VPN service has several important [advantages](/general/why-adguard-vpn):
 
 Currently, AdGuard VPN is available as:
 
-- [Browser extension](/adguard-vpn-browser-extension/overview) for Chrome, Firefox, and Edge
+- [Browser extension](/adguard-vpn-browser-extension/overview) for Chrome, Edge, Firefox, and Opera
 
 - Mobile app for [Android](/adguard-vpn-for-android/overview) and [iOS](/adguard-vpn-for-ios/overview)
 

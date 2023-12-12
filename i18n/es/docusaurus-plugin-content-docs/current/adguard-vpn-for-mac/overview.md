@@ -46,7 +46,9 @@ Además, las listas de exclusiones ya definidas se pueden transferir a otros dis
 3. Al transferir entre diferentes dispositivos, no olvide enviar el archivo `.zip` al dispositivo para importarlo. Por ejemplo, si importas listas de exclusión de tu Mac a tu iPhone, asegúrate de enviar previamente el archivo `.zip` a tu teléfono.
 4. Abra AdGuard VPN en el dispositivo/navegador donde desea importar el archivo con las listas listas de exclusiones. Busca la sección adecuada, haz clic en el botón *Importar* y selecciona el archivo. ¡Listo!
 
-:::note Archive files from other devices can be similarly imported to your AdGuard VPN for Mac.
+:::note
+
+Archive files from other devices can be similarly imported to your AdGuard VPN for Mac.
 
 :::
 
@@ -68,7 +70,7 @@ Finalmente, llegamos a la pestaña Configuración. En la sección *Acerca del pr
 
 Las primeras cuatro características básicas hacen que la aplicación sea más conveniente y fácil de usar, es decir *Kill Switch*, *Actualización automática*, *Iniciar AdGuard VPN al iniciar sesión*y *Conexión automática al iniciar la aplicación*. Además, puedes elegir entre temas claros, oscuros y del sistema; el último coincide con el tema de tu Mac.
 
-You can also allow AdGuard VPN to gather and send anonymized crash reports, technical and interaction data in order to help us improve our app. Last but not least, you can export logs from your Mac. Esto puede ser útil si quieres adjuntar registros a tu mensaje para el soporte.
+You can also allow AdGuard VPN to gather and send anonymous crash reports, technical and interaction data in order to help us improve our app. Last but not least, you can export logs from your Mac. Esto puede ser útil si quieres adjuntar registros a tu mensaje para el soporte.
 
 ### Servidores DNS
 

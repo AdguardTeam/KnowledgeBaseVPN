@@ -91,7 +91,7 @@ Tato chyba se objeví při pokusu o spuštění více instancí instalačního p
 
 Je velmi pravděpodobné, že jste si AdGuard VPN již dříve nainstalovali.
 
-- Zkontrolujte, zda je v počítači již nainstalována AdGuard VPN. To provedete tak, že stisknete klávesu *Win* a začnete psát *adguard vpn*.
+- Zkontrolujte, zda je v počítači již nainstalována AdGuard VPN. To do that, press the *Win* key and start typing *adguard vpn*.
 
 - Možná tam jsou nějaké zbytky souborů z předchozí instalace AdGuard VPN. Odinstalujte AdGuard pomocí našeho speciálního [nástroje pro odinstalaci](/adguard-vpn-for-windows/installation#advanced) a poté instalaci zopakujte.
 

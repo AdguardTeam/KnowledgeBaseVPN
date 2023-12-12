@@ -17,7 +17,9 @@ By default, AdGuard VPN for Mac uses the standard logging level, that is, the ba
 
 4. There is a check mark next to the **Send detailed system info**, which means that when you send a report, you also send logs.
 
-:::note If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, select **Settings** → **General** → **Export logs** in the **Actions** section on the right.
+:::note
+
+If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, select **Settings** → **General** → **Export logs** in the **Actions** section on the right.
 
 :::
 

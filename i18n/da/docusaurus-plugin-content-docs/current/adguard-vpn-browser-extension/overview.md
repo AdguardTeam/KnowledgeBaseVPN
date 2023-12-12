@@ -20,7 +20,7 @@ Når man er færdig, vil man se flere faner til venstre:
 
 ## Indstillinger
 
-Et par vigtige indstillinger er samlet under denne fane. Her kan vælges en DNS-server at bruge, tilføje eller fjerne AdGuard VPN-ikonet fra browserens kontekstmenu, blokere WebRTC, ændre udvidelsens tema og tillade AdGuard at indsamle anonymiserede nedbrudsrapporter og tekniske data.
+Et par vigtige indstillinger er samlet under denne fane. Here you can choose a DNS server to use, add or remove the AdGuard VPN icon from the browser’s context menu, block WebRTC, change the extension's theme, and allow AdGuard to gather anonymous crash reports and technical data.
 
 ### Valg af DNS-server
 
@@ -30,7 +30,7 @@ Læs mere om [DNS-servere fra forskellige udbydere](https://adguard-dns.io/kb/ge
 
 ## Undtagelser
 
-The next tab contains one of the main distinctive features of AdGuard VPN — two modes with separate exclusion lists.
+Den næste fane indeholder en af hovedfunktionerne i AdGuard VPN – to tilstande med separate undtagelseslister.
 
 I **Generel tilstand** fungerer AdGuard VPN som standard på alle websteder, undtagen på de websteder, som er føjet til undtagelseslisten. I **Selektiv tilstand**, omvendt, fungerer AdGuard VPN som standard ingen steder. Alle websteder, hvor den ønskes at fungere, kan føjes til en undtagelsesliste, adskilt fra den, der findes i **Generel tilstand**.
 

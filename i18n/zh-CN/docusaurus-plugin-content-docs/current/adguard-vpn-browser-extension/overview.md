@@ -20,7 +20,7 @@ AdGuard VPN 浏览器扩展可在 Chrome 浏览器、火狐浏览器、Opera 浏
 
 ## 设置
 
-该选项卡包含一些重要设置。 您可以在这里选择要使用的 DNS 服务器，在浏览器的右键菜单中添加或删除 AdGuard VPN 图标，阻止 WebRTC，更改扩展程序的主题以及允许 AdGuard 收集匿名崩溃报告和技术数据。
+该选项卡包含一些重要设置。 Here you can choose a DNS server to use, add or remove the AdGuard VPN icon from the browser’s context menu, block WebRTC, change the extension's theme, and allow AdGuard to gather anonymous crash reports and technical data.
 
 ### 选择一个 DNS 服务器
 

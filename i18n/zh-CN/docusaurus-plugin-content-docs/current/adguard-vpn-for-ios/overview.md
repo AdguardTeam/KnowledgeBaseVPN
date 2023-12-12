@@ -11,7 +11,7 @@ AdGuard VPN has several functions:
 
 - 隐藏用户的真实位置帮助保持匿名性
 - 更改用户的 IP 地址避免他人跟踪您的个人数据
-- 加密用户的流量不让诈骗者访问您的数据
+- encrypts your traffic and makes contents inaccessible to scammers
 - 让用户自己配置在哪里启用或关闭 VPN（排除项功能）
 
 适用于 iOS 的 AdGuard VPN 下一个优势是我们自建的 VPN 协议。 It is extremely difficult to detect compared to other VPN protocols, and it is stable even with a poor Internet connection. You can [read more](/general/adguard-vpn-protocol) about the AdGuard VPN protocol.
@@ -22,7 +22,7 @@ AdGuard VPN has several functions:
 
 如果您还没有 AdGuard 账号，请您先创建一个。
 
-使用 AdGuard VPN 非常简单。 在首页上，有一个*连接/断开连接*的按钮和一个可用的服务器列表。 每一台服务器旁边显示地理位置（某个国家和城市）和 Ping 值。 The ping describes the the server's response time (in milliseconds). Choosing the server with a ping of 22 ms means that a data packet sent to this server is returned (received again) after 22 ms. 在 AdGuard VPN 里，用户可以在数十个国家的 50 多个地点中选择服务器位置。
+使用 AdGuard VPN 非常简单。 在首页上，有一个*连接/断开连接*的按钮和一个可用的服务器列表。 每一台服务器旁边显示地理位置（某个国家和城市）和 Ping 值。 The ping shows the server's response time (in milliseconds). Choosing the server with a ping of 22 ms means that a data packet sent to this server is returned (received again) after 22 ms. 在 AdGuard VPN 里，用户可以在数十个国家的 50 多个地点中选择服务器位置。
 
 ![主界面和位置 *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/1.png?123)
 
@@ -61,7 +61,7 @@ You can find Exclusions by tapping the middle button below. There you will see t
 
 在**常规**模式下使用 [AdGuard VPN 协议](/general/adguard-vpn-protocol)。本协议提供速度和安全性的最佳组合。 在此模式下，AdGuard VPN 无法与 [AdGuard 广告拦截程序 iOS 版](https://adguard.com/kb/adguard-for-ios/overview/)同时运行。
 
-在**选择**模式下，AdGuard VPN 能够通过使用 IPSec 协议与 AdGuard 广告拦截程序 iOS 版同时运作。 该协议也是安全的，但速度稍慢且更容易检测。 您不需要执行任何其他操作设置整合：只需安装这两个应用程序并切换到此模式即可。
+In **Integrated** mode, AdGuard VPN will be able to work at the same time with AdGuard Ad Blocker for iOS by using the IPSec protocol instead. 该协议也是安全的，但速度稍慢且更容易检测。 您不需要执行任何其他操作设置整合：只需安装这两个应用程序并切换到此模式即可。
 
 :::note
 
@@ -85,11 +85,11 @@ You can choose system default, dark or light theme of the app (available in iOS 
 
 ### 高级设置
 
-In *Advanced settings* you can find two sections — Logging level and Diagnostic info. Concerning the first option it is not recommended to enable the Extended logging level unless requested by our support team. Diagnostic info, locally stored technical information about the device and connections (IP address, ID, ping, etc.), can be sent to us in case of any technical problems.
+In *Advanced settings* you can find two sections — Logging level and Diagnostic info. Concerning the first option, it is not recommended to enable the Extended logging level unless requested by our support team. Diagnostic info, locally stored technical information about the device and connections (IP address, ID, ping, etc.), can be sent to us in case of any technical problems.
 
 ## 快速操作（适用于 iOS 13 或更高版本）
 
-To access this feature, touch and hold the app icon, then lift your finger. You'll see a list of Quick Actions: Connect/Disconnect to the currently selected server, Choose location to select a new server location. You can also, of course, access all default actions like removing the app or moving the app icon around.
+To access this feature, touch and hold the app icon, then lift your finger. You'll see quick actions: Connect/Disconnect, Select location, Edit Home Screen, and Remove app.
 
 ![Quick actions *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/quick-actions.png)
 

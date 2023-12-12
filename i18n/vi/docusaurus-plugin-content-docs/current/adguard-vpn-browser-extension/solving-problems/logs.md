@@ -67,7 +67,7 @@ Bây giờ bạn đã thu thập nhật ký, bạn cần bàn giao chúng cho nh
 
     ![Console *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/ff_console.png)
 
-1. Click *Save all Messages to file*
+1. Click *Save all Messages to File*
 
     ![Save *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/save-to-file.png)
 

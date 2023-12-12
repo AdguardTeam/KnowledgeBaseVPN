@@ -31,11 +31,11 @@ Sitenizi ve uygulama istisna listelerinizi yönetmenizi kolaylaştırmak için h
 
 ### İstisnaların listesi
 
-#### For websites
-
 Exclusion lists allow you to manage the VPN connection for specific websites and apps. To access *Exclusions*, tap the second icon from the left at the bottom of the screen. *İstisnalar* bölümüne ulaşmak için ekranın alt kısmındaki soldan ikinci simgeye dokunun.
 
-There are two modes: in *General mode*, websites from the list of exclusions are excluded, and in *Selective mode*, they will be the only ones where AdGuard VPN works.
+By default, AdGuard VPN works for all websites and apps except those added to exclusions, but you can easily switch to the other mode.
+
+#### For websites
 
 Sitelerin alan adlarını (ör. `google.com`) veya alt alan adlarını (ör. `*.google.com`) *İstisnalara* üç şekilde ekleyebilirsiniz: bunları uygulamaya elle veya doğrudan tarayıcıdan *Paylaş* düğmesine tıklayıp aşağıdaki açılan listeden AdGuard VPN'i seçerek veya kategorilere ayrılmış yerleşik hizmet listelerinden girin.
 
@@ -68,7 +68,7 @@ Bir başka kullanışlı özellik ise, *istisnaları İçe ve Dışa aktarma* ö
 
 #### For apps
 
-Yukarıda bahsettiğimiz gibi, istisnalara sadece siteler kolayca eklenemez. Choose for which apps you need AdGuard VPN and for which you don't. By default, AdGuard VPN works for all apps, but you can easily switch to the other mode.
+Yukarıda bahsettiğimiz gibi, istisnalara sadece siteler kolayca eklenemez. Choose for which apps you need AdGuard VPN and for which you don't.
 
 In *Integrated mode*, you can only manage apps through AdGuard Ad Blocker.
 
@@ -112,7 +112,7 @@ In *Advanced settings*, you can find four sections.
 
 :::note
 
-Some AdGuard VPN features are disabled in *Integrated mode*: DNS servers, Kill Switch, Auto-protection, and app exclusions. You can manage DNS protection and route apps through your AdGuard VPN proxy in the AdGuard Ad Blocker app.
+Some AdGuard VPN features are disabled in *Integrated mode*: DNS servers, Kill Switch, Auto-protection, and App exclusions. You can manage DNS protection and route apps through your AdGuard VPN proxy in the AdGuard Ad Blocker app.
 
 :::
 

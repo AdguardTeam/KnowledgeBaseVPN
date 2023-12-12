@@ -3,20 +3,20 @@ title: Kompatibilitet med AdGuard Ad Blocker
 sidebar_position: 3
 ---
 
-AdGuard VPN has two operating modes: *VPN* and *Integrated*.
+AdGuard VPN har to driftstilstande: *VPN* og *Integreret*.
 
-The VPN mode is enabled by default and uses the [AdGuard VPN protocol](/general/adguard-vpn-protocol). It provides the best combination of connection speed and security. However, this operating mode does not allow AdGuard VPN and AdGuard Ad Blocker to work simultaneously.
+VPN-tilstanden er som standard aktiveret og bruger [AdGuard VPN-protokollen](/general/adguard-vpn-protocol). Den giver den bedste kombination af forbindelseshastighed og sikkerhed. Denne driftstilstand tillader dog ikke AdGuard VPN og AdGuard Ad Blocker at fungere samtidigt.
 
-In Integrated mode, in turn, the IPsec protocol is used, which makes it possible for the AdGuard apps to work together. If you already have AdGuard Ad Blocker when installing AdGuard VPN, this mode will turn on automatically and allow you to use our apps at the same time. If you have installed AdGuard VPN first and only then decided to try AdGuard Ad Blocker, follow these steps to use two apps together:
+I Integreret tilstand bruger til gengæld IPsec-protokollen, hvilket gør det muligt for AdGuard-apps at samarbejde. Kører AdGuard Ad Blocker allered, når AdGuard VPN installeres, aktiveres denne tilstand automatisk, så apperne kan bruges samtidigt. Har man installeret AdGuard VPN først og så senere besluttet at prøve AdGuard Ad Blocker, skal disse trin følges for brug af to apps sammen:
 
-1. Open AdGuard VPN for iOS and select *Settings* in the lower right corner of the screen.
+1. Åbn AdGuard VPN til iOS, og vælg *Indstillinger* nederst til højre på skærmen.
 
-2. Go to *App settings* and select *Operating mode*.
+2. Gå til *App-indstillinger* og vælg *Driftstilstand*.
 
-3. Switch the mode from *VPN* to *Integrated*. Færdig!
+3. Skift tilstanden fra *VPN* til *Integreret*. Færdig!
 
 :::note
 
-In *Integrated mode*, *Exclusions* and *DNS server* are not available.
+I *Integreret tilstand* er *Undtagelser* og *er DNS-server* ikke tilgængelige.
 
 :::

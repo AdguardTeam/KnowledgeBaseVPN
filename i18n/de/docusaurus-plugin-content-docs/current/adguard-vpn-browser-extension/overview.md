@@ -20,7 +20,7 @@ Sobald Sie fertig sind, sehen Sie auf der linken Seite mehrere Tabs:
 
 ## Einstellungen
 
-In diesem Tab sind einige wichtige Einstellungen zusammengefasst. Hier können Sie einen zu verwendenden DNS-Server auswählen, das AdGuard VPN-Symbol im Kontextmenü des Browsers hinzufügen oder entfernen, WebRTC sperren, das Farbschema der Erweiterung ändern und AdGuard erlauben, anonymisierte Absturzberichte und technische Daten zu sammeln.
+In diesem Tab sind einige wichtige Einstellungen zusammengefasst. Here you can choose a DNS server to use, add or remove the AdGuard VPN icon from the browser’s context menu, block WebRTC, change the extension's theme, and allow AdGuard to gather anonymous crash reports and technical data.
 
 ### Auswahl eines DNS-Servers
 
@@ -30,7 +30,7 @@ Erfahren Sie mehr über [DNS-Server verschiedener Anbieter](https://adguard-dns.
 
 ## Ausschlüsse
 
-The next tab contains one of the main distinctive features of AdGuard VPN — two modes with separate exclusion lists.
+Der nächste Tab enthält eine der Hauptunterscheidungsmerkmale von AdGuard VPN — zwei Modi mit separaten Ausschlusslisten.
 
 Im **Allgemeinen Modus** funktioniert AdGuard VPN standardmäßig auf allen Websites, mit Ausnahme der Websites, die Sie der Ausschlussliste hinzugefügt haben. Im **Selektiven Modus** hingegen funktioniert AdGuard VPN standardmäßig nirgendwo. Sie können alle Websites, bei denen Sie dies wünschen, in eine Ausschlussliste aufnehmen, die sich von der im **Allgemeinen Modus** angezeigten Liste unterscheidet.
 

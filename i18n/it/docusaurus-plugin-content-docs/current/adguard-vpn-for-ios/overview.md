@@ -11,7 +11,7 @@ AdGuard VPN has several functions:
 
 - nasconde la tua vera posizione e ti aiuta a rimanere anonimo
 - modifica il tuo indirizzo IP per proteggere i tuoi dati dal tracciamento
-- crittografa il tuo traffico per renderlo irraggiungibile ai truffatori
+- encrypts your traffic and makes contents inaccessible to scammers
 - ti consente di configurare dove utilizzare la VPN e dove no (funzione di esclusione)
 
 Il prossimo vantaggio di AdGuard VPN per iOS è il nostro protocollo VPN. It is extremely difficult to detect compared to other VPN protocols, and it is stable even with a poor Internet connection. You can [read more](/general/adguard-vpn-protocol) about the AdGuard VPN protocol.
@@ -22,7 +22,7 @@ Per utilizzare AdGuard VPN per iOS, devi prima accedere al tuo [account AdGuard]
 
 Se non hai ancora un account AdGuard, dovrai prima crearlo.
 
-Usare AdGuard VPN è abbastanza semplice. Nella schermata principale è possibile vedere il pulsante *Connetti/Disconnetti* e l'elenco dei server disponibili. I server hanno una propria posizione (un determinato paese e una città) e un indicatore di ping. The ping describes the the server's response time (in milliseconds). Choosing the server with a ping of 22 ms means that a data packet sent to this server is returned (received again) after 22 ms. In AdGuard VPN puoi scegliere tra oltre 50 località in dozzine di paesi.
+Usare AdGuard VPN è abbastanza semplice. Nella schermata principale è possibile vedere il pulsante *Connetti/Disconnetti* e l'elenco dei server disponibili. I server hanno una propria posizione (un determinato paese e una città) e un indicatore di ping. The ping shows the server's response time (in milliseconds). Choosing the server with a ping of 22 ms means that a data packet sent to this server is returned (received again) after 22 ms. In AdGuard VPN puoi scegliere tra oltre 50 località in dozzine di paesi.
 
 ![Schermata principale e posizioni *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/1.png?123)
 
@@ -61,7 +61,7 @@ AdGuard VPN per iOS può funzionare in due modalità: **Generale** e **Integrata
 
 In modalità **Generale**, viene utilizzato il protocollo [AdGuard VPN](/general/adguard-vpn-protocol), che fornisce la migliore combinazione di velocità e sicurezza. In questa modalità, AdGuard VPN non potrà funzionare insieme ad [AdGuard Ad Blocker per iOS](https://adguard.com/kb/adguard-for-ios/overview/).
 
-In modalità **Integrata**, AdGuard VPN sarà in grado di funzionare contemporaneamente con il Blocco AdGuard per iOS utilizzando invece il protocollo IPSec. Anche questo protocollo è sicuro, ma un po' più lento e più facile da rilevare. Non è necessario eseguire alcuna azione aggiuntiva per configurare l'integrazione: è sufficiente installare entrambe le app e passare a questa modalità.
+In **Integrated** mode, AdGuard VPN will be able to work at the same time with AdGuard Ad Blocker for iOS by using the IPSec protocol instead. Anche questo protocollo è sicuro, ma un po' più lento e più facile da rilevare. Non è necessario eseguire alcuna azione aggiuntiva per configurare l'integrazione: è sufficiente installare entrambe le app e passare a questa modalità.
 
 :::note
 
@@ -85,11 +85,11 @@ You can choose system default, dark or light theme of the app (available in iOS 
 
 ### Impostazioni avanzate
 
-In *Advanced settings* you can find two sections — Logging level and Diagnostic info. Concerning the first option it is not recommended to enable the Extended logging level unless requested by our support team. Diagnostic info, locally stored technical information about the device and connections (IP address, ID, ping, etc.), can be sent to us in case of any technical problems.
+In *Advanced settings* you can find two sections — Logging level and Diagnostic info. Concerning the first option, it is not recommended to enable the Extended logging level unless requested by our support team. Diagnostic info, locally stored technical information about the device and connections (IP address, ID, ping, etc.), can be sent to us in case of any technical problems.
 
 ## Azioni rapide (disponibile in iOS 13 o versioni successive)
 
-To access this feature, touch and hold the app icon, then lift your finger. You'll see a list of Quick Actions: Connect/Disconnect to the currently selected server, Choose location to select a new server location. You can also, of course, access all default actions like removing the app or moving the app icon around.
+To access this feature, touch and hold the app icon, then lift your finger. You'll see quick actions: Connect/Disconnect, Select location, Edit Home Screen, and Remove app.
 
 ![Quick actions *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/quick-actions.png)
 

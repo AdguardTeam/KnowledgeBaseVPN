@@ -13,25 +13,33 @@ This option is only available if you have an AdGuard VPN subscription and your r
 
 ## How to set up AdGuard VPN on your router
 
-- In your [AdGuard account](https://auth.adguard.com/login.html), select AdGuard VPN
-- Under _Devices_, click _Add router_
+1. In your [AdGuard account](https://auth.adguard.com/login.html), select AdGuard VPN.
 
-![Add router \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/2_year.jpg)
+2. Under _Devices_, click _Add router_.
 
-- Select the desired VPN server location and generate credentials
+   ![Add router \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/2_year.jpg)
 
-![Generate credentials \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/configure_router.png)
+3. Select the desired VPN server location and generate credentials.
 
-Please note that the next steps may vary depending on your router. We have used the Keenetic router as an example.
+   ![Generate credentials \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/configure_router.png)
 
-- In your admin page, go to the router settings
-- Enable _VPN Client_ and click _Add VPN server_
-- Select IPsec-client (it may be called IKE; not L2TP/IPsec)
-- Enter the credentials you created in step 3
+   :::note
 
-![Enter the credentials \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/vpn_connection.jpg)
+   The next steps may vary depending on your router. We have used the Keenetic router as an example.
 
-- Connect devices to your router
+   :::
+
+4. In your admin page, go to the router settings.
+
+5. Enable _VPN Client_ and click _Add VPN server_.
+
+6. Select IPsec-client (it may be called IKE; not L2TP/IPsec).
+
+7. Enter the credentials you created in step 3.
+
+   ![Enter the credentials \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/vpn_connection.jpg)
+
+8. Connect devices to your router.
 
 :::note
 
@@ -43,4 +51,4 @@ You’ll need to update your router settings if you want to change the VPN serve
 
 - With AdGuard VPN on your router, neither your VPN provider nor anyone else has access to your Internet activity
 - Installing AdGuard VPN on your router secures your entire network, meaning that all devices connected to it are protected
-- You can enhance security and protect your data on devices where it's not possible to install AdGuard VPN apps — smart TVs (_currently, AdGuard VPN is only available on Android TV_) and game consoles
+- You can enhance security and protect your data on devices where it's not possible to install AdGuard VPN apps — smart TVs (currently, AdGuard VPN is only available on Android TV) and game consoles

@@ -20,7 +20,7 @@ Una volta fatto, sulla sinistra, visualizzerai svariate schede:
 
 ## Impostazioni
 
-In questa scheda sono raggruppate alcune importanti impostazioni. Qui puo scegliere un server DNS da utilizzare, aggiungere o rimuovere l'icona di AdGuard VPN dal menu contestuale del browser, bloccare WebRTC, modificare il tema dell'estensione, e consentire ad AdGuard di raccogliere rapporti di arresti anomali e dati tecnici anonimi.
+In questa scheda sono raggruppate alcune importanti impostazioni. Here you can choose a DNS server to use, add or remove the AdGuard VPN icon from the browser’s context menu, block WebRTC, change the extension's theme, and allow AdGuard to gather anonymous crash reports and technical data.
 
 ### Scegliere un server DNS
 

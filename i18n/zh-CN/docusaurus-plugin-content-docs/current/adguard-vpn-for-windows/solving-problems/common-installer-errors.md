@@ -91,7 +91,7 @@ This error appears when trying to run multiple instances of the AdGuard VPN inst
 
 您之前很可能已经安装过 AdGuard VPN。
 
-- 检查您的计算机上是否已安装 AdGuard VPN。 You can do that by pressing the *Win* key and start typing *adguard vpn*.
+- 检查您的计算机上是否已安装 AdGuard VPN。 To do that, press the *Win* key and start typing *adguard vpn*.
 
 - 也有可能您的电脑上存在一些以前安装 AdGuard VPN 的残余文件。 请使用我们专用的[卸载工具](/adguard-vpn-for-windows/installation#advanced)卸载 AdGuard，然后重新安装。
 
