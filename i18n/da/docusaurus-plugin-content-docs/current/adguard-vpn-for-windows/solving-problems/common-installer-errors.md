@@ -3,13 +3,13 @@ title: Almindelige installer-fejl
 sidebar_position: 2
 ---
 
-This article outlines some of the most common errors you may encounter while installing AdGuard VPN for Windows and possible ways to resolve them.
+Denne artikel skitserer nogle af de mest alm. fejl, som kan opleves under installationen af AdGuard VPN til Windows, samt mulige måder at løse dem på.
 
 ### Fejl 5: Adgang nægtet {#error-5}
 
-This error message appears if required permissions are not granted. Der kan være flere årsager til, at AdGuard VPN-installeren ikke har de nødvendige tilladelser krævet for at afslutte installationsprocessen korrekt. Flg. trin kan prøves:
+Denne fejlmeddelelse vises, hvis de nødvendige tilladelser ikke er tildelt. Der kan være flere årsager til, at AdGuard VPN-installeren ikke har de nødvendige tilladelser krævet for at afslutte installationsprocessen korrekt. Flg. trin kan prøves:
 
-- Deaktivér midlertidigt antivirusprogrammet. Some of them may interfere with the installation, depending on the restrictiveness of their settings.
+- Deaktivér midlertidigt antivirusprogrammet. Nogle af dem kan forstyrre installationen, afhængigt af deres indstillingers restriktionsgrad.
 
 - Vælg en anden installationsmappe. Det er muligt, at den aktuelle installationsmappe har adgangsbegrænsninger. Sørg også for ikke at vælge et eksternt/virtuelt drev mv.
 
@@ -34,8 +34,8 @@ Denne kan betragtes som en særligt undertype af Fejl 1603. De mulige løsninger
     1. Klik på *Win + R* og skriv **services.msc**.
     1. På listen, find og dobbeltklik på *Windows Installer*.
     1. Klik på knappen *Start* under *Tjenestestatus* og dernæst på *OK*. Er tjenestestatussen **kører**, klik da først på *Stop* og dernæst på *Start*.
-    1. Press *Win + R*, type and enter **msiexec /unregister** and hit *Enter*.
-    1. Press *Win + R* again, type and enter **msiexec /regserver** and hit *Enter*
+    1. Tryk på *Win + R*, skriv **msiexec /unregister** og tryk på *Retur*.
+    1. Tryk på *Win + R* igen, og skriv **msiexec /regserver** og tryk på *Retur*
 
 - Genstart PC'en og start installationen forfra. Nogle gange er dette nok til at løse problemet.
 
@@ -51,7 +51,7 @@ Denne fejlkode indikerer, at installationsprocessener på en eller anden måde e
 
 ### Fejl 1603: Fatal fejl under installationen {#error-1603}
 
-This error sounds more worrying than it actually is. Reelt er der tale om en ret generisk fejl med mange forskellige årsager, hvoraf nogle nemt kan rettes. Prøv flg. løsninger:
+Fejlen lyder mere bekymrende, end den faktisk er. Reelt er der tale om en ret generisk fejl med mange forskellige årsager, hvoraf nogle nemt kan rettes. Prøv flg. løsninger:
 
 - Tryk på *Win*-tasten, søg efter *Kommandoprompt* og kør den. Indtast `sfc /scannow` på kommandolinjen og tryk på *Retur*.
 
@@ -61,11 +61,11 @@ This error sounds more worrying than it actually is. Reelt er der tale om en ret
 
 - Start og genregistrér Microsoft Installer-tjenesten. Dette kræver lidt arbejde.
 
-    1. Press *Win + R* and enter **services.msc**.
+    1. Tryk på *Win + R* og skriv **services.msc**.
     1. På listen, find og dobbeltklik på *Windows Installer*.
     1. Klik på knappen *Start* under *Tjenestestatus* og dernæst på *OK*. Er tjenestestatussen **kører**, klik da først på *Stop* og dernæst på *Start*.
-    1. Press *Win + R*, type and enter **msiexec /unregister** and hit *Enter*.
-    1. Press *Win + R* again, type and enter **msiexec /regserver** and hit *Enter*
+    1. Tryk på *Win + R*, skriv **msiexec /unregister** og tryk på *Retur*.
+    1. Tryk på *Win + R* igen, og skriv **msiexec /regserver** og tryk på *Retur*
 
 - Få tildelt fulde tilladelser på installationsdrevet. Det er muligt, at fejl 1603 opstår, fordi ikke alle tilladelser til filplaceringen er tildelt. Den er heller ikke så nem som nogle af de øvrige løsninger:
 
@@ -81,17 +81,17 @@ This error sounds more worrying than it actually is. Reelt er der tale om en ret
 
 ### Fejl 1618: En anden installation er allerede i gang {#error-1618}
 
-This error appears when trying to run multiple instances of the AdGuard VPN installer simultaneously. Gør dette, hvis denne fejl ses:
+Denne fejl vises, når flere forekomster af AdGuard VPN-installationsprogrammet forsøges afviklet samtidigt. Gør dette, hvis denne fejl ses:
 
 - Genstart PC'en og start installationen forfra. Når computeren genstartes, stopper alle igangværende processer, inkl. alle forekomster af installationsprogrammet.
 
-- Don't click multiple times on the installer, even if it doesn't start right away. Af og til tage det nogle sekunder, før installationsprogrammet vises.
+- Klik ikke på installationsprogrammet flere gange, selvom den ikke ser ud til at starte efter første klik. Af og til tage det nogle sekunder, før installationsprogrammet vises.
 
 ### Fejl 1638: En anden version af dette produkt er allerede installeret {#error-1638}
 
 AdGuard VPN er sandsynligvis allerede blevet installeret tidligere.
 
-- Tjek, om AdGuard VPN allerede er installeret på computeren. You can do that by pressing the *Win* key and start typing *adguard vpn*.
+- Tjek, om AdGuard VPN allerede er installeret på computeren. To do that, press the *Win* key and start typing *adguard vpn*.
 
 - Der findes måske nogle efterladenskaber fra en tidligere AdGuard VPN-installation. Afinstallér AdGuard VPN via vores særlige [afinstallationsværktøj](/adguard-vpn-for-windows/installation#advanced) og start derefter installationen forfra.
 
@@ -101,6 +101,6 @@ Opleves en fejl, der ikke er angivet ovenfor, er det muligt, at vi selv kan løs
 
 - Find og arkivér **AdGuard VPN-installationslogfilerne**, som beskrevet i [denne artikel](https://adguard.com/kb/adguard-for-windows/solving-problems/installation-logs/).
 
-- Find and save to disk the **Event Viewer** logs. [Denne artikel](https://adguard.com/kb/adguard-for-windows/solving-problems/system-logs/) forklarer, hvordan dette gøres.
+- Find **Begivenhedsoversigt**-logfilerne og gem på disken. [Denne artikel](https://adguard.com/kb/adguard-for-windows/solving-problems/system-logs/) forklarer, hvordan dette gøres.
 
 E-mail alle disse filer fra de to tidligere trin — inkl. en problembeskrivelse i beskedfeltet — til **support@adguard.com**. Vores supportteam vil svare hurtigst muligt.

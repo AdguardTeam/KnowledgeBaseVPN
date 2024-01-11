@@ -17,7 +17,9 @@ De forma predeterminada, AdGuard VPN para Mac utiliza el nivel de registro está
 
 4. There is a check mark next to the **Send detailed system info**, which means that when you send a report, you also send logs.
 
-:::note If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, select **Settings** → **General** → **Export logs** in the **Actions** section on the right.
+:::note
+
+Si por alguna razón le resulta más cómodo enviarnos los registros de otra manera, puede exportarlos usted mismo. To do this, select **Settings** → **General** → **Export logs** in the **Actions** section on the right.
 
 :::
 
@@ -41,7 +43,7 @@ En la mayoría de los casos, el nivel de registro por defecto es suficiente para
 
 :::note
 
-Si por alguna razón le resulta más cómodo enviarnos los registros de otra manera, puede exportarlos usted mismo. Para ello, seleccione **Configuración** → **General** → **Exportar registros** en la sección **Acciones** de la derecha.
+If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. Para ello, seleccione **Configuración** → **General** → **Exportar registros** en la sección **Acciones** de la derecha.
 
 :::
 

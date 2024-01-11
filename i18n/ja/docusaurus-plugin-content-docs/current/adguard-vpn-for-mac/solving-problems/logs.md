@@ -17,7 +17,9 @@ If you encounter any problems while using AdGuard VPN for Mac, you can inform us
 
 4. There is a check mark next to the **Send detailed system info**, which means that when you send a report, you also send logs.
 
-:::note If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, select **Settings** → **General** → **Export logs** in the **Actions** section on the right.
+:::note
+
+もし、別の方法でログをお送りいただく方が便利な場合は、手動でログをエクスポートすることができます。 To do this, select **Settings** → **General** → **Export logs** in the **Actions** section on the right.
 
 :::
 
@@ -41,7 +43,7 @@ If you encounter any problems while using AdGuard VPN for Mac, you can inform us
 
 :::note
 
-もし、別の方法でログをお送りいただく方が便利な場合は、手動でログをエクスポートすることができます。 これを行うには、「**設定**」 → 「**一般設定**」 → 「**ログをエクスポートする**」（右側の**アクション**の下）をクリックしてください。
+If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. これを行うには、「**設定**」 → 「**一般設定**」 → 「**ログをエクスポートする**」（右側の**アクション**の下）をクリックしてください。
 
 :::
 

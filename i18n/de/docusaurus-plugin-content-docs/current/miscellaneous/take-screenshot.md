@@ -17,9 +17,9 @@ Das Erstellen eines Screenshots auf einem Android-Gerät kann auf verschiedene A
 
 Im Allgemeinen sollten Sie für Android die folgende Tastenkombination verwenden:
 
-- **Halten Sie die Tasten *Leiser* und *Power* gleichzeitig 1–2 Sekunden lang gedrückt**
+- **Press and hold both the *Volume Down* and the *Power* buttons for 1–2 seconds**
 
-Ihr Android-Gerät erfasst den gesamten Bildschirm und speichert ihn als Foto. Sie finden den Screenshot also in einem Screenshots-Ordner in Ihrer Galerie.
+Android will capture the entire screen and save it as a photo. Sie finden den Screenshot also in einem Screenshots-Ordner in Ihrer Galerie.
 
 Aber wie bereits gesagt, kann es je nach Gerät Unterschiede geben. Schauen wir uns andere mögliche Kombinationen an:
 
@@ -44,7 +44,7 @@ und diese hier für das iPhone X oder höher:
 
 - **Drücken Sie gleichzeitig die Taste *Sleep/Wake* und die Taste *Lauter* und lassen Sie sie dann schnell los**
 
-Ihr iOS-Gerät erfasst den gesamten Bildschirm und speichert ihn als Foto. Sie finden es in einer Standard-Foto-App.
+iOS will capture the entire screen and save it as a photo. Sie finden es in einer Standard-Foto-App.
 
 ### Windows
 
@@ -58,7 +58,7 @@ PrtScn (Print Screen) can be differently abbreviated on various keyboards — Pr
 
 :::
 
-Windows nimmt den gesamten Bildschirm auf und kopiert ihn in die (unsichtbare) Zwischenablage.
+Windows will capture the entire screen and copy it to the (invisible) clipboard.
 
 Um einen Screenshot eines aktiven Fensters zu machen, verwenden Sie die folgende Kombination:
 
@@ -82,7 +82,7 @@ To take a screenshot on a Mac device, use the following button combination:
 
 - ***Drücken und halten Sie zusammen ***⌘ Cmd + Shift + 3******
 
-Ihr Mac erfasst den gesamten Bildschirm und speichert ihn als Datei auf dem Desktop.
+Mac will capture the entire screen and save it as a file on the desktop.
 
 Um einen Screenshot eines aktiven Fensters zu machen, verwenden Sie die folgende Kombination:
 

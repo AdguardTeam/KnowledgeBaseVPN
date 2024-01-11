@@ -17,7 +17,9 @@ Standardmäßig verwendet AdGuard VPN für Mac die Protokollierungsebene Standar
 
 4. There is a check mark next to the **Send detailed system info**, which means that when you send a report, you also send logs.
 
-:::note If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, select **Settings** → **General** → **Export logs** in the **Actions** section on the right.
+:::note
+
+Wenn es für Sie aus irgendeinem Grund bequemer ist, uns Protokolle auf andere Weise zu senden, können Sie sie selbst exportieren. To do this, select **Settings** → **General** → **Export logs** in the **Actions** section on the right.
 
 :::
 
@@ -41,7 +43,7 @@ In den meisten Fällen reicht die Standardprotokollierungsebene aus, um möglich
 
 :::note
 
-Wenn es für Sie aus irgendeinem Grund bequemer ist, uns Protokolle auf andere Weise zu senden, können Sie sie selbst exportieren. Wählen Sie dazu **Einstellungen** → **Allgemein** → **Protokolle exportieren** im Bereich **Aktionen** auf der rechten Seite.
+If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. Wählen Sie dazu **Einstellungen** → **Allgemein** → **Protokolle exportieren** im Bereich **Aktionen** auf der rechten Seite.
 
 :::
 

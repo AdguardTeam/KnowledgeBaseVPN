@@ -17,9 +17,9 @@ Bir Android cihazda ekran görüntüsü almak, cihazın modeline ve üreticisine
 
 Genel olarak, Android için aşağıdaki düğme kombinasyonunu kullanmalısınız:
 
-- ***Ses Kısma* ve *Güç* düğmelerini aynı anda 1–2 saniye basılı tutun**
+- **Press and hold both the *Volume Down* and the *Power* buttons for 1–2 seconds**
 
-Android cihazınız tüm ekranı yakalar ve bir fotoğraf olarak kaydeder. Böylece, ekran görüntüsünü Galerinizdeki bir Ekran Görüntüleri klasöründe bulabilirsiniz.
+Android will capture the entire screen and save it as a photo. Böylece, ekran görüntüsünü Galerinizdeki bir Ekran Görüntüleri klasöründe bulabilirsiniz.
 
 Ancak, daha önce de söylendiği gibi, belirli bir cihaza bağlı olarak farklılıklar olabilir. Diğer olası kombinasyonlara bakalım:
 
@@ -44,7 +44,7 @@ ve bu iPhone X veya sonrası için:
 
 - ***Uyku/Uyanma* düğmesine ve *Sesi Açma* düğmesine aynı anda basın, ardından hızlıca bırakın**
 
-iOS cihazınız tüm ekranı yakalar ve bir fotoğraf olarak kaydeder. Bunu standart bir Fotoğraf uygulamasında bulabilirsiniz.
+iOS will capture the entire screen and save it as a photo. Bunu standart bir Fotoğraf uygulamasında bulabilirsiniz.
 
 ### Windows
 
@@ -58,7 +58,7 @@ PrtScn (Print Screen) can be differently abbreviated on various keyboards — Pr
 
 :::
 
-Windows tüm ekranı yakalar ve (görünmez) panoya kopyalar.
+Windows will capture the entire screen and copy it to the (invisible) clipboard.
 
 Etkin bir pencerenin ekran görüntüsünü almak için aşağıdaki kombinasyonu kullanın:
 
@@ -82,7 +82,7 @@ To take a screenshot on a Mac device, use the following button combination:
 
 - ******⌘ Cmd + Shift + 3*** tuşlarına basın ve birlikte basılı tutun***
 
-Mac'iniz tüm ekranı yakalar ve masaüstünde bir dosya olarak kaydeder.
+Mac will capture the entire screen and save it as a file on the desktop.
 
 Etkin bir pencerenin ekran görüntüsünü almak için aşağıdaki kombinasyonu kullanın:
 

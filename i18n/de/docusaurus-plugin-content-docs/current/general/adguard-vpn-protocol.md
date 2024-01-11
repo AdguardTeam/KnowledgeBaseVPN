@@ -9,7 +9,7 @@ Unser Protokoll wird von [allen mobilen und Desktop-Apps von AdGuard VPN](https:
 
 Jahrelang haben wir uns auf die Entwicklung aller Arten von Werbeblocker-Apps und Browsererweiterungen konzentriert. Und 2019 haben wir uns entschlossen, unseren eigenen VPN-Dienst zu entwickeln. When, in reality, there were a few reasons that prompted us to do so.
 
-- Die mobilen Anwendungen von AdGuard hatten Kompatibilitätsprobleme mit VPN-Anwendungen. Normalerweise können zwei VPN-basierte mobile Apps nicht zusammenarbeiten: in seltenen Fällen auf iOS und niemals auf Android. Da die AdGuard-Werbeblocker-Apps lokales VPN verwenden, um den Netzwerkverkehr zu filtern, kommt eine Verwendung zusammen mit einer VPN-App nicht in Frage. Aus diesem Grund sahen wir die Entwicklung eines internen VPN als die einzig praktikable Lösung an, die Kompatibilität garantieren könnte.
+- Die mobilen Anwendungen von AdGuard hatten Kompatibilitätsprobleme mit VPN-Anwendungen. Normalerweise können zwei VPN-basierte mobile Apps nicht zusammenarbeiten: in seltenen Fällen auf iOS und niemals auf Android. As AdGuard Ad Blocker apps use local VPN to filter network traffic, using them alongside any VPN app would be out of the question. Aus diesem Grund sahen wir die Entwicklung eines internen VPN als die einzig praktikable Lösung an, die Kompatibilität garantieren könnte.
 - Zweitens schien VPN für unsere Philosophie und Prioritäten mehr als relevant zu sein. Unser Hauptziel ist es, die Privatsphäre der Nutzer zu schützen, und genau dafür sind VPNs da.
 - Schließlich sind wir im Laufe der Jahre, in denen wir die AdGuard-Software entwickelt haben, zu Experten im Filtern von Netzwerkverkehr geworden. Dadurch konnten wir etwas Neues einführen, anstatt ein weiteres Wischiwaschi-VPN zu werden.
 

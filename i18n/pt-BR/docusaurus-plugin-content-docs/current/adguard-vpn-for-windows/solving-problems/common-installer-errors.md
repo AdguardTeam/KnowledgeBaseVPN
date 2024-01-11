@@ -91,7 +91,7 @@ This error appears when trying to run multiple instances of the AdGuard VPN inst
 
 É muito provável que você já tenha instalado o AdGuard VPN antes.
 
-- Verifique se o AdGuard VPN já está instalado no seu computador. You can do that by pressing the *Win* key and start typing *adguard vpn*.
+- Verifique se o AdGuard VPN já está instalado no seu computador. To do that, press the *Win* key and start typing *adguard vpn*.
 
 - Pode ser que haja alguns arquivos restantes de uma instalação anterior do AdGuard VPN. Uninstall AdGuard using our special [uninstall tool](/adguard-vpn-for-windows/installation#advanced) and then repeat the installation.
 

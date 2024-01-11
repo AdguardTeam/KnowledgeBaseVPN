@@ -17,9 +17,9 @@ Android端末でスクリーンショットを撮るには、機種やメーカ�
 
 通常、Android では次のボタンの組み合わせでスクリーンショットを撮れます。
 
-- ***音量ダウン*と*電源*ボタンを同時に押して離します。**
+- **Press and hold both the *Volume Down* and the *Power* buttons for 1–2 seconds**
 
-こうすることによって画面全体をキャプチャして、写真として保存できます。 先ほど撮ったスクリーンショットはギャラリーのスクリーンショットフォルダーで確認することができます。
+Android will capture the entire screen and save it as a photo. 先ほど撮ったスクリーンショットはギャラリーのスクリーンショットフォルダーで確認することができます。
 
 ただし、先ほど述べたように、デバイスによって方法が異なる場合があります。 他の組み合わせを見てみましょう。
 
@@ -44,7 +44,7 @@ iPhone/iPadでスクリーンショットを撮るには、次の組み合わせ
 
 - ***電源*（サイド）ボタンと *音量アップ*ボタンを同時に押し、すばやく離す**
 
-こうすることによって画面全体をキャプチャして、写真として保存できます。 標準の「フォト」アプリで先ほどとったスクリーンショットを見つけることができます。
+iOS will capture the entire screen and save it as a photo. 標準の「フォト」アプリで先ほどとったスクリーンショットを見つけることができます。
 
 ### Windows
 
@@ -58,7 +58,7 @@ PrtScn (Print Screen) can be differently abbreviated on various keyboards — Pr
 
 :::
 
-Windowsは画面全体をキャプチャし、クリップボードにコピーします。
+Windows will capture the entire screen and copy it to the (invisible) clipboard.
 
 現在使用中ウィンドウのスクリーンショットを撮るには、次の組み合わせを使用します:
 
@@ -82,7 +82,7 @@ To take a screenshot on a Mac device, use the following button combination:
 
 - ******⌘ Cmd + Shift + 3*** を同時に押します。***
 
-こうすることによって画面全体がキャプチャされ、ファイルとしてデスクトップに保存しされます。
+Mac will capture the entire screen and save it as a file on the desktop.
 
 現在使用中ウィンドウのスクリーンショットを撮るには、次の組み合わせを使用します:
 

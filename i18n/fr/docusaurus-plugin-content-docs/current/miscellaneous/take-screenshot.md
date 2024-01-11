@@ -17,9 +17,9 @@ La capture d'écran sur un appareil Android peut être faite de différentes man
 
 Généralement, vous devez utiliser la combinaison de boutons suivante pour Android :
 
-- **Maintenez simultanément enfoncées les touches *Baisser le volume* et *Mise en marche* pendant 1 à 2 secondes**
+- **Press and hold both the *Volume Down* and the *Power* buttons for 1–2 seconds**
 
-Votre appareil Android capturera tout l'écran et l'enregistrera sous forme de photo. Ainsi, vous pouvez trouver la capture d'écran dans un dossier Captures d'écran de votre Galerie.
+Android will capture the entire screen and save it as a photo. Ainsi, vous pouvez trouver la capture d'écran dans un dossier Captures d'écran de votre Galerie.
 
 Mais, comme cela a déjà été dit, il peut y avoir des différences selon les appareils. Examinons d'autres combinaisons possibles :
 
@@ -44,7 +44,7 @@ et celui-ci pour iPhone X ou ultérieur :
 
 - **Appuyez simultanément sur le bouton *Veille/réveil* et sur le bouton *Augmentation de volume*, puis relâchez-les rapidement**
 
-Votre appareil iOS capturera tout l'écran et l'enregistrera sous forme de photo. Vous pouvez le trouver dans une application Photo standard.
+iOS will capture the entire screen and save it as a photo. Vous pouvez le trouver dans une application Photo standard.
 
 ### Windows
 
@@ -58,7 +58,7 @@ PrtScn (Print Screen) can be differently abbreviated on various keyboards — Pr
 
 :::
 
-Windows capture tout l'écran et le copie dans le presse-papiers (invisible).
+Windows will capture the entire screen and copy it to the (invisible) clipboard.
 
 Pour prendre une capture d'écran d'une fenêtre active, utilisez la combinaison suivante :
 
@@ -82,7 +82,7 @@ To take a screenshot on a Mac device, use the following button combination:
 
 - ***Appuyez et maintenez ensemble ***⌘ Cmd + Shift + 3******
 
-Votre Mac capturera tout l'écran et l'enregistrera sous forme de fichier sur le bureau.
+Mac will capture the entire screen and save it as a file on the desktop.
 
 Pour prendre une capture d'écran d'une fenêtre active, utilisez la combinaison suivante :
 

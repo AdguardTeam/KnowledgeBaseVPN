@@ -16,15 +16,19 @@ Der er tre måder at løse problemet på:
     - Åbn appen **Indstillinger** på mobilen;
     - Gå til afsnittet **System** (sidste punkt på indstillingsmenuen). Find underpunktet **Om telefon** i dette afsnit;
     - Tryk 7 gange på linjen **Build-nummer**. Herefter ses meddelelse **Du er nu udvikler** (angiv om nødvendigt enhedens oplåsningskode);
-    - Open **System Settings** → **Developer Options** → Scroll down and enable **USB debugging** → Confirm debugging is enabled in the window **Allow USB debugging** after reading the warning carefully.
+    - Åbn **Systemindstillinger** → **Udviklerindstillinger** → rul ned, og aktivér **USB-fejlretning** → Bekræft aktiveringen af fejlretning i vinduet **Tillad USB-fejlretning** efter at have nærlæst advarslen.
 
-    :::note If you have any difficulties or additional questions, full instructions can be found [here](https://developer.android.com/studio/debug/dev-options).
+    :::note
+
+    If you have any difficulties or additional questions, full instructions can be found [here](https://developer.android.com/studio/debug/dev-options).
 
     :::
 
 1. [Installér og opsæt](https://www.xda-developers.com/install-adb-windows-macos-linux/) ADB;
 
-    :::note On the Windows platform, **Samsung** owners may need to install [this utility](https://developer.samsung.com/mobile/android-usb-driver.html).
+    :::note
+
+    On the Windows platform, **Samsung** owners may need to install [this utility](https://developer.samsung.com/mobile/android-usb-driver.html).
 
     :::
 
@@ -43,7 +47,7 @@ Info kan [findes hér](https://support.google.com/a/answer/6223444?hl=en) om, hv
 
 :::note
 
-In some cases restricted user accounts are created implicitly and cannot be removed. Eksempelvis, hvis Dual Messenger- eller Dual App-funktioner bruges på enheder fra **Samsung** eller **LG**. Se nedenfor, hvordan problemet løses i sådanne tilfælde.
+I visse tilfælde oprettes begrænsede brugerkonti implicit og kan ikke fjernes. Eksempelvis, hvis Dual Messenger- eller Dual App-funktioner bruges på enheder fra **Samsung** eller **LG**. Se nedenfor, hvordan problemet løses i sådanne tilfælde.
 
 :::
 
@@ -56,7 +60,7 @@ Ejere af mobiler fra **LG** eller **Samsung** kan også støde på et lignende p
 - Åbn **Indstillinger**;
 - Tryk på **Avanceret**;
 - Rul ned og tryk på **Dual Messenger**;
-- Disable the **Dual Messenger** for all apps;
+- Deaktivér **Dual Messenger** for alle apps;
 - Lås enheden i 5 minutter;
 - Oplås skærmen, og prøv at oprette VPN-profilen igen.
 
@@ -65,5 +69,5 @@ Ejere af mobiler fra **LG** eller **Samsung** kan også støde på et lignende p
 - Åbn **Indstillinger**;
 - Vælg fanen **Generelt**;
 - Rul ned og tryk på **Dual App**;
-- Remove all apps from the list;
+- Fjern alle apps fra listen;
 - Genstart enheden.

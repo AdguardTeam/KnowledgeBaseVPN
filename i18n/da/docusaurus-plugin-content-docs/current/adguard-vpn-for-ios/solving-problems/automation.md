@@ -4,7 +4,7 @@ sidebar_position: 1
 sidebar_label: Sådan opsættes AdGuard VPN-automatisering
 ---
 
-There are no app exclusions in AdGuard VPN for iOS. Yet, there is a way to automate AdGuard VPN for apps on iPhones and iPads.
+Der er ingen app-undtagelser i AdGuard VPN til iOS. Der er dog alligevel en måde at automatisere AdGuard VPN til apps på iPhones og iPads.
 
 ## Opsætning af AdGuard VPN automatisk aktivering
 
@@ -17,14 +17,14 @@ Ved behov for et VPN til en eller flere apps, skal AdGuard VPN opsættes til aut
 3. Sørg i næste vindue for, at indstillingen *Er åbnet* er valgt, og tryk dernæst på *Vælg* for at vælge appen.
 
 ![Vejledning. Del 2](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_on2_en.jpg)
-4. Start entering the name of the app (in our case it's Twitter) and select it. Tap *Done*, then tap *Next* in the upper right corner of the screen. In the opened window, tap *Add Action*.
+4. Start med at angive app-navnet, i dette tilfælde Twitter, og vælge det. Tryk på *Udført* og dernæst på *Næste* øverste til højre på skærmen. Tryk i det nye vindue på *Tilføj handling*.
 
 ![Vejledning. Del 3](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_on3_en.jpg)
 5. Begynd at skrive "AdGuard VPN", og vælg AdGuard VPN-appen. Tryk i det nye vindue på *Opsæt en VPN-forbindelse*.
 
 ![Vejledning. Del 4](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_on4_en.jpg)
 6. Sørg for, at variablerne angiver *Slå* VPN-forbindelse *Til*, og tryk på *Næste*.
-7. Flyt i næste vindue skyderen for *Spørg før kørsel* til den inaktive position. Confirm your choice, then tap *Done*.
+7. Flyt i næste vindue skyderen for *Spørg før kørsel* til den inaktive position. Bekræft valget, og tryk på *Udført*.
 
 Nu er der et nyt scenarie: AdGuard VPN aktiveres automatisk, når Twitter-appen startes. Der skal nu oprettes en kommando mere, der automatisk deaktiverer AdGuard VPN, når Twitter-appen lukkes.
 
@@ -32,7 +32,7 @@ Nu er der et nyt scenarie: AdGuard VPN aktiveres automatisk, når Twitter-appen 
 
 ![Vejledning. Del 1](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_off1_en.jpg)
 
-1. In the same *Shortcuts* app start creating a new automation: tap *Automation* → *Create Personal Automation* → *App*.
+1. Begynd i samme *Genveje*-app at oprette en ny automatisering: Tryk på *Automatisering* → *Opret Personlig automatisering* → *App*.
 2. Sørg for, at indstillingen *Er lukket* er valgt, og afmarkér feltet under den tilstødende indstilling. Tryk dernæst på *Vælg*.
 
 ![Vejledning. Del 2](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_off2_en.jpg)

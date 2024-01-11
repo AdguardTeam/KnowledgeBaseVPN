@@ -17,13 +17,15 @@ In questo modo, una VPN svolge due importanti funzioni:
 
     Utilizzando una connessione a Internet, l'utente lascia la propria impronta digitale, poi analizzabile e utilizzabile da terze parti. Per esempio, uno dei negozi online che hai visitato può salvare la tua cronologia di ricerca e offrirti i propri prodotti basandosi su di essa, tramite le pubblicità mirate. Oppure i servizi segreti, avendo appreso la tua posizione tramite l'indirizzo IP del tuo dispositivo e avendo determinato la tua identità, possono monitorare segretamente la tua attività sul web. Inoltre, i browser web e gli ISP stessi possono utilizzare la tua cronologia di navigazione per i propri scopi, nonché venderla agli inserzionisti e fornirla alle istituzioni governative. La VPN ti consente di nascondere il tuo indirizzo IP e di sostituirlo con l'indirizzo IP del server VPN a cui sei connesso. Così, potrai mantenere la tua privacy e cercare anonimamente le informazioni sul web.
 
-1. **Protezione dei dati** Se ti connetti a una rete inaffidabile o pubblica, i dati sul tuo dispositivo potrebbero divenire vulnerabili ai criminali informatici. I dettagli delle carte bancarie, i nomi utente e le password, i dati del passaporto: tutti questi dati possono essere intercettati dai truffatori online. The VPN tunnel encrypts the information you send to and receive from the Web, making it useless in the wrong hands.
+1. **Data protection**
+
+    If you connect to an unreliable or public network, the data on your device may become vulnerable to cybercriminals. I dettagli delle carte bancarie, i nomi utente e le password, i dati del passaporto: tutti questi dati possono essere intercettati dai truffatori online. The VPN tunnel encrypts the information you send to and receive from the Web, making it useless in the wrong hands.
 
 ## Struttura VPN
 
 Quando ti connetti a una rete, al tuo computer o dispositivo mobile viene assegnato un numero ID univoco, o indirizzo IP. Solitamente, consiste di numeri dallo 0 al 255, separati da punti o due punti. Conoscendo questa sequenza, si può determinare la geolocalizzazione del dispositivo. The IP address is usually assigned by your ISP, and it will be visible all the way to the desired resource. Per questo motivo, il server web del sito che stai visitando può registrare il tuo indirizzo IP e registrare ciò che hai richiesto. Questo registro è quindi utilizzabile principalmente per la raccolta dei dati e l'analisi del traffico.
 
-Una VPN crea un tunnel tra il tuo dispositivo e il server della VPN. I tuoi dati passano per questo tunnel, vengono crittografati e, quindi, entrano nell'Internet aperto in una forma sicura. Dunque, sembrerà al server web che il tuo dispositivo non abbia più un indirizzo IP reale, ma l'indirizzo IP dell'endpoint del tunnel, ossia, del server VPN. Dunque, il sito cui arrivi dopo essere passato per il tunnel VPN considererà la geolocalizzazione del server VPN che hai selezionato come la tua posizione reale. E i dati crittografati non cadranno nelle mani di inserzionisti, hacker e servizi di sicurezza.
+Una VPN crea un tunnel tra il tuo dispositivo e il server della VPN. I tuoi dati passano per questo tunnel, vengono crittografati e, quindi, entrano nell'Internet aperto in una forma sicura. The web server therefore registers the IP address of the endpoint of the tunnel, meaning the VPN server, and thus not the device's real IP address. Dunque, il sito cui arrivi dopo essere passato per il tunnel VPN considererà la geolocalizzazione del server VPN che hai selezionato come la tua posizione reale. E i dati crittografati non cadranno nelle mani di inserzionisti, hacker e servizi di sicurezza.
 
 ![Struttura VPN](https://cdn.adguardvpn.com/public/Adguard/Website/Images/seo/en/how_vpn_3.jpg)
 
@@ -71,7 +73,7 @@ Il nostro servizio VPN ha svariati [vantaggi](/general/why-adguard-vpn) importan
 
 Al momento, AdGuard VPN è disponibile come:
 
-- [Estensione per browser](/adguard-vpn-browser-extension/overview) per Chrome, Firefox ed Edge
+- [Browser extension](/adguard-vpn-browser-extension/overview) for Chrome, Edge, Firefox, and Opera
 
 - App mobile per [Android](/adguard-vpn-for-android/overview) e [iOS](/adguard-vpn-for-ios/overview)
 

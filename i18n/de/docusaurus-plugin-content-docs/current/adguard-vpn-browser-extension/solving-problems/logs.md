@@ -10,7 +10,7 @@ Es gibt mehrere Möglichkeiten zum Sammeln von AdGuard VPN-Browsererweiterungspr
 1. Öffnen Sie die AdGuard VPN Browsererweiterung, wiederholen Sie nach Möglichkeit die Aktionen, die zum Fehler geführt haben. Notieren Sie den genauen Zeitpunkt, zu dem dieser Fehler aufgetreten ist.
 1. Öffnen Sie *Einstellungen*, indem Sie auf das Hamburger-Menüsymbol (☰) klicken → *Support* → *Fehler melden*.
 1. Hinterlassen Sie im geöffneten Formular eine automatisch eingefügte E-Mail-Adresse oder geben Sie eine andere ein und beschreiben Sie den gefundenen Fehler, einschließlich des Zeitpunkts, zu dem dieser Fehler aufgetreten ist. Wenn Sie das Problem nicht reproduzieren können, geben Sie so genau wie möglich an, wann es zuletzt aufgetreten ist.
-1. Make sure that there is a check mark next to *Include the diagnostic report in the message* and tap *Submit*. Auf diese Weise senden Sie die Protokolle zusammen mit dem Fehlerbericht.
+1. Vergewissern Sie sich, dass ein Häkchen neben *Diagnosebericht in die Nachricht aufnehmen* gesetzt ist, und tippen Sie auf *Senden*. Auf diese Weise senden Sie die Protokolle zusammen mit dem Fehlerbericht.
 
 ## Sammeln und Senden von Protokollen über die Schaltfläche *Protokolle exportieren*
 
@@ -42,7 +42,7 @@ Jetzt, wo Sie die Protokolle gesammelt haben, müssen Sie sie unserem Entwicklun
 
     ![The Console tab *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/console.png)
 
-1. Öffnen Sie das Kontextmenü und klicken Sie auf *Save as…*
+1. Öffnen Sie das Kontextmenü und klicken Sie auf *Speichern unter…*
 
     ![Save as *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/save.png)
 
@@ -67,7 +67,7 @@ Nachdem Sie die Protokolle gesammelt haben, müssen Sie sie unserem Entwicklungs
 
     ![Console *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/ff_console.png)
 
-1. Klicken Sie auf *Save all Messages to file*
+1. Click *Save all Messages to File*
 
     ![Save *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/save-to-file.png)
 

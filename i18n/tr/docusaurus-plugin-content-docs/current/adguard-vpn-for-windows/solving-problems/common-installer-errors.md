@@ -91,7 +91,7 @@ This error appears when trying to run multiple instances of the AdGuard VPN inst
 
 Daha önce AdGuard VPN kurmuş olmanız çok olasıdır.
 
-- AdGuard VPN'in bilgisayarınızda kurulu olup olmadığını kontrol edin. You can do that by pressing the *Win* key and start typing *adguard vpn*.
+- AdGuard VPN'in bilgisayarınızda kurulu olup olmadığını kontrol edin. To do that, press the *Win* key and start typing *adguard vpn*.
 
 - Belki önceki bir AdGuard VPN kurulumundan kalan bazı dosyalar vardır. Özel [kaldırma aracımızı](/adguard-vpn-for-windows/installation#advanced) kullanarak AdGuard'ı kaldırın ve ardından kurulumu tekrarlayın.
 

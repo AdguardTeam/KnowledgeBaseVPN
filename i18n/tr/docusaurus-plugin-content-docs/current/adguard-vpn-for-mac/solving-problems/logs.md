@@ -17,7 +17,9 @@ Varsayılan olarak, Mac için AdGuard VPN, uygulamanın çalışan süreçleri h
 
 4. There is a check mark next to the **Send detailed system info**, which means that when you send a report, you also send logs.
 
-:::note If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, select **Settings** → **General** → **Export logs** in the **Actions** section on the right.
+:::note
+
+Herhangi bir nedenle bize günlükleri başka bir şekilde göndermeniz daha uygunsa, bunları kendiniz dışa aktarabilirsiniz. To do this, select **Settings** → **General** → **Export logs** in the **Actions** section on the right.
 
 :::
 
@@ -41,7 +43,7 @@ Varsayılan olarak, Mac için AdGuard VPN, uygulamanın çalışan süreçleri h
 
 :::note
 
-Herhangi bir nedenle bize günlükleri başka bir şekilde göndermeniz daha uygunsa, bunları kendiniz dışa aktarabilirsiniz. Bunu yapmak için **Ayarlar** → **Genel** → sağdaki **Eylemler** **Günlükleri dışa aktar** öğesini seçin.
+If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. Bunu yapmak için **Ayarlar** → **Genel** → sağdaki **Eylemler** **Günlükleri dışa aktar** öğesini seçin.
 
 :::
 

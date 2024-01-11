@@ -67,7 +67,7 @@ sidebar_position: 1
 
     ![控制台 *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/ff_console.png)
 
-1. 单击 *「将所有消息保存到文件」*
+1. Click *Save all Messages to File*
 
     ![保存 *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/save-to-file.png)
 

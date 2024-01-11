@@ -67,7 +67,7 @@ Ora che hai raccolto i registri, devi consegnarli al nostro team di sviluppo. Pe
 
     ![Console *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/ff_console.png)
 
-1. Clicca su *Salva tutti i Messaggi nel file*
+1. Click *Save all Messages to File*
 
     ![Salva *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/save-to-file.png)
 

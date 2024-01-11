@@ -17,7 +17,9 @@ Par défaut, AdGuard VPN pour Mac utilise le niveau de journalisation standard, 
 
 4. There is a check mark next to the **Send detailed system info**, which means that when you send a report, you also send logs.
 
-:::note If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, select **Settings** → **General** → **Export logs** in the **Actions** section on the right.
+:::note
+
+Si, pour une raison quelconque, il est plus pratique pour vous de nous envoyer les journaux d'une autre manière, vous pouvez les exporter vous-même. To do this, select **Settings** → **General** → **Export logs** in the **Actions** section on the right.
 
 :::
 
@@ -41,7 +43,7 @@ Dans la plupart des cas, le niveau de journalisation par défaut est suffisant p
 
 :::note
 
-Si, pour une raison quelconque, il est plus pratique pour vous de nous envoyer les journaux d'une autre manière, vous pouvez les exporter vous-même. Pour cela, sélectionnez **Paramètres** → **Général** → **Exporter les journaux** dans la section **Actions** à droite.
+If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. Pour cela, sélectionnez **Paramètres** → **Général** → **Exporter les journaux** dans la section **Actions** à droite.
 
 :::
 

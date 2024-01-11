@@ -20,7 +20,7 @@ AdGuard VPN Tarayıcı Uzantınızı yönetmek için:
 
 ## Ayarlar
 
-Bu sekmede birkaç önemli ayar toplanmıştır. Burada kullanılacak bir DNS sunucusu seçebilir, tarayıcının içerik menüsüne AdGuard VPN simgesini ekleyebilir veya kaldırabilir, WebRTC'i engelleyebilir, uzantının temasını değiştirebilir ve AdGuard'ın anonimleştirilmiş çökme raporları ve teknik veriler toplamasına izin verebilirsiniz.
+Bu sekmede birkaç önemli ayar toplanmıştır. Here you can choose a DNS server to use, add or remove the AdGuard VPN icon from the browser’s context menu, block WebRTC, change the extension's theme, and allow AdGuard to gather anonymous crash reports and technical data.
 
 ### DNS sunucusu seçme
 

@@ -20,7 +20,7 @@ Una vez hecho esto, verás varias pestañas a la izquierda:
 
 ## Configuración
 
-Algunas configuraciones importantes se reúnen dentro de esta pestaña. Aquí puedes elegir el servidor DNS que deseas utilizar, agregar o eliminar el icono de AdGuard VPN del menú contextual del navegador, bloquear WebRTC, cambiar el tema de la extensión y permitir que AdGuard recopile informes de fallos y datos técnicos anónimos.
+Algunas configuraciones importantes se reúnen dentro de esta pestaña. Here you can choose a DNS server to use, add or remove the AdGuard VPN icon from the browser’s context menu, block WebRTC, change the extension's theme, and allow AdGuard to gather anonymous crash reports and technical data.
 
 ### Eligiendo un servidor DNS
 

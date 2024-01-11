@@ -11,7 +11,7 @@ AdGuard VPN má několik funkcí:
 
 - skrývá vaše skutečné místo pobytu a pomáhá vám zůstat v anonymitě
 - změní vaši IP adresu a ochrání vaše data před sledováním
-- zašifruje váš provoz, aby byl pro podvodníky nedostupný
+- encrypts your traffic and makes contents inaccessible to scammers
 - umožňuje nastavit, kde se má VPN používat a kde ne (funkce výjimek)
 
 Další výhodou AdGuard VPN pro iOS je náš vlastní VPN protokol. V porovnání s jinými protokoly VPN je velmi obtížné jej odhalit a je stabilní i při špatném připojení k internetu. O protokolu AdGuard VPN si zde můžete [přečíst více](/general/adguard-vpn-protocol).
@@ -22,7 +22,7 @@ Chcete-li používat AdGuard VPN pro iOS, musíte se nejprve přihlásit ke své
 
 Pokud ještě nemáte účet AdGuard, musíte si ho nejprve vytvořit.
 
-Používání AdGuard VPN je poměrně snadné. Na hlavní obrazovce se zobrazí tlačítko *Připojit/Odpojit* a seznam dostupných serverů. Tyto servery mají vlastní polohu (určitá země a město) a ukazatel hodnoty ping. Ping znázorňuje dobu odezvy serveru (v milisekundách). Volba serveru s pingem 22 ms znamená, že datový paket odeslaný na tento server je vrácen (znovu přijat) za 22 ms. V aplikaci AdGuard VPN si můžete vybrat z více než 50 umístění v desítkách zemí.
+Používání AdGuard VPN je poměrně snadné. Na hlavní obrazovce se zobrazí tlačítko *Připojit/Odpojit* a seznam dostupných serverů. Tyto servery mají vlastní polohu (určitá země a město) a ukazatel hodnoty ping. The ping shows the server's response time (in milliseconds). Volba serveru s pingem 22 ms znamená, že datový paket odeslaný na tento server je vrácen (znovu přijat) za 22 ms. V aplikaci AdGuard VPN si můžete vybrat z více než 50 umístění v desítkách zemí.
 
 ![Main screen and locations *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/1.png?123)
 
@@ -61,7 +61,7 @@ AdGuard VPN pro iOS může fungovat ve dvou režimech: **Obecném** a **Integrov
 
 V **Obecném režimu** je použit [protokol AdGuard VPN](/general/adguard-vpn-protocol), který poskytuje nejlepší kombinaci rychlosti a zabezpečení. V tomto režimu nebude moci AdGuard VPN fungovat spolu s [blokátorem reklam AdGuard pro iOS](https://adguard.com/kb/adguard-for-ios/overview/).
 
-V **Integrovaném** režimu bude AdGuard VPN schopna pracovat současně s blokátorem reklam AdGuard pro iOS pomocí protokolu IPSec. Tento protokol je také bezpečný, ale o něco pomalejší a snáze zjistitelný. K nastavení integrace není třeba provádět žádné další akce: stačí nainstalovat obě aplikace a přepnout do tohoto režimu.
+In **Integrated** mode, AdGuard VPN will be able to work at the same time with AdGuard Ad Blocker for iOS by using the IPSec protocol instead. Tento protokol je také bezpečný, ale o něco pomalejší a snáze zjistitelný. K nastavení integrace není třeba provádět žádné další akce: stačí nainstalovat obě aplikace a přepnout do tohoto režimu.
 
 :::note
 
@@ -85,11 +85,11 @@ Můžete si vybrat výchozí systémový, tmavý nebo světlý motiv aplikace (k
 
 ### Pokročilá nastavení
 
-V *Pokročilých nastavení* najdete dvě části — Úroveň záznamu a Diagnostické informace. Pokud jde o první možnost, nedoporučujeme zapínat rozšířenou úroveň záznamu, pokud o to nepožádá náš tým podpory. Diagnostické informace, lokálně uložené technické informace o zařízení a připojeních (IP adresa, ID, ping atd.), nám mohou být zaslány v případě technických problémů.
+V *Pokročilých nastavení* najdete dvě části — Úroveň záznamu a Diagnostické informace. Concerning the first option, it is not recommended to enable the Extended logging level unless requested by our support team. Diagnostické informace, lokálně uložené technické informace o zařízení a připojeních (IP adresa, ID, ping atd.), nám mohou být zaslány v případě technických problémů.
 
 ## Rychlé akce (k dispozici v iOS 13 nebo novějších verzích)
 
-Chcete-li k této funkci přistoupit, dotkněte se ikony aplikace, podržte ji a poté zvedněte prst. Zobrazí se seznam Rychlých akcí: Připojit/odpojit k aktuálně vybranému serveru, zvolit umístění pro výběr nového serveru. Můžete také samozřejmě přistupovat ke všem výchozím akcím, jako je odebrání aplikace nebo přesun ikony aplikace.
+Chcete-li k této funkci přistoupit, dotkněte se ikony aplikace, podržte ji a poté zvedněte prst. You'll see quick actions: Connect/Disconnect, Select location, Edit Home Screen, and Remove app.
 
 ![Quick actions *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/quick-actions.png)
 

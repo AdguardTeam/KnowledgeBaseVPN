@@ -3,7 +3,7 @@ title: Sådan indsamles og indsendes logfiler
 sidebar_position: 2
 ---
 
-If you encounter any problem while using AdGuard VPN for Android, you can inform us about it by sending the app logs.
+Opleves problemer under brug af AdGuard VPN til Android, kan vi informeres herom ved indsendelse af app-logfiler.
 
 ## Indsamling og indsendelse af standardlogfiler
 
@@ -15,7 +15,7 @@ Som standard bruger AdGuard VPN til Android logningsniveauet **Standard**, dvs. 
 
 3. Angiv i den åbnede formular en e-mailadresse for feedback og beskriv den fundne fejl, herunder tidspunktet, da denne opstod. Kan problemet ikke genskabes, angiv da nøjagtigt som muligt, hvornår det senest opstod.
 
-4. There is a check mark next to **Send app logs and system info**, which means that when you send a report, you also send logs.
+4. Der er et flueben ud for **Indsend detaljeret systeminfo**, hvilket betyder, at når en anmeldelse indsendes, inkluderes logfiler ligeledes.
 > Er det af en eller anden grund mere bekvemt at indsende logfiler på anden vis, kan man selv eksportere dem. Dette gøres ved at gå til **Indstillinger** → **Support** → **Eksportere logfiler og systeminfo**.
 
 ## Indsamling og indsendelse af udvidede logfiler
@@ -34,5 +34,5 @@ I de fleste tilfælde er logningsniveauet **Standard** tilstrækkeligt til at sp
 
 6. Angiv i den åbnede formular en e-mailadresse for feedback og beskriv den fundne fejl, herunder tidspunktet, da denne opstod.
 
-7. Make sure that there is a check mark next to **Send app logs and system info** and tap **Send**.
+7. Sørg for, at der er et flueben ud for **Indsend detaljeret systeminfo**, og tryk på **Indsend**.
 > Er det af en eller anden grund mere bekvemt at indsende logfiler på anden vis, kan man selv eksportere dem. Dette gøres ved at gå til **Indstillinger** → **Support** → **Eksportere logfiler og systeminfo**.

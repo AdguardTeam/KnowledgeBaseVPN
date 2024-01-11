@@ -17,9 +17,9 @@ A captura de tela em um dispositivo Android pode ser feita de várias maneiras, 
 
 Geralmente, você deve usar a seguinte combinação de botões para Android:
 
-- **Mantenha pressionados simultaneamente os botões *Diminuir volume* e *Power* por 1 a 2 segundos**
+- **Press and hold both the *Volume Down* and the *Power* buttons for 1–2 seconds**
 
-Seu dispositivo Android irá capturar a tela inteira e salvá-la como uma foto. Assim, você pode encontrar a captura de tela em uma pasta Capturas de tela em sua Galeria.
+Android will capture the entire screen and save it as a photo. Assim, você pode encontrar a captura de tela em uma pasta Capturas de tela em sua Galeria.
 
 Mas, como já foi dito, pode haver diferenças dependendo de um determinado dispositivo. Vejamos outras combinações possíveis:
 
@@ -44,7 +44,7 @@ para iPhone X ou posterior:
 
 - **Pressione o botão *Sleep/Wake* e o botão *Aumentar volume* ao mesmo tempo e solte-os rapidamente**
 
-Seu dispositivo Android irá capturar a tela inteira e salvá-la como uma foto. Você pode encontrá-la no aplicativo Fotos padrão.
+iOS will capture the entire screen and save it as a photo. Você pode encontrá-la no aplicativo Fotos padrão.
 
 ### Windows
 
@@ -58,7 +58,7 @@ PrtScn (Print Screen) can be differently abbreviated on various keyboards — Pr
 
 :::
 
-O Windows captura a tela inteira e a copia para a área de transferência (invisível).
+Windows will capture the entire screen and copy it to the (invisible) clipboard.
 
 Para tirar uma captura de tela de uma janela ativa, use a seguinte combinação:
 
@@ -82,7 +82,7 @@ To take a screenshot on a Mac device, use the following button combination:
 
 - ***Pressione e segure ***⌘ Cmd + Shift + 3******
 
-Seu Mac irá capturar a tela inteira e salvá-la como um arquivo na área de trabalho.
+Mac will capture the entire screen and save it as a file on the desktop.
 
 Para tirar uma captura de tela de uma janela ativa, use a seguinte combinação:
 

@@ -67,7 +67,7 @@ sidebar_position: 1
 
     ![Консоль *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/ff_console.png)
 
-1. Нажмите *Сохранить все сообщения в файл*
+1. Click *Save all Messages to File*
 
     ![Сохранить *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/save-to-file.png)
 

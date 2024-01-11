@@ -31,11 +31,11 @@ Udělali jsme vše pro to, abychom vám usnadnili správu seznamů výjimek web�
 
 ### Seznamy výjimek
 
-#### Pro webové stránky
-
 Seznamy výjimek vám umožňují spravovat připojení VPN pro konkrétní webové stránky a aplikace. Do sekce *Výjimky* se dostanete klepnutím na druhou ikonu zleva ve spodní části obrazovky. Do sekce *Výjimky* se dostanete klepnutím na druhou ikonu zleva ve spodní části obrazovky.
 
-Existují dva režimy: v *Obecném režimu* jsou vyloučeny webové stránky ze seznamu výjimek a v *Selektivním režimu* jsou to jen ty, kde AdGuard VPN funguje.
+By default, AdGuard VPN works for all websites and apps except those added to exclusions, but you can easily switch to the other mode.
+
+#### Pro webové stránky
 
 Domény (např. `google.com`) nebo subdomény (např. `*.google.com`) webových stránek můžete do *Výjimek* přidat třemi způsoby: zadejte je ručně v aplikaci nebo přímo z prohlížeče kliknutím na tlačítko *Sdílet* a výběrem AdGuard VPN v otevřeném seznamu níže, nebo z vestavěných seznamů služeb rozdělených podle kategorií.
 
@@ -68,7 +68,7 @@ Další užitečnou funkcí je *Import/Export výjimek*. K dosažení cíle vedo
 
 #### Pro aplikace
 
-Jak jsme uvedli výše, do výjimek lze snadno přidat nejen webové stránky. Vyberte, pro které aplikace potřebujete AdGuard VPN a pro které ne. Ve výchozím nastavení funguje AdGuard VPN pro všechny aplikace, ale můžete snadno přepnout do jiného režimu.
+Jak jsme uvedli výše, do výjimek lze snadno přidat nejen webové stránky. Vyberte, pro které aplikace potřebujete AdGuard VPN a pro které ne.
 
 V *Režimu integrace* můžete aplikace spravovat pouze prostřednictvím Blokátoru reklam AdGuard.
 
@@ -112,7 +112,7 @@ V části *Pokročilá nastavení* najdete čtyři sekce.
 
 :::note
 
-Některé funkce AdGuard VPN jsou v *Režimu integrace* deaktivovány: DNS servery, Kill Switch, Automatická ochrana a výjimky aplikací. V aplikaci Blokátor reklam AdGuard můžete spravovat ochranu DNS a směrovat aplikace prostřednictvím proxy serveru AdGuard VPN.
+Some AdGuard VPN features are disabled in *Integrated mode*: DNS servers, Kill Switch, Auto-protection, and App exclusions. V aplikaci Blokátor reklam AdGuard můžete spravovat ochranu DNS a směrovat aplikace prostřednictvím proxy serveru AdGuard VPN.
 
 :::
 

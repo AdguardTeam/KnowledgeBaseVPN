@@ -1,5 +1,5 @@
 ---
-title: Como o "Ocultar meu e-mail"
+title: Como usar o "Ocultar meu e-mail"
 sidebar_position: 5
 ---
 

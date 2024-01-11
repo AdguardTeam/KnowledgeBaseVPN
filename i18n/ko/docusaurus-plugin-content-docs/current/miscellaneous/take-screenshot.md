@@ -17,9 +17,9 @@ Android 기기에서 스크린샷을 찍는 것은 기기 모델 및 제조업�
 
 일반적으로 Android의 경우 다음 버튼 조합을 사용해야 합니다.
 
-- ***볼륨 작게* 및 *전원* 버튼을 동시에 1~2초 동안 누르십시오.**
+- **Press and hold both the *Volume Down* and the *Power* buttons for 1–2 seconds**
 
-Android 기기는 전체 화면을 캡처하여 사진으로 저장합니다. 따라서 갤러리의 스크린샷 폴더에서 스크린샷을 찾을 수 있습니다.
+Android will capture the entire screen and save it as a photo. 따라서 갤러리의 스크린샷 폴더에서 스크린샷을 찾을 수 있습니다.
 
 단, 이미 말씀드린 것처럼 특정 기기에 따라 차이가 있을 수 있습니다. 다른 방법을 살펴보겠습니다.
 
@@ -44,7 +44,7 @@ iPhone X 이상에서 스크린샷을 찍는 방법은 다음과 같습니다.
 
 - ***전원* 버튼과 *볼륨 높이기* 버튼을 동시에 눌렀다가 빠르게 놓습니다.**
 
-iOS 기기는 전체 화면을 캡처하여 사진으로 저장합니다. 기본 사진 앱에서 찾을 수 있습니다.
+iOS will capture the entire screen and save it as a photo. 기본 사진 앱에서 찾을 수 있습니다.
 
 ### Windows
 
@@ -58,7 +58,7 @@ PrtScn (Print Screen) can be differently abbreviated on various keyboards — Pr
 
 :::
 
-Windows는 전체 화면을 캡처하여 (보이지 않는) 클립보드에 복사합니다.
+Windows will capture the entire screen and copy it to the (invisible) clipboard.
 
 활성 창의 스크린샷을 찍으려면 다음 조합을 사용하십시오.
 
@@ -82,7 +82,7 @@ To take a screenshot on a Mac device, use the following button combination:
 
 - ******⌘ Cmd + Shift + 3***을 함께 길게 누릅니다.***
 
-Mac은 전체 화면을 캡처하여 바탕 화면에 파일로 저장됩니다.
+Mac will capture the entire screen and save it as a file on the desktop.
 
 활성 창의 스크린샷을 찍으려면 다음 조합을 사용하십시오.
 

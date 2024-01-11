@@ -17,9 +17,9 @@ Tomar una captura de pantalla en un dispositivo Android se puede hacer de varias
 
 En general, debe usar la siguiente combinación de botones para Android:
 
-- **Mantenga presionados a la vez los botones *Bajar volumen* y *Encendido* durante 1-2 segundos**
+- **Press and hold both the *Volume Down* and the *Power* buttons for 1–2 seconds**
 
-Su dispositivo Android capturará toda la pantalla y la guardará como una foto. Por lo tanto, puede encontrar la captura de pantalla en una carpeta Capturas de pantalla en su Galería.
+Android will capture the entire screen and save it as a photo. Por lo tanto, puede encontrar la captura de pantalla en una carpeta Capturas de pantalla en su Galería.
 
 Pero, como ya se ha dicho, puede haber diferencias dependiendo de un dispositivo en particular. Veamos otras combinaciones posibles:
 
@@ -44,7 +44,7 @@ y esta para iPhone X o posterior:
 
 - **Presione el botón de *reposo/despertar* y el botón de *Subir el Volumen* al mismo tiempo, y luego suéltalos rápidamente**
 
-Su dispositivo iOS capturará toda la pantalla y la guardará como una foto. Puedes encontrarlo en una aplicación de fotos estándar.
+iOS will capture the entire screen and save it as a photo. Puedes encontrarlo en una aplicación de fotos estándar.
 
 ### Windows
 
@@ -58,7 +58,7 @@ PrtScn (Print Screen) can be differently abbreviated on various keyboards — Pr
 
 :::
 
-Windows captura toda la pantalla y la copia en el portapapeles (invisible).
+Windows will capture the entire screen and copy it to the (invisible) clipboard.
 
 Para tomar una captura de pantalla de una ventana activa, use la siguiente combinación:
 
@@ -82,7 +82,7 @@ To take a screenshot on a Mac device, use the following button combination:
 
 - ***Presione y mantenga presionado ***⌘ Cmd + Shift + 3******
 
-Su Mac capturará toda la pantalla y la guardará como un archivo en el escritorio.
+Mac will capture the entire screen and save it as a file on the desktop.
 
 Para tomar una captura de pantalla de una ventana activa, use la siguiente combinación:
 

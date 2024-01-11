@@ -17,9 +17,9 @@ Et skærmfoto på en Android-enhed kan tages på forskellige måder afhængigt a
 
 Generelt kan flg. knapkombination bruges til Android:
 
-- **Tryk og hold på knapperne *Lydstyrke Ned* og *Tænd/Sluk* samtidigt i 1–2 sekunder**
+- **Press and hold both the *Volume Down* and the *Power* buttons for 1–2 seconds**
 
-Android fotograferer hele skærmen og gemme den som et foto. Skærmfotoet kan derefter findes i Screenshots-mappe i Galleri-appen.
+Android will capture the entire screen and save it as a photo. Skærmfotoet kan derefter findes i Screenshots-mappe i Galleri-appen.
 
 Fremgangsmåden kan dog, som allerede nævnt, variere afhængigt af enheden. Lad os se på andre kombinationsmuligheder:
 
@@ -44,7 +44,7 @@ og til iPhone X eller senere:
 
 - **Tryk på knapperne *Sov/Vågn* og *Lydstyrke p* samtidigt, og slip dem derefter hurtigt**
 
-iOS fotograferer hele skærmen og gemme den som et foto. Det kan herefter findes i en standard Foto-app.
+iOS will capture the entire screen and save it as a photo. Det kan herefter findes i en standard Foto-app.
 
 ### Windows
 
@@ -58,7 +58,7 @@ PrtScn (Print Screen) can be differently abbreviated on various keyboards — Pr
 
 :::
 
-Windows fotograferer hele skærmen og kopierer den til udklipsholderen.
+Windows will capture the entire screen and copy it to the (invisible) clipboard.
 
 Brug flg. kombination for at tage et skærmfoto af et aktivt vindue:
 
@@ -82,7 +82,7 @@ To take a screenshot on a Mac device, use the following button combination:
 
 - ***Tryk og hold på ***⌘ Cmd + Shift + 3*** samtidigt***
 
-Mac'en fotograferer hele skærmen og gemme den som en fil på skrivebordet.
+Mac will capture the entire screen and save it as a file on the desktop.
 
 Brug flg. kombination for at tage et skærmfoto af et aktivt vindue:
 
