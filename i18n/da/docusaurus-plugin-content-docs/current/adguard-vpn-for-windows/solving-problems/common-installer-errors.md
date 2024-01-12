@@ -91,7 +91,7 @@ Denne fejl vises, når flere forekomster af AdGuard VPN-installationsprogrammet 
 
 AdGuard VPN er sandsynligvis allerede blevet installeret tidligere.
 
-- Tjek, om AdGuard VPN allerede er installeret på computeren. To do that, press the *Win* key and start typing *adguard vpn*.
+- Tjek, om AdGuard VPN allerede er installeret på computeren. Det kan gøres ved at trykke på *Win*-tasten og begynde at skrive *adguard vpn*.
 
 - Der findes måske nogle efterladenskaber fra en tidligere AdGuard VPN-installation. Afinstallér AdGuard VPN via vores særlige [afinstallationsværktøj](/adguard-vpn-for-windows/installation#advanced) og start derefter installationen forfra.
 

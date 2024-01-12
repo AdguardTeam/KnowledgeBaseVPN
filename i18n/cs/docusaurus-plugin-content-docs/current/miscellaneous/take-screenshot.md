@@ -17,9 +17,9 @@ Pořízení snímku obrazovky na zařízení se systémem Android lze provést r
 
 Obecně byste pro systém Android měli používat následující kombinaci tlačítek:
 
-- **Press and hold both the *Volume Down* and the *Power* buttons for 1–2 seconds**
+- **Stiskněte a podržte obě tlačítka *Hlasitost dolů* a *Napájení* po dobu 1–2 sekund**
 
-Android will capture the entire screen and save it as a photo. Snímek obrazovky tak najdete ve složce Snímky obrazovky v Galerii.
+Android zachytí celou obrazovku a uloží ji jako fotografii. Snímek obrazovky tak najdete ve složce Snímky obrazovky v Galerii.
 
 Ale jak již bylo řečeno, mohou existovat rozdíly v závislosti na konkrétním zařízení. Podívejme se na další možné kombinace:
 
@@ -44,7 +44,7 @@ a tento postup je pro iPhone X nebo novější:
 
 - **Stiskněte současně tlačítko *Uspat/Probudit* a tlačítko *Hlasitost nahoru* a poté je rychle uvolněte**
 
-iOS will capture the entire screen and save it as a photo. Najdete ji ve standardní aplikaci Fotky.
+iOS zachytí celou obrazovku a uloží ji jako fotografii. Najdete ji ve standardní aplikaci Fotky.
 
 ### Windows
 
@@ -58,7 +58,7 @@ PrtScn (Print Screen) může být na různých klávesnicích označováno různ
 
 :::
 
-Windows will capture the entire screen and copy it to the (invisible) clipboard.
+Windows zachytí celou obrazovku a zkopíruje ji do (neviditelné) schránky.
 
 Chcete-li pořídit snímek obrazovky aktivního okna, použijte následující kombinaci:
 
@@ -82,7 +82,7 @@ Chcete-li pořídit snímek obrazovky v zařízení se systémem macOS, použijt
 
 - ***Stiskněte a podržte současně tlačítka ***⌘ Cmd + Shift + 3******
 
-Mac will capture the entire screen and save it as a file on the desktop.
+Mac zachytí celou obrazovku a uloží ji jako soubor na plochu.
 
 Chcete-li pořídit snímek obrazovky aktivního okna, použijte následující kombinaci:
 

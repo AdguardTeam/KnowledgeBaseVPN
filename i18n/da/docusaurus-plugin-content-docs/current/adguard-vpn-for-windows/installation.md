@@ -35,7 +35,7 @@ Fungerer alm. afinstallation af en eller anden grund ikke, kan en avanceret meto
 
     :::note
 
-    Follow the next steps only if performing the first two steps wasn’t enough for some reason. Det anbefales kraftigt at kontakte vores supportteam før brug af trin 3–4 i Avanceret afinstallationsvejledning.
+    Følg kun de næste trin, såfremt gennemførelsen af de første to trin viser sig utilstrækkelige. Det anbefales kraftigt at kontakte vores supportteam før brug af trin 3–4 i Avanceret afinstallationsvejledning.
 
     :::
 

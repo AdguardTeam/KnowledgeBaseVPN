@@ -7,7 +7,7 @@ Mac için AdGuard VPN, bir masaüstü VPN hizmetidir. AdGuard VPN, AdGuard Rekla
 
 **AdGuard hesabınıza giriş yapmadıkça Mac için AdGuard VPN'i kullanamayacağınızı** unutmayın. AdGuard hesabınızla veya harici bir hesapla, yani Apple, Google veya Facebook aracılığıyla giriş yapabilirsiniz. Harici hesabınızın AdGuard hesabınızla aynı e-posta adresine bağlı olduğundan emin olun. AdGuard hesabınızda uygun bir abonelik varsa, masaüstü uygulamasında otomatik olarak etkinleştirilecektir. Henüz bir AdGuard hesabınız yok mu? [Buradan](https://auth.adguard.com/registration.html) oluşturun.
 
-:::note Compatibility
+:::note Uyumluluk
 
 Mac için AdGuard VPN, şu anda macOS Catalina'dan (10.15) başlayan macOS sürümlerinde desteklenmektedir.
 
@@ -15,9 +15,9 @@ Mac için AdGuard VPN, şu anda macOS Catalina'dan (10.15) başlayan macOS sür�
 
 ## Ana ekran
 
-![Home screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/main_en.png)
+![Ana ekran](https://cdn.adguardvpn.com/content/kb/vpn/mac/main_en.png)
 
-İlk sekme *Ana* ekranıdır. Burada AdGuard VPN'nin mevcut durumunu ve [istisna modunu](#exclusions), seçilen konumu (etkinleştirilmişse) ve pingini görebilirsiniz. Ping, bir VPN sunucusunun yanıt süresidir. Consequently, the lower this number, the faster the connection. VPN devre dışıysa, en son bağlandığınız konum aşağıda görüntülenir. En düşük pinge sahip en hızlı konumlar ekranın sağ üst köşesinde görüntülenir. Aşağıda konumların tam listesini görebilirsiniz. Arama fonksiyonu sayesinde, ihtiyaç duyulan konum kolayca bulunabilir.
+İlk sekme *Ana* ekranıdır. Burada AdGuard VPN'nin mevcut durumunu ve [istisna modunu](#exclusions), seçilen konumu (etkinleştirilmişse) ve pingini görebilirsiniz. Ping, bir VPN sunucusunun yanıt süresidir. Sonuç olarak, bu sayı ne kadar düşük olursa, bağlantı o kadar hızlı olur. VPN devre dışıysa, en son bağlandığınız konum aşağıda görüntülenir. En düşük pinge sahip en hızlı konumlar ekranın sağ üst köşesinde görüntülenir. Aşağıda konumların tam listesini görebilirsiniz. Arama fonksiyonu sayesinde, ihtiyaç duyulan konum kolayca bulunabilir.
 
 :::note
 
@@ -29,7 +29,7 @@ Mac için AdGuard VPN, şu anda macOS Catalina'dan (10.15) başlayan macOS sür�
 
 ![İstisnalar](https://cdn.adguardvpn.com/content/kb/vpn/mac/exclusions_en.png)
 
-AdGuard VPN has several features that make it unique, and one of them is definitely *Exclusions*. By default, AdGuard VPN will run on all websites and in all apps but the ones from the exclusions list. But you can switch to the other mode, so AdGuard VPN will run only on websites and in apps from the exclusions list.
+AdGuard VPN'i benzersiz kılan birkaç özelliği vardır ve bunlardan biri kesinlikle *İstisnalardır*. By default, AdGuard VPN will run on all websites and in all apps but the ones from the exclusions list. But you can switch to the other mode, so AdGuard VPN will run only on websites and in apps from the exclusions list.
 
 ![İstisnalar ekranı](https://cdn.adguardvpn.com/content/kb/vpn/mac/services_en.png)
 
@@ -48,7 +48,7 @@ Ayrıca, hazır istisna listeleri, AdGuard VPN'in kurulu olduğu diğer cihazlar
 
 :::note
 
-Archive files from other devices can be similarly imported to your AdGuard VPN for Mac.
+Diğer cihazlardan arşiv dosyaları benzer şekilde Mac için AdGuard VPN'inize aktarılabilir.
 
 :::
 
@@ -76,7 +76,7 @@ You can also allow AdGuard VPN to gather and send anonymous crash reports, techn
 
 ![DNS sunucuları](https://cdn.adguardvpn.com/content/kb/vpn/mac/dns_en.png)
 
-Burada, varsayılan olarak İSS'niz tarafından sağlanan bir DNS sunucusuna güvenmemek için özel bir DNS sunucusu (veya sunucuları) ekleyebilirsiniz. We recommend adding AdGuard DNS, which not only encrypts your DNS traffic but also identifies requests to malicious websites and redirects them to a “blackhole”.
+Burada, varsayılan olarak İSS'niz tarafından sağlanan bir DNS sunucusuna güvenmemek için özel bir DNS sunucusu (veya sunucuları) ekleyebilirsiniz. Yalnızca DNS trafiğinizi şifrelemekle kalmayıp aynı zamanda kötü amaçlı sitelere yönelik istekleri tespit eden ve bunları bir "kara deliğe" yönlendiren AdGuard DNS'i eklemenizi öneririz.
 
 ### Gelişmiş ayarlar
 

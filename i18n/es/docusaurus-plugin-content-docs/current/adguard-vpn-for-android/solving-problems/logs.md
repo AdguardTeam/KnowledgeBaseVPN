@@ -3,7 +3,7 @@ title: Cómo recopilar y enviar registros
 sidebar_position: 2
 ---
 
-If you encounter any problem while using AdGuard VPN for Android, you can inform us about it by sending the app logs.
+Si encuentras algún problema al usar AdGuard VPN para Android, puedes informarnos al respecto enviándonos los registros de la aplicación.
 
 ## Recopilación y envío de registros estándar
 
@@ -15,7 +15,7 @@ Por defecto, AdGuard VPN para Android utiliza el nivel de registro **Default**, 
 
 3. En el formulario abierto, introduzca su dirección de correo electrónico para recibir comentarios y describa el error encontrado, incluyendo la hora en que se produjo. Si no puede reproducir el problema, especifique con la mayor precisión posible cuándo ocurrió por última vez.
 
-4. There is a check mark next to **Send app logs and system info**, which means that when you send a report, you also send logs.
+4. Hay una marca de verificación junto a **Enviar registros de la aplicación e información del sistema**, lo que significa que cuando envías un informe, también envías registros.
 > Si por alguna razón le resulta más cómodo enviarnos los registros de otra manera, puede exportarlos usted mismo. Para ello, vaya a **Configuración** → **Soporte** → **Exportar registros e información del sistema**.
 
 ## Recopilación y envío de registros extendidos
@@ -34,5 +34,5 @@ En la mayoría de los casos, el nivel de registro **Default** es suficiente para
 
 6. En el formulario, introduzca su dirección de correo electrónico para recibir comentarios y describa el error encontrado, incluyendo la hora en que se produjo.
 
-7. Make sure that there is a check mark next to **Send app logs and system info** and tap **Send**.
+7. Asegúrate de que haya una marca de verificación junto a **Enviar registros de la aplicación e información del sistema** y toca **Enviar**.
 > Si por algún motivo le resulta más cómodo enviarnos los logs de otra forma, puede exportarlos usted mismo. Para ello, vaya a **Configuración** → **Soporte** → **Exportar registros e información del sistema**.

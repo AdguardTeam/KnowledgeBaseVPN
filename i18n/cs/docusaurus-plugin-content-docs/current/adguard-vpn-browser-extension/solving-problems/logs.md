@@ -67,7 +67,7 @@ Po shromáždění záznamů je třeba je předat našemu vývojovému týmu. K 
 
     ![Console *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/ff_console.png)
 
-1. Click *Save all Messages to File*
+1. Klikněte na *Uložit všechny zprávy do souboru*
 
     ![Uložit *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/save-to-file.png)
 

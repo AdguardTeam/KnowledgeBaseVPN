@@ -3,7 +3,7 @@ title: Come raccogliere e inviare i registri
 sidebar_position: 2
 ---
 
-If you encounter any problems while using AdGuard VPN for iOS, you can inform us about it by sending the app logs.
+Se riscontri qualsiasi problema utilizzando AdGuard VPN per iOS, puoi informarci a riguardo inviando i registri dell'app.
 
 ## Raccolta e invio di registri standard
 

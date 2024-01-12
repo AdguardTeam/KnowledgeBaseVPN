@@ -17,9 +17,9 @@ Et skærmfoto på en Android-enhed kan tages på forskellige måder afhængigt a
 
 Generelt kan flg. knapkombination bruges til Android:
 
-- **Press and hold both the *Volume Down* and the *Power* buttons for 1–2 seconds**
+- **Tryk og hold på knapperne *Lydstyrke Ned* og *Tænd/Sluk* samtidigt i 1–2 sekunder**
 
-Android will capture the entire screen and save it as a photo. Skærmfotoet kan derefter findes i Screenshots-mappe i Galleri-appen.
+Android fotograferer hele skærmen og gemme den som et foto. Skærmfotoet kan derefter findes i Screenshots-mappe i Galleri-appen.
 
 Fremgangsmåden kan dog, som allerede nævnt, variere afhængigt af enheden. Lad os se på andre kombinationsmuligheder:
 
@@ -30,7 +30,7 @@ Fra Android 8 kan et skærmfoto også tages ved at placere kanten af en åben h�
 
 Fungerer metoden ikke, tjek *Indstillinger* → *Avancerede funktioner* → *Bevægelser og fagter* → aktivér *Stryg håndkant for skærmfoto*.
 
-Besides, you can always use any special apps for taking screenshots on your devices, for example — *Screenshot Easy*, *Screenshot Ultimate*, *Screenshot Snap*, etc.
+Derudover kan der altid bruges særlige skærmfoto-apps, f.eks. *Screenshot Easy*, *Screenshot Ultimate*, *Screenshot Snap* mv.
 
 ### iOS
 
@@ -44,21 +44,21 @@ og til iPhone X eller senere:
 
 - **Tryk på knapperne *Sov/Vågn* og *Lydstyrke p* samtidigt, og slip dem derefter hurtigt**
 
-iOS will capture the entire screen and save it as a photo. Det kan herefter findes i en standard Foto-app.
+iOS vil fotograferer hele skærmen og gemme den som et foto. Det kan herefter findes i en standard Foto-app.
 
 ### Windows
 
-- **To take a screenshot on a Windows device, press the *PrtScn* button**
+- **Tryk på tasten *PrtScn* for at tage et skærmfoto i Windows**
 
-On some devices, you first have to press and hold *Fn* before pressing *PrtScn*.
+På nogle enheder skal man først trykke og holde på *Fn*, før man trykker på *PrtScn*.
 
 :::note
 
-PrtScn (Print Screen) can be differently abbreviated on various keyboards — PrntScrn, PrtScn, PrtScr or PrtSc.
+Knappen PrtScn (Print Screen) forkortes forskelligt på forskellige tastaturer — PrntScrn, PrtScn, PrtScr eller PrtSc.
 
 :::
 
-Windows will capture the entire screen and copy it to the (invisible) clipboard.
+Windows fotograferer hele skærmen og kopierer den til udklipsholderen.
 
 Brug flg. kombination for at tage et skærmfoto af et aktivt vindue:
 
@@ -68,21 +68,21 @@ Brug flg. kombination for at tage et skærmfoto af et bestemt område:
 
 - ***Hold knapperne *Win* (Windows-knappen) samt *Shift* nede, og tryk på ***S******
 
-Når skærmfotoet er taget, gemmes det i udklipsholderen. Usually, you will then be able to paste it into a document using the standard button combination *Ctrl + V*. Ved behov for at gemme skærmfotoet i en fil, åbn standardprogrammet **Paint** (eller ethvert andet billedbehandlingsprogram). Indsæt skærmfotoet i Paint vha. samme standardknapkombination eller ved at klikke på Indsæt-knappen (normalt øverst til venstre) og derefter gemme det.
+Når skærmfotoet er taget, gemmes det i udklipsholderen. Normalt vil det derefter kunne indsættes i f.eks. et dokument via standardknapkombinationen *Ctrl + V*. Ved behov for at gemme skærmfotoet i en fil, åbn standardprogrammet **Paint** (eller ethvert andet billedbehandlingsprogram). Indsæt skærmfotoet i Paint vha. samme standardknapkombination eller ved at klikke på Indsæt-knappen (normalt øverst til venstre) og derefter gemme det.
 
 I Windows 8 og 10 kan skærmfoto tages meget hurtigt med *Win + PrtScn*-kombinationen. Så snart der trykkes på disse taster, gemmes skærmfotoet automatisk som en billedfil i mappen Billeder → Screenshots.
 
-Der er også et dedikeret program til brug for skærmfotos kaldet *Snipping Tool*, tilgængeligt via Start-menuen blandt computerens standardprogrammer. Med Snipping Tool kan ethvert skrivebordsområde eller hele skærmen knipses. After taking a screenshot using this program you can edit the picture and then save it.
+Der er også et dedikeret program til brug for skærmfotos kaldet *Snipping Tool*, tilgængeligt via Start-menuen blandt computerens standardprogrammer. Med Snipping Tool kan ethvert skrivebordsområde eller hele skærmen knipses. Efter at have taget et skærmfoto med dette program, kan fotoet redigeres og gemmes.
 
 Man kan også afprøve forskellige apps til at tage computerskærmfotos, såsom **PicPick**, **Nimbus Screenshot**, **Screenshot Captor**, **Snipaste**, **Monosnap** mv.
 
 ### macOS
 
-To take a screenshot on a Mac device, use the following button combination:
+Brug flg. knapkombination for at tage et skærmfoto på en Mac:
 
 - ***Tryk og hold på ***⌘ Cmd + Shift + 3*** samtidigt***
 
-Mac will capture the entire screen and save it as a file on the desktop.
+Mac'en fotograferer hele skærmen og gemme den som en fil på skrivebordet.
 
 Brug flg. kombination for at tage et skærmfoto af et aktivt vindue:
 

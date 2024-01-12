@@ -20,7 +20,7 @@ Sobald Sie fertig sind, sehen Sie auf der linken Seite mehrere Tabs:
 
 ## Einstellungen
 
-In diesem Tab sind einige wichtige Einstellungen zusammengefasst. Here you can choose a DNS server to use, add or remove the AdGuard VPN icon from the browser’s context menu, block WebRTC, change the extension's theme, and allow AdGuard to gather anonymous crash reports and technical data.
+In diesem Tab sind einige wichtige Einstellungen zusammengefasst. Hier können Sie einen zu verwendenden DNS-Server auswählen, das AdGuard VPN-Symbol aus dem Kontextmenü des Browsers hinzufügen oder entfernen, WebRTC sperren, das Farbschema der Erweiterung ändern und AdGuard erlauben, anonyme Absturzberichte und technische Daten zu sammeln.
 
 ### Auswahl eines DNS-Servers
 

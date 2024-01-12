@@ -33,7 +33,7 @@ Vi har gjort alt for at gøre det nemt at håndtere websteds- og app-undtagelses
 
 Undtagelseslister muliggør at håndtere VPN-forbindelsen for bestemte websteder og apps. Tryk på det andet ikon fra venstre nederst på skærmen for at gå til afsnittet *Undtagelser*. Tryk på det andet ikon fra venstre nederst på skærmen for at gå til afsnittet *Undtagelser*.
 
-By default, AdGuard VPN works for all websites and apps except those added to exclusions, but you can easily switch to the other mode.
+Som standard fungerer AdGuard VPN for alle websteder og apps undtagen dem, som er føjet til undtagelser, men man kan nemt skifte til den anden tilstand.
 
 #### Til websteder
 
@@ -112,7 +112,7 @@ I *Avancerede indstillinger* findes fem afsnit.
 
 :::note
 
-Some AdGuard VPN features are disabled in *Integrated mode*: DNS servers, Kill Switch, Auto-protection, and App exclusions. Håndtering af DNS-beskyttelse og rutning af apps igennem AdGuard VPN-proxyen kan ske via AdGuard Ad Blocker-appen.
+Visse AdGuard VPN-funktioner er deaktiveret i *Integreret tilstand*: DNS-servere, Kill Switch, Auto-beskyttelse og App-undtagelser. Håndtering af DNS-beskyttelse og rutning af apps igennem AdGuard VPN-proxyen kan ske via AdGuard Ad Blocker-appen.
 
 :::
 

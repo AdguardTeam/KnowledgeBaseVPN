@@ -20,7 +20,7 @@ Po dokončení se vlevo zobrazí několik karet:
 
 ## Nastavení
 
-Na této kartě je shromážděno několik důležitých nastavení. Here you can choose a DNS server to use, add or remove the AdGuard VPN icon from the browser’s context menu, block WebRTC, change the extension's theme, and allow AdGuard to gather anonymous crash reports and technical data.
+Na této kartě je shromážděno několik důležitých nastavení. Zde můžete vybrat DNS server, který chcete používat, přidat nebo odebrat ikonu AdGuard VPN z kontextové nabídky prohlížeče, zablokovat WebRTC, změnit motiv rozšíření a povolit AdGuardu shromažďovat anonymizovaná hlášení o pádech a technické údaje.
 
 ### Výběr DNS serveru
 

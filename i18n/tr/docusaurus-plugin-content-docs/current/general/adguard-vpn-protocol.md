@@ -1,5 +1,5 @@
 ---
-title: 'How the AdGuard VPN protocol works'
+title: 'AdGuard VPN protokolü nasıl çalışır'
 sidebar_position: 4
 ---
 
@@ -7,7 +7,7 @@ Protokolümüz, [tüm AdGuard VPN mobil ve masaüstü uygulamaları](https://adg
 
 ## AdGuard VPN protokolünü neden geliştirdik
 
-Yıllardır, reklam engelleme uygulamalarının ve tarayıcı uzantılarının tüm çeşitlerini geliştirmeye odaklandık. Ve 2019'da birdenbire kendi VPN hizmetimizi geliştirmeye karar verdik. When, in reality, there were a few reasons that prompted us to do so.
+Yıllardır, reklam engelleme uygulamalarının ve tarayıcı uzantılarının tüm çeşitlerini geliştirmeye odaklandık. Ve 2019'da birdenbire kendi VPN hizmetimizi geliştirmeye karar verdik. Gerçekte, bizi bunu yapmaya iten birkaç neden vardı.
 
 - AdGuard mobil uygulamalarının VPN uygulamalarıyla uyumluluk sorunları vardı. Normalde, iki VPN tabanlı mobil uygulama birlikte çalışamaz: iOS'ta nadir durumlarda ve Android'de asla. As AdGuard Ad Blocker apps use local VPN to filter network traffic, using them alongside any VPN app would be out of the question. Bu nedenle, uyumluluğu garanti edebilecek tek uygun çözüm olarak şirket içi bir VPN geliştirmeyi gördük: biraz sihir uyguladıktan sonra, iki uygulama tek bir VPN hizmeti olarak birlikte çalışabilir.
 - İkincisi, VPN bizim felsefemiz ve önceliklerimizle fazlasıyla alakalı görünüyordu. Birincil hedefimiz, kullanıcıların gizliliğini korumaktır ve VPN'ler tam olarak bunun içindir.
@@ -22,7 +22,7 @@ Popüler VPN protokollerinin (OpenVPN, WireGuard, IPSec, vb.) dezavantajlarını
 - Ağ düzeyinde kolayca tespit edilebilir ve engellenebilirler.
 - If you try to "conceal" them, the performance will drop.
 
-To "conceal" the use of VPN, the data flow is often "wrapped" in a TCP connection, and sometimes it's additionally encrypted to make the traffic appear like normal website communication. Unfortunately, this approach has a disadvantage — due to the use of TCP, there is a need for additional confirmation of delivery.
+To "conceal" the use of VPN, the data flow is often "wrapped" in a TCP connection, and sometimes it's additionally encrypted to make the traffic appear like normal website communication. Ne yazık ki, bu yaklaşımın bir dezavantajı vardır — TCP kullanımı nedeniyle ek teslimat onayına ihtiyaç vardır.
 
 Herhangi bir popüler VPN protokolünü kullanırken, her zaman bir takasla karşı karşıyayız: hızlı ama algılaması kolay ve yavaş.
 

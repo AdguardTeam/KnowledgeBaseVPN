@@ -20,7 +20,7 @@ Der er tre måder at løse problemet på:
 
     :::note
 
-    If you have any difficulties or additional questions, full instructions can be found [here](https://developer.android.com/studio/debug/dev-options).
+    Ved problemer eller yderligere spørgsmål findes den komplette vejledning [hér](https://developer.android.com/studio/debug/dev-options).
 
     :::
 
@@ -28,7 +28,7 @@ Der er tre måder at løse problemet på:
 
     :::note
 
-    On the Windows platform, **Samsung** owners may need to install [this utility](https://developer.samsung.com/mobile/android-usb-driver.html).
+    På Windows-platformen skal **Samsung**-ejere muligvis installere [dette værktøj](https://developer.samsung.com/mobile/android-usb-driver.html).
 
     :::
 

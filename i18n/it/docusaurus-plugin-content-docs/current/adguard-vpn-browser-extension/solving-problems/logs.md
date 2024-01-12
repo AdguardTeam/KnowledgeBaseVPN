@@ -10,7 +10,7 @@ Esistono svariati metodi per raccogliere i registri dell'estensione AdGuard VPN 
 1. Apri l'estensione AdGuard VPN Browser, se possibile, ripeti le azioni che hanno portato all'errore. Nota l'orario esatto in cui si è verificato tale errore.
 1. Apri le *Impostazioni* cliccando sull'icona del menu hamburger (☰) → *Supporto* → *Segnala un bug*.
 1. Nel modulo aperto, inserisci automaticamente il tuo indirizzo email o inseriscine un altro e descrivi l'errore riscontrato, includendo l'orario in cui si è verificato. Se non riesci a riprodurre il problema, specifica il più accuratamente possibile l'ultima volta in cui si è verificato.
-1. Make sure that there is a check mark next to *Include the diagnostic report in the message* and tap *Submit*. Così, invierai i registri insieme alla segnalazione del bug.
+1. Assicurati che sia presente una spunta affianco a *includere il rapporto diagnostico nel messaggio* e tocca su *Invia*. Così, invierai i registri insieme alla segnalazione del bug.
 
 ## Raccogliere e inviare i registri tramite il pulsante *Esporta registri*
 
@@ -67,7 +67,7 @@ Ora che hai raccolto i registri, devi consegnarli al nostro team di sviluppo. Pe
 
     ![Console *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/ff_console.png)
 
-1. Click *Save all Messages to File*
+1. Clicca su *Salva tutti i Messaggi nel File*
 
     ![Salva *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/save-to-file.png)
 

@@ -20,7 +20,7 @@ Problém můžete vyřešit dvěma způsoby:
 
     :::note
 
-    If you have any difficulties or additional questions, full instructions can be found [here](https://developer.android.com/studio/debug/dev-options).
+    Pokud máte nějaké potíže nebo otázky, úplné pokyny naleznete [zde](https://developer.android.com/studio/debug/dev-options).
 
     :::
 
@@ -28,7 +28,7 @@ Problém můžete vyřešit dvěma způsoby:
 
     :::note
 
-    On the Windows platform, **Samsung** owners may need to install [this utility](https://developer.samsung.com/mobile/android-usb-driver.html).
+    Na platformě Windows mohou majitelé zařízení **Samsung** potřebovat nainstalovat [tento nástroj](https://developer.samsung.com/mobile/android-usb-driver.html).
 
     :::
 

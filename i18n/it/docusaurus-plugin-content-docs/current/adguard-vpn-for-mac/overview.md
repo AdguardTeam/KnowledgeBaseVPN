@@ -7,7 +7,7 @@ AdGuard VPN per Mac è un servizio VPN desktop. AdGuard VPN è completamente com
 
 Tieni presente che **non puoi utilizzare AdGuard VPN per Mac a meno che tu non abbia effettuato l'accesso al tuo account AdGuard**. Puoi accedere con il tuo account AdGuard o con un account esterno, ovvero tramite Apple, Google o Facebook. Assicurati che il tuo account esterno sia associato allo stesso indirizzo e-mail del tuo account AdGuard. Se nel suo account AdGuard è presente un abbonamento adeguato, questo verrà attivato automaticamente sull'applicazione desktop. Non hai ancora un account AdGuard? Crealo [qui](https://auth.adguard.com/registration.html).
 
-:::note Compatibility
+:::note Compatibilità
 
 AdGuard VPN per Mac è correntemente supportato sulle versioni di macOS a partire da macOS Sierra (10.15).
 
@@ -15,9 +15,9 @@ AdGuard VPN per Mac è correntemente supportato sulle versioni di macOS a partir
 
 ## Schermata principale
 
-![Home screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/main_en.png)
+![Schermata Home](https://cdn.adguardvpn.com/content/kb/vpn/mac/main_en.png)
 
-La prima scheda è la *Schermata iniziale*. Qui puoi vedere lo stato corrente di AdGuard VPN e la [modalità esclusioni](#exclusions), la posizione scelta (se abilitata) e il suo ping. Il ping è il tempo di risposta di un server VPN. Consequently, the lower this number, the faster the connection. Se la VPN è disattivata, l'ultima posizione a cui ti sei connesso viene visualizzata di seguito. Le posizioni più veloci con i ping più bassi vengono visualizzate nell'angolo in alto a destra dello schermo. Di seguito è possibile visualizzare l'elenco completo delle località. È possibile trovare la posizione desiderata facilmente attraverso la funzione di ricerca.
+La prima scheda è la *Schermata iniziale*. Qui puoi vedere lo stato corrente di AdGuard VPN e la [modalità esclusioni](#exclusions), la posizione scelta (se abilitata) e il suo ping. Il ping è il tempo di risposta di un server VPN. Di conseguenza, minore è questo numero, più è veloce la connessione. Se la VPN è disattivata, l'ultima posizione a cui ti sei connesso viene visualizzata di seguito. Le posizioni più veloci con i ping più bassi vengono visualizzate nell'angolo in alto a destra dello schermo. Di seguito è possibile visualizzare l'elenco completo delle località. È possibile trovare la posizione desiderata facilmente attraverso la funzione di ricerca.
 
 :::note
 
@@ -29,7 +29,7 @@ Gli utenti gratuiti possono connettersi solo a determinati luoghi, mentre altri 
 
 ![Esclusioni](https://cdn.adguardvpn.com/content/kb/vpn/mac/exclusions_en.png)
 
-AdGuard VPN has several features that make it unique, and one of them is definitely *Exclusions*. By default, AdGuard VPN will run on all websites and in all apps but the ones from the exclusions list. But you can switch to the other mode, so AdGuard VPN will run only on websites and in apps from the exclusions list.
+AdGuard VPN presenta svariate funzionalità che lo rendono unico e, una di esse, è decisamente *Esclusioni*. Di default, AdGuard VPN opererà su tutti i siti web e in tutte le app, tranne quelle dall'elenco delle esclusioni. Ma puoi passare all'altra modalità, quindi AdGuard VPN funzionerà soltanto sui siti web e nelle app dall'elenco delle esclusioni.
 
 ![Schermata Esclusioni](https://cdn.adguardvpn.com/content/kb/vpn/mac/services_en.png)
 
@@ -48,7 +48,7 @@ Inoltre, gli elenchi di esclusioni già pronti possono essere trasferiti ad altr
 
 :::note
 
-Archive files from other devices can be similarly imported to your AdGuard VPN for Mac.
+I file d'archivio da altri dispositivi sono similmente importabili sul tuo AdGuard VPN per Mac.
 
 :::
 
@@ -70,13 +70,13 @@ Finalmente, arriviamo alla scheda Impostazioni. Nella sezione *Informazioni sul 
 
 Le prime quattro funzionalità di base rendono l'applicazione più comoda e intuitiva, ovvero *Kill Switch*, *Aggiornamento automatico*, *Avvia AdGuard VPN all'accesso* e *Connessione automatica all'avvio dell'app*. Inoltre, è possibile scegliere tra il tema chiaro, scuro e di sistema - quest'ultimo si adatta al tema del Mac.
 
-You can also allow AdGuard VPN to gather and send anonymous crash reports, technical and interaction data in order to help us improve our app. Last but not least, you can export logs from your Mac. Questo può essere utile se vuoi allegare i registri al tuo messaggio al supporto.
+Inoltre, puoi consentire ad AdGuard VPN di raccogliere e inviare rapporti anonimi sugli arresti anomali, dati tecnici e d'interazione, per poterci aiutare a migliorare l'app. Infine, ma non per importanza, puoi esportare i registri dal tuo Mac. Questo può essere utile se vuoi allegare i registri al tuo messaggio al supporto.
 
 ### Server DNS
 
 ![Server DNS](https://cdn.adguardvpn.com/content/kb/vpn/mac/dns_en.png)
 
-Qui puoi aggiungere uno (o più) server DNS personalizzati per non fare affidamento su un server DNS fornito dal tuo ISP per impostazione predefinita. We recommend adding AdGuard DNS, which not only encrypts your DNS traffic but also identifies requests to malicious websites and redirects them to a “blackhole”.
+Qui puoi aggiungere uno (o più) server DNS personalizzati per non fare affidamento su un server DNS fornito dal tuo ISP per impostazione predefinita. Consigliamo di aggiungere AdGuard DNS, che non soltanto crittografa il tuo traffico DNS, ma identifica inoltre le richieste ai siti web dannosi e le reindirizza a un "buco nero".
 
 ### Impostazioni avanzate
 
@@ -84,7 +84,7 @@ Qui puoi aggiungere uno (o più) server DNS personalizzati per non fare affidame
 
 #### Livello di registrazione
 
-Esistono solo due livelli di registrazione, ma ti consigliamo vivamente di utilizzare il primo, quello predefinito. La seconda opzione (registrazione estesa) dovrebbe essere impostata solo per registrare uno strano comportamento del programma dopo aver consultato il nostro supporto tecnico. If you have enabled the extended logging level, make sure to switch to the default one after recording logs.
+Esistono solo due livelli di registrazione, ma ti consigliamo vivamente di utilizzare il primo, quello predefinito. La seconda opzione (registrazione estesa) dovrebbe essere impostata solo per registrare uno strano comportamento del programma dopo aver consultato il nostro supporto tecnico. Se hai abilitato il livello di registrazione esteso, assicurati di tornare a quello predefinito dopo aver registrato i registri.
 
 #### Nascondi icona della barra dei menu
 

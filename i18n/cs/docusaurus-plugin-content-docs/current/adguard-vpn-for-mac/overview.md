@@ -48,7 +48,7 @@ Připravené seznamy vyloučení lze navíc přenést do jiných zařízení s n
 
 :::note
 
-Archive files from other devices can be similarly imported to your AdGuard VPN for Mac.
+Archivní soubory z jiných zařízení lze podobně importovat do AdGuard VPN pro macOS.
 
 :::
 
@@ -70,7 +70,7 @@ Nakonec se dostáváme ke kartě Nastavení. V sekci *O programu* si můžete pr
 
 První čtyři základní funkce činí aplikaci pohodlnější a uživatelsky přívětivější, tj. *Kill Switch*, *automatické aktualizace*, *spuštění AdGuard VPN při přihlášení *a *automatické připojení při spuštění aplikace*. Navíc si můžete vybrat mezi světlým, tmavým a systémovým motivem — poslední jmenovaný motiv odpovídá motivu vašeho počítače Mac.
 
-You can also allow AdGuard VPN to gather and send anonymous crash reports, technical and interaction data in order to help us improve our app. V neposlední řadě můžete exportovat protokoly z vašeho Macu. To může být užitečné, pokud chcete ke zprávě na podporu připojit protokoly.
+Můžete také povolit AdGuard VPN shromažďovat a odesílat anonymizovaná hlášení o pádech aplikace, technické údaje a údaje o interakci, aby nám pomohla zlepšit naši aplikaci. V neposlední řadě můžete exportovat protokoly z vašeho Macu. To může být užitečné, pokud chcete ke zprávě na podporu připojit protokoly.
 
 ### DNS servery
 

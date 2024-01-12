@@ -7,7 +7,7 @@ This article outlines some of the most common errors you may encounter while ins
 
 ### Hata 5: Erişim Reddedildi {#error-5}
 
-This error message appears if required permissions are not granted. AdGuard VPN kurulum programının, kurma işlemini düzgün bir şekilde tamamlamak için ihtiyaç duyduğu izinlere sahip olmamasının birkaç farklı nedeni olabilir. Aşağıdaki adımları deneyebilirsiniz:
+Gerekli izinler verilmemişse bu hata mesajı görüntülenir. AdGuard VPN kurulum programının, kurma işlemini düzgün bir şekilde tamamlamak için ihtiyaç duyduğu izinlere sahip olmamasının birkaç farklı nedeni olabilir. Aşağıdaki adımları deneyebilirsiniz:
 
 - Antivirüslerinizi geçici olarak devre dışı bırakın. Some of them may interfere with the installation, depending on the restrictiveness of their settings.
 
@@ -61,7 +61,7 @@ This error sounds more worrying than it actually is. Gerçekte bu, birçok farkl
 
 - Microsoft Installer hizmetini başlatın ve yeniden kaydettirin. Bu biraz uğraş gerektirir.
 
-    1. Press *Win + R* and enter **services.msc**.
+    1. *Win + R* tuşlarına basın ve **services.msc** yazın.
     1. Listeden *Windows Installer* öğesini bulun ve çift tıklayın.
     1. *Hizmet durumu* altındaki *Başlat* düğmesine basın ve *Tamam* öğesine basın. Hizmet durumu **çalışıyor** ise, önce *Durdur* öğesine ve ardından *Başlat* öğesine tıklamalısınız.
     1. Press *Win + R*, type and enter **msiexec /unregister** and hit *Enter*.
@@ -91,7 +91,7 @@ This error appears when trying to run multiple instances of the AdGuard VPN inst
 
 Daha önce AdGuard VPN kurmuş olmanız çok olasıdır.
 
-- AdGuard VPN'in bilgisayarınızda kurulu olup olmadığını kontrol edin. To do that, press the *Win* key and start typing *adguard vpn*.
+- AdGuard VPN'in bilgisayarınızda kurulu olup olmadığını kontrol edin. Bunu yapmak için *Win* tuşuna basın ve *adguard vpn* yazmaya başlayın.
 
 - Belki önceki bir AdGuard VPN kurulumundan kalan bazı dosyalar vardır. Özel [kaldırma aracımızı](/adguard-vpn-for-windows/installation#advanced) kullanarak AdGuard'ı kaldırın ve ardından kurulumu tekrarlayın.
 
@@ -101,6 +101,6 @@ Yukarıda listelenmeyen bir hatayla karşılaştıysanız, bunu kendimiz çözme
 
 - **AdGuard VPN kurulum günlüklerini** [bu makalede](https://adguard.com/kb/adguard-for-windows/solving-problems/installation-logs/) açıklanan şekilde bulun ve arşivleyin.
 
-- Find and save to disk the **Event Viewer** logs. [Bu makale](https://adguard.com/kb/adguard-for-windows/solving-problems/system-logs/) bunun nasıl yapılacağını açıklar.
+- **Olay Görüntüleyicisi** günlüklerini bulun ve diske kaydedin. [Bu makale](https://adguard.com/kb/adguard-for-windows/solving-problems/system-logs/) bunun nasıl yapılacağını açıklar.
 
 Lütfen önceki iki adımdaki tüm bu dosyaları **support@adguard.com** adresine e-postayla gönderin ve sorunu mesaj metninde açıklayın. Destek ekibimiz en kısa sürede size cevap verir.

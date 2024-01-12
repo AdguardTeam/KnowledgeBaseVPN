@@ -20,7 +20,7 @@ Sie haben zwei Möglichkeiten, das Problem zu lösen:
 
     :::note
 
-    If you have any difficulties or additional questions, full instructions can be found [here](https://developer.android.com/studio/debug/dev-options).
+    Wenn Sie Schwierigkeiten oder zusätzliche Fragen haben, finden Sie die vollständige Anleitung [hier](https://developer.android.com/studio/debug/dev-options).
 
     :::
 
@@ -28,7 +28,7 @@ Sie haben zwei Möglichkeiten, das Problem zu lösen:
 
     :::note
 
-    On the Windows platform, **Samsung** owners may need to install [this utility](https://developer.samsung.com/mobile/android-usb-driver.html).
+    Auf der Windows-Plattform müssen **Samsung**-Besitzer möglicherweise [dieses Dienstprogramm](https://developer.samsung.com/mobile/android-usb-driver.html) installieren.
 
     :::
 

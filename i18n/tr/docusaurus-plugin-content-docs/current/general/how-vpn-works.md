@@ -17,9 +17,9 @@ Bu şekilde, bir VPN iki önemli işlevi yerine getirir:
 
     Bir internet bağlantısı kullanarak, kullanıcı, daha sonra üçüncü şahıslar tarafından analiz edilebilecek ve kullanılabilecek dijital ayak izini bırakır. Örneğin, ziyaret ettiğiniz çevrimiçi mağazalardan biri arama geçmişinizi kaydedebilir ve ardından hedefli reklamcılık yoluyla size ürünlerini buna göre sunabilir. Veya cihazınızın IP adresi üzerinden konumunuzu öğrenen ve kimliğinizi belirleyen gizli servisler, web üzerindeki hareketlerinizi gizlice izleyebilir. Buna ek olarak, web tarayıcıları ve İSS'lerin kendileri, tarama geçmişinizi kendi amaçları için kullanabilir, ayrıca reklamcılara satabilir ve devlet kurumlarına sağlayabilir. VPN, IP adresinizi gizlemenize ve bağlı olduğunuz VPN sunucusunun IP adresiyle değiştirmenize olanak tanır. Bu şekilde gizliliğinizi koruyabilecek ve web'de anonim olarak bilgi arayabileceksiniz.
 
-1. **Data protection**
+1. **Veri koruması**
 
-    If you connect to an unreliable or public network, the data on your device may become vulnerable to cybercriminals. Banka kartı bilgileri, kullanıcı adları ve şifreler, pasaport verileri — tüm bu veriler çevrimiçi dolandırıcılar tarafından ele geçirilebilir. The VPN tunnel encrypts the information you send to and receive from the Web, making it useless in the wrong hands.
+    Güvenilir olmayan veya herkese açık bir ağa bağlanırsanız cihazınızdaki veriler siber suçlulara karşı savunmasız hâle gelebilir. Banka kartı bilgileri, kullanıcı adları ve şifreler, pasaport verileri — tüm bu veriler çevrimiçi dolandırıcılar tarafından ele geçirilebilir. The VPN tunnel encrypts the information you send to and receive from the Web, making it useless in the wrong hands.
 
 ## VPN yapısı
 
@@ -31,7 +31,7 @@ VPN, cihazınızla VPN sunucusu arasında bir tünel oluşturur. Verileriniz bu 
 
 ## VPN protokol türleri
 
-VPN security protocols are tools that encrypt data in a VPN tunnel and allow you to maintain user privacy in the open Internet. Şu anda modern VPN hizmetlerinin büyük çoğunluğu aşağıdaki üç VPN protokolünden birini kullanıyor:
+VPN güvenlik protokolleri, bir VPN tünelindeki verileri şifreleyen ve açık internette kullanıcı gizliliğini korumanıza olanak tanıyan araçlardır. Şu anda modern VPN hizmetlerinin büyük çoğunluğu aşağıdaki üç VPN protokolünden birini kullanıyor:
 
 1. [*IPSec*](https://en.wikipedia.org/wiki/IPsec). Başlıca avantajlarından biri, çoğu cihazda ve işletim sisteminde bulunması ve yüksek düzeyde güvenlik sağlamasıdır. Ancak, bu protokolde çift [kapsüllemenin](https://en.wikipedia.org/wiki/Encapsulation_(networking)) kullanılması bağlantı hızının düşmesine neden olabilir.
 
@@ -53,7 +53,7 @@ Trafiğiniz doğrudan web sunucusuna gitmeyip önce VPN sunucusundan geçtiği i
 
 ### Erişim engelleme
 
-Bazı çevrimiçi hizmetler, VPN trafiğini algılamak ve VPN kullanıcılarına erişimi engellemek için çok çaba harcar. However, not many VPNs can mask themselves in such a way that they are only seen as regular traffic. Bu nedenle, VPN'i devre dışı bırakmadan belirli bir siteye gitme girişimlerinin çoğu hiçbir şeyle sonuçlanmaz.
+Bazı çevrimiçi hizmetler, VPN trafiğini algılamak ve VPN kullanıcılarına erişimi engellemek için çok çaba harcar. Bununla birlikte, pek çok VPN kendilerini yalnızca normal trafik olarak görülecek şekilde maskeleyemez. Bu nedenle, VPN'i devre dışı bırakmadan belirli bir siteye gitme girişimlerinin çoğu hiçbir şeyle sonuçlanmaz.
 
 ### VPN bağlantıları kesiliyor
 
@@ -73,7 +73,7 @@ VPN hizmetimizin birkaç önemli [avantajı](/general/why-adguard-vpn) vardır:
 
 Şu anda AdGuard VPN şu şekilde mevcuttur:
 
-- [Browser extension](/adguard-vpn-browser-extension/overview) for Chrome, Edge, Firefox, and Opera
+- Chrome, Edge, Firefox ve Opera için [tarayıcı uzantısı](/adguard-vpn-browser-extension/overview)
 
 - [Android](/adguard-vpn-for-android/overview) ve [iOS](/adguard-vpn-for-ios/overview) için mobil uygulama
 

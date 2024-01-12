@@ -55,7 +55,7 @@ Ancak AdGuard VPN ve AdGuard Reklam Engelleyici ile arkadaş olmak için bir ç�
 
 ## 6. QUIC desteği
 
-[QUIC](https://adguard-dns.io/en/blog/dns-over-quic.html#whatisquic), birçok avantajı olan son teknoloji bir protokoldür. The main advantage is it can improve the connection quality in non-ideal conditions — for example, on mobile devices or when connecting to public Wi-Fi. Yeni protokol, bağlantı iyi ve kararlı olduğunda hızı etkilemese de, yavaş internete sahip kullanıcılar için durumu kesinlikle daha iyi hâle getirir.
+[QUIC](https://adguard-dns.io/en/blog/dns-over-quic.html#whatisquic), birçok avantajı olan son teknoloji bir protokoldür. Başlıca avantajı, ideal olmayan koşullarda bağlantı kalitesini iyileştirebilmesidir — örneğin mobil cihazlarda veya halka açık Wi-Fi'ye bağlanırken. Yeni protokol, bağlantı iyi ve kararlı olduğunda hızı etkilemese de, yavaş internete sahip kullanıcılar için durumu kesinlikle daha iyi hâle getirir.
 
 :::caution
 

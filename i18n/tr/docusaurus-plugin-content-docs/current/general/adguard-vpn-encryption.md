@@ -25,4 +25,4 @@ Farklı anahtar boyutları vardır — 128, 192 ve 256 bit — ve bloklar da bit
 
 Turlar birkaç adımdan oluşur: verileri bloklara ayırma, baytları değiştirme, satırları kaydırma ve sütunları yeniden düzenlemek. The result is a completely random set of characters that will only make sense when using the right encryption key.
 
-AES-256 is the strongest level of encryption: to break this cipher, 2256 discrete combinations, each consisting of 78 digits, would have to be tried.
+AES-256 en güçlü şifreleme seviyesidir: bu şifreyi kırmak için her biri 78 basamaktan oluşan 2256 ayrı kombinasyonun denenmesi gerekir.

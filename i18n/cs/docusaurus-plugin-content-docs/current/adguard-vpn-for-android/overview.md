@@ -33,7 +33,7 @@ Udělali jsme vše pro to, abychom vám usnadnili správu seznamů výjimek web�
 
 Seznamy výjimek vám umožňují spravovat připojení VPN pro konkrétní webové stránky a aplikace. Do sekce *Výjimky* se dostanete klepnutím na druhou ikonu zleva ve spodní části obrazovky. Do sekce *Výjimky* se dostanete klepnutím na druhou ikonu zleva ve spodní části obrazovky.
 
-By default, AdGuard VPN works for all websites and apps except those added to exclusions, but you can easily switch to the other mode.
+Ve výchozím nastavení funguje AdGuard VPN pro všechny webové stránky a aplikace kromě těch, které byly přidány do výjimek, ale můžete snadno přepnout do jiného režimu.
 
 #### Pro webové stránky
 
@@ -112,7 +112,7 @@ V části *Pokročilá nastavení* najdete čtyři sekce.
 
 :::note
 
-Some AdGuard VPN features are disabled in *Integrated mode*: DNS servers, Kill Switch, Auto-protection, and App exclusions. V aplikaci Blokátor reklam AdGuard můžete spravovat ochranu DNS a směrovat aplikace prostřednictvím proxy serveru AdGuard VPN.
+Některé funkce AdGuard VPN jsou v *Režimu integrace* deaktivovány: DNS servery, Kill Switch, Automatická ochrana a výjimky aplikací. V aplikaci Blokátor reklam AdGuard můžete spravovat ochranu DNS a směrovat aplikace prostřednictvím proxy serveru AdGuard VPN.
 
 :::
 

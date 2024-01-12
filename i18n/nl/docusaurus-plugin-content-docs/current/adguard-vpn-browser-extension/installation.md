@@ -1,38 +1,38 @@
 ---
-title: Installation and removal
+title: Installatie en verwijdering
 sidebar_position: 2
 ---
 
-## How to install AdGuard VPN browser extension
+## Hoe installeer je de browseruitbreiding van AdGuard VPN
 
-To install AdGuard VPN browser extension, follow these steps:
+Volg deze stappen om de AdGuard VPN-browseruitbreiding te installeren:
 
-1. Visit [adguard-vpn.com](https://adguard-vpn.com/browser-extension/overview.html).
+1. Bezoek [adguard-vpn.com](https://adguard-vpn.com/browser-extension/overview.html).
 
-2. Click the icon of your browser and then click *Install*.
+2. Klik op het pictogram van je browser en klik vervolgens op *Installeren*.
 
-3. Depending on your browser, one of the websites will open: Chrome Web Store, Firefox Add-ons, Opera addons, or Microsoft Edge Add-ons. Click the respective button: *Add to Chrome*, *Add to Firefox*, *Add to Opera* or *Get* next to AdGuard VPN Browser extension.
+3. Afhankelijk van je browser wordt een van de websites geopend: Chrome Web Store, Firefox-add-ons, Opera-add-ons of Microsoft Edge-add-ons. Klik op de betreffende knop: *Toevoegen aan Chrome*, *Toevoegen aan Firefox*, *Toevoegen aan Opera* of *Toevoegen* naast de AdGuard VPN-browseruitbreiding.
 
-4. Read and accept the EULA and Privacy Policy by checking the respective box. You can also allow AdGuard VPN to collect anonymous data on the app usage, which we need to improve our product (this is optional). Then click *Continue*.
+4. Lees en accepteer de EULA en het privacybeleid door het betreffende vakje aan te vinken. Je kunt AdGuard VPN ook toestaan om anonieme gegevens over het app-gebruik te verzamelen, die we nodig hebben om ons product te verbeteren (dit is optioneel). Klik vervolgens op *Doorgaan*.
 
-5. Sign up or log into your AdGuard account to finish the installation.
+5. Registreer je of meld je aan bij je AdGuard-account om de installatie te voltooien.
 
-Enjoy AdGuard VPN!
+Veel plezier met AdGuard VPN!
 
-## How to uninstall AdGuard VPN browser extension
+## Hoe de AdGuard VPN-browseruitbreiding te verwijderen
 
 ### Chrome
 
-Click the three dots icon in the top right corner of the browser, then select *More tools → Extensions*. Find AdGuard VPN and click *Remove*.
+Klik op het pictogram met de drie streepjes in de rechterbovenhoek van de browser en selecteer vervolgens *Extensies*. Zoek AdGuard VPN en klik op *Verwijderen*.
 
 ### Firefox
 
-Click the sandwich menu icon in the top right corner of the browser, then select *Add-ons and themes*. Find AdGuard VPN in the list, click the three dots icon next to it and select *Remove*.
+Klik op het pictogram van het sandwichmenu in de rechterbovenhoek van de browser en selecteer vervolgens *Add-ons en thema's*. Zoek AdGuard VPN in de lijst, klik op het pictogram met de drie puntjes ernaast en selecteer *Verwijderen*.
 
 ### Edge
 
-Click the three dots icon in the top right corner of the browser, then select *Extensions*. Find AdGuard VPN in the list, click the three dots icon next to it and select *Remove from Microsoft Edge*.
+Klik op het pictogram met de drie stippen in de rechterbovenhoek van de browser en selecteer vervolgens *Extensies*. Zoek AdGuard VPN in de lijst, klik op het pictogram met de drie stippen ernaast en selecteer *Verwijderen uit Microsoft Edge*.
 
 ### Opera
 
-Click the *Extensions* icon in the top right corner of the browser, then select *Manage extensions...*. Find AdGuard VPN in the list and click the *Remove* button.
+Klik op het pictogram *Extensies* in de rechterbovenhoek van de browser en selecteer vervolgens *Extensies beheren...*. Zoek AdGuard VPN in de lijst en klik op de knop *Verwijderen*.

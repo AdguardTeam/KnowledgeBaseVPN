@@ -14,7 +14,7 @@ Başlangıçta VPN'ler, insanların kurumsal ağa evden bağlanabilmesi için i�
 
 A VPN connects a user's computer or mobile device to a server and allows one to browse the net using a "cover" IP address. Bu nedenle, üçüncü taraf gözlemciler kullanıcının gerçek IP adresini göremez ve bu da onları izlemeyi neredeyse imkansız hâle getirir.
 
-The first thing that users mention in relation to VPN is traffic encryption and the security derived from it. Ama bu ne anlama geliyor? VPN, kullanıcının cihazı ile uzak sunucu arasında şifrelenmiş bir tünel oluşturur. Tüm web trafiğiniz bu tünelden geçer, böylece verileriniz yol boyunca korunur. Harici gözlemci için, trafiğiniz VPN sunucusundan çıkar, bu nedenle cihazınız bu sunucunun IP adresine sahipmiş gibi görünür. Bu numara, kullanıcının kimliğini ve gerçek konumunu gizler.
+Kullanıcıların VPN ile ilgili olarak bahsettiği ilk şey trafik şifreleme ve bundan elde edilen güvenliktir. Ama bu ne anlama geliyor? VPN, kullanıcının cihazı ile uzak sunucu arasında şifrelenmiş bir tünel oluşturur. Tüm web trafiğiniz bu tünelden geçer, böylece verileriniz yol boyunca korunur. Harici gözlemci için, trafiğiniz VPN sunucusundan çıkar, bu nedenle cihazınız bu sunucunun IP adresine sahipmiş gibi görünür. Bu numara, kullanıcının kimliğini ve gerçek konumunu gizler.
 
 VPN şunlar için kullanılabilir:
 

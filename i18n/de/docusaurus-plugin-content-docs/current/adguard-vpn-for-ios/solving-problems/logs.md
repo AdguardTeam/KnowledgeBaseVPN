@@ -3,7 +3,7 @@ title: Wie man Protokolle sammelt und versendet
 sidebar_position: 2
 ---
 
-If you encounter any problems while using AdGuard VPN for iOS, you can inform us about it by sending the app logs.
+Wenn Sie bei der Verwendung von AdGuard VPN für iOS auf Probleme stoßen, können Sie uns darüber informieren, indem Sie die App-Protokolle senden.
 
 ## Sammeln und Senden von Standardprotokollen
 
