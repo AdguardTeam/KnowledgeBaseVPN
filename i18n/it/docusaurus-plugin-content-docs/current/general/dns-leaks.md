@@ -13,7 +13,7 @@ In altre parole, ogni volta che apri un sito web, il tuo browser invia una richi
 
 ## Come rilevare le fughe di dati DNS
 
-Esiste ogni tipo di servizio di controllo dell'anonimato per rilevare le fughe di dati DNS, come `whoer.net`. The algorithms of these websites are not clear, but their intentions are — to scare users with imaginary leaks, potentially enabling them to sell their services.
+Esiste ogni tipo di servizio di controllo dell'anonimato per rilevare le fughe di dati DNS, come `whoer.net`. Gli algoritmi di questi siti web non sono chiari, ma le loro intenzioni sono: spaventare gli utenti con fughe di dati immaginarie, consentendo potenzialmente loro di vendere i propri servizi.
 
 Alcuni siti web di scansione di sicurezza, considerano la coincidenza dell'indirizzo IP dell'utente e dell'indirizzo IP del server DNS, come un risultato "buono", indicando che non sono presenti fughe di dati. In realtà, una tale corrispondenza potrebbe indicare l'utilizzo di una VPN. Quando la VPN è disabilitata e le richieste vanno al server DNS del tuo ISP, l'indirizzo IP del server DNS e il tuo, non coincidono.
 
@@ -29,7 +29,7 @@ E, nel caso di AdGuard DNS, ti "fonderai" con 50 milioni di utenti, quindi, ness
 
 ## Come configurare un server DNS personalizzato su AdGuard VPN
 
-Esistono molti server DNS pubblici popolari, di [fornitori DNS ben noti](https://adguard-dns.io/kb/general/dns-providers). Some of them can only perform their direct duties — giving the IP addresses of the requested domains, and some can do more.
+Esistono molti server DNS pubblici popolari, di [fornitori DNS ben noti](https://adguard-dns.io/kb/general/dns-providers). Alcuni di essi possono eseguire soltanto i propri doveri diretti: fornendo gli indirizzi IP dei domini richiesti, e altri possono fare di più.
 
 Ad esempio, AdGuard DNS rimuove gli annunci e protegge il tuo dispositivo dal tracciamento e AdGuard DNS Protezione Famiglia combina le funzionalità di AdGuard DNS con la Ricerca sicura e il Controllo genitori.
 

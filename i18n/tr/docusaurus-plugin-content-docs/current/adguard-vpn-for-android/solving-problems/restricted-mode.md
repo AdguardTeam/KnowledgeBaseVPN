@@ -16,11 +16,11 @@ Sorunu çözmek için iki yolunuz var:
     - Telefonunuzda **Ayarlar** uygulamasını açın;
     - **Sistem** bölümüne gidin (ayarlar menüsündeki son öğe). Bu bölümde **Telefon hakkında** alt öğesini bulun;
     - **Yapı numarası** satırına 7 kez tıklayın. Bundan sonra, artık **Bir geliştirici olduğunuza dair** bir bildirim alırsınız (Gerekirse, cihaz için bir kilit açma kodu girin);
-    - Open **System Settings** → **Developer Options** → Scroll down and enable **USB debugging** → Confirm debugging is enabled in the window **Allow USB debugging** after reading the warning carefully.
+    - **Sistem Ayarları** → **Geliştirici Seçenekleri** öğesini açın → Aşağı kaydırın ve **USB hata ayıklama** öğesini etkinleştirin → Uyarıyı dikkatlice okuduktan sonra **USB hata ayıklamasına izin ver** penceresinde hata ayıklamanın etkinleştirildiğini onaylayın.
 
     :::note
 
-    If you have any difficulties or additional questions, full instructions can be found [here](https://developer.android.com/studio/debug/dev-options).
+    Herhangi bir zorluk veya ek sorunuz varsa, tam talimatlar [burada](https://developer.android.com/studio/debug/dev-options) bulunabilir.
 
     :::
 
@@ -60,7 +60,7 @@ In some cases restricted user accounts are created implicitly and cannot be remo
 - **Ayarları** açın;
 - **Gelişmiş** öğesine basın;
 - Aşağı kaydırın ve ardından **Dual Messenger** öğesine basın;
-- Disable the **Dual Messenger** for all apps;
+- Tüm uygulamalar için **Dual Messenger** öğesini devre dışı bırakın;
 - Cihazı 5 dakika kilitleyin;
 - Ekranın kilidini açın ve VPN profilini yeniden oluşturmayı deneyin.
 
@@ -69,5 +69,5 @@ In some cases restricted user accounts are created implicitly and cannot be remo
 - **Ayarları** açın;
 - **Genel** sekmesini seçin;
 - Aşağı kaydırın ve ardından **Dual App** öğesine basın;
-- Remove all apps from the list;
+- Tüm uygulamaları listeden kaldırın;
 - Cihazınızı yeniden başlatın.

@@ -7,7 +7,7 @@ AdGuard VPN für Mac ist ein Desktop-VPN-Dienst. AdGuard VPN ist vollständig ko
 
 Beachten Sie, dass **Sie AdGuard VPN für Mac nur verwenden können, wenn Sie sich bei Ihrem AdGuard-Konto angemeldet haben**. Sie können sich entweder mit Ihrem AdGuard-Konto anmelden oder mit einem externen Konto, nämlich über Apple, Google oder Facebook. Stellen Sie sicher, dass Ihr externes Konto an dieselbe E-Mail-Adresse wie Ihr AdGuard-Konto gebunden ist. Wenn in Ihrem AdGuard-Konto ein passendes Abonnement vorhanden ist, wird es automatisch in der Desktop-App aktiviert. Haben Sie noch kein AdGuard-Konto? Erstellen Sie es [hier](https://auth.adguard.com/registration.html).
 
-:::note Compatibility
+:::note Kompatibilität
 
 AdGuard VPN für Mac wird derzeit von macOS-Versionen ab macOS Catalina (10.15) unterstützt.
 
@@ -15,9 +15,9 @@ AdGuard VPN für Mac wird derzeit von macOS-Versionen ab macOS Catalina (10.15) 
 
 ## Startbildschirm
 
-![Home screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/main_en.png)
+![Startseite](https://cdn.adguardvpn.com/content/kb/vpn/mac/main_en.png)
 
-Die erste Registerkarte ist der Bildschirm *Home*. Hier sehen Sie den aktuellen Status von AdGuard VPN und [Ausschlussmodus](#exclusions), den ausgewählten Standort (falls aktiviert) und seinen Ping. Ping ist die Reaktionszeit eines VPN-Servers. Consequently, the lower this number, the faster the connection. Wenn VPN deaktiviert ist, wird unten der letzte Standort angezeigt, mit dem Sie verbunden waren. Die schnellsten Standorte mit den niedrigsten Pings werden in der oberen rechten Ecke des Bildschirms angezeigt. Unten sehen Sie die vollständige Liste der Standorte. Sie können den gewünschten Ort leicht mit der Suchfunktion finden.
+Die erste Registerkarte ist der Bildschirm *Home*. Hier sehen Sie den aktuellen Status von AdGuard VPN und [Ausschlussmodus](#exclusions), den ausgewählten Standort (falls aktiviert) und seinen Ping. Ping ist die Reaktionszeit eines VPN-Servers. Je niedriger diese Zahl ist, desto schneller ist die Verbindung. Wenn VPN deaktiviert ist, wird unten der letzte Standort angezeigt, mit dem Sie verbunden waren. Die schnellsten Standorte mit den niedrigsten Pings werden in der oberen rechten Ecke des Bildschirms angezeigt. Unten sehen Sie die vollständige Liste der Standorte. Sie können den gewünschten Ort leicht mit der Suchfunktion finden.
 
 :::note
 
@@ -29,7 +29,7 @@ Kostenlose Benutzer können sich nur mit bestimmten Standorten verbinden, währe
 
 ![Ausschlüsse](https://cdn.adguardvpn.com/content/kb/vpn/mac/exclusions_en.png)
 
-AdGuard VPN has several features that make it unique, and one of them is definitely *Exclusions*. By default, AdGuard VPN will run on all websites and in all apps but the ones from the exclusions list. But you can switch to the other mode, so AdGuard VPN will run only on websites and in apps from the exclusions list.
+AdGuard VPN hat mehrere Funktionen, die es einzigartig machen, und eine davon sind definitiv die *Ausschlüsse*. Standardmäßig wird AdGuard VPN auf allen Websites und in allen Anwendungen ausgeführt, mit Ausnahme derjenigen, die in der Ausschlussliste aufgeführt sind. Sie können jedoch in den anderen Modus wechseln, so dass AdGuard VPN nur auf Websites und in Anwendungen aus der Ausschlussliste ausgeführt wird.
 
 ![Abschnitt: Ausschlüsse](https://cdn.adguardvpn.com/content/kb/vpn/mac/services_en.png)
 
@@ -48,7 +48,7 @@ Außerdem können fertige Ausschlusslisten auf andere Geräte mit installiertem 
 
 :::note
 
-Archive files from other devices can be similarly imported to your AdGuard VPN for Mac.
+Archiv-Dateien von anderen Geräten können auf ähnliche Weise in Ihr AdGuard VPN für Mac importiert werden.
 
 :::
 
@@ -70,13 +70,13 @@ Schließlich kommen wir zur Registerkarte Einstellungen. Im Abschnitt *Über das
 
 Die ersten vier Grundfunktionen machen die App bequemer und benutzerfreundlicher, d.h. *Kill Switch*, *Automatisch aktualisieren*, *AdGuard VPN bei der Anmeldung starten* und *Automatisch beim App-Start verbinden*. Darüber hinaus können Sie zwischen hellen, dunklen und Systemthemen wählen – letzteres entspricht dem Thema auf Ihrem Mac.
 
-You can also allow AdGuard VPN to gather and send anonymous crash reports, technical and interaction data in order to help us improve our app. Last but not least, you can export logs from your Mac. Dies kann nützlich sein, wenn Sie Protokolle an Ihre Nachricht an den Support anhängen möchten.
+Sie können AdGuard VPN außerdem erlauben, anonyme Absturzberichte, technische Daten und Interaktionsdaten zu sammeln und zu übermitteln, um uns bei der Verbesserung unserer App zu helfen. Zu guter Letzt können Sie Protokolle von Ihrem Mac exportieren. Dies kann nützlich sein, wenn Sie Protokolle an Ihre Nachricht an den Support anhängen möchten.
 
 ### DNS-Server
 
 ![DNS-Server](https://cdn.adguardvpn.com/content/kb/vpn/mac/dns_en.png)
 
-Hier können Sie einen benutzerdefinierten DNS-Server (oder mehrere Server) hinzufügen, um nicht standardmäßig auf einen von Ihrem ISP bereitgestellten DNS-Server angewiesen zu sein. We recommend adding AdGuard DNS, which not only encrypts your DNS traffic but also identifies requests to malicious websites and redirects them to a “blackhole”.
+Hier können Sie einen benutzerdefinierten DNS-Server (oder mehrere Server) hinzufügen, um nicht standardmäßig auf einen von Ihrem ISP bereitgestellten DNS-Server angewiesen zu sein. Wir empfehlen, AdGuard DNS hinzuzufügen, das nicht nur Ihren DNS-Verkehr verschlüsselt, sondern auch Anfragen an bösartige Websites identifiziert und an ein „schwarzes Loch“ umleitet.
 
 ### Erweiterte Einstellungen
 
@@ -84,7 +84,7 @@ Hier können Sie einen benutzerdefinierten DNS-Server (oder mehrere Server) hinz
 
 #### Protokollierungsebene
 
-Es gibt nur zwei Protokollierungsebenen, aber wir empfehlen dringend, dass Sie die erste Standardebene verwenden. Die zweite Option (erweiterte Protokollierung) sollte nur nach Rücksprache mit unserem technischen Support eingestellt werden, um ein ungewöhnliches Programmverhalten aufzuzeichnen. If you have enabled the extended logging level, make sure to switch to the default one after recording logs.
+Es gibt nur zwei Protokollierungsebenen, aber wir empfehlen dringend, dass Sie die erste Standardebene verwenden. Die zweite Option (erweiterte Protokollierung) sollte nur nach Rücksprache mit unserem technischen Support eingestellt werden, um ein ungewöhnliches Programmverhalten aufzuzeichnen. Wenn Sie die erweiterte Protokollierungsstufe aktiviert haben, stellen Sie sicher, dass Sie nach der Aufzeichnung der Protokolle auf die Standardstufe umschalten.
 
 #### Menüleistensymbol ausblenden
 

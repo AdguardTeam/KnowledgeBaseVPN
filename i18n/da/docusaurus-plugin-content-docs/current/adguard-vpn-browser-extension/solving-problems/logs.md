@@ -67,7 +67,7 @@ Nu, hvor logfilerne er indsamlet, skal de videregives til vores udviklingsteam. 
 
     ![Konsol *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/ff_console.png)
 
-1. Click *Save all Messages to File*
+1. Klik på *Gem alle meddelelser til fil*
 
     ![Gem *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/save-to-file.png)
 

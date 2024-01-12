@@ -3,20 +3,20 @@ title: Compatibilità con il Blocco AdGuard
 sidebar_position: 3
 ---
 
-AdGuard VPN has two operating modes: *VPN* and *Integrated*.
+AdGuard VPn ha due modalità operative: *VPN* e *Integrata*.
 
-The VPN mode is enabled by default and uses the [AdGuard VPN protocol](/general/adguard-vpn-protocol). It provides the best combination of connection speed and security. However, this operating mode does not allow AdGuard VPN and AdGuard Ad Blocker to work simultaneously.
+La modalità VPN è abiltata di default e utilizza il [protocollo di AdGuard VPN](/general/adguard-vpn-protocol). Fornisce la migliore combinazione di velocità di connessione e sicurezza. Tuttavia, questa modalità operativa non consente ad AdGuard VPN e AdGuard Ad Blocker di operare simultaneamente.
 
-In Integrated mode, in turn, the IPsec protocol is used, which makes it possible for the AdGuard apps to work together. If you already have AdGuard Ad Blocker when installing AdGuard VPN, this mode will turn on automatically and allow you to use our apps at the same time. If you have installed AdGuard VPN first and only then decided to try AdGuard Ad Blocker, follow these steps to use two apps together:
+In Modalità Integrata, a sua volta, è utilizzato il protocollo IPsec, che rende possibile per le app di AdGuard, di funzionare insieme. Se hai già AdGuard Ad Blocker installando AdGuard VPN, questa modalità si attiverà automatiicamente e ti consentirà di utilizzare le nostre app in contemporanea. Se hai già installato AdGuard VPN prima, e solo poi hai deciso di provare AdGuard Ad Blocker, segui questi passaggi per usare le due app insieme:
 
-1. Open AdGuard VPN for iOS and select *Settings* in the lower right corner of the screen.
+1. Apri AdGuard VPN per iOS e seleziona *Impostazioni* nell'angolo inferiore destro della schermata.
 
-2. Go to *App settings* and select *Operating mode*.
+2. Vai alle *Impostazioni dell'app* e seleziona *Modalità operativa*.
 
-3. Switch the mode from *VPN* to *Integrated*. Tutto fatto!
+3. Passa dalla modalità *VPN* a *Integrata*. Tutto fatto!
 
 :::note
 
-In *Integrated mode*, *Exclusions* and *DNS server* are not available.
+In *Modalità integrata*, le *Esclusioni* e il *server DNS* non sono disponibli.
 
 :::

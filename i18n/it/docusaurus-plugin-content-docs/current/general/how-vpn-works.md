@@ -13,25 +13,25 @@ Una VPN è una rete privata virtuale che aiuta a nascondere la tua posizione e a
 
 In questo modo, una VPN svolge due importanti funzioni:
 
-1. **Mantenere l'anonimato**
+1. **Mantenimento dell'anonimato**
 
     Utilizzando una connessione a Internet, l'utente lascia la propria impronta digitale, poi analizzabile e utilizzabile da terze parti. Per esempio, uno dei negozi online che hai visitato può salvare la tua cronologia di ricerca e offrirti i propri prodotti basandosi su di essa, tramite le pubblicità mirate. Oppure i servizi segreti, avendo appreso la tua posizione tramite l'indirizzo IP del tuo dispositivo e avendo determinato la tua identità, possono monitorare segretamente la tua attività sul web. Inoltre, i browser web e gli ISP stessi possono utilizzare la tua cronologia di navigazione per i propri scopi, nonché venderla agli inserzionisti e fornirla alle istituzioni governative. La VPN ti consente di nascondere il tuo indirizzo IP e di sostituirlo con l'indirizzo IP del server VPN a cui sei connesso. Così, potrai mantenere la tua privacy e cercare anonimamente le informazioni sul web.
 
-1. **Data protection**
+1. **Protezione dei dati**
 
-    If you connect to an unreliable or public network, the data on your device may become vulnerable to cybercriminals. I dettagli delle carte bancarie, i nomi utente e le password, i dati del passaporto: tutti questi dati possono essere intercettati dai truffatori online. The VPN tunnel encrypts the information you send to and receive from the Web, making it useless in the wrong hands.
+    Se ti connetti a una rete inaffidabile o pubblica, i dati sul tuo dispositivo potrebbero divenire vulnerabili ai criminali informatici. I dettagli delle carte bancarie, i nomi utente e le password, i dati del passaporto: tutti questi dati possono essere intercettati dai truffatori online. Il tunnel VPN crittografa le informazioni che invii e ricevi dal Web, rendendole inutli nelle mani sbagliate.
 
 ## Struttura VPN
 
-Quando ti connetti a una rete, al tuo computer o dispositivo mobile viene assegnato un numero ID univoco, o indirizzo IP. Solitamente, consiste di numeri dallo 0 al 255, separati da punti o due punti. Conoscendo questa sequenza, si può determinare la geolocalizzazione del dispositivo. The IP address is usually assigned by your ISP, and it will be visible all the way to the desired resource. Per questo motivo, il server web del sito che stai visitando può registrare il tuo indirizzo IP e registrare ciò che hai richiesto. Questo registro è quindi utilizzabile principalmente per la raccolta dei dati e l'analisi del traffico.
+Quando ti connetti a una rete, al tuo computer o dispositivo mobile viene assegnato un numero ID univoco, o indirizzo IP. Solitamente, consiste di numeri dallo 0 al 255, separati da punti o due punti. Conoscendo questa sequenza, si può determinare la geolocalizzazione del dispositivo. L'indirizzo IP è solitamente assegnato dal tuo ISP, e sarà visibile fino alla risorsa desiderata. Per questo motivo, il server web del sito che stai visitando può registrare il tuo indirizzo IP e registrare ciò che hai richiesto. Questo registro è quindi utilizzabile principalmente per la raccolta dei dati e l'analisi del traffico.
 
-Una VPN crea un tunnel tra il tuo dispositivo e il server della VPN. I tuoi dati passano per questo tunnel, vengono crittografati e, quindi, entrano nell'Internet aperto in una forma sicura. The web server therefore registers the IP address of the endpoint of the tunnel, meaning the VPN server, and thus not the device's real IP address. Dunque, il sito cui arrivi dopo essere passato per il tunnel VPN considererà la geolocalizzazione del server VPN che hai selezionato come la tua posizione reale. E i dati crittografati non cadranno nelle mani di inserzionisti, hacker e servizi di sicurezza.
+Una VPN crea un tunnel tra il tuo dispositivo e il server della VPN. I tuoi dati passano per questo tunnel, vengono crittografati e, quindi, entrano nell'Internet aperto in una forma sicura. Dunque, il server web registra l'indirizzo IP dell'endpoint del tunnel, ovvero il server VPN, e non l'indirizzo IP reale del dispositivo. Dunque, il sito cui arrivi dopo essere passato per il tunnel VPN considererà la geolocalizzazione del server VPN che hai selezionato come la tua posizione reale. E i dati crittografati non cadranno nelle mani di inserzionisti, hacker e servizi di sicurezza.
 
 ![Struttura VPN](https://cdn.adguardvpn.com/public/Adguard/Website/Images/seo/en/how_vpn_3.jpg)
 
 ## Tipi di protocolli VPN
 
-VPN security protocols are tools that encrypt data in a VPN tunnel and allow you to maintain user privacy in the open Internet. Al momento, la vasta maggioranza dei servizi VPN moderni utilizza uno dei seguenti tre protocolli VPN:
+I protocolli di sicurezza della VPN sono strumenti che crittografano i dati in un tunnel VPN e ti consentono di mantenere la privacy dell'utente nell'Internet aperto. Al momento, la vasta maggioranza dei servizi VPN moderni utilizza uno dei seguenti tre protocolli VPN:
 
 1. [*IPSec*](https://en.wikipedia.org/wiki/IPsec). Uno dei suoi principali vantaggi è che è disponibile su gran parte dei dsipositivi e sistemi operativi e fornisce un elevato livello di sicurezza. Tuttavia, l'utilizzo dell'[incapsulamento](https://en.wikipedia.org/wiki/Encapsulation_(networking)) doppio in questo protocollo potrebbe risultare in una velocità di connessione inferiore.
 
@@ -49,15 +49,15 @@ Nonostante gli ovvi vantaggi, le VPN non sono perfette e presentano degli svanta
 
 ### Velocità inferiore
 
-Poiché il tuo trffico non va direttamente al server web, ma passa prima per il server VPN, la velocità della connessione VPN si riduce. Anche altri fattori influiscono sulla velocità utilizzando una VPN: il carico del server VPN, la sua larghezza di banda, la compatibilità del protocollo VPN con il tuo sistema operativo. All these factors, as well as the speed of the network itself, may impact the overall user experience of a VPN connection.
+Poiché il tuo trffico non va direttamente al server web, ma passa prima per il server VPN, la velocità della connessione VPN si riduce. Anche altri fattori influiscono sulla velocità utilizzando una VPN: il carico del server VPN, la sua larghezza di banda, la compatibilità del protocollo VPN con il tuo sistema operativo. Tutti questi fattori, oltre alla velocità della rete stessa, potrebbero influenzare l'esperienza complessiva dell'utente, di una connessione VPN.
 
 ### Blocco dell'accesso
 
-Alcuni servizi online si impegnano molto per rilevare il traffico VPN e bloccare l'accesso agli utenti di VPN. However, not many VPNs can mask themselves in such a way that they are only seen as regular traffic. Dunque, molti tentativi di visitare un sito web in particolare senza disabilitare la VPN, si concludono con un nulla di fatto.
+Alcuni servizi online si impegnano molto per rilevare il traffico VPN e bloccare l'accesso agli utenti di VPN. Tuttavia, non molte VPN possono mascherarsi in modo tale da esser visti soltanto come traffico regolare. Dunque, molti tentativi di visitare un sito web in particolare senza disabilitare la VPN, si concludono con un nulla di fatto.
 
 ### Interruzione delle connessioni VPN
 
-A weak signal, network overload, VPN incompatibility with a firewall, antivirus and other programs, an outdated VPN protocol — all this can cause a sudden failure in the VPN connection, especially with unreliable VPN providers.
+Un segnale debole, sovraccarico di rete, incompatibilità della VPN con un firewall, antivirus e altri programmi, un protocollo VPN obsoleto... tutto questo può causare un improvviso fallimento nella connessione VPN, specialmente con i fornitori di VPN non attendibili.
 
 ## AdGuard VPN
 
@@ -73,7 +73,7 @@ Il nostro servizio VPN ha svariati [vantaggi](/general/why-adguard-vpn) importan
 
 Al momento, AdGuard VPN è disponibile come:
 
-- [Browser extension](/adguard-vpn-browser-extension/overview) for Chrome, Edge, Firefox, and Opera
+- [Estensione del browser](/adguard-vpn-browser-extension/overview) per Chrome, Edge, Firefox e Opera
 
 - App mobile per [Android](/adguard-vpn-for-android/overview) e [iOS](/adguard-vpn-for-ios/overview)
 

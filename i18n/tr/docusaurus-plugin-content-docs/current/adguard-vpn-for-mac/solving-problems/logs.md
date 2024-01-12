@@ -15,11 +15,11 @@ Varsayılan olarak, Mac için AdGuard VPN, uygulamanın çalışan süreçleri h
 
 3. Açılan formda, geri bildirim için e-posta adresinizi girin ve bulunan hatayı, bu hatanın oluştuğu zaman da dahil olmak üzere açıklayın. Sorunu yeniden oluşturamıyorsanız, en son ne zaman oluştuğunu olabildiğince doğru bir şekilde belirtin.
 
-4. There is a check mark next to the **Send detailed system info**, which means that when you send a report, you also send logs.
+4. **Detaylı sistem bilgisi gönder** öğesinin yanında bir onay işareti vardır; bu, bir rapor gönderdiğinizde günlükleri de göndereceğiniz anlamına gelir.
 
 :::note
 
-Herhangi bir nedenle bize günlükleri başka bir şekilde göndermeniz daha uygunsa, bunları kendiniz dışa aktarabilirsiniz. To do this, select **Settings** → **General** → **Export logs** in the **Actions** section on the right.
+Herhangi bir nedenle bize günlükleri başka bir şekilde göndermeniz daha uygunsa, bunları kendiniz dışa aktarabilirsiniz. Bunu yapmak için **Ayarlar** → **Genel** → sağdaki **Eylemler** **Günlükleri dışa aktar** öğesini seçin.
 
 :::
 
@@ -39,11 +39,11 @@ Herhangi bir nedenle bize günlükleri başka bir şekilde göndermeniz daha uyg
 
 6. Açılan formda, geri bildirim için e-posta adresinizi girin ve bulunan hatayı, bu hatanın oluştuğu zaman da dahil olmak üzere açıklayın.
 
-7. Make sure that there is a check mark next to **Send detailed system info** and click **Send**.
+7. **Detaylı sistem bilgisi gönder** öğesinin yanında bir onay işareti olduğundan emin olun ve **Gönder** öğesine tıklayın.
 
 :::note
 
-If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. Bunu yapmak için **Ayarlar** → **Genel** → sağdaki **Eylemler** **Günlükleri dışa aktar** öğesini seçin.
+Herhangi bir nedenle bize günlükleri başka bir şekilde göndermeniz daha uygunsa, bunları kendiniz dışa aktarabilirsiniz. Bunu yapmak için **Ayarlar** → **Genel** → sağdaki **Eylemler** **Günlükleri dışa aktar** öğesini seçin.
 
 :::
 

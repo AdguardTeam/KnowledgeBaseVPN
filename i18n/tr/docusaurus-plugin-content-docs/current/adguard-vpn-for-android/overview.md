@@ -21,9 +21,9 @@ Android için AdGuard VPN sizin için her şeyi yapabilir — ve hatta benzersiz
 
 ## Ana ekran
 
-The main screen reflects the VPN status (Connected/Disconnected). There are also the *Connect/Disconnect* button and a list of available servers.
+Ana ekran VPN durumunu yansıtır (Bağlandı/Bağlantı kesildi). There are also the *Connect/Disconnect* button and a list of available servers.
 
-Her sunucunun konumu ve sunucunun yanıt süresini tanımlayan ping hızı vardır. The lower this rate, the faster the connection. The fastest servers always appear at the top of the list that consists of more than 50 locations in dozens of countries. You can connect to the fastest server by tapping the *Connect* button or by picking a location.
+Her sunucunun konumu ve sunucunun yanıt süresini tanımlayan ping hızı vardır. Bu değer ne kadar düşük olursa bağlantı o kadar hızlı olur. The fastest servers always appear at the top of the list that consists of more than 50 locations in dozens of countries. *Bağlan* düğmesine dokunarak veya bir konum seçerek en hızlı sunucuya bağlanabilirsiniz.
 
 ## İstisnalar
 
@@ -35,7 +35,7 @@ Exclusion lists allow you to manage the VPN connection for specific websites and
 
 By default, AdGuard VPN works for all websites and apps except those added to exclusions, but you can easily switch to the other mode.
 
-#### For websites
+#### Siteler için
 
 Sitelerin alan adlarını (ör. `google.com`) veya alt alan adlarını (ör. `*.google.com`) *İstisnalara* üç şekilde ekleyebilirsiniz: bunları uygulamaya elle veya doğrudan tarayıcıdan *Paylaş* düğmesine tıklayıp aşağıdaki açılan listeden AdGuard VPN'i seçerek veya kategorilere ayrılmış yerleşik hizmet listelerinden girin.
 
@@ -66,13 +66,13 @@ Bir başka kullanışlı özellik ise, *istisnaları İçe ve Dışa aktarma* ö
 
 ![İçe ve Dışa Aktar *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/imp-exp.png)
 
-#### For apps
+#### Uygulamalar için
 
-Yukarıda bahsettiğimiz gibi, istisnalara sadece siteler kolayca eklenemez. Choose for which apps you need AdGuard VPN and for which you don't.
+Yukarıda bahsettiğimiz gibi, istisnalara sadece siteler kolayca eklenemez. Hangi uygulamalar için AdGuard VPN'e ihtiyacınız olduğunu ve hangi uygulamalar için ihtiyacınız olmadığını seçin.
 
 In *Integrated mode*, you can only manage apps through AdGuard Ad Blocker.
 
-![App exclusions *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/apps_settings.png)
+![Uygulama istisnaları *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/apps_settings.png)
 
 ## Ayarlar
 
@@ -86,7 +86,7 @@ Sağa kaydırılan kaydırıcı, cihaz başlatıldıktan sonra AdGuard VPN'nin o
 
 ### DNS sunucuları
 
-DNS servers translate websites' names into something browsers can understand, i.e. IP addresses. AdGuard VPN for Android offers a wide selection of DNS servers, each with special qualities. For example, [AdGuard DNS](https://adguard-dns.io/kb/) removes ads and protects your device from tracking while AdGuard DNS Family Protection combines the functions of AdGuard DNS with Safe search and adult content blocking. Özel bir DNS sunucusu ekleme seçeneği de vardır.
+DNS servers translate websites' names into something browsers can understand, i.e. IP addresses. AdGuard VPN for Android offers a wide selection of DNS servers, each with special qualities. Örneğin, [AdGuard DNS](https://adguard-dns.io/kb/) reklamları kaldırır ve cihazınızı izlemeye karşı korurken AdGuard DNS Family Protection, AdGuard DNS'nin işlevlerini Güvenli Arama ve yetişkinlere yönelik içerik engelleme ile birleştirir. Özel bir DNS sunucusu ekleme seçeneği de vardır.
 
 ### Otomatik koruma
 
@@ -108,7 +108,7 @@ Uygulamanın sistem varsayılanı, koyu veya açık temasını seçebilirsiniz.
 
 In *Advanced settings*, you can find four sections.
 
-*Operating mode* allows you to specify how your traffic is routed. There are three modes: VPN, SOCKS5, and Integrated mode. In the *VPN* mode, all traffic is routed through AdGuard VPN. In the *SOCKS5* mode, AdGuard VPN runs a local proxy server that can be used by other apps for traffic routing. *Integrated mode* allows AdGuard VPN and AdGuard Ad Blocker to work together.
+*Operating mode* allows you to specify how your traffic is routed. Üç mod vardır: VPN, SOCKS5 ve Entegre mod. In the *VPN* mode, all traffic is routed through AdGuard VPN. In the *SOCKS5* mode, AdGuard VPN runs a local proxy server that can be used by other apps for traffic routing. *Integrated mode* allows AdGuard VPN and AdGuard Ad Blocker to work together.
 
 :::note
 

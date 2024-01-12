@@ -1,54 +1,54 @@
 ---
-title: How to set up AdGuard VPN on your router
+title: So richten Sie ein AdGuard VPN auf Ihrem Router ein
 sidebar_position: 8
 ---
 
-By setting up AdGuard VPN on your router, you can protect your data on devices where you cannot install VPN apps, such as smart TVs and game consoles.
+Wenn Sie AdGuard VPN auf Ihrem Router einrichten, können Sie Ihre Daten auf Geräten schützen, auf denen Sie keine VPN-Apps installieren können, z. B. auf Smart-TVs und Spielkonsolen.
 
 :::note
 
-This option is only available if you have an AdGuard VPN subscription and your router supports IPsec.
+Diese Option ist nur verfügbar, wenn Sie ein AdGuard VPN-Abonnement haben und Ihr Router IPsec unterstützt.
 
 :::
 
-## How to set up AdGuard VPN on your router
+## So richten Sie ein AdGuard VPN auf Ihrem Router ein
 
-1. In your [AdGuard account](https://auth.adguard.com/login.html), select AdGuard VPN.
+1. Wählen Sie in Ihrem [AdGuard-Konto] (https\://auth.adguard.com/login.html) AdGuard VPN.
 
-2. Under _Devices_, click _Add router_.
+2. Klicken Sie unter _Geräte_ auf _Router hinzufügen_.
 
-   ![Add router \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/2_year.jpg)
+   ![Router hinzufügen \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/2_year.jpg)
 
-3. Select the desired VPN server location and generate credentials.
+3. Wählen Sie den gewünschten Standort des VPN-Servers aus und generieren Sie die Zugangsdaten.
 
-   ![Generate credentials \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/configure_router.png)
+   ![Anmeldeinformationen generieren \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/configure_router.png)
 
    :::note
 
-   The next steps may vary depending on your router. We have used the Keenetic router as an example.
+   Die nächsten Schritte können je nach Router variieren. Wir haben als Beispiel den Keenetic-Router verwendet.
 
    :::
 
-4. In your admin page, go to the router settings.
+4. Öffnen Sie auf Ihrer Verwaltungsseite die Router-Einstellungen.
 
-5. Enable _VPN Client_ and click _Add VPN server_.
+5. Aktivieren Sie _VPN-Client_ und klicken Sie auf _VPN-Server hinzufügen_.
 
-6. Select IPsec-client (it may be called IKE; not L2TP/IPsec).
+6. Wählen Sie IPsec-Client (es kann IKE heißen; nicht L2TP/IPsec).
 
-7. Enter the credentials you created in step 3.
+7. Geben Sie die Zugangsdaten ein, die Sie in Schritt 3 erstellt haben.
 
-   ![Enter the credentials \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/vpn_connection.jpg)
+   ![Eingabe der Anmeldedaten \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/vpn_connection.jpg)
 
-8. Connect devices to your router.
+8. Verbinden Sie Geräte mit Ihrem Router.
 
 :::note
 
-You’ll need to update your router settings if you want to change the VPN server location.
+Wenn Sie den Standort des VPN-Servers ändern möchten, müssen Sie die Einstellungen Ihres Routers aktualisieren.
 
 :::
 
-## Why setting up AdGuard VPN on your router may be useful
+## Gründe, warum die Einrichtung von AdGuard VPN auf Ihrem Router nützlich sein kann
 
-- With AdGuard VPN on your router, neither your VPN provider nor anyone else has access to your Internet activity
-- Installing AdGuard VPN on your router secures your entire network, meaning that all devices connected to it are protected
-- You can enhance security and protect your data on devices where it's not possible to install AdGuard VPN apps — smart TVs (currently, AdGuard VPN is only available on Android TV) and game consoles
+- Mit AdGuard VPN auf Ihrem Router haben weder Ihr VPN-Anbieter noch andere Personen Zugriff auf Ihre Internetaktivitäten
+- Die Installation von AdGuard VPN auf Ihrem Router sichert Ihr gesamtes Netzwerk, d. h. alle daran angeschlossenen Geräte sind geschützt
+- Sie können die Sicherheit erhöhen und Ihre Daten auf Geräten schützen, auf denen es nicht möglich ist, AdGuard VPN-Apps zu installieren — Smart TVs (derzeit ist AdGuard VPN nur auf Android TV verfügbar) und Spielkonsolen

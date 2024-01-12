@@ -11,7 +11,7 @@ AdGuard VPN har flere funktioner:
 
 - skjuler den reelle færden og hjælper med at forblive anonym
 - skifter IP-adresse for at beskytte data mod at blive sporet
-- encrypts your traffic and makes contents inaccessible to scammers
+- krypterer trafikken, hvilket gør indholdet utilgængeligt for svindlere
 - muliggør at opsætte, hvor VPN skal, og ikke skal, bruges (undtagelsesfunktion)
 
 Den næste fordel ved AdGuard VPN til iOS er vores egen VPN-protokol. Den er ekstremt svært at opdage sammenlignet med andre VPN-protokoller, og den er stabil selv med en dårlig internetforbindelse. Her kan [læses mere](/general/adguard-vpn-protocol) om AdGuard VPN-protokollen.
@@ -22,7 +22,7 @@ For at bruge AdGuard VPN til iOS, log forst ind på [AdGuard-kontoen](https://my
 
 Har man endnu ikke en AdGuard-konto, vil man først skulle oprette én.
 
-Det er ret nemt at bruge AdGuard VPN. På hovedskærmen findes knappen *Tilslut/Afbryd* samt listen over tilgængelige servere. Servere har her deres egen placering (bestemt land og by) og ping-indikator. The ping shows the server's response time (in milliseconds). At vælge serveren med et ping på 22 ms betyder, at en datapakke sendt til denne server returneres (modtages igen) efter 22 ms. I AdGuard VPN kan der vælges mellem flere end 50 placeringer i snesevis af lande.
+Det er ret nemt at bruge AdGuard VPN. På hovedskærmen findes knappen *Tilslut/Afbryd* samt listen over tilgængelige servere. Servere har her deres egen placering (bestemt land og by) og ping-indikator. Ping angiver serverens responstid (i millisekunder). At vælge serveren med et ping på 22 ms betyder, at en datapakke sendt til denne server returneres (modtages igen) efter 22 ms. I AdGuard VPN kan der vælges mellem flere end 50 placeringer i snesevis af lande.
 
 ![Hovedskærm og placeringer *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/1.png?123)
 
@@ -61,7 +61,7 @@ AdGuard VPN til iOS kan fungere i to tilstande: **Generel** og **Integreret**.
 
 I tilstanden **General** anvendes [AdGuard VPN-protokollen](/general/adguard-vpn-protocol), der giver den bedste kombination af hastighed og sikkerhed. I denne tilstand vil AdGuard VPN ikke være i stand til at fungere sammen med [AdGuard Ad Blocker til iOS](https://adguard.com/kb/adguard-for-ios/overview/).
 
-In **Integrated** mode, AdGuard VPN will be able to work at the same time with AdGuard Ad Blocker for iOS by using the IPSec protocol instead. Denne protokol er også sikker, men lidt langsommere og lettere at opdage. Der er ikke behov for yderligere handlinger for at opsætte integrationen: Installér blot begge apps og skift til denne tilstand.
+I tilstanden **Integreret** vil AdGuard VPN kunne fungere samtidigt med AdGuard Ad Blocker til iOS ved i stedet at bruge IPSec-protokollen. Denne protokol er også sikker, men lidt langsommere og lettere at opdage. Der er ikke behov for yderligere handlinger for at opsætte integrationen: Installér blot begge apps og skift til denne tilstand.
 
 :::note
 
@@ -85,11 +85,11 @@ Der kan vælges systemstandard, mørkt eller lyst tema for appen (tilgængelig f
 
 ### Avancerede indstillinger
 
-I *Avancerede indstillinger* findes to afsnit — Logningsniveau og Diagnostisk info. Concerning the first option, it is not recommended to enable the Extended logging level unless requested by our support team. Diagnostisk info, lokalt gemt teknisk information om enheden og forbindelser (IP-adresse, ID, ping mv.) kan indsendes til os i tilfælde af tekniske problemer.
+I *Avancerede indstillinger* findes to afsnit — Logningsniveau og Diagnostisk info. Mht. første mulighed, så anbefales det ikke at aktivere logningsniveauet Udvidet, medmindre vores supportteam anmoder herom. Diagnostisk info, lokalt gemt teknisk information om enheden og forbindelser (IP-adresse, ID, ping mv.) kan indsendes til os i tilfælde af tekniske problemer.
 
 ## Hurtige handlinger (tilgængelige fra iOS 13)
 
-For at tilgå funktionen, tryk og hold på app-ikonet og løft dernæst fingeren. You'll see quick actions: Connect/Disconnect, Select location, Edit Home Screen, and Remove app.
+For at tilgå funktionen, tryk og hold på app-ikonet og løft dernæst fingeren. Her ses hurtige handlinger: Tilslut/Afbryd, Vælg lokation, Redigér startskærm og Fjern app.
 
 ![Hurtige handlinger *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/quick-actions.png)
 

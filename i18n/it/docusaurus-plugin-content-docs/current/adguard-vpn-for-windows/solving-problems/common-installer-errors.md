@@ -3,13 +3,13 @@ title: Errore d'installazione comuni
 sidebar_position: 2
 ---
 
-This article outlines some of the most common errors you may encounter while installing AdGuard VPN for Windows and possible ways to resolve them.
+Questo articolo delinea alcuni degli errori più comuni che potresti riscontrare installando AdGuard VPN per Windows, e i possibili metodi per risolverli.
 
 ### Errore 5: Accesso Negato {#error-5}
 
-This error message appears if required permissions are not granted. Potrebbero esistere diversi motivi per cui il programma d'installazione di AdGuard VPN non ha le autorizzazioni richieste per terminare correttamente il processo d'installazione. Puoi provare i seguenti passaggi:
+Questo messaggio d'errore appare se le autorizzazioni necessarie non sono state garantite. Potrebbero esistere diversi motivi per cui il programma d'installazione di AdGuard VPN non ha le autorizzazioni richieste per terminare correttamente il processo d'installazione. Puoi provare i seguenti passaggi:
 
-- Disabilita temporaneamente i tuoi antivirus. Some of them may interfere with the installation, depending on the restrictiveness of their settings.
+- Disabilita temporaneamente i tuoi antivirus. Alcuni di essi potrebbero interferire con l'installazione, a seconda della rigidità delle loro impostazioni.
 
 - Scegli una cartella d'installazione differente. È possibile che la cartella d'installazione corrente preveda delle limitazioni d'accesso. Assicurati, inoltre, di non selezionare un'unità esterna, un'unità virtuale, etc.
 
@@ -34,8 +34,8 @@ Si potrebbe dire che questo sia un caso secondario particolare dell'Errore 1603.
     1. Premi *Win + R* e digita **services.msc**.
     1. Trovalo nell'elenco e fai doppio click su *Windows Installer*.
     1. Clicca il pulsante *Start* in *Stato del servizio* e clicca su *OK*. Se lo stato del servizio è **in esecuzione**, dovresti prima cliccare su *Arresta*, quindi su *Avvia*.
-    1. Press *Win + R*, type and enter **msiexec /unregister** and hit *Enter*.
-    1. Press *Win + R* again, type and enter **msiexec /regserver** and hit *Enter*
+    1. Premi *Win + R*, digita e inserisci **msiexec /unregister**, quindi premi *Invio*.
+    1. Premi ancora *Win + R*, digita e inserisci **msiexec /regserver**, quindi premi *Invio*
 
 - Riavvia il PC e ricomincia l'installazione. Talvolta, ciò è sufficiente per risolvere il problema.
 
@@ -51,7 +51,7 @@ Se ottieni questo codice d'errore, è possibile che tu abbia interrotto il proce
 
 ### Errore 1603: Errore critico durante l'installazione {#error-1603}
 
-This error sounds more worrying than it actually is. Infatti, questo è un errore piuttosto generico che può avere molte cause differenti, alcune delle quali sono facilmente risolvibili. Prova le seguenti soluzioni:
+Questo errore sembra molto più preoccupante di quanto sia realmente. Infatti, questo è un errore piuttosto generico che può avere molte cause differenti, alcune delle quali sono facilmente risolvibili. Prova le seguenti soluzioni:
 
 - Premi il tasto *Win*, cerca *Prompt dei Comandi* ed eseguilo. Qui, digita `sfc /scannow` e premi *Invio*.
 
@@ -61,11 +61,11 @@ This error sounds more worrying than it actually is. Infatti, questo è un error
 
 - Avvia e registra nuovamente il servizio di Microsoft Installer. Richiede un po' di lavoro.
 
-    1. Press *Win + R* and enter **services.msc**.
+    1. Premi *Win + R* e inserisci **services.msc**.
     1. Trovalo nell'elenco e fai doppio click su *Windows Installer*.
     1. Clicca il pulsante *Start* in *Stato del servizio* e clicca su *OK*. Se lo stato del servizio è **in esecuzione**, devi prima cliccare su *Arresta*, quindi su *Avvia*.
-    1. Press *Win + R*, type and enter **msiexec /unregister** and hit *Enter*.
-    1. Press *Win + R* again, type and enter **msiexec /regserver** and hit *Enter*
+    1. Premi *Win + R*, digita e inserisci **msiexec /unregister**, quindi premi *Invio*.
+    1. Premi ancora *Win + R*, digita e inserisci **msiexec /regserver**, e premi *Invio*
 
 - Acquisici le autorizzazioni complete sull'unità per l'installazione. È possibile che l'errore 1603 si verifichi perché non disponi delle piene autorizzazioni sulla posizione del file. Inoltre, questa, non è facile come le altre soluzioni:
 
@@ -81,17 +81,17 @@ This error sounds more worrying than it actually is. Infatti, questo è un error
 
 ### Errore 1618: Un'altra installazione è già in corso {#error-1618}
 
-This error appears when trying to run multiple instances of the AdGuard VPN installer simultaneously. Cosa fare se riscontri questo errore:
+Questo errore appare provando a eseguire più istanze del programma d'installazione di AdGuard VPN, simultaneamente. Cosa fare se riscontri questo errore:
 
 - Riavvia il tuo PC e riavvia il programma d'installazione. Riavviando il computer, tutti i processi in corso saranno interrotti, incluse tutte le copie del programma d'installazione.
 
-- Don't click multiple times on the installer, even if it doesn't start right away. Talvolta, potrebbe volerci qualche secondo per visualizzare l'UI del programma d'installazione.
+- Non cliccare su più elementi sul programma d'installazione, anche se non parte subito. Talvolta, potrebbe volerci qualche secondo per visualizzare l'UI del programma d'installazione.
 
 ### Errore 1638: Un'altra versione del prodotto è già installata {#error-1638}
 
 È molto probabile che tu abbia già installato AdGuard VPN in precedenza.
 
-- Verifica se AdGuard VPN è già installato sul tuo computer. To do that, press the *Win* key and start typing *adguard vpn*.
+- Verifica se AdGuard VPN è già installato sul tuo computer. Per farlo, premi il tasto *Win* e inizia a digitare *adguard vpn*.
 
 - Potrebbero essere presenti dei file avanzati da un'installazione precedente di AdGuard VPN. Disinstalla AdGuard utilizzando il nostro [strumento di disinstallazione](/adguard-vpn-for-windows/installation#advanced) speciale, quindi ripeti l'installazione.
 
@@ -101,6 +101,6 @@ Se hai riscontrato un errore che non è elencato sopra, è possibile che possiam
 
 - Trova e archivia i **Registri d'installazione di AdGuard VPN** come descritto in [questo articolo](https://adguard.com/kb/adguard-for-windows/solving-problems/installation-logs/).
 
-- Find and save to disk the **Event Viewer** logs. [Questo articolo](https://adguard.com/kb/adguard-for-windows/solving-problems/system-logs/) spiega come farlo.
+- Trova e salva sul disco i registri del **Visualizzatore Eventi**. [Questo articolo](https://adguard.com/kb/adguard-for-windows/solving-problems/system-logs/) spiega come farlo.
 
 Sei pregato di inviare tutti i file dai due passaggi precedenti, al team di supporto a **support@adguard.com** e di descrivere il problema nel corpo del messaggio. Il nostro team di supporto ti risponderà il prima possibile.

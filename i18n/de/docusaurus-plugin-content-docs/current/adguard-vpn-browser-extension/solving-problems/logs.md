@@ -67,7 +67,7 @@ Nachdem Sie die Protokolle gesammelt haben, müssen Sie sie unserem Entwicklungs
 
     ![Console *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/ff_console.png)
 
-1. Click *Save all Messages to File*
+1. Klicken Sie auf *Alle Nachrichten in Datei speichern*
 
     ![Save *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/save-to-file.png)
 

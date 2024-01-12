@@ -43,7 +43,7 @@ Ve většině případů je výchozí úroveň záznamů dostatečná pro dohled
 
 :::note
 
-If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. Chcete-li to provést, zvolte **Nastavení** → **Obecné** → **Exportovat protokoly** v sekci **Akce** vpravo.
+Pokud je pro vás z nějakého důvodu pohodlnější poslat nám protokoly jiným způsobem, můžete je exportovat sami. Chcete-li to provést, zvolte **Nastavení** → **Obecné** → **Exportovat protokoly** v sekci **Akce** vpravo.
 
 :::
 

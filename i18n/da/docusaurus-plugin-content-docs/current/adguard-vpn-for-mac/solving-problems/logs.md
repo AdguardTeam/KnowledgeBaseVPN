@@ -43,7 +43,7 @@ I de fleste tilfælde er logningsniveauet Standard tilstrækkeligt til at spore 
 
 :::note
 
-If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. Dette gøres ved at vælge **Indstillinger** → **Generelt** → **Eksportere logfiler** i afsnittet **Handlinger** til højre.
+Er det af en eller anden grund mere bekvemt at indsende logfiler på anden vis, kan man selv eksportere dem. Dette gøres ved at vælge **Indstillinger** → **Generelt** → **Eksportere logfiler** i afsnittet **Handlinger** til højre.
 
 :::
 

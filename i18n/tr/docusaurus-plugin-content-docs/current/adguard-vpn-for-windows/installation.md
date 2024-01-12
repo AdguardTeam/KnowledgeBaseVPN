@@ -15,11 +15,11 @@ Ardından, SKLS ve Gizlilik politikasının şartlarını kabul etmek için kutu
 
 ## Windows için AdGuard VPN kaldırma
 
-If you decide to remove AdGuard VPN from your computer, use one of three options listed below:
+AdGuard VPN'i bilgisayarınızdan kaldırmaya karar verirseniz, aşağıda listelenen üç seçenekten birini kullanın:
 
-- Click *Start* and find AdGuard VPN in the opened list. Right-click it and select *Uninstall*.
-- Click *Start* → *Settings* → *Apps* → *Apps and features*. Find AdGuard VPN in the list, click it and choose *Uninstall*.
-- Open the *Control Panel*, then click *Programs* → *Programs and Features* → *Uninstall or change a program*. Find AdGuard VPN in the list, right-click it and select *Uninstall*.
+- *Başlat* öğesine tıklayın ve açılan listede AdGuard VPN'i bulun. Sağ tıklayın ve *Kaldır* öğesini seçin.
+- *Başlat* → *Ayarlar* → *Uygulamalar* → *Uygulamalar ve özellikler* öğesine tıklayın. Listede AdGuard VPN'i bulun, tıklayın ve *Kaldır* öğesini seçin.
+- Open the *Control Panel*, then click *Programs* → *Programs and Features* → *Uninstall or change a program*. Listede AdGuard VPN'i bulun, sağ tıklayın ve *Kaldır* öğesini seçin.
 
 ### Gelişmiş kaldırma {#advanced}
 
@@ -27,15 +27,15 @@ Normal kaldırma herhangi bir nedenle işe yaramazsa, gelişmiş bir yöntem kul
 
 1. Choose *Standard uninstall*, *Delete AdGuard VPN*, and click *Uninstall*
 
-    ![Standard uninstall *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/standard_uninstall.png)
+    ![Standart kaldırma *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/standard_uninstall.png)
 
-1. Wait until uninstall is finished
+1. Kaldırma işlemi bitene kadar bekleyin
 
-    ![Uninstall finished *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/standard_uninstall_2.png)
+    ![Kaldırma işlemi tamamlandı *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/standard_uninstall_2.png)
 
     :::note
 
-    Follow the next steps only if performing the first two steps wasn’t enough for some reason. We strongly recommend contacting our support team before using steps 3–4 of the advanced uninstall instructions.
+    Sonraki adımları yalnızca ilk iki adımı gerçekleştirmek herhangi bir nedenle yeterli olmadıysa izleyin. We strongly recommend contacting our support team before using steps 3–4 of the advanced uninstall instructions.
 
     :::
 
@@ -43,7 +43,7 @@ Normal kaldırma herhangi bir nedenle işe yaramazsa, gelişmiş bir yöntem kul
 
     ![Gelişmiş kaldırma *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/advanced_uninstall.png)
 
-1. Wait until uninstall is finished
+1. Kaldırma işlemi bitene kadar bekleyin
 
     ![Kaldırma işlemi tamamlandı *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/advanced_uninstall_2.png)
 

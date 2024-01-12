@@ -1,54 +1,54 @@
 ---
-title: How to set up AdGuard VPN on your router
+title: Sådan opsættes AdGuard VPN på en router
 sidebar_position: 8
 ---
 
-By setting up AdGuard VPN on your router, you can protect your data on devices where you cannot install VPN apps, such as smart TVs and game consoles.
+Ved at opsætte AdGuard VPN på routeren kan man beskytte sine data på enheder, hvor VPN-apps ikke kan installeres, såsom smart-TV'er og spillekonsoller.
 
 :::note
 
-This option is only available if you have an AdGuard VPN subscription and your router supports IPsec.
+Denne mulighed er kun tilgængelig med et AdGuard VPN-abonnement, samt med router, som understøtter IPsec.
 
 :::
 
-## How to set up AdGuard VPN on your router
+## Sådan opsættes AdGuard VPN på en router
 
-1. In your [AdGuard account](https://auth.adguard.com/login.html), select AdGuard VPN.
+1. Vælg i [AdGuard-kontoen](https://auth.adguard.com/login.html) AdGuard VPN.
 
-2. Under _Devices_, click _Add router_.
+2. Klik på _Tilføj router_ under _Enheder_.
 
-   ![Add router \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/2_year.jpg)
+   ![Tilføj router \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/2_year.jpg)
 
-3. Select the desired VPN server location and generate credentials.
+3. Vælg den ønskede VPN-serverlokation og generér legitimationsoplysninger.
 
-   ![Generate credentials \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/configure_router.png)
+   ![Generér legitimationsoplysninger \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/configure_router.png)
 
    :::note
 
-   The next steps may vary depending on your router. We have used the Keenetic router as an example.
+   De næste trin kan variere afhængigt af routermærke og -model. Vi har brugt Keenetic-routeren som eksempel.
 
    :::
 
-4. In your admin page, go to the router settings.
+4. Gå til routerindstillingerne på admin-siden.
 
-5. Enable _VPN Client_ and click _Add VPN server_.
+5. Aktivér _VPN-klient_ og klik på _Tilføj VPN-server_.
 
-6. Select IPsec-client (it may be called IKE; not L2TP/IPsec).
+6. Vælg IPsec-klient (den kan hedde IKE; ikke L2TP/IPsec).
 
-7. Enter the credentials you created in step 3.
+7. Angiv legitimationsoplysningerne oprettet på trin 3.
 
-   ![Enter the credentials \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/vpn_connection.jpg)
+   ![Angiv legitimationsoplysningerne \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/vpn_connection.jpg)
 
-8. Connect devices to your router.
+8. Tilslut enheder til routeren.
 
 :::note
 
-You’ll need to update your router settings if you want to change the VPN server location.
+Routerindstillingerne vil skulle opdateres, hvis der ændres VPN-serverlokation.
 
 :::
 
-## Why setting up AdGuard VPN on your router may be useful
+## Hvorfor det kan være nyttigt at opsætte AdGuard VPN på routeren
 
-- With AdGuard VPN on your router, neither your VPN provider nor anyone else has access to your Internet activity
-- Installing AdGuard VPN on your router secures your entire network, meaning that all devices connected to it are protected
-- You can enhance security and protect your data on devices where it's not possible to install AdGuard VPN apps — smart TVs (currently, AdGuard VPN is only available on Android TV) and game consoles
+- Med AdGuard VPN på routeren har hverken VPN-udbyderen eller nogen andre adgang til internetaktiviteten
+- Installation af AdGuard VPN på routeren sikrer hele netværket, hvilket betyder, at alle enheder, som er tilsluttet det, er beskyttet
+- Man kan forbedre sikkerheden og beskytte sine data på enheder, hvor det ikke er muligt at installere AdGuard VPN-apps — smart-TV'er (pt. er AdGuard VPN kun tilgængelig på Android TV) og spillekonsoller

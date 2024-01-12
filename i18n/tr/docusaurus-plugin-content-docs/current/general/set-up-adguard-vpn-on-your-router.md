@@ -33,22 +33,22 @@ This option is only available if you have an AdGuard VPN subscription and your r
 
 5. Enable _VPN Client_ and click _Add VPN server_.
 
-6. Select IPsec-client (it may be called IKE; not L2TP/IPsec).
+6. IPsec istemcisini seçin (buna IKE adı verilebilir; L2TP/IPsec değil).
 
-7. Enter the credentials you created in step 3.
+7. 3. adımda oluşturduğunuz kimlik bilgilerini girin.
 
    ![Enter the credentials \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/vpn_connection.jpg)
 
-8. Connect devices to your router.
+8. Cihazları yönlendiricinize bağlayın.
 
 :::note
 
-You’ll need to update your router settings if you want to change the VPN server location.
+VPN sunucu konumunu değiştirmek istiyorsanız yönlendirici ayarlarınızı güncellemeniz gerekir.
 
 :::
 
-## Why setting up AdGuard VPN on your router may be useful
+## Yönlendiricinizde AdGuard VPN kurmak neden yararlı olabilir
 
-- With AdGuard VPN on your router, neither your VPN provider nor anyone else has access to your Internet activity
-- Installing AdGuard VPN on your router secures your entire network, meaning that all devices connected to it are protected
+- Yönlendiricinizdeki AdGuard VPN ile ne VPN sağlayıcınız ne de başka biri internet etkinliğinize erişemez
+- Yönlendiricinize AdGuard VPN kurmak tüm ağınızı güvence altına alır, yani ağa bağlı tüm cihazlar korunur
 - You can enhance security and protect your data on devices where it's not possible to install AdGuard VPN apps — smart TVs (currently, AdGuard VPN is only available on Android TV) and game consoles

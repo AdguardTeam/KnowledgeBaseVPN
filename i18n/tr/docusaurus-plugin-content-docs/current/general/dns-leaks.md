@@ -29,7 +29,7 @@ Ve AdGuard DNS söz konusu olduğunda, 50 milyon kullanıcıyla "birleşirsiniz"
 
 ## AdGuard VPN'de özel DNS sunucusu nasıl ayarlanır
 
-[İyi bilinen DNS sağlayıcılarının](https://adguard-dns.io/kb/general/dns-providers) birçok popüler genel DNS sunucusu vardır. Some of them can only perform their direct duties — giving the IP addresses of the requested domains, and some can do more.
+[İyi bilinen DNS sağlayıcılarının](https://adguard-dns.io/kb/general/dns-providers) birçok popüler genel DNS sunucusu vardır. Bazıları yalnızca doğrudan görevlerini yerine getirebilir — istenen alan adlarının IP adreslerini verir ve bazıları daha fazlasını yapabilir.
 
 Örneğin, AdGuard DNS reklamları kaldırır ve cihazınızı izlenmeye karşı korur ve AdGuard DNS Family Protection, AdGuard DNS özelliklerini Güvenli arama ve Ebeveyn denetimi ile birleştirir.
 

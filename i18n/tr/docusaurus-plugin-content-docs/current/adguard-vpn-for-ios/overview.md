@@ -5,16 +5,16 @@ sidebar_position: 1
 
 ## iOS için AdGuard VPN nedir?
 
-VPN, İnternet üzerindeki başka bir ağa güvenli bir bağlantı oluşturmanızı sağlar. It connects a user's computer or mobile device to a server and allows one to browse the net using a "cover" IP address. If the VPN server is located in another country, it will appear as if the Internet connection was established from this country. Bir VPN'nin nasıl çalıştığı hakkında [daha fazla bilgi edinin](/general/how-vpn-works).
+VPN, İnternet üzerindeki başka bir ağa güvenli bir bağlantı oluşturmanızı sağlar. It connects a user's computer or mobile device to a server and allows one to browse the net using a "cover" IP address. VPN sunucusu başka bir ülkede bulunuyorsa, internet bağlantısı bu ülkeden kurulmuş gibi görünür. Bir VPN'nin nasıl çalıştığı hakkında [daha fazla bilgi edinin](/general/how-vpn-works).
 
-AdGuard VPN has several functions:
+AdGuard VPN'in çeşitli işlevleri vardır:
 
 - gerçek yerinizi gizler ve anonim kalmanıza yardımcı olur
 - verilerinizi izlemekten korumak için IP adresinizi değiştirir
 - encrypts your traffic and makes contents inaccessible to scammers
 - VPN'nin nerede kullanılacağını ve nerede kullanılmayacağını yapılandırmanıza olanak tanır (istisnalar özelliği)
 
-iOS için AdGuard VPN'in bir sonraki avantajı, kendi VPN protokolümüzdür. It is extremely difficult to detect compared to other VPN protocols, and it is stable even with a poor Internet connection. You can [read more](/general/adguard-vpn-protocol) about the AdGuard VPN protocol.
+iOS için AdGuard VPN'in bir sonraki avantajı, kendi VPN protokolümüzdür. Diğer VPN protokollerine kıyasla tespit edilmesi son derece zordur ve zayıf bir internet bağlantısında bile kararlıdır. You can [read more](/general/adguard-vpn-protocol) about the AdGuard VPN protocol.
 
 ## iOS için AdGuard VPN nasıl kullanılır
 
@@ -22,13 +22,13 @@ iOS için AdGuard VPN'i kullanmak için önce [AdGuard hesabınıza](https://my.
 
 Henüz bir AdGuard hesabınız yoksa, önce hesap oluşturmanız gerekir.
 
-AdGuard VPN'i kullanmak oldukça kolaydır. Ana ekranda *Bağlan ve Bağlantıyı kes* düğmesini ve kullanılabilir sunucuların listesini görebilirsiniz. Sunucuların kendi konumları (belirli bir ülke ve şehir) ve ping göstergesi vardır. The ping shows the server's response time (in milliseconds). Choosing the server with a ping of 22 ms means that a data packet sent to this server is returned (received again) after 22 ms. AdGuard VPN'de onlarca ülkede 50'den fazla konum arasından seçim yapabilirsiniz.
+AdGuard VPN'i kullanmak oldukça kolaydır. Ana ekranda *Bağlan ve Bağlantıyı kes* düğmesini ve kullanılabilir sunucuların listesini görebilirsiniz. Sunucuların kendi konumları (belirli bir ülke ve şehir) ve ping göstergesi vardır. Ping, sunucunun yanıt süresini (milisaniye cinsinden) gösterir. Ping süresi 22 ms olan sunucunun seçilmesi, bu sunucuya gönderilen bir veri paketinin 22 ms sonra geri döneceği (tekrar alınacağı) anlamına gelir. AdGuard VPN'de onlarca ülkede 50'den fazla konum arasından seçim yapabilirsiniz.
 
 ![Ana ekran ve konumlar *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/1.png?123)
 
 ## İstisnaların listesi
 
-You can find Exclusions by tapping the middle button below. There you will see two exclusion lists, for General and Selective modes. In General mode, the VPN works for all websites except the excluded ones. Conversely, in Selective mode, the VPN only works for websites from the list. You can add domains (e.g. `google.com`) or subdomains (e.g. `*.google.com`) of websites in two ways: you can enter them manually in the app or directly from the browser by sharing the desired pages with AdGuard VPN.
+Aşağıdaki orta düğmeye dokunarak İstisnaları bulabilirsiniz. There you will see two exclusion lists, for General and Selective modes. In General mode, the VPN works for all websites except the excluded ones. Conversely, in Selective mode, the VPN only works for websites from the list. You can add domains (e.g. `google.com`) or subdomains (e.g. `*.google.com`) of websites in two ways: you can enter them manually in the app or directly from the browser by sharing the desired pages with AdGuard VPN.
 
 ![İstisnalar *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.png?123)
 
