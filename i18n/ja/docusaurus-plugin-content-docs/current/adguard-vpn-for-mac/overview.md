@@ -15,9 +15,11 @@ AdGuard VPN for Macは現在macOS Catalina (10.15) より新しいバージョ�
 
 ## ホーム画面
 
-![Home screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/main_en.png)
+![Home screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/vpn_main_new_en.jpeg)
 
-最初のタブは、 *ホーム*画面です。 ここでは、AdGuard VPN の現在の状態（接続／切断）と選択中の[VPN対象外モード](#exclusions)（一般／指定）、選択中のロケーション（VPNがオンの場合）とそのping値を確認することができます。 pingとは、VPNサーバーの応答時間です。 Consequently, the lower this number, the faster the connection. VPNがオフの場合、最後に接続した最終ロケーションが下に表示されます。 画面右上には、pingが最も低く、最速のロケーションが表示されます。 その下には、全ロケーションの一覧が表示されます。 検索機能により、必要なロケーションを簡単に見つけることができます。
+最初のタブは、 *ホーム*画面です。 Here you can see the current status of AdGuard VPN, the selected location (if enabled) and its ping. pingとは、VPNサーバーの応答時間です。 The lower the number, the faster the connection. If VPN is disabled, the last location you connected to is displayed at the bottom.
+
+The fastest locations with the lowest pings are displayed in the upper right corner of the screen. There is also a refresh button that you can click if any locations are offline. その下には、全ロケーションの一覧が表示されます。 The search field makes it easy to find the location you need.
 
 :::note
 
@@ -27,11 +29,11 @@ AdGuard VPN for Macは現在macOS Catalina (10.15) より新しいバージョ�
 
 ## VPN対象外リスト（サイト除外機能）
 
-![VPN対象外リスト](https://cdn.adguardvpn.com/content/kb/vpn/mac/exclusions_en.png)
+![VPN対象外リスト](https://cdn.adguardvpn.com/content/kb/vpn/mac/exclusions_new_en.png)
 
 AdGuard VPN has several features that make it unique, and one of them is definitely *Exclusions*. By default, AdGuard VPN will run on all websites and in all apps but the ones from the exclusions list. But you can switch to the other mode, so AdGuard VPN will run only on websites and in apps from the exclusions list.
 
-![VPN対象外リスト画面](https://cdn.adguardvpn.com/content/kb/vpn/mac/services_en.png)
+![VPN対象外リスト画面](https://cdn.adguardvpn.com/content/kb/vpn/mac/services_new_en.png)
 
 Webサイトを手動で対象外リストに追加するだけでなく、人気のあるサービスの既存リストから選択することもできます。 リストは8つのカテゴリーに分けられています（SNS、メッセンジャー、動画・音楽配信サービス、ゲーム、ショッピング、検索エンジン、ワークコミュニケーションツール）。 これらのサービスカテゴリは、ワンクリックで除外リストに追加することができます。 これは特に、指定モードを使用する場合に便利です。
 
@@ -52,21 +54,29 @@ Archive files from other devices can be similarly imported to your AdGuard VPN f
 
 :::
 
+## Stats
+
+![Statistics screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/statistics_en.png)
+
+The Stats screen provides detailed information about traffic consumed by location and app, most used locations and apps. View data for the day, month, or the entire time AdGuard VPN for Mac has been in use.
+
+Importantly, all data is stored locally on your device, so no one but you has access to it. The Statistics feature is available to users with an AdGuard VPN subscription.
+
 ## サポート
 
-![サポート画面](https://cdn.adguardvpn.com/content/kb/vpn/mac/support_en.png)
+![サポート画面](https://cdn.adguardvpn.com/content/kb/vpn/mac/support_new_en.png)
 
-3つ目のタブは、 *サポート*画面です。 Find answers to any questions in the [FAQ](https://adguard-vpn.com/welcome.html#faq) or in the [Knowledge base](/) sections, report a bug if you encounter one, or [discuss AdGuard on any of the platforms](https://adguard.com/discuss.html). And feel free to [leave feedback about our product](https://surveys.adguard.com/vpn_mac/form.html), we’d appreciate it.
+The fourth tab is the *Support* screen. Find answers to any questions in the [FAQ](https://adguard-vpn.com/welcome.html#faq) or in the [Knowledge base](/) sections, report a bug if you encounter one, or [discuss AdGuard on any of the platforms](https://adguard.com/discuss.html). And feel free to [leave feedback about our product](https://surveys.adguard.com/vpn_mac/form.html), we’d appreciate it.
 
 ## 設定
 
-![設定](https://cdn.adguardvpn.com/content/kb/vpn/mac/settings_en.png)
+![設定](https://cdn.adguardvpn.com/content/kb/vpn/mac/settings_new_en.png)
 
 最後に、「設定」タブです。 「*このアプリについて*」セクションでは、AdGuard VPN の現在のバージョンを確認し、アップデートをチェックし、公式ウェブサイトを訪問し、AdGuard の EULA とプライバシーポリシーを確認することができます。 「*ライセンス情報*」では、無料版から無制限版へのアップグレード、サブスクリプション管理、ログアウトを行うことができます。 そして、最も重要なのは、「*一般設定*」です。
 
 ### 本アプリの設定
 
-![本アプリの設定](https://cdn.adguardvpn.com/content/kb/vpn/mac/general-settings_en.png)
+![本アプリの設定](https://cdn.adguardvpn.com/content/kb/vpn/mac/general-settings_new_en.png)
 
 The first four basic features make the application more convenient and user-friendly, i.e. *Kill Switch*, *Auto-update*, *Launch AdGuard VPN at login*, and *Auto-connect on app launch*. さらに、カラーテーマは「ライト」「ダーク」「システムに合わせる」から選ぶことができ、後者はMacのカラーテーマとAdGuard VPNのテーマを一致します。
 
@@ -74,13 +84,13 @@ You can also allow AdGuard VPN to gather and send anonymous crash reports, techn
 
 ### DNSサーバー
 
-![DNSサーバー](https://cdn.adguardvpn.com/content/kb/vpn/mac/dns_en.png)
+![DNSサーバー](https://cdn.adguardvpn.com/content/kb/vpn/mac/dns_new_en.png)
 
-インターネットプロバイダがデフォルトで提供するDNSサーバーに依存しないように、こちらではカスタムDNSサーバー（一つまたは複数）を追加することができます。 We recommend adding AdGuard DNS, which not only encrypts your DNS traffic but also identifies requests to malicious websites and redirects them to a “blackhole”.
+Here you can set up a DNS server (or servers). This is useful if you don't want to rely on the default DNS server provided by your ISP. Select one from the list of popular DNS services or add a custom server manually. We recommend adding AdGuard DNS, which not only encrypts your DNS traffic, but also identifies requests to malicious websites and redirects them to a “black hole”.
 
 ### 詳細設定
 
-![詳細設定](https://cdn.adguardvpn.com/content/kb/vpn/mac/advanced-settings_en.png)
+![詳細設定](https://cdn.adguardvpn.com/content/kb/vpn/mac/advanced-settings_new_en.png)
 
 #### ログのレベル
 
@@ -90,6 +100,6 @@ You can also allow AdGuard VPN to gather and send anonymous crash reports, techn
 
 このオプションは*詳細設定*にありますが、必要に応じて問題なくオンにすることができます。 メニューバーからAdGuard VPNアイコンを非表示にしても、アプリがバックグラウンドで動作しなくなることはありません。
 
-#### QUIC (実験的) を使用する
+#### Use QUIC
 
 QUIC通信プロトコルは、HTTPの最新・最先端版です。 地下鉄やエレベーターの中でモバイルデータを利用するときなど、あまりよくない通信環境の場合でも、QUICをオンに切り替えることで、より良い通信品質を確保することができます。

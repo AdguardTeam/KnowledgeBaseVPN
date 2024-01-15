@@ -15,9 +15,11 @@ Mac için AdGuard VPN, şu anda macOS Catalina'dan (10.15) başlayan macOS sür�
 
 ## Ana ekran
 
-![Ana ekran](https://cdn.adguardvpn.com/content/kb/vpn/mac/main_en.png)
+![Ana ekran](https://cdn.adguardvpn.com/content/kb/vpn/mac/vpn_main_new_en.jpeg)
 
-İlk sekme *Ana* ekranıdır. Burada AdGuard VPN'nin mevcut durumunu ve [istisna modunu](#exclusions), seçilen konumu (etkinleştirilmişse) ve pingini görebilirsiniz. Ping, bir VPN sunucusunun yanıt süresidir. Sonuç olarak, bu sayı ne kadar düşük olursa, bağlantı o kadar hızlı olur. VPN devre dışıysa, en son bağlandığınız konum aşağıda görüntülenir. En düşük pinge sahip en hızlı konumlar ekranın sağ üst köşesinde görüntülenir. Aşağıda konumların tam listesini görebilirsiniz. Arama fonksiyonu sayesinde, ihtiyaç duyulan konum kolayca bulunabilir.
+İlk sekme *Ana* ekranıdır. Here you can see the current status of AdGuard VPN, the selected location (if enabled) and its ping. Ping, bir VPN sunucusunun yanıt süresidir. The lower the number, the faster the connection. If VPN is disabled, the last location you connected to is displayed at the bottom.
+
+The fastest locations with the lowest pings are displayed in the upper right corner of the screen. There is also a refresh button that you can click if any locations are offline. Aşağıda konumların tam listesini görebilirsiniz. The search field makes it easy to find the location you need.
 
 :::note
 
@@ -27,11 +29,11 @@ Mac için AdGuard VPN, şu anda macOS Catalina'dan (10.15) başlayan macOS sür�
 
 ## İstisnalar
 
-![İstisnalar](https://cdn.adguardvpn.com/content/kb/vpn/mac/exclusions_en.png)
+![İstisnalar](https://cdn.adguardvpn.com/content/kb/vpn/mac/exclusions_new_en.png)
 
 AdGuard VPN'i benzersiz kılan birkaç özelliği vardır ve bunlardan biri kesinlikle *İstisnalardır*. By default, AdGuard VPN will run on all websites and in all apps but the ones from the exclusions list. But you can switch to the other mode, so AdGuard VPN will run only on websites and in apps from the exclusions list.
 
-![İstisnalar ekranı](https://cdn.adguardvpn.com/content/kb/vpn/mac/services_en.png)
+![İstisnalar ekranı](https://cdn.adguardvpn.com/content/kb/vpn/mac/services_new_en.png)
 
 Ayrıca, İstisnalara site eklemekle kalmaz, aynı zamanda popüler hizmetler listeleri arasından seçim yapabilirsiniz. Listeler sekiz kategoriye ayrılmıştır: Sosyal ağlar, Mesajlaşma, Video ve Müzik yayın akışı hizmetleri, Oyunlar, Alışveriş, Arama motorları ve İş iletişim araçları. Bu hizmetlerden herhangi biri, tek bir tıklamayla İstisnalara eklenebilir! Seçici modu kullanıyorsanız özellikle kullanışlıdır.
 
@@ -52,21 +54,29 @@ Diğer cihazlardan arşiv dosyaları benzer şekilde Mac için AdGuard VPN'inize
 
 :::
 
+## Stats
+
+![Statistics screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/statistics_en.png)
+
+The Stats screen provides detailed information about traffic consumed by location and app, most used locations and apps. View data for the day, month, or the entire time AdGuard VPN for Mac has been in use.
+
+Importantly, all data is stored locally on your device, so no one but you has access to it. The Statistics feature is available to users with an AdGuard VPN subscription.
+
 ## Destek
 
-![Destek ekranı](https://cdn.adguardvpn.com/content/kb/vpn/mac/support_en.png)
+![Destek ekranı](https://cdn.adguardvpn.com/content/kb/vpn/mac/support_new_en.png)
 
-Üçüncü sekme *Destek* ekranıdır. [SSS'de](https://adguard-vpn.com/welcome.html#faq) veya [Bilgi tabanı](/) bölümlerinde tüm soruların yanıtlarını bulun, bir hatayla karşılaşırsanız hata bildirin veya [herhangi bir platformda AdGuard'ı tartışın](https://adguard.com/discuss.html). Ve [ürünümüz hakkında geri bildirim bırakmaktan](https://surveys.adguard.com/vpn_mac/form.html) çekinmeyin, bunu takdir ediyoruz.
+The fourth tab is the *Support* screen. [SSS'de](https://adguard-vpn.com/welcome.html#faq) veya [Bilgi tabanı](/) bölümlerinde tüm soruların yanıtlarını bulun, bir hatayla karşılaşırsanız hata bildirin veya [herhangi bir platformda AdGuard'ı tartışın](https://adguard.com/discuss.html). Ve [ürünümüz hakkında geri bildirim bırakmaktan](https://surveys.adguard.com/vpn_mac/form.html) çekinmeyin, bunu takdir ediyoruz.
 
 ## Ayarlar
 
-![Ayarlar](https://cdn.adguardvpn.com/content/kb/vpn/mac/settings_en.png)
+![Ayarlar](https://cdn.adguardvpn.com/content/kb/vpn/mac/settings_new_en.png)
 
 Son olarak Ayarlar sekmesine geliyoruz. *Program hakkında* bölümünde, AdGuard VPN'nin güncel sürümünü görebilir, güncellemeleri denetleyebilir, resmi sitemizi ziyaret edebilir ve AdGuard'ın SKLS ve Gizlilik politikası hakkında bilgi sahibi olabilirsiniz. *Lisans hakkında* bölümünde ücretsizden sınırsıza yükseltebilir, aboneliğinizi yönetebilir veya çıkış yapabilirsiniz. Ve en önemlisi, buradan *Genel ayarlara* erişebilirsiniz.
 
 ### Uygulama ayarları
 
-![Uygulama ayarları](https://cdn.adguardvpn.com/content/kb/vpn/mac/general-settings_en.png)
+![Uygulama ayarları](https://cdn.adguardvpn.com/content/kb/vpn/mac/general-settings_new_en.png)
 
 İlk dört temel özellik, uygulamayı daha kullanışlı ve kullanıcı dostu hâle getirir, örneğin *Kill Switch*, *Otomatik güncelle*, *Oturum açılışında AdGuard VPN'i başlat* ve *Uygulama başlatıldığında otomatik bağlan*. Ayrıca, açık, koyu ve sistem varsayılanı temaları arasında seçim yapabilirsiniz — sonuncu olan, Mac'inizdeki temayla eşleşir.
 
@@ -74,13 +84,13 @@ You can also allow AdGuard VPN to gather and send anonymous crash reports, techn
 
 ### DNS sunucuları
 
-![DNS sunucuları](https://cdn.adguardvpn.com/content/kb/vpn/mac/dns_en.png)
+![DNS sunucuları](https://cdn.adguardvpn.com/content/kb/vpn/mac/dns_new_en.png)
 
-Burada, varsayılan olarak İSS'niz tarafından sağlanan bir DNS sunucusuna güvenmemek için özel bir DNS sunucusu (veya sunucuları) ekleyebilirsiniz. Yalnızca DNS trafiğinizi şifrelemekle kalmayıp aynı zamanda kötü amaçlı sitelere yönelik istekleri tespit eden ve bunları bir "kara deliğe" yönlendiren AdGuard DNS'i eklemenizi öneririz.
+Here you can set up a DNS server (or servers). This is useful if you don't want to rely on the default DNS server provided by your ISP. Select one from the list of popular DNS services or add a custom server manually. We recommend adding AdGuard DNS, which not only encrypts your DNS traffic, but also identifies requests to malicious websites and redirects them to a “black hole”.
 
 ### Gelişmiş ayarlar
 
-![Gelişmiş ayarlar](https://cdn.adguardvpn.com/content/kb/vpn/mac/advanced-settings_en.png)
+![Gelişmiş ayarlar](https://cdn.adguardvpn.com/content/kb/vpn/mac/advanced-settings_new_en.png)
 
 #### Günlük kayıt düzeyi
 
@@ -90,6 +100,6 @@ Yalnızca iki günlük kayıt düzeyi vardır ancak ilki, varsayılan olanı kul
 
 Bu seçenek *Gelişmiş ayarlarda* yer almasına rağmen tereddüt etmeden etkinleştirilebilir. AdGuard VPN simgesini menü çubuğundan gizleyebilirsiniz, bu uygulamamızın arka planda çalışmasına engel olmaz.
 
-#### QUIC kullan (deneysel)
+#### Use QUIC
 
 QUIC iletişim protokolü, HTTP'nin en son, en gelişmiş sürümüdür. Örneğin metroda veya asansörde mobil veri kullanırken, ideal olmayan koşullarda daha iyi bir bağlantı kalitesi elde etmek için anahtarı değiştirin.
