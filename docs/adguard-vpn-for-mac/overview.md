@@ -18,9 +18,9 @@ AdGuard VPN for Mac is currently supported on macOS versions starting from macOS
 
 ![Home screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/vpn_main_new_en.jpeg)
 
-The first tab is the *Home* screen. Here you can see AdGuard VPN current status, chosen location (if enabled) and its ping. Ping is the response time of a VPN server. Consequently, the lower this number, the faster the connection. If VPN is disabled, the last location you connected to is displayed below.
+The first tab is the *Home* screen. Here you can see the current status of AdGuard VPN, the selected location (if enabled) and its ping. Ping is the response time of a VPN server. The lower the number, the faster the connection. If VPN is disabled, the last location you connected to is displayed at the bottom.
 
-The fastest locations with the lowest pings are displayed in the upper right corner of the screen. There is also a refresh button that you can click in case any locations are offline. Below you can see the full list of locations. Through the search function, the needed location can be easily found.
+The fastest locations with the lowest pings are displayed in the upper right corner of the screen. There is also a refresh button that you can click if any locations are offline. Below you can see the full list of locations. The search field makes it easy to find the location you need.
 
 :::note
 
@@ -59,7 +59,7 @@ Archive files from other devices can be similarly imported to your AdGuard VPN f
 
 ![Statistics screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/statistics_en.png)
 
-The Stats screen provides detailed information about consumed traffic by location and app, most-used locations and apps. View data for the day, month, or the entire duration of AdGuard VPN foe Mac use.
+The Stats screen provides detailed information about traffic consumed by location and app, most used locations and apps. View data for the day, month, or the entire time AdGuard VPN for Mac has been in use.
 
 Importantly, all data is stored locally on your device, so no one but you has access to it. The Statistics feature is available to users with an AdGuard VPN subscription.
 
@@ -87,7 +87,7 @@ You can also allow AdGuard VPN to gather and send anonymous crash reports, techn
 
 ![DNS servers](https://cdn.adguardvpn.com/content/kb/vpn/mac/dns_new_en.png)
 
-Here you can set up a DNS server (or servers) in order not to rely on a DNS server provided by your ISP by default. Choose one from the list of popular DNS services or add a custom server manually. We recommend adding AdGuard DNS, which not only encrypts your DNS traffic but also identifies requests to malicious websites and redirects them to a “blackhole”.
+Here you can set up a DNS server (or servers). This is useful if you don't want to rely on the default DNS server provided by your ISP. Select one from the list of popular DNS services or add a custom server manually. We recommend adding AdGuard DNS, which not only encrypts your DNS traffic, but also identifies requests to malicious websites and redirects them to a “black hole”.
 
 ### Advanced settings
 
