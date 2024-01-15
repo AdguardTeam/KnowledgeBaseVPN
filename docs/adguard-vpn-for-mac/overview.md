@@ -18,7 +18,7 @@ AdGuard VPN for Mac is currently supported on macOS versions starting from macOS
 
 ![Home screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/vpn_main_new_en.jpeg)
 
-The first tab is the *Home* screen. Here you can see AdGuard VPN current status, chosen location (if enabled) and its ping. Ping is the response time of a VPN server. Consequently, the lower this number, the faster the connection. If VPN is disabled, the last location you connected to is displayed below. 
+The first tab is the *Home* screen. Here you can see AdGuard VPN current status, chosen location (if enabled) and its ping. Ping is the response time of a VPN server. Consequently, the lower this number, the faster the connection. If VPN is disabled, the last location you connected to is displayed below.
 
 The fastest locations with the lowest pings are displayed in the upper right corner of the screen. There is also a refresh button that you can click in case any locations are offline. Below you can see the full list of locations. Through the search function, the needed location can be easily found.
 
