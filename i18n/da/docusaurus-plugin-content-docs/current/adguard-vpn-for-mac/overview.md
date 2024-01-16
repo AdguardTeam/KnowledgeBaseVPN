@@ -15,9 +15,11 @@ AdGuard VPN til Mac understøttes pt. på macOS-versioner startende med macOS Ca
 
 ## Startskærm
 
-![Startskærm](https://cdn.adguardvpn.com/content/kb/vpn/mac/main_en.png)
+![Startskærm](https://cdn.adguardvpn.com/content/kb/vpn/mac/vpn_main_new_en.jpeg)
 
-Den første fane er skærmen *Start*. Her kan man se AdGuard VPNs aktuelle status, [undtagelsestilstand](#exclusions) og valgte placering (hvis aktiveret) samt dens ping. Ping er en VPN-servers svartid. Jo lavere dette tal er, des hurtigere er forbindelsen. Hvis VPN er deaktiveret, vises den sidste placering, der har været oprettet forbindelse til, nedenfor. De hurtigste placeringer med de laveste ping vises i øverste til højre på skærmen. Nedenfor kan ses den fulde liste over placeringer. Via søgefunktionen kan den ønskede placering let findes.
+Den første fane er skærmen *Start*. Here you can see the current status of AdGuard VPN, the selected location (if enabled) and its ping. Ping er en VPN-servers svartid. The lower the number, the faster the connection. If VPN is disabled, the last location you connected to is displayed at the bottom.
+
+The fastest locations with the lowest pings are displayed in the upper right corner of the screen. There is also a refresh button that you can click if any locations are offline. Nedenfor kan ses den fulde liste over placeringer. The search field makes it easy to find the location you need.
 
 :::note
 
@@ -27,11 +29,11 @@ Gratis-brugere kan kun oprette forbindelse til bestemte placeringer, mens andre 
 
 ## Undtagelser
 
-![Undtagelser](https://cdn.adguardvpn.com/content/kb/vpn/mac/exclusions_en.png)
+![Undtagelser](https://cdn.adguardvpn.com/content/kb/vpn/mac/exclusions_new_en.png)
 
 AdGuard VPN har flere funktioner, som gør den unik, og én af dem er afgjort *Undtagelser*. Som standard vil AdGuard VPN køre på alle websteder og i alle apps, undtagen dem på undtagelseslisten. Man kan dog skifte til den anden tilstand, så AdGuard kun VPN kører på websteder og i apps på undtagelseslisten.
 
-![Skærmen Undtagelser](https://cdn.adguardvpn.com/content/kb/vpn/mac/services_en.png)
+![Skærmen Undtagelser](https://cdn.adguardvpn.com/content/kb/vpn/mac/services_new_en.png)
 
 Man kan ikke blot føje websteder til Undtagelser, men også vælge blandt listerne over populære tjenester. Listerne er opdelt i otte kategorier: Sociale netværk, Messengers, Video- og musikstreamingtjenester, Spil, Shopping, Søgemaskiner og Arbejdskommunikationsværktøjer. Enhver af disse tjenester kan føjes til Undtagelser med ét enkelt klik! Det er især praktisk, hvis tilstanden Selektiv anvendes.
 
@@ -52,21 +54,29 @@ Arkivfiler fra andre enheder kan på samme vis importeres i AdGuard VPN til Mac.
 
 :::
 
+## Stats
+
+![Statistics screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/statistics_en.png)
+
+The Stats screen provides detailed information about traffic consumed by location and app, most used locations and apps. View data for the day, month, or the entire time AdGuard VPN for Mac has been in use.
+
+Importantly, all data is stored locally on your device, so no one but you has access to it. The Statistics feature is available to users with an AdGuard VPN subscription.
+
 ## Support
 
-![Supportskærm](https://cdn.adguardvpn.com/content/kb/vpn/mac/support_en.png)
+![Supportskærm](https://cdn.adguardvpn.com/content/kb/vpn/mac/support_new_en.png)
 
-Den tredje fane er skærmen *Support*. Find svar på alle spørgsmål i [FAQ'en](https://adguard-vpn.com/welcome.html#faq) eller i [Vidensbase](/)- afsnittene, anmeld en fejl, hvis der stødes på én eller [debattér AdGuard på en af platformene](https://adguard.com/discuss.html). Man er ligeledes meget velkommen til at [give feedback om vores produkt](https://surveys.adguard.com/vpn_mac/form.html), hvilket vi ville sætte pris på.
+The fourth tab is the *Support* screen. Find svar på alle spørgsmål i [FAQ'en](https://adguard-vpn.com/welcome.html#faq) eller i [Vidensbase](/)- afsnittene, anmeld en fejl, hvis der stødes på én eller [debattér AdGuard på en af platformene](https://adguard.com/discuss.html). Man er ligeledes meget velkommen til at [give feedback om vores produkt](https://surveys.adguard.com/vpn_mac/form.html), hvilket vi ville sætte pris på.
 
 ## Indstillinger
 
-![Indstillinger](https://cdn.adguardvpn.com/content/kb/vpn/mac/settings_en.png)
+![Indstillinger](https://cdn.adguardvpn.com/content/kb/vpn/mac/settings_new_en.png)
 
 Til sidst er der fanen Indstillinger. I afsnittet *Om program* kan man se det aktuelle AdGuard VPN-versionsnummer, tjekke for opdateringer, besøge vores officielle websted og gøre sig bekendt med AdGuards EULA (Slutbrugerlicensaftale) samt Fortrolighedspolitik. I afsnittet *Om licens* kan man opgraderes fra gratis til ubegrænset, håndtere abonnement eller logge ud. Og vigtigst af alt, herfra kan *Generelle indstillinger* tilgås.
 
 ### App-indstillinger
 
-![App-indstillinger](https://cdn.adguardvpn.com/content/kb/vpn/mac/general-settings_en.png)
+![App-indstillinger](https://cdn.adguardvpn.com/content/kb/vpn/mac/general-settings_new_en.png)
 
 De første fire basisfunktioner gør applikationen mere bekvem og brugervenlig, dvs. *Kill Switch*, *Auto-opdatering*, *Start AdGuard VPN ved login*og *Auto-tilslut ved app-start*. Derudover kan der vælges mellem lyse, mørke og systemtemaer – sidstnævnte matcher temaet på Mac'en.
 
@@ -74,13 +84,13 @@ Man kan også tillade AdGuard VPN at indsamle og indsende anonymiserede nedbruds
 
 ### DNS-servere
 
-![DNS-servere](https://cdn.adguardvpn.com/content/kb/vpn/mac/dns_en.png)
+![DNS-servere](https://cdn.adguardvpn.com/content/kb/vpn/mac/dns_new_en.png)
 
-Her kan tilføjes en tilpasset DNS-server (eller flere) for ikke at være afhængig af den af internetudbyderen leverede standard DNS-server. Vi anbefaler at tilføje AdGuard DNS, der ikke alene krypterer DNS-trafikken, men også identificerer forespørgsler til ondsindede websteder og omdirigerer dem til et "sort hul" ("black hole").
+Here you can set up a DNS server (or servers). This is useful if you don't want to rely on the default DNS server provided by your ISP. Select one from the list of popular DNS services or add a custom server manually. We recommend adding AdGuard DNS, which not only encrypts your DNS traffic, but also identifies requests to malicious websites and redirects them to a “black hole”.
 
 ### Avancerede indstillinger
 
-![Avancerede indstillinger](https://cdn.adguardvpn.com/content/kb/vpn/mac/advanced-settings_en.png)
+![Avancerede indstillinger](https://cdn.adguardvpn.com/content/kb/vpn/mac/advanced-settings_new_en.png)
 
 #### Logningsniveau
 
@@ -90,6 +100,6 @@ Der er kun to logningsniveauer, men brug af det første, standardniveauet, anbef
 
 Selvom denne mulighed er findes under *Avancerede indstillinger*, kan den aktiveres uden tøven. Man kan skjule AdGuard VPN-ikonet fra menubjælken, da dette ikke påvirker appens baggrundsdrift.
 
-#### Anvend QUIC (eksperimentel)
+#### Use QUIC
 
 QUIC-kommunikationsprotokollen er den seneste, avancerede version af HTTP. Skift kontakten for at opnå bedre forbindelseskvalitet under mindre end ideelle forhold, f.eks. når man bruger mobildata i metroen eller elevatoren.

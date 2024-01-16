@@ -15,9 +15,11 @@ AdGuard VPN para Mac actualmente es compatible con las versiones de macOS a part
 
 ## Pantalla de inicio
 
-![Home screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/main_en.png)
+![Home screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/vpn_main_new_en.jpeg)
 
-La primera pestaña es la pantalla *de inicio* . Aquí puedes ver el estado actual de AdGuard VPN y [modo de exclusiones](#exclusions), la ubicación elegida (si activada) y su ping. Ping es el tiempo de respuesta de un servidor VPN. Consequently, the lower this number, the faster the connection. Si la VPN está deshabilitada, la última ubicación a la que se conectó se muestra a continuación. Las ubicaciones más rápidas con los pings más bajos se muestran en la esquina superior derecha de la pantalla. A continuación puedes ver la lista completa de ubicaciones. A través de la función de búsqueda, se puede encontrar fácilmente la ubicación necesaria.
+La primera pestaña es la pantalla *de inicio* . Here you can see the current status of AdGuard VPN, the selected location (if enabled) and its ping. Ping es el tiempo de respuesta de un servidor VPN. The lower the number, the faster the connection. If VPN is disabled, the last location you connected to is displayed at the bottom.
+
+The fastest locations with the lowest pings are displayed in the upper right corner of the screen. There is also a refresh button that you can click if any locations are offline. A continuación puedes ver la lista completa de ubicaciones. The search field makes it easy to find the location you need.
 
 :::note
 
@@ -27,11 +29,11 @@ Los usuarios de la versión gratuita sólo pueden conectarse a determinadas ubic
 
 ## Exclusiones
 
-![Exclusiones](https://cdn.adguardvpn.com/content/kb/vpn/mac/exclusions_en.png)
+![Exclusiones](https://cdn.adguardvpn.com/content/kb/vpn/mac/exclusions_new_en.png)
 
 AdGuard VPN has several features that make it unique, and one of them is definitely *Exclusions*. By default, AdGuard VPN will run on all websites and in all apps but the ones from the exclusions list. But you can switch to the other mode, so AdGuard VPN will run only on websites and in apps from the exclusions list.
 
-![Pantalla de exclusiones](https://cdn.adguardvpn.com/content/kb/vpn/mac/services_en.png)
+![Pantalla de exclusiones](https://cdn.adguardvpn.com/content/kb/vpn/mac/services_new_en.png)
 
 Además, no sólo puede añadir sitios web a las exclusiones, sino también elegir entre las listas de servicios populares. Las listas se dividen en ocho categorías: Redes sociales, Mensajeros, Servicios de streaming de video y música, Juegos, Compras, Motores de búsqueda y Herramientas de comunicación laboral. ¡Cualquiera de estos servicios se puede agregar a Exclusiones con un solo clic! Eso es especialmente conveniente si se utiliza el modo selectivo.
 
@@ -52,21 +54,29 @@ Archive files from other devices can be similarly imported to your AdGuard VPN f
 
 :::
 
+## Stats
+
+![Statistics screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/statistics_en.png)
+
+The Stats screen provides detailed information about traffic consumed by location and app, most used locations and apps. View data for the day, month, or the entire time AdGuard VPN for Mac has been in use.
+
+Importantly, all data is stored locally on your device, so no one but you has access to it. The Statistics feature is available to users with an AdGuard VPN subscription.
+
 ## Soporte
 
-![Pantalla de Centro de Asistencia](https://cdn.adguardvpn.com/content/kb/vpn/mac/support_en.png)
+![Pantalla de Centro de Asistencia](https://cdn.adguardvpn.com/content/kb/vpn/mac/support_new_en.png)
 
-La tercera pestaña es la pantalla *Centro de Asistencia*. Find answers to any questions in the [FAQ](https://adguard-vpn.com/welcome.html#faq) or in the [Knowledge base](/) sections, report a bug if you encounter one, or [discuss AdGuard on any of the platforms](https://adguard.com/discuss.html). Y no dudes en [dejar tu opinión sobre nuestro producto](https://surveys.adguard.com/vpn_mac/form.html), te lo agradeceremos.
+The fourth tab is the *Support* screen. Find answers to any questions in the [FAQ](https://adguard-vpn.com/welcome.html#faq) or in the [Knowledge base](/) sections, report a bug if you encounter one, or [discuss AdGuard on any of the platforms](https://adguard.com/discuss.html). Y no dudes en [dejar tu opinión sobre nuestro producto](https://surveys.adguard.com/vpn_mac/form.html), te lo agradeceremos.
 
 ## Configuración
 
-![Configuración](https://cdn.adguardvpn.com/content/kb/vpn/mac/settings_en.png)
+![Configuración](https://cdn.adguardvpn.com/content/kb/vpn/mac/settings_new_en.png)
 
 Finalmente, llegamos a la pestaña Configuración. En la sección *Acerca del programa* , puedes ver la versión actual de AdGuard VPN, buscar actualizaciones, visitar nuestro sitio web oficial y familiarizarte con el EULA y la política de privacidad de AdGuard. En la sección *Acerca de la licencia*, puedes actualizarla de gratuita a ilimitada, administrar tu suscripción o cerrar sesión. Y lo más importante, desde aquí puedes acceder a *Configuración general*.
 
 ### Configuración de la app
 
-![Configuración de la app](https://cdn.adguardvpn.com/content/kb/vpn/mac/general-settings_en.png)
+![Configuración de la app](https://cdn.adguardvpn.com/content/kb/vpn/mac/general-settings_new_en.png)
 
 Las primeras cuatro características básicas hacen que la aplicación sea más conveniente y fácil de usar, es decir *Kill Switch*, *Actualización automática*, *Iniciar AdGuard VPN al iniciar sesión*y *Conexión automática al iniciar la aplicación*. Además, puedes elegir entre temas claros, oscuros y del sistema; el último coincide con el tema de tu Mac.
 
@@ -74,13 +84,13 @@ You can also allow AdGuard VPN to gather and send anonymous crash reports, techn
 
 ### Servidores DNS
 
-![Servidores DNS](https://cdn.adguardvpn.com/content/kb/vpn/mac/dns_en.png)
+![Servidores DNS](https://cdn.adguardvpn.com/content/kb/vpn/mac/dns_new_en.png)
 
-Aquí puedes agregar un servidor DNS personalizado (o servidores) para no depender de un servidor DNS proporcionado por tu ISP de forma predeterminada. We recommend adding AdGuard DNS, which not only encrypts your DNS traffic but also identifies requests to malicious websites and redirects them to a “blackhole”.
+Here you can set up a DNS server (or servers). This is useful if you don't want to rely on the default DNS server provided by your ISP. Select one from the list of popular DNS services or add a custom server manually. We recommend adding AdGuard DNS, which not only encrypts your DNS traffic, but also identifies requests to malicious websites and redirects them to a “black hole”.
 
 ### Configuración avanzada
 
-![Configuración avanzada](https://cdn.adguardvpn.com/content/kb/vpn/mac/advanced-settings_en.png)
+![Configuración avanzada](https://cdn.adguardvpn.com/content/kb/vpn/mac/advanced-settings_new_en.png)
 
 #### Nivel de registro
 
@@ -90,6 +100,6 @@ Solo hay dos niveles de registro, pero te recomendamos encarecidamente que utili
 
 Aunque esta opción se encuentra en *Configuración avanzada*, se puede habilitar sin dudarlo. Puedes ocultar el ícono de AdGuard VPN de la barra de menú, esto no impedirá que nuestra aplicación se ejecute en segundo plano.
 
-#### Utilizar QUIC (experimental)
+#### Use QUIC
 
 El protocolo de comunicación QUIC es la última y más avanzada versión de HTTP. Activa el interruptor para obtener una mejor calidad de conexión en condiciones no ideales, mientras utilizas los datos móviles en el metro o el ascensor, por ejemplo.
