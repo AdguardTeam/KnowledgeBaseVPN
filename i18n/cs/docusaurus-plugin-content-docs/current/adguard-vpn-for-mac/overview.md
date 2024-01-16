@@ -17,9 +17,9 @@ AdGuard VPN pro macOS je v současné době podporována ve verzích macOS poč�
 
 ![Home screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/vpn_main_new_en.jpeg)
 
-První karta je *Domovská* obrazovka. Here you can see the current status of AdGuard VPN, the selected location (if enabled) and its ping. Ping je doba odezvy serveru VPN. The lower the number, the faster the connection. If VPN is disabled, the last location you connected to is displayed at the bottom.
+První karta je *Domovská* obrazovka. Zde můžete vidět aktuální stav AdGuard VPN, vybrané umístění (pokud je povoleno) a jeho ping. Ping je doba odezvy serveru VPN. Čím nižší číslo, tím rychlejší připojení. Pokud je VPN vypnuta, zobrazí se níže poslední umístění, ke kterému jste se připojili.
 
-The fastest locations with the lowest pings are displayed in the upper right corner of the screen. There is also a refresh button that you can click if any locations are offline. Níže naleznete úplný seznam umístění. The search field makes it easy to find the location you need.
+Nejrychlejší umístění s nejnižší hodnotou ping jsou zobrazena v pravém horním rohu obrazovky. K dispozici je také tlačítko pro obnovení, na které můžete kliknout, pokud jsou některá místa offline. Níže naleznete úplný seznam umístění. Vyhledávací pole usnadňuje nalezení požadovaného umístění.
 
 :::note
 
@@ -29,11 +29,11 @@ Uživatelé bezplatné verze se mohou připojit pouze k určitým umístěním, 
 
 ## Výjimky
 
-![Výjimky](https://cdn.adguardvpn.com/content/kb/vpn/mac/exclusions_new_en.png)
+![Exclusions](https://cdn.adguardvpn.com/content/kb/vpn/mac/exclusions_new_en.png)
 
 AdGuard VPN má několik funkcí, které ji činí jedinečnou, a jednou z nich jsou určitě *Výjimky*. Ve výchozím nastavení bude AdGuard VPN spuštěna na všech webových stránkách a ve všech aplikacích kromě těch ze seznamu výjimek. Můžete však přepnout do jiného režimu, takže AdGuard VPN bude spuštěna pouze na webových stránkách a v aplikacích ze seznamu výjimek.
 
-![Záložka Výjimky](https://cdn.adguardvpn.com/content/kb/vpn/mac/services_new_en.png)
+![Exclusions screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/services_new_en.png)
 
 Nemusíte jen přidávat webové stránky do výjimek, ale také můžete vybírat ze seznamů oblíbených služeb. Seznamy jsou rozděleny do osmi kategorií: sociální sítě, messengery, služby pro streamování videa a hudby, hry, nakupování, vyhledávače a nástroje pro pracovní komunikaci. Kteroukoli z těchto služeb lze přidat do Výjimek jedním kliknutím! Je to obzvlášť výhodné, pokud používáte Selektivní režim.
 
@@ -54,29 +54,29 @@ Archivní soubory z jiných zařízení lze podobně importovat do AdGuard VPN p
 
 :::
 
-## Stats
+## Statistiky
 
 ![Statistics screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/statistics_en.png)
 
-The Stats screen provides detailed information about traffic consumed by location and app, most used locations and apps. View data for the day, month, or the entire time AdGuard VPN for Mac has been in use.
+Obrazovka Statistiky poskytuje podrobné informace o spotřebovaném provozu podle umístění a aplikace, nejpoužívanějších umístěních a aplikacích. Zobrazte si data za den, měsíc nebo za celou dobu používání AdGuard VPN pro Mac.
 
-Importantly, all data is stored locally on your device, so no one but you has access to it. The Statistics feature is available to users with an AdGuard VPN subscription.
+Důležité je, že všechna data jsou uložena lokálně ve vašem zařízení, takže k nim nemá přístup nikdo jiný než vy. Funkce Statistiky je k dispozici uživatelům s předplatným AdGuard VPN.
 
 ## Podpora
 
-![Obrazovka podpory](https://cdn.adguardvpn.com/content/kb/vpn/mac/support_new_en.png)
+![Support screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/support_new_en.png)
 
-The fourth tab is the *Support* screen. Odpovědi na všechny otázky najdete v sekcích [FAQ](https://adguard-vpn.com/welcome.html#faq) nebo [Databáze znalostí](/), můžete nahlásit chybu, pokud na ni narazíte, nebo [diskutovat o AdGuardu na některé z platforem](https://adguard.com/discuss.html). A neváhejte [zanechat zpětnou vazbu o našem produktu](https://surveys.adguard.com/vpn_mac/form.html), budeme vám vděčni.
+Čtvrtá karta je obrazovka *Podpory*. Odpovědi na všechny otázky najdete v sekcích [FAQ](https://adguard-vpn.com/welcome.html#faq) nebo [Databáze znalostí](/), můžete nahlásit chybu, pokud na ni narazíte, nebo [diskutovat o AdGuardu na některé z platforem](https://adguard.com/discuss.html). A neváhejte [zanechat zpětnou vazbu o našem produktu](https://surveys.adguard.com/vpn_mac/form.html), budeme vám vděčni.
 
 ## Nastavení
 
-![Nastavení](https://cdn.adguardvpn.com/content/kb/vpn/mac/settings_new_en.png)
+![Settings](https://cdn.adguardvpn.com/content/kb/vpn/mac/settings_new_en.png)
 
 Nakonec se dostáváme ke kartě Nastavení. V sekci *O programu* si můžete prohlédnout aktuální verzi AdGuard VPN, zkontrolovat aktualizace, navštívit naše oficiální webové stránky a seznámit se s licenční smlouvou EULA a zásadami ochrany osobních údajů AdGuardu. V sekci *O licenci* můžete provést upgrade z bezplatné verze na neomezenou, spravovat své předplatné nebo se odhlásit. A co je nejdůležitější, odtud máte přístup k *Obecným nastavením*.
 
 ### Nastavení aplikace
 
-![Nastavení aplikace](https://cdn.adguardvpn.com/content/kb/vpn/mac/general-settings_new_en.png)
+![App settings](https://cdn.adguardvpn.com/content/kb/vpn/mac/general-settings_new_en.png)
 
 První čtyři základní funkce činí aplikaci pohodlnější a uživatelsky přívětivější, tj. *Kill Switch*, *automatické aktualizace*, *spuštění AdGuard VPN při přihlášení *a *automatické připojení při spuštění aplikace*. Navíc si můžete vybrat mezi světlým, tmavým a systémovým motivem — poslední jmenovaný motiv odpovídá motivu vašeho počítače Mac.
 
@@ -84,13 +84,13 @@ Můžete také povolit AdGuard VPN shromažďovat a odesílat anonymizovaná hl�
 
 ### DNS servery
 
-![DNS servery](https://cdn.adguardvpn.com/content/kb/vpn/mac/dns_new_en.png)
+![DNS servers](https://cdn.adguardvpn.com/content/kb/vpn/mac/dns_new_en.png)
 
-Here you can set up a DNS server (or servers). This is useful if you don't want to rely on the default DNS server provided by your ISP. Select one from the list of popular DNS services or add a custom server manually. We recommend adding AdGuard DNS, which not only encrypts your DNS traffic, but also identifies requests to malicious websites and redirects them to a “black hole”.
+Zde můžete nastavit DNS server (nebo servery). To je užitečné, pokud se nechcete spoléhat na výchozí DNS server poskytovaný poskytovatelem internetových služeb. Vyberte jednu ze seznamu oblíbených služeb DNS nebo přidejte vlastní server ručně. Doporučujeme přidat službu AdGuard DNS, která nejen šifruje provoz DNS, ale také identifikuje požadavky na škodlivé weby a přesměrovává je do "černé díry".
 
 ### Pokročilá nastavení
 
-![Pokročilá nastavení](https://cdn.adguardvpn.com/content/kb/vpn/mac/advanced-settings_new_en.png)
+![Advanced settings](https://cdn.adguardvpn.com/content/kb/vpn/mac/advanced-settings_new_en.png)
 
 #### Úroveň záznamu
 
@@ -100,6 +100,6 @@ Existují pouze dvě úrovně záznamu, ale důrazně doporučujeme používat p
 
 Přestože se tato možnost nachází v *Rozšířených nastavení*, lze ji bez váhání povolit. Ikonu AdGuard VPN můžete z panelu nabídek skrýt, nezabrání to běhu naší aplikace na pozadí.
 
-#### Use QUIC
+#### Použití QUIC
 
 Komunikační protokol QUIC je nejnovější a nejmodernější verzí HTTP protokolu. Přepnutím přepínače získáte lepší kvalitu připojení v ne zcela ideálních podmínkách, například při používání mobilních dat v metru nebo ve výtahu.

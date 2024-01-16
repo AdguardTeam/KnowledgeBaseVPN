@@ -10,3 +10,4 @@ Afhængigt af AdGuard-appen eller browserudvidelsen, der skal installere, følg 
 - [AdGuard VPN til Windows](/adguard-vpn-for-windows/installation)
 - [AdGuard VPN til Mac](/adguard-vpn-for-mac/installation)
 - [AdGuard VPN Browser Extension](/adguard-vpn-browser-extension/installation)
+- [AdGuardVPN on router](/general/set-up-adguard-vpn-on-your-router/)

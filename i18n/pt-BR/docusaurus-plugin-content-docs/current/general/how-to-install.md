@@ -10,3 +10,4 @@ Dependendo de qual aplicativo AdGuard VPN ou extensão de navegador você deseja
 - [AdGuard VPN para Windows](/adguard-vpn-for-windows/installation)
 - [AdGuard VPN para Mac](/adguard-vpn-for-mac/installation)
 - [AdGuard VPN Browser Extension](/adguard-vpn-browser-extension/installation)
+- [AdGuardVPN on router](/general/set-up-adguard-vpn-on-your-router/)
