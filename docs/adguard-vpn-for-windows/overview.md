@@ -21,13 +21,13 @@ To start using AdGuard VPN for Windows, download the app from [our website](http
 
 ![AdGuard VPN for Windows homepage *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/home_en.jpg)
 
-The most noticeable item on the **Home screen** is the AdGuard VPN connect/disconnect button under which you can see the selected server. On the right side of the screen you will find all available locations. The fastest location, i.e. the one with the lowest ping, is shown at the top of the list. There is also a refresh button that you can click if any locations are offline.
+The most noticeable item on the **Home Screen** is the AdGuard VPN Connect/Disconnect button, below which you can see the selected server. On the right side of the screen you will see a list of available locations. The fastest location, i.e. the one with the lowest ping, is shown at the top of the list. There is also a refresh button that you can click if any locations are offline.
 
-At the top of the screen there is a navigation panel with five tabs: **Home**, **Exclusions**, **Stats**. **Support**, **Settings**.
+At the top of the screen there is a navigation panel with five tabs: **Home**, **Exclusions**, **Stats**. **Support**, and **Settings**.
 
 ## Exclusions
 
-By default, AdGuard VPN for WIndows works everywhere, and you can list the websites and apps you want to exclude from the tunnel. But you can make AdGuard VPN only run on the websites and in the apps specified in the list of exclusions. Please note that these two lists are independent from one another.
+By default, AdGuard VPN for WIndows works everywhere. You can add websites and apps you want to exclude from the VPN tunnel to the list of exclusions. Or, you can make AdGuard VPN work only on the websites and apps specified in the list of exclusions. Please note that these two lists are independent of each other.
 
 ![Exclusions *border](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_new_en.png)
 
@@ -53,7 +53,7 @@ On the destination device, open AdGuard VPN, click *Exclusions*, and select *Web
 
 ![Statistics screen *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/statistics_en.png)
 
-The Statistics screen shows detailed information about your data usage, categorized by both location and app. It highlights your most frequently used locations and applications. You can access statistics for different time periods: daily, monthly, or for the entire duration of your use of AdGuard VPN for Windows.
+The Statistics screen shows detailed information about your data usage, categorized by both location and app. It highlights your most frequently used locations and applications. You can access statistics for different time periods: daily, monthly, or for the entire time you have been using AdGuard VPN for Windows.
 
 Crucially, all this information is stored exclusively on your device, ensuring that only you can view it. Access to the statistics feature is available only to AdGuard VPN subscribers.
 
@@ -103,7 +103,7 @@ WinTun is a traffic routing driver commonly used for VPN implementations on Wind
 
 #### Subnet exclusions
 
-This feature allows you to add subnets to exclude traffic from specific devices connected to your network. For example, your robot vacuum.
+This feature allows you to add subnets to exclude traffic from specific devices connected to your network. For example, your robot vacuum cleaner.
 
 ## Other tabs
 
