@@ -17,9 +17,9 @@ AdGuard VPN für Mac wird derzeit von macOS-Versionen ab macOS Catalina (10.15) 
 
 ![Startseite](https://cdn.adguardvpn.com/content/kb/vpn/mac/vpn_main_new_en.jpeg)
 
-Die erste Registerkarte ist der Bildschirm *Home*. Here you can see the current status of AdGuard VPN, the selected location (if enabled) and its ping. Ping ist die Reaktionszeit eines VPN-Servers. The lower the number, the faster the connection. If VPN is disabled, the last location you connected to is displayed at the bottom.
+Die erste Registerkarte ist der Bildschirm *Home*. Hier sehen Sie den aktuellen Status von AdGuard VPN, den ausgewählten Standort (falls aktiviert) und dessen Ping. Ping ist die Reaktionszeit eines VPN-Servers. Je niedriger die Zahl, desto schneller die Verbindung. Wenn VPN deaktiviert ist, wird der letzte Standort, mit dem Sie verbunden waren, am unteren Rand angezeigt.
 
-The fastest locations with the lowest pings are displayed in the upper right corner of the screen. There is also a refresh button that you can click if any locations are offline. Unten sehen Sie die vollständige Liste der Standorte. The search field makes it easy to find the location you need.
+Die schnellsten Standorte mit den niedrigsten Pings werden in der oberen rechten Ecke des Bildschirms angezeigt. Es gibt auch eine Aktualisierungsschaltfläche, auf die Sie klicken können, wenn ein Standort offline ist. Unten sehen Sie die vollständige Liste der Standorte. Das Suchfeld erleichtert die Suche nach dem gewünschten Ort.
 
 :::note
 
@@ -54,19 +54,19 @@ Archiv-Dateien von anderen Geräten können auf ähnliche Weise in Ihr AdGuard V
 
 :::
 
-## Stats
+## Statistiken
 
-![Statistics screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/statistics_en.png)
+![Statistikbildschirm](https://cdn.adguardvpn.com/content/kb/vpn/mac/statistics_en.png)
 
-The Stats screen provides detailed information about traffic consumed by location and app, most used locations and apps. View data for the day, month, or the entire time AdGuard VPN for Mac has been in use.
+Der Bildschirm „Statistiken“ bietet detaillierte Informationen über das Datenverkehrsaufkommen nach Standort und App sowie über die am häufigsten verwendeten Standorte und Apps. Lassen Sie sich die Daten für den Tag, den Monat oder den gesamten Zeitraum der Nutzung von AdGuard VPN für Mac anzeigen.
 
-Importantly, all data is stored locally on your device, so no one but you has access to it. The Statistics feature is available to users with an AdGuard VPN subscription.
+Wichtig zu erwähnen ist, dass alle Daten lokal auf Ihrem Gerät gespeichert werden, so dass niemand außer Ihnen Zugriff darauf hat. Die Statistikfunktion ist für Benutzer mit einem AdGuard VPN-Abonnement verfügbar.
 
 ## Support
 
 ![Support-Bildschirm](https://cdn.adguardvpn.com/content/kb/vpn/mac/support_new_en.png)
 
-The fourth tab is the *Support* screen. Finden Sie Antworten auf alle Fragen in den [FAQ](https://adguard-vpn.com/welcome.html#faq) oder in den Abschnitten der [Wissensdatenbank](/), melden Sie einen Fehler, wenn Sie auf einen stoßen, oder [diskutieren Sie AdGuard auf einer der Plattformen](https://adguard.com/discuss.html). Und zögern Sie nicht, [Feedback zu unserem Produkt zu hinterlassen](https://surveys.adguard.com/vpn_mac/form.html).
+Der vierte Tab ist der *Support*-Bereich. Finden Sie Antworten auf alle Fragen in den [FAQ](https://adguard-vpn.com/welcome.html#faq) oder in den Abschnitten der [Wissensdatenbank](/), melden Sie einen Fehler, wenn Sie auf einen stoßen, oder [diskutieren Sie AdGuard auf einer der Plattformen](https://adguard.com/discuss.html). Und zögern Sie nicht, [Feedback zu unserem Produkt zu hinterlassen](https://surveys.adguard.com/vpn_mac/form.html).
 
 ## Einstellungen
 
@@ -86,7 +86,7 @@ Sie können AdGuard VPN außerdem erlauben, anonyme Absturzberichte, technische 
 
 ![DNS-Server](https://cdn.adguardvpn.com/content/kb/vpn/mac/dns_new_en.png)
 
-Here you can set up a DNS server (or servers). This is useful if you don't want to rely on the default DNS server provided by your ISP. Select one from the list of popular DNS services or add a custom server manually. We recommend adding AdGuard DNS, which not only encrypts your DNS traffic, but also identifies requests to malicious websites and redirects them to a “black hole”.
+Hier können Sie einen oder mehrere DNS-Server einrichten. Dies ist nützlich, wenn Sie sich nicht auf den Standard-DNS-Server Ihres Internetanbieters verlassen möchten. Wählen Sie einen aus der Liste der gängigen DNS-Dienste aus oder fügen Sie manuell einen eigenen Server hinzu. Wir empfehlen, AdGuard DNS hinzuzufügen, der nicht nur Ihren DNS-Verkehr verschlüsselt, sondern auch Anfragen an bösartige Websites identifiziert und sie an ein "schwarzes Loch" umleitet.
 
 ### Erweiterte Einstellungen
 
@@ -100,6 +100,6 @@ Es gibt nur zwei Protokollierungsebenen, aber wir empfehlen dringend, dass Sie d
 
 Diese Option befindet sich zwar in *Erweiterten Einstellungen*, kann aber bedenkenlos aktiviert werden. Sie können das AdGuard VPN-Symbol in der Menüleiste ausblenden, es verhindert jedoch nicht, dass unsere App im Hintergrund läuft.
 
-#### Use QUIC
+#### QUIC verwenden
 
 Das QUIC-Kommunikationsprotokoll ist die neueste, hochmoderne Version von HTTP. Schalten Sie den Schalter um, um eine bessere Verbindungsqualität unter nicht idealen Bedingungen zu erhalten, z. B. bei der Verwendung mobiler Daten in der U-Bahn oder im Aufzug.

@@ -100,9 +100,13 @@ DNS-серверы переводят названия сайтов в поня�
 
 ### Тема
 
-Вы можете выбрать тему приложения по умолчанию, тёмную или светлую.
+You can choose the system default, system dynamic, dark or light theme of the app.
 
-![Тема *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/theme-light-dark.png)
+![System dynamic theme *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/systemtheme.png)
+
+![Light theme *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/lighttheme.png)
+
+![Dark theme *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/darktheme.png)
 
 ### Расширенные настройки
 

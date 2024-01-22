@@ -10,3 +10,4 @@ sidebar_position: 3
 - [Windows용 AdGuard VPN](/adguard-vpn-for-windows/installation)
 - [Mac용 AdGuard VPN](/adguard-vpn-for-mac/installation)
 - [AdGuard VPN Browser Extension](/adguard-vpn-browser-extension/installation)
+- [AdGuardVPN on router](/general/set-up-adguard-vpn-on-your-router/)

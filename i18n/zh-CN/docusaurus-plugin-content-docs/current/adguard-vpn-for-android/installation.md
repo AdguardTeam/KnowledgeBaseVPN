@@ -5,7 +5,7 @@ sidebar_position: 2
 
 ## 系统要求
 
-AdGuard VPN 需要 **Android 5.0.0 或以上**的系统版本。
+AdGuard VPN can only be installed on Android devices with **Android 7.0 or later versions**.
 
 ## 如何在安卓设备上安装 AdGuard VPN
 

@@ -100,9 +100,13 @@ Si noti che se Kill Switch è attivo, le *Impostazioni Apps* e *Esclusioni* non 
 
 ### Tema
 
-È possibile scegliere il tema dell'app predefinito del sistema, scuro o chiaro.
+You can choose the system default, system dynamic, dark or light theme of the app.
 
-![Tema *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/theme-light-dark.png)
+![System dynamic theme *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/systemtheme.png)
+
+![Light theme *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/lighttheme.png)
+
+![Dark theme *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/darktheme.png)
 
 ### Impostazioni avanzate
 

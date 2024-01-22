@@ -100,9 +100,13 @@ DNS servers translate websites' names into something browsers can understand, i.
 
 ### 主题
 
-您可以选择系统默认、黑暗或浅色的应用程序模式。
+You can choose the system default, system dynamic, dark or light theme of the app.
 
-![主题 *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/theme-light-dark.png)
+![System dynamic theme *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/systemtheme.png)
+
+![Light theme *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/lighttheme.png)
+
+![Dark theme *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/darktheme.png)
 
 ### 高级设置
 
