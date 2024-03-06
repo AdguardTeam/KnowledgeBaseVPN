@@ -100,9 +100,13 @@ DNS servers translate websites' names into something browsers can understand, i.
 
 ### 테마
 
-앱의 시스템 기본, 다크 및 라이트 테마를 적용할 수 있습니다.
+You can choose the system default, system dynamic, dark or light theme of the app.
 
-![Theme *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/theme-light-dark.png)
+![System dynamic theme *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/systemtheme.png)
+
+![Light theme *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/lighttheme.png)
+
+![Dark theme *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/darktheme.png)
 
 ### 고급 설정
 

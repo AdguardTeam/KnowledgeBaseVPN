@@ -100,9 +100,13 @@ Note that if Kill Switch is on, *Apps settings* and *Exclusions* won’t work.
 
 ### Theme
 
-You can choose the system default, dark or light theme of the app.
+You can choose the system default, system dynamic, dark or light theme of the app.
 
-![Theme *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/theme-light-dark.png)
+![System dynamic theme *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/systemtheme.png)
+
+![Light theme *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/lighttheme.png)
+
+![Dark theme *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/darktheme.png)
 
 ### Advanced settings
 

@@ -19,23 +19,21 @@ Windows için AdGuard VPN'i kullanmaya başlamak için uygulamayı [sitemizden](
 
 ## Ana ekran
 
-![AdGuard VPN for Windows homepage](https://cdn.adguardvpn.com/content/release_notes/vpn/windows/v2.0/new_main_window_en.png)
+![AdGuard VPN for Windows homepage *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/home_en.jpg)
 
-**Ana Ekrandaki** en dikkat çekici öğe, AdGuard VPN bağlan ve bağlantıyı kes düğmesidir. Düğmenin üstünde uygulamanın çalıştığı [modu](#exclusions) ve altında seçilen sunucuyu görebilirsiniz. Ekranın sağ tarafında mevcut tüm konumları bulabilirsiniz. En hızlı konum, yani en düşük ping değerine sahip olan, listenin en üstünde gösterilir.
+The most noticeable item on the **Home screen** is the AdGuard VPN Connect/Disconnect button, below which you can see the selected server. On the right side of the screen you will see a list of available locations. En hızlı konum, yani en düşük ping değerine sahip olan, listenin en üstünde gösterilir. There is also a refresh button that you can click if any locations are offline.
 
-Ekranın üst kısmında dört sekmeli bir gezinme paneli vardır: **Ana Sayfa**, **İstisnalar**, **Destek**, **Ayarlar**.
+At the top of the screen there is a navigation panel with five tabs: **Home**, **Exclusions**, **Stats**. **Support**, and **Settings**.
 
 ## İstisnalar
 
-AdGuard VPN for Windows can operate in two modes. By default, the application works everywhere, and you can list the websites and apps you want to exclude from the tunnel. But you can switch to the opposite mode: AdGuard VPN will only run on the websites and in the apps specified in the list of exclusions. Please note that these two lists are independent from one another.
+By default, AdGuard VPN for WIndows works everywhere. You can add websites and apps you want to exclude from the VPN tunnel to the list of exclusions. Or, you can make AdGuard VPN work only on the websites and apps specified in the list of exclusions. Please note that these two lists are independent of each other.
 
-![İstisnalar](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_en.png)
+![Exclusions *border](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_new_en.png)
 
 Alan adlarını girerek siteleri **el ile** istisnalara ekleyebilirsiniz. Uygulama ayrıca size **listeden** popüler siteleri seçme seçeneği sunar.
 
-![İstisnalar ekle](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_add_en.png)
-
-![Listeden İstisnalar ekle](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_from_list_en.png)
+![Add Exclusions from list *border](https://cdn.adguardvpn.com/content/kb/VPN/windows/new_exclusions_from_list_en.png)
 
 :::note
 
@@ -51,15 +49,23 @@ To export the list of exclusions from AdGuard VPN for Windows to your computer, 
 
 On the destination device, open AdGuard VPN, click *Exclusions*, and select *Websites* or *Apps*. Click *Import exclusions* and select the received archive.
 
+## Stats
+
+![Statistics screen *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/statistics_en.png)
+
+The Statistics screen shows detailed information about your data usage, categorized by both location and app. It highlights your most frequently used locations and applications. You can access statistics for different time periods: daily, monthly, or for the entire time you have been using AdGuard VPN for Windows.
+
+Crucially, all this information is stored exclusively on your device, ensuring that only you can view it. Access to the statistics feature is available only to AdGuard VPN subscribers.
+
 ## Ayarlar
 
-![Ayarlar](https://cdn.adguardvpn.com/content/release_notes/vpn/windows/v2.0/settings_en.png)
+![Settings *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/settings_en.png)
 
-Dördüncü sekme, uygulamayı özelleştirmenize yardımcı olacak bölümler içerir.
+The fourth tab contains sections that will help you customize the app.
 
 ### Uygulama ayarları
 
-![Uygulama ayarları](https://cdn.adguardvpn.com/content/release_notes/vpn/windows/v2.0/app_settings_en.png)
+![App settings *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/app_settings_en.png)
 
 **Uygulama ayarları** bölümünde, uygulama dilini ayarlayabilir ve ayrıca VPN bağlantınız kesilirse internete erişimi engelleyen **Kill Switch** öğesini etkinleştirebilirsiniz. Bu, halka açık bir Wi-Fi veya mobil ağa bağlıyken kendinizi VPN koruması olmadan bulursanız, izinsiz girişlerin verilerinize erişmesini önlemek için gereklidir.
 
@@ -69,7 +75,7 @@ Sayfanın altında iki bölüm vardır: **DNS sunucuları** ve **Gelişmiş ayar
 
 #### DNS sunucuları
 
-**DNS sunucuları** sekmesi, kendi DNS sunucunuzu eklemenizi sağlar. Herhangi bir sağlayıcı tarafından bir DNS sunucusu ayarlayabilirsiniz. Standart işlevlere ek olarak reklam, izleme ve kimlik avına karşı koruma sağlayabilen bir sunucu olan [AdGuard DNS'i](https://adguard-dns.io/kb/general/dns-providers/#adguard-dns) eklemenizi öneririz.
+The **DNS servers** tab allows you to add your own DNS server — manually or from the list. Herhangi bir sağlayıcı tarafından bir DNS sunucusu ayarlayabilirsiniz. Standart işlevlere ek olarak reklam, izleme ve kimlik avına karşı koruma sağlayabilen bir sunucu olan [AdGuard DNS'i](https://adguard-dns.io/kb/general/dns-providers/#adguard-dns) eklemenizi öneririz.
 
 #### Gelişmiş ayarlar
 
@@ -89,11 +95,15 @@ Tüm günlükler cihazınızda yerel olarak depolanır ve gerekirse bunları des
 
 Bu, AdGuard'ın gelişmiş QUIC şifreleme protokolünü kullanmasını sağlayan deneysel bir özelliktir. Birçok avantajı vardır, ancak en dikkate değer olanı, ideal olmayan koşullarda, örneğin mobil internet kullanırken veya halka açık Wi-Fi ağlarına bağlanırken bağlantı kalitesini iyileştirebilmesidir.
 
-### Uygulama istisnaları
+#### Use WinTun
 
-![İstisnalara bir uygulama ekleme](https://cdn.adguardvpn.com/content/release_notes/vpn/windows/v2.0/add_app_en.png)
+![Use WinTun *border](https://cdn.adtidy.org/content/release_notes/vpn/windows/v2.2/stats_tab_v2.2_en.png)
 
-Not only does AdGuard VPN encrypt the traffic of browsers, but also of other apps installed on your device. Belirli uygulamaları tünelden hariç tutmak istiyorsanız, onları **Uygulama istisnaları** listesine koyun.
+WinTun is a traffic routing driver commonly used for VPN implementations on Windows that improves the quality of VPN connections by creating a virtual network adapter. By default AdGuard VPN uses the regular WFP driver (and TDI driver for Windows 7).
+
+#### Subnet exclusions
+
+This feature allows you to add subnets to exclude traffic from specific devices connected to your network. For example, your robot vacuum cleaner.
 
 ## Diğer sekmeler
 

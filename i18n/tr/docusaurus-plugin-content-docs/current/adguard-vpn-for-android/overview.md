@@ -100,9 +100,13 @@ Kill Switch açıksa, *Uygulama ayarları* ve *İstisnaların* çalışmayacağ�
 
 ### Tema
 
-Uygulamanın sistem varsayılanı, koyu veya açık temasını seçebilirsiniz.
+You can choose the system default, system dynamic, dark or light theme of the app.
 
-![Tema *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/theme-light-dark.png)
+![System dynamic theme *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/systemtheme.png)
+
+![Light theme *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/lighttheme.png)
+
+![Dark theme *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/darktheme.png)
 
 ### Gelişmiş ayarlar
 

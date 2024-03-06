@@ -11,9 +11,9 @@ AdGuard VPN 확장 프로그램을 설치하시려면 이 단계를 따르십시
 
 2. 브라우저 아이콘을 클릭한 후 *설치*를 누릅니다.
 
-3. Depending on your browser, one of the websites will open: Chrome Web Store, Firefox Add-ons, Opera addons, or Microsoft Edge Add-ons. Click the respective button: *Add to Chrome*, *Add to Firefox*, *Add to Opera* or *Get* next to AdGuard VPN Browser extension.
+3. 브라우저에 따라 Chrome 웹 스토어, Firefox 추가 기능, Opera 추가 기능 또는 Microsoft Edge 추가 기능 중 하나가 열립니다. AdGuard VPN 확장 프로그램 옆의 *Chrome에 추가*, *Firefox에 추가* 또는 *Opera에 추가* 버튼을 클릭합니다.
 
-4. EULA와 개인정보취급방침을 읽고 확인란에 동의 버튼을 클릭합니다. You can also allow AdGuard VPN to collect anonymous data on the app usage, which we need to improve our product (this is optional). 그리고 * 계속*을 누릅니다.
+4. EULA와 개인정보취급방침을 읽고 확인란에 동의 버튼을 클릭합니다. 또한 AdGuard VPN이 앱 사용에 대한 익명 데이터를 수집하도록 허용할 수 있으며, 이는 제품 개선에 필요합니다(선택 사항입니다). 그리고 * 계속*을 누릅니다.
 
 5. AdGuard 계정에 가입하거나 로그인하여 설치를 완료하세요.
 

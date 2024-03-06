@@ -19,23 +19,21 @@ Per iniziare a utilizzare AdGuard VPN per Windows, scarica l'applicazione dal [n
 
 ## Schermata Home
 
-![Pagina iniziale di AdGuard VPN per Windows](https://cdn.adguardvpn.com/content/release_notes/vpn/windows/v2.0/new_main_window_en.png)
+![AdGuard VPN for Windows homepage *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/home_en.jpg)
 
-L'elemento più evidente sulla **Schermata Home** è il pulsante di connessione/disconnessione di AdGuard VPN. Sopra al pulsante puoi visualizzare la [modalità](#exclusions) di esecuzione dell'applicazione e, sotto di esso, puoi visualizzare il server selezionato. Sul lato destro della schermata trovrai tutte le posizioni disponibili. La posizione più veloce, ossia quella con il ping più basso, è mostrata in cima all'elenco.
+The most noticeable item on the **Home screen** is the AdGuard VPN Connect/Disconnect button, below which you can see the selected server. On the right side of the screen you will see a list of available locations. La posizione più veloce, ossia quella con il ping più basso, è mostrata in cima all'elenco. There is also a refresh button that you can click if any locations are offline.
 
-In cima alla schermata è presente un pannello di navigazione con quattro schede: **Home**, **Esclusioni**, **Supporto**, **Impostazioni**.
+At the top of the screen there is a navigation panel with five tabs: **Home**, **Exclusions**, **Stats**. **Support**, and **Settings**.
 
 ## Esclusioni
 
-AdGuard VPN per Windows può funzionare in due modalità. Di default, l'applicazione funziona ovunque, e puoi elencare i siti web e le app che desideri escludere dal tunnel. Ma puoi passare alla modalità opposta: AdGuard VPN funzionerà soltanto sui siti web e le app specificate nell'elenco delle esclusioni. Ti preghiamo di notare che questi due elenchi sono indipendenti tra loro.
+By default, AdGuard VPN for WIndows works everywhere. You can add websites and apps you want to exclude from the VPN tunnel to the list of exclusions. Or, you can make AdGuard VPN work only on the websites and apps specified in the list of exclusions. Please note that these two lists are independent of each other.
 
-![Esclusioni](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_en.png)
+![Exclusions *border](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_new_en.png)
 
 Puoi aggiungere i siti web alle esclusioni **manualmente**, inserendone i nomi di dominio. L'app, inoltre, ti offre un'opzione per scegliere i siti web popolari **dall'elenco**.
 
-![Aggiungi Esclusioni](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_add_en.png)
-
-![Aggiungi Esclusioni dall'elenco](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_from_list_en.png)
+![Add Exclusions from list *border](https://cdn.adguardvpn.com/content/kb/VPN/windows/new_exclusions_from_list_en.png)
 
 :::note
 
@@ -51,15 +49,23 @@ Per esportare l'elenco delle esclusioni da AdGuard VPN per Windows al tuo comput
 
 Sul dispositivo di destinazione, apri AdGuard VPN, clicca su *Esclusioni* e seleziona *Siti web* o *App*. Clicca su *Importa esclusioni* e seleziona l'archivio ricevuto.
 
+## Stats
+
+![Statistics screen *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/statistics_en.png)
+
+The Statistics screen shows detailed information about your data usage, categorized by both location and app. It highlights your most frequently used locations and applications. You can access statistics for different time periods: daily, monthly, or for the entire time you have been using AdGuard VPN for Windows.
+
+Crucially, all this information is stored exclusively on your device, ensuring that only you can view it. Access to the statistics feature is available only to AdGuard VPN subscribers.
+
 ## Impostazioni
 
-![Impostazioni](https://cdn.adguardvpn.com/content/release_notes/vpn/windows/v2.0/settings_en.png)
+![Settings *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/settings_en.png)
 
-La quarta scheda contiene sezioni che ti aiuteranno a personalizzare l'applicazione.
+The fourth tab contains sections that will help you customize the app.
 
 ### Impostazioni app
 
-![Impostazioni dell'app](https://cdn.adguardvpn.com/content/release_notes/vpn/windows/v2.0/app_settings_en.png)
+![App settings *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/app_settings_en.png)
 
 Nella sezione delle **Impostazioni dell'app**, puoi impostare la lingua dell'app, nonché abilitare il **Kill Switch**, che bloccherà l'accesso a Internet, se la tua connessione VPN si disconnette. Ciò è necessario per impedire che degli intrusi ottengano i tuoi dati, se ti trovi senza la protezione della VPN, quando si è connessi a una rete Wi-Fi pubblica o mobile.
 
@@ -69,7 +75,7 @@ In fondo alla pagina ci sono due sezioni: **Server DNS** e **Impostazioni avanza
 
 #### Server DNS
 
-La scheda **Server DNS** ti consente di aggiungere il tuo server DNS. Puoi configurare un server DNS da qualsiasi fornitore. Consigliamo di aggiungere [AdGuard DNS](https://adguard-dns.io/kb/general/dns-providers/#adguard-dns), un server capace di proteggere da inserzioni, tracciamento e phishing, oltre alle funzionalità standard.
+The **DNS servers** tab allows you to add your own DNS server — manually or from the list. Puoi configurare un server DNS da qualsiasi fornitore. Consigliamo di aggiungere [AdGuard DNS](https://adguard-dns.io/kb/general/dns-providers/#adguard-dns), un server capace di proteggere da inserzioni, tracciamento e phishing, oltre alle funzionalità standard.
 
 #### Impostazioni avanzate
 
@@ -89,11 +95,15 @@ Tutti i registri sono memorizzati localmente sul tuo dispositivo, e puoi inviarl
 
 Questa è una funzionalità sperimentale che consente ad AdGuard di utilizzare il protocollo di crittografia QUIC avanzato. Presenta molti vantaggi, ma il più notevole è che può migliorare la qualità di connessione in condizioni non ideali, ad esempio, utilizzando Internet mobile o connettendosi a reti Wi-Fi pubbliche.
 
-### Esclusioni app
+#### Use WinTun
 
-![Aggiungere un'app alle esclusioni](https://cdn.adguardvpn.com/content/release_notes/vpn/windows/v2.0/add_app_en.png)
+![Use WinTun *border](https://cdn.adtidy.org/content/release_notes/vpn/windows/v2.2/stats_tab_v2.2_en.png)
 
-Non soltanto AdGuard VPN crittografa il traffico dei browser, ma anche di altre app installate sul tuo dispositivo. Se desideri escludere certe applicazioni dal tunnel, inseriscile nell'elenco delle **Esclusioni app**.
+WinTun is a traffic routing driver commonly used for VPN implementations on Windows that improves the quality of VPN connections by creating a virtual network adapter. By default AdGuard VPN uses the regular WFP driver (and TDI driver for Windows 7).
+
+#### Subnet exclusions
+
+This feature allows you to add subnets to exclude traffic from specific devices connected to your network. For example, your robot vacuum cleaner.
 
 ## Altre schede
 

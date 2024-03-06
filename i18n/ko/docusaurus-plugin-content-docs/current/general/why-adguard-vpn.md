@@ -45,7 +45,7 @@ AdGuard VPN의 훌륭한 기능 중 하나는 지연 시간을 기반으로 위�
 
 ## 5. AdGuard 광고 차단기와의 결합
 
-With desktop apps and web browser extensions, there are rarely conflicts between apps, except for antiviruses and other similar types of software.
+바이러스 백신이나 비슷한 유형의 소프트웨어들을 제외한다면 데스크톱 앱과 브라우저 확장 프로그램을 동시에 사용해도 앱 간의 충돌이 일어나는 일은 드뭅니다.
 
 그러나 모바일 기기에서는 간단한 문제가 아닙니다. 대부분의 경우 두 가지의 VPN 기반 앱들은 동시에 작동하지 않습니다. Android와 iOS 모두 이를 막는 제한 사항이 존재합니다.
 
@@ -55,7 +55,7 @@ With desktop apps and web browser extensions, there are rarely conflicts between
 
 ## 6. QUIC 지원
 
-[QUIC](https://adguard-dns.io/en/blog/dns-over-quic.html#whatisquic) is a cutting-edge protocol that has many perks. The main advantage is it can improve the connection quality in non-ideal conditions — for example, on mobile devices or when connecting to public Wi-Fi. Although the new protocol won’t affect speed when the connection is fine and stable, it will definitely make the situation better for users with slow Internet.
+[QUIC](https://adguard-dns.io/en/blog/dns-over-quic.html#whatisquic)은 많은 장점을 지닌 최첨단 프로토콜입니다. 가장 큰 장점은 모바일 장치를 사용할 때나 공용 Wi-Fi에 연결할 때와 같이 이상적이지 않은 조건에서 연결 품질을 향상시킬 수 있다는 것입니다. Although the new protocol won’t affect speed when the connection is fine and stable, it will definitely make the situation better for users with slow Internet.
 
 :::caution
 
@@ -67,11 +67,11 @@ The QUIC protocol is rather new and may be unstable. We cannot guarantee its com
 
 ## 7. 킬 스위치
 
-Kill Switch is essential if you, for instance, often use a mobile network or connect to public Wi-Fi networks in malls, cafes, on the subway or at the airport. For the simple reason that if your VPN suddenly fails and the connection becomes insecure, chances are your sensitive information will be exposed to fraudsters or cyber criminals.
+킬 스위치는 모바일 네트워크를 자주 사용하거나 쇼핑몰, 카페, 지하철 또는 공항에서 공용 Wi-Fi 네트워크에 연결하는 경우에 필수적인 기능입니다. VPN이 갑자기 끊어지고 연결이 불안정해지면 민감한 정보가 사이버 범죄자에게 노출될 수 있기 때문입니다.
 
-If for some reason your VPN connection is interrupted, Kill Switch will automatically disconnect you from the Internet, keeping attackers away from seizing your information.
+어떤 이유로든 VPN 연결이 중단되면 킬 스위치는 자동으로 인터넷 연결을 끊어 공격자가 정보를 탈취하지 못하도록 합니다.
 
-## 8. Auto-protection
+## 8. 자동 보호
 
 This feature has been developed specifically for unsecured networks. If you enable Auto-protection, you won't ever forget to enable VPN when visiting public places. Should you pop into a coffee shop and connect to a local Wi-Fi network, you’ll be automatically connected to AdGuard VPN.
 
@@ -81,7 +81,7 @@ Auto-protection is available in AdGuard VPN for iOS and Android.
 
 :::
 
-## 9. Ten simultaneous connections
+## 9. 10개의 기기에서 동시 연결
 
 With an AdGuard VPN subscription, you can connect up to ten devices *simultaneously*.
 
@@ -97,7 +97,7 @@ But what if you want to feel safe while watching content specific to your region
 
 We don't endorse the use of AdGuard VPN to bypass copyright regulations.
 
-## 11. Dark mode
+## 11. 다크 모드
 
 ![Dark mode *mobile_border](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/main_en_black.png)
 
