@@ -3,18 +3,18 @@ title: Como usar o "Ocultar meu e-mail"
 sidebar_position: 5
 ---
 
-The *Hide My Email* feature is a great tool to keep your real email address private when signing up for websites and apps that use Apple ID. You can even use it for private correspondence and manage all incoming messages just as you would with a regular email account. This way, you can protect your privacy and keep your real email address hidden from prying eyes.
+O recurso *Ocultar meu e-mail* é uma ótima ferramenta para manter seu endereço de e-mail real privado quando se cadastrando para websites e apps que usam o Apple ID. Você pode inclusive usá-lo para correspondências privadas e gerenciar todas suas mensagens, assim como faria com uma conta de e-mail comum. Dessa forma, você pode proteger sua privacidade e manter seu real endereço de e-mail oculto de potenciais golpistas.
 
 :::note
 
-The feature is only available for iOS 15 and higher and requires an iCloud+ subscription.
+O recurso está disponível apenas para iOS 15 ou superior e exige uma assinatura do iCloud+.
 
 :::
 
-To use this feature, go to *Settings* → [Your name] → *iCloud* → *Hide My Email* and follow the on-screen instructions.
+Para usar esse recurso, vá para *Configurações* → [Seu nome] → *iCloud* → *Ocultar meu e-mail* e siga as instruções que aparecerem na tela.
 
-You can generate a unique and random email address that forwards incoming messages to your actual address. It might look like this: chimney-floture@privaterelay.appleid.com. There is no upper limit to the number of email addresses you can create. You can categorize them with labels and use each one for different purposes: signing up, receiving newsletters, etc. Apple ensures that the content of messages handled through the *Hide My Email* service is not inspected beyond standard spam filtering.
+Você pode gerar um endereço de e-mail único e aleatório que encaminha as mensagens para seu endereço de e-mail real. Ele será algo como: chimney-floture@privaterelay.appleid.com. Não há limite máximo para o número de endereços de e-mail que você pode criar. Você pode categorizá-los com rótulos e usá-los para diferentes propósitos: cadastros, receber newsletters, etc. A Apple garante que o conteúdo das mensagens que passam pelo recurso *Ocultar meu e-mail* não passam por inspeção além do filtro padrão de spam.
 
-The *Hide My Email* feature is also available in Apple Mail. To send an email without disclosing your real email address, simply select *Hide My Email* in the *From* field when composing your message.
+O recurso de *Ocultar meu e-mail* também está disponível no Apple Mail. Para enviar um e-mail sem revelar seu endereço de e-mail real, basta selecionar *Ocultar meu e-mail* no campo *De* quando estiver escrevendo sua mensagem.
 
-The *Email Protection* service by DuckDuckGo works similarly. You get an `@duck.com` email address and can create email aliases for sign-ups and newsletters. If these aliases begin to attract too much spam, they can be easily discarded.
+O serviço de *Proteção de e-mail* do DuckDuckGo funciona de maneira parecida. Você recebe um endereço de e-mail `@duck.com` e pode criar alias de e-mail para cadastros e newsletters. Se esses apelidos começarem a atrair muito spam, eles podem ser facilmente descartados.

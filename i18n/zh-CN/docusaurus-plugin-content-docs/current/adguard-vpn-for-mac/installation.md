@@ -9,7 +9,7 @@ sidebar_position: 2
 
 **RAM**： 至少 2GB
 
-**Free disk space**: 120 MB
+**可用磁盘空间**：120MB
 
 ## 如何安装 AdGuard VPN Mac版
 
@@ -40,7 +40,7 @@ AdGuard VPN Mac 版安装成功！
 
 ### 进阶卸载
 
-Sometimes, as a result of incorrect removal or in other rare cases, the standard uninstallation may not be enough. In that case, our support may ask you to perform an advanced uninstall to completely remove AdGuard VPN from your Mac. 为此，请执行以下操作：
+有些时候，由于删除错误或是其他极少数情况，标准卸载可能会卸载不完全。 在这种情况下，我们的支持人员可能会要求您进行高级卸载，以从您的 Mac 中完全删除 AdGuard VPN。 为此，请执行以下操作：
 
 1. 请按照「[标准卸载](#how-to-uninstall-adguard-vpn-for-mac)」部分中描述的步骤进行操作。
 2. 打开「Finder」或「Spotlight」，在搜索中输入 `Keychain`。 ![进阶卸载 输入 Keychain](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-key-chain-en.png)

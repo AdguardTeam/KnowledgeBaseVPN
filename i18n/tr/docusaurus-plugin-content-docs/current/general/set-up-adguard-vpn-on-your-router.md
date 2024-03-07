@@ -1,43 +1,43 @@
 ---
-title: How to set up AdGuard VPN on your router
+title: Yönlendiricinizde AdGuard VPN nasıl kurulur
 sidebar_position: 8
 ---
 
-By setting up AdGuard VPN on your router, you can protect your data on devices where you cannot install VPN apps, such as smart TVs and game consoles.
+Yönlendiricinizde AdGuard VPN'i kurarak, akıllı TV'ler ve oyun konsolları gibi VPN uygulamalarını yükleyemediğiniz cihazlarda verilerinizi koruyabilirsiniz.
 
 :::note
 
-This option is only available if you have an AdGuard VPN subscription and your router supports IPsec.
+Bu seçenek yalnızca bir AdGuard VPN aboneliğiniz varsa ve yönlendiriciniz IPsec'i destekliyorsa kullanılabilir.
 
 :::
 
-## How to set up AdGuard VPN on your router
+## Yönlendiricinizde AdGuard VPN nasıl kurulur
 
-1. In your [AdGuard account](https://auth.adguard.com/login.html), select AdGuard VPN.
+1. [AdGuard hesabınızda](https://auth.adguard.com/login.html), AdGuard VPN'i seçin.
 
-2. Under _Devices_, click _Add router_.
+2. _Aygıtlar_ altında, _Yönlendirici ekle_ öğesine tıklayın.
 
-   ![Add router \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/2_year.jpg)
+   ![Yönlendirici ekle \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/2_year.jpg)
 
-3. Select the desired VPN server location and generate credentials.
+3. İstediğiniz VPN sunucusu konumunu seçin ve kimlik bilgileri oluşturun.
 
-   ![Generate credentials \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/configure_router.png)
+   ![Kimlik bilgileri oluştur \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/configure_router.png)
 
    :::note
 
-   The next steps may vary depending on your router. We have used the Keenetic router as an example.
+   Sonraki adımlar yönlendiricinize bağlı olarak değişebilir. Örnek olarak Keenetic yönlendiriciyi kullandık.
 
    :::
 
-4. In your admin page, go to the router settings.
+4. Yönetici sayfanızda, yönlendirici ayarlarına gidin.
 
-5. Enable _VPN Client_ and click _Add VPN server_.
+5. _VPN İstemcisi_ öğesini etkinleştirin ve _VPN sunucusu ekle_ öğesine tıklayın.
 
 6. IPsec istemcisini seçin (buna IKE adı verilebilir; L2TP/IPsec değil).
 
 7. 3. adımda oluşturduğunuz kimlik bilgilerini girin.
 
-   ![Enter the credentials \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/vpn_connection.jpg)
+   ![Kimlik bilgilerini gir \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/vpn_connection.jpg)
 
 8. Cihazları yönlendiricinize bağlayın.
 

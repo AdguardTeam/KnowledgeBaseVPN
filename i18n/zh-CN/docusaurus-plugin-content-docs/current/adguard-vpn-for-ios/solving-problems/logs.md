@@ -3,7 +3,7 @@ title: 如何收集和发送日志记录
 sidebar_position: 2
 ---
 
-If you encounter any problems while using AdGuard VPN for iOS, you can inform us about it by sending the app logs.
+如果您在使用 AdGuard VPN iOS 版时遇到问题，可以发送应用程序日志通知我们。
 
 ## 收集和发送标准日志
 

@@ -16,11 +16,11 @@ Há duas maneiras de resolver o problema:
     - Abra o aplicativo **Configurações** em seu telefone;
     - Vá para a seção **Sistema** (último item no menu de configurações). Nesta seção, encontre o subitem **Sobre o telefone**;
     - Clique na linha **Número de build** 7 vezes. Depois disso, você receberá uma notificação de que **Você agora é um desenvolvedor** (Se necessário, insira um código de desbloqueio para o dispositivo);
-    - Open **System Settings** → **Developer Options** → Scroll down and enable **USB debugging** → Confirm debugging is enabled in the window **Allow USB debugging** after reading the warning carefully.
+    - Abra **Configurações do sistema** → **Opções do desenvolvedor** → Role para baixo e habilite **Depuração USB** → Confirme se a depuração está habilitada na janela **Permitir depuração USB** depois de ler o aviso com atenção.
 
     :::note
 
-    If you have any difficulties or additional questions, full instructions can be found [here](https://developer.android.com/studio/debug/dev-options).
+    Se você tiver alguma dificuldade ou dúvida adicional, instruções completas podem ser encontradas [aqui](https://developer.android.com/studio/debug/dev-options).
 
     :::
 
@@ -28,13 +28,13 @@ Há duas maneiras de resolver o problema:
 
     :::note
 
-    On the Windows platform, **Samsung** owners may need to install [this utility](https://developer.samsung.com/mobile/android-usb-driver.html).
+    Na plataforma Windows, os donos de dispositivos **Samsung** podem precisar instalar [este utilitário](https://developer.samsung.com/mobile/android-usb-driver.html).
 
     :::
 
 1. Conecte seu dispositivo usando um cabo **USB** ao computador ou laptop no qual você instalou **ADB**;
 
-1. Open **the command line** on your PC:
+1. Abra **o prompt de comando** no seu PC:
 
     - **Cmd.exe** se estiver usando **Windows**;
     - **Terminal** se estiver usando **macOS**;
@@ -47,7 +47,7 @@ Você pode [encontrar aqui](https://support.google.com/a/answer/6223444?hl=en) c
 
 :::note
 
-In some cases restricted user accounts are created implicitly and cannot be removed. For instance, when you use Dual Messenger or Dual App features on **Samsung** or **LG** devices. Read below how to fix the issue in these cases.
+Em alguns casos, contas de usuários restritas são criadas implicitamente e não podem ser removidas. Por exemplo, quando você usa os recursos Dual Messenger ou Dual App em **dispositivos Samsung** ou **LG**. Leia abaixo como corrigir o problema nesses casos.
 
 :::
 
@@ -60,7 +60,7 @@ Os proprietários de telefones **LG** ou **Samsung** também podem encontrar um 
 - Abra **Configurações**;
 - Pressione **Avançado**;
 - Role para baixo e pressione **Dual Messenger**;
-- Disable the **Dual Messenger** for all apps;
+- Desative o **Dual Messenger** para todos os aplicativos;
 - Bloqueie o dispositivo por 5 minutos;
 - Desbloqueie a tela e tente novamente criar o perfil VPN.
 
@@ -69,5 +69,5 @@ Os proprietários de telefones **LG** ou **Samsung** também podem encontrar um 
 - Abra **Configurações**;
 - Escolha a guia **Geral**;
 - Role para baixo e pressione **Dual App**;
-- Remove all apps from the list;
+- Remova todos os aplicativos da lista;
 - Reinicie seu dispositivo.

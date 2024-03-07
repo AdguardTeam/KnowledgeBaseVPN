@@ -100,7 +100,7 @@ Všimněte si, že pokud je funkce Kill Switch zapnutá, *Nastavení aplikací* 
 
 ### Motiv
 
-You can choose the system default, system dynamic, dark or light theme of the app.
+Můžete si vybrat systémový, dynamický, tmavý nebo světlý motiv aplikace.
 
 ![System dynamic theme *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/systemtheme.png)
 

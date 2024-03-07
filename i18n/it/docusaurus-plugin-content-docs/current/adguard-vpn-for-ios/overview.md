@@ -42,7 +42,7 @@ Un'altra caratteristica utile è l'Importazione/Esportazione degli elenchi di es
 
 4. Aprire AdGuard VPN sul dispositivo in cui si desidera importare l'archivio con gli elenchi di esclusioni già creati. Trovare la sezione appropriata, clicca sul pulsante *Importa* e seleziona l'archivio.
 
-![Esclusioni di importazione/esportazione *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/import-export-exclusions.png)
+![Importazione/esportazione delle esclusioni *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/import-export-exclusions.png)
 
 ## Impostazioni app
 
@@ -53,15 +53,15 @@ Per accedere alle impostazioni dell'app:
 
 Qui puoi configurare AdGuard VPN per iOS in base alle tue esigenze utilizzando diverse opzioni: Modalità operativa, server DNS, protezione automatica Wi-Fi, Tema colore e Impostazioni avanzate.
 
-![Impostazioni dell'App *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/app-settings.png)
+![Impostazioni dell'app *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/app-settings.png)
 
 ### Modalità operativa
 
 AdGuard VPN per iOS può funzionare in due modalità: **Generale** e **Integrata**.
 
-In modalità **Generale**, viene utilizzato il protocollo [AdGuard VPN](/general/adguard-vpn-protocol), che fornisce la migliore combinazione di velocità e sicurezza. In questa modalità, AdGuard VPN non potrà funzionare insieme ad [AdGuard Ad Blocker per iOS](https://adguard.com/kb/adguard-for-ios/overview/).
+In modalità **Generale**, viene utilizzato il [protocollo AdGuard VPN](/general/adguard-vpn-protocol), che fornisce la migliore combinazione di velocità e sicurezza. In questa modalità, AdGuard VPN non potrà funzionare insieme ad [AdGuard Ad Blocker per iOS](https://adguard.com/kb/adguard-for-ios/overview/).
 
-In modalità **Integrata**, AdGuard VPn potrà funzionare contemporaneamente con AdGuard Ad Blocker per iOS, utilizzando invece il protocollo IPSec. Anche questo protocollo è sicuro, ma un po' più lento e più facile da rilevare. Non è necessario eseguire alcuna azione aggiuntiva per configurare l'integrazione: è sufficiente installare entrambe le app e passare a questa modalità.
+In modalità **Integrata**, AdGuard VPN potrà funzionare contemporaneamente con il Blocco AdGuard per iOS, utilizzando invece il protocollo IPSec. Anche questo protocollo è sicuro, ma un po' più lento e più facile da rilevare. Non è necessario eseguire alcuna azione aggiuntiva per configurare l'integrazione: è sufficiente installare entrambe le app e passare a questa modalità.
 
 :::note
 
@@ -71,7 +71,7 @@ In modalità **Integrata**, non puoi utilizzare la funzionalità Esclusioni, o s
 
 ### Server DNS
 
-I server DNS traducono un nome di dominio o del host (es., example.com o www.example.com), in qualcosa che i browser possano comprendere, cioé, gli indirizzi IP. AdGuard VPN per iOS offre una scelta tra svariati server DNS, ognuno con le proprie qualità speciali. Ad esempio, AdGuard DNS rimuove gli annunci e protegge il tuo dispositivo dal tracciamento, mentre AdGuard DNS Protezione Famiglia combina la funzione di AdGuard DNS con Ricerca sicura e il blocco dei contenuti per adulti. I server DNS da fornitori DNS differenti potrebbero anche essere più o meno veloci a seconda della tua posizione, ISP e altri fattori. Scegli quello che funziona meglio per te. Puoi [scoprire di più sul DNS](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns) e le sue caratteristiche.
+I server DNS traducono un nome di dominio o del host (es., example.com o www.example.com), in qualcosa che i browser possano comprendere, cioè, gli indirizzi IP. AdGuard VPN per iOS offre una scelta tra svariati server DNS, ognuno con le proprie qualità speciali. Ad esempio, AdGuard DNS rimuove gli annunci e protegge il tuo dispositivo dal tracciamento, mentre AdGuard DNS Protezione Famiglia combina la funzione di AdGuard DNS con Ricerca sicura e il blocco dei contenuti per adulti. I server DNS da fornitori DNS differenti potrebbero anche essere più o meno veloci a seconda della tua posizione, ISP e altri fattori. Scegli quello che funziona meglio per te. Puoi [scoprire di più sul DNS](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns) e le sue caratteristiche.
 
 ![Schermata del server DNS *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/dns-server.png)
 

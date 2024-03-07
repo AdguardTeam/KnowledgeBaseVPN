@@ -1,20 +1,20 @@
 ---
-title: How to use Hide My Email
+title: 내 이메일 숨기기 사용 방법
 sidebar_position: 5
 ---
 
-The *Hide My Email* feature is a great tool to keep your real email address private when signing up for websites and apps that use Apple ID. You can even use it for private correspondence and manage all incoming messages just as you would with a regular email account. This way, you can protect your privacy and keep your real email address hidden from prying eyes.
+*내 이메일 숨기기* 기능은 Apple ID를 사용하는 웹사이트 및 앱에 가입할 때 실제 이메일 주소를 비공개로 유지할 수 있는 훌륭한 도구입니다. 일반 이메일 계정과 마찬가지로 비공개 서신에도 사용할 수 있으며 수신되는 모든 메시지를 관리할 수 있습니다. 이렇게 하면 개인정보가 보호되고 실제 이메일 주소가 숨겨집니다.
 
 :::note
 
-The feature is only available for iOS 15 and higher and requires an iCloud+ subscription.
+이 기능은 iOS 15 이상에서만 사용할 수 있으며 iCloud+ 구독이 필요합니다.
 
 :::
 
-To use this feature, go to *Settings* → [Your name] → *iCloud* → *Hide My Email* and follow the on-screen instructions.
+이 기능을 사용하려면 *설정* → [사용자 이름] → *iCloud* → *내 이메일 숨기기*로 이동하여 화면의 안내를 따르세요.
 
-You can generate a unique and random email address that forwards incoming messages to your actual address. It might look like this: chimney-floture@privaterelay.appleid.com. There is no upper limit to the number of email addresses you can create. You can categorize them with labels and use each one for different purposes: signing up, receiving newsletters, etc. Apple ensures that the content of messages handled through the *Hide My Email* service is not inspected beyond standard spam filtering.
+수신 메시지를 실제 주소로 전달할 수 있는 고유한 임의의 이메일 주소를 생성할 수 있습니다. 이 이메일 주소는 chimney-floture@privaterelay.appleid.com 처럼 보일 수 있습니다. 만들 수 있는 이메일 주소 수에는 제한이 없습니다. 레이블로 분류하고 구독, 뉴스레터 수신 등 각 레이블을 다른 용도로 사용할 수 있습니다. Apple은 *내 이메일 숨기기* 서비스를 통해 처리되는 메시지의 내용이 표준 스팸 필터링 이상으로 검사되지 않도록 보장합니다.
 
-The *Hide My Email* feature is also available in Apple Mail. To send an email without disclosing your real email address, simply select *Hide My Email* in the *From* field when composing your message.
+*내 이메일 숨기기* 기능은 Apple Mail에서도 사용할 수 있습니다. 실제 이메일 주소를 공개하지 않고 이메일을 보내려면 메시지를 작성할 때 *보낸 사람* 필드에서 *내 이메일 숨기기*를 선택하면 됩니다.
 
-The *Email Protection* service by DuckDuckGo works similarly. You get an `@duck.com` email address and can create email aliases for sign-ups and newsletters. If these aliases begin to attract too much spam, they can be easily discarded.
+DuckDuckGo의 *Email Protection* 서비스도 비슷한 방식으로 작동합니다. `@duck.com` 이메일 주소가 부여되며 이메일 별칭을 생성하여 사이트에 등록하고 뉴스레터를 구독할 수 있습니다. 이러한 별칭이 스팸을 너무 많이 받기 시작하면 쉽게 삭제할 수 있습니다.

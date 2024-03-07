@@ -3,7 +3,7 @@ title: Como coletar e enviar logs
 sidebar_position: 2
 ---
 
-If you encounter any problem while using AdGuard VPN for Android, you can inform us about it by sending the app logs.
+Se você encontrar algum problema ao usar o AdGuard VPN para Android, poderá nos informar enviando os registros do aplicativo.
 
 ## Coletando e enviando logs padrão
 
@@ -15,7 +15,7 @@ Por padrão, o AdGuard VPN para Android usa o nível de registro **Padrão**, ou
 
 3. No formulário aberto, insira seu endereço de e-mail para contato e descreva o erro encontrado, incluindo a hora em que o erro ocorreu. Se você não conseguir reproduzir o problema, especifique com a maior precisão possível quando ocorreu pela última vez.
 
-4. There is a check mark next to **Send app logs and system info**, which means that when you send a report, you also send logs.
+4. Há uma marca de seleção ao lado de **Enviar logs de aplicativos e informações do sistema**, o que significa que, ao enviar um relatório, você também envia logs.
 > Se por algum motivo for mais conveniente para você nos enviar os logs de outra maneira, você mesmo poderá exportá-los. Para fazer isso, vá para **Configurações** → **Suporte** → **Exportar logs e informações do sistema**.
 
 ## Coletando e enviando logs padrão
@@ -34,5 +34,5 @@ Na maioria dos casos, o nível do registro **Padrão** é suficiente para rastre
 
 6. No formulário aberto, insira seu endereço de e-mail para contato e descreva o erro encontrado, incluindo a hora em que o erro ocorreu.
 
-7. Make sure that there is a check mark next to **Send app logs and system info** and tap **Send**.
+7. Certifique-se de que haja uma marca de seleção ao lado de **Enviar registros de aplicativos e informações do sistema** e toque em **Enviar**.
 > Se por algum motivo for mais conveniente para você nos enviar os logs de outra maneira, você mesmo poderá exportá-los. Para fazer isso, vá para **Configurações** → **Suporte** → **Exportar logs e informações do sistema**.

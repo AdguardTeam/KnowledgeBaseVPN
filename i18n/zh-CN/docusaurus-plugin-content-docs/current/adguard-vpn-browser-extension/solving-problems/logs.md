@@ -10,7 +10,7 @@ sidebar_position: 1
 1. 打开 AdGuard VPN 浏览器扩展，请您尽可能复现导致错误的操作。 请记下发生此错误的确切时间。
 1. 单击汉堡菜单图标（☰），打开*「设置」*→*「支持」*→*「报告错误」*。
 1. 在打开的表单中，留下自动填充的电子邮件地址或输入另一个电子邮件地址，描述您发现的错误，包括发生此错误的时间。 如果您无法复现问题，请尽可能准确地指出上次发生问题的时间。
-1. Make sure that there is a check mark next to *Include the diagnostic report in the message* and tap *Submit*. 这样，您将随错误报告一起发送日志。
+1. 确保勾选*「在信息中包含诊断报告」*旁边的复选框，然后点击*「提交」*。 这样，您将随错误报告一起发送日志。
 
 ## 通过*「导出日志」*按钮收集和发送日志
 
@@ -67,7 +67,7 @@ sidebar_position: 1
 
     ![控制台 *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/ff_console.png)
 
-1. Click *Save all Messages to File*
+1. 单击 *「将所有信息保存到文件」*
 
     ![保存 *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/save-to-file.png)
 

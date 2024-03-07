@@ -28,7 +28,7 @@ Sorunu çözmek için iki yolunuz var:
 
     :::note
 
-    On the Windows platform, **Samsung** owners may need to install [this utility](https://developer.samsung.com/mobile/android-usb-driver.html).
+    Windows platformunda, **Samsung** sahiplerinin [bu yardımcı programı](https://developer.samsung.com/mobile/android-usb-driver.html) yüklemeleri gerekebilir.
 
     :::
 
@@ -47,7 +47,7 @@ Bir Android cihazdan kullanıcı hesaplarını nasıl yöneteceğinizi [burada b
 
 :::note
 
-In some cases restricted user accounts are created implicitly and cannot be removed. Örneğin, **Samsung** veya **LG** cihazlarında Dual Messenger veya Dual App özelliklerini kullandığınızda. Bu durumlarda sorunun nasıl çözüleceğini aşağıda okuyun.
+Bazı durumlarda kısıtlanmış kullanıcı hesapları dolaylı olarak oluşturulur ve kaldırılamaz. Örneğin, **Samsung** veya **LG** cihazlarında Dual Messenger veya Dual App özelliklerini kullandığınızda. Bu durumlarda sorunun nasıl çözüleceğini aşağıda okuyun.
 
 :::
 

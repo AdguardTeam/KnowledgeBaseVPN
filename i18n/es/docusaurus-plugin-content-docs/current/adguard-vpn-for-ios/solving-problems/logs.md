@@ -3,7 +3,7 @@ title: Cómo recopilar y enviar registros
 sidebar_position: 2
 ---
 
-If you encounter any problems while using AdGuard VPN for iOS, you can inform us about it by sending the app logs.
+Si encuentras algún problema al utilizar AdGuard VPN para iOS, puedes informarnos enviando los registros de la aplicación.
 
 ## Recopilación y envío de registros estándar
 

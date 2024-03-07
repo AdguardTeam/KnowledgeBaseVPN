@@ -20,7 +20,7 @@ sidebar_position: 4
 
     :::note
 
-    If you have any difficulties or additional questions, full instructions can be found [here](https://developer.android.com/studio/debug/dev-options).
+    Если у вас возникнут трудности или дополнительные вопросы, полные инструкции можно найти [здесь](https://developer.android.com/studio/debug/dev-options).
 
     :::
 
@@ -28,7 +28,7 @@ sidebar_position: 4
 
     :::note
 
-    On the Windows platform, **Samsung** owners may need to install [this utility](https://developer.samsung.com/mobile/android-usb-driver.html).
+    Владельцам **Samsung-устройств**, работающих на платформе Windows, может потребоваться установить [эту утилиту](https://developer.samsung.com/mobile/android-usb-driver.html).
 
     :::
 

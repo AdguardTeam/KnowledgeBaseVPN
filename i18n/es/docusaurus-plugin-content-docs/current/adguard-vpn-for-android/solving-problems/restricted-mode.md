@@ -18,7 +18,7 @@ Tienes dos maneras de resolver el problema:
     - Haz clic en **Número de build** 7 veces. Después de eso, recibirás una notificación que dice **Ahora eres un desarrollador** (Si es necesario, introduce un código de desbloqueo para el dispositivo);
     - Abre **Configuración del sistema** → **Opciones de desarrollador** → Desliza hacia abajo y activa **Depuración USB** → Confirma que la depuración está habilitada en la ventana **Permitir depuración USB** después de leer la advertencia cuidadosamente.
 
-    :::nota
+    :::note
 
     Si encuentras alguna dificultad o tienes preguntas adicionales, puedes encontrar instrucciones completas [aquí](https://developer.android.com/studio/debug/dev-options).
 
@@ -26,7 +26,7 @@ Tienes dos maneras de resolver el problema:
 
 1. [Instalar y configurar](https://www.xda-developers.com/install-adb-windows-macos-linux/) ADB;
 
-    :::nota
+    :::note
 
     En la plataforma Windows, los propietarios de dispositivos **Samsung** pueden necesitar instalar [esta utilidad](https://developer.samsung.com/mobile/android-usb-driver.html).
 
@@ -34,7 +34,7 @@ Tienes dos maneras de resolver el problema:
 
 1. Conecte su dispositivo usando un cable **USB** a la computadora o portátil en la que instaló **ADB**;
 
-1. Abre **la línea de comando** en su PC:
+1. Abre **la línea de comando** en tu PC:
 
     - **Cmd.exe** si está utilizando **Windows**;
     - **Terminal** si está utilizando **macOS**;
@@ -45,7 +45,7 @@ Tienes dos maneras de resolver el problema:
 
 Puede [encontrar aquí](https://support.google.com/a/answer/6223444?hl=en) cómo administrar cuentas de usuario desde un dispositivo Android.
 
-:::nota
+:::note
 
 En algunos casos, se crean cuentas de usuario restringidas de forma implícita y no se pueden eliminar. Por ejemplo, cuando se utilizan las funciones Dual Messenger o Dual App en los dispositivos **Samsung** o **LG**. Lee a continuación cómo solucionar el problema en estos casos.
 
@@ -69,5 +69,5 @@ Los propietarios de los teléfonos **LG** o **Samsung** también pueden encontra
 - Abra **Сonfiguración**;
 - Elija la pestaña **General** ;
 - Desplácese hacia abajo y pulse **Dual App**;
-- Eliminar todas las aplicaciones de la lista;
+- Elimina todas las aplicaciones de la lista;
 - Reinicie su dispositivo.

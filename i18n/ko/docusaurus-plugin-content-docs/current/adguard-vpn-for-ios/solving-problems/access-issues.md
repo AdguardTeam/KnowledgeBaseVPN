@@ -1,18 +1,18 @@
 ---
-title: Usage issues with subscriptions purchased via the App Store
+title: App Store를 통해 구매한 구독 관련 문제
 sidebar_position: 4
 ---
 
-Some users can't use their AdGuard VPN subscription purchased through the App Store. This issue may occur in two cases:
+일부 사용자는 App Store를 통해 구매한 AdGuard VPN 구독을 사용할 수 없습니다. 이 문제는 두 가지 경우에 발생할 수 있습니다:
 
-- if you use a different account for App Store purchases
-- or if you have hidden your email address from app developers
+- App Store 구매에 다른 계정을 사용하는 경우
+- 앱 개발자에게 이메일 주소를 숨긴 경우
 
-To solve this problem, please follow these steps:
+이 문제를 해결하려면 다음 단계를 따르세요.
 
-1. Go to Settings → Apple ID → Media & Purchases → View Apple ID
-1. Make sure that the email address matches the one you use for your Apple ID
-1. If the email addresses do not match, please email to `support@adguard.com`: describe your problem and provide us with the address used for the App Store
-1. If the email addresses match, navigate to Apple ID → iCloud → Hide My Email, find our app in the list, copy the email address, and send it to `support@adguard.com` along with your problem description. Usually, it ends with "@privaterelay.appleid.com"
+1. 설정 → Apple ID → 미디어 & 구매 → Apple ID 보기로 이동합니다.
+1. 이메일 주소가 Apple ID에 사용하는 이메일 주소와 일치하는지 확인하세요.
+1. 이메일 주소가 일치하지 않는 경우, `support@adguard.com`으로 문의하시기 바랍니다. 문제를 설명하고 App Store에 사용된 주소를 알려주세요.
+1. 이메일 주소가 일치하는 경우, Apple ID → iCloud → 내 이메일 숨기기로 이동하여 목록에서 AdGuard 앱을 찾아 이메일 주소를 복사한 후 `support@adguard.com`으로 보내세요. 그리고 문제를 설명해 주세요 . 일반적으로 '@privaterelay.appleid.com'으로 끝납니다.
 
-Once the support team has the email address you used for the purchase, they'll transfer your subscription to the correct account and you'll be able to start using it. Or they may ask for additional information. You can provide the support team with your Apple purchase receipt to help speed up the process.
+지원 팀에서 구매 시 사용한 이메일 주소를 확인하면 구독을 올바른 계정으로 이전하고 사용을 시작할 수 있습니다. 또는 추가 정보를 요청할 수도 있습니다. 지원 팀에 Apple 구매 영수증을 제공하면 처리 시간을 단축할 수 있습니다.

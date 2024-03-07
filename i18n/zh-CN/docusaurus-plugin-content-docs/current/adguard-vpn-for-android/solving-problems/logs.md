@@ -3,7 +3,7 @@ title: 如何收集和发送日志记录
 sidebar_position: 2
 ---
 
-If you encounter any problem while using AdGuard VPN for Android, you can inform us about it by sending the app logs.
+如果您在使用 AdGuard VPN 安卓版时遇到问题，可以通过发送应用程序日志通知我们。
 
 ## 收集和发送标准日志
 
@@ -15,7 +15,7 @@ If you encounter any problem while using AdGuard VPN for Android, you can inform
 
 3. 在打开的表单中，输入您的电子邮件地址以获取反馈，然后描述发现的错误，包括该错误发生的时间。 如果您无法重复问题，请尽可能准确地指明上次发生的时间。
 
-4. There is a check mark next to **Send app logs and system info**, which means that when you send a report, you also send logs.
+4. 勾选「**发送应用日志和系统信息**」旁边的复选框，您会在发送报告时一同发送日志。
 > 如果出于某种原因，您以其他方式向我们发送日志更方便，您可以自己导出它们。 要做到这一点，请进入「**设置**」→「**支持**」→「**导出日志和系统信息**」。
 
 ## 收集和发送进阶日志
@@ -34,5 +34,5 @@ If you encounter any problem while using AdGuard VPN for Android, you can inform
 
 6. 在打开的表单中，输入您的电子邮件地址以获取反馈，然后描述发现的错误，包括该错误发生的时间。
 
-7. Make sure that there is a check mark next to **Send app logs and system info** and tap **Send**.
+7. 确保勾选上「**发送应用日志和系统信息**」旁边的复选框，然后点击「**发送**」。
 > 如果出于某种原因，您以其他方式向我们发送日志更方便，您可以自己导出它们。 要做到这一点，请进入「**设置**」→「**支持**」→「**导出日志和系统信息**」。

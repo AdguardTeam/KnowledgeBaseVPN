@@ -13,7 +13,7 @@ Başka bir deyişle, bir siteyi her açtığınızda, tarayıcınız İSS'nin DN
 
 ## DNS sızıntıları nasıl tespit edilir
 
-DNS sızıntılarını tespit etmek için `whoer.net` gibi her türlü anonimlik kontrol hizmeti vardır. The algorithms of these websites are not clear, but their intentions are — to scare users with imaginary leaks, potentially enabling them to sell their services.
+DNS sızıntılarını tespit etmek için `whoer.net` gibi her türlü anonimlik kontrol hizmeti vardır. Bu sitelerin algoritmaları net değil, ancak niyetleri kullanıcıları hayali sızıntılarla korkutmak ve potansiyel olarak hizmetlerini satmalarını sağlamak.
 
 Bazı güvenlik tarama web siteleri, kullanıcının IP adresi ile DNS sunucusunun IP adresinin çakışmasını "iyi" bir sonuç olarak kabul eder ve bu da herhangi bir sızıntı olmadığını gösterir. Gerçekte, böyle bir eşleşme bir VPN kullanımına işaret edebilir. VPN devre dışı bırakıldığında ve istekler İSS'nizin DNS sunucusuna gittiğinde, DNS sunucusunun IP adresi ile sizinkinin IP adresi çakışmaz.
 

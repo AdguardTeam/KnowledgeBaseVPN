@@ -5,16 +5,16 @@ sidebar_position: 1
 
 ## iOS için AdGuard VPN nedir?
 
-VPN, İnternet üzerindeki başka bir ağa güvenli bir bağlantı oluşturmanızı sağlar. It connects a user's computer or mobile device to a server and allows one to browse the net using a "cover" IP address. VPN sunucusu başka bir ülkede bulunuyorsa, internet bağlantısı bu ülkeden kurulmuş gibi görünür. Bir VPN'nin nasıl çalıştığı hakkında [daha fazla bilgi edinin](/general/how-vpn-works).
+VPN, İnternet üzerindeki başka bir ağa güvenli bir bağlantı oluşturmanızı sağlar. Bir kullanıcının bilgisayarını veya mobil cihazını bir sunucuya bağlar ve kişinin "gizli" bir IP adresi kullanarak internette gezinmesine olanak tanır. VPN sunucusu başka bir ülkede bulunuyorsa, internet bağlantısı bu ülkeden kurulmuş gibi görünür. Bir VPN'nin nasıl çalıştığı hakkında [daha fazla bilgi edinin](/general/how-vpn-works).
 
 AdGuard VPN'in çeşitli işlevleri vardır:
 
 - gerçek yerinizi gizler ve anonim kalmanıza yardımcı olur
 - verilerinizi izlemekten korumak için IP adresinizi değiştirir
-- encrypts your traffic and makes contents inaccessible to scammers
+- trafiğinizi şifreler ve içeriği dolandırıcılar için erişilemez hâle getirir
 - VPN'nin nerede kullanılacağını ve nerede kullanılmayacağını yapılandırmanıza olanak tanır (istisnalar özelliği)
 
-iOS için AdGuard VPN'in bir sonraki avantajı, kendi VPN protokolümüzdür. Diğer VPN protokollerine kıyasla tespit edilmesi son derece zordur ve zayıf bir internet bağlantısında bile kararlıdır. You can [read more](/general/adguard-vpn-protocol) about the AdGuard VPN protocol.
+iOS için AdGuard VPN'in bir sonraki avantajı, kendi VPN protokolümüzdür. Diğer VPN protokollerine kıyasla tespit edilmesi son derece zordur ve zayıf bir internet bağlantısında bile kararlıdır. AdGuard VPN protokolü hakkında daha fazlasını [](/general/adguard-vpn-protocol) adresinden okuyabilirsiniz.
 
 ## iOS için AdGuard VPN nasıl kullanılır
 
@@ -22,13 +22,13 @@ iOS için AdGuard VPN'i kullanmak için önce [AdGuard hesabınıza](https://my.
 
 Henüz bir AdGuard hesabınız yoksa, önce hesap oluşturmanız gerekir.
 
-AdGuard VPN'i kullanmak oldukça kolaydır. Ana ekranda *Bağlan ve Bağlantıyı kes* düğmesini ve kullanılabilir sunucuların listesini görebilirsiniz. Sunucuların kendi konumları (belirli bir ülke ve şehir) ve ping göstergesi vardır. Ping, sunucunun yanıt süresini (milisaniye cinsinden) gösterir. Ping süresi 22 ms olan sunucunun seçilmesi, bu sunucuya gönderilen bir veri paketinin 22 ms sonra geri döneceği (tekrar alınacağı) anlamına gelir. AdGuard VPN'de onlarca ülkede 50'den fazla konum arasından seçim yapabilirsiniz.
+AdGuard VPN'i kullanmak oldukça kolaydır. Ana ekranda *Bağlan veya Bağlantıyı kes* düğmesini ve kullanılabilir sunucuların listesini görebilirsiniz. Sunucuların kendi konumları (belirli bir ülke ve şehir) ve ping göstergesi vardır. Ping, sunucunun yanıt süresini (milisaniye cinsinden) gösterir. Ping süresi 22 ms olan sunucunun seçilmesi, bu sunucuya gönderilen bir veri paketinin 22 ms sonra geri döneceği (tekrar alınacağı) anlamına gelir. AdGuard VPN'de onlarca ülkede 50'den fazla konum arasından seçim yapabilirsiniz.
 
 ![Ana ekran ve konumlar *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/1.png?123)
 
 ## İstisnaların listesi
 
-Aşağıdaki orta düğmeye dokunarak İstisnaları bulabilirsiniz. There you will see two exclusion lists, for General and Selective modes. In General mode, the VPN works for all websites except the excluded ones. Conversely, in Selective mode, the VPN only works for websites from the list. You can add domains (e.g. `google.com`) or subdomains (e.g. `*.google.com`) of websites in two ways: you can enter them manually in the app or directly from the browser by sharing the desired pages with AdGuard VPN.
+Aşağıdaki orta düğmeye dokunarak İstisnaları bulabilirsiniz. Burada Genel ve Seçici modlar için iki istisna listeleri göreceksiniz. Genel modda VPN, hariç tutulanlar hariç tüm siteler için çalışır. Tam tersine, Seçici modda VPN yalnızca listedeki siteler için çalışır. Sitelerinin alan adlarını (örn. `google.com`) veya alt alan adlarını (örn. `*.google.com`) iki şekilde ekleyebilirsiniz: bunları uygulamaya elle veya istenen sayfaları AdGuard VPN ile paylaşarak doğrudan tarayıcıdan girebilirsiniz.
 
 ![İstisnalar *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.png?123)
 
@@ -61,46 +61,46 @@ iOS için AdGuard VPN iki modda çalışabilir: **Genel** ve **Entegre**.
 
 **Genel** modda, hız ve güvenliğin en iyi kombinasyonunu sağlayan [AdGuard VPN protokolü](/general/adguard-vpn-protocol) kullanılır. Bu modda, AdGuard VPN, [iOS için AdGuard Reklam Engelleyici](https://adguard.com/kb/adguard-for-ios/overview/) ile birlikte çalışamaz.
 
-In **Integrated** mode, AdGuard VPN will be able to work at the same time with AdGuard Ad Blocker for iOS by using the IPSec protocol instead. Bu protokol de güvenlidir, ancak biraz daha yavaş ve tespit edilmesi daha kolaydır. Entegrasyonu ayarlamak için herhangi bir ek işlem gerçekleştirmeniz gerekmez: her iki uygulamayı da yüklemeniz ve bu moda geçmeniz yeterlidir.
+**Entegre** modda, AdGuard VPN, bunun yerine IPSec protokolünü kullanarak iOS için AdGuard Reklam Engelleyici ile aynı anda çalışabilecektir. Bu protokol de güvenlidir, ancak biraz daha yavaş ve tespit edilmesi daha kolaydır. Entegrasyonu ayarlamak için herhangi bir ek işlem gerçekleştirmeniz gerekmez: her iki uygulamayı da yüklemeniz ve bu moda geçmeniz yeterlidir.
 
 :::note
 
-In **Integrated** mode, you can't use the Exclusions feature or choose a DNS server.
+**Entegre** modda, İstisnalar özelliğini kullanamaz veya bir DNS sunucusu seçemezsiniz.
 
 :::
 
 ### DNS sunucusu
 
-DNS servers translate a domain name or hostname (e.g., example.com or www.example.com) into something browsers can understand, i.e. IP addresses. AdGuard VPN for iOS offers a choice between several DNS servers, each with their own special qualities. For example, AdGuard DNS removes ads and protects your device from tracking while AdGuard DNS Family Protection combines the functions of AdGuard DNS with Safe search and adult content blocking. DNS servers by different DNS providers may also work faster or slower depending on your location, ISP, and other factors. Choose the one that works best for you. You can [find out more about DNS](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns) and its characteristics.
+DNS sunucuları bir alan adını veya ana makine adını (örn. example.com veya www.example.com) tarayıcıların anlayabileceği bir şeye, yani IP adreslerine çevirir. iOS için AdGuard VPN, her biri kendi özel niteliklerine sahip birkaç DNS sunucusu arasında bir seçim sunar. Örneğin, AdGuard DNS reklamları kaldırır ve cihazınızı izlemeye karşı korurken AdGuard DNS Family Protection, AdGuard DNS'nin işlevlerini Güvenli Arama ve yetişkinlere yönelik içerik engelleme ile birleştirir. Farklı DNS sağlayıcılarının DNS sunucuları da konumunuza, İSS'nize ve diğer faktörlere bağlı olarak daha hızlı veya daha yavaş çalışabilir. Sizin için en uygun olanı seçin. [DNS hakkında daha fazla bilgi edinebilirsiniz](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns) ve özelliklerini bulabilirsiniz.
 
-![DNS server screen *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/dns-server.png)
+![DNS sunucusu ekranı *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/dns-server.png)
 
 ### Wi-Fi otomatik koruma
 
-VPN will automatically turn on when the device connects to a Wi-Fi network.
+Cihaz bir Wi-Fi ağına bağlandığında VPN otomatik olarak etkinleştirilir.
 
 ### Tema
 
-You can choose system default, dark or light theme of the app (available in iOS 13 and later versions).
+Uygulamanın sistem varsayılanı, koyu veya açık temasını seçebilirsiniz (iOS 13 ve sonraki sürümlerde mevcuttur).
 
 ### Gelişmiş ayarlar
 
-In *Advanced settings* you can find two sections — Logging level and Diagnostic info. Concerning the first option, it is not recommended to enable the Extended logging level unless requested by our support team. Diagnostic info, locally stored technical information about the device and connections (IP address, ID, ping, etc.), can be sent to us in case of any technical problems.
+*Gelişmiş ayarlarda* iki bölüm bulabilirsiniz — Günlük kayıt düzeyi ve Tanılama bilgileri. İlk seçenekle ilgili olarak, destek ekibimiz tarafından talep edilmedikçe Genişletilmiş günlük kayıt düzeyinin etkinleştirilmesi tavsiye edilmez. Herhangi bir teknik sorun olması durumunda tanılama bilgileri, cihaz ve bağlantılarla ilgili yerel olarak saklanan teknik bilgiler (IP adresi, ID, ping, vb.) tarafımıza gönderilebilir.
 
 ## Hızlı Eylemler (iOS 13 veya sonraki sürümlerde mevcuttur)
 
-To access this feature, touch and hold the app icon, then lift your finger. You'll see quick actions: Connect/Disconnect, Select location, Edit Home Screen, and Remove app.
+Bu özelliğe erişmek için uygulama simgesine dokunup basılı tutun, ardından parmağınızı kaldırın. Hızlı eylemleri göreceksiniz: Bağlan veya Bağlantıyı kes, Konum seç, Ana Ekranı Düzenle ve Uygulamayı kaldır.
 
-![Quick actions *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/quick-actions.png)
+![Hızlı eylemler *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/quick-actions.png)
 
 ## Destek
 
-There is a variety of helping features in the app (press the *Settings* button at the bottom right and then *Support*): you can see the FAQ section, report a bug, leave feedback, discuss your problems and suggestions in social networks or on GitHub, rate AdGuard VPN for iOS in the App Store and export logs.
+Uygulamada çeşitli yardım özellikleri bulunmaktadır (sağ alttaki *Ayarlar* ve ardından *Destek* düğmesine basın): SSS bölümünü görebilir, hata bildirebilir, geri bildirim bırakabilir, sorunlarınızı ve önerilerinizi sosyal ağlarda tartışabilirsiniz. veya GitHub'da, App Store'da iOS için AdGuard VPN'i derecelendirin ve günlükleri dışa aktarın.
 
-![Support *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/support.png)
+![Destek *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/support.png)
 
 ## Abonelik
 
-If you are using the free version of AdGuard VPN, there will be the fourth tab with an arrow icon on the bottom tab bar. In this section you will find brief information about the main advantages of the paid version of the app and will be able to buy a subscription.
+AdGuard VPN'in ücretsiz sürümünü kullanıyorsanız, alt sekme çubuğunda ok simgesi olan dördüncü sekme olacaktır. Bu bölümde, uygulamanın ücretli sürümünün temel avantajları hakkında kısa bilgiler bulur ve bir abonelik satın alabilirsiniz.
 
-![Subscription *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/subscription_en.png)
+![Abonelik *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/subscription_en.png)
