@@ -7,6 +7,6 @@ AdGuard VPN, kendi [AdGuard VPN protokolünü](/general/adguard-vpn-protocol) ku
 
 1. Android için AdGuard VPN'i açın ve ekranın sağ alt kısmındaki dişli çark simgesini seçin.
 
-2. Go to *Advanced settings* and select *Operating mode*.
+2. *Gelişmiş ayarlar* öğesine gidin ve *Çalışma modu* öğesini seçin.
 
-3. Switch to *Integrated mode*. Tamamlandı!
+3. *Entegre mod* öğesine değiştirin. Tamamlandı!

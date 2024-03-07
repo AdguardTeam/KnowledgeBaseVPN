@@ -11,10 +11,10 @@ AdGuard VPN 베타 테스터가 되기 위해 필요한 것은 앱을 설치할 
 
 ### 버그를 신고하는 방법
 
-당신이 버그를 발견했다고 생각해 봅니다. 아니면 개발자와 제안을 공유하고 싶으신가요? Let us know: go to [GitHub](https://github.com/AdguardTeam/), find a suitable repository, create a new issue there, and describe the bug/feature request in detail.
+당신이 버그를 발견했다고 생각해 봅니다. 아니면 개발자와 제안을 공유하고 싶으신가요? 저희에게 알려주세요: [GitHub](https://github.com/AdguardTeam/)으로 이동하여 적절한 리포지토리를 찾고, 새로운 이슈를 생성하여 자세히 버그 또는 기능 제안에 대해 설명해 주세요.
 
-The above method is the most preferred, but you can use others if necessary:
+이상의 방법이 가장 선호되지만, 만약 필요하다면 다른 방법을 사용할 수도 있습니다:
 
-- Find us on various social media platforms, like [Facebook](https://www.facebook.com/AdguardEn/), [Reddit](https://www.reddit.com/r/Adguard/), etc. However, this is not the most efficient way to discuss technical matters.
+- [Facebook](https://www.facebook.com/AdguardEn/), [Reddit](https://www.reddit.com/r/Adguard/) 등과 같은 다양한 소셜 미디어 플랫폼에서 저희를 찾아주세요. 그러나 이것은 기능적인 문제를 논의하기에는 가장 효율적이지 않은 방법입니다.
 
-- Email our support team from the Support tab in the app or write directly to [support@adguard.com](mailto:support@adguard.com).
+- 앱의 지원 탭에서 저희의 지원 팀에게 이메일을 보내거나, [support@adguard.com](mailto:support@adguard.com)으로 직접 보내주세요.

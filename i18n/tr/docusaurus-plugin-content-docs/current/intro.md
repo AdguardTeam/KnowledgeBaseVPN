@@ -6,13 +6,13 @@ slug: /
 
 ## VPN nedir ve neden bir VPN'e ihtiyacınız var?
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7149L3xPmSE" title="YouTube video oynatıcı" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" class="youtube-video" src="https://www.youtube-nocookie.com/embed/7149L3xPmSE" title="YouTube video oynatıcı" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 VPN, internet üzerindeki başka bir ağa güvenli bir bağlantı oluşturmanızı sağlar.
 
-Başlangıçta VPN'ler, insanların kurumsal ağa evden bağlanabilmesi için iş ağlarını internet üzerinden güvenli bir şekilde bağlamak için oluşturuldu. Today, this technology is used for many other things: for example, to browse the Internet anonymously or to protect your online activity from prying eyes while using public Wi-Fi.
+Başlangıçta VPN'ler, insanların kurumsal ağa evden bağlanabilmesi için iş ağlarını internet üzerinden güvenli bir şekilde bağlamak için oluşturuldu. Günümüzde bu teknoloji başka birçok şey için kullanılmaktadır: örneğin, internette anonim olarak gezinmek veya halka açık Wi-Fi kullanırken çevrimiçi etkinliğinizi meraklı gözlerden korumak için.
 
-A VPN connects a user's computer or mobile device to a server and allows one to browse the net using a "cover" IP address. Bu nedenle, üçüncü taraf gözlemciler kullanıcının gerçek IP adresini göremez ve bu da onları izlemeyi neredeyse imkansız hâle getirir.
+VPN, kullanıcının bilgisayarını veya mobil cihazını bir sunucuya bağlar ve kişinin "gizli" bir IP adresi kullanarak internette gezinmesine olanak tanır. Bu nedenle, üçüncü taraf gözlemciler kullanıcının gerçek IP adresini göremez ve bu da onları izlemeyi neredeyse imkansız hâle getirir.
 
 Kullanıcıların VPN ile ilgili olarak bahsettiği ilk şey trafik şifreleme ve bundan elde edilen güvenliktir. Ama bu ne anlama geliyor? VPN, kullanıcının cihazı ile uzak sunucu arasında şifrelenmiş bir tünel oluşturur. Tüm web trafiğiniz bu tünelden geçer, böylece verileriniz yol boyunca korunur. Harici gözlemci için, trafiğiniz VPN sunucusundan çıkar, bu nedenle cihazınız bu sunucunun IP adresine sahipmiş gibi görünür. Bu numara, kullanıcının kimliğini ve gerçek konumunu gizler.
 

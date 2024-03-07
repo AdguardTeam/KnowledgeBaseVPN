@@ -1,5 +1,5 @@
 ---
-title: Panoramica delle caratteristiche
+title: Panoramica delle funzionalità
 sidebar_position: 1
 ---
 
@@ -13,7 +13,7 @@ Una VPN è il strumento ideale che fornisce sicurezza e anonimato ogni volta che
 - Impedire il tracciamento delle attività online mascherando l'indirizzo IP
 - Nascondere la vera geolocalizzazione per rimanere anonimi
 
-AdGuard VPN per Android può fare tutto questo per te e persino offrire qualcosa di unico. Per scoprire perché AdGuard VPN è l'opzione migliore, leggi [questo articolo](/general/why-adguard-vpn).
+AdGuard VPN per Android può fare tutto questo per te e persino offrire qualcosa di unico. Per scoprire perché AdGuard VPN è l'opzione migliore — leggi [questo articolo](/general/why-adguard-vpn).
 
 ## Come iniziare a utilizzare AdGuard VPN per Android
 
@@ -23,7 +23,7 @@ Innanzitutto, scarica AdGuard VPN da [Google Play](https://play.google.com/store
 
 La schermata principale riflette lo stato della VPN (Connessa/Disconnessa). Inoltre, è presente il pulsante *Connetti/Disconnetti* e un elenco dei server disponibili.
 
-Ogni server ha la sua posizione e il suo ping rate, che descrivono il tempo di risposta del server. Minore è questo rapporto, più è veloce la connessione. I server più veloci appaiono sempre in cima all'elenco, consistente in oltre 50 posizioni, in dozzine di paesi. Puoi connetterti al server più veloce toccando sul pulsante *Connetti*, o selezionando una posizione.
+Ogni server ha la sua posizione e il suo ping rate, che descrivono il tempo di risposta del server. Più bassa è questa velocità, più veloce è la connessione. I server più veloci appaiono sempre in cima all'elenco, consistente in oltre 50 posizioni, in dozzine di paesi. Puoi connetterti al server più veloce toccando sul pulsante *Connetti*, o selezionando una posizione.
 
 ## Esclusioni
 
@@ -47,10 +47,10 @@ Ci sono alcune sfumature nell'aggiunta manuale dei domini. Ad esempio, se esclud
 
 :::
 
-Poiché puoi abilitare i sottodomini negli elenchi dei servizi, abbiamo aggiunto delle caselle che riflettono lo stato di ogni servizio: puoi vederle nella schermata principale di *Esclusioni*, alla sinistra del nome di ogni servizio:
+Poiché puoi abilitare i sottodomini negli elenchi dei servizi, abbiamo aggiunto delle caselle che riflettono lo stato di ogni servizio — puoi vederle nella schermata principale di *Esclusioni*, alla sinistra del nome di ogni servizio:
 
 - **Completamente abilitata** è indicato da un segno di spunta bianco su uno sfondo verde
-- **Parzialmente abilitata** (sottodomini abilitati senza il dominio principale), è segnato da un quadrato verde su uno sfondo bianco
+- **Parzialmente abilitata** (sottodomini abilitati senza il dominio principale), è indicato da un quadrato verde su uno sfondo bianco
 - **Completamente disabilitata** è segnato da una casella di spunta vuota
 
  Buone notizie: puoi sempre tornare alla visualizzazione predefinita degli elenchi di servizi nel caso in cui tu abbia eliminato o disabilitato qualsiasi dominio da lì.
@@ -70,7 +70,7 @@ Un'altra caratteristica utile è l'*Importazione/Esportazione di esclusioni*. Ci
 
 Come abbiamo già detto, non solo i siti web possono essere facilmente aggiunti alle esclusioni. Scegli per quali app necessiti di AdGuard VPN, e per quali no.
 
-In *Modalità integrata*, puoi gestire le app soltanto tramite AdGuard Ad Blocker.
+In *Modalità integrata*, puoi gestire le app soltanto tramite il Blocco AdGuard.
 
 ![Esclusioni di app *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/apps_settings.png)
 
@@ -100,23 +100,23 @@ Si noti che se Kill Switch è attivo, le *Impostazioni Apps* e *Esclusioni* non 
 
 ### Tema
 
-You can choose the system default, system dynamic, dark or light theme of the app.
+Puoi scegliere il tema predefinito del sistema, il tema dinamico del sistema, e anche il tema scuro o chiaro dell'app.
 
-![System dynamic theme *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/systemtheme.png)
+![Tema dinamico del sistema *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/systemtheme.png)
 
-![Light theme *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/lighttheme.png)
+![Tema chiaro *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/lighttheme.png)
 
-![Dark theme *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/darktheme.png)
+![Tema scuro *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/darktheme.png)
 
 ### Impostazioni avanzate
 
 Nelle *Impostazioni avanzate*, puoi trovare quattro sezioni.
 
-La *Modalità operativa* ti consente di specificarre come viene instradato il tuo traffico. Esistono tre modalità: VPN, SOCKS5 e Modalità integrata. Nella modalità *VPN*, tutto il traffico passa per AdGuard VPN. In modalità *SOCKS5*, AdGuard VPN esegue un server proxy locale, utilzzabile dalle altre app per l'instradamento del traffico. La *Modalità integrata* consente ad AdGuard VPN e ad AdGuard Ad Blocker di funzionare insieme.
+La *Modalità operativa* ti consente di specificare come viene instradato il tuo traffico. Esistono tre modalità: VPN, SOCKS5 e Modalità integrata. Nella modalità *VPN*, tutto il traffico passa per AdGuard VPN. In modalità *SOCKS5*, AdGuard VPN esegue un server proxy locale, utilizzabile dalle altre app per l'instradamento del traffico. La *Modalità integrata* consente ad AdGuard VPN e al Blocco AdGuard di funzionare insieme.
 
 :::note
 
-Alcune funzionalità di AdGuard VPN sono disabilitate in *Modalità integrata*: i server DNS, il Kill Switch, la Protezione automatica e le Esclusioni app. Puoi gestire la protezione DNS e instradare le app attraverso il tuo proxy di AdGuard VPN nell'app AdGuard Ad Blocker.
+Alcune funzionalità di AdGuard VPN sono disabilitate in *Modalità integrata*: i server DNS, il Kill Switch, la Protezione automatica e le Esclusioni app. Puoi gestire la protezione DNS e instradare le app attraverso il tuo proxy di AdGuard VPN nell'app Blocco degli annunci AdGuard.
 
 :::
 

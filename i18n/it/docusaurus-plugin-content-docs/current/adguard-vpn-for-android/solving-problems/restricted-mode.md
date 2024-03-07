@@ -60,7 +60,7 @@ Anche i possessori di **LG** o **Samsung** potrebbero riscontrare un problema si
 - Aprire **Impostazioni**;
 - Premere **Avanzate**;
 - Scorrere verso il basso e premere **Dual Messenger**;
-- Disabilita **Messaggistica Duale** per tutte le app;
+- Disabilita **Dual Messenger** per tutte le app;
 - Bloccare il dispositivo per 5 minuti;
 - Sbloccare lo schermo e riprovare a creare il profilo VPN.
 

@@ -21,13 +21,13 @@ Chcete-li začít používat AdGuard VPN pro Windows, stáhněte si aplikaci z [
 
 ![AdGuard VPN for Windows homepage *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/home_en.jpg)
 
-The most noticeable item on the **Home screen** is the AdGuard VPN Connect/Disconnect button, below which you can see the selected server. On the right side of the screen you will see a list of available locations. Nejrychlejší umístění, tj. umístění s nejmenší odezvou ping se zobrazí na začátku seznamu. There is also a refresh button that you can click if any locations are offline.
+Nejvýraznější položkou na **Domovské obrazovce** je tlačítko AdGuard VPN Připojit/Odpojit, pod nímž je zobrazen vybraný server. Na pravé straně obrazovky se zobrazí seznam dostupných umístění. Nejrychlejší umístění, tj. umístění s nejmenší odezvou ping se zobrazí na začátku seznamu. K dispozici je také tlačítko pro obnovení, na které můžete kliknout, pokud jsou některá místa offline.
 
-At the top of the screen there is a navigation panel with five tabs: **Home**, **Exclusions**, **Stats**. **Support**, and **Settings**.
+V horní části obrazovky je navigační panel s pěti kartami: **Domů**, **Výjimky**, **Statistiky**. **Podpora** a **nastavení**.
 
 ## Výjimky
 
-By default, AdGuard VPN for WIndows works everywhere. You can add websites and apps you want to exclude from the VPN tunnel to the list of exclusions. Or, you can make AdGuard VPN work only on the websites and apps specified in the list of exclusions. Please note that these two lists are independent of each other.
+Ve výchozím nastavení funguje AdGuard VPN pro WIndows všude. Do seznamu výjimek můžete přidat webové stránky a aplikace, které chcete z tunelu VPN vyloučit. Nebo můžete nastavit, aby AdGuard VPN fungoval pouze na webových stránkách a aplikacích uvedených v seznamu výjimek. Upozorňujeme, že tyto dva seznamy jsou na sobě nezávislé.
 
 ![Exclusions *border](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_new_en.png)
 
@@ -49,19 +49,19 @@ Chcete-li exportovat seznam výjimek z AdGuard VPN pro Windows do počítače, k
 
 V cílovém zařízení otevřete AdGuard VPN, klikněte na *Výjimky* a vyberte *Webové stránky* nebo *Aplikace*. Klikněte na *Importovat výjimky* a vyberte přijatý archiv.
 
-## Stats
+## Statistiky
 
 ![Statistics screen *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/statistics_en.png)
 
-The Statistics screen shows detailed information about your data usage, categorized by both location and app. It highlights your most frequently used locations and applications. You can access statistics for different time periods: daily, monthly, or for the entire time you have been using AdGuard VPN for Windows.
+Obrazovka Statistiky zobrazuje podrobné informace o využití dat rozdělené do kategorií podle umístění a aplikací. Zvýrazňuje nejčastěji používaná umístění a aplikace. Můžete získat přístup ke statistikám za různá časová období: denní, měsíční nebo za celou dobu používání AdGuard VPN pro Windows.
 
-Crucially, all this information is stored exclusively on your device, ensuring that only you can view it. Access to the statistics feature is available only to AdGuard VPN subscribers.
+Důležité je, že všechny tyto informace jsou uloženy výhradně ve vašem zařízení, takže je můžete zobrazit pouze vy. Přístup k funkci statistik mají pouze předplatitelé AdGuard VPN.
 
 ## Nastavení
 
 ![Settings *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/settings_en.png)
 
-The fourth tab contains sections that will help you customize the app.
+Čtvrtá karta obsahuje části, které vám pomohou přizpůsobit aplikaci.
 
 ### Nastavení aplikace
 
@@ -75,7 +75,7 @@ Ve spodní části stránky jsou dvě sekce: **DNS servery** a **Pokročilá nas
 
 #### DNS servery
 
-The **DNS servers** tab allows you to add your own DNS server — manually or from the list. DNS server můžete nastavit u libovolného poskytovatele. Doporučujeme přidat server [AdGuard DNS](https://adguard-dns.io/kb/general/dns-providers/#adguard-dns), který kromě standardních funkcí dokáže chránit před reklamami, sledováním a krádeží identity.
+Karta **DNS servery** umožňuje přidat vlastní DNS server — ručně nebo ze seznamu. DNS server můžete nastavit u libovolného poskytovatele. Doporučujeme přidat server [AdGuard DNS](https://adguard-dns.io/kb/general/dns-providers/#adguard-dns), který kromě standardních funkcí dokáže chránit před reklamami, sledováním a krádeží identity.
 
 #### Pokročilá nastavení
 
@@ -95,15 +95,15 @@ Všechny záznamy jsou uloženy lokálně v zařízení a v případě potřeby 
 
 Jedná se o experimentální funkci, která umožňuje AdGuardu používat pokročilý šifrovací protokol QUIC. Má mnoho výhod, ale tou nejvýznamnější je, že dokáže zlepšit kvalitu připojení za neideálních podmínek, například při používání mobilního internetu nebo při připojování k veřejným sítím Wi-Fi.
 
-#### Use WinTun
+#### Použít WinTun
 
 ![Use WinTun *border](https://cdn.adtidy.org/content/release_notes/vpn/windows/v2.2/stats_tab_v2.2_en.png)
 
-WinTun is a traffic routing driver commonly used for VPN implementations on Windows that improves the quality of VPN connections by creating a virtual network adapter. By default AdGuard VPN uses the regular WFP driver (and TDI driver for Windows 7).
+WinTun je ovladač směrování provozu, který se běžně používá pro implementace VPN v systému Windows a který zlepšuje kvalitu připojení VPN vytvořením virtuálního síťového adaptéru. Ve výchozím nastavení používá AdGuard VPN běžný ovladač WFP (a ovladač TDI pro Windows 7).
 
-#### Subnet exclusions
+#### Výjimky podsítě
 
-This feature allows you to add subnets to exclude traffic from specific devices connected to your network. For example, your robot vacuum cleaner.
+Tato funkce umožňuje přidávat podsítě pro vyloučení provozu z konkrétních zařízení připojených k síti. Např. váš robotický vysavač.
 
 ## Další karty
 

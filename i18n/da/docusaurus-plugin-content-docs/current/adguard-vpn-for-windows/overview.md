@@ -19,21 +19,21 @@ For at begynde at bruge AdGuard VPN til Windows, download først appen fra [vore
 
 ## Startskærm
 
-![AdGuard VPN for Windows homepage *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/home_en.jpg)
+![AdGuard VPN til Windows-startskærm *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/home_en.jpg)
 
-The most noticeable item on the **Home screen** is the AdGuard VPN Connect/Disconnect button, below which you can see the selected server. On the right side of the screen you will see a list of available locations. Den hurtigste serverplacering, dvs. den med laveste ping, vises øverst på listen. There is also a refresh button that you can click if any locations are offline.
+Det mest iøjnefaldende element på **Startskærmen** er AdGuard VPN Forbind/Frakobl-knappen, under hvilken den valgte server fremgår. Til højre på skærmen fremgår en liste over tilgængelige lokationer. Den hurtigste serverplacering, dvs. den med laveste ping, vises øverst på listen. Der er også en opdateringsknap, man kan klikke på, hvis nogen lokationer er offline.
 
-At the top of the screen there is a navigation panel with five tabs: **Home**, **Exclusions**, **Stats**. **Support**, and **Settings**.
+Øverst på skærmen findes et navigeringspanel med fem faner: **Hjem**, **Undtagelser**, **Statistik**. **Support** og **Indstillinger**.
 
 ## Undtagelser
 
-By default, AdGuard VPN for WIndows works everywhere. You can add websites and apps you want to exclude from the VPN tunnel to the list of exclusions. Or, you can make AdGuard VPN work only on the websites and apps specified in the list of exclusions. Please note that these two lists are independent of each other.
+Som standard fungerer AdGuard VPN til Windows overalt. Websteder og apps, som skal undtages fra VPN-tunnelen, kan føjes til undtagelseslisten. AdGuard VPN kan også opsættes til kun at fungere på de websteder og apps, som fremgår på undtagelseslisten. Bemærk, at disse to lister er uafhængige af hinanden.
 
-![Exclusions *border](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_new_en.png)
+![Undtagelser *border](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_new_en.png)
 
 Der kan **manuelt** føjes websteder til undtagelser ved at angive deres domænenavne. Appen giver også mulighed for at vælge populære websteder **fra listen**.
 
-![Add Exclusions from list *border](https://cdn.adguardvpn.com/content/kb/VPN/windows/new_exclusions_from_list_en.png)
+![Tilføj undtagelser fra liste *border](https://cdn.adguardvpn.com/content/kb/VPN/windows/new_exclusions_from_list_en.png)
 
 :::note
 
@@ -49,23 +49,23 @@ For at eksportere undtagelseslisten fra AdGuard VPN til Windows til computeren, 
 
 Åbn AdGuard VPN på destinationsenheden, klik på *Undtagelser* og vælg *Websteder* eller *Apps*. Klik på *Importér undtagelser* og vælg det modtagne arkiv.
 
-## Stats
+## Statistik
 
-![Statistics screen *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/statistics_en.png)
+![Statistikskærm *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/statistics_en.png)
 
-The Statistics screen shows detailed information about your data usage, categorized by both location and app. It highlights your most frequently used locations and applications. You can access statistics for different time periods: daily, monthly, or for the entire time you have been using AdGuard VPN for Windows.
+Skærmen Statistik viser detaljerede oplysninger om dataforbruget, kategoriseret efter både lokation og app. Den fremhæver de hyppigst anvendte lokationer og apps. Der er adgang til statistikker for forskellige tidsperioder: Daglig, månedlig eller for hele den tidsperiode, AdGuard VPN til Windows har været anvendt.
 
-Crucially, all this information is stored exclusively on your device, ensuring that only you can view it. Access to the statistics feature is available only to AdGuard VPN subscribers.
+Afgørende er, at alle disse oplysninger udelukkende gemmes på enheden, hvilket sikrer, at ingen andre kan se dem. Adgang til statistikfunktionen er kun tilgængelig for AdGuard VPN-abonnenter.
 
 ## Indstillinger
 
-![Settings *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/settings_en.png)
+![Indstillinger *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/settings_en.png)
 
-The fourth tab contains sections that will help you customize the app.
+Den fjerde fane indeholder afsnit til tilpasning af appen.
 
 ### App-indstillinger
 
-![App settings *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/app_settings_en.png)
+![App-indstillinger *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/app_settings_en.png)
 
 I afsnittet **App-indstillinger** kan der angives app-sprog og aktiveres **Kill Switch**, der blokerer internetadgangen, hvis VPN-forbindelsen falder ud. Dette er nødvendigt for at forhindre ubudne gæster i at kunne tilgå private data, hvis VPN-beskyttelsen stopper, mens man er tilsluttet et offentligt Wi-Fi eller mobilnetværk.
 
@@ -75,7 +75,7 @@ Nederst på siden findes to afsnit: **DNS-servere** og **Avancerede indstillinge
 
 #### DNS-servere
 
-The **DNS servers** tab allows you to add your own DNS server — manually or from the list. En DNS-server fra enhver udbyder kan opsættes. Vi anbefaler at tilføje [AdGuard DNS](https://adguard-dns.io/kb/general/dns-providers/#adguard-dns), en server, der udover standardfunktionerne kan beskytte mod annoncering, sporing og phishing.
+Fanen **DNS-servere** muliggør at tilføje en egen DNS-server — manuelt eller fra listen. En DNS-server fra enhver udbyder kan opsættes. Vi anbefaler at tilføje [AdGuard DNS](https://adguard-dns.io/kb/general/dns-providers/#adguard-dns), en server, der udover standardfunktionerne kan beskytte mod annoncering, sporing og phishing.
 
 #### Avancerede indstillinger
 
@@ -95,15 +95,15 @@ Alle logger opbevares lokalt på enheden og kan om nødvendigt indsendes til sup
 
 Dette er en eksperimentel funktion, via hvilken AdGuard kan anvende den avancerede QUIC-krypteringsprotokol. Den har mange fordele, men den mest fremtrædende er, at den kan forbedre forbindelseskvaliteten under ikke-ideelle forhold, såsom ved brug af mobilt internet eller offentlige Wi-Fi netværk.
 
-#### Use WinTun
+#### Brug WinTun
 
-![Use WinTun *border](https://cdn.adtidy.org/content/release_notes/vpn/windows/v2.2/stats_tab_v2.2_en.png)
+![Brug WinTun *border](https://cdn.adtidy.org/content/release_notes/vpn/windows/v2.2/stats_tab_v2.2_en.png)
 
-WinTun is a traffic routing driver commonly used for VPN implementations on Windows that improves the quality of VPN connections by creating a virtual network adapter. By default AdGuard VPN uses the regular WFP driver (and TDI driver for Windows 7).
+WinTun er en trafikrutningsdriver typisk brugt til VPN-implementeringer på Windows, der forbedrer kvaliteten af VPN-forbindelser ved at oprette en virtuel netværksadapter. Som standard bruger AdGuard VPN den almindelige WFP-driver (og TDI-driver til Windows 7).
 
-#### Subnet exclusions
+#### Undernetundtagelser
 
-This feature allows you to add subnets to exclude traffic from specific devices connected to your network. For example, your robot vacuum cleaner.
+Denne funktion muliggør at tilføje undernet til undtagelse af trafik fra bestemte enheder tilsluttet netværket. Eksempelvis en robotstøvsuger.
 
 ## Andre faner
 

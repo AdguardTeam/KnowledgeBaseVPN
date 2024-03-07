@@ -15,7 +15,7 @@ sidebar_position: 3
 
 지식 창고 웹 사이트는 최신 웹 사이트 생성기인 Docusaurus 2를 사용하여 제작되었습니다. 텍스트를 변경하거나 추가할 때 모든 기사가 플랫폼의 원칙을 준수해야 한다는 점을 고려하십시오. 플랫폼의 원칙에 대한 자세한 내용은 [이 가이드](https://docusaurus.io/docs/category/guides)에서 확인할 수 있습니다.
 
-이 지식 창고를 컴퓨터에 배포하여 제안한 변경 사항을 미리 볼 수 있습니다. Detailed instructions on how to do this can be found [in the README.md file](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README) on this Knowledge Base's GitHub page.
+이 지식 창고를 컴퓨터에 배포하여 제안한 변경 사항을 미리 볼 수 있습니다. 이것을 하기 위한 자세한 지침은 이 지식 창고의 GitHub 페이지에 있는 [README.md 파일 안](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README)에서 발견할 수 있습니다.
 
 ## 기사 번역 {#translate-adguard}
 

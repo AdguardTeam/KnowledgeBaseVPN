@@ -3,13 +3,13 @@ title: Yaygın kurulum programı hataları
 sidebar_position: 2
 ---
 
-This article outlines some of the most common errors you may encounter while installing AdGuard VPN for Windows and possible ways to resolve them.
+Bu makale, Windows için AdGuard VPN kurarken karşılaşabileceğiniz en yaygın hatalardan bazılarını ve bunları çözmenin olası yollarını özetlemektedir.
 
 ### Hata 5: Erişim Reddedildi {#error-5}
 
 Gerekli izinler verilmemişse bu hata mesajı görüntülenir. AdGuard VPN kurulum programının, kurma işlemini düzgün bir şekilde tamamlamak için ihtiyaç duyduğu izinlere sahip olmamasının birkaç farklı nedeni olabilir. Aşağıdaki adımları deneyebilirsiniz:
 
-- Antivirüslerinizi geçici olarak devre dışı bırakın. Some of them may interfere with the installation, depending on the restrictiveness of their settings.
+- Antivirüslerinizi geçici olarak devre dışı bırakın. Bazıları, ayarlarının kısıtlayıcılığına bağlı olarak kuruluma müdahale edebilir.
 
 - Farklı bir kurulum klasörü seçin. Mevcut kurulum klasörünün bazı erişim kısıtlamaları olabilir. Ayrıca harici sürücü, sanal sürücü, vb. seçmediğinizden emin olun.
 
@@ -34,8 +34,8 @@ Bunun, Hata 1603'ün belirli bir alt türü olduğunu söyleyebilirsiniz. Olası
     1. *Win + R* tuşlarına basın ve **services.msc** yazın.
     1. Listeden *Windows Installer* öğesini bulun ve çift tıklayın.
     1. *Hizmet durumu* altındaki *Başlat* düğmesine basın ve *Tamam* öğesine basın. Hizmet durumu **çalışıyor** ise, önce *Durdur* öğesine ve ardından *Başlat* öğesine tıklamalısınız.
-    1. Press *Win + R*, type and enter **msiexec /unregister** and hit *Enter*.
-    1. Press *Win + R* again, type and enter **msiexec /regserver** and hit *Enter*
+    1. *Win + R* tuşlarına basın, **msiexec /unregister** yazın ve *Enter* düğmesine basın.
+    1. *Win + R* tuşlarına tekrar basın, **msiexec /regserver** yazın ve *Enter* düğmesine basın
 
 - PC'yi yeniden başlatın ve kurulumu baştan başlatın. Bazen sorunu çözmek için bu yeterli olur.
 
@@ -51,7 +51,7 @@ Bu hata kodunu aldıysanız, kurma işlemini bir şekilde elle kesintiye uğratm
 
 ### Hata 1603: Kurulum sırasında kritik hata oluştu {#error-1603}
 
-This error sounds more worrying than it actually is. Gerçekte bu, birçok farklı nedeni olabilen oldukça genel bir hatadır ve bazıları kolayca düzeltilebilir. Aşağıdaki çözümleri deneyin:
+Bu hata kulağa gerçekte olduğundan daha endişe verici geliyor. Gerçekte bu, birçok farklı nedeni olabilen oldukça genel bir hatadır ve bazıları kolayca düzeltilebilir. Aşağıdaki çözümleri deneyin:
 
 - *Win* tuşuna basın, *Komut İstemi* öğesini arayın ve çalıştırın. Orada, `sfc /scannow` yazın ve *Enter* düğmesine basın.
 
@@ -64,8 +64,8 @@ This error sounds more worrying than it actually is. Gerçekte bu, birçok farkl
     1. *Win + R* tuşlarına basın ve **services.msc** yazın.
     1. Listeden *Windows Installer* öğesini bulun ve çift tıklayın.
     1. *Hizmet durumu* altındaki *Başlat* düğmesine basın ve *Tamam* öğesine basın. Hizmet durumu **çalışıyor** ise, önce *Durdur* öğesine ve ardından *Başlat* öğesine tıklamalısınız.
-    1. Press *Win + R*, type and enter **msiexec /unregister** and hit *Enter*.
-    1. Press *Win + R* again, type and enter **msiexec /regserver** and hit *Enter*
+    1. *Win + R* tuşlarına basın, **msiexec /unregister** yazın ve *Enter* düğmesine basın.
+    1. *Win + R* tuşlarına tekrar basın, **msiexec /regserver** yazın ve *Enter* düğmesine basın
 
 - Kurulum için sürücüde tam izinleri alın. Dosya konumunda tam izinlere sahip olmadığınız için 1603 hatasının oluşması olasıdır. Ayrıca diğer bazı çözümler kadar kolay değildir:
 
@@ -81,11 +81,11 @@ This error sounds more worrying than it actually is. Gerçekte bu, birçok farkl
 
 ### Hata 1618: Başka bir kurulum zaten devam ediyor {#error-1618}
 
-This error appears when trying to run multiple instances of the AdGuard VPN installer simultaneously. Bu hatayı alırsanız yapmanız gerekenler:
+Bu hata, AdGuard VPN kurulum programının birden fazla örneğini aynı anda çalıştırmaya çalışırken görünür. Bu hatayı alırsanız yapmanız gerekenler:
 
 - PC'yi yeniden başlatın ve kurulum programını tekrar başlatın. Bilgisayarı yeniden başlattığınızda, kurulum programının tüm kopyaları dahil devam eden tüm işlemler durur.
 
-- Don't click multiple times on the installer, even if it doesn't start right away. Bazen kurulum programı kullanıcı arayüzünün görüntülenmesi birkaç saniye sürebilir.
+- Hemen başlamasa bile kurulum programına birden fazla kez tıklamayın. Bazen kurulum programı kullanıcı arayüzünün görüntülenmesi birkaç saniye sürebilir.
 
 ### Error 1638: Bu ürünün başka bir sürümü zaten kurulu {#error-1638}
 

@@ -16,11 +16,11 @@ Android 7 이상 운영 체제를 실행하는 휴대폰 또는 태블릿 사용
     - 휴대폰에서 **설정**을 엽니다.
     - **시스템** 섹션(설정 메뉴의 마지막 항목)으로 이동합니다. 이 섹션에서 **휴대전화 정보**를 찾습니다.
     - **빌드 번호** 줄을 7번 클릭합니다. 그 후에 **개발자 모드를 켰습니다**라는 알림을 받게 됩니다. 필요한 경우 기기의 잠금 해제 코드를 입력하세요.
-    - Open **System Settings** → **Developer Options** → Scroll down and enable **USB debugging** → Confirm debugging is enabled in the window **Allow USB debugging** after reading the warning carefully.
+    - **시스템 설정** → **개발자 옵션** → 아래로 스크롤하여 **USB 디버깅**을 활성화하고, **USB 디버깅 허용** 창에서 경고를 주의 깊게 읽고 디버깅을 활성화할지 확인합니다.
 
     :::note
 
-    If you have any difficulties or additional questions, full instructions can be found [here](https://developer.android.com/studio/debug/dev-options).
+    어려움이나 추가 질문이 있으시면 [여기](https://developer.android.com/studio/debug/dev-options)에서 자세한 지침을 확인하실 수 있습니다.
 
     :::
 
@@ -28,13 +28,13 @@ Android 7 이상 운영 체제를 실행하는 휴대폰 또는 태블릿 사용
 
     :::note
 
-    On the Windows platform, **Samsung** owners may need to install [this utility](https://developer.samsung.com/mobile/android-usb-driver.html).
+    Windows 플랫폼에서 실행되는 **Samsung** 기기의 소유자는 이 [유틸리티](https://developer.samsung.com/mobile/android-usb-driver.html)를 설치해야 할 수 있습니다.
 
     :::
 
 1. **USB 케이블**을 사용하여 **ADB**를 설치한 컴퓨터 또는 노트북에 기기를 연결합니다.
 
-1. Open **the command line** on your PC:
+1. PC에서 **명령줄**을 엽니다.
 
     - **Windows**를 사용하는 경우 **cmd.exe**
     - **macOS**를 사용하는 경우 **터미널**
@@ -47,7 +47,7 @@ Android 기기에서 사용자 계정을 관리하는 방법은 [여기](https:/
 
 :::note
 
-In some cases restricted user accounts are created implicitly and cannot be removed. For instance, when you use Dual Messenger or Dual App features on **Samsung** or **LG** devices. Read below how to fix the issue in these cases.
+제한된 사용자 계정은 암시적으로 생성되어 삭제할 수 없는 경우도 있습니다. 예를 들어, **Samsung** 또는 **LG** 기기에서 Dual Messenger 또는 Dual App 기능을 사용하는 경우입니다. 이러한 문제를 해결하는 방법은 아래 내용을 참조하세요.
 
 :::
 
@@ -60,7 +60,7 @@ In some cases restricted user accounts are created implicitly and cannot be remo
 - **설정**을 엽니다.
 - **고급**을 누릅니다.
 - 아래로 스크롤해 **듀얼 메신저**를 누릅니다.
-- Disable the **Dual Messenger** for all apps;
+- 모든 앱에서 **Dual Messenger**를 비활성화합니다.
 - 5분 동안 기기를 잠금 상태로 유지합니다.
 - 화면 잠금을 해제하고 VPN 프로필을 다시 생성합니다.
 
@@ -69,5 +69,5 @@ In some cases restricted user accounts are created implicitly and cannot be remo
 - **설정**을 엽니다.
 - **일반** 탭을 선택합니다.
 - 아래로 스크롤한 다음 **듀얼 앱**를 누릅니다.
-- Remove all apps from the list;
+- 목록에서 모든 앱을 제거합니다.
 - 기기를 재부팅합니다.

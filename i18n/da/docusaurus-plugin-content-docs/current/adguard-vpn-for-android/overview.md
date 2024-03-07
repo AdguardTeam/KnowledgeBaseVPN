@@ -100,13 +100,13 @@ Bemærk, at hvis Kill Switch er slået til, vil *Apps-indstillinger* og *Undtage
 
 ### Tema
 
-You can choose the system default, system dynamic, dark or light theme of the app.
+Der kan vælges mellem systemstandard, system dynamisk, mørkt eller lyst app-tema.
 
-![System dynamic theme *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/systemtheme.png)
+![System dynamisk tema *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/systemtheme.png)
 
-![Light theme *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/lighttheme.png)
+![Lyst tema *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/lighttheme.png)
 
-![Dark theme *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/darktheme.png)
+![Mørkt tema *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/darktheme.png)
 
 ### Avancerede indstillinger
 

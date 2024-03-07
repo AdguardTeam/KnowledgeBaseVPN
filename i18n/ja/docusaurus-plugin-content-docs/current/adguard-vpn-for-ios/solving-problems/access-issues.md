@@ -1,18 +1,18 @@
 ---
-title: Usage issues with subscriptions purchased via the App Store
+title: App Store経由で購入したサブスクの使用関連問題
 sidebar_position: 4
 ---
 
-Some users can't use their AdGuard VPN subscription purchased through the App Store. This issue may occur in two cases:
+一部のユーザーは、App Storeで購入したAdGuard VPN サブスクリプションを使用できない場合があります。 この問題は以下の2つのケースが理由で発生している可能性があります:
 
-- if you use a different account for App Store purchases
-- or if you have hidden your email address from app developers
+- App Storeでの購入に別のアカウントを使用した場合
+- アプリ開発者に対してお使いのメールアドレスを非公開にした場合
 
-To solve this problem, please follow these steps:
+この問題を解決するには、以下の手順をお使いください:
 
-1. Go to Settings → Apple ID → Media & Purchases → View Apple ID
-1. Make sure that the email address matches the one you use for your Apple ID
-1. If the email addresses do not match, please email to `support@adguard.com`: describe your problem and provide us with the address used for the App Store
-1. If the email addresses match, navigate to Apple ID → iCloud → Hide My Email, find our app in the list, copy the email address, and send it to `support@adguard.com` along with your problem description. Usually, it ends with "@privaterelay.appleid.com"
+1. 「設定」アプリ→ Apple ID →「メディアと購入」→「アカウントを表示」に移動します。
+1. メールアドレスがApple IDで使用しているものと一致していることを確認してください。
+1. メールアドレスが一致しない場合は、 サポートに `support@adguard.com` （日本語対応）までメールをお送りください（問題を説明して、App Storeに使用しているメールアドレスをお伝えください）。
+1. メールアドレスが一致している場合は、Apple ID →「iCloud」→「メールを非公開」に移動し、リストからAdGuard VPNアプリを見つけてメールアドレスをコピーし、問題の説明とともにサポートの `support@adguard.com` （日本語対応）にお送りください。 このようなアドレスは通常、「@privaterelay.appleid.com」で終わります。
 
-Once the support team has the email address you used for the purchase, they'll transfer your subscription to the correct account and you'll be able to start using it. Or they may ask for additional information. You can provide the support team with your Apple purchase receipt to help speed up the process.
+購入時に使用したメールアドレスをサポートチームが確認しましたら、正しいアカウントにサブスクリプションを移行いたします。そうすると、利用を開始できるようになります。 場合によっては、サポートから追加情報を求められることもございますのでご了承ください。 サポートチームにAppleからの購入時レシートをご提示いただくと、手続きを迅速に進めることができます。

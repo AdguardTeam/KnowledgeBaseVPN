@@ -19,13 +19,13 @@ AdGuard VPN'i bilgisayarınızdan kaldırmaya karar verirseniz, aşağıda liste
 
 - *Başlat* öğesine tıklayın ve açılan listede AdGuard VPN'i bulun. Sağ tıklayın ve *Kaldır* öğesini seçin.
 - *Başlat* → *Ayarlar* → *Uygulamalar* → *Uygulamalar ve özellikler* öğesine tıklayın. Listede AdGuard VPN'i bulun, tıklayın ve *Kaldır* öğesini seçin.
-- Open the *Control Panel*, then click *Programs* → *Programs and Features* → *Uninstall or change a program*. Listede AdGuard VPN'i bulun, sağ tıklayın ve *Kaldır* öğesini seçin.
+- *Denetim Masası'nı açın*, ardından *Programlar* → *Programlar ve Özellikler* → *Programı kaldır veya değiştir* öğesine tıklayın. Listede AdGuard VPN'i bulun, sağ tıklayın ve *Kaldır* öğesini seçin.
 
 ### Gelişmiş kaldırma {#advanced}
 
 Normal kaldırma herhangi bir nedenle işe yaramazsa, gelişmiş bir yöntem kullanmayı deneyebilirsiniz. Her şeyden önce, geliştiricilerimiz tarafından oluşturulan [kaldırma aracını indirmeniz](https://cdn.adtidy.org/distr/windows/Uninstall_Utility.zip) gerekir. Arşivi bilgisayarınızdaki herhangi bir klasöre çıkarın, **Adguard.UninstallUtility.exe** dosyasını çalıştırın ve uygulamanın cihazınızda değişiklik yapmasına izin verin. Ardından aşağıdaki talimatı takip edin:
 
-1. Choose *Standard uninstall*, *Delete AdGuard VPN*, and click *Uninstall*
+1. *Standart kaldırma*, *AdGuard VPN'i Kaldır* öğesini seçin ve *Kaldır* öğesine tıklayın
 
     ![Standart kaldırma *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/standard_uninstall.png)
 
@@ -35,11 +35,11 @@ Normal kaldırma herhangi bir nedenle işe yaramazsa, gelişmiş bir yöntem kul
 
     :::note
 
-    Sonraki adımları yalnızca ilk iki adımı gerçekleştirmek herhangi bir nedenle yeterli olmadıysa izleyin. We strongly recommend contacting our support team before using steps 3–4 of the advanced uninstall instructions.
+    Sonraki adımları yalnızca ilk iki adımı gerçekleştirmek herhangi bir nedenle yeterli olmadıysa izleyin. Gelişmiş kaldırma talimatlarının 3-4. adımlarını kullanmadan önce destek ekibimizle iletişime geçmenizi şiddetle öneririz.
 
     :::
 
-1. Choose *Advanced uninstall*, *Delete AdGuard VPN*, and click *Uninstall*
+1. *Gelişmiş kaldırma*, *AdGuard VPN'i Kaldır* öğesini seçin ve *Kaldır* öğesine tıklayın
 
     ![Gelişmiş kaldırma *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/advanced_uninstall.png)
 
