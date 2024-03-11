@@ -1,5 +1,5 @@
 ---
-title: Installation and removal
+title: インストール方法・削除方法
 sidebar_position: 2
 ---
 
@@ -11,26 +11,26 @@ AdGuard VPN は、 **iOS 11.2以降 および iPadOS 11.2以降**を搭載した
 
 *iOS版AdGuard VPN*アプリは、 *App Store*から無料でダウンロード・インストールすることができます。 App Storeからインストールには、 [こちらのリンク](https://agrd.io/ios_vpn)を開いて「*入手*」ボタンをタップするか、以下の簡単な手順を行ってください:
 
-1. Open the *App Store* app on your device and tap *Search* in the bottom right corner of the screen.
+1. お使いの端末で *App Store*アプリを開き、画面上部の*検索欄*をタップしてください。
 
     ![App Store *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/app-store-en.png)
 
-1. Next, in the search bar, start typing *"AdGuard"* and select *"adguard vpn"* from the list of suggested options.
+1. 次に、検索バーで、 「*AdGuard*」と入力し始め、出てくる候補の中から「*adguard vpn*」を選択します。
 
-    ![Search *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/search-en.png)
+    ![検索 *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/search-en.png)
 
-1. Select *AdGuard VPN - Unlimited & Fast* from the list of suggested apps and tap *Download*. If necessary, enter your Apple ID account password in the opened window.
+1. 「*AdGuard VPN*」を推奨アプリの一覧から選択し、「*入手*」ボタンをタップします。 必要に応じて、開いたウインドウにApple IDアカウントのパスワードを入力してください。
 
     ![AdGuard VPN *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/adguard-vpn-en.png)
 
-1. Wait for the download to finish and tap *Open*.
+1. インストールが完了するのを待って、「*開く*」をタップします。
 
-AdGuard VPN for iOS has been successfully installed!
+AdGuard VPN for iOS インストール完了です。
 
 ## AdGuard VPN for iOS をアンインストール（削除）する方法
 
-If you decided to delete AdGuard VPN for iOS, find the icon of this app on the Home Screen and hold it. In the opened list, tap *Remove App*.
+AdGuard VPN for iOS を削除することを決めた場合、アプリのアイコンを見つけて長押ししてください。 開いたリストで、「*App を削除*」をタップします。
 
-![Uninstall *mobile_border](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/deinstall-en.png)
+![アンインストール *mobile_border](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/deinstall-en.png)
 
-You can learn more about the AdGuard VPN app for iOS in [this article](adguard-vpn-for-ios/overview).
+iOS用AdGuard VPNについて、 [こちらの記事](adguard-vpn-for-ios/overview)で詳しく説明しておりますので、よければご確認ください。

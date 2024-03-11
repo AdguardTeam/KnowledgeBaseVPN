@@ -3,7 +3,7 @@ title: ログの収集と送信方法
 sidebar_position: 2
 ---
 
-If you encounter any problems while using AdGuard VPN for iOS, you can inform us about it by sending the app logs.
+AdGuard VPN for iOS の使用時に問題が発生した場合、アプリのログを送信することで問題についての情報をお知らせいただくことが可能です。
 
 ## 通常ログの収集と送信
 
@@ -11,30 +11,30 @@ If you encounter any problems while using AdGuard VPN for iOS, you can inform us
 
 1. AdGuard VPN for iOS アプリを開き、可能であれば、問題に至った操作を繰り返して、問題を再現してください。 ※問題が発生した時刻を記録しておいてください。
 
-2. Select *Settings* in the lower right corner of the screen, then select *Support* and click *Leave feedback* in it.
+2. メイン画面右下の「*設定*」⚙アイコン→「*サポート*」→「*バグ・不具合を報告する*」をタップします。
 
 3. フォームに、折り返し連絡用メールアドレスを入力し、見つかった問題についての概要、再現方法、発生時間などを記述してください。 問題を再現できない場合は、問題が最後に発生した日時をできるだけ正確に記述してください。
 
-4. There is a check mark next to the *Submit detailed system info*, which means that when you send a report, you also send logs. Finally, click *Send*.
-> もし、別の方法でログをお送りいただく方が便利な場合は、手動でログをエクスポートすることができます。 To do this, select *Export logs* in the *Support* section.
+4. 「*ログとシステム情報を添付する*」チェックボックスにチェックを入れます。これがご報告にログを添付するための項目です。 そして、「*送信する*」をタップします。
+> もし、別の方法でログをお送りいただく方が便利な場合は、手動でログをエクスポートすることができます。 この場合、⚙「設定」→「一般設定」→「*高度な設定*」→「*ログとシステム情報をエクスポート*」をタップしてください。
 
 ## デバッグログの収集と送信
 
 ほとんどの場合、潜在的なバグ・不具合を突き止めるのに「デフォルト」ログレベルが十分です。 しかし、端末や接続に関するより詳細な技術情報が必要な場合もあり、その場合は、AdGuardのサポートチームが、「 拡張ログ」というログレベルを有効にするようお願いすることがあります。 拡張ログを送信する方法は以下の通りです:
 
-1. Open AdGuard VPN for iOS and select *Settings* in the lower right corner of the screen.
+1. AdGuard VPN for iOS アプリを開き、メイン画面右下の ⚙*「設定」*を選択します。
 
-2. Select *App settings* and *Advanced settings* in it.
+2. 「一般設定」→「*高度な設定*」に移動します。
 
-3. In the *Logging level* section, select *Extended*.
+3. 「*ログ・レベル*」→「*拡張ログ*」を選択します。
 
 4. 問題の発生に至った動作を繰り返して問題を再現して、発生時刻を記録します。
 
-5. Switch the logging level back to *Default*.
+5. 「ログ・レベル」を「*デフォルト*」に戻します。
 
-6. Then go back to the main section *Settings*, select *Support* and then *Leave feedback*.
+6. 「*設定*」画面に戻り、「*サポート*」→「*バグ・不具合を報告する*」をタップしてください。
 
 7. フォームに、折り返し連絡用メールアドレスを入力し、問題についての概要、再現手順、発生時間などを記述してください。
 
-8. Make sure that there is a check mark next to *Submit detailed system info* and click *Send*.
-> もし、別の方法でログをお送りいただく方が便利な場合は、手動でログをエクスポートすることができます。 To do this, select *Export logs* in the *Support* section.
+8. 「*ログとシステム情報を添付する*」チェックボックスにチェックを入れて、「*送信する*」をタップします。
+> もし、別の方法でログをお送りいただく方が便利な場合は、手動でログをエクスポートすることができます。 この場合、⚙「設定」→「一般設定」→「*高度な設定*」→「*ログとシステム情報をエクスポート*」をタップしてください。

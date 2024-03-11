@@ -15,106 +15,106 @@ sidebar_position: 1
 
 ## Как начать пользоваться AdGuard VPN для Windows
 
-Чтобы начать пользоваться AdGuard VPN для Windows, скачайте приложение с [нашего сайта](https://adguard-vpn.com/welcome.html). Установка займёт не больше минуты — и вы увидите диалоговое окно, в котором потребуется поставить как минимум одну галочку, чтобы принять условия Пользовательского соглашения и Политики конфиденциальности. And it's up to you to decide whether you want AdGuard to collect anonymous data about your app usage. В завершении процесса установки программа попросит вас войти в систему, либо через [учётную запись AdGuard](https://auth.adguard.com/login.html), либо через социальные сети (Apple, Google, Facebook). Вот и всё, теперь вы можете начать пользоваться AdGuard VPN для Windows.
+Чтобы начать пользоваться AdGuard VPN для Windows, скачайте приложение с [нашего сайта](https://adguard-vpn.com/welcome.html). Установка займёт не больше минуты — и вы увидите диалоговое окно, в котором потребуется поставить как минимум одну галочку, чтобы принять условия Пользовательского соглашения и Политики конфиденциальности. А вот давать ли AdGuard право собирать анонимные данные об использовании приложения на вашем устройстве или нет, решать вам. В завершении процесса установки программа попросит вас войти в систему, либо через [учётную запись AdGuard](https://auth.adguard.com/login.html), либо через социальные сети (Apple, Google, Facebook). Вот и всё, теперь вы можете начать пользоваться AdGuard VPN для Windows.
 
 ## Главный экран
 
-![AdGuard VPN for Windows homepage *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/home_en.jpg)
+![Главный экран AdGuard VPN для Windows *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/home_en.jpg)
 
-The most noticeable item on the **Home screen** is the AdGuard VPN Connect/Disconnect button, below which you can see the selected server. On the right side of the screen you will see a list of available locations. Самая быстрая локация, то есть локация с наименьшим пингом, отображается в верхней части списка. There is also a refresh button that you can click if any locations are offline.
+Самый заметный элемент на **главном экране** — это кнопка включения/отключения AdGuard VPN, под которой отображается выбранный сервер. В правой части экрана вы увидите список всех доступных локаций. Самая быстрая локация, то есть локация с наименьшим пингом, отображается в верхней части списка. Там же находится кнопка обновления (с вращающимися стрелками), которую можно нажать, если какие-то локации не в сети.
 
-At the top of the screen there is a navigation panel with five tabs: **Home**, **Exclusions**, **Stats**. **Support**, and **Settings**.
+Вверху экрана расположена навигационная панель с пятью вкладками: **Главная**, **Исключения**, **Статистика**, **Поддержка**и **Настройки**.
 
 ## Исключения
 
-By default, AdGuard VPN for WIndows works everywhere. You can add websites and apps you want to exclude from the VPN tunnel to the list of exclusions. Or, you can make AdGuard VPN work only on the websites and apps specified in the list of exclusions. Please note that these two lists are independent of each other.
+По умолчанию AdGuard VPN для Windows работает везде. Вы можете добавить в список исключений сайты и приложения, которые хотите исключить из VPN-туннеля. Или же AdGuard VPN может работать только на тех сайтах и приложениях, которые вы укажете в списке исключений. Обратите внимание, что эти два списка исключений не зависят друг от друга.
 
-![Exclusions *border](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_new_en.png)
+![Исключения *border](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_new_en.png)
 
 Вы можете добавить сайты в исключения **вручную**, указав их доменные имена. В приложении также есть возможность выбрать популярные сайты **из списка**.
 
-![Add Exclusions from list *border](https://cdn.adguardvpn.com/content/kb/VPN/windows/new_exclusions_from_list_en.png)
+![Добавить исключения из списка *border](https://cdn.adguardvpn.com/content/kb/VPN/windows/new_exclusions_from_list_en.png)
 
 :::note
 
-When adding domains manually, you should take into account some nuances. For example, if you manually exclude the domain `google.com`, all the subdomains `*.google.com` will also be added to the exclusions list. However, domain names with other top-level domains such as `google.es` or `google.it` will not be excluded. Or you can add `youtube.com` to the exclusions, but the domain of the same service `youtu.be` will not be included in the list.
+При ручном добавлении доменов нужно учитывать некоторые нюансы. Например, если вы вручную исключите домен `google.com`, все поддомены `*.google.com` также будут внесены в список исключений. Однако доменные имена с другими доменами верхнего уровня, такие как `google.es` или `google.it`, не будут исключены. Или вы можете добавить `youtube.com` в исключения, но домен того же сервиса `youtu.be` не попадёт в список.
 
 :::
 
-We recommend using the **From the list** option. Websites are grouped into eight categories: Social networks, Messengers, Video and Music streaming services, Games, Shopping, Search engines, and Work communication tools. We have placed the most popular services there, including all domain names and subdomains related to each platform.
+Мы рекомендуем использовать опцию **Из списка**. Сайты сгруппированы в восемь категорий: Сервисы для работы, Сервисы потокового видео, Социальные сети, Шопинг, Поисковые системы, Мессенджеры, Игры. В каждую группу мы поместили все доменные имена и поддомены, относящиеся к каждому сервису.
 
 ### Импорт/экспорт списков исключений
 
-To export the list of exclusions from AdGuard VPN for Windows to your computer, click **Export exclusions**, select the folder where the list will be stored and click **Save**. An archive `exclusions.zip` with two `.txt` files will be downloaded, one for each of the lists. You can edit them by adding new exclusions or deleting old ones.
+Чтобы выгрузить список исключений из AdGuard VPN для Windows на ваш компьютер, нажмите **Экспортировать исключения**, выберите папку, где будет храниться список, и нажмите **Сохранить**. Будет загружен архив `exclusions.zip` с двумя файлами `.txt`, по одному для каждого из списков. Вы можете их редактировать, добавляя новые исключения или удаляя старые.
 
-On the destination device, open AdGuard VPN, click *Exclusions*, and select *Websites* or *Apps*. Click *Import exclusions* and select the received archive.
+На целевом устройстве откройте AdGuard VPN, нажмите *Исключения*и выберите *`Cайты* или *Приложения*. Нажмите *Импортировать исключения* и выберите полученный архив.
 
-## Stats
+## Статистика
 
-![Statistics screen *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/statistics_en.png)
+![Экран статистики *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/statistics_en.png)
 
-The Statistics screen shows detailed information about your data usage, categorized by both location and app. It highlights your most frequently used locations and applications. You can access statistics for different time periods: daily, monthly, or for the entire time you have been using AdGuard VPN for Windows.
+На экране статистики отображается подробная информация об использовании данных с разделением по локациям и приложениям. Там же видны локации и приложения, которыми вы пользуетесь чаще всего. Вы можете посмотреть статистику за разные периоды времени: за день, месяц или за всё время использования AdGuard VPN для Windows.
 
-Crucially, all this information is stored exclusively on your device, ensuring that only you can view it. Access to the statistics feature is available only to AdGuard VPN subscribers.
+Важно отметить, что вся эта информация хранится исключительно на вашем устройстве, и только у вас есть доступ к ней. Просматривать статистику могут только пользователи с подпиской AdGuard VPN.
 
 ## Настройки
 
-![Settings *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/settings_en.png)
+![Настройки *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/settings_en.png)
 
-The fourth tab contains sections that will help you customize the app.
+Четвёртая вкладка содержит разделы, которые помогут вам настроить приложение.
 
 ### Настройки приложения
 
-![App settings *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/app_settings_en.png)
+![Настройки приложения *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/app_settings_en.png)
 
-In the **App settings** section, you can set the app language and also enable **Kill Switch**, which will block access to the Internet if your VPN connection drops. This is needed to prevent intruders from getting to your data if you find yourself without VPN protection while connected to a public Wi-Fi or mobile network.
+В **Настройках приложения** вы можете установить язык приложения, а также включить **Kill Switch**, благодаря которому при обрыве VPN-соединения будет заблокирован доступ к интернету. Это нужно, чтобы не дать злоумышленникам добраться до ваших данных, если вы окажетесь без защиты VPN, будучи подключёнными к общественному Wi-Fi или к мобильной сети.
 
-You can also activate the following features with a single click: **Auto-update**, **Launch AdGuard VPN at Windows startup**, **Auto-connect on app launch**, and allow AdGuard to collect anonymous app usage data so that the AdGuard team gets the info on potential usability issues. Here you can also change the theme to **Light**, **System**, or **Dark**.
+Одним нажатием на переключатель вы можете активировать следующие функции: **Автообновление**, **Запускать AdGuard VPN при загрузке Windows**, **Автоподключение при запуске приложения**, а ещё разрешить AdGuard собирать анонимизированные данные об использовании приложения, чтобы команда AdGuard получала информацию о потенциальных проблемах юзабилити. Здесь вы также можете изменить тему на **Тёмную**, **Светлую** или **По умолчанию**.
 
-At the bottom of the page there are two sections: **DNS servers** and **Advanced settings**.
+Внизу страницы расположены два важных раздела — **DNS-серверы** и **Расширенные настройки**.
 
 #### DNS-серверы
 
-The **DNS servers** tab allows you to add your own DNS server — manually or from the list. You can set up a DNS server by any provider. We recommend adding [AdGuard DNS](https://adguard-dns.io/kb/general/dns-providers/#adguard-dns), a server that can protect against advertising, tracking, and phishing, in addition to the standard functions.
+Вкладка **DNS-серверы** позволяет добавить собственный DNS-сервер — вручную или из списка. Вы можете настроить DNS-сервер любого провайдера. Мы рекомендуем добавить [AdGuard DNS](https://adguard-dns.io/kb/general/dns-providers/#adguard-dns) — сервер, который помимо стандартных функций защищает от рекламы, трекинга и фишинга.
 
 #### Расширенные настройки
 
-It is entirely possible to use AdGuard VPN for Windows without ever touching the Advanced settings, but they can be useful if you're willing to take time to learn what they do.
+Вы вполне можете пользоваться AdGuard VPN для Windows, вообще не открывая Расширенные настройки. Однако они могут быть полезны, если вы найдёте время в них разобраться.
 
 ##### Режим работы
 
-Despite the fact that there are two operating modes — VPN and SOCKS5 — we advise you to use only the one chosen by default (VPN). When the **VPN mode** is enabled, all the traffic of your device will be directed via AdGuard VPN, while in **SOCKS5 mode** AdGuard VPN uses a local proxy server which can be used by other applications to redirect their traffic.
+Несмотря на то, что режимов работы два — VPN и SOCKS5 — мы советуем использовать лишь тот, что выбран по умолчанию (VPN). При включённом **VPN-режиме** весь трафик устройства направляется через AdGuard VPN, в то время как в **режиме SOCKS5** AdGuard VPN использует локальный прокси-сервер, которым могут воспользоваться другие приложения для перенаправления своего трафика.
 
 ##### Уровень логирования
 
-Two levels of logging are available to choose from: **Record by default** and **Record everything**. The first option is enabled by default. The **Record everything** option should only be activated if our support team has asked you to do so. Using the app in this mode for an extended period of time result in increased battery consumption.
+К выбору доступны два уровня логирования: **Записывать по умолчанию** и **Записывать всё**. Первая опция включена по умолчанию. Опцию **Записывать всё** стоит активировать, только если наша служба поддержки попросила вас об этом. Продолжительная работа приложения в этом режиме может привести к повышенному потреблению ресурса батареи.
 
-All logs are stored locally on your device, and you can send them to the support team if needed.
+Все логи хранятся локально на вашем устройстве, и вы можете отправить их команде поддержки, если возникнет необходимость.
 
 ##### Использовать QUIC
 
-This is an experimental feature that enables AdGuard to use the advanced QUIC encryption protocol. It has many advantages, but the most notable one is that it can improve connection quality under non-ideal conditions, for example, when using mobile Internet or when connecting to public Wi-Fi networks.
+Это экспериментальная функция, включение которой позволит AdGuard использовать передовой протокол шифрования QUIC. У него много преимуществ, но самое заметное в том, что он может улучшать качество соединения в неидеальных условиях — например, при использовании мобильного интернета или при подключении к общественным сетям Wi-Fi.
 
-#### Use WinTun
+#### Использовать WinTun
 
-![Use WinTun *border](https://cdn.adtidy.org/content/release_notes/vpn/windows/v2.2/stats_tab_v2.2_en.png)
+![Использовать WinTun *border](https://cdn.adtidy.org/content/release_notes/vpn/windows/v2.2/stats_tab_v2.2_ru.png)
 
-WinTun is a traffic routing driver commonly used for VPN implementations on Windows that improves the quality of VPN connections by creating a virtual network adapter. By default AdGuard VPN uses the regular WFP driver (and TDI driver for Windows 7).
+WinTun — это драйвер маршрутизации трафика, обычно используемый для реализации VPN в Windows. Он улучшает качество VPN-подключений за счёт создания виртуального сетевого адаптера. По умолчанию AdGuard VPN использует обычный WFP-драйвер (и TDI-драйвер для Windows 7).
 
-#### Subnet exclusions
+#### Исключения подсетей
 
-This feature allows you to add subnets to exclude traffic from specific devices connected to your network. For example, your robot vacuum cleaner.
+Эта функция позволяет добавлять подсети, чтобы исключить трафик от определённых устройств, подключённых к вашей сети. Например, от вашего робота-пылесоса.
 
 ## Другие настройки
 
 ### О программе
 
-The **About** tab provides information about the current version of AdGuard VPN for Windows, an update button, and links to the AdGuard VPN website, EULA, and Privacy policy.
+Во вкладке **О программе** вы найдёте информацию о текущей версии AdGuard VPN для Windows, кнопку проверки наличия обновлений, а также ссылки: на сайт AdGuard VPN, Лицензионное соглашение и Политику конфиденциальности.
 
 ### Личный кабинет
 
-Here you can find information about your license status, as well as a link to your personal AdGuard account, where you can manage your current subscriptions and purchase new ones.
+Здесь размещена информация о статусе вашей лицензии, а также ссылка на ваш личный кабинет AdGuard, где вы можете купить новую подписку, улучшить или продлить уже существующую.
 
 ## Поддержка
 
-This tab is aimed to solve users' questions: there you can find a link to the FAQ page, report a bug or leave feedback, and export logs if the support team asks you to.
+Эта вкладка предназначена для помощи в решении вопросов пользователей: здесь вы найдёте ссылку на FAQ, сможете сообщить об ошибке или оставить отзыв, а также здесь можно экспортировать логи, если служба поддержки попросит вас об этом.

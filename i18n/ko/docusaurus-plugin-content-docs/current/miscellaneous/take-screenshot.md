@@ -17,9 +17,9 @@ Android 기기에서 스크린샷을 찍는 것은 기기 모델 및 제조업�
 
 일반적으로 Android의 경우 다음 버튼 조합을 사용해야 합니다.
 
-- **Press and hold both the *Volume Down* and the *Power* buttons for 1–2 seconds**
+- ***볼륨 축소* 버튼과 *전원*버튼을 동시에 1-2초간 눌러주세요.**
 
-Android will capture the entire screen and save it as a photo. 따라서 갤러리의 스크린샷 폴더에서 스크린샷을 찾을 수 있습니다.
+Android 기기에서는 전체 화면을 캡쳐하여 사진으로 저장할 것입니다. 따라서 갤러리의 스크린샷 폴더에서 스크린샷을 찾을 수 있습니다.
 
 단, 이미 말씀드린 것처럼 특정 기기에 따라 차이가 있을 수 있습니다. 다른 방법을 살펴보겠습니다.
 
@@ -28,9 +28,9 @@ Android will capture the entire screen and save it as a photo. 따라서 갤러�
 
 Android 8 이상에서는 휴대전화의 왼쪽 또는 오른쪽 가장자리를 따라 수직으로 손을 놓고 화면을 터치한 손으로 해당 가장자리에서 안쪽으로 스와이프하여 스크린샷을 찍을 수도 있습니다.
 
-If this method doesn’t work, check *Settings* → *Advanced features* → *Motions and gestures* → enable *Palm swipe to capture*.
+만약 해당 방법이 작동하지 않으면, *설정* → *유용한 기능* → *모션 및 제스쳐* 로 이동하여 *손으로 밀어서 캡처*를 활성화해 주세요.
 
-Besides, you can always use any special apps for taking screenshots on your devices, for example — *Screenshot Easy*, *Screenshot Ultimate*, *Screenshot Snap*, etc.
+더불어, *Screenshot Easy*, *Screenshot Ultimate*, *Screenshot Snap* 등과 같은 특별한 어플을 사용해 디바이스에서 스크린샷을 찍을 수 있습니다.
 
 ### iOS
 
@@ -44,21 +44,21 @@ iPhone X 이상에서 스크린샷을 찍는 방법은 다음과 같습니다.
 
 - ***전원* 버튼과 *볼륨 높이기* 버튼을 동시에 눌렀다가 빠르게 놓습니다.**
 
-iOS will capture the entire screen and save it as a photo. 기본 사진 앱에서 찾을 수 있습니다.
+iOS 기기에서는 전체 화면을 캡쳐하여 사진으로 저장할 것입니다. 기본 사진 앱에서 찾을 수 있습니다.
 
 ### Windows
 
-- **To take a screenshot on a Windows device, press the *PrtScn* button**
+- **Windows 기기에서 스크린샷을 찍고자 한다면 *PrtScn* 버튼을 눌러주세요.**
 
-On some devices, you first have to press and hold *Fn* before pressing *PrtScn*.
+일부 기기에서는 *PrtScn* 버튼을 누르기 전에 *Fn* 버튼을 누르고 있어야 합니다.
 
 :::note
 
-PrtScn (Print Screen) can be differently abbreviated on various keyboards — PrntScrn, PrtScn, PrtScr or PrtSc.
+PrtScn (Print Screen) 버튼은 다양한 키보드에서 다르게 나타날 수도 있습니다 — PrntScrn, PrtScn, PrtScr 또는 PrtSc.
 
 :::
 
-Windows will capture the entire screen and copy it to the (invisible) clipboard.
+Windows 기기에서는 전체 화면을 캡처하여 (보이지 않는) 클립보드에 복사합니다.
 
 활성 창의 스크린샷을 찍으려면 다음 조합을 사용하십시오.
 
@@ -68,21 +68,21 @@ Windows will capture the entire screen and copy it to the (invisible) clipboard.
 
 - ****Win* (Windows 버튼) 및 *Shift*를 누른 상태에서 ***S***를 누릅니다.***
 
-스크린샷을 찍으면 클립보드에 저장됩니다. Usually, you will then be able to paste it into a document using the standard button combination *Ctrl + V*. 또는 스크린샷을 파일로 저장해야 하는 경우 기본 **Paint** 프로그램(또는 이미지로 작업할 수 있는 다른 앱)을 열어야 합니다. 동일한 버튼 조합을 사용하거나 붙여넣기 버튼(일반적으로 화면의 왼쪽 상단 모서리에 있음)을 클릭하여 스크린샷을 붙여 넣은 다음 저장합니다.
+스크린샷을 찍으면 클립보드에 저장됩니다. 보통, 그 다음에는 *Ctrl + V*의 일반 버튼 조합을 사용하여 문서에 붙여넣을 수 있게 됩니다. 또는 스크린샷을 파일로 저장해야 하는 경우 기본 **Paint** 프로그램(또는 이미지로 작업할 수 있는 다른 앱)을 열어야 합니다. 동일한 버튼 조합을 사용하거나 붙여넣기 버튼(일반적으로 화면의 왼쪽 상단 모서리에 있음)을 클릭하여 스크린샷을 붙여 넣은 다음 저장합니다.
 
 Windows 8 및 10 에서는 *Win + PrtScn* 조합으로 매우 빠르게 스크린샷을 찍을 수 있습니다. 이 버튼을 누르자마자 스크린샷은 자동으로 사진 → 스크린샷 폴더에 파일로 저장됩니다.
 
-컴퓨터의 표준 프로그램 중 시작 메뉴를 통해 찾을 수 있는 *Snipping Tool* 이라는 스크린샷 전용 프로그램도 있습니다. 캡처 도구를 사용하면 바탕화면의 모든 영역이나 전체화면을 캡처할 수 있습니다. After taking a screenshot using this program you can edit the picture and then save it.
+컴퓨터의 표준 프로그램 중 시작 메뉴를 통해 찾을 수 있는 *Snipping Tool* 이라는 스크린샷 전용 프로그램도 있습니다. 캡처 도구를 사용하면 바탕화면의 모든 영역이나 전체화면을 캡처할 수 있습니다. 이 프로그램을 사용하여 스크린샷을 찍은 후 사진을 편집하고 저장할 수 있습니다.
 
 게다가 **PicPick**, **Nimbus Screenshot**, **Screenshot Captor**, **Snipaste**, **Monosnap** 등과 같이 컴퓨터에서 스크린샷을 찍기 위해 다른 앱을 사용할 수 있습니다.
 
 ### macOS
 
-To take a screenshot on a Mac device, use the following button combination:
+Mac 기기에서 스크린샷을 찍기 위하여, 다음의 버튼 조합을 사용하세요:
 
 - ******⌘ Cmd + Shift + 3***을 함께 길게 누릅니다.***
 
-Mac will capture the entire screen and save it as a file on the desktop.
+Mac은 전체 화면을 캡처하여 바탕화면에 파일로 저장할 것입니다.
 
 활성 창의 스크린샷을 찍으려면 다음 조합을 사용하십시오.
 

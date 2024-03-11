@@ -1,20 +1,20 @@
 ---
-title: How to use Hide My Email
+title: iOS の「メールを非公開」機能の使用方法
 sidebar_position: 5
 ---
 
-The *Hide My Email* feature is a great tool to keep your real email address private when signing up for websites and apps that use Apple ID. You can even use it for private correspondence and manage all incoming messages just as you would with a regular email account. This way, you can protect your privacy and keep your real email address hidden from prying eyes.
+「*メールを非公開*」機能は、Apple ID を使用するウェブサイトやアプリに登録する際に、実際のメールアドレスを非公開にするための優れたツールです。 通常のメールアカウントと同じように、プライベートなやり取りや受信メッセージの管理にも利用できます。 こうすることで、プライバシーを守り、第三者と侵害から本当のメールアドレスを隠しておくことができます。
 
 :::note
 
-The feature is only available for iOS 15 and higher and requires an iCloud+ subscription.
+この機能はiOS 15以降でのみ利用可能で、iCloud+のサブスクリプションが必要です。
 
 :::
 
-To use this feature, go to *Settings* → [Your name] → *iCloud* → *Hide My Email* and follow the on-screen instructions.
+この機能を使用するには、 *設定アプリ* → [あなたのApple IDのお名前] → *iCloud* → *メールを非公開* と進み、画面の指示に従ってください。
 
-You can generate a unique and random email address that forwards incoming messages to your actual address. It might look like this: chimney-floture@privaterelay.appleid.com. There is no upper limit to the number of email addresses you can create. You can categorize them with labels and use each one for different purposes: signing up, receiving newsletters, etc. Apple ensures that the content of messages handled through the *Hide My Email* service is not inspected beyond standard spam filtering.
+受信メッセージを実際のアドレス受信箱に転送してくれる、ユニークでランダムな電子メールアドレスを生成することができます。 仮メールアドレスは、chimney-floture@privaterelay.appleid.com （例）のようなものになります。 作成できるメールアドレスの数に上限はありません。 仮アドレスをラベルで分類し、登録、ニュースレターの受信など、目的別に使い分けることができます。 Apple は、「*メールを非公開*」サービスを通じて処理されるメッセージのコンテンツが、標準的なスパムフィルタリング以外では検査されないことを保証します。
 
-The *Hide My Email* feature is also available in Apple Mail. To send an email without disclosing your real email address, simply select *Hide My Email* in the *From* field when composing your message.
+*メールを非公開*機能は Apple メールでも利用できます。 実際のメールアドレスを公開せずにメールを送信するには、メッセージを作成する際に「*差出人:*」フィールドを押して「*メールを非公開*」を選択します。
 
-The *Email Protection* service by DuckDuckGo works similarly. You get an `@duck.com` email address and can create email aliases for sign-ups and newsletters. If these aliases begin to attract too much spam, they can be easily discarded.
+DuckDuckGo の *Email Protection* サービスも同様の仕組みです。 `@duck.com` のメールアドレスを取得し、サインアップ・登録やニュースレター・メルマガ用にEメールのエイリアスを作成することができます。 これらのメールエイリアスは、スパム・迷惑メールが多くなり始めたら、簡単に捨てることができます。

@@ -10,7 +10,7 @@ AdGuard VPN Tarayıcı uzantısı günlüklerini toplamanın birkaç yolu vardı
 1. AdGuard VPN Tarayıcı uzantısını açın, mümkünse hataya neden olan işlemleri tekrarlayın. Bu hatanın oluştuğu tam zamana dikkat edin.
 1. Hamburger menü simgesine (☰) tıklayarak *Ayarlar* öğesini açın → *Destek* → *Hata bildir*.
 1. Açılan formda, otomatik olarak eklenen bir e-posta adresi bırakın veya başka bir tane girin ve bu hatanın meydana geldiği zaman da dahil olmak üzere bulunan hatayı açıklayın. Sorunu yeniden oluşturamıyorsanız, en son ne zaman oluştuğunu olabildiğince doğru bir şekilde belirtin.
-1. Make sure that there is a check mark next to *Include the diagnostic report in the message* and tap *Submit*. Bu şekilde, hata raporuyla birlikte günlükleri de göndermiş olursunuz.
+1. *Tanılama raporunu mesaja dahil et* öğesinin yanında bir onay işareti olduğundan emin olun ve *Gönder* öğesine dokunun. Bu şekilde, hata raporuyla birlikte günlükleri de göndermiş olursunuz.
 
 ## *Günlükleri dışa aktar* düğmesi aracılığıyla günlükleri toplama ve gönderme
 

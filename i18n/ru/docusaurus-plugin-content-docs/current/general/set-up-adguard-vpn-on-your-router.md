@@ -13,33 +13,33 @@ sidebar_position: 8
 
 ## Как настроить AdGuard VPN на роутере
 
-1. In your [AdGuard account](https://auth.adguard.com/login.html), select AdGuard VPN.
+1. [В личном кабинете AdGuard](https://auth.adguard.com/login.html) выберите AdGuard VPN.
 
-2. Under _Devices_, click _Add router_.
+2. В разделе _Устройства_ нажмите _Добавить роутер_.
 
-   ![Add router \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/2_year.jpg)
+   ![Добавить роутер \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/2_year.jpg)
 
-3. Select the desired VPN server location and generate credentials.
+3. Выберите локацию VPN-сервера и сгенерируйте учётные данные.
 
-   ![Generate credentials \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/configure_router.png)
+   ! [Сгенерировать учётные данные \*mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/general/configure_router.png)
 
    :::note
 
-   The next steps may vary depending on your router. В качестве примера мы использовали роутер Keenetic.
+   Следующие шаги могут отличаться в зависимости от вашего роутера. В качестве примера мы использовали роутер Keenetic.
 
    :::
 
-4. In your admin page, go to the router settings.
+4. На странице администратора перейдите в настройки роутера.
 
-5. Enable _VPN Client_ and click _Add VPN server_.
+5. Включите _VPN-клиент_ и нажмите _Добавить VPN-сервер_.
 
-6. Select IPsec-client (it may be called IKE; not L2TP/IPsec).
+6. Выберите IPsec-client (он может называться IKE, но не L2TP/IPsec).
 
-7. Enter the credentials you created in step 3.
+7. Введите учётные данные, созданные в шаге 3.
 
    ![Введите учётные данные \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/vpn_connection.jpg)
 
-8. Connect devices to your router.
+8. Подключите устройства к роутеру.
 
 :::note
 
@@ -51,4 +51,4 @@ sidebar_position: 8
 
 - С AdGuard VPN на роутере ни у вашего VPN-провайдера, ни у кого-либо ещё не будет доступа к вашим действиям в интернете
 - AdGuard VPN на роутере защищает всю вашу сеть, а это означает, что все подключённые к ней устройства будут в безопасности
-- You can enhance security and protect your data on devices where it's not possible to install AdGuard VPN apps — smart TVs (currently, AdGuard VPN is only available on Android TV) and game consoles
+- Вы можете повысить безопасность и защитить свои данные на устройствах, на которые невозможно установить приложения AdGuard VPN — смарт-телевизорах (в настоящее время AdGuard VPN доступен только на Android TV) и игровых консолях

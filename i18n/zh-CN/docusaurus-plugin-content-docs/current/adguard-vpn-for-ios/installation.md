@@ -15,11 +15,11 @@ AdGuard VPN 只能安装在装有 **iOS 11.2 和 iPadOS 11.2 或更高版本**�
 
     ![App Store *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/app-store-en.png)
 
-1. 接下来，在搜索栏中输入 *“AdGuard”*，并在推荐列表中选择 *AdGuard VPN*。
+1. 接下来，在搜索栏中输入*「AdGuard」*，并在推荐列表中选择 *「AdGuard VPN」*。
 
     ![搜索 *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/search-en.png)
 
-1. Select *AdGuard VPN - Unlimited & Fast* from the list of suggested apps and tap *Download*. 如有必要，请在打开的窗口中输入 Apple ID 账户密码。
+1. 从推荐的应用程序列表中选择*「AdGuard VPN - Unlimited & Fast」*并点击*「下载」*。 如有必要，请在打开的窗口中输入 Apple ID 账户密码。
 
     ![AdGuard VPN *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/adguard-vpn-en.png)
 

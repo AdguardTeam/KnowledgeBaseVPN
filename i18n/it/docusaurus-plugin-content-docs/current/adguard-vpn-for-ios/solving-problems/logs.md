@@ -32,7 +32,7 @@ Nella maggior parte dei casi, il livello di registrazione predefinito è suffici
 
 5. Riporta il livello di registrazione a *Predefinito*.
 
-6. Quindi, torna alla sezione principale *Impostazioni*, selezona *Supporto*, quindi *Lascia feedback*.
+6. Quindi, torna alla sezione principale *Impostazioni*, seleziona *Supporto*, quindi *Lascia feedback*.
 
 7. Nel modulo aperto, inserisci il tuo indirizzo e-mail per il feedback e descrivi l'errore riscontrato, inclusa l'ora in cui si è verificato l'errore.
 

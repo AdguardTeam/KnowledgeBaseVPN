@@ -9,7 +9,7 @@ sidebar_position: 2
 
 **RAM**: en az 2 GB
 
-**Free disk space**: 120 MB
+**Boş disk alanı**: 120 MB
 
 ## Mac için AdGuard VPN nasıl kurulur
 
@@ -40,7 +40,7 @@ Mac için AdGuard VPN'i kaldırmak için iki basit adımı takip edin:
 
 ### Gelişmiş kaldırma
 
-Sometimes, as a result of incorrect removal or in other rare cases, the standard uninstallation may not be enough. In that case, our support may ask you to perform an advanced uninstall to completely remove AdGuard VPN from your Mac. Bunu yapmak için aşağıdakileri yapın:
+Bazen hatalı kaldırma sonucunda veya diğer nadir durumlarda standart kaldırma yeterli olmayabilir. Bu durumda, desteğimiz AdGuard VPN'i Mac'inizden tamamen kaldırmak için gelişmiş bir kaldırma işlemi gerçekleştirmenizi isteyebilir. Bunu yapmak için aşağıdakileri yapın:
 
 1. ["Standart kaldırma"](#how-to-uninstall-adguard-vpn-for-mac) bölümünde açıklanan adımları takip edin.
 2. "Finder" veya "Spotlight" öğesini açın ve aramaya `Anahtar Zinciri` yazın. ![Gelişmiş kaldırma. Anahtar Zinciri yazın](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-key-chain-en.png)

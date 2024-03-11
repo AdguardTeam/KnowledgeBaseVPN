@@ -6,7 +6,7 @@ slug: /
 
 ## VPNとは何ですか？どのようなことに必要なのですか？
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/7149L3xPmSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" class="youtube-video" src="https://www.youtube-nocookie.com/embed/7149L3xPmSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 VPNを利用すると、インターネット上の別のネットワークに安全な接続を確立することができます。
 

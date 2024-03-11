@@ -5,7 +5,7 @@ sidebar position: 1
 
 
 
-Windows için AdGuard VPN kullanırken herhangi bir sorunla karşılaşırsanız, bizi bu konuda bilgilendirebilirsiniz. We would appreciate it if you also send application logs, as they help us resolve issues much quicker.
+Windows için AdGuard VPN kullanırken herhangi bir sorunla karşılaşırsanız, bizi bu konuda bilgilendirebilirsiniz. Sorunları daha hızlı çözmemize yardımcı oldukları için uygulama günlüklerini de gönderirseniz çok memnun oluruz.
 
 ## Standart günlükleri toplama ve gönderme
 

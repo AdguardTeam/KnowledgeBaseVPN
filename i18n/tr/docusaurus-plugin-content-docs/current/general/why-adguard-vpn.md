@@ -45,13 +45,13 @@ Tüm VPN sunucusu konumlarına erişmek için bir AdGuard VPN aboneliği satın 
 
 ## 5. AdGuard Reklam Engelleyici ile entegrasyon
 
-With desktop apps and web browser extensions, there are rarely conflicts between apps, except for antiviruses and other similar types of software.
+Masaüstü uygulamaları ve web tarayıcı uzantılarıyla, antivirüsler ve diğer benzer yazılım türleri dışında uygulamalar arasında nadiren çakışma olur.
 
 Mobil cihazlarda ise bu o kadar basit değildir. Çoğu durumda iki VPN tabanlı uygulama birlikte çalışmaz. Hem Android hem de iOS'ta bunu engelleyen sınırlamalar vardır.
 
 ![Entegre mod](https://cdn.adguard.com/content/blog/articles/adguard-vpn/integration-en.png)
 
-Ancak AdGuard VPN ve AdGuard Reklam Engelleyici ile arkadaş olmak için bir çözüm bulmayı başardık. Her iki AdGuard uygulamasını da bir cihaza yüklediğinizde, sizden herhangi bir işlem yapmanıza gerek kalmadan otomatik olarak uyumlu hâle gelirler. Bu, normalde aralarından seçim yapmanız gereken iki özellik grubundan yararlanmak için eşsiz bir fırsattır.
+Ancak AdGuard VPN ve AdGuard Reklam Engelleyici ile arkadaş olmak için bir çözüm bulmayı başardık. Her iki AdGuard uygulamasını da bir cihaza yüklediğinizde, sizden herhangi bir işlem yapmanıza gerek kalmadan otomatik olarak uyumlu hâle gelirler. Bu, normalde aralarından seçim yapmanız gereken iki özellik grubundan yararlanmak için benzersz bir fırsattır.
 
 ## 6. QUIC desteği
 
@@ -67,7 +67,7 @@ QUIC protokolü oldukça yenidir ve kararsız olabilir. Her durumda tam güvenil
 
 ## 7. Kill Switch
 
-Örneğin, sık sık bir mobil ağ kullanıyorsanız veya alışveriş merkezlerinde, kafelerde, metroda veya havalimanı herkese Wi-Fi ağlarına bağlanıyorsanız, Kill Switch çok önemlidir. For the simple reason that if your VPN suddenly fails and the connection becomes insecure, chances are your sensitive information will be exposed to fraudsters or cyber criminals.
+Örneğin, sık sık bir mobil ağ kullanıyorsanız veya alışveriş merkezlerinde, kafelerde, metroda veya havalimanı herkese Wi-Fi ağlarına bağlanıyorsanız, Kill Switch çok önemlidir. Basit bir sebepten dolayı, VPN'iniz aniden başarısız olursa ve bağlantı güvensiz hâle gelirse, hassas bilgilerinizin dolandırıcılara veya siber suçlulara maruz kalma ihtimali vardır.
 
 Herhangi bir nedenle VPN bağlantınız kesilirse Kill Switch otomatik olarak internet bağlantınızı keserek saldırganların bilgilerinizi ele geçirmesini engeller.
 
@@ -93,7 +93,7 @@ Aboneliği olmayanlar AdGuard VPN'i *aynı anda iki cihazda* kullanabilir, bu da
 
 Canlı yayın akışı hizmetleri, bariz nedenlerle VPN'leri sevmiyor: istatistiklere göre, kullanıcıların yaklaşık %20'si, coğrafi engellemeyi atlayarak esas olarak programları, TV programları ve filmleri izlemek için bir VPN yüklüyor. Bu nedenle canlı yayın akışı platformları, VPN trafiğini izlemek ve engellemek için ellerinden gelen her şeyi yapma eğilimindedir.
 
-But what if you want to feel safe while watching content specific to your region? Or don't want to stop watching exciting series even when you travel to another country? Cevap basit — AdGuard VPN, benzersiz protokolü sayesinde hizmetler için görünmez kalabilir.
+Peki ya bölgenize özel içerikler izlerken kendinizi güvende hissetmek istiyorsanız? Ya da başka bir ülkeye seyahat ederken bile heyecan verici dizileri izlemeyi bırakmak istemiyor musunuz? Cevap basit — AdGuard VPN, benzersiz protokolü sayesinde hizmetler için görünmez kalabilir.
 
 Telif hakkı düzenlemelerini atlamak için AdGuard VPN kullanımını onaylamıyoruz.
 

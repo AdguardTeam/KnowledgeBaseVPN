@@ -33,6 +33,6 @@ AdGuard VPN을 즐기세요!
 
 오른쪽 상단에 있는 점 세 개의 아이콘을 클릭하시고 *확장 프로그램*을 선택합니다. AdGuard VPN을 목록에서 찾은 다음, 세 개의 점 아이콘을 고른 후 *Microsoft Edge에서 제거*를 클릭합니다.
 
-### Opera
+### 오페라
 
-Click the *Extensions* icon in the top right corner of the browser, then select *Manage extensions...*. Find AdGuard VPN in the list and click the *Remove* button.
+브라우저 오른쪽 상단에 있는 *확장 프로그램* 아이콘을 클릭하신 후, *확장 프로그램 관리*를 선택합니다. AdGuard VPN을 목록에서 찾은 다음, *제거* 버튼을 클릭합니다.

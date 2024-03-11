@@ -20,7 +20,7 @@ sidebar_position: 1
 
 ## Настройки
 
-Здесь собрано несколько важных настроек. Here you can choose a DNS server to use, add or remove the AdGuard VPN icon from the browser’s context menu, block WebRTC, change the extension's theme, and allow AdGuard to gather anonymous crash reports and technical data.
+Здесь собрано несколько важных настроек. Вы можете выбрать DNS-сервер, добавить или удалить иконку AdGuard VPN из контекстного меню браузера, заблокировать WebRTC, изменить тему расширения, а также позволить AdGuard собирать анонимные отчёты о сбоях и технические данные.
 
 ### Выбор DNS-сервера
 

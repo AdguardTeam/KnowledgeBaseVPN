@@ -13,7 +13,7 @@ Un VPN es una herramienta ideal que brinda seguridad y anonimato cada vez que na
 - Evitar el seguimiento de la actividad en línea al enmascarar la dirección IP
 - Ocultar la geolocalización real para permanecer anónimo
 
-AdGuard VPN para Android puede hacerlo todo por usted, e incluso ofrecer algo único. Para saber por qué AdGuard VPN es la mejor opción - lea [este artículo](/general/why-adguard-vpn).
+AdGuard VPN para Android puede hacerlo todo por usted, e incluso ofrecer algo único. Para saber por qué AdGuard VPN es la mejor opción - lee [este artículo](/general/why-adguard-vpn).
 
 ## Cómo empezar usar AdGuard VPN para Android
 
@@ -21,9 +21,9 @@ Primeramente, descargue AdGuard VPN desde [Google Play](https://play.google.com/
 
 ## Pantalla principal
 
-La pantalla principal refleja el estado de la VPN (Conectado/Desconectado). También está el botón *Conectar/Desconectar* y una lista de servidores disponibles.
+La pantalla principal refleja el estado de la VPN (Conectado/Desconectado). También hay el botón *Conectar/Desconectar* y una lista de servidores disponibles.
 
-Cada servidor tiene su ubicación y su velocidad de ping, que describe el tiempo de respuesta del servidor. Cuanto menor sea esta velocidad de ping, más rápida será la conexión. Los servidores más rápidos siempre aparecen en la parte superior de la lista, la cual cuenta con más de 50 ubicaciones en decenas de países. Puede conectarse al servidor más rápido tocando el botón *Conectar* o eligiendo una ubicación.
+Cada servidor tiene su ubicación y su velocidad de ping, que describe el tiempo de respuesta del servidor. Cuanto menor sea esta velocidad de ping, más rápida será la conexión. Los servidores más rápidos siempre aparecen en la parte superior de la lista, la cual cuenta con más de 50 ubicaciones en decenas de países. Puedes conectarte al servidor más rápido tocando el botón *Conectar* o eligiendo una ubicación.
 
 ## Exclusiones
 
@@ -31,7 +31,7 @@ Hemos hecho todo lo posible para facilitarte la administración de las listas de
 
 ### Listas de exclusiones
 
-Las listas de exclusión le permiten administrar la conexión VPN para sitios web y aplicaciones específicas. Para acceder a *Exclusiones*, toque el segundo ícono de la izquierda en la parte inferior de la pantalla. Para llegar a la sección *Exclusiones*, toque el segundo icono de la izquierda en la parte inferior de la pantalla.
+Las listas de exclusiones te permiten administrar la conexión VPN para sitios web y aplicaciones específicas. Para acceder a *Exclusiones*, toca el segundo ícono de la izquierda en la parte inferior de la pantalla. Para llegar a la sección *Exclusiones*, toque el segundo icono de la izquierda en la parte inferior de la pantalla.
 
 De forma predeterminada, AdGuard VPN funciona para todos los sitios web y aplicaciones, excepto aquellos agregados a exclusiones, pero puedes cambiar fácilmente al otro modo.
 
@@ -41,13 +41,13 @@ Puedes agregar dominios (p. ej., `google.com`) o subdominios (p. ej., `*.google.
 
 ![Exclusiones](https://cdn.adguardvpn.com/public/Adguard/kb/VPN/Screenshots/add_site_android.jpg)
 
-:::nota
+:::note
 
 Hay algunos detalles para la adición manual de dominios. Por ejemplo, si excluyes manualmente el dominio `yahoo.com`, todos los subdominios `*.yahoo.com` también se añadirán a la lista de exclusiones. Sin embargo, no se excluirán los nombres de dominio con otros dominios de nivel superior, como `yahoo.jp` o `yahoo.fr`. O puedes añadir `youtube.com` a las exclusiones, pero el dominio del mismo servicio `youtu.be` no se incluirá en la lista. En este caso, es más seguro usar listas de servicios integradas, porque ponemos todos los subdominios relacionados con cada plataforma.
 
 :::
 
-Ya que puedes habilitar subdominios en las listas de servicios, agregamos cuadros que reflejan el estado de cada servicio; puede verlos en la pantalla principal de *Exclusiones* a la izquierda de cada nombre de servicio:
+Ya que puedes habilitar subdominios en las listas de servicios, agregamos cuadros que reflejan el estado de cada servicio; puedes verlos en la pantalla principal de *Exclusiones* a la izquierda de cada nombre de servicio:
 
 - **Totalmente habilitado** se indica con una marca de verificación blanca sobre un fondo verde
 - **Parcialmente habilitado** (subdominios habilitados sin el dominio principal) está marcado con un cuadrado verde sobre fondo blanco
@@ -68,9 +68,9 @@ Otra función útil es *Exclusiones de importación/exportación*. Sólo son nec
 
 #### Para aplicaciones
 
-Como mencionamos anteriormente, no solo los sitios web se pueden agregar fácilmente a las exclusiones. Elija para qué aplicaciones necesitas AdGuard VPN y para cuáles no.
+Como mencionamos anteriormente, no solo los sitios web se pueden agregar fácilmente a las exclusiones. Elige para qué aplicaciones necesitas AdGuard VPN y para cuáles no.
 
-En *Modo integrado*, solo puedes administrar aplicaciones a través de AdGuard Ad Blocker.
+En *Modo integrado*, solo puedes administrar aplicaciones a través del bloqueador de anuncios AdGuard.
 
 ![Exclusiones de aplicaciones *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/apps_settings.png)
 
@@ -78,7 +78,7 @@ En *Modo integrado*, solo puedes administrar aplicaciones a través de AdGuard A
 
 Puedess acceder a *Configuración* presionando el ícono de ajustes en la parte inferior derecha de la pantalla. La primera sección es *Configuración de la aplicación*: configura AdGuard VPN para Android según tus necesidades seleccionando diferentes opciones.
 
-![Configuración de aplicación *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/app_settings.png)
+![Configuración de las apps *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/app_settings.png)
 
 ### Inicio automático de AdGuard VPN
 
@@ -86,7 +86,7 @@ El control deslizante cambiado a la derecha habilita un inicio automático de Ad
 
 ### Servidores DNS
 
-Los servidores DNS traducen los nombres de los sitios web a algo que los navegadores puedan entender, es decir, direcciones IP. AdGuard VPN para Android ofrece una amplia selección de servidores DNS, cada uno con cualidades especiales. Por ejemplo, [AdGuard DNS](https://adguard-dns.io/kb/) elimina anuncios y protege su dispositivo contra el seguimiento, mientras que AdGuard DNS Family Protection combina las funciones de AdGuard DNS con búsqueda segura y bloqueo de contenido para adultos. También hay una opción para agregar un servidor DNS personalizado.
+Los servidores DNS traducen los nombres de los sitios web a algo que los navegadores puedan entender, es decir, direcciones IP. AdGuard VPN para Android ofrece una amplia selección de servidores DNS, cada uno con cualidades especiales. Por ejemplo, [AdGuard DNS](https://adguard-dns.io/kb/) elimina anuncios y protege tu dispositivo contra el seguimiento, mientras que AdGuard DNS Family Protection combina las funciones de AdGuard DNS con búsqueda segura y bloqueo de contenido para adultos. También hay una opción para agregar un servidor DNS personalizado.
 
 ### Protección automática
 
@@ -100,23 +100,23 @@ Tenga en cuenta que si Kill Switch está activado, *Configuración de la app* y 
 
 ### Tema
 
-You can choose the system default, system dynamic, dark or light theme of the app.
+Puedes elegir el tema por defecto, dinámico, oscuro o claro de la aplicación.
 
-![System dynamic theme *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/systemtheme.png)
+![Tema dinámico del sistema *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/systemtheme.png)
 
-![Light theme *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/lighttheme.png)
+![Tema claro *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/lighttheme.png)
 
-![Dark theme *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/darktheme.png)
+![Tema oscuro *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/darktheme.png)
 
 ### Configuración avanzada
 
 En *Configuración avanzada*, puedes encontrar cuatro secciones.
 
-*El modo de funcionamiento* le permite especificar cómo se enruta su tráfico. Hay tres modos: VPN, SOCKS5 y modo integrado. En el modo *VPN*, todo el tráfico se enruta a través de AdGuard VPN. En el modo *SOCKS5*, AdGuard VPN ejecuta un servidor proxy local que otras aplicaciones pueden utilizar para enrutar el tráfico. *El modo integrado* permite que AdGuard VPN y AdGuard Ad Blocker funcionen juntos.
+*El modo de funcionamiento* te permite especificar cómo se enruta tu tráfico. Hay tres modos: VPN, SOCKS5 y modo integrado. En el modo *VPN*, todo el tráfico se enruta a través de AdGuard VPN. En el modo *SOCKS5*, AdGuard VPN ejecuta un servidor proxy local que otras aplicaciones pueden utilizar para enrutar el tráfico. *El modo integrado* permite que AdGuard VPN y el bloqueador de anuncios AdGuard funcionen juntos.
 
-:::nota
+:::note
 
-Algunas funciones de AdGuard VPN están deshabilitadas en *Modo integrado*: servidores DNS, Kill Switch, protección automática y exclusiones de aplicaciones. Puede administrar la protección DNS y enrutar aplicaciones a través de su proxy VPN AdGuard en la aplicación AdGuard Ad Blocker.
+Algunas funciones de AdGuard VPN están deshabilitadas en *Modo integrado*: servidores DNS, Kill Switch, protección automática y exclusiones de aplicaciones. Puedes administrar la protección DNS y enrutar aplicaciones a través de tu proxy AdGuard VPN en la app bloqueador de anuncios AdGuard.
 
 :::
 
@@ -124,7 +124,7 @@ Las dos secciones siguientes son *Nivel de registro* y *Información de diagnós
 
 La última sección de *Configuración avanzada* es *Configuración de bajo nivel*. Le recomendamos que no ingrese a esta sección a menos que esté altamente calificado o nuestro equipo de soporte se lo haya pedido. Aquí es posible habilitar el registro de la interfaz TUN o el protocolo IPv6 en la interfaz VPN, elegir un puerto de servidor proxy o la versión del protocolo de Internet que se debe usar.
 
-:::Compatibilidad
+:::note Compatibilidad
 
 La opción *Habilitar IPv6* solo está disponible para redes que admiten IPv6.
 

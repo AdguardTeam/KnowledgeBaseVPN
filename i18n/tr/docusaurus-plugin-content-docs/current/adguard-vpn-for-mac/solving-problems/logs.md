@@ -3,7 +3,7 @@ title: 'Günlükler nasıl toplanır ve gönderilir'
 sidebar_position: 1
 ---
 
-If you encounter any problems while using AdGuard VPN for Mac, you can inform us about it by sending application logs.
+Mac için AdGuard VPN kullanırken herhangi bir sorunla karşılaşırsanız, uygulama günlüklerini göndererek bizi bu konuda bilgilendirebilirsiniz.
 
 ## Standart günlükleri toplama ve gönderme
 

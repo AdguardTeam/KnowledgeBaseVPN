@@ -54,7 +54,7 @@ AdGuard VPN 有几个独特的功能，其中之一就是*排除*。 默认情�
 
 :::
 
-## Stats
+## 统计数据
 
 ![Statistics screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/statistics_en.png)
 

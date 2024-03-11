@@ -1,5 +1,5 @@
 ---
-title: How to set up AdGuard VPN on your router
+title: 如何在路由器上设置 AdGuard VPN
 sidebar_position: 8
 ---
 
