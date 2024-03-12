@@ -23,7 +23,8 @@ By default, AdGuard VPN for Windows uses the standard logging level, that is, th
 
 4. There is a check mark next to the **Send detailed system info**, which means that when you send a report, you also send logs.
 
->If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, go to **Support** → **Export logs and system info**.
+> If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, go to **Support** → **Export logs and system info**.
+
 ![Export *border](https://cdn.adtidy.org/content/kb/vpn/windows/logs/export.jpeg)
 
 ## Collecting and sending extended logs
@@ -48,5 +49,6 @@ In most cases, the default logging level is sufficient to trace down possible bu
 
 7. Make sure that there is a check mark next to **Send detailed system info** and click **Send**.
 
->If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, go to **Support** → **Export logs and system info**.
+> If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, go to **Support** → **Export logs and system info**.
+
 ![Export *border](https://cdn.adtidy.org/content/kb/vpn/windows/logs/export.jpeg)
