@@ -3,8 +3,6 @@ title: 'How to collect and send logs'
 sidebar position: 1
 ---
 
-
-
 If you encounter any problems while using AdGuard VPN for Windows, you can inform us about it. We would appreciate it if you also send application logs, as they help us resolve issues much quicker.
 
 ## Collecting and sending standard logs
