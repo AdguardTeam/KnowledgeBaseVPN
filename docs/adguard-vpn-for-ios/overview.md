@@ -122,7 +122,7 @@ Technical information that can be useful in solving technical problems and is so
 
 Quick actions are the convenient way to do useful or any app-specific actions from the Home screen without opening an app.
 
-To access the quick actions menu, tap and hold the AdGuard VPN app icon, then lift your finger. In the opened menu you will see quick actions: Connect/Disconnect, Select location, Show All Windows, Share App, Edit Home Screen, and Remove app.
+To access the quick actions menu, tap and hold the AdGuard VPN app icon, then lift your finger. In the opened menu, you will see quick actions: *Connect* or *Disconnect*, *Select location*, *Edit Home Screen*, *Share App*, and *Remove App*.
 
 ![Quick actions *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/quick-action-menu.png)
 
