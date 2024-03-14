@@ -13,7 +13,7 @@ By default, AdGuard VPN for iOS uses the *Default* logging level, that is, the b
 
 2. Open AdGuard VPN and tap *Settings* ⚙ icon in the lower right corner of the screen, then tap *Support* and *Report a bug*.
 
-3. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred. If you can't reproduce the problem, specify as accurately as possible when it last occurred.
+3. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred. If you can’t reproduce the problem, specify as accurately as possible when it last occurred.
 
 4. Tick the *Send app logs and system info* checkbox, which means that when you send a report your logs will be sent along with it.
 
