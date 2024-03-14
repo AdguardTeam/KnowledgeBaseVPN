@@ -80,7 +80,7 @@ DNS servers translate a domain name or hostname (e.g., example.com or www.exampl
 
 ### Theme
 
-You can choose system default, dark or light theme of the app (available in iOS 13 and later versions).
+You can set your app theme to System, Dark, or Light (available in iOS 13 or later).
 
 ### Advanced settings
 
