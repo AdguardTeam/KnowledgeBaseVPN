@@ -13,7 +13,7 @@ If you already have AdGuard Ad Blocker when installing AdGuard VPN, this mode wi
 
 If you have installed AdGuard VPN first and only then decided to try AdGuard Ad Blocker, follow these steps to use two apps together:
 
-1. Open AdGuard VPN for iOS and tap *Settings* ⚙ icon in the lower right corner of the screen.
+1. Open AdGuard VPN for iOS and tap the Settings ⚙ icon in the lower right corner of the screen.
 
 2. Tap *General* → *Operating mode*.
 
