@@ -32,7 +32,7 @@ With AdGuard VPN, you can choose from over 50 locations in dozens of countries.
 
 ## Exclusions
 
-You can find the Exclusions tab by tapping second icon in the bottom bar. There you will see two exclusion lists, for *Regular* and *Selective* modes.
+You can find the Exclusions tab by tapping the second icon in the bottom bar. There you will see two exclusion lists, for *Regular* and *Selective* modes.
 
 In *Regular* mode, the VPN works for all websites except the excluded ones. Conversely, in *Selective* mode, the VPN only works for websites from the list.
 
