@@ -65,7 +65,7 @@ You can do it in four steps:
 
 To open General settings:
 
-1. Tap Settings icon (⚙) in the bottom right corner of the AdGuard VPN app's main screen.
+1. Tap the Settings icon (⚙) in the bottom right corner of the app’s main screen.
 2. Tap *General*.
 
 Here, you can configure AdGuard VPN for iOS as you need using different options: Operating Mode, DNS server, Wi-Fi auto-protection, Color Theme and Advanced Settings.
