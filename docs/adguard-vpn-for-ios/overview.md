@@ -39,7 +39,7 @@ In *Regular* mode, the VPN works for all websites except the excluded ones. Conv
 You can add domains (e.g. `google.com`) or subdomains (e.g. `*.google.com`) of websites to the lists in two ways:
 
 - Enter them manually in the app
-- add them directly from the browser by sharing the desired pages with AdGuard VPN
+- Add them directly from the browser by sharing the desired pages with AdGuard VPN
 
 ![Exclusions *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/exclusions-add.png)
 
