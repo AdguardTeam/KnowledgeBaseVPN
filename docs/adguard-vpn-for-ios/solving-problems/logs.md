@@ -40,7 +40,7 @@ In most cases, the default logging level is sufficient to trace down possible bu
 
 7. In the opened form, enter your email address for feedback and describe the error found, including the exact time when this error occurred.
 
-8. Make sure that *Send app logs and system info* checkbox is ticked and press *Send* button.
+8. Make sure that *Send app logs and system info* is checked and tap *Send*.
 
 >If for some reason it is more convenient for you to send us logs in another way, you can export them yourself.
 >To do this, go to *Settings* → *General* → *Advanced* and tap *Export logs and system info*.
