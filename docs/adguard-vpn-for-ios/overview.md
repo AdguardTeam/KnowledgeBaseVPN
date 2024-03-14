@@ -57,7 +57,7 @@ You can do it in four steps:
 
 4. Open AdGuard VPN on the device where you want to import the archive with the ready lists of exclusions. Find the appropriate section, click the *Import* button and select the archive.
 
-**In AdGuard VPN for iOS the export/import feature can be accessed by tapping three-dot icon in upper right corner of the Exclusions screen**.
+**In AdGuard VPN for iOS, the export and import features can be accessed by tapping the three-dot icon in the upper right corner of the Exclusions screen**.
 
 ![Import/export exclusions *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/exclusions-3dot-menu.png)
 
