@@ -36,7 +36,7 @@ In most cases, the default logging level is sufficient to trace down possible bu
 
 5. Switch the logging level back to *Default*.
 
-6. Go back to *Settings* screen, tap *Support* and then *Report a bug*.
+6. Go back to *Settings*, tap *Support* and then *Report a bug*.
 
 7. In the opened form, enter your email address for feedback and describe the error found, including the exact time when this error occurred.
 
