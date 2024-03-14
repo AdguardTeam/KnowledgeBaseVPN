@@ -102,7 +102,7 @@ In **Integrated** mode, you can't use the Exclusions feature or choose a DNS ser
 
 #### Logging level
 
-This setting is needed mainly for debug and troubleshooting purposes, due to the fact that Extended and Extreme logging levels record more detailed information which can help identify and fix various problems or bugs.
+This setting is primarily used for debugging and troubleshooting purposes. The Extended and Extreme logging levels record more detailed information that can help identify and fix various problems or bugs.
 
 :::caution
 
