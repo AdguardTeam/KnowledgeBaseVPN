@@ -24,7 +24,7 @@ If you don't have an AdGuard account yet, you will have to create it first.
 
 Using AdGuard VPN is quite easy. On the main screen you can see the *Connect* (*Disconnect*) button and the list of available servers (we call them *locations*). Each server has its own location (a certain country and a city) and ping indicator.
 
-The ping shows the server's response time (in milliseconds) which tells you how fast the connection will be if you choose to connect to that location. Choosing the server with a ping of 22 ms means that a data packet sent to this server is returned (received again) after 22 ms.
+The ping shows the server’s response time in milliseconds. This indicates how fast the VPN connection will be when you connect to that location. Selecting a server with a ping of 22 ms means that a data packet sent to this server will be returned in 22 ms.
 
 In AdGuard VPN you can choose from over 50 locations in dozens of countries.
 
