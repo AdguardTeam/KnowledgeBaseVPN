@@ -128,7 +128,7 @@ To access the quick actions menu, tap and hold the AdGuard VPN app icon, then li
 
 ## Support
 
-On the Support screen (*Settings* ⚙ icon at the bottom right → *Support*) there is a variety of helping features: FAQ, Report a bug, Request a feature and Rate app. The latter lets you rate AdGuard VPN for iOS in the App Store.
+The Support screen (*Settings* → *Support*) has a number of helpful features: *FAQ*, *Report a bug*, *Request a feature*, and *Rate app*. The latter allows you to rate AdGuard VPN for iOS on the App Store.
 
 ![Support *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/support.png)
 
