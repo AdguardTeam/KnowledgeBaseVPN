@@ -84,7 +84,7 @@ You can choose system default, dark or light theme of the app (available in iOS 
 
 ### Advanced settings
 
-In *Advanced settings* you can find 4 sections — Operating mode, Logging level, Export logs and system info, Diagnostic info.
+In *Advanced settings*, you can find 4 sections — *Operating mode*, *Logging level*, *Export logs and system info*, and *Diagnostic info*.
 
 #### Operating mode
 
