@@ -28,7 +28,7 @@ Or you can use App Store's search to find AdGuard VPN:
     ![AdGuard VPN *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/adguard-vpn-en.png)
 
 1. Wait for the download to finish and for *OPEN* button to appear.
-1. Tap *OPEN* button to open the AdGuard VPN app.
+1. Tap *OPEN* to open the AdGuard VPN app.
 
 That's it! AdGuard VPN for iOS has been successfully installed on your iOS device.
 
