@@ -134,6 +134,6 @@ On the Support screen (*Settings* ⚙ icon at the bottom right → *Support*) th
 
 ## Subscription screen
 
-If you are using the free version of AdGuard VPN, there will be the fourth tab with an arrow icon on the bottom tab bar. In this section you will find brief information about the main advantages of the paid version of the app and will be able to choose a yearly or monthly subscription.
+If you are using the free version of AdGuard VPN, there will be another tab with an arrow icon on the bottom tab bar. This section briefly describes the main benefits of the paid version of the app. You can choose a yearly or monthly subscription.
 
 ![Subscription *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/unlimited.png)
