@@ -26,7 +26,7 @@ Using AdGuard VPN is quite easy. On the main screen you can see the *Connect* (*
 
 The ping shows the server’s response time in milliseconds. This indicates how fast the VPN connection will be when you connect to that location. Selecting a server with a ping of 22 ms means that a data packet sent to this server will be returned in 22 ms.
 
-In AdGuard VPN you can choose from over 50 locations in dozens of countries.
+With AdGuard VPN, you can choose from over 50 locations in dozens of countries.
 
 ![Main screen and locations *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/main-locations.png)
 
