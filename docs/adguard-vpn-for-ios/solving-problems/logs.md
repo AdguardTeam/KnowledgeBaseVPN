@@ -19,8 +19,12 @@ By default, AdGuard VPN for iOS uses the *Default* logging level. It collects ba
 
 5. Tap *Send*.
 
->If for some reason it is more convenient for you to send us logs in another way, you can export them yourself.
->To do this, go to *Settings* → *General* → *Advanced* and tap *Export logs and system info*.
+:::info
+
+If for some reason it is more convenient for you to send us logs in another way, you can export them yourself.
+To do this, go to *Settings* → *General* → *Advanced* and tap *Export logs and system info*.
+
+:::
 
 ## Collecting and sending detailed logs
 
@@ -42,5 +46,9 @@ In most cases, the default logging level is sufficient to track possible bugs. H
 
 8. Make sure that *Send app logs and system info* is checked and tap *Send*.
 
->If for some reason it is more convenient for you to send us logs in another way, you can export them yourself.
->To do this, go to *Settings* → *General* → *Advanced* and tap *Export logs and system info*.
+:::info
+
+If for some reason it is more convenient for you to send us logs in another way, you can export them yourself.
+To do this, go to *Settings* → *General* → *Advanced* and tap *Export logs and system info*.
+
+:::
