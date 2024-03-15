@@ -3,7 +3,7 @@ title: How to subscribe
 sidebar_position: 6
 ---
 
-AdGuard VPN is available in two versions — free and unlimited. The subscription allows you to use the app without any restrictions on traffic, connection speed and the choice of locations. You can [read more about all the advantages of the unlimited version](/general/free-vs-unlimited).
+AdGuard VPN is available in two versions — a free and a paid one. The subscription allows you to use the app without any restrictions on traffic, connection speed and the choice of locations. [Read more about all the advantages of AdGuard VPN Unlimited](/general/free-vs-unlimited).
 
 ## How to purchase a subscription
 
@@ -16,13 +16,13 @@ If you have decided to purchase a subscription to AdGuard VPN, there are two way
 
 The subscription can be canceled in your AdGuard account. To cancel your subscription:
 
- 1. In your AdGuard account, go to [Licenses](https://my.adguard.com/en/account/licenses).
+ 1. In your AdGuard account, go to [Licenses](https://my.adguard.com/account/licenses).
  1. Click *Cancel subscription* below the subscription you no longer need.
 
 The canceled subscription will be valid until its expiry date.
 
 :::note
 
-Subscriptions purchased on the App Store can be managed in the App Store account or in the device's settings.
+Subscriptions purchased on the App Store can be managed in your Apple ID.
 
 :::
