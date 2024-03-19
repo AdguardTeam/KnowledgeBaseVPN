@@ -63,13 +63,13 @@ In the opened window, agree to close the service
 
 ![Attention *mobile](https://cdn.adtidy.org/content/kb/vpn/windows/logs/attention.png)
 
-2. Open the console (type cmd in the start panel).
+1. Open the console (type cmd in the start panel).
 
-2. Run the application with the command `C:\"Program Files (x86)"\AdGuardVpn\AdGuardVpnSvc.exe /trace` if you are using 64-bit Windows, and `C:\"Program Files"\AdGuardVpn\AdGuardVpnSvc.exe /trace` if you are using 32-bit.
+1. Run the application with the command `C:\"Program Files (x86)"\AdGuardVpn\AdGuardVpnSvc.exe /trace` if you are using 64-bit Windows, and `C:\"Program Files"\AdGuardVpn\AdGuardVpnSvc.exe /trace` if you are using 32-bit.
 
-2. Reproduce the issue. We strongly recommend that you note the exact time when you reproduce the problem: this will help our support team to find relevant log entries and resolve the problem faster.
+1. Reproduce the issue. We strongly recommend that you note the exact time when you reproduce the problem: this will help our support team to find relevant log entries and resolve the problem faster.
 
-2. Export the recorded logs: *Support* -> *Export logs and system info*.
+1. Export the recorded logs: *Support* -> *Export logs and system info*.
 
 Don't worry if your log file is large. We need to know as many details as possible in order to fix your problem.
 
