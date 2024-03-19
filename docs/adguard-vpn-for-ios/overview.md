@@ -124,7 +124,7 @@ By turning this option on you are helping us understand better how users interac
 
 ### Kill Switch
 
-If for some reason your VPN connection suddenly drops, *Kill Switch* will automatically terminate the internet connection, making sure your data doesn't leak and your identity stays hidden.
+If for some reason your VPN connection suddenly drops, *Kill Switch* will automatically terminate the Internet connection, making sure your data doesn’t leak and your identity stays hidden.
 
 ## Quick actions
 
