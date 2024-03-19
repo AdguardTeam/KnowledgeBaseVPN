@@ -50,3 +50,31 @@ In most cases, the default logging level is sufficient to trace down possible bu
 > If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, go to **Support** → **Export logs and system info**.
 
 ![Export *border](https://cdn.adtidy.org/content/kb/vpn/windows/logs/export.jpeg)
+
+## Collecting and sending trace logs
+
+Sometimes our support team might ask you to send the trace logs. To do this, you need to do the following steps:
+
+1. Right click the AdGuard VPN icon in the trace menu and choose *Exit AdGuard VPN*.
+
+![Exit *mobile](https://cdn.adtidy.org/content/kb/vpn/windows/logs/exit.png)
+
+> In the opened window, agree to close the service
+
+![Attention *mobile](https://cdn.adtidy.org/content/kb/vpn/windows/logs/attention.png)
+
+2. Open the console (type cmd in the start panel).
+
+2. Run the application with the command `C:\"Program Files (x86)"\AdGuardVpn\AdGuardVpnSvc.exe /trace` if you are using 64-bit Windows, and `C:\"Program Files"\AdGuardVpn\AdGuardVpnSvc.exe /trace` if you are using 32-bit.
+
+2. Reproduce the issue. We strongly recommend that you note the exact time when you reproduce the problem: this will help our support team to find relevant log entries and resolve the problem faster.
+
+2. Export the recorded logs: *Support* -> *Export logs and system info*.
+
+Don't worry if your log file is large. We need to know as many details as possible in order to fix your problem.
+
+> If you encounter some problems while trying to export logs, there is an alternative way. Please follow these steps:
+1. Open *My PC* and go to *ProgramData* -> *AdguardVPN* folder in Local Disc (C:)
+1. Locate the folder called *Logs*
+1. Archive the folder
+1. Send it to our support team
