@@ -59,7 +59,7 @@ Sometimes our support team might ask you to send the trace logs. To do this, you
 
 ![Exit *mobile](https://cdn.adtidy.org/content/kb/vpn/windows/logs/exit.png)
 
-> In the opened window, agree to close the service
+In the opened window, agree to close the service
 
 ![Attention *mobile](https://cdn.adtidy.org/content/kb/vpn/windows/logs/attention.png)
 
@@ -73,8 +73,12 @@ Sometimes our support team might ask you to send the trace logs. To do this, you
 
 Don't worry if your log file is large. We need to know as many details as possible in order to fix your problem.
 
-> If you encounter some problems while trying to export logs, there is an alternative way. Please follow these steps:
+**Please note**: if you encounter some problems while trying to export logs, there is an alternative way. Please follow these steps:
+
 1. Open *My PC* and go to *ProgramData* -> *AdguardVPN* folder in Local Disc (C:)
+
 1. Locate the folder called *Logs*
+
 1. Archive the folder
+
 1. Send it to our support team
