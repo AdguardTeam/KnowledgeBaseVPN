@@ -17,7 +17,7 @@ AdGuard VPN Mac版是一个桌面 VPN 服务。 AdGuard VPN 与 AdGuard 广告�
 
 ![主屏幕](https://cdn.adguardvpn.com/content/kb/vpn/mac/vpn_main_new_en.jpeg)
 
-第一个标签是*主页*屏幕。 Here you can see the current status of AdGuard VPN, the selected location (if enabled) and its ping. Ping 是指 VPN 服务器的响应时间。 The lower the number, the faster the connection. If VPN is disabled, the last location you connected to is displayed at the bottom.
+第一个标签是*主页*屏幕。 在这里，您可以查看AdGuard VPN的当前状态，所选位置（如果已启用）以及ping。 Ping 是指 VPN 服务器的响应时间。 The lower the number, the faster the connection. If VPN is disabled, the last location you connected to is displayed at the bottom.
 
 The fastest locations with the lowest pings are displayed in the upper right corner of the screen. There is also a refresh button that you can click if any locations are offline. 下面用户可以看到全部服务器位置的列表。 The search field makes it easy to find the location you need.
 

@@ -17,7 +17,7 @@ Pokud potřebujete VPN pro jednu nebo více aplikací, nastavte AdGuard VPN tak,
 3. V dalším okně se ujistěte, že je vybrána možnost *Je otevřeno*, a poté klepnutím na *Vybrat* vyberte aplikaci.
 
 ![Instruction. Part 2](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_on2_en.jpg)
-4. Začněte zadávat název aplikace, (v našem případě je to Twitter) a vyberte ji. Klepněte na *Hotovo* a poté klepněte na *Další* v pravém horním rohu obrazovky. V otevřeném okně klepněte na *Přidat akci*.
+4. Start entering the name of the app (in our case it’s Twitter) and select it. Klepněte na *Hotovo* a poté klepněte na *Další* v pravém horním rohu obrazovky. V otevřeném okně klepněte na *Přidat akci*.
 
 ![Instruction. Part 3](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_on3_en.jpg)
 5. Začněte zadávat “AdGuard VPN” a vyberte aplikaci AdGuard VPN. V novém okně klepněte na *Nastavit připojení VPN*.

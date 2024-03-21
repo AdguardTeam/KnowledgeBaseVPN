@@ -17,7 +17,7 @@ iOS용 AdGuard VPN에는 앱 예외 기능이 없습니다. 하지만 아이폰�
 3. 다음 창에서 *열릴 때* 옵션이 선택되어 있는지 확인한 후 *선택*을 누릅니다.
 
 ![지침. 제2부](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_on2_en.jpg)
-4. 앱 이름(예: Twitter)을 입력하고 선택합니다. *완료*를 누른 후 화면 오른쪽 상단의 *다음*을 누릅니다. 열린 창에서 *동작 추가*를 누릅니다.
+4. Start entering the name of the app (in our case it’s Twitter) and select it. *완료*를 누른 후 화면 오른쪽 상단의 *다음*을 누릅니다. 열린 창에서 *동작 추가*를 누릅니다.
 
 ![지침. 제3부](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_on3_en.jpg)
 5. ‘AdGuard VPN’ 입력을 시작하고 AdGuard VPN 앱을 선택합니다. 새 창에서 *VPN 연결 설정*을 탭합니다.

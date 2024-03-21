@@ -7,34 +7,46 @@ Pokud při používání AdGuard VPN pro iOS narazíte na problém, můžete ná
 
 ## Shromažďování a odesílání standardních protokolů
 
-Ve výchozím nastavení používá AdGuard VPN pro iOS standardní úroveň záznamů, tj. základní sběr dat o spuštěných procesech aplikace. Chcete-li tyto protokoly odeslat, postupujte podle následujících kroků:
+By default, AdGuard VPN for iOS uses the *Default* logging level. It collects basic data about running app processes. Chcete-li tyto protokoly odeslat, postupujte podle následujících kroků:
 
-1. Otevřete AdGuard VPN pro iOS a pokud je to možné, zopakujte akce, které vedly k chybě. Zaznamenejte přesný čas, kdy k této chybě došlo.
+1. Connect to AdGuard VPN for iOS. If possible, repeat the actions that led to the error. Note the exact time when the error occurred (e.g. 15:35).
 
-2. Vyberte *Nastavení* v pravém dolním rohu obrazovky, poté vyberte *Podpora* a klikněte na *Zanechat zpětnou vazbu*.
+2. Open AdGuard VPN and tap the Settings ⚙ icon in the lower right corner of the screen. Select *Support*, then tap *Report a bug*.
 
-3. V otevřeném formuláři zadejte svou e-mailovou adresu pro zpětnou vazbu a popište nalezenou chybu, včetně času, kdy k ní došlo. Pokud nemůžete problém reprodukovat, uveďte co nejpřesněji, kdy k němu naposledy došlo.
+3. V otevřeném formuláři zadejte svou e-mailovou adresu pro zpětnou vazbu a popište nalezenou chybu, včetně času, kdy k ní došlo. If you can’t reproduce the problem, specify as accurately as possible when it last occurred.
 
-4. Vedle položky *Odeslat podrobné systémové informace* je zaškrtávací políčko, což znamená, že při odesílání hlášení se odesílají také protokoly. Nakonec klikněte na *Odeslat*.
-> Pokud je pro vás z nějakého důvodu pohodlnější poslat nám protokoly jiným způsobem, můžete je exportovat sami. Chcete-li to provést, vyberte *Exportovat záznamy* v části *Podpora*.
+4. Check the *Send app logs and system info* checkbox. When you send your report, your logs will be attached to it.
 
-## Shromažďování a odesílání rozšířených protokolů
+5. Tap *Send*.
 
-Ve většině případů je výchozí úroveň záznamů dostatečná pro dohledání případných chyb. V některých případech jsou však vyžadovány podrobnější technické informace o zařízení a připojeních, a pak vás náš tým podpory požádá o povolení rozšířené úrovně záznamů. Chcete-li odeslat tento typ protokolů, postupujte podle následujících kroků:
+:::info
 
-1. Otevřete AdGuard VPN pro iOS a vyberte *Nastavení* v pravém dolním rohu obrazovky.
+Pokud je pro vás z nějakého důvodu pohodlnější poslat nám protokoly jiným způsobem, můžete je exportovat sami. To do this, go to *Settings* → *General* → *Advanced* and tap *Export logs and system info*.
 
-2. Vyberte *Nastavení aplikace* a *Pokročilá nastavení*.
+:::
 
-3. V části *Úroveň záznamu* vyberte *Pokročilý*.
+## Collecting and sending detailed logs
 
-4. Zopakujte akce, které vedly k chybě a zaznamenejte čas, kdy k ní došlo.
+In most cases, the default logging level is sufficient to track possible bugs. However, sometimes more detailed technical information about the device and connections may be required. In this case, our support team will ask you to enable the *Extended* or *Extreme* logging level. Chcete-li odeslat tento typ protokolů, postupujte podle následujících kroků:
+
+1. Open AdGuard VPN for iOS and tap the Settings ⚙ icon in the lower right corner of the screen.
+
+2. Select *General* and then *Advanced*.
+
+3. In the *Logging level* section, select *Extended* or *Extreme*.
+
+4. Repeat the actions that led to the error and note the time when it occurred (e.g. 14:23).
 
 5. Přepněte úroveň záznamů zpět na *Výchozí*.
 
-6. Poté se vraťte do hlavní části *Nastavení*, vyberte *Podpora* a poté *Zanechte zpětnou vazbu*.
+6. Go back to *Settings*, tap *Support* and then *Report a bug*.
 
-7. V otevřeném formuláři zadejte svou e-mailovou adresu pro zpětnou vazbu a popište nalezenou chybu, včetně času, kdy k ní došlo.
+7. In the opened form, enter your email address for feedback and describe the error found, including the exact time when this error occurred.
 
-8. Ujistěte se, že je zaškrtnuto *Odeslat podrobné systémové informace* a klikněte na *Odeslat*.
-> Pokud je pro vás z nějakého důvodu pohodlnější poslat nám protokoly jiným způsobem, můžete je exportovat sami. Chcete-li to provést, vyberte *Exportovat záznamy* v části *Podpora*.
+8. Make sure that *Send app logs and system info* is checked and tap *Send*.
+
+:::info
+
+Pokud je pro vás z nějakého důvodu pohodlnější poslat nám protokoly jiným způsobem, můžete je exportovat sami. To do this, go to *Settings* → *General* → *Advanced* and tap *Export logs and system info*.
+
+:::
