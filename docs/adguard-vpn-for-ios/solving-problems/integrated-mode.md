@@ -21,6 +21,6 @@ If you have installed AdGuard VPN first and only then decided to try AdGuard Ad 
 
 :::note
 
-In *Integrated mode*, *Exclusions* and *DNS server* features are not available.
+In *Integrated mode*, *Exclusions* and *DNS server* are not available.
 
 :::
