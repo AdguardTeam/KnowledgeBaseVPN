@@ -25,13 +25,13 @@ By default, AdGuard VPN for Windows uses the standard logging level, that is, th
 
 ![Export *border](https://cdn.adtidy.org/content/kb/vpn/windows/logs/export.jpeg)
 
-**Please note**: if you encounter some problems while trying to export logs, there is an alternative way. Please follow these steps:
+**Note**: if you encounter any problems while trying to export logs, there is an alternative way. Please follow these steps:
 
-1. Open `explorer` app
+1. Open the Explorer app
 
 1. Paste `%rpgramdata%/adguardvpn` in the search box
 
-1. Locate the folder called **Logs**
+1. Find the folder called **Logs**
 
 1. Archive the folder
 
@@ -63,13 +63,13 @@ In most cases, the default logging level is sufficient to trace down possible bu
 
 ![Export *border](https://cdn.adtidy.org/content/kb/vpn/windows/logs/export.jpeg)
 
-**Please note**: if you encounter some problems while trying to export logs, there is an alternative way. Please follow these steps:
+**Note**: if you encounter some problems while trying to export logs, there is an alternative way. Please follow these steps:
 
-1. Open `explorer` app
+1. Open the Explorer app
 
 1. Paste `%rpgramdata%/adguardvpn` in the search box
 
-1. Locate the folder called **Logs**
+1. Find the folder called **Logs**
 
 1. Archive the folder
 
@@ -83,7 +83,7 @@ Sometimes our support team might ask you to send the trace logs. To do this, you
 
 ![Exit *mobile](https://cdn.adtidy.org/content/kb/vpn/windows/logs/exit.png)
 
-Agree to close the service if you see the warning message.
+If you see the warning message, agree to stop the service.
 
 ![Attention *mobile](https://cdn.adtidy.org/content/kb/vpn/windows/logs/attention.png)
 
@@ -93,17 +93,17 @@ Agree to close the service if you see the warning message.
 
 1. Reproduce the issue. We strongly recommend that you note the exact time when you reproduce the problem: this will help our support team to find relevant log entries and resolve the problem faster.
 
-1. Export the recorded logs: **Support** -> **Export logs and system info**.
+1. Export the recorded logs: **Support** → **Export logs and system info**.
 
 Don't worry if your log file is large. We need to know as many details as possible in order to fix your problem.
 
-**Please note**: if you encounter some problems while trying to export logs, there is an alternative way. Please follow these steps:
+**Note**: if you encounter some problems while trying to export logs, there is an alternative way. Please follow these steps:
 
-1. Open `explorer` app
+1. Open the Explorer app
 
 1. Paste `%rpgramdata%/adguardvpn` in the search box
 
-1. Locate the folder called **Logs**
+1. Find the folder called **Logs**
 
 1. Archive the folder
 
