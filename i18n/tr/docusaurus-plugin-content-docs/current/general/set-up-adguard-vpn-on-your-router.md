@@ -51,4 +51,4 @@ VPN sunucu konumunu değiştirmek istiyorsanız yönlendirici ayarlarınızı g�
 
 - Yönlendiricinizdeki AdGuard VPN ile ne VPN sağlayıcınız ne de başka biri internet etkinliğinize erişemez
 - Yönlendiricinize AdGuard VPN kurmak tüm ağınızı güvence altına alır, yani ağa bağlı tüm cihazlar korunur
-- You can enhance security and protect your data on devices where it's not possible to install AdGuard VPN apps — smart TVs (currently, AdGuard VPN is only available on Android TV) and game consoles
+- AdGuard VPN uygulamalarını yüklemenin mümkün olmadığı cihazlarda güvenliği artırabilir ve verilerinizi koruyabilirsiniz — akıllı TV'ler (şu anda AdGuard VPN yalnızca Android TV'de mevcuttur) ve oyun konsolları

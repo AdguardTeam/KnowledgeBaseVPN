@@ -5,18 +5,22 @@ sidebar_position: 3
 
 AdGuard VPN 有两种操作模式：「*常规模式*」和「*整合模式*」。
 
-默认启用常规模式并使用 [AdGuard VPN 协议](/general/adguard-vpn-protocol)。 该模式是连接速度和安全性的最佳组合。 不过，常规模式不支持 AdGuard VPN 和 AdGuard Ad Blocker 同时工作。
+The *VPN* mode is enabled by default and uses the [AdGuard VPN protocol](/general/adguard-vpn-protocol). 该模式是连接速度和安全性的最佳组合。 不过，常规模式不支持 AdGuard VPN 和 AdGuard Ad Blocker 同时工作。
 
-而整合模式使用的是 IPsec 协议，可以使 AdGuard 系列应用协同工作。 如果您在安装 AdGuard VPN 时已经安装了 AdGuard Ad Blocker，那么整合模式会自动开启使得同系列应用程序同时运行。 如果您先安装了 AdGuard VPN，然后才决定试用 AdGuard Ad Blocker，请按照以下步骤操作以同时使用两款应用。
+*Integrated mode*, in turn, uses the IPsec protocol, which makes it possible for the AdGuard apps to work together.
 
-1. 打开 AdGuard VPN iOS 版，选择屏幕右下角的「*设置*」。
+If you already have AdGuard Ad Blocker when installing AdGuard VPN, this mode will turn on automatically and allow you to use both our apps at the same time.
 
-2. 点击「*应用设置*」，选择「*操作模式*」。
+If you have installed AdGuard VPN first and only then decided to try AdGuard Ad Blocker, follow these steps to use two apps together:
+
+1. Open AdGuard VPN for iOS and tap the Settings ⚙ icon in the lower right corner of the screen.
+
+2. Tap *General* → *Operating mode*.
 
 3. 将模式从「*VPN*」切换到「*集成模式*」。 完成！
 
-:::注意
+:::note
 
-在「*集成模式*」下，「*排除项*」和「*DNS 服务器*」不可用。
+In *Integrated mode*, *Exclusions* and *DNS server* are not available.
 
 :::

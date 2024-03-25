@@ -5,18 +5,22 @@ sidebar_position: 3
 
 У AdGuard VPN два режима работы: *VPN* и *Интегрированный*.
 
-По умолчанию включён режим работы VPN, при котором используется протокол [AdGuard VPN](/general/adguard-vpn-protocol). Он обеспечивает лучшую комбинацию скорости и безопасности соединения. Однако этот режим работы не позволяет одновременно работать AdGuard VPN и Блокировщику рекламы AdGuard.
+The *VPN* mode is enabled by default and uses the [AdGuard VPN protocol](/general/adguard-vpn-protocol). Он обеспечивает лучшую комбинацию скорости и безопасности соединения. Однако этот режим работы не позволяет одновременно работать AdGuard VPN и Блокировщику рекламы AdGuard.
 
-Интегрированный режим, в свою очередь, использует IPSec-протокол, при котором возможна совместная работа приложений AdGuard. Если у вас при установке AdGuard VPN уже есть Блокировщик AdGuard, то этот режим включится автоматически и позволит вам пользоваться нашими приложениями одновременно. Если же сначала вы установили AdGuard VPN, а уже потом решили попробовать Блокировщик AdGuard, то, чтобы пользоваться ими совместно, выполните следующие действия:
+*Integrated mode*, in turn, uses the IPsec protocol, which makes it possible for the AdGuard apps to work together.
 
-1. Откройте приложение AdGuard VPN для iOS и выберите *Настройки* в правом нижнем углу экрана.
+If you already have AdGuard Ad Blocker when installing AdGuard VPN, this mode will turn on automatically and allow you to use both our apps at the same time.
 
-2. Перейдите *в Настройки приложений* и выберите *Режим работы*.
+If you have installed AdGuard VPN first and only then decided to try AdGuard Ad Blocker, follow these steps to use two apps together:
+
+1. Open AdGuard VPN for iOS and tap the Settings ⚙ icon in the lower right corner of the screen.
+
+2. Tap *General* → *Operating mode*.
 
 3. Переключите режим с *VPN* на *Интегрированный*. Готово!
 
 :::note
 
-*В Интегрированном режим* *Исключения* и *DNS-сервер* недоступны.
+In *Integrated mode*, *Exclusions* and *DNS server* are not available.
 
 :::

@@ -5,18 +5,22 @@ sidebar_position: 3
 
 O AdGuard VPN tem dois modos operacionais: *VPN* e *Integrado*.
 
-O modo VPN é ativado de forma padrão e utiliza o [protocolo AdGuard VPN](/general/adguard-vpn-protocol). Ele fornece a melhor combinação de velocidade de conexão e segurança. Entretanto, este modo operacional não permite que o AdGuard VPN e o Bloqueador de Anúncios do AdGuard funcionem simultaneamente.
+The *VPN* mode is enabled by default and uses the [AdGuard VPN protocol](/general/adguard-vpn-protocol). Ele fornece a melhor combinação de velocidade de conexão e segurança. Entretanto, este modo operacional não permite que o AdGuard VPN e o Bloqueador de Anúncios do AdGuard funcionem simultaneamente.
 
-No modo Integrado, no entanto, utiliza-se o protocolo IPsec, o que possibilita que os aplicativos do AdGuard funcionem juntos. Se você já tiver o Bloqueador de Anúncios do AdGuard quando for instalar o AdGuard VPN, esse modo será ativado automaticamente e permitirá que você use nossos aplicativos ao mesmo tempo. Se você tiver instalado o AdGuard VPN primeiro e só então decidiu experimentar o Bloqueador de Anúncios do AdGuard, siga esses passos para conseguir usar os dois aplicativos ao mesmo tempo:
+*Integrated mode*, in turn, uses the IPsec protocol, which makes it possible for the AdGuard apps to work together.
 
-1. Abra o AdGuard VPN para iOS e selecione *Configurações* no canto inferior direito da tela.
+If you already have AdGuard Ad Blocker when installing AdGuard VPN, this mode will turn on automatically and allow you to use both our apps at the same time.
 
-2. Vá para *Configurações do Aplicativo* e selecione *Modo operacional*.
+If you have installed AdGuard VPN first and only then decided to try AdGuard Ad Blocker, follow these steps to use two apps together:
+
+1. Open AdGuard VPN for iOS and tap the Settings ⚙ icon in the lower right corner of the screen.
+
+2. Tap *General* → *Operating mode*.
 
 3. Troque o modo de *VPN* para *Integrado*. Pronto!
 
 :::note
 
-No *Modo integrado*, as *Exclusões* e o *servidor DNS* não estão disponíveis.
+In *Integrated mode*, *Exclusions* and *DNS server* are not available.
 
 :::

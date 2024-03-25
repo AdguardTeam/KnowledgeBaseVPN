@@ -7,34 +7,46 @@ Si vous rencontrez des problèmes lors de l'utilisation d'AdGuard VPN pour iOS, 
 
 ## Collecte et envoi de journaux standard
 
-Par défaut, AdGuard VPN pour iOS utilise le niveau de journalisation standard, c'est-à-dire la collecte simple de données sur les processus en cours d'exécution de l'application. Pour envoyer ces journaux, procédez comme suit :
+By default, AdGuard VPN for iOS uses the *Default* logging level. It collects basic data about running app processes. Pour envoyer ces journaux, procédez comme suit :
 
-1. Ouvrez AdGuard VPN pour iOS et, si possible, répétez les actions qui ont conduit à l'erreur. Notez l'heure exacte à laquelle cette erreur s'est produite.
+1. Connect to AdGuard VPN for iOS. If possible, repeat the actions that led to the error. Note the exact time when the error occurred (e.g. 15:35).
 
-2. Sélectionnez *Paramètres* dans le coin inférieur droit de l'écran, puis sélectionnez *Assistance* et cliquez sur *Laisser un commentaire* dedans.
+2. Open AdGuard VPN and tap the Settings ⚙ icon in the lower right corner of the screen. Select *Support*, then tap *Report a bug*.
 
-3. Dans le formulaire ouvert, entrez votre adresse e-mail pour commentaires et décrivez l'erreur trouvée, y compris l'heure à laquelle cette erreur s'est produite. Si vous ne pouvez pas reproduire le problème, indiquez aussi précisément que possible quand il s'est produit pour la dernière fois.
+3. Dans le formulaire ouvert, entrez votre adresse e-mail pour commentaires et décrivez l'erreur trouvée, y compris l'heure à laquelle cette erreur s'est produite. If you can’t reproduce the problem, specify as accurately as possible when it last occurred.
 
-4. La case *Envoyer des infos système détaillées* est cochée, ce qui signifie que lorsque vous envoyez un rapport, vous envoyez également les journaux. Enfin, cliquez sur *Envoyer*.
-> Si, pour une raison quelconque, il est plus pratique pour vous de nous envoyer les journaux d'une autre manière, vous pouvez les exporter vous-même. Pour cela, sélectionnez *Exporter les journaux* dans la section *Assistance* .
+4. Check the *Send app logs and system info* checkbox. When you send your report, your logs will be attached to it.
 
-## Collecte et envoi de journaux détaillés
+5. Tap *Send*.
 
-Dans la plupart des cas, le niveau de journalisation par défaut est suffisant pour détecter les bogues éventuels. Mais il existe des cas où des informations techniques plus détaillées sur l'appareil et les connexions sont requises, puis notre équipe d'assistance vous demandera d'activer le niveau de journalisation étendu. Pour envoyer ce type de journaux, procédez comme suit :
+:::info
 
-1. Ouvrez AdGuard VPN pour iOS et sélectionnez *Paramètres* dans le coin inférieur droit de l'écran.
+Si, pour une raison quelconque, il est plus pratique pour vous de nous envoyer les journaux d'une autre manière, vous pouvez les exporter vous-même. To do this, go to *Settings* → *General* → *Advanced* and tap *Export logs and system info*.
 
-2. Sélectionnez *Paramètres de l'application* et *Paramètres avancés* .
+:::
 
-3. Dans la section *Niveau de journalisation* , sélectionnez *Amplifiée*.
+## Collecting and sending detailed logs
 
-4. Répétez les actions qui ont conduit à l'erreur, notez ensuite l'heure à laquelle elle s'est produite.
+In most cases, the default logging level is sufficient to track possible bugs. However, sometimes more detailed technical information about the device and connections may be required. In this case, our support team will ask you to enable the *Extended* or *Extreme* logging level. Pour envoyer ce type de journaux, procédez comme suit :
+
+1. Open AdGuard VPN for iOS and tap the Settings ⚙ icon in the lower right corner of the screen.
+
+2. Select *General* and then *Advanced*.
+
+3. In the *Logging level* section, select *Extended* or *Extreme*.
+
+4. Repeat the actions that led to the error and note the time when it occurred (e.g. 14:23).
 
 5. Remettez le niveau de journalisation sur *Par défaut*.
 
-6. Revenez ensuite à la section principale *Paramètres*, sélectionnez *Assistance* puis *Laisser un commentaire*.
+6. Go back to *Settings*, tap *Support* and then *Report a bug*.
 
-7. Dans le formulaire ouvert, saisissez votre adresse e-mail pour commentaires et décrivez l'erreur trouvée, y compris l'heure à laquelle cette erreur s'est produite.
+7. In the opened form, enter your email address for feedback and describe the error found, including the exact time when this error occurred.
 
-8. Assurez-vous que la case *Envoyer des informations système détaillées* est cochée et faites clic sur *Envoyer*.
-> Si, pour une raison quelconque, il est plus pratique pour vous de nous envoyer les journaux d'une autre manière, vous pouvez les exporter vous-même. Pour cela, sélectionnez *Exporter les journaux* dans la section *Assistance* .
+8. Make sure that *Send app logs and system info* is checked and tap *Send*.
+
+:::info
+
+Si, pour une raison quelconque, il est plus pratique pour vous de nous envoyer les journaux d'une autre manière, vous pouvez les exporter vous-même. To do this, go to *Settings* → *General* → *Advanced* and tap *Export logs and system info*.
+
+:::

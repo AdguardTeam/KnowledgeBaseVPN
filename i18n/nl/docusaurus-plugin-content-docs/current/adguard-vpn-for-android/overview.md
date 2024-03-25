@@ -1,43 +1,43 @@
 ---
-title: Features overview
+title: Overzicht van functies
 sidebar_position: 1
 ---
 
-## What is AdGuard VPN for Android?
+## Wat is AdGuard VPN voor Android?
 
-A VPN is an ideal tool that provides security and anonymity each time you browse the Internet. [How does it work?](/general/how-vpn-works) Without going into technical details, we can say that VPN creates a secure encrypted connection (called a tunnel) between a user's device and a remote VPN server. In this way, data confidentiality is preserved, as well as the anonymity of the user, because a third-party observer sees the IP address of the VPN server and not the actual user's IP.
+Een VPN is een ideaal hulpmiddel dat veiligheid en anonimiteit biedt elke keer dat u op internet surft. [Hoe werkt het?](/general/how-vpn-works) Zonder op technische details in te gaan, kunnen we zeggen dat VPN een veilige gecodeerde verbinding (een zogeheten tunnel) creëert tussen het apparaat van een gebruiker en een externe VPN-server. Op deze manier blijft de vertrouwelijkheid van gegevens behouden, net als de anonimiteit van de gebruiker, omdat een externe waarnemer het IP-adres van de VPN-server ziet en niet het IP-adres van de daadwerkelijke gebruiker.
 
-**VPN is frequently used for:**
+**VPN wordt vaak gebruikt voor:**
 
-- Keeping personal data safe even while using public Wi-Fi
-- Preventing online activity tracking by masking the IP address
-- Hiding the real geolocation to remain anonymous
+- Het veilig houden van persoonlijke gegevens zelfs als je openbare Wi-Fi gebruikt
+- Het voorkomen dat online activiteiten gevolgd worden door het IP adres te maskeren
+- De echte geolocatie verbergen om anoniem te blijven
 
-AdGuard VPN for Android can do it all for you — and even offer something unique. To find out why AdGuard VPN is the better option — read [this article](/general/why-adguard-vpn).
+AdGuard VPN voor Android kan het allemaal voor u doen – en zelfs iets unieks bieden. Om erachter te komen waarom AdGuard VPN de betere optie is, lees [dit artikel](/general/why-adguard-vpn).
 
-## How to start using AdGuard VPN for Android
+## Hoe u start met het gebruiken van AdGuard VPN voor Android
 
-Firstly, download AdGuard VPN from [Google Play](https://play.google.com/store/apps/details?id=com.adguard.vpn) and log into your AdGuard account. In case you don’t have it — you should [create it](https://auth.adguard.com/login.html). You can sign in directly with your AdGuard account credentials. Or do it via Google or Facebook, if your AdGuard account was registered using the same email address.
+Download eerst AdGuard VPN van [Google Play](https://play.google.com/store/apps/details?id=com.adguard.vpn) en log in op uw AdGuard-account. Als je die nog niet hebt, moet je die maken op [](https://auth.adguard.com/login.html). U kunt direct inloggen met uw AdGuard-accountgegevens. Of doe het via Google of Facebook, als uw AdGuard-account met hetzelfde e-mailadres is geregistreerd.
 
-## Main screen
+## Hoofdpagina
 
-The main screen reflects the VPN status (Connected/Disconnected). There are also the *Connect/Disconnect* button and a list of available servers.
+Het hoofdscherm geeft de VPN-status weer (Verbonden/Verbinding verbroken). Er zijn ook de knoppen *Verbinding maken/Verbinding verbreken* en een lijst met beschikbare servers.
 
-Each server has its location and its ping rate, describing the response time of the server. The lower this rate, the faster the connection. The fastest servers always appear at the top of the list that consists of more than 50 locations in dozens of countries. You can connect to the fastest server by tapping the *Connect* button or by picking a location.
+Elke server heeft zijn locatie en zijn pingsnelheid, die de responstijd van de server beschrijven. Hoe lager dit getal, hoe sneller de verbinding. De snelste servers verschijnen altijd bovenaan de lijst die bestaat uit meer dan 50 locaties in tientallen landen. Je kunt verbinding maken met de snelste server door op de knop *Verbinden* te tikken of door een locatie te kiezen.
 
-## Exclusions
+## Uitzonderingen
 
-We've done everything to make it easy for you to manage your site and app exclusion lists. AdGuard VPN will only work where you choose.
+We hebben er alles aan gedaan om het gemakkelijk te maken uw site- en app-uitsluitingslijsten te beheren. AdGuard VPN werkt alleen waar u kiest.
 
-### Lists of exclusions
+### Lijst met uitsluitingen
 
-Exclusion lists allow you to manage the VPN connection for specific websites and apps. To access *Exclusions*, tap the second icon from the left at the bottom of the screen. To reach the *Exclusions* section, tap the second icon from the left at the bottom of the screen.
+Met uitsluitingslijsten kunt u de VPN-verbinding voor specifieke websites en apps beheren. Om *Uitsluitingen*te openen, tikt u op het tweede icoon van links onder aan het scherm. Om *Uitsluitingen*te openen, tikt u op het tweede icoon van links onder aan het scherm.
 
-By default, AdGuard VPN works for all websites and apps except those added to exclusions, but you can easily switch to the other mode.
+Standaard is AdGuard VPN actief oor alle websites en apps, behalve voor de websites en apps die zijn toegevoegd aan de uitsluitingen, maar u kunt eenvoudig overschakelen naar de andere modus.
 
-#### For websites
+#### Voor websites
 
-You can add domains (e.g. `google.com`) or subdomains (e.g. `*.google.com`) of websites to the *Exclusions* in three ways: enter them manually in the app, or right from the browser by clicking the *Share* button and selecting AdGuard VPN in the opened list below, or from built-in lists of services divided by categories.
+U kunt domeinen (bijvoorbeeld `google.com`) of subdomeinen (bijvoorbeeld `*.google.com`) van websites toevoegen aan de *Uitsluitingen* op drie manieren: voer ze handmatig in de app in, of rechtstreeks vanuit de browser door op de knop *Delen* te klikken en AdGuard VPN te selecteren in de geopende lijst hieronder, of vanuit de ingebouwde in lijsten met diensten, onderverdeeld in categorieën.
 
 ![Exclusions](https://cdn.adguardvpn.com/public/Adguard/kb/VPN/Screenshots/add_site_android.jpg)
 

@@ -5,13 +5,17 @@ sidebar_position: 2
 
 ## 系统要求
 
-AdGuard VPN 只能安装在装有 **iOS 11.2 和 iPadOS 11.2 或更高版本**的设备上。
+AdGuard VPN can only be installed on devices with **iOS 14.2 and iPadOS 14.2 or later**.
 
 ## 如何安装 AdGuard VPN iOS 版
 
-您可以在*App Store* 中免费下载安装 *AdGuard VPN iOS 版*。 为此，可在[此链接](https://agrd.io/ios_vpn)中点击*下载*图标，或按照以下步骤操作：
+You can download and install the *AdGuard VPN for iOS* app for free in the *App Store*.
 
-1. 在您的设备上打开*「App Store」*应用程序，然后点击屏幕右下角的*「搜索」*。
+To do this, [go to App Store](https://agrd.io/ios_vpn) and tap *GET*.
+
+Or you can use App Store’s search to find AdGuard VPN:
+
+1. Open the *App Store* app on your iOS device and tap *Search* 🔍 in the bottom right corner of the screen.
 
     ![App Store *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/app-store-en.png)
 
@@ -19,18 +23,17 @@ AdGuard VPN 只能安装在装有 **iOS 11.2 和 iPadOS 11.2 或更高版本**�
 
     ![搜索 *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/search-en.png)
 
-1. 从推荐的应用程序列表中选择*「AdGuard VPN - Unlimited & Fast」*并点击*「下载」*。 如有必要，请在打开的窗口中输入 Apple ID 账户密码。
+1. Select *AdGuard VPN - Unlimited & Fast* from the list of suggested apps and tap *GET*. 如有必要，请在打开的窗口中输入 Apple ID 账户密码。
+1. Wait for the download to finish and tap *OPEN* to open the app.
 
     ![AdGuard VPN *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/adguard-vpn-en.png)
 
-1. 等待下载完成并点击*「打开」*。
-
-AdGuard VPN iOS 版已成功安装！
+That’s it! AdGuard VPN for iOS has been successfully installed on your device.
 
 ## 如何卸载 AdGuard VPN iOS 版
 
-如果您决定卸载 AdGuard VPN iOS 版，请在主屏幕找到此应用的图标并长按。 在打开的列表中，点击*「卸载应用程序」*。
+If you have decided to delete AdGuard VPN for iOS, find and hold its icon on the home screen. In the menu that opens, tap *Remove App*.
 
-![卸载 *mobile_border](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/deinstall-en.png)
+![卸载 *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/quick-action-menu.png)
 
 您可以在[这篇文章](adguard-vpn-for-ios/overview)中了解有关 AdGuard VPN iOS 版的更多信息。

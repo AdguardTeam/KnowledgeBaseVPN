@@ -3,9 +3,26 @@ title: Как купить
 sidebar_position: 6
 ---
 
-AdGuard VPN доступен в двух версиях — бесплатной и безлимитной. Платная подписка позволяет вам использовать приложение без ограничений трафика, скорости соединения и выбора локаций. Вы можете [узнать больше обо всех преимуществах безлимитной версии](/general/free-vs-unlimited).
+AdGuard VPN is available in two versions — a free and a paid one. Платная подписка позволяет вам использовать приложение без ограничений трафика, скорости соединения и выбора локаций. [Read more about all the advantages of AdGuard VPN Unlimited](/general/free-vs-unlimited).
+
+## How to purchase a subscription
 
 Если вы решили приобрести подписку на AdGuard VPN, есть два способа сделать это:
 
 1. Через приложение. Откройте AdGuard VPN и нажмите на иконку с изображением стрелки (её расположение зависит от ОС, которой вы пользуетесь). Выберите наиболее подходящую для вас подписку и нажмите *Купить*. Такой вариант подписки доступен для пользователей мобильных приложений для iOS и Android.
 2. [На нашем сайте](https://adguard-vpn.com/license.html). На выбор предлагается две подписки — ежемесячная и годовая. Выберите ту, которая вам больше подходит, и введите адрес электронной почты, который будет связан с вашей подпиской. Оплатить подписку можно с помощью карты, счёта PayPal или криптовалюты.
+
+## How to cancel a subscription
+
+The subscription can be canceled in your AdGuard account. To cancel your subscription:
+
+ 1. In your AdGuard account, go to [Licenses](https://my.adguard.com/account/licenses).
+ 1. Click *Cancel subscription* below the subscription you no longer need.
+
+The canceled subscription will be valid until its expiry date.
+
+:::note
+
+Subscriptions purchased on the App Store can be managed in your Apple ID.
+
+:::

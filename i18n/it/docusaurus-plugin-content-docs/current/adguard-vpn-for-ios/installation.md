@@ -5,13 +5,17 @@ sidebar_position: 2
 
 ## Requisiti di sistema
 
-AdGuard VPN può essere installato solo su dispositivi con **iOS 11.2 e iPadOS 11.2 o successivi**.
+AdGuard VPN can only be installed on devices with **iOS 14.2 and iPadOS 14.2 or later**.
 
 ## Come istallare AdGuard VPN per iOS
 
-È possibile scaricare e installare gratuitamente l'applicazione *AdGuard VPN per iOS* nell'*App Store*. Per farlo, seguire [questo link](https://agrd.io/ios_vpn) e toccare l'icona *Scaricare* o seguire alcuni semplici passaggi:
+You can download and install the *AdGuard VPN for iOS* app for free in the *App Store*.
 
-1. Apri l'app dell'*App Store* sul tuo dispositivo e tocca su *Cerca* nell'angolo inferiore destro della schermata.
+To do this, [go to App Store](https://agrd.io/ios_vpn) and tap *GET*.
+
+Or you can use App Store’s search to find AdGuard VPN:
+
+1. Open the *App Store* app on your iOS device and tap *Search* 🔍 in the bottom right corner of the screen.
 
     ![App Store *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/app-store-en.png)
 
@@ -19,18 +23,17 @@ AdGuard VPN può essere installato solo su dispositivi con **iOS 11.2 e iPadOS 1
 
     ![Cerca *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/search-en.png)
 
-1. Seleziona *AdGuard VPN - Illimitato & Veloce* dall'elenco delle app suggerite, e tocca su *Scarica*. Se necessario, inserisci la password del tuo profilo di Apple ID nella finestra che si apre.
+1. Select *AdGuard VPN - Unlimited & Fast* from the list of suggested apps and tap *GET*. Se necessario, inserisci la password del tuo profilo di Apple ID nella finestra che si apre.
+1. Wait for the download to finish and tap *OPEN* to open the app.
 
     ![AdGuard VPN *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/adguard-vpn-en.png)
 
-1. Attendi il termine del download e tocca su *Apri*.
-
-AdGuard VPN per iOS è stata installata correttamente!
+That’s it! AdGuard VPN for iOS has been successfully installed on your device.
 
 ## Come disinstallare AdGuard VPN per iOS
 
-Se hai deciso di eliminare AdGuard VPN per iOS, trova l'icona di quest'app sulla Schermata Home e tienila premuta. Nell'elenco che si apre, tocca su *Rimuovi App*.
+If you have decided to delete AdGuard VPN for iOS, find and hold its icon on the home screen. In the menu that opens, tap *Remove App*.
 
-![Disinstalla *mobile_border](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/deinstall-en.png)
+![Disinstalla *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/quick-action-menu.png)
 
 Puoi scoprire di più sull'app AdGuard VPN per iOS in [questo articolo](adguard-vpn-for-ios/overview).

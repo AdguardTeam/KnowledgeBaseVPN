@@ -17,7 +17,7 @@ Si vous avez besoin d'un VPN pour une ou plusieurs applications, configurez AdGu
 3. Dans la fenêtre suivante, assurez-vous que l'option *Est ouverte* est sélectionnée, puis appuyez sur *Choisir* pour choisir l'application.
 
 ![Manuel. Partie 2](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_on2_en.jpg)
-4. Commencez à saisir le nom de l'application (dans notre cas c'est Twitter) et sélectionnez-la. Appuyez sur *Terminé*, puis appuyez sur *Suivant* dans le coin supérieur droit de l'écran. Dans la fenêtre qui s'ouvre, appuyez sur *Ajouter une action*.
+4. Start entering the name of the app (in our case it’s Twitter) and select it. Appuyez sur *Terminé*, puis appuyez sur *Suivant* dans le coin supérieur droit de l'écran. Dans la fenêtre qui s'ouvre, appuyez sur *Ajouter une action*.
 
 ![Manuel. Partie 3](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_on3_en.jpg)
 5. Commencez à saisir "AdGuard VPN" et sélectionnez l'application AdGuard VPN. Dans la nouvelle fenêtre, appuyez sur *Définir une connexion VPN*.

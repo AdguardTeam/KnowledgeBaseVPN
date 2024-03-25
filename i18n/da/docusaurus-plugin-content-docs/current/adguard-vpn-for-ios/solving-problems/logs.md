@@ -7,34 +7,46 @@ Opleves problemer under brug af AdGuard VPN til Android, kan vi informeres herom
 
 ## Indsamling og indsendelse af standardlogfiler
 
-Som standard bruger AdGuard VPN til iOS logningsniveauet Standard, dvs. basisindsamling af data om kørende app-processer. Følg de næste trin for at indsende disse logfiler:
+By default, AdGuard VPN for iOS uses the *Default* logging level. It collects basic data about running app processes. Følg de næste trin for at indsende disse logfiler:
 
-1. Åbn AdGuard VPN til iOS, og gentag om muligt handlingerne, som udløste fejlen. Notér det nøjagtige tidspunkt for fejlens opståen.
+1. Connect to AdGuard VPN for iOS. If possible, repeat the actions that led to the error. Note the exact time when the error occurred (e.g. 15:35).
 
-2. Vælg *Indstillinger* nederste til højre på skærmen, vælg dernæst *Support* og klik her på *Giv feedback*.
+2. Open AdGuard VPN and tap the Settings ⚙ icon in the lower right corner of the screen. Select *Support*, then tap *Report a bug*.
 
-3. Angiv i den åbnede formular en e-mailadresse for feedback og beskriv den fundne fejl, herunder tidspunktet, da denne opstod. Kan problemet ikke genskabes, angiv da så nøjagtigt som muligt, hvornår det senest opstod.
+3. Angiv i den åbnede formular en e-mailadresse for feedback og beskriv den fundne fejl, herunder tidspunktet, da denne opstod. If you can’t reproduce the problem, specify as accurately as possible when it last occurred.
 
-4. Der er et flueben ud for *Indsend detaljeret systeminfo*, hvilket betyder, at når en anmeldelse indsendes, inkluderes logfiler ligeledes. Tryk til sidst på *Indsend*.
-> Er det af en eller anden grund mere bekvemt at indsende logfiler på anden vis, kan man selv eksportere dem. For at gøre dette, vælges *Eksportere logfiler* i afsnittet *Support*.
+4. Check the *Send app logs and system info* checkbox. When you send your report, your logs will be attached to it.
 
-## Indsamling og indsendelse af udvidede logfiler
+5. Tap *Send*.
 
-I de fleste tilfælde er logningsniveauet Standard tilstrækkeligt til at spore mulige fejl. Der er dog tilfælde, hvor mere detaljerede tekniske oplysninger om enheden og forbindelser er nødvendig, og så vil vores supportteam bede om at få aktiveret det udvidet logningsniveau. Følg disse næste trin for at indsende denne type logfiler:
+:::info
 
-1. Åbn AdGuard VPN til iOS, og vælg *Indstillinger* nederst til højre på skærmen.
+Er det af en eller anden grund mere bekvemt at indsende logfiler på anden vis, kan man selv eksportere dem. To do this, go to *Settings* → *General* → *Advanced* and tap *Export logs and system info*.
 
-2. Vælg *App-indstillinger* og dernæst *Avancerede indstillinger*.
+:::
 
-3. Vælg i afsnittet *Logningsniveau* *Udvidet*.
+## Collecting and sending detailed logs
 
-4. Gentag de handlinger, som førte til fejlen, og notér tidspunktet, da den opstod.
+In most cases, the default logging level is sufficient to track possible bugs. However, sometimes more detailed technical information about the device and connections may be required. In this case, our support team will ask you to enable the *Extended* or *Extreme* logging level. Følg disse næste trin for at indsende denne type logfiler:
+
+1. Open AdGuard VPN for iOS and tap the Settings ⚙ icon in the lower right corner of the screen.
+
+2. Select *General* and then *Advanced*.
+
+3. In the *Logging level* section, select *Extended* or *Extreme*.
+
+4. Repeat the actions that led to the error and note the time when it occurred (e.g. 14:23).
 
 5. Skift logningsniveauet tilbage til *Standard*.
 
-6. Returnér dernæst til hovedafsnittet *Indstillinger*, vælg *Support* og dernæst *Giv feedback*.
+6. Go back to *Settings*, tap *Support* and then *Report a bug*.
 
-7. Angiv i den viste formular en e-mailadresse for feedback og beskriv den fundne fejl, herunder tidspunktet for dens opståen.
+7. In the opened form, enter your email address for feedback and describe the error found, including the exact time when this error occurred.
 
-8. Sørg for, at der er et flueben ud for *Indsend detaljerede systemoplysninger*, og klik på *Indsend*.
-> Er det af en eller anden grund mere bekvemt at indsende logfiler på anden vis, kan man selv eksportere dem. For at gøre dette, vælges *Eksportere logfiler* i afsnittet *Support*.
+8. Make sure that *Send app logs and system info* is checked and tap *Send*.
+
+:::info
+
+Er det af en eller anden grund mere bekvemt at indsende logfiler på anden vis, kan man selv eksportere dem. To do this, go to *Settings* → *General* → *Advanced* and tap *Export logs and system info*.
+
+:::

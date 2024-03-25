@@ -17,7 +17,7 @@ iOS用AdGuard VPN にはアプリをVPN対象から外しておく機能はあ�
 3. 「*開いている*」のみが選択された状態で、「*選択*」をタップ
 
 ![手順 第2部](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_on2_ja.jpg)
-4. 対象アプリの名前を入力し始めて（この場合は「Twitter」）、対象アプリが現れたらタップ →右上の「*次へ*」をタップ →「*アクションを追加*」をタップ
+4. Start entering the name of the app (in our case it’s Twitter) and select it. →右上の「*次へ*」をタップ →「*アクションを追加*」をタップ
 
 ![手順 第3部](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_on3_ja.jpg)
 5. 「AdGuard VPN」と入力して、表示されたAdGuard VPN下の 「*VPNに接続*」をタップ

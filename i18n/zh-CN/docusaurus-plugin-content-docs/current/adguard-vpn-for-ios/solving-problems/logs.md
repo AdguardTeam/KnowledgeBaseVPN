@@ -7,34 +7,46 @@ sidebar_position: 2
 
 ## 收集和发送标准日志
 
-默认情况下，AdGuard VPN iOS 版使用默认日志记录级别，即有关应用程序运行进程的基本数据收集。 要发送这些日志，请按照以下步骤进行操作：
+By default, AdGuard VPN for iOS uses the *Default* logging level. It collects basic data about running app processes. 要发送这些日志，请按照以下步骤进行操作：
 
-1. 打开 AdGuard VPN iOS 版，如果可以，请您重复导致错误的操作。 请记下发生此错误的确切时间。
+1. Connect to AdGuard VPN for iOS. If possible, repeat the actions that led to the error. Note the exact time when the error occurred (e.g. 15:35).
 
-2. 选择屏幕右下角的*「设置」*，然后选择*「支持」*，然后单击*「留下反馈」*。
+2. Open AdGuard VPN and tap the Settings ⚙ icon in the lower right corner of the screen. Select *Support*, then tap *Report a bug*.
 
-3. 在打开的表单中，输入您的电子邮件地址以获取反馈，然后描述发现的错误，包括该错误发生的时间。 如果您无法重复问题，请尽可能准确地指明上次发生的时间。
+3. 在打开的表单中，输入您的电子邮件地址以获取反馈，然后描述发现的错误，包括该错误发生的时间。 If you can’t reproduce the problem, specify as accurately as possible when it last occurred.
 
-4. *「发送详细的系统信息」*旁边有一个复选框，勾选则意味着当您发送报告时，也会自动发送日志。 最后，点击*发送*。
-> 如果出于某种原因，您以其他方式向我们发送日志更方便，您可以自己导出它们。 为此，请在*「支持」*部分中选择*「导出日志」*。
+4. Check the *Send app logs and system info* checkbox. When you send your report, your logs will be attached to it.
 
-## 收集和发送进阶日志
+5. Tap *Send*.
 
-在大多数情况下， 默认日志记录级别足以追踪发生的错误。 但在某些情况下，需要有关设备和连接的更详细技术信息，然后我们的支持团队会要求您启用进阶日志记录级别。 要发送进阶日志，请执行以下步骤：
+:::info
 
-1. 打开 AdGuard VPN iOS 版，选择屏幕右下角的*「设置」*。
+如果出于某种原因，您以其他方式向我们发送日志更方便，您可以自己导出它们。 To do this, go to *Settings* → *General* → *Advanced* and tap *Export logs and system info*.
 
-2. 选择*「应用程序设置」*和*「高级设置」*。
+:::
 
-3. 在*「日志记录级别」*部分中，选择*「扩展」*。
+## Collecting and sending detailed logs
 
-4. 重复导致错误的操作，并记下错误发生的时间。
+In most cases, the default logging level is sufficient to track possible bugs. However, sometimes more detailed technical information about the device and connections may be required. In this case, our support team will ask you to enable the *Extended* or *Extreme* logging level. 要发送进阶日志，请执行以下步骤：
+
+1. Open AdGuard VPN for iOS and tap the Settings ⚙ icon in the lower right corner of the screen.
+
+2. Select *General* and then *Advanced*.
+
+3. In the *Logging level* section, select *Extended* or *Extreme*.
+
+4. Repeat the actions that led to the error and note the time when it occurred (e.g. 14:23).
 
 5. 将日志记录级别切回*「默认」*。
 
-6. 然后返回*「设置」*主界面，选择*「支持」*，然后选择*「留下反馈」*。
+6. Go back to *Settings*, tap *Support* and then *Report a bug*.
 
-7. 在打开的表单中，输入您的电子邮件地址以获取反馈，然后描述发现的错误，包括该错误发生的时间。
+7. In the opened form, enter your email address for feedback and describe the error found, including the exact time when this error occurred.
 
-8. 确保勾选*「提交详细系统信息」* 旁边的复选框，然后单击*「发送」*。
-> 如果出于某种原因，您以其他方式向我们发送日志更方便，您可以自己导出它们。 为此，请在*「支持」*部分中选择*「导出日志」*。
+8. Make sure that *Send app logs and system info* is checked and tap *Send*.
+
+:::info
+
+如果出于某种原因，您以其他方式向我们发送日志更方便，您可以自己导出它们。 To do this, go to *Settings* → *General* → *Advanced* and tap *Export logs and system info*.
+
+:::

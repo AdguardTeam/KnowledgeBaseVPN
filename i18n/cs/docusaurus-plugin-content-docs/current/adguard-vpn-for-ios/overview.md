@@ -5,7 +5,7 @@ sidebar_position: 1
 
 ## Co je AdGuard VPN pro iOS?
 
-VPN umožňuje vytvořit zabezpečené připojení k jiné síti na internetu. Připojuje počítač nebo mobilní zařízení uživatele k serveru a umožňuje procházet síť pomocí "krycí" IP adresy. Pokud se server VPN nachází v jiné zemi, bude se zdát, že internetové připojení bylo navázáno z této země. Zde jsou [další informace](/general/how-vpn-works) o tom, jak VPN funguje.
+VPN umožňuje vytvořit zabezpečené připojení k jiné síti na internetu. It connects a user’s computer or mobile device to a server and allows one to browse the internet using a "cover" IP address. If the VPN server is located in another country, it will appear as if your Internet connection was established from this country. For more details, you can check [our article on how a VPN works](/general/how-vpn-works).
 
 AdGuard VPN má několik funkcí:
 
@@ -14,93 +14,134 @@ AdGuard VPN má několik funkcí:
 - zašifruje váš provoz a znemožní podvodníkům přístup k obsahu
 - umožňuje nastavit, kde se má VPN používat a kde ne (funkce výjimek)
 
-Další výhodou AdGuard VPN pro iOS je náš vlastní VPN protokol. V porovnání s jinými protokoly VPN je velmi obtížné jej odhalit a je stabilní i při špatném připojení k internetu. O protokolu AdGuard VPN si zde můžete [přečíst více](/general/adguard-vpn-protocol).
+Další výhodou AdGuard VPN pro iOS je náš vlastní VPN protokol. V porovnání s jinými protokoly VPN je velmi obtížné jej odhalit a je stabilní i při špatném připojení k internetu. [Read more about the AdGuard VPN protocol](/general/adguard-vpn-protocol).
 
 ## Jak používat AdGuard VPN pro iOS
 
 Chcete-li používat AdGuard VPN pro iOS, musíte se nejprve přihlásit ke svému [Účtu AdGuard](https://my.adguard.com/). Přihlásit se můžete přímo pomocí přihlašovacích údajů k účtu AdGuard nebo prostřednictvím Google, Apple ID nebo Facebooku (pokud byl váš účet AdGuard zaregistrován pomocí stejné e-mailové adresy).
 
-Pokud ještě nemáte účet AdGuard, musíte si ho nejprve vytvořit.
+If you don’t have an AdGuard account yet, you will have to create it first.
 
-Používání AdGuard VPN je poměrně snadné. Na hlavní obrazovce se zobrazí tlačítko *Připojit/Odpojit* a seznam dostupných serverů. Tyto servery mají vlastní polohu (určitá země a město) a ukazatel hodnoty ping. Ping znázorňuje dobu odezvy serveru (v milisekundách). Volba serveru s pingem 22 ms znamená, že datový paket odeslaný na tento server je vrácen (znovu přijat) za 22 ms. V aplikaci AdGuard VPN si můžete vybrat z více než 50 umístění v desítkách zemí.
+Používání AdGuard VPN je poměrně snadné. On the main screen you can see the *Connect* (*Disconnect*) button and the list of available servers (we call them *locations*). Each server has its own location (a certain country and a city) and ping indicator.
 
-![Main screen and locations *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/1.png?123)
+The ping shows the server’s response time in milliseconds. This indicates how fast the VPN connection will be when you connect to that location. Selecting a server with a ping of 22 ms means that a data packet sent to this server will be returned in 22 ms.
 
-## Seznamy výjimek
+With AdGuard VPN, you can choose from over 50 locations in dozens of countries.
 
-Výjimky najdete klepnutím na prostřední tlačítko níže. Zde uvidíte dva seznamy výjimek, pro Obecný a Selektivní režim. V Obecném režimu funguje VPN pro všechny weby kromě vyloučených. Naopak v Selektivním režimu funguje VPN pouze pro weby ze seznamu. Domény webových stránek (např. `google.com`) nebo subdomény (např. `*.google.com`) můžete přidávat dvěma způsoby: můžete je zadat ručně v aplikaci nebo přímo z prohlížeče sdílením požadovaných stránek s AdGuard VPN.
+![Main screen and locations *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/main-locations.png)
 
-![Exclusions *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.png?123)
+## Exclusions
 
-Další užitečnou funkcí je Import/Export seznamů výjimek. Můžete to udělat podle následujících čtyř kroků:
+You can find the Exclusions tab by tapping the second icon in the bottom bar. There you will see two exclusion lists, for *Regular* and *Selective* modes.
 
-1. Otevřete AdGuard VPN v zařízení/prohlížeči, ze kterého chcete exportovat seznamy výjimek. Vyhledejte příslušný oddíl a klikněte na tlačítko *Exportovat*. Stáhne se archiv `exclusions.zip`.
+In *Regular* mode, the VPN works for all websites except the excluded ones. Conversely, in *Selective* mode, the VPN only works for websites from the list.
+
+You can add domains (e.g. `google.com`) or subdomains (e.g. `*.google.com`) of websites to the lists in two ways:
+
+- Enter them manually in the app
+- Add them directly from the browser by sharing the desired pages with AdGuard VPN
+
+![Exclusions *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/exclusions-add.png)
+
+### Import/export exclusions
+
+Another useful feature is the import and export of exclusion lists. This way you can share exclusion lists from and to other devices.
+
+You can do it in four steps:
+
+1. Open AdGuard VPN on the device from where you want to export your lists of exclusions. Vyhledejte příslušný oddíl a klikněte na tlačítko *Exportovat*. Stáhne se archiv `exclusions.zip`.
 
 2. Uvnitř archivu jsou dva soubory `.txt`, jeden pro Obecný a druhý pro Selektivní seznam. Můžete k nim přidat další výjimky, odstranit stávající, přejmenovat soubory (ale o tom až později) nebo nechat archiv se soubory tak, jak je.
 
-3. Při přenosu mezi různými zařízeními nezapomeňte odeslat soubor `.zip` do zařízení pro import. Pokud například importujete seznamy výjimek ze zařízení se systémem iOS do systému macOS, nezapomeňte soubor `.zip` předem odeslat do systému macOS.
+3. When transferring between different devices, don’t forget to send the `.zip` file to the device for import. Pokud například importujete seznamy výjimek ze zařízení se systémem iOS do systému macOS, nezapomeňte soubor `.zip` předem odeslat do systému macOS.
 
 4. Otevřete AdGuard VPN v zařízení, do kterého chcete importovat archiv s připravenými seznamy výjimek. Vyhledejte příslušnou sekci, klikněte na tlačítko *Importovat* a vyberte archiv.
 
-![Import/export exclusions *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/import-export-exclusions.png)
+**In AdGuard VPN for iOS, the export and import features can be accessed by tapping the three-dot icon in the upper right corner of the Exclusions screen**.
 
-## Nastavení aplikace
+![Import/export exclusions *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/exclusions-3dot-menu.png)
 
-Přístup k nastavení aplikace:
+## General settings
 
-1. Klepněte na tlačítko Nastavení (⚙) v pravém dolním rohu hlavní obrazovky aplikace AdGuard VPN
-2. Klepněte na *Nastavení aplikace*
+To open General settings:
 
-Zde můžete AdGuard VPN pro iOS nakonfigurovat podle svých potřeb pomocí různých možností: Pracovní režim, DNS server, automatická ochrana Wi-Fi, barevný motiv a pokročilá nastavení.
+1. Tap the Settings icon (⚙) in the bottom right corner of the app’s main screen.
+2. Tap *General*.
 
-![App Settings *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/app-settings.png)
+Here, you can configure AdGuard VPN for iOS as you need using different options: *DNS server*, *Theme*, *Advanced*, *Send technical and interaction data* and *Kill Switch*.
 
-### Pracovní režim
-
-AdGuard VPN pro iOS může fungovat ve dvou režimech: **Obecném** a **Integrovaném**.
-
-V **Obecném režimu** je použit [protokol AdGuard VPN](/general/adguard-vpn-protocol), který poskytuje nejlepší kombinaci rychlosti a zabezpečení. V tomto režimu nebude moci AdGuard VPN fungovat spolu s [blokátorem reklam AdGuard pro iOS](https://adguard.com/kb/adguard-for-ios/overview/).
-
-V **Integrovaném** režimu bude AdGuard VPN schopna pracovat současně s blokátorem reklam AdGuard pro iOS pomocí protokolu IPSec. Tento protokol je také bezpečný, ale o něco pomalejší a snáze zjistitelný. K nastavení integrace není třeba provádět žádné další akce: stačí nainstalovat obě aplikace a přepnout do tohoto režimu.
-
-:::note
-
-V režimu **Integrace** nelze použít funkci Výjimky nebo vybrat DNS server.
-
-:::
+![General settings *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/general-settings.png)
 
 ### DNS server
 
-Servery DNS převádějí doménové jméno nebo název hostitele (např. example.com nebo www.example.com) na něco, čemu rozumí prohlížeče, tj. na IP adresy. AdGuard VPN pro iOS nabízí výběr z několika DNS serverů, z nichž každý má specifické vlastnosti. Například AdGuard DNS odstraňuje reklamy a chrání vaše zařízení před sledováním, zatímco AdGuard DNS Family Protection kombinuje funkce AdGuard DNS s funkcí bezpečného vyhledávání a blokování obsahu pro dospělé. DNS servery různých poskytovatelů DNS mohou také fungovat rychleji nebo pomaleji v závislosti na vaší poloze, poskytovateli internetových služeb a dalších faktorech. Vyberte si ten, který vám nejlépe vyhovuje. Můžete se zde [dozvědět více o DNS](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns) a jeho vlastnostech.
+AdGuard VPN pro iOS nabízí výběr z několika DNS serverů, z nichž každý má specifické vlastnosti. Například AdGuard DNS odstraňuje reklamy a chrání vaše zařízení před sledováním, zatímco AdGuard DNS Family Protection kombinuje funkce AdGuard DNS s funkcí bezpečného vyhledávání a blokování obsahu pro dospělé. DNS servery různých poskytovatelů DNS mohou také fungovat rychleji nebo pomaleji v závislosti na vaší poloze, poskytovateli internetových služeb a dalších faktorech. Vyberte si ten, který vám nejlépe vyhovuje. Můžete se zde [dozvědět více o DNS](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns) a jeho vlastnostech.
 
-![DNS server screen *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/dns-server.png)
-
-### Automatická ochrana Wi-Fi
-
-Když se zařízení připojí k síti Wi-Fi, VPN se automaticky zapne.
+![DNS server screen *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/DNS-server.png)
 
 ### Motiv
 
-Můžete si vybrat výchozí systémový, tmavý nebo světlý motiv aplikace (k dispozici v iOS 13 a novějších verzích).
+You can set your app theme to System, Dark, or Light (available in iOS 13 or later).
 
 ### Pokročilá nastavení
 
-V *Pokročilých nastavení* najdete dvě části — Úroveň záznamu a Diagnostické informace. Pokud jde o první možnost, nedoporučujeme zapínat rozšířenou úroveň záznamu, pokud o to nepožádá náš tým podpory. Diagnostické informace, lokálně uložené technické informace o zařízení a připojeních (IP adresa, ID, ping atd.), nám mohou být zaslány v případě technických problémů.
+In *Advanced* settings, you can find 4 sections — *Operating mode*, *Logging level*, *Export logs and system info*, and *Diagnostic info*.
 
-## Rychlé akce (k dispozici v iOS 13 nebo novějších verzích)
+#### Pracovní režim
 
-Chcete-li k této funkci přistoupit, dotkněte se ikony aplikace, podržte ji a poté zvedněte prst. Uvidíte rychlé akce: Připojit/odpojit, vybrat umístění, upravit domovskou obrazovku a odebrat aplikaci.
+AdGuard VPN for iOS can operate in two modes: **VPN** and **Integrated**.
 
-![Quick actions *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/quick-actions.png)
+The *VPN* mode uses the [AdGuard VPN protocol](/general/adguard-vpn-protocol), which provides the best combination of speed and security. In this mode, AdGuard VPN will not work with [AdGuard Ad Blocker for iOS](https://adguard.com/adguard-ios/overview.html).
+
+In **Integrated mode**, AdGuard VPN will be able to work simultaneously with AdGuard Ad Blocker for iOS using the IPSec protocol. This protocol is also secure, but a bit slower and easier to detect. You don’t have to do anything to set up the integration: just install both apps and switch to this mode.
+
+:::note
+
+In **Integrated** mode, you can’t use the Exclusions feature or choose a DNS server.
+
+:::
+
+#### Logging level
+
+This setting is primarily used for debugging and troubleshooting purposes. The Extended and Extreme logging levels record more detailed information that can help identify and fix various problems or bugs.
+
+:::caution
+
+**It is not recommended to enable the Extended or Extreme logging level unless requested by our support team**.
+
+:::
+
+#### Export logs ans system info
+
+This option can be used to send the app’s logs and system info to our support or anyone else.
+
+#### Dignostic data
+
+This option lets you export technical information that can be useful in solving problems and is sometimes requested by our support and developers.
+
+### Send technical and intercation data
+
+By turning this option on you are helping us understand better how users interact with the app. We use that information to improve user experience.
+
+### Kill Switch
+
+If for some reason your VPN connection suddenly drops, *Kill Switch* will automatically terminate the Internet connection, making sure your data doesn’t leak and your identity stays hidden.
+
+## Quick actions
+
+Quick actions are the convenient way to do useful or any app-specific actions from the Home screen without opening an app.
+
+To access the quick actions menu, tap and hold the AdGuard VPN app icon, then lift your finger. In the opened menu, you will see AdGuard VPN’s quick actions: *Connect* (*Disconnect*) and *Select location*. You can also access all default actions like removing the app or moving or sharing the app.
+
+![Quick actions *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/quick-action-menu.png)
 
 ## Podpora
 
-V aplikaci proto najdete řadu pomocných funkcí (stiskněte tlačítko *Nastavení* vpravo dole a poté *Podpora*): můžete si prohlédnout sekci FAQ, nahlásit chybu, zanechat zpětnou vazbu, diskutovat o svých problémech a návrzích na našem fóru, sociálních sítích nebo na GitHubu, hodnotit AdGuard VPN pro iOS v App Store a exportovat protokoly.
+The Support screen (*Settings* → *Support*) has a number of helpful features: *FAQ*, *Report a bug*, *Request a feature*, and *Rate app*. The latter allows you to rate AdGuard VPN for iOS on the App Store.
 
-![Support *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/support.png)
+![Support *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/support.png)
 
-## Předplatné
+## Subscription screen
 
-Pokud používáte bezplatnou verzi AdGuard VPN, bude na spodní liště karet čtvrtá karta s ikonou šipky. V této části najdete stručné informace o hlavních výhodách placené verze aplikace a budete si moci zakoupit předplatné.
+If you are using the free version of AdGuard VPN, there will be another tab with an arrow icon on the bottom tab bar. This section briefly describes the main benefits of the paid version of the app. You can choose a yearly or monthly subscription.
 
-![Subscription *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/subscription_en.png)
+![Subscription *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/unlimited.png)

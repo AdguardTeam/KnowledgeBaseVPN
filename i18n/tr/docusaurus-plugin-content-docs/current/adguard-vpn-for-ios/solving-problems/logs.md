@@ -7,34 +7,46 @@ iOS için AdGuard VPN'i kullanırken herhangi bir sorunla karşılaşırsanız, 
 
 ## Standart günlükleri toplama ve gönderme
 
-Varsayılan olarak, iOS için AdGuard VPN, uygulamanın çalışan süreçleri hakkında temel veri toplama olan standart günlük kayıt düzeyini kullanır. Bu günlükleri göndermek için sonraki adımları takip edin:
+By default, AdGuard VPN for iOS uses the *Default* logging level. It collects basic data about running app processes. Bu günlükleri göndermek için sonraki adımları takip edin:
 
-1. iOS için AdGuard VPN'i açın ve mümkünse hataya neden olan işlemleri tekrarlayın. Bu hatanın oluştuğu tam zamana dikkat edin.
+1. Connect to AdGuard VPN for iOS. If possible, repeat the actions that led to the error. Note the exact time when the error occurred (e.g. 15:35).
 
-2. Ekranın sağ alt köşesindeki *Ayarlar* öğesini seçin, ardından *Destek* öğesini seçin ve *Geri bildirimde bulun* öğesine tıklayın.
+2. Open AdGuard VPN and tap the Settings ⚙ icon in the lower right corner of the screen. Select *Support*, then tap *Report a bug*.
 
-3. Açılan formda, geri bildirim için e-posta adresinizi girin ve bulunan hatayı, bu hatanın oluştuğu zaman da dahil olmak üzere açıklayın. Sorunu yeniden oluşturamıyorsanız, en son ne zaman oluştuğunu olabildiğince doğru bir şekilde belirtin.
+3. Açılan formda, geri bildirim için e-posta adresinizi girin ve bulunan hatayı, bu hatanın oluştuğu zaman da dahil olmak üzere açıklayın. If you can’t reproduce the problem, specify as accurately as possible when it last occurred.
 
-4. *Detaylı sistem bilgisi gönder* öğesinin yanında bir onay işareti vardır; bu, bir rapor gönderdiğinizde günlükleri de göndereceğiniz anlamına gelir. Son olarak *Gönder* öğesine tıklayın.
-> Herhangi bir nedenle bize günlükleri başka bir şekilde göndermeniz daha uygunsa, bunları kendiniz dışa aktarabilirsiniz. Bunu yapmak için *Destek* bölümünde *Günlükleri dışa aktar* öğesini seçin.
+4. Check the *Send app logs and system info* checkbox. When you send your report, your logs will be attached to it.
 
-## Genişletilmiş günlükleri toplama ve gönderme
+5. Tap *Send*.
 
-Çoğu durumda, olası hataların izini sürmek için varsayılan günlük kayıt düzeyi yeterlidir. Ancak, cihaz ve bağlantılar hakkında daha ayrıntılı teknik bilgilerin gerekli olduğu durumlar vardır ve bu durumda destek ekibimiz, genişletilmiş günlük kayıt düzeyini etkinleştirmenizi ister. Bu tür günlükleri göndermek için şu adımları takip edin:
+:::info
 
-1. iOS için AdGuard VPN'i açın ve ekranın sağ alt köşesinde *Ayarlar* öğesini seçin.
+Herhangi bir nedenle bize günlükleri başka bir şekilde göndermeniz daha uygunsa, bunları kendiniz dışa aktarabilirsiniz. To do this, go to *Settings* → *General* → *Advanced* and tap *Export logs and system info*.
 
-2. İçinde *Uygulama ayarları* ve *Gelişmiş ayarlar* öğelerini seçin.
+:::
 
-3. *Günlük düzeyi* bölümünde, *Genişletilmiş* öğesini seçin.
+## Collecting and sending detailed logs
 
-4. Hataya neden olan işlemleri tekrarlayın ve meydana geldiği zamana dikkat edin.
+In most cases, the default logging level is sufficient to track possible bugs. However, sometimes more detailed technical information about the device and connections may be required. In this case, our support team will ask you to enable the *Extended* or *Extreme* logging level. Bu tür günlükleri göndermek için şu adımları takip edin:
+
+1. Open AdGuard VPN for iOS and tap the Settings ⚙ icon in the lower right corner of the screen.
+
+2. Select *General* and then *Advanced*.
+
+3. In the *Logging level* section, select *Extended* or *Extreme*.
+
+4. Repeat the actions that led to the error and note the time when it occurred (e.g. 14:23).
 
 5. Kayıt düzeyini *Varsayılan* olarak değiştirin.
 
-6. Ardından ana bölüme geri dönün *Ayarlar*, *Destek* ve sonra *Geri bildirimde bulun* öğesini seçin.
+6. Go back to *Settings*, tap *Support* and then *Report a bug*.
 
-7. Açılan formda, geri bildirim için e-posta adresinizi girin ve bulunan hatayı, bu hatanın oluştuğu zaman da dahil olmak üzere açıklayın.
+7. In the opened form, enter your email address for feedback and describe the error found, including the exact time when this error occurred.
 
-8. *Detaylı sistem bilgisi gönder* öğesinin yanında bir onay işareti olduğundan emin olun ve *Gönder* öğesine tıklayın.
-> Herhangi bir nedenle bize günlükleri başka bir şekilde göndermeniz daha uygunsa, bunları kendiniz dışa aktarabilirsiniz. Bunu yapmak için *Destek* bölümünde *Günlükleri dışa aktar* öğesini seçin.
+8. Make sure that *Send app logs and system info* is checked and tap *Send*.
+
+:::info
+
+Herhangi bir nedenle bize günlükleri başka bir şekilde göndermeniz daha uygunsa, bunları kendiniz dışa aktarabilirsiniz. To do this, go to *Settings* → *General* → *Advanced* and tap *Export logs and system info*.
+
+:::
