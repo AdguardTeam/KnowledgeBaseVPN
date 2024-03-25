@@ -77,9 +77,9 @@ In most cases, the default logging level is sufficient to trace down possible bu
 
 ## Collecting and sending trace logs
 
-Sometimes our support team might ask you to send the trace logs. To do this, you need to do the following steps:
+Sometimes our support team might ask you to send them trace logs. To do this, you need to follow these steps:
 
-1. Right click the AdGuard VPN icon in the tray menu and choose **Exit AdGuard VPN**.
+1. Right-click the AdGuard VPN icon in the tray menu and choose **Exit AdGuard VPN**.
 
 ![Exit *mobile](https://cdn.adtidy.org/content/kb/vpn/windows/logs/exit.png)
 
