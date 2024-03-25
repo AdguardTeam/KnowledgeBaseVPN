@@ -29,7 +29,7 @@ By default, AdGuard VPN for Windows uses the standard logging level, that is, th
 
 1. Open the Explorer app
 
-1. Paste `%rpgramdata%/adguardvpn` in the search box
+1. Paste `%programdata%/adguardvpn` in the search box
 
 1. Find the folder called **Logs**
 
@@ -67,7 +67,7 @@ In most cases, the default logging level is sufficient to trace down possible bu
 
 1. Open the Explorer app
 
-1. Paste `%rpgramdata%/adguardvpn` in the search box
+1. Paste `%programdata%/adguardvpn` in the search box
 
 1. Find the folder called **Logs**
 
@@ -101,7 +101,7 @@ Don't worry if your log file is large. We need to know as many details as possib
 
 1. Open the Explorer app
 
-1. Paste `%rpgramdata%/adguardvpn` in the search box
+1. Paste `%programdata%/adguardvpn` in the search box
 
 1. Find the folder called **Logs**
 
