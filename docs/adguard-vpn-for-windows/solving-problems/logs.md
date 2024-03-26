@@ -15,11 +15,11 @@ By default, AdGuard VPN for Windows uses the standard logging level, which is th
 
 In most cases, the default logging level is sufficient to trace down possible bugs. But there are cases when more detailed technical information about the device and connections is required, and then our support team will ask you to enable the extended logging level. To send this type of logs, follow these steps:
 
-1. Open AdGuard VPN for Windows and select **Settings** (in the menu above) → **App settings** → **Advanced settings** → **Logging level**.
+1. Open AdGuard VPN for Windows and select **Settings** in the menu above → **App settings** → **Advanced settings** → **Logging level**.
 
 1. In the **Logging level** section, select **Record everything**.
 
-![Logging level *border](https://cdn.adtidy.org/content/kb/vpn/windows/logs/logging.jpeg)
+ ![Logging level *border](https://cdn.adtidy.org/content/kb/vpn/windows/logs/logging.jpeg)
 
 1. Repeat the actions that led to the error, and note the time when it occurred.
 
@@ -31,11 +31,11 @@ Sometimes our support team might ask you to send them trace logs. To do this, yo
 
 1. Right-click the AdGuard VPN icon in the tray menu and choose **Exit AdGuard VPN**.
 
-![Exit *mobile](https://cdn.adtidy.org/content/kb/vpn/windows/logs/exit.png)
+ ![Exit *mobile](https://cdn.adtidy.org/content/kb/vpn/windows/logs/exit.png)
 
-If you see the warning message, agree to stop the service.
+ If you see the warning message, agree to stop the service.
 
-![Attention *mobile](https://cdn.adtidy.org/content/kb/vpn/windows/logs/attention.png)
+ ![Attention *mobile](https://cdn.adtidy.org/content/kb/vpn/windows/logs/attention.png)
 
 1. Open the console (type `cmd` in the start panel).
 
@@ -51,13 +51,13 @@ Don't worry if your log file is large. We need to know as many details as possib
 
 To send logs to our support team, please follow the next steps:
 
-1. Click **Support** (in the menu above) → **Report a bug**.
+1. Click **Support** in the menu above → **Report a bug**.
 
-![Report a bug *border](https://cdn.adtidy.org/content/kb/vpn/windows/logs/support_report.jpeg)
+ ![Report a bug *border](https://cdn.adtidy.org/content/kb/vpn/windows/logs/support_report.jpeg)
 
-1. In the opened form enter your email address for feedback and describe the error found, including the time when this error occurred. If you can't reproduce the problem, specify as accurately as possible when it last occurred.
+1. In the form that opens, enter your email address and describe the error you found, including the time it occurred. If you can't reproduce the problem, be as specific as possible about when it last occurred.
 
-![Report *border](https://cdn.adtidy.org/content/kb/vpn/windows/logs/report_bug.png)
+ ![Report *border](https://cdn.adtidy.org/content/kb/vpn/windows/logs/report_bug.png)
 
 1. There is a check mark next to the **Send detailed system info**, which means that when you send a report, you also send logs.
 
