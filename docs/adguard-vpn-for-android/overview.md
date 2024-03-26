@@ -37,7 +37,7 @@ By default, AdGuard VPN works for all websites and apps except those added to ex
 
 #### For websites
 
-You can add a domain (e.g., `google.com`) or subdomain (e.g., `*.google.com`) to *Exclusions* in three ways: 
+You can add a domain (e.g., `google.com`) or subdomain (e.g., `*.google.com`) to *Exclusions* in three ways:
 
 - Enter it manually in the app
 - Add it directly from the browser by sharing the website with AdGuard VPN
