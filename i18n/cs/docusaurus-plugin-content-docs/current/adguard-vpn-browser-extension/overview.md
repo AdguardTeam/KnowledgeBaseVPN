@@ -34,7 +34,7 @@ Další karta obsahuje jednu z hlavních charakteristických funkcí AdGuard VPN
 
 V **Obecném režimu** funguje AdGuard VPN ve výchozím nastavení na všech webových stránkách s výjimkou těch, které jste přidali do seznamu výjimek. V **Selektivním režimu** naopak AdGuard VPN ve výchozím nastavení nefunguje nikde. Do seznamu výjimek můžete přidat všechny webové stránky, na kterých chcete, aby to fungovalo, odděleně od seznamu, který jste viděli v **Obecném režimu**.
 
-Při přidávání webové stránky do seznamu výjimek ji můžete zadat ručně nebo vybrat možnost **Ze seznamu**. V druhém případě se zobrazí osm kategorií (např. *Nákupy*, *Zasílání zpráv* atd.), z nichž každá nabízí několik oblíbených služeb. Jedním kliknutím můžete vyloučit kteroukoli z těchto služeb a tato akce přidá do výjimek všechny domény relevantní pro danou službu.
+When adding a website to an exclusion list, you can enter the website manually or select the **From the list** option. In the latter case, you’ll see eight categories (for example, *Shopping* or *Messengers*), each suggesting several popular services. You can exclude any of these services in one click. This will add all domains relevant to that specific service to exclusions.
 
 ### Import a export
 

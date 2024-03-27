@@ -23,7 +23,7 @@ Windows için AdGuard VPN'i kullanmaya başlamak için uygulamayı [sitemizden](
 
 **Ana ekranındaki** en dikkat çekici öğe, altında seçilen sunucuyu görebileceğiniz AdGuard VPN Bağlan veya Bağlantıyı kes düğmesidir. Ekranın sağ tarafında mevcut konumların bir listesini göreceksiniz. En hızlı konum, yani en düşük ping değerine sahip olan, listenin en üstünde gösterilir. Herhangi bir konum çevrimdışıysa tıklayabileceğiniz bir yenileme düğmesi de vardır.
 
-Ekranın üst kısmında beş sekmeli bir gezinme paneli bulunmaktadır: **Ana Sayfa**, **İstisnalar**, **İstatistikler**. **Destek** ve **Ayarlar**.
+At the top of the screen there is a navigation panel with five tabs: **Home**, **Exclusions**, **Stats**, **Support**, and **Settings**.
 
 ## İstisnalar
 
@@ -37,7 +37,7 @@ Alan adlarını girerek siteleri **el ile** istisnalara ekleyebilirsiniz. Uygula
 
 :::note
 
-Alan adlarını elle eklerken bazı ince ayrıntıları göz önünde bulundurmalısınız. Örneğin, `google.com` alan adını elle hariç tutarsanız, tüm `*.google.com` alt alanları da istisna listesine eklenecektir. Ancak, `google.es` veya `google.it` gibi diğer üst düzey alan adlarına sahip alan adları hariç tutulmayacaktır. Veya `youtube.com` alan adını istisnalara ekleyebilirsiniz, ancak aynı hizmet `youtu.be` alan adı listeye dahil edilmeyecektir.
+When adding domains manually, you should take into account certain details. Örneğin, `google.com` alan adını elle hariç tutarsanız, tüm `*.google.com` alt alanları da istisna listesine eklenecektir. Ancak, `google.es` veya `google.it` gibi diğer üst düzey alan adlarına sahip alan adları hariç tutulmayacaktır. Veya `youtube.com` alan adını istisnalara ekleyebilirsiniz, ancak aynı hizmet `youtu.be` alan adı listeye dahil edilmeyecektir.
 
 :::
 

@@ -34,8 +34,8 @@ You could say this is a particular subtype of Error 1603. The possible solutions
     1. Press *Win + R* and enter **services.msc**.
     1. Find in the list and double click *Windows Installer*.
     1. Hit *Start* button under *Service status* and hit *OK*. If the service status is **running**, you should click *Stop* first and then hit *Start*.
-    1. Press *Win + R*, type and enter **msiexec /unregister** and hit *Enter*.
-    1. Press *Win + R* again, type and enter **msiexec /regserver** and hit *Enter*
+    1. Press *Win + R*, type **msiexec /unregister** and hit *Enter*.
+    1. Press *Win + R* again, type **msiexec /regserver** and hit *Enter*
 
 - Reboot the PC and start the installation all over again. Sometimes that's enough to fix the problem.
 
@@ -64,8 +64,8 @@ This error sounds more worrying than it actually is. In reality, this is a rathe
     1. Press *Win + R* and enter **services.msc**.
     1. Find in the list and double click *Windows Installer*.
     1. Hit *Start* button under *Service status* and hit *OK*. If the service status is **running**, you should click *Stop* first and then hit *Start*.
-    1. Press *Win + R*, type and enter **msiexec /unregister** and hit *Enter*.
-    1. Press *Win + R* again, type and enter **msiexec /regserver** and hit *Enter*
+    1. Press *Win + R*, type **msiexec /unregister** and hit *Enter*.
+    1. Press *Win + R* again, type **msiexec /regserver** and hit *Enter*
 
 - Acquire full permissions on the drive for installation. It is possible that the error 1603 occurs because you don’t have full permissions on the file location. It's also not as easy as some of the other solutions:
 
@@ -85,7 +85,7 @@ This error appears when trying to run multiple instances of the AdGuard VPN inst
 
 - Reboot your PC and start the installer again. When you restart the computer, all ongoing processes will stop, including all copies of the installer.
 
-- Don't click multiple times on the installer, even if it doesn't start right away. Sometimes it may take a few seconds to display the installer UI.
+- Don't click the installer multiple times, even if it doesn't seem to start right away. Sometimes it may take a few seconds to display the installer UI.
 
 ### Error 1638: Another version of this product is already installed {#error-1638}
 

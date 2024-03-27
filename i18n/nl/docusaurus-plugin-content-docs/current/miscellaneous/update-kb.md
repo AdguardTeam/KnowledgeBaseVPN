@@ -21,7 +21,7 @@ U kunt deze Kennisbank locaal op uw computer implementeren om uw voorgestelde wi
 
 Vertalingen van bestaande artikelen van de Kennisbank worden uitgevoerd op [het Crowdin platform](https://crowdin.com/project/adguard-vpn-knowledge-base). Alle details over het vertalen en werken met Crowdin kunnen gevonden worden [in het speciale artikel](https://adguard.com/kb/miscellaneous/contribute/translate/program/) of de Adguard Ad Blocker Kennis Bank.
 
-Wanneer u aan AdGuard VPN Knowledge Base-artikelen werkt kunt u tekenreeksen tegenkomen die meervoudsvormen bevatten, die u met extra aandacht moet vertalen. [In een apart artikel](https://adguard.com/kb/miscellaneous/contribute/translate/plural-forms/)hebben we in detail de uitdagingen beschreven die kunnen optreden bij het vertalen van tekenreeksen met meervoudsvormen, en hebben we op het Crowdin-platform uitgebreide instructies gegeven over hoe je ermee om kunt gaan.
+Wanneer u aan AdGuard VPN Knowledge Base-artikelen werkt kunt u tekenreeksen tegenkomen die meervoudsvormen bevatten, die u met extra aandacht moet vertalen. [In a separate article](https://adguard.com/kb/miscellaneous/contribute/translate/plural-forms/), we describe in detail the difficulties that can arise when translating strings with plural forms and provide detailed guidance on how these are handled on the Crowdin platform.
 
 ## Werken aan openstaande kwesties
 

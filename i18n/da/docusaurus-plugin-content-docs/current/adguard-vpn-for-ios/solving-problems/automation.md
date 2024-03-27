@@ -17,7 +17,7 @@ Ved behov for et VPN til en eller flere apps, skal AdGuard VPN opsættes til aut
 3. Sørg i næste vindue for, at indstillingen *Er åbnet* er valgt, og tryk dernæst på *Vælg* for at vælge appen.
 
 ![Vejledning. Del 2](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_on2_en.jpg)
-4. Start entering the name of the app (in our case it’s Twitter) and select it. Tryk på *Udført* og dernæst på *Næste* øverste til højre på skærmen. Tryk i det nye vindue på *Tilføj handling*.
+4. Begynd at skrive app-navnet, i dette tilfælde Twitter, og vælg det. Tryk på *Udført* og dernæst på *Næste* øverste til højre på skærmen. Tryk i det nye vindue på *Tilføj handling*.
 
 ![Vejledning. Del 3](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_on3_en.jpg)
 5. Begynd at skrive "AdGuard VPN", og vælg AdGuard VPN-appen. Tryk i det nye vindue på *Opsæt en VPN-forbindelse*.

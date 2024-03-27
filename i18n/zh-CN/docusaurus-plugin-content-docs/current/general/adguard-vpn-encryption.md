@@ -5,7 +5,7 @@ sidebar_position: 7
 
 ## 前言
 
-加密是“虚拟私人网络“中存在"私人"一词的原因。 A VPN creates a tunnel between your device and a VPN server, passing through which your data is encrypted and then securely transmitted to the open Internet. 加密过程，即将数据变成任何人都无法读取的乱码，对于任何 VPN 服务都是必不可少的。
+加密是“虚拟私人网络“中存在"私人"一词的原因。 A VPN creates a tunnel between your device and a VPN server, that encrypts and transmits your data securely to the open Internet. 加密过程，即将数据变成任何人都无法读取的乱码，对于任何 VPN 服务都是必不可少的。
 
 The AdGuard VPN protocol uses the most secure and fast encryption algorithm to date — AES-256. 了解什么是 AES-256，以及它为何如此出色。
 

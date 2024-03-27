@@ -21,7 +21,7 @@ Denne Vidensbase kan udrulles lokalt til egen computer til forhåndsvisning af f
 
 Oversættelse af de eksisterende artikler i Vidensbase foretages via [Crowdin-platformen](https://crowdin.com/project/adguard-vpn-knowledge-base). Alle oplysninger om oversættelse og brug af Crowdin findes [i den dedikerede artikel](https://adguard.com/kb/miscellaneous/contribute/translate/program/) i AdGuard Ad Blocker Vidensbase.
 
-Under arbejdet på AdGuard VPN Vidensbase-artikler kan man støde på strenge indeholdende flertalsformer, som bør oversættes med ekstra opmærksomhed. [I en separat artikel](https://adguard.com/kb/miscellaneous/contribute/translate/plural-forms/)beskriver vi i detaljer de vanskeligheder, som kan opstå under oversættelse af strenge med flertalsformer og giver udførlig vejledning til, hvordan disse håndteres på Crowdin-platformen.
+Under arbejdet på AdGuard VPN Vidensbase-artikler kan man støde på strenge indeholdende flertalsformer, som bør oversættes med ekstra opmærksomhed. [In a separate article](https://adguard.com/kb/miscellaneous/contribute/translate/plural-forms/), we describe in detail the difficulties that can arise when translating strings with plural forms and provide detailed guidance on how these are handled on the Crowdin platform.
 
 ## Håndtering af åbne problematikker
 

@@ -9,7 +9,7 @@ sidebar_position: 2
 
 By default, AdGuard VPN for iOS uses the *Default* logging level. It collects basic data about running app processes. 要发送这些日志，请按照以下步骤进行操作：
 
-1. Connect to AdGuard VPN for iOS. If possible, repeat the actions that led to the error. Note the exact time when the error occurred (e.g. 15:35).
+1. Connect to AdGuard VPN for iOS. If possible, repeat the actions that led to the error. Note the exact time when the error occurred (e.g., 15:35).
 
 2. Open AdGuard VPN and tap the Settings ⚙ icon in the lower right corner of the screen. Select *Support*, then tap *Report a bug*.
 
@@ -35,7 +35,7 @@ In most cases, the default logging level is sufficient to track possible bugs. H
 
 3. In the *Logging level* section, select *Extended* or *Extreme*.
 
-4. Repeat the actions that led to the error and note the time when it occurred (e.g. 14:23).
+4. Repeat the actions that led to the error and note the time when it occurred (e.g., 14:23).
 
 5. 将日志记录级别切回*「默认」*。
 

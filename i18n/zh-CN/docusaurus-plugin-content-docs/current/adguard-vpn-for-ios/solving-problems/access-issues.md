@@ -5,8 +5,8 @@ sidebar_position: 4
 
 Some users can’t use their AdGuard VPN subscription purchased through the App Store. 此问题可能由于以下两种情况：
 
-- 您使用不同的账户进行 App Store 购买
-- 您向应用开发人员隐藏了您的电子邮件地址
+- if an incorrect Apple ID was used for this App Store purchase
+- or if you hid your email address from app developers
 
 要解决此问题，请按照下列步骤操作：
 

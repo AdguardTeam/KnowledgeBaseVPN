@@ -5,7 +5,7 @@ sidebar_position: 7
 
 ## Giriş
 
-"Sanal Özel Ağ" teriminde "özel" kelimesinin bulunmasının nedeni şifrelemedir. VPN, cihazınız ile VPN sunucusu arasında bir tünel oluşturarak verilerinizin şifrelenmesini ve ardından güvenli bir şekilde açık internete aktarılmasını sağlar. Şifreleme süreci, yani verileri, araya giren hiç kimsenin okuyamayacağı anlamsız kelimelere dönüştürmek, herhangi bir VPN hizmeti için çok önemlidir.
+"Sanal Özel Ağ" teriminde "özel" kelimesinin bulunmasının nedeni şifrelemedir. A VPN creates a tunnel between your device and a VPN server, that encrypts and transmits your data securely to the open Internet. Şifreleme süreci, yani verileri, araya giren hiç kimsenin okuyamayacağı anlamsız kelimelere dönüştürmek, herhangi bir VPN hizmeti için çok önemlidir.
 
 AdGuard VPN protokolü, bugüne kadarki en güvenli ve hızlı şifreleme algoritmasını kullanır — AES-256. Ne olduğunu ve neden bu kadar iyi olduğunu öğrenin.
 

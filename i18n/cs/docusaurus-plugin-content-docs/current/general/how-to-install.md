@@ -10,4 +10,4 @@ Podle toho, kterou aplikaci AdGuard VPN nebo rozšíření prohlížeče chcete 
 - [AdGuard VPN pro Windows](/adguard-vpn-for-windows/installation)
 - [AdGuard VPN pro Mac](/adguard-vpn-for-mac/installation)
 - [AdGuard VPN pro rozšíření prohlížeče](/adguard-vpn-browser-extension/installation)
-- [AdGuardVPN v routeru](/general/set-up-adguard-vpn-on-your-router/)
+- [AdGuard VPN for routers](/general/set-up-adguard-vpn-on-your-router/)

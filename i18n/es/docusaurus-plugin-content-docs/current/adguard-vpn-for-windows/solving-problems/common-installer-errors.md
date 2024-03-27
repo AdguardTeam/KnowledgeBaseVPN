@@ -34,8 +34,8 @@ Se puede decir que este es un subtipo particular del Error 1603. Las posibles so
     1. Presiona *Win + R* e introduzca **services.msc**.
     1. Búscalo en la lista y haz doble clic en *Windows Installer*.
     1. Pulsa el botón *Iniciar* debajo de *Estado del servicio* y pulsa *Aceptar*. Si el estado del servicio es **ejecutando**, debes hacer clic primero en *Detener* y luego pulsar *Iniciar*.
-    1. Press *Win + R*, type and enter **msiexec /unregister** and hit *Enter*.
-    1. Press *Win + R* again, type and enter **msiexec /regserver** and hit *Enter*
+    1. Press *Win + R*, type **msiexec /unregister** and hit *Enter*.
+    1. Press *Win + R* again, type **msiexec /regserver** and hit *Enter*
 
 - Reinicia la PC y comienza la instalación nuevamente. A veces eso es suficiente para solucionar el problema.
 
@@ -64,8 +64,8 @@ This error sounds more worrying than it actually is. En realidad, este es un err
     1. Press *Win + R* and enter **services.msc**.
     1. Búscalo en la lista y haz doble clic en *Windows Installer*.
     1. Pulsa el botón *Iniciar* debajo de *Estado del servicio* y pulsa *Aceptar*. Si el estado del servicio es **ejecutando**, debes hacer clic primero en *Detener* y luego pulsar *Iniciar*.
-    1. Press *Win + R*, type and enter **msiexec /unregister** and hit *Enter*.
-    1. Press *Win + R* again, type and enter **msiexec /regserver** and hit *Enter*
+    1. Press *Win + R*, type **msiexec /unregister** and hit *Enter*.
+    1. Press *Win + R* again, type **msiexec /regserver** and hit *Enter*
 
 - Adquiere permisos completos en la unidad para la instalación. Es posible que se produzca el error 1603 porque no tienes permisos completos en la ubicación del archivo. Esto tampoco es tan fácil como algunas de las otras soluciones:
 
@@ -85,7 +85,7 @@ This error appears when trying to run multiple instances of the AdGuard VPN inst
 
 - Reinicia tu PC y vuelve a iniciar el instalador. Al reiniciar el ordenador, se detendrán todos los procesos en curso, incluidas todas las copias del instalador.
 
-- Don't click multiple times on the installer, even if it doesn't start right away. A veces, la interfaz de usuario del instalador puede tardar unos segundos en mostrarse.
+- Don't click the installer multiple times, even if it doesn't seem to start right away. A veces, la interfaz de usuario del instalador puede tardar unos segundos en mostrarse.
 
 ### Error 1638: Ya está instalada otra versión de este producto {#error-1638}
 

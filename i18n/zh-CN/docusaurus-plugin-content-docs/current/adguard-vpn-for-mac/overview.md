@@ -17,9 +17,9 @@ AdGuard VPN Mac版是一个桌面 VPN 服务。 AdGuard VPN 与 AdGuard 广告�
 
 ![主屏幕](https://cdn.adguardvpn.com/content/kb/vpn/mac/vpn_main_new_en.jpeg)
 
-第一个标签是*主页*屏幕。 在这里，您可以查看AdGuard VPN的当前状态，所选位置（如果已启用）以及ping。 Ping 是指 VPN 服务器的响应时间。 The lower the number, the faster the connection. If VPN is disabled, the last location you connected to is displayed at the bottom.
+第一个标签是*主页*屏幕。 在这里，您可以查看AdGuard VPN的当前状态，所选位置（如果已启用）以及ping。 Ping 是指 VPN 服务器的响应时间。 The lower the number, the faster the connection. 如果 VPN 连接被禁用，您最后次连接的服务器位置将显示在连接状态的下面。
 
-The fastest locations with the lowest pings are displayed in the upper right corner of the screen. There is also a refresh button that you can click if any locations are offline. 下面用户可以看到全部服务器位置的列表。 The search field makes it easy to find the location you need.
+具有最低 Ping 值的最快位置将显示在屏幕的右上角。 There is also a refresh button that you can click if any locations are offline. 下面用户可以看到全部服务器位置的列表。 The search field makes it easy to find the location you need.
 
 :::注意
 
@@ -86,7 +86,7 @@ The fourth tab is the *Support* screen. 在[常见问题](https://adguard-vpn.co
 
 ![DNS 服务器](https://cdn.adguardvpn.com/content/kb/vpn/mac/dns_new_en.png)
 
-Here you can set up a DNS server (or servers). This is useful if you don't want to rely on the default DNS server provided by your ISP. Select one from the list of popular DNS services or add a custom server manually. We recommend adding AdGuard DNS, which not only encrypts your DNS traffic, but also identifies requests to malicious websites and redirects them to a “black hole”.
+One or more DNS servers can be set up here. This is useful if you don't want to rely on the default DNS server provided by your ISP. Select one from the list of popular DNS services or add a custom server manually. We recommend adding AdGuard DNS, which not only encrypts your DNS traffic, but also identifies requests to malicious websites and redirects them to a “black hole”.
 
 ### 高级设置
 

@@ -23,7 +23,7 @@ Per iniziare a utilizzare AdGuard VPN per Windows, scarica l'applicazione dal [n
 
 L'elemento più evidente nella **schermata Home** è il pulsante Connetti/Disconnetti di VPN AdGuard, sotto il quale puoi vedere il server selezionato. Sul lato destro dello schermo viene visualizzato un elenco delle località disponibili. La posizione più veloce, ossia quella con il ping più basso, è mostrata in cima all'elenco. C'è anche un pulsante di aggiornamento su cui puoi cliccare se alcune località sono offline.
 
-Nella parte superiore dello schermo è presente un pannello di navigazione con cinque schede: **Home**, **Esclusioni**, **Statistiche**. **Supporto**e **Impostazioni**.
+At the top of the screen there is a navigation panel with five tabs: **Home**, **Exclusions**, **Stats**, **Support**, and **Settings**.
 
 ## Esclusioni
 
@@ -37,7 +37,7 @@ Puoi aggiungere i siti web alle esclusioni **manualmente**, inserendone i nomi d
 
 :::note
 
-Aggiungendo manualmente i domini, dovresti tenere conto di alcune sfumature. Ad esempo, se escludi manualmente il dominio `google.com`, tutti i sottodomini `*.google.com` saranno anch'essi aggiunti all'elenco delle esclusioni. Tuttavia, i nomi di dominio con altri domini di primo livello come `google.es` o `google.it` non saranno esclusi. Oppure, puoi aggiungere `youtube.com` alle esclusioni, ma il dominio dello stesso servizio `youtu.be` non sarà incluso nell'elenco.
+When adding domains manually, you should take into account certain details. Ad esempo, se escludi manualmente il dominio `google.com`, tutti i sottodomini `*.google.com` saranno anch'essi aggiunti all'elenco delle esclusioni. Tuttavia, i nomi di dominio con altri domini di primo livello come `google.es` o `google.it` non saranno esclusi. Oppure, puoi aggiungere `youtube.com` alle esclusioni, ma il dominio dello stesso servizio `youtu.be` non sarà incluso nell'elenco.
 
 :::
 

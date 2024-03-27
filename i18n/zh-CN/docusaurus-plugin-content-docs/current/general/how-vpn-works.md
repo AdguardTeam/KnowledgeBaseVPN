@@ -53,7 +53,7 @@ AdGuard VPN 也有自己的[*协议*](/general/adguard-vpn-protocol)。 其最�
 
 ### 访问阻止
 
-有些在线服务会费尽心思去检测 VPN 流量，并阻止 VPN 用户的访问。 However, not many VPNs can mask themselves in such a way that they are only seen as regular traffic. 所以许多人在用其他 VPN 时会常常被拦截，无法进入网站。
+有些在线服务会费尽心思去检测 VPN 流量，并阻止 VPN 用户的访问。 However, not many VPNs can mask themselves in such a way that they are only seen as regular traffic. Therefore, many attempts to reach a certain website via a VPN connection end in nothing.
 
 ### VPN 连接中断
 

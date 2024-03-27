@@ -34,8 +34,8 @@ Si potrebbe dire che questo sia un caso secondario particolare dell'Errore 1603.
     1. Premi *Win + R* e digita **services.msc**.
     1. Trovalo nell'elenco e fai doppio click su *Windows Installer*.
     1. Clicca il pulsante *Start* in *Stato del servizio* e clicca su *OK*. Se lo stato del servizio è **in esecuzione**, dovresti prima cliccare su *Arresta*, quindi su *Avvia*.
-    1. Premi *Win + R*, digita e inserisci **msiexec /unregister**, quindi premi *Invio*.
-    1. Premi ancora *Win + R*, digita e inserisci **msiexec /regserver**, quindi premi *Invio*
+    1. Press *Win + R*, type **msiexec /unregister** and hit *Enter*.
+    1. Press *Win + R* again, type **msiexec /regserver** and hit *Enter*
 
 - Riavvia il PC e ricomincia l'installazione. Talvolta, ciò è sufficiente per risolvere il problema.
 
@@ -64,8 +64,8 @@ Questo errore sembra molto più preoccupante di quanto sia realmente. Infatti, q
     1. Premi *Win + R* e inserisci **services.msc**.
     1. Trovalo nell'elenco e fai doppio click su *Windows Installer*.
     1. Clicca il pulsante *Start* in *Stato del servizio* e clicca su *OK*. Se lo stato del servizio è **in esecuzione**, devi prima cliccare su *Arresta*, quindi su *Avvia*.
-    1. Premi *Win + R*, digita e inserisci **msiexec /unregister**, quindi premi *Invio*.
-    1. Premi ancora *Win + R*, digita e inserisci **msiexec /regserver**, e premi *Invio*
+    1. Press *Win + R*, type **msiexec /unregister** and hit *Enter*.
+    1. Press *Win + R* again, type **msiexec /regserver** and hit *Enter*
 
 - Acquisici le autorizzazioni complete sull'unità per l'installazione. È possibile che l'errore 1603 si verifichi perché non disponi delle piene autorizzazioni sulla posizione del file. Inoltre, questa, non è facile come le altre soluzioni:
 
@@ -85,7 +85,7 @@ Questo errore appare provando a eseguire più istanze del programma d'installazi
 
 - Riavvia il tuo PC e riavvia il programma d'installazione. Riavviando il computer, tutti i processi in corso saranno interrotti, incluse tutte le copie del programma d'installazione.
 
-- Non cliccare su più elementi sul programma d'installazione, anche se non parte subito. Talvolta, potrebbe volerci qualche secondo per visualizzare l'UI del programma d'installazione.
+- Don't click the installer multiple times, even if it doesn't seem to start right away. Talvolta, potrebbe volerci qualche secondo per visualizzare l'UI del programma d'installazione.
 
 ### Errore 1638: Un'altra versione del prodotto è già installata {#error-1638}
 

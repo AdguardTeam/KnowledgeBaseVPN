@@ -53,7 +53,7 @@ Since your traffic does not go directly to the web server, but first passes thro
 
 ### Bloqueo de acceso
 
-Some online services make a lot of effort to detect VPN traffic and block access to VPN users. However, not many VPNs can mask themselves in such a way that they are only seen as regular traffic. Therefore, many attempts to go to a particular website without disabling VPN end up in nothing.
+Some online services make a lot of effort to detect VPN traffic and block access to VPN users. However, not many VPNs can mask themselves in such a way that they are only seen as regular traffic. Therefore, many attempts to reach a certain website via a VPN connection end in nothing.
 
 ### Ruptura de conexiones VPN
 

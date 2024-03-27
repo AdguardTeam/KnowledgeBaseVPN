@@ -37,7 +37,11 @@ AdGuard VPN для Android может сделать всё это для вас
 
 #### Для сайтов
 
-Добавить домены (например, `google.com`) или поддомены (например, `*.google.com`) сайтов в *Исключения* можно тремя способами: 1) ввести их вручную в приложении, 2) прямо из браузера, нажав кнопку *Поделиться* и выбрав AdGuard VPN в открывшемся списке ниже, 3) из встроенного списка сервисов, разделённых на категории.
+You can add a domain (e.g., `google.com`) or subdomain (e.g., `*.google.com`) to *Exclusions* in three ways:
+
+- Enter it manually in the app
+- Add it directly from the browser by sharing the website with AdGuard VPN
+- Add it from a built-in list of services
 
 ![Исключения](https://cdn.adguardvpn.com/public/Adguard/kb/VPN/Screenshots/add_site_android.jpg)
 

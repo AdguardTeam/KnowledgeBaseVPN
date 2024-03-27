@@ -3,16 +3,16 @@ title: Nutzungsprobleme bei über den App Store gekauften Abonnements
 sidebar_position: 4
 ---
 
-Some users can’t use their AdGuard VPN subscription purchased through the App Store. Dieses Problem kann in zwei Fällen auftreten:
+Einige Benutzer können ihr über den App Store erworbenes AdGuard VPN-Abonnement nicht verwenden. Dieses Problem kann in zwei Fällen auftreten:
 
-- wenn Sie ein anderes Konto für Einkäufe im App Store verwenden
-- oder wenn Sie Ihre E-Mail-Adresse vor App-Entwicklern verbergen
+- if an incorrect Apple ID was used for this App Store purchase
+- or if you hid your email address from app developers
 
 Um dieses Problem zu lösen, führen Sie bitte die folgenden Schritte aus:
 
-1. Go to iOS Settings → [your Apple ID name] → *Media & Purchases* → *View Account*.
-1. Make sure that the email address matches the one you use for your Apple ID.
-1. If the email addresses do not match, please email to `support@adguard.com`: describe your problem and provide us with the address used for the App Store.
-1. If the email addresses match, navigate to *Apple ID* → *iCloud* → *Hide My Email*, find our app in the list, copy the email address, and send it to `support@adguard.com` along with a description of your problem. Usually, such an email address ends with `@privaterelay.appleid.com` or `@icloud.com`.
+1. Öffnen Sie iOS-Einstellungen ➜ [Name Ihrer Apple-ID] ➜ *Medien & Einkäufe* ➜ *Account anzeigen*.
+1. Stellen Sie sicher, dass die E-Mail-Adresse mit derjenigen übereinstimmt, die Sie für Ihre Apple ID verwenden.
+1. Wenn die E-Mail-Adressen nicht übereinstimmen, senden Sie bitte eine E-Mail an `support@adguard.com`: Beschreiben Sie Ihr Problem und teilen Sie uns die für den App Store verwendete Adresse mit.
+1. Wenn die E-Mail-Adressen übereinstimmen, navigieren Sie zu *Apple ID* ➜ *iCloud* ➜ *E-Mail-Adresse verbergen*, suchen Sie unsere App in der Liste, kopieren Sie die E-Mail-Adresse und senden Sie sie zusammen mit einer Beschreibung Ihres Problems an `support@adguard.com`. Für gewöhnlich endet eine solche E-Mail-Adresse mit `@privaterelay.appleid.com` oder `@icloud.com`.
 
-Once the support team has the email address you used for the purchase, they’ll transfer your subscription to the correct account and you’ll be able to start using it. They also may ask for additional information to verify that it’s you. Sie können dem Support-Team Ihre Apple-Kaufquittung vorlegen, um den Vorgang zu beschleunigen.
+Sobald dem Support-Team die E-Mail-Adresse vorliegt, die Sie für den Kauf verwendet haben, wird Ihr Abonnement auf das richtige Konto übertragen und Sie können es nutzen. Diese können auch nach weiteren Informationen fragen, um zu überprüfen, ob Sie es sind. Sie können dem Support-Team Ihre Apple-Kaufquittung vorlegen, um den Vorgang zu beschleunigen.

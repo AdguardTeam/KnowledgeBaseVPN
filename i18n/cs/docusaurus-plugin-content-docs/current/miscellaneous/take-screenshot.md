@@ -58,7 +58,7 @@ PrtScn (Print Screen) může být na různých klávesnicích označováno různ
 
 :::
 
-Windows zachytí celou obrazovku a zkopíruje ji do (neviditelné) schránky.
+Windows will capture the entire screen and copy it to the clipboard.
 
 Chcete-li pořídit snímek obrazovky aktivního okna, použijte následující kombinaci:
 

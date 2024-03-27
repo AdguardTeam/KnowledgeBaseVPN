@@ -53,7 +53,7 @@ Da trafikken ikke går direkte til en webserver, men først passerer igennem VPN
 
 ### Adgangsblokering
 
-Nogle onlinetjenester gør en stor indsats for at detektere og blokere VPN-trafik og -brugere. Det er dog ikke mange VPN, som kan maskere sig selv på en sådan måde, at de kun ses som almindelig trafik. Derfor ender mange forsøg på at nå et bestemt websted via en VPN-forbindelse i ingenting.
+Nogle onlinetjenester gør en stor indsats for at detektere og blokere VPN-trafik og -brugere. Det er dog ikke mange VPN, som kan maskere sig selv på en sådan måde, at de kun ses som almindelig trafik. Therefore, many attempts to reach a certain website via a VPN connection end in nothing.
 
 ### VPN-forbindelsesudfald
 

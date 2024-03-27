@@ -19,7 +19,7 @@ Das Abonnement kann in Ihrem AdGuard-Konto gekündigt werden. Um Ihr Abonnement 
  1. Gehen Sie in Ihrem AdGuard-Konto zu [Lizenzen](https://my.adguard.com/account/licenses).
  1. Klicken Sie auf *Abonnement kündigen* unter dem Abonnement, welches Sie nicht mehr benötigen.
 
-Das gekündigte Abonnement bleibt bis zu seinem Ablaufdatum gültig.
+The canceled subscription will remain valid until its expiry date.
 
 :::note
 

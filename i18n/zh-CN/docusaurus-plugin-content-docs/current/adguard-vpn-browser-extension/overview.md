@@ -34,7 +34,7 @@ AdGuard VPN 浏览器扩展可在 Chrome 浏览器、火狐浏览器、Opera 浏
 
 在**常规模式**中，AdGuard VPN 默认对所有网站都有效，但您添加到排除列表的网站除外。 在**选择模式**中正好相反，AdGuard VPN 默认不工作。 您可以在排除列表中添加希望启用 AdGuard VPN 的网站，该列表与**常规模式**中的列表相独立。
 
-将网站添加到排除列表时，您可以手动输入网站或选择「**从列表**」选项。 在后一种情况下，您会看到八个类别（例如：*购物*、*通信*等），每个类别会包含几个流行服务。 您只需单击一下，即可排除其中任何一项服务，而且该操作会将与该特定服务相关的所有域名添加到排除项中。
+When adding a website to an exclusion list, you can enter the website manually or select the **From the list** option. In the latter case, you’ll see eight categories (for example, *Shopping* or *Messengers*), each suggesting several popular services. You can exclude any of these services in one click. This will add all domains relevant to that specific service to exclusions.
 
 ### 导入和导出
 

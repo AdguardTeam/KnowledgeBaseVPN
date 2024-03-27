@@ -1,40 +1,78 @@
 ---
-title: 'Wie man Protokolle sammelt und versendet'
+title: Wie man Protokolle sammelt und versendet
 sidebar position: 1
 ---
 
-
-
 Wenn Sie bei der Verwendung von AdGuard VPN für Windows auf Probleme stoßen, können Sie uns darüber informieren. Wir würden es begrüßen, wenn Sie uns auch Anwendungsprotokolle zusenden würden, da diese uns helfen, Probleme schneller zu lösen.
 
-## Sammeln und Senden von Standardprotokollen
+## Collecting logs
 
-Standardmäßig verwendet AdGuard VPN für Windows die Protokollierungsebene Standard, d. h. die grundlegende Sammlung von Daten über laufende Prozesse der App. Um diese Protokolle zu senden, machen Sie Folgendes:
+### Standard logs
 
-1. Öffnen Sie AdGuard VPN für Windows und wiederholen Sie nach Möglichkeit die Aktionen, die zum Fehler geführt haben. Notieren Sie den genauen Zeitpunkt, zu dem dieser Fehler aufgetreten ist.
+By default, AdGuard VPN for Windows uses the standard logging level, which is the basic collection of data about running processes of the app. Before sending the logs, please open AdGuard VPN for Windows and, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
 
-2. Klicken Sie auf **Support** (im Menü oben) → **Fehler melden**.
-
-3. Geben Sie im geöffneten Formular Ihre E-Mail-Adresse für Feedback ein und beschreiben Sie den gefundenen Fehler, einschließlich des Zeitpunkts, zu dem dieser Fehler aufgetreten ist. Wenn Sie das Problem nicht reproduzieren können, geben Sie so genau wie möglich an, wann es zuletzt aufgetreten ist.
-
-4. Neben **Detaillierte Systeminformationen senden** ist ein Häkchen gesetzt, d. h., wenn Sie einen Bericht senden, senden Sie auch Protokolle.
-> Wenn es für Sie aus irgendeinem Grund bequemer ist, uns Protokolle auf andere Weise zu senden, können Sie sie selbst exportieren. Gehen Sie dazu auf **Support** → **Protokolle und Systeminformationen exportieren**.
-
-## Sammeln und Senden erweiterter Protokolle
+### Extended logs
 
 In den meisten Fällen reicht die Standardprotokollierungsebene aus, um mögliche Fehler aufzuspüren. Es gibt jedoch Fälle, in denen detailliertere technische Informationen über das Gerät und die Verbindungen erforderlich sind und unser Support-Team Sie dann auffordert, die Erweiterte Protokollierungsebene zu aktivieren. Um diese Protokolle zu senden, machen Sie Folgendes:
 
-1. Öffnen Sie AdGuard VPN für Windows und wählen Sie **Einstellungen** (im Menü oben) → **App-Einstellungen** → **Erweiterte Einstellungen** → **Protokollierungsebene**.
+1. Open AdGuard VPN for Windows and select **Settings** in the menu above → **App settings** → **Advanced settings** → **Logging level**.
 
-2. Im Abschnitt **Protokollierungsebene** wählen Sie **Vollständige Aufzeichnung**.
+1. Im Abschnitt **Protokollierungsebene** wählen Sie **Vollständige Aufzeichnung**.
 
-3. Wiederholen Sie die Aktionen, die zu dem Fehler geführt haben, und notieren Sie den Zeitpunkt, zu dem er aufgetreten ist.
+    ![Logging level *border](https://cdn.adtidy.org/content/kb/vpn/windows/logs/logging.jpeg)
 
-4. Schalten Sie die Protokollierungsebene zurück auf **Standard-Aufzeichnung**.
+1. Wiederholen Sie die Aktionen, die zu dem Fehler geführt haben, und notieren Sie den Zeitpunkt, zu dem er aufgetreten ist.
 
-5. Wählen Sie dann **Support** (im Menü oben) → **Fehler melden**.
+1. Schalten Sie die Protokollierungsebene zurück auf **Standard-Aufzeichnung**.
 
-6. Geben Sie im geöffneten Formular Ihre E-Mail-Adresse für Feedback ein und beschreiben Sie den gefundenen Fehler, einschließlich des Zeitpunkts, zu dem dieser Fehler aufgetreten ist.
+### Trace logs
 
-7. Stellen Sie sicher, dass ein Häkchen neben **Detaillierte Systeminformationen senden** gesetzt ist, und tippen Sie auf **Senden**.
+Sometimes our support team might ask you to send them trace logs. To do this, you need to follow these steps:
+
+1. Right-click the AdGuard VPN icon in the tray menu and choose **Exit AdGuard VPN**.
+
+    ![Exit *mobile](https://cdn.adtidy.org/content/kb/vpn/windows/logs/exit.png)
+
+    If you see the warning message, agree to stop the service.
+
+    ![Attention *mobile](https://cdn.adtidy.org/content/kb/vpn/windows/logs/attention.png)
+
+1. Open the console (type `cmd` in the start panel).
+
+1. Run the application with the command `C:\"Program Files (x86)"\AdGuardVpn\AdGuardVpnSvc.exe /trace` if you are using 64-bit Windows, and `C:\"Program Files"\AdGuardVpn\AdGuardVpnSvc.exe /trace` if you are using 32-bit.
+
+1. Reproduce the issue. We strongly recommend that you note the exact time when you reproduce the problem: this will help our support team to find relevant log entries and resolve the problem faster.
+
+1. Export the recorded logs: **Support** → **Export logs and system info**.
+
+Don't worry if your log file is large. We need to know as many details as possible in order to fix your problem.
+
+## Sending logs
+
+To send logs to our support team, please follow the next steps:
+
+1. Click **Support** in the menu above → **Report a bug**.
+
+    ![Report a bug *border](https://cdn.adtidy.org/content/kb/vpn/windows/logs/support_report.jpeg)
+
+1. In the form that opens, enter your email address and describe the error you found, including the time it occurred. If you can't reproduce the problem, be as specific as possible about when it last occurred.
+
+    ![Report *border](https://cdn.adtidy.org/content/kb/vpn/windows/logs/report_bug.png)
+
+1. Neben **Detaillierte Systeminformationen senden** ist ein Häkchen gesetzt, d. h., wenn Sie einen Bericht senden, senden Sie auch Protokolle.
+
 > Wenn es für Sie aus irgendeinem Grund bequemer ist, uns Protokolle auf andere Weise zu senden, können Sie sie selbst exportieren. Gehen Sie dazu auf **Support** → **Protokolle und Systeminformationen exportieren**.
+
+![Export *border](https://cdn.adtidy.org/content/kb/vpn/windows/logs/export.jpeg)
+
+**Note**: if you encounter any problems while trying to export logs, there is an alternative way. Please follow these steps:
+
+1. Open the Explorer app
+
+1. Paste `%programdata%/adguardvpn` in the search box
+
+1. Find the folder called **Logs**
+
+1. Archive the folder
+
+1. Send it to our support team

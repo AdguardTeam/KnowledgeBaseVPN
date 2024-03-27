@@ -37,7 +37,11 @@ VPN 是一个在用户每次浏览互联网时提供安全性和匿名性的理�
 
 #### 对于网站
 
-用户可以通过三种方式将网站的域名（如 `google.com`）或子域名（如 `*.google.com`）添加到*排除项*中：在应用程序中手动输入，直接从浏览器中点击*共享*按钮，在下面打开的列表中选择 AdGuard VPN，或者从按类别划分的内置服务列表中。
+You can add a domain (e.g., `google.com`) or subdomain (e.g., `*.google.com`) to *Exclusions* in three ways:
+
+- Enter it manually in the app
+- Add it directly from the browser by sharing the website with AdGuard VPN
+- Add it from a built-in list of services
 
 ![排除项](https://cdn.adguardvpn.com/public/Adguard/kb/VPN/Screenshots/add_site_android.jpg)
 

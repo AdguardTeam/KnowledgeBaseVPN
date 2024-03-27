@@ -58,7 +58,7 @@ PrtScn (Print Screen) can be differently abbreviated on various keyboards — Pr
 
 :::
 
-Windows will capture the entire screen and copy it to the (invisible) clipboard.
+Windows will capture the entire screen and copy it to the clipboard.
 
 To take a screenshot of an active window, use the following combination:
 

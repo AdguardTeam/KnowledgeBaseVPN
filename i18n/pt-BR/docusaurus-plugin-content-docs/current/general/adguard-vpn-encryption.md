@@ -5,7 +5,7 @@ sidebar_position: 7
 
 ## Introdução
 
-A criptografia é a razão pela qual a palavra "privado" existe no termo "Rede Privada Virtual". A VPN creates a tunnel between your device and a VPN server, passing through which your data is encrypted and then securely transmitted to the open Internet. O processo de criptografia, ou seja, transformar dados em rabiscos que ninguém que os intercepta possa ler, é essencial para qualquer serviço VPN.
+A criptografia é a razão pela qual a palavra "privado" existe no termo "Rede Privada Virtual". A VPN creates a tunnel between your device and a VPN server, that encrypts and transmits your data securely to the open Internet. O processo de criptografia, ou seja, transformar dados em rabiscos que ninguém que os intercepta possa ler, é essencial para qualquer serviço VPN.
 
 The AdGuard VPN protocol uses the most secure and fast encryption algorithm to date — AES-256. Saiba o que é e porque é tão bom.
 
