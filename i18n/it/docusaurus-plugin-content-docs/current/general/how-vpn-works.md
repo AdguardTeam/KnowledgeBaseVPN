@@ -53,7 +53,7 @@ Poiché il tuo trffico non va direttamente al server web, ma passa prima per il 
 
 ### Blocco dell'accesso
 
-Alcuni servizi online si impegnano molto per rilevare il traffico VPN e bloccare l'accesso agli utenti di VPN. Tuttavia, non molte VPN possono mascherarsi in modo tale da esser visti soltanto come traffico regolare. Dunque, molti tentativi di visitare un sito web in particolare senza disabilitare la VPN, si concludono con un nulla di fatto.
+Alcuni servizi online si impegnano molto per rilevare il traffico VPN e bloccare l'accesso agli utenti di VPN. Tuttavia, non molte VPN possono mascherarsi in modo tale da esser visti soltanto come traffico regolare. Therefore, many attempts to reach a certain website via a VPN connection end in nothing.
 
 ### Interruzione delle connessioni VPN
 

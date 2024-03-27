@@ -21,7 +21,7 @@ sidebar_position: 8
 
 3. Выберите локацию VPN-сервера и сгенерируйте учётные данные.
 
-   ! [Сгенерировать учётные данные \*mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/general/configure_router.png)
+   ![Сгенерировать учётные данные \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/configure_router.png)
 
    :::note
 

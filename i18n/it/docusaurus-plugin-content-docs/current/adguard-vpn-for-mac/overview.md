@@ -86,7 +86,7 @@ Inoltre, puoi consentire ad AdGuard VPN di raccogliere e inviare rapporti anonim
 
 ![Server DNS](https://cdn.adguardvpn.com/content/kb/vpn/mac/dns_new_en.png)
 
-Qui puoi configurare un server (o più) DNS. Ciò è utile se non vuoi fare affidamento sul server DNS predefinito fornito dal tuo ISP. Selezionane uno dall'elenco dei servizi DNS più diffusi o aggiungi manualmente un server personalizzato. Consigliamo di aggiungere AdGuard DNS, che non soltanto crittografa il tuo traffico DNS, ma identifica inoltre le richieste ai siti web dannosi e le reindirizza a un "buco nero".
+One or more DNS servers can be set up here. Ciò è utile se non vuoi fare affidamento sul server DNS predefinito fornito dal tuo ISP. Selezionane uno dall'elenco dei servizi DNS più diffusi o aggiungi manualmente un server personalizzato. Consigliamo di aggiungere AdGuard DNS, che non soltanto crittografa il tuo traffico DNS, ma identifica inoltre le richieste ai siti web dannosi e le reindirizza a un "buco nero".
 
 ### Impostazioni avanzate
 

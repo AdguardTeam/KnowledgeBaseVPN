@@ -34,7 +34,7 @@ La siguiente pestaña contiene una de las características distintivas principal
 
 En **Modo general**, AdGuard VPN funciona por defecto en todos los sitios web, a excepción de los sitios web que hayas agregado a la lista de exclusiones. En **Modo selectivo**, viceversa, AdGuard VPN no funciona en ningún sitio por defecto. Puedes agregar cualquier sitio web en el que te gustaría que funcionara a una lista de exclusiones, separada de la que viste en el **Modo general**.
 
-Al agregar un sitio web a la lista de exclusiones, puedes ingresar el sitio web manualmente o seleccionar la opción **De la lista**. En este último caso, verás ocho categorías (por ejemplo, *Compras*, *Mensajeros*, etc.), cada una de las cuales sugiere varios servicios populares. Puedes excluir cualquiera de esos servicios con un solo clic, y esta acción agregará a las exclusiones todos los dominios relevantes para ese servicio específico.
+When adding a website to an exclusion list, you can enter the website manually or select the **From the list** option. In the latter case, you’ll see eight categories (for example, *Shopping* or *Messengers*), each suggesting several popular services. You can exclude any of these services in one click. This will add all domains relevant to that specific service to exclusions.
 
 ### Importación y exportación
 

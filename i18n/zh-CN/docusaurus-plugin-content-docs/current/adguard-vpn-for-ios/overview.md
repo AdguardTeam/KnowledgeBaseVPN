@@ -36,7 +36,7 @@ You can find the Exclusions tab by tapping the second icon in the bottom bar. Th
 
 In *Regular* mode, the VPN works for all websites except the excluded ones. Conversely, in *Selective* mode, the VPN only works for websites from the list.
 
-You can add domains (e.g. `google.com`) or subdomains (e.g. `*.google.com`) of websites to the lists in two ways:
+You can add domains (e.g., `google.com`) or subdomains (e.g., `*.google.com`) of websites to the lists in two ways:
 
 - Enter them manually in the app
 - Add them directly from the browser by sharing the desired pages with AdGuard VPN
@@ -110,15 +110,15 @@ This setting is primarily used for debugging and troubleshooting purposes. The E
 
 :::
 
-#### Export logs ans system info
+#### Export logs and system info
 
 This option can be used to send the app’s logs and system info to our support or anyone else.
 
-#### Dignostic data
+#### Diagnostic data
 
 This option lets you export technical information that can be useful in solving problems and is sometimes requested by our support and developers.
 
-### Send technical and intercation data
+### Send technical and interaction data
 
 By turning this option on you are helping us understand better how users interact with the app. We use that information to improve user experience.
 

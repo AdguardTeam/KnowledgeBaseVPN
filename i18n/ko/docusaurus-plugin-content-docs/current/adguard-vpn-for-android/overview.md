@@ -37,7 +37,11 @@ AdGuard VPN이 선택한 곳에서만 작동하도록 사이트 및 앱 예외 �
 
 #### 웹사이트의 경우
 
-세 가지 방법으로 웹사이트의 도메인(예: `google.com`) 또는 하위 도메인(예: `*.google.com`)을 *예외 목록*에 추가할 수 있습니다. 첫 번째 방법은 앱에 수동으로 입력하는 것입니다. 두 번째 방법은 *공유 버튼*을 클릭하고 아래 열린 목록에서 AdGuard VPN을 선택하여 브라우저에서 바로 도메인 또는 하위 도메인을 추가하는 것입니다. 또한 범주별로 구분된 서비스 목록에서 예외 목록에 도메인 및 하위 도메인을 추가할 수 있습니다.
+You can add a domain (e.g., `google.com`) or subdomain (e.g., `*.google.com`) to *Exclusions* in three ways:
+
+- Enter it manually in the app
+- Add it directly from the browser by sharing the website with AdGuard VPN
+- Add it from a built-in list of services
 
 ![예외](https://cdn.adguardvpn.com/public/Adguard/kb/VPN/Screenshots/add_site_android.jpg)
 

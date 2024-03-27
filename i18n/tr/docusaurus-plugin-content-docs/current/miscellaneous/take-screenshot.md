@@ -58,7 +58,7 @@ PrtScn (Print Screen) çeşitli klavyelerde farklı şekilde kısaltılmış hâ
 
 :::
 
-Windows tüm ekranı yakalar ve (görünmez) panoya kopyalar.
+Windows will capture the entire screen and copy it to the clipboard.
 
 Etkin bir pencerenin ekran görüntüsünü almak için aşağıdaki kombinasyonu kullanın:
 

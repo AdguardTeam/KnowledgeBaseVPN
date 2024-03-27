@@ -23,7 +23,7 @@ Um AdGuard VPN für Windows zu nutzen, laden Sie die App von [unserer Website](h
 
 Das auffälligste Element auf dem **Startbildschirm** ist die Schaltfläche AdGuard VPN Verbinden/Trennen, unter der Sie den ausgewählten Server sehen können. Auf der rechten Seite des Bildschirms sehen Sie eine Liste der verfügbaren Standorte. Der schnellste Standort, d. h. der mit dem niedrigsten Ping, wird am Anfang der Liste angezeigt. Es gibt auch eine Aktualisierungsschaltfläche, auf die Sie klicken können, wenn ein Standort offline ist.
 
-Am oberen Rand des Bildschirms befindet sich ein Navigationsfeld mit fünf Tabs: **Startseite**, **Ausschlüsse**, **Statistiken**, **Support** und **Einstellungen**.
+At the top of the screen there is a navigation panel with five tabs: **Home**, **Exclusions**, **Stats**, **Support**, and **Settings**.
 
 ## Ausschlüsse
 
@@ -37,7 +37,7 @@ Sie können Websites zu Ausschlüssen **manuell** hinzufügen, indem Sie ihre Do
 
 :::note
 
-Beim manuellen Hinzufügen von Domains sollten Sie einige Details beachten. Wenn Sie beispielsweise die Domain `google.com` manuell ausschließen, werden alle Subdomains `*.google.com` ebenfalls zur Ausschlussliste hinzugefügt. Domainnamen mit anderen Top-Level-Domains wie `google.de` oder `google.nl` werden jedoch nicht ausgeschlossen. Oder Sie können `youtube.com` zu den Ausschlüssen hinzufügen, aber die Domain desselben Dienstes `youtu.be` wird nicht in die Liste aufgenommen.
+When adding domains manually, you should take into account certain details. Wenn Sie beispielsweise die Domain `google.com` manuell ausschließen, werden alle Subdomains `*.google.com` ebenfalls zur Ausschlussliste hinzugefügt. Domainnamen mit anderen Top-Level-Domains wie `google.de` oder `google.nl` werden jedoch nicht ausgeschlossen. Oder Sie können `youtube.com` zu den Ausschlüssen hinzufügen, aber die Domain desselben Dienstes `youtu.be` wird nicht in die Liste aufgenommen.
 
 :::
 

@@ -21,7 +21,7 @@ sidebar_position: 3
 
 ナレッジベースの既存記事の翻訳は、 [Crowdin platform](https://crowdin.com/project/adguard-vpn-knowledge-base)を使って行われています。 翻訳、またCrowdinの使い方は[AdGuard Ad Blocked Knowledge Base内の専用ページ](https://adguard.com/kb/miscellaneous/contribute/translate/program/)にて閲覧できます。
 
-AdGuard VPN ナレッジベースの記事を翻訳する際、複数形を含む文字列に遭遇することがありますが、複数形がいっぱいある言語の場合は特に注意して翻訳してください。 [この記事](https://adguard.com/kb/miscellaneous/contribute/translate/plural-forms/)には、複数の意味を持つ単語を翻訳するときの難しさ、それへの対応、またCrowdinに慣れていくための貴重なガイドも含まれています。
+AdGuard VPN ナレッジベースの記事を翻訳する際、複数形を含む文字列に遭遇することがありますが、複数形がいっぱいある言語の場合は特に注意して翻訳してください。 [In a separate article](https://adguard.com/kb/miscellaneous/contribute/translate/plural-forms/), we describe in detail the difficulties that can arise when translating strings with plural forms and provide detailed guidance on how these are handled on the Crowdin platform.
 
 ## Open issue（GitHub）の作業
 
