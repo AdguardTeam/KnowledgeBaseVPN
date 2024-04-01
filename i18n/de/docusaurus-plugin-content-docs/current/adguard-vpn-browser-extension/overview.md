@@ -34,7 +34,7 @@ Der nächste Tab enthält eine der Hauptunterscheidungsmerkmale von AdGuard VPN 
 
 Im **Allgemeinen Modus** funktioniert AdGuard VPN standardmäßig auf allen Websites, mit Ausnahme der Websites, die Sie der Ausschlussliste hinzugefügt haben. Im **Selektiven Modus** hingegen funktioniert AdGuard VPN standardmäßig nirgendwo. Sie können alle Websites, bei denen Sie dies wünschen, in eine Ausschlussliste aufnehmen, die sich von der im **Allgemeinen Modus** angezeigten Liste unterscheidet.
 
-Wenn Sie eine Website zur Ausschlussliste hinzufügen, können Sie die Website manuell eingeben oder die Option **Aus der Liste** wählen. Im letzteren Fall sehen Sie acht Kategorien (z. B. *Einkaufen*, *Messenger* usw.), die jeweils mehrere beliebte Dienste vorschlagen. Sie können jeden dieser Dienste mit einem Klick ausschließen, und diese Aktion fügt alle Domains, die für diesen bestimmten Dienst relevant sind, zu den Ausschlüssen hinzu.
+When adding a website to an exclusion list, you can enter the website manually or select the **From the list** option. In the latter case, you’ll see eight categories (for example, *Shopping* or *Messengers*), each suggesting several popular services. You can exclude any of these services in one click. This will add all domains relevant to that specific service to exclusions.
 
 ### Import und Export
 

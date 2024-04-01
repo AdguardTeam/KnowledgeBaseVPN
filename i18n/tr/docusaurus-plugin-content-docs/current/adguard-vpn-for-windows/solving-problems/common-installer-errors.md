@@ -34,8 +34,8 @@ Bunun, Hata 1603'ün belirli bir alt türü olduğunu söyleyebilirsiniz. Olası
     1. *Win + R* tuşlarına basın ve **services.msc** yazın.
     1. Listeden *Windows Installer* öğesini bulun ve çift tıklayın.
     1. *Hizmet durumu* altındaki *Başlat* düğmesine basın ve *Tamam* öğesine basın. Hizmet durumu **çalışıyor** ise, önce *Durdur* öğesine ve ardından *Başlat* öğesine tıklamalısınız.
-    1. *Win + R* tuşlarına basın, **msiexec /unregister** yazın ve *Enter* düğmesine basın.
-    1. *Win + R* tuşlarına tekrar basın, **msiexec /regserver** yazın ve *Enter* düğmesine basın
+    1. Press *Win + R*, type **msiexec /unregister** and hit *Enter*.
+    1. Press *Win + R* again, type **msiexec /regserver** and hit *Enter*
 
 - PC'yi yeniden başlatın ve kurulumu baştan başlatın. Bazen sorunu çözmek için bu yeterli olur.
 
@@ -64,8 +64,8 @@ Bu hata kulağa gerçekte olduğundan daha endişe verici geliyor. Gerçekte bu,
     1. *Win + R* tuşlarına basın ve **services.msc** yazın.
     1. Listeden *Windows Installer* öğesini bulun ve çift tıklayın.
     1. *Hizmet durumu* altındaki *Başlat* düğmesine basın ve *Tamam* öğesine basın. Hizmet durumu **çalışıyor** ise, önce *Durdur* öğesine ve ardından *Başlat* öğesine tıklamalısınız.
-    1. *Win + R* tuşlarına basın, **msiexec /unregister** yazın ve *Enter* düğmesine basın.
-    1. *Win + R* tuşlarına tekrar basın, **msiexec /regserver** yazın ve *Enter* düğmesine basın
+    1. Press *Win + R*, type **msiexec /unregister** and hit *Enter*.
+    1. Press *Win + R* again, type **msiexec /regserver** and hit *Enter*
 
 - Kurulum için sürücüde tam izinleri alın. Dosya konumunda tam izinlere sahip olmadığınız için 1603 hatasının oluşması olasıdır. Ayrıca diğer bazı çözümler kadar kolay değildir:
 
@@ -85,7 +85,7 @@ Bu hata, AdGuard VPN kurulum programının birden fazla örneğini aynı anda ç
 
 - PC'yi yeniden başlatın ve kurulum programını tekrar başlatın. Bilgisayarı yeniden başlattığınızda, kurulum programının tüm kopyaları dahil devam eden tüm işlemler durur.
 
-- Hemen başlamasa bile kurulum programına birden fazla kez tıklamayın. Bazen kurulum programı kullanıcı arayüzünün görüntülenmesi birkaç saniye sürebilir.
+- Don't click the installer multiple times, even if it doesn't seem to start right away. Bazen kurulum programı kullanıcı arayüzünün görüntülenmesi birkaç saniye sürebilir.
 
 ### Error 1638: Bu ürünün başka bir sürümü zaten kurulu {#error-1638}
 

@@ -86,7 +86,7 @@ Můžete také povolit AdGuard VPN shromažďovat a odesílat anonymizovaná hl�
 
 ![DNS servers](https://cdn.adguardvpn.com/content/kb/vpn/mac/dns_new_en.png)
 
-Zde můžete nastavit DNS server (nebo servery). To je užitečné, pokud se nechcete spoléhat na výchozí DNS server poskytovaný poskytovatelem internetových služeb. Vyberte jednu ze seznamu oblíbených služeb DNS nebo přidejte vlastní server ručně. Doporučujeme přidat službu AdGuard DNS, která nejen šifruje provoz DNS, ale také identifikuje požadavky na škodlivé weby a přesměrovává je do "černé díry".
+One or more DNS servers can be set up here. To je užitečné, pokud se nechcete spoléhat na výchozí DNS server poskytovaný poskytovatelem internetových služeb. Vyberte jednu ze seznamu oblíbených služeb DNS nebo přidejte vlastní server ručně. Doporučujeme přidat službu AdGuard DNS, která nejen šifruje provoz DNS, ale také identifikuje požadavky na škodlivé weby a přesměrovává je do "černé díry".
 
 ### Pokročilá nastavení
 

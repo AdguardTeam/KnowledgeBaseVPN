@@ -34,8 +34,8 @@ Denne kan betragtes som en særligt undertype af Fejl 1603. De mulige løsninger
     1. Klik på *Win + R* og skriv **services.msc**.
     1. På listen, find og dobbeltklik på *Windows Installer*.
     1. Klik på knappen *Start* under *Tjenestestatus* og dernæst på *OK*. Er tjenestestatussen **kører**, klik da først på *Stop* og dernæst på *Start*.
-    1. Tryk på *Win + R*, skriv **msiexec /unregister** og tryk på *Retur*.
-    1. Tryk på *Win + R* igen, og skriv **msiexec /regserver** og tryk på *Retur*
+    1. Press *Win + R*, type **msiexec /unregister** and hit *Enter*.
+    1. Press *Win + R* again, type **msiexec /regserver** and hit *Enter*
 
 - Genstart PC'en og start installationen forfra. Nogle gange er dette nok til at løse problemet.
 
@@ -64,8 +64,8 @@ Fejlen lyder mere bekymrende, end den faktisk er. Reelt er der tale om en ret ge
     1. Tryk på *Win + R* og skriv **services.msc**.
     1. På listen, find og dobbeltklik på *Windows Installer*.
     1. Klik på knappen *Start* under *Tjenestestatus* og dernæst på *OK*. Er tjenestestatussen **kører**, klik da først på *Stop* og dernæst på *Start*.
-    1. Tryk på *Win + R*, skriv **msiexec /unregister** og tryk på *Retur*.
-    1. Tryk på *Win + R* igen, og skriv **msiexec /regserver** og tryk på *Retur*
+    1. Press *Win + R*, type **msiexec /unregister** and hit *Enter*.
+    1. Press *Win + R* again, type **msiexec /regserver** and hit *Enter*
 
 - Få tildelt fulde tilladelser på installationsdrevet. Det er muligt, at fejl 1603 opstår, fordi ikke alle tilladelser til filplaceringen er tildelt. Den er heller ikke så nem som nogle af de øvrige løsninger:
 
@@ -85,7 +85,7 @@ Denne fejl vises, når flere forekomster af AdGuard VPN-installationsprogrammet 
 
 - Genstart PC'en og start installationen forfra. Når computeren genstartes, stopper alle igangværende processer, inkl. alle forekomster af installationsprogrammet.
 
-- Klik ikke på installationsprogrammet flere gange, selvom den ikke ser ud til at starte efter første klik. Af og til tage det nogle sekunder, før installationsprogrammet vises.
+- Don't click the installer multiple times, even if it doesn't seem to start right away. Af og til tage det nogle sekunder, før installationsprogrammet vises.
 
 ### Fejl 1638: En anden version af dette produkt er allerede installeret {#error-1638}
 

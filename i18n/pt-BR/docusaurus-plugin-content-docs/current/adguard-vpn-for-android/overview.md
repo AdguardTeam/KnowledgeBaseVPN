@@ -37,7 +37,11 @@ Por padrão, o AdGuard VPN funciona para todos os sites e aplicativos, exceto aq
 
 #### Para sites
 
-Você pode adicionar domínios (por exemplo `google.com`) ou subdomínios (por exemplo, `*.google.com`) de sites às *Exclusões* de três maneiras: insira-os manualmente no aplicativo ou diretamente no navegador clicando no botão *Share* e selecionando AdGuard VPN na lista aberta abaixo ou nas listas integradas de serviços divididos por categorias.
+You can add a domain (e.g., `google.com`) or subdomain (e.g., `*.google.com`) to *Exclusions* in three ways:
+
+- Enter it manually in the app
+- Add it directly from the browser by sharing the website with AdGuard VPN
+- Add it from a built-in list of services
 
 ![Exclusões](https://cdn.adguardvpn.com/public/Adguard/kb/VPN/Screenshots/add_site_android.jpg)
 

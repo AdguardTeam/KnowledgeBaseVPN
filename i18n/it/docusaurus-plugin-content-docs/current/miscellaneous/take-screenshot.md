@@ -58,7 +58,7 @@ PrtScn (Print Screen) può essere abbreviato diversamente su varie tastiiere: Pr
 
 :::
 
-Windows catturerà l'intera schermata e la copierà negli appunti.
+Windows will capture the entire screen and copy it to the clipboard.
 
 Per fare uno screenshot di una finestra attiva, utilizzare la seguente combinazione:
 

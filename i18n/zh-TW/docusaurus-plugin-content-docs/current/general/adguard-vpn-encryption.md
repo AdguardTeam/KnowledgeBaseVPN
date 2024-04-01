@@ -5,7 +5,7 @@ sidebar_position: 7
 
 ## 引言
 
-加密是令「虛擬私人網路」變得「私人」的原因。 A VPN creates a tunnel between your device and a VPN server, passing through which your data is encrypted and then securely transmitted to the open Internet. 加密過程，即將數據變成任何人都無法讀取的亂碼，對於任何 VPN服務都必不可少。
+加密是令「虛擬私人網路」變得「私人」的原因。 A VPN creates a tunnel between your device and a VPN server, that encrypts and transmits your data securely to the open Internet. 加密過程，即將數據變成任何人都無法讀取的亂碼，對於任何 VPN服務都必不可少。
 
 The AdGuard VPN protocol uses the most secure and fast encryption algorithm to date — AES-256. 了解它是甚麼以及它為何如此出色。
 

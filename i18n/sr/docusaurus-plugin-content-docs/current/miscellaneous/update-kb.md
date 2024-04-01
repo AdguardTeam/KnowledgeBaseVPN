@@ -21,7 +21,7 @@ Ovu bazu znanja možete da primenite lokalno na računar da biste pregledali pro
 
 Prevođenje postojećih članaka Baze znanja se sprovodi na [Crowdin platforma](https://crowdin.com/project/adguard-vpn-knowledge-base). Svi detalji o prevodima i radu sa Crowdinom mogu se pronaći [u posvećenom članku](https://adguard.com/kb/miscellaneous/contribute/translate/program/) AdGuard Ad Blocker baze znanja.
 
-Kada radite na člancima AdGuard VPN baze znanja, možete da se susretnete sa niskama koje sadrže množine obrazaca koje bi trebalo da prevedete sa dodatnom pažnjom. [U posebnom članku](https://adguard.com/kb/miscellaneous/contribute/translate/plural-forms/), detaljno smo opisali poteškoće koje mogu nastati prilikom prevođenja struna sa množinom, i dali opsežna uputstva kako da radite sa njima na Crowdin platformi.
+Kada radite na člancima AdGuard VPN baze znanja, možete da se susretnete sa niskama koje sadrže množine obrazaca koje bi trebalo da prevedete sa dodatnom pažnjom. [In a separate article](https://adguard.com/kb/miscellaneous/contribute/translate/plural-forms/), we describe in detail the difficulties that can arise when translating strings with plural forms and provide detailed guidance on how these are handled on the Crowdin platform.
 
 ## Rad na otvorenim pitanjima
 

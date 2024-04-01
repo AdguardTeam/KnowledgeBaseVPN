@@ -5,7 +5,7 @@ sidebar_position: 7
 
 ## Introduzione
 
-La crittografia è la ragione per cui esiste la parola "privata" nel termine "Rete privata virtuale". Una VPN crea un tunnel tra il tuo dispositivo e un server VPN, tramite cui i tuoi dati sono crittografati e, quindi, trasmessi in sicurezza all'Internet aperto. Il processo di crittografia, che consiste nel trasformare i dati in parole incomprensibili che non possono essere lette da chi li intercetta, è essenziale per qualsiasi servizio VPN.
+La crittografia è la ragione per cui esiste la parola "privata" nel termine "Rete privata virtuale". A VPN creates a tunnel between your device and a VPN server, that encrypts and transmits your data securely to the open Internet. Il processo di crittografia, che consiste nel trasformare i dati in parole incomprensibili che non possono essere lette da chi li intercetta, è essenziale per qualsiasi servizio VPN.
 
 Il protocollo di AdGuard VPN utilizza l'algoritmo crittografico più sicuro e veloce: AES-256. Scopri cos'è e perché è così buono.
 

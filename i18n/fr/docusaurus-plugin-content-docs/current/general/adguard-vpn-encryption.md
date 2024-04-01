@@ -5,7 +5,7 @@ sidebar_position: 7
 
 ## Introduction
 
-Le chiffrement est la raison pour laquelle le mot "privé" existe dans le terme "réseau privé virtuel". A VPN creates a tunnel between your device and a VPN server, passing through which your data is encrypted and then securely transmitted to the open Internet. Le processus de chiffrement, c'est-à-dire transformer les données en charabia que personne qui les intercepte ne peut lire, est essentiel à tout service VPN.
+Le chiffrement est la raison pour laquelle le mot "privé" existe dans le terme "réseau privé virtuel". A VPN creates a tunnel between your device and a VPN server, that encrypts and transmits your data securely to the open Internet. Le processus de chiffrement, c'est-à-dire transformer les données en charabia que personne qui les intercepte ne peut lire, est essentiel à tout service VPN.
 
 The AdGuard VPN protocol uses the most secure and fast encryption algorithm to date — AES-256. Apprenez ce que c'est et pourquoi c'est bien.
 

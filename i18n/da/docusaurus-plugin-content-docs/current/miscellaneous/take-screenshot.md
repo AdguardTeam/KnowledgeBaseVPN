@@ -58,7 +58,7 @@ Knappen PrtScn (Print Screen) forkortes forskelligt på forskellige tastaturer �
 
 :::
 
-Windows fotograferer hele skærmen og kopierer den til udklipsholderen.
+Windows will capture the entire screen and copy it to the clipboard.
 
 Brug flg. kombination for at tage et skærmfoto af et aktivt vindue:
 

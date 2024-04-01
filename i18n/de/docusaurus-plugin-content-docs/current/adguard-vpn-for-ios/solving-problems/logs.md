@@ -7,46 +7,46 @@ Wenn Sie bei der Verwendung von AdGuard VPN für iOS auf Probleme stoßen, könn
 
 ## Sammeln und Senden von Standardprotokollen
 
-By default, AdGuard VPN for iOS uses the *Default* logging level. It collects basic data about running app processes. Um diese Protokolle zu senden, machen Sie Folgendes:
+Standardmäßig verwendet AdGuard VPN für iOS die Protokollierungsstufe *Standard*. Es werden grundlegende Daten über laufende Anwendungsprozesse gesammelt. Um diese Protokolle zu senden, machen Sie Folgendes:
 
-1. Connect to AdGuard VPN for iOS. If possible, repeat the actions that led to the error. Note the exact time when the error occurred (e.g. 15:35).
+1. Verbinden Sie sich mit AdGuard VPN für iOS. Wenn möglich, wiederholen Sie die Aktionen, die zu dem Fehler geführt haben. Note the exact time when the error occurred (e.g., 15:35).
 
-2. Open AdGuard VPN and tap the Settings ⚙ icon in the lower right corner of the screen. Select *Support*, then tap *Report a bug*.
+2. Öffnen Sie AdGuard VPN und tippen Sie auf das Symbol Einstellungen ⚙ in der unteren rechten Ecke des Bildschirms. Wählen Sie *Support*, und tippen Sie dann auf *Fehler melden*.
 
-3. Geben Sie im geöffneten Formular Ihre E-Mail-Adresse für Feedback ein und beschreiben Sie den gefundenen Fehler, einschließlich des Zeitpunkts, zu dem dieser Fehler aufgetreten ist. If you can’t reproduce the problem, specify as accurately as possible when it last occurred.
+3. Geben Sie im geöffneten Formular Ihre E-Mail-Adresse für Feedback ein und beschreiben Sie den gefundenen Fehler, einschließlich des Zeitpunkts, zu dem dieser Fehler aufgetreten ist. Wenn Sie das Problem nicht reproduzieren können, geben Sie so genau wie möglich an, wann es zuletzt aufgetreten ist.
 
-4. Check the *Send app logs and system info* checkbox. When you send your report, your logs will be attached to it.
+4. Aktivieren Sie das Kontrollkästchen *Anwendungsprotokolle und Systeminformationen senden*. Wenn Sie Ihren Bericht abschicken, werden Ihre Protokolle beigefügt.
 
-5. Tap *Send*.
+5. Tippen Sie auf *Senden*.
 
 :::info
 
-Wenn es für Sie aus irgendeinem Grund bequemer ist, uns Protokolle auf andere Weise zu senden, können Sie sie selbst exportieren. To do this, go to *Settings* → *General* → *Advanced* and tap *Export logs and system info*.
+Wenn es für Sie aus irgendeinem Grund bequemer ist, uns Protokolle auf andere Weise zu senden, können Sie sie selbst exportieren. Dazu öffnen Sie *Einstellungen* ➜ *Allgemein* ➜ *Erweitert* und tippen auf *Protokolle und Systeminformationen exportieren*.
 
 :::
 
-## Collecting and sending detailed logs
+## Sammeln und Versenden von detaillierten Protokollen
 
-In most cases, the default logging level is sufficient to track possible bugs. However, sometimes more detailed technical information about the device and connections may be required. In this case, our support team will ask you to enable the *Extended* or *Extreme* logging level. Um diese Protokolle zu senden, machen Sie Folgendes:
+In den meisten Fällen reicht die Standardprotokollierungsstufe aus, um mögliche Fehler aufzuspüren. Manchmal sind jedoch detailliertere technische Informationen über das Gerät und die Anschlüsse erforderlich. In diesem Fall wird unser Support-Team Sie bitten, die Protokollierungsstufe *Erweitert* oder *Extrem* zu aktivieren. Um diese Protokolle zu senden, machen Sie Folgendes:
 
-1. Open AdGuard VPN for iOS and tap the Settings ⚙ icon in the lower right corner of the screen.
+1. Öffnen Sie AdGuard VPN für iOS und tippen Sie auf das Symbol Einstellungen ⚙ in der unteren rechten Ecke des Bildschirms.
 
-2. Select *General* and then *Advanced*.
+2. Wählen Sie *Allgemein* und dann *Erweitert*.
 
-3. In the *Logging level* section, select *Extended* or *Extreme*.
+3. Wählen Sie im Abschnitt *Protokollierungsstufe* *Erweitert* oder *Extrem*.
 
-4. Repeat the actions that led to the error and note the time when it occurred (e.g. 14:23).
+4. Repeat the actions that led to the error and note the time when it occurred (e.g., 14:23).
 
-5. Schalten Sie die Protokollierungsebene zurück auf *Standard*.
+5. Schalten Sie die Protokollierungsstufe zurück auf *Standard*.
 
-6. Go back to *Settings*, tap *Support* and then *Report a bug*.
+6. Wechseln Sie zurück zu *Einstellungen*, tippen Sie auf *Support* und dann auf *Fehler melden*.
 
-7. In the opened form, enter your email address for feedback and describe the error found, including the exact time when this error occurred.
+7. Geben Sie in das geöffnete Formular Ihre E-Mail-Adresse für die Rückmeldung ein und beschreiben Sie den gefundenen Fehler, einschließlich des genauen Zeitpunkts, zu dem dieser Fehler aufgetreten ist.
 
-8. Make sure that *Send app logs and system info* is checked and tap *Send*.
+8. Vergewissern Sie sich, dass *Anwendungsprotokolle und Systeminformationen senden* markiert ist und tippen Sie auf *Senden*.
 
 :::info
 
-Wenn es für Sie aus irgendeinem Grund bequemer ist, uns Protokolle auf andere Weise zu senden, können Sie sie selbst exportieren. To do this, go to *Settings* → *General* → *Advanced* and tap *Export logs and system info*.
+Wenn es für Sie aus irgendeinem Grund bequemer ist, uns Protokolle auf andere Weise zu senden, können Sie sie selbst exportieren. Dazu öffnen Sie *Einstellungen* ➜ *Allgemein* ➜ *Erweitert* und tippen auf *Protokolle und Systeminformationen exportieren*.
 
 :::

@@ -53,7 +53,7 @@ Trafiğiniz doğrudan web sunucusuna gitmeyip önce VPN sunucusundan geçtiği i
 
 ### Erişim engelleme
 
-Bazı çevrimiçi hizmetler, VPN trafiğini algılamak ve VPN kullanıcılarına erişimi engellemek için çok çaba harcar. Bununla birlikte, pek çok VPN kendilerini yalnızca normal trafik olarak görülecek şekilde maskeleyemez. Bu nedenle, VPN'i devre dışı bırakmadan belirli bir siteye gitme girişimlerinin çoğu hiçbir şeyle sonuçlanmaz.
+Bazı çevrimiçi hizmetler, VPN trafiğini algılamak ve VPN kullanıcılarına erişimi engellemek için çok çaba harcar. Bununla birlikte, pek çok VPN kendilerini yalnızca normal trafik olarak görülecek şekilde maskeleyemez. Therefore, many attempts to reach a certain website via a VPN connection end in nothing.
 
 ### VPN bağlantıları kesiliyor
 

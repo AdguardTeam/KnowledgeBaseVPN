@@ -53,7 +53,7 @@ Da Ihr Datenverkehr nicht direkt an den Webserver geht, sondern zunächst den VP
 
 ### Zugriffssperre
 
-Einige Online-Dienste unternehmen große Anstrengungen, um VPN-Verkehr zu erkennen und den Zugang für VPN-Nutzer zu sperren. Allerdings können sich nicht viele VPNs so maskieren, dass sie nur als regulärer Verkehr wahrgenommen werden. Daher enden viele Versuche, auf eine bestimmte Website zu gehen, ohne VPN zu deaktivieren, im Nichts.
+Einige Online-Dienste unternehmen große Anstrengungen, um VPN-Verkehr zu erkennen und den Zugang für VPN-Nutzer zu sperren. Allerdings können sich nicht viele VPNs so maskieren, dass sie nur als regulärer Verkehr wahrgenommen werden. Therefore, many attempts to reach a certain website via a VPN connection end in nothing.
 
 ### Unterbrechung von VPN-Verbindungen
 

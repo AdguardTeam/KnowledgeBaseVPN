@@ -34,7 +34,7 @@ AdGuard VPN 브라우저 확장 프로그램을 관리하는 방법은 다음과
 
 **일반 모드**에서 AdGuard VPN은 기본적으로 예외 목록에 추가한 웹 사이트를 제외한 모든 웹 사이트에서 작동합니다. **선택 모드**에서는 그 반대로, AdGuard VPN이 기본적으로 어느 곳에서도 작동하지 않습니다. You can add any websites where you'd like it to work to an exclusions list, separate from the one you saw in the **General mode**.
 
-When adding a website to the exclusions list, you can enter the website manually or select the **From the list** option. In the latter case, you'll see eight categories (e.g. *Shopping*, *Messengers*, etc.), each suggesting several popular services. You can exclude any of those services in one click, and this action will add to exclusions all domains relevant to that specific service.
+When adding a website to an exclusion list, you can enter the website manually or select the **From the list** option. In the latter case, you’ll see eight categories (for example, *Shopping* or *Messengers*), each suggesting several popular services. You can exclude any of these services in one click. This will add all domains relevant to that specific service to exclusions.
 
 ### 가져오기 및 내보내기
 

@@ -58,7 +58,7 @@ PrtScn (Print Screen) 버튼은 다양한 키보드에서 다르게 나타날 �
 
 :::
 
-Windows 기기에서는 전체 화면을 캡처하여 (보이지 않는) 클립보드에 복사합니다.
+Windows will capture the entire screen and copy it to the clipboard.
 
 활성 창의 스크린샷을 찍으려면 다음 조합을 사용하십시오.
 

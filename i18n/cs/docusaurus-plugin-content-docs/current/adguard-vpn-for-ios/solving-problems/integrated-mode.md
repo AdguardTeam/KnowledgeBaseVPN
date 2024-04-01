@@ -5,22 +5,22 @@ sidebar_position: 3
 
 AdGuard VPN má dva pracovní režimy: *VPN* a *Integrovaný*.
 
-The *VPN* mode is enabled by default and uses the [AdGuard VPN protocol](/general/adguard-vpn-protocol). Ten poskytuje nejlepší kombinaci rychlosti připojení a zabezpečení. Tento pracovní režim však neumožňuje současnou práci AdGuard VPN a blokátoru reklam AdGuard.
+Režim *VPN* je ve výchozím nastavení povolen a používá [protokol AdGuard VPN](/general/adguard-vpn-protocol). Ten poskytuje nejlepší kombinaci rychlosti připojení a zabezpečení. Tento pracovní režim však neumožňuje současnou práci AdGuard VPN a blokátoru reklam AdGuard.
 
-*Integrated mode*, in turn, uses the IPsec protocol, which makes it possible for the AdGuard apps to work together.
+V *režimu integrace* se zase používá protokol IPsec, který umožňuje spolupráci aplikací AdGuard.
 
-If you already have AdGuard Ad Blocker when installing AdGuard VPN, this mode will turn on automatically and allow you to use both our apps at the same time.
+Pokud jste již při instalaci AdGuard VPN použili blokátor reklam AdGuard, tento režim se zapne automaticky a umožní vám současně používat obě naše aplikace.
 
-If you have installed AdGuard VPN first and only then decided to try AdGuard Ad Blocker, follow these steps to use two apps together:
+Pokud jste si nejprve nainstalovali AdGuard VPN a teprve poté jste se rozhodli vyzkoušet blokátor reklam AdGuard, postupujte podle následujících kroků, abyste mohli obě aplikace používat společně:
 
-1. Open AdGuard VPN for iOS and tap the Settings ⚙ icon in the lower right corner of the screen.
+1. Otevřete AdGuard VPN pro iOS a klepněte na ikonu Nastavení ⚙ v pravém dolním rohu obrazovky.
 
-2. Tap *General* → *Operating mode*.
+2. Klepněte na *Obecné* → *Pracovní režim*.
 
 3. Přepněte režim z *VPN* na *Integrovaný*. Hotovo!
 
 :::note
 
-In *Integrated mode*, *Exclusions* and *DNS server* are not available.
+V *režimu integrace* nejsou *Výjimky* a *DNS server* dostupné.
 
 :::

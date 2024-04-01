@@ -5,7 +5,7 @@ sidebar_position: 7
 
 ## Introducción
 
-El cifrado es la razón por la que la palabra "privada" existe en el término "Red Privada Virtual". A VPN creates a tunnel between your device and a VPN server, passing through which your data is encrypted and then securely transmitted to the open Internet. El proceso de encriptación, es decir, convertir los datos en galimatías de manera de quien los intercepte no los pueda leer, es esencial para cualquier servicio VPN.
+El cifrado es la razón por la que la palabra "privada" existe en el término "Red Privada Virtual". A VPN creates a tunnel between your device and a VPN server, that encrypts and transmits your data securely to the open Internet. El proceso de encriptación, es decir, convertir los datos en galimatías de manera de quien los intercepte no los pueda leer, es esencial para cualquier servicio VPN.
 
 The AdGuard VPN protocol uses the most secure and fast encryption algorithm to date — AES-256. Aprende qué es y por qué es tan bueno.
 
