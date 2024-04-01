@@ -5,13 +5,13 @@ sidebar position: 1
 
 Windows için AdGuard VPN kullanırken herhangi bir sorunla karşılaşırsanız, bizi bu konuda bilgilendirebilirsiniz. Sorunları daha hızlı çözmemize yardımcı oldukları için uygulama günlüklerini de gönderirseniz çok memnun oluruz.
 
-## Collecting logs
+## Günlüklerin toplanması
 
-### Standard logs
+### Standart günlükler
 
-By default, AdGuard VPN for Windows uses the standard logging level, which is the basic collection of data about running processes of the app. Before sending the logs, please open AdGuard VPN for Windows and, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
+Varsayılan olarak, Windows için AdGuard VPN, uygulamanın çalışan işlemleri hakkında temel veri toplama olan standart günlük kayıt düzeyini kullanır. Günlükleri göndermeden önce, lütfen Windows için AdGuard VPN'i açın ve mümkünse hataya neden olan eylemleri tekrarlayın. Bu hatanın oluştuğu tam zamana dikkat edin.
 
-### Extended logs
+### Genişletilmiş günlükler
 
 Çoğu durumda, olası hataların izini sürmek için varsayılan günlük kayıt düzeyi yeterlidir. Ancak, cihaz ve bağlantılar hakkında daha ayrıntılı teknik bilgilerin gerekli olduğu durumlar vardır ve bu durumda destek ekibimiz, genişletilmiş günlük kayıt düzeyini etkinleştirmenizi ister. Bu tür günlükleri göndermek için şu adımları takip edin:
 
@@ -19,7 +19,7 @@ By default, AdGuard VPN for Windows uses the standard logging level, which is th
 
 1. **Günlük kayıt düzeyi** bölümünde, **Her şeyi kaydet** öğesini seçin.
 
-    ![Logging level *border](https://cdn.adtidy.org/content/kb/vpn/windows/logs/logging.jpeg)
+    ![Günlük kayıt düzeyi *border](https://cdn.adtidy.org/content/kb/vpn/windows/logs/logging.jpeg)
 
 1. Hataya neden olan işlemleri tekrarlayın ve meydana geldiği zamana dikkat edin.
 
@@ -27,17 +27,17 @@ By default, AdGuard VPN for Windows uses the standard logging level, which is th
 
 ### Trace logs
 
-Sometimes our support team might ask you to send them trace logs. To do this, you need to follow these steps:
+Bazen destek ekibimiz sizden izleme günlüklerini göndermenizi isteyebilir. Bunu yapmak için aşağıdaki adımları izlemeniz gerekir:
 
 1. Right-click the AdGuard VPN icon in the tray menu and choose **Exit AdGuard VPN**.
 
-    ![Exit *mobile](https://cdn.adtidy.org/content/kb/vpn/windows/logs/exit.png)
+    ![Çıkış *mobile](https://cdn.adtidy.org/content/kb/vpn/windows/logs/exit.png)
 
-    If you see the warning message, agree to stop the service.
+    Uyarı mesajını görürseniz, hizmeti durdurmayı kabul edin.
 
-    ![Attention *mobile](https://cdn.adtidy.org/content/kb/vpn/windows/logs/attention.png)
+    ![Dikkat *mobile](https://cdn.adtidy.org/content/kb/vpn/windows/logs/attention.png)
 
-1. Open the console (type `cmd` in the start panel).
+1. Konsolu açın (başlat paneline `cmd` yazın).
 
 1. Run the application with the command `C:\"Program Files (x86)"\AdGuardVpn\AdGuardVpnSvc.exe /trace` if you are using 64-bit Windows, and `C:\"Program Files"\AdGuardVpn\AdGuardVpnSvc.exe /trace` if you are using 32-bit.
 
@@ -47,13 +47,13 @@ Sometimes our support team might ask you to send them trace logs. To do this, yo
 
 Don't worry if your log file is large. We need to know as many details as possible in order to fix your problem.
 
-## Sending logs
+## Günlükleri gönderme
 
-To send logs to our support team, please follow the next steps:
+Günlükleri destek ekibimize göndermek için lütfen sonraki adımları izleyin:
 
 1. Click **Support** in the menu above → **Report a bug**.
 
-    ![Report a bug *border](https://cdn.adtidy.org/content/kb/vpn/windows/logs/support_report.jpeg)
+    ![Hata bildir *border](https://cdn.adtidy.org/content/kb/vpn/windows/logs/support_report.jpeg)
 
 1. In the form that opens, enter your email address and describe the error you found, including the time it occurred. If you can't reproduce the problem, be as specific as possible about when it last occurred.
 
@@ -65,14 +65,14 @@ To send logs to our support team, please follow the next steps:
 
 ![Export *border](https://cdn.adtidy.org/content/kb/vpn/windows/logs/export.jpeg)
 
-**Note**: if you encounter any problems while trying to export logs, there is an alternative way. Please follow these steps:
+**Not**: Günlükleri dışa aktarmaya çalışırken herhangi bir sorunla karşılaşırsanız alternatif bir yol vardır. Lütfen aşağıdaki adımları izleyin:
 
-1. Open the Explorer app
+1. Explorer uygulamasını açın
 
-1. Paste `%programdata%/adguardvpn` in the search box
+1. Arama kutusuna `%programdata%/adguardvpn` adresini yapıştırın
 
 1. Find the folder called **Logs**
 
-1. Archive the folder
+1. Klasörü arşivleyin
 
-1. Send it to our support team
+1. Bunu destek ekibimize gönderin

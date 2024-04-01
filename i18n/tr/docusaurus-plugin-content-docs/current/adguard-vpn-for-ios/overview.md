@@ -24,36 +24,36 @@ If you don’t have an AdGuard account yet, you will have to create it first.
 
 AdGuard VPN'i kullanmak oldukça kolaydır. On the main screen you can see the *Connect* (*Disconnect*) button and the list of available servers (we call them *locations*). Each server has its own location (a certain country and a city) and ping indicator.
 
-The ping shows the server’s response time in milliseconds. This indicates how fast the VPN connection will be when you connect to that location. Selecting a server with a ping of 22 ms means that a data packet sent to this server will be returned in 22 ms.
+The ping shows the server’s response time in milliseconds. Bu, o konuma bağlandığınızda VPN bağlantısının ne kadar hızlı olacağını gösterir. Selecting a server with a ping of 22 ms means that a data packet sent to this server will be returned in 22 ms.
 
-With AdGuard VPN, you can choose from over 50 locations in dozens of countries.
+AdGuard VPN ile onlarca ülkede 50'den fazla konum arasından seçim yapabilirsiniz.
 
 ![Ana ekran ve konumlar *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/main-locations.png)
 
-## Exclusions
+## İstisnalar
 
-You can find the Exclusions tab by tapping the second icon in the bottom bar. There you will see two exclusion lists, for *Regular* and *Selective* modes.
+Alt çubuktaki ikinci simgeye dokunarak İstisnalar sekmesini bulabilirsiniz. Burada, *Normal* ve *Seçici* modlar için iki istisna listeleri göreceksiniz.
 
 In *Regular* mode, the VPN works for all websites except the excluded ones. Conversely, in *Selective* mode, the VPN only works for websites from the list.
 
 You can add domains (e.g., `google.com`) or subdomains (e.g., `*.google.com`) of websites to the lists in two ways:
 
-- Enter them manually in the app
-- Add them directly from the browser by sharing the desired pages with AdGuard VPN
+- Bunları uygulamaya elle girin
+- İstediğiniz sayfaları AdGuard VPN ile paylaşarak bunları doğrudan tarayıcıdan ekleyin
 
 ![İstisnalar *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/exclusions-add.png)
 
-### Import/export exclusions
+### İstisnaları içe ve dışa aktarma
 
-Another useful feature is the import and export of exclusion lists. This way you can share exclusion lists from and to other devices.
+Bir başka kullanışlı özellik de istisna listelerinin içe ve dışa aktarılmasıdır. Bu şekilde istisna listelerini diğer cihazlardan ve diğer cihazlara paylaşabilirsiniz.
 
-You can do it in four steps:
+Bunu dört adımda yapabilirsiniz:
 
-1. Open AdGuard VPN on the device from where you want to export your lists of exclusions. Uygun bölümü bulun ve *Dışa aktar* düğmesine tıklayın. `exclusions.zip` arşivi indirilecektir.
+1. İstisnalar listenizi dışa aktarmak istediğiniz cihazda AdGuard VPN'i açın. Uygun bölümü bulun ve *Dışa aktar* düğmesine tıklayın. `exclusions.zip` arşivi indirilecektir.
 
 2. Arşivde, Genel ve Seçici listelerin her biri için birer tane olmak üzere iki `.txt` dosyası vardır. Bunlara daha fazla istisna ekleyin, mevcut olanları silin, dosyaları yeniden adlandırın (ancak daha sonra bu konuda daha fazlası) veya arşivi olduğu gibi bırakın.
 
-3. When transferring between different devices, don’t forget to send the `.zip` file to the device for import. Örneğin, istisna listeleri iOS cihazınızdan Mac'inize aktarırsanız, `.zip` dosyasını önceden Mac'inize gönderdiğinizden emin olun.
+3. Farklı cihazlar arasında aktarım yaparken, `.zip` dosyasını içe aktarmak için cihaza göndermeyi unutmayın. Örneğin, istisna listeleri iOS cihazınızdan Mac'inize aktarırsanız, `.zip` dosyasını önceden Mac'inize gönderdiğinizden emin olun.
 
 4. AdGuard VPN'i, hazır istisnaların listesiyle birlikte arşivi içe aktarmak istediğiniz cihazda açın. Uygun bölümü bulun, *İçe aktar* düğmesine tıklayın ve arşivi seçin.
 
@@ -61,16 +61,16 @@ You can do it in four steps:
 
 ![İstisnaları içe ve dışa aktarma *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/exclusions-3dot-menu.png)
 
-## General settings
+## Genel ayarlar
 
-To open General settings:
+Genel ayarları açmak için:
 
-1. Tap the Settings icon (⚙) in the bottom right corner of the app’s main screen.
-2. Tap *General*.
+1. Uygulamanın ana ekranının sağ alt köşesindeki Ayarlar simgesine (⚙) dokunun.
+2. *Genel* öğesine dokunun.
 
-Here, you can configure AdGuard VPN for iOS as you need using different options: *DNS server*, *Theme*, *Advanced*, *Send technical and interaction data* and *Kill Switch*.
+Burada, farklı seçenekleri kullanarak ihtiyacınıza göre AdGuard VPN için iOS'u yapılandırabilirsiniz: *DNS sunucusu*, *Tema*, *Gelişmiş*, *Teknik ve etkileşim verilerini gönder* ve *Kill Switch*.
 
-![General settings *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/general-settings.png)
+![Genel ayarlar *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/general-settings.png)
 
 ### DNS sunucusu
 
@@ -80,29 +80,29 @@ iOS için AdGuard VPN, her biri kendi özel niteliklerine sahip birkaç DNS sunu
 
 ### Tema
 
-You can set your app theme to System, Dark, or Light (available in iOS 13 or later).
+Uygulama temanızı Sistem, Koyu veya Açık (iOS 13 veya sonraki sürümlerde kullanılabilir) olarak ayarlayabilirsiniz.
 
 ### Gelişmiş ayarlar
 
-In *Advanced* settings, you can find 4 sections — *Operating mode*, *Logging level*, *Export logs and system info*, and *Diagnostic info*.
+*Gelişmiş* ayarlarda 4 bölüm bulabilirsiniz - *Çalışma modu*, *günlük kayıt düzeyi*, *Günlükleri ve sistem bilgilerini dışa aktar* ve *Tanılama bilgisii*.
 
 #### Çalışma modu
 
-AdGuard VPN for iOS can operate in two modes: **VPN** and **Integrated**.
+iOS için AdGuard VPN iki modda çalışabilir: **VPN** ve **Entegre**.
 
 The *VPN* mode uses the [AdGuard VPN protocol](/general/adguard-vpn-protocol), which provides the best combination of speed and security. In this mode, AdGuard VPN will not work with [AdGuard Ad Blocker for iOS](https://adguard.com/adguard-ios/overview.html).
 
-In **Integrated mode**, AdGuard VPN will be able to work simultaneously with AdGuard Ad Blocker for iOS using the IPSec protocol. This protocol is also secure, but a bit slower and easier to detect. You don’t have to do anything to set up the integration: just install both apps and switch to this mode.
+In **Integrated mode**, AdGuard VPN will be able to work simultaneously with AdGuard Ad Blocker for iOS using the IPSec protocol. Bu protokol de güvenlidir, ancak biraz daha yavaş ve tespit edilmesi daha kolaydır. You don’t have to do anything to set up the integration: just install both apps and switch to this mode.
 
 :::note
 
-In **Integrated** mode, you can’t use the Exclusions feature or choose a DNS server.
+**Entegre** modda, İstisnalar özelliğini kullanamaz veya bir DNS sunucusu seçemezsiniz.
 
 :::
 
-#### Logging level
+#### Günlük kayıt düzeyi
 
-This setting is primarily used for debugging and troubleshooting purposes. The Extended and Extreme logging levels record more detailed information that can help identify and fix various problems or bugs.
+Bu ayar öncelikle hata ayıklama ve sorun giderme amacıyla kullanılır. Genişletilmiş ve Son derece günlük kayıt düzeyleri, çeşitli sorunların veya hataların tanımlanmasına ve düzeltilmesine yardımcı olabilecek daha ayrıntılı bilgileri kaydeder.
 
 :::caution
 
@@ -110,15 +110,15 @@ This setting is primarily used for debugging and troubleshooting purposes. The E
 
 :::
 
-#### Export logs and system info
+#### Günlükleri ve sistem bilgisini dışa aktar
 
-This option can be used to send the app’s logs and system info to our support or anyone else.
+Bu seçenek, uygulamanın günlüklerini ve sistem bilgilerini desteğimize veya başka birine göndermek için kullanılabilir.
 
-#### Diagnostic data
+#### Teşhis verileri
 
 This option lets you export technical information that can be useful in solving problems and is sometimes requested by our support and developers.
 
-### Send technical and interaction data
+### Teknik ve etkileşim verilerini gönder
 
 By turning this option on you are helping us understand better how users interact with the app. We use that information to improve user experience.
 
@@ -126,9 +126,9 @@ By turning this option on you are helping us understand better how users interac
 
 If for some reason your VPN connection suddenly drops, *Kill Switch* will automatically terminate the Internet connection, making sure your data doesn’t leak and your identity stays hidden.
 
-## Quick actions
+## Hızlı eylemler
 
-Quick actions are the convenient way to do useful or any app-specific actions from the Home screen without opening an app.
+Hızlı eylemler, bir uygulamayı açmadan Ana ekrandan yararlı veya uygulamaya özel eylemler yapmanın kullanışlı yoludur.
 
 To access the quick actions menu, tap and hold the AdGuard VPN app icon, then lift your finger. In the opened menu, you will see AdGuard VPN’s quick actions: *Connect* (*Disconnect*) and *Select location*. You can also access all default actions like removing the app or moving or sharing the app.
 
@@ -140,8 +140,8 @@ The Support screen (*Settings* → *Support*) has a number of helpful features: 
 
 ![Destek *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/support.png)
 
-## Subscription screen
+## Abonelik ekranı
 
-If you are using the free version of AdGuard VPN, there will be another tab with an arrow icon on the bottom tab bar. This section briefly describes the main benefits of the paid version of the app. You can choose a yearly or monthly subscription.
+If you are using the free version of AdGuard VPN, there will be another tab with an arrow icon on the bottom tab bar. This section briefly describes the main benefits of the paid version of the app. Yıllık veya aylık abonelik seçebilirsiniz.
 
 ![Abonelik *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/unlimited.png)

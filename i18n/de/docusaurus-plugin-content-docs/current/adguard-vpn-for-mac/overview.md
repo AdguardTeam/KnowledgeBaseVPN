@@ -86,7 +86,7 @@ Sie können AdGuard VPN außerdem erlauben, anonyme Absturzberichte, technische 
 
 ![DNS-Server](https://cdn.adguardvpn.com/content/kb/vpn/mac/dns_new_en.png)
 
-One or more DNS servers can be set up here. Dies ist nützlich, wenn Sie sich nicht auf den Standard-DNS-Server Ihres Internetanbieters verlassen möchten. Wählen Sie einen aus der Liste der gängigen DNS-Dienste aus oder fügen Sie manuell einen eigenen Server hinzu. Wir empfehlen, AdGuard DNS hinzuzufügen, der nicht nur Ihren DNS-Verkehr verschlüsselt, sondern auch Anfragen an bösartige Websites identifiziert und sie an ein "schwarzes Loch" umleitet.
+Hier können ein oder mehrere DNS-Server eingerichtet werden. Dies ist nützlich, wenn Sie sich nicht auf den Standard-DNS-Server Ihres Internetanbieters verlassen möchten. Wählen Sie einen aus der Liste der gängigen DNS-Dienste aus oder fügen Sie manuell einen eigenen Server hinzu. Wir empfehlen, AdGuard DNS hinzuzufügen, der nicht nur Ihren DNS-Verkehr verschlüsselt, sondern auch Anfragen an bösartige Websites identifiziert und sie an ein "schwarzes Loch" umleitet.
 
 ### Erweiterte Einstellungen
 

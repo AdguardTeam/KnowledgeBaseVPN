@@ -5,7 +5,7 @@ sidebar_position: 7
 
 ## Introduktion
 
-Kryptering er grunden til, at ordet "private" findes i udtrykket "Virtual Private Network". A VPN creates a tunnel between your device and a VPN server, that encrypts and transmits your data securely to the open Internet. Krypteringsprocessen, dvs. konvertering af data til volapyk, som ingen, der opsnapper det, kan læse, er afgørende for enhver VPN-tjeneste.
+Kryptering er grunden til, at ordet "private" findes i udtrykket "Virtual Private Network". Et VPN opretter en tunnel mellem en enhed og en VPN-server, der krypterer og overfører data sikkert til det åbne internet. Krypteringsprocessen, dvs. konvertering af data til volapyk, som ingen, der opsnapper det, kan læse, er afgørende for enhver VPN-tjeneste.
 
 AdGuard VPN-protokollen bruger den mest sikre og hurtigste krypteringsalgoritme til dato – AES-256. Læs, hvad det vil sige, og hvorfor det er så godt.
 

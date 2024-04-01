@@ -34,7 +34,7 @@ sidebar_position: 1
 
 **В Основном режиме** AdGuard VPN по умолчанию работает на всех сайтах, кроме добавленных в список исключений. **В Выборочном режиме**, наоборот, AdGuard VPN по умолчанию не работает нигде. Вы можете добавить в отдельный от **Обычного режима** список исключений те сайты, на которых AdGuard VPN будет работать.
 
-When adding a website to an exclusion list, you can enter the website manually or select the **From the list** option. In the latter case, you’ll see eight categories (for example, *Shopping* or *Messengers*), each suggesting several popular services. You can exclude any of these services in one click. This will add all domains relevant to that specific service to exclusions.
+При добавлении сайта в список исключений вы можете ввести сайт вручную или выбрать опцию **Из списка**. В последнем случае вы увидите восемь категорий (например, *Шопинг* или *Мессенджеры* и т. д.), каждая из которых предлагает несколько популярных сервисов. Вы можете исключить любой из этих сервисов в один клик. Это добавит в исключения все домены, относящиеся к этому конкретному сервису.
 
 ### Импорт и экспорт списков исключений
 

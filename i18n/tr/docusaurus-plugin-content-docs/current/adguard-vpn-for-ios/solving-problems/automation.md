@@ -17,7 +17,7 @@ Bir veya daha fazla uygulama için bir VPN'e ihtiyacınız varsa, AdGuard VPN'i,
 3. Bir sonraki pencerede, *Açıldı* öğesinin seçili olduğundan emin olun ve ardından uygulamayı seçmek için *Seç* öğesine dokunun.
 
 ![Talimat. Bölüm 2](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_on2_en.jpg)
-4. Start entering the name of the app (in our case it’s Twitter) and select it. *Bitti* öğesine, ardından ekranın sağ üst köşesindeki *Sonraki* öğesine dokunun. Açılan pencerede *İşlem Ekle* öğesine dokunun.
+4. Uygulamanın adını girmeye başlayın (bizim durumumuzda Twitter) ve onu seçin. *Bitti* öğesine, ardından ekranın sağ üst köşesindeki *Sonraki* öğesine dokunun. Açılan pencerede *İşlem Ekle* öğesine dokunun.
 
 ![Talimat. Bölüm 3](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_on3_en.jpg)
 5. “AdGuard VPN” yazmaya başlayın ve AdGuard VPN uygulamasını seçin. Yeni pencerede *VPN bağlantısı kur* öğesine dokunun.

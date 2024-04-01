@@ -19,7 +19,7 @@ AdGuard VPN доступен в двух версиях — платной и б
  1. В своём аккаунте AdGuard перейдите в раздел [Лицензии](https://my.adguard.com/account/licenses).
  1. Нажмите *Отменить подписку* под подпиской, которая вам больше не нужна.
 
-The canceled subscription will remain valid until its expiry date.
+Отменённая подписка будет действительна до истечения срока её действия.
 
 :::note
 

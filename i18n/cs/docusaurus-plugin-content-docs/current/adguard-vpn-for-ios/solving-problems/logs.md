@@ -9,7 +9,7 @@ Pokud při používání AdGuard VPN pro iOS narazíte na problém, můžete ná
 
 Ve výchozím nastavení používá AdGuard VPN pro iOS *Výchozí* úroveň záznamu. Shromažďuje základní údaje o spuštěných procesech aplikace. Chcete-li tyto protokoly odeslat, postupujte podle následujících kroků:
 
-1. Připojte se k AdGuard VPN pro iOS. Pokud je to možné, zopakujte činnosti, které vedly k chybě. Note the exact time when the error occurred (e.g., 15:35).
+1. Připojte se k AdGuard VPN pro iOS. Pokud je to možné, zopakujte činnosti, které vedly k chybě. Zaznamenejte přesný čas, kdy k chybě došlo (např. 15:35).
 
 2. Otevřete AdGuard VPN a klepněte na ikonu Nastavení ⚙ v pravém dolním rohu obrazovky. Vyberte *Podpora* a klepněte na možnost *Nahlásit chybu*.
 
@@ -35,7 +35,7 @@ Ve většině případů je výchozí úroveň záznamů dostatečná pro dohled
 
 3. V sekci *Úroveň záznamů* vyberte *Rozšířený* nebo *Extrémní*.
 
-4. Repeat the actions that led to the error and note the time when it occurred (e.g., 14:23).
+4. Zopakujte akce, které vedly k chybě a zaznamenejte čas, kdy k ní došlo (např. 14:23).
 
 5. Přepněte úroveň záznamů zpět na *Výchozí*.
 
