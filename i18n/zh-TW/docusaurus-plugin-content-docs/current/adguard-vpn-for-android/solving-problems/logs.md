@@ -1,15 +1,15 @@
 ---
-title: How to collect and send logs
+title: 如何收集和發送日誌
 sidebar_position: 2
 ---
 
-If you encounter any problem while using AdGuard VPN for Android, you can inform us about it by sending the app logs.
+如果您在使用AdGuard VPN時遇到任何問題，您可以通過傳送應用程式記錄來通知我們。
 
-## Collecting and sending standard logs
+## 標準日誌收集和發送
 
-By default, AdGuard VPN for Android uses the **Default** logging level, that is, the basic collection of data about running processes of the app. To send these logs, follow the next steps:
+預設情況下，AdGuard VPN for Android 使用 **預設** 日誌記錄級別，即有關應用程式運行進程的資料的基本收集。 若要傳送這些日誌，請執行下列步驟：
 
-1. Open AdGuard VPN for Android and, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
+1. 開啟適用於 Android 的 AdGuard VPN，如果可能，請重複導致錯誤的操作。 請記下此錯誤發生的確切時間。
 
 2. Open **Settings** by clicking the gear icon at the lower right corner → **Support** → **Report a bug**.
 

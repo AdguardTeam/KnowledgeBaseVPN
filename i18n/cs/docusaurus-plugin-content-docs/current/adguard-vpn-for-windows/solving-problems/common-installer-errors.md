@@ -34,8 +34,8 @@ Dalo by se říci, že se jedná o zvláštní podtyp chyby 1603. Možná řeše
     1. Stiskněte *Win + R* a napište **services.msc**.
     1. Vyhledejte v seznamu *Instalační služba systému Windows* a dvakrát na ni klikněte.
     1. Stiskněte tlačítko *Spustit* pod položkou *Stav služby* a stiskněte *OK*. Pokud stav služby **běží**, měli byste nejprve kliknout na *Ukončit* a poté stisknout *Spustit*.
-    1. Press *Win + R*, type **msiexec /unregister** and hit *Enter*.
-    1. Press *Win + R* again, type **msiexec /regserver** and hit *Enter*
+    1. Stiskněte *Win + R*, napište **msiexec /unregister** a stiskněte *Enter*.
+    1. Stiskněte znovu *Win + R*, napište **msiexec /regserver** a stiskněte *Enter*
 
 - Restartujte počítač a spusťte instalaci znovu. Někdy to k odstranění problému stačí.
 
@@ -64,8 +64,8 @@ Tato chyba zní více znepokojivě, než jaká ve skutečnosti je. Ve skutečnos
     1. Stiskněte *Win + R* a napište **services.msc**.
     1. Vyhledejte v seznamu *Instalační služba systému Windows* a dvakrát na ni klikněte.
     1. Stiskněte tlačítko *Spustit* pod položkou *Stav služby* a stiskněte *OK*. Pokud stav služby **běží**, měli byste nejprve kliknout na *Ukončit* a poté stisknout *Spustit*.
-    1. Press *Win + R*, type **msiexec /unregister** and hit *Enter*.
-    1. Press *Win + R* again, type **msiexec /regserver** and hit *Enter*
+    1. Stiskněte *Win + R*, napište **msiexec /unregister** a stiskněte *Enter*.
+    1. Stiskněte znovu *Win + R*, napište **msiexec /regserver** a stiskněte *Enter*
 
 - Získejte plná oprávnění na jednotce pro instalaci. Je možné, že k chybě 1603 dochází, protože nemáte úplná oprávnění k umístění souboru. Také to není tak snadné jako některá jiná řešení:
 
@@ -85,7 +85,7 @@ Tato chyba se objeví při pokusu o spuštění více instancí instalačního p
 
 - Restartujte počítač a spusťte instalaci znovu. Po restartování počítače se zastaví všechny probíhající procesy, včetně všech kopií instalačního programu.
 
-- Don't click the installer multiple times, even if it doesn't seem to start right away. Zobrazení uživatelského rozhraní instalátoru může někdy trvat několik sekund.
+- Neklikejte na instalační program vícekrát, i když se zdá, že se nespustí hned. Zobrazení uživatelského rozhraní instalátoru může někdy trvat několik sekund.
 
 ### Chyba 1638: Další verze tohoto produktu je již nainstalována {#error-1638}
 

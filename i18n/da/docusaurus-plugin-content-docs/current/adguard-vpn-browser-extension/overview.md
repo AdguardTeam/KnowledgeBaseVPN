@@ -34,7 +34,7 @@ Den næste fane indeholder en af hovedfunktionerne i AdGuard VPN – to tilstand
 
 I **Generel tilstand** fungerer AdGuard VPN som standard på alle websteder, undtagen på de websteder, som er føjet til undtagelseslisten. I **Selektiv tilstand**, omvendt, fungerer AdGuard VPN som standard ingen steder. Alle websteder, hvor den ønskes at fungere, kan føjes til en undtagelsesliste, adskilt fra den, der findes i **Generel tilstand**.
 
-When adding a website to an exclusion list, you can enter the website manually or select the **From the list** option. In the latter case, you’ll see eight categories (for example, *Shopping* or *Messengers*), each suggesting several popular services. You can exclude any of these services in one click. This will add all domains relevant to that specific service to exclusions.
+Når et websted føjes til en undtagelsesliste, kan man gøre dette fra webstedet manuelt eller vælge muligheden **Fra listen**. I sidstnævnte tilfælde ses otte kategorier (f.eks *Shopping* og *Beskedtjenester*), der hver foreslår flere populære tjenester. Enhver af disse tjenester kan undtages med ét enkelt klik. Dette vil føje alle domæner, som er relevante for den bestemte tjeneste, til undtagelser.
 
 ### Import og eksport
 

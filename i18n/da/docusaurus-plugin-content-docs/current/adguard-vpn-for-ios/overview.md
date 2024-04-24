@@ -36,7 +36,7 @@ Fanen Undtagelser kan findes ved at trykke på 2. ikon på den nederste bjælke.
 
 I tilstanden *Generel* fungerer VPN for alle websteder bortset fra de undtagne. Omvendt fungerer VPN i tilstanden *Selektiv* kun for websteder fra listen.
 
-You can add domains (e.g., `google.com`) or subdomains (e.g., `*.google.com`) of websites to the lists in two ways:
+Der kan føjes domæner (f.eks. `google.com`) eller underdomæner (f.eks. `*.google.com`) af websteder til listerne på to måder:
 
 - Angiv dem manuelt i appen
 - Tilføj dem direkte fra webbrowseren ved at dele de ønskede sider med AdGuard VPN
@@ -110,15 +110,15 @@ Denne indstilling bruges primært til fejlsøgning og fejlfindingsformål. Logni
 
 :::
 
-#### Export logs and system info
+#### Eksportere logger og systeminfo
 
 Denne mulighed kan bruges til at indsende app-logfiler og systeminfo til vores support mv.
 
-#### Diagnostic data
+#### Diagnostikdata
 
 Denne mulighed tillader eksport af teknisk information, der kan være nyttig ifm. problemløsning, og som nogle gange udbedes af vores support og udviklere.
 
-### Send technical and interaction data
+### Indsend tekniske og interaktionsdata
 
 Ved at slå denne mulighed til hjælper du os med bedre at forstå, hvordan brugere interagerer med appen. Vi bruger disse oplysninger til at forbedre brugeroplevelsen.
 

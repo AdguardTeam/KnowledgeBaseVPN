@@ -9,11 +9,11 @@ AdGuard VPN can only be installed on devices with **iOS 14.2 and iPadOS 14.2 or 
 
 ## iOS için AdGuard VPN nasıl yüklenir
 
-You can download and install the *AdGuard VPN for iOS* app for free in the *App Store*.
+*iOS için AdGuard VPN* uygulamasını *App Store'dan* ücretsiz olarak indirebilir ve yükleyebilirsiniz.
 
 To do this, [go to App Store](https://agrd.io/ios_vpn) and tap *GET*.
 
-Or you can use App Store’s search to find AdGuard VPN:
+Veya AdGuard VPN'i bulmak için App Store'un aramasını kullanabilirsiniz:
 
 1. Open the *App Store* app on your iOS device and tap *Search* 🔍 in the bottom right corner of the screen.
 
@@ -24,11 +24,11 @@ Or you can use App Store’s search to find AdGuard VPN:
     ![Ara *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/search-en.png)
 
 1. Select *AdGuard VPN - Unlimited & Fast* from the list of suggested apps and tap *GET*. Gerekirse, açılan pencereye Apple Kimliği hesap parolanızı girin.
-1. Wait for the download to finish and tap *OPEN* to open the app.
+1. İndirme işleminin bitmesini bekleyin ve uygulamayı açmak için *AÇ* öğesine dokunun.
 
     ![AdGuard VPN *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/adguard-vpn-en.png)
 
-That’s it! AdGuard VPN for iOS has been successfully installed on your device.
+Bu kadar! AdGuard VPN for iOS has been successfully installed on your device.
 
 ## iOS için AdGuard VPN nasıl kaldırılır
 

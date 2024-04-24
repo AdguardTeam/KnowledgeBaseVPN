@@ -9,7 +9,7 @@ Opleves problemer under brug af AdGuard VPN til Android, kan vi informeres herom
 
 Som standard bruger AdGuard VPN til iOS *Standard*-logningsniveauet. Det indsamler grundlæggende data om kørende app-processer. Følg de næste trin for at indsende disse logfiler:
 
-1. Opret forbindelse til AdGuard VPN til iOS. Hvis muligt, gentag de handlinger, som førte til fejlen. Note the exact time when the error occurred (e.g., 15:35).
+1. Opret forbindelse til AdGuard VPN til iOS. Hvis muligt, gentag de handlinger, som førte til fejlen. Notér det nøjagtige tidspunkt for fejlens opståen (f.eks. 15:35).
 
 2. Åbn AdGuard VPN til iOS og tryk på indstillings ⚙-ikonet nederst til højre på skærmen. Vælg *Support* og tryk dernæst på *Anmeld en fejl*.
 
@@ -35,7 +35,7 @@ I de fleste tilfælde er logningsniveauet Standard tilstrækkeligt til at spore 
 
 3. I afsnittet *Logningsniveau* vælges *Udvidet* eller *Ekstrem*.
 
-4. Repeat the actions that led to the error and note the time when it occurred (e.g., 14:23).
+4. Gentag de handlinger, som førte til fejlen, og notér tidspunktet, da den opstod (f.eks. 14:23).
 
 5. Skift logningsniveauet tilbage til *Standard*.
 

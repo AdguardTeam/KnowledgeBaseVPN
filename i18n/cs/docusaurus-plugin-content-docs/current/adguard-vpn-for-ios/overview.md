@@ -36,7 +36,7 @@ Kartu Výjimky najdete klepnutím na druhou ikonu ve spodní liště. Zde uvidí
 
 V *Obecném* režimu funguje VPN pro všechny weby kromě vyloučených. Naopak v *Selektivním* režimu funguje VPN pouze pro weby ze seznamu.
 
-You can add domains (e.g., `google.com`) or subdomains (e.g., `*.google.com`) of websites to the lists in two ways:
+Domény (např. `google.com`) nebo subdomény (např. `*.google.com`) webových stránek můžete do seznamů přidávat dvěma způsoby:
 
 - Zadáním ručně do aplikace
 - Přidáním přímo z prohlížeče sdílením požadovaných stránek s AdGuard VPN
@@ -110,15 +110,15 @@ Toto nastavení se používá především pro účely ladění a řešení prob
 
 :::
 
-#### Export logs and system info
+#### Exportovat protokoly a systémové informace
 
 Tuto možnost lze použít k odesílání záznamů aplikace a systémových informací naší podpoře nebo komukoli jinému.
 
-#### Diagnostic data
+#### Diagnostická data
 
 Tato možnost umožňuje exportovat technické informace, které mohou být užitečné při řešení problémů a které jsou někdy vyžadovány naší podporou a vývojáři.
 
-### Send technical and interaction data
+### Odeslat technická a interakční data
 
 Zapnutím této možnosti nám pomáháte lépe porozumět tomu, jak uživatelé s aplikací pracují. Tyto informace používáme ke zlepšení uživatelského komfortu.
 

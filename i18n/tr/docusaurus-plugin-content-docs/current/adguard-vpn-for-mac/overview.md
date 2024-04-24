@@ -86,7 +86,7 @@ Ayrıca, uygulamamızı geliştirmemize yardımcı olmak için AdGuard VPN'in an
 
 ![DNS sunucuları](https://cdn.adguardvpn.com/content/kb/vpn/mac/dns_new_en.png)
 
-One or more DNS servers can be set up here. Bu, İSS'niz tarafından sağlanan varsayılan DNS sunucusuna güvenmek istemiyorsanız kullanışlıdır. Popüler DNS hizmetleri listesinden birini seçin veya elle özel bir sunucu ekleyin. Yalnızca DNS trafiğinizi şifrelemekle kalmayıp aynı zamanda kötü amaçlı sitelere yönelik istekleri tespit eden ve bunları bir "kara deliğe" yönlendiren AdGuard DNS'i eklemenizi öneririz.
+Burada bir veya daha fazla DNS sunucusu kurulabilir. Bu, İSS'niz tarafından sağlanan varsayılan DNS sunucusuna güvenmek istemiyorsanız kullanışlıdır. Popüler DNS hizmetleri listesinden birini seçin veya elle özel bir sunucu ekleyin. Yalnızca DNS trafiğinizi şifrelemekle kalmayıp aynı zamanda kötü amaçlı sitelere yönelik istekleri tespit eden ve bunları bir "kara deliğe" yönlendiren AdGuard DNS'i eklemenizi öneririz.
 
 ### Gelişmiş ayarlar
 

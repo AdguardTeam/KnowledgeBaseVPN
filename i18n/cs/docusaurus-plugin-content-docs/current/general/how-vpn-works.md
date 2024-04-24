@@ -53,7 +53,7 @@ Protože váš provoz nesměřuje přímo na webový server, ale nejprve prochá
 
 ### Blokování přístupu
 
-Některé online služby vynakládají velké úsilí na detekci provozu VPN a blokují přístup uživatelům VPN. Málokterá síť VPN se však dokáže maskovat tak, aby byla vnímána pouze jako běžný provoz. Therefore, many attempts to reach a certain website via a VPN connection end in nothing.
+Některé online služby vynakládají velké úsilí na detekci provozu VPN a blokují přístup uživatelům VPN. Málokterá síť VPN se však dokáže maskovat tak, aby byla vnímána pouze jako běžný provoz. Proto mnoho pokusů dostat se na určitou webovou stránku prostřednictvím připojení VPN skončí bez úspěchu.
 
 ### Přerušení VPN připojení
 

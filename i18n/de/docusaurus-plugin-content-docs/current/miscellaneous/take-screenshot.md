@@ -58,7 +58,7 @@ PrtScn (Print Screen) kann auf verschiedenen Tastaturen unterschiedlich abgekür
 
 :::
 
-Windows will capture the entire screen and copy it to the clipboard.
+Windows erfasst den gesamten Bildschirm und kopiert ihn in die Zwischenablage.
 
 Um einen Screenshot eines aktiven Fensters zu machen, verwenden Sie die folgende Kombination:
 

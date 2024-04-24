@@ -5,8 +5,8 @@ sidebar_position: 4
 
 Einige Benutzer können ihr über den App Store erworbenes AdGuard VPN-Abonnement nicht verwenden. Dieses Problem kann in zwei Fällen auftreten:
 
-- if an incorrect Apple ID was used for this App Store purchase
-- or if you hid your email address from app developers
+- wenn eine falsche Apple ID für diesen App Store-Kauf verwendet wurde
+- oder wenn Sie Ihre E-Mail-Adresse vor App-Entwicklern verborgen haben
 
 Um dieses Problem zu lösen, führen Sie bitte die folgenden Schritte aus:
 

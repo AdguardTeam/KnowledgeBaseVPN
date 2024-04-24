@@ -5,7 +5,7 @@ sidebar_position: 7
 
 ## Úvod
 
-Šifrování je důvodem, proč se v pojmu "virtuální privátní síť" vyskytuje slovo "privátní". A VPN creates a tunnel between your device and a VPN server, that encrypts and transmits your data securely to the open Internet. Proces šifrování, tj. přeměny dat na "nesmysly", které nikdo, kdo je zachytí, nemůže přečíst, je pro každou službu VPN zásadní.
+Šifrování je důvodem, proč se v pojmu "virtuální privátní síť" vyskytuje slovo "privátní". VPN vytváří tunel mezi vaším zařízením a serverem VPN, který šifruje a bezpečně přenáší vaše data do otevřeného internetu. Proces šifrování, tj. přeměny dat na "nesmysly", které nikdo, kdo je zachytí, nemůže přečíst, je pro každou službu VPN zásadní.
 
 Protokol AdGuard VPN používá dosud nejbezpečnější a nejrychlejší šifrovací algoritmus — AES-256. Zjistěte, co to je a proč je to tak dobré.
 

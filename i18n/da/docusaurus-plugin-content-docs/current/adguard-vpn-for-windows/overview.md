@@ -23,7 +23,7 @@ For at begynde at bruge AdGuard VPN til Windows, download først appen fra [vore
 
 Det mest iøjnefaldende element på **Startskærmen** er AdGuard VPN Forbind/Frakobl-knappen, under hvilken den valgte server fremgår. Til højre på skærmen fremgår en liste over tilgængelige lokationer. Den hurtigste serverplacering, dvs. den med laveste ping, vises øverst på listen. Der er også en opdateringsknap, man kan klikke på, hvis nogen lokationer er offline.
 
-At the top of the screen there is a navigation panel with five tabs: **Home**, **Exclusions**, **Stats**, **Support**, and **Settings**.
+Øverst på skærmen findes et navigeringspanel med fem faner: **Hjem**, **Undtagelser**, **Statistik**, **Support** og **Indstillinger**.
 
 ## Undtagelser
 
@@ -37,7 +37,7 @@ Der kan **manuelt** føjes websteder til undtagelser ved at angive deres domæne
 
 :::note
 
-When adding domains manually, you should take into account certain details. Undtager man f.eks. manuelt domænet `google.com`, føjes alle underdomænerne `*.google.com` også til undtagelseslisten. Domænenavne med andre topniveaudomæner, såsom `google.es` eller `google.it`, undtages dog ikke. Man kan også føje `youtube.com` til Undtagelser, mens domænet for samme tjeneste, `youtu.be`, ikke føjes til listen.
+Når domæner tilføjes manuelt, bør der tages højde for visse detaljer. Undtager man f.eks. manuelt domænet `google.com`, føjes alle underdomænerne `*.google.com` også til undtagelseslisten. Domænenavne med andre topniveaudomæner, såsom `google.es` eller `google.it`, undtages dog ikke. Man kan også føje `youtube.com` til Undtagelser, mens domænet for samme tjeneste, `youtu.be`, ikke føjes til listen.
 
 :::
 

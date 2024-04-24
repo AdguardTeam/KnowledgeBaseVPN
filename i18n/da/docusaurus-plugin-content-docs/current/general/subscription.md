@@ -19,7 +19,7 @@ Abonnementet kan opsiges via AdGuard-kontoen. Sådan opsiges abonnementet:
  1. Gå til afsnittet [Licenser](https://my.adguard.com/account/licenses) i AdGuard-kontoen.
  1. Klik på *Opsig abonnement* under det relevante abonnement.
 
-The canceled subscription will remain valid until its expiry date.
+Det opsagte abonnement forbliver gyldigt indtil dets udløbsdato.
 
 :::note
 

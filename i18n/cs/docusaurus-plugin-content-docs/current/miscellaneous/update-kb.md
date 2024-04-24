@@ -21,7 +21,7 @@ Tuto databázi znalostí můžete lokálně uložit do svého počítače a zobr
 
 Překlad stávajících článků databáze znalostí se provádí na [platformě Crowdin](https://crowdin.com/project/adguard-vpn-knowledge-base). Všechny podrobnosti o překladech a práci s platformou Crowdin najdete [ve speciálním článku](https://adguard.com/kb/miscellaneous/contribute/translate/program/) databáze znalostí blokátoru reklam AdGuard.
 
-Při práci na článcích databáze znalostí AdGuard VPN se můžete setkat s řetězci obsahujícími množné číslo, které byste měli překládat se zvýšenou pozorností. [In a separate article](https://adguard.com/kb/miscellaneous/contribute/translate/plural-forms/), we describe in detail the difficulties that can arise when translating strings with plural forms and provide detailed guidance on how these are handled on the Crowdin platform.
+Při práci na článcích databáze znalostí AdGuard VPN se můžete setkat s řetězci obsahujícími množné číslo, které byste měli překládat se zvýšenou pozorností. [V samostatném článku](https://adguard.com/kb/miscellaneous/contribute/translate/plural-forms/) podrobně popisujeme potíže, které mohou nastat při překladu řetězců s množným číslem a poskytujeme podrobný návod, jak se s nimi na platformě Crowdin pracuje.
 
 ## Práce na otevřených problémech
 

@@ -21,7 +21,7 @@ sidebar_position: 3
 
 Cуществующие статьи Базы знаний можно перевести на [платформе Crowdin](https://crowdin.com/project/adguard-vpn-knowledge-base). Все подробности о переводах статей и работе с Crowdin можно найти [в соответствующей статье](https://adguard.com/kb/miscellaneous/contribute/translate/program/) Базы знаний блокировщика рекламы AdGuard.
 
-Работая над статьями Базы знаний AdGuard VPN, вы наверняка встретите строки, содержащие формы множественного числа, которые следует переводить с особой аккуратностью. [In a separate article](https://adguard.com/kb/miscellaneous/contribute/translate/plural-forms/), we describe in detail the difficulties that can arise when translating strings with plural forms and provide detailed guidance on how these are handled on the Crowdin platform.
+Работая над статьями Базы знаний AdGuard VPN, вы наверняка встретите строки, содержащие формы множественного числа, которые следует переводить с особой аккуратностью. [В отдельной статье](https://adguard.com/kb/miscellaneous/contribute/translate/plural-forms/) мы подробно описали трудности, которые могут возникнуть при переводе таких строк, и дали исчерпывающие инструкции по работе с ними на платформе Crowdin.
 
 ## Работа над существующими задачами
 

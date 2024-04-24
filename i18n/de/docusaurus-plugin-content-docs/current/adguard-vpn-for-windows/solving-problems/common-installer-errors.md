@@ -34,8 +34,8 @@ Man könnte sagen, dass dies eine besondere Unterart des Fehlers 1603 ist. Die m
     1. Drücken Sie *Win ⊞ + R* und geben Sie **services.msc** ein.
     1. Suchen Sie in der Liste und doppelklicken Sie auf *Windows Installer*.
     1. Klicken Sie auf *Starten* unter *Dienststatus* und auf *OK*. Wenn der Dienststatus **Wird ausgeführt** lautet, sollten Sie zuerst auf *Beenden* und anschließend auf *Starten* klicken.
-    1. Press *Win + R*, type **msiexec /unregister** and hit *Enter*.
-    1. Press *Win + R* again, type **msiexec /regserver** and hit *Enter*
+    1. Drücken Sie *Win ⊞ + R*, geben Sie **msiexec /unregister** ein und drücken Sie *Enter*.
+    1. Drücken Sie erneut *Win ⊞ + R*, geben Sie **msiexec /regserver** ein und drücken Sie *Enter*
 
 - Starten Sie den PC neu und beginnen Sie die Installation von vorne. Manchmal reicht das schon aus, um das Problem zu beheben.
 
@@ -64,8 +64,8 @@ Dieser Fehler klingt beunruhigender als er tatsächlich ist. In Wirklichkeit han
     1. Drücken Sie *Win + R* und geben Sie **services.msc** ein.
     1. Suchen Sie in der Liste und doppelklicken Sie auf *Windows Installer*.
     1. Klicken Sie auf *Starten* unter *Dienststatus* und auf *OK*. Wenn der Dienststatus **Wird ausgeführt** lautet, sollten Sie zuerst auf *Beenden* und anschließend auf *Starten* klicken.
-    1. Press *Win + R*, type **msiexec /unregister** and hit *Enter*.
-    1. Press *Win + R* again, type **msiexec /regserver** and hit *Enter*
+    1. Drücken Sie *Win ⊞ + R*, geben Sie **msiexec /unregister** ein und drücken Sie *Enter*.
+    1. Drücken Sie erneut *Win ⊞ + R*, geben Sie **msiexec /regserver** ein und drücken Sie *Enter*
 
 - Verschaffen Sie sich für die Installation volle Berechtigungen auf dem Laufwerk. Es ist möglich, dass der Fehler 1603 auftritt, weil Sie nicht die vollen Berechtigungen für den Speicherort der Datei haben. Es ist auch nicht so einfach wie einige der anderen Lösungen:
 
@@ -85,7 +85,7 @@ Dieser Fehler wird angezeigt, wenn Sie versuchen, mehrere Instanzen des AdGuard 
 
 - Starten Sie Ihren PC neu und starten Sie das Installationsprogramm erneut. Wenn Sie den Computer neu starten, werden alle laufenden Prozesse angehalten, einschließlich aller Kopien des Installationsprogramms.
 
-- Don't click the installer multiple times, even if it doesn't seem to start right away. Manchmal kann es ein paar Sekunden dauern, bis die Benutzeroberfläche des Installationsprogramms angezeigt wird.
+- Klicken Sie nicht mehrmals auf das Installationsprogramm, auch wenn es nicht sofort zu starten scheint. Manchmal kann es ein paar Sekunden dauern, bis die Benutzeroberfläche des Installationsprogramms angezeigt wird.
 
 ### Fehler 1638: Eine andere Version dieses Produkts ist bereits installiert {#error-1638}
 

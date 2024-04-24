@@ -9,7 +9,7 @@ Wenn Sie bei der Verwendung von AdGuard VPN für iOS auf Probleme stoßen, könn
 
 Standardmäßig verwendet AdGuard VPN für iOS die Protokollierungsstufe *Standard*. Es werden grundlegende Daten über laufende Anwendungsprozesse gesammelt. Um diese Protokolle zu senden, machen Sie Folgendes:
 
-1. Verbinden Sie sich mit AdGuard VPN für iOS. Wenn möglich, wiederholen Sie die Aktionen, die zu dem Fehler geführt haben. Note the exact time when the error occurred (e.g., 15:35).
+1. Verbinden Sie sich mit AdGuard VPN für iOS. Wenn möglich, wiederholen Sie die Aktionen, die zu dem Fehler geführt haben. Notieren Sie die genaue Uhrzeit, zu der der Fehler aufgetreten ist (z. B. 15:35).
 
 2. Öffnen Sie AdGuard VPN und tippen Sie auf das Symbol Einstellungen ⚙ in der unteren rechten Ecke des Bildschirms. Wählen Sie *Support*, und tippen Sie dann auf *Fehler melden*.
 
@@ -35,7 +35,7 @@ In den meisten Fällen reicht die Standardprotokollierungsstufe aus, um möglich
 
 3. Wählen Sie im Abschnitt *Protokollierungsstufe* *Erweitert* oder *Extrem*.
 
-4. Repeat the actions that led to the error and note the time when it occurred (e.g., 14:23).
+4. Wiederholen Sie die Aktionen, die zu dem Fehler geführt haben, und notieren Sie die Uhrzeit, zu der er aufgetreten ist (z. B. 14:23).
 
 5. Schalten Sie die Protokollierungsstufe zurück auf *Standard*.
 

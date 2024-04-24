@@ -86,7 +86,7 @@ Man kan også tillade AdGuard VPN at indsamle og indsende anonymiserede nedbruds
 
 ![DNS-servere](https://cdn.adguardvpn.com/content/kb/vpn/mac/dns_new_en.png)
 
-One or more DNS servers can be set up here. Dette er nyttigt, hvis uafhængighed af internetudbyderens standard DNS-server er ønsket. Vælg en fra listen over populære DNS-tjenester, eller tilføj en tilpasset server manuelt. Vi anbefaler at tilføje AdGuard DNS, der ikke alene krypterer DNS-trafikken, men også identificerer forespørgsler til ondsindede websteder og omdirigerer dem til et "black hole".
+En eller flere DNS-servere kan opsættes her. Dette er nyttigt, hvis uafhængighed af internetudbyderens standard DNS-server er ønsket. Vælg en fra listen over populære DNS-tjenester, eller tilføj en tilpasset server manuelt. Vi anbefaler at tilføje AdGuard DNS, der ikke alene krypterer DNS-trafikken, men også identificerer forespørgsler til ondsindede websteder og omdirigerer dem til et "black hole".
 
 ### Avancerede indstillinger
 

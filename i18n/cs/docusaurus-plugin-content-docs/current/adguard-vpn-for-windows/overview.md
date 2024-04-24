@@ -23,7 +23,7 @@ Chcete-li začít používat AdGuard VPN pro Windows, stáhněte si aplikaci z [
 
 Nejvýraznější položkou na **Domovské obrazovce** je tlačítko AdGuard VPN Připojit/Odpojit, pod nímž je zobrazen vybraný server. Na pravé straně obrazovky se zobrazí seznam dostupných umístění. Nejrychlejší umístění, tj. umístění s nejmenší odezvou ping se zobrazí na začátku seznamu. K dispozici je také tlačítko pro obnovení, na které můžete kliknout, pokud jsou některá místa offline.
 
-At the top of the screen there is a navigation panel with five tabs: **Home**, **Exclusions**, **Stats**, **Support**, and **Settings**.
+V horní části obrazovky je navigační panel s pěti kartami: **Domů**, **Výjimky**, **Statistiky**, **Podpora** a **Nastavení**.
 
 ## Výjimky
 
@@ -37,7 +37,7 @@ Webové stránky můžete do výjimek **přidat ručně** zadáním názvů jeji
 
 :::note
 
-When adding domains manually, you should take into account certain details. Pokud například ručně vyloučíte doménu `google.com`, budou do výjimek přidány také všechny subdomény `*.google.com`. Doménové názvy s ostatními doménami nejvyšší úrovně, jako je `google.es` nebo `google.it`, však vyloučeny nebudou. Nebo můžete do výjimek přidat `youtube.com`, ale doména stejné služby `youtu.be` se do seznamu nedostane.
+Při ručním přidávání domén byste měli vzít v úvahu určité podrobnosti. Pokud například ručně vyloučíte doménu `google.com`, budou do výjimek přidány také všechny subdomény `*.google.com`. Doménové názvy s ostatními doménami nejvyšší úrovně, jako je `google.es` nebo `google.it`, však vyloučeny nebudou. Nebo můžete do výjimek přidat `youtube.com`, ale doména stejné služby `youtu.be` se do seznamu nedostane.
 
 :::
 
