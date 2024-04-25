@@ -7,15 +7,15 @@ sidebar_position: 2
 
 To install AdGuard VPN, type:
 
-**Release**
+Release
 
     `curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/release/install.sh | sh -s -- -v`
 
-**Beta**
+Beta
 
     `curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/beta/install.sh | sh -s -- -v`
 
-**Nightly**
+Nightly
 
     `curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/nightly/install.sh | sh -s -- -v`
 
@@ -31,15 +31,15 @@ You can verify the signature to prove it’s an official version of AdGuard VPN 
 
 To uninstall AdGuard VPN, type:
 
-**Release**
+Release
 
     `curl -SsL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/release/install.sh | sh -s -- -v -u`
 
-**Beta**
+Beta
 
     `curl -SsL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/beta/install.sh | sh -s -- -v -u`
 
-**Nightly**
+Nightly
 
     `curl -SsL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/nightly/install.sh | sh -s -- -v -u`
 

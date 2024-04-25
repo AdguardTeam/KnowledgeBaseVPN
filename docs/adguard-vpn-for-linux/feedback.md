@@ -24,11 +24,11 @@ If you want to support the implementation of a new feature or bugfix, you can vo
 
 1. Wait a while, then archive the logs in the *Downloads* or *Home* folder by typing:
 
-    **For Linux**
+    For Linux
 
     `zip -rj logs.zip ${XDG_DATA_HOME:-~/.local/share}/adguardvpn-cli/*.log`
 
-    **For Mac**
+    For Mac
 
     `zip -rj ~/Downloads/logs.zip ~/Library/"Application Support"/adguardvpn-cli/*.log`
 
