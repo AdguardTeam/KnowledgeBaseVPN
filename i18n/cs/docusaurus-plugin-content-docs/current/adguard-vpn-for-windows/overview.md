@@ -27,7 +27,7 @@ V horní části obrazovky je navigační panel s pěti kartami: **Domů**, **V�
 
 ## Výjimky
 
-Ve výchozím nastavení funguje AdGuard VPN pro WIndows všude. Do seznamu výjimek můžete přidat webové stránky a aplikace, které chcete z tunelu VPN vyloučit. Nebo můžete nastavit, aby AdGuard VPN fungoval pouze na webových stránkách a aplikacích uvedených v seznamu výjimek. Upozorňujeme, že tyto dva seznamy jsou na sobě nezávislé.
+Ve výchozím nastavení funguje AdGuard VPN pro Windows všude. Do seznamu výjimek můžete přidat webové stránky a aplikace, které chcete z tunelu VPN vyloučit. Nebo můžete nastavit, aby AdGuard VPN fungoval pouze na webových stránkách a aplikacích uvedených v seznamu výjimek. Upozorňujeme, že tyto dva seznamy jsou na sobě nezávislé.
 
 ![Exclusions *border](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_new_en.png)
 

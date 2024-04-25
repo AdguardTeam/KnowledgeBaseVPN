@@ -1,50 +1,50 @@
 ---
-title: Installation and removal
+title: 安裝和移除
 sidebar_position: 2
 ---
 
-## System requirements
+## 系統需求
 
-AdGuard VPN can only be installed on devices with **Microsoft Windows 11/10/8.1/8/7/Vista SP2 (web-based only)**.
+AdGuard VPN 只能安裝在裝有 **Microsoft Windows 11/10/8.1/8/7/Vista SP2（僅基於網路）**的裝置上。
 
-## AdGuard VPN for Windows installation
+## 安裝 AdGuard VPN for Windows
 
-To install AdGuard VPN for Windows, visit [our website](https://adguard-vpn.com/welcome.html) and click the *Download* button. After it, the `adguardVPNInstaller.exe` will be downloaded. Run the installer and follow its instructions. The process will take less than a minute.
+要安裝AdGuard VPN for Windows，請訪問[我們的網站](https://adguard-vpn.com/welcome.html)並點擊*下載*按鈕。 之後，`adguardVPNInstaller.exe` 將被下載。 運行安裝程序並按照其說明進行操作。 該過程將花費不到一分鐘的時間。
 
-Then you will need to check the box to accept the terms of the EULA and the Privacy policy. And in the last step of the installation, you will be prompted to authorize via your AdGuard account or via social networks (Google, Apple, Facebook).
+然後，您需要選取該方塊以接受 EULA 和隱私權政策的條款。 在安裝的最後一步中，系統將提示您透過 AdGuard 帳號或社群網路（Google、Apple、Facebook）進行授權。
 
-## AdGuard VPN for Windows uninstallation
+## 卸載 AdGuard VPN for Windows
 
-If you decide to remove AdGuard VPN from your computer, use one of three options listed below:
+如果您決定從電腦中刪除 AdGuard VPN，請使用下面列出的三個選項之一：
 
-- Click *Start* and find AdGuard VPN in the opened list. Right-click it and select *Uninstall*.
-- Click *Start* → *Settings* → *Apps* → *Apps and features*. Find AdGuard VPN in the list, click it and choose *Uninstall*.
-- Open the *Control Panel*, then click *Programs* → *Programs and Features* → *Uninstall or change a program*. Find AdGuard VPN in the list, right-click it and select *Uninstall*.
+- 點選 *開始* 並在開啟的清單中找到AdGuard VPN。 右鍵點選它並選擇 *卸載*。
+- 點擊 *開始* → *設定* → *應用程式* → *應用程式和功能*。 在清單中找到 AdGuard VPN，點擊它並選擇 *卸載*。
+- 開啟 *控制面板*，然後按 *程式* → *程式與功能* → *卸載或更改程序*。 在清單中找到 AdGuard VPN，右鍵點擊它並選擇 *卸載*。
 
-### Advanced uninstallation {#advanced}
+### 進階解除安裝 {#advanced}
 
-In case regular uninstall doesn't work for any reason, you can try to use an advanced method. First of all, you need to [download the uninstaller tool](https://cdn.adtidy.org/distr/windows/Uninstall_Utility.zip) created by our developers. Extract the archive to any folder on your PC, run the **Adguard.UninstallUtility.exe** file, and allow the app to make changes to your device. Then follow the instruction below:
+如果由於任何原因常規卸載不起作用，您可以嘗試使用進階方法。 首先，您需要[下載由我們開發人員創建的卸載工具](https://cdn.adtidy.org/distr/windows/Uninstall_Utility.zip)。 將存檔解壓縮到電腦上的任何資料夾，執行 **Adguard.UninstallUtility.exe** 文件，並允許應用程式對您的裝置進行更改。 然後按照以下說明操作：
 
-1. Choose *Standard uninstall*, *Delete AdGuard VPN*, and click *Uninstall*
+1. 選擇 *標準卸載*、 *刪除 AdGuard VPN*，然後點選 *卸載*
 
-    ![Standard uninstall *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/standard_uninstall.png)
+    ![標準卸載 *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/standard_uninstall.png)
 
-1. Wait until uninstall is finished
+1. 等待卸載完成
 
-    ![Uninstall finished *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/standard_uninstall_2.png)
+    ![卸載完成 *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/standard_uninstall_2.png)
 
     :::note
 
-    Follow the next steps only if performing the first two steps wasn’t enough for some reason. We strongly recommend contacting our support team before using steps 3–4 of the advanced uninstall instructions.
+    只有在某些原因執行前兩個步驟還不夠時，才執行後續步驟。 我們強烈建議您在使用進階卸載說明的步驟 3-4 之前聯絡我們的支援團隊。
 
     :::
 
-1. Choose *Advanced uninstall*, *Delete AdGuard VPN*, and click *Uninstall*
+1. 選擇 *進階卸載*、 *刪除 AdGuard VPN*，然後點選 *卸載*
 
-    ![Advanced uninstall *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/advanced_uninstall.png)
+    ![進階卸載 *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/advanced_uninstall.png)
 
-1. Wait until uninstall is finished
+1. 等待卸載完成
 
-    ![Uninstall finished *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/advanced_uninstall_2.png)
+    ![卸載完成 *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/advanced_uninstall_2.png)
 
-AdGuard is successfully uninstalled!
+AdGuard 已成功卸載！

@@ -11,7 +11,7 @@ Bu nedenle, tüm Bilgi Tabanı içeriğimizi [GitHub'a](https://github.com/Adgua
 
 Yukarıda bahsedilen GitHub'ın işlevselliğini kullanarak mevcut makalelerde değişiklik önerebilir ve Bilgi Tabanına yenilerini ekleyebilirsiniz. Platformla çalışma ilkelerine aşina değilseniz, [bu bölümdeki dokümanları](https://docs.github.com/en) okuyarak başlayın.
 
-Başlamaya hazır olduğunuzda, [KnowledgeBaseVPN deposunda](https://github.com/AdguardTeam/KnowledgeBaseVPN) çalışın. Bilgi Tabanımızdaki tüm metinler `Markdown` işaretleme dilinde yazılmıştır. Makaleleri düzenlerken veya yazarken bunu aklınızda bulundurun. Markdown söz dizimi hakkında daha fazla bilgi edinmek için [bu bağlantıyı](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) takip edin.
+Başlamaya hazır olduğunuzda, [KnowledgeBaseVPN deposunda](https://github.com/AdguardTeam/KnowledgeBaseVPN) çalışın. Bilgi Tabanımızdaki tüm metinler `Markdown` işaretleme dilinde yazılmıştır. Makaleleri düzenlerken veya yazarken bunu aklınızda bulundurun. Markdown söz dizimi hakkında daha fazla bilgi edinmek için [bu bağlantıyı](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) izleyin.
 
 Bilgi Tabanı sitesi, modern bir statik site oluşturucu olan Docusaurus 2 kullanılarak oluşturulmuştur. Değişiklikler veya eklemeler önerirken, tüm belgelerin platformun ilkelerine uygun olması gerektiğini göz önünde bulundurun. Onlar hakkında [bu bağlantı aracılığıyla mevcut olan rehberde](https://docusaurus.io/docs/category/guides) okuyabilirsiniz.
 

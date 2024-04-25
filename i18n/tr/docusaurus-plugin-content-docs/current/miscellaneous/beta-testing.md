@@ -7,7 +7,7 @@ Hemen hemen her büyük platform için bir AdGuard VPN uygulaması var ve bunlar
 
 ### Beta test kullanıcısı nasıl olunur
 
-AdGuard VPN beta test kullanıcısı olmak için yalnızca birkaç şeye ihtiyacınız var: istek, uygulamayı yükleyeceğiniz cihaz ve [bu bağlantıyı](https://adguard-vpn.com/en/beta.html) takip ederek AdGuard VPN'in en son beta veya nightly sürümünü indirebileceksiniz!
+AdGuard VPN beta test kullanıcısı olmak için yalnızca birkaç şeye ihtiyacınız var: istek, uygulamayı yükleyeceğiniz cihaz ve [bu bağlantıyı](https://adguard-vpn.com/en/beta.html) izleyerek AdGuard VPN'in en son beta veya nightly sürümünü indirebileceksiniz!
 
 ### Hata nasıl bildirilir
 

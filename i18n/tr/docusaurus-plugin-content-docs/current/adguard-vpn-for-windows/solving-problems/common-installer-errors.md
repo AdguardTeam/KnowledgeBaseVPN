@@ -85,7 +85,7 @@ Bu hata, AdGuard VPN kurulum programının birden fazla örneğini aynı anda ç
 
 - PC'yi yeniden başlatın ve kurulum programını tekrar başlatın. Bilgisayarı yeniden başlattığınızda, kurulum programının tüm kopyaları dahil devam eden tüm işlemler durur.
 
-- Don't click the installer multiple times, even if it doesn't seem to start right away. Bazen kurulum programı kullanıcı arayüzünün görüntülenmesi birkaç saniye sürebilir.
+- Hemen başlamıyor gibi görünse bile kurulum programına birden fazla kez tıklamayın. Bazen kurulum programı kullanıcı arayüzünün görüntülenmesi birkaç saniye sürebilir.
 
 ### Error 1638: Bu ürünün başka bir sürümü zaten kurulu {#error-1638}
 

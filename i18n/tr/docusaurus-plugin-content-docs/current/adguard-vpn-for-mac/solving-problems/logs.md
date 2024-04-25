@@ -7,7 +7,7 @@ Mac için AdGuard VPN kullanırken herhangi bir sorunla karşılaşırsanız, uy
 
 ## Standart günlükleri toplama ve gönderme
 
-Varsayılan olarak, Mac için AdGuard VPN, uygulamanın çalışan süreçleri hakkında temel veri toplama olan standart günlük kayıt düzeyini kullanır. Bu günlükleri göndermek için sonraki adımları takip edin:
+Varsayılan olarak, Mac için AdGuard VPN, uygulamanın çalışan süreçleri hakkında temel veri toplama olan standart günlük kayıt düzeyini kullanır. Bu günlükleri göndermek için sonraki adımları izleyin:
 
 1. Mac için AdGuard VPN'i açın ve mümkünse hataya neden olan işlemleri tekrarlayın. Bu hatanın oluştuğu tam zamana dikkat edin.
 
@@ -25,7 +25,7 @@ Herhangi bir nedenle bize günlükleri başka bir şekilde göndermeniz daha uyg
 
 ## Genişletilmiş günlükleri toplama ve gönderme
 
-Çoğu durumda, olası hataların izini sürmek için varsayılan günlük kayıt düzeyi yeterlidir. Ancak, cihaz ve bağlantılar hakkında daha ayrıntılı teknik bilgilerin gerekli olduğu durumlar vardır ve bu durumda destek ekibimiz, genişletilmiş günlük kayıt düzeyini etkinleştirmenizi ister. Bu tür günlükleri göndermek için şu adımları takip edin:
+Çoğu durumda, olası hataların izini sürmek için varsayılan günlük kayıt düzeyi yeterlidir. Ancak, cihaz ve bağlantılar hakkında daha ayrıntılı teknik bilgilerin gerekli olduğu durumlar vardır ve bu durumda destek ekibimiz, genişletilmiş günlük kayıt düzeyini etkinleştirmenizi ister. Bu tür günlükleri göndermek için şu adımları izleyin:
 
 1. Mac için AdGuard VPN'i açın ve **Ayarlar** → **Genel** → **Gelişmiş ayarlar** öğesini seçin.
 

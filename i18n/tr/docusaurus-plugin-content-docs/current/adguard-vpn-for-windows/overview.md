@@ -23,11 +23,11 @@ Windows için AdGuard VPN'i kullanmaya başlamak için uygulamayı [sitemizden](
 
 **Ana ekranındaki** en dikkat çekici öğe, altında seçilen sunucuyu görebileceğiniz AdGuard VPN Bağlan veya Bağlantıyı kes düğmesidir. Ekranın sağ tarafında mevcut konumların bir listesini göreceksiniz. En hızlı konum, yani en düşük ping değerine sahip olan, listenin en üstünde gösterilir. Herhangi bir konum çevrimdışıysa tıklayabileceğiniz bir yenileme düğmesi de vardır.
 
-At the top of the screen there is a navigation panel with five tabs: **Home**, **Exclusions**, **Stats**, **Support**, and **Settings**.
+Ekranın üst kısmında beş sekmeli bir gezinme paneli bulunur: **Ana Sayfa**, **İstisnalar**, **İstatistikler**, **Destek** ve **Ayarlar**.
 
 ## İstisnalar
 
-Varsayılan olarak, WIndows için AdGuard VPN her yerde çalışır. VPN tünelinden hariç tutmak istediğiniz siteleri ve uygulamaları istisnalar listesine ekleyebilirsiniz. Veya AdGuard VPN'in yalnızca istisnalar listesinde belirtilen sitelerde ve uygulamalarda çalışmasını sağlayabilirsiniz. Lütfen bu iki listenin birbirinden bağımsız olduğunu unutmayın.
+By default, AdGuard VPN for Windows works everywhere. VPN tünelinden hariç tutmak istediğiniz siteleri ve uygulamaları istisnalar listesine ekleyebilirsiniz. Veya AdGuard VPN'in yalnızca istisnalar listesinde belirtilen sitelerde ve uygulamalarda çalışmasını sağlayabilirsiniz. Lütfen bu iki listenin birbirinden bağımsız olduğunu unutmayın.
 
 ![İstisnalar *border](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_new_en.png)
 
@@ -37,7 +37,7 @@ Alan adlarını girerek siteleri **el ile** istisnalara ekleyebilirsiniz. Uygula
 
 :::note
 
-When adding domains manually, you should take into account certain details. Örneğin, `google.com` alan adını elle hariç tutarsanız, tüm `*.google.com` alt alanları da istisna listesine eklenecektir. Ancak, `google.es` veya `google.it` gibi diğer üst düzey alan adlarına sahip alan adları hariç tutulmayacaktır. Veya `youtube.com` alan adını istisnalara ekleyebilirsiniz, ancak aynı hizmet `youtu.be` alan adı listeye dahil edilmeyecektir.
+Alan adlarını elle eklerken belirli ayrıntıları dikkate almalısınız. Örneğin, `google.com` alan adını elle hariç tutarsanız, tüm `*.google.com` alt alanları da istisna listesine eklenecektir. Ancak, `google.es` veya `google.it` gibi diğer üst düzey alan adlarına sahip alan adları hariç tutulmayacaktır. Veya `youtube.com` alan adını istisnalara ekleyebilirsiniz, ancak aynı hizmet `youtu.be` alan adı listeye dahil edilmeyecektir.
 
 :::
 

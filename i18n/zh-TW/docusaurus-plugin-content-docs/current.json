@@ -1,50 +1,50 @@
 {
   "version.label": {
-    "message": "Next",
+    "message": "下一頁",
     "description": "The label for version current"
   },
   "sidebar.sidebar.category.General": {
-    "message": "General",
+    "message": "一般",
     "description": "The label for category General in sidebar sidebar"
   },
   "sidebar.sidebar.category.Public DNS": {
-    "message": "Public DNS",
+    "message": "公共 DNS",
     "description": "The label for category Public DNS in sidebar sidebar"
   },
   "sidebar.sidebar.category.Solving problems": {
-    "message": "Solving problems",
+    "message": "解決問題",
     "description": "The label for category Solving problems in sidebar sidebar"
   },
   "sidebar.sidebar.category.Private DNS": {
-    "message": "Private DNS",
+    "message": "私有 DNS",
     "description": "The label for category Private DNS in sidebar sidebar"
   },
   "sidebar.sidebar.category.Miscellaneous": {
-    "message": "Miscellaneous",
+    "message": "雜項",
     "description": "The label for category Miscellaneous in sidebar sidebar"
   },
   "sidebar.sidebar.category.AdGuard VPN for Android": {
-    "message": "AdGuard VPN for Android",
+    "message": "AdGuard VPN Android 版",
     "description": "The label for category AdGuard VPN for Android in sidebar sidebar"
   },
   "sidebar.sidebar.category.AdGuard VPN for iOS": {
-    "message": "AdGuard VPN for iOS",
+    "message": "AdGuard VPN iOS 版",
     "description": "The label for category AdGuard VPN for iOS in sidebar sidebar"
   },
   "sidebar.sidebar.category.AdGuard VPN for Windows": {
-    "message": "AdGuard VPN for Windows",
+    "message": "AdGuard VPN Windows 版",
     "description": "The label for category AdGuard VPN for Windows in sidebar sidebar"
   },
   "sidebar.sidebar.category.AdGuard VPN for Mac": {
-    "message": "AdGuard VPN for Mac",
+    "message": "AdGuard VPN Mac 版",
     "description": "The label for category AdGuard VPN for Mac in sidebar sidebar"
   },
   "sidebar.sidebar.category.AdGuard VPN browser extensions": {
-    "message": "AdGuard VPN browser extensions",
+    "message": "AdGuard VPN 瀏覽器擴展",
     "description": "The label for category AdGuard VPN browser extensions in sidebar sidebar"
   },
   "sidebar.sidebar.category.solving-problems": {
-    "message": "solving-problems",
+    "message": "解決問題",
     "description": "The label for category solving-problems in sidebar sidebar"
   }
 }

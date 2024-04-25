@@ -17,7 +17,7 @@ AdGuard VPN iOS 版中没有应用排除项。 不过，有一种方法可以让
 3. 在下一个窗口中，确保选择*被打开*选项，然后点击*选择*来选择应用程序。
 
 ![指示说明 第2部分](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_on2_en.jpg)
-4. Start entering the name of the app (in our case it’s Twitter) and select it. 点击「*完成*」，然后点击屏幕右上角的「*下一步*」。 在打开的窗口中，点击「*添加操作*」。
+4. 开始输入应用程序的名称（此处以 Twitter 为例），并选择它。 点击「*完成*」，然后点击屏幕右上角的「*下一步*」。 在打开的窗口中，点击「*添加操作*」。
 
 ![指示说明 第3部分](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_on3_en.jpg)
 5. 输入「AdGuard VPN」并选择 「AdGuard VPN 应用程序」。 在新窗口里点击*设置 VPN 连接*。

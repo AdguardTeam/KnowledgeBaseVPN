@@ -1,29 +1,29 @@
 ---
-title: '獲得 AdGuard VPN Unlimited 的好處'
+title: 'AdGuard VPN Unlimited 的優勢'
 sidebar_position: 5
 ---
 
 您可以免費使用 AdGuard VPN，但會有一定的限制：
 
 - 只有 2 部裝置可以同時啟用 AdGuard VPN
-- 每月 3GB 流量限制
+- 每月 3 GB 流量限制
 - 20 Mbit/s 速度限制
-- 只有部分伺服器位置可用
-- 電子郵件用户端不能發送信息（ iOS 和 Android 版本 ）
+- 僅部分伺服器位置可用
+- 電子郵件用戶端無法用於發送訊息（在 iOS 和 Android 上）
 
-:::note
+:::筆記
 
-最後一點應單獨說明：AdGuard VPN for iOS 和 Android 的免費使用者無法透過電子郵件用户端發送電子郵件。 這是因為我們封鎖了用於傳出電子郵件的25 連接埠 ，從而防止垃圾電郵問題。 但使用網頁版電子郵件服務發送電子郵件則沒有問題。 在 AdGuard VPN for Android ，您可以將應用程式添加到例外，以便電子郵件應用程式正常運行。
+最後一點應單獨解決：iOS 和 Android 版 AdGuard VPN 的免費用戶無法在電子郵件用戶端中發送電子郵件。 這是不可能的，因為我們封鎖了用於發送電子郵件的連接埠 25，從而重新防範垃圾郵件。 然而，使用網路電子郵件服務發送電子郵件則沒有問題。 在 Android 版 AdGuard VPN 上，您可以將應用程式新增至排除項，以便電子郵件應用程式也能正常運作。
 
 :::
 
-同時，您也可以付費訂閱以獲取無限制版本應用程式。 與免費帳户相比，訂閱帳户有更多好處：
+同時，您可以購買訂閱以獲得該應用程式的無限版本。 與免費帳戶相比，訂閱可以享受更多好處：
 
-- 10 simultaneously connected devices
+- 10 個同時連接的設備
 - 無限流量
-- 無限速
-- 50 多個地點全都可用
+- 無速度上限
+- 超過 50 個地點均可使用
 - 安全串流
 - 25 連接埠不被封鎖
 
-To use all the advantages, consider [purchasing a subscription](/general/subscription).
+要利用所有優勢，請考慮[購買訂閱](/general/subscription)。

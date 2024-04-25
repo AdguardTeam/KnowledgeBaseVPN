@@ -7,7 +7,7 @@ Android için AdGuard VPN'i kullanırken herhangi bir sorunla karşılaşırsan�
 
 ## Standart günlükleri toplama ve gönderme
 
-Varsayılan olarak, Android için AdGuard VPN **Varsayılan** günlük kayıt düzeyini, yani uygulamanın çalışan süreçleriyle ilgili temel veri toplamasını kullanır. Bu günlükleri göndermek için sonraki adımları takip edin:
+Varsayılan olarak, Android için AdGuard VPN **Varsayılan** günlük kayıt düzeyini, yani uygulamanın çalışan süreçleriyle ilgili temel veri toplamasını kullanır. Bu günlükleri göndermek için sonraki adımları izleyin:
 
 1. Android için AdGuard VPN'i açın ve mümkünse hataya neden olan işlemleri tekrarlayın. Bu hatanın oluştuğu tam zamana dikkat edin.
 
@@ -20,9 +20,9 @@ Varsayılan olarak, Android için AdGuard VPN **Varsayılan** günlük kayıt d�
 
 ## Genişletilmiş günlükleri toplama ve gönderme
 
-Çoğu durumda, olası hataların izini sürmek için **Varsayılan** günlük kayıt düzeyi yeterlidir. Ancak, cihaz ve bağlantılar hakkında daha ayrıntılı teknik bilgilerin gerekli olduğu durumlar vardır ve bu durumda destek ekibimiz, **Genişletilmiş** veya **Son derece** günlük kayıt düzeyini etkinleştirmenizi ister. Bu tür günlükleri göndermek için şu adımları takip edin:
+Çoğu durumda, olası hataların izini sürmek için **Varsayılan** günlük kayıt düzeyi yeterlidir. Ancak, cihaz ve bağlantılar hakkında daha ayrıntılı teknik bilgilerin gerekli olduğu durumlar vardır ve bu durumda destek ekibimiz, **Genişletilmiş** veya **Son derece** günlük kayıt düzeyini etkinleştirmenizi ister. Bu tür günlükleri göndermek için şu adımları izleyin:
 
-1. Android için AdGuard VPN'i açın ve **Ayarlar** (sağ alt köşedeki dişli çark simgesi) → **Uygulama ayarları** → **Gelişmiş ayarlar** → **Günlük kayıt düzeyi** öğesni seçin.
+1. Android için AdGuard VPN'i açın ve **Ayarlar** (sağ alt köşedeki dişli çark simgesi) → **Uygulama ayarları** → **Gelişmiş ayarlar** → **Günlük kayıt düzeyi** öğesini seçin.
 
 2. **Günlük kayıt düzeyi** bölümünde, **Genişletilmiş** veya **Son derece** günlük kayıt düzeyini seçin.
 

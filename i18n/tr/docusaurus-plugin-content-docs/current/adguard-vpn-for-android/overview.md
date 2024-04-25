@@ -41,7 +41,7 @@ You can add a domain (e.g., `google.com`) or subdomain (e.g., `*.google.com`) to
 
 - Uygulamaya elle girin
 - Siteyi AdGuard VPN ile paylaşarak doğrudan tarayıcıdan ekleyin
-- Add it from a built-in list of services
+- Yerleşik hizmetler listesinden ekleyin
 
 ![İstisnalar](https://cdn.adguardvpn.com/public/Adguard/kb/VPN/Screenshots/add_site_android.jpg)
 

@@ -13,9 +13,9 @@ Varsayılan olarak, Windows için AdGuard VPN, uygulamanın çalışan işlemler
 
 ### Genişletilmiş günlükler
 
-Çoğu durumda, olası hataların izini sürmek için varsayılan günlük kayıt düzeyi yeterlidir. Ancak, cihaz ve bağlantılar hakkında daha ayrıntılı teknik bilgilerin gerekli olduğu durumlar vardır ve bu durumda destek ekibimiz, genişletilmiş günlük kayıt düzeyini etkinleştirmenizi ister. Bu tür günlükleri göndermek için şu adımları takip edin:
+Çoğu durumda, olası hataların izini sürmek için varsayılan günlük kayıt düzeyi yeterlidir. Ancak, cihaz ve bağlantılar hakkında daha ayrıntılı teknik bilgilerin gerekli olduğu durumlar vardır ve bu durumda destek ekibimiz, genişletilmiş günlük kayıt düzeyini etkinleştirmenizi ister. Bu tür günlükleri göndermek için şu adımları izleyin:
 
-1. Open AdGuard VPN for Windows and select **Settings** in the menu above → **App settings** → **Advanced settings** → **Logging level**.
+1. Windows için AdGuard VPN'i açın ve yukarıdaki menüden **Ayarlar** → **Uygulama ayarları** → **Gelişmiş ayarlar** → **Günlük kayıt düzeyi** öğesini seçin.
 
 1. **Günlük kayıt düzeyi** bölümünde, **Her şeyi kaydet** öğesini seçin.
 
@@ -29,7 +29,7 @@ Varsayılan olarak, Windows için AdGuard VPN, uygulamanın çalışan işlemler
 
 Bazen destek ekibimiz sizden izleme günlüklerini göndermenizi isteyebilir. Bunu yapmak için aşağıdaki adımları izlemeniz gerekir:
 
-1. Right-click the AdGuard VPN icon in the tray menu and choose **Exit AdGuard VPN**.
+1. Tepsi menüsündeki AdGuard VPN simgesine sağ tıklayın ve **AdGuard VPN'den çık** öğesini seçin.
 
     ![Çıkış *mobile](https://cdn.adtidy.org/content/kb/vpn/windows/logs/exit.png)
 
@@ -41,21 +41,21 @@ Bazen destek ekibimiz sizden izleme günlüklerini göndermenizi isteyebilir. Bu
 
 1. Run the application with the command `C:\"Program Files (x86)"\AdGuardVpn\AdGuardVpnSvc.exe /trace` if you are using 64-bit Windows, and `C:\"Program Files"\AdGuardVpn\AdGuardVpnSvc.exe /trace` if you are using 32-bit.
 
-1. Reproduce the issue. We strongly recommend that you note the exact time when you reproduce the problem: this will help our support team to find relevant log entries and resolve the problem faster.
+1. Sorunu yeniden oluşturun. We strongly recommend that you note the exact time when you reproduce the problem: this will help our support team to find relevant log entries and resolve the problem faster.
 
 1. Export the recorded logs: **Support** → **Export logs and system info**.
 
-Don't worry if your log file is large. We need to know as many details as possible in order to fix your problem.
+Günlük dosyanız büyükse endişelenmeyin. Sorununuzu çözebilmek için mümkün olduğunca çok ayrıntı bilmemiz gerekiyor.
 
 ## Günlükleri gönderme
 
 Günlükleri destek ekibimize göndermek için lütfen sonraki adımları izleyin:
 
-1. Click **Support** in the menu above → **Report a bug**.
+1. Yukarıdaki menüden **Destek** → **Hata bildir** öğesine tıklayın.
 
     ![Hata bildir *border](https://cdn.adtidy.org/content/kb/vpn/windows/logs/support_report.jpeg)
 
-1. In the form that opens, enter your email address and describe the error you found, including the time it occurred. If you can't reproduce the problem, be as specific as possible about when it last occurred.
+1. Açılan forma e-posta adresinizi girin ve bulduğunuz hatayı, meydana geldiği zaman da dahil olmak üzere açıklayın. If you can't reproduce the problem, be as specific as possible about when it last occurred.
 
     ![Report *border](https://cdn.adtidy.org/content/kb/vpn/windows/logs/report_bug.png)
 
@@ -63,7 +63,7 @@ Günlükleri destek ekibimize göndermek için lütfen sonraki adımları izleyi
 
 > Herhangi bir nedenle bize günlükleri başka bir şekilde göndermeniz daha uygunsa, bunları kendiniz dışa aktarabilirsiniz. Bunu yapmak için **Destek** → **Günlükleri ve sistem bilgisini dışa aktar** öğesine gidin.
 
-![Export *border](https://cdn.adtidy.org/content/kb/vpn/windows/logs/export.jpeg)
+![Dışa aktar *border](https://cdn.adtidy.org/content/kb/vpn/windows/logs/export.jpeg)
 
 **Not**: Günlükleri dışa aktarmaya çalışırken herhangi bir sorunla karşılaşırsanız alternatif bir yol vardır. Lütfen aşağıdaki adımları izleyin:
 
@@ -71,7 +71,7 @@ Günlükleri destek ekibimize göndermek için lütfen sonraki adımları izleyi
 
 1. Arama kutusuna `%programdata%/adguardvpn` adresini yapıştırın
 
-1. Find the folder called **Logs**
+1. **Günlükler** adlı klasörü bulun
 
 1. Klasörü arşivleyin
 

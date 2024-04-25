@@ -27,7 +27,7 @@ Det mest iøjnefaldende element på **Startskærmen** er AdGuard VPN Forbind/Fra
 
 ## Undtagelser
 
-Som standard fungerer AdGuard VPN til Windows overalt. Websteder og apps, som skal undtages fra VPN-tunnelen, kan føjes til undtagelseslisten. AdGuard VPN kan også opsættes til kun at fungere på de websteder og apps, som fremgår på undtagelseslisten. Bemærk, at disse to lister er uafhængige af hinanden.
+By default, AdGuard VPN for Windows works everywhere. Websteder og apps, som skal undtages fra VPN-tunnelen, kan føjes til undtagelseslisten. AdGuard VPN kan også opsættes til kun at fungere på de websteder og apps, som fremgår på undtagelseslisten. Bemærk, at disse to lister er uafhængige af hinanden.
 
 ![Undtagelser *border](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_new_en.png)
 

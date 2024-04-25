@@ -1,46 +1,46 @@
 ---
-title: How to set up AdGuard VPN automation for iPhone and iPad apps
+title: 如何為 iPhone 和 iPad 應用程式設定 AdGuard VPN 自動化
 sidebar_position: 1
-sidebar_label: How to set up AdGuard VPN automation
+sidebar_label: 如何設定 AdGuard VPN 自動化
 ---
 
-There are no app exclusions in AdGuard VPN for iOS. Yet, there is a way to automate AdGuard VPN for apps on iPhones and iPads.
+適用於 iOS 的 AdGuard VPN 中沒有應用程式排除項。 然而，有一種方法可以為 iPhone 和 iPad 上的應用程式實現 AdGuard VPN 的自動化。
 
-## Setting up AdGuard VPN automatic activation
+## 設定 AdGuard VPN 自動啟動
 
-If you need a VPN for one or more apps, set up AdGuard VPN to automatically turn on and off when you open and close them. Go to the Exclusions tab, select General mode and follow the instructions. Here we describe how to create automation for Twitter, but you can choose any other app.
+如果您需要為一個或多個應用程式使用 VPN，請將 AdGuard VPN 設定為在您開啟和關閉它們時自動開啟和關閉。 前往排除選項卡，選擇常規模式並依照指示進行操作。 在這裡，我們描述瞭如何為 Twitter 建立自動化，但您可以選擇任何其他應用程式。
 
-![Instruction. Part 1](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_on1_en.jpg)
+![操作說明。 第1部分](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_on1_en.jpg)
 
-1. Download [the *Shortcuts* app](https://apps.apple.com/us/app/shortcuts/id915249334) from the App Store and go to the *Automation* section by tapping the clock icon at the bottom of the screen.
-2. Tap the *Create Personal Automation* button, then find *App* in the list that opens and tap it.
-3. In the next window, make sure that the *Is Opened* option is selected, and then tap *Choose* to choose the app.
+1. 從 App Store 下載 [ *捷徑* 應用程式](https://apps.apple.com/us/app/shortcuts/id915249334) 並透過點擊時鐘圖示前往 *自動化* 部分螢幕底部。
+2. 點擊 *建立個人自動化* 按鈕，然後在開啟的清單中找到 *應用程式* 並點擊它。
+3. 在下一個視窗中，請確保選擇 *已開啟* 選項，然後點擊 *選擇* 選擇應用程式。
 
-![Instruction. Part 2](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_on2_en.jpg)
-4. Start entering the name of the app (in our case it’s Twitter) and select it. Tap *Done*, then tap *Next* in the upper right corner of the screen. In the opened window, tap *Add Action*.
+![操作說明。 第2部分](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_on2_en.jpg)
+4. 開始輸入應用程式的名稱（在我們的例子中是 Twitter）並選擇它。 點選畫面右上角的 *完成*，然後點選 *下一步* 。 在開啟的視窗中，點選 *新增操作*。
 
-![Instruction. Part 3](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_on3_en.jpg)
-5. Start entering “AdGuard VPN” and select the AdGuard VPN app. In the new window tap *Set a VPN connection*.
+![操作說明。 第3部分](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_on3_en.jpg)
+5. 開始輸入“AdGuard VPN”並選擇 AdGuard VPN 應用程式。 在新視窗中點選 *設定 VPN 連線*。
 
-![Instruction. Part 4](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_on4_en.jpg)
-6. Make sure the variables say *Turn* VPN connection *On* and tap *Next*.
-7. In the next window, move the slider next to the *Ask before running* option to the inactive position. Confirm your choice, then tap *Done*.
+![操作說明。 第4部分](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_on4_en.jpg)
+6. 確保變數顯示 *開啟* VPN 連線 *開啟* 並點選 *下一步*。
+7. 在下一個視窗中，將 *運行前詢問* 選項旁邊的滑桿移動到非活動位置。 確認您的選擇，然後點選 *完成*。
 
-Now you have a new scenario: AdGuard VPN will be automatically enabled when you start the Twitter app. Now you need to create another command that will make AdGuard VPN automatically turn off when you close the app.
+現在您有一個新場景：當您啟動 Twitter 應用程式時，AdGuard VPN 將自動啟用。 現在您需要建立另一個命令，使 AdGuard VPN 在您關閉應用程式時自動關閉。
 
-## Configuring AdGuard VPN automatic shutdown
+## 設定 AdGuard VPN 自動關閉
 
-![Instruction. Part 1](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_off1_en.jpg)
+![操作說明。 第1部分](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_off1_en.jpg)
 
-1. In the same *Shortcuts* app start creating a new automation: tap *Automation* → *Create Personal Automation* → *App*.
-2. Make sure that the *Is Closed* option is selected and uncheck the box under the adjacent option. Then tap *Choose*.
+1. 在相同的*捷徑*應用程式中開始創建一個新的自動化：點擊*自動化* → *建立個人自動化* → *應用程式*。
+2. 確保選擇 *已關閉* 選項，並取消選取相鄰選項下方的方塊。 然後點選 *選擇*。
 
-![Instruction. Part 2](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_off2_en.jpg)
-3. Start entering *Twitter* and select the app. Then tap *Done* in the upper right corner of the screen. Tap *Add Action* and select AdGuard VPN.
+![操作說明。 第2部分](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_off2_en.jpg)
+3. 開始輸入 *Twitter* 並選擇應用程式。 然後點選畫面右上角的 *完成* 。 點選 *新增操作* 並選擇 AdGuard VPN。
 
-![Instruction. Part 3](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_off3_en.jpg)
-4. In the new window tap *Set VPN connection*.
-5. Then tap the word *On* so that it changes to the word *Off*, then tap *Next* in the upper right corner of the screen.
-6. Disable the *Ask before running* option and confirm your selection. Then tap *Done* at the top right corner of the screen to complete the process.
+![操作說明。 第3部分](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_off3_en.jpg)
+4. 在新視窗中點選 *設定 VPN 連線*。
+5. 然後點選單字 *On* 使其改為單字 *Off*，然後點選上方的 *Next* 螢幕右上角。
+6. 停用 *運行前詢問* 選項並確認您的選擇。 然後點選畫面右上角的 *完成* 。
 
-Done! AdGuard VPN will now be enabled on your device every time you open the Twitter app, and disabled when you close it. You can repeat the same steps for any other app.
+完成！ 現在，每次開啟 Twitter 應用程式時，AdGuard VPN 都會在您的裝置上啟用，並在您關閉應用程式時停用。 您可以對任何其他應用程式重複相同的步驟。

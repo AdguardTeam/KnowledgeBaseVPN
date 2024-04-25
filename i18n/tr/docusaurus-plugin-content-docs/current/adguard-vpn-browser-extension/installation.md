@@ -5,7 +5,7 @@ sidebar_position: 2
 
 ## AdGuard VPN tarayıcı uzantısı nasıl yüklenir
 
-AdGuard VPN tarayıcı uzantısını yüklemek için şu adımları takip edin:
+AdGuard VPN tarayıcı uzantısını yüklemek için şu adımları izleyin:
 
 1. [adguard-vpn.com](https://adguard-vpn.com/browser-extension/overview.html) adresini ziyaret edin.
 
