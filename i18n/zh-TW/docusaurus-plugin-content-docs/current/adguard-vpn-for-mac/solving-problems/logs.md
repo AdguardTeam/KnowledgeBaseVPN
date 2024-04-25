@@ -1,50 +1,50 @@
 ---
-title: 'How to collect and send logs'
+title: '如何收集和發送日誌'
 sidebar_position: 1
 ---
 
-If you encounter any problems while using AdGuard VPN for Mac, you can inform us about it by sending application logs.
+如果您在使用 AdGuard VPN for Mac 時遇到任何問題，您可以透過傳送應用程式日誌告知我們。
 
-## Collecting and sending standard logs
+## 收集和發送標準日誌
 
-By default, AdGuard VPN for Mac uses the standard logging level, that is, the basic collection of data about running processes of the app. To send these logs, follow the next steps:
+預設情況下，AdGuard VPN for Mac 使用標準日誌記錄級別，即有關應用程式運行進程的基本資料收集。 若要傳送這些日誌，請執行下列步驟：
 
-1. Open AdGuard VPN for Mac and, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
+1. 開啟 AdGuard VPN for Mac，如果可能，請重複導致錯誤的操作。 請記下此錯誤發生的確切時間。
 
-2. Click **Support** (in the menu above) → **Report a bug**.
+2. 點選 **支援** （在上面的選單中）→ **報告錯誤**。
 
-3. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred. If you can't reproduce the problem, specify as accurately as possible when it last occurred.
+3. 在開啟的表單中，輸入您的回饋電子郵件地址並描述發現的錯誤，包括發生此錯誤的時間。 如果您無法重現問題，請盡可能準確地指定上次發生問題的時間。
 
-4. There is a check mark next to the **Send detailed system info**, which means that when you send a report, you also send logs.
-
-:::note
-
-If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, select **Settings** → **General** → **Export logs** in the **Actions** section on the right.
-
-:::
-
-## Collecting and sending extended logs
-
-In most cases, the default logging level is sufficient to trace down possible bugs. But there are cases when more detailed technical information about the device and connections is required, and then our support team will ask you to enable the extended logging level. To send this type of logs, follow these steps:
-
-1. Open AdGuard VPN for Mac and select **Settings** → **General** → **Advanced settings**.
-
-2. In the **Logging level** section, select **Record everything**.
-
-3. Repeat the actions that led to the error, and note the time when it occurred.
-
-4. Switch the logging level back to **Record by default**.
-
-5. Then select **Support** (in the menu above) → **Report a bug**.
-
-6. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred.
-
-7. Make sure that there is a check mark next to **Send detailed system info** and click **Send**.
+4. **傳送詳細系統資訊**旁邊有一個複選標記，這表示當您傳送報告時，您也會傳送日誌。
 
 :::note
 
-If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, select **Settings** → **General** → **Export logs** in the **Actions** section on the right.
+如果出於某種原因您以其他方式向我們發送日誌會更方便，您可以自行匯出它們。 要做到這一點，請在右側的**操作**部分中選擇**設定** → **一般** → **匯出日誌**。
 
 :::
 
-This section is updated regularly. If you have not found a solution to your problem in the articles given in this section, contact AdGuard technical support at support@adguard-vpn.com.
+## 收集和發送擴充日誌
+
+在大多數情況下，預設日誌記錄等級足以追蹤可能的錯誤。 但在某些情況下，需要有關設備和連接的更詳細的技術信息，然後我們的支援團隊會要求您啟用擴展日誌記錄等級。 若要傳送此類日誌，請按照下列步驟操作：
+
+1. 開啟 AdGuard VPN for Mac 並選擇 **設定** → **常規** → **進階設定**。
+
+2. 在 **日誌等級** 部分中，選擇 **記錄所有內容**。
+
+3. 重複導致錯誤的操作，並記下錯誤發生的時間。
+
+4. 將日誌記錄等級切換回 **預設記錄**。
+
+5. 然後選擇 **支援** （在上面的選單中）→ **報告錯誤**。
+
+6. 在開啟的表單中，輸入您的回饋電子郵件地址並描述發現的錯誤，包括發生此錯誤的時間。
+
+7. 確保 **發送詳細系統資訊** 旁邊有複選標記，然後按一下 **傳送**。
+
+:::note
+
+如果出於某種原因您以其他方式向我們發送日誌會更方便，您可以自行匯出它們。 為此，請選擇 **設置** → **常規** → **匯出日誌** 在 **行動** 部分在右側。
+
+:::
+
+此部分會定期更新。 如果您在本節給出的文章中沒有找到問題的解決方案，請透過 support@adguard-vpn.com 聯絡 AdGuard 技術支援。

@@ -3,7 +3,7 @@ title: 'AdGuard VPN nasıl yüklenir'
 sidebar_position: 3
 ---
 
-Hangi AdGuard VPN uygulamasını veya tarayıcı uzantısını yüklemek istediğinize bağlı olarak, ilgili makaleyi bulmak için şu bağlantılardan birini takip edin:
+Hangi AdGuard VPN uygulamasını veya tarayıcı uzantısını yüklemek istediğinize bağlı olarak, ilgili makaleyi bulmak için şu bağlantılardan birini izleyin:
 
 - [Android için AdGuard VPN](/adguard-vpn-for-android/installation)
 - [iOS için AdGuard VPN](/adguard-vpn-for-ios/installation)

@@ -1,59 +1,59 @@
 ---
-title: 'How to use AdGuard VPN in countries with Internet restrictions'
+title: '如何在網路限制的國家/地區使用 AdGuard VPN'
 sidebar_position: 10
 ---
 
-In certain regions, such as China, Iran, and Russia, users might have problems connecting to AdGuard VPN. Here are the options that might help.
+在某些地區，例如中國、伊朗和俄羅斯，用戶可能會在連接 AdGuard VPN 時遇到問題。 以下是可能有幫助的選項。
 
-## Accessing AdGuard VPN’s website
+## 訪問 AdGuard VPN 的網站
 
-If adguard-vpn.com is not accessible, try using the [mirror website](https://adguardvpn-help.com/).
+如果無法存取 adguard-vpn.com，請嘗試使用 [鏡像網站](https://adguardvpn-help.com/)。
 
-:::info
+:::資訊
 
-To avoid potential phishing or malicious websites, only follow mirror links provided in this Knowledge base or by the AdGuard VPN support team.
+為了避免潛在的網路釣魚或惡意網站，請僅造訪本知識庫或 AdGuard VPN 支援團隊提供的鏡像連結。
 
 :::
 
-## Downloading the app
+## 下載應用程式
 
-### AdGuard VPN for iOS
+### 適用於 iOS 的 AdGuard VPN
 
-If don't see AdGuard VPN in your App Store, try changing the country or region in your Apple ID settings:
+如果在您的 App Store 中沒有看到 AdGuard VPN，請嘗試在您的 Apple ID 設定中變更國家或地區：
 
-1. Open the App Store and tap your profile picture.
-1. Tap your name, then tap *Country/Region*.
-1. Tap *Change Country or Region*.
-1. Select a country, then accept the terms and conditions.
+1. 開啟 App Store 並點擊您的個人資料圖片。
+1. 點擊您的名字，然後點擊*國家/地區*。
+1. 點擊*更改國家或地區*。
+1. 選擇一個國家/地區，然後接受條款和條件。
 
-[Alternative ways](https://support.apple.com/en-us/HT201389)
+[替代方法](https://support.apple.com/en-us/HT201389)
 
-After changing the region, [install AdGuard VPN](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602).
+更改區域後， [安裝 AdGuard VPN](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602)。
 
-### AdGuard VPN for Android
+### 適用於 Android 的 AdGuard VPN
 
-If you have problems with Google Play, download the APK file from [AdGuard VPN's mirror website](https://adguardvpn-help.com/android/overview.html).
+如果您在使用 Google Play 時遇到問題，請從 [AdGuard VPN 鏡像網站](https://adguardvpn-help.com/android/overview.html)下載 APK 檔案。
 
-### AdGuard VPN for Mac
+### 適用於 Mac 的 AdGuard VPN
 
-Download the installation file from [AdGuard VPN's mirror website](https://adguardvpn-help.com/windows/overview.html).
+從 [AdGuard VPN 鏡像網站](https://adguardvpn-help.com/windows/overview.html)下載安裝檔。
 
-### AdGuard VPN for Windows
+### 適用於 Windows 的 AdGuard VPN
 
-Download the installation file from [AdGuard VPN's mirror website](https://adguardvpn-help.com/mac/overview.html).
+從 [AdGuard VPN 鏡像網站](https://adguardvpn-help.com/mac/overview.html)下載安裝檔。
 
-## Other useful tips
+## 其他有用的提示
 
-- Always make sure that you are using the latest version of AdGuard VPN, as updates typically include vital fixes and enhancements.
+- 請務必確保您使用的是最新版本的 AdGuard VPN，因為更新通常包括重要的修復和增強功能。
 
-- Use AdGuard VPN’s full-fledged apps instead of browser extensions for a more robust and stable connection.
+- 使用 AdGuard VPN 的成熟應用程式而不是瀏覽器擴充功能來獲得更強大、更穩定的連接。
 
-- If you encounter problems connecting to a particular location, try connecting to another one. If all locations fail to respond, restart the app to refresh the server list.
+- 如果您在連線到特定位置時遇到問題，請嘗試連線到另一個位置。 如果所有位置都無法回應，請重新啟動應用程式以重新整理伺服器清單。
 
-- Try switching between mobile data and Wi-Fi: the problem may be network-specific.
+- 嘗試在行動數據和 Wi-Fi 之間切換：問題可能與網路相關。
 
-- If you use AdGuard VPN alongside AdGuard Ad Blocker on mobile, ensure that the *General* or *VPN* operating mode is selected in the app settings.
+- 如果您在行動版上使用 AdGuard VPN 與 AdGuard 廣告封鎖器，請確保在應用程式設定中選擇*一般*或*VPN*運作模式。
 
-- If you have connectivity issues, do not enable *Use QUIC* in *Advanced settings*.
+- 如果您遇到連線問題，請勿在*進階設定*中啟用*使用 QUIC*。
 
-If all else fails, don't hesitate to reach out to our support team at support@adguard-vpn.com for further assistance.
+如果所有其他方法都失敗，請隨時透過 support@adguard-vpn.com 聯絡我們的支援團隊以獲得進一步協助。

@@ -34,7 +34,7 @@ Bir sonraki sekme, AdGuard VPN'in ana ayırt edici özelliklerinden birini içer
 
 **Genel modda**, AdGuard VPN varsayılan olarak istisna listelerine eklediğiniz siteler dışında tüm sitelerde çalışır. **Seçici modda** tam tersi, AdGuard VPN varsayılan olarak hiçbir yerde çalışmaz. **Genel modda** gördüğünüzden ayrı olarak, çalışmasını istediğiniz siteleri bir istisna listesine ekleyebilirsiniz.
 
-When adding a website to an exclusion list, you can enter the website manually or select the **From the list** option. In the latter case, you’ll see eight categories (for example, *Shopping* or *Messengers*), each suggesting several popular services. You can exclude any of these services in one click. This will add all domains relevant to that specific service to exclusions.
+İstisna listesine bir site eklerken, siteyi elle yazabilir veya **Listeden** seçeneğini belirleyebilirsiniz. İkinci durumda, her biri birkaç popüler hizmet öneren sekiz kategori (örneğin, *Alışveriş* veya *Mesajlaşma*) göreceksiniz. Bu hizmetlerden herhangi birini tek bir tıklamayla hariç tutabilirsiniz. Bu, söz konusu hizmetle ilgili tüm alan adlarını istisnalara ekler.
 
 ### İçe ve dışa aktarma
 

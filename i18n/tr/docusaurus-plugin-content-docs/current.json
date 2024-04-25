@@ -20,7 +20,7 @@
     "description": "The label for category Private DNS in sidebar sidebar"
   },
   "sidebar.sidebar.category.Miscellaneous": {
-    "message": "Çeşitli",
+    "message": "Diğer",
     "description": "The label for category Miscellaneous in sidebar sidebar"
   },
   "sidebar.sidebar.category.AdGuard VPN for Android": {

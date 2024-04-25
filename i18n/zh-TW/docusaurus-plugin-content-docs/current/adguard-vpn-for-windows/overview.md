@@ -1,120 +1,120 @@
 ---
-title: Features overview
+title: 功能概述
 sidebar_position: 1
 ---
 
-## What AdGuard VPN for Windows does
+## AdGuard VPN for Windows 的功能
 
-- Protects from network traffic interception (spoofing). AdGuard VPN creates an encrypted tunnel between your device and a remote server. All your Internet traffic passes through this tunnel, so your data is protected along the way. And thanks to [AdGuard's unique protocol](/general/adguard-vpn-protocol), you're guaranteed a fast and secure connection.
+- 防止網路流量攔截（欺騙）。 AdGuard VPN 在您的裝置和遠端伺服器之間建立加密隧道。 您的所有網路流量都經過此隧道，因此您的資料沿途受到保護。 由於 [AdGuard 獨特的協議](/general/adguard-vpn-protocol)，確保您獲得快速、安全的連接。
 
-- Masks your IP address. Your true IP address is the key to your personal data for cybercriminals. Your name, email address, phone number, credit card information can all fall into the hands of fraudsters if you don't hide your IP. With AdGuard VPN, all your traffic goes through an encrypted tunnel and comes to the VPN server. The web server registers the IP address of the endpoint of the tunnel, i.e. the VPN server, and not the device's real IP address.
+- 偽裝您的 IP 位址. 您的真實 IP 位址是網路犯罪分子獲取您個人資料的關鍵。 如果您不隱藏您的 IP，您的姓名、電子郵件地址、電話號碼、信用卡資料都可能落入詐騙者手中。 透過 AdGuard VPN，您的所有流量都會透過加密隧道到達 VPN 伺服器。 Web 伺服器會註冊隧道端點（即 VPN 伺服器）的 IP 位址，而不是裝置的真實 IP 位址。
 
-- Hides your real location. What does this give you? For example, the ability to book a hotel at locals' rates or hide from geotargeted advertising.
+- 隱藏您的真實位置。 這對你來說意味著什麼？ 例如，能夠以當地人的價格預訂飯店或隱藏地理定位廣告。
 
-AdGuard VPN for Windows has many advantages, so we've dedicated [a separate article](/general/why-adguard-vpn) to them. Here, however, we want to focus more on the application itself and how it works.
+AdGuard VPN for Windows 有很多優點，所以我們專門致力於 [另一篇文章](/general/why-adguard-vpn) 對他們來說。 然而，在這裡，我們希望更多地關注應用程式本身及其工作原理。
 
-## How to start using AdGuard VPN for Windows
+## 如何開始使用 AdGuard VPN for Windows
 
-To start using AdGuard VPN for Windows, download the app from [our website](https://adguard-vpn.com/welcome.html). The installation takes no more than a minute — and you'll see a dialog window where you'll need to check at least one box applying the terms of the User Agreement and the Privacy policy. And it's up to you to decide whether you want AdGuard to collect anonymous data about your app usage. At last the program will ask you to sign in, either via [AdGuard account](https://auth.adguard.com/login.html) or via social networks (Apple, Google, Facebook). That's all, you can now use AdGuard VPN for Windows.
+要開始使用 AdGuard VPN for Windows，請從以下位置下載應用程式 [我們的網站](https://adguard-vpn.com/welcome.html). 安裝過程不會超過一分鐘，您將看到一個對話框窗口，您需要在其中至少選取一個方塊以應用使用者協議和隱私權政策的條款。 您可以決定是否希望 AdGuard 收集有關您的應用程式使用情況的匿名資料。 最後，程式將要求您透過 [AdGuard 帳號](https://auth.adguard.com/login.html) 或社群網路（Apple、Google、Facebook）登入。 就這樣，您現在可以使用 AdGuard VPN for Windows。
 
-## Home screen
+## 主頁
 
-![AdGuard VPN for Windows homepage *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/home_en.jpg)
+![AdGuard VPN for Windows 主頁 *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/home_en.jpg)
 
-The most noticeable item on the **Home screen** is the AdGuard VPN Connect/Disconnect button, below which you can see the selected server. On the right side of the screen you will see a list of available locations. The fastest location, i.e. the one with the lowest ping, is shown at the top of the list. There is also a refresh button that you can click if any locations are offline.
+**主畫面** 上最引人注目的項目是 AdGuard VPN 連線/中斷按鈕，在其下方您可以看到所選的伺服器。 在螢幕右側，您將看到可用位置的清單。 最快的位置（即 ping 值最低的位置）顯示在清單頂部。 如果任何位置處於離線狀態，您也可以按一下刷新按鈕。
 
-At the top of the screen there is a navigation panel with five tabs: **Home**, **Exclusions**, **Stats**, **Support**, and **Settings**.
+螢幕頂部有一個帶有五個選項卡的導航面板： **主頁**、 **排除**、 **統計**、 **支援**和 **設定**。
 
-## Exclusions
+## 排除
 
-By default, AdGuard VPN for WIndows works everywhere. You can add websites and apps you want to exclude from the VPN tunnel to the list of exclusions. Or, you can make AdGuard VPN work only on the websites and apps specified in the list of exclusions. Please note that these two lists are independent of each other.
+By default, AdGuard VPN for Windows works everywhere. 您可以將要從 VPN 隧道中排除的網站和應用程式新增至排除清單。 或者，您可以使 AdGuard VPN 僅在排除清單中指定的網站和應用程式上執行。 請注意，這兩個清單是相互獨立的。
 
-![Exclusions *border](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_new_en.png)
+![排除 *border](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_new_en.png)
 
-You can add websites to exclusions **manually** by entering their domain names. The app also offers you an option to choose popular websites **from the list**.
+您可以通過**手動**輸入其網域名稱來將網站添加到例外。 該應用程式還為您提供了**從清單中**選擇熱門網站的選項。
 
-![Add Exclusions from list *border](https://cdn.adguardvpn.com/content/kb/VPN/windows/new_exclusions_from_list_en.png)
+![從清單中添加排除項 *border](https://cdn.adguardvpn.com/content/kb/VPN/windows/new_exclusions_from_list_en.png)
 
 :::note
 
-When adding domains manually, you should take into account certain details. For example, if you manually exclude the domain `google.com`, all the subdomains `*.google.com` will also be added to the exclusions list. However, domain names with other top-level domains such as `google.es` or `google.it` will not be excluded. Or you can add `youtube.com` to the exclusions, but the domain of the same service `youtu.be` will not be included in the list.
+手動新增網域時，您應該考慮某些細節。 例如，如果您手動排除網域 `google.com`，則所有子網域 `*.google.com` 也會加入排除清單。 不過， `google.es` 或 `google.it` 等其他頂級網域的網域名稱不會被排除在外。 或者您可以將 `youtube.com` 新增至排除項，但相同服務的網域 `youtu.be` 將不會包含在清單中。
 
 :::
 
-We recommend using the **From the list** option. Websites are grouped into eight categories: Social networks, Messengers, Video and Music streaming services, Games, Shopping, Search engines, and Work communication tools. We have placed the most popular services there, including all domain names and subdomains related to each platform.
+我們建議使用 **從清單** 選項。 網站分為八類：社群網路、信差、影片和音樂串流服務、遊戲、購物、搜尋引擎和工作通訊工具。 我們在那裡放置了最受歡迎的服務，包括與每個平台相關的所有網域和子網域。
 
-### Import/export exclusion lists
+### 導入/匯出排除列表
 
-To export the list of exclusions from AdGuard VPN for Windows to your computer, click **Export exclusions**, select the folder where the list will be stored and click **Save**. An archive `exclusions.zip` with two `.txt` files will be downloaded, one for each of the lists. You can edit them by adding new exclusions or deleting old ones.
+將例外清單從AdGuard VPN for Windows匯出到您的電腦，請按一下**匯出例外**，選擇要存儲清單的文件夾，然後按一下**儲存**。 將下載一個存檔 `排除.zip` ，其中包含兩個 `.txt` 文件，每個列表一個。 您可以透過新增新的排除項或刪除舊的排除項來編輯它們。
 
-On the destination device, open AdGuard VPN, click *Exclusions*, and select *Websites* or *Apps*. Click *Import exclusions* and select the received archive.
+在目標裝置上，開啟 AdGuard VPN，點選 *排除*，然後選擇 *網站* 或 *應用程式*。 點選 *匯入排除項* 並選擇收到的檔案。
 
-## Stats
+## 統計數據
 
-![Statistics screen *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/statistics_en.png)
+![統計畫面 *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/statistics_en.png)
 
-The Statistics screen shows detailed information about your data usage, categorized by both location and app. It highlights your most frequently used locations and applications. You can access statistics for different time periods: daily, monthly, or for the entire time you have been using AdGuard VPN for Windows.
+「統計資料」畫面顯示有關您的資料使用情況的詳細信息，按位置和應用程式分類。 它突出顯示您最常用的位置和應用程式。 您可以存取不同時間段的統計資料：每天、每月或您使用 AdGuard VPN for Windows 的整個時間。
 
-Crucially, all this information is stored exclusively on your device, ensuring that only you can view it. Access to the statistics feature is available only to AdGuard VPN subscribers.
+至關重要的是，所有這些資訊都專門儲存在您的裝置上，確保只有您可以查看。 僅 AdGuard VPN 訂閱者可以存取統計功能。
 
-## Settings
+## 設定
 
-![Settings *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/settings_en.png)
+![設定 *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/settings_en.png)
 
-The fourth tab contains sections that will help you customize the app.
+第四個選項卡包含可協助您自訂應用程式的部分。
 
-### App settings
+### 應用程式設定
 
-![App settings *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/app_settings_en.png)
+![應用程式設定 *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/app_settings_en.png)
 
-In the **App settings** section, you can set the app language and also enable **Kill Switch**, which will block access to the Internet if your VPN connection drops. This is needed to prevent intruders from getting to your data if you find yourself without VPN protection while connected to a public Wi-Fi or mobile network.
+在**應用程式設定**部分，您可以設定應用程式語言，並且啟用**終止開關**，如果您的VPN連接中斷，將封鎖對互聯網的訪問。 如果您在連接到公共 Wi-Fi 或行動網路時發現自己沒有 VPN 保護，則需要這樣做以防止入侵者取得您的資料。
 
-You can also activate the following features with a single click: **Auto-update**, **Launch AdGuard VPN at Windows startup**, **Auto-connect on app launch**, and allow AdGuard to collect anonymous app usage data so that the AdGuard team gets the info on potential usability issues. Here you can also change the theme to **Light**, **System**, or **Dark**.
+您也可以透過點擊啟動以下功能： **自動更新**、 **在 Windows 啟動時啟動 AdGuard VPN**、 **自動在應用程式啟動時連接**，並允許AdGuard 收集匿名應用程式使用數據，以便AdGuard 團隊獲取有關潛在可用性問題的資訊。 在這裡您也可以將主題改為 **Light**、 **System**或 **Dark**。
 
-At the bottom of the page there are two sections: **DNS servers** and **Advanced settings**.
+頁面底部有兩個部分： **DNS 伺服器** 和 **進階設定**。
 
-#### DNS servers
+#### DNS 伺服器
 
-The **DNS servers** tab allows you to add your own DNS server — manually or from the list. You can set up a DNS server by any provider. We recommend adding [AdGuard DNS](https://adguard-dns.io/kb/general/dns-providers/#adguard-dns), a server that can protect against advertising, tracking, and phishing, in addition to the standard functions.
+**DNS 伺服器** 標籤可讓您手動或從清單新增自己的 DNS 伺服器。 您可以由任何提供者設定 DNS 伺服器。 我們建議添加 [AdGuard DNS](https://adguard-dns.io/kb/general/dns-providers/#adguard-dns)，這是一個除了標準功能之外還可以防止廣告、追蹤和網路釣魚的伺服器。
 
-#### Advanced settings
+#### 進階設定
 
-It is entirely possible to use AdGuard VPN for Windows without ever touching the Advanced settings, but they can be useful if you're willing to take time to learn what they do.
+完全可以在不接觸進階設定的情況下使用適用於 Windows 的 AdGuard VPN，但如果您願意花時間了解它們的用途，它們會很有用。
 
-##### Operating mode
+##### 運作模式
 
-Despite the fact that there are two operating modes — VPN and SOCKS5 — we advise you to use only the one chosen by default (VPN). When the **VPN mode** is enabled, all the traffic of your device will be directed via AdGuard VPN, while in **SOCKS5 mode** AdGuard VPN uses a local proxy server which can be used by other applications to redirect their traffic.
+儘管有兩種操作模式 — VPN 和 SOCKS5 — 我們建議您僅使用預設選擇的一種 (VPN)。 當 **VPN 模式** 啟用時，您裝置的所有流量將透過 AdGuard VPN 定向，而在 **SOCKS5 模式** AdGuard VPN 使用本地代理伺服器可以被其他應用程式用來重定向其流量。
 
-##### Logging level
+##### 日誌等級
 
-Two levels of logging are available to choose from: **Record by default** and **Record everything**. The first option is enabled by default. The **Record everything** option should only be activated if our support team has asked you to do so. Using the app in this mode for an extended period of time result in increased battery consumption.
+有兩種記錄等級可供選擇： **預設記錄** 和 **記錄所有內容**。 預設啟用第一個選項。 只有當我們的支援團隊要求您這樣做時，才應啟動 **記錄一切** 選項。 在此模式下長時間使用應用程式會導致電池消耗增加。
 
-All logs are stored locally on your device, and you can send them to the support team if needed.
+所有日誌都儲存在您的裝置本機，如果需要，您可以將它們傳送給支援團隊。
 
-##### Use QUIC
+##### 使用 QUIC
 
-This is an experimental feature that enables AdGuard to use the advanced QUIC encryption protocol. It has many advantages, but the most notable one is that it can improve connection quality under non-ideal conditions, for example, when using mobile Internet or when connecting to public Wi-Fi networks.
+這是一項實驗性功能，使 AdGuard 能夠使用高級 QUIC 加密協定。 它有很多優點，但最值得注意的是，它可以提高非理想條件下的連接質量，例如使用行動互聯網或連接公共 Wi-Fi 網路時。
 
-#### Use WinTun
+#### 使用 Wintun
 
-![Use WinTun *border](https://cdn.adtidy.org/content/release_notes/vpn/windows/v2.2/stats_tab_v2.2_en.png)
+![使用 WinTun *border](https://cdn.adtidy.org/content/release_notes/vpn/windows/v2.2/stats_tab_v2.2_en.png)
 
-WinTun is a traffic routing driver commonly used for VPN implementations on Windows that improves the quality of VPN connections by creating a virtual network adapter. By default AdGuard VPN uses the regular WFP driver (and TDI driver for Windows 7).
+WinTun 是一種流量路由驅動程序，通常用於 Windows 上的 VPN 實現，它透過建立虛擬網路適配器來提高 VPN 連接的品質。 預設情況下，AdGuard VPN 使用常規 WFP 驅動程式（以及 Windows 7 的 TDI 驅動程式）。
 
-#### Subnet exclusions
+#### 子網路排除
 
-This feature allows you to add subnets to exclude traffic from specific devices connected to your network. For example, your robot vacuum cleaner.
+此功能可讓您新增子網路以排除來自連接到網路的特定裝置的流量。 例如，您的機器人吸塵器。
 
-## Other tabs
+## 其它分頁
 
-### About
+### 關於
 
-The **About** tab provides information about the current version of AdGuard VPN for Windows, an update button, and links to the AdGuard VPN website, EULA, and Privacy policy.
+**關於** 標籤提供有關 Windows 版 AdGuard VPN 目前版本的資訊、更新按鈕以及 AdGuard VPN 網站、EULA 和隱私權政策的連結。
 
-### Account
+### 帳戶
 
-Here you can find information about your license status, as well as a link to your personal AdGuard account, where you can manage your current subscriptions and purchase new ones.
+在這裡，您可以找到有關您的許可證狀態的信息，以及您的個人 AdGuard 帳戶的鏈接，您可以在其中管理當前的訂閱併購買新的訂閱。
 
-## Support
+## 支援
 
-This tab is aimed to solve users' questions: there you can find a link to the FAQ page, report a bug or leave feedback, and export logs if the support team asks you to.
+此標籤旨在解決使用者的問題：您可以在其中找到常見問題解答頁面的連結、報告錯誤或留下回饋，以及在支援團隊要求時匯出日誌。

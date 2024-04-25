@@ -1,28 +1,28 @@
 ---
-title: 'AdGuard VPN 使用甚麼類型的加密？'
+title: 'AdGuard VPN中使用了哪種型別的加密'
 sidebar_position: 7
 ---
 
-## 引言
+## 介紹
 
-加密是令「虛擬私人網路」變得「私人」的原因。 A VPN creates a tunnel between your device and a VPN server, that encrypts and transmits your data securely to the open Internet. 加密過程，即將數據變成任何人都無法讀取的亂碼，對於任何 VPN服務都必不可少。
+加密是“虛擬私人網路”一詞中存在“私人”一詞的原因。 VPN在您的裝置和VPN伺服器之間建立一個隧道，透過該隧道，您的資料被加密，然後安全地傳輸到開放的網際網路。 加密過程，即將資料變成任何攔截者都無法讀取的亂碼，對於任何 VPN 服務都是至關重要的。
 
-The AdGuard VPN protocol uses the most secure and fast encryption algorithm to date — AES-256. 了解它是甚麼以及它為何如此出色。
+AdGuard VPN協議使用迄今為止最安全、最快速的加密演算法——AES-256。 了解它是什麼以及為什麼它如此出色。
 
-## AES的歷史
+## AES歷史之旅
 
-AES (進階加密標準) 加密在20世紀末期於美國被開發。 由於當時的數據加密標準 (DES) 已過時，因此需要一種新的、更安全的密碼演算法。
+AES（高級加密標準）加密技術於 20 世紀末在美國開發 政府要求：現有的資料加密標準 (DES) 已過時，需要一種新的、更安全的加密演算法。
 
-在政府的公開競賽中勝出的 Rijndael加密法——與 DES 非常相似，但更複雜。 2002年更名為AES，並由美國 國家標準技術研究所發布。
+在政府宣布的公開競賽中，Rijndael 密碼獲勝，該密碼與 DES 非常相似，但更為複雜。 2002年更名為AES並由美國 國家標準與技術研究所發布。
 
-如今，AES 已經成為加密的業界標準。 由於其開放性，它被美國國家安全局和政府機構以及私營、商業和非牟利組織採用。
+如今，AES 已成為加密的業界標準。 由於其開放性，它被美國國家安全局和政府機構以及私人、商業和非營利組織使用。
 
 ## AES-256 的工作原理
 
-AES is a block cipher with a symmetric key. As a symmetric-key cipher, it requires only one secret key to encrypt and decrypt the data. As a block cipher, AES divides the unencrypted information, which is called plaintext, into blocks, splits the original cryptographic key into several ones and applies them to each block. In the end, a ciphertext, i.e. an encrypted text, is obtained.
+AES 是一種具有對稱金鑰的分組密碼。 作為一種對稱密鑰密碼，它只需要一個密鑰來加密和解密資料。 作為分組密碼，AES 將未加密的資訊（稱為明文）劃分為多個區塊，將原始金鑰拆分為多個區塊並將其應用於每個區塊。 最後得到密文，即加密後的文字。
 
-There are different key sizes — 128, 192 and 256 bits — and the blocks are also measured in bits. During the encryption process, the encryptor replaces each piece of information with another, depending on the security key. So, for example, AES-256 creates 256 blocks of ciphertext from 256 blocks of plaintext in 14 rounds.
+有不同的密鑰大小 - 128、192 和 256 位元 - 並且區塊也以位元為單位進行測量。 在加密過程中，加密器會根據安全金鑰將每個資訊替換為另一個訊息。 例如，AES-256 在 14 輪中從 256 個明文區塊建立 256 個密文區塊。
 
-The rounds consist of several steps: splitting the data into blocks, swapping bytes, shifting rows and rearranging columns. The result is a completely random set of characters that will only make sense when using the right encryption key.
+這些回合由幾個步驟組成：將資料分割成區塊、交換位元組、移動行和重新排列列。 結果是一組完全隨機的字符，只有在使用正確的加密密鑰時才有意義。
 
-AES-256 is the strongest level of encryption: to break this cipher, 2256 discrete combinations, each consisting of 78 digits, would have to be tried.
+AES-256 是最強等級的加密：要破解此密碼，必須嘗試 2256 個離散組合，每個組合由 78 位數組成。

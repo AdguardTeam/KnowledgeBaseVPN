@@ -1,13 +1,13 @@
 ---
-title: 'How to install AdGuard VPN'
+title: '如何安裝 AdGuard VPN'
 sidebar_position: 3
 ---
 
-Depending on which AdGuard VPN app or browser extension you want to install, follow one of these links to find the relevant article:
+根據您要安裝的 AdGuard VPN 應用程式或瀏覽器擴充程序，請點擊以下連結之一以查找相關文章：
 
-- [AdGuard VPN for Android](/adguard-vpn-for-android/installation)
-- [AdGuard VPN for iOS](/adguard-vpn-for-ios/installation)
-- [AdGuard VPN for Windows](/adguard-vpn-for-windows/installation)
-- [AdGuard VPN for Mac](/adguard-vpn-for-mac/installation)
-- [AdGuard VPN Browser Extension](/adguard-vpn-browser-extension/installation)
-- [AdGuard VPN for routers](/general/set-up-adguard-vpn-on-your-router/)
+- [適用於 Android 的 AdGuard VPN](/adguard-vpn-for-android/installation)
+- [適用於 iOS 的 AdGuard VPN](/adguard-vpn-for-ios/installation)
+- [適用於 Windows 的 AdGuard VPN](/adguard-vpn-for-windows/installation)
+- [適用於 Mac 的 AdGuard VPN](/adguard-vpn-for-mac/installation)
+- [AdGuard VPN 瀏覽器擴充](/adguard-vpn-browser-extension/installation)
+- [適用於路由器的 AdGuard VPN](/general/set-up-adguard-vpn-on-your-router/)

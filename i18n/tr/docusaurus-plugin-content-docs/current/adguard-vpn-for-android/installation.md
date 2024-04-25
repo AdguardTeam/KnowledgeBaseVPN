@@ -9,7 +9,7 @@ AdGuard VPN, yalnızca **Android 7.0 veya sonraki sürümlere sahip** Android ci
 
 ## Android için AdGuard VPN nasıl yüklenir
 
-Android için AdGuard VPN uygulamasını Google Play'den ücretsiz olarak yükleyebilirsiniz. Bunu yapmak için [bu bağlantıyı](https://play.google.com/store/apps/details?id=com.adguard.vpn) takip edin ve *Yükle* öğesine dokunun veya birkaç basit adımı izleyin:
+Android için AdGuard VPN uygulamasını Google Play'den ücretsiz olarak yükleyebilirsiniz. Bunu yapmak için [bu bağlantıyı](https://play.google.com/store/apps/details?id=com.adguard.vpn) izleyin ve *Yükle* öğesine dokunun veya birkaç basit adımı izleyin:
 
 1. Cihazınızda *Google Play* uygulamasını açın ve ekranın üst kısmındaki* Ara* öğesine dokunun.
 

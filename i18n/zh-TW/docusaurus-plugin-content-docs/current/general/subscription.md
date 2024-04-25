@@ -1,28 +1,28 @@
 ---
-title: How to subscribe
+title: 如何訂閱
 sidebar_position: 6
 ---
 
-AdGuard VPN is available in two versions — a free and a paid one. The subscription allows you to use the app without any restrictions on traffic, connection speed and the choice of locations. [Read more about all the advantages of AdGuard VPN Unlimited](/general/free-vs-unlimited).
+AdGuard VPN 有兩種版本：免費版本和付費版本。 訂閱後，您可以在不受流量、連線速度和位置選擇限制的情況下使用該應用程式。 [詳細了解 AdGuard VPN Unlimited 的所有優點](/general/free-vs-unlimited)。
 
-## How to purchase a subscription
+## 如何購買訂閱
 
-If you have decided to purchase a subscription to AdGuard VPN, there are two ways to do this:
+如果您決定購買 AdGuard VPN 訂閱，有兩種方法可以實現：
 
-1. Via an in-app purchase. Go to the AdGuard VPN app and tap the arrow in the upper right corner of the screen. Select the most suitable subscription plan and tap *Subscribe*. This option is available for AdGuard VPN mobile apps for iOS and Android.
-2. On [our website](https://adguard-vpn.com/license.html). There are three subscription plans to choose from — monthly, 1-year, and 2-year. Choose the one that suits you best and enter the email address that will be associated with your subscription. You can pay for your subscription using your bank card, PayPal account, or cryptocurrency.
+1. 透過應用程式內購買。 前往 AdGuard VPN 應用程序，然後點擊螢幕右上角的箭頭。 選擇最適合的訂閱方案並點選 *訂閱*。 此選項適用於 iOS 和 Android 的 AdGuard VPN 行動應用程式。
+2. 在[我們的網站](https://adguard-vpn.com/license.html)。 有三種訂閱方案可供選擇：每月、1 年和 2 年。 選擇最適合您的選項，並輸入將與您的訂閱關聯的電子郵件地址。 您可以使用銀行卡、PayPal 帳戶或加密貨幣支付訂閱費用。
 
-## How to cancel a subscription
+## 如何取消訂閱
 
-The subscription can be canceled in your AdGuard account. To cancel your subscription:
+可以在您的 AdGuard 帳戶中取消訂閱。 若要取消您的訂閱：
 
- 1. In your AdGuard account, go to [Licenses](https://my.adguard.com/account/licenses).
- 1. Click *Cancel subscription* below the subscription you no longer need.
+ 1. 在您的 AdGuard 帳戶中，前往 [授權](https://my.adguard.com/account/licenses)。
+ 1. 點擊您不再需要的訂閱下方的 *取消訂閱* 。
 
-The canceled subscription will remain valid until its expiry date.
+取消的訂閱將保持有效直到到期日。
 
-:::note
+:::筆記
 
-Subscriptions purchased on the App Store can be managed in your Apple ID.
+在 App Store 上購買的訂閱可以在您的 Apple ID 中進行管理。
 
 :::

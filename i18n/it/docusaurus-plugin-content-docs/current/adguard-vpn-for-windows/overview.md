@@ -27,7 +27,7 @@ At the top of the screen there is a navigation panel with five tabs: **Home**, *
 
 ## Esclusioni
 
-Per impostazione predefinita, AdGuard VPN per Windows funziona ovunque. Puoi aggiungere i siti web e le app che desideri escludere dal tunnel VPN all'elenco delle esclusioni. In alternativa, puoi far funzionare AdGuard VPN solo sui siti Web e sulle app specificati nell'elenco delle esclusioni. Ti preghiamo di notare che questi due elenchi sono indipendenti tra loro.
+By default, AdGuard VPN for Windows works everywhere. Puoi aggiungere i siti web e le app che desideri escludere dal tunnel VPN all'elenco delle esclusioni. In alternativa, puoi far funzionare AdGuard VPN solo sui siti Web e sulle app specificati nell'elenco delle esclusioni. Ti preghiamo di notare che questi due elenchi sono indipendenti tra loro.
 
 ![Esclusioni *confine](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_new_en.png)
 
