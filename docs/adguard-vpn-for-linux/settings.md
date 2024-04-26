@@ -5,7 +5,7 @@ sidebar_position: 4
 
 You can manage AdGuard VPN for Linux settings from the command line. To view the current configuration, type:
 
-    `adguardvpn-cli config show`.
+    `adguardvpn-cli config show`
 
 ## VPN mode: TUN or SOCKS5
 
@@ -13,11 +13,11 @@ You can choose how AdGuard VPN routes traffic.
 
 To set the default tunnel mode, type:
 
-    `adguardvpn-cli config set-mode TUN`.
+    `adguardvpn-cli config set-mode TUN`
 
 To set the SOCKS5 mode, type:
 
-    `adguardvpn-cli config set-mode SOCKS`.
+    `adguardvpn-cli config set-mode SOCKS`
 
 To set the SOCKS5 port, type:
 
@@ -61,7 +61,7 @@ and enter the preferred update channel.
 
 AdGuard VPN can show you hints after executing commands — for example, what to do next or how to fix an error. This setting is enabled by default but you can disable it by typing:
 
-    `adguardvpn-cli config set-show-hints off`.
+    `adguardvpn-cli config set-show-hints off`
 
 To re-enable it, replace `off` with `on`.
 
@@ -69,6 +69,6 @@ To re-enable it, replace `off` with `on`.
 
 To report a bug, you may need to share debug logs with the developers or support team. To enable debug logging, type:
 
-    `adguardvpn-cli config set-debug-logging on`.
+    `adguardvpn-cli config set-debug-logging on`
 
 Disable this setting after exporting logs.
