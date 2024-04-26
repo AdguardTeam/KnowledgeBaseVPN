@@ -35,9 +35,9 @@ and enter the address of your DNS server. To use this DNS server at the system l
 
     `adguardvpn-cli config set-system-dns on`
 
-## No-routes mode
+## No-route mode
 
-This feature routes only your specified addresses through the VPN tunnel. To enable the no-routes mode, type:
+This feature routes only your specified addresses through the VPN tunnel. To enable the no-route mode, type:
 
     `adguardvpn-cli config set-no-routes on`
 
