@@ -7,7 +7,7 @@ sidebar_position: 3
 
 To log in or create an account, type:
 
-    `adguardvpn-cli login`
+    adguardvpn-cli login
 
 Enter the email address and password for your AdGuard account. If you don’t have an account yet, you’ll be prompted to create one.
 
@@ -17,25 +17,25 @@ You can also create an AdGuard account on our [website](https://auth.adguard.com
 
 To log out of AdGuard VPN, type:
 
-    `adguardvpn-cli logout`
+    adguardvpn-cli logout
 
 ## Connect to VPN
 
 For quick connection, type:
 
-    `adguard-vpn cli connect`
+    adguard-vpn cli connect
 
 AdGuard VPN will connect to the fastest available or the last used location.
 
 To view available locations, type:
 
-    `adguardvpn-cli list-locations`
+    adguardvpn-cli list-locations
 
 To connect to a specific location, type:
 
-    `adguardvpn-cli connect -l`
+    adguardvpn-cli connect -l <location>
 
-and enter a city name from the location list.
+Replace `<location>` with the city, country, or ISO code of the location you want to connect to.
 
 If required, enter your admin password.
 
@@ -43,4 +43,4 @@ If required, enter your admin password.
 
 To check for updates, type:
 
-    `adguardvpn-cli check-update`
+    adguardvpn-cli check-update
