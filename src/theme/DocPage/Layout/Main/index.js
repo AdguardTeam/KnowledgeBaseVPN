@@ -1,6 +1,6 @@
 import React from 'react';
 import clsx from 'clsx';
-import {useDocsSidebar} from '@docusaurus/theme-common/internal';
+import {useDocsSidebar} from '@docusaurus/theme-common';
 import styles from './styles.module.scss';
 import StickyBar from '../../../StickyBar/StickyBar';
 
