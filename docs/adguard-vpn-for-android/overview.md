@@ -52,10 +52,10 @@ If you add `youtube.com` to exclusions, the domain of the same service `youtu.be
 As you can enable subdomains in service lists, we added boxes that reflect the status of each service:
 
 - **Fully enabled** is indicated by a white check mark on a green background
-- **Partially enabled** (enabled subdomains without the main domain) is marked with a square on a white background
+- **Partially enabled** (enabled subdomains without the main domain) is marked with a green square on a white background
 - **Fully disabled** is marked with a blank checkbox
 
-![Website exclusions *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/websites.jpg)
+![Website exclusions *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/websites.png)
 
 If you’ve accidentally deleted a domain or subdomain, just tap *Reset to default*.
 
