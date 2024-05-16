@@ -49,7 +49,7 @@ If you add `youtube.com` to exclusions, the domain of the same service `youtu.be
 
 :::
 
-As you can enable subdomains in service lists, we added boxes that reflect the status of each service:
+Since you can enable subdomains in service lists, we added boxes that reflect the status of each service:
 
 - **Fully enabled** is indicated by a white check mark on a green background
 - **Partially enabled** (enabled subdomains without the main domain) is marked with a green square on a white background
