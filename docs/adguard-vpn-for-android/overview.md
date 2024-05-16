@@ -63,7 +63,7 @@ If you’ve accidentally deleted a domain or subdomain, just tap *Reset to defau
 
 ### Apps
 
-You can also manage VPN for apps. To exclude an app from the VPN tunnel, click *Add app*. To use VPN **selectively**, tap *Change mode*.
+You can also manage VPN for apps. To exclude an app from the VPN tunnel, tap *Add app*. To use VPN **selectively**, tap *Change mode*.
 
 ![App exclusions *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/apps.jpg)
 
