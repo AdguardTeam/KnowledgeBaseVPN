@@ -11,28 +11,32 @@ sidebar_position: 2
 
 1. 打开 AdGuard VPN 安卓版，如果可以，请您重复导致错误的操作。 请记下发生此错误的确切时间。
 
-2. 单击右下角的齿轮图标，打开「**设置**」→「**支持**」→「**报告错误**」。
+1. Open *Settings* → *Support* → *Report a bug*.
 
-3. 在打开的表单中，输入您的电子邮件地址以获取反馈，然后描述发现的错误，包括该错误发生的时间。 如果您无法重复问题，请尽可能准确地指明上次发生的时间。
+1. 在打开的表单中，输入您的电子邮件地址以获取反馈，然后描述发现的错误，包括该错误发生的时间。 If you can’t reproduce the problem, specify as accurately as possible when it last occurred.
 
-4. 勾选「**发送应用日志和系统信息**」旁边的复选框，您会在发送报告时一同发送日志。
-> 如果出于某种原因，您以其他方式向我们发送日志更方便，您可以自己导出它们。 要做到这一点，请进入「**设置**」→「**支持**」→「**导出日志和系统信息**」。
+1. Check *Send app logs and system info*. Your logs will be sent along with the report.
+
+:::note
+
+You can also export and send logs manually. To do this, go to *Settings* → *General* → *Advanced* and tap *Export logs and system info*.
+
+:::
 
 ## 收集和发送进阶日志
 
 在大多数情况下， **默认**日志记录级别足以追踪发生的错误。 但在某些情况下，需要有关设备和连接的更详细技术信息，然后我们的支持团队会要求您启用**进阶**或**极端**日志记录级别。 要发送这些类型的日志，请执行以下步骤：
 
-1. 打开 AdGuard VPN 安卓版并选择「**设置**」（右下角的齿轮图标）→「**应用设置**」→「**高级设置**」→「**记录级别**」。
+1. Open AdGuard VPN for Android and select *Settings* (the gear icon at the bottom right corner) → *General* → *Advanced* → *Logging level*.
 
-2. 在**记录级别**部分中，选择**进阶**或**极端**日志记录级别。
+1. Select *Extended* or *Extreme*.
 
-3. 重复导致错误的操作，并记下错误发生的时间。
+1. 重复导致错误的操作，并记下错误发生的时间。
 
-4. 将日志记录级别切换回**默认**。
+1. Switch the logging level back to *Default*.
 
-5. 然后单击右下角的齿轮图标，打开「**设置**」→「**支持**」→「**报告错误**」。
+1. Return to *Settings* and open *Support*. Tap *Report a bug*.
 
-6. 在打开的表单中，输入您的电子邮件地址以获取反馈，然后描述发现的错误，包括该错误发生的时间。
+1. In the form that opens, enter your email address for feedback and describe the error you found, including the time when it occurred.
 
-7. 确保勾选上「**发送应用日志和系统信息**」旁边的复选框，然后点击「**发送**」。
-> 如果出于某种原因，您以其他方式向我们发送日志更方便，您可以自己导出它们。 要做到这一点，请进入「**设置**」→「**支持**」→「**导出日志和系统信息**」。
+1. Check mark next to *Send app logs and system info* and tap *Send*.

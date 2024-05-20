@@ -3,7 +3,7 @@ title: E-postamı Gizle nasıl kullanılır
 sidebar_position: 5
 ---
 
-Apple’s *Hide My Email* feature is a great tool to keep your real email address private when signing up for websites and apps that use Apple ID. Özel yazışmalar için bile kullanabilir ve gelen tüm mesajları normal bir e-posta hesabında yaptığınız gibi yönetebilirsiniz. Bu şekilde, gizliliğinizi koruyabilir ve gerçek e-posta adresinizi meraklı gözlerden uzak tutabilirsiniz.
+Apple'ın *E-postamı Gizle* özelliği, Apple ID kullanan sitelere ve uygulamalara kaydolurken gerçek e-posta adresinizi gizli tutmak için harika bir araçtır. Özel yazışmalar için bile kullanabilir ve gelen tüm mesajları normal bir e-posta hesabında yaptığınız gibi yönetebilirsiniz. Bu şekilde, gizliliğinizi koruyabilir ve gerçek e-posta adresinizi meraklı gözlerden uzak tutabilirsiniz.
 
 :::note
 

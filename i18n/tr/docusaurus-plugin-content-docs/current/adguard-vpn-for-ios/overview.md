@@ -5,7 +5,7 @@ sidebar_position: 1
 
 ## iOS için AdGuard VPN nedir?
 
-VPN, İnternet üzerindeki başka bir ağa güvenli bir bağlantı oluşturmanızı sağlar. Bir kullanıcının bilgisayarını veya mobil cihazını bir sunucuya bağlar ve kişinin "gizli" bir IP adresi kullanarak internette gezinmesine olanak tanır. If the VPN server is located in another country, it will appear as if your Internet connection was established from this country. Daha fazla ayrıntı için [VPN'in nasıl çalıştığına dair makalemize](/general/how-vpn-works) göz atabilirsiniz.
+VPN, İnternet üzerindeki başka bir ağa güvenli bir bağlantı oluşturmanızı sağlar. Bir kullanıcının bilgisayarını veya mobil cihazını bir sunucuya bağlar ve kişinin "gizli" bir IP adresi kullanarak internette gezinmesine olanak tanır. VPN sunucusu başka bir ülkede bulunuyorsa, internet bağlantısı bu ülkeden kurulmuş gibi görünür. Daha fazla ayrıntı için [VPN'in nasıl çalıştığına dair makalemize](/general/how-vpn-works) göz atabilirsiniz.
 
 AdGuard VPN'in çeşitli işlevleri vardır:
 
@@ -22,7 +22,7 @@ iOS için AdGuard VPN'i kullanmak için önce [AdGuard hesabınıza](https://my.
 
 Henüz bir AdGuard hesabınız yoksa, önce hesap oluşturmanız gerekir.
 
-AdGuard VPN'i kullanmak oldukça kolaydır. On the main screen you can see the *Connect* (*Disconnect*) button and the list of available servers (we call them *locations*). Her sunucunun kendi konumu (belirli bir ülke ve şehir) ve ping göstergesi vardır.
+AdGuard VPN'i kullanmak oldukça kolaydır. Ana ekranda *Bağlan* (*Bağlantıyı kes*) düğmesini ve kullanılabilir sunucuların listesini görebilirsiniz (onları *konumlar* olarak adlandırıyoruz). Her sunucunun kendi konumu (belirli bir ülke ve şehir) ve ping göstergesi vardır.
 
 Ping, sunucunun yanıt süresini milisaniye cinsinden gösterir. Bu, o konuma bağlandığınızda VPN bağlantısının ne kadar hızlı olacağını gösterir. Ping değeri 22 ms olan bir sunucunun seçilmesi, bu sunucuya gönderilen bir veri paketinin 22 ms içinde geri döneceği anlamına gelir.
 
@@ -34,9 +34,9 @@ AdGuard VPN ile onlarca ülkede 50'den fazla konum arasından seçim yapabilirsi
 
 Alt çubuktaki ikinci simgeye dokunarak İstisnalar sekmesini bulabilirsiniz. Burada, *Normal* ve *Seçici* modlar için iki istisna listeleri göreceksiniz.
 
-In *Regular* mode, the VPN works for all websites except the excluded ones. Tam tersine, *Seçici* modda VPN yalnızca listedeki siteler için çalışır.
+*Normal* modda VPN, hariç tutulanlar dışındaki tüm siteler için çalışır. Tam tersine, *Seçici* modda VPN yalnızca listedeki siteler için çalışır.
 
-You can add domains (e.g., `google.com`) or subdomains (e.g., `*.google.com`) of websites to the lists in two ways:
+Sitelerin alan adlarını (örn. `google.com`) veya alt alan adlarını (örn. `*.google`.com) listelere iki şekilde ekleyebilirsiniz:
 
 - Bunları uygulamaya elle girin
 - İstediğiniz sayfaları AdGuard VPN ile paylaşarak bunları doğrudan tarayıcıdan ekleyin

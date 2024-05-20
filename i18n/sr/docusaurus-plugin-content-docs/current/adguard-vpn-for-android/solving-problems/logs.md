@@ -11,28 +11,32 @@ Po podrazumevanoj vrednosti, AdGuard VPN za Android koristi **Podrazumevani** ni
 
 1. Otvorite AdGuard VPN za Android i, ako je moguće, ponovite radnje koje su dovele do greške. Zabeležite tačno vreme kada je došlo do ove greške.
 
-2. Otvorite **Postavke** klikom na ikonu zupčanika u donjem desnom uglu → **Podrška** → **Prijavite grešku**.
+1. Open *Settings* → *Support* → *Report a bug*.
 
-3. U otvoreni obrazac unesite e-adresu za povratne informacije i opišite pronađenu grešku, uključujući i vreme kada je došlo do ove greške. Ako ne možete da reprodukujete problem, navedite što preciznije kada se poslednji put dogodio.
+1. U otvoreni obrazac unesite e-adresu za povratne informacije i opišite pronađenu grešku, uključujući i vreme kada je došlo do ove greške. If you can’t reproduce the problem, specify as accurately as possible when it last occurred.
 
-4. There is a check mark next to **Send app logs and system info**, which means that when you send a report, you also send logs.
-> Ako vam je iz nekog razloga zgodnije da nam evidencije šaljete na drugi način, možete ih sami izvesti. Da biste to uradili, idite na **Postavke** → **Podrška** → **Izvoz evidencija i sistemskih informacija**.
+1. Check *Send app logs and system info*. Your logs will be sent along with the report.
+
+:::note
+
+You can also export and send logs manually. To do this, go to *Settings* → *General* → *Advanced* and tap *Export logs and system info*.
+
+:::
 
 ## Prikupljanje i slanje proširenih evidencija
 
 U većini slučajeva, **Podrazumevani** nivo vođenja evidencije je dovoljan da bi se ušlo u trag mogućim greškama. Ali postoje slučajevi kada su potrebne detaljnije tehničke informacije o uređaju i vezama, a onda će naš tim za podršku zatražiti od vas da omogućite **Prošireni** Ili **Ekstremni** nivo evidentiranja. Da biste poslali ove tipove evidencija, sledite ove korake:
 
-1. Otvorite AdGuard VPN za Android i izaberite **Postavke** (ikona zupčanik u donjem desnom uglu) → **Postavke aplikacije** → **Napredne postavke** → **Nivo vođenja evidencije**.
+1. Open AdGuard VPN for Android and select *Settings* (the gear icon at the bottom right corner) → *General* → *Advanced* → *Logging level*.
 
-2. U **Nivo vođenja evidencije** izaberite **Prošireni** Ili **Ekstremni** nivo evidentiranja.
+1. Select *Extended* or *Extreme*.
 
-3. Ponovite radnje koje su dovele do greške i zabeležite vreme kada je do nje došlo.
+1. Ponovite radnje koje su dovele do greške i zabeležite vreme kada je do nje došlo.
 
-4. Vratite nivo vođenja evidencije na **Podrazumevani**.
+1. Switch the logging level back to *Default*.
 
-5. Onda otvorite **Postavke** tapkanjem ikone zupčanik u donjem desnom uglu → **Podrška** → **Prijavite grešku**.
+1. Return to *Settings* and open *Support*. Tap *Report a bug*.
 
-6. U otvoreni obrazac unesite e-adresu za povratne informacije i opišite pronađenu grešku, uključujući i vreme kada je došlo do ove greške.
+1. In the form that opens, enter your email address for feedback and describe the error you found, including the time when it occurred.
 
-7. Make sure that there is a check mark next to **Send app logs and system info** and tap **Send**.
-> Ako vam je iz nekog razloga zgodnije da nam evidencije šaljete na drugi način, možete ih sami izvesti. Da biste to uradili, idite na **Postavke** → **Podrška** → **Izvoz evidencija i sistemskih informacija**.
+1. Check mark next to *Send app logs and system info* and tap *Send*.

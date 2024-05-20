@@ -41,9 +41,9 @@ Bazen destek ekibimiz sizden izleme günlüklerini göndermenizi isteyebilir. Bu
 
 1. Run the application with the command `C:\"Program Files (x86)"\AdGuardVpn\AdGuardVpnSvc.exe /trace` if you are using 64-bit Windows, and `C:\"Program Files"\AdGuardVpn\AdGuardVpnSvc.exe /trace` if you are using 32-bit.
 
-1. Sorunu yeniden oluşturun. We strongly recommend that you note the exact time when you reproduce the problem: this will help our support team to find relevant log entries and resolve the problem faster.
+1. Sorunu yeniden oluşturun. Sorunu yeniden oluşturduğunuz zamanı tam olarak not etmenizi önemle tavsiye ederiz: bu, destek ekibimizin ilgili günlük girdilerini bulmasına ve sorunu daha hızlı çözmesine yardımcı olur.
 
-1. Export the recorded logs: **Support** → **Export logs and system info**.
+1. Kaydedilen günlükleri dışa aktarın: **Destek** → **Günlükleri ve sistem bilgisini dışa aktar**.
 
 Günlük dosyanız büyükse endişelenmeyin. Sorununuzu çözebilmek için mümkün olduğunca çok ayrıntı bilmemiz gerekiyor.
 
@@ -55,7 +55,7 @@ Günlükleri destek ekibimize göndermek için lütfen sonraki adımları izleyi
 
     ![Hata bildir *border](https://cdn.adtidy.org/content/kb/vpn/windows/logs/support_report.jpeg)
 
-1. Açılan forma e-posta adresinizi girin ve bulduğunuz hatayı, meydana geldiği zaman da dahil olmak üzere açıklayın. If you can't reproduce the problem, be as specific as possible about when it last occurred.
+1. Açılan forma e-posta adresinizi girin ve bulduğunuz hatayı, meydana geldiği zaman da dahil olmak üzere açıklayın. Sorunu yeniden oluşturamıyorsanız, en son ne zaman oluştuğuna dair olabildiğince açık olun.
 
     ![Report *border](https://cdn.adtidy.org/content/kb/vpn/windows/logs/report_bug.png)
 

@@ -11,28 +11,32 @@ Varsayılan olarak, Android için AdGuard VPN **Varsayılan** günlük kayıt d�
 
 1. Android için AdGuard VPN'i açın ve mümkünse hataya neden olan işlemleri tekrarlayın. Bu hatanın oluştuğu tam zamana dikkat edin.
 
-2. Sağ alt köşedeki dişli çark simgesine tıklayarak **Ayarlar** → **Destek** → **Hata bildir** öğesini açın.
+1. Open *Settings* → *Support* → *Report a bug*.
 
-3. Açılan formda, geri bildirim için e-posta adresinizi girin ve bulunan hatayı, bu hatanın oluştuğu zaman da dahil olmak üzere açıklayın. Sorunu yeniden oluşturamıyorsanız, en son ne zaman oluştuğunu olabildiğince doğru bir şekilde belirtin.
+1. Açılan formda, geri bildirim için e-posta adresinizi girin ve bulunan hatayı, bu hatanın oluştuğu zaman da dahil olmak üzere açıklayın. If you can’t reproduce the problem, specify as accurately as possible when it last occurred.
 
-4. **Uygulama günlüklerini ve sistem bilgilerini gönder** öğesinin yanında bir onay işareti vardır; bu, bir rapor gönderdiğinizde günlükleri de göndereceğiniz anlamına gelir.
-> Herhangi bir nedenle bize günlükleri başka bir şekilde göndermeniz daha uygunsa, bunları kendiniz dışa aktarabilirsiniz. Bunu yapmak için **Ayarlar** → **Destek** → **Günlükleri ve sistem bilgisini dışa aktar** öğesine gidin.
+1. Check *Send app logs and system info*. Your logs will be sent along with the report.
+
+:::note
+
+You can also export and send logs manually. To do this, go to *Settings* → *General* → *Advanced* and tap *Export logs and system info*.
+
+:::
 
 ## Genişletilmiş günlükleri toplama ve gönderme
 
 Çoğu durumda, olası hataların izini sürmek için **Varsayılan** günlük kayıt düzeyi yeterlidir. Ancak, cihaz ve bağlantılar hakkında daha ayrıntılı teknik bilgilerin gerekli olduğu durumlar vardır ve bu durumda destek ekibimiz, **Genişletilmiş** veya **Son derece** günlük kayıt düzeyini etkinleştirmenizi ister. Bu tür günlükleri göndermek için şu adımları izleyin:
 
-1. Android için AdGuard VPN'i açın ve **Ayarlar** (sağ alt köşedeki dişli çark simgesi) → **Uygulama ayarları** → **Gelişmiş ayarlar** → **Günlük kayıt düzeyi** öğesini seçin.
+1. Open AdGuard VPN for Android and select *Settings* (the gear icon at the bottom right corner) → *General* → *Advanced* → *Logging level*.
 
-2. **Günlük kayıt düzeyi** bölümünde, **Genişletilmiş** veya **Son derece** günlük kayıt düzeyini seçin.
+1. Select *Extended* or *Extreme*.
 
-3. Hataya neden olan işlemleri tekrarlayın ve meydana geldiği zamana dikkat edin.
+1. Hataya neden olan işlemleri tekrarlayın ve meydana geldiği zamana dikkat edin.
 
-4. Kayıt düzeyini **Varsayılan** olarak değiştirin.
+1. Switch the logging level back to *Default*.
 
-5. Ardından sağ alt köşedeki dişli çark simgesine dokunarak **Ayarlar** → **Destek** → **Hata bildir** öğesini açın.
+1. Return to *Settings* and open *Support*. Tap *Report a bug*.
 
-6. Açılan formda, geri bildirim için e-posta adresinizi girin ve bulunan hatayı, bu hatanın oluştuğu zaman da dahil olmak üzere açıklayın.
+1. In the form that opens, enter your email address for feedback and describe the error you found, including the time when it occurred.
 
-7. **Uygulama günlüklerini ve sistem bilgilerini gönder** öğesinin yanında bir onay işareti olduğundan emin olun ve **Gönder** öğesine dokunun.
-> Herhangi bir nedenle bize günlükleri başka bir şekilde göndermeniz daha uygunsa, bunları kendiniz dışa aktarabilirsiniz. Bunu yapmak için **Ayarlar** → **Destek** → **Günlükleri ve sistem bilgisini dışa aktar** öğesine gidin.
+1. Check mark next to *Send app logs and system info* and tap *Send*.

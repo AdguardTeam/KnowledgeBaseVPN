@@ -3,22 +3,6 @@ title: Panoramica delle funzionalità
 sidebar_position: 1
 ---
 
-## Che cos'è AdGuard VPN per Android?
-
-Una VPN è il strumento ideale che fornisce sicurezza e anonimato ogni volta che navighi in Internet. [Come funziona?](/general/how-vpn-works) Senza approfondire, possiamo dire che la VPN crea una connessione sicura e crittografata (detta tunnel), tra il dispositivo di un utente e un server VPN remoto. In questo modo viene preservata la riservatezza dei dati, così come l'anonimato dell'utente, perché un osservatore terzo vede l'indirizzo IP del server VPN e non l'IP effettivo dell'utente.
-
-**La VPN è spesso utilizzata per:**
-
-- Mantenere i dati personali al sicuro anche durante l'utilizzo del Wi-Fi pubblico
-- Impedire il tracciamento delle attività online mascherando l'indirizzo IP
-- Nascondere la vera geolocalizzazione per rimanere anonimi
-
-AdGuard VPN per Android può fare tutto questo per te e persino offrire qualcosa di unico. Per scoprire perché AdGuard VPN è l'opzione migliore — leggi [questo articolo](/general/why-adguard-vpn).
-
-## Come iniziare a utilizzare AdGuard VPN per Android
-
-Innanzitutto, scarica AdGuard VPN da [Google Play](https://play.google.com/store/apps/details?id=com.adguard.vpn) e accedi al tuo account AdGuard. Nel caso in cui non ce l'hai, dovresti [crearlo](https://auth.adguard.com/login.html). Puoi accedere direttamente con le credenziali del tuo account AdGuard. Oppure fallo tramite Google o Facebook, se il tuo account AdGuard è stato registrato utilizzando lo stesso indirizzo email.
-
 ## Schermata principale
 
 La schermata principale riflette lo stato della VPN (Connessa/Disconnessa). Inoltre, è presente il pulsante *Connetti/Disconnetti* e un elenco dei server disponibili.
@@ -27,104 +11,105 @@ Ogni server ha la sua posizione e il suo ping rate, che descrivono il tempo di r
 
 ## Esclusioni
 
-Abbiamo fatto tutto il possibile per semplificare la gestione degli elenchi di esclusione dei siti e delle app. AdGuard VPN funzionerà solo dove preferisci.
+Gli elenchi d'esclusione ti consentono di gestire la connessione VPN per siti web e app specifici. Per accedere alle *Esclusioni*, tocca sulla seconda icona da sinistra, in fondo alla schermata.
 
-### Elenchi di esclusioni
+![Esclusioni *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/exclusions.jpg)
 
-Gli elenchi d'esclusione ti consentono di gestire la connessione VPN per siti web e app specifici. Per accedere alle *Esclusioni*, tocca sulla seconda icona da sinistra, in fondo alla schermata. Per accedere alla sezione *Esclusioni*, tocca la seconda icona a sinistra nella parte inferiore dello schermo.
+By default, AdGuard VPN works for all websites and apps except those added to exclusions: if you don’t specify an app or website, VPN will be active for them. You can also turn it on **selectively** — only for specified apps or websites. To switch to this mode, tap *Change mode*.
 
-Di default, AdGuard VPN funziona per tutti i siti web e app, tranne quelli aggiunti alle esclusioni, ma puoi facilmente passare all'altra modalità.
+![Change mode *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/change_mode.jpg)
 
-#### Per i siti web
+:::caution
 
-You can add a domain (e.g., `google.com`) or subdomain (e.g., `*.google.com`) to *Exclusions* in three ways:
+Be careful when using your VPN **selectively**.
+
+If you exclude a browser from the VPN tunnel, website exclusions won’t work for it.
+
+If you switch to this mode for websites, don’t forget to add the domains of the apps you want to use — for example, `facebook.com` for Facebook.
+
+:::
+
+### Websites
+
+You can add a domain (e.g., `google.com`) or subdomain (e.g., `*.google.com`) to exclusions in three ways:
 
 - Enter it manually in the app
 - Add it directly from the browser by sharing the website with AdGuard VPN
 - Add it from a built-in list of services
 
-![Esclusioni](https://cdn.adguardvpn.com/public/Adguard/kb/VPN/Screenshots/add_site_android.jpg)
+![Add manually *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/manually.jpg)
+
+![Add from the list *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/from_list.jpg)
 
 :::note
 
-Ci sono alcune sfumature nell'aggiunta manuale dei domini. Ad esempio, se escludi manualmente il dominio `yahoo.com`, anche tutti i `sottodomini *.yahoo.com` verranno elencati nelle esclusioni. Tuttavia, i nomi di dominio con altri domini di primo livello, come `yahoo.jp` o `yahoo.fr`, non saranno esclusi. Oppure puoi aggiungere `youtube.com` alle esclusioni, ma il dominio dello stesso servizio `youtu.be` non entrerà nell'elenco. In questo caso, è più sicuro utilizzare gli elenchi di servizi integrati, poiché inseriamo tutti i sottodomini relativi a ciascuna piattaforma.
+There are some nuances to manually adding domains. Ad esempio, se escludi manualmente il dominio `yahoo.com`, anche tutti i `sottodomini *.yahoo.com` verranno elencati nelle esclusioni. Tuttavia, i nomi di dominio con altri domini di primo livello, come `yahoo.jp` o `yahoo.fr`, non saranno esclusi.
+
+If you add `youtube.com` to exclusions, the domain of the same service `youtu.be` won’t be added. In this case, it’s safer to use the built-in lists of services. They contain all the subdomains associated with each platform.
 
 :::
 
-Poiché puoi abilitare i sottodomini negli elenchi dei servizi, abbiamo aggiunto delle caselle che riflettono lo stato di ogni servizio — puoi vederle nella schermata principale di *Esclusioni*, alla sinistra del nome di ogni servizio:
+Since you can enable subdomains in service lists, we added boxes that reflect the status of each service:
 
 - **Completamente abilitata** è indicato da un segno di spunta bianco su uno sfondo verde
 - **Parzialmente abilitata** (sottodomini abilitati senza il dominio principale), è indicato da un quadrato verde su uno sfondo bianco
 - **Completamente disabilitata** è segnato da una casella di spunta vuota
 
- Buone notizie: puoi sempre tornare alla visualizzazione predefinita degli elenchi di servizi nel caso in cui tu abbia eliminato o disabilitato qualsiasi dominio da lì.
+![Website exclusions *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/websites.png)
 
-![Esclusioni *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/statuses.png)
+If you’ve accidentally deleted a domain or subdomain, just tap *Reset to default*.
 
-Un'altra caratteristica utile è l'*Importazione/Esportazione di esclusioni*. Ci sono solo quattro passi per raggiungere l'obiettivo:
+![Reset to default *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/reset.jpg)
 
-1. Aprire AdGuard VPN sul dispositivo/nel browser da cui si desidera esportare gli elenchi di esclusioni. Trovare la sezione appropriata e fare clic sul pulsante *Esportare*. L'archivio `adguard_vpn_exclusions.zip` verrà scaricato.
-2. Nell'archivio, sono presenti due file `.txt`, uno per ognuno di questi elenchi. Aggiungi altre esclusioni, elimina quelli esistenti, rinomina i file (ma ne parleremo più avanti) o semplicemente lascia l'archivio con i file così come sono.
-3. Durante il trasferimento tra dispositivi diversi, non dimenticare di inviare il file `.zip` al dispositivo per l'importazione. Ad esempio, se importi gli elenchi di esclusione dal tuo dispositivo Windows al tuo Android, assicurati d'inviare prima il file `.zip` al tuo Android.
-4. Aprire AdGuard VPN sul dispositivo in cui si desidera importare l'archivio con gli elenchi di esclusioni già creati. Trova la sezione appropriata, fai clic sul pulsante *Importa* e seleziona l'archivio.
+### Apps
 
-![Importazione/Esportazione *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/imp-exp.png)
+You can also manage VPN for apps. To exclude an app from the VPN tunnel, tap *Add app*. To use VPN **selectively**, tap *Change mode*.
 
-#### Per le app
+![Esclusioni di app *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/apps.jpg)
 
-Come abbiamo già detto, non solo i siti web possono essere facilmente aggiunti alle esclusioni. Scegli per quali app necessiti di AdGuard VPN, e per quali no.
+:::caution
 
 In *Modalità integrata*, puoi gestire le app soltanto tramite il Blocco AdGuard.
 
-![Esclusioni di app *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/apps_settings.png)
+:::
 
 ## Impostazioni
 
-È possibile accedere alle *Impostazioni* premendo l'icona dell'ingranaggio in basso a destra dello schermo. La prima sezione contiene le *Impostazioni app*: configura AdGuard VPN per Android in base alle tue esigenze selezionando diverse opzioni lì.
+È possibile accedere alle *Impostazioni* premendo l'icona dell'ingranaggio in basso a destra dello schermo.
 
-![Impostazioni delle app *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/app_settings.png)
+![Settings *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/settings.jpg)
 
-### Avvio automatico di AdGuard VPN
+### General
 
-Il cursore spostato a destra abilita l'avvio automatico di AdGuard VPN dopo l'avvio del dispositivo.
+![General *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/general.jpg)
 
-### Server DNS
+In *General*, you can manage basic AdGuard VPN settings:
 
-I server DNS traducono i nomi dei siti web in qualcosa di comprensibile dai browser, cioè, gli indirizzi IP. AdGuard VPN per Android offre un'ampia selezione di server DNS, ognuno con qualità speciali. Ad esempio, [AdGuard DNS](https://adguard-dns.io/kb/) rimuove gli annunci e protegge il tuo dispositivo dal tracciamento, mentre AdGuard DNS Protezione Famiglia combina le funzioni di AdGuard DNS con Ricerca sicura e con il blocco dei contenuti per adulti. C'è anche un'opzione per aggiungere un server DNS personalizzato.
+- Launch AdGuard VPN at system startup
+- Select a DNS server to encrypt traffic and block ads when connected to VPN (we recommend using AdGuard DNS)
+- Enable Kill Switch to protect your privacy and disconnect from the Internet if the VPN connection drops
+- Select a color theme
+- Enable anonymous crash reports to notify developers about app issues
 
-### Protezione automatica
+### Advanced
 
-Questa funzione abilita AdGuard VPN automaticamente quando il tuo dispositivo si connette a una rete cellulare o Wi-Fi.
+![Advanced *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/advanced.png)
 
-### Kill Switch
-
-Puoi impostare la funzione Kill Switch sul tuo dispositivo Android seguendo semplici istruzioni sullo schermo. Perché dovresti farlo? Se per qualche motivo la tua connessione VPN si interrompe improvvisamente mentre stai utilizzando una rete mobile o un Wi-Fi pubblico, Kill Switch interromperà automaticamente la connessione Internet, impedendo agli aggressori di sequestrare le tue informazioni.
-
-Si noti che se Kill Switch è attivo, le *Impostazioni Apps* e *Esclusioni* non funzionano.
-
-### Tema
-
-Puoi scegliere il tema predefinito del sistema, il tema dinamico del sistema, e anche il tema scuro o chiaro dell'app.
-
-![Tema dinamico del sistema *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/systemtheme.png)
-
-![Tema chiaro *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/lighttheme.png)
-
-![Tema scuro *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/android/darktheme.png)
-
-### Impostazioni avanzate
-
-Nelle *Impostazioni avanzate*, puoi trovare quattro sezioni.
+The *Advanced* section is a set of settings that are not as commonly used.
 
 La *Modalità operativa* ti consente di specificare come viene instradato il tuo traffico. Esistono tre modalità: VPN, SOCKS5 e Modalità integrata. Nella modalità *VPN*, tutto il traffico passa per AdGuard VPN. In modalità *SOCKS5*, AdGuard VPN esegue un server proxy locale, utilizzabile dalle altre app per l'instradamento del traffico. La *Modalità integrata* consente ad AdGuard VPN e al Blocco AdGuard di funzionare insieme.
 
 :::note
 
-Alcune funzionalità di AdGuard VPN sono disabilitate in *Modalità integrata*: i server DNS, il Kill Switch, la Protezione automatica e le Esclusioni app. Puoi gestire la protezione DNS e instradare le app attraverso il tuo proxy di AdGuard VPN nell'app Blocco degli annunci AdGuard.
+Some AdGuard VPN features are disabled in *Integrated mode*: DNS servers, Kill Switch, and App exclusions. Puoi gestire la protezione DNS e instradare le app attraverso il tuo proxy di AdGuard VPN nell'app Blocco degli annunci AdGuard.
 
 :::
 
-Le due sezioni successive sono *Livello di registrazione* e *Informazioni diagnostiche*. Per quanto riguarda la prima opzione, non è consigliabile abilitare il livello di registrazione esteso o estremo a meno che non sia richiesto dal nostro team di supporto. Le informazioni diagnostiche, informazioni tecniche memorizzate localmente sul dispositivo e sulle connessioni (indirizzo IP, ID, ping, ecc.), possono essere inviate a noi in caso di problemi tecnici.
+*Logging level* specifies how many app events are recorded. We don’t recommend enabling the *Extended* or *Extreme* logging levels unless requested by our support team.
+
+In this section, you can also export logs and system info to share them with support.
+
+*Diagnostic data* displays the locally stored technical information about the app, device, and connections. You can copy and send it to our support team if necessary.
 
 L'ultima sezione di *Impostazioni avanzate* è *Impostazioni di basso livello*. Ti invitiamo a non entrare in questa sezione a meno che tu non sia altamente qualificato o ti sia stato chiesto di farlo dal nostro team di supporto. Qui è possibile abilitare la registrazione dell'interfaccia TUN o il protocollo IPv6 sull'interfaccia VPN, scegliere una porta del server proxy o una versione del protocollo Internet da utilizzare.
 
@@ -136,4 +121,6 @@ L'opzione *Abilita IPv6* è disponibile soltanto per le reti che supportano IPv6
 
 ### Supporto
 
-Nella sezione *Supporto* puoi lasciare un feedback, segnalare un bug o esportare i log e le informazioni di sistema per un ulteriore invio all'helpdesk.
+In the *Support* section, you can check out our FAQ to get quick answers to your questions, report bugs, and suggest new features.
+
+![Support *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/support.jpg)

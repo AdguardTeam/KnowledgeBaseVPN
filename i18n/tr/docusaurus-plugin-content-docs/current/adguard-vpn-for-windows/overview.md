@@ -27,7 +27,7 @@ Ekranın üst kısmında beş sekmeli bir gezinme paneli bulunur: **Ana Sayfa**,
 
 ## İstisnalar
 
-By default, AdGuard VPN for Windows works everywhere. VPN tünelinden hariç tutmak istediğiniz siteleri ve uygulamaları istisnalar listesine ekleyebilirsiniz. Veya AdGuard VPN'in yalnızca istisnalar listesinde belirtilen sitelerde ve uygulamalarda çalışmasını sağlayabilirsiniz. Lütfen bu iki listenin birbirinden bağımsız olduğunu unutmayın.
+Varsayılan olarak, WIndows için AdGuard VPN her yerde çalışır. VPN tünelinden hariç tutmak istediğiniz siteleri ve uygulamaları istisnalar listesine ekleyebilirsiniz. Veya AdGuard VPN'in yalnızca istisnalar listesinde belirtilen sitelerde ve uygulamalarda çalışmasını sağlayabilirsiniz. Lütfen bu iki listenin birbirinden bağımsız olduğunu unutmayın.
 
 ![İstisnalar *border](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_new_en.png)
 

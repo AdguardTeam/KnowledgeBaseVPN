@@ -11,28 +11,32 @@ Android용 AdGuard VPN을 사용하는 동안 문제가 발생하면 앱 로그�
 
 1. Android용 AdGuard VPN을 열고 문제를 재현합니다. 이 문제가 발생한 정확한 시간을 기록하세요.
 
-2. 오른쪽 하단의 톱니바퀴 아이콘을 클릭하여 **설정** 열기 → **고객 지원** → **버그 신고**
+1. Open *Settings* → *Support* → *Report a bug*.
 
-3. 열리는 양식에 이메일 주소를 입력하고 발견한 오류를 설명하고 이 오류가 언제 발생했는지 알려주세요. 문제를 재현할 수 없는 경우, 마지막으로 발생한 시간을 지정합니다.
+1. 열리는 양식에 이메일 주소를 입력하고 발견한 오류를 설명하고 이 오류가 언제 발생했는지 알려주세요. If you can’t reproduce the problem, specify as accurately as possible when it last occurred.
 
-4. **앱 로그 및 시스템 정보 보내기** 옆에 확인 표시가 되어 있는데, 이는 보고서를 보낼 때 로그도 함께 보낸다는 의미입니다.
-> 다른 방법으로 로그를 보내는 것이 편하다면 직접 로그를 내보내도 됩니다. 로그를 직접 내보내려면 **설정** → **고객 지원** → **로그 및 시스템 정보** 내보내기로 이동합니다.
+1. Check *Send app logs and system info*. Your logs will be sent along with the report.
+
+:::note
+
+You can also export and send logs manually. To do this, go to *Settings* → *General* → *Advanced* and tap *Export logs and system info*.
+
+:::
 
 ## 고급화된 로그 수집 및 전송
 
 보통 **일반 로깅 수준**을 사용하면 가능한 오류를 추적할 수 있습니다. 기기 및 연결에 대한 자세한 기술 정보가 필요한 경우 지원 팀에서 **고급화된** 로깅 수준 또는 **극한의** 로깅 수준을 활성화하도록 요청할 것입니다. 이러한 로그를 보내려면 다음 단계를 따르십시오.
 
-1. Android용 AdGuard VPN을 열고 **설정**(오른쪽 하단의 톱니바퀴 아이콘) → **앱 설정** → **고급 설정** → **로깅 수준**을 선택합니다.
+1. Open AdGuard VPN for Android and select *Settings* (the gear icon at the bottom right corner) → *General* → *Advanced* → *Logging level*.
 
-2. **로깅 수준** 섹션에서 **고급화된 로깅** 또는 **극한의 로깅** 수준을 선택합니다.
+1. Select *Extended* or *Extreme*.
 
-3. 오류가 발생한 작업을 반복하고 오류가 발생한 시간을 기록합니다.
+1. 오류가 발생한 작업을 반복하고 오류가 발생한 시간을 기록합니다.
 
-4. 로깅 수준을 다시 **일반 로깅**으로 전환합니다.
+1. Switch the logging level back to *Default*.
 
-5. 오른쪽 하단의 톱니바퀴 아이콘을 클릭하여 **설정** 열기 → **고객 지원** → **버그 신고**
+1. Return to *Settings* and open *Support*. Tap *Report a bug*.
 
-6. 열리는 양식에 이메일 주소를 입력하고 발견한 오류를 설명하고 이 오류가 언제 발생했는지 알려주세요.
+1. In the form that opens, enter your email address for feedback and describe the error you found, including the time when it occurred.
 
-7. **앱 로그 및 시스템 정보 보내기** 옆에 확인 표시가 있는지 확인하고 **전송**을 누릅니다.
-> 다른 방법으로 로그를 보내는 것이 편하다면 직접 로그를 내보내도 됩니다. 로그를 직접 내보내려면 **설정** → **고객 지원** → **로그 및 시스템 정보** 내보내기로 이동합니다.
+1. Check mark next to *Send app logs and system info* and tap *Send*.

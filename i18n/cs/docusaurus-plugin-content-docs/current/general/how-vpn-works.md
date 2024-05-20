@@ -15,11 +15,11 @@ VPN tak plní dvě důležité funkce:
 
 1. **Zachování anonymity**
 
-    Pomocí internetového připojení zanechává uživatel svou digitální stopu, kterou pak mohou analyzovat a využívat třetí strany. Například některý z internetových obchodů, které jste navštívili, si může uložit historii vašeho vyhledávání a na jejím základě vám pak nabízet své produkty prostřednictvím cílené reklamy. Nebo mohou tajné služby po zjištění vaší polohy prostřednictvím IP adresy vašeho zařízení a zjištění vaší totožnosti tajně sledovat vaši aktivitu na webu. Kromě toho mohou webové prohlížeče a samotní poskytovatelé internetových služeb používat historii procházení pro své vlastní účely, prodávat ji inzerentům a poskytovat ji státním institucím. VPN umožňuje skrýt vaši IP adresu a nahradit ji IP adresou serveru VPN, ke kterému jste připojeni. Tímto způsobem budete moci zachovat své soukromí a anonymně vyhledávat informace na webu.
+   Pomocí internetového připojení zanechává uživatel svou digitální stopu, kterou pak mohou analyzovat a využívat třetí strany. Například některý z internetových obchodů, které jste navštívili, si může uložit historii vašeho vyhledávání a na jejím základě vám pak nabízet své produkty prostřednictvím cílené reklamy. Nebo mohou tajné služby po zjištění vaší polohy prostřednictvím IP adresy vašeho zařízení a zjištění vaší totožnosti tajně sledovat vaši aktivitu na webu. Kromě toho mohou webové prohlížeče a samotní poskytovatelé internetových služeb používat historii procházení pro své vlastní účely, prodávat ji inzerentům a poskytovat ji státním institucím. VPN umožňuje skrýt vaši IP adresu a nahradit ji IP adresou serveru VPN, ke kterému jste připojeni. Tímto způsobem budete moci zachovat své soukromí a anonymně vyhledávat informace na webu.
 
-1. **Ochrana dat**
+2. **Ochrana dat**
 
-    Pokud se připojíte k nespolehlivé nebo veřejné síti, mohou být data ve vašem zařízení zranitelná pro kyberzločince. Údaje o bankovních kartách, uživatelská jména a hesla, údaje o cestovních pasech — všechny tyto údaje mohou zachytit online podvodníci. Tunel VPN šifruje informace, které odesíláte na web a přijímáte z webu, takže jsou v nepovolaných rukou nepoužitelné.
+   Pokud se připojíte k nespolehlivé nebo veřejné síti, mohou být data ve vašem zařízení zranitelná pro kyberzločince. Údaje o bankovních kartách, uživatelská jména a hesla, údaje o cestovních pasech — všechny tyto údaje mohou zachytit online podvodníci. Tunel VPN šifruje informace, které odesíláte na web a přijímáte z webu, takže jsou v nepovolaných rukou nepoužitelné.
 
 ## Struktura VPN
 
@@ -33,15 +33,19 @@ VPN vytváří tunel mezi vaším zařízením a serverem VPN. Vaše data projdo
 
 Bezpečnostní protokoly VPN jsou nástroje, které šifrují data v tunelu VPN a umožňují zachovat soukromí uživatele v otevřeném internetu. V současné době používá naprostá většina moderních služeb VPN jeden ze tří následujících protokolů VPN:
 
-1. [*IPSec*](https://en.wikipedia.org/wiki/IPsec). Jednou z jeho hlavních výhod je, že je k dispozici na většině zařízení a operačních systémech a poskytuje vysokou úroveň zabezpečení. Použití dvojitého [zapouzdření](https://en.wikipedia.org/wiki/Encapsulation_(networking)) v tomto protokolu však může mít za následek nižší rychlost připojení.
+1. [_IPSec_](https://en.wikipedia.org/wiki/IPsec). Jednou z jeho hlavních výhod je, že je k dispozici na většině zařízení a operačních systémech a poskytuje vysokou úroveň zabezpečení. Použití dvojitého [zapouzdření](https://en.wikipedia.org/wiki/Encapsulation_\(networking\)) v tomto protokolu však může mít za následek nižší rychlost připojení.
 
-1. [*OpenVPN*](https://en.wikipedia.org/wiki/OpenVPN). Tento moderní protokol má otevřený zdrojový kód, takže výrobci třetích stran mohou technologii vylepšovat a aktualizovat.
+2. [_OpenVPN_](https://en.wikipedia.org/wiki/OpenVPN). Tento moderní protokol má otevřený zdrojový kód, takže výrobci třetích stran mohou technologii vylepšovat a aktualizovat.
 
-1. [*WireGuard*](https://en.wikipedia.org/wiki/WireGuard). Jeho hlavními výhodami jsou snadné použití, vysoká účinnost a nízká zranitelnost vůči útokům.
+3. [_WireGuard_](https://en.wikipedia.org/wiki/WireGuard). Jeho hlavními výhodami jsou snadné použití, vysoká účinnost a nízká zranitelnost vůči útokům.
 
 Kromě těchto protokolů VPN existují i další (například TLS, SSTP, IKEv2), které však nejsou oblíbené nebo nesplňují moderní standardy šifrování dat.
 
-AdGuard VPN má také svůj vlastní [*protokol*](/general/adguard-vpn-protocol). Jednou z jeho výhod je, že provoz přenášený pomocí protokolu AdGuard VPN je obtížné odlišit od běžného provozu. VPN tunel vypadá jako běžný provoz HTTPS, takže je velmi obtížné jej odhalit a zablokovat. Navíc je založen na mechanismech moderního protokolu HTTP/2, který zajišťuje vysokou rychlost připojení.
+<object data="https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/6.svg?nc=1" type="image/svg+xml"><img src="https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/6.svg?nc=1" alt="protocol 6" /> </object>
+
+AdGuard VPN má také vlastní [_protokol_](/general/adguard-vpn-protocol). Jednou z jeho výhod je, že provoz přenášený pomocí protokolu AdGuard VPN je obtížné odlišit od běžného provozu. VPN tunel vypadá jako běžný provoz HTTPS, takže je velmi obtížné jej odhalit a zablokovat. Navíc je založen na mechanismech moderního protokolu HTTP/2, který zajišťuje vysokou rychlost připojení.
+
+<object data="https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/5.svg?nc=1" type="image/svg+xml"><img src="https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/5.svg?nc=1" alt="protocol 5" /></object>
 
 ## Nevýhody VPN
 
@@ -61,22 +65,22 @@ Slabý signál, přetížení sítě, nekompatibilita VPN s firewallem, antivire
 
 ## AdGuard VPN
 
-Naše služba VPN má několik důležitých [výhod](/general/why-adguard-vpn):
+Naše VPN má několik důležitých [výhod](/general/why-adguard-vpn):
 
-- [*Vlastní protokol VPN*](/general/adguard-vpn-protocol), který funguje stabilně i při pomalém připojení k internetu a maskuje se jako běžný provoz, takže je obtížnější jej sledovat a blokovat
+- [_Vlastní protokol VPN_](/general/adguard-vpn-protocol), který funguje stabilně i při pomalém připojení k internetu a maskuje se jako běžný provoz, takže je obtížnější jej sledovat a blokovat
 
-- [*"Zásady nulových záznamů aktivit"*](https://adguard-vpn.com/privacy.html), což znamená, že AdGuard VPN neshromažďuje vaše osobní údaje a nepředává je třetím stranám
+- [_Zásady nulových záznamů aktivit_](https://adguard-vpn.com/privacy.html), což znamená, že AdGuard VPN neshromažďuje vaše osobní údaje a nepředává je třetím stranám
 
-- *Více než 50 VPN serverů v desítkách zemí*
+- _Více než 50 VPN serverů v desítkách zemí_
 
-- *Snadné používání a rozsáhlé možnosti přizpůsobení*
+- _Snadné používání a rozsáhlé možnosti přizpůsobení_
 
 V současné době je AdGuard VPN k dispozici jako:
 
-- [Rozšíření prohlížeče](/adguard-vpn-browser-extension/overview) pro Chrome, Edge, Firefox a Operu
+- [Rozšíření prohlížeče](/adguard-vpn-browser-extension/overview) pro prohlížeče Chrome, Edge, Firefox, a Opera
 
 - Mobilní aplikace pro [Android](/adguard-vpn-for-android/overview) a [iOS](/adguard-vpn-for-ios/overview)
 
-- Desktopová aplikace pro [Windows](/adguard-vpn-for-windows/overview) a [Mac](/adguard-vpn-for-mac/overview)
+- Desktopová aplikace pro [Windows](/adguard-vpn-for-windows/overview) a [macOS](/adguard-vpn-for-mac/overview)
 
 [Další informace o funkcích AdGuard VPN](https://adguard-vpn.com/welcome.html)

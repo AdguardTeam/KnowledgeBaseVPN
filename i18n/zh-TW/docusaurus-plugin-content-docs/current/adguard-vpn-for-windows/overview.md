@@ -27,7 +27,7 @@ AdGuard VPN for Windows 有很多優點，所以我們專門致力於 [另一篇
 
 ## 排除
 
-By default, AdGuard VPN for Windows works everywhere. 您可以將要從 VPN 隧道中排除的網站和應用程式新增至排除清單。 或者，您可以使 AdGuard VPN 僅在排除清單中指定的網站和應用程式上執行。 請注意，這兩個清單是相互獨立的。
+預設情況下，AdGuard VPN for Windows 可以在任何地方使用。 您可以將要從 VPN 隧道中排除的網站和應用程式新增至排除清單。 或者，您可以使 AdGuard VPN 僅在排除清單中指定的網站和應用程式上執行。 請注意，這兩個清單是相互獨立的。
 
 ![排除 *border](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_new_en.png)
 

@@ -11,28 +11,32 @@ Por defecto, AdGuard VPN para Android utiliza el nivel de registro **Default**, 
 
 1. Abra AdGuard VPN para iOS y, si es posible, repita las acciones que provocaron el error. Tenga en cuenta la hora exacta en que se produjo este error.
 
-2. Abra **Configuración** haciendo clic en el ícono de ajustes en la esquina inferior derecha → **Soporte** → **Reportar un error**.
+1. Open *Settings* → *Support* → *Report a bug*.
 
-3. En el formulario abierto, introduzca su dirección de correo electrónico para recibir comentarios y describa el error encontrado, incluyendo la hora en que se produjo. Si no puede reproducir el problema, especifique con la mayor precisión posible cuándo ocurrió por última vez.
+1. En el formulario abierto, introduzca su dirección de correo electrónico para recibir comentarios y describa el error encontrado, incluyendo la hora en que se produjo. If you can’t reproduce the problem, specify as accurately as possible when it last occurred.
 
-4. Hay una marca de verificación junto a **Enviar registros de la aplicación e información del sistema**, lo que significa que cuando envías un informe, también envías registros.
-> Si por alguna razón le resulta más cómodo enviarnos los registros de otra manera, puede exportarlos usted mismo. Para ello, vaya a **Configuración** → **Soporte** → **Exportar registros e información del sistema**.
+1. Check *Send app logs and system info*. Your logs will be sent along with the report.
+
+:::note
+
+You can also export and send logs manually. To do this, go to *Settings* → *General* → *Advanced* and tap *Export logs and system info*.
+
+:::
 
 ## Recopilación y envío de registros extendidos
 
 En la mayoría de los casos, el nivel de registro **Default** es suficiente para rastrear posibles errores. Pero hay casos en los que se requiere información técnica más detallada sobre el dispositivo y las conexiones. Nuestro equipo de asistencia te pedirá que active el nivel de registro **Ampliado** o **Extremo** . Para enviar este tipo de registros, siga estos pasos:
 
-1. Abre AdGuard VPN para Android y selecciona **Configuración** (el icono de engranaje en la esquina inferior derecha) → **Configuración de la aplicación** → **Configuración avanzada** → **Nivel de registro**.
+1. Open AdGuard VPN for Android and select *Settings* (the gear icon at the bottom right corner) → *General* → *Advanced* → *Logging level*.
 
-2. En la sección **Nivel de registro**, seleccione **Ampliado** o **Extremo**.
+1. Select *Extended* or *Extreme*.
 
-3. Repita las acciones que condujeron al error y anote la hora en que ocurrió.
+1. Repita las acciones que condujeron al error y anote la hora en que ocurrió.
 
-4. Vuelva a cambiar el nivel de registro a **Predeterminado**.
+1. Switch the logging level back to *Default*.
 
-5. Luego abra **Configuración** tocando el ícono de ajustes en la esquina inferior derecha → **Soporte** → **Reportar un error**.
+1. Return to *Settings* and open *Support*. Tap *Report a bug*.
 
-6. En el formulario, introduzca su dirección de correo electrónico para recibir comentarios y describa el error encontrado, incluyendo la hora en que se produjo.
+1. In the form that opens, enter your email address for feedback and describe the error you found, including the time when it occurred.
 
-7. Asegúrate de que haya una marca de verificación junto a **Enviar registros de la aplicación e información del sistema** y toca **Enviar**.
-> Si por algún motivo le resulta más cómodo enviarnos los logs de otra forma, puede exportarlos usted mismo. Para ello, vaya a **Configuración** → **Soporte** → **Exportar registros e información del sistema**.
+1. Check mark next to *Send app logs and system info* and tap *Send*.

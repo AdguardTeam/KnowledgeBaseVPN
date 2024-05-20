@@ -25,13 +25,17 @@ If you decide to remove AdGuard VPN from your computer, use one of three options
 
 In case regular uninstall doesn't work for any reason, you can try to use an advanced method. First of all, you need to [download the uninstaller tool](https://cdn.adtidy.org/distr/windows/Uninstall_Utility.zip) created by our developers. Extract the archive to any folder on your PC, run the **Adguard.UninstallUtility.exe** file, and allow the app to make changes to your device. Then follow the instruction below:
 
-1. Choose *Standard uninstall*, *Delete AdGuard VPN*, and click *Uninstall*
+1. Select *AdGuard VPN* and *Standard* uninstall type, then click *Uninstall*:
 
-    ![Standard uninstall *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/standard_uninstall.png)
+    ![Standard uninstall *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/vpn_standard.jpg)
 
-1. Wait until uninstall is finished
+1. Click *OK* once the warning window pops up:
 
-    ![Uninstall finished *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/standard_uninstall_2.png)
+    ![Standard uninstall warning *border](https://cdn.adtidy.org/content/kb/vpn/windows/vpn_standard_warning.jpg)
+
+1. Wait until uninstall is finished — there will be a phrase **Uninstall complete** and a prompt to restart your computer:
+
+    ![Uninstall finished *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/vpn_standard_complete.jpg)
 
     :::note
 
@@ -39,12 +43,16 @@ In case regular uninstall doesn't work for any reason, you can try to use an adv
 
     :::
 
-1. Choose *Advanced uninstall*, *Delete AdGuard VPN*, and click *Uninstall*
+1. Select *AdGuard VPN* and *Extended* uninstall type, then click *Uninstall*. Clcik *Yes, continue* in the window prompt:
 
-    ![Advanced uninstall *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/advanced_uninstall.png)
+    ![Extended uninstall *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/vpn_extended.jpg)
 
-1. Wait until uninstall is finished
+1. Click *OK* once the warning window pops up:
 
-    ![Uninstall finished *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/advanced_uninstall_2.png)
+    ![Extended uninstall warning *border](https://cdn.adtidy.org/content/kb/vpn/windows/vpn_standard_warning.jpg)
 
-AdGuard is successfully uninstalled!
+1. Wait until uninstall is finished — there will be a phrase **Uninstall complete** and a prompt to restart your computer:
+
+    ![Uninstall finished *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/vpn_extended_complete.jpg)
+
+AdGuard VPN is successfully uninstalled!
