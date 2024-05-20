@@ -25,13 +25,17 @@ AdGuard VPN'i bilgisayarınızdan kaldırmaya karar verirseniz, aşağıda liste
 
 Normal kaldırma herhangi bir nedenle işe yaramazsa, gelişmiş bir yöntem kullanmayı deneyebilirsiniz. Her şeyden önce, geliştiricilerimiz tarafından oluşturulan [kaldırma aracını indirmeniz](https://cdn.adtidy.org/distr/windows/Uninstall_Utility.zip) gerekir. Arşivi bilgisayarınızdaki herhangi bir klasöre çıkarın, **Adguard.UninstallUtility.exe** dosyasını çalıştırın ve uygulamanın cihazınızda değişiklik yapmasına izin verin. Ardından aşağıdaki talimatı izleyin:
 
-1. *Standart kaldırma*, *AdGuard VPN'i Kaldır* öğesini seçin ve *Kaldır* öğesine tıklayın
+1. *AdGuard VPN* ve *Standart* kaldırma türünü seçin, ardından *Kaldır* öğesine tıklayın:
 
-    ![Standart kaldırma *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/standard_uninstall.png)
+    ![Standart kaldırma *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/vpn_standard.jpg)
 
-1. Kaldırma işlemi bitene kadar bekleyin
+1. Uyarı penceresi açıldığında *Tamam* öğesine tıklayın:
 
-    ![Kaldırma işlemi tamamlandı *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/standard_uninstall_2.png)
+    ![Standart kaldırma uyarısı *border](https://cdn.adtidy.org/content/kb/vpn/windows/vpn_standard_warning.jpg)
+
+1. Wait until uninstall is finished — there will be a phrase **Uninstall complete** and a prompt to restart your computer:
+
+    ![Kaldırma işlemi tamamlandı *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/vpn_standard_complete.jpg)
 
     :::note
 
@@ -39,12 +43,16 @@ Normal kaldırma herhangi bir nedenle işe yaramazsa, gelişmiş bir yöntem kul
 
     :::
 
-1. *Gelişmiş kaldırma*, *AdGuard VPN'i Kaldır* öğesini seçin ve *Kaldır* öğesine tıklayın
+1. *AdGuard VPN* ve *Genişletilmiş* kaldırma türünü seçin, ardından *Kaldır* öğesine tıklayın. Pencere isteminde *Evet, devam et* öğesine tıklayın:
 
-    ![Gelişmiş kaldırma *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/advanced_uninstall.png)
+    ![Genişletilmiş kaldırma *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/vpn_extended.jpg)
 
-1. Kaldırma işlemi bitene kadar bekleyin
+1. Uyarı penceresi açıldığında *Tamam* öğesine tıklayın:
 
-    ![Kaldırma işlemi tamamlandı *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/advanced_uninstall_2.png)
+    ![Genişletilmiş kaldırma uyarısı *border](https://cdn.adtidy.org/content/kb/vpn/windows/vpn_standard_warning.jpg)
 
-AdGuard başarıyla kaldırıldı!
+1. Wait until uninstall is finished — there will be a phrase **Uninstall complete** and a prompt to restart your computer:
+
+    ![Kaldırma işlemi tamamlandı *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/vpn_extended_complete.jpg)
+
+AdGuard VPN başarıyla kaldırıldı!

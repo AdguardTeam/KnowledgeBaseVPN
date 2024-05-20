@@ -11,28 +11,32 @@ Par défaut, AdGuard VPN pour Android utilise le niveau de journalisation **Par 
 
 1. Ouvrez AdGuard VPN pour Android et, si possible, répétez les actions qui ont conduit à l'erreur. Notez l'heure exacte à laquelle cette erreur s'est produite.
 
-2. Ouvrez **Paramètres** en cliquant sur l'icône d'engrenage dans le coin inférieur droit → **Assistance** → **Signaler un bug**.
+1. Open *Settings* → *Support* → *Report a bug*.
 
-3. Dans le formulaire ouvert, entrez votre adresse e-mail pour commentaires et décrivez l'erreur trouvée, y compris l'heure à laquelle cette erreur s'est produite. Si vous ne pouvez pas reproduire le problème, indiquez aussi précisément que possible quand il s'est produit pour la dernière fois.
+1. Dans le formulaire ouvert, entrez votre adresse e-mail pour commentaires et décrivez l'erreur trouvée, y compris l'heure à laquelle cette erreur s'est produite. If you can’t reproduce the problem, specify as accurately as possible when it last occurred.
 
-4. Il y a une coche à côté de **Envoyer les journaux de l'app et les informations système**, ce qui signifie que lorsque vous envoyez un rapport, vous envoyez également des journaux.
-> Si, pour une raison quelconque, il est plus pratique pour vous de nous envoyer les journaux d'une autre manière, vous pouvez les exporter vous-même. Pour ça, accédez à **Paramètres** → **Assistance** → **Exporter les journaux et les informations système**.
+1. Check *Send app logs and system info*. Your logs will be sent along with the report.
+
+:::note
+
+You can also export and send logs manually. To do this, go to *Settings* → *General* → *Advanced* and tap *Export logs and system info*.
+
+:::
 
 ## Collecte et envoi de journaux détaillés
 
 Dans la plupart des cas, le niveau de journalisation **Par défaut** est suffisant pour détecter les bogues éventuels. Mais il existe des cas où des informations techniques plus détaillées sur l'appareil et les connexions sont requises, puis notre équipe d'assistance vous demandera d'activer le niveau de journalisation **Étendu** ou **Extrême**. Pour envoyer ces types de journaux, procédez comme suit :
 
-1. Ouvrez AdGuard VPN pour Android et sélectionnez **Paramètres** (l'icône d'engrenage dans le coin inférieur droit) → **Paramètres de l'application** → **Paramètres avancés** → **Niveau de journalisation**.
+1. Open AdGuard VPN for Android and select *Settings* (the gear icon at the bottom right corner) → *General* → *Advanced* → *Logging level*.
 
-2. Dans la section **Niveau de journalisation** , sélectionnez le niveau de journalisation **Étendu** ou **Extrême** .
+1. Select *Extended* or *Extreme*.
 
-3. Répétez les actions qui ont conduit à l'erreur et notez l'heure à laquelle elle s'est produite.
+1. Répétez les actions qui ont conduit à l'erreur et notez l'heure à laquelle elle s'est produite.
 
-4. Remettez le niveau de journalisation sur **Par défaut**.
+1. Switch the logging level back to *Default*.
 
-5. Ouvrez ensuite **Paramètres** en appuyant sur l'icône d'engrenage dans le coin inférieur droit → **Assistance** → **Signaler un bug**.
+1. Return to *Settings* and open *Support*. Tap *Report a bug*.
 
-6. Dans le formulaire ouvert, indiquez votre adresse émail pour le retour d'information et décrivez l'erreur trouvée, y compris le moment où cette erreur s'est produite.
+1. In the form that opens, enter your email address for feedback and describe the error you found, including the time when it occurred.
 
-7. Assurez-vous qu’il y a une coche à côté de **Envoyer les journaux de l'app et des informations système** et appuyez sur **Envoyer**.
-> Si, pour une raison quelconque, il est plus pratique pour vous de nous envoyer les journaux d'une autre manière, vous pouvez les exporter vous-même. Pour ça, accédez à **Paramètres** → **Assistance** → **Exporter les journaux et les informations système**.
+1. Check mark next to *Send app logs and system info* and tap *Send*.

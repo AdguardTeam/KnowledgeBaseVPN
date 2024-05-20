@@ -46,5 +46,9 @@
   "sidebar.sidebar.category.solving-problems": {
     "message": "risoluzione dei problemi",
     "description": "The label for category solving-problems in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.AdGuard VPN for Linux": {
+    "message": "AdGuard VPN for Linux",
+    "description": "The label for category AdGuard VPN for Linux in sidebar sidebar"
   }
 }

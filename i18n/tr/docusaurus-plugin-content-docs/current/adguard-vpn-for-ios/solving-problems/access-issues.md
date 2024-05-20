@@ -5,12 +5,12 @@ sidebar_position: 4
 
 Bazı kullanıcılar App Store üzerinden satın aldıkları AdGuard VPN aboneliklerini kullanamazlar. Bu sorun iki durumda ortaya çıkabilir:
 
-- if an incorrect Apple ID was used for this App Store purchase
+- bu App Store satın alma işleminde yanlış bir Apple Kimliği kullanıldıysa
 - veya e-posta adresinizi uygulama geliştiricilerinden gizlediyseniz
 
 Bu sorunu çözmek için lütfen şu adımları izleyin:
 
-1. Go to iOS Settings → [your Apple ID name] → *Media & Purchases* → *View Account*.
+1. iOS Ayarları → [Apple Kimliği adınız] → *Ortamlar ve Satın Almalar* → *Hesabı Görüntüle* öğesine gidin.
 1. E-posta adresinin, Apple Kimliğiniz için kullandığınız adresle eşleştiğinden emin olun.
 1. E-posta adresleri uyuşmuyorsa, lütfen `support@adguard.com` adresine e-posta gönderin: sorununuzu açıklayın ve App Store için kullanılan adresi bize bildirin.
 1. If the email addresses match, navigate to *Apple ID* → *iCloud* → *Hide My Email*, find our app in the list, copy the email address, and send it to `support@adguard.com` along with a description of your problem. Genellikle böyle bir e-posta adresi `@privaterelay.appleid.com` veya `@icloud`.com ile biter.
