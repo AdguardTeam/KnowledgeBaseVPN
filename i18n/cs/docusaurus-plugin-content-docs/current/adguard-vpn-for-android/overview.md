@@ -15,23 +15,23 @@ Seznamy výjimek vám umožňují spravovat připojení VPN pro konkrétní webo
 
 ![Exclusions *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/exclusions.jpg)
 
-By default, AdGuard VPN works for all websites and apps except those added to exclusions: if you don’t specify an app or website, VPN will be active for them. You can also turn it on **selectively** — only for specified apps or websites. To switch to this mode, tap *Change mode*.
+Ve výchozím nastavení funguje AdGuard VPN pro všechny webové stránky a aplikace kromě těch, které byly přidány do výjimek: pokud nezadáte aplikaci nebo webovou stránku, bude pro ně VPN aktivní. Můžete ji také zapnout **selektivně** — pouze pro určité aplikace nebo webové stránky. Chcete-li přepnout do tohoto režimu, klepněte na *Změnit režim*.
 
 ![Change mode *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/change_mode.jpg)
 
 :::caution
 
-Be careful when using your VPN **selectively**.
+Při **selektivním** používání VPN buďte opatrní.
 
-If you exclude a browser from the VPN tunnel, website exclusions won’t work for it.
+Pokud vyloučíte prohlížeč z tunelu VPN, výjimky webových stránek pro něj nebude fungovat.
 
-If you switch to this mode for websites, don’t forget to add the domains of the apps you want to use — for example, `facebook.com` for Facebook.
+Pokud přepnete na tento režim pro webové stránky, nezapomeňte přidat domény aplikací, které chcete používat — například `facebook.com` pro Facebook.
 
 :::
 
-### Websites
+### Webové stránky
 
-You can add a domain (e.g., `google.com`) or subdomain (e.g., `*.google.com`) to exclusions in three ways:
+Doménu (např. `google.com`) nebo subdoménu (např. `*.google.com`) můžete do výjimek přidat třemi způsoby:
 
 - Zadáním ručně do aplikace
 - Přidáním přímo z prohlížeče sdílením požadovaných stránek s AdGuard VPN
@@ -43,13 +43,13 @@ You can add a domain (e.g., `google.com`) or subdomain (e.g., `*.google.com`) to
 
 :::note
 
-There are some nuances to manually adding domains. Pokud například ručně vyloučíte doménu `yahoo.com`, budou ve výjimkách uvedeny také všechny subdomény `*.yahoo.com`. Doménové názvy s ostatními doménami nejvyšší úrovně, jako je `yahoo.jp` nebo `yahoo.fr`, však vyloučeny nebudou.
+Při ručním přidávání domén existují určité nuance. Pokud například ručně vyloučíte doménu `yahoo.com`, budou ve výjimkách uvedeny také všechny subdomény `*.yahoo.com`. Doménové názvy s ostatními doménami nejvyšší úrovně, jako je `yahoo.jp` nebo `yahoo.fr`, však vyloučeny nebudou.
 
-If you add `youtube.com` to exclusions, the domain of the same service `youtu.be` won’t be added. In this case, it’s safer to use the built-in lists of services. They contain all the subdomains associated with each platform.
+Pokud do výjimek přidáte `youtube.com`, doména stejné služby `youtu.be` nebude přidána. V tomto případě je bezpečnější použít vestavěné seznamy služeb. Obsahují všechny subdomény spojené s každou platformou.
 
 :::
 
-Since you can enable subdomains in service lists, we added boxes that reflect the status of each service:
+Vzhledem k tomu, že v seznamech služeb můžete povolit subdomény, přidali jsme pole, která odrážejí stav každé služby:
 
 - **Plně povoleno** je označeno bílým zaškrtnutím na zeleném pozadí
 - **Částečně povoleno** (povolené subdomény bez hlavní domény) je označeno zeleným čtvercem na bílém pozadí
@@ -57,13 +57,13 @@ Since you can enable subdomains in service lists, we added boxes that reflect th
 
 ![Website exclusions *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/websites.png)
 
-If you’ve accidentally deleted a domain or subdomain, just tap *Reset to default*.
+Pokud jste omylem smazali doménu nebo subdoménu, stačí klepnout na *Obnovit výchozí nastavení*.
 
 ![Reset to default *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/reset.jpg)
 
-### Apps
+### Aplikace
 
-You can also manage VPN for apps. To exclude an app from the VPN tunnel, tap *Add app*. To use VPN **selectively**, tap *Change mode*.
+Můžete také spravovat VPN pro aplikace. Chcete-li aplikaci z tunelu VPN vyloučit, klepněte na *Přidat aplikaci*. Chcete-li VPN používat **selektivně**, klepněte na *Změnit režim*.
 
 ![App exclusions *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/apps.jpg)
 
@@ -79,37 +79,37 @@ Do *Nastavení* se dostanete stisknutím ikony ozubeného kola v pravém dolním
 
 ![Settings *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/settings.jpg)
 
-### General
+### Obecné
 
 ![General *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/general.jpg)
 
-In *General*, you can manage basic AdGuard VPN settings:
+V části *Obecné* můžete spravovat základní nastavení AdGuard VPN:
 
-- Launch AdGuard VPN at system startup
-- Select a DNS server to encrypt traffic and block ads when connected to VPN (we recommend using AdGuard DNS)
-- Enable Kill Switch to protect your privacy and disconnect from the Internet if the VPN connection drops
-- Select a color theme
-- Enable anonymous crash reports to notify developers about app issues
+- Spustit AdGuard VPN při startu systému
+- Vybrat server DNS pro šifrování provozu a blokování reklam při připojení k VPN (doporučujeme použít AdGuard DNS)
+- Zapnout Kill Switch, abyste chránili své soukromí a v případě výpadku připojení VPN se odpojili od internetu
+- Vybrat barevný motiv
+- Zapnout anonymní zprávy o selhání, které budou vývojáře informovat o problémech s aplikacemi
 
-### Advanced
+### Pokročilé
 
 ![Advanced *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/advanced.png)
 
-The *Advanced* section is a set of settings that are not as commonly used.
+V části *Pokročilé* se nachází sada nastavení, která se nepoužívají tak často.
 
 *Pracovní režim* vám umožňuje určit, jak je směrován váš provoz. K dispozici jsou tři režimy: VPN, SOCKS5 a Režim integrace. V režimu *VPN* je veškerý provoz směrován skrze AdGuard VPN. V režimu *SOCKS5* provozuje AdGuard VPN místní proxy server, který mohou ostatní aplikace používat pro směrování provozu. *Režim integrace* umožňuje AdGuard VPN a Blokátoru reklam AdGuard spolupracovat.
 
 :::note
 
-Some AdGuard VPN features are disabled in *Integrated mode*: DNS servers, Kill Switch, and App exclusions. V aplikaci Blokátor reklam AdGuard můžete spravovat ochranu DNS a směrovat aplikace prostřednictvím proxy serveru AdGuard VPN.
+Některé funkce AdGuard VPN jsou v *Režimu integrace* deaktivovány: DNS servery, Kill Switch a výjimky aplikací. V aplikaci Blokátor reklam AdGuard můžete spravovat ochranu DNS a směrovat aplikace prostřednictvím proxy serveru AdGuard VPN.
 
 :::
 
-*Logging level* specifies how many app events are recorded. We don’t recommend enabling the *Extended* or *Extreme* logging levels unless requested by our support team.
+*Úroveň záznamů* určuje, kolik událostí aplikace se zaznamenává. Nedoporučujeme povolovat úrovně záznamů *Pokročilý* nebo *Extrémní*, pokud to nevyžaduje náš tým podpory.
 
-In this section, you can also export logs and system info to share them with support.
+V této části můžete také exportovat záznamy a systémové informace a sdílet je s podporou.
 
-*Diagnostic data* displays the locally stored technical information about the app, device, and connections. You can copy and send it to our support team if necessary.
+*Diagnostická data* zobrazují místně uložené technické informace o aplikaci, zařízení a připojení. V případě potřeby je můžete zkopírovat a odeslat našemu týmu podpory.
 
 Poslední částí v *Pokročilých nastaveních* jsou *Nízkoúrovňová nastavení*. Doporučujeme vám, abyste do této sekce nevstupovali, pokud nejste vysoce kvalifikovaní nebo pokud vás o to nepožádal náš tým podpory. Zde je možné povolit protokolování rozhraní TUN nebo protokolu IPv6 na rozhraní VPN, vybrat port proxy serveru nebo verzi Internetového protokolu, která se má používat.
 
@@ -121,6 +121,6 @@ Možnost *Povolit IPv6* je k dispozici pouze pro sítě, které podporují IPv6.
 
 ### Podpora
 
-In the *Support* section, you can check out our FAQ to get quick answers to your questions, report bugs, and suggest new features.
+V části *Podpora* se můžete podívat na naše FAQ, kde získáte rychlé odpovědi na své otázky, nahlásit chyby a navrhnout nové funkce.
 
 ![Support *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/support.jpg)

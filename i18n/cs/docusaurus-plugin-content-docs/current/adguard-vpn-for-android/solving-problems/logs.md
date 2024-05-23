@@ -11,15 +11,15 @@ Ve výchozím nastavení používá AdGuard VPN pro Android **Výchozí** úrove
 
 1. Otevřete AdGuard VPN pro Android a pokud je to možné, zopakujte akce, které vedly k chybě. Zaznamenejte přesný čas, kdy k této chybě došlo.
 
-1. Open *Settings* → *Support* → *Report a bug*.
+1. Otevřete *Nastavení* → *Podpora* → *Nahlásit chybu*.
 
-1. V otevřeném formuláři zadejte svou e-mailovou adresu pro zpětnou vazbu a popište nalezenou chybu, včetně času, kdy k ní došlo. If you can’t reproduce the problem, specify as accurately as possible when it last occurred.
+1. V otevřeném formuláři zadejte svou e-mailovou adresu pro zpětnou vazbu a popište nalezenou chybu, včetně času, kdy k ní došlo. Pokud nemůžete problém reprodukovat, uveďte co nejpřesněji, kdy k němu naposledy došlo.
 
-1. Check *Send app logs and system info*. Your logs will be sent along with the report.
+1. Zaškrtněte *Odeslat záznamy aplikací a systémové informace*. Vaše záznamy budou odeslány spolu s hlášením.
 
 :::note
 
-You can also export and send logs manually. To do this, go to *Settings* → *General* → *Advanced* and tap *Export logs and system info*.
+Záznamy můžete exportovat a odesílat také ručně. Chcete-li to provést, přejděte na *Nastavení* → *Obecné* → *Pokročilé* a klepněte na *Exportovat protokoly a systémové informace*.
 
 :::
 
@@ -27,16 +27,16 @@ You can also export and send logs manually. To do this, go to *Settings* → *Ge
 
 Ve většině případů je **Výchozí** úroveň záznamů dostatečná pro dohledání případných chyb. V některých případech jsou však vyžadovány podrobnější technické informace o zařízení a připojeních, a pak vás náš tým podpory požádá o povolení **Rozšířené** nebo **Extrémní** úrovně záznamů. Chcete-li odeslat tyto typy protokolů, postupujte podle následujících kroků:
 
-1. Open AdGuard VPN for Android and select *Settings* (the gear icon at the bottom right corner) → *General* → *Advanced* → *Logging level*.
+1. Otevřete AdGuard VPN pro Android a vyberte *Nastavení* (ikona ozubeného kola v pravém dolním rohu) → *Obecné* → *Pokročilé* → *Úroveň záznamů*.
 
-1. Select *Extended* or *Extreme*.
+1. Vyberte *Pokročilý* nebo *Extrémní*.
 
 1. Zopakujte akce, které vedly k chybě a zaznamenejte čas, kdy k ní došlo.
 
-1. Switch the logging level back to *Default*.
+1. Přepněte úroveň záznamů zpět na *Výchozí*.
 
-1. Return to *Settings* and open *Support*. Tap *Report a bug*.
+1. Vraťte se do *Nastavení* a otevřete *Podporu*. Klepněte na *Nahlásit chybu*.
 
-1. In the form that opens, enter your email address for feedback and describe the error you found, including the time when it occurred.
+1. V otevřeném formuláři zadejte svou e-mailovou adresu a popište nalezenou chybu včetně času, kdy k ní došlo.
 
-1. Check mark next to *Send app logs and system info* and tap *Send*.
+1. Zaškrtněte políčko vedle *Odeslat záznamy aplikací a systémové informace* a klepněte na *Odeslat*.
