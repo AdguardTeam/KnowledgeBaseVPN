@@ -32,7 +32,6 @@ jobs:
           title: Update translations
           body: Transactions are synced from Crowdin
           reviewers: |
-            anastasiia-fedotova
             el-termikael
           branch: update-translations
           base: master
