@@ -53,7 +53,7 @@ To disable it, set it to `off`.
 
 To change the update channel, type:
 
-    `adguardvpn-cli config set-update-channel <channel>`
+    adguardvpn-cli config set-update-channel <channel>
 
 Replace `<channel>` with `stable`, `beta`, or `nightly`, depending on your preferences.
 

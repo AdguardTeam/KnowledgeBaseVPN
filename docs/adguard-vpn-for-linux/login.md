@@ -23,7 +23,7 @@ To log out of AdGuard VPN, type:
 
 For quick connection, type:
 
-    adguard-vpn cli connect
+    adguardvpn-cli connect
 
 AdGuard VPN will connect to the fastest available or the last used location.
 
