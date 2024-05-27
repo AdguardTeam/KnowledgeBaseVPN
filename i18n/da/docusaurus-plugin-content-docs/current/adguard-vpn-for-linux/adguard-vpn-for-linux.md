@@ -17,5 +17,5 @@ På Linux, tryk på `Ctrl+Alt+T`. På Mac, skriv 'Terminal' i søgefeltet.
 For at se alle kommandoer, skriv:
 
 ```
-`adguardvpn-cli --help-all`
+adguardvpn-cli --help-all
 ```

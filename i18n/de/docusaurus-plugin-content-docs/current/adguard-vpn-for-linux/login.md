@@ -28,7 +28,7 @@ adguardvpn-cli logout
 Für eine Schnellverbindung, geben Sie Folgendes ein:
 
 ```
-adguard-vpn cli connect
+adguardvpn-cli connect
 ```
 
 AdGuard VPN verbindet sich mit dem schnellsten verfügbaren oder dem zuletzt genutzten Standort.

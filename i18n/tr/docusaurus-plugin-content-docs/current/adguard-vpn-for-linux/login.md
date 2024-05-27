@@ -28,7 +28,7 @@ adguardvpn-cli logout
 Hızlı bağlantı için şunu yazın:
 
 ```
-adguard-vpn cli connect
+adguardvpn-cli connect
 ```
 
 AdGuard VPN, mevcut en hızlı veya en son kullanılan konuma bağlanır.

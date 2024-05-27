@@ -17,5 +17,5 @@ AdGuard VPN for Linux 也稱為 AdGuard VPN CLI，是一個命令列 VPN 用戶�
 要檢視所有命令，請輸入：
 
 ```
-`adguardvpn-cli --help-all`
+adguardvpn-cli --help-all
 ```

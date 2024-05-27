@@ -70,10 +70,10 @@ adguardvpn-cli config send-reports on
 若要變更更新頻道，請輸入：
 
 ```
-`adguardvpn-cli config set-update-channel <channel>`
+adguardvpn-cli config set-update-channel <channel>
 ```
 
-依照您的喜好，將 `<channel>` 替換為 `stable`、`beta` 或 `nightly`。
+Replace `<channel>` with `release`, `beta`, or `nightly`, depending on your preferences.
 
 ## 提示
 

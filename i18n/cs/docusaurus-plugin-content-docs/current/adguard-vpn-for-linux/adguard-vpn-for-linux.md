@@ -17,5 +17,5 @@ V Linuxu stiskněte `Ctrl+Alt+T`. V macOS zadejte do vyhledávacího pole `Termi
 Chcete-li zobrazit všechny dostupné příkazy, zadejte:
 
 ```
-`adguardvpn-cli --help-all`
+adguardvpn-cli --help-all
 ```

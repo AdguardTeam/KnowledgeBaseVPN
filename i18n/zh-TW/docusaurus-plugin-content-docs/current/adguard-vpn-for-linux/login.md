@@ -28,7 +28,7 @@ adguardvpn-cli logout
 若要快速連接，請鍵入：
 
 ```
-adguard-vpn cli connect
+adguardvpn-cli connect
 ```
 
 AdGuard VPN 將連接到最快的可用位置或上次使用的位置。

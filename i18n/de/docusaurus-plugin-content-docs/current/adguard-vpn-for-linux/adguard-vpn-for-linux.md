@@ -17,5 +17,5 @@ Unter Linux drücken Sie das Tastaturkürzel `Strg+Alt+T`. Geben Sie auf Ihrem M
 Um alle verfügbaren Befehle anzuzeigen, geben Sie Folgendes ein:
 
 ```
-`adguardvpn-cli --help-all`
+adguardvpn-cli --help-all
 ```

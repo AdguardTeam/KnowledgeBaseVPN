@@ -28,7 +28,7 @@ adguardvpn-cli logout
 For hurtig forbindelsesoprettelse, skriv:
 
 ```
-adguard-vpn cli connect
+adguardvpn-cli connect
 ```
 
 AdGuard VPN vil oprette forbindelse til den hurtigste tilgængelige eller seneste brugte lokation.
