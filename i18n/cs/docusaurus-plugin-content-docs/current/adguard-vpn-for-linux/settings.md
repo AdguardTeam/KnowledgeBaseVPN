@@ -70,10 +70,10 @@ Chcete-li to zakázat, nastavte na `off`.
 Chcete-li změnit kanál aktualizace, zadejte:
 
 ```
-`adguardvpn-cli config set-update-channel <channel>`
+adguardvpn-cli config set-update-channel <channel>
 ```
 
-Nahraďte `<channel>` za `stable`, `beta` nebo `nightly` v závislosti na vašich preferencích.
+Replace `<channel>` with `release`, `beta`, or `nightly`, depending on your preferences.
 
 ## Nápovědy
 

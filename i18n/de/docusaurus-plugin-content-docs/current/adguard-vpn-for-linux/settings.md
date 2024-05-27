@@ -70,10 +70,10 @@ Um sie zu deaktivieren, setzen Sie sie auf `off`.
 Um den Aktualisierungskanal zu ändern, geben Sie Folgendes ein:
 
 ```
-`adguardvpn-cli config set-update-channel <channel>`
+adguardvpn-cli config set-update-channel <channel>
 ```
 
-Ersetzen Sie `<channel>` durch `stable`, `beta`, oder `nightly`, je nach Ihren Bedürfnissen.
+Replace `<channel>` with `release`, `beta`, or `nightly`, depending on your preferences.
 
 ## Hinweise
 

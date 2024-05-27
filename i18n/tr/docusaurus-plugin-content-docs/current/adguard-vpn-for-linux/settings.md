@@ -70,10 +70,10 @@ Devre dışı bırakmak için `off` olarak ayarlayın.
 Güncelleme kanalını değiştirmek için şunu yazın:
 
 ```
-`adguardvpn-cli config set-update-channel <channel>`
+adguardvpn-cli config set-update-channel <channel>
 ```
 
-`<channel>` yerine tercihlerinize bağlı olarak `stable`, `beta` veya `nightly` ile değiştirin.
+Replace `<channel>` with `release`, `beta`, or `nightly`, depending on your preferences.
 
 ## İpuçları
 

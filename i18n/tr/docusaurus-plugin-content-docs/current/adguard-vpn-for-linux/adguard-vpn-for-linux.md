@@ -17,5 +17,5 @@ Linux'ta `Ctrl+Alt+T` tuşlarına basın. Mac'inizde, arama alanına `Terminal` 
 Mevcut tüm komutları görüntülemek için şunu yazın:
 
 ```
-`adguardvpn-cli --help-all`
+adguardvpn-cli --help-all
 ```
