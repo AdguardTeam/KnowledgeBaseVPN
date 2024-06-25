@@ -28,7 +28,7 @@ Salasanat, korttitiedot ja tavalliset henkilökohtaiset perustiedot ovat alttiin
 
 ### Luotettu kehittäjä
 
-AdGuard on toiminut henkilökohtaisen tietosuojauksen ja mainoseston markkinoilla sekä kehittänyt ohjelmistojaan yli 12 vuoden ajan. Tänä aikana yrityksemme on rakentanut moitteettoman maineen ja asiakasmäärämme on ylittänyt 30 miljoonaa.
+AdGuard has been present on the market of personal data protection and ad blocking and developing its line of software for more than 15 years. Over this time, our company has built an impeccable reputation, and more than 410 million people have installed AdGuard.
 
 ### Ainutlaatuinen VPN-protokolla
 

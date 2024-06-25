@@ -10,11 +10,11 @@ slug: /
 
 VPN 可以让用户与互联网上另一处网络创建安全的连接。
 
-最初，创建 VPN 是为了通过互联网安全地连接企业网络，以便人们可以从家里连接到企业网络。 Today, this technology is used for many other things: for example, to browse the Internet anonymously or to protect your online activity from prying eyes while using public Wi-Fi.
+最初，创建 VPN 是为了通过互联网安全地连接企业网络，以便人们可以从家里连接到企业网络。 今天，这项技术被用于许多其他方面：例如，匿名浏览网页或在使用公共Wi-Fi时保护您的在线活动不受窥探。
 
-A VPN connects a user's computer or mobile device to a server and allows one to browse the net using a "cover" IP address. 因此，第三方观察者无法检测用户的真实 IP 地址，这使得追踪TA们几乎不可能。
+VPN将用户的计算机或移动设备连接到服务器，并允许用户使用“覆盖” IP地址浏览网络。 因此，第三方观察者无法检测用户的真实 IP 地址，这使得追踪TA们几乎不可能。
 
-The first thing that users mention in relation to VPN is traffic encryption and the security derived from it. 但这意味着什么呢？ VPN 在用户的设备和远程服务器之间创建加密隧道。 您的所有网络流量都会经由此隧道，从而在此过程中保护您的数据。 对于外部观察者来说，用户的流量从 VPN 服务器流出，所以看起来用户的设备有这个服务器的 IP 地址。 这种“技巧”掩盖用户的身份和真实位置。
+用户提到的与VPN有关的第一件事是流量加密以及由此产生的安全性。 但这意味着什么呢？ VPN 在用户的设备和远程服务器之间创建加密隧道。 您的所有网络流量都会经由此隧道，从而在此过程中保护您的数据。 对于外部观察者来说，用户的流量从 VPN 服务器流出，所以看起来用户的设备有这个服务器的 IP 地址。 这种“技巧”掩盖用户的身份和真实位置。
 
 VPN 可用于：
 
@@ -28,7 +28,7 @@ VPN 可用于：
 
 ### 靠谱的开发者
 
-AdGuard 进入个人数据保护和广告拦截市场并开发其软件系列已超过 12 年。 在这段时间里，我们公司已经建立了无可挑剔的声誉，我们的客户数量已经超过了 3000万。
+AdGuard has been present on the market of personal data protection and ad blocking and developing its line of software for more than 15 years. Over this time, our company has built an impeccable reputation, and more than 410 million people have installed AdGuard.
 
 ### 特有的 VPN 协议
 

@@ -11,3 +11,4 @@ Je nachdem, welche AdGuard VPN-App oder Browsererweiterung Sie installieren möc
 - [AdGuard VPN für Mac](/adguard-vpn-for-mac/installation)
 - [AdGuard VPN Browsererweiterung](/adguard-vpn-browser-extension/installation)
 - [AdGuard VPN für Router](/general/set-up-adguard-vpn-on-your-router/)
+- [AdGuard VPN für Linux](/adguard-vpn-for-linux/installation)

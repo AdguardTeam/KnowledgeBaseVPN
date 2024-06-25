@@ -15,59 +15,59 @@ sidebar_position: 1
 
 ![Исключения *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/exclusions.jpg)
 
-By default, AdGuard VPN works for all websites and apps except those added to exclusions: if you don’t specify an app or website, VPN will be active for them. You can also turn it on **selectively** — only for specified apps or websites. To switch to this mode, tap *Change mode*.
+По умолчанию AdGuard VPN работает для всех сайтов и приложений, кроме добавленных в исключения: если вы не укажете приложение или сайт, VPN для них будет активен. Вы также можете включить **выборочно** — только для определенных приложений или веб-сайтов. Чтобы перейти в этот режим, нажмите *Изменить режим*.
 
-![Change mode *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/change_mode.jpg)
+![Изменить режим *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/change_mode.jpg)
 
-:::caution
+:::осторожно
 
-Be careful when using your VPN **selectively**.
+Будьте осторожны при использовании VPN **выборочно**.
 
-If you exclude a browser from the VPN tunnel, website exclusions won’t work for it.
+Если вы уберете браузер из VPN-туннеля, исключение веб-сайтов для него не будет работать.
 
-If you switch to this mode for websites, don’t forget to add the domains of the apps you want to use — for example, `facebook.com` for Facebook.
+Если вы переключитесь в режим для веб-сайтов, не забудьте добавить домены приложений, которые вы хотите использовать — например, `facebook.com` для Facebook.
 
 :::
 
-### Websites
+### Сайты
 
-You can add a domain (e.g., `google.com`) or subdomain (e.g., `*.google.com`) to exclusions in three ways:
+Вы можете добавить домен (например, `google.com`) или поддомен (например, `*.google.com`) в исключения тремя способами:
 
 - Введите его вручную в приложении
 - Добавьте его прямо из браузера, поделившись сайтом с помощью AdGuard VPN
 - Добавьте его из встроенного списка сервисов
 
-![Add manually *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/manually.jpg)
+![Добавить вручную *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/manually.jpg)
 
-![Add from the list *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/from_list.jpg)
+![Добавить из списка *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/from_list.jpg)
 
 :::note
 
-There are some nuances to manually adding domains. Например, если вы вручную исключите домен `google.com`, все поддомены `*.google.com` также будут внесены в список исключений. Однако доменные имена с другими доменами верхнего уровня, такие как `google.ru` или `google.it`, не будут исключены.
+При ручном добавлении доменов нужно учитывать некоторые нюансы. Например, если вы вручную исключите домен `google.com`, все поддомены `*.google.com` также будут внесены в список исключений. Однако доменные имена с другими доменами верхнего уровня, такие как `google.ru` или `google.it`, не будут исключены.
 
-If you add `youtube.com` to exclusions, the domain of the same service `youtu.be` won’t be added. In this case, it’s safer to use the built-in lists of services. They contain all the subdomains associated with each platform.
+Если добавить `youtube.com` в исключения, то домен того же сервиса `youtu.be` не будет добавлен. В этом случае безопаснее использовать встроенные списки сервисов. Они содержат все поддомены, связанные с каждой платформой.
 
 :::
 
-Since you can enable subdomains in service lists, we added boxes that reflect the status of each service:
+Поскольку в списках сервисов можно включать поддомены, мы добавили поля, отражающие статус каждого сервиса:
 
 - **Полностью включён** — обозначается белой галочкой на зелёном фоне
 - **Частично включён** (включённые поддомены без основного домена) — отмечен зелёным квадратом на белом фоне
 - **Полностью отключён** — отмечен пустым флажком
 
-![Website exclusions *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/websites.png)
+![Исключения веб-сайтов *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/websites.png)
 
-If you’ve accidentally deleted a domain or subdomain, just tap *Reset to default*.
+Если вы случайно удалили домен или поддомен, просто нажмите *Сброс к значениям по умолчанию*.
 
-![Reset to default *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/reset.jpg)
+![Сброс к значениям по умолчанию *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/reset.jpg)
 
-### Apps
+### Приложения
 
-You can also manage VPN for apps. To exclude an app from the VPN tunnel, tap *Add app*. To use VPN **selectively**, tap *Change mode*.
+Вы также можете управлять VPN для приложений. Чтобы исключить приложение из VPN-туннеля, нажмите *Добавить приложение*. Чтобы использовать VPN **выборочно**, нажмите *Изменить режим*.
 
 ![Исключения приложений *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/apps.jpg)
 
-:::caution
+:::осторожно
 
 В *Интегрированном режиме* можно управлять приложениями только через Блокировщик рекламы AdGuard.
 
@@ -77,50 +77,50 @@ You can also manage VPN for apps. To exclude an app from the VPN tunnel, tap *Ad
 
 Чтобы попасть в *Настройки*, нажмите на иконку в виде шестерёнки в правом нижнем углу экрана.
 
-![Settings *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/settings.jpg)
+![Настройки *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/settings.jpg)
 
-### General
+### Основные
 
-![General *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/general.jpg)
+![Основные *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/general.jpg)
 
-In *General*, you can manage basic AdGuard VPN settings:
+В разделе *Основные*вы можете управлять основными настройками AdGuard VPN:
 
-- Launch AdGuard VPN at system startup
-- Select a DNS server to encrypt traffic and block ads when connected to VPN (we recommend using AdGuard DNS)
-- Enable Kill Switch to protect your privacy and disconnect from the Internet if the VPN connection drops
-- Select a color theme
-- Enable anonymous crash reports to notify developers about app issues
+- Запустите AdGuard VPN при запуске системы
+- Выберите DNS-сервер для шифрования трафика и блокировки рекламы при подключении к VPN (рекомендуем использовать AdGuard DNS)
+- Включите функцию Kill Switch для защиты конфиденциальности и отключения от Интернета в случае разрыва VPN-соединения
+- Выберите цветовую тему
+- Включите анонимные сообщения о сбоях, чтобы уведомить разработчиков о проблемах с приложениями
 
-### Advanced
+### Расширенные
 
-![Advanced *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/advanced.png)
+![Расширенные *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/advanced.png)
 
-The *Advanced* section is a set of settings that are not as commonly used.
+Раздел *Расширенные* представляет собой набор настроек, которые используются не так часто.
 
 *Режим работы* позволяет указать, как будет маршрутизироваться трафик. Есть три режима: VPN, SOCKS5 и Интегрированный режим. В режиме *VPN* весь трафик направляется через AdGuard VPN. В режиме *SOCKS5* AdGuard VPN запускает локальный прокси-сервер, который могут использовать другие приложения для маршрутизации трафика. *Интегрированный режим* позволяет AdGuard VPN и Блокировщику рекламы AdGuard работать вместе.
 
 :::note
 
-Some AdGuard VPN features are disabled in *Integrated mode*: DNS servers, Kill Switch, and App exclusions. Вы можете настроить DNS-защиту и маршрутизировать приложения через прокси AdGuard VPN в приложении Блокировщика AdGuard.
+Некоторые функции AdGuard VPN отключены *в Интегрированном режиме*: DNS-серверы, Kill Switch и Исключение приложений. Вы можете настроить DNS-защиту и маршрутизировать приложения через прокси AdGuard VPN в приложении Блокировщика AdGuard.
 
 :::
 
-*Logging level* specifies how many app events are recorded. We don’t recommend enabling the *Extended* or *Extreme* logging levels unless requested by our support team.
+*Уровень логирования* Указывает, сколько событий приложения записывается. Мы не рекомендуем включать *расширенный* или *экстремальный* уровни логирования, если этого не требует наша служба поддержки.
 
-In this section, you can also export logs and system info to share them with support.
+В этом разделе вы также можете экспортировать журналы и системную информацию, чтобы поделиться ими со службой поддержки.
 
-*Diagnostic data* displays the locally stored technical information about the app, device, and connections. You can copy and send it to our support team if necessary.
+*Данные диагностики* отображают локально сохраненную техническую информацию о приложении, устройстве и соединениях. При необходимости вы можете скопировать их и отправить в нашу службу поддержки.
 
 Последний раздел *Расширенных настроек* — это *Низкоуровневые настройки*. Мы настоятельно рекомендуем не заходить в этот раздел, если вы не обладаете достаточными техническими знаниями или вас не попросила об этом наша служба поддержки. Здесь можно включить «Запись сетевых пакетов» или протокол IPv6 на VPN-интерфейсе, выбрать порт, на котором будет работать прокси-сервер, или версию HTTP-протокола, которую следует использовать.
 
-:::note Совместимость
+:::caution
 
-Вы можете воспользоваться опцией *Включить IPv6*, только если ваша сеть поддерживает IPv6.
+In the **Preferred IP version** option, before you choose between IPv6 and IPv4, make sure that your network supports that protocol. For example, if you select IPv6 and your network only supports IPv4, you will have problems connecting to the Internet. And vice versa.
 
 :::
 
 ### Поддержка
 
-In the *Support* section, you can check out our FAQ to get quick answers to your questions, report bugs, and suggest new features.
+В разделе *Поддержка* вы можете ознакомиться с часто задаваемыми вопросами, чтобы получить быстрые ответы на свои вопросы, сообщить об ошибках и предложить новые функции.
 
-![Support *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/support.jpg)
+![Поддержка *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/support.jpg)

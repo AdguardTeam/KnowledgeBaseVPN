@@ -28,7 +28,7 @@ Passwörter, Kartendetails und einfach nur persönliche Informationen sind gefä
 
 ### Vertrauenswürdiger Entwickler
 
-AdGuard ist seit mehr als 12 Jahren auf dem Markt für den Schutz personenbezogener Daten und der Werbeblockierung präsent und entwickelt seine Softwarelinie. In dieser Zeit hat sich unser Unternehmen einen tadellosen Ruf aufgebaut und die Zahl unserer Kunden hat 30 Millionen überschritten.
+AdGuard ist seit mehr als 15 Jahren auf dem Markt des Schutzes persönlicher Daten und des Sperren von Werbung präsent und entwickelt seine Softwarelinie. In dieser Zeit hat sich unser Unternehmen einen tadellosen Ruf erworben, und mehr als 410 Millionen Menschen haben AdGuard installiert.
 
 ### Einzigartiges VPN-Protokoll
 

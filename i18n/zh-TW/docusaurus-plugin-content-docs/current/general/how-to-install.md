@@ -11,3 +11,4 @@ sidebar_position: 3
 - [適用於 Mac 的 AdGuard VPN](/adguard-vpn-for-mac/installation)
 - [AdGuard VPN 瀏覽器擴充](/adguard-vpn-browser-extension/installation)
 - [適用於路由器的 AdGuard VPN](/general/set-up-adguard-vpn-on-your-router/)
+- [AdGuard VPN for Linux](/adguard-vpn-for-linux/installation)

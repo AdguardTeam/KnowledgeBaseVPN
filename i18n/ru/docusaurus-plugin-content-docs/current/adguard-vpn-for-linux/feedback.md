@@ -3,37 +3,37 @@ title: Sending feedback
 sidebar_position: 5
 ---
 
-## Report a problem or suggest a feature
+## Сообщите о проблеме или предложите функцию
 
-If you’ve found a bug in AdGuard VPN for Linux or want to suggest a new feature, here’s how to do it:
+Если вы нашли ошибку в AdGuard VPN для Linux или хотите предложить новую функцию, вот как это сделать:
 
-- Fill out the [feedback form](https://surveys.adguard.com/en/vpn_linux/form.html).
-- [Create a GitHub issue](https://github.com/AdguardTeam/AdGuardVPNCLI/issues/new/choose). But before you do, check the [repository](https://github.com/AdguardTeam/AdGuardVPNCLI/issues?q=is%3Aissue) for similar issues.
+- Заполните [форму обратной связи](https://surveys.adguard.com/en/vpn_linux/form.html).
+- [Создайте задачу GitHub](https://github.com/AdguardTeam/AdGuardVPNCLI/issues/new/choose). Но прежде чем это сделать, проверьте [репозиторий](https://github.com/AdguardTeam/AdGuardVPNCLI/issues?q=is%3AIssue) на предмет подобных проблем.
 
 :::note
-If you want to support the implementation of a new feature or bugfix, you can vote for it on GitHub. To vote, just react with some emoji.
+Если вы хотите поддержать реализацию новой функции или исправление ошибки, вы можете проголосовать за это на GitHub. Чтобы проголосовать, просто поставьте эмодзи.
 :::
 
-## Collect and send logs
+## Как собирать и отправлять логи
 
-1. Enable debug logging by typing:
+1. Включите ведение журнала отладки, набрав:
 
    `adguardvpn-cli config set-debug-logging on`
 
-2. Reproduce the problem and try to remember the exact time it occurred.
+2. Воспроизведите проблему и постарайтесь вспомнить точное время её возникновения.
 
-3. Wait a while, then archive the logs in the _Downloads_ or _Home_ folder by typing:
+3. Подождите некоторое время, затем заархивируйте журналы в папке _Загрузки_ или _Домашняя_, набрав:
 
-   For Linux
+   Для Linux
 
    `zip -rj logs.zip ${XDG_DATA_HOME:-~/.local/share}/adguardvpn-cli/*.log`
 
-   For Mac
+   Для macOS
 
-   `zip -rj ~/Downloads/logs.zip ~/Library/"Application Support"/adguardvpn-cli/*.log`
+   `zip -rj ~/Downloads/logs.zip ~/Library/"Поддержка приложений"/adguardvpn-cli/*.log`
 
-4. Send the log file to devteam@adguard.com. Specify the time of the error and attach a link to your GitHub issue or its number (it appears as #number next to the title). Alternatively, you can upload the log file to Google Drive and share it with devteam@adguard.com. Attach the file link to your GitHub issue.
+4. Отправьте файл журнала на devteam@adguard.com. Укажите время ошибки и прикрепите ссылку на вашу задачу GitHub или ее номер (она отображается как #number рядом с заголовком). Кроме того, вы можете загрузить файл с логами на Google Диск и отправить его на devteam@adguard.com. Добавьте ссылку на файл к задаче на GitHub.
 
-5. Disable debug logging by typing:
+5. Включите ведение журнала отладки, набрав:
 
-   `adguardvpn-cli config set-debug-logging off`
+   `adguardvpn-cli config set-debug-logging on`

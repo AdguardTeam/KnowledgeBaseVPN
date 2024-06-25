@@ -28,7 +28,7 @@ Les mots de passe, les détails de la carte bancaire et tout simplement les info
 
 ### Développeur fiable
 
-AdGuard est présent sur le marché de la protection des données personnelles et du blocage des publicités et développe sa gamme de logiciels depuis plus de 12 ans. Au fil du temps, notre entreprise s'est forgée une réputation irréprochable et le nombre de nos clients a dépassé les 30 millions.
+AdGuard has been present on the market of personal data protection and ad blocking and developing its line of software for more than 15 years. Over this time, our company has built an impeccable reputation, and more than 410 million people have installed AdGuard.
 
 ### Protocole VPN unique
 

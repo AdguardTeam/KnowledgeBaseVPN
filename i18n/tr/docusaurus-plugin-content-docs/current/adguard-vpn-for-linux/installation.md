@@ -3,7 +3,7 @@ title: Kurulum ve kaldırma
 sidebar_position: 2
 ---
 
-## Install AdGuard VPN for Linux
+## Linux için AdGuard VPN kurma
 
 AdGuard VPN'i kurmak için şunu yazın:
 
@@ -33,7 +33,7 @@ Agree to link the binary to `usr/local/bin` by pressing `y` and wait until the i
 AdGuard VPN'in resmi bir sürümü olduğunu kanıtlamak için `gpg` aracını kullanarak imzayı doğrulayabilirsiniz. [GitHub'da daha fazlasını okuyun](https://github.com/AdguardTeam/AdGuardVPNCLI?tab=readme-ov-file#verify-releases)
 :::
 
-## Uninstall AdGuard VPN for Linux
+## Linux için AdGuard VPN'i kaldırma
 
 AdGuard VPN'i kaldırmak için şunu yazın:
 

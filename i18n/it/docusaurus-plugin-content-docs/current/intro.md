@@ -28,7 +28,7 @@ Password, dettagli della carta e semplici informazioni personali sono a rischio 
 
 ### Sviluppatore affidabile
 
-AdGuard è presente nel mercato della protezione dei dati personali e del blocco degli annunci e sviluppa la sua linea di software da oltre 12 anni. In questo periodo, la nostra azienda ha costruito una reputazione impeccabile e il numero dei nostri clienti ha superato i 30 milioni.
+AdGuard has been present on the market of personal data protection and ad blocking and developing its line of software for more than 15 years. Over this time, our company has built an impeccable reputation, and more than 410 million people have installed AdGuard.
 
 ### Protocollo VPN unico
 

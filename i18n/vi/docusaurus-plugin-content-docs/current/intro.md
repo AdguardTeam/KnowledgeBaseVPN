@@ -28,7 +28,7 @@ Mật khẩu, thông tin thẻ và thông tin cá nhân cơ bản đều có ngu
 
 ### Nhà phát triển tin cậy
 
-AdGuard đã có mặt trên thị trường bảo vệ dữ liệu cá nhân và chặn quảng cáo cũng như phát triển dòng phần mềm của mình trong hơn 12 năm qua. Trong thời gian này, công ty chúng tôi đã tạo dựng được danh tiếng hoàn hảo với hơn 30 triệu khách hàng.
+AdGuard has been present on the market of personal data protection and ad blocking and developing its line of software for more than 15 years. Over this time, our company has built an impeccable reputation, and more than 410 million people have installed AdGuard.
 
 ### Giao thức VPN độc đáo
 
