@@ -113,9 +113,9 @@ V této části můžete také exportovat záznamy a systémové informace a sd�
 
 Poslední částí v *Pokročilých nastaveních* jsou *Nízkoúrovňová nastavení*. Doporučujeme vám, abyste do této sekce nevstupovali, pokud nejste vysoce kvalifikovaní nebo pokud vás o to nepožádal náš tým podpory. Zde je možné povolit protokolování rozhraní TUN nebo protokolu IPv6 na rozhraní VPN, vybrat port proxy serveru nebo verzi Internetového protokolu, která se má používat.
 
-:::note Kompatibilita
+:::caution
 
-Možnost *Povolit IPv6* je k dispozici pouze pro sítě, které podporují IPv6.
+V možnosti **Preferovaná verze IP** se před výběrem mezi IPv6 a IPv4 ujistěte, že vaše síť tento protokol podporuje. Pokud například zvolíte IPv6 a vaše síť podporuje pouze IPv4, budete mít problémy s připojením k Internetu. A naopak.
 
 :::
 

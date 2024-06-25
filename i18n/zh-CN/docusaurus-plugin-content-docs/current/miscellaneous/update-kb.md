@@ -21,7 +21,7 @@ sidebar_position: 3
 
 知识库现有文章的翻译是在 [Crowdin 平台](https://crowdin.com/project/adguard-vpn-knowledge-base)上进行的。 有关翻译和使用 Crowdin 的所有详细信息，都可以在 [AdGuard 广告拦截器知识库的专用文章](https://adguard.com/kb/miscellaneous/contribute/translate/program/)中找到。
 
-在撰写 AdGuard VPN 知识库文章时，您可能会遇到包含复数形式的字符串，您应该格外注意翻译。 [In a separate article](https://adguard.com/kb/miscellaneous/contribute/translate/plural-forms/), we describe in detail the difficulties that can arise when translating strings with plural forms and provide detailed guidance on how these are handled on the Crowdin platform.
+在撰写 AdGuard VPN 知识库文章时，您可能会遇到包含复数形式的字符串，您应该格外注意翻译。 [在另一篇文章中](https://adguard.com/kb/miscellaneous/contribute/translate/plural-forms/)，我们详细描述了在翻译具有复数形式的字符串时可能出现的困难，并提供了有关如何在Crowdin平台上处理这些困难的详细指导。
 
 ## 处理未解决的问题
 

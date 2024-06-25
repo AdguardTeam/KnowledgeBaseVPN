@@ -5,9 +5,9 @@ sidebar_position: 7
 
 ## 前言
 
-加密是“虚拟私人网络“中存在"私人"一词的原因。 A VPN creates a tunnel between your device and a VPN server, that encrypts and transmits your data securely to the open Internet. 加密过程，即将数据变成任何人都无法读取的乱码，对于任何 VPN 服务都是必不可少的。
+加密是“虚拟私人网络“中存在"私人"一词的原因。 VPN通过在您的设备和VPN服务器之间创建一个隧道，将您的数据加密并安全地传输到开放的互联网。 加密过程，即将数据变成任何人都无法读取的乱码，对于任何 VPN 服务都是必不可少的。
 
-The AdGuard VPN protocol uses the most secure and fast encryption algorithm to date — AES-256. 了解什么是 AES-256，以及它为何如此出色。
+AdGuard VPN 协议使用迄今为止最安全、最快速的加密算法 —— AES-256。 了解什么是 AES-256，以及它为何如此出色。
 
 ## AES 历史发展
 
@@ -23,6 +23,6 @@ AES 是一种带有对称密钥的分组密码。 作为一种对称密钥密码
 
 有不同的密钥大小，包括 128、192 和 256 位，并且信息块也以位为单位。 在加密过程中，加密器根据安全密钥将每条信息替换为另一条信息。 因此，例如，AES-256 在 14 轮中从 256 个明文块创建 256 个密文块。
 
-轮回由几个步骤组成：将数据分割成块，交换字节，移动行和重新排列列。 The result is a completely random set of characters that will only make sense when using the right encryption key.
+轮回由几个步骤组成：将数据分割成块，交换字节，移动行和重新排列列。 结果是一组完全随机的字符，只有在使用正确的加密密钥时才有意义。
 
-AES-256 is the strongest level of encryption: to break this cipher, 2256 discrete combinations, each consisting of 78 digits, would have to be tried.
+AES-256 是最强的加密级别：要破解此密码，必须尝试 2256 个离散组合，每个组合由 78 位数字组成。

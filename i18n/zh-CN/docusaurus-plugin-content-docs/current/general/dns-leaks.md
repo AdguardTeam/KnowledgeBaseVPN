@@ -13,7 +13,7 @@ sidebar_position: 9
 
 ## 如何检测 DNS 泄漏
 
-有各种匿名检查服务可用于检测 DNS 泄漏，例如 `whoer.net`。 The algorithms of these websites are not clear, but their intentions are — to scare users with imaginary leaks, potentially enabling them to sell their services.
+有各种匿名检查服务可用于检测 DNS 泄漏，例如 `whoer.net`。 这些网站的算法尚不清楚，但它们的意图是--用假想的泄密事件来吓唬用户，从而有可能使它们能够出售自己的服务。
 
 一些安全扫描网站认为，用户 IP 地址和 DNS 服务器 IP 地址重合是“好事”，表明没有泄漏。 实际上，这样中重合可能是使用了 VPN。 而当 VPN 被禁用并且把请求发送至 ISP 的 DNS 服务器时，DNS 服务器的 IP 地址与您自己的 IP 地址并不一致。
 
@@ -29,7 +29,7 @@ AdGuard VPN 被设置成默认使用非过滤 AdGuard DNS 服务器。 这可确
 
 ## 如何在 AdGuard VPN 中设置自定义 DNS 服务器
 
-现在市面上有许多由[知名 DNS 提供商](https://adguard-dns.io/kb/general/dns-providers)提供的公共 DNS 服务器。 Some of them can only perform their direct duties — giving the IP addresses of the requested domains, and some can do more.
+现在市面上有许多由[知名 DNS 提供商](https://adguard-dns.io/kb/general/dns-providers)提供的公共 DNS 服务器。 其中一些只能履行其直接职责--提供所请求域名的 IP 地址，而另一些则可以做更多。
 
 例如，AdGuard DNS 可删除广告并保护您的设备免遭跟踪；AdGuard DNS 家庭保护可将 AdGuard DNS 功能和安全搜索与家长控制相结合。
 

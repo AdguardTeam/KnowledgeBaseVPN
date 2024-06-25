@@ -28,7 +28,7 @@ VPN은 다음 용도로 사용할 수 있습니다.
 
 ### 신뢰할 수 있는 개발자
 
-AdGuard는 12년 이상 개인 데이터를 보호하고 광고를 차단하는 소프트웨어 제품군을 개발해 왔습니다. 그동안 저희 회사는 흠잡을 데 없는 명성을 쌓았고 고객 수는 3천만 명을 넘어섰습니다.
+AdGuard has been present on the market of personal data protection and ad blocking and developing its line of software for more than 15 years. Over this time, our company has built an impeccable reputation, and more than 410 million people have installed AdGuard.
 
 ### 사내 VPN 프로토콜
 

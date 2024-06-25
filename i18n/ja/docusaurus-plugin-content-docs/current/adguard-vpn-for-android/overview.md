@@ -113,9 +113,9 @@ In this section, you can also export logs and system info to share them with sup
 
 *高度な設定*の最後のセクションは「*ローレベル設定*」です。 ※高度な専門知識をお持ちの方もしくはサポートチームから依頼された方以外は、このセクションに入らないようお願いします。 こちらでは、VPNインターフェイスでTUNインターフェイスロギングまたはIPv6プロトコルを有効にし、使用するプロキシサーバーポートまたはインターネットプロトコルバージョンを選択できます。
 
-:::note Compatibility
+:::caution
 
-The *Enable IPv6* option is only available for networks that support IPv6.
+In the **Preferred IP version** option, before you choose between IPv6 and IPv4, make sure that your network supports that protocol. For example, if you select IPv6 and your network only supports IPv4, you will have problems connecting to the Internet. And vice versa.
 
 :::
 

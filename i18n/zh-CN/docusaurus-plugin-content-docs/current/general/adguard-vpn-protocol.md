@@ -1,5 +1,5 @@
 ---
-title: 'How the AdGuard VPN protocol works'
+title: 'AdGuard VPN 协议的工作原理'
 sidebar_position: 4
 ---
 
@@ -7,9 +7,9 @@ sidebar_position: 4
 
 ## 我们为什么开发 AdGuard VPN 协议
 
-多年来，我们一直致力于开发各种类型的广告拦截应用和浏览器扩展。 2019 年，我们决定几乎是从零开始开发自己的 VPN 服务。 When, in reality, there were a few reasons that prompted us to do so.
+多年来，我们一直致力于开发各种类型的广告拦截应用和浏览器扩展。 2019 年，我们决定几乎是从零开始开发自己的 VPN 服务。 实际上，促使我们这样做的原因有几个。
 
-- AdGuard 移动应用程序与 VPN 应用程序有兼容性问题。 通常情况下，两个基于 VPN 的移动应用程序无法同时运行：在 iOS 上偶尔能，而在 Android 上从未实现。 As AdGuard Ad Blocker apps use local VPN to filter network traffic, using them alongside any VPN app would be out of the question. 因此，我们认为开发内部 VPN 是确保兼容性的唯一可行方案：经过我们的潜心研发，两个应用程序终于能够作为一个 VPN 服务一起运行了。
+- AdGuard 移动应用程序与 VPN 应用程序有兼容性问题。 通常情况下，两个基于 VPN 的移动应用程序无法同时运行：在 iOS 上偶尔能，而在 Android 上从未实现。 由于 AdGuard 广告拦截器使用本地 VPN 来过滤网络流量，这就导致其无法与任何 VPN 应用程序一起使用。 因此，我们认为开发内部 VPN 是确保兼容性的唯一可行方案：经过我们的潜心研发，两个应用程序终于能够作为一个 VPN 服务一起运行了。
 - 其次，VPN 似乎与我们的理念和优先事项更为相关。 我们的首要目标是保护用户的隐私，而这正是 VPN 的作用所在。
 - 最后，在多年开发 AdGuard 软件的过程中，我们已经成为了过滤网络流量的专家。 这让我们能够带来新东西，而不是成为另一个平平无奇的 VPN。
 
@@ -20,18 +20,18 @@ sidebar_position: 4
 我们在开发 AdGuard VPN 协议时考虑到了流行 VPN 协议（OpenVPN、WireGuard、IPSec 等）的缺陷：
 
 - 这些协议容易在网络层面上被检测和阻止。
-- If you try to "conceal" them, the performance will drop.
+- 如果您尝试“隐藏”它们，性能就会下降。
 
-To "conceal" the use of VPN, the data flow is often "wrapped" in a TCP connection, and sometimes it's additionally encrypted to make the traffic appear like normal website communication. Unfortunately, this approach has a disadvantage — due to the use of TCP, there is a need for additional confirmation of delivery.
+为了“隐藏”VPN 使用痕迹，数据流通常被“包装”在 TCP 连接中，有时还会通过额外加密使流量看起来像正常的网站连接。 遗憾的是，这种方法有一个缺点--由于使用 TCP，需要额外的发送确认。
 
 使用任何流行的 VPN 协议，我们总是面临一个权衡：要么快但易于检测，要么很慢。
 
-## What's great about the AdGuard VPN protocol
+## AdGuard VPN 协议的优点
 
 - *几乎不可能与正常的 HTTPS 流量区分开来*，也就是说，与 AdGuard VPN 服务器的连接看起来和与正常网站的连接完全相同。
 - 我们使用 **HTTPS（TLS）**进行加密，它可以完美地应对完成任务。 这是世界上最流行的加密方法，实现它的程序库经常受到安全审计。
 
-一些现有的 VPN 协议也会进行加密，而且它们的 VPN 痕迹也很难被检测。 但这通常是以速度降低为代价的。 This doesn't happen in our case, thanks to several solutions.
+一些现有的 VPN 协议也会进行加密，而且它们的 VPN 痕迹也很难被检测。 但这通常是以速度降低为代价的。 这在我们的案例中不会发生，这要归功于几种解决方案。
 
-- We use the **HTTP/2 transport protocol**, which makes it virtually impossible to detect the AdGuard VPN protocol while maintaining high speed.
-- Unlike others, the AdGuard VPN protocol *operates with data and not with packets*. 这意味着 AdGuard VPN 会为每个连接建立单独的“隧道”，每个 HTTP/2 数据流对应一个连接。 AdGuard VPN 通过此隧道传输数据。 这使我们能够通过节省数据包的确认来加快操作速度，因为我们可以把多个数据包的数据缓冲到一个数据包中，然后再发送到 VPN 服务器（或从服务器发送到客户端）。 而数据包越少，需要的确认就越少。
+- 我们使用 **HTTP/2 传输协议**，这让 AdGuard VPN 协议可以在保持高速的同时几乎无法检测。
+- 与其他协议不同，AdGuard VPN 协议 *操作数据而非数据包*。 这意味着 AdGuard VPN 会为每个连接建立单独的“隧道”，每个 HTTP/2 数据流对应一个连接。 AdGuard VPN 通过此隧道传输数据。 这使我们能够通过节省数据包的确认来加快操作速度，因为我们可以把多个数据包的数据缓冲到一个数据包中，然后再发送到 VPN 服务器（或从服务器发送到客户端）。 而数据包越少，需要的确认就越少。

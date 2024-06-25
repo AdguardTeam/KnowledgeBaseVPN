@@ -28,7 +28,7 @@ Wachtwoorden, kaartgegevens en gewone persoonlijke gegevens lopen gevaar wanneer
 
 ### Vertrouwde ontwikkelaar
 
-AdGuard is al meer dan 12 jaar aanwezig op de markt van de bescherming van persoonsgegevens en advertentieblokkering en ontwikkelt zijn softwarelijn. In deze periode heeft ons bedrijf een onberispelijke reputatie opgebouwd en heeft het aantal klanten de 30 miljoen overschreden.
+AdGuard has been present on the market of personal data protection and ad blocking and developing its line of software for more than 15 years. Over this time, our company has built an impeccable reputation, and more than 410 million people have installed AdGuard.
 
 ### Uniek VPN-protocol
 

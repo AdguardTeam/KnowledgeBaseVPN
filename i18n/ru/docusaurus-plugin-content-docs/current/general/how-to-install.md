@@ -11,3 +11,4 @@ sidebar_position: 3
 - [AdGuard VPN для Mac](/adguard-vpn-for-mac/installation)
 - [Браузерное расширение AdGuard VPN](/adguard-vpn-browser-extension/installation)
 - [AdGuard VPN для роутеров](/general/set-up-adguard-vpn-on-your-router/)
+- [AdGuard VPN for Linux](/adguard-vpn-for-linux/installation)

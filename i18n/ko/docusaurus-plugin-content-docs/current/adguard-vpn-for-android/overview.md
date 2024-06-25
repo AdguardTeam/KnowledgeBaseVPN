@@ -113,9 +113,9 @@ In this section, you can also export logs and system info to share them with sup
 
 *고급 설정*의 마지막 섹션은 *로우 레벨 설정*입니다. 특별한 지식이 있거나 지원 팀에서 요청한 경우가 아니면 이 섹션을 사용하지 않는 것이 좋습니다. 여기에서 VPN 인터페이스에서 TUN 인터페이스 로깅 또는 IPv6 프로토콜을 활성화하고 사용할 프록시 서버 포트 또는 인터넷 프로토콜 버전을 선택할 수 있습니다.
 
-:::note 호환성
+:::caution
 
-*IPv6 활성화* 옵션은 IPv6를 지원하는 네트워크에서만 사용할 수 있습니다.
+In the **Preferred IP version** option, before you choose between IPv6 and IPv4, make sure that your network supports that protocol. For example, if you select IPv6 and your network only supports IPv4, you will have problems connecting to the Internet. And vice versa.
 
 :::
 

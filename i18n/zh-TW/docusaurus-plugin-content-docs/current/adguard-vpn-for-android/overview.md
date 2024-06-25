@@ -113,9 +113,9 @@ In this section, you can also export logs and system info to share them with sup
 
 *進階設定* 的最後一部分是 *低階設定*。 我們強烈建議您不要進入此部分，除非您非常合格或我們的支援團隊要求您這樣做。 這裡可以在 VPN 介面上啟用 TUN 介面日誌記錄或 IPv6 協議，選擇應使用的代理伺服器連接埠或 Internet 協定版本。
 
-:::note 兼容性
+:::caution
 
-*啟用 IPv6* 選項僅適用於支援 IPv6 的網路。
+In the **Preferred IP version** option, before you choose between IPv6 and IPv4, make sure that your network supports that protocol. For example, if you select IPv6 and your network only supports IPv4, you will have problems connecting to the Internet. And vice versa.
 
 :::
 

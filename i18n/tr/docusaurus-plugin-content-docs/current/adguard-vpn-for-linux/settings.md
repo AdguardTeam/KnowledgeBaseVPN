@@ -73,7 +73,7 @@ Güncelleme kanalını değiştirmek için şunu yazın:
 adguardvpn-cli config set-update-channel <channel>
 ```
 
-Replace `<channel>` with `release`, `beta`, or `nightly`, depending on your preferences.
+Tercihlerinize bağlı olarak `<channel>` yerine `release`, `beta` veya `nightly` yazın.
 
 ## İpuçları
 

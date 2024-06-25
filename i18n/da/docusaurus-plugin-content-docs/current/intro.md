@@ -28,7 +28,7 @@ Adgangskoder, kortoplysninger og alm. personlige oplysninger er i fare, når en 
 
 ### Betroet udvikler
 
-AdGuard har været på markedet for beskyttelse af personlige data samt adblocking, og udviklet sin serie af software, i flere end 12 år. I løbet af denne tid har vores virksomhed opbygget et upåklageligt ry, og antallet af kunder har rundet 30 millioner.
+AdGuard har været på markedet for personlig databeskyttelse samt adblocking og udviklet sin serie af software gennem flere end 15 år. I løbet af denne tid har vores virksomhed opbygget et upåklageligt ry, og flere end 410 millioner brugere har installeret AdGuard.
 
 ### Unik VPN-protokol
 

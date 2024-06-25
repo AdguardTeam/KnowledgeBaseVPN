@@ -28,7 +28,7 @@ Las contraseñas, los detalles de la tarjeta y simplemente su información perso
 
 ### Desarrollador de confianza
 
-AdGuard ha estado presente en el mercado de protección de datos personales y bloqueo de anuncios y ha desarrollado su línea de software durante más de 12 años. Durante este tiempo, nuestra empresa ha construido una reputación impecable, y el número de nuestros clientes ha superado los 30 millones.
+AdGuard has been present on the market of personal data protection and ad blocking and developing its line of software for more than 15 years. Over this time, our company has built an impeccable reputation, and more than 410 million people have installed AdGuard.
 
 ### Protocolo VPN único
 

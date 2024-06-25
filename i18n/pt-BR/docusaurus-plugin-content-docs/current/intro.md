@@ -28,7 +28,7 @@ Senhas, detalhes de cartões e simples informações pessoais estão em risco qu
 
 ### Desenvolvedor confiável
 
-A AdGuard está presente no mercado de proteção de dados pessoais e bloqueio de anúncios e desenvolve sua linha de softwares há mais de 12 anos. Ao longo desse tempo, nossa empresa construiu uma reputação impecável e o número de nossos clientes ultrapassou 30 milhões.
+AdGuard has been present on the market of personal data protection and ad blocking and developing its line of software for more than 15 years. Over this time, our company has built an impeccable reputation, and more than 410 million people have installed AdGuard.
 
 ### Protocolo VPN exclusivo
 

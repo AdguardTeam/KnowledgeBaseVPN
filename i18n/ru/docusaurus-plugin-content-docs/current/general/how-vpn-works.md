@@ -1,86 +1,86 @@
 ---
-title: How VPN works
+title: Как работает VPN
 sidebar_position: 1
 ---
 
-To understand how AdGuard VPN works, you should at first understand the general principles of the VPN service.
+Чтобы понять, как работает AdGuard VPN, для начала следует разобраться с основными принципами работы VPN-сервиса.
 
 <iframe width="560" height="315" class="youtube-video" src="https://www.youtube-nocookie.com/embed/aOmkjgfSsIY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## VPN features
+## Функции VPN
 
-A VPN is a virtual private network that helps hide your location and protect your data on the Web. A VPN connects a computer or a mobile device to a VPN server and uses the IP address of this server to make it seem to an outside observer that you are in another place. This allows you to securely access various Internet resources and protect your personal data.
+VPN — это виртуальная частная сеть (Virtual Private Network), которая скрывает ваше местоположение и защищает ваши данные в интернете. VPN соединяет компьютер или мобильное устройство с VPN-сервером и использует его IP-адрес, чтобы стороннему наблюдателю казалось, что вы находитесь в другом месте. Это позволяет вам безопасно получать доступ к различным интернет-ресурсам и защищать свои личные данные.
 
-In that way, a VPN performs two important functions:
+Таким образом, VPN выполняет две важные функции:
 
-1. **Maintaining anonymity**
+1. **Обеспечивает анонимность**
 
-   Using an Internet connection, the user leaves their digital footprint, which can then be analyzed and used by third parties. For example, one of the online stores that you have visited can save your search history and then offer you their products based on it through targeted advertising. Or the secret services, having learned your location through the IP address of your device and having determined your identity, can secretly monitor your activity on the web. In addition, web browsers and ISPs themselves can use your browsing history for their own purposes, as well as sell it to advertisers and provide it to government institutions. VPN allows you to hide your IP address and replace it with the IP address of the VPN server to which you are connected. This way you will be able to maintain your privacy and anonymously search for information on the web.
+   Пользуясь интернетом, человек оставляет цифровой след, который затем может быть проанализирован и использован третьими лицами. Например, один из интернет-магазинов, который вы посещали, может сохранить историю вашего поиска и затем предложить вам свои товары на её основе с помощью таргетированной рекламы. Или же секретные службы, узнав ваше местоположение по IP-адресу вашего устройства и определив вашу личность, могут тайно следить за вашей активностью в интернете. Кроме того, сами веб-браузеры и интернет-провайдеры могут использовать историю поиска в своих целях, а также продавать её рекламодателям и предоставлять государственным учреждениям. VPN позволяет скрыть ваш IP-адрес и заменить его IP-адресом VPN-сервера, к которому вы подключены. Таким образом, вы сможете сохранить свою конфиденциальность и анонимно искать информацию в интернете.
 
-2. **Data protection**
+2. **Защита данных**
 
-   If you connect to an unreliable or public network, the data on your device may become vulnerable to cybercriminals. Bank card details, usernames and passwords, passport data — all this data can be intercepted by online fraudsters. The VPN tunnel encrypts the information you send to and receive from the Web, making it useless in the wrong hands.
+   Если вы подключаетесь к ненадёжной или общедоступной сети, данные на вашем устройстве могут подвергнуться атаке киберпреступников. Данные банковских карт, имена пользователей и пароли, паспортные данные — все эти данные могут быть перехвачены мошенниками. VPN-туннель шифрует информацию, которую вы отправляете и получаете из интернета, делая её бесполезной в чужих руках.
 
-## VPN structure
+## Структура VPN
 
-When you connect to a network, your computer or mobile device is assigned a unique ID number, or IP address. It usually consists of numbers from 0 to 255, separated by dots or colons. Knowing this sequence, one can determine the geolocation of the device. The IP address is usually assigned by your ISP, and it will be visible all the way to the desired resource. For this reason, the web server of the site you are visiting can register your IP address and record what you have requested. This record can then be used primarily for data collection and traffic analysis.
+Когда вы подключаетесь к сети, вашему компьютеру или мобильному устройству присваивается уникальный идентификационный номер или IP-адрес. Обычно он состоит из чисел от 0 до 255, разделённых точками или двоеточиями. Зная эту последовательность, можно определить местоположение устройства. Обычно ваш IP-адрес назначается интернет-провайдером, и он остаётся видимым на всём пути к нужному ресурсу. По этой причине веб-сервер сайта, который вы посещаете, может зарегистрировать ваш IP-адрес и запомнить все ваши запросы. Затем эта запись может быть использована для сбора данных и анализа трафика.
 
-A VPN creates a tunnel between your device and the VPN server. Your data goes through this tunnel, gets encrypted and then enters the open Internet in a secure form. The web server therefore registers the IP address of the endpoint of the tunnel, meaning the VPN server, and thus not the device's real IP address. Thus, the site that you get to after passing through the VPN tunnel will consider the geolocation of the VPN server you selected as your real location. And the encrypted data will not fall into the hands of advertisers, hackers and security services.
+VPN создаёт туннель между вашим устройством и VPN-сервером. Ваши данные проходят через него, шифруются и затем попадают в открытый интернет в защищённом виде. Поэтому веб-сервер регистрирует IP-адрес конечной точки туннеля, то есть VPN-сервера, а не реальный IP-адрес устройства. Таким образом, сайт, на который вы попадёте после прохождения через VPN-туннель, будет считать геолокацию выбранного вами VPN-сервера вашим реальным местоположением. А зашифрованные данные не попадут в руки рекламодателей, хакеров и служб безопасности.
 
-![VPN structure](https://cdn.adguardvpn.com/public/Adguard/Website/Images/seo/en/how_vpn_3.jpg)
+![Структура VPN](https://cdn.adguardvpn.com/public/Adguard/Website/Images/seo/ru/how_vpn_3.jpg)
 
-## Types of VPN protocols
+## Типы VPN-протоколов
 
-VPN security protocols are tools that encrypt data in a VPN tunnel and allow you to maintain user privacy in the open Internet. At the moment, the vast majority of modern VPN services use one of the following three VPN protocols:
+Протоколы безопасности VPN — это главные инструменты, которые шифруют данные в VPN-туннеле и обеспечивают конфиденциальность пользователя в интернете. Большинство современных VPN-сервисов используют один из следующих трёх VPN-протоколов:
 
-1. [_IPSec_](https://en.wikipedia.org/wiki/IPsec). One of its main advantages is that it is available on most devices and operating systems and provides a high level of security. However, the use of double [encapsulation](https://en.wikipedia.org/wiki/Encapsulation_\(networking\)) in this protocol may result in a lower connection speed.
+1. [_IPSec_](https://ru.wikipedia.org/wiki/IPsec). Одно из его основных преимуществ в том, что он доступен на большинстве устройств и операционных систем и обеспечивает высокий уровень безопасности. Однако использование двойной [инкапсуляции](https://ru.wikipedia.org/wiki/Инкапсуляция_\(компьютерные_сети\)) в этом протоколе может привести к снижению скорости соединения.
 
-2. [_OpenVPN_](https://en.wikipedia.org/wiki/OpenVPN). This modern protocol is open source, so third-party manufacturers can improve and update the technology.
+2. [_OpenVPN_](https://ru.wikipedia.org/wiki/OpenVPN). У этого современного протокола открытый исходный код, поэтому сторонние производители могут совершенствовать и обновлять технологию.
 
-3. [_WireGuard_](https://en.wikipedia.org/wiki/WireGuard). Its main advantages are ease of use, high efficiency and low vulnerability to attacks.
+3. [_WireGuard_](https://ru.wikipedia.org/wiki/WireGuard). Его основные преимущества — простота использования, высокая эффективность и низкая уязвимость.
 
-In addition to these VPN protocols, there are others (for example, TLS, SSTP, IKEv2), but they are unpopular or do not meet modern data encryption standards.
+Помимо этих VPN-протоколов существуют и другие (например, TLS, SSTP, IKEv2), но они непопулярны или не соответствуют современным стандартам шифрования данных.
 
 <object data="https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/6.svg?nc=1" type="image/svg+xml"><img src="https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/6.svg?nc=1" alt="protocol 6" /> </object>
 
-AdGuard VPN also has its own [_protocol_](/general/adguard-vpn-protocol). One of its advantages is that the traffic transmitted using the AdGuard VPN protocol is difficult to distinguish from the regular traffic. The VPN tunnel looks like normal HTTPS traffic, so it is extremely difficult to detect and block it. In addition, it is based on the mechanisms of the modern HTTP/2 protocol, which ensures high connection speed.
+У AdGuard VPN также есть собственный [_протокол_](/general/adguard-vpn-protocol). Одно из его преимуществ заключается в том, что трафик, передаваемый по протоколу AdGuard VPN, трудно отличить от обычного. VPN-туннель выглядит как обычный HTTPS-трафик, поэтому обнаружить и заблокировать его крайне сложно. Кроме того, он основан на механизмах современного протокола HTTP/2, что обеспечивает высокую скорость соединения.
 
 <object data="https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/5.svg?nc=1" type="image/svg+xml"><img src="https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/5.svg?nc=1" alt="protocol 5" /></object>
 
-## VPN drawbacks
+## Недостатки VPN
 
-Despite the obvious advantages, VPN is not perfect and has some disadvantages:
+Несмотря на очевидные преимущества, VPN не совершенен и имеет некоторые недостатки:
 
-### Lower speed
+### Снижение скорости
 
-Since your traffic does not go directly to the web server, but first passes through the VPN server, the speed of the VPN connection decreases. Other factors also affect the speed when using a VPN: the load of the VPN server, its bandwidth, the compatibility of the VPN protocol with your operating system. All these factors, as well as the speed of the network itself, may impact the overall user experience of a VPN connection.
+Поскольку ваш трафик не идёт напрямую на веб-сервер, а сначала проходит через VPN-сервер, скорость VPN-соединения снижается. На скорость при использовании VPN влияют и другие факторы: загруженность VPN-сервера, его пропускная способность, совместимость VPN-протокола с вашей операционной системой. Все эти факторы, а также скорость самой сети, могут повлиять на качество VPN-соединения.
 
-### Access blocking
+### Блокировка доступа
 
-Some online services make a lot of effort to detect VPN traffic and block access to VPN users. However, not many VPNs can mask themselves in such a way that they are only seen as regular traffic. Therefore, many attempts to reach a certain website via a VPN connection end in nothing.
+У некоторых онлайн-сервисов есть система для обнаружения использования VPN, и если они думают, что кто-то подключается через VPN, то могут заблокировать доступ. Однако не многие VPN могут маскироваться таким образом, чтобы их воспринимали только как обычный трафик. Поэтому многие попытки зайти на определённый сайт через VPN-соединение заканчиваются ничем.
 
-### VPN connections breaking
+### Обрыв VPN-соединений
 
-A weak signal, network overload, VPN incompatibility with a firewall, antivirus and other programs, an outdated VPN protocol — all this can cause a sudden failure in the VPN connection, especially with unreliable VPN providers.
+Слабый сигнал, перегрузка сети, несовместимость VPN с фаерволом, антивирусом и другими программами, устаревший VPN-протокол — всё это может стать причиной внезапного обрыва VPN-соединения, особенно у ненадёжных VPN-провайдеров.
 
 ## AdGuard VPN
 
-Our VPN service has several important [advantages](/general/why-adguard-vpn):
+У нашего VPN-сервиса есть несколько важных [преимуществ](/general/why-adguard-vpn):
 
-- [_Proprietary VPN protocol_](/general/adguard-vpn-protocol), which works stably even with a slow Internet connection and disguises itself as normal traffic, making it more difficult to track and block it
+- [_Собственный VPN-протокол_](/general/adguard-vpn-protocol), который стабильно работает даже при медленном интернет-соединении и маскируется под обычный трафик, что затрудняет его отслеживание и блокировку
 
-- [_No-logging policy_](https://adguard-vpn.com/privacy.html), which means that AdGuard VPN does not collect your personal data and does not transfer it to third parties
+- [_Политика без записи логов_](https://adguard-vpn.com/privacy.html), которая означает, что AdGuard VPN не собирает ваши личные данные и не передаёт их третьим лицам
 
-- _More than 50 VPN servers in dozens of countries_
+- _Более 50 VPN-серверов в десятках стран_
 
-- _Ease of use and extensive customization options_
+- _Простота использования и широкие возможности настройки_
 
-Currently, AdGuard VPN is available as:
+В настоящее время AdGuard VPN доступен как:
 
-- [Browser extension](/adguard-vpn-browser-extension/overview) for Chrome, Edge, Firefox, and Opera
+- [Браузерное расширение](/adguard-vpn-browser-extension/overview) для Chrome, Edge, Firefox и Opera
 
-- Mobile app for [Android](/adguard-vpn-for-android/overview) and [iOS](/adguard-vpn-for-ios/overview)
+- Мобильное приложение для [Android](/adguard-vpn-for-android/overview) и [iOS](/adguard-vpn-for-ios/overview)
 
-- Desktop application for [Windows](/adguard-vpn-for-windows/overview) and [Mac](/adguard-vpn-for-mac/overview)
+- Десктопное приложение для [Windows](/adguard-vpn-for-windows/overview) и [Mac](/adguard-vpn-for-mac/overview)
 
-[Learn more about AdGuard VPN features](https://adguard-vpn.com/welcome.html)
+[Подробнее о функциях AdGuard VPN](https://adguard-vpn.com/welcome.html)

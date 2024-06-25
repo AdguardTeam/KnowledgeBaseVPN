@@ -3,7 +3,7 @@ title: Giriş yapma, bağlantı kurma ve güncelleme
 sidebar_position: 3
 ---
 
-## Log in and log out
+## Giriş yapma ve çıkış yapma
 
 Giriş yapmak veya hesap oluşturmak için şunu yazın:
 
@@ -23,7 +23,7 @@ AdGuard VPN'den çıkış yapmak için şunu yazın:
 adguardvpn-cli logout
 ```
 
-## Connect to VPN
+## VPN'e bağlanma
 
 Hızlı bağlantı için şunu yazın:
 
@@ -49,7 +49,7 @@ adguardvpn-cli connect -l <location>
 
 Gerekirse, yönetici parolanızı girin.
 
-## Check for updates
+## Güncellemeleri denetleme
 
 Güncellemeleri denetlemek için şunu yazın:
 

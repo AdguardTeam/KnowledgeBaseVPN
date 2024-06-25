@@ -25,7 +25,7 @@ Varsayılan olarak, Windows için AdGuard VPN, uygulamanın çalışan işlemler
 
 1. Kayıt düzeyini **Varsayılan olarak tekrar kaydet** olarak değiştirin.
 
-### Trace logs
+### İzleme günlükleri
 
 Bazen destek ekibimiz sizden izleme günlüklerini göndermenizi isteyebilir. Bunu yapmak için aşağıdaki adımları izlemeniz gerekir:
 

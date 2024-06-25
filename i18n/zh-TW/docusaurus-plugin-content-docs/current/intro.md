@@ -28,7 +28,7 @@ VPN 可用於：
 
 ### 受信任的開發者
 
-AdGuard 涉足個人資料保護和廣告攔截市場並開發其軟體系列已超過 12 年。 多年來，我們公司已經建立了無可挑剔的聲譽，我們的客戶數量已超過3000萬。
+AdGuard has been present on the market of personal data protection and ad blocking and developing its line of software for more than 15 years. Over this time, our company has built an impeccable reputation, and more than 410 million people have installed AdGuard.
 
 ### 獨一無二的 VPN 協議
 

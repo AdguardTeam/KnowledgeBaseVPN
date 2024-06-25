@@ -34,8 +34,8 @@ sidebar_position: 2
     1. 按 *Win + R* 并输入 **services.msc**。
     1. 在列表中找到并双击*「Windows Installer」*。
     1. 点击*「服务状态」*下的*「开始」*按钮，然后点击 *「确定」*。 如果服务状态是**正在运行**，则先点击*「停止」*，然后再点击*「启动」*。
-    1. Press *Win + R*, type **msiexec /unregister** and hit *Enter*.
-    1. Press *Win + R* again, type **msiexec /regserver** and hit *Enter*
+    1. 按 *Win + R*，输入 **msiexec /unregister** 并按 *Enter*。
+    1. 再次按 *Win + R*，输入 **msiexec /regserver** 并按 *Enter*
 
 - 重启电脑并重新开始安装。 有时这个操作可以修复此问题。
 
@@ -64,8 +64,8 @@ sidebar_position: 2
     1. 按 *Win + R* 并输入 **services.msc**。
     1. 在列表中找到并双击*「Windows Installer」*。
     1. 点击*「服务状态」*下的*「开始」*按钮，然后点击 *「确定」*。 如果服务状态是**正在运行**，则先点击*「停止」*，然后再点击*「启动」*。
-    1. Press *Win + R*, type **msiexec /unregister** and hit *Enter*.
-    1. Press *Win + R* again, type **msiexec /regserver** and hit *Enter*
+    1. 按 *Win + R*，输入 **msiexec /unregister** 并按 *Enter*。
+    1. 再次按 *Win + R*，输入 **msiexec /regserver** 并按 *Enter*
 
 - 获取驱动器用于安装的完全权限。 出现错误 1603 可能是由于您对该文件位置没有完全权限。 这种情况的解决方案会稍微复杂一些：
 
@@ -85,7 +85,7 @@ sidebar_position: 2
 
 - 重启电脑并重新开始安装。 当您重启计算机后，所有正在进行的进程都将停止，包括安装程序的所有副本。
 
-- Don't click the installer multiple times, even if it doesn't seem to start right away. 有时候显示安装界面可能会需要几秒钟。
+- 不要多次点击安装程序，即使它似乎没有立即启动。 有时候显示安装界面可能会需要几秒钟。
 
 ### 错误 1638：已安装此软件的另一个版本 {#error-1638}
 

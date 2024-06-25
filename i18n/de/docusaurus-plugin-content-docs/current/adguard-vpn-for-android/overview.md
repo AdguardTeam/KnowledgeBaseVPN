@@ -113,9 +113,9 @@ In diesem Bereich können Sie auch Protokolle und Systeminformationen exportiere
 
 Der letzte Abschnitt von *Erweiterten Einstellungen* ist *Low-Level-Einstellungen*. Wir bitten Sie dringend, die Einstellungen in diesem Abschnitt nicht zu ändern, es sei denn, Sie sind hochqualifiziert oder wurden von unserem Support-Team dazu aufgefordert. Hier ist es möglich, die TUN-Schnittstellenprotokollierung oder das IPv6-Protokoll auf der VPN-Schnittstelle zu aktivieren, einen Proxy-Server-Port oder eine zu verwendende Internetprotokollversion auszuwählen.
 
-:::note Kompatibilität
+:::caution
 
-Die Option *IPv6 aktivieren* ist nur für Netzwerke verfügbar, die IPv6 unterstützen.
+Bevor Sie bei der Option **Bevorzugte IP-Version** zwischen IPv6 und IPv4 wählen, stellen Sie sicher, dass Ihr Netzwerk dieses Protokoll unterstützt. Wenn Sie z. B. IPv6 auswählen und Ihr Netzwerk nur IPv4 unterstützt, treten Probleme bei der Verbindung mit dem Internet auf. Und umgekehrt.
 
 :::
 
