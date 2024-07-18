@@ -5,9 +5,9 @@ sidebar_position: 5
 
 In some countries, AdGuard VPN is not available in the App Store. If that’s your case, there are two ways to download the app:
 
-* If you do not have any active subscriptions in the App Store, you can **change the region for your current account**
+- If you do not have any active subscriptions in the App Store, you can **change the region for your current account**
 
-* If you have active subscriptions that you wish to retain, you can **create a new Apple account and link it to the App Store**
+- If you have active subscriptions that you wish to retain, you can **create a new Apple account and link it to the App Store**
 
 ### Changing the region for your current account
 
