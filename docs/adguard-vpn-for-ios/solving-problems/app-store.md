@@ -31,7 +31,7 @@ In some countries, AdGuard VPN is not available in the App Store. If that’s yo
 
     Phone: 999 999999999
 
-1. Tip *Next*.
+1. Tap *Next*.
 
     ![New region *border](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/new_country.png)
 
