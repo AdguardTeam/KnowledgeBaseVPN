@@ -64,6 +64,5 @@ You’ll need to update your router settings if you want to change the VPN serve
   For **Android TV**, you don’t need to set up AdGuard VPN on a router — we have a special version for Android TV. Just follow these steps:
 
   1. Install [AdGuard VPN from Google Play](https://play.google.com/store/apps/details?id=com.adguard.vpn) on your Android TV
-  1. If you already have an AdGuard account, log in with your credentials
-   If you’re new to AdGuard, enter your email address and follow the on-screen instructions
+  1. If you already have an AdGuard account, log in with your credentials. If you’re new to AdGuard, enter your email address and follow the on-screen instructions
   1. Open the app, select the location you want, and connect
