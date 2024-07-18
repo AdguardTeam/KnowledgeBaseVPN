@@ -55,7 +55,7 @@ For users with paid subscriptions in the App Store who only need to download fre
 
 Now **link your new account to the App Store**:
 
-1. Go to *Settings* and tap on your name.
+1. Go to *Settings* and tap your name.
 
 1. Select *Media & Purchases* → *Sign Out*. This will only sign you out of the App Store while keeping you logged in to your Apple ID on your phone.
 
