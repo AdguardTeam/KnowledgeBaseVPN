@@ -51,15 +51,15 @@ You’ll need to update your router settings if you want to change the VPN serve
 
 ## Devices that can be connected to a router with AdGuard VPN
 
-- **PlayStation and Xbox**: To enjoy seamless online gaming and enhanced security on PS4 and PS5, [set up AdGuard VPN on your router](#how-to-set-up-adguard-vpn-on-your-router) and connect your console to it.
+- **PlayStation and Xbox**: To enjoy seamless online gaming and enhanced security on PS4 and PS5, [set up AdGuard VPN on your router](#how-to-set-up-adguard-vpn-on-your-router) and connect your console to it
 
-- **Apple TV**: Follow the instructions to [set up AdGuard VPN on your router](#how-to-set-up-adguard-vpn-on-your-router), then connect your Apple TV.
+- **Apple TV**: Follow the instructions to [set up AdGuard VPN on your router](#how-to-set-up-adguard-vpn-on-your-router), then connect your Apple TV
 
 - **Chromecast**:
 
-  For Gen 4: Simply download and install [AdGuard VPN from Google Play](https://play.google.com/store/apps/details?id=com.adguard.vpn).
+  **For Gen 4:** Simply download and install [AdGuard VPN from Google Play](https://play.google.com/store/apps/details?id=com.adguard.vpn)
 
-  For Gen 3: Follow our guide to [set up AdGuard VPN on your router](#how-to-set-up-adguard-vpn-on-your-router). Make sure your TV and smartphone, tablet or computer are connected to the same network.
+  **For Gen 3:** Follow our guide to [set up AdGuard VPN on your router](#how-to-set-up-adguard-vpn-on-your-router). Make sure your TV and smartphone, tablet or computer are connected to the same network
 
   For **Android TV**, you don’t need to set up AdGuard VPN on a router — we have a special version for Android TV. Just follow these steps:
 
