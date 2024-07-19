@@ -30,6 +30,12 @@ AdGuard VPN 只能安裝在裝有 **iOS 14.2 和 iPadOS 14.2 或更高版本**�
 
 完成！ 適用於 iOS 的 AdGuard VPN 已成功安裝在您的裝置上。
 
+### If AdGuard VPN has been removed from the App Store
+
+If you don’t see AdGuard VPN in the App Store, try changing the country or region in your Apple ID settings. Another option is to create a new Apple account and connect it to the App Store. [Instructions for both cases](/adguard-vpn-for-ios/solving-problems/app-store) are described in a separate article.
+
+After you change the region or link a different account to the App Store, [install AdGuard VPN](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602).
+
 ## 如何解除安裝 iOS 版 AdGuard VPN
 
 如果您決定刪除 iOS 版 AdGuard VPN，請在主畫面上找到並按住其圖示。 在開啟的選單中，點選 *刪除應用程式*。

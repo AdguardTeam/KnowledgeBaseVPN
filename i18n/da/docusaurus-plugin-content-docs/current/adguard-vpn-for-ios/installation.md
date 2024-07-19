@@ -30,6 +30,12 @@ Eller brug App Stores søgefunktion til at finde AdGuard VPN:
 
 Det er det hele! AdGuard VPN til iOS er hermed installeret på enheden.
 
+### If AdGuard VPN has been removed from the App Store
+
+If you don’t see AdGuard VPN in the App Store, try changing the country or region in your Apple ID settings. Another option is to create a new Apple account and connect it to the App Store. [Instructions for both cases](/adguard-vpn-for-ios/solving-problems/app-store) are described in a separate article.
+
+After you change the region or link a different account to the App Store, [install AdGuard VPN](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602).
+
 ## Sådan installeres AdGuard VPN til iOS
 
 Ønsker man at slette AdGuard VPN til iOS, find og brug et langt tryk på dets ikon på startskærmen. I menuen, der åbnes, tryk på *Fjern app*.

@@ -15,23 +15,23 @@ sidebar_position: 1
 
 ![排除 *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/exclusions.jpg)
 
-By default, AdGuard VPN works for all websites and apps except those added to exclusions: if you don’t specify an app or website, VPN will be active for them. You can also turn it on **selectively** — only for specified apps or websites. To switch to this mode, tap *Change mode*.
+默认情况下，AdGuard VPN 适用于所有网站和应用程序，但添加到排除项的网站和应用程序除外：如果您没有指定应用程序或网站，VPN 将对其激活。 您可以根据自己的需要打开它 **** — 仅针对指定的应用程序或网站。 要切换到此模式，请点击 *更改模式*。
 
 ![Change mode *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/change_mode.jpg)
 
 :::caution
 
-Be careful when using your VPN **selectively**.
+在使用您的VPN时要小心**选择性地**使用。
 
-If you exclude a browser from the VPN tunnel, website exclusions won’t work for it.
+如果您将浏览器排除在 VPN 通道之外，网站排除功能对其不起作用。
 
-If you switch to this mode for websites, don’t forget to add the domains of the apps you want to use — for example, `facebook.com` for Facebook.
+如果您将网站切换到此模式，请不要忘记添加您想使用的应用程序的域名 — 例如，`facebook.com` 用于Facebook。
 
 :::
 
-### Websites
+### 网站：
 
-You can add a domain (e.g., `google.com`) or subdomain (e.g., `*.google.com`) to exclusions in three ways:
+您可以通过三种方式将域（例如， `google.com`）或子域（例如， `*.google.com`）添加到排除项：
 
 - 在应用中手动输入
 - 通过分享网站到 AdGuard VPN，从而直接从浏览器添加
@@ -43,13 +43,13 @@ You can add a domain (e.g., `google.com`) or subdomain (e.g., `*.google.com`) to
 
 :::注意
 
-There are some nuances to manually adding domains. 例如，如果用户手动排除域名 `yahoo.com`，所有 `*.yahoo.com` 的子域名也将被列在排除项中。 然而，具有其他顶级域名的域名，如 `yahoo.jp` 或`yahoo.fr`，将不会被排除。
+在手动添加域名方面有一些细微差别。 例如，如果用户手动排除域名 `yahoo.com`，所有 `*.yahoo.com` 的子域名也将被列在排除项中。 然而，具有其他顶级域名的域名，如 `yahoo.jp` 或`yahoo.fr`，将不会被排除。
 
-If you add `youtube.com` to exclusions, the domain of the same service `youtu.be` won’t be added. In this case, it’s safer to use the built-in lists of services. They contain all the subdomains associated with each platform.
+如果您将 `youtube.com` 添加到排除项，则同一服务的域 `youtu.be` 将不会被添加。 在这种情况下，使用内置的服务列表更安全。在这种情况下，最好使用内置的服务列表。 它们包含与每个平台相关的所有子域名。
 
 :::
 
-Since you can enable subdomains in service lists, we added boxes that reflect the status of each service:
+由于您可以在服务列表中启用子域，因此我们添加了反映每个服务状态的框：
 
 - **完全启用**：绿底白色对钩
 - **部分启用**（仅启用子域未启用主域）：白底绿色方块
@@ -57,13 +57,13 @@ Since you can enable subdomains in service lists, we added boxes that reflect th
 
 ![Website exclusions *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/websites.png)
 
-If you’ve accidentally deleted a domain or subdomain, just tap *Reset to default*.
+如果不小心删除了域名或子域，只需轻点*重置为默认值*即可。
 
 ![Reset to default *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/reset.jpg)
 
-### Apps
+### 应用程序
 
-You can also manage VPN for apps. To exclude an app from the VPN tunnel, tap *Add app*. To use VPN **selectively**, tap *Change mode*.
+您还可以管理应用程序的 VPN。 要将应用程序排除在 VPN 通道之外，请点击*添加应用程序*。 如果要**选择性地**使用 VPN，请点按*更改模式*。
 
 ![应用排除 *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/apps.jpg)
 

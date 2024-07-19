@@ -83,4 +83,4 @@ VPN создаёт туннель между вашим устройством �
 
 - Десктопное приложение для [Windows](/adguard-vpn-for-windows/overview) и [Mac](/adguard-vpn-for-mac/overview)
 
-[Подробнее о функциях AdGuard VPN](https://adguard-vpn.com/welcome.html)
+[Подробнее о функциях AdGuard VPN](https://adguardvpn-help.com/welcome.html)

@@ -331,7 +331,7 @@
     "description": "The default label used for the Tip admonition (:::tip)"
   },
   "theme.admonition.danger": {
-    "message": "Gefahr",
+    "message": "Gefährlich",
     "description": "The default label used for the Danger admonition (:::danger)"
   },
   "theme.admonition.info": {

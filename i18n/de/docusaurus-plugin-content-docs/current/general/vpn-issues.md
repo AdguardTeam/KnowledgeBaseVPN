@@ -19,28 +19,21 @@ Um potenzielle Phishing- oder bösartige Websites zu vermeiden, folgen Sie nur d
 
 ### AdGuard VPN für iOS
 
-Wenn Sie AdGuard VPN nicht in Ihrem App Store finden, versuchen Sie, das Land oder die Region in den Einstellungen Ihrer Apple ID zu ändern:
+If you don’t see AdGuard VPN in the App Store, try changing the country or region in your Apple ID settings. Another option is to create a new Apple account and connect it to the App Store. [Instructions for both cases](/adguard-vpn-for-ios/solving-problems/app-store) are described in a separate article.
 
-1. Öffnen Sie den App Store und tippen Sie auf Ihr Profilbild.
-1. Tippen Sie auf Ihren Namen und dann auf *Land/Region*.
-1. Tippen Sie auf *Land oder Region ändern*.
-1. Wählen Sie ein Land aus und akzeptieren Sie dann die Bedingungen und Konditionen.
-
-[Alternative Wege](https://support.apple.com/en-us/HT201389)
-
-Nachdem Sie die Region geändert haben, [installieren Sie AdGuard VPN](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602).
+After you change the region or link a different account to the App Store, [install AdGuard VPN](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602).
 
 ### AdGuard VPN für Android
 
-Wenn Sie Probleme mit Google Play haben, laden Sie die APK-Datei von der [Spiegelseite von AdGuard VPN](https://adguardvpn-help.com/android/overview.html) herunter.
+If you have problems with Google Play, download the APK file from [AdGuard VPN’s mirror website](https://adguardvpn-help.com/android/overview.html).
 
 ### AdGuard VPN für Mac
 
-Laden Sie die Installationsdatei von der [Spiegelseite von AdGuard VPN](https://adguardvpn-help.com/windows/overview.html) herunter.
+Download the installation file from [AdGuard VPN’s mirror website](https://adguardvpn-help.com/windows/overview.html).
 
 ### AdGuard VPN für Windows
 
-Laden Sie die Installationsdatei von der [Spiegelseite von AdGuard VPN](https://adguardvpn-help.com/mac/overview.html) herunter.
+Download the installation file from [AdGuard VPN’s mirror website](https://adguardvpn-help.com/mac/overview.html).
 
 ## Weitere nützliche Tipps
 
@@ -56,4 +49,4 @@ Laden Sie die Installationsdatei von der [Spiegelseite von AdGuard VPN](https://
 
 - Wenn Sie Verbindungsprobleme haben, aktivieren Sie nicht *QUIC verwenden* in *Erweiterte Einstellungen*.
 
-Wenn alles andere fehlschlägt, zögern Sie nicht, sich an unser Support-Team unter support@adguard-vpn.com zu wenden, um weitere Unterstützung zu erhalten.
+If all else fails, don't hesitate to reach out to our support team at <support@adguard-vpn.com> for further assistance.

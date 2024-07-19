@@ -33,7 +33,7 @@ Normal kaldırma herhangi bir nedenle işe yaramazsa, gelişmiş bir yöntem kul
 
     ![Standart kaldırma uyarısı *border](https://cdn.adtidy.org/content/kb/vpn/windows/vpn_standard_warning.jpg)
 
-1. Wait until uninstall is finished — there will be a phrase **Uninstall complete** and a prompt to restart your computer:
+1. Kaldırma işlemi bitene kadar bekleyin — **Kaldırma işlemi tamamlandı** ifadesi görünecek ve bilgisayarınızı yeniden başlatmanız istenecektir:
 
     ![Kaldırma işlemi tamamlandı *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/vpn_standard_complete.jpg)
 
@@ -51,7 +51,7 @@ Normal kaldırma herhangi bir nedenle işe yaramazsa, gelişmiş bir yöntem kul
 
     ![Genişletilmiş kaldırma uyarısı *border](https://cdn.adtidy.org/content/kb/vpn/windows/vpn_standard_warning.jpg)
 
-1. Wait until uninstall is finished — there will be a phrase **Uninstall complete** and a prompt to restart your computer:
+1. Kaldırma işlemi bitene kadar bekleyin — **Kaldırma işlemi tamamlandı** ifadesi görünecek ve bilgisayarınızı yeniden başlatmanız istenecektir:
 
     ![Kaldırma işlemi tamamlandı *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/vpn_extended_complete.jpg)
 

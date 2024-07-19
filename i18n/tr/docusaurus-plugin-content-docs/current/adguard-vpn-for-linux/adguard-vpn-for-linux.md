@@ -9,7 +9,7 @@ Aşağıda giriş yapmak, bağlanmak ve AdGuard VPN'in ayarlarını yönetmek i�
 
 - [Kurulum ve kaldırma](/adguard-vpn-for-linux/installation)
 - [Giriş yapma, bağlantı kurma ve güncelleme](/adguard-vpn-for-linux/login)
-- [Ayarlar](/linux için adguard-vpn-settings)
+- [Ayarlar](/adguard-vpn-for-linux/settings)
 - [Geri bildirim gönderme](/adguard-vpn-for-linux/feedback)
 
 Linux'ta `Ctrl+Alt+T` tuşlarına basın. Mac'inizde, arama alanına `Terminal` yazın.

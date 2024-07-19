@@ -39,4 +39,4 @@ Ayrıca günlükleri elle dışa aktarabilir ve gönderebilirsiniz. Bunu yapmak 
 
 1. Açılan formda, geri bildirim için e-posta adresinizi girin ve bulduğunuz hatayı, meydana geldiği zaman da dahil olmak üzere açıklayın.
 
-1. Check mark next to *Send app logs and system info* and tap *Send*.
+1. *Uygulama günlüklerini ve sistem bilgisini gönder* öğesinin yanındaki işareti işaretleyin ve *Gönder* öğesine dokunun.

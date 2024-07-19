@@ -47,9 +47,9 @@ adguardvpn-cli config set-dns <server_address>
 adguardvpn-cli config set-system-dns on
 ```
 
-## No-route mode
+## Yönlendirmesiz mod
 
-Bu özellik yalnızca belirttiğiniz adresleri VPN tüneli üzerinden yönlendirir. To enable the no-route mode, type:
+Bu özellik yalnızca belirttiğiniz adresleri VPN tüneli üzerinden yönlendirir. Yönlendirmesiz modu etkinleştirmek için şunu yazın:
 
 ```
 adguardvpn-cli config set-no-routes on

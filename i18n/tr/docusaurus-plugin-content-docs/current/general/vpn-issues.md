@@ -19,28 +19,21 @@ Olası kimlik avı veya kötü amaçlı sitelerden kaçınmak için, yalnızca b
 
 ### iOS için AdGuard VPN
 
-App Store'unuzda AdGuard VPN'i görmüyorsanız Apple Kimliği ayarlarınızda ülkeyi veya bölgeyi değiştirmeyi deneyin:
+If you don’t see AdGuard VPN in the App Store, try changing the country or region in your Apple ID settings. Another option is to create a new Apple account and connect it to the App Store. [Instructions for both cases](/adguard-vpn-for-ios/solving-problems/app-store) are described in a separate article.
 
-1. App Store'u açın ve profil resminize dokunun.
-1. Adınıza ve ardından *Ülke/Bölge* öğesine dokunun.
-1. *Ülkeyi veya Bölgeyi Değiştir* öğesine dokunun.
-1. Bir ülke seçin, ardından şartlar ve koşulları kabul edin.
-
-[Alternatif yollar](https://support.apple.com/en-us/HT201389)
-
-Bölgeyi değiştirdikten sonra, [AdGuard VPN'i yükleyin](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602).
+After you change the region or link a different account to the App Store, [install AdGuard VPN](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602).
 
 ### Android için AdGuard VPN
 
-Google Play ile ilgili sorun yaşıyorsanız, APK dosyasını [AdGuard VPN'in yansıtma sitesinde](https://adguardvpn-help.com/android/overview.html)n indirin.
+If you have problems with Google Play, download the APK file from [AdGuard VPN’s mirror website](https://adguardvpn-help.com/android/overview.html).
 
 ### Mac için AdGuard VPN
 
-Kurulum dosyasını [AdGuard VPN'in yansıtma sitesinden](https://adguardvpn-help.com/windows/overview.html) indirin.
+Download the installation file from [AdGuard VPN’s mirror website](https://adguardvpn-help.com/windows/overview.html).
 
 ### Windows için AdGuard VPN
 
-Kurulum dosyasını [AdGuard VPN'in yansıtma sitesinden](https://adguardvpn-help.com/mac/overview.html) indirin.
+Download the installation file from [AdGuard VPN’s mirror website](https://adguardvpn-help.com/mac/overview.html).
 
 ## Diğer faydalı ipuçları
 
@@ -56,4 +49,4 @@ Kurulum dosyasını [AdGuard VPN'in yansıtma sitesinden](https://adguardvpn-hel
 
 - Bağlantı sorunlarınız varsa, *Gelişmiş ayarlar* bölümünde *QUIC'i kullan* öğesini seçeneğini etkinleştirmeyin.
 
-Her şey yolunda gitmezse, daha fazla yardım için support@adguard-vpn.com adresinden destek ekibimizle iletişime geçmekten çekinmeyin.
+If all else fails, don't hesitate to reach out to our support team at <support@adguard-vpn.com> for further assistance.

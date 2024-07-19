@@ -19,28 +19,21 @@ To avoid potential phishing or malicious websites, only follow mirror links prov
 
 ### AdGuard VPN for iOS
 
-If don't see AdGuard VPN in your App Store, try changing the country or region in your Apple ID settings:
+If you don’t see AdGuard VPN in the App Store, try changing the country or region in your Apple ID settings. Another option is to create a new Apple account and connect it to the App Store. [Instructions for both cases](/adguard-vpn-for-ios/solving-problems/app-store) are described in a separate article.
 
-1. Open the App Store and tap your profile picture.
-1. Tap your name, then tap *Country/Region*.
-1. Tap *Change Country or Region*.
-1. Select a country, then accept the terms and conditions.
-
-[Alternative ways](https://support.apple.com/en-us/HT201389)
-
-After changing the region, [install AdGuard VPN](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602).
+After you change the region or link a different account to the App Store, [install AdGuard VPN](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602).
 
 ### AdGuard VPN for Android
 
-If you have problems with Google Play, download the APK file from [AdGuard VPN's mirror website](https://adguardvpn-help.com/android/overview.html).
+If you have problems with Google Play, download the APK file from [AdGuard VPN’s mirror website](https://adguardvpn-help.com/android/overview.html).
 
 ### AdGuard VPN for Mac
 
-Download the installation file from [AdGuard VPN's mirror website](https://adguardvpn-help.com/windows/overview.html).
+Download the installation file from [AdGuard VPN’s mirror website](https://adguardvpn-help.com/windows/overview.html).
 
 ### AdGuard VPN for Windows
 
-Download the installation file from [AdGuard VPN's mirror website](https://adguardvpn-help.com/mac/overview.html).
+Download the installation file from [AdGuard VPN’s mirror website](https://adguardvpn-help.com/mac/overview.html).
 
 ## Other useful tips
 
@@ -56,4 +49,4 @@ Download the installation file from [AdGuard VPN's mirror website](https://adgua
 
 - If you have connectivity issues, do not enable *Use QUIC* in *Advanced settings*.
 
-If all else fails, don't hesitate to reach out to our support team at support@adguard-vpn.com for further assistance.
+If all else fails, don't hesitate to reach out to our support team at <support@adguard-vpn.com> for further assistance.
