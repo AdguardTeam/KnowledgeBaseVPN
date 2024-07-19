@@ -28,7 +28,7 @@ Parolalar, kart bilgileri ve yalnızca düz kişisel bilgiler, bir kullanıcı i
 
 ### Güvenilir geliştirici
 
-AdGuard has been present on the market of personal data protection and ad blocking and developing its line of software for more than 15 years. Over this time, our company has built an impeccable reputation, and more than 410 million people have installed AdGuard.
+AdGuard, 15 yılı aşkın bir süredir kişisel verilerin korunması ve reklam engelleme pazarında yer almakta ve yazılım serisini geliştirmektedir. Bu süre zarfında şirketimiz kusursuz bir itibar kazandı ve 410 milyondan fazla kişi AdGuard'ı yükledi.
 
 ### Benzersiz VPN protokolü
 

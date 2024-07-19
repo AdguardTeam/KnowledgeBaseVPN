@@ -19,28 +19,21 @@ sidebar_position: 10
 
 ### AdGuard VPN для iOS
 
-Если AdGuard VPN нет в App Store, попробуйте изменить страну или регион в настройках Apple ID:
+If you don’t see AdGuard VPN in the App Store, try changing the country or region in your Apple ID settings. Another option is to create a new Apple account and connect it to the App Store. [Instructions for both cases](/adguard-vpn-for-ios/solving-problems/app-store) are described in a separate article.
 
-1. Откройте App Store и коснитесь изображения своего профиля.
-1. Нажмите на своё имя, а затем *Страна/регион*.
-1. Нажмите *Изменить страну или регион*.
-1. Выберите страну, затем примите условия и положения.
-
-[Альтернативные способы](https://support.apple.com/ru-ru/HT201389)
-
-После смены региона [установите AdGuard VPN](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602).
+After you change the region or link a different account to the App Store, [install AdGuard VPN](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602).
 
 ### AdGuard VPN для Android
 
-Если у вас возникли проблемы с Google Play, скачайте APK-файл [с зеркального сайта AdGuard VPN](https://adguardvpn-help.com/android/overview.html).
+If you have problems with Google Play, download the APK file from [AdGuard VPN’s mirror website](https://adguardvpn-help.com/android/overview.html).
 
 ### AdGuard VPN для Mac
 
-Загрузите установочный файл [с зеркального сайта AdGuard VPN](https://adguardvpn-help.com/windows/overview.html).
+Download the installation file from [AdGuard VPN’s mirror website](https://adguardvpn-help.com/windows/overview.html).
 
 ### AdGuard VPN для Windows
 
-Загрузите установочный файл [с зеркального сайта AdGuard VPN](https://adguardvpn-help.com/mac/overview.html).
+Download the installation file from [AdGuard VPN’s mirror website](https://adguardvpn-help.com/mac/overview.html).
 
 ## Что ещё может помочь
 
@@ -56,4 +49,4 @@ sidebar_position: 10
 
 - Если у вас проблемы с подключением, не включайте *Использовать QUIC* *в Расширенных настройках*.
 
-Если ничего не помогает, не стесняйтесь обращаться за помощью в поддержку по адресу support@adguard-vpn.com.
+If all else fails, don't hesitate to reach out to our support team at <support@adguard-vpn.com> for further assistance.

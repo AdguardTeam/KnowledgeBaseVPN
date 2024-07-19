@@ -19,28 +19,21 @@ sidebar_position: 10
 
 ### 適用於 iOS 的 AdGuard VPN
 
-如果在您的 App Store 中沒有看到 AdGuard VPN，請嘗試在您的 Apple ID 設定中變更國家或地區：
+If you don’t see AdGuard VPN in the App Store, try changing the country or region in your Apple ID settings. Another option is to create a new Apple account and connect it to the App Store. [Instructions for both cases](/adguard-vpn-for-ios/solving-problems/app-store) are described in a separate article.
 
-1. 開啟 App Store 並點擊您的個人資料圖片。
-1. 點擊您的名字，然後點擊*國家/地區*。
-1. 點擊*更改國家或地區*。
-1. 選擇一個國家/地區，然後接受條款和條件。
-
-[替代方法](https://support.apple.com/en-us/HT201389)
-
-更改區域後， [安裝 AdGuard VPN](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602)。
+After you change the region or link a different account to the App Store, [install AdGuard VPN](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602).
 
 ### 適用於 Android 的 AdGuard VPN
 
-如果您在使用 Google Play 時遇到問題，請從 [AdGuard VPN 鏡像網站](https://adguardvpn-help.com/android/overview.html)下載 APK 檔案。
+If you have problems with Google Play, download the APK file from [AdGuard VPN’s mirror website](https://adguardvpn-help.com/android/overview.html).
 
 ### 適用於 Mac 的 AdGuard VPN
 
-從 [AdGuard VPN 鏡像網站](https://adguardvpn-help.com/windows/overview.html)下載安裝檔。
+Download the installation file from [AdGuard VPN’s mirror website](https://adguardvpn-help.com/windows/overview.html).
 
 ### 適用於 Windows 的 AdGuard VPN
 
-從 [AdGuard VPN 鏡像網站](https://adguardvpn-help.com/mac/overview.html)下載安裝檔。
+Download the installation file from [AdGuard VPN’s mirror website](https://adguardvpn-help.com/mac/overview.html).
 
 ## 其他有用的提示
 
@@ -56,4 +49,4 @@ sidebar_position: 10
 
 - 如果您遇到連線問題，請勿在*進階設定*中啟用*使用 QUIC*。
 
-如果所有其他方法都失敗，請隨時透過 support@adguard-vpn.com 聯絡我們的支援團隊以獲得進一步協助。
+If all else fails, don't hesitate to reach out to our support team at <support@adguard-vpn.com> for further assistance.

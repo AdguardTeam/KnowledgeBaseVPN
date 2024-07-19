@@ -19,28 +19,21 @@ Abyste se vyhnuli potenciálním phishingovým nebo škodlivým webovým stránk
 
 ### AdGuard VPN pro iOS
 
-Pokud AdGuard VPN v App Store nevidíte, zkuste změnit zemi nebo oblast v nastavení Apple ID:
+If you don’t see AdGuard VPN in the App Store, try changing the country or region in your Apple ID settings. Another option is to create a new Apple account and connect it to the App Store. [Instructions for both cases](/adguard-vpn-for-ios/solving-problems/app-store) are described in a separate article.
 
-1. Otevřete App Store a klepněte na svůj profil.
-1. Klepněte na své jméno a poté na *Země/oblast*.
-1. Klepněte na *Změnit zemi nebo oblast*.
-1. Vyberte zemi a poté přijměte Pravidla a podmínky.
-
-[Alternativní způsoby](https://support.apple.com/en-us/HT201389)
-
-Po změně oblasti [nainstalujte AdGuard VPN](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602).
+After you change the region or link a different account to the App Store, [install AdGuard VPN](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602).
 
 ### AdGuard VPN pro Android
 
-Pokud máte problémy s Obchodem Google Play, stáhněte si soubor APK ze [zrcadleného webu AdGuard VPN](https://adguardvpn-help.com/android/overview.html).
+If you have problems with Google Play, download the APK file from [AdGuard VPN’s mirror website](https://adguardvpn-help.com/android/overview.html).
 
 ### AdGuard VPN pro macOS
 
-Stáhněte si instalační soubor ze [zrcadleného webu AdGuard VPN](https://adguardvpn-help.com/windows/overview.html).
+Download the installation file from [AdGuard VPN’s mirror website](https://adguardvpn-help.com/windows/overview.html).
 
 ### AdGuard VPN pro Windows
 
-Stáhněte si instalační soubor ze [zrcadleného webu AdGuard VPN](https://adguardvpn-help.com/mac/overview.html).
+Download the installation file from [AdGuard VPN’s mirror website](https://adguardvpn-help.com/mac/overview.html).
 
 ## Další užitečné tipy
 
@@ -56,4 +49,4 @@ Stáhněte si instalační soubor ze [zrcadleného webu AdGuard VPN](https://adg
 
 - Máte-li problémy s připojením, nepovolujte *Používat QUIC* v *Pokročilých nastavení*.
 
-Pokud vše ostatní selže, neváhejte se obrátit na náš tým podpory na support@adguard-vpn.com s žádostí o další pomoc.
+If all else fails, don't hesitate to reach out to our support team at <support@adguard-vpn.com> for further assistance.

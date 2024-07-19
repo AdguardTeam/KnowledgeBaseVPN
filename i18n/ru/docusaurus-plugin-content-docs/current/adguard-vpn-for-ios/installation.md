@@ -30,6 +30,12 @@ AdGuard VPN может быть установлен на устройствах
 
 Вот и всё! AdGuard VPN для iOS успешно установлен на ваше устройство.
 
+### If AdGuard VPN has been removed from the App Store
+
+If you don’t see AdGuard VPN in the App Store, try changing the country or region in your Apple ID settings. Another option is to create a new Apple account and connect it to the App Store. [Instructions for both cases](/adguard-vpn-for-ios/solving-problems/app-store) are described in a separate article.
+
+After you change the region or link a different account to the App Store, [install AdGuard VPN](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602).
+
 ## Как удалить AdGuard VPN для iOS
 
 Если вы решили удалить AdGuard VPN для iOS, найдите и удерживайте его иконку на главном экране. В открывшемся меню выберите *Удалить приложение*.

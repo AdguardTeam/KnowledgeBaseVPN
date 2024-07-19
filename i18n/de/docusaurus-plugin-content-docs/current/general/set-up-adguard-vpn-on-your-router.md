@@ -51,4 +51,22 @@ Wenn Sie den Standort des VPN-Servers ändern möchten, müssen Sie die Einstell
 
 - Mit AdGuard VPN auf Ihrem Router haben weder Ihr VPN-Anbieter noch andere Personen Zugriff auf Ihre Internetaktivitäten
 - Die Installation von AdGuard VPN auf Ihrem Router sichert Ihr gesamtes Netzwerk, d. h. alle daran angeschlossenen Geräte sind geschützt
-- Sie können die Sicherheit erhöhen und Ihre Daten auf Geräten schützen, auf denen es nicht möglich ist, AdGuard VPN-Apps zu installieren — Smart TVs (derzeit ist AdGuard VPN nur auf Android TV verfügbar) und Spielkonsolen
+- Sie können die Sicherheit erhöhen und Ihre Daten auf Geräten schützen, auf denen es nicht möglich ist, AdGuard VPN-Apps zu installieren, z. B. auf Smart-TVs und Spielkonsolen
+
+## Geräte, die mit einem Router mit AdGuard VPN verbunden werden können
+
+- **PlayStation und Xbox**: Um nahtloses Online-Gaming und verbesserte Sicherheit auf PS4 und PS5 zu genießen, [richten Sie AdGuard VPN auf Ihrem Router ein](#how-to-set-up-adguard-vpn-on-your-router) und verbinden Sie Ihre Konsole mit ihm
+
+- **Apple TV**: Folgen Sie den Anweisungen zum [Einrichten von AdGuard VPN auf Ihrem Router](#how-to-set-up-adguard-vpn-on-your-router), und schließen Sie dann Ihr Apple TV an
+
+- **Chromecast**:
+
+  **Für Gen 4:** Einfach herunterladen und installieren [AdGuard VPN von Google Play](https://play.google.com/store/apps/details?id=com.adguard.vpn)
+
+  **Für Gen 3:** Folgen Sie unserer Anleitung zur [Einrichtung von AdGuard VPN auf Ihrem Router](#how-to-set-up-adguard-vpn-on-your-router). Stellen Sie sicher, dass Ihr Fernseher und Ihr Smartphone, Tablet oder Computer mit demselben Netzwerk verbunden sind.
+
+  Für **Android TV** müssen Sie AdGuard VPN nicht auf einem Router einrichten. Es gibt eine spezielle Version für Android TV. Befolgen Sie einfach diese Schritte:
+
+  1. Installieren Sie [AdGuard VPN von Google Play](https://play.google.com/store/apps/details?id=com.adguard.vpn) auf Ihrem Android TV
+  2. Wenn Sie bereits über ein AdGuard-Konto verfügen, melden Sie sich mit Ihren Zugangsdaten an. Wenn Sie neu bei AdGuard sind, geben Sie Ihre E-Mail-Adresse ein und folgen Sie den Anweisungen auf dem Bildschirm
+  3. Öffnen Sie die App, wählen Sie den gewünschten Standort und stellen Sie eine Verbindung her

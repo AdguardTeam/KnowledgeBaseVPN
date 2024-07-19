@@ -19,28 +19,21 @@ For at undgå potentiel phishing eller ondsindede websteder, følg kun spejlings
 
 ### AdGuard VPN til iOS
 
-Ses AdGuard VPN ikke i App Store, prøv da at ændre land/region i Apple ID-indstillingerne:
+If you don’t see AdGuard VPN in the App Store, try changing the country or region in your Apple ID settings. Another option is to create a new Apple account and connect it to the App Store. [Instructions for both cases](/adguard-vpn-for-ios/solving-problems/app-store) are described in a separate article.
 
-1. Åbn App Store, og tryk på profilbilledet.
-1. Tryk på brugernavnet og dernæst på *Land/Region*.
-1. Tryk på *Skift land eller region*.
-1. Vælg land og acceptér vilkår og betingelser.
-
-[Alternative måder](https://support.apple.com/en-us/HT201389)
-
-Efter at have ændret region, [installér AdGuard VPN](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602).
+After you change the region or link a different account to the App Store, [install AdGuard VPN](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602).
 
 ### AdGuard VPN til Android
 
-Opleves problemer på Google Play, download da APK-filen fra [AdGuard VPNs spejlwebsted](https://adguardvpn-help.com/android/overview.html).
+If you have problems with Google Play, download the APK file from [AdGuard VPN’s mirror website](https://adguardvpn-help.com/android/overview.html).
 
 ### AdGuard VPN til Mac
 
-Download installationsfilen fra [AdGuard VPNs spejlwebsted](https://adguardvpn-help.com/windows/overview.html).
+Download the installation file from [AdGuard VPN’s mirror website](https://adguardvpn-help.com/windows/overview.html).
 
 ### AdGuard VPN til Windows
 
-Download installationsfilen fra [AdGuard VPNs spejlwebsted](https://adguardvpn-help.com/mac/overview.html).
+Download the installation file from [AdGuard VPN’s mirror website](https://adguardvpn-help.com/mac/overview.html).
 
 ## Andre nyttige tips
 
@@ -56,4 +49,4 @@ Download installationsfilen fra [AdGuard VPNs spejlwebsted](https://adguardvpn-h
 
 - Slå ikke *Brug QUIC* til i *Avancerede indstillinger*, selvom der opleves konnektivitetsproblemer.
 
-Fejler alt andet, tøv ikke med at kontakte supportteamet på support@adguard-vpn.com for yderligere assistance.
+If all else fails, don't hesitate to reach out to our support team at <support@adguard-vpn.com> for further assistance.

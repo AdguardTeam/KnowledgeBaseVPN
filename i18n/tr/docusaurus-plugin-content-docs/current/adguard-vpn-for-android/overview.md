@@ -85,11 +85,11 @@ Ekranın sağ alt kısmındaki dişli çark simgesine basarak *Ayarlar* öğesin
 
 *Genel* bölümünde, temel AdGuard VPN ayarlarını yönetebilirsiniz:
 
-- Launch AdGuard VPN at system startup
-- Select a DNS server to encrypt traffic and block ads when connected to VPN (we recommend using AdGuard DNS)
-- Enable Kill Switch to protect your privacy and disconnect from the Internet if the VPN connection drops
-- Select a color theme
-- Enable anonymous crash reports to notify developers about app issues
+- AdGuard VPN'i sistem başlangıcında başlatın
+- VPN'e bağlıyken trafiği şifrelemek ve reklamları engellemek için bir DNS sunucusu seçin (AdGuard DNS kullanmanızı öneririz)
+- Gizliliğinizi korumak ve VPN bağlantısı koparsa internet bağlantısını kesmek için Kill Switch'i etkinleştirin
+- Bir renk teması seçin
+- Geliştiricileri uygulama sorunları hakkında bilgilendirmek için anonim çökme raporlarını etkinleştirin
 
 ### Gelişmiş
 
@@ -101,7 +101,7 @@ Ekranın sağ alt kısmındaki dişli çark simgesine basarak *Ayarlar* öğesin
 
 :::note
 
-Some AdGuard VPN features are disabled in *Integrated mode*: DNS servers, Kill Switch, and App exclusions. AdGuard Reklam Engelleyici uygulamasında DNS korumasını yönetebilir ve uygulamaları AdGuard VPN proxy'niz üzerinden yönlendirebilirsiniz.
+Bazı AdGuard VPN özellikleri *Tümleşik modda devre dışı bırakılır*: DNS sunucuları, Kill Switch ve Uygulama istisnaları. AdGuard Reklam Engelleyici uygulamasında DNS korumasını yönetebilir ve uygulamaları AdGuard VPN proxy'niz üzerinden yönlendirebilirsiniz.
 
 :::
 
@@ -115,7 +115,7 @@ Bu bölümde, destekle paylaşmak için günlükleri ve sistem bilgisini de dı�
 
 :::caution
 
-In the **Preferred IP version** option, before you choose between IPv6 and IPv4, make sure that your network supports that protocol. For example, if you select IPv6 and your network only supports IPv4, you will have problems connecting to the Internet. And vice versa.
+**Tercih edilen IP sürümü** seçeneğinde, IPv6 ve IPv4 arasında seçim yapmadan önce ağınızın bu protokolü desteklediğinden emin olun. Örneğin IPv6'yı seçerseniz ve ağınız yalnızca IPv4'ü destekliyorsa, internete bağlanmada sorun yaşarsınız. Bunun tersi durumlar da olabilir.
 
 :::
 

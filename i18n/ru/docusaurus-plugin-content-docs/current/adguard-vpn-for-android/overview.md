@@ -115,7 +115,7 @@ sidebar_position: 1
 
 :::caution
 
-In the **Preferred IP version** option, before you choose between IPv6 and IPv4, make sure that your network supports that protocol. For example, if you select IPv6 and your network only supports IPv4, you will have problems connecting to the Internet. And vice versa.
+В параметре **Предпочитаемая версия IP**, прежде чем выбирать между IPv6 и IPv4, убедитесь, что ваша сеть поддерживает этот протокол. Например, если вы выберете IPv6, а ваша сеть поддерживает только IPv4, у вас возникнут проблемы с подключением к интернету. И наоборот.
 
 :::
 
