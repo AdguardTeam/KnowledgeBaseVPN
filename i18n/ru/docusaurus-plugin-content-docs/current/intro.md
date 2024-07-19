@@ -28,7 +28,7 @@ VPN можно использовать, чтобы:
 
 ### Надёжный разработчик
 
-AdGuard has been present on the market of personal data protection and ad blocking and developing its line of software for more than 15 years. Over this time, our company has built an impeccable reputation, and more than 410 million people have installed AdGuard.
+Больше 15 лет AdGuard присутствует на рынке защиты персональных данных и блокировки рекламы и разрабатывает линейку ПО. За это время наша компания заработала безупречную репутацию, и более 410 миллионов человек установили AdGuard.
 
 ### Уникальный VPN-протокол
 
