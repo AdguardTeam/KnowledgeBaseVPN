@@ -31,12 +31,12 @@ To set the SOCKS listen host, type:
 
     adguardvpn-cli config set-socks-host <host>
 
-Replace <host> with the host you want to use. Using a host other than 127.0.0.1 requires setting a username and password. To set the SOCKS username and password, type:
+Replace `<host>` with the host you want to use. Using a host other than 127.0.0.1 requires setting a username and password. To set the SOCKS username and password, type:
 
     adguardvpn-cli config set-socks-username <username>
     adguardvpn-cli config set-socks-password <password>
 
-Replace <username> and <password> with your desired username and password. To clear the SOCKS username and password, type:
+Replace `<username>` and `<password>` with your desired username and password. To clear the SOCKS username and password, type:
 
     adguardvpn-cli config clear-socks-auth
 
