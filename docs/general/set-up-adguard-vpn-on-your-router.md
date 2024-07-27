@@ -24,7 +24,7 @@ This option is only available if you have an AdGuard VPN subscription and your r
 
     :::note
 
-    The next steps may vary depending on your router. We have used the Keenetic router as an example. Note
+    The next steps may vary depending on your router. We have used the Keenetic router as an example.
 
     :::
 
