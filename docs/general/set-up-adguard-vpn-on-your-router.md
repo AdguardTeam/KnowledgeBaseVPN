@@ -3,11 +3,11 @@ title: How to set up AdGuard VPN on your router
 sidebar_position: 8
 ---
 
-By setting up AdGuard VPN on your router, you can protect your data on devices where you cannot install VPN apps, such as smart TVs and game consoles.
+By setting up AdGuard VPN on your router, you can protect your data on devices where you cannot install VPN apps, such as smart TVs, smart media devices and game consoles.
 
 :::note
 
-This option is only available if you have an AdGuard VPN subscription and your router supports IPsec.
+This option is only available if you have an AdGuard VPN subscription and your router supports IPsec in its *VPN Client* (**Not** *VPN Server*) settings.
 
 :::
 
@@ -24,13 +24,13 @@ This option is only available if you have an AdGuard VPN subscription and your r
 
     :::note
 
-    The next steps may vary depending on your router. We have used the Keenetic router as an example.
+    The next steps may vary depending on your router. We have used the Keenetic router as an example. Note
 
     :::
 
 1. In your admin page, go to the router settings.
 1. Enable *VPN Client* and click *Add VPN server*.
-1. Select IPsec-client (it may be called IKE; not L2TP/IPsec).
+1. Select IPsec-client (it may for some router brands be called IKE; not L2TP/IPsec).
 1. Enter the credentials you created in step 3.
 
     ![Enter the credentials *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/general/vpn_connection.jpg)
@@ -47,11 +47,11 @@ You’ll need to update your router settings if you want to change the VPN serve
 
 - With AdGuard VPN on your router, neither your VPN provider nor anyone else has access to your Internet activity
 - Installing AdGuard VPN on your router secures your entire network, meaning that all devices connected to it are protected
-- You can enhance security and protect your data on devices where it’s not possible to install AdGuard VPN apps — smart TVs and game consoles
+- You can enhance security and protect your data on devices where it’s not possible to install AdGuard VPN apps — smart TVs, smart media devices and game consoles
 
 ## Devices that can be connected to a router with AdGuard VPN
 
-- **PlayStation and Xbox**: To enjoy seamless online gaming and enhanced security on PS4 and PS5, [set up AdGuard VPN on your router](#how-to-set-up-adguard-vpn-on-your-router) and connect your console to it
+- **PlayStation, Xbox and Nintendo Switch**: To enjoy seamless online gaming and enhanced security on PS4, PS5, Xbox One, Xbox Series and Nintendo Switch, [set up AdGuard VPN on your router](#how-to-set-up-adguard-vpn-on-your-router) and connect your console to it
 
 - **Apple TV**: Follow the instructions to [set up AdGuard VPN on your router](#how-to-set-up-adguard-vpn-on-your-router), then connect your Apple TV
 
@@ -66,3 +66,9 @@ You’ll need to update your router settings if you want to change the VPN serve
   1. Install [AdGuard VPN from Google Play](https://play.google.com/store/apps/details?id=com.adguard.vpn) on your Android TV
   1. If you already have an AdGuard account, log in with your credentials. If you’re new to AdGuard, enter your email address and follow the on-screen instructions
   1. Open the app, select the location you want, and connect
+
+## Routers known to be incompatible with AdGuard VPN
+
+- **ASUS**
+- - Only has IPsec in the *VPN Server* settings, and not in the correct *VPN Fusion*/*VPN Client* settings
+- **FRITZ!Box**
