@@ -25,6 +25,21 @@ To set the SOCKS5 port, type:
 
 Replace `<port_number>` with the port you want to connect to.
 
+## SOCKS settings
+
+To set the SOCKS listen host, type:
+
+    adguardvpn-cli config set-socks-host <host>
+
+Replace `<host>` with the host you want to use. Using a host other than 127.0.0.1 requires setting a username and password. To set the SOCKS username and password, type:
+
+    adguardvpn-cli config set-socks-username <username>
+    adguardvpn-cli config set-socks-password <password>
+
+Replace `<username>` and `<password>` with your desired username and password. To clear the SOCKS username and password, type:
+
+    adguardvpn-cli config clear-socks-auth
+
 ## DNS upstream address
 
 To set a DNS upstream, type:
@@ -35,11 +50,31 @@ Replace `<server_address>` with the address of your DNS server. To use this DNS 
 
     adguardvpn-cli config set-system-dns on
 
-## No-route mode
+## VPN tunnel routing mode: NONE, AUTO, or SCRIPT
 
-This feature routes only your specified addresses through the VPN tunnel. To enable the no-route mode, type:
+You can choose how AdGuard VPN routes traffic through the VPN tunnel. To set the tunnel routing mode to NONE (no routing), type:
 
-    adguardvpn-cli config set-no-routes on
+    adguardvpn-cli config set-tun-routing-mode NONE
+
+To set the tunnel routing mode to AUTO (automatic routing), type:
+
+    adguardvpn-cli config set-tun-routing-mode AUTO
+
+To set the tunnel routing mode to SCRIPT (custom routing script), type:
+
+    adguardvpn-cli config set-tun-routing-mode SCRIPT
+
+To create a routes script with proper permissions, type:
+
+    adguardvpn-cli config create-routes-script
+
+## Use QUIC
+
+To enable the use of AdGuard VPN protocol based on QUIC (HTTP/3), type:
+
+    adguardvpn-cli config set-use-quic on
+
+To disable it, set it to `off`.
 
 ## Crash reports
 
