@@ -1,6 +1,6 @@
 ---
-title: How to use Hide My Email 
-sidebar_position: 5
+title: How to use Hide My Email
+sidebar_position: 6
 ---
 
 Apple’s *Hide My Email* feature is a great tool to keep your real email address private when signing up for websites and apps that use Apple ID. You can even use it for private correspondence and manage all incoming messages just as you would with a regular email account. This way, you can protect your privacy and keep your real email address hidden from prying eyes.
