@@ -40,6 +40,15 @@ Also you can not only add websites to Exclusions but also choose among the lists
 
 Exclusion list can be easily configured. If you've added a domain and some of its subdomains, they'll be grouped inside the root one. When adding a root domain (`example.com`) its mask is added too (`*.example.com`).
 
+:::info Browsers in Selective mode
+
+Starting with VPN version 2.4, when switching to Selective mode, all browsers on the system are automatically added to the exceptions list for more convenience. This change applies under the following conditions:
+
+- The user installed VPN for the first time
+- The user did not modify selector mode settings prior to version 2.4.
+
+:::
+
 If you've added a service, changed or removed something and now want to recover initial settings, just press *Reset to default* next to the domain — this action will restore any missing domains and tick all checkboxes.
 
 What’s more, ready-made exclusions lists can be transferred to other devices with installed AdGuard VPN. To export exclusions, follow the four-step instruction below:
