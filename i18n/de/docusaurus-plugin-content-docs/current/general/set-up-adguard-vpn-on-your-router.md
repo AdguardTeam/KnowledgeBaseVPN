@@ -33,7 +33,7 @@ Diese Option ist nur verfügbar, wenn Sie ein AdGuard VPN-Abonnement haben und I
 
 5. Aktivieren Sie _VPN-Client_ und klicken Sie auf _VPN-Server hinzufügen_.
 
-6. Wählen Sie IPsec-Client (es kann IKE heißen; nicht L2TP/IPsec).
+6. Select _IKEv2/IPsec_.
 
 7. Geben Sie die Zugangsdaten ein, die Sie in Schritt 3 erstellt haben.
 

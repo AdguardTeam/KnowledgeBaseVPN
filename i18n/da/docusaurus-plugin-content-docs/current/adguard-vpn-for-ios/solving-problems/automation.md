@@ -1,6 +1,6 @@
 ---
 title: Sådan opsættes AdGuard VPN-automatisering til iPhone- og iPad-apps
-sidebar_position: 1
+sidebar_position: 2
 sidebar_label: Sådan opsættes AdGuard VPN-automatisering
 ---
 

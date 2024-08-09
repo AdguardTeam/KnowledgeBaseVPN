@@ -1,6 +1,6 @@
 ---
 title: Kompatibilita s blokátorem reklam AdGuard
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 AdGuard VPN má dva pracovní režimy: *VPN* a *Integrovaný*.

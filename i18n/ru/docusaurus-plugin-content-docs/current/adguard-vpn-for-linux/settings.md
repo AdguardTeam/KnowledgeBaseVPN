@@ -1,63 +1,112 @@
 ---
-title: Settings
+title: Настройки
 sidebar_position: 4
 ---
 
-You can manage AdGuard VPN for Linux settings from the command line. To view the current configuration, type:
+Вы можете управлять настройками AdGuard VPN для Linux из командной строки. Чтобы просмотреть текущую конфигурацию, введите:
 
 ```
 adguardvpn-cli config show
 ```
 
-## VPN mode: TUN or SOCKS5
+## Режим VPN: TUN или SOCKS5
 
-You can choose how AdGuard VPN routes traffic.
+Вы можете выбрать, как AdGuard VPN маршрутизирует трафик.
 
-To set the default tunnel mode, type:
+Чтобы установить туннельный режим по умолчанию, введите:
 
 ```
 adguardvpn-cli config set-mode TUN
 ```
 
-To set the SOCKS5 mode, type:
+Чтобы установить режим SOCKS5, введите:
 
 ```
 adguardvpn-cli config set-mode SOCKS
 ```
 
-To set the SOCKS5 port, type:
+Чтобы установить порт SOCKS5, введите:
 
 ```
 adguardvpn-cli config set-socks-port <port_number>
 ```
 
-Replace `<port_number>` with the port you want to connect to.
+Замените `<port_number>` на порт, к которому вы хотите подключиться.
 
-## DNS upstream address
+## SOCKS settings
 
-To set a DNS upstream, type:
+To set the SOCKS listen host, type:
+
+```
+adguardvpn-cli config set-socks-host <host>
+```
+
+Replace `<host>` with the host you want to use. Using a host other than 127.0.0.1 requires setting a username and password. To set the SOCKS username and password, type:
+
+```
+adguardvpn-cli config set-socks-username <username>
+adguardvpn-cli config set-socks-password <password>
+```
+
+Replace `<username>` and `<password>` with your desired username and password. To clear the SOCKS username and password, type:
+
+```
+adguardvpn-cli config clear-socks-auth
+```
+
+## DNS upstream-адрес
+
+Для установки DNS upstream введите:
 
 ```
 adguardvpn-cli config set-dns <server_address>
 ```
 
-Replace `<server_address>` with the address of your DNS server. To use this DNS server at the system level, type:
+Замените `<server_address>` на адрес вашего DNS-сервера. Чтобы использовать этот DNS-сервер на системном уровне, введите:
 
 ```
 adguardvpn-cli config set-system-dns on
 ```
 
-## No-route mode
+## VPN tunnel routing mode: NONE, AUTO, or SCRIPT
 
-This feature routes only your specified addresses through the VPN tunnel. To enable the no-route mode, type:
+You can choose how AdGuard VPN routes traffic through the VPN tunnel. To set the tunnel routing mode to NONE (no routing), type:
 
 ```
-adguardvpn-cli config set-no-routes on
+adguardvpn-cli config set-tun-routing-mode NONE
 ```
 
-## Crash reports
+To set the tunnel routing mode to AUTO (automatic routing), type:
 
-If you enable automatic crash reports, AdGuard VPN will notify the developers if something goes wrong. To enable the setting, type:
+```
+adguardvpn-cli config set-tun-routing-mode AUTO
+```
+
+To set the tunnel routing mode to SCRIPT (custom routing script), type:
+
+```
+adguardvpn-cli config set-tun-routing-mode SCRIPT
+```
+
+To create a routes script with proper permissions, type:
+
+```
+adguardvpn-cli config create-routes-script
+```
+
+## Use QUIC
+
+To enable the use of AdGuard VPN protocol based on QUIC (HTTP/3), type:
+
+```
+adguardvpn-cli config set-use-quic on
+```
+
+Чтобы отключить её, поменяйте значение на `off`.
+
+## Отчёты об ошибках
+
+Если вы включите автоматические отчёты о сбоях, AdGuard VPN уведомит разработчиков, если что-то пойдёт не так. Чтобы включить настройку, введите:
 
 ```
 adguardvpn-cli config send-reports on
@@ -65,32 +114,32 @@ adguardvpn-cli config send-reports on
 
 To disable it, set it to `off`.
 
-## Update channel
+## Канал обновления
 
-To change the update channel, type:
+Чтобы изменить канал обновления, введите:
 
 ```
 adguardvpn-cli config set-update-channel <channel>
 ```
 
-Replace `<channel>` with `release`, `beta`, or `nightly`, depending on your preferences.
+Замените `<channel>` на `release`, `beta` или `nightly`, в зависимости от ваших предпочтений.
 
-## Hints
+## Подсказки
 
-AdGuard VPN can show you hints after executing commands — for example, what to do next or how to fix an error. This setting is enabled by default but you can disable it by typing:
+AdGuard VPN может показывать вам подсказки после выполнения команд — например, что делать дальше или как исправить ошибку. Этот параметр включён по умолчанию, но вы можете отключить его, набрав:
 
 ```
 adguardvpn-cli config set-show-hints off
 ```
 
-To re-enable it, replace `off` with `on`.
+Чтобы снова включить его, замените `off` на `on`.
 
-## Debug logging
+## Подробное логирование
 
-To report a bug, you may need to share debug logs with the developers or support team. To enable debug logging, type:
+Чтобы сообщить об ошибке, вам может потребоваться поделиться отладочными логами с разработчиками или командой поддержки. Чтобы включить отладочные логи, введите:
 
 ```
 adguardvpn-cli config set-debug-logging on
 ```
 
-Disable this setting after exporting logs.
+Отключите эту настройку после экспорта логов.

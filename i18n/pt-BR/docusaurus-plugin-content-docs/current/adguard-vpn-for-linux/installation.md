@@ -1,13 +1,13 @@
 ---
-title: Installation and removal
+title: Instalação e remoção
 sidebar_position: 2
 ---
 
-## Install AdGuard VPN for Linux
+## Instalar o AdGuard VPN para Linux
 
-To install AdGuard VPN, type:
+Para instalar o AdGuard VPN, digite:
 
-Release
+Versão
 
 ```
 curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/release/install.sh | sh -s -- -v
@@ -19,25 +19,25 @@ Beta
 curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/beta/install.sh | sh -s -- -v
 ```
 
-Nightly
+Noturna
 
 ```
 curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/nightly/install.sh | sh -s -- -v
 ```
 
-If required, enter your admin password.
+Se necessário, digite sua senha de administrador.
 
-Agree to link the binary to `usr/local/bin` by pressing `y` and wait until the installation is complete.
+Concorde em vincular o binário a `usr/local/bin` pressionando `y` e aguarde até que a instalação seja concluída.
 
 :::note
-You can verify the signature to prove it’s an official version of AdGuard VPN by using the `gpg` tool. [Read more on GitHub](https://github.com/AdguardTeam/AdGuardVPNCLI?tab=readme-ov-file#verify-releases)
+Você pode verificar a assinatura para provar que é uma versão oficial do AdGuard VPN usando a ferramenta `gpg`. [Leia mais no GitHub](https://github.com/AdguardTeam/AdGuardVPNCLI?tab=readme-ov-file#verify-releases)
 :::
 
-## Uninstall AdGuard VPN for Linux
+## Desinstalar o AdGuard VPN para Linux
 
-To uninstall AdGuard VPN, type:
+Para desinstalar o AdGuard VPN, digite:
 
-Release
+Versão
 
 ```
 curl -SsL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/release/install.sh | sh -s -- -v -u
@@ -49,10 +49,10 @@ Beta
 curl -SsL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/beta/install.sh | sh -s -- -v -u
 ```
 
-Nightly
+Noturna
 
 ```
 curl -SsL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/nightly/install.sh | sh -s -- -v -u
 ```
 
-If required, enter your admin password.
+Se necessário, digite sua senha de administrador.

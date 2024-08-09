@@ -1,6 +1,6 @@
 ---
 title: AdGuard 광고 차단기와의 호환성
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 AdGuard VPN에는 두 가지 작동 모드(*VPN* 및 *통합 모드*)가 있습니다.

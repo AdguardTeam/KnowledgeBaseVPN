@@ -115,7 +115,7 @@ In this section, you can also export logs and system info to share them with sup
 
 :::caution
 
-In the **Preferred IP version** option, before you choose between IPv6 and IPv4, make sure that your network supports that protocol. For example, if you select IPv6 and your network only supports IPv4, you will have problems connecting to the Internet. And vice versa.
+In the **Preferred IP version** option, before you choose between IPv6 and IPv4, make sure that your network supports that protocol. For example, if you select IPv6 and your network only supports IPv4, you may experience problems connecting to the Internet. And vice versa.
 
 :::
 

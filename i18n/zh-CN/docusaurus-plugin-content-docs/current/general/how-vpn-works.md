@@ -43,7 +43,7 @@ VPN 安全协议是对 VPN 隧道中数据进行加密的工具，同时能让�
 
 <object data="https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/6.svg?nc=1" type="image/svg+xml"><img src="https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/6.svg?nc=1" alt="protocol 6" /> </object>
 
-AdGuard VPN 也有自己的 [_协议_](/general/adguard-vpn-protocol)。 其最大的优点之一，就是使用 AdGuard VPN 协议传输的流量与普通流量极难区分。 因为 VPN 隧道可以完全伪装成正常的 HTTPS 流量，所以极难检测和阻止。 此外，它基于现代 HTTP/2 协议的机制，可确保较高的连接速度。
+AdGuard VPN 也有自己的 [_协议_](/general/adguard-vpn-protocol)。 其最大的优点之一，就是使用 AdGuard VPN 协议传输的流量与普通流量极难区分。 The VPN tunnel looks like normal HTTPS traffic, making it extremely difficult to detect and block. 此外，它基于现代 HTTP/2 协议的机制，可确保较高的连接速度。
 
 <object data="https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/5.svg?nc=1" type="image/svg+xml"><img src="https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/5.svg?nc=1" alt="protocol 5" /></object>
 

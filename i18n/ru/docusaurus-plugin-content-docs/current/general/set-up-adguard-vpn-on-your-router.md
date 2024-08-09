@@ -33,7 +33,7 @@ sidebar_position: 8
 
 5. Включите _VPN-клиент_ и нажмите _Добавить VPN-сервер_.
 
-6. Выберите IPsec-client (он может называться IKE, но не L2TP/IPsec).
+6. Select _IKEv2/IPsec_.
 
 7. Введите учётные данные, созданные в шаге 3.
 
@@ -57,16 +57,16 @@ sidebar_position: 8
 
 - **PlayStation и Xbox**: чтобы играть онлайн без перебоев и безопасно на PS4 и PS5, [настройте AdGuard VPN на роутере](#how-to-set-up-adguard-vpn-on-your-router) и подключите к нему консоль
 
-- **Apple TV**: Follow the instructions to [set up AdGuard VPN on your router](#how-to-set-up-adguard-vpn-on-your-router), then connect your Apple TV
+- **Apple TV**: следуйте инструкциям по [настройке AdGuard VPN на роутере](#how-to-set-up-adguard-vpn-on-your-router), затем подключите Apple TV
 
 - **Chromecast**:
 
-  **For Gen 4:** Simply download and install [AdGuard VPN from Google Play](https://play.google.com/store/apps/details?id=com.adguard.vpn)
+  **Для поколения 4:** просто скачайте и установите [AdGuard VPN из Google Play](https://play.google.com/store/apps/details?id=com.adguard.vpn)
 
-  **For Gen 3:** Follow our guide to [set up AdGuard VPN on your router](#how-to-set-up-adguard-vpn-on-your-router). Make sure your TV and smartphone, tablet or computer are connected to the same network
+  **Для поколения 3:** следуйте нашему руководству по [настройке AdGuard VPN на роутере](#how-to-set-up-adguard-vpn-on-your-router). Убедитесь, что ваш телевизор и смартфон, планшет или компьютер подключены к одной сети
 
-  For **Android TV**, you don’t need to set up AdGuard VPN on a router — we have a special version for Android TV. Just follow these steps:
+  Для **Android TV** вам не нужно настраивать AdGuard VPN на роутере — у нас есть специальная версия для Android TV. Выполните следующие действия:
 
-  1. Install [AdGuard VPN from Google Play](https://play.google.com/store/apps/details?id=com.adguard.vpn) on your Android TV
-  2. If you already have an AdGuard account, log in with your credentials. If you’re new to AdGuard, enter your email address and follow the on-screen instructions
-  3. Open the app, select the location you want, and connect
+  1. Установите [AdGuard VPN из Google Play](https://play.google.com/store/apps/details?id=com.adguard.vpn) на ваш Android TV
+  2. Если у вас уже есть аккаунт AdGuard, войдите через почту и пароль. Если вы ещё не зарегистрированы, введите почту и следуйте инструкции
+  3. Откройте приложение, выберите нужную локацию и подключитесь

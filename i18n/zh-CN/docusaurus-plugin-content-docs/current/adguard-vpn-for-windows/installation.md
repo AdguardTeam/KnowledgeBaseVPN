@@ -43,7 +43,7 @@ AdGuard VPN 支持 **Windows 11/10/8.1/8/Vista SP2（仅限联网）**。
 
     :::
 
-1. 选择 *AdGuard VPN* 和 *标准* 卸载类型，然后单击 *卸载*： 在窗口提示中点击*是，继续*：
+1. 选择 *AdGuard VPN* 和 *标准* 卸载类型，然后单击 *卸载*： Click *Yes, continue* in the window prompt:
 
     ![Extended uninstall *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/vpn_extended.jpg)
 

@@ -1,6 +1,6 @@
 ---
 title: 透過 App Store 購買的訂閱的使用問題
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 某些用戶無法使用透過 App Store 購買的 AdGuard VPN 訂閱。 此問題可能在兩種情況下發生：

@@ -43,7 +43,7 @@ Fungerer alm. afinstallation af en eller anden grund ikke, kan en avanceret meto
 
     :::
 
-1. Vælg *AdGuard VPN* og afinstallationstypen *Udvidet*, og klik dernæst på *Afinstallér*. Klik på *Ja, fortsæt* i vinduesprompten:
+1. Vælg *AdGuard VPN* og afinstallationstypen *Udvidet*, og klik dernæst på *Afinstallér*. Click *Yes, continue* in the window prompt:
 
     ![Udvidet afinstallation *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/vpn_extended.jpg)
 

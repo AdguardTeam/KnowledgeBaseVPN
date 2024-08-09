@@ -1,5 +1,5 @@
 ---
-title: 'What is a DNS leak'
+title: 'O que é um vazamento de DNS'
 sidebar_position: 9
 ---
 
@@ -13,7 +13,7 @@ Em outras palavras, toda vez que você abre um site, seu navegador envia uma sol
 
 ## Como detectar vazamentos de DNS
 
-Existem todos os tipos de serviços de verificação de anonimato para detectar vazamentos de DNS, como `whoer.net`. The algorithms of these websites are not clear, but their intentions are — to scare users with imaginary leaks, potentially enabling them to sell their services.
+Existem todos os tipos de serviços de verificação de anonimato para detectar vazamentos de DNS, como `whoer.net`. Os algoritmos desses sites não são claros, mas suas intenções são — assustar os usuários com vazamentos imaginários, potencialmente permitindo que eles vendam seus serviços.
 
 Alguns sites de verificação de segurança consideram a coincidência do endereço IP do usuário e do endereço IP do servidor DNS um resultado "bom", indicando que não há vazamentos. Na realidade, tal correspondência pode indicar o uso de uma VPN. Quando a VPN está desativada e as solicitações vão para o servidor DNS do seu ISP, o endereço IP do servidor DNS e o seu não coincidem.
 
@@ -29,7 +29,7 @@ E, no caso do AdGuard DNS, você vai "se misturar" com 50 milhões de usuários 
 
 ## Como configurar um servidor DNS personalizado no AdGuard VPN
 
-Existem muitos servidores DNS públicos populares de [provedores de DNS conhecidos](https://adguard-dns.io/kb/general/dns-providers). Some of them can only perform their direct duties — giving the IP addresses of the requested domains, and some can do more.
+Existem muitos servidores DNS públicos populares de [provedores de DNS conhecidos](https://adguard-dns.io/kb/general/dns-providers). Alguns deles podem apenas realizar suas funções diretas — fornecer os endereços IP dos domínios solicitados, e alguns podem fazer mais.
 
 Por exemplo, o AdGuard DNS remove anúncios e protege seu dispositivo contra rastreamento, e o AdGuard DNS Family Protection combina os recursos do AdGuard DNS com pesquisa segura e controle parental.
 

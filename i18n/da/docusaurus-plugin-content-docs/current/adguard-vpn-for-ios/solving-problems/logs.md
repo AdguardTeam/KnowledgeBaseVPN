@@ -1,6 +1,6 @@
 ---
 title: Sådan indsamles og indsendes logfiler
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 Opleves problemer under brug af AdGuard VPN til Android, kan vi informeres herom ved indsendelse af app-logfiler.

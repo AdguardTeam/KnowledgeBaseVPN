@@ -1,6 +1,6 @@
 ---
 title: AdGuard VPN für iPhone- und iPad-Apps automatisieren
-sidebar_position: 1
+sidebar_position: 2
 sidebar_label: AdGuard VPN automatisieren
 ---
 

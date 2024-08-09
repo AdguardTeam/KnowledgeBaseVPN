@@ -120,7 +120,7 @@ Tato možnost umožňuje exportovat technické informace, které mohou být uži
 
 ### Odeslat technická a interakční data
 
-Zapnutím této možnosti nám pomáháte lépe porozumět tomu, jak uživatelé s aplikací pracují. Tyto informace používáme ke zlepšení uživatelského komfortu.
+By turning this option on, you are helping us understand better how users interact with the app. Tyto informace používáme ke zlepšení uživatelského komfortu.
 
 ### Kill Switch
 

@@ -1,6 +1,6 @@
 ---
 title: 如何為 iPhone 和 iPad 應用程式設定 AdGuard VPN 自動化
-sidebar_position: 1
+sidebar_position: 2
 sidebar_label: 如何設定 AdGuard VPN 自動化
 ---
 

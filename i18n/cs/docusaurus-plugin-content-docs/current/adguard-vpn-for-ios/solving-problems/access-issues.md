@@ -1,6 +1,6 @@
 ---
 title: Problémy s používáním předplatného zakoupeného skrze App Store
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 Někteří uživatelé nemohou používat předplatné AdGuard VPN zakoupené prostřednictvím App Store. Tento problém může nastat ve dvou případech:

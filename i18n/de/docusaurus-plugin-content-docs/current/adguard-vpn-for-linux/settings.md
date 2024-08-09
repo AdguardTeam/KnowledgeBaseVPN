@@ -33,6 +33,27 @@ adguardvpn-cli config set-socks-port <port_number>
 
 Ersetzen Sie `<port_number>` durch den Port, mit dem Sie sich verbinden möchten.
 
+## SOCKS-Einstellungen
+
+Um den lauschenden SOCKS-Host festzulegen, geben Sie ein:
+
+```
+adguardvpn-cli config set-socks-host <host>
+```
+
+Ersetzen Sie `<host>` durch den gewünschten Host. Wenn Sie einen anderen Host als 127.0.0.1 verwenden, müssen Sie einen Benutzernamen und ein Passwort festlegen. Um den SOCKS-Benutzernamen und das Passwort festzulegen, geben Sie ein:
+
+```
+adguardvpn-cli config set-socks-username <username>
+adguardvpn-cli config set-socks-password <password>
+```
+
+Ersetzen Sie `<username>` und `<password>` durch Ihren gewünschten Benutzernamen und Ihr Passwort. Um den SOCKS-Benutzernamen und das Passwort zu löschen, geben Sie ein:
+
+```
+adguardvpn-cli config clear-socks-auth
+```
+
 ## DNS-Upstream-Adresse
 
 Um einen DNS-Upstream festzulegen, geben Sie Folgendes ein:
@@ -47,13 +68,41 @@ Ersetzen Sie `<server_address>` durch die Adresse Ihres DNS-Servers. Um diesen D
 adguardvpn-cli config set-system-dns on
 ```
 
-## No-Route-Modus
+## VPN-Tunnel-Routing-Modus: NONE, AUTO, oder SCRIPT
 
-Diese Funktion leitet nur die von Ihnen angegebenen Adressen durch den VPN-Tunnel. Um den No-Route-Modus zu aktivieren, geben Sie Folgendes ein:
+Sie können wählen, wie AdGuard VPN den Datenverkehr durch den VPN-Tunnel leitet. Um den Tunnel-Routing-Modus auf NONE (kein Routing) zu setzen, geben Sie ein:
 
 ```
-adguardvpn-cli config set-no-routes on
+adguardvpn-cli config set-tun-routing-mode NONE
 ```
+
+Um den Tunnel-Routing-Modus auf AUTO (automatisches Routing) zu setzen, geben Sie ein:
+
+```
+adguardvpn-cli config set-tun-routing-mode AUTO
+```
+
+Um den Tunnel-Routing-Modus auf SCRIPT (benutzerdefiniertes Routing-Skript) zu setzen, geben Sie ein:
+
+```
+adguardvpn-cli config set-tun-routing-mode SCRIPT
+```
+
+Um ein Routenskript mit den erforderlichen Zugriffsrechten zu erstellen, geben Sie ein:
+
+```
+adguardvpn-cli config create-routes-script
+```
+
+## QUIC verwenden
+
+Um die Verwendung des auf QUIC (HTTP/3) basierenden AdGuard VPN-Protokolls zu aktivieren, geben Sie ein:
+
+```
+adguardvpn-cli config set-use-quic on
+```
+
+Um sie zu deaktivieren, setzen Sie sie auf `off`.
 
 ## Absturzberichte
 
@@ -63,7 +112,7 @@ Wenn Sie das automatische Melden von Abstürzen aktivieren, benachrichtigt AdGua
 adguardvpn-cli config send-reports on
 ```
 
-Um sie zu deaktivieren, setzen Sie sie auf `off`.
+Um sie zu deaktivieren, setzen Sie sie auf „`off`.
 
 ## Aktualisierungskanal
 

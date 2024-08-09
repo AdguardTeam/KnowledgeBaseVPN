@@ -33,6 +33,27 @@ adguardvpn-cli config set-socks-port <port_number>
 
 Erstat `<port_number>` med den port, der skal oprettes forbindelse til.
 
+## SOCKS-indstillinger
+
+For at angive SOCKS5 lytte-vært, skriv:
+
+```
+adguardvpn-cli config set-socks-host <host>
+```
+
+Erstat `<host>` med den vært, der ønskes anvendt. Brug af en anden vært end 127.0.0.1 kræver indstilling af et brugernavn og en adgangskode. For at indstille SOCKS brugernavn og adgangskode, skriv:
+
+```
+adguardvpn-cli config set-socks-username <username>
+adguardvpn-cli config set-socks-password <password>
+```
+
+Erstat `<username>` og `<password>` med ønsket brugernavn og adgangskode. For at rydde SOCKS brugernavn og adgangskode, skriv:
+
+```
+adguardvpn-cli config clear-socks-auth
+```
+
 ## DNS upstream-adresse
 
 For at indstille en DNS-upstream, skriv:
@@ -47,13 +68,41 @@ Erstat `<server_address>` med adressen på DNS-serveren. For at bruge denne DNS-
 adguardvpn-cli config set-system-dns on
 ```
 
-## No-route tilstand
+## VPN-tunnel rutningstilstand: NONE, AUTO eller SCRIPT
 
-Denne funktion ruter kun de angivne adresser igennem VPN-tunnelen. For at aktivere no-route tilstanden, skriv:
+Der kan vælges, hvordan AdGuard VPN ruter trafik igennem VPN-tunnelen. For at indstille tunnelrutningstilstanden til INGEN (ingen routing), skriv:
 
 ```
-adguardvpn-cli config set-no-routes on
+adguardvpn-cli config set-tun-routing-mode NONE
 ```
+
+For at indstille tunnelrutningstilstanden til AUTO (automatisk routing), skriv:
+
+```
+adguardvpn-cli config set-tun-routing-mode AUTO
+```
+
+For at indstille tunnelrutningstilstanden til SCRIPT (tilpasset routing), skriv:
+
+```
+adguardvpn-cli config set-tun-routing-mode SCRIPT
+```
+
+For at oprette et rutningsscript med de korrekte tilladelser, skriv:
+
+```
+adguardvpn-cli config create-routes-script
+```
+
+## Brug af QUIC
+
+For at aktivere brugen af AdGuard VPN-protokollen baseret på QUIC (HTTP/3), skriv:
+
+```
+adguardvpn-cli config set-use-quic on
+```
+
+For at deaktivere den, indstil den til "off".
 
 ## Nedbrudsrapporter
 
@@ -63,7 +112,7 @@ Aktiveres automatiske nedbrudsrapporter, underretter AdGuard VPN udviklerne, hvi
 adguardvpn-cli config send-reports on
 ```
 
-For at deaktivere den, indstil den til "off".
+For at deaktivere den, sæt den til "off".
 
 ## Opdateringskanal
 

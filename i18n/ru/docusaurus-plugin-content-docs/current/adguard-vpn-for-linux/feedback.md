@@ -1,5 +1,5 @@
 ---
-title: Sending feedback
+title: Отправка отзыва
 sidebar_position: 5
 ---
 
@@ -30,10 +30,10 @@ sidebar_position: 5
 
    Для macOS
 
-   `zip -rj ~/Downloads/logs.zip ~/Library/"Поддержка приложений"/adguardvpn-cli/*.log`
+   `zip -rj ~/Downloads/logs.zip ~/Library/"Application Support"/adguardvpn-cli/*.log`
 
-4. Отправьте файл журнала на devteam@adguard.com. Укажите время ошибки и прикрепите ссылку на вашу задачу GitHub или ее номер (она отображается как #number рядом с заголовком). Кроме того, вы можете загрузить файл с логами на Google Диск и отправить его на devteam@adguard.com. Добавьте ссылку на файл к задаче на GitHub.
+4. Отправьте файлс c логами на devteam@adguard.com. Укажите время ошибки и прикрепите ссылку на вашу задачу GitHub или её номер (она отображается как #число рядом с заголовком). Кроме того, вы можете загрузить файл с логами на Google Диск и отправить его на devteam@adguard.com. Добавьте ссылку на файл к задаче на GitHub.
 
-5. Включите ведение журнала отладки, набрав:
+5. Отключите ведение журнала отладки, набрав:
 
-   `adguardvpn-cli config set-debug-logging on`
+   `adguardvpn-cli config set-debug-logging off`

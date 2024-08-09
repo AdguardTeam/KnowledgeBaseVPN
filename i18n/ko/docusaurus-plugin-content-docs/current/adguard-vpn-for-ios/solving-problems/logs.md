@@ -1,6 +1,6 @@
 ---
 title: 로그 수집 및 전송 방법
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 iOS용 AdGuard VPN을 사용하는 동안 문제가 발생하면 앱 로그를 전송하여 알려주세요.

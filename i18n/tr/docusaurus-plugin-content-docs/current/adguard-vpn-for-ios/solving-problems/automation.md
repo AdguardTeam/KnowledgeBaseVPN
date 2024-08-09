@@ -1,6 +1,6 @@
 ---
 title: iPhone ve iPad uygulamaları için AdGuard VPN otomasyonu nasıl ayarlanır
-sidebar_position: 1
+sidebar_position: 2
 sidebar_label: AdGuard VPN otomasyonu nasıl ayarlanır
 ---
 

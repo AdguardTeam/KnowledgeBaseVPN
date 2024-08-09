@@ -1,6 +1,6 @@
 ---
 title: Jak shromažďovat a odesílat protokoly
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 Pokud při používání AdGuard VPN pro iOS narazíte na problém, můžete nás o něm informovat zasláním protokolů aplikace.

@@ -3,7 +3,7 @@ title: 'Jak používat AdGuard VPN v zemích s internetovými omezeními'
 sidebar_position: 10
 ---
 
-V některých oblastech, jako je Čína, Írán a Rusko, mohou mít uživatelé problémy s připojením k AdGuard VPN. Zde jsou možnosti, které by mohly pomoci.
+In certain regions, such as China, Iran, and Russia, users might experience problems connecting to AdGuard VPN. Zde jsou možnosti, které by mohly pomoci.
 
 ## Přístup na webové stránky AdGuard VPN
 
@@ -19,21 +19,21 @@ Abyste se vyhnuli potenciálním phishingovým nebo škodlivým webovým stránk
 
 ### AdGuard VPN pro iOS
 
-If you don’t see AdGuard VPN in the App Store, try changing the country or region in your Apple ID settings. Another option is to create a new Apple account and connect it to the App Store. [Instructions for both cases](/adguard-vpn-for-ios/solving-problems/app-store) are described in a separate article.
+Pokud AdGuard VPN v App Store nevidíte, zkuste změnit zemi nebo oblast v nastavení Apple ID. Další možností je vytvořit si nový účet Apple a připojit jej k App Store. [Pokyny pro oba případy](/adguard-vpn-for-ios/solving-problems/app-store) jsou popsány v samostatném článku.
 
-After you change the region or link a different account to the App Store, [install AdGuard VPN](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602).
+Po změně regionu nebo propojení jiného účtu s App Store [nainstalujte AdGuard VPN](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602).
 
 ### AdGuard VPN pro Android
 
-If you have problems with Google Play, download the APK file from [AdGuard VPN’s mirror website](https://adguardvpn-help.com/android/overview.html).
+If you experience problems with Google Play, download the APK file from [AdGuard VPN’s mirror website](https://adguardvpn-help.com/android/overview.html).
 
 ### AdGuard VPN pro macOS
 
-Download the installation file from [AdGuard VPN’s mirror website](https://adguardvpn-help.com/windows/overview.html).
+Stáhněte si instalační soubor ze [zrcadleného webu AdGuard VPN](https://adguardvpn-help.com/windows/overview.html).
 
 ### AdGuard VPN pro Windows
 
-Download the installation file from [AdGuard VPN’s mirror website](https://adguardvpn-help.com/mac/overview.html).
+Stáhněte si instalační soubor ze [zrcadleného webu AdGuard VPN](https://adguardvpn-help.com/mac/overview.html).
 
 ## Další užitečné tipy
 
@@ -49,4 +49,4 @@ Download the installation file from [AdGuard VPN’s mirror website](https://adg
 
 - Máte-li problémy s připojením, nepovolujte *Používat QUIC* v *Pokročilých nastavení*.
 
-If all else fails, don't hesitate to reach out to our support team at <support@adguard-vpn.com> for further assistance.
+Pokud vše ostatní selže, neváhejte se obrátit na náš tým podpory na <support@adguard-vpn.com> s žádostí o další pomoc.

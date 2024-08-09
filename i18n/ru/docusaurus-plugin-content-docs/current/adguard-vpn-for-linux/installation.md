@@ -1,19 +1,19 @@
 ---
-title: Installation and removal
+title: Установка и удаление
 sidebar_position: 2
 ---
 
-## Install AdGuard VPN for Linux
+## Установите AdGuard VPN для Linux
 
-To install AdGuard VPN, type:
+Чтобы установить AdGuard VPN, введите:
 
-Release
+Релиз
 
 ```
 curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/release/install.sh | sh -s -- -v
 ```
 
-Beta
+Бета
 
 ```
 curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/beta/install.sh | sh -s -- -v
@@ -25,25 +25,25 @@ Nightly
 curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/nightly/install.sh | sh -s -- -v
 ```
 
-If required, enter your admin password.
+При необходимости введите пароль администратора.
 
-Agree to link the binary to `usr/local/bin` by pressing `y` and wait until the installation is complete.
+Согласитесь связать двоичный файл с `usr/local/bin`, нажав `y`, и дождитесь завершения установки.
 
 :::note
-You can verify the signature to prove it’s an official version of AdGuard VPN by using the `gpg` tool. [Read more on GitHub](https://github.com/AdguardTeam/AdGuardVPNCLI?tab=readme-ov-file#verify-releases)
+Вы можете проверить подпись и убедиться, что это официальная версия AdGuard VPN, используя инструмент `gpg`. [Подробнее на GitHub](https://github.com/AdguardTeam/AdGuardVPNCLI?tab=readme-ov-file#verify-releases)
 :::
 
-## Uninstall AdGuard VPN for Linux
+## Удалите AdGuard VPN для Linux
 
-To uninstall AdGuard VPN, type:
+Чтобы удалить AdGuard VPN, введите:
 
-Release
+Релиз
 
 ```
 curl -SsL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/release/install.sh | sh -s -- -v -u
 ```
 
-Beta
+Бета
 
 ```
 curl -SsL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/beta/install.sh | sh -s -- -v -u
@@ -55,4 +55,4 @@ Nightly
 curl -SsL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/nightly/install.sh | sh -s -- -v -u
 ```
 
-If required, enter your admin password.
+При необходимости введите пароль администратора.
