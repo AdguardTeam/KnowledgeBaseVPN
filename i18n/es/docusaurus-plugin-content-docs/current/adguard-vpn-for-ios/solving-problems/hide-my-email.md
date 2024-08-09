@@ -1,6 +1,6 @@
 ---
 title: Cómo utilizar Ocultar mi correo
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 Apple’s *Hide My Email* feature is a great tool to keep your real email address private when signing up for websites and apps that use Apple ID. Incluso puedes usarlo para correspondencia privada y gestionar todos los mensajes entrantes como lo harías con una cuenta de correo electrónico normal. De esta forma, puedes proteger tu privacidad y mantener tu dirección de correo electrónico real oculta a miradas indiscretas.

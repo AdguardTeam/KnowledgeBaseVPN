@@ -28,15 +28,15 @@ Senhas, detalhes de cartões e simples informações pessoais estão em risco qu
 
 ### Desenvolvedor confiável
 
-AdGuard has been present on the market of personal data protection and ad blocking and developing its line of software for more than 15 years. Over this time, our company has built an impeccable reputation, and more than 410 million people have installed AdGuard.
+A AdGuard está presente no mercado de proteção de dados pessoais e bloqueio de anúncios e desenvolvendo sua linha de software há mais de 15 anos. Ao longo desse tempo, nossa empresa construiu uma reputação impecável e mais de 410 milhões de pessoas instalaram o AdGuard.
 
 ### Protocolo VPN exclusivo
 
 A principal diferença entre o AdGuard VPN e seus competidores é que nós usamos [nosso próprio protocolo desenvolvido](/general/adguard-vpn-protocol). Ele se disfarça de tráfego normal, por isso é muito mais difícil rastreá-lo e bloqueá-lo.
 
-### No-logging policy
+### Política de não registro
 
-No-logging policy means that we don’t collect, store, or transfer users’ personal data to third parties. [Read AdGuard VPN Privacy policy](https://adguard-vpn.com/privacy.html)
+A política de não registro significa que não coletamos, armazenamos ou transferimos dados pessoais de usuários para terceiros. [Leia a Política de Privacidade do AdGuard VPN](https://adguard-vpn.com/privacy.html)
 
 ### Proteção contra rastreamento
 

@@ -1,6 +1,6 @@
 ---
 title: App Store aracılığıyla satın alınan aboneliklerle ilgili kullanım sorunları
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 Bazı kullanıcılar App Store üzerinden satın aldıkları AdGuard VPN aboneliklerini kullanamazlar. Bu sorun iki durumda ortaya çıkabilir:

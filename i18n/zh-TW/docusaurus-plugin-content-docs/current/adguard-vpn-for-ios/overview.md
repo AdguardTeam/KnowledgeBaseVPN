@@ -120,7 +120,7 @@ AdGuard VPN for iOS 提供多個 DNS 伺服器之間的選擇，每個伺服器�
 
 ### 傳送技術資料和相互作用資訊
 
-透過開啟此選項，您可以幫助我們更了解使用者如何與應用程式互動。 我們使用這些資訊來改善用戶體驗。
+By turning this option on, you are helping us understand better how users interact with the app. 我們使用這些資訊來改善用戶體驗。
 
 ### 終止開關（Kill Switch）
 

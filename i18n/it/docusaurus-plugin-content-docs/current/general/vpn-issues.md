@@ -3,7 +3,7 @@ title: 'Come utilizzare AdGuard VPN nei paesi con restrizioni Internet'
 sidebar_position: 10
 ---
 
-In certe regioni, quali Cina, Iran e Russia, gli utenti potrebbero riscontrare dei problemi nel connettersi ad AdGuard VPN. Ecco le opzioni che potrebbero aiutare.
+In certain regions, such as China, Iran, and Russia, users might experience problems connecting to AdGuard VPN. Ecco le opzioni che potrebbero aiutare.
 
 ## Accedere al sito web di AdGuard VPN
 
@@ -25,7 +25,7 @@ After you change the region or link a different account to the App Store, [insta
 
 ### AdGuard VPN per Android
 
-If you have problems with Google Play, download the APK file from [AdGuard VPN’s mirror website](https://adguardvpn-help.com/android/overview.html).
+If you experience problems with Google Play, download the APK file from [AdGuard VPN’s mirror website](https://adguardvpn-help.com/android/overview.html).
 
 ### AdGuard VPN per Mac
 

@@ -33,7 +33,7 @@ sidebar_position: 8
 
 5. 启用「**VPN 客户端**」并单击「**添加 VPN 服务器**」
 
-6. 选择 IPsec-client（它可能称为 IKE；而不是 L2TP/IPsec）。
+6. Select _IKEv2/IPsec_.
 
 7. 输入在步骤 3 中创建的**认证信息**
 

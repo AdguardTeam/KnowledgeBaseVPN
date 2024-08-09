@@ -1,6 +1,6 @@
 ---
 title: iPhone/iPadでアプリごとにAdGuard VPNを常時オン・オフにする方法（iOSオートメーション）
-sidebar_position: 1
+sidebar_position: 2
 sidebar_label: アプリごとにAdGuard VPNを常時オン・オフにする方法
 ---
 

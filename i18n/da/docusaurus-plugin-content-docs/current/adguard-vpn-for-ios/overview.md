@@ -120,7 +120,7 @@ Denne mulighed tillader eksport af teknisk information, der kan være nyttig ifm
 
 ### Indsend tekniske og interaktionsdata
 
-Ved at slå denne mulighed til hjælper du os med bedre at forstå, hvordan brugere interagerer med appen. Vi bruger disse oplysninger til at forbedre brugeroplevelsen.
+By turning this option on, you are helping us understand better how users interact with the app. Vi bruger disse oplysninger til at forbedre brugeroplevelsen.
 
 ### Kill Switch
 

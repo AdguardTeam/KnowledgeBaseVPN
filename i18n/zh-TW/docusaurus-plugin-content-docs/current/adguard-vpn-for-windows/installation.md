@@ -43,7 +43,7 @@ AdGuard VPN 只能安裝在裝有 **Microsoft Windows 11/10/8.1/8/7/Vista SP2（
 
     :::
 
-1. Select *AdGuard VPN* and *Extended* uninstall type, then click *Uninstall*. Clcik *Yes, continue* in the window prompt:
+1. Select *AdGuard VPN* and *Extended* uninstall type, then click *Uninstall*. Click *Yes, continue* in the window prompt:
 
     ![Extended uninstall *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/vpn_extended.jpg)
 

@@ -1,6 +1,6 @@
 ---
 title: AdGuard Reklam Engelleyici ile uyumluluk
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 AdGuard VPN'in iki çalışma modu vardır: *VPN* ve *Entegre*.

@@ -33,7 +33,7 @@ Tato možnost je k dispozici pouze v případě, že máte předplatné AdGuard 
 
 5. Povolte _klienta VPN_ a klikněte na _Přidat server VPN_.
 
-6. Vyberte možnost IPsec-client (může se nazývat IKE, nikoli L2TP/IPsec).
+6. Select _IKEv2/IPsec_.
 
 7. Zadejte přihlašovací údaje, které jste vytvořili v kroku 3.
 
@@ -51,22 +51,22 @@ Pokud chcete změnit umístění serveru VPN, musíte aktualizovat nastavení ro
 
 - S AdGuard VPN na vašem routeru nemá poskytovatel VPN ani nikdo jiný přístup k vaší internetové aktivitě
 - Instalace AdGuard VPN na váš router zabezpečí celou vaši síť, což znamená, že všechna zařízení k ní připojená jsou chráněná
-- You can enhance security and protect your data on devices where it’s not possible to install AdGuard VPN apps — smart TVs and game consoles
+- Můžete zvýšit zabezpečení a chránit svá data na zařízeních, na která není možné nainstalovat aplikace AdGuard VPN — chytré TV a herní konzole
 
-## Devices that can be connected to a router with AdGuard VPN
+## Zařízení, která lze připojit k routeru s AdGuard VPN
 
-- **PlayStation and Xbox**: To enjoy seamless online gaming and enhanced security on PS4 and PS5, [set up AdGuard VPN on your router](#how-to-set-up-adguard-vpn-on-your-router) and connect your console to it
+- **PlayStation a Xbox**: Chcete-li si užívat bezproblémové online hraní a vyšší zabezpečení na PS4 a PS5, [nastavte AdGuard VPN na svém routeru](#how-to-set-up-adguard-vpn-on-your-router) a připojte k němu svou konzoli
 
-- **Apple TV**: Follow the instructions to [set up AdGuard VPN on your router](#how-to-set-up-adguard-vpn-on-your-router), then connect your Apple TV
+- **Apple TV**: Postupujte podle pokynů [nastavení AdGuard VPN na vašem routeru](#how-to-set-up-adguard-vpn-on-your-router) a poté připojte Apple TV
 
 - **Chromecast**:
 
-  **For Gen 4:** Simply download and install [AdGuard VPN from Google Play](https://play.google.com/store/apps/details?id=com.adguard.vpn)
+  **Pro Gen 4:** Jednoduše si stáhněte a nainstalujte [AdGuard VPN z Obchodu Play](https://play.google.com/store/apps/details?id=com.adguard.vpn)
 
-  **For Gen 3:** Follow our guide to [set up AdGuard VPN on your router](#how-to-set-up-adguard-vpn-on-your-router). Make sure your TV and smartphone, tablet or computer are connected to the same network
+  **Pro Gen 3:** Postupujte podle našeho průvodce [nastavení AdGuard VPN na vašem routeru](#how-to-set-up-adguard-vpn-on-your-router). Zkontrolujte, zda je TV a chytrý telefon, tablet nebo počítač připojeny ke stejné síti
 
-  For **Android TV**, you don’t need to set up AdGuard VPN on a router — we have a special version for Android TV. Just follow these steps:
+  Pro **Android TV** nemusíte nastavovat AdGuard VPN na routeru — máme speciální verzi pro Android TV. Postupujte podle následujících kroků:
 
-  1. Install [AdGuard VPN from Google Play](https://play.google.com/store/apps/details?id=com.adguard.vpn) on your Android TV
-  2. If you already have an AdGuard account, log in with your credentials. If you’re new to AdGuard, enter your email address and follow the on-screen instructions
-  3. Open the app, select the location you want, and connect
+  1. Nainstalujte si [AdGuard VPN z Obchodu Play](https://play.google.com/store/apps/details?id=com.adguard.vpn) do své Android TV
+  2. Pokud již máte AdGuard účet, přihlaste se pomocí svých přihlašovacích údajů. Pokud jste v AdGuardu noví, zadejte svou e-mailovou adresu a postupujte podle pokynů na obrazovce
+  3. Otevřete aplikaci, vyberte požadované umístění a připojte se

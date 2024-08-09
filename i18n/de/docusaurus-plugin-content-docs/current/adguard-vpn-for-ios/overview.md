@@ -120,7 +120,7 @@ Mit dieser Option können Sie technische Informationen exportieren, die bei der 
 
 ### Technische Daten und Interaktionsdaten senden
 
-Wenn Sie diese Option aktivieren, helfen Sie uns, besser zu verstehen, wie Nutzer mit der App interagieren. Wir verwenden diese Informationen, um die Benutzerfreundlichkeit zu verbessern.
+By turning this option on, you are helping us understand better how users interact with the app. Wir verwenden diese Informationen, um die Benutzerfreundlichkeit zu verbessern.
 
 ### Kill Switch (Not‐Trennung)
 

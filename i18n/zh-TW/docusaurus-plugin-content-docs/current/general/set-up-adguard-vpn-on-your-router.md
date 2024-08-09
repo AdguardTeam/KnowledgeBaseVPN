@@ -33,7 +33,7 @@ sidebar_position: 8
 
 5. 啟用 _VPN 用戶端_ 並點擊 _新增 VPN 伺服器_
 
-6. 選擇 IPsec-client（可能稱為 IKE；而不是 L2TP/IPsec）。
+6. Select _IKEv2/IPsec_.
 
 7. 輸入您在步驟 3 中建立的憑證
 

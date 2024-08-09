@@ -1,6 +1,6 @@
 ---
 title: 내 이메일 숨기기 사용 방법
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 Apple’s *Hide My Email* feature is a great tool to keep your real email address private when signing up for websites and apps that use Apple ID. 일반 이메일 계정과 마찬가지로 비공개 서신에도 사용할 수 있으며 수신되는 모든 메시지를 관리할 수 있습니다. 이렇게 하면 개인정보가 보호되고 실제 이메일 주소가 숨겨집니다.

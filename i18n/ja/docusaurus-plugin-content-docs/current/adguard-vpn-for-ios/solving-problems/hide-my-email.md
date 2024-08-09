@@ -1,6 +1,6 @@
 ---
 title: iOS の「メールを非公開」機能の使用方法
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 Apple’s *Hide My Email* feature is a great tool to keep your real email address private when signing up for websites and apps that use Apple ID. 通常のメールアカウントと同じように、プライベートなやり取りや受信メッセージの管理にも利用できます。 こうすることで、プライバシーを守り、第三者と侵害から本当のメールアドレスを隠しておくことができます。

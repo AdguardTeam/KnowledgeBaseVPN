@@ -1,6 +1,6 @@
 ---
 title: 如何收集和發送日誌
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 如果您在使用 AdGuard VPN for iOS 時遇到任何問題，您可以透過發送應用程式日誌來告知我們。

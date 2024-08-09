@@ -120,7 +120,7 @@ Bu seçenek, sorunların çözümünde faydalı olabilecek ve bazen destek ekibi
 
 ### Teknik ve etkileşim verilerini gönder
 
-Bu seçeneği açarak kullanıcıların uygulamayla nasıl etkileşimde bulunduğunu daha iyi anlamamıza yardımcı olursunuz. Bu bilgileri kullanıcı deneyimini iyileştirmek için kullanırız.
+By turning this option on, you are helping us understand better how users interact with the app. Bu bilgileri kullanıcı deneyimini iyileştirmek için kullanırız.
 
 ### Kill Switch
 

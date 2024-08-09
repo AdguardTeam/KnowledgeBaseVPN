@@ -43,7 +43,7 @@ Pokud běžná odinstalace z nějakého důvodu nefunguje, můžete zkusit pokro
 
     :::
 
-1. Vyberte *AdGuard VPN* a *Rozšířený* typ odinstalace a poté klikněte na *Odinstalovat*. Ve okně výzvy klikněte na *Ano, pokračovat*:
+1. Vyberte *AdGuard VPN* a *Rozšířený* typ odinstalace a poté klikněte na *Odinstalovat*. Click *Yes, continue* in the window prompt:
 
     ![Extended uninstall *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/vpn_extended.jpg)
 

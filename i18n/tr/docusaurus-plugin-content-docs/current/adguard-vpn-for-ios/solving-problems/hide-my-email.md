@@ -1,6 +1,6 @@
 ---
 title: E-postamı Gizle nasıl kullanılır
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 Apple'ın *E-postamı Gizle* özelliği, Apple ID kullanan sitelere ve uygulamalara kaydolurken gerçek e-posta adresinizi gizli tutmak için harika bir araçtır. Özel yazışmalar için bile kullanabilir ve gelen tüm mesajları normal bir e-posta hesabında yaptığınız gibi yönetebilirsiniz. Bu şekilde, gizliliğinizi koruyabilir ve gerçek e-posta adresinizi meraklı gözlerden uzak tutabilirsiniz.

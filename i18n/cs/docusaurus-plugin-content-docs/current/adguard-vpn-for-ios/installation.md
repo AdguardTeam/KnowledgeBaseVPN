@@ -7,6 +7,12 @@ sidebar_position: 2
 
 AdGuard VPN lze nainstalovat pouze na zařízení s **iOS 14.2 a iPadOS 14.2 nebo novějším**.
 
+### Pokud byla AdGuard VPN odstraněna z obchodu App Store
+
+Pokud AdGuard VPN v App Store nevidíte, zkuste změnit zemi nebo oblast v nastavení Apple ID. Další možností je vytvořit si nový účet Apple a připojit jej k App Store. [Pokyny pro oba případy](/adguard-vpn-for-ios/solving-problems/app-store) jsou popsány v samostatném článku.
+
+Po změně regionu nebo propojení jiného účtu s App Store [nainstalujte AdGuard VPN](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602).
+
 ## Jak nainstalovat AdGuard VPN pro iOS
 
 Aplikaci *AdGuard VPN pro iOS* si můžete zdarma stáhnout a nainstalovat v *App Store*.
@@ -29,12 +35,6 @@ Nebo můžete použít vyhledávání v App Store a najít AdGuard VPN:
     ![AdGuard VPN *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/adguard-vpn-en.png)
 
 To je vše! Aplikace AdGuard VPN pro iOS byla úspěšně nainstalována.
-
-### If AdGuard VPN has been removed from the App Store
-
-If you don’t see AdGuard VPN in the App Store, try changing the country or region in your Apple ID settings. Another option is to create a new Apple account and connect it to the App Store. [Instructions for both cases](/adguard-vpn-for-ios/solving-problems/app-store) are described in a separate article.
-
-After you change the region or link a different account to the App Store, [install AdGuard VPN](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602).
 
 ## Jak odinstalovat AdGuard VPN pro iOS
 

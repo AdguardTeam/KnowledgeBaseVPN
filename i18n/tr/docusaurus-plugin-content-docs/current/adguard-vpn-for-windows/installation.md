@@ -43,7 +43,7 @@ Normal kaldırma herhangi bir nedenle işe yaramazsa, gelişmiş bir yöntem kul
 
     :::
 
-1. *AdGuard VPN* ve *Genişletilmiş* kaldırma türünü seçin, ardından *Kaldır* öğesine tıklayın. Pencere isteminde *Evet, devam et* öğesine tıklayın:
+1. *AdGuard VPN* ve *Genişletilmiş* kaldırma türünü seçin, ardından *Kaldır* öğesine tıklayın. Click *Yes, continue* in the window prompt:
 
     ![Genişletilmiş kaldırma *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/vpn_extended.jpg)
 
