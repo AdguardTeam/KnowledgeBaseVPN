@@ -30,7 +30,7 @@ This option is only available if you have an AdGuard VPN subscription and your r
 
 1. In your admin page, go to the router settings.
 1. Enable *VPN Client* and click *Add VPN server*.
-1. Select IPsec-client (it may be called IKE; not L2TP/IPsec).
+1. Select *IKEv2/IPsec*.
 1. Enter the credentials you created in step 3.
 
     ![Enter the credentials *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/general/vpn_connection.jpg)
