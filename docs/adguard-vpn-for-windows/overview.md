@@ -43,15 +43,6 @@ When adding domains manually, you should take into account certain details. For 
 
 We recommend using the **From the list** option. Websites are grouped into eight categories: Social networks, Messengers, Video and Music streaming services, Games, Shopping, Search engines, and Work communication tools. We have placed the most popular services there, including all domain names and subdomains related to each platform.
 
-:::info Browsers in Selective mode
-
-Starting with the version 2.4, when switching to Selective mode, all browsers on the system are automatically added to the exceptions list for more convenience. This change applies under the following conditions:
-
-- The user installed VPN for the first time
-- The user did not modify selector mode settings prior to v2.4
-
-:::
-
 ### Import/export exclusion lists
 
 To export the list of exclusions from AdGuard VPN for Windows to your computer, click **Export exclusions**, select the folder where the list will be stored and click **Save**. An archive `exclusions.zip` with two `.txt` files will be downloaded, one for each of the lists. You can edit them by adding new exclusions or deleting old ones.
