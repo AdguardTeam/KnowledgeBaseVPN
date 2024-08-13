@@ -43,15 +43,6 @@ You can add domains (e.g., `google.com`) or subdomains (e.g., `*.google.com`) of
 
 ![Exclusions *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/exclusions-add.png)
 
-:::info Browsers in Selective mode
-
-Starting with the version 2.4, when switching to Selective mode, all browsers on the system are automatically added to the Exclusions list for more convenience. This change applies under the following conditions:
-
-- The user installed the VPN for the first time
-- The user did not modify the Selective mode settings prior to v2.4
-
-:::
-
 ### Import/export exclusions
 
 Another useful feature is the import and export of exclusion lists. This way you can share exclusion lists from and to other devices.
