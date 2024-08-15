@@ -30,9 +30,9 @@ Alternativ können Sie die Suche im App Store nutzen, um AdGuard VPN zu finden:
 
 Das war's! AdGuard VPN für iOS wurde erfolgreich auf Ihrem Gerät installiert.
 
-### If AdGuard VPN has been removed from the App Store
+### Falls AdGuard VPN aus dem App Store entfernt wurde
 
-If you don’t see AdGuard VPN in the App Store, try changing the country or region in your Apple ID settings. Another option is to create a new Apple account and connect it to the App Store. [Instructions for both cases](/adguard-vpn-for-ios/solving-problems/app-store) are described in a separate article.
+Wenn Sie AdGuard VPN nicht im App Store finden, versuchen Sie, das Land oder die Region in den Einstellungen Ihrer Apple ID zu ändern. Eine weitere Möglichkeit besteht darin, ein neues Apple-Konto zu erstellen und dieses mit dem App Store zu verbinden. [Anleitungen für beide Fälle](/adguard-vpn-for-ios/solving-problems/app-store) werden in einem separaten Artikel beschrieben.
 
 After you change the region or link a different account to the App Store, [install AdGuard VPN](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602).
 

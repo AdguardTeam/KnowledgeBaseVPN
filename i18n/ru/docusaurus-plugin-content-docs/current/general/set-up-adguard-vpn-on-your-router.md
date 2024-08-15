@@ -51,11 +51,11 @@ sidebar_position: 8
 
 - С AdGuard VPN на роутере ни у вашего VPN-провайдера, ни у кого-либо ещё не будет доступа к вашим действиям в интернете
 - AdGuard VPN на роутере защищает всю вашу сеть, а это означает, что все подключённые к ней устройства будут в безопасности
-- You can enhance security and protect your data on devices where it’s not possible to install AdGuard VPN apps — smart TVs and game consoles
+- Вы можете повысить безопасность и защитить свои данные на устройствах, на которые невозможно установить приложения AdGuard VPN — смарт-телевизорах и игровых консолях
 
-## Devices that can be connected to a router with AdGuard VPN
+## Устройства, которые можно подключить к роутеру с помощью AdGuard VPN
 
-- **PlayStation and Xbox**: To enjoy seamless online gaming and enhanced security on PS4 and PS5, [set up AdGuard VPN on your router](#how-to-set-up-adguard-vpn-on-your-router) and connect your console to it
+- **PlayStation и Xbox**: чтобы играть онлайн без перебоев и безопасно на PS4 и PS5, [настройте AdGuard VPN на роутере](#how-to-set-up-adguard-vpn-on-your-router) и подключите к нему консоль
 
 - **Apple TV**: Follow the instructions to [set up AdGuard VPN on your router](#how-to-set-up-adguard-vpn-on-your-router), then connect your Apple TV
 
