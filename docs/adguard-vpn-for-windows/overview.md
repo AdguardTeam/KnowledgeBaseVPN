@@ -43,11 +43,11 @@ When adding domains manually, you should take into account certain details. For 
 
 We recommend using the **From the list** option. Websites are grouped into eight categories: Social networks, Messengers, Video and Music streaming services, Games, Shopping, Search engines, and Work communication tools. We have placed the most popular services there, including all domain names and subdomains related to each platform.
 
-:::info Browsers in the Exclusions list
+:::info Browsers added to Exclusions
 
-Starting with the version 2.4, all browsers on the system are automatically added to the Exclusions list when the VPN is active only for selected apps and websites. This change brings more convenience for users who were often confused and didn’t know whether or not to consider their browsers as apps. It applies under the following conditions:
+Starting with the version 2.4, all browsers are automatically added to the list of exclusions when the VPN is active only for selected apps and websites. This change brings more convenience for users who were often confused and didn’t know whether to consider their browsers as apps or not. It applies under the following conditions:
 
-- The user installed the VPN for the first time
+- The user has installed AdGuard VPN for the first time
 - The user did not modify the Exclusions settings prior to v2.4
 
 :::

@@ -40,11 +40,11 @@ Also you can not only add websites to Exclusions but also choose among the lists
 
 Exclusion list can be easily configured. If you've added a domain and some of its subdomains, they'll be grouped inside the root one. When adding a root domain (`example.com`) its mask is added too (`*.example.com`).
 
-:::info Browsers in the exclusions list
+:::info Browsers added to Exclusions
 
-Starting with the version 2.4, all browsers on the system are automatically added to the exclusions list when the VPN is active only for selected apps and websites. This change brings more convenience for users who were often confused and didn’t know whether or not to consider their browsers as apps. It applies under the following conditions:
+Starting with the version 2.4, all browsers are automatically added to the list of exclusions when the VPN is active only for selected apps and websites. This change brings more convenience for users who were often confused and didn’t know whether to consider their browsers as apps or not. It applies under the following conditions:
 
-- The user installed the VPN for the first time
+- The user has installed AdGuard VPN for the first time
 - The user did not modify the Exclusions settings prior to v2.4
 
 :::
