@@ -1,5 +1,5 @@
 ---
-title: Setting up on a router
+title: How to set up AdGuard VPN for Linux on an OpenWRT router
 sidebar_position: 2
 ---
 
@@ -9,7 +9,7 @@ AdGuard VPN for Linux, also known as AdGuard VPN CLI, requires at least 22 MB of
 
 :::
 
-## 1. Ensure SSH is enabled on the router
+## 1. Make sure that SSH is enabled on your router
 
 This setting is usually found in the router’s web interface.
 
@@ -17,9 +17,9 @@ For OpenWrt:
 
 1. Log into the web interface. Typically, this is accessible via a web browser at [`http://192.168.1.1`](http://192.168.1.1/).
 
-1. Navigate to ***System*** → ***Administration***.
+1. Navigate to *System* → *Administration*.
 
-1. Make sure that ***SSH Access*** is enabled.
+1. Make sure that *SSH Access* is enabled.
 
 By default, OpenWrt allows SSH access to the router.
 
@@ -35,7 +35,7 @@ On Windows:
 ipconfig
 ```
 
-1. Look for the ***Default Gateway*** under your active network connection. This is your router’s IP address.
+1. Look for the *Default Gateway* under your active network connection. This is your router’s IP address.
 
 On Mac/Linux:
 
@@ -45,7 +45,7 @@ On Mac/Linux:
 ip route | grep default
 ```
 
-1. Look for the ***default*** entry. The IP address next to it is your router’s IP address.
+1. Look for the *default* entry. The IP address next to it is your router’s IP address.
 
 ## 3. Use an SSH client to connect to the router
 
@@ -81,11 +81,11 @@ Using PuTTY (Windows):
 
 1. Open PuTTY.
 
-1. In the ***Host Name (or IP address)*** field, enter your router’s IP address (e.g., `192.168.1.1`).
+1. In the *Host Name (or IP address)* field, enter your router’s IP address (e.g., `192.168.1.1`).
 
-1. Ensure the ***Connection type*** is set to SSH.
+1. Ensure the *Connection type* is set to SSH.
 
-1. Click ***Open***.
+1. Click *Open*.
 
 1. When the Terminal window opens, log in with the username `root` and the router’s password.
 
