@@ -69,7 +69,7 @@ Replace `192.168.1.1` with your router’s IP address.
 
 Type `yes` and press Enter.
 
-1. Enter the router’s password when prompted. This should be the same as your admin password.
+1. Enter the router’s password when prompted. The default root username is `root` and the default password is `Keenetic`.
 
 ### Using PuTTY (Windows 8 and earlier)
 
@@ -83,7 +83,7 @@ Type `yes` and press Enter.
 
 1. Click *Open*.
 
-1. When the terminal window opens, log in with the `root` username and the router’s password.
+1. When the terminal window opens, log in with the `root` username and the root user’s password. The default root username is `root` and the default password is `Keenetic`.
 
 Once logged in, you can use various commands to interact with your router’s Linux-based operating system.
 
@@ -121,6 +121,12 @@ Go to `cd/opt` folder and run the AdGuardVPN CLI installation script:
 curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/release/install.sh | sh -s -- -v
 ```
 
+When asked `Would you like to link the binary to /usr/local/bin?`,  reply `y`. If you fail to link the binary, run this line:
+
+```bash
+ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
+```
+
 ## 6. Set up AdGuard VPN CLI
 
 1. Log in to your account
@@ -139,6 +145,12 @@ curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/sc
     *(config)>*
 
     Run this command to exit into the shell needed for the next steps:
+
+    ```bash
+    exec sh
+    ```
+
+    If you see the following text, you can continue the setup:
 
     ```bash
     BusyBox v1.36.1 (2024-08-08 16:11:23 UTC) built-in shell (ash)
@@ -266,3 +278,7 @@ chmod +x /opt/etc/ndm/wan.d/001-adguardvpn.sh
 The script named`001-adguardvpn.sh` will be saved to `/opt/etc/ndm/wan.d/` .
 
 It will start AdGuard VPN when Internet is connected.
+
+Reboot your router to finish setup.
+
+Congrats! Now you have a router secured with AdGuard VPN.
