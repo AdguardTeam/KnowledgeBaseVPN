@@ -54,7 +54,7 @@ You’ll need an SSH client. Most Linux and macOS systems come with an SSH clien
 1. Run the SSH command:
 
 ```bash
-ssh root@192.168.1.1
+ssh admin@192.168.1.1
 ```
 
 Replace `192.168.1.1` with your router’s IP address.
