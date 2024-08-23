@@ -1,6 +1,6 @@
 ---
 title: 如何使用 Hide My Email
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 Apple 的 *Hide My Email* 功能是一個很棒的工具，可以在註冊使用 Apple ID 的網站和應用程式時保護您的真實電子郵件地址的隱私性。 您甚至可以將其用於私人通訊並管理所有傳入訊息，就像使用常規電子郵件帳戶一樣。 這樣，您就可以保護您的隱私並隱藏您的真實電子郵件地址以免被窺探。

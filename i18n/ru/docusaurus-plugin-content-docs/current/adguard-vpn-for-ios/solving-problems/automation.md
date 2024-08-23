@@ -1,6 +1,6 @@
 ---
 title: Как автоматизировать работу AdGuard VPN для приложений на iPhone и iPad
-sidebar_position: 1
+sidebar_position: 2
 sidebar_label: Как автоматизировать работу AdGuard VPN
 ---
 

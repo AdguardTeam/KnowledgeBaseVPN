@@ -1,57 +1,57 @@
 ---
-title: Login, connection, and update
+title: Вход, подключение и обновление
 sidebar_position: 3
 ---
 
-## Log in and log out
+## Вход и выход из аккаунта
 
-To log in or create an account, type:
+Чтобы войти или зарегистрироваться, введите:
 
 ```
 adguardvpn-cli login
 ```
 
-Enter the email address and password for your AdGuard account. If you don’t have an account yet, you’ll be prompted to create one.
+Введите адрес почты и пароль от вашего аккаунта AdGuard. Если у вас ещё нет аккаунта, вам предложат его создать.
 
 :::note
-You can also create an AdGuard account on our [website](https://auth.adguard.com/login.html) and then log in to AdGuard VPN for Linux using your credentials.
+Вы также можете создать аккаунт AdGuard [на нашем сайте](https://auth.adguard.com/login.html), а затем войти в AdGuard VPN для Linux под своими учётными данными.
 :::
 
-To log out of AdGuard VPN, type:
+Чтобы выйти из AdGuard VPN, введите:
 
 ```
 adguardvpn-cli logout
 ```
 
-## Connect to VPN
+## Подключитесь к VPN
 
-For quick connection, type:
+Для быстрого подключения введите:
 
 ```
 adguardvpn-cli connect
 ```
 
-AdGuard VPN will connect to the fastest available or the last used location.
+AdGuard VPN будет подключаться к самой быстрой или последней использованной локации.
 
-To view available locations, type:
+Чтобы посмотреть доступные локации, введите:
 
 ```
 adguardvpn-cli list-locations
 ```
 
-To connect to a specific location, type:
+Чтобы подключиться к определённой локации, введите:
 
 ```
 adguardvpn-cli connect -l <location>
 ```
 
-Replace `<location>` with the city, country, or ISO code of the location you want to connect to.
+Замените `<location>` на город, страну или ISO-код локации на английском, к которой хотите подключиться.
 
-If required, enter your admin password.
+При необходимости введите пароль администратора.
 
-## Check for updates
+## Проверить обновления
 
-To check for updates, type:
+Чтобы проверить наличие обновлений, введите:
 
 ```
 adguardvpn-cli check-update

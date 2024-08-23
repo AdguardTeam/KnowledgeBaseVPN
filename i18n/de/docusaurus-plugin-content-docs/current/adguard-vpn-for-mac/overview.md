@@ -39,6 +39,15 @@ Außerdem können Sie nicht nur Websites zu Ausschlüssen hinzufügen, sondern a
 
 Ausschlussliste kann einfach konfiguriert werden. Wenn Sie eine Domain und einige ihrer Subdomains hinzugefügt haben, werden diese innerhalb der Root-Domain gruppiert. Beim Hinzufügen einer Root-Domain (`example.com`) wird auch ihre Maske hinzugefügt (`*.example.com`).
 
+:::info Browser zu Ausschlüssen hinzugefügt
+
+Ab der Version 2.4 werden alle Browser automatisch zur Liste der Ausnahmen hinzugefügt, wenn das VPN nur für ausgewählte Apps und Websites aktiv ist. Diese Änderung bringt mehr Komfort für die Nutzer, die oft verwirrt waren und nicht wussten, ob sie ihre Browser als Anwendungen betrachten sollten oder nicht. Dies gilt unter den folgenden Bedingungen:
+
+- Der Benutzer hat AdGuard VPN zum ersten Mal installiert
+- Der Benutzer hat die Ausschlusseinstellungen vor v2.4 nicht geändert
+
+:::
+
 Wenn Sie einen Dienst hinzugefügt, etwas geändert oder entfernt haben und nun die ursprünglichen Einstellungen wiederherstellen möchten, drücken Sie einfach *Auf Standard zurücksetzen* neben der Domain – diese Aktion stellt alle fehlenden Domains wieder her und aktiviert alle Kontrollkästchen.
 
 Außerdem können fertige Ausschlusslisten auf andere Geräte mit installiertem AdGuard VPN übertragen werden. Befolgen Sie zum Exportieren von Ausschlüssen die nachstehende Anleitung:

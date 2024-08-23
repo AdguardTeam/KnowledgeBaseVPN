@@ -39,6 +39,15 @@ Webサイトを手動で対象外リストに追加するだけでなく、人�
 
 対象外リストの設定も簡単に行えます。 ドメインとそのサブドメインのいくつかを追加した場合、それらはルートドメインをもとにグループ化されます。 ルートドメイン（`example.com`）を追加すると、そのマスクも追加されます（`*.example.com`）。
 
+:::info Browsers added to Exclusions
+
+Starting with the version 2.4, all browsers are automatically added to the list of exclusions when the VPN is active only for selected apps and websites. This change brings more convenience for users who were often confused and didn’t know whether to consider their browsers as apps or not. It applies under the following conditions:
+
+- The user has installed AdGuard VPN for the first time
+- The user did not modify the Exclusions settings prior to v2.4
+
+:::
+
 サービスを追加したり、何かを変更または削除した後に、初期設定を復元したい場合は、ドメインの横にある「*元に戻す*」を押してください。この操作により、見つからないドメインが復元され、すべてのチェックボックスにチェックが入ります。
 
 さらに、既製の対象外リストは、（AdGuard VPNをインストールした）他の端末に以降することができます。 対象外項目をエクスポートする方法は以下の4です:

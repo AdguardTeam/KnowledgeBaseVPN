@@ -1,15 +1,15 @@
 ---
-title: AdGuard VPN has been removed from App Store
-sidebar_position: 5
+title: AdGuard VPN, App Store'dan kaldırıldı
+sidebar_position: 1
 ---
 
-In some countries, AdGuard VPN is not available in the App Store. If that’s your case, there are two ways to download the app:
+Bazı ülkelerde AdGuard VPN, App Store'da mevcut değildir. Durumunuz buysa uygulamayı indirmenin iki yolu vardır:
 
-- If you do not have any active subscriptions in the App Store, you can **change the region for your current account**
+- App Store'da herhangi bir aktif aboneliğiniz yoksa **mevcut hesabınız için bölgeyi değiştirebilirsiniz**
 
-- If you have active subscriptions that you wish to retain, you can **create a new Apple account and link it to the App Store**
+- Korumak istediğiniz aktif abonelikleriniz varsa **yeni bir Apple hesabı oluşturabilir ve bunu App Store'a bağlayabilirsiniz**
 
-### Changing the region for your current account
+### Mevcut hesabınızın bölgesini değiştirme
 
 1. Go to the Apple ID screen and tap _Media & Purchases_ → _View Account_.
 
@@ -35,7 +35,7 @@ In some countries, AdGuard VPN is not available in the App Store. If that’s yo
 
    ![New region \*border](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/new_country.png)
 
-After changing the region, try [downloading AdGuard VPN from the App Store again](https://apps.apple.com/en/app/adguard-vpn-unlimited-fast/id1525373602).
+After changing the region, try [downloading AdGuard VPN from the App Store again](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602).
 
 ### Creating a new Apple account and linking it to the App Store
 
@@ -43,7 +43,7 @@ For users with paid subscriptions in the App Store who only need to download fre
 
 **Steps to create a new account in a different country:**
 
-1. Visit [https://appleid.apple.com/account](https://appleid.apple.com/ru/account).
+1. Visit [https://appleid.apple.com/account](https://appleid.apple.com/account).
 
 2. Enter any first and last name and select a country, like _United States of America_.
 
@@ -51,13 +51,13 @@ For users with paid subscriptions in the App Store who only need to download fre
 
 4. Provide a phone number for verification.
 
-5. Confirm your email and phone number and press _Next_. That’s it!
+5. Confirm your email and phone number and press _Next_. Bu kadar!
 
 Now **link your new account to the App Store**:
 
 1. Go to _Settings_ and tap your name.
 
-2. Select _Media & Purchases_ → _Sign Out_. This will only sign you out of the App Store while keeping you logged in to your Apple ID on your phone.
+2. Select _Media & Purchases_ → _Sign Out_. This will only sign you out of the App Store while keeping you signed in with your Apple ID on your phone.
 
 3. Tap on _Media & Purchases_ again and select _Not [your name]?_ You will be prompted to sign in with a different Apple ID.
 
@@ -67,6 +67,6 @@ Now **link your new account to the App Store**:
 
    ![Login \*mobile\_border](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/apple_id.png)
 
-That’s it! Now try to [download AdGuard VPN from the App Store](https://apps.apple.com/en/app/adguard-vpn-unlimited-fast/id1525373602) again.
+Bu kadar! Now try to [download AdGuard VPN from the App Store](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602) again.
 
 You can always switch back to your default account this way.

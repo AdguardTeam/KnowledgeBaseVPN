@@ -1,72 +1,72 @@
 ---
-title: AdGuard VPN has been removed from App Store
-sidebar_position: 5
+title: AdGuard VPN удалили из App Store
+sidebar_position: 1
 ---
 
-In some countries, AdGuard VPN is not available in the App Store. If that’s your case, there are two ways to download the app:
+В некоторых странах AdGuard VPN недоступен в App Store. Если это ваш случай, есть два способа скачать приложение:
 
-- If you do not have any active subscriptions in the App Store, you can **change the region for your current account**
+- Если у вас нет активных подписок в App Store, вы можете **изменить регион для текущей учётной записи**
 
-- If you have active subscriptions that you wish to retain, you can **create a new Apple account and link it to the App Store**
+- Если у вас есть активные подписки, которые вы хотите сохранить, вы можете **создать новую учётную запись Apple и связать её с App Store**
 
-### Changing the region for your current account
+### Изменение региона текущей учётной записи
 
-1. Go to the Apple ID screen and tap _Media & Purchases_ → _View Account_.
+1. Перейдите на экран Apple ID и нажмите _Медиа и покупки_ → _Просмотреть учётную запись_.
 
-2. Tap _Country/Region_ → _Change Country or Region_.
+2. Нажмите _Страна/регион_ → _Изменить страну или регион_.
 
-   ![Changing region](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/changing_country.png)
+   ![Смена региона](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/changing_country.png)
 
-3. Select your preferred country from the list (e.g., _United States_) and agree to the Terms and Conditions.
+3. Выберите желаемую страну из списка (например, _Соединённые Штаты_) и примите Условия использования.
 
-4. Fill in the required fields. You can select _None_ for _Payment Method_ and use any address with a valid ZIP code for _Billing Address_, for example:
+4. Заполните необходимые поля. Вы можете выбрать _Нет_ для _Способа оплаты_ и использовать любой адрес с действительным почтовым индексом для _Адреса выставления счетов_, например:
 
-   Address: Grand Ave
+   Адрес: Гранд Авеню
 
-   City: Chicago
+   Город: Чикаго
 
-   State: Illinois
+   Штат: Иллинойс
 
-   Zip: 60007
+   Почтовый индекс: 60007
 
-   Phone: 999 999999999
+   Телефон: 999 999999999
 
-5. Tap _Next_.
+5. Нажмите _Далее_.
 
-   ![New region \*border](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/new_country.png)
+   ![Новый регион \*border](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/new_country.png)
 
-After changing the region, try [downloading AdGuard VPN from the App Store again](https://apps.apple.com/en/app/adguard-vpn-unlimited-fast/id1525373602).
+После смены региона попробуйте [снова скачать AdGuard VPN из App Store](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602).
 
-### Creating a new Apple account and linking it to the App Store
+### Создание новой учётной записи Apple и привязка её к App Store
 
-For users with paid subscriptions in the App Store who only need to download free apps from different regions, creating a new account in another country is a more convenient option. This way, you can use your primary account at the system level on your phone and activate the second account solely for the App Store without needing to log out of your iPhone account.
+Для пользователей с платными подписками в App Store, которым нужно только скачивать бесплатные приложения из разных регионов, создание новой учётной записи в другой стране — более удобный вариант. Таким образом, вы можете использовать свою основную учётную запись на системном уровне и активировать вторую учётную запись исключительно для App Store, не выходя из учётной записи iPhone.
 
-**Steps to create a new account in a different country:**
+**Как создать новую учётную запись в другой стране:**
 
-1. Visit [https://appleid.apple.com/account](https://appleid.apple.com/ru/account).
+1. Посетите [https://appleid.apple.com/account](https://appleid.apple.com/account).
 
-2. Enter any first and last name and select a country, like _United States of America_.
+2. Введите любое имя и фамилию и выберите страну, например _Соединённые Штаты Америки_.
 
-3. Use an email address not linked to your Apple ID. A verification code will be sent to this email.
+3. Используйте адрес электронной почты, не связанный с вашим Apple ID. На эту почту будет отправлен код подтверждения.
 
-4. Provide a phone number for verification.
+4. Укажите номер телефона для проверки.
 
-5. Confirm your email and phone number and press _Next_. That’s it!
+5. Подтвердите свой адрес электронной почты и номер телефона и нажмите _Далее_. Вот и всё!
 
-Now **link your new account to the App Store**:
+Теперь **привяжите свою новую учётную запись к App Store**:
 
-1. Go to _Settings_ and tap your name.
+1. Откройте _Настройки_ и коснитесь своего имени.
 
-2. Select _Media & Purchases_ → _Sign Out_. This will only sign you out of the App Store while keeping you logged in to your Apple ID on your phone.
+2. Выберите _Контент и покупки_ → _Выйти_. Вы выйдете из App Store, при этом не выходя из Apple ID на телефоне.
 
-3. Tap on _Media & Purchases_ again and select _Not [your name]?_ You will be prompted to sign in with a different Apple ID.
+3. Снова нажмите _Контент и покупки_ и выберите \*Не [ваше имя]? \* Вам будет предложено войти в систему с другим Apple ID.
 
-   ![Changing account](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/log_out.png)
+   ![Смена аккаунта](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/log_out.png)
 
-4. Enter the email address and password for your new account.
+4. Введите адрес почты и пароль от вашего нового аккаунта.
 
-   ![Login \*mobile\_border](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/apple_id.png)
+   ![Вход \*mobile\_border](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/apple_id.png)
 
-That’s it! Now try to [download AdGuard VPN from the App Store](https://apps.apple.com/en/app/adguard-vpn-unlimited-fast/id1525373602) again.
+Вот и всё! Теперь попробуйте [скачать AdGuard VPN из App Store](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602) ещё раз.
 
-You can always switch back to your default account this way.
+Таким образом вы всегда сможете вернуться к учётной записи по умолчанию.

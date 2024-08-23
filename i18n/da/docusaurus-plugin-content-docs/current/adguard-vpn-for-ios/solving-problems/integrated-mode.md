@@ -1,6 +1,6 @@
 ---
 title: Kompatibilitet med AdGuard Ad Blocker
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 AdGuard VPN har to driftstilstande: *VPN* og *Integreret*.

@@ -1,72 +1,72 @@
 ---
-title: AdGuard VPN has been removed from App Store
-sidebar_position: 5
+title: AdGuard VPN byla odstraněna z App Store
+sidebar_position: 1
 ---
 
-In some countries, AdGuard VPN is not available in the App Store. If that’s your case, there are two ways to download the app:
+V některých zemích není AdGuard VPN v App Store k dispozici. Pokud je to váš případ, můžete si aplikaci stáhnout dvěma způsoby:
 
-- If you do not have any active subscriptions in the App Store, you can **change the region for your current account**
+- Pokud v App Store nemáte žádné aktivní předplatné, můžete **změnit region svého aktuálního účtu**
 
-- If you have active subscriptions that you wish to retain, you can **create a new Apple account and link it to the App Store**
+- Pokud máte aktivní předplatné, které si chcete ponechat, můžete si **vytvořit nový účet Apple a propojit jej s App Store**
 
-### Changing the region for your current account
+### Změna regionu pro váš běžný účet
 
-1. Go to the Apple ID screen and tap _Media & Purchases_ → _View Account_.
+1. Přejděte na obrazovku Apple ID a klepněte na _Média a nákupy_ → _Zobrazit účet_.
 
-2. Tap _Country/Region_ → _Change Country or Region_.
+2. Klepněte na _Země/region_ → _Změnit zemi nebo region_.
 
    ![Changing region](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/changing_country.png)
 
-3. Select your preferred country from the list (e.g., _United States_) and agree to the Terms and Conditions.
+3. Ze seznamu vyberte požadovanou zemi (např. _Spojené státy_) a souhlaste s podmínkami.
 
-4. Fill in the required fields. You can select _None_ for _Payment Method_ and use any address with a valid ZIP code for _Billing Address_, for example:
+4. Vyplňte požadovaná pole. Pro _Způsob platby_ můžete vybrat možnost _Žádná_ a pro _Fakturační adresu_ můžete použít například jakoukoli adresu s platným PSČ:
 
-   Address: Grand Ave
+   Adresa: Grand Ave
 
-   City: Chicago
+   Město: Chicago
 
-   State: Illinois
+   Stát: Illinois
 
-   Zip: 60007
+   PSČ: 60007
 
-   Phone: 999 999999999
+   Telefon: 999 999999999
 
-5. Tap _Next_.
+5. Klepněte na _Další_.
 
    ![New region \*border](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/new_country.png)
 
-After changing the region, try [downloading AdGuard VPN from the App Store again](https://apps.apple.com/en/app/adguard-vpn-unlimited-fast/id1525373602).
+After changing the region, try [downloading AdGuard VPN from the App Store again](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602).
 
-### Creating a new Apple account and linking it to the App Store
+### Vytvoření nového účtu Apple a jeho propojení s App Store
 
-For users with paid subscriptions in the App Store who only need to download free apps from different regions, creating a new account in another country is a more convenient option. This way, you can use your primary account at the system level on your phone and activate the second account solely for the App Store without needing to log out of your iPhone account.
+Pro uživatele s předplatným v App Store, kteří potřebují stahovat pouze bezplatné aplikace z různých oblastí, je pohodlnější vytvořit si nový účet v jiné zemi. Tímto způsobem můžete v telefonu používat svůj primární účet na systémové úrovni a druhý účet aktivovat pouze pro App Store, aniž byste se museli odhlašovat z účtu iPhonu.
 
-**Steps to create a new account in a different country:**
+**Kroky pro vytvoření nového účtu v jiné zemi:**
 
-1. Visit [https://appleid.apple.com/account](https://appleid.apple.com/ru/account).
+1. Visit [https://appleid.apple.com/account](https://appleid.apple.com/account).
 
-2. Enter any first and last name and select a country, like _United States of America_.
+2. Zadejte libovolné jméno a příjmení a vyberte zemi, například _Spojené státy americké_.
 
-3. Use an email address not linked to your Apple ID. A verification code will be sent to this email.
+3. Použijte e-mailovou adresu, která není spojena s vaším Apple ID. Na tento e-mail vám bude zaslán ověřovací kód.
 
-4. Provide a phone number for verification.
+4. Uveďte telefonní číslo pro ověření.
 
-5. Confirm your email and phone number and press _Next_. That’s it!
+5. Potvrďte svůj e-mail a telefonní číslo a stiskněte tlačítko _Další_. To je vše!
 
-Now **link your new account to the App Store**:
+Nyní **připojte svůj nový účet k App Store**:
 
-1. Go to _Settings_ and tap your name.
+1. Přejděte do _Nastavení_ a klepněte na své jméno.
 
-2. Select _Media & Purchases_ → _Sign Out_. This will only sign you out of the App Store while keeping you logged in to your Apple ID on your phone.
+2. Vyberte _Média a nákupy_ → _Odhlásit se_. This will only sign you out of the App Store while keeping you signed in with your Apple ID on your phone.
 
-3. Tap on _Media & Purchases_ again and select _Not [your name]?_ You will be prompted to sign in with a different Apple ID.
+3. Znovu klepněte na _Média a nákupy_ a vyberte možnost _Není to [vaše jméno]?_ Budete vyzváni k přihlášení pomocí jiného Apple ID.
 
    ![Changing account](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/log_out.png)
 
-4. Enter the email address and password for your new account.
+4. Zadejte e-mailovou adresu a heslo k novému účtu.
 
    ![Login \*mobile\_border](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/apple_id.png)
 
-That’s it! Now try to [download AdGuard VPN from the App Store](https://apps.apple.com/en/app/adguard-vpn-unlimited-fast/id1525373602) again.
+To je vše! Now try to [download AdGuard VPN from the App Store](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602) again.
 
-You can always switch back to your default account this way.
+Tímto způsobem můžete vždy přepnout zpět na výchozí účet.

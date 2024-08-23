@@ -43,6 +43,15 @@ Beim manuellen Hinzufügen von Domains sollten Sie einige Details beachten. Wenn
 
 Wir empfehlen die Verwendung der Option **Aus der Liste**. Websites werden in acht Kategorien eingeteilt: Soziale Netzwerke, Messenger, Video- und Musik-Streaming-Dienste, Spiele, Shopping, Suchmaschinen und Arbeitskommunikationstools. Wir haben dort alle Domainnamen und Subdomains platziert, die sich auf jede Plattform beziehen.
 
+:::info Browser zu Ausschlüssen hinzugefügt
+
+Ab der Version 2.4 werden alle Browser automatisch zur Liste der Ausnahmen hinzugefügt, wenn das VPN nur für ausgewählte Apps und Websites aktiv ist. Diese Änderung bringt mehr Komfort für die Nutzer, die oft verwirrt waren und nicht wussten, ob sie ihre Browser als Anwendungen betrachten sollten oder nicht. Dies gilt unter den folgenden Bedingungen:
+
+- Der Benutzer hat AdGuard VPN zum ersten Mal installiert
+- Der Benutzer hat die Ausschlusseinstellungen vor v2.4 nicht geändert
+
+:::
+
 ### Ausschlusslisten importieren/exportieren
 
 Um die Ausschlussliste von AdGuard VPN für Windows auf Ihren Computer zu exportieren, klicken Sie auf **Ausschlüsse exportieren**, wählen Sie den Ordner aus, in dem die Liste gespeichert werden soll, und klicken Sie auf **Speichern**. Das Archiv `exclusions.zip` mit zwei `.txt` Dateien wird heruntergeladen, eine für jede der Listen. Sie können sie bearbeiten, indem Sie neue Ausschlüsse hinzufügen oder alte löschen.

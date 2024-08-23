@@ -39,6 +39,15 @@ Man kan ikke blot føje websteder til Undtagelser, men også vælge blandt liste
 
 Undtagelser-listen kan nemt opsættes. Har man tilføjet et domæne og nogle af dets underdomæner, grupperes disse under roddomænet. Ved tilføjelse af et roddomæne (`eksempel.com`), tilføjes også dets maske (`*.eksempel.com`).
 
+:::info Browsers added to Exclusions
+
+Starting with the version 2.4, all browsers are automatically added to the list of exclusions when the VPN is active only for selected apps and websites. This change brings more convenience for users who were often confused and didn’t know whether to consider their browsers as apps or not. It applies under the following conditions:
+
+- The user has installed AdGuard VPN for the first time
+- The user did not modify the Exclusions settings prior to v2.4
+
+:::
+
 Har man tilføjet en tjeneste, ændret eller fjernet noget og nu ønsker at gendanne de oprindelige indstillinger, trykkes blot på *Nulstil til standard* ved siden af domænet — denne handling gendanner evt. manglende domæner og markere alle afkrydsningsfelter.
 
 Endvidere kan færdiglavede undtagelseslister overføres til andre enheder, hvor AdGuard VPN er installeret. Følg nedenstående 4-trins vejledning for at eksportere undtagelser:

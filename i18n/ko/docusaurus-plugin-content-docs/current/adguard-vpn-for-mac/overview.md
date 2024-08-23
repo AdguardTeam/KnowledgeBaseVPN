@@ -39,6 +39,15 @@ AdGuard VPN has several features that make it unique, and one of them is definit
 
 예외 목록들은 손쉽게 설정될 수 있습니다. 도메인과 여러 하위 도메인을 추가하는 경우, 메인 도메인 내에서 그룹화됩니다. 메인 도메인(`example.com`)을 추가할 때 해당 마스크(`*.example.com`)도 추가됩니다.
 
+:::info Browsers added to Exclusions
+
+Starting with the version 2.4, all browsers are automatically added to the list of exclusions when the VPN is active only for selected apps and websites. This change brings more convenience for users who were often confused and didn’t know whether to consider their browsers as apps or not. It applies under the following conditions:
+
+- The user has installed AdGuard VPN for the first time
+- The user did not modify the Exclusions settings prior to v2.4
+
+:::
+
 설정을 변경하거나 몇 부분을 제거했지만 초기 설정으로 복구하고 싶다면 필요한 도메인 옆에 있는 *기본값으로 초기화*를 누르기만 하면 됩니다. 이 것으로 인해 누락된 도메인이 복원되고 모든 확인란이 선택될 것 입니다.
 
 예외 목록은 AdGuard VPN이 설치된 다른 기기로 전송할 수 있습니다. 예외 항목을 내보내려면 아래의 4단계 지침을 따르십시오.

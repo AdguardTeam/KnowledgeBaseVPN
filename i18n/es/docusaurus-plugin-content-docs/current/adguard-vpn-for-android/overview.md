@@ -115,7 +115,7 @@ La última sección de *Configuración avanzada* es *Configuración de bajo nive
 
 :::caution
 
-In the **Preferred IP version** option, before you choose between IPv6 and IPv4, make sure that your network supports that protocol. For example, if you select IPv6 and your network only supports IPv4, you will have problems connecting to the Internet. And vice versa.
+In the **Preferred IP version** option, before you choose between IPv6 and IPv4, make sure that your network supports that protocol. For example, if you select IPv6 and your network only supports IPv4, you may experience problems connecting to the Internet. And vice versa.
 
 :::
 

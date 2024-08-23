@@ -120,7 +120,7 @@ This option lets you export technical information that can be useful in solving 
 
 ### Send technical and interaction data
 
-By turning this option on you are helping us understand better how users interact with the app. We use that information to improve user experience.
+By turning this option on, you are helping us understand better how users interact with the app. We use that information to improve user experience.
 
 ### Kill Switch
 

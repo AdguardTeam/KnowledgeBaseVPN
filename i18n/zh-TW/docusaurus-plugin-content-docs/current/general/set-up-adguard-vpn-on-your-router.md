@@ -3,11 +3,11 @@ title: 如何在路由器上設定 AdGuard VPN
 sidebar_position: 8
 ---
 
-透過在路由器上設定 AdGuard VPN，您可以保護無法安裝 VPN 應用程式的裝置（例如智慧電視和遊戲機）上的資料。
+By setting up AdGuard VPN on your router, you can protect your data on devices where you cannot install VPN apps, such as smart TVs, smart media devices, and game consoles.
 
 :::note
 
-只有當您訂閱了 AdGuard VPN 並且您的路由器支援 IPsec 時，此選項才可用。
+This option is only available if you have an AdGuard VPN subscription and your router supports IPsec in its _VPN Client_ (**Not** _VPN Server_) settings.
 
 :::
 
@@ -33,7 +33,7 @@ sidebar_position: 8
 
 5. 啟用 _VPN 用戶端_ 並點擊 _新增 VPN 伺服器_
 
-6. 選擇 IPsec-client（可能稱為 IKE；而不是 L2TP/IPsec）。
+6. Select IPsec-client (it may for some router brands be called IKEv2; not L2TP/IPsec).
 
 7. 輸入您在步驟 3 中建立的憑證
 
@@ -51,11 +51,11 @@ sidebar_position: 8
 
 - 透過路由器上的 AdGuard VPN，您的 VPN 提供者或其他任何人都無法存取您的網路活動
 - 在路由器上安裝 AdGuard VPN 可保護您的整個網絡，這表示連接到該網路的所有裝置都受到保護
-- You can enhance security and protect your data on devices where it’s not possible to install AdGuard VPN apps — smart TVs and game consoles
+- You can enhance security and protect your data on devices where it’s not possible to install AdGuard VPN apps — smart TVs, smart media devices, and game consoles
 
 ## Devices that can be connected to a router with AdGuard VPN
 
-- **PlayStation and Xbox**: To enjoy seamless online gaming and enhanced security on PS4 and PS5, [set up AdGuard VPN on your router](#how-to-set-up-adguard-vpn-on-your-router) and connect your console to it
+- **PlayStation, Xbox, and Nintendo Switch**: To enjoy seamless online gaming and enhanced security on PS4, PS5, Xbox One, Xbox Series, and Nintendo Switch, [set up AdGuard VPN on your router](#how-to-set-up-adguard-vpn-on-your-router) and connect your console to it
 
 - **Apple TV**: Follow the instructions to [set up AdGuard VPN on your router](#how-to-set-up-adguard-vpn-on-your-router), then connect your Apple TV
 
@@ -70,3 +70,9 @@ sidebar_position: 8
   1. Install [AdGuard VPN from Google Play](https://play.google.com/store/apps/details?id=com.adguard.vpn) on your Android TV
   2. If you already have an AdGuard account, log in with your credentials. If you’re new to AdGuard, enter your email address and follow the on-screen instructions
   3. Open the app, select the location you want, and connect
+
+## Routers known to be incompatible with AdGuard VPN
+
+- **ASUS**
+  - Only has IPsec in the _VPN Server_ settings, and not in the correct _VPN Fusion_/_VPN Client_ settings
+- **FRITZ!Box**

@@ -1,6 +1,6 @@
 ---
 title: Kompatibilität mit AdGuard Werbeblocker
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 AdGuard VPN verfügt über zwei Betriebsmodi: *VPN* und *Integriert*.

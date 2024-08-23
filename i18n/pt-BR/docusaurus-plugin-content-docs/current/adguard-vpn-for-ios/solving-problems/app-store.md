@@ -1,72 +1,72 @@
 ---
-title: AdGuard VPN has been removed from App Store
-sidebar_position: 5
+title: O AdGuard VPN foi removido da App Store
+sidebar_position: 1
 ---
 
-In some countries, AdGuard VPN is not available in the App Store. If that’s your case, there are two ways to download the app:
+Em alguns países, o AdGuard VPN não está disponível na App Store. Se esse for seu caso, existem duas maneiras de baixar o aplicativo:
 
-- If you do not have any active subscriptions in the App Store, you can **change the region for your current account**
+- Se você não tiver nenhuma assinatura ativa na App Store, pode **alterar a região da sua conta atual**
 
-- If you have active subscriptions that you wish to retain, you can **create a new Apple account and link it to the App Store**
+- Se você tiver assinaturas ativas que deseja manter, pode **criar uma nova conta Apple e vinculá-la à App Store**
 
-### Changing the region for your current account
+### Alterando a região da sua conta atual
 
-1. Go to the Apple ID screen and tap _Media & Purchases_ → _View Account_.
+1. Acesse a tela do ID Apple e toque em _Mídia e compras_ → _Ver conta_.
 
-2. Tap _Country/Region_ → _Change Country or Region_.
+2. Toque em _País/Região_ → _Alterar país ou região_.
 
-   ![Changing region](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/changing_country.png)
+   ![Alterando a região](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/changing_country.png)
 
-3. Select your preferred country from the list (e.g., _United States_) and agree to the Terms and Conditions.
+3. Selecione seu país preferido na lista (por exemplo, _Estados Unidos_) e concorde com os Termos e Condições.
 
-4. Fill in the required fields. You can select _None_ for _Payment Method_ and use any address with a valid ZIP code for _Billing Address_, for example:
+4. Preencha os campos obrigatórios. Você pode selecionar _Nenhum_ para _Método de pagamento_ e usar qualquer endereço com um CEP válido para _Endereço de cobrança_, por exemplo:
 
-   Address: Grand Ave
+   Endereço: Rua Mariano Procópio, 37
 
-   City: Chicago
+   Cidade: Rio de Janeiro
 
-   State: Illinois
+   Estado: Rio de Janeiro
 
-   Zip: 60007
+   CEP: 20220-170
 
-   Phone: 999 999999999
+   Telefone: 999 999999999
 
-5. Tap _Next_.
+5. Toque em _Avançar_.
 
-   ![New region \*border](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/new_country.png)
+   ![Nova região \*border](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/new_country.png)
 
-After changing the region, try [downloading AdGuard VPN from the App Store again](https://apps.apple.com/en/app/adguard-vpn-unlimited-fast/id1525373602).
+Após alterar a região, tente [baixar o AdGuard VPN da App Store novamente](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602).
 
-### Creating a new Apple account and linking it to the App Store
+### Criando uma nova conta Apple e vinculando-a à App Store
 
-For users with paid subscriptions in the App Store who only need to download free apps from different regions, creating a new account in another country is a more convenient option. This way, you can use your primary account at the system level on your phone and activate the second account solely for the App Store without needing to log out of your iPhone account.
+Para usuários com assinaturas pagas na App Store que precisam apenas baixar aplicativos gratuitos de diferentes regiões, criar uma nova conta em outro país é uma opção mais conveniente. Dessa forma, você pode usar sua conta principal no nível do sistema em seu telefone e ativar a segunda conta apenas para a App Store sem precisar sair da sua conta do iPhone.
 
-**Steps to create a new account in a different country:**
+**Etapas para criar uma nova conta em um país diferente:**
 
-1. Visit [https://appleid.apple.com/account](https://appleid.apple.com/ru/account).
+1. Acesse [https://appleid.apple.com/account](https://appleid.apple.com/account).
 
-2. Enter any first and last name and select a country, like _United States of America_.
+2. Digite qualquer nome e sobrenome e selecione um país, como _Estados Unidos da América_.
 
-3. Use an email address not linked to your Apple ID. A verification code will be sent to this email.
+3. Use um endereço de e-mail não vinculado ao seu ID Apple. Um código de verificação será enviado para este e-mail.
 
-4. Provide a phone number for verification.
+4. Forneça um número de telefone para verificação.
 
-5. Confirm your email and phone number and press _Next_. That’s it!
+5. Confirme seu e-mail e número de telefone e pressione _Avançar_. É isso!
 
-Now **link your new account to the App Store**:
+Agora **vincule sua nova conta à App Store**:
 
-1. Go to _Settings_ and tap your name.
+1. Acesse _Ajustes_ e toque no seu nome.
 
-2. Select _Media & Purchases_ → _Sign Out_. This will only sign you out of the App Store while keeping you logged in to your Apple ID on your phone.
+2. Selecione _Mídia e compras_ → _Sair_. Isso vai apenas desconectá-lo da App Store, mantendo você conectado com seu ID Apple no seu telefone.
 
-3. Tap on _Media & Purchases_ again and select _Not [your name]?_ You will be prompted to sign in with a different Apple ID.
+3. Toque em _Mídia e compras_ novamente e selecione _Não é [seu nome]?_ Você será solicitado a entrar com um ID Apple diferente.
 
-   ![Changing account](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/log_out.png)
+   ![Alterando a conta](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/log_out.png)
 
-4. Enter the email address and password for your new account.
+4. Digite o endereço de e-mail e a senha da sua nova conta.
 
    ![Login \*mobile\_border](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/apple_id.png)
 
-That’s it! Now try to [download AdGuard VPN from the App Store](https://apps.apple.com/en/app/adguard-vpn-unlimited-fast/id1525373602) again.
+É isso! Agora tente [baixar o AdGuard VPN da App Store](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602) novamente.
 
-You can always switch back to your default account this way.
+Você sempre pode voltar para sua conta padrão desta forma.

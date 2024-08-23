@@ -1,6 +1,6 @@
 ---
 title: Как совместить работу AdGuard VPN и Блокировщика рекламы AdGuard
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 У AdGuard VPN два режима работы: *VPN* и *Интегрированный*.

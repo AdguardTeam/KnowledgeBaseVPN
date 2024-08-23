@@ -3,11 +3,11 @@ title: So richten Sie ein AdGuard VPN auf Ihrem Router ein
 sidebar_position: 8
 ---
 
-Wenn Sie AdGuard VPN auf Ihrem Router einrichten, können Sie Ihre Daten auf Geräten schützen, auf denen Sie keine VPN-Apps installieren können, z. B. auf Smart-TVs und Spielkonsolen.
+Wenn Sie AdGuard VPN auf Ihrem Router einrichten, können Sie Ihre Daten auf Geräten schützen, auf denen Sie keine VPN-Apps installieren können, wie z. B. Smart-TVs, Smart-Media-Geräte und Spielkonsolen.
 
 :::note
 
-Diese Option ist nur verfügbar, wenn Sie ein AdGuard VPN-Abonnement haben und Ihr Router IPsec unterstützt.
+Diese Option ist nur verfügbar, wenn Sie ein AdGuard VPN-Abonnement besitzen und Ihr Router IPsec in seinen _VPN-Client_ (**nicht** _VPN-Server_) Einstellungen unterstützt.
 
 :::
 
@@ -33,7 +33,7 @@ Diese Option ist nur verfügbar, wenn Sie ein AdGuard VPN-Abonnement haben und I
 
 5. Aktivieren Sie _VPN-Client_ und klicken Sie auf _VPN-Server hinzufügen_.
 
-6. Wählen Sie IPsec-Client (es kann IKE heißen; nicht L2TP/IPsec).
+6. Wählen Sie IPsec-Client (bei einigen Routermodellen kann es sich um IKEv2 handeln, nicht um L2TP/IPsec).
 
 7. Geben Sie die Zugangsdaten ein, die Sie in Schritt 3 erstellt haben.
 
@@ -51,11 +51,11 @@ Wenn Sie den Standort des VPN-Servers ändern möchten, müssen Sie die Einstell
 
 - Mit AdGuard VPN auf Ihrem Router haben weder Ihr VPN-Anbieter noch andere Personen Zugriff auf Ihre Internetaktivitäten
 - Die Installation von AdGuard VPN auf Ihrem Router sichert Ihr gesamtes Netzwerk, d. h. alle daran angeschlossenen Geräte sind geschützt
-- Sie können die Sicherheit erhöhen und Ihre Daten auf Geräten schützen, auf denen es nicht möglich ist, AdGuard VPN-Apps zu installieren, z. B. auf Smart-TVs und Spielkonsolen
+- Sie können die Sicherheit erhöhen und Ihre Daten auf Geräten schützen, auf denen es nicht möglich ist, AdGuard VPN-Apps zu installieren — Smart TVs, Smart Media-Geräte und Spielkonsolen
 
 ## Geräte, die mit einem Router mit AdGuard VPN verbunden werden können
 
-- **PlayStation und Xbox**: Um nahtloses Online-Gaming und verbesserte Sicherheit auf PS4 und PS5 zu genießen, [richten Sie AdGuard VPN auf Ihrem Router ein](#how-to-set-up-adguard-vpn-on-your-router) und verbinden Sie Ihre Konsole mit ihm
+- **PlayStation, Xbox und Nintendo Switch**: Um nahtloses Online-Gaming und verbesserte Sicherheit auf PS4, PS5, Xbox One, Xbox Series und Nintendo Switch zu genießen, [richten Sie AdGuard VPN auf Ihrem Router ein](#how-to-set-up-adguard-vpn-on-your-router) und verbinden Sie Ihre Konsole mit ihm
 
 - **Apple TV**: Folgen Sie den Anweisungen zum [Einrichten von AdGuard VPN auf Ihrem Router](#how-to-set-up-adguard-vpn-on-your-router), und schließen Sie dann Ihr Apple TV an
 
@@ -70,3 +70,9 @@ Wenn Sie den Standort des VPN-Servers ändern möchten, müssen Sie die Einstell
   1. Installieren Sie [AdGuard VPN von Google Play](https://play.google.com/store/apps/details?id=com.adguard.vpn) auf Ihrem Android TV
   2. Wenn Sie bereits über ein AdGuard-Konto verfügen, melden Sie sich mit Ihren Zugangsdaten an. Wenn Sie neu bei AdGuard sind, geben Sie Ihre E-Mail-Adresse ein und folgen Sie den Anweisungen auf dem Bildschirm
   3. Öffnen Sie die App, wählen Sie den gewünschten Standort und stellen Sie eine Verbindung her
+
+## Router, die bekanntermaßen nicht mit AdGuard VPN kompatibel sind
+
+- **ASUS**
+  - Only has IPsec in the _VPN Server_ settings, and not in the correct _VPN Fusion_/_VPN Client_ settings
+- **FRITZ!Box**

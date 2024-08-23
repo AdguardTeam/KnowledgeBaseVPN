@@ -1,6 +1,6 @@
 ---
 title: AdGuard 广告拦截程序的兼容性
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 AdGuard VPN 有两种操作模式：「*常规模式*」和「*整合模式*」。

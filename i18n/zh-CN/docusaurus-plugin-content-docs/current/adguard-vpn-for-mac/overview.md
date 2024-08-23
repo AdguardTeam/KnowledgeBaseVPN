@@ -39,6 +39,15 @@ AdGuard VPN 有几个独特的功能，其中之一就是*排除*。 默认情�
 
 排除项列表可以轻松配置。 如果用户添加了一个域名及其一些子域，它们将在根域中被分组。 添加根域 (`example.com`) 时，其掩码（`*.example.com`）也被添加。
 
+:::info Browsers added to Exclusions
+
+Starting with the version 2.4, all browsers are automatically added to the list of exclusions when the VPN is active only for selected apps and websites. This change brings more convenience for users who were often confused and didn’t know whether to consider their browsers as apps or not. It applies under the following conditions:
+
+- The user has installed AdGuard VPN for the first time
+- The user did not modify the Exclusions settings prior to v2.4
+
+:::
+
 如果您已经添加了服务，改变或删除一些项目后，想要还原设置，只需在域名旁边按*重置回默认值* ，这个操作将恢复任何缺失的域名并勾选所有的复选框。
 
 此外，现成的排除项列表可以传输到被安装 AdGuard VPN 的其他设备。 要导出排除项，请按照以下四步说明进行操作：

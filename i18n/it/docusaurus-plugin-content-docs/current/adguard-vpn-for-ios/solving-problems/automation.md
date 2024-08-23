@@ -1,6 +1,6 @@
 ---
 title: Come configurare l'automazione VPN AdGuard per le app per iPhone e iPad
-sidebar_position: 1
+sidebar_position: 2
 sidebar_label: Come impostare l'automazione di AdGuard VPN
 ---
 

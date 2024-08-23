@@ -17,9 +17,9 @@ A captura de tela em um dispositivo Android pode ser feita de várias maneiras, 
 
 Geralmente, você deve usar a seguinte combinação de botões para Android:
 
-- **Press and hold both the *Volume Down* and the *Power* buttons for 1–2 seconds**
+- **Pressione e segure ambos os botões *Diminuir volume* e *Ligar* por 1-2 segundos**
 
-Android will capture the entire screen and save it as a photo. Assim, você pode encontrar a captura de tela em uma pasta Capturas de tela em sua Galeria.
+O Android capturará a tela inteira e a salvará como uma foto. Assim, você pode encontrar a captura de tela em uma pasta Capturas de tela em sua Galeria.
 
 Mas, como já foi dito, pode haver diferenças dependendo de um determinado dispositivo. Vejamos outras combinações possíveis:
 
@@ -30,7 +30,7 @@ No Android 8 e posterior, também é possível fazer uma captura de tela colocan
 
 Se este método não funcionar, verifique *Configurações* → *Recursos avançados* → *Movimentos e gestos* → ativar *Deslizar da palma da mão para capturar*.
 
-Besides, you can always use any special apps for taking screenshots on your devices, for example — *Screenshot Easy*, *Screenshot Ultimate*, *Screenshot Snap*, etc.
+Além disso, você sempre pode usar qualquer aplicativo especial para tirar capturas de tela em seus dispositivos, por exemplo — *Screenshot Easy*, *Screenshot Ultimate*, *Screenshot Snap*, etc.
 
 ### iOS
 
@@ -44,21 +44,21 @@ para iPhone X ou posterior:
 
 - **Pressione o botão *Sleep/Wake* e o botão *Aumentar volume* ao mesmo tempo e solte-os rapidamente**
 
-iOS will capture the entire screen and save it as a photo. Você pode encontrá-la no aplicativo Fotos padrão.
+O iOS capturará a tela inteira e a salvará como uma foto. Você pode encontrá-la no aplicativo Fotos padrão.
 
 ### Windows
 
-- **To take a screenshot on a Windows device, press the *PrtScn* button**
+- **Para tirar uma captura de tela em um dispositivo Windows, pressione o botão *PrtScn***
 
-On some devices, you first have to press and hold *Fn* before pressing *PrtScn*.
+Em alguns dispositivos, você primeiro precisa pressionar e segurar *Fn* antes de pressionar *PrtScn*.
 
 :::note
 
-PrtScn (Print Screen) can be differently abbreviated on various keyboards — PrntScrn, PrtScn, PrtScr or PrtSc.
+PrtScn (Print Screen) pode ser abreviado de diferentes maneiras em vários teclados — PrntScrn, PrtScn, PrtScr ou PrtSc.
 
 :::
 
-Windows will capture the entire screen and copy it to the clipboard.
+O Windows capturará a tela inteira e a copiará para a área de transferência.
 
 Para tirar uma captura de tela de uma janela ativa, use a seguinte combinação:
 
@@ -68,21 +68,21 @@ Para tirar uma captura de tela de uma área específica, você deve usar a segui
 
 - ***Segure *Win* (o botão do Windows) e *Shift* e pressione ***S******
 
-Depois de tirar uma captura de tela, ela será salva na área de transferência. Usually, you will then be able to paste it into a document using the standard button combination *Ctrl + V*. Como alternativa, se você precisar salvar a captura de tela em um arquivo, abra o programa padrão **Paint** (ou qualquer outro aplicativo que possa trabalhar com imagens). Cole sua captura de tela usando a mesma combinação de botões ou clicando no botão Colar (geralmente no canto superior esquerdo da tela) e salve-a.
+Depois de tirar uma captura de tela, ela será salva na área de transferência. Normalmente, você poderá colá-la em um documento usando a combinação padrão de botões *Ctrl + V*. Como alternativa, se você precisar salvar a captura de tela em um arquivo, abra o programa padrão **Paint** (ou qualquer outro aplicativo que possa trabalhar com imagens). Cole sua captura de tela usando a mesma combinação de botões ou clicando no botão Colar (geralmente no canto superior esquerdo da tela) e salve-a.
 
 O Windows 8 e 10 permitem que você faça uma captura de tela muito rapidamente com uma combinação de *Win + PrtScn*. Assim que você pressionar esses botões, a captura de tela será salva automaticamente como um arquivo na pasta Imagens → Capturas de tela.
 
-Há também um programa dedicado para tirar screenshots chamado *Snipping Tool* que você pode encontrar através do menu Iniciar entre os programas padrão do seu computador. A ferramenta de recorte permite capturar qualquer área da área de trabalho ou a tela inteira. After taking a screenshot using this program you can edit the picture and then save it.
+Há também um programa dedicado para tirar screenshots chamado *Snipping Tool* que você pode encontrar através do menu Iniciar entre os programas padrão do seu computador. A ferramenta de recorte permite capturar qualquer área da área de trabalho ou a tela inteira. Após tirar uma captura de tela usando este programa, você pode editar a imagem e depois salvá-la.
 
 Além disso, você também pode tentar usar diferentes aplicativos para tirar screenshots em seu computador, como **PicPick**, **Nimbus Screenshot**, **Screenshot Captor**, **Snipaste**, **Monosnap**, etc.
 
 ### macOS
 
-To take a screenshot on a Mac device, use the following button combination:
+Para tirar uma captura de tela em um dispositivo Mac, use a seguinte combinação de botões:
 
 - ***Pressione e segure ***⌘ Cmd + Shift + 3******
 
-Mac will capture the entire screen and save it as a file on the desktop.
+O Mac capturará a tela inteira e a salvará como um arquivo na área de trabalho.
 
 Para tirar uma captura de tela de uma janela ativa, use a seguinte combinação:
 

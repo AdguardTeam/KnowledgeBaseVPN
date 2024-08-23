@@ -7,7 +7,7 @@ AdGuard VPN para Mac es un servicio de VPN para desktop. AdGuard VPN es totalmen
 
 Ten en cuenta que **no puedes utilizar AdGuard VPN para Mac a menos que hayas iniciado sesión en tu cuenta de AdGuard**. Puedes iniciar sesión con tu cuenta de AdGuard o con una cuenta externa, es decir, a través de Apple, Google o Facebook. Asegúrese de que tu cuenta externa esté vinculada a la misma dirección de correo electrónico que tu cuenta de AdGuard. Si hay una suscripción adecuada en tu cuenta de AdGuard, ella se activará automáticamente en la aplicación para desktop. ¿Aún no tiene una cuenta de AdGuard? Créalo [aquí](https://auth.adguard.com/registration.html).
 
-:::note Compatibility
+:::note Compatibilidad
 
 AdGuard VPN para Mac actualmente es compatible con las versiones de macOS a partir de macOS Catalina (10.15).
 
@@ -17,9 +17,9 @@ AdGuard VPN para Mac actualmente es compatible con las versiones de macOS a part
 
 ![Home screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/vpn_main_new_en.jpeg)
 
-La primera pestaña es la pantalla *de inicio* . Here you can see the current status of AdGuard VPN, the selected location (if enabled) and its ping. Ping es el tiempo de respuesta de un servidor VPN. The lower the number, the faster the connection. If VPN is disabled, the last location you connected to is displayed at the bottom.
+La primera pestaña es la pantalla *de inicio* . Aquí puedes ver el estado actual de AdGuard VPN, la localidad elegida (si se ha habilitado) y su `ping`. Ping es el tiempo de respuesta de un servidor VPN. Cuanto menor sea el número, más rápida es la conexión. Si la VPN es deshabilitada, la última localidad a la cual uno se ha conectado es mostrada en la parte inferior.
 
-The fastest locations with the lowest pings are displayed in the upper right corner of the screen. There is also a refresh button that you can click if any locations are offline. A continuación puedes ver la lista completa de ubicaciones. The search field makes it easy to find the location you need.
+Las localidades más rápidas con los tiempos de respuesta más bajos son mostradas en la parte superior derecha de la pantalla. There is also a refresh button that you can click if any locations are offline. A continuación puedes ver la lista completa de ubicaciones. The search field makes it easy to find the location you need.
 
 :::note
 
@@ -38,6 +38,15 @@ AdGuard VPN has several features that make it unique, and one of them is definit
 Además, no sólo puede añadir sitios web a las exclusiones, sino también elegir entre las listas de servicios populares. Las listas se dividen en ocho categorías: Redes sociales, Mensajeros, Servicios de streaming de video y música, Juegos, Compras, Motores de búsqueda y Herramientas de comunicación laboral. ¡Cualquiera de estos servicios se puede agregar a Exclusiones con un solo clic! Eso es especialmente conveniente si se utiliza el modo selectivo.
 
 La lista de exclusión se puede configurar fácilmente. Si has añadido un dominio y algunos de sus subdominios, se agruparán dentro del dominio root. Al agregar un dominio root (`ejemplo.com`) también se agrega su máscara (`*.ejemplo.com`).
+
+:::info Browsers added to Exclusions
+
+Starting with the version 2.4, all browsers are automatically added to the list of exclusions when the VPN is active only for selected apps and websites. This change brings more convenience for users who were often confused and didn’t know whether to consider their browsers as apps or not. It applies under the following conditions:
+
+- The user has installed AdGuard VPN for the first time
+- The user did not modify the Exclusions settings prior to v2.4
+
+:::
 
 Si agregó un servicio, cambió o eliminó algo y ahora desea recuperar la configuración inicial, simplemente presione *Restablecer al predeterminado * junto al dominio: esta acción restaurará los dominios faltantes y marcará todas las casillas de verificación.
 

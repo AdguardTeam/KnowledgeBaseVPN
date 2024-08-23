@@ -1,72 +1,72 @@
 ---
-title: AdGuard VPN has been removed from App Store
-sidebar_position: 5
+title: AdGuard VPN wurde aus dem App Store entfernt
+sidebar_position: 1
 ---
 
-In some countries, AdGuard VPN is not available in the App Store. If that’s your case, there are two ways to download the app:
+In einigen Ländern ist AdGuard VPN nicht (mehr) im App Store erhältlich. Wenn das bei Ihnen der Fall ist, gibt es zwei Möglichkeiten, die App herunterzuladen:
 
-- If you do not have any active subscriptions in the App Store, you can **change the region for your current account**
+- Wenn Sie keine aktiven Abonnements im App Store haben, können Sie **die Region für Ihr aktuelles Konto** ändern
 
-- If you have active subscriptions that you wish to retain, you can **create a new Apple account and link it to the App Store**
+- Wenn Sie aktive Abonnements haben, die Sie beibehalten möchten, können Sie **ein neues Apple-Konto erstellen und dieses mit dem App Store** verknüpfen
 
-### Changing the region for your current account
+### Region für Ihren aktuellen Account ändern
 
-1. Go to the Apple ID screen and tap _Media & Purchases_ → _View Account_.
+1. Rufen Sie den Bildschirm Apple ID auf und tippen Sie auf _Medien & Einkäufe_ ➜ _Account anzeigen_.
 
-2. Tap _Country/Region_ → _Change Country or Region_.
+2. Tippen Sie auf _Land/Region_ ➜ _Land oder Region ändern_.
 
-   ![Changing region](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/changing_country.png)
+   ![Region ändern](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/changing_country.png)
 
-3. Select your preferred country from the list (e.g., _United States_) and agree to the Terms and Conditions.
+3. Wählen Sie Ihr bevorzugtes Land aus der Liste (z. B. _USA_) und stimmen Sie den Allgemeinen Geschäftsbedingungen zu.
 
-4. Fill in the required fields. You can select _None_ for _Payment Method_ and use any address with a valid ZIP code for _Billing Address_, for example:
+4. Füllen Sie die erforderlichen Felder aus. Sie können für _Zahlungsmethode_ die Option _Keine_ wählen und für _Rechnungsadresse_ eine beliebige Adresse mit einer gültigen Postleitzahl verwenden, zum Beispiel:
 
-   Address: Grand Ave
+   Adresse: Grand Ave
 
-   City: Chicago
+   Stadt: Chicago
 
-   State: Illinois
+   Staat: Illinois
 
-   Zip: 60007
+   Postleitzahl: 60007
 
-   Phone: 999 999999999
+   Telefon: 999 999999999
 
-5. Tap _Next_.
+5. Tippen Sie auf _Weiter_.
 
-   ![New region \*border](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/new_country.png)
+   ![Neue Region \*border](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/new_country.png)
 
-After changing the region, try [downloading AdGuard VPN from the App Store again](https://apps.apple.com/en/app/adguard-vpn-unlimited-fast/id1525373602).
+Nachdem Sie die Region geändert haben, versuchen Sie [AdGuard VPN erneut aus dem App Store herunterzuladen] (https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602).
 
-### Creating a new Apple account and linking it to the App Store
+### Erstellung eines neuen Apple-Kontos und Verknüpfung mit dem App Store
 
-For users with paid subscriptions in the App Store who only need to download free apps from different regions, creating a new account in another country is a more convenient option. This way, you can use your primary account at the system level on your phone and activate the second account solely for the App Store without needing to log out of your iPhone account.
+Für Nutzer mit kostenpflichtigen Abonnements im App Store, die nur kostenlose Apps aus verschiedenen Regionen herunterladen müssen, ist die Erstellung eines neuen Kontos in einem anderen Land eine einfachere Option. Auf diese Weise können Sie Ihren primären Account auf Systemebene auf Ihrem Telefon verwenden und den zweiten Account ausschließlich für den App Store aktivieren, ohne sich von Ihrem iPhone-Account abmelden zu müssen.
 
-**Steps to create a new account in a different country:**
+**Schritte zur Erstellung eines neuen Accounts in einem anderen Land:**
 
-1. Visit [https://appleid.apple.com/account](https://appleid.apple.com/ru/account).
+1. Besuchen Sie [https://appleid.apple.com/account](https://appleid.apple.com/account).
 
-2. Enter any first and last name and select a country, like _United States of America_.
+2. Geben Sie einen beliebigen Vor- und Nachnamen ein und wählen Sie ein Land, z. B. _Vereinigte Staaten_.
 
-3. Use an email address not linked to your Apple ID. A verification code will be sent to this email.
+3. Verwenden Sie eine E-Mail-Adresse, die nicht mit Ihrer Apple ID verknüpft ist. An diese E-Mail-Adresse wird ein Verifizierungscode gesendet.
 
-4. Provide a phone number for verification.
+4. Geben Sie eine Telefonnummer zur Überprüfung an.
 
-5. Confirm your email and phone number and press _Next_. That’s it!
+5. Bestätigen Sie Ihre E-Mail-Adresse und Telefonnummer und drücken Sie _Weiter_. Das war's!
 
-Now **link your new account to the App Store**:
+Jetzt nur noch **Ihr neues Konto mit dem App Store verknüpfen**:
 
-1. Go to _Settings_ and tap your name.
+1. Öffnen Sie _Einstellungen_ und tippen Sie auf Ihren Namen.
 
-2. Select _Media & Purchases_ → _Sign Out_. This will only sign you out of the App Store while keeping you logged in to your Apple ID on your phone.
+2. Wählen Sie _Medien & Einkäufe_ ➜ _Abmelden_. Dadurch werden Sie nur aus dem App Store abgemeldet, während Sie mit Ihrer Apple ID auf Ihrem Telefon angemeldet bleiben.
 
-3. Tap on _Media & Purchases_ again and select _Not [your name]?_ You will be prompted to sign in with a different Apple ID.
+3. Tippen Sie erneut auf _Medien & Einkäufe_ und wählen Sie _Nicht [Ihr Name]?_ Sie werden aufgefordert, sich mit einer anderen Apple ID anzumelden.
 
-   ![Changing account](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/log_out.png)
+   ![Account ändern](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/log_out.png)
 
-4. Enter the email address and password for your new account.
+4. Geben Sie die E-Mail-Adresse und das Passwort für Ihr neues Konto ein.
 
-   ![Login \*mobile\_border](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/apple_id.png)
+   ![Anmelden \*mobile\_border](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/apple_id.png)
 
-That’s it! Now try to [download AdGuard VPN from the App Store](https://apps.apple.com/en/app/adguard-vpn-unlimited-fast/id1525373602) again.
+Das war's! Versuchen Sie nun erneut, [AdGuard VPN aus dem App Store herunterzuladen] (https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602).
 
-You can always switch back to your default account this way.
+Auf diese Weise können Sie jederzeit zu Ihrem Standardkonto zurückwechseln.

@@ -33,6 +33,27 @@ adguardvpn-cli config set-socks-port <port_number>
 
 `<port_number>` kısmını bağlanmak istediğiniz bağlantı noktasıyla değiştirin.
 
+## SOCKS settings
+
+To set the SOCKS listen host, type:
+
+```
+adguardvpn-cli config set-socks-host <host>
+```
+
+Replace `<host>` with the host you want to use. Using a host other than 127.0.0.1 requires setting a username and password. To set the SOCKS username and password, type:
+
+```
+adguardvpn-cli config set-socks-username <username>
+adguardvpn-cli config set-socks-password <password>
+```
+
+Replace `<username>` and `<password>` with your desired username and password. To clear the SOCKS username and password, type:
+
+```
+adguardvpn-cli config clear-socks-auth
+```
+
 ## DNS üst kaynak adresi
 
 DNS üst kaynağını ayarlamak için şunu yazın:
@@ -47,13 +68,41 @@ adguardvpn-cli config set-dns <server_address>
 adguardvpn-cli config set-system-dns on
 ```
 
-## Yönlendirmesiz mod
+## VPN tünel yönlendirme modu: NONE, AUTO veya SCRIPT
 
-Bu özellik yalnızca belirttiğiniz adresleri VPN tüneli üzerinden yönlendirir. Yönlendirmesiz modu etkinleştirmek için şunu yazın:
+AdGuard VPN'in trafiği VPN tüneli üzerinden nasıl yönlendireceğini seçebilirsiniz. To set the tunnel routing mode to NONE (no routing), type:
 
 ```
-adguardvpn-cli config set-no-routes on
+adguardvpn-cli config set-tun-routing-mode NONE
 ```
+
+To set the tunnel routing mode to AUTO (automatic routing), type:
+
+```
+adguardvpn-cli config set-tun-routing-mode AUTO
+```
+
+To set the tunnel routing mode to SCRIPT (custom routing script), type:
+
+```
+adguardvpn-cli config set-tun-routing-mode SCRIPT
+```
+
+To create a routes script with proper permissions, type:
+
+```
+adguardvpn-cli config create-routes-script
+```
+
+## QUIC'i kullan
+
+QUIC (HTTP/3) tabanlı AdGuard VPN protokolünün kullanımını etkinleştirmek için şunu yazın:
+
+```
+adguardvpn-cli config set-use-quic on
+```
+
+Devre dışı bırakmak için `off` olarak ayarlayın.
 
 ## Çökme raporları
 
@@ -63,7 +112,7 @@ Otomatik çökme raporlarını etkinleştirirseniz AdGuard VPN, bir şeyler ters
 adguardvpn-cli config send-reports on
 ```
 
-Devre dışı bırakmak için `off` olarak ayarlayın.
+To disable it, set it to `off`.
 
 ## Güncelleme kanalı
 

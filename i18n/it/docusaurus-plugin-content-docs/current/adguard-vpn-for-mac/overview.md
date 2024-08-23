@@ -39,6 +39,15 @@ Inoltre puoi non solo aggiungere siti web a Esclusioni, ma anche scegliere tra g
 
 L'elenco di esclusione può essere facilmente configurato. Se avete aggiunto un dominio e alcuni dei suoi sottodomini, questi saranno raggruppati all'interno di quello principale. Quando si aggiunge un dominio root (`example.com`) viene aggiunta anche la sua maschera (`*.example.com`).
 
+:::info Browsers added to Exclusions
+
+Starting with the version 2.4, all browsers are automatically added to the list of exclusions when the VPN is active only for selected apps and websites. This change brings more convenience for users who were often confused and didn’t know whether to consider their browsers as apps or not. It applies under the following conditions:
+
+- The user has installed AdGuard VPN for the first time
+- The user did not modify the Exclusions settings prior to v2.4
+
+:::
+
 Se hai aggiunto un servizio, modificato o rimosso qualcosa e ora desideri ripristinare le impostazioni iniziali, premi semplicemente *Ripristina impostazioni predefinite* accanto al dominio: questa azione ripristinerà eventuali domini mancanti e selezionerà tutte le caselle di controllo.
 
 Inoltre, gli elenchi di esclusioni già pronti possono essere trasferiti ad altri dispositivi con AdGuard VPN installato. Per esportare le esclusioni, seguire le istruzioni in 4 passaggi descritte di seguito:
