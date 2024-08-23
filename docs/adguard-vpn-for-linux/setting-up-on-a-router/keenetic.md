@@ -31,15 +31,21 @@ The default IP address for most routers is `192.168.1.1` or `192.168.0.1`. If
 ipconfig
 ```
 
-1. Look for the *Default Gateway* under your active network connection. This is your the IP address of your router.
+1. Look for the *Default Gateway* under your active network connection. This is your router’s IP address.
 
 ### On macOS and Linux
 
-1. Open Terminal:
+1. Open Terminal and run this:
 
-```bash
-ip route | grep default
-```
+    ```bash
+    ip route | grep default
+    ```
+
+    Or this on Mac:
+
+    ```text
+    route -n get default
+    ```
 
 1. Look for the *default* entry. The IP address next to it is your router’s IP address.
 
@@ -135,14 +141,11 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
 
     Before logging in, go to Terminal and make sure you are in the right shell interface. If you can see the following text:
 
-    *KeeneticOS version 4.01.C.7.0-1, copyright (c) 2010-2024 Keenetic Ltd.
+    ```text
+    KeeneticOS version 4.01.C.7.0-1, copyright (c) 2010-2024 Keenetic Ltd.
 
-    THIS SOFTWARE IS A SUBJECT OF KEENETIC LIMITED END-USER LICENCE AGREEMENT. BY USING IT YOU AGREE ON TERMS AND CONDITIONS
-    HEREOF. FOR MORE INFORMATION PLEASE CHECK*
-
-    [*https://keenetic.com/legal*](https://keenetic.com/legal)
-
-    *(config)>*
+    THIS SOFTWARE IS A SUBJECT OF KEENETIC LIMITED END-USER LICENCE AGREEMENT. BY USING IT YOU AGREE ON TERMS AND CONDITIONS HEREOF. FOR MORE INFORMATION PLEASE CHECK https://keenetic.com/legal
+    ```
 
     Run this command to exit into the shell needed for the next steps:
 
@@ -220,34 +223,34 @@ This step is designed to configure firewall rules on a Keenetic router to route 
 
 1. **Install `iptables` by running this command via SSH:**
 
-```bash
-opkg install iptables
-```
+    ```bash
+    opkg install iptables
+    ```
 
-This line installs the `iptables` package, which is a tool for managing network packet filtering rules on Linux systems.
+    This line installs the `iptables` package, which is a tool for managing network packet filtering rules on Linux systems.
 
 1. **Create a new shell script by running the following command:**
 
-```bash
+    ```bash
 
-cat << EOF > /opt/etc/ndm/netfilter.d/001-adguardvpn.sh
-#!/opt/bin/sh
-for ipt in iptables ip6tables; do
-\$ipt -D FORWARD -j ADGUARD_FORWARD || true
-\$ipt -F ADGUARD_FORWARD || true
-\$ipt -X ADGUARD_FORWARD || true
-\$ipt -N ADGUARD_FORWARD
-\$ipt -I FORWARD -j ADGUARD_FORWARD
-\$ipt -A ADGUARD_FORWARD -i br0 -o tun0 -j ACCEPT
-done
-EOF
-```
+    cat << EOF > /opt/etc/ndm/netfilter.d/001-adguardvpn.sh
+    #!/opt/bin/sh
+    for ipt in iptables ip6tables; do
+    \$ipt -D FORWARD -j ADGUARD_FORWARD || true
+    \$ipt -F ADGUARD_FORWARD || true
+    \$ipt -X ADGUARD_FORWARD || true
+    \$ipt -N ADGUARD_FORWARD
+    \$ipt -I FORWARD -j ADGUARD_FORWARD
+    \$ipt -A ADGUARD_FORWARD -i br0 -o tun0 -j ACCEPT
+    done
+    EOF
+    ```
 
-And make it executable:
+    And make it executable:
 
-```bash
-chmod +x /opt/etc/ndm/netfilter.d/001-adguardvpn.sh
-```
+    ```bash
+    chmod +x /opt/etc/ndm/netfilter.d/001-adguardvpn.sh
+    ```
 
 This will create a new shell script named `001-adguardvpn.sh` in the `/opt/etc/ndm/netfilter.d/` directory, which is where network-related scripts are typically stored on a Keenetic router.
 
