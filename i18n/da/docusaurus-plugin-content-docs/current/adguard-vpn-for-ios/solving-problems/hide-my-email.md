@@ -1,6 +1,6 @@
 ---
 title: Sådan bruges Skjul min e-mail
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 Apples *Skjul min e-mail* er et godt værktøj til at holde den reelle e-mailadresse fortrolig ved tilmelding på websteder og i apps, som benytter Apple-ID. Den kan endda bruge til fortrolig korrespondance samt håndtering af alle indgående beskeder ligesom i en alm. e-mail-konto. Således kan man både beskytte sin fortrolighed og skjule sin reelle e-mailadresse for uvedkommende.

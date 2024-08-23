@@ -28,7 +28,7 @@ Při prohlížení internetu jsou ohrožena hesla, údaje o platebních kartách
 
 ### Důvěryhodný vývojář
 
-AdGuard has been present on the market of personal data protection and ad blocking and developing its line of software for more than 15 years. Over this time, our company has built an impeccable reputation, and more than 410 million people have installed AdGuard.
+AdGuard působí na trhu ochrany osobních údajů a blokování reklamy a vyvíjí svou řadu softwaru již více než 15 let. Za tu dobu si naše společnost vybudovala bezvadnou pověst a AdGuard si nainstalovalo více než 410 milionů lidí.
 
 ### Jedinečný VPN protokol
 

@@ -1,6 +1,6 @@
 ---
 title: Geri bildirim gönderme
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 ## Bir sorun bildirme veya özellik önerme

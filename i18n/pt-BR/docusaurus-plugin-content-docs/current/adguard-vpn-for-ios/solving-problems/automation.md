@@ -1,6 +1,6 @@
 ---
 title: Como configurar a automação do AdGuard VPN para apps no iPhone e iPad
-sidebar_position: 1
+sidebar_position: 2
 sidebar_label: Como configurar a automação do AdGuard VPN
 ---
 
@@ -17,7 +17,7 @@ Se você precisar de uma VPN para um ou mais aplicativos, configure o AdGuard VP
 3. Na próxima janela, verifique se a opção *Está aberto* está selecionada e toque em *Escolher* para selecionar o aplicativo.
 
 ![Instruções. Parte 2](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_on2_en.jpg)
-4. Start entering the name of the app (in our case it’s Twitter) and select it. Toque em *Concluído*e em *Próximo* no canto superior direito da tela. Na janela aberta, toque em *Adicionar ação*.
+4. Comece a digitar o nome do aplicativo (no nosso caso é o Twitter) e selecione-o. Toque em *Concluído*e em *Próximo* no canto superior direito da tela. Na janela aberta, toque em *Adicionar ação*.
 
 ![Instruções. Parte 3](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_on3_en.jpg)
 5. Comece a inserir “AdGuard VPN” e selecione o aplicativo AdGuard VPN. Na nova janela, toque em *Definir conexão VPN*.

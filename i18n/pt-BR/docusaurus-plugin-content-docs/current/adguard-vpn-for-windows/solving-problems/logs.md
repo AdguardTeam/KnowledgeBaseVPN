@@ -3,76 +3,76 @@ title: Como coletar e enviar logs
 sidebar position: 1
 ---
 
-If you encounter any problems while using AdGuard VPN for Windows, you can inform us about it. We would appreciate it if you also send application logs, as they help us resolve issues much quicker.
+Se você encontrar algum problema ao usar o AdGuard VPN para Windows, você pode nos informar sobre isso. Agradeceríamos se você também enviasse os registros do aplicativo, pois eles nos ajudam a resolver problemas muito mais rapidamente.
 
-## Collecting logs
+## Coleta de registros
 
-### Standard logs
+### Registros padrão
 
-By default, AdGuard VPN for Windows uses the standard logging level, which is the basic collection of data about running processes of the app. Before sending the logs, please open AdGuard VPN for Windows and, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
+Por padrão, o AdGuard VPN para Windows usa o nível de registro padrão, que é a coleta básica de dados sobre os processos em execução do aplicativo. Antes de enviar os registros, por favor abra o AdGuard VPN para Windows e, se possível, repita as ações que levaram ao erro. Anote a hora exata em que esse erro ocorreu.
 
-### Extended logs
+### Registros estendidos
 
 Na maioria dos casos, o nível de log padrão é suficiente para rastrear possíveis bugs. Mas há casos em que são necessárias informações técnicas mais detalhadas sobre o dispositivo e as conexões e, assim, nossa equipe de suporte solicitará que você ative o nível de registro estendido. Para enviar este tipo de log, siga estes passos:
 
-1. Open AdGuard VPN for Windows and select **Settings** in the menu above → **App settings** → **Advanced settings** → **Logging level**.
+1. Abra o AdGuard VPN para Windows e selecione **Configurações** no menu acima → **Configurações do aplicativo** → **Configurações avançadas** → **Nível de registro**.
 
 1. Na seção **Nível de registro**, selecione **Gravar tudo**.
 
-    ![Logging level *border](https://cdn.adtidy.org/content/kb/vpn/windows/logs/logging.jpeg)
+    ![Nível de registro *borda](https://cdn.adtidy.org/content/kb/vpn/windows/logs/logging.jpeg)
 
 1. Repita as ações que levaram ao erro, e anote a hora em que ocorreu.
 
 1. Mude o nível de registro de volta para **Gravar por padrão**.
 
-### Trace logs
+### Registros de rastreamento
 
-Sometimes our support team might ask you to send them trace logs. To do this, you need to follow these steps:
+Às vezes, nossa equipe de suporte pode solicitar que você envie registros de rastreamento. Para fazer isso, você precisa seguir estas etapas:
 
-1. Right-click the AdGuard VPN icon in the tray menu and choose **Exit AdGuard VPN**.
+1. Clique com o botão direito do mouse no ícone do AdGuard VPN no menu da bandeja e escolha **Sair do AdGuard VPN**.
 
-    ![Exit *mobile](https://cdn.adtidy.org/content/kb/vpn/windows/logs/exit.png)
+    ![Sair *mobile](https://cdn.adtidy.org/content/kb/vpn/windows/logs/exit.png)
 
-    If you see the warning message, agree to stop the service.
+    Se você vir a mensagem de aviso, concorde em parar o serviço.
 
-    ![Attention *mobile](https://cdn.adtidy.org/content/kb/vpn/windows/logs/attention.png)
+    ![Atenção *mobile](https://cdn.adtidy.org/content/kb/vpn/windows/logs/attention.png)
 
-1. Open the console (type `cmd` in the start panel).
+1. Abra o console (digite cmd no painel de início).
 
-1. Run the application with the command `C:\"Program Files (x86)"\AdGuardVpn\AdGuardVpnSvc.exe /trace` if you are using 64-bit Windows, and `C:\"Program Files"\AdGuardVpn\AdGuardVpnSvc.exe /trace` if you are using 32-bit.
+1. Execute o aplicativo com o comando C:\"Program Files (x86)"\AdGuardVpn\AdGuardVpnSvc.exe /trace se você estiver usando Windows de 64 bits, e C:\"Program Files"\AdGuardVpn\AdGuardVpnSvc.exe /trace se você estiver usando 32 bits.
 
-1. Reproduce the issue. We strongly recommend that you note the exact time when you reproduce the problem: this will help our support team to find relevant log entries and resolve the problem faster.
+1. Reproduza o problema. Recomendamos fortemente que você anote a hora exata em que reproduziu o problema: isso ajudará nossa equipe de suporte a encontrar as entradas de registro relevantes e resolver o problema mais rapidamente.
 
-1. Export the recorded logs: **Support** → **Export logs and system info**.
+1. Exporte os registros gravados: **Suporte** → **Exportar registros e informações do sistema**.
 
-Don't worry if your log file is large. We need to know as many details as possible in order to fix your problem.
+Não se preocupe se o seu arquivo de registro for grande. Precisamos saber o máximo de detalhes possível para resolver seu problema.
 
-## Sending logs
+## Envio de registros
 
-To send logs to our support team, please follow the next steps:
+Para enviar registros à nossa equipe de suporte, siga as etapas abaixo:
 
-1. Click **Support** in the menu above → **Report a bug**.
+1. Clique em **Suporte** no menu acima → **Relatar um erro**.
 
-    ![Report a bug *border](https://cdn.adtidy.org/content/kb/vpn/windows/logs/support_report.jpeg)
+    ![Relatar um erro *borda](https://cdn.adtidy.org/content/kb/vpn/windows/logs/support_report.jpeg)
 
-1. In the form that opens, enter your email address and describe the error you found, including the time it occurred. If you can't reproduce the problem, be as specific as possible about when it last occurred.
+1. No formulário que se abre, insira seu endereço de e-mail e descreva o erro encontrado, incluindo a hora em que ocorreu. Se você não conseguir reproduzir o problema, seja o mais específico possível sobre quando ele ocorreu pela última vez.
 
-    ![Report *border](https://cdn.adtidy.org/content/kb/vpn/windows/logs/report_bug.png)
+    ![Relatório *borda](https://cdn.adtidy.org/content/kb/vpn/windows/logs/report_bug.png)
 
 1. Há uma marca de seleção ao lado de **Enviar informações detalhadas do sistema**, o que significa que, ao enviar um relatório, você também envia logs.
 
 > Se por algum motivo for mais conveniente para você nos enviar os logs de outra maneira, você mesmo poderá exportá-los. Para fazer isso, vá para **Suporte** → **Exportar logs e informações do sistema**.
 
-![Export *border](https://cdn.adtidy.org/content/kb/vpn/windows/logs/export.jpeg)
+![Exportar *borda](https://cdn.adtidy.org/content/kb/vpn/windows/logs/export.jpeg)
 
-**Note**: if you encounter any problems while trying to export logs, there is an alternative way. Please follow these steps:
+**Nota**: se você encontrar algum problema ao tentar exportar os registros, há uma maneira alternativa. Por favor, siga estas etapas:
 
-1. Open the Explorer app
+1. Abra o aplicativo Explorer
 
-1. Paste `%programdata%/adguardvpn` in the search box
+1. Cole `%programdata%/adguardvpn` na caixa de pesquisa
 
-1. Find the folder called **Logs**
+1. Encontre a pasta chamada **Logs**
 
-1. Archive the folder
+1. Compacte a pasta
 
-1. Send it to our support team
+1. Envie-a para nossa equipe de suporte

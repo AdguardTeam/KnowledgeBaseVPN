@@ -1,6 +1,6 @@
 ---
 title: Jak používat funkci Skrýt můj e-mail
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 Funkce *Skrýt můj e-mail* je skvělý nástroj, jak při registraci na webové stránky a do aplikací, které používají Apple ID, udržet svou skutečnou e-mailovou adresu v tajnosti. Můžete to používat i pro soukromou korespondenci a spravovat všechny příchozí zprávy stejně jako u běžného e-mailového účtu. Tímto způsobem můžete chránit své soukromí a udržet svou skutečnou e-mailovou adresu skrytou před zvědavci.

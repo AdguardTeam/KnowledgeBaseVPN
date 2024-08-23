@@ -43,6 +43,15 @@ AdGuard VPN for Windows 有很多優點，所以我們專門致力於 [另一篇
 
 我們建議使用 **從清單** 選項。 網站分為八類：社群網路、信差、影片和音樂串流服務、遊戲、購物、搜尋引擎和工作通訊工具。 我們在那裡放置了最受歡迎的服務，包括與每個平台相關的所有網域和子網域。
 
+:::info Browsers added to Exclusions
+
+Starting with the version 2.4, all browsers are automatically added to the list of exclusions when the VPN is active only for selected apps and websites. This change brings more convenience for users who were often confused and didn’t know whether to consider their browsers as apps or not. It applies under the following conditions:
+
+- The user has installed AdGuard VPN for the first time
+- The user did not modify the Exclusions settings prior to v2.4
+
+:::
+
 ### 導入/匯出排除列表
 
 將例外清單從AdGuard VPN for Windows匯出到您的電腦，請按一下**匯出例外**，選擇要存儲清單的文件夾，然後按一下**儲存**。 將下載一個存檔 `排除.zip` ，其中包含兩個 `.txt` 文件，每個列表一個。 您可以透過新增新的排除項或刪除舊的排除項來編輯它們。

@@ -1,6 +1,6 @@
 ---
 title: So verwenden Sie „E-Mail-Adresse verbergen“
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 Die Funktion *E-Mail-Adresse verbergen* von Apple ist ein großartiges Werkzeug, um Ihre echte E-Mail-Adresse geheim zu halten, wenn Sie sich bei Websites und Anwendungen anmelden, die die Apple ID verwenden. Sie können es sogar für private Korrespondenz nutzen und alle eingehenden Nachrichten wie bei einem normalen E-Mail-Konto verwalten. Auf diese Weise können Sie Ihre Privatsphäre schützen und Ihre echte E-Mail-Adresse vor neugierigen Blicken verbergen.

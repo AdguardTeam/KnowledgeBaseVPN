@@ -1,6 +1,6 @@
 ---
 title: App Store経由で購入したサブスクの使用関連問題
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 Some users can’t use their AdGuard VPN subscription purchased through the App Store. この問題は以下の2つのケースが理由で発生している可能性があります:

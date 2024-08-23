@@ -1,6 +1,6 @@
 ---
 title: Günlükler nasıl toplanır ve gönderilir
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 iOS için AdGuard VPN'i kullanırken herhangi bir sorunla karşılaşırsanız, uygulama günlüklerini göndererek bizi bu konuda bilgilendirebilirsiniz.

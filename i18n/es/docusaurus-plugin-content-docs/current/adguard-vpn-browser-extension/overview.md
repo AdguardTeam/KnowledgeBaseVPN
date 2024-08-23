@@ -3,7 +3,7 @@ title: Resumen de características
 sidebar_position: 1
 ---
 
-La extensión de navegador de AdGuard VPN está disponible para Chrome, Firefox y Edge. La interfaz de usuario y la funcionalidad no difieren entre los navegadores, por lo que el resumen que se presenta a continuación será relevante para las extensiones de AdGuard VPN para todos los navegadores.
+La extensión de navegador de AdGuard VPN está disponible para los navegadores Chrome, Firefox y Edge. La interfaz de usuario y la funcionalidad no difieren entre los navegadores, por lo que el resumen que se presenta a continuación será relevante para las extensiones de AdGuard VPN para todos los navegadores.
 
 :::nota
 

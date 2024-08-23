@@ -43,7 +43,7 @@ Falls die reguläre Deinstallation aus irgendeinem Grund nicht funktioniert, kö
 
     :::
 
-1. Wählen Sie *AdGuard VPN* und *Erweitert* als Deinstallationstyp und klicken Sie dann auf *Deinstallieren*. Klicken Sie auf *Ja, weiter* in der Eingabeaufforderung:
+1. Wählen Sie *AdGuard VPN* und *Erweitert* als Deinstallationstyp und klicken Sie dann auf *Deinstallieren*. Klicken Sie in der Eingabeaufforderung auf *Ja, weiter*:
 
     ![Erweiterte Deinstallation *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/vpn_extended.jpg)
 

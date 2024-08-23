@@ -43,6 +43,15 @@ Alan adlarını elle eklerken belirli ayrıntıları dikkate almalısınız. Ör
 
 **Listeden** seçeneğini kullanmanızı tavsiye ederiz. Siteler sekiz kategoriye ayrılmıştır: Sosyal ağlar, Mesajlaşma, Video ve Müzik yayın akışı hizmetleri, Oyunlar, Alışveriş, Arama motorları ve İş iletişim araçları. Her platformla ilgili tüm alan adları ve alt alan adları dahil olmak üzere en popüler hizmetleri oraya yerleştirdik.
 
+:::info İstisnalara eklenen tarayıcılar
+
+Sürüm 2.4'ten başlayarak, VPN yalnızca seçilen uygulamalar ve siteler için etkin olduğunda tüm tarayıcılar otomatik olarak istisnalar listesine eklenir. Bu değişiklik, genellikle kafası karışan ve tarayıcılarını uygulama olarak kabul edip etmeyeceklerini bilmeyen kullanıcılar için daha fazla kolaylık sağlıyor. Aşağıdaki koşullar altında uygulanır:
+
+- Kullanıcı AdGuard VPN'i ilk kez yüklediyse
+- Kullanıcı sürüm 2.4'ten önce İstisnalar ayarlarını değiştirmediyse
+
+:::
+
 ### İstisna listelerini içe ve dışa aktarma
 
 Windows için AdGuard VPN'dan istisnalar listesini bilgisayarınıza aktarmak için **İstisnaları dışa aktar** öğesine tıklayın, listenin depolanacağı klasörü seçin ve **Kaydet** öğesine tıklayın. Her liste için bir tane olmak üzere iki `.txt` dosyası içeren bir `exclusions.zip` arşivi indirilecektir. Bunları yeni istisnalar ekleyerek veya eskileri silerek düzenleyebilirsiniz.

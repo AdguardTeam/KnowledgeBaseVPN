@@ -43,7 +43,7 @@ Ud over disse VPN-protokoller findes der andre (f.eks. TLS, SSTP, IKEv2), men de
 
 <object data="https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/6.svg?nc=1" type="image/svg+xml"><img src="https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/6.svg?nc=1" alt="protocol 6" /> </object>
 
-AdGuard VPN har også sin egen [_protokol_](/general/adguard-vpn-protokol). En af dens fordele er, at trafik sendt vha. AdGuard VPN-protokollen er svær at skelne fra almindelig trafik. VPN-tunnelen ligner normal HTTPS-trafik, så den er ekstremt svært at opdage og blokere. Den er desuden baseret på mekanismerne i den moderne HTTP/2-protokol, hvilket sikrer høj forbindelseshastighed.
+AdGuard VPN har også sin egen [_protokol_](/general/adguard-vpn-protokol). En af dens fordele er, at trafik sendt vha. AdGuard VPN-protokollen er svær at skelne fra almindelig trafik. The VPN tunnel looks like normal HTTPS traffic, making it extremely difficult to detect and block. Den er desuden baseret på mekanismerne i den moderne HTTP/2-protokol, hvilket sikrer høj forbindelseshastighed.
 
 <object data="https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/5.svg?nc=1" type="image/svg+xml"><img src="https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/5.svg?nc=1" alt="protocol 5" /></object>
 

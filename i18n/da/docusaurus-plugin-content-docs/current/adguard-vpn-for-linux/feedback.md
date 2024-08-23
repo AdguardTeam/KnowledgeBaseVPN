@@ -1,6 +1,6 @@
 ---
 title: Feedbackindsendelse
-sidebar_position: 5
+sidebar_position: 6
 ---
 
 ## Anmeld et problem eller foreslå en funktion

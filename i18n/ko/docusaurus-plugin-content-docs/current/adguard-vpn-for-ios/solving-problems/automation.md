@@ -1,6 +1,6 @@
 ---
 title: iPhone 및 iPad 앱을 위한 AdGuard VPN 자동화를 설정하는 방법
-sidebar_position: 1
+sidebar_position: 2
 sidebar_label: AdGuard VPN 자동화 설정 방법
 ---
 

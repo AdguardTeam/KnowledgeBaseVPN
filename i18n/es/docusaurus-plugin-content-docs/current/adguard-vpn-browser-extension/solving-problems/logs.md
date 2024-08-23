@@ -10,7 +10,7 @@ Hay varias formas de recopilar registros de la extensión del navegador AdGuard 
 1. Abre la extensión de navegador AdGuard VPN, si es posible, repite las acciones que provocaron el error. Anota la hora exacta en que se produjo este error.
 1. Abre *Configuración* haciendo clic en el ícono del menú (☰) → *Soporte* → *Reportar un error*.
 1. En el formulario abierto, deja una dirección de correo electrónico insertada automáticamente o ingresa otra y describe el error encontrado, incluida la hora en que ocurrió este error. Si no puede reproducir el problema, especifica con la mayor precisión posible cuándo ocurrió por última vez.
-1. Asegúrate de que haya una marca de verificación junto a *Incluir el informe de diagnóstico en el mensaje* y toca *Enviar*. De esta manera, enviarás registros junto con el informe de error.
+1. Asegúrate de que haya una marca de verificación junto a *Incluir el informe de diagnóstico en el mensaje* y presiona la tecla *Enviar*. De esta manera, enviarás registros junto con el informe de error.
 
 ## Recopilación y envío de registros a través del botón *Exportar registros*
 

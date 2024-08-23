@@ -50,5 +50,9 @@
   "sidebar.sidebar.category.AdGuard VPN for Linux": {
     "message": "Linux için AdGuard VPN",
     "description": "The label for category AdGuard VPN for Linux in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Setting up on a router": {
+    "message": "Setting up on a router",
+    "description": "The label for category Setting up on a router in sidebar sidebar"
   }
 }

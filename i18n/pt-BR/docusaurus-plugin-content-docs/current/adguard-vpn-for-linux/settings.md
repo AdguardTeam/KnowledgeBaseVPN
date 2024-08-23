@@ -1,96 +1,145 @@
 ---
-title: Settings
+title: Configurações
 sidebar_position: 4
 ---
 
-You can manage AdGuard VPN for Linux settings from the command line. To view the current configuration, type:
+Você pode gerenciar as configurações do AdGuard VPN para Linux a partir da linha de comando. Para visualizar a configuração atual, digite:
 
 ```
 adguardvpn-cli config show
 ```
 
-## VPN mode: TUN or SOCKS5
+## Modo VPN: TUN ou SOCKS5
 
-You can choose how AdGuard VPN routes traffic.
+Você pode escolher como o AdGuard VPN roteia o tráfego.
 
-To set the default tunnel mode, type:
+Para definir o modo de túnel padrão, digite:
 
 ```
 adguardvpn-cli config set-mode TUN
 ```
 
-To set the SOCKS5 mode, type:
+Para definir o modo SOCKS5, digite:
 
 ```
 adguardvpn-cli config set-mode SOCKS
 ```
 
-To set the SOCKS5 port, type:
+Para definir a porta SOCKS5, digite:
 
 ```
-adguardvpn-cli config set-socks-port <port_number>
+adguardvpn-cli config set-socks-port <número_da_porta>
 ```
 
-Replace `<port_number>` with the port you want to connect to.
+Substitua `<número_da_porta>` pela porta à qual você deseja se conectar.
 
-## DNS upstream address
+## Configurações de SOCKS
 
-To set a DNS upstream, type:
+Para definir o host de escuta SOCKS, digite:
 
 ```
-adguardvpn-cli config set-dns <server_address>
+adguardvpn-cli config set-socks-host <host>
 ```
 
-Replace `<server_address>` with the address of your DNS server. To use this DNS server at the system level, type:
+Substitua `<host>` pelo host que você deseja usar. Usar um host diferente de 127.0.0.1 requer a configuração de um nome de usuário e senha. Para definir o nome de usuário e a senha do SOCKS, digite:
+
+```
+adguardvpn-cli config set-socks-username <nome de usuário>
+adguardvpn-cli config set-socks-password <senha>
+```
+
+Substitua `<nome de usuário>` e `<senha>` pelo nome de usuário e senha desejados. Para limpar o nome de usuário e a senha do SOCKS, digite:
+
+```
+adguardvpn-cli config clear-socks-auth
+```
+
+## Endereço upstream do DNS
+
+Para definir um upstream DNS, digite:
+
+```
+adguardvpn-cli config set-dns <endereço_do_servidor>
+```
+
+Substitua `<endereço_do_servidor>` pelo endereço do seu servidor DNS. Para usar este servidor DNS no nível do sistema, digite:
 
 ```
 adguardvpn-cli config set-system-dns on
 ```
 
-## No-route mode
+## Modo de roteamento de túnel VPN: NONE, AUTO ou SCRIPT
 
-This feature routes only your specified addresses through the VPN tunnel. To enable the no-route mode, type:
+Você pode escolher como o AdGuard VPN roteia o tráfego pelo túnel VPN. Para definir o modo de roteamento de túnel como NONE (sem roteamento), digite:
 
 ```
-adguardvpn-cli config set-no-routes on
+adguardvpn-cli config set-tun-routing-mode NONE
 ```
 
-## Crash reports
+Para definir o modo de roteamento de túnel como AUTO (roteamento automático), digite:
 
-If you enable automatic crash reports, AdGuard VPN will notify the developers if something goes wrong. To enable the setting, type:
+```
+adguardvpn-cli config set-tun-routing-mode AUTO
+```
+
+Para definir o modo de roteamento de túnel como SCRIPT (script de roteamento personalizado), digite:
+
+```
+adguardvpn-cli config set-tun-routing-mode SCRIPT
+```
+
+Para criar um script de rotas com as permissões adequadas, digite:
+
+```
+adguardvpn-cli config create-routes-script
+```
+
+## Usar QUIC
+
+Para habilitar o uso do protocolo AdGuard VPN baseado em QUIC (HTTP/3), digite:
+
+```
+adguardvpn-cli config set-use-quic on
+```
+
+Para desativá-lo, defina como `off`.
+
+## Relatórios de erros
+
+Se você ativar os relatórios de erros automáticos, o AdGuard VPN notificará os desenvolvedores se algo der errado. Para habilitar a configuração, digite:
 
 ```
 adguardvpn-cli config send-reports on
 ```
 
-To disable it, set it to `off`.
+Para desativá-lo, defina como `off`.
 
-## Update channel
+## Canal de atualização
 
-To change the update channel, type:
+Para alterar o canal de atualização, digite:
 
 ```
-adguardvpn-cli config set-update-channel <channel>
+adguardvpn-cli config set-update-channel <canal>
 ```
 
-Replace `<channel>` with `release`, `beta`, or `nightly`, depending on your preferences.
+Substitua `<canal>` por `release`, `beta` ou `nightly`, dependendo de suas preferências.
 
-## Hints
+## Dicas
 
-AdGuard VPN can show you hints after executing commands — for example, what to do next or how to fix an error. This setting is enabled by default but you can disable it by typing:
+O AdGuard VPN pode mostrar dicas após a execução de comandos - por exemplo, o que fazer a seguir ou como corrigir um erro. Esta configuração é habilitada por padrão, mas você pode desabilitá-la digitando:
 
 ```
 adguardvpn-cli config set-show-hints off
 ```
 
-To re-enable it, replace `off` with `on`.
+Para habilitá-lo novamente, substitua `off` por `on`.
 
-## Debug logging
+## Registro de depuração
 
-To report a bug, you may need to share debug logs with the developers or support team. To enable debug logging, type:
+Para relatar um bug, pode ser necessário compartilhar logs de depuração com os desenvolvedores ou equipe de suporte. Para habilitar o registro de depuração, digite:
 
 ```
 adguardvpn-cli config set-debug-logging on
 ```
 
-Disable this setting after exporting logs.
+Desative esta configuração após exportar os logs.

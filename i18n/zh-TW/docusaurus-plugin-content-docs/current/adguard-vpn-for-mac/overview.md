@@ -39,6 +39,15 @@ AdGuard VPN 具有多項使其獨一無二的功能，其中之一絕對是 *排
 
 可以輕鬆配置排除列表。 如果您新增了一個網域及其一些子網域，它們將被分組到根域中。 當添加根域 (`example.com`) 時，也會加上其遮罩 (`*.example.com`)。
 
+:::info Browsers added to Exclusions
+
+Starting with the version 2.4, all browsers are automatically added to the list of exclusions when the VPN is active only for selected apps and websites. This change brings more convenience for users who were often confused and didn’t know whether to consider their browsers as apps or not. It applies under the following conditions:
+
+- The user has installed AdGuard VPN for the first time
+- The user did not modify the Exclusions settings prior to v2.4
+
+:::
+
 如果您新增了服務、更改或刪除了某些內容，現在想要恢復初始設置，只需按網域旁邊的 *重置為預設值* — 此操作將恢復任何遺失的網域並勾選所有複選框。
 
 此外，現成的排除清單可以傳輸到安裝了 AdGuard VPN 的其他裝置。 若要匯出排除項，請依照以下四步驟說明操作：

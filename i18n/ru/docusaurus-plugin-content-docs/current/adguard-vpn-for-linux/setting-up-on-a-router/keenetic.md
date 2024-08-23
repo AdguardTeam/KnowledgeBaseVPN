@@ -1,0 +1,284 @@
+---
+title: Как настроить AdGuard VPN для Linux на роутере Keenetic
+sidebar_position: 3
+---
+
+:::info Системные требования
+
+Для работы AdGuard VPN для Linux, также известного как AdGuard VPN CLI, требуется не менее 22 МБ свободного места на встроенной памяти роутера или на внешнем USB после установки других необходимых пакетов.
+
+:::
+
+## 1. Убедитесь, что на вашем роутере включён SSH
+
+SSH-клиент используется для отправки команд на роутер с компьютера.
+
+Чтобы запустить SSH-сервер, в Keenetic должен быть установлен системный компонент _SSH-сервер_. Это можно сделать на странице _Общие настройки системы_ в разделе _Параметры компонентов_, нажав кнопку _Параметры компонентов_. Найдите SSH-сервер и установите его. Это обновит операционную систему вашего Keenetic.
+
+После установки компонента SSH-сервер включится автоматически.
+
+[На сайте Keenetic описано](https://help.keenetic.com/hc/ru/articles/360000387189-Удаленный-доступ-через-SSH-к-командной-строке-Keenetic), как настроить SSH сервер для оптимальных настроек безопасности.
+
+## 2. Определите IP-адрес вашего роутера
+
+IP-адрес по умолчанию для большинства роутеров — `192.168.1.1` или `192.168.0.1`. Если вы изменили IP-адрес или не уверены, его можно найти, проверив конфигурацию IP-адреса на подключенном устройстве.
+
+### На Windows
+
+1. Откройте командную строку:
+
+```bash
+ipconfig
+```
+
+1. Найдите _Шлюз по умолчанию_ в активном сетевом подключении. Это IP-адрес вашего роутера.
+
+### На macOS и Linux
+
+1. Откройте Терминал:
+
+```bash
+ip route | grep default
+```
+
+1. Найдите запись _default_. Рядом с ней находится IP-адрес вашего роутера.
+
+## 3) Используйте SSH-клиент для подключения к роутеру
+
+Вам понадобится SSH-клиент. Большинство систем на Linux и macOS поставляются с предустановленным SSH-клиентом. Для Windows вы можете использовать PowerShell, встроенный SSH-клиент в Windows 10/11 или стороннее приложение, например PuTTY.
+
+### Использование встроенного SSH-клиента (для Linux, macOS и Windows 10/11)
+
+1. Откройте Терминал или PowerShell.
+
+2. Выполните команду SSH:
+
+```bash
+ssh admin@192.168.1.1
+```
+
+Замените `192.168.1.1` на IP-адрес вашего роутера.
+
+1. Если вы впервые подключаетесь к роутеру через SSH, вы увидите такое сообщение:
+
+```bash
+   The authenticity of host '192.168.1.1 (192.168.1.1)' can't be established.
+   ECDSA key fingerprint is SHA256:...
+   Are you sure you want to continue connecting (yes/no/[fingerprint])?
+```
+
+Введите `yes` и нажмите Enter.
+
+1. Введите пароль от роутера, когда появится соответствующий запрос. The default username is `root` and the default password is `keenetic`.
+
+### Использование PuTTY (Windows 8 и более ранние версии)
+
+1. Скачайте и установите PuTTY [с официального сайта](https://www.putty.org/).
+
+2. Откройте PuTTY.
+
+3. В поле _Имя хоста (или IP-адрес)_ введите IP вашего роутера (например, `192.168.1.1`)
+
+4. Убедитесь, что _Тип подключения_ — SSH.
+
+5. Нажмите _Открыть_.
+
+6. When the Terminal window opens, log in. The default username is `root` and the default password is `keenetic`.
+
+После входа в систему вы можете использовать различные команды для взаимодействия с операционной системой роутера на базе Linux.
+
+## 4. Установите OPKG Entware
+
+В моделях Keenetic с USB-портом (кроме Keenetic 4G) можно использовать менеджер пакетов OPKG. Он позволяет устанавливать пакеты ПО сторонних производителей для расширения возможностей роутеров.
+
+Начиная с версии 3.7, для некоторых моделей Keenetic появилась возможность записывать OPKG Entware в раздел [UBIFS](https://ru.wikipedia.org/wiki/UBIFS) NAND флеш-памяти роутера, то есть во встроенную память роутера. Чтобы установить OPKG Entware на USB-накопитель или во внутреннюю память роутера, выполните следующие действия.
+
+### How to install Entware **repository package system** on router’s internal hard drive
+
+Этот метод подходит для следующего списка моделей: KN-1010/1011, KN-1810/1811, KN-1910, KN-2010, KN-2110, KN-2310, KN-2410, KN-2510, KN-2610, KN-2710, KN-3810, KN-3610 с версией KeeneticOS 3.7 и выше.
+
+Подробные инструкции смотрите [на официальной странице Keenetic](https://help.keenetic.com/hc/en-us/articles/360021888880-Installing-OPKG-Entware-in-the-router-s-internal-memory).
+
+If your router doesn’t support installing packages on its internal hard drive, follow the instructions for installing packages on a USB drive.
+
+### **Установка системы пакетов репозитория Entware на USB-накопитель**
+
+На модели Keenetic с портами USB, поддерживающие USB Flash-накопители, можно установить пакеты OPKG. К ним относятся: KN-1410, KN-1710/1711, KN-1010/1011, KN-2510, KN-2410, KN-1810, KN-1910, KN-2310, KN-2010, KN-2110, KN-2610, KN-2710.
+
+For detailed instructions, visit [the official Keenetic Wiki](https://help.keenetic.com/hc/en-us/articles/360021214160-Installing-the-Entware-repository-package-system-on-a-USB-drive).
+
+## 5. Установите AdGuard VPN
+
+В SSH-клиенте выполните следующий код, чтобы установить пакеты, необходимые для AdGuard VPN CLI:
+
+```bash
+opkg install curl sudo ca-certificates
+```
+
+Перейдите в папку `cd/opt` и запустите скрипт установки AdGuard VPN CLI:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/release/install.sh | sh -s -- -v
+```
+
+На вопрос `Хотите ли вы связать двоичный файл с /usr/local/bin?` ответьте `y`. Если вам не удалось связать двоичный файл, выполните эту строку:
+
+```bash
+ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
+```
+
+## 6. Настройте AdGuard VPN CLI
+
+1. Войдите в аккаунт
+
+   Чтобы использовать AdGuard VPN для Linux, вам понадобится аккаунт AdGuard. Вы можете зарегистрироваться или войти [на нашем сайте](https://auth.adguard.com/login.html) или в Терминале.
+
+   Перед этим зайдите в Терминал и убедитесь, что вы находитесь в нужном интерфейсе оболочки. Если вы видите следующий текст:
+
+   \*KeeneticOS version 4.01.C.7.0-1, copyright (c) 2010-2024 Keenetic Ltd.
+
+   THIS SOFTWARE IS A SUBJECT OF KEENETIC LIMITED END-USER LICENCE AGREEMENT. BY USING IT YOU AGREE ON TERMS AND CONDITIONS
+   HEREOF. FOR MORE INFORMATION PLEASE CHECK\*
+
+   [_https://keenetic.com/legal_](https://keenetic.com/legal)
+
+   _(config)>_
+
+   Выполните эту команду, чтобы выйти в оболочку, необходимую для следующих шагов:
+
+   ```bash
+   exec sh
+   ```
+
+   Если вы видите следующий текст, вы можете продолжить настройку:
+
+   ```bash
+   BusyBox v1.36.1 (2024-08-08 16:11:23 UTC) built-in shell (ash)
+
+   / #
+   ```
+
+   Чтобы зарегистрироваться или войти, введите:
+
+   ```bash
+   adguardvpn-cli login
+   ```
+
+2. Подключитесь к VPN
+
+   Перед подключением импортируйте SSL-сертификат, выполнив следующую команду:
+
+   ```bash
+   export SSL_CERT_FILE=/opt/etc/ssl/certs/ca-certificates.crt
+   ```
+
+   Это необходимо делать перед каждым сеансом.
+
+   Выберите локацию VPN-сервера, которая лучше всего соответствует вашим потребностям.
+
+   Как правило, чем ближе к вам сервер, тем быстрее соединение.
+
+   Чтобы посмотреть доступные локации, введите:
+
+   ```bash
+   adguardvpn-cli list-locations
+   ```
+
+   Чтобы подключиться к определённой локации, введите:
+
+   ```bash
+   adguardvpn-cli connect -l LOCATION_NAME
+   ```
+
+   Замените `LOCATION_NAME` на город, страну или ISO-код локации на английском, к которой хотите подключиться.
+
+   Для быстрого подключения введите:
+
+   ```bash
+   adguardvpn-cli connect
+   ```
+
+   AdGuard VPN выберет самую быструю локацию и запомнит её для будущих быстрых подключений.
+
+3. Настройте VPN
+
+   Получите список всех доступных команд AdGuard VPN и настройте VPN-клиент под свои нужды.
+
+   Чтобы просмотреть все команды, введите:
+
+   ```bash
+   adguardvpn-cli --help-all
+   ```
+
+4. Введите `yes` на вопрос «Хотите ли вы установить маршруты по умолчанию в режиме TUN?»
+
+AdGuard VPN CLI создаст интерфейс tun0 для VPN-туннелирования
+
+## 7. Set up firewall rules
+
+Этот шаг предназначен для настройки правил фаервола на роутере Keenetic для маршрутизации трафика через AdGuard VPN.
+
+1. **Установите `iptables`, выполнив эту команду через SSH:**
+
+```bash
+opkg install iptables
+```
+
+Эта строка устанавливает пакет `iptables` — инструмент для управления правилами фильтрации сетевых пакетов в системах Linux.
+
+1. **Создайте новый скрипт оболочки, выполнив следующую команду:**
+
+```bash
+
+cat << EOF > /opt/etc/ndm/netfilter.d/001-adguardvpn.sh
+#!/opt/bin/sh
+for ipt in iptables ip6tables; do
+\$ipt -D FORWARD -j ADGUARD_FORWARD || true
+\$ipt -F ADGUARD_FORWARD || true
+\$ipt -X ADGUARD_FORWARD || true
+\$ipt -N ADGUARD_FORWARD
+\$ipt -I FORWARD -j ADGUARD_FORWARD
+\$ipt -A ADGUARD_FORWARD -i br0 -o tun0 -j ACCEPT
+done
+EOF
+```
+
+И сделайте его исполняемым:
+
+```bash
+chmod +x /opt/etc/ndm/netfilter.d/001-adguardvpn.sh
+```
+
+Это создаст новый скрипт оболочки с именем `001-adguardvpn.sh` в каталоге `/opt/etc/ndm/netfilter.d/`, где на роутере Keenetic обычно хранятся скрипты, связанные с сетью.
+
+Скрипт создаёт пользовательское правило фаервола, чтобы гарантировать, что трафик из вашей локальной сети (`br0`) будет направляться через интерфейс AdGuard VPN (`tun0`). Сначала он очищает все предыдущие правила, связанные с этой конфигурацией, а затем настраивает новые правила для правильной маршрутизации трафика.
+
+## 8. Set up automatic launch for AdGuard VPN CLI
+
+Следующий скрипт предназначен для автоматического создания VPN-соединения с помощью AdGuard VPN на роутере Keenetic, когда WAN-интерфейс становится доступным (например, после перезагрузки или повторного подключения к интернету).
+
+Выполните следующую команду:
+
+```bash
+cat << E0F > /opt/etc/ndm/wan.d/001-adguardvpn.sh
+#!/opt/bin/sh
+export SSL_CERT_FILE=/opt/etc/ssl/certs/ca-certificates.crt
+export HOME=/opt/home/admin
+/opt/adguardvpn_cli/adguardvpn-cli connect &
+exit 0
+E0F
+```
+
+И сделайте её исполняемой:
+
+```bash
+chmod +x /opt/etc/ndm/wan.d/001-adguardvpn.sh
+```
+
+Скрипт с именем `001-adguardvpn.sh` будет сохранён в `/opt/etc/ndm/wan.d/`.
+
+Он запустит AdGuard VPN при подключении к интернету.
+
+Перезагрузите роутер, чтобы завершить настройку.
+
+Готово! Теперь у вас есть роутер, защищённый с помощью AdGuard VPN.

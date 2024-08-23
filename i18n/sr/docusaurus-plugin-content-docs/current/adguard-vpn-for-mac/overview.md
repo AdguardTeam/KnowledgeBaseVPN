@@ -39,6 +39,15 @@ Takođe, ne samo da možete da dodate Veb lokacije u "Izuzetke", već i da birat
 
 Lista izuzetaka se može lako konfigurisati. Ako ste dodali domen i neke od njegovih poddomina, oni će biti grupisani unutar osnovnog. Prilikom dodavanja osnovnog domena (`example.com`) dodaje se i njena maska (`*.example.com`).
 
+:::info Browsers added to Exclusions
+
+Starting with the version 2.4, all browsers are automatically added to the list of exclusions when the VPN is active only for selected apps and websites. This change brings more convenience for users who were often confused and didn’t know whether to consider their browsers as apps or not. It applies under the following conditions:
+
+- The user has installed AdGuard VPN for the first time
+- The user did not modify the Exclusions settings prior to v2.4
+
+:::
+
 Ako ste dodali uslugu, promenili ili uklonili nešto i sada želite da vratite početne postavke, samo pritisnite *Vrati na podrazumevanu vrednost* pored domena — ova radnja će vratiti sve domene koji nedostaju i ukloniti sva polja za potvrdu.
 
 Štaviše, gotove liste izuzetaka mogu se preneti na druge uređaje sa instaliranim AdGuard VPN-om. Da biste izvezli izuzetke, sledite dole navedena uputstva u četiri koraka:

@@ -115,7 +115,7 @@ Det sidste afsnit under *Avancerede indstillinger* er *Lavniveauindstillinger*. 
 
 :::caution
 
-Inden valg af IPv6 eller IPv4 i indstillingen **Foretrukken IP-version**, tjek at protokollen understøttes af det aktuelle netværk. Vælges f.eks. IPv6, og netværket kun understøtter IPv4, vil internetforbindelse ikke kunne etableres. Og omvendt.
+Inden valg af IPv6 eller IPv4 i indstillingen **Foretrukken IP-version**, tjek at protokollen understøttes af det aktuelle netværk. For example, if you select IPv6 and your network only supports IPv4, you may experience problems connecting to the Internet. Og omvendt.
 
 :::
 

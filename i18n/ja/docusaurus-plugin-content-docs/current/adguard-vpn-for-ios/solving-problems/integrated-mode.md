@@ -1,6 +1,6 @@
 ---
 title: AdGuard広告ブロッカーとの併用モード
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 AdGuard VPNには、*「VPN」*と*「併用モード」*という2つの動作モードがあります。
