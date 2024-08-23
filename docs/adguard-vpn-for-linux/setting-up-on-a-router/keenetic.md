@@ -69,7 +69,7 @@ Replace `192.168.1.1` with your router’s IP address.
 
 Type `yes` and press Enter.
 
-1. Enter the router’s password when prompted. The default root username is `root` and the default password is `keenetic`.
+1. Enter the router’s password when prompted. The default username is `root` and the default password is `keenetic`.
 
 ### Using PuTTY (Windows 8 and earlier)
 
