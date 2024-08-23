@@ -69,7 +69,7 @@ ssh admin@192.168.1.1
 
 Введите `yes` и нажмите Enter.
 
-1. Введите пароль от роутера, когда появится соответствующий запрос. The default username is `root` and the default password is `keenetic`.
+1. Введите пароль от роутера, когда появится соответствующий запрос. Имя пользователя по умолчанию — `root`, пароль — `keenetic`.
 
 ### Использование PuTTY (Windows 8 и более ранние версии)
 
@@ -83,7 +83,7 @@ ssh admin@192.168.1.1
 
 5. Нажмите _Открыть_.
 
-6. When the Terminal window opens, log in. The default username is `root` and the default password is `keenetic`.
+6. Когда откроется окно Терминала, войдите в систему. Имя пользователя по умолчанию — `root`, пароль — `keenetic`.
 
 После входа в систему вы можете использовать различные команды для взаимодействия с операционной системой роутера на базе Linux.
 
@@ -93,19 +93,19 @@ ssh admin@192.168.1.1
 
 Начиная с версии 3.7, для некоторых моделей Keenetic появилась возможность записывать OPKG Entware в раздел [UBIFS](https://ru.wikipedia.org/wiki/UBIFS) NAND флеш-памяти роутера, то есть во встроенную память роутера. Чтобы установить OPKG Entware на USB-накопитель или во внутреннюю память роутера, выполните следующие действия.
 
-### How to install Entware **repository package system** on router’s internal hard drive
+### Как установить **систему пакетов репозитория** Entware на внутренний жёсткий диск роутера
 
 Этот метод подходит для следующего списка моделей: KN-1010/1011, KN-1810/1811, KN-1910, KN-2010, KN-2110, KN-2310, KN-2410, KN-2510, KN-2610, KN-2710, KN-3810, KN-3610 с версией KeeneticOS 3.7 и выше.
 
-Подробные инструкции смотрите [на официальной странице Keenetic](https://help.keenetic.com/hc/en-us/articles/360021888880-Installing-OPKG-Entware-in-the-router-s-internal-memory).
+Подробные инструкции смотрите [на официальной странице Keenetic](https://help.keenetic.com/hc/ru/articles/360021888880-Установка-OPKG-Entware-на-встроенную-память-роутера).
 
-If your router doesn’t support installing packages on its internal hard drive, follow the instructions for installing packages on a USB drive.
+Если ваш роутер не поддерживает установку пакетов на внутренний жёсткий диск, следуйте инструкции по установке пакетов на USB-накопитель.
 
 ### **Установка системы пакетов репозитория Entware на USB-накопитель**
 
 На модели Keenetic с портами USB, поддерживающие USB Flash-накопители, можно установить пакеты OPKG. К ним относятся: KN-1410, KN-1710/1711, KN-1010/1011, KN-2510, KN-2410, KN-1810, KN-1910, KN-2310, KN-2010, KN-2110, KN-2610, KN-2710.
 
-For detailed instructions, visit [the official Keenetic Wiki](https://help.keenetic.com/hc/en-us/articles/360021214160-Installing-the-Entware-repository-package-system-on-a-USB-drive).
+Подробные инструкции смотрите [на официальной странице Keenetic](https://help.keenetic.com/hc/ru/articles/360021214160-Установка-системы-пакетов-репозитория-Entware-на-USB-накопитель).
 
 ## 5. Установите AdGuard VPN
 
@@ -214,7 +214,7 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
 
 AdGuard VPN CLI создаст интерфейс tun0 для VPN-туннелирования
 
-## 7. Set up firewall rules
+## 7. Настройте правила фаервола
 
 Этот шаг предназначен для настройки правил фаервола на роутере Keenetic для маршрутизации трафика через AdGuard VPN.
 
@@ -253,7 +253,7 @@ chmod +x /opt/etc/ndm/netfilter.d/001-adguardvpn.sh
 
 Скрипт создаёт пользовательское правило фаервола, чтобы гарантировать, что трафик из вашей локальной сети (`br0`) будет направляться через интерфейс AdGuard VPN (`tun0`). Сначала он очищает все предыдущие правила, связанные с этой конфигурацией, а затем настраивает новые правила для правильной маршрутизации трафика.
 
-## 8. Set up automatic launch for AdGuard VPN CLI
+## 8. Настройте автоматический запуск AdGuard VPN CLI
 
 Следующий скрипт предназначен для автоматического создания VPN-соединения с помощью AdGuard VPN на роутере Keenetic, когда WAN-интерфейс становится доступным (например, после перезагрузки или повторного подключения к интернету).
 
