@@ -253,7 +253,7 @@ This will create a new shell script named `001-adguardvpn.sh` in the `/opt/et
 
 The script creates a custom firewall rule to ensure that traffic from your LAN (`br0`) is routed through the AdGuard VPN interface (`tun0`). It first cleans up any previous rules related to this configuration, then sets up new rules to direct the traffic appropriately.
 
-## 8. Set up auto-launch for AdGuard VPN CLI
+## 8. Set up automatic launch for AdGuard VPN CLI
 
 The following script is designed to automatically establish a VPN connection using AdGuard VPN on your Keenetic router when the WAN interface becomes available (e.g., after a reboot or reconnecting to the Internet).
 
