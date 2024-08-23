@@ -3,9 +3,9 @@ title: How to set up AdGuard VPN for Linux on a Keenetic router
 sidebar_position: 3
 ---
 
-:::info
+:::info System requirements
 
-System requirements: AdGuard VPN for Linux, also known as AdGuard VPN CLI, requires at least 22 MB of free storage space on your router’s built-in memory or external USB after other necessary packages are installed.
+AdGuard VPN for Linux, also known as AdGuard VPN CLI, requires at least 22 MB of free storage space on your router’s built-in memory or external USB after other necessary packages are installed.
 
 :::
 
