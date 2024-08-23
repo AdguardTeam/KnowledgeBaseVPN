@@ -5,7 +5,7 @@ sidebar_position: 2
 
 :::info System requirements
 
-AdGuard VPN for Linux, also known as AdGuard VPN CLI, requires at least 22 MB of free storage space on your router’s disk or external USB after installing necessary packages.
+AdGuard VPN for Linux, also known as AdGuard VPN CLI, requires at least 22 MB of free storage space on your router’s built-in memory or external USB after installing necessary packages.
 
 :::
 
@@ -117,7 +117,7 @@ curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/sc
 
     To use AdGuard VPN for Linux, you need an AdGuard account.
 
-    You can sign up on our [website](https://auth.adguard.info/login.html) or in the Terminal.
+    You can sign up on our [website](https://auth.adguard.com/login.html) or in the Terminal.
 
     To log in or create an account, type:
 

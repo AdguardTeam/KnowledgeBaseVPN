@@ -1,10 +1,10 @@
 {
   "index_name": "vpn-kb",
   "start_urls": [
-    "https://adguard-vpn.info/kb/"
+    "https://adguard-vpn.com/kb/"
   ],
   "sitemap_urls": [
-    "https://adguard-vpn.info/kb/sitemap.xml"
+    "https://adguard-vpn.com/kb/sitemap.xml"
   ],
   "sitemap_alternate_links": true,
   "selectors": {

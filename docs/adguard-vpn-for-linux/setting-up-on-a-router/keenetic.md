@@ -3,15 +3,15 @@ title: How to set up AdGuard VPN for Linux on a Keenetic router
 sidebar_position: 3
 ---
 
-:::info
+:::info System requirements
 
-System requirements: AdGuard VPN for Linux, also known as AdGuard VPN CLI, requires at least 22 MB of free storage space on your router’s built-in memory or external USB after other necessary packages are installed.
+AdGuard VPN for Linux, also known as AdGuard VPN CLI, requires at least 22 MB of free storage space on your router’s built-in memory or external USB after other necessary packages are installed.
 
 :::
 
 ## 1. Make sure that SSH is enabled on your router
 
-You will use the SSH client to send commands to your router from your computer.
+The SSH client is used to send commands to your router from your computer.
 
 To run the SSH server, the *SSH server* system component must be installed in the Keenetic. You can do this on the *General system settings* page in the *Component options* section by clicking the *Component options* button. Search for SSH server and install it. This will update your Keenetic OS.
 
@@ -105,7 +105,7 @@ If your router doesn’t support installing packages on it’s internal disk, fo
 
 It is possible to install OPKG packages on the Keenetic models with USB ports that support USB flash drives. These are: KN-1410, KN-1710/1711, KN-1010/1011, KN-2510, KN-2410, KN-1810, KN-1910, KN-2310, KN-2010, KN-2110, KN-2610, KN-2710.
 
-For detailed instructions visit Keenetic official Wiki: https://help.keenetic.com/hc/en-us/articles/360021214160-Installing-the-Entware-repository-package-system-on-a-USB-drive
+For detailed instructions visit the official Keenetic Wiki: https://help.keenetic.com/hc/en-us/articles/360021214160-Installing-the-Entware-repository-package-system-on-a-USB-drive
 
 ## 5. Install AdGuard VPN CLI
 
@@ -115,7 +115,7 @@ In your SSH client, execute the following code to install the packages required 
 opkg install curl sudo ca-certificates
 ```
 
-Go to `cd/opt` folder and run the AdGuardVPN CLI installation script:
+Go to `cd/opt` folder and run the AdGuard VPN CLI installation script:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/release/install.sh | sh -s -- -v
