@@ -182,9 +182,9 @@ uci commit network
 /etc/init.d/network reload
 ```
 
-1. Add tun0 to WAN-zone
+1. Add tun0 to WAN zone
 
-For traffic to go through VPN, add tun0 to WAN-zone.
+For traffic to go through VPN, add tun0 to WAN zone.
 The WAN interface which connects to the Internet will typically be in a zone named `wan` or something similar. Check your router's configuration files or firewall settings to find out which zone is associated with the WAN interface.
 
 To do so, list the existing firewall zones:
