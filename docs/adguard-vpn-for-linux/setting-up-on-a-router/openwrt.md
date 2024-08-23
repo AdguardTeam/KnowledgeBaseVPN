@@ -27,7 +27,7 @@ By default, OpenWrt allows SSH access to the router.
 
 The default IP address for most routers is `192.168.1.1` or `192.168.0.1`. If you’ve changed the IP address or if you’re unsure, you can find it by checking the IP configuration on a connected device.
 
-On Windows:
+### On Windows
 
 1. Open command prompt:
 
@@ -37,7 +37,7 @@ ipconfig
 
 1. Look for the *Default Gateway* under your active network connection. This is your router’s IP address.
 
-On Mac/Linux:
+### On macOS and Linux
 
 1. Open Terminal:
 
@@ -87,7 +87,7 @@ Using PuTTY (Windows):
 
 1. Click *Open*.
 
-1. When the Terminal window opens, log in with the username `root` and the router’s password.
+1. When the Terminal window opens, log in. The default username is `root` and the default password is `keenetic`.
 
 ## 4. Basic SSH commands
 
@@ -117,9 +117,9 @@ curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/sc
 
     To use AdGuard VPN for Linux, you need an AdGuard account.
 
-    You can sign up on our [website](https://auth.adguard.com/login.html) or in the Terminal.
+    You can sign up or log in on our [website](https://auth.adguard.com/login.html) or in the Terminal.
 
-    To log in or create an account, type:
+    To sign up or log in, type:
 
     ```jsx
     adguardvpn-cli login
@@ -171,7 +171,7 @@ curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/sc
 
 You can do it in the web interface or in the command line. Steps below describe setup via SSH command line.
 
-1. Add a new unmanaged-interface via SSH
+1. Add a new unmanaged interface via SSH
 
 ```shell
 ssh admin@router_ip
@@ -182,9 +182,9 @@ uci commit network
 /etc/init.d/network reload
 ```
 
-1. Add tun0 to WAN-zone
+1. Add tun0 to WAN zone
 
-For traffic to go through VPN, add tun0 to WAN-zone.
+For traffic to go through VPN, add tun0 to WAN zone.
 The WAN interface which connects to the Internet will typically be in a zone named `wan` or something similar. Check your router's configuration files or firewall settings to find out which zone is associated with the WAN interface.
 
 To do so, list the existing firewall zones:

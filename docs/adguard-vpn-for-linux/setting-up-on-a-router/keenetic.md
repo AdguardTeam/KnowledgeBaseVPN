@@ -69,7 +69,7 @@ Replace `192.168.1.1` with your router’s IP address.
 
 Type `yes` and press Enter.
 
-1. Enter the router’s password when prompted. The default root username is `root` and the default password is `keenetic`.
+1. Enter the router’s password when prompted. The default username is `root` and the default password is `keenetic`.
 
 ### Using PuTTY (Windows 8 and earlier)
 
@@ -83,7 +83,7 @@ Type `yes` and press Enter.
 
 1. Click *Open*.
 
-1. When the terminal window opens, log in with the `root` username and the root user’s password. The default root username is `root` and the default password is `keenetic`.
+1. When the Terminal window opens, log in. The default username is `root` and the default password is `keenetic`.
 
 Once logged in, you can use various commands to interact with your router’s Linux-based operating system.
 
@@ -93,19 +93,19 @@ In Keenetic models equipped with a USB port (except Keenetic 4G), you can use th
 
 Starting with version 3.7, for some Keenetic models, it is possible to write OPKG Entware to the [UBIFS](https://en.wikipedia.org/wiki/UBIFS) partition of the router's NAND flash memory, i.e. to the built-in memory of the router. Follow the steps below to install OPKG Entware to a USB drive or to the router’s internal memory.
 
-### How to install Entware **repository package system** on router’s internal disk
+### How to install Entware **repository package system** on router’s internal hard drive
 
 This method will work with the following list of models: KN-1010/1011, KN-1810/1811, KN-1910, KN-2010, KN-2110, KN-2310, KN-2410, KN-2510, KN-2610, KN-2710, KN-3810, KN-3610 with the KeeneticOS version 3.7 and later.
 
 For detailed instructions, visit [the official Keenetic Wiki](https://help.keenetic.com/hc/en-us/articles/360021888880-Installing-OPKG-Entware-in-the-router-s-internal-memory).
 
-If your router doesn’t support installing packages on it’s internal disk, follow instructions to install packages on USB drive.
+If your router doesn’t support installing packages on its internal hard drive, follow the instructions for installing packages on a USB drive.
 
 ### **Installing the Entware repository package system on a USB drive**
 
 It is possible to install OPKG packages on the Keenetic models with USB ports that support USB flash drives. These are: KN-1410, KN-1710/1711, KN-1010/1011, KN-2510, KN-2410, KN-1810, KN-1910, KN-2310, KN-2010, KN-2110, KN-2610, KN-2710.
 
-For detailed instructions visit the official Keenetic Wiki: https://help.keenetic.com/hc/en-us/articles/360021214160-Installing-the-Entware-repository-package-system-on-a-USB-drive
+For detailed instructions, visit [the official Keenetic Wiki](https://help.keenetic.com/hc/en-us/articles/360021214160-Installing-the-Entware-repository-package-system-on-a-USB-drive).
 
 ## 5. Install AdGuard VPN CLI
 
@@ -214,7 +214,7 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
 
 AdGuard VPN CLI will create a tun0 interface for VPN tunneling
 
-## 7. Set up your firewall rules
+## 7. Set up firewall rules
 
 This step is designed to configure firewall rules on a Keenetic router to route traffic through AdGuard VPN.
 
@@ -253,7 +253,7 @@ This will create a new shell script named `001-adguardvpn.sh` in the `/opt/et
 
 The script creates a custom firewall rule to ensure that traffic from your LAN (`br0`) is routed through the AdGuard VPN interface (`tun0`). It first cleans up any previous rules related to this configuration, then sets up new rules to direct the traffic appropriately.
 
-## 8. Set up auto-launch for AdGuard VPN CLI
+## 8. Set up automatic launch for AdGuard VPN CLI
 
 The following script is designed to automatically establish a VPN connection using AdGuard VPN on your Keenetic router when the WAN interface becomes available (e.g., after a reboot or reconnecting to the Internet).
 
