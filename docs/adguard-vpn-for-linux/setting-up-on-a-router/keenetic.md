@@ -214,7 +214,7 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
 
 AdGuard VPN CLI will create a tun0 interface for VPN tunneling
 
-## 7. Set up your firewall rules
+## 7. Set up firewall rules
 
 This step is designed to configure firewall rules on a Keenetic router to route traffic through AdGuard VPN.
 
