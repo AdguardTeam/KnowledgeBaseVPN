@@ -105,7 +105,7 @@ If your router doesn’t support installing packages on its internal hard drive,
 
 It is possible to install OPKG packages on the Keenetic models with USB ports that support USB flash drives. These are: KN-1410, KN-1710/1711, KN-1010/1011, KN-2510, KN-2410, KN-1810, KN-1910, KN-2310, KN-2010, KN-2110, KN-2610, KN-2710.
 
-For detailed instructions visit the official Keenetic Wiki: https://help.keenetic.com/hc/en-us/articles/360021214160-Installing-the-Entware-repository-package-system-on-a-USB-drive
+For detailed instructions, visit [the official Keenetic Wiki](https://help.keenetic.com/hc/en-us/articles/360021214160-Installing-the-Entware-repository-package-system-on-a-USB-drive).
 
 ## 5. Install AdGuard VPN CLI
 
