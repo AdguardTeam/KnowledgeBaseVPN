@@ -47,7 +47,7 @@ ip route | grep default
 
 You’ll need an SSH client. Most Linux and macOS systems come with an SSH client pre-installed. For Windows, you can use PowerShell, the built-in SSH client in Windows 10/11, or a third-party application like PuTTY.
 
-### Using built-in SSH client (Linux, macOS, and Windows 10/11)
+### Built-in SSH client (Linux, macOS, and Windows 10/11)
 
 1. Open Terminal or PowerShell.
 
@@ -71,7 +71,7 @@ Type `yes` and press Enter.
 
 1. Enter the router’s password when prompted. The default username is `root` and the default password is `keenetic`.
 
-### Using PuTTY (Windows 8 and earlier)
+### PuTTY (Windows 8 and earlier)
 
 1. Download and install PuTTY from [the official website](https://www.putty.org/).
 
