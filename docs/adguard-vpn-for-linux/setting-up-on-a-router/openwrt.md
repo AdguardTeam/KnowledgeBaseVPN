@@ -171,7 +171,7 @@ curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/sc
 
 You can do it in the web interface or in the command line. Steps below describe setup via SSH command line.
 
-1. Add a new unmanaged-interface via SSH
+1. Add a new unmanaged interface via SSH
 
 ```shell
 ssh admin@router_ip
