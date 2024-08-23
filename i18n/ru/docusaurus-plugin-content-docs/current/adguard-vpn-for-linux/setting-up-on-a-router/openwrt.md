@@ -27,7 +27,7 @@ sidebar_position: 2
 
 IP-адрес по умолчанию для большинства роутеров — `192.168.1.1` или `192.168.0.1`. Если вы изменили IP-адрес или не уверены, какой он, его можно найти, проверив конфигурацию IP-адреса на подключённом устройстве.
 
-### On Windows
+### На Windows
 
 1. Откройте командную строку:
 
@@ -37,7 +37,7 @@ ipconfig
 
 1. Найдите _Шлюз по умолчанию_ в активном сетевом подключении. Это IP-адрес вашего роутера.
 
-### On macOS and Linux
+### На macOS и Linux
 
 1. Откройте Терминал:
 
@@ -87,7 +87,7 @@ ssh root@192.168.1.1
 
 5. Нажмите _Открыть_.
 
-6. When the Terminal window opens, log in. The default username is `root` and the default password is `keenetic`.
+6. Когда откроется окно Терминала, авторизуйтесь. Имя пользователя по умолчанию — `root`, пароль — `keenetic`.
 
 ## 4) Базовые команды SSH
 
@@ -117,9 +117,9 @@ curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/sc
 
    Чтобы использовать AdGuard VPN для Linux, вам понадобится аккаунт AdGuard.
 
-   You can sign up or log in on our [website](https://auth.adguard.com/login.html) or in the Terminal.
+   Вы можете зарегистрироваться или войти [на нашем сайте](https://auth.adguard.com/login.html) или в Терминале.
 
-   To sign up or log in, type:
+   Чтобы зарегистрироваться или войти, введите:
 
    ```jsx
    adguardvpn-cli login
@@ -171,7 +171,7 @@ curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/sc
 
 Это можно сделать через веб-интерфейс или в командной строке. Ниже описана настройка через командную строку SSH.
 
-1. Add a new unmanaged interface via SSH
+1. Добавить новый неуправляемый интерфейс через SSH
 
 ```shell
 ssh admin@router_ip
@@ -182,9 +182,9 @@ uci commit network
 /etc/init.d/network reload
 ```
 
-1. Add tun0 to WAN zone
+1. Добавьте tun0 в WAN-зону
 
-For traffic to go through VPN, add tun0 to WAN zone.
+Чтобы трафик проходил через VPN, добавьте tun0 в WAN-зону.
 Интерфейс WAN, который подключается к интернету, обычно находится в зоне с именем `wan` или чем-то подобным. Проверьте файлы конфигурации роутера или настройки фаервола, чтобы узнать, какая зона связана с интерфейсом WAN.
 
 Для этого перечислите существующие зоны фаервола:
