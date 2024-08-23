@@ -27,7 +27,7 @@ By default, OpenWrt allows SSH access to the router.
 
 The default IP address for most routers is `192.168.1.1` or `192.168.0.1`. If you’ve changed the IP address or if you’re unsure, you can find it by checking the IP configuration on a connected device.
 
-On Windows:
+### On Windows
 
 1. Open command prompt:
 
@@ -37,7 +37,7 @@ ipconfig
 
 1. Look for the *Default Gateway* under your active network connection. This is your router’s IP address.
 
-On Mac/Linux:
+### On macOS and Linux
 
 1. Open Terminal:
 
