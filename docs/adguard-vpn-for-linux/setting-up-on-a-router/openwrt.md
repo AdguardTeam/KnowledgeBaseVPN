@@ -87,7 +87,7 @@ Using PuTTY (Windows):
 
 1. Click *Open*.
 
-1. When the Terminal window opens, log in with the username `root` and the router’s password.
+1. When the Terminal window opens, log in. The default username is `root` and the default password is `keenetic`.
 
 ## 4. Basic SSH commands
 

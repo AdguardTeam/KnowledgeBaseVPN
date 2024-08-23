@@ -83,7 +83,7 @@ Type `yes` and press Enter.
 
 1. Click *Open*.
 
-1. When the terminal window opens, log in with the `root` username and the root user’s password. The default root username is `root` and the default password is `keenetic`.
+1. When the Terminal window opens, log in. The default username is `root` and the default password is `keenetic`.
 
 Once logged in, you can use various commands to interact with your router’s Linux-based operating system.
 
