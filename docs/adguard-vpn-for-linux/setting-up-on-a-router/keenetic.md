@@ -11,7 +11,7 @@ AdGuard VPN for Linux, also known as AdGuard VPN CLI, requires at least 22 MB of
 
 ## 1. Make sure that SSH is enabled on your router
 
-You will use the SSH client to send commands to your router from your computer.
+The SSH client is used to send commands to your router from your computer.
 
 To run the SSH server, the *SSH server* system component must be installed in the Keenetic. You can do this on the *General system settings* page in the *Component options* section by clicking the *Component options* button. Search for SSH server and install it. This will update your Keenetic OS.
 
