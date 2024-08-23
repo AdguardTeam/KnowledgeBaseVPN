@@ -35,7 +35,7 @@ ipconfig
 
 ### On macOS and Linux
 
-1. Open Terminal and run this:
+1. Open Terminal and run this on Linux:
 
     ```bash
     ip route | grep default
