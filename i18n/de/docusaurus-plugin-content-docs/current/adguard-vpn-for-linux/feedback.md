@@ -7,11 +7,11 @@ sidebar_position: 6
 
 Wenn Sie einen Fehler in AdGuard VPN für Linux gefunden haben oder eine neue Funktion vorschlagen möchten, können Sie dies hier tun:
 
-- Füllen Sie das [Feedback-Formular](https://surveys.adguard.com/en/vpn_linux/form.html) aus.
-- [Eine GitHub-Anfrage erstellen](https://github.com/AdguardTeam/AdGuardVPNCLI/issues/new/choose). Aber bevor Sie das tun, überprüfen Sie das [Repository](https://github.com/AdguardTeam/AdGuardVPNCLI/issues?q=is%3Aissue) auf ähnliche Probleme.
+- Füllen Sie das [Feedback-Formular](https://surveys.adguard.com/de/vpn_linux/form.html) aus.
+- [Erstellen Sie ein GitHub-Issue](https://github.com/AdguardTeam/AdGuardVPNCLI/issues/new/choose). Aber bevor Sie das tun, überprüfen Sie das [Repository](https://github.com/AdguardTeam/AdGuardVPNCLI/issues?q=is%3Aissue) auf ähnliche Probleme.
 
 :::note
-Wenn Sie die Implementierung einer neuen Funktion oder Fehlerbehebung unterstützen möchten, können Sie auf GitHub dafür abstimmen. Um abzustimmen, reagiere einfach mit einem Emoji.
+Wenn Sie die Implementierung einer neuen Funktion oder Fehlerbehebung unterstützen möchten, können Sie auf GitHub dafür abstimmen. Um abzustimmen, reagieren Sie einfach mit einem Emoji.
 :::
 
 ## Sammeln und Versenden von Protokollen

@@ -54,9 +54,9 @@ adguardvpn-cli config set-socks-password <password>
 adguardvpn-cli config clear-socks-auth
 ```
 
-## DNS upstream-адрес
+## DNS-адрес
 
-Для установки DNS upstream введите:
+Для установки DNS-сервера введите:
 
 ```
 adguardvpn-cli config set-dns <server_address>
@@ -88,7 +88,7 @@ adguardvpn-cli config set-tun-routing-mode AUTO
 adguardvpn-cli config set-tun-routing-mode SCRIPT
 ```
 
-To create a routes script with proper permissions, type:
+Чтобы создать скрипт для маршрутизации с соответствующими разрешениями, введите:
 
 ```
 adguardvpn-cli config create-routes-script
