@@ -35,19 +35,25 @@ ipconfig
 
 ### На macOS и Linux
 
-1. Откройте Терминал:
+1. Откройте Терминал и выполните эту команду на Linux:
 
-```bash
-ip route | grep default
-```
+   ```bash
+   ip route | grep default
+   ```
 
-1. Найдите запись _default_. Рядом с ней находится IP-адрес вашего роутера.
+   Или эту на Mac:
+
+   ```text
+   route -n get default
+   ```
+
+2. Найдите запись _default_. Рядом с ней находится IP-адрес вашего роутера.
 
 ## 3) Используйте SSH-клиент для подключения к роутеру
 
 Вам понадобится SSH-клиент. Большинство систем на Linux и macOS поставляются с предустановленным SSH-клиентом. Для Windows вы можете использовать PowerShell, встроенный SSH-клиент в Windows 10/11 или стороннее приложение, например PuTTY.
 
-### Использование встроенного SSH-клиента (для Linux, macOS и Windows 10/11)
+### Встроенный SSH-клиент (для Linux, macOS и Windows 10/11)
 
 1. Откройте Терминал или PowerShell.
 
@@ -71,7 +77,7 @@ ssh admin@192.168.1.1
 
 1. Введите пароль от роутера, когда появится соответствующий запрос. Имя пользователя по умолчанию — `root`, пароль — `keenetic`.
 
-### Использование PuTTY (Windows 8 и более ранние версии)
+### PuTTY (Windows 8 и более ранние версии)
 
 1. Скачайте и установите PuTTY [с официального сайта](https://www.putty.org/).
 
@@ -91,21 +97,21 @@ ssh admin@192.168.1.1
 
 В моделях Keenetic с USB-портом (кроме Keenetic 4G) можно использовать менеджер пакетов OPKG. Он позволяет устанавливать пакеты ПО сторонних производителей для расширения возможностей роутеров.
 
-Начиная с версии 3.7, для некоторых моделей Keenetic появилась возможность записывать OPKG Entware в раздел [UBIFS](https://ru.wikipedia.org/wiki/UBIFS) NAND флеш-памяти роутера, то есть во встроенную память роутера. Чтобы установить OPKG Entware на USB-накопитель или во внутреннюю память роутера, выполните следующие действия.
+Начиная с версии 3.7, для некоторых моделей Keenetic появилась возможность записывать OPKG Entware в раздел [UBIFS](https://ru.wikipedia.org/wiki/UBIFS) NAND флеш-памяти роутера, то есть во встроенную память роутера. Чтобы установить систему пакетов репозитория Entware на USB-накопитель или во внутреннюю память роутера, выполните следующие действия.
 
-### Как установить **систему пакетов репозитория** Entware на внутренний жёсткий диск роутера
+### Как установить OPKG Entware на USB-накопитель
+
+На модели Keenetic с портами USB, поддерживающие USB Flash-накопители, можно установить пакеты OPKG. К ним относятся: KN-1410, KN-1710/1711, KN-1010/1011, KN-2510, KN-2410, KN-1810, KN-1910, KN-2310, KN-2010, KN-2110, KN-2610, KN-2710.
+
+Подробные инструкции смотрите [на официальной странице Keenetic](https://help.keenetic.com/hc/ru/articles/360021214160-Установка-системы-пакетов-репозитория-Entware-на-USB-накопитель).
+
+### Как установить OPKG Entware во внутреннюю память роутера
 
 Этот метод подходит для следующего списка моделей: KN-1010/1011, KN-1810/1811, KN-1910, KN-2010, KN-2110, KN-2310, KN-2410, KN-2510, KN-2610, KN-2710, KN-3810, KN-3610 с версией KeeneticOS 3.7 и выше.
 
 Подробные инструкции смотрите [на официальной странице Keenetic](https://help.keenetic.com/hc/ru/articles/360021888880-Установка-OPKG-Entware-на-встроенную-память-роутера).
 
-Если ваш роутер не поддерживает установку пакетов на внутренний жёсткий диск, следуйте инструкции по установке пакетов на USB-накопитель.
-
-### **Установка системы пакетов репозитория Entware на USB-накопитель**
-
-На модели Keenetic с портами USB, поддерживающие USB Flash-накопители, можно установить пакеты OPKG. К ним относятся: KN-1410, KN-1710/1711, KN-1010/1011, KN-2510, KN-2410, KN-1810, KN-1910, KN-2310, KN-2010, KN-2110, KN-2610, KN-2710.
-
-Подробные инструкции смотрите [на официальной странице Keenetic](https://help.keenetic.com/hc/ru/articles/360021214160-Установка-системы-пакетов-репозитория-Entware-на-USB-накопитель).
+Если ваш роутер не поддерживает установку пакетов на внутреннюю память, следуйте инструкции по установке пакетов на USB-накопитель.
 
 ## 5. Установите AdGuard VPN
 
@@ -135,14 +141,11 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
 
    Перед этим зайдите в Терминал и убедитесь, что вы находитесь в нужном интерфейсе оболочки. Если вы видите следующий текст:
 
-   \*KeeneticOS version 4.01.C.7.0-1, copyright (c) 2010-2024 Keenetic Ltd.
+   ```text
+   KeeneticOS version 4.01.C.7.0-1, copyright (c) 2010-2024 Keenetic Ltd.
 
-   THIS SOFTWARE IS A SUBJECT OF KEENETIC LIMITED END-USER LICENCE AGREEMENT. BY USING IT YOU AGREE ON TERMS AND CONDITIONS
-   HEREOF. FOR MORE INFORMATION PLEASE CHECK\*
-
-   [_https://keenetic.com/legal_](https://keenetic.com/legal)
-
-   _(config)>_
+   THIS SOFTWARE IS A SUBJECT OF KEENETIC LIMITED END-USER LICENCE AGREEMENT. BY USING IT YOU AGREE ON TERMS AND CONDITIONS HEREOF. FOR MORE INFORMATION PLEASE CHECK https://keenetic.com/legal
+   ```
 
    Выполните эту команду, чтобы выйти в оболочку, необходимую для следующих шагов:
 
@@ -220,34 +223,34 @@ AdGuard VPN CLI создаст интерфейс tun0 для VPN-туннели
 
 1. **Установите `iptables`, выполнив эту команду через SSH:**
 
-```bash
-opkg install iptables
-```
+   ```bash
+   opkg install iptables
+   ```
 
-Эта строка устанавливает пакет `iptables` — инструмент для управления правилами фильтрации сетевых пакетов в системах Linux.
+   Эта строка устанавливает пакет `iptables` — инструмент для управления правилами фильтрации сетевых пакетов в системах Linux.
 
-1. **Создайте новый скрипт оболочки, выполнив следующую команду:**
+2. **Создайте новый скрипт оболочки, выполнив следующую команду:**
 
-```bash
+   ```bash
 
-cat << EOF > /opt/etc/ndm/netfilter.d/001-adguardvpn.sh
-#!/opt/bin/sh
-for ipt in iptables ip6tables; do
-\$ipt -D FORWARD -j ADGUARD_FORWARD || true
-\$ipt -F ADGUARD_FORWARD || true
-\$ipt -X ADGUARD_FORWARD || true
-\$ipt -N ADGUARD_FORWARD
-\$ipt -I FORWARD -j ADGUARD_FORWARD
-\$ipt -A ADGUARD_FORWARD -i br0 -o tun0 -j ACCEPT
-done
-EOF
-```
+   cat << EOF > /opt/etc/ndm/netfilter.d/001-adguardvpn.sh
+   #!/opt/bin/sh
+   for ipt in iptables ip6tables; do
+   \$ipt -D FORWARD -j ADGUARD_FORWARD || true
+   \$ipt -F ADGUARD_FORWARD || true
+   \$ipt -X ADGUARD_FORWARD || true
+   \$ipt -N ADGUARD_FORWARD
+   \$ipt -I FORWARD -j ADGUARD_FORWARD
+   \$ipt -A ADGUARD_FORWARD -i br0 -o tun0 -j ACCEPT
+   done
+   EOF
+   ```
 
-И сделайте его исполняемым:
+   И сделайте его исполняемым:
 
-```bash
-chmod +x /opt/etc/ndm/netfilter.d/001-adguardvpn.sh
-```
+   ```bash
+   chmod +x /opt/etc/ndm/netfilter.d/001-adguardvpn.sh
+   ```
 
 Это создаст новый скрипт оболочки с именем `001-adguardvpn.sh` в каталоге `/opt/etc/ndm/netfilter.d/`, где на роутере Keenetic обычно хранятся скрипты, связанные с сетью.
 
