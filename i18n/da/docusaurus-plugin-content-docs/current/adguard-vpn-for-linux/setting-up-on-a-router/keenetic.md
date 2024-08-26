@@ -1,59 +1,59 @@
 ---
-title: How to set up AdGuard VPN for Linux on a Keenetic router
+title: Sådan opsættes AdGuard VPN til Linux på en Keenetic-router
 sidebar_position: 3
 ---
 
-:::info System requirements
+:::info Systemkrav
 
-AdGuard VPN for Linux, also known as AdGuard VPN CLI, requires at least 22 MB of free storage space on your router’s built-in memory or external USB after other necessary packages are installed.
+AdGuard VPN til Linux, også kaldet AdGuard VPN CLI, kræver mindst 22 MB ledig lagerplads på routerens indbyggede hukommelse eller eksterne USB, efter at andre nødvendige pakker er installeret.
 
 :::
 
-## 1. Make sure that SSH is enabled on your router
+## 1. Sørg for, at routeren har SSH aktiveret
 
-The SSH client is used to send commands to your router from your computer.
+SSH-klienten bruges til at sende kommandoer til routeren fra en computer.
 
-To run the SSH server, the _SSH server_ system component must be installed in the Keenetic. You can do this on the _General system settings_ page in the _Component options_ section by clicking the _Component options_ button. Search for SSH server and install it. This will update your Keenetic OS.
+For at køre SSH-serveren skal _SSH-server_-systemkomponenten være installeret i Keenetic. Dette kan gøres fra siden _Generelle systemindstillinger_ i afsnittet _Komponentindstillinger_ ved at klikke på knappen _Komponentindstillinger_. Søg efter SSH-server og installér den. Dette vil opdatere Keenetic-OS'et.
 
-Once the component is installed, the SSH server will be turned on automatically.
+Når komponenten er installeret, vil SSH-serveren automatisk blive slået til.
 
-To see how to set up SSH server to have optimal security settings, visit [the Keenetic Wiki](https://help.keenetic.com/hc/en-us/articles/360000387189-SSH-remote-access-to-the-Keenetic-command-line).
+Besøg [Keenetic Wiki'en](https://help.keenetic.com/hc/en-us/articles/360000387189-SSH-remote-access-to-the-Keenetic-command-line) for at se, hvordan SSH-serveren opsættes for optimale sikkerhedsindstillinger.
 
-## 2. Determine your router’s IP address
+## 2. Fastslå routerens IP-adresse
 
-The default IP address for most routers is `192.168.1.1` or `192.168.0.1`. If you’ve changed the IP address or if you’re unsure, you can find it by checking the IP configuration on a connected device.
+Typiske standard IP-adresser på mange routere er `192.168.1.1` eller `192.168.0.1`. Har man ændret IP-adressen, eller er man usikker på den, kan adressen findes ved at tjekke IP-opsætningen på en tilsluttet enhed.
 
-### On Windows
+### Windows
 
-1. Open Command Prompt:
+1. Åbn en Kommandoprompt:
 
 ```bash
 ipconfig
 ```
 
-1. Look for the _Default Gateway_ under your active network connection. This is your router’s IP address.
+1. Kig efter _Standard Gateway_ under den aktive netværksforbindelse. Dette vil være routerens IP-adresse.
 
-### On macOS and Linux
+### macOS og Linux
 
-1. Open Terminal and run this on Linux:
+1. Åbn Terminal på Linux, og eksekvér denne kommando:
 
    ```bash
    ip route | grep default
    ```
 
-   Or this on Mac:
+   Eller på Mac, denne:
 
    ```text
    route -n get default
    ```
 
-2. Look for the _default_ entry. The IP address next to it is your router’s IP address.
+2. Kig efter _standard_-posten. IP-adressen ved siden af den er router IP-adressen.
 
-## 3) Use an SSH client to connect to the router
+## 3) Brug en SSH-klient til at oprette forbindelse til routeren
 
-You’ll need an SSH client. Most Linux and macOS systems come with an SSH client pre-installed. For Windows, you can use PowerShell, the built-in SSH client in Windows 10/11, or a third-party application like PuTTY.
+Der skal bruges en SSH-klient. De fleste Linux- og macOS-systemer leveres med en præinstalleret SSH-klient. Til Windows kan man bruge PowerShell, den indbyggede SSH-klient i Windows 10/11 eller en tredjepartsapplikation såsom PuTTY.
 
-### Built-in SSH client (Linux, macOS, and Windows 10/11)
+### Indbygget SSH-klient (Linux, macOS og Windows 10/11)
 
 1. Open Terminal or PowerShell.
 

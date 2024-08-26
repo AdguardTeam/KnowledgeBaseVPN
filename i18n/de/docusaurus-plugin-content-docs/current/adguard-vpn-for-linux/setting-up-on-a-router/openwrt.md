@@ -72,9 +72,9 @@ Auf den meisten Linux- und macOS-Systemen ist ein SSH-Client vorinstalliert. Unt
 3. Wenn Sie sich zum ersten Mal über SSH mit dem Router verbinden, werden Sie eine Meldung sehen wie diese:
 
    ```text
-   Die Authentizität des Hosts '192.168.1.1 (192.168.1.1)' konnte nicht festgestellt werden.
-   Der Fingerabdruck des ECDSA-Schlüssels lautet SHA256: ...
-   Möchten Sie die Verbindung wirklich fortsetzen? (Ja/Nein/[Fingerabdruck])
+   The authenticity of host '192.168.1.1 (192.168.1.1)' can't be established.
+   ECDSA key fingerprint is SHA256: ...
+   Are you sure you want to continue connecting? (Yes/No/[Fingerprint])
    ```
 
    Geben Sie `Ja` ein und drücken Sie die Eingabetaste.

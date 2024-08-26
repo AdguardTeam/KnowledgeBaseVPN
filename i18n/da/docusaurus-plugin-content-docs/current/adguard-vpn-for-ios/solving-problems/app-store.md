@@ -35,7 +35,7 @@ I visse lande er AdGuard VPN ikke tilgængelig i App Store. Er det tilfældet fo
 
    ![Ny region \*border](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/new_country.png)
 
-After changing the region, try [downloading AdGuard VPN from the App Store again](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602).
+Efter skift af region, prøv at [downloade AdGuard VPN fra App Store igen](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602).
 
 ### Oprettelse af en ny Apple-konto og tilknytning af den til App Store
 
@@ -43,7 +43,7 @@ For brugere med betalte abonnementer i App Store, som kun skal downloade gratis 
 
 **Trin til at oprette en ny konto i et andet land:**
 
-1. Visit [https://appleid.apple.com/account](https://appleid.apple.com/account).
+1. Besøg [https://appleid.apple.com/account](https://appleid.apple.com/account).
 
 2. Angiv et hvilket som helst for- og efternavn, og vælg et land, f.eks. _USA_.
 
@@ -57,7 +57,7 @@ Nu **link den nye konto til App Store**:
 
 1. Gå til _Indstillinger_ og tryk på dit navn.
 
-2. Vælg _Medier og køb_ → _Log ud_. This will only sign you out of the App Store while keeping you signed in with your Apple ID on your phone.
+2. Vælg _Medier og køb_ → _Log ud_. Det betyder, at man kun logges ud af App Store, men forbliver logget ind på mobilen med sit Apple ID.
 
 3. Tryk på _Medier og køb_ igen, og vælg _Ikke [dit navn]?_ Man bliver bedt om at logge på med et andet Apple ID.
 
@@ -67,6 +67,6 @@ Nu **link den nye konto til App Store**:
 
    ![Login \*mobile\_border](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/apple_id.png)
 
-Det var det! Now try to [download AdGuard VPN from the App Store](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602) again.
+Det var det! Prøv nu at [downloade AdGuard VPN fra App Store](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602) igen.
 
 Man kan altid skifte tilbage til sin standardkonto på denne måde.

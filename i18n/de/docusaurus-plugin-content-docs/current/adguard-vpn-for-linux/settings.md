@@ -68,7 +68,7 @@ Ersetzen Sie `<server_address>` durch die Adresse Ihres DNS-Servers. Um diesen D
 adguardvpn-cli config set-system-dns on
 ```
 
-## VPN-Tunnel-Routing-Modus: NONE, AUTO, oder SCRIPT
+## VPN-Tunnel-Routing-Modus: NONE, AUTO oder SCRIPT
 
 Sie können wählen, wie AdGuard VPN den Datenverkehr durch den VPN-Tunnel leitet. Um den Tunnel-Routing-Modus auf NONE (kein Routing) zu setzen, geben Sie ein:
 

@@ -3,7 +3,7 @@ title: AdGuard VPN für Linux
 sidebar_position: 1
 ---
 
-AdGuard VPN für Linux, auch bekannt als AdGuard VPN CLI, ist ein Kommandozeilen-VPN-Client. Sie können es sowohl auf Linux- oder macOS-Geräten als auch auf MIPS- oder MIPSel-Routern verwenden.
+AdGuard VPN für Linux, auch bekannt als AdGuard VPN CLI, ist ein Befehlszeilen-VPN-Client. Sie können es sowohl auf Linux- oder macOS-Geräten als auch auf MIPS- oder MIPSel-Routern verwenden.
 
 Im Folgenden finden Sie die Befehle, die Sie benötigen, um sich anzumelden, eine Verbindung herzustellen und die Einstellungen von AdGuard VPN zu verwalten.
 
