@@ -31,51 +31,57 @@ IP-адрес по умолчанию для большинства роутер
 
 1. Откройте командную строку:
 
-```text
-ipconfig
-```
+   ```text
+   ipconfig
+   ```
 
-1. Найдите _Шлюз по умолчанию_ в активном сетевом подключении. Это IP-адрес вашего роутера.
+2. Найдите _Шлюз по умолчанию_ в активном сетевом подключении. Это IP-адрес вашего роутера.
 
 ### На macOS и Linux
 
-1. Откройте Терминал:
+1. Откройте Терминал и выполните эту команду на Linux:
 
-```text
-ip route | grep default
-```
+   ```text
+   ip route | grep default
+   ```
 
-1. Найдите запись _default_. Рядом с ней находится IP-адрес вашего роутера.
+   Или эту на Mac:
+
+   ```text
+   route -n get default
+   ```
+
+2. Найдите запись _default_. Рядом с ней находится IP-адрес вашего роутера.
 
 ## 3) Используйте SSH-клиент для подключения к роутеру
 
 Большинство систем на Linux и macOS поставляются с предустановленным SSH-клиентом. Для Windows вы можете использовать PowerShell, встроенный SSH-клиент в Windows 10/11 или стороннее приложение, например PuTTY.
 
-Использование встроенного SSH-клиента (для Linux, macOS и Windows 10/11):
+### Встроенный SSH-клиент (для Linux, macOS и Windows 10/11)
 
 1. Откройте Терминал или PowerShell.
 
 2. Выполните команду SSH:
 
-```text
-ssh root@192.168.1.1
-```
+   ```text
+   ssh root@192.168.1.1
+   ```
 
-Замените `192.168.1.1` на IP-адрес вашего роутера.
+   Замените `192.168.1.1` на IP-адрес вашего роутера.
 
-1. Если вы впервые подключаетесь к роутеру через SSH, вы увидите такое сообщение:
+3. Если вы впервые подключаетесь к роутеру через SSH, вы увидите такое сообщение:
 
-```text
+   ```text
    The authenticity of host '192.168.1.1 (192.168.1.1)' can't be established.
    ECDSA key fingerprint is SHA256: ...
    Are you sure you want to continue connecting? (Yes/No/[Fingerprint])
-```
+   ```
 
-Введите `Yes` и нажмите Enter.
+   Введите `Yes` и нажмите Enter.
 
-1. Введите пароль от роутера, когда появится соответствующий запрос. По умолчанию пароль для OpenWrt обычно пустой (просто нажмите Enter), но вы могли установить пароль во время начальной настройки.
+4. Введите пароль от роутера, когда появится соответствующий запрос. По умолчанию пароль для OpenWrt обычно пустой (просто нажмите Enter), но вы могли установить пароль во время начальной настройки.
 
-Использование PuTTY (Windows):
+### PuTTY (Windows)
 
 1. Скачайте и установите PuTTY [с официального сайта](https://www.putty.org/).
 
@@ -173,56 +179,56 @@ curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/sc
 
 1. Добавить новый неуправляемый интерфейс через SSH
 
-```shell
-ssh admin@router_ip
-uci set network.tun0='interface'
-uci set network.tun0.proto='none'
-uci set network.tun0.device='tun0'
-uci commit network
-/etc/init.d/network reload
-```
+   ```shell
+   ssh admin@router_ip
+   uci set network.tun0='interface'
+   uci set network.tun0.proto='none'
+   uci set network.tun0.device='tun0'
+   uci commit network
+   /etc/init.d/network reload
+   ```
 
-1. Добавьте tun0 в WAN-зону
+2. Добавьте tun0 в WAN-зону
 
-Чтобы трафик проходил через VPN, добавьте tun0 в WAN-зону.
-Интерфейс WAN, который подключается к интернету, обычно находится в зоне с именем `wan` или чем-то подобным. Проверьте файлы конфигурации роутера или настройки фаервола, чтобы узнать, какая зона связана с интерфейсом WAN.
+   Чтобы трафик проходил через VPN, добавьте tun0 в WAN-зону.
+   Интерфейс WAN, который подключается к интернету, обычно находится в зоне с именем `wan` или чем-то подобным. Проверьте файлы конфигурации роутера или настройки фаервола, чтобы узнать, какая зона связана с интерфейсом WAN.
 
-Для этого перечислите существующие зоны фаервола:
+   Для этого перечислите существующие зоны фаервола:
 
-```shell
-uci show firewall
-```
+   ```shell
+   uci show firewall
+   ```
 
-В результате появится файл конфигурации со списком всех зон. Найдите раздел `firewall.@zone[1]` или подобный, где определено `option name 'wan'`. Число `[1]` может отличаться в зависимости от конфигурации.
+   В результате появится файл конфигурации со списком всех зон. Найдите раздел `firewall.@zone[1]` или подобный, где определено `option name 'wan'`. Число `[1]` может отличаться в зависимости от конфигурации.
 
-Выполните эту команду SSH, замените `zone[1]` на правильную зону 'wan', определённую ранее:
+   Выполните эту команду SSH, замените `zone[1]` на правильную зону 'wan', определённую ранее:
 
-```shell
-uci show firewall | grep "=zone"
-uci add_list firewall.@zone[1].network='tun0'
-uci commit firewall
-/etc/init.d/firewall reload
-```
+   ```shell
+   uci show firewall | grep "=zone"
+   uci add_list firewall.@zone[1].network='tun0'
+   uci commit firewall
+   /etc/init.d/firewall reload
+   ```
 
-Если вы хотите отключить весь трафик, не защищённый VPN, выполните следующую команду. Таким образом, у вас не будет интернет-соединения вообще, если VPN отключится. Если вы решите не выполнять этот шаг, ваш реальный IP-адрес будет раскрыт в случае отключения VPN.
+   Если вы хотите отключить весь трафик, не защищённый VPN, выполните следующую команду. Таким образом, у вас не будет интернет-соединения вообще, если VPN отключится. Если вы решите не выполнять этот шаг, ваш реальный IP-адрес будет раскрыт в случае отключения VPN.
 
-```shell
-uci del_list firewall.@zone[1].network='wan'
-uci del_list firewall.@zone[1].network='wan6'
-uci commit firewall
-/etc/init.d/firewall reload
-```
+   ```shell
+   uci del_list firewall.@zone[1].network='wan'
+   uci del_list firewall.@zone[1].network='wan6'
+   uci commit firewall
+   /etc/init.d/firewall reload
+   ```
 
-Если вы передумали и хотите разрешить прямой трафик, выполните следующую команду:
+   Если вы передумали и хотите разрешить прямой трафик, выполните следующую команду:
 
-```shell
-uci add_list firewall.@zone[1].network='wan'
-uci add_list firewall.@zone[1].network='wan6'
-uci commit firewall
-/etc/init.d/firewall reload
-```
+   ```shell
+   uci add_list firewall.@zone[1].network='wan'
+   uci add_list firewall.@zone[1].network='wan6'
+   uci commit firewall
+   /etc/init.d/firewall reload
+   ```
 
-## 7. Настройте автоматический запуск AdGuard VPN CLI
+## 7) Настройте автоматический запуск AdGuard VPN CLI
 
 Чтобы автоматически запускать AdGuard VPN CLI после перезагрузки роутера, создайте файл в `…/etc/init.d/adguardvpn`.
 

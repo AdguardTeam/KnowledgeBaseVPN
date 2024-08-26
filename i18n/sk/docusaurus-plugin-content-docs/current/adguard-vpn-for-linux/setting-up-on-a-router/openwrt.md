@@ -31,51 +31,57 @@ The default IP address for most routers is `192.168.1.1` or `192.168.0.1`. If
 
 1. Open command prompt:
 
-```text
-ipconfig
-```
+   ```text
+   ipconfig
+   ```
 
-1. Look for the _Default Gateway_ under your active network connection. This is your router’s IP address.
+2. Look for the _Default Gateway_ under your active network connection. This is your router’s IP address.
 
 ### On macOS and Linux
 
-1. Open Terminal:
+1. Open Terminal and run this on Linux:
 
-```text
-ip route | grep default
-```
+   ```text
+   ip route | grep default
+   ```
 
-1. Look for the _default_ entry. The IP address next to it is your router’s IP address.
+   Or this on Mac:
+
+   ```text
+   route -n get default
+   ```
+
+2. Look for the _default_ entry. The IP address next to it is your router’s IP address.
 
 ## 3) Use an SSH client to connect to the router
 
 Most Linux and macOS systems come with an SSH client pre-installed. For Windows, you can use PowerShell, the built-in SSH client in Windows 10/11, or a third-party application like PuTTY.
 
-Using built-in SSH client (for Linux, macOS, and Windows 10/11):
+### Built-in SSH client (Linux, macOS, and Windows 10/11)
 
 1. Open Terminal or PowerShell.
 
 2. Run the SSH command:
 
-```text
-ssh root@192.168.1.1
-```
+   ```text
+   ssh root@192.168.1.1
+   ```
 
-Replace `192.168.1.1` with your router’s IP address.
+   Replace `192.168.1.1` with your router’s IP address.
 
-1. If this is your first time connecting to the router via SSH, you’ll see a message like:
+3. If this is your first time connecting to the router via SSH, you’ll see a message like:
 
-```text
+   ```text
    The authenticity of host '192.168.1.1 (192.168.1.1)' can't be established.
    ECDSA key fingerprint is SHA256: ...
    Are you sure you want to continue connecting? (Yes/No/[Fingerprint])
-```
+   ```
 
-Type `Yes` and press Enter.
+   Type `Yes` and press Enter.
 
-1. Enter the router’s password when prompted. The default password for OpenWrt is typically empty (just press Enter), but you should have set a password during the initial setup.
+4. Enter the router’s password when prompted. The default password for OpenWrt is typically empty (just press Enter), but you should have set a password during the initial setup.
 
-Using PuTTY (Windows):
+### PuTTY (Windows)
 
 1. Download and install PuTTY from [the official website](https://www.putty.org/).
 
@@ -173,56 +179,56 @@ You can do it in the web interface or in the command line. Steps below describe 
 
 1. Add a new unmanaged interface via SSH
 
-```shell
-ssh admin@router_ip
-uci set network.tun0='interface'
-uci set network.tun0.proto='none'
-uci set network.tun0.device='tun0'
-uci commit network
-/etc/init.d/network reload
-```
+   ```shell
+   ssh admin@router_ip
+   uci set network.tun0='interface'
+   uci set network.tun0.proto='none'
+   uci set network.tun0.device='tun0'
+   uci commit network
+   /etc/init.d/network reload
+   ```
 
-1. Add tun0 to WAN zone
+2. Add tun0 to WAN zone
 
-For traffic to go through VPN, add tun0 to WAN zone.
-The WAN interface which connects to the Internet will typically be in a zone named `wan` or something similar. Check your router's configuration files or firewall settings to find out which zone is associated with the WAN interface.
+   For traffic to go through VPN, add tun0 to WAN zone.
+   The WAN interface which connects to the Internet will typically be in a zone named `wan` or something similar. Check your router's configuration files or firewall settings to find out which zone is associated with the WAN interface.
 
-To do so, list the existing firewall zones:
+   To do so, list the existing firewall zones:
 
-```shell
-uci show firewall
-```
+   ```shell
+   uci show firewall
+   ```
 
-This will show a config file with all zones listed. Look for a section like `firewall.@zone[1]` or similar where `option name 'wan'` is defined. The number `[1]` could be different depending on your configuration.
+   This will show a config file with all zones listed. Look for a section like `firewall.@zone[1]` or similar where `option name 'wan'` is defined. The number `[1]` could be different depending on your configuration.
 
-Run this SSH command, replace `zone[1]` with correct  ‘wan’ zone identified before:
+   Run this SSH command, replace `zone[1]` with correct  ‘wan’ zone identified before:
 
-```shell
-uci show firewall | grep "=zone"
-uci add_list firewall.@zone[1].network='tun0'
-uci commit firewall
-/etc/init.d/firewall reload
-```
+   ```shell
+   uci show firewall | grep "=zone"
+   uci add_list firewall.@zone[1].network='tun0'
+   uci commit firewall
+   /etc/init.d/firewall reload
+   ```
 
-If you want to disable all traffic that is not protected by VPN, run the following command. This way you won’t have an Internet connection at all if VPN disconnects. If you choose not to do this step, your real IP will be exposed if the VPN disconnects.
+   If you want to disable all traffic that is not protected by VPN, run the following command. This way you won’t have an Internet connection at all if VPN disconnects. If you choose not to do this step, your real IP will be exposed if the VPN disconnects.
 
-```shell
-uci del_list firewall.@zone[1].network='wan'
-uci del_list firewall.@zone[1].network='wan6'
-uci commit firewall
-/etc/init.d/firewall reload
-```
+   ```shell
+   uci del_list firewall.@zone[1].network='wan'
+   uci del_list firewall.@zone[1].network='wan6'
+   uci commit firewall
+   /etc/init.d/firewall reload
+   ```
 
-If you’ve changed your mind and want to allow direct traffic, run the following command:
+   If you’ve changed your mind and want to allow direct traffic, run the following command:
 
-```shell
-uci add_list firewall.@zone[1].network='wan'
-uci add_list firewall.@zone[1].network='wan6'
-uci commit firewall
-/etc/init.d/firewall reload
-```
+   ```shell
+   uci add_list firewall.@zone[1].network='wan'
+   uci add_list firewall.@zone[1].network='wan6'
+   uci commit firewall
+   /etc/init.d/firewall reload
+   ```
 
-## 7. Set up automatic launch for AdGuard VPN CLI
+## 7) Set up automatic launch for AdGuard VPN CLI
 
 To automatically launch AdGuard VPN CLI after rebooting the router, create a file at `…/etc/init.d/adguardvpn`.
 

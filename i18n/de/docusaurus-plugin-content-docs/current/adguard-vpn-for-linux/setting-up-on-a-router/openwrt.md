@@ -1,15 +1,15 @@
 ---
-title: How to set up AdGuard VPN for Linux on an OpenWRT router
+title: So richten Sie AdGuard VPN für Linux auf einem OpenWRT-Router ein
 sidebar_position: 2
 ---
 
 :::info Systemanforderungen
 
-AdGuard VPN for Linux, also known as AdGuard VPN CLI, requires at least 22 MB of free storage space on your router’s built-in memory or external USB after installing necessary packages.
+AdGuard VPN für Linux, auch bekannt als AdGuard VPN CLI, benötigt nach der Installation der erforderlichen Pakete mindestens 22 MB freien Speicherplatz auf dem integrierten Speicher Ihres Routers oder auf einem externen USB-Stick.
 
 :::
 
-## 1. Make sure that SSH is enabled on your router
+## 1. Sicherstellen, dass SSH auf Ihrem Router aktiviert ist
 
 Diese Einstellung finden Sie in der Regel auf der Weboberfläche des Routers.
 
@@ -17,9 +17,9 @@ Für OpenWrt:
 
 1. Melden Sie sich auf der Weboberfläche an. In der Regel ist dies über einen Webbrowser unter [`http://192.168.1.1`](http://192.168.1.1/) zugänglich.
 
-2. Navigate to _System_ → _Administration_.
+2. Wechseln Sie zu _System_ ➜ _Verwaltung_.
 
-3. Make sure that _SSH Access_ is enabled.
+3. Stellen Sie sicher, dass der _SSH-Zugang_ aktiviert ist.
 
 OpenWrt erlaubt standardmäßig den SSH-Zugriff auf den Router.
 
@@ -27,67 +27,73 @@ OpenWrt erlaubt standardmäßig den SSH-Zugriff auf den Router.
 
 Die Standard-IP-Adresse der meisten Router lautet „192.168.1.1“ oder „192.168.0.1“. Wenn die IP-Adresse geändert wurde oder Sie sich nicht sicher sind, können Sie sie ermitteln, indem Sie die IP-Konfiguration auf einem angeschlossenen Gerät überprüfen.
 
-### On Windows
+### Unter Windows
 
 1. Öffnen Sie die Eingabeaufforderung:
 
-```text
-ipconfig
-```
+   ```text
+   ipconfig
+   ```
 
-1. Look for the _Default Gateway_ under your active network connection. Dies ist die IP-Adresse Ihres Routers.
+2. Suchen Sie den _Standardgateway_ unter Ihrer aktiven Netzwerkverbindung. Dies ist die IP-Adresse Ihres Routers.
 
-### On macOS and Linux
+### Unter macOS und Linux
 
-1. Öffnen Sie das Terminal:
+1. Öffnen Sie das Terminal und führen Sie es unter Linux aus:
 
-```text
-ip route | grep default
-```
+   ```text
+   ip route | grep default
+   ```
 
-1. Look for the _default_ entry. Die IP-Adresse daneben ist die IP-Adresse Ihres Routers.
+   Oder dies auf dem Mac:
+
+   ```text
+   route -n get default
+   ```
+
+2. Suchen Sie nach dem Eintrag _default_. Die IP-Adresse daneben ist die IP-Adresse Ihres Routers.
 
 ## 3) Verwenden Sie einen SSH-Client, um sich mit dem Router zu verbinden
 
 Auf den meisten Linux- und macOS-Systemen ist ein SSH-Client vorinstalliert. Unter Windows können Sie PowerShell, den integrierten SSH-Client in Windows 10/11 oder eine Anwendung eines Drittanbieters wie PuTTY verwenden.
 
-Verwenden Sie den integrierten SSH-Client (für Linux, macOS und Windows 10/11):
+### Integrierter SSH-Client (Linux, macOS und Windows 10/11)
 
 1. Öffnen Sie das Terminal oder die PowerShell.
 
 2. Führen Sie den folgenden SSH-Befehl aus:
 
-```text
-ssh root@192.168.1.1
-```
+   ```text
+   ssh root@192.168.1.1
+   ```
 
-Ersetzen Sie `192.168.1.1` durch die IP-Adresse Ihres Routers.
+   Ersetzen Sie `192.168.1.1` durch die IP-Adresse Ihres Routers.
 
-1. Wenn Sie sich zum ersten Mal über SSH mit dem Router verbinden, werden Sie eine Meldung sehen wie diese:
+3. Wenn Sie sich zum ersten Mal über SSH mit dem Router verbinden, werden Sie eine Meldung sehen wie diese:
 
-```text
-   Die Authentizität des Hosts '192.168.1.1 (192.168.1.1)' konnte nicht ermittelt werden.
+   ```text
+   Die Authentizität des Hosts '192.168.1.1 (192.168.1.1)' konnte nicht festgestellt werden.
    Der Fingerabdruck des ECDSA-Schlüssels lautet SHA256: ...
    Möchten Sie die Verbindung wirklich fortsetzen? (Ja/Nein/[Fingerabdruck])
-```
+   ```
 
-Geben Sie `Ja` ein und drücken Sie die Eingabetaste.
+   Geben Sie `Ja` ein und drücken Sie die Eingabetaste.
 
-1. Geben Sie das Passwort des Routers ein, wenn Sie dazu aufgefordert werden. Ein Standardpasswort für OpenWrt ist normalerweise nicht vergeben (drücken Sie einfach die Eingabetaste), aber Sie sollten bei der Ersteinrichtung ein Passwort festgelegt haben.
+4. Geben Sie das Passwort des Routers ein, wenn Sie dazu aufgefordert werden. Ein Standardpasswort für OpenWrt ist normalerweise nicht vergeben (drücken Sie einfach die Eingabetaste), aber Sie sollten bei der Ersteinrichtung ein Passwort festgelegt haben.
 
-Verwendung von PuTTY (Windows):
+### PuTTY (Windows)
 
 1. Laden Sie PuTTY von [der offiziellen Website](https://www.putty.org/) herunter und installieren Sie es.
 
 2. Öffnen Sie PuTTY.
 
-3. In the _Host Name (or IP address)_ field, enter your router’s IP address (e.g., `192.168.1.1`).
+3. Geben Sie in das Feld _Hostname (oder IP-Adresse)_ die IP-Adresse Ihres Routers ein (z. B. `192.168.1.1`).
 
-4. Ensure the _Connection type_ is set to SSH.
+4. Stellen Sie sicher, dass der _Verbindungstyp_ auf SSH eingestellt ist.
 
-5. Click _Open_.
+5. Klicken Sie auf _Öffnen_.
 
-6. When the Terminal window opens, log in. The default username is `root` and the default password is `keenetic`.
+6. Wenn sich das Terminalfenster öffnet, melden Sie sich an. Der Standard-Benutzername ist `root` und das Standard-Passwort ist `keenetic`.
 
 ## 4) Grundlegende SSH-Befehle
 
@@ -117,9 +123,9 @@ curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/sc
 
    Um AdGuard VPN für Linux nutzen zu können, benötigen Sie ein AdGuard-Konto.
 
-   You can sign up or log in on our [website](https://auth.adguard.com/login.html) or in the Terminal.
+   Sie können sich auf unserer [Website](https://auth.adguard.com/login.html) oder im Terminal registrieren oder anmelden.
 
-   To sign up or log in, type:
+   Um sich zu registrieren oder anzumelden, geben Sie Folgendes ein:
 
    ```jsx
    adguardvpn-cli login
@@ -171,58 +177,58 @@ curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/sc
 
 Sie können dies über die Weboberfläche oder über die Befehlszeile tun. Die folgenden Schritte beschreiben die Einrichtung über die SSH-Befehlszeile.
 
-1. Add a new unmanaged interface via SSH
+1. Fügen Sie eine neue unverwaltete Schnittstelle über SSH hinzu
 
-```shell
-ssh admin@router_ip
-uci set network.tun0='interface'
-uci set network.tun0.proto='none'
-uci set network.tun0.device='tun0'
-uci commit network
-/etc/init.d/network reload
-```
+   ```shell
+   ssh admin@router_ip
+   uci set network.tun0='interface'
+   uci set network.tun0.proto='none'
+   uci set network.tun0.device='tun0'
+   uci commit network
+   /etc/init.d/network reload
+   ```
 
-1. Add tun0 to WAN zone
+2. tun0 zur WAN-Zone hinzufügen
 
-For traffic to go through VPN, add tun0 to WAN zone.
-Die WAN-Schnittstelle, die eine Verbindung zum Internet herstellt, befindet sich in der Regel in einer Zone mit dem Namen `wan` oder einer ähnlichen Bezeichnung. Überprüfen Sie die Konfigurationsdateien Ihres Routers oder die Firewall-Einstellungen, um herauszufinden, welche Zone mit der WAN-Schnittstelle verbunden ist.
+   Damit der Datenverkehr über VPN geführt werden kann, fügen Sie tun0 zur WAN-Zone hinzu.
+   Die WAN-Schnittstelle, die eine Verbindung zum Internet herstellt, befindet sich in der Regel in einer Zone mit dem Namen `wan` oder einer ähnlichen Bezeichnung. Überprüfen Sie die Konfigurationsdateien Ihres Routers oder die Firewall-Einstellungen, um herauszufinden, welche Zone mit der WAN-Schnittstelle verbunden ist.
 
-Um dies zu tun, lassen Sie sich die vorhandenen Firewall-Zonen auflisten:
+   Um dies zu tun, lassen Sie sich die vorhandenen Firewall-Zonen auflisten:
 
-```shell
-uci show firewall
-```
+   ```shell
+   uci show firewall
+   ```
 
-Dadurch wird eine Konfigurationsdatei mit allen Zonen angezeigt. Suchen Sie nach einem Abschnitt wie `firewall.@zone[1]` oder ähnlich, in dem `Optionsname 'wan'` definiert ist. Die Zahl `[1]` kann je nach Ihrer Konfiguration unterschiedlich sein.
+   Dadurch wird eine Konfigurationsdatei mit allen Zonen angezeigt. Suchen Sie nach einem Abschnitt wie `firewall.@zone[1]` oder ähnlich, in dem `Optionsname 'wan'` definiert ist. Die Zahl `[1]` kann je nach Ihrer Konfiguration unterschiedlich sein.
 
-Führen Sie diesen SSH-Befehl aus und ersetzen Sie `zone[1]` durch die richtige, zuvor identifizierte ‘wan’-Zone:
+   Führen Sie diesen SSH-Befehl aus und ersetzen Sie `zone[1]` durch die richtige, zuvor identifizierte ‘wan’-Zone:
 
-```shell
-uci show firewall | grep "=zone"
-uci add_list firewall.@zone[1].network='tun0'
-uci commit firewall
-/etc/init.d/firewall reload
-```
+   ```shell
+   uci show firewall | grep "=zone"
+   uci add_list firewall.@zone[1].network='tun0'
+   uci commit firewall
+   /etc/init.d/firewall reload
+   ```
 
-Wenn Sie den gesamten Datenverkehr, der nicht durch VPN geschützt ist, deaktivieren möchten, führen Sie den folgenden Befehl aus. Auf diese Weise wird die Internetverbindung getrennt, sobald die VPN-Verbindung unterbrochen wird. Wenn Sie diesen Schritt nicht ausführen, wird Ihre echte IP-Adresse offengelegt, sobald die VPN-Verbindung unterbrochen wird.
+   Wenn Sie den gesamten Datenverkehr, der nicht durch VPN geschützt ist, deaktivieren möchten, führen Sie den folgenden Befehl aus. Auf diese Weise wird die Internetverbindung getrennt, sobald die VPN-Verbindung unterbrochen wird. Wenn Sie diesen Schritt nicht ausführen, wird Ihre echte IP-Adresse offengelegt, sobald die VPN-Verbindung unterbrochen wird.
 
-```shell
-uci del_list firewall.@zone[1].network='wan'
-uci del_list firewall.@zone[1].network='wan6'
-uci commit firewall
-/etc/init.d/firewall reload
-```
+   ```shell
+   uci del_list firewall.@zone[1].network='wan'
+   uci del_list firewall.@zone[1].network='wan6'
+   uci commit firewall
+   /etc/init.d/firewall reload
+   ```
 
-Wenn Sie Ihre Meinung geändert haben und direkten Datenverkehr zulassen möchten, führen Sie folgenden Befehl aus:
+   Wenn Sie Ihre Meinung geändert haben und direkten Datenverkehr zulassen möchten, führen Sie folgenden Befehl aus:
 
-```shell
-uci add_list firewall.@zone[1].network='wan'
-uci add_list firewall.@zone[1].network='wan6'
-uci commit firewall
-/etc/init.d/firewall reload
-```
+   ```shell
+   uci add_list firewall.@zone[1].network='wan'
+   uci add_list firewall.@zone[1].network='wan6'
+   uci commit firewall
+   /etc/init.d/firewall reload
+   ```
 
-## 7. Automatischen Start für AdGuard VPN CLI einrichten
+## 7) Automatischen Start für AdGuard VPN CLI einrichten
 
 Um AdGuard VPN CLI automatisch nach dem Neustart des Routers zu starten, erstellen Sie eine Datei unter `.../etc/init.d/adguardvpn`.
 

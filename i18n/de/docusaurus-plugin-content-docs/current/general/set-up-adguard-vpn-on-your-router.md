@@ -74,5 +74,5 @@ Wenn Sie den Standort des VPN-Servers ändern möchten, müssen Sie die Einstell
 ## Router, die bekanntermaßen nicht mit AdGuard VPN kompatibel sind
 
 - **ASUS**
-  - Only has IPsec in the _VPN Server_ settings, and not in the correct _VPN Fusion_/_VPN Client_ settings
+  - Hat IPsec nur in den _VPN Server_-Einstellungen und nicht in den korrekten _VPN Fusion_/_VPN Client_-Einstellungen
 - **FRITZ!Box**
