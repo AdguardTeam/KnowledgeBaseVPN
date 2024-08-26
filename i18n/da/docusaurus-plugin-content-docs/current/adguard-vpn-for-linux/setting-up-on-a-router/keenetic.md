@@ -55,39 +55,39 @@ Der skal bruges en SSH-klient. De fleste Linux- og macOS-systemer leveres med en
 
 ### Indbygget SSH-klient (Linux, macOS og Windows 10/11)
 
-1. Open Terminal or PowerShell.
+1. Åbn Terminal eller PowerShell.
 
-2. Run the SSH command:
+2. Eksekvér SSH-kommandoen:
 
 ```bash
 ssh admin@192.168.1.1
 ```
 
-Replace `192.168.1.1` with your router’s IP address.
+Erstat `192.168.1.1` med routerens aktuelle IP-adresse.
 
-1. If this is your first time connecting to the router via SSH, you’ll see a message like this:
+1. Er første gang, der oprettes forbindelse til routeren via SSH, vises en meddelelse i stil med denne:
 
 ```bash
-   The authenticity of host '192.168.1.1 (192.168.1.1)' can't be established.
-   ECDSA key fingerprint is SHA256:...
-   Are you sure you want to continue connecting (yes/no/[fingerprint])?
+   Ægtheden af værten '192.168.1.1 (192.168.1.1)' kan ikke fastslås.
+   ECDSA-nøglefingeraftryk er SHA256:...
+   Sikker på, at der fortsat skal oprettes forbindelse (ja/nej/[fingeraftryk])?
 ```
 
-Type `yes` and press Enter.
+Skriv "ja", og tryk på Retur.
 
-1. Enter the router’s password when prompted. The default username is `root` and the default password is `keenetic`.
+1. Angiv på anmodning routerens adgangskode. Standardbrugernavnet er `root` og standardadgangskoden er `keenetic`.
 
-### PuTTY (Windows 8 and earlier)
+### PuTTY (Windows 8 og tidligere)
 
-1. Download and install PuTTY from [the official website](https://www.putty.org/).
+1. Download og installér PuTTY fra [det officielle websted](https://www.putty.org/).
 
-2. Open PuTTY.
+2. Åbn PuTTY.
 
-3. In the _Host Name (or IP address)_ field, enter your router’s IP address (e.g., `192.168.1.1`)
+3. Angiv i feltet _Værtsnavn (eller IP-adresse)_ routerens IP-adresse (f.eks. `192.168.1.1`)
 
-4. Ensure the _Connection type_ is set to SSH.
+4. Sørg for, at _Forbindelsestype_ er sat til SSH.
 
-5. Click _Open_.
+5. Klik på Åbn\*.
 
 6. When the Terminal window opens, log in. The default username is `root` and the default password is `keenetic`.
 
@@ -193,15 +193,15 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
    adguardvpn-cli connect -l LOCATION_NAME
    ```
 
-   Replace `LOCATION_NAME` with the city, country, or ISO code of the location you want to connect to.
+   Erstat **LOCATION_NAME** med byen, landet eller ISO-koden for den placering, hvortil der skal oprettes forbindelse.
 
-   For quick connect, type:
+   For hurtig forbindelse, skriv:
 
    ```bash
    adguardvpn-cli connect
    ```
 
-   AdGuard VPN will choose the fastest available location and remember it for future quick connections.
+   AdGuard VPN vælger den hurtigste lokation tilgængelig og husker den til fremtidige hurtige forbindelser.
 
 3. Adjust your settings
 
