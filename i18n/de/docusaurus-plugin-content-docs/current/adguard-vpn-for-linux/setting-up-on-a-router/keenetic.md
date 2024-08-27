@@ -284,4 +284,4 @@ AdGuard VPN wird gestartet, sobald eine Internetverbindung besteht.
 
 Starten Sie Ihren Router neu, um die Einrichtung abzuschließen.
 
-Glückwunsch! Jetzt haben Sie einen mit AdGuard VPN gesicherten Router.
+Das war's! Jetzt haben Sie einen mit AdGuard VPN gesicherten Router.
