@@ -90,5 +90,9 @@
   "logo.alt": {
     "message": "AdGuard VPN",
     "description": "The alt text of footer logo"
+  },
+  "copyright": {
+    "message": "© AdGuard VPN, 2024",
+    "description": "The footer copyright"
   }
 }

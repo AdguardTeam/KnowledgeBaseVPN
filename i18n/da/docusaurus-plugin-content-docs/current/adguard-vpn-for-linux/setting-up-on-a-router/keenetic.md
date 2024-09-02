@@ -89,71 +89,71 @@ Skriv "ja", og tryk på Retur.
 
 5. Klik på Åbn\*.
 
-6. When the Terminal window opens, log in. The default username is `root` and the default password is `keenetic`.
+6. Når terminalvinduet åbnes, log ind. Standardbrugernavnet er `root` og standardadgangskoden er `keenetic`.
 
-Once logged in, you can use various commands to interact with your router’s Linux-based operating system.
+Efter indlogning, kan forskellige kommandoer bruges til interaktion med routerens Linux-baserede operativsystem.
 
-## 4. Install OPKG Entware
+## 4. Installér OPKG Entware
 
-In Keenetic models equipped with a USB port (except Keenetic 4G), you can use the OPKG package manager. It allows you to install third-party software packages to expand routers capabilities.
+På Keenetic-modeller udstyret med en USB-port (undtagen Keenetic 4G), kan OPKG-pakkehåndteringen bruges. Den muliggør at installere tredjeparts softwarepakker til udvidelse af routers muligheder.
 
-Starting with version 3.7, for some Keenetic models, it is possible to write OPKG Entware to the [UBIFS](https://en.wikipedia.org/wiki/UBIFS) partition of the router's NAND flash memory, i.e. to the built-in memory of the router. Follow the steps below to install the Entware repository package system on a USB drive or in the router’s internal memory.
+Fra version 3.7 er det for nogle Keenetic-modeller muligt at skrive OPKG Entware til [UBIFS](https://en.wikipedia.org/wiki/UBIFS) partitionen af routerens NAND-flashhukommelse, dvs. til routerens indbyggede lagerplads. Følg nedenstående trin for at installere Entware-depotpakkesystemet på et USB-drev eller routerens interne lager.
 
-### How to install OPKG Entware on a USB drive
+### Sådan installeres OPKG Entware på et USB-drev
 
-It is possible to install OPKG packages on the Keenetic models with USB ports that support USB flash drives. These are: KN-1410, KN-1710/1711, KN-1010/1011, KN-2510, KN-2410, KN-1810, KN-1910, KN-2310, KN-2010, KN-2110, KN-2610, KN-2710.
+Det er muligt at installere OPKG-pakker på Keenetic-modellerne med USB-porte, som understøtter USB-flashdrev. Disse er: KN-1410, KN-1710/1711, KN-1010/1011, KN-2510, KN-2410, KN-1810, KN-1910, KN-2310, KN-2010, KN-2110, KN-2610 og KN-2710.
 
-For detailed instructions, visit [the official Keenetic Wiki](https://help.keenetic.com/hc/en-us/articles/360021214160-Installing-the-Entware-repository-package-system-on-a-USB-drive).
+For detaljeret vejledning, besøg [den officielle Keenetic Wiki](https://help.keenetic.com/hc/en-us/articles/360021214160-Installing-the-Entware-repository-package-system-on-a-USB-drive).
 
-### How to install OPKG Entware in the router’s internal memory
+### Sådan installeres OPKG Entware på routerens interne lager
 
-This method will work with the following list of models: KN-1010/1011, KN-1810/1811, KN-1910, KN-2010, KN-2110, KN-2310, KN-2410, KN-2510, KN-2610, KN-2710, KN-3810, KN-3610 with the KeeneticOS version 3.7 and later.
+Denne metode fungerer med flg. modeller: KN-1010/1011, KN-1810/1811, KN-1910, KN-2010, KN-2110, KN-2310, KN-2410, KN-2510, KN-2610, KN-2710, KN-3810 og KN-3610 med minimum KeeneticOS-version 3.7.
 
-For detailed instructions, visit [the official Keenetic Wiki](https://help.keenetic.com/hc/en-us/articles/360021888880-Installing-OPKG-Entware-in-the-router-s-internal-memory).
+For detaljeret vejledning, besøg [den officielle Keenetic Wiki](https://help.keenetic.com/hc/en-us/articles/360021888880-Installing-OPKG-Entware-in-the-router-s-internal-memory).
 
-If your router doesn’t support installing packages on its internal memory, follow the instructions for installing packages on a USB drive.
+Understøtter routeren ikke installation af pakker på dens interne lager, følg vejledningen til installation af pakker på et USB-drev.
 
-## 5. Install AdGuard VPN CLI
+## 5. Installér AdGuard VPN CLI
 
-In your SSH client, execute the following code to install the packages required for AdGuard VPN CLI:
+Eksekvér i SSH-klienten flg. kode for at installere de pakker, som kræves til AdGuard VPN CLI:
 
 ```bash
 opkg install curl sudo ca-certificates
 ```
 
-Go to `cd/opt` folder and run the AdGuard VPN CLI installation script:
+Gå til mappen `cd/opt` og eksekvér AdGuard VPN CLI installations-scriptet:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/release/install.sh | sh -s -- -v
 ```
 
-When asked `Would you like to link the binary to /usr/local/bin?`,  reply `y`. If you fail to link the binary, run this line:
+Svar `y` på forespørgslen `Skal den binære linkes til /usr/local/bin?`. Mislykkes det at linke den binære, eksekvér denne linje:
 
 ```bash
 ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
 ```
 
-## 6. Set up AdGuard VPN CLI
+## 6. Opsæt AdGuard VPN CLI
 
-1. Log in to your account
+1. Log ind på kontoen
 
-   To use AdGuard VPN for Linux, you need an AdGuard account. You can sign up or log in on our [website](https://auth.adguard.com/login.html) or in Terminal.
+   Brug af AdGuard VPN til Linux kræver en AdGuard-konto. Tilmeld eller log ind på vores [websted](https://auth.adguard.com/login.html) eller i Terminal.
 
-   Before logging in, go to Terminal and make sure you are in the right shell interface. If you can see the following text:
+   Inden indlogning, gå til Terminal for at tjekke, at den rigtige shell-grænseflade er aktiv. Ses den følgende tekst:
 
    ```text
    KeeneticOS version 4.01.C.7.0-1, copyright (c) 2010-2024 Keenetic Ltd.
 
-   THIS SOFTWARE IS A SUBJECT OF KEENETIC LIMITED END-USER LICENCE AGREEMENT. BY USING IT YOU AGREE ON TERMS AND CONDITIONS HEREOF. FOR MORE INFORMATION PLEASE CHECK https://keenetic.com/legal
+   DENNE SOFTWARE ER UNDERLAGT KEENETIC LIMITED SLUTBRUGERLICENSAFTALE. VED AT BRUGE DEN, ACCEPTERES VILKÅR OG BETINGELSER HERFOR. FOR YDERLIGERE INFORMATION, TJEK VENLIGST https://keenetic.com/legal
    ```
 
-   Run this command to exit into the shell needed for the next steps:
+   For at afslutte til den shell, der er nødvendig for de næste trin, eksekvér flg. kommando:
 
    ```bash
    exec sh
    ```
 
-   If you see the following text, you can continue the setup:
+   Opsætningen kan fortsættes, hvis flg. tekst ses:
 
    ```bash
    BusyBox v1.36.1 (2024-08-08 16:11:23 UTC) built-in shell (ash)
@@ -161,33 +161,33 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
    / #
    ```
 
-   To sign up or log in, type:
+   For at tilmelde eller logge ind, skriv:
 
    ```bash
    adguardvpn-cli login
    ```
 
-2. Connect to VPN
+2. Opret forbindelse til VPN
 
-   Import the SSL certificate before connecting by running this command:
+   Importér SSL-certifikatet før tilslutning ved at eksekvere flg. kommando:
 
    ```bash
    export SSL_CERT_FILE=/opt/etc/ssl/certs/ca-certificates.crt
    ```
 
-   This must be done before each session.
+   Dette skal gøres før hver session.
 
-   Select a VPN server location that best suits your needs.
+   Vælg en VPN-serverlokation efter ønske.
 
-   In general, the closer the server is to you, the faster the connection.
+   Det gælder generelt, at jo tættere på serveren er, jo hurtigere er forbindelsen.
 
-   To view available locations, type:
+   For at se tilgængelige lokationer, skriv:
 
    ```bash
    adguardvpn-cli list-locations
    ```
 
-   To connect to a specific location, type:
+   For at oprette forbindelse til en bestemt lokation, skriv:
 
    ```bash
    adguardvpn-cli connect -l LOCATION_NAME
@@ -203,33 +203,33 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
 
    AdGuard VPN vælger den hurtigste lokation tilgængelig og husker den til fremtidige hurtige forbindelser.
 
-3. Adjust your settings
+3. Justér indstillingerne
 
-   Get a list of all available AdGuard VPN commands and customize the VPN client to your needs.
+   Få en liste over alle tilgængelige AdGuard VPN-kommandoer og tilpas VPN-klienten efter behov.
 
-   To view all commands, type:
+   For at se alle kommandoer, skriv:
 
    ```bash
    adguardvpn-cli --help-all
    ```
 
-4. Enter `yes` when asked “Would you like to set default routes in TUN mode?”
+4. Skriv "ja" til spørgsmålet "Opsæt standardruter i TUN-tilstand?"
 
-AdGuard VPN CLI will create a tun0 interface for VPN tunneling
+AdGuard VPN CLI vil oprette en tun0-grænseflade til VPN-tunneling
 
-## 7. Set up firewall rules
+## 7. Opsæt firewall-regler
 
-This step is designed to configure firewall rules on a Keenetic router to route traffic through AdGuard VPN.
+Dette trin er designet til at opsætte firewall-regler på en Keenetic-router til rutning af trafik igennem AdGuard VPN.
 
-1. **Install `iptables` by running this command via SSH:**
+1. **Installér 'iptables' ved at eksekvere denne kommando via SSH:**
 
    ```bash
    opkg install iptables
    ```
 
-   This line installs the `iptables` package, which is a tool for managing network packet filtering rules on Linux systems.
+   Denne linje installerer `iptables`-pakken — et værktøj til regelhåndtering af netværkspakkefiltrering på Linux-systemer.
 
-2. **Create a new shell script by running the following command:**
+2. **Opret et nyt shell-script ved at eksekvere flg. kommando:**
 
    ```bash
 
@@ -246,21 +246,21 @@ This step is designed to configure firewall rules on a Keenetic router to route 
    EOF
    ```
 
-   And make it executable:
+   Og gør det eksekverbart:
 
    ```bash
    chmod +x /opt/etc/ndm/netfilter.d/001-adguardvpn.sh
    ```
 
-This will create a new shell script named `001-adguardvpn.sh` in the `/opt/etc/ndm/netfilter.d/` directory, which is where network-related scripts are typically stored on a Keenetic router.
+Dette opretter et nyt shell-script ved navn `001-adguardvpn.sh` i mappen `/opt/etc/ndm/netfilter.d/`, hvilket er hvor netværksrelaterede scripts typisk lagres på en Keenetic-router.
 
-The script creates a custom firewall rule to ensure that traffic from your LAN (`br0`) is routed through the AdGuard VPN interface (`tun0`). It first cleans up any previous rules related to this configuration, then sets up new rules to direct the traffic appropriately.
+Scriptet opretter en tilpasset firewall-regel for at sikre, at trafik fra LAN'et (`br0`) rutes igennem AdGuard VPN-grænsefladen (`tun0`). Det rydder først op i tidligere regler relateret til denne opsætning og opsætter dernæst nye regler til korrekt rutning af trafikken.
 
-## 8. Set up automatic launch for AdGuard VPN CLI
+## 8. Opsæt automatisk start af AdGuard VPN CLI
 
-The following script is designed to automatically establish a VPN connection using AdGuard VPN on your Keenetic router when the WAN interface becomes available (e.g., after a reboot or reconnecting to the Internet).
+Flg. script er designet til automatisk at etablere en VPN-forbindelse vha. AdGuard VPN på Keenetic-routeren, når WAN-grænsefladen bliver tilgængelig (f.eks. efter en genstart eller genoprettet internetforbindelse).
 
-Run the following command:
+Eksekvér flg. kommando:
 
 ```bash
 cat << E0F > /opt/etc/ndm/wan.d/001-adguardvpn.sh
@@ -272,16 +272,16 @@ exit 0
 E0F
 ```
 
-And make it executable:
+Og gør det eksekverbart:
 
 ```bash
 chmod +x /opt/etc/ndm/wan.d/001-adguardvpn.sh
 ```
 
-The script named`001-adguardvpn.sh` will be saved to `/opt/etc/ndm/wan.d/` .
+Scriptet ved navn `001-adguardvpn.sh` gemmes i `/opt/etc/ndm/wan.d/`.
 
-It will start AdGuard VPN when Internet is connected.
+Det starter AdGuard VPN, når internet er forbundet.
 
-Reboot your router to finish setup.
+Genstart routeren for at færdiggøre opsætningen.
 
-Congrats! Now you have a router secured with AdGuard VPN.
+Tillykke! Nu er routeren sikret med AdGuard VPN.

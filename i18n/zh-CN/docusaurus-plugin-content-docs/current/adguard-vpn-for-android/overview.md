@@ -79,7 +79,7 @@ sidebar_position: 1
 
 ![Settings *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/settings.jpg)
 
-### General
+### 通用
 
 ![General *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/general.jpg)
 
