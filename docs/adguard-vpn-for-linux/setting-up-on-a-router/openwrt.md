@@ -1,6 +1,6 @@
 ---
 title: How to set up AdGuard VPN for Linux on an OpenWRT router
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 :::info System requirements

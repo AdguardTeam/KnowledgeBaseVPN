@@ -1,6 +1,6 @@
 ---
 title: How to set up AdGuard VPN for Linux on a Keenetic router
-sidebar_position: 3
+sidebar_position: 2
 ---
 
 :::info System requirements
@@ -67,7 +67,7 @@ Replace `192.168.1.1` with your router’s IP address.
 
 1. If this is your first time connecting to the router via SSH, you’ll see a message like this:
 
-```bash
+```text
    The authenticity of host '192.168.1.1 (192.168.1.1)' can't be established.
    ECDSA key fingerprint is SHA256:...
    Are you sure you want to continue connecting (yes/no/[fingerprint])?
@@ -121,13 +121,13 @@ In your SSH client, execute the following code to install the packages required 
 opkg install curl sudo ca-certificates
 ```
 
-Go to `cd/opt` folder and run the AdGuard VPN CLI installation script:
+Go to the `/opt` folder by typing `/cd opt` and run the AdGuard VPN CLI installation script:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/release/install.sh | sh -s -- -v
 ```
 
-When asked `Would you like to link the binary to /usr/local/bin?`,  reply `y`. If you fail to link the binary, run this line:
+When asked `Would you like to link the binary to /usr/local/bin?`, reply `n` and run this line:
 
 ```bash
 ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
@@ -169,10 +169,11 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
 
 1. Connect to VPN
 
-    Import the SSL certificate before connecting by running this command:
+    For Keenetic routers, be sure to import the SSL certificate and select a folder for the user directory by running this command before connecting:
 
     ```bash
     export SSL_CERT_FILE=/opt/etc/ssl/certs/ca-certificates.crt
+    export HOME=/opt/home/admin
     ```
 
     This must be done before each session.
@@ -245,6 +246,8 @@ This step is designed to configure firewall rules on a Keenetic router to route 
     done
     EOF
     ```
+
+    If you have more brX interfaces, make sure to include them in the script as well to route their traffic. Alternatively, make sure to specify a different routing rule for those interfaces.
 
     And make it executable:
 
