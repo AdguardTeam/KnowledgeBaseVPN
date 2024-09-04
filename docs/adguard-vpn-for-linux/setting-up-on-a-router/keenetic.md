@@ -127,7 +127,7 @@ Go to the `/opt` folder by typing `/cd opt` and run the AdGuard VPN CLI installa
 curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/release/install.sh | sh -s -- -v
 ```
 
-When asked `Would you like to link the binary to /usr/local/bin?`, reply `n` and run this line:
+When asked “Would you like to link the binary to /usr/local/bin?“, reply `n` and run this line:
 
 ```bash
 ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
