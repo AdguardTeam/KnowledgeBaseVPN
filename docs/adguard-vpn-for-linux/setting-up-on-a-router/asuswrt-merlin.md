@@ -6,8 +6,8 @@ sidebar_position: 4
 :::info System requirements
 
 1. AdGuard VPN CLI requires at least 22 MB of free storage space on your router’s disk or external USB after installing necessary packages.
-2. **Asuswrt-Merlin Firmware**: Make sure your router is running the Asuswrt-Merlin firmware.
-3. **USB Drive**: A USB drive formatted with a native Linux file system (ext2, ext3, or ext4). We will go through the formatting process in this guide.
+2. **Asuswrt-Merlin firmware**: Make sure your router is running the Asuswrt-Merlin firmware.
+3. **USB drive**: A USB drive formatted in a native Linux file system (ext2, ext3, or ext4). We will go through the formatting process in this guide.
 
 :::
 
@@ -70,7 +70,7 @@ You’ll need an SSH client. Most Linux and macOS systems come with an SSH clien
     ssh admin@192.168.1.1
     ```
 
-    Replace `192.168.1.1` with your router’s IP address and `admin` with your management username.
+    Replace `192.168.1.1` with your router’s IP address and `admin` with your admin username.
 
 1. If this is your first time connecting to the router via SSH, you’ll see a message like this:
 
@@ -82,7 +82,7 @@ You’ll need an SSH client. Most Linux and macOS systems come with an SSH clien
 
     Type `yes` and press Enter.
 
-1. Enter the router’s password when prompted. The SSH login username and password are the same as the management credentials.
+1. Enter the router’s password when prompted. The SSH login username and password are the same as the admin credentials.
 
 ### PuTTY (Windows below 10)
 
@@ -91,13 +91,13 @@ You’ll need an SSH client. Most Linux and macOS systems come with an SSH clien
 1. In the ***Host Name (or IP address)*** field, enter your router’s IP address (e.g., `192.168.1.1`).
 1. Make sure the ***Connection type*** is set to SSH.
 1. Click ***Open***.
-1. When the terminal window opens, enter the router’s credentials. The SSH login username and password are the same as the management credentials.
+1. When the terminal window opens, enter the router’s credentials. The SSH login username and password are the same as the admin credentials.
 
 ## 4. Install Entware using SSH
 
 Once logged into your SSH client, you can use various commands to interact with your router’s Linux-based operating system. To proceed, you will need to install Entware OPKG Manager. It allows you to install third-party software packages to expand router capabilities. Skip to the next step if you already have it installed.
 
-Note that you cannot use both Optware (dated alternative) and Entware at the same time.
+Note that you cannot use both Optware (outdated alternative) and Entware at the same time.
 
 The Asus DownloadMaster is based on Optware, and therefore is not compatible with Entware. You will have to uninstall DownloadMaster and look at the alternatives provided by Entware.
 
