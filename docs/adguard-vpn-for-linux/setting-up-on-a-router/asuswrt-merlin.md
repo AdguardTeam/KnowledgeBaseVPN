@@ -167,7 +167,7 @@ When asked “Would you like to link the binary to /usr/local/bin?“, reply `y`
 ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
 ```
 
-Import the SSL certificate and the tun module and set an alternative folder for the user directory. By default, it will be stored in /temp and you’ll lose your settings after a reboot. Run this before each new session.
+Import the SSL certificate and the tun module and set an alternative folder for the user directory. By default, it will be stored in /tmp and you’ll lose your settings after a reboot. Run this before each new session.
 
 ```bash
 export SSL_CERT_FILE=/opt/etc/ssl/certs/ca-certificates.crt
