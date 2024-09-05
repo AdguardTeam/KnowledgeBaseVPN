@@ -28,7 +28,7 @@ If you need a VPN for one or more apps, set up AdGuard VPN to automatically turn
 
 Now you have a new scenario: AdGuard VPN will be automatically enabled when you start the Twitter app. Now you need to create another command that will make AdGuard VPN automatically turn off when you close the app.
 
-## Configuring automatic disconnect from VPN
+## Configuring automatic disconnection from VPN
 
 ![Instruction. Part 1](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_off1_en.jpg)
 
