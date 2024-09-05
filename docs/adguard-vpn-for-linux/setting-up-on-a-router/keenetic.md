@@ -35,7 +35,7 @@ ipconfig
 
 ### On macOS and Linux
 
-1. Open Terminal and run this on Linux:
+1. On Linux, open Terminal and run this command:
 
     ```bash
     ip route | grep default
@@ -107,7 +107,7 @@ For detailed instructions, visit [the official Keenetic Wiki](https://help.keene
 
 ### How to install OPKG Entware in the router’s internal memory
 
-This method will work with the following list of models: KN-1010/1011, KN-1810/1811, KN-1910, KN-2010, KN-2110, KN-2310, KN-2410, KN-2510, KN-2610, KN-2710, KN-3810, KN-3610 with the KeeneticOS version 3.7 and later.
+This method will work with the following models: KN-1010/1011, KN-1810/1811, KN-1910, KN-2010, KN-2110, KN-2310, KN-2410, KN-2510, KN-2610, KN-2710, KN-3810, KN-3610 with the KeeneticOS version 3.7 and later.
 
 For detailed instructions, visit [the official Keenetic Wiki](https://help.keenetic.com/hc/en-us/articles/360021888880-Installing-OPKG-Entware-in-the-router-s-internal-memory).
 
@@ -202,7 +202,7 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
     adguardvpn-cli connect
     ```
 
-    AdGuard VPN will choose the fastest available location and remember it for future quick connections.
+    AdGuard VPN will choose the location with the lowest ping and remember it for future quick connections.
 
 1. Adjust your settings
 
@@ -281,7 +281,7 @@ And make it executable:
 chmod +x /opt/etc/ndm/wan.d/001-adguardvpn.sh
 ```
 
-The script named`001-adguardvpn.sh` will be saved to `/opt/etc/ndm/wan.d/` .
+The script named `001-adguardvpn.sh` will be saved to `/opt/etc/ndm/wan.d/`.
 
 It will start AdGuard VPN when Internet is connected.
 
