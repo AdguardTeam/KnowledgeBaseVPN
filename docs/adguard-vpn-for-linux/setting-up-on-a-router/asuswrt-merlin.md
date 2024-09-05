@@ -112,7 +112,7 @@ amtm
 Use this option to format a disk and mount it to router:
 
 ```bash
- fd
+fd
 ```
 
 Go through the formatting process and select the recommended options. All files from the USB disk will be deleted. For this setup to work, USB disk should always stay connected.

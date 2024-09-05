@@ -234,26 +234,26 @@ This step is designed to configure firewall rules on a Keenetic router to route 
 
     ```bash
 
-    cat << EOF > /opt/etc/ndm/netfilter.d/001-adguardvpn.sh
+    cat << 'EOF' > /opt/etc/ndm/netfilter.d/001-adguardvpn.sh
     #!/opt/bin/sh
     for ipt in iptables ip6tables; do
-    \$ipt -D FORWARD -j ADGUARD_FORWARD || true
-    \$ipt -F ADGUARD_FORWARD || true
-    \$ipt -X ADGUARD_FORWARD || true
-    \$ipt -N ADGUARD_FORWARD
-    \$ipt -I FORWARD -j ADGUARD_FORWARD
-    \$ipt -A ADGUARD_FORWARD -i br0 -o tun0 -j ACCEPT
+        $ipt -D FORWARD -j ADGUARD_FORWARD || true
+        $ipt -F ADGUARD_FORWARD || true
+        $ipt -X ADGUARD_FORWARD || true
+        $ipt -N ADGUARD_FORWARD
+        $ipt -I FORWARD -j ADGUARD_FORWARD
+        $ipt -A ADGUARD_FORWARD -i br0 -o tun0 -j ACCEPT
     done
     EOF
     ```
-
-    If you have more brX interfaces, make sure to include them in the script as well to route their traffic. Alternatively, make sure to specify a different routing rule for those interfaces.
 
     And make it executable:
 
     ```bash
     chmod +x /opt/etc/ndm/netfilter.d/001-adguardvpn.sh
     ```
+
+    If you have more brX interfaces, make sure to include them in the script as well to route their traffic. Alternatively, make sure to specify a different routing rule for those interfaces.
 
 This will create a new shell script named `001-adguardvpn.sh` in the `/opt/etc/ndm/netfilter.d/` directory, which is where network-related scripts are typically stored on a Keenetic router.
 
