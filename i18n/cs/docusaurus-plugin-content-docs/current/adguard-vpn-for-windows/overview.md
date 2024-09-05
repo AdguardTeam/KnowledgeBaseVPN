@@ -15,7 +15,7 @@ AdGuard VPN pro Windows má mnoho výhod, proto jsme tomu věnovali [samostatný
 
 ## Jak začít používat AdGuard VPN pro Windows
 
-Chcete-li začít používat AdGuard VPN pro Windows, stáhněte si aplikaci z [našich webových stránek](https://adguard-vpn.com/welcome.html). Instalace netrvá déle než minutu — zobrazí se dialogové okno, ve kterém je třeba zaškrtnout alespoň jedno políčko s podmínkami uživatelské smlouvy a zásady ochrany osobních údajů. Je na vás, zda chcete, aby AdGuard shromažďoval anonymizovaná data o používání aplikací. Nakonec vás program požádá o přihlášení, a to buď prostřednictvím účtu [AdGuard](https://auth.adguard.com/login.html), nebo prostřednictvím sociálních sítí (Apple, Google, Facebook). To je vše, nyní můžete používat AdGuard VPN pro Windows.
+Chcete-li začít používat AdGuard VPN pro Windows, stáhněte si aplikaci z [našich webových stránek](https://adguard-vpn.com/welcome.html). Instalace netrvá déle než minutu — zobrazí se dialogové okno, ve kterém je třeba zaškrtnout alespoň jedno políčko s podmínkami uživatelské smlouvy a zásady ochrany osobních údajů. And it's up to you to decide whether you want AdGuard to collect anonymized data about your app usage. Nakonec vás program požádá o přihlášení, a to buď prostřednictvím účtu [AdGuard](https://auth.adguard.com/login.html), nebo prostřednictvím sociálních sítí (Apple, Google, Facebook). To je vše, nyní můžete používat AdGuard VPN pro Windows.
 
 ## Domovská obrazovka
 
@@ -54,7 +54,7 @@ Starting with the version 2.4, all browsers are automatically added to the list 
 
 ### Import/export seznamů výjimek
 
-Chcete-li exportovat seznam výjimek z AdGuard VPN pro Windows do počítače, klikněte na **Exportovat výjimky**, vyberte složku, do které bude seznam uložen, a klikněte na **Uložit**. Stáhne se archiv `exclusions.zip` se dvěma soubory `.txt`, jeden pro každý ze seznamů. Můžete je upravit přidáním nových výjimek nebo odstraněním starých.
+Chcete-li exportovat seznam výjimek z AdGuard VPN pro Windows do počítače, klikněte na **Exportovat výjimky**, vyberte složku, do které bude seznam uložen, a klikněte na **Uložit**. The archive `exclusions.zip` with two `.txt` files will be downloaded, one for each of the lists. Můžete je upravit přidáním nových výjimek nebo odstraněním starých.
 
 V cílovém zařízení otevřete AdGuard VPN, klikněte na *Výjimky* a vyberte *Webové stránky* nebo *Aplikace*. Klikněte na *Importovat výjimky* a vyberte přijatý archiv.
 

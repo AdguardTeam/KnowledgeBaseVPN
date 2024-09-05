@@ -89,7 +89,7 @@ Schließlich kommen wir zur Registerkarte Einstellungen. Im Abschnitt *Über das
 
 Die ersten vier Grundfunktionen machen die App bequemer und benutzerfreundlicher, d.h. *Kill Switch*, *Automatisch aktualisieren*, *AdGuard VPN bei der Anmeldung starten* und *Automatisch beim App-Start verbinden*. Darüber hinaus können Sie zwischen hellen, dunklen und Systemthemen wählen – letzteres entspricht dem Thema auf Ihrem Mac.
 
-Sie können AdGuard VPN außerdem erlauben, anonyme Absturzberichte, technische Daten und Interaktionsdaten zu sammeln und zu übermitteln, um uns bei der Verbesserung unserer App zu helfen. Zu guter Letzt können Sie Protokolle von Ihrem Mac exportieren. Dies kann nützlich sein, wenn Sie Protokolle an Ihre Nachricht an den Support anhängen möchten.
+You can also allow AdGuard VPN to gather and send anonymized crash reports, technical and interaction data in order to help us improve our app. Zu guter Letzt können Sie Protokolle von Ihrem Mac exportieren. Dies kann nützlich sein, wenn Sie Protokolle an Ihre Nachricht an den Support anhängen möchten.
 
 ### DNS-Server
 

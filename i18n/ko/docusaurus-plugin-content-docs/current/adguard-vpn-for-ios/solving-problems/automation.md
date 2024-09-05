@@ -6,7 +6,7 @@ sidebar_label: AdGuard VPN 자동화 설정 방법
 
 iOS용 AdGuard VPN에는 앱 예외 기능이 없습니다. 하지만 아이폰과 아이패드의 앱에 AdGuard VPN을 자동화할 수 있는 방법이 있습니다.
 
-## AdGuard VPN 자동 활성화 설정하기
+## Configuring automatic connection to VPN
 
 하나 이상의 앱에 VPN을 사용하려는 경우, iOS 기기에서 해당 앱에 대한 AdGuard VPN의 자동 활성화 및 비활성화를 설정할 수 있습니다. 예외 탭으로 이동하여 일반 모드를 선택하고 지침을 따르세요. 아래에서는 Twitter의 예를 사용하여 자동화를 만드는 방법을 보여드리겠습니다.
 
@@ -28,7 +28,7 @@ iOS용 AdGuard VPN에는 앱 예외 기능이 없습니다. 하지만 아이폰�
 
 이제 Twitter 앱을 시작하면 AdGuard VPN이 자동으로 활성화됩니다. 하지만 Twitter 앱을 닫을 때 AdGuard VPN이 자동으로 꺼지도록 하는 또 다른 명령을 만들어야 합니다.
 
-## AdGuard VPN 자동 종료 설정
+## Configuring automatic disconnection from VPN
 
 ![지침. 제1부](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_off1_en.jpg)
 

@@ -3,7 +3,7 @@ title: 如何在路由器上設定 AdGuard VPN
 sidebar_position: 8
 ---
 
-By setting up AdGuard VPN on your router, you can protect your data on devices where you cannot install VPN apps, such as smart TVs, smart media devices, and game consoles.
+By setting up AdGuard VPN on your router, you can protect your data on devices where you cannot install VPN apps, such as media devices and game consoles.
 
 :::note
 
@@ -51,7 +51,7 @@ This option is only available if you have an AdGuard VPN subscription and your r
 
 - 透過路由器上的 AdGuard VPN，您的 VPN 提供者或其他任何人都無法存取您的網路活動
 - 在路由器上安裝 AdGuard VPN 可保護您的整個網絡，這表示連接到該網路的所有裝置都受到保護
-- You can enhance security and protect your data on devices where it’s not possible to install AdGuard VPN apps — smart TVs, smart media devices, and game consoles
+- You can enhance security and protect your data on devices where it’s not possible to install AdGuard VPN apps — media devices and game consoles
 
 ## Devices that can be connected to a router with AdGuard VPN
 

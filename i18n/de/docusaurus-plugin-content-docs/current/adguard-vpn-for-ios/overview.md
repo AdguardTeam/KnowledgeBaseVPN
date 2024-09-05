@@ -9,10 +9,10 @@ Mit einem VPN können Sie eine sichere Verbindung zu einem anderen Netzwerk im I
 
 AdGuard VPN verfügt über mehrere Funktionen:
 
-- verbirgt Ihren tatsächlichen Aufenthaltsort und hilft Ihnen, anonym zu bleiben
-- ändert Ihre IP-Adresse, um Ihre Daten vor Verfolgung zu schützen
-- verschlüsselt Ihren Datenverkehr und macht den Inhalt für Betrüger unzugänglich
-- lässt Sie konfigurieren, wo VPN verwendet werden soll und wo nicht (Ausschlussfunktion)
+- Hides your real whereabouts and helps you stay anonymous
+- Changes your IP address to protect your data from tracking
+- Encrypts your traffic, making the content inaccessible to scammers
+- Lets you configure where to use VPN and where not to (exclusions feature)
 
 Der nächste Vorteil von AdGuard VPN für iOS ist unser eigenes VPN-Protokoll. Im Vergleich zu anderen VPN-Protokollen ist es extrem schwer zu erkennen und selbst bei einer schlechten Internetverbindung stabil. [Erfahren Sie mehr über das AdGuard VPN-Protokoll](/general/adguard-vpn-protocol).
 

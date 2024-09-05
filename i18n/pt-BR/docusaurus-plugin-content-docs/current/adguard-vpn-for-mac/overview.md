@@ -89,7 +89,7 @@ Por fim, chegamos à guia Configurações. Na seção *Sobre o programa*, você 
 
 Os primeiros quatro recursos básicos tornam o aplicativo mais conveniente e fácil de usar, ou seja, *Kill Switch*, *Autoupdate*, *Iniciar AdGuard VPN no login*, e *Auto conectar no início da aplicação*. Além do mais, você pode escolher entre temas claros, escuros e do sistema - o último corresponde ao tema do seu Mac.
 
-Você também pode permitir que o AdGuard VPN colete e envie relatórios de erros anônimos, dados técnicos e de interação para nos ajudar a melhorar nosso aplicativo. Por último, mas não menos importante, você pode exportar logs do seu Mac. Isso pode ser útil se você quiser anexar logs à sua mensagem para o suporte.
+You can also allow AdGuard VPN to gather and send anonymized crash reports, technical and interaction data in order to help us improve our app. Por último, mas não menos importante, você pode exportar logs do seu Mac. Isso pode ser útil se você quiser anexar logs à sua mensagem para o suporte.
 
 ### Servidores DNS
 

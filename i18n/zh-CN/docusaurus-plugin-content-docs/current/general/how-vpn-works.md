@@ -69,7 +69,7 @@ AdGuard VPN 也有自己的 [_协议_](/general/adguard-vpn-protocol)。 其最�
 
 - [_专有 VPN 协议_](/general/adguard-vpn-protocol)，即使在较慢的互联网连接下也能稳定运行，并伪装成正常流量，使其更难以跟踪和阻止
 
-- [_无记录政策_](https://adguard-vpn.com/privacy.html)，这意味着 AdGuard VPN 不会收集您的个人数据，也不会将其传输给第三方
+- [_No-logging policy_](https://adguard-vpn.com/privacy.html), which means no personal data can be shared with third parties because AdGuard VPN never collects such data
 
 - _分布在数十个国家的 50 多个 VPN 服务器_。
 
@@ -82,5 +82,9 @@ AdGuard VPN 也有自己的 [_协议_](/general/adguard-vpn-protocol)。 其最�
 - 适用于 [Android]（/adguard-vpn-for-android/overview） 和 [iOS]（/adguard-vpn-for-ios/overview） 的移动应用程序
 
 - 适用于 [Windows](/adguard-vpn-for-windows/overview) 和 [Mac](/adguard-vpn-for-mac/overview) 的桌面应用程序
+
+- Command-line interface for [Linux, Mac, and some routers](/adguard-vpn-for-linux/)
+
+- A VPN client for [routers](/general/set-up-adguard-vpn-on-your-router/)
 
 [了解有关 AdGuard VPN 功能的更多信息]（https://adguard-vpn.com/welcome.html）

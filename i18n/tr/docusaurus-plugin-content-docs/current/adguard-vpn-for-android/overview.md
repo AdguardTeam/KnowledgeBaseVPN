@@ -115,7 +115,7 @@ Bu bölümde, destekle paylaşmak için günlükleri ve sistem bilgisini de dı�
 
 :::caution
 
-**Tercih edilen IP sürümü** seçeneğinde, IPv6 ve IPv4 arasında seçim yapmadan önce ağınızın bu protokolü desteklediğinden emin olun. Örneğin, IPv6'yı seçerseniz ve ağınız yalnızca IPv4'ü destekliyorsa, internete bağlanırken sorun yaşayabilirsiniz. Bunun tersi durumlar da olabilir.
+**Tercih edilen IP sürümü** seçeneğinde, IPv6 ve IPv4 arasında seçim yapmadan önce ağınızın bu protokolü desteklediğinden emin olun. For example, if you select IPv6 and your network only supports IPv4, you will have problems connecting to the Internet. Bunun tersi durumlar da olabilir.
 
 :::
 

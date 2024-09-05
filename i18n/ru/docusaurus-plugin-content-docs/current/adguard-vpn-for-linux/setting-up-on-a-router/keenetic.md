@@ -1,6 +1,6 @@
 ---
 title: Как настроить AdGuard VPN для Linux на роутере Keenetic
-sidebar_position: 3
+sidebar_position: 2
 ---
 
 :::info Системные требования
@@ -35,7 +35,7 @@ ipconfig
 
 ### На macOS и Linux
 
-1. Откройте Терминал и выполните эту команду на Linux:
+1. On Linux, open Terminal and run this command:
 
    ```bash
    ip route | grep default
@@ -67,7 +67,7 @@ ssh admin@192.168.1.1
 
 1. Если вы впервые подключаетесь к роутеру через SSH, вы увидите такое сообщение:
 
-```bash
+```text
    The authenticity of host '192.168.1.1 (192.168.1.1)' can't be established.
    ECDSA key fingerprint is SHA256:...
    Are you sure you want to continue connecting (yes/no/[fingerprint])?
@@ -107,7 +107,7 @@ ssh admin@192.168.1.1
 
 ### Как установить OPKG Entware во внутреннюю память роутера
 
-Этот метод подходит для следующего списка моделей: KN-1010/1011, KN-1810/1811, KN-1910, KN-2010, KN-2110, KN-2310, KN-2410, KN-2510, KN-2610, KN-2710, KN-3810, KN-3610 с версией KeeneticOS 3.7 и выше.
+This method will work with the following models: KN-1010/1011, KN-1810/1811, KN-1910, KN-2010, KN-2110, KN-2310, KN-2410, KN-2510, KN-2610, KN-2710, KN-3810, KN-3610 with the KeeneticOS version 3.7 and later.
 
 Подробные инструкции смотрите [на официальной странице Keenetic](https://help.keenetic.com/hc/ru/articles/360021888880-Установка-OPKG-Entware-на-встроенную-память-роутера).
 
@@ -121,13 +121,13 @@ ssh admin@192.168.1.1
 opkg install curl sudo ca-certificates
 ```
 
-Перейдите в папку `cd/opt` и запустите скрипт установки AdGuard VPN CLI:
+Go to the `/opt` folder by typing `/cd opt` and run the AdGuard VPN CLI installation script:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/release/install.sh | sh -s -- -v
 ```
 
-На вопрос `Хотите ли вы связать двоичный файл с /usr/local/bin?` ответьте `y`. Если вам не удалось связать двоичный файл, выполните эту строку:
+When asked “Would you like to link the binary to /usr/local/bin?“, reply `n` and run this line:
 
 ```bash
 ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
@@ -169,10 +169,11 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
 
 2. Подключитесь к VPN
 
-   Перед подключением импортируйте SSL-сертификат, выполнив следующую команду:
+   For Keenetic routers, be sure to import the SSL certificate and select a folder for the user directory by running this command before connecting:
 
    ```bash
    export SSL_CERT_FILE=/opt/etc/ssl/certs/ca-certificates.crt
+   export HOME=/opt/home/admin
    ```
 
    Это необходимо делать перед каждым сеансом.
@@ -201,7 +202,7 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
    adguardvpn-cli connect
    ```
 
-   AdGuard VPN выберет самую быструю локацию и запомнит её для будущих быстрых подключений.
+   AdGuard VPN will choose the location with the lowest ping and remember it for future quick connections.
 
 3. Настройте VPN
 
@@ -213,7 +214,7 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
    adguardvpn-cli --help-all
    ```
 
-4. Введите `yes` на вопрос «Хотите ли вы установить маршруты по умолчанию в режиме TUN?»
+4. Введите `yes` на вопрос Would you like to set default routes in TUN mode?
 
 AdGuard VPN CLI создаст интерфейс tun0 для VPN-туннелирования
 
@@ -233,15 +234,15 @@ AdGuard VPN CLI создаст интерфейс tun0 для VPN-туннели
 
    ```bash
 
-   cat << EOF > /opt/etc/ndm/netfilter.d/001-adguardvpn.sh
+   cat << 'EOF' > /opt/etc/ndm/netfilter.d/001-adguardvpn.sh
    #!/opt/bin/sh
    for ipt in iptables ip6tables; do
-   \$ipt -D FORWARD -j ADGUARD_FORWARD || true
-   \$ipt -F ADGUARD_FORWARD || true
-   \$ipt -X ADGUARD_FORWARD || true
-   \$ipt -N ADGUARD_FORWARD
-   \$ipt -I FORWARD -j ADGUARD_FORWARD
-   \$ipt -A ADGUARD_FORWARD -i br0 -o tun0 -j ACCEPT
+       $ipt -D FORWARD -j ADGUARD_FORWARD || true
+       $ipt -F ADGUARD_FORWARD || true
+       $ipt -X ADGUARD_FORWARD || true
+       $ipt -N ADGUARD_FORWARD
+       $ipt -I FORWARD -j ADGUARD_FORWARD
+       $ipt -A ADGUARD_FORWARD -i br0 -o tun0 -j ACCEPT
    done
    EOF
    ```
@@ -251,6 +252,8 @@ AdGuard VPN CLI создаст интерфейс tun0 для VPN-туннели
    ```bash
    chmod +x /opt/etc/ndm/netfilter.d/001-adguardvpn.sh
    ```
+
+   If you have more brX interfaces, make sure to include them in the script as well to route their traffic. Alternatively, make sure to specify a different routing rule for those interfaces.
 
 Это создаст новый скрипт оболочки с именем `001-adguardvpn.sh` в каталоге `/opt/etc/ndm/netfilter.d/`, где на роутере Keenetic обычно хранятся скрипты, связанные с сетью.
 
@@ -278,7 +281,7 @@ E0F
 chmod +x /opt/etc/ndm/wan.d/001-adguardvpn.sh
 ```
 
-Скрипт с именем `001-adguardvpn.sh` будет сохранён в `/opt/etc/ndm/wan.d/`.
+The script named `001-adguardvpn.sh` will be saved to `/opt/etc/ndm/wan.d/`.
 
 Он запустит AdGuard VPN при подключении к интернету.
 

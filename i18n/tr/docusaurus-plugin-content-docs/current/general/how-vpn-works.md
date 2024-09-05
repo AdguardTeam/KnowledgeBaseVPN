@@ -69,7 +69,7 @@ VPN hizmetimizin birkaç önemli [avantajı](/general/why-adguard-vpn) vardır:
 
 - [_Tescilli VPN protokolü_](/general/adguard-vpn-protocol), yavaş bir İnternet bağlantısıyla bile kararlı bir şekilde çalışan ve kendisini normal trafik olarak gizleyerek izlemeyi ve engellemeyi daha zor hâle getirir
 
-- [_Günlük tutmama politikası_](https://adguard-vpn.com/privacy.html), bu da AdGuard VPN'in kişisel verilerinizi toplamadığı ve üçüncü taraflara aktarmadığı anlamına gelir
+- [_No-logging policy_](https://adguard-vpn.com/privacy.html), which means no personal data can be shared with third parties because AdGuard VPN never collects such data
 
 - _Onlarca ülkede 50'den fazla VPN sunucusu_
 
@@ -82,5 +82,9 @@ VPN hizmetimizin birkaç önemli [avantajı](/general/why-adguard-vpn) vardır:
 - [Android](/adguard-vpn-for-android/overview) ve [iOS](/adguard-vpn-for-ios/overview) için mobil uygulaması
 
 - [Windows](/adguard-vpn-for-windows/overview) ve [Mac](/adguard-vpn-for-mac/overview) için masaüstü uygulaması
+
+- Command-line interface for [Linux, Mac, and some routers](/adguard-vpn-for-linux/)
+
+- A VPN client for [routers](/general/set-up-adguard-vpn-on-your-router/)
 
 [AdGuard VPN özellikleri hakkında daha fazla bilgi edinin](https://adguard-vpn.com/welcome.html)

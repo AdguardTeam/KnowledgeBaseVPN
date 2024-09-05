@@ -15,7 +15,7 @@ AdGuard VPN til Windows har mange fordele, så vi har dedikeret [en separat arti
 
 ## Komme i gang med at bruge AdGuard VPN til Windows
 
-For at begynde at bruge AdGuard VPN til Windows, download først appen fra [vores websted](https://adguard-vpn.com/welcome.html). Installationen tager et minuts tid. Et dialogvindue vises, hvori mindst ét felt skal markeres, nemlig accept af Vilkår for Brug samt Fortrolighedspolitik. Det er dog valgfrit, hvorvidt AdGuard skal tillades at indsamle anonymiserede data om app-brugen. Til sidst vil programmet anmode om, at der logges ind via enten en [AdGuard-konto](https://auth.adguard.com/login.html) eller sociale netværk (Apple, Google, Facebook). Det er alt, man kan nu begynde at bruge AdGuard VPN til Windows.
+For at begynde at bruge AdGuard VPN til Windows, download først appen fra [vores websted](https://adguard-vpn.com/welcome.html). Installationen tager et minuts tid. Et dialogvindue vises, hvori mindst ét felt skal markeres, nemlig accept af Vilkår for Brug samt Fortrolighedspolitik. And it's up to you to decide whether you want AdGuard to collect anonymized data about your app usage. Til sidst vil programmet anmode om, at der logges ind via enten en [AdGuard-konto](https://auth.adguard.com/login.html) eller sociale netværk (Apple, Google, Facebook). Det er alt, man kan nu begynde at bruge AdGuard VPN til Windows.
 
 ## Startskærm
 
@@ -43,18 +43,18 @@ Når domæner tilføjes manuelt, bør der tages højde for visse detaljer. Undta
 
 Vi anbefaler at bruge indstillingen **Fra listen**. Websteder grupperes i otte kategorier: Sociale netværk, Messengers, Video- og musikstreamingtjenester, Spil, Shopping, Søgemaskiner og Arbejdskommunikationsværktøjer. Vi har placeret de mest populære tjenester dér, inkl. alle domænenavne og underdomæner relateret til hver platform.
 
-:::info Browsers added to Exclusions
+:::info Webbrowsere føjet til Undtagelser
 
-Starting with the version 2.4, all browsers are automatically added to the list of exclusions when the VPN is active only for selected apps and websites. This change brings more convenience for users who were often confused and didn’t know whether to consider their browsers as apps or not. It applies under the following conditions:
+Fra og med version 2.4 føjes alle webbrowsere automatisk til listen over undtagelser, når VPN kun er aktiv for udvalgte apps og websteder. Denne ændring er mere bekvemmelig for brugere, som ofte var forvirrede og ikke vidste, om deres webbrowsere skulle betragtes som apps eller ej. Det gælder under flg. betingelser:
 
-- The user has installed AdGuard VPN for the first time
-- The user did not modify the Exclusions settings prior to v2.4
+- Brugeren har installeret AdGuard VPN for første gang
+- Brugeren har ikke ændret indstillingerne for undtagelser før v2.4
 
 :::
 
 ### Import/eksport af undtagelseslister
 
-For at eksportere undtagelseslisten fra AdGuard VPN til Windows til computeren, klik på **Eksportere undtagelser**, vælg mappen, hvor listen skal gemmes, og klik på **Gem**. Arkivfilen `exclusions.zip` med to `.txt`-filer downloades, én for hver af listerne. Nye undtagelser tilføjes, eller gamle kan slettes, ved at redigere dem.
+For at eksportere undtagelseslisten fra AdGuard VPN til Windows til computeren, klik på **Eksportere undtagelser**, vælg mappen, hvor listen skal gemmes, og klik på **Gem**. The archive `exclusions.zip` with two `.txt` files will be downloaded, one for each of the lists. Nye undtagelser tilføjes, eller gamle kan slettes, ved at redigere dem.
 
 Åbn AdGuard VPN på destinationsenheden, klik på *Undtagelser* og vælg *Websteder* eller *Apps*. Klik på *Importér undtagelser* og vælg det modtagne arkiv.
 

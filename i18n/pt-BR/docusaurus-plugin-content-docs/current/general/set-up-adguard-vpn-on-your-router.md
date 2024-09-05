@@ -3,7 +3,7 @@ title: Como configurar o AdGuard VPN em seu roteador
 sidebar_position: 8
 ---
 
-By setting up AdGuard VPN on your router, you can protect your data on devices where you cannot install VPN apps, such as smart TVs, smart media devices, and game consoles.
+By setting up AdGuard VPN on your router, you can protect your data on devices where you cannot install VPN apps, such as media devices and game consoles.
 
 :::note
 
@@ -51,7 +51,7 @@ Você precisará atualizar as configurações do roteador se quiser alterar o lo
 
 - Com o AdGuard VPN em seu roteador, nem seu provedor de VPN nem qualquer outra pessoa tem acesso à sua atividade na Internet
 - Instalar o AdGuard VPN em seu roteador protege toda a sua rede, o que significa que todos os dispositivos conectados a ele estão protegidos
-- You can enhance security and protect your data on devices where it’s not possible to install AdGuard VPN apps — smart TVs, smart media devices, and game consoles
+- You can enhance security and protect your data on devices where it’s not possible to install AdGuard VPN apps — media devices and game consoles
 
 ## Dispositivos que podem ser conectados a um roteador com AdGuard VPN
 

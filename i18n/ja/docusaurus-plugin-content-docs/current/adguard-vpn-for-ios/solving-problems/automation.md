@@ -6,7 +6,7 @@ sidebar_label: アプリごとにAdGuard VPNを常時オン・オフにする方
 
 iOS用AdGuard VPN にはアプリをVPN対象から外しておく機能はありません。 しかし、iPhone・iPadのアプリごとに対して AdGuard VPN のオン・オフを自動化する代替方法があります。
 
-## AdGuard VPN の自動起動を設定する方法
+## Configuring automatic connection to VPN
 
 特定のアプリを開くと自動的にAdGuard VPNがオンになり、そのアプリを閉じるとAdGuard VPNが自動的にオフになる方法のご紹介です。 まず、「VPN対象外リスト」（メイン画面下の真ん中のアイコン）→「レギュラー」モードを選択してください。 ※以下では、例として「Twitter」アプリに対するオートメーション作成方法を説明しておりますが、どのアプリに対しても同じ手順を使うことができます。
 
@@ -28,7 +28,7 @@ iOS用AdGuard VPN にはアプリをVPN対象から外しておく機能はあ�
 
 これで、新しい自動オートメーションが出来上がりました。 Twitterアプリ（対象アプリ）を起動すると、AdGuard VPNが自動的に有効になります。 あとは、対象アプリ（この例では「Twitter」）を閉じたときに AdGuard VPN を自動的にオフにするもう一つのオートメーションを作成する必要があります。
 
-## AdGuard VPN の自動シャットダウンを設定する
+## Configuring automatic disconnection from VPN
 
 ![手順 第1部](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_off1_ja.jpg)
 

@@ -15,7 +15,7 @@ AdGuard VPN Windows 版有很多优点，为此我们专门写了一篇[文章](
 
 ## 如何开始使用 AdGuard VPN Windows 版
 
-要开始使用 Windows 版 AdGuard VPN，请从[我们的网站](https://adguard-vpn.com/welcome.html)下载此应用程序。 安装时间不会超过 1 分钟，然后您会看到一个对话框，此处您至少需要勾选实施用户协议和隐私政策条款的复选框。 您可以自行决定是否希望 AdGuard 收集有关您的应用程序使用情况的匿名数据。 最后，安装程序会请求您通过 [AdGuard 账号](https://auth.adguard.com/login.html)或社交平台（Apple、Google、Facebook）进行登录。 就这样，您就可以使用 AdGuard VPN Windows 版了。
+要开始使用 Windows 版 AdGuard VPN，请从[我们的网站](https://adguard-vpn.com/welcome.html)下载此应用程序。 安装时间不会超过 1 分钟，然后您会看到一个对话框，此处您至少需要勾选实施用户协议和隐私政策条款的复选框。 And it's up to you to decide whether you want AdGuard to collect anonymized data about your app usage. 最后，安装程序会请求您通过 [AdGuard 账号](https://auth.adguard.com/login.html)或社交平台（Apple、Google、Facebook）进行登录。 就这样，您就可以使用 AdGuard VPN Windows 版了。
 
 ## 主界面
 
@@ -54,7 +54,7 @@ Starting with the version 2.4, all browsers are automatically added to the list 
 
 ### 导入/导出排除项列表
 
-如果您要从 AdGuard VPN Windows 版里导出排除项列表到您的计算机中，请点击「**导出排除项**」，选择用于存储列表文件的文件夹，然后点击「**保存**」。 将下载一个包含两个`.txt`文件的`exclusions.zip 压缩包`，每个列表一个。 您可以通过添加新排除项或删除旧排除项来直接编辑它们。
+如果您要从 AdGuard VPN Windows 版里导出排除项列表到您的计算机中，请点击「**导出排除项**」，选择用于存储列表文件的文件夹，然后点击「**保存**」。 The archive `exclusions.zip` with two `.txt` files will be downloaded, one for each of the lists. 您可以通过添加新排除项或删除旧排除项来直接编辑它们。
 
 在目标设备上，打开 AdGuard VPN，单击 *排除*，然后选择 *网站* 或 *应用*。 单击 *导入排除项*，选择接收到的存档。
 

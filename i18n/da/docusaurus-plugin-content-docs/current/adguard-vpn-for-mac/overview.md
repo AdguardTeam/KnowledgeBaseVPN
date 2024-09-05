@@ -39,12 +39,12 @@ Man kan ikke blot føje websteder til Undtagelser, men også vælge blandt liste
 
 Undtagelser-listen kan nemt opsættes. Har man tilføjet et domæne og nogle af dets underdomæner, grupperes disse under roddomænet. Ved tilføjelse af et roddomæne (`eksempel.com`), tilføjes også dets maske (`*.eksempel.com`).
 
-:::info Browsers added to Exclusions
+:::info Webbrowsere føjet til Undtagelser
 
-Starting with the version 2.4, all browsers are automatically added to the list of exclusions when the VPN is active only for selected apps and websites. This change brings more convenience for users who were often confused and didn’t know whether to consider their browsers as apps or not. It applies under the following conditions:
+Fra og med version 2.4 føjes alle webbrowsere automatisk til listen over undtagelser, når VPN kun er aktiv for udvalgte apps og websteder. Denne ændring er mere bekvemmelig for brugere, som ofte var forvirrede og ikke vidste, om deres webbrowsere skulle betragtes som apps eller ej. Det gælder under flg. betingelser:
 
-- The user has installed AdGuard VPN for the first time
-- The user did not modify the Exclusions settings prior to v2.4
+- Brugeren har installeret AdGuard VPN for første gang
+- Brugeren har ikke ændret indstillingerne for undtagelser før v2.4
 
 :::
 
@@ -89,7 +89,7 @@ Til sidst er der fanen Indstillinger. I afsnittet *Om program* kan man se det ak
 
 De første fire basisfunktioner gør applikationen mere bekvem og brugervenlig, dvs. *Kill Switch*, *Auto-opdatering*, *Start AdGuard VPN ved login*og *Auto-tilslut ved app-start*. Derudover kan der vælges mellem lyse, mørke og systemtemaer – sidstnævnte matcher temaet på Mac'en.
 
-Man kan også tillade AdGuard VPN at indsamle og indsende anonymiserede nedbrudsrapporter, tekniske data samt interaktionsdata for at hjælpe os med at forbedre appen. Sidst, men ikke mindst, kan man eksportere logfiler fra Mac'en. Dette kan være nyttigt, hvis disse ønskes vedhæftet en besked til supporten.
+You can also allow AdGuard VPN to gather and send anonymized crash reports, technical and interaction data in order to help us improve our app. Sidst, men ikke mindst, kan man eksportere logfiler fra Mac'en. Dette kan være nyttigt, hvis disse ønskes vedhæftet en besked til supporten.
 
 ### DNS-servere
 

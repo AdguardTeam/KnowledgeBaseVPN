@@ -9,10 +9,10 @@ Et VPN muliggør at oprette en sikker forbindelse til et andet netværk på inte
 
 AdGuard VPN har flere funktioner:
 
-- skjuler den reelle færden og hjælper med at forblive anonym
-- skifter IP-adresse for at beskytte data mod at blive sporet
-- krypterer trafikken, hvilket gør indholdet utilgængeligt for svindlere
-- muliggør at opsætte, hvor VPN skal, og ikke skal, bruges (undtagelsesfunktion)
+- Hides your real whereabouts and helps you stay anonymous
+- Changes your IP address to protect your data from tracking
+- Encrypts your traffic, making the content inaccessible to scammers
+- Lets you configure where to use VPN and where not to (exclusions feature)
 
 Den næste fordel ved AdGuard VPN til iOS er vores egen VPN-protokol. Den er ekstremt svært at opdage sammenlignet med andre VPN-protokoller, og den er stabil selv med en dårlig internetforbindelse. [Læs mere om AdGuard VPN-protokollen](/general/adguard-vpn-protocol).
 

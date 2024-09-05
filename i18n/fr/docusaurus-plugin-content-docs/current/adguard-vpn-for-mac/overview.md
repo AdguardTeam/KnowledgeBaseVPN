@@ -89,7 +89,7 @@ Enfin, nous arrivons à l'onglet Paramètres. Dans la section *À propos du prog
 
 The first four basic features make the application more convenient and user-friendly, i.e. *Kill Switch*, *Auto-update*, *Launch AdGuard VPN at login*, and *Auto-connect on app launch*. De plus, vous pouvez choisir entre des thèmes clairs, sombres et système - ce dernier correspond au thème de votre Mac.
 
-You can also allow AdGuard VPN to gather and send anonymous crash reports, technical and interaction data in order to help us improve our app. Last but not least, you can export logs from your Mac. Cela peut être utile si vous voulez joindre des journaux à votre message au support.
+You can also allow AdGuard VPN to gather and send anonymized crash reports, technical and interaction data in order to help us improve our app. Last but not least, you can export logs from your Mac. Cela peut être utile si vous voulez joindre des journaux à votre message au support.
 
 ### Serveurs DNS
 

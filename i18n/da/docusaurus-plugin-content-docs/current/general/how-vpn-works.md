@@ -43,7 +43,7 @@ Ud over disse VPN-protokoller findes der andre (f.eks. TLS, SSTP, IKEv2), men de
 
 <object data="https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/6.svg?nc=1" type="image/svg+xml"><img src="https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/6.svg?nc=1" alt="protocol 6" /> </object>
 
-AdGuard VPN har også sin egen [_protokol_](/general/adguard-vpn-protokol). En af dens fordele er, at trafik sendt vha. AdGuard VPN-protokollen er svær at skelne fra almindelig trafik. The VPN tunnel looks like normal HTTPS traffic, making it extremely difficult to detect and block. Den er desuden baseret på mekanismerne i den moderne HTTP/2-protokol, hvilket sikrer høj forbindelseshastighed.
+AdGuard VPN har også sin egen [_protokol_](/general/adguard-vpn-protokol). En af dens fordele er, at trafik sendt vha. AdGuard VPN-protokollen er svær at skelne fra almindelig trafik. VPN-tunnelen ligner normal HTTPS-trafik, hvilket gør den ekstremt svært at opdage og blokere. Den er desuden baseret på mekanismerne i den moderne HTTP/2-protokol, hvilket sikrer høj forbindelseshastighed.
 
 <object data="https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/5.svg?nc=1" type="image/svg+xml"><img src="https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/5.svg?nc=1" alt="protocol 5" /></object>
 
@@ -69,7 +69,7 @@ Vores VPN-tjeneste har flere vigtige [fordele](/general/why-adguard-vpn):
 
 - [_Proprietær VPN-protokol_](/general/adguard-vpn-protocol), der fungerer stabilt selv på en langsom internetforbindelse og camouflerer sig som normal trafik, hvilket gør den sværere at spore og blokere
 
-- [_Nul logning-politik_](https://adguard-vpn.com/privacy.html), hvilket betyder, at ingen personlige data kan overføres til tredjeparter, fordi AdGuard VPN aldrig indsamler sådanne data
+- [_No-logging policy_](https://adguard-vpn.com/privacy.html), which means no personal data can be shared with third parties because AdGuard VPN never collects such data
 
 - _Flere end 50 VPN-servere i snesevis af lande_
 
@@ -82,5 +82,9 @@ Pt. er AdGuard VPN tilgængelig som:
 - Mobil-app til [Android](/adguard-vpn-for-android/overview) og [iOS](/adguard-vpn-for-ios/overview)
 
 - Computerapplikation til [Windows](/adguard-vpn-for-windows/overview) og [Mac](/adguard-vpn-for-mac/overview)
+
+- Command-line interface for [Linux, Mac, and some routers](/adguard-vpn-for-linux/)
+
+- A VPN client for [routers](/general/set-up-adguard-vpn-on-your-router/)
 
 [Læs mere om AdGuard VPN-funktioner](https://adguard-vpn.com/welcome.html)

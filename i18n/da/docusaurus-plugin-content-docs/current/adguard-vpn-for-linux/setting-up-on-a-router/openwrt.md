@@ -1,6 +1,6 @@
 ---
 title: Sådan opsættes AdGuard VPN til Linux på en OpenWRT-router
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 :::info Systemkrav
@@ -159,25 +159,25 @@ curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/sc
    adguardvpn-cli connect
    ```
 
-   AdGuard VPN will choose the fastest available location and remember it for future quick connections.
+   AdGuard VPN vælger den hurtigste lokation tilgængelig og husker den til fremtidige hurtige forbindelser.
 
-3. Adjust your settings
+3. Justér indstillingerne
 
-   Get a list of all available AdGuard VPN commands and customize the VPN client to your needs.
+   Få en liste over alle tilgængelige AdGuard VPN-kommandoer og tilpas VPN-klienten efter behov.
 
-   To view all commands, type:
+   For at se alle kommandoer, skriv:
 
    ```jsx
    adguardvpn-cli --help-all
    ```
 
-   AdGuard VPN CLI will create a tun0 interface for VPN tunneling.
+   AdGuard VPN CLI opretter en tun0-grænseflade til VPN-tunneling.
 
-## 6) Set up firewall rules
+## 6) Opsæt firewall-regler
 
-You can do it in the web interface or in the command line. Steps below describe setup via SSH command line.
+Det kan gøres via webgrænsefladen eller på kommandolinjen. Trinene nedenfor beskriver opsætning via en SSH-kommandolinje.
 
-1. Add a new unmanaged interface via SSH
+1. Tilføj en ny ikke-håndteret grænseflade via SSH
 
    ```shell
    ssh admin@router_ip
@@ -188,20 +188,20 @@ You can do it in the web interface or in the command line. Steps below describe 
    /etc/init.d/network reload
    ```
 
-2. Add tun0 to WAN zone
+2. Tilføj tun0 til WAN-zonen
 
-   For traffic to go through VPN, add tun0 to WAN zone.
-   The WAN interface which connects to the Internet will typically be in a zone named `wan` or something similar. Check your router's configuration files or firewall settings to find out which zone is associated with the WAN interface.
+   For at trafikken skal rutes igennem VPN, tilføj tun0 til WAN-zonen.
+   WAN-grænsefladen, der forbinder til internet, vil typisk være i en zone ved navn 'wan' eller noget tilsvarende. Tjek routerens opsætningsfiler eller firewall-indstillinger for at finde ud af, hvilken zone der tilknyttet WAN-grænsefladen.
 
-   To do so, list the existing firewall zones:
+   For at gøre dette, oplist de eksisterende firewall-zoner:
 
    ```shell
    uci show firewall
    ```
 
-   This will show a config file with all zones listed. Look for a section like `firewall.@zone[1]` or similar where `option name 'wan'` is defined. The number `[1]` could be different depending on your configuration.
+   Dette vil vise en opsætningsfil med alle zoner oplistet. Se efter en sektion såsom `firewall.@zone[1]` el.lign., hvor `indstillingsnavn 'wan'` er defineret. Tallet "[1]" kan være anderledes afhængigt af opsætningen.
 
-   Run this SSH command, replace `zone[1]` with correct  ‘wan’ zone identified before:
+   Eksekvér denne SSH-kommando, erstat 'zone[1]' med den korrekte 'wan'-zone identificeret tidligere:
 
    ```shell
    uci show firewall | grep "=zone"
@@ -210,7 +210,7 @@ You can do it in the web interface or in the command line. Steps below describe 
    /etc/init.d/firewall reload
    ```
 
-   If you want to disable all traffic that is not protected by VPN, run the following command. This way you won’t have an Internet connection at all if VPN disconnects. If you choose not to do this step, your real IP will be exposed if the VPN disconnects.
+   Vil man deaktivere al trafik, som ikke er beskyttes af VPN, eksekvér flg. kommando. På denne måde vil der slet ikke være internetforbindelse, hvis VPN afbrydes. Vælger man ikke at udføre dette trin, vil den reelle IP blive afsløret, hvis VPN afbrydes.
 
    ```shell
    uci del_list firewall.@zone[1].network='wan'
@@ -219,7 +219,7 @@ You can do it in the web interface or in the command line. Steps below describe 
    /etc/init.d/firewall reload
    ```
 
-   If you’ve changed your mind and want to allow direct traffic, run the following command:
+   Ombestemmer man sig og vil tillade direkte trafik, eksevér da flg. kommando:
 
    ```shell
    uci add_list firewall.@zone[1].network='wan'
@@ -228,11 +228,11 @@ You can do it in the web interface or in the command line. Steps below describe 
    /etc/init.d/firewall reload
    ```
 
-## 7) Set up automatic launch for AdGuard VPN CLI
+## 7) Opsæt automatisk start af AdGuard VPN CLI
 
-To automatically launch AdGuard VPN CLI after rebooting the router, create a file at `…/etc/init.d/adguardvpn`.
+For automatisk at starte AdGuard VPN CLI efter genstart af routeren, opret en fil på `…/etc/init.d/adguardvpn`.
 
-Paste this into the file:
+Indsæt følgende i filen:
 
 ```text
 #!/bin/sh /etc/rc.common
@@ -251,7 +251,7 @@ stop() {
 }
 ```
 
-Run this to grant access for auto-launch and enable it:
+Run this to grant access to and enable auto-launch:
 
 ```jsc
  chmod +x /etc/init.d/adguardvpn

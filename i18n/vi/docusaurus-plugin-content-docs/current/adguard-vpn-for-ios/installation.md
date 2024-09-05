@@ -5,41 +5,39 @@ sidebar_position: 2
 
 ## System requirements
 
-AdGuard VPN can only be installed on devices with **iOS 14.2 and iPadOS 14.2 or later**.
+AdGuard VPN chỉ có thể được cài đặt trên các thiết bị có **iOS 14.2 và iPadOS 14.2 hoặc phiên bản mới hơn**.
 
 ### If AdGuard VPN has been removed from the App Store
 
-If you don’t see AdGuard VPN in the App Store, try changing the country or region in your Apple ID settings. Another option is to create a new Apple account and connect it to the App Store. [Instructions for both cases](/adguard-vpn-for-ios/solving-problems/app-store) are described in a separate article.
-
-After you change the region or link a different account to the App Store, [install AdGuard VPN](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602).
+Nếu bạn không thấy AdGuard VPN trong App Store, hãy thử thay đổi quốc gia hoặc vùng trong cài đặt Apple ID của bạn. Một tùy chọn khác là tạo một tài khoản Apple mới và kết nối nó với App-Store. [Hướng dẫn cho cả hai trường hợp](/adguard-vpn-for-ios/solving-problems/app-store) được mô tả trong một bài viết riêng.
 
 ## How to install AdGuard VPN for iOS
 
-You can download and install the *AdGuard VPN for iOS* app for free in the *App Store*.
+Bạn có thể tải xuống và cài đặt miễn phí ứng dụng *AdGuard VPN cho iOS* trong *Cửa hàng ứng dụng*.
 
-To do this, [go to App Store](https://agrd.io/ios_vpn) and tap *GET*.
+Để làm điều này, [truy cập Cửa hàng ứng dụng](https://agrd.io/ios_vpn) và nhấn vào *NHẬN*.
 
-Or you can use App Store’s search to find AdGuard VPN:
+Hoặc bạn có thể sử dụng chức năng tìm kiếm của Cửa hàng ứng dụng để tìm AdGuard VPN:
 
-1. Open the *App Store* app on your iOS device and tap *Search* 🔍 in the bottom right corner of the screen.
+1. Mở ứng dụng *Cửa hàng ứng dụng* trên thiết bị iOS của bạn và nhấn vào *Tìm kiếm* 🔍 ở góc dưới bên phải của màn hình.
 
-    ![App Store *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/app-store-en.png)
+    ![Cửa hàng ứng dụng *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/app-store-en.png)
 
-1. Next, in the search bar, start typing *"AdGuard"* and select *"adguard vpn"* from the list of suggested options.
+1. Tiếp theo, trong thanh tìm kiếm, bắt đầu nhập *"AdGuard"* và chọn *"adguard vpn"* từ danh sách các tùy chọn được đề xuất.
 
-    ![Search *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/search-en.png)
+    ![Cài đặt Xiaomi *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/search-en.png)
 
-1. Select *AdGuard VPN - Unlimited & Fast* from the list of suggested apps and tap *GET*. If necessary, enter your Apple ID account password in the opened window.
+1. Select *AdGuard VPN - Unlimited & Fast* from the list of suggested apps and tap *GET*. Nếu cần, hãy nhập mật khẩu tài khoản Apple ID của bạn trong cửa sổ vừa mở.
 1. Wait for the download to finish and tap *OPEN* to open the app.
 
     ![AdGuard VPN *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/adguard-vpn-en.png)
 
-That’s it! AdGuard VPN for iOS has been successfully installed on your device.
+Xong rồi! AdGuard VPN cho iOS đã được cài đặt thành công trên thiết bị của bạn.
 
-## How to uninstall AdGuard VPN for iOS
+## Cách gỡ cài đặt AdGuard VPN cho iOS
 
-If you have decided to delete AdGuard VPN for iOS, find and hold its icon on the home screen. In the menu that opens, tap *Remove App*.
+Nếu bạn đã quyết định xóa AdGuard VPN cho iOS, hãy tìm và giữ biểu tượng của nó trên màn hình chính. Trong danh sách xuất hiện, nhấn vào *Gỡ bỏ ứng dụng*.                Trong menu xuất hiện, nhấn vào *Gỡ bỏ ứng dụng*.
 
-![Uninstall *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/quick-action-menu.png)
+![Gỡ cài đặt *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/quick-action-menu.png)
 
-You can learn more about the AdGuard VPN app for iOS in [this article](adguard-vpn-for-ios/overview).
+Bạn có thể tìm hiểu thêm về ứng dụng AdGuard VPN cho iOS trong [bài viết này](adguard-vpn-for-ios/overview).
