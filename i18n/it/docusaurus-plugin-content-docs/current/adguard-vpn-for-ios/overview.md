@@ -9,10 +9,10 @@ Una VPN consente di creare una connessione sicura a un'altra rete su Internet. I
 
 AdGuard VPN dispone di diverse funzioni:
 
-- nasconde la tua vera posizione e ti aiuta a rimanere anonimo
-- modifica il tuo indirizzo IP per proteggere i tuoi dati dal tracciamento
-- crittografa il tuo traffico e rende i contenuti inaccessibili ai truffatori
-- ti consente di configurare dove utilizzare la VPN e dove no (funzione di esclusione)
+- Hides your real whereabouts and helps you stay anonymous
+- Changes your IP address to protect your data from tracking
+- Encrypts your traffic, making the content inaccessible to scammers
+- Lets you configure where to use VPN and where not to (exclusions feature)
 
 Il prossimo vantaggio di AdGuard VPN per iOS è il nostro protocollo VPN. È estremamente difficile da rilevare rispetto ad altri protocolli VPN, ed è stabile persino con una connessione a Internet debole. [Read more about the AdGuard VPN protocol](/general/adguard-vpn-protocol).
 
@@ -65,7 +65,7 @@ You can do it in four steps:
 
 To open General settings:
 
-1. Tap the Settings icon (⚙) in the bottom right corner of the app’s main screen.
+1. Toccare il pulsante Impostazioni (⚙) nell'angolo in basso a destra della schermata principale dell'app.
 2. Tap *General*.
 
 Here, you can configure AdGuard VPN for iOS as you need using different options: *DNS server*, *Theme*, *Advanced*, *Send technical and interaction data* and *Kill Switch*.

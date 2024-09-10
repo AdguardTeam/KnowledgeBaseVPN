@@ -1,6 +1,6 @@
 ---
 title: Как настроить AdGuard VPN для Linux на роутере OpenWRT
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 :::info Системные требования
@@ -251,7 +251,7 @@ stop() {
 }
 ```
 
-Выполните эту команду, чтобы предоставить доступ к автозапуску и включить его:
+Run this to grant access to and enable auto-launch:
 
 ```jsc
  chmod +x /etc/init.d/adguardvpn

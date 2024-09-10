@@ -89,7 +89,7 @@ Starting with the version 2.4, all browsers are automatically added to the list 
 
 第一個四個基本功能使應用程序更加方便和用戶友好，即*終止開關*，*自動更新*，*啟動AdGuard VPN時登錄*，以及*應用程序啟動時自動連接*。 此外，您可以在淺色、深色和系統主題之間進行選擇 - 後者與您 Mac 上的主題相匹配。
 
-您還可以允許 AdGuard VPN 收集和發送匿名崩潰報告、技術和互動數據，以幫助我們改進我們的應用程式。 最後但並非最不重要的一點是，您可以從 Mac 匯出日誌。 如果您想將日誌附加到訊息中以獲取支持，這會很有用。
+You can also allow AdGuard VPN to gather and send anonymized crash reports, technical and interaction data in order to help us improve our app. 最後但並非最不重要的一點是，您可以從 Mac 匯出日誌。 如果您想將日誌附加到訊息中以獲取支持，這會很有用。
 
 ### DNS 伺服器
 

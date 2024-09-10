@@ -69,7 +69,7 @@ VPN создаёт туннель между вашим устройством �
 
 - [_Собственный VPN-протокол_](/general/adguard-vpn-protocol), который стабильно работает даже при медленном интернет-соединении и маскируется под обычный трафик, что затрудняет его отслеживание и блокировку
 
-- [_Политика без записи логов_](https://adguard-vpn.com/privacy.html), которая означает, что AdGuard VPN не собирает ваши личные данные и не передаёт их третьим лицам
+- [_No-logging policy_](https://adguard-vpn.com/privacy.html), which means no personal data can be shared with third parties because AdGuard VPN never collects such data
 
 - _Более 50 VPN-серверов в десятках стран_
 
@@ -82,5 +82,9 @@ VPN создаёт туннель между вашим устройством �
 - Мобильное приложение для [Android](/adguard-vpn-for-android/overview) и [iOS](/adguard-vpn-for-ios/overview)
 
 - Десктопное приложение для [Windows](/adguard-vpn-for-windows/overview) и [Mac](/adguard-vpn-for-mac/overview)
+
+- Command-line interface for [Linux, Mac, and some routers](/adguard-vpn-for-linux/)
+
+- A VPN client for [routers](/general/set-up-adguard-vpn-on-your-router/)
 
 [Подробнее о функциях AdGuard VPN](https://adguardvpn-help.com/welcome.html)

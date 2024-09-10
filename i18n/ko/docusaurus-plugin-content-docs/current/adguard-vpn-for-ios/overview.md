@@ -9,10 +9,10 @@ VPN을 사용하면 인터넷의 다른 네트워크에 안전하게 연결할 �
 
 AdGuard VPN에는 여러 가지 기능이 있습니다.
 
-- 실제 위치를 숨기고 익명성을 유지합니다.
-- 트래커로부터 데이터를 보호하기 위해 IP 주소를 변경합니다.
-- 트래픽을 암호화하여 해커가 트래픽 내용에 액세스할 수 없도록 합니다.
-- VPN을 사용하는 사이트와 사용하지 않는 사이트를 구성할 수 있습니다 (예외 목록).
+- Hides your real whereabouts and helps you stay anonymous
+- Changes your IP address to protect your data from tracking
+- Encrypts your traffic, making the content inaccessible to scammers
+- Lets you configure where to use VPN and where not to (exclusions feature)
 
 iOS용 AdGuard VPN의 다음 장점은 자체 VPN 프로토콜입니다. AdGuard VPN 프로토콜은 다른 VPN 프로토콜에 비해 탐지하기가 매우 어렵고, 인터넷 연결 상태가 좋지 않은 경우에도 안정적입니다. [Read more about the AdGuard VPN protocol](/general/adguard-vpn-protocol).
 

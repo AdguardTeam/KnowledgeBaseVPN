@@ -1,5 +1,5 @@
 ---
-title: Feedbackindsendelse
+title: Indsendelse af feedback
 sidebar_position: 6
 ---
 

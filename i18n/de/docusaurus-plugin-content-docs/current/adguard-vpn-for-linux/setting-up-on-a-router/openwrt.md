@@ -1,6 +1,6 @@
 ---
 title: So richten Sie AdGuard VPN für Linux auf einem OpenWRT-Router ein
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 :::info Systemanforderungen
@@ -251,7 +251,7 @@ stop() {
 }
 ```
 
-Führen Sie dies aus, um den Zugriff für den automatischen Start zu gewähren und ihn zu aktivieren:
+Run this to grant access to and enable auto-launch:
 
 ```jsc
  chmod +x /etc/init.d/adguardvpn

@@ -115,7 +115,7 @@ Der letzte Abschnitt von *Erweiterten Einstellungen* ist *Low-Level-Einstellunge
 
 :::caution
 
-Bevor Sie bei der Option **Bevorzugte IP-Version** zwischen IPv6 und IPv4 wählen, stellen Sie sicher, dass Ihr Netzwerk dieses Protokoll unterstützt. Wenn Sie z. B. IPv6 auswählen und Ihr Netzwerk nur IPv4 unterstützt, können Probleme bei der Verbindung mit dem Internet auftreten. Und umgekehrt.
+Bevor Sie bei der Option **Bevorzugte IP-Version** zwischen IPv6 und IPv4 wählen, stellen Sie sicher, dass Ihr Netzwerk dieses Protokoll unterstützt. For example, if you select IPv6 and your network only supports IPv4, you will have problems connecting to the Internet. Und umgekehrt.
 
 :::
 

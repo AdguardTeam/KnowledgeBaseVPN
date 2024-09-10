@@ -6,7 +6,7 @@ sidebar_label: Comment configurer l'automatisation AdGuard VPN
 
 Il n'y a pas d'exclusions d'applications dans AdGuard VPN pour iOS. Pourtant, il existe un moyen d'automatiser AdGuard VPN pour les applications sur iPhone et iPad.
 
-## Configuration de l'activation automatique de AdGuard VPN
+## Configuring automatic connection to VPN
 
 Si vous avez besoin d'un VPN pour une ou plusieurs applications, configurez AdGuard VPN pour qu'il s'active et se désactive automatiquement lorsque vous les ouvrez et les fermez. Accédez à l'onglet Exclusions, sélectionnez le mode Général et suivez les instructions. Nous décrivons ici comment créer une automatisation pour Twitter, mais vous pouvez choisir toute autre application.
 
@@ -28,7 +28,7 @@ Si vous avez besoin d'un VPN pour une ou plusieurs applications, configurez AdGu
 
 Vous avez maintenant un nouveau scénario : AdGuard VPN sera automatiquement activé lorsque vous démarrerez l'application Twitter. Vous devez maintenant créer une autre commande qui désactivera automatiquement AdGuard VPN lorsque vous fermerez l'application.
 
-## Configuration de l'arrêt automatique de AdGuard VPN
+## Configuring automatic disconnection from VPN
 
 ![Manuel. Partie 1](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_off1_en.jpg)
 

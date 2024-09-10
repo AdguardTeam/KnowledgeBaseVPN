@@ -15,7 +15,7 @@ AdGuard VPN for Windows 有很多優點，所以我們專門致力於 [另一篇
 
 ## 如何開始使用 AdGuard VPN for Windows
 
-要開始使用 AdGuard VPN for Windows，請從以下位置下載應用程式 [我們的網站](https://adguard-vpn.com/welcome.html). 安裝過程不會超過一分鐘，您將看到一個對話框窗口，您需要在其中至少選取一個方塊以應用使用者協議和隱私權政策的條款。 您可以決定是否希望 AdGuard 收集有關您的應用程式使用情況的匿名資料。 最後，程式將要求您透過 [AdGuard 帳號](https://auth.adguard.com/login.html) 或社群網路（Apple、Google、Facebook）登入。 就這樣，您現在可以使用 AdGuard VPN for Windows。
+要開始使用 AdGuard VPN for Windows，請從以下位置下載應用程式 [我們的網站](https://adguard-vpn.com/welcome.html). 安裝過程不會超過一分鐘，您將看到一個對話框窗口，您需要在其中至少選取一個方塊以應用使用者協議和隱私權政策的條款。 And it's up to you to decide whether you want AdGuard to collect anonymized data about your app usage. 最後，程式將要求您透過 [AdGuard 帳號](https://auth.adguard.com/login.html) 或社群網路（Apple、Google、Facebook）登入。 就這樣，您現在可以使用 AdGuard VPN for Windows。
 
 ## 主頁
 
@@ -54,7 +54,7 @@ Starting with the version 2.4, all browsers are automatically added to the list 
 
 ### 導入/匯出排除列表
 
-將例外清單從AdGuard VPN for Windows匯出到您的電腦，請按一下**匯出例外**，選擇要存儲清單的文件夾，然後按一下**儲存**。 將下載一個存檔 `排除.zip` ，其中包含兩個 `.txt` 文件，每個列表一個。 您可以透過新增新的排除項或刪除舊的排除項來編輯它們。
+將例外清單從AdGuard VPN for Windows匯出到您的電腦，請按一下**匯出例外**，選擇要存儲清單的文件夾，然後按一下**儲存**。 The archive `exclusions.zip` with two `.txt` files will be downloaded, one for each of the lists. 您可以透過新增新的排除項或刪除舊的排除項來編輯它們。
 
 在目標裝置上，開啟 AdGuard VPN，點選 *排除*，然後選擇 *網站* 或 *應用程式*。 點選 *匯入排除項* 並選擇收到的檔案。
 

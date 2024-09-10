@@ -115,7 +115,7 @@ A última seção de *Configurações avançadas* é *Configurações de nível 
 
 :::caution
 
-Na opção **Versão IP preferencial**, antes de escolher entre IPv6 e IPv4, certifique-se de que sua rede suporta esse protocolo. Por exemplo, se você selecionar IPv6 e sua rede só for compatível com IPv4, poderá ter problemas para se conectar à internet. E vice versa.
+Na opção **Versão IP preferencial**, antes de escolher entre IPv6 e IPv4, certifique-se de que sua rede suporta esse protocolo. For example, if you select IPv6 and your network only supports IPv4, you will have problems connecting to the Internet. E vice versa.
 
 :::
 

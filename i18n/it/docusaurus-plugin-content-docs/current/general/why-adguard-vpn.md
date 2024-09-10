@@ -31,7 +31,7 @@ Consigliamo di utilizzare un server di AdGuard DNS: blocca gli annunci e i tracc
 
 ![Server DNS](https://cdn.adtidy.org/blog/new/lkarpag_dns_screen_en.png)
 
-## 4. Località ultraveloci
+## 4. Posizioni ultraveloci
 
 ![Posizioni dei server VPN](https://cdn.adguard.com/content/blog/articles/adguard-vpn/locations-en.png)
 

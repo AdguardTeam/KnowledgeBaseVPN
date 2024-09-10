@@ -3,7 +3,7 @@ title: Yönlendiricinizde AdGuard VPN nasıl kurulur
 sidebar_position: 8
 ---
 
-Yönlendiricinizde AdGuard VPN'i kurarak, akıllı TV'ler, akıllı medya cihazları ve oyun konsolları gibi VPN uygulamalarını kuramadığınız cihazlardaki verilerinizi koruyabilirsiniz.
+By setting up AdGuard VPN on your router, you can protect your data on devices where you cannot install VPN apps, such as media devices and game consoles.
 
 :::note
 
@@ -51,7 +51,7 @@ VPN sunucu konumunu değiştirmek istiyorsanız yönlendirici ayarlarınızı g�
 
 - Yönlendiricinizdeki AdGuard VPN ile ne VPN sağlayıcınız ne de başka biri internet etkinliğinize erişemez
 - Yönlendiricinize AdGuard VPN kurmak tüm ağınızı güvence altına alır, yani ağa bağlı tüm cihazlar korunur
-- You can enhance security and protect your data on devices where it’s not possible to install AdGuard VPN apps — smart TVs, smart media devices, and game consoles
+- You can enhance security and protect your data on devices where it’s not possible to install AdGuard VPN apps — media devices and game consoles
 
 ## AdGuard VPN ile bir yönlendiriciye bağlanabilen cihazlar
 

@@ -3,7 +3,7 @@ title: How to set up AdGuard VPN on your router
 sidebar_position: 8
 ---
 
-By setting up AdGuard VPN on your router, you can protect your data on devices where you cannot install VPN apps, such as smart TVs, smart media devices, and game consoles.
+By setting up AdGuard VPN on your router, you can protect your data on devices where you cannot install VPN apps, such as media devices and game consoles.
 
 :::note
 
@@ -51,7 +51,7 @@ You’ll need to update your router settings if you want to change the VPN serve
 
 - With AdGuard VPN on your router, neither your VPN provider nor anyone else has access to your Internet activity
 - Installing AdGuard VPN on your router secures your entire network, meaning that all devices connected to it are protected
-- You can enhance security and protect your data on devices where it’s not possible to install AdGuard VPN apps — smart TVs, smart media devices, and game consoles
+- You can enhance security and protect your data on devices where it’s not possible to install AdGuard VPN apps — media devices and game consoles
 
 ## Devices that can be connected to a router with AdGuard VPN
 

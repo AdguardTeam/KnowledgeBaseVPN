@@ -3,7 +3,7 @@ title: Как настроить AdGuard VPN на роутере
 sidebar_position: 8
 ---
 
-Настроив AdGuard VPN на роутере, вы сможете защитить свои данные на устройствах, на которые нельзя установить VPN-приложения, например, на умных телевизорах и медиа-устройствах, игровых приставках.
+By setting up AdGuard VPN on your router, you can protect your data on devices where you cannot install VPN apps, such as media devices and game consoles.
 
 :::note
 
@@ -51,7 +51,7 @@ sidebar_position: 8
 
 - С AdGuard VPN на роутере ни у вашего VPN-провайдера, ни у кого-либо ещё не будет доступа к вашим действиям в интернете
 - AdGuard VPN на роутере защищает всю вашу сеть, а это означает, что все подключённые к ней устройства будут в безопасности
-- Вы можете повысить безопасность и защитить свои данные на устройствах, на которые невозможно установить приложения AdGuard VPN — смарт-телевизорах, медиа-устройствах и игровых консолях
+- You can enhance security and protect your data on devices where it’s not possible to install AdGuard VPN apps — media devices and game consoles
 
 ## Устройства, которые можно подключить к роутеру с помощью AdGuard VPN
 

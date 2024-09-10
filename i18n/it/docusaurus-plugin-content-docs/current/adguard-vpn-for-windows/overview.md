@@ -15,7 +15,7 @@ AdGuard VPN per Windows presenta molti vantaggi, quindi, gli abbiamo dedicato [u
 
 ## Come iniziare a utilizzare AdGuard VPN per Windows
 
-Per iniziare a utilizzare AdGuard VPN per Windows, scarica l'applicazione dal [nostro sito web](https://adguard-vpn.com/welcome.html). L'installazione non richiede più di un minuto, e vedrai una finestra in cui dovrai spuntare almeno una casella, applicando i termini dell'Accordo con gli Utenti e la Politica sulla privacy. E dipende da te decidere se desideri che AdGuard raccolga dati anonimi sul tuo utilizzo dell'app. Infine, il programma ti chiederà di accedere, tramite un [profilo di AdGuard](https://auth.adguard.com/login.html) o tramite social (Apple, Google, Facebook). È tutto, puoi ora utilizzare AdGuard VPN per Windows.
+Per iniziare a utilizzare AdGuard VPN per Windows, scarica l'applicazione dal [nostro sito web](https://adguard-vpn.com/welcome.html). L'installazione non richiede più di un minuto, e vedrai una finestra in cui dovrai spuntare almeno una casella, applicando i termini dell'Accordo con gli Utenti e la Politica sulla privacy. And it's up to you to decide whether you want AdGuard to collect anonymized data about your app usage. Infine, il programma ti chiederà di accedere, tramite un [profilo di AdGuard](https://auth.adguard.com/login.html) o tramite social (Apple, Google, Facebook). È tutto, puoi ora utilizzare AdGuard VPN per Windows.
 
 ## Schermata Home
 
@@ -54,7 +54,7 @@ Starting with the version 2.4, all browsers are automatically added to the list 
 
 ### Importare/esportare elenchi delle esclusioni
 
-Per esportare l'elenco delle esclusioni da AdGuard VPN per Windows al tuo computer, clicca su **Esporta le esclusioni**, selezona la cartella in cui sarà archiviato l'elenco, e clicca su **Salva**. Sarà scaricato un archivio `exclusions.zip` con due file `.txt`, uno per ogni elenco. Puoi modificarli aggiungendo nuove esclusioni o eliminando quelle vecchie.
+Per esportare l'elenco delle esclusioni da AdGuard VPN per Windows al tuo computer, clicca su **Esporta le esclusioni**, selezona la cartella in cui sarà archiviato l'elenco, e clicca su **Salva**. The archive `exclusions.zip` with two `.txt` files will be downloaded, one for each of the lists. Puoi modificarli aggiungendo nuove esclusioni o eliminando quelle vecchie.
 
 Sul dispositivo di destinazione, apri AdGuard VPN, clicca su *Esclusioni* e seleziona *Siti web* o *App*. Clicca su *Importa esclusioni* e seleziona l'archivio ricevuto.
 

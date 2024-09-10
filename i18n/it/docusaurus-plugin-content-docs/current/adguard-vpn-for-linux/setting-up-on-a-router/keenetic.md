@@ -1,6 +1,6 @@
 ---
 title: How to set up AdGuard VPN for Linux on a Keenetic router
-sidebar_position: 3
+sidebar_position: 2
 ---
 
 :::info System requirements
@@ -35,7 +35,7 @@ ipconfig
 
 ### On macOS and Linux
 
-1. Open Terminal and run this on Linux:
+1. On Linux, open Terminal and run this command:
 
    ```bash
    ip route | grep default
@@ -67,7 +67,7 @@ Replace `192.168.1.1` with your router’s IP address.
 
 1. If this is your first time connecting to the router via SSH, you’ll see a message like this:
 
-```bash
+```text
    The authenticity of host '192.168.1.1 (192.168.1.1)' can't be established.
    ECDSA key fingerprint is SHA256:...
    Are you sure you want to continue connecting (yes/no/[fingerprint])?
@@ -107,7 +107,7 @@ For detailed instructions, visit [the official Keenetic Wiki](https://help.keene
 
 ### How to install OPKG Entware in the router’s internal memory
 
-This method will work with the following list of models: KN-1010/1011, KN-1810/1811, KN-1910, KN-2010, KN-2110, KN-2310, KN-2410, KN-2510, KN-2610, KN-2710, KN-3810, KN-3610 with the KeeneticOS version 3.7 and later.
+This method will work with the following models: KN-1010/1011, KN-1810/1811, KN-1910, KN-2010, KN-2110, KN-2310, KN-2410, KN-2510, KN-2610, KN-2710, KN-3810, KN-3610 with the KeeneticOS version 3.7 and later.
 
 For detailed instructions, visit [the official Keenetic Wiki](https://help.keenetic.com/hc/en-us/articles/360021888880-Installing-OPKG-Entware-in-the-router-s-internal-memory).
 
@@ -121,13 +121,13 @@ In your SSH client, execute the following code to install the packages required 
 opkg install curl sudo ca-certificates
 ```
 
-Go to `cd/opt` folder and run the AdGuard VPN CLI installation script:
+Go to the `/opt` folder by typing `/cd opt` and run the AdGuard VPN CLI installation script:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/release/install.sh | sh -s -- -v
 ```
 
-When asked `Would you like to link the binary to /usr/local/bin?`,  reply `y`. If you fail to link the binary, run this line:
+When asked “Would you like to link the binary to /usr/local/bin?“, reply `n` and run this line:
 
 ```bash
 ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
@@ -169,10 +169,11 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
 
 2. Connect to VPN
 
-   Import the SSL certificate before connecting by running this command:
+   For Keenetic routers, be sure to import the SSL certificate and select a folder for the user directory by running this command before connecting:
 
    ```bash
    export SSL_CERT_FILE=/opt/etc/ssl/certs/ca-certificates.crt
+   export HOME=/opt/home/admin
    ```
 
    This must be done before each session.
@@ -201,7 +202,7 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
    adguardvpn-cli connect
    ```
 
-   AdGuard VPN will choose the fastest available location and remember it for future quick connections.
+   AdGuard VPN will choose the location with the lowest ping and remember it for future quick connections.
 
 3. Adjust your settings
 
@@ -233,15 +234,15 @@ This step is designed to configure firewall rules on a Keenetic router to route 
 
    ```bash
 
-   cat << EOF > /opt/etc/ndm/netfilter.d/001-adguardvpn.sh
+   cat << 'EOF' > /opt/etc/ndm/netfilter.d/001-adguardvpn.sh
    #!/opt/bin/sh
    for ipt in iptables ip6tables; do
-   \$ipt -D FORWARD -j ADGUARD_FORWARD || true
-   \$ipt -F ADGUARD_FORWARD || true
-   \$ipt -X ADGUARD_FORWARD || true
-   \$ipt -N ADGUARD_FORWARD
-   \$ipt -I FORWARD -j ADGUARD_FORWARD
-   \$ipt -A ADGUARD_FORWARD -i br0 -o tun0 -j ACCEPT
+       $ipt -D FORWARD -j ADGUARD_FORWARD || true
+       $ipt -F ADGUARD_FORWARD || true
+       $ipt -X ADGUARD_FORWARD || true
+       $ipt -N ADGUARD_FORWARD
+       $ipt -I FORWARD -j ADGUARD_FORWARD
+       $ipt -A ADGUARD_FORWARD -i br0 -o tun0 -j ACCEPT
    done
    EOF
    ```
@@ -251,6 +252,8 @@ This step is designed to configure firewall rules on a Keenetic router to route 
    ```bash
    chmod +x /opt/etc/ndm/netfilter.d/001-adguardvpn.sh
    ```
+
+   If you have more brX interfaces, make sure to include them in the script as well to route their traffic. Alternatively, make sure to specify a different routing rule for those interfaces.
 
 This will create a new shell script named `001-adguardvpn.sh` in the `/opt/etc/ndm/netfilter.d/` directory, which is where network-related scripts are typically stored on a Keenetic router.
 
@@ -278,7 +281,7 @@ And make it executable:
 chmod +x /opt/etc/ndm/wan.d/001-adguardvpn.sh
 ```
 
-The script named`001-adguardvpn.sh` will be saved to `/opt/etc/ndm/wan.d/` .
+The script named `001-adguardvpn.sh` will be saved to `/opt/etc/ndm/wan.d/`.
 
 It will start AdGuard VPN when Internet is connected.
 

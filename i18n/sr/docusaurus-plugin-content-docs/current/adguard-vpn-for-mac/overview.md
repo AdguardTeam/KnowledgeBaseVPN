@@ -89,7 +89,7 @@ Konačno, dolazimo na karticu "Postavke". U *Osnovni podaci o programu* možete 
 
 Prve četiri osnovne funkcije čine aplikaciju pogodnijim i prilagođenijim korisniku, pa naime. *Prekidač za ubijanje*, *Automatsko ažuriranje*, *Pokrenite AdGuard VPN pri uključivanju*I *Automatsko povezivanje pri pokretanju aplikacije*. Šta više, možete da birate između svetlih, tamnih i sistemskih tema – ova druga se podudara sa temom na vašem Mac računaru.
 
-You can also allow AdGuard VPN to gather and send anonymous crash reports, technical and interaction data in order to help us improve our app. Last but not least, you can export logs from your Mac. Ovo može biti korisno ako želite da priložite evidencije u vašu poruku koju šaljete podršci.
+You can also allow AdGuard VPN to gather and send anonymized crash reports, technical and interaction data in order to help us improve our app. Last but not least, you can export logs from your Mac. Ovo može biti korisno ako želite da priložite evidencije u vašu poruku koju šaljete podršci.
 
 ### DNS serveri
 

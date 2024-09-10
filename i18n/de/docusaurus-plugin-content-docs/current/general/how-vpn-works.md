@@ -69,7 +69,7 @@ Unser VPN-Dienst hat mehrere wichtige [Vorteile](/general/why-adguard-vpn):
 
 - [_Proprietäres VPN-Protokoll_](/general/adguard-vpn-protocol), das auch bei einer langsamen Internetverbindung stabil funktioniert und sich als normaler Datenverkehr tarnt, so dass es schwieriger ist, ihn zu verfolgen und zu sperren
 
-- [_^Nichts-wird-protolliert-Richtlinie_] (https://adguard-vpn.com/privacy.html), was bedeutet, dass AdGuard VPN Ihre persönlichen Daten nicht sammelt und nicht an Dritte weitergibt
+- [_No-logging policy_](https://adguard-vpn.com/privacy.html), which means no personal data can be shared with third parties because AdGuard VPN never collects such data
 
 - _Mehr als 50 VPN-Server in Dutzenden von Ländern_
 
@@ -82,5 +82,9 @@ Derzeit ist AdGuard VPN verfügbar als:
 - Mobile App für [Android](/adguard-vpn-for-android/overview) und [iOS](/adguard-vpn-for-ios/overview)
 
 - Desktop-Anwendung für [Windows](/adguard-vpn-for-windows/overview) und [Mac](/adguard-vpn-for-mac/overview)
+
+- Command-line interface for [Linux, Mac, and some routers](/adguard-vpn-for-linux/)
+
+- A VPN client for [routers](/general/set-up-adguard-vpn-on-your-router/)
 
 [Erfahren Sie mehr über die Funktionen von AdGuard VPN](https://adguard-vpn.com/welcome.html)

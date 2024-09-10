@@ -9,10 +9,10 @@ VPN 可讓您建立與 Internet 上另一個網路的安全連線。 它將使�
 
 AdGuard VPN 有以下幾個功能：
 
-- 隱藏您的真實行踪並幫助您保持匿名
-- 更改您的 IP 位址以保護您的資料免遭追蹤
-- 加密您的流量並使詐騙者無法存取內容
-- 允許您設定在何處使用 VPN 以及在何處不使用（排除功能）
+- Hides your real whereabouts and helps you stay anonymous
+- Changes your IP address to protect your data from tracking
+- Encrypts your traffic, making the content inaccessible to scammers
+- Lets you configure where to use VPN and where not to (exclusions feature)
 
 AdGuard VPN for iOS的下一個優勢是我們自己的VPN協定。 與其他 VPN 協定相比，它極難檢測，並且即使在網路連線較差的情況下也很穩定。 [以了解更多有關 AdGuard VPN 協定的資訊](/general/adguard-vpn-protocol)。
 

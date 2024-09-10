@@ -89,7 +89,7 @@ The fourth tab is the *Support* screen. 在[常见问题](https://adguard-vpn.co
 
 前四个基本功能提高应用程序的用户友好性，即 *Kill Switch*、 *自动更新*、 *随系统启动自动运行 AdGuard VPN* 和*在应用程序启动时自动连接*。 此外，用户可以在浅色、深色和系统主题之间进行选择。系统主题与您 Mac 上的主题相匹配。
 
-您还可以允许 AdGuard VPN 收集和发送匿名崩溃报告、技术和交互数据，以帮助我们改进应用程序。 最后，您还可以从 Mac 导出日志。 如果您想将日志附加到您的消息以提供客服支持，本功能很有用。
+You can also allow AdGuard VPN to gather and send anonymized crash reports, technical and interaction data in order to help us improve our app. 最后，您还可以从 Mac 导出日志。 如果您想将日志附加到您的消息以提供客服支持，本功能很有用。
 
 ### DNS 服务器
 

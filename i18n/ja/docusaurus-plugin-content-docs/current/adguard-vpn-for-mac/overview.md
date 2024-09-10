@@ -89,7 +89,7 @@ The fourth tab is the *Support* screen. Find answers to any questions in the [FA
 
 The first four basic features make the application more convenient and user-friendly, i.e. *Kill Switch*, *Auto-update*, *Launch AdGuard VPN at login*, and *Auto-connect on app launch*. さらに、カラーテーマは「ライト」「ダーク」「システムに合わせる」から選ぶことができ、後者はMacのカラーテーマとAdGuard VPNのテーマを一致します。
 
-You can also allow AdGuard VPN to gather and send anonymous crash reports, technical and interaction data in order to help us improve our app. Last but not least, you can export logs from your Mac. サポートへのメッセージにログを添付したい場合などに便利です。
+You can also allow AdGuard VPN to gather and send anonymized crash reports, technical and interaction data in order to help us improve our app. Last but not least, you can export logs from your Mac. サポートへのメッセージにログを添付したい場合などに便利です。
 
 ### DNSサーバー
 

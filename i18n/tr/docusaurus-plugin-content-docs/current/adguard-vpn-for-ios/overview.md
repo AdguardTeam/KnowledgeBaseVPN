@@ -9,10 +9,10 @@ VPN, İnternet üzerindeki başka bir ağa güvenli bir bağlantı oluşturmanı
 
 AdGuard VPN'in çeşitli işlevleri vardır:
 
-- gerçek yerinizi gizler ve anonim kalmanıza yardımcı olur
-- verilerinizi izlemekten korumak için IP adresinizi değiştirir
-- trafiğinizi şifreler ve içeriği dolandırıcılar için erişilemez hâle getirir
-- VPN'nin nerede kullanılacağını ve nerede kullanılmayacağını yapılandırmanıza olanak tanır (istisnalar özelliği)
+- Hides your real whereabouts and helps you stay anonymous
+- Changes your IP address to protect your data from tracking
+- Encrypts your traffic, making the content inaccessible to scammers
+- Lets you configure where to use VPN and where not to (exclusions feature)
 
 iOS için AdGuard VPN'in bir sonraki avantajı, kendi VPN protokolümüzdür. Diğer VPN protokollerine kıyasla tespit edilmesi son derece zordur ve zayıf bir internet bağlantısında bile kararlıdır. [AdGuard VPN protokolü hakkında daha fazla bilgi edinin](/general/adguard-vpn-protocol).
 
