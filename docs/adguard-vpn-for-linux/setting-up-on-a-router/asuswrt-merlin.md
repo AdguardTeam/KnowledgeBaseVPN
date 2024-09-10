@@ -75,9 +75,9 @@ You’ll need an SSH client. Most Linux and macOS systems come with an SSH clien
 1. If this is your first time connecting to the router via SSH, you’ll see a message like this:
 
     ```text
-       The authenticity of host '192.168.1.1 (192.168.1.1)' can't be established.
-       ECDSA key fingerprint is SHA256:...
-       Are you sure you want to continue connecting (yes/no/[fingerprint])?
+    The authenticity of host '192.168.1.1 (192.168.1.1)' can't be established.
+    ECDSA key fingerprint is SHA256:...
+    Are you sure you want to continue connecting (yes/no/[fingerprint])?
     ```
 
     Type `yes` and press Enter.
