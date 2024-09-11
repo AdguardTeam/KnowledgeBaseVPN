@@ -3,7 +3,7 @@ title: How to set up AdGuard VPN for Linux on an OpenWRT router
 sidebar_position: 3
 ---
 
-:::info System requirements
+:::info Sistem gereksinimleri
 
 AdGuard VPN for Linux, also known as AdGuard VPN CLI, requires at least 22 MB of free storage space on your router’s built-in memory or external USB after installing necessary packages.
 
@@ -13,9 +13,9 @@ AdGuard VPN for Linux, also known as AdGuard VPN CLI, requires at least 22 MB of
 
 This setting is usually found in the router’s web interface.
 
-For OpenWrt:
+OpenWrt için:
 
-1. Log into the web interface. Typically, this is accessible via a web browser at [`http://192.168.1.1`](http://192.168.1.1/).
+1. Web arayüzüne giriş yapın. Typically, this is accessible via a web browser at [`http://192.168.1.1`](http://192.168.1.1/).
 
 2. Navigate to _System_ → _Administration_.
 
@@ -83,7 +83,7 @@ Most Linux and macOS systems come with an SSH client pre-installed. For Windows,
 
 ### PuTTY (Windows)
 
-1. Download and install PuTTY from [the official website](https://www.putty.org/).
+1. PuTTY'yi [resmi siteden](https://www.putty.org/) indirin ve kurun.
 
 2. Open PuTTY.
 
@@ -91,7 +91,7 @@ Most Linux and macOS systems come with an SSH client pre-installed. For Windows,
 
 4. Ensure the _Connection type_ is set to SSH.
 
-5. Click _Open_.
+5. Aç öğesine tıklayın.
 
 6. When the Terminal window opens, log in. The default username is `root` and the default password is `keenetic`.
 
@@ -119,13 +119,13 @@ curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/sc
 
 ## 5. AdGuard VPN CLI'yi yükle
 
-1. Log in to your account
+1. Hesabınıza giriş yapın
 
-   To use AdGuard VPN for Linux, you need an AdGuard account.
+   Linux için AdGuard VPN'i kullanmak için bir AdGuard hesabına ihtiyacınız vardır.
 
    You can sign up or log in on our [website](https://auth.adguard.com/login.html) or in the Terminal.
 
-   To sign up or log in, type:
+   Kaydolmak veya giriş yapmak için şunu yazın:
 
    ```jsx
    adguardvpn-cli login
@@ -139,21 +139,21 @@ curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/sc
 
    In general, the closer the server is to you, the faster the connection.
 
-   To view available locations, type:
+   Mevcut konumları görüntülemek için şunu yazın:
 
    ```jsx
    adguardvpn-cli list-locations
    ```
 
-   To connect to a specific location, type:
+   Belirli bir konuma bağlanmak için şunu yazın:
 
    ```jsx
-   adguardvpn-cli connect -l LOCATION_NAME
+   adguardvpn-cli connect -l LOCATION_NAME
    ```
 
-   Replace LOCATION_NAME with the city, country, or ISO code of the location you want to connect to.
+   LOCATION_NAME yerine bağlanmak istediğiniz konumun şehri, ülkesi veya ISO koduyla değiştirin.
 
-   For quick connect, type:
+   Hızlı bağlantı için şunu yazın:
 
    ```jsx
    adguardvpn-cli connect

@@ -45,7 +45,7 @@ Recomendamos usar a opção **Da lista**. Os sites são agrupados em oito catego
 
 :::info Browsers added to Exclusions
 
-Starting with the version 2.4, all browsers are automatically added to the list of exclusions when the VPN is active only for selected apps and websites. This change brings more convenience for users who were often confused and didn’t know whether to consider their browsers as apps or not. It applies under the following conditions:
+Starting with the version 2.4, all browsers are automatically added to the list of exclusions when the VPN is active only for selected apps and websites. This change brings more convenience for users who were often confused and didn’t know whether to consider their browsers as apps or not. Aplica-se nas seguintes condições:
 
 - The user has installed AdGuard VPN for the first time
 - The user did not modify the Exclusions settings prior to v2.4

@@ -69,7 +69,7 @@ Vores VPN-tjeneste har flere vigtige [fordele](/general/why-adguard-vpn):
 
 - [_Proprietær VPN-protokol_](/general/adguard-vpn-protocol), der fungerer stabilt selv på en langsom internetforbindelse og camouflerer sig som normal trafik, hvilket gør den sværere at spore og blokere
 
-- [_No-logging policy_](https://adguard-vpn.com/privacy.html), which means no personal data can be shared with third parties because AdGuard VPN never collects such data
+- [_Nul logning-politik_](https://adguard-vpn.com/privacy.html), hvilket betyder, at ingen personlige data kan deles med tredjeparter, fordi AdGuard VPN aldrig indsamler sådanne data
 
 - _Flere end 50 VPN-servere i snesevis af lande_
 
@@ -83,8 +83,8 @@ Pt. er AdGuard VPN tilgængelig som:
 
 - Computerapplikation til [Windows](/adguard-vpn-for-windows/overview) og [Mac](/adguard-vpn-for-mac/overview)
 
-- Command-line interface for [Linux, Mac, and some routers](/adguard-vpn-for-linux/)
+- Kommandolinjegrænseflade til [Linux, Mac og en række routere](/adguard-vpn-for-linux/)
 
-- A VPN client for [routers](/general/set-up-adguard-vpn-on-your-router/)
+- En VPN-klient til [routere](/general/set-up-adguard-vpn-on-your-router/)
 
 [Læs mere om AdGuard VPN-funktioner](https://adguard-vpn.com/welcome.html)

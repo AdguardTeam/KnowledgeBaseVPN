@@ -35,7 +35,7 @@ ipconfig
 
 ### macOS og Linux
 
-1. On Linux, open Terminal and run this command:
+1. På Linux, åbn Terminal og eksekvér denne kommando:
 
    ```bash
    ip route | grep default
@@ -107,7 +107,7 @@ For detaljeret vejledning, besøg [den officielle Keenetic Wiki](https://help.ke
 
 ### Sådan installeres OPKG Entware på routerens interne lager
 
-This method will work with the following models: KN-1010/1011, KN-1810/1811, KN-1910, KN-2010, KN-2110, KN-2310, KN-2410, KN-2510, KN-2610, KN-2710, KN-3810, KN-3610 with the KeeneticOS version 3.7 and later.
+Denne metode fungerer med flg. modeller: KN-1010/1011, KN-1810/1811, KN-1910, KN-2010, KN-2110, KN-2310, KN-2410, KN-2510, KN-2610, KN-2710, KN-3810, KN-3610 med minimum KeeneticOS-version 3.7.
 
 For detaljeret vejledning, besøg [den officielle Keenetic Wiki](https://help.keenetic.com/hc/en-us/articles/360021888880-Installing-OPKG-Entware-in-the-router-s-internal-memory).
 
@@ -121,13 +121,13 @@ Eksekvér i SSH-klienten flg. kode for at installere de pakker, som kræves til 
 opkg install curl sudo ca-certificates
 ```
 
-Go to the `/opt` folder by typing `/cd opt` and run the AdGuard VPN CLI installation script:
+Gå til mappen `/opt` ved at skrive `/cd opt`, og eksekvér AdGuard VPN CLI installations-scriptet:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/release/install.sh | sh -s -- -v
 ```
 
-When asked “Would you like to link the binary to /usr/local/bin?“, reply `n` and run this line:
+Svar `n` på forespørgslen `Skal den binære linkes til /usr/local/bin?`, og eksekvér denne linje:
 
 ```bash
 ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
@@ -169,7 +169,7 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
 
 2. Opret forbindelse til VPN
 
-   For Keenetic routers, be sure to import the SSL certificate and select a folder for the user directory by running this command before connecting:
+   Sørg på Keenetic-routere for at importere SSL-certifikatet og vælge en mappe som brugerbibliotek ved at eksekvere denne kommando, før der oprettes forbindelse:
 
    ```bash
    export SSL_CERT_FILE=/opt/etc/ssl/certs/ca-certificates.crt
@@ -202,7 +202,7 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
    adguardvpn-cli connect
    ```
 
-   AdGuard VPN will choose the location with the lowest ping and remember it for future quick connections.
+   AdGuard VPN vælger lokationen med lavest ping-tid og husker den til fremtidige hurtige forbindelser.
 
 3. Justér indstillingerne
 
@@ -253,7 +253,7 @@ Dette trin er designet til at opsætte firewall-regler på en Keenetic-router ti
    chmod +x /opt/etc/ndm/netfilter.d/001-adguardvpn.sh
    ```
 
-   If you have more brX interfaces, make sure to include them in the script as well to route their traffic. Alternatively, make sure to specify a different routing rule for those interfaces.
+   Eksisterer flere brX-grænseflader, sørg da for at inkludere dem i scriptet for også at rute deres trafik. Alternativt, sørg for at angive en anden rutningsregel for disse grænseflader.
 
 Dette opretter et nyt shell-script ved navn `001-adguardvpn.sh` i mappen `/opt/etc/ndm/netfilter.d/`, hvilket er hvor netværksrelaterede scripts typisk lagres på en Keenetic-router.
 
@@ -281,7 +281,7 @@ Og gør det eksekverbart:
 chmod +x /opt/etc/ndm/wan.d/001-adguardvpn.sh
 ```
 
-The script named `001-adguardvpn.sh` will be saved to `/opt/etc/ndm/wan.d/`.
+Scriptet ved navn `001-adguardvpn.sh` gemmes i `/opt/etc/ndm/wan.d/`.
 
 Det starter AdGuard VPN, når internet er forbundet.
 

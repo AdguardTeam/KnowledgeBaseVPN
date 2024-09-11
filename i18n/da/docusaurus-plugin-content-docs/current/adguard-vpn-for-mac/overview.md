@@ -89,7 +89,7 @@ Til sidst er der fanen Indstillinger. I afsnittet *Om program* kan man se det ak
 
 De første fire basisfunktioner gør applikationen mere bekvem og brugervenlig, dvs. *Kill Switch*, *Auto-opdatering*, *Start AdGuard VPN ved login*og *Auto-tilslut ved app-start*. Derudover kan der vælges mellem lyse, mørke og systemtemaer – sidstnævnte matcher temaet på Mac'en.
 
-You can also allow AdGuard VPN to gather and send anonymized crash reports, technical and interaction data in order to help us improve our app. Sidst, men ikke mindst, kan man eksportere logfiler fra Mac'en. Dette kan være nyttigt, hvis disse ønskes vedhæftet en besked til supporten.
+Man kan også tillade AdGuard VPN at indsamle og indsende anonymiserede nedbrudsrapporter, tekniske data samt interaktionsdata for at hjælpe os med at forbedre appen. Sidst, men ikke mindst, kan man eksportere logfiler fra Mac'en. Dette kan være nyttigt, hvis disse ønskes vedhæftet en besked til supporten.
 
 ### DNS-servere
 
