@@ -251,7 +251,7 @@ stop() {
 }
 ```
 
-Run this to grant access to and enable auto-launch:
+Eksekvér dette for at give adgang til og aktivere autostart:
 
 ```jsc
  chmod +x /etc/init.d/adguardvpn

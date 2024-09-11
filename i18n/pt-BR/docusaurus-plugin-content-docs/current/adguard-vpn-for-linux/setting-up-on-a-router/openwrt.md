@@ -3,7 +3,7 @@ title: How to set up AdGuard VPN for Linux on an OpenWRT router
 sidebar_position: 3
 ---
 
-:::info System requirements
+:::info Requisitos do sistema
 
 AdGuard VPN for Linux, also known as AdGuard VPN CLI, requires at least 22 MB of free storage space on your router’s built-in memory or external USB after installing necessary packages.
 
@@ -13,9 +13,9 @@ AdGuard VPN for Linux, also known as AdGuard VPN CLI, requires at least 22 MB of
 
 This setting is usually found in the router’s web interface.
 
-For OpenWrt:
+Para o OpenWrt:
 
-1. Log into the web interface. Typically, this is accessible via a web browser at [`http://192.168.1.1`](http://192.168.1.1/).
+1. Efetue login na interface web. Typically, this is accessible via a web browser at [`http://192.168.1.1`](http://192.168.1.1/).
 
 2. Navigate to _System_ → _Administration_.
 

@@ -9,6 +9,6 @@ Læs, hvordan AdGuard VPN til Linux opsættes på en router.
 
 - [Vejledning til OpenWRT-routere](/adguard-vpn-for-linux/setting-up-on-a-router/openwrt.md)
 
-- [Instructions for Asuswrt-Merlin routers](/adguard-vpn-for-linux/setting-up-on-a-router/asuswrt-merlin.md)
+- [Vejledning til Asuswrt-Merlin routere](/adguard-vpn-for-linux/setting-up-on-a-router/asuswrt-merlin.md)
 
 Flere vejledninger til andre routermærker og firmwaremuligheder tilføjes snart her.

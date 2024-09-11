@@ -33,7 +33,7 @@ adguardvpn-cli config set-socks-port <port_number>
 
 `<port_number>` kısmını bağlanmak istediğiniz bağlantı noktasıyla değiştirin.
 
-## SOCKS settings
+## SOCKS ayarları
 
 To set the SOCKS listen host, type:
 
@@ -41,7 +41,7 @@ To set the SOCKS listen host, type:
 adguardvpn-cli config set-socks-host <host>
 ```
 
-Replace `<host>` with the host you want to use. Using a host other than 127.0.0.1 requires setting a username and password. To set the SOCKS username and password, type:
+`<host>` yerine kullanmak istediğiniz ana makineyi yazın. Using a host other than 127.0.0.1 requires setting a username and password. To set the SOCKS username and password, type:
 
 ```
 adguardvpn-cli config set-socks-username <username>
@@ -112,7 +112,7 @@ Otomatik çökme raporlarını etkinleştirirseniz AdGuard VPN, bir şeyler ters
 adguardvpn-cli config send-reports on
 ```
 
-To disable it, set it to `off`.
+Devre dışı bırakmak için `off` olarak ayarlayın.
 
 ## Güncelleme kanalı
 

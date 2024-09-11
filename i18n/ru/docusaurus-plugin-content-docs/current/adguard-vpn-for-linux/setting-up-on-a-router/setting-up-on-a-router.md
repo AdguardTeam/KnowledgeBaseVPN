@@ -9,6 +9,6 @@ sidebar_position: 1
 
 - [Инструкции для роутеров OpenWRT](/adguard-vpn-for-linux/setting-up-on-a-router/openwrt.md)
 
-- [Instructions for Asuswrt-Merlin routers](/adguard-vpn-for-linux/setting-up-on-a-router/asuswrt-merlin.md)
+- [Инструкции для роутеров Asuswrt-Merlin](/adguard-vpn-for-linux/setting-up-on-a-router/asuswrt-merlin.md)
 
 В ближайшее время сюда будут добавлены инструкции для других марок роутеров и вариантов прошивок.

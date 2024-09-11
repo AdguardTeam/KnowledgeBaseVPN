@@ -19,21 +19,21 @@ Bazı ülkelerde AdGuard VPN, App Store'da mevcut değildir. Durumunuz buysa uyg
 
 3. Select your preferred country from the list (e.g., _United States_) and agree to the Terms and Conditions.
 
-4. Fill in the required fields. You can select _None_ for _Payment Method_ and use any address with a valid ZIP code for _Billing Address_, for example:
+4. Gerekli alanları doldurun. Örneğin, _Ödeme Yöntemi_ için _Hiçbiri_ öğesini seçebilir ve _Fatura Adresi_ için geçerli bir posta koduna sahip herhangi bir adresi kullanabilirsiniz:
 
-   Address: Grand Ave
+   Adres: Grand Ave
 
-   City: Chicago
+   Şehir: Şikago
 
-   State: Illinois
+   Eyalet: Illinois
 
-   Zip: 60007
+   Posta kodu: 60007
 
-   Phone: 999 999999999
+   Telefon: 999 999999999
 
-5. Tap _Next_.
+5. _Sonraki_ öğesine dokunun.
 
-   ![New region \*border](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/new_country.png)
+   ![Yeni bölge \*border](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/new_country.png)
 
 After changing the region, try [downloading AdGuard VPN from the App Store again](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602).
 

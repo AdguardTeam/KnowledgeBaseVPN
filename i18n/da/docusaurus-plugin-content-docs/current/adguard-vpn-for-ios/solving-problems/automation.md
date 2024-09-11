@@ -6,7 +6,7 @@ sidebar_label: Sådan opsættes AdGuard VPN-automatisering
 
 Der er ingen app-undtagelser i AdGuard VPN til iOS. Der er dog alligevel en måde at automatisere AdGuard VPN til apps på iPhones og iPads.
 
-## Configuring automatic connection to VPN
+## Opsætning af automatisk tilslutning til VPN
 
 Ved behov for et VPN til en eller flere apps, skal AdGuard VPN opsættes til automatisk at slå til og fra, når disse åbnes og lukkes. Gå til fanen Undtagelser, vælg tilstanden Generel og følg vejledningen. Her beskrives, hvordan automatisering opsættes til Twitter, men en hvilken som helst app kan vælges.
 
@@ -28,7 +28,7 @@ Ved behov for et VPN til en eller flere apps, skal AdGuard VPN opsættes til aut
 
 Nu er der et nyt scenarie: AdGuard VPN aktiveres automatisk, når Twitter-appen startes. Der skal nu oprettes en kommando mere, der automatisk deaktiverer AdGuard VPN, når Twitter-appen lukkes.
 
-## Configuring automatic disconnection from VPN
+## Opsætning af automatisk afbrydelse fra VPN
 
 ![Vejledning. Del 1](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_off1_en.jpg)
 
