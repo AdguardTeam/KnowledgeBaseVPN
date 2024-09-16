@@ -67,7 +67,7 @@ Here you can set the maximum size (in bytes) of the data packet used in local VP
 ### Excluded apps
 
 You can list here UIDs (unique identifiers) or package names of the apps that you want to exclude from VPN routing.
-Unlike with apps added to regular *Exclusions*, the traffic of apps added to *Excluded apps* doesn’t go to the local VPN service on your device at all. Instead, it goes directly to the endpoint.
+Unlike with apps added to regular *Exclusions*, the traffic of apps added to *Excluded apps* doesn’t go to the local VPN service on your device at all. Instead, it goes directly to the destination.
 
 ### Proxy server port
 
