@@ -27,9 +27,9 @@ The default IP address for most routers is `192.168.1.1` or `192.168.0.1`. If
 
 1. Open Command Prompt:
 
-```bash
-ipconfig
-```
+    ```bash
+    ipconfig
+    ```
 
 1. Look for the *Default Gateway* under your active network connection. This is your router’s IP address.
 
@@ -59,21 +59,21 @@ You’ll need an SSH client. Most Linux and macOS systems come with an SSH clien
 
 1. Run the SSH command:
 
-```bash
-ssh admin@192.168.1.1
-```
+    ```bash
+    ssh admin@192.168.1.1
+    ```
 
-Replace `192.168.1.1` with your router’s IP address.
+    Replace `192.168.1.1` with your router’s IP address.
 
 1. If this is your first time connecting to the router via SSH, you’ll see a message like this:
 
-```text
-   The authenticity of host '192.168.1.1 (192.168.1.1)' can't be established.
-   ECDSA key fingerprint is SHA256:...
-   Are you sure you want to continue connecting (yes/no/[fingerprint])?
-```
+    ```text
+    The authenticity of host '192.168.1.1 (192.168.1.1)' can't be established.
+    ECDSA key fingerprint is SHA256:...
+    Are you sure you want to continue connecting (yes/no/[fingerprint])?
+    ```
 
-Type `yes` and press Enter.
+    Type `yes` and press Enter.
 
 1. Enter the router’s password when prompted. The default username is `root` and the default password is `keenetic`.
 
