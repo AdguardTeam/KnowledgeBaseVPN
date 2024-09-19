@@ -9,10 +9,10 @@ VPN umožňuje vytvořit zabezpečené připojení k jiné síti na internetu. P
 
 AdGuard VPN má několik funkcí:
 
-- Hides your real whereabouts and helps you stay anonymous
-- Changes your IP address to protect your data from tracking
-- Encrypts your traffic, making the content inaccessible to scammers
-- Lets you configure where to use VPN and where not to (exclusions feature)
+- Skrývá vaše skutečné místo pobytu a pomáhá vám zůstat v anonymitě
+- Změní vaši IP adresu a ochrání vaše data před sledováním
+- Zašifruje váš provoz a znemožní podvodníkům přístup k obsahu
+- Umožňuje nastavit, kde se má VPN používat a kde ne (funkce výjimek)
 
 Další výhodou AdGuard VPN pro iOS je náš vlastní VPN protokol. V porovnání s jinými protokoly VPN je velmi obtížné jej odhalit a je stabilní i při špatném připojení k internetu. [Další informace o protokolu AdGuard VPN](/general/adguard-vpn-protocol).
 
@@ -120,7 +120,7 @@ Tato možnost umožňuje exportovat technické informace, které mohou být uži
 
 ### Odeslat technická a interakční data
 
-By turning this option on, you are helping us understand better how users interact with the app. Tyto informace používáme ke zlepšení uživatelského komfortu.
+Zapnutím této možnosti nám pomáháte lépe porozumět tomu, jak uživatelé s aplikací pracují. Tyto informace používáme ke zlepšení uživatelského komfortu.
 
 ### Kill Switch
 

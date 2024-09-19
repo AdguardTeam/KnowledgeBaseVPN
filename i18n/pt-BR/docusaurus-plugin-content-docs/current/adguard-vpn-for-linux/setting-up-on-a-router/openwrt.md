@@ -1,59 +1,59 @@
 ---
-title: How to set up AdGuard VPN for Linux on an OpenWRT router
+title: Como configurar o AdGuard VPN para Linux em um roteador OpenWRT
 sidebar_position: 3
 ---
 
 :::info Requisitos do sistema
 
-AdGuard VPN for Linux, also known as AdGuard VPN CLI, requires at least 22 MB of free storage space on your router’s built-in memory or external USB after installing necessary packages.
+O AdGuard VPN para Linux, também conhecido como AdGuard VPN CLI, requer pelo menos 22 MB de espaço de armazenamento livre na memória interna do seu roteador ou USB externo após a instalação dos pacotes necessários.
 
 :::
 
-## 1. Make sure that SSH is enabled on your router
+## 1. Certifique-se de que o SSH esteja habilitado no seu roteador
 
-This setting is usually found in the router’s web interface.
+Essa configuração geralmente é encontrada na interface web do roteador.
 
 Para o OpenWrt:
 
-1. Efetue login na interface web. Typically, this is accessible via a web browser at [`http://192.168.1.1`](http://192.168.1.1/).
+1. Efetue login na interface web. Normalmente, isso pode ser acessado por meio de um navegador da web em [`http://192.168.1.1`](http://192.168.1.1/).
 
-2. Navigate to _System_ → _Administration_.
+2. Navegue até _Sistema_ → _Administração_.
 
-3. Make sure that _SSH Access_ is enabled.
+3. Certifique-se de que o _Acesso SSH_ esteja habilitado.
 
-By default, OpenWrt allows SSH access to the router.
+Por padrão, o OpenWrt permite acesso SSH ao roteador.
 
-## 2. Determine your router’s IP address
+## 2. Determine o endereço IP do seu roteador
 
-The default IP address for most routers is `192.168.1.1` or `192.168.0.1`. If you’ve changed the IP address or if you’re unsure, you can find it by checking the IP configuration on a connected device.
+O endereço IP padrão para a maioria dos roteadores é `192.168.1.1` ou `192.168.0.1`. Se você alterou o endereço IP ou não tem certeza, você pode encontrá-lo verificando a configuração de IP em um dispositivo conectado.
 
-### On Windows
+### No Windows
 
-1. Open command prompt:
+1. Abra o prompt de comando:
 
    ```text
    ipconfig
    ```
 
-2. Look for the _Default Gateway_ under your active network connection. This is your router’s IP address.
+2. Procure o _Gateway Padrão_ na sua conexão de rede ativa. Este é o endereço IP do seu roteador.
 
-### On macOS and Linux
+### No macOS e Linux
 
-1. Open Terminal and run this on Linux:
+1. Abra o Terminal e execute isto no Linux:
 
    ```text
    ip route | grep default
    ```
 
-   Or this on Mac:
+   Ou isto no Mac:
 
    ```text
    route -n get default
    ```
 
-2. Look for the _default_ entry. The IP address next to it is your router’s IP address.
+2. Procure pela entrada _padrão_. O endereço IP ao lado é o endereço IP do seu roteador.
 
-## 3) Use an SSH client to connect to the router
+## 3) Use um cliente SSH para conectar-se ao roteador
 
 Most Linux and macOS systems come with an SSH client pre-installed. For Windows, you can use PowerShell, the built-in SSH client in Windows 10/11, or a third-party application like PuTTY.
 

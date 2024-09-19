@@ -70,25 +70,25 @@ adguardvpn-cli config set-system-dns on
 
 ## VPN tünel yönlendirme modu: NONE, AUTO veya SCRIPT
 
-AdGuard VPN'in trafiği VPN tüneli üzerinden nasıl yönlendireceğini seçebilirsiniz. To set the tunnel routing mode to NONE (no routing), type:
+AdGuard VPN'in trafiği VPN tüneli üzerinden nasıl yönlendireceğini seçebilirsiniz. Tünel yönlendirme modunu NONE (yönlendirme yok) olarak ayarlamak için şunu yazın:
 
 ```
 adguardvpn-cli config set-tun-routing-mode NONE
 ```
 
-To set the tunnel routing mode to AUTO (automatic routing), type:
+Tünel yönlendirme modunu AUTO (otomatik yönlendirme) olarak ayarlamak için şunu yazın:
 
 ```
 adguardvpn-cli config set-tun-routing-mode AUTO
 ```
 
-To set the tunnel routing mode to SCRIPT (custom routing script), type:
+Tünel yönlendirme modunu SCRIPT (özel yönlendirme betiği) olarak ayarlamak için şunu yazın:
 
 ```
 adguardvpn-cli config set-tun-routing-mode SCRIPT
 ```
 
-To create a routes script with proper permissions, type:
+Uygun izinlere sahip bir yönlendirme betiği oluşturmak için şunu yazın:
 
 ```
 adguardvpn-cli config create-routes-script

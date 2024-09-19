@@ -87,4 +87,4 @@ VPN создаёт туннель между вашим устройством �
 
 - VPN-клиент для [роутеров](/general/set-up-adguard-vpn-on-your-router/)
 
-[Подробнее о функциях AdGuard VPN](https://adguardvpn-help.com/welcome.html)
+[Подробнее о функциях AdGuard VPN](https://adguard-vpn.com/welcome.html)

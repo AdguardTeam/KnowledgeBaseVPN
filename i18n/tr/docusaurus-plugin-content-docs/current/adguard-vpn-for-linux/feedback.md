@@ -32,7 +32,7 @@ Yeni bir özelliğin veya hata düzeltmesinin uygulanmasını desteklemek istiyo
 
    `zip -rj ~/Downloads/logs.zip ~/Library/"Application Support"/adguardvpn-cli/*.log`
 
-4. Günlük dosyasını devteam@adguard.com adresine gönderin. Hatanın zamanını belirtin ve GitHub sorununuza veya numarasına bir bağlantı ekleyin (başlığın yanında #sayı olarak görünür). Alternatif olarak, günlük dosyasını Google Drive'a yükleyebilir ve devteam@adguard.com ile paylaşabilirsiniz. Dosya bağlantısını GitHub sorununuza ekleyin.
+4. Günlük dosyasını <devteam@adguard.com> adresine gönderin. Hatanın zamanını belirtin ve GitHub sorununuza veya numarasına bir bağlantı ekleyin (başlığın yanında #sayı olarak görünür). Alternatif olarak, günlük dosyasını Google Drive'a yükleyebilir ve <devteam@adguard.com> ile paylaşabilirsiniz. Dosya bağlantısını GitHub sorununuza ekleyin.
 
 5. Şunu yazarak hata ayıklama günlüğünü devre dışı bırakın:
 

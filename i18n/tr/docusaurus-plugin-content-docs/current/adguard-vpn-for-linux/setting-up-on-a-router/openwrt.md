@@ -85,7 +85,7 @@ Most Linux and macOS systems come with an SSH client pre-installed. For Windows,
 
 1. PuTTY'yi [resmi siteden](https://www.putty.org/) indirin ve kurun.
 
-2. Open PuTTY.
+2. PuTTY'yi açın.
 
 3. In the _Host Name (or IP address)_ field, enter your router’s IP address (e.g., `192.168.1.1`).
 

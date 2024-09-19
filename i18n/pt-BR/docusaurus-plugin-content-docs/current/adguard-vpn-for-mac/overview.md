@@ -39,7 +39,7 @@ Além disso, você pode não somente adicionar sites às Exclusões, mas também
 
 A lista de exclusão pode ser facilmente configurada. Se você adicionou um domínio e alguns de seus subdomínios, eles serão agrupados dentro do domínio raiz. Ao adicionar um domínio raiz (`exemplo.com`) sua máscara também é adicionada (`*.exemplo.com`).
 
-:::info Browsers added to Exclusions
+:::info Navegadores adicionados às Exclusões
 
 Starting with the version 2.4, all browsers are automatically added to the list of exclusions when the VPN is active only for selected apps and websites. This change brings more convenience for users who were often confused and didn’t know whether to consider their browsers as apps or not. Aplica-se nas seguintes condições:
 

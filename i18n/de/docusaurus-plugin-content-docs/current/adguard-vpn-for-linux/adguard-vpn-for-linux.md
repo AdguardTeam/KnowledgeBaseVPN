@@ -9,6 +9,7 @@ Im Folgenden finden Sie die Befehle, die Sie benötigen, um sich anzumelden, ein
 
 - [Installation und Entfernung](/adguard-vpn-for-linux/installation)
 - [Anmeldung, Verbindung und Aktualisierung](/adguard-vpn-for-linux/login)
+- [Setting up on a router](/adguard-vpn-for-linux/setting-up-on-a-router)
 - [Einstellungen](/adguard-vpn-for-linux/settings)
 - [Senden von Feedback](/adguard-vpn-for-linux/feedback)
 

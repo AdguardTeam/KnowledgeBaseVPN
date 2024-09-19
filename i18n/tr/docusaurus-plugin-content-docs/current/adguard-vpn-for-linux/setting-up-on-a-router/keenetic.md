@@ -27,11 +27,11 @@ To see how to set up SSH server to have optimal security settings, visit [the Ke
 
 1. Komut İstemi'ni açın:
 
-```bash
-ipconfig
-```
+   ```bash
+   ipconfig
+   ```
 
-1. Look for the _Default Gateway_ under your active network connection. This is your router’s IP address.
+2. Look for the _Default Gateway_ under your active network connection. This is your router’s IP address.
 
 ### On macOS and Linux
 
@@ -59,35 +59,35 @@ You’ll need an SSH client. Most Linux and macOS systems come with an SSH clien
 
 2. Run the SSH command:
 
-```bash
-ssh admin@192.168.1.1
-```
+   ```bash
+   ssh admin@192.168.1.1
+   ```
 
-Replace `192.168.1.1` with your router’s IP address.
+   Replace `192.168.1.1` with your router’s IP address.
 
-1. If this is your first time connecting to the router via SSH, you’ll see a message like this:
+3. If this is your first time connecting to the router via SSH, you’ll see a message like this:
 
-```text
+   ```text
    The authenticity of host '192.168.1.1 (192.168.1.1)' can't be established.
    ECDSA key fingerprint is SHA256:...
    Are you sure you want to continue connecting (yes/no/[fingerprint])?
-```
+   ```
 
-Type `yes` and press Enter.
+   Type `yes` and press Enter.
 
-1. Enter the router’s password when prompted. The default username is `root` and the default password is `keenetic`.
+4. Enter the router’s password when prompted. The default username is `root` and the default password is `keenetic`.
 
-### PuTTY (Windows 8 ve öncesi)
+### PuTTY (Windows 8 and earlier)
 
-1. PuTTY'yi [resmi siteden](https://www.putty.org/) indirin ve kurun.
+1. Download and install PuTTY from [the official website](https://www.putty.org/).
 
-2. PuTTY'yi açın.
+2. Open PuTTY.
 
 3. In the _Host Name (or IP address)_ field, enter your router’s IP address (e.g., `192.168.1.1`)
 
 4. Ensure the _Connection type_ is set to SSH.
 
-5. Aç öğesine tıklayın.
+5. Click _Open_.
 
 6. When the Terminal window opens, log in. The default username is `root` and the default password is `keenetic`.
 
@@ -133,13 +133,13 @@ When asked “Would you like to link the binary to /usr/local/bin?“, reply `n`
 ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
 ```
 
-## 6. AdGuard VPN CLI'yi yükle
+## 6. Set up AdGuard VPN CLI
 
-1. Hesabınıza giriş yapın
+1. Log in to your account
 
-   Linux için AdGuard VPN'i kullanmak için bir AdGuard hesabına ihtiyacınız vardır. You can sign up or log in on our [website](https://auth.adguard.com/login.html) or in Terminal.
+   To use AdGuard VPN for Linux, you need an AdGuard account. You can sign up or log in on our [website](https://auth.adguard.com/login.html) or in Terminal.
 
-   Before logging in, go to Terminal and make sure you are in the right shell interface. Eğer aşağıdaki metni görebiliyorsanız:
+   Before logging in, go to Terminal and make sure you are in the right shell interface. If you can see the following text:
 
    ```text
    KeeneticOS version 4.01.C.7.0-1, copyright (c) 2010-2024 Keenetic Ltd.
@@ -161,13 +161,13 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
    / #
    ```
 
-   Kaydolmak veya giriş yapmak için şunu yazın:
+   To sign up or log in, type:
 
    ```bash
    adguardvpn-cli login
    ```
 
-2. VPN'e bağlanın
+2. Connect to VPN
 
    For Keenetic routers, be sure to import the SSL certificate and select a folder for the user directory by running this command before connecting:
 
@@ -182,33 +182,33 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
 
    In general, the closer the server is to you, the faster the connection.
 
-   Mevcut konumları görüntülemek için şunu yazın:
+   To view available locations, type:
 
    ```bash
    adguardvpn-cli list-locations
    ```
 
-   Belirli bir konuma bağlanmak için şunu yazın:
+   To connect to a specific location, type:
 
    ```bash
-   adguardvpn-cli connect -l LOCATION_NAME
+   adguardvpn-cli connect -l LOCATION_NAME
    ```
 
    Replace `LOCATION_NAME` with the city, country, or ISO code of the location you want to connect to.
 
-   Hızlı bağlantı için şunu yazın:
+   For quick connect, type:
 
    ```bash
    adguardvpn-cli connect
    ```
 
-   AdGuard VPN en düşük ping değerine sahip konumu seçer ve gelecekteki hızlı bağlantılar için bunu hatırlar.
+   AdGuard VPN will choose the location with the lowest ping and remember it for future quick connections.
 
-3. Ayarlarınızı düzenleyin
+3. Adjust your settings
 
-   Mevcut tüm AdGuard VPN komutlarının bir listesini alın ve VPN istemcisini ihtiyaçlarınıza göre özelleştirin.
+   Get a list of all available AdGuard VPN commands and customize the VPN client to your needs.
 
-   Tüm komutları görüntülemek için şunu yazın:
+   To view all commands, type:
 
    ```bash
    adguardvpn-cli --help-all

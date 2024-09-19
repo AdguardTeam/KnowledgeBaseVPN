@@ -39,12 +39,12 @@ Nemusíte jen přidávat webové stránky do výjimek, ale také můžete vybír
 
 Seznam výjimek lze snadno nakonfigurovat. Pokud jste přidali doménu a některé její subdomény, budou seskupeny uvnitř kořenové domény. Při přidání kořenové domény (`example.com`) je přidána i její maska (`*.example.com`).
 
-:::info Browsers added to Exclusions
+:::info Prohlížeče přidané do výjimek
 
-Starting with the version 2.4, all browsers are automatically added to the list of exclusions when the VPN is active only for selected apps and websites. This change brings more convenience for users who were often confused and didn’t know whether to consider their browsers as apps or not. It applies under the following conditions:
+Od verze 2.4 jsou všechny prohlížeče automaticky přidány do seznamu výjimek, pokud je VPN aktivní pouze pro vybrané aplikace a webové stránky. Tato změna přináší větší pohodlí uživatelům, kteří byli často zmateni a nevěděli, zda mají své prohlížeče považovat za aplikace, nebo ne. Platí za následujících podmínek:
 
-- The user has installed AdGuard VPN for the first time
-- The user did not modify the Exclusions settings prior to v2.4
+- Uživatel nainstaloval AdGuard VPN poprvé
+- Uživatel nezměnil nastavení výjimek před verzí 2.4
 
 :::
 
@@ -89,7 +89,7 @@ Nakonec se dostáváme ke kartě Nastavení. V sekci *O programu* si můžete pr
 
 První čtyři základní funkce činí aplikaci pohodlnější a uživatelsky přívětivější, tj. *Kill Switch*, *automatické aktualizace*, *spuštění AdGuard VPN při přihlášení *a *automatické připojení při spuštění aplikace*. Navíc si můžete vybrat mezi světlým, tmavým a systémovým motivem — poslední jmenovaný motiv odpovídá motivu vašeho počítače Mac.
 
-You can also allow AdGuard VPN to gather and send anonymized crash reports, technical and interaction data in order to help us improve our app. V neposlední řadě můžete exportovat protokoly z vašeho Macu. To může být užitečné, pokud chcete ke zprávě na podporu připojit protokoly.
+Můžete také povolit AdGuard VPN shromažďovat a odesílat anonymizovaná hlášení o pádech aplikace, technické údaje a údaje o interakci, aby nám pomohla zlepšit naši aplikaci. V neposlední řadě můžete exportovat protokoly z vašeho Macu. To může být užitečné, pokud chcete ke zprávě na podporu připojit protokoly.
 
 ### DNS servery
 

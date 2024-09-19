@@ -41,27 +41,27 @@ Typiske standard IP-adresser på mange routere er `192.168.1.1` eller `192.16
 
 2. Kig efter _standard_-posten. IP-adressen ved siden af den er router IP-adressen.
 
-## 2) Make sure SSH and JFFS custom scripts are enabled on the router
+## 2) Sørg for, at tilpassede SSH- og JFFS-scripts er aktiverede på routeren
 
 Sørg først for, at routeren har SSH aktiveret. Denne indstilling findes normalt i routerens webgrænseflade. JFFS-tilpassede scripts vil blive brugt til at angive routingregler.
 
 1. Log ind på webgrænsefladen. Denne er typisk tilgængelig via en webbrowser på [`http://192.168.1.1`](http://192.168.1.1/). Ellers erstat [`192.168.1.1`](http://192.168.1.1/) med routerens reelle IP-adresse.
 
-2. Scroll down to _Advanced settings_, _Administration_ → _System_.
+2. Rul ned til _Avancerede indstillinger_, _Håndtering_ → _System_.
 
-3. Scroll to _Service_, click _Enable SSH_ → _LAN_.
+3. Rul til _Tjeneste_, klik på _Aktivér SSH_ → _LAN_.
 
-4. Select _22_ in _Port_ and _Yes_ in _Allow Password Login_.
+4. Vælg _22_ for _Port_ og _Ja_ for _Tillad adgangskodelogin_.
 
-5. Go up to _Persistent JFFS2 partition_ and enable _JFFS custom scripts and configs_.
+5. Gå op til _Vedvarende JFFS2-partition_ og aktivér _Tilpassede JFFS-scripts og opsætninger_.
 
-6. Click _Apply_ at the bottom of the page.
+6. Klik på _Anvend_ nederst på siden.
 
 ## 3) Brug en SSH-klient til at oprette forbindelse til routeren
 
 Der skal bruges en SSH-klient. De fleste Linux- og macOS-systemer leveres med en præinstalleret SSH-klient. I Windows kan man bruge PowerShell, den indbyggede SSH-klient i Windows 10/11 eller en tredjepartsapplikation såsom PuTTY.
 
-### Built-in SSH client (Linux, macOS, and Windows 10/11)
+### Indbygget SSH-klient (Linux, macOS og Windows 10/11)
 
 1. Åbn Terminal eller PowerShell.
 
@@ -76,9 +76,9 @@ Der skal bruges en SSH-klient. De fleste Linux- og macOS-systemer leveres med en
 3. Er første gang, der oprettes forbindelse til routeren via SSH, vises en meddelelse i stil med denne:
 
    ```text
-   The authenticity of host '192.168.1.1 (192.168.1.1)' can't be established.
-   ECDSA key fingerprint is SHA256:...
-   Are you sure you want to continue connecting (yes/no/[fingerprint])?
+   Ægtheden af værten '192.168.1.1 (192.168.1.1)' kan ikke fastslås.
+   ECDSA-nøglefingeraftryk er SHA256:...
+   Sikker på, at der fortsat skal oprettes forbindelse (ja/nej/[fingeraftryk])?
    ```
 
    Skriv "ja", og tryk på Retur.
@@ -89,10 +89,10 @@ Der skal bruges en SSH-klient. De fleste Linux- og macOS-systemer leveres med en
 
 1. Download og installér PuTTY fra [det officielle websted](https://www.putty.org/).
 2. Åbn PuTTY.
-3. In the _Host Name (or IP address)_ field, enter your router’s IP address (e.g., `192.168.1.1`).
-4. Make sure the _Connection type_ is set to SSH.
-5. Click _Open_.
-6. When the Terminal window opens, enter the router’s credentials. SSH login-brugernavnet og -adgangskoden er de samme som admin-legimationsoplysningerne.
+3. Angiv i feltet _Værtsnavn (eller IP-adresse)_ routerens IP-adresse (f.eks. `192.168.1.1`).
+4. Sørg for, at _Forbindelsestype_ er indstillet til SSH.
+5. Klik på _Åbn_.
+6. Når terminalvinduet åbnes, angiv routerens legitimationsoplysninger. SSH login-brugernavnet og -adgangskoden er de samme som admin-legimationsoplysningerne.
 
 ## 4) Installér Entware vha. SSH
 
@@ -182,7 +182,7 @@ modprobe tun
 
    Brug af AdGuard VPN til Linux kræver en AdGuard-konto.
 
-   You can sign up on our [website](https://auth.adguard.com/login.html) or in the Terminal.
+   Tilmeld eller log ind på vores [websted](https://auth.adguard.com/login.html) eller via Terminal.
 
    For at tilmelde eller logge ind, skriv:
 
@@ -268,9 +268,9 @@ Dette trin opsætter firewall-regler på en Asuswrt-Merlin router til rutning af
 
    Eksisterer flere brX-grænseflader, sørg da for at inkludere dem i scriptet for også at rute deres trafik. Alternativt, sørg for at angive en anden rutningsregel for disse grænseflader.
 
-   Dette script vil sikre, at al trafik passerer igennem VPN-tunnelen. After rebooting or reconnecting to the Internet, AdGuard VPN will connect automatically to your last used location.
+   Dette script vil sikre, at al trafik passerer igennem VPN-tunnelen. Efter genstart eller genoprettelse af internetforbindelsen opretter AdGuard VPN automatisk forbindelse til den senest brugte lokation.
 
-2. Reboot your router to finish setup.
+2. Genstart routeren for at færdiggøre opsætningen.
 
    Tillykke! Nu er routeren sikret med AdGuard VPN.
 

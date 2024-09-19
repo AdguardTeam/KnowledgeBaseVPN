@@ -35,7 +35,7 @@ V některých zemích není AdGuard VPN v App Store k dispozici. Pokud je to vá
 
    ![New region \*border](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/new_country.png)
 
-After changing the region, try [downloading AdGuard VPN from the App Store again](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602).
+Po změně regionu zkuste [znovu stáhnout AdGuard VPN z App Store](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602).
 
 ### Vytvoření nového účtu Apple a jeho propojení s App Store
 
@@ -43,7 +43,7 @@ Pro uživatele s předplatným v App Store, kteří potřebují stahovat pouze b
 
 **Kroky pro vytvoření nového účtu v jiné zemi:**
 
-1. Visit [https://appleid.apple.com/account](https://appleid.apple.com/account).
+1. Navštivte [https://appleid.apple.com/account](https://appleid.apple.com/account).
 
 2. Zadejte libovolné jméno a příjmení a vyberte zemi, například _Spojené státy americké_.
 
@@ -57,7 +57,7 @@ Nyní **připojte svůj nový účet k App Store**:
 
 1. Přejděte do _Nastavení_ a klepněte na své jméno.
 
-2. Vyberte _Média a nákupy_ → _Odhlásit se_. This will only sign you out of the App Store while keeping you signed in with your Apple ID on your phone.
+2. Vyberte _Média a nákupy_ → _Odhlásit se_. Tím se pouze odhlásíte z App Store a zároveň zůstanete přihlášeni ke svému Apple ID v telefonu.
 
 3. Znovu klepněte na _Média a nákupy_ a vyberte možnost _Není to [vaše jméno]?_ Budete vyzváni k přihlášení pomocí jiného Apple ID.
 
@@ -67,6 +67,6 @@ Nyní **připojte svůj nový účet k App Store**:
 
    ![Login \*mobile\_border](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/apple_id.png)
 
-To je vše! Now try to [download AdGuard VPN from the App Store](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602) again.
+To je vše! Nyní zkuste [stáhnout AdGuard VPN z App Store](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602) znovu.
 
 Tímto způsobem můžete vždy přepnout zpět na výchozí účet.

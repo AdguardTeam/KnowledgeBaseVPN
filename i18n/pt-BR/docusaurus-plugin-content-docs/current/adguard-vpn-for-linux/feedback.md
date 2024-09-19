@@ -32,7 +32,7 @@ Se você deseja apoiar a implementação de um novo recurso ou correção de bug
 
    `zip -rj ~/Downloads/logs.zip ~/Library/"Application Support"/adguardvpn-cli/*.log`
 
-4. Envie o arquivo de log para devteam@adguard.com. Especifique a hora do erro e anexe um link ao seu problema do GitHub ou seu número (ele aparece como #número ao lado do título). Como alternativa, você pode fazer upload do arquivo de log para o Google Drive e compartilhá-lo com devteam@adguard.com. Anexe o link do arquivo ao seu problema do GitHub.
+4. Envie o arquivo de log para <devteam@adguard.com>. Especifique a hora do erro e anexe um link ao seu problema do GitHub ou seu número (ele aparece como #número ao lado do título). Como alternativa, você pode fazer upload do arquivo de log para o Google Drive e compartilhá-lo com <devteam@adguard.com>. Anexe o link do arquivo ao seu problema do GitHub.
 
 5. Desative o registro de depuração digitando:
 

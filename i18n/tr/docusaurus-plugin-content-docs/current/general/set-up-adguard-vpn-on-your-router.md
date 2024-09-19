@@ -51,27 +51,27 @@ VPN sunucu konumunu değiştirmek istiyorsanız yönlendirici ayarlarınızı g�
 
 - Yönlendiricinizdeki AdGuard VPN ile ne VPN sağlayıcınız ne de başka biri internet etkinliğinize erişemez
 - Yönlendiricinize AdGuard VPN kurmak tüm ağınızı güvence altına alır, yani ağa bağlı tüm cihazlar korunur
-- You can enhance security and protect your data on devices where it’s not possible to install AdGuard VPN apps — media devices and game consoles
+- Medya cihazları ve oyun konsolları gibi AdGuard VPN uygulamalarını yüklemenin mümkün olmadığı cihazlarda güvenliği artırabilir ve verilerinizi koruyabilirsiniz
 
 ## AdGuard VPN ile bir yönlendiriciye bağlanabilen cihazlar
 
-- **PlayStation, Xbox, and Nintendo Switch**: To enjoy seamless online gaming and enhanced security on PS4, PS5, Xbox One, Xbox Series, and Nintendo Switch, [set up AdGuard VPN on your router](#how-to-set-up-adguard-vpn-on-your-router) and connect your console to it
+- **PlayStation, Xbox ve Nintendo Switch**: PS4, PS5, Xbox One, Xbox Series ve Nintendo Switch'te sorunsuz çevrimiçi oyun oynamanın ve gelişmiş güvenliğin keyfini çıkarmak için [yönlendiricinizde AdGuard VPN'i kurun](#how-to-set-up-adguard-vpn-on-your-router) ve konsolunuzu buna bağlayın
 
-- **Apple TV**: Follow the instructions to [set up AdGuard VPN on your router](#how-to-set-up-adguard-vpn-on-your-router), then connect your Apple TV
+- **Apple TV**: Yönlendiricinizde AdGuard VPN'i kurmak](#how-to-set-up-adguard-vpn-on-your-router) için talimatları izleyin, ardından Apple TV'nizi bağlayın
 
 - **Chromecast**:
 
   **For Gen 4:** Simply download and install [AdGuard VPN from Google Play](https://play.google.com/store/apps/details?id=com.adguard.vpn)
 
-  **For Gen 3:** Follow our guide to [set up AdGuard VPN on your router](#how-to-set-up-adguard-vpn-on-your-router). Make sure your TV and smartphone, tablet or computer are connected to the same network
+  **For Gen 3:** Follow our guide to [set up AdGuard VPN on your router](#how-to-set-up-adguard-vpn-on-your-router). TV'nizin ve akıllı telefon, tablet veya bilgisayarınızın aynı ağa bağlı olduğundan emin olun
 
-  For **Android TV**, you don’t need to set up AdGuard VPN on a router — we have a special version for Android TV. Sadece şu adımları izleyin:
+  **Android TV** için AdGuard VPN'i bir yönlendiriciye kurmanıza gerek yoktur — Android TV için özel bir sürümümüz var. Sadece şu adımları izleyin:
 
-  1. Install [AdGuard VPN from Google Play](https://play.google.com/store/apps/details?id=com.adguard.vpn) on your Android TV
-  2. If you already have an AdGuard account, log in with your credentials. AdGuard'da yeniyseniz e-posta adresinizi girin ve ekrandaki talimatları izleyin
+  1. Android TV'nize [Google Play'den AdGuard VPN](https://play.google.com/store/apps/details?id=com.adguard.vpn) yükleyin
+  2. Zaten bir AdGuard hesabınız varsa kimlik bilgilerinizle giriş yapın. AdGuard'da yeniyseniz e-posta adresinizi girin ve ekrandaki talimatları izleyin
   3. Uygulamayı açın, istediğiniz konumu seçin ve bağlanın
 
-## Routers known to be incompatible with AdGuard VPN
+## AdGuard VPN ile uyumsuz olduğu bilinen yönlendiriciler
 
 - **ASUS**
   - Only has IPsec in the _VPN Server_ settings, and not in the correct _VPN Fusion_/_VPN Client_ settings
