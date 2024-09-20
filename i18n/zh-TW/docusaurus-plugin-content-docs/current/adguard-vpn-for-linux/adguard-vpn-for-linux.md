@@ -9,6 +9,7 @@ AdGuard VPN for Linux 也稱為 AdGuard VPN CLI，是一個命令列 VPN 用戶�
 
 - [安裝和移除](/adguard-vpn-for-linux/installation)
 - [登入、連線與更新](/adguard-vpn-for-linux/login)
+- [Setting up on a router](/adguard-vpn-for-linux/setting-up-on-a-router)
 - [設定](/adguard-vpn-for-linux/settings)
 - [發送回饋](/adguard-vpn-for-linux/feedback)
 

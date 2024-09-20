@@ -9,6 +9,7 @@ Nedenfor er kommandoer til brug for at logge på, oprette forbindelse og håndte
 
 - [Installation og fjernelse](/adguard-vpn-for-linux/installation)
 - [Login, forbindelse og opdatering](/adguard-vpn-for-linux/login)
+- [Setting up on a router](/adguard-vpn-for-linux/setting-up-on-a-router)
 - [Indstillinger](/adguard-vpn-for-linux/settings)
 - [Feedbackindsendelse](/adguard-vpn-for-linux/feedback)
 

@@ -27,11 +27,11 @@ Die Standard-IP-Adresse der meisten Router lautet `192.168.1.1` oder `192.168
 
 1. Öffnen Sie die Eingabeaufforderung:
 
-```bash
-ipconfig
-```
+   ```bash
+   ipconfig
+   ```
 
-1. Suchen Sie den _Standardgateway_ unter Ihrer aktiven Netzwerkverbindung. Dies ist die IP-Adresse Ihres Routers.
+2. Suchen Sie den _Standardgateway_ unter Ihrer aktiven Netzwerkverbindung. Dies ist die IP-Adresse Ihres Routers.
 
 ### Unter macOS und Linux
 
@@ -59,23 +59,23 @@ Sie benötigen einen SSH-Client. Auf den meisten Linux- und macOS-Systemen ist e
 
 2. Führen Sie den folgenden SSH-Befehl aus:
 
-```bash
-ssh admin@192.168.1.1
-```
+   ```bash
+   ssh admin@192.168.1.1
+   ```
 
-Ersetzen Sie `192.168.1.1` durch die IP-Adresse Ihres Routers.
+   Ersetzen Sie `192.168.1.1` durch die IP-Adresse Ihres Routers.
 
-1. Wenn Sie sich zum ersten Mal über SSH mit dem Router verbinden, werden Sie eine Meldung sehen wie diese:
+3. Wenn Sie sich zum ersten Mal über SSH mit dem Router verbinden, werden Sie eine Meldung sehen wie diese:
 
-```text
+   ```text
    Die Authentizität des Hosts '192.168.1.1 (192.168.1.1)' konnte nicht festgestellt werden.
    Der Fingerabdruck des ECDSA-Schlüssels lautet SHA256:...
    Möchten Sie die Verbindung wirklich fortsetzen (Ja/Nein/[Fingerabdruck])?
-```
+   ```
 
-Geben Sie `Ja` ein und drücken Sie die Eingabetaste.
+   Geben Sie `Ja` ein und drücken Sie die Eingabetaste.
 
-1. Geben Sie das Passwort des Routers ein, wenn Sie dazu aufgefordert werden. Der Standard-Benutzername ist `root` und das Standard-Passwort ist `keenetic`.
+4. Geben Sie das Passwort des Routers ein, wenn Sie dazu aufgefordert werden. Der Standard-Benutzername ist `root` und das Standard-Passwort ist `keenetic`.
 
 ### PuTTY (Windows 8 und älter)
 
@@ -127,7 +127,7 @@ Wechseln Sie in den Ordner `/opt` durch Eingabe von `/cd opt` und führen Sie da
 curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/release/install.sh | sh -s -- -v
 ```
 
-Auf die Frage „Möchten Sie die Binärdatei nach /usr/local/bin linken?“ antworten Sie mit `n` und führen diese Zeile aus:
+Auf die Frage „Möchten Sie die Binärdatei nach /usr/local/bin verknüpfen?“ antworten Sie mit „n“ und führen diese Zeile aus:
 
 ```bash
 ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
@@ -144,7 +144,7 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
    ```text
    KeeneticOS version 4.01.C.7.0-1, copyright (c) 2010-2024 Keenetic Ltd.
 
-   THIS SOFTWARE IS A SUBJECT OF KEENETIC LIMITED END-USER LICENCE AGREEMENT. BY USING IT YOU AGREE ON TERMS AND CONDITIONS HEREOF. FOR MORE INFORMATION PLEASE CHECK https://keenetic.com/legal
+   DIESE SOFTWARE IST GEGENSTAND DER EINGESCHRÄNKTEN ENDBENUTZER-LIZENZVEREINBARUNG VON KEENETIC. DURCH DIE NUTZUNG STIMMEN SIE DEN BEDINGUNGEN DIESER VEREINBARUNG ZU. FÜR WEITERE INFORMATIONEN LESEN SIE BITTE https://keenetic.com/de/legal
    ```
 
    Führen Sie diesen Befehl aus, um in die für die nächsten Schritte benötigte Shell zu gelangen:
@@ -153,7 +153,7 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
    exec sh
    ```
 
-   Wenn dieser Text angezeigt wird, können Sie mit der Einrichtung fortfahren:
+   Wenn der folgende Text angezeigt wird, können Sie die Einrichtung fortsetzen:
 
    ```bash
    BusyBox v1.36.1 (2024-08-08 16:11:23 UTC) built-in shell (ash)
@@ -161,7 +161,7 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
    / #
    ```
 
-   Um sich zu registrieren oder anzumelden, geben Sie folgendes ein:
+   Um sich zu registrieren oder anzumelden, geben Sie Folgendes ein:
 
    ```bash
    adguardvpn-cli login
@@ -204,33 +204,33 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
 
    AdGuard VPN wählt den Standort mit dem niedrigsten Ping aus und speichert ihn für zukünftige Schnellverbindungen.
 
-3. Passen Sie Ihre Einstellungen an.
+3. Adjust your settings
 
-   Rufen Sie eine Liste aller verfügbaren AdGuard VPN-Befehle auf und passen Sie den VPN-Client an Ihre Bedürfnisse an.
+   Get a list of all available AdGuard VPN commands and customize the VPN client to your needs.
 
-   Um alle Befehle anzuzeigen, geben Sie ein:
+   To view all commands, type:
 
    ```bash
    adguardvpn-cli --help-all
    ```
 
-4. Geben Sie `yes` ein, wenn Sie gefragt werden: „Möchten Sie Standardrouten im TUN-Modus festlegen?“
+4. Enter `yes` when asked “Would you like to set default routes in TUN mode?”
 
-AdGuard VPN CLI erstellt eine tun0-Schnittstelle für VPN-Tunneling
+AdGuard VPN CLI will create a tun0 interface for VPN tunneling
 
-## 7. Firewall-Regeln einrichten
+## 7. Set up firewall rules
 
-Dieser Schritt dient dazu, Firewall-Regeln auf einem Keenetic-Router zu konfigurieren, um den Datenverkehr durch AdGuard VPN führen zu können.
+This step is designed to configure firewall rules on a Keenetic router to route traffic through AdGuard VPN.
 
-1. **Installieren Sie `iptables`, indem Sie diesen Befehl über SSH ausführen:**
+1. **Install `iptables` by running this command via SSH:**
 
    ```bash
    opkg install iptables
    ```
 
-   Dieser Befehl installiert das `iptables`-Paket, ein Werkzeug zur Verwaltung von Netzwerk-Paketfilterregeln auf Linux-Systemen.
+   This line installs the `iptables` package, which is a tool for managing network packet filtering rules on Linux systems.
 
-2. **Erstellen Sie ein neues Shell-Skript, indem Sie den folgenden Befehl ausführen:**
+2. **Create a new shell script by running the following command:**
 
    ```bash
 
@@ -247,23 +247,23 @@ Dieser Schritt dient dazu, Firewall-Regeln auf einem Keenetic-Router zu konfigur
    EOF
    ```
 
-   Und machen Sie es ausführbar:
+   And make it executable:
 
    ```bash
    chmod +x /opt/etc/ndm/netfilter.d/001-adguardvpn.sh
    ```
 
-   Wenn Sie über weitere brX-Schnittstellen verfügen, sollten Sie diese ebenfalls in das Skript einbeziehen, um deren Datenverkehr umzuleiten. Alternativ können Sie auch eine andere Routing-Regel für diese Schnittstellen angeben.
+   If you have more brX interfaces, make sure to include them in the script as well to route their traffic. Alternatively, make sure to specify a different routing rule for those interfaces.
 
-Dadurch wird ein neues Shell-Skript mit dem Namen `001-adguardvpn.sh` im Ordner `/opt/etc/ndm/netfilter.d/` erstellt, in dem netzwerkbezogene Skripte normalerweise auf einem Keenetic-Router gespeichert werden.
+This will create a new shell script named `001-adguardvpn.sh` in the `/opt/etc/ndm/netfilter.d/` directory, which is where network-related scripts are typically stored on a Keenetic router.
 
-Das Skript erstellt eine benutzerdefinierte Firewall-Regel, um sicherzustellen, dass der Datenverkehr aus Ihrem LAN (`br0`) über die AdGuard VPN-Schnittstelle (`tun0`) geleitet wird. Er bereinigt zunächst alle früheren Regeln, die sich auf diese Konfiguration beziehen, und erstellt anschließend neue Regeln, um den Datenverkehr entsprechend zu leiten.
+The script creates a custom firewall rule to ensure that traffic from your LAN (`br0`) is routed through the AdGuard VPN interface (`tun0`). It first cleans up any previous rules related to this configuration, then sets up new rules to direct the traffic appropriately.
 
-## 8. Automatischen Start für AdGuard VPN CLI einrichten
+## 8. Set up automatic launch for AdGuard VPN CLI
 
-Das folgende Skript baut automatisch eine VPN-Verbindung mit AdGuard VPN auf Ihrem Keenetic-Router auf, sobald die WAN-Schnittstelle verfügbar ist (z.B. nach einem Neustart oder einer erneuten Verbindung zum Internet).
+The following script is designed to automatically establish a VPN connection using AdGuard VPN on your Keenetic router when the WAN interface becomes available (e.g., after a reboot or reconnecting to the Internet).
 
-Führen Sie den folgenden Befehl aus:
+Run the following command:
 
 ```bash
 cat << E0F > /opt/etc/ndm/wan.d/001-adguardvpn.sh
@@ -275,16 +275,16 @@ exit 0
 E0F
 ```
 
-Und machen Sie es ausführbar:
+And make it executable:
 
 ```bash
 chmod +x /opt/etc/ndm/wan.d/001-adguardvpn.sh
 ```
 
-Das Skript namens `001-adguardvpn.sh` wird in `/opt/etc/ndm/wan.d/` gespeichert.
+The script named `001-adguardvpn.sh` will be saved to `/opt/etc/ndm/wan.d/`.
 
-AdGuard VPN wird gestartet, sobald eine Internetverbindung besteht.
+It will start AdGuard VPN when Internet is connected.
 
-Starten Sie Ihren Router neu, um die Einrichtung abzuschließen.
+Reboot your router to finish setup.
 
-Das war's! Jetzt haben Sie einen mit AdGuard VPN gesicherten Router.
+Congrats! Now you have a router secured with AdGuard VPN.

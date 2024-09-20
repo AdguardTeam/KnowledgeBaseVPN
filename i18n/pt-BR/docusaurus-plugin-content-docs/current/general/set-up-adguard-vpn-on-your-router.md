@@ -3,11 +3,11 @@ title: Como configurar o AdGuard VPN em seu roteador
 sidebar_position: 8
 ---
 
-By setting up AdGuard VPN on your router, you can protect your data on devices where you cannot install VPN apps, such as media devices and game consoles.
+Ao configurar o AdGuard VPN em seu roteador, você pode proteger seus dados em dispositivos onde não é possível instalar aplicativos VPN, como Smart TVs e consoles.
 
 :::note
 
-This option is only available if you have an AdGuard VPN subscription and your router supports IPsec in its _VPN Client_ (**Not** _VPN Server_) settings.
+Esta opção só estará disponível se você tiver uma assinatura VPN do AdGuard e seu roteador suportar IPsec nas configurações de _Cliente VPN_ (**Não** _Servidor VPN_).
 
 :::
 
@@ -33,7 +33,7 @@ This option is only available if you have an AdGuard VPN subscription and your r
 
 5. Ative _Cliente VPN_ e clique em _Adicionar servidor VPN_.
 
-6. Select IPsec-client (it may for some router brands be called IKEv2; not L2TP/IPsec).
+6. Selecione IPsec-client (pode ser chamado de IKEv2; e não L2TP/IPsec).
 
 7. Insira as credenciais que você criou na etapa 3.
 
@@ -51,11 +51,11 @@ Você precisará atualizar as configurações do roteador se quiser alterar o lo
 
 - Com o AdGuard VPN em seu roteador, nem seu provedor de VPN nem qualquer outra pessoa tem acesso à sua atividade na Internet
 - Instalar o AdGuard VPN em seu roteador protege toda a sua rede, o que significa que todos os dispositivos conectados a ele estão protegidos
-- You can enhance security and protect your data on devices where it’s not possible to install AdGuard VPN apps — media devices and game consoles
+- Você pode aumentar a segurança e proteger seus dados em dispositivos onde não é possível instalar aplicativos AdGuard VPN - Smart TVs e consoles
 
 ## Dispositivos que podem ser conectados a um roteador com AdGuard VPN
 
-- **PlayStation, Xbox, and Nintendo Switch**: To enjoy seamless online gaming and enhanced security on PS4, PS5, Xbox One, Xbox Series, and Nintendo Switch, [set up AdGuard VPN on your router](#how-to-set-up-adguard-vpn-on-your-router) and connect your console to it
+- **PlayStation, Xbox e Nitendo Switch**: Para desfrutar de jogos online perfeitos e segurança aprimorada no PS4, PS5, Xbox Series e Nitendo Switch, [configure o AdGuard VPN em seu roteador](#como-configurar-o-adguard-vpn-em-seu-roteador) e conecte seu console a ele
 
 - **Apple TV**: Siga as instruções para [configurar o AdGuard VPN em seu roteador](#como-configurar-o-adguard-vpn-em-seu-roteador) e, em seguida, conecte sua Apple TV
 
@@ -71,8 +71,8 @@ Você precisará atualizar as configurações do roteador se quiser alterar o lo
   2. Se você já possui uma conta do AdGuard, faça login com suas credenciais. Se você é novo no AdGuard, insira seu endereço de e-mail e siga as instruções na tela
   3. Abra o aplicativo, selecione o local desejado e conecte-se
 
-## Routers known to be incompatible with AdGuard VPN
+## Roteadores conhecidos por serem incompatíveis com o AdGuard VPN
 
 - **ASUS**
-  - Only has IPsec in the _VPN Server_ settings, and not in the correct _VPN Fusion_/_VPN Client_ settings
+  - Possui apenas IPsec nas configurações do _Servidor VPN_ e não nas configurações do _VPN Fusion_/_Cliente VPN_
 - **FRITZ!Box**

@@ -15,7 +15,7 @@ AdGuard VPN pro Windows má mnoho výhod, proto jsme tomu věnovali [samostatný
 
 ## Jak začít používat AdGuard VPN pro Windows
 
-Chcete-li začít používat AdGuard VPN pro Windows, stáhněte si aplikaci z [našich webových stránek](https://adguard-vpn.com/welcome.html). Instalace netrvá déle než minutu — zobrazí se dialogové okno, ve kterém je třeba zaškrtnout alespoň jedno políčko s podmínkami uživatelské smlouvy a zásady ochrany osobních údajů. And it's up to you to decide whether you want AdGuard to collect anonymized data about your app usage. Nakonec vás program požádá o přihlášení, a to buď prostřednictvím účtu [AdGuard](https://auth.adguard.com/login.html), nebo prostřednictvím sociálních sítí (Apple, Google, Facebook). To je vše, nyní můžete používat AdGuard VPN pro Windows.
+Chcete-li začít používat AdGuard VPN pro Windows, stáhněte si aplikaci z [našich webových stránek](https://adguard-vpn.com/welcome.html). Instalace netrvá déle než minutu — zobrazí se dialogové okno, ve kterém je třeba zaškrtnout alespoň jedno políčko s podmínkami uživatelské smlouvy a zásady ochrany osobních údajů. Je na vás, zda chcete, aby AdGuard shromažďoval anonymizovaná data o používání aplikací. Nakonec vás program požádá o přihlášení, a to buď prostřednictvím účtu [AdGuard](https://auth.adguard.com/login.html), nebo prostřednictvím sociálních sítí (Apple, Google, Facebook). To je vše, nyní můžete používat AdGuard VPN pro Windows.
 
 ## Domovská obrazovka
 
@@ -43,18 +43,18 @@ Při ručním přidávání domén byste měli vzít v úvahu určité podrobnos
 
 Doporučujeme použít možnost **Ze seznamu**. Weby jsou rozděleny do osmi kategorií: sociální sítě, messengery, služby pro streamování videa a hudby, hry, nakupování, vyhledávače a nástroje pro pracovní komunikaci. Umístili jsme tam nejoblíbenější služby, včetně všech názvů domén a subdomén souvisejících s každou platformou.
 
-:::info Browsers added to Exclusions
+:::info Prohlížeče přidané do výjimek
 
-Starting with the version 2.4, all browsers are automatically added to the list of exclusions when the VPN is active only for selected apps and websites. This change brings more convenience for users who were often confused and didn’t know whether to consider their browsers as apps or not. It applies under the following conditions:
+Od verze 2.4 jsou všechny prohlížeče automaticky přidány do seznamu výjimek, pokud je VPN aktivní pouze pro vybrané aplikace a webové stránky. Tato změna přináší větší pohodlí uživatelům, kteří byli často zmateni a nevěděli, zda mají své prohlížeče považovat za aplikace, nebo ne. Platí za následujících podmínek:
 
-- The user has installed AdGuard VPN for the first time
-- The user did not modify the Exclusions settings prior to v2.4
+- Uživatel nainstaloval AdGuard VPN poprvé
+- Uživatel nezměnil nastavení výjimek před verzí 2.4
 
 :::
 
 ### Import/export seznamů výjimek
 
-Chcete-li exportovat seznam výjimek z AdGuard VPN pro Windows do počítače, klikněte na **Exportovat výjimky**, vyberte složku, do které bude seznam uložen, a klikněte na **Uložit**. The archive `exclusions.zip` with two `.txt` files will be downloaded, one for each of the lists. Můžete je upravit přidáním nových výjimek nebo odstraněním starých.
+Chcete-li exportovat seznam výjimek z AdGuard VPN pro Windows do počítače, klikněte na **Exportovat výjimky**, vyberte složku, do které bude seznam uložen, a klikněte na **Uložit**. Stáhne se archiv `exclusions.zip` se dvěma soubory `.txt`, jeden pro každý ze seznamů. Můžete je upravit přidáním nových výjimek nebo odstraněním starých.
 
 V cílovém zařízení otevřete AdGuard VPN, klikněte na *Výjimky* a vyberte *Webové stránky* nebo *Aplikace*. Klikněte na *Importovat výjimky* a vyberte přijatý archiv.
 

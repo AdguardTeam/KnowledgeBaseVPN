@@ -7,7 +7,7 @@ I visse regioner, såsom Kina, Iran og Rusland, kan brugere have problemer med a
 
 ## Adgang til AdGuard VPNs websted
 
-Er adguard-vpn.com ikke er tilgængelig, prøv da at tilgå [spejlingswebstedet](https://adguardvpn-help.com/).
+If adguard-vpn.com is not accessible, try using the [mirror website](https://adguardvpn-help.info/).
 
 :::info
 
@@ -25,15 +25,15 @@ Efter man har ændret region eller knyttet en anden konto til App Store, [instal
 
 ### AdGuard VPN til Android
 
-Opleves problemer på Google Play, download i stedet APK-filen fra [AdGuard VPNs spejlwebsted](https://adguardvpn-help.com/android/overview.html).
+If you experience problems with Google Play, download the APK file from [AdGuard VPN’s mirror website](https://adguardvpn-help.info/android/overview.html).
 
 ### AdGuard VPN til Mac
 
-Download installationsfilen fra [AdGuard VPNs spejlwebsted](https://adguardvpn-help.com/windows/overview.html).
+Download the installation file from [AdGuard VPN’s mirror website](https://adguardvpn-help.info/windows/overview.html).
 
 ### AdGuard VPN til Windows
 
-Download installationsfilen fra [AdGuard VPNs spejlwebsted](https://adguardvpn-help.com/mac/overview.html).
+Download the installation file from [AdGuard VPN’s mirror website](https://adguardvpn-help.info/mac/overview.html).
 
 ## Andre nyttige tips
 

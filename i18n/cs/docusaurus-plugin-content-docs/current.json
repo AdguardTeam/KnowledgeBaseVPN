@@ -52,7 +52,7 @@
     "description": "The label for category AdGuard VPN for Linux in sidebar sidebar"
   },
   "sidebar.sidebar.category.Setting up on a router": {
-    "message": "Setting up on a router",
+    "message": "Nastavení na routeru",
     "description": "The label for category Setting up on a router in sidebar sidebar"
   }
 }

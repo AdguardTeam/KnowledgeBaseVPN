@@ -7,7 +7,7 @@ Em alguns países, o AdGuard VPN não está disponível na App Store. Se esse fo
 
 - Se você não tiver nenhuma assinatura ativa na App Store, pode **alterar a região da sua conta atual**
 
-- Se você tiver assinaturas ativas que deseja manter, pode **criar uma nova conta Apple e vinculá-la à App Store**
+- Se você tiver assinaturas ativas que deseja manter, pode **criar uma nova conta na Apple e vinculá-la à App Store**
 
 ### Alterando a região da sua conta atual
 

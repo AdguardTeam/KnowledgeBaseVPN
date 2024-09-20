@@ -41,27 +41,27 @@ Die Standard-IP-Adresse der meisten Router lautet `192.168.1.1` oder `192.168
 
 2. Suchen Sie nach dem Eintrag _default_. Die IP-Adresse daneben ist die IP-Adresse Ihres Routers.
 
-## 2) Make sure SSH and JFFS custom scripts are enabled on the router
+## 2) Stellen Sie sicher, dass die benutzerdefinierten SSH- und JFFS-Skripte auf dem Router aktiviert sind
 
 Stellen Sie zunächst sicher, dass der SSH-Zugang auf Ihrem Router aktiviert ist. Diese Einstellung finden Sie in der Regel auf der Weboberfläche des Routers. JFFS-Skripte werden zur Festlegung von Routing-Regeln verwendet.
 
 1. Melden Sie sich an der Weboberfläche an. Diese ist in der Regel über einen Webbrowser unter [`http://192.168.1.1`](http://192.168.1.1/) zugänglich. Andernfalls ersetzen Sie [`192.168.1.1`](http://192.168.1.1/) durch die IP-Adresse Ihres Routers.
 
-2. Scroll down to _Advanced settings_, _Administration_ → _System_.
+2. Blättern Sie nach unten zu _Erweiterte Einstellungen_, _Verwaltung_ ➜ _System_.
 
-3. Scroll to _Service_, click _Enable SSH_ → _LAN_.
+3. Blättern Sie zu _Service_, klicken Sie auf _SSH aktivieren_ ➜ _LAN_.
 
-4. Select _22_ in _Port_ and _Yes_ in _Allow Password Login_.
+4. Wählen Sie _22_ unter _Port_ und _Ja_ unter _Passwortanmeldung zulassen_.
 
-5. Go up to _Persistent JFFS2 partition_ and enable _JFFS custom scripts and configs_.
+5. Öffnen Sie die _Persistente JFFS2-Partition_ und aktivieren Sie _Benutzerdefinierte JFFS-Skripte und -Konfigurationen_.
 
-6. Click _Apply_ at the bottom of the page.
+6. Klicken Sie unten auf der Seite auf _Anwenden_.
 
 ## 3) Verwenden Sie einen SSH-Client, um sich mit dem Router zu verbinden
 
 Sie benötigen einen SSH-Client. Auf den meisten Linux- und macOS-Systemen ist ein SSH-Client vorinstalliert. Unter Windows können Sie PowerShell, den integrierten SSH-Client in Windows 10/11 oder eine Anwendung eines Drittanbieters wie PuTTY verwenden.
 
-### Built-in SSH client (Linux, macOS, and Windows 10/11)
+### Integrierter SSH-Client (Linux, macOS und Windows 10/11)
 
 1. Öffnen Sie die Eingabeaufforderung oder die PowerShell.
 
@@ -76,9 +76,9 @@ Sie benötigen einen SSH-Client. Auf den meisten Linux- und macOS-Systemen ist e
 3. Wenn Sie sich zum ersten Mal über SSH mit dem Router verbinden, werden Sie eine Meldung sehen wie diese:
 
    ```text
-   The authenticity of host '192.168.1.1 (192.168.1.1)' can't be established.
-   ECDSA key fingerprint is SHA256:...
-   Are you sure you want to continue connecting (yes/no/[fingerprint])?
+   Die Authentizität des Hosts '192.168.1.1 (192.168.1.1)' konnte nicht festgestellt werden.
+   Der Fingerabdruck des ECDSA-Schlüssels lautet SHA256:...
+   Möchten Sie die Verbindung wirklich fortsetzen (Ja/Nein/[Fingerabdruck])?
    ```
 
    Geben Sie `Ja` ein und drücken Sie die Eingabetaste.
@@ -89,10 +89,10 @@ Sie benötigen einen SSH-Client. Auf den meisten Linux- und macOS-Systemen ist e
 
 1. Laden Sie PuTTY von [der offiziellen Website](https://www.putty.org/) herunter und installieren Sie es.
 2. Öffnen Sie PuTTY.
-3. In the _Host Name (or IP address)_ field, enter your router’s IP address (e.g., `192.168.1.1`).
-4. Make sure the _Connection type_ is set to SSH.
-5. Click _Open_.
-6. When the Terminal window opens, enter the router’s credentials. Der SSH-Benutzername und das Passwort sind identisch mit den Admin-Anmeldedaten.
+3. Geben Sie in das Feld _Hostname (oder IP-Adresse)_ die IP-Adresse Ihres Routers ein (z.B. `192.168.1.1`).
+4. Stellen Sie sicher, dass der _Verbindungstyp_ auf SSH eingestellt ist.
+5. Klicken Sie auf _Öffnen_.
+6. Wenn das Terminalfenster geöffnet wird, geben Sie die Anmeldedaten des Routers ein. Der SSH-Benutzername und das Passwort sind identisch mit den Admin-Anmeldedaten.
 
 ## 4) Entware über SSH installieren
 
@@ -182,7 +182,7 @@ modprobe tun
 
    Um AdGuard VPN für Linux nutzen zu können, benötigen Sie ein AdGuard-Konto.
 
-   You can sign up on our [website](https://auth.adguard.com/login.html) or in the Terminal.
+   Sie können sich auf unserer [Website](https://auth.adguard.com/login.html) oder im Terminal anmelden.
 
    Um sich zu registrieren oder anzumelden, geben Sie folgendes ein:
 
@@ -268,9 +268,9 @@ In diesem Schritt werden Firewall-Regeln auf einem Asuswrt-Merlin-Router konfigu
 
    Wenn Sie über weitere brX-Schnittstellen verfügen, sollten Sie diese ebenfalls in das Skript einbeziehen, um deren Datenverkehr umzuleiten. Alternativ können Sie auch eine andere Routing-Regel für diese Schnittstellen angeben.
 
-   Dieses Skript stellt sicher, dass der gesamte Datenverkehr durch den VPN-Tunnel geleitet wird. After rebooting or reconnecting to the Internet, AdGuard VPN will connect automatically to your last used location.
+   Dieses Skript stellt sicher, dass der gesamte Datenverkehr durch den VPN-Tunnel geleitet wird. Nach einem Neustart oder einer erneuten Verbindung mit dem Internet stellt AdGuard VPN automatisch eine Verbindung zu Ihrem zuletzt verwendeten Standort her.
 
-2. Reboot your router to finish setup.
+2. Starten Sie Ihren Router neu, um die Einrichtung abzuschließen.
 
    Das war's! Jetzt haben Sie einen mit AdGuard VPN gesicherten Router.
 
