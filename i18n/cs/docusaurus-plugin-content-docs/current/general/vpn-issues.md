@@ -3,11 +3,11 @@ title: 'Jak používat AdGuard VPN v zemích s internetovými omezeními'
 sidebar_position: 10
 ---
 
-In certain regions, such as China, Iran, and Russia, users might experience problems connecting to AdGuard VPN. Zde jsou možnosti, které by mohly pomoci.
+V některých oblastech, jako je Čína, Írán a Rusko, mohou mít uživatelé problémy s připojením k AdGuard VPN. Zde jsou možnosti, které by mohly pomoci.
 
 ## Přístup na webové stránky AdGuard VPN
 
-Pokud stránka adguard-vpn.com není přístupná zkuste použít [zrcadlený web](https://adguardvpn-help.com/).
+Pokud stránka adguard-vpn.com není přístupná zkuste použít [zrcadlený web](https://adguardvpn-help.info/).
 
 :::info
 
@@ -25,15 +25,15 @@ Po změně regionu nebo propojení jiného účtu s App Store [nainstalujte AdGu
 
 ### AdGuard VPN pro Android
 
-If you experience problems with Google Play, download the APK file from [AdGuard VPN’s mirror website](https://adguardvpn-help.com/android/overview.html).
+Pokud máte problémy s Obchodem Google Play, stáhněte si soubor APK ze [zrcadleného webu AdGuard VPN](https://adguardvpn-help.info/android/overview.html).
 
 ### AdGuard VPN pro macOS
 
-Stáhněte si instalační soubor ze [zrcadleného webu AdGuard VPN](https://adguardvpn-help.com/windows/overview.html).
+Stáhněte si instalační soubor ze [zrcadleného webu AdGuard VPN](https://adguardvpn-help.info/windows/overview.html).
 
 ### AdGuard VPN pro Windows
 
-Stáhněte si instalační soubor ze [zrcadleného webu AdGuard VPN](https://adguardvpn-help.com/mac/overview.html).
+Stáhněte si instalační soubor ze [zrcadleného webu AdGuard VPN](https://adguardvpn-help.info/mac/overview.html).
 
 ## Další užitečné tipy
 

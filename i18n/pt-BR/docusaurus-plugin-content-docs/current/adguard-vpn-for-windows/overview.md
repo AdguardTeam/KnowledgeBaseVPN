@@ -15,7 +15,7 @@ O AdGuard VPN para Windows tem muitas vantagens, por isso dedicamos [um artigo s
 
 ## Como começar a usar o AdGuard VPN para Windows
 
-Para começar a usar o AdGuard VPN para Windows, baixe o aplicativo em [nosso site](https://adguard-vpn.com/welcome.html). A instalação não leva mais de um minuto — e você verá uma janela de diálogo onde precisará marcar pelo menos uma caixa aplicando os termos do Contrato do Usuário e a Política de Privacidade. And it's up to you to decide whether you want AdGuard to collect anonymized data about your app usage. Por fim, o programa solicitará que você faça login, seja por meio da [conta do AdGuard](https://auth.adguard.com/login.html) ou por meio de redes sociais (Apple, Google, Facebook). Isso é tudo, agora você pode usar o AdGuard VPN para Windows.
+Para começar a usar o AdGuard VPN para Windows, baixe o aplicativo em [nosso site](https://adguard-vpn.com/welcome.html). A instalação não leva mais de um minuto — e você verá uma janela de diálogo onde precisará marcar pelo menos uma caixa aplicando os termos do Contrato do Usuário e a Política de Privacidade. E cabe a você decidir se deseja que o AdGuard colete dados anônimos sobre o uso do seu aplicativo. Por fim, o programa solicitará que você faça login, seja por meio da [conta do AdGuard](https://auth.adguard.com/login.html) ou por meio de redes sociais (Apple, Google, Facebook). Isso é tudo, agora você pode usar o AdGuard VPN para Windows.
 
 ## Tela inicial
 
@@ -43,18 +43,18 @@ Ao adicionar domínios manualmente, você deve levar em consideração certos de
 
 Recomendamos usar a opção **Da lista**. Os sites são agrupados em oito categorias: Redes sociais, Mensageiros, Serviços de streaming de vídeo e música, Jogos, Compras, Mecanismos de pesquisa e Ferramentas de comunicação de trabalho. Colocamos os serviços mais populares lá, incluindo todos os nomes de domínio e subdomínios relacionados a cada plataforma.
 
-:::info Browsers added to Exclusions
+:::info Navegadores adicionados às Exclusões
 
-Starting with the version 2.4, all browsers are automatically added to the list of exclusions when the VPN is active only for selected apps and websites. This change brings more convenience for users who were often confused and didn’t know whether to consider their browsers as apps or not. Aplica-se nas seguintes condições:
+A partir da versão 2.4, todos os navegadores são adicionados automaticamente à lista de exclusões quando a VPN está ativa apenas para aplicativos e sites selecionados. Essa mudança traz mais conveniência para usuários que muitas vezes ficavam confusos e não sabiam se deveriam considerar seus navegadores como aplicativos ou não. Aplica-se nas seguintes condições:
 
-- The user has installed AdGuard VPN for the first time
-- The user did not modify the Exclusions settings prior to v2.4
+- O usuário instalou o AdGuard VPN pela primeira vez
+- O usuário não modificou as configurações de Exclusões antes da v2.4
 
 :::
 
 ### Importar/exportar listas de exclusões
 
-Para exportar a lista de exclusões do AdGuard VPN para Windows para o seu computador, clique em **Exportar exclusões**, selecione a pasta onde a lista será armazenada e clique em **Salvar**. The archive `exclusions.zip` with two `.txt` files will be downloaded, one for each of the lists. Você pode editá-los adicionando novas exclusões ou excluindo antigas.
+Para exportar a lista de exclusões do AdGuard VPN para Windows para o seu computador, clique em **Exportar exclusões**, selecione a pasta onde a lista será armazenada e clique em **Salvar**. Um arquivo `exclusions.zip` com dois arquivos `.txt` será baixado, um para cada lista. Você pode editá-los adicionando novas exclusões ou excluindo antigas.
 
 No dispositivo de destino, abra o AdGuard VPN, clique em *Exclusões* e selecione *Sites* ou *Aplicativos*. Clique em *Importar exclusões* e selecione o arquivo recebido.
 

@@ -43,7 +43,7 @@ Bu VPN protokollerine ek olarak başkaları da vardır (örneğin, TLS, SSTP, IK
 
 <object data="https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/6.svg?nc=1" type="image/svg+xml"><img src="https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/6.svg?nc=1" alt="protocol 6" /> </object>
 
-AdGuard VPN'in ayrıca kendi [_protokolü_](/general/adguard-vpn-protocol) vardır. Avantajlarından biri, AdGuard VPN protokolü kullanılarak iletilen trafiğin normal trafikten ayırt edilmesinin zor olmasıdır. The VPN tunnel looks like normal HTTPS traffic, making it extremely difficult to detect and block. Ayrıca, yüksek bağlantı hızı sağlayan modern HTTP/2 protokolünün mekanizmalarına dayanmaktadır.
+AdGuard VPN'in ayrıca kendi [_protokolü_](/general/adguard-vpn-protocol) vardır. Avantajlarından biri, AdGuard VPN protokolü kullanılarak iletilen trafiğin normal trafikten ayırt edilmesinin zor olmasıdır. VPN tüneli normal HTTPS trafiği gibi görünür, bu da tespit edilmesini ve engellenmesini son derece zorlaştırır. Ayrıca, yüksek bağlantı hızı sağlayan modern HTTP/2 protokolünün mekanizmalarına dayanmaktadır.
 
 <object data="https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/5.svg?nc=1" type="image/svg+xml"><img src="https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/5.svg?nc=1" alt="protocol 5" /></object>
 
@@ -69,7 +69,7 @@ VPN hizmetimizin birkaç önemli [avantajı](/general/why-adguard-vpn) vardır:
 
 - [_Tescilli VPN protokolü_](/general/adguard-vpn-protocol), yavaş bir İnternet bağlantısıyla bile kararlı bir şekilde çalışan ve kendisini normal trafik olarak gizleyerek izlemeyi ve engellemeyi daha zor hâle getirir
 
-- [_No-logging policy_](https://adguard-vpn.com/privacy.html), which means no personal data can be shared with third parties because AdGuard VPN never collects such data
+- [_Günlük tutmama politikası_](https://adguard-vpn.com/privacy.html), AdGuard VPN'in asla bu tür verileri toplamaması nedeniyle hiçbir kişisel verinin üçüncü taraflarla paylaşılamayacağı anlamına gelir
 
 - _Onlarca ülkede 50'den fazla VPN sunucusu_
 
@@ -83,8 +83,8 @@ VPN hizmetimizin birkaç önemli [avantajı](/general/why-adguard-vpn) vardır:
 
 - [Windows](/adguard-vpn-for-windows/overview) ve [Mac](/adguard-vpn-for-mac/overview) için masaüstü uygulaması
 
-- Command-line interface for [Linux, Mac, and some routers](/adguard-vpn-for-linux/)
+- [Linux, Mac ve bazı yönlendiriciler](/adguard-vpn-for-linux/) için komut satırı arayüzü
 
-- A VPN client for [routers](/general/set-up-adguard-vpn-on-your-router/)
+- [Yönlendiriciler](/general/set-up-adguard-vpn-on-your-router/) için bir VPN istemcisi
 
 [AdGuard VPN özellikleri hakkında daha fazla bilgi edinin](https://adguard-vpn.com/welcome.html)

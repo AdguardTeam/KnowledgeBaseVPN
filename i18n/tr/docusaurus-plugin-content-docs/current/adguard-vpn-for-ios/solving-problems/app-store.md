@@ -13,9 +13,9 @@ Bazı ülkelerde AdGuard VPN, App Store'da mevcut değildir. Durumunuz buysa uyg
 
 1. Go to the Apple ID screen and tap _Media & Purchases_ → _View Account_.
 
-2. Tap _Country/Region_ → _Change Country or Region_.
+2. _Ülke/Bölge_ → _Ülke veya Bölgeyi Değiştir_ öğesine dokunun.
 
-   ![Changing region](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/changing_country.png)
+   ![Bölge değiştiriliyor](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/changing_country.png)
 
 3. Select your preferred country from the list (e.g., _United States_) and agree to the Terms and Conditions.
 
@@ -35,11 +35,11 @@ Bazı ülkelerde AdGuard VPN, App Store'da mevcut değildir. Durumunuz buysa uyg
 
    ![Yeni bölge \*border](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/new_country.png)
 
-After changing the region, try [downloading AdGuard VPN from the App Store again](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602).
+Bölgeyi değiştirdikten sonra, [AdGuard VPN'i App Store'dan tekrar indirmeyi](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602) deneyin.
 
-### Creating a new Apple account and linking it to the App Store
+### Yeni bir Apple hesabı oluşturma ve hesabı App Store'a bağlama
 
-For users with paid subscriptions in the App Store who only need to download free apps from different regions, creating a new account in another country is a more convenient option. This way, you can use your primary account at the system level on your phone and activate the second account solely for the App Store without needing to log out of your iPhone account.
+App Store'da ücretli abonelikleri olan ve yalnızca farklı bölgelerden ücretsiz uygulamalar indirmesi gereken kullanıcılar için başka bir ülkede yeni bir hesap oluşturmak daha uygun bir seçenektir. This way, you can use your primary account at the system level on your phone and activate the second account solely for the App Store without needing to log out of your iPhone account.
 
 **Steps to create a new account in a different country:**
 

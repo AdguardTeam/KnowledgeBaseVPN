@@ -115,7 +115,7 @@ Poslední částí v *Pokročilých nastaveních* jsou *Nízkoúrovňová nastav
 
 :::caution
 
-V možnosti **Preferovaná verze IP** se před výběrem mezi IPv6 a IPv4 ujistěte, že vaše síť tento protokol podporuje. For example, if you select IPv6 and your network only supports IPv4, you will have problems connecting to the Internet. A naopak.
+V možnosti **Preferovaná verze IP** se před výběrem mezi IPv6 a IPv4 ujistěte, že vaše síť tento protokol podporuje. Pokud například zvolíte IPv6 a vaše síť podporuje pouze IPv4, budete mít problémy s připojením k Internetu. A naopak.
 
 :::
 

@@ -7,7 +7,7 @@ In bestimmten Regionen, wie z. B. China, Iran und Russland, können Probleme bei
 
 ## Zugriff auf die Website von AdGuard VPN
 
-Wenn adguard-vpn.com nicht erreichbar ist, versuchen Sie es mit der [Spiegel-Website](https://adguardvpn-help.com/).
+Wenn adguard-vpn.com nicht erreichbar ist, versuchen Sie es mit der [Spiegel-Website](https://adguardvpn-help.info/).
 
 :::info
 
@@ -25,15 +25,15 @@ Nachdem Sie die Region geändert oder ein anderes Konto mit dem App Store verkn�
 
 ### AdGuard VPN für Android
 
-Wenn Sie Probleme mit Google Play haben, laden Sie die APK-Datei von der [Gespiegelte Seite von AdGuard VPN](https://adguardvpn-help.com/android/overview.html) herunter.
+Wenn Sie Probleme mit Google Play haben, laden Sie die APK-Datei von der [Spiegelseite von AdGuard VPN](https://adguardvpn-help.info/android/overview.html) herunter.
 
 ### AdGuard VPN für Mac
 
-Laden Sie die Installationsdatei von der [Spiegelseite von AdGuard VPN](https://adguardvpn-help.com/windows/overview.html) herunter.
+Laden Sie die Installationsdatei von der [Spiegelseite von AdGuard VPN](https://adguardvpn-help.info/windows/overview.html) herunter.
 
 ### AdGuard VPN für Windows
 
-Laden Sie die Installationsdatei von der [Spiegelseite von AdGuard VPN](https://adguardvpn-help.com/mac/overview.html) herunter.
+Laden Sie die Installationsdatei von der [Spiegelseite von AdGuard VPN](https://adguardvpn-help.info/mac/overview.html) herunter.
 
 ## Weitere nützliche Tipps
 

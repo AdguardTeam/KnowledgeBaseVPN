@@ -3,11 +3,11 @@ title: Jak nastavit AdGuard VPN na routeru
 sidebar_position: 8
 ---
 
-By setting up AdGuard VPN on your router, you can protect your data on devices where you cannot install VPN apps, such as media devices and game consoles.
+Nastavením AdGuard VPN na routeru můžete chránit svá data na zařízeních, kam nelze instalovat aplikace VPN, jako jsou mediální zaříiení a herní konzole.
 
 :::note
 
-This option is only available if you have an AdGuard VPN subscription and your router supports IPsec in its _VPN Client_ (**Not** _VPN Server_) settings.
+Tato možnost je k dispozici pouze v případě, že máte předplatné AdGuard VPN a váš router podporuje IPsec v nastavení _VPN Client_ (**ne** _VPN Server_).
 
 :::
 
@@ -33,7 +33,7 @@ This option is only available if you have an AdGuard VPN subscription and your r
 
 5. Povolte _klienta VPN_ a klikněte na _Přidat server VPN_.
 
-6. Select IPsec-client (it may for some router brands be called IKEv2; not L2TP/IPsec).
+6. Vyberte možnost IPsec-client (u některých značek routerů se může nazývat IKEv2, nikoli L2TP/IPsec).
 
 7. Zadejte přihlašovací údaje, které jste vytvořili v kroku 3.
 
@@ -51,11 +51,11 @@ Pokud chcete změnit umístění serveru VPN, musíte aktualizovat nastavení ro
 
 - S AdGuard VPN na vašem routeru nemá poskytovatel VPN ani nikdo jiný přístup k vaší internetové aktivitě
 - Instalace AdGuard VPN na váš router zabezpečí celou vaši síť, což znamená, že všechna zařízení k ní připojená jsou chráněná
-- You can enhance security and protect your data on devices where it’s not possible to install AdGuard VPN apps — media devices and game consoles
+- Můžete zvýšit zabezpečení a chránit svá data na zařízeních, na která není možné nainstalovat aplikace AdGuard VPN — mediální zařízení a herní konzole
 
 ## Zařízení, která lze připojit k routeru s AdGuard VPN
 
-- **PlayStation, Xbox, and Nintendo Switch**: To enjoy seamless online gaming and enhanced security on PS4, PS5, Xbox One, Xbox Series, and Nintendo Switch, [set up AdGuard VPN on your router](#how-to-set-up-adguard-vpn-on-your-router) and connect your console to it
+- **PlayStation, Xbox a Nintendo Switch**: Chcete-li si užívat bezproblémové online hraní a lepší zabezpečení na konzolích PS4, PS5, Xbox One, Xbox Series a Nintendo Switch, [nastavte AdGuard VPN na svém routeru](#how-to-set-up-adguard-vpn-on-your-router) a připojte k němu svou konzoli
 
 - **Apple TV**: Postupujte podle pokynů [nastavení AdGuard VPN na vašem routeru](#how-to-set-up-adguard-vpn-on-your-router) a poté připojte Apple TV
 
@@ -71,8 +71,8 @@ Pokud chcete změnit umístění serveru VPN, musíte aktualizovat nastavení ro
   2. Pokud již máte AdGuard účet, přihlaste se pomocí svých přihlašovacích údajů. Pokud jste v AdGuardu noví, zadejte svou e-mailovou adresu a postupujte podle pokynů na obrazovce
   3. Otevřete aplikaci, vyberte požadované umístění a připojte se
 
-## Routers known to be incompatible with AdGuard VPN
+## Routery o kterých je známo, že nejsou kompatibilní s AdGuard VPN
 
 - **ASUS**
-  - Only has IPsec in the _VPN Server_ settings, and not in the correct _VPN Fusion_/_VPN Client_ settings
+  - IPsec je pouze v nastavení _VPN serveru_ a ne ve správném nastavení _VPN Fusion_/_VPN Client_
 - **FRITZ!Box**

@@ -32,7 +32,7 @@ Vil man støtte implementeringen af en ny funktion eller fejlrettelse, kan man s
 
    `zip -rj ~/Downloads/logs.zip ~/Library/"Application Support"/adguardvpn-cli/*.log`
 
-4. Indsend logfilen til devteam@adguard.com. Angiv tidspunktet for fejlen, og vedhæft et link til GitHub-problematikken eller dens nummer (angivet som #nummer ved siden af titlen). Alternativt kan logfilen uploades til Google Drev og deles med devteam@adguard.com. Føj fillinket til GitHub-problematikken.
+4. Indsend logfilen til <devteam@adguard.com>. Angiv tidspunktet for fejlen, og vedhæft et link til GitHub-problematikken eller dens nummer (angivet som #nummer ved siden af titlen). Alternativt kan logfilen uploades til Google Drev og deles med <devteam@adguard.com>. Føj fillinket til GitHub-problematikken.
 
 5. Deaktivér fejlretningslogning ved at skrive:
 
