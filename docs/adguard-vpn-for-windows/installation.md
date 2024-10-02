@@ -59,7 +59,7 @@ AdGuard VPN is successfully uninstalled!
 
 #### Running the uninstaller in console mode
 
-Besides running the advanced uninstaller in its user-interactive mode, you can also use command-line arguments to uninstall AdGuard for Windows, as listed below:
+Besides running the advanced uninstaller in its user-interactive mode, you can also use command-line arguments to uninstall AdGuard VPN for Windows, as listed below:
 
 - `/console` runs the uninstaller in console mode, without the interactive UI. All the command-line parameters below will be ignored if the `/console` mode is not activated
 - `/vpn` runs the uninstaller to uninstall `AdGuard VPN for Windows`
