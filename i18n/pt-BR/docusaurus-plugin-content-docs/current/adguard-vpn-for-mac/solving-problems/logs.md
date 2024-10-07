@@ -3,7 +3,7 @@ title: 'Como coletar e enviar logs'
 sidebar_position: 1
 ---
 
-Se você encontrar algum problema ao usar o AdGuard VPN para Mac, informe-nos enviando os logs do aplicativo.
+If you encounter any problems while using AdGuard VPN for Mac, you can inform us about it by sending application logs.
 
 ## Coletando e enviando logs padrão
 
@@ -15,11 +15,11 @@ Por padrão, o AdGuard VPN para Mac usa o nível de registro padrão, ou seja, a
 
 3. No formulário aberto, insira seu endereço de e-mail para contato e descreva o erro encontrado, incluindo a hora em que o erro ocorreu. Se você não conseguir reproduzir o problema, especifique com a maior precisão possível quando ocorreu pela última vez.
 
-4. Há uma marca de seleção ao lado de **Enviar informações detalhadas do sistema**, o que significa que, ao enviar um relatório, você também envia logs.
+4. There is a check mark next to the **Send detailed system info**, which means that when you send a report, you also send logs.
 
 :::note
 
-Se por algum motivo for mais conveniente para você nos enviar os logs de outra maneira, você mesmo poderá exportá-los. Para fazer isso, selecione **Configurações** → **Geral** → **Exportar logs** na seção **Ações** à direita.
+Se por algum motivo for mais conveniente para você nos enviar os logs de outra maneira, você mesmo poderá exportá-los. To do this, select **Settings** → **General** → **Export logs** in the **Actions** section on the right.
 
 :::
 
@@ -39,11 +39,11 @@ Na maioria dos casos, o nível de log padrão é suficiente para rastrear possí
 
 6. No formulário aberto, insira seu endereço de e-mail para contato e descreva o erro encontrado, incluindo a hora em que o erro ocorreu.
 
-7. Certifique-se de que haja uma marca de seleção ao lado de **Enviar informações detalhadas do sistema** e clique em **Enviar**.
+7. Make sure that there is a check mark next to **Send detailed system info** and click **Send**.
 
 :::note
 
-Se, por algum motivo, for mais conveniente para você nos enviar logs de outra maneira, você mesmo pode exportá-los. Para fazer isso, selecione **Configurações** → **Geral** → **Exportar logs** na seção **Ações** à direita.
+If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. Para fazer isso, selecione **Configurações** → **Geral** → **Exportar logs** na seção **Ações** à direita.
 
 :::
 

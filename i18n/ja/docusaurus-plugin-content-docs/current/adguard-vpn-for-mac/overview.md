@@ -9,7 +9,7 @@ AdGuard VPN for Macは、デスクトップVPNサービスです。 AdGuard VPN�
 
 :::note Compatibility
 
-AdGuard VPN for Macは現在macOS Catalina (10.15) より新しいバージョンのmacOSをサポートしています。
+AdGuard VPN for Mac is currently supported on macOS versions starting from macOS Catalina (10.15).
 
 :::
 

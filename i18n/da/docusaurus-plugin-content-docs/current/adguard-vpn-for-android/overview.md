@@ -1,126 +1,126 @@
 ---
-title: Funktionsoversigt
+title: Features overview
 sidebar_position: 1
 ---
 
-## Hovedskærm
+## Main screen
 
-Hovedskærmen afspejler VPN-status (Forbundet/Afbrudt). På samme skærm findes også knappen *Tilslut/Afbryd* samt listen over tilgængelige servere.
+The main screen reflects the VPN status (Connected/Disconnected). There are also the *Connect/Disconnect* button and a list of available servers.
 
-Ved hver server ses placering og ping-tid, dvs. hvor hurtigt serveren svarer. Jo lavere ping-tid er, des hurtigere en forbindelse. De hurtigste servere vises altid øverst på listen, der udgøres af flere end 50 lokationer i snesevis af lande. Der kan oprettes forbindelse til den hurtigste server ved at trykke på knappen *Tilslut* eller ved at vælge en lokation.
+Each server has its location and its ping rate, describing the response time of the server. The lower this rate, the faster the connection. The fastest servers always appear at the top of the list that consists of more than 50 locations in dozens of countries. You can connect to the fastest server by tapping the *Connect* button or by picking a location.
 
-## Undtagelser
+## Exclusions
 
-Undtagelseslister muliggør at håndtere VPN-forbindelsen for bestemte websteder og apps. Tryk på det andet ikon fra venstre nederst på skærmen for at gå til afsnittet *Undtagelser*.
+Exclusion lists allow you to manage the VPN connection for specific websites and apps. To access *Exclusions*, tap the second icon from the left at the bottom of the screen.
 
-![Undtagelser *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/exclusions.jpg)
+![Exclusions *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/exclusions.jpg)
 
-Som standard fungerer AdGuard VPN for alle websteder og apps undtagen dem, som er føjet til undtagelser: Er intet angivet i undtagelser, vil VPN være aktivt for alle apps og websteder. VPN kan også aktivere **selektivt**, dvs. kun for bestemte apps eller websteder. For at skifte til denne tilstand, tryk på *Skift tilstand*.
+By default, AdGuard VPN works for all websites and apps except those added to exclusions: if you don’t specify an app or website, VPN will be active for them. You can also turn it on **selectively** — only for specified apps or websites. To switch to this mode, tap *Change mode*.
 
-![Skift tilstand *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/change_mode.jpg)
+![Change mode *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/change_mode.jpg)
 
 :::caution
 
-Vær forsigtig, når VPN anvendes **selektivt**.
+Be careful when using your VPN **selectively**.
 
-Undtages en webbrowser fra VPN-tunnelen, vil webstedsundtagelser ikke fungere for den.
+If you exclude a browser from the VPN tunnel, website exclusions won’t work for it.
 
-Skiftes til denne tilstand for websteder, så husk at tilføje domænerne for de apps, som ønskes brugt — f. eks. `facebook.com` til Facebook.
+If you switch to this mode for websites, don’t forget to add the domains of the apps you want to use — for example, `facebook.com` for Facebook.
 
 :::
 
-### Websteder
+### Websites
 
-Et domæne (f.eks. `google.com`) eller underdomæne (f.eks. `*.google.com`) kan føjes til Undtagelser på tre måder:
+You can add a domain (e.g., `google.com`) or subdomain (e.g., `*.google.com`) to exclusions in three ways:
 
-- Angiv det manuelt i appen
-- Tilføj det direkte via webbrowseren ved at dele webstedet med AdGuard VPN
-- Tilføj det fra en indbygget liste over tjenester
+- Enter it manually in the app
+- Add it directly from the browser by sharing the website with AdGuard VPN
+- Add it from a built-in list of services
 
-![Tilføj manuelt *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/manually.jpg)
+![Add manually *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/manually.jpg)
 
-![Tilføj fra listen *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/from_list.jpg)
+![Add from the list *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/from_list.jpg)
 
 :::note
 
-Der er nogle nuancer i manuel tilføjelse af domæner. Undtager man f.eks. manuelt domænet `yahoo.com`, vil alle `*.yahoo.com` underdomæner også blive opført i Undtagelser. Domænenavne med andre topniveaudomæner, såsom `yahoo.jp` eller `yahoo.fr`, undtages dog ikke.
+There are some nuances to manually adding domains. For example, if you manually exclude the domain `yahoo.com`, all `*.yahoo.com` subdomains will also be listed in exclusions. However, domain names with other top-level domains, such as `yahoo.jp` or `yahoo.fr`, will not be excluded.
 
-Føjes `youtube.com` til Undtagelser, vil domænet for samme tjeneste, `youtu.be`, ikke blive tilføjet. I så tilfælde er det mere sikkert at bruge de indbyggede lister over tjenester. De indeholder alle underdomænerne associeret med hver platform.
+If you add `youtube.com` to exclusions, the domain of the same service `youtu.be` won’t be added. In this case, it’s safer to use the built-in lists of services. They contain all the subdomains associated with each platform.
 
 :::
 
-Da underdomæner kan aktiveres i tjenestelister, har vi tilføjet bokse, som afspejler status for hver tjeneste:
+Since you can enable subdomains in service lists, we added boxes that reflect the status of each service:
 
-- **Fuldt aktiveret** indikeres med et hvidt flueben på en grøn baggrund
-- **Delvist aktiveret** (aktiverede underdomæner uden hoveddomænet) indikeres med en grøn firkant på en hvid baggrund
-- **Fuldt deaktiveret** indikeres med et tomt afkrydsningsfelt
+- **Fully enabled** is indicated by a white check mark on a green background
+- **Partially enabled** (enabled subdomains without the main domain) is marked with a green square on a white background
+- **Fully disabled** is marked with a blank checkbox
 
-![Webstedsundtagelser *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/websites.png)
+![Website exclusions *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/websites.png)
 
-Slettes et domæne eller underdomæne ved et uheld, så tryk blot på *Nulstil til standard*.
+If you’ve accidentally deleted a domain or subdomain, just tap *Reset to default*.
 
-![Nulstil til standard *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/reset.jpg)
+![Reset to default *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/reset.jpg)
 
 ### Apps
 
-VPN kan også håndteres for apps. For at undtage en app fra VPN-tunnelen, tryk på *Tilføj app*. For at bruge VPN **selektivt**, tryk på *Skift tilstand*.
+You can also manage VPN for apps. To exclude an app from the VPN tunnel, tap *Add app*. To use VPN **selectively**, tap *Change mode*.
 
-![App-undtagelser *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/apps.jpg)
+![App exclusions *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/apps.jpg)
 
 :::caution
 
-I *Integreret tilstand*kan apps kun håndtres via AdGuard Ad Blocker.
+In *Integrated mode*, you can only manage apps through AdGuard Ad Blocker.
 
 :::
 
-## Indstillinger
+## Settings
 
-Man kan gå til *Indstillinger* ved at trykke på tandhjulsikonet nederst til højre på skærmen.
+You can reach *Settings* by pressing the gear icon at the bottom right of the screen.
 
-![Indstillinger *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/settings.jpg)
+![Settings *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/settings.jpg)
 
-### Generelt
+### General
 
-![Generalt *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/general.jpg)
+![General *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/general.jpg)
 
-I *Generelt*kan basis AdGuard VPN-indstillinger håndteres:
+In *General*, you can manage basic AdGuard VPN settings:
 
-- Start AdGuard VPN ved systemopstart
-- Vælg en DNS-server til at kryptere trafik og blokere annoncer, når man er tilsluttet VPN (vi anbefaler at bruge AdGuard DNS)
-- Aktivér Kill Switch for at beskytte fortroligheden og afbryde forbindelsen til internet, hvis VPN-forbindelsen falder ud
-- Vælg et farvetema
-- Aktivér anonyme nedbrudsrapporter for at underrette udviklere om app-problemer
+- Launch AdGuard VPN at system startup
+- Select a DNS server to encrypt traffic and block ads when connected to VPN (we recommend using AdGuard DNS)
+- Enable Kill Switch to protect your privacy and disconnect from the Internet if the VPN connection drops
+- Select a color theme
+- Enable anonymous crash reports to notify developers about app issues
 
-### Avanceret
+### Advanced
 
-![Avanceret *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/advanced.png)
+![Advanced *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/advanced.png)
 
-Afsnittet *Avanceret* er et sæt ikke så almindeligt anvendte indstillinger.
+The *Advanced* section is a set of settings that are not as commonly used.
 
-*Driftstilstand* muliggør at angive, hvordan trafikken skal rutes. Der findes de tre tilstande: VPN, SOCKS5 og integreret. I tilstanden *VPN* rutes al trafik igennem AdGuard VPN. I tilstanden *SOCKS5* kører AdGuard VPN en lokal proxyserver, der kan bruges af andre apps til trafikrutning. *Integreret tilstand* tillader AdGuard VPN og AdGuard Ad Blocker at samarbejde.
+*Operating mode* allows you to specify how your traffic is routed. There are three modes: VPN, SOCKS5, and Integrated mode. In the *VPN* mode, all traffic is routed through AdGuard VPN. In the *SOCKS5* mode, AdGuard VPN runs a local proxy server that can be used by other apps for traffic routing. *Integrated mode* allows AdGuard VPN and AdGuard Ad Blocker to work together.
 
 :::note
 
-Visse AdGuard VPN-funktioner er deaktiveret i *Integreret tilstand*: DNS-servere, Kill Switch og App-undtagelser. Håndtering af DNS-beskyttelse og rutning af apps igennem AdGuard VPN-proxyen kan ske via AdGuard Ad Blocker-appen.
+Some AdGuard VPN features are disabled in *Integrated mode*: DNS servers, Kill Switch, and App exclusions. You can manage DNS protection and route apps through your AdGuard VPN proxy in the AdGuard Ad Blocker app.
 
 :::
 
-*Logningsniveau* angiver, hvor mange app-hændelser, som registreres. Vi anbefaler ikke at aktivere logningsniveauerne *Udvidet* eller *Ekstrem*, medmindre vores supportteam anmoder om det.
+*Logging level* specifies how many app events are recorded. We don’t recommend enabling the *Extended* or *Extreme* logging levels unless requested by our support team.
 
-I dette afsnit kan der også eksporteres logfiler og systemoplysninger for at dele dem med supporten.
+In this section, you can also export logs and system info to share them with support.
 
-*Diagnostiske data* viser de lokalt lagrede tekniske oplysninger om appen, enheden og forbindelserne. De kan kopieres og indsendes til vores supportteam, hvis nødvendigt.
+*Diagnostic data* displays the locally stored technical information about the app, device, and connections. You can copy and send it to our support team if necessary.
 
-Det sidste afsnit under *Avancerede indstillinger* er *Lavniveauindstillinger*. Vi opfordrer til ikke at tilgå dette afsnit, medmindre man er højt kvalificeret eller er blevet anmodet herom af vores supportteam. Her er det muligt at aktivere TUN-grænsefladelogning eller IPv6-protokol på VPN-grænsefladen, vælge proxyserverporten eller internetprotokolversionen, der skal bruges.
+The last section of *Advanced settings* is *Low-level settings*. We urge you not to enter this section unless you are highly qualified or have been asked to do so by our support team. Here it is possible to enable TUN interface logging or IPv6 protocol on the VPN interface, choose a proxy server port or Internet protocol version that should be used.
 
 :::caution
 
-Inden valg af IPv6 eller IPv4 i indstillingen **Foretrukken IP-version**, tjek at protokollen understøttes af det aktuelle netværk. For example, if you select IPv6 and your network only supports IPv4, you will have problems connecting to the Internet. Og omvendt.
+In the **Preferred IP version** option, before you choose between IPv6 and IPv4, make sure that your network supports that protocol. For example, if you select IPv6 and your network only supports IPv4, you will have problems connecting to the Internet. And vice versa.
 
 :::
 
 ### Support
 
-Man kan via afsnittet *Support* tjekke vores FAQ for at få hurtige svar på sine spørgsmål, anmelde fejl og foreslå nye funktioner.
+In the *Support* section, you can check out our FAQ to get quick answers to your questions, report bugs, and suggest new features.
 
 ![Support *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/support.jpg)

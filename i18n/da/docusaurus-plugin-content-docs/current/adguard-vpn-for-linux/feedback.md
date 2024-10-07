@@ -1,39 +1,39 @@
 ---
-title: Indsendelse af feedback
+title: Sending feedback
 sidebar_position: 6
 ---
 
-## Anmeld et problem eller foreslå en funktion
+## Report a problem or suggest a feature
 
-Er der fundet en fejl i AdGuard VPN til Linux eller ønskes en ny funktion tilføjet, er fremgangsmåden:
+If you’ve found a bug in AdGuard VPN for Linux or want to suggest a new feature, here’s how to do it:
 
-- Udfyld [feedbackformularen](https://surveys.adguard.com/en/vpn_linux/form.html).
-- [Opret en GitHub-problematik](https://github.com/AdguardTeam/AdGuardVPNCLI/issues/new/choose). Inden det gøres, tjek først [repo'et](https://github.com/AdguardTeam/AdGuardVPNCLI/issues?q=is%3Aissue) for lignende problemer.
+- Fill out the [feedback form](https://surveys.adguard.com/en/vpn_linux/form.html).
+- [Create a GitHub issue](https://github.com/AdguardTeam/AdGuardVPNCLI/issues/new/choose). But before you do, check the [repository](https://github.com/AdguardTeam/AdGuardVPNCLI/issues?q=is%3Aissue) for similar issues.
 
 :::note
-Vil man støtte implementeringen af en ny funktion eller fejlrettelse, kan man stemme på den på GitHub. For at stemme, skal man blot reagere med en emoji.
+If you want to support the implementation of a new feature or bugfix, you can vote for it on GitHub. To vote, just react with some emoji.
 :::
 
-## Indsamling og indsendelse af logfiler
+## Collect and send logs
 
-1. Aktivér fejlretningslogning ved at skrive:
+1. Enable debug logging by typing:
 
    `adguardvpn-cli config set-debug-logging on`
 
-2. Genskab problematikken, og prøv at huske det nøjagtige tidspunkt, da det opstod.
+2. Reproduce the problem and try to remember the exact time it occurred.
 
-3. Vent et stykke tid, og arkivér derefter logfilerne i mappen _Downloads_ eller _Hjem_ ved at skrive:
+3. Wait a while, then archive the logs in the _Downloads_ or _Home_ folder by typing:
 
-   Til Linux
+   For Linux
 
    `zip -rj logs.zip ${XDG_DATA_HOME:-~/.local/share}/adguardvpn-cli/*.log`
 
-   Til Mac
+   For Mac
 
    `zip -rj ~/Downloads/logs.zip ~/Library/"Application Support"/adguardvpn-cli/*.log`
 
-4. Indsend logfilen til <devteam@adguard.com>. Angiv tidspunktet for fejlen, og vedhæft et link til GitHub-problematikken eller dens nummer (angivet som #nummer ved siden af titlen). Alternativt kan logfilen uploades til Google Drev og deles med <devteam@adguard.com>. Føj fillinket til GitHub-problematikken.
+4. Send the log file to <devteam@adguard.com>. Specify the time of the error and attach a link to your GitHub issue or its number (it appears as #number next to the title). Alternatively, you can upload the log file to Google Drive and share it with <devteam@adguard.com>. Attach the file link to your GitHub issue.
 
-5. Deaktivér fejlretningslogning ved at skrive:
+5. Disable debug logging by typing:
 
    `adguardvpn-cli config set-debug-logging off`

@@ -1,90 +1,90 @@
 ---
-title: Sådan fungerer VPN
+title: How VPN works
 sidebar_position: 1
 ---
 
-For at forstå, hvordan AdGuard VPN fungerer, skal man først forstå VPN-tjenestens generelle principper.
+To understand how AdGuard VPN works, you should at first understand the general principles of the VPN service.
 
 <iframe width="560" height="315" class="youtube-video" src="https://www.youtube-nocookie.com/embed/aOmkjgfSsIY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-## VPN-funktioner
+## VPN features
 
-Et VPN er et virtuelt privat netværk, hvormed den reelle placering skjules og brugerdata beskyttes på nettet. Et VPN forbinder en computer eller mobilenhed til en VPN-server og anvender IP-adressen på denne server til at få en ekstern iagttager til at tro, at man befinder sig et andet sted. Dette muliggør sikker adgang til forskellige internetressourcer samt beskyttelse af personlige data.
+A VPN is a virtual private network that helps hide your location and protect your data on the Web. A VPN connects a computer or a mobile device to a VPN server and uses the IP address of this server to make it seem to an outside observer that you are in another place. This allows you to securely access various Internet resources and protect your personal data.
 
-På denne måde udfører et VPN to vigtige funktioner:
+In that way, a VPN performs two important functions:
 
-1. **Opretholdelse af anonymitet**
+1. **Maintaining anonymity**
 
-   På en internetforbindelse efterlader brugeren et digitale fodspor, der så kan analyseres og bruges af tredjeparter. F.eks. kan en onlinebutik gemme den besøgendes søgehistorik og dernæst tilbyde deres produkter baseret herpå via målrettet annoncering. Ligeledes kan efterretningstjenester, som har udledt brugerens placering via enhedens IP-adresse samt fastslået den reelle identitet, hemmeligt overvåge brugerens aktivitet på nettet. Derudover kan webbrowsere og internetudbydere bruge browserhistorikken til egne formål, samt sælge den til annoncører og videregive den til statslige institutioner. VPN muliggør at skjule den reelle IP-adresse og erstatte den med IP-adressen på VPN-serveren, der er etableret forbindelse til. På denne måde vil man kunne bevare sin fortrolighed og anonymt søge efter information på nettet.
+   Using an Internet connection, the user leaves their digital footprint, which can then be analyzed and used by third parties. For example, one of the online stores that you have visited can save your search history and then offer you their products based on it through targeted advertising. Or the secret services, having learned your location through the IP address of your device and having determined your identity, can secretly monitor your activity on the web. In addition, web browsers and ISPs themselves can use your browsing history for their own purposes, as well as sell it to advertisers and provide it to government institutions. VPN allows you to hide your IP address and replace it with the IP address of the VPN server to which you are connected. This way you will be able to maintain your privacy and anonymously search for information on the web.
 
-2. **Databeskyttelse**
+2. **Data protection**
 
-   Oprettes forbindelse til et upålideligt eller offentligt netværk, kan dataene på enheden blive sårbare over for cyberkriminelle. Bankkortoplysninger, brugernavne og adgangskoder, pasdata — alle disse data kan opsnappes af onlinesvindlere. VPN-tunnelen krypterer informationen, der sendes og modtages fra nettet, så den er ubrugelig i de forkerte hænder.
+   If you connect to an unreliable or public network, the data on your device may become vulnerable to cybercriminals. Bank card details, usernames and passwords, passport data — all this data can be intercepted by online fraudsters. The VPN tunnel encrypts the information you send to and receive from the Web, making it useless in the wrong hands.
 
-## VPN-struktur
+## VPN structure
 
-Når der oprettes forbindelse til et netværk, tildeles en computer eller mobilenhed et unikt ID-nr. eller IP-adresse. Det består normalt af tal fra 0 til 255, adskilt af punktummer eller koloner. Via denne sekvens kan enhedens geografiske placering bestemmes. IP-adressen tildeles normalt af internetudbyderen og vil være synlig hele vejen til den ønskede ressource. Webserveren på det besøgte websted kan derfor registrere både IP-adressen, og hvad forespørgslen omhandler. Denne registrering kan så primært bruges til dataindsamling og trafikanalyse.
+When you connect to a network, your computer or mobile device is assigned a unique ID number, or IP address. It usually consists of numbers from 0 to 255, separated by dots or colons. Knowing this sequence, one can determine the geolocation of the device. The IP address is usually assigned by your ISP, and it will be visible all the way to the desired resource. For this reason, the web server of the site you are visiting can register your IP address and record what you have requested. This record can then be used primarily for data collection and traffic analysis.
 
-Et VPN opretter en krypteret tunnel mellem brugerens enhed og en VPN-server. Dataene passerer igennem denne tunnel, krypteres og kommer derefter ud på det åbne internet i en sikker form. En webserver registrerer derfor IP-adressen på tunnelens endepunkt, dvs. VPN-serveren, og dermed ikke enhedens reelle IP-adresse. Efter forespørgslens passage igennem VPN-tunnelen, vil det besøgte websted derfor betragte geolokationen på den valgte VPN-server som den reelle placering. De krypterede data falder derfor ikke i hænderne på annoncører, hackere og sikkerhedstjenester.
+A VPN creates a tunnel between your device and the VPN server. Your data goes through this tunnel, gets encrypted and then enters the open Internet in a secure form. The web server therefore registers the IP address of the endpoint of the tunnel, meaning the VPN server, and thus not the device's real IP address. Thus, the site that you get to after passing through the VPN tunnel will consider the geolocation of the VPN server you selected as your real location. And the encrypted data will not fall into the hands of advertisers, hackers and security services.
 
-![VPN-struktur](https://cdn.adguardvpn.com/public/Adguard/Website/Images/seo/en/how_vpn_3.jpg)
+![VPN structure](https://cdn.adguardvpn.com/public/Adguard/Website/Images/seo/en/how_vpn_3.jpg)
 
-## VPN-protokoltyper
+## Types of VPN protocols
 
-VPN-sikkerhedsprotokoller er værktøjer, som krypterer data i en VPN-tunnel og muliggør opretholdelse af brugerfortrolighed på det åbne internet. Pt. bruger hovedparten af moderne VPN-tjenester en af flg. tre VPN-protokoller:
+VPN security protocols are tools that encrypt data in a VPN tunnel and allow you to maintain user privacy in the open Internet. At the moment, the vast majority of modern VPN services use one of the following three VPN protocols:
 
-1. [_IPSec_](https://en.wikipedia.org/wiki/IPsec). En af dens vigtigste fordele er, at den er tilgængelig på de fleste enheder og operativsystemer samt har et højt sikkerhedsniveau. Dog kan brugen af dobbelt [indkapsling](https://en.wikipedia.org/wiki/Encapsulation_\(networking\)) i denne protokol resultere i en reduceret forbindelseshastighed.
+1. [_IPSec_](https://en.wikipedia.org/wiki/IPsec). One of its main advantages is that it is available on most devices and operating systems and provides a high level of security. However, the use of double [encapsulation](https://en.wikipedia.org/wiki/Encapsulation_\(networking\)) in this protocol may result in a lower connection speed.
 
-2. [_OpenVPN_](https://en.wikipedia.org/wiki/OpenVPN). Denne moderne protokol er open-source, så tredjepartsproducenter kan forbedre og opdatere teknologien.
+2. [_OpenVPN_](https://en.wikipedia.org/wiki/OpenVPN). This modern protocol is open source, so third-party manufacturers can improve and update the technology.
 
-3. [_WireGuard_](https://en.wikipedia.org/wiki/WireGuard). Dens vigtigste fordele er brugervenlighed, høj effektivitet og lav sårbarhed over for angreb.
+3. [_WireGuard_](https://en.wikipedia.org/wiki/WireGuard). Its main advantages are ease of use, high efficiency and low vulnerability to attacks.
 
-Ud over disse VPN-protokoller findes der andre (f.eks. TLS, SSTP, IKEv2), men de er ikke populære eller lever ikke op til moderne datakrypteringsstandarder.
+In addition to these VPN protocols, there are others (for example, TLS, SSTP, IKEv2), but they are unpopular or do not meet modern data encryption standards.
 
 <object data="https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/6.svg?nc=1" type="image/svg+xml"><img src="https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/6.svg?nc=1" alt="protocol 6" /> </object>
 
-AdGuard VPN har også sin egen [_protokol_](/general/adguard-vpn-protokol). En af dens fordele er, at trafik sendt vha. AdGuard VPN-protokollen er svær at skelne fra almindelig trafik. VPN-tunnelen ligner normal HTTPS-trafik, hvilket gør den ekstremt svært at opdage og blokere. Den er desuden baseret på mekanismerne i den moderne HTTP/2-protokol, hvilket sikrer høj forbindelseshastighed.
+AdGuard VPN also has its own [_protocol_](/general/adguard-vpn-protocol). One of its advantages is that the traffic transmitted using the AdGuard VPN protocol is difficult to distinguish from the regular traffic. The VPN tunnel looks like normal HTTPS traffic, making it extremely difficult to detect and block. In addition, it is based on the mechanisms of the modern HTTP/2 protocol, which ensures high connection speed.
 
 <object data="https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/5.svg?nc=1" type="image/svg+xml"><img src="https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/5.svg?nc=1" alt="protocol 5" /></object>
 
-## VPN-ulemper
+## VPN drawbacks
 
-På trods af de åbenlyse fordele er VPN dog ikke perfekt, men har visse ulemper:
+Despite the obvious advantages, VPN is not perfect and has some disadvantages:
 
-### Lavere hastighed
+### Lower speed
 
-Da trafikken først passerer igennem VPN-serveren, inden den når målwebserveren, reduceres den generelle forbindelseshastighed. Andre faktorer påvirker også hastigheden ved VPN-brug: VPN-serverens belastning og båndbredde samt VPN-protokollens kompatibilitet med brugerens operativsystem. Alle disse faktorer, såvel som selve netværkets hastighed, kan påvirke brugeroplevelsen af en VPN-forbindelse.
+Since your traffic does not go directly to the web server, but first passes through the VPN server, the speed of the VPN connection decreases. Other factors also affect the speed when using a VPN: the load of the VPN server, its bandwidth, the compatibility of the VPN protocol with your operating system. All these factors, as well as the speed of the network itself, may impact the overall user experience of a VPN connection.
 
-### Adgangsblokering
+### Access blocking
 
-Nogle onlinetjenester gør en stor indsats for at detektere og blokere VPN-trafik og -brugere. Ikke mange VPN kan dog maskere sig selv på en sådan måde, at de kun ses som almindelig trafik. Derfor ender mange forsøg på at nå et bestemt websted via en VPN-forbindelse i ingenting.
+Some online services make a lot of effort to detect VPN traffic and block access to VPN users. However, not many VPNs can mask themselves in such a way that they are only seen as regular traffic. Therefore, many attempts to reach a certain website via a VPN connection end in nothing.
 
-### VPN-forbindelsesudfald
+### VPN connections breaking
 
-Et svagt signal, netværksoverbelastning, VPN-inkompatibilitet med en firewall, antivirus og andre programmer, en forældet VPN-protokol — alt dette kan forårsage pludselige udfald i VPN-forbindelsen, især hos upålidelige VPN-udbydere.
+A weak signal, network overload, VPN incompatibility with a firewall, antivirus and other programs, an outdated VPN protocol — all this can cause a sudden failure in the VPN connection, especially with unreliable VPN providers.
 
 ## AdGuard VPN
 
-Vores VPN-tjeneste har flere vigtige [fordele](/general/why-adguard-vpn):
+Our VPN service has several important [advantages](/general/why-adguard-vpn):
 
-- [_Proprietær VPN-protokol_](/general/adguard-vpn-protocol), der fungerer stabilt selv på en langsom internetforbindelse og camouflerer sig som normal trafik, hvilket gør den sværere at spore og blokere
+- [_Proprietary VPN protocol_](/general/adguard-vpn-protocol), which works stably even with a slow Internet connection and disguises itself as normal traffic, making it more difficult to track and block it
 
-- [_Nul logning-politik_](https://adguard-vpn.com/privacy.html), hvilket betyder, at ingen personlige data kan deles med tredjeparter, fordi AdGuard VPN aldrig indsamler sådanne data
+- [_No-logging policy_](https://adguard-vpn.com/privacy.html), which means no personal data can be shared with third parties because AdGuard VPN never collects such data
 
-- _Flere end 50 VPN-servere i snesevis af lande_
+- _More than 50 VPN servers in dozens of countries_
 
-- _Brugervenlighed og omfattende tilpasningsmuligheder_
+- _Ease of use and extensive customization options_
 
-Pt. er AdGuard VPN tilgængelig som:
+Currently, AdGuard VPN is available as:
 
-- [Webbrowserudvidelse](/adguard-vpn-browser-extension/overview) til Chrome, Edge, Firefox og Opera
+- [Browser extension](/adguard-vpn-browser-extension/overview) for Chrome, Edge, Firefox, and Opera
 
-- Mobil-app til [Android](/adguard-vpn-for-android/overview) og [iOS](/adguard-vpn-for-ios/overview)
+- Mobile app for [Android](/adguard-vpn-for-android/overview) and [iOS](/adguard-vpn-for-ios/overview)
 
-- Computerapplikation til [Windows](/adguard-vpn-for-windows/overview) og [Mac](/adguard-vpn-for-mac/overview)
+- Desktop application for [Windows](/adguard-vpn-for-windows/overview) and [Mac](/adguard-vpn-for-mac/overview)
 
-- Kommandolinjegrænseflade til [Linux, Mac og en række routere](/adguard-vpn-for-linux/)
+- Command-line interface for [Linux, Mac, and some routers](/adguard-vpn-for-linux/)
 
-- En VPN-klient til [routere](/general/set-up-adguard-vpn-on-your-router/)
+- A VPN client for [routers](/general/set-up-adguard-vpn-on-your-router/)
 
-[Læs mere om AdGuard VPN-funktioner](https://adguard-vpn.com/welcome.html)
+[Learn more about AdGuard VPN features](https://adguard-vpn.com/welcome.html)

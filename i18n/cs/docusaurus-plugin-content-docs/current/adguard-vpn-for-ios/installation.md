@@ -5,7 +5,7 @@ sidebar_position: 2
 
 ## Požadavky na systém
 
-AdGuard VPN lze nainstalovat pouze na zařízení s **iOS 14.2 a iPadOS 14.2 nebo novějším**.
+AdGuard VPN lze nainstalovat pouze na zařízení s **iOS 15.4 a iPadOS 15.4 nebo novějším**.
 
 ### Pokud byla AdGuard VPN odstraněna z obchodu App Store
 

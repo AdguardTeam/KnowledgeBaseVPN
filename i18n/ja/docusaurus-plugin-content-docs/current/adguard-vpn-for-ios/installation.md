@@ -5,7 +5,7 @@ sidebar_position: 2
 
 ## 動作環境
 
-AdGuard VPN can only be installed on devices with **iOS 14.2 and iPadOS 14.2 or later**.
+AdGuard VPN can only be installed on devices with **iOS 15.4 and iPadOS 15.4 or later**.
 
 ### If AdGuard VPN has been removed from the App Store
 

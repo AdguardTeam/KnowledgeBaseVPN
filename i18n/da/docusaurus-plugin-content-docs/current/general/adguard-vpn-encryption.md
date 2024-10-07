@@ -1,28 +1,28 @@
 ---
-title: 'Hvilken type kryptering anvendes i AdGuard VPN'
+title: 'What type of encryption is used in AdGuard VPN'
 sidebar_position: 7
 ---
 
-## Introduktion
+## Introduction
 
-Kryptering er grunden til, at ordet "private" findes i udtrykket "Virtual Private Network". Et VPN opretter en tunnel mellem en enhed og en VPN-server, der krypterer og overfører data sikkert til det åbne internet. Krypteringsprocessen, dvs. konvertering af data til volapyk, som ingen, der opsnapper det, kan læse, er afgørende for enhver VPN-tjeneste.
+Encryption is the reason the word "private" exists in the term "Virtual Private Network". A VPN creates a tunnel between your device and a VPN server, that encrypts and transmits your data securely to the open Internet. The process of encryption, i.e. turning data into gibberish that no one who intercepts it can read, is essential to any VPN service.
 
-AdGuard VPN-protokollen bruger den mest sikre og hurtigste krypteringsalgoritme til dato – AES-256. Læs, hvad det vil sige, og hvorfor det er så godt.
+The AdGuard VPN protocol uses the most secure and fast encryption algorithm to date — AES-256. Learn what it is and why it is so good.
 
-## AES historisk tur
+## AES historical tour
 
-AES-kryptering (Advanced Encryption Standard) er udviklet i slutningen af det 20. århundrede i USA. regeringsanmodning: Den eksisterende Data Encryption Standard (DES) blev forældet, og en ny, mere sikker krypteringsalgoritme var nødvendig.
+AES (Advanced Encryption Standard) encryption was developed in the late 20th century at the U.S. government request: the existing Data Encryption Standard (DES) became obsolete and a new, more secure encryption algorithm was required.
 
-I en offentlig konkurrence lanceret af regeringen vandt Rijndael-chifferet — meget lig DES, men langt mere sofistikeret. I 2002 blev det omdøbt til AES og udgivet af USA. National Institute of Standards and Technology.
+In a public competition announced by the government won the Rijndael cipher — rather similar to DES but much more sophisticated. In 2002 it was renamed AES and published by the U.S. National Institute of Standards and Technology.
 
-I dag er AES industristandarden for kryptering. Grundet dens åbne natur, bruges den af NSA og offentlige myndigheder samt private, kommercielle og non-profit organisationer.
+Today, AES is the industry standard for encryption. Because of its open nature, it is used by the NSA and government agencies, as well as private, commercial, and non-profit organizations.
 
-## Sådan fungerer AES-256
+## How AES-256 works
 
-AES er en blokchiffer med en symmetrisk nøgle. Som en symmetrisk nøglechiffer, kræver den kun én hemmelig nøgle til kryptering og dekryptering af dataene. Som blokchiffer opdeler AES den ukrypterede information, som kaldes almindelig tekst, i blokke, opdeler den originale kryptografiske nøgle i flere dele, og anvender disse på hver blok. Til sidst opnås en chiffertekst, dvs. en krypteret tekst.
+AES is a block cipher with a symmetric key. As a symmetric-key cipher, it requires only one secret key to encrypt and decrypt the data. As a block cipher, AES divides the unencrypted information, which is called plaintext, into blocks, splits the original cryptographic key into several ones and applies them to each block. In the end, a ciphertext, i.e. an encrypted text, is obtained.
 
-Der er forskellige nøglestørrelser - 128, 192 og 256 bit — og blokkene måles også i bits. Under krypteringsprocessen erstatter krypteringen hver enkelt informationsdel med en anden, afhængigt af sikkerhedsnøglen. Så f.eks. opretter AES-256 256 blokke med chiffertekst ud fra 256 blokke med almindelig tekst ad 14 omgange.
+There are different key sizes — 128, 192 and 256 bits — and the blocks are also measured in bits. During the encryption process, the encryptor replaces each piece of information with another, depending on the security key. So, for example, AES-256 creates 256 blocks of ciphertext from 256 blocks of plaintext in 14 rounds.
 
-Omgangene består af flere trin: Opdeling af dataene i blokke, ombytning af bytes, omskiftning af rækker og omarrangering af kolonner. Resultatet er et helt tilfældigt sæt tegn, som kun vil give mening ved brug af den rette krypteringsnøgle.
+The rounds consist of several steps: splitting the data into blocks, swapping bytes, shifting rows and rearranging columns. The result is a completely random set of characters that will only make sense when using the right encryption key.
 
-AES-256 er det stærkeste krypteringsniveau: For at bryde denne chiffer ville 2256 diskrete kombinationer, hver bestående af 78 cifre, skulle afprøves.
+AES-256 is the strongest level of encryption: to break this cipher, 2256 discrete combinations, each consisting of 78 digits, would have to be tried.

@@ -19,11 +19,11 @@ sidebar_position: 5
 
 同时，你可以购买一个订阅，以获得无限版本的应用程序。 与免费版相比，付费版允许用户获得更多好处：
 
-- 可同时连接 10 台设备
+- 10 simultaneously connected devices
 - 无限流量
 - 无限速
 - 50 多个服务器位置
 - 安全串流
 - 不阻挡端口 25
 
-要使用所有优势功能，请考虑[购买订阅](/general/subscription)。
+To use all the advantages, consider [purchasing a subscription](/general/subscription).

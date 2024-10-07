@@ -1,19 +1,19 @@
 ---
-title: 功能概述
+title: Features overview
 sidebar_position: 1
 ---
 
-## 主畫面
+## Main screen
 
-主畫面反映 VPN 狀態（已連線/已中斷連線）。 還有 *連線/斷開* 按鈕和可用伺服器清單。
+The main screen reflects the VPN status (Connected/Disconnected). There are also the *Connect/Disconnect* button and a list of available servers.
 
-每個伺服器都有其位置和 ping 速率，描述伺服器的回應時間。 該速率越低，連線速度越快。 最快的伺服器總是出現在清單的頂部，該清單由數十個國家/地區的 50 多個位置組成。 您可以點擊 *連接* 按鈕或選擇一個位置來連接到最快的伺服器。
+Each server has its location and its ping rate, describing the response time of the server. The lower this rate, the faster the connection. The fastest servers always appear at the top of the list that consists of more than 50 locations in dozens of countries. You can connect to the fastest server by tapping the *Connect* button or by picking a location.
 
-## 排除
+## Exclusions
 
-排除清單可讓您管理特定網站和應用程式的 VPN 連線。 若要存取 *排除*，請點選螢幕底部左側的第二個圖示。
+Exclusion lists allow you to manage the VPN connection for specific websites and apps. To access *Exclusions*, tap the second icon from the left at the bottom of the screen.
 
-![排除 *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/exclusions.jpg)
+![Exclusions *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/exclusions.jpg)
 
 By default, AdGuard VPN works for all websites and apps except those added to exclusions: if you don’t specify an app or website, VPN will be active for them. You can also turn it on **selectively** — only for specified apps or websites. To switch to this mode, tap *Change mode*.
 
@@ -33,9 +33,9 @@ If you switch to this mode for websites, don’t forget to add the domains of th
 
 You can add a domain (e.g., `google.com`) or subdomain (e.g., `*.google.com`) to exclusions in three ways:
 
-- 在應用程式中手動輸入
-- 透過與 AdGuard VPN 分享網站，直接從瀏覽器添加它
-- 從內建服務清單中新增它
+- Enter it manually in the app
+- Add it directly from the browser by sharing the website with AdGuard VPN
+- Add it from a built-in list of services
 
 ![Add manually *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/manually.jpg)
 
@@ -43,7 +43,7 @@ You can add a domain (e.g., `google.com`) or subdomain (e.g., `*.google.com`) to
 
 :::note
 
-There are some nuances to manually adding domains. 例如，如果您手動排除網域 `yahoo.com`，所有 `*.yahoo.com` 子網域名也會在排除項中列出。 不過，網域名稱與其他頂級網域，例如 `yahoo.jp` 或 `yahoo.fr`，將不會被排除在外。
+There are some nuances to manually adding domains. For example, if you manually exclude the domain `yahoo.com`, all `*.yahoo.com` subdomains will also be listed in exclusions. However, domain names with other top-level domains, such as `yahoo.jp` or `yahoo.fr`, will not be excluded.
 
 If you add `youtube.com` to exclusions, the domain of the same service `youtu.be` won’t be added. In this case, it’s safer to use the built-in lists of services. They contain all the subdomains associated with each platform.
 
@@ -51,9 +51,9 @@ If you add `youtube.com` to exclusions, the domain of the same service `youtu.be
 
 Since you can enable subdomains in service lists, we added boxes that reflect the status of each service:
 
-- **完全啟用** 由綠色背景上的白色複選標記表示
-- **部分啟用** （啟用沒有主域的子域）在白色背景上以綠色方塊標記
-- **完全停用** 標有空白複選框
+- **Fully enabled** is indicated by a white check mark on a green background
+- **Partially enabled** (enabled subdomains without the main domain) is marked with a green square on a white background
+- **Fully disabled** is marked with a blank checkbox
 
 ![Website exclusions *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/websites.png)
 
@@ -65,17 +65,17 @@ If you’ve accidentally deleted a domain or subdomain, just tap *Reset to defau
 
 You can also manage VPN for apps. To exclude an app from the VPN tunnel, tap *Add app*. To use VPN **selectively**, tap *Change mode*.
 
-![應用程式排除 *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/apps.jpg)
+![App exclusions *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/apps.jpg)
 
 :::caution
 
-在 *整合模式*下，您只能透過 AdGuard Ad Blocker 管理應用程式。
+In *Integrated mode*, you can only manage apps through AdGuard Ad Blocker.
 
 :::
 
-## 設定
+## Settings
 
-您可以按下螢幕右下角的齒輪圖示來存取 *設定* 。
+You can reach *Settings* by pressing the gear icon at the bottom right of the screen.
 
 ![Settings *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/settings.jpg)
 
@@ -97,11 +97,11 @@ In *General*, you can manage basic AdGuard VPN settings:
 
 The *Advanced* section is a set of settings that are not as commonly used.
 
-*操作模式* 允許您指定流量的路由方式。 共有三種模式：VPN、SOCKS5、整合模式。 在 *VPN* 模式下，所有流量都透過 AdGuard VPN 路由。 在 *SOCKS5* 模式下，AdGuard VPN 運行本地代理伺服器，其他應用程式可以使用該伺服器進行流量路由。 *整合模式* 允許 AdGuard VPN 和 AdGuard Ad Blocker 協同工作。
+*Operating mode* allows you to specify how your traffic is routed. There are three modes: VPN, SOCKS5, and Integrated mode. In the *VPN* mode, all traffic is routed through AdGuard VPN. In the *SOCKS5* mode, AdGuard VPN runs a local proxy server that can be used by other apps for traffic routing. *Integrated mode* allows AdGuard VPN and AdGuard Ad Blocker to work together.
 
 :::note
 
-Some AdGuard VPN features are disabled in *Integrated mode*: DNS servers, Kill Switch, and App exclusions. 您可以在 AdGuard Ad Blocker 應用程式中管理 DNS 保護並透過 AdGuard VPN 代理程式路由應用程式。
+Some AdGuard VPN features are disabled in *Integrated mode*: DNS servers, Kill Switch, and App exclusions. You can manage DNS protection and route apps through your AdGuard VPN proxy in the AdGuard Ad Blocker app.
 
 :::
 
@@ -111,7 +111,7 @@ In this section, you can also export logs and system info to share them with sup
 
 *Diagnostic data* displays the locally stored technical information about the app, device, and connections. You can copy and send it to our support team if necessary.
 
-*進階設定* 的最後一部分是 *低階設定*。 我們強烈建議您不要進入此部分，除非您非常合格或我們的支援團隊要求您這樣做。 這裡可以在 VPN 介面上啟用 TUN 介面日誌記錄或 IPv6 協議，選擇應使用的代理伺服器連接埠或 Internet 協定版本。
+The last section of *Advanced settings* is *Low-level settings*. We urge you not to enter this section unless you are highly qualified or have been asked to do so by our support team. Here it is possible to enable TUN interface logging or IPv6 protocol on the VPN interface, choose a proxy server port or Internet protocol version that should be used.
 
 :::caution
 
@@ -119,7 +119,7 @@ In the **Preferred IP version** option, before you choose between IPv6 and IPv4,
 
 :::
 
-### 支援
+### Support
 
 In the *Support* section, you can check out our FAQ to get quick answers to your questions, report bugs, and suggest new features.
 

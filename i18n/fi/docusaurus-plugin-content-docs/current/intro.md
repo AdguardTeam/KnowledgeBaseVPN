@@ -1,99 +1,99 @@
 ---
-title: AdGuard VPN -yhteenveto
+title: AdGuard VPN Overview
 sidebar_position: 1
 slug: /
 ---
 
-## Mikä on VPN ja miksi tarvitset sellaisen?
+## What is a VPN and why do you need one?
 
 <iframe width="560" height="315" class="youtube-video" src="https://www.youtube-nocookie.com/embed/7149L3xPmSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-VPN:n avulla voit muodostaa turvallisen yhteyden toiseen verkkoon Internetissä.
+A VPN allows you to create a secure connection to another network on the Internet.
 
 Initially, VPNs were created to securely connect business networks over the Internet, so that people could connect to the corporate network from home. Today, this technology is used for many other things: for example, to browse the Internet anonymously or to protect your online activity from prying eyes while using public Wi-Fi.
 
-A VPN connects a user's computer or mobile device to a server and allows one to browse the net using a "cover" IP address. Tällöin ulkopuoliset tarkkailijat eivät näe käyttäjän todellista IP-osoitetta, mikä tekee heidän jäljittämisestään mahdotonta.
+A VPN connects a user's computer or mobile device to a server and allows one to browse the net using a "cover" IP address. Thus, third-party observers cannot see the user's real IP address, which makes it nearly impossible to trace them.
 
-The first thing that users mention in relation to VPN is traffic encryption and the security derived from it. Mutta mitä se tarkoittaa? VPN luo salatun tunnelin käyttäjän laitteen ja etäpalvelimen välille. Kaikki verkkoliikenteesi kulkee tämän tunnelin läpi, joten tietosi ovat matkan varrella suojassa. Ulkoiselle tarkkailijalle tietoliikenteesi lähde on VPN-palvelin, joten laitteellasi näyttää olevan tämän palvelimen IP-osoite. Tämä konsti peittää käyttäjän identiteetin ja todellisen sijainnin.
+The first thing that users mention in relation to VPN is traffic encryption and the security derived from it. But what does it mean? A VPN creates an encrypted tunnel between the user's device and the remote server. All your web traffic passes through this tunnel, so your data is protected along the way. For the external observer, your traffic exits the VPN server, so it looks like your device has the IP address of this server. This trick masks the user's identity and true location.
 
-VPN-yhteyttä voidaan käyttää:
+VPN can be used to:
 
 - Hide your real whereabouts and stay anonymous
 - Secure your data — even when connecting to a public Wi-Fi, you can browse the Web safely
 - Protect yourself from spoofing (network traffic interception) and tracking on the part of your Internet service provider
 
-Salasanat, korttitiedot ja tavalliset henkilökohtaiset perustiedot ovat alttiina Internetiä selattaessa. Jos muodostat yhteyden yleiseen verkkoon VPN:n välityksellä, voit varmistaa, ettei kukaan voi siepata tietojasi.
+Passwords, card details, and just plain personal information are at risk when a user surfs the Internet. But if you connect to the global network using a VPN, you can be sure that no one can intercept your data.
 
-## Miksi AdGuard VPN?
+## Why AdGuard VPN?
 
-### Luotettu kehittäjä
+### Trusted developer
 
 AdGuard has been present on the market of personal data protection and ad blocking and developing its line of software for more than 15 years. Over this time, our company has built an impeccable reputation, and more than 410 million people have installed AdGuard.
 
-### Ainutlaatuinen VPN-protokolla
+### Unique VPN protocol
 
-The main difference between AdGuard VPN and its competitors is that we use [our own developed protocol](/general/adguard-vpn-protocol). Se naamioituu normaaliksi tietoliikenteeksi, jonka ansiosta sen jäljittäminen ja estäminen on paljon vaikeampaa.
+The main difference between AdGuard VPN and its competitors is that we use [our own developed protocol](/general/adguard-vpn-protocol). It disguises itself as normal traffic, so it is much more difficult to track and block it.
 
 ### No-logging policy
 
 No-logging policy means that we don’t collect, store, or transfer users’ personal data to third parties. [Read AdGuard VPN Privacy policy](https://adguard-vpn.com/privacy.html)
 
-### Seurantasuojaus
+### Tracking protection
 
-Minkä tahansa käyttäjän verkkoliikenne voi olla kiinnostavaa ja olla erittäin arvokasta henkilökohtaisten tietojen kaupallistamisen kannalta. Sekä rikolliset että häikäilemättömät Internet-palveluntarjoajat voivat käyttää näitä tietoja. Luotettavan VPN:n avulla voit kuitenkin olla vakuuttunut siitä, ettei palveluntarjoajasi tai kukaan muukaan näe Internet-toimintaasi.
+Web traffic from any user may be of interest and is particularly valuable in terms of monetization of personal data. Both criminals and unscrupulous ISPs can access it. However, with a trustworthy VPN, you can be confident that neither your provider nor anyone else will see your internet activity.
 
 ### Ultra-fast VPN servers in 53 countries
 
-- Argentiina
+- Argentina
 - Australia
-- Itävalta
-- Belgia
-- Brasilia
+- Austria
+- Belgium
+- Brazil
 - Bulgaria
-- Kambodža
-- Kanada
+- Cambodia
+- Canada
 - Chile
-- Kolumbia
-- Kroatia
-- Kypros
-- Tšekki
-- Tanska
-- Egypti
-- Viro
-- Suomi
-- Ranska
-- Saksa
-- Kreikka
+- Colombia
+- Croatia
+- Cyprus
+- Czechia
+- Denmark
+- Egypt
+- Estonia
+- Finland
+- France
+- Germany
+- Greece
 - Hong Kong
-- Unkari
-- Intia
-- Irlanti
+- Hungary
+- India
+- Ireland
 - Israel
-- Italia
-- Japani
-- Kazakstan
-- Luxemburg
-- Meksiko
-- Alankomaat
-- Uusi Seelanti
-- Norja
-- Filippiinit
-- Puola
-- Portugali
+- Italy
+- Japan
+- Kazakhstan
+- Luxembourg
+- Mexico
+- Netherlands
+- New Zealand
+- Norway
+- Philippines
+- Poland
+- Portugal
 - Romania
-- Venäjä
+- Russia
 - Serbia
 - Singapore
 - Slovakia
-- Etelä-Afrikka
-- Etelä-Korea
-- Espanja
-- Ruotsi
-- Sveitsi
+- South Africa
+- South Korea
+- Spain
+- Sweden
+- Switzerland
 - Taiwan
-- Turkki
-- Yhdistynyt kuningaskunta
-- Yhdistyneet Arabiemiirikunnat
-- Yhdysvallat
-- Ukraina
+- Turkey
+- United Kingdom
+- United Arab Emirates
+- United States of America
+- Ukraine
 - Vietnam

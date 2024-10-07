@@ -1,5 +1,5 @@
 ---
-title: Setting up on a router
+title: Yönlendiriciye kurulum
 sidebar_position: 1
 ---
 

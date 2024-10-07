@@ -1,14 +1,14 @@
 ---
-title: Configurando em um roteador
+title: Setting up on a router
 sidebar_position: 1
 ---
 
-Aprenda como configurar o AdGuard VPN para Linux em um roteador.
+Learn how to set up AdGuard VPN for Linux on a router.
 
-- [Instruções para roteadores Keenetic](/adguard-vpn-for-linux/setting-up-on-a-router/keenetic.md)
+- [Instructions for Keenetic routers](/adguard-vpn-for-linux/setting-up-on-a-router/keenetic.md)
 
-- [Instruções para roteadores OpenWRT](/adguard-vpn-for-linux/setting-up-on-a-router/openwrt.md)
+- [Instructions for OpenWRT routers](/adguard-vpn-for-linux/setting-up-on-a-router/openwrt.md)
 
-- [Instruções para roteadores Asuswrt-Merlin](/adguard-vpn-for-linux/setting-up-on-a-router/asuswrt-merlin.md)
+- [Instructions for Asuswrt-Merlin routers](/adguard-vpn-for-linux/setting-up-on-a-router/asuswrt-merlin.md)
 
-Mais instruções para outras marcas de roteadores e opções de firmware serão adicionadas aqui em breve.
+More instructions for other router brands and firmware options will be added here soon.

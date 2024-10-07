@@ -1,57 +1,57 @@
 ---
-title: Login, tilslutning og opdatering
+title: Login, connection, and update
 sidebar_position: 3
 ---
 
-## Log ind og log ud
+## Log in and log out
 
-For at logge ind eller oprette en konto, skriv:
+To log in or create an account, type:
 
 ```
 adguardvpn-cli login
 ```
 
-Angiv e-mailadressen og adgangskoden til AdGuard-kontoen. Har man endnu ingen konto, tilbydes man at oprette én.
+Enter the email address and password for your AdGuard account. If you don’t have an account yet, you’ll be prompted to create one.
 
 :::note
-Man kan også oprette en AdGuard-konto på vores [websted](https://auth.adguard.com/login.html) og derefter logge ind på AdGuard VPN til Linux vha. sine legitimationsoplysninger.
+You can also create an AdGuard account on our [website](https://auth.adguard.com/login.html) and then log in to AdGuard VPN for Linux using your credentials.
 :::
 
-For at logge ud AdGuard VPN, skriv:
+To log out of AdGuard VPN, type:
 
 ```
 adguardvpn-cli logout
 ```
 
-## Opret forbindelse til VPN
+## Connect to VPN
 
-For hurtig forbindelsesoprettelse, skriv:
+For quick connection, type:
 
 ```
 adguardvpn-cli connect
 ```
 
-AdGuard VPN vil oprette forbindelse til den hurtigste tilgængelige eller seneste brugte lokation.
+AdGuard VPN will connect to the fastest available or the last used location.
 
-For at se tilgængelige lokationer, skriv:
+To view available locations, type:
 
 ```
 adguardvpn-cli list-locations
 ```
 
-For at oprette forbindelse til en bestemt lokation, skriv:
+To connect to a specific location, type:
 
 ```
 adguardvpn-cli connect -l <location>
 ```
 
-Erstat `<location>` med byen, landet eller ISO-koden for den lokation, der skal oprettes forbindelse til.
+Replace `<location>` with the city, country, or ISO code of the location you want to connect to.
 
-Angiv om nødvendigt admin-adgangskoden.
+If required, enter your admin password.
 
-## Søg efter opdateringer
+## Check for updates
 
-For at søge efter opdateringer, skriv:
+To check for updates, type:
 
 ```
 adguardvpn-cli check-update

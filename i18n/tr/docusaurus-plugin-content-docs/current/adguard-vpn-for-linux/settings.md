@@ -35,7 +35,7 @@ adguardvpn-cli config set-socks-port <port_number>
 
 ## SOCKS ayarları
 
-To set the SOCKS listen host, type:
+SOCKS dinleme ana makinesini ayarlamak için şunu yazın:
 
 ```
 adguardvpn-cli config set-socks-host <host>

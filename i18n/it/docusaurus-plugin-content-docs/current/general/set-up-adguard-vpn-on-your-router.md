@@ -1,5 +1,5 @@
 ---
-title: Come configurare AdGuard VPN sul tuo router
+title: How to set up AdGuard VPN on your router
 sidebar_position: 8
 ---
 
@@ -11,46 +11,46 @@ This option is only available if you have an AdGuard VPN subscription and your r
 
 :::
 
-## Come configurare AdGuard VPN sul tuo router
+## How to set up AdGuard VPN on your router
 
-1. Nel tuo [profilo di AdGuard](https://auth.adguard.com/login.html), seleziona AdGuard VPN.
+1. In your [AdGuard account](https://auth.adguard.com/login.html), select AdGuard VPN.
 
-2. In _Dispositivi_, clicca su _Aggiungi router_.
+2. Under _Devices_, click _Add router_.
 
-   ![Aggiungi router \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/2_year.jpg)
+   ![Add router \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/2_year.jpg)
 
-3. Seleziona la posizione desiderata del server VPN e genera le credenziali.
+3. Select the desired VPN server location and generate credentials.
 
-   ![Genera le credenziali \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/configure_router.png)
+   ![Generate credentials \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/configure_router.png)
 
    :::note
 
-   I passaggi successivi potrebbero variare secondo il tuo router. Come esempio, abbiamo utilizzato il router di Keenetic.
+   The next steps may vary depending on your router. We have used the Keenetic router as an example.
 
    :::
 
-4. Nella tua pagina da amministratore, vai alle impostazioni del router.
+4. In your admin page, go to the router settings.
 
-5. Abilita _Client VPN_ e clicca su _Aggiungi server VPN_.
+5. Enable _VPN Client_ and click _Add VPN server_.
 
 6. Select IPsec-client (it may for some router brands be called IKEv2; not L2TP/IPsec).
 
-7. Inserisci le credenziali che hai creato nel passaggio 3.
+7. Enter the credentials you created in step 3.
 
-   ![Inserisci le credenziali \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/vpn_connection.jpg)
+   ![Enter the credentials \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/vpn_connection.jpg)
 
-8. Connetti i dispositivi al tuo router.
+8. Connect devices to your router.
 
 :::note
 
-Dovrai aggiornare le impostazioni del tuo router, se desideri modificare la posizione del server VPN.
+You’ll need to update your router settings if you want to change the VPN server location.
 
 :::
 
-## Perché configurare AdGuard VPN sul tuo router può essere utile
+## Why setting up AdGuard VPN on your router may be useful
 
-- Con AdGuard VPN sul tuo router, né il tuo fornitore VPN né chiunque altro ha accesso alla tua attività su Internet
-- Installare AdGuard VPN sul tuo router protegge la tua intera rete, a significare che tutti i dispositivi a essi connessi sono protetti
+- With AdGuard VPN on your router, neither your VPN provider nor anyone else has access to your Internet activity
+- Installing AdGuard VPN on your router secures your entire network, meaning that all devices connected to it are protected
 - You can enhance security and protect your data on devices where it’s not possible to install AdGuard VPN apps — media devices and game consoles
 
 ## Devices that can be connected to a router with AdGuard VPN

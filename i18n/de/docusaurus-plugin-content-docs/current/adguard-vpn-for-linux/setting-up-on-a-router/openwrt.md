@@ -1,67 +1,67 @@
 ---
-title: So richten Sie AdGuard VPN für Linux auf einem OpenWRT-Router ein
+title: How to set up AdGuard VPN for Linux on an OpenWRT router
 sidebar_position: 3
 ---
 
-:::info Systemanforderungen
+:::info System requirements
 
-AdGuard VPN für Linux, auch bekannt als AdGuard VPN CLI, benötigt nach der Installation der erforderlichen Pakete mindestens 22 MB freien Speicherplatz auf dem integrierten Speicher Ihres Routers oder auf einem externen USB-Stick.
+AdGuard VPN for Linux, also known as AdGuard VPN CLI, requires at least 22 MB of free storage space on your router’s built-in memory or external USB after installing necessary packages.
 
 :::
 
-## 1. Sicherstellen, dass SSH auf Ihrem Router aktiviert ist
+## 1. Make sure that SSH is enabled on your router
 
-Diese Einstellung finden Sie in der Regel auf der Weboberfläche des Routers.
+This setting is usually found in the router’s web interface.
 
 Für OpenWrt:
 
-1. Melden Sie sich auf der Weboberfläche an. In der Regel ist dies über einen Webbrowser unter [`http://192.168.1.1`](http://192.168.1.1/) zugänglich.
+1. Log into the web interface. Typically, this is accessible via a web browser at [`http://192.168.1.1`](http://192.168.1.1/).
 
-2. Wechseln Sie zu _System_ ➜ _Verwaltung_.
+2. Navigate to _System_ → _Administration_.
 
-3. Stellen Sie sicher, dass der _SSH-Zugang_ aktiviert ist.
+3. Make sure that _SSH Access_ is enabled.
 
-OpenWrt erlaubt standardmäßig den SSH-Zugriff auf den Router.
+By default, OpenWrt allows SSH access to the router.
 
-## 2. Ermitteln Sie die IP-Adresse Ihres Routers
+## 2. Determine your router’s IP address
 
-Die Standard-IP-Adresse der meisten Router lautet „192.168.1.1“ oder „192.168.0.1“. Wenn die IP-Adresse geändert wurde oder Sie sich nicht sicher sind, können Sie sie ermitteln, indem Sie die IP-Konfiguration auf einem angeschlossenen Gerät überprüfen.
+The default IP address for most routers is `192.168.1.1` or `192.168.0.1`. If you’ve changed the IP address or if you’re unsure, you can find it by checking the IP configuration on a connected device.
 
 ### Unter Windows
 
-1. Öffnen Sie die Eingabeaufforderung:
+1. Open command prompt:
 
    ```text
    ipconfig
    ```
 
-2. Suchen Sie den _Standardgateway_ unter Ihrer aktiven Netzwerkverbindung. Dies ist die IP-Adresse Ihres Routers.
+2. Look for the _Default Gateway_ under your active network connection. This is your router’s IP address.
 
 ### Unter macOS und Linux
 
-1. Öffnen Sie das Terminal und führen Sie es unter Linux aus:
+1. Open Terminal and run this on Linux:
 
    ```text
    ip route | grep default
    ```
 
-   Oder dies auf dem Mac:
+   Or this on Mac:
 
    ```text
    route -n get default
    ```
 
-2. Suchen Sie nach dem Eintrag _default_. Die IP-Adresse daneben ist die IP-Adresse Ihres Routers.
+2. Look for the _default_ entry. The IP address next to it is your router’s IP address.
 
-## 3) Verwenden Sie einen SSH-Client, um sich mit dem Router zu verbinden
+## 3) Use an SSH client to connect to the router
 
-Auf den meisten Linux- und macOS-Systemen ist ein SSH-Client vorinstalliert. Unter Windows können Sie PowerShell, den integrierten SSH-Client in Windows 10/11 oder eine Anwendung eines Drittanbieters wie PuTTY verwenden.
+Most Linux and macOS systems come with an SSH client pre-installed. For Windows, you can use PowerShell, the built-in SSH client in Windows 10/11, or a third-party application like PuTTY.
 
-### Integrierter SSH-Client (Linux, macOS und Windows 10/11)
+### Built-in SSH client (Linux, macOS, and Windows 10/11)
 
-1. Öffnen Sie das Terminal oder die PowerShell.
+1. Open Terminal or PowerShell.
 
-2. Führen Sie den folgenden SSH-Befehl aus:
+2. Run the SSH command:
 
    ```text
    ssh root@192.168.1.1
@@ -69,7 +69,7 @@ Auf den meisten Linux- und macOS-Systemen ist ein SSH-Client vorinstalliert. Unt
 
    Ersetzen Sie `192.168.1.1` durch die IP-Adresse Ihres Routers.
 
-3. Wenn Sie sich zum ersten Mal über SSH mit dem Router verbinden, werden Sie eine Meldung sehen wie diese:
+3. If this is your first time connecting to the router via SSH, you’ll see a message like:
 
    ```text
    The authenticity of host '192.168.1.1 (192.168.1.1)' can't be established.
@@ -77,95 +77,95 @@ Auf den meisten Linux- und macOS-Systemen ist ein SSH-Client vorinstalliert. Unt
    Are you sure you want to continue connecting? (Yes/No/[Fingerprint])
    ```
 
-   Geben Sie `Ja` ein und drücken Sie die Eingabetaste.
+   Type `Yes` and press Enter.
 
-4. Geben Sie das Passwort des Routers ein, wenn Sie dazu aufgefordert werden. Ein Standardpasswort für OpenWrt ist normalerweise nicht vergeben (drücken Sie einfach die Eingabetaste), aber Sie sollten bei der Ersteinrichtung ein Passwort festgelegt haben.
+4. Enter the router’s password when prompted. The default password for OpenWrt is typically empty (just press Enter), but you should have set a password during the initial setup.
 
 ### PuTTY (Windows)
 
-1. Laden Sie PuTTY von [der offiziellen Website](https://www.putty.org/) herunter und installieren Sie es.
+1. Download and install PuTTY from [the official website](https://www.putty.org/).
 
 2. Öffnen Sie PuTTY.
 
-3. Geben Sie in das Feld _Hostname (oder IP-Adresse)_ die IP-Adresse Ihres Routers ein (z. B. `192.168.1.1`).
+3. In the _Host Name (or IP address)_ field, enter your router’s IP address (e.g., `192.168.1.1`).
 
-4. Stellen Sie sicher, dass der _Verbindungstyp_ auf SSH eingestellt ist.
+4. Ensure the _Connection type_ is set to SSH.
 
 5. Klicken Sie auf _Öffnen_.
 
-6. Wenn sich das Terminalfenster öffnet, melden Sie sich an. Der Standard-Benutzername ist `root` und das Standard-Passwort ist `keenetic`.
+6. When the Terminal window opens, log in. The default username is `root` and the default password is `keenetic`.
 
-## 4) Grundlegende SSH-Befehle
+## 4) Basic SSH commands
 
-Sobald Sie angemeldet sind, können Sie verschiedene Befehle verwenden, um mit dem Linux-basierten Betriebssystem Ihres Routers zu interagieren.
+Once logged in, you can use various commands to interact with your router’s Linux-based operating system.
 
-Aktualisieren Sie die Paketlisten (OpenWrt):
+Update package lists (OpenWrt):
 
 ```text
 opkg update
 ```
 
-Installieren Sie die erforderlichen Pakete:
+Install required packages:
 
 ```text
 opkg install curl kmod-tun ca-certificates
 ```
 
-Führen Sie das AdGuard VPN CLI-Installationsskript aus:
+Run the AdGuard VPN CLI installation script:
 
 ```text
 curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/release/install.sh | sh -s -- -v
 ```
 
-## 5. AdGuard VPN CLI einrichten
+## 5. Set up AdGuard VPN CLI
 
-1. Melden Sie sich bei Ihrem Konto an
+1. Log in to your account
 
-   Um AdGuard VPN für Linux nutzen zu können, benötigen Sie ein AdGuard-Konto.
+   To use AdGuard VPN for Linux, you need an AdGuard account.
 
-   Sie können sich auf unserer [Website](https://auth.adguard.com/login.html) oder im Terminal registrieren oder anmelden.
+   You can sign up or log in on our [website](https://auth.adguard.com/login.html) or in the Terminal.
 
-   Um sich zu registrieren oder anzumelden, geben Sie Folgendes ein:
+   To sign up or log in, type:
 
    ```jsx
    adguardvpn-cli login
    ```
 
-   Hinweis: Wenn es nicht gelungen ist, die Binärdatei mit '/usr/local/bin' zu verknüpfen, verwenden Sie den vollständigen Dateipfad, um alle Befehle auszuführen. Zum Beispiel: `/opt/adguardvpn_cli/adguardvpn-cli login`
+   Note: If failed to link the binary to '/usr/local/bin’, use full file path to run all commands. For example, `/opt/adguardvpn_cli/adguardvpn-cli login`
 
-2. Mit VPN verbinden
+2. Connect to VPN
 
-   Wählen Sie einen VPN-Serverstandort, der Ihren Anforderungen am besten entspricht.
+   Select a VPN server location that best suits your needs.
 
-   Im Allgemeinen gilt: Je näher Sie dem Server sind, desto schneller ist die Verbindung.
+   In general, the closer the server is to you, the faster the connection.
 
-   Um die verfügbaren Standorte anzuzeigen, geben Sie Folgendes ein:
+   To view available locations, type:
 
    ```jsx
    adguardvpn-cli list-locations
    ```
 
-   Um eine Verbindung zu einem bestimmten Standort herzustellen, geben Sie Folgendes ein:
+   To connect to a specific location, type:
 
    ```jsx
    adguardvpn-cli connect -l LOCATION_NAME
    ```
 
-   Ersetzen Sie LOCATION_NAME durch die Stadt, das Land oder den ISO-Code des Ortes, zu dem Sie eine Verbindung herstellen möchten.
+   Replace LOCATION_NAME with the city, country, or ISO code of the location you want to connect to.
 
-   Für eine Schnellverbindung, geben Sie ein:
+   For quick connect, type:
 
    ```jsx
    adguardvpn-cli connect
    ```
 
-   AdGuard VPN wählt den schnellsten verfügbaren Standort und merkt sich diesen für zukünftige schnelle Verbindungen.
+   AdGuard VPN will choose the fastest available location and remember it for future quick connections.
 
-3. Passen Sie Ihre Einstellungen an
+3. Adjust your settings
 
-   Rufen Sie eine Liste aller verfügbaren AdGuard VPN-Befehle auf und passen Sie den VPN-Client an Ihre Bedürfnisse an.
+   Get a list of all available AdGuard VPN commands and customize the VPN client to your needs.
 
-   Um alle Befehle anzuzeigen, geben Sie ein:
+   To view all commands, type:
 
    ```jsx
    adguardvpn-cli --help-all
@@ -173,11 +173,11 @@ curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/sc
 
    AdGuard VPN CLI erstellt eine tun0-Schnittstelle für VPN-Tunneling.
 
-## 6) Firewall-Regeln einrichten
+## 6) Set up firewall rules
 
-Sie können dies über die Weboberfläche oder über die Befehlszeile tun. Die folgenden Schritte beschreiben die Einrichtung über die SSH-Befehlszeile.
+You can do it in the web interface or in the command line. Steps below describe setup via SSH command line.
 
-1. Fügen Sie eine neue unverwaltete Schnittstelle über SSH hinzu
+1. Add a new unmanaged interface via SSH
 
    ```shell
    ssh admin@router_ip
@@ -188,20 +188,20 @@ Sie können dies über die Weboberfläche oder über die Befehlszeile tun. Die f
    /etc/init.d/network reload
    ```
 
-2. tun0 zur WAN-Zone hinzufügen
+2. Add tun0 to WAN zone
 
-   Damit der Datenverkehr über VPN geführt werden kann, fügen Sie tun0 zur WAN-Zone hinzu.
-   Die WAN-Schnittstelle, die eine Verbindung zum Internet herstellt, befindet sich in der Regel in einer Zone mit dem Namen `wan` oder einer ähnlichen Bezeichnung. Überprüfen Sie die Konfigurationsdateien Ihres Routers oder die Firewall-Einstellungen, um herauszufinden, welche Zone mit der WAN-Schnittstelle verbunden ist.
+   For traffic to go through VPN, add tun0 to WAN zone.
+   The WAN interface which connects to the Internet will typically be in a zone named `wan` or something similar. Check your router's configuration files or firewall settings to find out which zone is associated with the WAN interface.
 
-   Um dies zu tun, lassen Sie sich die vorhandenen Firewall-Zonen auflisten:
+   To do so, list the existing firewall zones:
 
    ```shell
    uci show firewall
    ```
 
-   Dadurch wird eine Konfigurationsdatei mit allen Zonen angezeigt. Suchen Sie nach einem Abschnitt wie `firewall.@zone[1]` oder ähnlich, in dem `Optionsname 'wan'` definiert ist. Die Zahl `[1]` kann je nach Ihrer Konfiguration unterschiedlich sein.
+   This will show a config file with all zones listed. Look for a section like `firewall.@zone[1]` or similar where `option name 'wan'` is defined. The number `[1]` could be different depending on your configuration.
 
-   Führen Sie diesen SSH-Befehl aus und ersetzen Sie `zone[1]` durch die richtige, zuvor identifizierte ‘wan’-Zone:
+   Run this SSH command, replace `zone[1]` with correct  ‘wan’ zone identified before:
 
    ```shell
    uci show firewall | grep "=zone"
@@ -210,7 +210,7 @@ Sie können dies über die Weboberfläche oder über die Befehlszeile tun. Die f
    /etc/init.d/firewall reload
    ```
 
-   Wenn Sie den gesamten Datenverkehr, der nicht durch VPN geschützt ist, deaktivieren möchten, führen Sie den folgenden Befehl aus. Auf diese Weise wird die Internetverbindung getrennt, sobald die VPN-Verbindung unterbrochen wird. Wenn Sie diesen Schritt nicht ausführen, wird Ihre echte IP-Adresse offengelegt, sobald die VPN-Verbindung unterbrochen wird.
+   If you want to disable all traffic that is not protected by VPN, run the following command. This way you won’t have an Internet connection at all if VPN disconnects. If you choose not to do this step, your real IP will be exposed if the VPN disconnects.
 
    ```shell
    uci del_list firewall.@zone[1].network='wan'
@@ -219,7 +219,7 @@ Sie können dies über die Weboberfläche oder über die Befehlszeile tun. Die f
    /etc/init.d/firewall reload
    ```
 
-   Wenn Sie Ihre Meinung geändert haben und direkten Datenverkehr zulassen möchten, führen Sie folgenden Befehl aus:
+   If you’ve changed your mind and want to allow direct traffic, run the following command:
 
    ```shell
    uci add_list firewall.@zone[1].network='wan'
@@ -228,11 +228,11 @@ Sie können dies über die Weboberfläche oder über die Befehlszeile tun. Die f
    /etc/init.d/firewall reload
    ```
 
-## 7) Automatischen Start für AdGuard VPN CLI einrichten
+## 7) Set up automatic launch for AdGuard VPN CLI
 
-Um AdGuard VPN CLI automatisch nach dem Neustart des Routers zu starten, erstellen Sie eine Datei unter `.../etc/init.d/adguardvpn`.
+To automatically launch AdGuard VPN CLI after rebooting the router, create a file at `…/etc/init.d/adguardvpn`.
 
-Fügen Sie dies in die Datei ein:
+Paste this into the file:
 
 ```text
 #!/bin/sh /etc/rc.common
@@ -251,7 +251,7 @@ stop() {
 }
 ```
 
-Führen Sie diesen Befehl aus, um den Zugriff auf den automatischen Start zu ermöglichen und zu aktivieren:
+Run this to grant access to and enable auto-launch:
 
 ```jsc
  chmod +x /etc/init.d/adguardvpn

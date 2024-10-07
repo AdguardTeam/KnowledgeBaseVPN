@@ -1,106 +1,106 @@
 ---
-title: Almindelige installer-fejl
+title: Common installer errors
 sidebar_position: 2
 ---
 
-Denne artikel skitserer nogle af de mest alm. fejl, som kan opleves under installationen af AdGuard VPN til Windows, samt mulige måder at løse dem på.
+This article outlines some of the most common errors you may encounter while installing AdGuard VPN for Windows and possible ways to resolve them.
 
-### Fejl 5: Adgang nægtet {#error-5}
+### Error 5: Access Denied {#error-5}
 
-Denne fejlmeddelelse vises, hvis de nødvendige tilladelser ikke er tildelt. Der kan være flere årsager til, at AdGuard VPN-installeren ikke har de nødvendige tilladelser krævet for at afslutte installationsprocessen korrekt. Flg. trin kan prøves:
+This error message appears if required permissions are not granted. There may be several different reasons why AdGuard VPN installer does not have the permissions it requires to properly finish the installation process. You can try the following steps:
 
-- Deaktivér midlertidigt antivirusprogrammet. Nogle af dem kan forstyrre installationen, afhængigt af deres indstillingers restriktionsgrad.
+- Temporarily disable your antiviruses. Some of them may interfere with the installation, depending on the restrictiveness of their settings.
 
-- Vælg en anden installationsmappe. Det er muligt, at den aktuelle installationsmappe har adgangsbegrænsninger. Sørg også for ikke at vælge et eksternt/virtuelt drev mv.
+- Choose a different installation folder. It is possible that the current installation folder has some access restrictions. Also make sure you don't select an external drive, a virtual drive, etc.
 
-- Genstart computeren. Nogle gange er tilladelsesproblemer midlertidige og kan løses ved at genstarte PC'en.
+- Reboot your computer. Sometimes the permission issues are temporary and can be solved by restarting the PC.
 
-### Fejl 112: Disk er fuld, Fejl 1632: Midlertidig mappe fuld eller utilgængelig {#error-112}
+### Error 112: Disk is full, Error 1632: Temporary folder full or inaccessible {#error-112}
 
-Disse er to forskellige fejl med meget ens løsninger. Som deres beskrivelser indikerer, havde AdGuard VPN-installeren ikke nok diskplads til at fuldføre installationen. Flere ting kan forsøges for at løse problemet:
+These are two different errors with very similar solutions. As their names suggest, AdGuard VPN installer didn't find enough disk space to complete the installation. There are several things you can attempt to fix the problem:
 
-- Afinstallér nogle programmer, eller slet unødvendige filer fra drevet, hvor AdGuard VPN forsøges installeret.
+- Uninstall some programs or delete unnecessary files from the drive you were trying to install AdGuard VPN to.
 
-- Download, installér og kør [AdwCleaner](http://www.bleepingcomputer.com/download/adwcleaner/), et gratis værktøj fra Malwarebytes. Det renser systemet for blandt andet alle mulige "filefterladenskaber", som måtte restere efter ufuldstændige programafinstallationer mv. Det kan assistere med rense og frigøre diskplads.
+- Download, install, and run [AdwCleaner](http://www.bleepingcomputer.com/download/adwcleaner/), a free piece of software by Malwarebytes. It will, among other things, clean your system from all kinds of extra "leftover" files that remain after incorrectly uninstalled programs and such. It will help clean up some disk space.
 
-- Genstart computeren. Af og til kan midlertidige filer optage en anseelig mængde diskplads, og genstart af PC'en er den mest pålidelige måde at slippe af med dem på.
+- Reboot your computer. Sometimes temporary files can take up a considerable amount of disk space, and restarting your PC is the most reliable way to get rid of them.
 
-### Fejl 1601: Windows-installationsprogram utilgængeligt {#error-1601}
+### Error 1601: Windows Installer is not accessible {#error-1601}
 
-Denne kan betragtes som en særligt undertype af Fejl 1603. De mulige løsninger er ens:
+You could say this is a particular subtype of Error 1603. The possible solutions are similar:
 
-- Start og genregistrér Microsoft Installer-tjenesten. Dette kræver lidt arbejde.
+- Start and re-register Microsoft Installer service. It requires some work.
 
-    1. Klik på *Win + R* og skriv **services.msc**.
-    1. På listen, find og dobbeltklik på *Windows Installer*.
-    1. Klik på knappen *Start* under *Tjenestestatus* og dernæst på *OK*. Er tjenestestatussen **kører**, klik da først på *Stop* og dernæst på *Start*.
-    1. Tryk på *Win + R*, skriv **msiexec /unregister** og tryk på *Retur*.
-    1. Tryk på *Win + R* igen, og skriv **msiexec /regserver** og tryk på *Retur*
+    1. Press *Win + R* and enter **services.msc**.
+    1. Find in the list and double click *Windows Installer*.
+    1. Hit *Start* button under *Service status* and hit *OK*. If the service status is **running**, you should click *Stop* first and then hit *Start*.
+    1. Press *Win + R*, type **msiexec /unregister** and hit *Enter*.
+    1. Press *Win + R* again, type **msiexec /regserver** and hit *Enter*
 
-- Genstart PC'en og start installationen forfra. Nogle gange er dette nok til at løse problemet.
+- Reboot the PC and start the installation all over again. Sometimes that's enough to fix the problem.
 
-### Fejl 1602: Afbrudt af bruger {#error-1602}
+### Error 1602: Canceled by user {#error-1602}
 
-Denne fejlkode indikerer, at installationsprocessener på en eller anden måde er blevet afbrudt manuelt. Hvad der kan gøres, er:
+If you got this error code, chances are you have interrupted the installation process manually in one way or another. What you can do is:
 
-- Undlad at lukke installationsvinduet. Det lukker automatisk, når installationen er færdig.
+- Do not close the installer window. When the installation is complete, it will close automatically.
 
-- Vises et dialogvindue under installationen, så tryk på "Ja" for at tildele installationsprogrammet de nødvendige tilladelser. Klikkes på "Nej", afbrydes installationen.
+- If a dialogue window pops up during the installation, hit "Yes" to grant the installer the required permissions. Clicking "No" will cancel the installation.
 
-- Undlad at starte andre processer, mens installationsprocessen kører.
+- Do not start other processes while the installation is in progress.
 
-### Fejl 1603: Fatal fejl under installationen {#error-1603}
+### Error 1603: Fatal error during installation {#error-1603}
 
-Fejlen lyder mere bekymrende, end den faktisk er. Reelt er der tale om en ret generisk fejl med mange forskellige årsager, hvoraf nogle nemt kan rettes. Prøv flg. løsninger:
+This error sounds more worrying than it actually is. In reality, this is a rather generic error that can have many different causes, and some of them are easily fixed. Try the following solutions:
 
-- Tryk på *Win*-tasten, søg efter *Kommandoprompt* og kør den. Indtast `sfc /scannow` på kommandolinjen og tryk på *Retur*.
+- Press the *Win* key, search for *Command Prompt*, and run it. There, type in `sfc /scannow` and press *Enter*.
 
-- Vælg en anden installationsmappe. Det er muligt, at den aktuelle installationsmappe har adgangsbegrænsninger. Sørg også for ikke at vælge et eksternt/virtuelt drev mv.
+- Choose a different installation folder. It is possible that the current installation folder has some access restrictions. Also make sure you don't select an external drive, a virtual drive, etc.
 
-- Afinstallér AdGuard VPN via vores særlige [afinstallationsværktøj](/adguard-vpn-for-windows/installation#advanced) og start derefter installationen forfra.
+- Uninstall AdGuard VPN using our special [uninstall tool](/adguard-vpn-for-windows/installation#advanced) and then repeat the installation.
 
-- Start og genregistrér Microsoft Installer-tjenesten. Dette kræver lidt arbejde.
+- Start and re-register Microsoft Installer service. It requires some work.
 
-    1. Tryk på *Win + R* og skriv **services.msc**.
-    1. På listen, find og dobbeltklik på *Windows Installer*.
-    1. Klik på knappen *Start* under *Tjenestestatus* og dernæst på *OK*. Er tjenestestatussen **kører**, klik da først på *Stop* og dernæst på *Start*.
-    1. Tryk på *Win + R*, skriv **msiexec /unregister** og tryk på *Retur*.
-    1. Tryk på *Win + R* igen, og skriv **msiexec /regserver** og tryk på *Retur*
+    1. Press *Win + R* and enter **services.msc**.
+    1. Find in the list and double click *Windows Installer*.
+    1. Hit *Start* button under *Service status* and hit *OK*. If the service status is **running**, you should click *Stop* first and then hit *Start*.
+    1. Press *Win + R*, type **msiexec /unregister** and hit *Enter*.
+    1. Press *Win + R* again, type **msiexec /regserver** and hit *Enter*
 
-- Få tildelt fulde tilladelser på installationsdrevet. Det er muligt, at fejl 1603 opstår, fordi ikke alle tilladelser til filplaceringen er tildelt. Den er heller ikke så nem som nogle af de øvrige løsninger:
+- Acquire full permissions on the drive for installation. It is possible that the error 1603 occurs because you don’t have full permissions on the file location. It's also not as easy as some of the other solutions:
 
-    1. Åbn *File Explorer*, højreklik på drevet med installationsplaceringen, og vælg *Egenskaber*.
-    1. Gå til fanen *Sikkerhed* og klik på *Redigér*.
-    1. Klik på *SYSTEM* og sørg for, at feltet *Tillad* er markeret for alle punkter i *Tilladelser for SYSTEM* (hvis muligt). Udfør samme tjek for *Administratorer*.
-    1. Klik på *OK* for at gå tilbage til dialogen *Egenskaber*. Klik derefter på *Avanceret*.
-    1. Klik på *Skift tilladelser*.
-    1. Dobbeltklik fra fanen *Tilladelser* på *Administratorer*.
-    1. Vælg *Denne mappe, undermapper og filer* for feltet *Gælder for* og markér alle de tilgængelige *Basistilladelser*. Tryk dernæst på *OK*.
-    1. Udfør samme handling, som ovenfor (fra punkt 7), for *SYSTEM*.
-    1. Klik på *OK* hele vejen ud. Prøv at installere AdGuard VPN igen.
+    1. Open *File Explorer*, right-click the drive containing the installation location, and select *Properties*.
+    1. Go to *Security* tab and click *Edit*.
+    1. Single-click *SYSTEM* and ensure that the *Allow* box of every item in *Permissions for SYSTEM* is checked (if it is checkable). Do the same check for *Administrators*.
+    1. Click *OK* to go back to *Properties* dialog. Then click *Advanced*.
+    1. Click *Change Permissions*.
+    1. In *Permissions* tab, double-click *Administrators*.
+    1. Select *This folder, subfolders and files* for the *Applies to* field and tick all the available *Basic permissions*. After that hit *OK*.
+    1. Do the same operation above (from item 7) for *SYSTEM*.
+    1. Click *OK* all the way out. Try installing AdGuard again.
 
-### Fejl 1618: En anden installation er allerede i gang {#error-1618}
+### Error 1618: Another installation is already in progress {#error-1618}
 
-Denne fejl vises, når flere forekomster af AdGuard VPN-installationsprogrammet forsøges afviklet samtidigt. Gør dette, hvis denne fejl ses:
+This error appears when trying to run multiple instances of the AdGuard VPN installer simultaneously. What to do if you get this error:
 
-- Genstart PC'en og start installationen forfra. Når computeren genstartes, stopper alle igangværende processer, inkl. alle forekomster af installationsprogrammet.
+- Reboot your PC and start the installer again. When you restart the computer, all ongoing processes will stop, including all copies of the installer.
 
-- Klik ikke på installationsprogrammet flere gange, selvom det ikke ser ud til at starte med det samme. Af og til tage det nogle sekunder, før installationsprogrammet vises.
+- Don't click the installer multiple times, even if it doesn't seem to start right away. Sometimes it may take a few seconds to display the installer UI.
 
-### Fejl 1638: En anden version af dette produkt er allerede installeret {#error-1638}
+### Error 1638: Another version of this product is already installed {#error-1638}
 
-AdGuard VPN er sandsynligvis allerede blevet installeret tidligere.
+It's very likely that you've already installed AdGuard VPN before.
 
-- Tjek, om AdGuard VPN allerede er installeret på computeren. Det kan gøres ved at trykke på *Win*-tasten og begynde at skrive *adguard vpn*.
+- Check if AdGuard VPN is already installed on your computer. To do that, press the *Win* key and start typing *adguard vpn*.
 
-- Der findes måske nogle efterladenskaber fra en tidligere AdGuard VPN-installation. Afinstallér AdGuard VPN via vores særlige [afinstallationsværktøj](/adguard-vpn-for-windows/installation#advanced) og start derefter installationen forfra.
+- Maybe there are some leftover files from a previous AdGuard VPN installation. Uninstall AdGuard using our special [uninstall tool](/adguard-vpn-for-windows/installation#advanced) and then repeat the installation.
 
-### Andre fejl {#other}
+### Other errors {#other}
 
-Opleves en fejl, der ikke er angivet ovenfor, er det muligt, at vi selv kan løse den. At kunne gøre dette, kræver dog logfiler fra brugeren. Udfør derfor flg. trin:
+If you have encountered an error that's not listed above, it is possible that we can solve it by ourselves. But in order to do that, we need log files from you. Please perform the following steps:
 
-- Find og arkivér **AdGuard VPN-installationslogfilerne**, som beskrevet i [denne artikel](https://adguard.com/kb/adguard-for-windows/solving-problems/installation-logs/).
+- Find and archive **AdGuard VPN installation logs** in the same way that is described in [this article](https://adguard.com/kb/adguard-for-windows/solving-problems/installation-logs/).
 
-- Find **Begivenhedsoversigt**-logfilerne og gem på disken. [Denne artikel](https://adguard.com/kb/adguard-for-windows/solving-problems/system-logs/) forklarer, hvordan dette gøres.
+- Find and save to disk the **Event Viewer** logs. [This article](https://adguard.com/kb/adguard-for-windows/solving-problems/system-logs/) explains how to do that.
 
-E-mail alle disse filer fra de to tidligere trin — inkl. en problembeskrivelse i beskedfeltet — til **support@adguard.com**. Vores supportteam vil svare hurtigst muligt.
+Please email all these files from the two previous steps at **support@adguard.com** and describe the problem in the message body. Our support team will reply to you as soon as possible.

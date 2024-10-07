@@ -15,13 +15,13 @@ Sobald Sie bereit sind, arbeiten Sie unter [dem KnowledgeBaseVPN-Repository](htt
 
 Die Website der Wissensdatenbank wurde mit Docusaurus 2 erstellt, einem modernen Generator für statische Websites. Wenn Sie Änderungen oder Ergänzungen vorschlagen, beachten Sie bitte, dass alle Dokumente den Grundsätzen der Plattform entsprechen müssen. Sie können sie in dem Leitfaden nachlesen, der über [diesen Link](https://docusaurus.io/docs/category/guides) verfügbar ist.
 
-Sie können die Wissensdatenbank auch lokal auf Ihrem Computer bereitstellen, um eine Vorschau auf die von Ihnen vorgeschlagenen Änderungen zu erhalten. Detaillierte Anweisungen dazu finden Sie [in der Datei README.md](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README) auf der GitHub-Seite dieser Knowledge Base.
+Sie können die Wissensdatenbank auch lokal auf Ihrem Computer bereitstellen, um eine Vorschau auf die von Ihnen vorgeschlagenen Änderungen zu erhalten. Detailed instructions on how to do this can be found [in the README.md file](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README) on this Knowledge Base's GitHub page.
 
 ## Artikel übersetzen {#translate-adguard}
 
 Die Übersetzung der bestehenden Artikel der Wissensdatenbank erfolgt auf [der Crowdin-Plattform](https://crowdin.com/project/adguard-vpn-knowledge-base). Alle Details zu Übersetzungen und zur Arbeit mit Crowdin finden Sie [im entsprechenden Artikel](https://adguard.com/kb/miscellaneous/contribute/translate/program/) der Wissensdatenbank von AdGuard Werbeblocker.
 
-Wenn Sie an Artikeln der AdGuard VPN-Wissensdatenbank arbeiten, stoßen Sie möglicherweise auf Zeichenfolgen mit Pluralformen, die Sie mit besonderer Aufmerksamkeit übersetzen sollten. [In einem separaten Artikel](https://adguard.com/kb/miscellaneous/contribute/translate/plural-forms/) beschreiben wir ausführlich die Schwierigkeiten, die bei der Übersetzung von Zeichenketten mit Pluralformen auftreten können, und geben eine detaillierte Anleitung, wie diese auf der Crowdin-Plattform behandelt werden.
+Wenn Sie an Artikeln der AdGuard VPN-Wissensdatenbank arbeiten, stoßen Sie möglicherweise auf Zeichenfolgen mit Pluralformen, die Sie mit besonderer Aufmerksamkeit übersetzen sollten. [In a separate article](https://adguard.com/kb/miscellaneous/contribute/translate/plural-forms/), we describe in detail the difficulties that can arise when translating strings with plural forms and provide detailed guidance on how these are handled on the Crowdin platform.
 
 ## An  Open Issues arbeiten
 

@@ -19,11 +19,11 @@ L'ultimo punto dovrebbe essere affrontato separatamente: gli utenti gratuiti di 
 
 Allo stesso tempo puoi acquistare un abbonamento per ottenere una versione illimitata dell'app. Un abbonamento permette di avere più vantaggi rispetto a un account gratuito:
 
-- 10 dispositivi connessi simultaneamente
+- 10 simultaneously connected devices
 - Traffico illimitato
 - Nessun limite di velocità
 - Tutte le 50+ posizioni sono disponibili
 - Streaming sicuro
 - Nessun blocco della porta 25
 
-Per utilizzare tutti i vantaggi, considera l'[acquisto di un abbonamento](/general/subscription).
+To use all the advantages, consider [purchasing a subscription](/general/subscription).

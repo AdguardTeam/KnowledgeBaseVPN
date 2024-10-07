@@ -1,21 +1,21 @@
 ---
-title: AdGuard VPN til Linux
+title: AdGuard VPN for Linux
 sidebar_position: 1
 ---
 
-AdGuard VPN til Linux, også kendt som AdGuard VPN CLI, er en kommandolinje VPN-klient. Den kan anvendes på Linux- eller macOS-enheder såvel som på MIPS- eller MIPSel-routere.
+AdGuard VPN for Linux, also known as AdGuard VPN CLI, is a command-line VPN client. You can use it on Linux or macOS devices as well as on MIPS or MIPSel routers.
 
-Nedenfor er kommandoer til brug for at logge på, oprette forbindelse og håndtere AdGuard VPN-indstillinger.
+Below are commands you may need to log in, connect, and manage AdGuard VPN’s settings.
 
-- [Installation og fjernelse](/adguard-vpn-for-linux/installation)
-- [Login, forbindelse og opdatering](/adguard-vpn-for-linux/login)
+- [Installation and removal](/adguard-vpn-for-linux/installation)
+- [Login, connection, and update](/adguard-vpn-for-linux/login)
 - [Setting up on a router](/adguard-vpn-for-linux/setting-up-on-a-router)
-- [Indstillinger](/adguard-vpn-for-linux/settings)
-- [Feedbackindsendelse](/adguard-vpn-for-linux/feedback)
+- [Settings](/adguard-vpn-for-linux/settings)
+- [Sending feedback](/adguard-vpn-for-linux/feedback)
 
-På Linux, tryk på `Ctrl+Alt+T`. På Mac, skriv 'Terminal' i søgefeltet.
+On Linux, press `Ctrl+Alt+T`. On your Mac, type `Terminal` in the search field.
 
-For at se alle kommandoer, skriv:
+To view all available commands, type:
 
 ```
 adguardvpn-cli --help-all

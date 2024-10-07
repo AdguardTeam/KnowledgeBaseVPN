@@ -106,7 +106,7 @@ sidebar_position: 1
 
 #### Использовать WinTun
 
-![Использовать WinTun *border](https://cdn.adtidy.org/content/release_notes/vpn/windows/v2.2/stats_tab_v2.2_ru.png)
+![Использовать WinTun *border](https://cdn.adtidy.org/content/release_notes/vpn/windows/v2.2/stats_tab_v2.2_en.png)
 
 WinTun — это драйвер маршрутизации трафика, обычно используемый для реализации VPN в Windows. Он улучшает качество VPN-подключений за счёт создания виртуального сетевого адаптера. По умолчанию AdGuard VPN использует обычный WFP-драйвер (и TDI-драйвер для Windows 7).
 

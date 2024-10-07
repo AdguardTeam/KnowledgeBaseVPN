@@ -25,15 +25,15 @@ Bölgeyi değiştirdikten veya App Store'a farklı bir hesap bağladıktan sonra
 
 ### Android için AdGuard VPN
 
-If you experience problems with Google Play, download the APK file from [AdGuard VPN’s mirror website](https://adguardvpn-help.info/android/overview.html).
+Google Play ile ilgili sorun yaşıyorsanız, APK dosyasını [AdGuard VPN'in yansıtma sitesinden](https://adguardvpn-help.info/android/overview.html) indirin.
 
 ### Mac için AdGuard VPN
 
-Download the installation file from [AdGuard VPN’s mirror website](https://adguardvpn-help.info/windows/overview.html).
+Kurulum dosyasını [AdGuard VPN'in yansıtma sitesinden](https://adguardvpn-help.info/windows/overview.html) indirin.
 
 ### Windows için AdGuard VPN
 
-Download the installation file from [AdGuard VPN’s mirror website](https://adguardvpn-help.info/mac/overview.html).
+Kurulum dosyasını [AdGuard VPN'in yansıtma sitesinden](https://adguardvpn-help.info/mac/overview.html) indirin.
 
 ## Diğer faydalı ipuçları
 

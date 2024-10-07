@@ -9,7 +9,7 @@ Mac용 AdGuard VPN은 데스크톱 VPN 서비스입니다. AdGuard VPN은 AdGuar
 
 :::note Compatibility
 
-현재 Mac용 AdGuard VPN은 macOS Catalina(10.15) 이상 버전에서 지원됩니다.
+AdGuard VPN for Mac is currently supported on macOS versions starting from macOS Catalina (10.15).
 
 :::
 
@@ -52,10 +52,10 @@ Starting with the version 2.4, all browsers are automatically added to the list 
 
 예외 목록은 AdGuard VPN이 설치된 다른 기기로 전송할 수 있습니다. 예외 항목을 내보내려면 아래의 4단계 지침을 따르십시오.
 
-1. 예외 목록을 내보내려는 기기에서 AdGuard VPN을 엽니다. 해당 섹션을 찾아 *내보내기* 버튼을 클릭합니다. `exclusions.zip` 파일이 다운로드됩니다.
+1. 예외 목록을 내보내려는 기기에서 AdGuard VPN을 엽니다. Find the appropriate section and click the *Export* button. `exclusions.zip` 파일이 다운로드됩니다.
 2. ZIP 파일 내부에는 일반 및 선별 목록 각각에 대해 하나씩 두 개의 `.txt` 파일이 있습니다. 제외 항목을 더 추가하거나, 기존 항목을 삭제하거나, 파일 이름을 바꾸거나, ZIP 파일을 그대로 둡니다.
 3. 다른 기기 간에 전송할 때 가져오기를 위해 `.zip` 파일을 기기로 보내는 것을 잊지 마십시오. 예를 들어, Mac 기기에서 아이폰으로 예외 목록을 가져오는 경우, 미리 `.zip` 파일을 Android로 보내야 합니다.
-4. 예외 목록이 있는 ZIP 파일을 가져오려는 기기에서 AdGuard VPN을 엽니다. 해당 섹션을 찾아 *가져오기* 버튼을 클릭하고 ZIP 파일을 선택합니다. 끝!
+4. 예외 목록이 있는 ZIP 파일을 가져오려는 기기에서 AdGuard VPN을 엽니다. Find the appropriate section, click the *Import* button and select the archive. 끝!
 
 :::note
 
@@ -87,7 +87,7 @@ The fourth tab is the *Support* screen. Find answers to any questions in the [FA
 
 ![앱 설정](https://cdn.adguardvpn.com/content/kb/vpn/mac/general-settings_new_en.png)
 
-*킬 스위치*, *자동 업데이트*, *로그인 시 AdGuard VPN 실행* 및 *앱 실행 시 자동 연결*과 같은 네 가지 기본 기능은 애플리케이션을 더욱 편리하고 사용자 친화적으로 만듭니다. 시스템 기본 테마, 다크 테마 또는 라이트 테마를 적용할 수 있습니다. 시스템 기본 테마는 Mac의 테마와 일치합니다.
+The first four basic features make the application more convenient and user-friendly, i.e. *Kill Switch*, *Auto-update*, *Launch AdGuard VPN at login*, and *Auto-connect on app launch*. 시스템 기본 테마, 다크 테마 또는 라이트 테마를 적용할 수 있습니다. 시스템 기본 테마는 Mac의 테마와 일치합니다.
 
 You can also allow AdGuard VPN to gather and send anonymized crash reports, technical and interaction data in order to help us improve our app. Last but not least, you can export logs from your Mac. 이는 지원 팀에 보내는 메시지에 로그를 첨부하려는 경우에 유용할 수 있습니다.
 

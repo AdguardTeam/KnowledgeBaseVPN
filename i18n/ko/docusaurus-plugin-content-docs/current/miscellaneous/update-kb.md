@@ -15,11 +15,11 @@ sidebar_position: 3
 
 지식 창고 웹 사이트는 최신 웹 사이트 생성기인 Docusaurus 2를 사용하여 제작되었습니다. 텍스트를 변경하거나 추가할 때 모든 기사가 플랫폼의 원칙을 준수해야 한다는 점을 고려하십시오. 플랫폼의 원칙에 대한 자세한 내용은 [이 가이드](https://docusaurus.io/docs/category/guides)에서 확인할 수 있습니다.
 
-이 지식 창고를 컴퓨터에 배포하여 제안한 변경 사항을 미리 볼 수 있습니다. 이것을 하기 위한 자세한 지침은 이 지식 창고의 GitHub 페이지에 있는 [README.md 파일 안](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README)에서 발견할 수 있습니다.
+이 지식 창고를 컴퓨터에 배포하여 제안한 변경 사항을 미리 볼 수 있습니다. Detailed instructions on how to do this can be found [in the README.md file](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README) on this Knowledge Base's GitHub page.
 
 ## 기사 번역 {#translate-adguard}
 
-[Crowdin 플랫폼](https://crowdin.com/project/adguard-vpn-knowledge-base)에서 지식 창고의 기존 기사를 번역할 수 있습니다. Crowdin 사용 방법에 대한 자세한 내용은 [AdGuard 광고 차단기의 지식 창고 기사](https://adguard.com/kb/miscellaneous/contribute/translate/program/)에서 확인할 수 있습니다.
+[Crowdin 플랫폼](https://crowdin.com/project/adguard-vpn-knowledge-base)에서 지식 창고의 기존 기사를 번역할 수 있습니다. All the details about translations and working with Crowdin can be found [in the dedicated article](https://adguard.com/kb/miscellaneous/contribute/translate/program/) of the AdGuard Ad Blocker Knowledge Base.
 
 AdGuard VPN 지식 창고에서 기사를 번역하는 동안 번역에 특별한 주의를 기울여야 하는 복수형이 포함된 문자열을 보게 될 것입니다. [In a separate article](https://adguard.com/kb/miscellaneous/contribute/translate/plural-forms/), we describe in detail the difficulties that can arise when translating strings with plural forms and provide detailed guidance on how these are handled on the Crowdin platform.
 

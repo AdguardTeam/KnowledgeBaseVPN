@@ -4,7 +4,7 @@ sidebar_position: 2
 sidebar_label: 如何设置 AdGuard VPN 自动化
 ---
 
-AdGuard VPN iOS 版中没有应用排除项。 不过，有一种方法可以让 AdGuard VPN 自动适用 iPhone 和 iPad 上的应用程序。
+There are no app exclusions in AdGuard VPN for iOS. Yet, there is a way to automate AdGuard VPN for apps on iPhones and iPads.
 
 ## Configuring automatic connection to VPN
 
@@ -17,14 +17,14 @@ AdGuard VPN iOS 版中没有应用排除项。 不过，有一种方法可以让
 3. 在下一个窗口中，确保选择*被打开*选项，然后点击*选择*来选择应用程序。
 
 ![指示说明 第2部分](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_on2_en.jpg)
-4. 开始输入应用程序的名称（此处以 Twitter 为例），并选择它。 点击「*完成*」，然后点击屏幕右上角的「*下一步*」。 在打开的窗口中，点击「*添加操作*」。
+4. Start entering the name of the app (in our case it’s Twitter) and select it. Tap *Done*, then tap *Next* in the upper right corner of the screen. In the opened window, tap *Add Action*.
 
 ![指示说明 第3部分](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_on3_en.jpg)
 5. 输入「AdGuard VPN」并选择 「AdGuard VPN 应用程序」。 在新窗口里点击*设置 VPN 连接*。
 
 ![指示说明 第4部分](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_on4_en.jpg)
 6. 确保数值显示*启用* VPN 连接，并点击*下一步*。
-7. 在下一个窗口中，将「*运行前询问*」选项旁边的滑块移动到非活动。 确认您的选择，然后点击「*完成*」。
+7. 在下一个窗口中，将「*运行前询问*」选项旁边的滑块移动到非活动。 Confirm your choice, then tap *Done*.
 
 现在您有一个新的“场景”。当您启动 Twitter 应用程序时，AdGuard VPN 将自动启用。 现在您需要创建另一个命令，使 AdGuard VPN 在您关闭应用程序时自动关闭。
 
@@ -32,7 +32,7 @@ AdGuard VPN iOS 版中没有应用排除项。 不过，有一种方法可以让
 
 ![指示说明 第1部分](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_off1_en.jpg)
 
-1. 仍在「*快捷方式*」应用中新建自动化：点击「*自动化*」→「*创建个人自动化*」→「*应用程序*」。
+1. In the same *Shortcuts* app start creating a new automation: tap *Automation* → *Create Personal Automation* → *App*.
 2. 确保选中*已关闭*选项并取消选中相邻选项下的复选框。 然后点击*选择*。
 
 ![指示说明 第2部分](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_off2_en.jpg)

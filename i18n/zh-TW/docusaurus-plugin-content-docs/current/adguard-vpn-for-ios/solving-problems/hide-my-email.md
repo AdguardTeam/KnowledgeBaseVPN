@@ -1,20 +1,20 @@
 ---
-title: 如何使用 Hide My Email
+title: How to use Hide My Email
 sidebar_position: 6
 ---
 
-Apple 的 *Hide My Email* 功能是一個很棒的工具，可以在註冊使用 Apple ID 的網站和應用程式時保護您的真實電子郵件地址的隱私性。 您甚至可以將其用於私人通訊並管理所有傳入訊息，就像使用常規電子郵件帳戶一樣。 這樣，您就可以保護您的隱私並隱藏您的真實電子郵件地址以免被窺探。
+Apple’s *Hide My Email* feature is a great tool to keep your real email address private when signing up for websites and apps that use Apple ID. You can even use it for private correspondence and manage all incoming messages just as you would with a regular email account. This way, you can protect your privacy and keep your real email address hidden from prying eyes.
 
 :::note
 
-此功能僅適用於 iOS 15 及更高版本，並需要 iCloud+ 訂閱。
+The feature is only available for iOS 15 and higher and requires an iCloud+ subscription.
 
 :::
 
-要使用此功能，請前往*設定* → [您的蘋果 ID 名稱] → *iCloud* → * Hide My Email *，點擊*+ 建立新地址*，並按照螢幕上的說明進行操作。
+To use this feature, go to *Settings* → [Your Apple ID name] → *iCloud* → *Hide My Email*, tap *+ Create new address* and follow the on-screen instructions.
 
-您可以產生一個獨特的隨機電子郵件地址，將收到的郵件轉寄到您的實際地址。 它可能看起來像這樣：chimney.floture_0s@privaterelay.appleid.com。 您可以建立的電子郵件地址數量沒有上限。 您可以使用標籤對它們進行分類，並將每個標籤用於不同的目的：註冊、接收新聞通訊等。 Apple 確保透過 *隱藏我的電子郵件* 服務處理的訊息內容不會超出標準垃圾郵件過濾範圍。
+You can generate a unique and random email address that forwards incoming messages to your actual address. It might look like this: chimney.floture_0s@privaterelay.appleid.com. There is no upper limit to the number of email addresses you can create. You can categorize them with labels and use each one for different purposes: signing up, receiving newsletters, etc. Apple ensures that the content of messages handled through the *Hide My Email* service is not inspected beyond standard spam filtering.
 
-Apple 的郵件應用程式中也提供 * Hide My Email * 功能。 要在不透露您的真實電子郵件地址的情況下發送電子郵件，只需在撰寫郵件時在*寄件者*欄位中選擇*隱藏我的電子郵件*。
+The *Hide My Email* feature is also available in Apple’s Mail app. To send an email without disclosing your real email address, simply select *Hide My Email* in the *From* field when composing your message.
 
-DuckDuckGo 的 *電子郵件保護* 服務的工作原理類似。 您將獲得 `@duck.com` 電子郵件地址，並可為註冊和新聞通訊建立電子郵件別名。 如果這些別名開始吸引太多垃圾郵件，它們可以輕易地被丟棄。
+The *Email Protection* service by DuckDuckGo works similarly. You get an `@duck.com` email address and can create email aliases for sign-ups and newsletters. If these aliases begin to attract too much spam, they can be easily discarded.

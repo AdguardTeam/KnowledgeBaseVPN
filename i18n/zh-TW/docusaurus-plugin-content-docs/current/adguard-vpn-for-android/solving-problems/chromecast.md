@@ -1,10 +1,10 @@
 ---
-title: 'AdGuard VPN 與 Chromecast 的兼容性'
+title: 'Compatibility of AdGuard VPN with Chromecast'
 sidebar_position: 5
 ---
 
-內建 Chromecast 技術與執行 VPN 不相容，因為它使用 [DLNA 協定](https://en.wikipedia.org/wiki/Digital_Living_Network_Alliance) 不支援 VPN 連線。 這意味著，如果 Chromecast 裝置和運行 VPN 的智慧型手機或平板電腦位於同一 Wi-Fi 網路上，在大多數情況下，行動裝置將無法識別 Chromecast。
+The built-in Chromecast technology is incompatible with running a VPN because it uses the [DLNA protocol](https://en.wikipedia.org/wiki/Digital_Living_Network_Alliance) which does not support VPN connections. This means that if a Chromecast device and a smartphone or tablet running a VPN are on the same Wi-Fi network, in most cases Chromecast won't be recognized by the mobile device.
 
-谷歌還通過限制訪問其DNS設置來阻止更改Chromecast的網路設置。 這也阻止了Chromecast與VPN一起使用。
+Google has also blocked the ability to change the Chromecast's network settings by restricting access to its DNS settings. This also prevents Chromecast from working with a VPN.
 
-您可以通過在路由器上設置 VPN 來解決問題。 這將允許連接到路由器的所有裝置使用 VPN 連接，包括 Chromecast。 但請記住：在路由器上設定 VPN 可能需要額外的知識，因此請閱讀製造商的手冊。
+You can solve the problem by setting up a VPN on a router. This will allow all devices connected to the router to use the VPN connection, including Chromecast. But remember: setting up a VPN on your router may require additional knowledge, so read the manufacturer's manual.

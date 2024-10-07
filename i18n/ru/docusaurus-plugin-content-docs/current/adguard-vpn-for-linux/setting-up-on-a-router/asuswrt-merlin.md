@@ -243,19 +243,19 @@ modprobe tun
    #!/bin/sh
 
    if [ "$2" = "connected" ]; then
-   export SSL_CERT_FILE=/opt/etc/ssl/certs/ca-certificates.crt
-   export HOME=/opt/home/admin
-   modprobe tun
-   /opt/adguardvpn_cli/adguardvpn-cli connect &
-   for ipt in iptables ip6tables; do
-       $ipt -D FORWARD -j ADGUARD_FORWARD || true
-       $ipt -F ADGUARD_FORWARD || true
-       $ipt -X ADGUARD_FORWARD || true
-       $ipt -N ADGUARD_FORWARD
-       $ipt -I FORWARD -j ADGUARD_FORWARD
-       $ipt -A ADGUARD_FORWARD -i br0 -o tun0 -j ACCEPT
-   done
-   exit 0
+       export SSL_CERT_FILE=/opt/etc/ssl/certs/ca-certificates.crt
+       export HOME=/opt/home/admin
+       modprobe tun
+       /opt/adguardvpn_cli/adguardvpn-cli connect &
+       for ipt in iptables ip6tables; do
+           $ipt -D FORWARD -j ADGUARD_FORWARD || true
+           $ipt -F ADGUARD_FORWARD || true
+           $ipt -X ADGUARD_FORWARD || true
+           $ipt -N ADGUARD_FORWARD
+           $ipt -I FORWARD -j ADGUARD_FORWARD
+           $ipt -A ADGUARD_FORWARD -i br0 -o tun0 -j ACCEPT
+       done
+       exit 0
    fi
    EOF
    ```

@@ -1,5 +1,5 @@
 ---
-title: 如何在路由器上设置 AdGuard VPN
+title: How to set up AdGuard VPN on your router
 sidebar_position: 8
 ---
 
@@ -11,46 +11,46 @@ This option is only available if you have an AdGuard VPN subscription and your r
 
 :::
 
-## 如何在路由器上设置 AdGuard VPN
+## How to set up AdGuard VPN on your router
 
-1. 在您的 [AdGuard 帐户](https://auth.adguard.com/login.html)中，选择 AdGuard VPN。
+1. In your [AdGuard account](https://auth.adguard.com/login.html), select AdGuard VPN.
 
-2. 在「**设备**」下，单击「**添加路由器**」
+2. Under _Devices_, click _Add router_.
 
    ![Add router \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/2_year.jpg)
 
-3. 选择所需的 VPN 服务器位置并生成认证信息.
+3. Select the desired VPN server location and generate credentials.
 
    ![Generate credentials \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/configure_router.png)
 
-   :::提示
+   :::note
 
-   接下来的步骤可能会根据您的路由器而有所不同。 我们以 Keenetic 路由器为例。
+   The next steps may vary depending on your router. We have used the Keenetic router as an example.
 
    :::
 
-4. 在管理页面上，转到路由器设置.
+4. In your admin page, go to the router settings.
 
-5. 启用「**VPN 客户端**」并单击「**添加 VPN 服务器**」
+5. Enable _VPN Client_ and click _Add VPN server_.
 
 6. Select IPsec-client (it may for some router brands be called IKEv2; not L2TP/IPsec).
 
-7. 输入在步骤 3 中创建的**认证信息**
+7. Enter the credentials you created in step 3.
 
    ![Enter the credentials \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/vpn_connection.jpg)
 
-8. 将设备连接到路由器.
+8. Connect devices to your router.
 
 :::note
 
-如果要更改VPN服务器位置，您需要更新路由器设置。
+You’ll need to update your router settings if you want to change the VPN server location.
 
 :::
 
-## 为什么在路由器上设置 AdGuard VPN 可能很有用
+## Why setting up AdGuard VPN on your router may be useful
 
-- 在路由器上安装 AdGuard VPN 后，VPN 提供商或其他任何人都无法访问您的互联网活动。
-- 在路由器上安装 AdGuard VPN 可以保护整个网络，这意味着连接到路由器的所有设备都受到保护
+- With AdGuard VPN on your router, neither your VPN provider nor anyone else has access to your Internet activity
+- Installing AdGuard VPN on your router secures your entire network, meaning that all devices connected to it are protected
 - You can enhance security and protect your data on devices where it’s not possible to install AdGuard VPN apps — media devices and game consoles
 
 ## Devices that can be connected to a router with AdGuard VPN

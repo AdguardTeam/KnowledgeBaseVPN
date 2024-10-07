@@ -1,20 +1,20 @@
 ---
-title: Sådan bruges Skjul min e-mail
+title: How to use Hide My Email
 sidebar_position: 6
 ---
 
-Apples *Skjul min e-mail* er et godt værktøj til at holde den reelle e-mailadresse fortrolig ved tilmelding på websteder og i apps, som benytter Apple-ID. Den kan endda bruge til fortrolig korrespondance samt håndtering af alle indgående beskeder ligesom i en alm. e-mail-konto. Således kan man både beskytte sin fortrolighed og skjule sin reelle e-mailadresse for uvedkommende.
+Apple’s *Hide My Email* feature is a great tool to keep your real email address private when signing up for websites and apps that use Apple ID. You can even use it for private correspondence and manage all incoming messages just as you would with a regular email account. This way, you can protect your privacy and keep your real email address hidden from prying eyes.
 
 :::note
 
-Funktionen, der kræver iCloud+-abonnement, er kun tilgængelig i iOS 15 og senere.
+The feature is only available for iOS 15 and higher and requires an iCloud+ subscription.
 
 :::
 
-For at bruge funktionen, gå til *Indstillinger* → [Dit Apple ID] → *iCloud* → *Skjul min e-mail*, tryk på *Opret ny adresse* og følg skærmvejledningen.
+To use this feature, go to *Settings* → [Your Apple ID name] → *iCloud* → *Hide My Email*, tap *+ Create new address* and follow the on-screen instructions.
 
-Her kan genereres en unik og tilfældig e-mail-adresse, der videresender indgående beskeder til den reelle adresse. Den kunne se således ud: chimney.floture_0s@privaterelay.appleid.com. Der er ingen øvre grænse for antallet af e-mailadresser, der kan oprettes. De kan kategorisere via etiketter og bruges til forskellige formål, såsom tilmelding, modtagelse af nyhedsbreve mv. Apple sikrer, at indholdet af meddelelser håndteret via tjenesten *Skjul Min E-mail* ikke inspiceres ud over standard spamfiltrering.
+You can generate a unique and random email address that forwards incoming messages to your actual address. It might look like this: chimney.floture_0s@privaterelay.appleid.com. There is no upper limit to the number of email addresses you can create. You can categorize them with labels and use each one for different purposes: signing up, receiving newsletters, etc. Apple ensures that the content of messages handled through the *Hide My Email* service is not inspected beyond standard spam filtering.
 
-Funktionen *Skjul min e-mail* er også tilgængelig i Apple Mail-appen. For at sende en e-mail uden at afsløre sin reelle e-mailadresse, vælger man blot *Skjul Min E-mail* i feltet *Fra* inden afsendelsen.
+The *Hide My Email* feature is also available in Apple’s Mail app. To send an email without disclosing your real email address, simply select *Hide My Email* in the *From* field when composing your message.
 
-Tjenesten *Email Protection* fra DuckDuckGo fungerer på samme vis. Man får en `@duck.com`-mailadresse og kan oprette e-mailaliasser til tilmeldinger og nyhedsbreve. Begynder aliasserne at tiltrække for meget spam, kan de blot kasseres.
+The *Email Protection* service by DuckDuckGo works similarly. You get an `@duck.com` email address and can create email aliases for sign-ups and newsletters. If these aliases begin to attract too much spam, they can be easily discarded.

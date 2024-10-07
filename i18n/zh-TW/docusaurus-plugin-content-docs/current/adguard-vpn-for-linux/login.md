@@ -1,57 +1,57 @@
 ---
-title: 登入、連線和更新
+title: Login, connection, and update
 sidebar_position: 3
 ---
 
-## 登入和登出
+## Log in and log out
 
-要登入或創建帳戶，請鍵入：
+To log in or create an account, type:
 
 ```
-adguardvpn-cli 登入
+adguardvpn-cli login
 ```
 
-輸入您的 AdGuard 帳戶的電子郵件地址和密碼。 如果您還沒有帳戶，系統會提示您建立一個帳戶。
+Enter the email address and password for your AdGuard account. If you don’t have an account yet, you’ll be prompted to create one.
 
 :::note
-您也可以在我們的[網站](https://auth.adguard.com/login.html)上建立 AdGuard 帳戶，然後使用您的憑證登入 AdGuard VPN for Linux。
+You can also create an AdGuard account on our [website](https://auth.adguard.com/login.html) and then log in to AdGuard VPN for Linux using your credentials.
 :::
 
-若要登出 AdGuard VPN，請鍵入：
+To log out of AdGuard VPN, type:
 
 ```
 adguardvpn-cli logout
 ```
 
-## 連線到 VPN
+## Connect to VPN
 
-若要快速連接，請鍵入：
+For quick connection, type:
 
 ```
 adguardvpn-cli connect
 ```
 
-AdGuard VPN 將連接到最快的可用位置或上次使用的位置。
+AdGuard VPN will connect to the fastest available or the last used location.
 
-要檢視可用位置，請輸入：
+To view available locations, type:
 
 ```
 adguardvpn-cli list-locations
 ```
 
-要連線到特定位置，請輸入：
+To connect to a specific location, type:
 
 ```
 adguardvpn-cli connect -l <location>
 ```
 
-將 `<location>` 替換為您要連接的位置的城市、國家或 ISO 代碼。
+Replace `<location>` with the city, country, or ISO code of the location you want to connect to.
 
-如果需要，請輸入您的管理員密碼。
+If required, enter your admin password.
 
-## 檢查更新
+## Check for updates
 
-若要檢查更新，請鍵入：
+To check for updates, type:
 
 ```
 adguardvpn-cli check-update

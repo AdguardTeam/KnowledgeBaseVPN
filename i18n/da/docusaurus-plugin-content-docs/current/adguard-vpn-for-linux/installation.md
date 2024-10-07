@@ -1,13 +1,13 @@
 ---
-title: Installation og fjernelse
+title: Installation and removal
 sidebar_position: 2
 ---
 
-## Installér AdGuard VPN til Linux
+## Install AdGuard VPN for Linux
 
-For at installere AdGuard VPN, skriv:
+To install AdGuard VPN, type:
 
-Udgivelse
+Release
 
 ```
 curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/release/install.sh | sh -s -- -v
@@ -25,19 +25,19 @@ Nightly
 curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/nightly/install.sh | sh -s -- -v
 ```
 
-Angiv om nødvendigt admin-adgangskoden.
+If required, enter your admin password.
 
-Acceptér at linke binærfilen til `usr/local/bin` ved at trykke `y`, og vent indtil installationen er færdig.
+Agree to link the binary to `usr/local/bin` by pressing `y` and wait until the installation is complete.
 
 :::note
-Man kan vha. `gpg`-værktøjet bekræfte signaturen for at bevise, at det er en officiel version af AdGuard VPN. [Læs mere på GitHub](https://github.com/AdguardTeam/AdGuardVPNCLI?tab=readme-ov-file#verify-releases)
+You can verify the signature to prove it’s an official version of AdGuard VPN by using the `gpg` tool. [Read more on GitHub](https://github.com/AdguardTeam/AdGuardVPNCLI?tab=readme-ov-file#verify-releases)
 :::
 
-## Afinstallér AdGuard VPN til Linux
+## Uninstall AdGuard VPN for Linux
 
-For at afinstallere AdGuard VPN, skriv:
+To uninstall AdGuard VPN, type:
 
-Udgivelse
+Release
 
 ```
 curl -SsL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/release/install.sh | sh -s -- -v -u
@@ -55,4 +55,4 @@ Nightly
 curl -SsL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/nightly/install.sh | sh -s -- -v -u
 ```
 
-Angiv om nødvendigt admin-adgangskoden.
+If required, enter your admin password.

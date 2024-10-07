@@ -1,5 +1,5 @@
 ---
-title: 一般的なインストーラーエラー
+title: Common installer errors
 sidebar_position: 2
 ---
 
@@ -7,47 +7,47 @@ This article outlines some of the most common errors you may encounter while ins
 
 ### Error 5: Access Denied {#error-5}
 
-This error message appears if required permissions are not granted. AdGuard VPNインストーラーがインストールプロセスを適切に完了するために必要な権限を持っていない理由はいくつか考えられます。 以下の手順を試してみてください。
+This error message appears if required permissions are not granted. There may be several different reasons why AdGuard VPN installer does not have the permissions it requires to properly finish the installation process. You can try the following steps:
 
-- ウイルス対策ソフトウェアを一時的に無効にする。 Some of them may interfere with the installation, depending on the restrictiveness of their settings.
+- Temporarily disable your antiviruses. Some of them may interfere with the installation, depending on the restrictiveness of their settings.
 
-- 別のインストール フォルダーを選択してください。 現在のインストールフォルダに何らかのアクセス制限がある可能性があります。 また、外付けドライブや仮想ドライブなどを選択しないようにしてください。
+- Choose a different installation folder. It is possible that the current installation folder has some access restrictions. Also make sure you don't select an external drive, a virtual drive, etc.
 
-- コンピュータを再起動する。 場合によっては、アクセス許可の問題は一時的なものであり、PC を再起動することで解決できる場合があります。
+- Reboot your computer. Sometimes the permission issues are temporary and can be solved by restarting the PC.
 
 ### Error 112: Disk is full, Error 1632: Temporary folder full or inaccessible {#error-112}
 
-これらは 2 つの異なるエラーですが、解決策は非常に似ています。 その名前が示すように、AdGuard VPNインストーラーはインストールを完了するのに十分なディスク容量を見つけられませんでした。 問題を解決するにはいくつかの方法があります。
+These are two different errors with very similar solutions. As their names suggest, AdGuard VPN installer didn't find enough disk space to complete the installation. There are several things you can attempt to fix the problem:
 
-- AdGuard VPNをインストールしようとしているドライブから、いくつかのプログラムをアンインストールするか、不要なファイルを削除してください。
+- Uninstall some programs or delete unnecessary files from the drive you were trying to install AdGuard VPN to.
 
-- Malwarebytes による無料ソフトウェア [AdwCleaner](http://www.bleepingcomputer.com/download/adwcleaner/)をダウンロード、インストールし、実行します。 これは、特に、誤ってアンインストールしたプログラムなどの後に残る、あらゆる種類の余分な「残り物」ファイルからシステムをクリーンアップします。 それは、ディスク領域をクリーンアップするのに役立ちます。
+- Download, install, and run [AdwCleaner](http://www.bleepingcomputer.com/download/adwcleaner/), a free piece of software by Malwarebytes. It will, among other things, clean your system from all kinds of extra "leftover" files that remain after incorrectly uninstalled programs and such. It will help clean up some disk space.
 
-- コンピュータを再起動する。 一時ファイルがかなりのディスク容量を占めることがあり、PCを再起動することが、一時ファイルを取り除く最も確実な方法です。
+- Reboot your computer. Sometimes temporary files can take up a considerable amount of disk space, and restarting your PC is the most reliable way to get rid of them.
 
 ### Error 1601: Windows Installer is not accessible {#error-1601}
 
 You could say this is a particular subtype of Error 1603. The possible solutions are similar:
 
-- Microsoft インストーラー サービスを開始して再登録します。 多少の作業が必要です。
+- Start and re-register Microsoft Installer service. It requires some work.
 
-    1. *Win + R* を押して、 **services.msc**と入力します。
-    1. リストから *Windows Installer*を探し、ダブルクリックします。
-    1. *サービスステータス* の下の *開始* ボタンを押し、 *OK*を押します。 サービスステータスが **実行中**の場合、まず *停止* をクリックし、次に *開始*をクリックします。
+    1. Press *Win + R* and enter **services.msc**.
+    1. Find in the list and double click *Windows Installer*.
+    1. Hit *Start* button under *Service status* and hit *OK*. If the service status is **running**, you should click *Stop* first and then hit *Start*.
     1. Press *Win + R*, type **msiexec /unregister** and hit *Enter*.
     1. Press *Win + R* again, type **msiexec /regserver** and hit *Enter*
 
-- PC を再起動し、インストールを最初からやり直します。 場合によっては、それだけで問題が解決する場合もあります。
+- Reboot the PC and start the installation all over again. Sometimes that's enough to fix the problem.
 
 ### Error 1602: Canceled by user {#error-1602}
 
-このエラー コードが表示された場合は、何らかの方法でインストール プロセスを手動で中断した可能性があります。 あなたができることは次のとおりです。
+If you got this error code, chances are you have interrupted the installation process manually in one way or another. What you can do is:
 
-- インストーラーウィンドウを閉じないでください。 インストールが完了すると、自動的に閉じます。
+- Do not close the installer window. When the installation is complete, it will close automatically.
 
-- インストール中にダイアログ ウィンドウが表示された場合は、「はい」を押して、インストーラーに必要な権限を付与します。 「いいえ」をクリックすると、インストールがキャンセルされます。
+- If a dialogue window pops up during the installation, hit "Yes" to grant the installer the required permissions. Clicking "No" will cancel the installation.
 
-- インストール中は、他のプロセスを起動しないでください。
+- Do not start other processes while the installation is in progress.
 
 ### Error 1603: Fatal error during installation {#error-1603}
 

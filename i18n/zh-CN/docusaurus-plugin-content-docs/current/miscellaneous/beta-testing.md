@@ -11,10 +11,10 @@ sidebar_position: 2
 
 ### 如何报告错误
 
-假如您发现了一个 Bug 错误。 或者您只是想与开发人员分享您的建议？ 请告诉我们：访问 [GitHub](https://github.com/AdguardTeam/)，找到合适的版本库，在那里创建一个新问题，并详细描述错误/功能请求。
+假如您发现了一个 Bug 错误。 或者您只是想与开发人员分享您的建议？ Let us know: go to [GitHub](https://github.com/AdguardTeam/), find a suitable repository, create a new issue there, and describe the bug/feature request in detail.
 
-上述方法最受欢迎，但必要时也可以使用其他方法：
+The above method is the most preferred, but you can use others if necessary:
 
-- 在各种社交媒体平台上找到我们，例如 [Facebook](https://www.facebook.com/AdguardEn/)、[Reddit](https://www.reddit.com/r/Adguard/) 等等。 然而，这并不是讨论技术问题的最有效方式。
+- Find us on various social media platforms, like [Facebook](https://www.facebook.com/AdguardEn/), [Reddit](https://www.reddit.com/r/Adguard/), etc. However, this is not the most efficient way to discuss technical matters.
 
-- 从应用程序中的「支持」选项以向我们的支持团队发送电子邮件，或通过 [support@adguard.com](mailto:support@adguard.com) 电子邮件联系我们。
+- Email our support team from the Support tab in the app or write directly to [support@adguard.com](mailto:support@adguard.com).

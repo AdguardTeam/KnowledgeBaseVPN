@@ -1,54 +1,54 @@
 ---
-title: 安裝和移除
+title: Installation and removal
 sidebar_position: 2
 ---
 
-## 系統需求
+## System requirements
 
-**作業系統版本**: macOS 10.15（64 位元）或更高版本
+**Operating system version**: macOS 10.15 (64-bit) or higher
 
-**RAM**：至少 2 GB
+**RAM**: at least 2 GB
 
-**可用磁碟空間**: 120 MB
+**Free disk space**: 120 MB
 
-## 如何安裝適用於 Mac 的 AdGuard VPN
+## How to install AdGuard VPN for Mac
 
-1. 要安裝AdGuard VPN for Mac，只需跟著[這個連結](https://agrd.io/mac_vpn)或開啟瀏覽器，在位址欄輸入*adguard-vpn.com*，然後在打開的頁面點擊*下載*。 ![從官方網站下載 AdGuard VPN](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-install-en.png)
-2. 等待 *AdGuardVPN.dmg* 檔案下載完成，然後在「下載」資料夾中開啟。
-3. 等待安裝程式視窗開啟。 雙擊其中的圖示。 ![程式安裝視窗 *mobile_border](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-install-ru-1.png)
-4. 當您首次啟動 AdGuard VPN 時，作業系統會在螢幕上顯示警告，提示該應用程式已從 Internet 下載。 點選 *開啟*。
-5. 然後點選 *繼續* 和 *安裝*。
+1. To install AdGuard VPN for Mac, just follow [this link](https://agrd.io/mac_vpn) or open a browser, type *adguard-vpn.com* in the address bar and on the opened page click *Download*. ![Download AdGuard VPN from the official website](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-install-en.png)
+2. Wait until the download of the *AdGuardVPN.dmg* file is finished and open it in the "Downloads" folder.
+3. Wait until the installation program window opens. Double-click the icon in it. ![Program installation window *mobile_border](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-install-ru-1.png)
+4. When you first start AdGuard VPN, the operating system will show a warning on the screen that this application has been downloaded from the Internet. Click *Open*.
+5. Then click *Continue* and *Install*.
 
-![點擊繼續](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/.mac-install-2-en~imageoptim.png)
+![Click Continue](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/.mac-install-2-en~imageoptim.png)
 
-![點擊安裝](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-install-3-en.png)
-6. 等待安裝程式下載必要的檔案。
+![Click Install](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-install-3-en.png)
+6. Wait for the installer to download the necessary files.
 
-Mac 版 AdGuard VPN 已安裝！
+AdGuard VPN for Mac is installed!
 
-## 如何解除安裝 AdGuard VPN for Mac
+## How to uninstall AdGuard VPN for Mac
 
-### 標準解除安裝
+### Standard uninstallation
 
-若要解除安裝 AdGuard VPN for Mac，請執行兩個簡單的步驟：
+To uninstall AdGuard VPN for Mac, follow two simple steps:
 
-1. 打開“Finder”並轉到“程式”部分。
+1. Open "Finder" and go to the "Programs" section.
 
-2. 從清單中選擇 *AdGuard VPN* ，右鍵單擊它，然後按 *移至垃圾箱*。
+2. Select *AdGuard VPN* from the list, right-click it and then click *Move to Trash*.
 
-![標準解除安裝](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-uninstall-1-en.png)
+![Standard uninstallation](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-uninstall-1-en.png)
 
-### 進階解除安裝
+### Advanced uninstallation
 
-有時，由於刪除不正確或在其他罕見情況下，標準卸載可能不夠。 在這種情況下，我們的支援人員可能會要求您執行進階卸載，以從您的 Mac 上完全刪除 AdGuard VPN。 為此，請執行以下操作：
+Sometimes, as a result of incorrect removal or in other rare cases, the standard uninstallation may not be enough. In that case, our support may ask you to perform an advanced uninstall to completely remove AdGuard VPN from your Mac. To do this, do the following:
 
-1. 請依照 [「標準卸載」](#how-to-uninstall-adguard-vpn-for-mac)部分所述的步驟進行操作。
-2. 開啟“Finder”或“Spotlight”，然後在搜尋中輸入 `Keychain` 。 ![進階解除安裝 輸入鑰匙串](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-key-chain-en.png)
-3. 點擊找到的程式的圖標，然後在搜尋中輸入 `com.adguard.mac.vpn` 。 如果搜尋結果中有該記錄，則將其刪除。
-4. 返回“Finder”或“Spotlight”並輸入 `Terminal`。 ![進階解除安裝 輸入終端](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-terminal-en.png)
-5. 開啟程式並輸入指令 — `預設刪除 com.adguard.mac.vpn`
-6. 按下 *空格鍵* 並輸入另一個命令 — `rm -f ~/Library/Group\ Containers/TC3Q7MAJXF.com.adguard.mac/Library/Preferences/TC3Q7MAJXF.com.adguard.mac.plist`
+1. Follow the steps described in the section ["Standard uninstallation"](#how-to-uninstall-adguard-vpn-for-mac).
+2. Open "Finder" or "Spotlight" and enter `Keychain` in the search. ![Advanced uninstallation. Enter Keychain](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-key-chain-en.png)
+3. Click the icon of the found program and enter `com.adguard.mac.vpn` in the search. If there is such a record in the search results, delete it.
+4. Go back to "Finder" or "Spotlight" and enter `Terminal`. ![Advanced uninstallation. Enter Terminal](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-terminal-en.png)
+5. Open the program and enter the command — `defaults delete com.adguard.mac.vpn`.
+6. Press *Space bar* and enter another command — `rm -f ~/Library/Group\ Containers/TC3Q7MAJXF.com.adguard.mac/Library/Preferences/TC3Q7MAJXF.com.adguard.mac.plist`.
 
-AdGuard VPN 已從您的 Mac 中完全刪除。
+AdGuard VPN has been completely removed from your Mac.
 
-您可以在 [這篇文章](/adguard-vpn-for-mac/overview)中了解有關 AdGuard VPN for Mac 的更多資訊。
+You can learn more about AdGuard VPN for Mac in [this article](/adguard-vpn-for-mac/overview).
