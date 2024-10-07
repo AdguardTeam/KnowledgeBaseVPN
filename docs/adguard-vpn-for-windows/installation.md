@@ -61,7 +61,7 @@ AdGuard VPN is successfully uninstalled!
 
 Besides running the advanced uninstaller in its user-interactive mode, you can also use command-line arguments to uninstall AdGuard VPN for Windows. To do this, follow the instructions below:
 
-1. Open the Command prompt by typing *cmd* on the start menu.
+1. Open Command Prompt by typing *cmd* from the Start menu.
 2. On the Command prompt, use `/console` to run the uninstaller in console mode, without the interactive UI. All the command-line parameters below will be ignored if the `/console` mode is not activated.
 3. Use `/vpn` to uninstall AdGuard VPN for Windows.
 4. You can also use `/advanced` to force the uninstaller to run in *Advanced mode* and `/settings` to force the uninstaller to remove user settings along with the application.
