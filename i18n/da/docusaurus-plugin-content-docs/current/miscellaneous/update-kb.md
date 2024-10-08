@@ -1,28 +1,28 @@
 ---
-title: 'Opdatering af Vidensbase'
+title: 'Updating the Knowledge Base'
 sidebar_position: 3
 ---
 
-Målet med denne vidensbase er at give alle den mest opdaterede information om alle typer AdGuard DNS-relaterede emner. Tingene ændrer sig dog konstant, og nogle gange afspejler en artikel ikke længere tingenes aktuelle tilstand — der er simpelthen ikke så mange af os til at holder øje med hver eneste bit af information og opdatere dem i alle nye versionsudgivelser.
+The goal of this Knowledge Base is to provide everyone with the most up-to-date information on all kinds of AdGuard VPN-related topics. But things constantly change, and sometimes an article doesn't reflect the current state of things anymore — there are simply not so many of us to keep an eye on every single bit of information and update it accordingly when new versions are released.
 
-Derfor har vi lagt alt vores KB-indhold på [GitHub](https://github.com/AdguardTeam/KnowledgeBaseVPN), så nu vil alle kunne bidrage til den ved at foreslå redigeringer og oversættelser af eksisterende såvel som nye artikler.
+This is why we placed all of our KB content to [GitHub](https://github.com/AdguardTeam/KnowledgeBaseVPN), and now literally anyone can contribute to it by suggesting edits and translations to existing articles, as well as totally new ones.
 
-## Sådan foreslås en ændring eller skrives en ny artikel {#suggest-change}
+## How to suggest a change or write a new article {#suggest-change}
 
-Man kan foreslå ændringer til aktuelle artikler og tilføje nye til vidensbasen vha. funktionaliteten i GitHub nævnt ovenfor. Er man ikke bekendt med principperne for brug af platformen, start da med at læse [-dokumentationen i dette afsnit](https://docs.github.com/en).
+You can suggest changes to current articles and add new ones to the Knowledge Base using the functionality of the GitHub mentioned above. If you are unfamiliar with principles of working with the platform, start by reading [documentation in this section](https://docs.github.com/en).
 
-Når man er klar til at starte, så arbejd i [ KnowledgeBaseDNS-repo'et](https://github.com/AdguardTeam/KnowledgeBaseVPN). Alle tekster i vores Knowledge Base er skrevet i `Markdown` markup-sproget. Husk dette, når artikler redigeres eller skrives. Følg [dette link](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) for at læse mere om Markdown-syntaks.
+Once you are ready to start, work in [the KnowledgeBaseVPN repository](https://github.com/AdguardTeam/KnowledgeBaseVPN). All texts in our Knowledge Base are written in `Markdown` markup language. Keep this in mind when editing or writing articles. Follow [this link](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) to learn more about Markdown syntax.
 
-Knowledge Base-webstedet er bygget vha. Docusaurus 2 — en moderne statisk webstedsgenerator. Tag ved forslag til ændringer/tilføjelser højde for, at alle dokumenter skal overholde platformsprincipperne. Mere om dem kan læses i [guiden tilgængelig via dette link](https://docusaurus.io/docs/category/guides).
+The Knowledge Base website is built using Docusaurus 2 — a modern static website generator. When suggesting changes or additions, take into account that all documents must comply with the principles of the platform. You can read about them in [the guide available via this link](https://docusaurus.io/docs/category/guides).
 
-Denne Vidensbase kan udrulles lokalt til egen computer til forhåndsvisning af foreslåede ændringer. Detaljeret vejledning til, hvordan dette gøres, findes [i README.md-filen](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README) på denne videnbases GitHub-side.
+You can deploy this Knowledge Base locally to your computer to preview the changes you suggest. Detailed instructions on how to do this can be found [in the README.md file](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README) on this Knowledge Base's GitHub page.
 
-## Artikeloversættelse {#translate-adguard}
+## Translating articles {#translate-adguard}
 
-Oversættelse af de eksisterende artikler i Vidensbase foretages via [Crowdin-platformen](https://crowdin.com/project/adguard-vpn-knowledge-base). Alle oplysninger om oversættelse og brug af Crowdin findes [i den dedikerede artikel](https://adguard.com/kb/miscellaneous/contribute/translate/program/) i AdGuard Ad Blocker Vidensbase.
+Translation of the existing articles of the Knowledge Base is carried out on [the Crowdin platform](https://crowdin.com/project/adguard-vpn-knowledge-base). All the details about translations and working with Crowdin can be found [in the dedicated article](https://adguard.com/kb/miscellaneous/contribute/translate/program/) of the AdGuard Ad Blocker Knowledge Base.
 
-Under arbejdet på AdGuard VPN Vidensbase-artikler kan man støde på strenge indeholdende flertalsformer, som bør oversættes med ekstra opmærksomhed. [I en separat artikel](https://adguard.com/kb/miscellaneous/contribute/translate/plural-forms/)beskriver vi detaljeret de vanskeligheder, som kan opstå ved oversættelse af strenge med flertalsformer samt giver detaljeret vejledning ift. deres håndtering på Crowdin-platformen.
+When working on AdGuard VPN Knowledge Base articles, you may meet strings containing plural forms that you should translate with extra attention. [In a separate article](https://adguard.com/kb/miscellaneous/contribute/translate/plural-forms/), we describe in detail the difficulties that can arise when translating strings with plural forms and provide detailed guidance on how these are handled on the Crowdin platform.
 
-## Håndtering af åbne problematikker
+## Working on open issues
 
-Nogle gange findes [åbne opgaver](https://github.com/AdguardTeam/KnowledgeBaseVPN/issues/) relateret til opdatering af vidensbasen. Man kan hjælpe med at accelerer færdiggørelsen heraf [på samme måde](#suggest-change), som man ville foreslå andre ændringer til denne vidensbase. Vælg den ønskede problematik, og begynd at arbejde på den. Ved evt. spørgsmål, kan disse stilles direkte i problematikkens kommentarfelt.
+Sometimes there exist [open tasks](https://github.com/AdguardTeam/KnowledgeBaseVPN/issues/) related to updating the Knowledge Base. You can help us speed up their completion [the same way](#suggest-change) you would suggest any other changes to this Knowledge Base. Choose any issue that you find appealing and start working on it. If you have any questions — you can ask them right in the comments to that issue.

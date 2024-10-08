@@ -1,31 +1,31 @@
 ---
-title: 設定
+title: Settings
 sidebar_position: 4
 ---
 
-您可以從命令列管理 AdGuard VPN for Linux 設定。 若要查看目前配置，請鍵入：
+You can manage AdGuard VPN for Linux settings from the command line. To view the current configuration, type:
 
 ```
 adguardvpn-cli config show
 ```
 
-## VPN模式：TUN 或 SOCKS5
+## VPN mode: TUN or SOCKS5
 
-您可以選擇 AdGuard VPN 路由流量的方式。
+You can choose how AdGuard VPN routes traffic.
 
-若要設定預設隧道模式，請鍵入：
+To set the default tunnel mode, type:
 
 ```
 adguardvpn-cli config set-mode TUN
 ```
 
-若要設定 SOCKS5 模式，請輸入：
+To set the SOCKS5 mode, type:
 
 ```
 adguardvpn-cli config set-mode SOCKS
 ```
 
-若要設定 SOCKS5 連接埠，請輸入：
+To set the SOCKS5 port, type:
 
 ```
 adguardvpn-cli config set-socks-port <port_number>
@@ -54,15 +54,15 @@ Replace `<username>` and `<password>` with your desired username and password. T
 adguardvpn-cli config clear-socks-auth
 ```
 
-## DNS上游位址
+## DNS upstream address
 
-若要設定 DNS 上游，請輸入：
+To set a DNS upstream, type:
 
 ```
 adguardvpn-cli config set-dns <server_address>
 ```
 
-將 `<server_address>` 替換為您的 DNS 伺服器位址。 若要在系統層級使用此 DNS 伺服器，請鍵入：
+Replace `<server_address>` with the address of your DNS server. To use this DNS server at the system level, type:
 
 ```
 adguardvpn-cli config set-system-dns on
@@ -102,11 +102,11 @@ To enable the use of AdGuard VPN protocol based on QUIC (HTTP/3), type:
 adguardvpn-cli config set-use-quic on
 ```
 
-要停用它，請將其設為“off”。
+To disable it, set it to `off`.
 
-## 崩潰報告
+## Crash reports
 
-如果您啟用自動崩潰報告，AdGuard VPN 將在出現問題時通知開發人員。 若要啟用該設置，請鍵入：
+If you enable automatic crash reports, AdGuard VPN will notify the developers if something goes wrong. To enable the setting, type:
 
 ```
 adguardvpn-cli config send-reports on
@@ -114,9 +114,9 @@ adguardvpn-cli config send-reports on
 
 To disable it, set it to `off`.
 
-## 更新頻道
+## Update channel
 
-若要變更更新頻道，請輸入：
+To change the update channel, type:
 
 ```
 adguardvpn-cli config set-update-channel <channel>
@@ -124,22 +124,22 @@ adguardvpn-cli config set-update-channel <channel>
 
 Replace `<channel>` with `release`, `beta`, or `nightly`, depending on your preferences.
 
-## 提示
+## Hints
 
-AdGuard VPN 可以在執行命令後向您顯示提示 - 例如，下一步要做什麼或如何修復錯誤。 預設啟用此設置，但您可以透過鍵入以下內容來停用它：
+AdGuard VPN can show you hints after executing commands — for example, what to do next or how to fix an error. This setting is enabled by default but you can disable it by typing:
 
 ```
 adguardvpn-cli config set-show-hints off
 ```
 
-若要重新啟用它，請將“off”替換為“on”。
+To re-enable it, replace `off` with `on`.
 
-## 偵錯日誌
+## Debug logging
 
-若要報告錯誤，您可能需要與開發人員或支援團隊共用偵錯日誌。 若要啟用調試日誌記錄，請輸入：
+To report a bug, you may need to share debug logs with the developers or support team. To enable debug logging, type:
 
 ```
 adguardvpn-cli config set-debug-logging on
 ```
 
-匯出日誌後停用此設定。
+Disable this setting after exporting logs.

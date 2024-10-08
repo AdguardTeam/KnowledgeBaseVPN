@@ -48,7 +48,7 @@ iOS tüm ekranı yakalar ve fotoğraf olarak kaydeder. Bunu standart bir Fotoğr
 
 ### Windows
 
-- **Windows cihazında ekran görüntüsü almak için *PrtScn* düğmesine basın**
+- **Windows cihazında ekran görüntüsü almak için *PrtScn* tuşuna basın**
 
 Bazı cihazlarda, *PrtScn* düğmesine basmadan önce *Fn* düğmesine basılı tutmanız gerekir.
 
@@ -86,11 +86,11 @@ Mac tüm ekranı yakalar ve masaüstüne bir dosya olarak kaydeder.
 
 Etkin bir pencerenin ekran görüntüsünü almak için aşağıdaki kombinasyonu kullanın:
 
-- ***⌘ Cmd + Shift + 4 + Boşluk çubuğu* tuşlarına basın ve birlikte basılı tutun.  İşaretçi bir kamera simgesine dönüşür. Yakalamak için pencereye tıklayın. Ekran görüntüsü almayı iptal etmek için Esc düğmesine basın**
+- ***⌘ Cmd + Shift + 4 + Boşluk çubuğu* tuşlarına basın ve birlikte basılı tutun.  İşaretçi bir kamera simgesine dönüşür. Yakalamak için pencereye tıklayın. Ekran görüntüsü almayı iptal etmek için Esc tuşuna basın**
 
 Belirli bir alanın ekran görüntüsünü almak için aşağıdaki kombinasyonu kullanmalısınız:
 
-- ***⌘ Cmd + Shift + 4*** ***tuşlarına basın ve birlikte basılı tutun***. Gerekli alanı seçmek için artı işaretine sürükleyin. Ekran görüntüsü almak için farenizi veya dokunmatik farenizi bırakın, iptal etmek için Esc düğmesine basın.
+- ***⌘ Cmd + Shift + 4*** ***tuşlarına basın ve birlikte basılı tutun***. Gerekli alanı seçmek için artı işaretine sürükleyin. Ekran görüntüsü almak için farenizi veya dokunmatik farenizi bırakın, iptal etmek için Esc tuşuna basın.
 
 *Touch Bar'ın* (MacBook Pro) ekran görüntüsünü almak için aşağıdaki kombinasyonu kullanın:
 

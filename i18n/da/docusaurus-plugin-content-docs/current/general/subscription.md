@@ -1,28 +1,28 @@
 ---
-title: Sådan oprettes et abonnement
+title: How to subscribe
 sidebar_position: 6
 ---
 
-AdGuard VPN findes i to versioner — gratis samt ubegrænset. Abonnementet muliggør brug af appen uden begrænsning ift. trafik, forbindelseshastighed og lokationsantal. [Læs mere om alle fordelene ved AdGuard VPN Unlimited](/general/free-vs-unlimited).
+AdGuard VPN is available in two versions — a free and a paid one. The subscription allows you to use the app without any restrictions on traffic, connection speed and the choice of locations. [Read more about all the advantages of AdGuard VPN Unlimited](/general/free-vs-unlimited).
 
-## Sådan købes et abonnement
+## How to purchase a subscription
 
-Har man besluttet at købe et abonnement på AdGuard VPN, kan dette gøres på to måder:
+If you have decided to purchase a subscription to AdGuard VPN, there are two ways to do this:
 
-1. Via køb i appen. Åbn AdGuard VPN-appen, og tryk på pilen øverst til højre på skærmen. Vælg den bedst egnede abonnementstype, og tryk på *Abonnér*. Denne mulighed er tilgængelig for AdGuard VPN mobil-apps til Android og iOS.
-2. På [vores websted](https://adguard-vpn.com/license.html). Der findes tre abonnementstyper — månedlig, 1-årig og 2-årig. Vælg det, der passer bedst, og angiv den e-mailadresse, der skal tilknyttes abonnementet. Abonnementsbetalingen kan ske via betalingskort, PayPal eller kryptovaluta.
+1. Via an in-app purchase. Go to the AdGuard VPN app and tap the arrow in the upper right corner of the screen. Select the most suitable subscription plan and tap *Subscribe*. This option is available for AdGuard VPN mobile apps for iOS and Android.
+2. On [our website](https://adguard-vpn.com/license.html). There are three subscription plans to choose from — monthly, 1-year, and 2-year. Choose the one that suits you best and enter the email address that will be associated with your subscription. You can pay for your subscription using your bank card, PayPal account, or cryptocurrency.
 
-## Sådan opsiges et abonnement
+## How to cancel a subscription
 
-Abonnementet kan opsiges via AdGuard-kontoen. Sådan opsiges abonnementet:
+The subscription can be canceled in your AdGuard account. To cancel your subscription:
 
- 1. Gå til afsnittet [Licenser](https://my.adguard.com/account/licenses) i AdGuard-kontoen.
- 1. Klik på *Opsig abonnement* under det relevante abonnement.
+ 1. In your AdGuard account, go to [Licenses](https://my.adguard.com/account/licenses).
+ 1. Click *Cancel subscription* below the subscription you no longer need.
 
-Det opsagte abonnement forbliver gyldigt indtil dets udløbsdato.
+The canceled subscription will remain valid until its expiry date.
 
 :::note
 
-Abonnementer købt i App Store kan håndteres via Apple ID'et.
+Subscriptions purchased on the App Store can be managed in your Apple ID.
 
 :::

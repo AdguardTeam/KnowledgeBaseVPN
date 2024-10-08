@@ -1,52 +1,52 @@
 ---
-title: 'Come utilizzare AdGuard VPN nei paesi con restrizioni Internet'
+title: 'How to use AdGuard VPN in countries with Internet restrictions'
 sidebar_position: 10
 ---
 
-In certain regions, such as China, Iran, and Russia, users might experience problems connecting to AdGuard VPN. Ecco le opzioni che potrebbero aiutare.
+In certain regions, such as China, Iran, and Russia, users might experience problems connecting to AdGuard VPN. Here are the options that might help.
 
-## Accedere al sito web di AdGuard VPN
+## Accessing AdGuard VPN’s website
 
 If adguard-vpn.com is not accessible, try using the [mirror website](https://adguardvpn-help.info/).
 
 :::info
 
-Per evitare potenziali siti web di phishing o dannosi, segui soltanto i link specchio forniti in questa Base di conoscenza o dal team di supporto di AdGuard VPN.
+To avoid potential phishing or malicious websites, only follow mirror links provided in this Knowledge base or by the AdGuard VPN support team.
 
 :::
 
-## Scaricare l'app
+## Downloading the app
 
-### AdGuard VPN per iOS
+### AdGuard VPN for iOS
 
 If you don’t see AdGuard VPN in the App Store, try changing the country or region in your Apple ID settings. Another option is to create a new Apple account and connect it to the App Store. [Instructions for both cases](/adguard-vpn-for-ios/solving-problems/app-store) are described in a separate article.
 
 After you change the region or link a different account to the App Store, [install AdGuard VPN](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602).
 
-### AdGuard VPN per Android
+### AdGuard VPN for Android
 
 If you experience problems with Google Play, download the APK file from [AdGuard VPN’s mirror website](https://adguardvpn-help.info/android/overview.html).
 
-### AdGuard VPN per Mac
+### AdGuard VPN for Mac
 
 Download the installation file from [AdGuard VPN’s mirror website](https://adguardvpn-help.info/windows/overview.html).
 
-### AdGuard VPN per Windows
+### AdGuard VPN for Windows
 
 Download the installation file from [AdGuard VPN’s mirror website](https://adguardvpn-help.info/mac/overview.html).
 
-## Altri suggerimenti utili
+## Other useful tips
 
-- Assicurati sempre di avere l'ultima versione di AdGuard VPN, poiché gli aggiornamenti includono tipicamente correzioni e miglioramenti fondamentali.
+- Always make sure that you are using the latest version of AdGuard VPN, as updates typically include vital fixes and enhancements.
 
-- Utilizza le app complete di AdGuard VPN invece delle estensioni del browser per una connessione più robusta e stabile.
+- Use AdGuard VPN’s full-fledged apps instead of browser extensions for a more robust and stable connection.
 
-- Se riscontri dei problemi di connessione a una posizione in particolare, prova a connetterti a un'altra. Se tutte le posizioni non rispondono, riavvia l'app per aggiornare l'elenco dei server.
+- If you encounter problems connecting to a particular location, try connecting to another one. If all locations fail to respond, restart the app to refresh the server list.
 
-- Prova a passare tra dati mobili e Wi-Fi: il problema potrebbe essere specifico della rete.
+- Try switching between mobile data and Wi-Fi: the problem may be network-specific.
 
-- Se utilizzi AdGuard VPN insieme ad AdGuard Ad Blocker su mobile, assicurati che la modalità operativa *Generale* o *VPN* sia selezionata nelle impostazioni dell'app.
+- If you use AdGuard VPN alongside AdGuard Ad Blocker on mobile, ensure that the *General* or *VPN* operating mode is selected in the app settings.
 
-- Se riscontri dei problemi di connettività, non abilitare *Utilizza QUIC* nelle *Impostazioni Avanzate*.
+- If you have connectivity issues, do not enable *Use QUIC* in *Advanced settings*.
 
 If all else fails, don't hesitate to reach out to our support team at <support@adguard-vpn.com> for further assistance.

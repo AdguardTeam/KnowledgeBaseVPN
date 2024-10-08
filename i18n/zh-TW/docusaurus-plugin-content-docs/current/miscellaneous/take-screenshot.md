@@ -1,103 +1,103 @@
 ---
-title: '如何截圖'
+title: 'How to take a screenshot'
 sidebar_position: 4
 ---
 
-螢幕截圖是對電腦或行動裝置螢幕的捕獲，可以透過使用標準工具或特殊程式/應用程式來獲取。
+Screenshot is a capture of your computer’s or mobile device’s screen, which can be obtained by using standard tools or a special program/app.
 
-有時，支援團隊需要螢幕截圖才能更好地理解問題，但並不是每個人都知道如何截取螢幕截圖，尤其是其裝置上的單獨視窗或特定螢幕區域。 如果您認為自己是這些用戶之一，請不要擔心。 本文將為您提供幫助，因為它描述了在不同平台上截取螢幕截圖的一系列方法。
+Sometimes a screenshot (or screenshots) is required by support team to better understand the problem, and not everyone knows how to take screenshots, especially of a separate window or a specific screen area on their devices. If you recognize yourself as one of these users, don’t worry. This article will help you as it describes a range of ways to take screenshots on different platforms.
 
-## 如何截圖
+## How to take a screenshot
 
-在這裡，您將找到所有必要的快捷鍵，以便您在電腦或行動裝置上截圖。
+Here you will find all the necessary hotkeys you should know in order to take screenshots on your computer or mobile device.
 
 ### Android
 
-在 Android 裝置上截取螢幕截圖可以透過多種方式完成，具體取決於裝置型號及其製造商。
+Taking a screenshot on an Android device can be done in various ways — depending on the device model and its manufacturer.
 
-一般來說，Android 應該使用以下按鈕組合：
+Generally, you should use the following button combination for Android:
 
-- **同時按住 *音量調低* 和 *電源* 按鈕 1–2 秒**
+- **Press and hold both the *Volume Down* and the *Power* buttons for 1–2 seconds**
 
-您的 Android 設備將截取整個螢幕並將其保存為照片。 因此，您可以在圖庫的螢幕截圖資料夾中找到螢幕截圖。
+Android will capture the entire screen and save it as a photo. So, you can find the screenshot in a Screenshots folder in your Gallery.
 
-但是，正如已經說過的，根據特定設備的不同，可能會存在差異。 讓我們看看其他可能的組合：
+But, as it has been already said, there can be differences depending on a particular device. Let’s look at other possible combinations:
 
-- **同時按住 *Home* 和 *Power* 按鈕 1-2 秒；**
-- **立即按住 *返回* 和 *Home* 按鈕**
+- **Hold down at once *Home* and *Power* buttons for 1–2 seconds;**
+- **Hold down at once the *Back* and the *Home* buttons**
 
-在 Android 8 及更高版本上，還可以透過將手垂直放在手機的左邊緣或右邊緣，然後從該邊緣向內滑動並觸摸螢幕來截取螢幕截圖。
+On Android 8 and later there is also a possibility to take a screenshot by placing your hand vertically along the left or right edge of your phone and swiping in from that edge with your hand touching the screen.
 
-如果此方法不起作用，請檢查 *設置* → *進階功能* → *動作和手勢* → 啟用 *手掌滑動截圖*。
+If this method doesn’t work, check *Settings* → *Advanced features* → *Motions and gestures* → enable *Palm swipe to capture*.
 
-此外，您可以使用任何特殊的應用程式在您的裝置上截圖，例如 — *Screenshot Easy*, *Screenshot Ultimate*, *Screenshot Snap*, 等。
+Besides, you can always use any special apps for taking screenshots on your devices, for example — *Screenshot Easy*, *Screenshot Ultimate*, *Screenshot Snap*, etc.
 
 ### iOS
 
-任何 iOS 裝置（舊裝置除外）都可以讓您使用標準工具截取螢幕截圖。
+Any iOS device (barring ancient ones) lets you take a screenshot using standard tools.
 
-若要在 iOS 裝置上截取螢幕截圖，請使用下列組合：
+To take a screenshot on an iOS device, use the following combination:
 
-- **同時按下 *睡眠/喚醒* （側邊）按鈕和 *Home* 按鈕，然後快速放開**
+- **Press the *Sleep/Wake* (side) button and the *Home* button at the same time, then quickly release them**
 
-iPhone X 或更高版本：
+and this one for iPhone X or later:
 
-- **同時按下 *睡眠/喚醒* 按鈕和 *音量增加* 按鈕，然後快速釋放它們**
+- **Press the *Sleep/Wake* button and the *Volume Up* button at the same time, then quickly release them**
 
-iOS 將捕捉整個螢幕並將其儲存為照片。 您可以在標準照片應用程式中找到它。
+iOS will capture the entire screen and save it as a photo. You can find it in a standard Photo app.
 
 ### Windows
 
-- **若要在 Windows 裝置上截取螢幕截圖，請按 *PrtScn***
+- **To take a screenshot on a Windows device, press the *PrtScn* button**
 
-在某些設備上，您必須先按住 *Fn* ，然後再按 *PrtScn*
+On some devices, you first have to press and hold *Fn* before pressing *PrtScn*.
 
 :::note
 
-PrtScn（列印螢幕）在各種鍵盤上可以有不同的縮寫 — PrntScrn、PrtScn、PrtScr 或 PrtSc。
+PrtScn (Print Screen) can be differently abbreviated on various keyboards — PrntScrn, PrtScn, PrtScr or PrtSc.
 
 :::
 
-Windows 將捕獲整個螢幕並將其複製到剪貼簿。
+Windows will capture the entire screen and copy it to the clipboard.
 
-要對一個使用中的視窗上截圖，請使用以下組合：
+To take a screenshot of an active window, use the following combination:
 
-- **按住 *Alt* 並按 *PrtScn* （或在某些筆記型電腦上按 *Fn + Alt + PrtScn*）**
+- **Hold down *Alt* and press *PrtScn* (or *Fn + Alt + PrtScn* on some laptops)**
 
-要截取特定區域的螢幕截圖，您應該使用以下組合：
+To take a screenshot of a specific area, you should use the following combination:
 
-- ***按住 *Win* （Windows 按鈕）和 *Shift* 並按 ***S******
+- ***Hold down *Win* (the Windows button) and *Shift* and press ***S******
 
-截取螢幕截圖後，它將保存在剪貼簿中。 通常，您可以使用標準按鈕組合 *Ctrl + V*將其貼到文件中。 或者，如果您需要將螢幕截圖儲存到檔案中，則應開啟標準 **Paint** 程式（或任何其他可以處理影像的應用程式）。 使用相同的按鈕組合或點擊「貼上」按鈕（通常位於螢幕的左上角）將螢幕截圖貼到此處，然後儲存。
+After you take a screenshot, it will be saved in the clipboard. Usually, you will then be able to paste it into a document using the standard button combination *Ctrl + V*. Alternatively, if you need to save the screenshot into a file, you should open the standard **Paint** program (or any other app that can work with images). Paste your screenshot there using the same button combination or by clicking the Paste button (usually in the top left corner of the screen) and then save it.
 
-Windows 8 和 10 讓您可以透過 *Win + PrtScn* 組合快速截取螢幕截圖。 一旦您按下這些按鈕，螢幕截圖就會自動儲存為檔案到您的圖片 → 螢幕截圖資料夾中。
+Windows 8 and 10 let you take a screenshot very quickly with a *Win + PrtScn* combination. As soon as you press these buttons, the screenshot will be automatically saved as a file to your Pictures → Screenshots Folder.
 
-還有一個專門的程式用來截取螢幕，稱為 *剪取工具* 您可以在電腦的「開始」選單中找到，其中包括您的標準版程式。 截圖工具可讓您擷取桌面的任何區域或整個螢幕。 使用此程式截取螢幕截圖後，您可以編輯圖片然後儲存。
+There is also a dedicated program for taking screenshots called *Snipping Tool* that you can find via Start menu among standard programs of your computer. Snipping Tool lets you capture of any area of your desktop or the entire screen. After taking a screenshot using this program you can edit the picture and then save it.
 
-此外，您還可以使用不同的應用程式在電腦上截取螢幕，例如 **PicPick**、 **Nimbus Screenshot**、 **Screenshot Captor**、 **Snipaste**、 **Monosnap**等
+Besides, you can also try using different apps for taking screenshots on your computer, like **PicPick**, **Nimbus Screenshot**, **Screenshot Captor**, **Snipaste**, **Monosnap**, etc.
 
 ### macOS
 
-若要在 Mac 裝置上截取螢幕截圖，請使用下列按鈕組合：
+To take a screenshot on a Mac device, use the following button combination:
 
-- ***同時按住 ***⌘ Cmd + Shift + 3******
+- ***Press and hold together ***⌘ Cmd + Shift + 3******
 
-Mac 將捕獲整個螢幕並將其儲存為桌面上的檔案。
+Mac will capture the entire screen and save it as a file on the desktop.
 
-若要截取活動視窗的螢幕截圖，請使用下列組合：
+To take a screenshot of an active window, use the following combination:
 
-- **同時按住 *⌘ Cmd + Shift + 4 + 空白鍵*。  指標將變為相機圖示。 單擊視窗以捕獲它。 按 Esc 按鈕取消截圖**
+- **Press and hold together *⌘ Cmd + Shift + 4 + Space bar*.  The pointer will change to a camera icon. Click the window to capture it. Press the Esc button to cancel taking a screenshot**
 
-要截取特定區域的螢幕截圖，您應該使用以下組合：
+To take a screenshot of a specific area, you should use the following combination:
 
-- ***一起按住 ***⌘ Cmd + Shift + 4******。 拖曳十字準線選擇所需區域。 放開滑鼠或觸控板進行螢幕截圖，按 Esc 按鈕取消。
+- ***Press and hold together ***⌘ Cmd + Shift + 4******. Drag the crosshair to select the needed area. Release your mouse or trackpad to take a screenshot, press the Esc button to cancel it.
 
-若要截取 *Touch Bar* (MacBook Pro) 的螢幕截圖，請使用以下組合：
+To take a screenshot of the *Touch Bar* (MacBook Pro) use the following combination:
 
-- ***按住 ***⌘ Cmd + Shift + 6******
+- ***Hold down ***⌘ Cmd + Shift + 6******
 
-您的 Mac 將截取整個 *Touch Bar* 並將其保存在桌面上的檔案。
+Your Mac captures the entire *Touch Bar* and saves it as a file on the desktop.
 
-要將螢幕截圖複製到剪貼簿而不是保存它，請按住 *Ctrl* 以及上述任意組合。 然後，您可以使用 *Cmd + V* 組合將螢幕截圖（從剪貼簿）貼上到目前正在編輯的文件或影像中。
+To copy a screenshot to the clipboard instead of saving it, hold down *Ctrl* together with any of the combinations above. Then you can paste the screenshot (from the clipboard) into a document or an image you are currently editing by using *Cmd + V* combination.
 
-您也可以使用 **預覽** 並選擇 **截取螢幕截圖** （所選區域、視窗或整個螢幕）。 使用 **預覽** 您可以將螢幕截圖儲存為 JPG、TIFF、PDF 和其他文件格式。
+You can also take screenshots by using **Preview** and choosing **Take screenshot** (of the selected area, window, or the entire screen). With **Preview** you can save your screenshots in JPG, TIFF, PDF, and other file formats.

@@ -1,38 +1,38 @@
 ---
-title: Installation og fjernelse
+title: Installation and removal
 sidebar_position: 2
 ---
 
-## Sådan installeres AdGuard VPN-browserudvidelse
+## How to install AdGuard VPN browser extension
 
-Følg disse trin for at installere AdGuard VPN-browserudvidelse:
+To install AdGuard VPN browser extension, follow these steps:
 
-1. Besøg [adguard-vpn.com](https://adguard-vpn.com/browser-extension/overview.html).
+1. Visit [adguard-vpn.com](https://adguard-vpn.com/browser-extension/overview.html).
 
-2. Klik på det relevante browserikon og dernæst på *Installér*.
+2. Click the icon of your browser and then click *Install*.
 
-3. Afhængigt af aktuel browser åbnes et af webstederne: Chrome Webshop, Firefox-tilføjelser, Opera-tilføjelser eller Microsoft Edge-tilføjelser. Klik på den respektive knap: *Føj til Chrome*, *Føj til Firefox*, *Føj til Opera* eller *Hent* ved siden af AdGuard VPN-browserudvidelse.
+3. Depending on your browser, one of the websites will open: Chrome Web Store, Firefox Add-ons, Opera addons, or Microsoft Edge Add-ons. Click the respective button: *Add to Chrome*, *Add to Firefox*, *Add to Opera* or *Get* next to AdGuard VPN Browser extension.
 
-4. Læs og acceptér EULA og Fortrolighedspolitik ved at afkrydse det respektive felt. Man kan også tillade AdGuard VPN at indsamle anonyme data om app-brug, som vi har brug for at forbedre vores produkt (valgfrit punkt). Tryk dernæst på *Fortsæt*.
+4. Read and accept the EULA and Privacy Policy by checking the respective box. You can also allow AdGuard VPN to collect anonymous data on the app usage, which we need to improve our product (this is optional). Then click *Continue*.
 
-5. Tilmeld eller log ind på AdGuard-kontoen for at afslutte installationen.
+5. Sign up or log into your AdGuard account to finish the installation.
 
-Nyd AdGuard VPN!
+Enjoy AdGuard VPN!
 
-## Sådan afinstalleres AdGuard VPN-browserudvidelse
+## How to uninstall AdGuard VPN browser extension
 
 ### Chrome
 
-Klik på ikonet med tre prikker øverste til højre i browseren, og vælg dernæst *Flere værktøjer → Udvidelser*. Find AdGuard VPN og klik på *Fjern*.
+Click the three dots icon in the top right corner of the browser, then select *More tools → Extensions*. Find AdGuard VPN and click *Remove*.
 
 ### Firefox
 
-Klik på sandwichmenuen øverste til højre i browseren, og vælg dernæst *Tilføjelser og Temaer*. Find AdGuard VPN på listen, klik på ikonet med tre prikker ved siden af det, og vælg *Fjern*.
+Click the sandwich menu icon in the top right corner of the browser, then select *Add-ons and themes*. Find AdGuard VPN in the list, click the three dots icon next to it and select *Remove*.
 
 ### Edge
 
-Klik på ikonet med tre prikker øverste til højre i browseren, og vælg dernæst *Udvidelser*. Find AdGuard VPN på listen, klik på ikonet med tre prikker ved siden af det, og vælg *Fjern fra Microsoft Edge*.
+Click the three dots icon in the top right corner of the browser, then select *Extensions*. Find AdGuard VPN in the list, click the three dots icon next to it and select *Remove from Microsoft Edge*.
 
 ### Opera
 
-Klik på ikonet *Udvidelser* øverste til højre i browseren, og vælg dernæst *Håndtere udvidelser*. Find AdGuard VPN på listen, og klik på knappen *Fjern*.
+Click the *Extensions* icon in the top right corner of the browser, then select *Manage extensions...*. Find AdGuard VPN in the list and click the *Remove* button.

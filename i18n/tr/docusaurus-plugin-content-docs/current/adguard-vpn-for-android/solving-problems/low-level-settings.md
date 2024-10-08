@@ -13,46 +13,46 @@ Changing _Low-level settings_ can cause problems with the performance of AdGuard
 
 To access _Low-level settings_, open the AdGuard VPN app and tap the gear icon in the lower right corner of the screen. Then choose _General_ → _Advanced_ → _Low-level settings_.
 
-## Low-level settings
+## Alt seviye ayarları
 
 Below we list all low-level settings available in AdGuard VPN for Android and explain what they do. We once again urge you not to mess with these settings blindly even if you’ve read this guide. Treat it as a cheat sheet for when you know what you are doing but want to brush up on specifics.
 
-### AdGuard VPN protocol
+### AdGuard VPN protokolü
 
-By default, AdGuard VPN protocol uses HTTP/2 transport protocol to avoid detection and to maintain high speed. You can read more about its implementation in a [dedicated article](/general/adguard-vpn-protocol.md).
+AdGuard VPN protokolü varsayılan olarak tespit edilmeyi önlemek ve yüksek hızı korumak için HTTP/2 aktarım protokolünü kullanır. You can read more about its implementation in a [dedicated article](/general/adguard-vpn-protocol.md).
 
-You can switch AdGuard VPN to use QUIC transport protocol instead. [QUIC](https://adguard-vpn.com/kb/general/why-adguard-vpn/#6-quic-support) is a relatively new protocol, hence it can be less stable. However, if your Internet connection is unstable (for example, when you connect to the public Wi-Fi), it provides better security and increases the connection speed thanks to the [Head-Of-Line Blocking](https://adguard-dns.io/en/blog/dns-over-quic.html#headoflineblocking) technology.
+You can switch AdGuard VPN to use QUIC transport protocol instead. [QUIC](https://adguard-vpn.com/kb/general/why-adguard-vpn/#6-quic-support) nispeten yeni bir protokoldür, bu nedenle daha az kararlı olabilir. However, if your Internet connection is unstable (for example, when you connect to the public Wi-Fi), it provides better security and increases the connection speed thanks to the [Head-Of-Line Blocking](https://adguard-dns.io/en/blog/dns-over-quic.html#headoflineblocking) technology.
 
 ### Include Wi-Fi gateway in VPN routes
 
 If this setting is enabled, the gateway IP addresses will be added to VPN routes when on Wi-Fi.
-If you disable it, then the route configuration (IP ranges that are filtered) will be changed. The Wi-Fi gateway of the network to which the user is connected will be excluded, and therefore, it will not be subject to filtering.
+Bunu devre dışı bırakırsanız, yönlendirme yapılandırması (filtrelenen IP aralıkları) değişecektir. The Wi-Fi gateway of the network to which the user is connected will be excluded, and therefore, it will not be subject to filtering.
 
 This setting is enabled by default.
 
-### Packet capture (PCAP)
+### Paket yakalama (PCAP)
 
 If this setting is enabled, AdGuard VPN will create a `.pcap` file with a timestamp for its name (for instance, `1682599851461.pcap`) in the app cache directory. This file lists all network packets transferred through the VPN and can be analyzed with the [Wireshark program](https://www.wireshark.org/).
 
-### Watchdog
+### Gözetleyici
 
-Watchdog monitors the VPN process state to check if there are any problems with it. When enabled, AdGuard VPN will protect itself against aggressive battery saver apps that could otherwise kill it.
+Gözetleyici, herhangi bir sorun olup olmadığını kontrol etmek için VPN işlem durumunu izler. When enabled, AdGuard VPN will protect itself against aggressive battery saver apps that could otherwise kill it.
 
-### Preferred IP version
+### Tercih edilen IP sürümü
 
-Here you can set up the endpoint addresses. There are three options: IPv4, IPv6 or IPv4 and IPv6 (if your device supports both).
+Burada uç nokta adreslerini ayarlayabilirsiniz. Üç seçenek vardır: IPv4, IPv6 veya IPv4 ve IPv6 (cihazınız her ikisini de destekliyorsa).
 
-### IPv4 ranges excluded from VPN
+### VPN'den hariç tutulan IPv4 aralıkları
 
 VPN tunneling for the IPv4 ranges listed in this section will be disabled.
 
-### IPv6 interface
+### IPv6 arayüzü
 
-After enabling this option you will have an IPv6 address while routing traffic through the VPN connection. You can set up the exclusions in the _IPv6 ranges excluded from VPN_.
+Bu seçeneği etkinleştirdikten sonra VPN bağlantısı üzerinden trafiği yönlendirirken bir IPv6 adresine sahip olacaksınız. You can set up the exclusions in the _IPv6 ranges excluded from VPN_.
 
-### IPv6 ranges excluded from VPN
+### VPN'den hariç tutulan IPv6 aralıkları
 
-VPN tunneling for the IPv6 ranges listed in this section will be disabled.
+Bu bölümde listelenen IPv6 aralıkları için VPN tünelleme devre dışı bırakılacaktır.
 
 :::note
 
@@ -60,15 +60,15 @@ You need to enable _IPv6 interface_ setting in _Low-level settings_ first, other
 
 :::
 
-### MTU (maximum transmission unit)
+### MTU (maksimum iletim birimi)
 
-Here you can set the maximum size (in bytes) of the data packet used in local VPN. The recommended range is 1500-9000 bytes.
+Burada yerel VPN'de kullanılan veri paketinin maksimum boyutunu (bayt cinsinden) ayarlayabilirsiniz. Önerilen aralık 1500-9000 bayttır.
 
-### Excluded apps
+### Hariç tutulan uygulamalar
 
-You can list here UIDs (unique identifiers) or package names of the apps that you want to exclude from VPN routing.
-Unlike with apps added to regular _Exclusions_, the traffic of apps added to _Excluded apps_ doesn’t go to the local VPN service on your device at all. Instead, it goes directly to the destination.
+VPN yönlendirmesinden hariç tutmak istediğiniz uygulamaların UID'lerini (benzersiz tanımlayıcılar) veya paket adlarını buraya listeleyebilirsiniz.
+Unlike with apps added to regular _Exclusions_, the traffic of apps added to _Excluded apps_ doesn’t go to the local VPN service on your device at all. Bunun yerine, doğrudan istikamete gider.
 
-### Proxy server port
+### Proxy sunucu bağlantı noktası
 
-Here you can set up the internal SOCKS5 proxy server port. The default option is 1080.
+Burada dahili SOCKS5 proxy sunucusunun portunu ayarlayabilirsiniz. Varsayılan seçenek 1080'dir.

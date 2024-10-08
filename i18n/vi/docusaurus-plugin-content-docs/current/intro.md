@@ -1,5 +1,5 @@
 ---
-title: Tổng quan về AdGuard VPN
+title: AdGuard VPN Overview
 sidebar_position: 1
 slug: /
 ---
@@ -8,49 +8,49 @@ slug: /
 
 <iframe width="560" height="315" class="youtube-video" src="https://www.youtube-nocookie.com/embed/7149L3xPmSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-VPN cho phép bạn kết nối an toàn tới các mạng khác trên Internet.
+A VPN allows you to create a secure connection to another network on the Internet.
 
 Initially, VPNs were created to securely connect business networks over the Internet, so that people could connect to the corporate network from home. Today, this technology is used for many other things: for example, to browse the Internet anonymously or to protect your online activity from prying eyes while using public Wi-Fi.
 
-A VPN connects a user's computer or mobile device to a server and allows one to browse the net using a "cover" IP address. Do đó, bên quan sát thứ ba không thể nhìn thấy địa chỉ IP thực của người dùng, điều này khiến cho việc theo dõi người dùng gần như không thể.
+A VPN connects a user's computer or mobile device to a server and allows one to browse the net using a "cover" IP address. Thus, third-party observers cannot see the user's real IP address, which makes it nearly impossible to trace them.
 
-The first thing that users mention in relation to VPN is traffic encryption and the security derived from it. Vậy những điều này có nghĩa gì? VPN tạo một "đường hầm" mã hóa giữa thiết bị của người dùng và máy chủ. Tất cả lưu lượng truy cập web của bạn đi qua đường hầm này, vì vậy dữ liệu của bạn được bảo vệ trên đường đi. Đối với người quan sát bên ngoài, lưu lượng truy cập của bạn xuất phát từ máy chủ VPN, vì vậy có vẻ như thiết bị của bạn có địa chỉ IP của máy chủ này. Thủ thuật này che giấu danh tính và vị trí thực của người dùng.
+The first thing that users mention in relation to VPN is traffic encryption and the security derived from it. But what does it mean? A VPN creates an encrypted tunnel between the user's device and the remote server. All your web traffic passes through this tunnel, so your data is protected along the way. For the external observer, your traffic exits the VPN server, so it looks like your device has the IP address of this server. This trick masks the user's identity and true location.
 
-VPN có thể được sử dụng để:
+VPN can be used to:
 
 - Hide your real whereabouts and stay anonymous
 - Secure your data — even when connecting to a public Wi-Fi, you can browse the Web safely
 - Protect yourself from spoofing (network traffic interception) and tracking on the part of your Internet service provider
 
-Mật khẩu, thông tin thẻ và thông tin cá nhân cơ bản đều có nguy cơ gặp rủi ro khi người dùng "lướt" Internet. Nhưng nếu bạn kết nối với mạng toàn cầu bằng VPN, bạn có thể chắc chắn rằng không ai có thể chặn dữ liệu của bạn.
+Passwords, card details, and just plain personal information are at risk when a user surfs the Internet. But if you connect to the global network using a VPN, you can be sure that no one can intercept your data.
 
 ## Why AdGuard VPN?
 
-### Nhà phát triển tin cậy
+### Trusted developer
 
 AdGuard has been present on the market of personal data protection and ad blocking and developing its line of software for more than 15 years. Over this time, our company has built an impeccable reputation, and more than 410 million people have installed AdGuard.
 
-### Giao thức VPN độc đáo
+### Unique VPN protocol
 
-The main difference between AdGuard VPN and its competitors is that we use [our own developed protocol](/general/adguard-vpn-protocol). Ngụy trang bản thân thành lưu lượng truy cập bình thường, khiến việc theo dõi và chặn sẽ khó khăn hơn nhiều.
+The main difference between AdGuard VPN and its competitors is that we use [our own developed protocol](/general/adguard-vpn-protocol). It disguises itself as normal traffic, so it is much more difficult to track and block it.
 
 ### No-logging policy
 
 No-logging policy means that we don’t collect, store, or transfer users’ personal data to third parties. [Read AdGuard VPN Privacy policy](https://adguard-vpn.com/privacy.html)
 
-### Chống theo dõi
+### Tracking protection
 
-Lưu lượng truy cập web từ bất kỳ người dùng nào cũng có thể bị để mắt đến và đặc biệt có giá trị đối với các phương thức kiếm tiền từ dữ liệu cá nhân. Cả tội phạm và các nhà cung cấp dịch vụ internet (ISP) vô đạo đức đều có thể truy cập các dữ liệu này. Tuy nhiên, với một dịch vụ VPN đáng tin, bạn có thể yên tâm rằng cả nhà cung cấp của bạn và bất kỳ ai khác đều sẽ không thể thấy hoạt động internet của bạn.
+Web traffic from any user may be of interest and is particularly valuable in terms of monetization of personal data. Both criminals and unscrupulous ISPs can access it. However, with a trustworthy VPN, you can be confident that neither your provider nor anyone else will see your internet activity.
 
 ### Ultra-fast VPN servers in 53 countries
 
 - Argentina
-- Úc
-- Áo
-- Bỉ
+- Australia
+- Austria
+- Belgium
 - Brazil
-- Bulgari
-- Campuchia
+- Bulgaria
+- Cambodia
 - Canada
 - Chile
 - Colombia

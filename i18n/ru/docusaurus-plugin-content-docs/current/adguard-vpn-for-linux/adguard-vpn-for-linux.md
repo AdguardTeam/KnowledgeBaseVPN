@@ -9,7 +9,7 @@ AdGuard VPN для Linux, также известный как AdGuard VPN CLI, 
 
 - [Установка и удаление](/adguard-vpn-for-linux/installation)
 - [Вход, подключение и обновление](/adguard-vpn-for-linux/login)
-- [Setting up on a router](/adguard-vpn-for-linux/setting-up-on-a-router)
+- [Настройка на роутере](/adguard-vpn-for-linux/setting-up-on-a-router)
 - [Настройки](/adguard-vpn-for-linux/settings)
 - [Отправка отзыва](/adguard-vpn-for-linux/feedback)
 

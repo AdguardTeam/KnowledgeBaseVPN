@@ -1,5 +1,5 @@
 ---
-title: How to set up AdGuard VPN for Linux on an OpenWRT router
+title: OpenWRT yönlendiricide Linux için AdGuard VPN nasıl kurulur
 sidebar_position: 3
 ---
 
@@ -15,7 +15,7 @@ This setting is usually found in the router’s web interface.
 
 OpenWrt için:
 
-1. Web arayüzüne giriş yapın. Typically, this is accessible via a web browser at [`http://192.168.1.1`](http://192.168.1.1/).
+1. Web arayüzüne giriş yapın. Tipik olarak, buna [`http://192.168.1.1`](http://192.168.1.1/) adresinden bir web tarayıcısı aracılığıyla erişilebilir.
 
 2. Navigate to _System_ → _Administration_.
 
@@ -25,7 +25,7 @@ By default, OpenWrt allows SSH access to the router.
 
 ## 2. Yönlendiricinin IP adresini belirle
 
-The default IP address for most routers is `192.168.1.1` or `192.168.0.1`. If you’ve changed the IP address or if you’re unsure, you can find it by checking the IP configuration on a connected device.
+The default IP address for most routers is `192.168.1.1` or `192.168.0.1`. IP adresini değiştirdiyseniz veya emin değilseniz, bağlı bir cihazdaki IP yapılandırmasını kontrol ederek bulabilirsiniz.
 
 ### On Windows
 
@@ -35,11 +35,11 @@ The default IP address for most routers is `192.168.1.1` or `192.168.0.1`. If
    ipconfig
    ```
 
-2. Look for the _Default Gateway_ under your active network connection. This is your router’s IP address.
+2. Look for the _Default Gateway_ under your active network connection. Bu, yönlendiricinizin IP adresidir.
 
 ### On macOS and Linux
 
-1. Open Terminal and run this on Linux:
+1. Terminal'i açın ve Linux'ta şunu çalıştırın:
 
    ```text
    ip route | grep default
@@ -51,7 +51,7 @@ The default IP address for most routers is `192.168.1.1` or `192.168.0.1`. If
    route -n get default
    ```
 
-2. Look for the _default_ entry. The IP address next to it is your router’s IP address.
+2. _Varsayılan_ girişi arayın. Yanındaki IP adresi ise yönlendiricinizin IP adresidir.
 
 ## 3) Yönlendiriciye bağlanmak için bir SSH istemcisi kullan
 
@@ -59,9 +59,9 @@ Most Linux and macOS systems come with an SSH client pre-installed. For Windows,
 
 ### Built-in SSH client (Linux, macOS, and Windows 10/11)
 
-1. Open Terminal or PowerShell.
+1. Terminal veya PowerShell'i açın.
 
-2. Run the SSH command:
+2. SSH komutunu çalıştırın:
 
    ```text
    ssh root@192.168.1.1
@@ -77,7 +77,7 @@ Most Linux and macOS systems come with an SSH client pre-installed. For Windows,
    Are you sure you want to continue connecting? (Yes/No/[Fingerprint])
    ```
 
-   Type `Yes` and press Enter.
+   `Evet` yazın ve Enter tuşuna basın.
 
 4. Enter the router’s password when prompted. The default password for OpenWrt is typically empty (just press Enter), but you should have set a password during the initial setup.
 
@@ -99,7 +99,7 @@ Most Linux and macOS systems come with an SSH client pre-installed. For Windows,
 
 Once logged in, you can use various commands to interact with your router’s Linux-based operating system.
 
-Update package lists (OpenWrt):
+Paket listelerini güncelleyin (OpenWrt):
 
 ```text
 opkg update
@@ -123,7 +123,7 @@ curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/sc
 
    Linux için AdGuard VPN'i kullanmak için bir AdGuard hesabına ihtiyacınız vardır.
 
-   You can sign up or log in on our [website](https://auth.adguard.com/login.html) or in the Terminal.
+   [Sitemizden](https://auth.adguard.com/login.html) veya Terminal'den kaydolabilir veya giriş yapabilirsiniz.
 
    Kaydolmak veya giriş yapmak için şunu yazın:
 
@@ -131,13 +131,13 @@ curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/sc
    adguardvpn-cli login
    ```
 
-   Note: If failed to link the binary to '/usr/local/bin’, use full file path to run all commands. For example, `/opt/adguardvpn_cli/adguardvpn-cli login`
+   Note: If failed to link the binary to '/usr/local/bin’, use full file path to run all commands. Örneğin, `/opt/adguardvpn_cli/adguardvpn-cli login`
 
-2. Connect to VPN
+2. VPN'e bağlanın
 
-   Select a VPN server location that best suits your needs.
+   İhtiyaçlarınıza en uygun VPN sunucu konumunu seçin.
 
-   In general, the closer the server is to you, the faster the connection.
+   Genel olarak, sunucu size ne kadar yakınsa bağlantı o kadar hızlı olur.
 
    Mevcut konumları görüntülemek için şunu yazın:
 
@@ -190,8 +190,8 @@ Bunu web arayüzünden veya komut satırından yapabilirsiniz. Steps below descr
 
 2. Add tun0 to WAN zone
 
-   For traffic to go through VPN, add tun0 to WAN zone.
-   The WAN interface which connects to the Internet will typically be in a zone named `wan` or something similar. Check your router's configuration files or firewall settings to find out which zone is associated with the WAN interface.
+   Trafiğin VPN üzerinden geçmesi için WAN bölgesine tun0'ı ekleyin.
+   İnternete bağlanan WAN arayüzü tipik olarak `wan` ya da benzer bir adla anılan bir bölgede yer alır. Check your router's configuration files or firewall settings to find out which zone is associated with the WAN interface.
 
    Bunu yapmak için mevcut güvenlik duvarı bölgelerini listeleyin:
 
@@ -199,7 +199,7 @@ Bunu web arayüzünden veya komut satırından yapabilirsiniz. Steps below descr
    uci show firewall
    ```
 
-   This will show a config file with all zones listed. Look for a section like `firewall.@zone[1]` or similar where `option name 'wan'` is defined. The number `[1]` could be different depending on your configuration.
+   Bu, tüm bölgelerin listelendiği bir yapılandırma dosyası gönderir. Look for a section like `firewall.@zone[1]` or similar where `option name 'wan'` is defined. Yapılandırmanıza bağlı olarak `[1]` sayısı farklı olabilir.
 
    Run this SSH command, replace `zone[1]` with correct  ‘wan’ zone identified before:
 
@@ -210,7 +210,7 @@ Bunu web arayüzünden veya komut satırından yapabilirsiniz. Steps below descr
    /etc/init.d/firewall reload
    ```
 
-   If you want to disable all traffic that is not protected by VPN, run the following command. This way you won’t have an Internet connection at all if VPN disconnects. If you choose not to do this step, your real IP will be exposed if the VPN disconnects.
+   VPN tarafından korunmayan tüm trafiği devre dışı bırakmak istiyorsanız, aşağıdaki komutu çalıştırın. This way you won’t have an Internet connection at all if VPN disconnects. If you choose not to do this step, your real IP will be exposed if the VPN disconnects.
 
    ```shell
    uci del_list firewall.@zone[1].network='wan'
@@ -251,7 +251,7 @@ stop() {
 }
 ```
 
-Run this to grant access to and enable auto-launch:
+Otomatik başlatmaya erişim izni vermek ve etkinleştirmek için şunu çalıştırın:
 
 ```jsc
  chmod +x /etc/init.d/adguardvpn

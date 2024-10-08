@@ -1,28 +1,28 @@
 ---
-title: Installation og fjernelse
+title: Installation and removal
 sidebar_position: 2
 ---
 
-## Systemkrav
+## System requirements
 
-AdGuard VPN kan kun installeres på Android-enheder med minimum version **Android 7.0**.
+AdGuard VPN can only be installed on Android devices with **Android 7.0 or later versions**.
 
-## Sådan installeres AdGuard VPN til Android
+## How to install AdGuard VPN for Android
 
-Appen AdGuard VPN til Android kan installeres gratis fra Google Play. For at gøre dette, følg [dette link](https://play.google.com/store/apps/details?id=com.adguard.vpn) og tryk på *Installér* eller følg et par enkle trin:
+You can install the AdGuard VPN for Android app for free from Google Play. To do this, follow [this link](https://play.google.com/store/apps/details?id=com.adguard.vpn) and tap *Install* or follow a few simple steps:
 
-1. Åbn *Google Play*-appen på enheden, og tryk på *Søg* øverst på skærmen.
+1. Open the *Google Play* app on your device and tap *Search* at the top of the screen.
 
-2. Begynd derefter at skrive *"AdGuard"* på søgebjælken og vælg *"adguard vpn"* fra listen over viste muligheder.
+2. Next, in the search bar, start typing *"AdGuard"* and select *"adguard vpn"* from the list of suggested options.
 
-3. Vælg *AdGuard VPN - privat proxy* på listen over foreslåede apps, og tryk på *Installér*.
+3. Select *AdGuard VPN - private proxy* from the list of suggested apps and tap *Install*.
 
-4. Afvent at installationen færdiggøres og tryk derefter på *Åbn*.
+4. Wait for the installation to finish and tap *Open*.
 
-AdGuard VPN til Android er hermed installeret!
+AdGuard VPN for Android has been successfully installed!
 
-## Sådan afinstalleres AdGuard VPN til Android
+## How to uninstall AdGuard VPN for Android
 
-Ønsker man at fjerne AdGuard VPN til Android, find appens ikon og tryk og hold på det. På den viste liste trykkes på *Afinstallér*.
+If you decided to delete AdGuard VPN for Android, find the icon of this app and hold it. In the opened list, tap *Uninstall*.
 
-Der kan læses mere om AdGuard VPN til Android i [denne artikel](/adguard-vpn-for-android/overview).
+You can learn more about the AdGuard VPN for Android in [this article](/adguard-vpn-for-android/overview).

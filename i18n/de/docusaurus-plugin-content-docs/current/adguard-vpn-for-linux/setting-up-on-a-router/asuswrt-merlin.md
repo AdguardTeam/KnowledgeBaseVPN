@@ -1,174 +1,174 @@
 ---
-title: So richten Sie AdGuard VPN für Linux auf einem Asuswrt-Merlin-Router ein
+title: How to set up AdGuard VPN for Linux on an Asuswrt-Merlin router
 sidebar_position: 4
 ---
 
-:::info Systemanforderungen
+:::info System requirements
 
-1. AdGuard VPN CLI benötigt nach der Installation der erforderlichen Pakete mindestens 22 MB freien Speicherplatz auf dem Datenträger Ihres Routers oder auf einem externen USB-Stick.
-2. **Asuswrt-Merlin-Firmware**: Stellen Sie sicher, dass auf Ihrem Router die Asuswrt-Merlin-Firmware läuft.
-3. **USB-Laufwerk**: Ein USB-Laufwerk, das mit einem nativen Linux-Dateisystem (ext2, ext3 oder ext4) formatiert ist. In diesem Leitfaden leiten wir Sie durch den Formatierungsprozess.
+1. AdGuard VPN CLI requires at least 22 MB of free storage space on your router’s disk or external USB after installing necessary packages.
+2. **Asuswrt-Merlin firmware**: Make sure your router is running the Asuswrt-Merlin firmware.
+3. **USB drive**: A USB drive formatted in a native Linux file system (ext2, ext3, or ext4). We will go through the formatting process in this guide.
 
 :::
 
-## 1. Ermitteln Sie die IP-Adresse Ihres Routers
+## 1. Determine your router’s IP address
 
-Die Standard-IP-Adresse der meisten Router lautet `192.168.1.1` oder `192.168.0.1`. Wenn Sie die IP-Adresse geändert haben oder sich nicht sicher sind, können Sie sie ermitteln, indem Sie die IP-Konfiguration auf einem angeschlossenen Gerät überprüfen.
+The default IP address for most routers is `192.168.1.1` or `192.168.0.1`. If you’ve changed the IP address or if you’re unsure, you can find it by checking the IP configuration on a connected device.
 
-### Unter Windows
+### On Windows
 
-1. Öffnen Sie die Eingabeaufforderung:
+1. Open Command Prompt:
 
    ```bash
    ipconfig
    ```
 
-2. Suchen Sie den _Standardgateway_ unter Ihrer aktiven Netzwerkverbindung. Dies ist die IP-Adresse Ihres Routers.
+2. Look for the _Default Gateway_ under your active network connection. This is your router’s IP address.
 
-### Unter Mac/Linux
+### On Mac/Linux
 
-1. Öffnen Sie Terminal und führen Sie diesen Befehl für Linux aus:
+1. Open Terminal and run this command for Linux:
 
    ```bash
    ip route | grep default
    ```
 
-   Oder diese hier für Mac:
+   Or this one for Mac:
 
    ```bash
    route -n get default
    ```
 
-2. Suchen Sie nach dem Eintrag _default_. Die IP-Adresse daneben ist die IP-Adresse Ihres Routers.
+2. Look for the _default_ entry. The IP address next to it is your router’s IP address.
 
-## 2) Stellen Sie sicher, dass die benutzerdefinierten SSH- und JFFS-Skripte auf dem Router aktiviert sind
+## 2) Make sure SSH and JFFS custom scripts are enabled on the router
 
-Stellen Sie zunächst sicher, dass der SSH-Zugang auf Ihrem Router aktiviert ist. Diese Einstellung finden Sie in der Regel auf der Weboberfläche des Routers. JFFS-Skripte werden zur Festlegung von Routing-Regeln verwendet.
+First, make sure that SSH access is enabled on your router. This setting is usually found in the router’s web interface. JFFS custom scripts will be used to set routing rules.
 
-1. Melden Sie sich an der Weboberfläche an. Diese ist in der Regel über einen Webbrowser unter [`http://192.168.1.1`](http://192.168.1.1/) zugänglich. Andernfalls ersetzen Sie [`192.168.1.1`](http://192.168.1.1/) durch die IP-Adresse Ihres Routers.
+1. Log in to the web interface. This is usually accessible via a web browser at [`http://192.168.1.1`](http://192.168.1.1/). Otherwise, replace [`192.168.1.1`](http://192.168.1.1/) with your router’s IP address.
 
-2. Blättern Sie nach unten zu _Erweiterte Einstellungen_, _Verwaltung_ ➜ _System_.
+2. Scroll down to _Advanced settings_, _Administration_ → _System_.
 
-3. Blättern Sie zu _Service_, klicken Sie auf _SSH aktivieren_ ➜ _LAN_.
+3. Scroll to _Service_, click _Enable SSH_ → _LAN_.
 
-4. Wählen Sie _22_ unter _Port_ und _Ja_ unter _Passwortanmeldung zulassen_.
+4. Select _22_ in _Port_ and _Yes_ in _Allow Password Login_.
 
-5. Öffnen Sie die _Persistente JFFS2-Partition_ und aktivieren Sie _Benutzerdefinierte JFFS-Skripte und -Konfigurationen_.
+5. Go up to _Persistent JFFS2 partition_ and enable _JFFS custom scripts and configs_.
 
-6. Klicken Sie unten auf der Seite auf _Anwenden_.
+6. Click _Apply_ at the bottom of the page.
 
-## 3) Verwenden Sie einen SSH-Client, um sich mit dem Router zu verbinden
+## 3) Use an SSH client to connect to the router
 
-Sie benötigen einen SSH-Client. Auf den meisten Linux- und macOS-Systemen ist ein SSH-Client vorinstalliert. Unter Windows können Sie PowerShell, den integrierten SSH-Client in Windows 10/11 oder eine Anwendung eines Drittanbieters wie PuTTY verwenden.
+You’ll need an SSH client. Most Linux and macOS systems come with an SSH client pre-installed. For Windows, you can use PowerShell, the built-in SSH client in Windows 10/11, or a third-party application like PuTTY.
 
-### Integrierter SSH-Client (Linux, macOS und Windows 10/11)
+### Built-in SSH client (Linux, macOS, and Windows 10/11)
 
-1. Öffnen Sie die Eingabeaufforderung oder die PowerShell.
+1. Open Terminal or PowerShell.
 
-2. Führen Sie den folgenden SSH-Befehl aus:
+2. Run the SSH command:
 
    ```bash
    ssh admin@192.168.1.1
    ```
 
-   Ersetzen Sie `192.168.1.1` durch die IP-Adresse Ihres Routers und `admin` durch Ihren Benutzernamen des Administrators.
+   Replace `192.168.1.1` with your router’s IP address and `admin` with your admin username.
 
-3. Wenn Sie sich zum ersten Mal über SSH mit dem Router verbinden, werden Sie eine Meldung sehen wie diese:
+3. If this is your first time connecting to the router via SSH, you’ll see a message like this:
 
    ```text
-   Die Authentizität des Hosts '192.168.1.1 (192.168.1.1)' konnte nicht festgestellt werden.
-   Der Fingerabdruck des ECDSA-Schlüssels lautet SHA256:...
-   Möchten Sie die Verbindung wirklich fortsetzen (Ja/Nein/[Fingerabdruck])?
+   The authenticity of host '192.168.1.1 (192.168.1.1)' can't be established.
+   ECDSA key fingerprint is SHA256:...
+   Are you sure you want to continue connecting (yes/no/[fingerprint])?
    ```
 
-   Geben Sie `Ja` ein und drücken Sie die Eingabetaste.
+   Type `yes` and press Enter.
 
-4. Geben Sie das Passwort des Routers ein, wenn Sie dazu aufgefordert werden. Der SSH-Benutzername und das Passwort sind identisch mit den Admin-Anmeldedaten.
+4. Enter the router’s password when prompted. The SSH login username and password are the same as the admin credentials.
 
-### PuTTY (vor Windows 10)
+### PuTTY (Windows below 10)
 
-1. Laden Sie PuTTY von [der offiziellen Website](https://www.putty.org/) herunter und installieren Sie es.
-2. Öffnen Sie PuTTY.
-3. Geben Sie in das Feld _Hostname (oder IP-Adresse)_ die IP-Adresse Ihres Routers ein (z.B. `192.168.1.1`).
-4. Stellen Sie sicher, dass der _Verbindungstyp_ auf SSH eingestellt ist.
-5. Klicken Sie auf _Öffnen_.
-6. Wenn das Terminalfenster geöffnet wird, geben Sie die Anmeldedaten des Routers ein. Der SSH-Benutzername und das Passwort sind identisch mit den Admin-Anmeldedaten.
+1. Download and install PuTTY from [the official website](https://www.putty.org/).
+2. Open PuTTY.
+3. In the _Host Name (or IP address)_ field, enter your router’s IP address (e.g., `192.168.1.1`).
+4. Make sure the _Connection type_ is set to SSH.
+5. Click _Open_.
+6. When the Terminal window opens, enter the router’s credentials. The SSH login username and password are the same as the admin credentials.
 
-## 4) Entware über SSH installieren
+## 4) Install Entware using SSH
 
-Sobald Sie sich bei Ihrem SSH-Client angemeldet haben, können Sie verschiedene Befehle verwenden, um mit dem Linux-basierten Betriebssystem Ihres Routers zu interagieren. Um fortzufahren, müssen Sie Entware OPKG Manager installieren. Damit können Sie Softwarepakete von Drittanbietern installieren, um die Fähigkeiten des Routers zu erweitern. Fahren Sie mit dem nächsten Schritt fort, wenn Sie die Software bereits installiert haben.
+Once logged into your SSH client, you can use various commands to interact with your router’s Linux-based operating system. To proceed, you will need to install Entware OPKG Manager. It allows you to install third-party software packages to expand router capabilities. Skip to the next step if you already have it installed.
 
-Beachten Sie, dass Sie Optware (veraltete Alternative) und Entware nicht gleichzeitig verwenden können.
+Note that you cannot use both Optware (outdated alternative) and Entware at the same time.
 
-Der Asus DownloadMaster basiert auf Optware und ist daher nicht mit Entware kompatibel. Sie müssen DownloadMaster deinstallieren und sich die von Entware angebotenen Alternativen nutzen.
+The Asus DownloadMaster is based on Optware, and therefore is not compatible with Entware. You will have to uninstall DownloadMaster and look at the alternatives provided by Entware.
 
-Stellen Sie nach der Deinstallation sicher, dass der Ordner „asusware.arm“ oder „asusware.\*“ auf der gemounteten Festplattenpartition gelöscht wird. Andernfalls wird Entware nicht richtig funktionieren. Vergewissern Sie sich nach der Deinstallation von DownloadMaster, dass der Router neu gebootet wurde.
+After uninstalling, make sure that "asusware.arm" or "asusware.\*" dir on the mounted disk partition is deleted. Otherwise, Entware won't work properly. After uninstalling DownloadMaster, make sure the router is rebooted.
 
-Sie müssen einen USB-Datenträger anschließen, der mit einem nativen Linux-Dateisystem (ext2, ext3 oder ext4) formatiert ist. Zum Formatieren einers Datenträgers verwenden Sie amtm. Schließen Sie einen USB-Datenträger an Ihren Router an, und starten Sie amtm mit:
+You will need to plug a USB disk that's formatted in a native Linux file system (ext2, ext3 or ext4). To format a disk, use amtm. Plug a USB disk into your router, then start amtm with:
 
 ```bash
 amtm
 ```
 
-Mit dieser Option können Sie einen Datenträger formatieren und in den Router einbinden:
+Use this option to format a disk and mount it to router:
 
 ```bash
 fd
 ```
 
-Folgen Sie den Formatierungsanweisungen und wählen Sie die empfohlenen Optionen aus. Alle Dateien auf dem USB-Datenträger werden gelöscht. Damit diese Einrichtung funktioniert, sollte der USB-Datenträger immer angeschlossen bleiben.
+Go through the formatting process and select the recommended options. All files from the USB disk will be deleted. For this setup to work, USB disk should always stay connected.
 
-Nach dem Einstecken des USB-Sticks wird der Router neu gestartet. Um den Installationsvorgang zu starten, verbinden Sie sich zunächst über SSH mit Ihrem Router.
+After mounting your USB, the router will reboot. To start the installation process, first reconnect to your router over SSH.
 
-Starten Sie dann die Anwendung amtm, indem Sie sie einfach ausführen:
+Then launch the amtm application by simply running:
 
 ```bash
 amtm
 ```
 
-Das Menü bietet Ihnen die Option `ep`, um die Entware-Installation zu starten.
+The menu will offer you the option `ep` to initiate the Entware installation.
 
-Wenn Sie eine ältere Firmware-Version als 384.15 (bzw. 384.13_4 für den RT-AC87U und RT-AC3200) verwenden, starten Sie die Installation stattdessen mit dem folgenden Befehl.
+If you are running a firmware version older than 384.15 (or 384.13_4 for the RT-AC87U and RT-AC3200), then you start the installation by running the following command instead.
 
 ```bash
 entware-setup.sh
 ```
 
-Wenn das Skript entware-setup.sh nicht gefunden wird, laden Sie das folgende Skript herunter und führen Sie es aus, um Entware zu installieren:
+If the entware-setup.sh script is not found, download and run the following script to install Entware:
 
 ```bash
 wget -O - http://bin.entware.net/armv7sf-k3.2/installer/generic.sh | sh
 ```
 
-Beenden Sie amtm durch Drücken von `e`.
+Exit amtm by pressing `e`.
 
-## 5. AdGuard VPN CLI installieren
+## 5. Install AdGuard VPN CLI
 
-Aktualisieren Sie die Paketlisten:
+Update the package lists:
 
 ```bash
 opkg update
 ```
 
-Installieren Sie die erforderlichen Pakete:
+Install required packages:
 
 ```bash
 opkg install curl ca-certificates
 ```
 
-Wechseln Sie in den Ordner /opt mit `cd /opt` und führen Sie das AdGuardVPN CLI-Installationsskript aus:
+Go to /opt folder by running `cd /opt`  and run the AdGuardVPN CLI installation script:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/release/install.sh | sh -s -- -v
 ```
 
-Auf die Frage „Möchten Sie die Binärdatei nach /usr/local/bin verknüpfen?“, antworten Sie mit `y`. Wenn das Verknüpfen der Binärdatei fehlgeschlagen ist, führen Sie diese Zeile aus:
+When asked “Would you like to link the binary to /usr/local/bin?“, reply `y`. If failed to link the binary, run this line:
 
 ```bash
 ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
 ```
 
-Importieren Sie das SSL-Zertifikat und das tun-Modul und legen Sie einen alternativen Ordner für das Benutzerverzeichnis fest. Standardmäßig wird es in /tmp gespeichert, und nach einem Neustart gehen die Einstellungen verloren. Führen Sie dies vor jeder neuen Sitzung durch.
+Import the SSL certificate and the tun module and set an alternative folder for the user directory. By default, it will be stored in /tmp and you’ll lose your settings after a reboot. Run this before each new session.
 
 ```bash
 export SSL_CERT_FILE=/opt/etc/ssl/certs/ca-certificates.crt
@@ -176,105 +176,105 @@ export HOME=/opt/home/admin
 modprobe tun
 ```
 
-## 6. AdGuard VPN CLI einrichten
+## 6. Set up AdGuard VPN CLI
 
-1. Melden Sie sich bei Ihrem Konto an
+1. Log in to your account
 
-   Um AdGuard VPN für Linux nutzen zu können, benötigen Sie ein AdGuard-Konto.
+   To use AdGuard VPN for Linux, you need an AdGuard account.
 
-   Sie können sich auf unserer [Website](https://auth.adguard.com/login.html) oder im Terminal anmelden.
+   You can sign up on our [website](https://auth.adguard.com/login.html) or in the Terminal.
 
-   Um sich zu registrieren oder anzumelden, geben Sie folgendes ein:
+   To sign up or log in, type:
 
    ```jsx
    adguardvpn-cli login
    ```
 
-2. Mit VPN verbinden
+2. Connect to VPN
 
-   Wählen Sie einen VPN-Serverstandort, der Ihren Anforderungen am besten entspricht.
+   Select a VPN server location that best suits your needs.
 
-   Im Allgemeinen gilt: Je näher der Server, desto schneller die Verbindung.
+   In general, the closer the server, the faster the connection.
 
-   Um die verfügbaren Standorte anzuzeigen, geben Sie Folgendes ein:
+   To view available locations, type:
 
    ```jsx
    adguardvpn-cli list-locations
    ```
 
-   Um eine Verbindung zu einem bestimmten Standort herzustellen, geben Sie ein:
+   To connect to a specific location, type:
 
    ```jsx
    adguardvpn-cli connect -l LOCATION_NAME
    ```
 
-   Ersetzen Sie LOCATION_NAME durch die Stadt, das Land oder den ISO-Code des Ortes, zu dem Sie eine Verbindung herstellen möchten.
+   Replace LOCATION_NAME with the city, country, or ISO code of the location you want to connect to.
 
-   Für eine Schnellverbindung, geben Sie ein:
+   For quick connect, type:
 
    ```jsx
    adguardvpn-cli connect
    ```
 
-   AdGuard VPN wählt den Standort, mit der schnellsten verfügbaren Geschwindigkeit aus und speichert ihn für zukünftige schnelle Verbindungen.
+   AdGuard VPN will choose the fastest available location and remember it for future quick connections.
 
-   Geben Sie `yes` ein, wenn Sie gefragt werden: „Möchten Sie Standardrouten im TUN-Modus festlegen?“
+   Enter `yes` when asked “Would you like to set default routes in TUN mode?”
 
-   AdGuard VPN CLI erstellt eine tun0-Schnittstelle für VPN-Tunneling.
+   AdGuard VPN CLI will create a tun0 interface for VPN tunneling.
 
-3. Passen Sie Ihre Einstellungen an
+3. Adjust your settings
 
-   Rufen Sie eine Liste aller verfügbaren AdGuard VPN-Befehle auf und passen Sie den VPN-Client an Ihre Bedürfnisse an.
+   Get a list of all available AdGuard VPN commands and customize the VPN client to your needs.
 
-   Um alle Befehle anzuzeigen, geben Sie ein:
+   To view all commands, type:
 
    ```jsx
    adguardvpn-cli --help-all
    ```
 
-## 7) Firewall-Regeln und automatischer Start für AdGuard VPN einrichten
+## 7) Set up your firewall rules and auto-launch for AdGuard VPN
 
-In diesem Schritt werden Firewall-Regeln auf einem Asuswrt-Merlin-Router konfiguriert, um den Datenverkehr durch AdGuard VPN zu leiten.
+This step configures firewall rules on an Asuswrt-Merlin router to route traffic through AdGuard VPN.
 
-1. Erstellen Sie ein neues Skript, indem Sie den folgenden Befehl ausführen:
+1. Create a new script by running the following command:
 
    ```bash
    cat << 'EOF' > /jffs/scripts/wan-event
    #!/bin/sh
 
    if [ "$2" = "connected" ]; then
-   export SSL_CERT_FILE=/opt/etc/ssl/certs/ca-certificates.crt
-   export HOME=/opt/home/admin
-   modprobe tun
-   /opt/adguardvpn_cli/adguardvpn-cli connect &
-   for ipt in iptables ip6tables; do
-       $ipt -D FORWARD -j ADGUARD_FORWARD || true
-       $ipt -F ADGUARD_FORWARD || true
-       $ipt -X ADGUARD_FORWARD || true
-       $ipt -N ADGUARD_FORWARD
-       $ipt -I FORWARD -j ADGUARD_FORWARD
-       $ipt -A ADGUARD_FORWARD -i br0 -o tun0 -j ACCEPT
-   done
-   exit 0
+       export SSL_CERT_FILE=/opt/etc/ssl/certs/ca-certificates.crt
+       export HOME=/opt/home/admin
+       modprobe tun
+       /opt/adguardvpn_cli/adguardvpn-cli connect &
+       for ipt in iptables ip6tables; do
+           $ipt -D FORWARD -j ADGUARD_FORWARD || true
+           $ipt -F ADGUARD_FORWARD || true
+           $ipt -X ADGUARD_FORWARD || true
+           $ipt -N ADGUARD_FORWARD
+           $ipt -I FORWARD -j ADGUARD_FORWARD
+           $ipt -A ADGUARD_FORWARD -i br0 -o tun0 -j ACCEPT
+       done
+       exit 0
    fi
    EOF
    ```
 
-   Und machen Sie es ausführbar:
+   And make it executable:
 
    ```bash
    chmod a+rx /jffs/scripts/wan-event
    ```
 
-   Wenn Sie über weitere brX-Schnittstellen verfügen, sollten Sie diese ebenfalls in das Skript einbeziehen, um deren Datenverkehr umzuleiten. Alternativ können Sie auch eine andere Routing-Regel für diese Schnittstellen angeben.
+   If you have more brX interfaces, make sure to include them in the script as well to route their traffic. Alternatively, make sure to specify a different routing rule for those interfaces.
 
-   Dieses Skript stellt sicher, dass der gesamte Datenverkehr durch den VPN-Tunnel geleitet wird. Nach einem Neustart oder einer erneuten Verbindung mit dem Internet stellt AdGuard VPN automatisch eine Verbindung zu Ihrem zuletzt verwendeten Standort her.
+   This script will ensure that all traffic goes through the VPN tunnel. After rebooting or reconnecting to the Internet, AdGuard VPN will connect automatically to your last used location.
 
-2. Starten Sie Ihren Router neu, um die Einrichtung abzuschließen.
+2. Reboot your router to finish setup.
 
-   Das war's! Jetzt haben Sie einen mit AdGuard VPN gesicherten Router.
+   Congrats! Now you have a router secured with AdGuard VPN.
 
-   Wenn Sie sich wieder per SSH in Ihren Router einwählen möchten, um Befehle an AdGuard VPN zu senden, müssen Sie dies zuerst ausführen:
+   If you want to SSH into your router again to send any commands to AdGuard VPN, make sure to run this first:
 
    ```bash
    export SSL_CERT_FILE=/opt/etc/ssl/certs/ca-certificates.crt

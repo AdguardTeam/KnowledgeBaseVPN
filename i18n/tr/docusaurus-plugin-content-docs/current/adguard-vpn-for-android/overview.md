@@ -31,7 +31,7 @@ Siteler için bu moda geçerseniz, kullanmak istediğiniz uygulamaların alan ad
 
 ### Siteler
 
-You can add a domain (e.g., `google.com`) or subdomain (e.g., `*.google.com`) to exclusions in three ways:
+Alan adını (örn. `google.com`) veya alt alan adını (örn. `*.google.com`) istisnalara üç şekilde ekleyebilirsiniz:
 
 - Uygulamaya elle girin
 - Siteyi AdGuard VPN ile paylaşarak doğrudan tarayıcıdan ekleyin
@@ -45,7 +45,7 @@ You can add a domain (e.g., `google.com`) or subdomain (e.g., `*.google.com`) to
 
 Alan adlarını elle eklemenin bazı ince ayrıntıları vardır. Örneğin, `yahoo.com` alan adını elle hariç tutarsanız, tüm `*.yahoo.com` alt alanları da istisnalarda listelenir. Ancak, `yahoo.jp` veya `yahoo.fr` gibi diğer üst düzey alan adlarına sahip alan adları hariç tutulmayacaktır.
 
-If you add `youtube.com` to exclusions, the domain of the same service `youtu.be` won’t be added. Bu durumda, dahili hizmet listelerini kullanmak daha güvenlidir. Her platformla ilişkili tüm alt alan adlarını içerirler.
+`youtube.com` alan aıdnı istisnalara eklerseniz, aynı hizmetin `youtu.be` alan adı eklenmeyecektir. Bu durumda, dahili hizmet listelerini kullanmak daha güvenlidir. Her platformla ilişkili tüm alt alan adlarını içerirler.
 
 :::
 

@@ -1,74 +1,74 @@
 ---
-title: Low-level settings guide
+title: Гид по Низкоуровневым настройкам
 sidebar_position: 6
 ---
 
-## How to reach Low-level settings
+## Как получить доступ к Низкоуровневым настройкам
 
 :::caution
 
-Changing _Low-level settings_ can cause problems with the performance of AdGuard VPN, may break the Internet connection or compromise your security and privacy. You should only open this section if you know what you are doing, or if you were asked to do so by our support team.
+Изменение _Низкоуровневых настроек_ может вызвать проблемы с производительностью AdGuard, нарушить подключение к интернету или поставить под угрозу вашу безопасность и конфиденциальность. Открывайте этот раздел, только если вы знаете, что делаете, или если вас попросила об этом наша команда поддержки.
 
 :::
 
-To access _Low-level settings_, open the AdGuard VPN app and tap the gear icon in the lower right corner of the screen. Then choose _General_ → _Advanced_ → _Low-level settings_.
+Чтобы перейти к Низкоуровневым настройкам, откройте приложение AdGuard VPN и коснитесь значка шестерёнки в правом нижнем углу экрана. Затем выберите _Общие_ → _Дополнительные_ → _Низкоуровневые настройки_.
 
-## Low-level settings
+## Низкоуровневые настройки
 
-Below we list all low-level settings available in AdGuard VPN for Android and explain what they do. We once again urge you not to mess with these settings blindly even if you’ve read this guide. Treat it as a cheat sheet for when you know what you are doing but want to brush up on specifics.
+Ниже мы перечислим все низкоуровневые настройки, доступные в AdGuard VPN для Android, и объясним, что они делают. Мы ещё раз призываем вас не изменять эти настройки вслепую, даже если вы прочитали это руководство. Относитесь к нему как к шпаргалке на случай, если вы знаете, что делаете, но хотите освежить в памяти детали.
 
-### AdGuard VPN protocol
+### Протокол AdGuard VPN
 
-By default, AdGuard VPN protocol uses HTTP/2 transport protocol to avoid detection and to maintain high speed. You can read more about its implementation in a [dedicated article](/general/adguard-vpn-protocol.md).
+По умолчанию протокол AdGuard VPN использует транспортный протокол HTTP/2, чтобы скорость была высокой и чтобы его было сложнее обнаружить. Подробнее о его реализации можно прочитать [в отдельной статье](/general/adguard-vpn-protocol.md).
 
-You can switch AdGuard VPN to use QUIC transport protocol instead. [QUIC](https://adguard-vpn.com/kb/general/why-adguard-vpn/#6-quic-support) is a relatively new protocol, hence it can be less stable. However, if your Internet connection is unstable (for example, when you connect to the public Wi-Fi), it provides better security and increases the connection speed thanks to the [Head-Of-Line Blocking](https://adguard-dns.io/en/blog/dns-over-quic.html#headoflineblocking) technology.
+Вы можете переключить AdGuard VPN на использование транспортного протокола QUIC. [QUIC](https://adguard-vpn.com/kb/general/why-adguard-vpn/#6-quic-support) — относительно новый протокол, поэтому он может быть менее стабильным. Однако, если ваше интернет-соединение нестабильно (например, при подключении к общественному Wi-Fi), он обеспечивает лучшую безопасность и увеличивает скорость соединения благодаря технологии [Head-Of-Line Blocking](https://adguard-dns.io/ru/blog/dns-over-quic.html#headoflineblocking).
 
-### Include Wi-Fi gateway in VPN routes
+### Включить шлюз Wi-Fi в маршруты VPN
 
-If this setting is enabled, the gateway IP addresses will be added to VPN routes when on Wi-Fi.
-If you disable it, then the route configuration (IP ranges that are filtered) will be changed. The Wi-Fi gateway of the network to which the user is connected will be excluded, and therefore, it will not be subject to filtering.
+Если этот параметр включён, IP-адреса шлюзов будут добавляться в VPN-маршруты при работе с Wi-Fi.
+Если его отключить, то конфигурация маршрутов (диапазоны IP-адресов, которые фильтруются) будет изменена. Wi-Fi-шлюз сети, к которой подключён пользователь, будет исключён, и, следовательно, не будет фильтроваться.
 
-This setting is enabled by default.
+Эта настройка включена по умолчанию.
 
-### Packet capture (PCAP)
+### Захват пакетов (PCAP)
 
-If this setting is enabled, AdGuard VPN will create a `.pcap` file with a timestamp for its name (for instance, `1682599851461.pcap`) in the app cache directory. This file lists all network packets transferred through the VPN and can be analyzed with the [Wireshark program](https://www.wireshark.org/).
+Если эта настройка включена, AdGuard VPN создаст файл `.pcap` с временной меткой для своего имени (например, `1682599851461.pcap`) в директории кеша приложения. В этом файле будут перечислены все сетевые пакеты, передаваемые через VPN. Их можно проанализировать с помощью [программы Wireshark](https://www.wireshark.org/).
 
 ### Watchdog
 
-Watchdog monitors the VPN process state to check if there are any problems with it. When enabled, AdGuard VPN will protect itself against aggressive battery saver apps that could otherwise kill it.
+Watchdog отслеживает состояние процесса VPN, чтобы проверить, нет ли в нём проблем. Когда AdGuard VPN включён, он защищает себя от приложений для экономии заряда, которые в противном случае могли бы его убить.
 
-### Preferred IP version
+### Предпочитаемая версия IP
 
-Here you can set up the endpoint addresses. There are three options: IPv4, IPv6 or IPv4 and IPv6 (if your device supports both).
+Здесь вы можете задать IP-адреса. Есть три варианта: IPv4, IPv6 или IPv4 и IPv6 (если ваше устройство поддерживает оба варианта).
 
-### IPv4 ranges excluded from VPN
+### Диапазоны IPv4, исключённые из VPN
 
-VPN tunneling for the IPv4 ranges listed in this section will be disabled.
+VPN-туннелирование для диапазонов IPv4, перечисленных в данном разделе, будет отключено.
 
-### IPv6 interface
+### IPv6-интерфейс
 
-After enabling this option you will have an IPv6 address while routing traffic through the VPN connection. You can set up the exclusions in the _IPv6 ranges excluded from VPN_.
+После включения этой опции у вас будет IPv6-адрес при маршрутизации трафика через VPN-подключение. Вы можете настроить исключения в _Диапазонах IPv6, исключённых из VPN_.
 
-### IPv6 ranges excluded from VPN
+### Диапазоны IPv6, исключённые из VPN
 
-VPN tunneling for the IPv6 ranges listed in this section will be disabled.
+VPN-туннелирование для диапазонов IPv6, перечисленных в данном разделе, будет отключено.
 
 :::note
 
-You need to enable _IPv6 interface_ setting in _Low-level settings_ first, otherwise this setting will not be applied.
+Сначала необходимо включить настройку _Интерфейс IPv6_ в _Низкоуровневых настройках_, иначе она не будет применена.
 
 :::
 
-### MTU (maximum transmission unit)
+### MTU (максимальная единица передачи)
 
-Here you can set the maximum size (in bytes) of the data packet used in local VPN. The recommended range is 1500-9000 bytes.
+Здесь вы можете задать максимальный размер (в байтах) пакета данных, используемого в локальной сети VPN. Рекомендуемый диапазон: 1500–9000 байт.
 
-### Excluded apps
+### Исключённые приложения
 
-You can list here UIDs (unique identifiers) or package names of the apps that you want to exclude from VPN routing.
-Unlike with apps added to regular _Exclusions_, the traffic of apps added to _Excluded apps_ doesn’t go to the local VPN service on your device at all. Instead, it goes directly to the destination.
+Здесь вы можете перечислить UID (уникальные идентификаторы) или имена пакетов приложений, которые вы хотите исключить из VPN-маршрутизации.
+В отличие от приложений, добавленных в обычные _Исключения_, трафик приложений, добавленных в _Исключённые приложения_, вообще не поступает в локальную службу VPN на вашем устройстве. Вместо этого он направляется прямо к месту назначения.
 
-### Proxy server port
+### Порт прокси-сервера
 
-Here you can set up the internal SOCKS5 proxy server port. The default option is 1080.
+Здесь вы можете настроить внутренний порт прокси-сервера SOCKS5. Значение по умолчанию — 1080.

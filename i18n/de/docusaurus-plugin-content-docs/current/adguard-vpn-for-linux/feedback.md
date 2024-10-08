@@ -1,5 +1,5 @@
 ---
-title: Senden von Rückmeldungen
+title: Sending feedback
 sidebar_position: 6
 ---
 
@@ -8,7 +8,7 @@ sidebar_position: 6
 Wenn Sie einen Fehler in AdGuard VPN für Linux gefunden haben oder eine neue Funktion vorschlagen möchten, können Sie dies hier tun:
 
 - Füllen Sie das [Feedback-Formular](https://surveys.adguard.com/de/vpn_linux/form.html) aus.
-- [Erstellen Sie ein GitHub-Issue](https://github.com/AdguardTeam/AdGuardVPNCLI/issues/new/choose). Aber bevor Sie das tun, überprüfen Sie das [Repository](https://github.com/AdguardTeam/AdGuardVPNCLI/issues?q=is%3Aissue) auf ähnliche Probleme.
+- [Create a GitHub issue](https://github.com/AdguardTeam/AdGuardVPNCLI/issues/new/choose). Aber bevor Sie das tun, überprüfen Sie das [Repository](https://github.com/AdguardTeam/AdGuardVPNCLI/issues?q=is%3Aissue) auf ähnliche Probleme.
 
 :::note
 Wenn Sie die Implementierung einer neuen Funktion oder Fehlerbehebung unterstützen möchten, können Sie auf GitHub dafür abstimmen. Um abzustimmen, reagieren Sie einfach mit einem Emoji.
@@ -22,7 +22,7 @@ Wenn Sie die Implementierung einer neuen Funktion oder Fehlerbehebung unterstüt
 
 2. Reproduzieren Sie das Problem und versuchen Sie, sich an den genauen Zeitpunkt des Auftretens zu erinnern.
 
-3. Warten Sie eine Weile und archivieren Sie dann die Protokolle im Ordner _Downloads_ oder _Home_, indem Sie sie Folgendes eingeben:
+3. Wait a while, then archive the logs in the _Downloads_ or _Home_ folder by typing:
 
    Für Linux
 
@@ -32,8 +32,8 @@ Wenn Sie die Implementierung einer neuen Funktion oder Fehlerbehebung unterstüt
 
    `zip -rj ~/Downloads/logs.zip ~/Library/"Application Support"/adguardvpn-cli/*.log`
 
-4. Senden Sie die Protokolldatei an <devteam@adguard.com>. Geben Sie den Zeitpunkt des Fehlers an und fügen Sie einen Link zu Ihrem GitHub-Problem oder dessen Nummer hinzu (sie erscheint als #Nummer neben dem Titel). Alternativ können Sie die Protokolldatei auf Google Drive hochladen und sie mit <devteam@adguard.com> teilen. Hängen Sie den Dateilink an Ihr GitHub-Problem an.
+4. Senden Sie die Protokolldatei an <devteam@adguard.com>. Specify the time of the error and attach a link to your GitHub issue or its number (it appears as #number next to the title). Alternativ können Sie die Protokolldatei auf Google Drive hochladen und sie mit <devteam@adguard.com> teilen. Attach the file link to your GitHub issue.
 
-5. Deaktivieren Sie die Debug-Protokollierung durch Eingabe von:
+5. Disable debug logging by typing:
 
    `adguardvpn-cli config set-debug-logging off`

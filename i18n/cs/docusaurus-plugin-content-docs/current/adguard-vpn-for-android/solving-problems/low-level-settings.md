@@ -32,43 +32,43 @@ Toto nastavení je ve výchozím nastavení povoleno.
 
 ### Zachytávání paketů (PCAP)
 
-If this setting is enabled, AdGuard VPN will create a `.pcap` file with a timestamp for its name (for instance, `1682599851461.pcap`) in the app cache directory. This file lists all network packets transferred through the VPN and can be analyzed with the [Wireshark program](https://www.wireshark.org/).
+Pokud je toto nastavení povoleno, vytvoří AdGuard VPN v adresáři mezipaměti aplikace soubor `.pcap` s časovým razítkem (např. `1682599851461.pcap`). Tento soubor obsahuje seznam všech síťových paketů přenesených skrze VPN a lze jej analyzovat pomocí programu [Wireshark](https://www.wireshark.org/).
 
-### Watchdog
+### Hlídací pes
 
-Watchdog monitors the VPN process state to check if there are any problems with it. When enabled, AdGuard VPN will protect itself against aggressive battery saver apps that could otherwise kill it.
+Hlídací pes sleduje stav procesu VPN a kontroluje, zda s ním nejsou nějaké problémy. Když je povolen, AdGuard VPN se bude chránit před agresivními aplikacemi pro spořič baterie, které by ji jinak mohly ukončit.
 
-### Preferred IP version
+### Preferovaná verze IP
 
-Here you can set up the endpoint addresses. There are three options: IPv4, IPv6 or IPv4 and IPv6 (if your device supports both).
+Zde můžete nastavit adresy koncových bodů. Existují tři možnosti: IPv4, IPv6 nebo IPv4 a IPv6 (pokud vaše zařízení podporuje oba protokoly).
 
-### IPv4 ranges excluded from VPN
+### Rozsahy IPv4 vyloučené z VPN
 
-VPN tunneling for the IPv4 ranges listed in this section will be disabled.
+VPN tunel pro rozsahy IPv4 uvedené v této části bude zakázán.
 
-### IPv6 interface
+### Rozhraní IPv6
 
-After enabling this option you will have an IPv6 address while routing traffic through the VPN connection. You can set up the exclusions in the _IPv6 ranges excluded from VPN_.
+Po povolení této možnosti budete mít při směrování provozu přes připojení VPN k dispozici adresu IPv6. Výjimky můžete nastavit v části _Rozsahy IPv6 vyloučené z VPN_.
 
-### IPv6 ranges excluded from VPN
+### Rozsahy IPv6 vyloučené z VPN
 
-VPN tunneling for the IPv6 ranges listed in this section will be disabled.
+VPN tunel pro rozsahy IPv6 uvedené v této části bude zakázán.
 
 :::note
 
-You need to enable _IPv6 interface_ setting in _Low-level settings_ first, otherwise this setting will not be applied.
+Nejprve je třeba povolit nastavení _rozhraní IPv6_ v části _Nízkoúrovňová nastavení_, jinak se toto nastavení nepoužije.
 
 :::
 
-### MTU (maximum transmission unit)
+### MTU (maximální přenosová jednotka)
 
-Here you can set the maximum size (in bytes) of the data packet used in local VPN. The recommended range is 1500-9000 bytes.
+Zde můžete nastavit maximální velikost (v bajtech) datového paketu používaného v lokální VPN. Doporučený rozsah je 1500 –9000 bajtů.
 
-### Excluded apps
+### Vyloučené aplikace
 
-You can list here UIDs (unique identifiers) or package names of the apps that you want to exclude from VPN routing.
-Unlike with apps added to regular _Exclusions_, the traffic of apps added to _Excluded apps_ doesn’t go to the local VPN service on your device at all. Instead, it goes directly to the destination.
+Zde můžete uvést UID (jedinečné identifikátory) nebo názvy balíčků aplikací, které chcete vyloučit ze směrování VPN.
+Na rozdíl od aplikací přidaných do běžných _Výjimek_ se provoz aplikací přidaných do _Vyloučených aplikací_ vůbec nepřenáší do služby lokální VPN ve vašem zařízení. Místo toho směruje přímo do cíle.
 
-### Proxy server port
+### Port proxy serveru
 
-Here you can set up the internal SOCKS5 proxy server port. The default option is 1080.
+Zde můžete nastavit interní port proxy serveru SOCKS5. Výchozí možnost je 1080.

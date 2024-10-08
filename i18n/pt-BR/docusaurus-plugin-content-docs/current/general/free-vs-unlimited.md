@@ -26,4 +26,4 @@ Ao mesmo tempo, você pode comprar uma assinatura para obter uma versão ilimita
 - Streaming seguro
 - Nenhum bloqueio de porta 25
 
-Para aproveitar todas as vantagens, considere [adquirir uma assinatura](/general/subscription).
+To use all the advantages, consider [purchasing a subscription](/general/subscription).

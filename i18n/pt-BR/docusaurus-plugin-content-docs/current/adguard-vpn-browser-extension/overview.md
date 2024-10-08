@@ -3,42 +3,42 @@ title: Visão geral dos recursos
 sidebar_position: 1
 ---
 
-A Extensão de Navegador AdGuard VPN está disponível para Chrome, Firefox, Opera e Edge. A interface e funcionalidade não diferem entre os navegadores, portanto, a visão geral abaixo será relevante para todos os navegadores.
+AdGuard VPN Browser Extension is available for Chrome, Firefox, Opera, and Edge. A interface e funcionalidade não diferem entre os navegadores, portanto, a visão geral abaixo será relevante para todos os navegadores.
 
 :::note
 
-Você apenas pode usar a Extensão de Navegador AdGuard VPN quando logado. Faça login com a sua conta AdGuard ou pelo Google, Facebook ou Apple. No último caso, tenha certeza que sua conta está vinculada com o mesmo endereço de e-mail que a sua conta AdGuard. Se você tem uma [inscrição AdGuard VPN](/general/subscription), ela irá ser ativada automaticamente na Extensão de Navegador AdGuard VPN. Ainda não tem uma conta AdGuard? [Crie uma aqui](https://auth.adguard.com/registration.html).
+You can only use AdGuard VPN Browser Extension when logged in. Sign in with your AdGuard account or via Google, Facebook, or Apple. In the latter case make sure that your account is bound to the same email address as your AdGuard account. If you have an [AdGuard VPN subscription](/general/subscription), it will be activated automatically in AdGuard VPN Browser extension. Don’t have an AdGuard account yet? [Create it here](https://auth.adguard.com/registration.html).
 
 :::
 
-Para gerenciar sua Extensão de Navegador AdGuard VPN:
+To manage your AdGuard VPN Browser Extension:
 
 - Clique em seu ícone no painel do navegador, clique no ícone do menu e selecione *Configurações*,
 - Ou vá para a página *Gerenciar extensões* em seu navegador, clique em *Detalhes* abaixo de *AdGuard VPN* e gerencie suas configurações a partir daí.
 
-Uma vez feito, você verá várias abas à esquerda:
+Once done, you'll see several tabs on the left:
 
 ## Configurações
 
-Algumas configurações importantes estão agrupadas dentro dessa aba. Aqui você pode escolher um servidor DNS para usar, adicionar ou remover o ícone do AdGuard VPN do menu de contexto do seu navegador, bloquear o WebRTC, trocar o tema da extensão e permitir que o AdGuard junte relatórios anônimos de falhas e de dados técnicos.
+A few important settings are gathered inside this tab. Here you can choose a DNS server to use, add or remove the AdGuard VPN icon from the browser’s context menu, block WebRTC, change the extension's theme, and allow AdGuard to gather anonymous crash reports and technical data.
 
 ### Escolhendo um servidor DNS
 
-Por padrão, o [servidor DNS do sistema](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns) fornecido pelo seu ISP é selecionado, mas ele pode comprometer sua privacidade. Com a extensão de navegador AdGuard VPN, você pode selecionar um servidor DNS que ofereça melhor velocidade e segurança, e até bloqueie anúncios ou domínios potencialmente perigosos. Descrições breves sob os nomes dos servidores DNS ajudarão você a navegar e tomar sua decisão.
+By default, the [system DNS server](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns) provided by your ISP is selected, but it may compromise your privacy. With AdGuard VPN Browser extension, you can select a DNS server that provides better speed and security, and even blocks ads or potentially dangerous domains. Brief descriptions under the names of DNS servers will help you navigate and make your decision.
 
-Saiba mais sobre [servidores DNS de vários provedores](https://adguard-dns.io/kb/general/dns-providers/).
+Learn more about [DNS servers from various providers](https://adguard-dns.io/kb/general/dns-providers/).
 
 ## Exclusões
 
-A próxima aba contém uma das principais características distintivas do AdGuard VPN — dois modos com listas de exclusão separadas.
+The next tab contains one of the main distinctive features of AdGuard VPN — two modes with separate exclusion lists.
 
-No **modo Geral**, o AdGuard VPN por padrão funciona em todos os sites, com exceção dos sites que você adicionou à lista de exclusões. No **modo Seletivo**, ao contrário, o AdGuard VPN por padrão não funciona em nenhum lugar. Você pode adicionar qualquer site onde gostaria que ele funcionasse a uma lista de exclusões, separada daquela que você viu no **modo Geral**.
+In **General mode**, AdGuard VPN by default works on all websites, with the exception of the websites you've added to the exclusions list. In **Selective mode**, vice versa, AdGuard VPN by default doesn't work anywhere. You can add any websites where you'd like it to work to an exclusions list, separate from the one you saw in the **General mode**.
 
-Ao adicionar um site a uma lista de exclusão, você pode inserir o site manualmente ou selecionar a opção **Da lista**. Neste último caso, você verá oito categorias (por exemplo, *Compras* ou *Mensageiros*), cada uma sugerindo vários serviços populares. Você pode excluir qualquer um desses serviços com um clique. Isso adicionará todos os domínios relevantes para esse serviço específico às exclusões.
+When adding a website to an exclusion list, you can enter the website manually or select the **From the list** option. In the latter case, you’ll see eight categories (for example, *Shopping* or *Messengers*), each suggesting several popular services. You can exclude any of these services in one click. This will add all domains relevant to that specific service to exclusions.
 
 ### Importar e exportar
 
-Você não só pode adicionar e remover sites, mas também transferir listas de exclusão prontas para outros dispositivos onde o AdGuard VPN está instalado. Para exportar sua lista de exclusões, siga as 4 etapas abaixo:
+Not only can you add and remove websites, you can also transfer ready exclusions lists to other devices where AdGuard VPN is installed. To export your exclusions list, follow the 4-step instruction below:
 
 1. Abra a extensão AdGuard VPN Browser de onde você deseja exportar suas listas de exclusões. Encontre a seção apropriada e clique no botão "Exportar". O arquivo `exclusions.zip` será baixado.
 1. Existem dois arquivos `.txt` dentro do arquivo, um para cada uma das listas Geral e Seletiva. Adicione mais exclusões a eles, exclua os existentes, renomeie arquivos ou apenas deixe o arquivo como está.
@@ -47,12 +47,12 @@ Você não só pode adicionar e remover sites, mas também transferir listas de 
 
 ## Conta
 
-A terceira aba da extensão de navegador AdGuard VPN é totalmente minimalista, contendo apenas o endereço de e-mail que você usou para entrar na sua conta e dois botões, *Gerenciar* e *Sair*. Clicar no botão *Gerenciar* leva você à sua conta pessoal AdGuard, onde você pode ver todas as suas licenças e assinaturas atuais, bem como dispositivos conectados a elas.
+The third tab of AdGuard VPN Browser extension is utterly minimalistic, containing only the email address you used to sign into your account and two buttons, *Manage* and *Sign out*. Clicking the *Manage* button takes you to your personal AdGuard account, where you can see all your current licenses and subscriptions, as well as devices connected to them.
 
 ## Suporte
 
-Você pode encontrar respostas para perguntas comuns na seção FAQ ou deixar um feedback: relatar um bug se algo não estiver funcionando como deveria, sugerir a adição de um novo recurso ou discutir o AdGuard em qualquer uma das várias plataformas de mídia social.
+You can find answers to common questions in the FAQ section, or leave feedback: report a bug if something isn't working as it should, suggest adding a new feature, or discuss AdGuard on any of the many social media platforms.
 
 ## Sobre
 
-Outra aba menor, onde você pode verificar a versão da extensão, visitar o site oficial e ver o EULA ou a Política de Privacidade.
+Another minor tab, where you can check the extension's version, visit the official website, and view the EULA or Privacy policy.

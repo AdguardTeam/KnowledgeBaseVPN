@@ -10,7 +10,7 @@ Hay varias formas de recopilar registros de la extensión del navegador AdGuard 
 1. Abre la extensión de navegador AdGuard VPN, si es posible, repite las acciones que provocaron el error. Anota la hora exacta en que se produjo este error.
 1. Abre *Configuración* haciendo clic en el ícono del menú (☰) → *Soporte* → *Reportar un error*.
 1. En el formulario abierto, deja una dirección de correo electrónico insertada automáticamente o ingresa otra y describe el error encontrado, incluida la hora en que ocurrió este error. Si no puede reproducir el problema, especifica con la mayor precisión posible cuándo ocurrió por última vez.
-1. Asegúrate de que haya una marca de verificación junto a *Incluir el informe de diagnóstico en el mensaje* y presiona la tecla *Enviar*. De esta manera, enviarás registros junto con el informe de error.
+1. Make sure that there is a check mark next to *Include the diagnostic report in the message* and tap *Submit*. De esta manera, enviarás registros junto con el informe de error.
 
 ## Recopilación y envío de registros a través del botón *Exportar registros*
 
@@ -22,7 +22,7 @@ Hay varias formas de recopilar registros de la extensión del navegador AdGuard 
 Ahora que has recopilado los registros, debes enviarlos a nuestro equipo de desarrollo. Para ello:
 
 1. Reportar un error en GitHub. En este artículo puedes encontrar instrucciones detalladas sobre cómo crear una propuesta en GitHub.
-1. Envía un archivo con los registros y el tiempo de reproducción a `devteam@adguard.com` y adjunta un enlace a tu incidencia de GitHub. También puedes agregar un archivo con los registros y el tiempo de reproducción a Google Drive y compartirlo con `devteam@adguard.com` adjuntando el enlace de Google Drive a tu incidencia en GitHub.
+1. Send an archive with logs and reproduce time to `devteam@adguard.com` and attach a link to your GitHub issue. Also you can add an archive with logs and reproduce time to Google Drive and share it with `devteam@adguard.com` attaching the Google Drive link to your issue on GitHub.
 
 ## Recopilación y envío de registros a través de las herramientas del desarrollador del navegador
 

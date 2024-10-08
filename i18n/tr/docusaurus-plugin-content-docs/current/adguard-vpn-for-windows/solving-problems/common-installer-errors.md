@@ -34,8 +34,8 @@ Bunun, Hata 1603'ün belirli bir alt türü olduğunu söyleyebilirsiniz. Olası
     1. *Win + R* tuşlarına basın ve **services.msc** yazın.
     1. Listeden *Windows Installer* öğesini bulun ve çift tıklayın.
     1. *Hizmet durumu* altındaki *Başlat* düğmesine basın ve *Tamam* öğesine basın. Hizmet durumu **çalışıyor** ise, önce *Durdur* öğesine ve ardından *Başlat* öğesine tıklamalısınız.
-    1. Press *Win + R*, type **msiexec /unregister** and hit *Enter*.
-    1. Press *Win + R* again, type **msiexec /regserver** and hit *Enter*
+    1. *Win + R* tuşlarına basın, **msiexec /unregister** yazın ve *Enter* tuşuna basın.
+    1. Tekrar *Win + R* tuşlarına basın, **msiexec /regserver** yazın ve *Enter* tuşuna basın
 
 - PC'yi yeniden başlatın ve kurulumu baştan başlatın. Bazen sorunu çözmek için bu yeterli olur.
 
@@ -53,7 +53,7 @@ Bu hata kodunu aldıysanız, kurma işlemini bir şekilde elle kesintiye uğratm
 
 Bu hata kulağa gerçekte olduğundan daha endişe verici geliyor. Gerçekte bu, birçok farklı nedeni olabilen oldukça genel bir hatadır ve bazıları kolayca düzeltilebilir. Aşağıdaki çözümleri deneyin:
 
-- *Win* tuşuna basın, *Komut İstemi* öğesini arayın ve çalıştırın. Orada, `sfc /scannow` yazın ve *Enter* düğmesine basın.
+- *Win* tuşuna basın, *Komut İstemi* öğesini arayın ve çalıştırın. Orada, `sfc /scannow` yazın ve *Enter* tuşuna basın.
 
 - Farklı bir kurulum klasörü seçin. Mevcut kurulum klasörünün bazı erişim kısıtlamaları olabilir. Ayrıca harici sürücü, sanal sürücü, vb. seçmediğinizden emin olun.
 
@@ -64,8 +64,8 @@ Bu hata kulağa gerçekte olduğundan daha endişe verici geliyor. Gerçekte bu,
     1. *Win + R* tuşlarına basın ve **services.msc** yazın.
     1. Listeden *Windows Installer* öğesini bulun ve çift tıklayın.
     1. *Hizmet durumu* altındaki *Başlat* düğmesine basın ve *Tamam* öğesine basın. Hizmet durumu **çalışıyor** ise, önce *Durdur* öğesine ve ardından *Başlat* öğesine tıklamalısınız.
-    1. Press *Win + R*, type **msiexec /unregister** and hit *Enter*.
-    1. Press *Win + R* again, type **msiexec /regserver** and hit *Enter*
+    1. *Win + R* tuşlarına basın, **msiexec /unregister** yazın ve *Enter* tuşuna basın.
+    1. Tekrar *Win + R* tuşlarına basın, **msiexec /regserver** yazın ve *Enter* tuşuna basın
 
 - Kurulum için sürücüde tam izinleri alın. Dosya konumunda tam izinlere sahip olmadığınız için 1603 hatasının oluşması olasıdır. Ayrıca diğer bazı çözümler kadar kolay değildir:
 

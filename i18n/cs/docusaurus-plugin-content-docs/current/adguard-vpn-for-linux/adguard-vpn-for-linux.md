@@ -9,7 +9,7 @@ Níže jsou uvedeny příkazy, které můžete potřebovat k přihlášení, př
 
 - [Instalace a odinstalace](/adguard-vpn-for-linux/installation)
 - [Přihlášení, připojení a aktualizace](/adguard-vpn-for-linux/login)
-- [Setting up on a router](/adguard-vpn-for-linux/setting-up-on-a-router)
+- [Nastavení routeru](/adguard-vpn-for-linux/setting-up-on-a-router)
 - [Nastavení](/adguard-vpn-for-linux/settings)
 - [Odeslání zpětné vazby](/adguard-vpn-for-linux/feedback)
 

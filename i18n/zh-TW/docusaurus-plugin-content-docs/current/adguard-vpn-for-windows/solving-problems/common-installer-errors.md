@@ -1,106 +1,106 @@
 ---
-title: 常見安裝程式錯誤
+title: Common installer errors
 sidebar_position: 2
 ---
 
-本文概述了安裝 AdGuard VPN for Windows 時可能遇到的一些最常見錯誤以及解決這些問題的可能方法。
+This article outlines some of the most common errors you may encounter while installing AdGuard VPN for Windows and possible ways to resolve them.
 
-### 錯誤5：訪問被拒絕 {#error-5}
+### Error 5: Access Denied {#error-5}
 
-如果未授予所需的權限，則會出現此錯誤訊息。 AdGuard VPN 安裝程式沒有正確完成安裝過程所需的權限可能有多種不同的原因。 您可以嘗試以下步驟：
+This error message appears if required permissions are not granted. There may be several different reasons why AdGuard VPN installer does not have the permissions it requires to properly finish the installation process. You can try the following steps:
 
-- 暫時停用您的防毒軟體。 其中一些可能會幹擾安裝，具體取決於其設定的限制性。
+- Temporarily disable your antiviruses. Some of them may interfere with the installation, depending on the restrictiveness of their settings.
 
-- 選擇不同的安裝資料夾。 目前安裝資料夾可能有一些存取限制。 也要確保您沒有選擇外部磁碟機、虛擬磁碟機等。
+- Choose a different installation folder. It is possible that the current installation folder has some access restrictions. Also make sure you don't select an external drive, a virtual drive, etc.
 
-- 重新啟動電腦。 有時權限問題是暫時的，可以透過重新啟動電腦來解決。
+- Reboot your computer. Sometimes the permission issues are temporary and can be solved by restarting the PC.
 
-### 錯誤 112：磁碟已滿，錯誤 1632：臨時資料夾已滿或無法存取 {#error-112}
+### Error 112: Disk is full, Error 1632: Temporary folder full or inaccessible {#error-112}
 
-這是兩個不同的錯誤，但解決方案非常相似。 顧名思義，AdGuard VPN 安裝程式沒有找到足夠的磁碟空間來完成安裝。 您可以嘗試採取多種方法來解決該問題：
+These are two different errors with very similar solutions. As their names suggest, AdGuard VPN installer didn't find enough disk space to complete the installation. There are several things you can attempt to fix the problem:
 
-- 解除安裝一些程式或從您嘗試安裝 AdGuard VPN 的磁碟機中刪除不必要的檔案。
+- Uninstall some programs or delete unnecessary files from the drive you were trying to install AdGuard VPN to.
 
-- 下載、安裝並執行 [AdwCleaner](http://www.bleepingcomputer.com/download/adwcleaner/)，這是 Malwarebytes 提供的免費軟體。 除此之外，它還會清除系統中錯誤卸載程式等後殘留的各種額外「剩餘」檔案。 它將有助於清理一些磁碟空間。
+- Download, install, and run [AdwCleaner](http://www.bleepingcomputer.com/download/adwcleaner/), a free piece of software by Malwarebytes. It will, among other things, clean your system from all kinds of extra "leftover" files that remain after incorrectly uninstalled programs and such. It will help clean up some disk space.
 
-- 重新啟動電腦。 有時臨時檔案會佔用大量磁碟空間，重新啟動電腦是擺脫它們的最可靠方法。
+- Reboot your computer. Sometimes temporary files can take up a considerable amount of disk space, and restarting your PC is the most reliable way to get rid of them.
 
-### 錯誤 1601：無法存取 Windows Installer {#error-1601}
+### Error 1601: Windows Installer is not accessible {#error-1601}
 
-您可以說這是錯誤 1603 的特定子類型。 可能的解決方案類似：
+You could say this is a particular subtype of Error 1603. The possible solutions are similar:
 
-- 啟動並重新註冊 Microsoft Installer 服務。 這需要一些工作。
+- Start and re-register Microsoft Installer service. It requires some work.
 
-    1. 按 *Win + R* 並輸入 **services.msc**。
-    1. 在清單中找到並雙擊 *Windows Installer*。
-    1. 點選 *啟動* 按鈕，位於 *服務狀態* 下，然後點選 *確定*。 若服務狀態為 **running**，您應該先點選 *Stop* 然後點選 *Start*。
-    1. 按 *Win + R*，輸入 **msiexec /unregister** 並點選 *輸入*。
-    1. 再按 *Win + R* ，輸入 **msiexec /regserver** 並點選 *輸入*
+    1. Press *Win + R* and enter **services.msc**.
+    1. Find in the list and double click *Windows Installer*.
+    1. Hit *Start* button under *Service status* and hit *OK*. If the service status is **running**, you should click *Stop* first and then hit *Start*.
+    1. Press *Win + R*, type **msiexec /unregister** and hit *Enter*.
+    1. Press *Win + R* again, type **msiexec /regserver** and hit *Enter*
 
-- 重新啟動電腦並重新開始安裝。 有時這足以解決問題。
+- Reboot the PC and start the installation all over again. Sometimes that's enough to fix the problem.
 
-### 錯誤 1602：已被使用者取消 {#error-1602}
+### Error 1602: Canceled by user {#error-1602}
 
-如果您收到此錯誤代碼，則很可能您已以某種方式手動中斷了安裝過程。 你能做的是：
+If you got this error code, chances are you have interrupted the installation process manually in one way or another. What you can do is:
 
-- 不要關閉安裝程式視窗。 安裝完成後，它將自動關閉。
+- Do not close the installer window. When the installation is complete, it will close automatically.
 
-- 如果安裝過程中彈出對話框，請按一下「是」以授予安裝程式所需的權限。 按一下「否」將取消安裝。
+- If a dialogue window pops up during the installation, hit "Yes" to grant the installer the required permissions. Clicking "No" will cancel the installation.
 
-- 安裝過程中請勿啟動其他進程。
+- Do not start other processes while the installation is in progress.
 
-### 錯誤 1603：安裝過程中出現致命錯誤 {#error-1603}
+### Error 1603: Fatal error during installation {#error-1603}
 
-這個錯誤聽起來比實際上更令人擔憂。 實際上，這是一個相當普遍的錯誤，可能有許多不同的原因，其中一些很容易修復。 嘗試以下解決方案：
+This error sounds more worrying than it actually is. In reality, this is a rather generic error that can have many different causes, and some of them are easily fixed. Try the following solutions:
 
-- 按 *Win* 鍵，搜尋 *指令提示字元*，然後執行它。 在那裡，輸入 `sfc /scannow` 並按 *輸入*。
+- Press the *Win* key, search for *Command Prompt*, and run it. There, type in `sfc /scannow` and press *Enter*.
 
-- 選擇不同的安裝資料夾。 目前安裝資料夾可能有一些存取限制。 也要確保您沒有選擇外部磁碟機、虛擬磁碟機等。
+- Choose a different installation folder. It is possible that the current installation folder has some access restrictions. Also make sure you don't select an external drive, a virtual drive, etc.
 
-- 使用我們特殊的 [卸載工具](/adguard-vpn-for-windows/installation#advanced) 卸載 AdGuard VPN，然後重複安裝。
+- Uninstall AdGuard VPN using our special [uninstall tool](/adguard-vpn-for-windows/installation#advanced) and then repeat the installation.
 
-- 啟動並重新註冊 Microsoft Installer 服務。 這需要一些工作。
+- Start and re-register Microsoft Installer service. It requires some work.
 
-    1. 按 *Win + R* 並輸入 **services.msc**。
-    1. 在清單中找到並雙擊 *Windows Installer*。
-    1. 點選 *啟動* 按鈕，位於 *服務狀態* 下，然後點選 *確定*。 若服務狀態為 **running**，您應該先點選 *Stop* 然後點選 *Start*。
-    1. 按 *Win + R*，輸入 **msiexec /unregister** 並點選 *輸入*。
-    1. 再按 *Win + R* ，輸入 **msiexec /regserver** 並點選 *輸入*
+    1. Press *Win + R* and enter **services.msc**.
+    1. Find in the list and double click *Windows Installer*.
+    1. Hit *Start* button under *Service status* and hit *OK*. If the service status is **running**, you should click *Stop* first and then hit *Start*.
+    1. Press *Win + R*, type **msiexec /unregister** and hit *Enter*.
+    1. Press *Win + R* again, type **msiexec /regserver** and hit *Enter*
 
-- 取得驅動器的完整權限以進行安裝。 出現錯誤 1603 的原因可能是您對該檔案位置沒有完全權限。 它也不像其他一些解決方案那麼容易：
+- Acquire full permissions on the drive for installation. It is possible that the error 1603 occurs because you don’t have full permissions on the file location. It's also not as easy as some of the other solutions:
 
-    1. 開啟 *檔案總管*，以滑鼠右鍵點選包含安裝位置的驅動器，然後選擇 *屬性*。
-    1. 前往 *安全性* 選項卡，然後按 *編輯*。
-    1. 點選 *SYSTEM* 並確保選取 *SYSTEM* 中每個項目的 *允許* 方塊（如果可以檢查的話） 。 對 *管理員*進行相同的檢查。
-    1. 點選 *確定* 回傳 *屬性* 對話框。 然後點選 *高級*。
-    1. 點選 *更改權限*。
-    1. 在 *權限* 標籤中，按兩下 *管理員*。
-    1. 選擇*此文件夾、子文件夾和文件*作為*應用於*欄位，並勾選所有可用的*基本權限* 之後點選 *OK*。
-    1. 對 *SYSTEM*執行與上方相同的操作（來自第 7 項）。
-    1. 一直點擊 *確定* 。 嘗試再次安裝 AdGuard。
+    1. Open *File Explorer*, right-click the drive containing the installation location, and select *Properties*.
+    1. Go to *Security* tab and click *Edit*.
+    1. Single-click *SYSTEM* and ensure that the *Allow* box of every item in *Permissions for SYSTEM* is checked (if it is checkable). Do the same check for *Administrators*.
+    1. Click *OK* to go back to *Properties* dialog. Then click *Advanced*.
+    1. Click *Change Permissions*.
+    1. In *Permissions* tab, double-click *Administrators*.
+    1. Select *This folder, subfolders and files* for the *Applies to* field and tick all the available *Basic permissions*. After that hit *OK*.
+    1. Do the same operation above (from item 7) for *SYSTEM*.
+    1. Click *OK* all the way out. Try installing AdGuard again.
 
-### 錯誤 1618：另一個安裝已在進行中 {#error-1618}
+### Error 1618: Another installation is already in progress {#error-1618}
 
-嘗試同時執行 AdGuard VPN 安裝程式的多個執行個體時會出現此錯誤。 如果出現此錯誤該怎麼辦：
+This error appears when trying to run multiple instances of the AdGuard VPN installer simultaneously. What to do if you get this error:
 
-- 重新啟動您的電腦並再次啟動安裝程式。 當您重新啟動電腦時，所有正在進行的進程都將停止，包括安裝程式的所有副本。
+- Reboot your PC and start the installer again. When you restart the computer, all ongoing processes will stop, including all copies of the installer.
 
-- 不要多次單擊安裝程序，即使它似乎沒有立即啟動。 有時可能需要幾秒鐘才能顯示安裝程式 UI。
+- Don't click the installer multiple times, even if it doesn't seem to start right away. Sometimes it may take a few seconds to display the installer UI.
 
-### 錯誤 1638：已安裝此產品的另一個版本 {#error-1638}
+### Error 1638: Another version of this product is already installed {#error-1638}
 
-您很可能之前已經安裝過 AdGuard VPN。
+It's very likely that you've already installed AdGuard VPN before.
 
-- 檢查您的電腦上是否已安裝 AdGuard VPN。 為此，請按 *Win* 鍵並開始輸入 *adguard vpn*。
+- Check if AdGuard VPN is already installed on your computer. To do that, press the *Win* key and start typing *adguard vpn*.
 
-- 也許有一些以前 AdGuard VPN 安裝的剩餘檔案。 使用我們的特殊 [卸載工具](/adguard-vpn-for-windows/installation#advanced) 卸載 AdGuard，然後重複安裝。
+- Maybe there are some leftover files from a previous AdGuard VPN installation. Uninstall AdGuard using our special [uninstall tool](/adguard-vpn-for-windows/installation#advanced) and then repeat the installation.
 
-### 其他錯誤 {#other}
+### Other errors {#other}
 
-如果您遇到上面未列出的錯誤，我們可能可以自行解決。 但為了做到這一點，我們需要您提供日誌檔案。 請執行以下步驟：
+If you have encountered an error that's not listed above, it is possible that we can solve it by ourselves. But in order to do that, we need log files from you. Please perform the following steps:
 
-- 查找和存檔 **AdGuard VPN 安裝紀錄** 以與 [本文](https://adguard.com/kb/adguard-for-windows/solving-problems/installation-logs/)
+- Find and archive **AdGuard VPN installation logs** in the same way that is described in [this article](https://adguard.com/kb/adguard-for-windows/solving-problems/installation-logs/).
 
-- 尋找 **事件檢視器** 日誌並將其儲存到磁碟。 [本文](https://adguard.com/kb/adguard-for-windows/solving-problems/system-logs/) 說明如何做到這一點。
+- Find and save to disk the **Event Viewer** logs. [This article](https://adguard.com/kb/adguard-for-windows/solving-problems/system-logs/) explains how to do that.
 
-請將前兩個步驟中的所有這些文件透過電子郵件發送至 **support@adguard.com** 並在郵件正文中描述問題。 我們的支援團隊將盡快回覆您。
+Please email all these files from the two previous steps at **support@adguard.com** and describe the problem in the message body. Our support team will reply to you as soon as possible.

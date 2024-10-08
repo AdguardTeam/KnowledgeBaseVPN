@@ -1,52 +1,52 @@
 ---
-title: 'Como usar o AdGuard VPN em países com restrições de Internet'
+title: 'How to use AdGuard VPN in countries with Internet restrictions'
 sidebar_position: 10
 ---
 
-Em algumas regiões, como China, Irã e Rússia, os usuários podem ter problemas para se conectar ao AdGuard VPN. Aqui estão as opções que podem ajudar.
+In certain regions, such as China, Iran, and Russia, users might experience problems connecting to AdGuard VPN. Here are the options that might help.
 
-## Acessando o site do AdGuard VPN
+## Accessing AdGuard VPN’s website
 
 If adguard-vpn.com is not accessible, try using the [mirror website](https://adguardvpn-help.info/).
 
 :::info
 
-Para evitar sites de phishing ou maliciosos em potencial, siga apenas os links espelhados fornecidos nesta base de conhecimento ou pela equipe de suporte do AdGuard VPN.
+To avoid potential phishing or malicious websites, only follow mirror links provided in this Knowledge base or by the AdGuard VPN support team.
 
 :::
 
-## Baixando o aplicativo
+## Downloading the app
 
-### AdGuard VPN para iOS
+### AdGuard VPN for iOS
 
-Se você não vir o AdGuard VPN na App Store, tente alterar o país ou região nas configurações do seu ID Apple. Outra opção é criar uma nova conta Apple e conectá-la à App Store. As [instruções para ambos os casos](/adguard-vpn-for-ios/solving-problems/app-store) são descritas em um artigo separado.
+If you don’t see AdGuard VPN in the App Store, try changing the country or region in your Apple ID settings. Another option is to create a new Apple account and connect it to the App Store. [Instructions for both cases](/adguard-vpn-for-ios/solving-problems/app-store) are described in a separate article.
 
-Depois de alterar a região ou vincular uma conta diferente à App Store, [instale o AdGuard VPN](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602).
+After you change the region or link a different account to the App Store, [install AdGuard VPN](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602).
 
-### AdGuard VPN para Android
+### AdGuard VPN for Android
 
 If you experience problems with Google Play, download the APK file from [AdGuard VPN’s mirror website](https://adguardvpn-help.info/android/overview.html).
 
-### AdGuard VPN para Mac
+### AdGuard VPN for Mac
 
 Download the installation file from [AdGuard VPN’s mirror website](https://adguardvpn-help.info/windows/overview.html).
 
-### AdGuard VPN para Windows
+### AdGuard VPN for Windows
 
 Download the installation file from [AdGuard VPN’s mirror website](https://adguardvpn-help.info/mac/overview.html).
 
-## Outras dicas úteis
+## Other useful tips
 
-- Sempre verifique se você está usando a versão mais recente do AdGuard VPN, pois as atualizações normalmente incluem correções e melhorias vitais.
+- Always make sure that you are using the latest version of AdGuard VPN, as updates typically include vital fixes and enhancements.
 
-- Use os aplicativos completos do AdGuard VPN em vez de extensões de navegador para uma conexão mais robusta e estável.
+- Use AdGuard VPN’s full-fledged apps instead of browser extensions for a more robust and stable connection.
 
-- Se você encontrar problemas para se conectar a um local específico, tente se conectar a outro. Se todos os locais não responderem, reinicie o aplicativo para atualizar a lista de servidores.
+- If you encounter problems connecting to a particular location, try connecting to another one. If all locations fail to respond, restart the app to refresh the server list.
 
-- Tente alternar entre dados móveis e Wi-Fi: o problema pode ser específico da rede.
+- Try switching between mobile data and Wi-Fi: the problem may be network-specific.
 
-- Se você usa o AdGuard VPN junto com o AdGuard Ad Blocker no celular, certifique-se de que o modo de operação *Geral* ou *VPN* esteja selecionado nas configurações do aplicativo.
+- If you use AdGuard VPN alongside AdGuard Ad Blocker on mobile, ensure that the *General* or *VPN* operating mode is selected in the app settings.
 
-- Se você tiver problemas de conectividade, não ative *Usar QUIC* em *Configurações avançadas*.
+- If you have connectivity issues, do not enable *Use QUIC* in *Advanced settings*.
 
-Se tudo mais falhar, não hesite em entrar em contato com nossa equipe de suporte em <support@adguard-vpn.com> para obter assistência adicional.
+If all else fails, don't hesitate to reach out to our support team at <support@adguard-vpn.com> for further assistance.

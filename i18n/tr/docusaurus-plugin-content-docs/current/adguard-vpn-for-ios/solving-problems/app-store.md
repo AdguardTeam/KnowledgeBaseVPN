@@ -17,7 +17,7 @@ Bazı ülkelerde AdGuard VPN, App Store'da mevcut değildir. Durumunuz buysa uyg
 
    ![Bölge değiştiriliyor](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/changing_country.png)
 
-3. Select your preferred country from the list (e.g., _United States_) and agree to the Terms and Conditions.
+3. Listeden tercih ettiğiniz ülkeyi seçin (örneğin, _Amerika Birleşik Devletleri_), Şartlar ve Koşulları kabul edin.
 
 4. Gerekli alanları doldurun. Örneğin, _Ödeme Yöntemi_ için _Hiçbiri_ öğesini seçebilir ve _Fatura Adresi_ için geçerli bir posta koduna sahip herhangi bir adresi kullanabilirsiniz:
 
@@ -39,34 +39,34 @@ Bölgeyi değiştirdikten sonra, [AdGuard VPN'i App Store'dan tekrar indirmeyi](
 
 ### Yeni bir Apple hesabı oluşturma ve hesabı App Store'a bağlama
 
-App Store'da ücretli abonelikleri olan ve yalnızca farklı bölgelerden ücretsiz uygulamalar indirmesi gereken kullanıcılar için başka bir ülkede yeni bir hesap oluşturmak daha uygun bir seçenektir. This way, you can use your primary account at the system level on your phone and activate the second account solely for the App Store without needing to log out of your iPhone account.
+App Store'da ücretli abonelikleri olan ve yalnızca farklı bölgelerden ücretsiz uygulamalar indirmesi gereken kullanıcılar için başka bir ülkede yeni bir hesap oluşturmak daha uygun bir seçenektir. Bu şekilde, birincil hesabınızı telefonunuzda sistem düzeyinde kullanabilir ve iPhone hesabınızdan çıkış yapmanıza gerek kalmadan ikinci hesabı yalnızca App Store için etkinleştirebilirsiniz.
 
-**Steps to create a new account in a different country:**
+**Farklı bir ülkede yeni bir hesap oluşturma adımları:**
 
-1. Visit [https://appleid.apple.com/account](https://appleid.apple.com/account).
+1. [https://appleid.apple.com/account](https://appleid.apple.com/account) adresini ziyaret edin.
 
-2. Enter any first and last name and select a country, like _United States of America_.
+2. Herhangi bir ad ve soyadı girin ve _Amerika Birleşik Devletleri_ gibi bir ülke seçin.
 
-3. Use an email address not linked to your Apple ID. A verification code will be sent to this email.
+3. Apple Kimliğinize bağlı olmayan bir e-posta adresi kullanın. Bu e-postaya bir doğrulama kodu gönderilecektir.
 
-4. Provide a phone number for verification.
+4. Doğrulama için bir telefon numarası verin.
 
-5. Confirm your email and phone number and press _Next_. Bu kadar!
+5. E-posta adresinizi ve telefon numaranızı doğrulayın ve _Sonraki_ öğesine basın. Bu kadar!
 
-Now **link your new account to the App Store**:
+Şimdi **yeni hesabınızı App Store'a bağlayın**:
 
-1. Go to _Settings_ and tap your name.
+1. _Ayarlar_ öğesine gidin ve adınıza dokunun.
 
-2. Select _Media & Purchases_ → _Sign Out_. This will only sign you out of the App Store while keeping you signed in with your Apple ID on your phone.
+2. _Ortamlar ve Satın Almalar_ → _Çıkış Yap_ öğesini seçin. Bu, telefonunuzda Apple Kimliğinizle oturumunuzu açık tutarken yalnızca App Store'dan çıkış yapmanızı sağlar.
 
 3. Tap on _Media & Purchases_ again and select _Not [your name]?_ You will be prompted to sign in with a different Apple ID.
 
    ![Changing account](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/log_out.png)
 
-4. Enter the email address and password for your new account.
+4. Yeni hesabınızın e-posta adresini ve parolasını girin.
 
-   ![Login \*mobile\_border](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/apple_id.png)
+   ![Giriş yap \*mobile\_border](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/apple_id.png)
 
-Bu kadar! Now try to [download AdGuard VPN from the App Store](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602) again.
+Bu kadar! Şimdi tekrar [App Store'dan AdGuard VPN'i indirmeyi](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602) deneyin.
 
-You can always switch back to your default account this way.
+Bu şekilde her zaman varsayılan hesabınıza geri dönebilirsiniz.

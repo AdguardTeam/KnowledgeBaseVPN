@@ -10,7 +10,7 @@ Existem várias maneiras de coletar logs de extensão do navegador AdGuard VPN. 
 1. Abra a extensão AdGuard VPN Browser, se possível, repita as ações que levaram ao erro. Observe a hora exata em que esse erro ocorreu.
 1. Abra *Configurações* clicando no ícone do menu hambúrguer (☰) → *Suporte* → *Relate um bug*.
 1. No formulário aberto, deixe um endereço de e-mail inserido automaticamente ou insira outro e descreva o erro encontrado, incluindo o horário em que ocorreu esse erro. Se você não conseguir reproduzir o problema, especifique com a maior precisão possível quando ocorreu pela última vez.
-1. Certifique-se de que haja uma marca de seleção ao lado de *Incluir o relatório de diagnóstico na mensagem*e toque em *Enviar*. Dessa forma, você enviará os logs junto com o relatório do bug.
+1. Make sure that there is a check mark next to *Include the diagnostic report in the message* and tap *Submit*. Dessa forma, você enviará os logs junto com o relatório do bug.
 
 ## Coleta e envio de logs por meio do botão *Exportar logs*
 
@@ -22,7 +22,7 @@ Existem várias maneiras de coletar logs de extensão do navegador AdGuard VPN. 
 Agora que você coletou os logs, você precisa entregá-los à nossa equipe de desenvolvimento. Para isso:
 
 1. Reporte um bug no GitHub. Instruções detalhadas sobre como criar um problema no GitHub podem ser encontradas neste artigo.
-1. Mande um arquivo com os logs e o tempo de reprodução para `devteam@adguard.com` e anexe um link para seu Problema no Github. Você também pode adicionar um arquivo com logs e tempo de reprodução ao Google Drive e compartilhá-lo com `devteam@adguard.com` anexando o link do Google Drive ao seu problema no GitHub.
+1. Send an archive with logs and reproduce time to `devteam@adguard.com` and attach a link to your GitHub issue. Also you can add an archive with logs and reproduce time to Google Drive and share it with `devteam@adguard.com` attaching the Google Drive link to your issue on GitHub.
 
 ## Coletando e enviando logs por meio das ferramentas de desenvolvedor do navegador
 
@@ -67,7 +67,7 @@ Agora que você coletou os logs, você precisa entregá-los à nossa equipe de d
 
     ![Console *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/ff_console.png)
 
-1. Clique em *Salvar todas as mensagens do arquivo*
+1. Click *Save all Messages to File*
 
     ![Salvar *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/save-to-file.png)
 

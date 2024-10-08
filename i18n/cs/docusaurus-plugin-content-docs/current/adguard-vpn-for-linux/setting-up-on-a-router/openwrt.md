@@ -1,75 +1,75 @@
 ---
-title: How to set up AdGuard VPN for Linux on an OpenWRT router
+title: Jak nastavit AdGuard VPN pro Linux na routeru OpenWRT
 sidebar_position: 3
 ---
 
-:::info System requirements
+:::info Požadavky na systém
 
-AdGuard VPN for Linux, also known as AdGuard VPN CLI, requires at least 22 MB of free storage space on your router’s built-in memory or external USB after installing necessary packages.
+AdGuard VPN pro Linux, známý také jako AdGuard VPN CLI, vyžaduje po instalaci potřebných balíčků alespoň 22 MB volného místa v integrované paměti routeru nebo na externím USB.
 
 :::
 
-## 1. Make sure that SSH is enabled on your router
+## 1. Ujistěte, že je na routeru povoleno SSH
 
-This setting is usually found in the router’s web interface.
+Toto nastavení se obvykle nachází ve webovém rozhraní routeru.
 
-For OpenWrt:
+Pro OpenWRT:
 
-1. Log into the web interface. Typically, this is accessible via a web browser at [`http://192.168.1.1`](http://192.168.1.1/).
+1. Přihlaste se do webového rozhraní. Obvykle je přístupné prostřednictvím webového prohlížeče na adrese [`http://192.168.1.1`](http://192.168.1.1/).
 
-2. Navigate to _System_ → _Administration_.
+2. Přejděte na _Systém_ → _Administrace_.
 
-3. Make sure that _SSH Access_ is enabled.
+3. Ujistěte se, že je povolen _přístup SSH_.
 
-By default, OpenWrt allows SSH access to the router.
+Ve výchozím nastavení OpenWrt umožňuje SSH přístup k routeru.
 
-## 2. Determine your router’s IP address
+## 2. Zjistěte IP adresu vašeho routeru
 
-The default IP address for most routers is `192.168.1.1` or `192.168.0.1`. If you’ve changed the IP address or if you’re unsure, you can find it by checking the IP configuration on a connected device.
+Výchozí IP adresa pro většinu routerů je `192.168.1.1` nebo `192.168.0.1`. Pokud jste IP adresu změnili nebo si nejste jisti, můžete ji zjistit kontrolou konfigurace IP v připojeném zařízení.
 
-### On Windows
+### Ve Windows
 
-1. Open command prompt:
+1. Otevřete příkazový řádek:
 
    ```text
    ipconfig
    ```
 
-2. Look for the _Default Gateway_ under your active network connection. This is your router’s IP address.
+2. Pod aktivním síťovým připojením vyhledejte položku _Výchozí brána_. Jedná se o IP adresu vašeho routeru.
 
-### On macOS and Linux
+### V macOS a Linux
 
-1. Open Terminal and run this on Linux:
+1. Otevřete Terminal a spusťte tento příkaz pro Linux:
 
    ```text
    ip route | grep default
    ```
 
-   Or this on Mac:
+   Nebo tento pro macOS:
 
    ```text
    route -n get default
    ```
 
-2. Look for the _default_ entry. The IP address next to it is your router’s IP address.
+2. Vyhledejte položku _výchozí_. IP adresa vedle ní je IP adresa vašeho routeru.
 
-## 3) Use an SSH client to connect to the router
+## 3) Připojte se k routeru pomocí klienta SSH
 
-Most Linux and macOS systems come with an SSH client pre-installed. For Windows, you can use PowerShell, the built-in SSH client in Windows 10/11, or a third-party application like PuTTY.
+Většina systémů Linux a macOS je dodávána s předinstalovaným klientem SSH. V systému Windows můžete použít prostředí PowerShell, integrovaného klienta SSH v systému Windows 10/11 nebo aplikaci třetí strany, například PuTTY.
 
-### Built-in SSH client (Linux, macOS, and Windows 10/11)
+### Vestavěný klient SSH (Linux, macOS a Windows 10/11)
 
-1. Open Terminal or PowerShell.
+1. Otevřete Terminal nebo PowerShell.
 
-2. Run the SSH command:
+2. Spusťte příkaz SSH:
 
    ```text
    ssh root@192.168.1.1
    ```
 
-   Replace `192.168.1.1` with your router’s IP address.
+   Nahraďte `192.168.1.1` IP adresou vašeho routeru.
 
-3. If this is your first time connecting to the router via SSH, you’ll see a message like:
+3. Pokud se k routeru připojujete přes SSH poprvé, zobrazí se tato zpráva:
 
    ```text
    The authenticity of host '192.168.1.1 (192.168.1.1)' can't be established.
@@ -77,107 +77,107 @@ Most Linux and macOS systems come with an SSH client pre-installed. For Windows,
    Are you sure you want to continue connecting? (Yes/No/[Fingerprint])
    ```
 
-   Type `Yes` and press Enter.
+   Zadejte `yes` a stiskněte Enter.
 
-4. Enter the router’s password when prompted. The default password for OpenWrt is typically empty (just press Enter), but you should have set a password during the initial setup.
+4. Na výzvu zadejte heslo routeru. Výchozí heslo pro OpenWrt je obvykle prázdné (stačí stisknout Enter), ale heslo byste měli nastavit během počátečního nastavení.
 
 ### PuTTY (Windows)
 
-1. Download and install PuTTY from [the official website](https://www.putty.org/).
+1. Stáhněte a nainstalujte PuTTY z [oficiální stránky](https://www.putty.org/).
 
-2. Open PuTTY.
+2. Otevřete PuTTY.
 
-3. In the _Host Name (or IP address)_ field, enter your router’s IP address (e.g., `192.168.1.1`).
+3. Do pole _Název hostitele (nebo IP adresa)_ zadejte IP adresu vašeho routeru (např. `192.168.1.1`).
 
-4. Ensure the _Connection type_ is set to SSH.
+4. Ujistěte se, že _Typ připojení_ je nastaven na SSH.
 
-5. Click _Open_.
+5. Klikněte na _Otevřít_.
 
-6. When the Terminal window opens, log in. The default username is `root` and the default password is `keenetic`.
+6. Po otevření okna Terminalu se přihlaste. Výchozí uživatelské jméno je `root` a výchozí heslo je `keenetic`.
 
-## 4) Basic SSH commands
+## 4) Základní příkazy SSH
 
-Once logged in, you can use various commands to interact with your router’s Linux-based operating system.
+Po přihlášení můžete pomocí různých příkazů komunikovat s operačním systémem routeru založeným na Linuxu.
 
-Update package lists (OpenWrt):
+Aktualizace seznamu balíčků (OpenWrt):
 
 ```text
 opkg update
 ```
 
-Install required packages:
+Nainstalujte požadované balíčky:
 
 ```text
 opkg install curl kmod-tun ca-certificates
 ```
 
-Run the AdGuard VPN CLI installation script:
+Spusťte instalační skript AdGuard VPN CLI:
 
 ```text
 curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/release/install.sh | sh -s -- -v
 ```
 
-## 5. Set up AdGuard VPN CLI
+## 5. Nastavte AdGuard VPN CLI
 
-1. Log in to your account
+1. Přihlaste se ke svému účtu
 
-   To use AdGuard VPN for Linux, you need an AdGuard account.
+   Chcete-li používat AdGuard VPN pro Linux, potřebujete účet AdGuard.
 
-   You can sign up or log in on our [website](https://auth.adguard.com/login.html) or in the Terminal.
+   Přihlásit nebo zaregistrovat se můžete na našich [webových stránkách](https://auth.adguard.com/login.html) nebo v Terminalu.
 
-   To sign up or log in, type:
+   Chcete-li se zaregistrovat nebo přihlásit, zadejte:
 
    ```jsx
    adguardvpn-cli login
    ```
 
-   Note: If failed to link the binary to '/usr/local/bin’, use full file path to run all commands. For example, `/opt/adguardvpn_cli/adguardvpn-cli login`
+   Poznámka: Pokud se nepodařilo propojit binární soubor s '/usr/local/bin', použijte pro spuštění všech příkazů úplnou cestu k souboru. Např. `/opt/adguardvpn_cli/adguardvpn-cli login`
 
-2. Connect to VPN
+2. Připojení k VPN
 
-   Select a VPN server location that best suits your needs.
+   Vyberte si umístění serveru VPN, které nejlépe vyhovuje vašim potřebám.
 
-   In general, the closer the server is to you, the faster the connection.
+   Obecně platí, že čím blíže je server, tím rychlejší je připojení.
 
-   To view available locations, type:
+   Chcete-li zobrazit dostupná umístění, zadejte:
 
    ```jsx
    adguardvpn-cli list-locations
    ```
 
-   To connect to a specific location, type:
+   Chcete-li se připojit k určitému umístění, zadejte:
 
    ```jsx
    adguardvpn-cli connect -l LOCATION_NAME
    ```
 
-   Replace LOCATION_NAME with the city, country, or ISO code of the location you want to connect to.
+   Nahraďte LOCATION_NAME kódem města, země nebo ISO kódem umístění, ke kterému se chcete připojit.
 
-   For quick connect, type:
+   Pro rychlé připojení zadejte:
 
    ```jsx
    adguardvpn-cli connect
    ```
 
-   AdGuard VPN will choose the fastest available location and remember it for future quick connections.
+   AdGuard VPN vybere nejrychlejší dostupné umístění a zapamatuje si ho pro budoucí rychlá připojení.
 
-3. Adjust your settings
+3. Úprava nastavení
 
-   Get a list of all available AdGuard VPN commands and customize the VPN client to your needs.
+   Získejte seznam všech dostupných příkazů AdGuard VPN a přizpůsobte klienta VPN svým potřebám.
 
-   To view all commands, type:
+   Chcete-li zobrazit všechny příkazy, zadejte:
 
    ```jsx
    adguardvpn-cli --help-all
    ```
 
-   AdGuard VPN CLI will create a tun0 interface for VPN tunneling.
+   AdGuard VPN CLI vytvoří rozhraní tun0 pro tunel VPN.
 
-## 6) Set up firewall rules
+## 6) Nastavte pravidla brány firewall pro aplikace
 
-You can do it in the web interface or in the command line. Steps below describe setup via SSH command line.
+Můžete to provést ve webovém rozhraní nebo v příkazovém řádku. Níže uvedené kroky popisují nastavení pomocí příkazového řádku SSH.
 
-1. Add a new unmanaged interface via SSH
+1. Přidání nového nespravovaného rozhraní přes SSH
 
    ```shell
    ssh admin@router_ip
@@ -188,20 +188,20 @@ You can do it in the web interface or in the command line. Steps below describe 
    /etc/init.d/network reload
    ```
 
-2. Add tun0 to WAN zone
+2. Přidání tun0 do zóny WAN
 
-   For traffic to go through VPN, add tun0 to WAN zone.
-   The WAN interface which connects to the Internet will typically be in a zone named `wan` or something similar. Check your router's configuration files or firewall settings to find out which zone is associated with the WAN interface.
+   Pro přenosy přes VPN přidejte tun0 do zóny WAN.
+   Rozhraní WAN, které se připojuje k Internetu, se obvykle nachází v zóně s názvem `wan` nebo podobně. Zkontrolujte konfigurační soubory routeru nebo nastavení brány firewall a zjistěte, která zóna je přiřazena k rozhraní WAN.
 
-   To do so, list the existing firewall zones:
+   Za tímto účelem vytvořte seznam stávajících zón brány firewall:
 
    ```shell
    uci show firewall
    ```
 
-   This will show a config file with all zones listed. Look for a section like `firewall.@zone[1]` or similar where `option name 'wan'` is defined. The number `[1]` could be different depending on your configuration.
+   Zobrazí se konfigurační soubor se seznamem všech zón. Hledejte sekci jako `firewall.@zone[1]` nebo podobnou, kde je definován `název volby 'wan'`. Číslo `[1]` se může lišit v závislosti na konfiguraci.
 
-   Run this SSH command, replace `zone[1]` with correct  ‘wan’ zone identified before:
+   Spusťte tento příkaz SSH a nahraďte `zone[1]` správnou zónou 'wan', která byla identifikována dříve:
 
    ```shell
    uci show firewall | grep "=zone"
@@ -210,7 +210,7 @@ You can do it in the web interface or in the command line. Steps below describe 
    /etc/init.d/firewall reload
    ```
 
-   If you want to disable all traffic that is not protected by VPN, run the following command. This way you won’t have an Internet connection at all if VPN disconnects. If you choose not to do this step, your real IP will be exposed if the VPN disconnects.
+   Pokud chcete zakázat veškerý provoz, který není chráněn VPN, spusťte následující příkaz. Tímto způsobem nebudete mít v případě odpojení VPN vůbec žádné připojení k internetu. Pokud tento krok neprovedete, bude vaše skutečná IP adresa odhalena, pokud se VPN odpojí.
 
    ```shell
    uci del_list firewall.@zone[1].network='wan'
@@ -219,7 +219,7 @@ You can do it in the web interface or in the command line. Steps below describe 
    /etc/init.d/firewall reload
    ```
 
-   If you’ve changed your mind and want to allow direct traffic, run the following command:
+   Pokud jste změnili názor a chcete povolit přímý přenos, spusťte následující příkaz:
 
    ```shell
    uci add_list firewall.@zone[1].network='wan'
@@ -228,11 +228,11 @@ You can do it in the web interface or in the command line. Steps below describe 
    /etc/init.d/firewall reload
    ```
 
-## 7) Set up automatic launch for AdGuard VPN CLI
+## 7) Nastavte automatické spouštění pro AdGuard VPN CLI
 
-To automatically launch AdGuard VPN CLI after rebooting the router, create a file at `…/etc/init.d/adguardvpn`.
+Chcete-li po restartu routeru automaticky spustit AdGuard VPN CLI, vytvořte soubor v `…/etc/init.d/adguardvpn`.
 
-Paste this into the file:
+Toto vložte do souboru:
 
 ```text
 #!/bin/sh /etc/rc.common
@@ -251,7 +251,7 @@ stop() {
 }
 ```
 
-Run this to grant access to and enable auto-launch:
+Spuštěním tohoto příkazu udělíte přístup k automatickému spouštění a povolíte jej:
 
 ```jsc
  chmod +x /etc/init.d/adguardvpn

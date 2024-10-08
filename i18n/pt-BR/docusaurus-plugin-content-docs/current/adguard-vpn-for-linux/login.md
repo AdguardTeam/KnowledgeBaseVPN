@@ -1,57 +1,57 @@
 ---
-title: Login, conexão e atualização
+title: Login, connection, and update
 sidebar_position: 3
 ---
 
-## Fazer login e sair
+## Log in and log out
 
-Para fazer login ou criar uma conta, digite:
+To log in or create an account, type:
 
 ```
 adguardvpn-cli login
 ```
 
-Digite o endereço de e-mail e a senha da sua conta do AdGuard. Se você ainda não possui uma conta, será solicitado que você crie uma.
+Enter the email address and password for your AdGuard account. If you don’t have an account yet, you’ll be prompted to create one.
 
 :::note
-Você também pode criar uma conta do AdGuard em nosso [site](https://auth.adguard.com/login.html) e fazer login no AdGuard VPN para Linux usando suas credenciais.
+You can also create an AdGuard account on our [website](https://auth.adguard.com/login.html) and then log in to AdGuard VPN for Linux using your credentials.
 :::
 
-Para sair do AdGuard VPN, digite:
+To log out of AdGuard VPN, type:
 
 ```
 adguardvpn-cli logout
 ```
 
-## Conectar à VPN
+## Connect to VPN
 
-Para conexão rápida, digite:
+For quick connection, type:
 
 ```
 adguardvpn-cli connect
 ```
 
-O AdGuard VPN se conectará ao local disponível mais rápido ou ao último local usado.
+AdGuard VPN will connect to the fastest available or the last used location.
 
-Para visualizar os locais disponíveis, digite:
+To view available locations, type:
 
 ```
 adguardvpn-cli list-locations
 ```
 
-Para se conectar a um local específico, digite:
+To connect to a specific location, type:
 
 ```
-adguardvpn-cli connect -l <local>
+adguardvpn-cli connect -l <location>
 ```
 
-Substitua `<local>` pela cidade, país ou código ISO do local ao qual deseja se conectar.
+Replace `<location>` with the city, country, or ISO code of the location you want to connect to.
 
-Se necessário, digite sua senha de administrador.
+If required, enter your admin password.
 
-## Verificar atualizações
+## Check for updates
 
-Para verificar se há atualizações, digite:
+To check for updates, type:
 
 ```
 adguardvpn-cli check-update

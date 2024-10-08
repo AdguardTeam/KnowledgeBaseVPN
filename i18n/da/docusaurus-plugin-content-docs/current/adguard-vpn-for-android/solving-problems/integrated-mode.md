@@ -1,12 +1,12 @@
 ---
-title: Kompatibilitet med AdGuard Ad Blocker
+title: Compatibility with AdGuard Ad Blocker
 sidebar_position: 3
 ---
 
-AdGuard VPN har VPN-driftstilstanden aktiveret som standard, der bruger sin egen [AdGuard VPN-protokol](/general/adguard-vpn-protocol). Det giver den bedste kombination af forbindelseshastighed og -sikkerhed. Denne driftstilstand tillader dog ikke AdGuard VPN og AdGuard Ad Blocker at køre samtidigt. Kompatibilitetstilstanden bruger til gengæld IPsec-protokollen, hvilket gør det muligt for AdGuard-applikationerne at samarbejde. Køre AdGuard Ad Blocker allered, når AdGuard VPN installeres, aktiveres denne tilstand automatisk, så applikationerne kan køre samtidigt. Var AdGuard VPN allerede installeret, først det blev besluttede at prøve AdGuard Ad Blocker, skal disse trin følges for at bruge dem sammen:
+AdGuard VPN has the VPN operating mode enabled by default, which uses its own [AdGuard VPN protocol](/general/adguard-vpn-protocol). It provides the best combination of connection speed and security. However, this operating mode does not allow AdGuard VPN and AdGuard Ad Blocker to work simultaneously. The Compatibility mode, in turn, uses the IPsec protocol, which makes it possible for the AdGuard applications to work together. If you already have AdGuard Ad Blocker when installing AdGuard VPN, this mode will turn on automatically and allow you to use our applications at the same time. If you first installed AdGuard VPN, and only then decided to try AdGuard Ad Blocker, then to use them together, follow these steps:
 
-1. Åbn AdGuard VPN til Android, og vælg tandhjulsikonet nederst til højre på skærmen.
+1. Open AdGuard VPN for Android and select the gear icon at the bottom right of the screen.
 
-2. Gå til *Avancerede indstillinger* og vælg *Driftstilstand*.
+2. Go to *Advanced settings* and select *Operating mode*.
 
-3. Skift til *Integreret tilstand*. Færdig!
+3. Switch to *Integrated mode*. Done!

@@ -1,5 +1,5 @@
 ---
-title: Anmeldung, Verbindung und Aktualisierung
+title: Login, connection, and update
 sidebar_position: 3
 ---
 
@@ -11,10 +11,10 @@ Um sich anzumelden oder ein Konto zu erstellen, geben Sie Folgendes ein:
 adguardvpn-cli login
 ```
 
-Geben Sie die E-Mail-Adresse und das Passwort für Ihr AdGuard-Konto ein. Wenn Sie noch kein Konto eingerichtet haben, werden Sie aufgefordert, eines zu erstellen.
+Geben Sie die E-Mail-Adresse und das Passwort für Ihr AdGuard-Konto ein. If you don’t have an account yet, you’ll be prompted to create one.
 
 :::note
-Sie können auch ein AdGuard-Konto auf unserer [Website](https://auth.adguard.com/login.html) erstellen und sich dann mit Ihren Anmeldedaten bei AdGuard VPN für Linux anmelden.
+You can also create an AdGuard account on our [website](https://auth.adguard.com/login.html) and then log in to AdGuard VPN for Linux using your credentials.
 :::
 
 Um sich von AdGuard VPN abzumelden, geben Sie Folgendes ein:
@@ -25,7 +25,7 @@ adguardvpn-cli logout
 
 ## Mit VPN verbinden
 
-Für eine Schnellverbindung, geben Sie Folgendes ein:
+For quick connection, type:
 
 ```
 adguardvpn-cli connect
@@ -45,13 +45,13 @@ Um eine Verbindung zu einem bestimmten Standort herzustellen, geben Sie Folgende
 adguardvpn-cli connect -l <location>
 ```
 
-Ersetzen Sie `<location>` durch die Stadt, das Land oder den ISO-Code des Ortes, zu dem Sie eine Verbindung herstellen möchten.
+Replace `<location>` with the city, country, or ISO code of the location you want to connect to.
 
 Geben Sie bei Bedarf Ihr Admin-Passwort ein.
 
 ## Auf Aktualisierungen prüfen
 
-Um nach Updates zu suchen, geben Sie Folgendes ein:
+To check for updates, type:
 
 ```
 adguardvpn-cli check-update

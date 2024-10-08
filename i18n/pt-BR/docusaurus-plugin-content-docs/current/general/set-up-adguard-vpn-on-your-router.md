@@ -1,78 +1,78 @@
 ---
-title: Como configurar o AdGuard VPN em seu roteador
+title: How to set up AdGuard VPN on your router
 sidebar_position: 8
 ---
 
-Ao configurar o AdGuard VPN em seu roteador, você pode proteger seus dados em dispositivos onde não é possível instalar aplicativos VPN, como Smart TVs e consoles.
+By setting up AdGuard VPN on your router, you can protect your data on devices where you cannot install VPN apps, such as media devices and game consoles.
 
 :::note
 
-Esta opção só estará disponível se você tiver uma assinatura VPN do AdGuard e seu roteador suportar IPsec nas configurações de _Cliente VPN_ (**Não** _Servidor VPN_).
+This option is only available if you have an AdGuard VPN subscription and your router supports IPsec in its _VPN Client_ (**Not** _VPN Server_) settings.
 
 :::
 
-## Como configurar o AdGuard VPN em seu roteador
+## How to set up AdGuard VPN on your router
 
-1. Na sua [conta do AdGuard](https://auth.adguard.com/login.html), selecione AdGuard VPN.
+1. In your [AdGuard account](https://auth.adguard.com/login.html), select AdGuard VPN.
 
-2. Em _Dispositivos_, clique em _Adicionar roteador_.
+2. Under _Devices_, click _Add router_.
 
-   ![Adicionar roteador \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/2_year.jpg)
+   ![Add router \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/2_year.jpg)
 
-3. Selecione o local desejado do servidor VPN e gere as credenciais.
+3. Select the desired VPN server location and generate credentials.
 
-   ![Gerar credenciais \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/configure_router.png)
+   ![Generate credentials \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/configure_router.png)
 
    :::note
 
-   As próximas etapas podem variar dependendo do seu roteador. Usamos o roteador Keenetic como exemplo.
+   The next steps may vary depending on your router. We have used the Keenetic router as an example.
 
    :::
 
-4. Na sua página de administrador, acesse as configurações do roteador.
+4. In your admin page, go to the router settings.
 
-5. Ative _Cliente VPN_ e clique em _Adicionar servidor VPN_.
+5. Enable _VPN Client_ and click _Add VPN server_.
 
-6. Selecione IPsec-client (pode ser chamado de IKEv2; e não L2TP/IPsec).
+6. Select IPsec-client (it may for some router brands be called IKEv2; not L2TP/IPsec).
 
-7. Insira as credenciais que você criou na etapa 3.
+7. Enter the credentials you created in step 3.
 
-   ![Insira as credenciais \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/vpn_connection.jpg)
+   ![Enter the credentials \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/vpn_connection.jpg)
 
-8. Conecte dispositivos ao seu roteador.
+8. Connect devices to your router.
 
 :::note
 
-Você precisará atualizar as configurações do roteador se quiser alterar o local do servidor VPN.
+You’ll need to update your router settings if you want to change the VPN server location.
 
 :::
 
-## Por que configurar o AdGuard VPN em seu roteador pode ser útil
+## Why setting up AdGuard VPN on your router may be useful
 
-- Com o AdGuard VPN em seu roteador, nem seu provedor de VPN nem qualquer outra pessoa tem acesso à sua atividade na Internet
-- Instalar o AdGuard VPN em seu roteador protege toda a sua rede, o que significa que todos os dispositivos conectados a ele estão protegidos
-- Você pode aumentar a segurança e proteger seus dados em dispositivos onde não é possível instalar aplicativos AdGuard VPN - Smart TVs e consoles
+- With AdGuard VPN on your router, neither your VPN provider nor anyone else has access to your Internet activity
+- Installing AdGuard VPN on your router secures your entire network, meaning that all devices connected to it are protected
+- You can enhance security and protect your data on devices where it’s not possible to install AdGuard VPN apps — media devices and game consoles
 
-## Dispositivos que podem ser conectados a um roteador com AdGuard VPN
+## Devices that can be connected to a router with AdGuard VPN
 
-- **PlayStation, Xbox e Nitendo Switch**: Para desfrutar de jogos online perfeitos e segurança aprimorada no PS4, PS5, Xbox Series e Nitendo Switch, [configure o AdGuard VPN em seu roteador](#como-configurar-o-adguard-vpn-em-seu-roteador) e conecte seu console a ele
+- **PlayStation, Xbox, and Nintendo Switch**: To enjoy seamless online gaming and enhanced security on PS4, PS5, Xbox One, Xbox Series, and Nintendo Switch, [set up AdGuard VPN on your router](#how-to-set-up-adguard-vpn-on-your-router) and connect your console to it
 
-- **Apple TV**: Siga as instruções para [configurar o AdGuard VPN em seu roteador](#como-configurar-o-adguard-vpn-em-seu-roteador) e, em seguida, conecte sua Apple TV
+- **Apple TV**: Follow the instructions to [set up AdGuard VPN on your router](#how-to-set-up-adguard-vpn-on-your-router), then connect your Apple TV
 
 - **Chromecast**:
 
-  **Para Gen 4:** Basta baixar e instalar o [AdGuard VPN do Google Play](https://play.google.com/store/apps/details?id=com.adguard.vpn)
+  **For Gen 4:** Simply download and install [AdGuard VPN from Google Play](https://play.google.com/store/apps/details?id=com.adguard.vpn)
 
-  **Para Gen 3:** Siga nosso guia para [configurar o AdGuard VPN em seu roteador](#como-configurar-o-adguard-vpn-em-seu-roteador). Certifique-se de que sua TV e smartphone, tablet ou computador estejam conectados à mesma rede
+  **For Gen 3:** Follow our guide to [set up AdGuard VPN on your router](#how-to-set-up-adguard-vpn-on-your-router). Make sure your TV and smartphone, tablet or computer are connected to the same network
 
-  Para **Android TV**, você não precisa configurar o AdGuard VPN em um roteador - temos uma versão especial para Android TV. Basta seguir estas etapas:
+  For **Android TV**, you don’t need to set up AdGuard VPN on a router — we have a special version for Android TV. Just follow these steps:
 
-  1. Instale o [AdGuard VPN do Google Play](https://play.google.com/store/apps/details?id=com.adguard.vpn) na sua Android TV
-  2. Se você já possui uma conta do AdGuard, faça login com suas credenciais. Se você é novo no AdGuard, insira seu endereço de e-mail e siga as instruções na tela
-  3. Abra o aplicativo, selecione o local desejado e conecte-se
+  1. Install [AdGuard VPN from Google Play](https://play.google.com/store/apps/details?id=com.adguard.vpn) on your Android TV
+  2. If you already have an AdGuard account, log in with your credentials. If you’re new to AdGuard, enter your email address and follow the on-screen instructions
+  3. Open the app, select the location you want, and connect
 
-## Roteadores conhecidos por serem incompatíveis com o AdGuard VPN
+## Routers known to be incompatible with AdGuard VPN
 
 - **ASUS**
-  - Possui apenas IPsec nas configurações do _Servidor VPN_ e não nas configurações do _VPN Fusion_/_Cliente VPN_
+  - Only has IPsec in the _VPN Server_ settings, and not in the correct _VPN Fusion_/_VPN Client_ settings
 - **FRITZ!Box**

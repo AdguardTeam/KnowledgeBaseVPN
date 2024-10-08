@@ -1,42 +1,42 @@
 ---
-title: '什麼是 DNS 洩漏'
+title: 'What is a DNS leak'
 sidebar_position: 9
 ---
 
-安裝 VPN 後，您需要確保不會出現任何導致您去匿名化的洩漏。 AdGuard VPN 可靠地保護您的流量和資料免遭窺探。 然而，在某些情況下，您可能會懷疑我們的 VPN 服務中存在 DNS 洩漏。 我們將解釋這些擔憂從何而來以及為什麼它們是沒有根據的。
+Once you install a VPN, you want to be sure that there won't be any leaks that will lead to your de-anonymization. AdGuard VPN reliably protects your traffic and your data from prying eyes. Nevertheless, in some cases you may suspect the presence of DNS leaks in our VPN service. We'll explain where these concerns come from and why they are unfounded.
 
-## 什麼是 DNS 洩漏？
+## What are DNS leaks?
 
-當您使用 VPN 時，與 DNS 伺服器的連線可能會超出加密的 VPN 隧道，而 ISP 可能會看到您的流量。
+When you use a VPN, a connection to a DNS server may travel outside of the encrypted VPN tunnel and your traffic may become visible to the ISP.
 
-換句話說，每次您開啟網站時，您的瀏覽器都會向 ISP 的 DNS 伺服器發送請求，並傳回所請求網站的 IP 位址。 透過這種方式，您的 ISP 可以看到您的所有線上活動並可以追蹤您。
+In other words, every time you open a website, your browser sends a request to the ISP's DNS server and in return receives the IP address of the requested website. In this way, your ISP sees all your online activity and can track you.
 
-## 如何偵測 DNS 洩漏
+## How to detect DNS leaks
 
-有各種匿名檢查服務可用於偵測 DNS 洩漏，例如 `whoer.net`。 這些網站的演算法尚不清楚，但他們的目的是——用想像中的洩密來嚇唬用戶，有可能讓他們出售他們的服務。
+There are all sorts of anonymity check services for detecting DNS leaks, such as `whoer.net`. The algorithms of these websites are not clear, but their intentions are — to scare users with imaginary leaks, potentially enabling them to sell their services.
 
-一些安全掃描網站認為用戶的IP位址與DNS伺服器的IP位址一致即為「良好」結果，顯示不存在洩漏。 實際上，這樣的匹配可能表明使用了 VPN。 當 VPN 被停用且要求傳送至 ISP 的 DNS 伺服器時，DNS 伺服器的 IP 位址與您自己的 IP 位址不一致。
+Some security scanning websites consider the coincidence of the user's IP address and the DNS server's IP address to be a "good" result, indicating that there are no leaks. In reality, such a match may indicate the use of a VPN. When VPN is disabled and the requests go to your ISP's DNS server, the IP address of the DNS server and your own one do not coincide.
 
-## 為什麼 AdGuard VPN 沒有 DNS 洩漏
+## Why there are no DNS leaks in AdGuard VPN
 
-如果您在裝置上啟用 AdGuard VPN 並在任何掃描器網站上執行檢查，它會發現 DNS 查詢會前往 [AdGuard DNS](https://adguard-dns.io) 伺服器。 然而，這不能被視為洩漏。
+If you enable AdGuard VPN on your device and run a check on any of the scanner websites, it finds that DNS queries go to the [AdGuard DNS](https://adguard-dns.io) servers. However, this cannot be considered a leak.
 
-AdGuard VPN 預設為使用非過濾 AdGuard DNS 伺服器。 這可確保您的查詢不會傳送至 ISP 的 DNS 伺服器，這表示您可以保持線上隱私和匿名。
+Using a non-filtering AdGuard DNS server is set by default in AdGuard VPN. This ensures that your queries do not go to the DNS servers of your ISP, which means that you stay private and anonymous online.
 
-此外，AdGuard DNS 是一項非常受歡迎的 DNS 服務，擁有超過 5,000 萬人使用。 這對你來說意味著什麼？ 想像以下情況：通常的 VPN 服務使用與 VPN 伺服器位於相同 IP 位址的 DNS 伺服器。 其用戶數勉強超過 1,000 人。
+What's more, AdGuard DNS is a very popular DNS service, used by over 50 million people. What does this mean for you? Imagine the following situation: the usual VPN service uses the DNS server which is located at the same IP address as the VPN server. The number of its users hardly exceeds 1,000.
 
-就 AdGuard DNS 而言，您將與 5000 萬用戶“合併”，因此沒有人能夠僅透過使用該 DNS 伺服器來追蹤您。
+And in the case of AdGuard DNS you will "merge" with 50 million users so nobody will be able to track you by the mere fact of using that DNS server.
 
-## 如何在 AdGuard VPN 中設定自訂 DNS 伺服器
+## How to set up a custom DNS server in AdGuard VPN
 
-有許多來自[知名 DNS 供應商](https://adguard-dns.io/kb/general/dns-providers)的熱門公共 DNS 伺服器。 其中一些只能履行其直接職責——提供所請求網域的 IP 位址，而另一些則可以做更多的事情。
+There are many popular public DNS servers from [well-known DNS providers](https://adguard-dns.io/kb/general/dns-providers). Some of them can only perform their direct duties — giving the IP addresses of the requested domains, and some can do more.
 
-例如，AdGuard DNS 可刪除廣告並保護您的裝置免遭跟踪，而 AdGuard DNS Family Protection 將 AdGuard DNS 功能與安全搜尋和家長監護結合在一起。
+For example, AdGuard DNS removes ads and protects your device from being tracked, and AdGuard DNS Family Protection combines AdGuard DNS features with Safe search and Parental control.
 
-您可以選擇任何 DNS 伺服器並在 AdGuard VPN 中設定它：
+You can select any DNS server and configure it in AdGuard VPN:
 
-- 在 AdGuard VPN for Windows 中：*設定* → *套用設定* → *DNS 伺服器*
-- 在 AdGuard VPN for Mac 中：*設定* → *套用設定* → *DNS 伺服器*
-- 在 Android 版 AdGuard VPN 中：*設定*（齒輪圖示）→ *應用程式設定* → *DNS 伺服器*
-- 在 AdGuard VPN for iOS 中：*設定*（齒輪圖示）→ *應用程式設定* → *DNS 伺服器*
-- 在 AdGuard VPN 瀏覽器擴充功能：漢堡選單圖示 → *設定* → *DNS 伺服器*
+- in AdGuard VPN for Windows: *Settings* → *App settings* → *DNS servers*
+- in AdGuard VPN for Mac: *Settings* → *App settings* → *DNS servers*
+- in AdGuard VPN for Android: *Settings* (gear icon) → *App settings* → *DNS server*
+- in AdGuard VPN for iOS: *Settings* (gear icon) → *App settings* → *DNS server*
+- in AdGuard VPN Browser extension: the hamburger menu icon → *Settings* → *DNS server*

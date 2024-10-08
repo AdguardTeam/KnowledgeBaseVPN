@@ -3,7 +3,7 @@ title: Features overview
 sidebar_position: 1
 ---
 
-AdGuard VPN Browser Extension is available for Chrome, Firefox, Opera, and Edge. Giao diện người dùng và chức năng không khác nhau giữa các trình duyệt, vì vậy tổng quan bên dưới sẽ phù hợp với các tiện ích mở rộng AdGuard VPN cho tất cả các trình duyệt.
+AdGuard VPN Browser Extension is available for Chrome, Firefox, Opera, and Edge. The UI and functionality doesn't differ between browsers so the overview below will be relevant for AdGuard VPN extensions for all browsers.
 
 :::note
 
@@ -13,22 +13,22 @@ You can only use AdGuard VPN Browser Extension when logged in. Sign in with your
 
 To manage your AdGuard VPN Browser Extension:
 
-- Nhấp vào biểu tượng của nó trên bảng điều khiển của trình duyệt, nhấp vào biểu tượng menu bánh hamburger và chọn *Cài đặt*,
-- Hoặc đi đến *Quản lý tiện ích mở rộng* Trong trình duyệt của bạn, hãy nhấp vào *Chi tiết* dưới *AdGuard VPN* và quản lý cài đặt của nó từ đó.
+- Either click its icon on the browser's panel, click the hamburger menu icon, and select *Settings*,
+- Or go to the *Manage extensions* page in your browser, click *Details* below *AdGuard VPN* and manage its settings from there.
 
 Once done, you'll see several tabs on the left:
 
-## Cài đặt
+## Settings
 
 A few important settings are gathered inside this tab. Here you can choose a DNS server to use, add or remove the AdGuard VPN icon from the browser’s context menu, block WebRTC, change the extension's theme, and allow AdGuard to gather anonymous crash reports and technical data.
 
-### Chọn máy chủ DNS
+### Choosing a DNS server
 
 By default, the [system DNS server](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns) provided by your ISP is selected, but it may compromise your privacy. With AdGuard VPN Browser extension, you can select a DNS server that provides better speed and security, and even blocks ads or potentially dangerous domains. Brief descriptions under the names of DNS servers will help you navigate and make your decision.
 
 Learn more about [DNS servers from various providers](https://adguard-dns.io/kb/general/dns-providers/).
 
-## Danh sách loại trừ
+## Exclusions
 
 The next tab contains one of the main distinctive features of AdGuard VPN — two modes with separate exclusion lists.
 
@@ -40,19 +40,19 @@ When adding a website to an exclusion list, you can enter the website manually o
 
 Not only can you add and remove websites, you can also transfer ready exclusions lists to other devices where AdGuard VPN is installed. To export your exclusions list, follow the 4-step instruction below:
 
-1. Mở tiện ích mở rộng Trình duyệt AdGuard VPN từ nơi bạn muốn xuất danh sách loại trừ của mình. Tìm phần thích hợp và nhấp vào nút "Xuất". The `exclusions.zip` archive will be downloaded.
-1. Có hai tệp `.txt` bên trong kho lưu trữ, một tệp cho mỗi danh sách Chung và Chọn lọc. Thêm nhiều loại trừ cho chúng, xóa các loại trừ hiện có, đổi tên tệp hoặc chỉ để nguyên kho lưu trữ.
+1. Open AdGuard VPN Browser extension from where you want to export your lists of exclusions. Find the appropriate section and click the "Export" button. The `exclusions.zip` archive will be downloaded.
+1. There are two `.txt` files inside the archive, one for each of the General and Selective lists. Add more exclusions to them, delete the existing ones, rename files, or just leave the archive as it is.
 1. When transferring between different devices, send the `.zip` file to the device for import.
-1. Mở AdGuard VPN trên thiết bị đó. Tìm phần thích hợp, nhấp vào nút "Nhập" và chọn kho lưu trữ. Xong!
+1. Open AdGuard VPN on that device. Find the appropriate section, click the "Import" button and select the archive. Done!
 
-## Tài khoản
+## Account
 
 The third tab of AdGuard VPN Browser extension is utterly minimalistic, containing only the email address you used to sign into your account and two buttons, *Manage* and *Sign out*. Clicking the *Manage* button takes you to your personal AdGuard account, where you can see all your current licenses and subscriptions, as well as devices connected to them.
 
-## Hỗ trợ
+## Support
 
 You can find answers to common questions in the FAQ section, or leave feedback: report a bug if something isn't working as it should, suggest adding a new feature, or discuss AdGuard on any of the many social media platforms.
 
-## Giới thiệu
+## About
 
 Another minor tab, where you can check the extension's version, visit the official website, and view the EULA or Privacy policy.

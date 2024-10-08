@@ -1,145 +1,145 @@
 ---
-title: Indstillinger
+title: Settings
 sidebar_position: 4
 ---
 
-AdGuard VPN til Linux-indstillingerne kan håndteres via kommandolinjen. For at se den aktuelle opsætning, skriv:
+You can manage AdGuard VPN for Linux settings from the command line. To view the current configuration, type:
 
 ```
 adguardvpn-cli config show
 ```
 
-## VPN-tilstand: TUN eller SOCKS5
+## VPN mode: TUN or SOCKS5
 
-Det kan vælges, hvordan AdGuard VPN ruter trafik.
+You can choose how AdGuard VPN routes traffic.
 
-For at angive standard tunneltilstand, skriv:
+To set the default tunnel mode, type:
 
 ```
 adguardvpn-cli config set-mode TUN
 ```
 
-For at angive SOCKS5-tilstanden, skriv:
+To set the SOCKS5 mode, type:
 
 ```
 adguardvpn-cli config set-mode SOCKS
 ```
 
-For at angive SOCKS5-porttypen, skriv:
+To set the SOCKS5 port, type:
 
 ```
 adguardvpn-cli config set-socks-port <port_number>
 ```
 
-Erstat `<port_number>` med den port, der skal oprettes forbindelse til.
+Replace `<port_number>` with the port you want to connect to.
 
-## SOCKS-indstillinger
+## SOCKS settings
 
-For at angive SOCKS5 lytte-vært, skriv:
+To set the SOCKS listen host, type:
 
 ```
 adguardvpn-cli config set-socks-host <host>
 ```
 
-Erstat `<host>` med den vært, der ønskes anvendt. Brug af en anden vært end 127.0.0.1 kræver indstilling af et brugernavn og en adgangskode. For at indstille SOCKS brugernavn og adgangskode, skriv:
+Replace `<host>` with the host you want to use. Using a host other than 127.0.0.1 requires setting a username and password. To set the SOCKS username and password, type:
 
 ```
 adguardvpn-cli config set-socks-username <username>
 adguardvpn-cli config set-socks-password <password>
 ```
 
-Erstat `<username>` og `<password>` med ønsket brugernavn og adgangskode. For at rydde SOCKS brugernavn og adgangskode, skriv:
+Replace `<username>` and `<password>` with your desired username and password. To clear the SOCKS username and password, type:
 
 ```
 adguardvpn-cli config clear-socks-auth
 ```
 
-## DNS upstream-adresse
+## DNS upstream address
 
-For at indstille en DNS-upstream, skriv:
+To set a DNS upstream, type:
 
 ```
 adguardvpn-cli config set-dns <server_address>
 ```
 
-Erstat `<server_address>` med adressen på DNS-serveren. For at bruge denne DNS-server på systemniveau, skriv:
+Replace `<server_address>` with the address of your DNS server. To use this DNS server at the system level, type:
 
 ```
 adguardvpn-cli config set-system-dns on
 ```
 
-## VPN-tunnel rutningstilstand: NONE, AUTO eller SCRIPT
+## VPN tunnel routing mode: NONE, AUTO, or SCRIPT
 
-Der kan vælges, hvordan AdGuard VPN ruter trafik igennem VPN-tunnelen. For at indstille tunnelrutningstilstanden til INGEN (ingen routing), skriv:
+You can choose how AdGuard VPN routes traffic through the VPN tunnel. To set the tunnel routing mode to NONE (no routing), type:
 
 ```
 adguardvpn-cli config set-tun-routing-mode NONE
 ```
 
-For at indstille tunnelrutningstilstanden til AUTO (automatisk routing), skriv:
+To set the tunnel routing mode to AUTO (automatic routing), type:
 
 ```
 adguardvpn-cli config set-tun-routing-mode AUTO
 ```
 
-For at indstille tunnelrutningstilstanden til SCRIPT (tilpasset routing), skriv:
+To set the tunnel routing mode to SCRIPT (custom routing script), type:
 
 ```
 adguardvpn-cli config set-tun-routing-mode SCRIPT
 ```
 
-For at oprette et rutningsscript med de korrekte tilladelser, skriv:
+To create a routes script with proper permissions, type:
 
 ```
 adguardvpn-cli config create-routes-script
 ```
 
-## Brug af QUIC
+## Use QUIC
 
-For at aktivere brugen af AdGuard VPN-protokollen baseret på QUIC (HTTP/3), skriv:
+To enable the use of AdGuard VPN protocol based on QUIC (HTTP/3), type:
 
 ```
 adguardvpn-cli config set-use-quic on
 ```
 
-For at deaktivere den, indstil den til "off".
+To disable it, set it to `off`.
 
-## Nedbrudsrapporter
+## Crash reports
 
-Aktiveres automatiske nedbrudsrapporter, underretter AdGuard VPN udviklerne, hvis noget går galt. For at aktivere indstillingen, skriv:
+If you enable automatic crash reports, AdGuard VPN will notify the developers if something goes wrong. To enable the setting, type:
 
 ```
 adguardvpn-cli config send-reports on
 ```
 
-For at deaktivere den, sæt den til "off".
+To disable it, set it to `off`.
 
-## Opdateringskanal
+## Update channel
 
-For at ændre opdateringskanalen, skriv:
+To change the update channel, type:
 
 ```
 adguardvpn-cli config set-update-channel <channel>
 ```
 
-Erstat `<channel>` med `release`, `beta` eller `nightly` afhængigt af præferencerne.
+Replace `<channel>` with `release`, `beta`, or `nightly`, depending on your preferences.
 
-## Tips
+## Hints
 
-AdGuard VPN kan vise tips efter eksevering af kommandoer — f.eks. hvad næste trin er, eller hvordan en fejl løses. Denne indstilling er som standard aktiveret, men den kan deaktiveres ved at skrive:
+AdGuard VPN can show you hints after executing commands — for example, what to do next or how to fix an error. This setting is enabled by default but you can disable it by typing:
 
 ```
 adguardvpn-cli config set-show-hints off
 ```
 
-For at genaktivere den, erstatte "off" med "on".
+To re-enable it, replace `off` with `on`.
 
-## Fejlretningslogning
+## Debug logging
 
-For at anmelde en fejl, skal fejlretningslogfiler muligvis deles med udviklerne eller supportteamet. For at aktivere fejlretningslogning, skriv:
+To report a bug, you may need to share debug logs with the developers or support team. To enable debug logging, type:
 
 ```
 adguardvpn-cli config set-debug-logging on
 ```
 
-Deaktivér denne indstilling efter eksport af logfiler.
+Disable this setting after exporting logs.

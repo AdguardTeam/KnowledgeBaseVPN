@@ -1,104 +1,104 @@
 ---
-title: 'Hvorfor AdGuard VPN er det bedre valg'
+title: 'Why AdGuard VPN is the better option'
 sidebar_position: 2
 ---
 
-Når man som bruger overvejer at tegne et [langsigtet VPN-abonnement](/general/subscription), evalueres oftest dets hastighed, sikkerhed og pris. Disse er meget vigtige parametre, men der er så meget mere! AdGuard VPN har et dusin af nøgleaktiver, der gør den til 'den bedre mulighed'.
+When getting ready to commit to a [long-term VPN subscription](/general/subscription), users most frequently evaluate its speed, security, and price. Those are very important points but there is so much more! AdGuard VPN has a dozen of key assets that make it 'the better option'.
 
-*Til at starte med, lad os gennemgå AdGuard VPNs uovertrufne funktioner, som man ikke finder i nogen anden VPN.*
+*To start with, let’s go over AdGuard VPN’s unmatched features that you won’t find in any other VPN.*
 
-## 1. Proprietær protokol
+## 1. Proprietary protocol
 
-Helt fra start besluttede vi at udvikle og implementere vores egen VPN-protokol i stedet for at vælge en lagervare — det ville være for nemt, plus vi var ikke tilfredse med eksisterende protokoller. Resultatet blev [AdGuard VPN-protokollen](/general/adguard-vpn-protocol).
+From the very outset, we resolved to develop and deploy an in-house VPN protocol instead of picking a canned solution — that’d be too easy, plus, we weren’t satisfied with existing protocols. The result has become the [AdGuard VPN protocol](/general/adguard-vpn-protocol).
 
-Ved valg af en VPN-tjeneste står folk ofte over for en afvejning mellem hurtig kontra sikker. AdGuard VPN-protokollen er en perfekt blanding af hastighed og sikkerhed. Man behøver ikke nøjes med en langsom internetforbindelse eller ofre fortroligheden. Blandt andet camouflere den sig som alm. trafik, hvilket gør den meget sværere at detektere og blokere.
+Choosing a VPN service, people often face a trade-off between fast vs. safe. The AdGuard VPN protocol is a perfect blend of speed and security, so you don’t have to bear slow Internet connection or make privacy sacrifices. Among other things, it disguises itself as regular traffic and it’s much harder to detect and block it.
 
-## 2. Undtagelser for websteder og apps
+## 2. Website and app exclusions
 
-Der er situationer, hvor man ikke har behøver en aktiv VPN, f.eks. når man bestiller mad eller bruger kort. Af denne grund har AdGuard VPN en særlig funktion: Undtagelser.
+There are situations where you don't need your VPN to be active: for instance, when you're ordering food or using maps. For this reason, AdGuard VPN has a special feature: Exclusions.
 
-![Undtagelser](https://cdn.adguard.com/content/blog/articles/adguard-vpn/exclusions-en.png)
+![Exclusions](https://cdn.adguard.com/content/blog/articles/adguard-vpn/exclusions-en.png)
 
-AdGuard VPN kan aktiveres **selektivt** for blot bestemte websteder eller apps. Denne mulighed er for dem, som kun bruger en VPN-tjeneste i særlige situationer, såsom at komme ind på et blokeret websted, bruge en app eller kigge et ellers geolåst TV-program, eller for ikke at afsløre personlige data ved besøg af websteder. Selektiv aktivering af VPN kan også spare VPN-trafik.
+You can activate AdGuard VPN **selectively** — only for certain websites or apps. This option is for those who use a VPN service only in specific situations: to enter a blocked website, use an app or watch a TV show that's not available in their country, or not to expose their data when visiting some websites. Turning a VPN on selectively also helps save VPN traffic.
 
-Foretrækkes primært absolut anonymitet, kan man aktivere AdGuard VPN **overalt, bortset fra de undtagne websteder eller apps**. Føj blot f.eks. madleverings-apps og forsyningswebsteder til Undtagelser — VPN vil så være slået fra for dem.
+If you prefer absolute anonymity in most cases, you can activate AdGuard VPN **everywhere except for the excluded websites or apps**. Just add your food delivery apps and utility payment websites to Exclusions — for them, VPN will be off.
 
-## 3. Blokér annoncer og trackere med en DNS-server
+## 3. Block ads and trackers with a DNS server
 
-Det er ikke sikkert at stole på den DNS-server, internetudbyderen leverer som standard: Internetudbyderen har højst sandsynligt adgang til brugernes webbrowserhistorik. Med AdGuard VPN-appen kan en sikker og krypteret DNS-server vælges fra [kendte DNS-udbydere](https://adguard-dns.io/kb/general/dns-providers/), såsom AdGuard DNS, Cisco, Cloudflare, Google eller Quad9, eller en egen DNS-server kan tilføjes.
+Relying on the DNS server provided by your ISP by default is not safe: your ISP most likely has access to your browsing history. With the AdGuard VPN app, you can choose a secure and encrypted DNS server from [known DNS providers](https://adguard-dns.io/kb/general/dns-providers/), such as AdGuard DNS, Cisco, Cloudflare, Google, or Quad9, or even add your own DNS server.
 
-Vi anbefaler at bruge en AdGuard DNS-server, da den blokerer annoncer og trackere samt beskytter enheden mod malware.
+We recommend using an AdGuard DNS server: it blocks ads and trackers and protects your device from malware.
 
-![DNS-servere](https://cdn.adtidy.org/blog/new/lkarpag_dns_screen_en.png)
+![DNS servers](https://cdn.adtidy.org/blog/new/lkarpag_dns_screen_en.png)
 
-## 4. Hurtigste placeringer
+## 4. Fastest locations
 
-![VPN-serverplaceringer](https://cdn.adguard.com/content/blog/articles/adguard-vpn/locations-en.png)
+![VPN server locations](https://cdn.adguard.com/content/blog/articles/adguard-vpn/locations-en.png)
 
-En anden funktion, hvor AdGuard VPN adskiller sig fra mængden, er muligheden for valg af placering baseret på ping. Kort fortalt er ping er den tid, det tager en datapakke, sendt fra enhed til server, at returnere til enheden. Hvis i tvivl, brug tommelfingerreglen: Jo kortere ping, des tættere på er serveren, des højere er hastigheden. Vi udvider løbende antallet af lokationer, så der kan vælges mellem endnu flere.
+Another feature that makes AdGuard VPN stand out from the crowd is that you can select a location based on its ping. In a nutshell, ping is the time it takes the data packet sent from your device to reach the server and return. When in doubt, use a rule of thumb: the lower the ping, the closer the server, the higher its speed. We are constantly expanding the number of locations so that you can choose from a variety.
 
 :::note
 
-For at få adgang til alle VPN-serverplaceringer skal et AdGuard VPN-abonnement købes.
+To access all VPN server locations, you need to purchase an AdGuard VPN subscription.
 
 :::
 
-## 5. Integrering med AdGuard Ad Blocker
+## 5. Integration with AdGuard Ad Blocker
 
-Med computer-apps og webbrowserudvidelser er der sjældent nogen konflikter mellem apps, undtagen antivirus og anden lignende type software.
+With desktop apps and web browser extensions, there are rarely conflicts between apps, except for antiviruses and other similar types of software.
 
-Med mobilenheder er det dog ikke så enkelt. I langt de fleste tilfælde vil to VPN-baserede apps ikke fungere sammen. Både i Android og iOS er der begrænsninger, som forhindrer det.
+With mobile devices, hovewer, it’s not that simple. In the vast majority of cases, two VPN-based apps will not work together. Both in Android and iOS, there are limitations that prevent it.
 
-![Integreret tilstand](https://cdn.adguard.com/content/blog/articles/adguard-vpn/integration-en.png)
+![Integrated mode](https://cdn.adguard.com/content/blog/articles/adguard-vpn/integration-en.png)
 
-Det er dog lykkedes os at løse konflikten mellem AdGuard VPN og AdGuard Ad Blocker. Når begge AdGuard-apps er installeret på én enhed, bliver de automatisk kompatible, uden nogen behov for brugerinteraktion. Dette er en unik mulighed for at drage fordel af to sæt funktioner, som der normalt skal vælges imellem.
+However, we managed to find a solution to befriend AdGuard VPN and AdGuard Ad Blocker. When you have both AdGuard apps installed on one device, they will automatically become compatible without any input required from you. This is a unique opportunity to take advantage of two sets of features, which you would normally have to choose between.
 
-## 6. QUIC-understøttelse
+## 6. QUIC support
 
-[QUIC](https://adguard-dns.io/en/blog/dns-over-quic.html#whatisquic) er en banebrydende protokol med mange fordele. Den største fordel er, at den kan forbedre forbindelseskvaliteten under ikke-ideelle forhold – f.eks. på mobilenheder eller ved tilslutning til offentlig Wi-Fi. Selvom den nye protokol ikke påvirker hastigheden, når forbindelsen er fin og stabil, vil den uden tvivl gøre situationen bedre for brugere med langsomt internet.
+[QUIC](https://adguard-dns.io/en/blog/dns-over-quic.html#whatisquic) is a cutting-edge protocol that has many perks. The main advantage is it can improve the connection quality in non-ideal conditions — for example, on mobile devices or when connecting to public Wi-Fi. Although the new protocol won’t affect speed when the connection is fine and stable, it will definitely make the situation better for users with slow Internet.
 
 :::caution
 
-QUIC-protokollen er ret ny og kan være ustabil. Vi kan ikke garantere dens fuldstændige pålidelighed i alle tilfælde.
+The QUIC protocol is rather new and may be unstable. We cannot guarantee its complete reliability for every case.
 
 :::
 
-*Lad os skifte til elementsættet, som enhver anstændig VPN ikke kan undvære.*
+*Now let’s switch to the item set that any decent VPN can't do without.*
 
 ## 7. Kill Switch
 
-Kill Switch er afgørende, hvis man f.eks. ofte bruger et mobilnetværk eller opretter forbindelse til offentlige Wi-Fi netværk i indkøbscentre, caféer, i metroen eller i lufthavnen. Grunden er simpel — fejler VPN pludseligt, og forbindelsen dermed bliver usikker, er risikoen, at sensitive oplysninger kan blotlægges for svindlere eller cyberkriminelle.
+Kill Switch is essential if you, for instance, often use a mobile network or connect to public Wi-Fi networks in malls, cafes, on the subway or at the airport. For the simple reason that if your VPN suddenly fails and the connection becomes insecure, chances are your sensitive information will be exposed to fraudsters or cyber criminals.
 
-Afbrydes VPN-forbindelsen af en eller anden grund, afbryder Kill Switch automatisk internetforbindelsen, så evt. angribere forhindres i at nå enheden og dens oplysninger.
+If for some reason your VPN connection is interrupted, Kill Switch will automatically disconnect you from the Internet, keeping attackers away from seizing your information.
 
-## 8. Auto-beskyttelse
+## 8. Auto-protection
 
-Denne funktion er udviklet specifikt til ikke-sikrede netværk. Aktiveres Auto-beskyttelse, glemmer man aldrig at aktivere VPN, når offentlige steder besøges. Går man ind på en café og oprette forbindelse til et lokalt Wi-Fi netværk, forbindes man automatisk til AdGuard VPN.
+This feature has been developed specifically for unsecured networks. If you enable Auto-protection, you won't ever forget to enable VPN when visiting public places. Should you pop into a coffee shop and connect to a local Wi-Fi network, you’ll be automatically connected to AdGuard VPN.
 
-:::note Kompatibilitet
+:::note Compatibility
 
-Auto-beskyttelse er tilgængelig i AdGuard VPN til iOS og Android.
+Auto-protection is available in AdGuard VPN for iOS and Android.
 
 :::
 
-## 9. Ti samtidige forbindelser
+## 9. Ten simultaneous connections
 
-Med et AdGuard VPN-abonnement kan op til ti enheder tilsluttes *samtidigt*.
+With an AdGuard VPN subscription, you can connect up to ten devices *simultaneously*.
 
-Nogle VPN-udbydere tillader indlognig på deres tjeneste på maks. *ti enheder*. Med AdGuard VPN *er det lige meget*, hvor mange enheder, som logger ind på AdGuard-kontoen, men kun ti VPN-forbindelser kan være aktiveret samtidigt.
+Some VPN providers only allow to log in to their service on *ten devices max*. With AdGuard VPN, *it doesn't matter* on how many devices you log in to your AdGuard account, but you can have ten VPN connections enabled at the same time.
 
-Brugere uden abonnement kan bruge AdGuard VPN på *to enheder samtidigt*, hvilket giver os endnu et trumfkort at spille ud mod konkurrenterne: De fleste gratis VPN-tjenester tillader kun brug af én enhed ad gangen.
+Those who don’t have a subscription, can use AdGuard VPN on *two devices simultaneously*, which gives us another trump card to play against competitors: most free VPN services only allow you to use one device at a time.
 
-## 10. Sikker streaming
+## 10. Secure streaming
 
-Streamingtjenester kan, af indlysende årsager, ikke lide VPN'er: Jf. statistikker, installerer omkring 20% af brugerne et VPN primært for at kigge serier, TV-shows og film uden at geoblokering. Streamingplatforme gør derfor typisk alt, hvad de kan, for at spore og blokere VPN-trafik.
+Streaming services don't like VPNs for obvious reasons: according to statistics, about 20% of users install a VPN mainly to watch shows, TV shows and movies bypassing geo-blocking. That's why streaming platforms tend to do everything they can to track VPN traffic and block it.
 
-Men hvad, hvis man vil føle sig tryg, mens der kigges indhold specifikt for den region, man er i? Eller man ikke vil gå glip af spændende serier, selvom man rejser udenlands? Svaret er enkelt — AdGuard VPN, med sin unikke protokol kan den forblive usynlig for tjenesteudbydere.
+But what if you want to feel safe while watching content specific to your region? Or don't want to stop watching exciting series even when you travel to another country? The answer is simple — AdGuard VPN, which thanks to its unique protocol can remain invisible to services.
 
-Vi bifalder ikke brugen af AdGuard VPN til omgåelse af ophavsretsregler.
+We don't endorse the use of AdGuard VPN to bypass copyright regulations.
 
-## 11. Mørk tilstand
+## 11. Dark mode
 
-![Mørkt tilstand *mobile_border](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/main_en_black.png)
+![Dark mode *mobile_border](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/main_en_black.png)
 
-Denne lille funktion fortjener særlig omtale. Faktisk higer mange brugere efter mørk tilstand, så vi kunne ikke ignorere det og tilføjede en temakontakt i alle AdGuard VPN-produkter. Vælg det, man bedst kan lide - lyst, mørkt eller systemstandard. Håber du vil slutte dig til den mørke side.
+This little feature deserves special mention. In fact, many users crave for dark mode, so we couldn’t ignore it and added a theme switch for all AdGuard VPN products. Choose the one you like more — light, dark or system default. Hope you’ll join the dark side.
