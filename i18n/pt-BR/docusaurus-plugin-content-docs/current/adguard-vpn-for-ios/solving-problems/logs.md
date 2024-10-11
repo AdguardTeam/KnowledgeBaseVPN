@@ -7,46 +7,46 @@ Se encontrar algum problema ao usar o AdGuard VPN para iOS, você pode nos infor
 
 ## Coletando e enviando logs padrão
 
-Por padrão, o AdGuard VPN para iOS usa o nível de registro *Padrão*. Ele coleta dados básicos sobre os processos em execução do aplicativo. Para enviar esses logs, siga as próximas etapas:
+By default, AdGuard VPN for iOS uses the *Default* logging level. It collects basic data about running app processes. Para enviar esses logs, siga as próximas etapas:
 
-1. Conecte-se ao AdGuard VPN para iOS. Se possível, repita as ações que levaram ao erro. Anote a hora exata em que o erro ocorreu (por exemplo, 15:35).
+1. Connect to AdGuard VPN for iOS. If possible, repeat the actions that led to the error. Note the exact time when the error occurred (e.g., 15:35).
 
-2. Abra o AdGuard VPN e toque no ícone ⚙ de Configurações no canto inferior direito da tela. Selecione *Suporte* e depois toque em *Relatar um erro*.
+2. Open AdGuard VPN and tap the Settings ⚙ icon in the lower right corner of the screen. Select *Support*, then tap *Report a bug*.
 
-3. No formulário aberto, insira seu endereço de e-mail para contato e descreva o erro encontrado, incluindo a hora em que o erro ocorreu. Se você não conseguir reproduzir o problema, especifique o mais precisamente possível quando ele ocorreu pela última vez.
+3. No formulário aberto, insira seu endereço de e-mail para contato e descreva o erro encontrado, incluindo a hora em que o erro ocorreu. If you can’t reproduce the problem, specify as accurately as possible when it last occurred.
 
-4. Marque a caixa de seleção *Enviar registros do aplicativo e informações do sistema*. Ao enviar seu relatório, seus registros serão anexados a ele.
+4. Check the *Send app logs and system info* checkbox. When you send your report, your logs will be attached to it.
 
-5. Toque em *Enviar*.
+5. Tap *Send*.
 
 :::info
 
-Se por algum motivo for mais conveniente para você nos enviar os logs de outra maneira, você mesmo poderá exportá-los. Para fazer isso, vá para *Configurações* → *Geral* → *Avançado* e toque em *Exportar registros e informações do sistema*.
+Se por algum motivo for mais conveniente para você nos enviar os logs de outra maneira, você mesmo poderá exportá-los. To do this, go to *Settings* → *General* → *Advanced* and tap *Export logs and system info*.
 
 :::
 
-## Coleta e envio de registros detalhados
+## Collecting and sending detailed logs
 
-Na maioria dos casos, o nível de registro padrão é suficiente para rastrear possíveis erros. No entanto, às vezes pode ser necessário obter informações técnicas mais detalhadas sobre o dispositivo e as conexões. Nesse caso, nossa equipe de suporte solicitará que você ative o nível de registro *Estendido* ou *Extremo*. Para enviar este tipo de log, siga estes passos:
+In most cases, the default logging level is sufficient to track possible bugs. However, sometimes more detailed technical information about the device and connections may be required. In this case, our support team will ask you to enable the *Extended* or *Extreme* logging level. Para enviar este tipo de log, siga estes passos:
 
-1. Abra o AdGuard VPN para iOS e toque no ícone ⚙ de Configurações no canto inferior direito da tela.
+1. Open AdGuard VPN for iOS and tap the Settings ⚙ icon in the lower right corner of the screen.
 
-2. Selecione *Geral* e depois *Avançado*.
+2. Select *General* and then *Advanced*.
 
-3. Na seção *Nível de registro*, selecione *Estendido* ou *Extremo*.
+3. In the *Logging level* section, select *Extended* or *Extreme*.
 
-4. Repita as ações que levaram ao erro e anote a hora em que ocorreu (por exemplo, 14:23).
+4. Repeat the actions that led to the error and note the time when it occurred (e.g., 14:23).
 
 5. Mude o nível de registro de volta para *Padrão*.
 
-6. Volte para *Configurações*, toque em *Suporte* e depois em *Relatar um erro*.
+6. Go back to *Settings*, tap *Support* and then *Report a bug*.
 
-7. No formulário aberto, insira seu endereço de e-mail para feedback e descreva o erro encontrado, incluindo a hora exata em que ocorreu.
+7. In the opened form, enter your email address for feedback and describe the error found, including the exact time when this error occurred.
 
-8. Certifique-se de que *Enviar registros do aplicativo e informações do sistema* esteja marcado e toque em *Enviar*.
+8. Make sure that *Send app logs and system info* is checked and tap *Send*.
 
 :::info
 
-Se por algum motivo for mais conveniente para você nos enviar os logs de outra maneira, você mesmo poderá exportá-los. Para fazer isso, vá para *Configurações* → *Geral* → *Avançado* e toque em *Exportar registros e informações do sistema*.
+Se por algum motivo for mais conveniente para você nos enviar os logs de outra maneira, você mesmo poderá exportá-los. To do this, go to *Settings* → *General* → *Advanced* and tap *Export logs and system info*.
 
 :::

@@ -7,10 +7,10 @@ AdGuard VPN is available in two versions — a free and a paid one. L'abbonament
 
 ## How to purchase a subscription
 
-Se hai deciso di acquistare un abbonamento ad AdGuard VPN, ci sono due modi per farlo:
+If you have decided to purchase a subscription to AdGuard VPN, there are two ways to do this:
 
-1. Tramite un acquisto in-app. Vai all'app di AdGuard VPN e tocca sulla freccia nell'angolo superiore destro della schermata. Seleziona il piano d'abbonamento più adatto e tocca su *Abbonati*. Questa opzione è disponibile per le app mobili AdGuard VPN per iOS e Android.
-2. Sul [nostro sito web](https://adguard-vpn.com/license.html). Esistono tre piani d'abbonamento da cui scegliere: mensile, annuale e biennale. Scegli quello più adatto a te e inserisci l'indirizzo email che sarà associato con il tuo abbonamento. Puoi pagare il tuo abbonamento utilizzando la tua carta bancaria, un conto PayPal o criptovalute.
+1. Tramite un acquisto in-app. Go to the AdGuard VPN app and tap the arrow in the upper right corner of the screen. Select the most suitable subscription plan and tap *Subscribe*. Questa opzione è disponibile per le app mobili AdGuard VPN per iOS e Android.
+2. On [our website](https://adguard-vpn.com/license.html). There are three subscription plans to choose from — monthly, 1-year, and 2-year. Choose the one that suits you best and enter the email address that will be associated with your subscription. You can pay for your subscription using your bank card, PayPal account, or cryptocurrency.
 
 ## How to cancel a subscription
 

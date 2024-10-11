@@ -3,9 +3,9 @@ title: AdGuard 广告拦截程序的兼容性
 sidebar_position: 4
 ---
 
-AdGuard VPN 有两种操作模式：「*常规模式*」和「*整合模式*」。
+AdGuard VPN has two operating modes: *VPN* and *Integrated*.
 
-The *VPN* mode is enabled by default and uses the [AdGuard VPN protocol](/general/adguard-vpn-protocol). 该模式是连接速度和安全性的最佳组合。 不过，常规模式不支持 AdGuard VPN 和 AdGuard Ad Blocker 同时工作。
+The *VPN* mode is enabled by default and uses the [AdGuard VPN protocol](/general/adguard-vpn-protocol). It provides the best combination of connection speed and security. However, this operating mode does not allow AdGuard VPN and AdGuard Ad Blocker to work simultaneously.
 
 *Integrated mode*, in turn, uses the IPsec protocol, which makes it possible for the AdGuard apps to work together.
 
@@ -17,7 +17,7 @@ If you have installed AdGuard VPN first and only then decided to try AdGuard Ad 
 
 2. Tap *General* → *Operating mode*.
 
-3. 将模式从「*VPN*」切换到「*集成模式*」。 完成！
+3. Switch the mode from *VPN* to *Integrated*. 完成！
 
 :::note
 

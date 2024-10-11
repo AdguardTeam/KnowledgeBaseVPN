@@ -1,29 +1,29 @@
 ---
-title: 'Fordele ved AdGuard VPN Unlimited'
+title: 'Benefits of AdGuard VPN Unlimited'
 sidebar_position: 5
 ---
 
-AdGuard VPN kan bruges gratis, dog vil flg. begrænsninger være gældende:
+You can use AdGuard VPN for free, but then there will be certain restrictions:
 
-- AdGuard VPN kan kun aktiveres på 2 enheder samtidigt
-- Månedlig trafikkvote på 3 GB
-- Hastighedsgrænse på 20 Mbit/sek.
-- Ikke alle serverplaceringer vil være tilgængelige
-- E-mailklienter kan ikke bruges til at sende beskeder (på iOS og Android)
+- Only 2 devices on which you can simultaneously enable AdGuard VPN
+- 3 GB of traffic per month restriction
+- 20 Mbit/sec speed limit
+- Only some of the server locations are available
+- Email clients can’t be used for sending messages (on iOS and Android)
 
 :::note
 
-Det sidste punkt bør behandles separat: Gratis brugere af AdGuard VPN til iOS og Android kan ikke sende e-mails via e-mailklienter. Det er umuligt, da vi blokerer port 25, som bruges til udgående e-mails, og dermed genforsikrer os mod spam. Afsendelse af e-mails via webbaserede e-mail tjenester fungerer dog fuldt ud. I AdGuard VPN til Android kan der desuden tilføjes apps til undtagelser, så e-mail apps også fungerer.
+The last point should be addressed separately: free users of AdGuard VPN for iOS and Android cannot send emails in email clients. It’s impossible because we block port 25, which is used for outgoing emails, and thus reinsure against spam. However, sending emails with web email services works perfectly well. And on AdGuard VPN for Android you can add apps to exclusions so that email apps will function as well.
 
 :::
 
-Der kan også købes et abonnement for at få en ubegrænset version af appen. Et abonnement har flere fordele sammenlignet med en gratis konto:
+At the same time you can purchase a subscription to get an unlimited version of the app. A subscription allows to have more benefits in comparison with a free account:
 
-- 10 samtidigt tilsluttede enheder
-- Ubegrænset trafik
-- Ingen hastighedsgrænse
-- Alle 50+ lokationer er tilgængelige
-- Sikker streaming
-- Ingen port 25 blokering
+- 10 simultaneously connected devices
+- Unlimited traffic
+- No speed cap
+- All 50+ locations are available
+- Secure streaming
+- No port 25 block
 
-For adgang til alle fordelene, overvej [køb af et abonnement](/general/subscription).
+To use all the advantages, consider [purchasing a subscription](/general/subscription).

@@ -15,13 +15,13 @@ Quando estiver pronto para começar, trabalhe com o [repositório KnowledgeBaseV
 
 O site da Base de Conhecimento é construído usando o Docusaurus 2 — um moderno gerador de sites estáticos. Ao sugerir alterações ou acréscimos, leve em consideração que todos os documentos devem obedecer aos princípios da plataforma. Você pode ler sobre eles no [guia disponível através deste link](https://docusaurus.io/docs/category/guides).
 
-Você pode implantar esta Base de Conhecimento localmente em seu computador para visualizar as alterações sugeridas. Instruções detalhadas sobre como fazer isso podem ser encontradas [no arquivo README.md](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README) na página do GitHub desta Base de Conhecimento.
+Você pode implantar esta Base de Conhecimento localmente em seu computador para visualizar as alterações sugeridas. Detailed instructions on how to do this can be found [in the README.md file](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README) on this Knowledge Base's GitHub page.
 
 ## Traduzindo artigos {#translate-adguard}
 
 A tradução dos artigos existentes da Base de Conhecimento é realizada [na plataforma Crowdin](https://crowdin.com/project/adguard-vpn-knowledge-base). Todos os detalhes sobre traduções e como trabalhar com o Crowdin podem ser encontrados [no artigo](https://adguard.com/kb/miscellaneous/contribute/translate/program/) da Base de conhecimento do bloqueador de anúncios AdGuard.
 
-Ao trabalhar em artigos da Base de Conhecimento de AdGuard VPN, você pode encontrar strings contendo formas plurais que devem ser traduzidas com atenção extra. [Em um artigo separado](https://adguard.com/kb/miscellaneous/contribute/translate/plural-forms/), descrevemos em detalhes as dificuldades que podem surgir ao traduzir strings com formas plurais e fornecemos orientação detalhada sobre como elas são tratadas na plataforma Crowdin.
+Ao trabalhar em artigos da Base de Conhecimento de AdGuard VPN, você pode encontrar strings contendo formas plurais que devem ser traduzidas com atenção extra. [In a separate article](https://adguard.com/kb/miscellaneous/contribute/translate/plural-forms/), we describe in detail the difficulties that can arise when translating strings with plural forms and provide detailed guidance on how these are handled on the Crowdin platform.
 
 ## Trabalhando em problemas abertos
 

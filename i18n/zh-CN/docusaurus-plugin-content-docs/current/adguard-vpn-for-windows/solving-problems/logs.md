@@ -3,19 +3,19 @@ title: 如何收集和发送日志记录
 sidebar position: 1
 ---
 
-如果您在使用 Windows 版 AdGuard VPN 时遇到任何问题，请告知我们。 如果您也能把应用日志发送过来，我们将不胜感激。因为日志可以帮助我们更快地解决问题。
+If you encounter any problems while using AdGuard VPN for Windows, you can inform us about it. We would appreciate it if you also send application logs, as they help us resolve issues much quicker.
 
-## 收集日志
+## Collecting logs
 
-### 标准日志
+### Standard logs
 
-默认情况下，AdGuard VPN for Windows 使用标准日志级别，即收集有关应用程序运行进程的基本数据。 在发送日志之前，请打开 AdGuard VPN for Windows，并尽可能重复导致错误的操作。 记下此错误发生的确切时间。
+By default, AdGuard VPN for Windows uses the standard logging level, which is the basic collection of data about running processes of the app. Before sending the logs, please open AdGuard VPN for Windows and, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
 
-### 扩展日志
+### Extended logs
 
 在大多数情况下， 默认日志记录级别足以追踪发生的错误。 但在某些情况下，需要有关设备和连接的更详细技术信息，然后我们的支持团队会要求您启用进阶日志记录级别。 要发送进阶日志，请执行以下步骤：
 
-1. 打开适用于 Windows 的 AdGuard VPN 并在上面的菜单中选择 **设置** → **应用程序设置** → **高级设置** → **日志记录级别**。
+1. Open AdGuard VPN for Windows and select **Settings** in the menu above → **App settings** → **Advanced settings** → **Logging level**.
 
 1. 在「**记录级别**」部分，选择「**记录全部**」。
 
@@ -25,37 +25,37 @@ sidebar position: 1
 
 1. 将日志记录级别切换回「**默认记录**」。
 
-### 跟踪日志
+### Trace logs
 
-有时我们的支持团队可能会要求您向他们发送跟踪日志。 为此，您需要遵循以下步骤：
+Sometimes our support team might ask you to send them trace logs. To do this, you need to follow these steps:
 
-1. 右键单击托盘菜单中的 AdGuard VPN 图标，然后选择 **退出 AdGuard VPN**。
+1. Right-click the AdGuard VPN icon in the tray menu and choose **Exit AdGuard VPN**.
 
     ![Exit *mobile](https://cdn.adtidy.org/content/kb/vpn/windows/logs/exit.png)
 
-    如果看到警告信息，请同意停止服务。
+    If you see the warning message, agree to stop the service.
 
     ![Attention *mobile](https://cdn.adtidy.org/content/kb/vpn/windows/logs/attention.png)
 
-1. 打开控制台（在开始面板中键入 `cmd`）。
+1. Open the console (type `cmd` in the start panel).
 
-1. 如果使用的是 64 位 Windows，则使用`C:\"Program Files (x86)"\AdGuardVpn\AdGuardVpnSvc.exe /trace`命令运行应用程序；如果使用的是 32 位 Windows，则使用`C:\"Program Files"\AdGuardVpn\AdGuardVpnSvc.exe /trace`命令运行应用程序。
+1. Run the application with the command `C:\"Program Files (x86)"\AdGuardVpn\AdGuardVpnSvc.exe /trace` if you are using 64-bit Windows, and `C:\"Program Files"\AdGuardVpn\AdGuardVpnSvc.exe /trace` if you are using 32-bit.
 
-1. 重现问题。 我们强烈建议您记下问题重现的确切时间：这将帮助我们的支持团队找到相关的日志条目并更快地解决问题。
+1. Reproduce the issue. We strongly recommend that you note the exact time when you reproduce the problem: this will help our support team to find relevant log entries and resolve the problem faster.
 
-1. 导出记录的日志：**支持**→**导出日志和系统信息**。
+1. Export the recorded logs: **Support** → **Export logs and system info**.
 
-如果您的日志文件很大，请不要担心。 因为我们需要了解尽可能多的细节以修复您的问题。
+Don't worry if your log file is large. We need to know as many details as possible in order to fix your problem.
 
-## 发送日志
+## Sending logs
 
-要向我们的支持团队发送日志，请按照以下步骤操作：
+To send logs to our support team, please follow the next steps:
 
-1. 点击上面菜单中的 **支持** → **报告错误**。
+1. Click **Support** in the menu above → **Report a bug**.
 
     ![Report a bug *border](https://cdn.adtidy.org/content/kb/vpn/windows/logs/support_report.jpeg)
 
-1. 在打开的表单中输入您的电子邮件地址，并描述您发现的错误，包括发生的时间。 如果无法重现问题，请尽可能具体地说明问题上次发生的时间。
+1. In the form that opens, enter your email address and describe the error you found, including the time it occurred. If you can't reproduce the problem, be as specific as possible about when it last occurred.
 
     ![Report *border](https://cdn.adtidy.org/content/kb/vpn/windows/logs/report_bug.png)
 
@@ -65,14 +65,14 @@ sidebar position: 1
 
 ![Export *border](https://cdn.adtidy.org/content/kb/vpn/windows/logs/export.jpeg)
 
-**注意**：如果您在尝试导出日志时遇到任何问题，还有一种替代方法。 请按照以下步骤操作：
+**Note**: if you encounter any problems while trying to export logs, there is an alternative way. Please follow these steps:
 
-1. 打开资源管理器应用程序
+1. Open the Explorer app
 
-1. 在搜索框中粘贴`%programdata%/adguardvpn`
+1. Paste `%programdata%/adguardvpn` in the search box
 
-1. 找到名为**日志的**文件夹
+1. Find the folder called **Logs**
 
-1. 存档文件夹
+1. Archive the folder
 
-1. 将其发送给我们的客户支持团队
+1. Send it to our support team

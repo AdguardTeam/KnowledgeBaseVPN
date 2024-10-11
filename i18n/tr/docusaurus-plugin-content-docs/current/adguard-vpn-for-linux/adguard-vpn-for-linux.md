@@ -9,7 +9,7 @@ Aşağıda giriş yapmak, bağlanmak ve AdGuard VPN'in ayarlarını yönetmek i�
 
 - [Kurulum ve kaldırma](/adguard-vpn-for-linux/installation)
 - [Giriş yapma, bağlantı kurma ve güncelleme](/adguard-vpn-for-linux/login)
-- [Setting up on a router](/adguard-vpn-for-linux/setting-up-on-a-router)
+- [Yönlendiriciye kurulum](/adguard-vpn-for-linux/setting-up-on-a-router)
 - [Ayarlar](/adguard-vpn-for-linux/settings)
 - [Geri bildirim gönderme](/adguard-vpn-for-linux/feedback)
 

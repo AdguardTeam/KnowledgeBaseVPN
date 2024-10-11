@@ -7,7 +7,7 @@ sidebar_position: 7
 
 La crittografia è la ragione per cui esiste la parola "privata" nel termine "Rete privata virtuale". A VPN creates a tunnel between your device and a VPN server, that encrypts and transmits your data securely to the open Internet. Il processo di crittografia, che consiste nel trasformare i dati in parole incomprensibili che non possono essere lette da chi li intercetta, è essenziale per qualsiasi servizio VPN.
 
-Il protocollo di AdGuard VPN utilizza l'algoritmo crittografico più sicuro e veloce: AES-256. Scopri cos'è e perché è così buono.
+The AdGuard VPN protocol uses the most secure and fast encryption algorithm to date — AES-256. Scopri cos'è e perché è così buono.
 
 ## Tour storico dell'AES
 
@@ -23,6 +23,6 @@ AES è un cifrario a blocchi con una chiave simmetrica. Essendo un cifrario a ch
 
 Esistono chiavi di diverse dimensioni - 128, 192 e 256 bit - e anche i blocchi sono misurati in bit. Durante il processo di crittografia, il codificatore sostituisce ogni informazione con un'altra, a seconda della chiave di sicurezza. Quindi, ad esempio, AES-256 crea 256 blocchi di testo cifrato da 256 blocchi di testo plaintext in 14 round.
 
-I round consistono in diverse fasi: suddivisione dei dati in blocchi, scambio di byte, spostamento di righe e riordino di colonne. Il risultato è un insieme completamente casuale di caratteri, che avrà senso soltanto utilizzando la giusta chiave crittografica.
+I round consistono in diverse fasi: suddivisione dei dati in blocchi, scambio di byte, spostamento di righe e riordino di colonne. The result is a completely random set of characters that will only make sense when using the right encryption key.
 
-AES-256 è il livello di crittografia più elevato: per violare questa cifratura, 2256 combinazioni discrete, ognuna di 78 cifre, dovrebbero essere provate.
+AES-256 is the strongest level of encryption: to break this cipher, 2256 discrete combinations, each consisting of 78 digits, would have to be tried.

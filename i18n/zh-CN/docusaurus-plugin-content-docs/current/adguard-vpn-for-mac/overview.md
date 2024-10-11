@@ -7,21 +7,21 @@ AdGuard VPN Mac版是一个桌面 VPN 服务。 AdGuard VPN 与 AdGuard 广告�
 
 请注意：**登录 AdGuard 账号后，您才可以运行 AdGuard VPN Mac版**。 用户可以用 AdGuard 账号登录，也可以通过其他账号登录，即通过 Apple、Google 或 Facebook 登录。 请确保您的其他账号与 AdGuard 账号绑定到同一个电子邮件地址。 如果用户的 AdGuard 账号中有合适的订阅，订阅将在桌面应用程序上自动激活。 还没有 AdGuard 账号？ 请[点击这里](https://auth.adguard.com/registration.html)建立账号。
 
-:::注意兼容性
+:::note Compatibility
 
-适用于 Mac 的 AdGuard VPN 支持 macOS Sierra (10.15) 以上的 macOS 版本。
+AdGuard VPN for Mac is currently supported on macOS versions starting from macOS Catalina (10.15).
 
 :::
 
 ## 主界面
 
-![主屏幕](https://cdn.adguardvpn.com/content/kb/vpn/mac/vpn_main_new_en.jpeg)
+![Home screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/vpn_main_new_en.jpeg)
 
-第一个标签是*主页*屏幕。 在这里，您可以查看AdGuard VPN的当前状态，所选位置（如果已启用）以及ping。 Ping 是指 VPN 服务器的响应时间。 The lower the number, the faster the connection. 如果 VPN 连接被禁用，您最后次连接的服务器位置将显示在连接状态的下面。
+第一个标签是*主页*屏幕。 Here you can see the current status of AdGuard VPN, the selected location (if enabled) and its ping. Ping 是指 VPN 服务器的响应时间。 The lower the number, the faster the connection. If VPN is disabled, the last location you connected to is displayed at the bottom.
 
-具有最低 Ping 值的最快位置将显示在屏幕的右上角。 There is also a refresh button that you can click if any locations are offline. 下面用户可以看到全部服务器位置的列表。 The search field makes it easy to find the location you need.
+The fastest locations with the lowest pings are displayed in the upper right corner of the screen. There is also a refresh button that you can click if any locations are offline. 下面用户可以看到全部服务器位置的列表。 The search field makes it easy to find the location you need.
 
-:::注意
+:::note
 
 免费用户只可以连接到一些服务器位置，而其他位置则被封锁。 除此之外，免费版有每月 3GB 的流量限制。
 
@@ -31,7 +31,7 @@ AdGuard VPN Mac版是一个桌面 VPN 服务。 AdGuard VPN 与 AdGuard 广告�
 
 ![排除项](https://cdn.adguardvpn.com/content/kb/vpn/mac/exclusions_new_en.png)
 
-AdGuard VPN 有几个独特的功能，其中之一就是*排除*。 默认情况下，AdGuard VPN 会在所有网站和应用程序中运行，但白名单内的除外。 但你也可以切换到其他模式，这样 AdGuard VPN 就只能在白名单内的网站和应用程序上运行。
+AdGuard VPN has several features that make it unique, and one of them is definitely *Exclusions*. By default, AdGuard VPN will run on all websites and in all apps but the ones from the exclusions list. But you can switch to the other mode, so AdGuard VPN will run only on websites and in apps from the exclusions list.
 
 ![排除项屏幕](https://cdn.adguardvpn.com/content/kb/vpn/mac/services_new_en.png)
 
@@ -52,22 +52,22 @@ Starting with the version 2.4, all browsers are automatically added to the list 
 
 此外，现成的排除项列表可以传输到被安装 AdGuard VPN 的其他设备。 要导出排除项，请按照以下四步说明进行操作：
 
-1. 在您想要导出排除项列表的设备上打开 AdGuard VPN。 找到相应的部分并单击「*导出*」按钮。 `exclusions.zip` 档案将被下载。
+1. 在您想要导出排除项列表的设备上打开 AdGuard VPN。 Find the appropriate section and click the *Export* button. `exclusions.zip` 档案将被下载。
 2. 档案中有两个 `.txt` 文件，常规模式的列表和选择模式的列表。 用户可以在其中添加更多的排除项，删除现有的排除项，重命名文件（下面还有更多详情），或者也可以将存档中的文件内容保持不变。
 3. 在不同设备之间传输时，不要忘记将 `.zip` 文件发送到设备上进行导入。 例如，如果您将排除项列表从自己的 Mac 设备导入到 iPhone 设备，确保先将 `.zip` 文件发送到手机上。
-4. 在要导入存档的设备/浏览器上打开 AdGuard VPN，其中包含要应用的排除项列表。 找到相应的部分，单击「*导入*」按钮并选择存档。 完成！
+4. 在要导入存档的设备/浏览器上打开 AdGuard VPN，其中包含要应用的排除项列表。 Find the appropriate section, click the *Import* button and select the archive. 完成！
 
-:::注意
+:::note
 
-其他设备上的存档文件同样可以导入到你的 Mac 版 AdGuard VPN 上。
+Archive files from other devices can be similarly imported to your AdGuard VPN for Mac.
 
 :::
 
-## 统计数据
+## Stats
 
 ![Statistics screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/statistics_en.png)
 
-The Stats screen provides detailed information about traffic consumed by location and app, most used locations and apps. 查看 AdGuard VPN for Mac 的每日、每月或整个使用时间的数据。
+The Stats screen provides detailed information about traffic consumed by location and app, most used locations and apps. View data for the day, month, or the entire time AdGuard VPN for Mac has been in use.
 
 Importantly, all data is stored locally on your device, so no one but you has access to it. The Statistics feature is available to users with an AdGuard VPN subscription.
 
@@ -75,7 +75,7 @@ Importantly, all data is stored locally on your device, so no one but you has ac
 
 ![支持屏幕](https://cdn.adguardvpn.com/content/kb/vpn/mac/support_new_en.png)
 
-The fourth tab is the *Support* screen. 在[常见问题](https://adguard-vpn.com/welcome.html#faq)或[知识库](/)部分中查找疑问的答案，如果您遇到问题请报告错误，或[在任意平台上讨论 AdGuard](https://adguard.com/discuss.html)。 请随时[留下有关我们服务](https://surveys.adguard.com/vpn_mac/form.html)的反馈意见，我们将不胜感激。
+The fourth tab is the *Support* screen. Find answers to any questions in the [FAQ](https://adguard-vpn.com/welcome.html#faq) or in the [Knowledge base](/) sections, report a bug if you encounter one, or [discuss AdGuard on any of the platforms](https://adguard.com/discuss.html). And feel free to [leave feedback about our product](https://surveys.adguard.com/vpn_mac/form.html), we’d appreciate it.
 
 ## 设置
 
@@ -87,9 +87,9 @@ The fourth tab is the *Support* screen. 在[常见问题](https://adguard-vpn.co
 
 ![应用程序设置](https://cdn.adguardvpn.com/content/kb/vpn/mac/general-settings_new_en.png)
 
-前四个基本功能提高应用程序的用户友好性，即 *Kill Switch*、 *自动更新*、 *随系统启动自动运行 AdGuard VPN* 和*在应用程序启动时自动连接*。 此外，用户可以在浅色、深色和系统主题之间进行选择。系统主题与您 Mac 上的主题相匹配。
+The first four basic features make the application more convenient and user-friendly, i.e. *Kill Switch*, *Auto-update*, *Launch AdGuard VPN at login*, and *Auto-connect on app launch*. 此外，用户可以在浅色、深色和系统主题之间进行选择。系统主题与您 Mac 上的主题相匹配。
 
-You can also allow AdGuard VPN to gather and send anonymized crash reports, technical and interaction data in order to help us improve our app. 最后，您还可以从 Mac 导出日志。 如果您想将日志附加到您的消息以提供客服支持，本功能很有用。
+You can also allow AdGuard VPN to gather and send anonymized crash reports, technical and interaction data in order to help us improve our app. Last but not least, you can export logs from your Mac. 如果您想将日志附加到您的消息以提供客服支持，本功能很有用。
 
 ### DNS 服务器
 
@@ -103,7 +103,7 @@ One or more DNS servers can be set up here. This is useful if you don't want to 
 
 #### 日志记录级别
 
-软件只有两个日志记录级别，但我们强烈建议用户使用第一个默认级别。 第二个选项（扩展日志级别）应该在咨询我们的技术支持后，仅在记录一个异常的程序行为时设置。 如果启用了扩展日志记录级别，请确保在记录日志后切换到默认级别。
+软件只有两个日志记录级别，但我们强烈建议用户使用第一个默认级别。 第二个选项（扩展日志级别）应该在咨询我们的技术支持后，仅在记录一个异常的程序行为时设置。 If you have enabled the extended logging level, make sure to switch to the default one after recording logs.
 
 #### 隐藏菜单栏的图标
 

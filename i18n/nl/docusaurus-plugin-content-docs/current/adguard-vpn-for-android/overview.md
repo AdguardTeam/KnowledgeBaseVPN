@@ -1,17 +1,17 @@
 ---
-title: Overzicht van functies
+title: Features overview
 sidebar_position: 1
 ---
 
-## Hoofdpagina
+## Main screen
 
-Het hoofdscherm geeft de VPN-status weer (Verbonden/Verbinding verbroken). Er zijn ook de knoppen *Verbinding maken/Verbinding verbreken* en een lijst met beschikbare servers.
+The main screen reflects the VPN status (Connected/Disconnected). There are also the *Connect/Disconnect* button and a list of available servers.
 
-Elke server heeft zijn locatie en zijn pingsnelheid, die de responstijd van de server beschrijven. Hoe lager dit getal, hoe sneller de verbinding. De snelste servers verschijnen altijd bovenaan de lijst die bestaat uit meer dan 50 locaties in tientallen landen. Je kunt verbinding maken met de snelste server door op de knop *Verbinden* te tikken of door een locatie te kiezen.
+Each server has its location and its ping rate, describing the response time of the server. The lower this rate, the faster the connection. The fastest servers always appear at the top of the list that consists of more than 50 locations in dozens of countries. You can connect to the fastest server by tapping the *Connect* button or by picking a location.
 
-## Uitzonderingen
+## Exclusions
 
-Met uitsluitingslijsten kunt u de VPN-verbinding voor specifieke websites en apps beheren. Om *Uitsluitingen*te openen, tikt u op het tweede icoon van links onder aan het scherm.
+Exclusion lists allow you to manage the VPN connection for specific websites and apps. To access *Exclusions*, tap the second icon from the left at the bottom of the screen.
 
 ![Exclusions *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/exclusions.jpg)
 

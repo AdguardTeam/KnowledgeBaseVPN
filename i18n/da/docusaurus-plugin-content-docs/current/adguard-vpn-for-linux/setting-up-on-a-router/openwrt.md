@@ -1,183 +1,183 @@
 ---
-title: Sådan opsættes AdGuard VPN til Linux på en OpenWRT-router
+title: How to set up AdGuard VPN for Linux on an OpenWRT router
 sidebar_position: 3
 ---
 
-:::info Systemkrav
+:::info System requirements
 
-AdGuard VPN til Linux, også kaldet AdGuard VPN CLI, kræver mindst 22 MB ledig lagerplads på routerens indbyggede lager/hukommelse eller eksterne USB, efter at andre nødvendige pakker er installeret.
+AdGuard VPN for Linux, also known as AdGuard VPN CLI, requires at least 22 MB of free storage space on your router’s built-in memory or external USB after installing necessary packages.
 
 :::
 
-## 1. Sørg for, at routeren har SSH aktiveret
+## 1. Make sure that SSH is enabled on your router
 
-Denne indstilling findes normalt i routerens webgrænseflade.
+This setting is usually found in the router’s web interface.
 
-Til OpenWrt:
+For OpenWrt:
 
-1. Log ind på webgrænsefladen. Denne er typisk tilgængelig via en webbrowser på [`http://192.168.1.1`](http://192.168.1.1/).
+1. Log into the web interface. Typically, this is accessible via a web browser at [`http://192.168.1.1`](http://192.168.1.1/).
 
-2. Gå til _System_ → _Håndtering_.
+2. Navigate to _System_ → _Administration_.
 
-3. Sørg for, at _SSH-adgang_ er aktiveret.
+3. Make sure that _SSH Access_ is enabled.
 
-Som standard tillader OpenWrt SSH-adgang til routeren.
+By default, OpenWrt allows SSH access to the router.
 
-## 2. Fastslå routerens IP-adresse
+## 2. Determine your router’s IP address
 
-Typiske standard IP-adresser på mange routere er `192.168.1.1` eller `192.168.0.1`. Har man ændret IP-adressen, eller er man usikker på den, kan adressen findes ved at tjekke IP-opsætningen på en tilsluttet enhed.
+The default IP address for most routers is `192.168.1.1` or `192.168.0.1`. If you’ve changed the IP address or if you’re unsure, you can find it by checking the IP configuration on a connected device.
 
-### Windows
+### On Windows
 
-1. Åbn en Kommandoprompt:
+1. Open command prompt:
 
    ```text
    ipconfig
    ```
 
-2. Kig efter _Standard Gateway_ under den aktive netværksforbindelse. Dette vil være routerens IP-adresse.
+2. Look for the _Default Gateway_ under your active network connection. This is your router’s IP address.
 
-### macOS og Linux
+### On macOS and Linux
 
-1. Åbn Terminal på Linux, og eksekvér denne kommando:
+1. Open Terminal and run this on Linux:
 
    ```text
    ip route | grep default
    ```
 
-   Eller på Mac, denne:
+   Or this on Mac:
 
    ```text
    route -n get default
    ```
 
-2. Kig efter _standard_-posten. IP-adressen ved siden af den er router IP-adressen.
+2. Look for the _default_ entry. The IP address next to it is your router’s IP address.
 
-## 3) Brug en SSH-klient til at oprette forbindelse til routeren
+## 3) Use an SSH client to connect to the router
 
-De fleste Linux- og macOS-systemer leveres med en præinstalleret SSH-klient. Til Windows kan man bruge PowerShell, den indbyggede SSH-klient i Windows 10/11 eller en tredjepartsapplikation såsom PuTTY.
+Most Linux and macOS systems come with an SSH client pre-installed. For Windows, you can use PowerShell, the built-in SSH client in Windows 10/11, or a third-party application like PuTTY.
 
-### Indbygget SSH-klient (Linux, macOS og Windows 10/11)
+### Built-in SSH client (Linux, macOS, and Windows 10/11)
 
-1. Åbn Terminal eller PowerShell.
+1. Open Terminal or PowerShell.
 
-2. Eksekvér SSH-kommandoen:
+2. Run the SSH command:
 
    ```text
    ssh root@192.168.1.1
    ```
 
-   Erstat `192.168.1.1` med routerens aktuelle IP-adresse.
+   Replace `192.168.1.1` with your router’s IP address.
 
-3. Er første gang, der oprettes forbindelse til routeren via SSH, vises en meddelelse i stil med denne:
+3. If this is your first time connecting to the router via SSH, you’ll see a message like:
 
    ```text
-   Ægtheden af værten '192.168.1.1 (192.168.1.1)' kan ikke fastslås.
-    ECDSA-nøglefingeraftryk er SHA256:...
-    Sikker på, at der fortsat skal oprettes forbindelse (Ja/Nej/[Fingeraftryk])
+   The authenticity of host '192.168.1.1 (192.168.1.1)' can't be established.
+   ECDSA key fingerprint is SHA256: ...
+   Are you sure you want to continue connecting? (Yes/No/[Fingerprint])
    ```
 
-   Skriv "Ja", og tryk på Retur.
+   Type `Yes` and press Enter.
 
-4. Angiv på anmodning routerens adgangskode. Standardadgangskoden til OpenWrt er typisk tom (tryk blot på Retur), men man bør have angivet en adgangskode under den indledende opsætning.
+4. Enter the router’s password when prompted. The default password for OpenWrt is typically empty (just press Enter), but you should have set a password during the initial setup.
 
 ### PuTTY (Windows)
 
-1. Download og installér PuTTY fra [det officielle websted](https://www.putty.org/).
+1. Download and install PuTTY from [the official website](https://www.putty.org/).
 
-2. Åbn PuTTY.
+2. Open PuTTY.
 
-3. Angiv i feltet _Værtsnavn (eller IP-adresse)_ routerens IP-adresse (f.eks. `192.168.1.1`).
+3. In the _Host Name (or IP address)_ field, enter your router’s IP address (e.g., `192.168.1.1`).
 
-4. Sørg for, at _Forbindelsestype_ er sat til SSH.
+4. Ensure the _Connection type_ is set to SSH.
 
-5. Klik på _Åbn_.
+5. Click _Open_.
 
-6. Når terminalvinduet åbnes, log ind. Standardbrugernavnet er `root` og standardadgangskoden er `keenetic`.
+6. When the Terminal window opens, log in. The default username is `root` and the default password is `keenetic`.
 
-## 4) Basis SSH-kommandoer
+## 4) Basic SSH commands
 
-Efter indlogning, kan forskellige kommandoer bruges til interaktion med routerens Linux-baserede operativsystem.
+Once logged in, you can use various commands to interact with your router’s Linux-based operating system.
 
-Opdatér pakkelister (OpenWrt):
+Update package lists (OpenWrt):
 
 ```text
 opkg update
 ```
 
-Installér de nødvendige pakker:
+Install required packages:
 
 ```text
 opkg install curl kmod-tun ca-certificates
 ```
 
-Eksekvér AdGuard VPN CLI installations-scriptet:
+Run the AdGuard VPN CLI installation script:
 
 ```text
 curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/release/install.sh | sh -s -- -v
 ```
 
-## 5. Opsæt AdGuard VPN CLI
+## 5. Set up AdGuard VPN CLI
 
-1. Log ind på kontoen
+1. Log in to your account
 
-   Brug af AdGuard VPN til Linux kræver en AdGuard-konto.
+   To use AdGuard VPN for Linux, you need an AdGuard account.
 
-   Tilmeld eller log ind på vores [websted](https://auth.adguard.com/login.html) eller i Terminal.
+   You can sign up or log in on our [website](https://auth.adguard.com/login.html) or in the Terminal.
 
-   For at tilmelde eller logge ind, skriv:
+   To sign up or log in, type:
 
    ```jsx
    adguardvpn-cli login
    ```
 
-   Bemærk: Mislykkes det at linke den binære til '/usr/local/bin', brug da den fulde filsti til at eksekvere alle kommandoer. F.eks. `/opt/adguardvpn_cli/adguardvpn-cli login`
+   Note: If failed to link the binary to '/usr/local/bin’, use full file path to run all commands. For example, `/opt/adguardvpn_cli/adguardvpn-cli login`
 
-2. Opret forbindelse til VPN
+2. Connect to VPN
 
-   Vælg en VPN-serverlokation efter ønske.
+   Select a VPN server location that best suits your needs.
 
-   Det gælder generelt, at jo tættere på serveren er, jo hurtigere er forbindelsen.
+   In general, the closer the server is to you, the faster the connection.
 
-   For at se tilgængelige lokationer, skriv:
+   To view available locations, type:
 
    ```jsx
    adguardvpn-cli list-locations
    ```
 
-   For at oprette forbindelse til en bestemt lokation, skriv:
+   To connect to a specific location, type:
 
    ```jsx
    adguardvpn-cli connect -l LOCATION_NAME
    ```
 
-   Erstat LOCATION_NAME med byen, landet eller ISO-koden for den placering, hvortil der skal oprettes forbindelse.
+   Replace LOCATION_NAME with the city, country, or ISO code of the location you want to connect to.
 
-   For hurtig forbindelse, skriv:
+   For quick connect, type:
 
    ```jsx
    adguardvpn-cli connect
    ```
 
-   AdGuard VPN vælger den hurtigste lokation tilgængelig og husker den til fremtidige hurtige forbindelser.
+   AdGuard VPN will choose the fastest available location and remember it for future quick connections.
 
-3. Justér indstillingerne
+3. Adjust your settings
 
-   Få en liste over alle tilgængelige AdGuard VPN-kommandoer og tilpas VPN-klienten efter behov.
+   Get a list of all available AdGuard VPN commands and customize the VPN client to your needs.
 
-   For at se alle kommandoer, skriv:
+   To view all commands, type:
 
    ```jsx
    adguardvpn-cli --help-all
    ```
 
-   AdGuard VPN CLI opretter en tun0-grænseflade til VPN-tunneling.
+   AdGuard VPN CLI will create a tun0 interface for VPN tunneling.
 
-## 6) Opsæt firewall-regler
+## 6) Set up firewall rules
 
-Det kan gøres via webgrænsefladen eller på kommandolinjen. Trinene nedenfor beskriver opsætning via en SSH-kommandolinje.
+You can do it in the web interface or in the command line. Steps below describe setup via SSH command line.
 
-1. Tilføj en ny ikke-håndteret grænseflade via SSH
+1. Add a new unmanaged interface via SSH
 
    ```shell
    ssh admin@router_ip
@@ -188,20 +188,20 @@ Det kan gøres via webgrænsefladen eller på kommandolinjen. Trinene nedenfor b
    /etc/init.d/network reload
    ```
 
-2. Tilføj tun0 til WAN-zonen
+2. Add tun0 to WAN zone
 
-   For at trafikken skal rutes igennem VPN, tilføj tun0 til WAN-zonen.
-   WAN-grænsefladen, der forbinder til internet, vil typisk være i en zone ved navn 'wan' eller noget tilsvarende. Tjek routerens opsætningsfiler eller firewall-indstillinger for at finde ud af, hvilken zone der tilknyttet WAN-grænsefladen.
+   For traffic to go through VPN, add tun0 to WAN zone.
+   The WAN interface which connects to the Internet will typically be in a zone named `wan` or something similar. Check your router's configuration files or firewall settings to find out which zone is associated with the WAN interface.
 
-   For at gøre dette, oplist de eksisterende firewall-zoner:
+   To do so, list the existing firewall zones:
 
    ```shell
    uci show firewall
    ```
 
-   Dette vil vise en opsætningsfil med alle zoner oplistet. Se efter en sektion såsom `firewall.@zone[1]` el.lign., hvor `indstillingsnavn 'wan'` er defineret. Tallet "[1]" kan være anderledes afhængigt af opsætningen.
+   This will show a config file with all zones listed. Look for a section like `firewall.@zone[1]` or similar where `option name 'wan'` is defined. The number `[1]` could be different depending on your configuration.
 
-   Eksekvér denne SSH-kommando, erstat 'zone[1]' med den korrekte 'wan'-zone identificeret tidligere:
+   Run this SSH command, replace `zone[1]` with correct  ‘wan’ zone identified before:
 
    ```shell
    uci show firewall | grep "=zone"
@@ -210,7 +210,7 @@ Det kan gøres via webgrænsefladen eller på kommandolinjen. Trinene nedenfor b
    /etc/init.d/firewall reload
    ```
 
-   Vil man deaktivere al trafik, som ikke er beskyttes af VPN, eksekvér flg. kommando. På denne måde vil der slet ikke være internetforbindelse, hvis VPN afbrydes. Vælger man ikke at udføre dette trin, vil den reelle IP blive afsløret, hvis VPN afbrydes.
+   If you want to disable all traffic that is not protected by VPN, run the following command. This way you won’t have an Internet connection at all if VPN disconnects. If you choose not to do this step, your real IP will be exposed if the VPN disconnects.
 
    ```shell
    uci del_list firewall.@zone[1].network='wan'
@@ -219,7 +219,7 @@ Det kan gøres via webgrænsefladen eller på kommandolinjen. Trinene nedenfor b
    /etc/init.d/firewall reload
    ```
 
-   Ombestemmer man sig og vil tillade direkte trafik, eksevér da flg. kommando:
+   If you’ve changed your mind and want to allow direct traffic, run the following command:
 
    ```shell
    uci add_list firewall.@zone[1].network='wan'
@@ -228,11 +228,11 @@ Det kan gøres via webgrænsefladen eller på kommandolinjen. Trinene nedenfor b
    /etc/init.d/firewall reload
    ```
 
-## 7) Opsæt automatisk start af AdGuard VPN CLI
+## 7) Set up automatic launch for AdGuard VPN CLI
 
-For automatisk at starte AdGuard VPN CLI efter genstart af routeren, opret en fil på `…/etc/init.d/adguardvpn`.
+To automatically launch AdGuard VPN CLI after rebooting the router, create a file at `…/etc/init.d/adguardvpn`.
 
-Indsæt følgende i filen:
+Paste this into the file:
 
 ```text
 #!/bin/sh /etc/rc.common
@@ -251,7 +251,7 @@ stop() {
 }
 ```
 
-Eksekvér dette for at give adgang til og aktivere autostart:
+Run this to grant access to and enable auto-launch:
 
 ```jsc
  chmod +x /etc/init.d/adguardvpn

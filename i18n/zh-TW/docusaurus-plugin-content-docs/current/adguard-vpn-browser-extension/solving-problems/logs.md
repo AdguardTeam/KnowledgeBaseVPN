@@ -1,77 +1,77 @@
 ---
-title: 如何收集和發送日誌
+title: How to collect and send logs
 sidebar_position: 1
 ---
 
-收集 AdGuard VPN 瀏覽器擴充日誌的方法有很多種，但無論您選擇哪一種，都會收集相同的資料。 在擴充中，日誌不分為標準日誌和偵錯日誌。 當您遇到的問題阻止您使用一條或另一條指令時，我們會為這些情況提供不同的日誌收集選項。
+There are several ways for collecting AdGuard VPN Browser extension logs, but whichever one you choose, the same data will be collected. In the extension, logs are not divided into standard and debug ones. And different options for collecting logs are provided for those cases when a problem you encounter prevents you from using one or another instruction.
 
-## 透過*報告錯誤*部分收集和發送日誌
+## Collecting and sending logs via the *Report a bug* section
 
-1. 開啟 AdGuard VPN 瀏覽器擴展，如果可能，請重複導致錯誤的操作。 請記下此錯誤發生的確切時間。
-1. 點選選單圖示 (☰) 開啟*設定* → *支援* → *報告錯誤*
-1. 在開啟的表單中，留下自動插入的電子郵件地址或輸入另一個電子郵件地址並描述發現的錯誤，包括發生此錯誤的時間。 如果您無法重現問題，請盡可能準確地指定上次發生問題的時間。
-1. 確保 *旁邊有複選標記，將診斷報告包含在訊息* 中，然後點擊 *提交*。 這樣，您將隨錯誤報告一起發送日誌。
+1. Open AdGuard VPN Browser extension, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
+1. Open *Settings* by clicking the hamburger menu icon (☰) → *Support* → *Report a bug*.
+1. In the opened form, leave an automatically inserted email address or enter another one and describe the error found, including the time when this error occurred. If you can't reproduce the problem, specify as accurately as possible when it last occurred.
+1. Make sure that there is a check mark next to *Include the diagnostic report in the message* and tap *Submit*. This way, you will send logs along with the bug report.
 
-## 透過*匯出日誌*按鈕收集和發送日誌
+## Collecting and sending logs via the *Export logs* button
 
-1. 開啟 AdGuard VPN 瀏覽器擴展，如果可能，請重複導致錯誤的操作。 請記下此錯誤發生的確切時間。
-1. 右鍵點選 AdGuard VPN 瀏覽器擴充圖示。
-1. 在開啟的選單中點選*匯出日誌*。
-1. 因此，日誌檔案將以 `txt` 格式儲存到您的裝置。
+1. Open AdGuard VPN Browser extension, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
+1. Right-click the AdGuard VPN Browser extension icon.
+1. In the opened menu click *Export logs*.
+1. As a result, the logs file will be saved to your device in `txt` format.
 
-現在您已經收集了日誌，您需要將它們交給我們的開發團隊。 為此，請執行以下操作：
+Now that you have collected the logs, you need to hand them over to our development team. To do this:
 
-1. 於 GitHub 上報告程式錯誤。 有關在 GitHub 上建立問題的詳細說明，請參閱本文。
-1. 將包含日誌和重現時間的檔案傳送至 `devteam@adguard.com` 並附上指向您的 GitHub 問題的連結。 您也可以將包含日誌和重現時間的檔案新增至 Google Drive，並與 `devteam@adguard.com` 共享，並將 Google Drive 連結附加到您在 GitHub 上的問題。
+1. Report a bug on GitHub. Detailed instructions on creating an issue on GitHub can be found in this article.
+1. Send an archive with logs and reproduce time to `devteam@adguard.com` and attach a link to your GitHub issue. Also you can add an archive with logs and reproduce time to Google Drive and share it with `devteam@adguard.com` attaching the Google Drive link to your issue on GitHub.
 
-## 透過瀏覽器開發者工具收集和發送日誌
+## Collecting and sending logs via browser developer's tools
 
 ### Chrome
 
-1. 開啟 AdGuard VPN 瀏覽器擴展，如果可能，請重複導致錯誤的操作。 請記下此錯誤發生的確切時間。
-1. 前往 `chrome://extensions`
-1. 開啟 *開發者模式*
+1. Open AdGuard VPN Browser extension, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
+1. Go to `chrome://extensions`
+1. Turn on *developer mode*
 
-    ![開發者模式 *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/dev_mode.png)
+    ![The developer mode *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/dev_mode.png)
 
-1. 點選 `background.html`
+1. Click `background.html`
 
-    ![背景 *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/backgroung.png)
+    ![Background *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/backgroung.png)
 
-1. 開啟 *控制台*
+1. Open the *Console tab*
 
-    ![控制台 *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/console.png)
+    ![The Console tab *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/console.png)
 
-1. 開啟上下文選單並點選 *儲存為…*
+1. Open the context menu and click *Save as…*
 
-    ![儲存為 *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/save.png)
+    ![Save as *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/save.png)
 
-現在您已經收集了日誌，您需要將它們交給我們的開發團隊。 為此，請執行以下操作：
+Now that you have collected the logs, you need to hand them over to our development team. To do this:
 
-1. 於 GitHub 上報告程式錯誤。 有關在 GitHub 上建立問題的詳細說明，請參閱本文。
-1. 將包含日誌和播放時間的檔案傳送至 `devteam@adguard.com` 並附上指向您的 GitHub 問題的連結。 您也可以將包含日誌和播放時間的檔案新增至 Google Drive，並與 `devteam@adguard.com` 分享，並將 Google Drive 連結附加到您在 GitHub 上的問題。
+1. Report a bug on GitHub. Detailed instructions on creating an issue on GitHub can be found in this article.
+1. Send an archive with logs and playback time to `devteam@adguard.com` and attach a link to your GitHub issue. Also you can add an archive with logs and playback time to Google Drive and share it with `devteam@adguard.com` attaching the Google Drive link to your issue on GitHub.
 
 ### Firefox
 
-1. 開啟 AdGuard VPN 瀏覽器擴展，如果可能，請重複導致錯誤的操作。 請記下此錯誤發生的確切時間。
-1. 前往 `about:addons`
-1. 點選 *調試Add-ons*
+1. Open AdGuard VPN Browser extension, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
+1. Go to `about:addons`
+1. Click *Debug Add-ons*
 
-    ![除錯 Add-ons *邊框](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/add-ons.png)
+    ![Debug Add-ons *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/add-ons.png)
 
-1. 點選 *檢查*
+1. Click *Inspect*
 
-    ![檢查 *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/inspect.png)
+    ![Inspect *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/inspect.png)
 
-1. 前往 *控制台* 選項卡
+1. Go to the *Console* tab
 
-    ![控制台 *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/ff_console.png)
+    ![Console *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/ff_console.png)
 
-1. 點選*將所有訊息儲存到檔案*
+1. Click *Save all Messages to File*
 
-    ![儲存 *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/save-to-file.png)
+    ![Save *border](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/save-to-file.png)
 
-現在您已經收集了日誌，您需要將它們交給我們的開發團隊。 為此，請執行以下操作：
+Now that you have collected the logs, you need to hand them over to our development team. To do this:
 
-1. 於 GitHub 上報告程式錯誤。 有關在 GitHub 上建立問題的詳細說明，請參閱本文。
-1. 將包含日誌和播放時間的檔案傳送至 `devteam@adguard.com` 並附上指向您的 GitHub 問題的連結。 您也可以將包含日誌和播放時間的檔案新增至 Google Drive，並與 `devteam@adguard.com` 分享，並將 Google Drive 連結附加到您在 GitHub 上的問題。
+1. Report a bug on GitHub. Detailed instructions on creating an issue on GitHub can be found in this article.
+1. Send an archive with logs and playback time to `devteam@adguard.com` and attach a link to your GitHub issue. Also you can add an archive with logs and playback time to Google Drive and share it with `devteam@adguard.com` attaching the Google Drive link to your issue on GitHub.

@@ -1,11 +1,11 @@
 ---
-title: Installation und Entfernen
+title: Installation and removal
 sidebar_position: 2
 ---
 
 ## AdGuard VPN für Linux installieren
 
-Um AdGuard VPN zu installieren, geben Sie Folgendes ein:
+To install AdGuard VPN, type:
 
 Release
 
@@ -27,10 +27,10 @@ curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/sc
 
 Geben Sie bei Bedarf Ihr Admin-Passwort ein.
 
-Stimmen Sie zu, die Binärdatei mit `usr/local/bin` zu verknüpfen, indem Sie `y` drücken und warten Sie, bis die Installation abgeschlossen ist.
+Agree to link the binary to `usr/local/bin` by pressing `y` and wait until the installation is complete.
 
 :::note
-Sie können die Signatur überprüfen, um sicherzustellen, dass es sich um eine offizielle Version von AdGuard VPN handelt, indem Sie das Tool `gpg` verwenden. [Erfahren Sie mehr auf GitHub](https://github.com/AdguardTeam/AdGuardVPNCLI?tab=readme-ov-file#verify-releases)
+You can verify the signature to prove it’s an official version of AdGuard VPN by using the `gpg` tool. [Read more on GitHub](https://github.com/AdguardTeam/AdGuardVPNCLI?tab=readme-ov-file#verify-releases)
 :::
 
 ## AdGuard VPN für Linux deinstallieren
@@ -55,4 +55,4 @@ Nightly
 curl -SsL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/nightly/install.sh | sh -s -- -v -u
 ```
 
-Geben Sie bei Bedarf Ihr Admin-Passwort ein.
+If required, enter your admin password.

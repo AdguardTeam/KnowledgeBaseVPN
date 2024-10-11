@@ -311,7 +311,7 @@
     "description": "Sticky bar btn text with label Download"
   },
   "sticky_bar.btn.text.ios": {
-    "message": "应用商店",
+    "message": "App Store",
     "description": "Sticky bar btn text with label App Store"
   },
   "sticky_bar.btn.text.android": {

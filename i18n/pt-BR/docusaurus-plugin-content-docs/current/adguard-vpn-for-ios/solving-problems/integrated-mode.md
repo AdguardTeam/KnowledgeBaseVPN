@@ -5,22 +5,22 @@ sidebar_position: 4
 
 O AdGuard VPN tem dois modos operacionais: *VPN* e *Integrado*.
 
-O modo *VPN* é ativado por padrão e usa o [protocolo AdGuard VPN](/general/adguard-vpn-protocol). Ele fornece a melhor combinação de velocidade de conexão e segurança. Entretanto, este modo operacional não permite que o AdGuard VPN e o Bloqueador de Anúncios do AdGuard funcionem simultaneamente.
+The *VPN* mode is enabled by default and uses the [AdGuard VPN protocol](/general/adguard-vpn-protocol). Ele fornece a melhor combinação de velocidade de conexão e segurança. Entretanto, este modo operacional não permite que o AdGuard VPN e o Bloqueador de Anúncios do AdGuard funcionem simultaneamente.
 
-O *modo Integrado*, por sua vez, usa o protocolo IPsec, que permite que os aplicativos AdGuard funcionem juntos.
+*Integrated mode*, in turn, uses the IPsec protocol, which makes it possible for the AdGuard apps to work together.
 
-Se você já tiver o AdGuard Ad Blocker ao instalar o AdGuard VPN, esse modo será ativado automaticamente e permitirá que você use ambos os aplicativos ao mesmo tempo.
+If you already have AdGuard Ad Blocker when installing AdGuard VPN, this mode will turn on automatically and allow you to use both our apps at the same time.
 
-Se você instalou o AdGuard VPN primeiro e só depois decidiu experimentar o AdGuard Ad Blocker, siga estas etapas para usar os dois aplicativos juntos:
+If you have installed AdGuard VPN first and only then decided to try AdGuard Ad Blocker, follow these steps to use two apps together:
 
-1. Abra o AdGuard VPN para iOS e toque no ícone ⚙ de Configurações no canto inferior direito da tela.
+1. Open AdGuard VPN for iOS and tap the Settings ⚙ icon in the lower right corner of the screen.
 
-2. Toque em *Geral* → *Modo de operação*.
+2. Tap *General* → *Operating mode*.
 
 3. Troque o modo de *VPN* para *Integrado*. Pronto!
 
 :::note
 
-No *modo Integrado*, *Exclusões* e *Servidor DNS* não estão disponíveis.
+In *Integrated mode*, *Exclusions* and *DNS server* are not available.
 
 :::

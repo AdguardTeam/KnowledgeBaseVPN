@@ -1,42 +1,42 @@
 ---
-title: Sådan indsamles og indsendes logfiler
+title: How to collect and send logs
 sidebar_position: 2
 ---
 
-Opleves problemer under brug af AdGuard VPN til Android, kan vi informeres herom ved indsendelse af app-logfiler.
+If you encounter any problem while using AdGuard VPN for Android, you can inform us about it by sending the app logs.
 
-## Indsamling og indsendelse af standardlogfiler
+## Collecting and sending standard logs
 
-Som standard bruger AdGuard VPN til Android logningsniveauet **Standard**, dvs. basisindsamling af data om kørende app-processer. Følg de næste trin for at indsende disse logfiler:
+By default, AdGuard VPN for Android uses the **Default** logging level, that is, the basic collection of data about running processes of the app. To send these logs, follow the next steps:
 
-1. Åbn AdGuard VPN til Android, og gentag om muligt handlingerne, som udløste fejlen. Notér det nøjagtige tidspunkt, da fejlen opstod.
+1. Open AdGuard VPN for Android and, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
 
-1. Åbn *Indstillinger* → *Support* → *Anmeld en fejl*.
+1. Open *Settings* → *Support* → *Report a bug*.
 
-1. Angiv i den åbnede formular en e-mailadresse for feedback og beskriv den fundne fejl, herunder tidspunktet, da denne opstod. Kan problemet ikke genskabes, angiv da så nøjagtigt som muligt, hvornår det senest opstod.
+1. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred. If you can’t reproduce the problem, specify as accurately as possible when it last occurred.
 
-1. Afkryds *Indsend app-logfiler og systeminfo*. Logfilerne indsendes sammen med anmeldelsen.
+1. Check *Send app logs and system info*. Your logs will be sent along with the report.
 
 :::note
 
-Logfiler kan også eksporteres og indsendes manuelt. Dette gøres ved at gå til *Indstillinger* → *Generelt* → *Avanceret* og trykke på *Eksportér logfiler og systeminfo*.
+You can also export and send logs manually. To do this, go to *Settings* → *General* → *Advanced* and tap *Export logs and system info*.
 
 :::
 
-## Indsamling og indsendelse af udvidede logfiler
+## Collecting and sending extended logs
 
-I de fleste tilfælde er logningsniveauet **Standard** tilstrækkeligt til at spore mulige fejl. Der er dog tilfælde, hvor mere detaljerede tekniske oplysninger om enheden og forbindelser er nødvendig, og så vil vores supportteam bede om at få aktiveret enten logningsniveauet **Udvidet** eller **Ekstremt**. Følg de næste trin for at indsende disse typer logfiler:
+In most cases, the **Default** logging level is sufficient to trace down possible bugs. But there are cases when more detailed technical information about the device and connections is required, and then our support team will ask you to enable the **Extended** or **Extreme** logging level. To send these types of logs, follow these steps:
 
-1. Åbn AdGuard VPN til Android, og vælg *Indstillinger* (tandhjulsikonet i nederst til højre) → *Generelt* → *Avanceret* → *Logningsniveau*.
+1. Open AdGuard VPN for Android and select *Settings* (the gear icon at the bottom right corner) → *General* → *Advanced* → *Logging level*.
 
-1. Vælg *Udvidet* eller *Ekstrem*.
+1. Select *Extended* or *Extreme*.
 
-1. Gentag de handlinger, som førte til fejlen, og notér tidspunktet, da den opstod.
+1. Repeat the actions that led to the error and note the time when it occurred.
 
-1. Skift logningsniveauet tilbage til *Standard*.
+1. Switch the logging level back to *Default*.
 
-1. Returnér til *Indstillinger* og åbn *Support*. Tryk på *Anmeld en fejl*.
+1. Return to *Settings* and open *Support*. Tap *Report a bug*.
 
-1. Angiv din e-mailadresse i formularen, der åbnes, og beskriv den fundne fejl, inkl. tidspunktet, da den opstod.
+1. In the form that opens, enter your email address for feedback and describe the error you found, including the time when it occurred.
 
-1. Afkryds feltet ved siden af *Send app-logfiler og systeminfo*, og tryk på *Indsend*.
+1. Check mark next to *Send app logs and system info* and tap *Send*.

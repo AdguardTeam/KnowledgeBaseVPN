@@ -61,9 +61,9 @@ VPN sunucu konumunu değiştirmek istiyorsanız yönlendirici ayarlarınızı g�
 
 - **Chromecast**:
 
-  **For Gen 4:** Simply download and install [AdGuard VPN from Google Play](https://play.google.com/store/apps/details?id=com.adguard.vpn)
+  **4. Nesil için:** [AdGuard VPN'i Google Play'den](https://play.google.com/store/apps/details?id=com.adguard.vpn) indirip kurmanız yeterlidir
 
-  **For Gen 3:** Follow our guide to [set up AdGuard VPN on your router](#how-to-set-up-adguard-vpn-on-your-router). TV'nizin ve akıllı telefon, tablet veya bilgisayarınızın aynı ağa bağlı olduğundan emin olun
+  **3. Nesil İçin:** [Yönlendiricinizde AdGuard VPN'i kurmak](#how-to-set-up-adguard-vpn-on-your-router) için kılavuzumuzu izleyin. TV'nizin ve akıllı telefon, tablet veya bilgisayarınızın aynı ağa bağlı olduğundan emin olun
 
   **Android TV** için AdGuard VPN'i bir yönlendiriciye kurmanıza gerek yoktur — Android TV için özel bir sürümümüz var. Sadece şu adımları izleyin:
 

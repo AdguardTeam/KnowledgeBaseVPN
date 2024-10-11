@@ -55,7 +55,7 @@ No-logging policy means that we don’t collect, store, or transfer users’ per
 - 칠레
 - 콜롬비아
 - 크로아티아
-- 키프로스
+- Cyprus
 - 체코
 - 덴마크
 - 이집트

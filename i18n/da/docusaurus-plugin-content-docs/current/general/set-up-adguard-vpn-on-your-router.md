@@ -1,78 +1,78 @@
 ---
-title: Sådan opsættes AdGuard VPN på en router
+title: How to set up AdGuard VPN on your router
 sidebar_position: 8
 ---
 
-Man kan ved at opsætte AdGuard VPN på routeren beskytte sine data på enheder, hvor VPN-apps ikke kan installeres, såsom medieenheder og spillekonsoller.
+By setting up AdGuard VPN on your router, you can protect your data on devices where you cannot install VPN apps, such as media devices and game consoles.
 
 :::note
 
-Denne mulighed er kun tilgængelig med et AdGuard VPN-abonnement og en router, hvis indstillinger understøtter IPsec for _VPN-klient_ (**ikke** _VPN-server_).
+This option is only available if you have an AdGuard VPN subscription and your router supports IPsec in its _VPN Client_ (**Not** _VPN Server_) settings.
 
 :::
 
-## Sådan opsættes AdGuard VPN på en router
+## How to set up AdGuard VPN on your router
 
-1. Vælg i [AdGuard-kontoen](https://auth.adguard.com/login.html) AdGuard VPN.
+1. In your [AdGuard account](https://auth.adguard.com/login.html), select AdGuard VPN.
 
-2. Klik på _Tilføj router_ under _Enheder_.
+2. Under _Devices_, click _Add router_.
 
-   ![Tilføj router \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/2_year.jpg)
+   ![Add router \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/2_year.jpg)
 
-3. Vælg den ønskede VPN-serverlokation og generér legitimationsoplysninger.
+3. Select the desired VPN server location and generate credentials.
 
-   ![Generér legitimationsoplysninger \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/configure_router.png)
+   ![Generate credentials \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/configure_router.png)
 
    :::note
 
-   De næste trin kan variere afhængigt af routermærke og -model. Vi har brugt Keenetic-routeren som eksempel.
+   The next steps may vary depending on your router. We have used the Keenetic router as an example.
 
    :::
 
-4. Gå til routerindstillingerne på admin-siden.
+4. In your admin page, go to the router settings.
 
-5. Aktivér _VPN-klient_ og klik på _Tilføj VPN-server_.
+5. Enable _VPN Client_ and click _Add VPN server_.
 
-6. Vælg IPsec-klient (den kan på visse routermærker hedde IKEv2; ikke L2TP/IPsec).
+6. Select IPsec-client (it may for some router brands be called IKEv2; not L2TP/IPsec).
 
-7. Angiv legitimationsoplysningerne oprettet på trin 3.
+7. Enter the credentials you created in step 3.
 
-   ![Angiv legitimationsoplysningerne \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/vpn_connection.jpg)
+   ![Enter the credentials \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/vpn_connection.jpg)
 
-8. Tilslut enheder til routeren.
+8. Connect devices to your router.
 
 :::note
 
-Routerindstillingerne vil skulle opdateres, hvis der ændres VPN-serverlokation.
+You’ll need to update your router settings if you want to change the VPN server location.
 
 :::
 
-## Hvorfor det kan være nyttigt at opsætte AdGuard VPN på routeren
+## Why setting up AdGuard VPN on your router may be useful
 
-- Med AdGuard VPN på routeren har hverken VPN-udbyderen eller nogen andre adgang til internetaktiviteten
-- Installation af AdGuard VPN på routeren sikrer hele netværket, hvilket betyder, at alle enheder, som er tilsluttet det, er beskyttet
-- Man kan forbedre sikkerheden og beskytte sine data på enheder, hvor det ikke er muligt at installere AdGuard VPN-apps — medieenheder og spillekonsoller
+- With AdGuard VPN on your router, neither your VPN provider nor anyone else has access to your Internet activity
+- Installing AdGuard VPN on your router secures your entire network, meaning that all devices connected to it are protected
+- You can enhance security and protect your data on devices where it’s not possible to install AdGuard VPN apps — media devices and game consoles
 
-## Enheder, som kan tilsluttes en router med AdGuard VPN
+## Devices that can be connected to a router with AdGuard VPN
 
-- **PlayStation, Xbox og Nintendo Switch**: For problemfri onlinespil og forbedret sikkerhed på PS4, PS5, Xbox One, Xbox Series og Nintendo Switch, [opsæt AdGuard VPN på routeren](#how-to-set-up-adguard-vpn-on-your-router) og forbind konsollen til den
+- **PlayStation, Xbox, and Nintendo Switch**: To enjoy seamless online gaming and enhanced security on PS4, PS5, Xbox One, Xbox Series, and Nintendo Switch, [set up AdGuard VPN on your router](#how-to-set-up-adguard-vpn-on-your-router) and connect your console to it
 
-- **Apple TV**: Følg vejledningen for at [opsætte AdGuard VPN på routeren](#how-to-set-up-adguard-vpn-on-your-router) og dernæst tilslutte Apple TV'et
+- **Apple TV**: Follow the instructions to [set up AdGuard VPN on your router](#how-to-set-up-adguard-vpn-on-your-router), then connect your Apple TV
 
 - **Chromecast**:
 
-  **For Gen 4:** Download og installér blot [AdGuard VPN fra Google Play](https://play.google.com/store/apps/details?id=com.adguard.vpn)
+  **For Gen 4:** Simply download and install [AdGuard VPN from Google Play](https://play.google.com/store/apps/details?id=com.adguard.vpn)
 
-  **For Gen 3:** Følg vores guide til [opsætning af AdGuard VPN på routeren](#how-to-set-up-adguard-vpn-on-your-router). Sørg for, at TV, smartphone, tablet eller computer er tilsluttet det samme netværk
+  **For Gen 3:** Follow our guide to [set up AdGuard VPN on your router](#how-to-set-up-adguard-vpn-on-your-router). Make sure your TV and smartphone, tablet or computer are connected to the same network
 
-  Til **Android TV** behøver man ikke opsætte AdGuard VPN på routeren – vi har en særlig Android TV-version. Følg blot disse trin:
+  For **Android TV**, you don’t need to set up AdGuard VPN on a router — we have a special version for Android TV. Just follow these steps:
 
-  1. Installér [AdGuard VPN fra Google Play](https://play.google.com/store/apps/details?id=com.adguard.vpn) på Android TV'et
-  2. Hvis man allerede har en AdGuard-konto, log ind på kontoen. Er man ny AdGuard-bruger, angiv en e-mailadresse og følg skærmvejledningen
-  3. Åbn appen, vælg den ønskede lokation, og opret forbindelse
+  1. Install [AdGuard VPN from Google Play](https://play.google.com/store/apps/details?id=com.adguard.vpn) on your Android TV
+  2. If you already have an AdGuard account, log in with your credentials. If you’re new to AdGuard, enter your email address and follow the on-screen instructions
+  3. Open the app, select the location you want, and connect
 
-## Routere kendt for at være inkompatible med AdGuard VPN
+## Routers known to be incompatible with AdGuard VPN
 
 - **ASUS**
-  - Har kun IPsec i _VPN Server_-indstillingerne og ikke i de korrekte _VPN Fusion_/_VPN Client_-indstillinger
+  - Only has IPsec in the _VPN Server_ settings, and not in the correct _VPN Fusion_/_VPN Client_ settings
 - **FRITZ!Box**

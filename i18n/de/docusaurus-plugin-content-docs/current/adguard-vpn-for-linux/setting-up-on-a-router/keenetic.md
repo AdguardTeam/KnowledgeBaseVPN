@@ -1,159 +1,159 @@
 ---
-title: So richten Sie AdGuard VPN für Linux auf einem Keenetic-Router ein
+title: How to set up AdGuard VPN for Linux on a Keenetic router
 sidebar_position: 2
 ---
 
-:::info Systemanforderungen
+:::info System requirements
 
-AdGuard VPN für Linux, auch bekannt als AdGuard VPN CLI, benötigt mindestens 22 MB freien Speicherplatz auf dem integrierten Speicher Ihres Routers oder auf einem externen USB-Stick, nachdem andere notwendige Pakete installiert wurden.
+AdGuard VPN for Linux, also known as AdGuard VPN CLI, requires at least 22 MB of free storage space on your router’s built-in memory or external USB after other necessary packages are installed.
 
 :::
 
-## 1. Sicherstellen, dass SSH auf Ihrem Router aktiviert ist
+## 1. Make sure that SSH is enabled on your router
 
-Der SSH-Client wird verwendet, um von Ihrem Computer aus Befehle an Ihren Router zu senden.
+The SSH client is used to send commands to your router from your computer.
 
-Um den SSH-Server zu betreiben, muss die Systemkomponente _SSH-Server_ im Keenetic installiert sein. Sie können dies auf der Seite _Allgemeine Systemeinstellungen_ im Abschnitt _Komponentenoptionen_ tun, indem Sie auf die Schaltfläche _Komponentenoptionen_ klicken. Suchen Sie nach SSH-Server und installieren Sie ihn. Dadurch wird Ihr Keenetic OS aktualisiert.
+To run the SSH server, the _SSH server_ system component must be installed in the Keenetic. You can do this on the _General system settings_ page in the _Component options_ section by clicking the _Component options_ button. Search for SSH server and install it. This will update your Keenetic OS.
 
-Sobald die Komponente installiert ist, wird der SSH-Server automatisch aktiviert.
+Once the component is installed, the SSH server will be turned on automatically.
 
-Wie Sie einen SSH-Server mit optimalen Sicherheitseinstellungen einrichten können, erfahren Sie im [Keenetic Wiki](https://help.keenetic.com/hc/en-us/articles/360000387189-SSH-remote-access-to-the-Keenetic-command-line).
+To see how to set up SSH server to have optimal security settings, visit [the Keenetic Wiki](https://help.keenetic.com/hc/en-us/articles/360000387189-SSH-remote-access-to-the-Keenetic-command-line).
 
-## 2. Ermitteln Sie die IP-Adresse Ihres Routers
+## 2. Determine your router’s IP address
 
-Die Standard-IP-Adresse der meisten Router lautet `192.168.1.1` oder `192.168.0.1`. Wenn Sie die IP-Adresse geändert haben oder sich nicht sicher sind, können Sie sie ermitteln, indem Sie die IP-Konfiguration auf einem angeschlossenen Gerät überprüfen.
+The default IP address for most routers is `192.168.1.1` or `192.168.0.1`. If you’ve changed the IP address or if you’re unsure, you can find it by checking the IP configuration on a connected device.
 
-### Unter Windows
+### On Windows
 
-1. Öffnen Sie die Eingabeaufforderung:
+1. Open Command Prompt:
 
    ```bash
    ipconfig
    ```
 
-2. Suchen Sie den _Standardgateway_ unter Ihrer aktiven Netzwerkverbindung. Dies ist die IP-Adresse Ihres Routers.
+2. Look for the _Default Gateway_ under your active network connection. This is your router’s IP address.
 
-### Unter macOS und Linux
+### On macOS and Linux
 
-1. Unter Linux öffnen Sie Terminal und führen Sie diesen Befehl aus:
+1. On Linux, open Terminal and run this command:
 
    ```bash
    ip route | grep default
    ```
 
-   Oder dies auf dem Mac:
+   Or this on Mac:
 
    ```text
    route -n get default
    ```
 
-2. Suchen Sie nach dem Eintrag _default_. Die IP-Adresse daneben ist die IP-Adresse Ihres Routers.
+2. Look for the _default_ entry. The IP address next to it is your router’s IP address.
 
-## 3) Verwenden Sie einen SSH-Client, um sich mit dem Router zu verbinden
+## 3) Use an SSH client to connect to the router
 
-Sie benötigen einen SSH-Client. Auf den meisten Linux- und macOS-Systemen ist ein SSH-Client vorinstalliert. Unter Windows können Sie PowerShell, den integrierten SSH-Client in Windows 10/11 oder eine Anwendung eines Drittanbieters wie PuTTY verwenden.
+You’ll need an SSH client. Most Linux and macOS systems come with an SSH client pre-installed. For Windows, you can use PowerShell, the built-in SSH client in Windows 10/11, or a third-party application like PuTTY.
 
-### Integrierter SSH-Client (Linux, macOS und Windows 10/11)
+### Built-in SSH client (Linux, macOS, and Windows 10/11)
 
-1. Öffnen Sie die Eingabeaufforderung oder die PowerShell.
+1. Open Terminal or PowerShell.
 
-2. Führen Sie den folgenden SSH-Befehl aus:
+2. Run the SSH command:
 
    ```bash
    ssh admin@192.168.1.1
    ```
 
-   Ersetzen Sie `192.168.1.1` durch die IP-Adresse Ihres Routers.
+   Replace `192.168.1.1` with your router’s IP address.
 
-3. Wenn Sie sich zum ersten Mal über SSH mit dem Router verbinden, werden Sie eine Meldung sehen wie diese:
+3. If this is your first time connecting to the router via SSH, you’ll see a message like this:
 
    ```text
-   Die Authentizität des Hosts '192.168.1.1 (192.168.1.1)' konnte nicht festgestellt werden.
-   Der Fingerabdruck des ECDSA-Schlüssels lautet SHA256:...
-   Möchten Sie die Verbindung wirklich fortsetzen (Ja/Nein/[Fingerabdruck])?
+   The authenticity of host '192.168.1.1 (192.168.1.1)' can't be established.
+   ECDSA key fingerprint is SHA256:...
+   Are you sure you want to continue connecting (yes/no/[fingerprint])?
    ```
 
-   Geben Sie `Ja` ein und drücken Sie die Eingabetaste.
+   Type `yes` and press Enter.
 
-4. Geben Sie das Passwort des Routers ein, wenn Sie dazu aufgefordert werden. Der Standard-Benutzername ist `root` und das Standard-Passwort ist `keenetic`.
+4. Enter the router’s password when prompted. The default username is `root` and the default password is `keenetic`.
 
-### PuTTY (Windows 8 und älter)
+### PuTTY (Windows 8 and earlier)
 
-1. Laden Sie PuTTY von [der offiziellen Website](https://www.putty.org/) herunter und installieren Sie es.
+1. Download and install PuTTY from [the official website](https://www.putty.org/).
 
-2. Öffnen Sie PuTTY.
+2. Open PuTTY.
 
-3. Geben Sie in das Feld _Hostname (oder IP-Adresse)_ die IP-Adresse Ihres Routers ein (z. B. `192.168.1.1`)
+3. In the _Host Name (or IP address)_ field, enter your router’s IP address (e.g., `192.168.1.1`)
 
-4. Stellen Sie sicher, dass der _Verbindungstyp_ auf SSH eingestellt ist.
+4. Ensure the _Connection type_ is set to SSH.
 
-5. Klicken Sie auf _Öffnen_.
+5. Click _Open_.
 
-6. Wenn sich das Terminalfenster öffnet, melden Sie sich an. Der Standard-Benutzername ist `root` und das Standard-Passwort ist `keenetic`.
+6. When the Terminal window opens, log in. The default username is `root` and the default password is `keenetic`.
 
-Sobald Sie angemeldet sind, können Sie verschiedene Befehle verwenden, um mit dem Linux-basierten Betriebssystem Ihres Routers zu interagieren.
+Once logged in, you can use various commands to interact with your router’s Linux-based operating system.
 
-## 4. „OPKG Entware” installieren
+## 4. Install OPKG Entware
 
-Bei Keenetic-Modellen, die mit einem USB-Anschluss ausgestattet sind (außer Keenetic 4G), können Sie den OPKG-Paketmanager verwenden. Damit können Sie Softwarepakete von Drittanbietern installieren, um die Fähigkeiten des Routers zu erweitern.
+In Keenetic models equipped with a USB port (except Keenetic 4G), you can use the OPKG package manager. It allows you to install third-party software packages to expand routers capabilities.
 
-Ab Version 3.7 ist es bei einigen Keenetic-Modellen möglich, OPKG Entware in die [UBIFS](https://en.wikipedia.org/wiki/UBIFS)-Partition des NAND-Flash-Speichers des Routers zu schreiben, d.h. in den integrierten Speicher des Routers. Gehen Sie wie folgt vor, um das Entware-Repository-Paketsystem auf einem USB-Laufwerk oder im internen Speicher des Routers zu installieren.
+Starting with version 3.7, for some Keenetic models, it is possible to write OPKG Entware to the [UBIFS](https://en.wikipedia.org/wiki/UBIFS) partition of the router's NAND flash memory, i.e. to the built-in memory of the router. Follow the steps below to install the Entware repository package system on a USB drive or in the router’s internal memory.
 
-### So installieren Sie OPKG Entware auf einem USB-Laufwerk
+### How to install OPKG Entware on a USB drive
 
-Es ist möglich, OPKG-Pakete auf den Keenetic-Modellen mit USB-Anschlüssen zu installieren, die USB-Sticks unterstützen. Diese sind: KN-1410, KN-1710/1711, KN-1010/1011, KN-2510, KN-2410, KN-1810, KN-1910, KN-2310, KN-2010, KN-2110, KN-2610, KN-2710.
+It is possible to install OPKG packages on the Keenetic models with USB ports that support USB flash drives. These are: KN-1410, KN-1710/1711, KN-1010/1011, KN-2510, KN-2410, KN-1810, KN-1910, KN-2310, KN-2010, KN-2110, KN-2610, KN-2710.
 
-Eine ausführliche Anleitung finden Sie im [offiziellen Keenetic-Wiki](https://help.keenetic.com/hc/en-us/articles/360021214160-Installing-the-Entware-repository-package-system-on-a-USB-drive).
+For detailed instructions, visit [the official Keenetic Wiki](https://help.keenetic.com/hc/en-us/articles/360021214160-Installing-the-Entware-repository-package-system-on-a-USB-drive).
 
-### So installieren Sie OPKG Entware im internen Speicher des Routers
+### How to install OPKG Entware in the router’s internal memory
 
-Diese Methode funktioniert mit den folgenden Modellen: KN-1010/1011, KN-1810/1811, KN-1910, KN-2010, KN-2110, KN-2310, KN-2410, KN-2510, KN-2610, KN-2710, KN-3810, KN-3610 mit der KeeneticOS Version 3.7 und höher.
+This method will work with the following models: KN-1010/1011, KN-1810/1811, KN-1910, KN-2010, KN-2110, KN-2310, KN-2410, KN-2510, KN-2610, KN-2710, KN-3810, KN-3610 with the KeeneticOS version 3.7 and later.
 
-Eine ausführliche Anleitung finden Sie im [offiziellen Keenetic-Wiki](https://help.keenetic.com/hc/en-us/articles/360021888880-Installing-OPKG-Entware-in-the-router-s-internal-memory).
+For detailed instructions, visit [the official Keenetic Wiki](https://help.keenetic.com/hc/en-us/articles/360021888880-Installing-OPKG-Entware-in-the-router-s-internal-memory).
 
-Wenn Ihr Router die Installation von Paketen auf seinem internen Speicher nicht unterstützt, befolgen Sie die Anweisungen zur Installation von Paketen auf einem USB-Laufwerk.
+If your router doesn’t support installing packages on its internal memory, follow the instructions for installing packages on a USB drive.
 
-## 5. AdGuard VPN CLI installieren
+## 5. Install AdGuard VPN CLI
 
-Führen Sie in Ihrem SSH-Client den folgenden Code aus, um die für AdGuard VPN CLI erforderlichen Pakete zu installieren:
+In your SSH client, execute the following code to install the packages required for AdGuard VPN CLI:
 
 ```bash
 opkg install curl sudo ca-certificates
 ```
 
-Wechseln Sie in den Ordner `/opt` durch Eingabe von `/cd opt` und führen Sie das AdGuard VPN CLI Installationsskript aus:
+Go to the `/opt` folder by typing `/cd opt` and run the AdGuard VPN CLI installation script:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/release/install.sh | sh -s -- -v
 ```
 
-Auf die Frage „Möchten Sie die Binärdatei nach /usr/local/bin verknüpfen?“ antworten Sie mit „n“ und führen diese Zeile aus:
+When asked “Would you like to link the binary to /usr/local/bin?“, reply `n` and run this line:
 
 ```bash
 ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
 ```
 
-## 6. AdGuard VPN CLI einrichten
+## 6. Set up AdGuard VPN CLI
 
-1. Melden Sie sich bei Ihrem Konto an
+1. Log in to your account
 
-   Um AdGuard VPN für Linux nutzen zu können, benötigen Sie ein AdGuard-Konto. Sie können sich auf unserer [Website](https://auth.adguard.com/login.html) oder im Terminal registrieren oder anmelden.
+   To use AdGuard VPN for Linux, you need an AdGuard account. You can sign up or log in on our [website](https://auth.adguard.com/login.html) or in Terminal.
 
-   Vergewissern Sie sich, dass Sie sich in der richtigen Shell-Oberfläche befinden, bevor Sie sich anmelden. Wenn der folgende Text angezeigt wird:
+   Before logging in, go to Terminal and make sure you are in the right shell interface. If you can see the following text:
 
    ```text
    KeeneticOS version 4.01.C.7.0-1, copyright (c) 2010-2024 Keenetic Ltd.
 
-   DIESE SOFTWARE IST GEGENSTAND DER EINGESCHRÄNKTEN ENDBENUTZER-LIZENZVEREINBARUNG VON KEENETIC. DURCH DIE NUTZUNG STIMMEN SIE DEN BEDINGUNGEN DIESER VEREINBARUNG ZU. FÜR WEITERE INFORMATIONEN LESEN SIE BITTE https://keenetic.com/de/legal
+   THIS SOFTWARE IS A SUBJECT OF KEENETIC LIMITED END-USER LICENCE AGREEMENT. BY USING IT YOU AGREE ON TERMS AND CONDITIONS HEREOF. FOR MORE INFORMATION PLEASE CHECK https://keenetic.com/legal
    ```
 
-   Führen Sie diesen Befehl aus, um in die für die nächsten Schritte benötigte Shell zu gelangen:
+   Run this command to exit into the shell needed for the next steps:
 
    ```bash
    exec sh
    ```
 
-   Wenn der folgende Text angezeigt wird, können Sie die Einrichtung fortsetzen:
+   If you see the following text, you can continue the setup:
 
    ```bash
    BusyBox v1.36.1 (2024-08-08 16:11:23 UTC) built-in shell (ash)
@@ -161,48 +161,48 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
    / #
    ```
 
-   Um sich zu registrieren oder anzumelden, geben Sie Folgendes ein:
+   To sign up or log in, type:
 
    ```bash
    adguardvpn-cli login
    ```
 
-2. Mit VPN verbinden
+2. Connect to VPN
 
-   Bei Keenetic-Routern müssen Sie vor dem Verbindungsaufbau das SSL-Zertifikat importieren und einen Ordner für das Benutzerverzeichnis auswählen, indem Sie diesen Befehl ausführen:
+   For Keenetic routers, be sure to import the SSL certificate and select a folder for the user directory by running this command before connecting:
 
    ```bash
    export SSL_CERT_FILE=/opt/etc/ssl/certs/ca-certificates.crt
    export HOME=/opt/home/admin
    ```
 
-   Dies muss vor jeder Sitzung ausgeführt werden.
+   This must be done before each session.
 
-   Wählen Sie einen VPN-Serverstandort, der Ihren Anforderungen am besten entspricht.
+   Select a VPN server location that best suits your needs.
 
-   Im Allgemeinen gilt: Je näher Sie dem Server sind, desto schneller ist die Verbindung.
+   In general, the closer the server is to you, the faster the connection.
 
-   Um die verfügbaren Standorte anzuzeigen, geben Sie Folgendes ein:
+   To view available locations, type:
 
    ```bash
    adguardvpn-cli list-locations
    ```
 
-   Um eine Verbindung zu einem bestimmten Standort herzustellen, geben Sie ein:
+   To connect to a specific location, type:
 
    ```bash
    adguardvpn-cli connect -l LOCATION_NAME
    ```
 
-   Ersetzen Sie `LOCATION_NAME` durch die Stadt, das Land oder den ISO-Code des Standorts, zu dem Sie eine Verbindung herstellen möchten.
+   Replace `LOCATION_NAME` with the city, country, or ISO code of the location you want to connect to.
 
-   Für eine Schnellverbindung, geben Sie ein:
+   For quick connect, type:
 
    ```bash
    adguardvpn-cli connect
    ```
 
-   AdGuard VPN wählt den Standort mit dem niedrigsten Ping aus und speichert ihn für zukünftige Schnellverbindungen.
+   AdGuard VPN will choose the location with the lowest ping and remember it for future quick connections.
 
 3. Adjust your settings
 

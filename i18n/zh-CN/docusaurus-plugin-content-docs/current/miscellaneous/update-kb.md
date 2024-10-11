@@ -15,13 +15,13 @@ sidebar_position: 3
 
 知识库网站是用 Docusaurus 2 建立的，这是一个现代静态网站生成器。 在提出修改或补充建议时，要考虑到所有文件必须符合平台的规则。 用户可以[通过此链接](https://docusaurus.io/docs/category/guides)阅读指南。
 
-您可以把这个知识库部署在您的电脑上，以概述您建议的变化。 有关如何操作的详细说明，请参阅本知识库 GitHub 页面上的 [README.md 文件](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README)。
+您可以把这个知识库部署在您的电脑上，以概述您建议的变化。 Detailed instructions on how to do this can be found [in the README.md file](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README) on this Knowledge Base's GitHub page.
 
 ## 翻译文章 {#translate-adguard}
 
-知识库现有文章的翻译是在 [Crowdin 平台](https://crowdin.com/project/adguard-vpn-knowledge-base)上进行的。 有关翻译和使用 Crowdin 的所有详细信息，都可以在 [AdGuard 广告拦截器知识库的专用文章](https://adguard.com/kb/miscellaneous/contribute/translate/program/)中找到。
+知识库现有文章的翻译是在 [Crowdin 平台](https://crowdin.com/project/adguard-vpn-knowledge-base)上进行的。 All the details about translations and working with Crowdin can be found [in the dedicated article](https://adguard.com/kb/miscellaneous/contribute/translate/program/) of the AdGuard Ad Blocker Knowledge Base.
 
-在撰写 AdGuard VPN 知识库文章时，您可能会遇到包含复数形式的字符串，您应该格外注意翻译。 [在另一篇文章中](https://adguard.com/kb/miscellaneous/contribute/translate/plural-forms/)，我们详细描述了在翻译具有复数形式的字符串时可能出现的困难，并提供了有关如何在Crowdin平台上处理这些困难的详细指导。
+在撰写 AdGuard VPN 知识库文章时，您可能会遇到包含复数形式的字符串，您应该格外注意翻译。 [In a separate article](https://adguard.com/kb/miscellaneous/contribute/translate/plural-forms/), we describe in detail the difficulties that can arise when translating strings with plural forms and provide detailed guidance on how these are handled on the Crowdin platform.
 
 ## 处理未解决的问题
 

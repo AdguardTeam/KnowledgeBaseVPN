@@ -1,19 +1,19 @@
 ---
-title: How to set up AdGuard VPN for Linux on an Asuswrt-Merlin router
+title: Asuswrt-Merlin yönlendiricide Linux için AdGuard VPN nasıl kurulur
 sidebar_position: 4
 ---
 
-:::info System requirements
+:::info Sistem gereksinimleri
 
 1. AdGuard VPN CLI requires at least 22 MB of free storage space on your router’s disk or external USB after installing necessary packages.
-2. **Asuswrt-Merlin firmware**: Make sure your router is running the Asuswrt-Merlin firmware.
+2. **Asuswrt-Merlin donanım yazılımı**: Yönlendiricinizin Asuswrt-Merlin donanım yazılımını çalıştırdığından emin olun.
 3. **USB drive**: A USB drive formatted in a native Linux file system (ext2, ext3, or ext4). We will go through the formatting process in this guide.
 
 :::
 
 ## 1. Determine your router’s IP address
 
-The default IP address for most routers is `192.168.1.1` or `192.168.0.1`. If you’ve changed the IP address or if you’re unsure, you can find it by checking the IP configuration on a connected device.
+Çoğu yönlendirici için varsayılan IP adresi `192.168.1.1` veya `192.168.0.1`dir. If you’ve changed the IP address or if you’re unsure, you can find it by checking the IP configuration on a connected device.
 
 ### On Windows
 
@@ -23,7 +23,7 @@ The default IP address for most routers is `192.168.1.1` or `192.168.0.1`. If
    ipconfig
    ```
 
-2. Look for the _Default Gateway_ under your active network connection. This is your router’s IP address.
+2. Look for the _Default Gateway_ under your active network connection. Bu, yönlendiricinizin IP adresidir.
 
 ### On Mac/Linux
 
@@ -39,11 +39,11 @@ The default IP address for most routers is `192.168.1.1` or `192.168.0.1`. If
    route -n get default
    ```
 
-2. Look for the _default_ entry. The IP address next to it is your router’s IP address.
+2. Look for the _default_ entry. Yanındaki IP adresi ise yönlendiricinizin IP adresidir.
 
 ## 2) Make sure SSH and JFFS custom scripts are enabled on the router
 
-First, make sure that SSH access is enabled on your router. This setting is usually found in the router’s web interface. JFFS custom scripts will be used to set routing rules.
+First, make sure that SSH access is enabled on your router. Bu ayar genellikle yönlendiricinin web arayüzünde bulunur. Yönlendirme kurallarını belirlemek için JFFS özel betikler kullanılacaktır.
 
 1. Log in to the web interface. This is usually accessible via a web browser at [`http://192.168.1.1`](http://192.168.1.1/). Otherwise, replace [`192.168.1.1`](http://192.168.1.1/) with your router’s IP address.
 
@@ -85,24 +85,24 @@ You’ll need an SSH client. Most Linux and macOS systems come with an SSH clien
 
 4. Enter the router’s password when prompted. The SSH login username and password are the same as the admin credentials.
 
-### PuTTY (Windows below 10)
+### PuTTY (Windows 10'dan öncesi)
 
-1. Download and install PuTTY from [the official website](https://www.putty.org/).
+1. PuTTY'yi [resmi siteden](https://www.putty.org/) indirin ve kurun.
 2. PuTTY'yi açın.
 3. In the _Host Name (or IP address)_ field, enter your router’s IP address (e.g., `192.168.1.1`).
 4. Make sure the _Connection type_ is set to SSH.
-5. Click _Open_.
-6. When the Terminal window opens, enter the router’s credentials. The SSH login username and password are the same as the admin credentials.
+5. _Aç_ öğesine tıklayın.
+6. Terminal penceresi açıldığında, yönlendiricinin kimlik bilgilerini girin. The SSH login username and password are the same as the admin credentials.
 
 ## 4) Install Entware using SSH
 
-Once logged into your SSH client, you can use various commands to interact with your router’s Linux-based operating system. To proceed, you will need to install Entware OPKG Manager. It allows you to install third-party software packages to expand router capabilities. Skip to the next step if you already have it installed.
+Once logged into your SSH client, you can use various commands to interact with your router’s Linux-based operating system. To proceed, you will need to install Entware OPKG Manager. Yönlendirici yeteneklerini genişletmek için üçüncü taraf yazılım paketleri yüklemenize olanak tanır. Skip to the next step if you already have it installed.
 
 Note that you cannot use both Optware (outdated alternative) and Entware at the same time.
 
-The Asus DownloadMaster is based on Optware, and therefore is not compatible with Entware. You will have to uninstall DownloadMaster and look at the alternatives provided by Entware.
+Asus DownloadMaster, Optware tabanlıdır ve bu nedenle Entware ile uyumlu değildir. DownloadMaster'ı kaldırmanız ve Entware tarafından sağlanan alternatiflere bakmanız gerekecektir.
 
-After uninstalling, make sure that "asusware.arm" or "asusware.\*" dir on the mounted disk partition is deleted. Otherwise, Entware won't work properly. After uninstalling DownloadMaster, make sure the router is rebooted.
+After uninstalling, make sure that "asusware.arm" or "asusware.\*" dir on the mounted disk partition is deleted. Aksi takdirde, Entware düzgün çalışmaz. DownloadMaster'ı kaldırdıktan sonra yönlendiricinin yeniden başlatıldığından emin olun.
 
 You will need to plug a USB disk that's formatted in a native Linux file system (ext2, ext3 or ext4). Bir diski biçimlendirmek için amtm kullanın. Plug a USB disk into your router, then start amtm with:
 
@@ -120,7 +120,7 @@ Go through the formatting process and select the recommended options. All files 
 
 After mounting your USB, the router will reboot. To start the installation process, first reconnect to your router over SSH.
 
-Then launch the amtm application by simply running:
+Ardından amtm uygulamasını çalıştırmak için şu komutu çalıştırın:
 
 ```bash
 amtm
@@ -140,11 +140,11 @@ If the entware-setup.sh script is not found, download and run the following scri
 wget -O - http://bin.entware.net/armv7sf-k3.2/installer/generic.sh | sh
 ```
 
-Exit amtm by pressing `e`.
+`e` tuşuna basarak amtm'den çıkın.
 
 ## 5. Install AdGuard VPN CLI
 
-Update the package lists:
+Paket listelerini güncelleyin:
 
 ```bash
 opkg update
@@ -190,35 +190,35 @@ modprobe tun
    adguardvpn-cli login
    ```
 
-2. Connect to VPN
+2. VPN'e bağlanın
 
-   Select a VPN server location that best suits your needs.
+   İhtiyaçlarınıza en uygun VPN sunucu konumunu seçin.
 
-   In general, the closer the server, the faster the connection.
+   Genel olarak, sunucu size ne kadar yakınsa bağlantı o kadar hızlı olur.
 
-   To view available locations, type:
+   Mevcut konumları görüntülemek için şunu yazın:
 
    ```jsx
    adguardvpn-cli list-locations
    ```
 
-   To connect to a specific location, type:
+   Belirli bir konuma bağlanmak için şunu yazın:
 
    ```jsx
-   adguardvpn-cli connect -l LOCATION_NAME
+   adguardvpn-cli connect -l LOCATION_NAME
    ```
 
-   Replace LOCATION_NAME with the city, country, or ISO code of the location you want to connect to.
+   LOCATION_NAME yerine bağlanmak istediğiniz konumun şehri, ülkesi veya ISO koduyla değiştirin.
 
-   For quick connect, type:
+   Hızlı bağlantı için şunu yazın:
 
    ```jsx
    adguardvpn-cli connect
    ```
 
-   AdGuard VPN will choose the fastest available location and remember it for future quick connections.
+   AdGuard VPN, mevcut en hızlı konumu seçer ve gelecekteki hızlı bağlantılar için bunu hatırlar.
 
-   Enter `yes` when asked “Would you like to set default routes in TUN mode?”
+   "TUN modunda varsayılan yönlendirmeleri ayarlamak ister misiniz?" diye sorulduğunda `evet` girin
 
    AdGuard VPN CLI will create a tun0 interface for VPN tunneling.
 
@@ -243,19 +243,19 @@ This step configures firewall rules on an Asuswrt-Merlin router to route traffic
    #!/bin/sh
 
    if [ "$2" = "connected" ]; then
-   export SSL_CERT_FILE=/opt/etc/ssl/certs/ca-certificates.crt
-   export HOME=/opt/home/admin
-   modprobe tun
-   /opt/adguardvpn_cli/adguardvpn-cli connect &
-   for ipt in iptables ip6tables; do
-       $ipt -D FORWARD -j ADGUARD_FORWARD || true
-       $ipt -F ADGUARD_FORWARD || true
-       $ipt -X ADGUARD_FORWARD || true
-       $ipt -N ADGUARD_FORWARD
-       $ipt -I FORWARD -j ADGUARD_FORWARD
-       $ipt -A ADGUARD_FORWARD -i br0 -o tun0 -j ACCEPT
-   done
-   exit 0
+       export SSL_CERT_FILE=/opt/etc/ssl/certs/ca-certificates.crt
+       export HOME=/opt/home/admin
+       modprobe tun
+       /opt/adguardvpn_cli/adguardvpn-cli connect &
+       for ipt in iptables ip6tables; do
+           $ipt -D FORWARD -j ADGUARD_FORWARD || true
+           $ipt -F ADGUARD_FORWARD || true
+           $ipt -X ADGUARD_FORWARD || true
+           $ipt -N ADGUARD_FORWARD
+           $ipt -I FORWARD -j ADGUARD_FORWARD
+           $ipt -A ADGUARD_FORWARD -i br0 -o tun0 -j ACCEPT
+       done
+       exit 0
    fi
    EOF
    ```

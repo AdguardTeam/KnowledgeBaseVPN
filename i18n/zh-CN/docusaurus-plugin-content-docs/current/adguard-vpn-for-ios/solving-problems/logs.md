@@ -3,7 +3,7 @@ title: 如何收集和发送日志记录
 sidebar_position: 3
 ---
 
-如果您在使用 AdGuard VPN iOS 版时遇到问题，可以发送应用程序日志通知我们。
+If you encounter any problems while using AdGuard VPN for iOS, you can inform us about it by sending the app logs.
 
 ## 收集和发送标准日志
 
@@ -37,7 +37,7 @@ In most cases, the default logging level is sufficient to track possible bugs. H
 
 4. Repeat the actions that led to the error and note the time when it occurred (e.g., 14:23).
 
-5. 将日志记录级别切回*「默认」*。
+5. Switch the logging level back to *Default*.
 
 6. Go back to *Settings*, tap *Support* and then *Report a bug*.
 

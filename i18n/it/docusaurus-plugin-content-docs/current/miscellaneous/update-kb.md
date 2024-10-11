@@ -15,11 +15,11 @@ Quando sei pronto per iniziare, lavora nel [repositorio KnowledgeBaseVPN](https:
 
 Il sito web della Base di conoscenza è stato creato utilizzando Docusaurus 2, un generatore moderno di siti web statici. Quando suggerisci modifiche o aggiunte, tieni presente che tutti i documenti devono essere conformi ai principi della piattaforma. Per saperne di più, consulta [la guida disponibile a questo link](https://docusaurus.io/docs/category/guides).
 
-È possibile distribuire questa Base di conoscenza localmente sul proprio computer per visualizzare in anteprima le modifiche suggerite. Le istruzioni dettagliate su come farlo si possono trovare [nel file README.md](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README) su questa pagina di GitHub della Base di Conoscenza.
+È possibile distribuire questa Base di conoscenza localmente sul proprio computer per visualizzare in anteprima le modifiche suggerite. Detailed instructions on how to do this can be found [in the README.md file](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README) on this Knowledge Base's GitHub page.
 
 ## Traduzione degli articoli {#translate-adguard}
 
-La traduzione degli articoli esistenti della Base di conoscenza viene effettuata sulla [piattaforma Crowdin](https://crowdin.com/project/adguard-vpn-knowledge-base). Tutti i dettagli sulle traduzioni e sull'utilizzo di Crowdin sono disponibili [nell'articolo dedicato](https://adguard.com/kb/miscellaneous/contribute/translate/program/) della Base di conoscenza di AdGuard Ad Blocker.
+La traduzione degli articoli esistenti della Base di conoscenza viene effettuata sulla [piattaforma Crowdin](https://crowdin.com/project/adguard-vpn-knowledge-base). All the details about translations and working with Crowdin can be found [in the dedicated article](https://adguard.com/kb/miscellaneous/contribute/translate/program/) of the AdGuard Ad Blocker Knowledge Base.
 
 Quando si lavora agli articoli della Base di conoscenza di AdGuard VPN, è possibile che si incontrino stringhe contenenti forme plurali da tradurre con particolare attenzione. [In a separate article](https://adguard.com/kb/miscellaneous/contribute/translate/plural-forms/), we describe in detail the difficulties that can arise when translating strings with plural forms and provide detailed guidance on how these are handled on the Crowdin platform.
 

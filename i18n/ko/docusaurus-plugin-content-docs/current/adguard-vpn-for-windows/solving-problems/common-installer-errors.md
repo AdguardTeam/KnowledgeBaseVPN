@@ -1,27 +1,27 @@
 ---
-title: 일반적인 설치 프로그램 오류
+title: Common installer errors
 sidebar_position: 2
 ---
 
 This article outlines some of the most common errors you may encounter while installing AdGuard VPN for Windows and possible ways to resolve them.
 
-### 오류 5: 액세스 거부 {#error-5}
+### Error 5: Access Denied {#error-5}
 
-This error message appears if required permissions are not granted. AdGuard VPN 설치 프로그램에 설치 프로세스를 제대로 완료하는 데 필요한 권한이 없는 데는 여러 가지 이유가 있을 수 있습니다. 다음 단계를 시도하세요.
+This error message appears if required permissions are not granted. There may be several different reasons why AdGuard VPN installer does not have the permissions it requires to properly finish the installation process. You can try the following steps:
 
-- 바이러스 백신을 일시적으로 비활성화하세요. Some of them may interfere with the installation, depending on the restrictiveness of their settings.
+- Temporarily disable your antiviruses. Some of them may interfere with the installation, depending on the restrictiveness of their settings.
 
-- 다른 설치 폴더를 선택하세요. 현재 설치 폴더에 일부 액세스 제한이 있을 수 있습니다. 또한 외장 드라이브, 가상 드라이브 등을 선택하지 않았는지 확인하세요.
+- Choose a different installation folder. It is possible that the current installation folder has some access restrictions. Also make sure you don't select an external drive, a virtual drive, etc.
 
-- 컴퓨터를 다시 시작하세요. 때때로 권한 문제는 일시적이며 PC를 다시 시작하여 해결할 수 있습니다.
+- Reboot your computer. Sometimes the permission issues are temporary and can be solved by restarting the PC.
 
-### 오류 112: 디스크가 꽉 찼습니다. 오류 1632: 임시 폴더가 꽉 찼거나 액세스할 수 없습니다. {#error-112}
+### Error 112: Disk is full, Error 1632: Temporary folder full or inaccessible {#error-112}
 
 These are two different errors with very similar solutions. As their names suggest, AdGuard VPN installer didn't find enough disk space to complete the installation. There are several things you can attempt to fix the problem:
 
-- AdGuard VPN을 설치하려고 했던 드라이브에서 일부 프로그램을 제거하거나 불필요한 파일을 삭제하세요.
+- Uninstall some programs or delete unnecessary files from the drive you were trying to install AdGuard VPN to.
 
-- Malwarebytes의 무료 소프트웨어인 [AdwCleaner](http://www.bleepingcomputer.com/download/adwcleaner/)를 다운로드, 설치 및 실행하세요. It will, among other things, clean your system from all kinds of extra "leftover" files that remain after incorrectly uninstalled programs and such. It will help clean up some disk space.
+- Download, install, and run [AdwCleaner](http://www.bleepingcomputer.com/download/adwcleaner/), a free piece of software by Malwarebytes. It will, among other things, clean your system from all kinds of extra "leftover" files that remain after incorrectly uninstalled programs and such. It will help clean up some disk space.
 
 - Reboot your computer. Sometimes temporary files can take up a considerable amount of disk space, and restarting your PC is the most reliable way to get rid of them.
 

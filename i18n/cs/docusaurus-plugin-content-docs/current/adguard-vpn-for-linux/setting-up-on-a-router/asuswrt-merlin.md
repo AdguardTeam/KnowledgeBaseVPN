@@ -1,79 +1,79 @@
 ---
-title: How to set up AdGuard VPN for Linux on an Asuswrt-Merlin router
+title: Jak nastavit AdGuard VPN pro Linux na routeru Asuswrt-Merlin
 sidebar_position: 4
 ---
 
-:::info System requirements
+:::info Požadavky na systém
 
-1. AdGuard VPN CLI requires at least 22 MB of free storage space on your router’s disk or external USB after installing necessary packages.
-2. **Asuswrt-Merlin firmware**: Make sure your router is running the Asuswrt-Merlin firmware.
-3. **USB drive**: A USB drive formatted in a native Linux file system (ext2, ext3, or ext4). We will go through the formatting process in this guide.
+1. AdGuard VPN CLI vyžaduje na disku routeru nebo na externím USB nejméně 22 MB volného místa po instalaci nezbytných souborů.
+2. **Firmware Asuswrt-Merlin**: Zkontrolujte, zda je na vašem routeru nainstalován firmware Asuswrt-Merlin.
+3. **USB disk**: USB disk naformátovaný v nativním linuxovém souborovém systému (ext2, ext3 nebo ext4). V této příručce projdeme proces formátování.
 
 :::
 
-## 1. Determine your router’s IP address
+## 1. Zjistěte IP adresu vašeho routeru
 
-The default IP address for most routers is `192.168.1.1` or `192.168.0.1`. If you’ve changed the IP address or if you’re unsure, you can find it by checking the IP configuration on a connected device.
+Výchozí IP adresa pro většinu routerů je `192.168.1.1` nebo `192.168.0.1`. Pokud jste IP adresu změnili nebo si nejste jisti, můžete ji zjistit kontrolou konfigurace IP v připojeném zařízení.
 
-### On Windows
+### Ve Windows
 
-1. Open Command Prompt:
+1. Otevřete příkazový řádek:
 
    ```bash
    ipconfig
    ```
 
-2. Look for the _Default Gateway_ under your active network connection. This is your router’s IP address.
+2. Pod aktivním síťovým připojením vyhledejte položku _Výchozí brána_. Jedná se o IP adresu vašeho routeru.
 
-### On Mac/Linux
+### V macOS/Linux
 
-1. Open Terminal and run this command for Linux:
+1. Otevřete Terminal a spusťte tento příkaz pro Linux:
 
    ```bash
    ip route | grep default
    ```
 
-   Or this one for Mac:
+   Nebo tento pro macOS:
 
    ```bash
    route -n get default
    ```
 
-2. Look for the _default_ entry. The IP address next to it is your router’s IP address.
+2. Vyhledejte položku _výchozí_. IP adresa vedle ní je IP adresa vašeho routeru.
 
-## 2) Make sure SSH and JFFS custom scripts are enabled on the router
+## 2) Ujistěte se zda jsou na routeru povoleny vlastní skripty SSH a JFFS
 
-First, make sure that SSH access is enabled on your router. This setting is usually found in the router’s web interface. JFFS custom scripts will be used to set routing rules.
+Nejprve se ujistěte, že je na routeru povolen přístup SSH. Toto nastavení se obvykle nachází ve webovém rozhraní routeru. K nastavení pravidel směrování se použijí vlastní skripty JFFS.
 
-1. Log in to the web interface. This is usually accessible via a web browser at [`http://192.168.1.1`](http://192.168.1.1/). Otherwise, replace [`192.168.1.1`](http://192.168.1.1/) with your router’s IP address.
+1. Přihlaste se do webového rozhraní. Obvykle je přístupné prostřednictvím webového prohlížeče na adrese [`http://192.168.1.1`](http://192.168.1.1/). V opačném případě nahraďte [`192.168.1.1`](http://192.168.1.1/) IP adresou vašeho routeru.
 
-2. Scroll down to _Advanced settings_, _Administration_ → _System_.
+2. Přejděte dolů na _Pokročilá nastavení_, _Správa_ → _Systém_.
 
-3. Scroll to _Service_, click _Enable SSH_ → _LAN_.
+3. Přejděte na _Služba_, klikněte na _Povolit SSH_ → _LAN_.
 
-4. Select _22_ in _Port_ and _Yes_ in _Allow Password Login_.
+4. Vyberte _22_ v poli _Port_ a _Ano_ v poli _Povolit přihlášení heslem_.
 
-5. Go up to _Persistent JFFS2 partition_ and enable _JFFS custom scripts and configs_.
+5. Přejděte na _Persistentní oddíl JFFS2_ a povolte _Vlastní skripty a konfigurace JFFS_.
 
-6. Click _Apply_ at the bottom of the page.
+6. Klikněte na _Použít_ v dolní části stránky.
 
-## 3) Use an SSH client to connect to the router
+## 3) Připojte se k routeru pomocí klienta SSH
 
-You’ll need an SSH client. Most Linux and macOS systems come with an SSH client pre-installed. For Windows, you can use PowerShell, the built-in SSH client in Windows 10/11, or a third-party application like PuTTY.
+Budete potřebovat klienta SSH. Většina systémů Linux a macOS je dodávána s předinstalovaným klientem SSH. V systému Windows můžete použít prostředí PowerShell, integrovaného klienta SSH v systému Windows 10/11 nebo aplikaci třetí strany, například PuTTY.
 
-### Built-in SSH client (Linux, macOS, and Windows 10/11)
+### Vestavěný klient SSH (Linux, macOS a Windows 10/11)
 
-1. Open Terminal or PowerShell.
+1. Otevřete Terminal nebo PowerShell.
 
-2. Run the SSH command:
+2. Spusťte příkaz SSH:
 
    ```bash
    ssh admin@192.168.1.1
    ```
 
-   Replace `192.168.1.1` with your router’s IP address and `admin` with your admin username.
+   Nahraďte `192.168.1.1` IP adresou routeru a `admin` uživatelským jménem správce.
 
-3. If this is your first time connecting to the router via SSH, you’ll see a message like this:
+3. Pokud se k routeru připojujete přes SSH poprvé, zobrazí se tato zpráva:
 
    ```text
    The authenticity of host '192.168.1.1 (192.168.1.1)' can't be established.
@@ -81,94 +81,94 @@ You’ll need an SSH client. Most Linux and macOS systems come with an SSH clien
    Are you sure you want to continue connecting (yes/no/[fingerprint])?
    ```
 
-   Type `yes` and press Enter.
+   Zadejte `yes` a stiskněte Enter.
 
-4. Enter the router’s password when prompted. The SSH login username and password are the same as the admin credentials.
+4. Na výzvu zadejte heslo routeru. Přihlašovací jméno a heslo SSH jsou stejné jako přihlašovací údaje správce.
 
-### PuTTY (Windows below 10)
+### PuTTY (Windows starší než 10)
 
-1. Download and install PuTTY from [the official website](https://www.putty.org/).
-2. Open PuTTY.
-3. In the _Host Name (or IP address)_ field, enter your router’s IP address (e.g., `192.168.1.1`).
-4. Make sure the _Connection type_ is set to SSH.
-5. Click _Open_.
-6. When the Terminal window opens, enter the router’s credentials. The SSH login username and password are the same as the admin credentials.
+1. Stáhněte a nainstalujte PuTTY z [oficiální stránky](https://www.putty.org/).
+2. Otevřete PuTTY.
+3. Do pole _Název hostitele (nebo IP adresa)_ zadejte IP adresu vašeho routeru (např. `192.168.1.1`).
+4. Ujistěte se, že _Typ připojení_ je nastaven na SSH.
+5. Klikněte na _Otevřít_.
+6. Když se otevře okno Terminal, zadejte přihlašovací údaje routeru. Přihlašovací jméno a heslo SSH jsou stejné jako přihlašovací údaje správce.
 
-## 4) Install Entware using SSH
+## 4) Nainstalujte Entware pomocí SSH
 
-Once logged into your SSH client, you can use various commands to interact with your router’s Linux-based operating system. To proceed, you will need to install Entware OPKG Manager. It allows you to install third-party software packages to expand router capabilities. Skip to the next step if you already have it installed.
+Po přihlášení do klienta SSH můžete pomocí různých příkazů komunikovat s operačním systémem routeru založeným na Linuxu. Chcete-li pokračovat, musíte nainstalovat aplikaci Entware OPKG Manager. Umožňuje instalovat softwarové balíčky třetích stran, které rozšiřují možnosti routeru. Pokud jej již máte nainstalovaný, přejděte k dalšímu kroku.
 
-Note that you cannot use both Optware (outdated alternative) and Entware at the same time.
+Pamatujte, že nemůžete současně používat Optware (zastaralou alternativu) a Entware.
 
-The Asus DownloadMaster is based on Optware, and therefore is not compatible with Entware. You will have to uninstall DownloadMaster and look at the alternatives provided by Entware.
+Asus DownloadMaster je založen na Optware, a proto není kompatibilní s Entware. Budete muset odinstalovat DownloadMaster a podívat se na alternativy poskytované Entware.
 
-After uninstalling, make sure that "asusware.arm" or "asusware.\*" dir on the mounted disk partition is deleted. Otherwise, Entware won't work properly. After uninstalling DownloadMaster, make sure the router is rebooted.
+Po odinstalování se ujistěte, že je smazán adresář "asusware.arm\*" nebo "asusware.\*" na připojeném diskovém oddílu. Jinak nebude Entware pracovat správně. Po odinstalování aplikace DownloadMaster se ujistěte, že je router restartován.
 
-You will need to plug a USB disk that's formatted in a native Linux file system (ext2, ext3 or ext4). To format a disk, use amtm. Plug a USB disk into your router, then start amtm with:
+Je třeba připojit disk USB naformátovaný v nativním souborovém systému Linux (ext2, ext3 nebo ext4). Pro formátování disku použijte příkaz amtm. Připojte disk USB k routeru a spusťte amtm pomocí:
 
 ```bash
 amtm
 ```
 
-Use this option to format a disk and mount it to router:
+Tato možnost slouží k formátování disku a jeho připojení k routeru:
 
 ```bash
 fd
 ```
 
-Go through the formatting process and select the recommended options. All files from the USB disk will be deleted. For this setup to work, USB disk should always stay connected.
+Projděte procesem formátování a vyberte doporučené možnosti. Všechny soubory z disku USB budou smazány. Aby toto nastavení fungovalo, měl by být disk USB vždy připojen.
 
-After mounting your USB, the router will reboot. To start the installation process, first reconnect to your router over SSH.
+Po připojení USB se router restartuje. Chcete-li zahájit proces instalace, nejprve se znovu připojte k routeru prostřednictvím SSH.
 
-Then launch the amtm application by simply running:
+Poté spusťte aplikaci amtm jednoduchým spuštěním:
 
 ```bash
 amtm
 ```
 
-The menu will offer you the option `ep` to initiate the Entware installation.
+Menu vám nabídne možnost `ep` pro zahájení instalace Entware.
 
-If you are running a firmware version older than 384.15 (or 384.13_4 for the RT-AC87U and RT-AC3200), then you start the installation by running the following command instead.
+Pokud používáte firmware starší než 384.15 (nebo 384.13_4 pro RT-AC87U a RT-AC3200), spusťte místo toho instalaci následujícím příkazem.
 
 ```bash
 entware-setup.sh
 ```
 
-If the entware-setup.sh script is not found, download and run the following script to install Entware:
+Pokud skript entware-setup.sh nenajdete, stáhněte a spusťte následující skript pro instalaci Entware:
 
 ```bash
 wget -O - http://bin.entware.net/armv7sf-k3.2/installer/generic.sh | sh
 ```
 
-Exit amtm by pressing `e`.
+Ukončete amtm stisknutím `e`.
 
-## 5. Install AdGuard VPN CLI
+## 5. Nainstalujte AdGuard CLI
 
-Update the package lists:
+Aktualizujte seznamy balíčků:
 
 ```bash
 opkg update
 ```
 
-Install required packages:
+Nainstalujte požadované balíčky:
 
 ```bash
 opkg install curl ca-certificates
 ```
 
-Go to /opt folder by running `cd /opt`  and run the AdGuardVPN CLI installation script:
+Přejděte do složky /opt příkazem `cd /opt` a spusťte instalační skript AdGuardVPN CLI:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/release/install.sh | sh -s -- -v
 ```
 
-When asked “Would you like to link the binary to /usr/local/bin?“, reply `y`. If failed to link the binary, run this line:
+Na dotaz "Would you like to link the binary to /usr/local/bin?" odpovězte `y`. Pokud se binární soubor nepodařilo propojit, spusťte tento řádek:
 
 ```bash
 ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
 ```
 
-Import the SSL certificate and the tun module and set an alternative folder for the user directory. By default, it will be stored in /tmp and you’ll lose your settings after a reboot. Run this before each new session.
+Importujte certifikát SSL a modul TUN a nastavte alternativní složku pro adresář uživatele. Ve výchozím nastavení se uloží do /tmp a po restartu počítače o svá nastavení přijdete. Spusťte to před každou novou relací.
 
 ```bash
 export SSL_CERT_FILE=/opt/etc/ssl/certs/ca-certificates.crt
@@ -176,105 +176,105 @@ export HOME=/opt/home/admin
 modprobe tun
 ```
 
-## 6. Set up AdGuard VPN CLI
+## 6. Nastavte AdGuard CLI
 
-1. Log in to your account
+1. Přihlaste se ke svému účtu
 
-   To use AdGuard VPN for Linux, you need an AdGuard account.
+   Chcete-li používat AdGuard VPN pro Linux, potřebujete účet AdGuard.
 
-   You can sign up on our [website](https://auth.adguard.com/login.html) or in the Terminal.
+   Přihlásit se můžete na našich [webových stránkách](https://auth.adguard.com/login.html) nebo v Terminalu.
 
-   To sign up or log in, type:
+   Chcete-li se zaregistrovat nebo přihlásit, zadejte:
 
    ```jsx
    adguardvpn-cli login
    ```
 
-2. Connect to VPN
+2. Připojení k VPN
 
-   Select a VPN server location that best suits your needs.
+   Vyberte si umístění serveru VPN, které nejlépe vyhovuje vašim potřebám.
 
-   In general, the closer the server, the faster the connection.
+   Obecně platí, že čím blíže je server, tím rychlejší je připojení.
 
-   To view available locations, type:
+   Chcete-li zobrazit dostupná umístění, zadejte:
 
    ```jsx
    adguardvpn-cli list-locations
    ```
 
-   To connect to a specific location, type:
+   Chcete-li se připojit k určitému umístění, zadejte:
 
    ```jsx
    adguardvpn-cli connect -l LOCATION_NAME
    ```
 
-   Replace LOCATION_NAME with the city, country, or ISO code of the location you want to connect to.
+   Nahraďte LOCATION_NAME kódem města, země nebo ISO kódem umístění, ke kterému se chcete připojit.
 
-   For quick connect, type:
+   Pro rychlé připojení zadejte:
 
    ```jsx
    adguardvpn-cli connect
    ```
 
-   AdGuard VPN will choose the fastest available location and remember it for future quick connections.
+   AdGuard VPN vybere nejrychlejší dostupné umístění a zapamatuje si ho pro budoucí rychlá připojení.
 
-   Enter `yes` when asked “Would you like to set default routes in TUN mode?”
+   Na dotaz "Chcete nastavit výchozí trasy v režimu TUN?" zadejte `yes`.
 
-   AdGuard VPN CLI will create a tun0 interface for VPN tunneling.
+   AdGuard VPN CLI vytvoří rozhraní tun0 pro tunel VPN.
 
-3. Adjust your settings
+3. Úprava nastavení
 
-   Get a list of all available AdGuard VPN commands and customize the VPN client to your needs.
+   Získejte seznam všech dostupných příkazů AdGuard VPN a přizpůsobte klienta VPN svým potřebám.
 
-   To view all commands, type:
+   Chcete-li zobrazit všechny příkazy, zadejte:
 
    ```jsx
    adguardvpn-cli --help-all
    ```
 
-## 7) Set up your firewall rules and auto-launch for AdGuard VPN
+## 7) Nastavení pravidel brány firewall a automatického spuštění AdGuard VPN
 
-This step configures firewall rules on an Asuswrt-Merlin router to route traffic through AdGuard VPN.
+Tímto krokem nakonfigurujete pravidla brány firewall na routeru Asuswrt-Merlin pro směrování provozu skrze AdGuard VPN.
 
-1. Create a new script by running the following command:
+1. Nový skript vytvoříte spuštěním následujícího příkazu:
 
    ```bash
    cat << 'EOF' > /jffs/scripts/wan-event
    #!/bin/sh
 
    if [ "$2" = "connected" ]; then
-   export SSL_CERT_FILE=/opt/etc/ssl/certs/ca-certificates.crt
-   export HOME=/opt/home/admin
-   modprobe tun
-   /opt/adguardvpn_cli/adguardvpn-cli connect &
-   for ipt in iptables ip6tables; do
-       $ipt -D FORWARD -j ADGUARD_FORWARD || true
-       $ipt -F ADGUARD_FORWARD || true
-       $ipt -X ADGUARD_FORWARD || true
-       $ipt -N ADGUARD_FORWARD
-       $ipt -I FORWARD -j ADGUARD_FORWARD
-       $ipt -A ADGUARD_FORWARD -i br0 -o tun0 -j ACCEPT
-   done
-   exit 0
+       export SSL_CERT_FILE=/opt/etc/ssl/certs/ca-certificates.crt
+       export HOME=/opt/home/admin
+       modprobe tun
+       /opt/adguardvpn_cli/adguardvpn-cli connect &
+       for ipt in iptables ip6tables; do
+           $ipt -D FORWARD -j ADGUARD_FORWARD || true
+           $ipt -F ADGUARD_FORWARD || true
+           $ipt -X ADGUARD_FORWARD || true
+           $ipt -N ADGUARD_FORWARD
+           $ipt -I FORWARD -j ADGUARD_FORWARD
+           $ipt -A ADGUARD_FORWARD -i br0 -o tun0 -j ACCEPT
+       done
+       exit 0
    fi
    EOF
    ```
 
-   And make it executable:
+   A zajistěte, aby byl spustitelný:
 
    ```bash
    chmod a+rx /jffs/scripts/wan-event
    ```
 
-   If you have more brX interfaces, make sure to include them in the script as well to route their traffic. Alternatively, make sure to specify a different routing rule for those interfaces.
+   Pokud máte více rozhraní brX, nezapomeňte je také zahrnout do skriptu a směrovat jejich přenosy. Případně pro tato rozhraní zadejte jiné pravidlo směrování.
 
-   This script will ensure that all traffic goes through the VPN tunnel. After rebooting or reconnecting to the Internet, AdGuard VPN will connect automatically to your last used location.
+   Tento skript zajistí, aby veškerý provoz procházel tunelem VPN. Po restartování nebo opětovném připojení k internetu se AdGuard VPN automaticky připojí k naposledy používanému umístění.
 
-2. Reboot your router to finish setup.
+2. Restartujte router a dokončete nastavení.
 
-   Congrats! Now you have a router secured with AdGuard VPN.
+   Gratulujeme! Nyní máte router zabezpečený pomocí AdGuard VPN.
 
-   If you want to SSH into your router again to send any commands to AdGuard VPN, make sure to run this first:
+   Pokud se chcete znovu připojit k routeru pomocí SSH a odeslat do AdGuard VPN nějaké příkazy, nezapomeňte nejprve spustit tuto funkci:
 
    ```bash
    export SSL_CERT_FILE=/opt/etc/ssl/certs/ca-certificates.crt

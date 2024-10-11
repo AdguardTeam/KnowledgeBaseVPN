@@ -6,7 +6,7 @@ sidebar_label: Como configurar a automação do AdGuard VPN
 
 Não há exclusões de aplicativos no AdGuard VPN para iOS. No entanto, existe uma maneira de automatizar o AdGuard VPN para aplicativos em iPhones e iPads.
 
-## Configurando a conexão automática com a VPN
+## Configuring automatic connection to VPN
 
 Se você precisar de uma VPN para um ou mais aplicativos, configure o AdGuard VPN para ativar e desativar automaticamente ao abri-los e fechá-los. Vá para a guia Exclusões, selecione o modo Geral e siga as instruções. Aqui descrevemos como criar automação para o Twitter, mas você pode escolher qualquer outro aplicativo.
 
@@ -17,7 +17,7 @@ Se você precisar de uma VPN para um ou mais aplicativos, configure o AdGuard VP
 3. Na próxima janela, verifique se a opção *Está aberto* está selecionada e toque em *Escolher* para selecionar o aplicativo.
 
 ![Instruções. Parte 2](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_on2_en.jpg)
-4. Comece a digitar o nome do aplicativo (no nosso caso é o Twitter) e selecione-o. Toque em *Concluído*e em *Próximo* no canto superior direito da tela. Na janela aberta, toque em *Adicionar ação*.
+4. Start entering the name of the app (in our case it’s Twitter) and select it. Toque em *Concluído*e em *Próximo* no canto superior direito da tela. Na janela aberta, toque em *Adicionar ação*.
 
 ![Instruções. Parte 3](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_on3_en.jpg)
 5. Comece a inserir “AdGuard VPN” e selecione o aplicativo AdGuard VPN. Na nova janela, toque em *Definir conexão VPN*.
@@ -28,7 +28,7 @@ Se você precisar de uma VPN para um ou mais aplicativos, configure o AdGuard VP
 
 Agora você tem um novo cenário: o AdGuard VPN será ativado automaticamente quando você iniciar o aplicativo do Twitter. Agora você precisa criar outro comando que fará o AdGuard VPN desligar automaticamente quando você fechar o aplicativo.
 
-## Configurando a desconexão automática da VPN
+## Configuring automatic disconnection from VPN
 
 ![Instruções. Parte 1](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_off1_en.jpg)
 

@@ -3,7 +3,7 @@ title: 'Come raccogliere e inviare i registri'
 sidebar_position: 1
 ---
 
-Se riscontri qualsiasi problema utlizzando AdGuard VPN per Mac, puoi informarci a riguardo inviando i registri dell'applicazione.
+If you encounter any problems while using AdGuard VPN for Mac, you can inform us about it by sending application logs.
 
 ## Raccolta e invio di registri standard
 
@@ -15,11 +15,11 @@ Per impostazione predefinita, AdGuard VPN per Mac utilizza il livello di registr
 
 3. Nel modulo aperto, inserisci il tuo indirizzo e-mail per il feedback e descrivi l'errore riscontrato, inclusa l'ora in cui si è verificato l'errore. Se non riesci a riprodurre il problema, specifica nel modo più accurato possibile quando si è verificato l'ultima volta.
 
-4. Affianco a **Invia informazioni di sistema dettagliate** è presente un segno di spunta, il che significa che quando invii un rapporto, invii anche i registri.
+4. There is a check mark next to the **Send detailed system info**, which means that when you send a report, you also send logs.
 
 :::note
 
-Se per qualche motivo è più conveniente per te inviarci i registri in un altro modo, puoi esportarli tu stesso. Per farlo, seleziona **Impostazioni** → **Generali** → **Esporta registri** nella sezione **Azioni** sulla destra.
+Se per qualche motivo è più conveniente per te inviarci i registri in un altro modo, puoi esportarli tu stesso. To do this, select **Settings** → **General** → **Export logs** in the **Actions** section on the right.
 
 :::
 
@@ -39,11 +39,11 @@ Nella maggior parte dei casi, il livello di registrazione predefinito è suffici
 
 6. Nel modulo aperto, inserire l'indirizzo e-mail per il feedback e descrivere l'errore riscontrato, compreso l'orario in cui si è verificato l'errore.
 
-7. Assicurati che sia presente una spunta affianco a **Invia informazioni di sistema dettagliate** e clicca su **Invia**.
+7. Make sure that there is a check mark next to **Send detailed system info** and click **Send**.
 
 :::note
 
-Se per qualche motivo è per te più comodo inviarci i registri in un altro modo, puoi esportarli tu stesso. Per farlo, selezionare **Impostazioni** → **Generale** → **Esportazione dei registri** nella sezione **Azioni** a destra.
+If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. Per farlo, selezionare **Impostazioni** → **Generale** → **Esportazione dei registri** nella sezione **Azioni** a destra.
 
 :::
 

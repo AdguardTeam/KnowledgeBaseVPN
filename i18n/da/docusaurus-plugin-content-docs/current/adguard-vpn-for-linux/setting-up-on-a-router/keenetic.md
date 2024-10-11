@@ -1,31 +1,31 @@
 ---
-title: Sådan opsættes AdGuard VPN til Linux på en Keenetic-router
+title: How to set up AdGuard VPN for Linux on a Keenetic router
 sidebar_position: 2
 ---
 
-:::info Systemkrav
+:::info System requirements
 
-AdGuard VPN til Linux, også kaldet AdGuard VPN CLI, kræver mindst 22 MB ledig lagerplads på routerens indbyggede hukommelse eller eksterne USB, efter at andre nødvendige pakker er installeret.
+AdGuard VPN for Linux, also known as AdGuard VPN CLI, requires at least 22 MB of free storage space on your router’s built-in memory or external USB after other necessary packages are installed.
 
 :::
 
-## 1. Sørg for, at routeren har SSH aktiveret
+## 1. Make sure that SSH is enabled on your router
 
-SSH-klienten bruges til at sende kommandoer til routeren fra en computer.
+The SSH client is used to send commands to your router from your computer.
 
-For at køre SSH-serveren skal _SSH-server_-systemkomponenten være installeret i Keenetic. Dette kan gøres fra siden _Generelle systemindstillinger_ i afsnittet _Komponentindstillinger_ ved at klikke på knappen _Komponentindstillinger_. Søg efter SSH-server og installér den. Dette vil opdatere Keenetic-OS'et.
+To run the SSH server, the _SSH server_ system component must be installed in the Keenetic. You can do this on the _General system settings_ page in the _Component options_ section by clicking the _Component options_ button. Search for SSH server and install it. This will update your Keenetic OS.
 
-Når komponenten er installeret, vil SSH-serveren automatisk blive slået til.
+Once the component is installed, the SSH server will be turned on automatically.
 
-Besøg [Keenetic Wiki'en](https://help.keenetic.com/hc/en-us/articles/360000387189-SSH-remote-access-to-the-Keenetic-command-line) for at se, hvordan SSH-serveren opsættes for optimale sikkerhedsindstillinger.
+To see how to set up SSH server to have optimal security settings, visit [the Keenetic Wiki](https://help.keenetic.com/hc/en-us/articles/360000387189-SSH-remote-access-to-the-Keenetic-command-line).
 
-## 2. Fastslå routerens IP-adresse
+## 2. Determine your router’s IP address
 
-Typiske standard IP-adresser på mange routere er `192.168.1.1` eller `192.168.0.1`. Har man ændret IP-adressen, eller er man usikker på den, kan adressen findes ved at tjekke IP-opsætningen på en tilsluttet enhed.
+The default IP address for most routers is `192.168.1.1` or `192.168.0.1`. If you’ve changed the IP address or if you’re unsure, you can find it by checking the IP configuration on a connected device.
 
-### Windows
+### On Windows
 
-1. Åbn en Kommandoprompt:
+1. Open Command Prompt:
 
    ```bash
    ipconfig

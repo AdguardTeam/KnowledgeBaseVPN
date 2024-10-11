@@ -3,7 +3,7 @@ title: Come raccogliere e inviare i registri
 sidebar position: 1
 ---
 
-Se riscontri qualsiasi problema utilizzando AdGuard VPN per Windows, puoi informarci a riguardo. Apprezzeremmo se ci inviassi anche i registri dell'applicazione, poiché ci aiutano a risolvere i problemi molto più rapidamente.
+If you encounter any problems while using AdGuard VPN for Windows, you can inform us about it. We would appreciate it if you also send application logs, as they help us resolve issues much quicker.
 
 ## Collecting logs
 

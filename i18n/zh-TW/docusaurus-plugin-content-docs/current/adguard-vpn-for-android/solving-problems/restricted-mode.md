@@ -1,73 +1,73 @@
 ---
-title: '受限模式設定檔的問題'
+title: 'Problems with Restricted Mode profile'
 sidebar_position: 4
 ---
 
-運行 Android 7+ 作業系統的手機和平板電腦的使用者可能會遇到**使用受限模式設定檔**導致的問題。 如果您有這樣的設定文件，**AdGuard VPN** 與其他使用 VPN 的應用程式一樣，會受到選擇性處理 VPN 流量的限制。 此問題的原因之一可能是您在裝置上使用了**雙重應用程式/雙重訊息描述檔**。 下面描述了出現此問題時可以應用的建議。
+The owners of phones and tablets running the Android 7+ operating system might face the problem caused by using **a profile with Restricted Mode**. If you have such a profile, **AdGuard VPN**, like other applications that use VPN, gets restrictions on selective handling of VPN traffic. Also, one of the reasons for this problem may be using **Dual App/Dual Messenger profile** on your device. Below are described the recommendations that you can apply when this problem occurs.
 
-## 解決方案
+## Solutions
 
-您有兩種方法可以解決該問題：
+You have two ways to solve the issue:
 
-### 選項 1：使用 ADB 向 AdGuard VPN 授予權限
+### Option 1: Grant permissions to AdGuard VPN using ADB
 
-1. 啟動 **開發者模式** 並啟用 **USB 偵錯**：
+1. Activate the **developer mode** and enable **USB debugging**:
 
-    - 打開手機上的 **設定** 應用程式；
-    - 前往 **系統** 部分（設定選單中的最後一項）。 在此部分找到子項 **關於手機**；
-    - 點選 **版本號** 行 7 次。 之後，您將收到一則通知，該通知會說明 **您現在是開發人員**（如有需要，請為裝置輸入解鎖代碼）;
-    - 開啟**系統設定**→**開發者選項**→向下捲動並啟用**USB調試**→在視窗中確認調試已啟用**允許USB調試** 仔細閱讀警告後。
-
-    :::note
-
-    如果您有任何困難或其他問題，可以在 [此處](https://developer.android.com/studio/debug/dev-options)找到完整說明。
-
-    :::
-
-1. [安裝並配置](https://www.xda-developers.com/install-adb-windows-macos-linux/) ADB；
+    - Open the **Settings** application on your phone;
+    - Go to **System** section (last item in the settings menu). In this section find sub-item **About phone**;
+    - Click the **Build number** line 7 times. After that, you will receive a notification that **You are now a developer** (If necessary, enter an unlock code for the device);
+    - Open **System Settings** → **Developer Options** → Scroll down and enable **USB debugging** → Confirm debugging is enabled in the window **Allow USB debugging** after reading the warning carefully.
 
     :::note
 
-    在 Windows 平台上， **三星** 用戶可能需要安裝 [此實用程式](https://developer.samsung.com/mobile/android-usb-driver.html)。
+    If you have any difficulties or additional questions, full instructions can be found [here](https://developer.android.com/studio/debug/dev-options).
 
     :::
 
-1. 使用 **USB 連接線** 將您的裝置連接到安裝了 **ADB**的電腦或筆記型電腦；
+1. [Install and configure](https://www.xda-developers.com/install-adb-windows-macos-linux/) ADB;
 
-1. 在 PC 上開啟 **命令列** ：
+    :::note
 
-    - **Cmd.exe** 若您使用的是 **Windows**；
-    - **終端機** 若您使用的是 **macOS**；
+    On the Windows platform, **Samsung** owners may need to install [this utility](https://developer.samsung.com/mobile/android-usb-driver.html).
 
-1. 輸入指令 `adb shell pm grant com.adguard.vpn android.permission.INTERACT_ACROSS_USERS` 並按 **輸入**。
+    :::
 
-### 選項 2：刪除 *受限使用者帳號*
+1. Connect your device using a **USB cable** to the computer or laptop on which you installed **ADB**;
 
-您可以[在此](https://support.google.com/a/answer/6223444?hl=en)找到如何透過 Android 裝置管理使用者帳戶。
+1. Open **the command line** on your PC:
+
+    - **Cmd.exe** if you are using **Windows**;
+    - **Terminal** if you are using **macOS**;
+
+1. Enter the command `adb shell pm grant com.adguard.vpn android.permission.INTERACT_ACROSS_USERS` and press **Enter**.
+
+### Option 2: Remove *Restricted user account*
+
+You can [find here](https://support.google.com/a/answer/6223444?hl=en) how to manage user accounts from an Android device.
 
 :::note
 
-在某些情況下，受限使用者帳戶是隱式建立的並且無法刪除。 例如，當您在 **Samsung** 或 **LG** 裝置上使用 Dual Messenger 或 Dual App 功能時。 請閱讀下文，了解如何解決這些情況下的問題。
+In some cases restricted user accounts are created implicitly and cannot be removed. For instance, when you use Dual Messenger or Dual App features on **Samsung** or **LG** devices. Read below how to fix the issue in these cases.
 
 :::
 
-### LG 和三星設備
+### LG and Samsung devices
 
-**LG** 或 **Samsung** 手機的使用者也可能會遇到類似的問題。 這可能是由於使用**雙應用程式/雙信使**功能（自動建立受限設定檔）引起的。 要解決此問題，您需要停用此功能。
+Owners of **LG** or **Samsung** phones may also encounter a similar issue. It can be caused by using **Dual App/Dual Messenger** function (which automatically creates a restricted profile). To solve this issue, you need to disable this feature.
 
-#### 三星（Samsung）
+#### Samsung
 
-- 打開 **設定**；
-- 按 **高級**；
-- 向下捲動，然後按 **雙信使**；
-- 禁用所有應用程式的 **雙信使** ；
-- 鎖定設備5分鐘；
-- 解鎖螢幕並再次嘗試建立 VPN 設定檔。
+- Open **Settings**;
+- Press **Advanced**;
+- Scroll down and then press **Dual Messenger**;
+- Disable the **Dual Messenger** for all apps;
+- Lock the device for 5 minutes;
+- Unlock the screen and try again to create the VPN profile.
 
 #### LG
 
-- 開啟**設定**；
-- 選擇 **一般** 選項卡；
-- 向下捲動，然後按 **雙應用程式**;
-- 從清單中刪除所有應用程式；
-- 重新啟動您的裝置。
+- Open **Settings**;
+- Choose the **General** tab;
+- Scroll down and then press **Dual App**;
+- Remove all apps from the list;
+- Reboot your device.
