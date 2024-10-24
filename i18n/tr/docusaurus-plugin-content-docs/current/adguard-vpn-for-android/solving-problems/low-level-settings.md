@@ -15,24 +15,24 @@ To access _Low-level settings_, open the AdGuard VPN app and tap the gear icon i
 
 ## Alt seviye ayarları
 
-Below we list all low-level settings available in AdGuard VPN for Android and explain what they do. We once again urge you not to mess with these settings blindly even if you’ve read this guide. Treat it as a cheat sheet for when you know what you are doing but want to brush up on specifics.
+Aşağıda Android için AdGuard VPN'de bulunan tüm alt seviye ayarları listeliyor ve bunların ne işe yaradığını açıklıyoruz. We once again urge you not to mess with these settings blindly even if you’ve read this guide. Treat it as a cheat sheet for when you know what you are doing but want to brush up on specifics.
 
 ### AdGuard VPN protokolü
 
-AdGuard VPN protokolü varsayılan olarak tespit edilmeyi önlemek ve yüksek hızı korumak için HTTP/2 aktarım protokolünü kullanır. You can read more about its implementation in a [dedicated article](/general/adguard-vpn-protocol.md).
+AdGuard VPN protokolü varsayılan olarak tespit edilmeyi önlemek ve yüksek hızı korumak için HTTP/2 aktarım protokolünü kullanır. Uygulaması hakkında daha fazla bilgiyi [özel makalede](/general/adguard-vpn-protocol.md) okuyabilirsiniz.
 
-You can switch AdGuard VPN to use QUIC transport protocol instead. [QUIC](https://adguard-vpn.com/kb/general/why-adguard-vpn/#6-quic-support) nispeten yeni bir protokoldür, bu nedenle daha az kararlı olabilir. However, if your Internet connection is unstable (for example, when you connect to the public Wi-Fi), it provides better security and increases the connection speed thanks to the [Head-Of-Line Blocking](https://adguard-dns.io/en/blog/dns-over-quic.html#headoflineblocking) technology.
+AdGuard VPN'i bunun yerine QUIC aktarım protokolünü kullanacak şekilde değiştirebilirsiniz. [QUIC](https://adguard-vpn.com/kb/general/why-adguard-vpn/#6-quic-support) nispeten yeni bir protokoldür, bu nedenle daha az kararlı olabilir. However, if your Internet connection is unstable (for example, when you connect to the public Wi-Fi), it provides better security and increases the connection speed thanks to the [Head-Of-Line Blocking](https://adguard-dns.io/en/blog/dns-over-quic.html#headoflineblocking) technology.
 
 ### Include Wi-Fi gateway in VPN routes
 
 If this setting is enabled, the gateway IP addresses will be added to VPN routes when on Wi-Fi.
-Bunu devre dışı bırakırsanız, yönlendirme yapılandırması (filtrelenen IP aralıkları) değişecektir. The Wi-Fi gateway of the network to which the user is connected will be excluded, and therefore, it will not be subject to filtering.
+Bunu devre dışı bırakırsanız, yönlendirme yapılandırması (filtrelenen IP aralıkları) değişecektir. Kullanıcının bağlı olduğu ağın Wi-Fi ağ geçidi hariç tutulacak ve bu nedenle filtrelemeye tabi olmayacaktır.
 
-This setting is enabled by default.
+Bu ayar varsayılan olarak etkindir.
 
 ### Paket yakalama (PCAP)
 
-If this setting is enabled, AdGuard VPN will create a `.pcap` file with a timestamp for its name (for instance, `1682599851461.pcap`) in the app cache directory. This file lists all network packets transferred through the VPN and can be analyzed with the [Wireshark program](https://www.wireshark.org/).
+If this setting is enabled, AdGuard VPN will create a `.pcap` file with a timestamp for its name (for instance, `1682599851461.pcap`) in the app cache directory. Bu dosya VPN üzerinden aktarılan tüm ağ paketlerini listeler ve [Wireshark programı](https://www.wireshark.org/) ile analiz edilebilir.
 
 ### Gözetleyici
 
@@ -44,11 +44,11 @@ Burada uç nokta adreslerini ayarlayabilirsiniz. Üç seçenek vardır: IPv4, IP
 
 ### VPN'den hariç tutulan IPv4 aralıkları
 
-VPN tunneling for the IPv4 ranges listed in this section will be disabled.
+Bu bölümde listelenen IPv4 aralıkları için VPN tünelleme devre dışı bırakılacaktır.
 
 ### IPv6 arayüzü
 
-Bu seçeneği etkinleştirdikten sonra VPN bağlantısı üzerinden trafiği yönlendirirken bir IPv6 adresine sahip olacaksınız. You can set up the exclusions in the _IPv6 ranges excluded from VPN_.
+Bu seçeneği etkinleştirdikten sonra VPN bağlantısı üzerinden trafiği yönlendirirken bir IPv6 adresine sahip olacaksınız. _VPN'den hariç tutulan IPv6 aralıkları_ öğesinde istisnaları ayarlayabilirsiniz.
 
 ### VPN'den hariç tutulan IPv6 aralıkları
 
@@ -56,7 +56,7 @@ Bu bölümde listelenen IPv6 aralıkları için VPN tünelleme devre dışı bı
 
 :::note
 
-You need to enable _IPv6 interface_ setting in _Low-level settings_ first, otherwise this setting will not be applied.
+Öncelikle _Alt seviye ayarlar_ bölümünden _IPv6 arayüzü_ ayarını etkinleştirmeniz gerekiyor, aksi takdirde bu ayar uygulanmayacaktır.
 
 :::
 

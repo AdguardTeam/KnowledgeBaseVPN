@@ -48,7 +48,7 @@ adguardvpn-cli config set-socks-username <username>
 adguardvpn-cli config set-socks-password <password>
 ```
 
-Replace `<username>` and `<password>` with your desired username and password. To clear the SOCKS username and password, type:
+`<username>` ve `<password>` ifadelerini istediğiniz kullanıcı adı ve parolayla değiştirin. To clear the SOCKS username and password, type:
 
 ```
 adguardvpn-cli config clear-socks-auth
