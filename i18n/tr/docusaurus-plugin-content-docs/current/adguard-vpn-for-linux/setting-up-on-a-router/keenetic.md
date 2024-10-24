@@ -5,7 +5,7 @@ sidebar_position: 2
 
 :::info Sistem gereksinimleri
 
-AdGuard VPN for Linux, also known as AdGuard VPN CLI, requires at least 22 MB of free storage space on your router’s built-in memory or external USB after other necessary packages are installed.
+AdGuard VPN CLI olarak da bilinen Linux için AdGuard VPN, diğer gerekli paketler yüklendikten sonra yönlendiricinizin dâhili belleğinde veya harici USB'sinde en az 22 MB boş depolama alanı gerektirir.
 
 :::
 
@@ -13,7 +13,7 @@ AdGuard VPN for Linux, also known as AdGuard VPN CLI, requires at least 22 MB of
 
 The SSH client is used to send commands to your router from your computer.
 
-To run the SSH server, the _SSH server_ system component must be installed in the Keenetic. You can do this on the _General system settings_ page in the _Component options_ section by clicking the _Component options_ button. Search for SSH server and install it. Bu, Keenetic işletim sisteminizi günceller.
+To run the SSH server, the _SSH server_ system component must be installed in the Keenetic. You can do this on the _General system settings_ page in the _Component options_ section by clicking the _Component options_ button. SSH sunucusunu arayın ve yükleyin. Bu, Keenetic işletim sisteminizi günceller.
 
 Once the component is installed, the SSH server will be turned on automatically.
 
@@ -35,7 +35,7 @@ To see how to set up SSH server to have optimal security settings, visit [the Ke
 
 ### On macOS and Linux
 
-1. On Linux, open Terminal and run this command:
+1. Linux'ta Terminal'i açın ve şu komutu çalıştırın:
 
    ```bash
    ip route | grep default
@@ -51,9 +51,9 @@ To see how to set up SSH server to have optimal security settings, visit [the Ke
 
 ## 3) Yönlendiriciye bağlanmak için bir SSH istemcisi kullan
 
-You’ll need an SSH client. Most Linux and macOS systems come with an SSH client pre-installed. For Windows, you can use PowerShell, the built-in SSH client in Windows 10/11, or a third-party application like PuTTY.
+You’ll need an SSH client. Çoğu Linux ve macOS sistemi önceden yüklenmiş bir SSH istemcisiyle birlikte gelir. Windows için, Windows 10/11'deki yerleşik SSH istemcisi olan PowerShell'i veya PuTTY gibi üçüncü taraf bir uygulamayı kullanabilirsiniz.
 
-### Built-in SSH client (Linux, macOS, and Windows 10/11)
+### Yerleşik SSH istemcisi (Linux, macOS ve Windows 10/11)
 
 1. Terminal veya PowerShell'i açın.
 
@@ -63,7 +63,7 @@ You’ll need an SSH client. Most Linux and macOS systems come with an SSH clien
    ssh admin@192.168.1.1
    ```
 
-   Replace `192.168.1.1` with your router’s IP address.
+   `192.168.1.1` kısmını yönlendiricinizin IP adresiyle değiştirin.
 
 3. If this is your first time connecting to the router via SSH, you’ll see a message like this:
 
@@ -79,13 +79,13 @@ You’ll need an SSH client. Most Linux and macOS systems come with an SSH clien
 
 ### PuTTY (Windows 8 ve öncesi)
 
-1. Download and install PuTTY from [the official website](https://www.putty.org/).
+1. PuTTY'yi [resmi siteden](https://www.putty.org/) indirin ve kurun.
 
 2. PuTTY'yi açın.
 
 3. In the _Host Name (or IP address)_ field, enter your router’s IP address (e.g., `192.168.1.1`)
 
-4. Ensure the _Connection type_ is set to SSH.
+4. _Bağlantı türü_ öğesinin SSH olarak ayarlandığından emin olun.
 
 5. _Aç_ öğesine tıklayın.
 
@@ -95,7 +95,7 @@ Once logged in, you can use various commands to interact with your router’s Li
 
 ## 4. Install OPKG Entware
 
-USB portu bulunan Keenetic modellerinde (Keenetic 4G hariç) OPKG paket yöneticisini kullanabilirsiniz. It allows you to install third-party software packages to expand routers capabilities.
+USB portu bulunan Keenetic modellerinde (Keenetic 4G hariç) OPKG paket yöneticisini kullanabilirsiniz. Yönlendiricilerin yeteneklerini genişletmek için üçüncü taraf yazılım paketleri yüklemenize olanak tanır.
 
 Starting with version 3.7, for some Keenetic models, it is possible to write OPKG Entware to the [UBIFS](https://en.wikipedia.org/wiki/UBIFS) partition of the router's NAND flash memory, i.e. to the built-in memory of the router. Follow the steps below to install the Entware repository package system on a USB drive or in the router’s internal memory.
 
@@ -115,7 +115,7 @@ If your router doesn’t support installing packages on its internal memory, fol
 
 ## 5. Install AdGuard VPN CLI
 
-In your SSH client, execute the following code to install the packages required for AdGuard VPN CLI:
+SSH istemcinizde, AdGuard VPN CLI için gerekli paketleri yüklemek için aşağıdaki kodu çalıştırın:
 
 ```bash
 opkg install curl sudo ca-certificates

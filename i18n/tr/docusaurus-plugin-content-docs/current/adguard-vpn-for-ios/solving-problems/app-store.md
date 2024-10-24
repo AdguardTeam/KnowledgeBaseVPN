@@ -61,7 +61,7 @@ App Store'da ücretli abonelikleri olan ve yalnızca farklı bölgelerden ücret
 
 3. Tap on _Media & Purchases_ again and select _Not [your name]?_ You will be prompted to sign in with a different Apple ID.
 
-   ![Changing account](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/log_out.png)
+   ![Hesap değiştiriliyor](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/log_out.png)
 
 4. Yeni hesabınızın e-posta adresini ve parolasını girin.
 
