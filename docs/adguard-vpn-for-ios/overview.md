@@ -32,7 +32,7 @@ With AdGuard VPN, you can choose from over 50 locations in dozens of countries.
 
 ## Exclusions
 
-You can find the Exclusions tab by tapping the second icon in the bottom bar. 
+You can find the Exclusions tab by tapping the second icon in the bottom bar.
 
 By default, AdGuard VPN is active for all websites except those added to exclusions. You can also turn it on selectively — VPN will be active only for specified websites. To switch to this mode, tap *Change mode*.
 
