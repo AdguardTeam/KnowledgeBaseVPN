@@ -46,7 +46,7 @@ You can add domains (e.g., `google.com`) or subdomains (e.g., `news.google.com`)
 
 - Enter them manually in the app
 - [Choose from domain lists for popular services](#domain-lists-for-popular-services)
-- Add them directly from the browser by sharing the desired pages to AdGuard VPN app
+- Add them directly from the browser by sharing the desired pages to the AdGuard VPN app
 
 ![Exclusions *mobile_border](https://cdn.adtidy.org/blog/new/lpjs7iexclusions-as-of-v2-4.png)
 
