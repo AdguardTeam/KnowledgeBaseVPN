@@ -56,7 +56,7 @@ If you manually add a subdomain, the main domain will also added — but the che
 
 Large services like Google are tricky. They usually use more than one domain — one for media files, another for the API, plus domains for different countries. For example, in the case of Google, we have 416 domains in our list — all of them need to be added to Exclusions to completely turn VPN off (or on) for the service.
 
-Here's how to add all necessary domains for a popular service to exclusions list:
+Here's how to add all necessary domains for a popular service to exclusion list:
 
 1. Open *Exclusions*.
 2. Tap *Add website*.
