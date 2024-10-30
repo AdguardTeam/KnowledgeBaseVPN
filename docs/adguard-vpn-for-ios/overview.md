@@ -36,7 +36,11 @@ You can find the Exclusions tab by tapping the second icon in the bottom bar.
 
 By default, AdGuard VPN is active for all websites except those added to Exclusions. You can also turn it on selectively — VPN will be active only for specified websites. To switch to this mode, tap *Change mode*.
 
-> Note that each mode has its own exclusion list.
+:::note
+
+Each mode has its own exclusion list.
+
+:::
 
 You can add domains (e.g., `google.com`) or subdomains (e.g., `news.google.com`) of websites to the lists in three ways:
 
