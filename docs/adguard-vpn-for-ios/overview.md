@@ -34,7 +34,7 @@ With AdGuard VPN, you can choose from over 50 locations in dozens of countries.
 
 You can find the Exclusions tab by tapping the second icon in the bottom bar.
 
-By default, AdGuard VPN is active for all websites except those added to exclusions. You can also turn it on selectively — VPN will be active only for specified websites. To switch to this mode, tap *Change mode*.
+By default, AdGuard VPN is active for all websites except those added to Exclusions. You can also turn it on selectively — VPN will be active only for specified websites. To switch to this mode, tap *Change mode*.
 
 > Note that each mode has its own exclusion list.
 
@@ -46,7 +46,7 @@ You can add domains (e.g., `google.com`) or subdomains (e.g., `news.google.com`)
 
 ![Exclusions *mobile_border](https://cdn.adtidy.org/blog/new/lpjs7iexclusions-as-of-v2-4.png)
 
-When you manually add a domain, all subdomains are added automatically (it looks like `*.google.com`). Want to keep only google.com or turn VPN off for a specific domain? Tap the line with the website — it will open a separate screen where you can manage subdomains. Just uncheck the boxes for those you don't need.
+When you manually add a domain, all subdomains are added automatically (it looks like `*.google.com`). Want to keep only google.com or turn VPN off for a specific domain? Tap the line with the website — this will open a separate screen where you can manage subdomains. Just uncheck the boxes for the ones you don't need.
 
 ![Subdomains *mobile_border](https://cdn.adtidy.org/content/release_notes/vpn/ios/v2.4/domains_en.png)
 
@@ -54,7 +54,7 @@ If you manually add a subdomain, the main domain will also added — but the che
 
 ### Domain lists for popular services
 
-Large services like Google are tricky. They usually use more than one domain — one for media files, another for the API, plus domains for different countries. For example, in the case of Google, we have 416 domains in our list — all of them need to be added to exclusions to completely turn VPN off (or on) for the service.
+Large services like Google are tricky. They usually use more than one domain — one for media files, another for the API, plus domains for different countries. For example, in the case of Google, we have 416 domains in our list — all of them need to be added to Exclusions to completely turn VPN off (or on) for the service.
 
 Here's how to add all necessary domains for a popular service to exclusions list:
 
