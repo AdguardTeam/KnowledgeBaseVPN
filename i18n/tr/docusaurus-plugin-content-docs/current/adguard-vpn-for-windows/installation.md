@@ -56,3 +56,21 @@ Normal kaldırma herhangi bir nedenle işe yaramazsa, gelişmiş bir yöntem kul
     ![Kaldırma işlemi tamamlandı *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/vpn_extended_complete.jpg)
 
 AdGuard VPN başarıyla kaldırıldı!
+
+#### Running the uninstaller in console mode
+
+Besides running the advanced uninstaller in its user-interactive mode, you can also use command-line arguments to uninstall AdGuard VPN for Windows. Bunu yapmak için, aşağıdaki talimatları izleyin:
+
+1. Başlat menüsünden *cmd* yazarak Komut İstemi'ni açın.
+2. Use `/console` to run the uninstaller in console mode, without the interactive UI. Eğer `/console` modu aktif değilse aşağıdaki tüm komut satırı parametreleri göz ardı edilecektir.
+3. Windows için AdGuard'ı kaldırmak için `/vpn` parametresini kullanın. Bu şöyle görünmelidir:
+
+   `Adguard.UninstallUtility.exe /console /vpn`
+
+4. You can also use `/advanced` to force the uninstaller to run in *Advanced mode* and `/settings` to force the uninstaller to remove user settings along with the application.
+
+:::note
+
+Başarılı bir kaldırma işlemi için `/console` ve `/vpn` parametrelerinin kullanılması gereklidir. `/advanced` ve `/settings` parametreleri isteğe bağlıdır.
+
+:::

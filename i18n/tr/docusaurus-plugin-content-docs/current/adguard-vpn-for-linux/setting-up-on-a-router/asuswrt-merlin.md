@@ -27,7 +27,7 @@ sidebar_position: 4
 
 ### On Mac/Linux
 
-1. Open Terminal and run this command for Linux:
+1. Terminal'i açın ve Linux için şu komutu çalıştırın:
 
    ```bash
    ip route | grep default
@@ -43,9 +43,9 @@ sidebar_position: 4
 
 ## 2) Make sure SSH and JFFS custom scripts are enabled on the router
 
-First, make sure that SSH access is enabled on your router. Bu ayar genellikle yönlendiricinin web arayüzünde bulunur. Yönlendirme kurallarını belirlemek için JFFS özel betikler kullanılacaktır.
+Öncelikle, yönlendiricinizde SSH erişiminin etkinleştirildiğinden emin olun. Bu ayar genellikle yönlendiricinin web arayüzünde bulunur. Yönlendirme kurallarını belirlemek için JFFS özel betikler kullanılacaktır.
 
-1. Log in to the web interface. This is usually accessible via a web browser at [`http://192.168.1.1`](http://192.168.1.1/). Otherwise, replace [`192.168.1.1`](http://192.168.1.1/) with your router’s IP address.
+1. Log in to the web interface. Buna genellikle [`http://192.168.1.1`](http://192.168.1.1/) adresinden bir web tarayıcısı aracılığıyla erişilebilir. Aksi takdirde, [`192.168.1.1`](http://192.168.1.1/) adresini yönlendiricinizin IP adresiyle değiştirin.
 
 2. Scroll down to _Advanced settings_, _Administration_ → _System_.
 
@@ -63,9 +63,9 @@ You’ll need an SSH client. Most Linux and macOS systems come with an SSH clien
 
 ### Built-in SSH client (Linux, macOS, and Windows 10/11)
 
-1. Open Terminal or PowerShell.
+1. Terminal veya PowerShell'i açın.
 
-2. Run the SSH command:
+2. SSH komutunu çalıştırın:
 
    ```bash
    ssh admin@192.168.1.1
@@ -81,7 +81,7 @@ You’ll need an SSH client. Most Linux and macOS systems come with an SSH clien
    Are you sure you want to continue connecting (yes/no/[fingerprint])?
    ```
 
-   Type `yes` and press Enter.
+   `Evet` yazın ve Enter tuşuna basın.
 
 4. Enter the router’s password when prompted. The SSH login username and password are the same as the admin credentials.
 
@@ -118,7 +118,7 @@ fd
 
 Go through the formatting process and select the recommended options. All files from the USB disk will be deleted. For this setup to work, USB disk should always stay connected.
 
-After mounting your USB, the router will reboot. To start the installation process, first reconnect to your router over SSH.
+USB'nizi taktıktan sonra yönlendirici yeniden başlatılır. To start the installation process, first reconnect to your router over SSH.
 
 Ardından amtm uygulamasını çalıştırmak için şu komutu çalıştırın:
 
@@ -168,7 +168,7 @@ When asked “Would you like to link the binary to /usr/local/bin?“, reply `y`
 ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
 ```
 
-Import the SSL certificate and the tun module and set an alternative folder for the user directory. By default, it will be stored in /tmp and you’ll lose your settings after a reboot. Run this before each new session.
+Import the SSL certificate and the tun module and set an alternative folder for the user directory. Varsayılan olarak, /tmp dizininde saklanır ve yeniden başlatma sonrasında ayarlarınızı kaybedersiniz. Run this before each new session.
 
 ```bash
 export SSL_CERT_FILE=/opt/etc/ssl/certs/ca-certificates.crt
@@ -226,7 +226,7 @@ modprobe tun
 
    Get a list of all available AdGuard VPN commands and customize the VPN client to your needs.
 
-   To view all commands, type:
+   Tüm komutları görüntülemek için şunu yazın:
 
    ```jsx
    adguardvpn-cli --help-all
@@ -234,9 +234,9 @@ modprobe tun
 
 ## 7) Set up your firewall rules and auto-launch for AdGuard VPN
 
-This step configures firewall rules on an Asuswrt-Merlin router to route traffic through AdGuard VPN.
+Bu adım, trafiği AdGuard VPN üzerinden yönlendirmek için Asuswrt-Merlin yönlendiricideki güvenlik duvarı kurallarını yapılandırır.
 
-1. Create a new script by running the following command:
+1. Aşağıdaki komutu çalıştırarak yeni bir betik oluşturun:
 
    ```bash
    cat << 'EOF' > /jffs/scripts/wan-event
@@ -260,17 +260,17 @@ This step configures firewall rules on an Asuswrt-Merlin router to route traffic
    EOF
    ```
 
-   And make it executable:
+   Ve çalıştırılabilir hâle getirin:
 
    ```bash
    chmod a+rx /jffs/scripts/wan-event
    ```
 
-   If you have more brX interfaces, make sure to include them in the script as well to route their traffic. Alternatively, make sure to specify a different routing rule for those interfaces.
+   Eğer daha fazla brX arayüzünüz varsa, trafiği yönlendirmek için onları da betiğe dâhil ettiğinizden emin olun. Alternatif olarak, bu arayüzler için farklı bir yönlendirme kuralı belirttiğinizden emin olun.
 
-   This script will ensure that all traffic goes through the VPN tunnel. After rebooting or reconnecting to the Internet, AdGuard VPN will connect automatically to your last used location.
+   Bu betik, tüm trafiğin VPN tünelinden geçmesini sağlar. Yeniden başlattıktan veya internete yeniden bağlandıktan sonra, AdGuard VPN otomatik olarak son kullandığınız konuma bağlanır.
 
-2. Reboot your router to finish setup.
+2. Kurulumu tamamlamak için yönlendiricinizi yeniden başlatın.
 
    Tebrikler! Artık AdGuard VPN ile güvence altına alınmış bir yönlendiriciniz var.
 

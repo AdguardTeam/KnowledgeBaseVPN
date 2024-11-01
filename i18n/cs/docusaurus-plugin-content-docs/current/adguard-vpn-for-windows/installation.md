@@ -56,3 +56,21 @@ Pokud běžná odinstalace z nějakého důvodu nefunguje, můžete zkusit pokro
     ![Uninstall finished *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/vpn_extended_complete.jpg)
 
 AdGuard VPN byla úspěšně odinstalována!
+
+#### Spuštění odinstalačního programu v konzolovém režimu
+
+Kromě spuštění pokročilého odinstalátoru v uživatelsky interaktivním režimu můžete k odinstalaci AdGuard VPN pro Windows použít také argumenty příkazového řádku. Postupujte podle následujících pokynů:
+
+1. Otevřete příkazový řádek zadáním příkazu *cmd* v nabídce Start.
+2. Chcete-li odinstalátor spustit v konzolovém režimu bez interaktivního uživatelského rozhraní, použijte příkaz `/console`. Všechny níže uvedené parametry příkazového řádku budou ignorovány, pokud není aktivován režim `/console`.
+3. Pomocí příkazu `/vpn` odinstalujte AdGuard pro Windows. Mělo by to vypadat takto:
+
+   `Adguard.UninstallUtility.exe /console /vpn`
+
+4. Můžete také použít příkaz `/advanced`, který vynutí spuštění odinstalačního programu v *pokročilém režimu* a ` příkaz /settings`, který vynutí, aby odinstalační program smazal spolu s aplikací i uživatelská nastavení.
+
+:::note
+
+Pro úspěšné odinstalování je nutné použít parametry `/console` a `/vpn`. Parametry `/advanced` a `/settings` jsou volitelné.
+
+:::

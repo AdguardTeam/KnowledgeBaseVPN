@@ -48,7 +48,7 @@ adguardvpn-cli config set-socks-username <username>
 adguardvpn-cli config set-socks-password <password>
 ```
 
-Replace `<username>` and `<password>` with your desired username and password. To clear the SOCKS username and password, type:
+`<username>` ve `<password>` ifadelerini istediğiniz kullanıcı adı ve parolayla değiştirin. To clear the SOCKS username and password, type:
 
 ```
 adguardvpn-cli config clear-socks-auth
@@ -143,3 +143,13 @@ adguardvpn-cli config set-debug-logging on
 ```
 
 Günlükleri dışa aktardıktan sonra bu ayarı devre dışı bırakın.
+
+## Show notificatoins
+
+The setting is responsible for the appearance of system notifications when AdGuard VPN is turned on/off or waiting for reconnection, for example:
+
+- A user turns VPN on — the _VPN connected_ notification appears.
+- A user turns VPN off — the \*VPN disconnected notification appears.
+- A user is waiting for the VPN connection to be recovered — the _Waiting for connection_ notification appears.
+
+  adguardvpn-cli config set-show-notifications on
