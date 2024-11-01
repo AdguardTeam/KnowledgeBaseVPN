@@ -107,3 +107,13 @@ To report a bug, you may need to share debug logs with the developers or support
     adguardvpn-cli config set-debug-logging on
 
 Disable this setting after exporting logs.
+
+## Show notificatoins
+
+The setting is responsible for the appearance of system notifications when AdGuard VPN is turned on/off or waiting for reconnection, for example:
+
+- A user turns VPN on — the *VPN connected* notification appears.
+- A user turns VPN off — the *VPN disconnected notification appears.
+- A user is waiting for the VPN connection to be recovered — the *Waiting for connection* notification appears.
+
+    adguardvpn-cli config set-show-notifications on
