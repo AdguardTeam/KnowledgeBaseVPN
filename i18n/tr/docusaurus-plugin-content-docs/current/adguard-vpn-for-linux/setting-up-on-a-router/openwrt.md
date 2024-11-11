@@ -5,13 +5,13 @@ sidebar_position: 3
 
 :::info Sistem gereksinimleri
 
-AdGuard VPN for Linux, also known as AdGuard VPN CLI, requires at least 22 MB of free storage space on your router’s built-in memory or external USB after installing necessary packages.
+Linux için AdGuard VPN, diğer adıyla AdGuard VPN CLI, gerekli paketleri yükledikten sonra yönlendiricinizin dâhili hafızasında veya harici USB'nizde en az 22 MB boş depolama alanı gerektirir.
 
 :::
 
-## 1. Make sure that SSH is enabled on your router
+## 1. Yönlendiricinizde SSH erişiminin etkinleştirildiğinden emin olun
 
-This setting is usually found in the router’s web interface.
+Bu ayar genellikle yönlendiricinin web arayüzünde bulunur.
 
 OpenWrt için:
 
@@ -35,7 +35,7 @@ The default IP address for most routers is `192.168.1.1` or `192.168.0.1`. IP
    ipconfig
    ```
 
-2. Look for the _Default Gateway_ under your active network connection. Bu, yönlendiricinizin IP adresidir.
+2. Etkin ağ bağlantınızın altında _Varsayılan Ağ Geçidi_ öğesini arayın. Bu, yönlendiricinizin IP adresidir.
 
 ### On macOS and Linux
 
@@ -55,9 +55,9 @@ The default IP address for most routers is `192.168.1.1` or `192.168.0.1`. IP
 
 ## 3) Yönlendiriciye bağlanmak için bir SSH istemcisi kullan
 
-Most Linux and macOS systems come with an SSH client pre-installed. For Windows, you can use PowerShell, the built-in SSH client in Windows 10/11, or a third-party application like PuTTY.
+Çoğu Linux ve macOS sistemi önceden yüklenmiş bir SSH istemcisiyle birlikte gelir. Windows için, Windows 10/11'deki yerleşik SSH istemcisi olan PowerShell'i veya PuTTY gibi üçüncü taraf bir uygulamayı kullanabilirsiniz.
 
-### Built-in SSH client (Linux, macOS, and Windows 10/11)
+### Yerleşik SSH istemcisi (Linux, macOS ve Windows 10/11)
 
 1. Terminal veya PowerShell'i açın.
 
@@ -67,7 +67,7 @@ Most Linux and macOS systems come with an SSH client pre-installed. For Windows,
    ssh root@192.168.1.1
    ```
 
-   Replace `192.168.1.1` with your router’s IP address.
+   `192.168.1.1` kısmını yönlendiricinizin IP adresiyle değiştirin.
 
 3. If this is your first time connecting to the router via SSH, you’ll see a message like:
 
@@ -89,7 +89,7 @@ Most Linux and macOS systems come with an SSH client pre-installed. For Windows,
 
 3. In the _Host Name (or IP address)_ field, enter your router’s IP address (e.g., `192.168.1.1`).
 
-4. Ensure the _Connection type_ is set to SSH.
+4. _Bağlantı türü_ öğesinin SSH olarak ayarlandığından emin olun.
 
 5. Aç öğesine tıklayın.
 
@@ -175,7 +175,7 @@ curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/sc
 
 ## 6) Set up firewall rules
 
-Bunu web arayüzünden veya komut satırından yapabilirsiniz. Steps below describe setup via SSH command line.
+Bunu web arayüzünden veya komut satırından yapabilirsiniz. Aşağıdaki adımlar SSH komut satırı üzerinden ayarlamayı açıklamaktadır.
 
 1. Add a new unmanaged interface via SSH
 
@@ -199,7 +199,7 @@ Bunu web arayüzünden veya komut satırından yapabilirsiniz. Steps below descr
    uci show firewall
    ```
 
-   Bu, tüm bölgelerin listelendiği bir yapılandırma dosyası gönderir. Look for a section like `firewall.@zone[1]` or similar where `option name 'wan'` is defined. Yapılandırmanıza bağlı olarak `[1]` sayısı farklı olabilir.
+   Bu, tüm bölgelerin listelendiği bir yapılandırma dosyası gönderir. `firewall.@zone[1]` veya benzeri bir bölümde `option name 'wan'` tanımlı olanı arayın. Yapılandırmanıza bağlı olarak `[1]` sayısı farklı olabilir.
 
    Run this SSH command, replace `zone[1]` with correct  ‘wan’ zone identified before:
 
@@ -210,7 +210,7 @@ Bunu web arayüzünden veya komut satırından yapabilirsiniz. Steps below descr
    /etc/init.d/firewall reload
    ```
 
-   VPN tarafından korunmayan tüm trafiği devre dışı bırakmak istiyorsanız, aşağıdaki komutu çalıştırın. This way you won’t have an Internet connection at all if VPN disconnects. If you choose not to do this step, your real IP will be exposed if the VPN disconnects.
+   VPN tarafından korunmayan tüm trafiği devre dışı bırakmak istiyorsanız, aşağıdaki komutu çalıştırın. Bu şekilde, VPN bağlantısı kesilirse internet bağlantınız hiç olmaz. Bu adımı yapmamayı seçerseniz, VPN bağlantısı kesilirse gerçek IP'niz açığa çıkacaktır.
 
    ```shell
    uci del_list firewall.@zone[1].network='wan'
@@ -219,7 +219,7 @@ Bunu web arayüzünden veya komut satırından yapabilirsiniz. Steps below descr
    /etc/init.d/firewall reload
    ```
 
-   If you’ve changed your mind and want to allow direct traffic, run the following command:
+   Fikrinizi değiştirdiyseniz ve doğrudan trafiğe izin vermek istiyorsanız, aşağıdaki komutu çalıştırın:
 
    ```shell
    uci add_list firewall.@zone[1].network='wan'
@@ -230,7 +230,7 @@ Bunu web arayüzünden veya komut satırından yapabilirsiniz. Steps below descr
 
 ## 7) Set up automatic launch for AdGuard VPN CLI
 
-To automatically launch AdGuard VPN CLI after rebooting the router, create a file at `…/etc/init.d/adguardvpn`.
+Yönlendirici yeniden başlatıldıktan sonra AdGuard VPN CLI'yi otomatik olarak başlatmak için `…/etc/init.d/adguardvpn` adresinde bir dosya oluşturun.
 
 Bunu dosyaya yapıştırın:
 

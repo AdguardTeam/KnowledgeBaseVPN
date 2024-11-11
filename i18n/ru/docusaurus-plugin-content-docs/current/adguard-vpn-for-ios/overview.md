@@ -32,16 +32,42 @@ VPN создает защищенное соединение с другой с�
 
 ## Исключения
 
-Вы можете найти вкладку «Исключения», нажав на вторую иконку в нижней панели. Там вы увидите два списка исключений — для *Обычного* и *Выборочного* режимов.
+You can find the Exclusions tab by tapping the second icon in the bottom bar.
 
-В *Обычном* режиме VPN работает для всех сайтов, кроме исключённых. И наоборот, в *Выборочном* режиме VPN работает только для сайтов из списка.
+By default, AdGuard VPN is active for all websites except those added to Exclusions. You can also turn it on selectively — VPN will be active only for specified websites. To switch to this mode, tap *Change mode*.
 
-Вы можете добавить домены (например, `google.com`) или поддомены (например, `*.google.com`) сайтов в списки двумя способами:
+:::note
+
+Each mode has its own exclusion list.
+
+:::
+
+You can add domains (e.g., `google.com`) or subdomains (e.g., `news.google.com`) of websites to the lists in three ways:
 
 - Введите их вручную в приложении
-- Добавьте их прямо из браузера, поделившись нужными страницами с помощью AdGuard VPN
+- [Choose from domain lists for popular services](#domain-lists-for-popular-services)
+- Add them directly from the browser by sharing the desired pages to the AdGuard VPN app
 
-![Исключения *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/exclusions-add.png)
+![Исключения *mobile_border](https://cdn.adtidy.org/blog/new/lpjs7iexclusions-as-of-v2-4.png)
+
+When you manually add a domain, all subdomains are added automatically (it looks like `*.google.com`). Want to keep only google.com or turn VPN off for a specific domain? Tap the line with the website — this will open a separate screen where you can manage subdomains. Just uncheck the boxes for the ones you don't need.
+
+![Subdomains *mobile_border](https://cdn.adtidy.org/content/release_notes/vpn/ios/v2.4/domains_en.png)
+
+If you manually add a subdomain, the main domain will also added — but the checkbox next to it will not be checked.
+
+### Domain lists for popular services
+
+Large services like Google are tricky. They usually use more than one domain — one for media files, another for the API, plus domains for different countries. For example, in the case of Google, we have 416 domains in our list — all of them need to be added to Exclusions to completely turn VPN off (or on) for the service.
+
+Here's how to add all necessary domains for a popular service to exclusion list:
+
+1. Open *Exclusions*.
+2. Tap *Add website*.
+3. Tap *From list*.
+4. Find the desired service in the list and tap *Add*.
+
+![List of popular services *mobile_border](https://cdn.adtidy.org/content/release_notes/vpn/ios/v2.4/add_website_en.png)
 
 ### Импорт/экспорт исключений
 

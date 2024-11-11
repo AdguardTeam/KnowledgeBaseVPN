@@ -24,13 +24,9 @@ Yeni bir özelliğin veya hata düzeltmesinin uygulanmasını desteklemek istiyo
 
 3. Bir süre bekleyin, ardından günlükleri _Downloads_ veya _Home_ klasörüne yazarak arşivleyin:
 
-   Linux için
+   `adguardvpn-cli export-logs`
 
-   `zip -rj logs.zip ${XDG_DATA_HOME:-~/.local/share}/adguardvpn-cli/*.log`
-
-   Mac için
-
-   `zip -rj ~/Downloads/logs.zip ~/Library/"Application Support"/adguardvpn-cli/*.log`
+   The logs will be downloaded by default to the application folder, the path to the logs will be written in the console.
 
 4. Günlük dosyasını <devteam@adguard.com> adresine gönderin. Hatanın zamanını belirtin ve GitHub sorununuza veya numarasına bir bağlantı ekleyin (başlığın yanında #sayı olarak görünür). Alternatif olarak, günlük dosyasını Google Drive'a yükleyebilir ve <devteam@adguard.com> ile paylaşabilirsiniz. Dosya bağlantısını GitHub sorununuza ekleyin.
 

@@ -24,13 +24,9 @@ sidebar_position: 6
 
 3. Подождите некоторое время, затем заархивируйте логи в папке _Загрузки_ или _Дом_/_Домашний каталог_, набрав:
 
-   Для Linux
+   `adguardvpn-cli export-logs`
 
-   `zip -rj logs.zip ${XDG_DATA_HOME:-~/.local/share}/adguardvpn-cli/*.log`
-
-   Для macOS
-
-   `zip -rj ~/Downloads/logs.zip ~/Library/"Application Support"/adguardvpn-cli/*.log`
+   The logs will be downloaded by default to the application folder, the path to the logs will be written in the console.
 
 4. Отправьте файлс c логами на <devteam@adguard.com>. Укажите время ошибки и прикрепите ссылку на вашу задачу GitHub или её номер (она отображается как #число рядом с заголовком). Кроме того, вы можете загрузить файл с логами на Google Диск и отправить его на <devteam@adguard.com>. Добавьте ссылку на файл к задаче на GitHub.
 

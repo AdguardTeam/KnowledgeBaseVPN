@@ -32,16 +32,42 @@ S AdGuard VPN si můžete vybrat z více než 50 umístění v desítkách zemí
 
 ## Výjimky
 
-Kartu Výjimky najdete klepnutím na druhou ikonu ve spodní liště. Zde uvidíte dva seznamy výjimek, pro *Obecný* a *Selektivní* režim.
+Kartu Výjimky najdete klepnutím na druhou ikonu ve spodní liště.
 
-V *Obecném* režimu funguje VPN pro všechny weby kromě vyloučených. Naopak v *Selektivním* režimu funguje VPN pouze pro weby ze seznamu.
+Ve výchozím nastavení je AdGuard VPN aktivní pro všechny webové stránky kromě těch, které byly přidány do Výjimek. Můžete ji také zapnout selektivně — VPN bude aktivní pouze pro zadané webové stránky. Chcete-li přepnout do tohoto režimu, klepněte na *Změnit režim*.
 
-Domény (např. `google.com`) nebo subdomény (např. `*.google.com`) webových stránek můžete do seznamů přidávat dvěma způsoby:
+:::note
+
+Každý režim má svůj vlastní seznam výjimek.
+
+:::
+
+Domény (např. `google.com`) nebo subdomény (např. `*news.google.com`) webových stránek můžete do seznamů přidávat třemi způsoby:
 
 - Zadáním ručně do aplikace
-- Přidáním přímo z prohlížeče sdílením požadovaných stránek s AdGuard VPN
+- [Výběrem ze seznamů domén pro oblíbené služby](#domain-lists-for-popular-services)
+- Přidáním přímo z prohlížeče sdílením požadovaných stránek s aplikací AdGuard VPN
 
-![Exclusions *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/exclusions-add.png)
+![Exclusions *mobile_border](https://cdn.adtidy.org/blog/new/lpjs7iexclusions-as-of-v2-4.png)
+
+Při ručním přidání domény se automaticky přidají všechny subdomény (vypadá to jako `*.google.com`). Chcete zachovat pouze google.com nebo vypnout VPN pro určitou doménu? Klepněte na řádek s webovou stránkou — otevře se samostatná obrazovka, kde můžete spravovat subdomény. Stačí zrušit zaškrtnutí políček u těch, které nepotřebujete.
+
+![Subdomains *mobile_border](https://cdn.adtidy.org/content/release_notes/vpn/ios/v2.4/domains_en.png)
+
+Pokud přidáte subdoménu ručně, přidá se i hlavní doména, ale políčko vedle ní nebude zaškrtnuté.
+
+### Seznam domén pro oblíbené služby
+
+Velké služby, jako Google, jsou záludné. Obvykle používají více než jednu doménu — jednu pro mediální soubory, další pro rozhraní API a domény pro různé země. Například v případě Googlu máme v našem seznamu 416 domén — všechny je třeba přidat do výjimek, abychom úplně vypnuli (nebo zapnuli) VPN pro služby.
+
+Zde je návod, jak přidat všechny potřebné domény pro oblíbenou službu na seznam výjimek:
+
+1. Otevřete *výjimky*.
+2. Klepněte na *Přidat webovou stránku*.
+3. Klepněte na *Ze seznamu*.
+4. Najděte požadovanou službu v seznamu a klepněte na *Přidat*.
+
+![List of popular services *mobile_border](https://cdn.adtidy.org/content/release_notes/vpn/ios/v2.4/add_website_en.png)
 
 ### Import/export výjimek
 

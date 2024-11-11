@@ -7,7 +7,7 @@ sidebar_position: 10
 
 ## AdGuard VPN'in sitesine erişme
 
-If adguard-vpn.com is not accessible, try using the [mirror website](https://adguardvpn-help.info/).
+adguard-vpn.com adresine erişilemiyorsa, [yansıtma sitesini](https://adguardvpn-help.info/) kullanmayı deneyin.
 
 :::info
 

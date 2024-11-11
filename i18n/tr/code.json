@@ -112,11 +112,11 @@
     "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.docs.versions.unreleasedVersionLabel": {
-    "message": "Bu, {siteTitle} {versionLabel} sürümü için yayınlanmamış dokümanlardır.",
+    "message": "Bu, {siteTitle} {versionLabel} sürümü için yayınlanmamış dokümantasyondur.",
     "description": "The label used to tell the user that he's browsing an unreleased doc version"
   },
   "theme.docs.versions.unmaintainedVersionLabel": {
-    "message": "Bu, artık aktif olarak sürdürülmeyen {siteTitle} {versionLabel} için dokümanlardır.",
+    "message": "Bu, artık aktif olarak sürdürülmeyen {siteTitle} {versionLabel} için dokümantasyondur.",
     "description": "The label used to tell the user that he's browsing an unmaintained doc version"
   },
   "theme.docs.versions.latestVersionSuggestionLabel": {
@@ -263,7 +263,7 @@
     "description": "The search page title for non-empty query"
   },
   "theme.SearchPage.emptyResultsTitle": {
-    "message": "Dokümanları arayın",
+    "message": "Dokümantasyon arayın",
     "description": "The search page title for empty query"
   },
   "theme.SearchPage.inputPlaceholder": {
