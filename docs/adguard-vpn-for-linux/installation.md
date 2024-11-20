@@ -21,7 +21,7 @@ Nightly
 
 If required, enter your admin password.
 
-Agree to link the binary to `usr/local/bin` by pressing `y` and wait until the installation is complete.
+Agree to link the binary to `/usr/local/bin` by pressing `y` and wait until the installation is complete.
 
 :::note
 You can verify the signature to prove it’s an official version of AdGuard VPN by using the `gpg` tool. [Read more on GitHub](https://github.com/AdguardTeam/AdGuardVPNCLI?tab=readme-ov-file#verify-releases)
