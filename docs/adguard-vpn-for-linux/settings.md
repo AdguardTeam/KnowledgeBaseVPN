@@ -117,3 +117,38 @@ The setting is responsible for the appearance of system notifications when AdGua
 - A user is waiting for the VPN connection to be recovered — the *Waiting for connection* notification appears.
 
     adguardvpn-cli config set-show-notifications on
+
+## Exclusions
+
+There are two modes:
+**general** - exclusions are not routed through VPN
+**selective** - ONLY exclusions are routed through VPN
+
+
+To read about what you can do with exclusions, write this in the command-line interface:
+*`adguardvpn-cli site-exclusions -h`*
+
+
+Here are the options:
+ **add**              	Add specified exclusions
+ **remove**       	Remove specified exclusions
+ **show**           	Show all exclusions
+ **clear**            	Clear all exclusions
+ **mode**           	Set VPN exclusion mode (general/selective) or show current mode if no options are passed
+
+To add an exclusion, you need to enter this command: *`adguardvpn-cli site-exclusions add %DOMAIN_NAME%`*, where %DOMAIN_NAME% is the website that you want to add to exclusions
+
+:::note
+
+To add many exclusions, you need to list them comma-separated
+
+:::
+
+**remove** removes one or more exclusions (if separated by commas)
+Example: *adguardvpn-cli site-exclusions remove %DOMAIN_NAME%*
+**show** shows the current list of exclusions
+Example: *adguardvpn-cli site-exclusions show*
+**clear** clears the list in the current mode
+Example: *adguardvpn-cli site-exclusions clear*
+**mode** allows to switch between modes
+Example: *adguardvpn-cli site-exclusions mode selective* (with this selective mode is chosen)
