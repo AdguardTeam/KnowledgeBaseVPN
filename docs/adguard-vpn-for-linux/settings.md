@@ -120,35 +120,34 @@ The setting is responsible for the appearance of system notifications when AdGua
 
 ## Exclusions
 
-There are two modes:
-**general** - exclusions are not routed through VPN
-**selective** - ONLY exclusions are routed through VPN
+There are two modes. In *General* mode, websites from the list of exclusions are not routed through VPN. In *Selective* mode, only websites from the list of exclusions are routed through VPN. There is a separate list of exclusions for each mode.
 
+To read about what you can do with exclusions, write this in the command-line interface: `adguardvpn-cli site-exclusions -h`.
 
-To read about what you can do with exclusions, write this in the command-line interface:
-*`adguardvpn-cli site-exclusions -h`*
-
-
-Here are the options:
- **add**              	Add specified exclusions
- **remove**       	Remove specified exclusions
- **show**           	Show all exclusions
- **clear**            	Clear all exclusions
- **mode**           	Set VPN exclusion mode (general/selective) or show current mode if no options are passed
-
-To add an exclusion, you need to enter this command: *`adguardvpn-cli site-exclusions add %DOMAIN_NAME%`*, where %DOMAIN_NAME% is the website that you want to add to exclusions
+To add an exclusion, enter this command: `adguardvpn-cli site-exclusions add %DOMAIN_NAME%`, where `%DOMAIN_NAME%` is the website that you want to add to exclusions.
 
 :::note
 
-To add many exclusions, you need to list them comma-separated
+To add many exclusions, you need to list them comma-separated.
 
 :::
 
-**remove** removes one or more exclusions (if separated by commas)
-Example: *adguardvpn-cli site-exclusions remove %DOMAIN_NAME%*
-**show** shows the current list of exclusions
-Example: *adguardvpn-cli site-exclusions show*
-**clear** clears the list in the current mode
-Example: *adguardvpn-cli site-exclusions clear*
-**mode** allows to switch between modes
-Example: *adguardvpn-cli site-exclusions mode selective* (with this selective mode is chosen)
+Here are the options:
+
+1. **add** adds specified exclusions
+
+1. **clear** clears the list of exclusions in the current mode
+
+    Example: `adguardvpn-cli site-exclusions clear`
+
+1. **mode** shows the current mode and allows to switch between them
+
+    Example: `adguardvpn-cli site-exclusions mode selective` (with this command, Selective mode is chosen)
+
+1. **remove** removes one or more exclusions (if separated by commas)
+
+    Example: `adguardvpn-cli site-exclusions remove %DOMAIN_NAME%`
+
+1. **show** shows the current list of exclusions
+
+    Example: `adguardvpn-cli site-exclusions show`
