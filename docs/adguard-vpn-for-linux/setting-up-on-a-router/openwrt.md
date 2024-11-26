@@ -53,6 +53,8 @@ The default IP address for most routers is `192.168.1.1` or `192.168.0.1`. If
 
 1. Look for the *default* entry. The IP address next to it is your router’s IP address.
 
+<!-- comment -->
+
 ## 3. Use an SSH client to connect to the router
 
 Most Linux and macOS systems come with an SSH client pre-installed. For Windows, you can use PowerShell, the built-in SSH client in Windows 10/11, or a third-party application like PuTTY.
@@ -81,6 +83,8 @@ Most Linux and macOS systems come with an SSH client pre-installed. For Windows,
 
 1. Enter the router’s password when prompted. The default password for OpenWrt is typically empty (just press Enter), but you should have set a password during the initial setup.
 
+<!-- comment -->
+
 ### PuTTY (Windows)
 
 1. Download and install PuTTY from [the official website](https://www.putty.org/).
@@ -94,6 +98,8 @@ Most Linux and macOS systems come with an SSH client pre-installed. For Windows,
 1. Click *Open*.
 
 1. When the Terminal window opens, log in. The default username is `root` and the default password is `keenetic`.
+
+<!-- comment -->
 
 ## 4. Basic SSH commands
 
@@ -173,6 +179,8 @@ curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/sc
 
     AdGuard VPN CLI will create a tun0 interface for VPN tunneling.
 
+<!-- comment -->
+
 ## 6. Set up firewall rules
 
 You can do it in the web interface or in the command line. Steps below describe setup via SSH command line.
@@ -227,6 +235,8 @@ You can do it in the web interface or in the command line. Steps below describe 
     uci commit firewall
     /etc/init.d/firewall reload
     ```
+
+<!-- comment -->
 
 ## 7.  Set up automatic launch for AdGuard VPN CLI
 

@@ -49,6 +49,8 @@ The default IP address for most routers is `192.168.1.1` or `192.168.0.1`. If
 
 1. Look for the *default* entry. The IP address next to it is your router’s IP address.
 
+<!-- comment -->
+
 ## 3. Use an SSH client to connect to the router
 
 You’ll need an SSH client. Most Linux and macOS systems come with an SSH client pre-installed. For Windows, you can use PowerShell, the built-in SSH client in Windows 10/11, or a third-party application like PuTTY.
@@ -76,6 +78,8 @@ You’ll need an SSH client. Most Linux and macOS systems come with an SSH clien
     Type `yes` and press Enter.
 
 1. Enter the router’s password when prompted. The default username is `root` and the default password is `keenetic`.
+
+<!-- comment -->
 
 ### PuTTY (Windows 8 and earlier)
 
@@ -216,7 +220,7 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
 
 1. Enter `yes` when asked “Would you like to set default routes in TUN mode?”
 
-AdGuard VPN CLI will create a tun0 interface for VPN tunneling
+AdGuard VPN CLI will create a tun0 interface for VPN tunneling.
 
 ## 7. Set up firewall rules
 
