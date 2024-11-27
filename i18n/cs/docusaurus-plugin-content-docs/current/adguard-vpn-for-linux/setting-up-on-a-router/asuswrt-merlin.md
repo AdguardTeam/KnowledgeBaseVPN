@@ -41,7 +41,9 @@ Výchozí IP adresa pro většinu routerů je `192.168.1.1` nebo `192.168.0.1
 
 2. Vyhledejte položku _výchozí_. IP adresa vedle ní je IP adresa vašeho routeru.
 
-## 2) Ujistěte se zda jsou na routeru povoleny vlastní skripty SSH a JFFS
+<!-- comment -->
+
+## 2. Ujistěte se zda jsou na routeru povoleny vlastní skripty SSH a JFFS
 
 Nejprve se ujistěte, že je na routeru povolen přístup SSH. Toto nastavení se obvykle nachází ve webovém rozhraní routeru. K nastavení pravidel směrování se použijí vlastní skripty JFFS.
 
@@ -57,7 +59,9 @@ Nejprve se ujistěte, že je na routeru povolen přístup SSH. Toto nastavení s
 
 6. Klikněte na _Použít_ v dolní části stránky.
 
-## 3) Připojte se k routeru pomocí klienta SSH
+<!-- comment -->
+
+## 3. Připojte se k routeru pomocí klienta SSH
 
 Budete potřebovat klienta SSH. Většina systémů Linux a macOS je dodávána s předinstalovaným klientem SSH. V systému Windows můžete použít prostředí PowerShell, integrovaného klienta SSH v systému Windows 10/11 nebo aplikaci třetí strany, například PuTTY.
 
@@ -85,6 +89,8 @@ Budete potřebovat klienta SSH. Většina systémů Linux a macOS je dodávána 
 
 4. Na výzvu zadejte heslo routeru. Přihlašovací jméno a heslo SSH jsou stejné jako přihlašovací údaje správce.
 
+<!-- comment -->
+
 ### PuTTY (Windows starší než 10)
 
 1. Stáhněte a nainstalujte PuTTY z [oficiální stránky](https://www.putty.org/).
@@ -94,7 +100,9 @@ Budete potřebovat klienta SSH. Většina systémů Linux a macOS je dodávána 
 5. Klikněte na _Otevřít_.
 6. Když se otevře okno Terminal, zadejte přihlašovací údaje routeru. Přihlašovací jméno a heslo SSH jsou stejné jako přihlašovací údaje správce.
 
-## 4) Nainstalujte Entware pomocí SSH
+<!-- comment -->
+
+## 4. Nainstalujte Entware pomocí SSH
 
 Po přihlášení do klienta SSH můžete pomocí různých příkazů komunikovat s operačním systémem routeru založeným na Linuxu. Chcete-li pokračovat, musíte nainstalovat aplikaci Entware OPKG Manager. Umožňuje instalovat softwarové balíčky třetích stran, které rozšiřují možnosti routeru. Pokud jej již máte nainstalovaný, přejděte k dalšímu kroku.
 
@@ -176,7 +184,7 @@ export HOME=/opt/home/admin
 modprobe tun
 ```
 
-## 6. Nastavte AdGuard CLI
+## 6. Nastavte AdGuard VPN CLI
 
 1. Přihlaste se ke svému účtu
 
@@ -190,7 +198,7 @@ modprobe tun
    adguardvpn-cli login
    ```
 
-2. Připojení k VPN
+2. Připojte se k VPN
 
    Vyberte si umístění serveru VPN, které nejlépe vyhovuje vašim potřebám.
 
@@ -218,11 +226,11 @@ modprobe tun
 
    AdGuard VPN vybere nejrychlejší dostupné umístění a zapamatuje si ho pro budoucí rychlá připojení.
 
-   Na dotaz "Chcete nastavit výchozí trasy v režimu TUN?" zadejte `yes`.
+   Na dotaz "Chcete nastavit výchozí trasy v režimu TUN?" zadejte `yes`
 
    AdGuard VPN CLI vytvoří rozhraní tun0 pro tunel VPN.
 
-3. Úprava nastavení
+3. Upravte nastavení
 
    Získejte seznam všech dostupných příkazů AdGuard VPN a přizpůsobte klienta VPN svým potřebám.
 
@@ -232,7 +240,9 @@ modprobe tun
    adguardvpn-cli --help-all
    ```
 
-## 7) Nastavení pravidel brány firewall a automatického spuštění AdGuard VPN
+<!-- comment -->
+
+## 7. Nastavení pravidel brány firewall a automatického spuštění AdGuard VPN
 
 Tímto krokem nakonfigurujete pravidla brány firewall na routeru Asuswrt-Merlin pro směrování provozu skrze AdGuard VPN.
 

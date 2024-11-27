@@ -38,7 +38,7 @@ The main difference between AdGuard VPN and its competitors is that we use [our 
 
 No-logging policy means that we don’t collect, store, or transfer users’ personal data to third parties. [Read AdGuard VPN Privacy policy](https://adguard-vpn.com/privacy.html)
 
-### Protezione anti-monitoraggio
+### Protezione dal tracciamento
 
 Il traffico web proveniente da qualsiasi utente può essere interessante ed è particolarmente prezioso in termini di monetizzazione dei dati personali. Sia i criminali che gli ISP senza scrupoli possono accedervi. Tuttavia, con una VPN affidabile, puoi essere sicuro che né il tuo provider né nessun altro vedrà la tua attività su Internet.
 

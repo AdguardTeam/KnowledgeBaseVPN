@@ -39,7 +39,7 @@ Někdy vás náš tým podpory může požádat o zaslání záznamů trasován�
 
 1. Otevřete konzoli (na úvodním panelu zadejte `cmd`).
 
-1. Spusťte aplikaci příkazem `C:\"Program Files (x86)"\AdGuardVpn\AdGuardVpnSvc.exe /trace`, pokud používáte 64bitový systém Windows a `C:\"Program Files"\AdGuardVpn\AdGuardVpnSvc.exe /trace`, pokud používáte 32bitový systém.
+1. Spusťte aplikaci příkazem `C:\"Program Files (x86)"\AdGuardVpn\AdGuardVpn.exe /trace`, pokud používáte 64bitový systém Windows a `C:\"Program Files"\AdGuardVpn\AdGuardVpn.exe /trace`, pokud používáte 32bitový systém.
 
 1. Znovu reprodukujte problém. Důrazně doporučujeme zaznamenat přesný čas, kdy jste problém reprodukovali: pomůže to našemu týmu podpory najít příslušné záznamy v protokolu a rychleji problém vyřešit.
 

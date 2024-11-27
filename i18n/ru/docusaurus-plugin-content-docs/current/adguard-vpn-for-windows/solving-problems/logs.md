@@ -39,7 +39,7 @@ sidebar position: 1
 
 1. Откройте консоль (наберите `cmd` в стартовой панели).
 
-1. Запустите приложение командой `C:\"Program Files (x86)"\AdGuardVpn\AdGuardVpnSvc.exe /trace`, если вы используете 64-битный Windows, и `C:\"Program Files"\AdGuardVpn\AdGuardVpnSvc.exe /trace`, если вы используете 32-битный.
+1. Run the application with the command `C:\"Program Files (x86)"\AdGuardVpn\AdguardVpn.exe /trace` if you are using 64-bit Windows, and `C:\"Program Files"\AdGuardVpn\AdguardVpn.exe /trace` if you are using 32-bit.
 
 1. Воспроизведите ошибку. Мы настоятельно рекомендуем записывать точное время, когда вы воспроизвели проблему: это поможет нашей команде поддержки найти соответствующие логи и решить проблему быстрее.
 

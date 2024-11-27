@@ -53,23 +53,25 @@ IP-адрес по умолчанию для большинства роутер
 
 2. Найдите запись _default_. Рядом с ней находится IP-адрес вашего роутера.
 
-## 3) Используйте SSH-клиент для подключения к роутеру
+<!-- comment -->
 
-Большинство систем на Linux и macOS поставляются с предустановленным SSH-клиентом. Для Windows вы можете использовать PowerShell, встроенный SSH-клиент в Windows 10/11 или стороннее приложение, например PuTTY.
+## 3. Use an SSH client to connect to the router
 
-### Встроенный SSH-клиент (для Linux, macOS и Windows 10/11)
+Most Linux and macOS systems come with an SSH client pre-installed. For Windows, you can use PowerShell, the built-in SSH client in Windows 10/11, or a third-party application like PuTTY.
 
-1. Откройте Терминал или PowerShell.
+### Built-in SSH client (Linux, macOS, and Windows 10/11)
 
-2. Выполните команду SSH:
+1. Open Terminal or PowerShell.
+
+2. Run the SSH command:
 
    ```text
    ssh root@192.168.1.1
    ```
 
-   Замените `192.168.1.1` на IP-адрес вашего роутера.
+   Replace `192.168.1.1` with your router’s IP address.
 
-3. Если вы впервые подключаетесь к роутеру через SSH, вы увидите такое сообщение:
+3. If this is your first time connecting to the router via SSH, you’ll see a message like:
 
    ```text
    The authenticity of host '192.168.1.1 (192.168.1.1)' can't be established.
@@ -77,107 +79,113 @@ IP-адрес по умолчанию для большинства роутер
    Are you sure you want to continue connecting? (Yes/No/[Fingerprint])
    ```
 
-   Введите `Yes` и нажмите Enter.
+   Type `Yes` and press Enter.
 
-4. Введите пароль от роутера, когда появится соответствующий запрос. По умолчанию пароль для OpenWrt обычно пустой (просто нажмите Enter), но вы могли установить пароль во время начальной настройки.
+4. Enter the router’s password when prompted. The default password for OpenWrt is typically empty (just press Enter), but you should have set a password during the initial setup.
+
+<!-- comment -->
 
 ### PuTTY (Windows)
 
-1. Скачайте и установите PuTTY [с официального сайта](https://www.putty.org/).
+1. Download and install PuTTY from [the official website](https://www.putty.org/).
 
-2. Откройте PuTTY.
+2. Open PuTTY.
 
-3. В поле _Имя хоста (или IP-адрес)_ введите IP вашего роутера (например, `192.168.1.1`).
+3. In the _Host Name (or IP address)_ field, enter your router’s IP address (e.g., `192.168.1.1`).
 
-4. Убедитесь, что _Тип подключения_ — SSH.
+4. Ensure the _Connection type_ is set to SSH.
 
-5. Нажмите _Открыть_.
+5. Click _Open_.
 
-6. Когда откроется окно Терминала, авторизуйтесь. Имя пользователя по умолчанию — `root`, пароль — `keenetic`.
+6. When the Terminal window opens, log in. The default username is `root` and the default password is `keenetic`.
 
-## 4) Базовые команды SSH
+<!-- comment -->
 
-После входа в систему вы можете использовать различные команды для взаимодействия с операционной системой роутера на базе Linux.
+## 4. Basic SSH commands
 
-Обновите список пакетов (OpenWrt):
+Once logged in, you can use various commands to interact with your router’s Linux-based operating system.
+
+Update package lists (OpenWrt):
 
 ```text
 opkg update
 ```
 
-Установите необходимые пакеты:
+Install required packages:
 
 ```text
 opkg install curl kmod-tun ca-certificates
 ```
 
-Запустите скрипт установки AdGuard VPN CLI:
+Run the AdGuard VPN CLI installation script:
 
 ```text
 curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/release/install.sh | sh -s -- -v
 ```
 
-## 5. Настройте AdGuard VPN CLI
+## 5. Set up AdGuard VPN CLI
 
-1. Войдите в аккаунт
+1. Log in to your account
 
-   Чтобы использовать AdGuard VPN для Linux, вам понадобится аккаунт AdGuard.
+   To use AdGuard VPN for Linux, you need an AdGuard account.
 
-   Вы можете зарегистрироваться или войти [на нашем сайте](https://auth.adguard.com/login.html) или в Терминале.
+   You can sign up or log in on our [website](https://auth.adguard.com/login.html) or in the Terminal.
 
-   Чтобы зарегистрироваться или войти, введите:
+   To sign up or log in, type:
 
    ```jsx
    adguardvpn-cli login
    ```
 
-   Если связать бинарный файл с '/usr/local/bin' не удалось, используйте полный путь к файлу для выполнения всех команд. Например, `/opt/adguardvpn_cli/adguardvpn-cli login`
+   Note: If failed to link the binary to '/usr/local/bin’, use full file path to run all commands. For example, `/opt/adguardvpn_cli/adguardvpn-cli login`
 
-2. Подключитесь к VPN
+2. Connect to VPN
 
-   Выберите локацию VPN-сервера, которая лучше всего соответствует вашим потребностям.
+   Select a VPN server location that best suits your needs.
 
-   Как правило, чем ближе к вам сервер, тем быстрее соединение.
+   In general, the closer the server is to you, the faster the connection.
 
-   Чтобы посмотреть доступные локации, введите:
+   To view available locations, type:
 
    ```jsx
    adguardvpn-cli list-locations
    ```
 
-   Чтобы подключиться к определённой локации, введите:
+   To connect to a specific location, type:
 
    ```jsx
    adguardvpn-cli connect -l LOCATION_NAME
    ```
 
-   Замените LOCATION_NAME на город, страну или ISO-код локации на английском, к которой хотите подключиться.
+   Replace LOCATION_NAME with the city, country, or ISO code of the location you want to connect to.
 
-   Для быстрого подключения введите:
+   For quick connect, type:
 
    ```jsx
    adguardvpn-cli connect
    ```
 
-   AdGuard VPN выберет самую быструю локацию и запомнит её для будущих быстрых подключений.
+   AdGuard VPN will choose the fastest available location and remember it for future quick connections.
 
-3. Настройте VPN
+3. Adjust your settings
 
-   Получите список всех доступных команд AdGuard VPN и настройте VPN-клиент под свои нужды.
+   Get a list of all available AdGuard VPN commands and customize the VPN client to your needs.
 
-   Чтобы просмотреть все команды, введите:
+   To view all commands, type:
 
    ```jsx
    adguardvpn-cli --help-all
    ```
 
-   AdGuard VPN CLI создаст интерфейс tun0 для VPN-туннелирования.
+   AdGuard VPN CLI will create a tun0 interface for VPN tunneling.
 
-## 6) Настройте правила фаервола
+<!-- comment -->
 
-Это можно сделать через веб-интерфейс или в командной строке. Ниже описана настройка через командную строку SSH.
+## 6. Set up firewall rules
 
-1. Добавить новый неуправляемый интерфейс через SSH
+You can do it in the web interface or in the command line. Steps below describe setup via SSH command line.
+
+1. Add a new unmanaged interface via SSH
 
    ```shell
    ssh admin@router_ip
@@ -188,20 +196,20 @@ curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/sc
    /etc/init.d/network reload
    ```
 
-2. Добавьте tun0 в WAN-зону
+2. Add tun0 to WAN zone
 
-   Чтобы трафик проходил через VPN, добавьте tun0 в WAN-зону.
-   Интерфейс WAN, который подключается к интернету, обычно находится в зоне с именем `wan` или чем-то подобным. Проверьте файлы конфигурации роутера или настройки фаервола, чтобы узнать, какая зона связана с интерфейсом WAN.
+   For traffic to go through VPN, add tun0 to WAN zone.
+   The WAN interface which connects to the Internet will typically be in a zone named `wan` or something similar. Check your router's configuration files or firewall settings to find out which zone is associated with the WAN interface.
 
-   Для этого перечислите существующие зоны фаервола:
+   To do so, list the existing firewall zones:
 
    ```shell
    uci show firewall
    ```
 
-   В результате появится файл конфигурации со списком всех зон. Найдите раздел `firewall.@zone[1]` или подобный, где определено `option name 'wan'`. Число `[1]` может отличаться в зависимости от конфигурации.
+   This will show a config file with all zones listed. Look for a section like `firewall.@zone[1]` or similar where `option name 'wan'` is defined. The number `[1]` could be different depending on your configuration.
 
-   Выполните эту команду SSH, замените `zone[1]` на правильную зону 'wan', определённую ранее:
+   Run this SSH command, replace `zone[1]` with correct  ‘wan’ zone identified before:
 
    ```shell
    uci show firewall | grep "=zone"
@@ -210,7 +218,7 @@ curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/sc
    /etc/init.d/firewall reload
    ```
 
-   Если вы хотите отключить весь трафик, не защищённый VPN, выполните следующую команду. Таким образом, у вас не будет интернет-соединения вообще, если VPN отключится. Если вы решите не выполнять этот шаг, ваш реальный IP-адрес будет раскрыт в случае отключения VPN.
+   If you want to disable all traffic that is not protected by VPN, run the following command. This way you won’t have an Internet connection at all if VPN disconnects. If you choose not to do this step, your real IP will be exposed if the VPN disconnects.
 
    ```shell
    uci del_list firewall.@zone[1].network='wan'
@@ -219,7 +227,7 @@ curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/sc
    /etc/init.d/firewall reload
    ```
 
-   Если вы передумали и хотите разрешить прямой трафик, выполните следующую команду:
+   If you’ve changed your mind and want to allow direct traffic, run the following command:
 
    ```shell
    uci add_list firewall.@zone[1].network='wan'
@@ -228,11 +236,13 @@ curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/sc
    /etc/init.d/firewall reload
    ```
 
-## 7) Настройте автоматический запуск AdGuard VPN CLI
+<!-- comment -->
 
-Чтобы автоматически запускать AdGuard VPN CLI после перезагрузки роутера, создайте файл в `…/etc/init.d/adguardvpn`.
+## 7. Set up automatic launch for AdGuard VPN CLI
 
-Вставьте это в файл:
+To automatically launch AdGuard VPN CLI after rebooting the router, create a file at `…/etc/init.d/adguardvpn`.
+
+Paste this into the file:
 
 ```text
 #!/bin/sh /etc/rc.common
@@ -251,7 +261,7 @@ stop() {
 }
 ```
 
-Выполните эту команду, чтобы разрешить доступ и включить автозапуск:
+Run this to grant access to and enable auto-launch:
 
 ```jsc
  chmod +x /etc/init.d/adguardvpn

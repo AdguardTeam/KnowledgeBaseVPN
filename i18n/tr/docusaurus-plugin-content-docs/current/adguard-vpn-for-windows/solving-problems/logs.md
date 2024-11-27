@@ -39,7 +39,7 @@ Bazen destek ekibimiz sizden izleme günlüklerini göndermenizi isteyebilir. Bu
 
 1. Konsolu açın (başlat paneline `cmd` yazın).
 
-1. Run the application with the command `C:\"Program Files (x86)"\AdGuardVpn\AdGuardVpnSvc.exe /trace` if you are using 64-bit Windows, and `C:\"Program Files"\AdGuardVpn\AdGuardVpnSvc.exe /trace` if you are using 32-bit.
+1. Run the application with the command `C:\"Program Files (x86)"\AdGuardVpn\AdguardVpn.exe /trace` if you are using 64-bit Windows, and `C:\"Program Files"\AdGuardVpn\AdguardVpn.exe /trace` if you are using 32-bit.
 
 1. Sorunu yeniden oluşturun. Sorunu yeniden oluşturduğunuz zamanı tam olarak not etmenizi önemle tavsiye ederiz: bu, destek ekibimizin ilgili günlük girdilerini bulmasına ve sorunu daha hızlı çözmesine yardımcı olur.
 

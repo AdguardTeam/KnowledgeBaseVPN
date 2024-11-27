@@ -7,7 +7,7 @@ Bu Bilgi Tabanının amacı, herkese AdGuard VPN ile ilgili her türlü konuda e
 
 Bu nedenle, tüm Bilgi Tabanı içeriğimizi [GitHub'a](https://github.com/AdguardTeam/KnowledgeBaseVPN) yerleştirdik ve artık herkes, mevcut makalelerin yanı sıra tamamen yeni makaleler için düzenlemeler ve çeviriler önererek kelimenin tam anlamıyla ona katkıda bulunabilir.
 
-## Bir değişiklik önerme veya yeni bir makale yazma {#suggest-change}
+## Değişiklik nasıl önerilir veya yeni makale nasıl yazılır {#suggest-change}
 
 Yukarıda bahsedilen GitHub'ın işlevselliğini kullanarak mevcut makalelerde değişiklik önerebilir ve Bilgi Tabanına yenilerini ekleyebilirsiniz. Platformla çalışma ilkelerine aşina değilseniz, [bu bölümdeki dokümantasyonu](https://docs.github.com/en) okuyarak başlayın.
 
