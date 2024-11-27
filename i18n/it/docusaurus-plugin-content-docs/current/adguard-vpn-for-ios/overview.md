@@ -1,5 +1,5 @@
 ---
-title: Panoramica delle caratteristiche
+title: Panoramica delle funzionalità
 sidebar_position: 1
 ---
 

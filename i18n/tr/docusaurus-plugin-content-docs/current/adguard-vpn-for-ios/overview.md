@@ -50,7 +50,7 @@ Sitelerin alan adlarını (örn. `google.com`) veya alt alan adlarını (örn. `
 
 ![İstisnalar *mobile_border](https://cdn.adtidy.org/blog/new/lpjs7iexclusions-as-of-v2-4.png)
 
-Elle bir alan adı eklediğinizde, tüm alt alan adları otomatik olarak eklenir ( `*.google.com` gibi görünür). Yalnızca google.com'u tutmak veya belirli bir alan adı için VPN'i kapatmak mı istiyorsunuz? Tap the line with the website — this will open a separate screen where you can manage subdomains. Sadece ihtiyacınız olmayanların kutularını işareti kaldırın.
+Elle bir alan adı eklediğinizde, tüm alt alan adları otomatik olarak eklenir ( `*.google.com` gibi görünür). Yalnızca google.com'u tutmak veya belirli bir alan adı için VPN'i kapatmak mı istiyorsunuz? Sitelerin bulunduğu satıra dokunun — bu, alt alan adlarını yönetebileceğiniz ayrı bir ekran açar. Sadece ihtiyacınız olmayanların kutularını işareti kaldırın.
 
 ![Alt alan adları *mobile_border](https://cdn.adtidy.org/content/release_notes/vpn/ios/v2.4/domains_en.png)
 

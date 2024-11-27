@@ -26,7 +26,7 @@ Yeni bir özelliğin veya hata düzeltmesinin uygulanmasını desteklemek istiyo
 
    `adguardvpn-cli export-logs`
 
-   The logs will be downloaded by default to the application folder, the path to the logs will be written in the console.
+   Günlükler varsayılan olarak uygulama klasörüne indirilecek, günlüklerin yolu konsola yazılacaktır.
 
 4. Günlük dosyasını <devteam@adguard.com> adresine gönderin. Hatanın zamanını belirtin ve GitHub sorununuza veya numarasına bir bağlantı ekleyin (başlığın yanında #sayı olarak görünür). Alternatif olarak, günlük dosyasını Google Drive'a yükleyebilir ve <devteam@adguard.com> ile paylaşabilirsiniz. Dosya bağlantısını GitHub sorununuza ekleyin.
 

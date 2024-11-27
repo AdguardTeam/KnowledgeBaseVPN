@@ -11,7 +11,7 @@ Bazı ülkelerde AdGuard VPN, App Store'da mevcut değildir. Durumunuz buysa uyg
 
 ### Mevcut hesabınızın bölgesini değiştirme
 
-1. Go to the Apple ID screen and tap _Media & Purchases_ → _View Account_.
+1. Apple Kimliği ekranına gidin ve _Ortamlar ve Satın Almalar_ → _Hesabı Görüntüle_ öğesine dokunun.
 
 2. _Ülke/Bölge_ → _Ülke veya Bölgeyi Değiştir_ öğesine dokunun.
 
@@ -59,7 +59,7 @@ App Store'da ücretli abonelikleri olan ve yalnızca farklı bölgelerden ücret
 
 2. _Ortamlar ve Satın Almalar_ → _Çıkış Yap_ öğesini seçin. Bu, telefonunuzda Apple Kimliğinizle oturumunuzu açık tutarken yalnızca App Store'dan çıkış yapmanızı sağlar.
 
-3. Tap on _Media & Purchases_ again and select _Not [your name]?_ You will be prompted to sign in with a different Apple ID.
+3. _Ortamlar ve Satın Almalar_ öğesine tekrar dokunun ve _[Adınız] değil misiniz?_ öğesini seçin. Farklı bir Apple Kimliği ile oturum açmanız istenecektir.
 
    ![Hesap değiştiriliyor](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/log_out.png)
 

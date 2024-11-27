@@ -27,7 +27,7 @@ curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/sc
 
 V případě potřeby zadejte heslo správce.
 
-Stisknutím `y` odsouhlasíte propojení binárního souboru s `usr/local/bin` a počkáte na dokončení instalace.
+Stisknutím `y` odsouhlasíte propojení binárního souboru s `/usr/local/bin` a počkáte na dokončení instalace.
 
 :::note
 Podpis můžete ověřit pomocí nástroje `gpg`, abyste prokázali, že se jedná o oficiální verzi AdGuard VPN. [Více na GitHubu](https://github.com/AdguardTeam/AdGuardVPNCLI?tab=readme-ov-file#verify-releases)

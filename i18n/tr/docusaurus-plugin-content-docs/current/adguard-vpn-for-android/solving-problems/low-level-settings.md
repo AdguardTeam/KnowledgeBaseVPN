@@ -23,9 +23,9 @@ AdGuard VPN protokolü varsayılan olarak tespit edilmeyi önlemek ve yüksek h�
 
 AdGuard VPN'i bunun yerine QUIC aktarım protokolünü kullanacak şekilde değiştirebilirsiniz. [QUIC](https://adguard-vpn.com/kb/general/why-adguard-vpn/#6-quic-support) nispeten yeni bir protokoldür, bu nedenle daha az kararlı olabilir. However, if your Internet connection is unstable (for example, when you connect to the public Wi-Fi), it provides better security and increases the connection speed thanks to the [Head-Of-Line Blocking](https://adguard-dns.io/en/blog/dns-over-quic.html#headoflineblocking) technology.
 
-### Include Wi-Fi gateway in VPN routes
+### Wi-Fi ağ geçidini VPN yönlendirmelerine dâhil et
 
-If this setting is enabled, the gateway IP addresses will be added to VPN routes when on Wi-Fi.
+Bu ayar etkinleştirildiğinde, Wi-Fi kullanıldığında ağ geçidi IP adresleri VPN yönlendirmelerine eklenecektir.
 Bunu devre dışı bırakırsanız, yönlendirme yapılandırması (filtrelenen IP aralıkları) değişecektir. Kullanıcının bağlı olduğu ağın Wi-Fi ağ geçidi hariç tutulacak ve bu nedenle filtrelemeye tabi olmayacaktır.
 
 Bu ayar varsayılan olarak etkindir.
