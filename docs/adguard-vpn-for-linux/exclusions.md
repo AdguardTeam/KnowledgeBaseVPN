@@ -5,7 +5,7 @@ sidebar_position: 7
 
 *Exclusions* feature lets you decide which domains’ traffic should be excluded from VPN routing. This is handy when you don’t need VPN to work for some websites, because it saves you the hassle of constantly turning VPN on and off.
 
-Just like in AdGuard VPN for other platforms, in AdGuard VPN for Linux you can use Exclusions in two modes: General (VPN is enabled for all domains except for those in the exclusion list) and Selective (VPN is enabled only for the domains in the exclusion list). 
+Just like in AdGuard VPN for other platforms, in AdGuard VPN for Linux you can use Exclusions in two modes: General (VPN is enabled for all domains except for those in the exclusion list) and Selective (VPN is enabled only for the domains in the exclusion list).
 
 :::note
 
