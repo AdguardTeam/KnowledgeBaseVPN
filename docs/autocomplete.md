@@ -3,9 +3,9 @@ title: Command-line completion
 sidebar_position: 5
 ---
 
-To make navigating through different and, sometimes, pretty long commands easier, you can use the command-line completion feature. 
+To make navigating through different and, sometimes, pretty long commands easier, you can use the command-line completion feature.
 
-To enable it, see the bash-completion hint that is shown after installing or updating AdGuard VPN for Linux: 
+To enable it, see the bash-completion hint that is shown after installing or updating AdGuard VPN for Linux:
 
 ![bash-completion hint](https://cdn.adtidy.org/blog/new/6x3djbash-completion-hint.png)
 
