@@ -7,13 +7,13 @@ sidebar_position: 4
 
 1. AdGuard VPN CLI requires at least 22 MB of free storage space on your router’s disk or external USB after installing necessary packages.
 2. **Asuswrt-Merlin donanım yazılımı**: Yönlendiricinizin Asuswrt-Merlin donanım yazılımını çalıştırdığından emin olun.
-3. **USB drive**: A USB drive formatted in a native Linux file system (ext2, ext3, or ext4). We will go through the formatting process in this guide.
+3. **USB belleği**: Yerel bir Linux dosya sisteminde (ext2, ext3 veya ext4) biçimlendirilmiş bir USB belleği. Bu kılavuzda biçimlendirme sürecini ele alacağız.
 
 :::
 
-## 1. Determine your router’s IP address
+## 1. Yönlendiricinin IP adresini belirleme
 
-Çoğu yönlendirici için varsayılan IP adresi `192.168.1.1` veya `192.168.0.1`dir. If you’ve changed the IP address or if you’re unsure, you can find it by checking the IP configuration on a connected device.
+Çoğu yönlendirici için varsayılan IP adresi `192.168.1.1` veya `192.168.0.1`dir. IP adresini değiştirdiyseniz veya emin değilseniz, bağlı bir cihazdaki IP yapılandırmasını kontrol ederek bulabilirsiniz.
 
 ### On Windows
 
@@ -41,11 +41,13 @@ sidebar_position: 4
 
 2. Look for the _default_ entry. Yanındaki IP adresi ise yönlendiricinizin IP adresidir.
 
-## 2) Make sure SSH and JFFS custom scripts are enabled on the router
+<!-- comment -->
 
-Öncelikle, yönlendiricinizde SSH erişiminin etkinleştirildiğinden emin olun. Bu ayar genellikle yönlendiricinin web arayüzünde bulunur. Yönlendirme kurallarını belirlemek için JFFS özel betikler kullanılacaktır.
+## 2. Make sure SSH and JFFS custom scripts are enabled on the router
 
-1. Log in to the web interface. Buna genellikle [`http://192.168.1.1`](http://192.168.1.1/) adresinden bir web tarayıcısı aracılığıyla erişilebilir. Aksi takdirde, [`192.168.1.1`](http://192.168.1.1/) adresini yönlendiricinizin IP adresiyle değiştirin.
+First, make sure that SSH access is enabled on your router. This setting is usually found in the router’s web interface. JFFS custom scripts will be used to set routing rules.
+
+1. Log in to the web interface. This is usually accessible via a web browser at [`http://192.168.1.1`](http://192.168.1.1/). Otherwise, replace [`192.168.1.1`](http://192.168.1.1/) with your router’s IP address.
 
 2. Scroll down to _Advanced settings_, _Administration_ → _System_.
 
@@ -57,15 +59,17 @@ sidebar_position: 4
 
 6. Click _Apply_ at the bottom of the page.
 
-## 3) Use an SSH client to connect to the router
+<!-- comment -->
+
+## 3. Use an SSH client to connect to the router
 
 You’ll need an SSH client. Most Linux and macOS systems come with an SSH client pre-installed. For Windows, you can use PowerShell, the built-in SSH client in Windows 10/11, or a third-party application like PuTTY.
 
 ### Built-in SSH client (Linux, macOS, and Windows 10/11)
 
-1. Terminal veya PowerShell'i açın.
+1. Open Terminal or PowerShell.
 
-2. SSH komutunu çalıştırın:
+2. Run the SSH command:
 
    ```bash
    ssh admin@192.168.1.1
@@ -81,36 +85,40 @@ You’ll need an SSH client. Most Linux and macOS systems come with an SSH clien
    Are you sure you want to continue connecting (yes/no/[fingerprint])?
    ```
 
-   `Evet` yazın ve Enter tuşuna basın.
+   Type `yes` and press Enter.
 
 4. Enter the router’s password when prompted. The SSH login username and password are the same as the admin credentials.
 
-### PuTTY (Windows 10'dan öncesi)
+<!-- comment -->
 
-1. PuTTY'yi [resmi siteden](https://www.putty.org/) indirin ve kurun.
-2. PuTTY'yi açın.
+### PuTTY (Windows below 10)
+
+1. Download and install PuTTY from [the official website](https://www.putty.org/).
+2. Open PuTTY.
 3. In the _Host Name (or IP address)_ field, enter your router’s IP address (e.g., `192.168.1.1`).
 4. Make sure the _Connection type_ is set to SSH.
-5. _Aç_ öğesine tıklayın.
-6. Terminal penceresi açıldığında, yönlendiricinin kimlik bilgilerini girin. The SSH login username and password are the same as the admin credentials.
+5. Click _Open_.
+6. When the Terminal window opens, enter the router’s credentials. The SSH login username and password are the same as the admin credentials.
 
-## 4) Install Entware using SSH
+<!-- comment -->
 
-Once logged into your SSH client, you can use various commands to interact with your router’s Linux-based operating system. To proceed, you will need to install Entware OPKG Manager. Yönlendirici yeteneklerini genişletmek için üçüncü taraf yazılım paketleri yüklemenize olanak tanır. Skip to the next step if you already have it installed.
+## 4. Install Entware using SSH
+
+Once logged into your SSH client, you can use various commands to interact with your router’s Linux-based operating system. To proceed, you will need to install Entware OPKG Manager. It allows you to install third-party software packages to expand router capabilities. Skip to the next step if you already have it installed.
 
 Note that you cannot use both Optware (outdated alternative) and Entware at the same time.
 
-Asus DownloadMaster, Optware tabanlıdır ve bu nedenle Entware ile uyumlu değildir. DownloadMaster'ı kaldırmanız ve Entware tarafından sağlanan alternatiflere bakmanız gerekecektir.
+The Asus DownloadMaster is based on Optware, and therefore is not compatible with Entware. You will have to uninstall DownloadMaster and look at the alternatives provided by Entware.
 
-After uninstalling, make sure that "asusware.arm" or "asusware.\*" dir on the mounted disk partition is deleted. Aksi takdirde, Entware düzgün çalışmaz. DownloadMaster'ı kaldırdıktan sonra yönlendiricinin yeniden başlatıldığından emin olun.
+After uninstalling, make sure that "asusware.arm" or "asusware.\*" dir on the mounted disk partition is deleted. Otherwise, Entware won't work properly. After uninstalling DownloadMaster, make sure the router is rebooted.
 
-You will need to plug a USB disk that's formatted in a native Linux file system (ext2, ext3 or ext4). Bir diski biçimlendirmek için amtm kullanın. Plug a USB disk into your router, then start amtm with:
+You will need to plug a USB disk that's formatted in a native Linux file system (ext2, ext3 or ext4). To format a disk, use amtm. Plug a USB disk into your router, then start amtm with:
 
 ```bash
 amtm
 ```
 
-Bir diski biçimlendirmek ve yönlendiriciye bağlamak için bu seçeneği kullanın:
+Use this option to format a disk and mount it to router:
 
 ```bash
 fd
@@ -118,9 +126,9 @@ fd
 
 Go through the formatting process and select the recommended options. All files from the USB disk will be deleted. For this setup to work, USB disk should always stay connected.
 
-USB'nizi taktıktan sonra yönlendirici yeniden başlatılır. To start the installation process, first reconnect to your router over SSH.
+After mounting your USB, the router will reboot. To start the installation process, first reconnect to your router over SSH.
 
-Ardından amtm uygulamasını çalıştırmak için şu komutu çalıştırın:
+Then launch the amtm application by simply running:
 
 ```bash
 amtm
@@ -140,23 +148,23 @@ If the entware-setup.sh script is not found, download and run the following scri
 wget -O - http://bin.entware.net/armv7sf-k3.2/installer/generic.sh | sh
 ```
 
-`e` tuşuna basarak amtm'den çıkın.
+Exit amtm by pressing `e`.
 
 ## 5. Install AdGuard VPN CLI
 
-Paket listelerini güncelleyin:
+Update the package lists:
 
 ```bash
 opkg update
 ```
 
-Gerekli paketleri yükleyin:
+Install required packages:
 
 ```bash
 opkg install curl ca-certificates
 ```
 
-`cd /opt` komutunu çalıştırarak /opt klasörüne gidin ve AdGuardVPN CLI kurulum betiğini çalıştırın:
+Go to /opt folder by running `cd /opt`  and run the AdGuardVPN CLI installation script:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/release/install.sh | sh -s -- -v
@@ -168,7 +176,7 @@ When asked “Would you like to link the binary to /usr/local/bin?“, reply `y`
 ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
 ```
 
-Import the SSL certificate and the tun module and set an alternative folder for the user directory. Varsayılan olarak, /tmp dizininde saklanır ve yeniden başlatma sonrasında ayarlarınızı kaybedersiniz. Run this before each new session.
+Import the SSL certificate and the tun module and set an alternative folder for the user directory. By default, it will be stored in /tmp and you’ll lose your settings after a reboot. Run this before each new session.
 
 ```bash
 export SSL_CERT_FILE=/opt/etc/ssl/certs/ca-certificates.crt
@@ -178,47 +186,47 @@ modprobe tun
 
 ## 6. Set up AdGuard VPN CLI
 
-1. Hesabınıza giriş yapın
+1. Log in to your account
 
    To use AdGuard VPN for Linux, you need an AdGuard account.
 
    You can sign up on our [website](https://auth.adguard.com/login.html) or in the Terminal.
 
-   Kaydolmak veya giriş yapmak için şunu yazın:
+   To sign up or log in, type:
 
    ```jsx
    adguardvpn-cli login
    ```
 
-2. VPN'e bağlanın
+2. Connect to VPN
 
-   İhtiyaçlarınıza en uygun VPN sunucu konumunu seçin.
+   Select a VPN server location that best suits your needs.
 
-   Genel olarak, sunucu size ne kadar yakınsa bağlantı o kadar hızlı olur.
+   In general, the closer the server, the faster the connection.
 
-   Mevcut konumları görüntülemek için şunu yazın:
+   To view available locations, type:
 
    ```jsx
    adguardvpn-cli list-locations
    ```
 
-   Belirli bir konuma bağlanmak için şunu yazın:
+   To connect to a specific location, type:
 
    ```jsx
-   adguardvpn-cli connect -l LOCATION_NAME
+   adguardvpn-cli connect -l LOCATION_NAME
    ```
 
-   LOCATION_NAME yerine bağlanmak istediğiniz konumun şehri, ülkesi veya ISO koduyla değiştirin.
+   Replace LOCATION_NAME with the city, country, or ISO code of the location you want to connect to.
 
-   Hızlı bağlantı için şunu yazın:
+   For quick connect, type:
 
    ```jsx
    adguardvpn-cli connect
    ```
 
-   AdGuard VPN, mevcut en hızlı konumu seçer ve gelecekteki hızlı bağlantılar için bunu hatırlar.
+   AdGuard VPN will choose the fastest available location and remember it for future quick connections.
 
-   "TUN modunda varsayılan yönlendirmeleri ayarlamak ister misiniz?" diye sorulduğunda `evet` girin
+   Enter `yes` when asked “Would you like to set default routes in TUN mode?”
 
    AdGuard VPN CLI will create a tun0 interface for VPN tunneling.
 
@@ -226,17 +234,19 @@ modprobe tun
 
    Get a list of all available AdGuard VPN commands and customize the VPN client to your needs.
 
-   Tüm komutları görüntülemek için şunu yazın:
+   To view all commands, type:
 
    ```jsx
    adguardvpn-cli --help-all
    ```
 
-## 7) Set up your firewall rules and auto-launch for AdGuard VPN
+<!-- comment -->
 
-Bu adım, trafiği AdGuard VPN üzerinden yönlendirmek için Asuswrt-Merlin yönlendiricideki güvenlik duvarı kurallarını yapılandırır.
+## 7. Set up your firewall rules and auto-launch for AdGuard VPN
 
-1. Aşağıdaki komutu çalıştırarak yeni bir betik oluşturun:
+This step configures firewall rules on an Asuswrt-Merlin router to route traffic through AdGuard VPN.
+
+1. Create a new script by running the following command:
 
    ```bash
    cat << 'EOF' > /jffs/scripts/wan-event
@@ -260,19 +270,19 @@ Bu adım, trafiği AdGuard VPN üzerinden yönlendirmek için Asuswrt-Merlin yö
    EOF
    ```
 
-   Ve çalıştırılabilir hâle getirin:
+   And make it executable:
 
    ```bash
    chmod a+rx /jffs/scripts/wan-event
    ```
 
-   Eğer daha fazla brX arayüzünüz varsa, trafiği yönlendirmek için onları da betiğe dâhil ettiğinizden emin olun. Alternatif olarak, bu arayüzler için farklı bir yönlendirme kuralı belirttiğinizden emin olun.
+   If you have more brX interfaces, make sure to include them in the script as well to route their traffic. Alternatively, make sure to specify a different routing rule for those interfaces.
 
-   Bu betik, tüm trafiğin VPN tünelinden geçmesini sağlar. Yeniden başlattıktan veya internete yeniden bağlandıktan sonra, AdGuard VPN otomatik olarak son kullandığınız konuma bağlanır.
+   This script will ensure that all traffic goes through the VPN tunnel. After rebooting or reconnecting to the Internet, AdGuard VPN will connect automatically to your last used location.
 
-2. Kurulumu tamamlamak için yönlendiricinizi yeniden başlatın.
+2. Reboot your router to finish setup.
 
-   Tebrikler! Artık AdGuard VPN ile güvence altına alınmış bir yönlendiriciniz var.
+   Congrats! Now you have a router secured with AdGuard VPN.
 
    If you want to SSH into your router again to send any commands to AdGuard VPN, make sure to run this first:
 

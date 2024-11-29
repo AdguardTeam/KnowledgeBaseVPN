@@ -49,7 +49,9 @@ Výchozí IP adresa pro většinu routerů je `192.168.1.1` nebo `192.168.0.1
 
 2. Vyhledejte položku _výchozí_. IP adresa vedle ní je IP adresa vašeho routeru.
 
-## 3) Připojte se k routeru pomocí klienta SSH
+<!-- comment -->
+
+## 3. Připojte se k routeru pomocí klienta SSH
 
 Budete potřebovat klienta SSH. Většina systémů Linux a macOS je dodávána s předinstalovaným klientem SSH. V systému Windows můžete použít prostředí PowerShell, integrovaného klienta SSH v systému Windows 10/11 nebo aplikaci třetí strany, například PuTTY.
 
@@ -76,6 +78,8 @@ Budete potřebovat klienta SSH. Většina systémů Linux a macOS je dodávána 
    Zadejte `yes` a stiskněte Enter.
 
 4. Na výzvu zadejte heslo routeru. Výchozí uživatelské jméno je `root` a výchozí heslo je `keenetic`.
+
+<!-- comment -->
 
 ### PuTTY (Windows 8 a starší)
 
@@ -167,7 +171,7 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
    adguardvpn-cli login
    ```
 
-2. Připojení k VPN
+2. Připojte se k VPN
 
    U routerů Keenetic nezapomeňte před připojením importovat certifikát SSL a vybrat složku pro uživatelský adresář spuštěním tohoto příkazu:
 
@@ -204,7 +208,7 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
 
    AdGuard VPN vybere umístění s nejnižší odezvou a zapamatuje si ho pro budoucí rychlá připojení.
 
-3. Úprava nastavení
+3. Upravte nastavení
 
    Získejte seznam všech dostupných příkazů AdGuard VPN a přizpůsobte klienta VPN svým potřebám.
 
@@ -216,7 +220,7 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
 
 4. Na dotaz "Chcete nastavit výchozí trasy v režimu TUN?" zadejte `yes`
 
-AdGuard VPN CLI vytvoří rozhraní tun0 pro tunel VPN
+AdGuard VPN CLI vytvoří rozhraní tun0 pro tunel VPN.
 
 ## 7. Nastavte pravidla brány firewall pro aplikace
 

@@ -27,7 +27,7 @@ curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/sc
 
 Gerekirse, yönetici parolanızı girin.
 
-Agree to link the binary to `usr/local/bin` by pressing `y` and wait until the installation is complete.
+Agree to link the binary to `/usr/local/bin` by pressing `y` and wait until the installation is complete.
 
 :::note
 AdGuard VPN'in resmi bir sürümü olduğunu kanıtlamak için `gpg` aracını kullanarak imzayı doğrulayabilirsiniz. [GitHub'da daha fazlasını okuyun](https://github.com/AdguardTeam/AdGuardVPNCLI?tab=readme-ov-file#verify-releases)

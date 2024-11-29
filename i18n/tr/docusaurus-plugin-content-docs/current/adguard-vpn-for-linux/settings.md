@@ -144,12 +144,12 @@ adguardvpn-cli config set-debug-logging on
 
 Günlükleri dışa aktardıktan sonra bu ayarı devre dışı bırakın.
 
-## Show notificatoins
+## Bildirimleri göster
 
-The setting is responsible for the appearance of system notifications when AdGuard VPN is turned on/off or waiting for reconnection, for example:
+Ayar, AdGuard VPN açıldığında/kapatıldığında veya yeniden bağlanmayı beklerken sistem bildirimlerinin görünümünden sorumludur, örneğin:
 
-- A user turns VPN on — the _VPN connected_ notification appears.
-- A user turns VPN off — the \*VPN disconnected notification appears.
-- A user is waiting for the VPN connection to be recovered — the _Waiting for connection_ notification appears.
+- Kullanıcı VPN'i açar — _VPN bağlandı_ bildirimi görünür.
+- Kullanıcı VPN'i kapatır — _VPN bağlantısı kesildi_ bildirimi görünür.
+- Kullanıcı VPN bağlantısının geri gelmesini bekliyor — _Bağlantı için bekleniyor_ bildirimi görünür.
 
   adguardvpn-cli config set-show-notifications on
