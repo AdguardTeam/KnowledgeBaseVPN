@@ -130,11 +130,11 @@ Here are the main options:
 
     Example: `adguardvpn-cli site-exclusions add`, where `%DOMAIN_NAME%` is the website that you want to add to exclusions.
 
-:::note
+    :::note
 
-To add many exclusions, you need to list them comma-separated.
+    o add many exclusions, you need to list them comma-separated.
 
-:::
+    :::
 
 1. **clear** clears the list of exclusions in the current mode
 
