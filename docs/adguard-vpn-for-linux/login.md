@@ -49,6 +49,6 @@ To check for updates, type:
 
 To check your current subscription information and status, type:
 
-`adguardvpn-cli license`
+    adguardvpn-cli license
 
 You will see your email and subscription type. Paid users will also see the expiration date of their subscription.
