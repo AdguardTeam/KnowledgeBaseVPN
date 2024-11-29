@@ -25,7 +25,7 @@ To add a domain to the exclusion list of the current mode, type:
 
 `adguardvpn-cli site-exclusions add %domain_name%`
 
-> Supported input formats: `domain.com`, `sub.domain.com`, `www.domain.com`. Use double quotes for wildcards: `"*.domain.com"`
+> Supported input formats: `domain.com`, `sub.domain.com`, `www.domain.com`. To add two or more exclusions at once, list them comma-separated. Use double quotes for wildcards: `"*.domain.com"`
 >
 > Command example: `adguardvpn-cli site-exclusions add https://www.google.com/`
 
