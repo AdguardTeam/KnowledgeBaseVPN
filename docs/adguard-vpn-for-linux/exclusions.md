@@ -44,7 +44,7 @@ To remove all exclusions, type:
 To change the exclusion mode, type:
 
     adguardvpn-cli site-exclusions mode %mode_name%
-    
+
 (or you can just check the current mode using `adguardvpn-cli site-exclusions mode`)
 
 where %mode_name% is `general` or `selective`.
@@ -53,6 +53,6 @@ where %mode_name% is `general` or `selective`.
 
 The commands listed above (`add`, `remove`, `show`, `clear`) are applied to the exclusion list of the current mode. To perform a command for a specific mode, add `--for-mode %mode_name% type`, for example:
 
-    adguardvpn-cli site-exclusions add %domain_name% --for-mode %mode_name%
+    adguardvpn-cli site-exclusions add %domain_name% --for-mode %mode_name%`
 
 :::
