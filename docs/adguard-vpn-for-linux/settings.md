@@ -126,7 +126,7 @@ To read about what you can do with exclusions, write this in the command-line in
 
 Here are the main options:
 
-1.**add** adds specified exclusions
+1. **add** adds specified exclusions
 
     Example: `adguardvpn-cli site-exclusions add`, where `%DOMAIN_NAME%` is the website that you want to add to exclusions.
 
