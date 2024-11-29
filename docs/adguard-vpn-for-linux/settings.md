@@ -136,7 +136,7 @@ To add many exclusions, you need to list them comma-separated.
 
 :::
 
-2.**clear** clears the list of exclusions in the current mode
+2. **clear** clears the list of exclusions in the current mode
 
     Example: `adguardvpn-cli site-exclusions clear`
 
