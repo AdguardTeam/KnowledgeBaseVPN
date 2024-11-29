@@ -140,7 +140,7 @@ To add many exclusions, you need to list them comma-separated.
 
     Example: `adguardvpn-cli site-exclusions clear`
 
-3.**mode** shows the current mode and allows to switch between them
+3. **mode** shows the current mode and allows to switch between them
 
     Example: `adguardvpn-cli site-exclusions mode selective` (with this command, Selective mode is chosen)
 
