@@ -148,6 +148,6 @@ To add many exclusions, you need to list them comma-separated.
 
     Example: `adguardvpn-cli site-exclusions remove %DOMAIN_NAME%` where `%DOMAIN_NAME%` is the website that you want to remove from exclusions.
 
-5.**show** shows the current list of exclusions
+5. **show** shows the current list of exclusions
 
     Example: `adguardvpn-cli site-exclusions show`
