@@ -149,7 +149,41 @@ Günlükleri dışa aktardıktan sonra bu ayarı devre dışı bırakın.
 Ayar, AdGuard VPN açıldığında/kapatıldığında veya yeniden bağlanmayı beklerken sistem bildirimlerinin görünümünden sorumludur, örneğin:
 
 - Kullanıcı VPN'i açar — _VPN bağlandı_ bildirimi görünür.
-- Kullanıcı VPN'i kapatır — _VPN bağlantısı kesildi_ bildirimi görünür.
+- A user turns VPN off — the _VPN disconnected_ notification appears.
 - Kullanıcı VPN bağlantısının geri gelmesini bekliyor — _Bağlantı için bekleniyor_ bildirimi görünür.
 
   adguardvpn-cli config set-show-notifications on
+
+## Exclusions
+
+There are two modes. In _General_ mode, websites from the list of exclusions are not routed through VPN. In _Selective_ mode, only websites from the list of exclusions are routed through VPN. There is a separate list of exclusions for each mode.
+
+To read about what you can do with exclusions, write this in the command-line interface: `adguardvpn-cli site-exclusions -h`.
+
+Here are the main options:
+
+1. **add** adds specified exclusions
+
+   Example: `adguardvpn-cli site-exclusions add`, where `%DOMAIN_NAME%` is the website that you want to add to exclusions.
+
+   :::note
+
+   o add many exclusions, you need to list them comma-separated.
+
+   :::
+
+2. **clear** clears the list of exclusions in the current mode
+
+   Example: `adguardvpn-cli site-exclusions clear`
+
+3. **mode** shows the current mode and allows to switch between them
+
+   Example: `adguardvpn-cli site-exclusions mode selective` (with this command, Selective mode is chosen)
+
+4. **remove** removes one or more exclusions (if separated by commas)
+
+   Example: `adguardvpn-cli site-exclusions remove %DOMAIN_NAME%` where `%DOMAIN_NAME%` is the website that you want to remove from exclusions.
+
+5. **show** shows the current list of exclusions
+
+   Example: `adguardvpn-cli site-exclusions show`
