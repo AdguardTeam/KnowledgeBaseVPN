@@ -26,4 +26,4 @@ Gleichzeitig können Sie ein Abonnement erwerben, um eine unbegrenzte Version de
 - Sicheres Streaming
 - Port 25 nicht sperren
 
-To use all the advantages, consider [purchasing a subscription](/general/subscription).
+Um alle Vorteile nutzen zu können, sollten Sie ein [Abonnement abschließen](/general/subscription).

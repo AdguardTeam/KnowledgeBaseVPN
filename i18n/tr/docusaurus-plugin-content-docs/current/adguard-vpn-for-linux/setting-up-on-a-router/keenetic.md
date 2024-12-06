@@ -65,7 +65,7 @@ You’ll need an SSH client. Most Linux and macOS systems come with an SSH clien
    ssh admin@192.168.1.1
    ```
 
-   Replace `192.168.1.1` with your router’s IP address.
+   `192.168.1.1` kısmını yönlendiricinizin IP adresiyle değiştirin.
 
 3. If this is your first time connecting to the router via SSH, you’ll see a message like this:
 
@@ -77,55 +77,55 @@ You’ll need an SSH client. Most Linux and macOS systems come with an SSH clien
 
    Type `yes` and press Enter.
 
-4. Enter the router’s password when prompted. The default username is `root` and the default password is `keenetic`.
+4. İstendiğinde yönlendiricinin parolasını girin. The default username is `root` and the default password is `keenetic`.
 
 <!-- comment -->
 
-### PuTTY (Windows 8 and earlier)
+### PuTTY (Windows 8 ve öncesi)
 
-1. Download and install PuTTY from [the official website](https://www.putty.org/).
+1. PuTTY'yi [resmi siteden](https://www.putty.org/) indirin ve kurun.
 
-2. Open PuTTY.
+2. PuTTY'yi açın.
 
-3. In the _Host Name (or IP address)_ field, enter your router’s IP address (e.g., `192.168.1.1`)
+3. Ana Makine Adı (veya IP adresi)\* alanına yönlendiricinizin IP adresini girin (örneğin, `192.168.1.1`)
 
-4. Ensure the _Connection type_ is set to SSH.
+4. _Bağlantı türü_ öğesinin SSH olarak ayarlandığından emin olun.
 
-5. Click _Open_.
+5. _Aç_ öğesine tıklayın.
 
-6. When the Terminal window opens, log in. The default username is `root` and the default password is `keenetic`.
+6. Terminal penceresi açıldığında oturum açın. The default username is `root` and the default password is `keenetic`.
 
 Once logged in, you can use various commands to interact with your router’s Linux-based operating system.
 
 ## 4. Install OPKG Entware
 
-In Keenetic models equipped with a USB port (except Keenetic 4G), you can use the OPKG package manager. It allows you to install third-party software packages to expand routers capabilities.
+In Keenetic models equipped with a USB port (except Keenetic 4G), you can use the OPKG package manager. Yönlendiricilerin yeteneklerini genişletmek için üçüncü taraf yazılım paketleri yüklemenize olanak tanır.
 
-Starting with version 3.7, for some Keenetic models, it is possible to write OPKG Entware to the [UBIFS](https://en.wikipedia.org/wiki/UBIFS) partition of the router's NAND flash memory, i.e. to the built-in memory of the router. Follow the steps below to install the Entware repository package system on a USB drive or in the router’s internal memory.
+Starting with version 3.7, for some Keenetic models, it is possible to write OPKG Entware to the [UBIFS](https://en.wikipedia.org/wiki/UBIFS) partition of the router's NAND flash memory, i.e. to the built-in memory of the router. Entware depo paket sistemini bir USB belleğine veya yönlendiricinin dâhili belleğine yüklemek için aşağıdaki adımları izleyin.
 
-### How to install OPKG Entware on a USB drive
+### USB belleğine OPKG Entware nasıl yüklenir
 
-It is possible to install OPKG packages on the Keenetic models with USB ports that support USB flash drives. These are: KN-1410, KN-1710/1711, KN-1010/1011, KN-2510, KN-2410, KN-1810, KN-1910, KN-2310, KN-2010, KN-2110, KN-2610, KN-2710.
+USB flaş bellekleri destekleyen USB portlarına sahip Keenetic modellerine OPKG paketlerini yüklemek mümkündür. Bunlar: KN-1410, KN-1710/1711, KN-1010/1011, KN-2510, KN-2410, KN-1810, KN-1910, KN-2310, KN-2010, KN-2110, KN-2610, KN-2710’dur.
 
-For detailed instructions, visit [the official Keenetic Wiki](https://help.keenetic.com/hc/en-us/articles/360021214160-Installing-the-Entware-repository-package-system-on-a-USB-drive).
+Ayrıntılı talimatlar için [resmi Keenetic Wiki](https://help.keenetic.com/hc/en-us/articles/360021214160-Installing-the-Entware-repository-package-system-on-a-USB-drive) adresini ziyaret edin.
 
-### How to install OPKG Entware in the router’s internal memory
+### Yönlendiricinin dâhili hafızasına OPKG Entware nasıl yüklenir
 
 This method will work with the following models: KN-1010/1011, KN-1810/1811, KN-1910, KN-2010, KN-2110, KN-2310, KN-2410, KN-2510, KN-2610, KN-2710, KN-3810, KN-3610 with the KeeneticOS version 3.7 and later.
 
-For detailed instructions, visit [the official Keenetic Wiki](https://help.keenetic.com/hc/en-us/articles/360021888880-Installing-OPKG-Entware-in-the-router-s-internal-memory).
+Ayrıntılı talimatlar için [resmi Keenetic Wiki](https://help.keenetic.com/hc/en-us/articles/360021888880-Installing-OPKG-Entware-in-the-router-s-internal-memory) adresini ziyaret edin.
 
-If your router doesn’t support installing packages on its internal memory, follow the instructions for installing packages on a USB drive.
+Yönlendiriciniz paketlerin dâhili belleğe yüklenmesini desteklemiyorsa, paketleri bir USB belleğe yüklemek için talimatları izleyin.
 
 ## 5. Install AdGuard VPN CLI
 
-In your SSH client, execute the following code to install the packages required for AdGuard VPN CLI:
+SSH istemcinizde, AdGuard VPN CLI için gerekli paketleri yüklemek için aşağıdaki kodu çalıştırın:
 
 ```bash
 opkg install curl sudo ca-certificates
 ```
 
-Go to the `/opt` folder by typing `/cd opt` and run the AdGuard VPN CLI installation script:
+`/cd opt` komutunu çalıştırarak `/opt` klasörüne gidin ve AdGuard VPN CLI yükleme betiğini çalıştırın:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/release/install.sh | sh -s -- -v
@@ -141,9 +141,9 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
 
 1. Log in to your account
 
-   To use AdGuard VPN for Linux, you need an AdGuard account. You can sign up or log in on our [website](https://auth.adguard.com/login.html) or in Terminal.
+   Linux için AdGuard VPN'i kullanmak için bir AdGuard hesabına ihtiyacınız vardır. [Sitemizden](https://auth.adguard.com/login.html) veya Terminal'den kaydolabilir veya giriş yapabilirsiniz.
 
-   Before logging in, go to Terminal and make sure you are in the right shell interface. If you can see the following text:
+   Before logging in, go to Terminal and make sure you are in the right shell interface. Eğer aşağıdaki metni görebiliyorsanız:
 
    ```text
    KeeneticOS version 4.01.C.7.0-1, copyright (c) 2010-2024 Keenetic Ltd.
@@ -157,7 +157,7 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
    exec sh
    ```
 
-   If you see the following text, you can continue the setup:
+   Aşağıdaki metni görürseniz, kuruluma devam edebilirsiniz:
 
    ```bash
    BusyBox v1.36.1 (2024-08-08 16:11:23 UTC) built-in shell (ash)
@@ -165,13 +165,13 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
    / #
    ```
 
-   To sign up or log in, type:
+   Kaydolmak veya giriş yapmak için şunu yazın:
 
    ```bash
    adguardvpn-cli login
    ```
 
-2. Connect to VPN
+2. VPN'e bağlanın
 
    For Keenetic routers, be sure to import the SSL certificate and select a folder for the user directory by running this command before connecting:
 
@@ -180,47 +180,47 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
    export HOME=/opt/home/admin
    ```
 
-   This must be done before each session.
+   Bu işlem her oturumdan önce yapılmalıdır.
 
-   Select a VPN server location that best suits your needs.
+   İhtiyaçlarınıza en uygun VPN sunucu konumunu seçin.
 
-   In general, the closer the server is to you, the faster the connection.
+   Genel olarak, sunucu size ne kadar yakınsa bağlantı o kadar hızlı olur.
 
-   To view available locations, type:
+   Mevcut konumları görüntülemek için şunu yazın:
 
    ```bash
    adguardvpn-cli list-locations
    ```
 
-   To connect to a specific location, type:
+   Belirli bir konuma bağlanmak için şunu yazın:
 
    ```bash
-   adguardvpn-cli connect -l LOCATION_NAME
+   adguardvpn-cli connect -l LOCATION_NAME
    ```
 
-   Replace `LOCATION_NAME` with the city, country, or ISO code of the location you want to connect to.
+   `LOCATION_NAME` yerine bağlanmak istediğiniz konumun şehri, ülkesi veya ISO koduyla değiştirin.
 
-   For quick connect, type:
+   Hızlı bağlantı için şunu yazın:
 
    ```bash
    adguardvpn-cli connect
    ```
 
-   AdGuard VPN will choose the location with the lowest ping and remember it for future quick connections.
+   AdGuard VPN en düşük ping değerine sahip konumu seçer ve gelecekteki hızlı bağlantılar için bunu hatırlar.
 
-3. Adjust your settings
+3. Ayarlarınızı düzenleyin
 
-   Get a list of all available AdGuard VPN commands and customize the VPN client to your needs.
+   Mevcut tüm AdGuard VPN komutlarının bir listesini alın ve VPN istemcisini ihtiyaçlarınıza göre özelleştirin.
 
-   To view all commands, type:
+   Tüm komutları görüntülemek için şunu yazın:
 
    ```bash
    adguardvpn-cli --help-all
    ```
 
-4. Enter `yes` when asked “Would you like to set default routes in TUN mode?”
+4. "TUN modunda varsayılan yönlendirmeleri ayarlamak ister misiniz?" diye sorulduğunda `evet` girin
 
-AdGuard VPN CLI will create a tun0 interface for VPN tunneling.
+AdGuard VPN CLI, VPN tünellemesi için bir tun0 arayüzü oluşturur.
 
 ## 7. Set up firewall rules
 
@@ -251,7 +251,7 @@ This step is designed to configure firewall rules on a Keenetic router to route 
    EOF
    ```
 
-   And make it executable:
+   Ve çalıştırılabilir hâle getirin:
 
    ```bash
    chmod +x /opt/etc/ndm/netfilter.d/001-adguardvpn.sh
@@ -267,7 +267,7 @@ The script creates a custom firewall rule to ensure that traffic from your LAN (
 
 The following script is designed to automatically establish a VPN connection using AdGuard VPN on your Keenetic router when the WAN interface becomes available (e.g., after a reboot or reconnecting to the Internet).
 
-Run the following command:
+Aşağıdaki komutu çalıştırın:
 
 ```bash
 cat << E0F > /opt/etc/ndm/wan.d/001-adguardvpn.sh
@@ -279,16 +279,16 @@ exit 0
 E0F
 ```
 
-And make it executable:
+Ve çalıştırılabilir hâle getirin:
 
 ```bash
 chmod +x /opt/etc/ndm/wan.d/001-adguardvpn.sh
 ```
 
-The script named `001-adguardvpn.sh` will be saved to `/opt/etc/ndm/wan.d/`.
+`001-adguardvpn.sh` adlı betik `/opt/etc/ndm/wan.d/` dosyasına kaydedilecektir.
 
-It will start AdGuard VPN when Internet is connected.
+İnternete bağlanıldığında AdGuard VPN'i başlatır.
 
-Reboot your router to finish setup.
+Kurulumu tamamlamak için yönlendiricinizi yeniden başlatın.
 
-Congrats! Now you have a router secured with AdGuard VPN.
+Tebrikler! Artık AdGuard VPN ile güvence altına alınmış bir yönlendiriciniz var.

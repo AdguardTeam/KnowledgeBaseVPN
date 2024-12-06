@@ -29,7 +29,7 @@ Veya AdGuard VPN'i bulmak için App Store'un aramasını kullanabilirsiniz:
 
     ![Ara *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/search-en.png)
 
-1. Select *AdGuard VPN - Unlimited & Fast* from the list of suggested apps and tap *GET*. Gerekirse, açılan pencereye Apple Kimliği hesap parolanızı girin.
+1. Önerilen uygulamalar listesinden *AdGuard VPN - Unlimited & Fast* öğesini seçin ve *İndir* öğesine dokunun. Gerekirse, açılan pencereye Apple Kimliği hesap parolanızı girin.
 1. İndirme işleminin bitmesini bekleyin ve uygulamayı açmak için *AÇ* öğesine dokunun.
 
     ![AdGuard VPN *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/adguard-vpn-en.png)
