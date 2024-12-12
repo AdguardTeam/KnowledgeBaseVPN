@@ -70,7 +70,7 @@ You’ll need an SSH client. Most Linux and macOS systems come with an SSH clien
 1. If this is your first time connecting to the router via SSH, you’ll see a message like this:
 
     ```text
-    The authenticity of host '192.168.1.1 (192.168.1.1)' can't be established.
+    The authenticity of host ’192.168.1.1 (192.168.1.1)’ can’t be established.
     ECDSA key fingerprint is SHA256:...
     Are you sure you want to continue connecting (yes/no/[fingerprint])?
     ```
@@ -101,7 +101,7 @@ Once logged in, you can use various commands to interact with your router’s Li
 
 In Keenetic models equipped with a USB port (except Keenetic 4G), you can use the OPKG package manager. It allows you to install third-party software packages to expand routers capabilities.
 
-Starting with version 3.7, for some Keenetic models, it is possible to write OPKG Entware to the [UBIFS](https://en.wikipedia.org/wiki/UBIFS) partition of the router's NAND flash memory, i.e. to the built-in memory of the router. Follow the steps below to install the Entware repository package system on a USB drive or in the router’s internal memory.
+Starting with version 3.7, for some Keenetic models, it is possible to write OPKG Entware to the [UBIFS](https://en.wikipedia.org/wiki/UBIFS) partition of the router’s NAND flash memory, i.e. to the built-in memory of the router. Follow the steps below to install the Entware repository package system on a USB drive or in the router’s internal memory.
 
 ### How to install OPKG Entware on a USB drive
 
@@ -238,7 +238,7 @@ This step is designed to configure firewall rules on a Keenetic router to route 
 
     ```bash
 
-    cat << 'EOF' > /opt/etc/ndm/netfilter.d/001-adguardvpn.sh
+    cat << ’EOF’ > /opt/etc/ndm/netfilter.d/001-adguardvpn.sh
     #!/opt/bin/sh
     for ipt in iptables ip6tables; do
         $ipt -D FORWARD -j ADGUARD_FORWARD || true

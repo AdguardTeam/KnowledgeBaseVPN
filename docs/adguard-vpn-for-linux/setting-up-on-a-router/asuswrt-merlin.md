@@ -79,7 +79,7 @@ You’ll need an SSH client. Most Linux and macOS systems come with an SSH clien
 1. If this is your first time connecting to the router via SSH, you’ll see a message like this:
 
     ```text
-    The authenticity of host '192.168.1.1 (192.168.1.1)' can't be established.
+    The authenticity of host ’192.168.1.1 (192.168.1.1)’ can’t be established.
     ECDSA key fingerprint is SHA256:...
     Are you sure you want to continue connecting (yes/no/[fingerprint])?
     ```
@@ -109,9 +109,9 @@ Note that you cannot use both Optware (outdated alternative) and Entware at the 
 
 The Asus DownloadMaster is based on Optware, and therefore is not compatible with Entware. You will have to uninstall DownloadMaster and look at the alternatives provided by Entware.
 
-After uninstalling, make sure that "asusware.arm" or "asusware.*" dir on the mounted disk partition is deleted. Otherwise, Entware won't work properly. After uninstalling DownloadMaster, make sure the router is rebooted.
+After uninstalling, make sure that `asusware.arm` or `asusware.*` dir on the mounted disk partition is deleted. Otherwise, Entware won’t work properly. After uninstalling DownloadMaster, make sure the router is rebooted.
 
-You will need to plug a USB disk that's formatted in a native Linux file system (ext2, ext3 or ext4). To format a disk, use amtm. Plug a USB disk into your router, then start amtm with:
+You will need to plug a USB disk that’s formatted in a native Linux file system (ext2, ext3 or ext4). To format a disk, use amtm. Plug a USB disk into your router, then start amtm with:
 
 ```bash
 amtm
@@ -248,7 +248,7 @@ This step configures firewall rules on an Asuswrt-Merlin router to route traffic
 1. Create a new script by running the following command:
 
     ```bash
-    cat << 'EOF' > /jffs/scripts/wan-event
+    cat << ’EOF’ > /jffs/scripts/wan-event
     #!/bin/sh
 
     if [ "$2" = "connected" ]; then

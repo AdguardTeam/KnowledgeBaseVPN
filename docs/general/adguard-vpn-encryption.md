@@ -1,11 +1,11 @@
 ---
-title: 'What type of encryption is used in AdGuard VPN'
+title: ’What type of encryption is used in AdGuard VPN’
 sidebar_position: 7
 ---
 
 ## Introduction
 
-Encryption is the reason the word "private" exists in the term "Virtual Private Network". A VPN creates a tunnel between your device and a VPN server, that encrypts and transmits your data securely to the open Internet. The process of encryption, i.e. turning data into gibberish that no one who intercepts it can read, is essential to any VPN service.
+Encryption is the reason the word “private” exists in the term “Virtual Private Network”. A VPN creates a tunnel between your device and a VPN server, that encrypts and transmits your data securely to the open Internet. The process of encryption, i.e. turning data into gibberish that no one who intercepts it can read, is essential to any VPN service.
 
 The AdGuard VPN protocol uses the most secure and fast encryption algorithm to date — AES-256. Learn what it is and why it is so good.
 

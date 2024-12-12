@@ -1,5 +1,5 @@
 ---
-title: 'Problems with Restricted Mode profile'
+title: ’Problems with Restricted Mode profile’
 sidebar_position: 4
 ---
 

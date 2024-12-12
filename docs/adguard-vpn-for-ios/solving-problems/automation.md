@@ -12,7 +12,7 @@ If you need a VPN for one or more apps, set up AdGuard VPN to automatically turn
 
 ![Instruction. Part 1](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_on1_en.jpg)
 
-1. Download [the *Shortcuts* app](https://apps.apple.com/us/app/shortcuts/id915249334) from the App Store and go to the *Automation* section by tapping the clock icon at the bottom of the screen.
+1. Download [the *Shortcuts* app](https://apps.apple.com/us/app/shortcuts/id915249334) from the App Store if you don’t have it yet and go to the *Automation* section by tapping the clock icon at the bottom of the screen.
 1. Tap the *Create Personal Automation* button, then find *App* in the list that opens and tap it.
 1. In the next window, make sure that the *Is Opened* option is selected, and then tap *Choose* to choose the app.
 
