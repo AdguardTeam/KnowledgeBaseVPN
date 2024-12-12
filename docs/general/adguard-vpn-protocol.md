@@ -1,5 +1,5 @@
 ---
-title: ’How the AdGuard VPN protocol works’
+title: How the AdGuard VPN protocol works
 sidebar_position: 4
 ---
 
