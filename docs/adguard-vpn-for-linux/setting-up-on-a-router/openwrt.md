@@ -74,7 +74,7 @@ Most Linux and macOS systems come with an SSH client pre-installed. For Windows,
 1. If this is your first time connecting to the router via SSH, you’ll see a message like:
 
     ```text
-    The authenticity of host ’192.168.1.1 (192.168.1.1)’ can’t be established.
+    The authenticity of host '192.168.1.1 (192.168.1.1)' can't be established.
     ECDSA key fingerprint is SHA256: ...
     Are you sure you want to continue connecting? (Yes/No/[Fingerprint])
     ```
@@ -137,7 +137,7 @@ curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/sc
     adguardvpn-cli login
     ```
 
-    Note: If failed to link the binary to ’/usr/local/bin’, use full file path to run all commands. For example, `/opt/adguardvpn_cli/adguardvpn-cli login`
+    Note: If failed to link the binary to `/usr/local/bin`, use full file path to run all commands. For example, `/opt/adguardvpn_cli/adguardvpn-cli login`
 
 1. Connect to VPN
 
@@ -189,9 +189,9 @@ You can do it in the web interface or in the command line. Steps below describe 
 
     ```shell
     ssh admin@router_ip
-    uci set network.tun0=’interface’
-    uci set network.tun0.proto=’none’
-    uci set network.tun0.device=’tun0’
+    uci set network.tun0='interface'
+    uci set network.tun0.proto='none'
+    uci set network.tun0.device='tun0'
     uci commit network
     /etc/init.d/network reload
     ```
@@ -207,13 +207,13 @@ You can do it in the web interface or in the command line. Steps below describe 
     uci show firewall
     ```
 
-    This will show a config file with all zones listed. Look for a section like `firewall.@zone[1]` or similar where `option name ’wan’` is defined. The number `[1]` could be different depending on your configuration.
+    This will show a config file with all zones listed. Look for a section like `firewall.@zone[1]` or similar where `option name 'wan'` is defined. The number `[1]` could be different depending on your configuration.
 
-    Run this SSH command, replace `zone[1]` with correct  ‘wan’ zone identified before:
+    Run this SSH command, replace `zone[1]` with correct  'wan' zone identified before:
 
     ```shell
     uci show firewall | grep "=zone"
-    uci add_list firewall.@zone[1].network=’tun0’
+    uci add_list firewall.@zone[1].network='tun0'
     uci commit firewall
     /etc/init.d/firewall reload
     ```
@@ -221,8 +221,8 @@ You can do it in the web interface or in the command line. Steps below describe 
     If you want to disable all traffic that is not protected by VPN, run the following command. This way you won’t have an Internet connection at all if VPN disconnects. If you choose not to do this step, your real IP will be exposed if the VPN disconnects.
 
     ```shell
-    uci del_list firewall.@zone[1].network=’wan’
-    uci del_list firewall.@zone[1].network=’wan6’
+    uci del_list firewall.@zone[1].network='wan'
+    uci del_list firewall.@zone[1].network='wan6'
     uci commit firewall
     /etc/init.d/firewall reload
     ```
@@ -230,8 +230,8 @@ You can do it in the web interface or in the command line. Steps below describe 
     If you’ve changed your mind and want to allow direct traffic, run the following command:
 
     ```shell
-    uci add_list firewall.@zone[1].network=’wan’
-    uci add_list firewall.@zone[1].network=’wan6’
+    uci add_list firewall.@zone[1].network='wan'
+    uci add_list firewall.@zone[1].network='wan6'
     uci commit firewall
     /etc/init.d/firewall reload
     ```

@@ -1,5 +1,5 @@
 ---
-title: ’How to collect and send logs’
+title: How to collect and send logs
 sidebar_position: 1
 ---
 

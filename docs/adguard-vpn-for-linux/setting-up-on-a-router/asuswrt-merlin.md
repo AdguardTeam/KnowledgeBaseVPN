@@ -79,7 +79,7 @@ You’ll need an SSH client. Most Linux and macOS systems come with an SSH clien
 1. If this is your first time connecting to the router via SSH, you’ll see a message like this:
 
     ```text
-    The authenticity of host ’192.168.1.1 (192.168.1.1)’ can’t be established.
+    The authenticity of host '192.168.1.1 (192.168.1.1)' can't be established.
     ECDSA key fingerprint is SHA256:...
     Are you sure you want to continue connecting (yes/no/[fingerprint])?
     ```
@@ -169,7 +169,7 @@ Go to /opt folder by running `cd /opt`  and run the AdGuardVPN CLI installation 
 curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/release/install.sh | sh -s -- -v
 ```
 
-When asked “Would you like to link the binary to /usr/local/bin?“, reply `y`. If failed to link the binary, run this line:
+When asked “Would you like to link the binary to `/usr/local/bin?`“, reply `y`. If failed to link the binary, run this line:
 
 ```bash
 ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
@@ -248,7 +248,7 @@ This step configures firewall rules on an Asuswrt-Merlin router to route traffic
 1. Create a new script by running the following command:
 
     ```bash
-    cat << ’EOF’ > /jffs/scripts/wan-event
+    cat << 'EOF' > /jffs/scripts/wan-event
     #!/bin/sh
 
     if [ "$2" = "connected" ]; then
