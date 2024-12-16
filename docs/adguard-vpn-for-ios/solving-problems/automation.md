@@ -22,7 +22,7 @@ If you need a VPN for one or more apps, set up AdGuard VPN to automatically turn
 
 1. Tap *Choose* next to the *App*, select the app you’re setting up the VPN for, tap *Done* and *Next*.
 
-    ![App](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/newautomation.png)
+    ![App](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/app.png)
 
 1. Tap *New Blank Automation* in *Get Started*, find AdGuard VPN, tap *Set VPN connection*, select *Turn VPN connection On*, and tap *Done*.
 
