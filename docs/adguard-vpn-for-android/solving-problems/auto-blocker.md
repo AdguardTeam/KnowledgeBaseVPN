@@ -20,4 +20,4 @@ Follow the instructions to turn off *Auto Blocker*.
 
 Once *Auto Blocker* is disabled, you can proceed with installing AdGuard VPN.
 
-![Tap Install *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/install_vpn.png)
+![Tap Install *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/install_en.png)
