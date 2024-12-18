@@ -1,5 +1,5 @@
 ---
-title: 'Jak shromažďovat a odesílat protokoly'
+title: Jak shromažďovat a odesílat protokoly
 sidebar_position: 1
 ---
 

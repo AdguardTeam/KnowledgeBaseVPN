@@ -137,7 +137,7 @@ curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/sc
    adguardvpn-cli login
    ```
 
-   Note: If failed to link the binary to '/usr/local/bin’, use full file path to run all commands. For example, `/opt/adguardvpn_cli/adguardvpn-cli login`
+   Note: If failed to link the binary to `/usr/local/bin`, use full file path to run all commands. For example, `/opt/adguardvpn_cli/adguardvpn-cli login`
 
 2. Connect to VPN
 
@@ -199,7 +199,7 @@ You can do it in the web interface or in the command line. Steps below describe 
 2. Add tun0 to WAN zone
 
    For traffic to go through VPN, add tun0 to WAN zone.
-   The WAN interface which connects to the Internet will typically be in a zone named `wan` or something similar. Check your router's configuration files or firewall settings to find out which zone is associated with the WAN interface.
+   The WAN interface which connects to the Internet will typically be in a zone named `wan` or something similar. Check your router’s configuration files or firewall settings to find out which zone is associated with the WAN interface.
 
    To do so, list the existing firewall zones:
 
@@ -209,7 +209,7 @@ You can do it in the web interface or in the command line. Steps below describe 
 
    This will show a config file with all zones listed. Look for a section like `firewall.@zone[1]` or similar where `option name 'wan'` is defined. The number `[1]` could be different depending on your configuration.
 
-   Run this SSH command, replace `zone[1]` with correct  ‘wan’ zone identified before:
+   Run this SSH command, replace `zone[1]` with correct  'wan' zone identified before:
 
    ```shell
    uci show firewall | grep "=zone"

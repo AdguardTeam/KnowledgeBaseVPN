@@ -5,7 +5,7 @@ sidebar_position: 1
 
 AdGuard VPN para Mac es un servicio de VPN para desktop. AdGuard VPN es totalmente compatible con AdGuard Ad Blocker, se pueden utilizar juntos y funcionarán sin problemas. Veamos qué características ofrece.
 
-Ten en cuenta que **no puedes utilizar AdGuard VPN para Mac a menos que hayas iniciado sesión en tu cuenta de AdGuard**. Puedes iniciar sesión con tu cuenta de AdGuard o con una cuenta externa, es decir, a través de Apple, Google o Facebook. Asegúrese de que tu cuenta externa esté vinculada a la misma dirección de correo electrónico que tu cuenta de AdGuard. Si hay una suscripción adecuada en tu cuenta de AdGuard, ella se activará automáticamente en la aplicación para desktop. ¿Aún no tiene una cuenta de AdGuard? Créalo [aquí](https://auth.adguard.com/registration.html).
+Note that **you can’t use AdGuard VPN for Mac unless you have logged into your AdGuard account**. Puedes iniciar sesión con tu cuenta de AdGuard o con una cuenta externa, es decir, a través de Apple, Google o Facebook. Asegúrese de que tu cuenta externa esté vinculada a la misma dirección de correo electrónico que tu cuenta de AdGuard. Si hay una suscripción adecuada en tu cuenta de AdGuard, ella se activará automáticamente en la aplicación para desktop. Still don’t have an AdGuard account? Créalo [aquí](https://auth.adguard.com/registration.html).
 
 :::note Compatibility
 
@@ -35,9 +35,9 @@ AdGuard VPN has several features that make it unique, and one of them is definit
 
 ![Pantalla de exclusiones](https://cdn.adguardvpn.com/content/kb/vpn/mac/services_new_en.png)
 
-Además, no sólo puede añadir sitios web a las exclusiones, sino también elegir entre las listas de servicios populares. Las listas se dividen en ocho categorías: Redes sociales, Mensajeros, Servicios de streaming de video y música, Juegos, Compras, Motores de búsqueda y Herramientas de comunicación laboral. ¡Cualquiera de estos servicios se puede agregar a Exclusiones con un solo clic! Eso es especialmente conveniente si se utiliza el modo selectivo.
+Además, no sólo puede añadir sitios web a las exclusiones, sino también elegir entre las listas de servicios populares. Las listas se dividen en ocho categorías: Redes sociales, Mensajeros, Servicios de streaming de video y música, Juegos, Compras, Motores de búsqueda y Herramientas de comunicación laboral. ¡Cualquiera de estos servicios se puede agregar a Exclusiones con un solo clic! It’s especially convenient if you use Selective mode.
 
-La lista de exclusión se puede configurar fácilmente. Si has añadido un dominio y algunos de sus subdominios, se agruparán dentro del dominio root. Al agregar un dominio root (`ejemplo.com`) también se agrega su máscara (`*.ejemplo.com`).
+La lista de exclusión se puede configurar fácilmente. If you’ve added a domain and some of its subdomains, they’ll be grouped inside the root one. Al agregar un dominio root (`ejemplo.com`) también se agrega su máscara (`*.ejemplo.com`).
 
 :::info Browsers added to Exclusions
 
@@ -48,13 +48,13 @@ Starting with the version 2.4, all browsers are automatically added to the list 
 
 :::
 
-Si agregó un servicio, cambió o eliminó algo y ahora desea recuperar la configuración inicial, simplemente presione *Restablecer al predeterminado * junto al dominio: esta acción restaurará los dominios faltantes y marcará todas las casillas de verificación.
+If you’ve added a service, changed or removed something and now want to recover initial settings, just press *Reset to default* next to the domain — this action will restore any missing domains and tick all checkboxes.
 
 Además, las listas de exclusiones ya definidas se pueden transferir a otros dispositivos con AdGuard VPN instalado. Para exportar las exclusiones, siga los cuatro pasos que se indican a continuación:
 
 1. Abra AdGuard VPN en el dispositivo desde donde desea exportar tus listas de exclusiones. Busca la sección adecuada y haz clic en el botón *Exportar*. Se descargará el archivo `exclusions.zip` .
 2. Hay dos archivos `.txt` dentro del fichero, cada uno para listas General y Selectiva. Agregue más exclusiones a ellos, elimine las existentes, cambie el nombre de los archivos (más sobre esto adelante), o simplemente deje el archivo con los ficheros como está.
-3. Al transferir entre diferentes dispositivos, no olvide enviar el archivo `.zip` al dispositivo para importarlo. Por ejemplo, si importas listas de exclusión de tu Mac a tu iPhone, asegúrate de enviar previamente el archivo `.zip` a tu teléfono.
+3. When transferring between different devices, don’t forget to send the `.zip` file to the device for import. Por ejemplo, si importas listas de exclusión de tu Mac a tu iPhone, asegúrate de enviar previamente el archivo `.zip` a tu teléfono.
 4. Abra AdGuard VPN en el dispositivo/navegador donde desea importar el archivo con las listas listas de exclusiones. Busca la sección adecuada, haz clic en el botón *Importar* y selecciona el archivo. ¡Listo!
 
 :::note
@@ -81,7 +81,7 @@ The fourth tab is the *Support* screen. Find answers to any questions in the [FA
 
 ![Configuración](https://cdn.adguardvpn.com/content/kb/vpn/mac/settings_new_en.png)
 
-Finalmente, llegamos a la pestaña Configuración. En la sección *Acerca del programa* , puedes ver la versión actual de AdGuard VPN, buscar actualizaciones, visitar nuestro sitio web oficial y familiarizarte con el EULA y la política de privacidad de AdGuard. En la sección *Acerca de la licencia*, puedes actualizarla de gratuita a ilimitada, administrar tu suscripción o cerrar sesión. Y lo más importante, desde aquí puedes acceder a *Configuración general*.
+Finalmente, llegamos a la pestaña Configuración. In the *About program* section you can see the current version of AdGuard VPN, check for updates, visit our official website, and get acquainted with AdGuard’s EULA and Privacy policy. En la sección *Acerca de la licencia*, puedes actualizarla de gratuita a ilimitada, administrar tu suscripción o cerrar sesión. Y lo más importante, desde aquí puedes acceder a *Configuración general*.
 
 ### Configuración de la app
 
@@ -95,7 +95,7 @@ You can also allow AdGuard VPN to gather and send anonymized crash reports, tech
 
 ![Servidores DNS](https://cdn.adguardvpn.com/content/kb/vpn/mac/dns_new_en.png)
 
-One or more DNS servers can be set up here. This is useful if you don't want to rely on the default DNS server provided by your ISP. Select one from the list of popular DNS services or add a custom server manually. We recommend adding AdGuard DNS, which not only encrypts your DNS traffic, but also identifies requests to malicious websites and redirects them to a “black hole”.
+One or more DNS servers can be set up here. This is useful if you don’t want to rely on the default DNS server provided by your ISP. Select one from the list of popular DNS services or add a custom server manually. We recommend adding AdGuard DNS, which not only encrypts your DNS traffic, but also identifies requests to malicious websites and redirects them to a “black hole”.
 
 ### Configuración avanzada
 

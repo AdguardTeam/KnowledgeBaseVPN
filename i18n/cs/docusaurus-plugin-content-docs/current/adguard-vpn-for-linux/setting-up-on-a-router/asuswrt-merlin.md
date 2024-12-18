@@ -110,7 +110,7 @@ Pamatujte, že nemůžete současně používat Optware (zastaralou alternativu)
 
 Asus DownloadMaster je založen na Optware, a proto není kompatibilní s Entware. Budete muset odinstalovat DownloadMaster a podívat se na alternativy poskytované Entware.
 
-Po odinstalování se ujistěte, že je smazán adresář "asusware.arm\*" nebo "asusware.\*" na připojeném diskovém oddílu. Jinak nebude Entware pracovat správně. Po odinstalování aplikace DownloadMaster se ujistěte, že je router restartován.
+Po odinstalování se ujistěte, že je smazán adresář `asusware.arm*` nebo `asusware.*` na připojeném diskovém oddílu. Jinak nebude Entware pracovat správně. Po odinstalování aplikace DownloadMaster se ujistěte, že je router restartován.
 
 Je třeba připojit disk USB naformátovaný v nativním souborovém systému Linux (ext2, ext3 nebo ext4). Pro formátování disku použijte příkaz amtm. Připojte disk USB k routeru a spusťte amtm pomocí:
 
@@ -170,7 +170,7 @@ Přejděte do složky /opt příkazem `cd /opt` a spusťte instalační skript A
 curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/release/install.sh | sh -s -- -v
 ```
 
-Na dotaz "Would you like to link the binary to /usr/local/bin?" odpovězte `y`. Pokud se binární soubor nepodařilo propojit, spusťte tento řádek:
+Na dotaz `Would you like to link the binary to /usr/local/bin?` odpovězte `y`. Pokud se binární soubor nepodařilo propojit, spusťte tento řádek:
 
 ```bash
 ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin

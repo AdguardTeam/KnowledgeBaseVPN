@@ -5,7 +5,7 @@ sidebar_position: 1
 
 ## O que é o AdGuard VPN para iOS?
 
-Uma VPN permite que você crie uma conexão segura com outra rede na Internet. It connects a user’s computer or mobile device to a server and allows one to browse the internet using a "cover" IP address. If the VPN server is located in another country, it will appear as if your Internet connection was established from this country. For more details, you can check [our article on how a VPN works](/general/how-vpn-works).
+Uma VPN permite que você crie uma conexão segura com outra rede na Internet. It connects a user’s computer or mobile device to a server and allows one to browse the Internet using a “cover” IP address. If the VPN server is located in another country, it will appear as if your Internet connection was established from this country. For more details, you can check [our article on how a VPN works](/general/how-vpn-works).
 
 O AdGuard VPN tem várias funções:
 
@@ -50,7 +50,7 @@ You can add domains (e.g., `google.com`) or subdomains (e.g., `news.google.com`)
 
 ![Exclusões *mobile_border](https://cdn.adtidy.org/blog/new/lpjs7iexclusions-as-of-v2-4.png)
 
-When you manually add a domain, all subdomains are added automatically (it looks like `*.google.com`). Want to keep only google.com or turn VPN off for a specific domain? Tap the line with the website — this will open a separate screen where you can manage subdomains. Just uncheck the boxes for the ones you don't need.
+When you manually add a domain, all subdomains are added automatically (it looks like `*.google.com`). Want to keep only google.com or turn VPN off for a specific domain? Tap the line with the website — this will open a separate screen where you can manage subdomains. Just uncheck the boxes for the ones you don’t need.
 
 ![Subdomains *mobile_border](https://cdn.adtidy.org/content/release_notes/vpn/ios/v2.4/domains_en.png)
 
@@ -60,7 +60,7 @@ If you manually add a subdomain, the main domain will also added — but the che
 
 Large services like Google are tricky. They usually use more than one domain — one for media files, another for the API, plus domains for different countries. For example, in the case of Google, we have 416 domains in our list — all of them need to be added to Exclusions to completely turn VPN off (or on) for the service.
 
-Here's how to add all necessary domains for a popular service to exclusion list:
+Here’s how to add all necessary domains for a popular service to exclusion list:
 
 1. Open *Exclusions*.
 2. Tap *Add website*.

@@ -1,5 +1,5 @@
 ---
-title: 'So sammeln und versenden Sie Protokolle'
+title: So sammeln und versenden Sie Protokolle
 sidebar_position: 1
 ---
 
@@ -13,7 +13,7 @@ Standardmäßig verwendet AdGuard VPN für Mac die Protokollierungsebene Standar
 
 2. Klicken Sie auf **Support** (im Menü oben) ➜ **Fehler melden**.
 
-3. Geben Sie im geöffneten Formular Ihre E-Mail-Adresse für Feedback ein und beschreiben Sie den gefundenen Fehler, einschließlich des Zeitpunkts, zu dem dieser Fehler aufgetreten ist. Wenn Sie das Problem nicht reproduzieren können, geben Sie so genau wie möglich an, wann es zuletzt aufgetreten ist.
+3. Geben Sie im geöffneten Formular Ihre E-Mail-Adresse für Feedback ein und beschreiben Sie den gefundenen Fehler, einschließlich des Zeitpunkts, zu dem dieser Fehler aufgetreten ist. If you can’t reproduce the problem, specify as accurately as possible when it last occurred.
 
 4. There is a check mark next to the **Send detailed system info**, which means that when you send a report, you also send logs.
 

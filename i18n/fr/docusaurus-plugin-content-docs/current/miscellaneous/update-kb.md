@@ -1,9 +1,9 @@
 ---
-title: 'Mise à jour de la Base de connaissances'
+title: Mise à jour de la Base de connaissances
 sidebar_position: 3
 ---
 
-L'objectif de cette Base de connaissances est de fournir à chacun les informations les plus récentes sur toutes sortes de sujets liés à AdGuard VPN. Mais les choses changent constamment, et parfois un article ne reflète plus l'état actuel des choses - nous ne sommes tout simplement pas si nombreux à garder un œil sur chaque information et à la mettre à jour en conséquence lorsque de nouvelles versions sont publiées.
+L'objectif de cette Base de connaissances est de fournir à chacun les informations les plus récentes sur toutes sortes de sujets liés à AdGuard VPN. But things constantly change, and sometimes an article doesn’t reflect the current state of things anymore — there are simply not so many of us to keep an eye on every single bit of information and update it accordingly when new versions are released.
 
 C'est pourquoi nous avons placé l'ensemble du contenu de notre base de données sur [GitHub](https://github.com/AdguardTeam/KnowledgeBaseVPN). Désormais, tout le monde peut y contribuer en suggérant des modifications et des traductions pour les articles existants, ainsi que de nouveaux articles.
 
@@ -15,7 +15,7 @@ Une fois que vous êtes prêt à commencer, procédez dans [le référentiel Kno
 
 Le site web de la base de connaissances est construit à l'aide de Docusaurus 2 - un générateur moderne de sites web statiques. Lorsque vous suggérez des modifications ou des ajouts d'infos, tenez compte du fait que tous les documents doivent respecter les principes de la plateforme. Vous pouvez en prendre connaissance dans le guide [disponible via ce lien](https://docusaurus.io/docs/category/guides).
 
-Vous pouvez déployer cette Base de connaissances localement sur votre ordinateur pour prévisualiser les modifications que vous suggérez. Detailed instructions on how to do this can be found [in the README.md file](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README) on this Knowledge Base's GitHub page.
+Vous pouvez déployer cette Base de connaissances localement sur votre ordinateur pour prévisualiser les modifications que vous suggérez. Detailed instructions on how to do this can be found [in the README.md file](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README) on this Knowledge Base’s GitHub page.
 
 ## Traduction des articles {#translate-adguard}
 

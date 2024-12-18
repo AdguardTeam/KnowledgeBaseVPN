@@ -1,9 +1,9 @@
 ---
-title: 'De kennisbank bijwerken'
+title: De kennisbank bijwerken
 sidebar_position: 3
 ---
 
-The goal of this Knowledge Base is to provide everyone with the most up-to-date information on all kinds of AdGuard VPN-related topics. But things constantly change, and sometimes an article doesn't reflect the current state of things anymore — there are simply not so many of us to keep an eye on every single bit of information and update it accordingly when new versions are released.
+The goal of this Knowledge Base is to provide everyone with the most up-to-date information on all kinds of AdGuard VPN-related topics. But things constantly change, and sometimes an article doesn’t reflect the current state of things anymore — there are simply not so many of us to keep an eye on every single bit of information and update it accordingly when new versions are released.
 
 This is why we placed all of our KB content to [GitHub](https://github.com/AdguardTeam/KnowledgeBaseVPN), and now literally anyone can contribute to it by suggesting edits and translations to existing articles, as well as totally new ones.
 
@@ -15,7 +15,7 @@ Once you are ready to start, work in [the KnowledgeBaseVPN repository](https://g
 
 The Knowledge Base website is built using Docusaurus 2 — a modern static website generator. When suggesting changes or additions, take into account that all documents must comply with the principles of the platform. You can read about them in [the guide available via this link](https://docusaurus.io/docs/category/guides).
 
-You can deploy this Knowledge Base locally to your computer to preview the changes you suggest. Detailed instructions on how to do this can be found [in the README.md file](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README) on this Knowledge Base's GitHub page.
+You can deploy this Knowledge Base locally to your computer to preview the changes you suggest. Detailed instructions on how to do this can be found [in the README.md file](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README) on this Knowledge Base’s GitHub page.
 
 ## Translating articles {#translate-adguard}
 

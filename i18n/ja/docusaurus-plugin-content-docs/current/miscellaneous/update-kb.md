@@ -1,9 +1,9 @@
 ---
-title: 'ナレッジベースの更新・変更'
+title: ナレッジベースの更新・変更
 sidebar_position: 3
 ---
 
-このナレッジベース（知恵袋）の目的は、AdGuard VPN関連のあらゆるトピックに関する最新情報を皆様に提供することです。 しかし、物事は常に変化しており、時には記事が現在の状態を反映していないことがあります。しかし、すべての情報を把握し、新しいバージョンが出たときにそれを更新できるほど、現在私たちは多人数ではなく、一部情報更新には遅れが発生することがあります。
+このナレッジベース（知恵袋）の目的は、AdGuard VPN関連のあらゆるトピックに関する最新情報を皆様に提供することです。 But things constantly change, and sometimes an article doesn’t reflect the current state of things anymore — there are simply not so many of us to keep an eye on every single bit of information and update it accordingly when new versions are released.
 
 そのため、私たちはすべてのナレッジベースコンテンツを[GitHub](https://github.com/AdguardTeam/KnowledgeBaseVPN)に置き、既存の記事の編集や翻訳、まったく新しい記事の提案など、誰もが貢献できるようにしました。
 
@@ -15,7 +15,7 @@ sidebar_position: 3
 
 ナレッジベースのウェブサイトは、現代の静的ウェブサイトジェネレータである「Docusaurus 2」を使用して構築されています。 変更または追加を提案する場合、すべてのテキストがのDocusaurus 2に準拠している必要があります。 Docusaurus 2の原則は、 [このリンク先のガイド](https://docusaurus.io/docs/category/guides)で確認することができます。
 
-このナレッジベースは、お使いのコンピュータにローカルに展開し、提案する変更をプレビューすることができます。 Detailed instructions on how to do this can be found [in the README.md file](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README) on this Knowledge Base's GitHub page.
+このナレッジベースは、お使いのコンピュータにローカルに展開し、提案する変更をプレビューすることができます。 Detailed instructions on how to do this can be found [in the README.md file](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README) on this Knowledge Base’s GitHub page.
 
 ## 記事の翻訳 {#translate-adguard}
 
