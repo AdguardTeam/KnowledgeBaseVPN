@@ -131,7 +131,7 @@ Přejděte do složky `/opt` zadáním `/cd opt` a spusťte instalační skript 
 curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/release/install.sh | sh -s -- -v
 ```
 
-Na dotaz "Would you like to link the binary to /usr/local/bin?" odpovězte `n` a spusťte tento řádek:
+Na dotaz “Would you like to link the binary to /usr/local/bin?“ odpovězte `n` a spusťte tento řádek:
 
 ```bash
 ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin

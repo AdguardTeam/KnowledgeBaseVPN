@@ -66,7 +66,7 @@ Unser Entwicklerteam möchte sich bei den Entwicklern der Software von Drittanbi
 - libevent: [https://github.com/libevent/libevent](https://github.com/libevent/libevent)
 - lwIP: [https://lwip.fandom.com/wiki/LwIP_Wiki](https://lwip.fandom.com/wiki/LwIP_Wiki)
 - nghttp2: [https://github.com/nghttp2/nghttp2](https://github.com/nghttp2/nghttp2)
-- Protocol Buffers - Google's data interchange format: [https://github.com/protocolbuffers](https://github.com/protocolbuffers)
+- Protocol Buffers - Google’s data interchange format: [https://github.com/protocolbuffers](https://github.com/protocolbuffers)
 - zlib: [https://zlib.net](https://zlib.net)
 - Sciter: [https://sciter.com/](https://sciter.com/)
 

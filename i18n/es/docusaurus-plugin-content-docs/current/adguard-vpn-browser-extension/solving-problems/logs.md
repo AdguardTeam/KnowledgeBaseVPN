@@ -9,7 +9,7 @@ Hay varias formas de recopilar registros de la extensión del navegador AdGuard 
 
 1. Abre la extensión de navegador AdGuard VPN, si es posible, repite las acciones que provocaron el error. Anota la hora exacta en que se produjo este error.
 1. Abre *Configuración* haciendo clic en el ícono del menú (☰) → *Soporte* → *Reportar un error*.
-1. En el formulario abierto, deja una dirección de correo electrónico insertada automáticamente o ingresa otra y describe el error encontrado, incluida la hora en que ocurrió este error. Si no puede reproducir el problema, especifica con la mayor precisión posible cuándo ocurrió por última vez.
+1. En el formulario abierto, deja una dirección de correo electrónico insertada automáticamente o ingresa otra y describe el error encontrado, incluida la hora en que ocurrió este error. If you can’t reproduce the problem, specify as accurately as possible when it last occurred.
 1. Make sure that there is a check mark next to *Include the diagnostic report in the message* and tap *Submit*. De esta manera, enviarás registros junto con el informe de error.
 
 ## Recopilación y envío de registros a través del botón *Exportar registros*
@@ -24,7 +24,7 @@ Ahora que has recopilado los registros, debes enviarlos a nuestro equipo de desa
 1. Reportar un error en GitHub. En este artículo puedes encontrar instrucciones detalladas sobre cómo crear una propuesta en GitHub.
 1. Send an archive with logs and reproduce time to `devteam@adguard.com` and attach a link to your GitHub issue. Also you can add an archive with logs and reproduce time to Google Drive and share it with `devteam@adguard.com` attaching the Google Drive link to your issue on GitHub.
 
-## Recopilación y envío de registros a través de las herramientas del desarrollador del navegador
+## Collecting and sending logs via browser developer’s tools
 
 ### Chrome
 

@@ -1,5 +1,5 @@
 ---
-title: 'Co je únik DNS'
+title: Co je únik DNS
 sidebar_position: 9
 ---
 
@@ -15,7 +15,7 @@ Jinými slovy, při každém otevření webové stránky odešle prohlížeč po
 
 Existují nejrůznější služby kontroly anonymity pro zjišťování úniků DNS, například `whoer.net`. Algoritmy těchto webových stránek nejsou jasné, ale jejich záměry jsou — vyděsit uživatele imaginárními úniky, což jim potenciálně umožní prodávat své služby.
 
-Některé webové stránky provádějící bezpečnostní skenování považují shodu IP adresy uživatele a IP adresy serveru DNS za "dobrý" výsledek, který znamená, že nedochází k únikům. Ve skutečnosti může taková shoda znamenat použití sítě VPN. Pokud je VPN vypnuta a požadavky směřují na DNS server vašeho poskytovatele internetových služeb, IP adresa DNS serveru a vaše vlastní adresa se neshodují.
+Některé webové stránky provádějící bezpečnostní skenování považují shodu IP adresy uživatele a IP adresy serveru DNS za “dobrý“ výsledek, který znamená, že nedochází k únikům. Ve skutečnosti může taková shoda znamenat použití sítě VPN. Pokud je VPN vypnuta a požadavky směřují na DNS server vašeho poskytovatele internetových služeb, IP adresa DNS serveru a vaše vlastní adresa se neshodují.
 
 ## Proč v AdGuard VPN nedochází k únikům DNS
 
@@ -25,7 +25,7 @@ Použití serveru AdGuard DNS bez filtrování je v AdGuard VPN nastaveno jako v
 
 AdGuard DNS je navíc velmi oblíbená služba DNS, kterou používá více než 50 milionů uživatelů. Co to pro vás znamená? Představte si následující situaci: běžná služba VPN používá DNS server, který se nachází na stejné IP adrese jako server VPN. Počet jeho uživatelů sotva přesahuje 1000.
 
-A v případě AdGuard DNS se "spojíte" s 50 miliony uživatelů, takže vás nikdo nebude moci sledovat jen na základě toho, že používáte tento DNS server.
+A v případě AdGuard DNS se “spojíte“ s 50 miliony uživatelů, takže vás nikdo nebude moci sledovat jen na základě toho, že používáte tento DNS server.
 
 ## Jak nastavit vlastní DNS server v AdGuard VPN
 

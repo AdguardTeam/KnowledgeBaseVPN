@@ -5,7 +5,7 @@ sidebar_position: 1
 
 ## Was ist AdGuard VPN für iOS?
 
-Mit einem VPN können Sie eine sichere Verbindung zu einem anderen Netzwerk im Internet herstellen. Es verbindet einen Computer oder ein mobiles Gerät mit einem Server und ermöglicht das Surfen im Internet mit einer „getarnten“ IP-Adresse. Wenn sich der VPN-Server in einem anderen Land befindet, sieht es so aus, als ob Ihre Internetverbindung von diesem Land aus hergestellt wurde. Weitere Details finden Sie in [unserem Artikel über die Funktionsweise eines VPN](/general/how-vpn-works).
+Mit einem VPN können Sie eine sichere Verbindung zu einem anderen Netzwerk im Internet herstellen. It connects a user’s computer or mobile device to a server and allows one to browse the Internet using a “cover” IP address. Wenn sich der VPN-Server in einem anderen Land befindet, sieht es so aus, als ob Ihre Internetverbindung von diesem Land aus hergestellt wurde. Weitere Details finden Sie in [unserem Artikel über die Funktionsweise eines VPN](/general/how-vpn-works).
 
 AdGuard VPN verfügt über mehrere Funktionen:
 
@@ -50,7 +50,7 @@ Sie können Domains (z. B. `google.com`) oder Subdomains (z. B. `news.google.com
 
 ![Ausschlüsse *mobile_border](https://cdn.adtidy.org/blog/new/lpjs7iexclusions-as-of-v2-4.png)
 
-Wenn Sie eine Domain manuell hinzufügen, werden alle Subdomains automatisch hinzugefügt (sieht dann aus wie `*.google.com`). Möchten Sie nur google.com behalten oder VPN für eine bestimmte Domain deaktivieren? Tippen Sie auf die Zeile mit der Website. Dies öffnet ein separates Fenster, in dem Sie Subdomains verwalten können. Deaktivieren Sie einfach die Kästchen derjenigen, die Sie nicht benötigen.
+Wenn Sie eine Domain manuell hinzufügen, werden alle Subdomains automatisch hinzugefügt (sieht dann aus wie `*.google.com`). Möchten Sie nur google.com behalten oder VPN für eine bestimmte Domain deaktivieren? Tippen Sie auf die Zeile mit der Website. Dies öffnet ein separates Fenster, in dem Sie Subdomains verwalten können. Just uncheck the boxes for the ones you don’t need.
 
 ![Subdomains *mobile_border](https://cdn.adtidy.org/content/release_notes/vpn/ios/v2.4/domains_en.png)
 
@@ -60,7 +60,7 @@ Wenn Sie eine Subdomain manuell hinzufügen, wird auch die Hauptdomain hinzugef�
 
 Große Dienste wie Google sind problematisch. In der Regel verwenden sie mehr als eine Domain: eine für Mediendateien, eine weitere für die API sowie Domains für verschiedene Länder. Im Fall von Google haben wir zum Beispiel 416 Domains in unserer Liste — alle müssen zu den Ausschlüssen hinzugefügt werden, um VPN für den Dienst vollständig zu deaktivieren (oder zu aktivieren).
 
-So fügen Sie alle erforderlichen Domains für einen beliebten Dienst zur Ausschlussliste hinzu:
+Here’s how to add all necessary domains for a popular service to exclusion list:
 
 1. Öffnen Sie *Ausschlüsse*.
 2. Tippen Sie auf *Website hinzufügen*.

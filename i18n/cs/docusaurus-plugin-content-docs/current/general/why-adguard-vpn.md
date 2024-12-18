@@ -1,9 +1,9 @@
 ---
-title: 'Proč je AdGuard VPN tou lepší volbou'
+title: Proč je AdGuard VPN tou lepší volbou
 sidebar_position: 2
 ---
 
-Když se uživatelé rozhodují o [dlouhodobém předplatném VPN](/general/subscription), nejčastěji hodnotí rychlost, zabezpečení a cenu. To jsou velmi důležité body, ale je toho mnohem víc! AdGuard VPN má tucet klíčových výhod, které z ní dělají "lepší možnost".
+Když se uživatelé rozhodují o [dlouhodobém předplatném VPN](/general/subscription), nejčastěji hodnotí rychlost, zabezpečení a cenu. To jsou velmi důležité body, ale je toho mnohem víc! AdGuard VPN má tucet klíčových výhod, které z ní dělají “lepší možnost“.
 
 *Začněme tím, že si projdeme bezkonkurenční funkce AdGuard VPN, které nenajdete u žádné jiné VPN.*
 

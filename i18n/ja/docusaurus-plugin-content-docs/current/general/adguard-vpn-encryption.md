@@ -1,11 +1,11 @@
 ---
-title: 'AdGuard VPNで使用されている暗号化の種類は？'
+title: AdGuard VPNで使用されている暗号化の種類は？
 sidebar_position: 7
 ---
 
 ## はじめに
 
-Virtual Private Network（VPN）という言葉に「プライベート」（Private）という言葉があるのは、暗号化されているからです。 A VPN creates a tunnel between your device and a VPN server, that encrypts and transmits your data securely to the open Internet. 暗号化とは、データを傍受した人が解読不可解な形に変えることであり、暗号化はVPNサービスにとって不可欠なものです。
+Encryption is the reason the word “private” exists in the term “Virtual Private Network”. A VPN creates a tunnel between your device and a VPN server, that encrypts and transmits your data securely to the open Internet. 暗号化とは、データを傍受した人が解読不可解な形に変えることであり、暗号化はVPNサービスにとって不可欠なものです。
 
 The AdGuard VPN protocol uses the most secure and fast encryption algorithm to date — AES-256. このアルゴリズムはなぜそんなに抜群なのかを見てみましょう。
 

@@ -1,5 +1,5 @@
 ---
-title: 'İnternet kısıtlamalarının olduğu ülkelerde AdGuard VPN nasıl kullanılır'
+title: İnternet kısıtlamalarının olduğu ülkelerde AdGuard VPN nasıl kullanılır
 sidebar_position: 10
 ---
 
@@ -49,4 +49,4 @@ Kurulum dosyasını [AdGuard VPN'in yansıtma sitesinden](https://adguardvpn-hel
 
 - Bağlantı sorunlarınız varsa, *Gelişmiş ayarlar* bölümünde *QUIC'i kullan* öğesini seçeneğini etkinleştirmeyin.
 
-Her şey yolunda gitmezse, daha fazla yardım için <support@adguard-vpn.com> adresinden destek ekibimizle iletişime geçmekten çekinmeyin.
+If all else fails, don’t hesitate to reach out to our support team at <support@adguard-vpn.com> for further assistance.

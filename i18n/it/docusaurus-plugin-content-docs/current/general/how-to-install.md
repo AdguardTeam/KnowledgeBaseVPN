@@ -1,5 +1,5 @@
 ---
-title: 'Come installare AdGuard VPN'
+title: Come installare AdGuard VPN
 sidebar_position: 3
 ---
 

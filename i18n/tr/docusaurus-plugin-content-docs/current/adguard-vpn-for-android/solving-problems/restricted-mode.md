@@ -1,5 +1,5 @@
 ---
-title: 'Kısıtlı Mod profiliyle ilgili sorunlar'
+title: Kısıtlı Mod profiliyle ilgili sorunlar
 sidebar_position: 4
 ---
 

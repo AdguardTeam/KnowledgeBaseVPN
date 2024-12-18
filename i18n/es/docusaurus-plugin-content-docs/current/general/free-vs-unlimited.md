@@ -1,5 +1,5 @@
 ---
-title: 'Beneficios de AdGuard VPN Unlimited'
+title: Beneficios de AdGuard VPN Unlimited
 sidebar_position: 5
 ---
 

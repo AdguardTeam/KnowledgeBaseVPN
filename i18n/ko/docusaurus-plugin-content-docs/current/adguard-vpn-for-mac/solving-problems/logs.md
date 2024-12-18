@@ -1,5 +1,5 @@
 ---
-title: '로그 수집 및 전송 방법'
+title: 로그 수집 및 전송 방법
 sidebar_position: 1
 ---
 
@@ -13,7 +13,7 @@ If you encounter any problems while using AdGuard VPN for Mac, you can inform us
 
 2. **고객 지원**(위 메뉴에서) → **버그 제보**를 클릭합니다.
 
-3. 열리는 양식에 이메일 주소를 입력하고 발견한 오류를 설명하고 이 오류가 언제 발생했는지 알려주세요. 문제를 재현할 수 없는 경우, 마지막으로 발생한 시간을 지정합니다.
+3. 열리는 양식에 이메일 주소를 입력하고 발견한 오류를 설명하고 이 오류가 언제 발생했는지 알려주세요. If you can’t reproduce the problem, specify as accurately as possible when it last occurred.
 
 4. There is a check mark next to the **Send detailed system info**, which means that when you send a report, you also send logs.
 

@@ -11,17 +11,17 @@ Gerekli izinler verilmemişse bu hata mesajı görüntülenir. AdGuard VPN kurul
 
 - Antivirüslerinizi geçici olarak devre dışı bırakın. Bazıları, ayarlarının kısıtlayıcılığına bağlı olarak kuruluma müdahale edebilir.
 
-- Farklı bir kurulum klasörü seçin. Mevcut kurulum klasörünün bazı erişim kısıtlamaları olabilir. Ayrıca harici sürücü, sanal sürücü, vb. seçmediğinizden emin olun.
+- Farklı bir kurulum klasörü seçin. Mevcut kurulum klasörünün bazı erişim kısıtlamaları olabilir. Also make sure you don’t select an external drive, a virtual drive, etc.
 
 - Bilgisayarınızı yeniden başlatın. Bazen izin sorunları geçicidir ve bilgisayarı yeniden başlatarak çözülebilir.
 
 ### Hata 112: Disk dolu, Hata 1632: Geçici klasör dolu veya erişilemiyor {#error-112}
 
-Bunlar çok benzer çözümlere sahip iki farklı hatadır. Adlarından da anlaşılacağı gibi, AdGuard VPN kurulum programı, kurulumu tamamlamak için yeterli disk alanı bulamadı. Sorunu çözmek için deneyebileceğiniz birkaç şey var:
+Bunlar çok benzer çözümlere sahip iki farklı hatadır. As their names suggest, AdGuard VPN installer didn’t find enough disk space to complete the installation. Sorunu çözmek için deneyebileceğiniz birkaç şey var:
 
 - AdGuard VPN'i kurmaya çalıştığınız sürücüden bazı programları kaldırın veya gereksiz dosyaları silin.
 
-- Malwarebytes'in ücretsiz bir yazılımı olan [AdwCleaner](http://www.bleepingcomputer.com/download/adwcleaner/) yazılımını indirin, kurun ve çalıştırın. Diğer şeylerin yanı sıra, sisteminizi yanlış bir şekilde kaldırılan programlar ve benzerlerinden sonra kalan her türlü fazladan "artık" dosyalardan temizler. Biraz disk alanı temizlemeye yardımcı olur.
+- Malwarebytes'in ücretsiz bir yazılımı olan [AdwCleaner](http://www.bleepingcomputer.com/download/adwcleaner/) yazılımını indirin, kurun ve çalıştırın. It will, among other things, clean your system from all kinds of extra “leftover” files that remain after incorrectly uninstalled programs and such. Biraz disk alanı temizlemeye yardımcı olur.
 
 - Bilgisayarınızı yeniden başlatın. Bazen geçici dosyalar önemli miktarda disk alanı kaplayabilir ve PC'nizi yeniden başlatmak bunlardan kurtulmanın en güvenilir yoludur.
 
@@ -37,7 +37,7 @@ Bunun, Hata 1603'ün belirli bir alt türü olduğunu söyleyebilirsiniz. Olası
     1. *Win + R* tuşlarına basın, **msiexec /unregister** yazın ve *Enter* tuşuna basın.
     1. Tekrar *Win + R* tuşlarına basın, **msiexec /regserver** yazın ve *Enter* tuşuna basın
 
-- PC'yi yeniden başlatın ve kurulumu baştan başlatın. Bazen sorunu çözmek için bu yeterli olur.
+- PC'yi yeniden başlatın ve kurulumu baştan başlatın. Sometimes that’s enough to fix the problem.
 
 ### Hata 1602: Kullanıcı tarafından iptal edildi {#error-1602}
 
@@ -45,7 +45,7 @@ Bu hata kodunu aldıysanız, kurma işlemini bir şekilde elle kesintiye uğratm
 
 - Kurulum programı penceresini kapatmayın. Kurulum tamamlandığında otomatik olarak kapanır.
 
-- Kurma sırasında bir diyalog penceresi açılırsa, kurulum programına gerekli izinleri vermek için "Evet" öğesine basın. "Hayır" öğesine tıklandığında kurulum iptal edilir.
+- If a dialogue window pops up during the installation, hit *Yes* to grant the installer the required permissions. Clicking *No* will cancel the installation.
 
 - Kurulum devam ederken başka işlemler başlatmayın.
 
@@ -55,7 +55,7 @@ Bu hata kulağa gerçekte olduğundan daha endişe verici geliyor. Gerçekte bu,
 
 - *Win* tuşuna basın, *Komut İstemi* öğesini arayın ve çalıştırın. Orada, `sfc /scannow` yazın ve *Enter* tuşuna basın.
 
-- Farklı bir kurulum klasörü seçin. Mevcut kurulum klasörünün bazı erişim kısıtlamaları olabilir. Ayrıca harici sürücü, sanal sürücü, vb. seçmediğinizden emin olun.
+- Farklı bir kurulum klasörü seçin. Mevcut kurulum klasörünün bazı erişim kısıtlamaları olabilir. Also make sure you don’t select an external drive, a virtual drive, etc.
 
 - Özel [kaldırma aracımızı](/adguard-vpn-for-windows/installation#advanced) kullanarak AdGuard VPN'i kaldırın ve ardından kurulumu tekrarlayın.
 
@@ -67,7 +67,7 @@ Bu hata kulağa gerçekte olduğundan daha endişe verici geliyor. Gerçekte bu,
     1. *Win + R* tuşlarına basın, **msiexec /unregister** yazın ve *Enter* tuşuna basın.
     1. Tekrar *Win + R* tuşlarına basın, **msiexec /regserver** yazın ve *Enter* tuşuna basın
 
-- Kurulum için sürücüde tam izinleri alın. Dosya konumunda tam izinlere sahip olmadığınız için 1603 hatasının oluşması olasıdır. Ayrıca diğer bazı çözümler kadar kolay değildir:
+- Kurulum için sürücüde tam izinleri alın. Dosya konumunda tam izinlere sahip olmadığınız için 1603 hatasının oluşması olasıdır. It’s also not as easy as some of the other solutions:
 
     1. *Dosya Gezgini* öğesini açın, kurulum konumunu içeren sürücüye sağ tıklayın ve *Özellikler* öğesini seçin.
     1. *Güvenlik* sekmesine gidin ve *Düzenle* öğesine tıklayın.
@@ -85,11 +85,11 @@ Bu hata, AdGuard VPN kurulum programının birden fazla örneğini aynı anda ç
 
 - PC'yi yeniden başlatın ve kurulum programını tekrar başlatın. Bilgisayarı yeniden başlattığınızda, kurulum programının tüm kopyaları dahil devam eden tüm işlemler durur.
 
-- Hemen başlamıyor gibi görünse bile kurulum programına birden fazla kez tıklamayın. Bazen kurulum programı kullanıcı arayüzünün görüntülenmesi birkaç saniye sürebilir.
+- Don’t click the installer multiple times, even if it doesn’t seem to start right away. Bazen kurulum programı kullanıcı arayüzünün görüntülenmesi birkaç saniye sürebilir.
 
 ### Error 1638: Bu ürünün başka bir sürümü zaten kurulu {#error-1638}
 
-Daha önce AdGuard VPN kurmuş olmanız çok olasıdır.
+It’s very likely that you’ve already installed AdGuard VPN before.
 
 - AdGuard VPN'in bilgisayarınızda kurulu olup olmadığını kontrol edin. Bunu yapmak için *Win* tuşuna basın ve *adguard vpn* yazmaya başlayın.
 
@@ -97,7 +97,7 @@ Daha önce AdGuard VPN kurmuş olmanız çok olasıdır.
 
 ### Diğer hatalar {#other}
 
-Yukarıda listelenmeyen bir hatayla karşılaştıysanız, bunu kendimiz çözmemiz mümkündür. Ancak bunu yapabilmek için sizden günlük dosyalarına ihtiyacımız var. Lütfen aşağıdaki adımları uygulayın:
+If you have encountered an error that’s not listed above, it is possible that we can solve it by ourselves. Ancak bunu yapabilmek için sizden günlük dosyalarına ihtiyacımız var. Lütfen aşağıdaki adımları uygulayın:
 
 - **AdGuard VPN kurulum günlüklerini** [bu makalede](https://adguard.com/kb/adguard-for-windows/solving-problems/installation-logs/) açıklanan şekilde bulun ve arşivleyin.
 

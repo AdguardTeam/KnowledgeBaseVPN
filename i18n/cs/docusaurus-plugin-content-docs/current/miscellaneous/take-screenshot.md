@@ -1,5 +1,5 @@
 ---
-title: 'Jak pořídit snímek obrazovky'
+title: Jak pořídit snímek obrazovky
 sidebar_position: 4
 ---
 

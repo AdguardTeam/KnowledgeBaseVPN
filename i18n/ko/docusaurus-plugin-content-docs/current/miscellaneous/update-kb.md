@@ -1,9 +1,9 @@
 ---
-title: '지식 창고 업데이트'
+title: 지식 창고 업데이트
 sidebar_position: 3
 ---
 
-이 기술 자료의 목표는 모든 종류의 AdGuard VPN 관련 주제에 대한 최신 정보를 모든 사용자에게 제공하는 것입니다. 그러나 상황은 끊임없이 변하고 때로는 기사가 현재 상태를 반영하지 않을 수도 있습니다. 새로운 버전이 출시될 때 모든 정보를 주시하고 그에 따라 업데이트할 수 있는 사람은 많지 않습니다.
+이 기술 자료의 목표는 모든 종류의 AdGuard VPN 관련 주제에 대한 최신 정보를 모든 사용자에게 제공하는 것입니다. But things constantly change, and sometimes an article doesn’t reflect the current state of things anymore — there are simply not so many of us to keep an eye on every single bit of information and update it accordingly when new versions are released.
 
 그래서 우리가 모든 지식 창고 콘텐츠를 [GitHub](https://github.com/AdguardTeam/KnowledgeBaseVPN)에 배치했습니다. 이제 누구나 기존 및 새 기사에 대한 편집 및 번역을 제안할 수 있습니다.
 
@@ -15,7 +15,7 @@ sidebar_position: 3
 
 지식 창고 웹 사이트는 최신 웹 사이트 생성기인 Docusaurus 2를 사용하여 제작되었습니다. 텍스트를 변경하거나 추가할 때 모든 기사가 플랫폼의 원칙을 준수해야 한다는 점을 고려하십시오. 플랫폼의 원칙에 대한 자세한 내용은 [이 가이드](https://docusaurus.io/docs/category/guides)에서 확인할 수 있습니다.
 
-이 지식 창고를 컴퓨터에 배포하여 제안한 변경 사항을 미리 볼 수 있습니다. Detailed instructions on how to do this can be found [in the README.md file](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README) on this Knowledge Base's GitHub page.
+이 지식 창고를 컴퓨터에 배포하여 제안한 변경 사항을 미리 볼 수 있습니다. Detailed instructions on how to do this can be found [in the README.md file](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README) on this Knowledge Base’s GitHub page.
 
 ## 기사 번역 {#translate-adguard}
 

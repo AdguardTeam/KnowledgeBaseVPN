@@ -1,5 +1,5 @@
 ---
-title: 'Hoe een schermafbeelding te maken'
+title: Hoe een schermafbeelding te maken
 sidebar_position: 4
 ---
 
