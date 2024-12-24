@@ -1,5 +1,5 @@
 ---
-title: 'AdGuard VPNのインストール方法'
+title: AdGuard VPNのインストール方法
 sidebar_position: 3
 ---
 

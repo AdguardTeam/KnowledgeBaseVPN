@@ -5,7 +5,7 @@ sidebar_position: 2
 
 ## Sistem gereksinimleri
 
-AdGuard VPN yalnızca **Microsoft Windows 11/10/8.1/8/7/Vista SP2 (yalnızca web tabanlı)** olan cihazlara yüklenebilir.
+AdGuard VPN can only be installed on devices with **Microsoft Windows 11, 10, 8.1, 8, and Vista SP2 (web-based only)**.
 
 ## Windows için AdGuard VPN kurulumu
 
@@ -23,7 +23,7 @@ AdGuard VPN'i bilgisayarınızdan kaldırmaya karar verirseniz, aşağıda liste
 
 ### Gelişmiş kaldırma {#advanced}
 
-Normal kaldırma herhangi bir nedenle işe yaramazsa, gelişmiş bir yöntem kullanmayı deneyebilirsiniz. Her şeyden önce, geliştiricilerimiz tarafından oluşturulan [kaldırma aracını indirmeniz](https://cdn.adtidy.org/distr/windows/Uninstall_Utility.zip) gerekir. Arşivi bilgisayarınızdaki herhangi bir klasöre çıkarın, **Adguard.UninstallUtility.exe** dosyasını çalıştırın ve uygulamanın cihazınızda değişiklik yapmasına izin verin. Ardından aşağıdaki talimatı izleyin:
+In case regular uninstall doesn’t work for any reason, you can try to use an advanced method. Her şeyden önce, geliştiricilerimiz tarafından oluşturulan [kaldırma aracını indirmeniz](https://cdn.adtidy.org/distr/windows/Uninstall_Utility.zip) gerekir. Arşivi bilgisayarınızdaki herhangi bir klasöre çıkarın, **Adguard.UninstallUtility.exe** dosyasını çalıştırın ve uygulamanın cihazınızda değişiklik yapmasına izin verin. Ardından aşağıdaki talimatı izleyin:
 
 1. *AdGuard VPN* ve *Standart* kaldırma türünü seçin, ardından *Kaldır* öğesine tıklayın:
 

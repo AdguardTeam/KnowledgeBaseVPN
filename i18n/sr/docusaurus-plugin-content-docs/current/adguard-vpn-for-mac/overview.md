@@ -5,7 +5,7 @@ sidebar_position: 1
 
 AdGuard VPN za Mac je VPN usluga na radnoj površini. AdGuard VPN je u potpunosti kompatibilan sa AdGuard blokatorom reklama, mogu se koristiti zajedno i radiće neprimetno. Da vidimo koje karakteristike ima da ponudi.
 
-Imajte na umu da **ne možete da koristite AdGuard VPN za Mac osim ako se niste prijavili na svoj AdGuard nalog**. Možete da se prijavite pomoću svog AdGuard naloga ili sa spoljašnjim nalogom, tačnije preko Apple-a, Google-a ili Facebook-a. Uverite se da je vaš spoljni nalog povezan sa istom e-adresom kao i vaš AdGuard nalog. Ako postoji odgovarajuća pretplata na vašem AdGuard nalogu, ona će biti automatski aktivirana na aplikaciji radne površine. Još uvek nemate AdGuard nalog? Kreirajte ga [Ovde](https://auth.adguard.com/registration.html).
+Note that **you can’t use AdGuard VPN for Mac unless you have logged into your AdGuard account**. Možete da se prijavite pomoću svog AdGuard naloga ili sa spoljašnjim nalogom, tačnije preko Apple-a, Google-a ili Facebook-a. Uverite se da je vaš spoljni nalog povezan sa istom e-adresom kao i vaš AdGuard nalog. Ako postoji odgovarajuća pretplata na vašem AdGuard nalogu, ona će biti automatski aktivirana na aplikaciji radne površine. Still don’t have an AdGuard account? Kreirajte ga [Ovde](https://auth.adguard.com/registration.html).
 
 :::note Compatibility
 
@@ -35,9 +35,9 @@ AdGuard VPN has several features that make it unique, and one of them is definit
 
 ![Ekran "Izuzetaka"](https://cdn.adguardvpn.com/content/kb/vpn/mac/services_new_en.png)
 
-Takođe, ne samo da možete da dodate Veb lokacije u "Izuzetke", već i da birate između lista popularnih usluga. Liste su podeljene u osam kategorija: društvene mreže, aplikacije za dopisivanje, video i muzički striming servisi, Igre, Kupovina, Pretraživači i Alatke za komunikaciju na poslu. Bilo koja od ovih usluga može biti dodata u "Isključenja" jednim klikom! To je posebno zgodno ako koristite selektivni režim.
+Takođe, ne samo da možete da dodate Veb lokacije u "Izuzetke", već i da birate između lista popularnih usluga. Liste su podeljene u osam kategorija: društvene mreže, aplikacije za dopisivanje, video i muzički striming servisi, Igre, Kupovina, Pretraživači i Alatke za komunikaciju na poslu. Bilo koja od ovih usluga može biti dodata u "Isključenja" jednim klikom! It’s especially convenient if you use Selective mode.
 
-Lista izuzetaka se može lako konfigurisati. Ako ste dodali domen i neke od njegovih poddomina, oni će biti grupisani unutar osnovnog. Prilikom dodavanja osnovnog domena (`example.com`) dodaje se i njena maska (`*.example.com`).
+Lista izuzetaka se može lako konfigurisati. If you’ve added a domain and some of its subdomains, they’ll be grouped inside the root one. Prilikom dodavanja osnovnog domena (`example.com`) dodaje se i njena maska (`*.example.com`).
 
 :::info Browsers added to Exclusions
 
@@ -48,13 +48,13 @@ Starting with the version 2.4, all browsers are automatically added to the list 
 
 :::
 
-Ako ste dodali uslugu, promenili ili uklonili nešto i sada želite da vratite početne postavke, samo pritisnite *Vrati na podrazumevanu vrednost* pored domena — ova radnja će vratiti sve domene koji nedostaju i ukloniti sva polja za potvrdu.
+If you’ve added a service, changed or removed something and now want to recover initial settings, just press *Reset to default* next to the domain — this action will restore any missing domains and tick all checkboxes.
 
 Štaviše, gotove liste izuzetaka mogu se preneti na druge uređaje sa instaliranim AdGuard VPN-om. Da biste izvezli izuzetke, sledite dole navedena uputstva u četiri koraka:
 
 1. Otvorite AdGuard VPN na uređaju sa kojeg želite da izvezete liste izuzetaka. Pronađite odgovarajući odeljak i kliknite na *Izvoz* Dugme. `exclusions.zip` arhiva će biti preuzeta.
 2. Ima dve `..txt` datoteke unutar arhive, svaka za opšte i selektivne liste. Dodajte im još izuzetaka, izbrišite postojeće, preimenujte datoteke (ali više o ovome kasnije) ili jednostavno ostavite arhivu sa datotekama.
-3. Prilikom prenosa između različitih uređaja, ne zaboravite da pošaljete `..zip` datoteku na uređaj radi uvoza. Na primer, ako uvozite liste izuzetaka iz Mac računara na iPhone, obavezno pošaljite `..zip` datoteku na telefon unapred.
+3. When transferring between different devices, don’t forget to send the `.zip` file to the device for import. Na primer, ako uvozite liste izuzetaka iz Mac računara na iPhone, obavezno pošaljite `..zip` datoteku na telefon unapred.
 4. Otvorite AdGuard VPN na uređaju/u pregledniku gde želite da uvezete arhivu sa spremnim listama izuzetaka. Pronađite odgovarajući odeljak, kliknite na *Uvoz* i izaberite arhivu. Gotovo!
 
 :::note
@@ -81,7 +81,7 @@ The fourth tab is the *Support* screen. Find answers to any questions in the [FA
 
 ![Postavke](https://cdn.adguardvpn.com/content/kb/vpn/mac/settings_new_en.png)
 
-Konačno, dolazimo na karticu "Postavke". U *Osnovni podaci o programu* možete videti trenutnu verziju AdGuard VPN-a, proveriti da li postoje ispravke, posetiti naš zvanični veb sajt i upoznati se sa AdGuard-ovom EULA i politikom privatnosti. U *Osnovni podaci o licenci* možete da izvršite nadogradnju sa besplatnog na neograničeno, upravljate pretplatom ili da se odjavite. I što je najvažnije, odavde možete pristupiti *Opštim postavkama*.
+Konačno, dolazimo na karticu "Postavke". In the *About program* section you can see the current version of AdGuard VPN, check for updates, visit our official website, and get acquainted with AdGuard’s EULA and Privacy policy. U *Osnovni podaci o licenci* možete da izvršite nadogradnju sa besplatnog na neograničeno, upravljate pretplatom ili da se odjavite. I što je najvažnije, odavde možete pristupiti *Opštim postavkama*.
 
 ### Postavke aplikacije
 
@@ -95,7 +95,7 @@ You can also allow AdGuard VPN to gather and send anonymized crash reports, tech
 
 ![DNS serveri](https://cdn.adguardvpn.com/content/kb/vpn/mac/dns_new_en.png)
 
-One or more DNS servers can be set up here. This is useful if you don't want to rely on the default DNS server provided by your ISP. Select one from the list of popular DNS services or add a custom server manually. We recommend adding AdGuard DNS, which not only encrypts your DNS traffic, but also identifies requests to malicious websites and redirects them to a “black hole”.
+One or more DNS servers can be set up here. This is useful if you don’t want to rely on the default DNS server provided by your ISP. Select one from the list of popular DNS services or add a custom server manually. We recommend adding AdGuard DNS, which not only encrypts your DNS traffic, but also identifies requests to malicious websites and redirects them to a “black hole”.
 
 ### Napredne postavke
 

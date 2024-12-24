@@ -12,9 +12,9 @@ VPNを利用すると、インターネット上の別のネットワークに�
 
 Initially, VPNs were created to securely connect business networks over the Internet, so that people could connect to the corporate network from home. Today, this technology is used for many other things: for example, to browse the Internet anonymously or to protect your online activity from prying eyes while using public Wi-Fi.
 
-A VPN connects a user's computer or mobile device to a server and allows one to browse the net using a "cover" IP address. したがって、第三者はユーザーの実際のIPアドレスを見ることができず、追跡はほぼ不可能になります。
+A VPN connects a user’s computer or mobile device to a server and allows one to browse the net using a “cover” IP address. Thus, third-party observers cannot see the user’s real IP address, which makes it nearly impossible to trace them.
 
-The first thing that users mention in relation to VPN is traffic encryption and the security derived from it. しかし、それはどういう意味なのでしょうか？ VPNは、ユーザーの端末とVPNサーバーの間に暗号化トンネルを作成します。 すべてのインターネットトラフィックはこのトンネルを通過することによって、データ・個人情報は保護されます。 外部の第三者にとっては、あなたのトラフィックはVPNサーバーから出るので、あなたの端末がこのVPNサーバーのIPアドレスを持っているように見えます。 これにより、ユーザーの身元や本当の居場所を隠すことができるのです。
+The first thing that users mention in relation to VPN is traffic encryption and the security derived from it. しかし、それはどういう意味なのでしょうか？ A VPN creates an encrypted tunnel between the user’s device and the remote server. すべてのインターネットトラフィックはこのトンネルを通過することによって、データ・個人情報は保護されます。 外部の第三者にとっては、あなたのトラフィックはVPNサーバーから出るので、あなたの端末がこのVPNサーバーのIPアドレスを持っているように見えます。 This trick masks the user’s identity and true location.
 
 VPNは次の目的で使用できます:
 

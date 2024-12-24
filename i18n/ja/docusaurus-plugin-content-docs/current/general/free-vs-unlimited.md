@@ -1,5 +1,5 @@
 ---
-title: '無制限版AdGuard VPNのメリット'
+title: 無制限版AdGuard VPNのメリット
 sidebar_position: 5
 ---
 

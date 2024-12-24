@@ -56,3 +56,13 @@ adguardvpn-cli connect -l <location>
 ```
 adguardvpn-cli check-update
 ```
+
+## Check your subscription info
+
+To check your current subscription information and status, type:
+
+```
+adguardvpn-cli license
+```
+
+You will see your email and subscription type. Paid users will also see the expiration date of their subscription.

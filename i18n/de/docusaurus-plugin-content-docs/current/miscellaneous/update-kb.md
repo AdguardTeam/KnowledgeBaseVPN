@@ -1,9 +1,9 @@
 ---
-title: 'Aktualisieren der Wissensdatenbank'
+title: Aktualisieren der Wissensdatenbank
 sidebar_position: 3
 ---
 
-Das Ziel dieser Wissensdatenbank ist es, jedem die aktuellsten Informationen zu allen möglichen VPN-bezogenen Themen von AdGuard zur Verfügung zu stellen. Aber etwas in unseren Produkten ändert sich ständig, und manchmal spiegelt ein Artikel nicht mehr den aktuellen Stand der Dinge wider.
+Das Ziel dieser Wissensdatenbank ist es, jedem die aktuellsten Informationen zu allen möglichen VPN-bezogenen Themen von AdGuard zur Verfügung zu stellen. But things constantly change, and sometimes an article doesn’t reflect the current state of things anymore — there are simply not so many of us to keep an eye on every single bit of information and update it accordingly when new versions are released.
 
 Aus diesem Grund haben wir alle Inhalte unserer Wissensdatenbank auf [GitHub](https://github.com/AdguardTeam/KnowledgeBaseVPN) eingestellt, und jetzt kann buchstäblich jeder dazu beitragen, indem er Bearbeitungen und Übersetzungen zu bestehenden Artikeln vorschlägt, aber auch völlig neue Artikel erstellt.
 
@@ -15,13 +15,13 @@ Sobald Sie bereit sind, arbeiten Sie unter [dem KnowledgeBaseVPN-Repository](htt
 
 Die Website der Wissensdatenbank wurde mit Docusaurus 2 erstellt, einem modernen Generator für statische Websites. Wenn Sie Änderungen oder Ergänzungen vorschlagen, beachten Sie bitte, dass alle Dokumente den Grundsätzen der Plattform entsprechen müssen. Sie können sie in dem Leitfaden nachlesen, der über [diesen Link](https://docusaurus.io/docs/category/guides) verfügbar ist.
 
-Sie können die Wissensdatenbank auch lokal auf Ihrem Computer bereitstellen, um eine Vorschau auf die von Ihnen vorgeschlagenen Änderungen zu erhalten. Detailed instructions on how to do this can be found [in the README.md file](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README) on this Knowledge Base's GitHub page.
+Sie können die Wissensdatenbank auch lokal auf Ihrem Computer bereitstellen, um eine Vorschau auf die von Ihnen vorgeschlagenen Änderungen zu erhalten. Detailed instructions on how to do this can be found [in the README.md file](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README) on this Knowledge Base’s GitHub page.
 
 ## Artikel übersetzen {#translate-adguard}
 
 Die Übersetzung der bestehenden Artikel der Wissensdatenbank erfolgt auf [der Crowdin-Plattform](https://crowdin.com/project/adguard-vpn-knowledge-base). Alle Details zu Übersetzungen und zur Arbeit mit Crowdin finden Sie [im entsprechenden Artikel](https://adguard.com/kb/miscellaneous/contribute/translate/program/) der Wissensdatenbank von AdGuard Werbeblocker.
 
-Wenn Sie an Artikeln der AdGuard VPN-Wissensdatenbank arbeiten, stoßen Sie möglicherweise auf Zeichenfolgen mit Pluralformen, die Sie mit besonderer Aufmerksamkeit übersetzen sollten. [In a separate article](https://adguard.com/kb/miscellaneous/contribute/translate/plural-forms/), we describe in detail the difficulties that can arise when translating strings with plural forms and provide detailed guidance on how these are handled on the Crowdin platform.
+Wenn Sie an Artikeln der AdGuard VPN-Wissensdatenbank arbeiten, stoßen Sie möglicherweise auf Strings mit Pluralformen, die Sie mit besonderer Aufmerksamkeit übersetzen sollten. [In einem separaten Artikel](https://adguard.com/kb/miscellaneous/contribute/translate/plural-forms/) beschreiben wir ausführlich die Schwierigkeiten, die bei der Übersetzung von Strings mit Pluralformen auftreten können, und geben eine detaillierte Anleitung, wie diese auf der Crowdin-Plattform behandelt werden.
 
 ## An  Open Issues arbeiten
 

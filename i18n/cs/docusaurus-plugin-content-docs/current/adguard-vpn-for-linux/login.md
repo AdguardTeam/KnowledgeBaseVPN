@@ -56,3 +56,13 @@ Chcete-li zkontrolovat aktualizace, zadejte:
 ```
 adguardvpn-cli check-update
 ```
+
+## Kontrola informací o předplatném
+
+Chcete-li zkontrolovat aktuální informace a stav předplatného, zadejte:
+
+```
+adguardvpn-cli license
+```
+
+Zobrazí se váš e-mail a typ předplatného. Platícím uživatelům se také zobrazí datum vypršení jejich předplatného.

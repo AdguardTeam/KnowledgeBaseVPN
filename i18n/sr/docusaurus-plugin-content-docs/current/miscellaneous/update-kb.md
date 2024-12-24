@@ -1,9 +1,9 @@
 ---
-title: 'Ažuriranje baze znanja'
+title: Ažuriranje baze znanja
 sidebar_position: 3
 ---
 
-Cilj ove Baze znanja je da svima pruži najnovije informacije o svim vrstama tema vezanih za AdGuard VPN. Međutim, stvari se konstantno menjaju, a ponekad članak više ne odražava trenutno stanje stvari – jednostavno nema toliko nas da pripazimo na svaki delić informacija i ažuriramo ih u skladu sa tim kada se nove verzije budu objavile.
+Cilj ove Baze znanja je da svima pruži najnovije informacije o svim vrstama tema vezanih za AdGuard VPN. But things constantly change, and sometimes an article doesn’t reflect the current state of things anymore — there are simply not so many of us to keep an eye on every single bit of information and update it accordingly when new versions are released.
 
 Zato smo sve sadržaje iz baze znanja stavili na [GitHub](https://github.com/AdguardTeam/KnowledgeBaseVPN), a sada bukvalno svako može da doprinese tome predlažući izmene i prevode na postojeće članke, kao i potpuno nove.
 
@@ -15,7 +15,7 @@ Kada budete spremni za početak, radite u [depo Baze znanjaVPN](https://github.c
 
 Web lokacija Baze znanja je izgrađena pomoću Docusaurus 2 — modernog statičnog generatora veb sajta. Kada predlažete promene ili dodatke, uzmite u obzir da svi dokumenti moraju biti u skladu sa principima platforme. O njima možete čitati u [vodič dostupan putem ovog linka](https://docusaurus.io/docs/category/guides).
 
-Ovu bazu znanja možete da primenite lokalno na računar da biste pregledali promene koje predlažete. Detailed instructions on how to do this can be found [in the README.md file](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README) on this Knowledge Base's GitHub page.
+Ovu bazu znanja možete da primenite lokalno na računar da biste pregledali promene koje predlažete. Detailed instructions on how to do this can be found [in the README.md file](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README) on this Knowledge Base’s GitHub page.
 
 ## Prevođenje članaka {#translate-adguard}
 

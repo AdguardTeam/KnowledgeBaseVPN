@@ -1,5 +1,5 @@
 ---
-title: 'Problémy s profilem Omezený režim'
+title: Problémy s profilem Omezený režim
 sidebar_position: 4
 ---
 

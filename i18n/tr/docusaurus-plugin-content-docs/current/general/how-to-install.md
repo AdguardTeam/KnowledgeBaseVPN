@@ -1,5 +1,5 @@
 ---
-title: 'AdGuard VPN nasıl yüklenir'
+title: AdGuard VPN nasıl yüklenir
 sidebar_position: 3
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: 'Problemi con il profilo Modalità con restrizioni'
+title: Problemi con il profilo Modalità con restrizioni
 sidebar_position: 4
 ---
 

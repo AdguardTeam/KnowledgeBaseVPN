@@ -66,7 +66,7 @@ Notre équipe de développement tient à remercier les développeurs du logiciel
 - libevent : [https://github.com/libevent/libevent](https://github.com/libevent/libevent)
 - lwIP : [https://lwip.fandom.com/wiki/LwIP_Wiki](https://lwip.fandom.com/wiki/LwIP_Wiki)
 - nghttp2 : [https://github.com/nghttp2/nghttp2](https://github.com/nghttp2/nghttp2)
-- Protocol Buffers - Format d'échange de données de Google : [https://github.com/protocolbuffers](https://github.com/protocolbuffers)
+- Protocol Buffers - Google’s data interchange format: [https://github.com/protocolbuffers](https://github.com/protocolbuffers)
 - zlib : [https://zlib.net](https://zlib.net)
 - Sciter : [https://sciter.com/](https://sciter.com/)
 
