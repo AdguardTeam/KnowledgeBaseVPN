@@ -1,5 +1,5 @@
 ---
-title: 'Jak funguje protokol AdGuard VPN'
+title: Jak funguje protokol AdGuard VPN
 sidebar_position: 4
 ---
 
@@ -20,9 +20,9 @@ Od začátku jsme se rozhodli, že AdGuard VPN se bude od svých konkurentů li�
 Protokol AdGuard VPN jsme vytvořili s ohledem na nevýhody populárních protokolů VPN (OpenVPN, WireGuard, IPSec atd.):
 
 - Lze je snadno odhalit a zablokovat na úrovni sítě.
-- Pokud se je pokusíte "skrýt", výkon se sníží.
+- Pokud se je pokusíte “skrýt“, výkon se sníží.
 
-Pro "utajení" použití VPN je datový tok často "zabalen" do spojení TCP a někdy je navíc šifrován, aby provoz vypadal jako běžné připojení k webové stránce. Tento přístup má bohužel jednu nevýhodu — vzhledem k použití protokolu TCP je nutné dodatečné potvrzení doručení.
+Pro “utajení“ použití VPN je datový tok často “zabalen“ do spojení TCP a někdy je navíc šifrován, aby provoz vypadal jako běžné připojení k webové stránce. Tento přístup má bohužel jednu nevýhodu — vzhledem k použití protokolu TCP je nutné dodatečné potvrzení doručení.
 
 Při použití jakéhokoli oblíbeného protokolu VPN se vždy setkáváme s kompromisem: rychlý, ale snadno zjistitelný vs. pomalý.
 
@@ -34,4 +34,4 @@ Při použití jakéhokoli oblíbeného protokolu VPN se vždy setkáváme s kom
 Některé existující protokoly VPN zvládnou i úlohu šifrování a je obtížné je (a tedy i skutečnost, že používáte VPN) odhalit. Obvykle je to však za cenu snížení rychlosti. To se v našem případě nestane díky několika řešením.
 
 - Používáme **přenosový protokol HTTP/2**, který prakticky znemožňuje detekci protokolu AdGuard VPN při zachování vysoké rychlosti.
-- Na rozdíl od ostatních, protokol AdGuard VPN *pracuje s daty, nikoli s pakety*. To znamená, že AdGuard VPN vytváří pro každé připojení samostatný "tunel", přičemž každý stream HTTP/2 odpovídá jednomu připojení. AdGuard VPN přenáší data prostřednictvím tohoto tunelu. To nám umožňuje urychlit operaci úsporou potvrzovacích paketů, protože data několika paketů můžeme před odesláním na server VPN (nebo ze serveru ke klientovi) vložit do jedné vyrovnávací paměti. A čím méně paketů, tím méně potvrzení je potřeba.
+- Na rozdíl od ostatních, protokol AdGuard VPN *pracuje s daty, nikoli s pakety*. To znamená, že AdGuard VPN vytváří pro každé připojení samostatný “tunel“, přičemž každý stream HTTP/2 odpovídá jednomu připojení. AdGuard VPN přenáší data prostřednictvím tohoto tunelu. To nám umožňuje urychlit operaci úsporou potvrzovacích paketů, protože data několika paketů můžeme před odesláním na server VPN (nebo ze serveru ke klientovi) vložit do jedné vyrovnávací paměti. A čím méně paketů, tím méně potvrzení je potřeba.

@@ -1,5 +1,5 @@
 ---
-title: 'Cómo recopilar y enviar registros'
+title: Cómo recopilar y enviar registros
 sidebar_position: 1
 ---
 
@@ -13,7 +13,7 @@ De forma predeterminada, AdGuard VPN para Mac utiliza el nivel de registro está
 
 2. Haga clic en **Soporte** (en el menú superior) → **Informar de un error**.
 
-3. En el formulario abierto, introduzca su dirección de correo electrónico para recibir comentarios y describa el error encontrado, incluyendo la hora en que se produjo. Si no puede reproducir el problema, especifique con la mayor precisión posible cuándo ocurrió por última vez.
+3. En el formulario abierto, introduzca su dirección de correo electrónico para recibir comentarios y describa el error encontrado, incluyendo la hora en que se produjo. If you can’t reproduce the problem, specify as accurately as possible when it last occurred.
 
 4. There is a check mark next to the **Send detailed system info**, which means that when you send a report, you also send logs.
 

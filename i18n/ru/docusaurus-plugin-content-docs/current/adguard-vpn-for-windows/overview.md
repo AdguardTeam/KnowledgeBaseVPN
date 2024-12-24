@@ -5,17 +5,17 @@ sidebar_position: 1
 
 ## Что делает AdGuard VPN для Windows
 
-- Защищает от перехвата сетевого трафика (спуфинга). VPN создаёт зашифрованный туннель между вашим устройством и удалённым сервером. Через этот туннель проходит весь ваш интернет-трафик, так что на этом пути ваши данные защищены. А благодаря [уникальному протоколу AdGuard](/general/adguard-vpn-protocol), вы получаете гарантированно быстрое и безопасное соединение.
+- Защищает от перехвата сетевого трафика (спуфинга). VPN создаёт зашифрованный туннель между вашим устройством и удалённым сервером. Через этот туннель проходит весь ваш интернет-трафик, так что на этом пути ваши данные защищены. And thanks to [AdGuard’s unique protocol](/general/adguard-vpn-protocol), you’re guaranteed a fast and secure connection.
 
-- Маскирует ваш IP-адрес.  Ваш настоящий IP-адрес — ключ к вашим персональным данным для киберпреступников. Ваше имя, адрес элетронной почты, номер телефона, данные банковской карты могут попасть в руки мошенников, если вы не спрячете свой IP. С AdGuard VPN весь ваш трафик проходит через зашифрованный туннель и поступает на VPN-сервер. Веб-сервер регистрирует IP-адрес конечной точки туннеля, то есть VPN-сервера, а не реальный IP-адрес устройства.
+- Маскирует ваш IP-адрес.  Ваш настоящий IP-адрес — ключ к вашим персональным данным для киберпреступников. Your name, email address, phone number, credit card information can all fall into the hands of fraudsters if you don’t hide your IP. С AdGuard VPN весь ваш трафик проходит через зашифрованный туннель и поступает на VPN-сервер. The web server registers the IP address of the endpoint of the tunnel, i.e. the VPN server, and not the device’s real IP address.
 
-- Скрывает ваше местоположение. Для чего это нужно? Например, чтобы забронировать отель по ценам «для своих» или спрятаться от геотаргетированной рекламы.
+- Скрывает ваше местоположение. Для чего это нужно? For example, the ability to book a hotel at locals’ rates or hide from geotargeted advertising.
 
-У AdGuard VPN для Windows есть большое количество преимуществ, так что этой теме мы посвятили [отдельную статью](/general/why-adguard-vpn). А здесь мы хотим больше сосредоточиться на самом приложении и на том, как оно работает.
+AdGuard VPN for Windows has many advantages, so we’ve dedicated [a separate article](/general/why-adguard-vpn) to them. А здесь мы хотим больше сосредоточиться на самом приложении и на том, как оно работает.
 
 ## Как начать пользоваться AdGuard VPN для Windows
 
-Чтобы начать пользоваться AdGuard VPN для Windows, скачайте приложение с [нашего сайта](https://adguard-vpn.com/welcome.html). Установка займёт не больше минуты — и вы увидите диалоговое окно, в котором потребуется поставить как минимум одну галочку, чтобы принять условия Пользовательского соглашения и Политики конфиденциальности. А вот давать ли AdGuard право собирать анонимизированные данные об использовании приложения на вашем устройстве или нет, решать вам. В завершении процесса установки программа попросит вас войти в систему, либо через [учётную запись AdGuard](https://auth.adguard.com/login.html), либо через социальные сети (Apple, Google, Facebook). Вот и всё, теперь вы можете начать пользоваться AdGuard VPN для Windows.
+Чтобы начать пользоваться AdGuard VPN для Windows, скачайте приложение с [нашего сайта](https://adguard-vpn.com/welcome.html). The installation takes no more than a minute — and you’ll see a dialog window where you’ll need to check at least one box applying the terms of the User Agreement and the Privacy policy. And it’s up to you to decide whether you want AdGuard to collect anonymized data about your app usage. В завершении процесса установки программа попросит вас войти в систему, либо через [учётную запись AdGuard](https://auth.adguard.com/login.html), либо через социальные сети (Apple, Google, Facebook). That’s all, you can now use AdGuard VPN for Windows.
 
 ## Главный экран
 
@@ -88,7 +88,7 @@ sidebar_position: 1
 
 #### Расширенные настройки
 
-Вы вполне можете пользоваться AdGuard VPN для Windows, вообще не открывая Расширенные настройки. Однако они могут быть полезны, если вы найдёте время в них разобраться.
+It is entirely possible to use AdGuard VPN for Windows without ever touching the Advanced settings, but they can be useful if you’re willing to take time to learn what they do.
 
 ##### Режим работы
 
@@ -126,4 +126,4 @@ WinTun — это драйвер маршрутизации трафика, об
 
 ## Поддержка
 
-Эта вкладка предназначена для помощи в решении вопросов пользователей: здесь вы найдёте ссылку на FAQ, сможете сообщить об ошибке или оставить отзыв, а также здесь можно экспортировать логи, если служба поддержки попросит вас об этом.
+This tab is aimed to solve users’ questions: there you can find a link to the FAQ page, report a bug or leave feedback, and export logs if the support team asks you to.

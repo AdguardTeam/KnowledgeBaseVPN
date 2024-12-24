@@ -12,9 +12,9 @@ Uma VPN permite que você crie uma conexão segura com outra rede na Internet.
 
 Initially, VPNs were created to securely connect business networks over the Internet, so that people could connect to the corporate network from home. Today, this technology is used for many other things: for example, to browse the Internet anonymously or to protect your online activity from prying eyes while using public Wi-Fi.
 
-A VPN connects a user's computer or mobile device to a server and allows one to browse the net using a "cover" IP address. Assim, observadores de terceiros não podem ver o endereço IP real do usuário, o que torna quase impossível rastreá-los.
+A VPN connects a user’s computer or mobile device to a server and allows one to browse the net using a “cover” IP address. Thus, third-party observers cannot see the user’s real IP address, which makes it nearly impossible to trace them.
 
-The first thing that users mention in relation to VPN is traffic encryption and the security derived from it. Mas o que isso significa? Uma VPN cria um túnel criptografado entre o dispositivo do usuário e o servidor remoto. Todo o tráfego da web passa por esse túnel, portanto, seus dados são protegidos ao longo do caminho. Para o observador externo, seu tráfego sai do servidor VPN, então parece que seu dispositivo possui o endereço IP deste servidor. Esse truque mascara a identidade e a verdadeira localização do usuário.
+The first thing that users mention in relation to VPN is traffic encryption and the security derived from it. Mas o que isso significa? A VPN creates an encrypted tunnel between the user’s device and the remote server. Todo o tráfego da web passa por esse túnel, portanto, seus dados são protegidos ao longo do caminho. Para o observador externo, seu tráfego sai do servidor VPN, então parece que seu dispositivo possui o endereço IP deste servidor. This trick masks the user’s identity and true location.
 
 A VPN pode ser usada para:
 

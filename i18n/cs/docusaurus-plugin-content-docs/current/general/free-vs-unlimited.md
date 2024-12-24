@@ -1,5 +1,5 @@
 ---
-title: 'Výhody neomezené AdGuard VPN'
+title: Výhody neomezené AdGuard VPN
 sidebar_position: 5
 ---
 

@@ -5,7 +5,7 @@ sidebar_position: 1
 
 ## Co je AdGuard VPN pro iOS?
 
-VPN umožňuje vytvořit zabezpečené připojení k jiné síti na internetu. Připojuje počítač nebo mobilní zařízení uživatele k serveru a umožňuje procházet síť pomocí "krycí" IP adresy. Pokud se server VPN nachází v jiné zemi, bude se zdát, že internetové připojení bylo navázáno z této země. Další podrobnosti najdete v [našem článku o tom, jak VPN funguje](/general/how-vpn-works).
+VPN umožňuje vytvořit zabezpečené připojení k jiné síti na internetu. Připojuje počítač nebo mobilní zařízení uživatele k serveru a umožňuje procházet síť pomocí “krycí“ IP adresy. Pokud se server VPN nachází v jiné zemi, bude se zdát, že internetové připojení bylo navázáno z této země. Další podrobnosti najdete v [našem článku o tom, jak VPN funguje](/general/how-vpn-works).
 
 AdGuard VPN má několik funkcí:
 

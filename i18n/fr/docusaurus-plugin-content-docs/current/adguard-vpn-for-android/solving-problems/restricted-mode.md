@@ -1,5 +1,5 @@
 ---
-title: 'Problèmes avec le profil en Mode restreint'
+title: Problèmes avec le profil en Mode restreint
 sidebar_position: 4
 ---
 

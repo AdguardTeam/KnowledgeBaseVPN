@@ -9,7 +9,7 @@ Existem várias maneiras de coletar logs de extensão do navegador AdGuard VPN. 
 
 1. Abra a extensão AdGuard VPN Browser, se possível, repita as ações que levaram ao erro. Observe a hora exata em que esse erro ocorreu.
 1. Abra *Configurações* clicando no ícone do menu hambúrguer (☰) → *Suporte* → *Relate um bug*.
-1. No formulário aberto, deixe um endereço de e-mail inserido automaticamente ou insira outro e descreva o erro encontrado, incluindo o horário em que ocorreu esse erro. Se você não conseguir reproduzir o problema, especifique com a maior precisão possível quando ocorreu pela última vez.
+1. No formulário aberto, deixe um endereço de e-mail inserido automaticamente ou insira outro e descreva o erro encontrado, incluindo o horário em que ocorreu esse erro. If you can’t reproduce the problem, specify as accurately as possible when it last occurred.
 1. Make sure that there is a check mark next to *Include the diagnostic report in the message* and tap *Submit*. Dessa forma, você enviará os logs junto com o relatório do bug.
 
 ## Coleta e envio de logs por meio do botão *Exportar logs*
@@ -24,7 +24,7 @@ Agora que você coletou os logs, você precisa entregá-los à nossa equipe de d
 1. Reporte um bug no GitHub. Instruções detalhadas sobre como criar um problema no GitHub podem ser encontradas neste artigo.
 1. Send an archive with logs and reproduce time to `devteam@adguard.com` and attach a link to your GitHub issue. Also you can add an archive with logs and reproduce time to Google Drive and share it with `devteam@adguard.com` attaching the Google Drive link to your issue on GitHub.
 
-## Coletando e enviando logs por meio das ferramentas de desenvolvedor do navegador
+## Collecting and sending logs via browser developer’s tools
 
 ### Chrome
 

@@ -1,5 +1,5 @@
 ---
-title: 'Günlükler nasıl toplanır ve gönderilir'
+title: Günlükler nasıl toplanır ve gönderilir
 sidebar_position: 1
 ---
 
@@ -13,7 +13,7 @@ Varsayılan olarak, Mac için AdGuard VPN, uygulamanın çalışan süreçleri h
 
 2. **Destek** (yukarıdaki menüde) → **Hata bildir** öğesine tıklayın.
 
-3. Açılan formda, geri bildirim için e-posta adresinizi girin ve bulunan hatayı, bu hatanın oluştuğu zaman da dahil olmak üzere açıklayın. Sorunu yeniden oluşturamıyorsanız, en son ne zaman oluştuğunu olabildiğince doğru bir şekilde belirtin.
+3. Açılan formda, geri bildirim için e-posta adresinizi girin ve bulunan hatayı, bu hatanın oluştuğu zaman da dahil olmak üzere açıklayın. If you can’t reproduce the problem, specify as accurately as possible when it last occurred.
 
 4. **Detaylı sistem bilgisi gönder** öğesinin yanında bir onay işareti vardır; bu, bir rapor gönderdiğinizde günlükleri de göndereceğiniz anlamına gelir.
 

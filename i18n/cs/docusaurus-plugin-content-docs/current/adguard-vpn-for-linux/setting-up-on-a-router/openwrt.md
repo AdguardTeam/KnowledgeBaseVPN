@@ -137,7 +137,7 @@ curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/sc
    adguardvpn-cli login
    ```
 
-   Poznámka: Pokud se nepodařilo propojit binární soubor s '/usr/local/bin', použijte pro spuštění všech příkazů úplnou cestu k souboru. Např. `/opt/adguardvpn_cli/adguardvpn-cli login`
+   Poznámka: Pokud se nepodařilo propojit binární soubor s `/usr/local/bin`, použijte pro spuštění všech příkazů úplnou cestu k souboru. Např. `/opt/adguardvpn_cli/adguardvpn-cli login`
 
 2. Připojte se k VPN
 
@@ -209,7 +209,7 @@ Můžete to provést ve webovém rozhraní nebo v příkazovém řádku. Níže 
 
    Zobrazí se konfigurační soubor se seznamem všech zón. Hledejte sekci jako `firewall.@zone[1]` nebo podobnou, kde je definován `název volby 'wan'`. Číslo `[1]` se může lišit v závislosti na konfiguraci.
 
-   Spusťte tento příkaz SSH a nahraďte `zone[1]` správnou zónou 'wan', která byla identifikována dříve:
+   Spusťte tento příkaz SSH a nahraďte `zone[1]` správnou zónou `wan`, která byla identifikována dříve:
 
    ```shell
    uci show firewall | grep "=zone"

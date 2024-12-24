@@ -1,5 +1,5 @@
 ---
-title: '如何收集和发送日志记录'
+title: 如何收集和发送日志记录
 sidebar_position: 1
 ---
 
@@ -13,7 +13,7 @@ If you encounter any problems while using AdGuard VPN for Mac, you can inform us
 
 2. 点击「**支持**」 （在上面的菜单中） → 「**报告错误**」。
 
-3. 在打开的表单中，输入您的电子邮件地址以获取反馈，然后描述发现的错误，包括该错误发生的时间。 如果您无法重复问题，请尽可能准确地指明上次发生的时间。
+3. 在打开的表单中，输入您的电子邮件地址以获取反馈，然后描述发现的错误，包括该错误发生的时间。 If you can’t reproduce the problem, specify as accurately as possible when it last occurred.
 
 4. There is a check mark next to the **Send detailed system info**, which means that when you send a report, you also send logs.
 

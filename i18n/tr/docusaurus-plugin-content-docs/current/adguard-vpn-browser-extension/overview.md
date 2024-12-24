@@ -3,7 +3,7 @@ title: Özelliklere genel bakış
 sidebar_position: 1
 ---
 
-AdGuard VPN Tarayıcı Uzantısı Chrome, Firefox, Opera ve Edge için mevcuttur. Kullanıcı arayüzü ve işlevsellik tarayıcılar arasında farklılık göstermez, bu nedenle aşağıdaki genel bakış, tüm tarayıcılar için AdGuard VPN uzantılarıyla alakalı olacaktır.
+AdGuard VPN Tarayıcı Uzantısı Chrome, Firefox, Opera ve Edge için mevcuttur. The UI and functionality doesn’t differ between browsers so the overview below will be relevant for AdGuard VPN extensions for all browsers.
 
 :::note
 
@@ -13,14 +13,14 @@ AdGuard VPN Tarayıcı Uzantısını yalnızca giriş yaptığınızda kullanabi
 
 AdGuard VPN Tarayıcı Uzantınızı yönetmek için:
 
-- Tarayıcı panelindeki simgesine tıklayın, hamburger menü simgesine tıklayın ve *Ayarlar* öğesini seçin,
+- Either click its icon on the browser’s panel, click the hamburger menu icon, and select *Settings*,
 - Veya tarayıcınızda *Uzantıları yönet* sayfasına gidin, *AdGuard VPN* altındaki *Ayrıntılar* öğesine tıklayın ve ayarlarını buradan yönetin.
 
-İşiniz bittiğinde, solda birkaç sekme göreceksiniz:
+Once done, you’ll see several tabs on the left:
 
 ## Ayarlar
 
-Bu sekmede birkaç önemli ayar toplanmıştır. Burada kullanılacak bir DNS sunucusu seçebilir, tarayıcının içerik menüsüne AdGuard VPN simgesini ekleyebilir veya kaldırabilir, WebRTC'i engelleyebilir, uzantının temasını değiştirebilir ve AdGuard'ın anonim çökme raporları ve teknik veriler toplamasına izin verebilirsiniz.
+Bu sekmede birkaç önemli ayar toplanmıştır. Here you can choose a DNS server to use, add or remove the AdGuard VPN icon from the browser’s context menu, block WebRTC, change the extension’s theme, and allow AdGuard to gather anonymous crash reports and technical data.
 
 ### DNS sunucusu seçme
 
@@ -32,7 +32,7 @@ DNS sunucularını çeşitli sağlayıcılardan [hakkında daha fazla bilgi edin
 
 Bir sonraki sekme, AdGuard VPN'in ana ayırt edici özelliklerinden birini içerir — ayrı istisna listelerine sahip iki mod.
 
-**Genel modda**, AdGuard VPN varsayılan olarak istisna listelerine eklediğiniz siteler dışında tüm sitelerde çalışır. **Seçici modda** tam tersi, AdGuard VPN varsayılan olarak hiçbir yerde çalışmaz. **Genel modda** gördüğünüzden ayrı olarak, çalışmasını istediğiniz siteleri bir istisna listesine ekleyebilirsiniz.
+In **General mode**, AdGuard VPN by default works on all websites, with the exception of the websites you’ve added to the exclusions list. In **Selective mode**, vice versa, AdGuard VPN by default doesn’t work anywhere. You can add any websites where you’d like it to work to an exclusions list, separate from the one you saw in the **General mode**.
 
 İstisna listesine bir site eklerken, siteyi elle yazabilir veya **Listeden** seçeneğini belirleyebilirsiniz. İkinci durumda, her biri birkaç popüler hizmet öneren sekiz kategori (örneğin, *Alışveriş* veya *Mesajlaşma*) göreceksiniz. Bu hizmetlerden herhangi birini tek bir tıklamayla hariç tutabilirsiniz. Bu, söz konusu hizmetle ilgili tüm alan adlarını istisnalara ekler.
 
@@ -40,10 +40,10 @@ Bir sonraki sekme, AdGuard VPN'in ana ayırt edici özelliklerinden birini içer
 
 Yalnızca site ekleyip çıkarmakla kalmaz, ayrıca hazır istisna listelerini AdGuard VPN'nin yüklü olduğu diğer cihazlara da aktarabilirsiniz. İstisna listenizi dışa aktarmak için aşağıdaki 4 adımlı talimatı uygulayın:
 
-1. İstisnaların listesini dışa aktarmak istediğiniz yerden AdGuard VPN Tarayıcı uzantısını açın. Uygun bölümü bulun ve "Dışa aktar" düğmesine tıklayın. `exclusions.zip` arşivi indirilecektir.
+1. İstisnaların listesini dışa aktarmak istediğiniz yerden AdGuard VPN Tarayıcı uzantısını açın. Find the appropriate section and click the *Export* button. `exclusions.zip` arşivi indirilecektir.
 1. Arşivde, Genel ve Seçici listelerin her biri için birer tane olmak üzere iki `.txt` dosyası vardır. Bunlara daha fazla istisna ekleyin, mevcut olanları silin, dosyaları yeniden adlandırın veya arşivi olduğu gibi bırakın.
 1. Farklı cihazlar arasında aktarım yaparken, `.zip` dosyasını içe aktarmak için cihaza gönderin.
-1. Bu cihazda AdGuard VPN'i açın. Uygun bölümü bulun, "İçe aktar" düğmesine tıklayın ve arşivi seçin. Tamamlandı!
+1. Bu cihazda AdGuard VPN'i açın. Find the appropriate section, click the *Import* button and select the archive. Tamamlandı!
 
 ## Hesap
 
@@ -51,8 +51,8 @@ AdGuard VPN Tarayıcı uzantısının üçüncü sekmesi, yalnızca hesabınıza
 
 ## Destek
 
-Sık sorulan soruların yanıtlarını SSS bölümünde bulabilir veya geri bildirim bırakabilirsiniz: Bir şey olması gerektiği gibi çalışmıyorsa bir hatayı bildirin, yeni bir özellik eklemeyi önerin veya birçok sosyal medya platformundan herhangi birinde AdGuard'ı tartışın.
+You can find answers to common questions in the FAQ section, or leave feedback: report a bug if something isn’t working as it should, suggest adding a new feature, or discuss AdGuard on any of the many social media platforms.
 
 ## Hakkında
 
-Uzantının sürümünü kontrol edebileceğiniz, resmi siteyi ziyaret edebileceğiniz ve SKLS veya Gizlilik politikasını görüntüleyebileceğiniz başka bir küçük sekme.
+Another minor tab, where you can check the extension’s version, visit the official website, and view the EULA or Privacy policy.
