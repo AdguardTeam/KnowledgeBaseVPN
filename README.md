@@ -57,7 +57,7 @@ This command generates static content into the `build` directory and can be serv
 
 Translations are not pushed to the repo and prepared on-the-fly (`i18n` folder is added to `.gitignore`).
 
-Here's how you can debug translations locally.
+Here’s how you can debug translations locally.
 
 1. Download translations: `CROWDIN_PERSONAL_TOKEN="YOURTOKEN" pnpm run crowdin download`
 2. Run Docusaurus with the language of your choice: `pnpm run start -- --locale de`
