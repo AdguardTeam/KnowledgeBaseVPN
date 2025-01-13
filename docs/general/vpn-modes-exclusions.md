@@ -13,7 +13,7 @@ AdGuard VPN has two modes:
 
 1. By default, AdGuard VPN is active for all websites and apps, except for those added to the website and app exclusion lists.
 
-2. AdGuard VPN is active *selectively*: only for the websites and apps added to the website and app exclusion lists.
+2. AdGuard VPN is active *selectively*: only for the websites and apps from the exclusion lists.
 
 :::note
 
@@ -27,7 +27,7 @@ An exclusion list is a list of apps or websites that AdGuard VPN excludes or inc
 
 :::note
 
-Each VPN mode has its own app exclusion list and website exclusion list.
+Each VPN mode has two exclusion lists: one for apps and one for websites.
 In total, there are four exclusion lists:
 
 * App exclusion list [VPN active everywhere]
@@ -39,7 +39,7 @@ In total, there are four exclusion lists:
 
 ## Combining VPN modes and Exclusion lists
 
-The four VPN activity setups provide different levels of VPN coverage, from maximum to limited.
+The four VPN activity setups provide different levels of VPN coverage.
 
 ### AdGuard VPN is active everywhere except for apps and websites from the app and website exclusion lists
 
