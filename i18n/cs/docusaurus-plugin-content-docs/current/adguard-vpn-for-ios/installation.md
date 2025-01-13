@@ -25,7 +25,7 @@ Nebo můžete použít vyhledávání v App Store a najít AdGuard VPN:
 
     ![App Store *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/app-store-en.png)
 
-1. Dále do vyhledávacího řádku začněte psát *"AdGuard"* a ze seznamu nabízených možností vyberte *"adguard vpn"*.
+1. Dále do vyhledávacího řádku začněte psát *AdGuard* a ze seznamu nabízených možností vyberte *adguard vpn*.
 
     ![Search *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/search-en.png)
 

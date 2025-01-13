@@ -1,5 +1,5 @@
 ---
-title: 'Jak používat AdGuard VPN v zemích s internetovými omezeními'
+title: Jak používat AdGuard VPN v zemích s internetovými omezeními
 sidebar_position: 10
 ---
 

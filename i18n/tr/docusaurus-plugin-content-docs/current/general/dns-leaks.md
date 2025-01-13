@@ -1,21 +1,21 @@
 ---
-title: 'DNS sızıntısı nedir'
+title: DNS sızıntısı nedir
 sidebar_position: 9
 ---
 
-Bir VPN kurduktan sonra, anonimleştirilmenize yol açacak herhangi bir sızıntı olmayacağından emin olmak istersiniz. AdGuard VPN, trafiğinizi ve verilerinizi meraklı gözlerden güvenilir bir şekilde korur. Bununla birlikte, bazı durumlarda VPN hizmetimizde DNS sızıntılarının varlığından şüphelenebilirsiniz. Bu endişelerin nereden kaynaklandığını ve neden asılsız olduğunu açıklayacağız.
+Once you install a VPN, you want to be sure that there won’t be any leaks that will lead to your de-anonymization. AdGuard VPN, trafiğinizi ve verilerinizi meraklı gözlerden güvenilir bir şekilde korur. Bununla birlikte, bazı durumlarda VPN hizmetimizde DNS sızıntılarının varlığından şüphelenebilirsiniz. We’ll explain where these concerns come from and why they are unfounded.
 
 ## DNS sızıntıları nedir?
 
 Bir VPN kullandığınızda, bir DNS sunucusuna bağlantı şifrelenmiş VPN tünelinin dışına çıkabilir ve trafiğiniz İSS tarafından görülebilir hâle gelebilir.
 
-Başka bir deyişle, bir siteyi her açtığınızda, tarayıcınız İSS'nin DNS sunucusuna bir istek gönderir ve karşılığında istenen sitenin IP adresini alır. Bu şekilde, İSS'niz tüm çevrimiçi etkinliğinizi görür ve sizi izleyebilir.
+In other words, every time you open a website, your browser sends a request to the ISP’s DNS server and in return receives the IP address of the requested website. Bu şekilde, İSS'niz tüm çevrimiçi etkinliğinizi görür ve sizi izleyebilir.
 
 ## DNS sızıntıları nasıl tespit edilir
 
 DNS sızıntılarını tespit etmek için `whoer.net` gibi her türlü anonimlik kontrol hizmeti vardır. Bu sitelerin algoritmaları net değil, ancak niyetleri kullanıcıları hayali sızıntılarla korkutmak ve potansiyel olarak hizmetlerini satmalarını sağlamak.
 
-Bazı güvenlik tarama web siteleri, kullanıcının IP adresi ile DNS sunucusunun IP adresinin çakışmasını "iyi" bir sonuç olarak kabul eder ve bu da herhangi bir sızıntı olmadığını gösterir. Gerçekte, böyle bir eşleşme bir VPN kullanımına işaret edebilir. VPN devre dışı bırakıldığında ve istekler İSS'nizin DNS sunucusuna gittiğinde, DNS sunucusunun IP adresi ile sizinkinin IP adresi çakışmaz.
+Some security scanning websites consider the coincidence of the user’s IP address and the DNS server’s IP address to be a “good” result, indicating that there are no leaks. Gerçekte, böyle bir eşleşme bir VPN kullanımına işaret edebilir. When VPN is disabled and the requests go to your ISP’s DNS server, the IP address of the DNS server and your own one do not coincide.
 
 ## AdGuard VPN'de neden DNS sızıntısı yok
 
@@ -23,9 +23,9 @@ Cihazınızda AdGuard VPN'i etkinleştirir ve tarayıcı sitelerinden herhangi b
 
 Non-filtering bir AdGuard DNS sunucusu kullanmak, AdGuard VPN'de varsayılan olarak ayarlanır. Bu, sorgularınızın İSS'nizin DNS sunucularına gitmemesini sağlar, bu da çevrimiçi olarak gizli ve anonim kalmanız anlamına gelir.
 
-Dahası, AdGuard DNS, 50 milyondan fazla kişi tarafından kullanılan çok popüler bir DNS hizmetidir. Bu sizin için ne anlama geliyor? Şu durumu hayal edin: normal VPN hizmeti, VPN sunucusuyla aynı IP adresinde bulunan DNS sunucusunu kullanır. Kullanıcı sayısı neredeyse 1.000'i geçmiyor.
+What’s more, AdGuard DNS is a very popular DNS service, used by over 50 million people. Bu sizin için ne anlama geliyor? Şu durumu hayal edin: normal VPN hizmeti, VPN sunucusuyla aynı IP adresinde bulunan DNS sunucusunu kullanır. Kullanıcı sayısı neredeyse 1.000'i geçmiyor.
 
-Ve AdGuard DNS söz konusu olduğunda, 50 milyon kullanıcıyla "birleşirsiniz", böylece yalnızca o DNS sunucusunu kullandığınız gerçeğiyle kimse sizi izleyemez.
+And in the case of AdGuard DNS you will “merge” with 50 million users so nobody will be able to track you by the mere fact of using that DNS server.
 
 ## AdGuard VPN'de özel DNS sunucusu nasıl ayarlanır
 

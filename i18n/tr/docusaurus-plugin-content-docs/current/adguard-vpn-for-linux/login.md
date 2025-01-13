@@ -56,3 +56,13 @@ Güncellemeleri denetlemek için şunu yazın:
 ```
 adguardvpn-cli check-update
 ```
+
+## Abonelik bilgilerinizi kontrol etme
+
+Mevcut abonelik bilgilerinizi ve durumunuzu kontrol etmek için şunu yazın:
+
+```
+adguardvpn-cli license
+```
+
+E-postanızı ve abonelik türünüzü göreceksiniz. Ücretli kullanıcılar, aboneliklerinin sona erme tarihini de görür.

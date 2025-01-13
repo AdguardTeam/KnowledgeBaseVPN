@@ -1,21 +1,21 @@
 ---
-title: 'What is a DNS leak'
+title: What is a DNS leak
 sidebar_position: 9
 ---
 
-Una vez que instales una VPN, debes estar seguro de que no habrá filtraciones que conduzcan a la perca de tu anonimato. AdGuard VPN protege de manera confiable tu tráfico y tus datos de miradas indiscretas. No obstante, en algunos casos puedes sospechar la presencia de fugas de DNS en nuestro servicio VPN. Explicaremos de dónde vienen estas preocupaciones y por qué son infundadas.
+Once you install a VPN, you want to be sure that there won’t be any leaks that will lead to your de-anonymization. AdGuard VPN protege de manera confiable tu tráfico y tus datos de miradas indiscretas. No obstante, en algunos casos puedes sospechar la presencia de fugas de DNS en nuestro servicio VPN. We’ll explain where these concerns come from and why they are unfounded.
 
 ## ¿Qué es una fuga de DNS?
 
 Cuando usas una VPN, una conexión a un servidor DNS puede viajar fuera del túnel VPN encriptado y tu tráfico puede volverse visible para el ISP.
 
-En otras palabras, cada vez que abres un sitio web, tu navegador envía una solicitud al servidor DNS del ISP y, a cambio, recibe la dirección IP del sitio web solicitado. Así, tu ISP ve toda tu actividad en línea y puede rastrearte.
+In other words, every time you open a website, your browser sends a request to the ISP’s DNS server and in return receives the IP address of the requested website. Así, tu ISP ve toda tu actividad en línea y puede rastrearte.
 
 ## Cómo detectar fugas de DNS
 
 Hay todo tipo de servicios de verificación de anonimato para detectar fugas de DNS, como `whoer.net`. The algorithms of these websites are not clear, but their intentions are — to scare users with imaginary leaks, potentially enabling them to sell their services.
 
-Algunos sitios web de análisis de seguridad consideran que la coincidencia de la dirección IP del usuario y la dirección IP del servidor DNS es un resultado "bueno", lo que indica que no hay fuga de datos. En realidad, tal coincidencia puede indicar el uso de una VPN. Cuando la VPN está deshabilitada y las solicitudes van al servidor DNS de su ISP, la dirección IP del servidor DNS y la tuya no coinciden.
+Some security scanning websites consider the coincidence of the user’s IP address and the DNS server’s IP address to be a “good” result, indicating that there are no leaks. En realidad, tal coincidencia puede indicar el uso de una VPN. When VPN is disabled and the requests go to your ISP’s DNS server, the IP address of the DNS server and your own one do not coincide.
 
 ## Por qué no hay fugas de DNS en AdGuard VPN
 
@@ -23,9 +23,9 @@ Si habilitas AdGuard VPN en tu dispositivo y ejecutas una verificación en cualq
 
 El uso de un servidor AdGuard DNS sin filtrado está configurado de forma predeterminada en AdGuard VPN. Esto asegura que tus consultas no vayan a los servidores DNS de tu ISP, lo que significa que permaneces privado y anónimo en línea.
 
-Además, AdGuard DNS es un servicio de DNS muy popular, utilizado por más de 50 millones de personas. ¿Qué significa esto para ti? Imagina la siguiente situación: el servicio VPN habitual utiliza el servidor DNS que se encuentra en la misma dirección IP que el servidor VPN. El número de sus usuarios apenas supera los 1000.
+What’s more, AdGuard DNS is a very popular DNS service, used by over 50 million people. ¿Qué significa esto para ti? Imagina la siguiente situación: el servicio VPN habitual utiliza el servidor DNS que se encuentra en la misma dirección IP que el servidor VPN. El número de sus usuarios apenas supera los 1000.
 
-Y en el caso de AdGuard DNS te "fusionarás" con 50 millones de usuarios por lo que nadie podrá rastrearte por el mero hecho de usar ese servidor DNS.
+And in the case of AdGuard DNS you will “merge” with 50 million users so nobody will be able to track you by the mere fact of using that DNS server.
 
 ## Cómo configurar un servidor DNS personalizado en AdGuard VPN
 

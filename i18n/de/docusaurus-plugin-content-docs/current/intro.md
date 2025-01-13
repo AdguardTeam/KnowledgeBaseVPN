@@ -12,9 +12,9 @@ Mit einem VPN können Sie eine sichere Verbindung zu einem anderen Netzwerk im I
 
 Ursprünglich wurden VPNs entwickelt, um Unternehmensnetzwerke sicher über das Internet zu verbinden, damit die Mitarbeitende von zu Hause aus auf das Unternehmensnetzwerk zugreifen konnten. Heute wird diese Technologie für viele andere Dinge genutzt: zum Beispiel, um anonym im Internet zu surfen oder um Ihre Online-Aktivitäten vor neugierigen Blicken zu schützen, wenn Sie ein öffentliches WLAN nutzen.
 
-Ein VPN verbindet den Computer oder das mobile Gerät eines Benutzers mit einem Server und ermöglicht es, mit einer „verdeckten“ IP-Adresse im Internet zu surfen. So können Dritte die tatsächliche IP-Adresse des Benutzers nicht sehen, was es nahezu unmöglich macht, sie aufzuspüren.
+A VPN connects a user’s computer or mobile device to a server and allows one to browse the net using a “cover” IP address. Thus, third-party observers cannot see the user’s real IP address, which makes it nearly impossible to trace them.
 
-Das erste, was man im Zusammenhang mit VPN erwähnt, ist die Verschlüsselung des Datenverkehrs und die damit verbundene Sicherheit. Aber was bedeutet das? Ein VPN erstellt einen verschlüsselten Tunnel zwischen einem Gerät und einem Remote-Server. Ihr gesamter Internetverkehr wird durch diesen Tunnel geleitet, sodass Ihre Daten unterwegs geschützt sind. Für den externen Beobachter verlässt Ihr Datenverkehr den VPN-Server, sodass es so aussieht, als hätte Ihr Gerät die IP-Adresse dieses Servers. Dieser Trick verschleiert die Identität und den wahren Standort des Benutzers.
+Das erste, was man im Zusammenhang mit VPN erwähnt, ist die Verschlüsselung des Datenverkehrs und die damit verbundene Sicherheit. Aber was bedeutet das? A VPN creates an encrypted tunnel between the user’s device and the remote server. Ihr gesamter Internetverkehr wird durch diesen Tunnel geleitet, sodass Ihre Daten unterwegs geschützt sind. Für den externen Beobachter verlässt Ihr Datenverkehr den VPN-Server, sodass es so aussieht, als hätte Ihr Gerät die IP-Adresse dieses Servers. This trick masks the user’s identity and true location.
 
 Sie können ein VPN verwenden, um:
 

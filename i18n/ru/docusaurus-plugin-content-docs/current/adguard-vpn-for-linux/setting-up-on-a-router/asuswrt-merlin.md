@@ -110,9 +110,9 @@ Note that you cannot use both Optware (outdated alternative) and Entware at the 
 
 The Asus DownloadMaster is based on Optware, and therefore is not compatible with Entware. You will have to uninstall DownloadMaster and look at the alternatives provided by Entware.
 
-After uninstalling, make sure that "asusware.arm" or "asusware.\*" dir on the mounted disk partition is deleted. Otherwise, Entware won't work properly. After uninstalling DownloadMaster, make sure the router is rebooted.
+After uninstalling, make sure that `asusware.arm` or `asusware.*` dir on the mounted disk partition is deleted. Otherwise, Entware won’t work properly. After uninstalling DownloadMaster, make sure the router is rebooted.
 
-You will need to plug a USB disk that's formatted in a native Linux file system (ext2, ext3 or ext4). To format a disk, use amtm. Plug a USB disk into your router, then start amtm with:
+You will need to plug a USB disk that’s formatted in a native Linux file system (ext2, ext3 or ext4). To format a disk, use amtm. Plug a USB disk into your router, then start amtm with:
 
 ```bash
 amtm
@@ -170,7 +170,7 @@ Go to /opt folder by running `cd /opt`  and run the AdGuardVPN CLI installation 
 curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/release/install.sh | sh -s -- -v
 ```
 
-When asked “Would you like to link the binary to /usr/local/bin?“, reply `y`. If failed to link the binary, run this line:
+When asked “Would you like to link the binary to `/usr/local/bin?`“, reply `y`. If failed to link the binary, run this line:
 
 ```bash
 ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin

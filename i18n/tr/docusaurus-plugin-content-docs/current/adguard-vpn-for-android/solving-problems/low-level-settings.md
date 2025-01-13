@@ -11,11 +11,11 @@ _Alt seviye ayarların_ değiştirilmesi AdGuard VPN'in performansında sorunlar
 
 :::
 
-To access _Low-level settings_, open the AdGuard VPN app and tap the gear icon in the lower right corner of the screen. Then choose _General_ → _Advanced_ → _Low-level settings_.
+_Alt seviye ayarlara_ erişmek için AdGuard VPN uygulamasını açın ve ekranın sağ alt köşesindeki dişli çark simgesine dokunun. Then choose _General_ → _Advanced_ → _Low-level settings_.
 
 ## Alt seviye ayarları
 
-Aşağıda Android için AdGuard VPN'de bulunan tüm alt seviye ayarları listeliyor ve bunların ne işe yaradığını açıklıyoruz. We once again urge you not to mess with these settings blindly even if you’ve read this guide. Treat it as a cheat sheet for when you know what you are doing but want to brush up on specifics.
+Aşağıda Android için AdGuard VPN'de bulunan tüm alt seviye ayarları listeliyor ve bunların ne işe yaradığını açıklıyoruz. Bu kılavuzu okumuş olsanız bile bu ayarlarla körü körüne oynamamanızı bir kez daha öneriyoruz. Bunu ne yaptığınızı bildiğiniz ancak ayrıntıları tazelemek istediğiniz zamanlar için bir kopya kağıdı olarak düşünün.
 
 ### AdGuard VPN protokolü
 

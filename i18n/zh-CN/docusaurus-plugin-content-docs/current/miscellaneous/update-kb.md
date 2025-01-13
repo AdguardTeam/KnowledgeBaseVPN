@@ -1,9 +1,9 @@
 ---
-title: '更新知识库'
+title: 更新知识库
 sidebar_position: 3
 ---
 
-本知识库的目标是为每个人提供有关各种 AdGuard VPN 相关主题的最新信息。 但是事情在不断变化，有时一篇文章不再反映当前状态——我们中没有那么多人关注每一点信息，并在新版本发布后及时更新应用程序。
+本知识库的目标是为每个人提供有关各种 AdGuard VPN 相关主题的最新信息。 But things constantly change, and sometimes an article doesn’t reflect the current state of things anymore — there are simply not so many of us to keep an eye on every single bit of information and update it accordingly when new versions are released.
 
 这就是我们将所有知识库内容都移至 [GitHub](https://github.com/AdguardTeam/KnowledgeBaseVPN) 的原因。现在，实际上任何人都可以通过建议对现有或新文章进行编辑或翻译。
 
@@ -15,7 +15,7 @@ sidebar_position: 3
 
 知识库网站是用 Docusaurus 2 建立的，这是一个现代静态网站生成器。 在提出修改或补充建议时，要考虑到所有文件必须符合平台的规则。 用户可以[通过此链接](https://docusaurus.io/docs/category/guides)阅读指南。
 
-您可以把这个知识库部署在您的电脑上，以概述您建议的变化。 Detailed instructions on how to do this can be found [in the README.md file](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README) on this Knowledge Base's GitHub page.
+您可以把这个知识库部署在您的电脑上，以概述您建议的变化。 Detailed instructions on how to do this can be found [in the README.md file](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README) on this Knowledge Base’s GitHub page.
 
 ## 翻译文章 {#translate-adguard}
 

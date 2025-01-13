@@ -101,7 +101,7 @@ Once logged in, you can use various commands to interact with your router’s Li
 
 In Keenetic models equipped with a USB port (except Keenetic 4G), you can use the OPKG package manager. It allows you to install third-party software packages to expand routers capabilities.
 
-Starting with version 3.7, for some Keenetic models, it is possible to write OPKG Entware to the [UBIFS](https://en.wikipedia.org/wiki/UBIFS) partition of the router's NAND flash memory, i.e. to the built-in memory of the router. Follow the steps below to install the Entware repository package system on a USB drive or in the router’s internal memory.
+Starting with version 3.7, for some Keenetic models, it is possible to write OPKG Entware to the [UBIFS](https://en.wikipedia.org/wiki/UBIFS) partition of the router’s NAND flash memory, i.e. to the built-in memory of the router. Follow the steps below to install the Entware repository package system on a USB drive or in the router’s internal memory.
 
 ### How to install OPKG Entware on a USB drive
 
@@ -131,7 +131,7 @@ Go to the `/opt` folder by typing `/cd opt` and run the AdGuard VPN CLI installa
 curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/release/install.sh | sh -s -- -v
 ```
 
-When asked “Would you like to link the binary to /usr/local/bin?“, reply `n` and run this line:
+When asked “Would you like to link the binary to `/usr/local/bin?`“, reply `n` and run this line:
 
 ```bash
 ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin

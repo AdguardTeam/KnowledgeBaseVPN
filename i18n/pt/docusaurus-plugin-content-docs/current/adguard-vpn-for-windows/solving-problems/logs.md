@@ -45,7 +45,7 @@ Sometimes our support team might ask you to send them trace logs. To do this, yo
 
 1. Export the recorded logs: **Support** → **Export logs and system info**.
 
-Don't worry if your log file is large. We need to know as many details as possible in order to fix your problem.
+Don’t worry if your log file is large. We need to know as many details as possible in order to fix your problem.
 
 ## Sending logs
 
@@ -55,7 +55,7 @@ To send logs to our support team, please follow the next steps:
 
     ![Report a bug *border](https://cdn.adtidy.org/content/kb/vpn/windows/logs/support_report.jpeg)
 
-1. In the form that opens, enter your email address and describe the error you found, including the time it occurred. If you can't reproduce the problem, be as specific as possible about when it last occurred.
+1. In the form that opens, enter your email address and describe the error you found, including the time it occurred. If you can’t reproduce the problem, be as specific as possible about when it last occurred.
 
     ![Report *border](https://cdn.adtidy.org/content/kb/vpn/windows/logs/report_bug.png)
 

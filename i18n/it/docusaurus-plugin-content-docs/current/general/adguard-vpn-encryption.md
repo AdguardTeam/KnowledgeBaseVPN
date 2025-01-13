@@ -1,11 +1,11 @@
 ---
-title: 'Che tipo di crittografia viene utilizzata in AdGuard VPN'
+title: Che tipo di crittografia viene utilizzata in AdGuard VPN
 sidebar_position: 7
 ---
 
 ## Introduzione
 
-La crittografia è la ragione per cui esiste la parola "privata" nel termine "Rete privata virtuale". A VPN creates a tunnel between your device and a VPN server, that encrypts and transmits your data securely to the open Internet. Il processo di crittografia, che consiste nel trasformare i dati in parole incomprensibili che non possono essere lette da chi li intercetta, è essenziale per qualsiasi servizio VPN.
+Encryption is the reason the word “private” exists in the term “Virtual Private Network”. A VPN creates a tunnel between your device and a VPN server, that encrypts and transmits your data securely to the open Internet. Il processo di crittografia, che consiste nel trasformare i dati in parole incomprensibili che non possono essere lette da chi li intercetta, è essenziale per qualsiasi servizio VPN.
 
 The AdGuard VPN protocol uses the most secure and fast encryption algorithm to date — AES-256. Scopri cos'è e perché è così buono.
 

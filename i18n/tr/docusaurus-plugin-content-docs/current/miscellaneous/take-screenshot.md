@@ -1,5 +1,5 @@
 ---
-title: 'Ekran görüntüsü nasıl alınır'
+title: Ekran görüntüsü nasıl alınır
 sidebar_position: 4
 ---
 
