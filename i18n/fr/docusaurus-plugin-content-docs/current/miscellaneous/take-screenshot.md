@@ -1,5 +1,5 @@
 ---
-title: 'Comment prendre une capture d''écran'
+title: Comment prendre une capture d'écran
 sidebar_position: 4
 ---
 

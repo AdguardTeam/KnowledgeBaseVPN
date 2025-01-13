@@ -5,7 +5,7 @@ sidebar_position: 2
 
 ## Požadavky na systém
 
-AdGuard VPN lze nainstalovat pouze na zařízení s **Microsoft Windows 11/10/8.1/8/7/Vista SP2 (pouze přes web)**.
+AdGuard VPN can only be installed on devices with **Microsoft Windows 11, 10, 8.1, 8, and Vista SP2 (web-based only)**.
 
 ## Instalace AdGuard VPN pro Windows
 

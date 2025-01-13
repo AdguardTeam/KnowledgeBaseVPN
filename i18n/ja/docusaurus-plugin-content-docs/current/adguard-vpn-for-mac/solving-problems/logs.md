@@ -1,5 +1,5 @@
 ---
-title: 'ログの収集・送信方法'
+title: ログの収集・送信方法
 sidebar_position: 1
 ---
 
@@ -13,7 +13,7 @@ If you encounter any problems while using AdGuard VPN for Mac, you can inform us
 
 2. 「**サポート**」（画面上側メニュー3つ目）→ 「**バグ・不具合を報告する**」をクリックします。
 
-3. フォームに、折り返し連絡用メールアドレスを入力し、問題についての概要、再現手順、発生時間などを記述してください。 問題を再現できない場合は、問題が最後に発生した日時をできるだけ正確に記述してください。
+3. フォームに、折り返し連絡用メールアドレスを入力し、問題についての概要、再現手順、発生時間などを記述してください。 If you can’t reproduce the problem, specify as accurately as possible when it last occurred.
 
 4. There is a check mark next to the **Send detailed system info**, which means that when you send a report, you also send logs.
 

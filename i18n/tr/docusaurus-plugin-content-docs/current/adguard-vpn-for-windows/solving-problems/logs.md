@@ -39,13 +39,13 @@ Bazen destek ekibimiz sizden izleme günlüklerini göndermenizi isteyebilir. Bu
 
 1. Konsolu açın (başlat paneline `cmd` yazın).
 
-1. Run the application with the command `C:\"Program Files (x86)"\AdGuardVpn\AdguardVpn.exe /trace` if you are using 64-bit Windows, and `C:\"Program Files"\AdGuardVpn\AdguardVpn.exe /trace` if you are using 32-bit.
+1. Uygulmayı 64 bit Windows kullanıyorsanız `C:\"Program Files (x86)"\AdGuardVpn\AdguardVpn.exe /trace` komutuyla ve 32 bit kullanıyorsanız `C:\"Program Files"\AdGuardVpn\AdguardVpn.exe /trace` komutuyla çalıştırın.
 
 1. Sorunu yeniden oluşturun. Sorunu yeniden oluşturduğunuz zamanı tam olarak not etmenizi önemle tavsiye ederiz: bu, destek ekibimizin ilgili günlük girdilerini bulmasına ve sorunu daha hızlı çözmesine yardımcı olur.
 
 1. Kaydedilen günlükleri dışa aktarın: **Destek** → **Günlükleri ve sistem bilgisini dışa aktar**.
 
-Günlük dosyanız büyükse endişelenmeyin. Sorununuzu çözebilmek için mümkün olduğunca çok ayrıntı bilmemiz gerekiyor.
+Don’t worry if your log file is large. Sorununuzu çözebilmek için mümkün olduğunca çok ayrıntı bilmemiz gerekiyor.
 
 ## Günlükleri gönderme
 
@@ -55,7 +55,7 @@ Günlükleri destek ekibimize göndermek için lütfen sonraki adımları izleyi
 
     ![Hata bildir *border](https://cdn.adtidy.org/content/kb/vpn/windows/logs/support_report.jpeg)
 
-1. Açılan forma e-posta adresinizi girin ve bulduğunuz hatayı, meydana geldiği zaman da dahil olmak üzere açıklayın. Sorunu yeniden oluşturamıyorsanız, en son ne zaman oluştuğuna dair olabildiğince açık olun.
+1. Açılan forma e-posta adresinizi girin ve bulduğunuz hatayı, meydana geldiği zaman da dahil olmak üzere açıklayın. If you can’t reproduce the problem, be as specific as possible about when it last occurred.
 
     ![Report *border](https://cdn.adtidy.org/content/kb/vpn/windows/logs/report_bug.png)
 

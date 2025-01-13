@@ -1,11 +1,11 @@
 ---
-title: 'Quel type de chiffrement est utilisé dans AdGuard VPN'
+title: Quel type de chiffrement est utilisé dans AdGuard VPN
 sidebar_position: 7
 ---
 
 ## Introduction
 
-Le chiffrement est la raison pour laquelle le mot "privé" existe dans le terme "réseau privé virtuel". A VPN creates a tunnel between your device and a VPN server, that encrypts and transmits your data securely to the open Internet. Le processus de chiffrement, c'est-à-dire transformer les données en charabia que personne qui les intercepte ne peut lire, est essentiel à tout service VPN.
+Encryption is the reason the word “private” exists in the term “Virtual Private Network”. A VPN creates a tunnel between your device and a VPN server, that encrypts and transmits your data securely to the open Internet. Le processus de chiffrement, c'est-à-dire transformer les données en charabia que personne qui les intercepte ne peut lire, est essentiel à tout service VPN.
 
 The AdGuard VPN protocol uses the most secure and fast encryption algorithm to date — AES-256. Apprenez ce que c'est et pourquoi c'est bien.
 

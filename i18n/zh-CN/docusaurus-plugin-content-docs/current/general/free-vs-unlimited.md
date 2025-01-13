@@ -1,5 +1,5 @@
 ---
-title: 'AdGuard VPN 无限版的优点'
+title: AdGuard VPN 无限版的优点
 sidebar_position: 5
 ---
 

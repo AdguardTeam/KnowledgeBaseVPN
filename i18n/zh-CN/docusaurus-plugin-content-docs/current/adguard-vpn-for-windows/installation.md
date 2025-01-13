@@ -5,7 +5,7 @@ sidebar_position: 2
 
 ## 系统需求
 
-AdGuard VPN can only be installed on devices with **Microsoft Windows 11/10/8.1/8/7/Vista SP2 (web-based only)**.
+AdGuard VPN can only be installed on devices with **Microsoft Windows 11, 10, 8.1, 8, and Vista SP2 (web-based only)**.
 
 ## AdGuard VPN Windows 版的安装
 
@@ -23,7 +23,7 @@ If you decide to remove AdGuard VPN from your computer, use one of three options
 
 ### Advanced uninstallation {#advanced}
 
-In case regular uninstall doesn't work for any reason, you can try to use an advanced method. First of all, you need to [download the uninstaller tool](https://cdn.adtidy.org/distr/windows/Uninstall_Utility.zip) created by our developers. Extract the archive to any folder on your PC, run the **Adguard.UninstallUtility.exe** file, and allow the app to make changes to your device. Then follow the instruction below:
+In case regular uninstall doesn’t work for any reason, you can try to use an advanced method. First of all, you need to [download the uninstaller tool](https://cdn.adtidy.org/distr/windows/Uninstall_Utility.zip) created by our developers. Extract the archive to any folder on your PC, run the **Adguard.UninstallUtility.exe** file, and allow the app to make changes to your device. Then follow the instruction below:
 
 1. Select *AdGuard VPN* and *Standard* uninstall type, then click *Uninstall*:
 

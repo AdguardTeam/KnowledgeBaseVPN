@@ -11,17 +11,17 @@ This error message appears if required permissions are not granted. Es kann vers
 
 - Deaktivieren Sie vorübergehend Ihre Antivirenprogramme. Some of them may interfere with the installation, depending on the restrictiveness of their settings.
 
-- Wählen Sie einen anderen Installationsordner. Es ist möglich, dass der aktuelle Installationsordner Zugriffsbeschränkungen hat. Stellen Sie außerdem sicher, dass Sie kein externes oder virtuelles Laufwerk usw. auswählen.
+- Wählen Sie einen anderen Installationsordner. Es ist möglich, dass der aktuelle Installationsordner Zugriffsbeschränkungen hat. Also make sure you don’t select an external drive, a virtual drive, etc.
 
 - Starten Sie Ihren Computer neu. Manchmal sind die Berechtigungsprobleme vorübergehend und können durch einen Neustart des PCs behoben werden.
 
 ### Fehler 112: Datenträger ist voll, Fehler 1632: Temporärer Ordner voll oder unzugänglich {#error-112}
 
-Es handelt sich um zwei verschiedene Fehler mit sehr ähnlichen Lösungen. Wie der Name schon sagt, hat das AdGuard VPN-Installationsprogramm nicht genügend Speicherplatz gefunden, um die Installation abzuschließen. Es gibt mehrere Möglichkeiten, das Problem zu beheben:
+Es handelt sich um zwei verschiedene Fehler mit sehr ähnlichen Lösungen. As their names suggest, AdGuard VPN installer didn’t find enough disk space to complete the installation. Es gibt mehrere Möglichkeiten, das Problem zu beheben:
 
 - Deinstallieren Sie einige Programme oder löschen Sie unnötige Dateien von dem Laufwerk, auf dem Sie AdGuard VPN installieren wollten.
 
-- Laden Sie [AdwCleaner](http://www.bleepingcomputer.com/download/adwcleaner/) herunter, installieren Sie es und führen Sie es aus, eine kostenlose Software von Malwarebytes. Es befreit Ihr System unter anderem von allen Arten zusätzlicher „übrig gebliebener“ Dateien, die nach der fehlerhaften Deinstallation von Programmen usw. zurückbleiben. Das wird helfen, etwas Speicherplatz freizumachen.
+- Laden Sie [AdwCleaner](http://www.bleepingcomputer.com/download/adwcleaner/) herunter, installieren Sie es und führen Sie es aus, eine kostenlose Software von Malwarebytes. It will, among other things, clean your system from all kinds of extra “leftover” files that remain after incorrectly uninstalled programs and such. Das wird helfen, etwas Speicherplatz freizumachen.
 
 - Starten Sie Ihren Computer neu. Manchmal können temporäre Dateien eine beträchtliche Menge an Speicherplatz beanspruchen, und ein Neustart Ihres PCs ist die zuverlässigste Methode, sie loszuwerden.
 
@@ -37,7 +37,7 @@ Man könnte sagen, dass dies eine besondere Unterart des Fehlers 1603 ist. Die m
     1. Press *Win + R*, type **msiexec /unregister** and hit *Enter*.
     1. Press *Win + R* again, type **msiexec /regserver** and hit *Enter*
 
-- Starten Sie den PC neu und beginnen Sie die Installation von vorne. Manchmal reicht das schon aus, um das Problem zu beheben.
+- Starten Sie den PC neu und beginnen Sie die Installation von vorne. Sometimes that’s enough to fix the problem.
 
 ### Fehler 1602: Vom Benutzer abgebrochen {#error-1602}
 
@@ -45,7 +45,7 @@ Wenn Sie diese Fehlermeldung erhalten, haben Sie den Installationsprozess wahrsc
 
 - Schließen Sie das Fenster des Installationsprogramms nicht. Wenn die Installation abgeschlossen ist, wird sie automatisch beendet.
 
-- Wenn während der Installation ein Dialogfenster erscheint, klicken Sie auf „Ja“, um dem Installationsprogramm die erforderlichen Berechtigungen zu erteilen. Wenn Sie auf „Nein“ klicken, wird die Installation abgebrochen.
+- If a dialogue window pops up during the installation, hit *Yes* to grant the installer the required permissions. Clicking *No* will cancel the installation.
 
 - Starten Sie keine anderen Prozesse, während die Installation ausgeführt wird.
 
@@ -55,7 +55,7 @@ This error sounds more worrying than it actually is. In Wirklichkeit handelt es 
 
 - Drücken Sie die Taste *Win*, suchen Sie nach *Eingabeaufforderung*, und führen Sie sie aus. Geben Sie dort `sfc /scannow` ein und drücken Sie *Enter*.
 
-- Wählen Sie einen anderen Installationsordner. Es ist möglich, dass der aktuelle Installationsordner Zugriffsbeschränkungen hat. Stellen Sie außerdem sicher, dass Sie kein externes oder virtuelles Laufwerk usw. auswählen.
+- Wählen Sie einen anderen Installationsordner. Es ist möglich, dass der aktuelle Installationsordner Zugriffsbeschränkungen hat. Also make sure you don’t select an external drive, a virtual drive, etc.
 
 - Uninstall AdGuard VPN using our special [uninstall tool](/adguard-vpn-for-windows/installation#advanced) and then repeat the installation.
 
@@ -67,7 +67,7 @@ This error sounds more worrying than it actually is. In Wirklichkeit handelt es 
     1. Press *Win + R*, type **msiexec /unregister** and hit *Enter*.
     1. Press *Win + R* again, type **msiexec /regserver** and hit *Enter*
 
-- Acquire full permissions on the drive for installation. It is possible that the error 1603 occurs because you don’t have full permissions on the file location. It's also not as easy as some of the other solutions:
+- Acquire full permissions on the drive for installation. It is possible that the error 1603 occurs because you don’t have full permissions on the file location. It’s also not as easy as some of the other solutions:
 
     1. Open *File Explorer*, right-click the drive containing the installation location, and select *Properties*.
     1. Go to *Security* tab and click *Edit*.
@@ -85,11 +85,11 @@ This error appears when trying to run multiple instances of the AdGuard VPN inst
 
 - Starten Sie Ihren PC neu und starten Sie das Installationsprogramm erneut. Wenn Sie den Computer neu starten, werden alle laufenden Prozesse angehalten, einschließlich aller Kopien des Installationsprogramms.
 
-- Don't click the installer multiple times, even if it doesn't seem to start right away. Manchmal kann es ein paar Sekunden dauern, bis die Benutzeroberfläche des Installationsprogramms angezeigt wird.
+- Don’t click the installer multiple times, even if it doesn’t seem to start right away. Manchmal kann es ein paar Sekunden dauern, bis die Benutzeroberfläche des Installationsprogramms angezeigt wird.
 
 ### Fehler 1638: Eine andere Version dieses Produkts ist bereits installiert {#error-1638}
 
-Es ist sehr wahrscheinlich, dass Sie AdGuard VPN schon einmal installiert haben.
+It’s very likely that you’ve already installed AdGuard VPN before.
 
 - Überprüfen Sie, ob AdGuard VPN bereits auf Ihrem Computer installiert ist. To do that, press the *Win* key and start typing *adguard vpn*.
 
@@ -97,7 +97,7 @@ Es ist sehr wahrscheinlich, dass Sie AdGuard VPN schon einmal installiert haben.
 
 ### Andere Fehler {#other}
 
-Wenn Sie auf einen Fehler gestoßen sind, der oben nicht aufgeführt ist, ist es möglich, dass wir ihn selbst lösen können. Dazu benötigen wir jedoch Protokolldateien von Ihnen. Bitte führen Sie die folgenden Schritte aus:
+If you have encountered an error that’s not listed above, it is possible that we can solve it by ourselves. Dazu benötigen wir jedoch Protokolldateien von Ihnen. Bitte führen Sie die folgenden Schritte aus:
 
 - Suchen und archivieren Sie **AdGuard VPN-Installationsprotokolle** auf dieselbe Weise wie in [diesem Artikel](https://adguard.com/kb/adguard-for-windows/solving-problems/installation-logs/) beschrieben.
 

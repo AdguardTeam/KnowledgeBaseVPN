@@ -1,5 +1,5 @@
 ---
-title: 'Come fare uno screenshot'
+title: Come fare uno screenshot
 sidebar_position: 4
 ---
 

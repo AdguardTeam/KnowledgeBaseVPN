@@ -12,9 +12,9 @@ VPN을 사용하면 인터넷의 다른 네트워크에 안전하게 연결할 �
 
 Initially, VPNs were created to securely connect business networks over the Internet, so that people could connect to the corporate network from home. Today, this technology is used for many other things: for example, to browse the Internet anonymously or to protect your online activity from prying eyes while using public Wi-Fi.
 
-A VPN connects a user's computer or mobile device to a server and allows one to browse the net using a "cover" IP address. 따라서 제3자는 사용자의 실제 IP 주소를 볼 수 없으므로 IP 주소를 추적하는 것이 거의 불가능합니다.
+A VPN connects a user’s computer or mobile device to a server and allows one to browse the net using a “cover” IP address. Thus, third-party observers cannot see the user’s real IP address, which makes it nearly impossible to trace them.
 
-The first thing that users mention in relation to VPN is traffic encryption and the security derived from it. 그러나 그것은 무엇을 의미합니까? AdGuard VPN은 사용자의 기기와 원격 서버 사이에 터널을 생성합니다. 모든 웹 트래픽은 이 터널을 통과하므로 데이터가 보호됩니다. 제3자의 경우, 트래픽이 VPN 서버를 나가므로 기기가 이 서버의 IP 주소를 가지고 있는 것처럼 보입니다. 이 트릭은 사용자의 신원과 실제 위치를 숨깁니다.
+The first thing that users mention in relation to VPN is traffic encryption and the security derived from it. 그러나 그것은 무엇을 의미합니까? A VPN creates an encrypted tunnel between the user’s device and the remote server. 모든 웹 트래픽은 이 터널을 통과하므로 데이터가 보호됩니다. 제3자의 경우, 트래픽이 VPN 서버를 나가므로 기기가 이 서버의 IP 주소를 가지고 있는 것처럼 보입니다. This trick masks the user’s identity and true location.
 
 VPN은 다음 용도로 사용할 수 있습니다.
 

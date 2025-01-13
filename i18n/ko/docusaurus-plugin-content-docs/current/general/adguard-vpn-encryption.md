@@ -1,11 +1,11 @@
 ---
-title: 'AdGuard VPN에서 사용되는 암호화 유형'
+title: AdGuard VPN에서 사용되는 암호화 유형
 sidebar_position: 7
 ---
 
 ## 소개
 
-암호화는 Virtual Private Network(VPN)라는 단어에 '개인'(Private)이라는 단어가 존재하는 이유입니다. A VPN creates a tunnel between your device and a VPN server, that encrypts and transmits your data securely to the open Internet. 암호화는 데이터를 가로채는 사람이 해독할 수 없는 형태로 변환하는 것으로, 암호화는 VPN 서비스에 필수적입니다.
+Encryption is the reason the word “private” exists in the term “Virtual Private Network”. A VPN creates a tunnel between your device and a VPN server, that encrypts and transmits your data securely to the open Internet. 암호화는 데이터를 가로채는 사람이 해독할 수 없는 형태로 변환하는 것으로, 암호화는 VPN 서비스에 필수적입니다.
 
 The AdGuard VPN protocol uses the most secure and fast encryption algorithm to date — AES-256. AES-256 알고리즘이 무엇인지, 어떤 장점이 있는지 알아보겠습니다.
 

@@ -25,7 +25,7 @@ Or you can use App Store’s search to find AdGuard VPN:
 
     ![App Store *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/app-store-en.png)
 
-1. 次に、検索バーで、 「*AdGuard*」と入力し始め、出てくる候補の中から「*adguard vpn*」を選択します。
+1. Next, in the search bar, start typing *AdGuard* and select *adguard vpn* from the list of suggested options.
 
     ![検索 *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/search-en.png)
 

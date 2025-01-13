@@ -74,5 +74,5 @@ VPN sunucu konumunu değiştirmek istiyorsanız yönlendirici ayarlarınızı g�
 ## AdGuard VPN ile uyumsuz olduğu bilinen yönlendiriciler
 
 - **ASUS**
-  - Only has IPsec in the _VPN Server_ settings, and not in the correct _VPN Fusion_/_VPN Client_ settings
+  - IPsec yalnızca _VPN Sunucusu_ ayarlarında bulunur ve doğru _VPN Fusion_/_VPN İstemcisi_ ayarlarında bulunmaz
 - **FRITZ!Box**
