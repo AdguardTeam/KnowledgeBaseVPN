@@ -30,10 +30,10 @@ An exclusion list is a list of apps or websites that AdGuard VPN excludes or inc
 Each VPN mode has two exclusion lists: one for apps and one for websites.
 In total, there are four exclusion lists:
 
-* App exclusion list [VPN active everywhere]
-* App exclusion list [VPN active selectively]
-* Website exclusion list [VPN active everywhere]
-* Website exclusion list [VPN active selectively]
+- App exclusion list [VPN active everywhere]
+- App exclusion list [VPN active selectively]
+- Website exclusion list [VPN active everywhere]
+- Website exclusion list [VPN active selectively]
 
 :::
 
@@ -47,13 +47,13 @@ AdGuard VPN is active everywhere except for apps and websites from the app and w
 
 VPN mode:
 
-* Active for all apps except app exclusions
-* Active for all websites except website exclusions
+- Active for all apps except app exclusions
+- Active for all websites except website exclusions
 
 Applied exclusion lists:
 
-* App exclusion list [VPN active everywhere]
-* Website exclusion list [VPN active everywhere]
+- App exclusion list [VPN active everywhere]
+- Website exclusion list [VPN active everywhere]
 
 This is the default VPN mode with maximum VPN protection. If you want to exclude a website or an app from AdGuard VPN, add them to the exclusion list.
 
@@ -73,13 +73,13 @@ AdGuard VPN is active only for the apps from the the app exclusion list, and for
 
 VPN mode:
 
-* Active only for apps from app exclusions
-* Active for all websites except website exclusions
+- Active only for apps from app exclusions
+- Active for all websites except website exclusions
 
 Applied exclusion lists:
 
-* App exclusion list [VPN active selectively]
-* Website exclusion list [VPN active everywhere]
+- App exclusion list [VPN active selectively]
+- Website exclusion list [VPN active everywhere]
 
 To switch to this mode, leave AdGuard VPN active for all websites and set it to be on only for the apps from the app exclusion list. This mode provides less VPN protection coverage because you need to add apps to the app exclusion list to ensure they are protected.
 
@@ -101,13 +101,13 @@ AdGuard VPN is active for all apps except those from the the app exclusion list,
 
 VPN mode:
 
-* Active for all apps except app exclusions
-* Active only for websites from website exclusions
+- Active for all apps except app exclusions
+- Active only for websites from website exclusions
 
 Applied exclusion lists:
 
-* App exclusion list [VPN active everywhere]
-* Website exclusion list [VPN active selectively]
+- App exclusion list [VPN active everywhere]
+- Website exclusion list [VPN active selectively]
 
 To switch to this mode, leave AdGuard VPN active for all apps and set it to be on only for the websites from the website exclusion list. To use an app, add its respective domain to the website exclusion list.
 
@@ -131,13 +131,13 @@ AdGuard VPN is active only for the apps and websites from the app and website ex
 
 VPN mode:
 
-* Active only for apps from app exclusions
-* Active only for websites from website exclusions
+- Active only for apps from app exclusions
+- Active only for websites from website exclusions
 
 Applied exclusion lists:
 
-* App exclusion list [VPN active selectively]
-* Website exclusion list [VPN active selectively]
+- App exclusion list [VPN active selectively]
+- Website exclusion list [VPN active selectively]
 
 You need to switch to this mode both for apps and websites. This mode provides the least VPN protection coverage.
 This mode requires your maximum attention to setting up your app and website exclusion lists.
