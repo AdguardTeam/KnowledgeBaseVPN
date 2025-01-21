@@ -165,7 +165,7 @@ curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/sc
     adguardvpn-cli connect
     ```
 
-    AdGuard VPN will choose the fastest available location and remember it for future quick connections.
+    AdGuard VPN will choose the fastest location available and remember it for future quick connections.
 
 1. Adjust your settings
 
@@ -209,7 +209,7 @@ You can do it in the web interface or in the command line. Steps below describe 
 
     This will show a config file with all zones listed. Look for a section like `firewall.@zone[1]` or similar where `option name 'wan'` is defined. The number `[1]` could be different depending on your configuration.
 
-    Run this SSH command, replace `zone[1]` with correct  'wan' zone identified before:
+    Run this SSH command, replace `zone[1]` with correct `wan` zone identified before:
 
     ```shell
     uci show firewall | grep "=zone"

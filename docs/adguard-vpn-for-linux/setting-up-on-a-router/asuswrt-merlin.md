@@ -223,7 +223,7 @@ modprobe tun
     adguardvpn-cli connect
     ```
 
-    AdGuard VPN will choose the fastest available location and remember it for future quick connections.
+    AdGuard VPN will choose the fastest location available and remember it for future quick connections.
 
     Enter `yes` when asked “Would you like to set default routes in TUN mode?”
 

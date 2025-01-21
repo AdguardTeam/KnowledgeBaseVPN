@@ -132,7 +132,7 @@ Here are the main options:
 
     :::note
 
-    o add many exclusions, you need to list them comma-separated.
+    To add many exclusions, you need to list them comma-separated.
 
     :::
 
