@@ -1,29 +1,29 @@
 ---
-title: Exclusions
+title: Исключения
 sidebar_position: 7
 ---
 
-The _Exclusions_ feature lets you decide which domains’ traffic should be excluded from VPN routing. This is handy when you don’t need VPN to work for some websites, because it saves you the hassle of constantly turning VPN on and off.
+Функция _Исключения_ позволяет вам выбирать, какой трафик доменов следует исключить из маршрутизации VPN. Это удобно, когда вам не нужен VPN для работы некоторых сайтов — не нужно постоянно включать и выключать VPN.
 
-Just like in AdGuard VPN for other platforms, in AdGuard VPN for Linux you can use Exclusions in two modes: General (VPN is enabled for all domains except for those in the list of exclusions) and Selective (VPN is enabled only for the domains in the list of exclusions).
+Как и в AdGuard VPN для других платформ, в AdGuard VPN для Linux вы можете использовать исключения в двух режимах: Общий (VPN включён для всех доменов, кроме тех, что в списке исключений) и Выборочный (VPN включён только для доменов из списка исключений).
 
 :::note
 
-Each mode has its own list of exclusions.
+У каждого режима свой список исключений.
 
 :::
 
-![Exclusions](https://cdn.adtidy.org/blog/new/m6pkdVPN-CLI-exclusions.png)
+![Исключения](https://cdn.adtidy.org/blog/new/m6pkdVPN-CLI-exclusions.png)
 
-### How to use
+### Как пользоваться
 
-To view all exclusion-related commands, type:
+Чтобы просмотреть все команды, связанные с исключениями, введите:
 
 ```
 adguardvpn-cli site-exclusions -h
 ```
 
-To add a domain to the exclusion list of the current mode, type:
+Чтобы добавить домен в список исключений текущего режима, введите:
 
 ```
 adguardvpn-cli site-exclusions add %domain_name%
@@ -31,43 +31,43 @@ adguardvpn-cli site-exclusions add %domain_name%
 
 :::tip
 
-Supported input formats: `domain.com`, `sub.domain.com`, `www.domain.com`. To add two or more exclusions at once, list them comma-separated. Use double quotes for wildcards: `"*.domain.com"`
+Поддерживаемые форматы ввода: `domain.com`, `sub.domain.com`, `www.domain.com`. Чтобы добавить два или более исключения одновременно, перечислите их через запятую. Используйте двойные кавычки для подстановочных знаков: `"*.domain.com"`
 
-Command example: `adguardvpn-cli site-exclusions add https://www.google.com/`
+Пример команды: `adguardvpn-cli site-exclusions add https://www.google.com/`
 
 :::
 
-To remove a domain from the list of exclusions, type:
+Чтобы удалить домен из списка исключений, введите:
 
 ```
 adguardvpn-cli site-exclusions remove %domain_name%
 ```
 
-To view the current exclusion list, type:
+Чтобы просмотреть текущий список исключений, введите:
 
 ```
 adguardvpn-cli site-exclusions show
 ```
 
-To remove all exclusions, type:
+Чтобы удалить все исключения, введите:
 
 ```
 adguardvpn-cli site-exclusions clear
 ```
 
-To change the Exclusions mode, type:
+Чтобы изменить режим исключений, введите:
 
 ```
 adguardvpn-cli site-exclusions mode %mode_name%
 ```
 
-(Or you can just check the current mode using `adguardvpn-cli site-exclusions mode`)
+(Или вы можете просто проверить текущий режим, используя `adguardvpn-cli site-exclusions mode`)
 
-where %mode_name% is `general` or `selective`.
+где %mode_name% — `general` или `selective`.
 
 :::note
 
-The commands listed above (`add`, `remove`, `show`, `clear`) are applied to the exclusion list of the current mode. To perform a command for a specific mode, add `--for-mode %mode_name% type`, for example:
+Команды, перечисленные выше (`add`, `remove`, `show`, `clear`), применяются к списку исключений текущего режима. Чтобы выполнить команду для конкретного режима, добавьте `--for-mode %mode_name% type`, например:
 
 ```
 adguardvpn-cli site-exclusions add %domain_name% --for-mode %mode_name%

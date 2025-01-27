@@ -57,12 +57,12 @@ adguardvpn-cli connect -l <location>
 adguardvpn-cli check-update
 ```
 
-## Check your subscription info
+## Проверьте информацию о вашей подписке
 
-To check your current subscription information and status, type:
+Чтобы проверить информацию о вашей текущей подписке и её статусе, введите:
 
 ```
 adguardvpn-cli license
 ```
 
-You will see your email and subscription type. Paid users will also see the expiration date of their subscription.
+Вы увидите свою почту и тип подписки. Платные пользователи также увидят дату окончания подписки.

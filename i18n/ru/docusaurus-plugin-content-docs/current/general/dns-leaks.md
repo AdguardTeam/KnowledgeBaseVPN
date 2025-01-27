@@ -3,19 +3,19 @@ title: Что такое DNS-утечка
 sidebar_position: 9
 ---
 
-Once you install a VPN, you want to be sure that there won’t be any leaks that will lead to your de-anonymization. AdGuard VPN надёжно защищает ваш трафик и данные от посторонних глаз. Тем не менее, в некоторых случаях вы можете заподозрить наличие утечек DNS в нашем VPN-сервисе. We’ll explain where these concerns come from and why they are unfounded.
+После установки VPN хочется быть уверенным, что не будет никаких утечек, которые приведут к деанонимизации. AdGuard VPN надёжно защищает ваш трафик и данные от посторонних глаз. Тем не менее, в некоторых случаях вы можете заподозрить наличие утечек DNS в нашем VPN-сервисе. Рассказываем, откуда берутся эти опасения и почему они беспочвенны.
 
 ## Что такое DNS-утечки?
 
 Когда вы используете VPN, подключение к DNS-серверу может выходить за пределы зашифрованного VPN-туннеля и ваш трафик может стать видимым для интернет-провайдера.
 
-In other words, every time you open a website, your browser sends a request to the ISP’s DNS server and in return receives the IP address of the requested website. Таким образом, ваш провайдер видит все ваши действия в интернете и может отслеживать вас.
+Другими словами, каждый раз, когда вы открываете сайт, ваш браузер посылает запрос на DNS-сервер провайдера и в ответ получает IP-адрес запрашиваемого сайта. Таким образом, ваш провайдер видит все ваши действия в интернете и может отслеживать вас.
 
 ## Как обнаружить DNS- утечку
 
 Существуют всевозможные сервисы проверки анонимности для обнаружения DNS-утечек, например, `whoer.net`. Алгоритмы этих сайтов не ясны, но их цель — напугать пользователей мнимыми утечками, чтобы потенциально продавать свои услуги.
 
-Some security scanning websites consider the coincidence of the user’s IP address and the DNS server’s IP address to be a “good” result, indicating that there are no leaks. В действительности такое совпадение может указывать на использование VPN. When VPN is disabled and the requests go to your ISP’s DNS server, the IP address of the DNS server and your own one do not coincide.
+Некоторые сайты, сканирующие безопасность, считают совпадение IP-адреса пользователя и IP-адреса DNS-сервера «хорошим» результатом, указывающим на отсутствие утечек. В действительности такое совпадение может указывать на использование VPN. Когда VPN отключён и запросы идут на DNS-сервер вашего провайдера, ваш IP-адрес и адрес DNS-сервера не совпадают.
 
 ## Почему в AdGuard VPN нет DNS-утечек
 
@@ -23,9 +23,9 @@ Some security scanning websites consider the coincidence of the user’s IP addr
 
 Использование нефильтрующего сервера AdGuard DNS настроено по умолчанию в AdGuard VPN. Благодаря этому ваши запросы не уходят на DNS-серверы интернет-провайдера, а значит, вы остаётесь анонимными, а ваши данные — защищёнными.
 
-What’s more, AdGuard DNS is a very popular DNS service, used by over 50 million people. Что это значит для вас? Представьте такую ситуацию: обычный VPN-сервис использует DNS-сервер, который находится на том же IP-адресе, что и VPN-сервер. Число его пользователей едва ли превышает 1000.
+Более того, AdGuard DNS — очень популярный DNS-сервис, которым пользуются более 50 миллионов человек. Что это значит для вас? Представьте такую ситуацию: обычный VPN-сервис использует DNS-сервер, который находится на том же IP-адресе, что и VPN-сервер. Число его пользователей едва ли превышает 1000.
 
-And in the case of AdGuard DNS you will “merge” with 50 million users so nobody will be able to track you by the mere fact of using that DNS server.
+А в случае AdGuard DNS вы «сольётесь» с 50 миллионами пользователей, и вас не смогут отследить просто по факту использования DNS-сервера.
 
 ## Как настроить пользовательский DNS-сервер в AdGuard VPN
 

@@ -51,23 +51,23 @@ IP-адрес по умолчанию для большинства роутер
 
 <!-- comment -->
 
-## 3. Use an SSH client to connect to the router
+## 3. Используйте SSH-клиент для подключения к роутеру
 
-You’ll need an SSH client. Most Linux and macOS systems come with an SSH client pre-installed. For Windows, you can use PowerShell, the built-in SSH client in Windows 10/11, or a third-party application like PuTTY.
+Вам понадобится SSH-клиент. Большинство систем на Linux и macOS поставляются с предустановленным SSH-клиентом. Для Windows вы можете использовать PowerShell, встроенный SSH-клиент в Windows 10/11 или стороннее приложение, например PuTTY.
 
-### Built-in SSH client (Linux, macOS, and Windows 10/11)
+### Встроенный SSH-клиент (для Linux, macOS и Windows 10/11)
 
-1. Open Terminal or PowerShell.
+1. Откройте Терминал или PowerShell.
 
-2. Run the SSH command:
+2. Выполните команду SSH:
 
    ```bash
    ssh admin@192.168.1.1
    ```
 
-   Replace `192.168.1.1` with your router’s IP address.
+   Замените `192.168.1.1` на IP-адрес вашего роутера.
 
-3. If this is your first time connecting to the router via SSH, you’ll see a message like this:
+3. Если вы впервые подключаетесь к роутеру через SSH, вы увидите такое сообщение:
 
    ```text
    The authenticity of host '192.168.1.1 (192.168.1.1)' can't be established.
@@ -75,75 +75,75 @@ You’ll need an SSH client. Most Linux and macOS systems come with an SSH clien
    Are you sure you want to continue connecting (yes/no/[fingerprint])?
    ```
 
-   Type `yes` and press Enter.
+   Введите `yes` и нажмите Enter.
 
-4. Enter the router’s password when prompted. The default username is `root` and the default password is `keenetic`.
+4. Введите пароль от роутера, когда появится соответствующий запрос. Имя пользователя по умолчанию — `root`, пароль — `keenetic`.
 
 <!-- comment -->
 
-### PuTTY (Windows 8 and earlier)
+### PuTTY (Windows 8 и более ранние версии)
 
-1. Download and install PuTTY from [the official website](https://www.putty.org/).
+1. Скачайте и установите PuTTY [с официального сайта](https://www.putty.org/).
 
-2. Open PuTTY.
+2. Откройте PuTTY.
 
-3. In the _Host Name (or IP address)_ field, enter your router’s IP address (e.g., `192.168.1.1`)
+3. В поле _Имя хоста (или IP-адрес)_ введите IP вашего роутера (например, `192.168.1.1`)
 
-4. Ensure the _Connection type_ is set to SSH.
+4. Убедитесь, что _Тип подключения_ установлен на SSH.
 
-5. Click _Open_.
+5. Нажмите _Открыть_.
 
-6. When the Terminal window opens, log in. The default username is `root` and the default password is `keenetic`.
+6. Когда откроется окно Терминала, войдите в систему. Имя пользователя по умолчанию — `root`, пароль — `keenetic`.
 
-Once logged in, you can use various commands to interact with your router’s Linux-based operating system.
+После входа в систему вы можете использовать различные команды для взаимодействия с операционной системой роутера на базе Linux.
 
-## 4. Install OPKG Entware
+## 4. Установите OPKG Entware
 
-In Keenetic models equipped with a USB port (except Keenetic 4G), you can use the OPKG package manager. It allows you to install third-party software packages to expand routers capabilities.
+В моделях Keenetic с USB-портом (кроме Keenetic 4G) можно использовать менеджер пакетов OPKG. Он позволяет устанавливать пакеты ПО сторонних производителей для расширения возможностей роутеров.
 
-Starting with version 3.7, for some Keenetic models, it is possible to write OPKG Entware to the [UBIFS](https://en.wikipedia.org/wiki/UBIFS) partition of the router’s NAND flash memory, i.e. to the built-in memory of the router. Follow the steps below to install the Entware repository package system on a USB drive or in the router’s internal memory.
+Начиная с версии 3.7, для некоторых моделей Keenetic появилась возможность записывать OPKG Entware в раздел [UBIFS](https://ru.wikipedia.org/wiki/UBIFS) NAND флеш-памяти роутера, то есть во встроенную память роутера. Чтобы установить систему пакетов репозитория Entware на USB-накопитель или во внутреннюю память роутера, выполните следующие действия.
 
-### How to install OPKG Entware on a USB drive
+### Как установить OPKG Entware на USB-накопитель
 
-It is possible to install OPKG packages on the Keenetic models with USB ports that support USB flash drives. These are: KN-1410, KN-1710/1711, KN-1010/1011, KN-2510, KN-2410, KN-1810, KN-1910, KN-2310, KN-2010, KN-2110, KN-2610, KN-2710.
+На модели Keenetic с портами USB, поддерживающими USB Flash-накопители, можно установить пакеты OPKG. К ним относятся: KN-1010/1011, KN-1410, KN-1710/1711, KN-1810, KN-1910, KN-2010, KN-2110, KN-2310, KN-2410, KN-2510, KN-2610, KN-2710.
 
-For detailed instructions, visit [the official Keenetic Wiki](https://help.keenetic.com/hc/en-us/articles/360021214160-Installing-the-Entware-repository-package-system-on-a-USB-drive).
+Подробные инструкции смотрите [на официальной странице Keenetic](https://help.keenetic.com/hc/ru/articles/360021214160-Установка-системы-пакетов-репозитория-Entware-на-USB-накопитель).
 
-### How to install OPKG Entware in the router’s internal memory
+### Как установить OPKG Entware во внутреннюю память роутера
 
-This method will work with the following models: KN-1010/1011, KN-1810/1811, KN-1910, KN-2010, KN-2110, KN-2310, KN-2410, KN-2510, KN-2610, KN-2710, KN-3810, KN-3610 with the KeeneticOS version 3.7 and later.
+Этот метод подходит для следующих моделей: KN-1010/1011, KN-1810/1811, KN-1910, KN-2010, KN-2110, KN-2310, KN-2410, KN-2510, KN-2610, KN-2710, KN-3810, KN-3610 с версией KeeneticOS 3.7 и выше.
 
-For detailed instructions, visit [the official Keenetic Wiki](https://help.keenetic.com/hc/en-us/articles/360021888880-Installing-OPKG-Entware-in-the-router-s-internal-memory).
+Подробные инструкции смотрите [на официальной странице Keenetic](https://help.keenetic.com/hc/ru/articles/360021888880-Установка-OPKG-Entware-на-встроенную-память-роутера).
 
-If your router doesn’t support installing packages on its internal memory, follow the instructions for installing packages on a USB drive.
+Если ваш роутер не поддерживает установку пакетов на внутреннюю память, следуйте инструкции по установке пакетов на USB-накопитель.
 
-## 5. Install AdGuard VPN CLI
+## 5. Установите AdGuard VPN
 
-In your SSH client, execute the following code to install the packages required for AdGuard VPN CLI:
+В SSH-клиенте выполните следующий код, чтобы установить пакеты, необходимые для AdGuard VPN CLI:
 
 ```bash
 opkg install curl sudo ca-certificates
 ```
 
-Go to the `/opt` folder by typing `/cd opt` and run the AdGuard VPN CLI installation script:
+Перейдите в папку `/opt`, набрав `/cd opt`, и запустите скрипт установки AdGuard VPN CLI:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/release/install.sh | sh -s -- -v
 ```
 
-When asked “Would you like to link the binary to `/usr/local/bin?`“, reply `n` and run this line:
+На вопрос Would you like to link the binary to `/usr/local/bin?` ответьте `n` и выполните следующую строку:
 
 ```bash
 ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
 ```
 
-## 6. Set up AdGuard VPN CLI
+## 6. Настройте AdGuard VPN CLI
 
-1. Log in to your account
+1. Войдите в аккаунт
 
-   To use AdGuard VPN for Linux, you need an AdGuard account. You can sign up or log in on our [website](https://auth.adguard.com/login.html) or in Terminal.
+   Чтобы использовать AdGuard VPN для Linux, вам понадобится аккаунт AdGuard. Вы можете зарегистрироваться или войти [на нашем сайте](https://auth.adguard.com/login.html) или в Терминале.
 
-   Before logging in, go to Terminal and make sure you are in the right shell interface. If you can see the following text:
+   Перед этим зайдите в Терминал и убедитесь, что вы находитесь в нужном интерфейсе оболочки. Если вы видите следующий текст:
 
    ```text
    KeeneticOS version 4.01.C.7.0-1, copyright (c) 2010-2024 Keenetic Ltd.
@@ -151,13 +151,13 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
    THIS SOFTWARE IS A SUBJECT OF KEENETIC LIMITED END-USER LICENCE AGREEMENT. BY USING IT YOU AGREE ON TERMS AND CONDITIONS HEREOF. FOR MORE INFORMATION PLEASE CHECK https://keenetic.com/legal
    ```
 
-   Run this command to exit into the shell needed for the next steps:
+   Выполните эту команду, чтобы выйти в оболочку, необходимую для следующих шагов:
 
    ```bash
    exec sh
    ```
 
-   If you see the following text, you can continue the setup:
+   Если вы видите следующий текст, вы можете продолжить настройку:
 
    ```bash
    BusyBox v1.36.1 (2024-08-08 16:11:23 UTC) built-in shell (ash)
@@ -165,76 +165,76 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
    / #
    ```
 
-   To sign up or log in, type:
+   Чтобы зарегистрироваться или войти, введите:
 
    ```bash
    adguardvpn-cli login
    ```
 
-2. Connect to VPN
+2. Подключитесь к VPN
 
-   For Keenetic routers, be sure to import the SSL certificate and select a folder for the user directory by running this command before connecting:
+   Для роутеров Keenetic обязательно импортируйте SSL-сертификат и выберите папку для пользовательского каталога, выполнив следующую команду перед подключением:
 
    ```bash
    export SSL_CERT_FILE=/opt/etc/ssl/certs/ca-certificates.crt
    export HOME=/opt/home/admin
    ```
 
-   This must be done before each session.
+   Это необходимо делать перед каждым сеансом.
 
-   Select a VPN server location that best suits your needs.
+   Выберите локацию VPN-сервера, которая лучше всего соответствует вашим потребностям.
 
-   In general, the closer the server is to you, the faster the connection.
+   Как правило, чем ближе к вам сервер, тем быстрее соединение.
 
-   To view available locations, type:
+   Чтобы посмотреть доступные локации, введите:
 
    ```bash
    adguardvpn-cli list-locations
    ```
 
-   To connect to a specific location, type:
+   Чтобы подключиться к определённой локации, введите:
 
    ```bash
    adguardvpn-cli connect -l LOCATION_NAME
    ```
 
-   Replace `LOCATION_NAME` with the city, country, or ISO code of the location you want to connect to.
+   Замените `LOCATION_NAME` на город, страну или ISO-код локации на английском, к которой хотите подключиться.
 
-   For quick connect, type:
+   Для быстрого подключения введите:
 
    ```bash
    adguardvpn-cli connect
    ```
 
-   AdGuard VPN will choose the location with the lowest ping and remember it for future quick connections.
+   AdGuard VPN выберет локацию с наименьшим пингом и запомнит её для будущих быстрых подключений.
 
-3. Adjust your settings
+3. Отрегулируйте настройки
 
-   Get a list of all available AdGuard VPN commands and customize the VPN client to your needs.
+   Получите список всех доступных команд AdGuard VPN и настройте VPN-клиент под свои нужды.
 
-   To view all commands, type:
+   Чтобы просмотреть все команды, введите:
 
    ```bash
    adguardvpn-cli --help-all
    ```
 
-4. Enter `yes` when asked “Would you like to set default routes in TUN mode?”
+4. Введите `yes` на вопрос Would you like to set default routes in TUN mode?
 
-AdGuard VPN CLI will create a tun0 interface for VPN tunneling.
+AdGuard VPN CLI создаст интерфейс tun0 для VPN-туннелирования.
 
-## 7. Set up firewall rules
+## 7. Настройте правила фаервола
 
-This step is designed to configure firewall rules on a Keenetic router to route traffic through AdGuard VPN.
+Этот шаг предназначен для настройки правил фаервола на роутере Keenetic для маршрутизации трафика через AdGuard VPN.
 
-1. **Install `iptables` by running this command via SSH:**
+1. **Установите `iptables`, выполнив эту команду через SSH:**
 
    ```bash
    opkg install iptables
    ```
 
-   This line installs the `iptables` package, which is a tool for managing network packet filtering rules on Linux systems.
+   Эта строка устанавливает пакет `iptables` — инструмент для управления правилами фильтрации сетевых пакетов в системах Linux.
 
-2. **Create a new shell script by running the following command:**
+2. **Создайте новый скрипт оболочки, выполнив следующую команду:**
 
    ```bash
 
@@ -251,23 +251,23 @@ This step is designed to configure firewall rules on a Keenetic router to route 
    EOF
    ```
 
-   And make it executable:
+   И сделайте её исполняемой:
 
    ```bash
    chmod +x /opt/etc/ndm/netfilter.d/001-adguardvpn.sh
    ```
 
-   If you have more brX interfaces, make sure to include them in the script as well to route their traffic. Alternatively, make sure to specify a different routing rule for those interfaces.
+   Если у вас больше интерфейсов brX, обязательно включите их в скрипт для маршрутизации их трафика. Или укажите другое правило маршрутизации для этих интерфейсов.
 
-This will create a new shell script named `001-adguardvpn.sh` in the `/opt/etc/ndm/netfilter.d/` directory, which is where network-related scripts are typically stored on a Keenetic router.
+Это создаст новый скрипт оболочки с именем `001-adguardvpn.sh` в каталоге `/opt/etc/ndm/netfilter.d/`, где на роутере Keenetic обычно хранятся скрипты, связанные с сетью.
 
-The script creates a custom firewall rule to ensure that traffic from your LAN (`br0`) is routed through the AdGuard VPN interface (`tun0`). It first cleans up any previous rules related to this configuration, then sets up new rules to direct the traffic appropriately.
+Скрипт создаёт пользовательское правило фаервола, чтобы гарантировать, что трафик из вашей локальной сети (`br0`) будет направляться через интерфейс AdGuard VPN (`tun0`). Сначала он очищает все предыдущие правила, связанные с этой конфигурацией, а затем настраивает новые правила для правильной маршрутизации трафика.
 
-## 8. Set up automatic launch for AdGuard VPN CLI
+## 8. Настройте автоматический запуск AdGuard VPN CLI
 
-The following script is designed to automatically establish a VPN connection using AdGuard VPN on your Keenetic router when the WAN interface becomes available (e.g., after a reboot or reconnecting to the Internet).
+Следующий скрипт предназначен для автоматического создания VPN-соединения с помощью AdGuard VPN на роутере Keenetic, когда WAN-интерфейс становится доступным (например, после перезагрузки или повторного подключения к интернету).
 
-Run the following command:
+Выполните следующую команду:
 
 ```bash
 cat << E0F > /opt/etc/ndm/wan.d/001-adguardvpn.sh
@@ -279,16 +279,16 @@ exit 0
 E0F
 ```
 
-And make it executable:
+И сделайте её исполняемой:
 
 ```bash
 chmod +x /opt/etc/ndm/wan.d/001-adguardvpn.sh
 ```
 
-The script named `001-adguardvpn.sh` will be saved to `/opt/etc/ndm/wan.d/`.
+Скрипт с именем `001-adguardvpn.sh` будет сохранён в `/opt/etc/ndm/wan.d/`.
 
-It will start AdGuard VPN when Internet is connected.
+Он запустит AdGuard VPN при подключении к интернету.
 
-Reboot your router to finish setup.
+Перезагрузите роутер, чтобы завершить настройку.
 
-Congrats! Now you have a router secured with AdGuard VPN.
+Готово! Теперь у вас есть роутер, защищённый с помощью AdGuard VPN.

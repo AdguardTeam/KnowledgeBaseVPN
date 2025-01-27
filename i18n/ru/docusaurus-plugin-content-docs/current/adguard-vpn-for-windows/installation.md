@@ -5,7 +5,7 @@ sidebar_position: 2
 
 ## Системные требования
 
-AdGuard VPN can only be installed on devices with **Microsoft Windows 11, 10, 8.1, 8, and Vista SP2 (web-based only)**.
+AdGuard VPN может быть установлен только на устройствах с **Microsoft Windows 11/10/8.1/8/Vista SP2 (только веб-версия)**.
 
 ## Установка AdGuard VPN для Windows
 
@@ -23,7 +23,7 @@ AdGuard VPN can only be installed on devices with **Microsoft Windows 11, 10, 8.
 
 ### Продвинутое удаление {#advanced}
 
-In case regular uninstall doesn’t work for any reason, you can try to use an advanced method. Прежде всего, вам нужно [загрузить инструмент удаления](https://cdn.adtidy.org/distr/windows/Uninstall_Utility.zip), созданный нашими разработчиками. Распакуйте скачанный архив в любую папку на компьютере, запустите файл **AdGuard_Uninstall_Utility.exe** и разрешите приложению вносить изменения на вашем устройстве. Затем следуйте инструкции ниже:
+Если по какой-либо причине обычное удаление не работает, вы можете попробовать продвинутый способ. Прежде всего, вам нужно [загрузить инструмент удаления](https://cdn.adtidy.org/distr/windows/Uninstall_Utility.zip), созданный нашими разработчиками. Распакуйте скачанный архив в любую папку на компьютере, запустите файл **AdGuard_Uninstall_Utility.exe** и разрешите приложению вносить изменения на вашем устройстве. Затем следуйте инструкции ниже:
 
 1. Выберите *AdGuard VPN* и *Стандартный* тип удаления, затем нажмите *Удалить*:
 
@@ -57,20 +57,20 @@ In case regular uninstall doesn’t work for any reason, you can try to use an a
 
 AdGuard VPN успешно удалён
 
-#### Running the uninstaller in console mode
+#### Запуск инструмента удаления в консольном режиме
 
-Besides running the advanced uninstaller in its user-interactive mode, you can also use command-line arguments to uninstall AdGuard VPN for Windows. To do this, follow the instructions below:
+Вы также можете использовать командную строку, чтобы запустить программу удаления AdGuard VPN для Windows. Для этого следуйте инструкциям ниже:
 
-1. Open Command Prompt by typing *cmd* from the Start menu.
-2. Use `/console` to run the uninstaller in console mode, without the interactive UI. All the command-line parameters below will be ignored if the `/console` mode is not activated.
-3. Use `/vpn` to uninstall AdGuard for Windows. It should look like this:
+1. Откройте командную строку, введя *cmd* в меню Пуск.
+2. Используйте `/console`, чтобы запустить программу удаления в консольном режиме, без интерактивного интерфейса. Все параметры командной строки ниже будут игнорироваться, если режим `/console` не активирован.
+3. Используйте `/vpn`, чтобы удалить AdGuard для Windows. Команда должна выглядеть следующим образом:
 
    `Adguard.UninstallUtility.exe /console /vpn`
 
-4. You can also use `/advanced` to force the uninstaller to run in *Advanced mode* and `/settings` to force the uninstaller to remove user settings along with the application.
+4. Вы также можете использовать `/advanced`, чтобы принудительно запустить программу удаления в *Расширенном режиме* и `/settings` и принудительно удалить пользовательские настройки вместе с приложением.
 
 :::note
 
-The use of the parameters `/console` and `/vpn` is necessary for a successful uninstall. The parameters `/advanced` and `/settings` are optional.
+Для успешного удаления необходимо использовать параметры `/console` и `/vpn`. Параметры `/advanced` и `/settings` являются необязательными.
 
 :::

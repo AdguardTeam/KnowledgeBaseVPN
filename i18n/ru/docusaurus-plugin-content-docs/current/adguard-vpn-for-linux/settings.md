@@ -144,46 +144,46 @@ adguardvpn-cli config set-debug-logging on
 
 Отключите эту настройку после экспорта логов.
 
-## Show notificatoins
+## Показать уведомления
 
-The setting is responsible for the appearance of system notifications when AdGuard VPN is turned on/off or waiting for reconnection, for example:
+Настройка отвечает за появление системных уведомлений при включении/выключении AdGuard VPN или ожидании переподключения, например:
 
-- A user turns VPN on — the _VPN connected_ notification appears.
-- A user turns VPN off — the _VPN disconnected_ notification appears.
-- A user is waiting for the VPN connection to be recovered — the _Waiting for connection_ notification appears.
+- Пользователь включает VPN — уведомление _VPN подключён_ появляется.
+- Пользователь отключает VPN — появляется уведомление _VPN отключён_.
+- Пользователь ждёт, когда VPN-соединение будет восстановлено — появляется уведомление _Ожидание соединения_.
 
   adguardvpn-cli config set-show-notifications on
 
-## Exclusions
+## Исключения
 
-There are two modes. In _General_ mode, websites from the list of exclusions are not routed through VPN. In _Selective_ mode, only websites from the list of exclusions are routed through VPN. There is a separate list of exclusions for each mode.
+Есть два режима. В режиме _Общий_ сайты из списка исключений не маршрутизируются через VPN. В _Выборочном_ режиме только сайты из списка исключений маршрутизируются через VPN. Для каждого режима существует отдельный список исключений.
 
-To read about what you can do with exclusions, write this in the command-line interface: `adguardvpn-cli site-exclusions -h`.
+Чтобы узнать, что можно сделать с исключениями, напишите в интерфейсе командной строки: `adguardvpn-cli site-exclusions -h`.
 
-Here are the main options:
+Вот основные варианты:
 
-1. **add** adds specified exclusions
+1. **add** добавляет указанные исключения
 
-   Example: `adguardvpn-cli site-exclusions add`, where `%DOMAIN_NAME%` is the website that you want to add to exclusions.
+   Пример: `adguardvpn-cli site-exclusions add`, где `%DOMAIN_NAME%` — это сайт, который вы хотите добавить в исключения.
 
    :::note
 
-   o add many exclusions, you need to list them comma-separated.
+   Чтобы добавить много исключений, перечислите их через запятую.
 
    :::
 
-2. **clear** clears the list of exclusions in the current mode
+2. **clear** очищает список исключений в текущем режиме
 
-   Example: `adguardvpn-cli site-exclusions clear`
+   Пример: `adguardvpn-cli site-exclusions clear`
 
-3. **mode** shows the current mode and allows to switch between them
+3. **mode** показывает текущий режим и позволяет переключаться между ними
 
-   Example: `adguardvpn-cli site-exclusions mode selective` (with this command, Selective mode is chosen)
+   Пример: `adguardvpn-cli site-exclusions mode selective` (с помощью этой команды включается Выборочный режим)
 
-4. **remove** removes one or more exclusions (if separated by commas)
+4. **remove** удаляет одно или несколько исключений (если они разделены запятыми)
 
-   Example: `adguardvpn-cli site-exclusions remove %DOMAIN_NAME%` where `%DOMAIN_NAME%` is the website that you want to remove from exclusions.
+   Пример: `adguardvpn-cli site-exclusions remove %DOMAIN_NAME%`, где `%DOMAIN_NAME%` — это сайт, который вы хотите добавить в исключения.
 
-5. **show** shows the current list of exclusions
+5. **show** показывает текущий список исключений
 
-   Example: `adguardvpn-cli site-exclusions show`
+   Пример: `adguardvpn-cli site-exclusions show`

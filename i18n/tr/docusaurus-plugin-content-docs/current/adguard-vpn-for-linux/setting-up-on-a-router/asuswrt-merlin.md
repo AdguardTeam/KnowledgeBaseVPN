@@ -224,7 +224,7 @@ modprobe tun
    adguardvpn-cli connect
    ```
 
-   AdGuard VPN, mevcut en hızlı konumu seçer ve gelecekteki hızlı bağlantılar için bunu hatırlar.
+   AdGuard VPN will choose the fastest location available and remember it for future quick connections.
 
    "TUN modunda varsayılan yönlendirmeleri ayarlamak ister misiniz?" diye sorulduğunda `evet` girin
 
