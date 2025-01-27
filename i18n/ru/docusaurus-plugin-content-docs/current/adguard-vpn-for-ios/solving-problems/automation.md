@@ -8,44 +8,44 @@ sidebar_label: Как автоматизировать работу AdGuard VPN
 
 ## Настройка автоматического подключения к VPN
 
-Если вам нужен VPN для одного или нескольких приложений, настройте автоматическое включение и выключение AdGuard VPN при их открытии и закрытии. Here is how to create an automation for that.
+Если вам нужен VPN для одного или нескольких приложений, настройте автоматическое включение и выключение AdGuard VPN при их открытии и закрытии. Откройте вкладку Исключения, выберите Основной режим и следуйте инструкциям.
 
-1. Download [the *Shortcuts* app](https://apps.apple.com/us/app/shortcuts/id915249334) from the App Store and go to the *Automation* section by tapping the clock icon at the bottom of the screen.
+1. Скачайте из App Store [приложение *Быстрые команды*](https://apps.apple.com/us/app/shortcuts/id915249334) и перейдите в раздел *Автоматизация*, нажав на иконку с изображением часов внизу экрана.
 
-1. Tap *New Automation* or + (if you already have another automation). In the *Personal Automation* list that opens, scroll to find *App* and tap it.
+1. Нажмите *Новая автоматизация* или + (если у вас уже есть другая автоматизация). Прокрутите список *Автоматизация для себя*, чтобы найти *Приложение*, и нажмите на него.
 
-    ![New Automation](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/newautomation.png)
+    ![Новая автоматизация](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/newautomation.png)
 
-1. Select the *Is Opened* checkbox, select *Run Immediately* (if you don’t want to confirm the VPN launch manually), and leave the slider next to the *Ask before running* option to the inactive position.
+1. Выберите флажок *Открыто*, выберите *Немедленный запуск* (если вы не хотите подтверждать запуск VPN вручную) и оставьте ползунок рядом с параметром *Уведомлять о запуске* в неактивном положении.
 
-    ![Is Opened](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/isopened.png)
+    ![Открыто](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/isopened.png)
 
-1. Tap *Choose* next to the *App*, select the app you’re setting up the VPN for, tap *Done* and *Next*.
+1. Нажмите *Выбор* рядом с *Приложением*, выберите приложение, для которого вы настраиваете VPN, нажмите *Готово* и *Далее*.
 
-    ![App](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/app.png)
+    ![Приложение](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/app.png)
 
-1. Tap *New Blank Automation* in *Get Started*, find AdGuard VPN, tap *Set VPN connection*, select *Turn VPN connection On*, and tap *Done*.
+1. Нажмите *Новая автоматизация* в *Начало работы*, найдите AdGuard VPN, нажмите *Настроить VPN-соединение*, выберите *Включить VPN-соединение* и нажмите *Готово*.
 
-    ![Blank Automation](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/blankautomation.png) ![Set VPN connection](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/setvpnconnection.png) ![Turn VPN connection On](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/turnvpnconnectionon.png)
+    ![Новая автоматизация](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/blankautomation.png) ![Настроить VPN-соединение](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/setvpnconnection.png) ![Включить VPN-соединение](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/turnvpnconnectionon.png)
 
-Now AdGuard VPN will be automatically enabled when you open the app you’ve set up automation for. If you’d like to, you can create another command that will make AdGuard VPN automatically turn off when you close the app.
+Теперь AdGuard VPN будет автоматически включаться при открытии приложения, для которого вы настроили автоматизацию. Если хотите, вы можете создать ещё одну команду, чтобы AdGuard VPN автоматически отключался при закрытии приложения.
 
 ## Настройка автоматического отключения от VPN
 
-1. In the same *Shortcuts* app start creating a new automation: tap +, scroll and tap *App* in the list.
+1. В том же приложении *Команды* начните создавать новую автоматизацию: нажмите +, прокрутите и нажмите *Приложение* в списке.
 
-    ![Plus](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/plus.png)
+    ![Плюс](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/plus.png)
 
-1. Select the *Is Closed* checkbox, select *Run Immediately*, and leave the slider next to the *Ask before running* option to the inactive position.
+1. Выберите флажок *Закрыто*, выберите *Немедленный запуск* и оставьте ползунок рядом с параметром *Уведомлять о запуске* в неактивном положении.
 
-    ![Is Closed](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/isclosed.png)
+    ![Закрыто](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/isclosed.png)
 
-1. Tap *Choose* next to the *App*, select the app you’re setting up the VPN for (in our example, it’s Instagram), tap *Done* and *Next*.
+1. Нажмите *Выбор* рядом с *Приложением*, выберите приложение, для которого вы настраиваете VPN (в нашем примере это Instagram), нажмите *Готово* и *Далее*.
 
-1. Tap *New Blank Automation* in *Get Started*, find AdGuard VPN, tap *Set VPN connection*, select *Turn VPN connection Off*, and tap *Done*.
+1. Нажмите *Новая автоматизация* в *Начало работы*, найдите AdGuard VPN, нажмите *Настроить VPN-соединение*, выберите *Выключить VPN-соединение* и нажмите *Готово*.
 
-    ![Turn VPN connection Off](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/turnvpnconnectionoff.png)
+    ![Выключить VPN-соединение](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/turnvpnconnectionoff.png)
 
-Done! AdGuard VPN will now be disabled on your device every time you close the app you’ve set up automation for. You can repeat the same steps for any other app.
+Готово! Теперь AdGuard VPN будет отключаться на вашем устройстве каждый раз, когда вы будете закрывать приложение, для которого настроили автоматизацию. Все те же шаги вы можете повторить для любого другого приложения.
 
-![Done](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/done.png)
+![Готово](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/done.png)

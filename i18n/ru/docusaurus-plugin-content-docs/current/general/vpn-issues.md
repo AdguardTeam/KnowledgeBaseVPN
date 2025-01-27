@@ -49,4 +49,4 @@ sidebar_position: 10
 
 - Если у вас проблемы с подключением, не включайте *Использовать QUIC* *в Расширенных настройках*.
 
-If all else fails, don’t hesitate to reach out to our support team at <support@adguard-vpn.com> for further assistance.
+Если ничего не помогает, не стесняйтесь обращаться за помощью в поддержку по адресу <support@adguard-vpn.com>.

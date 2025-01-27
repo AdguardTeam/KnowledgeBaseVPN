@@ -168,7 +168,7 @@ Ayar, AdGuard VPN açıldığında/kapatıldığında veya yeniden bağlanmayı 
 
    :::note
 
-   Çok sayıda istisna eklemek için bunları virgülle ayırarak listelemeniz gerekir.
+   To add many exclusions, you need to list them comma-separated.
 
    :::
 

@@ -46,6 +46,6 @@ Now AdGuard VPN will be automatically enabled when you open the app you’ve set
 
     ![Turn VPN connection Off](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/turnvpnconnectionoff.png)
 
-Done! AdGuard VPN will now be disabled on your device every time you close the app you’ve set up automation for. You can repeat the same steps for any other app.
+Tamamlandı! AdGuard VPN will now be disabled on your device every time you close the app you’ve set up automation for. Başka bir uygulama için aynı adımları tekrarlayabilirsiniz.
 
 ![Done](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/done.png)

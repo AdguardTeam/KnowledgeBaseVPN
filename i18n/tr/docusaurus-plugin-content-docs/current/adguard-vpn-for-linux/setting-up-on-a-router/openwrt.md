@@ -165,7 +165,7 @@ curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/sc
    adguardvpn-cli connect
    ```
 
-   AdGuard VPN, mevcut en hızlı konumu seçer ve gelecekteki hızlı bağlantılar için bunu hatırlar.
+   AdGuard VPN will choose the fastest location available and remember it for future quick connections.
 
 3. Ayarlarınızı düzenleyin
 
@@ -209,7 +209,7 @@ Bunu web arayüzünden veya komut satırından yapabilirsiniz. Aşağıdaki adı
 
    Bu, tüm bölgelerin listelendiği bir yapılandırma dosyası gönderir. `firewall.@zone[1]` veya benzeri bir bölümde `option name 'wan'` tanımlı olanı arayın. Yapılandırmanıza bağlı olarak `[1]` sayısı farklı olabilir.
 
-   Run this SSH command, replace `zone[1]` with correct  'wan' zone identified before:
+   Run this SSH command, replace `zone[1]` with correct `wan` zone identified before:
 
    ```shell
    uci show firewall | grep "=zone"

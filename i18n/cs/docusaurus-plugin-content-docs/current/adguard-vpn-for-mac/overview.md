@@ -15,7 +15,7 @@ AdGuard VPN pro macOS je v současné době podporována ve verzích macOS poč�
 
 ## Domovská obrazovka
 
-![Home screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/vpn_main_new_en.jpeg)
+![Home screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/saved_locations.png)
 
 První karta je *Domovská* obrazovka. Zde můžete vidět aktuální stav AdGuard VPN, vybrané umístění (pokud je povoleno) a jeho ping. Ping je doba odezvy serveru VPN. Čím nižší číslo, tím rychlejší připojení. Pokud je VPN vypnuta, zobrazí se níže poslední umístění, ke kterému jste se připojili.
 
@@ -26,6 +26,14 @@ Nejrychlejší umístění s nejnižší hodnotou ping jsou zobrazena v pravém 
 Uživatelé bezplatné verze se mohou připojit pouze k určitým umístěním, zatímco jiná jsou blokována. Kromě toho je v bezplatné verzi omezen měsíční datový provoz na 3 GB.
 
 :::
+
+### Uložená umístění
+
+Na stejné kartě si můžete uložit oblíbená umístění, abyste k nim měli rychlý přístup.
+
+Stačí najet na umístění, kliknout na ikonu záložky, která se zobrazí, a umístění se uloží. Označená umístění se pak zobrazí na kartě *Uložené*.
+
+![Saved locations](https://cdn.adtidy.org/content/release_notes/vpn/mac/v2.5/Saved_locs_EN_2.png)
 
 ## Výjimky
 
