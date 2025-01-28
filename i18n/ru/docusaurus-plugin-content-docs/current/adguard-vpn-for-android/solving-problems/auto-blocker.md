@@ -1,23 +1,23 @@
 ---
-title: How to disable the Samsung Auto Blocker feature
+title: Как отключить функцию Автоблокировка на Samsung
 sidebar_position: 7
 ---
 
-Starting with One UI 6.1.1 (Android 14), Samsung introduced a security enhancement called _Auto Blocker_, which is enabled by default on the latest Galaxy smartphones. This feature automatically blocks sideloaded apps from unverified sources unless the user manually overrides the setting.
+Начиная с One UI 6.1.1 (Android 14), компания Samsung представила улучшение безопасности под названием _Автоблокировка_. Эта функция включена по умолчанию на последних смартфонах Galaxy. Эта функция автоматически блокирует приложения, загружаемые из сторонних источников, если пользователь вручную не изменит настройки.
 
-You can download AdGuard VPN for Android from Google Play or install it on your device manually. However, with the new _Auto Blocker_ feature enabled, some users may experience problems when installing AdGuard VPN APK files. To address this issue, we’ve provided a step-by-step guide on how to disable _Auto Blocker_ below.
+Вы можете скачать AdGuard VPN для Android из Google Play или установить его на своём устройстве вручную. С включённой новой функцией _Автоблокировка_ некоторые пользователи могут столкнуться с проблемами при установке APK-файлов AdGuard VPN. Чтобы решить эту проблему, ниже мы предоставили пошаговое руководство по отключению _Автоблокировки_.
 
-## How to disable Auto Blocker
+## Как отключить Автоблокировку
 
-Follow the instructions to turn off _Auto Blocker_.
+Следуйте инструкциям, чтобы отключить _Автоблокировку_.
 
-1. Open your device settings
-2. Go to _Security and privacy_
-3. Scroll down and select _Auto Blocker_
-4. Toggle the setting off
+1. Откройте настройки устройства
+2. Перейдите в _Безопасность и конфиденциальность_
+3. Прокрутите вниз и выберите _Автоблокировка_
+4. Отключите настройку
 
-![Disable Auto Blocker \*mobile\_border](https://cdn.adtidy.org/content/kb/ad_blocker/android/solving_problems/auto-blocker/auto_blocker_en.png)
+![Отключить Автоблокировку \*mobile\_border](https://cdn.adtidy.org/content/kb/ad_blocker/android/solving_problems/auto-blocker/auto_blocker_en.png)
 
-Once _Auto Blocker_ is disabled, you can proceed with installing AdGuard VPN.
+После отключения _Автоблокировки_ вы можете продолжить установку AdGuard VPN.
 
-![Tap Install \*mobile\_border](https://cdn.adtidy.org/content/kb/vpn/android/install_en.png)
+![Нажмите Установить \*mobile\_border](https://cdn.adtidy.org/content/kb/vpn/android/install_en.png)

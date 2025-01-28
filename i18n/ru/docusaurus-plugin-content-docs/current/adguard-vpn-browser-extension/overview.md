@@ -3,7 +3,7 @@ title: Обзор функций
 sidebar_position: 1
 ---
 
-Браузерное расширение AdGuard VPN доступно для Chrome, Firefox, Opera и Edge. The UI and functionality doesn’t differ between browsers so the overview below will be relevant for AdGuard VPN extensions for all browsers.
+Браузерное расширение AdGuard VPN доступно для Chrome, Firefox, Opera и Edge. Пользовательский интерфейс и функциональность не отличаются в разных браузерах, поэтому приведённый ниже обзор будет актуален для расширений AdGuard VPN для всех браузеров.
 
 :::note
 
@@ -13,14 +13,14 @@ sidebar_position: 1
 
 Чтобы управлять настройками Браузерного расширения AdGuard VPN, сделайте следующее:
 
-- Either click its icon on the browser’s panel, click the hamburger menu icon, and select *Settings*,
+- Кликните по его иконке на панели браузера, затем по гамбургер-меню и выберите *Настройки*
 - Или перейдите на страницу *Управлять расширениями* в вашем браузере, нажмите *Подробнее* под *AdGuard VPN* и меняйте его настройки там.
 
-Once done, you’ll see several tabs on the left:
+После этого вы увидите несколько вкладок слева:
 
 ## Настройки
 
-Здесь собрано несколько важных настроек. Here you can choose a DNS server to use, add or remove the AdGuard VPN icon from the browser’s context menu, block WebRTC, change the extension’s theme, and allow AdGuard to gather anonymous crash reports and technical data.
+Здесь собрано несколько важных настроек. Вы можете выбрать DNS-сервер, добавить или удалить иконку AdGuard VPN из контекстного меню браузера, заблокировать WebRTC, изменить тему расширения, а также позволить AdGuard собирать анонимные отчёты о сбоях и технические данные.
 
 ### Выбор DNS-сервера
 
@@ -32,7 +32,7 @@ Once done, you’ll see several tabs on the left:
 
 Следующая вкладка содержит одну из главных отличительных особенностей AdGuard VPN — два режима с отдельными списками исключений.
 
-In **General mode**, AdGuard VPN by default works on all websites, with the exception of the websites you’ve added to the exclusions list. In **Selective mode**, vice versa, AdGuard VPN by default doesn’t work anywhere. You can add any websites where you’d like it to work to an exclusions list, separate from the one you saw in the **General mode**.
+**В Основном режиме** AdGuard VPN по умолчанию работает на всех сайтах, кроме добавленных в список исключений. **В Выборочном режиме**, наоборот, AdGuard VPN по умолчанию не работает нигде. Вы можете добавить в отдельный от **Обычного режима** список исключений те сайты, на которых AdGuard VPN будет работать.
 
 При добавлении сайта в список исключений вы можете ввести сайт вручную или выбрать опцию **Из списка**. В последнем случае вы увидите восемь категорий (например, *Шопинг* или *Мессенджеры* и т. д.), каждая из которых предлагает несколько популярных сервисов. Вы можете исключить любой из этих сервисов в один клик. Это добавит в исключения все домены, относящиеся к этому конкретному сервису.
 
@@ -40,10 +40,10 @@ In **General mode**, AdGuard VPN by default works on all websites, with the exce
 
 Вы можете не только добавлять и удалять сайты, но и переносить готовые списки исключений на другие устройства, на которых установлен AdGuard VPN. Чтобы экспортировать списки исключений, следуйте инструкции:
 
-1. Откройте расширение AdGuard VPN, из которого вы хотите экспортировать списки исключений. Find the appropriate section and click the *Export* button. Будет загружен архив исключений `exclusions.zip`.
+1. Откройте расширение AdGuard VPN, из которого вы хотите экспортировать списки исключений. Найдите соответствующий раздел и нажмите кнопку *Экспортировать*. Будет загружен архив исключений `exclusions.zip`.
 1. Внутри архива находятся два файла `.txt`, по одному для каждого из списков — Основного и Выборочного. Добавляйте к ним дополнительные исключения, удаляйте существующие, переименовывайте файлы или просто оставьте архив как есть.
 1. При переносе списков между различными устройствами отправьте файл `.zip` на устройство для импорта.
-1. Откройте на этом устройстве AdGuard VPN. Find the appropriate section, click the *Import* button and select the archive. Готово!
+1. Откройте на этом устройстве AdGuard VPN. Найдите соответствующий раздел, нажмите кнопку *Импортировать* и выберите архив. Готово!
 
 ## Аккаунт
 
@@ -51,8 +51,8 @@ In **General mode**, AdGuard VPN by default works on all websites, with the exce
 
 ## Поддержка
 
-You can find answers to common questions in the FAQ section, or leave feedback: report a bug if something isn’t working as it should, suggest adding a new feature, or discuss AdGuard on any of the many social media platforms.
+Вы можете найти ответы на общие вопросы в разделе FAQ или оставить отзыв: сообщить об ошибке, если что-то работает не так, предложить новую функцию или обсудить AdGuard в любой из социальных сетей.
 
 ## О программе
 
-Another minor tab, where you can check the extension’s version, visit the official website, and view the EULA or Privacy policy.
+Ещё одна небольшая вкладка, в которой вы можете проверить версию расширения, посетить официальный сайт и просмотреть Лицензионное соглашение или Политику конфиденциальности.

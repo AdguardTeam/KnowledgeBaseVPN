@@ -15,7 +15,7 @@ AdGuard VPN za Mac je trenutno podržan na macOS verzijama počev od macOS Catal
 
 ## Početni ekran
 
-![Home screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/vpn_main_new_en.jpeg)
+![Home screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/saved_locations.png)
 
 Prva kartica je *Početni* Ekran. Here you can see the current status of AdGuard VPN, the selected location (if enabled) and its ping. Ping je vreme odziva VPN servera. The lower the number, the faster the connection. If VPN is disabled, the last location you connected to is displayed at the bottom.
 
@@ -27,17 +27,25 @@ Korisnici besplatne verzije mogu da se povežu samo sa određenim lokacijama, do
 
 :::
 
+### Saved locations
+
+On the same tab, you can save your favorite locations to access them quickly.
+
+Just hover over a location, click the bookmark icon that appears, and it will be saved. Your marked locations will then show up in the *Saved* tab.
+
+![Saved locations](https://cdn.adtidy.org/content/release_notes/vpn/mac/v2.5/Saved_locs_EN_2.png)
+
 ## Izuzeci
 
-![Izuzeci](https://cdn.adguardvpn.com/content/kb/vpn/mac/exclusions_new_en.png)
+![Exclusions](https://cdn.adguardvpn.com/content/kb/vpn/mac/exclusions_new_en.png)
 
 AdGuard VPN has several features that make it unique, and one of them is definitely *Exclusions*. By default, AdGuard VPN will run on all websites and in all apps but the ones from the exclusions list. But you can switch to the other mode, so AdGuard VPN will run only on websites and in apps from the exclusions list.
 
-![Ekran "Izuzetaka"](https://cdn.adguardvpn.com/content/kb/vpn/mac/services_new_en.png)
+![Exclusions screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/services_new_en.png)
 
-Takođe, ne samo da možete da dodate Veb lokacije u "Izuzetke", već i da birate između lista popularnih usluga. Liste su podeljene u osam kategorija: društvene mreže, aplikacije za dopisivanje, video i muzički striming servisi, Igre, Kupovina, Pretraživači i Alatke za komunikaciju na poslu. Bilo koja od ovih usluga može biti dodata u "Isključenja" jednim klikom! It’s especially convenient if you use Selective mode.
+Also you can not only add websites to Exclusions but also choose among the lists of popular services. The lists are divided into eight categories: Social networks, Messengers, Video and Music streaming services, Games, Shopping, Search engines, and Work communication tools. Any of these services can be added to Exclusions in one click! It’s especially convenient if you use Selective mode.
 
-Lista izuzetaka se može lako konfigurisati. If you’ve added a domain and some of its subdomains, they’ll be grouped inside the root one. Prilikom dodavanja osnovnog domena (`example.com`) dodaje se i njena maska (`*.example.com`).
+Exclusion list can be easily configured. If you’ve added a domain and some of its subdomains, they’ll be grouped inside the root one. When adding a root domain (`example.com`) its mask is added too (`*.example.com`).
 
 :::info Browsers added to Exclusions
 
@@ -50,7 +58,7 @@ Starting with the version 2.4, all browsers are automatically added to the list 
 
 If you’ve added a service, changed or removed something and now want to recover initial settings, just press *Reset to default* next to the domain — this action will restore any missing domains and tick all checkboxes.
 
-Štaviše, gotove liste izuzetaka mogu se preneti na druge uređaje sa instaliranim AdGuard VPN-om. Da biste izvezli izuzetke, sledite dole navedena uputstva u četiri koraka:
+What’s more, ready-made exclusions lists can be transferred to other devices with installed AdGuard VPN. To export exclusions, follow the four-step instruction below:
 
 1. Otvorite AdGuard VPN na uređaju sa kojeg želite da izvezete liste izuzetaka. Pronađite odgovarajući odeljak i kliknite na *Izvoz* Dugme. `exclusions.zip` arhiva će biti preuzeta.
 2. Ima dve `..txt` datoteke unutar arhive, svaka za opšte i selektivne liste. Dodajte im još izuzetaka, izbrišite postojeće, preimenujte datoteke (ali više o ovome kasnije) ili jednostavno ostavite arhivu sa datotekama.
@@ -73,42 +81,42 @@ Importantly, all data is stored locally on your device, so no one but you has ac
 
 ## Podrška
 
-![Ekran podrške](https://cdn.adguardvpn.com/content/kb/vpn/mac/support_new_en.png)
+![Support screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/support_new_en.png)
 
-The fourth tab is the *Support* screen. Find answers to any questions in the [FAQ](https://adguard-vpn.com/welcome.html#faq) or in the [Knowledge base](/) sections, report a bug if you encounter one, or [discuss AdGuard on any of the platforms](https://adguard.com/discuss.html). I slobodno [ostavite povratne informacije o našem proizvodu](https://surveys.adguard.com/vpn_mac/form.html)Cenili bismo to.
+The fourth tab is the *Support* screen. Find answers to any questions in the [FAQ](https://adguard-vpn.com/welcome.html#faq) or in the [Knowledge base](/) sections, report a bug if you encounter one, or [discuss AdGuard on any of the platforms](https://adguard.com/discuss.html). And feel free to [leave feedback about our product](https://surveys.adguard.com/vpn_mac/form.html), we’d appreciate it.
 
 ## Postavke
 
-![Postavke](https://cdn.adguardvpn.com/content/kb/vpn/mac/settings_new_en.png)
+![Settings](https://cdn.adguardvpn.com/content/kb/vpn/mac/settings_new_en.png)
 
-Konačno, dolazimo na karticu "Postavke". In the *About program* section you can see the current version of AdGuard VPN, check for updates, visit our official website, and get acquainted with AdGuard’s EULA and Privacy policy. U *Osnovni podaci o licenci* možete da izvršite nadogradnju sa besplatnog na neograničeno, upravljate pretplatom ili da se odjavite. I što je najvažnije, odavde možete pristupiti *Opštim postavkama*.
+Finally, we come to the Settings tab. In the *About program* section you can see the current version of AdGuard VPN, check for updates, visit our official website, and get acquainted with AdGuard’s EULA and Privacy policy. In the *About license* section you can upgrade from free to unlimited, manage your subscription, or log out. And most importantly, from here you can access *General settings*.
 
-### Postavke aplikacije
+### App settings
 
-![Postavke aplikacije](https://cdn.adguardvpn.com/content/kb/vpn/mac/general-settings_new_en.png)
+![App settings](https://cdn.adguardvpn.com/content/kb/vpn/mac/general-settings_new_en.png)
 
-Prve četiri osnovne funkcije čine aplikaciju pogodnijim i prilagođenijim korisniku, pa naime. *Prekidač za ubijanje*, *Automatsko ažuriranje*, *Pokrenite AdGuard VPN pri uključivanju*I *Automatsko povezivanje pri pokretanju aplikacije*. Šta više, možete da birate između svetlih, tamnih i sistemskih tema – ova druga se podudara sa temom na vašem Mac računaru.
+The first four basic features make the application more convenient and user-friendly, i.e. *Kill Switch*, *Auto-update*, *Launch AdGuard VPN at login*, and *Auto-connect on app launch*. What’s more, you can choose between light, dark, and system themes — the latter one matches the theme on your Mac.
 
-You can also allow AdGuard VPN to gather and send anonymized crash reports, technical and interaction data in order to help us improve our app. Last but not least, you can export logs from your Mac. Ovo može biti korisno ako želite da priložite evidencije u vašu poruku koju šaljete podršci.
+You can also allow AdGuard VPN to gather and send anonymized crash reports, technical and interaction data in order to help us improve our app. Last but not least, you can export logs from your Mac. This can be useful if you want to attach logs to your message to support.
 
-### DNS serveri
+### DNS servers
 
-![DNS serveri](https://cdn.adguardvpn.com/content/kb/vpn/mac/dns_new_en.png)
+![DNS servers](https://cdn.adguardvpn.com/content/kb/vpn/mac/dns_new_en.png)
 
 One or more DNS servers can be set up here. This is useful if you don’t want to rely on the default DNS server provided by your ISP. Select one from the list of popular DNS services or add a custom server manually. We recommend adding AdGuard DNS, which not only encrypts your DNS traffic, but also identifies requests to malicious websites and redirects them to a “black hole”.
 
-### Napredne postavke
+### Advanced settings
 
-![Napredne postavke](https://cdn.adguardvpn.com/content/kb/vpn/mac/advanced-settings_new_en.png)
+![Advanced settings](https://cdn.adguardvpn.com/content/kb/vpn/mac/advanced-settings_new_en.png)
 
 #### Nivo vođenja evidencije
 
-Postoje samo dva nivoa vođenja evidencije, ali preporučujemo da koristite prvi, podrazumevani. Drugu opciju (produženo evidentiranje) treba postaviti samo da bi se zabeležilo čudno ponašanje programa nakon konsultacija sa našom tehničkom podrškom. If you have enabled the extended logging level, make sure to switch to the default one after recording logs.
+There are only two logging levels but we strongly recommend that you use the first, default one. The second option (extended logging) should be set only to record a strange program behavior after consulting our technical support. If you have enabled the extended logging level, make sure to switch to the default one after recording logs.
 
 #### Sakrij ikonu trake sa menijima
 
-Iako se ova opcija nalazi u *naprednim postavkama*, može se omogućiti bez oklevanja. Možete da sakrijete ikonu AdGuard VPN sa trake sa menijima, to neće sprečiti pokretanje naše aplikacije u pozadini.
+Although this option is located in *Advanced settings*, it can be enabled without hesitation. You can hide the AdGuard VPN icon from the menu bar, it won’t prevent our app from running in the background.
 
 #### Use QUIC
 
-QUIC komunikacioni protokol je najnovija, najsavremenija verzija HTTP-a. Uključite prekidač da biste dobili bolji kvalitet veze u manje idealnim uslovima, dok koristite mobilne podatke u metrou ili liftu, na primer.
+QUIC communication protocol is the latest, cutting-edge version of HTTP. Toggle the switch to get a better connection quality in less-than-ideal conditions, while using mobile data in the subway or elevator, for instance.

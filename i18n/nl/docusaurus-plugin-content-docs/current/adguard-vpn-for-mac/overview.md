@@ -15,7 +15,7 @@ AdGuard VPN for Mac is currently supported on macOS versions starting from macOS
 
 ## Home screen
 
-![Home screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/vpn_main_new_en.jpeg)
+![Home screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/saved_locations.png)
 
 The first tab is the *Home* screen. Here you can see the current status of AdGuard VPN, the selected location (if enabled) and its ping. Ping is the response time of a VPN server. The lower the number, the faster the connection. If VPN is disabled, the last location you connected to is displayed at the bottom.
 
@@ -27,9 +27,17 @@ Free users can connect only to certain locations, while others are blocked. Besi
 
 :::
 
+### Saved locations
+
+On the same tab, you can save your favorite locations to access them quickly.
+
+Just hover over a location, click the bookmark icon that appears, and it will be saved. Your marked locations will then show up in the *Saved* tab.
+
+![Saved locations](https://cdn.adtidy.org/content/release_notes/vpn/mac/v2.5/Saved_locs_EN_2.png)
+
 ## Exclusions
 
-![Uitsluitingen](https://cdn.adguardvpn.com/content/kb/vpn/mac/exclusions_new_en.png)
+![Exclusions](https://cdn.adguardvpn.com/content/kb/vpn/mac/exclusions_new_en.png)
 
 AdGuard VPN has several features that make it unique, and one of them is definitely *Exclusions*. By default, AdGuard VPN will run on all websites and in all apps but the ones from the exclusions list. But you can switch to the other mode, so AdGuard VPN will run only on websites and in apps from the exclusions list.
 

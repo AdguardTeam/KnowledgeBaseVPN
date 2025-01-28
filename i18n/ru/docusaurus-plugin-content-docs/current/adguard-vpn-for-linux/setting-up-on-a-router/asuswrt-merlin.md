@@ -43,41 +43,41 @@ IP-адрес по умолчанию для большинства роутер
 
 <!-- comment -->
 
-## 2. Make sure SSH and JFFS custom scripts are enabled on the router
+## 2. Убедитесь, что на роутере включены пользовательские скрипты SSH и JFFS
 
-First, make sure that SSH access is enabled on your router. This setting is usually found in the router’s web interface. JFFS custom scripts will be used to set routing rules.
+Сначала убедитесь, что на вашем роутере включён доступ к SSH. Эта настройка обычно находится в веб-интерфейсе роутера. Для установки правил маршрутизации будут использоваться пользовательские скрипты JFFS.
 
-1. Log in to the web interface. This is usually accessible via a web browser at [`http://192.168.1.1`](http://192.168.1.1/). Otherwise, replace [`192.168.1.1`](http://192.168.1.1/) with your router’s IP address.
+1. Войдите в веб-интерфейс. Как правило, он доступен через веб-браузер по адресу [`http://192.168.1.1`](http://192.168.1.1/). В противном случае замените [`192.168.1.1`](http://192.168.1.1/) на IP-адрес вашего роутера.
 
-2. Scroll down to _Advanced settings_, _Administration_ → _System_.
+2. Прокрутите вниз до _Дополнительных настроек_, _Администрирование_ → _Система_.
 
-3. Scroll to _Service_, click _Enable SSH_ → _LAN_.
+3. Перейдите к разделу _Сервис_, нажмите _Включить SSH_ → _LAN_.
 
-4. Select _22_ in _Port_ and _Yes_ in _Allow Password Login_.
+4. Выберите _22_ в _Порт_ и _Да_ в _Разрешить вход по паролю_.
 
-5. Go up to _Persistent JFFS2 partition_ and enable _JFFS custom scripts and configs_.
+5. Перейдите к разделу _Постоянный раздел JFFS2_ и включите _Настраиваемые скрипты и конфигурации JFFS_.
 
-6. Click _Apply_ at the bottom of the page.
+6. Нажмите _Применить_ внизу страницы.
 
 <!-- comment -->
 
-## 3. Use an SSH client to connect to the router
+## 3. Используйте SSH-клиент для подключения к роутеру
 
-You’ll need an SSH client. Most Linux and macOS systems come with an SSH client pre-installed. For Windows, you can use PowerShell, the built-in SSH client in Windows 10/11, or a third-party application like PuTTY.
+Вам понадобится SSH-клиент. Большинство систем на Linux и macOS поставляются с предустановленным SSH-клиентом. Для Windows вы можете использовать PowerShell, встроенный SSH-клиент в Windows 10/11 или стороннее приложение, например PuTTY.
 
-### Built-in SSH client (Linux, macOS, and Windows 10/11)
+### Встроенный SSH-клиент (для Linux, macOS и Windows 10/11)
 
-1. Open Terminal or PowerShell.
+1. Откройте Терминал или PowerShell.
 
-2. Run the SSH command:
+2. Выполните команду SSH:
 
    ```bash
    ssh admin@192.168.1.1
    ```
 
-   Replace `192.168.1.1` with your router’s IP address and `admin` with your admin username.
+   Замените `192.168.1.1` на IP-адрес вашего роутера и `admin` — на имя пользователя администратора.
 
-3. If this is your first time connecting to the router via SSH, you’ll see a message like this:
+3. Если вы впервые подключаетесь к роутеру через SSH, вы увидите такое сообщение:
 
    ```text
    The authenticity of host '192.168.1.1 (192.168.1.1)' can't be established.
@@ -85,98 +85,98 @@ You’ll need an SSH client. Most Linux and macOS systems come with an SSH clien
    Are you sure you want to continue connecting (yes/no/[fingerprint])?
    ```
 
-   Type `yes` and press Enter.
+   Введите `yes` и нажмите Enter.
 
-4. Enter the router’s password when prompted. The SSH login username and password are the same as the admin credentials.
-
-<!-- comment -->
-
-### PuTTY (Windows below 10)
-
-1. Download and install PuTTY from [the official website](https://www.putty.org/).
-2. Open PuTTY.
-3. In the _Host Name (or IP address)_ field, enter your router’s IP address (e.g., `192.168.1.1`).
-4. Make sure the _Connection type_ is set to SSH.
-5. Click _Open_.
-6. When the Terminal window opens, enter the router’s credentials. The SSH login username and password are the same as the admin credentials.
+4. Введите пароль от роутера, когда появится соответствующий запрос. Имя пользователя и пароль SSH совпадают с учётными данными администратора.
 
 <!-- comment -->
 
-## 4. Install Entware using SSH
+### PuTTY (Windows ниже 10)
 
-Once logged into your SSH client, you can use various commands to interact with your router’s Linux-based operating system. To proceed, you will need to install Entware OPKG Manager. It allows you to install third-party software packages to expand router capabilities. Skip to the next step if you already have it installed.
+1. Скачайте и установите PuTTY [с официального сайта](https://www.putty.org/).
+2. Откройте PuTTY.
+3. В поле _Имя хоста (или IP-адрес)_ введите IP вашего роутера (например, `192.168.1.1`).
+4. Убедитесь, что для параметра _Тип соединения_ установлено значение SSH.
+5. Нажмите _Открыть_.
+6. Когда откроется окно Терминала, введите учётные данные роутера. Имя пользователя и пароль SSH совпадают с учётными данными администратора.
 
-Note that you cannot use both Optware (outdated alternative) and Entware at the same time.
+<!-- comment -->
 
-The Asus DownloadMaster is based on Optware, and therefore is not compatible with Entware. You will have to uninstall DownloadMaster and look at the alternatives provided by Entware.
+## 4. Установите Entware с помощью SSH
 
-After uninstalling, make sure that `asusware.arm` or `asusware.*` dir on the mounted disk partition is deleted. Otherwise, Entware won’t work properly. After uninstalling DownloadMaster, make sure the router is rebooted.
+После входа в SSH-клиент вы можете использовать различные команды для взаимодействия с операционной системой роутера на базе Linux. Чтобы продолжить, вам нужно установить Entware OPKG Manager. Он позволяет устанавливать пакеты ПО сторонних производителей для расширения возможностей роутера. Перейдите к следующему шагу, если он уже установлен.
 
-You will need to plug a USB disk that’s formatted in a native Linux file system (ext2, ext3 or ext4). To format a disk, use amtm. Plug a USB disk into your router, then start amtm with:
+Обратите внимание, что вы не можете одновременно использовать Optware (устаревшую альтернативу) и Entware.
+
+Asus DownloadMaster основан на Optware и поэтому не совместим с Entware. Вам придётся удалить DownloadMaster и рассмотреть альтернативы, предлагаемые Entware.
+
+После удаления убедитесь, что каталог `asusware.arm` или `asusware.*` на подключённом разделе диска удалён. В противном случае Entware не будет работать должным образом. После удаления DownloadMaster убедитесь, что роутер перезагружен.
+
+Вам потребуется подключить USB-диск, отформатированный в файловой системе Linux (ext2, ext3 или ext4). Чтобы отформатировать диск, используйте amtm. Вставьте USB-диск в роутер, затем запустите amtm с помощью:
 
 ```bash
 amtm
 ```
 
-Use this option to format a disk and mount it to router:
+Используйте эту опцию, чтобы отформатировать диск и подключить его к роутеру:
 
 ```bash
 fd
 ```
 
-Go through the formatting process and select the recommended options. All files from the USB disk will be deleted. For this setup to work, USB disk should always stay connected.
+Пройдите процесс форматирования и выберите рекомендуемые варианты. Все файлы с USB-диска будут удалены. Чтобы эта настройка работала, USB-диск должен быть всегда подключён.
 
-After mounting your USB, the router will reboot. To start the installation process, first reconnect to your router over SSH.
+После подключения USB-накопителя роутер перезагрузится. Чтобы начать установку, сначала повторно подключитесь к роутеру по SSH.
 
-Then launch the amtm application by simply running:
+Затем запустите приложение amtm, просто выполнив:
 
 ```bash
 amtm
 ```
 
-The menu will offer you the option `ep` to initiate the Entware installation.
+В меню появится опция `ep` для начала установки Entware.
 
-If you are running a firmware version older than 384.15 (or 384.13_4 for the RT-AC87U and RT-AC3200), then you start the installation by running the following command instead.
+Если вы используете версию прошивки старше 384.15 (или 384.13_4 для RT-AC87U и RT-AC3200), то вы можете начать установку, выполнив следующую команду.
 
 ```bash
 entware-setup.sh
 ```
 
-If the entware-setup.sh script is not found, download and run the following script to install Entware:
+Если скрипт entware-setup.sh не найден, загрузите и запустите следующий скрипт для установки Entware:
 
 ```bash
 wget -O - http://bin.entware.net/armv7sf-k3.2/installer/generic.sh | sh
 ```
 
-Exit amtm by pressing `e`.
+Выйдите из amtm, нажав `e`.
 
-## 5. Install AdGuard VPN CLI
+## 5. Установите AdGuard VPN
 
-Update the package lists:
+Обновите списки пакетов:
 
 ```bash
 opkg update
 ```
 
-Install required packages:
+Установите необходимые пакеты:
 
 ```bash
 opkg install curl ca-certificates
 ```
 
-Go to /opt folder by running `cd /opt`  and run the AdGuardVPN CLI installation script:
+Перейдите в папку /opt, выполнив `cd /opt`, и запустите скрипт установки AdGuard VPN CLI:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/release/install.sh | sh -s -- -v
 ```
 
-When asked “Would you like to link the binary to `/usr/local/bin?`“, reply `y`. If failed to link the binary, run this line:
+На вопрос Would you like to link the binary to `/usr/local/bin?` ответьте `y`. Если вам не удалось связать двоичный файл, выполните эту строку:
 
 ```bash
 ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
 ```
 
-Import the SSL certificate and the tun module and set an alternative folder for the user directory. By default, it will be stored in /tmp and you’ll lose your settings after a reboot. Run this before each new session.
+Импортируйте SSL-сертификат и модуль tun и установите альтернативную папку для директории пользователя. По умолчанию он будет храниться в /tmp, и вы потеряете свои настройки после перезагрузки. Выполняйте это перед каждым новым сеансом.
 
 ```bash
 export SSL_CERT_FILE=/opt/etc/ssl/certs/ca-certificates.crt
@@ -184,57 +184,57 @@ export HOME=/opt/home/admin
 modprobe tun
 ```
 
-## 6. Set up AdGuard VPN CLI
+## 6. Настройте AdGuard VPN CLI
 
-1. Log in to your account
+1. Войдите в аккаунт
 
-   To use AdGuard VPN for Linux, you need an AdGuard account.
+   Чтобы использовать AdGuard VPN для Linux, вам понадобится аккаунт AdGuard.
 
-   You can sign up on our [website](https://auth.adguard.com/login.html) or in the Terminal.
+   Вы можете зарегистрироваться или войти в аккаунт [на нашем сайте](https://auth.adguard.com/login.html) или в Терминале.
 
-   To sign up or log in, type:
+   Чтобы зарегистрироваться или войти, введите:
 
    ```jsx
    adguardvpn-cli login
    ```
 
-2. Connect to VPN
+2. Подключитесь к VPN
 
-   Select a VPN server location that best suits your needs.
+   Выберите локацию VPN-сервера, которая лучше всего соответствует вашим потребностям.
 
-   In general, the closer the server, the faster the connection.
+   Как правило, чем ближе сервер, тем быстрее соединение.
 
-   To view available locations, type:
+   Чтобы посмотреть доступные локации, введите:
 
    ```jsx
    adguardvpn-cli list-locations
    ```
 
-   To connect to a specific location, type:
+   Чтобы подключиться к определённой локации, введите:
 
    ```jsx
    adguardvpn-cli connect -l LOCATION_NAME
    ```
 
-   Replace LOCATION_NAME with the city, country, or ISO code of the location you want to connect to.
+   Замените LOCATION_NAME на город, страну или ISO-код локации на английском, к которой хотите подключиться.
 
-   For quick connect, type:
+   Для быстрого подключения введите:
 
    ```jsx
    adguardvpn-cli connect
    ```
 
-   AdGuard VPN will choose the fastest available location and remember it for future quick connections.
+   AdGuard VPN выберет самую быструю локацию и запомнит её для будущих быстрых подключений.
 
-   Enter `yes` when asked “Would you like to set default routes in TUN mode?”
+   Введите `yes` на вопрос Would you like to set default routes in TUN mode?
 
-   AdGuard VPN CLI will create a tun0 interface for VPN tunneling.
+   AdGuard VPN CLI создаст интерфейс tun0 для VPN-туннелирования.
 
-3. Adjust your settings
+3. Отрегулируйте настройки
 
-   Get a list of all available AdGuard VPN commands and customize the VPN client to your needs.
+   Получите список всех доступных команд AdGuard VPN и настройте VPN-клиент под свои нужды.
 
-   To view all commands, type:
+   Чтобы просмотреть все команды, введите:
 
    ```jsx
    adguardvpn-cli --help-all
@@ -242,11 +242,11 @@ modprobe tun
 
 <!-- comment -->
 
-## 7. Set up your firewall rules and auto-launch for AdGuard VPN
+## 7. Настройте правила фаервола и автоматический запуск AdGuard VPN
 
-This step configures firewall rules on an Asuswrt-Merlin router to route traffic through AdGuard VPN.
+На этом шаге настраиваются правила фаервола на роутере Asuswrt-Merlin для маршрутизации трафика через AdGuard VPN.
 
-1. Create a new script by running the following command:
+1. Создайте новый скрипт, выполнив следующую команду:
 
    ```bash
    cat << 'EOF' > /jffs/scripts/wan-event
@@ -270,21 +270,21 @@ This step configures firewall rules on an Asuswrt-Merlin router to route traffic
    EOF
    ```
 
-   And make it executable:
+   И сделайте её исполняемой:
 
    ```bash
    chmod a+rx /jffs/scripts/wan-event
    ```
 
-   If you have more brX interfaces, make sure to include them in the script as well to route their traffic. Alternatively, make sure to specify a different routing rule for those interfaces.
+   Если у вас больше интерфейсов brX, обязательно включите их в скрипт для маршрутизации их трафика. Или укажите другое правило маршрутизации для этих интерфейсов.
 
-   This script will ensure that all traffic goes through the VPN tunnel. After rebooting or reconnecting to the Internet, AdGuard VPN will connect automatically to your last used location.
+   Этот скрипт гарантирует, что весь трафик проходит через VPN-туннель. После перезагрузки или повторного подключения к интернету AdGuard VPN автоматически подключится к последней использованной локации.
 
-2. Reboot your router to finish setup.
+2. Перезагрузите роутер, чтобы завершить настройку.
 
-   Congrats! Now you have a router secured with AdGuard VPN.
+   Готово! Теперь у вас есть роутер, защищённый с помощью AdGuard VPN.
 
-   If you want to SSH into your router again to send any commands to AdGuard VPN, make sure to run this first:
+   Если вы хотите снова подключиться к роутеру по SSH, чтобы отправлять команды в AdGuard VPN, сначала выполните следующее:
 
    ```bash
    export SSL_CERT_FILE=/opt/etc/ssl/certs/ca-certificates.crt

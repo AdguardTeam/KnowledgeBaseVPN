@@ -19,9 +19,11 @@ To start using AdGuard VPN for Windows, download the app from [our website](http
 
 ## Home screen
 
-![AdGuard VPN for Windows homepage *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/home_en.jpg)
+![Home screen](https://cdn.adguardvpn.com/content/kb/vpn/windows/saved_locations.png)
 
-The most noticeable item on the **Home screen** is the AdGuard VPN Connect/Disconnect button, below which you can see the selected server. On the right side of the screen you will see a list of available locations. The fastest location, i.e. the one with the lowest ping, is shown at the top of the list. There is also a refresh button that you can click if any locations are offline.
+The most noticeable item on the **Home screen** is the AdGuard VPN *Connect/Disconnect* button, below which you can see the selected server. On the right side of the screen you will see a list of available locations. The fastest location, i.e. the one with the lowest ping, is shown at the top of the list. There is also a refresh button that you can click if any locations are offline.
+
+You can also save your favorite locations to access them quickly. Just hover over a location, click the bookmark icon that appears, and it will be saved. Your marked locations will then show up in the *Saved* tab.
 
 At the top of the screen there is a navigation panel with five tabs: **Home**, **Exclusions**, **Stats**, **Support**, and **Settings**.
 
@@ -29,7 +31,7 @@ At the top of the screen there is a navigation panel with five tabs: **Home**, *
 
 By default, AdGuard VPN for Windows works everywhere. You can add websites and apps you want to exclude from the VPN tunnel to the list of exclusions. Or, you can make AdGuard VPN work only on the websites and apps specified in the list of exclusions. Please note that these two lists are independent of each other.
 
-![Exclusions *border](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_new_en.png)
+![Exclusions *border](https://cdn.adguardvpn.com/content/kb/VPN/windows/new_exclusions_screen.png)
 
 You can add websites to exclusions **manually** by entering their domain names. The app also offers you an option to choose popular websites **from the list**.
 
