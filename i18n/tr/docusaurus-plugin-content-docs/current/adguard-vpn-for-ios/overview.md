@@ -48,11 +48,11 @@ Sitelerin alan adlarını (örn. `google.com`) veya alt alan adlarını (örn. `
 - [Popüler hizmetler için alan adı listelerinden seçim yapın](#domain-lists-for-popular-services)
 - İstediğiniz sayfaları AdGuard VPN uygulamasıyla paylaşarak bunları doğrudan tarayıcıdan ekleyin
 
-![İstisnalar *mobile_border](https://cdn.adtidy.org/blog/new/lpjs7iexclusions-as-of-v2-4.png)
+![İstisnalar *mobile_border](https://cdn.adguard-vpn.com/blog/new/lpjs7iexclusions-as-of-v2-4.png)
 
 Elle bir alan adı eklediğinizde, tüm alt alan adları otomatik olarak eklenir ( `*.google.com` gibi görünür). Yalnızca google.com'u tutmak veya belirli bir alan adı için VPN'i kapatmak mı istiyorsunuz? Sitelerin bulunduğu satıra dokunun — bu, alt alan adlarını yönetebileceğiniz ayrı bir ekran açar. Just uncheck the boxes for the ones you don’t need.
 
-![Alt alan adları *mobile_border](https://cdn.adtidy.org/content/release_notes/vpn/ios/v2.4/domains_en.png)
+![Alt alan adları *mobile_border](https://cdn.adguard-vpn.com/content/release_notes/vpn/ios/v2.4/domains_en.png)
 
 Elle bir alt alan adı eklerseniz, ana alan adı da eklenir — ancak yanındaki onay kutusu işaretlenmeyecektir.
 
@@ -67,7 +67,7 @@ Here’s how to add all necessary domains for a popular service to exclusion lis
 3. *Listeden* öğesin dokunun.
 4. Listeden istenen hizmeti bulup *Ekle* öğesine dokunun.
 
-![Popüler hizmetlerin listesi *mobile_border](https://cdn.adtidy.org/content/release_notes/vpn/ios/v2.4/add_website_en.png)
+![Popüler hizmetlerin listesi *mobile_border](https://cdn.adguard-vpn.com/content/release_notes/vpn/ios/v2.4/add_website_en.png)
 
 ### İstisnaları içe ve dışa aktarma
 

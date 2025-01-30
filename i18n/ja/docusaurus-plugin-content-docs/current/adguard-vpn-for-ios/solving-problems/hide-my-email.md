@@ -13,7 +13,7 @@ Apple’s *Hide My Email* feature is a great tool to keep your real email addres
 
 To use this feature, go to *Settings* → [Your Apple ID name] → *iCloud* → *Hide My Email*, tap *+ Create new address* and follow the on-screen instructions.
 
-受信メッセージを実際のアドレス受信箱に転送してくれる、ユニークでランダムな電子メールアドレスを生成することができます。 It might look like this: chimney.floture_0s@privaterelay.appleid.com. 作成できるメールアドレスの数に上限はありません。 仮アドレスをラベルで分類し、登録、ニュースレターの受信など、目的別に使い分けることができます。 Apple は、「*メールを非公開*」サービスを通じて処理されるメッセージのコンテンツが、標準的なスパムフィルタリング以外では検査されないことを保証します。
+受信メッセージを実際のアドレス受信箱に転送してくれる、ユニークでランダムな電子メールアドレスを生成することができます。 It might look like this: chimney.floture_0s@icloud.com. 作成できるメールアドレスの数に上限はありません。 仮アドレスをラベルで分類し、登録、ニュースレターの受信など、目的別に使い分けることができます。 Apple は、「*メールを非公開*」サービスを通じて処理されるメッセージのコンテンツが、標準的なスパムフィルタリング以外では検査されないことを保証します。
 
 The *Hide My Email* feature is also available in Apple’s Mail app. 実際のメールアドレスを公開せずにメールを送信するには、メッセージを作成する際に「*差出人:*」フィールドを押して「*メールを非公開*」を選択します。
 

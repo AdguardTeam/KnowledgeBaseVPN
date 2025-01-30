@@ -29,7 +29,7 @@ Es ist nicht sicher, sich auf den DNS-Server zu verlassen, der standardmäßig v
 
 Wir empfehlen die Verwendung eines AdGuard DNS-Servers: Er sperrt Werbung und Tracker und schützt Ihr Gerät vor Schadsoftware.
 
-![DNS-Server](https://cdn.adtidy.org/blog/new/lkarpag_dns_screen_en.png)
+![DNS-Server](https://cdn.adguard-vpn.com/blog/new/lkarpag_dns_screen_en.png)
 
 ## 4. Schnellste Standorte
 

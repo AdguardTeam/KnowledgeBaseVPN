@@ -19,7 +19,7 @@ sidebar position: 1
 
 1. В разделе **Уровень логирования** выберите **Записывать всё**.
 
-    ![Уровень логирования *border](https://cdn.adtidy.org/content/kb/vpn/windows/logs/logging.jpeg)
+    ![Уровень логирования *border](https://cdn.adguard-vpn.com/content/kb/vpn/windows/logs/logging.jpeg)
 
 1. Воспроизведите действия, которые привели к ошибке, и запомните время, в которое она произошла.
 
@@ -31,11 +31,11 @@ sidebar position: 1
 
 1. Щёлкните правой кнопкой мыши по иконке AdGuard VPN в трей-меню и выберите **Выйти из AdGuard VPN**.
 
-    ![Выход *mobile](https://cdn.adtidy.org/content/kb/vpn/windows/logs/exit.png)
+    ![Выход *mobile](https://cdn.adguard-vpn.com/content/kb/vpn/windows/logs/exit.png)
 
     Если вы увидите предупреждение, остановите сервис.
 
-    ![Предупреждение *mobile](https://cdn.adtidy.org/content/kb/vpn/windows/logs/attention.png)
+    ![Предупреждение *mobile](https://cdn.adguard-vpn.com/content/kb/vpn/windows/logs/attention.png)
 
 1. Откройте консоль (наберите `cmd` в стартовой панели).
 
@@ -53,17 +53,17 @@ sidebar position: 1
 
 1. Выберите **Поддержка** в меню сверху → **Сообщить об ошибке**.
 
-    ![Сообщить об ошибке *border](https://cdn.adtidy.org/content/kb/vpn/windows/logs/support_report.jpeg)
+    ![Сообщить об ошибке *border](https://cdn.adguard-vpn.com/content/kb/vpn/windows/logs/support_report.jpeg)
 
 1. В открывшейся форме введите свой адрес электронной почты и опишите обнаруженную ошибку, включая время её возникновения. Если воспроизвести проблему невозможно, укажите как можно точнее, когда она произошла в последний раз.
 
-    ![Отчёт *border](https://cdn.adtidy.org/content/kb/vpn/windows/logs/report_bug.png)
+    ![Отчёт *border](https://cdn.adguard-vpn.com/content/kb/vpn/windows/logs/report_bug.png)
 
 1. Напротив пункта **Отправить детальную информацию** по умолчанию стоит галочка, а это значит, что отправляя отчёт, вы также отправляете логи.
 
 > Если вам по какой-либо причине удобнее отправить нам логи другим способом, вы можете экспортировать их самостоятельно. Для этого перейдите во вкладку **Поддержка** → **Экспортировать логи и информацию**.
 
-![Экспорт *border](https://cdn.adtidy.org/content/kb/vpn/windows/logs/export.jpeg)
+![Экспорт *border](https://cdn.adguard-vpn.com/content/kb/vpn/windows/logs/export.jpeg)
 
 **Примечание**: если при попытке экспорта логов у вас возникнут проблемы, есть альтернативный способ. Пожалуйста, выполните следующие действия:
 

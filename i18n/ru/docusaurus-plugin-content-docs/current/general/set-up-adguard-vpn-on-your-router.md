@@ -3,11 +3,11 @@ title: Как настроить AdGuard VPN на роутере
 sidebar_position: 8
 ---
 
-Настроив AdGuard VPN на роутере, вы сможете защитить свои данные на устройствах, на которые нельзя установить VPN-приложения, например, на медиаустройствах и игровых приставках.
+Setting up AdGuard VPN on your router allows you to protect all devices connected to your network. This includes smart TVs, media players, gaming consoles, and other gadgets that do not support VPN apps directly.
 
 :::note
 
-Эта опция доступна только в том случае, если у вас есть подписка на AdGuard VPN и ваш роутер поддерживает IPsec в настройках _VPN-клиента_ (**не** _VPN-сервера_).
+Эта опция доступна только в том случае, если у вас есть подписка на AdGuard VPN и ваш роутер поддерживает IPsec в настройках _VPN-клиента_ (**не** _VPN-сервера_). If IPsec is not listed in the _VPN CLient_ settings, you can try setting up [AdGuard VPN for Linux](/adguard-vpn-for-linux/setting-up-on-a-router). This solution uses AdGuard's proprietary protocol and is compatible with Keenetic, OpenWRT, and Asuswrt-Merlin routers.
 
 :::
 
@@ -46,30 +46,6 @@ sidebar_position: 8
 Если вы хотите изменить локацию VPN-сервера, вам нужно будет обновить настройки роутера.
 
 :::
-
-## Почему стоит настроить AdGuard VPN на роутере
-
-- С AdGuard VPN на роутере ни у вашего VPN-провайдера, ни у кого-либо ещё не будет доступа к вашим действиям в интернете
-- AdGuard VPN на роутере защищает всю вашу сеть, а это означает, что все подключённые к ней устройства будут в безопасности
-- Вы можете повысить безопасность и защитить свои данные на устройствах, на которые невозможно установить приложения AdGuard VPN — медиаустройствах и игровых консолях
-
-## Устройства, которые можно подключить к роутеру с помощью AdGuard VPN
-
-- **PlayStation, Xbox и Nintendo Switch**: чтобы играть онлайн без перебоев и безопасно на PS4, PS5, Xbox One, Xbox Series и Nintendo Switch, [настройте AdGuard VPN на роутере](#how-to-set-up-adguard-vpn-on-your-router) и подключите к нему консоль
-
-- **Apple TV**: следуйте инструкциям по [настройке AdGuard VPN на роутере](#how-to-set-up-adguard-vpn-on-your-router), затем подключите Apple TV
-
-- **Chromecast**:
-
-  **Для поколения 4:** просто скачайте и установите [AdGuard VPN из Google Play](https://play.google.com/store/apps/details?id=com.adguard.vpn)
-
-  **Для поколения 3:** следуйте нашему руководству по [настройке AdGuard VPN на роутере](#how-to-set-up-adguard-vpn-on-your-router). Убедитесь, что ваш телевизор и смартфон, планшет или компьютер подключены к одной сети
-
-  Для **Android TV** вам не нужно настраивать AdGuard VPN на роутере — у нас есть специальная версия для Android TV. Выполните следующие действия:
-
-  1. Установите [AdGuard VPN из Google Play](https://play.google.com/store/apps/details?id=com.adguard.vpn) на ваш Android TV
-  2. Если у вас уже есть аккаунт AdGuard, войдите через почту и пароль. Если вы ещё не зарегистрированы, введите почту и следуйте инструкции
-  3. Откройте приложение, выберите нужную локацию и подключитесь
 
 ## Роутеры, несовместимые с AdGuard VPN
 

@@ -29,7 +29,7 @@ Varsayılan olarak İSS'niz tarafından sağlanan DNS sunucusuna güvenmek güve
 
 AdGuard DNS sunucusu kullanmanızı öneririz: reklamları ve izleyicileri engeller ve cihazınızı kötü amaçlı yazılımlardan korur.
 
-![DNS sunucuları](https://cdn.adtidy.org/blog/new/lkarpag_dns_screen_en.png)
+![DNS sunucuları](https://cdn.adguard-vpn.com/blog/new/lkarpag_dns_screen_en.png)
 
 ## 4. En hızlı konumlar
 

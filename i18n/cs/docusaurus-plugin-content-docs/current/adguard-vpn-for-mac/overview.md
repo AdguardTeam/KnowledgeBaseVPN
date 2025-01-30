@@ -33,7 +33,7 @@ Na stejné kartě si můžete uložit oblíbená umístění, abyste k nim měli
 
 Stačí najet na umístění, kliknout na ikonu záložky, která se zobrazí, a umístění se uloží. Označená umístění se pak zobrazí na kartě *Uložené*.
 
-![Saved locations](https://cdn.adtidy.org/content/release_notes/vpn/mac/v2.5/Saved_locs_EN_2.png)
+![Saved locations](https://cdn.adguard-vpn.com/content/release_notes/vpn/mac/v2.5/Saved_locs_EN_2.png)
 
 ## Výjimky
 

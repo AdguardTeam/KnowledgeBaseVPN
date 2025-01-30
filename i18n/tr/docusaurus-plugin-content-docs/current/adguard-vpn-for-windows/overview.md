@@ -108,7 +108,7 @@ This is an experimental feature that enables AdGuard to use the advanced QUIC en
 
 #### WinTun'u kullan
 
-![Use WinTun *border](https://cdn.adtidy.org/content/release_notes/vpn/windows/v2.2/stats_tab_v2.2_en.png)
+![Use WinTun *border](https://cdn.adguard-vpn.com/content/release_notes/vpn/windows/v2.2/stats_tab_v2.2_en.png)
 
 WinTun is a traffic routing driver commonly used for VPN implementations on Windows that improves the quality of VPN connections by creating a virtual network adapter. By default AdGuard VPN uses the regular WFP driver (and TDI driver for Windows 7).
 

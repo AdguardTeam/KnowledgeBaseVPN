@@ -13,11 +13,11 @@ sidebar_position: 1
 
 Списки исключений позволяют выбирать, на каких сайтах и в каких приложениях будет работать VPN. Чтобы открыть раздел *Исключения*, нажмите на вторую иконку слева в нижней части экрана.
 
-![Исключения *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/exclusions.jpg)
+![Исключения *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/exclusions.jpg)
 
 По умолчанию AdGuard VPN работает для всех сайтов и приложений, кроме добавленных в исключения: если вы не укажете приложение или сайт, VPN для них будет активен. Вы также можете включить VPN **выборочно** — чтобы он работал только для определённых приложений или сайтов. Чтобы переключиться на этот режим, нажмите *Изменить режим*.
 
-![Изменить режим *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/change_mode.jpg)
+![Изменить режим *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/change_mode.jpg)
 
 :::caution
 
@@ -37,9 +37,9 @@ sidebar_position: 1
 - Добавьте его прямо из браузера, поделившись сайтом с помощью AdGuard VPN
 - Добавьте его из встроенного списка сервисов
 
-![Добавить вручную *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/manually.jpg)
+![Добавить вручную *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/manually.jpg)
 
-![Добавить из списка *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/from_list.jpg)
+![Добавить из списка *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/from_list.jpg)
 
 :::note
 
@@ -55,17 +55,17 @@ sidebar_position: 1
 - **Частично включён** (включённые поддомены без основного домена) — отмечен зелёным квадратом на белом фоне
 - **Полностью отключён** — отмечен пустым флажком
 
-![Исключения сайтов *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/websites.png)
+![Исключения сайтов *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/websites.png)
 
 Если вы случайно удалили домен или поддомен, просто нажмите *Сбросить настройки*.
 
-![Сброс настроек *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/reset.jpg)
+![Сброс настроек *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/reset.jpg)
 
 ### Приложения
 
 Вы также можете управлять VPN для приложений. Чтобы исключить приложение из VPN-туннеля, нажмите *Добавить приложение*. Чтобы использовать VPN **выборочно**, нажмите *Изменить режим*.
 
-![Исключения приложений *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/apps.jpg)
+![Исключения приложений *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/apps.jpg)
 
 :::caution
 
@@ -77,11 +77,11 @@ sidebar_position: 1
 
 Чтобы попасть в *Настройки*, нажмите на иконку в виде шестерёнки в правом нижнем углу экрана.
 
-![Настройки *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/settings.jpg)
+![Настройки *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/settings.jpg)
 
 ### Основные
 
-![Основные *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/general.jpg)
+![Основные *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/general.jpg)
 
 В разделе *Основные*вы можете управлять основными настройками AdGuard VPN:
 
@@ -93,7 +93,7 @@ sidebar_position: 1
 
 ### Расширенные
 
-![Расширенные *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/advanced.png)
+![Расширенные *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/advanced.png)
 
 Раздел *Расширенные* представляет собой набор настроек, которые используются не так часто.
 
@@ -123,4 +123,4 @@ sidebar_position: 1
 
 В разделе *Поддержка* вы можете ознакомиться с часто задаваемыми вопросами, чтобы получить быстрые ответы на свои вопросы, сообщить об ошибках и предложить новые функции.
 
-![Поддержка *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/support.jpg)
+![Поддержка *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/support.jpg)

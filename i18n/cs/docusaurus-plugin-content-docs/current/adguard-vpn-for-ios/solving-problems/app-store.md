@@ -15,7 +15,7 @@ V některých zemích není AdGuard VPN v App Store k dispozici. Pokud je to vá
 
 2. Klepněte na _Země/region_ → _Změnit zemi nebo region_.
 
-   ![Changing region](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/changing_country.png)
+   ![Changing region](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/changing_country.png)
 
 3. Ze seznamu vyberte požadovanou zemi (např. _Spojené státy_) a souhlaste s podmínkami.
 
@@ -33,7 +33,7 @@ V některých zemích není AdGuard VPN v App Store k dispozici. Pokud je to vá
 
 5. Klepněte na _Další_.
 
-   ![New region \*border](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/new_country.png)
+   ![New region \*border](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/new_country.png)
 
 Po změně regionu zkuste [znovu stáhnout AdGuard VPN z App Store](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602).
 
@@ -61,11 +61,11 @@ Nyní **připojte svůj nový účet k App Store**:
 
 3. Znovu klepněte na _Média a nákupy_ a vyberte možnost _Není to [vaše jméno]?_ Budete vyzváni k přihlášení pomocí jiného Apple ID.
 
-   ![Changing account](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/log_out.png)
+   ![Changing account](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/log_out.png)
 
 4. Zadejte e-mailovou adresu a heslo k novému účtu.
 
-   ![Login \*mobile\_border](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/apple_id.png)
+   ![Login \*mobile\_border](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/apple_id.png)
 
 To je vše! Nyní zkuste [stáhnout AdGuard VPN z App Store](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602) znovu.
 

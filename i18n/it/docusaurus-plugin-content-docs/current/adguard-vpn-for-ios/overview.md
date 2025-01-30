@@ -48,11 +48,11 @@ You can add domains (e.g., `google.com`) or subdomains (e.g., `news.google.com`)
 - [Choose from domain lists for popular services](#domain-lists-for-popular-services)
 - Add them directly from the browser by sharing the desired pages to the AdGuard VPN app
 
-![Esclusioni *mobile_border](https://cdn.adtidy.org/blog/new/lpjs7iexclusions-as-of-v2-4.png)
+![Esclusioni *mobile_border](https://cdn.adguard-vpn.com/blog/new/lpjs7iexclusions-as-of-v2-4.png)
 
 When you manually add a domain, all subdomains are added automatically (it looks like `*.google.com`). Want to keep only google.com or turn VPN off for a specific domain? Tap the line with the website — this will open a separate screen where you can manage subdomains. Just uncheck the boxes for the ones you don’t need.
 
-![Subdomains *mobile_border](https://cdn.adtidy.org/content/release_notes/vpn/ios/v2.4/domains_en.png)
+![Subdomains *mobile_border](https://cdn.adguard-vpn.com/content/release_notes/vpn/ios/v2.4/domains_en.png)
 
 If you manually add a subdomain, the main domain will also added — but the checkbox next to it will not be checked.
 
@@ -67,7 +67,7 @@ Here’s how to add all necessary domains for a popular service to exclusion lis
 3. Tap *From list*.
 4. Find the desired service in the list and tap *Add*.
 
-![List of popular services *mobile_border](https://cdn.adtidy.org/content/release_notes/vpn/ios/v2.4/add_website_en.png)
+![List of popular services *mobile_border](https://cdn.adguard-vpn.com/content/release_notes/vpn/ios/v2.4/add_website_en.png)
 
 ### Import/export exclusions
 

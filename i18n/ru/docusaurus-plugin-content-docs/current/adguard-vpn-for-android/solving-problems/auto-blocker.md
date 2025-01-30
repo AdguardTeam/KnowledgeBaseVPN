@@ -16,8 +16,8 @@ sidebar_position: 7
 3. Прокрутите вниз и выберите _Автоблокировка_
 4. Отключите настройку
 
-![Отключить Автоблокировку \*mobile\_border](https://cdn.adtidy.org/content/kb/ad_blocker/android/solving_problems/auto-blocker/auto_blocker_en.png)
+![Disable Auto Blocker \*mobile\_border](https://cdn.adguard-vpn.com/content/kb/ad_blocker/android/solving_problems/auto-blocker/auto_blocker_en.png)
 
 После отключения _Автоблокировки_ вы можете продолжить установку AdGuard VPN.
 
-![Нажмите Установить \*mobile\_border](https://cdn.adtidy.org/content/kb/vpn/android/install_en.png)
+![Tap Install \*mobile\_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/install_en.png)

@@ -108,7 +108,7 @@ Jedná se o experimentální funkci, která umožňuje AdGuardu používat pokro
 
 #### Použít WinTun
 
-![Use WinTun *border](https://cdn.adtidy.org/content/release_notes/vpn/windows/v2.2/stats_tab_v2.2_en.png)
+![Use WinTun *border](https://cdn.adguard-vpn.com/content/release_notes/vpn/windows/v2.2/stats_tab_v2.2_en.png)
 
 WinTun je ovladač směrování provozu, který se běžně používá pro implementace VPN v systému Windows a který zlepšuje kvalitu připojení VPN vytvořením virtuálního síťového adaptéru. Ve výchozím nastavení používá AdGuard VPN běžný ovladač WFP (a ovladač TDI pro Windows 7).
 
