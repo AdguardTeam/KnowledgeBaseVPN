@@ -15,7 +15,7 @@ In some countries, AdGuard VPN is not available in the App Store. If that’s yo
 
 1. Tap *Country/Region* → *Change Country or Region*.
 
-    ![Changing region](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/changing_country.png)
+    ![Changing region](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/changing_country.png)
 
 1. Select your preferred country from the list (e.g., *United States*) and agree to the Terms and Conditions.
 
@@ -33,7 +33,7 @@ In some countries, AdGuard VPN is not available in the App Store. If that’s yo
 
 1. Tap *Next*.
 
-    ![New region *border](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/new_country.png)
+    ![New region *border](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/new_country.png)
 
 After changing the region, try [downloading AdGuard VPN from the App Store again](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602).
 
@@ -61,11 +61,11 @@ Now **link your new account to the App Store**:
 
 1. Tap on *Media & Purchases* again and select *Not [your name]?* You will be prompted to sign in with a different Apple ID.
 
-    ![Changing account](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/log_out.png)
+    ![Changing account](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/log_out.png)
 
 1. Enter the email address and password for your new account.
 
-    ![Login *mobile_border](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/apple_id.png)
+    ![Login *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/apple_id.png)
 
 That’s it! Now try to [download AdGuard VPN from the App Store](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602) again.
 

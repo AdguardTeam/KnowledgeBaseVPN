@@ -16,8 +16,8 @@ Follow the instructions to turn off *Auto Blocker*.
 1. Scroll down and select *Auto Blocker*
 1. Toggle the setting off
 
-![Disable Auto Blocker *mobile_border](https://cdn.adtidy.org/content/kb/ad_blocker/android/solving_problems/auto-blocker/auto_blocker_en.png)
+![Disable Auto Blocker *mobile_border](https://cdn.adguard-vpn.com/content/kb/ad_blocker/android/solving_problems/auto-blocker/auto_blocker_en.png)
 
 Once *Auto Blocker* is disabled, you can proceed with installing AdGuard VPN.
 
-![Tap Install *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/install_en.png)
+![Tap Install *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/install_en.png)

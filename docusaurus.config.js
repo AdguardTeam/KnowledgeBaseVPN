@@ -16,7 +16,7 @@ const typesenseHost = process.env.SEARCH_HOST || 'xxx-1.a1.typesense.net';
 const typesenseApiKey = process.env.SEARCH_API_KEY || 'test';
 
 const currentImageDomain = process.env.CURRENT_IMAGES_DOMAIN || 'https://cdn.adguard.com';
-const newImageDomain = process.env.NEW_IMAGES_DOMAIN || 'https://cdn.adtidy.org';
+const newImageDomain = process.env.NEW_IMAGES_DOMAIN || 'https://cdn.adguard-vpn.com';
 
 /** @type {import('@docusaurus/types').DocusaurusConfig} */
 module.exports = {
