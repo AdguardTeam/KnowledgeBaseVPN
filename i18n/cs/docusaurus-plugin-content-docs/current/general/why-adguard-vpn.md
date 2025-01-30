@@ -29,7 +29,7 @@ Spoléhat se na DNS server poskytovaný ve výchozím nastavení poskytovatelem 
 
 Doporučujeme používat server AdGuard DNS: blokuje reklamy, slídiče a chrání vaše zařízení před malwarem.
 
-![DNS servers](https://cdn.adtidy.org/blog/new/lkarpag_dns_screen_en.png)
+![DNS servers](https://cdn.adguard-vpn.com/blog/new/lkarpag_dns_screen_en.png)
 
 ## 4. Nejrychlejší umístění
 

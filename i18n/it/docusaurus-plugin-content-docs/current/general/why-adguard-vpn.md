@@ -29,7 +29,7 @@ Relying on the DNS server provided by your ISP by default is not safe: your ISP 
 
 We recommend using an AdGuard DNS server: it blocks ads and trackers and protects your device from malware.
 
-![DNS servers](https://cdn.adtidy.org/blog/new/lkarpag_dns_screen_en.png)
+![DNS servers](https://cdn.adguard-vpn.com/blog/new/lkarpag_dns_screen_en.png)
 
 ## 4. Posizioni ultraveloci
 

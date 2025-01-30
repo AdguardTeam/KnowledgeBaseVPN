@@ -13,11 +13,11 @@ U každého serveru je uvedeno jeho umístění a hodnota ping, která popisuje 
 
 Seznamy výjimek vám umožňují spravovat připojení VPN pro konkrétní webové stránky a aplikace. Do sekce *Výjimky* se dostanete klepnutím na druhou ikonu zleva ve spodní části obrazovky.
 
-![Exclusions *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/exclusions.jpg)
+![Exclusions *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/exclusions.jpg)
 
 Ve výchozím nastavení funguje AdGuard VPN pro všechny webové stránky a aplikace kromě těch, které byly přidány do výjimek: pokud nezadáte aplikaci nebo webovou stránku, bude pro ně VPN aktivní. Můžete ji také zapnout **selektivně** — pouze pro určité aplikace nebo webové stránky. Chcete-li přepnout do tohoto režimu, klepněte na *Změnit režim*.
 
-![Change mode *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/change_mode.jpg)
+![Change mode *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/change_mode.jpg)
 
 :::caution
 
@@ -37,9 +37,9 @@ Doménu (např. `google.com`) nebo subdoménu (např. `*.google.com`) můžete d
 - Přidáním přímo z prohlížeče sdílením požadovaných stránek s AdGuard VPN
 - Přidáním z vestavěného seznamu služeb
 
-![Add manually *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/manually.jpg)
+![Add manually *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/manually.jpg)
 
-![Add from the list *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/from_list.jpg)
+![Add from the list *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/from_list.jpg)
 
 :::note
 
@@ -55,17 +55,17 @@ Vzhledem k tomu, že v seznamech služeb můžete povolit subdomény, přidali j
 - **Částečně povoleno** (povolené subdomény bez hlavní domény) je označeno zeleným čtvercem na bílém pozadí
 - **Plně zakázáno** je označeno prázdným zaškrtávacím políčkem
 
-![Website exclusions *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/websites.png)
+![Website exclusions *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/websites.png)
 
 Pokud jste omylem smazali doménu nebo subdoménu, stačí klepnout na *Obnovit výchozí nastavení*.
 
-![Reset to default *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/reset.jpg)
+![Reset to default *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/reset.jpg)
 
 ### Aplikace
 
 Můžete také spravovat VPN pro aplikace. Chcete-li aplikaci z tunelu VPN vyloučit, klepněte na *Přidat aplikaci*. Chcete-li VPN používat **selektivně**, klepněte na *Změnit režim*.
 
-![App exclusions *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/apps.jpg)
+![App exclusions *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/apps.jpg)
 
 :::caution
 
@@ -77,11 +77,11 @@ V *Režimu integrace* můžete aplikace spravovat pouze prostřednictvím Bloká
 
 Do *Nastavení* se dostanete stisknutím ikony ozubeného kola v pravém dolním rohu obrazovky.
 
-![Settings *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/settings.jpg)
+![Settings *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/settings.jpg)
 
 ### Obecné
 
-![General *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/general.jpg)
+![General *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/general.jpg)
 
 V části *Obecné* můžete spravovat základní nastavení AdGuard VPN:
 
@@ -93,7 +93,7 @@ V části *Obecné* můžete spravovat základní nastavení AdGuard VPN:
 
 ### Pokročilé
 
-![Advanced *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/advanced.png)
+![Advanced *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/advanced.png)
 
 V části *Pokročilé* se nachází sada nastavení, která se nepoužívají tak často.
 
@@ -123,4 +123,4 @@ V možnosti **Preferovaná verze IP** se před výběrem mezi IPv6 a IPv4 ujist�
 
 V části *Podpora* se můžete podívat na naše FAQ, kde získáte rychlé odpovědi na své otázky, nahlásit chyby a navrhnout nové funkce.
 
-![Support *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/support.jpg)
+![Support *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/support.jpg)

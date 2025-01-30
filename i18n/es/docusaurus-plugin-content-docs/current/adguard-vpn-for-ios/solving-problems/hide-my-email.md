@@ -13,7 +13,7 @@ La función solo está disponible para iOS 15 y versiones superiores y requiere 
 
 To use this feature, go to *Settings* → [Your Apple ID name] → *iCloud* → *Hide My Email*, tap *+ Create new address* and follow the on-screen instructions.
 
-Puedes generar una dirección de correo electrónico única y aleatoria que reenvíe los mensajes entrantes a tu dirección real. It might look like this: chimney.floture_0s@privaterelay.appleid.com. No hay límite máximo para el número de direcciones de correo electrónico que puedes crear. Puedes categorizarlos con etiquetas y utilizar cada uno para diferentes propósitos: registrarte, recibir boletines, etc. Apple se asegura de que el contenido de los mensajes manejados a través del servicio *Ocultar mi correo* no se inspeccione más allá del filtrado de spam estándar.
+Puedes generar una dirección de correo electrónico única y aleatoria que reenvíe los mensajes entrantes a tu dirección real. It might look like this: chimney.floture_0s@icloud.com. No hay límite máximo para el número de direcciones de correo electrónico que puedes crear. Puedes categorizarlos con etiquetas y utilizar cada uno para diferentes propósitos: registrarte, recibir boletines, etc. Apple se asegura de que el contenido de los mensajes manejados a través del servicio *Ocultar mi correo* no se inspeccione más allá del filtrado de spam estándar.
 
 The *Hide My Email* feature is also available in Apple’s Mail app. Para enviar un correo electrónico sin revelar tu dirección de correo electrónico real, simplemente selecciona *Ocultar mi correo* en el campo *De* al redactar tu mensaje.
 

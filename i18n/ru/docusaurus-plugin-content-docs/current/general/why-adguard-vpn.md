@@ -29,7 +29,7 @@ sidebar_position: 2
 
 Мы рекомендуем использовать DNS-сервер AdGuard: он блокирует рекламу и трекеры и защищает ваше устройство от вредоносного ПО.
 
-![DNS-серверы](https://cdn.adtidy.org/blog/new/lkarpag_dns_screen_en.png)
+![DNS-серверы](https://cdn.adguard-vpn.com/blog/new/lkarpag_dns_screen_en.png)
 
 ## 4. Самые быстрые локации
 

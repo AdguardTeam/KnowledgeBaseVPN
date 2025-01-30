@@ -13,7 +13,7 @@ Každý režim má svůj vlastní seznam výjimek.
 
 :::
 
-![Exclusions](https://cdn.adtidy.org/blog/new/m6pkdVPN-CLI-exclusions.png)
+![Exclusions](https://cdn.adguard-vpn.com/blog/new/m6pkdVPN-CLI-exclusions.png)
 
 ### Jak používat
 

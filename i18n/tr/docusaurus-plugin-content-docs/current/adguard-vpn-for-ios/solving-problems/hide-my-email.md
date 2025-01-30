@@ -13,7 +13,7 @@ Bu özellik yalnızca iOS 15 ve üzeri sürümlerde mevcuttur ve iCloud+ aboneli
 
 Bu özelliği kullanmak için *Ayarlar* → [Apple Kimliğinizin adı] → *iCloud* → *E-postamı Gizle* öğesine gidin, *+ Yeni adres oluştur* öğesine dokunun ve ekrandaki talimatları izleyin.
 
-Gelen mesajları gerçek adresinize ileten benzersiz ve rastgele bir e-posta adresi oluşturabilirsiniz. Şöyle görünebilir: chimney.floture_0s@privaterelay.appleid.com. Oluşturabileceğiniz e-posta adresi sayısında herhangi bir üst sınır yoktur. Bunları etiketlerle kategorilere ayırabilir ve her birini farklı amaçlar için kullanabilirsiniz: kaydolmak, bülten almak, vb. Apple, *E-postamı Gizle* hizmeti aracılığıyla işlenen iletilerin içeriğinin standart spam filtrelemenin ötesinde denetlenmemesini sağlar.
+Gelen mesajları gerçek adresinize ileten benzersiz ve rastgele bir e-posta adresi oluşturabilirsiniz. It might look like this: chimney.floture_0s@icloud.com. Oluşturabileceğiniz e-posta adresi sayısında herhangi bir üst sınır yoktur. Bunları etiketlerle kategorilere ayırabilir ve her birini farklı amaçlar için kullanabilirsiniz: kaydolmak, bülten almak, vb. Apple, *E-postamı Gizle* hizmeti aracılığıyla işlenen iletilerin içeriğinin standart spam filtrelemenin ötesinde denetlenmemesini sağlar.
 
 *E-postamı Gizle* özelliği Apple'ın Mail uygulamasında da mevcuttur. Gerçek e-posta adresinizi açıklamadan bir e-posta göndermek için mesajınızı oluştururken *Kimden* alanında *E-postamı Gizle* öğesini seçmeniz yeterlidir.
 

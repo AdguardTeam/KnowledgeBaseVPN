@@ -19,7 +19,7 @@ Ve většině případů je výchozí úroveň záznamů dostatečná pro dohled
 
 1. V části **Úroveň záznamu** vyberte možnost **Zaznamenat vše**.
 
-    ![Logging level *border](https://cdn.adtidy.org/content/kb/vpn/windows/logs/logging.jpeg)
+    ![Logging level *border](https://cdn.adguard-vpn.com/content/kb/vpn/windows/logs/logging.jpeg)
 
 1. Zopakujte akce, které vedly k chybě a zaznamenejte čas, kdy k ní došlo.
 
@@ -31,11 +31,11 @@ Někdy vás náš tým podpory může požádat o zaslání záznamů trasován�
 
 1. Klikněte pravým tlačítkem na ikonu AdGuard VPN v nabídce na hlavním panelu a vyberte **Ukončit AdGuard VPN**.
 
-    ![Exit *mobile](https://cdn.adtidy.org/content/kb/vpn/windows/logs/exit.png)
+    ![Exit *mobile](https://cdn.adguard-vpn.com/content/kb/vpn/windows/logs/exit.png)
 
     Pokud se zobrazí varovná zpráva, odsouhlaste ukončení služby.
 
-    ![Attention *mobile](https://cdn.adtidy.org/content/kb/vpn/windows/logs/attention.png)
+    ![Attention *mobile](https://cdn.adguard-vpn.com/content/kb/vpn/windows/logs/attention.png)
 
 1. Otevřete konzoli (na úvodním panelu zadejte `cmd`).
 
@@ -53,17 +53,17 @@ Chcete-li odeslat protokoly našemu týmu podpory, postupujte podle následujíc
 
 1. Klikněte na **Podpora** v nabídce výše → **Nahlásit chybu**.
 
-    ![Report a bug *border](https://cdn.adtidy.org/content/kb/vpn/windows/logs/support_report.jpeg)
+    ![Report a bug *border](https://cdn.adguard-vpn.com/content/kb/vpn/windows/logs/support_report.jpeg)
 
 1. V otevřeném formuláři zadejte svou e-mailovou adresu a popište nalezenou chybu včetně času, kdy k ní došlo. Pokud nemůžete problém reprodukovat, uveďte co nejpřesněji, kdy k němu naposledy došlo.
 
-    ![Report *border](https://cdn.adtidy.org/content/kb/vpn/windows/logs/report_bug.png)
+    ![Report *border](https://cdn.adguard-vpn.com/content/kb/vpn/windows/logs/report_bug.png)
 
 1. Vedle položky **Odeslat podrobné systémové informace** je zaškrtávací políčko, což znamená, že při odesílání hlášení se odesílají také protokoly.
 
 > Pokud je pro vás z nějakého důvodu pohodlnější poslat nám protokoly jiným způsobem, můžete je exportovat sami. Chcete-li to provést, přejděte do **Podpora** → **Exportovat protokoly a systémové informace**.
 
-![Export *border](https://cdn.adtidy.org/content/kb/vpn/windows/logs/export.jpeg)
+![Export *border](https://cdn.adguard-vpn.com/content/kb/vpn/windows/logs/export.jpeg)
 
 **Poznámka**: pokud při pokusu o export protokolů narazíte na problémy, existuje alternativní způsob. Postupujte podle následujících kroků:
 

@@ -13,11 +13,11 @@ The main screen reflects the VPN status (Connected/Disconnected). There are also
 
 Exclusion lists allow you to manage the VPN connection for specific websites and apps. To access *Exclusions*, tap the second icon from the left at the bottom of the screen.
 
-![Exclusions *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/exclusions.jpg)
+![Exclusions *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/exclusions.jpg)
 
 By default, AdGuard VPN works for all websites and apps except those added to exclusions: if you don’t specify an app or website, VPN will be active for them. You can also turn it on **selectively** — only for specified apps or websites. To switch to this mode, tap *Change mode*.
 
-![Change mode *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/change_mode.jpg)
+![Change mode *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/change_mode.jpg)
 
 :::caution
 
@@ -37,9 +37,9 @@ You can add a domain (e.g., `google.com`) or subdomain (e.g., `*.google.com`) to
 - Add it directly from the browser by sharing the website with AdGuard VPN
 - Add it from a built-in list of services
 
-![Add manually *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/manually.jpg)
+![Add manually *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/manually.jpg)
 
-![Add from the list *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/from_list.jpg)
+![Add from the list *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/from_list.jpg)
 
 :::note
 
@@ -55,17 +55,17 @@ Since you can enable subdomains in service lists, we added boxes that reflect th
 - **Partially enabled** (enabled subdomains without the main domain) is marked with a green square on a white background
 - **Fully disabled** is marked with a blank checkbox
 
-![Website exclusions *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/websites.png)
+![Website exclusions *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/websites.png)
 
 If you’ve accidentally deleted a domain or subdomain, just tap *Reset to default*.
 
-![Reset to default *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/reset.jpg)
+![Reset to default *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/reset.jpg)
 
 ### Apps
 
 You can also manage VPN for apps. To exclude an app from the VPN tunnel, tap *Add app*. To use VPN **selectively**, tap *Change mode*.
 
-![App exclusions *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/apps.jpg)
+![App exclusions *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/apps.jpg)
 
 :::caution
 
@@ -77,11 +77,11 @@ In *Integrated mode*, you can only manage apps through AdGuard Ad Blocker.
 
 用户可以通过按屏幕右下方的齿轮图标转到*设置*。
 
-![Settings *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/settings.jpg)
+![Settings *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/settings.jpg)
 
 ### General
 
-![General *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/general.jpg)
+![General *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/general.jpg)
 
 In *General*, you can manage basic AdGuard VPN settings:
 
@@ -93,7 +93,7 @@ In *General*, you can manage basic AdGuard VPN settings:
 
 ### Advanced
 
-![Advanced *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/advanced.png)
+![Advanced *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/advanced.png)
 
 The *Advanced* section is a set of settings that are not as commonly used.
 
@@ -123,4 +123,4 @@ In the **Preferred IP version** option, before you choose between IPv6 and IPv4,
 
 In the *Support* section, you can check out our FAQ to get quick answers to your questions, report bugs, and suggest new features.
 
-![Support *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/support.jpg)
+![Support *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/support.jpg)

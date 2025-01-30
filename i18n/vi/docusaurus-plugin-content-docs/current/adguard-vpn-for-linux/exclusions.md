@@ -13,7 +13,7 @@ Each mode has its own list of exclusions.
 
 :::
 
-![Exclusions](https://cdn.adtidy.org/blog/new/m6pkdVPN-CLI-exclusions.png)
+![Exclusions](https://cdn.adguard-vpn.com/blog/new/m6pkdVPN-CLI-exclusions.png)
 
 ### How to use
 

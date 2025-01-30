@@ -48,11 +48,11 @@ Domény (např. `google.com`) nebo subdomény (např. `*news.google.com`) webov�
 - [Výběrem ze seznamů domén pro oblíbené služby](#domain-lists-for-popular-services)
 - Přidáním přímo z prohlížeče sdílením požadovaných stránek s aplikací AdGuard VPN
 
-![Exclusions *mobile_border](https://cdn.adtidy.org/blog/new/lpjs7iexclusions-as-of-v2-4.png)
+![Exclusions *mobile_border](https://cdn.adguard-vpn.com/blog/new/lpjs7iexclusions-as-of-v2-4.png)
 
 Při ručním přidání domény se automaticky přidají všechny subdomény (vypadá to jako `*.google.com`). Chcete zachovat pouze google.com nebo vypnout VPN pro určitou doménu? Klepněte na řádek s webovou stránkou — otevře se samostatná obrazovka, kde můžete spravovat subdomény. Stačí zrušit zaškrtnutí políček u těch, které nepotřebujete.
 
-![Subdomains *mobile_border](https://cdn.adtidy.org/content/release_notes/vpn/ios/v2.4/domains_en.png)
+![Subdomains *mobile_border](https://cdn.adguard-vpn.com/content/release_notes/vpn/ios/v2.4/domains_en.png)
 
 Pokud přidáte subdoménu ručně, přidá se i hlavní doména, ale políčko vedle ní nebude zaškrtnuté.
 
@@ -67,7 +67,7 @@ Zde je návod, jak přidat všechny potřebné domény pro oblíbenou službu na
 3. Klepněte na *Ze seznamu*.
 4. Najděte požadovanou službu v seznamu a klepněte na *Přidat*.
 
-![List of popular services *mobile_border](https://cdn.adtidy.org/content/release_notes/vpn/ios/v2.4/add_website_en.png)
+![List of popular services *mobile_border](https://cdn.adguard-vpn.com/content/release_notes/vpn/ios/v2.4/add_website_en.png)
 
 ### Import/export výjimek
 

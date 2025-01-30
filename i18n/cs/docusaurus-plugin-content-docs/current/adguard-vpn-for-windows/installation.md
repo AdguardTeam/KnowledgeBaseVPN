@@ -23,7 +23,7 @@ Pokud se rozhodnete AdGuard VPN z počítače odstranit, použijte jednu ze tř�
 
 ### Pokročilá odinstalace {#advanced}
 
-Pokud běžná odinstalace z nějakého důvodu nefunguje, můžete zkusit pokročilou metodu. Nejprve si musíte stáhnout [nástroj pro odinstalaci](https://cdn.adtidy.org/distr/windows/Uninstall_Utility.zip) vytvořený našimi vývojáři. Rozbalte archiv do libovolné složky v počítači, spusťte soubor **Adguard.UninstallUtility.exe** a nechte aplikaci provést změny v zařízení. Poté postupujte podle níže uvedených pokynů:
+Pokud běžná odinstalace z nějakého důvodu nefunguje, můžete zkusit pokročilou metodu. First of all, you need to [download the uninstaller tool](https://cdn.adguard-vpn.com/distr/windows/Uninstall_Utility.zip) created by our developers. Rozbalte archiv do libovolné složky v počítači, spusťte soubor **Adguard.UninstallUtility.exe** a nechte aplikaci provést změny v zařízení. Poté postupujte podle níže uvedených pokynů:
 
 1. Vyberte *AdGuard VPN* a *Standardní* typ odinstalace a poté klikněte na *Odinstalovat*:
 
@@ -31,7 +31,7 @@ Pokud běžná odinstalace z nějakého důvodu nefunguje, můžete zkusit pokro
 
 1. Po zobrazení varovného okna klikněte na *OK*:
 
-    ![Standard uninstall warning *border](https://cdn.adtidy.org/content/kb/vpn/windows/vpn_standard_warning.jpg)
+    ![Standard uninstall warning *border](https://cdn.adguard-vpn.com/content/kb/vpn/windows/vpn_standard_warning.jpg)
 
 1. Počkejte na dokončení odinstalace — zobrazí se fráze **Odinstalace dokončena** a výzva k restartování počítače:
 
@@ -49,7 +49,7 @@ Pokud běžná odinstalace z nějakého důvodu nefunguje, můžete zkusit pokro
 
 1. Po zobrazení varovného okna klikněte na *OK*:
 
-    ![Extended uninstall warning *border](https://cdn.adtidy.org/content/kb/vpn/windows/vpn_standard_warning.jpg)
+    ![Extended uninstall warning *border](https://cdn.adguard-vpn.com/content/kb/vpn/windows/vpn_standard_warning.jpg)
 
 1. Počkejte na dokončení odinstalace — zobrazí se fráze **Odinstalace dokončena** a výzva k restartování počítače:
 
