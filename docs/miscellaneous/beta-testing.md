@@ -17,7 +17,7 @@ To become an AdGuard VPN tester, you only need the device on which you will inst
 
 Once on the beta testing page, all you have to do is choose between the beta and the nightly versions, download the respective build and fill up the [form](https://surveys.adguard.com/en/vpn_beta_testing_program/form.html) to apply.
 
-::: note
+:::note
 
 To get the AdGuard for iOS beta or nightly build, first you have to install [Testflight](https://apps.apple.com/app/testflight/id899247664) on your iOS device.
 
