@@ -19,7 +19,7 @@ Once on the beta testing page, all you have to do is choose between the beta and
 
 ::: note
 
-To get the AdGuard for iOS beta or nightly build, first you have to install [Testflight](https://apps.apple.com/app/testflight/id899247664) on your iOS device.
+To get the AdGuard VPN for iOS beta or nightly build, first you have to install [Testflight](https://apps.apple.com/app/testflight/id899247664) on your iOS device.
 
 :::
 
