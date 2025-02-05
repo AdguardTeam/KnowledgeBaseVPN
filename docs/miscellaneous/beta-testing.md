@@ -27,8 +27,8 @@ To get the beta or nightly build of AdGuard VPN for iOS, you must first install 
 
 If you spot a bug in the build you are testing, or just want to share your suggestion with our developers, let us know: go to [GitHub](https://github.com/AdguardTeam/), find an appropriate repository, create a new issue there, and describe the bug/feature request in detail.
 
-The above method preferred, but you can use others if necessary:
+The above method is preferred, but you can use others if necessary:
 
-- Find us on [social media](https://adguardvpn-help.com/en/discuss.html). This is not the most efficient way to discuss technical matters, but we'll aways try to be helpful.
+- Find us on [social media](https://adguard-vpn.com/en/discuss.html). This is not the most efficient way to discuss technical matters, but we'll aways try to be helpful.
 
 - Email our support team from the Support tab in the app or write directly to [support@adguard.com](mailto:support@adguard.com).
