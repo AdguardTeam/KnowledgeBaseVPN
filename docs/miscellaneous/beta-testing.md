@@ -3,7 +3,7 @@ title: 'AdGuard VPN beta/nightly testing'
 sidebar_position: 2
 ---
 
-There is an AdGuard VPN app for virtually every major platform out there, and we regularly release updates for all of them. This would not be possible without beta and nightly testing and, more importantly, without our testers. Want to become one of them? Here's how you can do it.
+There is an AdGuard VPN app for virtually every major platform out there, and we regularly release updates for all of them. This would not be possible without beta and nightly testing and, more importantly, without our testers. Want to become one of them? Here’s how you can do it.
 
 ### Beta or nightly: what is the difference?
 
