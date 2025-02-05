@@ -5,7 +5,7 @@ sidebar_position: 2
 
 ## Requisitos do Sistema
 
-O AdGuard VPN só pode ser instalado em dispositivos com **Microsoft Windows 11/10/8.1/8/7/Vista SP2 (somente web)**.
+AdGuard VPN can only be installed on devices with **Microsoft Windows 11, 10, 8.1, 8, and Vista SP2 (web-based only)**.
 
 ## Instalação do AdGuard VPN para Windows
 
@@ -23,7 +23,7 @@ If you decide to remove AdGuard VPN from your computer, use one of three options
 
 ### Desinstalação avançada {#advanced}
 
-Caso a desinstalação regular não funcione por qualquer motivo, você pode tentar usar um método avançado. Antes de mais nada, é necessário [baixar a ferramenta de desinstalação](https://cdn.adtidy.org/distr/windows/Uninstall_Utility.zip) criada por nossos programadores. Extraia o arquivo para qualquer pasta em seu PC, execute o arquivo **Adguard.UninstallUtility.exe** e permita que o aplicativo faça alterações em seu dispositivo. Em seguida, siga as instruções abaixo:
+In case regular uninstall doesn’t work for any reason, you can try to use an advanced method. First of all, you need to [download the uninstaller tool](https://cdn.adguard-vpn.com/distr/windows/Uninstall_Utility.zip) created by our developers. Extraia o arquivo para qualquer pasta em seu PC, execute o arquivo **Adguard.UninstallUtility.exe** e permita que o aplicativo faça alterações em seu dispositivo. Em seguida, siga as instruções abaixo:
 
 1. Select *AdGuard VPN* and *Standard* uninstall type, then click *Uninstall*:
 
@@ -31,7 +31,7 @@ Caso a desinstalação regular não funcione por qualquer motivo, você pode ten
 
 1. Click *OK* once the warning window pops up:
 
-    ![Standard uninstall warning *border](https://cdn.adtidy.org/content/kb/vpn/windows/vpn_standard_warning.jpg)
+    ![Standard uninstall warning *border](https://cdn.adguard-vpn.com/content/kb/vpn/windows/vpn_standard_warning.jpg)
 
 1. Wait until uninstall is finished — there will be a phrase **Uninstall complete** and a prompt to restart your computer:
 
@@ -49,7 +49,7 @@ Caso a desinstalação regular não funcione por qualquer motivo, você pode ten
 
 1. Click *OK* once the warning window pops up:
 
-    ![Extended uninstall warning *border](https://cdn.adtidy.org/content/kb/vpn/windows/vpn_standard_warning.jpg)
+    ![Extended uninstall warning *border](https://cdn.adguard-vpn.com/content/kb/vpn/windows/vpn_standard_warning.jpg)
 
 1. Wait until uninstall is finished — there will be a phrase **Uninstall complete** and a prompt to restart your computer:
 

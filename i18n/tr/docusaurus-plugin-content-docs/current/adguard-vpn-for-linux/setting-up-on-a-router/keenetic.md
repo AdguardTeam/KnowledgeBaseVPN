@@ -49,7 +49,9 @@ To see how to set up SSH server to have optimal security settings, visit [the Ke
 
 2. _Varsayılan_ girişi arayın. Yanındaki IP adresi ise yönlendiricinizin IP adresidir.
 
-## 3) Yönlendiriciye bağlanmak için bir SSH istemcisi kullan
+<!-- comment -->
+
+## 3. Yönlendiriciye bağlanmak için bir SSH istemcisi kullanma
 
 You’ll need an SSH client. Çoğu Linux ve macOS sistemi önceden yüklenmiş bir SSH istemcisiyle birlikte gelir. Windows için, Windows 10/11'deki yerleşik SSH istemcisi olan PowerShell'i veya PuTTY gibi üçüncü taraf bir uygulamayı kullanabilirsiniz.
 
@@ -75,7 +77,9 @@ You’ll need an SSH client. Çoğu Linux ve macOS sistemi önceden yüklenmiş 
 
    `Evet` yazın ve Enter tuşuna basın.
 
-4. Enter the router’s password when prompted. The default username is `root` and the default password is `keenetic`.
+4. İstendiğinde yönlendiricinin parolasını girin. The default username is `root` and the default password is `keenetic`.
+
+<!-- comment -->
 
 ### PuTTY (Windows 8 ve öncesi)
 
@@ -83,13 +87,13 @@ You’ll need an SSH client. Çoğu Linux ve macOS sistemi önceden yüklenmiş 
 
 2. PuTTY'yi açın.
 
-3. In the _Host Name (or IP address)_ field, enter your router’s IP address (e.g., `192.168.1.1`)
+3. Ana Makine Adı (veya IP adresi)\* alanına yönlendiricinizin IP adresini girin (örneğin, `192.168.1.1`)
 
 4. _Bağlantı türü_ öğesinin SSH olarak ayarlandığından emin olun.
 
 5. _Aç_ öğesine tıklayın.
 
-6. When the Terminal window opens, log in. The default username is `root` and the default password is `keenetic`.
+6. Terminal penceresi açıldığında oturum açın. The default username is `root` and the default password is `keenetic`.
 
 Once logged in, you can use various commands to interact with your router’s Linux-based operating system.
 
@@ -97,21 +101,21 @@ Once logged in, you can use various commands to interact with your router’s Li
 
 USB portu bulunan Keenetic modellerinde (Keenetic 4G hariç) OPKG paket yöneticisini kullanabilirsiniz. Yönlendiricilerin yeteneklerini genişletmek için üçüncü taraf yazılım paketleri yüklemenize olanak tanır.
 
-Starting with version 3.7, for some Keenetic models, it is possible to write OPKG Entware to the [UBIFS](https://en.wikipedia.org/wiki/UBIFS) partition of the router's NAND flash memory, i.e. to the built-in memory of the router. Follow the steps below to install the Entware repository package system on a USB drive or in the router’s internal memory.
+Starting with version 3.7, for some Keenetic models, it is possible to write OPKG Entware to the [UBIFS](https://en.wikipedia.org/wiki/UBIFS) partition of the router’s NAND flash memory, i.e. to the built-in memory of the router. Entware depo paket sistemini bir USB belleğine veya yönlendiricinin dâhili belleğine yüklemek için aşağıdaki adımları izleyin.
 
-### How to install OPKG Entware on a USB drive
+### USB belleğine OPKG Entware nasıl yüklenir
 
-USB flaş bellekleri destekleyen USB portlarına sahip Keenetic modellerine OPKG paketlerini yüklemek mümkündür. Bunlar: KN-1410, KN-1710/1711, KN-1010/1011, KN-2510, KN-2410, KN-1810, KN-1910, KN-2310, KN-2010, KN-2110, KN-2610, KN-2710’dur.
+USB flaş bellekleri destekleyen USB portlarına sahip Keenetic modellerine OPKG paketlerini yüklemek mümkündür. These are: KN-1010/1011, KN-1410, KN-1710/1711, KN-1810, KN-1910, KN-2010, KN-2110, KN-2310, KN-2410, KN-2510, KN-2610, KN-2710.
 
 Ayrıntılı talimatlar için [resmi Keenetic Wiki](https://help.keenetic.com/hc/en-us/articles/360021214160-Installing-the-Entware-repository-package-system-on-a-USB-drive) adresini ziyaret edin.
 
-### How to install OPKG Entware in the router’s internal memory
+### Yönlendiricinin dâhili hafızasına OPKG Entware nasıl yüklenir
 
-This method will work with the following models: KN-1010/1011, KN-1810/1811, KN-1910, KN-2010, KN-2110, KN-2310, KN-2410, KN-2510, KN-2610, KN-2710, KN-3810, KN-3610 with the KeeneticOS version 3.7 and later.
+Bu yöntem şu modellerle çalışır: KN-1010/1011, KN-1810/1811, KN-1910, KN-2010, KN-2110, KN-2310, KN-2410, KN-2510, KN-2610, KN-2710, KN-3810, KN-3610 ve KeeneticOS sürüm 3.7 ve üzeri.
 
-For detailed instructions, visit [the official Keenetic Wiki](https://help.keenetic.com/hc/en-us/articles/360021888880-Installing-OPKG-Entware-in-the-router-s-internal-memory).
+Ayrıntılı talimatlar için [resmi Keenetic Wiki](https://help.keenetic.com/hc/en-us/articles/360021888880-Installing-OPKG-Entware-in-the-router-s-internal-memory) adresini ziyaret edin.
 
-If your router doesn’t support installing packages on its internal memory, follow the instructions for installing packages on a USB drive.
+Yönlendiriciniz paketlerin dâhili belleğe yüklenmesini desteklemiyorsa, paketleri bir USB belleğe yüklemek için talimatları izleyin.
 
 ## 5. Install AdGuard VPN CLI
 
@@ -121,13 +125,13 @@ SSH istemcinizde, AdGuard VPN CLI için gerekli paketleri yüklemek için aşağ
 opkg install curl sudo ca-certificates
 ```
 
-Go to the `/opt` folder by typing `/cd opt` and run the AdGuard VPN CLI installation script:
+`/cd opt` komutunu çalıştırarak `/opt` klasörüne gidin ve AdGuard VPN CLI yükleme betiğini çalıştırın:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/release/install.sh | sh -s -- -v
 ```
 
-When asked “Would you like to link the binary to /usr/local/bin?“, reply `n` and run this line:
+When asked “Would you like to link the binary to `/usr/local/bin?`“, reply `n` and run this line:
 
 ```bash
 ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
@@ -216,7 +220,7 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
 
 4. "TUN modunda varsayılan yönlendirmeleri ayarlamak ister misiniz?" diye sorulduğunda `evet` girin
 
-AdGuard VPN CLI, VPN tünellemesi için bir tun0 arayüzü oluşturacaktır
+AdGuard VPN CLI, VPN tünellemesi için bir tun0 arayüzü oluşturur.
 
 ## 7. Set up firewall rules
 
@@ -259,9 +263,9 @@ This will create a new shell script named `001-adguardvpn.sh` in the `/opt/et
 
 Betik, LAN'ınızdan (`br0`) gelen trafiğin AdGuard VPN arayüzü (`tun0`) üzerinden yönlendirilmesini sağlamak için özel bir güvenlik duvarı kuralı oluşturur. Öncelikle bu yapılandırmayla ilgili önceki kuralları temizler, ardından trafiği uygun şekilde yönlendirecek yeni kurallar oluşturur.
 
-## 8. Set up automatic launch for AdGuard VPN CLI
+## 8. AdGuard VPN CLI için otomatik başlatmayı ayarlama
 
-The following script is designed to automatically establish a VPN connection using AdGuard VPN on your Keenetic router when the WAN interface becomes available (e.g., after a reboot or reconnecting to the Internet).
+Aşağıdaki betik, WAN arayüzü kullanılabilir olduğunda (örneğin, bir yeniden başlatma veya internete yeniden bağlanma sonrası) Keenetic yönlendiricinizde AdGuard VPN kullanarak otomatik olarak bir VPN bağlantısı kurmak için tasarlanmıştır.
 
 Aşağıdaki komutu çalıştırın:
 

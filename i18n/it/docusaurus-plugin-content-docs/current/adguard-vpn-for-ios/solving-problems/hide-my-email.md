@@ -13,7 +13,7 @@ La funzionalità è disponibile soltanto per iOS 15 e superiori e richiede un ab
 
 To use this feature, go to *Settings* → [Your Apple ID name] → *iCloud* → *Hide My Email*, tap *+ Create new address* and follow the on-screen instructions.
 
-Puoi generare un indirizzo email casuale e univoco che inoltri i messaggi in entrata al tuo indirizzo reale. It might look like this: chimney.floture_0s@privaterelay.appleid.com. Non esiste un limite massimo del numero di indirizzi email che puoi creare. Puoi classificarli con etichette e utilizzare ognuno di essi per scopi differenti: iscrizioni, ricezione di newsletter, etc. Apple garantisce che i contenuti dei messaggi gestiti tramite il servizio *Nascondi la mia email* non siano ispezionati, oltre al filtraggio antispam standard.
+Puoi generare un indirizzo email casuale e univoco che inoltri i messaggi in entrata al tuo indirizzo reale. It might look like this: chimney.floture_0s@icloud.com. Non esiste un limite massimo del numero di indirizzi email che puoi creare. Puoi classificarli con etichette e utilizzare ognuno di essi per scopi differenti: iscrizioni, ricezione di newsletter, etc. Apple garantisce che i contenuti dei messaggi gestiti tramite il servizio *Nascondi la mia email* non siano ispezionati, oltre al filtraggio antispam standard.
 
 The *Hide My Email* feature is also available in Apple’s Mail app. Per inviare un'email senza rivelare il tuo indirizzo email reale, basta selezionare *Nascondi la mia email* nel campo *Da*, durante la composizione del tuo messaggio.
 

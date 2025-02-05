@@ -1,9 +1,9 @@
 ---
-title: Setting up on a router
+title: Einrichtung auf einem Router
 sidebar_position: 1
 ---
 
-Learn how to set up AdGuard VPN for Linux on a router.
+Erfahren Sie, wie Sie AdGuard VPN für Linux auf einem Router einrichten.
 
 - [Anleitung für Keenetic-Router](/adguard-vpn-for-linux/setting-up-on-a-router/keenetic.md)
 

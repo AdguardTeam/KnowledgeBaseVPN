@@ -144,12 +144,46 @@ adguardvpn-cli config set-debug-logging on
 
 Po exportu protokolů toto nastavení zakažte.
 
-## Show notificatoins
+## Zobrazení oznámení
 
-The setting is responsible for the appearance of system notifications when AdGuard VPN is turned on/off or waiting for reconnection, for example:
+Toto nastavení je zodpovědné za zobrazení systémových oznámení například při zapnutí/vypnutí AdGuard VPN nebo při čekání na opětovné připojení:
 
-- A user turns VPN on — the _VPN connected_ notification appears.
-- A user turns VPN off — the \*VPN disconnected notification appears.
-- A user is waiting for the VPN connection to be recovered — the _Waiting for connection_ notification appears.
+- Uživatel zapne VPN — objeví se oznámení _VPN připojena_.
+- Uživatel vypne VPN — objeví se oznámení _VPN odpojena_.
+- Uživatel čeká na obnovení připojení VPN — objeví se oznámení _Čekání na připojení_.
 
   adguardvpn-cli config set-show-notifications on
+
+## Výjimky
+
+Existují dva režimy. V _Obecném_ režimu nejsou webové stránky ze seznamu výjimek směrovány skrze VPN. V _Selektivním_ režimu jsou skrze VPN směrovány pouze webové stránky ze seznamu výjimek. Pro každý režim existuje samostatný seznam výjimek.
+
+Chcete-li si přečíst, co všechno můžete dělat s výjimkami, napište to do rozhraní příkazového řádku: `adguardvpn-cli site-exclusions -h`.
+
+Zde jsou hlavní možnosti:
+
+1. **add** přidá zadané výjimky
+
+   Příklad: `adguardvpn-cli site-exclusions add`, kde `%DOMAIN_NAME%` je webová stránka, kterou chcete přidat do výjimek.
+
+   :::note
+
+   Chcete-li přidat mnoho výjimek, musíte je zadat oddělené čárkami.
+
+   :::
+
+2. **clear** vymaže seznam výjimek v aktuálním režimu
+
+   Příklad: `adguardvpn-cli site-exclusions clear`
+
+3. **mode** zobrazuje aktuální režim a umožňuje mezi nimi přepínat
+
+   Příklad: `adguardvpn-cli site-exclusions mode selective` (tímto příkazem je zvolen selektivní režim)
+
+4. **remove** odstraní jednu nebo více výjimek (pokud jsou odděleny čárkami)
+
+   Příklad: `adguardvpn-cli site-exclusions remove %DOMAIN_NAME%`, kde `%DOMAIN_NAME%` je webová stránka, kterou chcete odstranit z výjimek.
+
+5. **show** zobrazí aktuální seznam výjimek
+
+   Příklad: `adguardvpn-cli site-exclusions show`

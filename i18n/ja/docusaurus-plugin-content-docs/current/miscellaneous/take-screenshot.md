@@ -1,5 +1,5 @@
 ---
-title: 'スクリーンショットの撮り方'
+title: スクリーンショットの撮り方
 sidebar_position: 4
 ---
 

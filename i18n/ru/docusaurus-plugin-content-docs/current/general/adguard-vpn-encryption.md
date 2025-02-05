@@ -1,5 +1,5 @@
 ---
-title: 'Какой тип шифрования используется в AdGuard VPN'
+title: Какой тип шифрования используется в AdGuard VPN
 sidebar_position: 7
 ---
 

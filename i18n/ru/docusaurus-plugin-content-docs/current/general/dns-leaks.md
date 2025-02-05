@@ -1,5 +1,5 @@
 ---
-title: 'Что такое DNS-утечка'
+title: Что такое DNS-утечка
 sidebar_position: 9
 ---
 

@@ -32,42 +32,42 @@ VPN создает защищенное соединение с другой с�
 
 ## Исключения
 
-You can find the Exclusions tab by tapping the second icon in the bottom bar.
+Вы можете найти вкладку «Исключения», нажав на вторую иконку в нижней панели.
 
-By default, AdGuard VPN is active for all websites except those added to Exclusions. You can also turn it on selectively — VPN will be active only for specified websites. To switch to this mode, tap *Change mode*.
+По умолчанию, AdGuard VPN активен для всех сайтов, кроме тех, что добавлены в исключения. Вы также можете включить его выборочно — VPN будет активен только для указанных сайтов. Чтобы переключиться на этот режим, нажмите *Изменить режим*.
 
 :::note
 
-Each mode has its own exclusion list.
+У каждого режима свой список исключений.
 
 :::
 
-You can add domains (e.g., `google.com`) or subdomains (e.g., `news.google.com`) of websites to the lists in three ways:
+Вы можете добавить домены (например, `google.com`) или поддомены (например, `news.google.com`) сайтов в списки тремя способами:
 
 - Введите их вручную в приложении
-- [Choose from domain lists for popular services](#domain-lists-for-popular-services)
-- Add them directly from the browser by sharing the desired pages to the AdGuard VPN app
+- [Выберите из списков доменов для популярных сервисов](#domain-lists-for-popular-services)
+- Добавьте их прямо из браузера, поделившись нужными страницами с помощью AdGuard VPN
 
-![Исключения *mobile_border](https://cdn.adtidy.org/blog/new/lpjs7iexclusions-as-of-v2-4.png)
+![Исключения *mobile_border](https://cdn.adguard-vpn.com/blog/new/lpjs7iexclusions-as-of-v2-4.png)
 
-When you manually add a domain, all subdomains are added automatically (it looks like `*.google.com`). Want to keep only google.com or turn VPN off for a specific domain? Tap the line with the website — this will open a separate screen where you can manage subdomains. Just uncheck the boxes for the ones you don't need.
+Когда вы вручную добавляете домен, все поддомены добавляются автоматически (это выглядит как `*.google.com`). Хотите оставить только google.com или отключить VPN для конкретного домена? Нажмите на строку с сайтом — это откроет отдельный экран, где вы можете управлять поддоменами. Просто снимите флажки с тех, которые вам не нужны.
 
-![Subdomains *mobile_border](https://cdn.adtidy.org/content/release_notes/vpn/ios/v2.4/domains_en.png)
+![Поддомены *mobile_border](https://cdn.adguard-vpn.com/content/release_notes/vpn/ios/v2.4/domains_en.png)
 
-If you manually add a subdomain, the main domain will also added — but the checkbox next to it will not be checked.
+Если вы вручную добавляете поддомен, основной домен также будет добавлен — но флажок рядом с ним не будет установлен.
 
-### Domain lists for popular services
+### Списки доменов для популярных сервисов
 
-Large services like Google are tricky. They usually use more than one domain — one for media files, another for the API, plus domains for different countries. For example, in the case of Google, we have 416 domains in our list — all of them need to be added to Exclusions to completely turn VPN off (or on) for the service.
+С крупными сервисами, такими как Google, дело обстоит сложнее. Обычно они используют более одного домена — один для медиафайлов, другой для API, а также домены для разных стран. Например, в случае с Google у нас в списке 416 доменов — все они должны быть добавлены в исключения, чтобы полностью отключить (или включить) VPN для сервиса.
 
-Here's how to add all necessary domains for a popular service to exclusion list:
+Вот как добавить все необходимые домены для популярного сервиса в список исключений:
 
-1. Open *Exclusions*.
-2. Tap *Add website*.
-3. Tap *From list*.
-4. Find the desired service in the list and tap *Add*.
+1. Откройте *Исключения*.
+2. Нажмите *Добавить сайт*.
+3. Нажмите *Из списка*.
+4. Найдите нужный сервис в списке и нажмите *Добавить*.
 
-![List of popular services *mobile_border](https://cdn.adtidy.org/content/release_notes/vpn/ios/v2.4/add_website_en.png)
+![Список популярных сервисов *mobile_border](https://cdn.adguard-vpn.com/content/release_notes/vpn/ios/v2.4/add_website_en.png)
 
 ### Импорт/экспорт исключений
 

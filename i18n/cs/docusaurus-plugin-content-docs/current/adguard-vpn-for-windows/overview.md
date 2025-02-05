@@ -19,9 +19,11 @@ Chcete-li začít používat AdGuard VPN pro Windows, stáhněte si aplikaci z [
 
 ## Domovská obrazovka
 
-![AdGuard VPN for Windows homepage *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/home_en.jpg)
+![Home screen](https://cdn.adguardvpn.com/content/kb/vpn/windows/saved_locations.png)
 
-Nejvýraznější položkou na **Domovské obrazovce** je tlačítko AdGuard VPN Připojit/Odpojit, pod nímž je zobrazen vybraný server. Na pravé straně obrazovky se zobrazí seznam dostupných umístění. Nejrychlejší umístění, tj. umístění s nejmenší odezvou ping se zobrazí na začátku seznamu. K dispozici je také tlačítko pro obnovení, na které můžete kliknout, pokud jsou některá místa offline.
+Nejvýraznější položkou na **Domovské obrazovce** je tlačítko AdGuard VPN *Připojit/Odpojit*, pod nímž je zobrazen vybraný server. Na pravé straně obrazovky se zobrazí seznam dostupných umístění. Nejrychlejší umístění, tj. umístění s nejmenší odezvou ping se zobrazí na začátku seznamu. K dispozici je také tlačítko pro obnovení, na které můžete kliknout, pokud jsou některá místa offline.
+
+Můžete si také uložit oblíbená umístění, abyste k nim měli rychlý přístup. Stačí najet na umístění, kliknout na ikonu záložky, která se zobrazí, a umístění se uloží. Označená umístění se pak zobrazí na kartě *Uložené*.
 
 V horní části obrazovky je navigační panel s pěti kartami: **Domů**, **Výjimky**, **Statistiky**, **Podpora** a **Nastavení**.
 
@@ -29,9 +31,9 @@ V horní části obrazovky je navigační panel s pěti kartami: **Domů**, **V�
 
 Ve výchozím nastavení funguje AdGuard VPN pro Windows všude. Do seznamu výjimek můžete přidat webové stránky a aplikace, které chcete z tunelu VPN vyloučit. Nebo můžete nastavit, aby AdGuard VPN fungoval pouze na webových stránkách a aplikacích uvedených v seznamu výjimek. Upozorňujeme, že tyto dva seznamy jsou na sobě nezávislé.
 
-![Exclusions *border](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_new_en.png)
+![Exclusions *border](https://cdn.adguardvpn.com/content/kb/VPN/windows/new_exclusions_screen.png)
 
-Webové stránky můžete do výjimek **přidat ručně** zadáním názvů jejich domén. Aplikace také nabízí možnost vybrat si oblíbené weby **ze seznamu**.
+Webové stránky můžete do výjimek přidat **ručně** zadáním názvů jejich domén. Aplikace také nabízí možnost vybrat si oblíbené weby **ze seznamu**.
 
 ![Add Exclusions from list *border](https://cdn.adguardvpn.com/content/kb/VPN/windows/new_exclusions_from_list_en.png)
 
@@ -106,7 +108,7 @@ Jedná se o experimentální funkci, která umožňuje AdGuardu používat pokro
 
 #### Použít WinTun
 
-![Use WinTun *border](https://cdn.adtidy.org/content/release_notes/vpn/windows/v2.2/stats_tab_v2.2_en.png)
+![Use WinTun *border](https://cdn.adguard-vpn.com/content/release_notes/vpn/windows/v2.2/stats_tab_v2.2_en.png)
 
 WinTun je ovladač směrování provozu, který se běžně používá pro implementace VPN v systému Windows a který zlepšuje kvalitu připojení VPN vytvořením virtuálního síťového adaptéru. Ve výchozím nastavení používá AdGuard VPN běžný ovladač WFP (a ovladač TDI pro Windows 7).
 

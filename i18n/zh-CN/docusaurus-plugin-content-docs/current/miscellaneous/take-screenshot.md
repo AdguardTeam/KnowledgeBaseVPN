@@ -1,5 +1,5 @@
 ---
-title: '如何进行屏幕截图'
+title: 如何进行屏幕截图
 sidebar_position: 4
 ---
 

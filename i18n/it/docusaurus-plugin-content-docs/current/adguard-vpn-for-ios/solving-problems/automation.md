@@ -8,39 +8,44 @@ Non è presente alcuna esclusione di app su AdGuard VPN per iOS. Tuttavia, è po
 
 ## Configuring automatic connection to VPN
 
-Se hai bisogno di una VPN per una o più app, configura AdGuard VPN in modo che si accenda e si spenga automaticamente quando le apri e le chiudi. Accedere alla scheda Esclusioni, selezionare la modalità Generale e seguire le istruzioni. Qui descriviamo come creare l'automazione per Twitter, ma puoi scegliere qualsiasi altra app.
+Se hai bisogno di una VPN per una o più app, configura AdGuard VPN in modo che si accenda e si spenga automaticamente quando le apri e le chiudi. Here is how to create an automation for that.
 
-![Istruzioni. Parte 1](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_on1_en.jpg)
+1. Download [the *Shortcuts* app](https://apps.apple.com/us/app/shortcuts/id915249334) from the App Store and go to the *Automation* section by tapping the clock icon at the bottom of the screen.
 
-1. Scaricare [l'applicazione *Shortcuts*](https://apps.apple.com/us/app/shortcuts/id915249334) dall'App Store e accedere alla sezione *Automazione* toccando l'icona dell'orologio nella parte inferiore dello schermo.
-2. Toccare il pulsante *Crea automazione personale*, quindi trovare *App* nell'elenco che si apre e toccarlo.
-3. Nella finestra successiva, assicurarsi che l'opzione *È aperta* sia selezionata, quindi toccare *Scegliere* per scegliere l'applicazione.
+1. Tap *New Automation* or + (if you already have another automation). In the *Personal Automation* list that opens, scroll to find *App* and tap it.
 
-![Istruzioni. Parte 2](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_on2_en.jpg)
-4. Start entering the name of the app (in our case it’s Twitter) and select it. Tocca su *Fatto*, quindi su *Avanti* nell'angolo superiore destro della schermata. Nella finestra aperta, tocca su *Aggiungi azione*.
+    ![New Automation](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/newautomation.png)
 
-![Istruzioni. Parte 3](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_on3_en.jpg)
-5. Iniziare a digitare "AdGuard VPN" e selezionare l'applicazione AdGuard VPN. Nella nuova finestra toccare *Impostare una connessione VPN*.
+1. Select the *Is Opened* checkbox, select *Run Immediately* (if you don’t want to confirm the VPN launch manually), and leave the slider next to the *Ask before running* option to the inactive position.
 
-![Istruzioni. Parte 4](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_on4_en.jpg)
-6. Assicurarsi che le variabili dicano *Attivare* la connessione VPN *On* e toccare *Avanti*.
-7. Nella finestra successiva, spostare il cursore accanto all'opzione *Chiedi prima di eseguire* nella posizione inattiva. Conferma la tua scelta, quindi tocca su *Fatto*.
+    ![Is Opened](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/isopened.png)
 
-Ora hai un nuovo scenario: AdGuard VPN verrà abilitato automaticamente quando avvii l'app Twitter. Ora è necessario creare un altro comando per far sì che AdGuard VPN si spenga automaticamente quando si chiude l'applicazione.
+1. Tap *Choose* next to the *App*, select the app you’re setting up the VPN for, tap *Done* and *Next*.
+
+    ![App](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/app.png)
+
+1. Tap *New Blank Automation* in *Get Started*, find AdGuard VPN, tap *Set VPN connection*, select *Turn VPN connection On*, and tap *Done*.
+
+    ![Blank Automation](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/blankautomation.png) ![Set VPN connection](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/setvpnconnection.png) ![Turn VPN connection On](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/turnvpnconnectionon.png)
+
+Now AdGuard VPN will be automatically enabled when you open the app you’ve set up automation for. If you’d like to, you can create another command that will make AdGuard VPN automatically turn off when you close the app.
 
 ## Configuring automatic disconnection from VPN
 
-![Istruzioni. Parte 1](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_off1_en.jpg)
+1. In the same *Shortcuts* app start creating a new automation: tap +, scroll and tap *App* in the list.
 
-1. Nella stessa app delle *Scorciatoie*, inizia a creare una nuova automatizzazione: tocca su *Automatizzazione* → *Crea automatizzazione personale* → *App*.
-2. Assicurarsi che sia selezionata l'opzione *È chiuso* e deselezionare la casella sotto l'opzione adiacente. Quindi fare clic su *Scegliere*.
+    ![Plus](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/plus.png)
 
-![Istruzioni. Parte 2](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_off2_en.jpg)
-3. Iniziare a inserire *Twitter* e selezionare l'app. Quindi premi *Fatto* nell'angolo superiore destro dello schermo. Toccare *Aggiungi azione* e selezionare AdGuard VPN.
+1. Select the *Is Closed* checkbox, select *Run Immediately*, and leave the slider next to the *Ask before running* option to the inactive position.
 
-![Istruzioni. Parte 3](https://cdn.adguardvpn.com/public/Adguard/Blog/VPNauto/vpn_off3_en.jpg)
-4. Nella nuova finestra toccare *Impostare connessione VPN*.
-5. Quindi toccare la parola *On* in modo che si trasformi nella parola *Off*, quindi toccare *Next* nell'angolo superiore destro dello schermo.
-6. Disattivare l'opzione *Chiedi prima di eseguire* e confermare la selezione. Quindi tocca *Fatto* nell'angolo in alto a destra dello schermo per completare il processo.
+    ![Is Closed](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/isclosed.png)
 
-Tutto fatto! AdGuard VPN verrà ora attivato sul dispositivo ogni volta che si apre l'app di Twitter e disattivato quando la si chiude. È possibile ripetere la stessa procedura per qualsiasi altra applicazione.
+1. Tap *Choose* next to the *App*, select the app you’re setting up the VPN for (in our example, it’s Instagram), tap *Done* and *Next*.
+
+1. Tap *New Blank Automation* in *Get Started*, find AdGuard VPN, tap *Set VPN connection*, select *Turn VPN connection Off*, and tap *Done*.
+
+    ![Turn VPN connection Off](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/turnvpnconnectionoff.png)
+
+Done! AdGuard VPN will now be disabled on your device every time you close the app you’ve set up automation for. You can repeat the same steps for any other app.
+
+![Done](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/done.png)

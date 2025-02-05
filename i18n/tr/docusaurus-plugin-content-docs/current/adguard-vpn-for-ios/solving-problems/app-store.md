@@ -11,11 +11,11 @@ Bazı ülkelerde AdGuard VPN, App Store'da mevcut değildir. Durumunuz buysa uyg
 
 ### Mevcut hesabınızın bölgesini değiştirme
 
-1. Go to the Apple ID screen and tap _Media & Purchases_ → _View Account_.
+1. Apple Kimliği ekranına gidin ve _Ortamlar ve Satın Almalar_ → _Hesabı Görüntüle_ öğesine dokunun.
 
 2. _Ülke/Bölge_ → _Ülke veya Bölgeyi Değiştir_ öğesine dokunun.
 
-   ![Bölge değiştiriliyor](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/changing_country.png)
+   ![Changing region](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/changing_country.png)
 
 3. Listeden tercih ettiğiniz ülkeyi seçin (örneğin, _Amerika Birleşik Devletleri_), Şartlar ve Koşulları kabul edin.
 
@@ -33,7 +33,7 @@ Bazı ülkelerde AdGuard VPN, App Store'da mevcut değildir. Durumunuz buysa uyg
 
 5. _Sonraki_ öğesine dokunun.
 
-   ![Yeni bölge \*border](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/new_country.png)
+   ![New region \*border](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/new_country.png)
 
 Bölgeyi değiştirdikten sonra, [AdGuard VPN'i App Store'dan tekrar indirmeyi](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602) deneyin.
 
@@ -59,13 +59,13 @@ App Store'da ücretli abonelikleri olan ve yalnızca farklı bölgelerden ücret
 
 2. _Ortamlar ve Satın Almalar_ → _Çıkış Yap_ öğesini seçin. Bu, telefonunuzda Apple Kimliğinizle oturumunuzu açık tutarken yalnızca App Store'dan çıkış yapmanızı sağlar.
 
-3. Tap on _Media & Purchases_ again and select _Not [your name]?_ You will be prompted to sign in with a different Apple ID.
+3. _Ortamlar ve Satın Almalar_ öğesine tekrar dokunun ve _[Adınız] değil misiniz?_ öğesini seçin. Farklı bir Apple Kimliği ile oturum açmanız istenecektir.
 
-   ![Hesap değiştiriliyor](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/log_out.png)
+   ![Changing account](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/log_out.png)
 
 4. Yeni hesabınızın e-posta adresini ve parolasını girin.
 
-   ![Giriş yap \*mobile\_border](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/apple_id.png)
+   ![Login \*mobile\_border](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/apple_id.png)
 
 Bu kadar! Şimdi tekrar [App Store'dan AdGuard VPN'i indirmeyi](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602) deneyin.
 

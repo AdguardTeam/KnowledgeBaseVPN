@@ -1,5 +1,5 @@
 ---
-title: 'AdGuard VPN 베타 테스팅 프로그램'
+title: AdGuard VPN 베타 테스팅 프로그램
 sidebar_position: 2
 ---
 

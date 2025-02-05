@@ -40,10 +40,10 @@ Při přidávání webové stránky do seznamu výjimek ji můžete zadat ručn�
 
 Můžete nejen přidávat a odebírat webové stránky, ale také přenášet připravené seznamy výjimek do jiných zařízení, kde je AdGuard VPN nainstalována. Chcete-li exportovat seznam výjimek, postupujte podle následujících čtyř kroků:
 
-1. Otevřete rozšíření prohlížeče AdGuard VPN, odkud chcete exportovat seznamy výjimek. Vyhledejte příslušný oddíl a klikněte na tlačítko "Exportovat". Stáhne se archiv `exclusions.zip`.
+1. Otevřete rozšíření prohlížeče AdGuard VPN, odkud chcete exportovat seznamy výjimek. Vyhledejte příslušný oddíl a klikněte na tlačítko *Exportovat*. Stáhne se archiv `exclusions.zip`.
 1. Uvnitř archivu jsou dva soubory `.txt`, jeden pro Obecný a druhý pro Selektivní seznam. Můžete k nim přidat další výjimky, odstranit stávající, přejmenovat soubory nebo nechat archiv tak, jak je.
 1. Při přenosu mezi různými zařízeními odešlete soubor `.zip` do zařízení pro import.
-1. V tomto zařízení otevřete AdGuard VPN. Vyhledejte příslušnou sekci, klikněte na tlačítko "Importovat" a vyberte archiv. Hotovo!
+1. V tomto zařízení otevřete AdGuard VPN. Vyhledejte příslušnou sekci, klikněte na tlačítko *Importovat* a vyberte archiv. Hotovo!
 
 ## Účet
 

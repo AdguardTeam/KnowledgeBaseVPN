@@ -1,9 +1,9 @@
 ---
-title: 'Proč je AdGuard VPN tou lepší volbou'
+title: Proč je AdGuard VPN tou lepší volbou
 sidebar_position: 2
 ---
 
-Když se uživatelé rozhodují o [dlouhodobém předplatném VPN](/general/subscription), nejčastěji hodnotí rychlost, zabezpečení a cenu. To jsou velmi důležité body, ale je toho mnohem víc! AdGuard VPN má tucet klíčových výhod, které z ní dělají "lepší možnost".
+Když se uživatelé rozhodují o [dlouhodobém předplatném VPN](/general/subscription), nejčastěji hodnotí rychlost, zabezpečení a cenu. To jsou velmi důležité body, ale je toho mnohem víc! AdGuard VPN má tucet klíčových výhod, které z ní dělají “lepší možnost“.
 
 *Začněme tím, že si projdeme bezkonkurenční funkce AdGuard VPN, které nenajdete u žádné jiné VPN.*
 
@@ -29,7 +29,7 @@ Spoléhat se na DNS server poskytovaný ve výchozím nastavení poskytovatelem 
 
 Doporučujeme používat server AdGuard DNS: blokuje reklamy, slídiče a chrání vaše zařízení před malwarem.
 
-![DNS servers](https://cdn.adtidy.org/blog/new/lkarpag_dns_screen_en.png)
+![DNS servers](https://cdn.adguard-vpn.com/blog/new/lkarpag_dns_screen_en.png)
 
 ## 4. Nejrychlejší umístění
 

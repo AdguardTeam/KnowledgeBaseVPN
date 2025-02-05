@@ -11,11 +11,11 @@ _Alt seviye ayarların_ değiştirilmesi AdGuard VPN'in performansında sorunlar
 
 :::
 
-To access _Low-level settings_, open the AdGuard VPN app and tap the gear icon in the lower right corner of the screen. Then choose _General_ → _Advanced_ → _Low-level settings_.
+_Alt seviye ayarlara_ erişmek için AdGuard VPN uygulamasını açın ve ekranın sağ alt köşesindeki dişli çark simgesine dokunun. Then choose _General_ → _Advanced_ → _Low-level settings_.
 
 ## Alt seviye ayarları
 
-Aşağıda Android için AdGuard VPN'de bulunan tüm alt seviye ayarları listeliyor ve bunların ne işe yaradığını açıklıyoruz. We once again urge you not to mess with these settings blindly even if you’ve read this guide. Treat it as a cheat sheet for when you know what you are doing but want to brush up on specifics.
+Aşağıda Android için AdGuard VPN'de bulunan tüm alt seviye ayarları listeliyor ve bunların ne işe yaradığını açıklıyoruz. Bu kılavuzu okumuş olsanız bile bu ayarlarla körü körüne oynamamanızı bir kez daha öneriyoruz. Bunu ne yaptığınızı bildiğiniz ancak ayrıntıları tazelemek istediğiniz zamanlar için bir kopya kağıdı olarak düşünün.
 
 ### AdGuard VPN protokolü
 
@@ -23,9 +23,9 @@ AdGuard VPN protokolü varsayılan olarak tespit edilmeyi önlemek ve yüksek h�
 
 AdGuard VPN'i bunun yerine QUIC aktarım protokolünü kullanacak şekilde değiştirebilirsiniz. [QUIC](https://adguard-vpn.com/kb/general/why-adguard-vpn/#6-quic-support) nispeten yeni bir protokoldür, bu nedenle daha az kararlı olabilir. However, if your Internet connection is unstable (for example, when you connect to the public Wi-Fi), it provides better security and increases the connection speed thanks to the [Head-Of-Line Blocking](https://adguard-dns.io/en/blog/dns-over-quic.html#headoflineblocking) technology.
 
-### Include Wi-Fi gateway in VPN routes
+### Wi-Fi ağ geçidini VPN yönlendirmelerine dâhil et
 
-If this setting is enabled, the gateway IP addresses will be added to VPN routes when on Wi-Fi.
+Bu ayar etkinleştirildiğinde, Wi-Fi kullanıldığında ağ geçidi IP adresleri VPN yönlendirmelerine eklenecektir.
 Bunu devre dışı bırakırsanız, yönlendirme yapılandırması (filtrelenen IP aralıkları) değişecektir. Kullanıcının bağlı olduğu ağın Wi-Fi ağ geçidi hariç tutulacak ve bu nedenle filtrelemeye tabi olmayacaktır.
 
 Bu ayar varsayılan olarak etkindir.

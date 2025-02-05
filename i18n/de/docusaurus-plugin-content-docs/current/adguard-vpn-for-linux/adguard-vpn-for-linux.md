@@ -9,7 +9,7 @@ Below are commands you may need to log in, connect, and manage AdGuard VPN’s s
 
 - [Installation and removal](/adguard-vpn-for-linux/installation)
 - [Anmeldung, Verbindung und Aktualisierung](/adguard-vpn-for-linux/login)
-- [Setting up on a router](/adguard-vpn-for-linux/setting-up-on-a-router)
+- [Einrichtung auf einem Router](/adguard-vpn-for-linux/setting-up-on-a-router)
 - [Einstellungen](/adguard-vpn-for-linux/settings)
 - [Senden von Feedback](/adguard-vpn-for-linux/feedback)
 

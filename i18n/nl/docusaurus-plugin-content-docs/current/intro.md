@@ -12,9 +12,9 @@ Met een VPN kun je een beveiligde verbinding maken met een ander netwerk op het 
 
 Aanvankelijk werden VPN's gemaakt om bedrijfsnetwerken veilig via internet te verbinden, zodat mensen vanuit huis verbinding konden maken met het bedrijfsnetwerk. Today, this technology is used for many other things: for example, to browse the Internet anonymously or to protect your online activity from prying eyes while using public Wi-Fi.
 
-A VPN connects a user's computer or mobile device to a server and allows one to browse the net using a "cover" IP address. Derden kunnen dus niet het echte IP-adres van de gebruiker zien, waardoor het bijna onmogelijk is om ze te traceren.
+A VPN connects a user’s computer or mobile device to a server and allows one to browse the net using a “cover” IP address. Thus, third-party observers cannot see the user’s real IP address, which makes it nearly impossible to trace them.
 
-The first thing that users mention in relation to VPN is traffic encryption and the security derived from it. Maar wat betekent het? Een VPN creëert een gecodeerde tunnel tussen het apparaat van de gebruiker en de externe server. Al je webverkeer gaat door deze tunnel, zodat je gegevens onderweg worden beschermd. Voor de externe waarnemer verlaat je verkeer de VPN-server, dus het lijkt alsof je apparaat het IP-adres van deze server heeft. Deze truc verhult de identiteit en werkelijke locatie van de gebruiker.
+The first thing that users mention in relation to VPN is traffic encryption and the security derived from it. Maar wat betekent het? A VPN creates an encrypted tunnel between the user’s device and the remote server. Al je webverkeer gaat door deze tunnel, zodat je gegevens onderweg worden beschermd. Voor de externe waarnemer verlaat je verkeer de VPN-server, dus het lijkt alsof je apparaat het IP-adres van deze server heeft. This trick masks the user’s identity and true location.
 
 VPN kan worden gebruikt om:
 

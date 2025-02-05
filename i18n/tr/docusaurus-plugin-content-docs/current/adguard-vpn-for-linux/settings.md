@@ -3,7 +3,7 @@ title: Ayarlar
 sidebar_position: 4
 ---
 
-Linux için AdGuard VPN ayarlarını komut satırından yönetebilirsiniz. Geçerli yapılandırmayı görüntülemek için şunu yazın:
+Linux için AdGuard VPN ayarlarını komut satırından yönetebilirsiniz. Mevcut yapılandırmayı görüntülemek için şunu yazın:
 
 ```
 adguardvpn-cli config show
@@ -41,14 +41,14 @@ SOCKS dinleme ana makinesini ayarlamak için şunu yazın:
 adguardvpn-cli config set-socks-host <host>
 ```
 
-`<host>` yerine kullanmak istediğiniz ana makineyi yazın. Using a host other than 127.0.0.1 requires setting a username and password. To set the SOCKS username and password, type:
+`<host>` yerine kullanmak istediğiniz ana makineyi yazın. 127.0.0.1 dışındaki bir ana makineyi kullanmak için kullanıcı adı ve parola ayarlanması gerekir. SOCKS kullanıcı adı ve parolasını ayarlamak için şunu yazın:
 
 ```
 adguardvpn-cli config set-socks-username <username>
 adguardvpn-cli config set-socks-password <password>
 ```
 
-`<username>` ve `<password>` ifadelerini istediğiniz kullanıcı adı ve parolayla değiştirin. To clear the SOCKS username and password, type:
+`<username>` ve `<password>` ifadelerini istediğiniz kullanıcı adı ve parolayla değiştirin. SOCKS kullanıcı adı ve parolasını temizlemek için şunu yazın:
 
 ```
 adguardvpn-cli config clear-socks-auth
@@ -144,12 +144,46 @@ adguardvpn-cli config set-debug-logging on
 
 Günlükleri dışa aktardıktan sonra bu ayarı devre dışı bırakın.
 
-## Show notificatoins
+## Bildirimleri göster
 
-The setting is responsible for the appearance of system notifications when AdGuard VPN is turned on/off or waiting for reconnection, for example:
+Ayar, AdGuard VPN açıldığında/kapatıldığında veya yeniden bağlanmayı beklerken sistem bildirimlerinin görünümünden sorumludur, örneğin:
 
-- A user turns VPN on — the _VPN connected_ notification appears.
-- A user turns VPN off — the \*VPN disconnected notification appears.
-- A user is waiting for the VPN connection to be recovered — the _Waiting for connection_ notification appears.
+- Kullanıcı VPN'i açar — _VPN bağlandı_ bildirimi görünür.
+- Kullanıcı VPN'i kapatır — _VPN bağlantısı kesildi_ bildirimi görünür.
+- Kullanıcı VPN bağlantısının geri gelmesini bekliyor — _Bağlantı için bekleniyor_ bildirimi görünür.
 
   adguardvpn-cli config set-show-notifications on
+
+## İstisnalar
+
+İki mod vardır. _Genel_ modda, istisnalar listesindeki siteler VPN üzerinden yönlendirilmez. _Seçici modda_, yalnızca istisnalar listesindeki siteler VPN üzerinden yönlendirilir. Her mod için ayrı bir istisna listesi bulunmaktadır.
+
+İstisnalarla neler yapabileceğinizi okumak için komut satırına şunu yazın: `adguardvpn-cli site-exclusions -h`.
+
+İşte ana seçenekler:
+
+1. **add**, belirtilen istisnaları ekler
+
+   Örnek: `adguardvpn-cli site-exclusions add` buradaki `%DOMAIN_NAME%` istisnalara eklemek istediğiniz sitedir.
+
+   :::note
+
+   To add many exclusions, you need to list them comma-separated.
+
+   :::
+
+2. **clear**, mevcut moddaki istisna listesini temizler
+
+   Örnek: `adguardvpn-cli site-exclusions clear`
+
+3. **mode**, mevcut modu gösterir ve bunlar arasında geçiş yapmanızı sağlar
+
+   Örnek: `adguardvpn-cli site-exclusions mode selective` (bu komutla, Seçici mod seçilir)
+
+4. **remove**, bir veya daha fazla istisnayı kaldırır (virgülle ayrılmışsa)
+
+   Örnek: `adguardvpn-cli site-exclusions remove %DOMAIN_NAME%` buradaki `%DOMAIN_NAME%` istisnalardan kaldırmak istediğiniz sitedir.
+
+5. **show**, mevcut istisnalar listesini gösterir
+
+   Örnek: `adguardvpn-cli site-exclusions show`

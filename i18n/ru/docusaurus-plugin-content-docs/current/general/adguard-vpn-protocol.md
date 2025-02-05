@@ -1,5 +1,5 @@
 ---
-title: 'Как работает протокол AdGuard VPN'
+title: Как работает протокол AdGuard VPN
 sidebar_position: 4
 ---
 

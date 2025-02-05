@@ -1,9 +1,9 @@
 ---
-title: 'AdGuard VPNが他社製品より優れている理由'
+title: AdGuard VPNが他社製品より優れている理由
 sidebar_position: 2
 ---
 
-When getting ready to commit to a [long-term VPN subscription](/general/subscription), users most frequently evaluate its speed, security, and price. この３つはとても重要なポイントですが、それ以外にもたくさん注目すべき点があります。 AdGuard VPNには、ユニークなメリットが何個もあります。
+When getting ready to commit to a [long-term VPN subscription](/general/subscription), users most frequently evaluate its speed, security, and price. この３つはとても重要なポイントですが、それ以外にもたくさん注目すべき点があります。 AdGuard VPN has a dozen of key assets that make it ’the better option’.
 
 *まず始めに、他のVPNにはないAdGuard VPN機能について説明したく思います。*
 
@@ -15,11 +15,11 @@ VPNサービスを選択する際、高速性と安全性のどちらかを優�
 
 ## 2. Website and app exclusions
 
-There are situations where you don't need your VPN to be active: for instance, when you're ordering food or using maps. For this reason, AdGuard VPN has a special feature: Exclusions.
+There are situations where you don’t need your VPN to be active: for instance, when you’re ordering food or using maps. For this reason, AdGuard VPN has a special feature: Exclusions.
 
 ![Exclusions](https://cdn.adguard.com/content/blog/articles/adguard-vpn/exclusions-en.png)
 
-You can activate AdGuard VPN **selectively** — only for certain websites or apps. This option is for those who use a VPN service only in specific situations: to enter a blocked website, use an app or watch a TV show that's not available in their country, or not to expose their data when visiting some websites. Turning a VPN on selectively also helps save VPN traffic.
+You can activate AdGuard VPN **selectively** — only for certain websites or apps. This option is for those who use a VPN service only in specific situations: to enter a blocked website, use an app or watch a TV show that’s not available in their country, or not to expose their data when visiting some websites. Turning a VPN on selectively also helps save VPN traffic.
 
 If you prefer absolute anonymity in most cases, you can activate AdGuard VPN **everywhere except for the excluded websites or apps**. Just add your food delivery apps and utility payment websites to Exclusions — for them, VPN will be off.
 
@@ -29,7 +29,7 @@ Relying on the DNS server provided by your ISP by default is not safe: your ISP 
 
 We recommend using an AdGuard DNS server: it blocks ads and trackers and protects your device from malware.
 
-![DNS servers](https://cdn.adtidy.org/blog/new/lkarpag_dns_screen_en.png)
+![DNS servers](https://cdn.adguard-vpn.com/blog/new/lkarpag_dns_screen_en.png)
 
 ## 4. 一番速いロケーション
 
@@ -63,7 +63,7 @@ The QUIC protocol is rather new and may be unstable. We cannot guarantee its com
 
 :::
 
-*Now let’s switch to the item set that any decent VPN can't do without.*
+*Now let’s switch to the item set that any decent VPN can’t do without.*
 
 ## 7. キルスイッチ
 
@@ -73,7 +73,7 @@ If for some reason your VPN connection is interrupted, Kill Switch will automati
 
 ## 8. Auto-protection
 
-This feature has been developed specifically for unsecured networks. If you enable Auto-protection, you won't ever forget to enable VPN when visiting public places. Should you pop into a coffee shop and connect to a local Wi-Fi network, you’ll be automatically connected to AdGuard VPN.
+This feature has been developed specifically for unsecured networks. If you enable Auto-protection, you won’t ever forget to enable VPN when visiting public places. Should you pop into a coffee shop and connect to a local Wi-Fi network, you’ll be automatically connected to AdGuard VPN.
 
 :::note Compatibility
 
@@ -85,17 +85,17 @@ Auto-protection is available in AdGuard VPN for iOS and Android.
 
 With an AdGuard VPN subscription, you can connect up to ten devices *simultaneously*.
 
-Some VPN providers only allow to log in to their service on *ten devices max*. With AdGuard VPN, *it doesn't matter* on how many devices you log in to your AdGuard account, but you can have ten VPN connections enabled at the same time.
+Some VPN providers only allow to log in to their service on *ten devices max*. With AdGuard VPN, *it doesn’t matter* on how many devices you log in to your AdGuard account, but you can have ten VPN connections enabled at the same time.
 
 Those who don’t have a subscription, can use AdGuard VPN on *two devices simultaneously*, which gives us another trump card to play against competitors: most free VPN services only allow you to use one device at a time.
 
 ## 10. Secure streaming
 
-Streaming services don't like VPNs for obvious reasons: according to statistics, about 20% of users install a VPN mainly to watch shows, TV shows and movies bypassing geo-blocking. That's why streaming platforms tend to do everything they can to track VPN traffic and block it.
+Streaming services don’t like VPNs for obvious reasons: according to statistics, about 20% of users install a VPN mainly to watch shows, TV shows and movies bypassing geo-blocking. That’s why streaming platforms tend to do everything they can to track VPN traffic and block it.
 
-But what if you want to feel safe while watching content specific to your region? Or don't want to stop watching exciting series even when you travel to another country? The answer is simple — AdGuard VPN, which thanks to its unique protocol can remain invisible to services.
+But what if you want to feel safe while watching content specific to your region? Or don’t want to stop watching exciting series even when you travel to another country? The answer is simple — AdGuard VPN, which thanks to its unique protocol can remain invisible to services.
 
-We don't endorse the use of AdGuard VPN to bypass copyright regulations.
+We don’t endorse the use of AdGuard VPN to bypass copyright regulations.
 
 ## 11. Dark mode
 

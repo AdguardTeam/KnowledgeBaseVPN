@@ -21,7 +21,7 @@ Jedná se o dvě různé chyby s velmi podobným řešením. Jak napovídá jeji
 
 - Odinstalujte některé programy nebo odstraňte nepotřebné soubory z jednotky, na kterou jste chtěli nainstalovat AdGuard VPN.
 
-- Stáhněte, nainstalujte a spusťte [AdwCleaner](http://www.bleepingcomputer.com/download/adwcleaner/), bezplatný software od společnosti Malwarebytes. Mimo jiné vyčistí váš systém od nejrůznějších pozůstatků souborů, které zůstaly po nesprávně odinstalovaných programech a podobně. Pomůže vyčistit místo na disku.
+- Stáhněte, nainstalujte a spusťte [AdwCleaner](http://www.bleepingcomputer.com/download/adwcleaner/), bezplatný software od společnosti Malwarebytes. Mimo jiné vyčistí váš systém od nejrůznějších “pozůstatků“ souborů, které zůstaly po nesprávně odinstalovaných programech a podobně. Pomůže vyčistit místo na disku.
 
 - Restartujte počítač. Dočasné soubory mohou někdy zabírat značné množství místa na disku a nejspolehlivějším způsobem, jak se jich zbavit, je restartování počítače.
 
@@ -45,7 +45,7 @@ Pokud se vám zobrazil tento chybový kód, je pravděpodobné, že jste tak či
 
 - Okno instalačního programu nezavírejte. Po dokončení instalace se zavře automaticky.
 
-- Pokud se během instalace zobrazí dialogové okno, stiskněte tlačítko "Ano" a udělte instalačnímu programu požadovaná oprávnění. Kliknutím na tlačítko "Ne" instalaci zrušíte.
+- Pokud se během instalace zobrazí dialogové okno, stiskněte tlačítko *Ano* a udělte instalačnímu programu požadovaná oprávnění. Kliknutím na tlačítko *Ne* instalaci zrušíte.
 
 - Během instalace nespouštějte jiné procesy.
 

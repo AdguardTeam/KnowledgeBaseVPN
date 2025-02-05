@@ -1,5 +1,5 @@
 ---
-title: 'Aktualizace databáze znalostí'
+title: Aktualizace databáze znalostí
 sidebar_position: 3
 ---
 

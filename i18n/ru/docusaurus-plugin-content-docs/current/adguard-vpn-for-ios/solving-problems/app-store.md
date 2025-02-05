@@ -15,7 +15,7 @@ sidebar_position: 1
 
 2. Нажмите _Страна/регион_ → _Изменить страну или регион_.
 
-   ![Смена региона](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/changing_country.png)
+   ![Changing region](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/changing_country.png)
 
 3. Выберите желаемую страну из списка (например, _Соединённые Штаты_) и примите Условия использования.
 
@@ -33,7 +33,7 @@ sidebar_position: 1
 
 5. Нажмите _Далее_.
 
-   ![Новый регион \*border](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/new_country.png)
+   ![New region \*border](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/new_country.png)
 
 После смены региона попробуйте [снова скачать AdGuard VPN из App Store](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602).
 
@@ -61,11 +61,11 @@ sidebar_position: 1
 
 3. Снова нажмите _Контент и покупки_ и выберите \*Не [ваше имя]? \* Вам будет предложено войти в систему с другим Apple ID.
 
-   ![Смена аккаунта](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/log_out.png)
+   ![Changing account](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/log_out.png)
 
 4. Введите адрес почты и пароль от вашего нового аккаунта.
 
-   ![Вход \*mobile\_border](https://cdn.adtidy.org/content/kb/vpn/ios/app_store/apple_id.png)
+   ![Login \*mobile\_border](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/apple_id.png)
 
 Вот и всё! Теперь попробуйте [скачать AdGuard VPN из App Store](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602) ещё раз.
 

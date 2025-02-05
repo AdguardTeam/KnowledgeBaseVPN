@@ -49,7 +49,9 @@ Výchozí IP adresa pro většinu routerů je `192.168.1.1` nebo `192.168.0.1
 
 2. Vyhledejte položku _výchozí_. IP adresa vedle ní je IP adresa vašeho routeru.
 
-## 3) Připojte se k routeru pomocí klienta SSH
+<!-- comment -->
+
+## 3. Připojte se k routeru pomocí klienta SSH
 
 Budete potřebovat klienta SSH. Většina systémů Linux a macOS je dodávána s předinstalovaným klientem SSH. V systému Windows můžete použít prostředí PowerShell, integrovaného klienta SSH v systému Windows 10/11 nebo aplikaci třetí strany, například PuTTY.
 
@@ -77,6 +79,8 @@ Budete potřebovat klienta SSH. Většina systémů Linux a macOS je dodávána 
 
 4. Na výzvu zadejte heslo routeru. Výchozí uživatelské jméno je `root` a výchozí heslo je `keenetic`.
 
+<!-- comment -->
+
 ### PuTTY (Windows 8 a starší)
 
 1. Stáhněte a nainstalujte PuTTY z [oficiální stránky](https://www.putty.org/).
@@ -101,7 +105,7 @@ Od verze 3.7 je u některých modelů Keenetic možné zapisovat OPKG Entware do
 
 ### Jak nainstalovat OPKG Entware na jednotku USB
 
-Na modely Keenetic s porty USB, které podporují USB flash disky, je možné nainstalovat balíčky OPKG. Jsou to: KN-1410, KN-1710/1711, KN-1010/1011, KN-2510, KN-2410, KN-1810, KN-1910, KN-2310, KN-2010, KN-2110, KN-2610, KN-2710.
+Na modely Keenetic s porty USB, které podporují USB flash disky, je možné nainstalovat balíčky OPKG. Jsou to: KN-1010/1011, KN-1410, KN-1710/1711, KN-1810, KN-1910, KN-2010, KN-2110, KN-2310, KN-2410, KN-2510, KN-2610, KN-2710.
 
 Podrobné pokyny najdete na [oficiální stránce Keenetic Wiki](https://help.keenetic.com/hc/en-us/articles/360021214160-Installing-the-Entware-repository-package-system-on-a-USB-drive).
 
@@ -127,7 +131,7 @@ Přejděte do složky `/opt` zadáním `/cd opt` a spusťte instalační skript 
 curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/release/install.sh | sh -s -- -v
 ```
 
-Na dotaz "Would you like to link the binary to /usr/local/bin?" odpovězte `n` a spusťte tento řádek:
+Na dotaz “Would you like to link the binary to /usr/local/bin?“ odpovězte `n` a spusťte tento řádek:
 
 ```bash
 ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
@@ -167,7 +171,7 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
    adguardvpn-cli login
    ```
 
-2. Připojení k VPN
+2. Připojte se k VPN
 
    U routerů Keenetic nezapomeňte před připojením importovat certifikát SSL a vybrat složku pro uživatelský adresář spuštěním tohoto příkazu:
 
@@ -204,7 +208,7 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
 
    AdGuard VPN vybere umístění s nejnižší odezvou a zapamatuje si ho pro budoucí rychlá připojení.
 
-3. Úprava nastavení
+3. Upravte nastavení
 
    Získejte seznam všech dostupných příkazů AdGuard VPN a přizpůsobte klienta VPN svým potřebám.
 
@@ -216,7 +220,7 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
 
 4. Na dotaz "Chcete nastavit výchozí trasy v režimu TUN?" zadejte `yes`
 
-AdGuard VPN CLI vytvoří rozhraní tun0 pro tunel VPN
+AdGuard VPN CLI vytvoří rozhraní tun0 pro tunel VPN.
 
 ## 7. Nastavte pravidla brány firewall pro aplikace
 

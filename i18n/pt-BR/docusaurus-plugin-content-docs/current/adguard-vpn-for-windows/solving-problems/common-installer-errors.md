@@ -11,17 +11,17 @@ This error message appears if required permissions are not granted. Pode haver v
 
 - Desative temporariamente seus antivírus. Some of them may interfere with the installation, depending on the restrictiveness of their settings.
 
-- Escolha uma pasta de instalação diferente. É possível que a pasta de instalação atual tenha algumas restrições de acesso. Certifique-se também de não selecionar uma unidade externa, um drive virtual, etc.
+- Escolha uma pasta de instalação diferente. É possível que a pasta de instalação atual tenha algumas restrições de acesso. Also make sure you don’t select an external drive, a virtual drive, etc.
 
 - Reinicie o computador. Às vezes, os problemas de permissão são temporários e podem ser resolvidos reiniciando o PC.
 
 ### Erro 112: O disco está cheio, Erro 1632: Pasta temporária cheia ou inacessível {#error-112}
 
-Estes são dois erros diferentes com soluções muito semelhantes. Como seus nomes sugerem, o instalador AdGuard VPN não encontrou espaço em disco suficiente para concluir a instalação. Há várias coisas que você pode fazer para tentar corrigir o problema:
+Estes são dois erros diferentes com soluções muito semelhantes. As their names suggest, AdGuard VPN installer didn’t find enough disk space to complete the installation. Há várias coisas que você pode fazer para tentar corrigir o problema:
 
 - Desinstale alguns programas ou exclua arquivos desnecessários da unidade em que você estava tentando instalar o AdGuard VPN.
 
-- Baixe, instale e execute [AdwCleaner](http://www.bleepingcomputer.com/download/adwcleaner/), um software gratuito da Malwarebytes. Entre outras coisas, ele irá limpar seu sistema de todos os "restos" de arquivos que permanecem após a desinstalação incorreta de programas e similares. Isso ajudará a limpar algum espaço em disco.
+- Baixe, instale e execute [AdwCleaner](http://www.bleepingcomputer.com/download/adwcleaner/), um software gratuito da Malwarebytes. It will, among other things, clean your system from all kinds of extra “leftover” files that remain after incorrectly uninstalled programs and such. Isso ajudará a limpar algum espaço em disco.
 
 - Reinicie o computador. Às vezes, os arquivos temporários podem ocupar uma quantidade considerável de espaço em disco e reiniciar o PC é a maneira mais simples de se livrar deles.
 
@@ -37,7 +37,7 @@ Pode-se dizer que este é um subtipo específico do Erro 1603. As soluções pos
     1. Press *Win + R*, type **msiexec /unregister** and hit *Enter*.
     1. Press *Win + R* again, type **msiexec /regserver** and hit *Enter*
 
-- Reinicie o PC e inicie a instalação novamente. Às vezes, isso é suficiente para resolver o problema.
+- Reinicie o PC e inicie a instalação novamente. Sometimes that’s enough to fix the problem.
 
 ### Erro 1602: Cancelado pelo usuário {#error-1602}
 
@@ -45,7 +45,7 @@ Se você recebeu esse código de erro, é provável que tenha interrompido o pro
 
 - Não feche a janela do instalador. Quando a instalação estiver concluída, ela será fechada automaticamente.
 
-- Se uma janela de diálogo aparecer durante a instalação, clique em "Sim" para conceder ao instalador as permissões necessárias. Clicar em "Não" cancelará a instalação.
+- If a dialogue window pops up during the installation, hit *Yes* to grant the installer the required permissions. Clicking *No* will cancel the installation.
 
 - Não inicie outros processos enquanto a instalação estiver em andamento.
 
@@ -55,7 +55,7 @@ This error sounds more worrying than it actually is. Na realidade, esse é um er
 
 - Pressione a tecla *Win*, procure por *Prompt de comando*e execute-o. Lá, digite `sfc /scannow` e pressione *Enter*.
 
-- Escolha uma pasta de instalação diferente. É possível que a pasta de instalação atual tenha algumas restrições de acesso. Certifique-se também de não selecionar uma unidade externa, um drive virtual, etc.
+- Escolha uma pasta de instalação diferente. É possível que a pasta de instalação atual tenha algumas restrições de acesso. Also make sure you don’t select an external drive, a virtual drive, etc.
 
 - Uninstall AdGuard VPN using our special [uninstall tool](/adguard-vpn-for-windows/installation#advanced) and then repeat the installation.
 
@@ -67,7 +67,7 @@ This error sounds more worrying than it actually is. Na realidade, esse é um er
     1. Press *Win + R*, type **msiexec /unregister** and hit *Enter*.
     1. Press *Win + R* again, type **msiexec /regserver** and hit *Enter*
 
-- Acquire full permissions on the drive for installation. It is possible that the error 1603 occurs because you don’t have full permissions on the file location. It's also not as easy as some of the other solutions:
+- Acquire full permissions on the drive for installation. It is possible that the error 1603 occurs because you don’t have full permissions on the file location. It’s also not as easy as some of the other solutions:
 
     1. Open *File Explorer*, right-click the drive containing the installation location, and select *Properties*.
     1. Go to *Security* tab and click *Edit*.
@@ -85,11 +85,11 @@ This error appears when trying to run multiple instances of the AdGuard VPN inst
 
 - Reinicie o seu PC e inicie o instalador novamente. Quando você reiniciar o computador, todos os processos em andamento serão interrompidos, incluindo todas as cópias do instalador.
 
-- Don't click the installer multiple times, even if it doesn't seem to start right away. Pode ser que a exibição da IU do instalador leve alguns segundos.
+- Don’t click the installer multiple times, even if it doesn’t seem to start right away. Pode ser que a exibição da IU do instalador leve alguns segundos.
 
 ### Erro 1638: outra versão deste produto já está instalada {#error-1638}
 
-É muito provável que você já tenha instalado o AdGuard VPN antes.
+It’s very likely that you’ve already installed AdGuard VPN before.
 
 - Verifique se o AdGuard VPN já está instalado no seu computador. To do that, press the *Win* key and start typing *adguard vpn*.
 
@@ -97,7 +97,7 @@ This error appears when trying to run multiple instances of the AdGuard VPN inst
 
 ### Outros erros {#other}
 
-Se você encontrou um erro que não está listado acima, é possível que possamos resolvê-lo sozinhos. Mas, para isso, precisamos de seus arquivos de log. Por favor, execute as seguintes etapas:
+If you have encountered an error that’s not listed above, it is possible that we can solve it by ourselves. Mas, para isso, precisamos de seus arquivos de log. Por favor, execute as seguintes etapas:
 
 - Localize e arquive os **registros de instalação do AdGuard VPN** conforme descrito [neste artigo](https://adguard.com/kb/adguard-for-windows/solving-problems/installation-logs/).
 

@@ -1,5 +1,5 @@
 ---
-title: 'Como coletar e enviar logs'
+title: Como coletar e enviar logs
 sidebar_position: 1
 ---
 
@@ -13,7 +13,7 @@ Por padrão, o AdGuard VPN para Mac usa o nível de registro padrão, ou seja, a
 
 2. Clique em **Suporte** (no menu acima) → **Reportar um bug**.
 
-3. No formulário aberto, insira seu endereço de e-mail para contato e descreva o erro encontrado, incluindo a hora em que o erro ocorreu. Se você não conseguir reproduzir o problema, especifique com a maior precisão possível quando ocorreu pela última vez.
+3. No formulário aberto, insira seu endereço de e-mail para contato e descreva o erro encontrado, incluindo a hora em que o erro ocorreu. If you can’t reproduce the problem, specify as accurately as possible when it last occurred.
 
 4. There is a check mark next to the **Send detailed system info**, which means that when you send a report, you also send logs.
 

@@ -19,7 +19,7 @@ By default, AdGuard VPN for Windows uses the standard logging level, which is th
 
 1. 在「**记录级别**」部分，选择「**记录全部**」。
 
-    ![Logging level *border](https://cdn.adtidy.org/content/kb/vpn/windows/logs/logging.jpeg)
+    ![Logging level *border](https://cdn.adguard-vpn.com/content/kb/vpn/windows/logs/logging.jpeg)
 
 1. 重复导致错误的操作，并记下错误发生的时间。
 
@@ -31,21 +31,21 @@ Sometimes our support team might ask you to send them trace logs. To do this, yo
 
 1. Right-click the AdGuard VPN icon in the tray menu and choose **Exit AdGuard VPN**.
 
-    ![Exit *mobile](https://cdn.adtidy.org/content/kb/vpn/windows/logs/exit.png)
+    ![Exit *mobile](https://cdn.adguard-vpn.com/content/kb/vpn/windows/logs/exit.png)
 
     If you see the warning message, agree to stop the service.
 
-    ![Attention *mobile](https://cdn.adtidy.org/content/kb/vpn/windows/logs/attention.png)
+    ![Attention *mobile](https://cdn.adguard-vpn.com/content/kb/vpn/windows/logs/attention.png)
 
 1. Open the console (type `cmd` in the start panel).
 
-1. Run the application with the command `C:\"Program Files (x86)"\AdGuardVpn\AdGuardVpnSvc.exe /trace` if you are using 64-bit Windows, and `C:\"Program Files"\AdGuardVpn\AdGuardVpnSvc.exe /trace` if you are using 32-bit.
+1. Run the application with the command `C:\"Program Files (x86)"\AdGuardVpn\AdguardVpn.exe /trace` if you are using 64-bit Windows, and `C:\"Program Files"\AdGuardVpn\AdguardVpn.exe /trace` if you are using 32-bit.
 
 1. Reproduce the issue. We strongly recommend that you note the exact time when you reproduce the problem: this will help our support team to find relevant log entries and resolve the problem faster.
 
 1. Export the recorded logs: **Support** → **Export logs and system info**.
 
-Don't worry if your log file is large. We need to know as many details as possible in order to fix your problem.
+Don’t worry if your log file is large. We need to know as many details as possible in order to fix your problem.
 
 ## Sending logs
 
@@ -53,17 +53,17 @@ To send logs to our support team, please follow the next steps:
 
 1. Click **Support** in the menu above → **Report a bug**.
 
-    ![Report a bug *border](https://cdn.adtidy.org/content/kb/vpn/windows/logs/support_report.jpeg)
+    ![Report a bug *border](https://cdn.adguard-vpn.com/content/kb/vpn/windows/logs/support_report.jpeg)
 
-1. In the form that opens, enter your email address and describe the error you found, including the time it occurred. If you can't reproduce the problem, be as specific as possible about when it last occurred.
+1. In the form that opens, enter your email address and describe the error you found, including the time it occurred. If you can’t reproduce the problem, be as specific as possible about when it last occurred.
 
-    ![Report *border](https://cdn.adtidy.org/content/kb/vpn/windows/logs/report_bug.png)
+    ![Report *border](https://cdn.adguard-vpn.com/content/kb/vpn/windows/logs/report_bug.png)
 
 1. 勾选「**发送详细的系统信息**」旁边的复选框，这意味着当您发送报告时，您也会发送日志。
 
 > 如果出于某种原因，您以其他方式向我们发送日志更方便，您可以自己导出它们。 要做到这一点，请进入「**支持**」→「**导出日志和系统信息**」。
 
-![Export *border](https://cdn.adtidy.org/content/kb/vpn/windows/logs/export.jpeg)
+![Export *border](https://cdn.adguard-vpn.com/content/kb/vpn/windows/logs/export.jpeg)
 
 **Note**: if you encounter any problems while trying to export logs, there is an alternative way. Please follow these steps:
 

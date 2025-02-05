@@ -1,5 +1,5 @@
 ---
-title: 'Преимущества безлимитной версии AdGuard VPN'
+title: Преимущества безлимитной версии AdGuard VPN
 sidebar_position: 5
 ---
 

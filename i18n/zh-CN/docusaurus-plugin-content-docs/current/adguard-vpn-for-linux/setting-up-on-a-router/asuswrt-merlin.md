@@ -41,7 +41,9 @@ The default IP address for most routers is `192.168.1.1` or `192.168.0.1`. If
 
 2. Look for the _default_ entry. The IP address next to it is your router’s IP address.
 
-## 2) Make sure SSH and JFFS custom scripts are enabled on the router
+<!-- comment -->
+
+## 2. Make sure SSH and JFFS custom scripts are enabled on the router
 
 First, make sure that SSH access is enabled on your router. This setting is usually found in the router’s web interface. JFFS custom scripts will be used to set routing rules.
 
@@ -57,7 +59,9 @@ First, make sure that SSH access is enabled on your router. This setting is usua
 
 6. Click _Apply_ at the bottom of the page.
 
-## 3) Use an SSH client to connect to the router
+<!-- comment -->
+
+## 3. Use an SSH client to connect to the router
 
 You’ll need an SSH client. Most Linux and macOS systems come with an SSH client pre-installed. For Windows, you can use PowerShell, the built-in SSH client in Windows 10/11, or a third-party application like PuTTY.
 
@@ -85,6 +89,8 @@ You’ll need an SSH client. Most Linux and macOS systems come with an SSH clien
 
 4. Enter the router’s password when prompted. The SSH login username and password are the same as the admin credentials.
 
+<!-- comment -->
+
 ### PuTTY (Windows below 10)
 
 1. Download and install PuTTY from [the official website](https://www.putty.org/).
@@ -94,7 +100,9 @@ You’ll need an SSH client. Most Linux and macOS systems come with an SSH clien
 5. Click _Open_.
 6. When the Terminal window opens, enter the router’s credentials. The SSH login username and password are the same as the admin credentials.
 
-## 4) Install Entware using SSH
+<!-- comment -->
+
+## 4. Install Entware using SSH
 
 Once logged into your SSH client, you can use various commands to interact with your router’s Linux-based operating system. To proceed, you will need to install Entware OPKG Manager. It allows you to install third-party software packages to expand router capabilities. Skip to the next step if you already have it installed.
 
@@ -102,9 +110,9 @@ Note that you cannot use both Optware (outdated alternative) and Entware at the 
 
 The Asus DownloadMaster is based on Optware, and therefore is not compatible with Entware. You will have to uninstall DownloadMaster and look at the alternatives provided by Entware.
 
-After uninstalling, make sure that "asusware.arm" or "asusware.\*" dir on the mounted disk partition is deleted. Otherwise, Entware won't work properly. After uninstalling DownloadMaster, make sure the router is rebooted.
+After uninstalling, make sure that `asusware.arm` or `asusware.*` dir on the mounted disk partition is deleted. Otherwise, Entware won’t work properly. After uninstalling DownloadMaster, make sure the router is rebooted.
 
-You will need to plug a USB disk that's formatted in a native Linux file system (ext2, ext3 or ext4). To format a disk, use amtm. Plug a USB disk into your router, then start amtm with:
+You will need to plug a USB disk that’s formatted in a native Linux file system (ext2, ext3 or ext4). To format a disk, use amtm. Plug a USB disk into your router, then start amtm with:
 
 ```bash
 amtm
@@ -162,7 +170,7 @@ Go to /opt folder by running `cd /opt`  and run the AdGuardVPN CLI installation 
 curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/release/install.sh | sh -s -- -v
 ```
 
-When asked “Would you like to link the binary to /usr/local/bin?“, reply `y`. If failed to link the binary, run this line:
+When asked “Would you like to link the binary to `/usr/local/bin?`“, reply `y`. If failed to link the binary, run this line:
 
 ```bash
 ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
@@ -216,7 +224,7 @@ modprobe tun
    adguardvpn-cli connect
    ```
 
-   AdGuard VPN will choose the fastest available location and remember it for future quick connections.
+   AdGuard VPN will choose the fastest location available and remember it for future quick connections.
 
    Enter `yes` when asked “Would you like to set default routes in TUN mode?”
 
@@ -232,7 +240,9 @@ modprobe tun
    adguardvpn-cli --help-all
    ```
 
-## 7) Set up your firewall rules and auto-launch for AdGuard VPN
+<!-- comment -->
+
+## 7. Set up your firewall rules and auto-launch for AdGuard VPN
 
 This step configures firewall rules on an Asuswrt-Merlin router to route traffic through AdGuard VPN.
 

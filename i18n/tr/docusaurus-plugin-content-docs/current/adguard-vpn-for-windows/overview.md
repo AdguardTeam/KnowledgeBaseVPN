@@ -5,47 +5,49 @@ sidebar_position: 1
 
 ## Windows için AdGuard VPN ne yapar
 
-- Ağ trafiğinin kesilmesine (aldatma) karşı korur. AdGuard VPN, cihazınızla uzak sunucu arasında şifrelenmiş bir tünel oluşturur. Tüm internet trafiğiniz bu tünelden geçer, böylece verileriniz yol boyunca korunur. [AdGuard'ın benzersiz protokolü](/general/adguard-vpn-protocol) sayesinde hızlı ve güvenli bir bağlantı garanti edilir.
+- Ağ trafiğinin kesilmesine (aldatma) karşı korur. AdGuard VPN, cihazınızla uzak sunucu arasında şifrelenmiş bir tünel oluşturur. Tüm internet trafiğiniz bu tünelden geçer, böylece verileriniz yol boyunca korunur. And thanks to [AdGuard’s unique protocol](/general/adguard-vpn-protocol), you’re guaranteed a fast and secure connection.
 
-- IP adresinizi gizler. Gerçek IP adresiniz, siber suçlular için kişisel verilerinizin anahtarıdır. IP'nizi gizlemezseniz adınız, e-posta adresiniz, telefon numaranız, kredi kartı bilgileriniz dolandırıcıların eline geçebilir. AdGuard VPN ile tüm trafiğiniz şifrelenmiş bir tünelden geçer ve VPN sunucusuna gelir. Web sunucusu, cihazın gerçek IP adresini değil, tünelin uç noktasının IP adresini, yani VPN sunucusunu kaydeder.
+- IP adresinizi gizler. Gerçek IP adresiniz, siber suçlular için kişisel verilerinizin anahtarıdır. Your name, email address, phone number, credit card information can all fall into the hands of fraudsters if you don’t hide your IP. AdGuard VPN ile tüm trafiğiniz şifrelenmiş bir tünelden geçer ve VPN sunucusuna gelir. The web server registers the IP address of the endpoint of the tunnel, i.e. the VPN server, and not the device’s real IP address.
 
-- Gerçek konumunuzu gizler. Bu size ne kazandırıyor? Örneğin, yerel fiyatlarla otel rezervasyonu yapma veya coğrafi hedefli reklamlardan saklanma yeteneği.
+- Gerçek konumunuzu gizler. Bu size ne kazandırıyor? For example, the ability to book a hotel at locals’ rates or hide from geotargeted advertising.
 
-Windows için AdGuard VPN'in birçok avantajı vardır, bu yüzden onlara ayrı [bir makale](/general/why-adguard-vpn) ayırdık. Ancak burada, uygulamanın kendisine ve nasıl çalıştığına daha fazla odaklanmak istiyoruz.
+AdGuard VPN for Windows has many advantages, so we’ve dedicated [a separate article](/general/why-adguard-vpn) to them. Ancak burada, uygulamanın kendisine ve nasıl çalıştığına daha fazla odaklanmak istiyoruz.
 
 ## Windows için AdGuard VPN'i kullanmaya nasıl başlanır
 
-Windows için AdGuard VPN'i kullanmaya başlamak için uygulamayı [sitemizden](https://adguard-vpn.com/welcome.html) indirin. Kurulum bir dakikadan fazla sürmez — ve Kullanıcı Sözleşmesi ve Gizlilik politikasının şartlarını uygulayan en az bir kutuyu işaretlemeniz gereken bir uyarı penceresi görürsünüz. AdGuard'ın uygulama kullanımınız hakkında anonimleştirilmiş veriler toplamasını isteyip istemediğinize karar vermek size kalmış. Son olarak program sizden [AdGuard hesabı](https://auth.adguard.com/login.html) veya sosyal ağlar (Apple, Google, Facebook) aracılığıyla giriş yapmanızı ister. Hepsi bu kadar, artık Windows için AdGuard VPN'i kullanabilirsiniz.
+Windows için AdGuard VPN'i kullanmaya başlamak için uygulamayı [sitemizden](https://adguard-vpn.com/welcome.html) indirin. The installation takes no more than a minute — and you’ll see a dialog window where you’ll need to check at least one box applying the terms of the User Agreement and the Privacy policy. And it’s up to you to decide whether you want AdGuard to collect anonymized data about your app usage. Son olarak program sizden [AdGuard hesabı](https://auth.adguard.com/login.html) veya sosyal ağlar (Apple, Google, Facebook) aracılığıyla giriş yapmanızı ister. That’s all, you can now use AdGuard VPN for Windows.
 
 ## Ana ekran
 
-![Windows için AdGuard VPN ana sayfası *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/home_en.jpg)
+![Home screen](https://cdn.adguardvpn.com/content/kb/vpn/windows/saved_locations.png)
 
-**Ana ekranındaki** en dikkat çekici öğe, altında seçilen sunucuyu görebileceğiniz AdGuard VPN Bağlan veya Bağlantıyı kes düğmesidir. Ekranın sağ tarafında mevcut konumların bir listesini göreceksiniz. En hızlı konum, yani en düşük ping değerine sahip olan, listenin en üstünde gösterilir. Herhangi bir konum çevrimdışıysa tıklayabileceğiniz bir yenileme düğmesi de vardır.
+The most noticeable item on the **Home screen** is the AdGuard VPN *Connect/Disconnect* button, below which you can see the selected server. Ekranın sağ tarafında mevcut konumların bir listesini göreceksiniz. En hızlı konum, yani en düşük ping değerine sahip olan, listenin en üstünde gösterilir. Herhangi bir konum çevrimdışıysa tıklayabileceğiniz bir yenileme düğmesi de vardır.
 
-Ekranın üst kısmında beş sekmeli bir gezinme paneli bulunur: **Ana Sayfa**, **İstisnalar**, **İstatistikler**, **Destek** ve **Ayarlar**.
+You can also save your favorite locations to access them quickly. Just hover over a location, click the bookmark icon that appears, and it will be saved. Your marked locations will then show up in the *Saved* tab.
+
+At the top of the screen there is a navigation panel with five tabs: **Home**, **Exclusions**, **Stats**, **Support**, and **Settings**.
 
 ## İstisnalar
 
-Varsayılan olarak, WIndows için AdGuard VPN her yerde çalışır. VPN tünelinden hariç tutmak istediğiniz siteleri ve uygulamaları istisnalar listesine ekleyebilirsiniz. Veya AdGuard VPN'in yalnızca istisnalar listesinde belirtilen sitelerde ve uygulamalarda çalışmasını sağlayabilirsiniz. Lütfen bu iki listenin birbirinden bağımsız olduğunu unutmayın.
+By default, AdGuard VPN for Windows works everywhere. You can add websites and apps you want to exclude from the VPN tunnel to the list of exclusions. Or, you can make AdGuard VPN work only on the websites and apps specified in the list of exclusions. Please note that these two lists are independent of each other.
 
-![İstisnalar *border](https://cdn.adguardvpn.com/content/kb/VPN/windows/exclusions_new_en.png)
+![Exclusions *border](https://cdn.adguardvpn.com/content/kb/VPN/windows/new_exclusions_screen.png)
 
-Alan adlarını girerek siteleri **el ile** istisnalara ekleyebilirsiniz. Uygulama ayrıca size **listeden** popüler siteleri seçme seçeneği sunar.
+You can add websites to exclusions **manually** by entering their domain names. The app also offers you an option to choose popular websites **from the list**.
 
-![Listeden İstisnalar Ekle *border](https://cdn.adguardvpn.com/content/kb/VPN/windows/new_exclusions_from_list_en.png)
+![Add Exclusions from list *border](https://cdn.adguardvpn.com/content/kb/VPN/windows/new_exclusions_from_list_en.png)
 
 :::note
 
-Alan adlarını elle eklerken belirli ayrıntıları dikkate almalısınız. Örneğin, `google.com` alan adını elle hariç tutarsanız, tüm `*.google.com` alt alanları da istisna listesine eklenecektir. Ancak, `google.es` veya `google.it` gibi diğer üst düzey alan adlarına sahip alan adları hariç tutulmayacaktır. Veya `youtube.com` alan adını istisnalara ekleyebilirsiniz, ancak aynı hizmet `youtu.be` alan adı listeye dahil edilmeyecektir.
+When adding domains manually, you should take into account certain details. For example, if you manually exclude the domain `google.com`, all the subdomains `*.google.com` will also be added to the exclusions list. However, domain names with other top-level domains such as `google.es` or `google.it` will not be excluded. Or you can add `youtube.com` to the exclusions, but the domain of the same service `youtu.be` will not be included in the list.
 
 :::
 
-**Listeden** seçeneğini kullanmanızı tavsiye ederiz. Siteler sekiz kategoriye ayrılmıştır: Sosyal ağlar, Mesajlaşma, Video ve Müzik yayın akışı hizmetleri, Oyunlar, Alışveriş, Arama motorları ve İş iletişim araçları. Her platformla ilgili tüm alan adları ve alt alan adları dahil olmak üzere en popüler hizmetleri oraya yerleştirdik.
+We recommend using the **From the list** option. Websites are grouped into eight categories: Social networks, Messengers, Video and Music streaming services, Games, Shopping, Search engines, and Work communication tools. We have placed the most popular services there, including all domain names and subdomains related to each platform.
 
-:::info İstisnalara eklenen tarayıcılar
+:::info Browsers added to Exclusions
 
-Sürüm 2.4'ten başlayarak, VPN yalnızca seçilen uygulamalar ve siteler için etkin olduğunda tüm tarayıcılar otomatik olarak istisnalar listesine eklenir. Bu değişiklik, genellikle kafası karışan ve tarayıcılarını uygulama olarak kabul edip etmeyeceklerini bilmeyen kullanıcılar için daha fazla kolaylık sağlıyor. Aşağıdaki koşullar altında uygulanır:
+Starting with the version 2.4, all browsers are automatically added to the list of exclusions when the VPN is active only for selected apps and websites. This change brings more convenience for users who were often confused and didn’t know whether to consider their browsers as apps or not. It applies under the following conditions:
 
 - Kullanıcı AdGuard VPN'i ilk kez yüklediyse
 - Kullanıcı sürüm 2.4'ten önce İstisnalar ayarlarını değiştirmediyse
@@ -54,76 +56,76 @@ Sürüm 2.4'ten başlayarak, VPN yalnızca seçilen uygulamalar ve siteler için
 
 ### İstisna listelerini içe ve dışa aktarma
 
-Windows için AdGuard VPN'dan istisnalar listesini bilgisayarınıza aktarmak için **İstisnaları dışa aktar** öğesine tıklayın, listenin depolanacağı klasörü seçin ve **Kaydet** öğesine tıklayın. Her liste için bir tane olmak üzere iki `.txt` dosyası içeren bir `exclusions.zip` arşivi indirilecektir. Bunları yeni istisnalar ekleyerek veya eskileri silerek düzenleyebilirsiniz.
+To export the list of exclusions from AdGuard VPN for Windows to your computer, click **Export exclusions**, select the folder where the list will be stored and click **Save**. The archive `exclusions.zip` with two `.txt` files will be downloaded, one for each of the lists. You can edit them by adding new exclusions or deleting old ones.
 
-Hedef cihazda AdGuard VPN'i açın, *İstisnalar* öğesine tıklayın ve *Siteler* veya *Uygulamalar* öğesini seçin. *İstisnaları içe aktar* öğesine tıklayın ve alınan arşivi seçin.
+On the destination device, open AdGuard VPN, click *Exclusions*, and select *Websites* or *Apps*. Click *Import exclusions* and select the received archive.
 
 ## İstatistikler
 
-![İstatistik ekranı *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/statistics_en.png)
+![Statistics screen *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/statistics_en.png)
 
-İstatistikler ekranı, veri kullanımınız hakkında hem konuma hem de uygulamaya göre kategorize edilmiş ayrıntılı bilgiler gösterir. En sık kullandığınız konumları ve uygulamaları vurgular. Farklı zaman dilimleri için istatistiklere erişebilirsiniz: günlük, aylık veya Windows için AdGuard VPN'i kullandığınız tüm süre boyunca.
+The Statistics screen shows detailed information about your data usage, categorized by both location and app. It highlights your most frequently used locations and applications. You can access statistics for different time periods: daily, monthly, or for the entire time you have been using AdGuard VPN for Windows.
 
-En önemlisi, tüm bu bilgiler yalnızca cihazınızda saklanır ve yalnızca sizin görüntüleyebilmenizi sağlar. İstatistik özelliğine erişim yalnızca AdGuard VPN aboneleri tarafından kullanılabilir.
+Crucially, all this information is stored exclusively on your device, ensuring that only you can view it. Access to the statistics feature is available only to AdGuard VPN subscribers.
 
 ## Ayarlar
 
-![Ayarlar *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/settings_en.png)
+![Settings *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/settings_en.png)
 
-Dördüncü sekme, uygulamayı özelleştirmenize yardımcı olacak bölümler içerir.
+The fourth tab contains sections that will help you customize the app.
 
 ### Uygulama ayarları
 
-![Uygulama ayarları *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/app_settings_en.png)
+![App settings *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/app_settings_en.png)
 
-**Uygulama ayarları** bölümünde, uygulama dilini ayarlayabilir ve ayrıca VPN bağlantınız kesilirse internete erişimi engelleyen **Kill Switch** öğesini etkinleştirebilirsiniz. Bu, halka açık bir Wi-Fi veya mobil ağa bağlıyken kendinizi VPN koruması olmadan bulursanız, izinsiz girişlerin verilerinize erişmesini önlemek için gereklidir.
+In the **App settings** section, you can set the app language and also enable **Kill Switch**, which will block access to the Internet if your VPN connection drops. This is needed to prevent intruders from getting to your data if you find yourself without VPN protection while connected to a public Wi-Fi or mobile network.
 
-Aşağıdaki özellikleri de tek bir tıklamayla etkinleştirebilirsiniz: **Otomatik güncelle**, **AdGuard VPN'i Windows başlangıcında başlat**, **Uygulama başlatıldığında otomatik bağlan** ve AdGuard ekibinin olası kullanılabilirlik sorunları hakkında bilgi alabilmesi için AdGuard'ın anonim uygulama kullanım verilerini toplamasına izin ver. Burada ayrıca temayı **Açık**, **Sistem** veya **Koyu** olarak değiştirebilirsiniz.
+You can also activate the following features with a single click: **Auto-update**, **Launch AdGuard VPN at Windows startup**, **Auto-connect on app launch**, and allow AdGuard to collect anonymous app usage data so that the AdGuard team gets the info on potential usability issues. Here you can also change the theme to **Light**, **System**, or **Dark**.
 
-Sayfanın altında iki bölüm vardır: **DNS sunucuları** ve **Gelişmiş ayarlar**.
+At the bottom of the page there are two sections: **DNS servers** and **Advanced settings**.
 
 #### DNS sunucuları
 
-**DNS sunucuları** sekmesi, el ile veya listeden kendi DNS sunucunuzu eklemenize olanak tanır. Herhangi bir sağlayıcı tarafından bir DNS sunucusu ayarlayabilirsiniz. Standart işlevlere ek olarak reklam, izleme ve kimlik avına karşı koruma sağlayabilen bir sunucu olan [AdGuard DNS'i](https://adguard-dns.io/kb/general/dns-providers/#adguard-dns) eklemenizi öneririz.
+The **DNS servers** tab allows you to add your own DNS server — manually or from the list. You can set up a DNS server by any provider. We recommend adding [AdGuard DNS](https://adguard-dns.io/kb/general/dns-providers/#adguard-dns), a server that can protect against advertising, tracking, and phishing, in addition to the standard functions.
 
 #### Gelişmiş ayarlar
 
-Gelişmiş ayarlara hiç dokunmadan Windows için AdGuard VPN'i kullanmak tamamen mümkündür, ancak ne yaptıklarını öğrenmek için zaman ayırmaya istekliyseniz, bunlar yararlı olabilir.
+It is entirely possible to use AdGuard VPN for Windows without ever touching the Advanced settings, but they can be useful if you’re willing to take time to learn what they do.
 
 ##### Çalışma modu
 
-İki çalışma modu olmasına rağmen — VPN ve SOCKS5 — yalnızca varsayılan olarak seçileni (VPN) kullanmanızı öneririz. **VPN modu** etkinleştirildiğinde, cihazınızın tüm trafiği AdGuard VPN üzerinden yönlendirilirken, **SOCKS5 modunda** AdGuard VPN, trafiğini yeniden yönlendirmek için diğer uygulamalar tarafından kullanılabilecek bir yerel proxy sunucusu kullanır.
+Despite the fact that there are two operating modes — VPN and SOCKS5 — we advise you to use only the one chosen by default (VPN). When the **VPN mode** is enabled, all the traffic of your device will be directed via AdGuard VPN, while in **SOCKS5 mode** AdGuard VPN uses a local proxy server which can be used by other applications to redirect their traffic.
 
 ##### Günlük kayıt düzeyi
 
-Aralarından seçim yapabileceğiniz iki günlük kayıt düzeyi mevcuttur: **Varsayılan olarak kaydet** ve **Her şeyi kaydet**. İlk seçenek varsayılan olarak etkindir. **Her şeyi kaydet** seçeneği, yalnızca destek ekibimiz sizden bunu yapmanızı isterse etkinleştirilmelidir. Uygulamayı bu modda uzun süre kullanmak, pil tüketiminin artmasına neden olur.
+Two levels of logging are available to choose from: **Record by default** and **Record everything**. The first option is enabled by default. The **Record everything** option should only be activated if our support team has asked you to do so. Using the app in this mode for an extended period of time result in increased battery consumption.
 
-Tüm günlükler cihazınızda yerel olarak depolanır ve gerekirse bunları destek ekibine gönderebilirsiniz.
+All logs are stored locally on your device, and you can send them to the support team if needed.
 
 ##### QUIC'i kullan
 
-Bu, AdGuard'ın gelişmiş QUIC şifreleme protokolünü kullanmasını sağlayan deneysel bir özelliktir. Birçok avantajı vardır, ancak en dikkate değer olanı, ideal olmayan koşullarda, örneğin mobil internet kullanırken veya halka açık Wi-Fi ağlarına bağlanırken bağlantı kalitesini iyileştirebilmesidir.
+This is an experimental feature that enables AdGuard to use the advanced QUIC encryption protocol. It has many advantages, but the most notable one is that it can improve connection quality under non-ideal conditions, for example, when using mobile Internet or when connecting to public Wi-Fi networks.
 
 #### WinTun'u kullan
 
-![WinTun'u kullan *border](https://cdn.adtidy.org/content/release_notes/vpn/windows/v2.2/stats_tab_v2.2_en.png)
+![Use WinTun *border](https://cdn.adguard-vpn.com/content/release_notes/vpn/windows/v2.2/stats_tab_v2.2_en.png)
 
-WinTun, Windows'ta VPN uygulamaları için yaygın olarak kullanılan ve sanal bir ağ bağdaştırıcısı oluşturarak VPN bağlantılarının kalitesini artıran bir trafik yönlendirme sürücüsüdür. Varsayılan olarak AdGuard VPN normal WFP sürücüsünü (ve Windows 7 için TDI sürücüsünü) kullanır.
+WinTun is a traffic routing driver commonly used for VPN implementations on Windows that improves the quality of VPN connections by creating a virtual network adapter. By default AdGuard VPN uses the regular WFP driver (and TDI driver for Windows 7).
 
 #### Alt ağ istisnaları
 
-Bu özellik, ağınıza bağlı belirli cihazlardan gelen trafiği hariç tutmak için alt ağlar eklemenize olanak tanır. Örneğin, robot elektrikli süpürgeniz.
+This feature allows you to add subnets to exclude traffic from specific devices connected to your network. For example, your robot vacuum cleaner.
 
 ## Diğer sekmeler
 
 ### Hakkında
 
-**Hakkında** sekmesi, Windows için AdGuard VPN'in geçerli sürümü hakkında bilgi, bir güncelleme düğmesi ve AdGuard VPN sitesi, SKLS ve Gizlilik politikası bağlantıları sağlar.
+The **About** tab provides information about the current version of AdGuard VPN for Windows, an update button, and links to the AdGuard VPN website, EULA, and Privacy policy.
 
 ### Hesap
 
-Burada lisans durumunuzla ilgili bilgilerin yanı sıra mevcut aboneliklerinizi yönetebileceğiniz ve yenilerini satın alabileceğiniz kişisel AdGuard hesabınızız bağlantısını bulabilirsiniz.
+Here you can find information about your license status, as well as a link to your personal AdGuard account, where you can manage your current subscriptions and purchase new ones.
 
 ## Destek
 
-Bu sekme, kullanıcıların sorularını çözmeyi amaçlamaktadır: burada SSS sayfasına bir bağlantı bulabilir, bir hatayı bildirebilir veya geri bildirim bırakabilir ve destek ekibi sizden isterse günlükleri dışa aktarabilirsiniz.
+This tab is aimed to solve users’ questions: there you can find a link to the FAQ page, report a bug or leave feedback, and export logs if the support team asks you to.

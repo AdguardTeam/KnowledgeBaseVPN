@@ -5,7 +5,7 @@ sidebar_position: 2
 
 ## Sistem gereksinimleri
 
-AdGuard VPN yalnızca **Microsoft Windows 11/10/8.1/8/7/Vista SP2 (yalnızca web tabanlı)** olan cihazlara yüklenebilir.
+AdGuard VPN yalnızca **Microsoft Windows 11, 10, 8.1, 8 ve Vista SP2 (yalnızca web tabanlı)** olan cihazlara kurulabilir.
 
 ## Windows için AdGuard VPN kurulumu
 
@@ -23,7 +23,7 @@ AdGuard VPN'i bilgisayarınızdan kaldırmaya karar verirseniz, aşağıda liste
 
 ### Gelişmiş kaldırma {#advanced}
 
-Normal kaldırma herhangi bir nedenle işe yaramazsa, gelişmiş bir yöntem kullanmayı deneyebilirsiniz. Her şeyden önce, geliştiricilerimiz tarafından oluşturulan [kaldırma aracını indirmeniz](https://cdn.adtidy.org/distr/windows/Uninstall_Utility.zip) gerekir. Arşivi bilgisayarınızdaki herhangi bir klasöre çıkarın, **Adguard.UninstallUtility.exe** dosyasını çalıştırın ve uygulamanın cihazınızda değişiklik yapmasına izin verin. Ardından aşağıdaki talimatı izleyin:
+In case regular uninstall doesn’t work for any reason, you can try to use an advanced method. First of all, you need to [download the uninstaller tool](https://cdn.adguard-vpn.com/distr/windows/Uninstall_Utility.zip) created by our developers. Arşivi bilgisayarınızdaki herhangi bir klasöre çıkarın, **Adguard.UninstallUtility.exe** dosyasını çalıştırın ve uygulamanın cihazınızda değişiklik yapmasına izin verin. Ardından aşağıdaki talimatı izleyin:
 
 1. *AdGuard VPN* ve *Standart* kaldırma türünü seçin, ardından *Kaldır* öğesine tıklayın:
 
@@ -31,7 +31,7 @@ Normal kaldırma herhangi bir nedenle işe yaramazsa, gelişmiş bir yöntem kul
 
 1. Uyarı penceresi açıldığında *Tamam* öğesine tıklayın:
 
-    ![Standart kaldırma uyarısı *border](https://cdn.adtidy.org/content/kb/vpn/windows/vpn_standard_warning.jpg)
+    ![Standart kaldırma uyarısı *border](https://cdn.adguard-vpn.com/content/kb/vpn/windows/vpn_standard_warning.jpg)
 
 1. Kaldırma işlemi bitene kadar bekleyin — **Kaldırma işlemi tamamlandı** ifadesi görünecek ve bilgisayarınızı yeniden başlatmanız istenecektir:
 
@@ -49,7 +49,7 @@ Normal kaldırma herhangi bir nedenle işe yaramazsa, gelişmiş bir yöntem kul
 
 1. Uyarı penceresi açıldığında *Tamam* öğesine tıklayın:
 
-    ![Genişletilmiş kaldırma uyarısı *border](https://cdn.adtidy.org/content/kb/vpn/windows/vpn_standard_warning.jpg)
+    ![Genişletilmiş kaldırma uyarısı *border](https://cdn.adguard-vpn.com/content/kb/vpn/windows/vpn_standard_warning.jpg)
 
 1. Kaldırma işlemi bitene kadar bekleyin — **Kaldırma işlemi tamamlandı** ifadesi görünecek ve bilgisayarınızı yeniden başlatmanız istenecektir:
 

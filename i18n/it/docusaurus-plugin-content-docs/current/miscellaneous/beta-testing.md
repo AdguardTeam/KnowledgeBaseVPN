@@ -1,5 +1,5 @@
 ---
-title: 'Test beta di AdGuard VPN'
+title: Test beta di AdGuard VPN
 sidebar_position: 2
 ---
 

@@ -13,11 +13,11 @@ Her sunucunun konumu ve sunucunun yanıt süresini tanımlayan ping hızı vard�
 
 İstisna listeleri, belirli siteler ve uygulamalar için VPN bağlantısını yönetmenize olanak tanır. *İstisnalar* bölümüne erişmek için ekranın alt kısmında soldan ikinci simgeye dokunun.
 
-![İstisnalar *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/exclusions.jpg)
+![İstisnalar *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/exclusions.jpg)
 
 Varsayılan olarak, AdGuard VPN istisnalara eklenenler dışında tüm siteler ve uygulamalar için çalışır: bir uygulama veya site belirtmezseniz, VPN bunlar için etkin olacaktır. Ayrıca **seçici olarak** da etkinleştirebilirsiniz — yalnızca belirli uygulamalar veya siteler için. Bu moda geçmek için *Modu değiştir* öğesine dokunun.
 
-![Modu değiştir *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/change_mode.jpg)
+![Modu değiştir *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/change_mode.jpg)
 
 :::caution
 
@@ -37,9 +37,9 @@ Alan adını (örn. `google.com`) veya alt alan adını (örn. `*.google.com`) i
 - Siteyi AdGuard VPN ile paylaşarak doğrudan tarayıcıdan ekleyin
 - Yerleşik hizmetler listesinden ekleyin
 
-![El ile ekle *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/manually.jpg)
+![El ile ekle *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/manually.jpg)
 
-![Listeden ekle *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/from_list.jpg)
+![Listeden ekle *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/from_list.jpg)
 
 :::note
 
@@ -55,17 +55,17 @@ Hizmet listelerinde alt alan adlarını etkinleştirebildiğiniz için, her hizm
 - **Kısmen etkin** (ana alan adı olmayan etkin alt alan adları) beyaz zemin üzerinde yeşil bir kareyle işaretlenmiştir
 - **Tamamen devre dışı** boş bir onay kutusuyla işaretlenmiştir
 
-![Site istisnaları *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/websites.png)
+![Site istisnaları *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/websites.png)
 
 Bir alan adını veya alt alan adını yanlışlıkla sildiyseniz, *Varsayılana sıfırla* öğesine dokunmanız yeterlidir.
 
-![Varsayılana sıfırla *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/reset.jpg)
+![Varsayılana sıfırla *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/reset.jpg)
 
 ### Uygulamalar
 
 Uygulamalar için VPN'i de yönetebilirsiniz. VPN tünelinden bir uygulamayı hariç tutmak için, *Uygulama ekle* öğesine dokunun. VPN'i **seçici olarak** kullanmak için *Modu değiştir* öğesine dokunun.
 
-![Uygulama istisnaları *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/apps.jpg)
+![Uygulama istisnaları *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/apps.jpg)
 
 :::caution
 
@@ -77,11 +77,11 @@ Uygulamalar için VPN'i de yönetebilirsiniz. VPN tünelinden bir uygulamayı ha
 
 Ekranın sağ alt kısmındaki dişli çark simgesine basarak *Ayarlar* öğesine ulaşabilirsiniz.
 
-![Ayarlar *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/settings.jpg)
+![Ayarlar *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/settings.jpg)
 
 ### Genel
 
-![Genel *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/general.jpg)
+![Genel *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/general.jpg)
 
 *Genel* bölümünde, temel AdGuard VPN ayarlarını yönetebilirsiniz:
 
@@ -93,7 +93,7 @@ Ekranın sağ alt kısmındaki dişli çark simgesine basarak *Ayarlar* öğesin
 
 ### Gelişmiş
 
-![Gelişmiş *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/advanced.png)
+![Gelişmiş *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/advanced.png)
 
 *Gelişmiş* bölümü, yaygın olarak kullanılmayan bir dizi ayardır.
 
@@ -123,4 +123,4 @@ Bu bölümde, destekle paylaşmak için günlükleri ve sistem bilgisini de dı�
 
 *Destek* bölümünde, sorularınıza hızlı yanıtlar almak, hataları bildirmek ve yeni özellikler önermek için SSS bölümümüze göz atabilirsiniz.
 
-![Destek *mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/support.jpg)
+![Destek *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/support.jpg)

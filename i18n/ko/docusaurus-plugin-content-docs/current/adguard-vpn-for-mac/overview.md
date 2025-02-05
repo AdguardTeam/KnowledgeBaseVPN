@@ -5,7 +5,7 @@ sidebar_position: 1
 
 Mac용 AdGuard VPN은 데스크톱 VPN 서비스입니다. AdGuard VPN은 AdGuard 광고 차단기와 호환되며 함께 사용할 수 있습니다. Mac용 VPN 기능을 살펴보겠습니다.
 
-**AdGuard 계정에 로그인하지 않으면 Mac용 AdGuard VPN을 사용할 수 없습니다**. AdGuard 계정이나 Apple, Google 또는 Facebook으로 로그인할 수 있습니다. 다른 계정이 AdGuard 계정과 동일한 이메일 주소에 연결되어 있는지 확인하세요. AdGuard 계정에 적합한 구독이 있으면 데스크톱 앱에서 자동으로 활성화됩니다. 아직도 AdGuard 계정이 없다면 [여기](https://auth.adguard.com/registration.html)에서 만들 수 있습니다.
+Note that **you can’t use AdGuard VPN for Mac unless you have logged into your AdGuard account**. AdGuard 계정이나 Apple, Google 또는 Facebook으로 로그인할 수 있습니다. 다른 계정이 AdGuard 계정과 동일한 이메일 주소에 연결되어 있는지 확인하세요. AdGuard 계정에 적합한 구독이 있으면 데스크톱 앱에서 자동으로 활성화됩니다. Still don’t have an AdGuard account? [여기](https://auth.adguard.com/registration.html)에서 만들 수 있습니다.
 
 :::note Compatibility
 
@@ -15,7 +15,7 @@ AdGuard VPN for Mac is currently supported on macOS versions starting from macOS
 
 ## 홈 화면
 
-![Home screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/vpn_main_new_en.jpeg)
+![Home screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/saved_locations.png)
 
 첫 번째 탭은 *홈 *화면입니다. Here you can see the current status of AdGuard VPN, the selected location (if enabled) and its ping. 핑은 VPN 서버의 응답 시간입니다. The lower the number, the faster the connection. If VPN is disabled, the last location you connected to is displayed at the bottom.
 
@@ -27,17 +27,25 @@ The fastest locations with the lowest pings are displayed in the upper right cor
 
 :::
 
+### Saved locations
+
+On the same tab, you can save your favorite locations to access them quickly.
+
+Just hover over a location, click the bookmark icon that appears, and it will be saved. Your marked locations will then show up in the *Saved* tab.
+
+![Saved locations](https://cdn.adguard-vpn.com/content/release_notes/vpn/mac/v2.5/Saved_locs_EN_2.png)
+
 ## 예외 목록
 
-![예외 목록](https://cdn.adguardvpn.com/content/kb/vpn/mac/exclusions_new_en.png)
+![Exclusions](https://cdn.adguardvpn.com/content/kb/vpn/mac/exclusions_new_en.png)
 
 AdGuard VPN has several features that make it unique, and one of them is definitely *Exclusions*. By default, AdGuard VPN will run on all websites and in all apps but the ones from the exclusions list. But you can switch to the other mode, so AdGuard VPN will run only on websites and in apps from the exclusions list.
 
-![예외 화면](https://cdn.adguardvpn.com/content/kb/vpn/mac/services_new_en.png)
+![Exclusions screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/services_new_en.png)
 
-또한 예외 목록에 웹사이트를 추가할 수 있을 뿐만 아니라 인기 있는 서비스 목록에서도 선택할 수 있습니다. 이 서비스 목록은 소셜 네트워크, 메신저, 비디오 및 음악 스트리밍 서비스, 게임, 쇼핑, 검색 엔진 및 업무용 커뮤니케이션 도구 등 8개의 범주로 나뉩니다. 이 중 어느 서비스든 한 클릭으로 예외 목록에 추가할 수 있습니다. 예외 목록에 추가된 도메인에서만 작동하는 AdGuard VPN 선택 모드를 사용할 경우, 아주 편리합니다.
+Also you can not only add websites to Exclusions but also choose among the lists of popular services. The lists are divided into eight categories: Social networks, Messengers, Video and Music streaming services, Games, Shopping, Search engines, and Work communication tools. Any of these services can be added to Exclusions in one click! It’s especially convenient if you use Selective mode.
 
-예외 목록들은 손쉽게 설정될 수 있습니다. 도메인과 여러 하위 도메인을 추가하는 경우, 메인 도메인 내에서 그룹화됩니다. 메인 도메인(`example.com`)을 추가할 때 해당 마스크(`*.example.com`)도 추가됩니다.
+Exclusion list can be easily configured. If you’ve added a domain and some of its subdomains, they’ll be grouped inside the root one. When adding a root domain (`example.com`) its mask is added too (`*.example.com`).
 
 :::info Browsers added to Exclusions
 
@@ -48,13 +56,13 @@ Starting with the version 2.4, all browsers are automatically added to the list 
 
 :::
 
-설정을 변경하거나 몇 부분을 제거했지만 초기 설정으로 복구하고 싶다면 필요한 도메인 옆에 있는 *기본값으로 초기화*를 누르기만 하면 됩니다. 이 것으로 인해 누락된 도메인이 복원되고 모든 확인란이 선택될 것 입니다.
+If you’ve added a service, changed or removed something and now want to recover initial settings, just press *Reset to default* next to the domain — this action will restore any missing domains and tick all checkboxes.
 
-예외 목록은 AdGuard VPN이 설치된 다른 기기로 전송할 수 있습니다. 예외 항목을 내보내려면 아래의 4단계 지침을 따르십시오.
+What’s more, ready-made exclusions lists can be transferred to other devices with installed AdGuard VPN. To export exclusions, follow the four-step instruction below:
 
 1. 예외 목록을 내보내려는 기기에서 AdGuard VPN을 엽니다. Find the appropriate section and click the *Export* button. `exclusions.zip` 파일이 다운로드됩니다.
 2. ZIP 파일 내부에는 일반 및 선별 목록 각각에 대해 하나씩 두 개의 `.txt` 파일이 있습니다. 제외 항목을 더 추가하거나, 기존 항목을 삭제하거나, 파일 이름을 바꾸거나, ZIP 파일을 그대로 둡니다.
-3. 다른 기기 간에 전송할 때 가져오기를 위해 `.zip` 파일을 기기로 보내는 것을 잊지 마십시오. 예를 들어, Mac 기기에서 아이폰으로 예외 목록을 가져오는 경우, 미리 `.zip` 파일을 Android로 보내야 합니다.
+3. When transferring between different devices, don’t forget to send the `.zip` file to the device for import. 예를 들어, Mac 기기에서 아이폰으로 예외 목록을 가져오는 경우, 미리 `.zip` 파일을 Android로 보내야 합니다.
 4. 예외 목록이 있는 ZIP 파일을 가져오려는 기기에서 AdGuard VPN을 엽니다. Find the appropriate section, click the *Import* button and select the archive. 끝!
 
 :::note
@@ -73,42 +81,42 @@ Importantly, all data is stored locally on your device, so no one but you has ac
 
 ## 고객 지원
 
-![지원 화면](https://cdn.adguardvpn.com/content/kb/vpn/mac/support_new_en.png)
+![Support screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/support_new_en.png)
 
 The fourth tab is the *Support* screen. Find answers to any questions in the [FAQ](https://adguard-vpn.com/welcome.html#faq) or in the [Knowledge base](/) sections, report a bug if you encounter one, or [discuss AdGuard on any of the platforms](https://adguard.com/discuss.html). And feel free to [leave feedback about our product](https://surveys.adguard.com/vpn_mac/form.html), we’d appreciate it.
 
 ## 설정
 
-![설정](https://cdn.adguardvpn.com/content/kb/vpn/mac/settings_new_en.png)
+![Settings](https://cdn.adguardvpn.com/content/kb/vpn/mac/settings_new_en.png)
 
-마지막으로 설정 탭을 살펴보겠습니다. 프로그램 *정보* 섹션에서 AdGuard VPN의 현재 버전 및 업데이트를 확인하고, 공식 웹사이트를 방문하고, AdGuard의 EULA 및 개인정보취급방침에 대해 알아볼 수 있습니다. *라이선스 정보* 섹션에서 무료 버전에서 무제한 버전으로 업그레이드하거나 구독을 관리하거나 로그아웃할 수 있습니다. 그리고 가장 중요한 것은 여기에서 *일반 설정*으로 이동할 수 있습니다.
+Finally, we come to the Settings tab. In the *About program* section you can see the current version of AdGuard VPN, check for updates, visit our official website, and get acquainted with AdGuard’s EULA and Privacy policy. In the *About license* section you can upgrade from free to unlimited, manage your subscription, or log out. And most importantly, from here you can access *General settings*.
 
-### 앱 설정
+### App settings
 
-![앱 설정](https://cdn.adguardvpn.com/content/kb/vpn/mac/general-settings_new_en.png)
+![App settings](https://cdn.adguardvpn.com/content/kb/vpn/mac/general-settings_new_en.png)
 
-The first four basic features make the application more convenient and user-friendly, i.e. *Kill Switch*, *Auto-update*, *Launch AdGuard VPN at login*, and *Auto-connect on app launch*. 시스템 기본 테마, 다크 테마 또는 라이트 테마를 적용할 수 있습니다. 시스템 기본 테마는 Mac의 테마와 일치합니다.
+The first four basic features make the application more convenient and user-friendly, i.e. *Kill Switch*, *Auto-update*, *Launch AdGuard VPN at login*, and *Auto-connect on app launch*. What’s more, you can choose between light, dark, and system themes — the latter one matches the theme on your Mac.
 
-You can also allow AdGuard VPN to gather and send anonymized crash reports, technical and interaction data in order to help us improve our app. Last but not least, you can export logs from your Mac. 이는 지원 팀에 보내는 메시지에 로그를 첨부하려는 경우에 유용할 수 있습니다.
+You can also allow AdGuard VPN to gather and send anonymized crash reports, technical and interaction data in order to help us improve our app. Last but not least, you can export logs from your Mac. This can be useful if you want to attach logs to your message to support.
 
-### DNS 서버
+### DNS servers
 
-![DNS 서버](https://cdn.adguardvpn.com/content/kb/vpn/mac/dns_new_en.png)
+![DNS servers](https://cdn.adguardvpn.com/content/kb/vpn/mac/dns_new_en.png)
 
-One or more DNS servers can be set up here. This is useful if you don't want to rely on the default DNS server provided by your ISP. Select one from the list of popular DNS services or add a custom server manually. We recommend adding AdGuard DNS, which not only encrypts your DNS traffic, but also identifies requests to malicious websites and redirects them to a “black hole”.
+One or more DNS servers can be set up here. This is useful if you don’t want to rely on the default DNS server provided by your ISP. Select one from the list of popular DNS services or add a custom server manually. We recommend adding AdGuard DNS, which not only encrypts your DNS traffic, but also identifies requests to malicious websites and redirects them to a “black hole”.
 
-### 고급 설정
+### Advanced settings
 
-![고급 설정](https://cdn.adguardvpn.com/content/kb/vpn/mac/advanced-settings_new_en.png)
+![Advanced settings](https://cdn.adguardvpn.com/content/kb/vpn/mac/advanced-settings_new_en.png)
 
 #### 로깅 수준
 
-로깅 수준은 두 가지뿐이지만 첫 번째 기본 수준을 사용하는 것이 좋습니다. 두 번째 옵션(고급화된 로깅)은 기술 지원 팀과 상담을 받은 후에 이상한 프로그램 동작을 수정하도록 설정해야 합니다. If you have enabled the extended logging level, make sure to switch to the default one after recording logs.
+There are only two logging levels but we strongly recommend that you use the first, default one. The second option (extended logging) should be set only to record a strange program behavior after consulting our technical support. If you have enabled the extended logging level, make sure to switch to the default one after recording logs.
 
 #### 메뉴 아이콘 숨기기
 
-이 옵션은 *고급 설정*에 있지만 손쉽게 활성화할 수 있습니다. 메뉴 표시줄에서 AdGuard VPN 아이콘을 숨길 수 있습니다. 앱이 백그라운드에서 실행되는 것을 막지는 않습니다.
+Although this option is located in *Advanced settings*, it can be enabled without hesitation. You can hide the AdGuard VPN icon from the menu bar, it won’t prevent our app from running in the background.
 
 #### Use QUIC
 
-QUIC 통신 프로토콜은 HTTP의 최신 버전입니다. 이상적이지 않은 조건(예: 지하철 또는 엘리베이터에서 모바일 데이터 사용 시)에서 더 나은 연결 품질을 얻기 위해 사용하십시오.
+QUIC communication protocol is the latest, cutting-edge version of HTTP. Toggle the switch to get a better connection quality in less-than-ideal conditions, while using mobile data in the subway or elevator, for instance.

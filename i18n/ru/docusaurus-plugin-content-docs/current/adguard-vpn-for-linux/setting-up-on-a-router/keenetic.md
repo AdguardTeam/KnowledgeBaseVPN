@@ -49,7 +49,9 @@ IP-адрес по умолчанию для большинства роутер
 
 2. Найдите запись _default_. Рядом с ней находится IP-адрес вашего роутера.
 
-## 3) Используйте SSH-клиент для подключения к роутеру
+<!-- comment -->
+
+## 3. Используйте SSH-клиент для подключения к роутеру
 
 Вам понадобится SSH-клиент. Большинство систем на Linux и macOS поставляются с предустановленным SSH-клиентом. Для Windows вы можете использовать PowerShell, встроенный SSH-клиент в Windows 10/11 или стороннее приложение, например PuTTY.
 
@@ -77,6 +79,8 @@ IP-адрес по умолчанию для большинства роутер
 
 4. Введите пароль от роутера, когда появится соответствующий запрос. Имя пользователя по умолчанию — `root`, пароль — `keenetic`.
 
+<!-- comment -->
+
 ### PuTTY (Windows 8 и более ранние версии)
 
 1. Скачайте и установите PuTTY [с официального сайта](https://www.putty.org/).
@@ -101,7 +105,7 @@ IP-адрес по умолчанию для большинства роутер
 
 ### Как установить OPKG Entware на USB-накопитель
 
-На модели Keenetic с портами USB, поддерживающими USB Flash-накопители, можно установить пакеты OPKG. К ним относятся: KN-1410, KN-1710/1711, KN-1010/1011, KN-2510, KN-2410, KN-1810, KN-1910, KN-2310, KN-2010, KN-2110, KN-2610, KN-2710.
+На модели Keenetic с портами USB, поддерживающими USB Flash-накопители, можно установить пакеты OPKG. К ним относятся: KN-1010/1011, KN-1410, KN-1710/1711, KN-1810, KN-1910, KN-2010, KN-2110, KN-2310, KN-2410, KN-2510, KN-2610, KN-2710.
 
 Подробные инструкции смотрите [на официальной странице Keenetic](https://help.keenetic.com/hc/ru/articles/360021214160-Установка-системы-пакетов-репозитория-Entware-на-USB-накопитель).
 
@@ -127,7 +131,7 @@ opkg install curl sudo ca-certificates
 curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/release/install.sh | sh -s -- -v
 ```
 
-На вопрос Would you like to link the binary to /usr/local/bin? ответьте `n` и выполните следующую строку:
+На вопрос Would you like to link the binary to `/usr/local/bin?` ответьте `n` и выполните следующую строку:
 
 ```bash
 ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
@@ -204,7 +208,7 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
 
    AdGuard VPN выберет локацию с наименьшим пингом и запомнит её для будущих быстрых подключений.
 
-3. Настройте VPN
+3. Отрегулируйте настройки
 
    Получите список всех доступных команд AdGuard VPN и настройте VPN-клиент под свои нужды.
 
@@ -216,7 +220,7 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
 
 4. Введите `yes` на вопрос Would you like to set default routes in TUN mode?
 
-AdGuard VPN CLI создаст интерфейс tun0 для VPN-туннелирования
+AdGuard VPN CLI создаст интерфейс tun0 для VPN-туннелирования.
 
 ## 7. Настройте правила фаервола
 
@@ -247,7 +251,7 @@ AdGuard VPN CLI создаст интерфейс tun0 для VPN-туннели
    EOF
    ```
 
-   И сделайте его исполняемым:
+   И сделайте её исполняемой:
 
    ```bash
    chmod +x /opt/etc/ndm/netfilter.d/001-adguardvpn.sh

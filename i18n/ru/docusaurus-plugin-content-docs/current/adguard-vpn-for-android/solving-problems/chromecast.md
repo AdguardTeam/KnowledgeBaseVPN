@@ -1,5 +1,5 @@
 ---
-title: 'Совместимость AdGuard VPN с Chromecast'
+title: Совместимость AdGuard VPN с Chromecast
 sidebar_position: 5
 ---
 

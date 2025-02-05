@@ -53,7 +53,9 @@ The default IP address for most routers is `192.168.1.1` or `192.168.0.1`. If
 
 2. Look for the _default_ entry. The IP address next to it is your router’s IP address.
 
-## 3) Use an SSH client to connect to the router
+<!-- comment -->
+
+## 3. Use an SSH client to connect to the router
 
 Most Linux and macOS systems come with an SSH client pre-installed. For Windows, you can use PowerShell, the built-in SSH client in Windows 10/11, or a third-party application like PuTTY.
 
@@ -67,7 +69,7 @@ Most Linux and macOS systems come with an SSH client pre-installed. For Windows,
    ssh root@192.168.1.1
    ```
 
-   Ersetzen Sie `192.168.1.1` durch die IP-Adresse Ihres Routers.
+   Replace `192.168.1.1` with your router’s IP address.
 
 3. If this is your first time connecting to the router via SSH, you’ll see a message like:
 
@@ -81,21 +83,25 @@ Most Linux and macOS systems come with an SSH client pre-installed. For Windows,
 
 4. Enter the router’s password when prompted. The default password for OpenWrt is typically empty (just press Enter), but you should have set a password during the initial setup.
 
+<!-- comment -->
+
 ### PuTTY (Windows)
 
 1. Download and install PuTTY from [the official website](https://www.putty.org/).
 
-2. Öffnen Sie PuTTY.
+2. Open PuTTY.
 
 3. In the _Host Name (or IP address)_ field, enter your router’s IP address (e.g., `192.168.1.1`).
 
 4. Ensure the _Connection type_ is set to SSH.
 
-5. Klicken Sie auf _Öffnen_.
+5. Click _Open_.
 
 6. When the Terminal window opens, log in. The default username is `root` and the default password is `keenetic`.
 
-## 4) Basic SSH commands
+<!-- comment -->
+
+## 4. Basic SSH commands
 
 Once logged in, you can use various commands to interact with your router’s Linux-based operating system.
 
@@ -131,7 +137,7 @@ curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/sc
    adguardvpn-cli login
    ```
 
-   Note: If failed to link the binary to '/usr/local/bin’, use full file path to run all commands. For example, `/opt/adguardvpn_cli/adguardvpn-cli login`
+   Note: If failed to link the binary to `/usr/local/bin`, use full file path to run all commands. For example, `/opt/adguardvpn_cli/adguardvpn-cli login`
 
 2. Connect to VPN
 
@@ -159,7 +165,7 @@ curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/sc
    adguardvpn-cli connect
    ```
 
-   AdGuard VPN will choose the fastest available location and remember it for future quick connections.
+   AdGuard VPN will choose the fastest location available and remember it for future quick connections.
 
 3. Adjust your settings
 
@@ -171,9 +177,11 @@ curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/sc
    adguardvpn-cli --help-all
    ```
 
-   AdGuard VPN CLI erstellt eine tun0-Schnittstelle für VPN-Tunneling.
+   AdGuard VPN CLI will create a tun0 interface for VPN tunneling.
 
-## 6) Set up firewall rules
+<!-- comment -->
+
+## 6. Set up firewall rules
 
 You can do it in the web interface or in the command line. Steps below describe setup via SSH command line.
 
@@ -191,7 +199,7 @@ You can do it in the web interface or in the command line. Steps below describe 
 2. Add tun0 to WAN zone
 
    For traffic to go through VPN, add tun0 to WAN zone.
-   The WAN interface which connects to the Internet will typically be in a zone named `wan` or something similar. Check your router's configuration files or firewall settings to find out which zone is associated with the WAN interface.
+   The WAN interface which connects to the Internet will typically be in a zone named `wan` or something similar. Check your router’s configuration files or firewall settings to find out which zone is associated with the WAN interface.
 
    To do so, list the existing firewall zones:
 
@@ -201,7 +209,7 @@ You can do it in the web interface or in the command line. Steps below describe 
 
    This will show a config file with all zones listed. Look for a section like `firewall.@zone[1]` or similar where `option name 'wan'` is defined. The number `[1]` could be different depending on your configuration.
 
-   Run this SSH command, replace `zone[1]` with correct  ‘wan’ zone identified before:
+   Run this SSH command, replace `zone[1]` with correct `wan` zone identified before:
 
    ```shell
    uci show firewall | grep "=zone"
@@ -228,7 +236,9 @@ You can do it in the web interface or in the command line. Steps below describe 
    /etc/init.d/firewall reload
    ```
 
-## 7) Set up automatic launch for AdGuard VPN CLI
+<!-- comment -->
+
+## 7. Set up automatic launch for AdGuard VPN CLI
 
 To automatically launch AdGuard VPN CLI after rebooting the router, create a file at `…/etc/init.d/adguardvpn`.
 

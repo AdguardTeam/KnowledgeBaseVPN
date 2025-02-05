@@ -5,7 +5,7 @@ sidebar_position: 2
 
 ## Sistem gereksinimleri
 
-AdGuard VPN can only be installed on devices with **iOS 15.4 and iPadOS 15.4 or later**.
+AdGuard VPN, yalnızca **iOS 15.4 ve iPadOS 15.4 veya sonraki sürümlere** sahip cihazlara yüklenebilir.
 
 ### If AdGuard VPN has been removed from the App Store
 
@@ -25,11 +25,11 @@ Veya AdGuard VPN'i bulmak için App Store'un aramasını kullanabilirsiniz:
 
     ![App Store *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/app-store-en.png)
 
-1. Ardından, arama çubuğuna *"AdGuard"* yazmaya başlayın ve önerilen seçenekler listesinden *"adguard vpn"* öğesini seçin.
+1. Next, in the search bar, start typing *AdGuard* and select *adguard vpn* from the list of suggested options.
 
     ![Ara *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/search-en.png)
 
-1. Select *AdGuard VPN - Unlimited & Fast* from the list of suggested apps and tap *GET*. Gerekirse, açılan pencereye Apple Kimliği hesap parolanızı girin.
+1. Önerilen uygulamalar listesinden *AdGuard VPN - Unlimited & Fast* öğesini seçin ve *İndir* öğesine dokunun. Gerekirse, açılan pencereye Apple Kimliği hesap parolanızı girin.
 1. İndirme işleminin bitmesini bekleyin ve uygulamayı açmak için *AÇ* öğesine dokunun.
 
     ![AdGuard VPN *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/adguard-vpn-en.png)

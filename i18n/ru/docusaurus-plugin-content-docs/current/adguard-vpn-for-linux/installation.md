@@ -27,7 +27,7 @@ curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/sc
 
 При необходимости введите пароль администратора.
 
-Согласитесь связать двоичный файл с `usr/local/bin`, нажав `y`, и дождитесь завершения установки.
+Создайте символическую ссылку на файл в папке `/usr/local/bin`, нажав `y`, и дождитесь завершения установки.
 
 :::note
 Вы можете проверить подпись и убедиться, что это официальная версия AdGuard VPN, используя инструмент `gpg`. [Подробнее на GitHub](https://github.com/AdguardTeam/AdGuardVPNCLI?tab=readme-ov-file#verify-releases)

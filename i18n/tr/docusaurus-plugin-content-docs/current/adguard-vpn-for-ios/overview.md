@@ -5,7 +5,7 @@ sidebar_position: 1
 
 ## iOS için AdGuard VPN nedir?
 
-VPN, İnternet üzerindeki başka bir ağa güvenli bir bağlantı oluşturmanızı sağlar. Bir kullanıcının bilgisayarını veya mobil cihazını bir sunucuya bağlar ve kişinin "gizli" bir IP adresi kullanarak internette gezinmesine olanak tanır. VPN sunucusu başka bir ülkede bulunuyorsa, internet bağlantısı bu ülkeden kurulmuş gibi görünür. Daha fazla ayrıntı için [VPN'in nasıl çalıştığına dair makalemize](/general/how-vpn-works) göz atabilirsiniz.
+VPN, İnternet üzerindeki başka bir ağa güvenli bir bağlantı oluşturmanızı sağlar. It connects a user’s computer or mobile device to a server and allows one to browse the Internet using a “cover” IP address. VPN sunucusu başka bir ülkede bulunuyorsa, internet bağlantısı bu ülkeden kurulmuş gibi görünür. Daha fazla ayrıntı için [VPN'in nasıl çalıştığına dair makalemize](/general/how-vpn-works) göz atabilirsiniz.
 
 AdGuard VPN'in çeşitli işlevleri vardır:
 
@@ -48,11 +48,11 @@ Sitelerin alan adlarını (örn. `google.com`) veya alt alan adlarını (örn. `
 - [Popüler hizmetler için alan adı listelerinden seçim yapın](#domain-lists-for-popular-services)
 - İstediğiniz sayfaları AdGuard VPN uygulamasıyla paylaşarak bunları doğrudan tarayıcıdan ekleyin
 
-![İstisnalar *mobile_border](https://cdn.adtidy.org/blog/new/lpjs7iexclusions-as-of-v2-4.png)
+![İstisnalar *mobile_border](https://cdn.adguard-vpn.com/blog/new/lpjs7iexclusions-as-of-v2-4.png)
 
-Elle bir alan adı eklediğinizde, tüm alt alan adları otomatik olarak eklenir ( `*.google.com` gibi görünür). Yalnızca google.com'u tutmak veya belirli bir alan adı için VPN'i kapatmak mı istiyorsunuz? Tap the line with the website — this will open a separate screen where you can manage subdomains. Sadece ihtiyacınız olmayanların kutularını işareti kaldırın.
+Elle bir alan adı eklediğinizde, tüm alt alan adları otomatik olarak eklenir ( `*.google.com` gibi görünür). Yalnızca google.com'u tutmak veya belirli bir alan adı için VPN'i kapatmak mı istiyorsunuz? Sitelerin bulunduğu satıra dokunun — bu, alt alan adlarını yönetebileceğiniz ayrı bir ekran açar. Just uncheck the boxes for the ones you don’t need.
 
-![Alt alan adları *mobile_border](https://cdn.adtidy.org/content/release_notes/vpn/ios/v2.4/domains_en.png)
+![Alt alan adları *mobile_border](https://cdn.adguard-vpn.com/content/release_notes/vpn/ios/v2.4/domains_en.png)
 
 Elle bir alt alan adı eklerseniz, ana alan adı da eklenir — ancak yanındaki onay kutusu işaretlenmeyecektir.
 
@@ -60,14 +60,14 @@ Elle bir alt alan adı eklerseniz, ana alan adı da eklenir — ancak yanındaki
 
 Google gibi büyük hizmetler aldatıcıdır. Genellikle birden fazla alan adı kullanırlar — biri medya dosyaları için, diğeri API için, artı farklı ülkeler için alan adları. Örneğin, Google söz konusu olduğunda, listemizde 416 alan adı vardır — hizmet için VPN'i tamamen kapatmak (veya açmak) için hepsinin İstisnalara eklenmesi gerekir.
 
-İşte popüler bir hizmet için gerekli tüm alan adlarını istisna listesine nasıl ekleyebileceğiniz:
+Here’s how to add all necessary domains for a popular service to exclusion list:
 
 1. *İstisnalar* öğesini açın.
 2. *Site ekle* öğesine dokunun.
 3. *Listeden* öğesin dokunun.
 4. Listeden istenen hizmeti bulup *Ekle* öğesine dokunun.
 
-![Popüler hizmetlerin listesi *mobile_border](https://cdn.adtidy.org/content/release_notes/vpn/ios/v2.4/add_website_en.png)
+![Popüler hizmetlerin listesi *mobile_border](https://cdn.adguard-vpn.com/content/release_notes/vpn/ios/v2.4/add_website_en.png)
 
 ### İstisnaları içe ve dışa aktarma
 

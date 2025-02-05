@@ -1,5 +1,5 @@
 ---
-title: '스크린샷을 찍는 방법'
+title: 스크린샷을 찍는 방법
 sidebar_position: 4
 ---
 
