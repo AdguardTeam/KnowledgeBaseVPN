@@ -9,7 +9,7 @@ There is an AdGuard VPN app for virtually every major platform out there, and we
 
 Both beta and nightly testing are important to make AdGuard VPN constantly better. However, they are different, and you can choose the one that suits you more.
 
-The development process follows a progression from nightly to beta and then from beta to the final, stable version. It means that you are more likely to find bugs in the nightly builds, but you get access to new features faster, almost on a daily basis. On the other hand, the beta is more stable, but you will get updates less often.
+The development process follows a progression from nightly to beta and then from beta to the final, stable version — release. It means that you are more likely to find bugs in nightly builds, but you get access to new features faster, almost on a daily basis. Betas are more stable, but you will get updates less often.
 
 ### How to become a beta or nightly tester
 
