@@ -25,7 +25,7 @@ To get the beta or nightly build of AdGuard VPN for iOS, you must first install 
 
 ### How to report a bug
 
-If you spotted a bug on the build you are testing or just want to share your suggestion with our developers, let us know: go to [GitHub](https://github.com/AdguardTeam/), find a suitable repository, create a new issue there, and describe the bug/feature request in detail.
+If you spot a bug in the build you are testing, or just want to share your suggestion with our developers, let us know: go to [GitHub](https://github.com/AdguardTeam/), find an appropriate repository, create a new issue there, and describe the bug/feature request in detail.
 
 The above method preferred, but you can use others if necessary:
 
