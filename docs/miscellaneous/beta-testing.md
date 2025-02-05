@@ -31,6 +31,6 @@ If you spot a bug in the build you are testing, or just want to share your sugge
 
 The above method is preferred, but you can use others if necessary:
 
-- Find us on [social media](https://adguard-vpn.com/en/discuss.html). This is not the most efficient way to discuss technical matters, but we'll aways try to be helpful.
+- Find us on [social media](https://adguard-vpn.com/discuss.html). This is not the most efficient way to discuss technical matters, but we’ll aways try to be helpful.
 
 - Email our support team from the Support tab in the app or write directly to [support@adguard.com](mailto:support@adguard.com).
