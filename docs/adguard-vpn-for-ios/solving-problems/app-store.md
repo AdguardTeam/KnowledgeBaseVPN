@@ -11,33 +11,33 @@ In some countries, AdGuard VPN is not available in the App Store. If that’s yo
 
 ### Changing the region for your current account
 
-1. Go to the Apple ID screen and tap *Media & Purchases* → *View Account*.
+1. Go to the Apple Account screen and tap *Media & Purchases* → *View*.
 
 1. Tap *Country/Region* → *Change Country or Region*.
 
     ![Changing region](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/changing_country.png)
 
-1. Select your preferred country from the list (e.g., *United States*) and agree to the Terms and Conditions.
+1. Select your preferred country from the list (e.g., *Canada* or *Mexico*) and agree to the Terms and Conditions.
 
-1. Fill in the required fields. You can select *None* for *Payment Method* and use any address with a valid ZIP code for *Billing Address*, for example:
+1. Fill in the required fields. For *Payment Method*, you can select *None*. For *Billing Address*, use any phone number and address with a valid ZIP code. For example:
 
-    Address: Grand Ave
+    Street: 90 Ave NW
 
-    City: Chicago
+    City: Edmonton
 
-    State: Illinois
+    Province/Territory: Alberta
 
-    Zip: 60007
+    Postal code: 15040
 
-    Phone: 999 999999999
+    Phone: 613 9572998
 
 1. Tap *Next*.
 
-    ![New region *border](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/new_country.png)
+    ![New region *border](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/canada_en.png)
 
 After changing the region, try [downloading AdGuard VPN from the App Store again](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602).
 
-### Creating a new Apple account and linking it to the App Store
+### Creating a new Apple Account and linking it to the App Store
 
 For users with paid subscriptions in the App Store who only need to download free apps from different regions, creating a new account in another country is a more convenient option. This way, you can use your primary account at the system level on your phone and activate the second account solely for the App Store without needing to log out of your iPhone account.
 
@@ -45,11 +45,11 @@ For users with paid subscriptions in the App Store who only need to download fre
 
 1. Visit [https://appleid.apple.com/account](https://appleid.apple.com/account).
 
-1. Enter any first and last name and select a country, like *United States of America*.
+1. Enter any first and last name and select a country, like *United States*.
 
-1. Use an email address not linked to your Apple ID. A verification code will be sent to this email.
+1. Use an email address not linked to any Apple Account. A verification code will be sent to this email.
 
-1. Provide a phone number for verification.
+1. Provide a phone number not linked to any Apple Account for verification.
 
 1. Confirm your email and phone number and press *Next*. That’s it!
 
@@ -57,7 +57,7 @@ Now **link your new account to the App Store**:
 
 1. Go to *Settings* and tap your name.
 
-1. Select *Media & Purchases* → *Sign Out*. This will only sign you out of the App Store while keeping you signed in with your Apple ID on your phone.
+1. Select *Media & Purchases* → *Sign Out*. This will only sign you out of the App Store while keeping you signed in with your Apple Account on your phone.
 
 1. Tap on *Media & Purchases* again and select *Not [your name]?* You will be prompted to sign in with a different Apple ID.
 
