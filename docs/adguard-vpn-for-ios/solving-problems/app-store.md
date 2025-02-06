@@ -49,7 +49,7 @@ For users with paid subscriptions in the App Store who only need to download fre
 
 1. Use an email address not linked to any Apple Account. A verification code will be sent to this email.
 
-1. Provide a phone number not linked to your Apple Account for verification.
+1. Provide a phone number not linked to any Apple Account for verification.
 
 1. Confirm your email and phone number and press *Next*. That’s it!
 
