@@ -45,7 +45,7 @@ For users with paid subscriptions in the App Store who only need to download fre
 
 1. Visit [https://appleid.apple.com/account](https://appleid.apple.com/account).
 
-1. Enter any first and last name and select a country, like *United States of America*.
+1. Enter any first and last name and select a country, like *United States*.
 
 1. Use an email address not linked to any Apple Account. A verification code will be sent to this email.
 
