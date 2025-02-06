@@ -19,7 +19,7 @@ In some countries, AdGuard VPN is not available in the App Store. If that’s yo
 
 1. Select your preferred country from the list (e.g., *Canada* or *Mexico*) and agree to the Terms and Conditions.
 
-1. Fill in the required fields. You can select *None* for *Payment Method* and use any phone number and address with a valid ZIP code for *Billing Address*, for example:
+1. Fill in the required fields. For *Payment Method*, you can select *None*. For *Billing Address*, use any phone number and address with a valid ZIP code. For example:
 
     Street: 90 Ave NW
 
