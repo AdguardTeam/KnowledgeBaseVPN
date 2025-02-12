@@ -36,10 +36,12 @@ export const getOSName = () => {
 };
 
 export const getCurrentPlatformName = () => {
-    const currentOS = getOSName() === OS_NAMES.MAC_OS ? OS_NAMES.MAC : getOSName();
+    const osName = getOSName();
+
+    const currentOS = osName === OS_NAMES.MAC_OS ? OS_NAMES.MAC : osName;
     const currentBrowser = getBrowserName();
 
-    console.log('getCurrentPlatformName', Object.values(OS_NAMES).includes(currentOS), currentOS);
+    console.log(Object.values(OS_NAMES).includes(currentOS) && currentOS !== OS_NAMES.LINUX, currentOS);
 
     if (Object.values(OS_NAMES).includes(currentOS) && currentOS !== OS_NAMES.LINUX) {
         return currentOS;
