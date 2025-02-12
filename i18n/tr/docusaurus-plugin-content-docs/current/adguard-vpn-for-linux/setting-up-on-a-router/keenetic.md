@@ -125,7 +125,7 @@ SSH istemcinizde, AdGuard VPN CLI için gerekli paketleri yüklemek için aşağ
 opkg install curl sudo ca-certificates
 ```
 
-`/cd opt` komutunu çalıştırarak `/opt` klasörüne gidin ve AdGuard VPN CLI yükleme betiğini çalıştırın:
+Go to the `/opt` folder by typing `cd /opt` and run the AdGuard VPN CLI installation script:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/release/install.sh | sh -s -- -v

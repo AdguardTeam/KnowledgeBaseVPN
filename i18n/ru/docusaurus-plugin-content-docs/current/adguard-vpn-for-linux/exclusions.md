@@ -13,7 +13,7 @@ sidebar_position: 7
 
 :::
 
-![Exclusions](https://cdn.adguard-vpn.com/blog/new/m6pkdVPN-CLI-exclusions.png)
+![Исключения](https://cdn.adguard-vpn.com/blog/new/m6pkdVPN-CLI-exclusions.png)
 
 ### Как пользоваться
 

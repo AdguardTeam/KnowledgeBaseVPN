@@ -1,20 +1,36 @@
 ---
-title: AdGuard VPN beta testi
+title: AdGuard VPN beta/nightly testing
 sidebar_position: 2
 ---
 
-Hemen hemen her büyük platform için bir AdGuard VPN uygulaması var ve bunların tümü için düzenli olarak güncellemeler yayınlıyoruz. Bu, beta testi ve daha da önemlisi beta test kullanıcısı olmadan mümkün olmazdı. Bunlardan biri olmak ister misiniz? İşte bunu nasıl yapabileceğiniz.
+Hemen hemen her büyük platform için bir AdGuard VPN uygulaması var ve bunların tümü için düzenli olarak güncellemeler yayınlıyoruz. This would not be possible without beta and nightly testing and, more importantly, without our testers. Want to become one of them? Here’s how you can do it.
 
-### Beta test kullanıcısı nasıl olunur
+### Beta or nightly: what is the difference?
 
-AdGuard VPN beta test kullanıcısı olmak için yalnızca birkaç şeye ihtiyacınız var: istek, uygulamayı yükleyeceğiniz cihaz ve [bu bağlantıyı](https://adguard-vpn.com/en/beta.html) izleyerek AdGuard VPN'in en son beta veya nightly sürümünü indirebileceksiniz!
+Both beta and nightly testing are important to make AdGuard VPN constantly better. However, they are different, and you can choose the one that suits you more.
 
-### Hata nasıl bildirilir
+The development process follows a progression from nightly to beta and then from beta to the final, stable version — release. It means that you are more likely to find bugs in nightly builds, but you get access to new features faster, almost on a daily basis. Betas are more stable, but you will get updates less often.
 
-Bunun olduğunu düşünelim — bir hata tespit ettiniz. Ya da sadece önerinizi geliştiricilerle paylaşmak mı istiyorsunuz? Bize bildirin: [GitHub'a](https://github.com/AdguardTeam/) gidin, uygun bir depo bulun, orada yeni bir sorun oluşturun ve hata/özellik talebini ayrıntılı olarak açıklayın.
+### How to become a beta or nightly tester
 
-Yukarıdaki yöntem en çok tercih edilendir, ancak gerekirse diğerlerini de kullanabilirsiniz:
+Our requirements are easy: use AdGuard VPN, upgrade to the beta/nightly version when it becomes available, and report any bugs you notice. You will need a [GitHub](https://github.com/) account to become our tester, so you might want to get that out of the way first.
 
-- [Facebook](https://www.facebook.com/AdguardEn/), [Reddit](https://www.reddit.com/r/Adguard/), vb. gibi çeşitli sosyal medya platformlarında bizi bulun. Ancak, bu teknik konuları tartışmanın en etkili yolu değildir.
+You will also need the device on which you will install the app and [the link to the the beta testing page](https://adguard-vpn.com/beta.html). There you will find more information on how to join our program and test AdGuard VPN for Windows, Mac, Android, iOS, Linux, and AdGuard VPN Browser Extension.
+
+Once on the beta testing page, all you have to do is choose between the beta and the nightly versions, download the respective build and fill in the [form](https://surveys.adguard.com/en/vpn_beta_testing_program/form.html) to apply.
+
+:::note
+
+To get the beta or nightly build of AdGuard VPN for iOS, you must first install [Testflight](https://apps.apple.com/app/testflight/id899247664) on your iOS device.
+
+:::
+
+### How to report a bug
+
+If you spot a bug in the build you are testing, or just want to share your suggestion with our developers, let us know: go to [GitHub](https://github.com/AdguardTeam/), find an appropriate repository, create a new issue there, and describe the bug/feature request in detail.
+
+The above method is preferred, but you can use others if necessary:
+
+- Find us on [social media](https://adguard-vpn.com/discuss.html). This is not the most efficient way to discuss technical matters, but we’ll aways try to be helpful.
 
 - Uygulamadaki Destek sekmesinden destek ekibimize e-posta gönderin veya doğrudan [support@adguard.com](mailto:support@adguard.com) adresine yazın.

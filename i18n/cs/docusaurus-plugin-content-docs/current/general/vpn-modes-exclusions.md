@@ -1,151 +1,151 @@
 ---
-title: VPN modes and Exclusion lists
+title: Režimy VPN a seznamy výjimek
 sidebar_position: 11
 ---
 
-This section explains how to use website and app exclusions in different VPN modes.
+V této části je vysvětleno, jak používat výjikky webových stránek a aplikací v různých režimech VPN.
 
-## VPN modes
+## Režimy VPN
 
-AdGuard VPN has two modes:
+AdGuard VPN má dva režimy:
 
-1. By default, AdGuard VPN is active for all websites and apps, except for those added to the website and app exclusion lists.
+1. Ve výchozím nastavení je AdGuard VPN aktivní pro všechny weby a aplikace, kromě těch, které jsou přidány do seznamů výjimek webových stránek a aplikací.
 
-2. AdGuard VPN is active _selectively_: only for the websites and apps from the exclusion lists.
-
-:::note
-
-You can set different VPN modes for apps and websites. For example, you can set AdGuard VPN to be active for all apps except for those added to the app exclusion list, and active only for the websites from the website exclusion list.
-
-:::
-
-## Exclusion lists
-
-An exclusion list is a list of apps or websites that AdGuard VPN excludes or includes in its tunnel based on the current VPN mode.
+2. AdGuard VPN je aktivní _selektivně_: pouze pro webové stránky a aplikace ze seznamů výjimek.
 
 :::note
 
-Each VPN mode has two exclusion lists: one for apps and one for websites. In total, there are four exclusion lists:
-
-- App exclusion list [VPN active everywhere]
-- App exclusion list [VPN active selectively]
-- Website exclusion list [VPN active everywhere]
-- Website exclusion list [VPN active selectively]
+Pro aplikace a webové stránky můžete nastavit různé režimy VPN. Můžete například nastavit, aby byla AdGuard VPN aktivní pro všechny aplikace kromě těch, které byly přidány do seznamu výjimek aplikace, a aktivní pouze pro webové stránky ze seznamu výjimek webových stránek.
 
 :::
 
-## Combining VPN modes and exclusion lists
+## Seznamy výjimek
 
-You can set up four combinations of VPN activity.
+Seznam výjimek je seznam aplikací nebo webových stránek, které AdGuard VPN vylučuje nebo zahrnuje do svého tunelu na základě aktuálního režimu VPN.
 
-### Setup 1
+:::note
 
-AdGuard VPN is active everywhere except for apps and websites from the app and website exclusion lists.
+Každý režim VPN má dva seznamy výjimek: jeden pro aplikace a druhý pro webové stránky. Celkem existují čtyři seznamy výjimek:
 
-VPN mode:
-
-- Active for all apps except app exclusions
-- Active for all websites except website exclusions
-
-Applied exclusion lists:
-
-- App exclusion list [VPN active everywhere]
-- Website exclusion list [VPN active everywhere]
-
-This is the default VPN mode with maximum VPN protection. If you want to exclude a website or an app from AdGuard VPN, add them to the respective exclusion list.
-
-**Empty exclusion lists:** Your app and website exclusion lists can be empty. If nothing is specified in them, AdGuard VPN will be active for all apps and websites.
-
-**Why use this mode:** You want a blanket VPN protection for everything on your device. If a specific app or website needs to work outside the VPN, add it to Exclusions.
-
-:::caution
-
-If you add a browser app to the app exclusion list, AdGuard VPN won’t be active for all websites opened in that browser.
+- Seznam výjimek pro aplikace [VPN aktivní všude]
+- Seznam výjimek pro aplikace [VPN aktivní selektivně]
+- Seznam výjimek pro webové stránky [VPN aktivní všude]
+- Seznam výjimek pro webové stránky [VPN aktivní selektivně]
 
 :::
 
-### Setup 2
+## Kombinace režimů VPN a seznamů výjimek
 
-AdGuard VPN is active only for the apps from the the app exclusion list and for all websites except those from the website exclusion list.
+Můžete nastavit čtyři kombinace aktivit VPN.
 
-VPN mode:
+### Nastavení 1
 
-- Active only for apps from app exclusions
-- Active for all websites except website exclusions
+AdGuard VPN je aktivní všude kromě aplikací a webových stránek ze seznamů výjimek aplikací a webových stránek.
 
-Applied exclusion lists:
+Režim VPN:
 
-- App exclusion list [VPN active selectively]
-- Website exclusion list [VPN active everywhere]
+- Aktivní pro všechny aplikace mimo aplikace ve výjimkách
+- Aktivní pro všechny webové stránky mimo webové stránky ve výjimkách
 
-To switch to this mode, leave AdGuard VPN active for all websites and set it to be on only for the apps from the app exclusion list. This mode provides less VPN protection coverage because you need to add apps to the app exclusion list to ensure they are protected.
+Použité seznamy výjimek:
 
-This mode requires your attention to setting up your app exclusion list.
+- Seznam výjimek pro aplikace [VPN aktivní všude]
+- Seznam výjimek pro webové stránky [VPN aktivní všude]
 
-**Empty exclusion lists:** If the **app exclusion list** is **empty**, AdGuard VPN will be **inactive for both websites and apps**.
+Jedná se o výchozí režim VPN s maximální ochranou VPN. Pokud chcete webovou stránku nebo aplikaci z AdGuard VPN vyloučit, přidejte je do příslušného seznamu výjimek.
 
-**Why use this mode:** You need a VPN for most websites, but only for a few apps.
+**Prázdné seznamy výjimek:** Seznamy výjimek aplikací a webových stránek mohou být prázdné. Pokud v nich není nic uvedeno, bude AdGuard VPN aktivní pro všechny aplikace a webové stránky.
+
+**Proč používat tento režim:** Chcete mít v zařízení komplexní ochranu VPN pro všechno. Pokud má určitá aplikace nebo webová stránka fungovat mimo VPN, přidejte ji do výjimek.
 
 :::caution
 
-If you don’t add a browser app to the app exclusion list, AdGuard VPN will be inactive in this browser for all websites, even those from the website exclusion list.
+Pokud přidáte aplikaci prohlížeče do seznamu výjimek, nebude AdGuard VPN aktivní pro všechny webové stránky otevřené v tomto prohlížeči.
 
 :::
 
-### Setup 3
+### Nastavení 2
 
-AdGuard VPN is active for all apps except those from the the app exclusion list, and only for the websites from the website exclusion list.
+AdGuard VPN je aktivní pouze pro aplikace ze seznamu výjimek a pro všechny webové stránky kromě těch ze seznamu výjimek webových stránek.
 
-VPN mode:
+Režim VPN:
 
-- Active for all apps except app exclusions
-- Active only for websites from website exclusions
+- Aktivní pouze pro aplikace z výjimek
+- Aktivní pro všechny webové stránky mimo webové stránky ve výjimkách
 
-Applied exclusion lists:
+Použité seznamy výjimek:
 
-- App exclusion list [VPN active everywhere]
-- Website exclusion list [VPN active selectively]
+- Seznam výjimek pro aplikace [VPN aktivní selektivně]
+- Seznam výjimek pro webové stránky [VPN aktivní všude]
 
-To switch to this mode, leave AdGuard VPN active for all apps and set it to be on only for the websites from the website exclusion list. To use an app, add its respective domain to the website exclusion list.
+Chcete-li přepnout do tohoto režimu, ponechte AdGuard VPN aktivní pro všechny webové stránky a nastavte ji tak, aby byla zapnutá pouze pro aplikace ze seznamu výjimek. Tento režim poskytuje menší pokrytí ochrany VPN, protože je třeba přidávat aplikace do seznamu výjimek, abyste zajistili jejich ochranu.
 
-This mode provides even less VPN protection coverage because you need to add websites to the website exclusion list to ensure they are protected.
+Tento režim vyžaduje, abyste věnovali pozornost nastavení seznamu výjimek pro aplikace.
 
-This mode requires your attention to setting up your website exclusion list.
+**Prázdné seznamy výjimek:** Pokud je **seznam výjimek pro aplikace** **prázdný**, AdGuard VPN bude **neaktivní pro webové stránky i aplikace**.
 
-**Empty exclusion lists:** If the **website exclusion list** is **empty**, AdGuard VPN will be **inactive for all websites and apps**.
-
-**Why use this mode:** You need a VPN for most apps, but only for a few websites.
+**Proč používat tento režim:** Potřebujete VPN pro většinu webových stránek, ale pouze pro několik aplikací.
 
 :::caution
 
-For all apps: make sure to add their respective domains to the website exclusion list. For example, for Facebook, add `facebook.com` to the website exclusion list.
+Pokud aplikaci prohlížeče nepřidáte do seznamu výjimek, bude AdGuard VPN v tomto prohlížeči neaktivní pro všechny webové stránky, i pro ty ze seznamu výjimek pro webové stránky.
 
 :::
 
-### Setup 4
+### Nastavení 3
 
-AdGuard VPN is active only for the apps and websites from the app and website exclusion lists.
+AdGuard VPN je aktivní pro všechny aplikace kromě těch ze seznamu výjimek a pouze pro webové stránky ze seznamu výjimek pro webové stránky.
 
-VPN mode:
+Režim VPN:
 
-- Active only for apps from app exclusions
-- Active only for websites from website exclusions
+- Aktivní pro všechny aplikace mimo aplikace ve výjimkách
+- Aktivní pouze pro webové stránky mimo webové stránky ve výjimkách
 
-Applied exclusion lists:
+Použité seznamy výjimek:
 
-- App exclusion list [VPN active selectively]
-- Website exclusion list [VPN active selectively]
+- Seznam výjimek pro aplikace [VPN aktivní všude]
+- Seznam výjimek pro webové stránky [VPN aktivní selektivně]
 
-You need to switch to this mode both for apps and websites. This mode provides the least VPN protection coverage. This mode requires your maximum attention to setting up your app and website exclusion lists.
+Chcete-li přepnout do tohoto režimu, ponechte AdGuard VPN aktivní pro všechny aplikace a nastavte ji tak, aby byla zapnutá pouze pro webové stránky ze seznamu výjimek. Chcete-li aplikaci používat, přidejte její příslušnou doménu do seznamu výjimek pro webové stránky.
 
-**Empty exclusion lists:** If **any** of the exclusion lists is **empty**, AdGuard VPN will be **inactive for both websites and apps**.
+Tento režim poskytuje ještě menší ochranu VPN, protože je třeba přidat webové stránky do seznamu výjimek, aby byla zajištěna jejich ochrana.
 
-**Why use this mode:** You only need VPN for specific websites and apps.
+Tento režim vyžaduje, abyste věnovali pozornost nastavení seznamu výjimek pro webové stránky.
+
+**Prázdné seznamy výjimek:** Pokud je **seznam výjimek pro webové stránky** **prázdný**, AdGuard VPN bude **neaktivní pro webové stránky i aplikace**.
+
+**Proč používat tento režim:** Potřebujete VPN pro většinu aplikací, ale pouze pro několik webových stránek.
 
 :::caution
 
-1. If you don’t add a browser app to the app exclusion list, AdGuard VPN will be inactive in this browser for all websites, even those from the website exclusion list.
+Pro všechny aplikace: nezapomeňte přidat jejich příslušné domény do seznamu výjimek pro webové stránky. Například v případě Facebooku přidejte do seznamu výjimek pro webové stránky adresu `facebook.com`.
 
-2. For apps from the app exclusion list: make sure to add their respective domains to the website exclusion list. For example, if you add _Facebook_ to the app exclusion list, add `facebook.com` to the website exclusion list.
+:::
+
+### Nastavení 4
+
+AdGuard VPN je aktivní pouze pro aplikace a webové stránky ze seznamu výjimek pro aplikace a webové stránky.
+
+Režim VPN:
+
+- Aktivní pouze pro aplikace z výjimek
+- Aktivní pouze pro webové stránky mimo webové stránky ve výjimkách
+
+Použité seznamy výjimek:
+
+- Seznam výjimek pro aplikace [VPN aktivní selektivně]
+- Seznam výjimek pro webové stránky [VPN aktivní selektivně]
+
+Do tohoto režimu je třeba přepnout aplikace i webové stránky. Tento režim poskytuje nejmenší pokrytí ochrany VPN. Tento režim vyžaduje, abyste věnovali maximální pozornost nastavení seznamů výjimek pro aplikace a webové stránky.
+
+**Prázdné seznamy výjimek:** Pokud je **kterýkoli** ze seznamů výjimek **prázdný**, AdGuard VPN bude **neaktivní pro webové stránky i aplikace**.
+
+**Proč používat tento režim:** VPN potřebujete pouze pro určité webové stránky a aplikace.
+
+:::caution
+
+1. Pokud aplikaci prohlížeče nepřidáte do seznamu výjimek, bude AdGuard VPN v tomto prohlížeči neaktivní pro všechny webové stránky, i pro ty ze seznamu výjimek pro webové stránky.
+
+2. Pro aplikace ze seznamu výjimek: nezapomeňte přidat jejich příslušné domény do seznamu výjimek pro webové stránky. Pokud například přidáte _Facebook_ do seznamu výjimek pro aplikace, přidejte `facebook.com` do seznamu výjimek pro webové stránky.
 
 :::

@@ -125,7 +125,7 @@ V klientovi SSH spusťte následující kód pro instalaci balíčků potřebný
 opkg install curl sudo ca-certificates
 ```
 
-Přejděte do složky `/opt` zadáním `/cd opt` a spusťte instalační skript AdGuard VPN CLI:
+Go to the `/opt` folder by typing `cd /opt` and run the AdGuard VPN CLI installation script:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/release/install.sh | sh -s -- -v

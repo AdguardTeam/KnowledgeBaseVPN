@@ -3,11 +3,11 @@ title: Jak nastavit AdGuard VPN na routeru
 sidebar_position: 8
 ---
 
-Setting up AdGuard VPN on your router allows you to protect all devices connected to your network. This includes smart TVs, media players, gaming consoles, and other gadgets that do not support VPN apps directly.
+Nastavení AdGuard VPN na vašem routeru vám umožní chránit všechna zařízení připojená k síti. Patří sem chytré televizory, přehrávače médií, herní konzole a další zařízení, která přímo nepodporují aplikace VPN.
 
 :::note
 
-Tato možnost je k dispozici pouze v případě, že máte předplatné AdGuard VPN a váš router podporuje IPsec v nastavení _VPN Client_ (**ne** _VPN Server_). If IPsec is not listed in the _VPN CLient_ settings, you can try setting up [AdGuard VPN for Linux](/adguard-vpn-for-linux/setting-up-on-a-router). This solution uses AdGuard's proprietary protocol and is compatible with Keenetic, OpenWRT, and Asuswrt-Merlin routers.
+Tato možnost je k dispozici pouze v případě, že máte předplatné AdGuard VPN a váš router podporuje IPsec v nastavení _VPN Client_ (**ne** _VPN Server_). Pokud IPsec není uveden v nastavení _VPN CLient_, můžete zkusit nastavit [AdGuard VPN pro Linux](/adguard-vpn-for-linux/setting-up-on-a-router). Toto řešení využívá vlastní protokol AdGuardu a je kompatibilní s routery Keenetic, OpenWRT a Asuswrt-Merlin.
 
 :::
 

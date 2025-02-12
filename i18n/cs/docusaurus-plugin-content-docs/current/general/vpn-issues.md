@@ -7,7 +7,7 @@ V některých oblastech, jako je Čína, Írán a Rusko, mohou mít uživatelé 
 
 ## Přístup na webové stránky AdGuard VPN
 
-If adguard-vpn.com is not accessible, try using the [mirror website](https://adguard-vpn.com/).
+Pokud stránka adguard-vpn.com není přístupná zkuste použít [zrcadlený web](https://adguard-vpn.com/).
 
 :::info
 
@@ -25,15 +25,15 @@ Po změně regionu nebo propojení jiného účtu s App Store [nainstalujte AdGu
 
 ### AdGuard VPN pro Android
 
-If you experience problems with Google Play, download the APK file from [AdGuard VPN’s mirror website](https://adguard-vpn.com/android/overview.html).
+Pokud máte problémy s Obchodem Google Play, stáhněte si soubor APK ze [zrcadleného webu AdGuard VPN](https://adguard-vpn.com/android/overview.html).
 
 ### AdGuard VPN pro macOS
 
-Download the installation file from [AdGuard VPN’s mirror website](https://adguard-vpn.com/windows/overview.html).
+Stáhněte si instalační soubor ze [zrcadleného webu AdGuard VPN](https://adguard-vpn.com/windows/overview.html).
 
 ### AdGuard VPN pro Windows
 
-Download the installation file from [AdGuard VPN’s mirror website](https://adguard-vpn.com/mac/overview.html).
+Stáhněte si instalační soubor ze [zrcadleného webu AdGuard VPN](https://adguard-vpn.com/mac/overview.html).
 
 ## Další užitečné tipy
 
