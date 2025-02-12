@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import clsx from 'clsx';
 import Translate from '@docusaurus/Translate';
-import { getOSName } from '@site/static/js/helpers';
+import { getCurrentPlatformName, getOSName } from '@site/static/js/helpers';
 import { OS_NAMES } from '@site/static/js/consts';
 
 import s from './StickyBar.module.scss';
@@ -76,6 +76,8 @@ const eulaText = () => {
 }
 
 const StickyBar = () => {
+    const iconClassName = `stickyBarBtnIcon_${getCurrentPlatformName()}`;
+
     const [isVisible, setIsVisible] = useState(true);
     const [scrolling, setScrolling] = useState(false);
 
@@ -110,7 +112,7 @@ const StickyBar = () => {
                                 className={s.stickyBarBtn}
                                 href={`/download.html?auto=1&lbl=knowledge_base`}
                             >
-                                <span className={s.stickyBarBtnIcon} />
+                                <span className={clsx(s.stickyBarBtnIcon, s[iconClassName])} />
 
                                 {getCurrentBtnText()}
                             </a>
