@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import clsx from 'clsx';
 import Translate from '@docusaurus/Translate';
 import { getCurrentPlatformName, getOSName } from '@site/static/js/helpers';
@@ -76,10 +76,12 @@ const eulaText = () => {
 }
 
 const StickyBar = () => {
-    const iconClassName = `stickyBarBtnIcon_${getCurrentPlatformName()}`;
-
     const [isVisible, setIsVisible] = useState(true);
     const [scrolling, setScrolling] = useState(false);
+
+    const iconClassName = useMemo(() => {
+        return `stickyBarBtnIcon_${getCurrentPlatformName()}`
+    }, []);
 
     useEffect(() => {
         const onScroll = (e) => {

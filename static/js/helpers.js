@@ -39,8 +39,11 @@ export const getCurrentPlatformName = () => {
     const currentOS = getOSName() === OS_NAMES.MAC_OS ? OS_NAMES.MAC : getOSName();
     const currentBrowser = getBrowserName();
 
+    console.log('getCurrentPlatformName', Object.values(OS_NAMES).includes(currentOS), currentOS);
+
     if (Object.values(OS_NAMES).includes(currentOS) && currentOS !== OS_NAMES.LINUX) {
         return currentOS;
     }
+
     return Object.values(VPN_BROWSER_NAMES).includes(currentBrowser) ? currentBrowser : BROWSER_NAMES.CHROME;
 };
