@@ -133,6 +133,7 @@ curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/sc
 
 When asked “Would you like to link the binary to `/usr/local/bin?`“, reply `n` and run this line:
 cd /opt
+
 ```bash
 ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
 ```
