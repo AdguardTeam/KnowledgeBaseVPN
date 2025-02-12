@@ -109,6 +109,8 @@
 }
 
 .stickyBarBtnIcon {
+    position: relative;
+    top: 1px;
     width: 24px;
     height: 24px;
     margin-right: 8px;
@@ -116,38 +118,7 @@
     background-position: center;
     background-size: 100%;
     background-color: var(--vpn-white-color);
-}
-
-.stickyBarBtnIcon_chrome {
-    mask-image: url("/img/icons/icon-chrome.svg");
-}
-
-.stickyBarBtnIcon_edge {
-    mask-image: url("/img/icons/icon-edge.svg");
-}
-
-.stickyBarBtnIcon_firefox {
-    mask-image: url("/img/icons/icon-firefox.svg");
-}
-
-.stickyBarBtnIcon_opera {
-    mask-image: url("/img/icons/icon-opera.svg");
-}
-
-.stickyBarBtnIcon_windows {
-    mask-image: url("/img/icons/icon-windows.svg");
-}
-
-.stickyBarBtnIcon_mac {
-    mask-image: url("/img/icons/icon-mac.svg");
-}
-
-.stickyBarBtnIcon_ios {
-    mask-image: url("/img/icons/icon-appstore.svg");
-}
-
-.stickyBarBtnIcon_android {
-    mask-image: url("/img/icons/icon-gplay.svg");
+    mask-image: url("/img/icons/download.svg");
 }
 
 .stickyBarBaloon {
