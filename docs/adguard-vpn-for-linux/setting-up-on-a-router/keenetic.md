@@ -125,7 +125,7 @@ In your SSH client, execute the following code to install the packages required 
 opkg install curl sudo ca-certificates
 ```
 
-Go to the `/opt` folder by typing `/cd opt` and run the AdGuard VPN CLI installation script:
+Go to the `/opt` folder by typing `cd /opt` and run the AdGuard VPN CLI installation script:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/release/install.sh | sh -s -- -v
