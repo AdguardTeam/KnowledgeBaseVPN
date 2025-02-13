@@ -125,7 +125,7 @@ IP-адрес по умолчанию для большинства роутер
 opkg install curl sudo ca-certificates
 ```
 
-Перейдите в папку `/opt`, набрав `/cd opt`, и запустите скрипт установки AdGuard VPN CLI:
+Go to the `/opt` folder by typing `cd /opt` and run the AdGuard VPN CLI installation script:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/release/install.sh | sh -s -- -v
