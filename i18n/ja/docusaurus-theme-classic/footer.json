@@ -76,7 +76,7 @@
     "description": "The footer copyright"
   },
   "link.item.label.support_adguard": {
-    "message": "Support AdGuard",
+    "message": "AdGuardをサポートする",
     "description": "The label of footer link with label=support_adguard linking to https://adguard.com/support-adguard.html"
   },
   "link.item.label.for_windows": {
@@ -100,11 +100,11 @@
     "description": "The label of footer link with label=for_ios linking to https://adguard-vpn.com/ios/overview.html"
   },
   "link.item.label.for_browser_ext": {
-    "message": "For browsers",
+    "message": "ブラウザ用拡張機能",
     "description": "The label of footer link with label=for_browser_ext linking to https://adguard-vpn.com/browser-extension/overview.html"
   },
   "link.item.label.for_routers": {
-    "message": "For routers",
+    "message": "ルーター用",
     "description": "The label of footer link with label=for_routers linking to https://adguard-vpn.com/router/overview.html"
   },
   "link.item.label.for_linux": {
@@ -128,7 +128,7 @@
     "description": "The label of footer link with label=for_chromecast linking to https://adguard-vpn.com/chromecast/overview.html"
   },
   "link.item.label.version_history": {
-    "message": "Version history",
+    "message": "バージョン履歴",
     "description": "The label of footer link with label=version_history linking to https://adguard-vpn.com/versions.html"
   }
 }
