@@ -23,7 +23,7 @@ If you decide to remove AdGuard VPN from your computer, use one of three options
 
 ### Desinstalación avanzada {#advanced}
 
-In case regular uninstall doesn’t work for any reason, you can try to use an advanced method. First of all, you need to [download the uninstaller tool](https://cdn.adguard-vpn.com/distr/windows/Uninstall_Utility.zip) created by our developers. Extrae el archivo a cualquier carpeta de tu PC, ejecuta el archivo **Adguard.UninstallUtility.exe** y permite que la aplicación realice cambios en tu dispositivo. Luego siga las instrucciones a continuación:
+In case regular uninstall doesn’t work for any reason, you can try to use an advanced method. First of all, you need to [download the uninstaller tool](https://static.adtidy.org/windows/uninstaller/uninstal_utility.zip) created by our developers. Extrae el archivo a cualquier carpeta de tu PC, ejecuta el archivo **Adguard.UninstallUtility.exe** y permite que la aplicación realice cambios en tu dispositivo. Luego siga las instrucciones a continuación:
 
 1. Select *AdGuard VPN* and *Standard* uninstall type, then click *Uninstall*:
 
