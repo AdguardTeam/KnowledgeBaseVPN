@@ -38,7 +38,7 @@ You can use a specific subject line for your email to help us prioritize your re
 
 :::
 
-### In-App purchase on iPhone or iPad
+### In-app purchase on iPhone or iPad
 
 When activating your AdGuard VPN subscription on an iPhone or iPad, you might encounter one of the following scenarios:
 
