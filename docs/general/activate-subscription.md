@@ -49,7 +49,7 @@ Let's look at these two situations separately.
 
 #### Doesn't know what email is used for the subscription
 
-If you logged into AdGuard VPN using *Continue with Apple* and purchased the subscription in-app, it is likely tied to a random email address.
+Your subscription may get associated with an email address created for you by Apple. This can happen if you log in to AdGuard VPN through *Continue with Apple* and purchase the subscription in-app.
 
 1. Go to AdGuard VPN → *Settings* → *Account*
 1. If you don't know the email that's shown in *Account* settings, visit the [password recovery page](https://auth.adguard.info/account/recovery_password.html) and request a password reset for the email address Apple created for you
