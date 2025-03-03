@@ -55,7 +55,7 @@ Your subscription may get associated with an email address created for you by Ap
 1. If you don't know the email that's shown in *Account* settings, visit the [password recovery page](https://auth.adguard.info/account/recovery_password.html) and request a password reset for the email address Apple created for you
 1. Use that email address and new password to log in on other devices
 
-Alternatively, you can contact support and request to transfer your subscription from the random email to your active email address. Please attach proof of purchase (e.g., a receipt) to confirm that you are the rightful owner of the subscription.
+Alternatively, you can ask support to transfer your subscription from the email address provided by Apple to your active email address. Please include your receipt or other proof of purchase. This will help us verify that you own the subscription.
 
 #### Can't find the subscription
 
