@@ -42,7 +42,7 @@ You can use a specific subject line for your email to help us prioritize your re
 
 When activating your AdGuard VPN subscription on an iPhone or iPad, you might encounter one of the following scenarios:
 
-1. Your subscription works on iPhone, but you can't determine which email it's tied to for activation on another device
+1. Your subscription works on your iPhone, but you can't activate it on another device because you don't know which email address it's associated with
 1. You purchased through the App Store but can't find the subscription
 
 Let's look at these two situations separately.
