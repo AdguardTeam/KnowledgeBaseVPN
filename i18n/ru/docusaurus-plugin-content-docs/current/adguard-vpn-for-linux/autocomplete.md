@@ -7,8 +7,8 @@ sidebar_position: 5
 
 Чтобы включить его, воспользуйтесь подсказкой bash-completion, которая отображается после установки или обновления AdGuard VPN для Linux:
 
-![bash-completion hint](https://cdn.adguard-vpn.com/blog/new/6x3djbash-completion-hint.png)
+![Подсказка по bash-completion](https://cdn.adguard-vpn.com/blog/new/6x3djbash-completion-hint.png)
 
 Чтобы воспользоваться функцией, просто начните вводить нужную команду и нажмите клавишу Tab ↹ — команда автоматически дополнится необходимым словом или покажет выбор вариантов завершения.
 
-![bash-completion locations command](https://cdn.adguard-vpn.com/blog/new/1g4nhVPN-CLI-autocomplete.png)
+![Подсказка по bash-completion](https://cdn.adguard-vpn.com/blog/new/1g4nhVPN-CLI-autocomplete.png)

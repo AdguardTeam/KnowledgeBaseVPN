@@ -35,26 +35,6 @@
     "message": "Tartışın",
     "description": "The label of footer link with label=discuss linking to https://adguard-vpn.com/discuss.html"
   },
-  "link.item.label.vpn_android": {
-    "message": "Android için AdGuard VPN",
-    "description": "The label of footer link with label=vpn_android linking to https://adguard-vpn.com/android/overview.html"
-  },
-  "link.item.label.vpn_windows": {
-    "message": "Windows için AdGuard VPN",
-    "description": "The label of footer link with label=vpn_windows linking to https://adguard-vpn.com/windows/overview.html"
-  },
-  "link.item.label.vpn_mac": {
-    "message": "Mac için AdGuard VPN",
-    "description": "The label of footer link with label=vpn_mac linking to https://adguard-vpn.com/mac/overview.html"
-  },
-  "link.item.label.vpn_ios": {
-    "message": "iOS için AdGuard VPN",
-    "description": "The label of footer link with label=vpn_ios linking to https://adguard-vpn.com/ios/overview.html"
-  },
-  "link.item.label.vpn_browser_ext": {
-    "message": "AdGuard VPN Tarayıcı uzantısı",
-    "description": "The label of footer link with label=vpn_browser_ext linking to https://adguard-vpn.com/browser-extension/overview.html"
-  },
   "link.item.label.support": {
     "message": "Destek",
     "description": "The label of footer link with label=support linking to https://adguard-vpn.com/support.html"
@@ -94,5 +74,61 @@
   "copyright": {
     "message": "© AdGuard VPN, 2024",
     "description": "The footer copyright"
+  },
+  "link.item.label.support_adguard": {
+    "message": "Support AdGuard",
+    "description": "The label of footer link with label=support_adguard linking to https://adguard.com/support-adguard.html"
+  },
+  "link.item.label.for_windows": {
+    "message": "For Windows",
+    "description": "The label of footer link with label=for_windows linking to https://adguard-vpn.com/windows/overview.html"
+  },
+  "link.item.label.for_mac": {
+    "message": "For Mac",
+    "description": "The label of footer link with label=for_mac linking to https://adguard-vpn.com/mac/overview.html"
+  },
+  "link.item.label.for_android": {
+    "message": "For Android",
+    "description": "The label of footer link with label=for_android linking to https://adguard-vpn.com/android/overview.html"
+  },
+  "link.item.label.for_android_tv": {
+    "message": "For Android TV",
+    "description": "The label of footer link with label=for_android_tv linking to https://adguard-vpn.com/android-tv/overview.html"
+  },
+  "link.item.label.for_ios": {
+    "message": "For iOS",
+    "description": "The label of footer link with label=for_ios linking to https://adguard-vpn.com/ios/overview.html"
+  },
+  "link.item.label.for_browser_ext": {
+    "message": "For browsers",
+    "description": "The label of footer link with label=for_browser_ext linking to https://adguard-vpn.com/browser-extension/overview.html"
+  },
+  "link.item.label.for_routers": {
+    "message": "For routers",
+    "description": "The label of footer link with label=for_routers linking to https://adguard-vpn.com/router/overview.html"
+  },
+  "link.item.label.for_linux": {
+    "message": "For Linux",
+    "description": "The label of footer link with label=for_linux linking to https://adguard-vpn.com/linux/overview.html"
+  },
+  "link.item.label.for_apple_tv": {
+    "message": "For Apple TV",
+    "description": "The label of footer link with label=for_apple_tv linking to https://adguard-vpn.com/apple-tv/overview.html"
+  },
+  "link.item.label.for_xbox": {
+    "message": "For Xbox",
+    "description": "The label of footer link with label=for_xbox linking to https://adguard-vpn.com/xbox/overview.html"
+  },
+  "link.item.label.for_playstation": {
+    "message": "For Playstation",
+    "description": "The label of footer link with label=for_playstation linking to https://adguard-vpn.com/playstation/overview.html"
+  },
+  "link.item.label.for_chromecast": {
+    "message": "For Chromecast",
+    "description": "The label of footer link with label=for_chromecast linking to https://adguard-vpn.com/chromecast/overview.html"
+  },
+  "link.item.label.version_history": {
+    "message": "Version history",
+    "description": "The label of footer link with label=version_history linking to https://adguard-vpn.com/versions.html"
   }
 }

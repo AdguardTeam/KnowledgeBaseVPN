@@ -125,34 +125,78 @@ module.exports = {
               href: VPN_WEBSITE_URL + '/discuss.html',
               target: '_self',
             },
+            {
+              label: 'support_adguard',
+              href: ADGUARD_WEBSITE_URL + '/support-adguard.html',
+            },
           ]
         },
         {
           title: 'products',
           items: [
             {
-              label: 'vpn_android',
-              href: VPN_WEBSITE_URL + '/android/overview.html',
-              target: '_self',
-            },
-            {
-              label: 'vpn_windows',
+              label: 'for_windows',
               href: VPN_WEBSITE_URL + '/windows/overview.html',
               target: '_self',
             },
             {
-              label: 'vpn_mac',
+              label: 'for_mac',
               href: VPN_WEBSITE_URL + '/mac/overview.html',
               target: '_self',
             },
             {
-              label: 'vpn_ios',
+              label: 'for_android',
+              href: VPN_WEBSITE_URL + '/android/overview.html',
+              target: '_self',
+            },
+            {
+              label: 'for_android_tv',
+              href: VPN_WEBSITE_URL + '/android-tv/overview.html',
+              target: '_self',
+            },
+            {
+              label: 'for_ios',
               href: VPN_WEBSITE_URL + '/ios/overview.html',
               target: '_self',
             },
             {
-              label: 'vpn_browser_ext',
+              label: 'for_browser_ext',
               href: VPN_WEBSITE_URL + '/browser-extension/overview.html',
+              target: '_self',
+            },
+            {
+              label: 'for_routers',
+              href: VPN_WEBSITE_URL + '/router/overview.html',
+              target: '_self',
+            },
+            {
+              label: 'for_linux',
+              href: VPN_WEBSITE_URL + '/linux/overview.html',
+              target: '_self',
+            },
+            {
+              label: 'for_apple_tv',
+              href: VPN_WEBSITE_URL + '/apple-tv/overview.html',
+              target: '_self',
+            },
+            {
+              label: 'for_xbox',
+              href: VPN_WEBSITE_URL + '/xbox/overview.html',
+              target: '_self',
+            },
+            {
+              label: 'for_playstation',
+              href: VPN_WEBSITE_URL + '/playstation/overview.html',
+              target: '_self',
+            },
+            {
+              label: 'for_chromecast',
+              href: VPN_WEBSITE_URL + '/chromecast/overview.html',
+              target: '_self',
+            },
+            {
+              label: 'version_history',
+              href: VPN_WEBSITE_URL + '/versions.html',
               target: '_self',
             },
           ],
@@ -193,17 +237,13 @@ module.exports = {
               target: '_self',
             },
             {
-              label: 'contribute',
-              href: ADGUARD_WEBSITE_URL + '/contribute.html',
-            },
-            {
               label: 'distribution',
               href: ADGUARD_WEBSITE_URL + '/distribution.html',
             },
           ],
         },
       ],
-      copyright: `© AdGuard VPN, ${new Date().getFullYear()}`,
+      copyright: `© 2009–${new Date().getFullYear()} Adguard Software Ltd.`,
     },
     prism: {
       theme: lightCodeTheme,
