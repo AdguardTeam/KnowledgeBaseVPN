@@ -25,7 +25,7 @@ First of all, please check if you recieved a confirmation email. Subscriptions a
 1. If it's different, log out of your account (on iOS and Android, tap the three dots in the top-right corner to log out)
 1. Log back in using the correct email address associated with your purchase
 
-If you didn't recieve the confirmation email then you might have entered non-existent email addresses or make typos while purchasing the subscription. To resolve this issue, please contact our support team at support@adguard-vpn.com and include the following details in your email:
+If you didn't receive the confirmation email, you may have entered a non-existent email address or made a typo when purchasing your subscription. To resolve this issue, please contact our support team at support@adguard-vpn.com with the following information:
 
 - Date and exact time of purchase
 - Exact amount charged
