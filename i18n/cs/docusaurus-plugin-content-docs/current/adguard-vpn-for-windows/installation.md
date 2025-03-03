@@ -23,7 +23,7 @@ Pokud se rozhodnete AdGuard VPN z počítače odstranit, použijte jednu ze tř�
 
 ### Pokročilá odinstalace {#advanced}
 
-Pokud běžná odinstalace z nějakého důvodu nefunguje, můžete zkusit pokročilou metodu. First of all, you need to [download the uninstaller tool](https://static.adtidy.org/windows/uninstaller/uninstal_utility.zip) created by our developers. Rozbalte archiv do libovolné složky v počítači, spusťte soubor **Adguard.UninstallUtility.exe** a nechte aplikaci provést změny v zařízení. Poté postupujte podle níže uvedených pokynů:
+Pokud běžná odinstalace z nějakého důvodu nefunguje, můžete zkusit pokročilou metodu. Nejprve si musíte stáhnout [nástroj pro odinstalaci](https://static.adtidy.org/windows/uninstaller/uninstal_utility.zip) vytvořený našimi vývojáři. Rozbalte archiv do libovolné složky v počítači, spusťte soubor **Adguard.UninstallUtility.exe** a nechte aplikaci provést změny v zařízení. Poté postupujte podle níže uvedených pokynů:
 
 1. Vyberte *AdGuard VPN* a *Standardní* typ odinstalace a poté klikněte na *Odinstalovat*:
 

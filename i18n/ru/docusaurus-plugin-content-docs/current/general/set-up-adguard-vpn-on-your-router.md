@@ -17,17 +17,17 @@ Setting up AdGuard VPN on your router allows you to protect all devices connecte
 
 2. В разделе _Устройства_ нажмите _Добавить роутер_.
 
-   ![Добавить роутер \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/2_year.jpg)
+    ![Добавить роутер \*mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/general/2_year.jpg)
 
 3. Выберите локацию VPN-сервера и сгенерируйте учётные данные.
 
-   ![Сгенерировать учётные данные \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/configure_router.png)
+    ![Сгенерировать учётные данные \*mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/general/configure_router.png)
 
-   :::note
+    :::note
 
-   Следующие шаги могут отличаться в зависимости от вашего роутера. В качестве примера мы использовали роутер Keenetic.
+    Следующие шаги могут отличаться в зависимости от вашего роутера. В качестве примера мы использовали роутер Keenetic.
 
-   :::
+    :::
 
 4. На странице администратора перейдите в настройки роутера.
 
@@ -37,7 +37,7 @@ Setting up AdGuard VPN on your router allows you to protect all devices connecte
 
 7. Введите учётные данные, созданные в шаге 3.
 
-   ![Введите учётные данные \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/vpn_connection.jpg)
+    ![Введите учётные данные \*mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/general/vpn_connection.jpg)
 
 8. Подключите устройства к роутеру.
 
@@ -50,5 +50,5 @@ Setting up AdGuard VPN on your router allows you to protect all devices connecte
 ## Роутеры, несовместимые с AdGuard VPN
 
 - **ASUS**
-  - Есть IPsec только в настройках _VPN-сервера_, а не в настройках _VPN Fusion_/_VPN-клиента_, где он должен быть
+    - Есть IPsec только в настройках _VPN-сервера_, а не в настройках _VPN Fusion_/_VPN-клиента_, где он должен быть
 - **FRITZ!Box**

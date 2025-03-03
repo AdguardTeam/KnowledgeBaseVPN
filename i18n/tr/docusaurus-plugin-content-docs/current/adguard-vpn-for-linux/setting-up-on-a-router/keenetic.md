@@ -27,9 +27,9 @@ To see how to set up SSH server to have optimal security settings, visit [the Ke
 
 1. Komut İstemi'ni açın:
 
-   ```bash
-   ipconfig
-   ```
+    ```bash
+    ipconfig
+    ```
 
 2. Look for the _Default Gateway_ under your active network connection. Bu, yönlendiricinizin IP adresidir.
 
@@ -37,15 +37,15 @@ To see how to set up SSH server to have optimal security settings, visit [the Ke
 
 1. Linux'ta Terminal'i açın ve şu komutu çalıştırın:
 
-   ```bash
-   ip route | grep default
-   ```
+    ```bash
+    ip route | grep default
+    ```
 
-   Or this on Mac:
+    Or this on Mac:
 
-   ```text
-   route -n get default
-   ```
+    ```text
+    route -n get default
+    ```
 
 2. _Varsayılan_ girişi arayın. Yanındaki IP adresi ise yönlendiricinizin IP adresidir.
 
@@ -61,21 +61,21 @@ You’ll need an SSH client. Çoğu Linux ve macOS sistemi önceden yüklenmiş 
 
 2. SSH komutunu çalıştırın:
 
-   ```bash
-   ssh admin@192.168.1.1
-   ```
+    ```bash
+    ssh admin@192.168.1.1
+    ```
 
-   `192.168.1.1` kısmını yönlendiricinizin IP adresiyle değiştirin.
+    `192.168.1.1` kısmını yönlendiricinizin IP adresiyle değiştirin.
 
 3. If this is your first time connecting to the router via SSH, you’ll see a message like this:
 
-   ```text
-   The authenticity of host '192.168.1.1 (192.168.1.1)' can't be established.
-   ECDSA key fingerprint is SHA256:...
-   Are you sure you want to continue connecting (yes/no/[fingerprint])?
-   ```
+    ```text
+    The authenticity of host '192.168.1.1 (192.168.1.1)' can't be established.
+    ECDSA key fingerprint is SHA256:...
+    Are you sure you want to continue connecting (yes/no/[fingerprint])?
+    ```
 
-   `Evet` yazın ve Enter tuşuna basın.
+    `Evet` yazın ve Enter tuşuna basın.
 
 4. İstendiğinde yönlendiricinin parolasını girin. The default username is `root` and the default password is `keenetic`.
 
@@ -141,82 +141,82 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
 
 1. Hesabınıza giriş yapın
 
-   Linux için AdGuard VPN'i kullanmak için bir AdGuard hesabına ihtiyacınız vardır. [Sitemizden](https://auth.adguard.com/login.html) veya Terminal'den kaydolabilir veya giriş yapabilirsiniz.
+    Linux için AdGuard VPN'i kullanmak için bir AdGuard hesabına ihtiyacınız vardır. [Sitemizden](https://auth.adguard.com/login.html) veya Terminal'den kaydolabilir veya giriş yapabilirsiniz.
 
-   Before logging in, go to Terminal and make sure you are in the right shell interface. Eğer aşağıdaki metni görebiliyorsanız:
+    Before logging in, go to Terminal and make sure you are in the right shell interface. Eğer aşağıdaki metni görebiliyorsanız:
 
-   ```text
-   KeeneticOS version 4.01.C.7.0-1, copyright (c) 2010-2024 Keenetic Ltd.
+    ```text
+    KeeneticOS version 4.01.C.7.0-1, copyright (c) 2010-2024 Keenetic Ltd.
 
-   THIS SOFTWARE IS A SUBJECT OF KEENETIC LIMITED END-USER LICENCE AGREEMENT. BY USING IT YOU AGREE ON TERMS AND CONDITIONS HEREOF. FOR MORE INFORMATION PLEASE CHECK https://keenetic.com/legal
-   ```
+    THIS SOFTWARE IS A SUBJECT OF KEENETIC LIMITED END-USER LICENCE AGREEMENT. BY USING IT YOU AGREE ON TERMS AND CONDITIONS HEREOF. FOR MORE INFORMATION PLEASE CHECK https://keenetic.com/legal
+    ```
 
-   Run this command to exit into the shell needed for the next steps:
+    Run this command to exit into the shell needed for the next steps:
 
-   ```bash
-   exec sh
-   ```
+    ```bash
+    exec sh
+    ```
 
-   Aşağıdaki metni görürseniz, kuruluma devam edebilirsiniz:
+    Aşağıdaki metni görürseniz, kuruluma devam edebilirsiniz:
 
-   ```bash
-   BusyBox v1.36.1 (2024-08-08 16:11:23 UTC) built-in shell (ash)
+    ```bash
+    BusyBox v1.36.1 (2024-08-08 16:11:23 UTC) built-in shell (ash)
 
-   / #
-   ```
+    / #
+    ```
 
-   Kaydolmak veya giriş yapmak için şunu yazın:
+    Kaydolmak veya giriş yapmak için şunu yazın:
 
-   ```bash
-   adguardvpn-cli login
-   ```
+    ```bash
+    adguardvpn-cli login
+    ```
 
 2. VPN'e bağlanın
 
-   For Keenetic routers, be sure to import the SSL certificate and select a folder for the user directory by running this command before connecting:
+    For Keenetic routers, be sure to import the SSL certificate and select a folder for the user directory by running this command before connecting:
 
-   ```bash
-   export SSL_CERT_FILE=/opt/etc/ssl/certs/ca-certificates.crt
-   export HOME=/opt/home/admin
-   ```
+    ```bash
+    export SSL_CERT_FILE=/opt/etc/ssl/certs/ca-certificates.crt
+    export HOME=/opt/home/admin
+    ```
 
-   Bu işlem her oturumdan önce yapılmalıdır.
+    Bu işlem her oturumdan önce yapılmalıdır.
 
-   İhtiyaçlarınıza en uygun VPN sunucu konumunu seçin.
+    İhtiyaçlarınıza en uygun VPN sunucu konumunu seçin.
 
-   Genel olarak, sunucu size ne kadar yakınsa bağlantı o kadar hızlı olur.
+    Genel olarak, sunucu size ne kadar yakınsa bağlantı o kadar hızlı olur.
 
-   Mevcut konumları görüntülemek için şunu yazın:
+    Mevcut konumları görüntülemek için şunu yazın:
 
-   ```bash
-   adguardvpn-cli list-locations
-   ```
+    ```bash
+    adguardvpn-cli list-locations
+    ```
 
-   Belirli bir konuma bağlanmak için şunu yazın:
+    Belirli bir konuma bağlanmak için şunu yazın:
 
-   ```bash
-   adguardvpn-cli connect -l LOCATION_NAME
-   ```
+    ```bash
+    adguardvpn-cli connect -l LOCATION_NAME
+    ```
 
-   `LOCATION_NAME` yerine bağlanmak istediğiniz konumun şehri, ülkesi veya ISO koduyla değiştirin.
+    `LOCATION_NAME` yerine bağlanmak istediğiniz konumun şehri, ülkesi veya ISO koduyla değiştirin.
 
-   Hızlı bağlantı için şunu yazın:
+    Hızlı bağlantı için şunu yazın:
 
-   ```bash
-   adguardvpn-cli connect
-   ```
+    ```bash
+    adguardvpn-cli connect
+    ```
 
-   AdGuard VPN en düşük ping değerine sahip konumu seçer ve gelecekteki hızlı bağlantılar için bunu hatırlar.
+    AdGuard VPN en düşük ping değerine sahip konumu seçer ve gelecekteki hızlı bağlantılar için bunu hatırlar.
 
 3. Ayarlarınızı düzenleyin
 
-   Mevcut tüm AdGuard VPN komutlarının bir listesini alın ve VPN istemcisini ihtiyaçlarınıza göre özelleştirin.
+    Mevcut tüm AdGuard VPN komutlarının bir listesini alın ve VPN istemcisini ihtiyaçlarınıza göre özelleştirin.
 
-   Tüm komutları görüntülemek için şunu yazın:
+    Tüm komutları görüntülemek için şunu yazın:
 
-   ```bash
-   adguardvpn-cli --help-all
-   ```
+    ```bash
+    adguardvpn-cli --help-all
+    ```
 
 4. "TUN modunda varsayılan yönlendirmeleri ayarlamak ister misiniz?" diye sorulduğunda `evet` girin
 
@@ -228,36 +228,36 @@ Bu adım, trafiği AdGuard VPN üzerinden yönlendirmek için Keenetic yönlendi
 
 1. **Install `iptables` by running this command via SSH:**
 
-   ```bash
-   opkg install iptables
-   ```
+    ```bash
+    opkg install iptables
+    ```
 
-   Bu satır, Linux sistemlerinde ağ paket filtreleme kurallarını yönetmek için bir araç olan `iptables` paketini yükler.
+    Bu satır, Linux sistemlerinde ağ paket filtreleme kurallarını yönetmek için bir araç olan `iptables` paketini yükler.
 
 2. **Create a new shell script by running the following command:**
 
-   ```bash
+    ```bash
 
-   cat << 'EOF' > /opt/etc/ndm/netfilter.d/001-adguardvpn.sh
-   #!/opt/bin/sh
-   for ipt in iptables ip6tables; do
-       $ipt -D FORWARD -j ADGUARD_FORWARD || true
-       $ipt -F ADGUARD_FORWARD || true
-       $ipt -X ADGUARD_FORWARD || true
-       $ipt -N ADGUARD_FORWARD
-       $ipt -I FORWARD -j ADGUARD_FORWARD
-       $ipt -A ADGUARD_FORWARD -i br0 -o tun0 -j ACCEPT
-   done
-   EOF
-   ```
+    cat << 'EOF' > /opt/etc/ndm/netfilter.d/001-adguardvpn.sh
+    #!/opt/bin/sh
+    for ipt in iptables ip6tables; do
+        $ipt -D FORWARD -j ADGUARD_FORWARD || true
+        $ipt -F ADGUARD_FORWARD || true
+        $ipt -X ADGUARD_FORWARD || true
+        $ipt -N ADGUARD_FORWARD
+        $ipt -I FORWARD -j ADGUARD_FORWARD
+        $ipt -A ADGUARD_FORWARD -i br0 -o tun0 -j ACCEPT
+    done
+    EOF
+    ```
 
-   Ve çalıştırılabilir hâle getirin:
+    Ve çalıştırılabilir hâle getirin:
 
-   ```bash
-   chmod +x /opt/etc/ndm/netfilter.d/001-adguardvpn.sh
-   ```
+    ```bash
+    chmod +x /opt/etc/ndm/netfilter.d/001-adguardvpn.sh
+    ```
 
-   Eğer daha fazla brX arayüzünüz varsa, trafiği yönlendirmek için onları da betiğe dâhil ettiğinizden emin olun. Alternatif olarak, bu arayüzler için farklı bir yönlendirme kuralı belirttiğinizden emin olun.
+    Eğer daha fazla brX arayüzünüz varsa, trafiği yönlendirmek için onları da betiğe dâhil ettiğinizden emin olun. Alternatif olarak, bu arayüzler için farklı bir yönlendirme kuralı belirttiğinizden emin olun.
 
 This will create a new shell script named `001-adguardvpn.sh` in the `/opt/etc/ndm/netfilter.d/` directory, which is where network-related scripts are typically stored on a Keenetic router.
 
