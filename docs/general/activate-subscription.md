@@ -15,7 +15,7 @@ That’s it! You’re now logged in and ready to enjoy AdGuard VPN.
 
 ## Resolve subscription activation issues
 
-Sometimes users encount problems while activating the subscription. Below, you'll find step-by-step instructions to resolve the issue based on where you purchased your subscription.
+Sometimes users have trouble activating their subscription. Below are step-by-step instructions on how to resolve the issue based on where you purchased your subscription.
 
 ### Official website
 
