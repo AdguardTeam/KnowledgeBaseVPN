@@ -19,9 +19,9 @@ sidebar_position: 4
 
 1. Komut İstemi'ni açın:
 
-   ```bash
-   ipconfig
-   ```
+    ```bash
+    ipconfig
+    ```
 
 2. Etkin ağ bağlantınızın altında _Varsayılan Ağ Geçidi_ öğesini arayın. Bu, yönlendiricinizin IP adresidir.
 
@@ -29,15 +29,15 @@ sidebar_position: 4
 
 1. Terminal'i açın ve Linux için şu komutu çalıştırın:
 
-   ```bash
-   ip route | grep default
-   ```
+    ```bash
+    ip route | grep default
+    ```
 
-   Or this one for Mac:
+    Or this one for Mac:
 
-   ```bash
-   route -n get default
-   ```
+    ```bash
+    route -n get default
+    ```
 
 2. Look for the _default_ entry. Yanındaki IP adresi ise yönlendiricinizin IP adresidir.
 
@@ -71,21 +71,21 @@ You’ll need an SSH client. Çoğu Linux ve macOS sistemi önceden yüklenmiş 
 
 2. SSH komutunu çalıştırın:
 
-   ```bash
-   ssh admin@192.168.1.1
-   ```
+    ```bash
+    ssh admin@192.168.1.1
+    ```
 
-   Replace `192.168.1.1` with your router’s IP address and `admin` with your admin username.
+    Replace `192.168.1.1` with your router’s IP address and `admin` with your admin username.
 
 3. If this is your first time connecting to the router via SSH, you’ll see a message like this:
 
-   ```text
-   The authenticity of host '192.168.1.1 (192.168.1.1)' can't be established.
-   ECDSA key fingerprint is SHA256:...
-   Are you sure you want to continue connecting (yes/no/[fingerprint])?
-   ```
+    ```text
+    The authenticity of host '192.168.1.1 (192.168.1.1)' can't be established.
+    ECDSA key fingerprint is SHA256:...
+    Are you sure you want to continue connecting (yes/no/[fingerprint])?
+    ```
 
-   `Evet` yazın ve Enter tuşuna basın.
+    `Evet` yazın ve Enter tuşuna basın.
 
 4. İstendiğinde yönlendiricinin parolasını girin. The SSH login username and password are the same as the admin credentials.
 
@@ -188,57 +188,57 @@ modprobe tun
 
 1. Hesabınıza giriş yapın
 
-   Linux için AdGuard VPN'i kullanmak için bir AdGuard hesabına ihtiyacınız vardır.
+    Linux için AdGuard VPN'i kullanmak için bir AdGuard hesabına ihtiyacınız vardır.
 
-   You can sign up on our [website](https://auth.adguard.com/login.html) or in the Terminal.
+    You can sign up on our [website](https://auth.adguard.com/login.html) or in the Terminal.
 
-   Kaydolmak veya giriş yapmak için şunu yazın:
+    Kaydolmak veya giriş yapmak için şunu yazın:
 
-   ```jsx
-   adguardvpn-cli login
-   ```
+    ```jsx
+    adguardvpn-cli login
+    ```
 
 2. VPN'e bağlanın
 
-   İhtiyaçlarınıza en uygun VPN sunucu konumunu seçin.
+    İhtiyaçlarınıza en uygun VPN sunucu konumunu seçin.
 
-   Genel olarak, sunucu size ne kadar yakınsa bağlantı o kadar hızlı olur.
+    Genel olarak, sunucu size ne kadar yakınsa bağlantı o kadar hızlı olur.
 
-   Mevcut konumları görüntülemek için şunu yazın:
+    Mevcut konumları görüntülemek için şunu yazın:
 
-   ```jsx
-   adguardvpn-cli list-locations
-   ```
+    ```jsx
+    adguardvpn-cli list-locations
+    ```
 
-   Belirli bir konuma bağlanmak için şunu yazın:
+    Belirli bir konuma bağlanmak için şunu yazın:
 
-   ```jsx
-   adguardvpn-cli connect -l LOCATION_NAME
-   ```
+    ```jsx
+    adguardvpn-cli connect -l LOCATION_NAME
+    ```
 
-   LOCATION_NAME yerine bağlanmak istediğiniz konumun şehri, ülkesi veya ISO koduyla değiştirin.
+    LOCATION_NAME yerine bağlanmak istediğiniz konumun şehri, ülkesi veya ISO koduyla değiştirin.
 
-   Hızlı bağlantı için şunu yazın:
+    Hızlı bağlantı için şunu yazın:
 
-   ```jsx
-   adguardvpn-cli connect
-   ```
+    ```jsx
+    adguardvpn-cli connect
+    ```
 
-   AdGuard VPN will choose the fastest location available and remember it for future quick connections.
+    AdGuard VPN will choose the fastest location available and remember it for future quick connections.
 
-   "TUN modunda varsayılan yönlendirmeleri ayarlamak ister misiniz?" diye sorulduğunda `evet` girin
+    "TUN modunda varsayılan yönlendirmeleri ayarlamak ister misiniz?" diye sorulduğunda `evet` girin
 
-   AdGuard VPN CLI, VPN tünellemesi için bir tun0 arayüzü oluşturur.
+    AdGuard VPN CLI, VPN tünellemesi için bir tun0 arayüzü oluşturur.
 
 3. Ayarlarınızı düzenleyin
 
-   Mevcut tüm AdGuard VPN komutlarının bir listesini alın ve VPN istemcisini ihtiyaçlarınıza göre özelleştirin.
+    Mevcut tüm AdGuard VPN komutlarının bir listesini alın ve VPN istemcisini ihtiyaçlarınıza göre özelleştirin.
 
-   Tüm komutları görüntülemek için şunu yazın:
+    Tüm komutları görüntülemek için şunu yazın:
 
-   ```jsx
-   adguardvpn-cli --help-all
-   ```
+    ```jsx
+    adguardvpn-cli --help-all
+    ```
 
 <!-- comment -->
 
@@ -248,46 +248,46 @@ Bu adım, trafiği AdGuard VPN üzerinden yönlendirmek için Asuswrt-Merlin yö
 
 1. Aşağıdaki komutu çalıştırarak yeni bir betik oluşturun:
 
-   ```bash
-   cat << 'EOF' > /jffs/scripts/wan-event
-   #!/bin/sh
+    ```bash
+    cat << 'EOF' > /jffs/scripts/wan-event
+    #!/bin/sh
 
-   if [ "$2" = "connected" ]; then
-       export SSL_CERT_FILE=/opt/etc/ssl/certs/ca-certificates.crt
-       export HOME=/opt/home/admin
-       modprobe tun
-       /opt/adguardvpn_cli/adguardvpn-cli connect &
-       for ipt in iptables ip6tables; do
-           $ipt -D FORWARD -j ADGUARD_FORWARD || true
-           $ipt -F ADGUARD_FORWARD || true
-           $ipt -X ADGUARD_FORWARD || true
-           $ipt -N ADGUARD_FORWARD
-           $ipt -I FORWARD -j ADGUARD_FORWARD
-           $ipt -A ADGUARD_FORWARD -i br0 -o tun0 -j ACCEPT
-       done
-       exit 0
-   fi
-   EOF
-   ```
+    if [ "$2" = "connected" ]; then
+        export SSL_CERT_FILE=/opt/etc/ssl/certs/ca-certificates.crt
+        export HOME=/opt/home/admin
+        modprobe tun
+        /opt/adguardvpn_cli/adguardvpn-cli connect &
+        for ipt in iptables ip6tables; do
+            $ipt -D FORWARD -j ADGUARD_FORWARD || true
+            $ipt -F ADGUARD_FORWARD || true
+            $ipt -X ADGUARD_FORWARD || true
+            $ipt -N ADGUARD_FORWARD
+            $ipt -I FORWARD -j ADGUARD_FORWARD
+            $ipt -A ADGUARD_FORWARD -i br0 -o tun0 -j ACCEPT
+        done
+        exit 0
+    fi
+    EOF
+    ```
 
-   Ve çalıştırılabilir hâle getirin:
+    Ve çalıştırılabilir hâle getirin:
 
-   ```bash
-   chmod a+rx /jffs/scripts/wan-event
-   ```
+    ```bash
+    chmod a+rx /jffs/scripts/wan-event
+    ```
 
-   Eğer daha fazla brX arayüzünüz varsa, trafiği yönlendirmek için onları da betiğe dâhil ettiğinizden emin olun. Alternatif olarak, bu arayüzler için farklı bir yönlendirme kuralı belirttiğinizden emin olun.
+    Eğer daha fazla brX arayüzünüz varsa, trafiği yönlendirmek için onları da betiğe dâhil ettiğinizden emin olun. Alternatif olarak, bu arayüzler için farklı bir yönlendirme kuralı belirttiğinizden emin olun.
 
-   Bu betik, tüm trafiğin VPN tünelinden geçmesini sağlar. Yeniden başlattıktan veya internete yeniden bağlandıktan sonra, AdGuard VPN otomatik olarak son kullandığınız konuma bağlanır.
+    Bu betik, tüm trafiğin VPN tünelinden geçmesini sağlar. Yeniden başlattıktan veya internete yeniden bağlandıktan sonra, AdGuard VPN otomatik olarak son kullandığınız konuma bağlanır.
 
 2. Kurulumu tamamlamak için yönlendiricinizi yeniden başlatın.
 
-   Tebrikler! Artık AdGuard VPN ile güvence altına alınmış bir yönlendiriciniz var.
+    Tebrikler! Artık AdGuard VPN ile güvence altına alınmış bir yönlendiriciniz var.
 
-   Yönlendiricinize tekrar SSH ile bağlanıp AdGuard VPN'e komut göndermek istiyorsanız, öncelikle şunu çalıştırdığınızdan emin olun:
+    Yönlendiricinize tekrar SSH ile bağlanıp AdGuard VPN'e komut göndermek istiyorsanız, öncelikle şunu çalıştırdığınızdan emin olun:
 
-   ```bash
-   export SSL_CERT_FILE=/opt/etc/ssl/certs/ca-certificates.crt
-   export HOME=/opt/home/admin
-   modprobe tun
-   ```
+    ```bash
+    export SSL_CERT_FILE=/opt/etc/ssl/certs/ca-certificates.crt
+    export HOME=/opt/home/admin
+    modprobe tun
+    ```

@@ -152,7 +152,7 @@ The setting is responsible for the appearance of system notifications when AdGua
 - A user turns VPN off — the _VPN disconnected_ notification appears.
 - A user is waiting for the VPN connection to be recovered — the _Waiting for connection_ notification appears.
 
-  adguardvpn-cli config set-show-notifications on
+    adguardvpn-cli config set-show-notifications on
 
 ## Exclusions
 
@@ -164,26 +164,26 @@ Here are the main options:
 
 1. **add** adds specified exclusions
 
-   Example: `adguardvpn-cli site-exclusions add`, where `%DOMAIN_NAME%` is the website that you want to add to exclusions.
+    Example: `adguardvpn-cli site-exclusions add`, where `%DOMAIN_NAME%` is the website that you want to add to exclusions.
 
-   :::note
+    :::note
 
-   To add many exclusions, you need to list them comma-separated.
+    To add many exclusions, you need to list them separated by spaces.
 
-   :::
+    :::
 
 2. **clear** clears the list of exclusions in the current mode
 
-   Example: `adguardvpn-cli site-exclusions clear`
+    Example: `adguardvpn-cli site-exclusions clear`
 
 3. **mode** shows the current mode and allows to switch between them
 
-   Example: `adguardvpn-cli site-exclusions mode selective` (with this command, Selective mode is chosen)
+    Example: `adguardvpn-cli site-exclusions mode selective` (with this command, Selective mode is chosen)
 
 4. **remove** removes one or more exclusions (if separated by commas)
 
-   Example: `adguardvpn-cli site-exclusions remove %DOMAIN_NAME%` where `%DOMAIN_NAME%` is the website that you want to remove from exclusions.
+    Example: `adguardvpn-cli site-exclusions remove %DOMAIN_NAME%` where `%DOMAIN_NAME%` is the website that you want to remove from exclusions.
 
 5. **show** shows the current list of exclusions
 
-   Example: `adguardvpn-cli site-exclusions show`
+    Example: `adguardvpn-cli site-exclusions show`

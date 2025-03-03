@@ -19,9 +19,9 @@ IP-адрес по умолчанию для большинства роутер
 
 1. Откройте командную строку:
 
-   ```bash
-   ipconfig
-   ```
+    ```bash
+    ipconfig
+    ```
 
 2. Найдите _Шлюз по умолчанию_ в активном сетевом подключении. Это IP-адрес вашего роутера.
 
@@ -29,15 +29,15 @@ IP-адрес по умолчанию для большинства роутер
 
 1. Откройте Терминал и выполните эту команду на Linux:
 
-   ```bash
-   ip route | grep default
-   ```
+    ```bash
+    ip route | grep default
+    ```
 
-   Или эту на Mac:
+    Или эту на Mac:
 
-   ```bash
-   route -n get default
-   ```
+    ```bash
+    route -n get default
+    ```
 
 2. Найдите запись _default_. Рядом с ней находится IP-адрес вашего роутера.
 
@@ -71,21 +71,21 @@ IP-адрес по умолчанию для большинства роутер
 
 2. Выполните команду SSH:
 
-   ```bash
-   ssh admin@192.168.1.1
-   ```
+    ```bash
+    ssh admin@192.168.1.1
+    ```
 
-   Замените `192.168.1.1` на IP-адрес вашего роутера и `admin` — на имя пользователя администратора.
+    Замените `192.168.1.1` на IP-адрес вашего роутера и `admin` — на имя пользователя администратора.
 
 3. Если вы впервые подключаетесь к роутеру через SSH, вы увидите такое сообщение:
 
-   ```text
-   The authenticity of host '192.168.1.1 (192.168.1.1)' can't be established.
-   ECDSA key fingerprint is SHA256:...
-   Are you sure you want to continue connecting (yes/no/[fingerprint])?
-   ```
+    ```text
+    The authenticity of host '192.168.1.1 (192.168.1.1)' can't be established.
+    ECDSA key fingerprint is SHA256:...
+    Are you sure you want to continue connecting (yes/no/[fingerprint])?
+    ```
 
-   Введите `yes` и нажмите Enter.
+    Введите `yes` и нажмите Enter.
 
 4. Введите пароль от роутера, когда появится соответствующий запрос. Имя пользователя и пароль SSH совпадают с учётными данными администратора.
 
@@ -188,57 +188,57 @@ modprobe tun
 
 1. Войдите в аккаунт
 
-   Чтобы использовать AdGuard VPN для Linux, вам понадобится аккаунт AdGuard.
+    Чтобы использовать AdGuard VPN для Linux, вам понадобится аккаунт AdGuard.
 
-   Вы можете зарегистрироваться или войти в аккаунт [на нашем сайте](https://auth.adguard.com/login.html) или в Терминале.
+    Вы можете зарегистрироваться или войти в аккаунт [на нашем сайте](https://auth.adguard.com/login.html) или в Терминале.
 
-   Чтобы зарегистрироваться или войти, введите:
+    Чтобы зарегистрироваться или войти, введите:
 
-   ```jsx
-   adguardvpn-cli login
-   ```
+    ```jsx
+    adguardvpn-cli login
+    ```
 
 2. Подключитесь к VPN
 
-   Выберите локацию VPN-сервера, которая лучше всего соответствует вашим потребностям.
+    Выберите локацию VPN-сервера, которая лучше всего соответствует вашим потребностям.
 
-   Как правило, чем ближе сервер, тем быстрее соединение.
+    Как правило, чем ближе сервер, тем быстрее соединение.
 
-   Чтобы посмотреть доступные локации, введите:
+    Чтобы посмотреть доступные локации, введите:
 
-   ```jsx
-   adguardvpn-cli list-locations
-   ```
+    ```jsx
+    adguardvpn-cli list-locations
+    ```
 
-   Чтобы подключиться к определённой локации, введите:
+    Чтобы подключиться к определённой локации, введите:
 
-   ```jsx
-   adguardvpn-cli connect -l LOCATION_NAME
-   ```
+    ```jsx
+    adguardvpn-cli connect -l LOCATION_NAME
+    ```
 
-   Замените LOCATION_NAME на город, страну или ISO-код локации на английском, к которой хотите подключиться.
+    Замените LOCATION_NAME на город, страну или ISO-код локации на английском, к которой хотите подключиться.
 
-   Для быстрого подключения введите:
+    Для быстрого подключения введите:
 
-   ```jsx
-   adguardvpn-cli connect
-   ```
+    ```jsx
+    adguardvpn-cli connect
+    ```
 
-   AdGuard VPN выберет самую быструю локацию и запомнит её для будущих быстрых подключений.
+    AdGuard VPN выберет самую быструю локацию и запомнит её для будущих быстрых подключений.
 
-   Введите `yes` на вопрос Would you like to set default routes in TUN mode?
+    Введите `yes` на вопрос Would you like to set default routes in TUN mode?
 
-   AdGuard VPN CLI создаст интерфейс tun0 для VPN-туннелирования.
+    AdGuard VPN CLI создаст интерфейс tun0 для VPN-туннелирования.
 
 3. Отрегулируйте настройки
 
-   Получите список всех доступных команд AdGuard VPN и настройте VPN-клиент под свои нужды.
+    Получите список всех доступных команд AdGuard VPN и настройте VPN-клиент под свои нужды.
 
-   Чтобы просмотреть все команды, введите:
+    Чтобы просмотреть все команды, введите:
 
-   ```jsx
-   adguardvpn-cli --help-all
-   ```
+    ```jsx
+    adguardvpn-cli --help-all
+    ```
 
 <!-- comment -->
 
@@ -248,46 +248,46 @@ modprobe tun
 
 1. Создайте новый скрипт, выполнив следующую команду:
 
-   ```bash
-   cat << 'EOF' > /jffs/scripts/wan-event
-   #!/bin/sh
+    ```bash
+    cat << 'EOF' > /jffs/scripts/wan-event
+    #!/bin/sh
 
-   if [ "$2" = "connected" ]; then
-       export SSL_CERT_FILE=/opt/etc/ssl/certs/ca-certificates.crt
-       export HOME=/opt/home/admin
-       modprobe tun
-       /opt/adguardvpn_cli/adguardvpn-cli connect &
-       for ipt in iptables ip6tables; do
-           $ipt -D FORWARD -j ADGUARD_FORWARD || true
-           $ipt -F ADGUARD_FORWARD || true
-           $ipt -X ADGUARD_FORWARD || true
-           $ipt -N ADGUARD_FORWARD
-           $ipt -I FORWARD -j ADGUARD_FORWARD
-           $ipt -A ADGUARD_FORWARD -i br0 -o tun0 -j ACCEPT
-       done
-       exit 0
-   fi
-   EOF
-   ```
+    if [ "$2" = "connected" ]; then
+        export SSL_CERT_FILE=/opt/etc/ssl/certs/ca-certificates.crt
+        export HOME=/opt/home/admin
+        modprobe tun
+        /opt/adguardvpn_cli/adguardvpn-cli connect &
+        for ipt in iptables ip6tables; do
+            $ipt -D FORWARD -j ADGUARD_FORWARD || true
+            $ipt -F ADGUARD_FORWARD || true
+            $ipt -X ADGUARD_FORWARD || true
+            $ipt -N ADGUARD_FORWARD
+            $ipt -I FORWARD -j ADGUARD_FORWARD
+            $ipt -A ADGUARD_FORWARD -i br0 -o tun0 -j ACCEPT
+        done
+        exit 0
+    fi
+    EOF
+    ```
 
-   И сделайте её исполняемой:
+    И сделайте её исполняемой:
 
-   ```bash
-   chmod a+rx /jffs/scripts/wan-event
-   ```
+    ```bash
+    chmod a+rx /jffs/scripts/wan-event
+    ```
 
-   Если у вас больше интерфейсов brX, обязательно включите их в скрипт для маршрутизации их трафика. Или укажите другое правило маршрутизации для этих интерфейсов.
+    Если у вас больше интерфейсов brX, обязательно включите их в скрипт для маршрутизации их трафика. Или укажите другое правило маршрутизации для этих интерфейсов.
 
-   Этот скрипт гарантирует, что весь трафик проходит через VPN-туннель. После перезагрузки или повторного подключения к интернету AdGuard VPN автоматически подключится к последней использованной локации.
+    Этот скрипт гарантирует, что весь трафик проходит через VPN-туннель. После перезагрузки или повторного подключения к интернету AdGuard VPN автоматически подключится к последней использованной локации.
 
 2. Перезагрузите роутер, чтобы завершить настройку.
 
-   Готово! Теперь у вас есть роутер, защищённый с помощью AdGuard VPN.
+    Готово! Теперь у вас есть роутер, защищённый с помощью AdGuard VPN.
 
-   Если вы хотите снова подключиться к роутеру по SSH, чтобы отправлять команды в AdGuard VPN, сначала выполните следующее:
+    Если вы хотите снова подключиться к роутеру по SSH, чтобы отправлять команды в AdGuard VPN, сначала выполните следующее:
 
-   ```bash
-   export SSL_CERT_FILE=/opt/etc/ssl/certs/ca-certificates.crt
-   export HOME=/opt/home/admin
-   modprobe tun
-   ```
+    ```bash
+    export SSL_CERT_FILE=/opt/etc/ssl/certs/ca-certificates.crt
+    export HOME=/opt/home/admin
+    modprobe tun
+    ```
