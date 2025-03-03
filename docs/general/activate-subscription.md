@@ -70,7 +70,7 @@ Once we receive the email address, we’ll transfer your subscription, and you�
 
 ### On a third-party website
 
-We actively collaborate with popular software resellers. After purchasing a subscription, you receive an activation code (a combination of letters and numbers, usually starting with "VPN"). This code must be added to your AdGuard VPN account.
+If you purchased an AdGuard VPN subscription from a software reseller, you should have received an activation code (a combination of letters and numbers, usually starting with "VPN"). To use this subscription, bind this code to your AdGuard account.
 
 1. If you don’t have an account, create one on the [AdGuard VPN website](https://auth.adguardaccount.net/login.html)
 1. Go to the *Licenses* section and click *Bind license*
