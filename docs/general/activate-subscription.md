@@ -43,7 +43,7 @@ When activating your AdGuard VPN subscription on iPhone or iPad, you might encou
 
 Let's look at these two situations separately.
 
-In first case, your subscription may get associated with an email address created for you by Apple. This can happen if you log in to AdGuard VPN through *Continue with Apple* and purchase the subscription in-app.
+In the first case, your subscription may be associated with an email address created for you by Apple. This can happen if you log in to AdGuard VPN through *Continue with Apple* and purchase the subscription in-app.
 
 1. Go to AdGuard VPN → *Settings* → *Account*
 1. If you don't recognize the email address you see on the *Account* screen, visit the [password recovery page](https://auth.adguard.com/account/recovery_password.html) and request a password reset for that email address
@@ -58,7 +58,7 @@ In the second case, if your subscription was purchased through the App Store, yo
 
 Once we receive the email address, we’ll transfer your subscription, and you’ll be able to use the app.
 
-## On a third-party website
+### On a third-party website
 
 If you purchased an AdGuard VPN subscription from a software reseller, you should have received an activation code (a combination of letters and numbers, usually starting with "VPN"). To use this subscription, bind this code to your AdGuard account.
 
