@@ -66,6 +66,7 @@ If you purchased an AdGuard VPN subscription from a software reseller, you shoul
 1. Open the AdGuard VPN app and log in with your email address and password
 
 If you're already logged in, go to AdGuard VPN → *Settings* → *Account* and make sure the email address matches the one associated with your subscription.
+
 If they don’t match, log out (on iOS and Android, tap the three dots in the top-right corner) and log back in with the correct email address.
 
 :::note
