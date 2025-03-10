@@ -13,7 +13,7 @@ First, check to see if you received a confirmation email. Subscriptions are asso
 1. If it's different, log out of your account (on iOS and Android, tap the three dots in the top-right corner to log out)
 1. Log back in using the correct email address associated with your purchase
 
-If you didn't receive the confirmation email, you may have entered a non-existent email address or made a typo when purchasing your subscription. To resolve this issue, please contact our support team at support@adguard-vpn.com with the following information:
+If you didn't receive the confirmation email, you may have entered a non-existent email address or made a typo when purchasing your subscription. To resolve this issue, please contact our support team at support@adguard-vpn.com and provide the following information:
 
 - Date and exact time of purchase
 - Exact amount charged
@@ -27,14 +27,14 @@ You can use a specific subject line, such as "Problems with my subscription" or 
 
 ## In-app purchase on iPhone or iPad
 
-When activating your AdGuard VPN subscription on an iPhone or iPad, you might encounter one of the following scenarios:
+When activating your AdGuard VPN subscription on iPhone or iPad, you might encounter one of the following scenarios:
 
 1. Your subscription works on your iPhone, but you can't activate it on another device because you don't know which email address it's associated with
 1. You purchased through the App Store but can't find the subscription
 
 Let's look at these two situations separately.
 
-### Don't know what email is used for the subscription
+### Don't know what email address is used for the subscription
 
 Your subscription may get associated with an email address created for you by Apple. This can happen if you log in to AdGuard VPN through *Continue with Apple* and purchase the subscription in-app.
 
@@ -42,13 +42,14 @@ Your subscription may get associated with an email address created for you by Ap
 1. If you don't recognize the email address you see on the *Account* screen, visit the [password recovery page](https://auth.adguard.com/account/recovery_password.html) and request a password reset for that email address
 1. Use that email address and new password to log in on other devices
 
-Alternatively, you can ask support to transfer your subscription from the email address provided by Apple to your active email address. Please include your receipt or other proof of purchase. This will help us verify that you own the subscription.
+Alternatively, you can ask the support team (support@adguard-vpn.com) to transfer your subscription from the email address provided by Apple to your active email address. Please include your receipt or other proof of purchase. This will help us verify that you own the subscription.
 
 ### Can't find the subscription
 
 If your subscription was purchased through the App Store, you might have hidden your email from developers. To restore access to your account, we need to identify the email address used.
 
-Go to *Settings* → *Apple ID* → *iCloud* → *Hide my email*, find AdGuard VPN in the list, copy the email address, and send it to support@adguard-vpn.com. This email usually ends with @privaterelay.appleid.com.
+1. Go to *Settings* → *Apple ID* → *iCloud* → *Hide my email*
+1. Find AdGuard VPN in the list, copy the email address, and send it to support@adguard-vpn.com. This email usually ends with @privaterelay.appleid.com.
 
 Once we receive the email address, we’ll transfer your subscription, and you’ll be able to use the app.
 
