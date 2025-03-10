@@ -19,7 +19,7 @@ Sometimes users have trouble activating their subscription. Below are step-by-st
 
 ### Official website
 
-First of all, please check if you recieved a confirmation email. Subscriptions are always tied to the email address you provide during the payment process. If you recieved the email, then it's possible that you logged into the app with a different email, which is why the app doesn't recognize your purchase.
+First, check to see if you received a confirmation email. Subscriptions are associated with the email address you provide during the payment process. If you received the email but don't see the subscription in your app, you may have logged in to the app with a different email address.
 
 1. Go to AdGuard VPN → *Settings* → *Account* and check which email address is displayed there
 1. If it's different, log out of your account (on iOS and Android, tap the three dots in the top-right corner to log out)
