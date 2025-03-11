@@ -54,7 +54,7 @@ Alternatively, you can ask the support team (support@adguard-vpn.com) to transfe
 In the second case, if your subscription was purchased through the App Store, you may have chosen to hide your email from developers. As a result, we are unable to associate your email address with the subscription and create your private AdGuard account. To restore access to your account, we need to identify the email address used.
 
 1. Go to *Settings* → *Apple ID* → *iCloud* → *Hide my email*
-1. Find AdGuard VPN in the list, copy the email address, and send it to support@adguard-vpn.com. This email usually ends with @privaterelay.appleid.com.
+1. Find AdGuard VPN in the list and copy the email address (it should end with @privaterelay.appleid.com). Send this email address to support@adguard-vpn.com.
 
 Once we receive the email address, we’ll transfer your subscription, and you’ll be able to use the app.
 
