@@ -17,17 +17,17 @@ Bu seçenek yalnızca bir AdGuard VPN aboneliğiniz varsa ve yönlendiriciniz _V
 
 2. _Aygıtlar_ altında, _Yönlendirici ekle_ öğesine tıklayın.
 
-   ![Yönlendirici ekle \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/2_year.jpg)
+    ![Yönlendirici ekle \*mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/general/2_year.jpg)
 
 3. İstediğiniz VPN sunucusu konumunu seçin ve kimlik bilgileri oluşturun.
 
-   ![Kimlik bilgileri oluştur \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/configure_router.png)
+    ![Kimlik bilgileri oluştur \*mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/general/configure_router.png)
 
-   :::note
+    :::note
 
-   Sonraki adımlar yönlendiricinize bağlı olarak değişebilir. Örnek olarak Keenetic yönlendiriciyi kullandık.
+    Sonraki adımlar yönlendiricinize bağlı olarak değişebilir. Örnek olarak Keenetic yönlendiriciyi kullandık.
 
-   :::
+    :::
 
 4. Yönetici sayfanızda, yönlendirici ayarlarına gidin.
 
@@ -37,7 +37,7 @@ Bu seçenek yalnızca bir AdGuard VPN aboneliğiniz varsa ve yönlendiriciniz _V
 
 7. 3. adımda oluşturduğunuz kimlik bilgilerini girin.
 
-   ![Kimlik bilgilerini gir \*mobile\_border](https://cdn.adguardvpn.com/content/kb/vpn/general/vpn_connection.jpg)
+    ![Kimlik bilgilerini gir \*mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/general/vpn_connection.jpg)
 
 8. Cihazları yönlendiricinize bağlayın.
 
@@ -50,5 +50,5 @@ VPN sunucu konumunu değiştirmek istiyorsanız yönlendirici ayarlarınızı g�
 ## AdGuard VPN ile uyumsuz olduğu bilinen yönlendiriciler
 
 - **ASUS**
-  - IPsec yalnızca _VPN Sunucusu_ ayarlarında bulunur ve doğru _VPN Fusion_/_VPN İstemcisi_ ayarlarında bulunmaz
+    - IPsec yalnızca _VPN Sunucusu_ ayarlarında bulunur ve doğru _VPN Fusion_/_VPN İstemcisi_ ayarlarında bulunmaz
 - **FRITZ!Box**

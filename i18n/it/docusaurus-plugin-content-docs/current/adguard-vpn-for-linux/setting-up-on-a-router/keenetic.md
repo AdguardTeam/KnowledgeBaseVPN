@@ -27,9 +27,9 @@ The default IP address for most routers is `192.168.1.1` or `192.168.0.1`. If
 
 1. Open Command Prompt:
 
-   ```bash
-   ipconfig
-   ```
+    ```bash
+    ipconfig
+    ```
 
 2. Look for the _Default Gateway_ under your active network connection. This is your router’s IP address.
 
@@ -37,15 +37,15 @@ The default IP address for most routers is `192.168.1.1` or `192.168.0.1`. If
 
 1. On Linux, open Terminal and run this command:
 
-   ```bash
-   ip route | grep default
-   ```
+    ```bash
+    ip route | grep default
+    ```
 
-   Or this on Mac:
+    Or this on Mac:
 
-   ```text
-   route -n get default
-   ```
+    ```text
+    route -n get default
+    ```
 
 2. Look for the _default_ entry. The IP address next to it is your router’s IP address.
 
@@ -61,21 +61,21 @@ You’ll need an SSH client. Most Linux and macOS systems come with an SSH clien
 
 2. Run the SSH command:
 
-   ```bash
-   ssh admin@192.168.1.1
-   ```
+    ```bash
+    ssh admin@192.168.1.1
+    ```
 
-   Replace `192.168.1.1` with your router’s IP address.
+    Replace `192.168.1.1` with your router’s IP address.
 
 3. If this is your first time connecting to the router via SSH, you’ll see a message like this:
 
-   ```text
-   The authenticity of host '192.168.1.1 (192.168.1.1)' can't be established.
-   ECDSA key fingerprint is SHA256:...
-   Are you sure you want to continue connecting (yes/no/[fingerprint])?
-   ```
+    ```text
+    The authenticity of host '192.168.1.1 (192.168.1.1)' can't be established.
+    ECDSA key fingerprint is SHA256:...
+    Are you sure you want to continue connecting (yes/no/[fingerprint])?
+    ```
 
-   Type `yes` and press Enter.
+    Type `yes` and press Enter.
 
 4. Enter the router’s password when prompted. The default username is `root` and the default password is `keenetic`.
 
@@ -141,82 +141,82 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
 
 1. Log in to your account
 
-   To use AdGuard VPN for Linux, you need an AdGuard account. You can sign up or log in on our [website](https://auth.adguard.com/login.html) or in Terminal.
+    To use AdGuard VPN for Linux, you need an AdGuard account. You can sign up or log in on our [website](https://auth.adguard.com/login.html) or in Terminal.
 
-   Before logging in, go to Terminal and make sure you are in the right shell interface. If you can see the following text:
+    Before logging in, go to Terminal and make sure you are in the right shell interface. If you can see the following text:
 
-   ```text
-   KeeneticOS version 4.01.C.7.0-1, copyright (c) 2010-2024 Keenetic Ltd.
+    ```text
+    KeeneticOS version 4.01.C.7.0-1, copyright (c) 2010-2024 Keenetic Ltd.
 
-   THIS SOFTWARE IS A SUBJECT OF KEENETIC LIMITED END-USER LICENCE AGREEMENT. BY USING IT YOU AGREE ON TERMS AND CONDITIONS HEREOF. FOR MORE INFORMATION PLEASE CHECK https://keenetic.com/legal
-   ```
+    THIS SOFTWARE IS A SUBJECT OF KEENETIC LIMITED END-USER LICENCE AGREEMENT. BY USING IT YOU AGREE ON TERMS AND CONDITIONS HEREOF. FOR MORE INFORMATION PLEASE CHECK https://keenetic.com/legal
+    ```
 
-   Run this command to exit into the shell needed for the next steps:
+    Run this command to exit into the shell needed for the next steps:
 
-   ```bash
-   exec sh
-   ```
+    ```bash
+    exec sh
+    ```
 
-   If you see the following text, you can continue the setup:
+    If you see the following text, you can continue the setup:
 
-   ```bash
-   BusyBox v1.36.1 (2024-08-08 16:11:23 UTC) built-in shell (ash)
+    ```bash
+    BusyBox v1.36.1 (2024-08-08 16:11:23 UTC) built-in shell (ash)
 
-   / #
-   ```
+    / #
+    ```
 
-   To sign up or log in, type:
+    To sign up or log in, type:
 
-   ```bash
-   adguardvpn-cli login
-   ```
+    ```bash
+    adguardvpn-cli login
+    ```
 
 2. Connect to VPN
 
-   For Keenetic routers, be sure to import the SSL certificate and select a folder for the user directory by running this command before connecting:
+    For Keenetic routers, be sure to import the SSL certificate and select a folder for the user directory by running this command before connecting:
 
-   ```bash
-   export SSL_CERT_FILE=/opt/etc/ssl/certs/ca-certificates.crt
-   export HOME=/opt/home/admin
-   ```
+    ```bash
+    export SSL_CERT_FILE=/opt/etc/ssl/certs/ca-certificates.crt
+    export HOME=/opt/home/admin
+    ```
 
-   This must be done before each session.
+    This must be done before each session.
 
-   Select a VPN server location that best suits your needs.
+    Select a VPN server location that best suits your needs.
 
-   In general, the closer the server is to you, the faster the connection.
+    In general, the closer the server is to you, the faster the connection.
 
-   To view available locations, type:
+    To view available locations, type:
 
-   ```bash
-   adguardvpn-cli list-locations
-   ```
+    ```bash
+    adguardvpn-cli list-locations
+    ```
 
-   To connect to a specific location, type:
+    To connect to a specific location, type:
 
-   ```bash
-   adguardvpn-cli connect -l LOCATION_NAME
-   ```
+    ```bash
+    adguardvpn-cli connect -l LOCATION_NAME
+    ```
 
-   Replace `LOCATION_NAME` with the city, country, or ISO code of the location you want to connect to.
+    Replace `LOCATION_NAME` with the city, country, or ISO code of the location you want to connect to.
 
-   For quick connect, type:
+    For quick connect, type:
 
-   ```bash
-   adguardvpn-cli connect
-   ```
+    ```bash
+    adguardvpn-cli connect
+    ```
 
-   AdGuard VPN will choose the location with the lowest ping and remember it for future quick connections.
+    AdGuard VPN will choose the location with the lowest ping and remember it for future quick connections.
 
 3. Adjust your settings
 
-   Get a list of all available AdGuard VPN commands and customize the VPN client to your needs.
+    Get a list of all available AdGuard VPN commands and customize the VPN client to your needs.
 
-   To view all commands, type:
+    To view all commands, type:
 
-   ```bash
-   adguardvpn-cli --help-all
-   ```
+    ```bash
+    adguardvpn-cli --help-all
+    ```
 
 4. Enter `yes` when asked “Would you like to set default routes in TUN mode?”
 
@@ -228,36 +228,36 @@ This step is designed to configure firewall rules on a Keenetic router to route 
 
 1. **Install `iptables` by running this command via SSH:**
 
-   ```bash
-   opkg install iptables
-   ```
+    ```bash
+    opkg install iptables
+    ```
 
-   This line installs the `iptables` package, which is a tool for managing network packet filtering rules on Linux systems.
+    This line installs the `iptables` package, which is a tool for managing network packet filtering rules on Linux systems.
 
 2. **Create a new shell script by running the following command:**
 
-   ```bash
+    ```bash
 
-   cat << 'EOF' > /opt/etc/ndm/netfilter.d/001-adguardvpn.sh
-   #!/opt/bin/sh
-   for ipt in iptables ip6tables; do
-       $ipt -D FORWARD -j ADGUARD_FORWARD || true
-       $ipt -F ADGUARD_FORWARD || true
-       $ipt -X ADGUARD_FORWARD || true
-       $ipt -N ADGUARD_FORWARD
-       $ipt -I FORWARD -j ADGUARD_FORWARD
-       $ipt -A ADGUARD_FORWARD -i br0 -o tun0 -j ACCEPT
-   done
-   EOF
-   ```
+    cat << 'EOF' > /opt/etc/ndm/netfilter.d/001-adguardvpn.sh
+    #!/opt/bin/sh
+    for ipt in iptables ip6tables; do
+        $ipt -D FORWARD -j ADGUARD_FORWARD || true
+        $ipt -F ADGUARD_FORWARD || true
+        $ipt -X ADGUARD_FORWARD || true
+        $ipt -N ADGUARD_FORWARD
+        $ipt -I FORWARD -j ADGUARD_FORWARD
+        $ipt -A ADGUARD_FORWARD -i br0 -o tun0 -j ACCEPT
+    done
+    EOF
+    ```
 
-   And make it executable:
+    And make it executable:
 
-   ```bash
-   chmod +x /opt/etc/ndm/netfilter.d/001-adguardvpn.sh
-   ```
+    ```bash
+    chmod +x /opt/etc/ndm/netfilter.d/001-adguardvpn.sh
+    ```
 
-   If you have more brX interfaces, make sure to include them in the script as well to route their traffic. Alternatively, make sure to specify a different routing rule for those interfaces.
+    If you have more brX interfaces, make sure to include them in the script as well to route their traffic. Alternatively, make sure to specify a different routing rule for those interfaces.
 
 This will create a new shell script named `001-adguardvpn.sh` in the `/opt/etc/ndm/netfilter.d/` directory, which is where network-related scripts are typically stored on a Keenetic router.
 

@@ -33,7 +33,7 @@ adguardvpn-cli site-exclusions add %domain_name%
 
 Desteklenen girdi biçimleri: `domain.com`, `sub.domain.com`, `www.domain.com`. Bir veya birden fazla istisnayı aynı anda eklemek için, bunları virgülle ayırarak listeleyin. Joker karakterler için çift tırnak kullanın: `"*.domain.com"`
 
-Komut örneği: `adguardvpn-cli site-exclusions add https://www.google.com/`
+Command example: `adguardvpn-cli site-exclusions add www.google.com`
 
 :::
 
