@@ -27,9 +27,9 @@ IP-адрес по умолчанию для большинства роутер
 
 1. Откройте командную строку:
 
-   ```bash
-   ipconfig
-   ```
+    ```bash
+    ipconfig
+    ```
 
 2. Найдите _Шлюз по умолчанию_ в активном сетевом подключении. Это IP-адрес вашего роутера.
 
@@ -37,15 +37,15 @@ IP-адрес по умолчанию для большинства роутер
 
 1. В Linux откройте Терминал и выполните эту команду:
 
-   ```bash
-   ip route | grep default
-   ```
+    ```bash
+    ip route | grep default
+    ```
 
-   Или эту на Mac:
+    Или эту на Mac:
 
-   ```text
-   route -n get default
-   ```
+    ```text
+    route -n get default
+    ```
 
 2. Найдите запись _default_. Рядом с ней находится IP-адрес вашего роутера.
 
@@ -61,21 +61,21 @@ IP-адрес по умолчанию для большинства роутер
 
 2. Выполните команду SSH:
 
-   ```bash
-   ssh admin@192.168.1.1
-   ```
+    ```bash
+    ssh admin@192.168.1.1
+    ```
 
-   Замените `192.168.1.1` на IP-адрес вашего роутера.
+    Замените `192.168.1.1` на IP-адрес вашего роутера.
 
 3. Если вы впервые подключаетесь к роутеру через SSH, вы увидите такое сообщение:
 
-   ```text
-   The authenticity of host '192.168.1.1 (192.168.1.1)' can't be established.
-   ECDSA key fingerprint is SHA256:...
-   Are you sure you want to continue connecting (yes/no/[fingerprint])?
-   ```
+    ```text
+    The authenticity of host '192.168.1.1 (192.168.1.1)' can't be established.
+    ECDSA key fingerprint is SHA256:...
+    Are you sure you want to continue connecting (yes/no/[fingerprint])?
+    ```
 
-   Введите `yes` и нажмите Enter.
+    Введите `yes` и нажмите Enter.
 
 4. Введите пароль от роутера, когда появится соответствующий запрос. Имя пользователя по умолчанию — `root`, пароль — `keenetic`.
 
@@ -141,82 +141,82 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
 
 1. Войдите в аккаунт
 
-   Чтобы использовать AdGuard VPN для Linux, вам понадобится аккаунт AdGuard. Вы можете зарегистрироваться или войти [на нашем сайте](https://auth.adguard.com/login.html) или в Терминале.
+    Чтобы использовать AdGuard VPN для Linux, вам понадобится аккаунт AdGuard. Вы можете зарегистрироваться или войти [на нашем сайте](https://auth.adguard.com/login.html) или в Терминале.
 
-   Перед этим зайдите в Терминал и убедитесь, что вы находитесь в нужном интерфейсе оболочки. Если вы видите следующий текст:
+    Перед этим зайдите в Терминал и убедитесь, что вы находитесь в нужном интерфейсе оболочки. Если вы видите следующий текст:
 
-   ```text
-   KeeneticOS version 4.01.C.7.0-1, copyright (c) 2010-2024 Keenetic Ltd.
+    ```text
+    KeeneticOS version 4.01.C.7.0-1, copyright (c) 2010-2024 Keenetic Ltd.
 
-   THIS SOFTWARE IS A SUBJECT OF KEENETIC LIMITED END-USER LICENCE AGREEMENT. BY USING IT YOU AGREE ON TERMS AND CONDITIONS HEREOF. FOR MORE INFORMATION PLEASE CHECK https://keenetic.com/legal
-   ```
+    THIS SOFTWARE IS A SUBJECT OF KEENETIC LIMITED END-USER LICENCE AGREEMENT. BY USING IT YOU AGREE ON TERMS AND CONDITIONS HEREOF. FOR MORE INFORMATION PLEASE CHECK https://keenetic.com/legal
+    ```
 
-   Выполните эту команду, чтобы выйти в оболочку, необходимую для следующих шагов:
+    Выполните эту команду, чтобы выйти в оболочку, необходимую для следующих шагов:
 
-   ```bash
-   exec sh
-   ```
+    ```bash
+    exec sh
+    ```
 
-   Если вы видите следующий текст, вы можете продолжить настройку:
+    Если вы видите следующий текст, вы можете продолжить настройку:
 
-   ```bash
-   BusyBox v1.36.1 (2024-08-08 16:11:23 UTC) built-in shell (ash)
+    ```bash
+    BusyBox v1.36.1 (2024-08-08 16:11:23 UTC) built-in shell (ash)
 
-   / #
-   ```
+    / #
+    ```
 
-   Чтобы зарегистрироваться или войти, введите:
+    Чтобы зарегистрироваться или войти, введите:
 
-   ```bash
-   adguardvpn-cli login
-   ```
+    ```bash
+    adguardvpn-cli login
+    ```
 
 2. Подключитесь к VPN
 
-   Для роутеров Keenetic обязательно импортируйте SSL-сертификат и выберите папку для пользовательского каталога, выполнив следующую команду перед подключением:
+    Для роутеров Keenetic обязательно импортируйте SSL-сертификат и выберите папку для пользовательского каталога, выполнив следующую команду перед подключением:
 
-   ```bash
-   export SSL_CERT_FILE=/opt/etc/ssl/certs/ca-certificates.crt
-   export HOME=/opt/home/admin
-   ```
+    ```bash
+    export SSL_CERT_FILE=/opt/etc/ssl/certs/ca-certificates.crt
+    export HOME=/opt/home/admin
+    ```
 
-   Это необходимо делать перед каждым сеансом.
+    Это необходимо делать перед каждым сеансом.
 
-   Выберите локацию VPN-сервера, которая лучше всего соответствует вашим потребностям.
+    Выберите локацию VPN-сервера, которая лучше всего соответствует вашим потребностям.
 
-   Как правило, чем ближе к вам сервер, тем быстрее соединение.
+    Как правило, чем ближе к вам сервер, тем быстрее соединение.
 
-   Чтобы посмотреть доступные локации, введите:
+    Чтобы посмотреть доступные локации, введите:
 
-   ```bash
-   adguardvpn-cli list-locations
-   ```
+    ```bash
+    adguardvpn-cli list-locations
+    ```
 
-   Чтобы подключиться к определённой локации, введите:
+    Чтобы подключиться к определённой локации, введите:
 
-   ```bash
-   adguardvpn-cli connect -l LOCATION_NAME
-   ```
+    ```bash
+    adguardvpn-cli connect -l LOCATION_NAME
+    ```
 
-   Замените `LOCATION_NAME` на город, страну или ISO-код локации на английском, к которой хотите подключиться.
+    Замените `LOCATION_NAME` на город, страну или ISO-код локации на английском, к которой хотите подключиться.
 
-   Для быстрого подключения введите:
+    Для быстрого подключения введите:
 
-   ```bash
-   adguardvpn-cli connect
-   ```
+    ```bash
+    adguardvpn-cli connect
+    ```
 
-   AdGuard VPN выберет локацию с наименьшим пингом и запомнит её для будущих быстрых подключений.
+    AdGuard VPN выберет локацию с наименьшим пингом и запомнит её для будущих быстрых подключений.
 
 3. Отрегулируйте настройки
 
-   Получите список всех доступных команд AdGuard VPN и настройте VPN-клиент под свои нужды.
+    Получите список всех доступных команд AdGuard VPN и настройте VPN-клиент под свои нужды.
 
-   Чтобы просмотреть все команды, введите:
+    Чтобы просмотреть все команды, введите:
 
-   ```bash
-   adguardvpn-cli --help-all
-   ```
+    ```bash
+    adguardvpn-cli --help-all
+    ```
 
 4. Введите `yes` на вопрос Would you like to set default routes in TUN mode?
 
@@ -228,36 +228,36 @@ AdGuard VPN CLI создаст интерфейс tun0 для VPN-туннели
 
 1. **Установите `iptables`, выполнив эту команду через SSH:**
 
-   ```bash
-   opkg install iptables
-   ```
+    ```bash
+    opkg install iptables
+    ```
 
-   Эта строка устанавливает пакет `iptables` — инструмент для управления правилами фильтрации сетевых пакетов в системах Linux.
+    Эта строка устанавливает пакет `iptables` — инструмент для управления правилами фильтрации сетевых пакетов в системах Linux.
 
 2. **Создайте новый скрипт оболочки, выполнив следующую команду:**
 
-   ```bash
+    ```bash
 
-   cat << 'EOF' > /opt/etc/ndm/netfilter.d/001-adguardvpn.sh
-   #!/opt/bin/sh
-   for ipt in iptables ip6tables; do
-       $ipt -D FORWARD -j ADGUARD_FORWARD || true
-       $ipt -F ADGUARD_FORWARD || true
-       $ipt -X ADGUARD_FORWARD || true
-       $ipt -N ADGUARD_FORWARD
-       $ipt -I FORWARD -j ADGUARD_FORWARD
-       $ipt -A ADGUARD_FORWARD -i br0 -o tun0 -j ACCEPT
-   done
-   EOF
-   ```
+    cat << 'EOF' > /opt/etc/ndm/netfilter.d/001-adguardvpn.sh
+    #!/opt/bin/sh
+    for ipt in iptables ip6tables; do
+        $ipt -D FORWARD -j ADGUARD_FORWARD || true
+        $ipt -F ADGUARD_FORWARD || true
+        $ipt -X ADGUARD_FORWARD || true
+        $ipt -N ADGUARD_FORWARD
+        $ipt -I FORWARD -j ADGUARD_FORWARD
+        $ipt -A ADGUARD_FORWARD -i br0 -o tun0 -j ACCEPT
+    done
+    EOF
+    ```
 
-   И сделайте её исполняемой:
+    И сделайте её исполняемой:
 
-   ```bash
-   chmod +x /opt/etc/ndm/netfilter.d/001-adguardvpn.sh
-   ```
+    ```bash
+    chmod +x /opt/etc/ndm/netfilter.d/001-adguardvpn.sh
+    ```
 
-   Если у вас больше интерфейсов brX, обязательно включите их в скрипт для маршрутизации их трафика. Или укажите другое правило маршрутизации для этих интерфейсов.
+    Если у вас больше интерфейсов brX, обязательно включите их в скрипт для маршрутизации их трафика. Или укажите другое правило маршрутизации для этих интерфейсов.
 
 Это создаст новый скрипт оболочки с именем `001-adguardvpn.sh` в каталоге `/opt/etc/ndm/netfilter.d/`, где на роутере Keenetic обычно хранятся скрипты, связанные с сетью.
 

@@ -152,7 +152,7 @@ Ayar, AdGuard VPN açıldığında/kapatıldığında veya yeniden bağlanmayı 
 - Kullanıcı VPN'i kapatır — _VPN bağlantısı kesildi_ bildirimi görünür.
 - Kullanıcı VPN bağlantısının geri gelmesini bekliyor — _Bağlantı için bekleniyor_ bildirimi görünür.
 
-  adguardvpn-cli config set-show-notifications on
+    adguardvpn-cli config set-show-notifications on
 
 ## İstisnalar
 
@@ -164,26 +164,26 @@ Ayar, AdGuard VPN açıldığında/kapatıldığında veya yeniden bağlanmayı 
 
 1. **add**, belirtilen istisnaları ekler
 
-   Örnek: `adguardvpn-cli site-exclusions add` buradaki `%DOMAIN_NAME%` istisnalara eklemek istediğiniz sitedir.
+    Örnek: `adguardvpn-cli site-exclusions add` buradaki `%DOMAIN_NAME%` istisnalara eklemek istediğiniz sitedir.
 
-   :::note
+    :::note
 
-   To add many exclusions, you need to list them comma-separated.
+    To add many exclusions, you need to list them separated by spaces.
 
-   :::
+    :::
 
 2. **clear**, mevcut moddaki istisna listesini temizler
 
-   Örnek: `adguardvpn-cli site-exclusions clear`
+    Örnek: `adguardvpn-cli site-exclusions clear`
 
 3. **mode**, mevcut modu gösterir ve bunlar arasında geçiş yapmanızı sağlar
 
-   Örnek: `adguardvpn-cli site-exclusions mode selective` (bu komutla, Seçici mod seçilir)
+    Örnek: `adguardvpn-cli site-exclusions mode selective` (bu komutla, Seçici mod seçilir)
 
 4. **remove**, bir veya daha fazla istisnayı kaldırır (virgülle ayrılmışsa)
 
-   Örnek: `adguardvpn-cli site-exclusions remove %DOMAIN_NAME%` buradaki `%DOMAIN_NAME%` istisnalardan kaldırmak istediğiniz sitedir.
+    Örnek: `adguardvpn-cli site-exclusions remove %DOMAIN_NAME%` buradaki `%DOMAIN_NAME%` istisnalardan kaldırmak istediğiniz sitedir.
 
 5. **show**, mevcut istisnalar listesini gösterir
 
-   Örnek: `adguardvpn-cli site-exclusions show`
+    Örnek: `adguardvpn-cli site-exclusions show`
