@@ -15,7 +15,7 @@ AdGuard VPN for Windows has many advantages, so we’ve dedicated [a separate ar
 
 ## How to start using AdGuard VPN for Windows
 
-To start using AdGuard VPN for Windows, download the app from [our website](https://adguard-vpn.com/welcome.html). The installation takes no more than a minute — and you’ll see a dialog window where you’ll need to check at least one box applying the terms of the User Agreement and the Privacy policy. And it’s up to you to decide whether you want AdGuard to collect anonymized data about your app usage. At last the program will ask you to sign in, either via [AdGuard account](https://auth.adguard.com/login.html) or via social networks (Apple, Google, Facebook). That’s all, you can now use AdGuard VPN for Windows.
+To start using AdGuard VPN for Windows, download the app from [our website](https://adguard-vpn.com/welcome.html). The installation takes no more than a minute — and you’ll see a dialog window where you’ll need to check at least one box applying the terms of the User Agreement and the Privacy policy. And it’s up to you to decide whether you want AdGuard to collect anonymized data about your app usage. At last the program will ask you to sign in, either via [AdGuard account](https://auth.adguardaccount.com/login.html) or via social networks (Apple, Google, Facebook). That’s all, you can now use AdGuard VPN for Windows.
 
 ## Home screen
 
