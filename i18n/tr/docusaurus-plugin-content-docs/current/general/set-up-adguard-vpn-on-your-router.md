@@ -13,7 +13,7 @@ Bu seçenek yalnızca bir AdGuard VPN aboneliğiniz varsa ve yönlendiriciniz _V
 
 ## Yönlendiricinizde AdGuard VPN nasıl kurulur
 
-1. [AdGuard hesabınızda](https://auth.adguard.com/login.html), AdGuard VPN'i seçin.
+1. In your [AdGuard account](https://auth.adguardaccount.com/login.html), select AdGuard VPN.
 
 2. _Aygıtlar_ altında, _Yönlendirici ekle_ öğesine tıklayın.
 

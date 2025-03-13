@@ -16,7 +16,7 @@ If you have decided to purchase a subscription to AdGuard VPN, there are two way
 
 The subscription can be canceled in your AdGuard account. To cancel your subscription:
 
- 1. In your AdGuard account, go to [Licenses](https://my.adguard.com/account/licenses).
+ 1. In your AdGuard account, go to [Licenses](https://adguardaccount.com/account/licenses).
  1. Click *Cancel subscription* below the subscription you no longer need.
 
 The canceled subscription will remain valid until its expiry date.
