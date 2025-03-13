@@ -18,7 +18,7 @@ Il prossimo vantaggio di AdGuard VPN per iOS è il nostro protocollo VPN. È est
 
 ## Come utilizzare AdGuard VPN per iOS
 
-Per utilizzare AdGuard VPN per iOS, devi prima accedere al tuo [account AdGuard](https://my.adguard.com/). Puoi accedere direttamente con le credenziali del tuo account AdGuard o tramite Google, ID Apple o Facebook (se il tuo account AdGuard è stato registrato utilizzando lo stesso indirizzo email).
+To use AdGuard VPN for iOS, first you need to log into your [AdGuard account](https://adguardaccount.com/). Puoi accedere direttamente con le credenziali del tuo account AdGuard o tramite Google, ID Apple o Facebook (se il tuo account AdGuard è stato registrato utilizzando lo stesso indirizzo email).
 
 If you don’t have an AdGuard account yet, you will have to create it first.
 

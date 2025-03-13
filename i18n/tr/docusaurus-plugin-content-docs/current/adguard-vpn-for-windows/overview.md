@@ -15,7 +15,7 @@ AdGuard VPN for Windows has many advantages, so we’ve dedicated [a separate ar
 
 ## Windows için AdGuard VPN'i kullanmaya nasıl başlanır
 
-Windows için AdGuard VPN'i kullanmaya başlamak için uygulamayı [sitemizden](https://adguard-vpn.com/welcome.html) indirin. The installation takes no more than a minute — and you’ll see a dialog window where you’ll need to check at least one box applying the terms of the User Agreement and the Privacy policy. And it’s up to you to decide whether you want AdGuard to collect anonymized data about your app usage. Son olarak program sizden [AdGuard hesabı](https://auth.adguard.com/login.html) veya sosyal ağlar (Apple, Google, Facebook) aracılığıyla giriş yapmanızı ister. That’s all, you can now use AdGuard VPN for Windows.
+Windows için AdGuard VPN'i kullanmaya başlamak için uygulamayı [sitemizden](https://adguard-vpn.com/welcome.html) indirin. The installation takes no more than a minute — and you’ll see a dialog window where you’ll need to check at least one box applying the terms of the User Agreement and the Privacy policy. And it’s up to you to decide whether you want AdGuard to collect anonymized data about your app usage. At last the program will ask you to sign in, either via [AdGuard account](https://auth.adguardaccount.com/login.html) or via social networks (Apple, Google, Facebook). That’s all, you can now use AdGuard VPN for Windows.
 
 ## Ana ekran
 
