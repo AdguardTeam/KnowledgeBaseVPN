@@ -13,7 +13,7 @@ This option is only available if you have an AdGuard VPN subscription and your r
 
 ## How to set up AdGuard VPN on your router
 
-1. In your [AdGuard account](https://auth.adguard.com/login.html), select AdGuard VPN.
+1. In your [AdGuard account](https://auth.adguardaccount.com/login.html), select AdGuard VPN.
 1. Under *Devices*, click *Add router*.
 
     ![Add router *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/general/2_year.jpg)
