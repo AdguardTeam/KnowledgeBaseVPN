@@ -102,13 +102,17 @@ Two levels of logging are available to choose from: **Record by default** and **
 
 All logs are stored locally on your device, and you can send them to the support team if needed.
 
+##### Post-quantum cryptography
+
+![Post-quantum cryptography *border](https://cdn.adtidy.org/blog/new/3416wimage-2025-03-17-12-44-32-651.png)
+
+This feature encrypts your traffic in a way that even quantum computers can't intercept it.
+
 ##### Use QUIC
 
 This is an experimental feature that enables AdGuard to use the advanced QUIC encryption protocol. It has many advantages, but the most notable one is that it can improve connection quality under non-ideal conditions, for example, when using mobile Internet or when connecting to public Wi-Fi networks.
 
-#### Use WinTun
-
-![Use WinTun *border](https://cdn.adguard-vpn.com/content/release_notes/vpn/windows/v2.2/stats_tab_v2.2_en.png)
+##### Use WinTun
 
 WinTun is a traffic routing driver commonly used for VPN implementations on Windows that improves the quality of VPN connections by creating a virtual network adapter. By default AdGuard VPN uses the regular WFP driver (and TDI driver for Windows 7).
 
