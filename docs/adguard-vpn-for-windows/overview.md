@@ -106,7 +106,7 @@ All logs are stored locally on your device, and you can send them to the support
 
 ![Post-quantum cryptography *border](https://cdn.adtidy.org/blog/new/3416wimage-2025-03-17-12-44-32-651.png)
 
-This feature encrypts your traffic in a way that even quantum computers can't intercept it.
+This feature encrypts your traffic in a way that even quantum computers can’t intercept it.
 
 ##### Use QUIC
 
