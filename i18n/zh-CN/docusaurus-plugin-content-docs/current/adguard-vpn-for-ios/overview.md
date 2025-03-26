@@ -18,7 +18,7 @@ AdGuard VPN has several functions:
 
 ## 如何使用 AdGuard VPN iOS 版
 
-要使用 AdGuard VPN iOS 版，首先用户需要登录个人 [AdGuard 账号](https://my.adguard.com/)。 您可以直接使用您的 AdGuard 账号信息登录，或通过 Google、Apple ID 或 Facebook（仅在您的 AdGuard 账号使用相同的电子邮件地址注册的情况下）登录。
+To use AdGuard VPN for iOS, first you need to log into your [AdGuard account](https://adguardaccount.com/). 您可以直接使用您的 AdGuard 账号信息登录，或通过 Google、Apple ID 或 Facebook（仅在您的 AdGuard 账号使用相同的电子邮件地址注册的情况下）登录。
 
 If you don’t have an AdGuard account yet, you will have to create it first.
 

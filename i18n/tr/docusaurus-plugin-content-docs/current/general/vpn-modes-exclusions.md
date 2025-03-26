@@ -1,13 +1,13 @@
 ---
-title: VPN modes and Exclusion lists
+title: VPN modları ve İstisna listeleri
 sidebar_position: 11
 ---
 
 This section explains how to use website and app exclusions in different VPN modes.
 
-## VPN modes
+## VPN modları
 
-AdGuard VPN has two modes:
+AdGuard VPN'in iki modu vardır:
 
 1. By default, AdGuard VPN is active for all websites and apps, except for those added to the website and app exclusion lists.
 
@@ -15,17 +15,17 @@ AdGuard VPN has two modes:
 
 :::note
 
-You can set different VPN modes for apps and websites. For example, you can set AdGuard VPN to be active for all apps except for those added to the app exclusion list, and active only for the websites from the website exclusion list.
+Uygulamalar ve siteler için farklı VPN modları ayarlayabilirsiniz. For example, you can set AdGuard VPN to be active for all apps except for those added to the app exclusion list, and active only for the websites from the website exclusion list.
 
 :::
 
-## Exclusion lists
+## İstisna listeleri
 
 An exclusion list is a list of apps or websites that AdGuard VPN excludes or includes in its tunnel based on the current VPN mode.
 
 :::note
 
-Each VPN mode has two exclusion lists: one for apps and one for websites. In total, there are four exclusion lists:
+Her VPN modunun iki istisna listesi vardır: biri uygulamalar için ve diğeri siteler için. Toplamda dört istisna listesi bulunmaktadır:
 
 - App exclusion list [VPN active everywhere]
 - App exclusion list [VPN active selectively]
@@ -42,17 +42,17 @@ You can set up four combinations of VPN activity.
 
 AdGuard VPN is active everywhere except for apps and websites from the app and website exclusion lists.
 
-VPN mode:
+VPN modu:
 
 - Active for all apps except app exclusions
 - Active for all websites except website exclusions
 
-Applied exclusion lists:
+Uygulanan istisna listeleri:
 
 - App exclusion list [VPN active everywhere]
 - Website exclusion list [VPN active everywhere]
 
-This is the default VPN mode with maximum VPN protection. If you want to exclude a website or an app from AdGuard VPN, add them to the respective exclusion list.
+Bu, maksimum VPN korumasına sahip varsayılan VPN modudur. If you want to exclude a website or an app from AdGuard VPN, add them to the respective exclusion list.
 
 **Empty exclusion lists:** Your app and website exclusion lists can be empty. If nothing is specified in them, AdGuard VPN will be active for all apps and websites.
 
@@ -60,7 +60,7 @@ This is the default VPN mode with maximum VPN protection. If you want to exclude
 
 :::caution
 
-If you add a browser app to the app exclusion list, AdGuard VPN won’t be active for all websites opened in that browser.
+Bir tarayıcı uygulamasını uygulama istisna listesine eklerseniz, AdGuard VPN o tarayıcıda açılan tüm siteler için etkin olmayacaktır.
 
 :::
 
@@ -68,19 +68,19 @@ If you add a browser app to the app exclusion list, AdGuard VPN won’t be activ
 
 AdGuard VPN is active only for the apps from the the app exclusion list and for all websites except those from the website exclusion list.
 
-VPN mode:
+VPN modu:
 
 - Active only for apps from app exclusions
 - Active for all websites except website exclusions
 
-Applied exclusion lists:
+Uygulanan istisna listeleri:
 
 - App exclusion list [VPN active selectively]
 - Website exclusion list [VPN active everywhere]
 
 To switch to this mode, leave AdGuard VPN active for all websites and set it to be on only for the apps from the app exclusion list. This mode provides less VPN protection coverage because you need to add apps to the app exclusion list to ensure they are protected.
 
-This mode requires your attention to setting up your app exclusion list.
+Bu mod, uygulama istisna listenizi ayarlamanıza dikkat etmenizi gerektirir.
 
 **Empty exclusion lists:** If the **app exclusion list** is **empty**, AdGuard VPN will be **inactive for both websites and apps**.
 
@@ -96,21 +96,21 @@ If you don’t add a browser app to the app exclusion list, AdGuard VPN will be 
 
 AdGuard VPN is active for all apps except those from the the app exclusion list, and only for the websites from the website exclusion list.
 
-VPN mode:
+VPN modu:
 
 - Active for all apps except app exclusions
 - Active only for websites from website exclusions
 
-Applied exclusion lists:
+Uygulanan istisna listeleri:
 
 - App exclusion list [VPN active everywhere]
 - Website exclusion list [VPN active selectively]
 
-To switch to this mode, leave AdGuard VPN active for all apps and set it to be on only for the websites from the website exclusion list. To use an app, add its respective domain to the website exclusion list.
+Bu moda geçmek için, AdGuard VPN'i tüm uygulamalar için etkin bırakın ve yalnızca site istisna listesindeki siteler için açık olacak şekilde ayarlayın. Bir uygulamayı kullanmak için ilgili alan adını site istisna listesine ekleyin.
 
 This mode provides even less VPN protection coverage because you need to add websites to the website exclusion list to ensure they are protected.
 
-This mode requires your attention to setting up your website exclusion list.
+Bu mod, site istisna listenizi ayarlamanıza dikkat etmenizi gerektirir.
 
 **Empty exclusion lists:** If the **website exclusion list** is **empty**, AdGuard VPN will be **inactive for all websites and apps**.
 
@@ -140,7 +140,7 @@ You need to switch to this mode both for apps and websites. This mode provides t
 
 **Empty exclusion lists:** If **any** of the exclusion lists is **empty**, AdGuard VPN will be **inactive for both websites and apps**.
 
-**Why use this mode:** You only need VPN for specific websites and apps.
+**Bu modu neden kullanmalısınız:** Sadece belirli siteler ve uygulamalar için VPN'e ihtiyacınız vardır.
 
 :::caution
 

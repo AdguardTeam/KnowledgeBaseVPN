@@ -13,7 +13,7 @@ Tato možnost je k dispozici pouze v případě, že máte předplatné AdGuard 
 
 ## Jak nastavit AdGuard VPN na routeru
 
-1. Ve svém [AdGuard účtu](https://auth.adguard.com/login.html) vyberte AdGuard VPN.
+1. Ve svém [AdGuard účtu](https://auth.adguardaccount.com/login.html) vyberte AdGuard VPN.
 
 2. V části _Zařízení_ klikněte na _Přidat router_.
 

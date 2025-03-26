@@ -7,7 +7,7 @@ sidebar_position: 2
 
 AdGuard VPN, yalnızca **iOS 15.4 ve iPadOS 15.4 veya sonraki sürümlere** sahip cihazlara yüklenebilir.
 
-### If AdGuard VPN has been removed from the App Store
+### Eğer AdGuard VPN App Store'dan kaldırıldıysa
 
 App Store'da AdGuard VPN'i görmüyorsanız, Apple Kimliği ayarlarınızda ülkeyi veya bölgeyi değiştirmeyi deneyin. Diğer bir seçenek de yeni bir Apple hesabı oluşturmak ve bu hesabı App Store'a bağlamaktır. [Her iki durum için talimatlar](/adguard-vpn-for-ios/solving-problems/app-store) ayrı bir makalede açıklanmaktadır.
 
