@@ -129,7 +129,7 @@ curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/sc
 
  Linux için AdGuard VPN'i kullanmak için bir AdGuard hesabına ihtiyacınız vardır.
 
- [Sitemizden](https://auth.adguard.com/login.html) veya Terminal'den kaydolabilir veya giriş yapabilirsiniz.
+ [Sitemizden](https://auth.adguardaccount.com/login.html) veya Terminal'den kaydolabilir veya giriş yapabilirsiniz.
 
  Kaydolmak veya giriş yapmak için şunu yazın:
 
