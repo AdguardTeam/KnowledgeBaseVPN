@@ -54,7 +54,7 @@ When you manually add a domain, all subdomains are added automatically (it looks
 
 ![Subdomains *mobile_border](https://cdn.adguard-vpn.com/content/release_notes/vpn/ios/v2.4/domains_en.png)
 
-If you manually add a subdomain, the main domain will also added — but the checkbox next to it will not be checked.
+If you manually add a subdomain, the main domain will also be added — but the checkbox next to it will not be checked.
 
 ### Domain lists for popular services
 
