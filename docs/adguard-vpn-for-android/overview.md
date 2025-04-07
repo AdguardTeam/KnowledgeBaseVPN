@@ -93,7 +93,7 @@ In *General*, you can manage basic AdGuard VPN settings:
 
 ### Advanced
 
-![Advanced *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/advanced.png)
+![Advanced *mobile_border](https://cdn.adtidy.org/blog/new/5gxz0fcryptoandroid.png)
 
 The *Advanced* section is a set of settings that are not as commonly used.
 
@@ -104,6 +104,8 @@ The *Advanced* section is a set of settings that are not as commonly used.
 Some AdGuard VPN features are disabled in *Integrated mode*: DNS servers, Kill Switch, and App exclusions. You can manage DNS protection and route apps through your AdGuard VPN proxy in the AdGuard Ad Blocker app.
 
 :::
+
+*​​Post-quantum cryptography* is a feature designed to protect data as quantum computers evolve and potentially compromise existing encryption methods. This feature ensures that traffic is securely encrypted in a way that prevents interception by quantum computers.
 
 *Logging level* specifies how many app events are recorded. We don’t recommend enabling the *Extended* or *Extreme* logging levels unless requested by our support team.
 
