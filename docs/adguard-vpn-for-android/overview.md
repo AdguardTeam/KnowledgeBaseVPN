@@ -105,7 +105,7 @@ Some AdGuard VPN features are disabled in *Integrated mode*: DNS servers, Kill S
 
 :::
 
-*Post-quantum cryptography* is a feature designed to protect data as quantum computers continue to evolve and potentially compromise existing encryption methods. This feature ensures that traffic is securely encrypted so that it cannot be intercepted by quantum computers.
+*Post-quantum cryptography* refers to cryptographic algorithms designed to secure data against potential threats posed by quantum computers, which could eventually break current encryption methods. This feature ensures that data remains securely encrypted, even in the face of advancements in quantum computing that might otherwise compromise traditional encryption techniques.
 
 *Logging level* specifies how many app events are recorded. We don’t recommend enabling the *Extended* or *Extreme* logging levels unless requested by our support team.
 
