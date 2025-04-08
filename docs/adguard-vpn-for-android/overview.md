@@ -93,7 +93,7 @@ In *General*, you can manage basic AdGuard VPN settings:
 
 ### Advanced
 
-![Advanced *mobile_border](https://cdn.adtidy.org/blog/new/5gxz0fcryptoandroid.png)
+![Advanced *mobile_border](https://cdn.adtidy.org/blog/new/mbc4icryptoon.png)
 
 The *Advanced* section is a set of settings that are not as commonly used.
 
