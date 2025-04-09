@@ -15,7 +15,7 @@ AdGuard VPN for Windows has many advantages, so we’ve dedicated [a separate ar
 
 ## Windows için AdGuard VPN'i kullanmaya nasıl başlanır
 
-Windows için AdGuard VPN'i kullanmaya başlamak için uygulamayı [sitemizden](https://adguard-vpn.com/welcome.html) indirin. The installation takes no more than a minute — and you’ll see a dialog window where you’ll need to check at least one box applying the terms of the User Agreement and the Privacy policy. And it’s up to you to decide whether you want AdGuard to collect anonymized data about your app usage. Son olarak program sizden [AdGuard hesabı](https://auth.adguard.com/login.html) veya sosyal ağlar (Apple, Google, Facebook) aracılığıyla giriş yapmanızı ister. That’s all, you can now use AdGuard VPN for Windows.
+Windows için AdGuard VPN'i kullanmaya başlamak için uygulamayı [sitemizden](https://adguard-vpn.com/welcome.html) indirin. The installation takes no more than a minute — and you’ll see a dialog window where you’ll need to check at least one box applying the terms of the User Agreement and the Privacy policy. And it’s up to you to decide whether you want AdGuard to collect anonymized data about your app usage. Son olarak program sizden [AdGuard hesabı](https://auth.adguardaccount.com/login.html) veya sosyal ağlar (Apple, Google, Facebook) aracılığıyla giriş yapmanızı ister. That’s all, you can now use AdGuard VPN for Windows.
 
 ## Ana ekran
 
@@ -23,7 +23,7 @@ Windows için AdGuard VPN'i kullanmaya başlamak için uygulamayı [sitemizden](
 
 The most noticeable item on the **Home screen** is the AdGuard VPN *Connect/Disconnect* button, below which you can see the selected server. Ekranın sağ tarafında mevcut konumların bir listesini göreceksiniz. En hızlı konum, yani en düşük ping değerine sahip olan, listenin en üstünde gösterilir. Herhangi bir konum çevrimdışıysa tıklayabileceğiniz bir yenileme düğmesi de vardır.
 
-You can also save your favorite locations to access them quickly. Just hover over a location, click the bookmark icon that appears, and it will be saved. Your marked locations will then show up in the *Saved* tab.
+Ayrıca hızlı bir şekilde erişmek için favori konumlarınızı kaydedebilirsiniz. Just hover over a location, click the bookmark icon that appears, and it will be saved. İşaretlediğiniz konumlar daha sonra *Kaydedilenler* sekmesinde görünür.
 
 At the top of the screen there is a navigation panel with five tabs: **Home**, **Exclusions**, **Stats**, **Support**, and **Settings**.
 
@@ -102,13 +102,17 @@ Two levels of logging are available to choose from: **Record by default** and **
 
 All logs are stored locally on your device, and you can send them to the support team if needed.
 
+##### Kuantum sonrası kriptografi
+
+![Kuantum sonrası kriptografi *border](https://cdn.adtidy.org/blog/new/qe7fgimage_3.png)
+
+This feature encrypts your traffic in a way that even quantum computers can’t intercept it.
+
 ##### QUIC'i kullan
 
 This is an experimental feature that enables AdGuard to use the advanced QUIC encryption protocol. It has many advantages, but the most notable one is that it can improve connection quality under non-ideal conditions, for example, when using mobile Internet or when connecting to public Wi-Fi networks.
 
-#### WinTun'u kullan
-
-![Use WinTun *border](https://cdn.adguard-vpn.com/content/release_notes/vpn/windows/v2.2/stats_tab_v2.2_en.png)
+##### WinTun'u kullan
 
 WinTun is a traffic routing driver commonly used for VPN implementations on Windows that improves the quality of VPN connections by creating a virtual network adapter. By default AdGuard VPN uses the regular WFP driver (and TDI driver for Windows 7).
 

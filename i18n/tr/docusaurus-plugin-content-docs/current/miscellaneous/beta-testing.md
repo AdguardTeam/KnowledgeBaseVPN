@@ -7,13 +7,13 @@ Hemen hemen her büyük platform için bir AdGuard VPN uygulaması var ve bunlar
 
 ### Beta or nightly: what is the difference?
 
-Both beta and nightly testing are important to make AdGuard VPN constantly better. However, they are different, and you can choose the one that suits you more.
+AdGuard VPN'i sürekli olarak daha iyi hâle getirmek için hem beta hem de nightly testlerin yapılması önemlidir. Ancak bunlar birbirinden farklıdır ve siz kendinize daha uygun olanı seçebilirsiniz.
 
 The development process follows a progression from nightly to beta and then from beta to the final, stable version — release. It means that you are more likely to find bugs in nightly builds, but you get access to new features faster, almost on a daily basis. Betas are more stable, but you will get updates less often.
 
-### How to become a beta or nightly tester
+### Beta veya nightly test kullanıcısı nasıl olunur
 
-Our requirements are easy: use AdGuard VPN, upgrade to the beta/nightly version when it becomes available, and report any bugs you notice. You will need a [GitHub](https://github.com/) account to become our tester, so you might want to get that out of the way first.
+Gereksinimlerimiz basit: AdGuard VPN'i kullanın, beta veya nightly sürüm kullanıma sunulduğunda güncelleyin ve fark ettiğiniz hataları bize bildirin. Test kullanıcımız olmak için bir [GitHub](https://github.com/) hesabına ihtiyacınız olacak, bu nedenle önce bunu aradan çıkarmak isteyebilirsiniz.
 
 You will also need the device on which you will install the app and [the link to the the beta testing page](https://adguard-vpn.com/beta.html). There you will find more information on how to join our program and test AdGuard VPN for Windows, Mac, Android, iOS, Linux, and AdGuard VPN Browser Extension.
 
@@ -29,7 +29,7 @@ To get the beta or nightly build of AdGuard VPN for iOS, you must first install 
 
 If you spot a bug in the build you are testing, or just want to share your suggestion with our developers, let us know: go to [GitHub](https://github.com/AdguardTeam/), find an appropriate repository, create a new issue there, and describe the bug/feature request in detail.
 
-The above method is preferred, but you can use others if necessary:
+Yukarıdaki yöntem tercih edilendir, ancak gerekirse diğerlerini de kullanabilirsiniz:
 
 - Find us on [social media](https://adguard-vpn.com/discuss.html). This is not the most efficient way to discuss technical matters, but we’ll aways try to be helpful.
 
