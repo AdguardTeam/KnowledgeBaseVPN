@@ -1,78 +1,78 @@
 ---
-title: Activate AdGuard VPN subscription
+title: Aktivace předplatného AdGuard VPN
 sidebar_position: 12
 ---
 
-To activate your AdGuard VPN subscription, follow these steps:
+Chcete-li aktivovat předplatné AdGuard VPN, postupujte podle následujících kroků:
 
-1. Open the AdGuard VPN app and tap _Log in or create an account_
-2. A login page will open in your browser. Enter the email address you used during the purchase. You can also log in with a social media account if it is associated with the same email address
+1. Otevřete aplikaci AdGuard VPN a klepněte na možnost _Přihlásit se nebo vytvořit účet_
+2. V prohlížeči se otevře přihlašovací stránka. Zadejte e-mailovou adresu, kterou jste použili při nákupu. Můžete se také přihlásit pomocí účtu sociální sítě, pokud je spojen se stejnou e-mailovou adresou
 
-The subscription activates automatically. If it doesn’t happen, please check the information below for further assistance.
+Předplatné se aktivuje automaticky. Pokud se tak nestane, vyhledejte další pomoc v níže uvedených informacích.
 
-## Resolve subscription activation issues
+## Řešení problémů s aktivací předplatného
 
-Sometimes users have trouble activating their subscription. Below are step-by-step instructions on how to resolve the issue based on where you purchased your subscription.
+Někdy mají uživatelé potíže s aktivací předplatného. Níže jsou uvedeny pokyny krok za krokem, jak problém vyřešit podle toho, kde jste si předplatné zakoupili.
 
-### Official website
+### Oficiální stránka
 
-First, check to see if you received a confirmation email. Subscriptions are associated with the email address you provide during the payment process. If you received the email but don't see the subscription in your app, you may have logged in to the app with a different email address.
+Nejprve zkontrolujte, zda jste obdrželi potvrzovací e-mail. Předplatné je spojeno s e-mailovou adresou, kterou zadáte při platbě. Pokud jste e-mail obdrželi, ale v aplikaci nevidíte předplatné, je možné, že jste se do aplikace přihlásili pod jinou e-mailovou adresou.
 
-1. Go to AdGuard VPN → _Settings_ → _Account_ and check which email address is displayed there
-2. If it's different, log out of your account (on iOS and Android, tap the three dots in the top-right corner to log out)
-3. Log back in using the correct email address associated with your purchase
+1. Přejděte do AdGuard VPN → _Nastavení_ → _Účet_ a zkontrolujte, která e-mailová adresa se tam zobrazuje
+2. Pokud se liší, odhlaste se ze svého účtu (v systémech iOS a Android klepněte na tři tečky v pravém horním rohu a odhlaste se)
+3. Znovu se přihlaste pomocí správné e-mailové adresy spojené s vaším nákupem
 
-If you didn't receive the confirmation email, you may have entered a non-existent email address or made a typo when purchasing your subscription. To resolve this issue, please contact our support team at support@adguard-vpn.com and provide the following information:
+Pokud jste potvrzovací e-mail neobdrželi, je možné, že jste při nákupu předplatného zadali neexistující e-mailovou adresu nebo jste udělali překlep. Chcete-li tento problém vyřešit, kontaktujte náš tým podpory na support@adguard-vpn.com a uveďte následující informace:
 
-- Date and exact time of purchase
-- Exact amount charged
-- Last 4 digits of the card used
-- If available, attach a receipt or bank statement to your email. This will help us process your request faster
+- Datum a přesný čas nákupu
+- Přesnou částku, kterou jste zaplatili
+- Poslední 4 číslice použité platební karty
+- Pokud máte k dispozici, přiložte k e-mailu účtenku nebo výpis z účtu. To nám pomůže zpracovat vaši žádost rychleji
 
 :::note
 
-You can use a specific subject line, such as "Problems with my subscription" or "Can't activate my subscription", to help us prioritize your request.
+Můžete použít konkrétní předmět, například "Problémy s mým předplatným" nebo "Nemohu aktivovat své předplatné", abyste nám pomohli upřednostnit váš požadavek.
 :::
 
-### In-app purchase on iPhone or iPad
+### Nákup v aplikaci na iPhonu nebo iPadu
 
-When activating your AdGuard VPN subscription on iPhone or iPad, you might encounter one of the following scenarios:
+Při aktivaci předplatného AdGuard VPN na iPhonu nebo iPadu se můžete setkat s jedním z následujících scénářů:
 
-1. Your subscription works on your iPhone, but you can't activate it on another device because you don't know which email address it's associated with
-2. You purchased through the App Store but can't find the subscription in your AdGuard account
+1. Vaše předplatné funguje na iPhonu, ale nemůžete ho aktivovat na jiném zařízení, protože nevíte, ke které e-mailové adrese je přiřazeno
+2. Zakoupili jste si aplikaci přes App Store, ale ve svém účtu AdGuard nemůžete najít předplatné
 
-Let's look at these two situations separately.
+Podívejme se na tyto dvě situace odděleně.
 
-In the first case, your subscription may be associated with an email address created for you by Apple. This can happen if you log in to AdGuard VPN through _Continue with Apple_ and purchase the subscription in-app.
+V prvním případě může být vaše předplatné spojeno s e-mailovou adresou, kterou pro vás vytvořila společnost Apple. To se může stát, pokud se do AdGuard VPN přihlásíte přes _Pokračovat pomocí Apple_ a zakoupíte si předplatné v aplikaci.
 
-1. Go to AdGuard VPN → _Settings_ → _Account_
-2. If you don't recognize the email address you see on the _Account_ screen, visit the [password recovery page](https://auth.adguard.com/account/recovery_password.html) and request a password reset for that email address
-3. Use that email address and new password to log in on other devices
+1. Přejděte do AdGuard VPN → _Nastavení_ → _Účet_
+2. Pokud e-mailovou adresu, kterou vidíte na obrazovce _Účet_, nepoznáváte, navštivte [stránku obnovení hesla](https://auth.adguardaccount.com/account/recovery_password.html) a požádejte o obnovení hesla pro tuto e-mailovou adresu
+3. Použijte tuto e-mailovou adresu a nové heslo k přihlášení na jiných zařízeních
 
-Alternatively, you can ask the support team (support@adguard-vpn.com) to transfer your subscription from the email address provided by Apple to your active email address. Please include your receipt or other proof of purchase. This will help us verify that you own the subscription.
+Můžete také požádat tým podpory (support@adguard-vpn.com), aby převedl vaše předplatné z e-mailové adresy poskytnuté společností Apple na vaši aktivní e-mailovou adresu. Přiložte prosím účtenku nebo jiný doklad o nákupu. Tím nám pomůžete ověřit, že jste vlastníkem předplatného.
 
-In the second case, if your subscription was purchased through the App Store, you may have chosen to hide your real email address from developers. This means you used an email address randomly generated by Apple. As a result, your AdGuard account was also created with this address. To transfer your subscription to your primary email, you need to identify the email address used for the purchase.
+V druhém případě, pokud bylo předplatné zakoupeno prostřednictvím obchodu App Store, jste se možná rozhodli skrýt svou skutečnou e-mailovou adresu před vývojáři. To znamená, že jste použili e-mailovou adresu náhodně vygenerovanou společností Apple. V důsledku toho byl s touto adresou vytvořen i váš účet AdGuard. Chcete-li převést předplatné do svého primárního e-mailu, musíte identifikovat e-mailovou adresu použitou při nákupu.
 
-1. Go to _Settings_ → _Apple ID_ → _iCloud_ → _Hide my email_
-2. Find AdGuard VPN in the list and copy the email address (it should end with @privaterelay.appleid.com). Send this email address to support@adguard-vpn.com.
+1. Přejděte do _Nastavení_ → _Účet Apple_ → _iCloud_ → _Skrýt můj e-mail_
+2. Vyhledejte v seznamu AdGuard VPN a zkopírujte e-mailovou adresu (měla by končit @privaterelay.appleid.com). Tuto e-mailovou adresu odešlete na support@adguard-vpn.com.
 
-Once we receive the email address, we’ll transfer your subscription, and you’ll be able to use the app.
+Jakmile obdržíme e-mailovou adresu, převedeme vaše předplatné a vy budete moci aplikaci používat.
 
-### On a third-party website
+### Nákup na webových stránkách třetí strany
 
-If you purchased an AdGuard VPN subscription from a software reseller, you should have received an activation code (a combination of letters and numbers, usually starting with "VPN"). To use this subscription, bind this code to your AdGuard account.
+Pokud jste si předplatné AdGuard VPN zakoupili u prodejce softwaru, měli jste obdržet aktivační kód (kombinace písmen a číslic, obvykle začínající na "VPN"). Chcete-li toto předplatné používat, přiřaďte tento kód ke svému účtu AdGuard.
 
-1. If you don’t have an account, [create one](https://auth.adguardaccount.com/login.html)
-2. Go to the _Licenses_ section and click _Bind license_
-3. Enter your activation code to bind the AdGuard VPN subscription to your account
-4. Open the AdGuard VPN app and log in with your email address and password
+1. Pokud nemáte účet, [vytvořte si ho](https://auth.adguardaccount.com/login.html)
+2. Přejděte do sekce _Licence_ a klikněte na tlačítko _Připojit licenci_
+3. Zadejte aktivační kód, abyste předplatné AdGuard VPN propojili se svým účtem
+4. Otevřete aplikaci AdGuard VPN a přihlaste se pomocí e-mailové adresy a hesla
 
-If you're already logged in, go to AdGuard VPN → _Settings_ → _Account_ and make sure the email address matches the one associated with your subscription.
+Pokud jste již přihlášeni, přejděte do AdGuard VPN → _Nastavení_ → _Účet_ a zkontrolujte, zda e-mailová adresa odpovídá adrese přidružené k vašemu předplatnému.
 
-If they don’t match, log out (on iOS and Android, tap the three dots in the top-right corner) and log back in with the correct email address.
+Pokud se neshodují, odhlaste se (v systému iOS a Android klepněte na tři tečky v pravém horním rohu) a znovu se přihlaste pomocí správné e-mailové adresy.
 
 :::note
 
-If you’ve followed these steps and still can’t activate your subscription, please contact our support team at support@adguard-vpn.com.
+Pokud jste postupovali podle těchto kroků a stále se vám nedaří aktivovat předplatné, kontaktujte náš tým podpory na support@adguard-vpn.com.
 
 :::

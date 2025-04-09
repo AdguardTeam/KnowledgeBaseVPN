@@ -93,7 +93,7 @@ V části *Obecné* můžete spravovat základní nastavení AdGuard VPN:
 
 ### Pokročilé
 
-![Advanced *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/advanced.png)
+![Advanced *mobile_border](https://cdn.adtidy.org/blog/new/mbc4icryptoon.png)
 
 V části *Pokročilé* se nachází sada nastavení, která se nepoužívají tak často.
 
@@ -105,22 +105,24 @@ Některé funkce AdGuard VPN jsou v *Režimu integrace* deaktivovány: DNS serve
 
 :::
 
-*Úroveň záznamů* určuje, kolik událostí aplikace se zaznamenává. Nedoporučujeme povolovat úrovně záznamů *Pokročilý* nebo *Extrémní*, pokud to nevyžaduje náš tým podpory.
+*Post-quantum cryptography* refers to cryptographic algorithms designed to secure data against potential threats posed by quantum computers, which could eventually break current encryption methods. This feature ensures that data remains securely encrypted, even in the face of advancements in quantum computing that might otherwise compromise traditional encryption techniques.
 
-V této části můžete také exportovat záznamy a systémové informace a sdílet je s podporou.
+*Logging level* specifies how many app events are recorded. We don’t recommend enabling the *Extended* or *Extreme* logging levels unless requested by our support team.
 
-*Diagnostická data* zobrazují místně uložené technické informace o aplikaci, zařízení a připojení. V případě potřeby je můžete zkopírovat a odeslat našemu týmu podpory.
+In this section, you can also export logs and system info to share them with support.
 
-Poslední částí v *Pokročilých nastaveních* jsou *Nízkoúrovňová nastavení*. Doporučujeme vám, abyste do této sekce nevstupovali, pokud nejste vysoce kvalifikovaní nebo pokud vás o to nepožádal náš tým podpory. Zde je možné povolit protokolování rozhraní TUN nebo protokolu IPv6 na rozhraní VPN, vybrat port proxy serveru nebo verzi Internetového protokolu, která se má používat.
+*Diagnostic data* displays the locally stored technical information about the app, device, and connections. You can copy and send it to our support team if necessary.
+
+The last section of *Advanced settings* is *Low-level settings*. We urge you not to enter this section unless you are highly qualified or have been asked to do so by our support team. Here it is possible to enable TUN interface logging or IPv6 protocol on the VPN interface, choose a proxy server port or Internet protocol version that should be used.
 
 :::caution
 
-V možnosti **Preferovaná verze IP** se před výběrem mezi IPv6 a IPv4 ujistěte, že vaše síť tento protokol podporuje. Pokud například zvolíte IPv6 a vaše síť podporuje pouze IPv4, budete mít problémy s připojením k Internetu. A naopak.
+In the **Preferred IP version** option, before you choose between IPv6 and IPv4, make sure that your network supports that protocol. For example, if you select IPv6 and your network only supports IPv4, you will have problems connecting to the Internet. And vice versa.
 
 :::
 
 ### Podpora
 
-V části *Podpora* se můžete podívat na naše FAQ, kde získáte rychlé odpovědi na své otázky, nahlásit chyby a navrhnout nové funkce.
+In the *Support* section, you can check out our FAQ to get quick answers to your questions, report bugs, and suggest new features.
 
 ![Support *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/support.jpg)

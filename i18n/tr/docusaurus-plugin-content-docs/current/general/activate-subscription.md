@@ -1,22 +1,22 @@
 ---
-title: Activate AdGuard VPN subscription
+title: AdGuard VPN aboneliğini etkinleştirme
 sidebar_position: 12
 ---
 
-To activate your AdGuard VPN subscription, follow these steps:
+AdGuard VPN aboneliğinizi etkinleştirmek için aşağıdaki adımları izleyin:
 
-1. Open the AdGuard VPN app and tap _Log in or create an account_
-2. A login page will open in your browser. Enter the email address you used during the purchase. You can also log in with a social media account if it is associated with the same email address
+1. AdGuard VPN uygulamasını açın ve _Giriş yap ya da bir hesap oluştur_ öğesine dokunun
+2. Tarayıcınızda bir giriş sayfası açılır. Satın alma sırasında kullandığınız e-posta adresini girin. Aynı e-posta adresiyle ilişkilendirilmişse bir sosyal medya hesabıyla da giriş yapabilirsiniz
 
-The subscription activates automatically. If it doesn’t happen, please check the information below for further assistance.
+Abonelik otomatik olarak etkinleştirilir. Eğer etkinleştirilmezse, daha fazla yardım için lütfen aşağıdaki bilgileri kontrol edin.
 
-## Resolve subscription activation issues
+## Abonelik etkinleştirme sorunlarını çözme
 
-Sometimes users have trouble activating their subscription. Below are step-by-step instructions on how to resolve the issue based on where you purchased your subscription.
+Bazen kullanıcılar aboneliklerini etkinleştirmede sorun yaşarlar. Aşağıda, aboneliğinizi nereden satın aldığınıza bağlı olarak sorunun nasıl çözüleceğine ilişkin adım adım talimatlar yer almaktadır.
 
-### Official website
+### Resmi site
 
-First, check to see if you received a confirmation email. Subscriptions are associated with the email address you provide during the payment process. If you received the email but don't see the subscription in your app, you may have logged in to the app with a different email address.
+First, check to see if you received a confirmation email. Abonelikler, ödeme işlemi sırasında sağladığınız e-posta adresiyle ilişkilendirilir. If you received the email but don't see the subscription in your app, you may have logged in to the app with a different email address.
 
 1. Go to AdGuard VPN → _Settings_ → _Account_ and check which email address is displayed there
 2. If it's different, log out of your account (on iOS and Android, tap the three dots in the top-right corner to log out)
@@ -24,10 +24,10 @@ First, check to see if you received a confirmation email. Subscriptions are asso
 
 If you didn't receive the confirmation email, you may have entered a non-existent email address or made a typo when purchasing your subscription. To resolve this issue, please contact our support team at support@adguard-vpn.com and provide the following information:
 
-- Date and exact time of purchase
-- Exact amount charged
-- Last 4 digits of the card used
-- If available, attach a receipt or bank statement to your email. This will help us process your request faster
+- Satın alma tarihi ve tam saati
+- Tam olarak tahsil edilen ücret
+- Kullanılan kartın son 4 hanesi
+- Mümkünse, e-postanıza makbuz veya banka ekstresi ekleyin. Bu, talebinizi daha hızlı işleme almamıza yardımcı olur
 
 :::note
 
@@ -41,19 +41,19 @@ When activating your AdGuard VPN subscription on iPhone or iPad, you might encou
 1. Your subscription works on your iPhone, but you can't activate it on another device because you don't know which email address it's associated with
 2. You purchased through the App Store but can't find the subscription in your AdGuard account
 
-Let's look at these two situations separately.
+Bu iki duruma ayrı ayrı bakalım.
 
-In the first case, your subscription may be associated with an email address created for you by Apple. This can happen if you log in to AdGuard VPN through _Continue with Apple_ and purchase the subscription in-app.
+İlk durumda, aboneliğiniz Apple tarafından sizin için oluşturulan bir e-posta adresiyle ilişkilendirilebilir. This can happen if you log in to AdGuard VPN through _Continue with Apple_ and purchase the subscription in-app.
 
 1. Go to AdGuard VPN → _Settings_ → _Account_
-2. If you don't recognize the email address you see on the _Account_ screen, visit the [password recovery page](https://auth.adguard.com/account/recovery_password.html) and request a password reset for that email address
+2. If you don't recognize the email address you see on the _Account_ screen, visit the [password recovery page](https://auth.adguardaccount.com/account/recovery_password.html) and request a password reset for that email address
 3. Use that email address and new password to log in on other devices
 
 Alternatively, you can ask the support team (support@adguard-vpn.com) to transfer your subscription from the email address provided by Apple to your active email address. Please include your receipt or other proof of purchase. This will help us verify that you own the subscription.
 
 In the second case, if your subscription was purchased through the App Store, you may have chosen to hide your real email address from developers. This means you used an email address randomly generated by Apple. As a result, your AdGuard account was also created with this address. To transfer your subscription to your primary email, you need to identify the email address used for the purchase.
 
-1. Go to _Settings_ → _Apple ID_ → _iCloud_ → _Hide my email_
+1. _Ayarlar_ → _Apple Kimliği_ → _iCloud_ → _E-postamı gizle_ öğesine gidin
 2. Find AdGuard VPN in the list and copy the email address (it should end with @privaterelay.appleid.com). Send this email address to support@adguard-vpn.com.
 
 Once we receive the email address, we’ll transfer your subscription, and you’ll be able to use the app.

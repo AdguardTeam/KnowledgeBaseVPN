@@ -45,7 +45,7 @@ Alan adını (örn. `google.com`) veya alt alan adını (örn. `*.google.com`) i
 
 Alan adlarını elle eklemenin bazı ince ayrıntıları vardır. Örneğin, `yahoo.com` alan adını elle hariç tutarsanız, tüm `*.yahoo.com` alt alanları da istisnalarda listelenir. Ancak, `yahoo.jp` veya `yahoo.fr` gibi diğer üst düzey alan adlarına sahip alan adları hariç tutulmayacaktır.
 
-`youtube.com` alan aıdnı istisnalara eklerseniz, aynı hizmetin `youtu.be` alan adı eklenmeyecektir. Bu durumda, dahili hizmet listelerini kullanmak daha güvenlidir. Her platformla ilişkili tüm alt alan adlarını içerirler.
+`youtube.com` alan adını istisnalara eklerseniz, aynı hizmetin `youtu.be` alan adı eklenmeyecektir. Bu durumda, dahili hizmet listelerini kullanmak daha güvenlidir. Her platformla ilişkili tüm alt alan adlarını içerirler.
 
 :::
 
@@ -93,7 +93,7 @@ Ekranın sağ alt kısmındaki dişli çark simgesine basarak *Ayarlar* öğesin
 
 ### Gelişmiş
 
-![Gelişmiş *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/advanced.png)
+![Gelişmiş *mobile_border](https://cdn.adtidy.org/blog/new/mbc4icryptoon.png)
 
 *Gelişmiş* bölümü, yaygın olarak kullanılmayan bir dizi ayardır.
 
@@ -105,22 +105,24 @@ Bazı AdGuard VPN özellikleri *Tümleşik modda devre dışı bırakılır*: DN
 
 :::
 
-*Günlük kayıt düzeyi*, kaç uygulama olayının kaydedileceğini belirtir. Destek ekibimiz tarafından talep edilmediği sürece *Genişletilmiş* veya *Son derece* günlük kayıt düzeylerinin etkinleştirilmesini önermiyoruz.
+*Post-quantum cryptography* refers to cryptographic algorithms designed to secure data against potential threats posed by quantum computers, which could eventually break current encryption methods. This feature ensures that data remains securely encrypted, even in the face of advancements in quantum computing that might otherwise compromise traditional encryption techniques.
 
-Bu bölümde, destekle paylaşmak için günlükleri ve sistem bilgisini de dışa aktarabilirsiniz.
+*Logging level* specifies how many app events are recorded. We don’t recommend enabling the *Extended* or *Extreme* logging levels unless requested by our support team.
 
-*Teşhis verileri*, uygulama, cihaz ve bağlantılar hakkında yerel olarak depolanan teknik bilgileri görüntüler. Gerekirse kopyalayıp destek ekibimize gönderebilirsiniz.
+In this section, you can also export logs and system info to share them with support.
 
-*Gelişmiş ayarların* son bölümü *Alt seviye ayarlardır*. Yüksek nitelikli değilseniz veya destek ekibimiz tarafından istenmedikçe bu bölüme girmemenizi tavsiye ederiz. Burada, VPN arayüzünde TUN arayüzü günlüğünü veya IPv6 protokolünü etkinleştirmek, kullanılması gereken bir proxy sunucu bağlantı noktası veya internet protokolü sürümünü seçmek mümkündür.
+*Diagnostic data* displays the locally stored technical information about the app, device, and connections. You can copy and send it to our support team if necessary.
+
+The last section of *Advanced settings* is *Low-level settings*. We urge you not to enter this section unless you are highly qualified or have been asked to do so by our support team. Here it is possible to enable TUN interface logging or IPv6 protocol on the VPN interface, choose a proxy server port or Internet protocol version that should be used.
 
 :::caution
 
-**Tercih edilen IP sürümü** seçeneğinde, IPv6 ve IPv4 arasında seçim yapmadan önce ağınızın bu protokolü desteklediğinden emin olun. Örneğin IPv6'yı seçerseniz ve ağınız yalnızca IPv4'ü destekliyorsa, internete bağlanmada sorun yaşarsınız. Bunun tersi durumlar da olabilir.
+In the **Preferred IP version** option, before you choose between IPv6 and IPv4, make sure that your network supports that protocol. For example, if you select IPv6 and your network only supports IPv4, you will have problems connecting to the Internet. And vice versa.
 
 :::
 
 ### Destek
 
-*Destek* bölümünde, sorularınıza hızlı yanıtlar almak, hataları bildirmek ve yeni özellikler önermek için SSS bölümümüze göz atabilirsiniz.
+In the *Support* section, you can check out our FAQ to get quick answers to your questions, report bugs, and suggest new features.
 
-![Destek *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/support.jpg)
+![Support *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/support.jpg)

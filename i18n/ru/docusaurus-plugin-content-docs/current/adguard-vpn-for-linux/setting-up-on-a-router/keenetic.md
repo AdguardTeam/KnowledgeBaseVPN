@@ -141,7 +141,7 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
 
 1. Войдите в аккаунт
 
-    Чтобы использовать AdGuard VPN для Linux, вам понадобится аккаунт AdGuard. Вы можете зарегистрироваться или войти [на нашем сайте](https://auth.adguard.com/login.html) или в Терминале.
+    Чтобы использовать AdGuard VPN для Linux, вам понадобится аккаунт AdGuard. You can sign up or log in on our [website](https://auth.adguardaccount.com/login.html) or in Terminal.
 
     Перед этим зайдите в Терминал и убедитесь, что вы находитесь в нужном интерфейсе оболочки. Если вы видите следующий текст:
 

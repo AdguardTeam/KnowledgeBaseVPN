@@ -19,7 +19,7 @@ Bazı ülkelerde AdGuard VPN, App Store'da mevcut değildir. Durumunuz buysa uyg
 
 3. Select your preferred country from the list (e.g., _Canada_ or _Mexico_) and agree to the Terms and Conditions.
 
-4. Gerekli alanları doldurun. For _Payment Method_, you can select _None_. For _Billing Address_, use any phone number and address with a valid ZIP code. For example:
+4. Gerekli alanları doldurun. For _Payment Method_, you can select _None_. _Fatura Adresi_ için geçerli bir posta kodu olan herhangi bir telefon numarası ve adresi kullanın. Örneğin:
 
     Street: 90 Ave NW
 
