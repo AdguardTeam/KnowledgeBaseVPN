@@ -18,7 +18,7 @@ These are the two possible solutions:
    interface of AdGuard VPN CLI. In this case, it's important to keep in mind that:
     - For an app's traffic to go through the VPN tunnel it must either have its traffic
 transparently proxied by AdGuard CLI (which is the case for all apps by default), or it must be manually configured to use
-      AdGuard VPN CLI's SOCKS5 interface.
+the SOCKS5 interface of AdGuard VPN CLI.
     - In order to avoid a routing loop, the `skip_outbound_proxy` option must be enabled
       for AdGuard VPN CLI in AdGuard CLI's apps configuration section. By default, `skip_outbound_proxy` is enabled for
       all apps with `vpn` in their name, which includes AdGuard VPN CLI.
