@@ -21,4 +21,4 @@ transparently proxied by AdGuard CLI (which is the case for all apps by default)
 the SOCKS5 interface of AdGuard VPN CLI.
     - In order to avoid a routing loop, the `skip_outbound_proxy` option must be enabled
       for AdGuard VPN CLI in AdGuard CLI's apps configuration section. By default, `skip_outbound_proxy` is enabled for
-      all apps with `vpn` in their name, which includes AdGuard VPN CLI.
+all apps with `vpn` in their name, including AdGuard VPN CLI.
