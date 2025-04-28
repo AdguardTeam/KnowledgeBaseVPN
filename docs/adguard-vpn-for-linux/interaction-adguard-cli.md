@@ -9,7 +9,7 @@ Using  AdGuard VPN CLI in **tunnel mode** together with AdGuard CLI in **automat
 routing loop: AdGuard VPN CLI's traffic currently can not be excluded from being transparently proxied by AdGuard CLI,
 and AdGuard CLI's traffic must go through the AdGuard VPN CLI's tunnel.
 
-These are the two possible solutions:
+There are the two possible solutions:
 
 1. Switch AdGuard CLI to **manual proxy mode**.
     - In this case, AdGuard VPN CLI can be used in **tunnel mode**, but apps for which ad blocking is desired must be
