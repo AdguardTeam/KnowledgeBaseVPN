@@ -72,7 +72,7 @@ Crucially, all this information is stored exclusively on your device, ensuring t
 
 ![Settings *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/settings_en.png)
 
-The fourth tab contains sections that will help you customize the app.
+The fifth tab contains sections that will help you customize the app.
 
 ### App settings
 
