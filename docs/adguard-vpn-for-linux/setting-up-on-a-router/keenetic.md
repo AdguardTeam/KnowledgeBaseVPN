@@ -292,3 +292,9 @@ It will start AdGuard VPN when Internet is connected.
 Reboot your router to finish setup.
 
 Congrats! Now you have a router secured with AdGuard VPN.
+
+If you want to disable the autolaunch of AdGuard VPN, you need to to delete the script that activates it. To do so, run the following command:
+
+```bash
+rm /opt/etc/ndm/wan.d/001-adguardvpn.sh
+```
