@@ -47,7 +47,7 @@ sidebar_position: 4
 
 Öncelikle, yönlendiricinizde SSH erişiminin etkinleştirildiğinden emin olun. Bu ayar genellikle yönlendiricinin web arayüzünde bulunur. Yönlendirme kurallarını belirlemek için JFFS özel betikler kullanılacaktır.
 
-1. Log in to the web interface. Buna genellikle [`http://192.168.1.1`](http://192.168.1.1/) adresinden bir web tarayıcısı aracılığıyla erişilebilir. Aksi takdirde, [`192.168.1.1`](http://192.168.1.1/) adresini yönlendiricinizin IP adresiyle değiştirin.
+1. Web arayüzüne giriş yapın. Buna genellikle [`http://192.168.1.1`](http://192.168.1.1/) adresinden bir web tarayıcısı aracılığıyla erişilebilir. Aksi takdirde, [`192.168.1.1`](http://192.168.1.1/) adresini yönlendiricinizin IP adresiyle değiştirin.
 
 2. Aşağı kaydırarak _Gelişmiş ayarlar_, _Yönetim_ → _Sistem_ öğesine gidin.
 
@@ -57,11 +57,11 @@ sidebar_position: 4
 
 5. Go up to _Persistent JFFS2 partition_ and enable _JFFS custom scripts and configs_.
 
-6. Click _Apply_ at the bottom of the page.
+6. Sayfanın alt kısmındaki _Uygula_ öğesine tıklayın.
 
 <!-- comment -->
 
-## 3. Use an SSH client to connect to the router
+## 3. Yönlendiriciye bağlanmak için bir SSH istemcisi kullanma
 
 You’ll need an SSH client. Çoğu Linux ve macOS sistemi önceden yüklenmiş bir SSH istemcisiyle birlikte gelir. Windows için, Windows 10/11'deki yerleşik SSH istemcisi olan PowerShell'i veya PuTTY gibi üçüncü taraf bir uygulamayı kullanabilirsiniz.
 
@@ -102,7 +102,7 @@ You’ll need an SSH client. Çoğu Linux ve macOS sistemi önceden yüklenmiş 
 
 <!-- comment -->
 
-## 4. Install Entware using SSH
+## 4. SSH kullanarak Entware yükleme
 
 Once logged into your SSH client, you can use various commands to interact with your router’s Linux-based operating system. Devam etmek için Entware OPKG Manager'ı yüklemeniz gerekir. Yönlendirici yeteneklerini genişletmek için üçüncü taraf yazılım paketleri yüklemenize olanak tanır. Eğer zaten yüklüyse, bir sonraki adıma geçin.
 
@@ -110,9 +110,9 @@ Hem Optware (eski alternatif) hem de Entware'i aynı anda kullanamayacağınız�
 
 Asus DownloadMaster, Optware tabanlıdır ve bu nedenle Entware ile uyumlu değildir. DownloadMaster'ı kaldırmanız ve Entware tarafından sağlanan alternatiflere bakmanız gerekir.
 
-After uninstalling, make sure that `asusware.arm` or `asusware.*` dir on the mounted disk partition is deleted. Otherwise, Entware won’t work properly. DownloadMaster'ı kaldırdıktan sonra yönlendiricinin yeniden başlatıldığından emin olun.
+Kaldırdıktan sonra, bağlı disk bölümündeki `asusware.arm` veya `asusware.*` dizininin silindiğinden emin olun. Aksi takdirde, Entware düzgün çalışmaz. DownloadMaster'ı kaldırdıktan sonra yönlendiricinin yeniden başlatıldığından emin olun.
 
-You will need to plug a USB disk that’s formatted in a native Linux file system (ext2, ext3 or ext4). Bir diski biçimlendirmek için amtm kullanın. Plug a USB disk into your router, then start amtm with:
+Yerel Linux dosya sisteminde (ext2, ext3 veya ext4) biçimlendirilmiş bir USB diski takmanız gerekir. Bir diski biçimlendirmek için amtm kullanın. Plug a USB disk into your router, then start amtm with:
 
 ```bash
 amtm
@@ -150,7 +150,7 @@ wget -O - http://bin.entware.net/armv7sf-k3.2/installer/generic.sh | sh
 
 `e` tuşuna basarak amtm'den çıkın.
 
-## 5. Install AdGuard VPN CLI
+## 5. AdGuard VPN CLI'yi yükleme
 
 Paket listelerini güncelleyin:
 
@@ -184,13 +184,13 @@ export HOME=/opt/home/admin
 modprobe tun
 ```
 
-## 6. Set up AdGuard VPN CLI
+## 6. AdGuard VPN CLI'yi yükleme
 
 1. Hesabınıza giriş yapın
 
     Linux için AdGuard VPN'i kullanmak için bir AdGuard hesabına ihtiyacınız vardır.
 
-    You can sign up on our [website](https://auth.adguard.com/login.html) or in the Terminal.
+    [Sitemizden](https://auth.adguardaccount.com/login.html) veya Terminal'den kaydolabilirsiniz.
 
     Kaydolmak veya giriş yapmak için şunu yazın:
 
@@ -224,7 +224,7 @@ modprobe tun
     adguardvpn-cli connect
     ```
 
-    AdGuard VPN will choose the fastest location available and remember it for future quick connections.
+    AdGuard VPN, mevcut en hızlı konumu seçer ve gelecekteki hızlı bağlantılar için bunu hatırlar.
 
     "TUN modunda varsayılan yönlendirmeleri ayarlamak ister misiniz?" diye sorulduğunda `evet` girin
 
@@ -242,7 +242,7 @@ modprobe tun
 
 <!-- comment -->
 
-## 7. Set up your firewall rules and auto-launch for AdGuard VPN
+## 7. Güvenlik duvarı kurallarını ayarlama ve AdGuard VPN için otomatik başlatma
 
 Bu adım, trafiği AdGuard VPN üzerinden yönlendirmek için Asuswrt-Merlin yönlendiricideki güvenlik duvarı kurallarını yapılandırır.
 

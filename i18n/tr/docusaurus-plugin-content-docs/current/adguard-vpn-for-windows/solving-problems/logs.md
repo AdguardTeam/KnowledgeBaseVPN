@@ -45,7 +45,7 @@ Bazen destek ekibimiz sizden izleme günlüklerini göndermenizi isteyebilir. Bu
 
 1. Kaydedilen günlükleri dışa aktarın: **Destek** → **Günlükleri ve sistem bilgisini dışa aktar**.
 
-Don’t worry if your log file is large. Sorununuzu çözebilmek için mümkün olduğunca çok ayrıntı bilmemiz gerekiyor.
+Günlük dosyanız büyükse endişelenmeyin. Sorununuzu çözebilmek için mümkün olduğunca çok ayrıntı bilmemiz gerekiyor.
 
 ## Günlükleri gönderme
 
@@ -55,7 +55,7 @@ Günlükleri destek ekibimize göndermek için lütfen sonraki adımları izleyi
 
     ![Hata bildir *border](https://cdn.adguard-vpn.com/content/kb/vpn/windows/logs/support_report.jpeg)
 
-1. Açılan forma e-posta adresinizi girin ve bulduğunuz hatayı, meydana geldiği zaman da dahil olmak üzere açıklayın. If you can’t reproduce the problem, be as specific as possible about when it last occurred.
+1. Açılan forma e-posta adresinizi girin ve bulduğunuz hatayı, meydana geldiği zaman da dahil olmak üzere açıklayın. Sorunu yeniden oluşturamıyorsanız, en son ne zaman oluştuğuna dair olabildiğince açık olun.
 
     ![Report *border](https://cdn.adguard-vpn.com/content/kb/vpn/windows/logs/report_bug.png)
 

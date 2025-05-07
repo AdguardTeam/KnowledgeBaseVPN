@@ -93,7 +93,7 @@ sidebar_position: 1
 
 ### Расширенные
 
-![Расширенные *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/advanced.png)
+![Расширенные *mobile_border](https://cdn.adtidy.org/blog/new/mbc4icryptoon.png)
 
 Раздел *Расширенные* представляет собой набор настроек, которые используются не так часто.
 
@@ -105,22 +105,24 @@ sidebar_position: 1
 
 :::
 
-*Уровень логирования* Указывает, сколько событий приложения записывается. Мы не рекомендуем включать *Расширенный* или *Экстремальный* уровни логирования, если этого не требует наша команда поддержки.
+*Post-quantum cryptography* refers to cryptographic algorithms designed to secure data against potential threats posed by quantum computers, which could eventually break current encryption methods. This feature ensures that data remains securely encrypted, even in the face of advancements in quantum computing that might otherwise compromise traditional encryption techniques.
 
-В этом разделе вы также можете экспортировать логи и системную информацию, чтобы поделиться ими с командой поддержки.
+*Logging level* specifies how many app events are recorded. We don’t recommend enabling the *Extended* or *Extreme* logging levels unless requested by our support team.
 
-*Диагностические данные* отображают локально сохранённую техническую информацию о приложении, устройстве и соединениях. При необходимости вы можете скопировать их и отправить нашей команде поддержки.
+In this section, you can also export logs and system info to share them with support.
 
-Последний раздел *Расширенных настроек* — это *Низкоуровневые настройки*. Мы настоятельно рекомендуем не заходить в этот раздел, если вы не обладаете достаточными техническими знаниями или вас не попросила об этом наша служба поддержки. Здесь можно включить «Запись сетевых пакетов» или протокол IPv6 на VPN-интерфейсе, выбрать порт, на котором будет работать прокси-сервер, или версию HTTP-протокола, которую следует использовать.
+*Diagnostic data* displays the locally stored technical information about the app, device, and connections. You can copy and send it to our support team if necessary.
+
+The last section of *Advanced settings* is *Low-level settings*. We urge you not to enter this section unless you are highly qualified or have been asked to do so by our support team. Here it is possible to enable TUN interface logging or IPv6 protocol on the VPN interface, choose a proxy server port or Internet protocol version that should be used.
 
 :::caution
 
-В параметре **Предпочитаемая версия IP**, прежде чем выбирать между IPv6 и IPv4, убедитесь, что ваша сеть поддерживает этот протокол. Например, если вы выберете IPv6, а ваша сеть поддерживает только IPv4, у вас возникнут проблемы с подключением к интернету. И наоборот.
+In the **Preferred IP version** option, before you choose between IPv6 and IPv4, make sure that your network supports that protocol. For example, if you select IPv6 and your network only supports IPv4, you will have problems connecting to the Internet. And vice versa.
 
 :::
 
 ### Поддержка
 
-В разделе *Поддержка* вы можете ознакомиться с часто задаваемыми вопросами, чтобы получить быстрые ответы на свои вопросы, сообщить об ошибках и предложить новые функции.
+In the *Support* section, you can check out our FAQ to get quick answers to your questions, report bugs, and suggest new features.
 
-![Поддержка *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/support.jpg)
+![Support *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/support.jpg)

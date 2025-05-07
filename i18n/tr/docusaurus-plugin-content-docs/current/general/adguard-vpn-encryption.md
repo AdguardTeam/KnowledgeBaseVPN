@@ -5,7 +5,7 @@ sidebar_position: 7
 
 ## Giriş
 
-Encryption is the reason the word “private” exists in the term “Virtual Private Network”. VPN, cihazınız ile VPN sunucusu arasında bir tünel oluşturur ve verilerinizi şifreleyerek güvenli bir şekilde açık internete aktarır. Şifreleme süreci, yani verileri, araya giren hiç kimsenin okuyamayacağı anlamsız kelimelere dönüştürmek, herhangi bir VPN hizmeti için çok önemlidir.
+"Sanal Özel Ağ" teriminde "özel" kelimesinin bulunmasının nedeni şifrelemedir. VPN, cihazınız ile VPN sunucusu arasında bir tünel oluşturur ve verilerinizi şifreleyerek güvenli bir şekilde açık internete aktarır. Şifreleme süreci, yani verileri, araya giren hiç kimsenin okuyamayacağı anlamsız kelimelere dönüştürmek, herhangi bir VPN hizmeti için çok önemlidir.
 
 AdGuard VPN protokolü, bugüne kadarki en güvenli ve hızlı şifreleme algoritmasını kullanır — AES-256. Ne olduğunu ve neden bu kadar iyi olduğunu öğrenin.
 

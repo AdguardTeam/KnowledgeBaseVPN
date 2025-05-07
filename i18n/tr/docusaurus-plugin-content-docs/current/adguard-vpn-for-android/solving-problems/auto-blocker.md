@@ -1,23 +1,23 @@
 ---
-title: How to disable the Samsung Auto Blocker feature
+title: Samsung Otomatik Engelleyici özelliği nasıl devre dışı bırakılır
 sidebar_position: 7
 ---
 
-Starting with One UI 6.1.1 (Android 14), Samsung introduced a security enhancement called _Auto Blocker_, which is enabled by default on the latest Galaxy smartphones. This feature automatically blocks sideloaded apps from unverified sources unless the user manually overrides the setting.
+Samsung, One UI 6.1.1 (Android 14) sürümüyle birlikte en son Galaxy akıllı telefonlarda varsayılan olarak etkin olan _Otomatik Engelleyici_ adı verilen bir güvenlik geliştirmesi sundu. Bu özellik, kullanıcı ayarı elle geçersiz kılmadığı sürece doğrulanmamış kaynaklardan yandan yüklenen uygulamaları otomatik olarak engeller.
 
-You can download AdGuard VPN for Android from Google Play or install it on your device manually. However, with the new _Auto Blocker_ feature enabled, some users may experience problems when installing AdGuard VPN APK files. To address this issue, we’ve provided a step-by-step guide on how to disable _Auto Blocker_ below.
+Android için AdGuard VPN'i Google Play'den indirebilir veya cihazınıza elle yükleyebilirsiniz. Ancak yeni _Otomatik Engelleyici_ özelliği etkinleştirildiğinde, bazı kullanıcılar AdGuard VPN APK dosyalarını yüklerken sorun yaşayabilir. Bu sorunu çözmek için, aşağıda _Otomatik Engelleyici'nin_ nasıl devre dışı bırakılacağına dair adım adım bir kılavuz sağladık.
 
-## How to disable Auto Blocker
+## Otomatik Engelleyici nasıl devre dışı bırakılır
 
-Follow the instructions to turn off _Auto Blocker_.
+_Otomatik Engelleyici'yi_ kapatmak için talimatları izleyin.
 
-1. Open your device settings
-2. Go to _Security and privacy_
-3. Scroll down and select _Auto Blocker_
-4. Toggle the setting off
+1. Cihaz ayarlarınızı açın
+2. _Güvenlik ve gizlilik_ öğesine gidin
+3. Aşağı kaydırın ve _Otomatik Engelleyici_ öğesini seçin
+4. Ayarı kapatın
 
 ![Disable Auto Blocker \*mobile_border](https://cdn.adguard-vpn.com/content/kb/ad_blocker/android/solving_problems/auto-blocker/auto_blocker_en.png)
 
-Once _Auto Blocker_ is disabled, you can proceed with installing AdGuard VPN.
+_Otomatik Engelleyici_ devre dışı bırakıldıktan sonra AdGuard VPN'i yüklemeye devam edebilirsiniz.
 
-![Tap Install \*mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/install_en.png)
+![Yükle öğesine dokun \*mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/install_en.png)

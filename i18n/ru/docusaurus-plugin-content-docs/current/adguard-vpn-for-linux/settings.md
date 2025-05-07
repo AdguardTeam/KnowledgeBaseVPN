@@ -168,7 +168,7 @@ adguardvpn-cli config set-debug-logging on
 
     :::note
 
-    To add many exclusions, you need to list them separated by spaces.
+    Чтобы добавить много исключений, перечислите их через пробелы.
 
     :::
 

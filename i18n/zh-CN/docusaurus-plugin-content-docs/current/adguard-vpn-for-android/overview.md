@@ -93,7 +93,7 @@ In *General*, you can manage basic AdGuard VPN settings:
 
 ### Advanced
 
-![Advanced *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/advanced.png)
+![Advanced *mobile_border](https://cdn.adtidy.org/blog/new/mbc4icryptoon.png)
 
 The *Advanced* section is a set of settings that are not as commonly used.
 
@@ -105,13 +105,15 @@ Some AdGuard VPN features are disabled in *Integrated mode*: DNS servers, Kill S
 
 :::
 
+*Post-quantum cryptography* refers to cryptographic algorithms designed to secure data against potential threats posed by quantum computers, which could eventually break current encryption methods. This feature ensures that data remains securely encrypted, even in the face of advancements in quantum computing that might otherwise compromise traditional encryption techniques.
+
 *Logging level* specifies how many app events are recorded. We don’t recommend enabling the *Extended* or *Extreme* logging levels unless requested by our support team.
 
 In this section, you can also export logs and system info to share them with support.
 
 *Diagnostic data* displays the locally stored technical information about the app, device, and connections. You can copy and send it to our support team if necessary.
 
-*高级设置*的最后一个选项是*低级设置*。 我们建议用户不进入这一部分，除非您了解技术方面或被我们的支持团队要求设置它们。 这里可以在 VPN 接口上启用 TUN 接口记录或 IPv6 协议，选择一个代理服务器端口或应该使用的互联网协议版本。
+The last section of *Advanced settings* is *Low-level settings*. We urge you not to enter this section unless you are highly qualified or have been asked to do so by our support team. Here it is possible to enable TUN interface logging or IPv6 protocol on the VPN interface, choose a proxy server port or Internet protocol version that should be used.
 
 :::caution
 

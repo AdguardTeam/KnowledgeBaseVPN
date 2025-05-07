@@ -60,13 +60,13 @@ This is the default VPN mode with maximum VPN protection. If you want to exclude
 
 :::caution
 
-If you add a browser app to the app exclusion list, AdGuard VPN won’t be active for all websites opened in that browser.
+If you add a browser app to the app exclusion list, AdGuard VPN won’t be active for any websites opened in that browser.
 
 :::
 
 ### Setup 2
 
-AdGuard VPN is active only for the apps from the the app exclusion list and for all websites except those from the website exclusion list.
+AdGuard VPN is active only for the apps from the app exclusion list and for all websites except those from the website exclusion list.
 
 VPN mode:
 
@@ -94,7 +94,7 @@ If you don’t add a browser app to the app exclusion list, AdGuard VPN will be 
 
 ### Setup 3
 
-AdGuard VPN is active for all apps except those from the the app exclusion list, and only for the websites from the website exclusion list.
+AdGuard VPN is active for all apps except those from the app exclusion list, and only for the websites from the website exclusion list.
 
 VPN mode:
 

@@ -3,7 +3,7 @@ title: AdGuard VPN neden daha iyi bir seçenek
 sidebar_position: 2
 ---
 
-Kullanıcılar, [uzun vadeli bir VPN aboneliği](/general/subscription) almaya hazırlanırken en sık olarak hızını, güvenliğini ve fiyatını değerlendirir. Bunlar çok önemli noktalar ama çok daha fazlası var! AdGuard VPN has a dozen of key assets that make it ’the better option’.
+Kullanıcılar, [uzun vadeli bir VPN aboneliği](/general/subscription) almaya hazırlanırken en sık olarak hızını, güvenliğini ve fiyatını değerlendirir. Bunlar çok önemli noktalar ama çok daha fazlası var! AdGuard VPN, onu 'daha iyi seçenek' yapan bir onlarca önemli varlığa sahiptir.
 
 *Başlangıç olarak, AdGuard VPN'in başka hiçbir VPN'de bulamayacağınız eşsiz özelliklerini gözden geçirelim.*
 
@@ -15,11 +15,11 @@ Bir VPN hizmeti seçerken, insanlar genellikle hızlı ve güvenli arasında bir
 
 ## 2. Site ve uygulama istisnaları
 
-There are situations where you don’t need your VPN to be active: for instance, when you’re ordering food or using maps. Bu nedenle AdGuard VPN özel bir özelliğe sahiptir: İstisnalar.
+VPN'nizin aktif olmasına ihtiyaç duymadığınız durumlar vardır: örneğin yemek sipariş ederken veya haritaları kullanırken. Bu nedenle AdGuard VPN özel bir özelliğe sahiptir: İstisnalar.
 
 ![İstisnalar](https://cdn.adguard.com/content/blog/articles/adguard-vpn/exclusions-en.png)
 
-AdGuard VPN'i **seçici olarak** etkinleştirebilirsiniz — yalnızca belirli siteler veya uygulamalar için. This option is for those who use a VPN service only in specific situations: to enter a blocked website, use an app or watch a TV show that’s not available in their country, or not to expose their data when visiting some websites. VPN'i seçici olarak açmak aynı zamanda VPN verisinden tasarruf etmenize de yardımcı olur.
+AdGuard VPN'i **seçici olarak** etkinleştirebilirsiniz — yalnızca belirli siteler veya uygulamalar için. Bu seçenek, VPN hizmetini yalnızca belirli durumlarda kullananlar içindir: engellenen bir siteye girmek, ülkelerinde bulunmayan bir uygulamayı kullanmak veya bir TV programlarını izlemek veya bazı siteleri ziyaret ederken verilerini ifşa etmemek. VPN'i seçici olarak açmak aynı zamanda VPN verisinden tasarruf etmenize de yardımcı olur.
 
 Çoğu durumda mutlak anonimliği tercih ediyorsanız, AdGuard VPN'i **hariç tutulan siteler veya uygulamalar** dışında her yerde etkinleştirebilirsiniz. Sadece yemek siparişi uygulamalarınızı ve kamu hizmeti ödeme sitelerinizi İstisnalara ekleyin — onlar için VPN kapalı olacaktır.
 
@@ -63,7 +63,7 @@ QUIC protokolü oldukça yenidir ve kararsız olabilir. Her durumda tam güvenil
 
 :::
 
-*Now let’s switch to the item set that any decent VPN can’t do without.*
+*Şimdi herhangi bir düzgün VPN'nin onsuz yapamayacağı öğe setine geçelim.*
 
 ## 7. Kill Switch
 
@@ -73,7 +73,7 @@ Herhangi bir nedenle VPN bağlantınız kesilirse Kill Switch otomatik olarak in
 
 ## 8. Otomatik koruma
 
-Bu özellik, özellikle güvenli olmayan ağlar için geliştirilmiştir. If you enable Auto-protection, you won’t ever forget to enable VPN when visiting public places. Bir kafeye girer ve yerel bir Wi-Fi ağına bağlanırsanız, otomatik olarak AdGuard VPN'e bağlanacaksınız.
+Bu özellik, özellikle güvenli olmayan ağlar için geliştirilmiştir. Otomatik korumayı etkinleştirirseniz halka açık yerleri ziyaret ederken VPN'i etkinleştirmeyi asla unutmazsınız. Bir kafeye girer ve yerel bir Wi-Fi ağına bağlanırsanız, otomatik olarak AdGuard VPN'e bağlanacaksınız.
 
 :::note Uyumluluk
 
@@ -85,17 +85,17 @@ Otomatik koruma, iOS ve Android için AdGuard VPN'de mevcuttur.
 
 Bir AdGuard VPN aboneliği ile *aynı anda* on cihaza kadar bağlanabilirsiniz.
 
-Bazı VPN sağlayıcıları, hizmetlerinde *en fazla on cihazda* giriş yapılmasına izin verir. With AdGuard VPN, *it doesn’t matter* on how many devices you log in to your AdGuard account, but you can have ten VPN connections enabled at the same time.
+Bazı VPN sağlayıcıları, hizmetlerinde *en fazla on cihazda* giriş yapılmasına izin verir. AdGuard VPN ile, AdGuard hesabınıza kaç cihazda giriş yaptığınızın *önemi yoktur* ancak aynı anda on VPN bağlantısını etkinleştirebilirsiniz.
 
 Aboneliği olmayanlar AdGuard VPN'i *aynı anda iki cihazda* kullanabilir, bu da bize rakiplere karşı oynamak için başka bir koz verir: çoğu ücretsiz VPN hizmeti aynı anda yalnızca bir cihazı kullanmanıza izin verir.
 
 ## 10. Güvenli canlı yayın akışı
 
-Streaming services don’t like VPNs for obvious reasons: according to statistics, about 20% of users install a VPN mainly to watch shows, TV shows and movies bypassing geo-blocking. That’s why streaming platforms tend to do everything they can to track VPN traffic and block it.
+Canlı yayın akışı hizmetleri, bariz nedenlerle VPN'leri sevmiyor: istatistiklere göre, kullanıcıların yaklaşık %20'si, coğrafi engellemeyi atlayarak esas olarak programları, TV programları ve filmleri izlemek için bir VPN yüklüyor. Bu nedenle canlı yayın akışı platformları, VPN trafiğini izlemek ve engellemek için ellerinden gelen her şeyi yapma eğilimindedir.
 
-Peki ya bölgenize özel içerikler izlerken kendinizi güvende hissetmek istiyorsanız? Or don’t want to stop watching exciting series even when you travel to another country? Cevap basit — AdGuard VPN, benzersiz protokolü sayesinde hizmetler için görünmez kalabilir.
+Peki ya bölgenize özel içerikler izlerken kendinizi güvende hissetmek istiyorsanız? Ya da başka bir ülkeye seyahat ederken bile heyecan verici dizileri izlemeyi bırakmak istemiyor musunuz? Cevap basit — AdGuard VPN, benzersiz protokolü sayesinde hizmetler için görünmez kalabilir.
 
-We don’t endorse the use of AdGuard VPN to bypass copyright regulations.
+Telif hakkı düzenlemelerini atlamak için AdGuard VPN kullanımını onaylamıyoruz.
 
 ## 11. Karanlık mod
 

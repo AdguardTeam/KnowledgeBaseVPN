@@ -141,7 +141,7 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
 
 1. Войдите в аккаунт
 
-    Чтобы использовать AdGuard VPN для Linux, вам понадобится аккаунт AdGuard. Вы можете зарегистрироваться или войти [на нашем сайте](https://auth.adguard.com/login.html) или в Терминале.
+    Чтобы использовать AdGuard VPN для Linux, вам понадобится аккаунт AdGuard. You can sign up or log in on our [website](https://auth.adguardaccount.com/login.html) or in Terminal.
 
     Перед этим зайдите в Терминал и убедитесь, что вы находитесь в нужном интерфейсе оболочки. Если вы видите следующий текст:
 
@@ -292,3 +292,9 @@ chmod +x /opt/etc/ndm/wan.d/001-adguardvpn.sh
 Перезагрузите роутер, чтобы завершить настройку.
 
 Готово! Теперь у вас есть роутер, защищённый с помощью AdGuard VPN.
+
+If you want to disable the autolaunch of AdGuard VPN, you need to to delete the script that activates it. To do so, run the following command:
+
+```bash
+rm /opt/etc/ndm/wan.d/001-adguardvpn.sh
+```
