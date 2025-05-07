@@ -5,7 +5,7 @@ sidebar_position: 1
 
 AdGuard VPN for Macは、デスクトップVPNサービスです。 AdGuard VPNはAdGuard広告ブロッカーと完全な互換性があり、併用することが可能で、シームレスに動作します。 さて、どんな機能があるのかを見てみましょう。
 
-Note that **you can’t use AdGuard VPN for Mac unless you have logged into your AdGuard account**. AdGuardアカウントでログインするか、外部アカウント（Apple、Google、Facebook経由）でログインすることができます （外部アカウントの場合、AdGuardアカウントと同じメールアドレスのアカウントを使用してください）。 AdGuardアカウントに適切なサブスクリプションがある場合、AdGuard VPN for Macアプリでログインの際にそのサブスクリプションが自動的に有効化されます。 Still don’t have an AdGuard account? [こちら](https://auth.adguard.com/registration.html)からご登録いただけます（アカウント登録に必要なのははメールアドレスのみです）。
+Note that **you can’t use AdGuard VPN for Mac unless you have logged into your AdGuard account**. AdGuardアカウントでログインするか、外部アカウント（Apple、Google、Facebook経由）でログインすることができます （外部アカウントの場合、AdGuardアカウントと同じメールアドレスのアカウントを使用してください）。 AdGuardアカウントに適切なサブスクリプションがある場合、AdGuard VPN for Macアプリでログインの際にそのサブスクリプションが自動的に有効化されます。 Still don’t have an AdGuard account? Create it [here](https://auth.adguardaccount.com/registration.html).
 
 :::note Compatibility
 

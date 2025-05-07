@@ -7,7 +7,7 @@ Die AdGuard VPN-Browsererweiterung ist für Chrome, Firefox, Opera und Edge verf
 
 :::note
 
-Sie können AdGuard VPN Browsererweiterung nur verwenden, wenn Sie angemeldet sind. Melden Sie sich mit Ihrem AdGuard-Konto oder über Google, Facebook oder Apple an. Im letzteren Fall stellen Sie sicher, dass Ihr Konto an dieselbe E-Mail-Adresse gebunden ist wie Ihr AdGuard-Konto. Wenn Sie ein [AdGuard VPN-Abonnement](/general/subscription) haben, wird es automatisch in der AdGuard VPN-Browsererweiterung aktiviert. Sie haben noch kein AdGuard-Konto? [Hier können Sie eines erstellen](https://auth.adguard.com/registration.html).
+Sie können AdGuard VPN Browsererweiterung nur verwenden, wenn Sie angemeldet sind. Melden Sie sich mit Ihrem AdGuard-Konto oder über Google, Facebook oder Apple an. Im letzteren Fall stellen Sie sicher, dass Ihr Konto an dieselbe E-Mail-Adresse gebunden ist wie Ihr AdGuard-Konto. Wenn Sie ein [AdGuard VPN-Abonnement](/general/subscription) haben, wird es automatisch in der AdGuard VPN-Browsererweiterung aktiviert. Sie haben noch kein AdGuard-Konto? [Create it here](https://auth.adguardaccount.com/registration.html).
 
 :::
 

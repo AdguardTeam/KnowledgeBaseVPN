@@ -5,7 +5,7 @@ sidebar_position: 1
 
 Mac için AdGuard VPN, bir masaüstü VPN hizmetidir. AdGuard VPN, AdGuard Reklam Engelleyici ile tamamen uyumludur, birlikte kullanılabilirler ve sorunsuz çalışırlar. Hangi özellikleri sunabileceğine bakalım.
 
-Note that **you can’t use AdGuard VPN for Mac unless you have logged into your AdGuard account**. AdGuard hesabınızla veya harici bir hesapla, yani Apple, Google veya Facebook aracılığıyla giriş yapabilirsiniz. Harici hesabınızın AdGuard hesabınızla aynı e-posta adresine bağlı olduğundan emin olun. AdGuard hesabınızda uygun bir abonelik varsa, masaüstü uygulamasında otomatik olarak etkinleştirilecektir. Still don’t have an AdGuard account? [Buradan](https://auth.adguard.com/registration.html) oluşturun.
+**AdGuard hesabınıza giriş yapmadıkça Mac için AdGuard VPN'i kullanamayacağınızı** unutmayın. AdGuard hesabınızla veya harici bir hesapla, yani Apple, Google veya Facebook aracılığıyla giriş yapabilirsiniz. Harici hesabınızın AdGuard hesabınızla aynı e-posta adresine bağlı olduğundan emin olun. AdGuard hesabınızda uygun bir abonelik varsa, masaüstü uygulamasında otomatik olarak etkinleştirilecektir. Henüz bir AdGuard hesabınız yok mu? [Buradan](https://auth.adguardaccount.com/registration.html) oluşturun.
 
 :::note Uyumluluk
 
@@ -27,96 +27,96 @@ En düşük pinge sahip en hızlı konumlar ekranın sağ üst köşesinde gör�
 
 :::
 
-### Saved locations
+### Kaydedilen konumlar
 
-On the same tab, you can save your favorite locations to access them quickly.
+Aynı sekmede, hızlı bir şekilde erişmek için favori konumlarınızı kaydedebilirsiniz.
 
-Just hover over a location, click the bookmark icon that appears, and it will be saved. Your marked locations will then show up in the *Saved* tab.
+Sadece bir konumun üzerine gelin, görünen yer işareti simgesine tıklayın ve kaydedilecektir. İşaretlediğiniz konumlar daha sonra *Kaydedilenler* sekmesinde görünür.
 
-![Saved locations](https://cdn.adguard-vpn.com/content/release_notes/vpn/mac/v2.5/Saved_locs_EN_2.png)
+![Kaydedilen konumlar](https://cdn.adguard-vpn.com/content/release_notes/vpn/mac/v2.5/Saved_locs_EN_2.png)
 
 ## İstisnalar
 
-![Exclusions](https://cdn.adguardvpn.com/content/kb/vpn/mac/exclusions_new_en.png)
+![İstisnalar](https://cdn.adguardvpn.com/content/kb/vpn/mac/exclusions_new_en.png)
 
 AdGuard VPN has several features that make it unique, and one of them is definitely *Exclusions*. By default, AdGuard VPN will run on all websites and in all apps but the ones from the exclusions list. But you can switch to the other mode, so AdGuard VPN will run only on websites and in apps from the exclusions list.
 
-![Exclusions screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/services_new_en.png)
+![İstisnalar ekranı](https://cdn.adguardvpn.com/content/kb/vpn/mac/services_new_en.png)
 
-Also you can not only add websites to Exclusions but also choose among the lists of popular services. The lists are divided into eight categories: Social networks, Messengers, Video and Music streaming services, Games, Shopping, Search engines, and Work communication tools. Any of these services can be added to Exclusions in one click! It’s especially convenient if you use Selective mode.
+Also you can not only add websites to Exclusions but also choose among the lists of popular services. The lists are divided into eight categories: Social networks, Messengers, Video and Music streaming services, Games, Shopping, Search engines, and Work communication tools. Any of these services can be added to Exclusions in one click! Seçici modu kullanıyorsanız özellikle kullanışlıdır.
 
-Exclusion list can be easily configured. If you’ve added a domain and some of its subdomains, they’ll be grouped inside the root one. When adding a root domain (`example.com`) its mask is added too (`*.example.com`).
+İstisna listesi kolayca yapılandırılabilir. Bir alan adı ve alt alan adlarından bazılarını eklediyseniz, bunlar kök alan içinde gruplandırılır. When adding a root domain (`example.com`) its mask is added too (`*.example.com`).
 
-:::info Browsers added to Exclusions
+:::info İstisnalara eklenen tarayıcılar
 
-Starting with the version 2.4, all browsers are automatically added to the list of exclusions when the VPN is active only for selected apps and websites. This change brings more convenience for users who were often confused and didn’t know whether to consider their browsers as apps or not. It applies under the following conditions:
+Sürüm 2.4'ten başlayarak, VPN yalnızca seçilen uygulamalar ve siteler için etkin olduğunda tüm tarayıcılar otomatik olarak istisnalar listesine eklenir. Bu değişiklik, genellikle kafası karışan ve tarayıcılarını uygulama olarak kabul edip etmeyeceklerini bilmeyen kullanıcılar için daha fazla kolaylık sağlıyor. Aşağıdaki koşullar altında uygulanır:
 
 - Kullanıcı AdGuard VPN'i ilk kez yüklediyse
 - Kullanıcı sürüm 2.4'ten önce İstisnalar ayarlarını değiştirmediyse
 
 :::
 
-If you’ve added a service, changed or removed something and now want to recover initial settings, just press *Reset to default* next to the domain — this action will restore any missing domains and tick all checkboxes.
+Bir hizmet eklediyseniz, bir şeyi değiştirdiyseniz veya kaldırdıysanız ve şimdi başlangıç ayarlarını kurtarmak istiyorsanız, alan adının yanındaki *Varsayılana sıfırla* öğesine basmanız yeterli — bu eylem, eksik alan adlarını geri yükler ve tüm onay kutularını işaretler.
 
-What’s more, ready-made exclusions lists can be transferred to other devices with installed AdGuard VPN. To export exclusions, follow the four-step instruction below:
+Ayrıca, hazır istisna listeleri, AdGuard VPN'in kurulu olduğu diğer cihazlara aktarılabilir. To export exclusions, follow the four-step instruction below:
 
 1. İstisnalar listenizi dışa aktarmak istediğiniz cihazda AdGuard VPN'i açın. Uygun bölümü bulun ve *Dışa aktar* düğmesine tıklayın. `exclusions.zip` arşivi indirilecektir.
 2. Arşivde, her biri Genel ve Seçici listeler için iki `.txt` dosyası vardır. Bunlara daha fazla istisna ekleyin, mevcut olanları silin, dosyaları yeniden adlandırın (ancak daha sonra bu konuda daha fazlası) veya arşivi olduğu gibi bırakın.
-3. When transferring between different devices, don’t forget to send the `.zip` file to the device for import. Örneğin, istisna listeleri Mac'inizden iPhone'unuza aktarırsanız, `.zip` dosyasını önceden telefonunuza gönderdiğinizden emin olun.
+3. Farklı cihazlar arasında aktarım yaparken, `.zip` dosyasını içe aktarmak için cihaza göndermeyi unutmayın. Örneğin, istisna listeleri Mac'inizden iPhone'unuza aktarırsanız, `.zip` dosyasını önceden telefonunuza gönderdiğinizden emin olun.
 4. AdGuard VPN'i, hazır istisnaların listesiyle birlikte arşivi içe aktarmak istediğiniz cihazda veya tarayıcıda açın. Uygun bölümü bulun, *İçe aktar* düğmesine tıklayın ve arşivi seçin. Tamamlandı!
 
 :::note
 
-Archive files from other devices can be similarly imported to your AdGuard VPN for Mac.
+Diğer cihazlardan arşiv dosyaları benzer şekilde Mac için AdGuard VPN'inize aktarılabilir.
 
 :::
 
 ## İstatistikler
 
-![Statistics screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/statistics_en.png)
+![İstatistikler ekranı](https://cdn.adguardvpn.com/content/kb/vpn/mac/statistics_en.png)
 
-The Stats screen provides detailed information about traffic consumed by location and app, most used locations and apps. View data for the day, month, or the entire time AdGuard VPN for Mac has been in use.
+İstatistikler ekranı, konum ve uygulamaya göre tüketilen veri, en çok kullanılan konumlar ve uygulamalar hakkında ayrıntılı bilgi sağlar. View data for the day, month, or the entire time AdGuard VPN for Mac has been in use.
 
-Importantly, all data is stored locally on your device, so no one but you has access to it. The Statistics feature is available to users with an AdGuard VPN subscription.
+Daha da önemlisi, tüm veriler cihazınızda yerel olarak saklanır, bu nedenle sizden başka hiç kimse bunlara erişemez. İstatistikler özelliği, AdGuard VPN aboneliği olan kullanıcılar tarafından kullanılabilir.
 
 ## Destek
 
-![Support screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/support_new_en.png)
+![Destek ekranı](https://cdn.adguardvpn.com/content/kb/vpn/mac/support_new_en.png)
 
-The fourth tab is the *Support* screen. Find answers to any questions in the [FAQ](https://adguard-vpn.com/welcome.html#faq) or in the [Knowledge base](/) sections, report a bug if you encounter one, or [discuss AdGuard on any of the platforms](https://adguard.com/discuss.html). And feel free to [leave feedback about our product](https://surveys.adguard.com/vpn_mac/form.html), we’d appreciate it.
+Dördüncü sekme *Destek* ekranıdır. [SSS'de](https://adguard-vpn.com/welcome.html#faq) veya [Bilgi tabanı](/) bölümlerinde tüm soruların yanıtlarını bulun, bir hatayla karşılaşırsanız hata bildirin veya [herhangi bir platformda AdGuard'ı tartışın](https://adguard.com/discuss.html). Ve [ürünümüz hakkında geri bildirim bırakmaktan](https://surveys.adguard.com/vpn_mac/form.html) çekinmeyin, bunu takdir ediyoruz.
 
 ## Ayarlar
 
-![Settings](https://cdn.adguardvpn.com/content/kb/vpn/mac/settings_new_en.png)
+![Ayarlar](https://cdn.adguardvpn.com/content/kb/vpn/mac/settings_new_en.png)
 
-Finally, we come to the Settings tab. In the *About program* section you can see the current version of AdGuard VPN, check for updates, visit our official website, and get acquainted with AdGuard’s EULA and Privacy policy. In the *About license* section you can upgrade from free to unlimited, manage your subscription, or log out. And most importantly, from here you can access *General settings*.
+Son olarak Ayarlar sekmesine geliyoruz. *Program hakkında* bölümünde, AdGuard VPN'nin güncel sürümünü görebilir, güncellemeleri denetleyebilir, resmi sitemizi ziyaret edebilir ve AdGuard'ın SKLS ve Gizlilik politikası hakkında bilgi sahibi olabilirsiniz. *Lisans hakkında* bölümünde ücretsizden sınırsıza yükseltebilir, aboneliğinizi yönetebilir veya çıkış yapabilirsiniz. Ve en önemlisi, buradan *Genel ayarlara* erişebilirsiniz.
 
-### App settings
+### Uygulama ayarları
 
-![App settings](https://cdn.adguardvpn.com/content/kb/vpn/mac/general-settings_new_en.png)
+![Uygulama ayarları](https://cdn.adguardvpn.com/content/kb/vpn/mac/general-settings_new_en.png)
 
-The first four basic features make the application more convenient and user-friendly, i.e. *Kill Switch*, *Auto-update*, *Launch AdGuard VPN at login*, and *Auto-connect on app launch*. What’s more, you can choose between light, dark, and system themes — the latter one matches the theme on your Mac.
+İlk dört temel özellik, uygulamayı daha kullanışlı ve kullanıcı dostu hâle getirir, örneğin *Kill Switch*, *Otomatik güncelle*, *Oturum açılışında AdGuard VPN'i başlat* ve *Uygulama başlatıldığında otomatik bağlan*. Ayrıca, açık, koyu ve sistem varsayılanı temaları arasında seçim yapabilirsiniz — sonuncu olan, Mac'inizdeki temayla eşleşir.
 
-You can also allow AdGuard VPN to gather and send anonymized crash reports, technical and interaction data in order to help us improve our app. Last but not least, you can export logs from your Mac. This can be useful if you want to attach logs to your message to support.
+Ayrıca, uygulamamızı geliştirmemize yardımcı olmak için AdGuard VPN'in anonimleştirilmiş çökme raporlarını, teknik ve etkileşim verilerini toplamasına ve göndermesine izin verebilirsiniz. Son olarak, Mac'inizden günlükleri dışa aktarabilirsiniz. Destek için mesajınıza günlük eklemek istiyorsanız bu yararlı olabilir.
 
-### DNS servers
+### DNS sunucuları
 
-![DNS servers](https://cdn.adguardvpn.com/content/kb/vpn/mac/dns_new_en.png)
+![DNS sunucuları](https://cdn.adguardvpn.com/content/kb/vpn/mac/dns_new_en.png)
 
-One or more DNS servers can be set up here. This is useful if you don’t want to rely on the default DNS server provided by your ISP. Select one from the list of popular DNS services or add a custom server manually. We recommend adding AdGuard DNS, which not only encrypts your DNS traffic, but also identifies requests to malicious websites and redirects them to a “black hole”.
+Burada bir veya daha fazla DNS sunucusu kurulabilir. Bu, İSS'niz tarafından sağlanan varsayılan DNS sunucusuna güvenmek istemiyorsanız kullanışlıdır. Popüler DNS hizmetleri listesinden birini seçin veya elle özel bir sunucu ekleyin. Yalnızca DNS trafiğinizi şifrelemekle kalmayıp aynı zamanda kötü amaçlı sitelere yönelik istekleri tespit eden ve bunları bir “kara deliğe” yönlendiren AdGuard DNS'i eklemenizi öneririz.
 
-### Advanced settings
+### Gelişmiş ayarlar
 
-![Advanced settings](https://cdn.adguardvpn.com/content/kb/vpn/mac/advanced-settings_new_en.png)
+![Gelişmiş ayarlar](https://cdn.adguardvpn.com/content/kb/vpn/mac/advanced-settings_new_en.png)
 
 #### Günlük kayıt düzeyi
 
-There are only two logging levels but we strongly recommend that you use the first, default one. The second option (extended logging) should be set only to record a strange program behavior after consulting our technical support. If you have enabled the extended logging level, make sure to switch to the default one after recording logs.
+Yalnızca iki günlük kayıt düzeyi vardır ancak ilki, varsayılan olanı kullanmanızı şiddetle öneririz. İkinci seçenek (genişletilmiş günlük kayıt), yalnızca teknik desteğimize danıştıktan sonra garip bir program davranışını kaydetmek için ayarlanmalıdır. Genişletilmiş günlük kayıt düzeyini etkinleştirdiyseniz, günlükleri kaydettikten sonra varsayılan düzeye geçtiğinizden emin olun.
 
 #### Menü çubuğu simgesini gizle
 
-Although this option is located in *Advanced settings*, it can be enabled without hesitation. You can hide the AdGuard VPN icon from the menu bar, it won’t prevent our app from running in the background.
+Bu seçenek *Gelişmiş ayarlar* öğesinde yer almasına rağmen tereddüt etmeden etkinleştirilebilir. AdGuard VPN simgesini menü çubuğundan gizleyebilirsiniz, bu uygulamamızın arka planda çalışmasına engel olmaz.
 
 #### QUIC'i kullan
 
-QUIC communication protocol is the latest, cutting-edge version of HTTP. Toggle the switch to get a better connection quality in less-than-ideal conditions, while using mobile data in the subway or elevator, for instance.
+QUIC iletişim protokolü, HTTP'nin en son, en gelişmiş sürümüdür. Örneğin metroda veya asansörde mobil veri kullanırken, ideal olmayan koşullarda daha iyi bir bağlantı kalitesi elde etmek için anahtarı değiştirin.

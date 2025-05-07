@@ -11,33 +11,33 @@ Bazı ülkelerde AdGuard VPN, App Store'da mevcut değildir. Durumunuz buysa uyg
 
 ### Mevcut hesabınızın bölgesini değiştirme
 
-1. Go to the Apple Account screen and tap _Media & Purchases_ → _View_.
+1. Apple Hesabı ekranına gidin ve _Ortamlar ve Satın Almalar_ → _Görüntüle_ öğesine dokunun.
 
 2. _Ülke/Bölge_ → _Ülke veya Bölgeyi Değiştir_ öğesine dokunun.
 
-    ![Changing region](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/changing_country.png)
+    ![Bölge değiştiriliyor](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/changing_country.png)
 
 3. Select your preferred country from the list (e.g., _Canada_ or _Mexico_) and agree to the Terms and Conditions.
 
-4. Gerekli alanları doldurun. For _Payment Method_, you can select _None_. For _Billing Address_, use any phone number and address with a valid ZIP code. For example:
+4. Gerekli alanları doldurun. _Ödeme Yöntemi_ için _Hiçbiri_ öğesini seçebilirsiniz. _Fatura Adresi_ için geçerli bir posta kodu olan herhangi bir telefon numarası ve adresi kullanın. Örneğin:
 
     Street: 90 Ave NW
 
-    City: Edmonton
+    Şehir: Edmonton
 
     Province/Territory: Alberta
 
-    Postal code: 15040
+    Posta kodu: 15040
 
-    Phone: 613 9572998
+    Telefon: 613 9572998
 
 5. _Sonraki_ öğesine dokunun.
 
-    ![New region \*border](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/canada_en.png)
+    ![Yeni bölge \*border](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/canada_en.png)
 
 Bölgeyi değiştirdikten sonra, [AdGuard VPN'i App Store'dan tekrar indirmeyi](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602) deneyin.
 
-### Creating a new Apple Account and linking it to the App Store
+### Yeni bir Apple Hesabı oluşturma ve hesabı App Store'a bağlama
 
 App Store'da ücretli abonelikleri olan ve yalnızca farklı bölgelerden ücretsiz uygulamalar indirmesi gereken kullanıcılar için başka bir ülkede yeni bir hesap oluşturmak daha uygun bir seçenektir. Bu şekilde, birincil hesabınızı telefonunuzda sistem düzeyinde kullanabilir ve iPhone hesabınızdan çıkış yapmanıza gerek kalmadan ikinci hesabı yalnızca App Store için etkinleştirebilirsiniz.
 
@@ -57,15 +57,15 @@ App Store'da ücretli abonelikleri olan ve yalnızca farklı bölgelerden ücret
 
 1. _Ayarlar_ öğesine gidin ve adınıza dokunun.
 
-2. _Ortamlar ve Satın Almalar_ → _Çıkış Yap_ öğesini seçin. This will only sign you out of the App Store while keeping you signed in with your Apple Account on your phone.
+2. _Ortamlar ve Satın Almalar_ → _Çıkış Yap_ öğesini seçin. Bu, telefonunuzda Apple Hesabınızla oturumunuzu açık tutarken yalnızca App Store'dan çıkış yapmanızı sağlar.
 
 3. _Ortamlar ve Satın Almalar_ öğesine tekrar dokunun ve _[Adınız] değil misiniz?_ öğesini seçin. Farklı bir Apple Kimliği ile oturum açmanız istenecektir.
 
-    ![Changing account](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/log_out.png)
+    ![Hesap değiştiriliyor](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/log_out.png)
 
 4. Yeni hesabınızın e-posta adresini ve parolasını girin.
 
-    ![Login \*mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/apple_id.png)
+    ![Giriş yap \*mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/apple_id.png)
 
 Bu kadar! Şimdi tekrar [App Store'dan AdGuard VPN'i indirmeyi](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602) deneyin.
 

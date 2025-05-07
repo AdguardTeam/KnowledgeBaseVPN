@@ -14,7 +14,7 @@ adguardvpn-cli login
 Zadejte e-mailovou adresu a heslo k AdGuard účtu. Pokud ještě nemáte účet, bude vám nabídnuto jeho vytvoření.
 
 :::note
-AdGuard účet si můžete vytvořit také na našich [webových stránkách](https://auth.adguard.com/login.html) a poté se přihlásit do AdGuard VPN pro Linux pomocí svých přihlašovacích údajů.
+AdGuard účet si můžete vytvořit také na našich [webových stránkách](https://auth.adguardaccount.com/login.html) a poté se přihlásit do AdGuard VPN pro Linux pomocí svých přihlašovacích údajů.
 :::
 
 Chcete-li se odhlásit z AdGuard VPN, zadejte:

@@ -93,7 +93,7 @@ V části *Obecné* můžete spravovat základní nastavení AdGuard VPN:
 
 ### Pokročilé
 
-![Advanced *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/advanced.png)
+![Advanced *mobile_border](https://cdn.adtidy.org/blog/new/mbc4icryptoon.png)
 
 V části *Pokročilé* se nachází sada nastavení, která se nepoužívají tak často.
 
@@ -105,7 +105,9 @@ Některé funkce AdGuard VPN jsou v *Režimu integrace* deaktivovány: DNS serve
 
 :::
 
-*Úroveň záznamů* určuje, kolik událostí aplikace se zaznamenává. Nedoporučujeme povolovat úrovně záznamů *Pokročilý* nebo *Extrémní*, pokud to nevyžaduje náš tým podpory.
+*Postkvantová kryptografie* označuje kryptografické algoritmy určené k zabezpečení dat proti potenciálním hrozbám, které představují kvantové počítače, jež by nakonec mohly prolomit současné metody šifrování. Tato funkce zajišťuje, že data zůstanou bezpečně zašifrovaná, a to i navzdory pokroku v kvantové výpočetní technice, který by jinak mohl ohrozit tradiční šifrovací techniky.
+
+*Úroveň záznamu* určuje, kolik událostí aplikace se zaznamenává. Nedoporučujeme povolovat úrovně záznamů *Pokročilý* nebo *Extrémní*, pokud to nevyžaduje náš tým podpory.
 
 V této části můžete také exportovat záznamy a systémové informace a sdílet je s podporou.
 

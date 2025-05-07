@@ -5,7 +5,7 @@ sidebar_position: 2
 
 ## Requisitos del sistema
 
-AdGuard VPN solo se puede instalar en dispositivos Android con Android 7.0 o versiones posteriores.
+AdGuard VPN can only be installed on Android devices with **Android 9.0 or later versions**.
 
 ## Como instalar AdGuard VPN para Android
 

@@ -129,7 +129,7 @@ curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/sc
 
  Чтобы использовать AdGuard VPN для Linux, вам понадобится аккаунт AdGuard.
 
- Вы можете зарегистрироваться или войти [на нашем сайте](https://auth.adguard.com/login.html) или в Терминале.
+ You can sign up or log in on our [website](https://auth.adguardaccount.com/login.html) or in the Terminal.
 
  Чтобы зарегистрироваться или войти, введите:
 
