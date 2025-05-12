@@ -16,7 +16,7 @@ AdGuard VPN aboneliği satın almaya karar verdiyseniz, bunu yapmanın iki yolu 
 
 Abonelik, AdGuard hesabınızdan iptal edilebilir. Aboneliğinizi iptal etmek için:
 
- 1. AdGuard hesabınızda [Lisanslar](https://my.adguard.com/account/licenses) bölümüne gidin.
+ 1. AdGuard hesabınızda [Lisanslar](https://adguardaccount.com/account/licenses) bölümüne gidin.
  1. Artık ihtiyacınız olmayan aboneliğin altındaki *Aboneliği iptal et* öğesine tıklayın.
 
 İptal edilen abonelik, son erme tarihine kadar geçerli kalır.

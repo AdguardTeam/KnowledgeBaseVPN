@@ -9,8 +9,8 @@ Protokolümüz, [tüm AdGuard VPN mobil ve masaüstü uygulamaları](https://adg
 
 Yıllardır, reklam engelleme uygulamalarının ve tarayıcı uzantılarının tüm çeşitlerini geliştirmeye odaklandık. Ve 2019'da birdenbire kendi VPN hizmetimizi geliştirmeye karar verdik. Gerçekte, bizi bunu yapmaya iten birkaç neden vardı.
 
-- AdGuard mobil uygulamalarının VPN uygulamalarıyla uyumluluk sorunları vardı. Normally, two VPN-based mobile apps can’t work together: in rare cases on iOS, and never on Android. AdGuard Reklam Engelleyici uygulamaları ağ trafiğini filtrelemek için yerel VPN kullandığından, bunları herhangi bir VPN uygulamasıyla birlikte kullanmak söz konusu olamaz. That’s why we saw the development of an in-house VPN as the only feasible solution that could guarantee compatibility: after we apply some magic, the two apps are able to work together as one VPN service.
-- İkincisi, VPN bizim felsefemiz ve önceliklerimizle fazlasıyla alakalı görünüyordu. Our primary goal is to protect users’ privacy, and this is exactly what VPNs are for.
+- AdGuard mobil uygulamalarının VPN uygulamalarıyla uyumluluk sorunları vardı. Normalde, iki VPN tabanlı mobil uygulama birlikte çalışamaz: iOS'ta nadir durumlarda ve Android'de asla. AdGuard Reklam Engelleyici uygulamaları ağ trafiğini filtrelemek için yerel VPN kullandığından, bunları herhangi bir VPN uygulamasıyla birlikte kullanmak söz konusu olamaz. Bu nedenle, uyumluluğu garanti edebilecek tek uygun çözüm olarak şirket içi bir VPN geliştirmeyi gördük: biraz sihir uyguladıktan sonra, iki uygulama tek bir VPN hizmeti olarak birlikte çalışabilir.
+- İkincisi, VPN bizim felsefemiz ve önceliklerimizle fazlasıyla alakalı görünüyordu. Birincil hedefimiz, kullanıcıların gizliliğini korumaktır ve VPN'ler tam olarak bunun içindir.
 - Son olarak, AdGuard yazılımını geliştirdiğimiz yıllar boyunca ağ trafiğini filtreleme konusunda uzmanlaştık. Bu, başka bir dilenci VPN olmak yerine yeni bir şey getirmemize izin verdi.
 
 En başından itibaren, AdGuard VPN'in rakiplerinden önemli bir farkı olacağına karar verdik — kullanıcıları güvenlik ve hız arasında seçim yapmaya zorlamayan bir şirket içi VPN protokolü geliştirip dağıtacağız.
@@ -26,12 +26,12 @@ To “conceal” the use of VPN, the data flow is often “wrapped” in a TCP c
 
 Herhangi bir popüler VPN protokolünü kullanırken, her zaman bir takasla karşı karşıyayız: hızlı ama algılaması kolay ve yavaş.
 
-## What’s great about the AdGuard VPN protocol
+## AdGuard VPN protokolünün harika yanı
 
-- It’s *nearly impossible to distinguish from normal HTTPS traffic*, that is, the connection to the AdGuard VPN server looks exactly the same as the connection to a normal website.
+- *Normal HTTPS trafiğinden ayırt etmek neredeyse imkansızdır*, yani AdGuard VPN sunucusuna olan bağlantı, normal bir siteye olan bağlantıyla tamamen aynı görünür.
 - Şifreleme için, bu görevle mükemmel bir şekilde başa çıkan **HTTPS (TLS)** kullanıyoruz. Dünyadaki en popüler şifreleme yöntemidir ve onu uygulayan kütüphaneler güvenlik açısından sürekli olarak denetlenmektedir.
 
-Bazı mevcut VPN protokolleri de şifreleme görevini yerine getirir ve bunların (ve dolayısıyla bir VPN kullanma gerçeğinin) tespit edilmesi zordur. Ancak bunun bedeli genellikle düşük hızdır. This doesn’t happen in our case, thanks to several solutions.
+Bazı mevcut VPN protokolleri de şifreleme görevini yerine getirir ve bunların (ve dolayısıyla bir VPN kullanma gerçeğinin) tespit edilmesi zordur. Ancak bunun bedeli genellikle düşük hızdır. Birkaç çözüm sayesinde bizim durumumuzda bu gerçekleşmiyor.
 
 - Yüksek hızı korurken AdGuard VPN protokolünü tespit etmeyi neredeyse imkansız hâle getiren **HTTP/2 aktarım protokolünü** kullanıyoruz.
 - Diğerlerinden farklı olarak, AdGuard VPN protokolü *paketlerle değil verilerle çalışır*. This means that AdGuard VPN establishes a separate ”tunnel” for each connection, each HTTP/2 stream corresponds to one connection. AdGuard VPN, verileri bu tünel üzerinden aktarır. Bu, onay paketlerinden tasarruf ederek işlemi hızlandırmamızı sağlar, çünkü birkaç paketin verilerini VPN sunucusuna (veya sunucudan istemciye) göndermeden önce bir pakette arabelleğe alabiliriz. Ve ne kadar az paket olursa, o kadar az onay gerekir.

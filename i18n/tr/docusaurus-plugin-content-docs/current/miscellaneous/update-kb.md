@@ -3,7 +3,7 @@ title: Bilgi Tabanını güncelleme
 sidebar_position: 3
 ---
 
-Bu Bilgi Tabanının amacı, herkese AdGuard VPN ile ilgili her türlü konuda en güncel bilgileri sağlamaktır. But things constantly change, and sometimes an article doesn’t reflect the current state of things anymore — there are simply not so many of us to keep an eye on every single bit of information and update it accordingly when new versions are released.
+Bu Bilgi Tabanının amacı, herkese AdGuard VPN ile ilgili her türlü konuda en güncel bilgileri sağlamaktır. Ancak işler sürekli değişiyor ve bazen bir makale artık mevcut durumu yansıtmıyor — her bir bilgi parçasını göz önünde bulunduracak ve yeni sürümler yayınlandığında buna göre güncelleyecek çok fazla insan yok.
 
 Bu nedenle, tüm Bilgi Tabanı içeriğimizi [GitHub'a](https://github.com/AdguardTeam/KnowledgeBaseVPN) yerleştirdik ve artık herkes, mevcut makalelerin yanı sıra tamamen yeni makaleler için düzenlemeler ve çeviriler önererek kelimenin tam anlamıyla ona katkıda bulunabilir.
 
@@ -15,7 +15,7 @@ Başlamaya hazır olduğunuzda, [KnowledgeBaseVPN deposunda](https://github.com/
 
 Bilgi Tabanı sitesi, modern bir statik site oluşturucu olan Docusaurus 2 kullanılarak oluşturulmuştur. Değişiklikler veya eklemeler önerirken, tüm belgelerin platformun ilkelerine uygun olması gerektiğini göz önünde bulundurun. Onlar hakkında [bu bağlantı aracılığıyla mevcut olan rehberde](https://docusaurus.io/docs/category/guides) okuyabilirsiniz.
 
-Önerdiğiniz değişiklikleri önizlemek için bu Bilgi Tabanını bilgisayarınıza yerel olarak konuşlandırabilirsiniz. Detailed instructions on how to do this can be found [in the README.md file](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README) on this Knowledge Base’s GitHub page.
+Önerdiğiniz değişiklikleri önizlemek için bu Bilgi Tabanını bilgisayarınıza yerel olarak konuşlandırabilirsiniz. Bunun nasıl yapılacağına ilişkin ayrıntılı talimatlar, bu Bilgi Tabanının GitHub sayfasındaki [README.md dosyasında](https://github.com/AdguardTeam/KnowledgeBaseVPN/blob/main/README) bulunabilir.
 
 ## Makaleleri çevirme {#translate-adguard}
 

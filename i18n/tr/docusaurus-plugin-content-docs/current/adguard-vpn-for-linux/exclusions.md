@@ -13,7 +13,7 @@ Her modun kendine ait istisna listesi vardır.
 
 :::
 
-![Exclusions](https://cdn.adguard-vpn.com/blog/new/m6pkdVPN-CLI-exclusions.png)
+![İstisnalar](https://cdn.adguard-vpn.com/blog/new/m6pkdVPN-CLI-exclusions.png)
 
 ### Nasıl kullanılır
 
@@ -31,9 +31,9 @@ adguardvpn-cli site-exclusions add %domain_name%
 
 :::tip
 
-Desteklenen girdi biçimleri: `domain.com`, `sub.domain.com`, `www.domain.com`. Bir veya birden fazla istisnayı aynı anda eklemek için, bunları virgülle ayırarak listeleyin. Joker karakterler için çift tırnak kullanın: `"*.domain.com"`
+Desteklenen girdi biçimleri: `domain.com`, `sub.domain.com`, `www.domain.com`. To add two or more exclusions at once, list them separated by spaces. Joker karakterler için çift tırnak kullanın: `"*.domain.com"`
 
-Command example: `adguardvpn-cli site-exclusions add www.google.com`
+Komut örneği: `adguardvpn-cli site-exclusions add www.google.com`
 
 :::
 

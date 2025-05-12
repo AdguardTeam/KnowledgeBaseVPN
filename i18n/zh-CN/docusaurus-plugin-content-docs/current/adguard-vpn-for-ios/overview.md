@@ -18,7 +18,7 @@ AdGuard VPN has several functions:
 
 ## 如何使用 AdGuard VPN iOS 版
 
-要使用 AdGuard VPN iOS 版，首先用户需要登录个人 [AdGuard 账号](https://my.adguard.com/)。 您可以直接使用您的 AdGuard 账号信息登录，或通过 Google、Apple ID 或 Facebook（仅在您的 AdGuard 账号使用相同的电子邮件地址注册的情况下）登录。
+To use AdGuard VPN for iOS, first you need to log into your [AdGuard account](https://adguardaccount.com/). 您可以直接使用您的 AdGuard 账号信息登录，或通过 Google、Apple ID 或 Facebook（仅在您的 AdGuard 账号使用相同的电子邮件地址注册的情况下）登录。
 
 If you don’t have an AdGuard account yet, you will have to create it first.
 
@@ -54,7 +54,7 @@ When you manually add a domain, all subdomains are added automatically (it looks
 
 ![Subdomains *mobile_border](https://cdn.adguard-vpn.com/content/release_notes/vpn/ios/v2.4/domains_en.png)
 
-If you manually add a subdomain, the main domain will also added — but the checkbox next to it will not be checked.
+If you manually add a subdomain, the main domain will also be added — but the checkbox next to it will not be checked.
 
 ### Domain lists for popular services
 

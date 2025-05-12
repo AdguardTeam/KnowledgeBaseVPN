@@ -31,7 +31,7 @@ adguardvpn-cli site-exclusions add %domain_name%
 
 :::tip
 
-Podporované vstupní formáty: `domain.com`, `sub.domain.com`, `www.domain.com`. Chcete-li přidat dvě nebo více výjimek najednou, uveďte je odděleně čárkou. Pro zástupné znaky použijte dvojité uvozovky: `"*.domain.com"`
+Podporované vstupní formáty: `domain.com`, `sub.domain.com`, `www.domain.com`. To add two or more exclusions at once, list them separated by spaces. Pro zástupné znaky použijte dvojité uvozovky: `"*.domain.com"`
 
 Příklad příkazu: `adguardvpn-cli site-exclusions add www.google.com`
 

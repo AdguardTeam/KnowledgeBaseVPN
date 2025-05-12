@@ -5,7 +5,7 @@ sidebar_position: 2
 
 ## Sistem gereksinimleri
 
-AdGuard VPN, yalnızca **Android 7.0 veya sonraki sürümlere sahip** Android cihazlara yüklenebilir.
+AdGuard VPN can only be installed on Android devices with **Android 9.0 or later versions**.
 
 ## Android için AdGuard VPN nasıl yüklenir
 
@@ -13,7 +13,7 @@ Android için AdGuard VPN uygulamasını Google Play'den ücretsiz olarak yükle
 
 1. Cihazınızda *Google Play* uygulamasını açın ve ekranın üst kısmındaki* Ara* öğesine dokunun.
 
-2. Next, in the search bar, start typing *AdGuard* and select *adguard vpn* from the list of suggested options.
+2. Ardından, arama çubuğuna *AdGuard* yazmaya başlayın ve önerilen seçenekler listesinden *adguard vpn* öğesini seçin.
 
 3. Önerilen uygulamalar listesinden *AdGuard VPN - private proxy* öğesini seçin ve *Yükle* öğesine dokunun.
 

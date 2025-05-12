@@ -15,7 +15,7 @@ sidebar_position: 1
 
 ## Как начать пользоваться AdGuard VPN для Windows
 
-Чтобы начать пользоваться AdGuard VPN для Windows, скачайте приложение с [нашего сайта](https://adguard-vpn.com/welcome.html). Установка займёт не больше минуты — и вы увидите диалоговое окно, в котором потребуется поставить как минимум одну галочку, чтобы принять условия Пользовательского соглашения и Политики конфиденциальности. А вот давать ли AdGuard право собирать анонимизированные данные об использовании приложения на вашем устройстве или нет, решать вам. В завершении процесса установки программа попросит вас войти в систему, либо через [учётную запись AdGuard](https://auth.adguard.com/login.html), либо через социальные сети (Apple, Google, Facebook). Вот и всё, теперь вы можете начать пользоваться AdGuard VPN для Windows.
+Чтобы начать пользоваться AdGuard VPN для Windows, скачайте приложение с [нашего сайта](https://adguard-vpn.com/welcome.html). Установка займёт не больше минуты — и вы увидите диалоговое окно, в котором потребуется поставить как минимум одну галочку, чтобы принять условия Пользовательского соглашения и Политики конфиденциальности. А вот давать ли AdGuard право собирать анонимизированные данные об использовании приложения на вашем устройстве или нет, решать вам. At last the program will ask you to sign in, either via [AdGuard account](https://auth.adguardaccount.com/login.html) or via social networks (Apple, Google, Facebook). Вот и всё, теперь вы можете начать пользоваться AdGuard VPN для Windows.
 
 ## Главный экран
 
@@ -72,7 +72,7 @@ sidebar_position: 1
 
 ![Настройки *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/settings_en.png)
 
-Четвёртая вкладка содержит разделы, которые помогут вам настроить приложение.
+The fifth tab contains sections that will help you customize the app.
 
 ### Настройки приложения
 
@@ -102,13 +102,17 @@ sidebar_position: 1
 
 Все логи хранятся локально на вашем устройстве, и вы можете отправить их команде поддержки, если возникнет необходимость.
 
+##### Post-quantum cryptography
+
+![Post-quantum cryptography *border](https://cdn.adtidy.org/blog/new/qe7fgimage_3.png)
+
+This feature encrypts your traffic in a way that even quantum computers can’t intercept it.
+
 ##### Использовать QUIC
 
 Это экспериментальная функция, включение которой позволит AdGuard использовать передовой протокол шифрования QUIC. У него много преимуществ, но самое заметное в том, что он может улучшать качество соединения в неидеальных условиях — например, при использовании мобильного интернета или при подключении к общественным сетям Wi-Fi.
 
-#### Использовать WinTun
-
-![Использовать WinTun *border](https://cdn.adguard-vpn.com/content/release_notes/vpn/windows/v2.2/stats_tab_v2.2_en.png)
+##### Использовать WinTun
 
 WinTun — это драйвер маршрутизации трафика, обычно используемый для реализации VPN в Windows. Он улучшает качество VPN-подключений за счёт создания виртуального сетевого адаптера. По умолчанию AdGuard VPN использует обычный WFP-драйвер (и TDI-драйвер для Windows 7).
 

@@ -7,7 +7,7 @@ Rozšíření prohlížeče AdGuard VPN je k dispozici pro Chrome, Firefox, Oper
 
 :::note
 
-Rozšíření prohlížeče AdGuard VPN můžete používat pouze po přihlášení. Přihlaste se pomocí účtu AdGuard, přes Google, Facebook nebo Apple. Ve druhém případě se ujistěte, že je váš účet vázán na stejnou e-mailovou adresu jako účet AdGuard. Pokud máte [předplatné AdGuard VPN](/general/subscription), bude v rozšíření prohlížeče AdGuard VPN aktivováno automaticky. Nemáte ještě účet AdGuard? [Zde si jej vytvořte](https://auth.adguard.com/registration.html).
+Rozšíření prohlížeče AdGuard VPN můžete používat pouze po přihlášení. Přihlaste se pomocí účtu AdGuard, přes Google, Facebook nebo Apple. Ve druhém případě se ujistěte, že je váš účet vázán na stejnou e-mailovou adresu jako účet AdGuard. Pokud máte [předplatné AdGuard VPN](/general/subscription), bude v rozšíření prohlížeče AdGuard VPN aktivováno automaticky. Nemáte ještě účet AdGuard? [Zde si jej vytvořte](https://auth.adguardaccount.com/registration.html).
 
 :::
 

@@ -14,7 +14,7 @@ adguardvpn-cli login
 AdGuard hesabınızın e-posta adresini ve parolasını girin. Henüz bir hesabınız yoksa bir tane oluşturmanız istenecektir.
 
 :::note
-Ayrıca [sitemizde](https://auth.adguard.com/login.html) bir AdGuard hesabı oluşturabilir ve ardından kimlik bilgilerinizi kullanarak Linux için AdGuard VPN'de giriş yapabilirsiniz.
+Ayrıca [sitemizde](https://auth.adguardaccount.com/login.html) bir AdGuard hesabı oluşturabilir ve ardından kimlik bilgilerinizi kullanarak Linux için AdGuard VPN'de giriş yapabilirsiniz.
 :::
 
 AdGuard VPN'den çıkış yapmak için şunu yazın:

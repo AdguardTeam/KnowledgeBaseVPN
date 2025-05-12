@@ -18,18 +18,18 @@ Wenn Sie die Implementierung einer neuen Funktion oder Fehlerbehebung unterstüt
 
 1. Aktivieren Sie die Debug-Protokollierung durch Eingabe von:
 
-   `adguardvpn-cli config set-debug-logging on`
+    `adguardvpn-cli config set-debug-logging on`
 
 2. Reproduzieren Sie das Problem und versuchen Sie, sich an den genauen Zeitpunkt des Auftretens zu erinnern.
 
 3. Wait a while, then archive the logs in the _Downloads_ or _Home_ folder by typing:
 
-   `adguardvpn-cli export-logs`
+    `adguardvpn-cli export-logs`
 
-   The logs will be downloaded by default to the application folder, the path to the logs will be written in the console.
+    The logs will be downloaded by default to the application folder, the path to the logs will be written in the console.
 
 4. Senden Sie die Protokolldatei an <devteam@adguard.com>. Specify the time of the error and attach a link to your GitHub issue or its number (it appears as #number next to the title). Alternativ können Sie die Protokolldatei auf Google Drive hochladen und sie mit <devteam@adguard.com> teilen. Attach the file link to your GitHub issue.
 
 5. Disable debug logging by typing:
 
-   `adguardvpn-cli config set-debug-logging off`
+    `adguardvpn-cli config set-debug-logging off`

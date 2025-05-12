@@ -16,7 +16,7 @@ Pokud jste se rozhodli zakoupit si předplatné AdGuard VPN, můžete tak učini
 
 Předplatné lze zrušit ve vašem AdGuard účtu. Pro zrušení předplatného:
 
- 1. Ve svém AdGuard účtu přejděte na [Licence](https://my.adguard.com/account/licenses).
+ 1. Ve svém AdGuard účtu přejděte na [Licence](https://adguardaccount.com/account/licenses).
  1. Klikněte na *Zrušit předplatné* pod předplatným, které již nepotřebujete.
 
 Zrušené předplatné bude platné do data vypršení jeho platnosti.

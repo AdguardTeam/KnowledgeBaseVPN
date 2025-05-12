@@ -129,7 +129,7 @@ curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/sc
 
  Linux için AdGuard VPN'i kullanmak için bir AdGuard hesabına ihtiyacınız vardır.
 
- [Sitemizden](https://auth.adguard.com/login.html) veya Terminal'den kaydolabilir veya giriş yapabilirsiniz.
+ [Sitemizden](https://auth.adguardaccount.com/login.html) veya Terminal'den kaydolabilir veya giriş yapabilirsiniz.
 
  Kaydolmak veya giriş yapmak için şunu yazın:
 
@@ -165,7 +165,7 @@ curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/sc
  adguardvpn-cli connect
  ```
 
- AdGuard VPN will choose the fastest location available and remember it for future quick connections.
+ AdGuard VPN, mevcut en hızlı konumu seçer ve gelecekteki hızlı bağlantılar için bunu hatırlar.
 
 3. Ayarlarınızı düzenleyin
 
@@ -199,7 +199,7 @@ Bunu web arayüzünden veya komut satırından yapabilirsiniz. Aşağıdaki adı
 2. Add tun0 to WAN zone
 
  Trafiğin VPN üzerinden geçmesi için WAN bölgesine tun0'ı ekleyin.
- İnternete bağlanan WAN arayüzü tipik olarak `wan` ya da benzer bir adla anılan bir bölgede yer alır. Check your router’s configuration files or firewall settings to find out which zone is associated with the WAN interface.
+ İnternete bağlanan WAN arayüzü tipik olarak `wan` ya da benzer bir adla anılan bir bölgede yer alır. Hangi bölgenin WAN arayüzüyle ilişkili olduğunu öğrenmek için yönlendiricinizin yapılandırma dosyalarını veya güvenlik duvarı ayarlarını kontrol edin.
 
  Bunu yapmak için mevcut güvenlik duvarı bölgelerini listeleyin:
 

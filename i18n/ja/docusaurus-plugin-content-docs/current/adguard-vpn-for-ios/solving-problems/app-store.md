@@ -15,25 +15,25 @@ In some countries, AdGuard VPN is not available in the App Store. If that’s yo
 
 2. Tap _Country/Region_ → _Change Country or Region_.
 
-   ![Changing region](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/changing_country.png)
+    ![Changing region](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/changing_country.png)
 
 3. Select your preferred country from the list (e.g., _Canada_ or _Mexico_) and agree to the Terms and Conditions.
 
 4. Fill in the required fields. For _Payment Method_, you can select _None_. For _Billing Address_, use any phone number and address with a valid ZIP code. For example:
 
-   Street: 90 Ave NW
+    Street: 90 Ave NW
 
-   City: Edmonton
+    City: Edmonton
 
-   Province/Territory: Alberta
+    Province/Territory: Alberta
 
-   Postal code: 15040
+    Postal code: 15040
 
-   Phone: 613 9572998
+    Phone: 613 9572998
 
 5. Tap _Next_.
 
-   ![New region \*border](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/canada_en.png)
+    ![New region \*border](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/canada_en.png)
 
 After changing the region, try [downloading AdGuard VPN from the App Store again](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602).
 
@@ -61,11 +61,11 @@ Now **link your new account to the App Store**:
 
 3. Tap on _Media & Purchases_ again and select _Not [your name]?_ You will be prompted to sign in with a different Apple ID.
 
-   ![Changing account](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/log_out.png)
+    ![Changing account](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/log_out.png)
 
 4. Enter the email address and password for your new account.
 
-   ![Login \*mobile\_border](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/apple_id.png)
+    ![Login \*mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/apple_id.png)
 
 That’s it! Now try to [download AdGuard VPN from the App Store](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602) again.
 

@@ -7,7 +7,7 @@ sidebar_position: 10
 
 ## AdGuard VPN'in sitesine erişme
 
-If adguard-vpn.com is not accessible, try using the [mirror website](https://adguard-vpn.cc).
+adguard-vpn.com adresine erişilemiyorsa, [yansıtma sitesini](https://adguardvpn-help.info/) kullanmayı deneyin.
 
 :::info
 
@@ -25,15 +25,15 @@ Bölgeyi değiştirdikten veya App Store'a farklı bir hesap bağladıktan sonra
 
 ### Android için AdGuard VPN
 
-If you experience problems with Google Play, download the APK file from [AdGuard VPN’s mirror website](https://adguard-vpn.cc/android/overview.html).
+Google Play ile ilgili sorun yaşıyorsanız, APK dosyasını [AdGuard VPN'in yansıtma sitesinden](https://adguard-vpn.cc/android/overview.html) indirin.
 
 ### Mac için AdGuard VPN
 
-Download the installation file from [AdGuard VPN’s mirror website](https://adguard-vpn.cc/windows/overview.html).
+Kurulum dosyasını [AdGuard VPN'in yansıtma sitesinden](https://adguard-vpn.cc/windows/overview.html) indirin.
 
 ### Windows için AdGuard VPN
 
-Download the installation file from [AdGuard VPN’s mirror website](https://adguard-vpn.cc/mac/overview.html).
+Kurulum dosyasını [AdGuard VPN'in yansıtma sitesinden](https://adguard-vpn.cc/mac/overview.html) indirin.
 
 ## Diğer faydalı ipuçları
 
@@ -49,4 +49,4 @@ Download the installation file from [AdGuard VPN’s mirror website](https://adg
 
 - Bağlantı sorunlarınız varsa, *Gelişmiş ayarlar* bölümünde *QUIC'i kullan* öğesini seçeneğini etkinleştirmeyin.
 
-If all else fails, don’t hesitate to reach out to our support team at <support@adguard-vpn.com> for further assistance.
+Her şey yolunda gitmezse, daha fazla yardım için <support@adguard-vpn.com> adresinden destek ekibimizle iletişime geçmekten çekinmeyin.

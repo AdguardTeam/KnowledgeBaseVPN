@@ -14,7 +14,7 @@ adguardvpn-cli login
 Geben Sie die E-Mail-Adresse und das Passwort für Ihr AdGuard-Konto ein. If you don’t have an account yet, you’ll be prompted to create one.
 
 :::note
-You can also create an AdGuard account on our [website](https://auth.adguard.com/login.html) and then log in to AdGuard VPN for Linux using your credentials.
+You can also create an AdGuard account on our [website](https://auth.adguardaccount.com/login.html) and then log in to AdGuard VPN for Linux using your credentials.
 :::
 
 Um sich von AdGuard VPN abzumelden, geben Sie Folgendes ein:
