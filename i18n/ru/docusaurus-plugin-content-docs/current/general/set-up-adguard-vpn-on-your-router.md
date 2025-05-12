@@ -13,7 +13,7 @@ Setting up AdGuard VPN on your router allows you to protect all devices connecte
 
 ## Как настроить AdGuard VPN на роутере
 
-1. [В личном кабинете AdGuard](https://auth.adguard.com/login.html) выберите AdGuard VPN.
+1. In your [AdGuard account](https://auth.adguardaccount.com/login.html), select AdGuard VPN.
 
 2. В разделе _Устройства_ нажмите _Добавить роутер_.
 

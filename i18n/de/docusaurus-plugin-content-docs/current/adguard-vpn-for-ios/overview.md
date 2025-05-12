@@ -18,7 +18,7 @@ Der nächste Vorteil von AdGuard VPN für iOS ist unser eigenes VPN-Protokoll. I
 
 ## Wie man AdGuard VPN für iOS verwendet
 
-Um AdGuard VPN für iOS zu verwenden, müssen Sie sich zunächst bei Ihrem [AdGuard-Konto](https://my.adguard.com/) anmelden. Sie können sich direkt mit Ihren AdGuard-Kontodaten oder über Google, Apple ID oder Facebook anmelden (wenn Ihr AdGuard-Konto mit derselben E-Mail-Adresse registriert wurde).
+To use AdGuard VPN for iOS, first you need to log into your [AdGuard account](https://adguardaccount.com/). Sie können sich direkt mit Ihren AdGuard-Kontodaten oder über Google, Apple ID oder Facebook anmelden (wenn Ihr AdGuard-Konto mit derselben E-Mail-Adresse registriert wurde).
 
 Wenn Sie noch kein AdGuard-Konto haben, müssen Sie es zuerst erstellen.
 
@@ -54,7 +54,7 @@ Wenn Sie eine Domain manuell hinzufügen, werden alle Subdomains automatisch hin
 
 ![Subdomains *mobile_border](https://cdn.adguard-vpn.com/content/release_notes/vpn/ios/v2.4/domains_en.png)
 
-Wenn Sie eine Subdomain manuell hinzufügen, wird auch die Hauptdomain hinzugefügt — das Kontrollkästchen daneben ist dann jedoch nicht aktiviert.
+If you manually add a subdomain, the main domain will also be added — but the checkbox next to it will not be checked.
 
 ### Domainlisten für beliebte Dienste
 

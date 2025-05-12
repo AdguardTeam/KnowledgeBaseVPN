@@ -15,7 +15,7 @@ AdGuard VPN pro Windows má mnoho výhod, proto jsme tomu věnovali [samostatný
 
 ## Jak začít používat AdGuard VPN pro Windows
 
-Chcete-li začít používat AdGuard VPN pro Windows, stáhněte si aplikaci z [našich webových stránek](https://adguard-vpn.com/welcome.html). Instalace netrvá déle než minutu — zobrazí se dialogové okno, ve kterém je třeba zaškrtnout alespoň jedno políčko s podmínkami uživatelské smlouvy a zásady ochrany osobních údajů. Je na vás, zda chcete, aby AdGuard shromažďoval anonymizovaná data o používání aplikací. Nakonec vás program požádá o přihlášení, a to buď prostřednictvím účtu [AdGuard](https://auth.adguard.com/login.html), nebo prostřednictvím sociálních sítí (Apple, Google, Facebook). To je vše, nyní můžete používat AdGuard VPN pro Windows.
+Chcete-li začít používat AdGuard VPN pro Windows, stáhněte si aplikaci z [našich webových stránek](https://adguard-vpn.com/welcome.html). Instalace netrvá déle než minutu — zobrazí se dialogové okno, ve kterém je třeba zaškrtnout alespoň jedno políčko s podmínkami uživatelské smlouvy a zásady ochrany osobních údajů. Je na vás, zda chcete, aby AdGuard shromažďoval anonymizovaná data o používání aplikací. Nakonec vás program požádá o přihlášení, a to buď prostřednictvím účtu [AdGuard](https://auth.adguardaccount.com/login.html), nebo prostřednictvím sociálních sítí (Apple, Google, Facebook). To je vše, nyní můžete používat AdGuard VPN pro Windows.
 
 ## Domovská obrazovka
 
@@ -72,7 +72,7 @@ Důležité je, že všechny tyto informace jsou uloženy výhradně ve vašem z
 
 ![Settings *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/settings_en.png)
 
-Čtvrtá karta obsahuje části, které vám pomohou přizpůsobit aplikaci.
+Pátá karta obsahuje části, které vám pomohou přizpůsobit aplikaci.
 
 ### Nastavení aplikace
 
@@ -102,13 +102,17 @@ Na výběr jsou dvě úrovně záznamu: **Výchozí záznam** a **Záznam všeho
 
 Všechny záznamy jsou uloženy lokálně v zařízení a v případě potřeby je můžete odeslat na naši podporu.
 
+##### Postkvantová kryptografie
+
+![Post-quantum cryptography *border](https://cdn.adtidy.org/blog/new/qe7fgimage_3.png)
+
+Tato funkce šifruje provoz tak, aby je nemohly zachytit ani kvantové počítače.
+
 ##### Použití QUIC
 
 Jedná se o experimentální funkci, která umožňuje AdGuardu používat pokročilý šifrovací protokol QUIC. Má mnoho výhod, ale tou nejvýznamnější je, že dokáže zlepšit kvalitu připojení za neideálních podmínek, například při používání mobilního internetu nebo při připojování k veřejným sítím Wi-Fi.
 
-#### Použít WinTun
-
-![Use WinTun *border](https://cdn.adguard-vpn.com/content/release_notes/vpn/windows/v2.2/stats_tab_v2.2_en.png)
+##### Použít WinTun
 
 WinTun je ovladač směrování provozu, který se běžně používá pro implementace VPN v systému Windows a který zlepšuje kvalitu připojení VPN vytvořením virtuálního síťového adaptéru. Ve výchozím nastavení používá AdGuard VPN běžný ovladač WFP (a ovladač TDI pro Windows 7).
 

@@ -15,7 +15,7 @@ AdGuard VPN for Windows has many advantages, so we’ve dedicated [a separate ar
 
 ## How to start using AdGuard VPN for Windows
 
-To start using AdGuard VPN for Windows, download the app from [our website](https://adguard-vpn.com/welcome.html). The installation takes no more than a minute — and you’ll see a dialog window where you’ll need to check at least one box applying the terms of the User Agreement and the Privacy policy. And it’s up to you to decide whether you want AdGuard to collect anonymized data about your app usage. At last the program will ask you to sign in, either via [AdGuard account](https://auth.adguard.com/login.html) or via social networks (Apple, Google, Facebook). That’s all, you can now use AdGuard VPN for Windows.
+To start using AdGuard VPN for Windows, download the app from [our website](https://adguard-vpn.com/welcome.html). The installation takes no more than a minute — and you’ll see a dialog window where you’ll need to check at least one box applying the terms of the User Agreement and the Privacy policy. And it’s up to you to decide whether you want AdGuard to collect anonymized data about your app usage. At last the program will ask you to sign in, either via [AdGuard account](https://auth.adguardaccount.com/login.html) or via social networks (Apple, Google, Facebook). That’s all, you can now use AdGuard VPN for Windows.
 
 ## Home screen
 
@@ -72,7 +72,7 @@ Crucially, all this information is stored exclusively on your device, ensuring t
 
 ![Settings *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/settings_en.png)
 
-The fourth tab contains sections that will help you customize the app.
+The fifth tab contains sections that will help you customize the app.
 
 ### App settings
 
@@ -102,13 +102,17 @@ Two levels of logging are available to choose from: **Record by default** and **
 
 All logs are stored locally on your device, and you can send them to the support team if needed.
 
+##### Post-quantum cryptography
+
+![Post-quantum cryptography *border](https://cdn.adtidy.org/blog/new/qe7fgimage_3.png)
+
+This feature encrypts your traffic in a way that even quantum computers can’t intercept it.
+
 ##### Use QUIC
 
 This is an experimental feature that enables AdGuard to use the advanced QUIC encryption protocol. It has many advantages, but the most notable one is that it can improve connection quality under non-ideal conditions, for example, when using mobile Internet or when connecting to public Wi-Fi networks.
 
-#### Use WinTun
-
-![Use WinTun *border](https://cdn.adguard-vpn.com/content/release_notes/vpn/windows/v2.2/stats_tab_v2.2_en.png)
+##### Use WinTun
 
 WinTun is a traffic routing driver commonly used for VPN implementations on Windows that improves the quality of VPN connections by creating a virtual network adapter. By default AdGuard VPN uses the regular WFP driver (and TDI driver for Windows 7).
 

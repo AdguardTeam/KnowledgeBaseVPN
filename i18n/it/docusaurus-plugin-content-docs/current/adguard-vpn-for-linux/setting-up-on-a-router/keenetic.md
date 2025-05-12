@@ -141,7 +141,7 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
 
 1. Log in to your account
 
-    To use AdGuard VPN for Linux, you need an AdGuard account. You can sign up or log in on our [website](https://auth.adguard.com/login.html) or in Terminal.
+    To use AdGuard VPN for Linux, you need an AdGuard account. You can sign up or log in on our [website](https://auth.adguardaccount.com/login.html) or in Terminal.
 
     Before logging in, go to Terminal and make sure you are in the right shell interface. If you can see the following text:
 
@@ -292,3 +292,9 @@ It will start AdGuard VPN when Internet is connected.
 Reboot your router to finish setup.
 
 Congrats! Now you have a router secured with AdGuard VPN.
+
+If you want to disable the autolaunch of AdGuard VPN, you need to to delete the script that activates it. To do so, run the following command:
+
+```bash
+rm /opt/etc/ndm/wan.d/001-adguardvpn.sh
+```

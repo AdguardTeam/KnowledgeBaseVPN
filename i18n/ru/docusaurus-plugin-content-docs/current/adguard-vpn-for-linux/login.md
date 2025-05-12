@@ -14,7 +14,7 @@ adguardvpn-cli login
 Введите адрес почты и пароль от вашего аккаунта AdGuard. Если у вас ещё нет аккаунта, вам предложат его создать.
 
 :::note
-Вы также можете создать аккаунт AdGuard [на нашем сайте](https://auth.adguard.com/login.html), а затем войти в AdGuard VPN для Linux под своими учётными данными.
+You can also create an AdGuard account on our [website](https://auth.adguardaccount.com/login.html) and then log in to AdGuard VPN for Linux using your credentials.
 :::
 
 Чтобы выйти из AdGuard VPN, введите:

@@ -8,13 +8,13 @@ iOS için AdGuard VPN'de herhangi bir uygulama istisnası yoktur. Yine de, iPhon
 
 ## VPN'e otomatik bağlantıyı yapılandırma
 
-Bir veya daha fazla uygulama için bir VPN'e ihtiyacınız varsa, AdGuard VPN'i, onları açıp kapattığınızda otomatik olarak açılacak ve kapanacak şekilde ayarlayın. Here is how to create an automation for that.
+Bir veya daha fazla uygulama için bir VPN'e ihtiyacınız varsa, AdGuard VPN'i, onları açıp kapattığınızda otomatik olarak açılacak ve kapanacak şekilde ayarlayın. İşte bunun için bir otomasyonun nasıl oluşturulacağı aşağıda açıklanmıştır.
 
-1. Download [the *Shortcuts* app](https://apps.apple.com/us/app/shortcuts/id915249334) from the App Store and go to the *Automation* section by tapping the clock icon at the bottom of the screen.
+1. App Store'dan [*Kestirmeler* uygulamasını](https://apps.apple.com/us/app/shortcuts/id915249334) indirin ve ekranın alt kısmındaki saat simgesine dokunarak *Otomasyon* bölümüne gidin.
 
-1. Tap *New Automation* or + (if you already have another automation). In the *Personal Automation* list that opens, scroll to find *App* and tap it.
+1. *Yeni Otomasyon* veya + (başka bir otomasyonunuz varsa) öğesine dokunun. In the *Personal Automation* list that opens, scroll to find *App* and tap it.
 
-    ![New Automation](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/newautomation.png)
+    ![Yeni Otomasyon](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/newautomation.png)
 
 1. Select the *Is Opened* checkbox, select *Run Immediately* (if you don’t want to confirm the VPN launch manually), and leave the slider next to the *Ask before running* option to the inactive position.
 
@@ -22,17 +22,17 @@ Bir veya daha fazla uygulama için bir VPN'e ihtiyacınız varsa, AdGuard VPN'i,
 
 1. Tap *Choose* next to the *App*, select the app you’re setting up the VPN for, tap *Done* and *Next*.
 
-    ![App](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/app.png)
+    ![Uygulama](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/app.png)
 
 1. Tap *New Blank Automation* in *Get Started*, find AdGuard VPN, tap *Set VPN connection*, select *Turn VPN connection On*, and tap *Done*.
 
     ![Blank Automation](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/blankautomation.png) ![Set VPN connection](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/setvpnconnection.png) ![Turn VPN connection On](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/turnvpnconnectionon.png)
 
-Now AdGuard VPN will be automatically enabled when you open the app you’ve set up automation for. If you’d like to, you can create another command that will make AdGuard VPN automatically turn off when you close the app.
+AdGuard VPN artık otomasyonunu ayarladığınız uygulamayı açtığınızda otomatik olarak etkinleştirilecektir. İsterseniz, uygulamayı kapattığınızda AdGuard VPN'in otomatik olarak kapanmasını sağlayacak başka bir komut oluşturabilirsiniz.
 
 ## VPN'den otomatik bağlantı kesmeyi yapılandırma
 
-1. In the same *Shortcuts* app start creating a new automation: tap +, scroll and tap *App* in the list.
+1. Aynı *Kısayollar* uygulamasında yeni bir otomasyon oluşturmaya başlayın: + öğesine dokunun, kaydırın ve listede *Uygulama* öğesine dokunun.
 
     ![Plus](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/plus.png)
 
@@ -46,6 +46,6 @@ Now AdGuard VPN will be automatically enabled when you open the app you’ve set
 
     ![Turn VPN connection Off](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/turnvpnconnectionoff.png)
 
-Tamamlandı! AdGuard VPN will now be disabled on your device every time you close the app you’ve set up automation for. Başka bir uygulama için aynı adımları tekrarlayabilirsiniz.
+Tamamlandı! AdGuard VPN artık otomasyonunu ayarladığınız uygulamayı her kapattığınızda cihazınızda devre dışı bırakılır. Başka bir uygulama için aynı adımları tekrarlayabilirsiniz.
 
-![Done](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/done.png)
+![Tamamlandı](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/done.png)

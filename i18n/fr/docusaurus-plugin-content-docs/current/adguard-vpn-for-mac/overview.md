@@ -5,7 +5,7 @@ sidebar_position: 1
 
 AdGuard VPN pour Mac est un service VPN de bureau. AdGuard VPN est entièrement compatible avec le Bloqueur AdGuard, on peut les utiliser en même temps et ils fonctionneront harmonieusement. Voyons les fonctionnalités qu'il propose.
 
-Note that **you can’t use AdGuard VPN for Mac unless you have logged into your AdGuard account**. Vous pouvez soit vous connecter avec votre compte AdGuard, soit avec un compte externe, par exemple via Apple, Google ou Facebook. Assurez-vous que votre compte externe est lié à la même adresse e-mail que votre compte AdGuard. S'il existe un abonnement approprié dans votre compte AdGuard, il sera automatiquement activé sur l'application de bureau. Still don’t have an AdGuard account? Créez-le [ici](https://auth.adguard.com/registration.html).
+Note that **you can’t use AdGuard VPN for Mac unless you have logged into your AdGuard account**. Vous pouvez soit vous connecter avec votre compte AdGuard, soit avec un compte externe, par exemple via Apple, Google ou Facebook. Assurez-vous que votre compte externe est lié à la même adresse e-mail que votre compte AdGuard. S'il existe un abonnement approprié dans votre compte AdGuard, il sera automatiquement activé sur l'application de bureau. Still don’t have an AdGuard account? Create it [here](https://auth.adguardaccount.com/registration.html).
 
 :::note Compatibility
 

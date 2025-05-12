@@ -434,7 +434,7 @@
     "description": "The ARIA label for the Escape key button that close the modal"
   },
   "theme.SearchModal.footer.searchByText": {
-    "message": "Search by",
+    "message": "Arama kaynağı",
     "description": "The text explain that the search is making by Algolia"
   },
   "theme.SearchModal.noResultsScreen.noResultsText": {
@@ -454,7 +454,7 @@
     "description": "The text for the link to report missing results"
   },
   "theme.SearchModal.placeholder": {
-    "message": "Dokümanları arayın",
+    "message": "Dokümanları ara",
     "description": "The placeholder of the input of the DocSearch pop-up modal"
   }
 }

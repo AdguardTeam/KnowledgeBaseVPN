@@ -3,17 +3,17 @@ title: Yönlendiricinizde AdGuard VPN nasıl kurulur
 sidebar_position: 8
 ---
 
-Setting up AdGuard VPN on your router allows you to protect all devices connected to your network. This includes smart TVs, media players, gaming consoles, and other gadgets that do not support VPN apps directly.
+Yönlendiricinize AdGuard VPN'i kurmak, ağınıza bağlı tüm cihazları korumanıza olanak tanır. Bu cihazlara akıllı TV'ler, medya oynatıcılar, oyun konsolları ve VPN uygulamalarını doğrudan desteklemeyen diğer cihazlar da dâhildir.
 
 :::note
 
-Bu seçenek yalnızca bir AdGuard VPN aboneliğiniz varsa ve yönlendiriciniz _VPN İstemcisi_ (\*_VPN Sunucusu_ değil) ayarlarında IPsec'i destekliyorsa kullanılabilir. If IPsec is not listed in the _VPN CLient_ settings, you can try setting up [AdGuard VPN for Linux](/adguard-vpn-for-linux/setting-up-on-a-router). This solution uses AdGuard's proprietary protocol and is compatible with Keenetic, OpenWRT, and Asuswrt-Merlin routers.
+Bu seçenek yalnızca bir AdGuard VPN aboneliğiniz varsa ve yönlendiriciniz _VPN İstemcisi_ (\*_VPN Sunucusu_ değil) ayarlarında IPsec'i destekliyorsa kullanılabilir. IPsec _VPN CLient_ ayarlarında listelenmiyorsa, [Linux için AdGuard VPN](/adguard-vpn-for-linux/setting-up-on-a-router) ayarlamayı deneyebilirsiniz. Bu çözüm AdGuard'ın tescilli protokolünü kullanır ve Keenetic, OpenWRT ve Asuswrt-Merlin yönlendiricileriyle uyumludur.
 
 :::
 
 ## Yönlendiricinizde AdGuard VPN nasıl kurulur
 
-1. [AdGuard hesabınızda](https://auth.adguard.com/login.html), AdGuard VPN'i seçin.
+1. [AdGuard hesabınızda](https://auth.adguardaccount.com/login.html), AdGuard VPN'i seçin.
 
 2. _Aygıtlar_ altında, _Yönlendirici ekle_ öğesine tıklayın.
 

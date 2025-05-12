@@ -13,9 +13,9 @@ AdGuard VPN CLI olarak da bilinen Linux için AdGuard VPN, diğer gerekli paketl
 
 The SSH client is used to send commands to your router from your computer.
 
-To run the SSH server, the _SSH server_ system component must be installed in the Keenetic. You can do this on the _General system settings_ page in the _Component options_ section by clicking the _Component options_ button. SSH sunucusunu arayın ve yükleyin. Bu, Keenetic işletim sisteminizi günceller.
+To run the SSH server, the _SSH server_ system component must be installed in the Keenetic. Bunu _Genel sistem ayarları_ sayfasında _Bileşen seçenekleri_ bölümündeki _Bileşen seçenekleri_ düğmesine tıklayarak yapabilirsiniz. SSH sunucusunu arayın ve yükleyin. Bu, Keenetic işletim sisteminizi günceller.
 
-Once the component is installed, the SSH server will be turned on automatically.
+Bileşen kurulduktan sonra SSH sunucusu otomatik olarak açılacaktır.
 
 To see how to set up SSH server to have optimal security settings, visit [the Keenetic Wiki](https://help.keenetic.com/hc/en-us/articles/360000387189-SSH-remote-access-to-the-Keenetic-command-line).
 
@@ -97,7 +97,7 @@ You’ll need an SSH client. Çoğu Linux ve macOS sistemi önceden yüklenmiş 
 
 Once logged in, you can use various commands to interact with your router’s Linux-based operating system.
 
-## 4. Install OPKG Entware
+## 4. OPKG Entware'ı yükleme
 
 USB portu bulunan Keenetic modellerinde (Keenetic 4G hariç) OPKG paket yöneticisini kullanabilirsiniz. Yönlendiricilerin yeteneklerini genişletmek için üçüncü taraf yazılım paketleri yüklemenize olanak tanır.
 
@@ -105,7 +105,7 @@ Starting with version 3.7, for some Keenetic models, it is possible to write OPK
 
 ### USB belleğine OPKG Entware nasıl yüklenir
 
-USB flaş bellekleri destekleyen USB portlarına sahip Keenetic modellerine OPKG paketlerini yüklemek mümkündür. These are: KN-1010/1011, KN-1410, KN-1710/1711, KN-1810, KN-1910, KN-2010, KN-2110, KN-2310, KN-2410, KN-2510, KN-2610, KN-2710.
+USB flaş bellekleri destekleyen USB portlarına sahip Keenetic modellerine OPKG paketlerini yüklemek mümkündür. Bunlar: KN-1010/1011, KN-1410, KN-1710/1711, KN-1810, KN-1910, KN-2010, KN-2110, KN-2310, KN-2410, KN-2510, KN-2610, KN-2710’dur.
 
 Ayrıntılı talimatlar için [resmi Keenetic Wiki](https://help.keenetic.com/hc/en-us/articles/360021214160-Installing-the-Entware-repository-package-system-on-a-USB-drive) adresini ziyaret edin.
 
@@ -117,7 +117,7 @@ Ayrıntılı talimatlar için [resmi Keenetic Wiki](https://help.keenetic.com/hc
 
 Yönlendiriciniz paketlerin dâhili belleğe yüklenmesini desteklemiyorsa, paketleri bir USB belleğe yüklemek için talimatları izleyin.
 
-## 5. Install AdGuard VPN CLI
+## 5. AdGuard VPN CLI'yi yükleme
 
 SSH istemcinizde, AdGuard VPN CLI için gerekli paketleri yüklemek için aşağıdaki kodu çalıştırın:
 
@@ -125,7 +125,7 @@ SSH istemcinizde, AdGuard VPN CLI için gerekli paketleri yüklemek için aşağ
 opkg install curl sudo ca-certificates
 ```
 
-Go to the `/opt` folder by typing `cd /opt` and run the AdGuard VPN CLI installation script:
+`cd /opt` komutunu çalıştırarak `/opt` klasörüne gidin ve AdGuard VPN CLI yükleme betiğini çalıştırın:
 
 ```bash
 curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/release/install.sh | sh -s -- -v
@@ -137,11 +137,11 @@ When asked “Would you like to link the binary to `/usr/local/bin?`“, reply `
 ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
 ```
 
-## 6. Set up AdGuard VPN CLI
+## 6. AdGuard VPN CLI'yi yükleme
 
 1. Hesabınıza giriş yapın
 
-    Linux için AdGuard VPN'i kullanmak için bir AdGuard hesabına ihtiyacınız vardır. [Sitemizden](https://auth.adguard.com/login.html) veya Terminal'den kaydolabilir veya giriş yapabilirsiniz.
+    Linux için AdGuard VPN'i kullanmak için bir AdGuard hesabına ihtiyacınız vardır. [Sitemizden](https://auth.adguardaccount.com/login.html) veya Terminal'den kaydolabilir veya giriş yapabilirsiniz.
 
     Before logging in, go to Terminal and make sure you are in the right shell interface. Eğer aşağıdaki metni görebiliyorsanız:
 
@@ -151,7 +151,7 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
     THIS SOFTWARE IS A SUBJECT OF KEENETIC LIMITED END-USER LICENCE AGREEMENT. BY USING IT YOU AGREE ON TERMS AND CONDITIONS HEREOF. FOR MORE INFORMATION PLEASE CHECK https://keenetic.com/legal
     ```
 
-    Run this command to exit into the shell needed for the next steps:
+    Sonraki adımlar için gereken kabuğa çıkmak için şu komutu çalıştırın:
 
     ```bash
     exec sh
@@ -173,7 +173,7 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
 
 2. VPN'e bağlanın
 
-    For Keenetic routers, be sure to import the SSL certificate and select a folder for the user directory by running this command before connecting:
+    Keenetic yönlendiriciler için, bağlanmadan önce bu komutu çalıştırarak SSL sertifikasını içe aktardığınızdan ve kullanıcı dizini için bir klasör seçtiğinizden emin olun:
 
     ```bash
     export SSL_CERT_FILE=/opt/etc/ssl/certs/ca-certificates.crt
@@ -222,11 +222,11 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
 
 AdGuard VPN CLI, VPN tünellemesi için bir tun0 arayüzü oluşturur.
 
-## 7. Set up firewall rules
+## 7. Güvenlik duvarı kurallarını ayarlama
 
 Bu adım, trafiği AdGuard VPN üzerinden yönlendirmek için Keenetic yönlendiricide güvenlik duvarı kurallarını yapılandırmak için tasarlanmıştır.
 
-1. **Install `iptables` by running this command via SSH:**
+1. **SSH üzerinden bu komutu çalıştırarak `iptables` yükleyin:**
 
     ```bash
     opkg install iptables
@@ -234,7 +234,7 @@ Bu adım, trafiği AdGuard VPN üzerinden yönlendirmek için Keenetic yönlendi
 
     Bu satır, Linux sistemlerinde ağ paket filtreleme kurallarını yönetmek için bir araç olan `iptables` paketini yükler.
 
-2. **Create a new shell script by running the following command:**
+2. **Aşağıdaki komutu çalıştırarak yeni bir kabuk betiği oluşturun:**
 
     ```bash
 
@@ -259,7 +259,7 @@ Bu adım, trafiği AdGuard VPN üzerinden yönlendirmek için Keenetic yönlendi
 
     Eğer daha fazla brX arayüzünüz varsa, trafiği yönlendirmek için onları da betiğe dâhil ettiğinizden emin olun. Alternatif olarak, bu arayüzler için farklı bir yönlendirme kuralı belirttiğinizden emin olun.
 
-This will create a new shell script named `001-adguardvpn.sh` in the `/opt/etc/ndm/netfilter.d/` directory, which is where network-related scripts are typically stored on a Keenetic router.
+Bu, Keenetic yönlendiricide ağ ile ilgili betiklerin genellikle depolandığı `/opt/etc/ndm/netfilter.d/` dizininde `001-adguardvpn.sh` adında yeni bir kabuk betiği oluşturur.
 
 Betik, LAN'ınızdan (`br0`) gelen trafiğin AdGuard VPN arayüzü (`tun0`) üzerinden yönlendirilmesini sağlamak için özel bir güvenlik duvarı kuralı oluşturur. Öncelikle bu yapılandırmayla ilgili önceki kuralları temizler, ardından trafiği uygun şekilde yönlendirecek yeni kurallar oluşturur.
 
@@ -292,3 +292,9 @@ chmod +x /opt/etc/ndm/wan.d/001-adguardvpn.sh
 Kurulumu tamamlamak için yönlendiricinizi yeniden başlatın.
 
 Tebrikler! Artık AdGuard VPN ile güvence altına alınmış bir yönlendiriciniz var.
+
+If you want to disable the autolaunch of AdGuard VPN, you need to to delete the script that activates it. To do so, run the following command:
+
+```bash
+rm /opt/etc/ndm/wan.d/001-adguardvpn.sh
+```
