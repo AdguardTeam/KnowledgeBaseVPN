@@ -35,7 +35,7 @@ If the problem persists, please contact the AdGuard VPN support team (**support@
 If you can’t connect to AdGuard VPN on Windows, follow the steps:
 
 1. Temporarily disable other software. The most frequent conflicts are:
- 
+
 - Antivirus programs (especially Kaspersky, Dr.Web, Bitdefender, Avast, ESET)
 - Proxy tools (for example, Proxifier)
 - Firewalls and third-party DNS services

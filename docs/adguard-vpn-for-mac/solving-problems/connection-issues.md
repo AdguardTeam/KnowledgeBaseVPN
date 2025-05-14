@@ -37,7 +37,7 @@ If you can’t connect to AdGuard VPN on macOS, there might be two solutions:
 1. Disable *Screen time*. Follow [Apple’s official guide](https://support.apple.com/ru-ru/guide/mac-help/mchl7a0a2743/15.0/mac/15.0) for details.
 
 1. Temporarily disable other software. Common conflicts include:
- 
+
 - Antivirus programs
 - Proxy tools
 - Firewalls and third-party DNS services
