@@ -11,9 +11,9 @@ When AdGuard VPN isn’t working properly on a particular Wi-Fi network:
 
  1. Check the router settings and active services. Some of them may interfere with AdGuard VPN:
 
- * Other VPNs (running simultaneously)
- * Firewalls (blocking VPN traffic)
- * Network filters (for example, built-in Internet filters on Keenetic routers, refer to the [manufacturer’s guide](https://help.keenetic.com/) for details)
+ - Other VPNs (running simultaneously)
+ - Firewalls (blocking VPN traffic)
+ - Network filters (for example, built-in Internet filters on Keenetic routers, refer to the [manufacturer’s guide](https://help.keenetic.com/) for details)
 
  1. Disable conflicting services and settings
 
@@ -25,8 +25,8 @@ If the problem persists, please contact the AdGuard VPN support team (**support@
 
 Checky system time settings — incorrect date and time may block the app from connecting to the server.
 
-* Enable automatic time synchronization
-* Manually set correct time if needed
+- Enable automatic time synchronization
+- Manually set correct time if needed
 
 If the problem persists, please contact the AdGuard VPN support team (**support@adguard.com**).
 
@@ -37,8 +37,9 @@ If you can’t connect to AdGuard VPN on macOS, there might be two solutions:
  1. Disable *Screen time*. Follow [Apple’s official guide](https://support.apple.com/ru-ru/guide/mac-help/mchl7a0a2743/15.0/mac/15.0) for details.
 
  1. Temporarily disable other software. Common conflicts include:
- * Antivirus programs
- * Proxy tools
- * Firewalls and third-party DNS services
+ 
+ - Antivirus programs
+ - Proxy tools
+ - Firewalls and third-party DNS services
 
 Restart your PC and check if the issue is resolved. If the problem persists, please contact the AdGuard VPN support team (**support@adguard.com**).
