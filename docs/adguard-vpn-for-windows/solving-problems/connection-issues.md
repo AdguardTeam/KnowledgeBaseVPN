@@ -19,7 +19,7 @@ When AdGuard VPN isn’t working properly on a particular Wi-Fi network:
 
 1. Restart your router and relaunch AdGuard VPN
 
-If the problem persists, please contact the AdGuard VPN support team (**support@adguard.com**).
+If the problem persists, please contact the AdGuard VPN support team at support@adguard-vpn.com.
 
 ## Connection issues on one device
 
@@ -38,4 +38,4 @@ If the problem persists, follow the steps:
 
 1. Restart your PC and check if the issue is resolved. If the problem persists, please contact the AdGuard VPN support team.
 
-If the problem persists, please contact the AdGuard VPN support team (**support@adguard.com**).
+If the problem persists, please contact the AdGuard VPN support team at support@adguard-vpn.com.

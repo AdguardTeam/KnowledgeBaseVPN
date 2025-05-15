@@ -19,7 +19,7 @@ When AdGuard VPN isn’t working properly on a particular Wi-Fi network:
 
 1. Restart your router and relaunch AdGuard VPN
 
-If the problem persists, please contact the AdGuard VPN support team (**support@adguard.com**).
+If the problem persists, please contact the AdGuard VPN support team at support@adguard-vpn.com.
 
 ## Connection issues on one device
 
@@ -28,4 +28,4 @@ Checky system time settings — incorrect date and time may block the app from c
 - Enable automatic time synchronization
 - Manually set correct time if needed
 
-If the problem persists, please contact the AdGuard VPN support team (**support@adguard.com**).
+If the problem persists, please contact the AdGuard VPN support team at support@adguard-vpn.com.
