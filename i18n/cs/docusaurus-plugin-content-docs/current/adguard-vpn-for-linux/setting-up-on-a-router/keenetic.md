@@ -293,7 +293,7 @@ Restartujte router a dokončete nastavení.
 
 Gratulujeme! Nyní máte router zabezpečený pomocí AdGuard VPN.
 
-If you want to disable the autolaunch of AdGuard VPN, you need to to delete the script that activates it. To do so, run the following command:
+Pokud chcete zakázat automatické spouštění AdGuard VPN, musíte smazat skript, který ji aktivuje. Za tímto účelem spusťte následující příkaz:
 
 ```bash
 rm /opt/etc/ndm/wan.d/001-adguardvpn.sh
