@@ -21,7 +21,7 @@ Jakmile se dostanete na stránku pro testování beta verzí, stačí si vybrat 
 
 :::note
 
-To get the beta or nightly build of AdGuard VPN for iOS, you must first install [TestFlight](https://apps.apple.com/app/testflight/id899247664) on your iOS device.
+Chcete-li získat beta nebo nightly sestavení AdGuard VPN pro iOS, musíte nejprve do svého zařízení se systémem iOS nainstalovat [aplikaci TestFlight](https://apps.apple.com/app/testflight/id899247664).
 
 :::
 
