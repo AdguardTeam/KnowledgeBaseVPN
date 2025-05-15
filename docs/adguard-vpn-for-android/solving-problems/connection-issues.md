@@ -5,7 +5,7 @@ sidebar_position: 8
 
 When troubleshooting AdGuard VPN connection issues, problems are typically either network-related (affecting specific Wi-Fi networks) or device-related (occurring across all connections). The following sections will help you identify and resolve these issues. Before proceeding, ensure you're using the latest version of AdGuard VPN and have tried restarting both your device and router.
 
-## Connection problems on specific Wi-Fi networks
+## Connection issues on specific Wi-Fi networks
 
 When AdGuard VPN isn’t working properly on a particular Wi-Fi network:
 
@@ -23,7 +23,7 @@ If the problem persists, please contact the AdGuard VPN support team at support@
 
 ## Connection issues on one device
 
-Checky system time settings — incorrect date and time may block the app from connecting to the server.
+Check system time settings — incorrect date and time may block the app from connecting to the server.
 
 - Enable automatic time synchronization
 - Manually set correct time if needed
