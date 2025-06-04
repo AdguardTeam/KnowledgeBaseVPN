@@ -42,7 +42,7 @@ No-logging policy means that we don’t collect, store, or transfer users’ per
 
 Web traffic from any user may be of interest and is particularly valuable in terms of monetization of personal data. Both criminals and unscrupulous ISPs can access it. However, with a trustworthy VPN, you can be confident that neither your provider nor anyone else will see your internet activity.
 
-### Ultra-fast VPN servers in 58 countries
+### Ultra-fast VPN servers in 61 countries
 
 - Argentina
 - Australia
