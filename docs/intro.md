@@ -77,6 +77,7 @@ Web traffic from any user may be of interest and is particularly valuable in ter
 - Latvia
 - Luxembourg
 - Mexico
+- Moldova
 - Netherlands
 - New Zealand
 - Nigeria
