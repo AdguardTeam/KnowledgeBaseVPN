@@ -105,4 +105,4 @@ Web traffic from any user may be of interest and is particularly valuable in ter
 - United States of America
 - Vietnam
 
-ᵛ = "Virtual" servers, due to very heavy state censorship in the countries that the servers are intended to cover.
+ᵛ = “Virtual” servers. This is due to very heavy state censorship in the countries that these servers are intended to cover.
