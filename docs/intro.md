@@ -98,6 +98,7 @@ Web traffic from any user may be of interest and is particularly valuable in ter
 - South Korea
 - Spain
 - Switzerland
+- Thailand
 - Turkey
 - Ukraine
 - United Arab Emirates
