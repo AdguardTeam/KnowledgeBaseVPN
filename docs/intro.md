@@ -68,6 +68,7 @@ Web traffic from any user may be of interest and is particularly valuable in ter
 - Hungary
 - Iceland
 - Indiaᵛ
+- Indonesia
 - Iranᵛ
 - Ireland
 - Israel
