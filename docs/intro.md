@@ -42,7 +42,7 @@ No-logging policy means that we don’t collect, store, or transfer users’ per
 
 Web traffic from any user may be of interest and is particularly valuable in terms of monetization of personal data. Both criminals and unscrupulous ISPs can access it. However, with a trustworthy VPN, you can be confident that neither your provider nor anyone else will see your internet activity.
 
-### Ultra-fast VPN servers in 61 countries
+### Ultra-fast VPN servers in 64 countries
 
 - Argentina
 - Australia
@@ -53,6 +53,7 @@ Web traffic from any user may be of interest and is particularly valuable in ter
 - Cambodia
 - Canada
 - Chile
+- China
 - Colombia
 - Croatia
 - Cyprus
@@ -76,19 +77,19 @@ Web traffic from any user may be of interest and is particularly valuable in ter
 - Japan
 - Kazakhstan
 - Latvia
+- Lithuania
 - Luxembourg
 - Mexico
 - Moldova
+- Nepal
 - Netherlands
 - New Zealand
 - Nigeria
 - Norway
-- People's Republic of Chinaᵛ
 - Peru
 - Philippines
 - Poland
 - Portugal
-- Republic of China (Taiwan)
 - Romania
 - Russiaᵛ
 - Serbia
@@ -97,12 +98,14 @@ Web traffic from any user may be of interest and is particularly valuable in ter
 - South Africa
 - South Korea
 - Spain
+- Sweden
 - Switzerland
+- Taiwan
 - Thailand
 - Turkey
 - Ukraine
 - United Arab Emirates
-- United Kingdom (England)
+- United Kingdom
 - United States of America
 - Vietnam
 
