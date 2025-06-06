@@ -42,7 +42,7 @@ VPN можно использовать, чтобы:
 
 Веб-трафик любого пользователя имеет ценность, в первую очередь с точки зрения монетизации личных данных. Доступ к нему могут получить как преступники, так и недобросовестные интернет-провайдеры. Однако с надёжным VPN можно быть уверенным – ни ваш провайдер, ни кто-либо ещё не увидит вашу интернет-активность.
 
-### Ультрабыстрые VPN-серверы в 53 странах
+### Ultra-fast VPN servers in 64 countries
 
 - Аргентина
 - Австралия
@@ -53,47 +53,60 @@ VPN можно использовать, чтобы:
 - Камбоджа
 - Канада
 - Чили
-- Колумбия
-- Хорватия
-- Кипр
-- Чехия
-- Дания
-- Египет
-- Эстония
-- Финляндия
-- Франция
-- Германия
-- Греция
-- Гонконг
-- Венгрия
-- Индия
-- Ирландия
-- Израиль
-- Италия
-- Япония
-- Казахстан
-- Люксембург
-- Мексика
-- Нидерланды
-- Новая Зеландия
-- Норвегия
-- Филиппины
-- Польша
-- Португалия
-- Румыния
-- Россия
-- Сербия
-- Сингапур
-- Словакия
-- Южная Африка
-- Южная Корея
-- Испания
-- Швеция
-- Швейцария
-- Тайвань
-- Турция
-- Великобритания
-- Объединённые Арабские Эмираты
-- Соединённые Штаты Америки
-- Украина
-- Вьетнам
+- China
+- Colombia
+- Croatia
+- Cyprus
+- Czechia
+- Denmark
+- Egypt
+- Estonia
+- Finland
+- France
+- Germany
+- Greece
+- Hong Kong
+- Hungary
+- Iceland
+- Indiaᵛ
+- Indonesia
+- Iranᵛ
+- Ireland
+- Israel
+- Italy
+- Japan
+- Kazakhstan
+- Latvia
+- Lithuania
+- Luxembourg
+- Mexico
+- Moldova
+- Nepal
+- Netherlands
+- New Zealand
+- Nigeria
+- Norway
+- Peru
+- Philippines
+- Poland
+- Portugal
+- Romania
+- Russiaᵛ
+- Serbia
+- Singapore
+- Slovakia
+- South Africa
+- South Korea
+- Spain
+- Sweden
+- Switzerland
+- Taiwan
+- Thailand
+- Turkey
+- Ukraine
+- United Arab Emirates
+- United Kingdom
+- United States of America
+- Vietnam
+
+ᵛ = “Virtual” servers. This is due to very heavy state censorship in the countries that these servers are intended to cover.

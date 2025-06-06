@@ -42,7 +42,7 @@ No-logging policy means that we don’t collect, store, or transfer users’ per
 
 모든 사용자의 웹 트래픽은 주로 개인 데이터의 수익 창출 측면에서 가치가 있습니다. 사이버 범죄자와 인터넷 공급자 모두 사용자의 트래픽에 액세스할 수 있습니다. 그러나 신뢰할 수 있는 VPN을 사용하면 공급자나 다른 사람이 귀하의 인터넷 활동을 볼 수 없다고 확신할 수 있습니다.
 
-### Ultra-fast VPN servers in 53 countries
+### Ultra-fast VPN servers in 64 countries
 
 - 아르헨티나
 - 호주
@@ -53,47 +53,60 @@ No-logging policy means that we don’t collect, store, or transfer users’ per
 - 캄보디아
 - 캐나다
 - 칠레
-- 콜롬비아
-- 크로아티아
+- China
+- Colombia
+- Croatia
 - Cyprus
-- 체코
-- 덴마크
-- 이집트
-- 에스토니아
-- 핀란드
-- 프랑스
-- 독일
-- 그리스
-- 홍콩
-- 헝가리
-- 인도
-- 아일랜드
-- 이스라엘
-- 이탈리아
-- 일본
-- 카자흐스탄
-- 룩셈부르크
-- 멕시코
-- 네덜란드
-- 뉴질랜드
-- 노르웨이
-- 필리핀
-- 폴란드
-- 포르투갈
-- 루마니아
-- 러시아
-- 세르비아
-- 싱가포르
-- 슬로바키아
-- 남아프리카
-- 대한민국
-- 스페인
-- 스웨덴
-- 스위스
-- 대만
-- 튀르키예
-- 영국
-- 아랍 에미리트
-- 미국
-- 우크라이나
-- 베트남
+- Czechia
+- Denmark
+- Egypt
+- Estonia
+- Finland
+- France
+- Germany
+- Greece
+- Hong Kong
+- Hungary
+- Iceland
+- Indiaᵛ
+- Indonesia
+- Iranᵛ
+- Ireland
+- Israel
+- Italy
+- Japan
+- Kazakhstan
+- Latvia
+- Lithuania
+- Luxembourg
+- Mexico
+- Moldova
+- Nepal
+- Netherlands
+- New Zealand
+- Nigeria
+- Norway
+- Peru
+- Philippines
+- Poland
+- Portugal
+- Romania
+- Russiaᵛ
+- Serbia
+- Singapore
+- Slovakia
+- South Africa
+- South Korea
+- Spain
+- Sweden
+- Switzerland
+- Taiwan
+- Thailand
+- Turkey
+- Ukraine
+- United Arab Emirates
+- United Kingdom
+- United States of America
+- Vietnam
+
+ᵛ = “Virtual” servers. This is due to very heavy state censorship in the countries that these servers are intended to cover.

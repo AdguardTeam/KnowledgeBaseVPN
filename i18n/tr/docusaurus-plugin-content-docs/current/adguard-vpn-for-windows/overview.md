@@ -35,7 +35,7 @@ Varsayılan olarak, Windows için AdGuard VPN her yerde çalışır. VPN tüneli
 
 Alan adlarını girerek siteleri **el ile** istisnalara ekleyebilirsiniz. Uygulama ayrıca size **listeden** popüler siteleri seçme seçeneği sunar.
 
-![Add Exclusions from list *border](https://cdn.adguardvpn.com/content/kb/VPN/windows/new_exclusions_from_list_en.png)
+![Listeden İstisnalar ekle *border](https://cdn.adguardvpn.com/content/kb/VPN/windows/new_exclusions_from_list_en.png)
 
 :::note
 

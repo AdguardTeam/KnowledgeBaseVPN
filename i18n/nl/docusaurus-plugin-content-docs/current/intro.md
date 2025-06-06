@@ -42,7 +42,7 @@ Geen logboekregistratie betekent dat we de persoonlijke gegevens van gebruikers 
 
 Webverkeer van elke gebruiker kan interessant zijn en is vooral waardevol als het gaat om het genereren van inkomsten met persoonlijke gegevens. Zowel criminelen als gewetenloze ISP's hebben er toegang toe. Met een betrouwbare VPN kun je er echter op vertrouwen dat noch je provider, noch iemand anders je internetactiviteiten kan zien.
 
-### Ultrasnelle VPN-servers in 53 landen
+### Ultra-fast VPN servers in 64 countries
 
 - Argentinië
 - Australië
@@ -53,47 +53,60 @@ Webverkeer van elke gebruiker kan interessant zijn en is vooral waardevol als he
 - Cambodja
 - Canada
 - Chili
+- China
 - Colombia
-- Kroatië
+- Croatia
 - Cyprus
-- Tsjechië
-- Denemarken
-- Egypte
-- Estland
+- Czechia
+- Denmark
+- Egypt
+- Estonia
 - Finland
-- Frankrijk
-- Duitsland
-- Griekenland
-- Hongkong
-- Hongarije
-- Indië
-- Ierland
-- Israël
-- Italië
+- France
+- Germany
+- Greece
+- Hong Kong
+- Hungary
+- Iceland
+- Indiaᵛ
+- Indonesia
+- Iranᵛ
+- Ireland
+- Israel
+- Italy
 - Japan
-- Kazachstan
-- Luxemburg
+- Kazakhstan
+- Latvia
+- Lithuania
+- Luxembourg
 - Mexico
-- Nederland
-- Nieuw-Zeeland
-- Noorwegen
-- Filippijnen
-- Polen
+- Moldova
+- Nepal
+- Netherlands
+- New Zealand
+- Nigeria
+- Norway
+- Peru
+- Philippines
+- Poland
 - Portugal
-- Roemenië
-- Rusland
-- Servië
+- Romania
+- Russiaᵛ
+- Serbia
 - Singapore
-- Slowakije
-- Zuid-Afrika
-- Zuid-Korea
-- Spanje
-- Zweden
-- Zwitserland
+- Slovakia
+- South Africa
+- South Korea
+- Spain
+- Sweden
+- Switzerland
 - Taiwan
-- Turkije
-- Verenigd Koninkrijk
-- Verenigde Arabische Emiraten
-- Verenigde Staten van Amerika
-- Oekraïne
+- Thailand
+- Turkey
+- Ukraine
+- United Arab Emirates
+- United Kingdom
+- United States of America
 - Vietnam
+
+ᵛ = “Virtual” servers. This is due to very heavy state censorship in the countries that these servers are intended to cover.

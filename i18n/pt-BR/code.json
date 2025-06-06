@@ -370,11 +370,11 @@
     "description": "The label and ARIA label for search box reset button"
   },
   "theme.SearchModal.searchBox.cancelButtonText": {
-    "message": "Cancel",
+    "message": "Cancelar",
     "description": "The label and ARIA label for search box cancel button"
   },
   "theme.SearchModal.startScreen.recentSearchesTitle": {
-    "message": "Recent",
+    "message": "Recentes",
     "description": "The title for recent searches"
   },
   "theme.SearchModal.startScreen.noRecentSearchesText": {

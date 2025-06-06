@@ -293,7 +293,7 @@ Kurulumu tamamlamak için yönlendiricinizi yeniden başlatın.
 
 Tebrikler! Artık AdGuard VPN ile güvence altına alınmış bir yönlendiriciniz var.
 
-If you want to disable the autolaunch of AdGuard VPN, you need to to delete the script that activates it. To do so, run the following command:
+AdGuard VPN'in otomatik başlatılmasını devre dışı bırakmak istiyorsanız, onu etkinleştiren betiği silmeniz gerekir. Bunu yapmak için aşağıdaki komutu çalıştırın:
 
 ```bash
 rm /opt/etc/ndm/wan.d/001-adguardvpn.sh

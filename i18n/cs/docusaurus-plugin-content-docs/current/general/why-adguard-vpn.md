@@ -49,7 +49,7 @@ U aplikací pro počítače a rozšíření webového prohlížeče dochází ke
 
 U mobilních zařízení to tak jednoduché není. V naprosté většině případů nebudou dvě aplikace VPN fungovat společně. V Androidu i v iOS existují omezení, která tomu brání.
 
-![Integrated mode](https://cdn.adguard.com/content/blog/articles/adguard-vpn/integration-en.png)
+![Integrated mode *mobile](https://cdn.adguard.com/content/blog/articles/adguard-vpn/integration-en.png)
 
 Podařilo se nám však najít řešení, jak spřátelit AdGuard VPN a blokátor reklam AdGuard. Pokud máte v jednom zařízení nainstalovány obě aplikace AdGuard, stanou se automaticky kompatibilními, aniž byste museli cokoli dělat. Jedná se o jedinečnou příležitost využít dvě sady funkcí, mezi kterými byste si za normálních okolností museli vybrat.
 

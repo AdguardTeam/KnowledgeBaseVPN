@@ -42,7 +42,7 @@ No-logging policy means that we don’t collect, store, or transfer users’ per
 
 ユーザーのウェブトラフィックは第三者の関心を引く可能性があり、特に個人情報のマネタイズという点で価値があります。 犯罪者や悪徳インターネットプロバイダがトラフィックにアクセスできます。 しかし、信頼できるVPNを利用すれば、プロバイダーや他の第三者にもあなたのインターネット行動を見られることはありません。
 
-### Ultra-fast VPN servers in 53 countries
+### Ultra-fast VPN servers in 64 countries
 
 - アルゼンチン
 - オーストラリア
@@ -53,47 +53,60 @@ No-logging policy means that we don’t collect, store, or transfer users’ per
 - カンボジア
 - カナダ
 - チリ
-- コロンビア
-- クロアチア
-- キプロス
-- チェコ
-- デンマーク
-- エジプト
-- エストニア
-- フィンランド
-- フランス
-- ドイツ
-- ギリシャ
-- 香港
-- ハンガリー
-- インド
-- アイルランド
-- イスラエル
-- イタリア
-- 日本
-- カザフスタン
-- ルクセンブルク
-- メキシコ
-- オランダ
-- ニュージーランド
-- ノルウェー
-- フィリピン
-- ポーランド
-- ポルトガル
-- ルーマニア
-- ロシア
-- セルビア
-- シンガポール
-- スロバキア
-- 南アフリカ
-- 韓国
-- スペイン
-- スウェーデン
-- スイス
-- 台湾
-- トルコ
-- イギリス
-- アラブ首長国連邦
-- アメリカ合衆国
-- ウクライナ
-- ベトナム
+- China
+- Colombia
+- Croatia
+- Cyprus
+- Czechia
+- Denmark
+- Egypt
+- Estonia
+- Finland
+- France
+- Germany
+- Greece
+- Hong Kong
+- Hungary
+- Iceland
+- Indiaᵛ
+- Indonesia
+- Iranᵛ
+- Ireland
+- Israel
+- Italy
+- Japan
+- Kazakhstan
+- Latvia
+- Lithuania
+- Luxembourg
+- Mexico
+- Moldova
+- Nepal
+- Netherlands
+- New Zealand
+- Nigeria
+- Norway
+- Peru
+- Philippines
+- Poland
+- Portugal
+- Romania
+- Russiaᵛ
+- Serbia
+- Singapore
+- Slovakia
+- South Africa
+- South Korea
+- Spain
+- Sweden
+- Switzerland
+- Taiwan
+- Thailand
+- Turkey
+- Ukraine
+- United Arab Emirates
+- United Kingdom
+- United States of America
+- Vietnam
+
+ᵛ = “Virtual” servers. This is due to very heavy state censorship in the countries that these servers are intended to cover.

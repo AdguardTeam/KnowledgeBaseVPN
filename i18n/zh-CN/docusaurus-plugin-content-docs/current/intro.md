@@ -42,7 +42,7 @@ No-logging policy means that we don’t collect, store, or transfer users’ per
 
 任何用户的网络流量都可能引起兴趣，在个人数据的货币化方面尤其有价值。 犯罪分子和不诚实的互联网服务提供商都可以访问用户个人数据。 然而，有了值得信赖的 VPN，您可以确信，无论是您的服务提供商还是其他人都不会检测您的互联网活动。
 
-### Ultra-fast VPN servers in 53 countries
+### Ultra-fast VPN servers in 64 countries
 
 - 阿根廷
 - 澳大利亚
@@ -53,47 +53,60 @@ No-logging policy means that we don’t collect, store, or transfer users’ per
 - 柬埔寨
 - 加拿大
 - 智利
-- 哥伦比亚
-- 克罗地亚
-- 塞浦路斯
-- 捷克
-- 丹麦
-- 埃及
-- 爱沙尼亚
-- 芬兰
-- 法国
-- 德国
-- 希腊
-- 香港
-- 匈牙利
-- 印度
-- 爱尔兰
-- 以色列
-- 意大利
-- 日本
-- 哈萨克斯坦
-- 卢森堡
-- 墨西哥
-- 荷兰
-- 新西兰
-- 挪威
-- 菲律宾
-- 波兰
-- 葡萄牙
-- 罗马尼亚
-- 俄罗斯
-- 塞尔维亚
-- 新加坡
-- 斯洛伐克
-- 南非
-- 韩国
-- 西班牙
-- 瑞典
-- 瑞士
-- 台湾
-- 土耳其
-- 英国
-- 阿拉伯联合酋长国
-- 美国
-- 乌克兰
-- 越南
+- China
+- Colombia
+- Croatia
+- Cyprus
+- Czechia
+- Denmark
+- Egypt
+- Estonia
+- Finland
+- France
+- Germany
+- Greece
+- Hong Kong
+- Hungary
+- Iceland
+- Indiaᵛ
+- Indonesia
+- Iranᵛ
+- Ireland
+- Israel
+- Italy
+- Japan
+- Kazakhstan
+- Latvia
+- Lithuania
+- Luxembourg
+- Mexico
+- Moldova
+- Nepal
+- Netherlands
+- New Zealand
+- Nigeria
+- Norway
+- Peru
+- Philippines
+- Poland
+- Portugal
+- Romania
+- Russiaᵛ
+- Serbia
+- Singapore
+- Slovakia
+- South Africa
+- South Korea
+- Spain
+- Sweden
+- Switzerland
+- Taiwan
+- Thailand
+- Turkey
+- Ukraine
+- United Arab Emirates
+- United Kingdom
+- United States of America
+- Vietnam
+
+ᵛ = “Virtual” servers. This is due to very heavy state censorship in the countries that these servers are intended to cover.

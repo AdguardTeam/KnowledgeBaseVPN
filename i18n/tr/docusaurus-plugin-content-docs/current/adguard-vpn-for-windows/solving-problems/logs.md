@@ -57,7 +57,7 @@ Günlükleri destek ekibimize göndermek için lütfen sonraki adımları izleyi
 
 1. Açılan forma e-posta adresinizi girin ve bulduğunuz hatayı, meydana geldiği zaman da dahil olmak üzere açıklayın. Sorunu yeniden oluşturamıyorsanız, en son ne zaman oluştuğuna dair olabildiğince açık olun.
 
-    ![Report *border](https://cdn.adguard-vpn.com/content/kb/vpn/windows/logs/report_bug.png)
+    ![Bildir *border](https://cdn.adguard-vpn.com/content/kb/vpn/windows/logs/report_bug.png)
 
 1. **Detaylı sistem bilgisi gönder** öğesinin yanında bir onay işareti vardır; bu, bir rapor gönderdiğinizde günlükleri de göndereceğiniz anlamına gelir.
 
