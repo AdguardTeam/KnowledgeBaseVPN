@@ -42,7 +42,7 @@ Keine Protokollierungsrichtlinie bedeutet, dass wir die personenbezogenen Daten 
 
 Web-Traffic von jedem Benutzer kann von Interesse sein und ist besonders wertvoll im Hinblick auf die Monetarisierung persönlicher Daten. Sowohl Kriminelle als auch skrupellose ISPs können darauf zugreifen. Mit einem vertrauenswürdigen VPN können Sie jedoch sicher sein, dass weder Ihr Anbieter noch sonst jemand Ihre Internetaktivitäten sehen wird.
 
-### Ultraschnelle VPN-Server in 53 Ländern
+### Ultra-fast VPN servers in 64 countries
 
 - Argentinien
 - Australien
@@ -53,47 +53,60 @@ Web-Traffic von jedem Benutzer kann von Interesse sein und ist besonders wertvol
 - Kambodscha
 - Kanada
 - Chile
-- Kolumbien
-- Kroatien
-- Zypern
-- Tschechische Republik
-- Dänemark
-- Ägypten
-- Estland
-- Finnland
-- Frankreich
-- Deutschland
-- Griechenland
-- Hongkong
-- Ungarn
-- Indien
-- Irland
+- China
+- Colombia
+- Croatia
+- Cyprus
+- Czechia
+- Denmark
+- Egypt
+- Estonia
+- Finland
+- France
+- Germany
+- Greece
+- Hong Kong
+- Hungary
+- Iceland
+- Indiaᵛ
+- Indonesia
+- Iranᵛ
+- Ireland
 - Israel
-- Italien
+- Italy
 - Japan
-- Kasachstan
-- Luxemburg
-- Mexiko
-- Niederlande
-- Neuseeland
-- Norwegen
-- Philippinen
-- Polen
+- Kazakhstan
+- Latvia
+- Lithuania
+- Luxembourg
+- Mexico
+- Moldova
+- Nepal
+- Netherlands
+- New Zealand
+- Nigeria
+- Norway
+- Peru
+- Philippines
+- Poland
 - Portugal
-- Rumänien
-- Russland
-- Serbien
-- Singapur
-- Slowakei
-- Südafrika
-- Südkorea
-- Spanien
-- Schweden
-- Schweiz
+- Romania
+- Russiaᵛ
+- Serbia
+- Singapore
+- Slovakia
+- South Africa
+- South Korea
+- Spain
+- Sweden
+- Switzerland
 - Taiwan
-- Türkei
-- Großbritannien
-- Vereinigte Arabische Emirate
-- Vereinigte Staaten von Amerika
+- Thailand
+- Turkey
 - Ukraine
+- United Arab Emirates
+- United Kingdom
+- United States of America
 - Vietnam
+
+ᵛ = “Virtual” servers. This is due to very heavy state censorship in the countries that these servers are intended to cover.

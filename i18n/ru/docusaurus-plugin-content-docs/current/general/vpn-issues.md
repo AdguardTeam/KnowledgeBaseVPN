@@ -7,7 +7,7 @@ sidebar_position: 10
 
 ## Открыть сайт AdGuard VPN
 
-If adguard-vpn.com is not accessible, try using the [mirror website](https://adguard-vpn.cc).
+Если adguard-vpn.com недоступен, попробуйте использовать [сайт-зеркало](https://adguard-vpn.cc).
 
 :::info
 
@@ -25,15 +25,15 @@ If adguard-vpn.com is not accessible, try using the [mirror website](https://adg
 
 ### AdGuard VPN для Android
 
-If you experience problems with Google Play, download the APK file from [AdGuard VPN’s mirror website](https://adguard-vpn.cc/android/overview.html).
+Если у вас возникли проблемы с Google Play, скачайте APK-файл  [с зеркального сайта AdGuard VPN](https://adguard-vpn.cc/android/overview.html).
 
 ### AdGuard VPN для Mac
 
-Download the installation file from [AdGuard VPN’s mirror website](https://adguard-vpn.cc/windows/overview.html).
+Загрузите установочный файл [с зеркального сайта AdGuard VPN](https://adguard-vpn.cc/windows/overview.html).
 
 ### AdGuard VPN для Windows
 
-Download the installation file from [AdGuard VPN’s mirror website](https://adguard-vpn.cc/mac/overview.html).
+Загрузите установочный файл [с зеркального сайта AdGuard VPN](https://adguard-vpn.cc/mac/overview.html).
 
 ## Что ещё может помочь
 

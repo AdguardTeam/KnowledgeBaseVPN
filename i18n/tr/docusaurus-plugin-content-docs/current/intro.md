@@ -42,7 +42,7 @@ Günlük tutmama politikası, kullanıcıların kişisel verilerini toplamadığ
 
 Herhangi bir kullanıcıdan gelen web trafiği ilginizi çekebilir ve özellikle kişisel verilerden para kazanma açısından değerlidir. Hem suçlular hem de vicdansız İSS'ler buna erişebilir. Ancak, güvenilir bir VPN ile, ne sağlayıcınızın ne de başka birinin internet etkinliğinizi görmeyeceğinden emin olabilirsiniz.
 
-### 53 ülkede aşırı hızlı VPN sunucuları
+### Ultra-fast VPN servers in 64 countries
 
 - Arjantin
 - Avustralya
@@ -53,47 +53,60 @@ Herhangi bir kullanıcıdan gelen web trafiği ilginizi çekebilir ve özellikle
 - Kamboçya
 - Kanada
 - Şili
-- Kolombiya
-- Hırvatistan
-- Kıbrıs
-- Çekya
-- Danimarka
-- Mısır
-- Estonya
-- Finlandiya
-- Fransa
-- Almanya
-- Yunanistan
+- China
+- Colombia
+- Croatia
+- Cyprus
+- Czechia
+- Denmark
+- Egypt
+- Estonia
+- Finland
+- France
+- Germany
+- Greece
 - Hong Kong
-- Macaristan
-- Hindistan
-- İrlanda
-- İsrail
-- İtalya
-- Japonya
-- Kazakistan
-- Lüksemburg
-- Meksika
-- Hollanda
-- Yeni Zelanda
-- Norveç
-- Filipinler
-- Polonya
-- Portekiz
-- Romanya
-- Rusya
-- Sırbistan
-- Singapur
-- Slovakya
-- Güney Afrika
-- Güney Kore
-- İspanya
-- İsveç
-- İsviçre
-- Tayvan
-- Türkiye
-- Birleşik Krallık
-- Birleşik Arap Emirlikleri
-- Amerika Birleşik Devletleri
-- Ukrayna
+- Hungary
+- Iceland
+- Indiaᵛ
+- Indonesia
+- Iranᵛ
+- Ireland
+- Israel
+- Italy
+- Japan
+- Kazakhstan
+- Latvia
+- Lithuania
+- Luxembourg
+- Mexico
+- Moldova
+- Nepal
+- Netherlands
+- New Zealand
+- Nigeria
+- Norway
+- Peru
+- Philippines
+- Poland
+- Portugal
+- Romania
+- Russiaᵛ
+- Serbia
+- Singapore
+- Slovakia
+- South Africa
+- South Korea
+- Spain
+- Sweden
+- Switzerland
+- Taiwan
+- Thailand
+- Turkey
+- Ukraine
+- United Arab Emirates
+- United Kingdom
+- United States of America
 - Vietnam
+
+ᵛ = “Virtual” servers. This is due to very heavy state censorship in the countries that these servers are intended to cover.

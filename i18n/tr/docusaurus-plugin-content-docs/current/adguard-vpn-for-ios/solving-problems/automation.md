@@ -14,19 +14,19 @@ Bir veya daha fazla uygulama için bir VPN'e ihtiyacınız varsa, AdGuard VPN'i,
 
 1. *Yeni Otomasyon* veya + (başka bir otomasyonunuz varsa) öğesine dokunun. In the *Personal Automation* list that opens, scroll to find *App* and tap it.
 
-    ![Yeni Otomasyon](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/newautomation.png)
+    ![New Automation *mobile](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/newautomation.png)
 
 1. Select the *Is Opened* checkbox, select *Run Immediately* (if you don’t want to confirm the VPN launch manually), and leave the slider next to the *Ask before running* option to the inactive position.
 
-    ![Is Opened](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/isopened.png)
+    ![Is Opened *mobile](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/isopened.png)
 
 1. Tap *Choose* next to the *App*, select the app you’re setting up the VPN for, tap *Done* and *Next*.
 
-    ![Uygulama](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/app.png)
+    ![App *mobile](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/app.png)
 
 1. Tap *New Blank Automation* in *Get Started*, find AdGuard VPN, tap *Set VPN connection*, select *Turn VPN connection On*, and tap *Done*.
 
-    ![Blank Automation](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/blankautomation.png) ![Set VPN connection](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/setvpnconnection.png) ![Turn VPN connection On](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/turnvpnconnectionon.png)
+    ![Blank Automation *mobile](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/blankautomation.png) ![Set VPN connection *mobile](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/setvpnconnection.png) ![Turn VPN connection On *mobile](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/turnvpnconnectionon.png)
 
 AdGuard VPN artık otomasyonunu ayarladığınız uygulamayı açtığınızda otomatik olarak etkinleştirilecektir. İsterseniz, uygulamayı kapattığınızda AdGuard VPN'in otomatik olarak kapanmasını sağlayacak başka bir komut oluşturabilirsiniz.
 
@@ -34,18 +34,18 @@ AdGuard VPN artık otomasyonunu ayarladığınız uygulamayı açtığınızda o
 
 1. Aynı *Kısayollar* uygulamasında yeni bir otomasyon oluşturmaya başlayın: + öğesine dokunun, kaydırın ve listede *Uygulama* öğesine dokunun.
 
-    ![Plus](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/plus.png)
+    ![Plus *mobile](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/plus.png)
 
 1. Select the *Is Closed* checkbox, select *Run Immediately*, and leave the slider next to the *Ask before running* option to the inactive position.
 
-    ![Is Closed](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/isclosed.png)
+    ![Is Closed *mobile](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/isclosed.png)
 
 1. Tap *Choose* next to the *App*, select the app you’re setting up the VPN for (in our example, it’s Instagram), tap *Done* and *Next*.
 
 1. Tap *New Blank Automation* in *Get Started*, find AdGuard VPN, tap *Set VPN connection*, select *Turn VPN connection Off*, and tap *Done*.
 
-    ![Turn VPN connection Off](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/turnvpnconnectionoff.png)
+    ![Turn VPN connection Off *mobile](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/turnvpnconnectionoff.png)
 
 Tamamlandı! AdGuard VPN artık otomasyonunu ayarladığınız uygulamayı her kapattığınızda cihazınızda devre dışı bırakılır. Başka bir uygulama için aynı adımları tekrarlayabilirsiniz.
 
-![Tamamlandı](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/done.png)
+![Done *mobile](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/done.png)

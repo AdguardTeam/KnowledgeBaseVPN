@@ -3,7 +3,7 @@ title: İstisnalar
 sidebar_position: 7
 ---
 
-_İstisnalar_ özelliği, hangi alan adlarının trafiğinin VPN yönlendirmesinden hariç tutulacağına karar vermenizi sağlar. This is handy when you don’t need VPN to work for some websites, because it saves you the hassle of constantly turning VPN on and off.
+_İstisnalar_ özelliği, hangi alan adlarının trafiğinin VPN yönlendirmesinden hariç tutulacağına karar vermenizi sağlar. Bu, bazı sitelerin çalışması için VPN'e ihtiyaç duymadığınızda kullanışlıdır, çünkü sizi sürekli VPN'i açıp kapatma zahmetinden kurtarır.
 
 Diğer platformlardaki AdGuard VPN'de olduğu gibi, Linux için AdGuard VPN'de de İstisnaları iki modda kullanabilirsiniz: Genel (VPN, istisna listesindekiler dışındaki tüm alan adları için etkindir) ve Seçici (VPN, yalnızca istisna listesindeki alan adları için etkindir).
 

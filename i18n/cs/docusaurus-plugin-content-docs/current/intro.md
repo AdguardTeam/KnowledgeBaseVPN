@@ -42,7 +42,7 @@ Hlavní rozdíl mezi AdGuard VPN a konkurencí spočívá v tom, že používám
 
 Webový provoz jakéhokoli uživatele může být zajímavý a je cenný zejména z hlediska zpeněžení osobních údajů. Přístup k němu mají zločinci i bezohlední poskytovatelé internetových služeb. S důvěryhodnou sítí VPN si však můžete být jisti, že poskytovatel ani nikdo jiný vaši internetovou aktivitu neuvidí.
 
-### Velmi rychlé VPN servery v 53 zemích
+### Ultra-fast VPN servers in 64 countries
 
 - Argentina
 - Austrálie
@@ -53,47 +53,60 @@ Webový provoz jakéhokoli uživatele může být zajímavý a je cenný zejmén
 - Kambodža
 - Kanada
 - Chile
-- Kolumbie
-- Chorvatsko
-- Kypr
-- Česko
-- Dánsko
+- China
+- Colombia
+- Croatia
+- Cyprus
+- Czechia
+- Denmark
 - Egypt
-- Estonsko
-- Finsko
-- Francie
-- Německo
-- Řecko
+- Estonia
+- Finland
+- France
+- Germany
+- Greece
 - Hong Kong
-- Maďarsko
-- Indie
-- Irsko
-- Izrael
-- Itálie
-- Japonsko
-- Kazachstán
-- Lucembursko
-- Mexiko
-- Nizozemsko
-- Nový Zéland
-- Norsko
-- Filipíny
-- Polsko
-- Portugalsko
-- Rumunsko
-- Rusko
-- Srbsko
-- Singapur
-- Slovensko
-- Jihoafrická republika
-- Jižní Korea
-- Španělsko
-- Švédsko
-- Švýcarsko
-- Tchaj-wan
-- Turecko
-- Velká Británie
-- Spojené arabské emiráty
-- USA
-- Ukrajina
+- Hungary
+- Iceland
+- Indiaᵛ
+- Indonesia
+- Iranᵛ
+- Ireland
+- Israel
+- Italy
+- Japan
+- Kazakhstan
+- Latvia
+- Lithuania
+- Luxembourg
+- Mexico
+- Moldova
+- Nepal
+- Netherlands
+- New Zealand
+- Nigeria
+- Norway
+- Peru
+- Philippines
+- Poland
+- Portugal
+- Romania
+- Russiaᵛ
+- Serbia
+- Singapore
+- Slovakia
+- South Africa
+- South Korea
+- Spain
+- Sweden
+- Switzerland
+- Taiwan
+- Thailand
+- Turkey
+- Ukraine
+- United Arab Emirates
+- United Kingdom
+- United States of America
 - Vietnam
+
+ᵛ = “Virtual” servers. This is due to very heavy state censorship in the countries that these servers are intended to cover.

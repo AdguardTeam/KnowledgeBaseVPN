@@ -42,7 +42,7 @@ No-logging policy means that we don’t collect, store, or transfer users’ per
 
 Le trafic web de tout utilisateur peut être intéressant et est particulièrement précieux en termes de monétisation des données personnelles. Les criminels et les FAI peu scrupuleux peuvent y accéder. Cependant, avec un VPN fiable, vous pouvez être sûr que ni votre fournisseur ni personne d'autre ne verra votre activité sur Internet.
 
-### Ultra-fast VPN servers in 53 countries
+### Ultra-fast VPN servers in 64 countries
 
 - Argentine
 - Australie
@@ -53,47 +53,60 @@ Le trafic web de tout utilisateur peut être intéressant et est particulièreme
 - Cambodge
 - Canada
 - Chili
-- Colombie
-- Croatie
-- Chypre
-- Tchéquie
-- Danemark
-- Egypte
-- Estonie
-- Finlande
+- China
+- Colombia
+- Croatia
+- Cyprus
+- Czechia
+- Denmark
+- Egypt
+- Estonia
+- Finland
 - France
-- Allemagne
-- Grèce
+- Germany
+- Greece
 - Hong Kong
-- Hongrie
-- Inde
-- Irlande
-- Israël
-- Italie
-- Japon
+- Hungary
+- Iceland
+- Indiaᵛ
+- Indonesia
+- Iranᵛ
+- Ireland
+- Israel
+- Italy
+- Japan
 - Kazakhstan
+- Latvia
+- Lithuania
 - Luxembourg
-- Mexique
-- Pays-Bas
-- Nouvelle-Zélande
-- Norvège
+- Mexico
+- Moldova
+- Nepal
+- Netherlands
+- New Zealand
+- Nigeria
+- Norway
+- Peru
 - Philippines
-- Pologne
+- Poland
 - Portugal
-- Roumanie
-- Russie
-- Serbie
-- Singapour
-- Slovaquie
-- Afrique du Sud
-- Corée du Sud
-- Espagne
-- Suède
-- Suisse
-- Taïwan
-- Turquie
-- Royaume-Uni
-- Émirats arabes unis
-- États-Unis
+- Romania
+- Russiaᵛ
+- Serbia
+- Singapore
+- Slovakia
+- South Africa
+- South Korea
+- Spain
+- Sweden
+- Switzerland
+- Taiwan
+- Thailand
+- Turkey
 - Ukraine
+- United Arab Emirates
+- United Kingdom
+- United States of America
 - Vietnam
+
+ᵛ = “Virtual” servers. This is due to very heavy state censorship in the countries that these servers are intended to cover.
