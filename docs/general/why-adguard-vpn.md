@@ -49,7 +49,7 @@ With desktop apps and web browser extensions, there are rarely conflicts between
 
 With mobile devices, hovewer, it’s not that simple. In the vast majority of cases, two VPN-based apps will not work together. Both in Android and iOS, there are limitations that prevent it.
 
-![Integrated mode *mobile](https://cdn.adguard.com/content/blog/articles/adguard-vpn/integration-en.png)
+![Integrated mode *mobile_border](https://cdn.adguard.com/content/blog/articles/adguard-vpn/integration-en.png)
 
 However, we managed to find a solution to befriend AdGuard VPN and AdGuard Ad Blocker. When you have both AdGuard apps installed on one device, they will automatically become compatible without any input required from you. This is a unique opportunity to take advantage of two sets of features, which you would normally have to choose between.
 
