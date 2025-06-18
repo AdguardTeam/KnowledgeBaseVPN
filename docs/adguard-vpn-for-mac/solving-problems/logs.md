@@ -19,7 +19,7 @@ By default, AdGuard VPN for Mac uses the standard logging level, that is, the ba
 
 :::note
 
-If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, select **Settings** → **General** → **Export logs** in the **Actions** section on the right.
+If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, select **Settings** → **App settings** → **Advanced settings** → **Export logs and system info**.
 
 :::
 
@@ -27,13 +27,13 @@ If for some reason it is more convenient for you to send us logs in another way,
 
 In most cases, the default logging level is sufficient to trace down possible bugs. But there are cases when more detailed technical information about the device and connections is required, and then our support team will ask you to enable the extended logging level. To send this type of logs, follow these steps:
 
-1. Open AdGuard VPN for Mac and select **Settings** → **General** → **Advanced settings**.
+1. Open AdGuard VPN for Mac and select **Settings** → **App settings** → **Advanced settings**.
 
-2. In the **Logging level** section, select **Record everything**.
+2. In the **Logging level** window, select **Extended**.
 
 3. Repeat the actions that led to the error, and note the time when it occurred.
 
-4. Switch the logging level back to **Record by default**.
+4. Switch the logging level back to **Default**.
 
 5. Then select **Support** (in the menu above) → **Report a bug**.
 
@@ -43,7 +43,7 @@ In most cases, the default logging level is sufficient to trace down possible bu
 
 :::note
 
-If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, select **Settings** → **General** → **Export logs** in the **Actions** section on the right.
+If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, select **Settings** → **App settings** → **Advanced settings** → **Export logs and system info**.
 
 :::
 
