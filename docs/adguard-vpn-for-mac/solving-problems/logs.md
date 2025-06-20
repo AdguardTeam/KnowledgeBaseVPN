@@ -5,7 +5,7 @@ sidebar_position: 1
 
 If you encounter any problems while using AdGuard VPN for Mac, you can inform us about it by sending application logs.
 
-## Collecting and sending standard logs
+## Standard logs
 
 By default, AdGuard VPN for Mac uses the standard logging level, that is, the basic collection of data about running processes of the app. To send these logs, follow the next steps:
 
@@ -23,7 +23,7 @@ If for some reason it is more convenient for you to send us logs in another way,
 
 :::
 
-## Collecting and sending extended logs
+## Extended logs
 
 In most cases, the default logging level is sufficient to trace down possible bugs. But there are cases when more detailed technical information about the device and connections is required, and then our support team will ask you to enable the extended logging level. To send this type of logs, follow these steps:
 
