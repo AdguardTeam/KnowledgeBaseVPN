@@ -15,7 +15,7 @@ sidebar_position: 1
 
 ## Как начать пользоваться AdGuard VPN для Windows
 
-Чтобы начать пользоваться AdGuard VPN для Windows, скачайте приложение с [нашего сайта](https://adguard-vpn.com/welcome.html). Установка займёт не больше минуты — и вы увидите диалоговое окно, в котором потребуется поставить как минимум одну галочку, чтобы принять условия Пользовательского соглашения и Политики конфиденциальности. А вот давать ли AdGuard право собирать анонимизированные данные об использовании приложения на вашем устройстве или нет, решать вам. At last the program will ask you to sign in, either via [AdGuard account](https://auth.adguardaccount.com/login.html) or via social networks (Apple, Google, Facebook). Вот и всё, теперь вы можете начать пользоваться AdGuard VPN для Windows.
+Чтобы начать пользоваться AdGuard VPN для Windows, скачайте приложение с [нашего сайта](https://adguard-vpn.com/welcome.html). Установка займёт не больше минуты — и вы увидите диалоговое окно, в котором потребуется поставить как минимум одну галочку, чтобы принять условия Пользовательского соглашения и Политики конфиденциальности. А вот давать ли AdGuard право собирать анонимизированные данные об использовании приложения на вашем устройстве или нет, решать вам. В завершении процесса установки программа попросит вас войти в систему, либо через [учётную запись AdGuard](https://auth.adguardaccount.com/login.html), либо через социальные сети (Apple, Google, Facebook). Вот и всё, теперь вы можете начать пользоваться AdGuard VPN для Windows.
 
 ## Главный экран
 
@@ -72,7 +72,7 @@ sidebar_position: 1
 
 ![Настройки *border](https://cdn.adguardvpn.com/content/kb/vpn/windows/settings_en.png)
 
-The fifth tab contains sections that will help you customize the app.
+Пятая вкладка содержит разделы, которые помогут вам настроить приложение.
 
 ### Настройки приложения
 
@@ -102,11 +102,11 @@ The fifth tab contains sections that will help you customize the app.
 
 Все логи хранятся локально на вашем устройстве, и вы можете отправить их команде поддержки, если возникнет необходимость.
 
-##### Post-quantum cryptography
+##### Постквантовая криптография
 
-![Post-quantum cryptography *border](https://cdn.adtidy.org/blog/new/qe7fgimage_3.png)
+![Постквантовая криптография *border](https://cdn.adtidy.org/blog/new/qe7fgimage_3.png)
 
-This feature encrypts your traffic in a way that even quantum computers can’t intercept it.
+Эта функция шифрует ваш трафик так, что даже квантовые компьютеры не могут его перехватить.
 
 ##### Использовать QUIC
 

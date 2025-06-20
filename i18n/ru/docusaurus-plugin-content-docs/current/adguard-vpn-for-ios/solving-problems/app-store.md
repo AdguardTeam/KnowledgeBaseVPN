@@ -11,33 +11,33 @@ sidebar_position: 1
 
 ### Изменение региона текущей учётной записи
 
-1. Go to the Apple Account screen and tap _Media & Purchases_ → _View_.
+1. Перейдите на экран Аккаунта Apple и нажмите _Медиа и покупки_ → _Просмотреть учётную запись_.
 
 2. Нажмите _Страна/регион_ → _Изменить страну или регион_.
 
     ![Смена региона](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/changing_country.png)
 
-3. Select your preferred country from the list (e.g., _Canada_ or _Mexico_) and agree to the Terms and Conditions.
+3. Выберите желаемую страну из списка (например, _Канаду_ или _Мексику_) и примите Условия использования.
 
-4. Заполните необходимые поля. For _Payment Method_, you can select _None_. For _Billing Address_, use any phone number and address with a valid ZIP code. For example:
+4. Заполните необходимые поля. Для _Способа оплаты_ вы можете выбрать _Нет_. В _Адресе выставления счёта_ используйте любой номер телефона и адрес с правильным почтовым индексом. Например:
 
-    Street: 90 Ave NW
+    Улица: 90-я авеню СЗ
 
-    City: Edmonton
+    Город: Эдмонтон
 
-    Province/Territory: Alberta
+    Провинция/территория: Альберта
 
-    Postal code: 15040
+    Почтовый индекс: 15040
 
-    Phone: 613 9572998
+    Телефон: 613 9572998
 
 5. Нажмите _Далее_.
 
-    ![New region \*border](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/canada_en.png)
+    ![Новый регион \*border](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/canada_en.png)
 
 После смены региона попробуйте [снова скачать AdGuard VPN из App Store](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602).
 
-### Creating a new Apple Account and linking it to the App Store
+### Создание нового Аккаунта Apple и привязка его к App Store
 
 Для пользователей с платными подписками в App Store, которым нужно только скачивать бесплатные приложения из разных регионов, создание новой учётной записи в другой стране — более удобный вариант. Таким образом, вы можете использовать свою основную учётную запись на системном уровне и активировать вторую учётную запись исключительно для App Store, не выходя из учётной записи iPhone.
 
@@ -45,11 +45,11 @@ sidebar_position: 1
 
 1. Посетите [https://appleid.apple.com/account](https://appleid.apple.com/account).
 
-2. Enter any first and last name and select a country, like _United States_.
+2. Введите любое имя и фамилию и выберите страну, например _Соединённые Штаты_.
 
-3. Use an email address not linked to any Apple Account. На эту почту будет отправлен код подтверждения.
+3. Используйте адрес электронной почты, не связанный с вашим Аккаунтом Apple. На эту почту будет отправлен код подтверждения.
 
-4. Provide a phone number not linked to any Apple Account for verification.
+4. Укажите для проверки номер телефона, не связанный с каким-либо Аккаунтом Apple.
 
 5. Подтвердите свой адрес электронной почты и номер телефона и нажмите _Далее_. Вот и всё!
 
@@ -57,7 +57,7 @@ sidebar_position: 1
 
 1. Откройте _Настройки_ и коснитесь своего имени.
 
-2. Выберите _Контент и покупки_ → _Выйти_. This will only sign you out of the App Store while keeping you signed in with your Apple Account on your phone.
+2. Выберите _Контент и покупки_ → _Выйти_. Это позволит вам выйти из App Store, сохранив при этом вход в Аккаунт Apple на телефоне.
 
 3. Снова нажмите _Контент и покупки_ и выберите \*Не [ваше имя]? \* Вам будет предложено войти в систему с другим Apple ID.
 

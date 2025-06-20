@@ -1,151 +1,151 @@
 ---
-title: VPN modes and Exclusion lists
+title: Режимы VPN и списки исключений
 sidebar_position: 11
 ---
 
-This section explains how to use website and app exclusions in different VPN modes.
+В этом разделе объясняется, как использовать исключения для сайтов и приложений в разных режимах VPN.
 
-## VPN modes
+## Режимы VPN
 
-AdGuard VPN has two modes:
+У AdGuard VPN есть два режима:
 
-1. By default, AdGuard VPN is active for all websites and apps, except for those added to the website and app exclusion lists.
+1. По умолчанию AdGuard VPN активен для всех сайтов и приложений, за исключением тех, которые добавлены в списки исключений.
 
-2. AdGuard VPN is active _selectively_: only for the websites and apps from the exclusion lists.
-
-:::note
-
-You can set different VPN modes for apps and websites. For example, you can set AdGuard VPN to be active for all apps except for those added to the app exclusion list, and active only for the websites from the website exclusion list.
-
-:::
-
-## Exclusion lists
-
-An exclusion list is a list of apps or websites that AdGuard VPN excludes or includes in its tunnel based on the current VPN mode.
+2. AdGuard VPN активен _выборочно_: только для сайтов и приложений из списков исключений.
 
 :::note
 
-Each VPN mode has two exclusion lists: one for apps and one for websites. In total, there are four exclusion lists:
-
-- App exclusion list [VPN active everywhere]
-- App exclusion list [VPN active selectively]
-- Website exclusion list [VPN active everywhere]
-- Website exclusion list [VPN active selectively]
+Вы можете установить различные режимы VPN для приложений и сайтов. Например, вы можете настроить AdGuard VPN так, чтобы он был активен для всех приложений, за исключением тех, которые добавлены в список исключений приложений, и только для сайтов из списка исключений сайтов.
 
 :::
 
-## Combining VPN modes and exclusion lists
+## Списки исключений
 
-You can set up four combinations of VPN activity.
+Список исключений — это список приложений или сайтов, которые AdGuard VPN исключает или включает в свой туннель в зависимости от текущего режима VPN.
 
-### Setup 1
+:::note
 
-AdGuard VPN is active everywhere except for apps and websites from the app and website exclusion lists.
+У каждого режима VPN есть два списка исключений: один для приложений и один для сайтов. Всего существует четыре списка исключений:
 
-VPN mode:
-
-- Active for all apps except app exclusions
-- Active for all websites except website exclusions
-
-Applied exclusion lists:
-
-- App exclusion list [VPN active everywhere]
-- Website exclusion list [VPN active everywhere]
-
-This is the default VPN mode with maximum VPN protection. If you want to exclude a website or an app from AdGuard VPN, add them to the respective exclusion list.
-
-**Empty exclusion lists:** Your app and website exclusion lists can be empty. If nothing is specified in them, AdGuard VPN will be active for all apps and websites.
-
-**Why use this mode:** You want a blanket VPN protection for everything on your device. If a specific app or website needs to work outside the VPN, add it to Exclusions.
-
-:::caution
-
-If you add a browser app to the app exclusion list, AdGuard VPN won’t be active for any websites opened in that browser.
+- Список исключений приложений [VPN активен везде]
+- Список исключений приложений [VPN активен выборочно]
+- Список исключений сайтов [VPN активен везде]
+- Список исключений сайтов [VPN активен выборочно]
 
 :::
 
-### Setup 2
+## Комбинирование режимов VPN и списков исключений
 
-AdGuard VPN is active only for the apps from the app exclusion list and for all websites except those from the website exclusion list.
+Вы можете настроить четыре комбинации активности VPN.
 
-VPN mode:
+### Первый вариант настройки
 
-- Active only for apps from app exclusions
-- Active for all websites except website exclusions
+AdGuard VPN активен везде, кроме приложений и сайтов из списка исключений.
 
-Applied exclusion lists:
+Режим VPN:
 
-- App exclusion list [VPN active selectively]
-- Website exclusion list [VPN active everywhere]
+- Активно для всех приложений, кроме приложений в исключениях
+- Активны для всех сайтов, кроме сайтов в исключениях
 
-To switch to this mode, leave AdGuard VPN active for all websites and set it to be on only for the apps from the app exclusion list. This mode provides less VPN protection coverage because you need to add apps to the app exclusion list to ensure they are protected.
+Применяемые списки исключений:
 
-This mode requires your attention to setting up your app exclusion list.
+- Список исключений приложений [VPN активен везде]
+- Список исключений сайтов [VPN активен везде]
 
-**Empty exclusion lists:** If the **app exclusion list** is **empty**, AdGuard VPN will be **inactive for both websites and apps**.
+Этот режим VPN установлен по умолчанию и обеспечивает максимальную защиту. Если вы хотите исключить сайт или приложение из AdGuard VPN, добавьте их в соответствующий список исключений.
 
-**Why use this mode:** You need a VPN for most websites, but only for a few apps.
+**Пустые списки исключений:** списки исключений приложений и сайтов могут быть пустыми. Если в них ничего не указано, AdGuard VPN будет активен для всех приложений и сайтов.
+
+**Когда использовать режим:** вам нужна комплексная VPN-защита для всего, что находится на вашем устройстве. Если определённое приложение или сайт должны работать без VPN, добавьте его в Исключения.
 
 :::caution
 
-If you don’t add a browser app to the app exclusion list, AdGuard VPN will be inactive in this browser for all websites, even those from the website exclusion list.
+Если вы добавите браузерное приложение в список исключений, AdGuard VPN не будет активен для всех сайтов, открытых в этом браузере.
 
 :::
 
-### Setup 3
+### Второй вариант настройки
 
-AdGuard VPN is active for all apps except those from the app exclusion list, and only for the websites from the website exclusion list.
+AdGuard VPN активен только для приложений из списка исключений приложений и для всех сайтов, кроме тех, которые находятся в исключениях сайтов.
 
-VPN mode:
+Режим VPN:
 
-- Active for all apps except app exclusions
-- Active only for websites from website exclusions
+- Активен только для приложений из исключений приложений
+- Активен для всех сайтов, кроме сайтов из исключений
 
-Applied exclusion lists:
+Применяемые списки исключений:
 
-- App exclusion list [VPN active everywhere]
-- Website exclusion list [VPN active selectively]
+- Список исключений приложений [VPN активен выборочно]
+- Список исключений сайтов [VPN активен везде]
 
-To switch to this mode, leave AdGuard VPN active for all apps and set it to be on only for the websites from the website exclusion list. To use an app, add its respective domain to the website exclusion list.
+Чтобы переключиться в этот режим, оставьте AdGuard VPN активным для всех сайтов и включите его только для приложений из списка исключений. В этом режиме уровень VPN-защиты снижен, поскольку для защиты приложений их надо добавить в список исключений.
 
-This mode provides even less VPN protection coverage because you need to add websites to the website exclusion list to ensure they are protected.
+Данный режим требует внимательной настройки списка исключений приложений.
 
-This mode requires your attention to setting up your website exclusion list.
+**Пустые списки исключений:** если **список исключений приложений пуст**, AdGuard VPN будет **неактивным как для сайтов, так и для приложений**.
 
-**Empty exclusion lists:** If the **website exclusion list** is **empty**, AdGuard VPN will be **inactive for all websites and apps**.
-
-**Why use this mode:** You need a VPN for most apps, but only for a few websites.
+**Когда использовать этот режим:** VPN нужен вам для большинства сайтов, но только для некоторых приложений.
 
 :::caution
 
-For all apps: make sure to add their respective domains to the website exclusion list. For example, for Facebook, add `facebook.com` to the website exclusion list.
+Если вы не добавите приложение браузера в список исключений приложений, AdGuard VPN будет неактивен в этом браузере для всех сайтов, даже тех, которые включены в список исключений сайтов.
 
 :::
 
-### Setup 4
+### Третий вариант настройки
 
-AdGuard VPN is active only for the apps and websites from the app and website exclusion lists.
+AdGuard VPN активен для всех приложений, кроме тех, которые находятся в списке исключений приложений, и только для сайтов из списка исключений сайтов.
 
-VPN mode:
+VPN режим:
 
-- Active only for apps from app exclusions
-- Active only for websites from website exclusions
+- Активен для всех приложений, кроме добавленных в исключения
+- Активен только для сайтов из списка исключений
 
-Applied exclusion lists:
+Применяемый список исключений:
 
-- App exclusion list [VPN active selectively]
-- Website exclusion list [VPN active selectively]
+- Список исключений приложений [VPN активен везде]
+- Список исключений сайтов [VPN активен выборочно]
 
-You need to switch to this mode both for apps and websites. This mode provides the least VPN protection coverage. This mode requires your maximum attention to setting up your app and website exclusion lists.
+Чтобы перейти в этот режим, оставьте AdGuard VPN активным для всех приложений и включите его только для сайтов из списка исключений сайтов. Чтобы использовать приложение, добавьте соответствующий домен в список исключений сайтов.
 
-**Empty exclusion lists:** If **any** of the exclusion lists is **empty**, AdGuard VPN will be **inactive for both websites and apps**.
+Этот режим обеспечивает ещё меньшую VPN-защиту, поскольку вам нужно добавлять сайты в список исключений сайтов, чтобы обезопасить их.
 
-**Why use this mode:** You only need VPN for specific websites and apps.
+Этот режим требует внимательной настройки списка исключений сайтов.
+
+**Пустые списки исключений:** если **список исключений сайтов пуст**, AdGuard VPN будет **неактивным как для сайтов, так и для приложений**.
+
+**Когда использовать этот режим:** VPN нужен вам для большинства приложений, но только для некоторых сайтов.
 
 :::caution
 
-1. If you don’t add a browser app to the app exclusion list, AdGuard VPN will be inactive in this browser for all websites, even those from the website exclusion list.
+Для всех приложений: обязательно добавьте соответствующие домены в список исключений сайтов. Например, для Facebook добавьте `facebook.com` в исключения сайтов.
 
-2. For apps from the app exclusion list: make sure to add their respective domains to the website exclusion list. For example, if you add _Facebook_ to the app exclusion list, add `facebook.com` to the website exclusion list.
+:::
+
+### Четвёртый вариант настройки
+
+AdGuard VPN активен только для приложений и сайтов из списков исключений приложений и сайтов.
+
+VPN режим:
+
+- Активен только для приложений из исключений приложений
+- Активен только для сайтов из списка исключений
+
+Применяемые списки исключений:
+
+- Список исключений приложений [VPN активен выборочно]
+- Список исключений сайтов [VPN активен выборочно]
+
+Переключаться в этот режим нужно как для приложений, так и для сайтов. Этот режим обеспечивает наименьшую защиту VPN. Будьте особенно внимательны настраивая списки исключений сайтов и приложений.
+
+**Пустые списки исключений:** если **любой** из списков исключений **пуст**, AdGuard VPN будет **неактивен как для сайтов, так и для приложений**.
+
+**Когда использовать этот режим:** VPN нужен вам только для некоторых сайтов и приложений.
+
+:::caution
+
+1. Если вы не добавите приложение браузера в список исключений приложений, AdGuard VPN будет неактивен в этом браузере для всех сайтов, даже тех, которые включены в список исключений сайтов.
+
+2. Для приложений из списка исключения приложений: убедитесь, что добавили соответствующие домены в список исключения сайтов. Например, если вы добавляете **Facebook** в список исключений приложений, добавьте **facebook.com** в список исключений сайтов.
 
 :::

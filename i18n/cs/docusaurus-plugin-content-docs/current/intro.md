@@ -42,7 +42,7 @@ Hlavní rozdíl mezi AdGuard VPN a konkurencí spočívá v tom, že používám
 
 Webový provoz jakéhokoli uživatele může být zajímavý a je cenný zejména z hlediska zpeněžení osobních údajů. Přístup k němu mají zločinci i bezohlední poskytovatelé internetových služeb. S důvěryhodnou sítí VPN si však můžete být jisti, že poskytovatel ani nikdo jiný vaši internetovou aktivitu neuvidí.
 
-### Ultra-fast VPN servers in 64 countries
+### Velmi rychlé VPN servery v 64 zemích
 
 - Argentina
 - Austrálie
@@ -53,60 +53,60 @@ Webový provoz jakéhokoli uživatele může být zajímavý a je cenný zejmén
 - Kambodža
 - Kanada
 - Chile
-- China
-- Colombia
-- Croatia
-- Cyprus
-- Czechia
-- Denmark
+- Čína
+- Kolumbie
+- Chorvatsko
+- Kypr
+- Česko
+- Dánsko
 - Egypt
-- Estonia
-- Finland
-- France
-- Germany
-- Greece
+- Estonsko
+- Finsko
+- Francie
+- Německo
+- Řecko
 - Hong Kong
-- Hungary
-- Iceland
-- Indiaᵛ
-- Indonesia
-- Iranᵛ
-- Ireland
-- Israel
-- Italy
-- Japan
-- Kazakhstan
-- Latvia
-- Lithuania
-- Luxembourg
-- Mexico
-- Moldova
-- Nepal
-- Netherlands
-- New Zealand
-- Nigeria
-- Norway
+- Maďarsko
+- Island
+- Indieᵛ
+- Indonésie
+- Íránᵛ
+- Irsko
+- Izrael
+- Itálie
+- Japonsko
+- Kazachstán
+- Lotyšsko
+- Litva
+- Lucembursko
+- Mexiko
+- Moldavsko
+- Nepál
+- Nizozemsko
+- Nový Zéland
+- Nigérie
+- Norsko
 - Peru
-- Philippines
-- Poland
-- Portugal
-- Romania
-- Russiaᵛ
-- Serbia
-- Singapore
-- Slovakia
-- South Africa
-- South Korea
-- Spain
-- Sweden
-- Switzerland
-- Taiwan
-- Thailand
-- Turkey
-- Ukraine
-- United Arab Emirates
-- United Kingdom
-- United States of America
+- Filipíny
+- Polsko
+- Portugalsko
+- Rumunsko
+- Ruskoᵛ
+- Srbsko
+- Singapur
+- Slovensko
+- Jihoafrická republika
+- Jižní Korea
+- Španělsko
+- Švédsko
+- Švýcarsko
+- Tchaj-wan
+- Thajsko
+- Turecko
+- Ukrajina
+- Spojené arabské emiráty
+- Velká Británie
+- USA
 - Vietnam
 
-ᵛ = “Virtual” servers. This is due to very heavy state censorship in the countries that these servers are intended to cover.
+ᵛ = “virtuální” servery. Důvodem je velmi silná státní cenzura v zemích, které mají tyto servery pokrývat.
