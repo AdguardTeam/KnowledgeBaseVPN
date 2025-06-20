@@ -42,7 +42,7 @@ VPN можно использовать, чтобы:
 
 Веб-трафик любого пользователя имеет ценность, в первую очередь с точки зрения монетизации личных данных. Доступ к нему могут получить как преступники, так и недобросовестные интернет-провайдеры. Однако с надёжным VPN можно быть уверенным – ни ваш провайдер, ни кто-либо ещё не увидит вашу интернет-активность.
 
-### Ultra-fast VPN servers in 64 countries
+### Ультрабыстрые VPN-серверы в 64 странах
 
 - Аргентина
 - Австралия
@@ -53,60 +53,60 @@ VPN можно использовать, чтобы:
 - Камбоджа
 - Канада
 - Чили
-- China
-- Colombia
-- Croatia
-- Cyprus
-- Czechia
-- Denmark
-- Egypt
-- Estonia
-- Finland
-- France
-- Germany
-- Greece
-- Hong Kong
-- Hungary
-- Iceland
-- Indiaᵛ
-- Indonesia
-- Iranᵛ
-- Ireland
-- Israel
-- Italy
-- Japan
-- Kazakhstan
-- Latvia
-- Lithuania
-- Luxembourg
-- Mexico
-- Moldova
-- Nepal
-- Netherlands
-- New Zealand
-- Nigeria
-- Norway
-- Peru
-- Philippines
-- Poland
-- Portugal
-- Romania
-- Russiaᵛ
-- Serbia
-- Singapore
-- Slovakia
-- South Africa
-- South Korea
-- Spain
-- Sweden
-- Switzerland
-- Taiwan
-- Thailand
-- Turkey
-- Ukraine
-- United Arab Emirates
-- United Kingdom
-- United States of America
-- Vietnam
+- Китай
+- Колумбия
+- Хорватия
+- Кипр
+- Чехия
+- Дания
+- Египет
+- Эстония
+- Финляндия
+- Франция
+- Германия
+- Греция
+- Гонконг
+- Венгрия
+- Исландия
+- Индияᵛ
+- Индонезия
+- Иранᵛ
+- Ирландия
+- Израиль
+- Италия
+- Япония
+- Казахстан
+- Латвия
+- Литва
+- Люксембург
+- Мексика
+- Молдова
+- Непал
+- Нидерланды
+- Новая Зеландия
+- Нигерия
+- Норвегия
+- Перу
+- Филиппины
+- Польша
+- Португалия
+- Румыния
+- Россияᵛ
+- Сербия
+- Сингапур
+- Словакия
+- Южная Африка
+- Южная Корея
+- Испания
+- Швеция
+- Швейцария
+- Тайвань
+- Таиланд
+- Турция
+- Украина
+- Объединённые Арабские Эмираты
+- Великобритания
+- Соединённые Штаты Америки
+- Вьетнам
 
-ᵛ = “Virtual” servers. This is due to very heavy state censorship in the countries that these servers are intended to cover.
+ᵛ = «Виртуальные» серверы. Это связано с очень жесткой государственной цензурой в странах, для которых предназначены эти серверы.

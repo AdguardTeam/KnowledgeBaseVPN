@@ -1,78 +1,78 @@
 ---
-title: Activate AdGuard VPN subscription
+title: Активация подписки на AdGuard VPN
 sidebar_position: 12
 ---
 
-To activate your AdGuard VPN subscription, follow these steps:
+Чтобы активировать подписку на AdGuard VPN, выполните следующие действия:
 
-1. Open the AdGuard VPN app and tap _Log in or create an account_
-2. A login page will open in your browser. Enter the email address you used during the purchase. You can also log in with a social media account if it is associated with the same email address
+1. Откройте приложение AdGuard VPN и нажмите _Войти или зарегистрироваться_
+2. В вашем браузере откроется страница входа в систему. Введите адрес электронной почты, который вы использовали при покупке. Вы также можете войти в систему с помощью учтной записи в социальной сети, если она связана с тем же адресом электронной почты
 
-The subscription activates automatically. If it doesn’t happen, please check the information below for further assistance.
+Подписка активируется автоматически. Если этого не произошло, ознакомьтесь с информацией ниже, чтобы узнать, что делать дальше.
 
-## Resolve subscription activation issues
+## Решение проблем с активацией подписки
 
-Sometimes users have trouble activating their subscription. Below are step-by-step instructions on how to resolve the issue based on where you purchased your subscription.
+Иногда у пользователей возникают проблемы с активацией подписки. Ниже приведены пошаговые инструкции по решению проблем в зависимости от места приобретения подписки.
 
-### Official website
+### Официальный сайт
 
-First, check to see if you received a confirmation email. Subscriptions are associated with the email address you provide during the payment process. If you received the email but don't see the subscription in your app, you may have logged in to the app with a different email address.
+Сначала проверьте, получили ли вы письмо с подтверждением. Подписки связаны с адресом электронной почты, который вы указываете в процессе оплаты. Если вы получили письмо, но не видите подписку в приложении, возможно, вы вошли в приложение с другим адресом электронной почты.
 
-1. Go to AdGuard VPN → _Settings_ → _Account_ and check which email address is displayed there
-2. If it's different, log out of your account (on iOS and Android, tap the three dots in the top-right corner to log out)
-3. Log back in using the correct email address associated with your purchase
+1. Перейдите в AdGuard VPN → _Настройки_ → _Аккаунт_ и проверьте, какой адрес электронной почты отображается там
+2. Если он отличается, выйдите из своего аккаунта (на iOS и Android нажмите на три точки в правом верхнем углу, чтобы выйти)
+3. Снова войдите в аккаунт, используя правильный адрес электронной почты, связанный с вашей покупкой
 
-If you didn't receive the confirmation email, you may have entered a non-existent email address or made a typo when purchasing your subscription. To resolve this issue, please contact our support team at support@adguard-vpn.com and provide the following information:
+Если вы не получили письмо с подтверждением, возможно, при покупке подписки вы указали несуществующий адрес электронной почты или допустили опечатку. Чтобы решить эту проблему, свяжитесь с нашей службой поддержки по адресу support@adguard-vpn.com и предоставьте следующую информацию:
 
-- Date and exact time of purchase
-- Exact amount charged
-- Last 4 digits of the card used
-- If available, attach a receipt or bank statement to your email. This will help us process your request faster
+- Дату и точное время покупки
+- Точную сумму списания
+- Последние 4 цифры использованной карты
+- Если есть возможность, приложите к письму чек или выписку с банковского счёта. Это поможет нам быстрее обработать ваш запрос
 
 :::note
 
-You can use a specific subject line, such as "Problems with my subscription" or "Can't activate my subscription", to help us prioritize your request.
+В теме письма кратко опишите суть проблемы, например «Не могу активировать подписку» или «Проблемы с подпиской», чтобы мы быстрее определили приоритетность вашего запроса.
 :::
 
-### In-app purchase on iPhone or iPad
+### Покупка в приложении на iPhone или iPad
 
-When activating your AdGuard VPN subscription on iPhone or iPad, you might encounter one of the following scenarios:
+При активации подписки AdGuard VPN на iPhone или iPad вы можете столкнуться с одним из следующих сценариев:
 
-1. Your subscription works on your iPhone, but you can't activate it on another device because you don't know which email address it's associated with
-2. You purchased through the App Store but can't find the subscription in your AdGuard account
+1. Ваша подписка работает на iPhone, но вы не можете активировать её на другом устройстве, потому что не знаете, с каким адресом электронной почты она связана
+2. Вы приобрели подписку через App Store, но не можете найти её в своём аккаунте AdGuard
 
-Let's look at these two situations separately.
+Рассмотрим эти ситуации по отдельности.
 
-In the first case, your subscription may be associated with an email address created for you by Apple. This can happen if you log in to AdGuard VPN through _Continue with Apple_ and purchase the subscription in-app.
+В первом случае ваша подписка может быть связана с адресом почты, созданным для вас Apple. Это может произойти, если вы вошли в AdGuard VPN через _Продолжить с Apple_ и приобрели подписку в приложении.
 
-1. Go to AdGuard VPN → _Settings_ → _Account_
-2. If you don't recognize the email address you see on the _Account_ screen, visit the [password recovery page](https://auth.adguardaccount.com/account/recovery_password.html) and request a password reset for that email address
-3. Use that email address and new password to log in on other devices
+1. Перейдите в AdGuard VPN → _Настройки_ → _Аккаунт_
+2. Если вы не узнаёте адрес электронной почты, который видите на экране _Аккаунт_, перейдите на [страницу восстановления пароля](https://auth.adguardaccount.com/account/recovery_password.html) и запросите сброс пароля для этого адреса электронной почты
+3. Используйте этот адрес электронной почты и новый пароль для входа в систему на других устройствах
 
-Alternatively, you can ask the support team (support@adguard-vpn.com) to transfer your subscription from the email address provided by Apple to your active email address. Please include your receipt or other proof of purchase. This will help us verify that you own the subscription.
+Кроме того, вы можете попросить службу поддержки (support@adguard-vpn.com) перенести подписку с адреса электронной почты, предоставленного Apple, на ваш активный адрес электронной почты. Пожалуйста, приложите чек или другое доказательство покупки. Это поможет нам убедиться, что подписка принадлежит вам.
 
-In the second case, if your subscription was purchased through the App Store, you may have chosen to hide your real email address from developers. This means you used an email address randomly generated by Apple. As a result, your AdGuard account was also created with this address. To transfer your subscription to your primary email, you need to identify the email address used for the purchase.
+Во втором случае, если ваша подписка была приобретена через App Store, вы, возможно, решили скрыть свой настоящий адрес электронной почты от разработчиков. Это значит, что вы использовали адрес почты, случайно сгенерированный Apple. В результате ваш аккаунт AdGuard также был создан с этим адресом. Чтобы перенести подписку на свою основную электронную почту, необходимо определить адрес электронной почты, использованный для покупки.
 
-1. Go to _Settings_ → _Apple ID_ → _iCloud_ → _Hide my email_
-2. Find AdGuard VPN in the list and copy the email address (it should end with @privaterelay.appleid.com). Send this email address to support@adguard-vpn.com.
+1. Перейдите в раздел _Настройки_ → _Apple ID_ → _iCloud_ → _Скрыть e-mail_
+2. Найдите AdGuard VPN в списке и скопируйте адрес электронной почты (он должен заканчиваться на @privaterelay.appleid.com). Отправьте этот адрес электронной почты на support@adguard-vpn.com.
 
-Once we receive the email address, we’ll transfer your subscription, and you’ll be able to use the app.
+Как только мы получим адрес электронной почты, мы переведем вашу подписку, и вы сможете пользоваться приложением.
 
-### On a third-party website
+### На стороннем веб-сайте
 
-If you purchased an AdGuard VPN subscription from a software reseller, you should have received an activation code (a combination of letters and numbers, usually starting with "VPN"). To use this subscription, bind this code to your AdGuard account.
+Если вы приобрели подписку на AdGuard VPN у стороннего продавца программного обеспечения, вы должны были получить код активации (комбинацию букв и цифр, обычно начинающуюся с «VPN»). Чтобы воспользоваться этой подпиской, привяжите этот код к своему аккаунту AdGuard.
 
-1. If you don’t have an account, [create one](https://auth.adguardaccount.com/login.html)
-2. Go to the _Licenses_ section and click _Bind license_
-3. Enter your activation code to bind the AdGuard VPN subscription to your account
-4. Open the AdGuard VPN app and log in with your email address and password
+1. Если у вас нет аккаунта, [создайте его] (https://auth.adguardaccount.com/login.html)
+2. Перейдите в раздел _Лицензии_ и нажмите _Привязать лицензию_
+3. Введите код активации, чтобы привязать подписку AdGuard VPN к вашему аккаунту
+4. Откройте приложение AdGuard VPN и войдите в аккаунт, используя адрес электронной почты и пароль
 
-If you're already logged in, go to AdGuard VPN → _Settings_ → _Account_ and make sure the email address matches the one associated with your subscription.
+Если вы уже вошли, перейдите в AdGuard VPN → _Настройки_ → _Аккаунт_ и убедитесь, что адрес электронной почты совпадает с адресом, связанным с вашей подпиской.
 
-If they don’t match, log out (on iOS and Android, tap the three dots in the top-right corner) and log back in with the correct email address.
+Если они не совпадают, выйдите из системы (на iOS и Android нажмите на три точки в правом верхнем углу) и снова войдите с правильным адресом электронной почты.
 
 :::note
 
-If you’ve followed these steps and still can’t activate your subscription, please contact our support team at support@adguard-vpn.com.
+Если вы выполнили эти шаги и всё ещё не можете активировать подписку, обратитесь в нашу службу поддержки по адресу support@adguard-vpn.com.
 
 :::

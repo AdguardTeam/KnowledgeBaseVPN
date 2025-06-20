@@ -1,36 +1,36 @@
 ---
-title: AdGuard VPN beta/nightly testing
+title: Бета-/nightly-тестирование AdGuard VPN
 sidebar_position: 2
 ---
 
-Практически для каждой «большой» платформы — Windows, Mac, Android, iOS — существует своя версия AdGuard VPN, и все они регулярно обновляются. This would not be possible without beta and nightly testing and, more importantly, without our testers. Want to become one of them? Here’s how you can do it.
+Практически для каждой «большой» платформы — Windows, Mac, Android, iOS — существует своя версия AdGuard VPN, и все они регулярно обновляются. Это было бы невозможно без бета- и nightly-тестирования и, что более важно, без тестировщиков. Хотите стать одним из них? Вот как это можно сделать.
 
-### Beta or nightly: what is the difference?
+### Как стать бета-тестером
 
-Both beta and nightly testing are important to make AdGuard VPN constantly better. However, they are different, and you can choose the one that suits you more.
+И бета-, и nightly-тестирование важны для того, чтобы AdGuard VPN постоянно становился лучше. Но они разные, и вы можете выбрать тот вариант, который вам больше подходит.
 
-The development process follows a progression from nightly to beta and then from beta to the final, stable version — release. It means that you are more likely to find bugs in nightly builds, but you get access to new features faster, almost on a daily basis. Betas are more stable, but you will get updates less often.
+Процесс разработки следует по принципу: от nightly- к бета-версии, а затем от бета-версии к финальной стабильной версии — релизу. Это значит, что вы с большей вероятностью найдёте ошибки в nightly-сборках, но быстрее получите доступ к новым функциям, почти на ежедневной основе. Бета-версии более стабильны, но обновления будут выходить реже.
 
-### How to become a beta or nightly tester
+### Как стать бета- или nightly-тестировщиком
 
-Our requirements are easy: use AdGuard VPN, upgrade to the beta/nightly version when it becomes available, and report any bugs you notice. You will need a [GitHub](https://github.com/) account to become our tester, so you might want to get that out of the way first.
+Наши требования просты: используйте AdGuard VPN, переходите на бета- или nightly-версию, когда она станет доступной, и сообщайте о замеченных ошибках. Чтобы стать нашим тестировщиком, вам понадобится аккаунт на [GitHub](https://github.com/). Возможно, сначала вам потребуется разобраться с этим.
 
-You will also need the device on which you will install the app and [the link to the the beta testing page](https://adguard-vpn.com/beta.html). There you will find more information on how to join our program and test AdGuard VPN for Windows, Mac, Android, iOS, Linux, and AdGuard VPN Browser Extension.
+Вам также понадобится устройство, на которое вы будете устанавливать приложение, и [ссылка на страницу бета-тестирования](https://adguard-vpn.com/beta.html). Там вы найдёте больше информации о том, как присоединиться к нашей программе и тестировать AdGuard VPN для Windows, Mac, Android, iOS, Linux и Браузерное расширение AdGuard VPN.
 
-Once on the beta testing page, all you have to do is choose between the beta and the nightly versions, download the respective build and fill in the [form](https://surveys.adguard.com/en/vpn_beta_testing_program/form.html) to apply.
+На странице бета-тестирования вам нужно выбрать между бета- и nightly-версией, скачать соответствующую сборку и заполнить [форму](https://surveys.adguard.com/en/vpn_beta_testing_program/form.html), чтобы подать заявку.
 
 :::note
 
-To get the beta or nightly build of AdGuard VPN for iOS, you must first install [TestFlight](https://apps.apple.com/app/testflight/id899247664) on your iOS device.
+Чтобы получить бета- или nightly-сборку AdGuard VPN для iOS, сначала необходимо установить [Testflight](https://apps.apple.com/app/testflight/id899247664) на вашем устройстве с iOS.
 
 :::
 
-### How to report a bug
+### Как сообщить о проблеме
 
-If you spot a bug in the build you are testing, or just want to share your suggestion with our developers, let us know: go to [GitHub](https://github.com/AdguardTeam/), find an appropriate repository, create a new issue there, and describe the bug/feature request in detail.
+Если вы заметили ошибку в сборке, которую тестируете, или хотите поделиться предложением с нашими разработчиками, расскажите нам об этом: зайдите [на GitHub](https://github.com/AdguardTeam/), найдите подходящий репозиторий, создайте в нём новую задачу и подробно опишите ошибку/запрос на добавление функции.
 
-The above method is preferred, but you can use others if necessary:
+Описанный выше метод мы считаем предпочтительным, но при необходимости вы можете использовать и другие:
 
-- Find us on [social media](https://adguard-vpn.com/discuss.html). This is not the most efficient way to discuss technical matters, but we’ll aways try to be helpful.
+- Найдите нас в [социальных сетях](https://adguard-vpn.com/discuss.html). Это не самый эффективный способ обсуждения технических вопросов, но мы всегда стараемся помочь.
 
 - Напишите в нашу команду поддержки из вкладки «Поддержка» в приложении или напрямую по адресу [support@adguard.com](mailto:support@adguard.com).

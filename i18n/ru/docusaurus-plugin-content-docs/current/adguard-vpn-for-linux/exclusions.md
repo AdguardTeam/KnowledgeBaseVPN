@@ -31,9 +31,9 @@ adguardvpn-cli site-exclusions add %domain_name%
 
 :::tip
 
-Поддерживаемые форматы ввода: `domain.com`, `sub.domain.com`, `www.domain.com`. To add two or more exclusions at once, list them separated by spaces. Используйте двойные кавычки для подстановочных знаков: `"*.domain.com"`
+Поддерживаемые форматы ввода: `domain.com`, `sub.domain.com`, `www.domain.com`. Чтобы добавить два или более исключения одновременно, перечислите их через пробел. Используйте двойные кавычки для подстановочных знаков: `"*.domain.com"`
 
-Command example: `adguardvpn-cli site-exclusions add www.google.com`
+Пример команды: `adguardvpn-cli site-exclusions add www.google.com`
 
 :::
 

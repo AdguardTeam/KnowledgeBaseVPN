@@ -1,31 +1,31 @@
 ---
-title: Troubleshooting AdGuard VPN connection issues
+title: Устранение неполадок с подключением AdGuard VPN
 sidebar_position: 8
 ---
 
-AdGuard VPN connection issues are typically either network-related (affecting specific Wi-Fi networks) or device-related (occurring across all connections). The following sections will help you identify and resolve these issues. Before proceeding, ensure you’re using the latest version of AdGuard VPN and have tried restarting both your device and router.
+Проблемы с подключением AdGuard VPN обычно связаны либо с сетью (влияют на конкретные сети Wi-Fi), либо с устройством (происходят при всех подключениях). Следующие разделы помогут вам выявить и решить эти проблемы. Перед тем как продолжить, убедитесь, что вы используете последнюю версию AdGuard VPN и уже пробовали перезагрузить как ваше устройство, так и роутер.
 
-## Connection issues on specific Wi-Fi networks
+## Проблемы с подключением к определённым сетям Wi-Fi
 
-When AdGuard VPN isn’t working properly on a particular Wi-Fi network:
+Когда AdGuard VPN работает некорректно в определённой сети Wi-Fi:
 
-1. Check the router settings and active services. Some of them may interfere with AdGuard VPN:
+1. Проверьте настройки роутера и активные сервисы. Некоторые из них могут мешать работе AdGuard VPN:
 
-    - Other VPNs (running simultaneously)
-    - Firewalls (blocking VPN traffic)
-    - Network filters (for example, built-in Internet filters on Keenetic routers, refer to the [manufacturer’s guide](https://help.keenetic.com/hc/en-us/articles/4415711575698-Content-filtering-and-ad-blocking-options) for details)
+    - Другие VPN (работающие одновременно)
+    - Фаерволы (блокирующие VPN-трафик)
+    - Сетевые фильтры (например, встроенные интернет-фильтры на роутерах Keenetic. Подробности см. в [руководстве производителя](https://help.keenetic.com/hc/en-us/articles/4415711575698-Content-filtering-and-ad-blocking-options))
 
-2. Disable conflicting services and settings
+2. Отключите конфликтующие службы и настройки
 
-3. Restart your router and relaunch AdGuard VPN
+3. Перезагрузите роутер и заново запустите AdGuard VPN
 
-If the problem persists, please contact the AdGuard VPN support team at support@adguard-vpn.com.
+Если проблема сохраняется, обратитесь в службу поддержки AdGuard VPN по адресу support@adguard-vpn.com.
 
-## Connection issues on one device
+## Проблемы с подключением на одном устройстве
 
-Check system time settings — incorrect date and time may block the app from connecting to the server.
+Проверьте настройки системного времени — неправильные дата и время могут помешать приложению подключиться к серверу.
 
-- Enable automatic time synchronization
-- Manually set correct time if needed
+- Включите автоматическую синхронизацию времени
+- При необходимости установите правильное время вручную
 
-If the problem persists, please contact the AdGuard VPN support team at support@adguard-vpn.com.
+Если проблема сохраняется, обратитесь в службу поддержки AdGuard VPN по адресу support@adguard-vpn.com.

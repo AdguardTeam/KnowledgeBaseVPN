@@ -31,9 +31,9 @@ Výchozí IP adresa pro většinu routerů je `192.168.1.1` nebo `192.168.0.1
 
 1. Otevřete příkazový řádek:
 
- ```text
- ipconfig
- ```
+    ```text
+    ipconfig
+    ```
 
 2. Pod aktivním síťovým připojením vyhledejte položku _Výchozí brána_. Jedná se o IP adresu vašeho routeru.
 
@@ -41,15 +41,15 @@ Výchozí IP adresa pro většinu routerů je `192.168.1.1` nebo `192.168.0.1
 
 1. Otevřete Terminal a spusťte tento příkaz pro Linux:
 
- ```text
- ip route | grep default
- ```
+    ```text
+    ip route | grep default
+    ```
 
- Nebo tento pro macOS:
+    Nebo tento pro macOS:
 
- ```text
- route -n get default
- ```
+    ```text
+    route -n get default
+    ```
 
 2. Vyhledejte položku _výchozí_. IP adresa vedle ní je IP adresa vašeho routeru.
 
@@ -65,21 +65,21 @@ Většina systémů Linux a macOS je dodávána s předinstalovaným klientem SS
 
 2. Spusťte příkaz SSH:
 
- ```text
- ssh root@192.168.1.1
- ```
+    ```text
+    ssh root@192.168.1.1
+    ```
 
- Nahraďte `192.168.1.1` IP adresou vašeho routeru.
+    Nahraďte `192.168.1.1` IP adresou vašeho routeru.
 
 3. Pokud se k routeru připojujete přes SSH poprvé, zobrazí se tato zpráva:
 
- ```text
- The authenticity of host '192.168.1.1 (192.168.1.1)' can't be established.
- ECDSA key fingerprint is SHA256: ...
- Are you sure you want to continue connecting? (Yes/No/[Fingerprint])
- ```
+    ```text
+    The authenticity of host '192.168.1.1 (192.168.1.1)' can't be established.
+    ECDSA key fingerprint is SHA256: ...
+    Are you sure you want to continue connecting? (Yes/No/[Fingerprint])
+    ```
 
- Zadejte `yes` a stiskněte Enter.
+    Zadejte `yes` a stiskněte Enter.
 
 4. Na výzvu zadejte heslo routeru. Výchozí heslo pro OpenWrt je obvykle prázdné (stačí stisknout Enter), ale heslo byste měli nastavit během počátečního nastavení.
 
@@ -127,57 +127,57 @@ curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/sc
 
 1. Přihlaste se ke svému účtu
 
- Chcete-li používat AdGuard VPN pro Linux, potřebujete účet AdGuard.
+    Chcete-li používat AdGuard VPN pro Linux, potřebujete účet AdGuard.
 
- Přihlásit nebo zaregistrovat se můžete na našich [webových stránkách](https://auth.adguardaccount.com/login.html) nebo v Terminalu.
+    Přihlásit nebo zaregistrovat se můžete na našich [webových stránkách](https://auth.adguardaccount.com/login.html) nebo v Terminalu.
 
- Chcete-li se zaregistrovat nebo přihlásit, zadejte:
+    Chcete-li se zaregistrovat nebo přihlásit, zadejte:
 
- ```jsx
- adguardvpn-cli login
- ```
+    ```jsx
+    adguardvpn-cli login
+    ```
 
- Poznámka: Pokud se nepodařilo propojit binární soubor s `/usr/local/bin`, použijte pro spuštění všech příkazů úplnou cestu k souboru. Např. `/opt/adguardvpn_cli/adguardvpn-cli login`
+    Poznámka: Pokud se nepodařilo propojit binární soubor s `/usr/local/bin`, použijte pro spuštění všech příkazů úplnou cestu k souboru. Např. `/opt/adguardvpn_cli/adguardvpn-cli login`
 
 2. Připojte se k VPN
 
- Vyberte si umístění serveru VPN, které nejlépe vyhovuje vašim potřebám.
+    Vyberte si umístění serveru VPN, které nejlépe vyhovuje vašim potřebám.
 
- Obecně platí, že čím blíže je server, tím rychlejší je připojení.
+    Obecně platí, že čím blíže je server, tím rychlejší je připojení.
 
- Chcete-li zobrazit dostupná umístění, zadejte:
+    Chcete-li zobrazit dostupná umístění, zadejte:
 
- ```jsx
- adguardvpn-cli list-locations
- ```
+    ```jsx
+    adguardvpn-cli list-locations
+    ```
 
- Chcete-li se připojit k určitému umístění, zadejte:
+    Chcete-li se připojit k určitému umístění, zadejte:
 
- ```jsx
- adguardvpn-cli connect -l LOCATION_NAME
- ```
+    ```jsx
+    adguardvpn-cli connect -l LOCATION_NAME
+    ```
 
- Nahraďte LOCATION_NAME kódem města, země nebo ISO kódem umístění, ke kterému se chcete připojit.
+    Nahraďte LOCATION_NAME kódem města, země nebo ISO kódem umístění, ke kterému se chcete připojit.
 
- Pro rychlé připojení zadejte:
+    Pro rychlé připojení zadejte:
 
- ```jsx
- adguardvpn-cli connect
- ```
+    ```jsx
+    adguardvpn-cli connect
+    ```
 
- AdGuard VPN vybere nejrychlejší dostupné umístění a zapamatuje si ho pro budoucí rychlá připojení.
+    AdGuard VPN vybere nejrychlejší dostupné umístění a zapamatuje si ho pro budoucí rychlá připojení.
 
 3. Upravte nastavení
 
- Získejte seznam všech dostupných příkazů AdGuard VPN a přizpůsobte klienta VPN svým potřebám.
+    Získejte seznam všech dostupných příkazů AdGuard VPN a přizpůsobte klienta VPN svým potřebám.
 
- Chcete-li zobrazit všechny příkazy, zadejte:
+    Chcete-li zobrazit všechny příkazy, zadejte:
 
- ```jsx
- adguardvpn-cli --help-all
- ```
+    ```jsx
+    adguardvpn-cli --help-all
+    ```
 
- AdGuard VPN CLI vytvoří rozhraní tun0 pro tunel VPN.
+    AdGuard VPN CLI vytvoří rozhraní tun0 pro tunel VPN.
 
 <!-- comment -->
 
@@ -187,54 +187,54 @@ Můžete to provést ve webovém rozhraní nebo v příkazovém řádku. Níže 
 
 1. Přidání nového nespravovaného rozhraní přes SSH
 
- ```shell
- ssh admin@router_ip
- uci set network.tun0='interface'
- uci set network.tun0.proto='none'
- uci set network.tun0.device='tun0'
- uci commit network
- /etc/init.d/network reload
- ```
+    ```shell
+    ssh admin@router_ip
+    uci set network.tun0='interface'
+    uci set network.tun0.proto='none'
+    uci set network.tun0.device='tun0'
+    uci commit network
+    /etc/init.d/network reload
+    ```
 
 2. Přidání tun0 do zóny WAN
 
- Pro přenosy přes VPN přidejte tun0 do zóny WAN.
- Rozhraní WAN, které se připojuje k Internetu, se obvykle nachází v zóně s názvem `wan` nebo podobně. Zkontrolujte konfigurační soubory routeru nebo nastavení brány firewall a zjistěte, která zóna je přiřazena k rozhraní WAN.
+    Pro přenosy přes VPN přidejte tun0 do zóny WAN.
+    Rozhraní WAN, které se připojuje k Internetu, se obvykle nachází v zóně s názvem `wan` nebo podobně. Zkontrolujte konfigurační soubory routeru nebo nastavení brány firewall a zjistěte, která zóna je přiřazena k rozhraní WAN.
 
- Za tímto účelem vytvořte seznam stávajících zón brány firewall:
+    Za tímto účelem vytvořte seznam stávajících zón brány firewall:
 
- ```shell
- uci show firewall
- ```
+    ```shell
+    uci show firewall
+    ```
 
- Zobrazí se konfigurační soubor se seznamem všech zón. Hledejte sekci jako `firewall.@zone[1]` nebo podobnou, kde je definován `název volby 'wan'`. Číslo `[1]` se může lišit v závislosti na konfiguraci.
+    Zobrazí se konfigurační soubor se seznamem všech zón. Hledejte sekci jako `firewall.@zone[1]` nebo podobnou, kde je definován `název volby 'wan'`. Číslo `[1]` se může lišit v závislosti na konfiguraci.
 
- Spusťte tento příkaz SSH a nahraďte `zone[1]` správnou zónou `wan`, která byla identifikována dříve:
+    Spusťte tento příkaz SSH a nahraďte `zone[1]` správnou zónou `wan`, která byla identifikována dříve:
 
- ```shell
- uci show firewall | grep "=zone"
- uci add_list firewall.@zone[1].network='tun0'
- uci commit firewall
- /etc/init.d/firewall reload
- ```
+    ```shell
+    uci show firewall | grep "=zone"
+    uci add_list firewall.@zone[1].network='tun0'
+    uci commit firewall
+    /etc/init.d/firewall reload
+    ```
 
- Pokud chcete zakázat veškerý provoz, který není chráněn VPN, spusťte následující příkaz. Tímto způsobem nebudete mít v případě odpojení VPN vůbec žádné připojení k internetu. Pokud tento krok neprovedete, bude vaše skutečná IP adresa odhalena, pokud se VPN odpojí.
+    Pokud chcete zakázat veškerý provoz, který není chráněn VPN, spusťte následující příkaz. Tímto způsobem nebudete mít v případě odpojení VPN vůbec žádné připojení k internetu. Pokud tento krok neprovedete, bude vaše skutečná IP adresa odhalena, pokud se VPN odpojí.
 
- ```shell
- uci del_list firewall.@zone[1].network='wan'
- uci del_list firewall.@zone[1].network='wan6'
- uci commit firewall
- /etc/init.d/firewall reload
- ```
+    ```shell
+    uci del_list firewall.@zone[1].network='wan'
+    uci del_list firewall.@zone[1].network='wan6'
+    uci commit firewall
+    /etc/init.d/firewall reload
+    ```
 
- Pokud jste změnili názor a chcete povolit přímý přenos, spusťte následující příkaz:
+    Pokud jste změnili názor a chcete povolit přímý přenos, spusťte následující příkaz:
 
- ```shell
- uci add_list firewall.@zone[1].network='wan'
- uci add_list firewall.@zone[1].network='wan6'
- uci commit firewall
- /etc/init.d/firewall reload
- ```
+    ```shell
+    uci add_list firewall.@zone[1].network='wan'
+    uci add_list firewall.@zone[1].network='wan6'
+    uci commit firewall
+    /etc/init.d/firewall reload
+    ```
 
 <!-- comment -->
 

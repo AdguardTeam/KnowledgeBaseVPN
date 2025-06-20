@@ -14,19 +14,19 @@ sidebar_label: Как автоматизировать работу AdGuard VPN
 
 1. Нажмите *Новая автоматизация* или + (если у вас уже есть другая автоматизация). Прокрутите список *Автоматизация для себя*, чтобы найти *Приложение*, и нажмите на него.
 
-    ![New Automation *mobile](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/newautomation.png)
+    ![Новая автоматизация *mobile](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/newautomation.png)
 
 1. Выберите флажок *Открыто*, выберите *Немедленный запуск* (если вы не хотите подтверждать запуск VPN вручную) и оставьте ползунок рядом с параметром *Уведомлять о запуске* в неактивном положении.
 
-    ![Is Opened *mobile](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/isopened.png)
+    ![Открыто *mobile](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/isopened.png)
 
 1. Нажмите *Выбор* рядом с *Приложением*, выберите приложение, для которого вы настраиваете VPN, нажмите *Готово* и *Далее*.
 
-    ![App *mobile](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/app.png)
+    ![Приложение *mobile](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/app.png)
 
 1. Нажмите *Новая автоматизация* в *Начало работы*, найдите AdGuard VPN, нажмите *Настроить VPN-соединение*, выберите *Включить VPN-соединение* и нажмите *Готово*.
 
-    ![Blank Automation *mobile](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/blankautomation.png) ![Set VPN connection *mobile](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/setvpnconnection.png) ![Turn VPN connection On *mobile](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/turnvpnconnectionon.png)
+    ![Новая автоматизация *mobile](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/blankautomation.png) ![Настроить VPN-соединение *mobile](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/setvpnconnection.png) ![Включить VPN-соединение *mobile](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/turnvpnconnectionon.png)
 
 Теперь AdGuard VPN будет автоматически включаться при открытии приложения, для которого вы настроили автоматизацию. Если хотите, вы можете создать ещё одну команду, чтобы AdGuard VPN автоматически отключался при закрытии приложения.
 
@@ -34,18 +34,18 @@ sidebar_label: Как автоматизировать работу AdGuard VPN
 
 1. В том же приложении *Команды* начните создавать новую автоматизацию: нажмите +, прокрутите и нажмите *Приложение* в списке.
 
-    ![Plus *mobile](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/plus.png)
+    ![Плюс *mobile](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/plus.png)
 
 1. Выберите флажок *Закрыто*, выберите *Немедленный запуск* и оставьте ползунок рядом с параметром *Уведомлять о запуске* в неактивном положении.
 
-    ![Is Closed *mobile](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/isclosed.png)
+    ![Закрыто *mobile](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/isclosed.png)
 
 1. Нажмите *Выбор* рядом с *Приложением*, выберите приложение, для которого вы настраиваете VPN (в нашем примере это Instagram), нажмите *Готово* и *Далее*.
 
 1. Нажмите *Новая автоматизация* в *Начало работы*, найдите AdGuard VPN, нажмите *Настроить VPN-соединение*, выберите *Выключить VPN-соединение* и нажмите *Готово*.
 
-    ![Turn VPN connection Off *mobile](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/turnvpnconnectionoff.png)
+    ![Выключить VPN-соединение *mobile](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/turnvpnconnectionoff.png)
 
 Готово! Теперь AdGuard VPN будет отключаться на вашем устройстве каждый раз, когда вы будете закрывать приложение, для которого настроили автоматизацию. Все те же шаги вы можете повторить для любого другого приложения.
 
-![Done *mobile](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/done.png)
+![Готово *mobile](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/done.png)
