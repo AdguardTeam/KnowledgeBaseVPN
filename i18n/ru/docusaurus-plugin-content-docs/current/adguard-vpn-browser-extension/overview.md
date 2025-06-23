@@ -7,7 +7,7 @@ sidebar_position: 1
 
 :::note
 
-Вы можете использовать Браузерное расширение AdGuard VPN только после авторизации. Войдите в аккаунт AdGuard с помощью Google, Facebook или Apple. В последнем случае убедитесь, что ваш аккаунт привязан к тому же адресу, что и аккаунт AdGuard. Если у вас есть [подписка AdGuard VPN](/general/subscription), она будет автоматически активирована в браузерном расширении. У вас нет аккаунта AdGuard? [Create it here](https://auth.adguardaccount.com/registration.html).
+Вы можете использовать Браузерное расширение AdGuard VPN только после авторизации. Войдите в аккаунт AdGuard с помощью Google, Facebook или Apple. В последнем случае убедитесь, что ваш аккаунт привязан к тому же адресу, что и аккаунт AdGuard. Если у вас есть [подписка AdGuard VPN](/general/subscription), она будет автоматически активирована в браузерном расширении. У вас нет аккаунта AdGuard? [Создайте его здесь](https://auth.adguardaccount.com/registration.html).
 
 :::
 

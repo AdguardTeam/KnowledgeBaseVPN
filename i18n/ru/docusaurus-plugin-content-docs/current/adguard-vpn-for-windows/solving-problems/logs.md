@@ -5,67 +5,71 @@ sidebar position: 1
 
 Если у вас возникнут какие-либо проблемы при использовании AdGuard VPN для Windows, вы можете сообщить нам об этом. Будем признательны, если вы также отправите нам логи приложения — они помогут нам решить проблему гораздо быстрее.
 
-## Сбор логов
+## Standard logs
 
-### Стандартные логи
+По умолчанию в AdGuard VPN для Windows используется стандартный уровень логирования, то есть базовый сбор данных о работе приложения. To send these logs, follow the next steps:
 
-По умолчанию в AdGuard VPN для Windows используется стандартный уровень логирования, то есть базовый сбор данных о работе приложения. Перед отправкой логов откройте приложение AdGuard VPN для Windows и, если возможно, воспроизведите действия, которые привели к ошибке. Запомните точное время, когда эта ошибка произошла.
+1. Open AdGuard VPN for Windows and, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
 
-### Расширенные логи
+1. Click **Support** (in the menu above) → **Report a bug**.
 
-В большинстве случаев стандартного уровня логирования хватает, чтобы отслеживать возможные ошибки. Но бывают случаи, когда требуется более подробная техническая информация об устройстве и подключениях, и тогда наша команда поддержки попросит вас включить расширенный уровень логирования. Для отправки такого вида логов выполните следующие действия:
+1. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred. If you can’t reproduce the problem, specify as accurately as possible when it last occurred.
 
-1. Откройте AdGuard VPN для Windows и выберите **Настройки** в меню выше → **Настройки приложения** → **Расширенные настройки** → **Уровень логирования**.
+1. There is a check mark next to the **Send detailed system info**, which means that when you send a report, you also send logs.
 
-1. В разделе **Уровень логирования** выберите **Записывать всё**.
+:::note
 
-    ![Уровень логирования *border](https://cdn.adguard-vpn.com/content/kb/vpn/windows/logs/logging.jpeg)
+If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, select **Settings** → **App settings** → **Advanced settings** → **Export logs and system info**.
 
-1. Воспроизведите действия, которые привели к ошибке, и запомните время, в которое она произошла.
+:::
 
-1. Переключите уровень логирования обратно на **Записывать по умолчанию**.
+## Extended logs
 
-### Трейсовые логи
+In most cases, the default logging level is sufficient to trace down possible bugs. But there are cases when more detailed technical information about the device and connections is required, and then our support team will ask you to enable the extended logging level. To send this type of logs, follow these steps:
 
-Иногда в поддержке вас могут попросить прислать трейсовые логи. Для этого вам нужно сделать следующее:
+1. Open AdGuard VPN for Windows and select **Settings** in the menu above → **App settings** → **Advanced settings** → **Logging level** → **Extended**.
 
-1. Щёлкните правой кнопкой мыши по иконке AdGuard VPN в трей-меню и выберите **Выйти из AdGuard VPN**.
+1. Repeat the actions that led to the error, and note the time when it occurred.
 
-    ![Выход *mobile](https://cdn.adguard-vpn.com/content/kb/vpn/windows/logs/exit.png)
+1. Switch the logging level back to **Default**.
 
-    Если вы увидите предупреждение, остановите сервис.
+1. Select **Support** (in the menu above) → **Report a bug**.
 
-    ![Предупреждение *mobile](https://cdn.adguard-vpn.com/content/kb/vpn/windows/logs/attention.png)
+1. In the form that opens, enter your email address and describe the error you found, including the time it occurred. If you can’t reproduce the problem, be as specific as possible about when it last occurred.
 
-1. Откройте консоль (наберите `cmd` в стартовой панели).
+1. Make sure that there is a check mark next to **Send detailed system info** and click **Send**.
 
-1. Запустите приложение, используя команду `C:\"Program Files (x86)"\AdGuardVpn\AdguardVpn.exe /trace`, если вы используете 64-битный Windows, или `C:\"Program Files"\AdGuardVpn\AdguardVpn.exe /trace`, если вы используете 32-битный.
+:::note
 
-1. Воспроизведите ошибку. Мы настоятельно рекомендуем записывать точное время, когда вы воспроизвели проблему: это поможет нашей команде поддержки найти соответствующие логи и решить проблему быстрее.
+If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, select **Settings** → **App settings** → **Advanced settings** → **Export logs and system info**.
 
-1. Экспортируйте логи: перейдите во вкладку **Поддержка** → **Экспортировать логи и информацию**.
+:::
 
-Не пугайтесь, если файл с логами будет большим. Нам необходимо узнать как можно больше подробностей, чтобы исправить вашу проблему.
+## Trace logs
 
-## Отправка логов
+Sometimes our support team might ask you to send them trace logs. To do this, you need to follow these steps:
 
-Чтобы отправить логи нашей команде поддержки, выполните следующие действия:
+1. Right-click the AdGuard VPN icon in the tray menu and choose **Exit AdGuard VPN**.
 
-1. Выберите **Поддержка** в меню сверху → **Сообщить об ошибке**.
+    ![Exit *mobile](https://cdn.adguard-vpn.com/content/kb/vpn/windows/logs/exit.png)
 
-    ![Сообщить об ошибке *border](https://cdn.adguard-vpn.com/content/kb/vpn/windows/logs/support_report.jpeg)
+    If you see the warning message, agree to stop the service.
 
-1. В открывшейся форме введите свой адрес электронной почты и опишите обнаруженную ошибку, включая время её возникновения. Если воспроизвести проблему невозможно, укажите как можно точнее, когда она произошла в последний раз.
+    ![Attention *mobile](https://cdn.adguard-vpn.com/content/kb/vpn/windows/logs/attention.png)
 
-    ![Отчёт *border](https://cdn.adguard-vpn.com/content/kb/vpn/windows/logs/report_bug.png)
+1. Open the console (type `cmd` in the start panel).
 
-1. Напротив пункта **Отправить детальную информацию** по умолчанию стоит галочка, а это значит, что отправляя отчёт, вы также отправляете логи.
+1. Run the application with the command `C:\"Program Files (x86)"\AdGuardVpn\AdguardVpn.exe /trace` if you are using 64-bit Windows, and `C:\"Program Files"\AdGuardVpn\AdguardVpn.exe /trace` if you are using 32-bit.
 
-> Если вам по какой-либо причине удобнее отправить нам логи другим способом, вы можете экспортировать их самостоятельно. Для этого перейдите во вкладку **Поддержка** → **Экспортировать логи и информацию**.
+1. Reproduce the issue. We strongly recommend that you note the exact time when you reproduce the problem: this will help our support team to find relevant log entries and resolve the problem faster.
 
-![Экспорт *border](https://cdn.adguard-vpn.com/content/kb/vpn/windows/logs/export.jpeg)
+1. Export the recorded logs: **Settings** → **App settings** → **Advanced settings** → **Export logs and system info**.
 
-**Примечание**: если при попытке экспорта логов у вас возникнут проблемы, есть альтернативный способ. Пожалуйста, выполните следующие действия:
+Don’t worry if your log file is large. We need to know as many details as possible in order to fix your problem.
+
+:::note
+
+If you encounter any problems while trying to export logs, there is an alternative way. Please follow these steps:
 
 1. Откройте приложение Проводник
 
@@ -76,3 +80,5 @@ sidebar position: 1
 1. Архивируйте папку
 
 1. Отправьте архив нашей команде поддержки
+
+:::

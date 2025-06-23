@@ -190,7 +190,7 @@ modprobe tun
 
     Чтобы использовать AdGuard VPN для Linux, вам понадобится аккаунт AdGuard.
 
-    You can sign up on our [website](https://auth.adguardaccount.com/login.html) or in the Terminal.
+    Вы можете зарегистрироваться или войти в аккаунт [на нашем сайте](https://auth.adguard.com/login.html) или в Терминале.
 
     Чтобы зарегистрироваться или войти, введите:
 

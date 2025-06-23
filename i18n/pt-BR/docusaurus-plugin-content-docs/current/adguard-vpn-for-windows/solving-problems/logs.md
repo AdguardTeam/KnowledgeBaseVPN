@@ -5,27 +5,47 @@ sidebar position: 1
 
 If you encounter any problems while using AdGuard VPN for Windows, you can inform us about it. We would appreciate it if you also send application logs, as they help us resolve issues much quicker.
 
-## Collecting logs
+## Standard logs
 
-### Standard logs
+By default, AdGuard VPN for Windows uses the standard logging level, which is the basic collection of data about running processes of the app. To send these logs, follow the next steps:
 
-By default, AdGuard VPN for Windows uses the standard logging level, which is the basic collection of data about running processes of the app. Before sending the logs, please open AdGuard VPN for Windows and, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
+1. Open AdGuard VPN for Windows and, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
 
-### Extended logs
+1. Click **Support** (in the menu above) → **Report a bug**.
 
-Na maioria dos casos, o nível de log padrão é suficiente para rastrear possíveis bugs. Mas há casos em que são necessárias informações técnicas mais detalhadas sobre o dispositivo e as conexões e, assim, nossa equipe de suporte solicitará que você ative o nível de registro estendido. Para enviar este tipo de log, siga estes passos:
+1. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred. If you can’t reproduce the problem, specify as accurately as possible when it last occurred.
 
-1. Open AdGuard VPN for Windows and select **Settings** in the menu above → **App settings** → **Advanced settings** → **Logging level**.
+1. There is a check mark next to the **Send detailed system info**, which means that when you send a report, you also send logs.
 
-1. Na seção **Nível de registro**, selecione **Gravar tudo**.
+:::note
 
-    ![Logging level *border](https://cdn.adguard-vpn.com/content/kb/vpn/windows/logs/logging.jpeg)
+If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, select **Settings** → **App settings** → **Advanced settings** → **Export logs and system info**.
 
-1. Repita as ações que levaram ao erro, e anote a hora em que ocorreu.
+:::
 
-1. Mude o nível de registro de volta para **Gravar por padrão**.
+## Extended logs
 
-### Trace logs
+In most cases, the default logging level is sufficient to trace down possible bugs. But there are cases when more detailed technical information about the device and connections is required, and then our support team will ask you to enable the extended logging level. To send this type of logs, follow these steps:
+
+1. Open AdGuard VPN for Windows and select **Settings** in the menu above → **App settings** → **Advanced settings** → **Logging level** → **Extended**.
+
+1. Repeat the actions that led to the error, and note the time when it occurred.
+
+1. Switch the logging level back to **Default**.
+
+1. Select **Support** (in the menu above) → **Report a bug**.
+
+1. In the form that opens, enter your email address and describe the error you found, including the time it occurred. If you can’t reproduce the problem, be as specific as possible about when it last occurred.
+
+1. Make sure that there is a check mark next to **Send detailed system info** and click **Send**.
+
+:::note
+
+If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, select **Settings** → **App settings** → **Advanced settings** → **Export logs and system info**.
+
+:::
+
+## Trace logs
 
 Sometimes our support team might ask you to send them trace logs. To do this, you need to follow these steps:
 
@@ -43,29 +63,13 @@ Sometimes our support team might ask you to send them trace logs. To do this, yo
 
 1. Reproduce the issue. We strongly recommend that you note the exact time when you reproduce the problem: this will help our support team to find relevant log entries and resolve the problem faster.
 
-1. Export the recorded logs: **Support** → **Export logs and system info**.
+1. Export the recorded logs: **Settings** → **App settings** → **Advanced settings** → **Export logs and system info**.
 
 Don’t worry if your log file is large. We need to know as many details as possible in order to fix your problem.
 
-## Sending logs
+:::note
 
-To send logs to our support team, please follow the next steps:
-
-1. Click **Support** in the menu above → **Report a bug**.
-
-    ![Report a bug *border](https://cdn.adguard-vpn.com/content/kb/vpn/windows/logs/support_report.jpeg)
-
-1. In the form that opens, enter your email address and describe the error you found, including the time it occurred. If you can’t reproduce the problem, be as specific as possible about when it last occurred.
-
-    ![Report *border](https://cdn.adguard-vpn.com/content/kb/vpn/windows/logs/report_bug.png)
-
-1. Há uma marca de seleção ao lado de **Enviar informações detalhadas do sistema**, o que significa que, ao enviar um relatório, você também envia logs.
-
-> Se por algum motivo for mais conveniente para você nos enviar os logs de outra maneira, você mesmo poderá exportá-los. Para fazer isso, vá para **Suporte** → **Exportar logs e informações do sistema**.
-
-![Export *border](https://cdn.adguard-vpn.com/content/kb/vpn/windows/logs/export.jpeg)
-
-**Note**: if you encounter any problems while trying to export logs, there is an alternative way. Please follow these steps:
+If you encounter any problems while trying to export logs, there is an alternative way. Please follow these steps:
 
 1. Open the Explorer app
 
@@ -76,3 +80,5 @@ To send logs to our support team, please follow the next steps:
 1. Archive the folder
 
 1. Send it to our support team
+
+:::

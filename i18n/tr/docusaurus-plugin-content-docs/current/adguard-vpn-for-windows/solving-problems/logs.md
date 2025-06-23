@@ -5,67 +5,71 @@ sidebar position: 1
 
 Windows için AdGuard VPN kullanırken herhangi bir sorunla karşılaşırsanız, bizi bu konuda bilgilendirebilirsiniz. Sorunları daha hızlı çözmemize yardımcı oldukları için uygulama günlüklerini de gönderirseniz çok memnun oluruz.
 
-## Günlüklerin toplanması
+## Standard logs
 
-### Standart günlükler
+Varsayılan olarak, Windows için AdGuard VPN, uygulamanın çalışan işlemleri hakkında temel veri toplama olan standart günlük kayıt düzeyini kullanır. To send these logs, follow the next steps:
 
-Varsayılan olarak, Windows için AdGuard VPN, uygulamanın çalışan işlemleri hakkında temel veri toplama olan standart günlük kayıt düzeyini kullanır. Günlükleri göndermeden önce, lütfen Windows için AdGuard VPN'i açın ve mümkünse hataya neden olan eylemleri tekrarlayın. Bu hatanın oluştuğu tam zamana dikkat edin.
+1. Open AdGuard VPN for Windows and, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
 
-### Genişletilmiş günlükler
+1. Click **Support** (in the menu above) → **Report a bug**.
 
-Çoğu durumda, olası hataların izini sürmek için varsayılan günlük kayıt düzeyi yeterlidir. Ancak, cihaz ve bağlantılar hakkında daha ayrıntılı teknik bilgilerin gerekli olduğu durumlar vardır ve bu durumda destek ekibimiz, genişletilmiş günlük kayıt düzeyini etkinleştirmenizi ister. Bu tür günlükleri göndermek için şu adımları izleyin:
+1. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred. If you can’t reproduce the problem, specify as accurately as possible when it last occurred.
 
-1. Windows için AdGuard VPN'i açın ve yukarıdaki menüden **Ayarlar** → **Uygulama ayarları** → **Gelişmiş ayarlar** → **Günlük kayıt düzeyi** öğesini seçin.
+1. There is a check mark next to the **Send detailed system info**, which means that when you send a report, you also send logs.
 
-1. **Günlük kayıt düzeyi** bölümünde, **Her şeyi kaydet** öğesini seçin.
+:::note
 
-    ![Günlük kayıt düzeyi *border](https://cdn.adguard-vpn.com/content/kb/vpn/windows/logs/logging.jpeg)
+If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, select **Settings** → **App settings** → **Advanced settings** → **Export logs and system info**.
 
-1. Hataya neden olan işlemleri tekrarlayın ve meydana geldiği zamana dikkat edin.
+:::
 
-1. Kayıt düzeyini **Varsayılan olarak tekrar kaydet** olarak değiştirin.
+## Extended logs
 
-### İzleme günlükleri
+In most cases, the default logging level is sufficient to trace down possible bugs. But there are cases when more detailed technical information about the device and connections is required, and then our support team will ask you to enable the extended logging level. To send this type of logs, follow these steps:
 
-Bazen destek ekibimiz sizden izleme günlüklerini göndermenizi isteyebilir. Bunu yapmak için aşağıdaki adımları izlemeniz gerekir:
+1. Open AdGuard VPN for Windows and select **Settings** in the menu above → **App settings** → **Advanced settings** → **Logging level** → **Extended**.
 
-1. Tepsi menüsündeki AdGuard VPN simgesine sağ tıklayın ve **AdGuard VPN'den çık** öğesini seçin.
+1. Repeat the actions that led to the error, and note the time when it occurred.
 
-    ![Çıkış *mobile](https://cdn.adguard-vpn.com/content/kb/vpn/windows/logs/exit.png)
+1. Switch the logging level back to **Default**.
 
-    Uyarı mesajını görürseniz, hizmeti durdurmayı kabul edin.
+1. Select **Support** (in the menu above) → **Report a bug**.
 
-    ![Dikkat *mobile](https://cdn.adguard-vpn.com/content/kb/vpn/windows/logs/attention.png)
+1. In the form that opens, enter your email address and describe the error you found, including the time it occurred. If you can’t reproduce the problem, be as specific as possible about when it last occurred.
 
-1. Konsolu açın (başlat paneline `cmd` yazın).
+1. Make sure that there is a check mark next to **Send detailed system info** and click **Send**.
 
-1. Uygulmayı 64 bit Windows kullanıyorsanız `C:\"Program Files (x86)"\AdGuardVpn\AdguardVpn.exe /trace` komutuyla ve 32 bit kullanıyorsanız `C:\"Program Files"\AdGuardVpn\AdguardVpn.exe /trace` komutuyla çalıştırın.
+:::note
 
-1. Sorunu yeniden oluşturun. Sorunu yeniden oluşturduğunuz zamanı tam olarak not etmenizi önemle tavsiye ederiz: bu, destek ekibimizin ilgili günlük girdilerini bulmasına ve sorunu daha hızlı çözmesine yardımcı olur.
+If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, select **Settings** → **App settings** → **Advanced settings** → **Export logs and system info**.
 
-1. Kaydedilen günlükleri dışa aktarın: **Destek** → **Günlükleri ve sistem bilgisini dışa aktar**.
+:::
 
-Günlük dosyanız büyükse endişelenmeyin. Sorununuzu çözebilmek için mümkün olduğunca çok ayrıntı bilmemiz gerekiyor.
+## Trace logs
 
-## Günlükleri gönderme
+Sometimes our support team might ask you to send them trace logs. To do this, you need to follow these steps:
 
-Günlükleri destek ekibimize göndermek için lütfen sonraki adımları izleyin:
+1. Right-click the AdGuard VPN icon in the tray menu and choose **Exit AdGuard VPN**.
 
-1. Yukarıdaki menüden **Destek** → **Hata bildir** öğesine tıklayın.
+    ![Exit *mobile](https://cdn.adguard-vpn.com/content/kb/vpn/windows/logs/exit.png)
 
-    ![Hata bildir *border](https://cdn.adguard-vpn.com/content/kb/vpn/windows/logs/support_report.jpeg)
+    If you see the warning message, agree to stop the service.
 
-1. Açılan forma e-posta adresinizi girin ve bulduğunuz hatayı, meydana geldiği zaman da dahil olmak üzere açıklayın. Sorunu yeniden oluşturamıyorsanız, en son ne zaman oluştuğuna dair olabildiğince açık olun.
+    ![Attention *mobile](https://cdn.adguard-vpn.com/content/kb/vpn/windows/logs/attention.png)
 
-    ![Bildir *border](https://cdn.adguard-vpn.com/content/kb/vpn/windows/logs/report_bug.png)
+1. Open the console (type `cmd` in the start panel).
 
-1. **Detaylı sistem bilgisi gönder** öğesinin yanında bir onay işareti vardır; bu, bir rapor gönderdiğinizde günlükleri de göndereceğiniz anlamına gelir.
+1. Run the application with the command `C:\"Program Files (x86)"\AdGuardVpn\AdguardVpn.exe /trace` if you are using 64-bit Windows, and `C:\"Program Files"\AdGuardVpn\AdguardVpn.exe /trace` if you are using 32-bit.
 
-> Herhangi bir nedenle bize günlükleri başka bir şekilde göndermeniz daha uygunsa, bunları kendiniz dışa aktarabilirsiniz. Bunu yapmak için **Destek** → **Günlükleri ve sistem bilgisini dışa aktar** öğesine gidin.
+1. Reproduce the issue. We strongly recommend that you note the exact time when you reproduce the problem: this will help our support team to find relevant log entries and resolve the problem faster.
 
-![Dışa aktar *border](https://cdn.adguard-vpn.com/content/kb/vpn/windows/logs/export.jpeg)
+1. Export the recorded logs: **Settings** → **App settings** → **Advanced settings** → **Export logs and system info**.
 
-**Not**: Günlükleri dışa aktarmaya çalışırken herhangi bir sorunla karşılaşırsanız alternatif bir yol vardır. Lütfen aşağıdaki adımları izleyin:
+Don’t worry if your log file is large. We need to know as many details as possible in order to fix your problem.
+
+:::note
+
+If you encounter any problems while trying to export logs, there is an alternative way. Please follow these steps:
 
 1. Explorer uygulamasını açın
 
@@ -76,3 +80,5 @@ Günlükleri destek ekibimize göndermek için lütfen sonraki adımları izleyi
 1. Klasörü arşivleyin
 
 1. Bunu destek ekibimize gönderin
+
+:::

@@ -5,67 +5,71 @@ sidebar position: 1
 
 Pokud při používání AdGuard VPN pro Windows narazíte na problém, můžete nás o něm informovat. Uvítali bychom, kdybyste zasílali také protokoly aplikací, protože nám pomáhají řešit problémy mnohem rychleji.
 
-## Shromažďování protokolů
+## Standard logs
 
-### Standardní protokoly
+Ve výchozím nastavení používá AdGuard VPN pro Windows standardní úroveň záznamů, tj. základní sběr dat o spuštěných procesech aplikace. To send these logs, follow the next steps:
 
-Ve výchozím nastavení používá AdGuard VPN pro Windows standardní úroveň záznamů, tj. základní sběr dat o spuštěných procesech aplikace. Před odesláním protokolů otevřete AdGuard VPN pro Windows a pokud je to možné, zopakujte činnosti, které vedly k chybě. Zaznamenejte přesný čas, kdy k této chybě došlo.
+1. Open AdGuard VPN for Windows and, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
 
-### Rozšířené protokoly
+1. Click **Support** (in the menu above) → **Report a bug**.
 
-Ve většině případů je výchozí úroveň záznamů dostatečná pro dohledání případných chyb. V některých případech jsou však vyžadovány podrobnější technické informace o zařízení a připojeních, a pak vás náš tým podpory požádá o povolení rozšířené úrovně záznamů. Chcete-li odeslat tento typ protokolů, postupujte podle následujících kroků:
+1. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred. If you can’t reproduce the problem, specify as accurately as possible when it last occurred.
 
-1. Otevřete AdGuard VPN pro Windows a vyberte **Nastavení** v nabídce výše → **Nastavení aplikace** → **Pokročilá nastavení** → **Úroveň záznamů**.
+1. There is a check mark next to the **Send detailed system info**, which means that when you send a report, you also send logs.
 
-1. V části **Úroveň záznamu** vyberte možnost **Zaznamenat vše**.
+:::note
 
-    ![Logging level *border](https://cdn.adguard-vpn.com/content/kb/vpn/windows/logs/logging.jpeg)
+If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, select **Settings** → **App settings** → **Advanced settings** → **Export logs and system info**.
 
-1. Zopakujte akce, které vedly k chybě a zaznamenejte čas, kdy k ní došlo.
+:::
 
-1. Přepněte úroveň záznamů zpět na **Zaznamenat výchozí**.
+## Extended logs
 
-### Záznamy trasování
+In most cases, the default logging level is sufficient to trace down possible bugs. But there are cases when more detailed technical information about the device and connections is required, and then our support team will ask you to enable the extended logging level. To send this type of logs, follow these steps:
 
-Někdy vás náš tým podpory může požádat o zaslání záznamů trasování. K tomu je třeba postupovat podle následujících kroků:
+1. Open AdGuard VPN for Windows and select **Settings** in the menu above → **App settings** → **Advanced settings** → **Logging level** → **Extended**.
 
-1. Klikněte pravým tlačítkem na ikonu AdGuard VPN v nabídce na hlavním panelu a vyberte **Ukončit AdGuard VPN**.
+1. Repeat the actions that led to the error, and note the time when it occurred.
+
+1. Switch the logging level back to **Default**.
+
+1. Select **Support** (in the menu above) → **Report a bug**.
+
+1. In the form that opens, enter your email address and describe the error you found, including the time it occurred. If you can’t reproduce the problem, be as specific as possible about when it last occurred.
+
+1. Make sure that there is a check mark next to **Send detailed system info** and click **Send**.
+
+:::note
+
+If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, select **Settings** → **App settings** → **Advanced settings** → **Export logs and system info**.
+
+:::
+
+## Trace logs
+
+Sometimes our support team might ask you to send them trace logs. To do this, you need to follow these steps:
+
+1. Right-click the AdGuard VPN icon in the tray menu and choose **Exit AdGuard VPN**.
 
     ![Exit *mobile](https://cdn.adguard-vpn.com/content/kb/vpn/windows/logs/exit.png)
 
-    Pokud se zobrazí varovná zpráva, odsouhlaste ukončení služby.
+    If you see the warning message, agree to stop the service.
 
     ![Attention *mobile](https://cdn.adguard-vpn.com/content/kb/vpn/windows/logs/attention.png)
 
-1. Otevřete konzoli (na úvodním panelu zadejte `cmd`).
+1. Open the console (type `cmd` in the start panel).
 
-1. Spusťte aplikaci příkazem `C:\"Program Files (x86)"\AdGuardVpn\AdGuardVpn.exe /trace`, pokud používáte 64bitový systém Windows a `C:\"Program Files"\AdGuardVpn\AdGuardVpn.exe /trace`, pokud používáte 32bitový systém.
+1. Run the application with the command `C:\"Program Files (x86)"\AdGuardVpn\AdguardVpn.exe /trace` if you are using 64-bit Windows, and `C:\"Program Files"\AdGuardVpn\AdguardVpn.exe /trace` if you are using 32-bit.
 
-1. Znovu reprodukujte problém. Důrazně doporučujeme zaznamenat přesný čas, kdy jste problém reprodukovali: pomůže to našemu týmu podpory najít příslušné záznamy v protokolu a rychleji problém vyřešit.
+1. Reproduce the issue. We strongly recommend that you note the exact time when you reproduce the problem: this will help our support team to find relevant log entries and resolve the problem faster.
 
-1. Exportujte zaznamenané protokoly: **Podpora** → **Exportovat protokoly a systémové informace**.
+1. Export the recorded logs: **Settings** → **App settings** → **Advanced settings** → **Export logs and system info**.
 
-Nedělejte si starosti, pokud je soubor záznamu velký. Abychom mohli váš problém vyřešit, potřebujeme znát co nejvíce podrobností.
+Don’t worry if your log file is large. We need to know as many details as possible in order to fix your problem.
 
-## Odesílání protokolů
+:::note
 
-Chcete-li odeslat protokoly našemu týmu podpory, postupujte podle následujících kroků:
-
-1. Klikněte na **Podpora** v nabídce výše → **Nahlásit chybu**.
-
-    ![Report a bug *border](https://cdn.adguard-vpn.com/content/kb/vpn/windows/logs/support_report.jpeg)
-
-1. V otevřeném formuláři zadejte svou e-mailovou adresu a popište nalezenou chybu včetně času, kdy k ní došlo. Pokud nemůžete problém reprodukovat, uveďte co nejpřesněji, kdy k němu naposledy došlo.
-
-    ![Report *border](https://cdn.adguard-vpn.com/content/kb/vpn/windows/logs/report_bug.png)
-
-1. Vedle položky **Odeslat podrobné systémové informace** je zaškrtávací políčko, což znamená, že při odesílání hlášení se odesílají také protokoly.
-
-> Pokud je pro vás z nějakého důvodu pohodlnější poslat nám protokoly jiným způsobem, můžete je exportovat sami. Chcete-li to provést, přejděte do **Podpora** → **Exportovat protokoly a systémové informace**.
-
-![Export *border](https://cdn.adguard-vpn.com/content/kb/vpn/windows/logs/export.jpeg)
-
-**Poznámka**: pokud při pokusu o export protokolů narazíte na problémy, existuje alternativní způsob. Postupujte podle následujících kroků:
+If you encounter any problems while trying to export logs, there is an alternative way. Please follow these steps:
 
 1. Otevřete aplikaci Průzkumník
 
@@ -76,3 +80,5 @@ Chcete-li odeslat protokoly našemu týmu podpory, postupujte podle následujíc
 1. Archivujte složku
 
 1. Odešlete protokol našemu týmu podpory
+
+:::
