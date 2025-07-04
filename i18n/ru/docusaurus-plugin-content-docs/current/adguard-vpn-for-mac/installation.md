@@ -5,7 +5,7 @@ sidebar_position: 2
 
 ## Системные требования
 
-**Версия операционной системы**: macOS 10.15 (64-битная) или более поздняя
+**Operating system version**: macOS 11 Big Sur or higher
 
 **Объём оперативной памяти**: от 2 Гб
 

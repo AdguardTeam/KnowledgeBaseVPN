@@ -5,7 +5,7 @@ sidebar_position: 2
 
 ## 系统要求
 
-**Operating system version**: macOS 10.15 (64-bit) or higher
+**Operating system version**: macOS 11 Big Sur or higher
 
 **RAM**： 至少 2GB
 
