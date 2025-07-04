@@ -28,7 +28,7 @@ Der Ping zeigt die Antwortzeit des Servers in Millisekunden an. Dies gibt an, wi
 
 Mit AdGuard VPN können Sie aus über 50 Standorten in Dutzenden von Ländern wählen.
 
-![Hauptbildschirm und Standorte *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/main-locations.png)
+![Home and locations *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.7/home-locations-vpn-ios.png)
 
 ## Ausschlüsse
 
@@ -87,87 +87,95 @@ Sie können dies in vier Schritten tun:
 
 ![Import und Export von Ausschlüsse *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/exclusions-3dot-menu.png)
 
-## Allgemeine Einstellungen
+## Saved locations
 
-So öffnen Sie die allgemeinen Einstellungen:
+This feature lets you save your favorite server locations to a dedicated tab so that you can quickly access them without the need to search or scroll through the whole list.
+
+To add a location to *Saved*, just swipe left on it. To remove it from *Saved*, do the same:
+
+![Saved locations add remove *mobile](https://cdn.adtidy.org/content/release_notes/vpn/ios/v2.7/iosvpn-saved-locations-add-remove.gif)
+
+## General settings
+
+To open General settings:
 
 1. Tippen Sie auf das Symbol „Einstellungen“ (⚙) in der unteren rechten Ecke des Hauptbildschirms der App.
 2. Tippen Sie auf *Allgemein*.
 
-Hier können Sie AdGuard VPN für iOS mit verschiedenen Optionen nach Bedarf konfigurieren: *DNS-Server*, *Design*, *Erweiterte Einstellungen*, *Technische Daten und Interaktionsdaten senden* und *Kill Switch*.
+Here, you can configure AdGuard VPN for iOS as you need using different options: *DNS server*, *Theme*, *Advanced*, *Send technical and interaction data* and *Kill Switch*.
 
-![Allgemeine Einstellungen *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/general-settings.png)
+![General settings *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/general-settings.png)
 
 ### DNS-Server
 
-AdGuard VPN für iOS bietet die Wahl zwischen mehreren DNS-Servern, die jeweils ihre eigenen besonderen Eigenschaften haben. Zum Beispiel entfernt AdGuard DNS Werbung und schützt Ihr Gerät vor Tracking, während AdGuard DNS Familienschutz die Funktionen von AdGuard DNS mit Sichere Suche und Kindersicherung kombiniert. DNS-Server von verschiedenen DNS-Anbietern können je nach Standort, ISP und anderen Faktoren ebenfalls schneller oder langsamer arbeiten. Wählen Sie einen, der Ihnen am besten passt. Sie können [mehr über DNS](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns) und seine Eigenschaften erfahren.
+AdGuard VPN for iOS offers a choice between several DNS servers, each with their own special qualities. For example, AdGuard DNS removes ads and protects your device from tracking while AdGuard DNS Family Protection combines the functions of AdGuard DNS with Safe search and adult content blocking. DNS servers by different DNS providers may also work faster or slower depending on your location, ISP, and other factors. Choose the one that works best for you. You can [find out more about DNS](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns) and its characteristics.
 
-![DNS-Server-Bildschirm *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/DNS-server.png)
+![DNS server screen *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/DNS-server.png)
 
 ### Design
 
-Sie können Ihr App-Farbschema auf „System“, „Dunkel“ oder „Hell“ einstellen (verfügbar in iOS 13 oder höher).
+You can set your app theme to System, Dark, or Light (available in iOS 13 or later).
 
 ### Erweiterte Einstellungen
 
-In den *Erweiterten Einstellungen* finden Sie 4 Abschnitte — *Betriebsmodus*, *Protokollierungsebene*, *Protokolle und Systeminformationen exportieren* und *Diagnostische Informationen*.
+In *Advanced* settings, you can find 4 sections — *Operating mode*, *Logging level*, *Export logs and system info*, and *Diagnostic info*.
 
 #### Betriebsmodus
 
-AdGuard VPN für iOS kann in zwei Modi betrieben werden: **VPN** und **Integrierter Modus**.
+AdGuard VPN for iOS can operate in two modes: **VPN** and **Integrated**.
 
-Der Modus *VPN* verwendet das [AdGuard VPN-Protokoll](/general/adguard-vpn-protocol), das die beste Kombination aus Geschwindigkeit und Sicherheit bietet. In diesem Modus funktioniert AdGuard VPN nicht mit [AdGuard Werbeblocker für iOS](https://adguard.com/adguard-ios/overview.html).
+The *VPN* mode uses the [AdGuard VPN protocol](/general/adguard-vpn-protocol), which provides the best combination of speed and security. In this mode, AdGuard VPN will not work with [AdGuard Ad Blocker for iOS](https://adguard.com/adguard-ios/overview.html).
 
-Im **Integrierten Modus** kann AdGuard VPN gleichzeitig mit AdGuard Werbeblocker für iOS über das IPSec-Protokoll arbeiten. Dieses Protokoll ist ebenfalls sicher, aber etwas langsamer und leichter zu erkennen. Sie müssen nichts tun, um die Integration einzurichten: Installieren Sie einfach beide Anwendungen und wechseln Sie in diesen Modus.
+In **Integrated mode**, AdGuard VPN will be able to work simultaneously with AdGuard Ad Blocker for iOS using the IPSec protocol. This protocol is also secure, but a bit slower and easier to detect. You don’t have to do anything to set up the integration: just install both apps and switch to this mode.
 
 :::note
 
-Im **Integrierten** Modus können Sie weder die Funktion „Ausschlüsse“ verwenden noch einen DNS-Server auswählen.
+In **Integrated** mode, you can’t use the Exclusions feature or choose a DNS server.
 
 :::
 
 #### Protokollierungsebene
 
-Diese Einstellung wird in erster Linie für die Fehlersuche und -behebung verwendet. Die Protokollierungsebenen „Erweitert“ und „Extrem“ zeichnen detailliertere Informationen auf, die bei der Identifizierung und Behebung verschiedener Probleme oder Fehler helfen können.
+This setting is primarily used for debugging and troubleshooting purposes. The Extended and Extreme logging levels record more detailed information that can help identify and fix various problems or bugs.
 
 :::caution
 
-**Es wird nicht empfohlen, die Protokollierungsebene „Erweitert“ oder „Extrem“ zu aktivieren, es sei denn, unser Support-Team bittet darum**.
+**It is not recommended to enable the Extended or Extreme logging level unless requested by our support team**.
 
 :::
 
 #### Protokolle und Systeminformationen exportieren
 
-Mit dieser Option können Sie die Protokolle und Systeminformationen der App an unseren Support oder andere Personen senden.
+This option can be used to send the app’s logs and system info to our support or anyone else.
 
 #### Diagnostische Informationen
 
-Mit dieser Option können Sie technische Informationen exportieren, die bei der Lösung von Problemen nützlich sein können und manchmal von unserem Support und unseren Entwicklern angefordert werden.
+This option lets you export technical information that can be useful in solving problems and is sometimes requested by our support and developers.
 
 ### Technische Daten und Interaktionsdaten senden
 
-Wenn Sie diese Option aktivieren, helfen Sie uns, besser zu verstehen, wie Menschen mit der App interagieren. Wir verwenden diese Informationen, um die Benutzerfreundlichkeit zu verbessern.
+By turning this option on, you are helping us understand better how users interact with the app. We use that information to improve user experience.
 
 ### Kill Switch (Not‐Trennung)
 
-Wenn Ihre VPN-Verbindung aus irgendeinem Grund plötzlich abbricht, beendet *Kill Switch* automatisch die Internetverbindung und stellt sicher, dass Ihre Daten nicht nach außen dringen und Ihre Identität verborgen bleibt.
+If for some reason your VPN connection suddenly drops, *Kill Switch* will automatically terminate the Internet connection, making sure your data doesn’t leak and your identity stays hidden.
 
-## Schnellaktionen
+## Quick actions
 
-Schnellaktionen sind eine bequeme Möglichkeit, nützliche oder app-spezifische Aktionen auf dem Startbildschirm auszuführen, ohne eine App zu öffnen.
+Quick actions are the convenient way to do useful or any app-specific actions from the Home screen without opening an app.
 
-Tippen Sie auf das AdGuard VPN-App-Symbol, halten Sie es gedrückt und heben Sie den Finger an, um auf das Menü mit den Schnellaktionen zuzugreifen. Im geöffneten Menü sehen Sie die Schnellaktionen von AdGuard VPN: *Verbinden* (*Deaktivieren*) und *Standort auswählen*. Sie können auch auf alle Standardaktionen zugreifen, wie z. B. das Entfernen der App oder das Verschieben oder Teilen der App.
+To access the quick actions menu, tap and hold the AdGuard VPN app icon, then lift your finger. In the opened menu, you will see AdGuard VPN’s quick actions: *Connect* (*Disconnect*) and *Select location*. You can also access all default actions like removing the app or moving or sharing the app.
 
-![Schnellaktionen *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/quick-action-menu.png)
+![Quick actions *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/quick-action-menu.png)
 
 ## Support
 
-Der Bildschirm „Support“ (*Einstellungen* → *Support*) bietet eine Reihe von hilfreichen Funktionen: *FAQ*, *Fehler melden*, *Funktion vorschlagen* und *App bewerten*. Letzteres ermöglicht es Ihnen, AdGuard VPN für iOS im App Store zu bewerten.
+The Support screen (*Settings* → *Support*) has a number of helpful features: *FAQ*, *Report a bug*, *Request a feature*, and *Rate app*. The latter allows you to rate AdGuard VPN for iOS on the App Store.
 
 ![Support *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/support.png)
 
-## Bildschirm „Abonnement“
+## Subscription screen
 
-Wenn Sie die kostenlose Version von AdGuard VPN verwenden, gibt es eine weitere Registerkarte mit einem Pfeilsymbol in der unteren Tab-Leiste. Dieser Abschnitt beschreibt kurz die wichtigsten Vorteile der kostenpflichtigen Version der App. Sie können ein Jahres- oder Monatsabonnement wählen.
+If you are using the free version of AdGuard VPN, there will be another tab with an arrow icon on the bottom tab bar. This section briefly describes the main benefits of the paid version of the app. You can choose a yearly or monthly subscription.
 
-![Abonnement *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/unlimited.png)
+![Subscription *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/unlimited.png)

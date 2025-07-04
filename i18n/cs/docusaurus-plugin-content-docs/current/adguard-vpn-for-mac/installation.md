@@ -5,7 +5,7 @@ sidebar_position: 2
 
 ## Požadavky na systém
 
-**Verze operačního systému**: macOS 10.15 (64 bitů) nebo vyšší
+**Operating system version**: macOS 11 Big Sur or higher
 
 **RAM**: alespoň 2 GB
 
