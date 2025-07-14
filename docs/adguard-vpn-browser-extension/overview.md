@@ -13,9 +13,7 @@ You can only use AdGuard VPN Browser Extension when logged in. Sign in with your
 
 ## Saved locations
 
-You can save your favorite locations for quick access.
-
-To save a location, just hover over it and click the bookmark icon that appears:
+You can save your favorite locations for quick access. To do so, just hover over a location and click the bookmark icon that appears:
 
 ![Save a location *mobile](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/saved-locations-en.png)
 
