@@ -5,7 +5,7 @@ sidebar_position: 1
 
 Pokud při používání AdGuard VPN pro macOS narazíte na problém, můžete nás o něm informovat zasláním protokolů aplikace.
 
-## Standard logs
+## Standardní protokoly
 
 Ve výchozím nastavení používá AdGuard VPN pro macOS standardní úroveň záznamů, tj. základní sběr dat o spuštěných procesech aplikace. Chcete-li tyto protokoly odeslat, postupujte podle následujících kroků:
 
@@ -19,21 +19,21 @@ Ve výchozím nastavení používá AdGuard VPN pro macOS standardní úroveň z
 
 :::note
 
-Pokud je pro vás z nějakého důvodu pohodlnější poslat nám protokoly jiným způsobem, můžete je exportovat sami. To do this, select **Settings** → **App settings** → **Advanced settings** → **Export logs and system info**.
+Pokud je pro vás z nějakého důvodu pohodlnější poslat nám protokoly jiným způsobem, můžete je exportovat sami. Chcete-li to provést, vyberte **Nastavení** → **Nastavení aplikace** → **Pokročilá nastavení** → **Exportovat protokoly a systémové informace**.
 
 :::
 
-## Extended logs
+## Rozšířené protokoly
 
 Ve většině případů je výchozí úroveň záznamů dostatečná pro dohledání případných chyb. V některých případech jsou však vyžadovány podrobnější technické informace o zařízení a připojeních, a pak vás náš tým podpory požádá o povolení rozšířené úrovně záznamů. Chcete-li odeslat tento typ protokolů, postupujte podle následujících kroků:
 
-1. Open AdGuard VPN for Mac and select **Settings** → **App settings** → **Advanced settings**.
+1. Otevřete AdGuard VPN pro macOS a vyberte **Nastavení** → **Nastavení aplikace** → **Pokročilá nastavení**.
 
-1. In the **Logging level** pop-up window, select **Extended**.
+1. V části **Úroveň záznamu** vyberte možnost **Pokročilé**.
 
 1. Zopakujte akce, které vedly k chybě a zaznamenejte čas, kdy k ní došlo.
 
-1. Switch the logging level back to **Default**.
+1. Přepněte úroveň záznamů zpět na **Výchozí**.
 
 1. Poté vyberte **Podpora** (v nabídce výše) → **Nahlásit chybu**.
 
@@ -43,7 +43,7 @@ Ve většině případů je výchozí úroveň záznamů dostatečná pro dohled
 
 :::note
 
-Pokud je pro vás z nějakého důvodu pohodlnější poslat nám protokoly jiným způsobem, můžete je exportovat sami. To do this, select **Settings** → **App settings** → **Advanced settings** → **Export logs and system info**.
+Pokud je pro vás z nějakého důvodu pohodlnější poslat nám protokoly jiným způsobem, můžete je exportovat sami. Chcete-li to provést, vyberte **Nastavení** → **Nastavení aplikace** → **Pokročilá nastavení** → **Exportovat protokoly a systémové informace**.
 
 :::
 

@@ -5,7 +5,7 @@ sidebar_position: 2
 
 ## 動作環境
 
-**Operating system version**: macOS 10.15 (64-bit) or higher
+**Operating system version**: macOS 11 Big Sur or higher
 
 **RAM**: 2 GB以上
 

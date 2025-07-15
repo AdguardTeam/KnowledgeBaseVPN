@@ -5,7 +5,7 @@ sidebar_position: 2
 
 ## Configuration requise
 
-**Operating system version**: macOS 10.15 (64-bit) or higher
+**Operating system version**: macOS 11 Big Sur or higher
 
 **RAM** : au moins 2 Go
 

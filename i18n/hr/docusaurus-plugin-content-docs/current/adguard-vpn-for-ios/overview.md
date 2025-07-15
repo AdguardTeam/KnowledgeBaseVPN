@@ -28,7 +28,7 @@ The ping shows the server’s response time in milliseconds. This indicates how 
 
 With AdGuard VPN, you can choose from over 50 locations in dozens of countries.
 
-![Main screen and locations *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/main-locations.png)
+![Home and locations *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.7/home-locations-vpn-ios.png)
 
 ## Exclusions
 
@@ -86,6 +86,14 @@ You can do it in four steps:
 **In AdGuard VPN for iOS, the export and import features can be accessed by tapping the three-dot icon in the upper right corner of the Exclusions screen**.
 
 ![Import/export exclusions *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/exclusions-3dot-menu.png)
+
+## Saved locations
+
+This feature lets you save your favorite server locations to a dedicated tab so that you can quickly access them without the need to search or scroll through the whole list.
+
+To add a location to *Saved*, just swipe left on it. To remove it from *Saved*, do the same:
+
+![Saved locations add remove *mobile](https://cdn.adtidy.org/content/release_notes/vpn/ios/v2.7/iosvpn-saved-locations-add-remove.gif)
 
 ## General settings
 

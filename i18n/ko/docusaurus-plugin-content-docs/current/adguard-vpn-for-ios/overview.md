@@ -5,7 +5,7 @@ sidebar_position: 1
 
 ## iOS용 AdGuard VPN이란 무엇인가요?
 
-VPN을 사용하면 인터넷의 다른 네트워크에 안전하게 연결할 수 있습니다. It connects a user’s computer or mobile device to a server and allows one to browse the Internet using a “cover” IP address. If the VPN server is located in another country, it will appear as if your Internet connection was established from this country. For more details, you can check [our article on how a VPN works](/general/how-vpn-works).
+VPN을 사용하면 인터넷의 다른 네트워크에 안전하게 연결할 수 있습니다. It connects a user’s computer or mobile device to a server and allows one to browse the Internet using a “cover” IP address. VPN 서버가 다른 국가에 있는 경우, 이 국가에서 인터넷 연결이 설정된 것처럼 표시됩니다. 자세한 내용은 [VPN이 작동하는 방식에 대한 글](/general/how-vpn-works)을 확인하세요.
 
 AdGuard VPN에는 여러 가지 기능이 있습니다.
 
@@ -28,7 +28,7 @@ The ping shows the server’s response time in milliseconds. This indicates how 
 
 With AdGuard VPN, you can choose from over 50 locations in dozens of countries.
 
-![메인 화면 및 위치 *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/main-locations.png)
+![Home and locations *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.7/home-locations-vpn-ios.png)
 
 ## Exclusions
 
@@ -87,6 +87,14 @@ You can do it in four steps:
 
 ![가져오기/내보내기 예외 *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/exclusions-3dot-menu.png)
 
+## Saved locations
+
+This feature lets you save your favorite server locations to a dedicated tab so that you can quickly access them without the need to search or scroll through the whole list.
+
+To add a location to *Saved*, just swipe left on it. To remove it from *Saved*, do the same:
+
+![Saved locations add remove *mobile](https://cdn.adtidy.org/content/release_notes/vpn/ios/v2.7/iosvpn-saved-locations-add-remove.gif)
+
 ## General settings
 
 To open General settings:
@@ -100,9 +108,9 @@ Here, you can configure AdGuard VPN for iOS as you need using different options:
 
 ### DNS 서버
 
-iOS용 AdGuard VPN에서는 각각 고유한 특성이 있는 여러 DNS 서버 중에서 선택할 수 있습니다. 예를 들어, AdGuard DNS는 광고를 제거하고 기기를 추적으로부터 보호하며, AdGuard DNS 자녀 보호는 AdGuard DNS, 세이프 서치 및 성인 콘텐츠 차단 기능을 결합합니다. 다른 DNS 제공자의 DNS 서버는 위치, 인터넷 서비스 제공자 및 기타 요인에 따라 더 빠르게 또는 느리게 작동할 수 있습니다. 가장 적합한 서버를 선택하세요. DNS와 그 특성에 대해 [자세히 알아볼 수 있습니다](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns).
+AdGuard VPN for iOS offers a choice between several DNS servers, each with their own special qualities. For example, AdGuard DNS removes ads and protects your device from tracking while AdGuard DNS Family Protection combines the functions of AdGuard DNS with Safe search and adult content blocking. DNS servers by different DNS providers may also work faster or slower depending on your location, ISP, and other factors. Choose the one that works best for you. You can [find out more about DNS](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns) and its characteristics.
 
-![DNS 서버 화면 *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/DNS-server.png)
+![DNS server screen *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/DNS-server.png)
 
 ### 테마
 
@@ -158,16 +166,16 @@ Quick actions are the convenient way to do useful or any app-specific actions fr
 
 To access the quick actions menu, tap and hold the AdGuard VPN app icon, then lift your finger. In the opened menu, you will see AdGuard VPN’s quick actions: *Connect* (*Disconnect*) and *Select location*. You can also access all default actions like removing the app or moving or sharing the app.
 
-![퀵 액션 *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/quick-action-menu.png)
+![Quick actions *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/quick-action-menu.png)
 
-## 고객 지원
+## Support
 
 The Support screen (*Settings* → *Support*) has a number of helpful features: *FAQ*, *Report a bug*, *Request a feature*, and *Rate app*. The latter allows you to rate AdGuard VPN for iOS on the App Store.
 
-![고객 지원 *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/support.png)
+![Support *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/support.png)
 
 ## Subscription screen
 
 If you are using the free version of AdGuard VPN, there will be another tab with an arrow icon on the bottom tab bar. This section briefly describes the main benefits of the paid version of the app. You can choose a yearly or monthly subscription.
 
-![구독 *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/unlimited.png)
+![Subscription *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/unlimited.png)
