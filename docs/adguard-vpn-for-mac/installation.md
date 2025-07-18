@@ -32,7 +32,7 @@ AdGuard VPN for Mac is installed!
 
 Users running older versions of macOS (Catalina 10.15 and earlier) won’t find a compatible app version in the download section of the AdGuard VPN website, as these OS versions are no longer supported in the latest releases.
 
-However, we still provide distributions for these systems. You can download a compatible version here: [https://agrd.io/adguard\_vpn\_for\_macoscatalina](https://agrd.io/adguard_vpn_for_macoscatalina).
+However, you still can [download an older, compatible version](https://agrd.io/adguard_vpn_for_macoscatalina)
 
 ## How to uninstall AdGuard VPN for Mac
 
