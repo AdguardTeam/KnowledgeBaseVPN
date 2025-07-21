@@ -21,6 +21,12 @@ AdGuard VPN может быть установлен только на устр�
 
 AdGuard VPN для Android успешно установлен!
 
+### Installation on Android 7
+
+Android 7 users won’t find a compatible app version in the download section of the AdGuard VPN website, as it’s no longer supported in the latest releases.
+
+However, you still can [download an older, compatible version](https://agrd.io/vpn_android_7_for_web).
+
 ## Как удалить AdGuard VPN для Android
 
 Если вы хотите удалить AdGuard VPN для Android, нажмите и задержите иконку приложения. В открывшемся списке выберите *Удалить*.

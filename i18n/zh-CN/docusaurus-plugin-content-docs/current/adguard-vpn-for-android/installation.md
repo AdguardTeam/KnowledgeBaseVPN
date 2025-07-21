@@ -21,6 +21,12 @@ You can install the AdGuard VPN for Android app for free from Google Play. To do
 
 AdGuard VPN 安卓版已成功安装！
 
+### Installation on Android 7
+
+Android 7 users won’t find a compatible app version in the download section of the AdGuard VPN website, as it’s no longer supported in the latest releases.
+
+However, you still can [download an older, compatible version](https://agrd.io/vpn_android_7_for_web).
+
 ## 如何卸载 AdGuard VPN 安卓版
 
 如果您决定卸载 AdGuard VPN 安卓版，请找到此应用的图标并长按。 在打开的列表中，点击*卸载*。

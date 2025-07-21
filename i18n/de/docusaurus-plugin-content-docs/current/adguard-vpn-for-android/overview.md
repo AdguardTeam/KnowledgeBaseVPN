@@ -9,6 +9,14 @@ Der Hauptbildschirm zeigt den VPN-Status an (Verbunden/Getrennt). Außerdem gibt
 
 Jeder Server hat seinen Standort und seine Ping-Rate, die die Antwortzeit des Servers beschreibt. Je niedriger diese Rate ist, desto schneller ist die Verbindung. Die schnellsten Server stehen immer an der Spitze der Liste, die aus mehr als 50 Standorten in Dutzenden von Ländern besteht. Sie können sich mit dem schnellsten Server verbinden, indem Sie auf die Schaltfläche „*Verbinden*“ tippen oder einen Standort auswählen.
 
+## Saved locations
+
+![Saved locations *mobile](https://cdn.adguard-vpn.com/content/kb/vpn/android/saved-loc_en.png)
+
+This section lets you save your favorite server locations to a dedicated tab so that you can quickly access them without the need to search or scroll through the whole list.
+
+To add a location to *Saved*, just swipe left on it. To remove it, do the same.
+
 ## Ausschlüsse
 
 Mit Ausschlusslisten können Sie die VPN-Verbindung für bestimmte Websites und Anwendungen verwalten. Um auf die *Ausschlüsse* zuzugreifen, tippen Sie auf das zweite Symbol von links unten auf dem Bildschirm.

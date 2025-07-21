@@ -5,7 +5,7 @@ sidebar_position: 2
 
 ## Requisitos do Sistema
 
-**Sistema operacional versão**: macOS 10.15 (64 bits) ou superior
+**Operating system version**: macOS 11 Big Sur or higher
 
 **RAM**: pelo menos 2 GB
 
@@ -25,6 +25,12 @@ sidebar_position: 2
 6. Wait for the installer to download the necessary files.
 
 AdGuard VPN for Mac is installed!
+
+### Installation on older versions of macOS
+
+Users running older versions of macOS (Catalina 10.15 and earlier) won’t find a compatible app version in the download section of the AdGuard VPN website, as these OS versions are no longer supported in the latest releases.
+
+However, you still can [download an older, compatible version](https://agrd.io/adguard_vpn_for_macoscatalina)
 
 ## How to uninstall AdGuard VPN for Mac
 
