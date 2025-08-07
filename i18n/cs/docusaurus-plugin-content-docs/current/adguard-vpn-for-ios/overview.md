@@ -28,7 +28,7 @@ Ping znázorňuje dobu odezvy serveru v milisekundách. Tento údaj udává, jak
 
 S AdGuard VPN si můžete vybrat z více než 50 umístění v desítkách zemí.
 
-![Main screen and locations *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/main-locations.png)
+![Home and locations *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.7/home-locations-vpn-ios.png)
 
 ## Výjimky
 
@@ -86,6 +86,14 @@ Můžete to udělat ve čtyřech krocích:
 **V AdGuard VPN pro iOS se k funkcím exportu a importu dostanete klepnutím na ikonu tří teček v pravém horním rohu obrazovky Výjimky.**.
 
 ![Import/export exclusions *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/exclusions-3dot-menu.png)
+
+## Uložená umístění
+
+Tato funkce umožňuje uložit oblíbená umístění serverů na zvláštní kartu, abyste k nim měli rychlý přístup bez nutnosti vyhledávání nebo procházení celého seznamu.
+
+Chcete-li přidat umístění do *Uložených*, stačí přes něj přejet prstem doleva. Chcete-li jej odstranit z *Uložených*, postupujte stejně:
+
+![Saved locations add remove *mobile](https://cdn.adtidy.org/content/release_notes/vpn/ios/v2.7/iosvpn-saved-locations-add-remove.gif)
 
 ## Obecná nastavení
 

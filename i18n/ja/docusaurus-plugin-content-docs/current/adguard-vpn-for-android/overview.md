@@ -9,6 +9,14 @@ The main screen reflects the VPN status (Connected/Disconnected). There are also
 
 各サーバーには、その所在地（国と都市）と、サーバーの応答時間を表すPingが表示されています。 The lower this rate, the faster the connection. The fastest servers always appear at the top of the list that consists of more than 50 locations in dozens of countries. You can connect to the fastest server by tapping the *Connect* button or by picking a location.
 
+## Saved locations
+
+![Saved locations *mobile](https://cdn.adguard-vpn.com/content/kb/vpn/android/saved-loc_en.png)
+
+This section lets you save your favorite server locations to a dedicated tab so that you can quickly access them without the need to search or scroll through the whole list.
+
+To add a location to *Saved*, just swipe left on it. To remove it, do the same.
+
 ## 除外機能
 
 Exclusion lists allow you to manage the VPN connection for specific websites and apps. To access *Exclusions*, tap the second icon from the left at the bottom of the screen.

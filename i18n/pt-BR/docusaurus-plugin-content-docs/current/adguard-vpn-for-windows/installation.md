@@ -13,6 +13,12 @@ Para instalar o AdGuard VPN para Windows, visite [nosso site](https://adguard-vp
 
 Em seguida, você precisará marcar a caixa para aceitar os termos do EULA e a Política de Privacidade. E na última etapa da instalação, você será solicitado a autorizar através de sua conta AdGuard ou através de redes sociais (Google, Apple, Facebook).
 
+### Installation on Windows 7
+
+Windows 7 users won’t find a compatible app version in the download section of the AdGuard VPN website, as it’s no longer supported in the latest releases.
+
+However, you still can [download an older, compatible version](https://agrd.io/adguard_vpn_for_win7).
+
 ## Desinstalação do AdGuard VPN para Windows
 
 If you decide to remove AdGuard VPN from your computer, use one of three options listed below:
