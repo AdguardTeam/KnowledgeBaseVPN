@@ -9,6 +9,14 @@ Na hlavní obrazovce je zobrazen stav VPN (Připojeno/odpojeno). Je zde také tl
 
 U každého serveru je uvedeno jeho umístění a hodnota ping, která popisuje dobu odezvy serveru. Čím nižší je tato hodnota, tím rychlejší je připojení. Nejrychlejší servery se vždy objevují v horní části seznamu, který obsahuje více než 50 umístění v desítkách zemí. K nejrychlejšímu serveru se můžete připojit klepnutím na tlačítko *Připojit* nebo výběrem umístění.
 
+## Uložená umístění
+
+![Saved locations *mobile](https://cdn.adguard-vpn.com/content/kb/vpn/android/saved-loc_en.png)
+
+Tato sekce umožňuje uložit oblíbená umístění serverů na zvláštní kartu, abyste k nim měli rychlý přístup bez nutnosti vyhledávání nebo procházení celého seznamu.
+
+Chcete-li přidat umístění do *Uložených*, stačí přes něj přejet prstem doleva. Chcete-li jej odstranit, postupujte stejně.
+
 ## Výjimky
 
 Seznamy výjimek vám umožňují spravovat připojení VPN pro konkrétní webové stránky a aplikace. Do sekce *Výjimky* se dostanete klepnutím na druhou ikonu zleva ve spodní části obrazovky.

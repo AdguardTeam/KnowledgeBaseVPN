@@ -5,169 +5,177 @@ sidebar_position: 1
 
 ## 什么是 iOS版 AdGuard VPN？
 
-VPN 可以让用户与互联网上另一处网络创建安全连接。 It connects a user’s computer or mobile device to a server and allows one to browse the Internet using a “cover” IP address. If the VPN server is located in another country, it will appear as if your Internet connection was established from this country. For more details, you can check [our article on how a VPN works](/general/how-vpn-works).
+VPN 可以让用户与互联网上另一处网络创建安全连接。 它将用户的电脑或移动设备连接到服务器，并允许用户使用“覆盖” IP 地址上网。 如果 VPN 服务器位于另一个国家/地区，那么用户就像是从该国家/地区建立的网络连接。 更多详情，请查阅[我们的文章：VPN 的工作原理](/general/how-vpn-works)。
 
-AdGuard VPN has several functions:
+AdGuard VPN 具有多种功能：
 
-- Hides your real whereabouts and helps you stay anonymous
-- Changes your IP address to protect your data from tracking
-- Encrypts your traffic, making the content inaccessible to scammers
-- Lets you configure where to use VPN and where not to (exclusions feature)
+- 隐藏用户的真实位置帮助保持匿名性
+- 更改用户的 IP 地址避免他人跟踪个人数据
+- 加密您的网络流量，使诈骗者无法获取内容
+- 让用户自己配置在哪里启用或停用 VPN（排除项功能）
 
-适用于 iOS 的 AdGuard VPN 下一个优势是我们自建的 VPN 协议。 It is extremely difficult to detect compared to other VPN protocols, and it is stable even with a poor Internet connection. [Read more about the AdGuard VPN protocol](/general/adguard-vpn-protocol).
+AdGuard VPN iOS 版下一个优势是我们自建的 VPN 协议。 与其他 VPN 协议相比，该协议极难被侦测，即使在网络连接状况不佳时也能保持稳定运行。 [点此访问有关 AdGuard VPN 协议的更多信息](/general/adguard-vpn-protocol)。
 
 ## 如何使用 AdGuard VPN iOS 版
 
-To use AdGuard VPN for iOS, first you need to log into your [AdGuard account](https://adguardaccount.com/). 您可以直接使用您的 AdGuard 账号信息登录，或通过 Google、Apple ID 或 Facebook（仅在您的 AdGuard 账号使用相同的电子邮件地址注册的情况下）登录。
+要使用 AdGuard VPN iOS 版，首先用户需要登录个人 [AdGuard 账号](https://adguardaccount.com/)。 您可以直接使用您的 AdGuard 账号信息登录，或通过 Google、Apple ID 或 Facebook（仅在您的 AdGuard 账号使用相同的电子邮件地址注册的情况下）登录。
 
-If you don’t have an AdGuard account yet, you will have to create it first.
+如果您还没有 AdGuard 账号，请您先创建一个。
 
-使用 AdGuard VPN 非常简单。 On the main screen you can see the *Connect* (*Disconnect*) button and the list of available servers (we call them *locations*). Each server has its own location (a certain country and a city) and ping indicator.
+使用 AdGuard VPN 非常简单。 在首页上，有一个「*连接*」，或者「*断开连接*」的按钮和一个可用的服务器列表（也称「*位置*」）。 每一台服务器旁边显示地理位置（某个国家/地区和城市），以及 Ping 值（延迟时间）。
 
-The ping shows the server’s response time in milliseconds. This indicates how fast the VPN connection will be when you connect to that location. Selecting a server with a ping of 22 ms means that a data packet sent to this server will be returned in 22 ms.
+Ping 值表示服务器的响应时间（毫秒）。 这表明当用户连接到该位置时 VPN 连接的速度有多快。 选择 Ping 为22毫秒的服务器，意味着发送至该服务器的数据包将在22毫秒内完成往返。
 
-With AdGuard VPN, you can choose from over 50 locations in dozens of countries.
+在 AdGuard VPN 中，用户可以在数十个国家的 50 多个地点中选择服务器位置。
 
-![Main screen and locations *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/main-locations.png)
+![主界面和位置 *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.7/home-locations-vpn-ios_zh_cn.png)
 
-## Exclusions
+## 排除项
 
-You can find the Exclusions tab by tapping the second icon in the bottom bar.
+您可以通过点击底部栏中的第二个图标找到「排除项」选项卡。
 
-By default, AdGuard VPN is active for all websites except those added to Exclusions. You can also turn it on selectively — VPN will be active only for specified websites. To switch to this mode, tap *Change mode*.
+默认情况下，AdGuard VPN 会对所有网站生效，排除列表中的网站除外。 用户也可以选择性地启用服务，VPN 将仅对指定网站生效。 要切换到此模式，请点击「*更改模式*」。
 
 :::note
 
-Each mode has its own exclusion list.
+每种模式都有自己的排除列表。
 
 :::
 
-You can add domains (e.g., `google.com`) or subdomains (e.g., `news.google.com`) of websites to the lists in three ways:
+用户可以通过三种方式将网站的域名（例如，`google.com`）或子域名（例如，`news.google.com`）添加到列表中：
 
-- Enter them manually in the app
-- [Choose from domain lists for popular services](#domain-lists-for-popular-services)
-- Add them directly from the browser by sharing the desired pages to the AdGuard VPN app
+- 在应用中手动输入
+- [从热门服务的域名列表中进行选择](#domain-lists-for-popular-services)
+- 通过浏览器直接分享目标网页至 AdGuard VPN 应用即可添加。
 
-![Exclusions *mobile_border](https://cdn.adguard-vpn.com/blog/new/lpjs7iexclusions-as-of-v2-4.png)
+![排除项 *mobile_border](https://cdn.adguard-vpn.com/blog/new/lpjs7iexclusions-as-of-v2-4.png)
 
-When you manually add a domain, all subdomains are added automatically (it looks like `*.google.com`). Want to keep only google.com or turn VPN off for a specific domain? Tap the line with the website — this will open a separate screen where you can manage subdomains. Just uncheck the boxes for the ones you don’t need.
+当您手动添加域名时，所有子域都会自动添加（比如，`*.google.com`）。 只想保留 google.com 或关闭特定域名的 VPN？ 点击网站所在行，这将打开单独的管理页面，您可以在其中配置子域名。 只需取消选中您不需要的复选框即可。
 
-![Subdomains *mobile_border](https://cdn.adguard-vpn.com/content/release_notes/vpn/ios/v2.4/domains_en.png)
+![子域名 *mobile_border](https://cdn.adguard-vpn.com/content/release_notes/vpn/ios/v2.4/domains_en.png)
 
-If you manually add a subdomain, the main domain will also be added — but the checkbox next to it will not be checked.
+如果您手动添加子域，主域也将被添加，但旁边的复选框将不会被选中。
 
-### Domain lists for popular services
+### 热门服务的域名列表
 
-Large services like Google are tricky. They usually use more than one domain — one for media files, another for the API, plus domains for different countries. For example, in the case of Google, we have 416 domains in our list — all of them need to be added to Exclusions to completely turn VPN off (or on) for the service.
+像 Google 这样的大型服务比较复杂。 他们通常使用多个域名，一个用于媒体文件，另一个用于 API，还有一些用于不同国家的域名。 以 Google 为例，我们的列表中包含 416 个域名，必须全部添加至排除列表，才能彻底关闭（或开启）该服务的 VPN 连接。
 
-Here’s how to add all necessary domains for a popular service to exclusion list:
+以下是将热门服务所需域名批量加入排除项列表的操作方法：
 
-1. Open *Exclusions*.
-2. Tap *Add website*.
-3. Tap *From list*.
-4. Find the desired service in the list and tap *Add*.
+1. 打开「*排除项*」
+2. 点击「*添加过滤器*」
+3. 点击「*从列表中*」
+4. 在列表中找到所需的服务，然后点击「*添加*」。
 
-![List of popular services *mobile_border](https://cdn.adguard-vpn.com/content/release_notes/vpn/ios/v2.4/add_website_en.png)
+![热门服务列表 *mobile_border](https://cdn.adguard-vpn.com/content/release_notes/vpn/ios/v2.4/add_website_en.png)
 
-### Import/export exclusions
+### 导入/导出排除项
 
-Another useful feature is the import and export of exclusion lists. This way you can share exclusion lists from and to other devices.
+另一个好用的功能是导入/导出排除项列表。 这样，用户就可以与其他设备共享排除项列表。
 
-You can do it in four steps:
+您可以按照以下四个步骤完成：
 
-1. Open AdGuard VPN on the device from where you want to export your lists of exclusions. Find the appropriate section and click the *Export* button. `exclusions.zip` 档案将被下载。
+1. 在您想要导出排除项列表的设备上打开 AdGuard VPN。 找到相应的部分并单击「*导出*」按钮。 `exclusions.zip` 档案将被下载。
 
 2. 档案中有两个 `.txt` 文件，常规模式的列表和选择模式的列表。 用户可以在其中添加更多的排除项，删除现有的排除项，重命名文件（下面还有更多详情），或者也可以将存档中的文件内容保持不变。
 
-3. When transferring between different devices, don’t forget to send the `.zip` file to the device for import. 例如，如果您将排除项列表从自己的 iOS 设备导入到 Mac 设备，确保先将 `.zip` 文件发送到 Mac 设备。
+3. 在不同设备之间传输时，不要忘记将 `.zip` 文件发送到设备上进行导入。 例如，如果您将排除项列表从自己的 iOS 设备导入到 Mac 设备，确保先将 `.zip` 文件发送到 Mac 设备。
 
-4. 在要导入存档的设备上打开 AdGuard VPN，其中包含要应用的排除项列表。 Find the appropriate section, click the *Import* button and select the archive.
+4. 在要导入存档的设备上打开 AdGuard VPN，其中包含要应用的排除项列表。 找到相应的部分，单击「*导入*」按钮并选择存档。
 
-**In AdGuard VPN for iOS, the export and import features can be accessed by tapping the three-dot icon in the upper right corner of the Exclusions screen**.
+**在 iOS 版 AdGuard VPN 中，可以通过点击排除屏幕右上角的三个点图标来访问导出和导入功能**。
 
-![Import/export exclusions *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/exclusions-3dot-menu.png)
+![导入/导出排除项 *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/exclusions-3dot-menu.png)
 
-## General settings
+## 保存的位置
 
-To open General settings:
+此功能让用户将常用服务器位置保存至专属标签页，无需搜索或滚动完整列表即可快速访问。
 
-1. Tap the Settings icon (⚙) in the bottom right corner of the app’s main screen.
-2. Tap *General*.
+要添加位置到*保存*，只需左滑目标位置。 再次左滑即可将其从*保存*中移除。
 
-Here, you can configure AdGuard VPN for iOS as you need using different options: *DNS server*, *Theme*, *Advanced*, *Send technical and interaction data* and *Kill Switch*.
+![已保存位置，添加，删除 *mobile_border](https://cdn.adtidy.org/content/release_notes/vpn/ios/v2.7/iosvpn-saved-locations-add-remove.gif)
 
-![General settings *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/general-settings.png)
+## 常规设置
+
+要打开常规设置：
+
+1. 点击 AdGuard VPN 应用程序主屏幕右下角的设置按钮 (⚙)
+2. 点击*常规*
+
+在此，用户可以根据需求通过不同选项配置 AdGuard VPN iOS 版：*DNS 服务器*、 *主题*、 *高级*、 *发送技术和交互数据* 和 *Kill Switch*。
+
+![常规设置 *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/general-settings.png)
 
 ### DNS 服务器
 
-AdGuard VPN for iOS offers a choice between several DNS servers, each with their own special qualities. For example, AdGuard DNS removes ads and protects your device from tracking while AdGuard DNS Family Protection combines the functions of AdGuard DNS with Safe search and adult content blocking. DNS servers by different DNS providers may also work faster or slower depending on your location, ISP, and other factors. Choose the one that works best for you. You can [find out more about DNS](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns) and its characteristics.
+AdGuard VPN iOS 版提供多款 DNS 服务器选择，每款皆具备独特特性。 例如，AdGuard DNS 可以删除广告并防止设备被追踪，而 AdGuard DNS 家庭保护则将 AdGuard DNS 的功能与安全搜索和成人内容拦截相结合。 不同 DNS 供应商的 DNS 服务器运行速度有快有慢，主要取决于用户的位置、ISP 和其他因素。 选择最适合您的服务器。 您可以[了解有关 DNS 的更多信息](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns)及特点。
 
-![DNS server screen *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/DNS-server.png)
+![DNS 服务器界面 *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/DNS-server.png)
 
 ### 主题
 
-You can set your app theme to System, Dark, or Light (available in iOS 13 or later).
+用户可以将应用主题设置为系统、深色或浅色（iOS 13 或更高版本中可用）。
 
 ### 高级设置
 
-In *Advanced* settings, you can find 4 sections — *Operating mode*, *Logging level*, *Export logs and system info*, and *Diagnostic info*.
+「*高级*」设置包括四个部分 ：*操作模式*、 *日志记录级别*、 *导出日志和系统信息*和 *诊断信息*。
 
 #### 操作模式
 
-AdGuard VPN for iOS can operate in two modes: **VPN** and **Integrated**.
+适用于 iOS 的 AdGuard VPN 可以在两种模式下运行：**VPN** 和**整合**。
 
-The *VPN* mode uses the [AdGuard VPN protocol](/general/adguard-vpn-protocol), which provides the best combination of speed and security. In this mode, AdGuard VPN will not work with [AdGuard Ad Blocker for iOS](https://adguard.com/adguard-ios/overview.html).
+在 *VPN* 模式下使用 [AdGuard VPN 协议](/general/adguard-vpn-protocol)。本协议提供高速和安全性的最佳组合。 在此模式下，AdGuard VPN 将无法与 [AdGuard 广告拦截程序 iOS 版](https://adguard.com/adguard-ios/overview.html)一起使用。
 
-In **Integrated mode**, AdGuard VPN will be able to work simultaneously with AdGuard Ad Blocker for iOS using the IPSec protocol. This protocol is also secure, but a bit slower and easier to detect. You don’t have to do anything to set up the integration: just install both apps and switch to this mode.
+在**集成模式**下，AdGuard VPN 将能够使用 IPSec 协议与适用于 iOS 的 AdGuard 广告拦截程序同时工作。 这种协议也很安全，但速度稍慢，也更容易被检测到。 用户无需执行任何操作来设置集成：只需安装两个应用程序并切换到此模式即可。
 
 :::note
 
-In **Integrated** mode, you can’t use the Exclusions feature or choose a DNS server.
+在**整合**模式下，无法使用排除项功能或选择 DNS 服务器。
 
 :::
 
-#### Logging level
+#### 日志记录级别
 
-This setting is primarily used for debugging and troubleshooting purposes. The Extended and Extreme logging levels record more detailed information that can help identify and fix various problems or bugs.
+此设置主要用于调试和故障排查。 进阶和强日志记录级别会记录更详细的信息，有助于识别和修复各种问题或错误。
 
 :::caution
 
-**It is not recommended to enable the Extended or Extreme logging level unless requested by our support team**.
+**除非客户支持要求，否则不建议启用进阶或强日志记录级别**。
 
 :::
 
-#### Export logs and system info
+#### 导出日志和系统信息
 
-This option can be used to send the app’s logs and system info to our support or anyone else.
+此选项可用于发送应用程序的日志和系统信息到我们的支持团队或其他任何人。
 
-#### Diagnostic data
+#### 诊断数据
 
-This option lets you export technical information that can be useful in solving problems and is sometimes requested by our support and developers.
+此选项允许用户导出技术信息，这些信息对于解决问题很有用，有时会被我们的支持和开发人员请求。
 
-### Send technical and interaction data
+### 发送技术和交互数据
 
-By turning this option on, you are helping us understand better how users interact with the app. We use that information to improve user experience.
+启用此选项将协助我们更好地了解用户与应用的交互情况。 我们使用这些信息来提升用户体验。
 
 ### Kill Switch
 
-If for some reason your VPN connection suddenly drops, *Kill Switch* will automatically terminate the Internet connection, making sure your data doesn’t leak and your identity stays hidden.
+如果由于某种原因，VPN 连接突然断开，*Kill Switch*（紧急开关）将会自动关闭互联网连接，确保个人数据不会泄漏，用户的身份保持隐藏。
 
-## Quick actions
+## 快捷操作
 
-Quick actions are the convenient way to do useful or any app-specific actions from the Home screen without opening an app.
+快捷操作是在主屏幕上无需打开应用程序即可执行有用或特定于某应用程序的操作的便捷方式。
 
-To access the quick actions menu, tap and hold the AdGuard VPN app icon, then lift your finger. In the opened menu, you will see AdGuard VPN’s quick actions: *Connect* (*Disconnect*) and *Select location*. You can also access all default actions like removing the app or moving or sharing the app.
+要访问快捷操作菜单，请长按 AdGuard VPN 应用程序图标，然后松开手指。 在打开的菜单中，将看到 AdGuard VPN 的快捷操作：*连接*（*断开连接*）和*选择位置*。 当然，用户也可以访问所有的默认操作，如删除应用程序、移动或分享应用程序。
 
-![Quick actions *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/quick-action-menu.png)
+![快捷操作 *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/quick-action-menu.png)
 
 ## 支持
 
-The Support screen (*Settings* → *Support*) has a number of helpful features: *FAQ*, *Report a bug*, *Request a feature*, and *Rate app*. The latter allows you to rate AdGuard VPN for iOS on the App Store.
+支持页面（*设置* → *支持*）包含多个实用功能：*常见问题*、*报告错误*、*请求功能*和*应用程序评分*。 后者允许您在 App Store 上为 AdGuard VPN 评分。
 
-![Support *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/support.png)
+![支持 *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/support.png)
 
-## Subscription screen
+## 订阅
 
-If you are using the free version of AdGuard VPN, there will be another tab with an arrow icon on the bottom tab bar. This section briefly describes the main benefits of the paid version of the app. You can choose a yearly or monthly subscription.
+如果您使用 AdGuard VPN 免费版，在底部的标签栏上会出现另一个带有箭头图标的标签。 本页简要介绍应用程序付费版的主要优势。 您可以选择按年或按月订阅。
 
-![Subscription *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/unlimited.png)
+![订阅 *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/unlimited.png)
