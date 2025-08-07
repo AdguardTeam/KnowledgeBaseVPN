@@ -8,7 +8,7 @@ To activate your AdGuard VPN subscription, follow these steps:
 1. Open the AdGuard VPN app and tap *Log in or create an account*
 1. A login page will open in your browser. Enter the email address you used during the purchase. You can also log in with a social media account if it is associated with the same email address
 
-The subscription activates automatically. The process typically completes instantly but may take up to five minutes in some cases. If it doesn't activate, please check the information below for further assistance.
+Your subscription will activate automatically. This process typically completes instantly, but it may take up to five minutes in some cases. If it doesn’t happen, please refer to the information below for assistance.
 
 ## Resolve subscription activation issues
 
