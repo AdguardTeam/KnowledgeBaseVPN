@@ -21,27 +21,27 @@ Označená umístění se pak zobrazí na kartě *Uložené*.
 
 ![Saved tab *mobile](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/saved-tab-en.png)
 
-## Stats
+## Statistiky
 
-The *Stats* section in the menu is a simple way to keep track of how much data passes through your VPN connection.
+Sekce *Statistiky* v nabídce představuje jednoduchý způsob, jak sledovat, kolik dat prochází skrze vaše připojení VPN.
 
 ![Statistics *mobile](https://cdn.adtidy.org/content/release_notes/vpn/browser_extension/Statistics.png)
 
-When stats can come in handy:
+Kdy se statistiky mohou hodit:
 
-- **Check if the VPN is actually working**. A quick look at the stats confirms that your connection is active and data is routed through the VPN.
+- **Zkontrolujete, zda VPN skutečně funguje**. Rychlý pohled na statistiky potvrzuje, že vaše připojení je aktivní a data jsou směrována skrze VPN.
 
-- **Spot unexpected activity**. If traffic grows while you’re idle, something in the background — a tab or an extension — might be sending data.
+- **Sledujte neočekávanou aktivitu**. Pokud se provoz zvyšuje, když zařízení nepoužíváte, je možné, že něco na pozadí — záložka nebo rozšíření — odesílá data.
 
-- **Troubleshoot slow connection issues**. If your connection feels slow, a spike in traffic might point to something running or downloading in the background.
+- **Řešení problémů s pomalým připojením**. Pokud se vám připojení zdá pomalé, může to znamenat, že na pozadí běží nebo se stahuje nějaká aplikace.
 
 :::note
 
-All statistics are stored locally on your device. We only calculate how much data is used — we don’t see what websites you visit. You can also disable statistics if you don’t need them.
+Všechny statistiky jsou uloženy lokálně ve vašem zařízení. Počítáme pouze množství použitých dat — nevidíme, které webové stránky navštěvujete. Pokud statistiky nepotřebujete, můžete je také deaktivovat.
 
 :::
 
-The *Stats* section is available to users of the paid version.
+Sekce *Statistiky* je k dispozici uživatelům placené verze.
 
 ## Nastavení
 
