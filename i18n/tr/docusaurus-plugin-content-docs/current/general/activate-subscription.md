@@ -8,7 +8,7 @@ AdGuard VPN aboneliğinizi etkinleştirmek için aşağıdaki adımları izleyin
 1. AdGuard VPN uygulamasını açın ve _Giriş yap ya da bir hesap oluştur_ öğesine dokunun
 2. Tarayıcınızda bir giriş sayfası açılır. Satın alma sırasında kullandığınız e-posta adresini girin. Aynı e-posta adresiyle ilişkilendirilmişse bir sosyal medya hesabıyla da giriş yapabilirsiniz
 
-Abonelik otomatik olarak etkinleştirilir. Eğer etkinleştirilmezse, daha fazla yardım için lütfen aşağıdaki bilgileri kontrol edin.
+Your subscription will activate automatically. This process typically completes instantly, but it may take up to five minutes in some cases. If it doesn’t happen, please refer to the information below for assistance.
 
 ## Abonelik etkinleştirme sorunlarını çözme
 

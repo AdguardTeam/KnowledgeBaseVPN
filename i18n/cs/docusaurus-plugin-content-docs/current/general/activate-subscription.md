@@ -8,7 +8,7 @@ Chcete-li aktivovat předplatné AdGuard VPN, postupujte podle následujících 
 1. Otevřete aplikaci AdGuard VPN a klepněte na možnost _Přihlásit se nebo vytvořit účet_
 2. V prohlížeči se otevře přihlašovací stránka. Zadejte e-mailovou adresu, kterou jste použili při nákupu. Můžete se také přihlásit pomocí účtu sociální sítě, pokud je spojen se stejnou e-mailovou adresou
 
-Předplatné se aktivuje automaticky. Pokud se tak nestane, vyhledejte další pomoc v níže uvedených informacích.
+Your subscription will activate automatically. This process typically completes instantly, but it may take up to five minutes in some cases. If it doesn’t happen, please refer to the information below for assistance.
 
 ## Řešení problémů s aktivací předplatného
 
