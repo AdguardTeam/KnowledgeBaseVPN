@@ -5,30 +5,30 @@ sidebar_position: 1
 
 ## AdGuard VPN for iOS とは？
 
-VPNを利用すると、インターネット上の別のネットワークに安全な接続を確立することができます。 It connects a user’s computer or mobile device to a server and allows one to browse the Internet using a “cover” IP address. If the VPN server is located in another country, it will appear as if your Internet connection was established from this country. For more details, you can check [our article on how a VPN works](/general/how-vpn-works).
+VPNを利用すると、インターネット上の別のネットワークに安全な接続を確立することができます。 ユーザーのパソコンやスマホをVPNサーバーに接続し、“偽造”IPアドレスを使ったネット閲覧を可能にするものです。 VPNサーバーが別の国にある場合、その国からインターネットに接続しているかのように見えます。 詳細については、[VPN仕組みに関する記事](/general/how-vpn-works)をご覧ください。
 
 AdGuard VPN には複数の機能があります:
 
-- Hides your real whereabouts and helps you stay anonymous
-- Changes your IP address to protect your data from tracking
-- Encrypts your traffic, making the content inaccessible to scammers
-- Lets you configure where to use VPN and where not to (exclusions feature)
+- あなたの本当の居場所を隠し、匿名性を維持します。
+- IPアドレスを変更することで、データ・個人情報をトラッキング（追跡）から保護します。
+- トラフィック（通信）を暗号化し、詐欺師やハッカーが通信内容にアクセスできないようにします。
+- VPNを使用するとしない場所を設定できます。（「VPN対象外リスト」機能）
 
-AdGuard VPN for iOS のもう一つの利点は、独自開発のVPNプロトコルです。 他のVPNプロトコルに比べて検出対策がしっかりしていて、インターネット接続が悪くても通信が安定しています。 [Read more about the AdGuard VPN protocol](/general/adguard-vpn-protocol).
+AdGuard VPN for iOS のもう一つの利点は、独自開発のVPNプロトコルです。 他のVPNプロトコルに比べて検出対策がしっかりしていて、インターネット接続が悪くても通信が安定しています。 [AdGuard VPN プロトコルについて詳しくはこちら](/general/adguard-vpn-protocol)
 
 ## AdGuard VPN for iOS の使い方
 
-To use AdGuard VPN for iOS, first you need to log into your [AdGuard account](https://adguardaccount.com/). AdGuardアカウントのログイン・パスワードで直接ログインするか、Google、Apple ID、Facebook（AdGuardアカウントと同じメールアドレスの場合）を介してログインすることも可能です。
+AdGuard VPN for iOS を使用するには、まず、 [AdGuardアカウント](https://adguardaccount.com/)にログインする必要があります。 AdGuardアカウントのログイン・パスワードで直接ログインするか、Google、Apple ID、Facebook（AdGuardアカウントと同じメールアドレスの場合）を介してログインすることも可能です。
 
-If you don’t have an AdGuard account yet, you will have to create it first.
+AdGuardアカウントをまだお持ちでない場合は、まずアカウントを登録してください。（アカウント登録に必要なのはメールアドレスのみです。）
 
-AdGuard VPN の使い方は非常に簡単です。 On the main screen you can see the *Connect* (*Disconnect*) button and the list of available servers (we call them *locations*). Each server has its own location (a certain country and a city) and ping indicator.
+AdGuard VPN の使い方は非常に簡単です。 ホーム画面には、*接続する*（*切断する*）ボタンと、利用可能なサーバー（私たちはこれらを「*ロケーション*」と呼んでいます）のリストが表示されます。 それぞれのサーバーにはロケーション（国と都市）とping値（「〇〇 ms」）があります。
 
-The ping shows the server’s response time in milliseconds. This indicates how fast the VPN connection will be when you connect to that location. Selecting a server with a ping of 22 ms means that a data packet sent to this server will be returned in 22 ms.
+pingはサーバーの応答時間をミリ秒（ms）単位で示す値です。 つまり、そのロケーションに接続した際のVPN通信速度を示す数字なのです。 例えば、pingが 22 ms の場合、このサーバーに送信されたデータパケットは22ミリ秒で返ってくることを意味します。
 
-With AdGuard VPN, you can choose from over 50 locations in dozens of countries.
+AdGuard VPNでは、数十ヶ国、50ヶ所以上のロケーションから選んで接続することができます。
 
-![メイン画面とロケーション *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/main-locations.png)
+![Home and locations *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.7/home-locations-vpn-ios_ja.png)
 
 ## Exclusions
 
@@ -87,6 +87,14 @@ You can do it in four steps:
 
 ![VPN対象外項目のインポート・エクスポート *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/exclusions-3dot-menu.png)
 
+## お気に入りロケーション
+
+この機能を使うと、お気に入りのサーバーロケーションを専用タブに保存できます。検索やリスト全体をスクロールする手間がなくなり便利です。
+
+ロケーションを「*お気に入り*」に追加するには、そのロケーションを左にスワイプします。 「*お気に入り*」からロケーションを削除する場合も、同じく左にスワイプします。
+
+![Saved locations add remove *mobile](https://cdn.adtidy.org/content/release_notes/vpn/ios/v2.7/iosvpn-saved-locations-add-remove.gif)
+
 ## General settings
 
 To open General settings:
@@ -100,9 +108,9 @@ Here, you can configure AdGuard VPN for iOS as you need using different options:
 
 ### DNSサーバー
 
-iOS用AdGuard VPN では、それぞれの特徴を持つ複数のDNSサーバーの中から選択できます。 例えば、 「AdGuard DNS」サーバーは広告を削除し、トラッキング（個人情報追跡）から端末を保護します。「AdGuard DNS ファミリー保護」サーバーは、AdGuard DNSの機能とセーフサーチおよびアダルトコンテンツブロック機能を兼ね備えています。 それぞれのDNSプロバイダーによるDNSサーバーは、現在いる地域やお使いのインターネットプロバイダ、その他の要因によって動作が速くなったり遅くなったりすることがあります。 ご自身に合ったものをお選びください。 DNSとその特徴について[詳しくはこちら](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns)でご確認いただけます。
+AdGuard VPN for iOS offers a choice between several DNS servers, each with their own special qualities. For example, AdGuard DNS removes ads and protects your device from tracking while AdGuard DNS Family Protection combines the functions of AdGuard DNS with Safe search and adult content blocking. DNS servers by different DNS providers may also work faster or slower depending on your location, ISP, and other factors. Choose the one that works best for you. You can [find out more about DNS](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns) and its characteristics.
 
-![DNSサーバー画面 *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/DNS-server.png)
+![DNS server screen *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/DNS-server.png)
 
 ### カラーテーマ
 
@@ -156,18 +164,18 @@ If for some reason your VPN connection suddenly drops, *Kill Switch* will automa
 
 Quick actions are the convenient way to do useful or any app-specific actions from the Home screen without opening an app.
 
-To access the quick actions menu, tap and hold the AdGuard VPN app icon, then lift your finger. In the opened menu, you will see AdGuard VPN’s quick actions: *Connect* (*Disconnect*) and *Select location*. You can also access all default actions like removing the app or moving or sharing the app.
+このクイックアクションのメニューを開くには、AdGuard VPNのアプリアイコンを長タップしてから、指を離します。 In the opened menu, you will see AdGuard VPN’s quick actions: *Connect* (*Disconnect*) and *Select location*. You can also access all default actions like removing the app or moving or sharing the app.
 
-![クイックアクション *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/quick-action-menu.png)
+![Quick actions *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/quick-action-menu.png)
 
-## お客様サポート
+## Support
 
 The Support screen (*Settings* → *Support*) has a number of helpful features: *FAQ*, *Report a bug*, *Request a feature*, and *Rate app*. The latter allows you to rate AdGuard VPN for iOS on the App Store.
 
-![サポート *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/support.png)
+![Support *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/support.png)
 
 ## Subscription screen
 
 If you are using the free version of AdGuard VPN, there will be another tab with an arrow icon on the bottom tab bar. This section briefly describes the main benefits of the paid version of the app. You can choose a yearly or monthly subscription.
 
-![サブスクリプション *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/unlimited.png)
+![Subscription *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/unlimited.png)

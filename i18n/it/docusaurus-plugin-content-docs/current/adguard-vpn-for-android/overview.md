@@ -9,6 +9,14 @@ La schermata principale riflette lo stato della VPN (Connessa/Disconnessa). Inol
 
 Ogni server ha la sua posizione e il suo ping rate, che descrivono il tempo di risposta del server. Più bassa è questa velocità, più veloce è la connessione. I server più veloci appaiono sempre in cima all'elenco, consistente in oltre 50 posizioni, in dozzine di paesi. Puoi connetterti al server più veloce toccando sul pulsante *Connetti*, o selezionando una posizione.
 
+## Saved locations
+
+![Saved locations *mobile](https://cdn.adguard-vpn.com/content/kb/vpn/android/saved-loc_en.png)
+
+This section lets you save your favorite server locations to a dedicated tab so that you can quickly access them without the need to search or scroll through the whole list.
+
+To add a location to *Saved*, just swipe left on it. To remove it, do the same.
+
 ## Esclusioni
 
 Gli elenchi d'esclusione ti consentono di gestire la connessione VPN per siti web e app specifici. Per accedere alle *Esclusioni*, tocca sulla seconda icona da sinistra, in fondo alla schermata.

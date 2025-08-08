@@ -13,6 +13,12 @@ Windows için AdGuard VPN'i kurmak için [sitemizi](https://adguard-vpn.com/welc
 
 Ardından, SKLS ve Gizlilik politikasının şartlarını kabul etmek için kutuyu işaretlemeniz gerekir. Ve kurulumun son adımında AdGuard hesabınız veya sosyal ağlar (Google, Apple, Facebook) aracılığıyla yetkilendirme yapmanız istenecektir.
 
+### Installation on Windows 7
+
+Windows 7 users won’t find a compatible app version in the download section of the AdGuard VPN website, as it’s no longer supported in the latest releases.
+
+However, you still can [download an older, compatible version](https://agrd.io/adguard_vpn_for_win7).
+
 ## Windows için AdGuard VPN kaldırma
 
 AdGuard VPN'i bilgisayarınızdan kaldırmaya karar verirseniz, aşağıda listelenen üç seçenekten birini kullanın:
