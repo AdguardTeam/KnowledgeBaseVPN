@@ -13,6 +13,12 @@ AdGuard VPN может быть установлен только на устр�
 
 Поставьте галочку, чтобы принять Лицензионное соглашение и Политику конфиденциальности. и авторизуйтесь через аккаунт AdGuard или через социальные сети (Google, Apple, Facebook).
 
+### Installation on Windows 7
+
+Windows 7 users won’t find a compatible app version in the download section of the AdGuard VPN website, as it’s no longer supported in the latest releases.
+
+However, you still can [download an older, compatible version](https://agrd.io/adguard_vpn_for_win7).
+
 ## Удаление AdGuard VPN для Windows
 
 Удалить AdGuard VPN с компьютера можно тремя способами:

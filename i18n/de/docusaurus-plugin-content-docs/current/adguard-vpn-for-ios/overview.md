@@ -5,7 +5,7 @@ sidebar_position: 1
 
 ## Was ist AdGuard VPN für iOS?
 
-Mit einem VPN können Sie eine sichere Verbindung zu einem anderen Netzwerk im Internet herstellen. It connects a user’s computer or mobile device to a server and allows one to browse the Internet using a “cover” IP address. Wenn sich der VPN-Server in einem anderen Land befindet, sieht es so aus, als ob Ihre Internetverbindung von diesem Land aus hergestellt wurde. Weitere Details finden Sie in [unserem Artikel über die Funktionsweise eines VPN](/general/how-vpn-works).
+Mit einem VPN können Sie eine sichere Verbindung zu einem anderen Netzwerk im Internet herstellen. Es verbindet einen Computer oder ein mobiles Gerät mit einem Server und ermöglicht das Surfen im Internet mit einer „getarnten“ IP-Adresse. Wenn sich der VPN-Server in einem anderen Land befindet, sieht es so aus, als ob Ihre Internetverbindung von diesem Land aus hergestellt wurde. Weitere Details finden Sie in [unserem Artikel über die Funktionsweise eines VPN](/general/how-vpn-works).
 
 AdGuard VPN verfügt über mehrere Funktionen:
 
@@ -18,7 +18,7 @@ Der nächste Vorteil von AdGuard VPN für iOS ist unser eigenes VPN-Protokoll. I
 
 ## Wie man AdGuard VPN für iOS verwendet
 
-To use AdGuard VPN for iOS, first you need to log into your [AdGuard account](https://adguardaccount.com/). Sie können sich direkt mit Ihren AdGuard-Kontodaten oder über Google, Apple ID oder Facebook anmelden (wenn Ihr AdGuard-Konto mit derselben E-Mail-Adresse registriert wurde).
+Um AdGuard VPN für iOS zu verwenden, müssen Sie sich zunächst bei Ihrem [AdGuard-Konto](https://adguardaccount.com/) anmelden. Sie können sich direkt mit Ihren AdGuard-Kontodaten oder über Google, Apple ID oder Facebook anmelden (wenn Ihr AdGuard-Konto mit derselben E-Mail-Adresse registriert wurde).
 
 Wenn Sie noch kein AdGuard-Konto haben, müssen Sie es zuerst erstellen.
 
@@ -28,7 +28,7 @@ Der Ping zeigt die Antwortzeit des Servers in Millisekunden an. Dies gibt an, wi
 
 Mit AdGuard VPN können Sie aus über 50 Standorten in Dutzenden von Ländern wählen.
 
-![Hauptbildschirm und Standorte *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/main-locations.png)
+![Hauptbildschirm und Standorte *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.7/home-locations-vpn-ios_de.png)
 
 ## Ausschlüsse
 
@@ -50,17 +50,17 @@ Sie können Domains (z. B. `google.com`) oder Subdomains (z. B. `news.google.com
 
 ![Ausschlüsse *mobile_border](https://cdn.adguard-vpn.com/blog/new/lpjs7iexclusions-as-of-v2-4.png)
 
-Wenn Sie eine Domain manuell hinzufügen, werden alle Subdomains automatisch hinzugefügt (sieht dann aus wie `*.google.com`). Möchten Sie nur google.com behalten oder VPN für eine bestimmte Domain deaktivieren? Tippen Sie auf die Zeile mit der Website. Dies öffnet ein separates Fenster, in dem Sie Subdomains verwalten können. Just uncheck the boxes for the ones you don’t need.
+Wenn Sie eine Domain manuell hinzufügen, werden alle Subdomains automatisch hinzugefügt (sieht dann aus wie `*.google.com`). Möchten Sie nur google.com behalten oder VPN für eine bestimmte Domain deaktivieren? Tippen Sie auf die Zeile mit der Website. Dies öffnet ein separates Fenster, in dem Sie Subdomains verwalten können. Deaktivieren Sie einfach die Kästchen derjenigen, die Sie nicht benötigen.
 
 ![Subdomains *mobile_border](https://cdn.adguard-vpn.com/content/release_notes/vpn/ios/v2.4/domains_en.png)
 
-If you manually add a subdomain, the main domain will also be added — but the checkbox next to it will not be checked.
+Wenn Sie eine Subdomain manuell hinzufügen, wird auch die Hauptdomain hinzugefügt — das Kontrollkästchen daneben ist dann jedoch nicht aktiviert.
 
 ### Domainlisten für beliebte Dienste
 
 Große Dienste wie Google sind problematisch. In der Regel verwenden sie mehr als eine Domain: eine für Mediendateien, eine weitere für die API sowie Domains für verschiedene Länder. Im Fall von Google haben wir zum Beispiel 416 Domains in unserer Liste — alle müssen zu den Ausschlüssen hinzugefügt werden, um VPN für den Dienst vollständig zu deaktivieren (oder zu aktivieren).
 
-Here’s how to add all necessary domains for a popular service to exclusion list:
+So fügen Sie alle erforderlichen Domains für einen beliebten Dienst zur Ausschlussliste hinzu:
 
 1. Öffnen Sie *Ausschlüsse*.
 2. Tippen Sie auf *Website hinzufügen*.
@@ -87,6 +87,14 @@ Sie können dies in vier Schritten tun:
 
 ![Import und Export von Ausschlüsse *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/exclusions-3dot-menu.png)
 
+## Gespeicherte Standorte
+
+Mit dieser Funktion können Sie Ihre bevorzugten Serverstandorte in einem eigenen Tab speichern, so dass Sie schnell auf sie zugreifen können, ohne die gesamte Liste durchsuchen oder durchblättern zu müssen.
+
+Um einen Standort zu *Gespeicherte* hinzuzufügen, wischen Sie einfach nach links. Um sie aus *Gespeicherte* zu entfernen, tun Sie dasselbe:
+
+![Gespeicherte Standorte hinzufügen und entfernen *mobile](https://cdn.adtidy.org/content/release_notes/vpn/ios/v2.7/iosvpn-saved-locations-add-remove.gif)
+
 ## Allgemeine Einstellungen
 
 So öffnen Sie die allgemeinen Einstellungen:
@@ -106,7 +114,7 @@ AdGuard VPN für iOS bietet die Wahl zwischen mehreren DNS-Servern, die jeweils 
 
 ### Design
 
-Sie können Ihr App-Farbschema auf „System“, „Dunkel“ oder „Hell“ einstellen (verfügbar in iOS 13 oder höher).
+Sie können Ihr App-Design auf System, Dunkel oder Hell einstellen (verfügbar in iOS 13 oder höher).
 
 ### Erweiterte Einstellungen
 
