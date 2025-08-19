@@ -10,13 +10,15 @@ Installing AdGuard VPN directly on your router allows every device in your netwo
 There are two main ways to run AdGuard VPN on a router:
 
 1. IPSec profile
-  - Easy to set up, supported by many routers
-  - Limitations: not available in Russia, only a limited number of VPN locations, and no support for exclusions
+
+    - Easy to set up, supported by many routers
+    - Limitations: not available in Russia, only a limited number of VPN locations, and no support for exclusions
 
 1. [AdGuard VPN CLI](/adguard-vpn-for-linux/setting-up-on-a-router)
-  - Advanced setup that unlocks all AdGuard VPN features, including access to all locations and website exclusions (app exclusions are not available)
-  - Requires more technical knowledge
-  - On routers with low-perfomance processors, connection speed may be limited to 30-100 Mbps
+
+    - Advanced setup that unlocks all AdGuard VPN features, including access to all locations and website exclusions (app exclusions are not available)
+    - Requires more technical knowledge
+    - On routers with low-perfomance processors, connection speed may be limited to 30-100 Mbps
 
 ## How to set up AdGuard VPN on your router
 
