@@ -15,7 +15,9 @@ When prompted with the menu:
     s - Speed up check
     x - Cancel
 
-Select `b` to open the authentication page in your default browser. You can log in using either your email and password or a one-time code. Once logged in, the VPN status in the Terminal will update to *active*.
+Select `b` to open the authentication page in your default browser. Enter your email. Once logged in, the VPN status in the Terminal will update to *active*.
+
+You can set up your preferred login method (password or one-time code) and two-factor authentication in your [AdGuard account](https://adguardaccount.com/account/settings).
 
 :::note
 You can also create an AdGuard account on our [website](https://auth.adguardaccount.com/login.html) and then log in to AdGuard VPN for Linux using your credentials.
