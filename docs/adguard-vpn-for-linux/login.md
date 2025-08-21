@@ -15,7 +15,7 @@ When prompted with the menu:
     s - Speed up check
     x - Cancel
 
-select `b` to open the authentication page in your default browser. Enter your email. Once logged in, you will see the message *Successfully logged in* in the Terminal.
+select `b` to open the authentication page in your default browser. Enter your email address. Once you are logged in, you will see the message *Successfully logged in* in the Terminal.
 
 You can set up your preferred login method (password or one-time code) and two-factor authentication in your [AdGuard account](https://adguardaccount.com/account/settings).
 
