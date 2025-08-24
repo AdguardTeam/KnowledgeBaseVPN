@@ -15,7 +15,7 @@ AdGuard VPN belirli bir Wi-Fi ağında düzgün şekilde çalışmıyorsa:
     - Güvenlik duvarları (VPN trafiğini engelleyen)
     - Ağ filtreleri (örneğin, Keenetic yönlendiricilerdeki yerleşik internet filtreleri, ayrıntılar için [üreticinin kılavuzuna](https://help.keenetic.com/hc/en-us/articles/4415711575698-Content-filtering-and-ad-blocking-options) bakın)
 
-2. Disable conflicting services and settings
+2. Çakışan hizmetleri ve ayarları devre dışı bırakın
 
 3. Yönlendiricinizi yeniden başlatın ve AdGuard VPN'i yeniden açın
 
@@ -25,17 +25,17 @@ Sorun devam ederse, lütfen support@adguard-vpn.com adresinden AdGuard VPN deste
 
 Sistem saat ayarlarını kontrol edin — yanlış tarih ve saat uygulamanın sunucuya bağlanmasını engelleyebilir.
 
-- Otomatik zaman senkronizasyonunu etkinleştirin
-- Gerekirse doğru zamanı elle ayarlayın
+ - Otomatik zaman senkronizasyonunu etkinleştirin
+ - Gerekirse doğru zamanı elle ayarlayın
 
-If the problem persists, there might be two solutions:
+Sorun devam ederse iki çözüm olabilir:
 
 1. _Ekran süresi_ öğesini devre dışı bırakın. Ayrıntılar için [Apple'ın resmi kılavuzunu](https://support.apple.com/ru-ru/guide/mac-help/mchl7a0a2743/15.0/mac/15.0) izleyin.
 
-2. Diğer yazılımları geçici olarak devre dışı bırakın. Common conflicts include:
+2. Diğer yazılımları geçici olarak devre dışı bırakın. Yaygın çakışmalar şunları içerir:
 
-- Antivirüs programları
-- Proxy araçları
-- Güvenlik duvarları ve üçüncü taraf DNS hizmetleri
+ - Antivirüs programları
+ - Proxy araçları
+ - Güvenlik duvarları ve üçüncü taraf DNS hizmetleri
 
 Bilgisayarınızı yeniden başlatın ve sorunun çözülüp çözülmediğini kontrol edin. Sorun devam ederse, lütfen support@adguard-vpn.com adresinden AdGuard VPN destek ekibiyle iletişime geçin.
