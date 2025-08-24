@@ -7,11 +7,11 @@ AdGuard VPN CLI olarak da bilinen Linux için AdGuard VPN, bir komut satırı VP
 
 Aşağıda giriş yapmak, bağlanmak ve AdGuard VPN'in ayarlarını yönetmek için ihtiyaç duyabileceğiniz komutlar bulunmaktadır.
 
-- [Kurulum ve kaldırma](/adguard-vpn-for-linux/installation)
-- [Giriş yapma, bağlantı kurma ve güncelleme](/adguard-vpn-for-linux/login)
-- [Yönlendiriciye kurulum](/adguard-vpn-for-linux/setting-up-on-a-router)
-- [Ayarlar](/adguard-vpn-for-linux/settings)
-- [Geri bildirim gönderme](/adguard-vpn-for-linux/feedback)
+ - [Kurulum ve kaldırma](/adguard-vpn-for-linux/installation)
+ - [Giriş yapma, bağlantı kurma ve güncelleme](/adguard-vpn-for-linux/login)
+ - [Yönlendiriciye kurulum](/adguard-vpn-for-linux/setting-up-on-a-router)
+ - [Ayarlar](/adguard-vpn-for-linux/settings)
+ - [Geri bildirim gönderme](/adguard-vpn-for-linux/feedback)
 
 Linux'ta `Ctrl+Alt+T` tuşlarına basın. Mac'inizde, arama alanına `Terminal` yazın.
 

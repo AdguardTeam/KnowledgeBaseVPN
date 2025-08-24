@@ -11,21 +11,21 @@ AdGuard VPN Tarayıcı Uzantısını yalnızca giriş yaptığınızda kullanabi
 
 :::
 
-## Saved locations
+## Kaydedilen konumlar
 
-You can save your favorite locations for quick access. To do so, just hover over a location and click the bookmark icon that appears:
+Hızlı erişim için favori konumlarınızı kaydedebilirsiniz. Bunu yapmak için, bir konumun üzerine gelin ve görünen yer işareti simgesine tıklayın:
 
-![Save a location *mobile](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/saved-locations-en.png)
+![Konum kaydet *mobile](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/saved-locations-en.png)
 
 Your marked locations will then show up in the *Saved* tab.
 
-![Saved tab *mobile](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/saved-tab-en.png)
+![Kaydedilenler sekmesi *mobil](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/saved-tab-en.png)
 
-## Stats
+## İstatistikler
 
-The *Stats* section in the menu is a simple way to keep track of how much data passes through your VPN connection.
+Menüdeki *İstatistikler* bölümü, VPN bağlantınızdan ne kadar veri geçtiğini takip etmenin basit bir yoludur.
 
-![Statistics *mobile](https://cdn.adtidy.org/content/release_notes/vpn/browser_extension/Statistics.png)
+![İstatistikler *mobile](https://cdn.adtidy.org/content/release_notes/vpn/browser_extension/Statistics.png)
 
 When stats can come in handy:
 
@@ -37,36 +37,36 @@ When stats can come in handy:
 
 :::note
 
-All statistics are stored locally on your device. We only calculate how much data is used — we don’t see what websites you visit. You can also disable statistics if you don’t need them.
+Tüm istatistikler cihazınızda yerel olarak saklanır. We only calculate how much data is used — we don’t see what websites you visit. You can also disable statistics if you don’t need them.
 
 :::
 
 The *Stats* section is available to users of the paid version.
 
-## Settings
+## Ayarlar
 
-To manage your AdGuard VPN Browser Extension:
+AdGuard VPN Tarayıcı Uzantınızı yönetmek için:
 
 - Tarayıcı panelindeki simgesine tıklayın, hamburger menü simgesine tıklayın ve *Ayarlar* öğesini seçin,
 - Veya tarayıcınızda *Uzantıları yönet* sayfasına gidin, *AdGuard VPN* altındaki *Ayrıntılar* öğesine tıklayın ve ayarlarını buradan yönetin.
 
-Once done, you’ll see several tabs on the left:
+İşiniz bittiğinde, solda birkaç sekme göreceksiniz:
 
-### General
+### Genel
 
-A few important settings are gathered inside this tab. Here you can choose a DNS server to use, add or remove the AdGuard VPN icon from the browser’s context menu, block WebRTC, change the extension’s theme, and allow AdGuard to gather anonymous crash reports and technical data.
+Bu sekmede birkaç önemli ayar toplanmıştır. Burada kullanılacak bir DNS sunucusu seçebilir, tarayıcının içerik menüsüne AdGuard VPN simgesini ekleyebilir veya kaldırabilir, WebRTC'i engelleyebilir, uzantının temasını değiştirebilir ve AdGuard'ın anonim çökme raporları ve teknik veriler toplamasına izin verebilirsiniz.
 
-#### DNS server
+#### DNS sunucusu
 
-By default, the [system DNS server](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns) provided by your ISP is selected, but it may compromise your privacy. With AdGuard VPN Browser extension, you can select a DNS server that provides better speed and security, and even blocks ads or potentially dangerous domains. Brief descriptions under the names of DNS servers will help you navigate and make your decision.
+Varsayılan olarak, İSS'niz tarafından sağlanan [sistem DNS sunucusu](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns) seçilidir, ancak gizliliğinizi tehlikeye atabilir. AdGuard VPN Tarayıcı uzantısıyla, daha iyi hız ve güvenlik sağlayan ve hatta reklamları veya potansiyel olarak tehlikeli alan adlarını engelleyen bir DNS sunucusu seçebilirsiniz. DNS sunucularının adları altındaki kısa açıklamalar, gezinmenize ve kararınızı vermenize yardımcı olur.
 
 Learn more about [DNS servers from various providers](https://adguard-dns.io/kb/general/dns-providers/).
 
-### Exclusions
+### İstisnalar
 
-The next tab contains one of the main distinctive features of AdGuard VPN — two modes with separate exclusion lists.
+Bir sonraki sekme, AdGuard VPN'in ana ayırt edici özelliklerinden birini içerir — ayrı istisna listelerine sahip iki mod.
 
-In **General mode**, AdGuard VPN by default works on all websites, with the exception of the websites you’ve added to the exclusions list. In **Selective mode**, vice versa, AdGuard VPN by default doesn’t work anywhere. You can add any websites where you’d like it to work to an exclusions list, separate from the one you saw in the **General mode**.
+**Genel modda**, AdGuard VPN varsayılan olarak istisna listelerine eklediğiniz siteler dışında tüm sitelerde çalışır. **Seçici modda** tam tersi, AdGuard VPN varsayılan olarak hiçbir yerde çalışmaz. **Genel modda** gördüğünüzden ayrı olarak, çalışmasını istediğiniz siteleri bir istisna listesine ekleyebilirsiniz.
 
 When adding a website to an exclusion list, you can enter the website manually or select the **From the list** option. In the latter case, you’ll see eight categories (for example, *Shopping* or *Messengers*), each suggesting several popular services. You can exclude any of these services in one click. This will add all domains relevant to that specific service to exclusions.
 
@@ -79,14 +79,14 @@ Not only can you add and remove websites, you can also transfer ready exclusions
 1. Farklı cihazlar arasında aktarım yaparken, `.zip` dosyasını içe aktarmak için cihaza gönderin.
 1. Bu cihazda AdGuard VPN'i açın. Uygun bölümü bulun, "İçe aktar" düğmesine tıklayın ve arşivi seçin. Tamamlandı!
 
-### Account
+### Hesap
 
-The third tab of AdGuard VPN Browser extension is utterly minimalistic, containing only the email address you used to sign into your account and two buttons, *Manage* and *Sign out*. Clicking the *Manage* button takes you to your personal AdGuard account, where you can see all your current licenses and subscriptions, as well as devices connected to them.
+AdGuard VPN Tarayıcı uzantısının üçüncü sekmesi, yalnızca hesabınıza giriş yapmak için kullandığınız e-posta adresini, *Yönet* ve *Çıkış yap* olmak üzere iki düğmeyi içeren tamamen minimalistiktir. *Yönet* düğmesine tıklamak sizi tüm mevcut lisanslarınızı, aboneliklerinizi ve bunlara bağlı cihazları görebileceğiniz kişisel AdGuard hesabınıza götürür.
 
-### Support
+### Destek
 
-You can find answers to common questions in the FAQ section, or leave feedback: report a bug if something isn’t working as it should, suggest adding a new feature, or discuss AdGuard on any of the many social media platforms.
+Sık sorulan soruların yanıtlarını SSS bölümünde bulabilir veya geri bildirim bırakabilirsiniz: Bir şey olması gerektiği gibi çalışmıyorsa bir hatayı bildirin, yeni bir özellik eklemeyi önerin veya birçok sosyal medya platformundan herhangi birinde AdGuard'ı tartışın.
 
-### About
+### Hakkında
 
-Another minor tab, where you can check the extension’s version, visit the official website, and view the EULA or Privacy policy.
+Uzantının sürümünü kontrol edebileceğiniz, resmi siteyi ziyaret edebileceğiniz ve SKLS veya Gizlilik politikasını görüntüleyebileceğiniz başka bir küçük sekme.

@@ -15,11 +15,11 @@ Bu şekilde, bir VPN iki önemli işlevi yerine getirir:
 
 1. **Anonimliğin korunması**
 
-    Bir internet bağlantısı kullanarak, kullanıcı, daha sonra üçüncü şahıslar tarafından analiz edilebilecek ve kullanılabilecek dijital ayak izini bırakır. Örneğin, ziyaret ettiğiniz çevrimiçi mağazalardan biri arama geçmişinizi kaydedebilir ve ardından hedefli reklamcılık yoluyla size ürünlerini buna göre sunabilir. Veya cihazınızın IP adresi üzerinden konumunuzu öğrenen ve kimliğinizi belirleyen gizli servisler, web üzerindeki hareketlerinizi gizlice izleyebilir. Buna ek olarak, web tarayıcıları ve İSS'lerin kendileri, tarama geçmişinizi kendi amaçları için kullanabilir, ayrıca reklamcılara satabilir ve devlet kurumlarına sağlayabilir. VPN, IP adresinizi gizlemenize ve bağlı olduğunuz VPN sunucusunun IP adresiyle değiştirmenize olanak tanır. Bu şekilde gizliliğinizi koruyabilecek ve web'de anonim olarak bilgi arayabileceksiniz.
+   Bir internet bağlantısı kullanarak, kullanıcı, daha sonra üçüncü şahıslar tarafından analiz edilebilecek ve kullanılabilecek dijital ayak izini bırakır. Örneğin, ziyaret ettiğiniz çevrimiçi mağazalardan biri arama geçmişinizi kaydedebilir ve ardından hedefli reklamcılık yoluyla size ürünlerini buna göre sunabilir. Veya cihazınızın IP adresi üzerinden konumunuzu öğrenen ve kimliğinizi belirleyen gizli servisler, web üzerindeki hareketlerinizi gizlice izleyebilir. Buna ek olarak, web tarayıcıları ve İSS'lerin kendileri, tarama geçmişinizi kendi amaçları için kullanabilir, ayrıca reklamcılara satabilir ve devlet kurumlarına sağlayabilir. VPN, IP adresinizi gizlemenize ve bağlı olduğunuz VPN sunucusunun IP adresiyle değiştirmenize olanak tanır. Bu şekilde gizliliğinizi koruyabilecek ve web'de anonim olarak bilgi arayabileceksiniz.
 
 2. **Veri koruması**
 
-    Güvenilir olmayan veya herkese açık bir ağa bağlanırsanız cihazınızdaki veriler siber suçlulara karşı savunmasız hâle gelebilir. Banka kartı bilgileri, kullanıcı adları ve şifreler, pasaport verileri — tüm bu veriler çevrimiçi dolandırıcılar tarafından ele geçirilebilir. VPN tüneli, Web'e gönderdiğiniz ve Web'den aldığınız bilgileri şifreleyerek yanlış ellerde işe yaramaz hâle getirir.
+   Güvenilir olmayan veya herkese açık bir ağa bağlanırsanız cihazınızdaki veriler siber suçlulara karşı savunmasız hâle gelebilir. Banka kartı bilgileri, kullanıcı adları ve şifreler, pasaport verileri — tüm bu veriler çevrimiçi dolandırıcılar tarafından ele geçirilebilir. VPN tüneli, Web'e gönderdiğiniz ve Web'den aldığınız bilgileri şifreleyerek yanlış ellerde işe yaramaz hâle getirir.
 
 ## VPN yapısı
 
@@ -67,24 +67,24 @@ Zayıf bir sinyal, ağ aşırı yüklenmesi, güvenlik duvarı, antivirüs ve di
 
 VPN hizmetimizin birkaç önemli [avantajı](/general/why-adguard-vpn) vardır:
 
-- [_Tescilli VPN protokolü_](/general/adguard-vpn-protocol), yavaş bir İnternet bağlantısıyla bile kararlı bir şekilde çalışan ve kendisini normal trafik olarak gizleyerek izlemeyi ve engellemeyi daha zor hâle getirir
+ - [_Tescilli VPN protokolü_](/general/adguard-vpn-protocol), yavaş bir İnternet bağlantısıyla bile kararlı bir şekilde çalışan ve kendisini normal trafik olarak gizleyerek izlemeyi ve engellemeyi daha zor hâle getirir
 
-- [_Günlük tutmama politikası_](https://adguard-vpn.com/privacy.html), AdGuard VPN'in asla bu tür verileri toplamaması nedeniyle hiçbir kişisel verinin üçüncü taraflarla paylaşılamayacağı anlamına gelir
+ - [_Günlük tutmama politikası_](https://adguard-vpn.com/privacy.html), AdGuard VPN'in asla bu tür verileri toplamaması nedeniyle hiçbir kişisel verinin üçüncü taraflarla paylaşılamayacağı anlamına gelir
 
-- _Onlarca ülkede 50'den fazla VPN sunucusu_
+ - _Onlarca ülkede 50'den fazla VPN sunucusu_
 
-- _Kullanım kolaylığı ve kapsamlı özelleştirme seçenekleri_
+ - _Kullanım kolaylığı ve kapsamlı özelleştirme seçenekleri_
 
 Şu anda AdGuard VPN şu şekilde mevcuttur:
 
-- Chrome, Edge, Firefox ve Opera için [Tarayıcı uzantısı](/adguard-vpn-browser-extension/overview)
+ - Chrome, Edge, Firefox ve Opera için [Tarayıcı uzantısı](/adguard-vpn-browser-extension/overview)
 
-- [Android](/adguard-vpn-for-android/overview) ve [iOS](/adguard-vpn-for-ios/overview) için mobil uygulaması
+ - [Android](/adguard-vpn-for-android/overview) ve [iOS](/adguard-vpn-for-ios/overview) için mobil uygulaması
 
-- [Windows](/adguard-vpn-for-windows/overview) ve [Mac](/adguard-vpn-for-mac/overview) için masaüstü uygulaması
+ - [Windows](/adguard-vpn-for-windows/overview) ve [Mac](/adguard-vpn-for-mac/overview) için masaüstü uygulaması
 
-- [Linux, Mac ve bazı yönlendiriciler](/adguard-vpn-for-linux/) için komut satırı arayüzü
+ - [Linux, Mac ve bazı yönlendiriciler](/adguard-vpn-for-linux/) için komut satırı arayüzü
 
-- [Yönlendiriciler](/general/set-up-adguard-vpn-on-your-router/) için bir VPN istemcisi
+ - [Yönlendiriciler](/general/set-up-adguard-vpn-on-your-router/) için bir VPN istemcisi
 
 [AdGuard VPN özellikleri hakkında daha fazla bilgi edinin](https://adguard-vpn.com/welcome.html)

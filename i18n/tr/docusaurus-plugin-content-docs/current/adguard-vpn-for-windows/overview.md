@@ -100,13 +100,13 @@ Gelişmiş ayarlara hiç dokunmadan Windows için AdGuard VPN'i kullanmak tamame
 
 Aralarından seçim yapabileceğiniz iki günlük kayıt düzeyi mevcuttur: **Varsayılan olarak kaydet** ve **Her şeyi kaydet**. İlk seçenek varsayılan olarak etkindir. **Her şeyi kaydet** seçeneği, yalnızca destek ekibimiz sizden bunu yapmanızı isterse etkinleştirilmelidir. Uygulamayı bu modda uzun süre kullanmak, pil tüketiminin artmasına neden olur.
 
-Tüm günlükler cihazınızda yerel olarak depolanır ve gerekirse bunları destek ekibine gönderebilirsiniz.
+Tüm günlükler cihazınızda yerel olarak saklanır ve gerekirse bunları destek ekibine gönderebilirsiniz.
 
 ##### Kuantum sonrası kriptografi
 
 ![Kuantum sonrası kriptografi *border](https://cdn.adtidy.org/blog/new/qe7fgimage_3.png)
 
-This feature encrypts your traffic in a way that even quantum computers can’t intercept it.
+Bu özellik, trafiğinizi kuantum bilgisayarlarının bile engelleyemeyeceği şekilde şifreler.
 
 ##### QUIC'i kullan
 

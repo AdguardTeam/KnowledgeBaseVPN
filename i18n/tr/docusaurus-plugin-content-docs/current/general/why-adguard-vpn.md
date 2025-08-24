@@ -49,7 +49,7 @@ Masaüstü uygulamaları ve web tarayıcı uzantılarıyla, antivirüsler ve di�
 
 Mobil cihazlarda ise bu o kadar basit değildir. Çoğu durumda iki VPN tabanlı uygulama birlikte çalışmaz. Hem Android hem de iOS'ta bunu engelleyen sınırlamalar vardır.
 
-![Integrated mode *mobile](https://cdn.adguard.com/content/blog/articles/adguard-vpn/integration-en.png)
+![Entegre mod *mobile](https://cdn.adguard.com/content/blog/articles/adguard-vpn/integration-en.png)
 
 Ancak AdGuard VPN ve AdGuard Reklam Engelleyici ile arkadaş olmak için bir çözüm bulmayı başardık. Her iki AdGuard uygulamasını da bir cihaza yüklediğinizde, sizden herhangi bir işlem yapmanıza gerek kalmadan otomatik olarak uyumlu hâle gelirler. Bu, normalde aralarından seçim yapmanız gereken iki özellik grubundan yararlanmak için benzersz bir fırsattır.
 

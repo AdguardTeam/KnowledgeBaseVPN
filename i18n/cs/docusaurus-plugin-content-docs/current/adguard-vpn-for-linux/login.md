@@ -11,7 +11,17 @@ Chcete-li se přihlásit nebo si vytvořit účet, zadejte:
 adguardvpn-cli login
 ```
 
-Zadejte e-mailovou adresu a heslo k AdGuard účtu. Pokud ještě nemáte účet, bude vám nabídnuto jeho vytvoření.
+When prompted with the menu:
+
+```
+b - Open link in browser
+s - Speed up check
+x - Cancel
+```
+
+select `b` to open the authentication page in your default browser. Enter your email address. Once you are logged in, you will see the message _Successfully logged in_ in the Terminal.
+
+You can set up your preferred login method (password or one-time code) and two-factor authentication in your [AdGuard account](https://adguardaccount.com/account/settings).
 
 :::note
 AdGuard účet si můžete vytvořit také na našich [webových stránkách](https://auth.adguardaccount.com/login.html) a poté se přihlásit do AdGuard VPN pro Linux pomocí svých přihlašovacích údajů.

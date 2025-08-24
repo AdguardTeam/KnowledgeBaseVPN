@@ -9,13 +9,13 @@ Ana ekran VPN durumunu yansıtır (Bağlandı/Bağlantı kesildi). Ayrıca *Bağ
 
 Her sunucunun konumu ve sunucunun yanıt süresini tanımlayan ping hızı vardır. Bu değer ne kadar düşük olursa bağlantı o kadar hızlı olur. Onlarca ülkede 50'den fazla konumdan yer aldığı listede en hızlı sunucular her zaman en üstte yer alıyor. *Bağlan* düğmesine dokunarak veya bir konum seçerek en hızlı sunucuya bağlanabilirsiniz.
 
-## Saved locations
+## Kaydedilen konumlar
 
-![Saved locations *mobile](https://cdn.adguard-vpn.com/content/kb/vpn/android/saved-loc_en.png)
+![Kaydedilen konumlar *mobile](https://cdn.adguard-vpn.com/content/kb/vpn/android/saved-loc_en.png)
 
-This section lets you save your favorite server locations to a dedicated tab so that you can quickly access them without the need to search or scroll through the whole list.
+Bu bölüm, favori sunucu konumlarınızı özel bir sekmeye kaydetmenizi sağlar, böylece tüm listeyi aramanıza veya aşağı kaydırmanıza gerek kalmadan bunlara hızlı bir şekilde erişebilirsiniz.
 
-To add a location to *Saved*, just swipe left on it. To remove it, do the same.
+*Kaydedilenler* öğesine bir konum eklemek için üzerinde sola kaydırmanız yeterlidir. To remove it, do the same.
 
 ## İstisnalar
 
@@ -113,7 +113,7 @@ Bazı AdGuard VPN özellikleri *Tümleşik modda devre dışı bırakılır*: DN
 
 :::
 
-*Post-quantum cryptography* refers to cryptographic algorithms designed to secure data against potential threats posed by quantum computers, which could eventually break current encryption methods. This feature ensures that data remains securely encrypted, even in the face of advancements in quantum computing that might otherwise compromise traditional encryption techniques.
+*Post-quantum cryptography* refers to cryptographic algorithms designed to secure data against potential threats posed by quantum computers, which could eventually break current encryption methods. Bu özellik, kuantum bilişimindeki gelişmelerin geleneksel şifreleme tekniklerini tehlikeye atmasına rağmen verilerin güvenli bir şekilde şifrelenmiş kalmasını sağlar.
 
 *Günlük kayıt düzeyi*, kaç uygulama olayının kaydedileceğini belirtir. Destek ekibimiz tarafından talep edilmediği sürece *Genişletilmiş* veya *Son derece* günlük kayıt düzeylerinin etkinleştirilmesini önermiyoruz.
 
