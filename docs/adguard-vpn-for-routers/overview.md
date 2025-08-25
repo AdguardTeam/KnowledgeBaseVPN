@@ -3,8 +3,6 @@ title: Overview
 sidebar_position: 1
 ---
 
-## What AdGuard VPN for routers does
-
 Setting up AdGuard VPN on your router allows you to protect every device connected to your home network. This includes smart TVs, media players, gaming consoles, and other gadgets that don’t support VPN apps directly.
 
 :::note
