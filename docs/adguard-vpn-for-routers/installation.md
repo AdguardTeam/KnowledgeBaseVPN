@@ -115,3 +115,7 @@ You can configure AdGuard VPN on Keenetic routers starting from KeeneticOS 3.5. 
 1. Once the connection is established, toggle the switch to *Enabled*. The status of this connection will be displayed on the same page.
 
 1. Assign the highest priority to this connection. Drag the created VPN connection profile to the top of the list.
+
+## Uninstall AdGuard VPN for routers
+
+To uninstall AdGuard VPN, type:
