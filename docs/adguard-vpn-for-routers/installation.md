@@ -68,21 +68,13 @@ To set up AdGuard VPN on your MikroTik router, follow these steps:
 
 `/ip ipsec mode-config`
 
- ![Picture1](https://cdn.adguardvpn.com/content/kb/vpn/routers/installation/code1.png)
-
 `add connection-mark=to_adguard name=adguard responder=no`
-
- ![Picture2](https://cdn.adguardvpn.com/content/kb/vpn/routers/installation/responder_no.png)
 
 `/ip ipsec policy group`
 
 `add name=adguard`
 
- ![Picture3](https://cdn.adguardvpn.com/content/kb/vpn/routers/installation/name_adguard.png)
-
 `/ip ipsec profile`
-
- ![Picture4](https://cdn.adguardvpn.com/content/kb/vpn/routers/installation/ip_ipsec_profile.png)
 
 `add name=adguard`
 
@@ -98,15 +90,9 @@ To set up AdGuard VPN on your MikroTik router, follow these steps:
 
 `add auth-method=eap certificate="" eap-methods=eap-mschapv2 generate-policy= port-strict mode-config=adguard peer=adguard policy-template-group=adguard username=USERNAME password=PASSWORD`
 
- ![Picture5](https://cdn.adguardvpn.com/content/kb/vpn/routers/installation/password.png)
-
 `/ip ipsec policy`
 
- ![Picture6](https://cdn.adguardvpn.com/content/kb/vpn/routers/installation/policy.png)
-
 `add dst-address=0.0.0.0/0 group=adguard src-address=0.0.0.0/0 template=yes`
-
- ![Picture7](https://cdn.adguardvpn.com/content/kb/vpn/routers/installation/template_yes.png)
 
 In the commands above, `SERVER_ADDRESS` indicates the server address. `USERNAME` is the username that you were assigned when adding your router in your AdGuard account. The same goes for `PASSWORD`.
 
