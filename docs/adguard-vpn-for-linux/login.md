@@ -9,7 +9,15 @@ To log in or create an account, type:
 
     adguardvpn-cli login
 
-Enter the email address and password for your AdGuard account. If you don’t have an account yet, you’ll be prompted to create one.
+When prompted with the menu:
+
+    b - Open link in browser
+    s - Speed up check
+    x - Cancel
+
+select `b` to open the authentication page in your default browser. Enter your email address. Once you are logged in, you will see the message *Successfully logged in* in the Terminal.
+
+You can set up your preferred login method (password or one-time code) and two-factor authentication in your [AdGuard account](https://adguardaccount.com/account/settings).
 
 :::note
 You can also create an AdGuard account on our [website](https://auth.adguardaccount.com/login.html) and then log in to AdGuard VPN for Linux using your credentials.
