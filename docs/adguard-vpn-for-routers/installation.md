@@ -64,7 +64,7 @@ To set up AdGuard VPN on your MikroTik router, follow these steps:
 
 1. Access the MikroTik terminal. You can do this by using the command line or Terminal app on your computer or Mac with the command: `ssh admin@192.168.88.1`. You can also access it through your browser by visiting `http://192.168.88.1` and clicking on the Terminal tab in the upper right corner.
 
-1. Once you're in, run the following commands:
+1. Once you’re in, run the following commands:
 
  `/ip ipsec mode-config`
 
