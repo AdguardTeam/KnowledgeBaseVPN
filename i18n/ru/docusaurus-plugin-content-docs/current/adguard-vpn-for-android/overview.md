@@ -9,6 +9,14 @@ sidebar_position: 1
 
 Каждый сервер имеет своё местоположение и показатель пинга, отображающий время отклика сервера. Чем ниже этот показатель, тем быстрее соединение. Самые быстрые серверы всегда находятся в верхней части списка, который состоит более чем из 50 локаций в десятках стран. Вы можете подключиться к самому быстрому серверу, нажав на кнопку *Подключить* или выбрав локацию.
 
+## Saved locations
+
+![Saved locations *mobile](https://cdn.adguard-vpn.com/content/kb/vpn/android/saved-loc_en.png)
+
+This section lets you save your favorite server locations to a dedicated tab so that you can quickly access them without the need to search or scroll through the whole list.
+
+To add a location to *Saved*, just swipe left on it. To remove it, do the same.
+
 ## Исключения
 
 Списки исключений позволяют выбирать, на каких сайтах и в каких приложениях будет работать VPN. Чтобы открыть раздел *Исключения*, нажмите на вторую иконку слева в нижней части экрана.

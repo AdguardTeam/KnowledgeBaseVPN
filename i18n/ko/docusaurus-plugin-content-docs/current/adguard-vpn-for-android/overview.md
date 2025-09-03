@@ -9,6 +9,14 @@ sidebar_position: 1
 
 서버의 위치와 핑 속도는 각 서버 옆에 표시됩니다. 핑 속도는 서버의 응답 시간을 나타냅니다. 핑이 낮을수록 연결 속도가 빨라집니다. 수십 개국의 50개 이상의 위치로 구성된 목록에서 가장 빠른 서버는 항상 최상위에 있습니다. *연결* 버튼을 누르거나 위치를 선택하면 가장 빠른 서버에 연결할 수 있습니다.
 
+## Saved locations
+
+![Saved locations *mobile](https://cdn.adguard-vpn.com/content/kb/vpn/android/saved-loc_en.png)
+
+This section lets you save your favorite server locations to a dedicated tab so that you can quickly access them without the need to search or scroll through the whole list.
+
+To add a location to *Saved*, just swipe left on it. To remove it, do the same.
+
 ## 예외
 
 예외 목록을 사용하면 특정 웹사이트 및 앱에 대한 VPN 연결을 관리할 수 있습니다. *예외*에 액세스하려면 화면 하단의 왼쪽에서 두 번째 아이콘을 누릅니다.

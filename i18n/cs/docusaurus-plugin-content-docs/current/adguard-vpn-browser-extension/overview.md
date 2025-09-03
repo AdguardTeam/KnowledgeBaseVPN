@@ -11,6 +11,40 @@ Rozšíření prohlížeče AdGuard VPN můžete používat pouze po přihláše
 
 :::
 
+## Uložená umístění
+
+Oblíbená umístění si můžete uložit pro rychlý přístup. Stačí najet na umístění a kliknout na ikonu záložky, která se zobrazí:
+
+![Save a location *mobile](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/saved-locations-en.png)
+
+Označená umístění se pak zobrazí na kartě *Uložené*.
+
+![Saved tab *mobile](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/saved-tab-en.png)
+
+## Statistiky
+
+Sekce *Statistiky* v nabídce představuje jednoduchý způsob, jak sledovat, kolik dat prochází skrze vaše připojení VPN.
+
+![Statistics *mobile](https://cdn.adtidy.org/content/release_notes/vpn/browser_extension/Statistics.png)
+
+Kdy se statistiky mohou hodit:
+
+- **Zkontrolujete, zda VPN skutečně funguje**. Rychlý pohled na statistiky potvrzuje, že vaše připojení je aktivní a data jsou směrována skrze VPN.
+
+- **Sledujte neočekávanou aktivitu**. Pokud se provoz zvyšuje, když zařízení nepoužíváte, je možné, že něco na pozadí — záložka nebo rozšíření — odesílá data.
+
+- **Řešení problémů s pomalým připojením**. Pokud se vám připojení zdá pomalé, může to znamenat, že na pozadí běží nebo se stahuje nějaká aplikace.
+
+:::note
+
+Všechny statistiky jsou uloženy lokálně ve vašem zařízení. Počítáme pouze množství použitých dat — nevidíme, které webové stránky navštěvujete. Pokud statistiky nepotřebujete, můžete je také deaktivovat.
+
+:::
+
+Sekce *Statistiky* je k dispozici uživatelům placené verze.
+
+## Nastavení
+
 Chcete-li spravovat rozšíření prohlížeče AdGuard VPN:
 
 - Klikněte na jeho ikonu na panelu prohlížeče, klikněte na tři čáry a vyberte *Nastavení*,
@@ -18,17 +52,17 @@ Chcete-li spravovat rozšíření prohlížeče AdGuard VPN:
 
 Po dokončení se vlevo zobrazí několik karet:
 
-## Nastavení
+### Obecné
 
 Na této kartě je shromážděno několik důležitých nastavení. Zde můžete vybrat DNS server, který chcete používat, přidat nebo odebrat ikonu AdGuard VPN z kontextové nabídky prohlížeče, zablokovat WebRTC, změnit motiv rozšíření a povolit AdGuardu shromažďovat anonymizovaná hlášení o pádech a technické údaje.
 
-### Výběr DNS serveru
+#### DNS server
 
 Ve výchozím nastavení je [systémový DNS server](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns) poskytovaný vaším ISP, ale to může ohrozit vaše soukromí. S rozšířením prohlížeče AdGuard VPN si můžete vybrat DNS server, který poskytuje vyšší rychlost a zabezpečení a dokonce blokuje reklamy nebo potenciálně nebezpečné domény. Stručné popisy pod názvy DNS serverů vám usnadní orientaci a rozhodování.
 
 Další informace o [DNS serverech od různých poskytovatelů](https://adguard-dns.io/kb/general/dns-providers/).
 
-## Výjimky
+### Výjimky
 
 Další karta obsahuje jednu z hlavních charakteristických funkcí AdGuard VPN — dva režimy se samostatnými seznamy výjimek.
 
@@ -36,7 +70,7 @@ V **Obecném režimu** funguje AdGuard VPN ve výchozím nastavení na všech we
 
 Při přidávání webové stránky do seznamu výjimek ji můžete zadat ručně nebo vybrat možnost **Ze seznamu**. V druhém případě se zobrazí osm kategorií (např. *Nákupy* nebo *Zasílání zpráv*), z nichž každá nabízí několik oblíbených služeb. Jedním kliknutím můžete vyloučit kteroukoli z těchto služeb. Tím se do výjimek přidají všechny domény relevantní pro danou službu.
 
-### Import a export
+#### Import a export
 
 Můžete nejen přidávat a odebírat webové stránky, ale také přenášet připravené seznamy výjimek do jiných zařízení, kde je AdGuard VPN nainstalována. Chcete-li exportovat seznam výjimek, postupujte podle následujících čtyř kroků:
 
@@ -45,14 +79,14 @@ Můžete nejen přidávat a odebírat webové stránky, ale také přenášet p�
 1. Při přenosu mezi různými zařízeními odešlete soubor `.zip` do zařízení pro import.
 1. V tomto zařízení otevřete AdGuard VPN. Vyhledejte příslušnou sekci, klikněte na tlačítko *Importovat* a vyberte archiv. Hotovo!
 
-## Účet
+### Účet
 
 Třetí karta rozšíření prohlížeče AdGuard VPN je naprosto minimalistická a obsahuje pouze e-mailovou adresu, kterou jste použili k přihlášení k účtu, a dvě tlačítka: *Spravovat* a *Odhlásit se*. Kliknutím na tlačítko *Spravovat* se dostanete na svůj osobní účet AdGuard, kde uvidíte všechny své aktuální licence a předplatné a také zařízení, která jsou k nim připojena.
 
-## Podpora
+### Podpora
 
 Odpovědi na časté otázky najdete v sekci FAQ nebo můžete zanechat zpětnou vazbu: nahlásit chybu, pokud něco nefunguje, jak má, navrhnout přidání nové funkce nebo diskutovat o AdGuardu na některé z mnoha sociálních sítí.
 
-## O produktu
+### O produktu
 
 Další menší karta, kde můžete zkontrolovat verzi rozšíření, navštívit oficiální webové stránky a zobrazit smlouvu EULA nebo Zásady ochrany osobních údajů.
