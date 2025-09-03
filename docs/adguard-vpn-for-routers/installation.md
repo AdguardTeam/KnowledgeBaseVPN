@@ -3,7 +3,7 @@ title: Installation and removal
 sidebar_position: 2
 ---
 
-Installing AdGuard VPN directly on your router allows every device in your network to benefit from private and secure internet access — no separate app required. Follow this guide to add your router to AdGuard VPN, generate credentials, and connect your devices in just a few simple steps.
+Installing AdGuard VPN directly on your router allows every device in your network to benefit from private and secure Internet access — no separate app required. Follow this guide to add your router to AdGuard VPN, generate credentials, and connect your devices in just a few simple steps.
 
 ## Installation options
 
