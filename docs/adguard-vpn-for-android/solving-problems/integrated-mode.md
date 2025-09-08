@@ -7,11 +7,11 @@ AdGuard VPN has the VPN operating mode enabled by default, which uses its own [A
 
 ### How to enable Integrated mode
 
-If you already have AdGuard Ad Blocker when installing AdGuard VPN, Integrated mode will turn on automatically, thus allowing you to use our applications at the same time.
+If you have AdGuard Ad Blocker, Integrated Mode will turn on automatically when you install AdGuard VPN, allowing you to use both apps at the same time.
 
-If you are installing AdGuard Ad Blocker after AdGuard VPN — follow these steps to make using them together possible:
+If you are installing AdGuard Ad Blocker after AdGuard VPN, follow these steps to use them together:
 
-1. Open AdGuard VPN for Android and tap the gear icon at the bottom right of the screen.
+1. Open AdGuard VPN for Android and tap the gear icon in the bottom-right corner of the screen.
 
 2. Go to *Advanced settings* and select *Operating mode*.
 
