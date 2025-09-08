@@ -19,9 +19,9 @@ Výchozí IP adresa pro většinu routerů je `192.168.1.1` nebo `192.168.0.1
 
 1. Otevřete příkazový řádek:
 
-    ```bash
-    ipconfig
-    ```
+   ```bash
+   ipconfig
+   ```
 
 2. Pod aktivním síťovým připojením vyhledejte položku _Výchozí brána_. Jedná se o IP adresu vašeho routeru.
 
@@ -29,15 +29,15 @@ Výchozí IP adresa pro většinu routerů je `192.168.1.1` nebo `192.168.0.1
 
 1. Otevřete Terminal a spusťte tento příkaz pro Linux:
 
-    ```bash
-    ip route | grep default
-    ```
+   ```bash
+   ip route | grep default
+   ```
 
-    Nebo tento pro macOS:
+   Nebo tento pro macOS:
 
-    ```bash
-    route -n get default
-    ```
+   ```bash
+   route -n get default
+   ```
 
 2. Vyhledejte položku _výchozí_. IP adresa vedle ní je IP adresa vašeho routeru.
 
@@ -71,21 +71,21 @@ Budete potřebovat klienta SSH. Většina systémů Linux a macOS je dodávána 
 
 2. Spusťte příkaz SSH:
 
-    ```bash
-    ssh admin@192.168.1.1
-    ```
+   ```bash
+   ssh admin@192.168.1.1
+   ```
 
-    Nahraďte `192.168.1.1` IP adresou routeru a `admin` uživatelským jménem správce.
+   Nahraďte `192.168.1.1` IP adresou routeru a `admin` uživatelským jménem správce.
 
 3. Pokud se k routeru připojujete přes SSH poprvé, zobrazí se tato zpráva:
 
-    ```text
-    The authenticity of host '192.168.1.1 (192.168.1.1)' can't be established.
-    ECDSA key fingerprint is SHA256:...
-    Are you sure you want to continue connecting (yes/no/[fingerprint])?
-    ```
+   ```text
+   The authenticity of host '192.168.1.1 (192.168.1.1)' can't be established.
+   ECDSA key fingerprint is SHA256:...
+   Are you sure you want to continue connecting (yes/no/[fingerprint])?
+   ```
 
-    Zadejte `yes` a stiskněte Enter.
+   Zadejte `yes` a stiskněte Enter.
 
 4. Na výzvu zadejte heslo routeru. Přihlašovací jméno a heslo SSH jsou stejné jako přihlašovací údaje správce.
 
@@ -188,57 +188,57 @@ modprobe tun
 
 1. Přihlaste se ke svému účtu
 
-    Chcete-li používat AdGuard VPN pro Linux, potřebujete účet AdGuard.
+   Chcete-li používat AdGuard VPN pro Linux, potřebujete účet AdGuard.
 
-    Přihlásit se můžete na našich [webových stránkách](https://auth.adguardaccount.com/login.html) nebo v Terminalu.
+   Přihlásit se můžete na našich [webových stránkách](https://auth.adguardaccount.com/login.html) nebo v Terminalu.
 
-    Chcete-li se zaregistrovat nebo přihlásit, zadejte:
+   Chcete-li se zaregistrovat nebo přihlásit, zadejte:
 
-    ```jsx
-    adguardvpn-cli login
-    ```
+   ```jsx
+   adguardvpn-cli login
+   ```
 
 2. Připojte se k VPN
 
-    Vyberte si umístění serveru VPN, které nejlépe vyhovuje vašim potřebám.
+   Vyberte si umístění serveru VPN, které nejlépe vyhovuje vašim potřebám.
 
-    Obecně platí, že čím blíže je server, tím rychlejší je připojení.
+   Obecně platí, že čím blíže je server, tím rychlejší je připojení.
 
-    Chcete-li zobrazit dostupná umístění, zadejte:
+   Chcete-li zobrazit dostupná umístění, zadejte:
 
-    ```jsx
-    adguardvpn-cli list-locations
-    ```
+   ```jsx
+   adguardvpn-cli list-locations
+   ```
 
-    Chcete-li se připojit k určitému umístění, zadejte:
+   Chcete-li se připojit k určitému umístění, zadejte:
 
-    ```jsx
-    adguardvpn-cli connect -l LOCATION_NAME
-    ```
+   ```jsx
+   adguardvpn-cli connect -l LOCATION_NAME
+   ```
 
-    Nahraďte LOCATION_NAME kódem města, země nebo ISO kódem umístění, ke kterému se chcete připojit.
+   Nahraďte LOCATION_NAME kódem města, země nebo ISO kódem umístění, ke kterému se chcete připojit.
 
-    Pro rychlé připojení zadejte:
+   Pro rychlé připojení zadejte:
 
-    ```jsx
-    adguardvpn-cli connect
-    ```
+   ```jsx
+   adguardvpn-cli connect
+   ```
 
-    AdGuard VPN vybere nejrychlejší dostupné umístění a zapamatuje si ho pro budoucí rychlá připojení.
+   AdGuard VPN vybere nejrychlejší dostupné umístění a zapamatuje si ho pro budoucí rychlá připojení.
 
-    Na dotaz "Chcete nastavit výchozí trasy v režimu TUN?" zadejte `yes`
+   Na dotaz "Chcete nastavit výchozí trasy v režimu TUN?" zadejte `yes`
 
-    AdGuard VPN CLI vytvoří rozhraní tun0 pro tunel VPN.
+   AdGuard VPN CLI vytvoří rozhraní tun0 pro tunel VPN.
 
 3. Upravte nastavení
 
-    Získejte seznam všech dostupných příkazů AdGuard VPN a přizpůsobte klienta VPN svým potřebám.
+   Získejte seznam všech dostupných příkazů AdGuard VPN a přizpůsobte klienta VPN svým potřebám.
 
-    Chcete-li zobrazit všechny příkazy, zadejte:
+   Chcete-li zobrazit všechny příkazy, zadejte:
 
-    ```jsx
-    adguardvpn-cli --help-all
-    ```
+   ```jsx
+   adguardvpn-cli --help-all
+   ```
 
 <!-- comment -->
 
@@ -248,46 +248,46 @@ Tímto krokem nakonfigurujete pravidla brány firewall na routeru Asuswrt-Merlin
 
 1. Nový skript vytvoříte spuštěním následujícího příkazu:
 
-    ```bash
-    cat << 'EOF' > /jffs/scripts/wan-event
-    #!/bin/sh
+   ```bash
+   cat << 'EOF' > /jffs/scripts/wan-event
+   #!/bin/sh
 
-    if [ "$2" = "connected" ]; then
-        export SSL_CERT_FILE=/opt/etc/ssl/certs/ca-certificates.crt
-        export HOME=/opt/home/admin
-        modprobe tun
-        /opt/adguardvpn_cli/adguardvpn-cli connect &
-        for ipt in iptables ip6tables; do
-            $ipt -D FORWARD -j ADGUARD_FORWARD || true
-            $ipt -F ADGUARD_FORWARD || true
-            $ipt -X ADGUARD_FORWARD || true
-            $ipt -N ADGUARD_FORWARD
-            $ipt -I FORWARD -j ADGUARD_FORWARD
-            $ipt -A ADGUARD_FORWARD -i br0 -o tun0 -j ACCEPT
-        done
-        exit 0
-    fi
-    EOF
-    ```
+   if [ "$2" = "connected" ]; then
+       export SSL_CERT_FILE=/opt/etc/ssl/certs/ca-certificates.crt
+       export HOME=/opt/home/admin
+       modprobe tun
+       /opt/adguardvpn_cli/adguardvpn-cli connect &
+       for ipt in iptables ip6tables; do
+           $ipt -D FORWARD -j ADGUARD_FORWARD || true
+           $ipt -F ADGUARD_FORWARD || true
+           $ipt -X ADGUARD_FORWARD || true
+           $ipt -N ADGUARD_FORWARD
+           $ipt -I FORWARD -j ADGUARD_FORWARD
+           $ipt -A ADGUARD_FORWARD -i br0 -o tun0 -j ACCEPT
+       done
+       exit 0
+   fi
+   EOF
+   ```
 
-    A zajistěte, aby byl spustitelný:
+   A zajistěte, aby byl spustitelný:
 
-    ```bash
-    chmod a+rx /jffs/scripts/wan-event
-    ```
+   ```bash
+   chmod a+rx /jffs/scripts/wan-event
+   ```
 
-    Pokud máte více rozhraní brX, nezapomeňte je také zahrnout do skriptu a směrovat jejich přenosy. Případně pro tato rozhraní zadejte jiné pravidlo směrování.
+   Pokud máte více rozhraní brX, nezapomeňte je také zahrnout do skriptu a směrovat jejich přenosy. Případně pro tato rozhraní zadejte jiné pravidlo směrování.
 
-    Tento skript zajistí, aby veškerý provoz procházel tunelem VPN. Po restartování nebo opětovném připojení k internetu se AdGuard VPN automaticky připojí k naposledy používanému umístění.
+   Tento skript zajistí, aby veškerý provoz procházel tunelem VPN. Po restartování nebo opětovném připojení k internetu se AdGuard VPN automaticky připojí k naposledy používanému umístění.
 
 2. Restartujte router a dokončete nastavení.
 
-    Gratulujeme! Nyní máte router zabezpečený pomocí AdGuard VPN.
+   Gratulujeme! Nyní máte router zabezpečený pomocí AdGuard VPN.
 
-    Pokud se chcete znovu připojit k routeru pomocí SSH a odeslat do AdGuard VPN nějaké příkazy, nezapomeňte nejprve spustit tuto funkci:
+   Pokud se chcete znovu připojit k routeru pomocí SSH a odeslat do AdGuard VPN nějaké příkazy, nezapomeňte nejprve spustit tuto funkci:
 
-    ```bash
-    export SSL_CERT_FILE=/opt/etc/ssl/certs/ca-certificates.crt
-    export HOME=/opt/home/admin
-    modprobe tun
-    ```
+   ```bash
+   export SSL_CERT_FILE=/opt/etc/ssl/certs/ca-certificates.crt
+   export HOME=/opt/home/admin
+   modprobe tun
+   ```

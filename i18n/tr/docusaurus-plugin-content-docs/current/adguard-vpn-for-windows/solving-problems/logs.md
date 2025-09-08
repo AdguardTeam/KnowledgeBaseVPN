@@ -5,39 +5,39 @@ sidebar position: 1
 
 Windows için AdGuard VPN kullanırken herhangi bir sorunla karşılaşırsanız, bizi bu konuda bilgilendirebilirsiniz. Sorunları daha hızlı çözmemize yardımcı oldukları için uygulama günlüklerini de gönderirseniz çok memnun oluruz.
 
-## Standard logs
+## Standart günlükler
 
-Varsayılan olarak, Windows için AdGuard VPN, uygulamanın çalışan işlemleri hakkında temel veri toplama olan standart günlük kayıt düzeyini kullanır. To send these logs, follow the next steps:
+Varsayılan olarak, Windows için AdGuard VPN, uygulamanın çalışan işlemleri hakkında temel veri toplama olan standart günlük kayıt düzeyini kullanır. Bu günlükleri göndermek için sonraki adımları izleyin:
 
-1. Open AdGuard VPN for Windows and, if possible, repeat the actions that led to the error. Note the exact time when this error occurred.
+1. Windows için AdGuard VPN'i açın ve mümkünse hataya neden olan işlemleri tekrarlayın. Bu hatanın oluştuğu tam zamana dikkat edin.
 
-1. Click **Support** (in the menu above) → **Report a bug**.
+1. **Destek** (yukarıdaki menüde) → **Hata bildir** öğesine tıklayın.
 
-1. In the opened form, enter your email address for feedback and describe the error found, including the time when this error occurred. If you can’t reproduce the problem, specify as accurately as possible when it last occurred.
+1. Açılan formda, geri bildirim için e-posta adresinizi girin ve bulunan hatayı, bu hatanın oluştuğu zaman da dahil olmak üzere açıklayın. Sorunu yeniden oluşturamıyorsanız, en son ne zaman oluştuğunu olabildiğince doğru bir şekilde belirtin.
 
-1. There is a check mark next to the **Send detailed system info**, which means that when you send a report, you also send logs.
+1. **Detaylı sistem bilgisi gönder** öğesinin yanında bir onay işareti vardır; bu, bir rapor gönderdiğinizde günlükleri de göndereceğiniz anlamına gelir.
 
 :::note
 
-If for some reason it is more convenient for you to send us logs in another way, you can export them yourself. To do this, select **Settings** → **App settings** → **Advanced settings** → **Export logs and system info**.
+Herhangi bir nedenle bize günlükleri başka bir şekilde göndermeniz daha uygunsa, bunları kendiniz dışa aktarabilirsiniz. To do this, select **Settings** → **App settings** → **Advanced settings** → **Export logs and system info**.
 
 :::
 
-## Extended logs
+## Genişletilmiş günlükler
 
-In most cases, the default logging level is sufficient to trace down possible bugs. But there are cases when more detailed technical information about the device and connections is required, and then our support team will ask you to enable the extended logging level. To send this type of logs, follow these steps:
+Çoğu durumda, olası hataların izini sürmek için varsayılan günlük kayıt düzeyi yeterlidir. Ancak, cihaz ve bağlantılar hakkında daha ayrıntılı teknik bilgilerin gerekli olduğu durumlar vardır ve bu durumda destek ekibimiz, genişletilmiş günlük kayıt düzeyini etkinleştirmenizi ister. Bu tür günlükleri göndermek için şu adımları izleyin:
 
-1. Open AdGuard VPN for Windows and select **Settings** in the menu above → **App settings** → **Advanced settings** → **Logging level** → **Extended**.
+1. Windows için AdGuard VPN'i açın ve yukarıdaki menüden **Ayarlar** → **Uygulama ayarları** → **Gelişmiş ayarlar** → **Günlük kayıt düzeyi** → **Genişletilmiş** öğesini seçin.
 
-1. Repeat the actions that led to the error, and note the time when it occurred.
+1. Hataya neden olan işlemleri tekrarlayın ve meydana geldiği zamana dikkat edin.
 
 1. Switch the logging level back to **Default**.
 
-1. Select **Support** (in the menu above) → **Report a bug**.
+1. **Destek** (yukarıdaki menüde) → **Hata bildir** öğesini seçin.
 
-1. In the form that opens, enter your email address and describe the error you found, including the time it occurred. If you can’t reproduce the problem, be as specific as possible about when it last occurred.
+1. In the form that opens, enter your email address and describe the error you found, including the time it occurred. Sorunu yeniden oluşturamıyorsanız, en son ne zaman oluştuğuna dair olabildiğince açık olun.
 
-1. Make sure that there is a check mark next to **Send detailed system info** and click **Send**.
+1. **Detaylı sistem bilgisi gönder** öğesinin yanında bir onay işareti olduğundan emin olun ve **Gönder** öğesine tıklayın.
 
 :::note
 
@@ -45,23 +45,23 @@ If for some reason it is more convenient for you to send us logs in another way,
 
 :::
 
-## Trace logs
+## İzleme günlükleri
 
-Sometimes our support team might ask you to send them trace logs. To do this, you need to follow these steps:
+Bazen destek ekibimiz sizden izleme günlüklerini göndermenizi isteyebilir. Bunu yapmak için aşağıdaki adımları izlemeniz gerekir:
 
-1. Right-click the AdGuard VPN icon in the tray menu and choose **Exit AdGuard VPN**.
+1. Tepsi menüsündeki AdGuard VPN simgesine sağ tıklayın ve **AdGuard VPN'den çık** öğesini seçin.
 
-    ![Exit *mobile](https://cdn.adguard-vpn.com/content/kb/vpn/windows/logs/exit.png)
+    ![Çıkış *mobile](https://cdn.adguard-vpn.com/content/kb/vpn/windows/logs/exit.png)
 
-    If you see the warning message, agree to stop the service.
+    Uyarı mesajını görürseniz, hizmeti durdurmayı kabul edin.
 
-    ![Attention *mobile](https://cdn.adguard-vpn.com/content/kb/vpn/windows/logs/attention.png)
+    ![Dikkat *mobile](https://cdn.adguard-vpn.com/content/kb/vpn/windows/logs/attention.png)
 
-1. Open the console (type `cmd` in the start panel).
+1. Konsolu açın (başlat paneline `cmd` yazın).
 
 1. Run the application with the command `C:\"Program Files (x86)"\AdGuardVpn\AdguardVpn.exe /trace` if you are using 64-bit Windows, and `C:\"Program Files"\AdGuardVpn\AdguardVpn.exe /trace` if you are using 32-bit.
 
-1. Reproduce the issue. We strongly recommend that you note the exact time when you reproduce the problem: this will help our support team to find relevant log entries and resolve the problem faster.
+1. Sorunu yeniden oluşturun. We strongly recommend that you note the exact time when you reproduce the problem: this will help our support team to find relevant log entries and resolve the problem faster.
 
 1. Export the recorded logs: **Settings** → **App settings** → **Advanced settings** → **Export logs and system info**.
 
@@ -69,7 +69,7 @@ Don’t worry if your log file is large. We need to know as many details as poss
 
 :::note
 
-If you encounter any problems while trying to export logs, there is an alternative way. Please follow these steps:
+Günlükleri dışa aktarmaya çalışırken herhangi bir sorunla karşılaşırsanız alternatif bir yol vardır. Lütfen aşağıdaki adımları izleyin:
 
 1. Explorer uygulamasını açın
 
