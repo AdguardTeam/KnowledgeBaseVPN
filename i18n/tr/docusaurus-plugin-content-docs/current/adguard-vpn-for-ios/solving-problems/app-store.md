@@ -15,25 +15,25 @@ Bazı ülkelerde AdGuard VPN, App Store'da mevcut değildir. Durumunuz buysa uyg
 
 2. _Ülke/Bölge_ → _Ülke veya Bölgeyi Değiştir_ öğesine dokunun.
 
-    ![Bölge değiştiriliyor](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/changing_country.png)
+   ![Bölge değiştiriliyor](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/changing_country.png)
 
 3. Select your preferred country from the list (e.g., _Canada_ or _Mexico_) and agree to the Terms and Conditions.
 
 4. Gerekli alanları doldurun. _Ödeme Yöntemi_ için _Hiçbiri_ öğesini seçebilirsiniz. _Fatura Adresi_ için geçerli bir posta kodu olan herhangi bir telefon numarası ve adresi kullanın. Örneğin:
 
-    Street: 90 Ave NW
+   Street: 90 Ave NW
 
-    Şehir: Edmonton
+   Şehir: Edmonton
 
-    Province/Territory: Alberta
+   Province/Territory: Alberta
 
-    Posta kodu: 15040
+   Posta kodu: 15040
 
-    Telefon: 613 9572998
+   Telefon: 613 9572998
 
 5. _Sonraki_ öğesine dokunun.
 
-    ![Yeni bölge \*border](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/canada_en.png)
+   ![Yeni bölge \*border](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/canada_en.png)
 
 Bölgeyi değiştirdikten sonra, [AdGuard VPN'i App Store'dan tekrar indirmeyi](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602) deneyin.
 
@@ -47,9 +47,9 @@ App Store'da ücretli abonelikleri olan ve yalnızca farklı bölgelerden ücret
 
 2. Enter any first and last name and select a country, like _United States_.
 
-3. Use an email address not linked to any Apple Account. Bu e-postaya bir doğrulama kodu gönderilecektir.
+3. Apple Kimliğinize bağlı olmayan bir e-posta adresi kullanın. Bu e-postaya bir doğrulama kodu gönderilecektir.
 
-4. Provide a phone number not linked to any Apple Account for verification.
+4. Doğrulama için herhangi bir Apple Hesabına bağlı olmayan bir telefon numarası belirtin.
 
 5. E-posta adresinizi ve telefon numaranızı doğrulayın ve _Sonraki_ öğesine basın. Bu kadar!
 
@@ -61,11 +61,11 @@ App Store'da ücretli abonelikleri olan ve yalnızca farklı bölgelerden ücret
 
 3. _Ortamlar ve Satın Almalar_ öğesine tekrar dokunun ve _[Adınız] değil misiniz?_ öğesini seçin. Farklı bir Apple Kimliği ile oturum açmanız istenecektir.
 
-    ![Hesap değiştiriliyor](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/log_out.png)
+   ![Hesap değiştiriliyor](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/log_out.png)
 
 4. Yeni hesabınızın e-posta adresini ve parolasını girin.
 
-    ![Giriş yap \*mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/apple_id.png)
+   ![Giriş yap \*mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/apple_id.png)
 
 Bu kadar! Şimdi tekrar [App Store'dan AdGuard VPN'i indirmeyi](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602) deneyin.
 

@@ -15,25 +15,25 @@ sidebar_position: 1
 
 2. Нажмите _Страна/регион_ → _Изменить страну или регион_.
 
-    ![Смена региона](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/changing_country.png)
+   ![Смена региона](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/changing_country.png)
 
 3. Выберите желаемую страну из списка (например, _Канаду_ или _Мексику_) и примите Условия использования.
 
 4. Заполните необходимые поля. Для _Способа оплаты_ вы можете выбрать _Нет_. В _Адресе выставления счёта_ используйте любой номер телефона и адрес с правильным почтовым индексом. Например:
 
-    Улица: 90-я авеню СЗ
+   Улица: 90-я авеню СЗ
 
-    Город: Эдмонтон
+   Город: Эдмонтон
 
-    Провинция/территория: Альберта
+   Провинция/территория: Альберта
 
-    Почтовый индекс: 15040
+   Почтовый индекс: 15040
 
-    Телефон: 613 9572998
+   Телефон: 613 9572998
 
 5. Нажмите _Далее_.
 
-    ![Новый регион \*border](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/canada_en.png)
+   ![Новый регион \*border](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/canada_en.png)
 
 После смены региона попробуйте [снова скачать AdGuard VPN из App Store](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602).
 
@@ -61,11 +61,11 @@ sidebar_position: 1
 
 3. Снова нажмите _Контент и покупки_ и выберите \*Не [ваше имя]? \* Вам будет предложено войти в систему с другим Apple ID.
 
-    ![Смена аккаунта](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/log_out.png)
+   ![Смена аккаунта](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/log_out.png)
 
 4. Введите адрес почты и пароль от вашего нового аккаунта.
 
-    ![Вход \*mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/apple_id.png)
+   ![Вход \*mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/apple_id.png)
 
 Вот и всё! Теперь попробуйте [скачать AdGuard VPN из App Store](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602) ещё раз.
 

@@ -11,9 +11,9 @@ Když AdGuard VPN v určité síti Wi-Fi nefunguje správně:
 
 1. Zkontrolujte nastavení routeru a aktivní služby. Některé z nich mohou být v kolizi s AdGuard VPN:
 
-    - Ostatní sítě VPN (spuštěné současně)
-    - Firewally (blokování přenosů VPN)
-    - Síťové filtry (například vestavěné internetové filtry v routerech Keenetic, viz [příručka výrobce](https://help.keenetic.com/hc/en-us/articles/4415711575698-Content-filtering-and-ad-blocking-options) pro podrobnosti)
+   - Ostatní sítě VPN (spuštěné současně)
+   - Firewally (blokování přenosů VPN)
+   - Síťové filtry (například vestavěné internetové filtry v routerech Keenetic, viz [příručka výrobce](https://help.keenetic.com/hc/en-us/articles/4415711575698-Content-filtering-and-ad-blocking-options) pro podrobnosti)
 
 2. Deaktivujte konfliktní služby a nastavení
 
@@ -32,9 +32,9 @@ Pokud problém přetrvává, postupujte podle následujících kroků:
 
 1. Dočasně deaktivujte ostatní software. Nejčastější konflikty jsou:
 
-    - Antivirové programy (zejména Kaspersky, Dr.Web, Bitdefender, Avast, ESET)
-    - Nástroje proxy (například Proxifier)
-    - Firewally a služby DNS třetích stran
+   - Antivirové programy (zejména Kaspersky, Dr.Web, Bitdefender, Avast, ESET)
+   - Nástroje proxy (například Proxifier)
+   - Firewally a služby DNS třetích stran
 
 2. Restartujte počítač a zkontrolujte, zda je problém vyřešen.
 

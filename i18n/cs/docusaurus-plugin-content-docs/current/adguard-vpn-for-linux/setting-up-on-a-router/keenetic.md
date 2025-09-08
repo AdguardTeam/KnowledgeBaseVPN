@@ -27,9 +27,9 @@ Výchozí IP adresa pro většinu routerů je `192.168.1.1` nebo `192.168.0.1
 
 1. Otevřete příkazový řádek:
 
-    ```bash
-    ipconfig
-    ```
+   ```bash
+   ipconfig
+   ```
 
 2. Pod aktivním síťovým připojením vyhledejte položku _Výchozí brána_. Jedná se o IP adresu vašeho routeru.
 
@@ -37,15 +37,15 @@ Výchozí IP adresa pro většinu routerů je `192.168.1.1` nebo `192.168.0.1
 
 1. V systému Linux otevřete Terminal a spusťte tento příkaz:
 
-    ```bash
-    ip route | grep default
-    ```
+   ```bash
+   ip route | grep default
+   ```
 
-    Nebo tento pro macOS:
+   Nebo tento pro macOS:
 
-    ```text
-    route -n get default
-    ```
+   ```text
+   route -n get default
+   ```
 
 2. Vyhledejte položku _výchozí_. IP adresa vedle ní je IP adresa vašeho routeru.
 
@@ -61,21 +61,21 @@ Budete potřebovat klienta SSH. Většina systémů Linux a macOS je dodávána 
 
 2. Spusťte příkaz SSH:
 
-    ```bash
-    ssh admin@192.168.1.1
-    ```
+   ```bash
+   ssh admin@192.168.1.1
+   ```
 
-    Nahraďte `192.168.1.1` IP adresou vašeho routeru.
+   Nahraďte `192.168.1.1` IP adresou vašeho routeru.
 
 3. Pokud se k routeru připojujete přes SSH poprvé, zobrazí se tato zpráva:
 
-    ```text
-    The authenticity of host '192.168.1.1 (192.168.1.1)' can't be established.
-    ECDSA key fingerprint is SHA256:...
-    Are you sure you want to continue connecting (yes/no/[fingerprint])?
-    ```
+   ```text
+   The authenticity of host '192.168.1.1 (192.168.1.1)' can't be established.
+   ECDSA key fingerprint is SHA256:...
+   Are you sure you want to continue connecting (yes/no/[fingerprint])?
+   ```
 
-    Zadejte `yes` a stiskněte Enter.
+   Zadejte `yes` a stiskněte Enter.
 
 4. Na výzvu zadejte heslo routeru. Výchozí uživatelské jméno je `root` a výchozí heslo je `keenetic`.
 
@@ -141,82 +141,82 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
 
 1. Přihlaste se ke svému účtu
 
-    Chcete-li používat AdGuard VPN pro Linux, potřebujete účet AdGuard. Přihlásit nebo zaregistrovat se můžete na našich [webových stránkách](https://auth.adguardaccount.com/login.html) nebo v Terminalu.
+   Chcete-li používat AdGuard VPN pro Linux, potřebujete účet AdGuard. Přihlásit nebo zaregistrovat se můžete na našich [webových stránkách](https://auth.adguardaccount.com/login.html) nebo v Terminalu.
 
-    Před přihlášením přejděte do Terminalu a ujistěte se, že jste ve správném rozhraní shellu. Pokud vidíte následující text:
+   Před přihlášením přejděte do Terminalu a ujistěte se, že jste ve správném rozhraní shellu. Pokud vidíte následující text:
 
-    ```text
-    KeeneticOS version 4.01.C.7.0-1, copyright (c) 2010-2024 Keenetic Ltd.
+   ```text
+   KeeneticOS version 4.01.C.7.0-1, copyright (c) 2010-2024 Keenetic Ltd.
 
-    THIS SOFTWARE IS A SUBJECT OF KEENETIC LIMITED END-USER LICENCE AGREEMENT. BY USING IT YOU AGREE ON TERMS AND CONDITIONS HEREOF. FOR MORE INFORMATION PLEASE CHECK https://keenetic.com/legal
-    ```
+   THIS SOFTWARE IS A SUBJECT OF KEENETIC LIMITED END-USER LICENCE AGREEMENT. BY USING IT YOU AGREE ON TERMS AND CONDITIONS HEREOF. FOR MORE INFORMATION PLEASE CHECK https://keenetic.com/legal
+   ```
 
-    Spuštěním tohoto příkazu přejdete do shellu potřebného pro další kroky:
+   Spuštěním tohoto příkazu přejdete do shellu potřebného pro další kroky:
 
-    ```bash
-    exec sh
-    ```
+   ```bash
+   exec sh
+   ```
 
-    Pokud se zobrazí následující text, můžete pokračovat v nastavení:
+   Pokud se zobrazí následující text, můžete pokračovat v nastavení:
 
-    ```bash
-    BusyBox v1.36.1 (2024-08-08 16:11:23 UTC) built-in shell (ash)
+   ```bash
+   BusyBox v1.36.1 (2024-08-08 16:11:23 UTC) built-in shell (ash)
 
-    / #
-    ```
+   / #
+   ```
 
-    Chcete-li se zaregistrovat nebo přihlásit, zadejte:
+   Chcete-li se zaregistrovat nebo přihlásit, zadejte:
 
-    ```bash
-    adguardvpn-cli login
-    ```
+   ```bash
+   adguardvpn-cli login
+   ```
 
 2. Připojte se k VPN
 
-    U routerů Keenetic nezapomeňte před připojením importovat certifikát SSL a vybrat složku pro uživatelský adresář spuštěním tohoto příkazu:
+   U routerů Keenetic nezapomeňte před připojením importovat certifikát SSL a vybrat složku pro uživatelský adresář spuštěním tohoto příkazu:
 
-    ```bash
-    export SSL_CERT_FILE=/opt/etc/ssl/certs/ca-certificates.crt
-    export HOME=/opt/home/admin
-    ```
+   ```bash
+   export SSL_CERT_FILE=/opt/etc/ssl/certs/ca-certificates.crt
+   export HOME=/opt/home/admin
+   ```
 
-    To je třeba provést před každou relací.
+   To je třeba provést před každou relací.
 
-    Vyberte si umístění serveru VPN, které nejlépe vyhovuje vašim potřebám.
+   Vyberte si umístění serveru VPN, které nejlépe vyhovuje vašim potřebám.
 
-    Obecně platí, že čím blíže je server, tím rychlejší je připojení.
+   Obecně platí, že čím blíže je server, tím rychlejší je připojení.
 
-    Chcete-li zobrazit dostupná umístění, zadejte:
+   Chcete-li zobrazit dostupná umístění, zadejte:
 
-    ```bash
-    adguardvpn-cli list-locations
-    ```
+   ```bash
+   adguardvpn-cli list-locations
+   ```
 
-    Chcete-li se připojit k určitému umístění, zadejte:
+   Chcete-li se připojit k určitému umístění, zadejte:
 
-    ```bash
-    adguardvpn-cli connect -l LOCATION_NAME
-    ```
+   ```bash
+   adguardvpn-cli connect -l LOCATION_NAME
+   ```
 
-    Nahraďte LOCATION_NAME kódem města, země nebo ISO kódem umístění, ke kterému se chcete připojit.
+   Nahraďte LOCATION_NAME kódem města, země nebo ISO kódem umístění, ke kterému se chcete připojit.
 
-    Pro rychlé připojení zadejte:
+   Pro rychlé připojení zadejte:
 
-    ```bash
-    adguardvpn-cli connect
-    ```
+   ```bash
+   adguardvpn-cli connect
+   ```
 
-    AdGuard VPN vybere umístění s nejnižší odezvou a zapamatuje si ho pro budoucí rychlá připojení.
+   AdGuard VPN vybere umístění s nejnižší odezvou a zapamatuje si ho pro budoucí rychlá připojení.
 
 3. Upravte nastavení
 
-    Získejte seznam všech dostupných příkazů AdGuard VPN a přizpůsobte klienta VPN svým potřebám.
+   Získejte seznam všech dostupných příkazů AdGuard VPN a přizpůsobte klienta VPN svým potřebám.
 
-    Chcete-li zobrazit všechny příkazy, zadejte:
+   Chcete-li zobrazit všechny příkazy, zadejte:
 
-    ```bash
-    adguardvpn-cli --help-all
-    ```
+   ```bash
+   adguardvpn-cli --help-all
+   ```
 
 4. Na dotaz "Chcete nastavit výchozí trasy v režimu TUN?" zadejte `yes`
 
@@ -228,36 +228,36 @@ Tento krok slouží ke konfiguraci pravidel brány firewall na routeru Keenetic 
 
 1. **Nainstalujte `iptables` spuštěním tohoto příkazu přes SSH:**
 
-    ```bash
-    opkg install iptables
-    ```
+   ```bash
+   opkg install iptables
+   ```
 
-    Tento řádek nainstaluje balíček `iptables` což je nástroj pro správu pravidel filtrování síťových paketů v systémech Linux.
+   Tento řádek nainstaluje balíček `iptables` což je nástroj pro správu pravidel filtrování síťových paketů v systémech Linux.
 
 2. **Nový shell skript vytvoříte spuštěním následujícího příkazu:**
 
-    ```bash
+   ```bash
 
-    cat << 'EOF' > /opt/etc/ndm/netfilter.d/001-adguardvpn.sh
-    #!/opt/bin/sh
-    for ipt in iptables ip6tables; do
-        $ipt -D FORWARD -j ADGUARD_FORWARD || true
-        $ipt -F ADGUARD_FORWARD || true
-        $ipt -X ADGUARD_FORWARD || true
-        $ipt -N ADGUARD_FORWARD
-        $ipt -I FORWARD -j ADGUARD_FORWARD
-        $ipt -A ADGUARD_FORWARD -i br0 -o tun0 -j ACCEPT
-    done
-    EOF
-    ```
+   cat << 'EOF' > /opt/etc/ndm/netfilter.d/001-adguardvpn.sh
+   #!/opt/bin/sh
+   for ipt in iptables ip6tables; do
+       $ipt -D FORWARD -j ADGUARD_FORWARD || true
+       $ipt -F ADGUARD_FORWARD || true
+       $ipt -X ADGUARD_FORWARD || true
+       $ipt -N ADGUARD_FORWARD
+       $ipt -I FORWARD -j ADGUARD_FORWARD
+       $ipt -A ADGUARD_FORWARD -i br0 -o tun0 -j ACCEPT
+   done
+   EOF
+   ```
 
-    A zajistěte, aby byl spustitelný:
+   A zajistěte, aby byl spustitelný:
 
-    ```bash
-    chmod +x /opt/etc/ndm/netfilter.d/001-adguardvpn.sh
-    ```
+   ```bash
+   chmod +x /opt/etc/ndm/netfilter.d/001-adguardvpn.sh
+   ```
 
-    Pokud máte více rozhraní brX, nezapomeňte je také zahrnout do skriptu a směrovat jejich přenosy. Případně pro tato rozhraní zadejte jiné pravidlo směrování.
+   Pokud máte více rozhraní brX, nezapomeňte je také zahrnout do skriptu a směrovat jejich přenosy. Případně pro tato rozhraní zadejte jiné pravidlo směrování.
 
 Tím se vytvoří nový shell skript s názvem `001-adguardvpn.sh` v adresáři `/opt/etc/ndm/netfilter.d/` , kde jsou obvykle uloženy skripty související se sítí v routeru Keenetic.
 

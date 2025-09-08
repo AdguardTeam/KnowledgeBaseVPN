@@ -17,17 +17,17 @@ Tato možnost je k dispozici pouze v případě, že máte předplatné AdGuard 
 
 2. V části _Zařízení_ klikněte na _Přidat router_.
 
-    ![Add router \*mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/general/2_year.jpg)
+   ![Add router \*mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/general/2_year.jpg)
 
 3. Vyberte požadované umístění serveru VPN a vygenerujte přihlašovací údaje.
 
-    ![Generate credentials \*mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/general/configure_router.png)
+   ![Generate credentials \*mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/general/configure_router.png)
 
-    :::note
+   :::note
 
-    Další kroky se mohou lišit v závislosti na vašem routeru. Jako příklad jsme použili router Keenetic.
+   Další kroky se mohou lišit v závislosti na vašem routeru. Jako příklad jsme použili router Keenetic.
 
-    :::
+   :::
 
 4. Na stránce administrátora přejděte do nastavení routeru.
 
@@ -37,7 +37,7 @@ Tato možnost je k dispozici pouze v případě, že máte předplatné AdGuard 
 
 7. Zadejte přihlašovací údaje, které jste vytvořili v kroku 3.
 
-    ![Enter the credentials \*mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/general/vpn_connection.jpg)
+   ![Enter the credentials \*mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/general/vpn_connection.jpg)
 
 8. Připojte zařízení k routeru.
 
@@ -50,5 +50,5 @@ Pokud chcete změnit umístění serveru VPN, musíte aktualizovat nastavení ro
 ## Routery o kterých je známo, že nejsou kompatibilní s AdGuard VPN
 
 - **ASUS**
-    - IPsec je pouze v nastavení _VPN serveru_ a ne ve správném nastavení _VPN Fusion_/_VPN Client_
+  - IPsec je pouze v nastavení _VPN serveru_ a ne ve správném nastavení _VPN Fusion_/_VPN Client_
 - **FRITZ!Box**
