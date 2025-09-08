@@ -108,9 +108,13 @@ All logs are stored locally on your device, and you can send them to the support
 
 This feature encrypts your traffic in a way that even quantum computers can’t intercept it.
 
-##### Use QUIC
+##### AdGuard VPN protocol
 
-This is an experimental feature that enables AdGuard to use the advanced QUIC encryption protocol. It has many advantages, but the most notable one is that it can improve connection quality under non-ideal conditions, for example, when using mobile Internet or when connecting to public Wi-Fi networks.
+![Select VPN protocol *border](https://cdn.adtidy.org/content/release_notes/vpn/windows/v2.7/auto_en.png)
+
+By default, AdGuard VPN protocol uses dynamic VPN protocol selection (*Auto-select* option). That means that AdGuard VPN automatically figures out which protocol — HTTP2/TLS or HTTP3/QUIC — will give you the best performance and switches to it instantly. This improves VPN speed and stability, which is particularly helpful in regions where VPN usage is restricted or unreliable.
+
+If you wish, using this setting you can switch AdGuard VPN to use only HTTP2/TLS or HTTP3/QUIC protocol instead of Auto-select. Each protocol has its strengths, but the best choice can vary depending on your location, network conditions, and even the server you connect to.
 
 ##### Use WinTun
 
