@@ -152,7 +152,7 @@ This option can be used to send the app’s logs and system info to our support 
 
 This option lets you export technical information that can be useful in solving problems and is sometimes requested by our support and developers.
 
-#### AdGuard VPN protocol 
+#### AdGuard VPN protocol
 
 ![Select VPN protocol *mobile_border](https://cdn.adtidy.org/content/release_notes/vpn/ios/v2.8/Auto_EN.PNG)
 
