@@ -158,7 +158,7 @@ This option lets you export technical information that can be useful in solving 
 
 By default, AdGuard VPN protocol uses dynamic VPN protocol selection (*Auto-select* option). That means that AdGuard VPN automatically figures out which protocol — HTTP2/TLS or HTTP3/QUIC — will give you the best performance and switches to it instantly. This improves VPN speed and stability, which is particularly helpful in regions where VPN usage is restricted or unreliable.
 
-If you wish, using this setting you can switch AdGuard VPN to use only HTTP2/TLS or HTTP3/QUIC protocol instead of Auto-select. Each protocol has its strengths, but the best choice can vary depending on your location, network conditions, and even the server you connect to.
+If you wish, you can switch AdGuard VPN to use only HTTP2/TLS or HTTP3/QUIC protocol instead of *Auto-select*. Each protocol has its strengths, but the best choice can vary depending on your location, network conditions, and even the server you connect to.
 
 ### Send technical and interaction data
 
