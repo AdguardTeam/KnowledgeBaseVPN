@@ -17,7 +17,7 @@ Ardından, SKLS ve Gizlilik politikasının şartlarını kabul etmek için kutu
 
 Windows 7 users won’t find a compatible app version in the download section of the AdGuard VPN website, as it’s no longer supported in the latest releases.
 
-However, you still can [download an older, compatible version](https://agrd.io/adguard_vpn_for_win7).
+Ancak, yine de [daha eski ve uyumlu bir sürümü indirebilirsiniz](https://agrd.io/adguard_vpn_for_win7).
 
 ## Windows için AdGuard VPN kaldırma
 

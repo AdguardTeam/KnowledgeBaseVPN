@@ -42,7 +42,7 @@ Günlük tutmama politikası, kullanıcıların kişisel verilerini toplamadığ
 
 Herhangi bir kullanıcıdan gelen web trafiği ilginizi çekebilir ve özellikle kişisel verilerden para kazanma açısından değerlidir. Hem suçlular hem de vicdansız İSS'ler buna erişebilir. Ancak, güvenilir bir VPN ile, ne sağlayıcınızın ne de başka birinin internet etkinliğinizi görmeyeceğinden emin olabilirsiniz.
 
-### Ultra-fast VPN servers in 64 countries
+### 64 ülkede aşırı hızlı VPN sunucuları
 
 - Arjantin
 - Avustralya
@@ -53,55 +53,55 @@ Herhangi bir kullanıcıdan gelen web trafiği ilginizi çekebilir ve özellikle
 - Kamboçya
 - Kanada
 - Şili
-- China
-- Colombia
-- Croatia
-- Cyprus
-- Czechia
-- Denmark
-- Egypt
-- Estonia
-- Finland
-- France
-- Germany
-- Greece
+- Çin
+- Kolombiya
+- Hırvatistan
+- Kıbrıs
+- Çekya
+- Danimarka
+- Mısır
+- Estonya
+- Finlandiya
+- Fransa
+- Almanya
+- Yunanistan
 - Hong Kong
-- Hungary
-- Iceland
-- Indiaᵛ
-- Indonesia
-- Iranᵛ
-- Ireland
-- Israel
-- Italy
-- Japan
-- Kazakhstan
-- Latvia
-- Lithuania
-- Luxembourg
-- Mexico
+- Macaristan
+- İzlanda
+- Hindistanᵛ
+- Endonezya
+- İranᵛ
+- İrlanda
+- İsrail
+- İtalya
+- Japonya
+- Kazakistan
+- Letonya
+- Litvanya
+- Lüksemburg
+- Meksika
 - Moldova
 - Nepal
-- Netherlands
-- New Zealand
-- Nigeria
-- Norway
+- Hollanda
+- Yeni Zelanda
+- Nijerya
+- Norveç
 - Peru
-- Philippines
-- Poland
-- Portugal
-- Romania
-- Russiaᵛ
-- Serbia
-- Singapore
-- Slovakia
-- South Africa
-- South Korea
+- Filipinler
+- Polonya
+- Portekiz
+- Romanya
+- Rusyaᵛ
+- Sırbistan
+- Singapur
+- Slovakya
+- Güney Afrika
+- Güney Kore
 - Spain
 - Sweden
 - Switzerland
 - Taiwan
-- Thailand
+- Tayland
 - Turkey
 - Ukraine
 - United Arab Emirates
@@ -109,4 +109,4 @@ Herhangi bir kullanıcıdan gelen web trafiği ilginizi çekebilir ve özellikle
 - United States of America
 - Vietnam
 
-ᵛ = “Virtual” servers. This is due to very heavy state censorship in the countries that these servers are intended to cover.
+ᵛ = “Sanal” sunuculardır. Bunun nedeni, bu sunucuların kapsaması amaçlanan ülkelerdeki çok ağır devlet sansürüdür.
