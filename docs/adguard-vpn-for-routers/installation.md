@@ -1,5 +1,5 @@
 ---
-title: Installation and removal
+title: Installation
 sidebar_position: 2
 ---
 
@@ -62,7 +62,7 @@ You’ll need to update your router settings if you want to change the VPN serve
 
 To set up AdGuard VPN on your MikroTik router, follow these steps:
 
-1. Access the MikroTik terminal. You can do this by using the command line or Terminal app on your computer or Mac with the command: `ssh admin@192.168.88.1`. You can also access it through your browser by visiting `http://192.168.88.1` and clicking on the Terminal tab in the upper right corner.
+1. Open the MikroTik terminal. You can do this by using the command line or Terminal on your computer and entering: `ssh admin@192.168.88.1`. Alternatively, you can also access it through your browser by visiting `http://192.168.88.1` and clicking on the Terminal tab in the upper right corner.
 
 1. Once you’re in, run the following commands:
 
@@ -96,7 +96,11 @@ To set up AdGuard VPN on your MikroTik router, follow these steps:
 
 In the commands above, `SERVER_ADDRESS` indicates the server address. `USERNAME` is the username that you were assigned when adding your router in your AdGuard account. The same goes for `PASSWORD`.
 
+:::note
+
 Please note, these commands should be executed exactly as they are.
+
+:::
 
 ## Installation on Keenetic routers
 
@@ -115,7 +119,3 @@ You can configure AdGuard VPN on Keenetic routers starting from KeeneticOS 3.5. 
 1. Once the connection is established, toggle the switch to *Enabled*. The status of this connection will be displayed on the same page.
 
 1. Assign the highest priority to this connection. Drag the created VPN connection profile to the top of the list.
-
-## Uninstall AdGuard VPN for routers
-
-To uninstall AdGuard VPN, type:
