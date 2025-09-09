@@ -1,5 +1,5 @@
 ---
-title: What is PSY (Pre-shared key)
+title: What is PSK (Pre-shared key)
 sidebar_position: 2
 ---
 
