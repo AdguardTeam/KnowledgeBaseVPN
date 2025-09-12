@@ -3,9 +3,15 @@ title: Kompatibilität mit AdGuard Werbeblocker
 sidebar_position: 3
 ---
 
-Standardmäßig ist bei AdGuard VPN der VPN-Betriebsmodus aktiviert, der das eigene [AdGuard VPN-Protokoll](/general/adguard-vpn-protocol) verwendet. Es bietet die beste Kombination aus Verbindungsgeschwindigkeit und Sicherheit. In diesem Betriebsmodus können AdGuard VPN und AdGuard Werbeblocker jedoch nicht gleichzeitig arbeiten. Der Kompatibilitätsmodus wiederum verwendet das IPsec-Protokoll, das die Zusammenarbeit der AdGuard-Apps ermöglicht. Wenn Sie bei der Installation von AdGuard VPN bereits über AdGuard Werbeblocker verfügen, wird dieser Modus automatisch aktiviert und ermöglicht Ihnen die gleichzeitige Nutzung unserer Apps. Wenn Sie zuerst AdGuard VPN installiert haben und sich erst dann entschieden haben, AdGuard Werbeblocker auszuprobieren, folgen Sie diesen Schritten:
+Standardmäßig ist bei AdGuard VPN der VPN-Betriebsmodus aktiviert, der das eigene [AdGuard VPN-Protokoll](/general/adguard-vpn-protocol) verwendet. Es bietet die beste Kombination aus Verbindungsgeschwindigkeit und Sicherheit. In diesem Betriebsmodus können AdGuard VPN und AdGuard Werbeblocker jedoch nicht gleichzeitig arbeiten. The Integrated mode, in turn, uses a special internal protocol, which makes it possible for the two apps to work together.
 
-1. Öffnen Sie AdGuard VPN für Android und wählen Sie das Zahnradsymbol unten rechts auf dem Bildschirm aus.
+### How to enable Integrated mode
+
+If you have AdGuard Ad Blocker, Integrated Mode will turn on automatically when you install AdGuard VPN, allowing you to use both apps at the same time.
+
+If you are installing AdGuard Ad Blocker after AdGuard VPN, follow these steps to use them together:
+
+1. Open AdGuard VPN for Android and tap the gear icon in the bottom-right corner of the screen.
 
 2. Öffnen Sie die *Erweiterte Einstellungen* und wählen Sie *Betriebsmodus*.
 

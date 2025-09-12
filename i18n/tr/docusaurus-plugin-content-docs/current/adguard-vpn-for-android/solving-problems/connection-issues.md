@@ -11,11 +11,11 @@ AdGuard VPN belirli bir Wi-Fi ağında düzgün şekilde çalışmıyorsa:
 
 1. Yönlendirici ayarlarını ve etkin hizmetleri kontrol edin. Some of them may interfere with AdGuard VPN:
 
-    - Diğer VPN'ler (aynı anda çalışan)
-    - Güvenlik duvarları (VPN trafiğini engelleyen)
-    - Ağ filtreleri (örneğin, Keenetic yönlendiricilerdeki yerleşik internet filtreleri, ayrıntılar için [üreticinin kılavuzuna](https://help.keenetic.com/hc/en-us/articles/4415711575698-Content-filtering-and-ad-blocking-options) bakın)
+   - Diğer VPN'ler (aynı anda çalışan)
+   - Güvenlik duvarları (VPN trafiğini engelleyen)
+   - Ağ filtreleri (örneğin, Keenetic yönlendiricilerdeki yerleşik internet filtreleri, ayrıntılar için [üreticinin kılavuzuna](https://help.keenetic.com/hc/en-us/articles/4415711575698-Content-filtering-and-ad-blocking-options) bakın)
 
-2. Disable conflicting services and settings
+2. Çakışan hizmetleri ve ayarları devre dışı bırakın
 
 3. Yönlendiricinizi yeniden başlatın ve AdGuard VPN'i yeniden açın
 

@@ -65,7 +65,7 @@ Now **link your new account to the App Store**:
 
 4. Enter the email address and password for your new account.
 
-   ![Login \*mobile\_border](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/apple_id.png)
+   ![Login \*mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/apple_id.png)
 
 That’s it! Now try to [download AdGuard VPN from the App Store](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602) again.
 

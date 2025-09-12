@@ -31,9 +31,9 @@ By default, OpenWrt allows SSH access to the router.
 
 1. Komut İstemi'ni açın:
 
-    ```text
-    ipconfig
-    ```
+   ```text
+   ipconfig
+   ```
 
 2. Etkin ağ bağlantınızın altında _Varsayılan Ağ Geçidi_ öğesini arayın. Bu, yönlendiricinizin IP adresidir.
 
@@ -41,15 +41,15 @@ By default, OpenWrt allows SSH access to the router.
 
 1. Terminal'i açın ve Linux'ta şunu çalıştırın:
 
-    ```text
-    ip route | grep default
-    ```
+   ```text
+   ip route | grep default
+   ```
 
-    Or this on Mac:
+   Or this on Mac:
 
-    ```text
-    route -n get default
-    ```
+   ```text
+   route -n get default
+   ```
 
 2. _Varsayılan_ girişi arayın. Yanındaki IP adresi ise yönlendiricinizin IP adresidir.
 
@@ -65,21 +65,21 @@ By default, OpenWrt allows SSH access to the router.
 
 2. SSH komutunu çalıştırın:
 
-    ```text
-    ssh root@192.168.1.1
-    ```
+   ```text
+   ssh root@192.168.1.1
+   ```
 
-    `192.168.1.1` kısmını yönlendiricinizin IP adresiyle değiştirin.
+   `192.168.1.1` kısmını yönlendiricinizin IP adresiyle değiştirin.
 
 3. If this is your first time connecting to the router via SSH, you’ll see a message like:
 
-    ```text
-    The authenticity of host '192.168.1.1 (192.168.1.1)' can't be established.
-    ECDSA key fingerprint is SHA256: ...
-    Are you sure you want to continue connecting? (Yes/No/[Fingerprint])
-    ```
+   ```text
+   The authenticity of host '192.168.1.1 (192.168.1.1)' can't be established.
+   ECDSA key fingerprint is SHA256: ...
+   Are you sure you want to continue connecting? (Yes/No/[Fingerprint])
+   ```
 
-    `Evet` yazın ve Enter tuşuna basın.
+   `Evet` yazın ve Enter tuşuna basın.
 
 4. İstendiğinde yönlendiricinin parolasını girin. OpenWrt için varsayılan parola genellikle boştur (sadece Enter tuşuna basın), ancak ilk kurulum sırasında bir parola ayarlamış olmalısınız.
 
@@ -127,114 +127,114 @@ curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/sc
 
 1. Hesabınıza giriş yapın
 
-    Linux için AdGuard VPN'i kullanmak için bir AdGuard hesabına ihtiyacınız vardır.
+   Linux için AdGuard VPN'i kullanmak için bir AdGuard hesabına ihtiyacınız vardır.
 
-    [Sitemizden](https://auth.adguardaccount.com/login.html) veya Terminal'den kaydolabilir veya giriş yapabilirsiniz.
+   [Sitemizden](https://auth.adguardaccount.com/login.html) veya Terminal'den kaydolabilir veya giriş yapabilirsiniz.
 
-    Kaydolmak veya giriş yapmak için şunu yazın:
+   Kaydolmak veya giriş yapmak için şunu yazın:
 
-    ```jsx
-    adguardvpn-cli login
-    ```
+   ```jsx
+   adguardvpn-cli login
+   ```
 
-    Not: İkili dosyayı `/usr/local/bin` dizinine bağlayamadıysanız, tüm komutları çalıştırmak için tam dosya yolunu kullanın. Örneğin, `/opt/adguardvpn_cli/adguardvpn-cli login`
+   Not: İkili dosyayı `/usr/local/bin` dizinine bağlayamadıysanız, tüm komutları çalıştırmak için tam dosya yolunu kullanın. Örneğin, `/opt/adguardvpn_cli/adguardvpn-cli login`
 
 2. VPN'e bağlanın
 
-    İhtiyaçlarınıza en uygun VPN sunucu konumunu seçin.
+   İhtiyaçlarınıza en uygun VPN sunucu konumunu seçin.
 
-    Genel olarak, sunucu size ne kadar yakınsa bağlantı o kadar hızlı olur.
+   Genel olarak, sunucu size ne kadar yakınsa bağlantı o kadar hızlı olur.
 
-    Mevcut konumları görüntülemek için şunu yazın:
+   Mevcut konumları görüntülemek için şunu yazın:
 
-    ```jsx
-    adguardvpn-cli list-locations
-    ```
+   ```jsx
+   adguardvpn-cli list-locations
+   ```
 
-    Belirli bir konuma bağlanmak için şunu yazın:
+   Belirli bir konuma bağlanmak için şunu yazın:
 
-    ```jsx
-    adguardvpn-cli connect -l LOCATION_NAME
-    ```
+   ```jsx
+   adguardvpn-cli connect -l LOCATION_NAME
+   ```
 
-    LOCATION_NAME yerine bağlanmak istediğiniz konumun şehri, ülkesi veya ISO koduyla değiştirin.
+   LOCATION_NAME yerine bağlanmak istediğiniz konumun şehri, ülkesi veya ISO koduyla değiştirin.
 
-    Hızlı bağlantı için şunu yazın:
+   Hızlı bağlantı için şunu yazın:
 
-    ```jsx
-    adguardvpn-cli connect
-    ```
+   ```jsx
+   adguardvpn-cli connect
+   ```
 
-    AdGuard VPN, mevcut en hızlı konumu seçer ve gelecekteki hızlı bağlantılar için bunu hatırlar.
+   AdGuard VPN, mevcut en hızlı konumu seçer ve gelecekteki hızlı bağlantılar için bunu hatırlar.
 
 3. Ayarlarınızı düzenleyin
 
-    Mevcut tüm AdGuard VPN komutlarının bir listesini alın ve VPN istemcisini ihtiyaçlarınıza göre özelleştirin.
+   Mevcut tüm AdGuard VPN komutlarının bir listesini alın ve VPN istemcisini ihtiyaçlarınıza göre özelleştirin.
 
-    Tüm komutları görüntülemek için şunu yazın:
+   Tüm komutları görüntülemek için şunu yazın:
 
-    ```jsx
-    adguardvpn-cli --help-all
-    ```
+   ```jsx
+   adguardvpn-cli --help-all
+   ```
 
-    AdGuard VPN CLI, VPN tünellemesi için bir tun0 arayüzü oluşturur.
+   AdGuard VPN CLI, VPN tünellemesi için bir tun0 arayüzü oluşturur.
 
 <!-- comment -->
 
-## 6. Set up firewall rules
+## 6. Güvenlik duvarı kurallarını ayarlama
 
 Bunu web arayüzünden veya komut satırından yapabilirsiniz. Aşağıdaki adımlar SSH komut satırı üzerinden ayarlamayı açıklamaktadır.
 
 1. Add a new unmanaged interface via SSH
 
-    ```shell
-    ssh admin@router_ip
-    uci set network.tun0='interface'
-    uci set network.tun0.proto='none'
-    uci set network.tun0.device='tun0'
-    uci commit network
-    /etc/init.d/network reload
-    ```
+   ```shell
+   ssh admin@router_ip
+   uci set network.tun0='interface'
+   uci set network.tun0.proto='none'
+   uci set network.tun0.device='tun0'
+   uci commit network
+   /etc/init.d/network reload
+   ```
 
 2. Add tun0 to WAN zone
 
-    Trafiğin VPN üzerinden geçmesi için WAN bölgesine tun0'ı ekleyin.
-    İnternete bağlanan WAN arayüzü tipik olarak `wan` ya da benzer bir adla anılan bir bölgede yer alır. Hangi bölgenin WAN arayüzüyle ilişkili olduğunu öğrenmek için yönlendiricinizin yapılandırma dosyalarını veya güvenlik duvarı ayarlarını kontrol edin.
+   Trafiğin VPN üzerinden geçmesi için WAN bölgesine tun0'ı ekleyin.
+   İnternete bağlanan WAN arayüzü tipik olarak `wan` ya da benzer bir adla anılan bir bölgede yer alır. Hangi bölgenin WAN arayüzüyle ilişkili olduğunu öğrenmek için yönlendiricinizin yapılandırma dosyalarını veya güvenlik duvarı ayarlarını kontrol edin.
 
-    Bunu yapmak için mevcut güvenlik duvarı bölgelerini listeleyin:
+   Bunu yapmak için mevcut güvenlik duvarı bölgelerini listeleyin:
 
-    ```shell
-    uci show firewall
-    ```
+   ```shell
+   uci show firewall
+   ```
 
-    Bu, tüm bölgelerin listelendiği bir yapılandırma dosyası gönderir. `firewall.@zone[1]` veya benzeri bir bölümde `option name 'wan'` tanımlı olanı arayın. Yapılandırmanıza bağlı olarak `[1]` sayısı farklı olabilir.
+   Bu, tüm bölgelerin listelendiği bir yapılandırma dosyası gönderir. `firewall.@zone[1]` veya benzeri bir bölümde `option name 'wan'` tanımlı olanı arayın. Yapılandırmanıza bağlı olarak `[1]` sayısı farklı olabilir.
 
-    Run this SSH command, replace `zone[1]` with correct `wan` zone identified before:
+   Run this SSH command, replace `zone[1]` with correct `wan` zone identified before:
 
-    ```shell
-    uci show firewall | grep "=zone"
-    uci add_list firewall.@zone[1].network='tun0'
-    uci commit firewall
-    /etc/init.d/firewall reload
-    ```
+   ```shell
+   uci show firewall | grep "=zone"
+   uci add_list firewall.@zone[1].network='tun0'
+   uci commit firewall
+   /etc/init.d/firewall reload
+   ```
 
-    VPN tarafından korunmayan tüm trafiği devre dışı bırakmak istiyorsanız, aşağıdaki komutu çalıştırın. Bu şekilde, VPN bağlantısı kesilirse internet bağlantınız hiç olmaz. Bu adımı yapmamayı seçerseniz, VPN bağlantısı kesilirse gerçek IP'niz açığa çıkacaktır.
+   VPN tarafından korunmayan tüm trafiği devre dışı bırakmak istiyorsanız, aşağıdaki komutu çalıştırın. Bu şekilde, VPN bağlantısı kesilirse internet bağlantınız hiç olmaz. Bu adımı yapmamayı seçerseniz, VPN bağlantısı kesilirse gerçek IP'niz açığa çıkacaktır.
 
-    ```shell
-    uci del_list firewall.@zone[1].network='wan'
-    uci del_list firewall.@zone[1].network='wan6'
-    uci commit firewall
-    /etc/init.d/firewall reload
-    ```
+   ```shell
+   uci del_list firewall.@zone[1].network='wan'
+   uci del_list firewall.@zone[1].network='wan6'
+   uci commit firewall
+   /etc/init.d/firewall reload
+   ```
 
-    Fikrinizi değiştirdiyseniz ve doğrudan trafiğe izin vermek istiyorsanız, aşağıdaki komutu çalıştırın:
+   Fikrinizi değiştirdiyseniz ve doğrudan trafiğe izin vermek istiyorsanız, aşağıdaki komutu çalıştırın:
 
-    ```shell
-    uci add_list firewall.@zone[1].network='wan'
-    uci add_list firewall.@zone[1].network='wan6'
-    uci commit firewall
-    /etc/init.d/firewall reload
-    ```
+   ```shell
+   uci add_list firewall.@zone[1].network='wan'
+   uci add_list firewall.@zone[1].network='wan6'
+   uci commit firewall
+   /etc/init.d/firewall reload
+   ```
 
 <!-- comment -->
 

@@ -18,18 +18,18 @@ Pokud chcete podpořit zavedení nové funkce nebo opravu chyby, můžete pro to
 
 1. Zapněte protokolování ladění zadáním:
 
-    `adguardvpn-cli config set-debug-logging on`
+   `adguardvpn-cli config set-debug-logging on`
 
 2. Reprodukujte problém a pokuste se zapamatovat si přesný čas, kdy k němu došlo.
 
 3. Chvíli počkejte a poté zadáním příkazu archivujte záznamy ve složce _Downloads_ nebo _Home_:
 
-    `adguardvpn-cli export-logs`
+   `adguardvpn-cli export-logs`
 
-    Protokoly budou ve výchozím nastavení staženy do složky aplikace, cesta k protokolům bude zapsána v konzoli.
+   Protokoly budou ve výchozím nastavení staženy do složky aplikace, cesta k protokolům bude zapsána v konzoli.
 
 4. Odešlete soubor se záznamem na <devteam@adguard.com>. Uveďte čas chyby a připojte odkaz na problém nebo jeho číslo na GitHubu (zobrazuje se jako #číslo vedle názvu). Soubor se záznamem můžete také nahrát na Disk Google a odeslat jej na <devteam@adguard.com>. Přiložte odkaz na soubor do svého problému na GitHubu.
 
 5. Vypněte protokolování ladění zadáním:
 
-    `adguardvpn-cli config set-debug-logging off`
+   `adguardvpn-cli config set-debug-logging off`
