@@ -13,6 +13,6 @@ This option is only available if you have an AdGuard VPN subscription and your r
 
 Below are the main articles to help you get started and solve common issues:
 
-- [Installation and removal](/adguard-vpn-for-routers/installation)
+- [Installation](/adguard-vpn-for-routers/installation)
 - [Connection issue](/adguard-vpn-for-routers/solving-problems/connection-issue)
 - [Pre-shared key](/adguard-vpn-for-routers/solving-problems/pre-shared-key)
