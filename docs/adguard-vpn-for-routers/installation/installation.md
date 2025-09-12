@@ -22,7 +22,7 @@ There are two main ways to run AdGuard VPN on a router:
 1. IPSec profile
 
     - Easy to set up, supported by many routers
-    - Limitations: not available in Russia, only a limited number of VPN locations, and no support for exclusions
+    - Limitations: not available in Russia, only a limited number of VPN locations (USA, Germany, UK, Netherlands, Finland), and no support for exclusions
 
 1. [AdGuard VPN CLI](/adguard-vpn-for-linux/setting-up-on-a-router)
 
@@ -57,9 +57,15 @@ The next steps may vary depending on your router. We have used the Keenetic rout
 1. Go to the router settings
 1. Enable *VPN Client* and click *Add VPN server*
 1. Select IPsec-client (for some router brands, it may be called IKEv2; not L2TP/IPsec)
-1. Enter the credentials you’ve created
+1. Enter the credentials you’ve created.
 
     ![Enter the credentials *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/general/vpn_connection.jpg)
+
+    :::note
+
+    In the *server address* field, enter the *IP address* from your AdGuard account.
+
+    :::
 
 1. Connect devices to your router.
 
