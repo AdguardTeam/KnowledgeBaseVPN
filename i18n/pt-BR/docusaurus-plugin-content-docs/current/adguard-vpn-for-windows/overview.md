@@ -108,19 +108,23 @@ All logs are stored locally on your device, and you can send them to the support
 
 This feature encrypts your traffic in a way that even quantum computers can’t intercept it.
 
-##### Use QUIC
+##### AdGuard VPN protocol
 
-This is an experimental feature that enables AdGuard to use the advanced QUIC encryption protocol. It has many advantages, but the most notable one is that it can improve connection quality under non-ideal conditions, for example, when using mobile Internet or when connecting to public Wi-Fi networks.
+![Select VPN protocol *border](https://cdn.adtidy.org/content/release_notes/vpn/windows/v2.7/auto_en.png)
 
-##### Use WinTun
+By default, AdGuard VPN protocol uses dynamic VPN protocol selection (*Auto-select* option). That means that AdGuard VPN automatically figures out which protocol — HTTP2/TLS or HTTP3/QUIC — will give you the best performance and switches to it instantly. This improves VPN speed and stability, which is particularly helpful in regions where VPN usage is restricted or unreliable.
 
-WinTun is a traffic routing driver commonly used for VPN implementations on Windows that improves the quality of VPN connections by creating a virtual network adapter. By default AdGuard VPN uses the regular WFP driver (and TDI driver for Windows 7).
+If you wish, you can switch AdGuard VPN to use only HTTP2/TLS or HTTP3/QUIC protocol instead of *Auto-select*. Each protocol has its strengths, but the best choice can vary depending on your location, network conditions, and even the server you connect to.
 
-#### Subnet exclusions
+##### Usar WinTun
 
-This feature allows you to add subnets to exclude traffic from specific devices connected to your network. For example, your robot vacuum cleaner.
+O WinTun é um driver de roteamento de tráfego comumente usado para implementações de VPN no Windows que melhora a qualidade das conexões VPN criando um adaptador de rede virtual. Por padrão, o AdGuard VPN usa o driver WFP regular (e o driver TDI para Windows 7).
 
-## Other tabs
+#### Exclusões de sub-rede
+
+Este recurso permite adicionar sub-redes para excluir tráfego de dispositivos específicos conectados à sua rede. Por exemplo, seu aspirador de pó robô.
+
+## Outras guias
 
 ### Sobre
 
@@ -130,6 +134,6 @@ The **About** tab provides information about the current version of AdGuard VPN 
 
 Here you can find information about your license status, as well as a link to your personal AdGuard account, where you can manage your current subscriptions and purchase new ones.
 
-## Support
+## Suporte
 
-This tab is aimed to solve users’ questions: there you can find a link to the FAQ page, report a bug or leave feedback, and export logs if the support team asks you to.
+Esta guia visa solucionar as dúvidas dos usuários: lá você encontra um link para a página de perguntas frequentes, relata um bug ou deixa um feedback e exporta logs se a equipe de suporte solicitar.
