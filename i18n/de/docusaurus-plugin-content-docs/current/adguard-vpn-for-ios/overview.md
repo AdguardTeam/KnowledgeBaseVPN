@@ -152,6 +152,14 @@ Mit dieser Option können Sie die Protokolle und Systeminformationen der App an 
 
 Mit dieser Option können Sie technische Informationen exportieren, die bei der Lösung von Problemen nützlich sein können und manchmal von unserem Support und unseren Entwicklern angefordert werden.
 
+#### AdGuard VPN-Protokoll
+
+![VPN-Protokoll auswählen *mobile_border](https://cdn.adtidy.org/content/release_notes/vpn/ios/v2.8/Auto_EN.PNG)
+
+Standardmäßig verwendet das AdGuard VPN-Protokoll die dynamische VPN-Protokollauswahl (Option *Automatisch auswählen*). Das bedeutet, dass AdGuard VPN automatisch ermittelt, welches Protokoll — HTTP2/TLS oder HTTP3/QUIC — Ihnen die beste Leistung bietet, und sofort darauf umschaltet. Dies verbessert die Geschwindigkeit und Stabilität des VPN, was besonders in Regionen hilfreich ist, in denen die Nutzung von VPN eingeschränkt oder unzuverlässig ist.
+
+Wenn Sie möchten, können Sie AdGuard VPN so einstellen, dass nur das HTTP2/TLS- oder HTTP3/QUIC-Protokoll verwendet wird, anstelle der Option *Automatisch auswählen*. Jedes Protokoll hat seine Vorteile, aber die beste Wahl kann je nach Standort, Netzwerkbedingungen und dem Server, mit dem Sie sich verbinden, unterschiedlich sein.
+
 ### Technische Daten und Interaktionsdaten senden
 
 Wenn Sie diese Option aktivieren, helfen Sie uns, besser zu verstehen, wie Menschen mit der App interagieren. Wir verwenden diese Informationen, um die Benutzerfreundlichkeit zu verbessern.
