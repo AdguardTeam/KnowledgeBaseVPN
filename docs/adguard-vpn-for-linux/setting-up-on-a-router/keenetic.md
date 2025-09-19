@@ -83,7 +83,7 @@ You’ll need an SSH client. Most Linux and macOS systems come with an SSH clien
 
 ### PuTTY (Windows 8 and earlier)
 
-1. Download and install PuTTY from [the official website](https://www.putty.org/).
+1. Download and install PuTTY from [the official website](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html).
 
 1. Open PuTTY.
 
