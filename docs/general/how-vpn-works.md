@@ -71,7 +71,7 @@ Our VPN service has several important [advantages](/general/why-adguard-vpn):
 
 - [*No-logging policy*](https://adguard-vpn.com/privacy.html), which means no personal data can be shared with third parties because AdGuard VPN never collects such data
 
-- *More than 50 VPN servers in dozens of countries*
+- *More than 85 VPN servers in dozens of countries*
 
 - *Ease of use and extensive customization options*
 
