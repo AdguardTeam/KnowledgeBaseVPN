@@ -28,7 +28,7 @@ Ping, sunucunun yanıt süresini milisaniye cinsinden gösterir. Bu, o konuma ba
 
 AdGuard VPN ile onlarca ülkede 50'den fazla konum arasından seçim yapabilirsiniz.
 
-![Home and locations *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.7/home-locations-vpn-ios.png)
+![Ana sayfa ve konumlar *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.7/home-locations-vpn-ios.png)
 
 ## İstisnalar
 
@@ -87,34 +87,34 @@ Bunu dört adımda yapabilirsiniz:
 
 ![İstisnaları içe ve dışa aktarma *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/exclusions-3dot-menu.png)
 
-## Saved locations
+## Kaydedilen konumlar
 
-This feature lets you save your favorite server locations to a dedicated tab so that you can quickly access them without the need to search or scroll through the whole list.
+Bu özellik, favori sunucu konumlarınızı özel bir sekmeye kaydetmenizi sağlar, böylece tüm listeyi aramanıza veya aşağı kaydırmanıza gerek kalmadan bunlara hızlı bir şekilde erişebilirsiniz.
 
-To add a location to *Saved*, just swipe left on it. To remove it from *Saved*, do the same:
+*Kaydedilenler* öğesine bir konum eklemek için üzerinde sola kaydırmanız yeterlidir. To remove it from *Saved*, do the same:
 
 ![Saved locations add remove *mobile](https://cdn.adtidy.org/content/release_notes/vpn/ios/v2.7/iosvpn-saved-locations-add-remove.gif)
 
-## General settings
+## Genel ayarlar
 
-To open General settings:
+Genel ayarları açmak için:
 
 1. Uygulamanın ana ekranının sağ alt köşesindeki Ayarlar simgesine (⚙) dokunun.
 2. *Genel* öğesine dokunun.
 
 Here, you can configure AdGuard VPN for iOS as you need using different options: *DNS server*, *Theme*, *Advanced*, *Send technical and interaction data* and *Kill Switch*.
 
-![General settings *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/general-settings.png)
+![Genel ayarlar *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/general-settings.png)
 
 ### DNS sunucusu
 
 AdGuard VPN for iOS offers a choice between several DNS servers, each with their own special qualities. For example, AdGuard DNS removes ads and protects your device from tracking while AdGuard DNS Family Protection combines the functions of AdGuard DNS with Safe search and adult content blocking. DNS servers by different DNS providers may also work faster or slower depending on your location, ISP, and other factors. Choose the one that works best for you. You can [find out more about DNS](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns) and its characteristics.
 
-![DNS server screen *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/DNS-server.png)
+![DNS sunucusu ekranı *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/DNS-server.png)
 
 ### Tema
 
-You can set your app theme to System, Dark, or Light (available in iOS 13 or later).
+Uygulama temanızı Sistem, Koyu veya Açık (iOS 13 veya sonraki sürümlerde kullanılabilir) olarak ayarlayabilirsiniz.
 
 ### Gelişmiş ayarlar
 
@@ -136,7 +136,7 @@ In **Integrated** mode, you can’t use the Exclusions feature or choose a DNS s
 
 #### Günlük kayıt düzeyi
 
-This setting is primarily used for debugging and troubleshooting purposes. The Extended and Extreme logging levels record more detailed information that can help identify and fix various problems or bugs.
+Bu ayar öncelikle hata ayıklama ve sorun giderme amacıyla kullanılır. The Extended and Extreme logging levels record more detailed information that can help identify and fix various problems or bugs.
 
 :::caution
 
@@ -160,22 +160,22 @@ By turning this option on, you are helping us understand better how users intera
 
 If for some reason your VPN connection suddenly drops, *Kill Switch* will automatically terminate the Internet connection, making sure your data doesn’t leak and your identity stays hidden.
 
-## Quick actions
+## Hızlı eylemler
 
 Quick actions are the convenient way to do useful or any app-specific actions from the Home screen without opening an app.
 
 To access the quick actions menu, tap and hold the AdGuard VPN app icon, then lift your finger. In the opened menu, you will see AdGuard VPN’s quick actions: *Connect* (*Disconnect*) and *Select location*. You can also access all default actions like removing the app or moving or sharing the app.
 
-![Quick actions *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/quick-action-menu.png)
+![Hızlı eylemler *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/quick-action-menu.png)
 
-## Support
+## Destek
 
-The Support screen (*Settings* → *Support*) has a number of helpful features: *FAQ*, *Report a bug*, *Request a feature*, and *Rate app*. The latter allows you to rate AdGuard VPN for iOS on the App Store.
+The Support screen (*Settings* → *Support*) has a number of helpful features: *FAQ*, *Report a bug*, *Request a feature*, and *Rate app*. İkincisi, App Store'da iOS için AdGuard VPN'i derecelendirmenize olanak tanır.
 
-![Support *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/support.png)
+![Destek *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/support.png)
 
-## Subscription screen
+## Abonelik ekranı
 
 If you are using the free version of AdGuard VPN, there will be another tab with an arrow icon on the bottom tab bar. This section briefly describes the main benefits of the paid version of the app. You can choose a yearly or monthly subscription.
 
-![Subscription *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/unlimited.png)
+![Abonelik *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/unlimited.png)

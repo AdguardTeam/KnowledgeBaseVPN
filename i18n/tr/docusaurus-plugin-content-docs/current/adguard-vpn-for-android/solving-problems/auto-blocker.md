@@ -16,7 +16,7 @@ _Otomatik Engelleyici'yi_ kapatmak için talimatları izleyin.
 3. Aşağı kaydırın ve _Otomatik Engelleyici_ öğesini seçin
 4. Ayarı kapatın
 
-![Disable Auto Blocker \*mobile_border](https://cdn.adguard-vpn.com/content/kb/ad_blocker/android/solving_problems/auto-blocker/auto_blocker_en.png)
+![Otomatik Engelleyiciyi Devre Dışı Bırak \*mobile_border](https://cdn.adguard-vpn.com/content/kb/ad_blocker/android/solving_problems/auto-blocker/auto_blocker_en.png)
 
 _Otomatik Engelleyici_ devre dışı bırakıldıktan sonra AdGuard VPN'i yüklemeye devam edebilirsiniz.
 
