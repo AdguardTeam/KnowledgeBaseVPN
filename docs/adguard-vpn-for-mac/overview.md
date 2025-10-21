@@ -10,7 +10,7 @@ Still don’t have an AdGuard account? Create it [here](https://auth.adguardacco
 
 :::note Compatibility
 
-AdGuard VPN for Mac is currently supported on macOS versions starting from macOS Catalina (10.15).
+AdGuard VPN for Mac is currently supported on macOS versions starting from macOS 11 Big Sur.
 
 :::
 
