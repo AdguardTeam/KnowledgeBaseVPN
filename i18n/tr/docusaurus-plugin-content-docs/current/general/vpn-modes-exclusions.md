@@ -38,7 +38,7 @@ Her VPN modunun iki istisna listesi vardır: biri uygulamalar için ve diğeri s
 
 Dört VPN etkinliği kombinasyonu ayarlayabilirsiniz.
 
-### Setup 1
+### 1. Kurulum
 
 AdGuard VPN, uygulama ve site istisna listelerindeki uygulamalar ve siteler dışında her yerde etkindir.
 
@@ -64,7 +64,7 @@ Bir tarayıcı uygulamasını uygulama istisna listesine eklerseniz, AdGuard VPN
 
 :::
 
-### Setup 2
+### 2. Kurulum
 
 AdGuard VPN yalnızca uygulama istisna listesindeki uygulamalar için ve site istisna listesindeki siteler dışında tüm siteler için etkindir.
 
@@ -92,7 +92,7 @@ Bir tarayıcı uygulamasını uygulama istisna listesine eklemezseniz, AdGuard V
 
 :::
 
-### Setup 3
+### 3. Kurulum
 
 AdGuard VPN, uygulama istisna listesine eklenenler dışında tüm uygulamalar için ve yalnızca site istisna listesindeki siteler için etkindir.
 
@@ -122,7 +122,7 @@ Tüm uygulamalar için: ilgili alan adlarını site istisna listesine eklediğin
 
 :::
 
-### Setup 4
+### 4. Kurulum
 
 AdGuard VPN yalnızca uygulama ve site istisna listelerindeki uygulamalar ve siteler için etkindir.
 

@@ -7,7 +7,7 @@ sidebar_position: 1
 
 The main screen reflects the VPN status (Connected/Disconnected). There are also the *Connect/Disconnect* button and a list of available servers.
 
-各サーバーには、その所在地（国と都市）と、サーバーの応答時間を表すPingが表示されています。 The lower this rate, the faster the connection. The fastest servers always appear at the top of the list that consists of more than 50 locations in dozens of countries. You can connect to the fastest server by tapping the *Connect* button or by picking a location.
+各サーバーには、その所在地（国と都市）と、サーバーの応答時間を表すPingが表示されています。 The lower this rate, the faster the connection. The fastest servers always appear at the top of the list that consists of more than 85 locations in dozens of countries. You can connect to the fastest server by tapping the *Connect* button or by picking a location.
 
 ## Saved locations
 

@@ -22,7 +22,7 @@ AdGuard VPN을 무료로 사용할 수 있지만 다음과 같은 몇 가지 제
 - 10 simultaneously connected devices
 - 무제한 트래픽
 - 속도 제한 없음
-- 50개 이상의 위치 모두 사용 가능
+- All 85+ locations are available
 - 안전한 스트리밍
 - 25번 포트를 차단하지 않음
 
