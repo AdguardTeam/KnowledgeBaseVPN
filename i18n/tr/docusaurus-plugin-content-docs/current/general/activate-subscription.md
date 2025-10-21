@@ -58,7 +58,7 @@ Alternatif olarak, destek ekibinden (support@adguard-vpn.com) aboneliğinizi App
 
 E-posta adresinizi aldıktan sonra aboneliğinizi aktaracağız ve uygulamayı kullanabileceksiniz.
 
-### On a third-party website
+### Üçüncü taraf bir sitede
 
 Bir yazılım satıcısından AdGuard VPN aboneliği satın aldıysanız, bir etkinleştirme kodu (genellikle “VPN” ile başlayan harf ve sayılardan oluşan bir kombinasyon) almış olmalısınız. Bu aboneliği kullanmak için bu kodu AdGuard hesabınıza bağlayın.
 

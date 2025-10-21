@@ -19,24 +19,26 @@ Aşağıda Android için AdGuard VPN'de bulunan tüm alt seviye ayarları listel
 
 ### AdGuard VPN protokolü
 
-AdGuard VPN protokolü varsayılan olarak tespit edilmeyi önlemek ve yüksek hızı korumak için HTTP/2 aktarım protokolünü kullanır. Uygulaması hakkında daha fazla bilgiyi [özel makalede](/general/adguard-vpn-protocol.md) okuyabilirsiniz.
+By default, AdGuard VPN protocol uses dynamic VPN protocol selection (_Auto-select_ option). That means that AdGuard VPN automatically figures out which protocol — HTTP2/TLS or HTTP3/QUIC — will give you the best performance and switches to it instantly. This improves VPN speed and stability, which is particularly helpful in regions where VPN usage is restricted or unreliable.
 
-AdGuard VPN'i bunun yerine QUIC aktarım protokolünü kullanacak şekilde değiştirebilirsiniz. [QUIC](https://adguard-vpn.com/kb/general/why-adguard-vpn/#6-quic-support) nispeten yeni bir protokoldür, bu nedenle daha az kararlı olabilir. However, if your Internet connection is unstable (for example, when you connect to the public Wi-Fi), it provides better security and increases the connection speed thanks to the [Head-Of-Line Blocking](https://adguard-dns.io/en/blog/dns-over-quic.html#headoflineblocking) technology.
+If you know what you are doing, you can switch AdGuard VPN to use only HTTP2/TLS or HTTP3/QUIC protocol instead of _Auto-select_. [QUIC](https://adguard-vpn.com/kb/general/why-adguard-vpn/#6-quic-support) nispeten yeni bir protokoldür, bu nedenle daha az kararlı olabilir. However, if your Internet connection is unstable (for example, when you connect to the public Wi-Fi), it provides better security and increases the connection speed thanks to the [Head-Of-Line Blocking](https://adguard-dns.io/en/blog/dns-over-quic.html#headoflineblocking) technology.
 
-### Wi-Fi ağ geçidini VPN yönlendirmelerine dâhil et
+Also, here’s a dedicated article about the protocol: [How AdGuard VPN protocol works](/general/adguard-vpn-protocol.md).
 
-Bu ayar etkinleştirildiğinde, Wi-Fi kullanıldığında ağ geçidi IP adresleri VPN yönlendirmelerine eklenecektir.
-Bunu devre dışı bırakırsanız, yönlendirme yapılandırması (filtrelenen IP aralıkları) değişecektir. Kullanıcının bağlı olduğu ağın Wi-Fi ağ geçidi hariç tutulacak ve bu nedenle filtrelemeye tabi olmayacaktır.
+### Include Wi-Fi gateway in VPN routes
+
+If this setting is enabled, the gateway IP addresses will be added to VPN routes when on Wi-Fi.
+If you disable it, then the route configuration (IP ranges that are filtered) will be changed. The Wi-Fi gateway of the network to which the user is connected will be excluded, and therefore, it will not be subject to filtering.
 
 Bu ayar varsayılan olarak etkindir.
 
 ### Paket yakalama (PCAP)
 
-Bu ayar etkinleştirilirse, AdGuard VPN, uygulama önbellek dizininde adı için bir zaman damgası olan (örneğin, `1682599851461.pcap`) bir `.pcap` dosyası oluşturur. Bu dosya VPN üzerinden aktarılan tüm ağ paketlerini listeler ve [Wireshark programı](https://www.wireshark.org/) ile analiz edilebilir.
+Bu ayar etkinleştirilirse, AdGuard VPN, uygulama önbellek dizininde adı için bir zaman damgası olan (örneğin, `1682599851461.pcap`) bir `.pcap` dosyası oluşturur. This file lists all network packets transferred through the VPN and can be analyzed with the [Wireshark program](https://www.wireshark.org/).
 
 ### Gözetleyici
 
-Gözetleyici, herhangi bir sorun olup olmadığını kontrol etmek için VPN işlem durumunu izler. Etkinleştirildiğinde, AdGuard VPN, aksi takdirde onu kapatabilecek agresif pil tasarrufu uygulamalarına karşı kendisini korur.
+Gözetleyici, herhangi bir sorun olup olmadığını kontrol etmek için VPN işlem durumunu izler. When enabled, AdGuard VPN will protect itself against aggressive battery saver apps that could otherwise kill it.
 
 ### Tercih edilen IP sürümü
 
@@ -56,7 +58,7 @@ Bu bölümde listelenen IPv6 aralıkları için VPN tünelleme devre dışı bı
 
 :::note
 
-Öncelikle _Alt seviye ayarlar_ bölümünden _IPv6 arayüzü_ ayarını etkinleştirmeniz gerekiyor, aksi takdirde bu ayar uygulanmayacaktır.
+You need to enable _IPv6 interface_ setting in _Low-level settings_ first, otherwise this setting will not be applied.
 
 :::
 
@@ -66,9 +68,9 @@ Burada yerel VPN'de kullanılan veri paketinin maksimum boyutunu (bayt cinsinden
 
 ### Hariç tutulan uygulamalar
 
-VPN yönlendirmesinden hariç tutmak istediğiniz uygulamaların UID'lerini (benzersiz tanımlayıcılar) veya paket adlarını buraya listeleyebilirsiniz.
-Normal _İstisnalara_ eklenen uygulamaların aksine, _Hariç Tutulan uygulamalara_ eklenen uygulamaların trafiği cihazınızdaki yerel VPN hizmetine asla gitmez. Bunun yerine, doğrudan istikamete gider.
+You can list here UIDs (unique identifiers) or package names of the apps that you want to exclude from VPN routing.
+Unlike with apps added to regular _Exclusions_, the traffic of apps added to _Excluded apps_ doesn’t go to the local VPN service on your device at all. Bunun yerine, doğrudan istikamete gider.
 
 ### Proxy sunucu bağlantı noktası
 
-Burada dahili SOCKS5 proxy sunucusunun portunu ayarlayabilirsiniz. Varsayılan seçenek 1080'dir.
+Burada dâhili SOCKS5 proxy sunucusunun bağlantı noktasını ayarlayabilirsiniz. Varsayılan seçenek 1080'dir.

@@ -83,7 +83,8 @@ Budete potřebovat klienta SSH. Většina systémů Linux a macOS je dodávána 
 
 ### PuTTY (Windows 8 a starší)
 
-1. Stáhněte a nainstalujte PuTTY z [oficiální stránky](https://www.putty.org/).
+1. Stáhněte a nainstalujte PuTTY z [oficiální webové stránky]
+   (https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html).
 
 2. Otevřete PuTTY.
 
