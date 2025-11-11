@@ -77,13 +77,12 @@ You’ll need to update your router settings if you want to change the VPN serve
 
 ## Routers known to be incompatible with AdGuard VPN
 
-There are two ways to install AdGuard VPN on a router: through the router's **native VPN client**, which requires IKEv2/IPsec support, or by running **AdGuard VPN CLI** as a separate application directly on the router.
+Below are the routers that are currently known to have compatibility issues:
 
-Some router models have known limitations that prevent installation via one or both of these methods.
+**ASUS**
+ASUS routers are not compatible with the native VPN client method (IKEv2/IPsec), as they do not support IKEv2/IPsec in the VPN Client section (it is available only for VPN Server mode).
 
-| Router model | Native VPN client (IKEv2/IPsec) | AdGuard VPN CLI | Notes |
-| :--- | :--- | :--- | :--- |
-| **ASUS** | ❌ Not supported (IKEv2 missing in VPN Client section) | ✅ Supported (with Asuswrt-Merlin firmware) | Works only via custom firmware. |
-| **FRITZ!Box** | ❌ Not supported | ❌ Not supported (Closed firmware, cannot run CLI) | Incompatible with both methods. |
-| **Google Nest Wifi / Nest Wifi Pro** | ❌ Not supported | ❌ Not supported (Closed system, CLI installation impossible) | Same limitation as FRITZ!Box. |
-| **Amazon eero** | ❌ Not supported | ❌ Not supported (Closed system, CLI installation impossible) | Same limitation as FRITZ!Box. |
+However, routers running Asuswrt-Merlin custom firmware can install **AdGuard VPN CLI**, which makes the CLI installation method fully supported.
+
+**FRITZ!Box**
+FRITZ!Box routers do not support IKEv2/IPsec in the required mode, and due to their closed firmware, it is not possible to install or run AdGuard VPN CLI on them.
