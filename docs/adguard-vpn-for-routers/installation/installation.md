@@ -85,5 +85,6 @@ ASUS routers are not compatible with the native VPN client method (IKEv2/IPsec),
 
 However, routers running Asuswrt-Merlin custom firmware can install **AdGuard VPN CLI**, which makes the CLI installation method fully supported.
 
-**FRITZ!Box**
+### FRITZ!Box
+
 FRITZ!Box routers do not support IKEv2/IPsec in the required mode, and due to their closed firmware, it is not possible to install or run AdGuard VPN CLI on them.
