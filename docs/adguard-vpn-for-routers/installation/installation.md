@@ -81,10 +81,8 @@ Below are the routers that are currently known to have compatibility issues:
 
 ### ASUS
 
-ASUS routers are not compatible with the native VPN client method (IKEv2/IPsec), as they do not support IKEv2/IPsec in the VPN Client section (it is available only for VPN Server mode).
-
-However, routers running Asuswrt-Merlin custom firmware can install **AdGuard VPN CLI**, which makes the CLI installation method fully supported.
+ASUS routers do not support IKEv2/IPsec, so you cannot set them up using the general method mentioned above. However, routers running the Asuswrt-Merlin custom firmware can install **AdGuard VPN CLI**, which makes the CLI installation method fully supported.
 
 ### FRITZ!Box
 
-FRITZ!Box routers do not support IKEv2/IPsec in the required mode, and due to their closed firmware, it is not possible to install or run AdGuard VPN CLI on them.
+FRITZ!Box routers do not support IKEv2/IPsec, and due to their closed firmware, it is not possible to install or run AdGuard VPN CLI on them.
