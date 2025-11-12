@@ -9,7 +9,7 @@ To enable it, see the bash-completion hint that is shown after installing or upd
 
 ![bash-completion hint](https://cdn.adguard-vpn.com/blog/new/6x3djbash-completion-hint.png)
 
-If you did not enable completions during install and would like to do so later, edit your shell configuration file, typically located in your home directory such as `~/.bashrc` or `~/.zshrc`, and add the following line, updating the path if you chose a different output directory during installation:
+If you did not enable completions during installation and would like to do so later, edit your shell configuration file, typically located in your home directory such as `~/.bashrc` or `~/.zshrc`, and add the following line. You will need to update the path if you chose a different output directory during installation.
 
 ```sh
 [ -s "/opt/adguardvpn_cli/bash-completion.sh" ] && \. "/opt/adguardvpn_cli/bash-completion.sh"
