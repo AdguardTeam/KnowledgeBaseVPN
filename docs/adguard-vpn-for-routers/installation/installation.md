@@ -79,7 +79,8 @@ You’ll need to update your router settings if you want to change the VPN serve
 
 Below are the routers that are currently known to have compatibility issues:
 
-**ASUS**
+### ASUS
+
 ASUS routers are not compatible with the native VPN client method (IKEv2/IPsec), as they do not support IKEv2/IPsec in the VPN Client section (it is available only for VPN Server mode).
 
 However, routers running Asuswrt-Merlin custom firmware can install **AdGuard VPN CLI**, which makes the CLI installation method fully supported.
