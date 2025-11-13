@@ -11,9 +11,49 @@ You can manage AdGuard VPN for Linux settings from the command line. To view the
 
 You can choose how AdGuard VPN routes traffic.
 
+### TUN mode
+
+:::note
+
+Requires administrator rights.
+
+:::
+
+When TUN mode is enabled, AdGuard VPN:
+
+- Creates a virtual Layer-3 interface (e.g., tunX/utunX depending on OS).
+- Updates the system routing table so that the default route (or only the selected subnets, if you use exclusions) is sent through this interface.
+- Captures IP packets transparently for all apps that match the routing rules — no per-app configuration is required.
+- Routes DNS queries through the tunnel to prevent leaks (unless a domain/app is excluded). 
+
+:::note
+
+DNS behavior depends on the `set-change-system-dns` parameter:
+- `on` (default): System DNS settings are changed to route DNS queries through the VPN tunnel to the DNS server specified in `set-dns`
+- `off`: System DNS settings remain unchanged, DNS queries can bypass the VPN tunnel
+
+:::
+
 To set the default tunnel mode, type:
 
     adguardvpn-cli config set-mode TUN
+
+### SOCKS5 mode
+
+When SOCKS5 mode is enabled, AdGuard VPN:
+
+- Starts a local SOCKS5 proxy that by default listens on 127.0.0.1:1080 (configurable via `set-socks-host` and `set-socks-port` commands).
+- Only applications explicitly configured to use this proxy will send their traffic through AdGuard VPN.
+- Does not change system routes or DNS by itself. Traffic is not redirected automatically. The `set-dns` and `set-change-system-dns` commands are inactive. DNS behavior is determined solely by each app’s settings.
+
+:::note
+
+To avoid DNS leaks, use a client that resolves hostnames via the proxy (often denoted as `socks5h` in tools like `curl`). If an app resolves hostnames locally, system DNS may bypass the proxy.
+
+    curl -x socks5://127.0.0.1:1080 https://example.com
+    curl -x socks5h://127.0.0.1:1080 https://example.com
+
+:::
 
 To set the SOCKS5 mode, type:
 
@@ -24,6 +64,12 @@ To set the SOCKS5 port, type:
     adguardvpn-cli config set-socks-port <port_number>
 
 Replace `<port_number>` with the port you want to connect to.
+
+:::note
+
+AG VPN CLI provides both TCP and UDP proxying when operating in SOCKS5 mode. However, some apps don’t support UDP via SOCKS5 proxy. For example, if you specify SOCKS5 in browser, it will always use TCP-based protocols (HTTP/1.1 and HTTP/2).
+
+:::
 
 ## SOCKS settings
 
@@ -52,13 +98,35 @@ Replace `<server_address>` with the address of your DNS server. To use this DNS 
 
 ## VPN tunnel routing mode: NONE, AUTO, or SCRIPT
 
-You can choose how AdGuard VPN routes traffic through the VPN tunnel. To set the tunnel routing mode to NONE (no routing), type:
+You can choose how AdGuard VPN CLI routes traffic through the VPN tunnel. Routing mode controls system routing when the TUN interface is active. It does not auto-redirect traffic in SOCKS5/proxy mode: apps must be configured to use the local SOCKS5 proxy in that case.
+
+### NONE — no routing changes
+
+AdGuard VPN CLI brings the TUN interface up but does not modify the system routing table. No default route to the tunnel is installed — traffic continues to use existing OS routes.
+
+Use this if you want to manage routes yourself (manually or with third-party tools), or when you only use the SOCKS5 proxy mode and do not need the system to push traffic into the TUN.
+
+To set the tunnel routing mode to NONE (no routing), type:
 
     adguardvpn-cli config set-tun-routing-mode NONE
+
+### AUTO — automatic routing
+
+AdGuard VPN CLI creates and maintains the minimal set of routes required for the tunnel to work system-wide. Typical behavior includes:
+
+- Installing/adjusting routes so that eligible traffic (per your allow/deny/exclusion settings) flows through the TUN interface.
+- Preserving access to local networks (commonly RFC1918 subnets) and other exclusions so your LAN, printers, and routers remain reachable.
+- Reacting to reconnects/endpoint changes (reapplying routes as needed).
+
+Use AUTO if you want a “just works” configuration with system-wide protection and no per-app setup.
 
 To set the tunnel routing mode to AUTO (automatic routing), type:
 
     adguardvpn-cli config set-tun-routing-mode AUTO
+
+### SCRIPT — user-defined routing
+
+AdGuard VPN CLI executes a user-supplied script to add/remove routes when the tunnel state changes. You fully control what goes through the tunnel and what stays direct.
 
 To set the tunnel routing mode to SCRIPT (custom routing script), type:
 
@@ -67,6 +135,54 @@ To set the tunnel routing mode to SCRIPT (custom routing script), type:
 To create a routes script with proper permissions, type:
 
     adguardvpn-cli config create-routes-script
+
+Use SCRIPT if you need fine-grained split tunneling, enterprise routing policies, or custom exceptions beyond what AUTO provides.
+
+**Examples**
+
+Linux custom script:
+
+```  
+#!/bin/sh
+INTERFACE="$1"
+
+# Example 1: Route only specific corporate networks through VPN
+ip route add 192.168.100.0/24 dev "$INTERFACE"  # Corporate network
+ip route add 10.0.0.0/8 dev "$INTERFACE"        # Private networks
+ip route add 172.16.0.0/12 dev "$INTERFACE"     # Another private range
+
+# Example 2: Route everything except local networks
+# ip route add 0.0.0.0/1 dev "$INTERFACE"
+# ip route add 128.0.0.0/1 dev "$INTERFACE"
+# ip -6 route add 2000::/3 dev "$INTERFACE" || true
+# ip route del 192.168.0.0/16 dev "$INTERFACE" 2>/dev/null || true
+# ip route del 10.0.0.0/8 dev "$INTERFACE" 2>/dev/null || true
+```
+
+MacOS custom script:
+
+```
+#!/bin/sh
+INTERFACE="$1"
+
+# Example 1: Route only specific corporate networks through VPN
+route add 192.168.100.0/24 -iface "$INTERFACE"  # Corporate network
+route add 10.0.0.0/8 -iface "$INTERFACE"        # Private networks
+route add 172.16.0.0/12 -iface "$INTERFACE"     # Another private range
+
+# Example 2: Route everything except local networks
+# route add 1.0.0.0/8 -iface "$INTERFACE"
+# route add 2.0.0.0/7 -iface "$INTERFACE"
+# route add 4.0.0.0/6 -iface "$INTERFACE"
+# route add 8.0.0.0/5 -iface "$INTERFACE"
+# route add 16.0.0.0/4 -iface "$INTERFACE"
+# route add 32.0.0.0/3 -iface "$INTERFACE"
+# route add 64.0.0.0/2 -iface "$INTERFACE"
+# route add 128.0.0.0/1 -iface "$INTERFACE"
+# route add -inet6 2000::/3 -iface "$INTERFACE" || true
+# route delete 192.168.0.0/16 2>/dev/null || true
+# route delete 10.0.0.0/8 2>/dev/null || true
+```
 
 ## Use QUIC
 
