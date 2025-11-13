@@ -157,9 +157,9 @@ Use SCRIPT if you need fine-grained split tunneling, enterprise routing policies
     # ip -6 route add 2000::/3 dev "$INTERFACE" || true
     # ip route del 192.168.0.0/16 dev "$INTERFACE" 2>/dev/null || true
     # ip route del 10.0.0.0/8 dev "$INTERFACE" 2>/dev/null || true
-    
+
 **macOS custom script:**
-   
+
     #!/bin/sh
     INTERFACE="$1"
     

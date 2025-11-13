@@ -19,4 +19,3 @@ Follow the links below to find information on installing, setting up, and using 
 To view all available commands, first open Terminal. On Linux, press `Ctrl+Alt+T`. On your Mac, type `Terminal` in the search field. Then type:
 
     adguardvpn-cli --help-all
-    
