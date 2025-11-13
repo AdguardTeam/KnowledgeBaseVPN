@@ -24,11 +24,12 @@ When TUN mode is enabled, AdGuard VPN:
 - Creates a virtual Layer-3 interface (e.g., tunX/utunX depending on OS).
 - Updates the system routing table so that the default route (or only the selected subnets, if you use exclusions) is sent through this interface.
 - Captures IP packets transparently for all apps that match the routing rules — no per-app configuration is required.
-- Routes DNS queries through the tunnel to prevent leaks (unless a domain/app is excluded). 
+- Routes DNS queries through the tunnel to prevent leaks (unless a domain/app is excluded).
 
 :::note
 
 DNS behavior depends on the `set-change-system-dns` parameter:
+
 - `on` (default): System DNS settings are changed to route DNS queries through the VPN tunnel to the DNS server specified in `set-dns`
 - `off`: System DNS settings remain unchanged, DNS queries can bypass the VPN tunnel
 
@@ -138,51 +139,47 @@ To create a routes script with proper permissions, type:
 
 Use SCRIPT if you need fine-grained split tunneling, enterprise routing policies, or custom exceptions beyond what AUTO provides.
 
-**Examples**
+#### Examples
 
-Linux custom script:
+**Linux custom script:**
 
-```  
-#!/bin/sh
-INTERFACE="$1"
+    #!/bin/sh
+    INTERFACE="$1"
+    
+    # Example 1: Route only specific corporate networks through VPN
+    ip route add 192.168.100.0/24 dev "$INTERFACE"  # Corporate network
+    ip route add 10.0.0.0/8 dev "$INTERFACE"        # Private networks
+    ip route add 172.16.0.0/12 dev "$INTERFACE"     # Another private range
 
-# Example 1: Route only specific corporate networks through VPN
-ip route add 192.168.100.0/24 dev "$INTERFACE"  # Corporate network
-ip route add 10.0.0.0/8 dev "$INTERFACE"        # Private networks
-ip route add 172.16.0.0/12 dev "$INTERFACE"     # Another private range
-
-# Example 2: Route everything except local networks
-# ip route add 0.0.0.0/1 dev "$INTERFACE"
-# ip route add 128.0.0.0/1 dev "$INTERFACE"
-# ip -6 route add 2000::/3 dev "$INTERFACE" || true
-# ip route del 192.168.0.0/16 dev "$INTERFACE" 2>/dev/null || true
-# ip route del 10.0.0.0/8 dev "$INTERFACE" 2>/dev/null || true
-```
-
-MacOS custom script:
-
-```
-#!/bin/sh
-INTERFACE="$1"
-
-# Example 1: Route only specific corporate networks through VPN
-route add 192.168.100.0/24 -iface "$INTERFACE"  # Corporate network
-route add 10.0.0.0/8 -iface "$INTERFACE"        # Private networks
-route add 172.16.0.0/12 -iface "$INTERFACE"     # Another private range
-
-# Example 2: Route everything except local networks
-# route add 1.0.0.0/8 -iface "$INTERFACE"
-# route add 2.0.0.0/7 -iface "$INTERFACE"
-# route add 4.0.0.0/6 -iface "$INTERFACE"
-# route add 8.0.0.0/5 -iface "$INTERFACE"
-# route add 16.0.0.0/4 -iface "$INTERFACE"
-# route add 32.0.0.0/3 -iface "$INTERFACE"
-# route add 64.0.0.0/2 -iface "$INTERFACE"
-# route add 128.0.0.0/1 -iface "$INTERFACE"
-# route add -inet6 2000::/3 -iface "$INTERFACE" || true
-# route delete 192.168.0.0/16 2>/dev/null || true
-# route delete 10.0.0.0/8 2>/dev/null || true
-```
+    # Example 2: Route everything except local networks
+    # ip route add 0.0.0.0/1 dev "$INTERFACE"
+    # ip route add 128.0.0.0/1 dev "$INTERFACE"
+    # ip -6 route add 2000::/3 dev "$INTERFACE" || true
+    # ip route del 192.168.0.0/16 dev "$INTERFACE" 2>/dev/null || true
+    # ip route del 10.0.0.0/8 dev "$INTERFACE" 2>/dev/null || true
+    
+**macOS custom script:**
+   
+    #!/bin/sh
+    INTERFACE="$1"
+    
+    # Example 1: Route only specific corporate networks through VPN
+    route add 192.168.100.0/24 -iface "$INTERFACE"  # Corporate network
+    route add 10.0.0.0/8 -iface "$INTERFACE"        # Private networks
+    route add 172.16.0.0/12 -iface "$INTERFACE"     # Another private range
+    
+    # Example 2: Route everything except local networks
+    # route add 1.0.0.0/8 -iface "$INTERFACE"
+    # route add 2.0.0.0/7 -iface "$INTERFACE"
+    # route add 4.0.0.0/6 -iface "$INTERFACE"
+    # route add 8.0.0.0/5 -iface "$INTERFACE"
+    # route add 16.0.0.0/4 -iface "$INTERFACE"
+    # route add 32.0.0.0/3 -iface "$INTERFACE"
+    # route add 64.0.0.0/2 -iface "$INTERFACE"
+    # route add 128.0.0.0/1 -iface "$INTERFACE"
+    # route add -inet6 2000::/3 -iface "$INTERFACE" || true
+    # route delete 192.168.0.0/16 2>/dev/null || true
+    # route delete 10.0.0.0/8 2>/dev/null || true
 
 ## Use QUIC
 
