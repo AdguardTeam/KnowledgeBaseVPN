@@ -5,21 +5,21 @@ sidebar_position: 1
 
 O AdGuard VPN para Mac é um serviço VPN de desktop. O AdGuard VPN é totalmente compatível com o AdGuard Ad Blocker, eles podem ser usados juntos e funcionarão perfeitamente. Vamos ver quais recursos ele tem a oferecer.
 
-Note that **you can’t use AdGuard VPN for Mac unless you have logged into your AdGuard account**. Você pode entrar com sua conta AdGuard ou com uma conta externa, ou seja, via Apple, Google ou Facebook. Certifique-se de que sua conta externa esteja vinculada ao mesmo endereço de e-mail da sua conta do AdGuard. Se houver uma assinatura adequada em sua conta do AdGuard, ela será ativada automaticamente no aplicativo de desktop. Still don’t have an AdGuard account? Create it [here](https://auth.adguardaccount.com/registration.html).
+Observe que **você não pode usar o AdGuard VPN para Mac, a menos que tenha feito login na sua conta do AdGuard**. Você pode entrar com sua conta AdGuard ou com uma conta externa, ou seja, via Apple, Google ou Facebook. Certifique-se de que sua conta externa esteja vinculada ao mesmo endereço de e-mail da sua conta do AdGuard. Se houver uma assinatura adequada em sua conta do AdGuard, ela será ativada automaticamente no aplicativo de desktop. Ainda não tem uma conta AdGuard? Crie [aqui](https://auth.adguard.com/registration.html).
 
-:::note Compatibility
+:::note Compatibilidade
 
-Atualmente, o AdGuard VPN para Mac é compatível com versões do macOS a partir do macOS Catalina (10.15).
+AdGuard VPN for Mac is currently supported on macOS versions starting from macOS Big Sur (version 11).
 
 :::
 
 ## Tela inicial
 
-![Home screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/saved_locations.png)
+![Tela inicial](https://cdn.adguardvpn.com/content/kb/vpn/mac/saved_locations.png)
 
-A primeira guia é a Tela *Inicial*. Here you can see the current status of AdGuard VPN, the selected location (if enabled) and its ping. Ping é o tempo de resposta de um servidor VPN. The lower the number, the faster the connection. If VPN is disabled, the last location you connected to is displayed at the bottom.
+A primeira guia é a Tela *Inicial*. Aqui você pode ver o status atual do AdGuard VPN, o local selecionado (se ativado) e seu ping. Ping é o tempo de resposta de um servidor VPN. Quanto menor o valor, mais rápida é a conexão. Se a VPN estiver desativada, o último local ao qual você se conectou será exibido na parte inferior.
 
-The fastest locations with the lowest pings are displayed in the upper right corner of the screen. There is also a refresh button that you can click if any locations are offline. Abaixo pode ver a lista completa dos locais. The search field makes it easy to find the location you need.
+Os locais mais rápidos com os menores pings são exibidos no canto superior direito da tela. Há também um botão de atualização que você pode clicar se algum local estiver offline. Abaixo pode ver a lista completa dos locais. O campo de pesquisa facilita encontrar o local desejado.
 
 :::note
 
@@ -27,96 +27,100 @@ Usuários gratuitos podem se conectar apenas a determinados locais, enquanto out
 
 :::
 
-### Saved locations
+### Localizações salvas
 
-On the same tab, you can save your favorite locations to access them quickly.
+Você também pode salvar seus locais favoritos na mesma aba para acessá-los rapidamente.
 
-Just hover over a location, click the bookmark icon that appears, and it will be saved. Your marked locations will then show up in the *Saved* tab.
+Basta passar o mouse sobre uma localização, clicar no ícone de favoritos que aparecerá e ela será salva. Suas localizações favoritas serão exibidas na aba *Salvos*.
 
-![Saved locations](https://cdn.adguard-vpn.com/content/release_notes/vpn/mac/v2.5/Saved_locs_EN_2.png)
+![Locais salvos](https://cdn.adguard-vpn.com/content/release_notes/vpn/mac/v2.5/Saved_locs_EN_2.png)
 
 ## Exclusões
 
-![Exclusions](https://cdn.adguardvpn.com/content/kb/vpn/mac/exclusions_new_en.png)
+![Exclusões](https://cdn.adguardvpn.com/content/kb/vpn/mac/exclusions_new_en.png)
 
-AdGuard VPN has several features that make it unique, and one of them is definitely *Exclusions*. By default, AdGuard VPN will run on all websites and in all apps but the ones from the exclusions list. But you can switch to the other mode, so AdGuard VPN will run only on websites and in apps from the exclusions list.
+O AdGuard VPN tem vários recursos que o tornam único e um deles é definitivamente *Exclusões*. Por padrão, o AdGuard VPN será executado em todos os sites e em todos os aplicativos, exceto aqueles da lista de exclusões. Mas você pode mudar para o outro modo, para que o AdGuard VPN seja executado apenas em sites e aplicativos da lista de exclusões.
 
-![Exclusions screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/services_new_en.png)
+![Tela de exclusões](https://cdn.adguardvpn.com/content/kb/vpn/mac/services_new_en.png)
 
-Also you can not only add websites to Exclusions but also choose among the lists of popular services. The lists are divided into eight categories: Social networks, Messengers, Video and Music streaming services, Games, Shopping, Search engines, and Work communication tools. Any of these services can be added to Exclusions in one click! It’s especially convenient if you use Selective mode.
+Além disso, você pode não somente adicionar sites às Exclusões, mas também escolher entre as listas de serviços populares. As listas estão divididas em oito categorias: Redes sociais, Mensageiros, Serviços de streaming de vídeo e música, Jogos, Compras, Mecanismos de Pesquisa e Ferramentas de comunicação no trabalho. Qualquer um desses serviços pode ser adicionado às Exclusões em um clique! É especialmente conveniente se você usar o modo seletivo.
 
-Exclusion list can be easily configured. If you’ve added a domain and some of its subdomains, they’ll be grouped inside the root one. When adding a root domain (`example.com`) its mask is added too (`*.example.com`).
+A lista de exclusão pode ser facilmente configurada. Se você adicionou um domínio e alguns de seus subdomínios, eles serão agrupados dentro do domínio raiz. Ao adicionar um domínio raiz (`exemplo.com`) sua máscara também é adicionada (`*.exemplo.com`).
 
-:::info Browsers added to Exclusions
+:::info Navegadores adicionados às Exclusões
 
-Starting with the version 2.4, all browsers are automatically added to the list of exclusions when the VPN is active only for selected apps and websites. This change brings more convenience for users who were often confused and didn’t know whether to consider their browsers as apps or not. It applies under the following conditions:
+A partir da versão 2.4, todos os navegadores são adicionados automaticamente à lista de exclusões quando a VPN estiver ativa somente para aplicativos e sites selecionados. Essa mudança traz mais praticidade para os usuários que ficavam frequentemente confusos e não sabiam se deveriam considerar seus navegadores como aplicativos ou não. Aplica-se nas seguintes condições:
 
-- The user has installed AdGuard VPN for the first time
-- The user did not modify the Exclusions settings prior to v2.4
+- O usuário acabou de instalar o AdGuard VPN pela primeira vez
+- O usuário não modificou as configurações de Exclusões antes da v2.4
 
 :::
 
-If you’ve added a service, changed or removed something and now want to recover initial settings, just press *Reset to default* next to the domain — this action will restore any missing domains and tick all checkboxes.
+Se você adicionou um serviço, alterou ou removeu algo e agora deseja recuperar as configurações iniciais, basta pressionar *Redefinir para o padrão* ao lado do domínio - esta ação restaurará todos os domínios ausentes e marcará todas as caixas de seleção.
 
-What’s more, ready-made exclusions lists can be transferred to other devices with installed AdGuard VPN. To export exclusions, follow the four-step instruction below:
+Além disso, listas de exclusões prontas podem ser transferidas para outros dispositivos com o AdGuard VPN instalado. Para exportar exclusões, siga as instruções de quatro etapas abaixo:
 
 1. Abra o AdGuard VPN no dispositivo de onde você deseja exportar as suas listas de exclusões. Encontre a seção apropriada e clique no botão *Exportar*. O arquivo `exclusions.zip` será baixado.
 2. Existem dois arquivos `.txt` dentro do arquivo, cada um para as listas Geral e Seletiva. Adicione mais exclusões a eles, exclua os existentes, renomeie os arquivos (mais sobre isso mais tarde) ou simplesmente deixe o arquivo com os arquivos como está.
-3. When transferring between different devices, don’t forget to send the `.zip` file to the device for import. Por exemplo, se você importar listas de exclusão do Mac para o iPhone, certifique-se de enviar o arquivo `.zip` para o telefone com antecedência.
+3. Ao transferir entre dispositivos diferentes, não se esqueça de enviar o arquivo `.zip` para o dispositivo para importação. Por exemplo, se você importar listas de exclusão do Mac para o iPhone, certifique-se de enviar o arquivo `.zip` para o telefone com antecedência.
 4. Abra o AdGuard VPN no dispositivo/navegador onde deseja importar o arquivo com as listas de exclusões prontas. Encontre a seção apropriada, clique no botão *Importar* e selecione o arquivo. Feito!
 
 :::note
 
-Archive files from other devices can be similarly imported to your AdGuard VPN for Mac.
+Arquivos de outros dispositivos podem ser importados de forma semelhante para o seu AdGuard VPN para Mac.
 
 :::
 
-## Stats
+## Estatísticas
 
-![Statistics screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/statistics_en.png)
+![Tela de estatísticas](https://cdn.adguardvpn.com/content/kb/vpn/mac/statistics_en.png)
 
-The Stats screen provides detailed information about traffic consumed by location and app, most used locations and apps. View data for the day, month, or the entire time AdGuard VPN for Mac has been in use.
+A tela Estatísticas fornece informações detalhadas sobre o tráfego consumido por local e aplicativo, os locais e aplicativos mais usados. Visualize os dados do dia, mês ou de todo o tempo em que o AdGuard VPN para Mac está em uso.
 
-Importantly, all data is stored locally on your device, so no one but you has access to it. The Statistics feature is available to users with an AdGuard VPN subscription.
+É importante ressaltar que todos os dados são armazenados localmente no seu dispositivo, para que ninguém além de você tenha acesso a eles. O recurso Estatísticas está disponível para usuários com uma assinatura do AdGuard VPN.
 
 ## Suporte
 
-![Support screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/support_new_en.png)
+![Tela de suporte](https://cdn.adguardvpn.com/content/kb/vpn/mac/support_new_en.png)
 
-The fourth tab is the *Support* screen. Find answers to any questions in the [FAQ](https://adguard-vpn.com/welcome.html#faq) or in the [Knowledge base](/) sections, report a bug if you encounter one, or [discuss AdGuard on any of the platforms](https://adguard.com/discuss.html). And feel free to [leave feedback about our product](https://surveys.adguard.com/vpn_mac/form.html), we’d appreciate it.
+A quarta guia é a tela *Suporte*. Encontre respostas para quaisquer perguntas nas seções [Perguntas frequentes](https://adguard-vpn.com/welcome.html#faq) ou na [Base de conhecimento](/), relate um bug se encontrar um ou [discuta o AdGuard em qualquer uma das plataformas](https://adguard.com/discuss.html). E sinta-se à vontade para [deixar comentários sobre nosso produto](https://surveys.adguard.com/vpn_mac/form.html), ficaremos gratos.
 
 ## Configurações
 
-![Settings](https://cdn.adguardvpn.com/content/kb/vpn/mac/settings_new_en.png)
+![Configurações](https://cdn.adguardvpn.com/content/kb/vpn/mac/settings_new_en.png)
 
-Finally, we come to the Settings tab. In the *About program* section you can see the current version of AdGuard VPN, check for updates, visit our official website, and get acquainted with AdGuard’s EULA and Privacy policy. In the *About license* section you can upgrade from free to unlimited, manage your subscription, or log out. And most importantly, from here you can access *General settings*.
+Por fim, chegamos à guia Configurações. Na seção *Sobre o programa*, você pode ver a versão atual do AdGuard VPN, verificar se há atualizações, visitar nosso site oficial e se familiarizar com o EULA e a política de privacidade do AdGuard. Na seção *Sobre a licença* , você pode atualizar de gratuito para ilimitado, gerenciar sua assinatura ou sair. E o mais importante, a partir daqui você pode acessar *Configurações gerais*.
 
-### App settings
+### Configurações de aplicativo
 
-![App settings](https://cdn.adguardvpn.com/content/kb/vpn/mac/general-settings_new_en.png)
+![Configurações de aplicativo](https://cdn.adguardvpn.com/content/kb/vpn/mac/general-settings_new_en.png)
 
-The first four basic features make the application more convenient and user-friendly, i.e. *Kill Switch*, *Auto-update*, *Launch AdGuard VPN at login*, and *Auto-connect on app launch*. What’s more, you can choose between light, dark, and system themes — the latter one matches the theme on your Mac.
+Os primeiros quatro recursos básicos tornam o aplicativo mais conveniente e fácil de usar, ou seja, *Kill Switch*, *Autoupdate*, *Iniciar AdGuard VPN no login*, e *Auto conectar no início da aplicação*. Além do mais, você pode escolher entre temas claros, escuros e do sistema - o último corresponde ao tema do seu Mac.
 
-You can also allow AdGuard VPN to gather and send anonymized crash reports, technical and interaction data in order to help us improve our app. Last but not least, you can export logs from your Mac. This can be useful if you want to attach logs to your message to support.
+Você também pode autorizar o AdGuard VPN a coletar e enviar relatórios de falhas, dados técnicos e de interação, todos eles de forma anônima, para nos ajudar a melhorar nosso aplicativo. Por último, mas não menos importante, você pode exportar logs do seu Mac. Isso pode ser útil se você quiser anexar logs à sua mensagem para o suporte.
 
-### DNS servers
+### Servidores DNS
 
-![DNS servers](https://cdn.adguardvpn.com/content/kb/vpn/mac/dns_new_en.png)
+![Servidores DNS](https://cdn.adguardvpn.com/content/kb/vpn/mac/dns_new_en.png)
 
-One or more DNS servers can be set up here. This is useful if you don’t want to rely on the default DNS server provided by your ISP. Select one from the list of popular DNS services or add a custom server manually. We recommend adding AdGuard DNS, which not only encrypts your DNS traffic, but also identifies requests to malicious websites and redirects them to a “black hole”.
+Um ou mais servidores DNS podem ser configurados aqui. Isso é útil se você não quiser depender do servidor DNS padrão fornecido pelo seu ISP. Selecione um na lista de serviços DNS populares ou adicione um servidor personalizado manualmente. Recomendamos adicionar o AdGuard DNS, que não apenas criptografa seu tráfego DNS, mas também identifica solicitações para sites maliciosos e as redireciona para um "buraco negro".
 
-### Advanced settings
+### Configurações avançadas
 
-![Advanced settings](https://cdn.adguardvpn.com/content/kb/vpn/mac/advanced-settings_new_en.png)
+![Configurações avançadas](https://cdn.adguardvpn.com/content/kb/vpn/mac/advanced-settings_new_en.png)
 
 #### Nível de registro
 
-There are only two logging levels but we strongly recommend that you use the first, default one. The second option (extended logging) should be set only to record a strange program behavior after consulting our technical support. If you have enabled the extended logging level, make sure to switch to the default one after recording logs.
+Existem apenas dois níveis de registro, mas recomendamos enfaticamente que você use o primeiro, o padrão. A segunda opção (registro estendido) deve ser definida apenas para registrar um comportamento estranho do programa após consultar nosso suporte técnico. Se você ativou o nível de registro estendido, certifique-se de mudar para o padrão após registrar os logs.
 
 #### Ocultar ícone da barra de menus
 
-Although this option is located in *Advanced settings*, it can be enabled without hesitation. You can hide the AdGuard VPN icon from the menu bar, it won’t prevent our app from running in the background.
+Embora esta opção esteja localizada em *Configurações avançadas*, ela pode ser ativada sem hesitação. Você pode ocultar o ícone do AdGuard VPN na barra de menus, isso não impedirá que nosso aplicativo seja executado em segundo plano.
 
-#### Use QUIC
+##### Protocolo do AdGuard VPN
 
-QUIC communication protocol is the latest, cutting-edge version of HTTP. Toggle the switch to get a better connection quality in less-than-ideal conditions, while using mobile data in the subway or elevator, for instance.
+![Selecione o protocolo VPN](https://cdn.adtidy.org/content/release_notes/vpn/mac/v2.7/protocol_en.png)
+
+Por padrão, o Protocolo do AdGuard VPN usa a seleção dinâmica de protocolo VPN (opção *Seleção automática*). Isso significa que o AdGuard VPN determina automaticamente qual protocolo — HTTP2/TLS ou HTTP3/QUIC — oferecerá o melhor desempenho e muda para ele instantaneamente. Isso melhora a velocidade e a estabilidade da VPN, o que é especialmente útil em regiões onde o uso de VPN é restrito ou instável.
+
+Se desejar, você pode alternar o AdGuard VPN para usar apenas o protocolo HTTP2/TLS ou HTTP3/QUIC em vez de *Seleção automática*. Cada protocolo tem seus pontos fortes, mas a melhor escolha pode variar dependendo da sua localização, das condições da rede e até mesmo do servidor ao qual você se conecta.

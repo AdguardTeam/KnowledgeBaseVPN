@@ -97,16 +97,16 @@ Herhangi bir kullanıcıdan gelen web trafiği ilginizi çekebilir ve özellikle
 - Slovakya
 - Güney Afrika
 - Güney Kore
-- Spain
-- Sweden
-- Switzerland
-- Taiwan
+- İspanya
+- İsveç
+- İsviçre
+- Tayvan
 - Tayland
-- Turkey
-- Ukraine
-- United Arab Emirates
-- United Kingdom
-- United States of America
+- Türkiye
+- Ukrayna
+- Birleşik Arap Emirlikleri
+- Birleşik Krallık
+- Amerika Birleşik Devletleri
 - Vietnam
 
 ᵛ = “Sanal” sunuculardır. Bunun nedeni, bu sunucuların kapsaması amaçlanan ülkelerdeki çok ağır devlet sansürüdür.

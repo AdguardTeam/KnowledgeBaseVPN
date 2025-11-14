@@ -26,7 +26,7 @@ AdGuard VPN'i kullanmak oldukça kolaydır. Ana ekranda *Bağlan* (*Bağlantıy�
 
 Ping, sunucunun yanıt süresini milisaniye cinsinden gösterir. Bu, o konuma bağlandığınızda VPN bağlantısının ne kadar hızlı olacağını gösterir. Ping değeri 22 ms olan bir sunucunun seçilmesi, bu sunucuya gönderilen bir veri paketinin 22 ms içinde geri döneceği anlamına gelir.
 
-AdGuard VPN ile onlarca ülkede 50'den fazla konum arasından seçim yapabilirsiniz.
+With AdGuard VPN, you can choose from over 85 locations in dozens of countries.
 
 ![Ana sayfa ve konumlar *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.7/home-locations-vpn-ios.png)
 
@@ -93,7 +93,7 @@ Bu özellik, favori sunucu konumlarınızı özel bir sekmeye kaydetmenizi sağl
 
 *Kaydedilenler* öğesine bir konum eklemek için üzerinde sola kaydırmanız yeterlidir. To remove it from *Saved*, do the same:
 
-![Saved locations add remove *mobile](https://cdn.adtidy.org/content/release_notes/vpn/ios/v2.7/iosvpn-saved-locations-add-remove.gif)
+![Kaydedilen konumlar ekle kaldır *mobile](https://cdn.adtidy.org/content/release_notes/vpn/ios/v2.7/iosvpn-saved-locations-add-remove.gif)
 
 ## Genel ayarlar
 
@@ -126,7 +126,7 @@ AdGuard VPN for iOS can operate in two modes: **VPN** and **Integrated**.
 
 The *VPN* mode uses the [AdGuard VPN protocol](/general/adguard-vpn-protocol), which provides the best combination of speed and security. In this mode, AdGuard VPN will not work with [AdGuard Ad Blocker for iOS](https://adguard.com/adguard-ios/overview.html).
 
-In **Integrated mode**, AdGuard VPN will be able to work simultaneously with AdGuard Ad Blocker for iOS using the IPSec protocol. This protocol is also secure, but a bit slower and easier to detect. You don’t have to do anything to set up the integration: just install both apps and switch to this mode.
+In **Integrated mode**, AdGuard VPN will be able to work simultaneously with AdGuard Ad Blocker for iOS using the IPSec protocol. Bu protokol de güvenlidir, ancak biraz daha yavaş ve tespit edilmesi daha kolaydır. You don’t have to do anything to set up the integration: just install both apps and switch to this mode.
 
 :::note
 
@@ -152,9 +152,17 @@ This option can be used to send the app’s logs and system info to our support 
 
 This option lets you export technical information that can be useful in solving problems and is sometimes requested by our support and developers.
 
+#### AdGuard VPN protokolü
+
+![Select VPN protocol *mobile_border](https://cdn.adtidy.org/content/release_notes/vpn/ios/v2.8/Auto_EN.PNG)
+
+By default, AdGuard VPN protocol uses dynamic VPN protocol selection (*Auto-select* option). That means that AdGuard VPN automatically figures out which protocol — HTTP2/TLS or HTTP3/QUIC — will give you the best performance and switches to it instantly. This improves VPN speed and stability, which is particularly helpful in regions where VPN usage is restricted or unreliable.
+
+If you wish, you can switch AdGuard VPN to use only HTTP2/TLS or HTTP3/QUIC protocol instead of *Auto-select*. Each protocol has its strengths, but the best choice can vary depending on your location, network conditions, and even the server you connect to.
+
 ### Teknik ve etkileşim verilerini gönder
 
-By turning this option on, you are helping us understand better how users interact with the app. We use that information to improve user experience.
+By turning this option on, you are helping us understand better how users interact with the app. Bu bilgileri kullanıcı deneyimini iyileştirmek için kullanırız.
 
 ### Kill Switch
 
