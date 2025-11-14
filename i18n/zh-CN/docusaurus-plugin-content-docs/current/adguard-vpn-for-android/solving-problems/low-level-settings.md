@@ -1,74 +1,76 @@
 ---
-title: Low-level settings guide
+title: 低级设置
 sidebar_position: 6
 ---
 
-## How to reach Low-level settings
+## 如何进入低级设置
 
 :::caution
 
-Changing _Low-level settings_ can cause problems with the performance of AdGuard VPN, may break the Internet connection or compromise your security and privacy. You should only open this section if you know what you are doing, or if you were asked to do so by our support team.
+更改「低级设置」可能会导致 AdGuard VPN 的性能出现问题，也可能会断开互联网连接或危及您的安全和隐私。 如果您知道自己在设置什么，或者是我们的客户支持要求您这样做，请打开此部分。
 
 :::
 
-To access _Low-level settings_, open the AdGuard VPN app and tap the gear icon in the lower right corner of the screen. Then choose _General_ → _Advanced_ → _Low-level settings_.
+要转到「低级设置」，请打开 AdGuard VPN 应用并点击屏幕右下角的齿轮图标。 然后选择「常规模式」→「高级」→「低级设置」。
 
-## Low-level settings
+## 低级设置
 
-Below we list all low-level settings available in AdGuard VPN for Android and explain what they do. We once again urge you not to mess with these settings blindly even if you’ve read this guide. Treat it as a cheat sheet for when you know what you are doing but want to brush up on specifics.
+下方列出了 AdGuard VPN 中所有可用的低级设置，并解释了它们的作用。 我们再次强烈建议您不要在未充分了解的情况下随意更改这些设置，即使您已经阅读了本指南。 当您知道自己在做什么，但想要复习具体细节时，可以将它当作速查表来使用。
 
-### AdGuard VPN protocol
+### AdGuard VPN 协议
 
-By default, AdGuard VPN protocol uses HTTP/2 transport protocol to avoid detection and to maintain high speed. You can read more about its implementation in a [dedicated article](/general/adguard-vpn-protocol.md).
+AdGuard VPN 协议默认使用动态 VPN 协议选择（「自动选择」选项）。 这意味着 AdGuard VPN 能自动判断 HTTP2/TLS 或 HTTP3/QUIC 哪种协议可提供最佳性能，并立即切换至该协议。 这样可以提升 VPN 的连接速度和稳定性，在 VPN 用法受限或不稳定的地区尤其有帮助。
 
-You can switch AdGuard VPN to use QUIC transport protocol instead. [QUIC](https://adguard-vpn.com/kb/general/why-adguard-vpn/#6-quic-support) is a relatively new protocol, hence it can be less stable. However, if your Internet connection is unstable (for example, when you connect to the public Wi-Fi), it provides better security and increases the connection speed thanks to the [Head-Of-Line Blocking](https://adguard-dns.io/en/blog/dns-over-quic.html#headoflineblocking) technology.
+如果您知道自己在做什么，可以将 AdGuard VPN 切换为仅使用 HTTP2/TLS 或 HTTP3/QUIC 协议，而不是「自动选择」。 [QUIC](https://adguard-vpn.com/kb/general/why-adguard-vpn/#6-quic-support) 是一种相对较新的协议，因此可能不够稳定。 然而，如果网络连接不稳定（例如，当您连接到公共 Wi-Fi 时），它可以提供更好的安全性，并且由于 [Head-Of-Line Blocking](https://adguard-dns.io/en/blog/dns-over-quic.html#headoflineblocking)技术可以提高连接速度。
 
-### Include Wi-Fi gateway in VPN routes
+此外，可以查看一篇关于该协议的专门文章：[AdGuard VPN 协议的工作原理](/general/adguard-vpn-protocol.md)。
 
-If this setting is enabled, the gateway IP addresses will be added to VPN routes when on Wi-Fi.
-If you disable it, then the route configuration (IP ranges that are filtered) will be changed. The Wi-Fi gateway of the network to which the user is connected will be excluded, and therefore, it will not be subject to filtering.
+### 将 Wi-Fi 网关接入 VPN 路由中
 
-This setting is enabled by default.
+如果启用此设置，在使用 Wi-Fi 时，网关 IP 地址将添加到 VPN 路由中。
+如果禁用它，则路由配置（被过滤的 IP 范围）将会被更改。 用户所连接网络的 Wi-Fi 网关将被排除，因此不会受到过滤。
 
-### Packet capture (PCAP)
+此设置默认已启用。
 
-If this setting is enabled, AdGuard VPN will create a `.pcap` file with a timestamp for its name (for instance, `1682599851461.pcap`) in the app cache directory. This file lists all network packets transferred through the VPN and can be analyzed with the [Wireshark program](https://www.wireshark.org/).
+### 数据包捕获（PCAP）
 
-### Watchdog
+如果已启用此设置，AdGuard VPN 会在应用程序缓存目录中创建一个以时间戳命名的 `.pcap` 文件（例如 `1682599851461.pcap`）。 该文件列出通过 VPN 传输的所有网络数据包，可以使用 [Wireshark 程序](https://www.wireshark.org/)进行分析。
 
-Watchdog monitors the VPN process state to check if there are any problems with it. When enabled, AdGuard VPN will protect itself against aggressive battery saver apps that could otherwise kill it.
+### 看门狗功能
 
-### Preferred IP version
+看门狗监控 VPN 的进程状态，以检查其是否存在任何问题。 启用后，AdGuard VPN 将会保护自身免受激进的省电应用程序的干扰，否则这些应用程序可能会强制关闭它。
 
-Here you can set up the endpoint addresses. There are three options: IPv4, IPv6 or IPv4 and IPv6 (if your device supports both).
+### 首选 IP 协议版本
 
-### IPv4 ranges excluded from VPN
+用户可以在此设置端点地址。 有三种选项：IPv4、IPv6 或 IPv4 和 IPv6（如果您的设备支持两者）。
 
-VPN tunneling for the IPv4 ranges listed in this section will be disabled.
+### 不使用 VPN 的 IPv4 范围
 
-### IPv6 interface
+本节中列出的 IPv4 范围的 VPN 隧道将被禁用。
 
-After enabling this option you will have an IPv6 address while routing traffic through the VPN connection. You can set up the exclusions in the _IPv6 ranges excluded from VPN_.
+### IPv6 接口
 
-### IPv6 ranges excluded from VPN
+启用此选项后，通过 VPN 连接路由流量时，您将拥有 IPv6 地址。 用户可以在「_从 VPN 排除的 IPv6 范围_」中设置排除项。
 
-VPN tunneling for the IPv6 ranges listed in this section will be disabled.
+### 不使用 VPN 的 IPv6 范围
+
+本节所列 IPv6 范围的 VPN 隧道功能将被禁用。
 
 :::note
 
-You need to enable _IPv6 interface_ setting in _Low-level settings_ first, otherwise this setting will not be applied.
+您需要先在「低级设置」中启用「_IPv6 界面_」设置，否则此设置不会被应用。
 
 :::
 
-### MTU (maximum transmission unit)
+### MTU（最大传输单元）
 
-Here you can set the maximum size (in bytes) of the data packet used in local VPN. The recommended range is 1500-9000 bytes.
+您可以在此设置本地 VPN 使用的数据包最大大小（以字节为单位）。 推荐范围是 1500–9000 字节。
 
-### Excluded apps
+### 排除的应用程序
 
-You can list here UIDs (unique identifiers) or package names of the apps that you want to exclude from VPN routing.
-Unlike with apps added to regular _Exclusions_, the traffic of apps added to _Excluded apps_ doesn’t go to the local VPN service on your device at all. Instead, it goes directly to the destination.
+您可以在此处列出想要从 VPN 路由中排除的应用程序的 UID（唯一标识符）或包名。
+与添加到常规「_排除项_」中的应用程序不同，添加到「_已排除应用程序_」中的应用程序的流量完全不会经过您设备上的本地 VPN 服务。 相反，它直接到达目的地。
 
-### Proxy server port
+### 代理服务器端口
 
-Here you can set up the internal SOCKS5 proxy server port. The default option is 1080.
+这里可以设置内部 SOCKS5 代理服务器端口。 The default option is 1080.

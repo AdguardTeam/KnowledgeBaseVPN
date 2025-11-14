@@ -19,7 +19,7 @@ s - Speed up check
 x - Cancel
 ```
 
-select `b` to open the authentication page in your default browser. Enter your email address. Once you are logged in, you will see the message _Successfully logged in_ in the Terminal.
+varsayılan tarayıcınızda kimlik doğrulama sayfasını açmak için `b` öğesini seçin. E-posta adresinizi girin. Once you are logged in, you will see the message _Successfully logged in_ in the Terminal.
 
 You can set up your preferred login method (password or one-time code) and two-factor authentication in your [AdGuard account](https://adguardaccount.com/account/settings).
 

@@ -9,6 +9,12 @@ Chcete-li to povolit, podívejte se na nápovědu bash-completion, která se zob
 
 ![bash-completion hint](https://cdn.adguard-vpn.com/blog/new/6x3djbash-completion-hint.png)
 
+If you did not enable completions during installation and would like to do so later, edit your shell configuration file, typically located in your home directory such as `~/.bashrc` or `~/.zshrc`, and add the following line. You will need to update the path if you chose a different output directory during installation.
+
+```sh
+[ -s "/opt/adguardvpn_cli/bash-completion.sh" ] && \. "/opt/adguardvpn_cli/bash-completion.sh"
+```
+
 Chcete-li tuto funkci použít, stačí začít psát požadovaný příkaz a stisknout klávesu Tab ↹ — příkaz se automaticky doplní o potřebné slovo nebo se zobrazí výběr možností doplnění.
 
 ![bash-completion locations command](https://cdn.adguard-vpn.com/blog/new/1g4nhVPN-CLI-autocomplete.png)
