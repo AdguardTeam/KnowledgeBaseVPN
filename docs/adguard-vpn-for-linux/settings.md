@@ -60,12 +60,6 @@ To set the SOCKS5 mode, type:
 
     adguardvpn-cli config set-mode SOCKS
 
-To set the SOCKS5 port, type:
-
-    adguardvpn-cli config set-socks-port <port_number>
-
-Replace `<port_number>` with the port you want to connect to.
-
 :::note
 
 AG VPN CLI provides both TCP and UDP proxying when operating in SOCKS5 mode. However, some apps don’t support UDP via SOCKS5 proxy. For example, if you specify SOCKS5 in browser, it will always use TCP-based protocols (HTTP/1.1 and HTTP/2).
@@ -87,6 +81,12 @@ Replace `<username>` and `<password>` with your desired username and password. T
 
     adguardvpn-cli config clear-socks-auth
 
+To set the SOCKS5 port, type:
+
+    adguardvpn-cli config set-socks-port <port_number>
+
+Replace `<port_number>` with the port you want to connect to.
+
 ## DNS upstream address
 
 To set a DNS upstream, type:
@@ -105,7 +105,7 @@ You can choose how AdGuard VPN CLI routes traffic through the VPN tunnel. Routin
 
 AdGuard VPN CLI brings the TUN interface up but does not modify the system routing table. No default route to the tunnel is installed — traffic continues to use existing OS routes.
 
-Use this if you want to manage routes yourself (manually or with third-party tools), or when you only use the SOCKS5 proxy mode and do not need the system to push traffic into the TUN.
+Use this if you want to manage routes yourself (manually or with third-party tools).
 
 To set the tunnel routing mode to NONE (no routing), type:
 
