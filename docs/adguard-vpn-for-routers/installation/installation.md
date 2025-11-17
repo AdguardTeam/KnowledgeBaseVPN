@@ -77,6 +77,12 @@ You’ll need to update your router settings if you want to change the VPN serve
 
 ## Routers known to be incompatible with AdGuard VPN
 
-- **ASUS**
-    - Only has IPsec in the *VPN Server* settings, and not in the correct *VPN Fusion*/*VPN Client* settings
-- **FRITZ!Box**
+Below are the routers that are currently known to have compatibility issues:
+
+### ASUS
+
+ASUS routers do not support IKEv2/IPsec, so you cannot set them up using the general method mentioned above. However, routers running the Asuswrt-Merlin custom firmware can install **AdGuard VPN CLI**, which makes the CLI installation method fully supported.
+
+### FRITZ!Box
+
+FRITZ!Box routers do not support IKEv2/IPsec, and due to their closed firmware, it is not possible to install or run AdGuard VPN CLI on them.
