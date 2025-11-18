@@ -105,7 +105,7 @@ With AdGuard VPN CLI, you can choose how traffic is routed through the VPN tunne
 
 AdGuard VPN CLI brings up the TUN interface but does not modify the system routing table. No default route to the tunnel is installed, so traffic continues to use the existing OS routes.
 
-Use this if you want to manage routes yourself (manually or with third-party tools).
+Use this option if you want to manage routes yourself manually or with third-party tools.
 
 To set the tunnel routing mode to NONE (no routing), type:
 
