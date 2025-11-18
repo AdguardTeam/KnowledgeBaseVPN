@@ -99,7 +99,7 @@ Replace `<server_address>` with the address of your DNS server. To use this DNS 
 
 ## VPN tunnel routing mode: NONE, AUTO, or SCRIPT
 
-You can choose how AdGuard VPN CLI routes traffic through the VPN tunnel. Routing mode controls system routing when the TUN interface is active. It does not auto-redirect traffic in SOCKS5/proxy mode: apps must be configured to use the local SOCKS5 proxy in that case.
+With AdGuard VPN CLI, you can choose how traffic is routed through the VPN tunnel. The routing mode controls system routing when the TUN interface is active. It does not automatically redirect traffic in SOCKS5/proxy mode; apps must be configured to use the local SOCKS5 proxy in that case.
 
 ### NONE — no routing changes
 
