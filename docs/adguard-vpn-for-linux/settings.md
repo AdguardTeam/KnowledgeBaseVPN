@@ -127,7 +127,7 @@ To set the tunnel routing mode to AUTO (automatic routing), type:
 
 ### SCRIPT — user-defined routing
 
-AdGuard VPN CLI executes a user-supplied script to add/remove routes when the tunnel state changes. You fully control what goes through the tunnel and what stays direct.
+AdGuard VPN CLI executes a user-supplied script that adds or removes routes when the tunnel state changes. You have full control over what goes through the tunnel and what stays direct.
 
 To set the tunnel routing mode to SCRIPT (custom routing script), type:
 
