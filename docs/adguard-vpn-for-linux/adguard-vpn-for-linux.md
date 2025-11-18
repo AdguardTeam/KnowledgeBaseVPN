@@ -16,6 +16,6 @@ Follow the links below to find information on installing, setting up, and using 
 - [Exclusions](/adguard-vpn-for-linux/exclusions)
 - [AdGuard for Linux interaction](/adguard-vpn-for-linux/interaction-adguard-cli)
 
-To view all available commands, first open Terminal. On Linux, press `Ctrl+Alt+T`. On your Mac, type `Terminal` in the search field. Then type:
+Open the Terminal to view all available commands. On Linux, press Ctrl+Alt+T. On macOS, search for it in Spotlight. Then, type:
 
     adguardvpn-cli --help-all
