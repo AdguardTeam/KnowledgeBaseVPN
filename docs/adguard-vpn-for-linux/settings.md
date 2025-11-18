@@ -117,7 +117,7 @@ AdGuard VPN CLI creates and maintains the minimal set of routes required for the
 
 - Installing and adjusting routes so eligible traffic (according to your allow, deny, and exclusion settings) flows through the TUN interface.
 - Preserving access to local networks (commonly RFC1918 subnets) and other exclusions, so that your LAN, printers, and routers remain reachable.
-- Reacting to reconnects/endpoint changes (reapplying routes as needed).
+- Reacting to reconnects and endpoint changes by reapplying routes as needed.
 
 Use AUTO if you want a “just works” configuration with system-wide protection and no per-app setup.
 
