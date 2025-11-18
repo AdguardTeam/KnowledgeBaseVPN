@@ -43,7 +43,7 @@ To set the default tunnel mode, type:
 
 When SOCKS5 mode is enabled, AdGuard VPN:
 
-- Starts a local SOCKS5 proxy that by default listens on 127.0.0.1:1080 (configurable via `set-socks-host` and `set-socks-port` commands).
+- Starts a local SOCKS5 proxy that by default listens on 127.0.0.1:1080 (configurable via the `set-socks-host` and `set-socks-port` commands).
 - Only applications explicitly configured to use this proxy will send their traffic through AdGuard VPN.
 - Does not change system routes or DNS by itself. Traffic is not redirected automatically. The `set-dns` and `set-change-system-dns` commands are inactive. DNS behavior is determined solely by each app’s settings.
 
