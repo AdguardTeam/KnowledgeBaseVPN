@@ -116,7 +116,7 @@ To set the tunnel routing mode to NONE (no routing), type:
 AdGuard VPN CLI creates and maintains the minimal set of routes required for the tunnel to work system-wide. Typical behavior includes:
 
 - Installing and adjusting routes so eligible traffic (according to your allow, deny, and exclusion settings) flows through the TUN interface.
-- Preserving access to local networks (commonly RFC1918 subnets) and other exclusions so your LAN, printers, and routers remain reachable.
+- Preserving access to local networks (commonly RFC1918 subnets) and other exclusions, so that your LAN, printers, and routers remain reachable.
 - Reacting to reconnects/endpoint changes (reapplying routes as needed).
 
 Use AUTO if you want a “just works” configuration with system-wide protection and no per-app setup.
