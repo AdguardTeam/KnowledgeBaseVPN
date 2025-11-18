@@ -49,7 +49,7 @@ When SOCKS5 mode is enabled, AdGuard VPN:
 
 :::note
 
-To avoid DNS leaks, use a client that resolves hostnames via the proxy (often denoted as `socks5h` in tools like `curl`). If an app resolves hostnames locally, system DNS may bypass the proxy.
+To prevent DNS leaks, use a client that resolves hostnames via the proxy (often denoted as `socks5h` in tools like `curl`). If an app resolves hostnames locally, system DNS may bypass the proxy.
 
     curl -x socks5://127.0.0.1:1080 https://example.com
     curl -x socks5h://127.0.0.1:1080 https://example.com
