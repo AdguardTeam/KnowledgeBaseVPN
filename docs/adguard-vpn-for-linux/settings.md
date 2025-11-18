@@ -62,7 +62,7 @@ To set the SOCKS5 mode, type:
 
 :::note
 
-AG VPN CLI provides both TCP and UDP proxying when operating in SOCKS5 mode. However, some apps don’t support UDP via SOCKS5 proxy. For example, if you specify SOCKS5 in browser, it will always use TCP-based protocols (HTTP/1.1 and HTTP/2).
+AdGuard VPN CLI provides both TCP and UDP proxying in SOCKS5 mode. However, some apps don’t support UDP via a SOCKS5 proxy. For instance, if you select SOCKS5 in your browser, it will use TCP-based protocols (HTTP/1.1 and HTTP/2) by default.
 
 :::
 
