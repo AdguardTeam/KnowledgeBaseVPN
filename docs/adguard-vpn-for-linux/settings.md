@@ -26,15 +26,6 @@ When TUN mode is enabled, AdGuard VPN:
 - Captures IP packets transparently for all apps that match the routing rules — no per-app configuration is required.
 - Routes DNS queries through the tunnel to prevent leaks (unless a domain/app is excluded).
 
-:::note
-
-DNS behavior depends on the `set-change-system-dns` parameter:
-
-- `on` (default): System DNS settings are changed to route DNS queries through the VPN tunnel to the DNS server specified in `set-dns`
-- `off`: System DNS settings remain unchanged, DNS queries can bypass the VPN tunnel
-
-:::
-
 To set the default tunnel mode, type:
 
     adguardvpn-cli config set-mode TUN
@@ -45,7 +36,7 @@ When SOCKS5 mode is enabled, AdGuard VPN:
 
 - Starts a local SOCKS5 proxy that by default listens on 127.0.0.1:1080 (configurable via the `set-socks-host` and `set-socks-port` commands).
 - Only applications explicitly configured to use this proxy will send their traffic through AdGuard VPN.
-- Does not change system routes or DNS by itself. Traffic is not redirected automatically. The `set-dns` and `set-change-system-dns` commands are inactive. DNS behavior is determined solely by each app’s settings.
+- Does not change system routes or DNS by itself. Traffic is not redirected automatically.
 
 :::note
 
@@ -95,7 +86,15 @@ To set a DNS upstream, type:
 
 Replace `<server_address>` with the address of your DNS server. To use this DNS server at the system level, type:
 
-    adguardvpn-cli config set-system-dns on
+    adguardvpn-cli config set-change-system-dns on
+
+If you set the parameter to `off`, the system DNS settings remain unchanged and DNS queries may bypass the VPN tunnel.
+
+:::note
+
+In SOCKS5 mode the `set-dns` and `set-change-system-dns` commands are inactive. DNS behavior is determined solely by each app’s settings.
+
+:::
 
 ## VPN tunnel routing mode: NONE, AUTO, or SCRIPT
 
