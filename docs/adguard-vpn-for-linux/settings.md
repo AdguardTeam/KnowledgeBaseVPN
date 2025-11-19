@@ -21,7 +21,7 @@ Requires administrator rights.
 
 When TUN mode is enabled, AdGuard VPN:
 
-- Creates a virtual Layer-3 interface (e.g., tunX/utunX depending on OS).
+- Creates a virtual Layer-3 interface (tunX or utunX, depending on the operating system).
 - Updates the system routing table so that the default route (or only selected subnets if you use exclusions) is sent through this interface.
 - Captures IP packets transparently for all apps that match the routing rules — no per-app configuration is required.
 - Routes DNS queries through the tunnel to prevent leaks (unless a domain/app is excluded).
