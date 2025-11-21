@@ -26,7 +26,7 @@ Usar o AdGuard VPN é muito fácil. Na tela principal, você pode ver o botão *
 
 O ping mostra o tempo de resposta do servidor em milissegundos. Isso indica a velocidade da conexão VPN quando você se conectar a esse local. Selecionar um servidor com um ping de 22 ms significa que um pacote de dados enviado a este servidor será retornado em 22 ms.
 
-Com o AdGuard VPN, você pode escolher entre mais de 50 locais em dezenas de países.
+With AdGuard VPN, you can choose from over 85 locations in dozens of countries.
 
 ![Tela principal e locais *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.7/home-locations-vpn-ios.png)
 
@@ -151,6 +151,14 @@ Esta opção pode ser usada para enviar os logs do aplicativo e informações do
 #### Dados de diagnóstico
 
 Esta opção permite exportar informações técnicas que podem ser úteis na resolução de problemas e que às vezes são solicitadas por nossa equipe de suporte e desenvolvedores.
+
+#### Protocolo do AdGuard VPN
+
+![Selecione o protocolo VPN *mobile_border](https://cdn.adtidy.org/content/release_notes/vpn/ios/v2.8/Auto_EN.PNG)
+
+Por padrão, o Protocolo do AdGuard VPN usa a seleção dinâmica de protocolo VPN (opção *Seleção automática*). Isso significa que o AdGuard VPN determina automaticamente qual protocolo — HTTP2/TLS ou HTTP3/QUIC — oferecerá o melhor desempenho e muda para ele instantaneamente. Isso melhora a velocidade e a estabilidade da VPN, o que é especialmente útil em regiões onde o uso de VPN é restrito ou instável.
+
+Se desejar, você pode alternar o AdGuard VPN para usar apenas o protocolo HTTP2/TLS ou HTTP3/QUIC em vez de *Seleção automática*. Cada protocolo tem seus pontos fortes, mas a melhor escolha pode variar dependendo da sua localização, das condições da rede e até mesmo do servidor ao qual você se conecta.
 
 ### Enviar dados técnicos e de interação
 
