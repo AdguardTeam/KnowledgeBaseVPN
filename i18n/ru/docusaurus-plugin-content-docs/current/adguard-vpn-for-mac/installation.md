@@ -26,27 +26,25 @@ sidebar_position: 2
 
 AdGuard VPN для Mac установлен!
 
-### Installation on older versions of macOS
+### Установка на старые версии macOS
 
-Users running older versions of macOS (Catalina 10.15 and earlier) won’t find a compatible app version in the download section of the AdGuard VPN website, as these OS versions are no longer supported in the latest releases.
-
-However, you still can [download an older, compatible version](https://agrd.io/adguard_vpn_for_macoscatalina)
+Since version 2.6, AdGuard VPN for Mac no longer supports macOS versions older than Big Sur. However, if you’re using macOS 10.15 Catalina, you can still [download and install an older, compatible version](https://agrd.io/adguard_vpn_for_macoscatalina) of the app.
 
 ## Как удалить AdGuard VPN для Mac
 
 ### Стандартное удаление
 
-Чтобы удалить AdGuard VPN для Mac, выполните два простых шага:
+To uninstall AdGuard VPN for Mac, follow two simple steps:
 
 1. Откройте Finder и в нём перейдите в раздел «Программы».
 
 2. Выберите в списке *AdGuard VPN*, кликните по нему правой кнопкой мыши и нажмите *Переместить в корзину*.
 
-![Стандартное удаление](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-uninstall-1-en.png)
+![Standard uninstallation](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-uninstall-1-en.png)
 
 ### Продвинутое удаление
 
-Иногда, в результате неправильного удаления или в других редких случаях, стандартного удаления может оказаться недостаточно. В этом случае в поддержке вас могут попросить выполнить расширенное удаление, чтобы полностью удалить AdGuard VPN с вашего Mac. Для этого выполните следующие шаги:
+Sometimes, as a result of incorrect removal or in other rare cases, the standard uninstallation may not be enough. In that case, our support may ask you to perform an advanced uninstall to completely remove AdGuard VPN from your Mac. To do this, do the following:
 
 1. Выполните действия, описаннные в разделе [Стандартное удаление](#how-to-uninstall-adguard-vpn-for-mac).
 2. Откройте Finder и в поиске введите `Связка ключей`. ![Продвинутое удаление Введите «Связка ключей»](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-key-chain-en.png)
@@ -55,6 +53,6 @@ However, you still can [download an older, compatible version](https://agrd.io/a
 5. Откройте найденную программу и введите команду — `defaults delete com.adguard.mac.vpn`.
 6. Нажмите *Пробел* и введите ещё одну команду — `rm -f ~/Library/Group\ Containers/TC3Q7MAJXF.com.adguard.mac/Library/Preferences/TC3Q7MAJXF.com.adguard.mac.plist`.
 
-AdGuard VPN полностью удалён с вашего Mac.
+AdGuard VPN has been completely removed from your Mac.
 
-Подробнее об AdGuard VPN для Mac вы можете узнать [в этой статье](/adguard-vpn-for-mac/overview).
+You can learn more about AdGuard VPN for Mac in [this article](/adguard-vpn-for-mac/overview).
