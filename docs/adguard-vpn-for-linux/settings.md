@@ -92,7 +92,7 @@ If you set the parameter to `off`, the system DNS settings remain unchanged and 
 
 :::note
 
-In SOCKS5 mode the `set-dns` and `set-change-system-dns` commands are inactive. DNS behavior is determined solely by each app’s settings.
+In SOCKS5 mode, the `set-dns` and `set-change-system-dns` commands are inactive. The DNS behavior is determined solely by the settings of each app.
 
 :::
 
