@@ -1,74 +1,76 @@
 ---
-title: Low-level settings guide
+title: Guida alle impostazioni di basso livello
 sidebar_position: 6
 ---
 
-## How to reach Low-level settings
+## Come trovare le impostazioni di basso livello
 
 :::caution
 
-Changing _Low-level settings_ can cause problems with the performance of AdGuard VPN, may break the Internet connection or compromise your security and privacy. You should only open this section if you know what you are doing, or if you were asked to do so by our support team.
+Modificare le _Impostazioni di basso livello_ può causare problemi con le prestazioni di AdGuard VPN, interrompere la connessione alla rete globale o compromettere sicurezza e riservatezza. Questa sezione dovrebbe essere aperta soltanto se sai cosa stai facendo, o se ti è stato richiesto di farlo dal nostro gruppo di assistenza.
 
 :::
 
-To access _Low-level settings_, open the AdGuard VPN app and tap the gear icon in the lower right corner of the screen. Then choose _General_ → _Advanced_ → _Low-level settings_.
+Per accedere alle _Impostazioni di Basso Livello_, apri l'app di AdGuard VPN e tocca sull'icona dell'ingranaggio nell'angolo inferiore destro dello schermo. Quindi, scegli _Generale_ → _Avanzate_ → _Impostazioni di Basso Livello_.
 
-## Low-level settings
+## Impostazioni di basso livello
 
-Below we list all low-level settings available in AdGuard VPN for Android and explain what they do. We once again urge you not to mess with these settings blindly even if you’ve read this guide. Treat it as a cheat sheet for when you know what you are doing but want to brush up on specifics.
+Di seguito elenchiamo tutte le impostazioni di basso livello disponibili in AdGuard VPN per Android e spieghiamo cosa fanno. Ti esortiamo ancora una volta a non manomettere queste impostazioni alla cieca, anche se hai letto questa guida. Trattala come un promemoria per quando sai cosa stai facendo ma vuoi ripassare le specifiche.
 
-### AdGuard VPN protocol
+### Protocollo AdGuard VPN
 
-By default, AdGuard VPN protocol uses HTTP/2 transport protocol to avoid detection and to maintain high speed. You can read more about its implementation in a [dedicated article](/general/adguard-vpn-protocol.md).
+Per impostazione predefinita, il protocollo AdGuard VPN usa il protocollo di trasporto HTTP/2 per evitare il rilevamento e mantenere alta velocità. Ciò significa che AdGuard VPN individua automaticamente quale protocollo (HTTP2/TLS o HTTP3/QUIC) offre le prestazioni migliori e passa immediatamente a quello. Questo migliora la velocità e la stabilità della VPN, il che è particolarmente utile nelle regioni in cui l'uso della VPN è limitato o inaffidabile.
 
-You can switch AdGuard VPN to use QUIC transport protocol instead. [QUIC](https://adguard-vpn.com/kb/general/why-adguard-vpn/#6-quic-support) is a relatively new protocol, hence it can be less stable. However, if your Internet connection is unstable (for example, when you connect to the public Wi-Fi), it provides better security and increases the connection speed thanks to the [Head-Of-Line Blocking](https://adguard-dns.io/en/blog/dns-over-quic.html#headoflineblocking) technology.
+Se sai cosa stai facendo, puoi impostare AdGuard VPN in modo che utilizzi solo il protocollo HTTP2/TLS o HTTP3/QUIC anziché _Selezione automatica_. [QUIC](https://adguard-vpn.com/kb/general/why-adguard-vpn/#6-quic-support) è un protocollo relativamente nuovo, pertanto può essere meno stabile. Tuttavia, se la tua connessione a Internet è instabile (ad esempio, quando ti connetti al Wi-Fi pubblico), fornisce una migliore sicurezza e aumenta la velocità di connessione grazie alla tecnologia [Head-Of-Line Blocking](https://adguard-dns.io/en/blog/dns-over-quic.html#headoflineblocking).
 
-### Include Wi-Fi gateway in VPN routes
+Inoltre, qui trovi un articolo dedicato al protocollo: [Come funziona il Protocollo AdGuard VPN](/general/adguard-vpn-protocol.md).
 
-If this setting is enabled, the gateway IP addresses will be added to VPN routes when on Wi-Fi.
-If you disable it, then the route configuration (IP ranges that are filtered) will be changed. The Wi-Fi gateway of the network to which the user is connected will be excluded, and therefore, it will not be subject to filtering.
+### Includere il gateway Wi-Fi nei percorsi VPN
 
-This setting is enabled by default.
+Se quest'impostazione è abilitata, gli indirizzi IP del gateway saranno aggiunti ai percorsi della VPN, quando si è connessi alla Wi-Fi.
+Se la disabiliti, allora la configurazione del percorso (intervalli IP che sono filtrati) sarà modificata. Il gateway Wi-Fi della rete a cui l'utente è collegato sarà escluso e quindi non sarà soggetto al filtraggio.
 
-### Packet capture (PCAP)
+Questa impostazione è abilitata per impostazione predefinita.
 
-If this setting is enabled, AdGuard VPN will create a `.pcap` file with a timestamp for its name (for instance, `1682599851461.pcap`) in the app cache directory. This file lists all network packets transferred through the VPN and can be analyzed with the [Wireshark program](https://www.wireshark.org/).
+### Cattura pacchetti (PCAP)
+
+Se quest'impostazione è abilitata, AdGuard VPN creerà un file `.pcap` con un timestamp per il suo nome (ad esempio, `1682599851461.pcap`) nella cartella della cache dell'app. Questo file elenca tutti i pacchetti di rete trasferiti tramite la VPN ed è analizzabile con il [programma Wireshark](https://www.wireshark.org/).
 
 ### Watchdog
 
-Watchdog monitors the VPN process state to check if there are any problems with it. When enabled, AdGuard VPN will protect itself against aggressive battery saver apps that could otherwise kill it.
+Watchdog monitora lo stato del processo VPN per controllare se ci sono qualunque problemi a esso correlati. Quando abilitato, AdGuard VPN si proteggerà da app aggressive di risparmio batteria che altrimenti potrebbero interromperlo.
 
-### Preferred IP version
+### Versione IP preferita
 
-Here you can set up the endpoint addresses. There are three options: IPv4, IPv6 or IPv4 and IPv6 (if your device supports both).
+Qui puoi impostare gli indirizzi del punto finale. Ci sono tre opzioni: IPv4, IPv6 o IPv4 e IPv6 (se il tuo dispositivo supporta entrambi).
 
-### IPv4 ranges excluded from VPN
+### Intervalli di rete IPv4 esclusi dalla VPN
 
-VPN tunneling for the IPv4 ranges listed in this section will be disabled.
+L'instradamento VPN per gli intervalli IPv4 elencati in questa sezione sarà disabilitato.
 
-### IPv6 interface
+### Interfaccia IPv6
 
-After enabling this option you will have an IPv6 address while routing traffic through the VPN connection. You can set up the exclusions in the _IPv6 ranges excluded from VPN_.
+Dopo aver abilitato questa opzione, avrai un indirizzo IPv6 mentre instradi il traffico attraverso la connessione VPN. Puoi impostare le esclusioni negli _intervalli IPv6 esclusi dalla VPN_.
 
-### IPv6 ranges excluded from VPN
+### Intervalli IPv6 esclusi dalla VPN
 
-VPN tunneling for the IPv6 ranges listed in this section will be disabled.
+L'instradamento VPN per gli intervalli IPv6 elencati in questa sezione sarà disabilitato.
 
 :::note
 
-You need to enable _IPv6 interface_ setting in _Low-level settings_ first, otherwise this setting will not be applied.
+Devi prima abilitare l'impostazione _interfaccia IPv6_ in _Impostazioni avanzate_, altrimenti questa impostazione non sarà applicata.
 
 :::
 
-### MTU (maximum transmission unit)
+### MTU (unità massima di trasmissione)
 
-Here you can set the maximum size (in bytes) of the data packet used in local VPN. The recommended range is 1500-9000 bytes.
+Qui puoi impostare la dimensione massima (in byte) dei pacchetti dati usati nella VPN locale. L'intervallo consigliato è di 1500-9000 byte.
 
-### Excluded apps
+### App escluse
 
-You can list here UIDs (unique identifiers) or package names of the apps that you want to exclude from VPN routing.
-Unlike with apps added to regular _Exclusions_, the traffic of apps added to _Excluded apps_ doesn’t go to the local VPN service on your device at all. Instead, it goes directly to the destination.
+Puoi elencare qui gli UID (identificatori unici) o i nomi dei pacchetti delle app che desideri escludere dall'instradamento VPN.
+A differenza delle app aggiunte alle _Esclusioni_ regolari, il traffico delle app aggiunte a _App escluse_ non va al servizio VPN locale sul tuo dispositivo. Invece, va direttamente alla destinazione.
 
-### Proxy server port
+### Porta del Server Proxy
 
-Here you can set up the internal SOCKS5 proxy server port. The default option is 1080.
+Qui puoi impostare la porta del server proxy SOCKS5 interno. L'opzione predefinita è 1080.

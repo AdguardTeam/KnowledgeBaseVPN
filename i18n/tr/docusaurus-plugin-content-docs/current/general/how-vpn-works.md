@@ -71,7 +71,7 @@ VPN hizmetimizin birkaç önemli [avantajı](/general/why-adguard-vpn) vardır:
 
 - [_Günlük tutmama politikası_](https://adguard-vpn.com/privacy.html), AdGuard VPN'in asla bu tür verileri toplamaması nedeniyle hiçbir kişisel verinin üçüncü taraflarla paylaşılamayacağı anlamına gelir
 
-- _Onlarca ülkede 50'den fazla VPN sunucusu_
+- _More than 85 VPN servers in dozens of countries_
 
 - _Kullanım kolaylığı ve kapsamlı özelleştirme seçenekleri_
 

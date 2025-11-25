@@ -3,7 +3,7 @@ title: ログの収集と送信方法
 sidebar_position: 2
 ---
 
-If you encounter any problem while using AdGuard VPN for Android, you can inform us about it by sending the app logs.
+AdGuard VPN for Android の使用時に問題が発生した場合、アプリのログを送信することで問題についての情報をお知らせいただくことが可能です。
 
 ## 通常ログの収集と送信
 
@@ -13,13 +13,13 @@ If you encounter any problem while using AdGuard VPN for Android, you can inform
 
 1. Open *Settings* → *Support* → *Report a bug*.
 
-1. フォームに、折り返し連絡用メールアドレスを入力し、見つかった問題についての概要と発生時間などを記述してください。 If you can’t reproduce the problem, specify as accurately as possible when it last occurred.
+1. フォームに、折り返し連絡用メールアドレスを入力し、見つかった問題についての概要と発生時間などを記述してください。 問題を再現できない場合は、最後に発生した日時を可能な限り正確に記述してください。
 
 1. Check *Send app logs and system info*. Your logs will be sent along with the report.
 
 :::note
 
-You can also export and send logs manually. To do this, go to *Settings* → *General* → *Advanced* and tap *Export logs and system info*.
+また、手動でログをエクスポートして送信することもできます。 To do this, go to *Settings* → *General* → *Advanced* and tap *Export logs and system info*.
 
 :::
 

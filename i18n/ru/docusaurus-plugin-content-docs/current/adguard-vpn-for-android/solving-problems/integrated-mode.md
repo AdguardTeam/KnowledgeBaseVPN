@@ -3,16 +3,16 @@ title: Совместимость с блокировщиком AdGuard
 sidebar_position: 3
 ---
 
-По умолчанию в AdGuard VPN включён режим работы VPN, который использует собственный протокол [AdGuard VPN](/general/adguard-vpn-protocol). Он обеспечивает лучшую комбинацию скорости и безопасности соединения. Однако этот режим не позволяет одновременно работать AdGuard VPN и Блокировщику рекламы AdGuard. The Integrated mode, in turn, uses a special internal protocol, which makes it possible for the two apps to work together.
+По умолчанию в AdGuard VPN включён режим работы VPN, который использует собственный протокол [AdGuard VPN](/general/adguard-vpn-protocol). Он обеспечивает лучшую комбинацию скорости и безопасности соединения. Однако этот режим не позволяет одновременно работать AdGuard VPN и Блокировщику рекламы AdGuard. Режим интеграции, в свою очередь, использует специальный внутренний протокол, который позволяет двум приложениям работать вместе.
 
-### How to enable Integrated mode
+### Как включить Режим интеграции
 
-If you have AdGuard Ad Blocker, Integrated Mode will turn on automatically when you install AdGuard VPN, allowing you to use both apps at the same time.
+Если у вас установлен блокировщик рекламы AdGuard, Режим интеграции включится автоматически при установке AdGuard VPN, что позволит вам использовать оба приложения одновременно.
 
-If you are installing AdGuard Ad Blocker after AdGuard VPN, follow these steps to use them together:
+Если вы устанавливаете блокировщик рекламы AdGuard после AdGuard VPN, выполните следующие действия для их совместного использования:
 
-1. Open AdGuard VPN for Android and tap the gear icon in the bottom-right corner of the screen.
+1. Откройте AdGuard VPN для Android и нажмите на иконку шестерёнки в правом нижнем углу экрана.
 
 2. Перейдите *в Расширенные настройки* и выберите *Режим работы*.
 
-3. Переключитесь *на Интегрированный режим*. Готово!
+3. Переключитесь *на Режим интеграции*. Готово!
