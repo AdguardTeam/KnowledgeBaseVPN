@@ -27,7 +27,7 @@ Menüdeki *İstatistikler* bölümü, VPN bağlantınızdan ne kadar veri geçti
 
 ![İstatistikler *mobile](https://cdn.adtidy.org/content/release_notes/vpn/browser_extension/Statistics.png)
 
-When stats can come in handy:
+İstatistikler ne zaman işe yarayabilir:
 
 - **Check if the VPN is actually working**. A quick look at the stats confirms that your connection is active and data is routed through the VPN.
 
@@ -70,9 +70,9 @@ Bir sonraki sekme, AdGuard VPN'in ana ayırt edici özelliklerinden birini içer
 
 When adding a website to an exclusion list, you can enter the website manually or select the **From the list** option. In the latter case, you’ll see eight categories (for example, *Shopping* or *Messengers*), each suggesting several popular services. You can exclude any of these services in one click. This will add all domains relevant to that specific service to exclusions.
 
-#### Import and export
+#### İçe ve dışa aktarma
 
-Not only can you add and remove websites, you can also transfer ready exclusions lists to other devices where AdGuard VPN is installed. To export your exclusions list, follow the 4-step instruction below:
+Yalnızca site ekleyip çıkarmakla kalmaz, ayrıca hazır istisna listelerini AdGuard VPN'nin yüklü olduğu diğer cihazlara da aktarabilirsiniz. İstisna listenizi dışa aktarmak için aşağıdaki 4 adımlı talimatı uygulayın:
 
 1. İstisnaların listesini dışa aktarmak istediğiniz yerden AdGuard VPN Tarayıcı uzantısını açın. Uygun bölümü bulun ve "Dışa aktar" düğmesine tıklayın. `exclusions.zip` arşivi indirilecektir.
 1. Arşivde, Genel ve Seçici listelerin her biri için birer tane olmak üzere iki `.txt` dosyası vardır. Bunlara daha fazla istisna ekleyin, mevcut olanları silin, dosyaları yeniden adlandırın veya arşivi olduğu gibi bırakın.

@@ -28,9 +28,7 @@ AdGuard VPN pro macOS je nainstalována!
 
 ### Instalace ve starších verzích macOS
 
-Uživatelé se staršími verzemi macOS (Catalina 10.15 a starší) nenajdou kompatibilní verzi aplikace v sekci ke stažení na webu AdGuard VPN, protože tyto verze operačního systému již nejsou v nejnovějších verzích podporovány.
-
-Stále si však můžete [stáhnout starší kompatibilní verzi](https://agrd.io/adguard_vpn_for_macoscatalina)
+Od verze 2.6, AdGuard VPN pro Mac již nepodporuje verze macOS starší než Big Sur. Pokud však používáte macOS 10.15 Catalina, můžete stále stáhnout [ a nainstalovat starší, kompatibilní verzi](https://agrd.io/adguard_vpn_for_macoscatalina) aplikace.
 
 ## Jak odinstalovat AdGuard VPN pro macOS
 
@@ -42,7 +40,7 @@ Chcete-li odinstalovat AdGuard VPN pro macOS, postupujte podle dvou jednoduchýc
 
 2. V seznamu vyberte *AdGuard VPN*, klikněte na ni pravým tlačítkem myši a poté klikněte na *Přesunout do koše*.
 
-![Standard uninstallation](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-uninstall-1-en.png)
+![Běžná odinstalace](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-uninstall-1-en.png)
 
 ### Pokročilá odinstalace
 

@@ -22,7 +22,7 @@ Allo stesso tempo puoi acquistare un abbonamento per ottenere una versione illim
 - 10 simultaneously connected devices
 - Traffico illimitato
 - Nessun limite di velocità
-- Tutte le 50+ posizioni sono disponibili
+- All 85+ locations are available
 - Streaming sicuro
 - Nessun blocco della porta 25
 
