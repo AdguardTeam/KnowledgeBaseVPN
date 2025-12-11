@@ -28,27 +28,25 @@ Mac için AdGuard VPN kuruldu!
 
 ### Installation on older versions of macOS
 
-Users running older versions of macOS (Catalina 10.15 and earlier) won’t find a compatible app version in the download section of the AdGuard VPN website, as these OS versions are no longer supported in the latest releases.
-
-However, you still can [download an older, compatible version](https://agrd.io/adguard_vpn_for_macoscatalina)
+2.6 sürümünden itibaren Mac için AdGuard VPN, Big Sur'dan daha eski macOS sürümlerini artık desteklemiyor. Ancak macOS 10.15 Catalina kullanıyorsanız, uygulamanın daha eski ve uyumlu bir sürümünü yine de [indirip kurabilirsiniz](https://agrd.io/adguard_vpn_for_macoscatalina).
 
 ## Mac için AdGuard VPN nasıl kaldırılır
 
 ### Standart kaldırma
 
-Mac için AdGuard VPN'i kaldırmak için iki basit adımı izleyin:
+To uninstall AdGuard VPN for Mac, follow two simple steps:
 
 1. *Finder* öğesini açın ve *Programlar* bölümüne gidin.
 
 2. Listeden *AdGuard VPN* öğesini seçin, sağ tıklayın ve ardından *Çöp Kutusu'na Taşı* öğesine tıklayın.
 
-![Standart kaldırma](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-uninstall-1-en.png)
+![Standard uninstallation](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-uninstall-1-en.png)
 
 ### Gelişmiş kaldırma
 
-Bazen hatalı kaldırma sonucunda veya diğer nadir durumlarda standart kaldırma yeterli olmayabilir. Bu durumda, desteğimiz AdGuard VPN'i Mac'inizden tamamen kaldırmak için gelişmiş bir kaldırma işlemi gerçekleştirmenizi isteyebilir. Bunu yapmak için aşağıdakileri yapın:
+Sometimes, as a result of incorrect removal or in other rare cases, the standard uninstallation may not be enough. In that case, our support may ask you to perform an advanced uninstall to completely remove AdGuard VPN from your Mac. Bunu yapmak için aşağıdakileri yapın:
 
-1. Follow the steps described in the section [Standard uninstallation](#how-to-uninstall-adguard-vpn-for-mac).
+1. [Standart kaldırma](#how-to-uninstall-adguard-vpn-for-mac) bölümünde açıklanan adımları izleyin.
 2. Finder veya Spotlight öğesini açın ve aramaya `Anahtar Zinciri` yazın. ![Gelişmiş kaldırma. Anahtar Zinciri yazın](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-key-chain-en.png)
 3. Bulunan programın simgesine tıklayın ve ara kısmına `com.adguard.mac.vpn` yazın. Arama sonuçlarında böyle bir kayıt varsa silin.
 4. Finder veya Spotlight öğesine geri dönün ve `Terminal` öğesine girin. ![Gelişmiş kaldırma. Terminale girin](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-terminal-en.png)
@@ -57,4 +55,4 @@ Bazen hatalı kaldırma sonucunda veya diğer nadir durumlarda standart kaldırm
 
 AdGuard VPN, Mac'inizden tamamen kaldırıldı.
 
-[Bu makalede](/adguard-vpn-for-mac/overview) Mac için AdGuard VPN hakkında daha fazla bilgi edinebilirsiniz.
+You can learn more about AdGuard VPN for Mac in [this article](/adguard-vpn-for-mac/overview).

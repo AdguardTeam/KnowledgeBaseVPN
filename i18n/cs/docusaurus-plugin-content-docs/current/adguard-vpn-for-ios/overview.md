@@ -26,7 +26,7 @@ Používání AdGuard VPN je poměrně snadné. Na hlavní obrazovce vidíte tla
 
 Ping znázorňuje dobu odezvy serveru v milisekundách. Tento údaj udává, jak rychlé bude připojení VPN, když se připojíte k danému umístění. Výběr serveru s pingem 22 ms znamená, že datový paket odeslaný na tento server se vrátí za 22 ms.
 
-S AdGuard VPN si můžete vybrat z více než 50 umístění v desítkách zemí.
+S AdGuard VPN si můžete vybrat z více než 85 umístění v desítkách zemí.
 
 ![Home and locations *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.7/home-locations-vpn-ios.png)
 
@@ -151,6 +151,14 @@ Tuto možnost lze použít k odesílání záznamů aplikace a systémových inf
 #### Diagnostická data
 
 Tato možnost umožňuje exportovat technické informace, které mohou být užitečné při řešení problémů a které jsou někdy vyžadovány naší podporou a vývojáři.
+
+#### AdGuard VPN protokol
+
+![Select VPN protocol *mobile_border](https://cdn.adtidy.org/content/release_notes/vpn/ios/v2.8/Auto_EN.PNG)
+
+Ve výchozím nastavení používá protokol AdGuard VPN dynamický výběr protokolu VPN (možnost *Automatický výběr*). To znamená, že AdGuard VPN automaticky zjistí, který protokol — HTTP2/TLS nebo HTTP3/QUIC — vám poskytne nejlepší výkon, a okamžitě na něj přepne. To zlepšuje rychlost a stabilitu VPN, což je obzvláště užitečné v regionech, kde je používání VPN omezené nebo nespolehlivé.
+
+Pokud chcete, můžete přepnout AdGuard VPN tak, aby místo *automatického výběru* používal pouze protokol HTTP2/TLS nebo HTTP3/QUIC. Každý protokol má své přednosti, ale nejlepší volba se může lišit v závislosti na vaší poloze, podmínkách sítě a dokonce i na serveru, ke kterému se připojujete.
 
 ### Odeslat technická a interakční data
 
