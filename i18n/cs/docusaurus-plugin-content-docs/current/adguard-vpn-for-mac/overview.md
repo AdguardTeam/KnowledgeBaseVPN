@@ -9,7 +9,7 @@ Všimněte si, že **nemůžete používat AdGuard VPN pro macOS, pokud jste se 
 
 :::note Kompatibilita
 
-AdGuard VPN pro macOS je v současné době podporována ve verzích macOS počínaje macOS Catalina (10.15).
+AdGuard VPN pro macOS je v současné době podporována ve verzích macOS počínaje macOS Big Sur (11).
 
 :::
 
@@ -117,6 +117,10 @@ Existují pouze dvě úrovně záznamu, ale důrazně doporučujeme používat p
 
 Přestože se tato možnost nachází v *Rozšířených nastavení*, lze ji bez váhání povolit. Ikonu AdGuard VPN můžete z panelu nabídek skrýt, nezabrání to běhu naší aplikace na pozadí.
 
-#### Použití QUIC
+##### AdGuard VPN protokol
 
-Komunikační protokol QUIC je nejnovější a nejmodernější verzí HTTP protokolu. Přepnutím přepínače získáte lepší kvalitu připojení v ne zcela ideálních podmínkách, například při používání mobilních dat v metru nebo ve výtahu.
+![Vybrat VPN protokol](https://cdn.adtidy.org/content/release_notes/vpn/mac/v2.7/protocol_en.png)
+
+Ve výchozím nastavení používá protokol AdGuard VPN dynamický výběr protokolu VPN (možnost *Automatický výběr*). To znamená, že AdGuard VPN automaticky zjistí, který protokol — HTTP2/TLS nebo HTTP3/QUIC — vám poskytne nejlepší výkon, a okamžitě na něj přepne. To zlepšuje rychlost a stabilitu VPN, což je obzvláště užitečné v regionech, kde je používání VPN omezené nebo nespolehlivé.
+
+Pokud chcete, můžete přepnout AdGuard VPN tak, aby místo *automatického výběru* používal pouze protokol HTTP2/TLS nebo HTTP3/QUIC. Každý protokol má své přednosti, ale nejlepší volba se může lišit v závislosti na vaší poloze, podmínkách sítě a dokonce i na serveru, ke kterému se připojujete.

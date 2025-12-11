@@ -22,7 +22,7 @@ Aynı zamanda, uygulamanın sınırsız bir sürümünü almak için bir aboneli
 - Aynı anda bağlı 10 cihaz
 - Sınırsız veri
 - Hız sınırı yok
-- 50'den fazla konumun tümü kullanılabilir
+- 85'ten fazla konumun tümü kullanılabilir
 - Güvenli canlı yayın akışı
 - Bağlantı noktası 25 bloğu yok
 

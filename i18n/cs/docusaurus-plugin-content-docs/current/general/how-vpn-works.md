@@ -71,7 +71,7 @@ Naše VPN má několik důležitých [výhod](/general/why-adguard-vpn):
 
 - [_Žádný záznam aktivit_](https://adguard-vpn.com/privacy.html), což znamená, že žádné osobní údaje nemohou být sdíleny s třetími stranami, protože AdGuard VPN takové údaje nikdy neshromažďuje
 
-- _Více než 50 VPN serverů v desítkách zemí_
+- _Více než 85 VPN serverů v desítkách zemí_
 
 - _Snadné používání a rozsáhlé možnosti přizpůsobení_
 

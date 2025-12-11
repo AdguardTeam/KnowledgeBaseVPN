@@ -26,7 +26,7 @@ AdGuard VPN iOS 版下一个优势是我们自建的 VPN 协议。 与其他 VPN
 
 Ping 值表示服务器的响应时间（毫秒）。 这表明当用户连接到该位置时 VPN 连接的速度有多快。 选择 Ping 为22毫秒的服务器，意味着发送至该服务器的数据包将在22毫秒内完成往返。
 
-在 AdGuard VPN 中，用户可以在数十个国家的 50 多个地点中选择服务器位置。
+With AdGuard VPN, you can choose from over 85 locations in dozens of countries.
 
 ![主界面和位置 *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.7/home-locations-vpn-ios_zh_cn.png)
 
@@ -151,6 +151,14 @@ AdGuard VPN iOS 版提供多款 DNS 服务器选择，每款皆具备独特特�
 #### 诊断数据
 
 此选项允许用户导出技术信息，这些信息对于解决问题很有用，有时会被我们的支持和开发人员请求。
+
+#### AdGuard VPN 协议
+
+![Select VPN protocol *mobile_border](https://cdn.adtidy.org/content/release_notes/vpn/ios/v2.8/Auto_EN.PNG)
+
+AdGuard VPN 协议默认使用动态 VPN 协议选择（「*自动选择*」选项）。 这意味着 AdGuard VPN 能自动判断 HTTP2/TLS 或 HTTP3/QUIC 哪种协议可提供最佳性能，并立即切换至该协议。 这样可以提升 VPN 的连接速度和稳定性，在 VPN 用法受限或不稳定的地区尤其有帮助。
+
+如果您愿意，可以将 AdGuard VPN 切换为仅使用 HTTP2/TLS 或 HTTP3/QUIC 协议，而不是「*自动选择*」。 每种协议都有其优点，但最佳选择可能会因您的所在地、网络状况，甚至所连接的服务器而有所不同。
 
 ### 发送技术和交互数据
 

@@ -83,7 +83,7 @@ IP-адрес по умолчанию для большинства роутер
 
 ### PuTTY (Windows 8 и более ранние версии)
 
-1. Скачайте и установите PuTTY [с официального сайта](https://www.putty.org/).
+1. Скачайте и установите PuTTY [с официального сайта](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html).
 
 2. Откройте PuTTY.
 
