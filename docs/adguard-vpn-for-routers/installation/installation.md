@@ -9,9 +9,9 @@ Installing AdGuard VPN directly on your router allows every device in your netwo
 
 If you use a MikroTik or Keenetic router, please check the dedicated setup guides below:
 
-- [How to set up AdGuard VPN on MikroTik routers](/docs/adguard-vpn-for-routers/installation/mikrotik.md)
+- [How to set up AdGuard VPN on MikroTik routers](/adguard-vpn-for-routers/installation/mikrotik.md)
 
-- [How to set up AdGuard VPN on Keenetic routers](/docs/adguard-vpn-for-routers/installation/keenetic.md)
+- [How to set up AdGuard VPN on Keenetic routers](/adguard-vpn-for-routers/installation/keenetic.md)
 
 :::
 
