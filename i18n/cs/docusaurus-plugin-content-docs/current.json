@@ -54,5 +54,13 @@
   "sidebar.sidebar.category.Setting up on a router": {
     "message": "Nastavení na routeru",
     "description": "The label for category Setting up on a router in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.AdGuard VPN for routers": {
+    "message": "AdGuard VPN pro routery",
+    "description": "The label for category AdGuard VPN for routers in sidebar sidebar"
+  },
+  "sidebar.sidebar.category.Installation": {
+    "message": "Instalace",
+    "description": "The label for category Installation in sidebar sidebar"
   }
 }

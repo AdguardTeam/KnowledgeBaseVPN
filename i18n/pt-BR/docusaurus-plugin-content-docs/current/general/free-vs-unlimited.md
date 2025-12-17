@@ -22,7 +22,7 @@ Ao mesmo tempo, você pode comprar uma assinatura para obter uma versão ilimita
 - 10 dispositivos conectados simultaneamente
 - Tráfego ilimitado
 - Sem limite de velocidade
-- Todos os mais de 50 locais estão disponíveis
+- All 85+ locations are available
 - Streaming seguro
 - Nenhum bloqueio de porta 25
 

@@ -5,11 +5,11 @@ sidebar_position: 3
 
 AdGuard VPN, kendi [AdGuard VPN protokolünü](/general/adguard-vpn-protocol) kullanan, varsayılan olarak etkinleştirilmiş VPN çalışma moduna sahiptir. Bağlantı hızı ve güvenliğin en iyi kombinasyonunu sağlar. Ancak bu çalışma modu, AdGuard VPN ve AdGuard Reklam Engelleyicinin aynı anda çalışmasına izin vermez. The Integrated mode, in turn, uses a special internal protocol, which makes it possible for the two apps to work together.
 
-### How to enable Integrated mode
+### Entegre mod nasıl etkinleştirilir
 
-If you have AdGuard Ad Blocker, Integrated Mode will turn on automatically when you install AdGuard VPN, allowing you to use both apps at the same time.
+AdGuard Reklam Engelleyiciniz varsa, AdGuard VPN'i yüklediğinizde Entegre Mod otomatik olarak açılır ve her iki uygulamayı aynı anda kullanmanıza olanak tanır.
 
-If you are installing AdGuard Ad Blocker after AdGuard VPN, follow these steps to use them together:
+AdGuard VPN'den sonra AdGuard Reklam Engelleyiciyi yüklüyorsanız, bunları birlikte kullanmak için şu adımları izleyin:
 
 1. Open AdGuard VPN for Android and tap the gear icon in the bottom-right corner of the screen.
 

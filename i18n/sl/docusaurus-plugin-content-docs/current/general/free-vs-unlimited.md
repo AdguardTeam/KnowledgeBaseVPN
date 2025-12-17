@@ -22,7 +22,7 @@ At the same time you can purchase a subscription to get an unlimited version of 
 - 10 simultaneously connected devices
 - Unlimited traffic
 - No speed cap
-- All 50+ locations are available
+- All 85+ locations are available
 - Secure streaming
 - No port 25 block
 

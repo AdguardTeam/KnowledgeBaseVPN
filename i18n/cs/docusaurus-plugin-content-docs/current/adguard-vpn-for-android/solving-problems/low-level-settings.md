@@ -19,9 +19,11 @@ Níže uvádíme všechna nízkoúrovňová nastavení dostupná v AdGuard VPN p
 
 ### AdGuard VPN protokol
 
-Ve výchozím nastavení používá protokol AdGuard VPN transportní protokol HTTP/2, aby nedošlo k detekci a byla zachována vysoká rychlost. Více informací o jeho implementaci si můžete přečíst ve [specializovaném článku](/general/adguard-vpn-protocol.md).
+Ve výchozím nastavení používá protokol AdGuard VPN dynamický výběr protokolu VPN (možnost _Automatický výběr_). To znamená, že AdGuard VPN automaticky zjistí, který protokol — HTTP2/TLS nebo HTTP3/QUIC — vám poskytne nejlepší výkon, a okamžitě na něj přepne. To zlepšuje rychlost a stabilitu VPN, což je obzvláště užitečné v regionech, kde je používání VPN omezené nebo nespolehlivé.
 
-AdGuard VPN můžete přepnout tak, aby místo toho používala transportní protokol QUIC. [QUIC](https://adguard-vpn.com/kb/general/why-adguard-vpn/#6-quic-support) je relativně nový protokol a proto může být méně stabilní. Pokud je však vaše internetové připojení nestabilní (např. při připojení k veřejné Wi-Fi), poskytuje lepší zabezpečení a zvyšuje rychlost připojení díky technologii [Head-Of-Line Blocking](https://adguard-dns.io/en/blog/dns-over-quic.html#headoflineblocking).
+Pokud víte, co děláte, můžete přepnout AdGuard VPN tak, aby místo _Automatického výběru_ používal pouze protokol HTTP2/TLS nebo HTTP3/QUIC. [QUIC](https://adguard-vpn.com/kb/general/why-adguard-vpn/#6-quic-support) je relativně nový protokol a proto může být méně stabilní. Pokud je však vaše internetové připojení nestabilní (např. při připojení k veřejné Wi-Fi), poskytuje lepší zabezpečení a zvyšuje rychlost připojení díky technologii [Head-Of-Line Blocking](https://adguard-dns.io/en/blog/dns-over-quic.html#headoflineblocking).
+
+Zde je také článek věnovaný tomuto protokolu: [Jak funguje protokol AdGuard VPN](/general/adguard-vpn-protocol.md).
 
 ### Zahrnout bránu Wi-Fi v trasách VPN
 
@@ -32,7 +34,7 @@ Toto nastavení je ve výchozím nastavení povoleno.
 
 ### Zachytávání paketů (PCAP)
 
-Pokud je toto nastavení povoleno, vytvoří AdGuard VPN v adresáři mezipaměti aplikace soubor `.pcap` s časovým razítkem (např. `1682599851461.pcap`). Tento soubor obsahuje seznam všech síťových paketů přenesených skrze VPN a lze jej analyzovat pomocí programu [Wireshark](https://www.wireshark.org/).
+Pokud je toto nastavení povoleno, AdGuard VPN vytvoří soubor `.pcap` s časovým razítkem v názvu (například `1682599851461.pcap`) v adresáři mezipaměti aplikace. Tento soubor obsahuje seznam všech síťových paketů přenesených skrze VPN a lze jej analyzovat pomocí programu [Wireshark](https://www.wireshark.org/).
 
 ### Hlídací pes
 
@@ -62,7 +64,7 @@ Nejprve je třeba povolit nastavení _rozhraní IPv6_ v části _Nízkoúrovňov
 
 ### MTU (maximální přenosová jednotka)
 
-Zde můžete nastavit maximální velikost (v bajtech) datového paketu používaného v lokální VPN. Doporučený rozsah je 1500 –9000 bajtů.
+Zde můžete nastavit maximální velikost (v bajtech) datového paketu používaného v lokální VPN. Doporučený rozsah je 1500-9000 bajtů.
 
 ### Vyloučené aplikace
 

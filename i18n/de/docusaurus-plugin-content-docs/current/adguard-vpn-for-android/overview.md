@@ -7,7 +7,7 @@ sidebar_position: 1
 
 Der Hauptbildschirm zeigt den VPN-Status an (Verbunden/Getrennt). Außerdem gibt es die Schaltfläche *Verbinden/Trennen* und eine Liste der verfügbaren Server.
 
-Jeder Server hat seinen Standort und seine Ping-Rate, die die Antwortzeit des Servers beschreibt. Je niedriger diese Rate ist, desto schneller ist die Verbindung. Die schnellsten Server stehen immer an der Spitze der Liste, die aus mehr als 50 Standorten in Dutzenden von Ländern besteht. Sie können sich mit dem schnellsten Server verbinden, indem Sie auf die Schaltfläche „*Verbinden*“ tippen oder einen Standort auswählen.
+Jeder Server hat seinen Standort und seine Ping-Rate, die die Antwortzeit des Servers beschreibt. Je niedriger diese Rate ist, desto schneller ist die Verbindung. The fastest servers always appear at the top of the list that consists of more than 85 locations in dozens of countries. Sie können sich mit dem schnellsten Server verbinden, indem Sie auf die Schaltfläche „*Verbinden*“ tippen oder einen Standort auswählen.
 
 ## Saved locations
 

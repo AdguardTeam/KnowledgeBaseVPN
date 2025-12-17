@@ -22,7 +22,7 @@ Gleichzeitig können Sie ein Abonnement erwerben, um eine unbegrenzte Version de
 - 10 gleichzeitig verbundene Geräte
 - Unbegrenzter Traffic
 - Unbegrenzte Geschwindigkeit
-- Alle 50+ Standorte sind verfügbar
+- All 85+ locations are available
 - Sicheres Streaming
 - Port 25 nicht sperren
 

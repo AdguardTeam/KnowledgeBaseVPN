@@ -65,7 +65,7 @@ Bazen destek ekibimiz sizden izleme günlüklerini göndermenizi isteyebilir. Bu
 
 1. Export the recorded logs: **Settings** → **App settings** → **Advanced settings** → **Export logs and system info**.
 
-Don’t worry if your log file is large. We need to know as many details as possible in order to fix your problem.
+Günlük dosyanız büyükse endişelenmeyin. We need to know as many details as possible in order to fix your problem.
 
 :::note
 

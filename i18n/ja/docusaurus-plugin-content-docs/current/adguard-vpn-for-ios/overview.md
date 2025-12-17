@@ -26,15 +26,15 @@ AdGuard VPN の使い方は非常に簡単です。 ホーム画面には、*接
 
 pingはサーバーの応答時間をミリ秒（ms）単位で示す値です。 つまり、そのロケーションに接続した際のVPN通信速度を示す数字なのです。 例えば、pingが 22 ms の場合、このサーバーに送信されたデータパケットは22ミリ秒で返ってくることを意味します。
 
-AdGuard VPNでは、数十ヶ国、50ヶ所以上のロケーションから選んで接続することができます。
+With AdGuard VPN, you can choose from over 85 locations in dozens of countries.
 
 ![Home and locations *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.7/home-locations-vpn-ios_ja.png)
 
-## Exclusions
+## VPN対象外リスト（除外機能）
 
-You can find the Exclusions tab by tapping the second icon in the bottom bar.
+画面下のバーの2番目のアイコンをタップすると、「VPN対象外リスト」画面が開きます。
 
-By default, AdGuard VPN is active for all websites except those added to Exclusions. You can also turn it on selectively — VPN will be active only for specified websites. To switch to this mode, tap *Change mode*.
+デフォルトでは、除外に追加されたウェブサイトを除き、AdGuard VPN はすべてのウェブサイトに対して有効になっています。 また、指定したウェブサイトに対してのみ有効になるモードに切り替えることも可能です。 モードに切り替えるには、「*モードを変更する*」をタップしてください。
 
 :::note
 
@@ -151,6 +151,14 @@ This option can be used to send the app’s logs and system info to our support 
 #### Diagnostic data
 
 This option lets you export technical information that can be useful in solving problems and is sometimes requested by our support and developers.
+
+#### AdGuard VPN プロトコル
+
+![Select VPN protocol *mobile_border](https://cdn.adtidy.org/content/release_notes/vpn/ios/v2.8/Auto_JA.PNG)
+
+AdGuard VPN プロトコルは初期設定でVPNプロトコルのダイナミック選択（「*自動選択*」オプション）を使用します。 つまり、AdGuard VPN は、現時点で最適なパフォーマンスを提供するプロトコル（HTTP2/TLS または HTTP3/QUIC）を自動的に判断し、即座に切り替えてくれます。 その結果、VPN通信の速度と安定性が向上します。これは特に、VPN使用法による制限がある地域や、通信の安定性が低い地域で役立ちます。
+
+必要に応じて、「*自動選択*」の代わりに HTTP2/TLS のみまたは HTTP3/QUIC プロトコルのみを使用するように切り替えることができます。 それぞれのプロトコルには強みがありますが、ベストな選択肢はその時の居場所、ネットワーク状況、接続するサーバーによって異なります。
 
 ### Send technical and interaction data
 

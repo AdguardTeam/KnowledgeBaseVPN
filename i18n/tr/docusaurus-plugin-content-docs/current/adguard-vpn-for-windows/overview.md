@@ -56,9 +56,9 @@ Sürüm 2.4'ten başlayarak, VPN yalnızca seçilen uygulamalar ve siteler için
 
 ### İstisna listelerini içe ve dışa aktarma
 
-To export the list of exclusions from AdGuard VPN for Windows to your computer, click **Export exclusions**, select the folder where the list will be stored and click **Save**. The archive `exclusions.zip` with two `.txt` files will be downloaded, one for each of the lists. Bunları yeni istisnalar ekleyerek veya eskileri silerek düzenleyebilirsiniz.
+Windows için AdGuard VPN'dan istisnalar listesini bilgisayarınıza aktarmak için **İstisnaları dışa aktar** öğesine tıklayın, listenin depolanacağı klasörü seçin ve **Kaydet** öğesine tıklayın. The archive `exclusions.zip` with two `.txt` files will be downloaded, one for each of the lists. Bunları yeni istisnalar ekleyerek veya eskileri silerek düzenleyebilirsiniz.
 
-On the destination device, open AdGuard VPN, click *Exclusions*, and select *Websites* or *Apps*. Click *Import exclusions* and select the received archive.
+On the destination device, open AdGuard VPN, click *Exclusions*, and select *Websites* or *Apps*. *İstisnaları içe aktar* öğesine tıklayın ve alınan arşivi seçin.
 
 ## İstatistikler
 
@@ -108,13 +108,17 @@ Tüm günlükler cihazınızda yerel olarak saklanır ve gerekirse bunları dest
 
 Bu özellik, trafiğinizi kuantum bilgisayarlarının bile engelleyemeyeceği şekilde şifreler.
 
-##### QUIC'i kullan
+##### AdGuard VPN protokolü
 
-Bu, AdGuard'ın gelişmiş QUIC şifreleme protokolünü kullanmasını sağlayan deneysel bir özelliktir. Birçok avantajı vardır, ancak en dikkate değer olanı, ideal olmayan koşullarda, örneğin mobil internet kullanırken veya halka açık Wi-Fi ağlarına bağlanırken bağlantı kalitesini iyileştirebilmesidir.
+![VPN protokolü seç *border](https://cdn.adtidy.org/content/release_notes/vpn/windows/v2.7/auto_en.png)
+
+By default, AdGuard VPN protocol uses dynamic VPN protocol selection (*Auto-select* option). That means that AdGuard VPN automatically figures out which protocol — HTTP2/TLS or HTTP3/QUIC — will give you the best performance and switches to it instantly. This improves VPN speed and stability, which is particularly helpful in regions where VPN usage is restricted or unreliable.
+
+If you wish, you can switch AdGuard VPN to use only HTTP2/TLS or HTTP3/QUIC protocol instead of *Auto-select*. Each protocol has its strengths, but the best choice can vary depending on your location, network conditions, and even the server you connect to.
 
 ##### WinTun'u kullan
 
-WinTun, Windows'ta VPN uygulamaları için yaygın olarak kullanılan ve sanal bir ağ bağdaştırıcısı oluşturarak VPN bağlantılarının kalitesini artıran bir trafik yönlendirme sürücüsüdür. Varsayılan olarak AdGuard VPN normal WFP sürücüsünü (ve Windows 7 için TDI sürücüsünü) kullanır.
+WinTun is a traffic routing driver commonly used for VPN implementations on Windows that improves the quality of VPN connections by creating a virtual network adapter. Varsayılan olarak AdGuard VPN normal WFP sürücüsünü (ve Windows 7 için TDI sürücüsünü) kullanır.
 
 #### Alt ağ istisnaları
 
@@ -124,12 +128,12 @@ Bu özellik, ağınıza bağlı belirli cihazlardan gelen trafiği hariç tutmak
 
 ### Hakkında
 
-**Hakkında** sekmesi, Windows için AdGuard VPN'in mevcut sürümü hakkında bilgi, bir güncelleme düğmesi ve AdGuard VPN sitesi, SKLS ve Gizlilik politikası bağlantıları sağlar.
+The **About** tab provides information about the current version of AdGuard VPN for Windows, an update button, and links to the AdGuard VPN website, EULA, and Privacy policy.
 
 ### Hesap
 
-Burada lisans durumunuzla ilgili bilgilerin yanı sıra mevcut aboneliklerinizi yönetebileceğiniz ve yenilerini satın alabileceğiniz kişisel AdGuard hesabınıza bir bağlantı bulabilirsiniz.
+Here you can find information about your license status, as well as a link to your personal AdGuard account, where you can manage your current subscriptions and purchase new ones.
 
 ## Destek
 
-Bu sekme, kullanıcıların sorularını çözmeyi amaçlamaktadır: burada SSS sayfasına bir bağlantı bulabilir, bir hatayı bildirebilir veya geri bildirim bırakabilir ve destek ekibi sizden isterse günlükleri dışa aktarabilirsiniz.
+This tab is aimed to solve users’ questions: there you can find a link to the FAQ page, report a bug or leave feedback, and export logs if the support team asks you to.
