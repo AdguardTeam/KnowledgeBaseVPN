@@ -7,7 +7,7 @@ sidebar_position: 1
 
 A tela principal reflete o status da VPN (Conectado/Desconectado). Há também o botão *Conectar/Desconectar* e uma lista de servidores disponíveis.
 
-Cada servidor conta com sua localização e taxa de ping, que corresponde ao tempo de resposta do servidor. Quanto menor essa taxa, mais rápida será a conexão. Os servidores mais rápidos sempre aparecem no topo da lista, que consiste em mais de 50 locais em dezenas de países. Você pode se conectar ao servidor mais rápido tocando no botão *Conectar* ou escolhendo um local.
+Cada servidor conta com sua localização e taxa de ping, que corresponde ao tempo de resposta do servidor. Quanto menor essa taxa, mais rápida será a conexão. The fastest servers always appear at the top of the list that consists of more than 85 locations in dozens of countries. Você pode se conectar ao servidor mais rápido tocando no botão *Conectar* ou escolhendo um local.
 
 ## Saved locations
 

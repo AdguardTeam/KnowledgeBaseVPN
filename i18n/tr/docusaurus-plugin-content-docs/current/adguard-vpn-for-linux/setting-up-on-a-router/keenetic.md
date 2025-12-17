@@ -83,7 +83,7 @@ You’ll need an SSH client. Çoğu Linux ve macOS sistemi önceden yüklenmiş 
 
 ### PuTTY (Windows 8 ve öncesi)
 
-1. PuTTY'yi [resmi siteden](https://www.putty.org/) indirin ve kurun.
+1. Download and install PuTTY from [the official website](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html).
 
 2. PuTTY'yi açın.
 

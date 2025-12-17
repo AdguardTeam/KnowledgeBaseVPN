@@ -22,7 +22,7 @@ Zároveň si můžete zakoupit předplatné a získat tak neomezenou verzi aplik
 - 10 současně připojených zařízení
 - Neomezený datový provoz
 - Neomezenou rychlost
-- Všech více než 50 umístění
+- Všech více než 85 umístění
 - Bezpečné streamování
 - Bez blokace portu 25
 

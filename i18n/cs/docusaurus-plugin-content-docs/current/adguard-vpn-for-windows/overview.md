@@ -108,9 +108,13 @@ Všechny záznamy jsou uloženy lokálně v zařízení a v případě potřeby 
 
 Tato funkce šifruje provoz tak, aby je nemohly zachytit ani kvantové počítače.
 
-##### Použití QUIC
+##### AdGuard VPN protokol
 
-Jedná se o experimentální funkci, která umožňuje AdGuardu používat pokročilý šifrovací protokol QUIC. Má mnoho výhod, ale tou nejvýznamnější je, že dokáže zlepšit kvalitu připojení za neideálních podmínek, například při používání mobilního internetu nebo při připojování k veřejným sítím Wi-Fi.
+![Select VPN protocol *border](https://cdn.adtidy.org/content/release_notes/vpn/windows/v2.7/auto_en.png)
+
+Ve výchozím nastavení používá protokol AdGuard VPN dynamický výběr protokolu VPN (možnost *Automatický výběr*). To znamená, že AdGuard VPN automaticky zjistí, který protokol — HTTP2/TLS nebo HTTP3/QUIC — vám poskytne nejlepší výkon, a okamžitě na něj přepne. To zlepšuje rychlost a stabilitu VPN, což je obzvláště užitečné v regionech, kde je používání VPN omezené nebo nespolehlivé.
+
+Pokud chcete, můžete přepnout AdGuard VPN tak, aby místo *automatického výběru* používal pouze protokol HTTP2/TLS nebo HTTP3/QUIC. Každý protokol má své přednosti, ale nejlepší volba se může lišit v závislosti na vaší poloze, podmínkách sítě a dokonce i na serveru, ke kterému se připojujete.
 
 ##### Použít WinTun
 
@@ -124,7 +128,7 @@ Tato funkce umožňuje přidávat podsítě pro vyloučení provozu z konkrétn�
 
 ### O programu
 
-Na kartě **O programu** najdete informace o aktuální verzi AdGuard VPN pro Windows, tlačítko pro aktualizaci a odkazy na webové stránky AdGuardu, fórum, smlouvu EULA a zásady ochrany osobních údajů.
+Na kartě **O programu** najdete informace o aktuální verzi AdGuard VPN pro Windows, tlačítko pro aktualizaci a odkazy na webové stránky AdGuardu, smlouvu EULA a zásady ochrany osobních údajů.
 
 ### Účet
 

@@ -22,7 +22,7 @@ sidebar_position: 5
 - 10 simultaneously connected devices
 - 无限流量
 - 无限速
-- 50 多个服务器位置
+- All 85+ locations are available
 - 安全串流
 - 不阻挡端口 25
 

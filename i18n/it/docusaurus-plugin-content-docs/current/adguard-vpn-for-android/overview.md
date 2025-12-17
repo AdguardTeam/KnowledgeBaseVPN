@@ -7,7 +7,7 @@ sidebar_position: 1
 
 La schermata principale riflette lo stato della VPN (Connessa/Disconnessa). Inoltre, è presente il pulsante *Connetti/Disconnetti* e un elenco dei server disponibili.
 
-Ogni server ha la sua posizione e il suo ping rate, che descrivono il tempo di risposta del server. Più bassa è questa velocità, più veloce è la connessione. I server più veloci appaiono sempre in cima all'elenco, consistente in oltre 50 posizioni, in dozzine di paesi. Puoi connetterti al server più veloce toccando sul pulsante *Connetti*, o selezionando una posizione.
+Ogni server ha la sua posizione e il suo ping rate, che descrivono il tempo di risposta del server. Più bassa è questa velocità, più veloce è la connessione. The fastest servers always appear at the top of the list that consists of more than 85 locations in dozens of countries. Puoi connetterti al server più veloce toccando sul pulsante *Connetti*, o selezionando una posizione.
 
 ## Saved locations
 

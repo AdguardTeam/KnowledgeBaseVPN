@@ -7,7 +7,7 @@ sidebar_position: 1
 
 Ana ekran VPN durumunu yansıtır (Bağlandı/Bağlantı kesildi). Ayrıca *Bağlan veya Bağlantıyı kes* düğmesi ve mevcut sunucuların bir listesi de bulunmaktadır.
 
-Her sunucunun konumu ve sunucunun yanıt süresini tanımlayan ping hızı vardır. Bu değer ne kadar düşük olursa bağlantı o kadar hızlı olur. Onlarca ülkede 50'den fazla konumdan yer aldığı listede en hızlı sunucular her zaman en üstte yer alıyor. *Bağlan* düğmesine dokunarak veya bir konum seçerek en hızlı sunucuya bağlanabilirsiniz.
+Her sunucunun konumu ve sunucunun yanıt süresini tanımlayan ping hızı vardır. Bu değer ne kadar düşük olursa bağlantı o kadar hızlı olur. Onlarca ülkede 85'ten fazla konumdan yer aldığı listede en hızlı sunucular her zaman en üstte yer alıyor. *Bağlan* düğmesine dokunarak veya bir konum seçerek en hızlı sunucuya bağlanabilirsiniz.
 
 ## Kaydedilen konumlar
 
@@ -15,7 +15,7 @@ Her sunucunun konumu ve sunucunun yanıt süresini tanımlayan ping hızı vard�
 
 Bu bölüm, favori sunucu konumlarınızı özel bir sekmeye kaydetmenizi sağlar, böylece tüm listeyi aramanıza veya aşağı kaydırmanıza gerek kalmadan bunlara hızlı bir şekilde erişebilirsiniz.
 
-*Kaydedilenler* öğesine bir konum eklemek için üzerinde sola kaydırmanız yeterlidir. To remove it, do the same.
+*Kaydedilenler* öğesine bir konum eklemek için üzerinde sola kaydırmanız yeterlidir. Konumu kaldırmak için de aynı işlemi yapın.
 
 ## İstisnalar
 
@@ -121,7 +121,7 @@ Bu bölümde, destekle paylaşmak için günlükleri ve sistem bilgisini de dı�
 
 *Teşhis verileri*, uygulama, cihaz ve bağlantılar hakkında yerel olarak depolanan teknik bilgileri görüntüler. Gerekirse kopyalayıp destek ekibimize gönderebilirsiniz.
 
-The last section of *Advanced settings* is *Low-level settings*. Yüksek nitelikli değilseniz veya destek ekibimiz tarafından istenmedikçe bu bölüme girmemenizi tavsiye ederiz. Burada, VPN arayüzünde TUN arayüzü günlüğünü veya IPv6 protokolünü etkinleştirmek, kullanılması gereken bir proxy sunucu bağlantı noktası veya internet protokolü sürümünü seçmek mümkündür.
+*Gelişmiş ayarların* son bölümü *Alt seviye ayarlardır*. Yüksek nitelikli değilseniz veya destek ekibimiz tarafından istenmedikçe bu bölüme girmemenizi tavsiye ederiz. Burada, VPN arayüzünde TUN arayüzü günlüğünü veya IPv6 protokolünü etkinleştirmek, kullanılması gereken bir proxy sunucu bağlantı noktası veya internet protokolü sürümünü seçmek mümkündür.
 
 :::caution
 

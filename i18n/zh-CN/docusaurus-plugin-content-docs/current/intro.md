@@ -4,7 +4,7 @@ sidebar_position: 1
 slug: /
 ---
 
-## VPN 是什么以，您为什么需要它?
+## VPN 是什么？为何需要它？
 
 <iframe width="560" height="315" class="youtube-video" src="https://www.youtube-nocookie.com/embed/7149L3xPmSE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

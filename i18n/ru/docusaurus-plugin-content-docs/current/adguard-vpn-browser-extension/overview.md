@@ -21,27 +21,27 @@ sidebar_position: 1
 
 ![Сохранённая вкладка *mobile](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/saved-tab-en.png)
 
-## Stats
+## Статистика
 
-The *Stats* section in the menu is a simple way to keep track of how much data passes through your VPN connection.
+В разделе меню *Статистика* можно легко отслеживать, сколько данных проходит через ваше VPN-подключение.
 
-![Statistics *mobile](https://cdn.adtidy.org/content/release_notes/vpn/browser_extension/Statistics.png)
+![Статистика *mobile](https://cdn.adtidy.org/content/release_notes/vpn/browser_extension/Statistics.png)
 
-When stats can come in handy:
+Когда статистика может пригодиться:
 
-- **Check if the VPN is actually working**. A quick look at the stats confirms that your connection is active and data is routed through the VPN.
+- **Чтобы проверить, действительно ли работает VPN**. Быстрый взгляд на статистику подтвердит, что ваше подключение активно, и трафик идёт через VPN.
 
-- **Spot unexpected activity**. If traffic grows while you’re idle, something in the background — a tab or an extension — might be sending data.
+- **Для обнаружения неожиданной активности**. Если трафик растёт, пока вы бездействуете, что-то в фоновом режиме — вкладка или расширение — может отправлять данные.
 
-- **Troubleshoot slow connection issues**. If your connection feels slow, a spike in traffic might point to something running or downloading in the background.
+- **Для устранения проблем с медленным соединением**. Если ваше соединение кажется медленным, всплеск трафика может указывать на то, что что-то работает или происходит скачивание в фоновом режиме.
 
 :::note
 
-All statistics are stored locally on your device. We only calculate how much data is used — we don’t see what websites you visit. You can also disable statistics if you don’t need them.
+Вся статистика хранится локально на вашем устройстве. Мы только подсчитываем объём использованных данных — мы не видим, какие сайты вы посещаете. Вы также можете отключить статистику, если она вам не нужна.
 
 :::
 
-The *Stats* section is available to users of the paid version.
+Раздел *Статистика* доступен пользователям платной версии.
 
 ## Настройки
 

@@ -11,7 +11,7 @@ sidebar_position: 3
 adguardvpn-cli login
 ```
 
-When prompted with the menu:
+Когда появится меню:
 
 ```
 b - Open link in browser
@@ -19,9 +19,9 @@ s - Speed up check
 x - Cancel
 ```
 
-select `b` to open the authentication page in your default browser. Enter your email address. Once you are logged in, you will see the message _Successfully logged in_ in the Terminal.
+выберите `b`, чтобы открыть страницу аутентификации в браузере по умолчанию. Введите почту. После входа в систему, в терминале вы увидите сообщение _Успешный вход в систему_.
 
-You can set up your preferred login method (password or one-time code) and two-factor authentication in your [AdGuard account](https://adguardaccount.com/account/settings).
+Вы можете настроить предпочтительный способ входа (пароль или одноразовый код) и двухфакторную аутентификацию в своём [аккаунте AdGuard](https://adguardaccount.com/account/settings).
 
 :::note
 Вы также можете создать аккаунт AdGuard [на нашем сайте](https://auth.adguardaccount.com/login.html), а затем войти в AdGuard VPN для Linux под своими учётными данными.

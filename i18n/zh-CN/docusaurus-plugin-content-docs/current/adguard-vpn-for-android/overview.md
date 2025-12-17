@@ -7,7 +7,7 @@ sidebar_position: 1
 
 The main screen reflects the VPN status (Connected/Disconnected). There are also the *Connect/Disconnect* button and a list of available servers.
 
-每个服务器旁边都有位置和 Ping。Ping 是指服务器的响应时间。 The lower this rate, the faster the connection. The fastest servers always appear at the top of the list that consists of more than 50 locations in dozens of countries. You can connect to the fastest server by tapping the *Connect* button or by picking a location.
+每个服务器旁边都有位置和 Ping。Ping 是指服务器的响应时间。 The lower this rate, the faster the connection. The fastest servers always appear at the top of the list that consists of more than 85 locations in dozens of countries. You can connect to the fastest server by tapping the *Connect* button or by picking a location.
 
 ## Saved locations
 

@@ -9,7 +9,7 @@ Note that **you can’t use AdGuard VPN for Mac unless you have logged into your
 
 :::note Compatibility
 
-AdGuard VPN para Mac actualmente es compatible con las versiones de macOS a partir de macOS Catalina (10.15).
+AdGuard VPN for Mac is currently supported on macOS versions starting from macOS Big Sur (version 11).
 
 :::
 
@@ -117,6 +117,10 @@ There are only two logging levels but we strongly recommend that you use the fir
 
 Although this option is located in *Advanced settings*, it can be enabled without hesitation. You can hide the AdGuard VPN icon from the menu bar, it won’t prevent our app from running in the background.
 
-#### Use QUIC
+##### AdGuard VPN protocol
 
-QUIC communication protocol is the latest, cutting-edge version of HTTP. Toggle the switch to get a better connection quality in less-than-ideal conditions, while using mobile data in the subway or elevator, for instance.
+![Select VPN protocol](https://cdn.adtidy.org/content/release_notes/vpn/mac/v2.7/protocol_en.png)
+
+By default, AdGuard VPN protocol uses dynamic VPN protocol selection (*Auto-select* option). That means that AdGuard VPN automatically figures out which protocol — HTTP2/TLS or HTTP3/QUIC — will give you the best performance and switches to it instantly. This improves VPN speed and stability, which is particularly helpful in regions where VPN usage is restricted or unreliable.
+
+If you wish, you can switch AdGuard VPN to use only HTTP2/TLS or HTTP3/QUIC protocol instead of *Auto-select*. Each protocol has its strengths, but the best choice can vary depending on your location, network conditions, and even the server you connect to.
