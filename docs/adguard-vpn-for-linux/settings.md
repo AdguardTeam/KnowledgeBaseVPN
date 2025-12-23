@@ -144,7 +144,7 @@ Use SCRIPT if you need fine-grained split tunneling, enterprise routing policies
 
     #!/bin/sh
     INTERFACE="$1"
-    
+
     # Example 1: Route only specific corporate networks through VPN
     ip route add 192.168.100.0/24 dev "$INTERFACE"  # Corporate network
     ip route add 10.0.0.0/8 dev "$INTERFACE"        # Private networks
@@ -161,12 +161,12 @@ Use SCRIPT if you need fine-grained split tunneling, enterprise routing policies
 
     #!/bin/sh
     INTERFACE="$1"
-    
+
     # Example 1: Route only specific corporate networks through VPN
     route add 192.168.100.0/24 -iface "$INTERFACE"  # Corporate network
     route add 10.0.0.0/8 -iface "$INTERFACE"        # Private networks
     route add 172.16.0.0/12 -iface "$INTERFACE"     # Another private range
-    
+
     # Example 2: Route everything except local networks
     # route add 1.0.0.0/8 -iface "$INTERFACE"
     # route add 2.0.0.0/7 -iface "$INTERFACE"
@@ -180,11 +180,11 @@ Use SCRIPT if you need fine-grained split tunneling, enterprise routing policies
     # route delete 192.168.0.0/16 2>/dev/null || true
     # route delete 10.0.0.0/8 2>/dev/null || true
 
-## Use QUIC
+## Set protocol
 
-To enable the use of AdGuard VPN protocol based on QUIC (HTTP/3), type:
+To set the protocol used by AdGuard VPN (AUTO, HTTP2, or QUIC), type:
 
-    adguardvpn-cli config set-use-quic on
+    adguardvpn-cli config set-protocol on
 
 To disable it, set it to `off`.
 
