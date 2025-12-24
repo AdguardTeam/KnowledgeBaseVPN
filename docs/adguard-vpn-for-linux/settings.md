@@ -182,11 +182,11 @@ Use SCRIPT if you need fine-grained split tunneling, enterprise routing policies
 
 ## Set protocol
 
-To set the protocol used by AdGuard VPN (HTTP2, QUIC, or automatic choice between them), type:
+To set the protocol used by AdGuard VPN (HTTP2, QUIC, or automatic choice between them), type one of the commands, depending on your choice:
 
-    `adguardvpn-cli config set-protocol http2`, or
-    `adguardvpn-cli config set-protocol quic`, or
-    `adguardvpn-cli config set-protocol auto`
+    adguardvpn-cli config set-protocol http2
+    adguardvpn-cli config set-protocol quic
+    adguardvpn-cli config set-protocol auto
 
 ## Crash reports
 
