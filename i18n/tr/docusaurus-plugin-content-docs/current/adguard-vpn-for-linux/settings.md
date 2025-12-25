@@ -166,9 +166,9 @@ adguardvpn-cli config create-routes-script
 
 Use SCRIPT if you need fine-grained split tunneling, enterprise routing policies, or custom exceptions beyond what AUTO provides.
 
-#### Examples
+#### Örnekler
 
-**Linux custom script:**
+**Linux özel betiği:**
 
 ```
 #!/bin/sh
@@ -187,7 +187,7 @@ ip route add 172.16.0.0/12 dev "$INTERFACE"     # Another private range
 # ip route del 10.0.0.0/8 dev "$INTERFACE" 2>/dev/null || true
 ```
 
-**macOS custom script:**
+**macOS özel betiği:**
 
 ```
 #!/bin/sh
@@ -212,77 +212,77 @@ route add 172.16.0.0/12 -iface "$INTERFACE"     # Another private range
 # route delete 10.0.0.0/8 2>/dev/null || true
 ```
 
-## QUIC'i kullan
+## Set protocol
 
-QUIC (HTTP/3) tabanlı AdGuard VPN protokolünün kullanımını etkinleştirmek için şunu yazın:
+To set the protocol used by AdGuard VPN (HTTP2, QUIC, or automatic choice between them), type one of the commands, depending on your choice:
 
 ```
-adguardvpn-cli config set-use-quic on
+adguardvpn-cli config set-protocol http2
+adguardvpn-cli config set-protocol quic
+adguardvpn-cli config set-protocol auto
 ```
 
-Devre dışı bırakmak için `off` olarak ayarlayın.
+## Crash reports
 
-## Çökme raporları
-
-Otomatik çökme raporlarını etkinleştirirseniz AdGuard VPN, bir şeyler ters giderse geliştiricileri bilgilendirir. Ayarı etkinleştirmek için şunu yazın:
+If you enable automatic crash reports, AdGuard VPN will notify the developers if something goes wrong. To enable the setting, type:
 
 ```
 adguardvpn-cli config send-reports on
 ```
 
-Devre dışı bırakmak için `off` olarak ayarlayın.
+To disable it, set it to `off`.
 
-## Güncelleme kanalı
+## Update channel
 
-Güncelleme kanalını değiştirmek için şunu yazın:
+To change the update channel, type:
 
 ```
 adguardvpn-cli config set-update-channel <channel>
 ```
 
-Tercihlerinize bağlı olarak `<channel>` yerine `release`, `beta` veya `nightly` yazın.
+Replace `<channel>` with `release`, `beta`, or `nightly`, depending on your preferences.
 
-## İpuçları
+## Hints
 
-AdGuard VPN, komutları yürüttükten sonra size ipuçları gösterebilir — örneğin, bir sonraki adımda ne yapacağınız veya hatayı nasıl düzelteceğiniz gibi. Bu ayar varsayılan olarak etkindir ancak şunu yazarak devre dışı bırakabilirsiniz:
+AdGuard VPN can show you hints after executing commands — for example, what to do next or how to fix an error. This setting is enabled by default but you can disable it by typing:
 
 ```
 adguardvpn-cli config set-show-hints off
 ```
 
-Yeniden etkinleştirmek için `off` yerine `on` yazın.
+To re-enable it, replace `off` with `on`.
 
-## Hata ayıklama günlük kaydı
+## Debug logging
 
-Bir hatayı bildirmek için hata ayıklama günlüklerini geliştiriciler veya destek ekibiyle paylaşmanız gerekebilir. Hata ayıklama günlüğünü etkinleştirmek için şunu yazın:
+To report a bug, you may need to share debug logs with the developers or support team. To enable debug logging, type:
 
 ```
 adguardvpn-cli config set-debug-logging on
 ```
 
-Günlükleri dışa aktardıktan sonra bu ayarı devre dışı bırakın.
+Disable this setting after exporting logs.
 
-## Bildirimleri göster
+## Show notificatoins
 
-Ayar, AdGuard VPN açıldığında/kapatıldığında veya yeniden bağlanmayı beklerken sistem bildirimlerinin görünümünden sorumludur, örneğin:
+The setting is responsible for the appearance of system notifications when AdGuard VPN is turned on/off or waiting for reconnection, for example:
 
-- Kullanıcı VPN'i açar — _VPN bağlandı_ bildirimi görünür.
-- Kullanıcı VPN'i kapatır — _VPN bağlantısı kesildi_ bildirimi görünür.
-- Kullanıcı VPN bağlantısının geri gelmesini bekliyor — _Bağlantı için bekleniyor_ bildirimi görünür.
+- A user turns VPN on — the _VPN connected_ notification appears.
+- A user turns VPN off — the _VPN disconnected_ notification appears.
+- A user is waiting for the VPN connection to be recovered — the _Waiting for connection_ notification appears.
 
   adguardvpn-cli config set-show-notifications on
 
-## İstisnalar
+## Exclusions
 
-İki mod vardır. _Genel_ modda, istisnalar listesindeki siteler VPN üzerinden yönlendirilmez. _Seçici modda_, yalnızca istisnalar listesindeki siteler VPN üzerinden yönlendirilir. Her mod için ayrı bir istisna listesi bulunmaktadır.
+There are two modes. In _General_ mode, websites from the list of exclusions are not routed through VPN. In _Selective_ mode, only websites from the list of exclusions are routed through VPN. There is a separate list of exclusions for each mode.
 
-İstisnalarla neler yapabileceğinizi okumak için komut satırına şunu yazın: `adguardvpn-cli site-exclusions -h`.
+To read about what you can do with exclusions, write this in the command-line interface: `adguardvpn-cli site-exclusions -h`.
 
-İşte ana seçenekler:
+Here are the main options:
 
-1. **add**, belirtilen istisnaları ekler
+1. **add** adds specified exclusions
 
-   Örnek: `adguardvpn-cli site-exclusions add` buradaki `%DOMAIN_NAME%` istisnalara eklemek istediğiniz sitedir.
+   Example: `adguardvpn-cli site-exclusions add`, where `%DOMAIN_NAME%` is the website that you want to add to exclusions.
 
    :::note
 
@@ -290,18 +290,18 @@ Ayar, AdGuard VPN açıldığında/kapatıldığında veya yeniden bağlanmayı 
 
    :::
 
-2. **clear**, mevcut moddaki istisna listesini temizler
+2. **clear** clears the list of exclusions in the current mode
 
-   Örnek: `adguardvpn-cli site-exclusions clear`
+   Example: `adguardvpn-cli site-exclusions clear`
 
-3. **mode**, mevcut modu gösterir ve bunlar arasında geçiş yapmanızı sağlar
+3. **mode** shows the current mode and allows to switch between them
 
-   Örnek: `adguardvpn-cli site-exclusions mode selective` (bu komutla, Seçici mod seçilir)
+   Example: `adguardvpn-cli site-exclusions mode selective` (with this command, Selective mode is chosen)
 
-4. **remove**, bir veya daha fazla istisnayı kaldırır (virgülle ayrılmışsa)
+4. **remove** removes one or more exclusions (if separated by commas)
 
-   Örnek: `adguardvpn-cli site-exclusions remove %DOMAIN_NAME%` buradaki `%DOMAIN_NAME%` istisnalardan kaldırmak istediğiniz sitedir.
+   Example: `adguardvpn-cli site-exclusions remove %DOMAIN_NAME%` where `%DOMAIN_NAME%` is the website that you want to remove from exclusions.
 
-5. **show**, mevcut istisnalar listesini gösterir
+5. **show** shows the current list of exclusions
 
-   Örnek: `adguardvpn-cli site-exclusions show`
+   Example: `adguardvpn-cli site-exclusions show`

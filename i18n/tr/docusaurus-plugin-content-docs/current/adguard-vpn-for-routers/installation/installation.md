@@ -27,12 +27,12 @@ There are two main ways to run AdGuard VPN on a router:
 2. [AdGuard VPN CLI](/adguard-vpn-for-linux/setting-up-on-a-router)
 
    - Advanced setup that unlocks all AdGuard VPN features, including access to all locations and website exclusions (app exclusions are not available)
-   - Requires more technical knowledge
-   - On routers with low-performance processors, connection speed may be limited to 30-100 Mbps
+   - Daha fazla teknik bilgi gerektirir
+   - Düşük performanslı işlemcilere sahip yönlendiricilerde bağlantı hızı 30-100 Mbps ile sınırlı olabilir
 
 ## Obtain your AdGuard VPN credentials
 
-Before you can connect your router to AdGuard VPN, you need to generate unique credentials for it in your AdGuard account. These credentials include the server address, username, and password, and you’ll use them later when configuring your router.
+Yönlendiricinizi AdGuard VPN'e bağlamadan önce, AdGuard hesabınızda yönlendiriciniz için benzersiz kimlik bilgileri oluşturmanız gerekir. Bu kimlik bilgileri arasında sunucu adresi, kullanıcı adı ile şifre bulunur ve bunları daha sonra yönlendiricinizi yapılandırırken kullanacaksınız.
 
 1. [AdGuard hesabınızda](https://auth.adguardaccount.com/login.html), AdGuard VPN'i seçin.
 

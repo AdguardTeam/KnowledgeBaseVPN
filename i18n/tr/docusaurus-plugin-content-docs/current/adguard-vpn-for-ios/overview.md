@@ -26,7 +26,7 @@ AdGuard VPN'i kullanmak oldukça kolaydır. Ana ekranda *Bağlan* (*Bağlantıy�
 
 Ping, sunucunun yanıt süresini milisaniye cinsinden gösterir. Bu, o konuma bağlandığınızda VPN bağlantısının ne kadar hızlı olacağını gösterir. Ping değeri 22 ms olan bir sunucunun seçilmesi, bu sunucuya gönderilen bir veri paketinin 22 ms içinde geri döneceği anlamına gelir.
 
-With AdGuard VPN, you can choose from over 85 locations in dozens of countries.
+AdGuard VPN ile onlarca ülkede 85'ten fazla konum arasından seçim yapabilirsiniz.
 
 ![Ana sayfa ve konumlar *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.7/home-locations-vpn-ios.png)
 
@@ -108,7 +108,7 @@ Here, you can configure AdGuard VPN for iOS as you need using different options:
 
 ### DNS sunucusu
 
-AdGuard VPN for iOS offers a choice between several DNS servers, each with their own special qualities. For example, AdGuard DNS removes ads and protects your device from tracking while AdGuard DNS Family Protection combines the functions of AdGuard DNS with Safe search and adult content blocking. DNS servers by different DNS providers may also work faster or slower depending on your location, ISP, and other factors. Choose the one that works best for you. You can [find out more about DNS](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns) and its characteristics.
+iOS için AdGuard VPN, her biri kendi özel niteliklerine sahip birkaç DNS sunucusu arasında bir seçim sunar. Örneğin, AdGuard DNS reklamları kaldırır ve cihazınızı izlemeye karşı korurken AdGuard DNS Family Protection, AdGuard DNS'nin işlevlerini Güvenli Arama ve yetişkinlere yönelik içerik engelleme ile birleştirir. DNS servers by different DNS providers may also work faster or slower depending on your location, ISP, and other factors. Choose the one that works best for you. You can [find out more about DNS](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns) and its characteristics.
 
 ![DNS sunucusu ekranı *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/DNS-server.png)
 
@@ -154,9 +154,9 @@ This option lets you export technical information that can be useful in solving 
 
 #### AdGuard VPN protokolü
 
-![Select VPN protocol *mobile_border](https://cdn.adtidy.org/content/release_notes/vpn/ios/v2.8/Auto_EN.PNG)
+![VPN protokolü seç *mobile_border](https://cdn.adtidy.org/content/release_notes/vpn/ios/v2.8/Auto_EN.PNG)
 
-By default, AdGuard VPN protocol uses dynamic VPN protocol selection (*Auto-select* option). That means that AdGuard VPN automatically figures out which protocol — HTTP2/TLS or HTTP3/QUIC — will give you the best performance and switches to it instantly. This improves VPN speed and stability, which is particularly helpful in regions where VPN usage is restricted or unreliable.
+Varsayılan olarak, AdGuard VPN protokolü dinamik VPN protokolü seçimini kullanır (*Otomatik seçim* seçeneği). That means that AdGuard VPN automatically figures out which protocol — HTTP2/TLS or HTTP3/QUIC — will give you the best performance and switches to it instantly. This improves VPN speed and stability, which is particularly helpful in regions where VPN usage is restricted or unreliable.
 
 If you wish, you can switch AdGuard VPN to use only HTTP2/TLS or HTTP3/QUIC protocol instead of *Auto-select*. Each protocol has its strengths, but the best choice can vary depending on your location, network conditions, and even the server you connect to.
 
@@ -184,6 +184,6 @@ The Support screen (*Settings* → *Support*) has a number of helpful features: 
 
 ## Abonelik ekranı
 
-If you are using the free version of AdGuard VPN, there will be another tab with an arrow icon on the bottom tab bar. This section briefly describes the main benefits of the paid version of the app. You can choose a yearly or monthly subscription.
+If you are using the free version of AdGuard VPN, there will be another tab with an arrow icon on the bottom tab bar. Bu bölümde, uygulamanın ücretli sürümünün temel avantajları kısaca açıklanmaktadır. Yıllık veya aylık abonelik seçebilirsiniz.
 
 ![Abonelik *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/unlimited.png)

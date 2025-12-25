@@ -9,9 +9,9 @@ AdGuard VPN CLI olarak da bilinen Linux için AdGuard VPN, diğer gerekli paketl
 
 :::
 
-## 1. Make sure that SSH is enabled on your router
+## 1. Yönlendiricinde SSH erişiminin etkinleştirildiğinden emin ol
 
-The SSH client is used to send commands to your router from your computer.
+SSH istemcisi, bilgisayarınızdan yönlendiricinize komutlar göndermek için kullanılır.
 
 To run the SSH server, the _SSH server_ system component must be installed in the Keenetic. Bunu _Genel sistem ayarları_ sayfasında _Bileşen seçenekleri_ bölümündeki _Bileşen seçenekleri_ düğmesine tıklayarak yapabilirsiniz. SSH sunucusunu arayın ve yükleyin. Bu, Keenetic işletim sisteminizi günceller.
 

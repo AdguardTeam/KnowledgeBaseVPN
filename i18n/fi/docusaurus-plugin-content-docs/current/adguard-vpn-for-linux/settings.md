@@ -212,15 +212,15 @@ route add 172.16.0.0/12 -iface "$INTERFACE"     # Another private range
 # route delete 10.0.0.0/8 2>/dev/null || true
 ```
 
-## Use QUIC
+## Set protocol
 
-To enable the use of AdGuard VPN protocol based on QUIC (HTTP/3), type:
+To set the protocol used by AdGuard VPN (HTTP2, QUIC, or automatic choice between them), type one of the commands, depending on your choice:
 
 ```
-adguardvpn-cli config set-use-quic on
+adguardvpn-cli config set-protocol http2
+adguardvpn-cli config set-protocol quic
+adguardvpn-cli config set-protocol auto
 ```
-
-To disable it, set it to `off`.
 
 ## Crash reports
 

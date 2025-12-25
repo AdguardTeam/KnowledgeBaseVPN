@@ -60,7 +60,7 @@
     "description": "The label for category AdGuard VPN for routers in sidebar sidebar"
   },
   "sidebar.sidebar.category.Installation": {
-    "message": "Installation",
+    "message": "Kurulum",
     "description": "The label for category Installation in sidebar sidebar"
   }
 }

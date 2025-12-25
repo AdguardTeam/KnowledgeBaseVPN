@@ -212,19 +212,19 @@ route add 172.16.0.0/12 -iface "$INTERFACE"     # Another private range
 # route delete 10.0.0.0/8 2>/dev/null || true
 ```
 
-## QUIC verwenden
+## Set protocol
 
-To enable the use of AdGuard VPN protocol based on QUIC (HTTP/3), type:
+To set the protocol used by AdGuard VPN (HTTP2, QUIC, or automatic choice between them), type one of the commands, depending on your choice:
 
 ```
-adguardvpn-cli config set-use-quic on
+adguardvpn-cli config set-protocol http2
+adguardvpn-cli config set-protocol quic
+adguardvpn-cli config set-protocol auto
 ```
 
-To disable it, set it to `off`.
+## Crash reports
 
-## Absturzberichte
-
-If you enable automatic crash reports, AdGuard VPN will notify the developers if something goes wrong. Um die Einstellung zu aktivieren, geben Sie Folgendes ein:
+If you enable automatic crash reports, AdGuard VPN will notify the developers if something goes wrong. To enable the setting, type:
 
 ```
 adguardvpn-cli config send-reports on
@@ -242,7 +242,7 @@ adguardvpn-cli config set-update-channel <channel>
 
 Replace `<channel>` with `release`, `beta`, or `nightly`, depending on your preferences.
 
-## Hinweise
+## Hints
 
 AdGuard VPN can show you hints after executing commands — for example, what to do next or how to fix an error. This setting is enabled by default but you can disable it by typing:
 

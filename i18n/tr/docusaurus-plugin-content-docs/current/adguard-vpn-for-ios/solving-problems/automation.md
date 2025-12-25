@@ -44,7 +44,7 @@ AdGuard VPN artık otomasyonunu ayarladığınız uygulamayı açtığınızda o
 
 1. Tap *New Blank Automation* in *Get Started*, find AdGuard VPN, tap *Set VPN connection*, select *Turn VPN connection Off*, and tap *Done*.
 
-    ![Turn VPN connection Off *mobile](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/turnvpnconnectionoff.png)
+    ![VPN bağlantısını kapat *mobile](https://cdn.adguardvpn.com/content/kb/vpn/ios/automation/turnvpnconnectionoff.png)
 
 Tamamlandı! AdGuard VPN artık otomasyonunu ayarladığınız uygulamayı her kapattığınızda cihazınızda devre dışı bırakılır. Başka bir uygulama için aynı adımları tekrarlayabilirsiniz.
 

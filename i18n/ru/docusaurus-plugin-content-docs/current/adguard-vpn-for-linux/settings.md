@@ -212,96 +212,96 @@ route add 172.16.0.0/12 -iface "$INTERFACE"     # Another private range
 # route delete 10.0.0.0/8 2>/dev/null || true
 ```
 
-## Использовать QUIC
+## Set protocol
 
-Чтобы использовать протокол AdGuard VPN на основе QUIC (HTTP/3), введите:
+To set the protocol used by AdGuard VPN (HTTP2, QUIC, or automatic choice between them), type one of the commands, depending on your choice:
 
 ```
-adguardvpn-cli config set-use-quic on
+adguardvpn-cli config set-protocol http2
+adguardvpn-cli config set-protocol quic
+adguardvpn-cli config set-protocol auto
 ```
 
-Чтобы отключить его, поменяйте значение на `off`.
+## Crash reports
 
-## Отчёты об ошибках
-
-Если вы включите автоматические отчёты о сбоях, AdGuard VPN уведомит разработчиков, если что-то пойдёт не так. Чтобы включить настройку, введите:
+If you enable automatic crash reports, AdGuard VPN will notify the developers if something goes wrong. To enable the setting, type:
 
 ```
 adguardvpn-cli config send-reports on
 ```
 
-Чтобы отключить её, поменяйте значение на `off`.
+To disable it, set it to `off`.
 
-## Канал обновления
+## Update channel
 
-Чтобы изменить канал обновления, введите:
+To change the update channel, type:
 
 ```
 adguardvpn-cli config set-update-channel <channel>
 ```
 
-Замените `<channel>` на `release`, `beta` или `nightly`, в зависимости от ваших предпочтений.
+Replace `<channel>` with `release`, `beta`, or `nightly`, depending on your preferences.
 
-## Подсказки
+## Hints
 
-AdGuard VPN может показывать вам подсказки после выполнения команд — например, что делать дальше или как исправить ошибку. Этот параметр включён по умолчанию, но вы можете отключить его, набрав:
+AdGuard VPN can show you hints after executing commands — for example, what to do next or how to fix an error. This setting is enabled by default but you can disable it by typing:
 
 ```
 adguardvpn-cli config set-show-hints off
 ```
 
-Чтобы снова включить его, замените `off` на `on`.
+To re-enable it, replace `off` with `on`.
 
-## Подробное логирование
+## Debug logging
 
-Чтобы сообщить об ошибке, вам может потребоваться поделиться отладочными логами с разработчиками или командой поддержки. Чтобы включить отладочные логи, введите:
+To report a bug, you may need to share debug logs with the developers or support team. To enable debug logging, type:
 
 ```
 adguardvpn-cli config set-debug-logging on
 ```
 
-Отключите эту настройку после экспорта логов.
+Disable this setting after exporting logs.
 
-## Показать уведомления
+## Show notificatoins
 
-Настройка отвечает за появление системных уведомлений при включении/выключении AdGuard VPN или ожидании переподключения, например:
+The setting is responsible for the appearance of system notifications when AdGuard VPN is turned on/off or waiting for reconnection, for example:
 
-- Пользователь включает VPN — уведомление _VPN подключён_ появляется.
-- Пользователь отключает VPN — появляется уведомление _VPN отключён_.
-- Пользователь ждёт, когда VPN-соединение будет восстановлено — появляется уведомление _Ожидание соединения_.
+- A user turns VPN on — the _VPN connected_ notification appears.
+- A user turns VPN off — the _VPN disconnected_ notification appears.
+- A user is waiting for the VPN connection to be recovered — the _Waiting for connection_ notification appears.
 
   adguardvpn-cli config set-show-notifications on
 
-## Исключения
+## Exclusions
 
-Есть два режима. В режиме _Общий_ сайты из списка исключений не маршрутизируются через VPN. В _Выборочном_ режиме только сайты из списка исключений маршрутизируются через VPN. Для каждого режима существует отдельный список исключений.
+There are two modes. In _General_ mode, websites from the list of exclusions are not routed through VPN. In _Selective_ mode, only websites from the list of exclusions are routed through VPN. There is a separate list of exclusions for each mode.
 
-Чтобы узнать, что можно сделать с исключениями, напишите в интерфейсе командной строки: `adguardvpn-cli site-exclusions -h`.
+To read about what you can do with exclusions, write this in the command-line interface: `adguardvpn-cli site-exclusions -h`.
 
-Вот основные варианты:
+Here are the main options:
 
-1. **add** добавляет указанные исключения
+1. **add** adds specified exclusions
 
-   Пример: `adguardvpn-cli site-exclusions add`, где `%DOMAIN_NAME%` — это сайт, который вы хотите добавить в исключения.
+   Example: `adguardvpn-cli site-exclusions add`, where `%DOMAIN_NAME%` is the website that you want to add to exclusions.
 
    :::note
 
-   Чтобы добавить много исключений, перечислите их через пробелы.
+   To add many exclusions, you need to list them separated by spaces.
 
    :::
 
-2. **clear** очищает список исключений в текущем режиме
+2. **clear** clears the list of exclusions in the current mode
 
-   Пример: `adguardvpn-cli site-exclusions clear`
+   Example: `adguardvpn-cli site-exclusions clear`
 
-3. **mode** показывает текущий режим и позволяет переключаться между ними
+3. **mode** shows the current mode and allows to switch between them
 
-   Пример: `adguardvpn-cli site-exclusions mode selective` (с помощью этой команды включается Выборочный режим)
+   Example: `adguardvpn-cli site-exclusions mode selective` (with this command, Selective mode is chosen)
 
-4. **remove** удаляет одно или несколько исключений (если они разделены запятыми)
+4. **remove** removes one or more exclusions (if separated by commas)
 
-   Пример: `adguardvpn-cli site-exclusions remove %DOMAIN_NAME%`, где `%DOMAIN_NAME%` — это сайт, который вы хотите добавить в исключения.
+   Example: `adguardvpn-cli site-exclusions remove %DOMAIN_NAME%` where `%DOMAIN_NAME%` is the website that you want to remove from exclusions.
 
-5. **show** показывает текущий список исключений
+5. **show** shows the current list of exclusions
 
-   Пример: `adguardvpn-cli site-exclusions show`
+   Example: `adguardvpn-cli site-exclusions show`

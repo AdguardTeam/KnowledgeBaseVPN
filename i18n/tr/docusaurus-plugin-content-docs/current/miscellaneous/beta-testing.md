@@ -15,7 +15,7 @@ The development process follows a progression from nightly to beta and then from
 
 Gereksinimlerimiz basit: AdGuard VPN'i kullanın, beta veya nightly sürüm kullanıma sunulduğunda güncelleyin ve fark ettiğiniz hataları bize bildirin. Test kullanıcımız olmak için bir [GitHub](https://github.com/) hesabına ihtiyacınız olacak, bu nedenle önce bunu aradan çıkarmak isteyebilirsiniz.
 
-You will also need the device on which you will install the app and [the link to the the beta testing page](https://adguard-vpn.com/beta.html). There you will find more information on how to join our program and test AdGuard VPN for Windows, Mac, Android, iOS, Linux, and AdGuard VPN Browser Extension.
+You will also need the device on which you will install the app and [the link to the the beta testing page](https://adguard-vpn.com/beta.html). Orada programımıza nasıl katılacağınız ve Windows, Mac, Android, iOS, Linux için AdGuard VPN'i ve AdGuard VPN Tarayıcı Uzantısını nasıl test edeceğiniz hakkında daha fazla bilgi bulabilirsiniz.
 
 Once on the beta testing page, all you have to do is choose between the beta and the nightly versions, download the respective build and fill in the [form](https://surveys.adguard.com/en/vpn_beta_testing_program/form.html) to apply.
 

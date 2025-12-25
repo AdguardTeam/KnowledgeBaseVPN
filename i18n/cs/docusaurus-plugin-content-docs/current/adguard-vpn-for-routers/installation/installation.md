@@ -9,9 +9,9 @@ Instalace AdGuard VPN přímo na váš router umožňuje všem zařízením ve v
 
 Pokud používáte router MikroTik nebo Keenetic, podívejte se na speciální návody k nastavení níže:
 
-- [How to set up AdGuard VPN on MikroTik routers](/adguard-vpn-for-routers/installation/mikrotik.md)
+- [Jak nastavit AdGuard VPN na routerech MikroTik](/adguard-vpn-for-routers/installation/mikrotik.md)
 
-- [How to set up AdGuard VPN on Keenetic routers](/adguard-vpn-for-routers/installation/keenetic.md)
+- [Jak nastavit AdGuard VPN na routerech Keenetic](/adguard-vpn-for-routers/installation/keenetic.md)
 
 :::
 
