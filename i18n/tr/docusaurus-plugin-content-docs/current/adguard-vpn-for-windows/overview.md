@@ -112,9 +112,9 @@ Bu özellik, trafiğinizi kuantum bilgisayarlarının bile engelleyemeyeceği ş
 
 ![VPN protokolü seç *border](https://cdn.adtidy.org/content/release_notes/vpn/windows/v2.7/auto_en.png)
 
-By default, AdGuard VPN protocol uses dynamic VPN protocol selection (*Auto-select* option). That means that AdGuard VPN automatically figures out which protocol — HTTP2/TLS or HTTP3/QUIC — will give you the best performance and switches to it instantly. This improves VPN speed and stability, which is particularly helpful in regions where VPN usage is restricted or unreliable.
+Varsayılan olarak, AdGuard VPN protokolü dinamik VPN protokolü seçimini kullanır (*Otomatik seçim* seçeneği). Bu, AdGuard VPN'in hangi protokolün — HTTP2/TLS veya HTTP3/QUIC — size en iyi performansı vereceğini otomatik olarak belirlediği ve anında buna geçtiği anlamına gelir. This improves VPN speed and stability, which is particularly helpful in regions where VPN usage is restricted or unreliable.
 
-If you wish, you can switch AdGuard VPN to use only HTTP2/TLS or HTTP3/QUIC protocol instead of *Auto-select*. Each protocol has its strengths, but the best choice can vary depending on your location, network conditions, and even the server you connect to.
+İsterseniz, AdGuard VPN'i *Otomatik seçim* yerine yalnızca HTTP2/TLS veya HTTP3/QUIC protokolünü kullanacak şekilde değiştirebilirsiniz. Her protokolün güçlü yönleri vardır, ancak en iyi seçim bulunduğunuz yere, ağ koşullarına ve hatta bağlandığınız sunucuya bağlı olarak değişebilir.
 
 ##### WinTun'u kullan
 
@@ -132,8 +132,8 @@ The **About** tab provides information about the current version of AdGuard VPN 
 
 ### Hesap
 
-Here you can find information about your license status, as well as a link to your personal AdGuard account, where you can manage your current subscriptions and purchase new ones.
+Burada lisans durumunuzla ilgili bilgilerin yanı sıra mevcut aboneliklerinizi yönetebileceğiniz ve yenilerini satın alabileceğiniz kişisel AdGuard hesabınızız bağlantısını bulabilirsiniz.
 
 ## Destek
 
-This tab is aimed to solve users’ questions: there you can find a link to the FAQ page, report a bug or leave feedback, and export logs if the support team asks you to.
+Bu sekme, kullanıcıların sorularını çözmeyi amaçlamaktadır: burada SSS sayfasına bir bağlantı bulabilir, bir hatayı bildirebilir veya geri bildirim bırakabilir ve destek ekibi sizden isterse günlükleri dışa aktarabilirsiniz.

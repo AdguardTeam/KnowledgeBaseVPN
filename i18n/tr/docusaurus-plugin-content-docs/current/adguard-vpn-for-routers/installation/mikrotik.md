@@ -37,10 +37,10 @@ To set up AdGuard VPN on your MikroTik router, follow these steps:
 
 `add dst-address=0.0.0.0/0 group=adguard src-address=0.0.0.0/0 template=yes`
 
-Yukarıdaki komutlarda, `SERVER_ADDRESS` sunucu adresini belirtir. `USERNAME` is the username that you were assigned when adding your router in your AdGuard account. The same goes for `PASSWORD`.
+Yukarıdaki komutlarda, `SERVER_ADDRESS` sunucu adresini belirtir. `USERNAME`, yönlendiricinizi AdGuard hesabınıza eklerken size atanan kullanıcı adıdır. Aynı durum `PASSWORD` için de geçerlidir.
 
 :::note
 
-Please note, these commands should be executed exactly as they are.
+Lütfen bu komutların aynen yazıldığı gibi uygulanması gerektiğini unutmayın.
 
 :::
