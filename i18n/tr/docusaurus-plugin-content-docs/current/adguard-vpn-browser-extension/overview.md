@@ -17,7 +17,7 @@ Hızlı erişim için favori konumlarınızı kaydedebilirsiniz. Bunu yapmak iç
 
 ![Konum kaydet *mobile](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/saved-locations-en.png)
 
-Your marked locations will then show up in the *Saved* tab.
+İşaretlediğiniz konumlar daha sonra *Kaydedilenler* sekmesinde görünür.
 
 ![Kaydedilenler sekmesi *mobil](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/saved-tab-en.png)
 
@@ -41,7 +41,7 @@ Tüm istatistikler cihazınızda yerel olarak saklanır. We only calculate how m
 
 :::
 
-The *Stats* section is available to users of the paid version.
+*İstatistikler* bölümü, ücretli sürüm kullanıcıları için kullanılabilir.
 
 ## Ayarlar
 
