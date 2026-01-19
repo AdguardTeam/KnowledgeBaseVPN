@@ -67,7 +67,7 @@ A weak signal, network overload, VPN incompatibility with a firewall, antivirus 
 
 Our VPN service has several important [advantages](/general/why-adguard-vpn):
 
-- [*Proprietary VPN protocol*](https://trusttunnel.org/), which works stably even with a slow Internet connection and disguises itself as normal traffic, making it more difficult to track and block it
+- [*A modern VPN protocol*](https://trusttunnel.org/), which works stably even with a slow Internet connection and disguises itself as normal traffic, making it more difficult to track and block it
 
 - [*No-logging policy*](https://adguard-vpn.com/privacy.html), which means no personal data can be shared with third parties because AdGuard VPN never collects such data
 

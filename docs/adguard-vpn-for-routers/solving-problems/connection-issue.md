@@ -5,7 +5,7 @@ sidebar_position: 1
 
 For routers, AdGuard VPN uses the IKEv2 protocol, which is widely supported but can be easily detected. Because of this, access may be limited in some regions (for example, Belarus, Kazakhstan, or Russia) or in restricted network environments such as corporate or school networks. In such cases, you may see a *No connection* message.
 
-If you encounter this problem, we strongly recommend that you install [AdGuard VPN apps](https://adguard-vpn.com/en/products.html) directly on your other devices. AdGuard VPN apps use our proprietary protocol, which is much harder to detect and block.
+If you encounter this problem, we strongly recommend that you install [AdGuard VPN apps](https://adguard-vpn.com/products.html) directly on your other devices. AdGuard VPN apps use [TrustTunnel](https://trusttunnel.org/) — a modern protocol developed by us, that’s open-source and can be used by anyone. It is much harder to detect and block.
 
 If you are in another country and can’t connect to AdGuard VPN on your router, please make sure your router supports IKEv2. If it does and the problem persists, please contact support at [support@adguard-vpn.com](mailto:support@adguard-vpn.com).
 

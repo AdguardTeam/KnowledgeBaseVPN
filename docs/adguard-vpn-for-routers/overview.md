@@ -7,7 +7,7 @@ Setting up AdGuard VPN on your router allows you to protect every device connect
 
 :::note
 
-This option is only available if you have an AdGuard VPN subscription and your router supports IPsec in its *VPN Client* (**Not** *VPN Server*) settings. If IPsec is not listed in the *VPN Client* settings, you can try setting up [AdGuard VPN for Linux](/adguard-vpn-for-linux/setting-up-on-a-router). This solution uses AdGuard’s proprietary protocol and is compatible with Keenetic, OpenWRT, and Asuswrt-Merlin routers.
+This option is only available if you have an AdGuard VPN subscription and your router supports IPsec in its *VPN Client* (**Not** *VPN Server*) settings. If IPsec is not listed in the *VPN Client* settings, you can try setting up [AdGuard VPN for Linux](/adguard-vpn-for-linux/setting-up-on-a-router). This solution uses AdGuard’s protocol and is compatible with Keenetic, OpenWRT, and Asuswrt-Merlin routers.
 
 :::
 
