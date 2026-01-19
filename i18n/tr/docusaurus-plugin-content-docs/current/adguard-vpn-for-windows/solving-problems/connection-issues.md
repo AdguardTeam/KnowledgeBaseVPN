@@ -9,7 +9,7 @@ AdGuard VPN bağlantı sorunları genellikle ya ağla ilgilidir (belirli Wi-Fi a
 
 AdGuard VPN belirli bir Wi-Fi ağında düzgün şekilde çalışmıyorsa:
 
-1. Yönlendirici ayarlarını ve etkin hizmetleri kontrol edin. Some of them may interfere with AdGuard VPN:
+1. Yönlendirici ayarlarını ve etkin hizmetleri kontrol edin. Bunlardan bazıları AdGuard VPN ile çakışabilir:
 
    - Diğer VPN'ler (aynı anda çalışan)
    - Güvenlik duvarları (VPN trafiğini engelleyen)

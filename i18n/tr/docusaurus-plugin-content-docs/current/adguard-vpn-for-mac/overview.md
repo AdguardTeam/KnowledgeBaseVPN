@@ -121,6 +121,6 @@ Bu seçenek *Gelişmiş ayarlar* öğesinde yer almasına rağmen tereddüt etme
 
 ![VPN protokolü seç](https://cdn.adtidy.org/content/release_notes/vpn/mac/v2.7/protocol_en.png)
 
-By default, AdGuard VPN protocol uses dynamic VPN protocol selection (*Auto-select* option). That means that AdGuard VPN automatically figures out which protocol — HTTP2/TLS or HTTP3/QUIC — will give you the best performance and switches to it instantly. This improves VPN speed and stability, which is particularly helpful in regions where VPN usage is restricted or unreliable.
+By default, AdGuard VPN protocol uses dynamic VPN protocol selection (*Auto-select* option). Bu, AdGuard VPN'in hangi protokolün — HTTP2/TLS veya HTTP3/QUIC — size en iyi performansı vereceğini otomatik olarak belirlediği ve anında buna geçtiği anlamına gelir. This improves VPN speed and stability, which is particularly helpful in regions where VPN usage is restricted or unreliable.
 
 İsterseniz, AdGuard VPN'i *Otomatik seçim* yerine yalnızca HTTP2/TLS veya HTTP3/QUIC protokolünü kullanacak şekilde değiştirebilirsiniz. Each protocol has its strengths, but the best choice can vary depending on your location, network conditions, and even the server you connect to.
