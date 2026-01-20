@@ -7,9 +7,9 @@ When getting ready to commit to a [long-term VPN subscription](/general/subscrip
 
 *To start with, let’s go over AdGuard VPN’s unmatched features that you won’t find in any other VPN.*
 
-## 1. Proprietary protocol
+## 1. Open-source protocol
 
-From the very outset, we resolved to develop and deploy an in-house VPN protocol instead of picking a canned solution — that’d be too easy, plus, we weren’t satisfied with existing protocols. The result has become [our own VPN protocol](https://trusttunnel.org/).
+From the very outset, we resolved to develop and deploy an in-house VPN protocol instead of picking a canned solution — that’d be too easy, plus, we weren’t satisfied with existing protocols. The result has become [our VPN protocol](https://trusttunnel.org/).
 
 Choosing a VPN service, people often face a trade-off between fast vs. safe. The AdGuard VPN protocol is a perfect blend of speed and security, so you don’t have to bear slow Internet connection or make privacy sacrifices. Among other things, it disguises itself as regular traffic and it’s much harder to detect and block it.
 
