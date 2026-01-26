@@ -5,7 +5,7 @@ sidebar_position: 4
 
 O AdGuard VPN tem dois modos operacionais: *VPN* e *Integrado*.
 
-The *VPN* mode is enabled by default and uses the [AdGuard VPN protocol](/general/adguard-vpn-protocol). Ele fornece a melhor combinação de velocidade de conexão e segurança. Entretanto, este modo operacional não permite que o AdGuard VPN e o Bloqueador de Anúncios do AdGuard funcionem simultaneamente.
+The *VPN* mode is enabled by default and uses the [AdGuard VPN protocol](https://trusttunnel.org/). Ele fornece a melhor combinação de velocidade de conexão e segurança. Entretanto, este modo operacional não permite que o AdGuard VPN e o Bloqueador de Anúncios do AdGuard funcionem simultaneamente.
 
 *Integrated mode*, in turn, uses the IPsec protocol, which makes it possible for the AdGuard apps to work together.
 

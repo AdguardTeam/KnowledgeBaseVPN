@@ -14,7 +14,7 @@ AdGuard VPN에는 여러 가지 기능이 있습니다.
 - Encrypts your traffic, making the content inaccessible to scammers
 - Lets you configure where to use VPN and where not to (exclusions feature)
 
-iOS용 AdGuard VPN의 다음 장점은 자체 VPN 프로토콜입니다. AdGuard VPN 프로토콜은 다른 VPN 프로토콜에 비해 탐지하기가 매우 어렵고, 인터넷 연결 상태가 좋지 않은 경우에도 안정적입니다. [Read more about the AdGuard VPN protocol](/general/adguard-vpn-protocol).
+iOS용 AdGuard VPN의 다음 장점은 자체 VPN 프로토콜입니다. AdGuard VPN 프로토콜은 다른 VPN 프로토콜에 비해 탐지하기가 매우 어렵고, 인터넷 연결 상태가 좋지 않은 경우에도 안정적입니다. [Read more about the AdGuard VPN protocol](https://trusttunnel.org/).
 
 ## iOS용 AdGuard를 사용하는 방법
 
@@ -124,7 +124,7 @@ In *Advanced* settings, you can find 4 sections — *Operating mode*, *Logging l
 
 AdGuard VPN for iOS can operate in two modes: **VPN** and **Integrated**.
 
-The *VPN* mode uses the [AdGuard VPN protocol](/general/adguard-vpn-protocol), which provides the best combination of speed and security. In this mode, AdGuard VPN will not work with [AdGuard Ad Blocker for iOS](https://adguard.com/adguard-ios/overview.html).
+The *VPN* mode uses the [AdGuard VPN protocol](https://trusttunnel.org/), which provides the best combination of speed and security. In this mode, AdGuard VPN will not work with [AdGuard Ad Blocker for iOS](https://adguard.com/adguard-ios/overview.html).
 
 In **Integrated mode**, AdGuard VPN will be able to work simultaneously with AdGuard Ad Blocker for iOS using the IPSec protocol. This protocol is also secure, but a bit slower and easier to detect. You don’t have to do anything to set up the integration: just install both apps and switch to this mode.
 

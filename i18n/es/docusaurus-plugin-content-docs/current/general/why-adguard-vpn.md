@@ -9,7 +9,7 @@ When getting ready to commit to a [long-term VPN subscription](/general/subscrip
 
 ## 1. Protocolo propietario
 
-Desde el principio, decidimos desarrollar e implementar un protocolo VPN interno en lugar de elegir una solución ya preparada: eso sería demasiado fácil, además, no estábamos satisfechos con los protocolos existentes. The result has become the [AdGuard VPN protocol](/general/adguard-vpn-protocol).
+Desde el principio, decidimos desarrollar e implementar un protocolo VPN interno en lugar de elegir una solución ya preparada: eso sería demasiado fácil, además, no estábamos satisfechos con los protocolos existentes. The result has become the [AdGuard VPN protocol](https://trusttunnel.org/).
 
 Al elegir un servicio VPN, las personas suelen tener que elegir entre rapidez y seguridad. The AdGuard VPN protocol is a perfect blend of speed and security, so you don’t have to bear slow Internet connection or make privacy sacrifices. Entre otras cosas, se disfraza de tráfico regular y es mucho más difícil de detectar y bloquear.
 

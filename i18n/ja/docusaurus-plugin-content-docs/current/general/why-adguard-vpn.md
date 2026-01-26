@@ -9,7 +9,7 @@ When getting ready to commit to a [long-term VPN subscription](/general/subscrip
 
 ## 1. 独自開発プロトコル
 
-当初から、既存のプロトコルに満足できず、独自VPNプロトコルを自社で開発し、実装することを決めていました。 The result has become the [AdGuard VPN protocol](/general/adguard-vpn-protocol).
+当初から、既存のプロトコルに満足できず、独自VPNプロトコルを自社で開発し、実装することを決めていました。 The result has become the [AdGuard VPN protocol](https://trusttunnel.org/).
 
 VPNサービスを選択する際、高速性と安全性のどちらかを優先して選ばないといけないケースが多いです。 The AdGuard VPN protocol is a perfect blend of speed and security, so you don’t have to bear slow Internet connection or make privacy sacrifices. なかでも、AdGuard VPNプトロコルは通常のトラフィックに偽装しているため、検知対策やブロック対策がしっかりしています。
 

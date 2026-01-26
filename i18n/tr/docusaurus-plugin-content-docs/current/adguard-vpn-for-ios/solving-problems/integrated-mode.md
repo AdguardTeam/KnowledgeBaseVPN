@@ -5,7 +5,7 @@ sidebar_position: 4
 
 AdGuard VPN'in iki çalışma modu vardır: *VPN* ve *Entegre*.
 
-*VPN* modu varsayılan olarak etkindir ve [AdGuard VPN protokolünü](/general/adguard-vpn-protocol) kullanır. Bağlantı hızı ve güvenliğin en iyi kombinasyonunu sağlar. Ancak bu çalışma modu, AdGuard VPN ve AdGuard Reklam Engelleyicinin aynı anda çalışmasına izin vermez.
+*VPN* modu varsayılan olarak etkindir ve [AdGuard VPN protokolünü](https://trusttunnel.org/) kullanır. Bağlantı hızı ve güvenliğin en iyi kombinasyonunu sağlar. Ancak bu çalışma modu, AdGuard VPN ve AdGuard Reklam Engelleyicinin aynı anda çalışmasına izin vermez.
 
 *Entegre mod* ise IPsec protokolünü kullanır ve bu da AdGuard uygulamalarının birlikte çalışmasını mümkün kılar.
 

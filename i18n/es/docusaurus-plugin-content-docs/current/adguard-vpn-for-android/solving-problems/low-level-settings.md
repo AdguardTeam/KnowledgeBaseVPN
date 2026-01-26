@@ -19,11 +19,11 @@ A continuación, enumeramos todas las configuraciones de bajo nivel disponibles 
 
 ### Protocolo de AdGuard VPN
 
-De forma predeterminada, el Protocolo AdGuard VPN utiliza la selección dinámica de protocolo VPN (opción _Selección automática_). Puedes leer más sobre su implementación en un [artículo dedicado](/general/adguard-vpn-protocol.md). Esto mejora la velocidad y estabilidad del VPN, lo cual es especialmente útil en regiones donde el uso del VPN está restringido o es inestable.
+De forma predeterminada, el Protocolo AdGuard VPN utiliza la selección dinámica de protocolo VPN (opción _Selección automática_). Puedes leer más sobre su implementación en un [artículo dedicado](https://trusttunnel.org/). Esto mejora la velocidad y estabilidad del VPN, lo cual es especialmente útil en regiones donde el uso del VPN está restringido o es inestable.
 
 Si sabes lo que estás haciendo, puedes cambiar AdGuard VPN para que use solo el protocolo HTTP2/TLS o HTTP3/QUIC en lugar de _Selección automática_. [QUIC](https://adguard-vpn.com/kb/general/why-adguard-vpn/#6-quic-support) es un protocolo relativamente nuevo, por lo que puede ser menos estable. Sin embargo, si tu conexión a Internet es inestable (por ejemplo, cuando te conectas al wifi público), proporciona mejor seguridad y aumenta la velocidad de conexión gracias a la tecnología de [Head-Of-Line Blocking](https://adguard-dns.io/en/blog/dns-over-quic.html#headoflineblocking).
 
-Además, aquí tienes un artículo dedicado sobre el protocolo: [Cómo funciona el Protocolo AdGuard VPN](/general/adguard-vpn-protocol.md).
+Además, aquí tienes un artículo dedicado sobre el protocolo: [Cómo funciona el Protocolo AdGuard VPN](https://trusttunnel.org/).
 
 ### Incluir la puerta de enlace Wi-Fi en las rutas de VPN
 

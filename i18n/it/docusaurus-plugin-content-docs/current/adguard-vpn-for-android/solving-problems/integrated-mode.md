@@ -3,7 +3,7 @@ title: Compatibilità con il Blocco AdGuard
 sidebar_position: 3
 ---
 
-AdGuard VPN ha la modalità operativa della VPN abilitata di default, che utilizza il proprio [protocollo di AdGuard VPN](/general/adguard-vpn-protocol). Offre la migliore combinazione di velocità di connessione e sicurezza. Tuttavia, questa modalità operativa non consente ad AdGuard VPN e al Blocco AdGuard di funzionare contemporaneamente. The Integrated mode, in turn, uses a special internal protocol, which makes it possible for the two apps to work together.
+AdGuard VPN ha la modalità operativa della VPN abilitata di default, che utilizza il proprio [protocollo di AdGuard VPN](https://trusttunnel.org/). Offre la migliore combinazione di velocità di connessione e sicurezza. Tuttavia, questa modalità operativa non consente ad AdGuard VPN e al Blocco AdGuard di funzionare contemporaneamente. The Integrated mode, in turn, uses a special internal protocol, which makes it possible for the two apps to work together.
 
 ### How to enable Integrated mode
 

@@ -23,7 +23,7 @@ AdGuard VPN 协议默认使用动态 VPN 协议选择（「自动选择」选项
 
 如果您知道自己在做什么，可以将 AdGuard VPN 切换为仅使用 HTTP2/TLS 或 HTTP3/QUIC 协议，而不是「自动选择」。 [QUIC](https://adguard-vpn.com/kb/general/why-adguard-vpn/#6-quic-support) 是一种相对较新的协议，因此可能不够稳定。 然而，如果网络连接不稳定（例如，当您连接到公共 Wi-Fi 时），它可以提供更好的安全性，并且由于 [Head-Of-Line Blocking](https://adguard-dns.io/en/blog/dns-over-quic.html#headoflineblocking)技术可以提高连接速度。
 
-此外，可以查看一篇关于该协议的专门文章：[AdGuard VPN 协议的工作原理](/general/adguard-vpn-protocol.md)。
+此外，可以查看一篇关于该协议的专门文章：[AdGuard VPN 协议的工作原理](https://trusttunnel.org/)。
 
 ### 将 Wi-Fi 网关接入 VPN 路由中
 

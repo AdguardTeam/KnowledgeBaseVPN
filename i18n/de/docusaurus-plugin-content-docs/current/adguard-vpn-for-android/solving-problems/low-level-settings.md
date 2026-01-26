@@ -23,7 +23,7 @@ Standardmäßig verwendet das AdGuard VPN-Protokoll die dynamische VPN-Protokoll
 
 Wenn Sie wissen, was Sie tun, können Sie AdGuard VPN so einstellen, dass nur das HTTP2/TLS- oder HTTP3/QUIC-Protokoll verwendet wird, anstelle der Option _Automatisch auswählen_. [QUIC](https://adguard-vpn.com/kb/general/why-adguard-vpn/#6-quic-support) ist ein relativ neues Protokoll und kann daher weniger stabil sein. Wenn Ihre Internetverbindung jedoch instabil ist (z. B. wenn Sie eine Verbindung zum öffentlichen WLAN herstellen), bietet sie dank der [Head-Of-Line Blocking](https://adguard-dns.io/en/blog/dns-over-quic.html#headoflineblocking)-Technologie mehr Sicherheit und erhöht die Verbindungsgeschwindigkeit.
 
-Hier finden Sie außerdem einen speziellen Artikel über das Protokoll: [So funktioniert das AdGuard VPN-Protokoll](/general/adguard-vpn-protocol.md).
+Hier finden Sie außerdem einen speziellen Artikel über das Protokoll: [So funktioniert das AdGuard VPN-Protokoll](https://trusttunnel.org/).
 
 ### WLAN-Gateway in VPN-Routen einbeziehen
 

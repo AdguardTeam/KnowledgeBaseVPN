@@ -9,7 +9,7 @@ Wenn man sich entscheidet, einen [VPN-Dienst langfristig zu abonnieren](/general
 
 ## 1. Proprietäres Protokoll
 
-Das AdGuard-Team entschied sich von Anfang an für die Entwicklung und Implementierung eines eigenen VPN-Protokolls, anstatt sich für eine vorgefertigte Lösung zu entscheiden. So entstand das [AdGuard VPN-Protokoll](/general/adguard-vpn-protocol).
+Das AdGuard-Team entschied sich von Anfang an für die Entwicklung und Implementierung eines eigenen VPN-Protokolls, anstatt sich für eine vorgefertigte Lösung zu entscheiden. So entstand das [AdGuard VPN-Protokoll](https://trusttunnel.org/).
 
 Bei der Wahl eines VPN-Dienstes müssen Sie oft zwischen hoher Geschwindigkeit und Sicherheit auswählen. Das AdGuard VPN-Protokoll ist eine perfekte Mischung aus Geschwindigkeit und Sicherheit, so dass Sie weder eine langsame Internetverbindung in Kauf nehmen noch Abstriche beim Datenschutz machen müssen. Unter anderem tarnt er sich als regulärer Datenverkehr und ist viel schwerer zu erkennen und zu sperren.
 

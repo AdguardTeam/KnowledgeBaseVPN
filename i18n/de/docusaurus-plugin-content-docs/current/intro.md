@@ -32,7 +32,7 @@ AdGuard ist seit mehr als 15 Jahren auf dem Markt des Schutzes persönlicher Dat
 
 ### Einzigartiges VPN-Protokoll
 
-Der Hauptunterschied zwischen AdGuard VPN und seinen Mitbewerbern besteht darin, dass wir [unser selbst entwickeltes Protokoll](/general/adguard-vpn-protocol) verwenden. Es tarnt sich als normaler Verkehr, daher ist es viel schwieriger, es zu verfolgen und zu sperren.
+Der Hauptunterschied zwischen AdGuard VPN und seinen Mitbewerbern besteht darin, dass wir [unser selbst entwickeltes Protokoll](https://trusttunnel.org/) verwenden. Es tarnt sich als normaler Verkehr, daher ist es viel schwieriger, es zu verfolgen und zu sperren.
 
 ### Keine Protokollierung
 

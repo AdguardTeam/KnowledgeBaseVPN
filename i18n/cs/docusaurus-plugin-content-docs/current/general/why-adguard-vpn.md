@@ -9,7 +9,7 @@ Když se uživatelé rozhodují o [dlouhodobém předplatném VPN](/general/subs
 
 ## 1. Vlastní protokol
 
-Od samého počátku jsme se rozhodli vytvořit a nasadit vlastní protokol VPN, místo toho, abychom vybrali hotové řešení — to by bylo příliš snadné a navíc jsme nebyli spokojeni se stávajícími protokoly. Výsledkem je [protokol AdGuard VPN](/general/adguard-vpn-protocol).
+Od samého počátku jsme se rozhodli vytvořit a nasadit vlastní protokol VPN, místo toho, abychom vybrali hotové řešení — to by bylo příliš snadné a navíc jsme nebyli spokojeni se stávajícími protokoly. Výsledkem je [protokol AdGuard VPN](https://trusttunnel.org/).
 
 Při výběru služby VPN se lidé často rozhodují mezi rychlostí a bezpečností. Protokol AdGuard VPN je dokonalou kombinací rychlosti a zabezpečení, takže nemusíte snášet pomalé připojení k internetu ani obětovat své soukromí. Mimo jiné se maskuje jako běžný datový provoz a je mnohem těžší ho odhalit a zablokovat.
 

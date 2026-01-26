@@ -9,7 +9,7 @@ Kullanıcılar, [uzun vadeli bir VPN aboneliği](/general/subscription) almaya h
 
 ## 1. Tescilli protokol
 
-En başından beri, hazır bir çözüm seçmek yerine şirket içi bir VPN protokolü geliştirmeye ve dağıtmaya karar verdik — bu çok kolay olurdu, ayrıca mevcut protokollerden memnun değildik. Sonuç, [AdGuard VPN protokolü](/general/adguard-vpn-protocol) hâline geldi.
+En başından beri, hazır bir çözüm seçmek yerine şirket içi bir VPN protokolü geliştirmeye ve dağıtmaya karar verdik — bu çok kolay olurdu, ayrıca mevcut protokollerden memnun değildik. Sonuç, [AdGuard VPN protokolü](https://trusttunnel.org/) hâline geldi.
 
 Bir VPN hizmeti seçerken, insanlar genellikle hızlı ve güvenli arasında bir denge ile karşı karşıya kalırlar. AdGuard VPN protokolü, hız ve güvenliğin mükemmel bir karışımıdır, bu nedenle yavaş internet bağlantısına katlanmak veya gizlilikten ödün vermek zorunda kalmazsınız. Diğer şeylerin yanı sıra, kendisini normal trafik olarak gizler, onu tespit etmek ve engellemek çok daha zordur.
 

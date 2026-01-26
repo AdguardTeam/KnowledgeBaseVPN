@@ -23,7 +23,7 @@ Ve výchozím nastavení používá protokol AdGuard VPN dynamický výběr prot
 
 Pokud víte, co děláte, můžete přepnout AdGuard VPN tak, aby místo _Automatického výběru_ používal pouze protokol HTTP2/TLS nebo HTTP3/QUIC. [QUIC](https://adguard-vpn.com/kb/general/why-adguard-vpn/#6-quic-support) je relativně nový protokol a proto může být méně stabilní. Pokud je však vaše internetové připojení nestabilní (např. při připojení k veřejné Wi-Fi), poskytuje lepší zabezpečení a zvyšuje rychlost připojení díky technologii [Head-Of-Line Blocking](https://adguard-dns.io/en/blog/dns-over-quic.html#headoflineblocking).
 
-Zde je také článek věnovaný tomuto protokolu: [Jak funguje protokol AdGuard VPN](/general/adguard-vpn-protocol.md).
+Zde je také článek věnovaný tomuto protokolu: [Jak funguje protokol AdGuard VPN](https://trusttunnel.org/).
 
 ### Zahrnout bránu Wi-Fi v trasách VPN
 
