@@ -7,7 +7,7 @@ When getting ready to commit to a [long-term VPN subscription](/general/subscrip
 
 *To start with, let’s go over AdGuard VPN’s unmatched features that you won’t find in any other VPN.*
 
-## 1. Open-source protocol
+## 1. State-of-the-art open-source protocol
 
 From the very outset, we resolved to develop and deploy an in-house VPN protocol instead of picking a canned solution — that’d be too easy, plus, we weren’t satisfied with existing protocols. The result has become [TrustTunnel](https://trusttunnel.org/) — a modern, open-source VPN protocol developed by AdGuard VPN.
 
