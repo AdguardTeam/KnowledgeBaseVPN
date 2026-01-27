@@ -17,9 +17,14 @@ To access *Low-level settings*, open the AdGuard VPN app and tap the gear icon i
 
 Below we list all low-level settings available in AdGuard VPN for Android and explain what they do. We once again urge you not to mess with these settings blindly even if you’ve read this guide. Treat it as a cheat sheet for when you know what you are doing but want to brush up on specifics.
 
+### AdGuard VPN protocol
+
+AdGuard VPN uses TrustTunnel — a modern, open-source VPN protocol developed by us and available for anyone to use, audit, and implement. [Visit the website](https://trusttunnel.org/) to learn how it works and why it’s different from traditional VPN protocols.
+
 ### Include Wi-Fi gateway in VPN routes
 
 If this setting is enabled, the gateway IP addresses will be added to VPN routes when on Wi-Fi.
+
 If you disable it, then the route configuration (IP ranges that are filtered) will be changed. The Wi-Fi gateway of the network to which the user is connected will be excluded, and therefore, it will not be subject to filtering.
 
 This setting is enabled by default.
@@ -34,7 +39,7 @@ Watchdog monitors the VPN process state to check if there are any problems with 
 
 ### Preferred IP version
 
-Here you can set up the endpoint addresses. There are three options: IPv4, IPv6 or IPv4 and IPv6 (if your device supports both).
+Here you can set up the endpoint addresses. There are three options: IPv4, IPv6, or IPv4 and IPv6 (if your device supports both).
 
 ### IPv4 ranges excluded from VPN
 
@@ -61,6 +66,7 @@ Here you can set the maximum size (in bytes) of the data packet used in local VP
 ### Excluded apps
 
 You can list here UIDs (unique identifiers) or package names of the apps that you want to exclude from VPN routing.
+
 Unlike with apps added to regular *Exclusions*, the traffic of apps added to *Excluded apps* doesn’t go to the local VPN service on your device at all. Instead, it goes directly to the destination.
 
 ### Proxy server port
