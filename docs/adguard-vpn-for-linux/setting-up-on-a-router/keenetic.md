@@ -165,15 +165,7 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
     / #
     ```
 
-    To sign up or log in, type:
-
-    ```bash
-    adguardvpn-cli login
-    ```
-
-1. Connect to VPN
-
-    For Keenetic routers, be sure to import the SSL certificate and select a folder for the user directory by running this command before connecting:
+    For Keenetic routers, be sure to import the SSL certificate and select a folder for the user directory by running this command before using AdGuard VPN CLI:
 
     ```bash
     export SSL_CERT_FILE=/opt/etc/ssl/certs/ca-certificates.crt
@@ -181,6 +173,14 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
     ```
 
     This must be done before each session.
+
+    To sign up or log in, type:
+
+    ```bash
+    adguardvpn-cli login
+    ```
+
+1. Connect to VPN
 
     Select a VPN server location that best suits your needs.
 
