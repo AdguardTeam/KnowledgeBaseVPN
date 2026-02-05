@@ -43,7 +43,7 @@ In addition to these VPN protocols, there are others (for example, TLS, SSTP, IK
 
 <object data="https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/6.svg?nc=1" type="image/svg+xml"><img src="https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/6.svg?nc=1" alt="protocol 6" /> </object>
 
-AdGuard VPN also has its own [*protocol*](/general/adguard-vpn-protocol). One of its advantages is that the traffic transmitted using the AdGuard VPN protocol is difficult to distinguish from the regular traffic. The VPN tunnel looks like normal HTTPS traffic, making it extremely difficult to detect and block. In addition, it is based on the mechanisms of the modern HTTP/2 protocol, which ensures high connection speed.
+AdGuard VPN uses [TrustTunnel](https://trusttunnel.org/) — a modern, open-source VPN protocol developed by us. One of its advantages is that the traffic transmitted using the AdGuard VPN protocol is difficult to distinguish from the regular traffic. The VPN tunnel looks like normal HTTPS traffic, making it extremely difficult to detect and block. In addition, it is based on the mechanisms of the modern HTTP/2 protocol, which ensures high connection speed.
 
 <object data="https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/5.svg?nc=1" type="image/svg+xml"><img src="https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/5.svg?nc=1" alt="protocol 5" /></object>
 
@@ -67,7 +67,7 @@ A weak signal, network overload, VPN incompatibility with a firewall, antivirus 
 
 Our VPN service has several important [advantages](/general/why-adguard-vpn):
 
-- [*Proprietary VPN protocol*](/general/adguard-vpn-protocol), which works stably even with a slow Internet connection and disguises itself as normal traffic, making it more difficult to track and block it
+- [*TrusttTunnel*](https://trusttunnel.org/) — a modern, stealthy, and open-source VPN protocol developed by AdGuard VPN. It works stably even with a slow Internet connection and disguises itself as normal traffic, making it more difficult to track and block it
 
 - [*No-logging policy*](https://adguard-vpn.com/privacy.html), which means no personal data can be shared with third parties because AdGuard VPN never collects such data
 

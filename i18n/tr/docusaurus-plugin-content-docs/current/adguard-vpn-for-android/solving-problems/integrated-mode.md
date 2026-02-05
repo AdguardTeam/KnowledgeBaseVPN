@@ -3,7 +3,7 @@ title: AdGuard Reklam Engelleyici ile uyumluluk
 sidebar_position: 3
 ---
 
-AdGuard VPN, kendi [AdGuard VPN protokolünü](/general/adguard-vpn-protocol) kullanan, varsayılan olarak etkinleştirilmiş VPN çalışma moduna sahiptir. Bağlantı hızı ve güvenliğin en iyi kombinasyonunu sağlar. Ancak bu çalışma modu, AdGuard VPN ve AdGuard Reklam Engelleyicinin aynı anda çalışmasına izin vermez. The Integrated mode, in turn, uses a special internal protocol, which makes it possible for the two apps to work together.
+AdGuard VPN, kendi [AdGuard VPN protokolünü](https://trusttunnel.org/) kullanan, varsayılan olarak etkinleştirilmiş VPN çalışma moduna sahiptir. Bağlantı hızı ve güvenliğin en iyi kombinasyonunu sağlar. Ancak bu çalışma modu, AdGuard VPN ve AdGuard Reklam Engelleyicinin aynı anda çalışmasına izin vermez. The Integrated mode, in turn, uses a special internal protocol, which makes it possible for the two apps to work together.
 
 ### Entegre mod nasıl etkinleştirilir
 

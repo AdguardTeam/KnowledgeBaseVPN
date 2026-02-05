@@ -9,7 +9,7 @@ When getting ready to commit to a [long-term VPN subscription](/general/subscrip
 
 ## 1. 专有的协议
 
-从一开始，我们就决心开发和部署一个内部的 VPN 协议，而不是选择一个市场上就有的解决方案 —— 那太容易了，另外，我们对市场上现有的协议也并不满意。 The result has become the [AdGuard VPN protocol](/general/adguard-vpn-protocol).
+从一开始，我们就决心开发和部署一个内部的 VPN 协议，而不是选择一个市场上就有的解决方案 —— 那太容易了，另外，我们对市场上现有的协议也并不满意。 The result has become the [AdGuard VPN protocol](https://trusttunnel.org/).
 
 选择 VPN 服务时，客户总会面临快速 VS 安全的选择问题。 The AdGuard VPN protocol is a perfect blend of speed and security, so you don’t have to bear slow Internet connection or make privacy sacrifices. 除此之外，它将自己伪装成普通流量，更难发现和阻止它。
 

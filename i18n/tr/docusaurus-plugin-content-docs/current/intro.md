@@ -32,7 +32,7 @@ AdGuard, 15 yılı aşkın bir süredir kişisel verilerin korunması ve reklam 
 
 ### Benzersiz VPN protokolü
 
-AdGuard VPN ile rakipleri arasındaki temel fark, [kendi geliştirdiğimiz](/general/adguard-vpn-protocol) protokolü kullanmamızdır. Kendisini normal trafik olarak gizler, bu yüzden onu izlemek ve engellemek çok daha zordur.
+AdGuard VPN ile rakipleri arasındaki temel fark, [kendi geliştirdiğimiz](https://trusttunnel.org/) protokolü kullanmamızdır. Kendisini normal trafik olarak gizler, bu yüzden onu izlemek ve engellemek çok daha zordur.
 
 ### Günlük tutmama politikası
 

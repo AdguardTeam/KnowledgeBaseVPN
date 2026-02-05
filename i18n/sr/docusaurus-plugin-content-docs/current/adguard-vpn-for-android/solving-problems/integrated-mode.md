@@ -3,7 +3,7 @@ title: Kompatibilnost sa AdGuard blokatorom reklama
 sidebar_position: 3
 ---
 
-AdGuard VPN has the VPN operating mode enabled by default, which uses its own [AdGuard VPN protocol](/general/adguard-vpn-protocol). Pruža najbolju kombinaciju brzine i bezbednosti veze. Međutim, ovaj operativni režim ne dozvoljava istovremeno funkcionisanje AdGuard VPN i AdGuard blokatora reklama. The Integrated mode, in turn, uses a special internal protocol, which makes it possible for the two apps to work together.
+AdGuard VPN has the VPN operating mode enabled by default, which uses its own [AdGuard VPN protocol](https://trusttunnel.org/). Pruža najbolju kombinaciju brzine i bezbednosti veze. Međutim, ovaj operativni režim ne dozvoljava istovremeno funkcionisanje AdGuard VPN i AdGuard blokatora reklama. The Integrated mode, in turn, uses a special internal protocol, which makes it possible for the two apps to work together.
 
 ### How to enable Integrated mode
 

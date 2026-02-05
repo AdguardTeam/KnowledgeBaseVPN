@@ -5,7 +5,7 @@ sidebar_position: 1
 
 ## Qué hace AdGuard VPN para Windows
 
-- Protege de la interceptación del tráfico de red (spoofing). AdGuard VPN crea un túnel cifrado entre su dispositivo y un servidor remoto. Todo el tráfico de Internet pasa por este túnel, por lo que tus datos están protegidos en todo momento. Y gracias al [protocolo exclusivo de AdGuard](/general/adguard-vpn-protocol), tienes garantizada una conexión rápida y segura.
+- Protege de la interceptación del tráfico de red (spoofing). AdGuard VPN crea un túnel cifrado entre su dispositivo y un servidor remoto. Todo el tráfico de Internet pasa por este túnel, por lo que tus datos están protegidos en todo momento. Y gracias al [protocolo exclusivo de AdGuard](https://trusttunnel.org/), tienes garantizada una conexión rápida y segura.
 
 - Enmascara su dirección IP. Su verdadera dirección IP es la clave de sus datos personales para los ciberdelincuentes. Tu nombre, dirección de correo electrónico, número de teléfono, información de tarjeta de crédito pueden caer en manos de estafadores si no oculta su IP. Con AdGuard VPN todo tu tráfico pasa por un túnel cifrado y llega al servidor VPN. El servidor web registra la dirección IP del punto final del túnel, es decir, el servidor VPN, y no la dirección IP real del dispositivo.
 

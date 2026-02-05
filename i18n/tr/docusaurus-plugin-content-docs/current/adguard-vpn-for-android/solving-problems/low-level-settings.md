@@ -23,7 +23,7 @@ By default, AdGuard VPN protocol uses dynamic VPN protocol selection (_Auto-sele
 
 If you know what you are doing, you can switch AdGuard VPN to use only HTTP2/TLS or HTTP3/QUIC protocol instead of _Auto-select_. [QUIC](https://adguard-vpn.com/kb/general/why-adguard-vpn/#6-quic-support) nispeten yeni bir protokoldür, bu nedenle daha az kararlı olabilir. However, if your Internet connection is unstable (for example, when you connect to the public Wi-Fi), it provides better security and increases the connection speed thanks to the [Head-Of-Line Blocking](https://adguard-dns.io/en/blog/dns-over-quic.html#headoflineblocking) technology.
 
-Also, here’s a dedicated article about the protocol: [How AdGuard VPN protocol works](/general/adguard-vpn-protocol.md).
+Also, here’s a dedicated article about the protocol: [How AdGuard VPN protocol works](https://trusttunnel.org/).
 
 ### Include Wi-Fi gateway in VPN routes
 

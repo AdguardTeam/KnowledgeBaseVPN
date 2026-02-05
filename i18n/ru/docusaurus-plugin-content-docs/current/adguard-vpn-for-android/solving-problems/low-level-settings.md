@@ -23,7 +23,7 @@ sidebar_position: 6
 
 Если вы знаете, что делаете, то можете переключить AdGuard VPN на использование только протокола HTTP2/TLS или HTTP3/QUIC вместо _Автоматического выбора_. [QUIC](https://adguard-vpn.com/kb/general/why-adguard-vpn/#6-quic-support) — относительно новый протокол, поэтому он может быть менее стабильным. Однако, если ваше интернет-соединение нестабильно (например, при подключении к общественному Wi-Fi), он обеспечивает лучшую безопасность и увеличивает скорость соединения благодаря технологии [Head-Of-Line Blocking](https://adguard-dns.io/ru/blog/dns-over-quic.html#headoflineblocking).
 
-Кроме того, вот отдельная статья о протоколе: [Как работает протокол AdGuard VPN](/general/adguard-vpn-protocol.md).
+Кроме того, вот отдельная статья о протоколе: [Как работает протокол AdGuard VPN](https://trusttunnel.org/).
 
 ### Включить шлюз Wi-Fi в маршруты VPN
 

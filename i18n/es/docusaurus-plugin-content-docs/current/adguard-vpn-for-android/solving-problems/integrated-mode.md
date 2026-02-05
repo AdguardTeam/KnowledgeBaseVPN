@@ -3,7 +3,7 @@ title: Compatibilidad con AdGuard Ad Blocker
 sidebar_position: 3
 ---
 
-AdGuard VPN tiene activado por defecto el modo de funcionamiento VPN, que utiliza su propio [protocolo AdGuard VPN](/general/adguard-vpn-protocol). Proporciona la mejor combinación de velocidad de conexión y seguridad. Sin embargo, este modo de funcionamiento no permite que AdGuard VPN y AdGuard Ad Blocker funcionen simultáneamente. The Integrated mode, in turn, uses a special internal protocol, which makes it possible for the two apps to work together.
+AdGuard VPN tiene activado por defecto el modo de funcionamiento VPN, que utiliza su propio [protocolo AdGuard VPN](https://trusttunnel.org/). Proporciona la mejor combinación de velocidad de conexión y seguridad. Sin embargo, este modo de funcionamiento no permite que AdGuard VPN y AdGuard Ad Blocker funcionen simultáneamente. The Integrated mode, in turn, uses a special internal protocol, which makes it possible for the two apps to work together.
 
 ### How to enable Integrated mode
 

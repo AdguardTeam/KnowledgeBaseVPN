@@ -14,7 +14,7 @@ AdGuard VPN has several functions:
 - Encrypts your traffic, making the content inaccessible to scammers
 - Lets you configure where to use VPN and where not to (exclusions feature)
 
-The next advantage of AdGuard VPN for iOS is our own VPN protocol. It is extremely difficult to detect compared to other VPN protocols, and it is stable even with a poor Internet connection. [Read more about the AdGuard VPN protocol](/general/adguard-vpn-protocol).
+The next advantage of AdGuard VPN for iOS is our own VPN protocol. It is extremely difficult to detect compared to other VPN protocols, and it is stable even with a poor Internet connection. [Read more about the AdGuard VPN protocol](https://trusttunnel.org/).
 
 ## How to use AdGuard VPN for iOS
 
@@ -124,7 +124,7 @@ In *Advanced* settings, you can find 4 sections — *Operating mode*, *Logging l
 
 AdGuard VPN for iOS can operate in two modes: **VPN** and **Integrated**.
 
-The *VPN* mode uses the [AdGuard VPN protocol](/general/adguard-vpn-protocol), which provides the best combination of speed and security. In this mode, AdGuard VPN will not work with [AdGuard Ad Blocker for iOS](https://adguard.com/adguard-ios/overview.html).
+The *VPN* mode uses the [AdGuard VPN protocol](https://trusttunnel.org/), which provides the best combination of speed and security. In this mode, AdGuard VPN will not work with [AdGuard Ad Blocker for iOS](https://adguard.com/adguard-ios/overview.html).
 
 In **Integrated mode**, AdGuard VPN will be able to work simultaneously with AdGuard Ad Blocker for iOS using the IPSec protocol. This protocol is also secure, but a bit slower and easier to detect. You don’t have to do anything to set up the integration: just install both apps and switch to this mode.
 

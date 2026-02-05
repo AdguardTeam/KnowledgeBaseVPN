@@ -3,7 +3,7 @@ title: AdGuard 광고 차단기와의 호환성
 sidebar_position: 3
 ---
 
-AdGuard VPN에는 자체 [AdGuard VPN 프로토콜](/general/adguard-vpn-protocol)을 사용하는 VPN 작동 모드가 기본적으로 활성화되어 있습니다. 이 프로토콜은 연결 속도와 보안의 최상의 조합을 제공합니다. 그러나 이 작동 모드에서는 AdGuard VPN과 AdGuard 광고 차단기가 동시에 작동할 수 없습니다. The Integrated mode, in turn, uses a special internal protocol, which makes it possible for the two apps to work together.
+AdGuard VPN에는 자체 [AdGuard VPN 프로토콜](https://trusttunnel.org/)을 사용하는 VPN 작동 모드가 기본적으로 활성화되어 있습니다. 이 프로토콜은 연결 속도와 보안의 최상의 조합을 제공합니다. 그러나 이 작동 모드에서는 AdGuard VPN과 AdGuard 광고 차단기가 동시에 작동할 수 없습니다. The Integrated mode, in turn, uses a special internal protocol, which makes it possible for the two apps to work together.
 
 ### How to enable Integrated mode
 

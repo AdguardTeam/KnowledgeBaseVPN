@@ -32,7 +32,7 @@ AdGuard has been present on the market of personal data protection and ad blocki
 
 ### Uniek VPN-protocol
 
-Het belangrijkste verschil tussen AdGuard VPN en zijn concurrenten is dat wij gebruik maken van [ons eigen ontwikkelde protocol](/general/adguard-vpn-protocol). Het vermomt zichzelf als normaal verkeer, dus het is veel moeilijker om het te volgen en te blokkeren.
+Het belangrijkste verschil tussen AdGuard VPN en zijn concurrenten is dat wij gebruik maken van [ons eigen ontwikkelde protocol](https://trusttunnel.org/). Het vermomt zichzelf als normaal verkeer, dus het is veel moeilijker om het te volgen en te blokkeren.
 
 ### Geen logboekregistratie
 

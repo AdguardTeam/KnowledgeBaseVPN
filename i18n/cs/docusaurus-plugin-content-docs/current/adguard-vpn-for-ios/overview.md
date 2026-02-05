@@ -14,7 +14,7 @@ AdGuard VPN má několik funkcí:
 - Zašifruje váš provoz a znemožní podvodníkům přístup k obsahu
 - Umožňuje nastavit, kde se má VPN používat a kde ne (funkce výjimek)
 
-Další výhodou AdGuard VPN pro iOS je náš vlastní VPN protokol. V porovnání s jinými protokoly VPN je velmi obtížné jej odhalit a je stabilní i při špatném připojení k internetu. [Další informace o protokolu AdGuard VPN](/general/adguard-vpn-protocol).
+Další výhodou AdGuard VPN pro iOS je náš vlastní VPN protokol. V porovnání s jinými protokoly VPN je velmi obtížné jej odhalit a je stabilní i při špatném připojení k internetu. [Další informace o protokolu AdGuard VPN](https://trusttunnel.org/).
 
 ## Jak používat AdGuard VPN pro iOS
 
@@ -124,7 +124,7 @@ V části *Pokročilá* nastavení najdete 4 sekce - *Pracovní režim*, *Úrove
 
 AdGuard VPN pro iOS může fungovat ve dvou režimech: **VPN** a **Integrovaném**.
 
-Režim *VPN* používá protokol [AdGuard VPN](/general/adguard-vpn-protocol), který poskytuje nejlepší kombinaci rychlosti a zabezpečení. V tomto režimu nebude AdGuard VPN pracovat s [Blokátorem reklam AdGuard pro iOS](https://adguard.com/adguard-ios/overview.html).
+Režim *VPN* používá protokol [AdGuard VPN](https://trusttunnel.org/), který poskytuje nejlepší kombinaci rychlosti a zabezpečení. V tomto režimu nebude AdGuard VPN pracovat s [Blokátorem reklam AdGuard pro iOS](https://adguard.com/adguard-ios/overview.html).
 
 V **Integrovaném režimu** bude moci AdGuard VPN pracovat současně s Blokátorem reklam AdGuard pro iOS pomocí protokolu IPSec. Tento protokol je také bezpečný, ale o něco pomalejší a snáze zjistitelný. Pro nastavení integrace nemusíte dělat nic: stačí nainstalovat obě aplikace a přepnout do tohoto režimu.
 

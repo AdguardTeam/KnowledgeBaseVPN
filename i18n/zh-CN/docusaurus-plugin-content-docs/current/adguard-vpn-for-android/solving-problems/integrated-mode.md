@@ -3,7 +3,7 @@ title: AdGuard 广告拦截程序的兼容性
 sidebar_position: 3
 ---
 
-AdGuard VPN has the VPN operating mode enabled by default, which uses its own [AdGuard VPN protocol](/general/adguard-vpn-protocol). 它提供连接速度和安全性的最佳组合。 不过，本操作模式不允许 AdGuard VPN 和 AdGuard 广告拦截程序同时工作。 The Integrated mode, in turn, uses a special internal protocol, which makes it possible for the two apps to work together.
+AdGuard VPN has the VPN operating mode enabled by default, which uses its own [AdGuard VPN protocol](https://trusttunnel.org/). 它提供连接速度和安全性的最佳组合。 不过，本操作模式不允许 AdGuard VPN 和 AdGuard 广告拦截程序同时工作。 The Integrated mode, in turn, uses a special internal protocol, which makes it possible for the two apps to work together.
 
 ### How to enable Integrated mode
 

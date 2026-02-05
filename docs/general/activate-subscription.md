@@ -16,13 +16,13 @@ Sometimes users have trouble activating their subscription. Below are step-by-st
 
 ### Official website
 
-First, check to see if you received a confirmation email. Subscriptions are associated with the email address you provide during the payment process. If you received the email but don't see the subscription in your app, you may have logged in to the app with a different email address.
+First, check to see if you received a confirmation email. Subscriptions are associated with the email address you provide during the payment process. If you received the email but donʼt see the subscription in your app, you may have logged in to the app with a different email address.
 
 1. Go to AdGuard VPN → *Settings* → *Account* and check which email address is displayed there
-1. If it's different, log out of your account (on iOS and Android, tap the three dots in the top-right corner to log out)
+1. If itʼs different, log out of your account (on iOS and Android, tap the three dots in the top-right corner to log out)
 1. Log back in using the correct email address associated with your purchase
 
-If you didn't receive the confirmation email, you may have entered a non-existent email address or made a typo when purchasing your subscription. To resolve this issue, please contact our support team at support@adguard-vpn.com and provide the following information:
+If you didnʼt receive the confirmation email, you may have entered a non-existent email address or made a typo when purchasing your subscription. To resolve this issue, please contact our support team at support@adguard-vpn.com and provide the following information:
 
 - Date and exact time of purchase
 - Exact amount charged
@@ -31,22 +31,22 @@ If you didn't receive the confirmation email, you may have entered a non-existen
 
 :::note
 
-You can use a specific subject line, such as "Problems with my subscription" or "Can't activate my subscription", to help us prioritize your request.
+You can use a specific subject line, such as “Problems with my subscription” or “Canʼt activate my subscription”, to help us prioritize your request.
 :::
 
 ### In-app purchase on iPhone or iPad
 
 When activating your AdGuard VPN subscription on iPhone or iPad, you might encounter one of the following scenarios:
 
-1. Your subscription works on your iPhone, but you can't activate it on another device because you don't know which email address it's associated with
-1. You purchased through the App Store but can't find the subscription in your AdGuard account
+1. Your subscription works on your iPhone, but you canʼt activate it on another device because you donʼt know which email address itʼs associated with
+1. You purchased through the App Store but canʼt find the subscription in your AdGuard account
 
-Let's look at these two situations separately.
+Letʼs look at these two situations separately.
 
 In the first case, your subscription may be associated with an email address created for you by Apple. This can happen if you log in to AdGuard VPN through *Continue with Apple* and purchase the subscription in-app.
 
 1. Go to AdGuard VPN → *Settings* → *Account*
-1. If you don't recognize the email address you see on the *Account* screen, visit the [password recovery page](https://auth.adguardaccount.com/account/recovery_password.html) and request a password reset for that email address
+1. If you donʼt recognize the email address you see on the *Account* screen, visit the [password recovery page](https://auth.adguardaccount.com/account/recovery_password.html) and request a password reset for that email address
 1. Use that email address and new password to log in on other devices
 
 Alternatively, you can ask the support team (support@adguard-vpn.com) to transfer your subscription from the email address provided by Apple to your active email address. Please include your receipt or other proof of purchase. This will help us verify that you own the subscription.
@@ -60,14 +60,14 @@ Once we receive the email address, we’ll transfer your subscription, and you�
 
 ### On a third-party website
 
-If you purchased an AdGuard VPN subscription from a software reseller, you should have received an activation code (a combination of letters and numbers, usually starting with "VPN"). To use this subscription, bind this code to your AdGuard account.
+If you purchased an AdGuard VPN subscription from a software reseller, you should have received an activation code (a combination of letters and numbers, usually starting with “VPN”). To use this subscription, bind this code to your AdGuard account.
 
 1. If you don’t have an account, [create one](https://auth.adguardaccount.com/login.html)
 1. Go to the *Licenses* section and click *Bind license*
 1. Enter your activation code to bind the AdGuard VPN subscription to your account
 1. Open the AdGuard VPN app and log in with your email address and password
 
-If you're already logged in, go to AdGuard VPN → *Settings* → *Account* and make sure the email address matches the one associated with your subscription.
+If youʼre already logged in, go to AdGuard VPN → *Settings* → *Account* and make sure the email address matches the one associated with your subscription.
 
 If they don’t match, log out (on iOS and Android, tap the three dots in the top-right corner) and log back in with the correct email address.
 

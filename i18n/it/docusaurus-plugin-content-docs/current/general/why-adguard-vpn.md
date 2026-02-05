@@ -9,7 +9,7 @@ Quando ci si appresta a sottoscrivere un [abbonamento a una VPN a lungo termine]
 
 ## 1. Protocollo proprietario
 
-Dall'inizio, abbiamo deciso di sviluppare e implementare un protocollo VPN interno invece di scegliere una soluzione predefinita: sarebbe stato troppo facile, inoltre, non eravamo soddisfatti dei protocolli esistenti. Il risultato è diventato il [protocollo di AdGuard VPN](/general/adguard-vpn-protocol).
+Dall'inizio, abbiamo deciso di sviluppare e implementare un protocollo VPN interno invece di scegliere una soluzione predefinita: sarebbe stato troppo facile, inoltre, non eravamo soddisfatti dei protocolli esistenti. Il risultato è diventato il [protocollo di AdGuard VPN](https://trusttunnel.org/).
 
 Nella scelta di un servizio VPN, spesso ci si trova di fronte a un compromesso tra velocità e sicurezza. Il protocollo di AdGuard VPN è un mix perfetto di velocità e sicurezza, quindi non devi sopportare una connessione a Internet lenta o sacrificare la tua privacy. Tra l'altro, si camuffa da traffico regolare ed è molto più difficile individuarlo e bloccarlo.
 
