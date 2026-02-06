@@ -7,9 +7,9 @@ Wenn man sich entscheidet, einen [VPN-Dienst langfristig zu abonnieren](/general
 
 *Lassen Sie uns zuerst über die unübertroffenen Funktionen von AdGuard VPN erzählen, die Sie bei keinem anderen VPN finden.*
 
-## 1. Proprietäres Protokoll
+## 1. State-of-the-art open-source protocol
 
-Das AdGuard-Team entschied sich von Anfang an für die Entwicklung und Implementierung eines eigenen VPN-Protokolls, anstatt sich für eine vorgefertigte Lösung zu entscheiden. So entstand das [AdGuard VPN-Protokoll](https://trusttunnel.org/).
+Das AdGuard-Team entschied sich von Anfang an für die Entwicklung und Implementierung eines eigenen VPN-Protokolls, anstatt sich für eine vorgefertigte Lösung zu entscheiden. The result has become [TrustTunnel](https://trusttunnel.org/) — a modern, stealthy, and fast open-source VPN protocol developed by AdGuard VPN.
 
 Bei der Wahl eines VPN-Dienstes müssen Sie oft zwischen hoher Geschwindigkeit und Sicherheit auswählen. Das AdGuard VPN-Protokoll ist eine perfekte Mischung aus Geschwindigkeit und Sicherheit, so dass Sie weder eine langsame Internetverbindung in Kauf nehmen noch Abstriche beim Datenschutz machen müssen. Unter anderem tarnt er sich als regulärer Datenverkehr und ist viel schwerer zu erkennen und zu sperren.
 

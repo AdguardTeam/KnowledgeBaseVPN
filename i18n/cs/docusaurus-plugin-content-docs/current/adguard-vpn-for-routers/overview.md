@@ -7,7 +7,7 @@ Nastavení AdGuard VPN na vašem routeru vám umožní chránit všechna zaříz
 
 :::note
 
-Tato možnost je k dispozici pouze v případě, že máte předplatné AdGuard VPN a váš router podporuje IPsec v nastavení _VPN Client_ (**ne** _VPN Server_). Pokud IPsec není uveden v nastavení _VPN Client_, můžete zkusit nastavit [AdGuard VPN pro Linux](/adguard-vpn-for-linux/setting-up-on-a-router). Toto řešení využívá vlastní protokol AdGuardu a je kompatibilní s routery Keenetic, OpenWRT a Asuswrt-Merlin.
+Tato možnost je k dispozici pouze v případě, že máte předplatné AdGuard VPN a váš router podporuje IPsec v nastavení _VPN Client_ (**ne** _VPN Server_). Pokud IPsec není uveden v nastavení _VPN Client_, můžete zkusit nastavit [AdGuard VPN pro Linux](/adguard-vpn-for-linux/setting-up-on-a-router). This solution uses [TrustTunnel](https://trusttunnel.org/) — an open-source protocol developed by AdGuard VPN — and is compatible with Keenetic, OpenWRT, and Asuswrt-Merlin routers.
 
 :::
 

@@ -32,7 +32,7 @@ AdGuard působí na trhu ochrany osobních údajů a blokování reklamy a vyví
 
 ### Jedinečný VPN protokol
 
-Hlavní rozdíl mezi AdGuard VPN a konkurencí spočívá v tom, že používáme [vlastní vyvinutý protokol](https://trusttunnel.org/). Maskuje se jako běžný provoz, takže je mnohem obtížnější jej sledovat a blokovat.
+The main difference between AdGuard VPN and its competitors is that we use [TrustTunnel](https://trusttunnel.org/) — a modern, stealthy, and fast open-source VPN protocol developed by us. Maskuje se jako běžný provoz, takže je mnohem obtížnější jej sledovat a blokovat.
 
 ### Žádné záznamy aktivit
 
