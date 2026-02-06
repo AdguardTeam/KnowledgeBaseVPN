@@ -67,7 +67,7 @@ A weak signal, network overload, VPN incompatibility with a firewall, antivirus 
 
 Our VPN service has several important [advantages](/general/why-adguard-vpn):
 
-- [*TrusttTunnel*](https://trusttunnel.org/) — a modern, stealthy, and open-source VPN protocol developed by AdGuard VPN. It works stably even with a slow Internet connection and disguises itself as normal traffic, making it more difficult to track and block it
+- [*TrustTunnel*](https://trusttunnel.org/) — a modern, stealthy, and open-source VPN protocol developed by AdGuard VPN. It works stably even with a slow Internet connection and disguises itself as normal traffic, making it more difficult to track and block it
 
 - [*No-logging policy*](https://adguard-vpn.com/privacy.html), which means no personal data can be shared with third parties because AdGuard VPN never collects such data
 
