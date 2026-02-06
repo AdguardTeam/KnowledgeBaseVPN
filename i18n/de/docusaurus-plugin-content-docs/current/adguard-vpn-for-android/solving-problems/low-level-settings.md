@@ -19,57 +19,55 @@ Im Folgenden listen wir alle Einstellungen auf, die in AdGuard VPN für Android 
 
 ### AdGuard VPN-Protokoll
 
-Standardmäßig verwendet das AdGuard VPN-Protokoll die dynamische VPN-Protokollauswahl (Option _Automatisch auswählen_). Das bedeutet, dass AdGuard VPN automatisch ermittelt, welches Protokoll — HTTP2/TLS oder HTTP3/QUIC — Ihnen die beste Leistung bietet, und sofort darauf umschaltet. Dies verbessert die Geschwindigkeit und Stabilität des VPN, was besonders in Regionen hilfreich ist, in denen die Nutzung von VPN eingeschränkt oder unzuverlässig ist.
+AdGuard VPN uses TrustTunnel — a modern, open-source VPN protocol developed by us and available for anyone to use, audit, and implement. [Visit the website](https://trusttunnel.org/) to learn how it works and why it’s different from traditional VPN protocols.
 
-Wenn Sie wissen, was Sie tun, können Sie AdGuard VPN so einstellen, dass nur das HTTP2/TLS- oder HTTP3/QUIC-Protokoll verwendet wird, anstelle der Option _Automatisch auswählen_. [QUIC](https://adguard-vpn.com/kb/general/why-adguard-vpn/#6-quic-support) ist ein relativ neues Protokoll und kann daher weniger stabil sein. Wenn Ihre Internetverbindung jedoch instabil ist (z. B. wenn Sie eine Verbindung zum öffentlichen WLAN herstellen), bietet sie dank der [Head-Of-Line Blocking](https://adguard-dns.io/en/blog/dns-over-quic.html#headoflineblocking)-Technologie mehr Sicherheit und erhöht die Verbindungsgeschwindigkeit.
+### Include Wi-Fi gateway in VPN routes
 
-Hier finden Sie außerdem einen speziellen Artikel über das Protokoll: [So funktioniert das AdGuard VPN-Protokoll](https://trusttunnel.org/).
+If this setting is enabled, the gateway IP addresses will be added to VPN routes when on Wi-Fi.
 
-### WLAN-Gateway in VPN-Routen einbeziehen
+If you disable it, then the route configuration (IP ranges that are filtered) will be changed. The Wi-Fi gateway of the network to which the user is connected will be excluded, and therefore, it will not be subject to filtering.
 
-Wenn diese Einstellung aktiviert ist, werden die IP-Adressen des Gateways zu den VPN-Routen hinzugefügt, wenn WLAN verwendet wird.
-Wenn Sie diese Funktion deaktivieren, wird die Routenkonfiguration (gefilterte IP-Bereiche) geändert. Das WLAN-Gateway des Netzes, mit dem der Benutzer verbunden ist, wird ausgeschlossen und unterliegt daher nicht der Filterung.
+This setting is enabled by default.
 
-Diese Einstellung ist standardmäßig aktiviert.
+### Packet capture (PCAP)
 
-### Paket-Erfassung (PCAP)
-
-Wenn diese Einstellung aktiviert ist, erstellt AdGuard VPN eine `.pcap`-Datei mit einem Zeitstempel als Namen (z.B. `1682599851461.pcap`) im App-Cache-Verzeichnis. Diese Datei listet alle durch das VPN übertragenen Netzwerkpakete auf und kann mit dem Programm [Wireshark](https://www.wireshark.org/) analysiert werden.
+If this setting is enabled, AdGuard VPN will create a `.pcap` file with a timestamp for its name (for instance, `1682599851461.pcap`) in the app cache directory. This file lists all network packets transferred through the VPN and can be analyzed with the [Wireshark program](https://www.wireshark.org/).
 
 ### Watchdog
 
-„Watchdog“ überwacht den Zustand des VPN-Prozesses, um zu prüfen, inwieweit es Probleme damit gibt. Wenn diese Funktion aktiviert ist, schützt sich AdGuard VPN selbst vor aggressiven Akkuspar-Apps, die es sonst ausschalten könnten.
+Watchdog monitors the VPN process state to check if there are any problems with it. When enabled, AdGuard VPN will protect itself against aggressive battery saver apps that could otherwise kill it.
 
-### Bevorzugte IP-Version
+### Preferred IP version
 
-Hier können Sie die Endpunktadressen einrichten. Es gibt drei Optionen: IPv4, IPv6 oder IPv4 und IPv6 (wenn Ihr Gerät beides unterstützt).
+Here you can set up the endpoint addresses. There are three options: IPv4, IPv6, or IPv4 and IPv6 (if your device supports both).
 
-### Von VPN ausgeschlossene IPv4-Bereiche
+### IPv4 ranges excluded from VPN
 
-Das VPN-Tunneling für die in diesem Abschnitt aufgeführten IPv4-Bereiche wird deaktiviert.
+VPN tunneling for the IPv4 ranges listed in this section will be disabled.
 
-### IPv6-Schnittstelle
+### IPv6 interface
 
-Nach dem Aktivieren dieser Option verfügen Sie beim Weiterleiten des Datenverkehrs durch die VPN-Verbindung über eine IPv6-Adresse. Sie können die Ausschlüsse in den _IPv6-Bereichen, die von VPN ausgeschlossen sind_, einrichten.
+After enabling this option you will have an IPv6 address while routing traffic through the VPN connection. You can set up the exclusions in the _IPv6 ranges excluded from VPN_.
 
-### Von VPN ausgeschlossene IPv6-Bereiche
+### IPv6 ranges excluded from VPN
 
-Das VPN-Tunneling für die in diesem Abschnitt aufgeführten IPv6-Bereiche wird deaktiviert.
+VPN tunneling for the IPv6 ranges listed in this section will be disabled.
 
 :::note
 
-Sie müssen zuerst die Einstellung _IPv6-Schnittstelle_ in den _Low-Level-Einstellungen_ aktivieren, sonst wird diese Einstellung nicht übernommen.
+You need to enable _IPv6 interface_ setting in _Low-level settings_ first, otherwise this setting will not be applied.
 
 :::
 
-### MTU (Maximum Transmission Unit)
+### MTU (maximum transmission unit)
 
-Hier können Sie die maximale Größe (in Bytes) des im lokalen VPN verwendeten Datenpakets festlegen. Der empfohlene Bereich liegt zwischen 1500 und 9000 Bytes.
+Here you can set the maximum size (in bytes) of the data packet used in local VPN. The recommended range is 1500-9000 bytes.
 
-### Ausgeschlossene Apps
+### Excluded apps
 
-Hier können Sie UIDs (eindeutige Bezeichner) oder Paketnamen der Anwendungen auflisten, die Sie vom VPN-Routing ausschließen möchten.
-Anders als bei Apps, die zu regulären _Ausschlüssen_ hinzugefügt wurden, geht der Datenverkehr von Apps, die zu _Ausgeschlossene Apps_ hinzugefügt wurden, nicht zum lokalen VPN-Dienst auf Ihrem Gerät. Stattdessen geht es direkt zur Zieladresse.
+You can list here UIDs (unique identifiers) or package names of the apps that you want to exclude from VPN routing.
+
+Unlike with apps added to regular _Exclusions_, the traffic of apps added to _Excluded apps_ doesn’t go to the local VPN service on your device at all. Instead, it goes directly to the destination.
 
 ### Proxy-Server-Port
 

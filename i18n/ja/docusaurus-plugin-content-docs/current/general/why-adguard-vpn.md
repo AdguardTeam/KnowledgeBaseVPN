@@ -7,9 +7,9 @@ When getting ready to commit to a [long-term VPN subscription](/general/subscrip
 
 *まず始めに、他のVPNにはないAdGuard VPN機能について説明したく思います。*
 
-## 1. 独自開発プロトコル
+## 1. State-of-the-art open-source protocol
 
-当初から、既存のプロトコルに満足できず、独自VPNプロトコルを自社で開発し、実装することを決めていました。 The result has become the [AdGuard VPN protocol](https://trusttunnel.org/).
+当初から、既存のプロトコルに満足できず、独自VPNプロトコルを自社で開発し、実装することを決めていました。 The result has become [TrustTunnel](https://trusttunnel.org/) — a modern, stealthy, and fast open-source VPN protocol developed by AdGuard VPN.
 
 VPNサービスを選択する際、高速性と安全性のどちらかを優先して選ばないといけないケースが多いです。 The AdGuard VPN protocol is a perfect blend of speed and security, so you don’t have to bear slow Internet connection or make privacy sacrifices. なかでも、AdGuard VPNプトロコルは通常のトラフィックに偽装しているため、検知対策やブロック対策がしっかりしています。
 

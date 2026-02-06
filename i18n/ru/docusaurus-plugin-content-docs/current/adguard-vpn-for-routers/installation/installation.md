@@ -9,9 +9,9 @@ sidebar_position: 1
 
 Если вы используете роутер MikroTik или Keenetic, пожалуйста, ознакомьтесь с соответствующими инструкциями по настройке:
 
-- [How to set up AdGuard VPN on MikroTik routers](/adguard-vpn-for-routers/installation/mikrotik.md)
+- [Как настроить AdGuard VPN на роутерах MikroTik](/docs/adguard-vpn-for-routers/installation/mikrotik.md)
 
-- [How to set up AdGuard VPN on Keenetic routers](/adguard-vpn-for-routers/installation/keenetic.md)
+- [Как настроить AdGuard VPN на роутерах Keenetic](/adguard-vpn-for-routers/installation/keenetic.md)
 
 :::
 
@@ -82,12 +82,12 @@ sidebar_position: 1
 
 ## Роутеры, несовместимые с AdGuard VPN
 
-Below are the routers that are currently known to have compatibility issues:
+Ниже перечислены роутеры, у которых, как известно, есть проблемы с совместимостью:
 
 ### ASUS
 
-ASUS routers do not support IKEv2/IPsec, so you cannot set them up using the general method mentioned above. However, routers running the Asuswrt-Merlin custom firmware can install **AdGuard VPN CLI**, which makes the CLI installation method fully supported.
+Роутеры ASUS не поддерживают IKEv2/IPsec, поэтому вы не сможете настроить их с помощью общего метода, описанного выше. Однако роутеры с пользовательской прошивкой Asuswrt-Merlin могут устанавливать **AdGuard VPN CLI**, что делает метод установки через CLI полностью поддерживаемым.
 
 ### FRITZ!Box
 
-FRITZ!Box routers do not support IKEv2/IPsec, and due to their closed firmware, it is not possible to install or run AdGuard VPN CLI on them.
+Роутеры FRITZ!Box не поддерживают IKEv2/IPsec, и из-за их закрытой прошивки невозможно установить или запустить AdGuard VPN CLI на них.

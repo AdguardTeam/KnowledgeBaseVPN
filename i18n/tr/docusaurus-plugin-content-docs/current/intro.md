@@ -32,7 +32,7 @@ AdGuard, 15 yılı aşkın bir süredir kişisel verilerin korunması ve reklam 
 
 ### Benzersiz VPN protokolü
 
-AdGuard VPN ile rakipleri arasındaki temel fark, [kendi geliştirdiğimiz](https://trusttunnel.org/) protokolü kullanmamızdır. Kendisini normal trafik olarak gizler, bu yüzden onu izlemek ve engellemek çok daha zordur.
+The main difference between AdGuard VPN and its competitors is that we use [TrustTunnel](https://trusttunnel.org/) — a modern, stealthy, and fast open-source VPN protocol developed by us. Kendisini normal trafik olarak gizler, bu yüzden onu izlemek ve engellemek çok daha zordur.
 
 ### Günlük tutmama politikası
 

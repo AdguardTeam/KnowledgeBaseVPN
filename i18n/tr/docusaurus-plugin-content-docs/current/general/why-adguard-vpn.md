@@ -7,9 +7,9 @@ Kullanıcılar, [uzun vadeli bir VPN aboneliği](/general/subscription) almaya h
 
 *Başlangıç olarak, AdGuard VPN'in başka hiçbir VPN'de bulamayacağınız eşsiz özelliklerini gözden geçirelim.*
 
-## 1. Tescilli protokol
+## 1. State-of-the-art open-source protocol
 
-En başından beri, hazır bir çözüm seçmek yerine şirket içi bir VPN protokolü geliştirmeye ve dağıtmaya karar verdik — bu çok kolay olurdu, ayrıca mevcut protokollerden memnun değildik. Sonuç, [AdGuard VPN protokolü](https://trusttunnel.org/) hâline geldi.
+En başından beri, hazır bir çözüm seçmek yerine şirket içi bir VPN protokolü geliştirmeye ve dağıtmaya karar verdik — bu çok kolay olurdu, ayrıca mevcut protokollerden memnun değildik. The result has become [TrustTunnel](https://trusttunnel.org/) — a modern, stealthy, and fast open-source VPN protocol developed by AdGuard VPN.
 
 Bir VPN hizmeti seçerken, insanlar genellikle hızlı ve güvenli arasında bir denge ile karşı karşıya kalırlar. AdGuard VPN protokolü, hız ve güvenliğin mükemmel bir karışımıdır, bu nedenle yavaş internet bağlantısına katlanmak veya gizlilikten ödün vermek zorunda kalmazsınız. Diğer şeylerin yanı sıra, kendisini normal trafik olarak gizler, onu tespit etmek ve engellemek çok daha zordur.
 

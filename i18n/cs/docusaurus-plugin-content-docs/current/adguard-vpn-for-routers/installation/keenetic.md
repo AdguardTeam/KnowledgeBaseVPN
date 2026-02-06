@@ -5,7 +5,7 @@ sidebar_position: 3
 
 AdGuard VPN můžete nakonfigurovat na routerech Keenetic od verze KeeneticOS 3.5. Postupujte podle následujících kroků:
 
-1. Nainstalujte systémovou komponentu klienta VPN IKEv2/IPsec. Přejděte do [webového rozhraní](https://help.keenetic.com/hc/en-us/articles/360001923020-Web-interface) výrobce → _Obecná nastavení systému_ → _Aktualizace KeeneticOS a možnosti komponent_ a klikněte na _Možnosti komponent_.
+1. Nainstalujte systémovou komponentu klienta VPN IKEv2/IPsec. Go to the manufacturerʼs [web interface](https://help.keenetic.com/hc/en-us/articles/360001923020-Web-interface) → _General system settings_ → _KeeneticOS update and component options_ and click _Component options_.
 
    :::note
 

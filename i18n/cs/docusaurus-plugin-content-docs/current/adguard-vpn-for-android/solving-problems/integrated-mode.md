@@ -3,9 +3,9 @@ title: Kompatibilita s blokátorem reklam AdGuard
 sidebar_position: 3
 ---
 
-AdGuard VPN má ve výchozím nastavení povolen provozní režim VPN, který používá vlastní [Protokol AdGuard VPN](https://trusttunnel.org/). Ten poskytuje nejlepší kombinaci rychlosti připojení a zabezpečení. Tento provozní režim však neumožňuje současnou práci AdGuard VPN a blokátoru reklam AdGuard. Režim integrace zase používá speciální interní protokol, který umožňuje oběma aplikacím spolupracovat.
+AdGuard VPN has the VPN operating mode enabled by default, which uses [its open-source protocol](https://trusttunnel.org/). Ten poskytuje nejlepší kombinaci rychlosti připojení a zabezpečení. Tento provozní režim však neumožňuje současnou práci AdGuard VPN a blokátoru reklam AdGuard. Režim integrace zase používá speciální interní protokol, který umožňuje oběma aplikacím spolupracovat.
 
-### Jak povolit režim integrace
+## How to enable Integrated mode
 
 Pokud máte Blokátor reklam AdGuard, režim integrace se automaticky zapne po instalaci AdGuard VPN, což vám umožní používat obě aplikace současně.
 

@@ -19,57 +19,55 @@ Níže uvádíme všechna nízkoúrovňová nastavení dostupná v AdGuard VPN p
 
 ### AdGuard VPN protokol
 
-Ve výchozím nastavení používá protokol AdGuard VPN dynamický výběr protokolu VPN (možnost _Automatický výběr_). To znamená, že AdGuard VPN automaticky zjistí, který protokol — HTTP2/TLS nebo HTTP3/QUIC — vám poskytne nejlepší výkon, a okamžitě na něj přepne. To zlepšuje rychlost a stabilitu VPN, což je obzvláště užitečné v regionech, kde je používání VPN omezené nebo nespolehlivé.
+AdGuard VPN uses TrustTunnel — a modern, open-source VPN protocol developed by us and available for anyone to use, audit, and implement. [Visit the website](https://trusttunnel.org/) to learn how it works and why it’s different from traditional VPN protocols.
 
-Pokud víte, co děláte, můžete přepnout AdGuard VPN tak, aby místo _Automatického výběru_ používal pouze protokol HTTP2/TLS nebo HTTP3/QUIC. [QUIC](https://adguard-vpn.com/kb/general/why-adguard-vpn/#6-quic-support) je relativně nový protokol a proto může být méně stabilní. Pokud je však vaše internetové připojení nestabilní (např. při připojení k veřejné Wi-Fi), poskytuje lepší zabezpečení a zvyšuje rychlost připojení díky technologii [Head-Of-Line Blocking](https://adguard-dns.io/en/blog/dns-over-quic.html#headoflineblocking).
+### Include Wi-Fi gateway in VPN routes
 
-Zde je také článek věnovaný tomuto protokolu: [Jak funguje protokol AdGuard VPN](https://trusttunnel.org/).
+If this setting is enabled, the gateway IP addresses will be added to VPN routes when on Wi-Fi.
 
-### Zahrnout bránu Wi-Fi v trasách VPN
+If you disable it, then the route configuration (IP ranges that are filtered) will be changed. The Wi-Fi gateway of the network to which the user is connected will be excluded, and therefore, it will not be subject to filtering.
 
-Pokud je toto nastavení povoleno, budou IP adresy brány přidány do tras VPN při připojení k Wi-Fi.
-Pokud ho zakážete, změní se konfigurace tras (filtrované rozsahy IP). Brána Wi-Fi sítě, ke které je uživatel připojen, bude vyloučena, a proto nebude podléhat filtrování.
+This setting is enabled by default.
 
-Toto nastavení je ve výchozím nastavení povoleno.
+### Packet capture (PCAP)
 
-### Zachytávání paketů (PCAP)
+If this setting is enabled, AdGuard VPN will create a `.pcap` file with a timestamp for its name (for instance, `1682599851461.pcap`) in the app cache directory. This file lists all network packets transferred through the VPN and can be analyzed with the [Wireshark program](https://www.wireshark.org/).
 
-Pokud je toto nastavení povoleno, AdGuard VPN vytvoří soubor `.pcap` s časovým razítkem v názvu (například `1682599851461.pcap`) v adresáři mezipaměti aplikace. Tento soubor obsahuje seznam všech síťových paketů přenesených skrze VPN a lze jej analyzovat pomocí programu [Wireshark](https://www.wireshark.org/).
+### Watchdog
 
-### Hlídací pes
+Watchdog monitors the VPN process state to check if there are any problems with it. When enabled, AdGuard VPN will protect itself against aggressive battery saver apps that could otherwise kill it.
 
-Hlídací pes sleduje stav procesu VPN a kontroluje, zda s ním nejsou nějaké problémy. Když je povolen, AdGuard VPN se bude chránit před agresivními aplikacemi pro spořič baterie, které by ji jinak mohly ukončit.
+### Preferred IP version
 
-### Preferovaná verze IP
+Here you can set up the endpoint addresses. There are three options: IPv4, IPv6, or IPv4 and IPv6 (if your device supports both).
 
-Zde můžete nastavit adresy koncových bodů. Existují tři možnosti: IPv4, IPv6 nebo IPv4 a IPv6 (pokud vaše zařízení podporuje oba protokoly).
+### IPv4 ranges excluded from VPN
 
-### Rozsahy IPv4 vyloučené z VPN
+VPN tunneling for the IPv4 ranges listed in this section will be disabled.
 
-VPN tunel pro rozsahy IPv4 uvedené v této části bude zakázán.
+### IPv6 interface
 
-### Rozhraní IPv6
+After enabling this option you will have an IPv6 address while routing traffic through the VPN connection. You can set up the exclusions in the _IPv6 ranges excluded from VPN_.
 
-Po povolení této možnosti budete mít při směrování provozu přes připojení VPN k dispozici adresu IPv6. Výjimky můžete nastavit v části _Rozsahy IPv6 vyloučené z VPN_.
+### IPv6 ranges excluded from VPN
 
-### Rozsahy IPv6 vyloučené z VPN
-
-VPN tunel pro rozsahy IPv6 uvedené v této části bude zakázán.
+VPN tunneling for the IPv6 ranges listed in this section will be disabled.
 
 :::note
 
-Nejprve je třeba povolit nastavení _rozhraní IPv6_ v části _Nízkoúrovňová nastavení_, jinak se toto nastavení nepoužije.
+You need to enable _IPv6 interface_ setting in _Low-level settings_ first, otherwise this setting will not be applied.
 
 :::
 
-### MTU (maximální přenosová jednotka)
+### MTU (maximum transmission unit)
 
-Zde můžete nastavit maximální velikost (v bajtech) datového paketu používaného v lokální VPN. Doporučený rozsah je 1500-9000 bajtů.
+Here you can set the maximum size (in bytes) of the data packet used in local VPN. The recommended range is 1500-9000 bytes.
 
-### Vyloučené aplikace
+### Excluded apps
 
-Zde můžete uvést UID (jedinečné identifikátory) nebo názvy balíčků aplikací, které chcete vyloučit ze směrování VPN.
-Na rozdíl od aplikací přidaných do běžných _Výjimek_ se provoz aplikací přidaných do _Vyloučených aplikací_ vůbec nepřenáší do služby lokální VPN ve vašem zařízení. Místo toho směruje přímo do cíle.
+You can list here UIDs (unique identifiers) or package names of the apps that you want to exclude from VPN routing.
+
+Unlike with apps added to regular _Exclusions_, the traffic of apps added to _Excluded apps_ doesn’t go to the local VPN service on your device at all. Instead, it goes directly to the destination.
 
 ### Port proxy serveru
 
