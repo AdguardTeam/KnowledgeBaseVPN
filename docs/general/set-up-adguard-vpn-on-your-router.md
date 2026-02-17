@@ -47,4 +47,3 @@ You’ll need to update your router settings if you want to change the VPN serve
 
 - **ASUS**
     - Only has IPsec in the *VPN Server* settings, and not in the correct *VPN Fusion*/*VPN Client* settings
-- **FRITZ!Box**
