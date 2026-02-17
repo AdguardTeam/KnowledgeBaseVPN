@@ -22,7 +22,7 @@ There are two main ways to run AdGuard VPN on a router:
 1. IPSec profile
 
     - Easy to set up, supported by many routers
-    - Limitations: not available in Russia, only a limited number of VPN locations (USA, Germany, UK, Netherlands, Finland), and no support for exclusions
+    - Limitations: not available in Russia, China, and Iran, only a limited number of VPN locations (USA, Germany, UK, Netherlands, Finland), and no support for exclusions
 
 1. [AdGuard VPN CLI](/adguard-vpn-for-linux/setting-up-on-a-router)
 
@@ -82,7 +82,3 @@ Below are the routers that are currently known to have compatibility issues:
 ### ASUS
 
 ASUS routers do not support IKEv2/IPsec, so you cannot set them up using the general method mentioned above. However, routers running the Asuswrt-Merlin custom firmware can install **AdGuard VPN CLI**, which makes the CLI installation method fully supported.
-
-### FRITZ!Box
-
-FRITZ!Box routers do not support IKEv2/IPsec, and due to their closed firmware, it is not possible to install or run AdGuard VPN CLI on them.
