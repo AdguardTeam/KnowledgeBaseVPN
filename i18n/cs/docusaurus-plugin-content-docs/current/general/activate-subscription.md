@@ -1,6 +1,6 @@
 ---
 title: Aktivace předplatného AdGuard VPN
-sidebar_position: 12
+sidebar_position: 13
 ---
 
 Chcete-li aktivovat předplatné AdGuard VPN, postupujte podle následujících kroků:

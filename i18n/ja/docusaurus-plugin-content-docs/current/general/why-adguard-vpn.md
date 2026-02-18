@@ -3,13 +3,13 @@ title: AdGuard VPNが他社製品より優れている理由
 sidebar_position: 2
 ---
 
-When getting ready to commit to a [long-term VPN subscription](/general/subscription), users most frequently evaluate its speed, security, and price. この３つはとても重要なポイントですが、それ以外にもたくさん注目すべき点があります。 AdGuard VPN has a dozen of key assets that make it ’the better option’.
+[長期的なVPNプラン](/general/subscription)への加入を検討する場合、ユーザーはその速度、セキュリティ、価格を重視することが多いです。 この３つはとても重要なポイントですが、それ以外にも注目すべき点はたくさんあります。 AdGuard VPN には、ユニークなメリットが何個もあります。
 
 *まず始めに、他のVPNにはないAdGuard VPN機能について説明したく思います。*
 
-## 1. 独自開発プロトコル
+## 1. 独自開発のオープンソースプロトコル
 
-当初から、既存のプロトコルに満足できず、独自VPNプロトコルを自社で開発し、実装することを決めていました。 The result has become the [AdGuard VPN protocol](https://trusttunnel.org/).
+当初から、既存のプロトコルに満足できず、独自VPNプロトコルを自社で開発し、実装することを決めていました。 結果として、「[TrustTunnel](https://trusttunnel.org/)」が登場しました。これは、AdGuard VPNによって開発された、ステルス性が高く、モダンで高速なオープンソースVPNプロトコルです。
 
 VPNサービスを選択する際、高速性と安全性のどちらかを優先して選ばないといけないケースが多いです。 The AdGuard VPN protocol is a perfect blend of speed and security, so you don’t have to bear slow Internet connection or make privacy sacrifices. なかでも、AdGuard VPNプトロコルは通常のトラフィックに偽装しているため、検知対策やブロック対策がしっかりしています。
 

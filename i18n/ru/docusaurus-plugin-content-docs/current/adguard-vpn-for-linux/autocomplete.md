@@ -9,7 +9,7 @@ sidebar_position: 5
 
 ![Подсказка по bash-completion](https://cdn.adguard-vpn.com/blog/new/6x3djbash-completion-hint.png)
 
-If you did not enable completions during installation and would like to do so later, edit your shell configuration file, typically located in your home directory such as `~/.bashrc` or `~/.zshrc`, and add the following line. You will need to update the path if you chose a different output directory during installation.
+Если вы не включили автозаполнение во время установки и хотите сделать это позже, отредактируйте файл конфигурации оболочки, который обычно находится в вашей домашней директории, например, `~/.bashrc` или `~/.zshrc`, и добавьте следующую строку. Если при установке вы выбрали другой каталог вывода, вам потребуется обновить путь.
 
 ```sh
 [ -s "/opt/adguardvpn_cli/bash-completion.sh" ] && \. "/opt/adguardvpn_cli/bash-completion.sh"

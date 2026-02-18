@@ -43,7 +43,7 @@ In addition to these VPN protocols, there are others (for example, TLS, SSTP, IK
 
 <object data="https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/6.svg?nc=1" type="image/svg+xml"><img src="https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/6.svg?nc=1" alt="protocol 6" /> </object>
 
-AdGuard VPN also has its own [_protocol_](https://trusttunnel.org/). One of its advantages is that the traffic transmitted using the AdGuard VPN protocol is difficult to distinguish from the regular traffic. The VPN tunnel looks like normal HTTPS traffic, making it extremely difficult to detect and block. In addition, it is based on the mechanisms of the modern HTTP/2 protocol, which ensures high connection speed.
+AdGuard VPN 采用 [TrustTunnel](https://trusttunnel.org/)，是一款我们开发的现代开源 VPN 协议。 One of its advantages is that the traffic transmitted using the AdGuard VPN protocol is difficult to distinguish from the regular traffic. The VPN tunnel looks like normal HTTPS traffic, making it extremely difficult to detect and block. In addition, it is based on the mechanisms of the modern HTTP/2 protocol, which ensures high connection speed.
 
 <object data="https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/5.svg?nc=1" type="image/svg+xml"><img src="https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/5.svg?nc=1" alt="protocol 5" /></object>
 
@@ -67,7 +67,7 @@ A weak signal, network overload, VPN incompatibility with a firewall, antivirus 
 
 Our VPN service has several important [advantages](/general/why-adguard-vpn):
 
-- [_Proprietary VPN protocol_](https://trusttunnel.org/), which works stably even with a slow Internet connection and disguises itself as normal traffic, making it more difficult to track and block it
+- [_TrustTunnel_](https://trusttunnel.org/) 是一款由 AdGuard VPN 开发的现代化、隐匿、开源的 VPN 协议。 即使在网络连接较慢时也能稳定可靠地运行，并将自身流量伪装为普通网络流量，使其更难以被追踪和封锁。
 
 - [_No-logging policy_](https://adguard-vpn.com/privacy.html), which means no personal data can be shared with third parties because AdGuard VPN never collects such data
 
