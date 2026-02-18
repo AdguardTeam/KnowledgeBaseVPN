@@ -5,7 +5,7 @@ sidebar_position: 12
 
 When AdGuard VPN is active *selectively*, it only filters website and app traffic from the exclusions lists. All other traffic bypasses the VPN tunnel. This mechanism works reliably only if the system can clearly identify which network connections belong to a specific app.
 
-Due to the network architecture of **WhatsApp** and **Discord**, combined with IP routing limitations, AdGuard VPN cannot always capture and route all of their traffic through the tunnel correctly.
+Due to the network architecture of WhatsApp and Discord, as well as IP routing limitations, AdGuard VPN cannot always correctly capture and route all their traffic through the tunnel.
 
 ## Why WhatsApp and Discord traffic is not fully filtered
 
