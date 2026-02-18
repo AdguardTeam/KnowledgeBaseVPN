@@ -7,7 +7,7 @@ Yönlendiricinize AdGuard VPN kurmak, ev ağınıza bağlı tüm cihazları koru
 
 :::note
 
-Bu seçenek yalnızca bir AdGuard VPN aboneliğiniz varsa ve yönlendiriciniz _VPN İstemcisi_ (\*_VPN Sunucusu_ değil) ayarlarında IPsec'i destekliyorsa kullanılabilir. If IPsec is not listed in the _VPN Client_ settings, you can try setting up [AdGuard VPN for Linux](/adguard-vpn-for-linux/setting-up-on-a-router). Bu çözüm AdGuard'ın tescilli protokolünü kullanır ve Keenetic, OpenWRT ve Asuswrt-Merlin yönlendiricileriyle uyumludur.
+Bu seçenek yalnızca bir AdGuard VPN aboneliğiniz varsa ve yönlendiriciniz _VPN İstemcisi_ (\*_VPN Sunucusu_ değil) ayarlarında IPsec'i destekliyorsa kullanılabilir. If IPsec is not listed in the _VPN Client_ settings, you can try setting up [AdGuard VPN for Linux](/adguard-vpn-for-linux/setting-up-on-a-router). This solution uses [TrustTunnel](https://trusttunnel.org/) — an open-source protocol developed by AdGuard VPN — and is compatible with Keenetic, OpenWRT, and Asuswrt-Merlin routers.
 
 :::
 

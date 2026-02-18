@@ -5,7 +5,7 @@ sidebar_position: 7
 
 ## Einleitung
 
-Encryption is the reason the word “private” exists in the term “Virtual Private Network”. Ein VPN schafft einen Tunnel zwischen Ihrem Gerät und einem VPN-Server, der Ihre Daten verschlüsselt und sicher ins offene Internet überträgt. Der Verschlüsselungsprozess, d. h. das Umwandeln von Daten in Kauderwelsch, das niemand lesen kann, der sie abfängt, ist für jeden VPN-Dienst unerlässlich.
+Verschlüsselung ist der Grund, warum das Wort „privat“ im Begriff „virtuelles privates Netzwerk“ vorkommt. Ein VPN schafft einen Tunnel zwischen Ihrem Gerät und einem VPN-Server, der Ihre Daten verschlüsselt und sicher ins offene Internet überträgt. Der Verschlüsselungsprozess, d. h. das Umwandeln von Daten in Kauderwelsch, das niemand lesen kann, der sie abfängt, ist für jeden VPN-Dienst unerlässlich.
 
 Das AdGuard VPN-Protokoll verwendet den bisher sichersten und schnellsten Verschlüsselungsalgorithmus — AES-256. Erfahren Sie, was es ist und warum es so gut ist.
 

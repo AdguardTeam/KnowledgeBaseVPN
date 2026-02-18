@@ -19,15 +19,12 @@ Im Folgenden listen wir alle Einstellungen auf, die in AdGuard VPN für Android 
 
 ### AdGuard VPN-Protokoll
 
-Standardmäßig verwendet das AdGuard VPN-Protokoll die dynamische VPN-Protokollauswahl (Option _Automatisch auswählen_). Das bedeutet, dass AdGuard VPN automatisch ermittelt, welches Protokoll — HTTP2/TLS oder HTTP3/QUIC — Ihnen die beste Leistung bietet, und sofort darauf umschaltet. Dies verbessert die Geschwindigkeit und Stabilität des VPN, was besonders in Regionen hilfreich ist, in denen die Nutzung von VPN eingeschränkt oder unzuverlässig ist.
-
-Wenn Sie wissen, was Sie tun, können Sie AdGuard VPN so einstellen, dass nur das HTTP2/TLS- oder HTTP3/QUIC-Protokoll verwendet wird, anstelle der Option _Automatisch auswählen_. [QUIC](https://adguard-vpn.com/kb/general/why-adguard-vpn/#6-quic-support) ist ein relativ neues Protokoll und kann daher weniger stabil sein. Wenn Ihre Internetverbindung jedoch instabil ist (z. B. wenn Sie eine Verbindung zum öffentlichen WLAN herstellen), bietet sie dank der [Head-Of-Line Blocking](https://adguard-dns.io/en/blog/dns-over-quic.html#headoflineblocking)-Technologie mehr Sicherheit und erhöht die Verbindungsgeschwindigkeit.
-
-Hier finden Sie außerdem einen speziellen Artikel über das Protokoll: [So funktioniert das AdGuard VPN-Protokoll](https://trusttunnel.org/).
+Standardmäßig verwendet das AdGuard VPN-Protokoll die dynamische VPN-Protokollauswahl (Option _Automatisch auswählen_). Das bedeutet, dass AdGuard VPN automatisch ermittelt, welches Protokoll — HTTP2/TLS oder HTTP3/QUIC — Ihnen die beste Leistung bietet, und sofort darauf umschaltet.
 
 ### WLAN-Gateway in VPN-Routen einbeziehen
 
 Wenn diese Einstellung aktiviert ist, werden die IP-Adressen des Gateways zu den VPN-Routen hinzugefügt, wenn WLAN verwendet wird.
+
 Wenn Sie diese Funktion deaktivieren, wird die Routenkonfiguration (gefilterte IP-Bereiche) geändert. Das WLAN-Gateway des Netzes, mit dem der Benutzer verbunden ist, wird ausgeschlossen und unterliegt daher nicht der Filterung.
 
 Diese Einstellung ist standardmäßig aktiviert.
@@ -69,6 +66,7 @@ Hier können Sie die maximale Größe (in Bytes) des im lokalen VPN verwendeten 
 ### Ausgeschlossene Apps
 
 Hier können Sie UIDs (eindeutige Bezeichner) oder Paketnamen der Anwendungen auflisten, die Sie vom VPN-Routing ausschließen möchten.
+
 Anders als bei Apps, die zu regulären _Ausschlüssen_ hinzugefügt wurden, geht der Datenverkehr von Apps, die zu _Ausgeschlossene Apps_ hinzugefügt wurden, nicht zum lokalen VPN-Dienst auf Ihrem Gerät. Stattdessen geht es direkt zur Zieladresse.
 
 ### Proxy-Server-Port
