@@ -3,9 +3,9 @@ title: Kompatibilität mit AdGuard Werbeblocker
 sidebar_position: 3
 ---
 
-Standardmäßig ist bei AdGuard VPN der VPN-Betriebsmodus aktiviert, der das eigene [AdGuard VPN-Protokoll](https://trusttunnel.org/) verwendet. Es bietet die beste Kombination aus Verbindungsgeschwindigkeit und Sicherheit. In diesem Betriebsmodus können AdGuard VPN und AdGuard Werbeblocker jedoch nicht gleichzeitig arbeiten. The Integrated mode, in turn, uses a special internal protocol, which makes it possible for the two apps to work together.
+AdGuard VPN has the VPN operating mode enabled by default, which uses [its open-source protocol](https://trusttunnel.org/). Es bietet die beste Kombination aus Verbindungsgeschwindigkeit und Sicherheit. In diesem Betriebsmodus können AdGuard VPN und AdGuard Werbeblocker jedoch nicht gleichzeitig arbeiten. The Integrated mode, in turn, uses a special internal protocol, which makes it possible for the two apps to work together.
 
-### How to enable Integrated mode
+## How to enable Integrated mode
 
 If you have AdGuard Ad Blocker, Integrated Mode will turn on automatically when you install AdGuard VPN, allowing you to use both apps at the same time.
 

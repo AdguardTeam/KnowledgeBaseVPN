@@ -212,9 +212,9 @@ route add 172.16.0.0/12 -iface "$INTERFACE"     # Another private range
 # route delete 10.0.0.0/8 2>/dev/null || true
 ```
 
-## Set protocol
+## Nastavení protokolu
 
-To set the protocol used by AdGuard VPN (HTTP2, QUIC, or automatic choice between them), type one of the commands, depending on your choice:
+Chcete-li nastavit protokol používaný AdGuard VPN (HTTP2, QUIC nebo automatický výběr mezi nimi), zadejte jeden z příkazů podle svého výběru:
 
 ```
 adguardvpn-cli config set-protocol http2
@@ -222,86 +222,86 @@ adguardvpn-cli config set-protocol quic
 adguardvpn-cli config set-protocol auto
 ```
 
-## Crash reports
+## Hlášení o chybě
 
-If you enable automatic crash reports, AdGuard VPN will notify the developers if something goes wrong. To enable the setting, type:
+Pokud povolíte automatické hlášení chyb, AdGuard VPN upozorní vývojáře, pokud se něco pokazí. Chcete-li nastavení povolit, zadejte:
 
 ```
 adguardvpn-cli config send-reports on
 ```
 
-To disable it, set it to `off`.
+Chcete-li to zakázat, nastavte na `off`.
 
-## Update channel
+## Kanál aktualizací
 
-To change the update channel, type:
+Chcete-li změnit kanál aktualizace, zadejte:
 
 ```
 adguardvpn-cli config set-update-channel <channel>
 ```
 
-Replace `<channel>` with `release`, `beta`, or `nightly`, depending on your preferences.
+Nahraďte `<channel>` za `release`, `beta` nebo `nightly` v závislosti na vašich preferencích.
 
-## Hints
+## Nápovědy
 
-AdGuard VPN can show you hints after executing commands — for example, what to do next or how to fix an error. This setting is enabled by default but you can disable it by typing:
+AdGuard VPN vám může po provedení příkazů zobrazit nápovědy — například co dělat dál nebo jak opravit chybu. Toto nastavení je ve výchozím nastavení povoleno, ale můžete jej zakázat zadáním:
 
 ```
 adguardvpn-cli config set-show-hints off
 ```
 
-To re-enable it, replace `off` with `on`.
+Chcete-li to znovu povolit, nahraďte `off` za `on`.
 
-## Debug logging
+## Záznamy úrovně ladění
 
-To report a bug, you may need to share debug logs with the developers or support team. To enable debug logging, type:
+Chcete-li nahlásit chybu, budete možná muset sdílet protokoly ladění s vývojáři nebo týmem podpory. Chcete-li to povolit, zadejte:
 
 ```
 adguardvpn-cli config set-debug-logging on
 ```
 
-Disable this setting after exporting logs.
+Po exportu protokolů toto nastavení zakažte.
 
-## Show notificatoins
+## Zobrazení oznámení
 
-The setting is responsible for the appearance of system notifications when AdGuard VPN is turned on/off or waiting for reconnection, for example:
+Toto nastavení je zodpovědné za zobrazení systémových oznámení například při zapnutí/vypnutí AdGuard VPN nebo při čekání na opětovné připojení:
 
-- A user turns VPN on — the _VPN connected_ notification appears.
-- A user turns VPN off — the _VPN disconnected_ notification appears.
-- A user is waiting for the VPN connection to be recovered — the _Waiting for connection_ notification appears.
+- Uživatel zapne VPN — objeví se oznámení _VPN připojena_.
+- Uživatel vypne VPN — objeví se oznámení _VPN odpojena_.
+- Uživatel čeká na obnovení připojení VPN — objeví se oznámení _Čekání na připojení_.
 
   adguardvpn-cli config set-show-notifications on
 
-## Exclusions
+## Výjimky
 
-There are two modes. In _General_ mode, websites from the list of exclusions are not routed through VPN. In _Selective_ mode, only websites from the list of exclusions are routed through VPN. There is a separate list of exclusions for each mode.
+Existují dva režimy. V _Obecném_ režimu nejsou webové stránky ze seznamu výjimek směrovány skrze VPN. V _Selektivním_ režimu jsou skrze VPN směrovány pouze webové stránky ze seznamu výjimek. Pro každý režim existuje samostatný seznam výjimek.
 
-To read about what you can do with exclusions, write this in the command-line interface: `adguardvpn-cli site-exclusions -h`.
+Chcete-li si přečíst, co všechno můžete dělat s výjimkami, napište to do rozhraní příkazového řádku: `adguardvpn-cli site-exclusions -h`.
 
-Here are the main options:
+Zde jsou hlavní možnosti:
 
-1. **add** adds specified exclusions
+1. **add** přidá zadané výjimky
 
-   Example: `adguardvpn-cli site-exclusions add`, where `%DOMAIN_NAME%` is the website that you want to add to exclusions.
+   Příklad: `adguardvpn-cli site-exclusions add`, kde `%DOMAIN_NAME%` je webová stránka, kterou chcete přidat do výjimek.
 
    :::note
 
-   To add many exclusions, you need to list them separated by spaces.
+   Chcete-li přidat mnoho výjimek, musíte je zadat oddělené mezerami.
 
    :::
 
-2. **clear** clears the list of exclusions in the current mode
+2. **clear** vymaže seznam výjimek v aktuálním režimu
 
-   Example: `adguardvpn-cli site-exclusions clear`
+   Příklad: `adguardvpn-cli site-exclusions clear`
 
-3. **mode** shows the current mode and allows to switch between them
+3. **mode** zobrazuje aktuální režim a umožňuje mezi nimi přepínat
 
-   Example: `adguardvpn-cli site-exclusions mode selective` (with this command, Selective mode is chosen)
+   Příklad: `adguardvpn-cli site-exclusions mode selective` (tímto příkazem je zvolen selektivní režim)
 
-4. **remove** removes one or more exclusions (if separated by commas)
+4. **remove** odstraní jednu nebo více výjimek (pokud jsou odděleny čárkami)
 
-   Example: `adguardvpn-cli site-exclusions remove %DOMAIN_NAME%` where `%DOMAIN_NAME%` is the website that you want to remove from exclusions.
+   Příklad: `adguardvpn-cli site-exclusions remove %DOMAIN_NAME%`, kde `%DOMAIN_NAME%` je webová stránka, kterou chcete odstranit z výjimek.
 
-5. **show** shows the current list of exclusions
+5. **show** zobrazí aktuální seznam výjimek
 
-   Example: `adguardvpn-cli site-exclusions show`
+   Příklad: `adguardvpn-cli site-exclusions show`

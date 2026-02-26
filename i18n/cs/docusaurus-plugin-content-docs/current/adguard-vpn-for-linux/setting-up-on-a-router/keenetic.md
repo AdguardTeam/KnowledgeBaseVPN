@@ -166,6 +166,13 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
    / #
    ```
 
+   U routerů Keenetic nezapomeňte importovat certifikát SSL a nastavit složku pro adresář uživatele. Ve výchozím nastavení může být uložen do dočasného adresáře a po restartu můžete přijít o svá nastavení. Před každou novou relací a před použitím AdGuard VPN CLI spusťte následující příkazy:
+
+   ```bash
+   export SSL_CERT_FILE=/opt/etc/ssl/certs/ca-certificates.crt
+   export HOME=/opt/home/admin
+   ```
+
    Chcete-li se zaregistrovat nebo přihlásit, zadejte:
 
    ```bash
@@ -173,15 +180,6 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
    ```
 
 2. Připojte se k VPN
-
-   U routerů Keenetic nezapomeňte před připojením importovat certifikát SSL a vybrat složku pro uživatelský adresář spuštěním tohoto příkazu:
-
-   ```bash
-   export SSL_CERT_FILE=/opt/etc/ssl/certs/ca-certificates.crt
-   export HOME=/opt/home/admin
-   ```
-
-   To je třeba provést před každou relací.
 
    Vyberte si umístění serveru VPN, které nejlépe vyhovuje vašim potřebám.
 

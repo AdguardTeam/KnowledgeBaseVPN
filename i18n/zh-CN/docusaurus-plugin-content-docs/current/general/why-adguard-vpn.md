@@ -7,11 +7,11 @@ When getting ready to commit to a [long-term VPN subscription](/general/subscrip
 
 *首先，让我们来看看 AdGuard VPN 独家的功能，这是你在其他任何 VPN 中都找不到的。*
 
-## 1. 专有的协议
+## 1. 先进的开源协议
 
-从一开始，我们就决心开发和部署一个内部的 VPN 协议，而不是选择一个市场上就有的解决方案 —— 那太容易了，另外，我们对市场上现有的协议也并不满意。 The result has become the [AdGuard VPN protocol](https://trusttunnel.org/).
+从一开始，我们就决定自主研发并部署专属的 VPN 协议，而不是选择现成的方案，那样太过简单，而且我们也不满足于已有的协议。 最终诞生的成果就是 [TrustTunnel](https://trusttunnel.org/)，是一款由 AdGuard VPN 开发的现代化、隐匿且快速的开源 VPN 协议。
 
-选择 VPN 服务时，客户总会面临快速 VS 安全的选择问题。 The AdGuard VPN protocol is a perfect blend of speed and security, so you don’t have to bear slow Internet connection or make privacy sacrifices. 除此之外，它将自己伪装成普通流量，更难发现和阻止它。
+在选择 VPN 服务时，人们常常面临「快速」与「安全」之间的取舍。 而 AdGuard VPN 协议完美融合速度与安全性，让用户既无需忍受缓慢的网络连接，也不必在隐私保护上做出妥协。 此外，该协议还能将自身流量伪装成常规网络流量，从而大幅提升检测与拦截的难度。
 
 ## 2. Website and app exclusions
 
