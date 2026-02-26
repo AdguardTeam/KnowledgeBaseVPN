@@ -7,7 +7,7 @@ Setting up AdGuard VPN on your router allows you to protect all devices connecte
 
 :::note
 
-This option is only available if you have an AdGuard VPN subscription and your router supports IPsec in its _VPN Client_ (**Not** _VPN Server_) settings. If IPsec is not listed in the _VPN CLient_ settings, you can try setting up [AdGuard VPN for Linux](/adguard-vpn-for-linux/setting-up-on-a-router). This solution uses AdGuard's proprietary protocol and is compatible with Keenetic, OpenWRT, and Asuswrt-Merlin routers.
+This option is only available if you have an AdGuard VPN subscription and your router supports IPsec in its _VPN Client_ (**Not** _VPN Server_) settings. If IPsec is not listed in the _VPN CLient_ settings, you can try setting up [AdGuard VPN for Linux](/adguard-vpn-for-linux/setting-up-on-a-router). This solution uses [TrustTunnel](https://trusttunnel.org/) — an open-source protocol developed by AdGuard VPN — and is compatible with Keenetic, OpenWRT, and Asuswrt-Merlin routers.
 
 :::
 
@@ -17,17 +17,17 @@ This option is only available if you have an AdGuard VPN subscription and your r
 
 2. Under _Devices_, click _Add router_.
 
-    ![Add router \*mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/general/2_year.jpg)
+   ![Add router \*mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/general/2_year.jpg)
 
 3. Select the desired VPN server location and generate credentials.
 
-    ![Generate credentials \*mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/general/configure_router.png)
+   ![Generate credentials \*mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/general/configure_router.png)
 
-    :::note
+   :::note
 
-    The next steps may vary depending on your router. We have used the Keenetic router as an example.
+   The next steps may vary depending on your router. We have used the Keenetic router as an example.
 
-    :::
+   :::
 
 4. In your admin page, go to the router settings.
 
@@ -37,7 +37,7 @@ This option is only available if you have an AdGuard VPN subscription and your r
 
 7. Enter the credentials you created in step 3.
 
-    ![Enter the credentials \*mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/general/vpn_connection.jpg)
+   ![Enter the credentials \*mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/general/vpn_connection.jpg)
 
 8. Connect devices to your router.
 
@@ -50,5 +50,4 @@ You’ll need to update your router settings if you want to change the VPN serve
 ## Routers known to be incompatible with AdGuard VPN
 
 - **ASUS**
-    - Only has IPsec in the _VPN Server_ settings, and not in the correct _VPN Fusion_/_VPN Client_ settings
-- **FRITZ!Box**
+  - Only has IPsec in the _VPN Server_ settings, and not in the correct _VPN Fusion_/_VPN Client_ settings

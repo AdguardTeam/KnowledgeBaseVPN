@@ -1,151 +1,151 @@
 ---
-title: VPN modes and Exclusion lists
+title: VPN-Modi und Ausschlusslisten
 sidebar_position: 11
 ---
 
-This section explains how to use website and app exclusions in different VPN modes.
+In diesem Abschnitt wird erklärt, wie Sie Website- und App-Ausschlüsse in verschiedenen VPN-Modi verwenden können.
 
-## VPN modes
+## VPN-Modi
 
-AdGuard VPN has two modes:
+AdGuard VPN bietet zwei Modi:
 
-1. By default, AdGuard VPN is active for all websites and apps, except for those added to the website and app exclusion lists.
+1. Standardmäßig ist AdGuard VPN für alle Websites und Apps aktiv, mit Ausnahme derer, die in den Website- und App-Ausschlusslisten aufgeführt sind.
 
-2. AdGuard VPN is active _selectively_: only for the websites and apps from the exclusion lists.
-
-:::note
-
-You can set different VPN modes for apps and websites. For example, you can set AdGuard VPN to be active for all apps except for those added to the app exclusion list, and active only for the websites from the website exclusion list.
-
-:::
-
-## Exclusion lists
-
-An exclusion list is a list of apps or websites that AdGuard VPN excludes or includes in its tunnel based on the current VPN mode.
+2. AdGuard VPN ist _selektiv_ aktiv: nur für die Websites und Apps aus den Ausschlusslisten.
 
 :::note
 
-Each VPN mode has two exclusion lists: one for apps and one for websites. In total, there are four exclusion lists:
-
-- App exclusion list [VPN active everywhere]
-- App exclusion list [VPN active selectively]
-- Website exclusion list [VPN active everywhere]
-- Website exclusion list [VPN active selectively]
+Sie können verschiedene VPN-Modi für Anwendungen und Websites einstellen. Sie können AdGuard VPN beispielsweise so einstellen, dass es für alle Apps aktiv ist, mit Ausnahme derer, die der App-Ausschlussliste hinzugefügt wurden, und nur für die Websites aus der Website-Ausschlussliste aktiv ist.
 
 :::
 
-## Combining VPN modes and exclusion lists
+## Ausschlusslisten
 
-You can set up four combinations of VPN activity.
+Eine Ausschlussliste ist eine Liste von Anwendungen oder Websites, die AdGuard VPN je nach aktuellem VPN-Modus aus dem Tunnel ausschließt oder in den Tunnel einbezieht.
 
-### Setup 1
+:::note
 
-AdGuard VPN is active everywhere except for apps and websites from the app and website exclusion lists.
+Jeder VPN-Modus bietet zwei Ausschlusslisten: eine für Apps und eine für Websites. Insgesamt gibt es vier Ausschlusslisten:
 
-VPN mode:
-
-- Active for all apps except app exclusions
-- Active for all websites except website exclusions
-
-Applied exclusion lists:
-
-- App exclusion list [VPN active everywhere]
-- Website exclusion list [VPN active everywhere]
-
-This is the default VPN mode with maximum VPN protection. If you want to exclude a website or an app from AdGuard VPN, add them to the respective exclusion list.
-
-**Empty exclusion lists:** Your app and website exclusion lists can be empty. If nothing is specified in them, AdGuard VPN will be active for all apps and websites.
-
-**Why use this mode:** You want a blanket VPN protection for everything on your device. If a specific app or website needs to work outside the VPN, add it to Exclusions.
-
-:::caution
-
-If you add a browser app to the app exclusion list, AdGuard VPN won’t be active for any websites opened in that browser.
+- App-Ausschlussliste [VPN überall aktiv]
+- App-Ausschlussliste [VPN selektiv aktiv]
+- Website-Ausschlussliste [VPN überall aktiv]
+- Website-Ausschlussliste [VPN selektiv aktiv]
 
 :::
 
-### Setup 2
+## Kombination von VPN-Modi und Ausschlusslisten
 
-AdGuard VPN is active only for the apps from the app exclusion list and for all websites except those from the website exclusion list.
+Sie können vier Kombinationen von VPN-Aktivitäten einrichten.
 
-VPN mode:
+### Einrichtung 1
 
-- Active only for apps from app exclusions
-- Active for all websites except website exclusions
+AdGuard VPN ist überall aktiv, außer für Apps und Websites aus den App- und Website-Ausschlusslisten.
 
-Applied exclusion lists:
+VPN-Modus:
 
-- App exclusion list [VPN active selectively]
-- Website exclusion list [VPN active everywhere]
+- Aktiv für alle Anwendungen mit Ausnahme von App-Ausschlüssen
+- Aktiv für alle Websites mit Ausnahme derer, die ausgeschlossen sind
 
-To switch to this mode, leave AdGuard VPN active for all websites and set it to be on only for the apps from the app exclusion list. This mode provides less VPN protection coverage because you need to add apps to the app exclusion list to ensure they are protected.
+Angewendete Ausschlusslisten:
 
-This mode requires your attention to setting up your app exclusion list.
+- App-Ausschlussliste [VPN überall aktiv]
+- Website-Ausschlussliste [VPN überall aktiv]
 
-**Empty exclusion lists:** If the **app exclusion list** is **empty**, AdGuard VPN will be **inactive for both websites and apps**.
+Dies ist der Standard-VPN-Modus mit maximalem VPN-Schutz. Wenn Sie eine Website oder eine App von AdGuard VPN ausschließen möchten, fügen Sie sie der entsprechenden Ausschlussliste hinzu.
 
-**Why use this mode:** You need a VPN for most websites, but only for a few apps.
+**Leere Ausschlusslisten:** Ihre App- und Website-Ausschlusslisten können leer sein. Wenn darin nichts angegeben ist, ist AdGuard VPN für alle Anwendungen und Websites aktiv.
+
+**Warum diesen Modus verwenden:** Sie möchten einen umfassenden VPN-Schutz für alles auf Ihrem Gerät. Wenn eine bestimmte Anwendung oder Website außerhalb des VPN funktionieren soll, fügen Sie sie zu den Ausschlüssen hinzu.
 
 :::caution
 
-If you don’t add a browser app to the app exclusion list, AdGuard VPN will be inactive in this browser for all websites, even those from the website exclusion list.
+Wenn Sie eine Browser-App zur App-Ausschlussliste hinzufügen, wird AdGuard VPN für alle Websites, die in diesem Browser geöffnet werden, nicht aktiv sein.
 
 :::
 
-### Setup 3
+### Einrichtung 2
 
-AdGuard VPN is active for all apps except those from the app exclusion list, and only for the websites from the website exclusion list.
+AdGuard VPN ist nur für die Apps aus der App-Ausschlussliste und für alle Websites außer denen aus der Website-Ausschlussliste aktiv.
 
-VPN mode:
+VPN-Modus:
 
-- Active for all apps except app exclusions
-- Active only for websites from website exclusions
+- Aktiv nur für Apps aus App-Ausschlüssen
+- Aktiv für alle Websites mit Ausnahme derer, die ausgeschlossen sind
 
-Applied exclusion lists:
+Angewendete Ausschlusslisten:
 
-- App exclusion list [VPN active everywhere]
-- Website exclusion list [VPN active selectively]
+- App-Ausschlussliste [VPN selektiv aktiv]
+- Website-Ausschlussliste [VPN überall aktiv]
 
-To switch to this mode, leave AdGuard VPN active for all apps and set it to be on only for the websites from the website exclusion list. To use an app, add its respective domain to the website exclusion list.
+Um in diesen Modus zu wechseln, lassen Sie AdGuard VPN für alle Websites aktiv und stellen Sie es so ein, dass es nur für die Apps aus der App-Ausschlussliste aktiviert ist. Dieser Modus bietet eine geringere VPN-Schutzabdeckung, da Sie Apps zur App-Ausschlussliste hinzufügen müssen, um sicherzustellen, dass diese geschützt sind.
 
-This mode provides even less VPN protection coverage because you need to add websites to the website exclusion list to ensure they are protected.
+Dieser Modus erfordert Ihre Aufmerksamkeit bei der Einrichtung Ihrer App-Ausschlussliste.
 
-This mode requires your attention to setting up your website exclusion list.
+**Leere Ausschlusslisten:** Wenn die **App-Ausschlussliste** **leer** ist, ist AdGuard VPN **für Websites und Apps nicht aktiv**.
 
-**Empty exclusion lists:** If the **website exclusion list** is **empty**, AdGuard VPN will be **inactive for all websites and apps**.
-
-**Why use this mode:** You need a VPN for most apps, but only for a few websites.
+**Warum diesen Modus verwenden:** Sie benötigen ein VPN für die meisten Websites, aber nur für einige wenige Apps.
 
 :::caution
 
-For all apps: make sure to add their respective domains to the website exclusion list. For example, for Facebook, add `facebook.com` to the website exclusion list.
+Wenn Sie eine Browser-App nicht zur App-Ausschlussliste hinzufügen, ist AdGuard VPN in diesem Browser für alle Websites inaktiv, auch für die aus der Website-Ausschlussliste.
 
 :::
 
-### Setup 4
+### Einrichtung 3
 
-AdGuard VPN is active only for the apps and websites from the app and website exclusion lists.
+AdGuard VPN ist für alle Apps aktiv, mit Ausnahme derjenigen, die in der App-Ausschlussliste aufgeführt sind, und nur für die Websites, die in der Website-Ausschlussliste aufgeführt sind.
 
-VPN mode:
+VPN-Modus:
 
-- Active only for apps from app exclusions
-- Active only for websites from website exclusions
+- Aktiv für alle Anwendungen mit Ausnahme von App-Ausschlüssen
+- Nur für Websites aus Website-Ausschlüssen aktiv
 
-Applied exclusion lists:
+Angewandte Ausschlusslisten:
 
-- App exclusion list [VPN active selectively]
-- Website exclusion list [VPN active selectively]
+- App-Ausschlussliste [VPN überall aktiv]
+- Website-Ausschlussliste [VPN selektiv aktiv]
 
-You need to switch to this mode both for apps and websites. This mode provides the least VPN protection coverage. This mode requires your maximum attention to setting up your app and website exclusion lists.
+Um in diesen Modus zu wechseln, lassen Sie AdGuard VPN für alle Anwendungen aktiv und stellen Sie es so ein, dass es nur für die Websites aus der Website-Ausschlussliste aktiviert ist. Um eine App zu verwenden, fügen Sie die entsprechende Domain zur Website-Ausschlussliste hinzu.
 
-**Empty exclusion lists:** If **any** of the exclusion lists is **empty**, AdGuard VPN will be **inactive for both websites and apps**.
+Dieser Modus bietet sogar noch geringeren VPN-Schutz, da Sie Websites zur Website-Ausschlussliste hinzufügen müssen, um sicherzustellen, dass sie geschützt sind.
 
-**Why use this mode:** You only need VPN for specific websites and apps.
+In diesem Modus müssen Sie Ihre Website-Ausschlussliste einrichten.
+
+**Leere Ausschlusslisten:** Wenn die **Websites-Ausschlussliste** **leer** ist, ist AdGuard VPN **für alle Websites und Apps inaktiv**.
+
+**Warum diesen Modus verwenden:** Sie benötigen ein VPN für die meisten Anwendungen, aber nur für einige wenige Websites.
 
 :::caution
 
-1. If you don’t add a browser app to the app exclusion list, AdGuard VPN will be inactive in this browser for all websites, even those from the website exclusion list.
+Für alle Anwendungen: Stellen Sie sicher, dass Sie die entsprechenden Domains zur Website-Ausschlussliste hinzufügen. Fügen Sie zum Beispiel für Facebook `facebook.com` zur Website-Ausschlussliste hinzu.
 
-2. For apps from the app exclusion list: make sure to add their respective domains to the website exclusion list. For example, if you add _Facebook_ to the app exclusion list, add `facebook.com` to the website exclusion list.
+:::
+
+### Einrichtung 4
+
+AdGuard VPN ist nur für die Apps und Websites aktiv, die in den App- und Website-Ausschlusslisten aufgeführt sind.
+
+VPN-Modus:
+
+- Aktiv nur für Apps aus App-Ausschlüssen
+- Aktiv nur für Websites aus Website-Ausschlüssen
+
+Angewandte Ausschlusslisten:
+
+- App-Ausschlussliste [VPN selektiv aktiv]
+- Website-Ausschlussliste [VPN selektiv aktiv]
+
+Sie müssen sowohl für Apps als auch für Websites in diesen Modus wechseln. Dieser Modus bietet die geringste VPN-Schutzabdeckung. In diesem Modus müssen Sie der Einrichtung Ihrer App- und Website-Ausschlusslisten höchste Aufmerksamkeit schenken.
+
+**Leere Ausschlusslisten:** Wenn **eine** der Ausschlusslisten **leer** ist, ist AdGuard VPN **für Websites und Apps inaktiv**.
+
+**Warum diesen Modus verwenden:** Sie benötigen VPN nur für bestimmte Websites und Apps.
+
+:::caution
+
+1. Wenn Sie eine Browser-App nicht zur App-Ausschlussliste hinzufügen, ist AdGuard VPN in diesem Browser für alle Websites inaktiv, auch für die aus der Website-Ausschlussliste.
+
+2. Für Apps aus der App-Ausschlussliste: Stellen Sie sicher, dass Sie die entsprechenden Domains zur Website-Ausschlussliste hinzufügen. Wenn Sie beispielsweise _Facebook_ zur App-Ausschlussliste hinzufügen möchten, fügen Sie `facebook.com` zur Website-Ausschlussliste hinzu.
 
 :::

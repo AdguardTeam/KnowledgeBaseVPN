@@ -25,7 +25,7 @@ Mit Ausschlusslisten können Sie die VPN-Verbindung für bestimmte Websites und 
 
 By default, AdGuard VPN works for all websites and apps except those added to exclusions: if you don’t specify an app or website, VPN will be active for them. You can also turn it on **selectively** — only for specified apps or websites. To switch to this mode, tap *Change mode*.
 
-![Change mode *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/change_mode.jpg)
+![Modus ändern *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/change_mode.jpg)
 
 :::caution
 
@@ -131,6 +131,6 @@ In the **Preferred IP version** option, before you choose between IPv6 and IPv4,
 
 ### Support
 
-In the *Support* section, you can check out our FAQ to get quick answers to your questions, report bugs, and suggest new features.
+Im Bereich *Support* können Sie unsere FAQ einsehen, um schnelle Antworten auf Ihre Fragen zu erhalten, Fehler zu melden und neue Funktionen vorzuschlagen.
 
 ![Support *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/support.jpg)

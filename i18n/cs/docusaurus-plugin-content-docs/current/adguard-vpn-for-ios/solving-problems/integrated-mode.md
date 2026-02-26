@@ -5,7 +5,7 @@ sidebar_position: 4
 
 AdGuard VPN má dva pracovní režimy: *VPN* a *Integrovaný*.
 
-Režim *VPN* je ve výchozím nastavení povolen a používá [protokol AdGuard VPN](https://trusttunnel.org/). Ten poskytuje nejlepší kombinaci rychlosti připojení a zabezpečení. Tento pracovní režim však neumožňuje současnou práci AdGuard VPN a blokátoru reklam AdGuard.
+Režim *VPN* je ve výchozím nastavení povolen a používá [TrustTunnel](https://trusttunnel.org/) — moderní protokol s otevřeným zdrojovým kódem, který jsme vyvinuli. Ten poskytuje nejlepší kombinaci rychlosti připojení a zabezpečení. Tento pracovní režim však neumožňuje současnou práci AdGuard VPN a blokátoru reklam AdGuard.
 
 V *režimu integrace* se zase používá protokol IPsec, který umožňuje spolupráci aplikací AdGuard.
 

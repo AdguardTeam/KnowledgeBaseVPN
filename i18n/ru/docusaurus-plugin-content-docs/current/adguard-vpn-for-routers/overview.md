@@ -7,7 +7,7 @@ sidebar_position: 1
 
 :::note
 
-Эта опция доступна только в том случае, если у вас есть подписка на AdGuard VPN и ваш роутер поддерживает IPsec в настройках _VPN-клиента_ (**не** _VPN-сервера_). Если IPsec не указан в настройках _VPN-клиента_, вы можете попробовать настроить [AdGuard VPN для Linux](/adguard-vpn-for-linux/setting-up-on-a-router). Это решение использует собственный протокол AdGuard и совместимо с роутерами Keenetic, OpenWRT и Asuswrt-Merlin.
+Эта опция доступна только в том случае, если у вас есть подписка на AdGuard VPN и ваш роутер поддерживает IPsec в настройках _VPN-клиента_ (**не** _VPN-сервера_). Если IPsec не указан в настройках _VPN-клиента_, вы можете попробовать настроить [AdGuard VPN для Linux](/adguard-vpn-for-linux/setting-up-on-a-router). Это решение использует [TrustTunnel](https://trusttunnel.org/) — протокол с открытым исходным кодом, разработанный AdGuard VPN, — и совместимо с роутерами Keenetic, OpenWRT и Asuswrt-Merlin.
 
 :::
 

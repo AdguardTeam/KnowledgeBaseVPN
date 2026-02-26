@@ -5,7 +5,7 @@ sidebar_position: 4
 
 AdGuard VPN a deux modes de fonctionnement : *VPN* et *Intégré*.
 
-The *VPN* mode is enabled by default and uses the [AdGuard VPN protocol](https://trusttunnel.org/). Il offre la meilleure combinaison de vitesse de connexion et de sécurité. Cependant, ce mode de fonctionnement ne permet pas à AdGuard VPN et au Bloqueur AdGuard de fonctionner simultanément.
+Le mode *VPN* est activé par défaut et utilise [TrustTunnel](https://trusttunnel.org/) — un protocole moderne et open-source développé par nos soins. Il offre la meilleure combinaison de vitesse de connexion et de sécurité. Cependant, ce mode de fonctionnement ne permet pas à AdGuard VPN et au Bloqueur AdGuard de fonctionner simultanément.
 
 *Integrated mode*, in turn, uses the IPsec protocol, which makes it possible for the AdGuard apps to work together.
 

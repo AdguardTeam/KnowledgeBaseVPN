@@ -43,7 +43,7 @@ In addition to these VPN protocols, there are others (for example, TLS, SSTP, IK
 
 <object data="https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/6.svg?nc=1" type="image/svg+xml"><img src="https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/6.svg?nc=1" alt="protocol 6" /> </object>
 
-AdGuard VPN also has its own [_protocol_](https://trusttunnel.org/). One of its advantages is that the traffic transmitted using the AdGuard VPN protocol is difficult to distinguish from the regular traffic. The VPN tunnel looks like normal HTTPS traffic, making it extremely difficult to detect and block. In addition, it is based on the mechanisms of the modern HTTP/2 protocol, which ensures high connection speed.
+AdGuard VPN usa [TrustTunnel](https://trusttunnel.org/) — um protocolo de VPN moderno, de código aberto desenvolvido por nós. One of its advantages is that the traffic transmitted using the AdGuard VPN protocol is difficult to distinguish from the regular traffic. The VPN tunnel looks like normal HTTPS traffic, making it extremely difficult to detect and block. In addition, it is based on the mechanisms of the modern HTTP/2 protocol, which ensures high connection speed.
 
 <object data="https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/5.svg?nc=1" type="image/svg+xml"><img src="https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/5.svg?nc=1" alt="protocol 5" /></object>
 
@@ -65,26 +65,26 @@ A weak signal, network overload, VPN incompatibility with a firewall, antivirus 
 
 ## AdGuard VPN
 
-Our VPN service has several important [advantages](/general/why-adguard-vpn):
+Nosso serviço VPN tem várias [vantagens](/general/why-adguard-vpn) importantes:
 
-- [_Proprietary VPN protocol_](https://trusttunnel.org/), which works stably even with a slow Internet connection and disguises itself as normal traffic, making it more difficult to track and block it
+- [_TrustTunnel_](https://trusttunnel.org/) — um protocolo de VPN moderno, discreto e de código aberto desenvolvido pela AdGuard VPN. Funciona de forma estável mesmo com uma conexão de Internet lenta e se disfarça como tráfego normal, dificultando seu rastreamento e bloqueio
 
-- [_No-logging policy_](https://adguard-vpn.com/privacy.html), which means no personal data can be shared with third parties because AdGuard VPN never collects such data
+- [_Política de não registro_](https://adguard-vpn.com/privacy.html), o que significa que nenhum dado pessoal pode ser compartilhado com terceiros porque o AdGuard VPN nunca coleta tais dados
 
-- _More than 85 VPN servers in dozens of countries_
+- _Mais de 50 servidores VPN em dezenas de países_
 
-- _Ease of use and extensive customization options_
+- _Facilidade de uso e extensas opções de personalização_
 
-Currently, AdGuard VPN is available as:
+Atualmente, o AdGuard VPN está disponível como:
 
-- [Browser extension](/adguard-vpn-browser-extension/overview) for Chrome, Edge, Firefox, and Opera
+- [Extensão de navegador](/adguard-vpn-browser-extension/overview) para Chrome, Edge, Firefox e Opera
 
-- Mobile app for [Android](/adguard-vpn-for-android/overview) and [iOS](/adguard-vpn-for-ios/overview)
+- Aplicativo móvel para [Android](/adguard-vpn-for-android/overview) e [iOS](/adguard-vpn-for-ios/overview)
 
-- Desktop application for [Windows](/adguard-vpn-for-windows/overview) and [Mac](/adguard-vpn-for-mac/overview)
+- Aplicativo para desktop para [Windows](/adguard-vpn-for-windows/overview) e [Mac](/adguard-vpn-for-mac/overview)
 
 - No terminal de comando para [Linux, Mac e alguns roteadores](/adguard-vpn-for-linux/)
 
 - Um cliente VPN para [roteadores](/general/set-up-adguard-vpn-on-your-router/)
 
-[Learn more about AdGuard VPN features](https://adguard-vpn.com/welcome.html)
+[Saiba mais sobre os recursos do AdGuard VPN](https://adguard-vpn.com/welcome.html)

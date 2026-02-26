@@ -19,15 +19,12 @@ Níže uvádíme všechna nízkoúrovňová nastavení dostupná v AdGuard VPN p
 
 ### AdGuard VPN protokol
 
-Ve výchozím nastavení používá protokol AdGuard VPN dynamický výběr protokolu VPN (možnost _Automatický výběr_). To znamená, že AdGuard VPN automaticky zjistí, který protokol — HTTP2/TLS nebo HTTP3/QUIC — vám poskytne nejlepší výkon, a okamžitě na něj přepne. To zlepšuje rychlost a stabilitu VPN, což je obzvláště užitečné v regionech, kde je používání VPN omezené nebo nespolehlivé.
-
-Pokud víte, co děláte, můžete přepnout AdGuard VPN tak, aby místo _Automatického výběru_ používal pouze protokol HTTP2/TLS nebo HTTP3/QUIC. [QUIC](https://adguard-vpn.com/kb/general/why-adguard-vpn/#6-quic-support) je relativně nový protokol a proto může být méně stabilní. Pokud je však vaše internetové připojení nestabilní (např. při připojení k veřejné Wi-Fi), poskytuje lepší zabezpečení a zvyšuje rychlost připojení díky technologii [Head-Of-Line Blocking](https://adguard-dns.io/en/blog/dns-over-quic.html#headoflineblocking).
-
-Zde je také článek věnovaný tomuto protokolu: [Jak funguje protokol AdGuard VPN](https://trusttunnel.org/).
+AdGuard VPN používá TrustTunnel — moderní protokol VPN s otevřeným zdrojovým kódem, který jsme vyvinuli a který je k dispozici komukoli k použití, auditu a implementaci. [Navštivte webovou stránku](https://trusttunnel.org/), kde se dozvíte, jak to funguje a proč se to liší od tradičních VPN protokolů.
 
 ### Zahrnout bránu Wi-Fi v trasách VPN
 
 Pokud je toto nastavení povoleno, budou IP adresy brány přidány do tras VPN při připojení k Wi-Fi.
+
 Pokud ho zakážete, změní se konfigurace tras (filtrované rozsahy IP). Brána Wi-Fi sítě, ke které je uživatel připojen, bude vyloučena, a proto nebude podléhat filtrování.
 
 Toto nastavení je ve výchozím nastavení povoleno.
@@ -69,6 +66,7 @@ Zde můžete nastavit maximální velikost (v bajtech) datového paketu použív
 ### Vyloučené aplikace
 
 Zde můžete uvést UID (jedinečné identifikátory) nebo názvy balíčků aplikací, které chcete vyloučit ze směrování VPN.
+
 Na rozdíl od aplikací přidaných do běžných _Výjimek_ se provoz aplikací přidaných do _Vyloučených aplikací_ vůbec nepřenáší do služby lokální VPN ve vašem zařízení. Místo toho směruje přímo do cíle.
 
 ### Port proxy serveru

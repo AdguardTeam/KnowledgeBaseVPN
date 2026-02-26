@@ -7,9 +7,9 @@ When getting ready to commit to a [long-term VPN subscription](/general/subscrip
 
 *Za početak, pređimo preko nenadmašne funkcije AdGuard VPN-a koje nećete naći ni u jednom drugom VPN-u.*
 
-## 1. Lični protokol
+## 1. State-of-the-art open-source protocol
 
-Od samog početka, rešili smo da razvijemo i primenimo sopstveni VPN protokol umesto da izaberemo konzervirano rešenje – to bi bilo previše lako, plus, nismo bili zadovoljni postojećim protokolima. The result has become the [AdGuard VPN protocol](https://trusttunnel.org/).
+Od samog početka, rešili smo da razvijemo i primenimo sopstveni VPN protokol umesto da izaberemo konzervirano rešenje – to bi bilo previše lako, plus, nismo bili zadovoljni postojećim protokolima. The result has become [TrustTunnel](https://trusttunnel.org/) — a modern, stealthy, and fast open-source VPN protocol developed by AdGuard VPN.
 
 Birajući VPN uslugu, ljudi se često suočavaju sa razmenom između brzog i sigurnog. The AdGuard VPN protocol is a perfect blend of speed and security, so you don’t have to bear slow Internet connection or make privacy sacrifices. Između ostalog, prerušava se u redovan saobraćaj i mnogo ga je teže otkriti i blokirati.
 

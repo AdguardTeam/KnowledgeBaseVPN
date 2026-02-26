@@ -29,7 +29,7 @@ In some countries, AdGuard VPN is not available in the App Store. If that’s yo
 
    Postal code: 15040
 
-   Phone: 613 9572998
+   Telefonnr.: 999 999999999
 
 5. Tap _Next_.
 

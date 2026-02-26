@@ -32,7 +32,7 @@ AdGuard has been present on the market of personal data protection and ad blocki
 
 ### Protocolo VPN exclusivo
 
-The main difference between AdGuard VPN and its competitors is that we use [our own developed protocol](https://trusttunnel.org/). Ele se disfarça de tráfego normal, por isso é muito mais difícil rastreá-lo e bloqueá-lo.
+A principal diferença entre AdGuard VPN e seus concorrentes é que utilizamos [TrustTunnel](https://trusttunnel.org/) — um protocolo VPN moderno, discreto e rápido, open-source, desenvolvido por nós. Ele se disfarça de tráfego normal, por isso é muito mais difícil rastreá-lo e bloqueá-lo.
 
 ### No-logging policy
 
