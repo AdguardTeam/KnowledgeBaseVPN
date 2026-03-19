@@ -17,7 +17,7 @@ AdGuard VPN for Android and TrustTunnel require **Android 9 or later**.
 
 If your device runs an older Android version, you can install an earlier version of the app:
 
-- https://uploads.adguard.org/AdGuard_VPN_2.11.1.apk
+- https://agrd.io/android-old-version
 
 ## iOS
 
@@ -35,11 +35,11 @@ AdGuard VPN for Mac requires **macOS 12 Monterey or later** starting with beta v
 
 If your Mac runs an older macOS version, install one of the following versions:
 
-- macOS 10.15–11
-https://github.com/AdguardTeam/AdGuardVPNForMac/releases/download/v2.5.1.770/AdGuardVPN-2.5.1.770-release.dmg
-
 - macOS versions earlier than 10.15
-https://github.com/AdguardTeam/AdGuardVPNForMac/releases/download/v2.0-beta/AdGuardVPN-2.0.0.254-beta.dmg
+https://agrd.io/vpn-macos-10-15
+
+- macOS 10.15–11
+https://agrd.io/vpn-macos-10-15-11
 
 Download the `.dmg` file and install the app as usual.
 
@@ -49,7 +49,8 @@ AdGuard VPN for Windows requires **Windows 8 or later**.
 
 If you’re using an older version of Windows, install the following version:
 
-- Windows 7 https://github.com/AdguardTeam/AdGuardVPNForWindows/releases/download/v2.4.1/AdGuardVpn-2.4.1-.1507.exe
+- Windows 7
+https://agrd.io/vpn-windows-7
 
 Download the `.exe` file and run the installer.
 
