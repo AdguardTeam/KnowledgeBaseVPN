@@ -47,6 +47,8 @@ Download the `.dmg` file and install the app as usual.
 
 AdGuard VPN for Windows requires **Windows 8 or later**.
 
+If you’re using an older version of Windows, install the following version:
+
 - Windows 7 https://github.com/AdguardTeam/AdGuardVPNForWindows/releases/download/v2.4.1/AdGuardVpn-2.4.1-.1507.exe
 
 Download the `.exe` file and run the installer.
