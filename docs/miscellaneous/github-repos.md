@@ -55,7 +55,7 @@ Repository of AdGuard VPN for Linux — a command‑line interface for managing 
 
 ## Knowledge base and documentation
 
-Knowledge bases is aimed to help users better understand and use AdGuard VPN. It describes each AdGuard VPN product in detail: from feature overviews and problem-solving guides to advanced setting manuals and API documentations. In the repository users can:
+AdGuard VPN Knowledge Base is aimed to help users better understand and use AdGuard VPN. It describes each AdGuard VPN product in detail: from feature overviews and problem-solving guides to advanced setting manuals and API documentations. In the repository users can:
 
 - Suggest corrections or edits to knowledge base articles
 - Propose new articles
