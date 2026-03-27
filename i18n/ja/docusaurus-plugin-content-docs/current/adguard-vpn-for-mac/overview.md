@@ -5,11 +5,13 @@ sidebar_position: 1
 
 AdGuard VPN for Macは、デスクトップVPNサービスです。 AdGuard VPNはAdGuard広告ブロッカーと完全な互換性があり、併用することが可能で、シームレスに動作します。 さて、どんな機能があるのかを見てみましょう。
 
-Note that **you can’t use AdGuard VPN for Mac unless you have logged into your AdGuard account**. AdGuardアカウントでログインするか、外部アカウント（Apple、Google、Facebook経由）でログインすることができます （外部アカウントの場合、AdGuardアカウントと同じメールアドレスのアカウントを使用してください）。 AdGuardアカウントに適切なサブスクリプションがある場合、AdGuard VPN for Macアプリでログインの際にそのサブスクリプションが自動的に有効化されます。 Still don’t have an AdGuard account? Create it [here](https://auth.adguardaccount.com/registration.html).
+Note that **you can’t use AdGuard VPN for Mac unless you have logged into your AdGuard account**. AdGuardアカウントでログインするか、外部アカウント（Apple、Google、Facebook経由）でログインすることができます （外部アカウントの場合、AdGuardアカウントと同じメールアドレスのアカウントを使用してください）。 AdGuardアカウントに適切なサブスクリプションがある場合、AdGuard VPN for Macアプリでログインの際にそのサブスクリプションが自動的に有効化されます。
+
+Still don’t have an AdGuard account? Create it [here](https://auth.adguardaccount.com/registration.html).
 
 :::note Compatibility
 
-AdGuard VPN for Mac is currently supported on macOS versions starting from macOS Big Sur (version 11).
+AdGuard VPN for Mac is currently supported on macOS versions starting from macOS Monterey (version 12).
 
 :::
 
@@ -17,13 +19,13 @@ AdGuard VPN for Mac is currently supported on macOS versions starting from macOS
 
 ![Home screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/saved_locations.png)
 
-最初のタブは、 *ホーム*画面です。 Here you can see the current status of AdGuard VPN, the selected location (if enabled) and its ping. pingとは、VPNサーバーの応答時間です。 The lower the number, the faster the connection. If VPN is disabled, the last location you connected to is displayed at the bottom.
+The first tab is the *Home* screen. Here you can see the current status of AdGuard VPN, the selected location (if enabled) and its ping. Ping is the response time of a VPN server. The lower the number, the faster the connection. If VPN is disabled, the last location you connected to is displayed at the bottom.
 
-The fastest locations with the lowest pings are displayed in the upper right corner of the screen. There is also a refresh button that you can click if any locations are offline. その下には、全ロケーションの一覧が表示されます。 The search field makes it easy to find the location you need.
+The fastest locations with the lowest pings are displayed in the upper right corner of the screen. There is also a refresh button that you can click if any locations are offline. Below you can see the full list of locations. The search field makes it easy to find the location you need.
 
 :::note
 
-無料ユーザーは特定のロケーションにしか接続できず、それ以外のロケーションはロックされています。 その上、無料版では月間3GBというデータ通信量制限があります。
+Free users can connect only to certain locations, while others are blocked. Besides, there is a 3 GB monthly traffic limit in the free version.
 
 :::
 

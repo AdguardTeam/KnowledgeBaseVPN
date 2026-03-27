@@ -3,17 +3,17 @@ title: Por que o AdGuard VPN é a melhor opção
 sidebar_position: 2
 ---
 
-When getting ready to commit to a [long-term VPN subscription](/general/subscription), users most frequently evaluate its speed, security, and price. Esses são pontos muito importantes, mas há muito mais! AdGuard VPN has a dozen of key assets that make it ’the better option’.
+Ao se preparar para se comprometer com uma [assinatura VPN de longo prazo](/general/subscription), os usuários avaliam com mais frequência sua velocidade, segurança e preço. Esses são pontos muito importantes, mas há muito mais! O AdGuard VPN possui vários recursos importantes que o tornam "a melhor opção".
 
 *Para começar, vamos examinar os recursos do AdGuard VPN que você não encontrará em nenhuma outra VPN.*
 
-## 1. Protocolo proprietário
+## 1. Protocolo open-source avançado
 
-Desde o início, resolvemos desenvolver e implantar um protocolo VPN interno em vez de optar por uma solução pronta. Isso seria fácil de mais, além disso, não estávamos satisfeitos com os protocolos existentes. The result has become the [AdGuard VPN protocol](https://trusttunnel.org/).
+Desde o início, resolvemos desenvolver e implantar um protocolo VPN interno em vez de optar por uma solução pronta. Isso seria fácil de mais, além disso, não estávamos satisfeitos com os protocolos existentes. O resultado tornou-se [TrustTunnel](https://trusttunnel.org/) — um protocolo moderno, discreto e rápido de VPN de código aberto desenvolvido pela AdGuard VPN.
 
-Ao escolher um serviço VPN, as pessoas geralmente precisam escolher entre rápido e seguro. The AdGuard VPN protocol is a perfect blend of speed and security, so you don’t have to bear slow Internet connection or make privacy sacrifices. Entre outras coisas, ele se disfarça de tráfego regular e é muito mais difícil detectar e bloquear.
+Ao escolher um serviço VPN, as pessoas geralmente precisam escolher entre rápido e seguro. O Protocolo do AdGuard VPN é uma combinação perfeita de velocidade e segurança, para que você não precise suportar conexão lenta com a Internet ou fazer sacrifícios de privacidade. Entre outras coisas, ele se disfarça de tráfego regular e é muito mais difícil detectar e bloquear.
 
-## 2. Website and app exclusions
+## 2. Exclusões de sites e aplicativos
 
 There are situations where you don’t need your VPN to be active: for instance, when you’re ordering food or using maps. For this reason, AdGuard VPN has a special feature: Exclusions.
 
