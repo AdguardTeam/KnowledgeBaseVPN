@@ -5,11 +5,13 @@ sidebar_position: 1
 
 AdGuard VPN za Mac je VPN usluga na radnoj površini. AdGuard VPN je u potpunosti kompatibilan sa AdGuard blokatorom reklama, mogu se koristiti zajedno i radiće neprimetno. Da vidimo koje karakteristike ima da ponudi.
 
-Note that **you can’t use AdGuard VPN for Mac unless you have logged into your AdGuard account**. Možete da se prijavite pomoću svog AdGuard naloga ili sa spoljašnjim nalogom, tačnije preko Apple-a, Google-a ili Facebook-a. Uverite se da je vaš spoljni nalog povezan sa istom e-adresom kao i vaš AdGuard nalog. Ako postoji odgovarajuća pretplata na vašem AdGuard nalogu, ona će biti automatski aktivirana na aplikaciji radne površine. Still don’t have an AdGuard account? Create it [here](https://auth.adguardaccount.com/registration.html).
+Note that **you can’t use AdGuard VPN for Mac unless you have logged into your AdGuard account**. Možete da se prijavite pomoću svog AdGuard naloga ili sa spoljašnjim nalogom, tačnije preko Apple-a, Google-a ili Facebook-a. Uverite se da je vaš spoljni nalog povezan sa istom e-adresom kao i vaš AdGuard nalog. Ako postoji odgovarajuća pretplata na vašem AdGuard nalogu, ona će biti automatski aktivirana na aplikaciji radne površine.
+
+Still don’t have an AdGuard account? Create it [here](https://auth.adguardaccount.com/registration.html).
 
 :::note Compatibility
 
-AdGuard VPN for Mac is currently supported on macOS versions starting from macOS Big Sur (version 11).
+AdGuard VPN for Mac is currently supported on macOS versions starting from macOS Monterey (version 12).
 
 :::
 
@@ -17,13 +19,13 @@ AdGuard VPN for Mac is currently supported on macOS versions starting from macOS
 
 ![Home screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/saved_locations.png)
 
-Prva kartica je *Početni* Ekran. Here you can see the current status of AdGuard VPN, the selected location (if enabled) and its ping. Ping je vreme odziva VPN servera. The lower the number, the faster the connection. If VPN is disabled, the last location you connected to is displayed at the bottom.
+The first tab is the *Home* screen. Here you can see the current status of AdGuard VPN, the selected location (if enabled) and its ping. Ping is the response time of a VPN server. The lower the number, the faster the connection. If VPN is disabled, the last location you connected to is displayed at the bottom.
 
-The fastest locations with the lowest pings are displayed in the upper right corner of the screen. There is also a refresh button that you can click if any locations are offline. U nastavku možete videti kompletnu listu lokacija. The search field makes it easy to find the location you need.
+The fastest locations with the lowest pings are displayed in the upper right corner of the screen. There is also a refresh button that you can click if any locations are offline. Below you can see the full list of locations. The search field makes it easy to find the location you need.
 
 :::note
 
-Korisnici besplatne verzije mogu da se povežu samo sa određenim lokacijama, dok su druge blokirane. Osim toga, u besplatnoj verziji postoji ograničenje saobraćaja od 3 GB mesečno.
+Free users can connect only to certain locations, while others are blocked. Besides, there is a 3 GB monthly traffic limit in the free version.
 
 :::
 

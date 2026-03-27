@@ -5,16 +5,16 @@ sidebar_position: 1
 
 ## iOS용 AdGuard VPN이란 무엇인가요?
 
-VPN을 사용하면 인터넷의 다른 네트워크에 안전하게 연결할 수 있습니다. It connects a user’s computer or mobile device to a server and allows one to browse the Internet using a “cover” IP address. VPN 서버가 다른 국가에 있는 경우, 이 국가에서 인터넷 연결이 설정된 것처럼 표시됩니다. 자세한 내용은 [VPN이 작동하는 방식에 대한 글](/general/how-vpn-works)을 확인하세요.
+VPN을 사용하면 인터넷의 다른 네트워크에 안전하게 연결할 수 있습니다. VPN은 컴퓨터 또는 모바일 기기를 서버에 연결하고, 실제 IP 주소를 사용하지 않고 인터넷을 탐색할 수 있도록 합니다. VPN 서버가 다른 국가에 있는 경우, 이 국가에서 인터넷 연결이 설정된 것처럼 표시됩니다. 자세한 내용은 [VPN이 작동하는 방식에 대한 글](/general/how-vpn-works)을 확인하세요.
 
 AdGuard VPN에는 여러 가지 기능이 있습니다.
 
-- Hides your real whereabouts and helps you stay anonymous
-- Changes your IP address to protect your data from tracking
-- Encrypts your traffic, making the content inaccessible to scammers
-- Lets you configure where to use VPN and where not to (exclusions feature)
+- 실제 위치를 숨기고 익명성을 유지합니다.
+- 데이터 추적을 방지하기 위해 IP 주소를 변경합니다.
+- 트래픽을 암호화하여 해커가 트래픽 내용에 액세스할 수 없도록 합니다.
+- VPN을 사용할 곳과 사용하지 않을 곳을 설정할 수 있습니다 (예외 목록).
 
-iOS용 AdGuard VPN의 다음 장점은 자체 VPN 프로토콜입니다. AdGuard VPN 프로토콜은 다른 VPN 프로토콜에 비해 탐지하기가 매우 어렵고, 인터넷 연결 상태가 좋지 않은 경우에도 안정적입니다. [Read more about the AdGuard VPN protocol](https://trusttunnel.org/).
+iOS용 AdGuard VPN의 다음 장점은 자체 VPN 프로토콜입니다. AdGuard VPN 프로토콜은 다른 VPN 프로토콜에 비해 탐지하기가 매우 어렵고, 인터넷 연결 상태가 좋지 않은 경우에도 안정적입니다. [Read more about the protocol](https://trusttunnel.org/).
 
 ## iOS용 AdGuard를 사용하는 방법
 
@@ -124,7 +124,7 @@ In *Advanced* settings, you can find 4 sections — *Operating mode*, *Logging l
 
 AdGuard VPN for iOS can operate in two modes: **VPN** and **Integrated**.
 
-The *VPN* mode uses the [AdGuard VPN protocol](https://trusttunnel.org/), which provides the best combination of speed and security. In this mode, AdGuard VPN will not work with [AdGuard Ad Blocker for iOS](https://adguard.com/adguard-ios/overview.html).
+The *VPN* mode uses [TrustTunnel](https://trusttunnel.org/) — a modern, open-source protocol developed by us. It provides the best combination of speed and security. In this mode, AdGuard VPN will not work with [AdGuard Ad Blocker for iOS](https://adguard.com/adguard-ios/overview.html).
 
 In **Integrated mode**, AdGuard VPN will be able to work simultaneously with AdGuard Ad Blocker for iOS using the IPSec protocol. This protocol is also secure, but a bit slower and easier to detect. You don’t have to do anything to set up the integration: just install both apps and switch to this mode.
 

@@ -5,11 +5,13 @@ sidebar_position: 1
 
 Mac용 AdGuard VPN은 데스크톱 VPN 서비스입니다. AdGuard VPN은 AdGuard 광고 차단기와 호환되며 함께 사용할 수 있습니다. Mac용 VPN 기능을 살펴보겠습니다.
 
-Note that **you can’t use AdGuard VPN for Mac unless you have logged into your AdGuard account**. AdGuard 계정이나 Apple, Google 또는 Facebook으로 로그인할 수 있습니다. 다른 계정이 AdGuard 계정과 동일한 이메일 주소에 연결되어 있는지 확인하세요. AdGuard 계정에 적합한 구독이 있으면 데스크톱 앱에서 자동으로 활성화됩니다. Still don’t have an AdGuard account? Create it [here](https://auth.adguardaccount.com/registration.html).
+Note that **you can’t use AdGuard VPN for Mac unless you have logged into your AdGuard account**. AdGuard 계정이나 Apple, Google 또는 Facebook으로 로그인할 수 있습니다. 다른 계정이 AdGuard 계정과 동일한 이메일 주소에 연결되어 있는지 확인하세요. AdGuard 계정에 적합한 구독이 있으면 데스크톱 앱에서 자동으로 활성화됩니다.
+
+Still don’t have an AdGuard account? Create it [here](https://auth.adguardaccount.com/registration.html).
 
 :::note Compatibility
 
-AdGuard VPN for Mac is currently supported on macOS versions starting from macOS Big Sur (version 11).
+AdGuard VPN for Mac is currently supported on macOS versions starting from macOS Monterey (version 12).
 
 :::
 
@@ -17,13 +19,13 @@ AdGuard VPN for Mac is currently supported on macOS versions starting from macOS
 
 ![Home screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/saved_locations.png)
 
-첫 번째 탭은 *홈 *화면입니다. Here you can see the current status of AdGuard VPN, the selected location (if enabled) and its ping. 핑은 VPN 서버의 응답 시간입니다. The lower the number, the faster the connection. If VPN is disabled, the last location you connected to is displayed at the bottom.
+The first tab is the *Home* screen. Here you can see the current status of AdGuard VPN, the selected location (if enabled) and its ping. Ping is the response time of a VPN server. The lower the number, the faster the connection. If VPN is disabled, the last location you connected to is displayed at the bottom.
 
-The fastest locations with the lowest pings are displayed in the upper right corner of the screen. There is also a refresh button that you can click if any locations are offline. 아래에서 전체 위치 목록을 볼 수 있습니다. The search field makes it easy to find the location you need.
+The fastest locations with the lowest pings are displayed in the upper right corner of the screen. There is also a refresh button that you can click if any locations are offline. Below you can see the full list of locations. The search field makes it easy to find the location you need.
 
 :::note
 
-무료 버전의 사용자는 특정 위치에만 연결할 수 있고, 다른 위치가 차단됩니다. 게다가 무료 버전에서는 매월 3GB의 트래픽만 사용할 수 있습니다.
+Free users can connect only to certain locations, while others are blocked. Besides, there is a 3 GB monthly traffic limit in the free version.
 
 :::
 

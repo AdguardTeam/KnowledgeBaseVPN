@@ -124,7 +124,7 @@ Dans *Paramètres avancés* , vous pouvez trouver 4 sections — *Mode de foncti
 
 AdGuard VPN pour iOS peut fonctionner en deux modes : **VPN** et **Intégré**.
 
-Le mode *VPN* utilise le [Protocole AdGuard VPN](https://trusttunnel.org/), qui offre la meilleure combinaison de vitesse et de sécurité. Dans ce mode, AdGuard VPN ne fonctionnera pas avec le [Bloqueur AdGuard pour iOS](https://adguard.com/adguard-ios/overview.html).
+Le mode *VPN* utilise le [Protocole AdGuard VPN](https://trusttunnel.org/), qui offre la meilleure combinaison de vitesse et de sécurité. It provides the best combination of speed and security. In this mode, AdGuard VPN will not work with [AdGuard Ad Blocker for iOS](https://adguard.com/adguard-ios/overview.html).
 
 En mode **intégré**, AdGuard VPN pourra fonctionner simultanément avec le Bloqueur AdGuard pour iOS en utilisant le protocole IPSec. Ce protocole est également sécuritaire, mais un peu plus lent et plus facile à détecter. Vous n'avez pas besoin d'effectuer d'actions supplémentaires pour configurer l'intégration : installez simplement les deux applications et passez à ce mode.
 
