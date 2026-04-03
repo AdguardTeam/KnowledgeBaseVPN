@@ -75,6 +75,12 @@ You’ll need to update your router settings if you want to change the VPN serve
 
 :::
 
+## Running AdGuard VPN CLI on MikroTik RouterOS
+
+You can install and run the AdGuard VPN CLI Docker container on MikroTik routers with RouterOS. This method requires advanced technical knowledge but provides access to all AdGuard VPN features.
+
+For more information and detailed instructions, refer to [our dedicated guide](/adguard-vpn-for-linux/setting-up-on-a-router/mikrotik/).
+
 ## Routers known to be incompatible with AdGuard VPN
 
 Below are the routers that are currently known to have compatibility issues:
