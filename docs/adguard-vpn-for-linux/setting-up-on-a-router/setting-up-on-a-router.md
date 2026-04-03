@@ -5,6 +5,8 @@ sidebar_position: 1
 
 Learn how to set up AdGuard VPN for Linux on a router.
 
+- [Instructions for Mikrotik routers](/adguard-vpn-for-linux/setting-up-on-a-router/mikrotik.md)
+
 - [Instructions for Keenetic routers](/adguard-vpn-for-linux/setting-up-on-a-router/keenetic.md)
 
 - [Instructions for OpenWRT routers](/adguard-vpn-for-linux/setting-up-on-a-router/openwrt.md)
