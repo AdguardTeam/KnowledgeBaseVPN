@@ -198,7 +198,8 @@ Set Docker Hub URL and temporary directory for image extraction
 
 :::note
 
-Replace `disk1` with `usb1` if you use external USB flash drive.
+Replace `disk1` with the name of the specific disk you want to work with, selecting it from the list shown in the `/disk/print` output.
+This also applies to the next command.
 
 :::
 
