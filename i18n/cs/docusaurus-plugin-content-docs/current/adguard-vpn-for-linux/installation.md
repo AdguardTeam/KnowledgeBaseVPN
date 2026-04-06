@@ -33,6 +33,10 @@ Stisknutím `y` odsouhlasíte propojení binárního souboru s `/usr/local/bin` 
 Podpis můžete ověřit pomocí nástroje `gpg`, abyste prokázali, že se jedná o oficiální verzi AdGuard VPN. [Více na GitHubu](https://github.com/AdguardTeam/AdGuardVPNCLI?tab=readme-ov-file#verify-releases)
 :::
 
+:::note
+You can also install and run the AdGuard VPN for Linux Docker container on MikroTik routers with RouterOS. For more information and detailed instructions, refer to [our dedicated guide](/adguard-vpn-for-linux/setting-up-on-a-router/mikrotik/).
+:::
+
 ## Odinstalace AdGuard VPN pro Linux
 
 Chcete-li odinstalovat AdGuard VPN, zadejte:

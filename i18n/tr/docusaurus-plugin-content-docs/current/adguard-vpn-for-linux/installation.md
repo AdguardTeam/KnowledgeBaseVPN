@@ -33,6 +33,10 @@ Gerekirse, yönetici parolanızı girin.
 AdGuard VPN'in resmi bir sürümü olduğunu kanıtlamak için `gpg` aracını kullanarak imzayı doğrulayabilirsiniz. [GitHub'da daha fazlasını okuyun](https://github.com/AdguardTeam/AdGuardVPNCLI?tab=readme-ov-file#verify-releases)
 :::
 
+:::note
+You can also install and run the AdGuard VPN for Linux Docker container on MikroTik routers with RouterOS. For more information and detailed instructions, refer to [our dedicated guide](/adguard-vpn-for-linux/setting-up-on-a-router/mikrotik/).
+:::
+
 ## Linux için AdGuard VPN'i kaldırma
 
 AdGuard VPN'i kaldırmak için şunu yazın:
