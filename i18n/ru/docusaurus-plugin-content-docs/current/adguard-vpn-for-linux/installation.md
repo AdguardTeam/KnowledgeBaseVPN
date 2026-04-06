@@ -33,6 +33,10 @@ curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/sc
 Вы можете проверить подпись и убедиться, что это официальная версия AdGuard VPN, используя инструмент `gpg`. [Подробнее на GitHub](https://github.com/AdguardTeam/AdGuardVPNCLI?tab=readme-ov-file#verify-releases)
 :::
 
+:::note
+You can also install and run the AdGuard VPN for Linux Docker container on MikroTik routers with RouterOS. For more information and detailed instructions, refer to [our dedicated guide](/adguard-vpn-for-linux/setting-up-on-a-router/mikrotik/).
+:::
+
 ## Удалите AdGuard VPN для Linux
 
 Чтобы удалить AdGuard VPN, введите:
