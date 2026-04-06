@@ -196,6 +196,12 @@ Set Docker Hub URL and temporary directory for image extraction
 /container/config/set registry-url=https://registry-1.docker.io tmpdir=disk1/tmp
 ```
 
+:::note
+
+Replace `disk1` with `usb1` if you use external USB flash drive.
+
+:::
+
 #### 2. Add the container and pull the image
 
 ```bash
