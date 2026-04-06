@@ -42,4 +42,4 @@ Wenn Sie sich entschieden haben, AdGuard VPN für iOS zu löschen, suchen und ha
 
 ![Entfernen *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/quick-action-menu.png)
 
-Weitere Informationen über die AdGuard VPN-App für iOS finden Sie in [diesem Artikel](adguard-vpn-for-ios/overview).
+You can learn more about the AdGuard VPN app for iOS in [this article](/adguard-vpn-for-ios/overview).
