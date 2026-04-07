@@ -42,4 +42,4 @@ iOS için AdGuard VPN'i silmeye karar verdiyseniz, ana ekranda simgesini bulun v
 
 ![Kaldır *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/quick-action-menu.png)
 
-You can learn more about the AdGuard VPN app for iOS in [this article](/adguard-vpn-for-ios/overview).
+[Bu makalede](/adguard-vpn-for-ios/overview) iOS için AdGuard VPN uygulaması hakkında daha fazla bilgi edinebilirsiniz.
