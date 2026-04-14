@@ -41,7 +41,9 @@ To view available locations, type:
 
 To connect to a specific location, type:
 
-    adguardvpn-cli connect -l <location>
+```shell
+adguardvpn-cli connect -l <location>
+```
 
 Replace `<location>` with the city, country, or ISO code of the location you want to connect to.
 
