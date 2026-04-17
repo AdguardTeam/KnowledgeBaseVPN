@@ -51,7 +51,7 @@ adguardvpn-cli list-locations
 
 Chcete-li se připojit k určitému umístění, zadejte:
 
-```
+```shell
 adguardvpn-cli connect -l <location>
 ```
 

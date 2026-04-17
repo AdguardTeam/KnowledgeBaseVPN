@@ -69,13 +69,13 @@ AdGuard VPN CLI poskytuje proxy TCP i UDP v režimu SOCKS5. Některé aplikace v
 
 Chcete-li nastavit port SOCKS5, zadejte:
 
-```
+```shell
 adguardvpn-cli config set-socks-host <host>
 ```
 
 Nahraďte `<host>` hostitelem, kterého chcete použít. Použití jiného hostitele než 127.0.0.1 vyžaduje nastavení uživatelského jména a hesla. Chcete-li nastavit uživatelské jméno a heslo SOCKS, zadejte:
 
-```
+```shell
 adguardvpn-cli config set-socks-username <username>
 adguardvpn-cli config set-socks-password <password>
 ```
@@ -88,7 +88,7 @@ adguardvpn-cli config clear-socks-auth
 
 Chcete-li nastavit port SOCKS5, zadejte:
 
-```
+```shell
 adguardvpn-cli config set-socks-port <port_number>
 ```
 
@@ -98,7 +98,7 @@ Nahraďte `<port_number>` portem, ke kterému se chcete připojit.
 
 Chcete-li nastavit odchozí DNS, zadejte:
 
-```
+```shell
 adguardvpn-cli config set-dns <server_address>
 ```
 
@@ -236,7 +236,7 @@ Chcete-li to zakázat, nastavte na `off`.
 
 Chcete-li změnit kanál aktualizace, zadejte:
 
-```
+```shell
 adguardvpn-cli config set-update-channel <channel>
 ```
 

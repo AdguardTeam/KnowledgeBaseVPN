@@ -28,7 +28,7 @@ sidebar_position: 6
 
    Логи по умолчанию будут загружены в папку приложения, путь к логам будет прописан в консоли.
 
-4. Отправьте файлс c логами на [devteam@adguard.com](mailto:devteam@adguard.com). Укажите время ошибки и прикрепите ссылку на вашу задачу GitHub или её номер (она отображается как #число рядом с заголовком). Кроме того, вы можете загрузить файл с логами на Google Диск и отправить его на [devteam@adguard.com](mailto:devteam@adguard.com). Добавьте ссылку на файл к задаче на GitHub.
+4. Send the log file to [devteam@adguard.com](mailto:devteam@adguard.com). Укажите время ошибки и прикрепите ссылку на вашу задачу GitHub или её номер (она отображается как #число рядом с заголовком). Alternatively, you can upload the log file to Google Drive and share it with [devteam@adguard.com](mailto:devteam@adguard.com). Добавьте ссылку на файл к задаче на GitHub.
 
 5. Отключите отладочные логи, набрав:
 

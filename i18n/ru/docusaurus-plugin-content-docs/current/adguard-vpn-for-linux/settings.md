@@ -69,13 +69,13 @@ AdGuard VPN CLI проксирует TCP и UDP в режиме SOCKS5. Одна
 
 Чтобы установить порт SOCKS, введите:
 
-```
+```shell
 adguardvpn-cli config set-socks-host <host>
 ```
 
 Замените `<host>` на порт, который хотите использовать. Для использования хоста, отличного от 127.0.0.1, необходимо задать имя пользователя и пароль. Чтобы установить имя пользователя и пароль SOCKS, введите:
 
-```
+```shell
 adguardvpn-cli config set-socks-username <username>
 adguardvpn-cli config set-socks-password <password>
 ```
@@ -88,7 +88,7 @@ adguardvpn-cli config clear-socks-auth
 
 Чтобы установить порт SOCKS5, введите:
 
-```
+```shell
 adguardvpn-cli config set-socks-port <port_number>
 ```
 
@@ -98,7 +98,7 @@ adguardvpn-cli config set-socks-port <port_number>
 
 Для установки DNS-сервера введите:
 
-```
+```shell
 adguardvpn-cli config set-dns <server_address>
 ```
 
@@ -234,7 +234,7 @@ adguardvpn-cli config send-reports on
 
 Чтобы изменить канал обновления, введите:
 
-```
+```shell
 adguardvpn-cli config set-update-channel <channel>
 ```
 

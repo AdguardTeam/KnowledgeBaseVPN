@@ -69,13 +69,13 @@ AdGuard VPN CLI provides both TCP and UDP proxying in SOCKS5 mode. However, some
 
 SOCKS dinleme ana makinesini ayarlamak için şunu yazın:
 
-```
+```shell
 adguardvpn-cli config set-socks-host <host>
 ```
 
 `<host>` yerine kullanmak istediğiniz ana makineyi yazın. 127.0.0.1 dışındaki bir ana makineyi kullanmak için kullanıcı adı ve parola ayarlanması gerekir. SOCKS kullanıcı adı ve parolasını ayarlamak için şunu yazın:
 
-```
+```shell
 adguardvpn-cli config set-socks-username <username>
 adguardvpn-cli config set-socks-password <password>
 ```
@@ -88,7 +88,7 @@ adguardvpn-cli config clear-socks-auth
 
 SOCKS5 bağlantı noktasını ayarlamak için şunu yazın:
 
-```
+```shell
 adguardvpn-cli config set-socks-port <port_number>
 ```
 
@@ -98,7 +98,7 @@ adguardvpn-cli config set-socks-port <port_number>
 
 DNS üst kaynağını ayarlamak için şunu yazın:
 
-```
+```shell
 adguardvpn-cli config set-dns <server_address>
 ```
 
@@ -236,7 +236,7 @@ To disable it, set it to `off`.
 
 To change the update channel, type:
 
-```
+```shell
 adguardvpn-cli config set-update-channel <channel>
 ```
 

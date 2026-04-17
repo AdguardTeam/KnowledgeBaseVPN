@@ -49,4 +49,4 @@ Laden Sie die Installationsdatei von der [Spiegelseite von AdGuard VPN](https://
 
 - Wenn Sie Verbindungsprobleme haben, aktivieren Sie nicht *QUIC verwenden* in *Erweiterte Einstellungen*.
 
-Wenn alles andere fehlschlägt, zögern Sie nicht, sich an unser Support-Team unter [support@adguard-vpn.com](mailto:support@adguard-vpn.com) zu wenden.
+If all else fails, don’t hesitate to reach out to our support team at [support@adguard-vpn.com](mailto:support@adguard-vpn.com) for further assistance.
