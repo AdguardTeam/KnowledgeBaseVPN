@@ -28,7 +28,7 @@ Wenn Sie die Implementierung einer neuen Funktion oder Fehlerbehebung unterstüt
 
    The logs will be downloaded by default to the application folder, the path to the logs will be written in the console.
 
-4. Senden Sie die Protokolldatei an [devteam@adguard.com](mailto:devteam@adguard.com). Specify the time of the error and attach a link to your GitHub issue or its number (it appears as #number next to the title). Alternativ können Sie die Protokolldatei auf Google Drive hochladen und sie mit [devteam@adguard.com](mailto:devteam@adguard.com) teilen. Attach the file link to your GitHub issue.
+4. Send the log file to [devteam@adguard.com](mailto:devteam@adguard.com). Specify the time of the error and attach a link to your GitHub issue or its number (it appears as #number next to the title). Alternatively, you can upload the log file to Google Drive and share it with [devteam@adguard.com](mailto:devteam@adguard.com). Attach the file link to your GitHub issue.
 
 5. Disable debug logging by typing:
 

@@ -49,4 +49,4 @@ Kurulum dosyasını [AdGuard VPN'in yansıtma sitesinden](https://adguard-vpn.cc
 
 - Bağlantı sorunlarınız varsa, *Gelişmiş ayarlar* bölümünde *QUIC'i kullan* öğesini seçeneğini etkinleştirmeyin.
 
-Her şey yolunda gitmezse, daha fazla yardım için [support@adguard-vpn.com](mailto:support@adguard-vpn.com) adresinden destek ekibimizle iletişime geçmekten çekinmeyin.
+If all else fails, don’t hesitate to reach out to our support team at [support@adguard-vpn.com](mailto:support@adguard-vpn.com) for further assistance.
