@@ -49,4 +49,4 @@ Stáhněte si instalační soubor ze [zrcadleného webu AdGuard VPN](https://adg
 
 - Máte-li problémy s připojením, nepovolujte *Používat QUIC* v *Pokročilých nastavení*.
 
-Pokud vše ostatní selže, neváhejte se obrátit na náš tým podpory na <support@adguard-vpn.com> s žádostí o další pomoc.
+Pokud vše ostatní selže, neváhejte se obrátit na náš tým podpory na [support@adguard-vpn.com](mailto:support@adguard-vpn.com) s žádostí o další pomoc.

@@ -28,7 +28,7 @@ Pokud chcete podpořit zavedení nové funkce nebo opravu chyby, můžete pro to
 
    Protokoly budou ve výchozím nastavení staženy do složky aplikace, cesta k protokolům bude zapsána v konzoli.
 
-4. Odešlete soubor se záznamem na <devteam@adguard.com>. Uveďte čas chyby a připojte odkaz na problém nebo jeho číslo na GitHubu (zobrazuje se jako #číslo vedle názvu). Soubor se záznamem můžete také nahrát na Disk Google a odeslat jej na <devteam@adguard.com>. Přiložte odkaz na soubor do svého problému na GitHubu.
+4. Odešlete soubor se záznamem na [devteam@adguard.com](mailto:devteam@adguard.com). Uveďte čas chyby a připojte odkaz na problém nebo jeho číslo na GitHubu (zobrazuje se jako #číslo vedle názvu). Soubor se záznamem můžete také nahrát na Disk Google a odeslat jej na [devteam@adguard.com](mailto:devteam@adguard.com). Přiložte odkaz na soubor do svého problému na GitHubu.
 
 5. Vypněte protokolování ladění zadáním:
 
