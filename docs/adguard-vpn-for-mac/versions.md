@@ -9,7 +9,7 @@ AdGuard VPN for Mac is available to download from two sources: our [official web
 
 ## Subscription plans and payment methods
 
-Both the standalone and Mac App Store versions of AdGuard VPN for Mac require a subscription to access all paid features. You can use AdGuard VPN for Mac without purchasing a subscription, but some functions will be limited. The available plans and payment methods differ depending on where you download the app: 
+Both the standalone and Mac App Store versions of AdGuard VPN for Mac require a subscription to access all paid features. You can use AdGuard VPN for Mac without purchasing a subscription, but some functions will be limited. The available plans and payment methods differ depending on where you download the app:
 
 - One-month subscription: available on both platforms
 - One-year subscription: available on both platforms
@@ -27,7 +27,7 @@ After completing the purchase, we recommend binding the license to your email ad
 
 All devices activated by your license, regardless of which version you use, will appear in your AdGuard account as usual.
 
-## Apple’s policies 
+## Apple’s policies
 
 Because of Apple’s App Store restrictions, some traffic attribution features work differently in the Mac App Store version. As a result, *Statistics* and app exclusions are not available in the current MAS version. We are working to get these features back in the future versions of the app.
 
