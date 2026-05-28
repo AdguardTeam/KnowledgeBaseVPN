@@ -1,22 +1,22 @@
 ---
-title: How to install AdGuard VPN CLI on MikroTik RouterOS
+title: Как установить AdGuard VPN CLI на роутеры MikroTik с RouterOS
 sidebar_position: 5
 ---
 
-:::info System requirements
+:::info Системные требования
 
-- RouterOS 7.6+ with Container feature and start-on-boot support
-- SSH access to the router
+- RouterOS 7.6+ с функцией Container и поддержкой запуска при загрузке
+- SSH-доступ к роутеру
 
-:::info
+:::
 
-This guide explains how to install and run the AdGuard VPN CLI Docker container on MikroTik routers running RouterOS.
+В этом руководстве объясняется, как установить и запустить Docker-контейнер AdGuard VPN CLI на роутерах MikroTik на базе RouterOS.
 
-These settings have been tested on RouterOS 7.22. It is recommended to use the latest stable version of RouterOS for better compatibility.
+Эти настройки были протестированы на RouterOS 7.22. Рекомендуется использовать последнюю стабильную версию RouterOS для лучшей совместимости.
 
-## RouterOS Configuration
+## Конфигурация RouterOS
 
-### 1. Connect to the router via SSH
+### 1. Подключитесь к роутеру через SSH
 
 ```bash
 ssh admin@192.168.1.1
@@ -24,57 +24,57 @@ ssh admin@192.168.1.1
 
 :::note
 
-Replace the IP with your router's address
+Замените IP на адрес вашего роутера
 
 :::
 
-### 2. Check if the container package is installed
+### 2. Проверьте, установлен ли пакет контейнера
 
 ```bash
 /system/package/print
 ```
 
-Find the `container` package in the list. If it's not there, install it:
+Найдите пакет `container` в списке. Если его там нет, установите его:
 
-#### Installing container package
+#### Установка пакета контейнера
 
-1. Download the `.npk` file for your architecture and OS version from [the official website](https://mikrotik.com/download)
+1. Скачайте файл `.npk` для вашей архитектуры и версии ОС с [официального сайта](https://mikrotik.com/download)
 
-2. Upload the `.npk` file to the router:
+2. Загрузите файл `.npk` на роутер:
 
     ```bash
     scp container-7.X-platform.npk admin@192.168.1.1:
     ```
 
-   Replace the IP with your router's address.
+   Замените IP на адрес вашего роутера.
 
-3. Verify the file is uploaded:
+3. Убедитесь, что файл загружен:
 
     ```bash
     /file/print
     ```
 
-   You should see the `container-X.XX.npk` file.
+   Вы должны увидеть файл `container-X.XX.npk`.
 
-4. Reboot the router:
+4. Перезагрузите роутер:
 
     ```bash
     /system/reboot
     ```
 
-   After reboot, the `.npk` file will disappear. This is expected, it means the package was succesfully installed.
+   После перезагрузки файл `.npk` исчезнет. Это поведение ожидаемо. Оно означает, что пакет был успешно установлен.
 
-5. Verify:
+5. Проверьте:
 
     ```bash
     /system/package/print
     ```
 
-   The `container` package should appear in the list.
+   Пакет `container` должен появиться в списке.
 
-### 3) Enable Container mode
+### 3) Включите режим Container
 
-Enable Container mode and follow the instructions the command gives you. You will need to confirm the device-mode change by performing a cold reboot (physically unplugging and replugging the power).
+Включите режим контейнера и следуйте указаниям команды. Для подтверждения изменения режима работы устройства потребуется выполнить холодную перезагрузку (физически отключить и снова подключить питание).
 
 ```bash
 /system/device-mode/update container=yes

@@ -33,7 +33,7 @@ Ein VPN erstellt einen Tunnel zwischen Ihrem Gerät und dem VPN-Server. Ihre Dat
 
 VPN-Sicherheitsprotokolle sind Tools, die Daten in einem VPN-Tunnel verschlüsseln und es Ihnen ermöglichen, Ihre Privatsphäre im offenen Internet zu wahren. Gegenwärtig verwenden die meisten modernen VPN-Dienste eines der folgenden drei VPN-Protokolle:
 
-1. [_IPSec_](https://de.wikipedia.org/wiki/IPsec). Einer der Hauptvorteile besteht darin, dass es auf den meisten Geräten und Betriebssystemen verfügbar ist und ein hohes Maß an Sicherheit bietet. Die Verwendung der doppelten [Verkapselung](https://de.wikipedia.org/wiki/Datenkapselung_\(Netzwerktechnik\)) in diesem Protokoll kann jedoch zu einer geringeren Verbindungsgeschwindigkeit führen.
+1. [_IPSec_](https://de.wikipedia.org/wiki/IPsec). Einer der Hauptvorteile besteht darin, dass es auf den meisten Geräten und Betriebssystemen verfügbar ist und ein hohes Maß an Sicherheit bietet. Die Verwendung der doppelten [Verkapselung](https://de.wikipedia.org/wiki/Datenkapselung_(Netzwerktechnik)) in diesem Protokoll kann jedoch zu einer geringeren Verbindungsgeschwindigkeit führen.
 
 2. [_OpenVPN_](https://de.wikipedia.org/wiki/OpenVPN). Dieses moderne Protokoll ist quelloffen, so dass Hersteller von Drittanbietern die Technologie verbessern und aktualisieren können.
 
