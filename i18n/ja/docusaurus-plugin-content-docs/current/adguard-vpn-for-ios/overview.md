@@ -26,9 +26,9 @@ AdGuard VPN の使い方は非常に簡単です。 ホーム画面には、*接
 
 pingはサーバーの応答時間をミリ秒（ms）単位で示す値です。 つまり、そのロケーションに接続した際のVPN通信速度を示す数字なのです。 例えば、pingが 22 ms の場合、このサーバーに送信されたデータパケットは22ミリ秒で返ってくることを意味します。
 
-With AdGuard VPN, you can choose from over 85 locations in dozens of countries.
+AdGuard VPNでは、数十ヶ国、85ヶ所以上のロケーションから選んで接続することができます。
 
-![Home and locations *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.7/home-locations-vpn-ios_ja.png)
+![ホーム画面とロケーション *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.7/home-locations-vpn-ios_ja.png)
 
 ## VPN対象外リスト（除外機能）
 
@@ -38,52 +38,52 @@ With AdGuard VPN, you can choose from over 85 locations in dozens of countries.
 
 :::note
 
-Each mode has its own exclusion list.
+各モードにはそれぞれ独自の除外リストがあります。
 
 :::
 
-You can add domains (e.g., `google.com`) or subdomains (e.g., `news.google.com`) of websites to the lists in three ways:
+ウェブサイトのドメイン（例：`google.com`）やサブドメイン（例：`news.google.com`）を、3つの方法でリストに追加できます：
 
-- Enter them manually in the app
-- [Choose from domain lists for popular services](#domain-lists-for-popular-services)
-- Add them directly from the browser by sharing the desired pages to the AdGuard VPN app
+- 手動で入力する
+- [人気サービスのドメインリストから選択する](#domain-lists-for-popular-services)
+- ブラウザから直接、除外したいウェブサイトのページをAdGuard VPNアプリに共有する
 
 ![VPN対象外リスト *mobile_border](https://cdn.adguard-vpn.com/blog/new/lpjs7iexclusions-as-of-v2-4.png)
 
-When you manually add a domain, all subdomains are added automatically (it looks like `*.google.com`). Want to keep only google.com or turn VPN off for a specific domain? Tap the line with the website — this will open a separate screen where you can manage subdomains. Just uncheck the boxes for the ones you don’t need.
+手動でドメインを追加すると、すべてのサブドメインが自動的に追加されます（例：`*.google.com` のように表示されます。この場合、「google.comのすべてのサブドメイン」という意味になります）。 サブドメインを含まず、google.com のみを対象にする、または特定のドメインで VPN をオフにしたい場合は、 ウェブサイトの行をタップしますと、サブドメインを管理できる別の画面が開きます。 不要なもののチェックを外すだけで十分です。
 
-![Subdomains *mobile_border](https://cdn.adguard-vpn.com/content/release_notes/vpn/ios/v2.4/domains_en.png)
+![サブドメイン *mobile_border](https://cdn.adguard-vpn.com/content/release_notes/vpn/ios/v2.4/domains_ja.png)
 
-If you manually add a subdomain, the main domain will also be added — but the checkbox next to it will not be checked.
+サブドメインを手動で追加すると、メインドメインも追加されますが、その横のチェックボックスは自動的にチェックされません。
 
-### Domain lists for popular services
+### 人気サービスのドメインリスト
 
-Large services like Google are tricky. They usually use more than one domain — one for media files, another for the API, plus domains for different countries. For example, in the case of Google, we have 416 domains in our list — all of them need to be added to Exclusions to completely turn VPN off (or on) for the service.
+Googleのような大規模サービスの除外扱いは難しいです。 このようなサービスは通常、複数のドメイン（メディアファイル用に1つ、API用にもう1つ、さらに国ごとに専用ドメイン、など）を使用します。 例えば、Googleの場合、リストには416個のドメインがあり、サービスに対してVPNを完全にオフ（またはオン）にするには、それらすべてを除外リストに追加する必要があります。
 
-Here’s how to add all necessary domains for a popular service to exclusion list:
+一般的なサービスのすべてのドメインを除外リストに追加する方法は次のとおりです:
 
-1. Open *Exclusions*.
-2. Tap *Add website*.
-3. Tap *From list*.
-4. Find the desired service in the list and tap *Add*.
+1. 「*VPN対象外リスト*」を開きます。
+2. 「*ウェブサイトを追加する*」をタップします。
+3. 「*リストから*」をタップします。
+4. 一覧で必要なサービスを見つけ、「*追加する*」をタップします。
 
-![List of popular services *mobile_border](https://cdn.adguard-vpn.com/content/release_notes/vpn/ios/v2.4/add_website_en.png)
+![人気のサービス一覧 *mobile_border](https://cdn.adguard-vpn.com/content/release_notes/vpn/ios/v2.4/add_website_ja.png)
 
-### Import/export exclusions
+### VPN対象外リストのインポート・エクスポート
 
-Another useful feature is the import and export of exclusion lists. This way you can share exclusion lists from and to other devices.
+もう一つの便利な機能は、除外リストのインポート・エクスポートです。 この方法で、他のデバイスとの間で除外リストを共有できます。
 
-You can do it in four steps:
+手順は以下の4ステップです：
 
-1. Open AdGuard VPN on the device from where you want to export your lists of exclusions. 「VPN対象外リスト」画面右上の３点アイコンをタップして、「*対象外項目をエクスポート*」ボタンをタップします。 `exclusions.zip` というアーカイブがダウンロードされます。
+1. 除外リストのエクスポート元となる端末で AdGuard VPN を開きます。 「VPN対象外リスト」画面右上の３点アイコンをタップして、「*対象外項目をエクスポート*」ボタンをタップします。 `exclusions.zip` というアーカイブがダウンロードされます。
 
 2. アーカイブ内には、 `.txt` ファイルが2つあります（レギュラーリスト用と指定リスト用のファイルです）。 アーカイブのファイルに、さらに除外項目を追加したり、既存のものを削除したり、ファイル名を変更したり（これについては下記もご確認ください）、そのままにしておいたり、自由にカスタマイズできます。
 
-3. When transferring between different devices, don’t forget to send the `.zip` file to the device for import. （例えば、Macからの除外リストをiOS端末にインポートする場合、事前に `.zip` ファイルをiOS端末に送信しておいてください。）
+3. 異なる端末間で除外リストを移行する場合は、インポート先端末に `.zip` ファイルを送信することを忘れずに。 （例えば、Macからの除外リストをiOS端末にインポートする場合、事前に `.zip` ファイルをiOS端末に送信しておいてください。）
 
 4. 除外リストのアーカイブをインポートしたい端末でAdGuard VPNを開きます。 「VPN対象外リスト」画面右上の３点アイコンをタップして、「*対象外項目をインポート*」ボタンをタップします。
 
-**In AdGuard VPN for iOS, the export and import features can be accessed by tapping the three-dot icon in the upper right corner of the Exclusions screen**.
+**AdGuard VPN for iOS では、VPN対象外リスト画面の右上にある「︙」アイコンをタップすることで、エクスポートとインポート機能にアクセスできます**。
 
 ![VPN対象外項目のインポート・エクスポート *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/exclusions-3dot-menu.png)
 
@@ -93,7 +93,7 @@ You can do it in four steps:
 
 ロケーションを「*お気に入り*」に追加するには、そのロケーションを左にスワイプします。 「*お気に入り*」からロケーションを削除する場合も、同じく左にスワイプします。
 
-![Saved locations add remove *mobile](https://cdn.adtidy.org/content/release_notes/vpn/ios/v2.7/iosvpn-saved-locations-add-remove.gif)
+![お気に入りロケーションの追加・削除 *mobile](https://cdn.adtidy.org/content/release_notes/vpn/ios/v2.7/iosvpn-saved-locations-add-remove.gif)
 
 ## General settings
 
