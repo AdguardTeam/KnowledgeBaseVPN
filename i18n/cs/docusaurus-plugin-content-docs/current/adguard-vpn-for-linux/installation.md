@@ -34,7 +34,7 @@ Podpis můžete ověřit pomocí nástroje `gpg`, abyste prokázali, že se jedn
 :::
 
 :::note
-You can also install and run the AdGuard VPN for Linux Docker container on MikroTik routers with RouterOS. For more information and detailed instructions, refer to [our dedicated guide](/adguard-vpn-for-linux/setting-up-on-a-router/mikrotik/).
+Zásobník AdGuard VPN pro Linux Docker můžete nainstalovat a spustit také na routerech MikroTik se systémem RouterOS. Další informace a podrobné pokyny naleznete v [našem specializovaném průvodci](/adguard-vpn-for-linux/setting-up-on-a-router/mikrotik/).
 :::
 
 ## Odinstalace AdGuard VPN pro Linux

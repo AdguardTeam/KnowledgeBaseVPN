@@ -1,22 +1,22 @@
 ---
-title: How to install AdGuard VPN CLI on MikroTik RouterOS
+title: Как установить AdGuard VPN CLI на роутеры MikroTik с RouterOS
 sidebar_position: 5
 ---
 
-:::info System requirements
+:::info Системные требования
 
-- RouterOS 7.6+ with Container feature and start-on-boot support
-- SSH access to the router
+- RouterOS 7.6+ с функцией Container и поддержкой запуска при загрузке
+- SSH-доступ к роутеру
 
-:::info
+:::
 
-This guide explains how to install and run the AdGuard VPN CLI Docker container on MikroTik routers running RouterOS.
+В этом руководстве объясняется, как установить и запустить Docker-контейнер AdGuard VPN CLI на роутерах MikroTik на базе RouterOS.
 
-These settings have been tested on RouterOS 7.22. It is recommended to use the latest stable version of RouterOS for better compatibility.
+Эти настройки были протестированы на RouterOS 7.22. Рекомендуется использовать последнюю стабильную версию RouterOS для лучшей совместимости.
 
-## RouterOS Configuration
+## Конфигурация RouterOS
 
-### 1. Connect to the router via SSH
+### 1. Подключитесь к роутеру через SSH
 
 ```bash
 ssh admin@192.168.1.1
@@ -24,57 +24,57 @@ ssh admin@192.168.1.1
 
 :::note
 
-Replace the IP with your router's address
+Замените IP на адрес вашего роутера
 
 :::
 
-### 2. Check if the container package is installed
+### 2. Проверьте, установлен ли пакет контейнера
 
 ```bash
 /system/package/print
 ```
 
-Find the `container` package in the list. If it's not there, install it:
+Найдите пакет `container` в списке. Если его там нет, установите его:
 
-#### Installing container package
+#### Установка пакета контейнера
 
-1. Download the `.npk` file for your architecture and OS version from [the official website](https://mikrotik.com/download)
+1. Скачайте файл `.npk` для вашей архитектуры и версии ОС с [официального сайта](https://mikrotik.com/download)
 
-2. Upload the `.npk` file to the router:
+2. Загрузите файл `.npk` на роутер:
 
     ```bash
     scp container-7.X-platform.npk admin@192.168.1.1:
     ```
 
-   Replace the IP with your router's address.
+   Замените IP на адрес вашего роутера.
 
-3. Verify the file is uploaded:
+3. Убедитесь, что файл загружен:
 
     ```bash
     /file/print
     ```
 
-   You should see the `container-X.XX.npk` file.
+   Вы должны увидеть файл `container-X.XX.npk`.
 
-4. Reboot the router:
+4. Перезагрузите роутер:
 
     ```bash
     /system/reboot
     ```
 
-   After reboot, the `.npk` file will disappear. This is expected, it means the package was succesfully installed.
+   После перезагрузки файл `.npk` исчезнет. Это поведение ожидаемо. Оно означает, что пакет был успешно установлен.
 
-5. Verify:
+5. Проверьте:
 
     ```bash
     /system/package/print
     ```
 
-   The `container` package should appear in the list.
+   Пакет `container` должен появиться в списке.
 
-### 3) Enable Container mode
+### 3) Включите режим Container
 
-Enable Container mode and follow the instructions the command gives you. You will need to confirm the device-mode change by performing a cold reboot (physically unplugging and replugging the power).
+Включите режим контейнера и следуйте указаниям команды. Для подтверждения изменения режима работы устройства потребуется выполнить холодную перезагрузку (физически отключить и снова подключить питание).
 
 ```bash
 /system/device-mode/update container=yes
@@ -82,64 +82,64 @@ Enable Container mode and follow the instructions the command gives you. You wil
 
 :::warning
 
-Do not close the terminal or interrupt the command before unplugging the power — this will cancel the operation.
+Не закрывайте терминал и не прерывайте выполнение команды до отключения питания — это приведет к отмене операции.
 
 :::
 
-### 4. Verify that container mode is active
+### 4. Убедитесь, что режим контейнера активен
 
 ```bash
 /system/device-mode/print
 ```
 
-Should show `container: yes`
+Должно отобразиться `container: yes`
 
-### 5. Set up networking for the container
+### 5. Настройте сеть для контейнера
 
-#### How it works
+#### Как это работает
 
-In this setup:
+В этой настройке:
 
-- The container acts as a VPN gateway
-- RouterOS routes selected traffic through a separate routing table (`via_vpn`)
-- Traffic is forwarded to the container and then tunneled via AdGuard VPN
+- Контейнер выступает в качестве VPN-шлюза
+- RouterOS направляет выбранный трафик через отдельную таблицу маршрутизации (`via_vpn`)
+- Трафик перенаправляется в контейнер, а затем туннелируется через AdGuard VPN
 
-Flow:
+Поток:
 
-LAN → RouterOS → Routing rule → Container → VPN → Internet
+LAN → RouterOS → Правило маршрутизации → Контейнер → VPN → Интернет
 
 :::warning
 
-This setup routes all LAN traffic through the VPN container.
-If misconfigured, it may disrupt network connectivity or cause loss of internet access.
+Эта настройка направляет весь LAN-трафик через VPN-контейнер.
+Неправильная конфигурация может привести к нарушению сетевого соединения или потере доступа в интернет.
 
 :::
 
-Create a veth interface:
+Создайте интерфейс veth:
 
 ```bash
 /interface/veth/add name=veth1 address=172.17.0.2/24 gateway=172.17.0.1
 ```
 
-Create a bridge:
+Создайте мост:
 
 ```bash
 /interface/bridge/add name=docker
 ```
 
-Add veth to bridge:
+Добавьте veth в мост:
 
 ```bash
 /interface/bridge/port/add bridge=docker interface=veth1
 ```
 
-Assign an IP address to the bridge:
+Назначьте мосту IP-адрес:
 
 ```bash
 /ip/address/add address=172.17.0.1/24 interface=docker
 ```
 
-Configure NAT for container internet access:
+Настройте NAT для доступа контейнера к интернету:
 
 ```bash
 /ip/firewall/nat/add chain=srcnat src-address=172.17.0.0/24 out-interface=ether1 action=masquerade
@@ -147,26 +147,26 @@ Configure NAT for container internet access:
 
 :::note
 
-Replace `ether1` with the name of your WAN interface (e.g. `ether3`, `ether5`). To find it:
+Замените `ether1` на имя вашего WAN-интерфейса (например, `ether3`, `ether5`). Чтобы найти его:
 
-1. Run `/ip/route/print` and find the default route (`0.0.0.0/0`, routing-table=main) — note its gateway IP
-2. In the same output, find the connected route (`DAc`) that covers that gateway IP — the interface listed there is your WAN interface
+1. Выполните `/ip/route/print` и найдите маршрут по умолчанию (`0.0.0.0/0`, routing-table=main) — запишите IP-адрес шлюза
+2. В том же выводе найдите подключённый маршрут ('DAc'), который покрывает IP-адрес этого шлюза. Указанный там интерфейс — это ваш WAN-интерфейс
 
 :::
 
-Create routing table for VPN
+Создайте таблицу маршрутизации для VPN
 
 ```bash
 /routing/table/add name=via_vpn fib
 ```
 
-Add a default route via the container
+Добавьте маршрут по умолчанию через контейнер
 
 ```bash
 /ip/route/add dst-address=0.0.0.0/0 gateway=172.17.0.2@main routing-table=via_vpn distance=1 check-gateway=ping
 ```
 
-Add a routing rule
+Добавьте правило маршрутизации
 
 ```bash
 /routing/rule/add src-address=192.168.88.0/24 action=lookup table=via_vpn
@@ -174,23 +174,23 @@ Add a routing rule
 
 :::note
 
-Replace the IP with your LAN network address
+Замените IP на адрес вашей локальной сети
 
 :::
 
-Set DNS servers for LAN clients to a public DNS
+Настройте DNS-серверы для клиентов локальной сети на общедоступные DNS-серверы
 
 ```bash
 /ip/dhcp-server/network/set [find address="192.168.88.0/24"] dns-server=1.1.1.1,8.8.8.8
 ```
 
-## Running the Container
+## Запуск контейнера
 
-### Pull image directly from Docker Hub
+### Загрузите образ напрямую из Docker Hub
 
-#### 1. Configure Container registry
+#### 1. Настройте реестр контейнеров
 
-Set Docker Hub URL and temporary directory for image extraction
+Задайте URL-адрес Docker Hub и временную директорию для извлечения образа
 
 ```bash
 /container/config/set registry-url=https://registry-1.docker.io tmpdir=disk1/tmp
@@ -198,145 +198,145 @@ Set Docker Hub URL and temporary directory for image extraction
 
 :::note
 
-Replace `disk1` with the name of the specific disk you want to work with, selecting it from the list shown in the `/disk/print` output.
-This also applies to the next command.
+Замените `disk1` на имя конкретного диска, с которым вы хотите работать. Выберите его из списка, отображённого в выводе команды `/disk/print`.
+Это также относится к следующей команде.
 
 :::
 
-#### 2. Add the container and pull the image
+#### 2. Добавьте контейнер и загрузите образ
 
 ```bash
 /container/add name=adguardvpn-cli remote-image=adguard/adguardvpn-cli:latest interface=veth1 root-dir=disk1/adguardvpn-cli start-on-boot=yes logging=yes
 ```
 
-**Available tags:**
+**Доступные теги:**
 
-- `adguard/adguardvpn-cli:latest` - latest stable version
-- `adguard/adguardvpn-cli:nightly` - latest nightly build
-- `adguard/adguardvpn-cli:beta` - latest beta version
-- `adguard/adguardvpn-cli:1.7.6-nightly` - specific version
+- `adguard/adguardvpn-cli:latest` — последняя стабильная версия
+- `adguard/adguardvpn-cli:nightly` — последняя nightly-сборка
+- `adguard/adguardvpn-cli:beta` — последняя бета-версия
+- `adguard/adguardvpn-cli:1.7.6-nightly` — конкретная версия
 
-**Parameters:**
+**Параметры:**
 
-- `name=adguardvpn-cli` - container name
-- `remote-image` - Docker Hub image name
-- `interface=veth1` - network interface for the container
-- `root-dir=disk1/adguardvpn-cli` - directory for container files
-- `start-on-boot=yes` - auto-start on router reboot
-- `logging=yes` - enable logging
+- `name=adguardvpn-cli` — имя контейнера
+- `remote-image` — имя образа Docker Hub
+- `interface=veth1` — сетевой интерфейс для контейнера
+- `root-dir=disk1/adguardvpn-cli` — каталог для файлов контейнера
+- `start-on-boot=yes` — авто-старт при перезагрузке роутера
+- `logging=yes` — включить логирование
 
-#### 3. Check download status
+#### 3. Проверьте статус загрузки
 
 ```bash
 /container/print
 ```
 
-The image will be automatically downloaded and extracted. Wait for the download to complete (status will change to `stopped`).
+Образ будет автоматически загружен и извлечён. Дождитесь завершения загрузки (статус изменится на «остановлено»).
 
-#### 4. Start the container
+#### 4. Запустите контейнер
 
 ```bash
 /container/start adguardvpn-cli
 ```
 
-Check the container status
+Проверьте состояние контейнера
 
 ```bash
 /container/print
 ```
 
-The container should have the `R` (RUNNING) flag in the first column.
+В первом столбце контейнера должен быть установлен флаг `R` (RUNNING).
 
-## Initial Setup and AdGuard VPN CLI Authorization
+## Начальная настройка и авторизация в AdGuard VPN CLI
 
-On first launch, the container will not be able to connect to VPN as authentication is required.
+При первом запуске контейнер не сможет подключиться к VPN, так как требуется аутентификация.
 
-### 1. Open a shell inside the container
+### 1. Откройте оболочку внутри контейнера
 
 ```bash
 /container/shell adguardvpn-cli
 ```
 
-### 2. Set up AdGuard VPN CLI
+### 2. Настройте AdGuard VPN CLI
 
-1. Log in to your account
+1. Войдите в аккаунт
 
-   To use AdGuard VPN for Linux, you need an AdGuard account.
+   Чтобы использовать AdGuard VPN для Linux, вам понадобится аккаунт AdGuard.
 
-   You can sign up or log in on our [website](https://auth.adguardaccount.com/login.html) or in the Terminal.
+   Вы можете зарегистрироваться или войти [на нашем сайте](https://auth.adguard.com/login.html) или в Терминале.
 
-   To sign up or log in, type:
+   Чтобы зарегистрироваться или войти, введите:
 
     ```bash
     adguardvpn-cli login
     ```
 
-   Note: If failed to link the binary to `/usr/local/bin`, use full file path to run all commands. For example, `/opt/adguardvpn_cli/adguardvpn-cli login`
+   Примечание: если связать бинарный файл с `/usr/local/bin` не удалось, используйте полный путь к файлу для выполнения всех команд. Например, `/opt/adguardvpn_cli/adguardvpn-cli login`
 
-2. Connect to VPN
+2. Подключитесь к VPN
 
-   Select a VPN server location that best suits your needs.
+   Выберите локацию VPN-сервера, которая лучше всего соответствует вашим потребностям.
 
-   In general, the closer the server is to you, the faster the connection.
+   Как правило, чем ближе к вам сервер, тем быстрее соединение.
 
-   To view available locations, type:
+   Чтобы посмотреть доступные локации, введите:
 
     ```bash
     adguardvpn-cli list-locations
     ```
 
-   To connect to a specific location, type:
+   Чтобы подключиться к определённой локации, введите:
 
     ```bash
     adguardvpn-cli connect -l LOCATION_NAME
     ```
 
-   Replace LOCATION_NAME with the city, country, or ISO code of the location you want to connect to.
+   Замените LOCATION_NAME на город, страну или ISO-код локации на английском, к которой хотите подключиться.
 
-   For quick connect, type:
+   Для быстрого подключения введите:
 
     ```bash
     adguardvpn-cli connect
     ```
 
-   AdGuard VPN will choose the fastest location available and remember it for future quick connections.
+   AdGuard VPN выберет самую быструю локацию и запомнит её для будущих быстрых подключений.
 
-3. Adjust your settings
+3. Отрегулируйте настройки
 
-   Get a list of all available AdGuard VPN commands and customize the VPN client to your needs.
+   Получите список всех доступных команд AdGuard VPN и настройте VPN-клиент под свои нужды.
 
-   To view all commands, type:
+   Чтобы просмотреть все команды, введите:
 
     ```bash
     adguardvpn-cli --help-all
     ```
 
-   AdGuard VPN CLI will create a tun0 interface for VPN tunneling.
+   AdGuard VPN CLI создаст интерфейс tun0 для VPN-туннелирования.
 
-### 3) Exit the shell
+### 3) Выйдите из оболочки
 
 ```bash
 exit
 ```
 
-### 4. Restart the container
+### 4. Перезапустите контейнер
 
 ```bash
 /container/stop adguardvpn-cli
 /container/start adguardvpn-cli
 ```
 
-After restart, the container will automatically connect to the VPN.
+После перезапуска контейнер автоматически подключится к VPN.
 
-## Check that the VPN is working
+## Проверьте, что VPN работает
 
-### 1. Enter the container shell
+### 1. Войдите в оболочку контейнера
 
 ```bash
 /container/shell adguardvpn-cli
 ```
 
-### 2. Check VPN status
+### 2. Проверьте статус VPN
 
 ```bash
 adguardvpn-cli status
@@ -344,6 +344,6 @@ adguardvpn-cli status
 
 :::note
 
-For additional information on container configuration, networking, and alternative installation methods, see the [official MikroTik Container documentation](https://help.mikrotik.com/docs/spaces/ROS/pages/84901929/Container)
+Больше информации о конфигурации контейнера, сети и альтернативных методах установки — в [официальной документации MikroTik Container](https://help.mikrotik.com/docs/spaces/ROS/pages/84901929/Container)
 
 :::
