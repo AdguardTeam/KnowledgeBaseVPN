@@ -1,4 +1,12 @@
 {
+  "siteConfig.title": {
+    "message": "AdGuard VPN ナレッジベース（知恵袋）",
+    "description": "The site title used in the browser tab and metadata"
+  },
+  "siteConfig.tagline": {
+    "message": "AdGuard VPN のナレッジベース",
+    "description": "The site tagline used in meta description"
+  },
   "theme.NotFound.title": {
     "message": "ページが見つかりません",
     "description": "The title of the 404 page"
