@@ -1,16 +1,16 @@
 ---
-title: How to install AdGuard VPN CLI on MikroTik RouterOS
+title: Jak nainstalovat AdGuard VPN na routery MikroTik s RouterOS
 sidebar_position: 5
 ---
 
-:::info System requirements
+:::info Požadavky na systém
 
-- RouterOS 7.6+ with Container feature and start-on-boot support
-- SSH access to the router
+- RouterOS 7.6+ s funkcí Container a podporou spouštění při startu
+- SSH přístup k routeru
 
-:::info
+:::
 
-This guide explains how to install and run the AdGuard VPN CLI Docker container on MikroTik routers running RouterOS.
+V tomto návodu se dozvíte, jak nainstalovat a spustit zásobník AdGuard VPN CLI Docker na routerech MikroTik s RouterOS.
 
 These settings have been tested on RouterOS 7.22. It is recommended to use the latest stable version of RouterOS for better compatibility.
 

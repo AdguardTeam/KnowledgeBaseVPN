@@ -8,7 +8,7 @@ sidebar_position: 5
 - RouterOS 7.6+ with Container feature and start-on-boot support
 - SSH access to the router
 
-:::info
+:::
 
 This guide explains how to install and run the AdGuard VPN CLI Docker container on MikroTik routers running RouterOS.
 

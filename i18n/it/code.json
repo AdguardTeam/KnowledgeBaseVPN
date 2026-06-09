@@ -1,4 +1,12 @@
 {
+  "siteConfig.title": {
+    "message": "Nozionistica AdGuard VPN",
+    "description": "The site title used in the browser tab and metadata"
+  },
+  "siteConfig.tagline": {
+    "message": "Nozionistica per AdGuard VPN",
+    "description": "The site tagline used in meta description"
+  },
   "theme.NotFound.title": {
     "message": "Pagina non trovata",
     "description": "The title of the 404 page"

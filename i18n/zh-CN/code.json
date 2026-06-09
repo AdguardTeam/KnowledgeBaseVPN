@@ -1,4 +1,12 @@
 {
+  "siteConfig.title": {
+    "message": "Adguard VPN 知识库",
+    "description": "The site title used in the browser tab and metadata"
+  },
+  "siteConfig.tagline": {
+    "message": "AdGuard VPN 知识库",
+    "description": "The site tagline used in meta description"
+  },
   "theme.NotFound.title": {
     "message": "找不到页面",
     "description": "The title of the 404 page"
