@@ -87,7 +87,7 @@ Once profiles are set up, you can switch between them directly from the extensio
 
 The location saved in a profile will stay the same until you change it in that profile’s settings. You can still choose another location from the extension popup, but this change is temporary. If you switch profiles or reopen the browser, AdGuard VPN will use the saved location from the selected profile.
 
-Other settings work differently. If you change *WebRTC*, *DNS server*, or *Exclusions* while a profile is active, AdGuard VPN saves these changes to that profile.
+Other settings work differently. If you change *WebRTC*, *DNS server*, or *Exclusions* while a profile is active, AdGuard VPN will save these changes to that profile.
 
 :::
 
