@@ -33,7 +33,7 @@ VPN, cihazınızla VPN sunucusu arasında bir tünel oluşturur. Verileriniz bu 
 
 VPN güvenlik protokolleri, bir VPN tünelindeki verileri şifreleyen ve açık internette kullanıcı gizliliğini korumanıza olanak tanıyan araçlardır. Şu anda modern VPN hizmetlerinin büyük çoğunluğu aşağıdaki üç VPN protokolünden birini kullanıyor:
 
-1. [_IPSec_](https://en.wikipedia.org/wiki/IPsec). Başlıca avantajlarından biri, çoğu cihazda ve işletim sisteminde bulunması ve yüksek düzeyde güvenlik sağlamasıdır. Ancak, bu protokolde çift [kapsülleme](https://en.wikipedia.org/wiki/Encapsulation_\(networking\)) kullanılması daha düşük bir bağlantı hızına neden olabilir.
+1. [_IPSec_](https://en.wikipedia.org/wiki/IPsec). Başlıca avantajlarından biri, çoğu cihazda ve işletim sisteminde bulunması ve yüksek düzeyde güvenlik sağlamasıdır. Ancak, bu protokolde çift [kapsülleme](https://en.wikipedia.org/wiki/Encapsulation_(networking)) kullanılması daha düşük bir bağlantı hızına neden olabilir.
 
 2. [_OpenVPN_](https://en.wikipedia.org/wiki/OpenVPN). Bu modern protokol açık kaynaklıdır, bu nedenle üçüncü taraf üreticiler teknolojiyi iyileştirebilir ve güncelleyebilir.
 

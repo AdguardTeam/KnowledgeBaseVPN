@@ -62,7 +62,36 @@ Varsayılan olarak, İSS'niz tarafından sağlanan [sistem DNS sunucusu](https:/
 
 Learn more about [DNS servers from various providers](https://adguard-dns.io/kb/general/dns-providers/).
 
-### İstisnalar
+### Profile
+
+Profiles let you save VPN settings for different tasks and switch between them quickly. For example, you can create one profile for work, another for streaming, and another for public Wi-Fi.
+
+To create or manage profiles, click the AdGuard VPN icon on your browser’s panel → three-line menu in the upper-right corner (☰) → *Profiles*.
+
+![Profile main screen](https://cdn.adtidy.org/content/release_notes/vpn/browser_extension/2.10/profiles_en.png)
+
+You can create up to 10 profiles. Each profile can have its own name and settings:
+
+- Server location
+- WebRTC
+- DNS server
+- İstisnalar
+
+![Profile settings](https://cdn.adtidy.org/content/release_notes/vpn/browser_extension/2.10/settings_en.png)
+
+Once profiles are set up, you can switch between them directly from the extension popup.
+
+![Extension popup](https://cdn.adtidy.org/content/release_notes/vpn/browser_extension/2.10/popup_en.png)
+
+:::note
+
+The location saved in a profile will stay the same until you change it in that profile’s settings. You can still choose another location from the extension popup, but this change is temporary. If you switch profiles or reopen the browser, AdGuard VPN will use the saved location from the selected profile.
+
+Other settings work differently. If you change *WebRTC*, *DNS server*, or *Exclusions* while a profile is active, AdGuard VPN will save these changes to that profile.
+
+:::
+
+### Exclusions
 
 Bir sonraki sekme, AdGuard VPN'in ana ayırt edici özelliklerinden birini içerir — ayrı istisna listelerine sahip iki mod.
 
