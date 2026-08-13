@@ -5,7 +5,7 @@ sidebar_position: 4
 
 Вы можете управлять настройками AdGuard VPN для Linux из командной строки. Чтобы просмотреть текущую конфигурацию, введите:
 
-```
+```shell
 adguardvpn-cli config show
 ```
 
@@ -30,7 +30,7 @@ adguardvpn-cli config show
 
 Чтобы установить туннельный режим по умолчанию, введите:
 
-```
+```shell
 adguardvpn-cli config set-mode TUN
 ```
 
@@ -46,7 +46,7 @@ adguardvpn-cli config set-mode TUN
 
 Чтобы предотвратить DNS-утечки, используйте клиент, который обрабатывает имена хостов через прокси (часто обозначается как `socks5h` в таких инструментах, как `curl`). Если приложение обрабатывает имена хостов локально, системный DNS может обходить прокси.
 
-```
+```shell
 curl -x socks5://127.0.0.1:1080 https://example.com
 curl -x socks5h://127.0.0.1:1080 https://example.com
 ```
@@ -55,7 +55,7 @@ curl -x socks5h://127.0.0.1:1080 https://example.com
 
 Чтобы установить режим SOCKS5, введите:
 
-```
+```shell
 adguardvpn-cli config set-mode SOCKS
 ```
 
@@ -82,7 +82,7 @@ adguardvpn-cli config set-socks-password <password>
 
 Замените `<username>` и `<password>` на желаемые имя пользователя и пароль. Чтобы очистить имя пользователя и пароль SOCKS, введите:
 
-```
+```shell
 adguardvpn-cli config clear-socks-auth
 ```
 
@@ -104,7 +104,7 @@ adguardvpn-cli config set-dns <server_address>
 
 Замените `<server_address>` на адрес вашего DNS-сервера. Чтобы использовать этот DNS-сервер на системном уровне, введите:
 
-```
+```shell
 adguardvpn-cli config set-change-system-dns on
 ```
 
@@ -126,9 +126,9 @@ AdGuard VPN CLI открывает интерфейс TUN, но не измен�
 
 Используйте эту опцию, если хотите управлять маршрутами вручную или с помощью сторонних инструментов.
 
-Чтобы установить режим NONE (без маршрутизации), введите:
+To set the tunnel routing mode to `NONE` (no routing), type:
 
-```
+```shell
 adguardvpn-cli config set-tun-routing-mode NONE
 ```
 
@@ -140,11 +140,11 @@ AdGuard VPN CLI создаёт и поддерживает минимальны�
 - Сохранение доступа к локальным сетям (обычно подсетям RFC1918) и другим исключениям, чтобы ваша локальная сеть, принтеры и роутеры оставались доступными.
 - Реагирование на переподключения и изменения конечных точек путём повторного применения маршрутов по мере необходимости.
 
-Используйте режим AUTO, если вам нужна конфигурация, которая «просто работает», с защитой всей системы и без необходимости настройки для каждого приложения.
+Use `AUTO` if you want a “just works” configuration with system-wide protection and no per-app setup.
 
-Чтобы установить режим AUTO (автоматическая маршрутизация), введите:
+To set the tunnel routing mode to `AUTO` (automatic routing), type:
 
-```
+```shell
 adguardvpn-cli config set-tun-routing-mode AUTO
 ```
 
@@ -152,25 +152,25 @@ adguardvpn-cli config set-tun-routing-mode AUTO
 
 AdGuard VPN CLI выполняет пользовательский скрипт, который добавляет или удаляет маршруты при изменении состояния туннеля. Вы полностью контролируете, что проходит через туннель, а что нет.
 
-Чтобы установить режим SCRIPT (пользовательский скрипт маршрутизации), введите:
+To set the tunnel routing mode to `SCRIPT` (custom routing script), type:
 
-```
+```shell
 adguardvpn-cli config set-tun-routing-mode SCRIPT
 ```
 
 Чтобы создать скрипт для маршрутизации с соответствующими разрешениями, введите:
 
-```
-adguardvpn-cli config create-routes-script
+```shell
+adguardvpn-cli config create-route-script
 ```
 
-Используйте SCRIPT, если вам нужно тонкое раздельное туннелирование, корпоративные политики маршрутизации или пользовательские исключения, выходящие за рамки того, что предоставляет AUTO.
+Use `SCRIPT` if you need fine-grained split tunneling, enterprise routing policies, or custom exceptions beyond what `AUTO` provides.
 
 #### Примеры
 
 **Пользовательский скрипт для Linux:**
 
-```
+```shell
 #!/bin/sh
 INTERFACE="$1"
 
@@ -189,7 +189,7 @@ ip route add 172.16.0.0/12 dev "$INTERFACE"     # Another private range
 
 **Пользовательский скрипт для macOS:**
 
-```
+```shell
 #!/bin/sh
 INTERFACE="$1"
 
@@ -216,7 +216,7 @@ route add 172.16.0.0/12 -iface "$INTERFACE"     # Another private range
 
 Чтобы установить протокол, используемый AdGuard VPN (HTTP2, QUIC или автоматический выбор между ними), введите одну из команд:
 
-```
+```shell
 adguardvpn-cli config set-use-quic on
 ```
 
@@ -224,7 +224,7 @@ adguardvpn-cli config set-use-quic on
 
 Если вы включите автоматические отчёты о сбоях, AdGuard VPN уведомит разработчиков, если что-то пойдёт не так. Чтобы включить настройку, введите:
 
-```
+```shell
 adguardvpn-cli config send-reports on
 ```
 
@@ -244,7 +244,7 @@ adguardvpn-cli config set-update-channel <channel>
 
 AdGuard VPN может показывать вам подсказки после выполнения команд — например, что делать дальше или как исправить ошибку. Этот параметр включён по умолчанию, но вы можете отключить его, введя:
 
-```
+```shell
 adguardvpn-cli config set-show-hints off
 ```
 
@@ -254,7 +254,7 @@ adguardvpn-cli config set-show-hints off
 
 Чтобы сообщить об ошибке, вам может потребоваться поделиться отладочными логами с разработчиками или командой поддержки. Чтобы включить отладочные логи, введите:
 
-```
+```shell
 adguardvpn-cli config set-debug-logging on
 ```
 
@@ -268,38 +268,40 @@ adguardvpn-cli config set-debug-logging on
 - Пользователь отключает VPN — появляется уведомление _VPN отключён_.
 - Пользователь ждёт, когда VPN-соединение будет восстановлено — появляется уведомление _Ожидание соединения_.
 
-  adguardvpn-cli config set-show-notifications on
+```shell
+adguardvpn-cli config set-show-notifications on
+```
 
-## Исключения
+## Exclusions
 
-Есть два режима. В _Общем_ режиме сайты из списка исключений не маршрутизируются через VPN. В _Выборочном_ режиме только сайты из списка исключений маршрутизируются через VPN. Для каждого режима существует отдельный список исключений.
+There are two modes. In _General_ mode, websites from the list of exclusions are not routed through VPN. In _Selective_ mode, only websites from the list of exclusions are routed through VPN. There is a separate list of exclusions for each mode.
 
-Чтобы узнать, что можно сделать с исключениями, напишите в интерфейсе командной строки: `adguardvpn-cli site-exclusions -h`.
+To read about what you can do with exclusions, write this in the command-line interface: `adguardvpn-cli site-exclusions -h`.
 
-Вот основные варианты:
+Here are the main options:
 
-1. **add** добавляет указанные исключения
+1. **add** adds specified exclusions
 
-   Пример: `adguardvpn-cli site-exclusions add`, где `%DOMAIN_NAME%` — это сайт, который вы хотите добавить в исключения.
+   Example: `adguardvpn-cli site-exclusions add`, where `%DOMAIN_NAME%` is the website that you want to add to exclusions.
 
    :::note
 
-   Чтобы добавить много исключений, перечислите их через пробелы.
+   To add many exclusions, you need to list them separated by spaces.
 
    :::
 
-2. **clear** очищает список исключений в текущем режиме
+2. **clear** clears the list of exclusions in the current mode
 
-   Пример: `adguardvpn-cli site-exclusions clear`
+   Example: `adguardvpn-cli site-exclusions clear`
 
-3. **mode** показывает текущий режим и позволяет переключаться между ними
+3. **mode** shows the current mode and allows to switch between them
 
-   Пример: `adguardvpn-cli site-exclusions mode selective` (с помощью этой команды включается Выборочный режим)
+   Example: `adguardvpn-cli site-exclusions mode selective` (with this command, Selective mode is chosen)
 
-4. **remove** удаляет одно или несколько исключений (если они разделены запятыми)
+4. **remove** removes one or more exclusions (if separated by commas)
 
-   Пример: `adguardvpn-cli site-exclusions remove %DOMAIN_NAME%`, где `%DOMAIN_NAME%` — это сайт, который вы хотите добавить в исключения.
+   Example: `adguardvpn-cli site-exclusions remove %DOMAIN_NAME%` where `%DOMAIN_NAME%` is the website that you want to remove from exclusions.
 
-5. **show** показывает текущий список исключений
+5. **show** shows the current list of exclusions
 
-   Пример: `adguardvpn-cli site-exclusions show`
+   Example: `adguardvpn-cli site-exclusions show`

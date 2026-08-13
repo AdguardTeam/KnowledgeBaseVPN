@@ -5,7 +5,7 @@ sidebar_position: 4
 
 You can manage AdGuard VPN for Linux settings from the command line. To view the current configuration, type:
 
-```
+```shell
 adguardvpn-cli config show
 ```
 
@@ -30,7 +30,7 @@ When TUN mode is enabled, AdGuard VPN:
 
 To set the default tunnel mode, type:
 
-```
+```shell
 adguardvpn-cli config set-mode TUN
 ```
 
@@ -46,7 +46,7 @@ When SOCKS5 mode is enabled, AdGuard VPN:
 
 To prevent DNS leaks, use a client that resolves hostnames via the proxy (often denoted as `socks5h` in tools like `curl`). If an app resolves hostnames locally, system DNS may bypass the proxy.
 
-```
+```shell
 curl -x socks5://127.0.0.1:1080 https://example.com
 curl -x socks5h://127.0.0.1:1080 https://example.com
 ```
@@ -55,7 +55,7 @@ curl -x socks5h://127.0.0.1:1080 https://example.com
 
 To set the SOCKS5 mode, type:
 
-```
+```shell
 adguardvpn-cli config set-mode SOCKS
 ```
 
@@ -82,7 +82,7 @@ adguardvpn-cli config set-socks-password <password>
 
 Replace `<username>` and `<password>` with your desired username and password. To clear the SOCKS username and password, type:
 
-```
+```shell
 adguardvpn-cli config clear-socks-auth
 ```
 
@@ -104,7 +104,7 @@ adguardvpn-cli config set-dns <server_address>
 
 Replace `<server_address>` with the address of your DNS server. To use this DNS server at the system level, type:
 
-```
+```shell
 adguardvpn-cli config set-change-system-dns on
 ```
 
@@ -126,9 +126,9 @@ AdGuard VPN CLI brings up the TUN interface but does not modify the system routi
 
 Use this option if you want to manage routes yourself manually or with third-party tools.
 
-To set the tunnel routing mode to NONE (no routing), type:
+To set the tunnel routing mode to `NONE` (no routing), type:
 
-```
+```shell
 adguardvpn-cli config set-tun-routing-mode NONE
 ```
 
@@ -140,11 +140,11 @@ AdGuard VPN CLI creates and maintains the minimal set of routes required for the
 - Preserving access to local networks (commonly RFC1918 subnets) and other exclusions, so that your LAN, printers, and routers remain reachable.
 - Reacting to reconnects and endpoint changes by reapplying routes as needed.
 
-Use AUTO if you want a “just works” configuration with system-wide protection and no per-app setup.
+Use `AUTO` if you want a “just works” configuration with system-wide protection and no per-app setup.
 
-To set the tunnel routing mode to AUTO (automatic routing), type:
+To set the tunnel routing mode to `AUTO` (automatic routing), type:
 
-```
+```shell
 adguardvpn-cli config set-tun-routing-mode AUTO
 ```
 
@@ -152,25 +152,25 @@ adguardvpn-cli config set-tun-routing-mode AUTO
 
 AdGuard VPN CLI executes a user-supplied script that adds or removes routes when the tunnel state changes. You have full control over what goes through the tunnel and what stays direct.
 
-To set the tunnel routing mode to SCRIPT (custom routing script), type:
+To set the tunnel routing mode to `SCRIPT` (custom routing script), type:
 
-```
+```shell
 adguardvpn-cli config set-tun-routing-mode SCRIPT
 ```
 
 To create a routes script with proper permissions, type:
 
-```
-adguardvpn-cli config create-routes-script
+```shell
+adguardvpn-cli config create-route-script
 ```
 
-Use SCRIPT if you need fine-grained split tunneling, enterprise routing policies, or custom exceptions beyond what AUTO provides.
+Use `SCRIPT` if you need fine-grained split tunneling, enterprise routing policies, or custom exceptions beyond what `AUTO` provides.
 
 #### Examples
 
 **Linux custom script:**
 
-```
+```shell
 #!/bin/sh
 INTERFACE="$1"
 
@@ -189,7 +189,7 @@ ip route add 172.16.0.0/12 dev "$INTERFACE"     # Another private range
 
 **macOS custom script:**
 
-```
+```shell
 #!/bin/sh
 INTERFACE="$1"
 
@@ -216,7 +216,7 @@ route add 172.16.0.0/12 -iface "$INTERFACE"     # Another private range
 
 To set the protocol used by AdGuard VPN (HTTP2, QUIC, or automatic choice between them), type one of the commands, depending on your choice:
 
-```
+```shell
 adguardvpn-cli config set-protocol http2
 adguardvpn-cli config set-protocol quic
 adguardvpn-cli config set-protocol auto
@@ -226,7 +226,7 @@ adguardvpn-cli config set-protocol auto
 
 If you enable automatic crash reports, AdGuard VPN will notify the developers if something goes wrong. To enable the setting, type:
 
-```
+```shell
 adguardvpn-cli config send-reports on
 ```
 
@@ -246,7 +246,7 @@ Replace `<channel>` with `release`, `beta`, or `nightly`, depending on your pref
 
 AdGuard VPN can show you hints after executing commands — for example, what to do next or how to fix an error. This setting is enabled by default but you can disable it by typing:
 
-```
+```shell
 adguardvpn-cli config set-show-hints off
 ```
 
@@ -256,7 +256,7 @@ To re-enable it, replace `off` with `on`.
 
 To report a bug, you may need to share debug logs with the developers or support team. To enable debug logging, type:
 
-```
+```shell
 adguardvpn-cli config set-debug-logging on
 ```
 
@@ -270,7 +270,9 @@ The setting is responsible for the appearance of system notifications when AdGua
 - A user turns VPN off — the _VPN disconnected_ notification appears.
 - A user is waiting for the VPN connection to be recovered — the _Waiting for connection_ notification appears.
 
-  adguardvpn-cli config set-show-notifications on
+```shell
+adguardvpn-cli config set-show-notifications on
+```
 
 ## Exclusions
 

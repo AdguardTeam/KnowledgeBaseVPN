@@ -5,7 +5,7 @@ sidebar_position: 4
 
 Nastavení AdGuard VPN pro Linux můžete spravovat z příkazového řádku. Chcete-li zobrazit aktuální konfiguraci, zadejte:
 
-```
+```shell
 adguardvpn-cli config show
 ```
 
@@ -30,7 +30,7 @@ Když je režim TUN povolen, AdGuard VPN:
 
 Chcete-li nastavit výchozí režim tunelu, zadejte:
 
-```
+```shell
 adguardvpn-cli config set-mode TUN
 ```
 
@@ -46,7 +46,7 @@ Když je režim SOCKS5 povolen, AdGuard VPN:
 
 Abyste zabránili únikům DNS, použijte klienta, který překládá názvy hostitelů skrze proxy (v nástrojích jako `curl` často označované jako `socks5h`). Pokud aplikace řeší názvy hostitelů lokálně, systém DNS může obejít proxy server.
 
-```
+```shell
 curl -x socks5://127.0.0.1:1080 https://example.com
 curl -x socks5h://127.0.0.1:1080 https://example.com
 ```
@@ -55,7 +55,7 @@ curl -x socks5h://127.0.0.1:1080 https://example.com
 
 Chcete-li nastavit režim SOCKS5, zadejte:
 
-```
+```shell
 adguardvpn-cli config set-mode SOCKS
 ```
 
@@ -82,7 +82,7 @@ adguardvpn-cli config set-socks-password <password>
 
 Nahraďte `<username>` a `<password>` požadovaným uživatelským jménem a heslem. Chcete-li vymazat uživatelské jméno a heslo SOCKS, zadejte:
 
-```
+```shell
 adguardvpn-cli config clear-socks-auth
 ```
 
@@ -104,7 +104,7 @@ adguardvpn-cli config set-dns <server_address>
 
 Nahraďte `<server_address>` adresou svého serveru DNS. Chcete-li tento DNS server používat na úrovni systému, zadejte:
 
-```
+```shell
 adguardvpn-cli config set-change-system-dns on
 ```
 
@@ -126,9 +126,9 @@ AdGuard VPN CLI spustí rozhraní TUN, ale nemění systémovou směrovací tabu
 
 Tuto možnost použijte, pokud chcete trasy spravovat ručně nebo pomocí nástrojů třetích stran.
 
-Chcete-li nastavit režim směrování tunelu na hodnotu NONE (žádné směrování), zadejte:
+To set the tunnel routing mode to `NONE` (no routing), type:
 
-```
+```shell
 adguardvpn-cli config set-tun-routing-mode NONE
 ```
 
@@ -140,11 +140,11 @@ AdGuard VPN CLI vytváří a udržuje minimální sadu tras potřebných pro fun
 - Zachování přístupu k místním sítím (běžně podsítě RFC1918) a dalším výjimkám, aby byla vaše LAN, tiskárny a routery nadále dostupné.
 - Reakci na opětovné připojení a změny koncových bodů opětovným použitím tras podle potřeby.
 
-Použijte AUTO, pokud chcete konfiguraci typu “just works” s ochranou na úrovni celého systému bez nastavení pro jednotlivé aplikace.
+Use `AUTO` if you want a “just works” configuration with system-wide protection and no per-app setup.
 
-Chcete-li nastavit režim směrování tunelu na AUTO (automatické směrování), zadejte:
+To set the tunnel routing mode to `AUTO` (automatic routing), type:
 
-```
+```shell
 adguardvpn-cli config set-tun-routing-mode AUTO
 ```
 
@@ -152,25 +152,25 @@ adguardvpn-cli config set-tun-routing-mode AUTO
 
 AdGuard VPN CLI spouští skript zadaný uživatelem, který přidává nebo odebírá trasy při změně stavu tunelu. Máte plnou kontrolu nad tím, co prochází tunelem a co zůstává přímé.
 
-Chcete-li nastavit režim směrování tunelu na SCRIPT (vlastní směrovací skript), zadejte:
+To set the tunnel routing mode to `SCRIPT` (custom routing script), type:
 
-```
+```shell
 adguardvpn-cli config set-tun-routing-mode SCRIPT
 ```
 
 Chcete-li vytvořit skript tras se správnými oprávněními, zadejte:
 
-```
-adguardvpn-cli config create-routes-script
+```shell
+adguardvpn-cli config create-route-script
 ```
 
-Použijte SCRIPT, pokud potřebujete jemně odstupňované rozdělené tunelování, podnikové politiky směrování nebo vlastní výjimky, které přesahují možnosti AUTO.
+Use `SCRIPT` if you need fine-grained split tunneling, enterprise routing policies, or custom exceptions beyond what `AUTO` provides.
 
 #### Příklady
 
 **Vlastní skript pro Linux:**
 
-```
+```shell
 #!/bin/sh
 INTERFACE="$1"
 
@@ -189,7 +189,7 @@ ip route add 172.16.0.0/12 dev "$INTERFACE"     # Another private range
 
 **Vlastní skript pro macOS:**
 
-```
+```shell
 #!/bin/sh
 INTERFACE="$1"
 
@@ -216,7 +216,7 @@ route add 172.16.0.0/12 -iface "$INTERFACE"     # Another private range
 
 Chcete-li nastavit protokol používaný AdGuard VPN (HTTP2, QUIC nebo automatický výběr mezi nimi), zadejte jeden z příkazů podle svého výběru:
 
-```
+```shell
 adguardvpn-cli config set-protocol http2
 adguardvpn-cli config set-protocol quic
 adguardvpn-cli config set-protocol auto
@@ -226,7 +226,7 @@ adguardvpn-cli config set-protocol auto
 
 Pokud povolíte automatické hlášení chyb, AdGuard VPN upozorní vývojáře, pokud se něco pokazí. Chcete-li nastavení povolit, zadejte:
 
-```
+```shell
 adguardvpn-cli config send-reports on
 ```
 
@@ -246,7 +246,7 @@ Nahraďte `<channel>` za `release`, `beta` nebo `nightly` v závislosti na vaši
 
 AdGuard VPN vám může po provedení příkazů zobrazit nápovědy — například co dělat dál nebo jak opravit chybu. Toto nastavení je ve výchozím nastavení povoleno, ale můžete jej zakázat zadáním:
 
-```
+```shell
 adguardvpn-cli config set-show-hints off
 ```
 
@@ -256,7 +256,7 @@ Chcete-li to znovu povolit, nahraďte `off` za `on`.
 
 Chcete-li nahlásit chybu, budete možná muset sdílet protokoly ladění s vývojáři nebo týmem podpory. Chcete-li to povolit, zadejte:
 
-```
+```shell
 adguardvpn-cli config set-debug-logging on
 ```
 
@@ -270,38 +270,40 @@ Toto nastavení je zodpovědné za zobrazení systémových oznámení napříkl
 - Uživatel vypne VPN — objeví se oznámení _VPN odpojena_.
 - Uživatel čeká na obnovení připojení VPN — objeví se oznámení _Čekání na připojení_.
 
-  adguardvpn-cli config set-show-notifications on
+```shell
+adguardvpn-cli config set-show-notifications on
+```
 
-## Výjimky
+## Exclusions
 
-Existují dva režimy. V _Obecném_ režimu nejsou webové stránky ze seznamu výjimek směrovány skrze VPN. V _Selektivním_ režimu jsou skrze VPN směrovány pouze webové stránky ze seznamu výjimek. Pro každý režim existuje samostatný seznam výjimek.
+There are two modes. In _General_ mode, websites from the list of exclusions are not routed through VPN. In _Selective_ mode, only websites from the list of exclusions are routed through VPN. There is a separate list of exclusions for each mode.
 
-Chcete-li si přečíst, co všechno můžete dělat s výjimkami, napište to do rozhraní příkazového řádku: `adguardvpn-cli site-exclusions -h`.
+To read about what you can do with exclusions, write this in the command-line interface: `adguardvpn-cli site-exclusions -h`.
 
-Zde jsou hlavní možnosti:
+Here are the main options:
 
-1. **add** přidá zadané výjimky
+1. **add** adds specified exclusions
 
-   Příklad: `adguardvpn-cli site-exclusions add`, kde `%DOMAIN_NAME%` je webová stránka, kterou chcete přidat do výjimek.
+   Example: `adguardvpn-cli site-exclusions add`, where `%DOMAIN_NAME%` is the website that you want to add to exclusions.
 
    :::note
 
-   Chcete-li přidat mnoho výjimek, musíte je zadat oddělené mezerami.
+   To add many exclusions, you need to list them separated by spaces.
 
    :::
 
-2. **clear** vymaže seznam výjimek v aktuálním režimu
+2. **clear** clears the list of exclusions in the current mode
 
-   Příklad: `adguardvpn-cli site-exclusions clear`
+   Example: `adguardvpn-cli site-exclusions clear`
 
-3. **mode** zobrazuje aktuální režim a umožňuje mezi nimi přepínat
+3. **mode** shows the current mode and allows to switch between them
 
-   Příklad: `adguardvpn-cli site-exclusions mode selective` (tímto příkazem je zvolen selektivní režim)
+   Example: `adguardvpn-cli site-exclusions mode selective` (with this command, Selective mode is chosen)
 
-4. **remove** odstraní jednu nebo více výjimek (pokud jsou odděleny čárkami)
+4. **remove** removes one or more exclusions (if separated by commas)
 
-   Příklad: `adguardvpn-cli site-exclusions remove %DOMAIN_NAME%`, kde `%DOMAIN_NAME%` je webová stránka, kterou chcete odstranit z výjimek.
+   Example: `adguardvpn-cli site-exclusions remove %DOMAIN_NAME%` where `%DOMAIN_NAME%` is the website that you want to remove from exclusions.
 
-5. **show** zobrazí aktuální seznam výjimek
+5. **show** shows the current list of exclusions
 
-   Příklad: `adguardvpn-cli site-exclusions show`
+   Example: `adguardvpn-cli site-exclusions show`

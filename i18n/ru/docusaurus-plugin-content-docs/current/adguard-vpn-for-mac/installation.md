@@ -26,6 +26,17 @@ sidebar_position: 2
 
 AdGuard VPN для Mac установлен!
 
+## How to install AdGuard VPN for Mac from the Mac App Store
+
+1. Open the Mac App Store and search for AdGuard VPN for Mac.
+1. Click *Get* → *Install*.
+
+:::note
+
+There are some differences between the Mac App Store version and the standalone version of AdGuard VPN for Mac. [Learn more](https://adguard-vpn.com/kb/adguard-vpn-for-mac/versions/).
+
+:::
+
 ### Установка на старые версии macOS
 
 Начиная с версии 2.6, AdGuard VPN для Mac больше не поддерживает версии macOS старше Big Sur. Однако, если вы используете macOS 10.15 Catalina, вы всё равно можете [скачать и установить более старую, совместимую версию](https://agrd.io/adguard_vpn_for_macoscatalina) приложения.
