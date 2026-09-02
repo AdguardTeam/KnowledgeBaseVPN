@@ -123,8 +123,10 @@ On iOS 16:
 
 ![Add shortcut](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/shortcut-combined.png)
 
-4. To add the shortcut to your home screen, long press the shortcut and tap *Share* → *Add to Home Screen*.
-5. Customize the shortcut name and icon if you need to, then tap *Add*. The shortcut will appear on your Home Screen as a 1x1 icon.
+Here’s how to add the shortcut to your Home Screen.
+
+1. Long press the shortcut and tap *Share* → *Add to Home Screen*.
+2. Customize the shortcut name and icon if you need to, then tap *Add*. The shortcut will appear on your Home Screen as a 1x1 icon.
 ![Add to Home Screen](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/homescreen-combined.png)
 
 On newer versions:
@@ -148,7 +150,7 @@ Note: The exact steps may vary depending on your iOS version.
 #### Widget
 
 1. Long-press an empty area on your Home Screen until the apps jiggle, then tap *Edit* in the top-left corner → *Add Widget*.
-2. Find *Shortcuts* in the list and choose a widget size that can display at least two shortcuts. 
+2. Find *Shortcuts* in the list and choose a widget size that can display at least two shortcuts.
 3. Tap *Add Widget*.
 4. While in edit mode, tap the widget to open the configuration menu, set *Folder* to *Custom*, and assign *Connect* to one slot and *Disconnect* to the other.
 
@@ -156,7 +158,7 @@ Note: The exact steps may vary depending on your iOS version.
 
 ### Open an app with AdGuard VPN enabled in one tap
 
-If you need the VPN on for a certain app and nothing else, you can create a custom shortcut that will turn on AdGuard VPN and open the app you want to open — all in one tap. Here’s how to set it up. 
+If you need the VPN on for a certain app and nothing else, you can create a custom shortcut that will turn on AdGuard VPN and open the app you want to open — all in one tap. Here’s how to set it up.
 
 1. Open the Shortcuts app, tap the plus (+) button, and search for AdGuard VPN. Add the *VPN status* action.
 2. Add an If action. Inside it, add *Open App* and set it to the app you want — for example, YouTube.
@@ -200,6 +202,7 @@ To turn off AdGuard VPN when you close the same app, repeat the steps above, but
 ### Turn AdGuard VPN off when you join home Wi-Fi
 
 If you don’t need to use VPN at home, set it to turn off when you join your home Wi-Fi network and back on when you leave.
+
 1. In the Shortcuts app, go to *Automation* and tap *New Automation* or ‘+’ in the top right corner.
 2. Choose *Wi-Fi*, select *Is Joined*, and choose your home network.
 3. Turn on *Run Immediately* and *Run After Connection Interruption*.
