@@ -51,7 +51,7 @@ adguardvpn-cli list-locations
 
 Um eine Verbindung zu einem bestimmten Standort herzustellen, geben Sie Folgendes ein:
 
-```
+```shell
 adguardvpn-cli connect -l <location>
 ```
 

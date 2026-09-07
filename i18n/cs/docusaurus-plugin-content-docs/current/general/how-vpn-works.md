@@ -33,7 +33,7 @@ VPN vytváří tunel mezi vaším zařízením a serverem VPN. Vaše data projdo
 
 Bezpečnostní protokoly VPN jsou nástroje, které šifrují data v tunelu VPN a umožňují zachovat soukromí uživatele v otevřeném internetu. V současné době používá naprostá většina moderních služeb VPN jeden ze tří následujících protokolů VPN:
 
-1. [_IPSec_](https://en.wikipedia.org/wiki/IPsec). Jednou z jeho hlavních výhod je, že je k dispozici na většině zařízení a operačních systémech a poskytuje vysokou úroveň zabezpečení. Použití dvojitého [zapouzdření](https://en.wikipedia.org/wiki/Encapsulation_\(networking\)) v tomto protokolu však může mít za následek nižší rychlost připojení.
+1. [_IPSec_](https://en.wikipedia.org/wiki/IPsec). Jednou z jeho hlavních výhod je, že je k dispozici na většině zařízení a operačních systémech a poskytuje vysokou úroveň zabezpečení. Použití dvojitého [zapouzdření](https://en.wikipedia.org/wiki/Encapsulation_(networking)) v tomto protokolu však může mít za následek nižší rychlost připojení.
 
 2. [_OpenVPN_](https://en.wikipedia.org/wiki/OpenVPN). Tento moderní protokol má otevřený zdrojový kód, takže výrobci třetích stran mohou technologii vylepšovat a aktualizovat.
 
@@ -43,7 +43,7 @@ Kromě těchto protokolů VPN existují i další (například TLS, SSTP, IKEv2)
 
 <object data="https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/6.svg?nc=1" type="image/svg+xml"><img src="https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/6.svg?nc=1" alt="protocol 6" /> </object>
 
-AdGuard VPN má také vlastní [_protokol_](https://trusttunnel.org/). Jednou z jeho výhod je, že provoz přenášený pomocí protokolu AdGuard VPN je obtížné odlišit od běžného provozu. VPN tunel vypadá jako běžný provoz HTTPS, takže je velmi obtížné jej odhalit a zablokovat. Navíc je založen na mechanismech moderního protokolu HTTP/2, který zajišťuje vysokou rychlost připojení.
+AdGuard VPN používá [TrustTunnel](https://trusttunnel.org/) — moderníVPN protokol s otevřeným zdrojovým kódem vyvinutý námi. Jednou z jeho výhod je, že provoz přenášený pomocí protokolu AdGuard VPN je obtížné odlišit od běžného provozu. VPN tunel vypadá jako běžný provoz HTTPS, takže je velmi obtížné jej odhalit a zablokovat. Navíc je založen na mechanismech moderního protokolu HTTP/2, který zajišťuje vysokou rychlost připojení.
 
 <object data="https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/5.svg?nc=1" type="image/svg+xml"><img src="https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/5.svg?nc=1" alt="protocol 5" /></object>
 
@@ -67,7 +67,7 @@ Slabý signál, přetížení sítě, nekompatibilita VPN s firewallem, antivire
 
 Naše VPN má několik důležitých [výhod](/general/why-adguard-vpn):
 
-- [_Vlastní protokol VPN_](https://trusttunnel.org/), který funguje stabilně i při pomalém připojení k internetu a maskuje se jako běžný provoz, takže je obtížnější jej sledovat a blokovat
+- [_TrustTunnel_](https://trusttunnel.org/) — moderní, skrytý a otevřený VPN protokol vyvinutý AdGuard VPN. Funguje stabilně i při pomalém připojení k internetu a maskuje se jako běžný provoz, takže je obtížnější jej sledovat a blokovat
 
 - [_Žádný záznam aktivit_](https://adguard-vpn.com/privacy.html), což znamená, že žádné osobní údaje nemohou být sdíleny s třetími stranami, protože AdGuard VPN takové údaje nikdy neshromažďuje
 

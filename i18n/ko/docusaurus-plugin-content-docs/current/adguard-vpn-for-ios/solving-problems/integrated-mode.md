@@ -5,7 +5,7 @@ sidebar_position: 4
 
 AdGuard VPN에는 두 가지 작동 모드(*VPN* 및 *통합 모드*)가 있습니다.
 
-The *VPN* mode is enabled by default and uses the [AdGuard VPN protocol](https://trusttunnel.org/). 이 프로토콜은 연결 속도와 보안의 최상의 조합을 제공합니다. 그러나 일반 모드에서는 AdGuard VPN과 AdGuard 광고 차단기가 동시에 작동할 수 없습니다.
+The *VPN* mode is enabled by default and uses [TrustTunnel](https://trusttunnel.org/) — a modern, open-source protocol developed by us. 이 프로토콜은 연결 속도와 보안의 최상의 조합을 제공합니다. 그러나 일반 모드에서는 AdGuard VPN과 AdGuard 광고 차단기가 동시에 작동할 수 없습니다.
 
 *Integrated mode*, in turn, uses the IPsec protocol, which makes it possible for the AdGuard apps to work together.
 

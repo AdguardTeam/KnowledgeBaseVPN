@@ -3,19 +3,19 @@ title: Was ist ein DNS-Leck?
 sidebar_position: 9
 ---
 
-Once you install a VPN, you want to be sure that there won’t be any leaks that will lead to your de-anonymization. AdGuard VPN schützt Ihren Datenverkehr und Ihre Daten zuverlässig vor neugierigen Blicken. In manchen Fällen kann es jedoch vorkommen, dass Sie DNS-Lecks in unserem VPN-Dienst vermuten. We’ll explain where these concerns come from and why they are unfounded.
+Sobald Sie ein VPN installiert haben, möchten Sie sicher sein, dass es keine Lecks gibt, die zu Ihrer De-Anonymisierung führen. AdGuard VPN schützt Ihren Datenverkehr und Ihre Daten zuverlässig vor neugierigen Blicken. In manchen Fällen kann es jedoch vorkommen, dass Sie DNS-Lecks in unserem VPN-Dienst vermuten. Wir erklären, woher diese Bedenken kommen und warum sie unbegründet sind.
 
 ## Was sind DNS-Lecks?
 
 Wenn Sie ein VPN verwenden, kann eine Verbindung zu einem DNS-Server außerhalb des verschlüsselten VPN-Tunnels verlaufen und Ihr Datenverkehr kann für den ISP sichtbar werden.
 
-In other words, every time you open a website, your browser sends a request to the ISP’s DNS server and in return receives the IP address of the requested website. Auf diese Weise sieht Ihr ISP alle Ihre Online-Aktivitäten und kann Sie verfolgen.
+Mit anderen Worten, bei jedem Aufruf einer Website sendet Ihr Browser eine Anfrage an den DNS-Server des ISP und erhält im Gegenzug die IP-Adresse der angeforderten Website. Auf diese Weise sieht Ihr ISP alle Ihre Online-Aktivitäten und kann Sie verfolgen.
 
 ## Wie man DNS-Lecks entdeckt
 
 Es gibt alle möglichen Anonymitätsprüfungsdienste zum Aufspüren von DNS-Lecks, wie `whoer.net`. Die Algorithmen dieser Websites sind nicht klar, aber ihr Ziel ist es, Sie mit imaginären Lecks zu erschrecken, um ihre Dienste zu verkaufen.
 
-Some security scanning websites consider the coincidence of the user’s IP address and the DNS server’s IP address to be a “good” result, indicating that there are no leaks. In Wirklichkeit kann eine solche Übereinstimmung auf die Verwendung eines VPN hinweisen. When VPN is disabled and the requests go to your ISP’s DNS server, the IP address of the DNS server and your own one do not coincide.
+Einige Websites für Sicherheitsscans betrachten die Übereinstimmung der IP-Adresse des Benutzers und der IP-Adresse des DNS-Servers als „gutes“ Ergebnis, was darauf hinweist, dass es keine Lecks gibt. In Wirklichkeit kann eine solche Übereinstimmung auf die Verwendung eines VPN hinweisen. Wenn VPN deaktiviert ist und die Anfragen an den DNS-Server Ihres Internetanbieters gehen, stimmen die IP-Adresse des DNS-Servers und Ihre eigene nicht überein.
 
 ## Warum es bei AdGuard VPN keine DNS-Lecks gibt
 
@@ -23,9 +23,9 @@ Wenn Sie AdGuard VPN auf Ihrem Gerät aktivieren und eine Überprüfung auf eine
 
 Die Verwendung eines nicht filternden AdGuard-DNS-Servers ist standardmäßig in AdGuard VPN eingestellt. Dadurch wird sichergestellt, dass Ihre Anfragen nicht an die DNS-Server Ihres ISP gehen, was bedeutet, dass Sie online privat und anonym bleiben.
 
-What’s more, AdGuard DNS is a very popular DNS service, used by over 50 million people. Was bedeutet das für Sie? Stellen Sie sich folgende Situation vor: Der übliche VPN-Dienst verwendet den DNS-Server, der sich unter derselben IP-Adresse wie der VPN-Server befindet. Die Zahl seiner Benutzer überschreitet kaum 1.000.
+Darüber hinaus ist AdGuard DNS ein sehr beliebter DNS-Dienst, der von über 50 Millionen Menschen genutzt wird. Was bedeutet das für Sie? Stellen Sie sich folgende Situation vor: Der übliche VPN-Dienst verwendet den DNS-Server, der sich unter derselben IP-Adresse wie der VPN-Server befindet. Die Zahl seiner Benutzer überschreitet kaum 1.000.
 
-And in the case of AdGuard DNS you will “merge” with 50 million users so nobody will be able to track you by the mere fact of using that DNS server.
+Und im Fall von AdGuard DNS „verschmelzen“ Sie mit 50 Millionen Benutzern, sodass niemand Sie allein durch die Verwendung dieses DNS-Servers verfolgen kann.
 
 ## Wie man einen benutzerdefinierten DNS-Server in AdGuard VPN einrichtet
 

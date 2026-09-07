@@ -5,7 +5,7 @@ sidebar_position: 1
 
 ## What AdGuard VPN for Windows does
 
-- ネットワークトラフィックの傍受（スプーフィング）から保護します。 AdGuard VPNは、お使いの端末とVPNサーバーの間に暗号化トンネルを作成します。 すべてのインターネットトラフィックはこのトンネルを通過することによって、データ・個人情報は保護されます。 And thanks to [AdGuard’s unique protocol](https://trusttunnel.org/), you’re guaranteed a fast and secure connection.
+- ネットワークトラフィックの傍受（スプーフィング）から保護します。 AdGuard VPNは、お使いの端末とVPNサーバーの間に暗号化トンネルを作成します。 すべてのインターネットトラフィックはこのトンネルを通過することによって、データ・個人情報は保護されます。 また、 [AdGuardの独自開発プロトコル](https://trusttunnel.org/)のおかげで、高速で安全な接続が保証されます。
 
 - IPアドレスを隠します。 サイバー犯罪者にとって、あなたの実際のIPアドレスは、あなたの個人情報を把握するための鍵です。 Your name, email address, phone number, credit card information can all fall into the hands of fraudsters if you don’t hide your IP. With AdGuard VPN, all your traffic goes through an encrypted tunnel and comes to the VPN server. The web server registers the IP address of the endpoint of the tunnel, i.e. the VPN server, and not the device’s real IP address.
 

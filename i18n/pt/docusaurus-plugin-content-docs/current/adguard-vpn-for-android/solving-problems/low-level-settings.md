@@ -19,15 +19,12 @@ Below we list all low-level settings available in AdGuard VPN for Android and ex
 
 ### AdGuard VPN protocol
 
-By default, AdGuard VPN protocol uses dynamic VPN protocol selection (_Auto-select_ option). That means that AdGuard VPN automatically figures out which protocol — HTTP2/TLS or HTTP3/QUIC — will give you the best performance and switches to it instantly. This improves VPN speed and stability, which is particularly helpful in regions where VPN usage is restricted or unreliable.
-
-If you know what you are doing, you can switch AdGuard VPN to use only HTTP2/TLS or HTTP3/QUIC protocol instead of _Auto-select_. [QUIC](https://adguard-vpn.com/kb/general/why-adguard-vpn/#6-quic-support) is a relatively new protocol, hence it can be less stable. However, if your Internet connection is unstable (for example, when you connect to the public Wi-Fi), it provides better security and increases the connection speed thanks to the [Head-Of-Line Blocking](https://adguard-dns.io/en/blog/dns-over-quic.html#headoflineblocking) technology.
-
-Also, here’s a dedicated article about the protocol: [How AdGuard VPN protocol works](https://trusttunnel.org/).
+AdGuard VPN usa TrustTunnel — um protocolo de VPN moderno e de código aberto desenvolvido por nós e disponível para qualquer pessoa usar, auditar e implementar. [Visite o sítio](https://trusttunnel.org/) para saber como funciona e por que é diferente dos protocolos VPN tradicionais.
 
 ### Include Wi-Fi gateway in VPN routes
 
 If this setting is enabled, the gateway IP addresses will be added to VPN routes when on Wi-Fi.
+
 If you disable it, then the route configuration (IP ranges that are filtered) will be changed. The Wi-Fi gateway of the network to which the user is connected will be excluded, and therefore, it will not be subject to filtering.
 
 This setting is enabled by default.
@@ -42,7 +39,7 @@ Watchdog monitors the VPN process state to check if there are any problems with 
 
 ### Preferred IP version
 
-Here you can set up the endpoint addresses. There are three options: IPv4, IPv6 or IPv4 and IPv6 (if your device supports both).
+Here you can set up the endpoint addresses. There are three options: IPv4, IPv6, or IPv4 and IPv6 (if your device supports both).
 
 ### IPv4 ranges excluded from VPN
 
@@ -69,6 +66,7 @@ Here you can set the maximum size (in bytes) of the data packet used in local VP
 ### Excluded apps
 
 You can list here UIDs (unique identifiers) or package names of the apps that you want to exclude from VPN routing.
+
 Unlike with apps added to regular _Exclusions_, the traffic of apps added to _Excluded apps_ doesn’t go to the local VPN service on your device at all. Instead, it goes directly to the destination.
 
 ### Proxy server port
