@@ -3,6 +3,12 @@ title: Установка на роутеры MikroTik
 sidebar_position: 2
 ---
 
+:::note
+You can also install and run the AdGuard VPN for Linux Docker container on MikroTik routers with RouterOS. This method requires advanced technical knowledge but provides access to all AdGuard VPN features.
+
+For more information and detailed instructions, refer to [our dedicated guide](/adguard-vpn-for-linux/setting-up-on-a-router/mikrotik/).
+:::
+
 Чтобы настроить AdGuard VPN на роутере MikroTik, выполните следующие действия:
 
 1. Откройте терминал MikroTik. Это можно сделать с помощью командной строки или терминала на вашем компьютере, введя: `ssh admin@192.168.88.1`. Кроме того, вы можете получить к нему доступ через браузер, перейдя по адресу `http://192.168.88.1` и нажав на вкладку «Терминал» в правом верхнем углу.

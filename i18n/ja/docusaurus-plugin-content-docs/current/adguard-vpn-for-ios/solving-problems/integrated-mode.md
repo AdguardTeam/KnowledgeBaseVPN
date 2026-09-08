@@ -5,7 +5,7 @@ sidebar_position: 4
 
 AdGuard VPNには、*「VPN」*と*「併用モード」*という2つの動作モードがあります。
 
-The *VPN* mode is enabled by default and uses the [AdGuard VPN protocol](https://trusttunnel.org/). このプロトコルは、接続速度とセキュリティのベストなコンビネーションを提供します。 しかし、「VPN」動作モードでは、AdGuard VPN と AdGuard 広告ブロッカーを同時に動作させることはできません。
+「*VPN*」モードはデフォルトで有効になっており、当社で開発したモダンなオープンソースプロトコル「[TrustTunnel](https://trusttunnel.org/)」を使用しています。 このプロトコルは、接続速度とセキュリティのベストなコンビネーションを提供します。 しかし、「VPN」動作モードでは、AdGuard VPN と AdGuard 広告ブロッカーを同時に動作させることはできません。
 
 *Integrated mode*, in turn, uses the IPsec protocol, which makes it possible for the AdGuard apps to work together.
 

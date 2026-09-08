@@ -14,7 +14,7 @@ AdGuard VPN 具有多种功能：
 - 加密您的网络流量，使诈骗者无法获取内容
 - 让用户自己配置在哪里启用或停用 VPN（排除项功能）
 
-AdGuard VPN iOS 版下一个优势是我们自建的 VPN 协议。 与其他 VPN 协议相比，该协议极难被侦测，即使在网络连接状况不佳时也能保持稳定运行。 [点此访问有关 AdGuard VPN 协议的更多信息](https://trusttunnel.org/)。
+AdGuard VPN iOS 版下一个优势是我们自建的 VPN 协议。 与其他 VPN 协议相比，该协议极难被侦测，即使在网络连接状况不佳时也能保持稳定运行。 [阅读有关协议的更多信息](https://trusttunnel.org/)。
 
 ## 如何使用 AdGuard VPN iOS 版
 
@@ -124,7 +124,7 @@ AdGuard VPN iOS 版提供多款 DNS 服务器选择，每款皆具备独特特�
 
 适用于 iOS 的 AdGuard VPN 可以在两种模式下运行：**VPN** 和**整合**。
 
-在 *VPN* 模式下使用 [AdGuard VPN 协议](https://trusttunnel.org/)。本协议提供高速和安全性的最佳组合。 在此模式下，AdGuard VPN 将无法与 [AdGuard 广告拦截程序 iOS 版](https://adguard.com/adguard-ios/overview.html)一起使用。
+*VPN* 模式使用 [TrustTunnel](https://trusttunnel.org/)，是一款我们开发的现代开源协议。 It provides the best combination of speed and security. In this mode, AdGuard VPN will not work with [AdGuard Ad Blocker for iOS](https://adguard.com/adguard-ios/overview.html).
 
 在**集成模式**下，AdGuard VPN 将能够使用 IPSec 协议与适用于 iOS 的 AdGuard 广告拦截程序同时工作。 这种协议也很安全，但速度稍慢，也更容易被检测到。 用户无需执行任何操作来设置集成：只需安装两个应用程序并切换到此模式即可。
 

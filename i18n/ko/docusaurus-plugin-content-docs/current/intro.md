@@ -32,7 +32,7 @@ AdGuard has been present on the market of personal data protection and ad blocki
 
 ### 사내 VPN 프로토콜
 
-The main difference between AdGuard VPN and its competitors is that we use [our own developed protocol](https://trusttunnel.org/). 이 프로토콜은 일반 트래픽으로 위장하므로 이를 추적하고 차단하기가 훨씬 더 어렵습니다.
+The main difference between AdGuard VPN and its competitors is that we use [TrustTunnel](https://trusttunnel.org/) — a modern, stealthy, and fast open-source VPN protocol developed by us. 이 프로토콜은 일반 트래픽으로 위장하므로 이를 추적하고 차단하기가 훨씬 더 어렵습니다.
 
 ### No-logging policy
 

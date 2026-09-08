@@ -42,4 +42,4 @@ AdGuard VPN может быть установлен на устройствах
 
 ![Удалить *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/quick-action-menu.png)
 
-Узнайте больше об AdGuard VPN для iOS [в этой статье](adguard-vpn-for-ios/overview).
+Узнайте больше об AdGuard VPN для iOS [в этой статье](/adguard-vpn-for-ios/overview).

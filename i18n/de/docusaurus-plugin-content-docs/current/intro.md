@@ -12,9 +12,9 @@ Mit einem VPN können Sie eine sichere Verbindung zu einem anderen Netzwerk im I
 
 Ursprünglich wurden VPNs entwickelt, um Unternehmensnetzwerke sicher über das Internet zu verbinden, damit die Mitarbeitende von zu Hause aus auf das Unternehmensnetzwerk zugreifen konnten. Heute wird diese Technologie für viele andere Dinge genutzt: zum Beispiel, um anonym im Internet zu surfen oder um Ihre Online-Aktivitäten vor neugierigen Blicken zu schützen, wenn Sie ein öffentliches WLAN nutzen.
 
-A VPN connects a user’s computer or mobile device to a server and allows one to browse the net using a “cover” IP address. Thus, third-party observers cannot see the user’s real IP address, which makes it nearly impossible to trace them.
+Ein VPN verbindet den Computer oder das mobile Gerät eines Benutzers mit einem Server und ermöglicht es, mit einer „verdeckten“ IP-Adresse im Internet zu surfen. So können Dritte die tatsächliche IP-Adresse des Benutzers nicht sehen, was es nahezu unmöglich macht, sie aufzuspüren.
 
-Das erste, was man im Zusammenhang mit VPN erwähnt, ist die Verschlüsselung des Datenverkehrs und die damit verbundene Sicherheit. Aber was bedeutet das? A VPN creates an encrypted tunnel between the user’s device and the remote server. Ihr gesamter Internetverkehr wird durch diesen Tunnel geleitet, sodass Ihre Daten unterwegs geschützt sind. Für den externen Beobachter verlässt Ihr Datenverkehr den VPN-Server, sodass es so aussieht, als hätte Ihr Gerät die IP-Adresse dieses Servers. This trick masks the user’s identity and true location.
+Das erste, was man im Zusammenhang mit VPN erwähnt, ist die Verschlüsselung des Datenverkehrs und die damit verbundene Sicherheit. Aber was bedeutet das? Ein VPN erstellt einen verschlüsselten Tunnel zwischen einem Gerät und einem Remote-Server. Ihr gesamter Internetverkehr wird durch diesen Tunnel geleitet, sodass Ihre Daten unterwegs geschützt sind. Für den externen Beobachter verlässt Ihr Datenverkehr den VPN-Server, sodass es so aussieht, als hätte Ihr Gerät die IP-Adresse dieses Servers. Dieser Trick verschleiert die Identität und den wahren Standort des Benutzers.
 
 Sie können ein VPN verwenden, um:
 
@@ -32,7 +32,7 @@ AdGuard ist seit mehr als 15 Jahren auf dem Markt des Schutzes persönlicher Dat
 
 ### Einzigartiges VPN-Protokoll
 
-Der Hauptunterschied zwischen AdGuard VPN und seinen Mitbewerbern besteht darin, dass wir [unser selbst entwickeltes Protokoll](https://trusttunnel.org/) verwenden. Es tarnt sich als normaler Verkehr, daher ist es viel schwieriger, es zu verfolgen und zu sperren.
+Der Hauptunterschied zwischen AdGuard VPN und seinen Mitbewerbern besteht darin, dass wir [TrustTunnel](https://trusttunnel.org/) verwenden — ein modernes, schwer zu erkennendes und schnelles Open-Source-VPN-Protokoll, das von uns entwickelt wurde. Es tarnt sich als normaler Verkehr, daher ist es viel schwieriger, es zu verfolgen und zu sperren.
 
 ### Keine Protokollierung
 
@@ -42,7 +42,7 @@ Keine Protokollierungsrichtlinie bedeutet, dass wir die personenbezogenen Daten 
 
 Web-Traffic von jedem Benutzer kann von Interesse sein und ist besonders wertvoll im Hinblick auf die Monetarisierung persönlicher Daten. Sowohl Kriminelle als auch skrupellose ISPs können darauf zugreifen. Mit einem vertrauenswürdigen VPN können Sie jedoch sicher sein, dass weder Ihr Anbieter noch sonst jemand Ihre Internetaktivitäten sehen wird.
 
-### Ultra-fast VPN servers in 64 countries
+### Ultraschnelle VPN-Server in 64 Ländern
 
 - Argentinien
 - Australien
@@ -54,59 +54,59 @@ Web-Traffic von jedem Benutzer kann von Interesse sein und ist besonders wertvol
 - Kanada
 - Chile
 - China
-- Colombia
-- Croatia
-- Cyprus
-- Czechia
-- Denmark
-- Egypt
-- Estonia
-- Finland
-- France
-- Germany
-- Greece
-- Hong Kong
-- Hungary
-- Iceland
-- Indiaᵛ
-- Indonesia
+- Kolumbien
+- Kroatien
+- Zypern
+- Tschechische Republik
+- Dänemark
+- Ägypten
+- Estland
+- Finnland
+- Frankreich
+- Deutschland
+- Griechenland
+- Hongkong
+- Ungarn
+- Island
+- Indienᵛ
+- Indonesien
 - Iranᵛ
-- Ireland
+- Irland
 - Israel
-- Italy
+- Italien
 - Japan
-- Kazakhstan
-- Latvia
-- Lithuania
-- Luxembourg
-- Mexico
-- Moldova
-- Nepal
-- Netherlands
-- New Zealand
+- Kasachstan
+- Lettland
+- Litauen
+- Luxemburg
+- Mexiko
+- Moldawien
+- Russland
+- Niederlande
+- Neuseeland
 - Nigeria
-- Norway
+- Norwegen
 - Peru
-- Philippines
-- Poland
+- Philippinen
+- Polen
 - Portugal
-- Romania
-- Russiaᵛ
-- Serbia
-- Singapore
-- Slovakia
-- South Africa
-- South Korea
-- Spain
-- Sweden
-- Switzerland
+- Rumänien
+- Russlandᵛ
+- Serbien
+- Singapur
+- Slowakei
+- Südafrika
+- Südkorea
+- Spanien
+- Schweden
+- Schweiz
 - Taiwan
 - Thailand
-- Turkey
+- Türkei
 - Ukraine
-- United Arab Emirates
-- United Kingdom
-- United States of America
+- Vereinigte Arabische Emirate
+- Großbritannien
+- Vereinigte Staaten von Amerika
 - Vietnam
 
-ᵛ = “Virtual” servers. This is due to very heavy state censorship in the countries that these servers are intended to cover.
+ᵛ = „Virtuelle“ Server. Dies ist auf die starke staatliche Zensur in den Ländern zurückzuführen, für die diese Server bestimmt sind.

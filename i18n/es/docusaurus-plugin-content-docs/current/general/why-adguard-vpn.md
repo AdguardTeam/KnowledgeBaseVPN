@@ -7,11 +7,11 @@ When getting ready to commit to a [long-term VPN subscription](/general/subscrip
 
 *Para empezar, repasemos las características inigualables de AdGuard VPN que no encontrarás en ninguna otra VPN.*
 
-## 1. Protocolo propietario
+## 1. Protocolo de código abierto de última generación
 
-Desde el principio, decidimos desarrollar e implementar un protocolo VPN interno en lugar de elegir una solución ya preparada: eso sería demasiado fácil, además, no estábamos satisfechos con los protocolos existentes. The result has become the [AdGuard VPN protocol](https://trusttunnel.org/).
+Desde el principio, decidimos desarrollar e implementar un protocolo VPN interno en lugar de elegir una solución ya preparada: eso sería demasiado fácil, además, no estábamos satisfechos con los protocolos existentes. El resultado se convirtió en [TrustTunnel](https://trusttunnel.org/): un protocolo VPN moderno, sigiloso y rápido de código abierto desarrollado por AdGuard VPN.
 
-Al elegir un servicio VPN, las personas suelen tener que elegir entre rapidez y seguridad. The AdGuard VPN protocol is a perfect blend of speed and security, so you don’t have to bear slow Internet connection or make privacy sacrifices. Entre otras cosas, se disfraza de tráfico regular y es mucho más difícil de detectar y bloquear.
+Al elegir un servicio VPN, las personas suelen tener que elegir entre rapidez y seguridad. El protocolo AdGuard VPN es una combinación perfecta de velocidad y seguridad, por lo que no tienes que sufrir una conexión lenta a Internet ni sacrificar la privacidad. Entre otras cosas, se disfraza de tráfico regular y es mucho más difícil de detectar y bloquear.
 
 ## 2. Website and app exclusions
 

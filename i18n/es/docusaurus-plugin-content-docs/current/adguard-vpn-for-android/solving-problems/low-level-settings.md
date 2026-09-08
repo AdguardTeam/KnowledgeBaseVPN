@@ -19,57 +19,55 @@ A continuación, enumeramos todas las configuraciones de bajo nivel disponibles 
 
 ### Protocolo de AdGuard VPN
 
-De forma predeterminada, el Protocolo AdGuard VPN utiliza la selección dinámica de protocolo VPN (opción _Selección automática_). Puedes leer más sobre su implementación en un [artículo dedicado](https://trusttunnel.org/). Esto mejora la velocidad y estabilidad del VPN, lo cual es especialmente útil en regiones donde el uso del VPN está restringido o es inestable.
+AdGuard VPN utiliza TrustTunnel, un protocolo VPN moderno y de código abierto desarrollado por nosotros y disponible para que cualquiera lo use, audite e implemente. [Visita el sitio web](https://trusttunnel.org/) para aprender cómo funciona y por qué es diferente de los protocolos VPN tradicionales.
 
-Si sabes lo que estás haciendo, puedes cambiar AdGuard VPN para que use solo el protocolo HTTP2/TLS o HTTP3/QUIC en lugar de _Selección automática_. [QUIC](https://adguard-vpn.com/kb/general/why-adguard-vpn/#6-quic-support) es un protocolo relativamente nuevo, por lo que puede ser menos estable. Sin embargo, si tu conexión a Internet es inestable (por ejemplo, cuando te conectas al wifi público), proporciona mejor seguridad y aumenta la velocidad de conexión gracias a la tecnología de [Head-Of-Line Blocking](https://adguard-dns.io/en/blog/dns-over-quic.html#headoflineblocking).
+### Include Wi-Fi gateway in VPN routes
 
-Además, aquí tienes un artículo dedicado sobre el protocolo: [Cómo funciona el Protocolo AdGuard VPN](https://trusttunnel.org/).
+If this setting is enabled, the gateway IP addresses will be added to VPN routes when on Wi-Fi.
 
-### Incluir la puerta de enlace Wi-Fi en las rutas de VPN
+If you disable it, then the route configuration (IP ranges that are filtered) will be changed. The Wi-Fi gateway of the network to which the user is connected will be excluded, and therefore, it will not be subject to filtering.
 
-Si esta configuración está habilitada, las direcciones IP de la puerta de enlace se agregarán a las rutas de VPN cuando estés conectado a Wi-Fi.
-Si lo desactivas, entonces la configuración de la ruta (rangos de IP que son filtrados) se cambiará. La puerta de enlace wifi de la red a la que está conectado el usuario quedará excluida y, por tanto, no será objeto de filtrado.
+This setting is enabled by default.
 
-La primera opción está habilitada por defecto.
+### Packet capture (PCAP)
 
-### Captura de paquetes (PCAP)
-
-Si esta configuración está habilitada, AdGuard creará un archivo `.pcap` (por ejemplo, `1682599851461.pcap`) en el directorio de caché de la aplicación. Este archivo enumera todos los paquetes de red transferidos a través del VPN y puede ser analizado por el [programa Wireshark](https://www.wireshark.org/).
+If this setting is enabled, AdGuard VPN will create a `.pcap` file with a timestamp for its name (for instance, `1682599851461.pcap`) in the app cache directory. This file lists all network packets transferred through the VPN and can be analyzed with the [Wireshark program](https://www.wireshark.org/).
 
 ### Watchdog
 
-"Watchdog" monitorea el estado del proceso VPN para verificar si hay algún problema con él. Cuando está habilitado, AdGuard VPN se protegerá contra aplicaciones agresivas de ahorro de batería que podrían cerrarlo.
+Watchdog monitors the VPN process state to check if there are any problems with it. When enabled, AdGuard VPN will protect itself against aggressive battery saver apps that could otherwise kill it.
 
-### Versión IP preferida
+### Preferred IP version
 
-Aquí puedes configurar las direcciones de los puntos de conexión. Hay tres opciones: IPv4, IPv6 o IPv4 e IPv6 (si tu dispositivo soporta ambos).
+Here you can set up the endpoint addresses. There are three options: IPv4, IPv6, or IPv4 and IPv6 (if your device supports both).
 
-### Rangos de IPv4 excluidos de VPN
+### IPv4 ranges excluded from VPN
 
-La tunelización VPN para los rangos de IPv4 enumerados en esta sección será deshabilitada.
+VPN tunneling for the IPv4 ranges listed in this section will be disabled.
 
-### Interfaz IPv6
+### IPv6 interface
 
-Después de habilitar esta opción, tendrás una dirección IPv6 mientras enrutas el tráfico a través de la conexión VPN. Puedes configurar las exclusiones en los _rangos de IPv6 excluidos de VPN_.
+After enabling this option you will have an IPv6 address while routing traffic through the VPN connection. You can set up the exclusions in the _IPv6 ranges excluded from VPN_.
 
-### Rangos de IPv6 excluidos de VPN
+### IPv6 ranges excluded from VPN
 
-La tunelización VPN para los rangos de IPv6 enumerados en esta sección será deshabilitado.
+VPN tunneling for the IPv6 ranges listed in this section will be disabled.
 
 :::note
 
-Primero debes habilitar la configuración de _interfaz IPv6_ en _Configuraciones de bajo nivel_, de lo contrario, esta configuración no se aplicará.
+You need to enable _IPv6 interface_ setting in _Low-level settings_ first, otherwise this setting will not be applied.
 
 :::
 
-### MTU (unidad máxima de transmisión)
+### MTU (maximum transmission unit)
 
-Aquí puedes establecer el tamaño máximo (en bytes) del paquete de datos utilizado en la VPN local. El rango recomendado es de 1500 a 9000 bytes.
+Here you can set the maximum size (in bytes) of the data packet used in local VPN. The recommended range is 1500-9000 bytes.
 
-### Aplicaciones excluidas
+### Excluded apps
 
-Puedes enumerar aquí UIDs (identificadores únicos) o nombres de paquetes de las aplicaciones que deseas excluir del enrutamiento VPN.
-A diferencia de las aplicaciones agregadas a las _Exclusiones_ regulares, el tráfico de las aplicaciones agregadas a _Aplicaciones excluidas_ no va a la servicio local de VPN en tu dispositivo en absoluto. En cambio, va directamente al destino.
+You can list here UIDs (unique identifiers) or package names of the apps that you want to exclude from VPN routing.
+
+Unlike with apps added to regular _Exclusions_, the traffic of apps added to _Excluded apps_ doesn’t go to the local VPN service on your device at all. Instead, it goes directly to the destination.
 
 ### Puerto del servidor proxy
 

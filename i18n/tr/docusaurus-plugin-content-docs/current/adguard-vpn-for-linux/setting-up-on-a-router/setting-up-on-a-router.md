@@ -5,6 +5,8 @@ sidebar_position: 1
 
 Linux için AdGuard VPN'in yönlendiriciye nasıl kurulacağını öğrenin.
 
+- [Instructions for MikroTik routers](/adguard-vpn-for-linux/setting-up-on-a-router/mikrotik.md)
+
 - [Keenetic yönlendiricileri için talimatlar](/adguard-vpn-for-linux/setting-up-on-a-router/keenetic.md)
 
 - [OpenWRT yönlendiricileri için talimatlar](/adguard-vpn-for-linux/setting-up-on-a-router/openwrt.md)

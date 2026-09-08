@@ -49,4 +49,4 @@ Download the installation file from [AdGuard VPN’s mirror website](https://adg
 
 - If you have connectivity issues, do not enable *Use QUIC* in *Advanced settings*.
 
-If all else fails, don’t hesitate to reach out to our support team at <support@adguard-vpn.com> for further assistance.
+If all else fails, don’t hesitate to reach out to our support team at [support@adguard-vpn.com](mailto:support@adguard-vpn.com) for further assistance.

@@ -5,11 +5,13 @@ sidebar_position: 1
 
 AdGuard VPN para Mac es un servicio de VPN para desktop. AdGuard VPN es totalmente compatible con AdGuard Ad Blocker, se pueden utilizar juntos y funcionarán sin problemas. Veamos qué características ofrece.
 
-Note that **you can’t use AdGuard VPN for Mac unless you have logged into your AdGuard account**. Puedes iniciar sesión con tu cuenta de AdGuard o con una cuenta externa, es decir, a través de Apple, Google o Facebook. Asegúrese de que tu cuenta externa esté vinculada a la misma dirección de correo electrónico que tu cuenta de AdGuard. Si hay una suscripción adecuada en tu cuenta de AdGuard, ella se activará automáticamente en la aplicación para desktop. Still don’t have an AdGuard account? Create it [here](https://auth.adguardaccount.com/registration.html).
+Note that **you can’t use AdGuard VPN for Mac unless you have logged into your AdGuard account**. Puedes iniciar sesión con tu cuenta de AdGuard o con una cuenta externa, es decir, a través de Apple, Google o Facebook. Asegúrese de que tu cuenta externa esté vinculada a la misma dirección de correo electrónico que tu cuenta de AdGuard. Si hay una suscripción adecuada en tu cuenta de AdGuard, ella se activará automáticamente en la aplicación para desktop.
+
+Still don’t have an AdGuard account? Create it [here](https://auth.adguardaccount.com/registration.html).
 
 :::note Compatibility
 
-AdGuard VPN for Mac is currently supported on macOS versions starting from macOS Big Sur (version 11).
+AdGuard VPN for Mac is currently supported on macOS versions starting from macOS Monterey (version 12).
 
 :::
 
@@ -17,13 +19,13 @@ AdGuard VPN for Mac is currently supported on macOS versions starting from macOS
 
 ![Home screen](https://cdn.adguardvpn.com/content/kb/vpn/mac/saved_locations.png)
 
-La primera pestaña es la pantalla *de inicio* . Here you can see the current status of AdGuard VPN, the selected location (if enabled) and its ping. Ping es el tiempo de respuesta de un servidor VPN. The lower the number, the faster the connection. If VPN is disabled, the last location you connected to is displayed at the bottom.
+The first tab is the *Home* screen. Here you can see the current status of AdGuard VPN, the selected location (if enabled) and its ping. Ping is the response time of a VPN server. The lower the number, the faster the connection. If VPN is disabled, the last location you connected to is displayed at the bottom.
 
-The fastest locations with the lowest pings are displayed in the upper right corner of the screen. There is also a refresh button that you can click if any locations are offline. A continuación puedes ver la lista completa de ubicaciones. The search field makes it easy to find the location you need.
+The fastest locations with the lowest pings are displayed in the upper right corner of the screen. There is also a refresh button that you can click if any locations are offline. Below you can see the full list of locations. The search field makes it easy to find the location you need.
 
 :::note
 
-Los usuarios de la versión gratuita sólo pueden conectarse a determinadas ubicaciones, mientras que otras están bloqueadas. Además, hay un límite de tráfico mensual de 3GB en la versión gratuita.
+Free users can connect only to certain locations, while others are blocked. Besides, there is a 3 GB monthly traffic limit in the free version.
 
 :::
 

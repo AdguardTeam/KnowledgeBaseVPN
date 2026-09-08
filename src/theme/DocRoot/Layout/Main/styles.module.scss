@@ -5,7 +5,7 @@
   width: 100%;
 }
 
-@include docsaurus-desktop-min {
+@media (min-width: 997px) {
   .docMainContainer {
     flex-grow: 1;
     max-width: calc(100% - var(--doc-sidebar-width));

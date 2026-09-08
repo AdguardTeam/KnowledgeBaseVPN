@@ -51,7 +51,7 @@ adguardvpn-cli list-locations
 
 To connect to a specific location, type:
 
-```
+```shell
 adguardvpn-cli connect -l <location>
 ```
 

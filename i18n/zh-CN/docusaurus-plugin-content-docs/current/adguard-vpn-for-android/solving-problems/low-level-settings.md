@@ -19,57 +19,55 @@ sidebar_position: 6
 
 ### AdGuard VPN 协议
 
-AdGuard VPN 协议默认使用动态 VPN 协议选择（「自动选择」选项）。 这意味着 AdGuard VPN 能自动判断 HTTP2/TLS 或 HTTP3/QUIC 哪种协议可提供最佳性能，并立即切换至该协议。 这样可以提升 VPN 的连接速度和稳定性，在 VPN 用法受限或不稳定的地区尤其有帮助。
+AdGuard VPN 采用 TrustTunnel，是一款我们自主开发的现代开源 VPN 协议，并开源共享，供任何人使用、审计与实现。 [访问官网](https://trusttunnel.org/)，深入了解其工作原理，探索它与传统 VPN 协议有何不同。
 
-如果您知道自己在做什么，可以将 AdGuard VPN 切换为仅使用 HTTP2/TLS 或 HTTP3/QUIC 协议，而不是「自动选择」。 [QUIC](https://adguard-vpn.com/kb/general/why-adguard-vpn/#6-quic-support) 是一种相对较新的协议，因此可能不够稳定。 然而，如果网络连接不稳定（例如，当您连接到公共 Wi-Fi 时），它可以提供更好的安全性，并且由于 [Head-Of-Line Blocking](https://adguard-dns.io/en/blog/dns-over-quic.html#headoflineblocking)技术可以提高连接速度。
+### Include Wi-Fi gateway in VPN routes
 
-此外，可以查看一篇关于该协议的专门文章：[AdGuard VPN 协议的工作原理](https://trusttunnel.org/)。
+If this setting is enabled, the gateway IP addresses will be added to VPN routes when on Wi-Fi.
 
-### 将 Wi-Fi 网关接入 VPN 路由中
+If you disable it, then the route configuration (IP ranges that are filtered) will be changed. The Wi-Fi gateway of the network to which the user is connected will be excluded, and therefore, it will not be subject to filtering.
 
-如果启用此设置，在使用 Wi-Fi 时，网关 IP 地址将添加到 VPN 路由中。
-如果禁用它，则路由配置（被过滤的 IP 范围）将会被更改。 用户所连接网络的 Wi-Fi 网关将被排除，因此不会受到过滤。
+This setting is enabled by default.
 
-此设置默认已启用。
+### Packet capture (PCAP)
 
-### 数据包捕获（PCAP）
+If this setting is enabled, AdGuard VPN will create a `.pcap` file with a timestamp for its name (for instance, `1682599851461.pcap`) in the app cache directory. This file lists all network packets transferred through the VPN and can be analyzed with the [Wireshark program](https://www.wireshark.org/).
 
-如果已启用此设置，AdGuard VPN 会在应用程序缓存目录中创建一个以时间戳命名的 `.pcap` 文件（例如 `1682599851461.pcap`）。 该文件列出通过 VPN 传输的所有网络数据包，可以使用 [Wireshark 程序](https://www.wireshark.org/)进行分析。
+### Watchdog
 
-### 看门狗功能
+Watchdog monitors the VPN process state to check if there are any problems with it. When enabled, AdGuard VPN will protect itself against aggressive battery saver apps that could otherwise kill it.
 
-看门狗监控 VPN 的进程状态，以检查其是否存在任何问题。 启用后，AdGuard VPN 将会保护自身免受激进的省电应用程序的干扰，否则这些应用程序可能会强制关闭它。
+### Preferred IP version
 
-### 首选 IP 协议版本
+Here you can set up the endpoint addresses. There are three options: IPv4, IPv6, or IPv4 and IPv6 (if your device supports both).
 
-用户可以在此设置端点地址。 有三种选项：IPv4、IPv6 或 IPv4 和 IPv6（如果您的设备支持两者）。
+### IPv4 ranges excluded from VPN
 
-### 不使用 VPN 的 IPv4 范围
+VPN tunneling for the IPv4 ranges listed in this section will be disabled.
 
-本节中列出的 IPv4 范围的 VPN 隧道将被禁用。
+### IPv6 interface
 
-### IPv6 接口
+After enabling this option you will have an IPv6 address while routing traffic through the VPN connection. You can set up the exclusions in the _IPv6 ranges excluded from VPN_.
 
-启用此选项后，通过 VPN 连接路由流量时，您将拥有 IPv6 地址。 用户可以在「_从 VPN 排除的 IPv6 范围_」中设置排除项。
+### IPv6 ranges excluded from VPN
 
-### 不使用 VPN 的 IPv6 范围
-
-本节所列 IPv6 范围的 VPN 隧道功能将被禁用。
+VPN tunneling for the IPv6 ranges listed in this section will be disabled.
 
 :::note
 
-您需要先在「低级设置」中启用「_IPv6 界面_」设置，否则此设置不会被应用。
+You need to enable _IPv6 interface_ setting in _Low-level settings_ first, otherwise this setting will not be applied.
 
 :::
 
-### MTU（最大传输单元）
+### MTU (maximum transmission unit)
 
-您可以在此设置本地 VPN 使用的数据包最大大小（以字节为单位）。 推荐范围是 1500–9000 字节。
+Here you can set the maximum size (in bytes) of the data packet used in local VPN. The recommended range is 1500-9000 bytes.
 
-### 排除的应用程序
+### Excluded apps
 
-您可以在此处列出想要从 VPN 路由中排除的应用程序的 UID（唯一标识符）或包名。
-与添加到常规「_排除项_」中的应用程序不同，添加到「_已排除应用程序_」中的应用程序的流量完全不会经过您设备上的本地 VPN 服务。 相反，它直接到达目的地。
+You can list here UIDs (unique identifiers) or package names of the apps that you want to exclude from VPN routing.
+
+Unlike with apps added to regular _Exclusions_, the traffic of apps added to _Excluded apps_ doesn’t go to the local VPN service on your device at all. Instead, it goes directly to the destination.
 
 ### 代理服务器端口
 

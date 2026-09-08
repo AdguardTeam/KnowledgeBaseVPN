@@ -33,7 +33,7 @@ VPN, cihazınızla VPN sunucusu arasında bir tünel oluşturur. Verileriniz bu 
 
 VPN güvenlik protokolleri, bir VPN tünelindeki verileri şifreleyen ve açık internette kullanıcı gizliliğini korumanıza olanak tanıyan araçlardır. Şu anda modern VPN hizmetlerinin büyük çoğunluğu aşağıdaki üç VPN protokolünden birini kullanıyor:
 
-1. [_IPSec_](https://en.wikipedia.org/wiki/IPsec). Başlıca avantajlarından biri, çoğu cihazda ve işletim sisteminde bulunması ve yüksek düzeyde güvenlik sağlamasıdır. Ancak, bu protokolde çift [kapsülleme](https://en.wikipedia.org/wiki/Encapsulation_\(networking\)) kullanılması daha düşük bir bağlantı hızına neden olabilir.
+1. [_IPSec_](https://en.wikipedia.org/wiki/IPsec). Başlıca avantajlarından biri, çoğu cihazda ve işletim sisteminde bulunması ve yüksek düzeyde güvenlik sağlamasıdır. Ancak, bu protokolde çift [kapsülleme](https://en.wikipedia.org/wiki/Encapsulation_(networking)) kullanılması daha düşük bir bağlantı hızına neden olabilir.
 
 2. [_OpenVPN_](https://en.wikipedia.org/wiki/OpenVPN). Bu modern protokol açık kaynaklıdır, bu nedenle üçüncü taraf üreticiler teknolojiyi iyileştirebilir ve güncelleyebilir.
 
@@ -43,7 +43,7 @@ Bu VPN protokollerine ek olarak başkaları da vardır (örneğin, TLS, SSTP, IK
 
 <object data="https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/6.svg?nc=1" type="image/svg+xml"><img src="https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/6.svg?nc=1" alt="protocol 6" /> </object>
 
-AdGuard VPN'in ayrıca kendi [_protokolü_](https://trusttunnel.org/) vardır. Avantajlarından biri, AdGuard VPN protokolü kullanılarak iletilen trafiğin normal trafikten ayırt edilmesinin zor olmasıdır. VPN tüneli normal HTTPS trafiği gibi görünür, bu da tespit edilmesini ve engellenmesini son derece zorlaştırır. Ayrıca, yüksek bağlantı hızı sağlayan modern HTTP/2 protokolünün mekanizmalarına dayanmaktadır.
+AdGuard VPN uses [TrustTunnel](https://trusttunnel.org/) — a modern, open-source VPN protocol developed by us. Avantajlarından biri, AdGuard VPN protokolü kullanılarak iletilen trafiğin normal trafikten ayırt edilmesinin zor olmasıdır. VPN tüneli normal HTTPS trafiği gibi görünür, bu da tespit edilmesini ve engellenmesini son derece zorlaştırır. Ayrıca, yüksek bağlantı hızı sağlayan modern HTTP/2 protokolünün mekanizmalarına dayanmaktadır.
 
 <object data="https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/5.svg?nc=1" type="image/svg+xml"><img src="https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/protocol/5.svg?nc=1" alt="protocol 5" /></object>
 
@@ -67,7 +67,7 @@ Zayıf bir sinyal, ağ aşırı yüklenmesi, güvenlik duvarı, antivirüs ve di
 
 VPN hizmetimizin birkaç önemli [avantajı](/general/why-adguard-vpn) vardır:
 
-- [_Tescilli VPN protokolü_](https://trusttunnel.org/), yavaş bir İnternet bağlantısıyla bile kararlı bir şekilde çalışan ve kendisini normal trafik olarak gizleyerek izlemeyi ve engellemeyi daha zor hâle getirir
+- [_TrustTunnel_](https://trusttunnel.org/) — a modern, stealthy, and open-source VPN protocol developed by AdGuard VPN. It works stably even with a slow Internet connection and disguises itself as normal traffic, making it more difficult to track and block it
 
 - [_Günlük tutmama politikası_](https://adguard-vpn.com/privacy.html), AdGuard VPN'in asla bu tür verileri toplamaması nedeniyle hiçbir kişisel verinin üçüncü taraflarla paylaşılamayacağı anlamına gelir
 

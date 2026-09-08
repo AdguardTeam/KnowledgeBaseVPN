@@ -165,6 +165,13 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
    / #
    ```
 
+   For Keenetic routers, import the SSL certificate and set a folder for the user directory. By default, it may be stored in a temporary directory, and you may lose your settings after a reboot. Run the following commands before each new session and before using AdGuard VPN CLI:
+
+   ```bash
+   export SSL_CERT_FILE=/opt/etc/ssl/certs/ca-certificates.crt
+   export HOME=/opt/home/admin
+   ```
+
    To sign up or log in, type:
 
    ```bash
@@ -172,15 +179,6 @@ ln -s /opt/adguardvpn_cli/adguardvpn-cli /opt/bin
    ```
 
 2. Connect to VPN
-
-   For Keenetic routers, be sure to import the SSL certificate and select a folder for the user directory by running this command before connecting:
-
-   ```bash
-   export SSL_CERT_FILE=/opt/etc/ssl/certs/ca-certificates.crt
-   export HOME=/opt/home/admin
-   ```
-
-   This must be done before each session.
 
    Select a VPN server location that best suits your needs.
 
