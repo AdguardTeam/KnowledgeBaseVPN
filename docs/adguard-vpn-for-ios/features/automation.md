@@ -30,7 +30,7 @@ If you don’t need to use VPN at home, set it to turn off when you join your ho
 3. Turn on *Run Immediately* and *Run After Connection Interruption*.
 4. Tap *Next*, select AdGuard VPN, and pick *Disconnect*.
 
-![Wi-Fi automation](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/automation-2-combined.png)
+![Wi-Fi automation *mobile](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/automation-2-combined.png)
 
 ## Turn AdGuard VPN back on when you leave
 
