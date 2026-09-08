@@ -29,7 +29,7 @@ The instructions differ on older iOS versions. Here are the instructions for iOS
 
 1. Go to the Shortcuts app and tap “+”.
 2. Tap *Add Action*, go to *Apps* and select *AdGuard VPN*.
-3. Choose *Set VPN connection* and on the following screen, tap *Add to Shortcut* and *Turn VPN connection On*.
+3. Choose *Manage VPN connection* and on the following screen, tap *Add to Shortcut* and *Turn VPN connection On*.
 
 ![Add shortcut](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/shortcut-combined.png)
 
