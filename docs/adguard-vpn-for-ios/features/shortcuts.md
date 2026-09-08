@@ -27,9 +27,9 @@ To set up a shortcut on your Home Screen, follow the quick instructions in the A
 
 The instructions differ on older iOS versions. Here are the instructions for iOS 16:
 
-1. Go to the Shortcuts app and tap “+”.
+1. Go to the Shortcuts app and tap the plus (+) button.
 2. Tap *Add Action*, go to *Apps* and select *AdGuard VPN*.
-3. Choose *Manage VPN connection* and on the following screen, tap *Add to Shortcut* and *Turn VPN connection On*.
+3. Choose *Manage VPN connection* and on the following screen, tap *Add to Shortcut*, and *Turn VPN connection On*.
 
 ![Add shortcut](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/shortcut-combined.png)
 
@@ -45,7 +45,7 @@ You can add an AdGuard VPN shortcut to the Control Center for quick access from 
 
 1. Open Control Сenter. On an iPhone with Face ID, swipe down from the top right. On an iPhone with a Home button, swipe up from the bottom.
 2. Long-press an empty area and tap *Add a Control*.
-3. Find *Shortcuts* in the list and tap *Run Shortcut*, then tap *Choose*, and select your AdGuard VPN shortcut. The shortcut will now appear in your Control Center.
+3. Find *Shortcuts* in the list and tap *Run Shortcut*, then tap *Choose* and select your AdGuard VPN shortcut. The shortcut will now appear in your Control Center.
 
 Note: The exact steps may vary depending on your iOS version.
 
@@ -84,4 +84,4 @@ Choose *Record a phrase to connect* or *Record a phrase to disconnect*, then say
 
 Some apps, like banking apps, don’t work with a VPN on. Set up two automations so the VPN turns off while you use the app and turns back on once you’re done. When set up correctly, automation can be more convenient than manually launching a shortcut — you don’t have to tap on a Home Screen icon to open the shortcut, simply opening the app is enough. Besides, you can include several apps in one automation. You can use automations to turn AdGuard VPN on or off when you open an app, when you close an app, and when you join or disconnect from your home Wi-Fi.
 
-[How to set up automations on your iPhone or iPad](https://adguard-vpn.com/kb/adguard-vpn-for-ios/features/automation/)
+[How to set up automations on your iPhone or iPad](/automation)

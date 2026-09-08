@@ -12,10 +12,10 @@ Here’s how to set up an automation that disconnects from AdGuard VPN when you 
 
 ## Turn off AdGuard VPN when you open an app
 
-1. In the Shortcuts app, go to *Automation* and tap *New Automation* or ‘+’ in the top right corner.
+1. In the Shortcuts app, go to *Automation* and tap *New Automation* or the plus (+) button in the top right corner.
 2. Choose *App*, select one or several apps, and check *Is Opened*.
 3. Turn on *Run Immediately* and turn off *Notify When Run*.
-4. Tap *Next*, select AdGuard VPN and pick *Disconnect*.
+4. Tap *Next*, select AdGuard VPN, and pick *Disconnect*.
 
 ![App automation](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/automation1-combined.png)
 
