@@ -84,4 +84,4 @@ Choose *Record a phrase to connect* or *Record a phrase to disconnect*, then say
 
 Some apps, like banking apps, don’t work with a VPN on. Set up two automations so the VPN turns off while you use the app and turns back on once you’re done. When set up correctly, automation can be more convenient than manually launching a shortcut — you don’t have to tap on a Home Screen icon to open the shortcut, simply opening the app is enough. Besides, you can include several apps in one automation. You can use automations to turn AdGuard VPN on or off when you open an app, when you close an app, and when you join or disconnect from your home Wi-Fi.
 
-[How to set up automations on your iPhone or iPad](/automation)
+[How to set up automations on your iPhone or iPad](/adguard-vpn-for-ios/features/automation/)
