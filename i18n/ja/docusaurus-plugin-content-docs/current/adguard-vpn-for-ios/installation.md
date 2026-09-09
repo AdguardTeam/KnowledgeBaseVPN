@@ -1,6 +1,6 @@
 ---
 title: インストール方法・削除方法
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 ## 動作環境

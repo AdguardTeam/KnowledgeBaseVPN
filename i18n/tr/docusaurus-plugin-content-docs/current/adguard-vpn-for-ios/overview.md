@@ -1,5 +1,5 @@
 ---
-title: Özelliklere genel bakış
+title: Overview
 sidebar_position: 1
 ---
 

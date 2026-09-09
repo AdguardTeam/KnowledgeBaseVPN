@@ -1,5 +1,5 @@
 ---
-title: Resumo de recursos
+title: Overview
 sidebar_position: 1
 ---
 

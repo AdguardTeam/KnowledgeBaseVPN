@@ -1,5 +1,5 @@
 ---
-title: Resumen de características
+title: Overview
 sidebar_position: 1
 ---
 

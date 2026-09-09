@@ -1,5 +1,5 @@
 ---
-title: Přehled funkcí
+title: Overview
 sidebar_position: 1
 ---
 

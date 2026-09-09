@@ -1,6 +1,6 @@
 ---
 title: Instalace a odstranění
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 ## Požadavky na systém
