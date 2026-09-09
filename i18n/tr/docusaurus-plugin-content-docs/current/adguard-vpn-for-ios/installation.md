@@ -1,6 +1,6 @@
 ---
 title: Kurulum ve kaldırma
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 ## Sistem gereksinimleri

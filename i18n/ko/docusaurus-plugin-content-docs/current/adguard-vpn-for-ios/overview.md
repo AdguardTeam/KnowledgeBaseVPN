@@ -1,5 +1,5 @@
 ---
-title: 기능 개요
+title: Overview
 sidebar_position: 1
 ---
 
