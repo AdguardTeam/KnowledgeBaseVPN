@@ -250,14 +250,21 @@ Paste this into the file:
 # Copyright (C) 2007 OpenWrt.org
 START=99
 STOP=99
+
 HOME=/root
+EXTRA_COMMANDS="status"
+EXTRA_HELP="        status          Show VPN connection status"
+
 start() {
         /opt/adguardvpn_cli/adguardvpn-cli connect
 }
 
 stop() {
         /opt/adguardvpn_cli/adguardvpn-cli disconnect
+}
 
+status() {
+        /opt/adguardvpn_cli/adguardvpn-cli status
 }
 ```
 
