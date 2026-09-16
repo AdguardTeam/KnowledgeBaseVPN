@@ -2,6 +2,7 @@ name: Lint Markdown
 
 on:
   push:
+    branches: ["**"]
   pull_request:
     types: [opened, reopened, synchronize]
 
