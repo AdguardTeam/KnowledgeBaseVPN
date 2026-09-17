@@ -66,7 +66,6 @@ If you need the VPN on for a certain app and nothing else, you can create a cust
 
 1. Open the Shortcuts app, tap the plus (+) button, and search for AdGuard VPN. Add the *VPN status* action.
 2. Add an *If* action. Shortcuts fills the condition in for you: it takes the VPN status from the previous step and compares it with *Connected*. Inside it, add *Open App* and set it to the app you want — for example, YouTube.
-    ![]()
 3. Under *Otherwise*, add three actions in order: *AdGuard VPN* → *Connect to VPN*, *Wait* (set to 2 seconds), and *Open App* (same app as above).
 4. Tap the name at the top to set a custom icon and name, then test the shortcut with the play button.
 5. Add the shortcut to the Home Screen by tapping the name and selecting *Add to Home Screen*.
