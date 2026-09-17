@@ -3,7 +3,7 @@ title: Shortcuts
 sidebar_position: 1
 sidebar_label: Shortcuts
 ---
-Shortcuts, a tool built into iOS, makes it easy to manage your connections without opening AdGuard VPN. You can place a *Connect* or *Disconnect* shortcut on your Home Screen, in Control Center, or a in a widget, or set up a Siri phrase to connect with your voice.
+Shortcuts, a tool built into iOS, makes it easy to manage your connections without opening AdGuard VPN. You can place a *Connect*, *Disconnect*, or *Toggle VPN* shortcut on your Home Screen, in Control Center, or a in a widget, or set up a Siri phrase to connect with your voice.
 
 Shortcuts can also include more complex automations. For example, your banking app might not work with a VPN on, but you always want it on for Instagram, or you want your VPN to turn off automatically on home Wi-Fi. Shortcuts lets you automate these scenarios.
 
@@ -17,7 +17,7 @@ Make sure that:
 
 ## Connect or disconnect in one tap
 
-AdGuard VPN provides two ready-made shortcuts: *Connect* and *Disconnect*. *Connect* turns on the VPN and connects to your last used location. *Disconnect* turns off the VPN. You’ll find both under *App Shortcuts* in the Shortcuts app. Add either one to any of the three places listed below.
+AdGuard VPN provides three ready-made shortcuts: *Connect*, *Disconnect*, *Toggle VPN*. *Connect* turns on the VPN and connects to your last used location. *Disconnect* turns off the VPN. *Toggle VPN* switches between the two: it connects when the VPN is off and disconnects when it's on. You’ll find these shortcuts under *App Shortcuts* in the Shortcuts app. Add either one to any of the three places listed below.
 
 ### Home Screen
 
@@ -29,7 +29,7 @@ The instructions differ on older iOS versions. Here are the instructions for iOS
 
 1. Go to the Shortcuts app and tap the plus (+) button.
 2. Tap *Add Action*, go to *Apps* and select *AdGuard VPN*.
-3. Choose *Manage VPN connection* and on the following screen, tap *Add to Shortcut*, and *Turn VPN connection On*.
+3. Choose the shortcut you need: *Connect to VPN*, *Disconnect from VPN*, or *Toggle VPN connection*.
 
 ![Add shortcut](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/shortcut-combined.png)
 
@@ -65,8 +65,9 @@ Note: The exact steps may vary depending on your iOS version.
 If you need the VPN on for a certain app and nothing else, you can create a custom shortcut that will turn on AdGuard VPN and open the app you want to open — all in one tap. Here’s how to set it up.
 
 1. Open the Shortcuts app, tap the plus (+) button, and search for AdGuard VPN. Add the *VPN status* action.
-2. Add an If action. Inside it, add *Open App* and set it to the app you want — for example, YouTube.
-3. Under *Otherwise*, add three actions in order: *AdGuard VPN* → *Turn VPN Connection On*, *Wait* (set to 2 seconds), and *Open App* (same app as above).
+2. Add an *If* action. Shortcuts fills the condition in for you: it takes the VPN status from the previous step and compares it with *Connected*. Inside it, add *Open App* and set it to the app you want — for example, YouTube.
+    ![]()
+3. Under *Otherwise*, add three actions in order: *AdGuard VPN* → *Connect to VPN*, *Wait* (set to 2 seconds), and *Open App* (same app as above).
 4. Tap the name at the top to set a custom icon and name, then test the shortcut with the play button.
 5. Add the shortcut to the Home Screen by tapping the name and selecting *Add to Home Screen*.
 
