@@ -77,7 +77,7 @@ If you need the VPN on for a certain app and nothing else, you can create a cust
 
 In the AdGuard VPN app, go to *Settings* → *Shortcuts* → *Set up Siri phrases*. You will then have two options: *Record a phrase to connect* or *Record a phrase to disconnect*.
 
-![Connect with Siri](https://cdn.adtidy.org/content/release_notes/vpn/ios/v2.17/siri.png)
+![Connect with Siri](https://cdn.adtidy.org/content/release_notes/vpn/ios/v2.17/siri_connect_en.png)
 
 Choose *Record a phrase to connect* or *Record a phrase to disconnect*, then say the phrase you want, for example “Hey Siri, connect to AdGuard VPN.” Once recorded, say the same phrase to Siri any time to run it.
 
