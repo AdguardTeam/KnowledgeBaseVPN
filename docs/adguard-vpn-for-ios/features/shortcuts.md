@@ -23,7 +23,7 @@ AdGuard VPN provides three ready-made shortcuts: *Connect*, *Disconnect*, *Toggl
 
 To set up a shortcut on your Home Screen, follow the quick instructions in the AdGuard VPN app. (*Settings* → *Shortcuts* → *Add shortcuts to the Home Screen*).
 
-![In-app instructions *mobile_border](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/in-app-home-screen.png)
+![In-app instructions *mobile_border](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/in_app_instructions.png)
 
 The instructions differ on older iOS versions. Here are the instructions for iOS 16:
 
