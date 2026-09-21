@@ -59,7 +59,7 @@ Note: The exact steps may vary depending on your iOS version.
 3. Tap *Add Widget*.
 4. While in edit mode, tap the widget to open the configuration menu, set *Folder* to *Custom*, and assign *Connect* to one slot and *Disconnect* to the other.
 
-![Add shortcut as widget](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/add_widget.png)
+![Add shortcut as widget](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/widget.png)
 
 ## One tap to open any app with VPN on
 
