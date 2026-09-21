@@ -25,19 +25,20 @@ To set up a shortcut on your Home Screen, follow the quick instructions in the A
 
 ![In-app instructions *mobile_border](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/in_app_instructions.png)
 
-The instructions differ on older iOS versions. Here are the instructions for iOS 16:
+The instructions differ on older iOS versions. Here are the instructions for iOS 26:
 
 1. Go to the Shortcuts app and tap the plus (+) button.
-2. Tap *Add Action*, go to *Apps* and select *AdGuard VPN*.
-3. Choose the shortcut you need: *Connect to VPN*, *Disconnect from VPN*, or *Toggle VPN connection*.
+2. Select *AdGuard VPN*.
+3. Choose the shortcut you need: *Connect to VPN*, *Disconnect from VPN*, *Toggle VPN connection*, or *VPN status*.
 
-![Add shortcut](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/shortcut-combined.png)
+![Add shortcut](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/add_shortcut.png)
 
 Here’s how to add the shortcut to your Home Screen.
 
 1. Long press the shortcut and tap *Share* → *Add to Home Screen*.
 2. Customize the shortcut name and icon if you need to, then tap *Add*. The shortcut will appear on your Home Screen as a 1x1 icon.
-![Add to Home Screen](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/homescreen-combined.png)
+
+![Add to Home Screen](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/add_to_home_screen.png)
 
 ### Control Сenter
 
@@ -49,7 +50,7 @@ You can add an AdGuard VPN shortcut to the Control Center for quick access from 
 
 Note: The exact steps may vary depending on your iOS version.
 
-![Add shortcut to Control Center](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/control-center-combined.png)
+![Add shortcut to Control Center](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/add_to_control_center.png)
 
 ### Widget
 
@@ -58,7 +59,7 @@ Note: The exact steps may vary depending on your iOS version.
 3. Tap *Add Widget*.
 4. While in edit mode, tap the widget to open the configuration menu, set *Folder* to *Custom*, and assign *Connect* to one slot and *Disconnect* to the other.
 
-![Add shortcut as widget](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/widgets-combined.png)
+![Add shortcut as widget](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/add_widget.png)
 
 ## One tap to open any app with VPN on
 
@@ -70,13 +71,13 @@ If you need the VPN on for a certain app and nothing else, you can create a cust
 4. Tap the name at the top to set a custom icon and name, then test the shortcut with the play button.
 5. Add the shortcut to the Home Screen by tapping the name and selecting *Add to Home Screen*.
 
-![Add custom shortcut](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/custom-shortcut-combined.png)
+![Add custom shortcut](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/add_custom_shortcut.png)
 
 ## Connect or disconnect with Siri
 
 In the AdGuard VPN app, go to *General* → *Shortcuts* → *Set up Siri phrases*. You will then have two options: *Record a phrase to connect* or *Record a phrase to disconnect*.
 
-![Connect with Siri](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/siri-combined.png)
+![Connect with Siri](https://cdn.adtidy.org/content/release_notes/vpn/ios/v2.17/siri.png)
 
 Choose *Record a phrase to connect* or *Record a phrase to disconnect*, then say the phrase you want, for example “Hey Siri, connect to AdGuard VPN.” Once recorded, say the same phrase to Siri any time to run it.
 
