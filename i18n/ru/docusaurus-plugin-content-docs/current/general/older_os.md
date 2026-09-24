@@ -1,57 +1,57 @@
 ---
-title: Installing AdGuard VPN on older OS versions
+title: Установка AdGuard VPN на старых версиях ОС
 sidebar_position: 14
 ---
 
-If your device runs an older operating system, you may not be able to install the latest version of AdGuard VPN. If this is the case, you can download an earlier, compatible version of the app using the links below.
+Если на вашем устройстве устаревшая операционная система, возможно, вы не сможете установить последнюю версию AdGuard VPN. В этом случае вы можете скачать более раннюю, но совместимую версию приложения по ссылкам ниже.
 
 :::note
 
-Older versions of the app may not include the latest features and may no longer receive updates.
+Старые версии не всегда поддерживают новые функции и могут больше не получать обновления.
 
 :::
 
 ## Android
 
-AdGuard VPN for Android and TrustTunnel require **Android 9 or later**.
+Для AdGuard VPN для Android и TrustTunnel требуется **Android 9 или более поздняя версия**.
 
-If your device runs an older Android version, you can install an earlier version of the app:
+Если на вашем устройстве установлена старая версия Android, вы можете установить раннюю версию приложения:
 
 - https://agrd.io/android-old-version
 
 ## iOS
 
-AdGuard VPN for iOS and TrustTunnel require **iOS 15.4 or later**.
+Для AdGuard VPN для iOS и TrustTunnel требуется **iOS 15.4 или более поздняя версия**.
 
 :::note
 
-Apple does not allow installing older app versions manually. If your device runs an older iOS version, AdGuard may not be available for installation.
+Apple не разрешает устанавливать старые версии приложений вручную. Если у вас старая версия iOS, AdGuard VPN может быть недоступен.
 
 :::
 
 ## macOS
 
-AdGuard VPN for Mac requires **macOS 12 Monterey or later** starting with beta version 2.9.
+Начиная с бета-версии 2.9б, для работы AdGuard VPN для Mac требуется **macOS 12 Monterey или более поздняя версия**.
 
-If your Mac runs an older macOS version, install one of the following versions:
+Если на вашем Mac установлена старая версия macOS, установите одну из следующих версий AdGuard VPN:
 
-- macOS versions earlier than 10.15
+- Для macOS ниже 10.15
   https://agrd.io/vpn-macos-10-15
 
-- macOS 10.15–11
+- Для macOS 10.15–11
   https://agrd.io/vpn-macos-10-15-11
 
-Download the `.dmg` file and install the app as usual.
+Скачайте файл `.dmg` и установите приложение.
 
 ## Windows
 
-AdGuard VPN for Windows requires **Windows 8 or later**.
+Для работы AdGuard VPN для Windows требуется **Windows 8 или более поздняя версия**.
 
-If you’re using an older version of Windows, install the following version:
+Если вы используете старую версию Windows, установите следующую версию AdGuard VPN:
 
-- Windows 7
+- Для Windows 7
   https://agrd.io/vpn-windows-7
 
-Download the `.exe` file and run the installer.
+Скачайте файл `.exe` и запустите установщик.
 
-If possible, we recommend updating your operating system to the latest version supported by your device to ensure the best performance and security.
+Рекомендуем обновить ОС до актуальной версии, которую поддерживает ваше устройство — это нужно для стабильной и безопасной работы приложения.
