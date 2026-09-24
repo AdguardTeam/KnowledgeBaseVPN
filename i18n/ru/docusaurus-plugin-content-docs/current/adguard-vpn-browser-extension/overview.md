@@ -62,36 +62,36 @@ sidebar_position: 1
 
 Узнайте больше о [DNS-серверах от различных провайдеров](https://adguard-dns.io/kb/general/dns-providers/).
 
-### Profile
+### Профиль
 
-Profiles let you save VPN settings for different tasks and switch between them quickly. For example, you can create one profile for work, another for streaming, and another for public Wi-Fi.
+Профили позволяют сохранять настройки VPN для разных задач и быстро переключаться между ними. Например, можно создать один профиль для работы, другой — для стриминговых сервисов, а третий — для общественных сетей Wi-Fi.
 
-To create or manage profiles, click the AdGuard VPN icon on your browser’s panel → three-line menu in the upper-right corner (☰) → *Profiles*.
+Чтобы создать профили или управлять ими, нажмите значок AdGuard VPN на панели браузера → меню в виде трёх линий в правом верхнем углу (☰) → *Профили*.
 
-![Profile main screen](https://cdn.adtidy.org/content/release_notes/vpn/browser_extension/2.10/profiles_en.png)
+![Главный экран профиля](https://cdn.adtidy.org/content/release_notes/vpn/browser_extension/2.10/profiles_en.png)
 
-You can create up to 10 profiles. Each profile can have its own name and settings:
+Вы можете создать до 10 профилей. У каждого профиля может быть собственное имя и настройки:
 
-- Server location
+- Локация
 - WebRTC
-- DNS server
+- DNS-сервер
 - Исключения
 
-![Profile settings](https://cdn.adtidy.org/content/release_notes/vpn/browser_extension/2.10/settings_en.png)
+![Настройки профиля](https://cdn.adtidy.org/content/release_notes/vpn/browser_extension/2.10/settings_en.png)
 
-Once profiles are set up, you can switch between them directly from the extension popup.
+После настройки профилей вы сможете переключаться между ними прямо во всплывающем окне расширения.
 
-![Extension popup](https://cdn.adtidy.org/content/release_notes/vpn/browser_extension/2.10/popup_en.png)
+![Всплывающее окно расширения](https://cdn.adtidy.org/content/release_notes/vpn/browser_extension/2.10/popup_en.png)
 
 :::note
 
-The location saved in a profile will stay the same until you change it in that profile’s settings. You can still choose another location from the extension popup, but this change is temporary. If you switch profiles or reopen the browser, AdGuard VPN will use the saved location from the selected profile.
+Локация в профиле останется неизменной, пока вы не поменяете её в настройках профиля. Вы можете выбрать другую локацию во всплывающем окне расширения, но это изменение будет временным. Если вы переключите профиль или перезапустите браузер, AdGuard VPN будет использовать сохранённую локацию из выбранного профиля.
 
-Other settings work differently. If you change *WebRTC*, *DNS server*, or *Exclusions* while a profile is active, AdGuard VPN will save these changes to that profile.
+Другие настройки работают иначе. Если изменить *WebRTC*, *DNS-сервер* или *Исключения*, когда профиль активен, AdGuard VPN сохранит изменения в этом профиле.
 
 :::
 
-### Exclusions
+### Исключения
 
 Следующая вкладка содержит одну из главных отличительных особенностей AdGuard VPN — два режима с отдельными списками исключений.
 
