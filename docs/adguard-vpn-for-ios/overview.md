@@ -73,7 +73,7 @@ Here’s how to add all necessary domains for a popular service to exclusion lis
 
 There is an additional pre-made exclusions list available when the app language is Russian.
 
-A banner will appear on your app's main screen after two successful VPN connections using *General* mode. The banner suggests adding a ready-made list of popular Russian websites and services — banks, government services, and marketplaces — to website exclusions with one tap. 
+A dialog will appear on your app's main screen after two successful VPN connections using *General* mode. The banner suggests adding a ready-made list of popular Russian websites and services — banks, government services, and marketplaces — to website exclusions with one tap. 
 
 :::note
 
@@ -81,7 +81,7 @@ The banner is based on the app’s language, not on your geolocation.
 
 :::
 
-The list won’t overwrite your own rules or create duplicates. Once it is added, the app takes you to the *Exclusions* screen and shows an undo option so you can revert the change.
+The list won’t overwrite your own rules or create duplicates. Once it is added, the app takes you to the *Exclusions* screen and shows an *Undo* option so you can revert the change.
 
 ### Import/export exclusions
 

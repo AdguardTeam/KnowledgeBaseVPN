@@ -69,6 +69,20 @@ If you’ve accidentally deleted a domain or subdomain, just tap *Reset to defau
 
 ![Reset to default *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/reset.jpg)
 
+### Additional exclusions list
+
+There is an additional pre-made exclusions list that can be used, if your app language is Russian.
+
+A dialog will appear on your app's main screen after two successful VPN connections using *General* mode. The banner suggests adding a ready-made list of popular Russian websites and services — banks, government services, and marketplaces — to website exclusions with one tap. 
+
+:::note
+
+The banner is based on the app’s language, not on your geolocation.
+
+:::
+
+The list won’t overwrite your own rules or create duplicates. Once it is added, the app takes you to the *Exclusions* screen and shows an *Undo* option so you can revert the change.
+
 ### Apps
 
 You can also manage VPN for apps. To exclude an app from the VPN tunnel, tap *Add app*. To use VPN **selectively**, tap *Change mode*.
@@ -80,20 +94,6 @@ You can also manage VPN for apps. To exclude an app from the VPN tunnel, tap *Ad
 In *Integrated mode*, you can only manage apps through AdGuard Ad Blocker.
 
 :::
-
-### Additional exclusions list
-
-There is an additional pre-made exclusions list that can be used, if your app language is Russian.
-
-A banner will appear on your app's main screen after two successful VPN connections using *General* mode. The banner suggests adding a ready-made list of popular Russian websites and services — banks, government services, and marketplaces — to website exclusions with one tap. 
-
-:::note
-
-The banner is based on the app’s language, not on your geolocation.
-
-:::
-
-The list won’t overwrite your own rules or create duplicates. Once it is added, the app takes you to the *Exclusions* screen and shows an undo option so you can revert the change.
 
 ## Settings
 
