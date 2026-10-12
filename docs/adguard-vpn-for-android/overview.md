@@ -81,6 +81,20 @@ In *Integrated mode*, you can only manage apps through AdGuard Ad Blocker.
 
 :::
 
+### Additional exclusions list
+
+There is an additional pre-made exclusions list that can be used, if your system language is Russian. 
+
+A banner will appear on your app's main screen after two successful VPN connections using *General* mode. The banner suggests adding a ready-made list of popular Russian websites and services — banks, government services, and marketplaces — to website exclusions with one tap. 
+
+:::note
+
+The banner is based on the app’s language, not on your geolocation.
+
+:::
+
+The list won’t overwrite your own rules or create duplicates. Once it is added, the app takes you to the *Exclusions* screen and shows an undo option so you can revert the change.
+
 ## Settings
 
 You can reach *Settings* by pressing the gear icon at the bottom right of the screen.
