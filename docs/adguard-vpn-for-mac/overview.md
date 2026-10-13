@@ -119,7 +119,7 @@ There are only two logging levels but we strongly recommend that you use the fir
 
 Although this option is located in *Advanced settings*, it can be enabled without hesitation. You can hide the AdGuard VPN icon from the menu bar, it won’t prevent our app from running in the background.
 
-##### AdGuard VPN protocol
+#### AdGuard VPN protocol
 
 ![Select VPN protocol](https://cdn.adtidy.org/content/release_notes/vpn/mac/v2.7/protocol_en.png)
 
