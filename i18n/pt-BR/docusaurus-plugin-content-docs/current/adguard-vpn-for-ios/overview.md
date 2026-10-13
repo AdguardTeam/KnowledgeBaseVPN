@@ -69,6 +69,20 @@ Veja como adicionar todos os domínios necessários para um serviço popular à 
 
 ![Lista de serviços populares *mobile_border](https://cdn.adguard-vpn.com/content/release_notes/vpn/ios/v2.4/add_website_en.png)
 
+### Pre-made exclusions for Russian services
+
+If your app language is Russian, you can add a list of popular Russian websites and services — banks, government services, and marketplaces — to exclusions.
+
+After two successful VPN connections in *General* mode, a dialog appears on the main screen, offering to add the list with one tap.
+
+:::observação
+
+Availability depends on the app’s language, not your location.
+
+:::
+
+The list won’t overwrite your own rules or create duplicates. Once it is added, the app takes you to the *Exclusions* screen and shows an *Undo* option so you can revert the change.
+
 ### Importar/exportar exclusões
 
 Outro recurso útil é a importação e exportação de listas de exclusão. Dessa forma, você pode compartilhar listas de exclusão de e para outros dispositivos.
@@ -128,7 +142,7 @@ O modo *VPN* utiliza o [TrustTunnel](https://trusttunnel.org/) — um protocolo 
 
 No **modo Integrado**, o AdGuard VPN poderá funcionar simultaneamente com o AdGuard Ad Blocker para iOS usando o protocolo IPSec. Este protocolo também é seguro, mas um pouco mais lento e fácil de detectar. Você não precisa fazer nada para configurar a integração: basta instalar os dois aplicativos e alternar para este modo.
 
-:::observação
+:::note
 
 No **modo Integrado**, você não pode usar o recurso Exclusões ou escolher um servidor DNS.
 

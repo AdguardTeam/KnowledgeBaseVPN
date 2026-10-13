@@ -88,7 +88,7 @@
     "description": "The label for category 'Solving problems' in sidebar 'sidebar'"
   },
   "sidebar.sidebar.category.Features": {
-    "message": "Features",
+    "message": "Funkce",
     "description": "The label for category 'Features' in sidebar 'sidebar'"
   }
 }

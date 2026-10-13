@@ -7,7 +7,7 @@ If you encounter any problems while using AdGuard VPN for Mac, you can inform us
 
 ## Standard logs
 
-デフォルトでは、AdGuard VPN for Mac は、「通常記録」ログレベル（アプリの実行プロセスに関するデータのベーシックな収集）を使用します。 通常記録ログを送信する方法は以下の通りです:
+デフォルトでは、AdGuard VPN for Mac は、「通常記録」ログレベル（アプリの実行プロセスに関するデータのベーシックな収集）を使用します。通常記録ログを送信する方法は以下の通りです:
 
 1. AdGuard VPN for Mac アプリを開き、可能であれば、問題に至った操作を繰り返して、問題を再現してください。 ※問題が発生した時刻を記録しておいてください。
 
@@ -25,7 +25,7 @@ If you encounter any problems while using AdGuard VPN for Mac, you can inform us
 
 ## Extended logs
 
-ほとんどの場合、潜在的なバグ・不具合を突き止めるのに「通常記録」ログレベルが十分です。 しかし、端末や接続に関するより詳細な技術情報が必要な場合もあり、その場合は、AdGuardのサポートチームが、「 すべてを記録」というログレベルを有効にするようお願いすることがあります。 「すべてを記録」ログを送信する方法は以下の通りです:
+ほとんどの場合、潜在的なバグ・不具合を突き止めるのに「通常記録」ログレベルが十分です。しかし、端末や接続に関するより詳細な技術情報が必要な場合もあり、その場合は、AdGuardのサポートチームが、「 すべてを記録」というログレベルを有効にするようお願いすることがあります。「すべてを記録」ログを送信する方法は以下の通りです:
 
 1. Open AdGuard VPN for Mac and select **Settings** → **App settings** → **Advanced settings**.
 
@@ -47,4 +47,4 @@ If for some reason it is more convenient for you to send us logs in another way,
 
 :::
 
-この記事は定期的に更新されます。 この記事で問題の解決方法が見つからない場合は、AdGuardテクニカルサポートのsupport@adguard-vpn.com（日本語対応）にお問い合わせください。
+この記事は定期的に更新されます。この記事で問題の解決方法が見つからない場合は、AdGuardテクニカルサポートのsupport@adguard-vpn.com（日本語対応）にお問い合わせください。

@@ -119,10 +119,16 @@ Přestože se tato možnost nachází v *Rozšířených nastavení*, lze ji bez
 
 Přestože se tato možnost nachází v *Rozšířených nastavení*, lze ji bez váhání povolit. Ikonu AdGuard VPN můžete z panelu nabídek skrýt, nezabrání to běhu naší aplikace na pozadí.
 
-##### AdGuard VPN protokol
+#### AdGuard VPN protocol
 
 ![Select VPN protocol](https://cdn.adtidy.org/content/release_notes/vpn/mac/v2.7/protocol_en.png)
 
 Pokud chcete, můžete přepnout AdGuard VPN tak, aby místo *automatického výběru* používal pouze protokol HTTP2/TLS nebo HTTP3/QUIC. Každý protokol má své přednosti, ale nejlepší volba se může lišit v závislosti na vaší poloze, podmínkách sítě a dokonce i na serveru, ke kterému se připojujete. To zlepšuje rychlost a stabilitu VPN, což je obzvláště užitečné v regionech, kde je používání VPN omezené nebo nespolehlivé.
 
 Pokud chcete, můžete přepnout AdGuard VPN tak, aby místo *automatického výběru* používal pouze protokol HTTP2/TLS nebo HTTP3/QUIC. Každý protokol má své přednosti, ale nejlepší volba se může lišit v závislosti na vaší poloze, podmínkách sítě a dokonce i na serveru, ke kterému se připojujete.
+
+#### IPv6 interface
+
+![IPv6 interface](https://cdn.adtidy.org/content/release_notes/vpn/mac/v2.10.1/ipv6_interface_en.png)
+
+The **IPv6 interface** setting controls whether IPv6 traffic is available while you’re connected to AdGuard VPN. It’s enabled by default, so you can use IPv6 if your network supports it. If YouTube, Gemini, or other Google services don’t work with the VPN on, try turning this setting off. This blocks IPv6 traffic and lets you check whether the services work over IPv4.
