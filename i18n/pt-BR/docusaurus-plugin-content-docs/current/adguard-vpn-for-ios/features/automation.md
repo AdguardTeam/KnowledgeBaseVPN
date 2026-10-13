@@ -1,37 +1,37 @@
 ---
-title: Automation
+title: Automação
 sidebar_position: 2
-sidebar_label: Automation
+sidebar_label: Automação
 ---
 
-_Automation_ is a feature in the Shortcuts app that performs an action for you automatically based on the conditions you choose. For example, it can turn off AdGuard VPN the moment you open an app, and turn it back on when you close that app.
+A _automação_ é um recurso no aplicativo Atalhos que executa uma ação para você automaticamente com base nas condições que você escolher. Por exemplo, ele pode desativar o AdGuard VPN no momento em que você abre um aplicativo e ativá-lo novamente quando você fecha esse aplicativo.
 
-This is useful if you want AdGuard VPN off for some apps but not for others. AdGuard VPN for iOS doesn’t have app exclusions, so automation is the closest way to get the same result without switching the VPN on and off yourself every time.
+Isso é útil se você quiser o AdGuard VPN desativado para alguns aplicativos, mas não para outros. O AdGuard VPN para iOS não possui exclusões de aplicativos, portanto a automação é a maneira mais próxima de obter o mesmo resultado sem precisar ativar e desativar a VPN você mesmo toda vez.
 
-Here’s how to set up an automation that disconnects from AdGuard VPN when you open an app, and turns it back on when you close it.
+Veja como configurar uma automação que desconecta do AdGuard VPN quando você abre um aplicativo e o ativa novamente quando você o fecha.
 
-## Turn off AdGuard VPN when you open an app
+## Desativar o AdGuard VPN ao abrir um aplicativo
 
-1. In the Shortcuts app, go to _Automation_ and tap _New Automation_ or the plus (+) button in the top right corner.
-2. Choose _App_, select one or several apps, and check _Is Opened_.
-3. Turn on _Run Immediately_ and turn off _Notify When Run_.
-4. Tap _Next_, select AdGuard VPN, and pick _Disconnect_.
+1. No aplicativo Atalhos, vá para _Automação_ e toque em _Nova Automação_ ou no botão de adição (+) no canto superior direito.
+2. Escolha _Aplicativo_, selecione um ou vários aplicativos e marque _É aberto_.
+3. Ative _Executar Imediatamente_ e desative _Notificar ao Executar_.
+4. Toque em _Seguinte_, selecione o AdGuard VPN e escolha _Desconectar_.
 
-![App automation](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/automation1-combined.png)
+![Automação de aplicativo](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/automation1-combined.png)
 
-To turn AdGuard VPN back on when you close the same app, repeat the steps above, but select _Is Closed_ in step 2 and set the action in step 4 to _Connect_.
+Para ativar o AdGuard VPN novamente quando você fechar o mesmo aplicativo, repita as etapas acima, mas selecione _For Fechado_ na etapa 2 e defina a ação na etapa 4 como _Conectar_.
 
-## Turn AdGuard VPN off when you join home Wi-Fi
+## Desative o AdGuard VPN ao se conectar ao Wi-Fi doméstico
 
-If you don’t need to use VPN at home, set it to turn off when you join your home Wi-Fi network and back on when you leave.
+Se você não precisa usar VPN em casa, configure-a para desativar quando você se conectar à sua rede Wi-Fi doméstica e reativar quando sair.
 
-1. In the Shortcuts app, go to _Automation_ and tap _New Automation_ or ‘+’ in the top right corner.
-2. Choose _Wi-Fi_, select _Is Joined_, and choose your home network.
-3. Turn on _Run Immediately_ and _Run After Connection Interruption_.
-4. Tap _Next_, select AdGuard VPN, and pick _Disconnect_.
+1. No aplicativo Atalhos, vá para _Automação_ e toque em _Nova Automação_ ou ‘+’ no canto superior direito.
+2. Escolha _Wi-Fi_, selecione _Ao Conectar_ e escolha sua rede doméstica.
+3. Ative _Executar Imediatamente_ e _Executar Após Interrupção de Conexão_.
+4. Toque em _Seguinte_, selecione o AdGuard VPN e escolha _Desconectar_.
 
-![Wi-Fi automation \*mobile](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/automation-2-combined.png)
+![Automação de Wi-Fi \*mobile](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/automation-2-combined.png)
 
-## Turn AdGuard VPN back on when you leave
+## Ative o AdGuard VPN novamente ao sair
 
-Repeat the steps above, but choose _Is Disconnected_ instead of _Is Joined_, turn on _Run Immediately_, and set the action to _Connect_.
+Repita as etapas acima, mas escolha _Ao Desconectar-se_ em vez de _Ao Conectar-se_, ative _Executar Imediatamente_ e defina a ação como _Conectar_.
