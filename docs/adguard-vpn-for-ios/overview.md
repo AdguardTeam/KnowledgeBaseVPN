@@ -69,15 +69,15 @@ Here’s how to add all necessary domains for a popular service to exclusion lis
 
 ![List of popular services *mobile_border](https://cdn.adguard-vpn.com/content/release_notes/vpn/ios/v2.4/add_website_en.png)
 
-### Additional exclusions list
+### Pre-made exclusions for Russian services
 
-There is an additional pre-made exclusions list available when the app language is Russian.
+If your app language is Russian, you can add a list of popular Russian websites and services — banks, government services, and marketplaces — to exclusions.
 
-A dialog will appear on your app's main screen after two successful VPN connections using *General* mode. It suggests adding a ready-made list of popular Russian websites and services — banks, government services, and marketplaces — to website exclusions with one tap.
+After two successful VPN connections in *General* mode, a dialog appears on the main screen, offering to add the list with one tap.
 
 :::note
 
-The dialog window is based on the app’s language, not on your geolocation.
+Availability depends on the app’s language, not your location.
 
 :::
 
