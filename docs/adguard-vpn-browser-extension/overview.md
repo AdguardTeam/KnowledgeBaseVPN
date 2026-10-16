@@ -63,7 +63,7 @@ The *Settings* menu is divided into two distinct sections:
 
 #### Exclusions
 
-The *Exclusions* tab allows you to configure website routing. You can choose between two options, each maintaining a separate list:
+The *Exclusions* option allows you to configure website routing. You can choose between two options, each maintaining a separate list:
 
 - **VPN is on everywhere except for the websites below**: AdGuard VPN works on all websites by default, with the exception of the domains added to this list.
 - **VPN is on selectively: only for the websites below**: AdGuard VPN works only on the websites added to this list and remains inactive for all others.
@@ -85,7 +85,7 @@ Done!
 
 #### DNS server
 
-By default, the [system DNS server](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns) provided by your ISP is selected, but it may compromise your privacy. With AdGuard VPN Browser extension, you can select a DNS server that provides better speed and security, and even blocks ads or potentially dangerous domains. Brief descriptions under the names of DNS servers will help you navigate and make your decision.
+By default, the *AdGuard DNS Non-filtering* server is selected to ensure privacy without interfering with website content. If you want additional protection, you can choose a DNS server that blocks ads, trackers, or malicious domains, or enables parental control. Brief descriptions under the names of DNS servers will help you navigate and make your decision.
 
 Learn more about [DNS servers from various providers](https://adguard-dns.io/kb/general/dns-providers/).
 
@@ -122,12 +122,12 @@ The options in this section apply globally to the entire extension, regardless o
 
 To create, edit, or delete profiles, open the profile switcher in the bottom-left corner of the sidebar and select *Manage profiles*.
 
-![Manage profiles](https://cdn.adtidy.org/content/release_notes/vpn/browser_extension/2.12/manage-profiles.png)
+![Manage profiles](https://cdn.adtidy.org/content/release_notes/vpn/browser_extension/2.12/manage-profiles-new.png)
 
 In this view, you can rename profiles, delete setups you no longer need, and configure the following parameters for each profile individually:
 
 - **Quick connect**: Set the default connection behavior (Fastest location, Last used location, or a specific country and server).
-- **DNS server**: Select a dedicated DNS provider or keep the system DNS server.
+- **DNS server**: Select a dedicated DNS provider or keep the default server (AdGuard DNS Non-filtering).
 - **Block WebRTC**: Enable or disable WebRTC blocking to prevent IP leaks.
 - **Exclusions**: Set up a custom exclusions list and select a routing mode for that profile.
 
