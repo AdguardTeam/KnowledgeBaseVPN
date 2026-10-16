@@ -43,7 +43,7 @@ All statistics are stored locally on your device. We only calculate how much dat
 
 The *Stats* section is available to users of the paid version.
 
-## Settings
+## Settings (for the active profile)
 
 To manage your AdGuard VPN Browser Extension:
 
