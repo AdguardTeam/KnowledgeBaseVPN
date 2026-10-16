@@ -43,7 +43,7 @@ All statistics are stored locally on your device. We only calculate how much dat
 
 The *Stats* section is available to users of the paid version.
 
-## Settings
+## Settings (for the active profile)
 
 To manage your AdGuard VPN Browser Extension:
 
@@ -52,62 +52,86 @@ To manage your AdGuard VPN Browser Extension:
 
 Once done, you’ll see several tabs on the left:
 
-### General
+### Settings
 
-A few important settings are gathered inside this tab. Here you can choose a DNS server to use, add or remove the AdGuard VPN icon from the browser’s context menu, block WebRTC, change the extension’s theme, and allow AdGuard to gather anonymous crash reports and technical data.
+The *Settings* menu is divided into two distinct sections:
 
-#### DNS server
+- **Settings**: Options here apply exclusively to the currently active profile: *Exclusions*, *DNS server*, *Quick connect*, and *Block WebRTC*.
+- **General settings**: These parameters apply to the entire extension, regardless of which profile is selected: *Theme*, *Language*, *Display AdGuard VPN in the browser context menu*, and *Help improve AdGuard VPN*.
 
-By default, the [system DNS server](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns) provided by your ISP is selected, but it may compromise your privacy. With AdGuard VPN Browser extension, you can select a DNS server that provides better speed and security, and even blocks ads or potentially dangerous domains. Brief descriptions under the names of DNS servers will help you navigate and make your decision.
+![Settings](https://cdn.adtidy.org/content/release_notes/vpn/browser_extension/2.12/settings.png)
 
-Learn more about [DNS servers from various providers](https://adguard-dns.io/kb/general/dns-providers/).
+#### Exclusions
 
-### Profile
+The *Exclusions* option allows you to configure website routing. You can choose between two options, each maintaining a separate list:
 
-Profiles let you save VPN settings for different tasks and switch between them quickly. For example, you can create one profile for work, another for streaming, and another for public Wi-Fi.
+- **VPN is on everywhere except for the websites below**: AdGuard VPN works on all websites by default, with the exception of the domains added to this list.
+- **VPN is on selectively: only for the websites below**: AdGuard VPN works only on the websites added to this list and remains inactive for all others.
 
-To create or manage profiles, click the AdGuard VPN icon on your browser’s panel → three-line menu in the upper-right corner (☰) → *Profiles*.
+When adding a website to an exclusions list, you can enter the domain manually or select the *From the list* option. It provides predefined categories (such as *Shopping* or *Messengers*) with popular services, allowing you to add all relevant domains for a service in one click.
 
-![Profile main screen](https://cdn.adtidy.org/content/release_notes/vpn/browser_extension/2.10/profiles_en.png)
+Managing exclusions via the *Settings* tab applies the lists to the active profile. You can also configure exclusions for any profile under *Manage profiles*.
 
-You can create up to 10 profiles. Each profile can have its own name and settings:
-
-- Server location
-- WebRTC
-- DNS server
-- Exclusions
-
-![Profile settings](https://cdn.adtidy.org/content/release_notes/vpn/browser_extension/2.10/settings_en.png)
-
-Once profiles are set up, you can switch between them directly from the extension popup.
-
-![Extension popup](https://cdn.adtidy.org/content/release_notes/vpn/browser_extension/2.10/popup_en.png)
-
-:::note
-
-The location saved in a profile will stay the same until you change it in that profile’s settings. You can still choose another location from the extension popup, but this change is temporary. If you switch profiles or reopen the browser, AdGuard VPN will use the saved location from the selected profile.
-
-Other settings work differently. If you change *WebRTC*, *DNS server*, or *Exclusions* while a profile is active, AdGuard VPN will save these changes to that profile.
-
-:::
-
-### Exclusions
-
-The next tab contains one of the main distinctive features of AdGuard VPN — two modes with separate exclusion lists.
-
-In **General mode**, AdGuard VPN by default works on all websites, with the exception of the websites you’ve added to the exclusions list. In **Selective mode**, vice versa, AdGuard VPN by default doesn’t work anywhere. You can add any websites where you’d like it to work to an exclusions list, separate from the one you saw in the **General mode**.
-
-When adding a website to an exclusion list, you can enter the website manually or select the **From the list** option. In the latter case, you’ll see eight categories (for example, *Shopping* or *Messengers*), each suggesting several popular services. You can exclude any of these services in one click. This will add all domains relevant to that specific service to exclusions.
-
-#### Import and export
+##### Import and export
 
 Not only can you add and remove websites, you can also transfer ready exclusions lists to other devices where AdGuard VPN is installed. To export your exclusions list, follow the 4-step instruction below:
 
-1. Open AdGuard VPN Browser extension from where you want to export your lists of exclusions. Find the appropriate section and click the *Export* button. The `exclusions.zip` archive will be downloaded.
-1. There are two `.txt` files inside the archive, one for each of the General and Selective lists. Add more exclusions to them, delete the existing ones, rename files, or just leave the archive as it is.
+1. Open AdGuard VPN Browser extension from where you want to export your exclusions lists. Find the appropriate section and click the *Export* button. The `exclusions.zip` archive will be downloaded.
+1. There are two `.txt` files inside the archive, one for each of the two exclusions lists. Add more exclusions to them, delete the existing ones, rename files, or just leave the archive as it is.
 1. When transferring between different devices, send the `.zip` file to the device for import.
 1. Open AdGuard VPN on that device. Find the appropriate section, click the *Import* button and select the archive.
+
 Done!
+
+#### DNS server
+
+By default, the *AdGuard DNS Non-filtering* server is selected to ensure privacy without interfering with website content. If you want additional protection, you can choose a DNS server that blocks ads, trackers, or malicious domains, or enables parental control. Brief descriptions under the names of DNS servers will help you navigate and make your decision.
+
+Learn more about [DNS servers from various providers](https://adguard-dns.io/kb/general/dns-providers/).
+
+Configuring *DNS server* directly in the *Settings* tab applies the selected server to the active profile. You can also assign a preferred DNS server to any profile under *Manage profiles*.
+
+#### Quick connect
+
+The *Quick connect* section defines which location the extension connects to when clicking the main *Connect* button:
+
+- Fastest location
+- Last used location
+- Specific countries and servers
+
+Configuring *Quick connect* directly in the *Settings* tab applies these parameters to the active profile. You can also set a preferred connection location for any profile under *Manage profiles*.
+
+![Quick connect](https://cdn.adtidy.org/content/release_notes/vpn/browser_extension/2.12/quick-connect.png)
+
+#### Block WebRTC
+
+This feature blocks WebRTC, which can leak your real IP address even when using a proxy or VPN. Some messengers, streaming platforms, or games may stop working properly with this option enabled.
+
+Toggling *Block WebRTC* directly in the *Settings* tab applies this setting to the active profile. You can also enable or disable WebRTC blocking for any profile under *Manage profiles*.
+
+### General settings
+
+The options in this section apply globally to the entire extension, regardless of which profile is selected:
+
+- **Theme**: Select a preferred interface appearance: Light, Dark, or System.
+- **Language**: Change the display language of the extension.
+- **Display AdGuard VPN in the browser context menu**: Toggle quick access to AdGuard VPN actions from the browser's right-click menu.
+- **Help improve AdGuard VPN**: Enable sending crash reports and technical data to help improve extension performance and stability. All data is collected anonymously, is never shared with third parties, and you can withdraw your consent at any time.
+
+### Manage profiles
+
+To create, edit, or delete profiles, open the profile switcher in the bottom-left corner of the sidebar and select *Manage profiles*.
+
+![Manage profiles](https://cdn.adtidy.org/content/release_notes/vpn/browser_extension/2.12/manage-profiles-new.png)
+
+In this view, you can rename profiles, delete setups you no longer need, and configure the following parameters for each profile individually:
+
+- **Quick connect**: Set the default connection behavior (Fastest location, Last used location, or a specific country and server).
+- **DNS server**: Select a dedicated DNS provider or keep the default server (AdGuard DNS Non-filtering).
+- **Block WebRTC**: Enable or disable WebRTC blocking to prevent IP leaks.
+- **Exclusions**: Set up a custom exclusions list and select a routing mode for that profile.
+
+The *Default* profile is protected and cannot be renamed or deleted.
 
 ### Account
 
