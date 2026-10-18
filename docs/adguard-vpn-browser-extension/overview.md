@@ -122,6 +122,8 @@ The options in this section apply globally to the entire extension, regardless o
 
 To create, edit, or delete profiles, open the profile switcher in the bottom-left corner of the sidebar and select *Manage profiles*.
 
+You can have up to 10 profiles, including the *Default* profile.
+
 ![Manage profiles](https://cdn.adtidy.org/content/release_notes/vpn/browser_extension/2.12/manage-profiles-new.png)
 
 In this view, you can rename profiles, delete setups you no longer need, and configure the following parameters for each profile individually:
