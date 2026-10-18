@@ -1,24 +1,24 @@
 ---
-title: Shortcuts
+title: ショートカット
 sidebar_position: 1
-sidebar_label: Shortcuts
+sidebar_label: ショートカット
 ---
 
-Shortcuts, a tool built into iOS, makes it easy to manage your connections without opening AdGuard VPN. You can place a _Connect_, _Disconnect_, or _Toggle VPN_ shortcut on your Home Screen, in Control Center, or in a widget, or set up a Siri phrase to connect with your voice.
+iOSに標準搭載されている「ショートカット」を使えば、AdGuard VPNアプリを開かなくても、VPNへの接続を簡単に管理できます。ホーム画面、コントロールセンター、またはウィジェットに「_接続する_」、「_切断する_」、または「_VPNをオン・オフにする_」のショートカットを配置したり、声で接続するためのSiriフレーズを設定したりできます。
 
-Shortcuts can also include more complex automations. For example, your banking app might not work with a VPN on, but you always want it on for Instagram, or you want your VPN to turn off automatically on home Wi-Fi. Shortcuts lets you automate these scenarios.
+ショートカットには、より複雑なオートメーションを含めることもできます。例えば、VPNがオンになっていると銀行アプリが動作しない場合がありますが、Instagramでは常にオンにしておきたい場合や、自宅のWi-FiではVPNを自動的にオフにしたい場合などがあります。ショートカットを使用すると、これらのシナリオを自動化できます。
 
-## Before you start
+## 始める前の準備
 
-Make sure that:
+以下をご確認ください:
 
-- You have the Shortcuts app installed on your iPhone or iPad;
-- AdGuard VPN is installed;
-- You’re signed in to AdGuard VPN and have a VPN profile installed.
+- iPhoneまたはiPadに「ショートカット」アプリがインストールされていること
+- AdGuard VPN アプリがインストールされていること
+- AdGuard VPN アプリにサインインしており、VPNプロファイルがインストールされていること
 
-## Connect or disconnect in one tap
+## ワンタップでVPN接続・切断
 
-AdGuard VPN provides three ready-made shortcuts: _Connect_, _Disconnect_, _Toggle VPN_. _Connect_ turns on the VPN and connects to your last used location. _Disconnect_ turns off the VPN. _Toggle VPN_ switches between the two: it connects when the VPN is off and disconnects when it’s on. You’ll find these shortcuts under _App Shortcuts_ in the Shortcuts app. Add any of them to the three places listed below.
+AdGuard VPN には、「接続」、「切断」、「VPNの切り替え」という3つの作成済みショートカットが用意されています。 _Connect_ turns on the VPN and connects to your last used location. _Disconnect_ turns off the VPN. _Toggle VPN_ switches between the two: it connects when the VPN is off and disconnects when it’s on. You’ll find these shortcuts under _App Shortcuts_ in the Shortcuts app. Add any of them to the three places listed below.
 
 ### Home Screen
 

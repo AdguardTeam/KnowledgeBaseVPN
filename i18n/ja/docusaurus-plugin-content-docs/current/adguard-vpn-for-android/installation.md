@@ -29,6 +29,6 @@ However, you still can [download an older, compatible version](https://agrd.io/v
 
 ## AdGuard VPN for Android をアンインストールする方法
 
-AdGuard VPN for Androidを削除することを決めた場合、アプリのアイコンを見つけて長押ししてください。 開いたリストで、「*アンインストール*」をタップします。
+AdGuard VPN for Androidを削除することを決めた場合、アプリのアイコンを見つけて長押ししてください。開いたリストで、「*アンインストール*」をタップします。
 
 You can learn more about the AdGuard VPN for Android in [this article](/adguard-vpn-for-android/overview).
