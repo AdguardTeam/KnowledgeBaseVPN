@@ -7,7 +7,7 @@ AdGuard VPN Browser Extension is available for Chrome, Firefox, Opera, and Edge.
 
 :::note
 
-You can only use AdGuard VPN Browser Extension when logged in. Sign in with your AdGuard account or via Google, Facebook, or Apple. In the latter case make sure that your account is bound to the same email address as your AdGuard account. If you have an [AdGuard VPN subscription](/general/subscription), it will be activated automatically in AdGuard VPN Browser extension. Don’t have an AdGuard account yet? [Create it here](https://auth.adguardaccount.com/registration.html).
+You can only use AdGuard VPN Browser Extension when logged in. Sign in with your AdGuard account or via Google, Facebook, or Apple. In the latter case make sure that your account is bound to the same email address as your AdGuard account. If you have an [AdGuard VPN subscription](/general/subscription), it will be activated automatically in AdGuard VPN Browser Extension. Don’t have an AdGuard account yet? [Create it here](https://auth.adguardaccount.com/registration.html).
 
 :::
 
@@ -76,7 +76,7 @@ Managing exclusions via the *Settings* tab applies the lists to the active profi
 
 Not only can you add and remove websites, you can also transfer ready exclusions lists to other devices where AdGuard VPN is installed. To export your exclusions list, follow the 4-step instruction below:
 
-1. Open AdGuard VPN Browser extension from where you want to export your exclusions lists. Find the appropriate section and click the *Export* button. The `exclusions.zip` archive will be downloaded.
+1. Open AdGuard VPN Browser Extension from where you want to export your exclusions lists. Find the appropriate section and click the *Export* button. The `exclusions.zip` archive will be downloaded.
 1. There are two `.txt` files inside the archive, one for each of the two exclusions lists. Add more exclusions to them, delete the existing ones, rename files, or just leave the archive as it is.
 1. When transferring between different devices, send the `.zip` file to the device for import.
 1. Open AdGuard VPN on that device. Find the appropriate section, click the *Import* button and select the archive.
@@ -137,7 +137,7 @@ The *Default* profile is protected and cannot be renamed or deleted.
 
 ### Account
 
-The third tab of AdGuard VPN Browser extension is utterly minimalistic, containing only the email address you used to sign into your account and two buttons, *Manage* and *Sign out*. Clicking the *Manage* button takes you to your personal AdGuard account, where you can see all your current licenses and subscriptions, as well as devices connected to them.
+The third tab of AdGuard VPN Browser Extension is utterly minimalistic, containing only the email address you used to sign into your account and two buttons, *Manage* and *Sign out*. Clicking the *Manage* button takes you to your personal AdGuard account, where you can see all your current licenses and subscriptions, as well as devices connected to them.
 
 ### Support
 
