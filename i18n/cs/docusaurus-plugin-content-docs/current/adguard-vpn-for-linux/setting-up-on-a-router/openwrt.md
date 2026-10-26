@@ -238,7 +238,7 @@ Můžete to provést ve webovém rozhraní nebo v příkazovém řádku. Níže 
 
 <!-- comment -->
 
-## 7. Nastavte automatické spouštění pro AdGuard VPN CLI
+## 7.  Nastavte automatické spouštění pro AdGuard VPN CLI
 
 Chcete-li po restartu routeru automaticky spustit AdGuard VPN CLI, vytvořte soubor v `…/etc/init.d/adguardvpn`.
 

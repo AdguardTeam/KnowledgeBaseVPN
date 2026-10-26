@@ -17,7 +17,13 @@ Make sure that:
 
 ## Connect or disconnect in one tap
 
-AdGuard VPN provides three ready-made shortcuts: *Connect*, *Disconnect*, *Toggle VPN*. *Connect* turns on the VPN and connects to your last used location. *Disconnect* turns off the VPN. *Toggle VPN* switches between the two: it connects when the VPN is off and disconnects when it’s on. You’ll find these shortcuts under *App Shortcuts* in the Shortcuts app. Add any of them to the three places listed below.
+AdGuard VPN provides three ready-made shortcuts: *Connect*, *Disconnect*, *Toggle VPN*. *Connect* turns on the VPN and connects to your last used location. *Disconnect* turns off the VPN. *Toggle VPN* switches between the two: it connects when the VPN is off and disconnects when it’s on.
+
+You’ll find these shortcuts in the Shortcuts app: on iOS 16, look under *App Shortcuts*. Add any of them to the three places listed below.
+
+On iOS 27, find AdGuard VPN shortcuts in the Shortcuts app’s *Library* under *Apps* → *AdGuard VPN*. If Shortcuts opens to *All Shortcuts*, tap the back arrow in the top-left corner to return to *Library*.
+
+![Shortcuts on iOS 27](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/shortcuts_library_27.png)
 
 ### Home Screen
 
@@ -25,20 +31,20 @@ To set up a shortcut on your Home Screen, follow the quick instructions in the A
 
 ![In-app instructions *mobile_border](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/in_app_instructions.png)
 
-Instructions vary across iOS versions. Here are the instructions for iOS 26:
+Instructions vary across iOS versions. Here are the instructions for iOS 16:
 
 1. Go to the Shortcuts app and tap the plus (+) button.
-2. Select *AdGuard VPN*.
+2. Tap *Add Action* and select *AdGuard VPN*.
 3. Choose the shortcut you need: *Connect to VPN*, *Disconnect from VPN*, *Toggle VPN connection*, or *VPN status*.
 
-![Add shortcut](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/add_shortcut.png)
+![Add shortcut](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/add_shortcut_ios_16.png)
 
 Here’s how to add the shortcut to your Home Screen.
 
 1. Long press the shortcut and tap *Share* → *Add to Home Screen*.
 2. Customize the shortcut name and icon if you need to, then tap *Add*. The shortcut will appear on your Home Screen as a 1x1 icon.
 
-![Add to Home Screen](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/add_to_home_screen.png)
+![Add to Home Screen](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/add_to_home_screen_ios_16.png)
 
 ### Control Center
 

@@ -3,9 +3,9 @@ title: 功能概述
 sidebar_position: 1
 ---
 
-AdGuard VPN Mac版是一个桌面 VPN 服务。 AdGuard VPN 与 AdGuard 广告拦截程序兼容，它们可以一起启动并无缝运行。 让我们看看此软件提供什么功能。
+AdGuard VPN Mac版是一个桌面 VPN 服务。 AdGuard VPN 与 AdGuard 广告拦截程序兼容，它们可以一起启动并无缝运行。让我们看看此软件提供什么功能。
 
-请注意：**登录 AdGuard 账号后，您才可以运行 AdGuard VPN Mac版**。 用户可以用 AdGuard 账号登录，也可以通过其他账号登录，即通过 Apple、Google 或 Facebook 登录。 请确保您的其他账号与 AdGuard 账号绑定到同一个电子邮件地址。 如果用户的 AdGuard 账号中有合适的订阅，订阅将在桌面应用程序上自动激活。
+请注意：**登录 AdGuard 账号后，您才可以运行 AdGuard VPN Mac版**。用户可以用 AdGuard 账号登录，也可以通过其他账号登录，即通过 Apple、Google 或 Facebook 登录。请确保您的其他账号与 AdGuard 账号绑定到同一个电子邮件地址。如果用户的 AdGuard 账号中有合适的订阅，订阅将在桌面应用程序上自动激活。
 
 Still don’t have an AdGuard account? Create it [here](https://auth.adguardaccount.com/registration.html).
 
@@ -62,10 +62,10 @@ If you’ve added a service, changed or removed something and now want to recove
 
 What’s more, ready-made exclusions lists can be transferred to other devices with installed AdGuard VPN. To export exclusions, follow the four-step instruction below:
 
-1. 在您想要导出排除项列表的设备上打开 AdGuard VPN。 找到相应的部分并单击「*导出*」按钮。 `exclusions.zip` 档案将被下载。
-2. 档案中有两个 `.txt` 文件，常规模式的列表和选择模式的列表。 用户可以在其中添加更多的排除项，删除现有的排除项，重命名文件（下面还有更多详情），或者也可以将存档中的文件内容保持不变。
-3. 在不同设备之间传输时，不要忘记将 `.zip` 文件发送到设备上进行导入。 例如，如果您将排除项列表从自己的 Mac 设备导入到 iPhone 设备，确保先将 `.zip` 文件发送到手机上。
-4. 在要导入存档的设备/浏览器上打开 AdGuard VPN，其中包含要应用的排除项列表。 找到相应的部分，单击「*导入*」按钮并选择存档。 完成！
+1. 在您想要导出排除项列表的设备上打开 AdGuard VPN。找到相应的部分并单击「*导出*」按钮。 `exclusions.zip` 档案将被下载。
+2. 档案中有两个 `.txt` 文件，常规模式的列表和选择模式的列表。用户可以在其中添加更多的排除项，删除现有的排除项，重命名文件（下面还有更多详情），或者也可以将存档中的文件内容保持不变。
+3. 在不同设备之间传输时，不要忘记将 `.zip` 文件发送到设备上进行导入。例如，如果您将排除项列表从自己的 Mac 设备导入到 iPhone 设备，确保先将 `.zip` 文件发送到手机上。
+4. 在要导入存档的设备/浏览器上打开 AdGuard VPN，其中包含要应用的排除项列表。找到相应的部分，单击「*导入*」按钮并选择存档。完成！
 
 :::note
 
@@ -119,10 +119,16 @@ There are only two logging levels but we strongly recommend that you use the fir
 
 Although this option is located in *Advanced settings*, it can be enabled without hesitation. You can hide the AdGuard VPN icon from the menu bar, it won’t prevent our app from running in the background.
 
-##### AdGuard VPN 协议
+#### AdGuard VPN protocol
 
 ![Select VPN protocol](https://cdn.adtidy.org/content/release_notes/vpn/mac/v2.7/protocol_en.png)
 
 By default, AdGuard VPN protocol uses dynamic VPN protocol selection (*Auto-select* option). That means that AdGuard VPN automatically figures out which protocol — HTTP2/TLS or HTTP3/QUIC — will give you the best performance and switches to it instantly. This improves VPN speed and stability, which is particularly helpful in regions where VPN usage is restricted or unreliable.
 
 If you wish, you can switch AdGuard VPN to use only HTTP2/TLS or HTTP3/QUIC protocol instead of *Auto-select*. Each protocol has its strengths, but the best choice can vary depending on your location, network conditions, and even the server you connect to.
+
+#### IPv6 interface
+
+![IPv6 interface](https://cdn.adtidy.org/content/release_notes/vpn/mac/v2.10.1/ipv6_interface_en.png)
+
+The **IPv6 interface** setting controls whether IPv6 traffic is available while you’re connected to AdGuard VPN. It’s enabled by default, so you can use IPv6 if your network supports it. If YouTube, Gemini, or other Google services don’t work with the VPN on, try turning this setting off. This blocks IPv6 traffic and lets you check whether the services work over IPv4.
