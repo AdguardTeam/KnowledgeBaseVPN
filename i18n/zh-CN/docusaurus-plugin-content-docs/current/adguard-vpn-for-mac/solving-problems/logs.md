@@ -7,9 +7,9 @@ If you encounter any problems while using AdGuard VPN for Mac, you can inform us
 
 ## Standard logs
 
-默认情况下，AdGuard VPN Mac 版使用默认日志记录级别，即有关应用程序运行进程的基本数据收集。 要发送这些日志，请按照以下步骤进行：
+默认情况下，AdGuard VPN Mac 版使用默认日志记录级别，即有关应用程序运行进程的基本数据收集。要发送这些日志，请按照以下步骤进行：
 
-1. 打开 AdGuard VPN Mac 版，如果可以，请您重复导致错误的操作。 请记下发生此错误的确切时间。
+1. 打开 AdGuard VPN Mac 版，如果可以，请您重复导致错误的操作。请记下发生此错误的确切时间。
 
 1. 点击「**支持**」 （在上面的菜单中） → 「**报告错误**」。
 
@@ -25,7 +25,7 @@ If you encounter any problems while using AdGuard VPN for Mac, you can inform us
 
 ## Extended logs
 
-在大多数情况下， 默认日志记录级别足以追踪发生的错误。 但在某些情况下，需要有关设备和连接的更详细技术信息，然后我们的支持团队会要求您启用进阶日志记录级别。 要发送进阶日志，请执行以下步骤：
+在大多数情况下， 默认日志记录级别足以追踪发生的错误。但在某些情况下，需要有关设备和连接的更详细技术信息，然后我们的支持团队会要求您启用进阶日志记录级别。要发送进阶日志，请执行以下步骤：
 
 1. Open AdGuard VPN for Mac and select **Settings** → **App settings** → **Advanced settings**.
 
@@ -47,4 +47,4 @@ If for some reason it is more convenient for you to send us logs in another way,
 
 :::
 
-我们定期更新本文章。 如果您阅读文章后依然没找到解决问题的方法，请联系 AdGuard 技术支持：support@adguard-vpn.com。
+我们定期更新本文章。如果您阅读文章后依然没找到解决问题的方法，请联系 AdGuard 技术支持：support@adguard-vpn.com。

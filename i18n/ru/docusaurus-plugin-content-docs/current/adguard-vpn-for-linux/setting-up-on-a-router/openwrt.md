@@ -238,7 +238,7 @@ curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/sc
 
 <!-- comment -->
 
-## 7. Настройте автоматический запуск AdGuard VPN CLI
+## 7.  Настройте автоматический запуск AdGuard VPN CLI
 
 Чтобы автоматически запускать AdGuard VPN CLI после перезагрузки роутера, создайте файл в `…/etc/init.d/adguardvpn`.
 

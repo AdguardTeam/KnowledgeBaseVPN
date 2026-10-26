@@ -238,7 +238,7 @@ You can do it in the web interface or in the command line. Steps below describe 
 
 <!-- comment -->
 
-## 7. Set up automatic launch for AdGuard VPN CLI
+## 7.  Set up automatic launch for AdGuard VPN CLI
 
 To automatically launch AdGuard VPN CLI after rebooting the router, create a file at `…/etc/init.d/adguardvpn`.
 
