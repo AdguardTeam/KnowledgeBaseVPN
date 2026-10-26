@@ -1,37 +1,37 @@
 ---
-title: Automation
+title: Автоматизация
 sidebar_position: 2
-sidebar_label: Automation
+sidebar_label: Автоматизация
 ---
 
-_Automation_ is a feature in the Shortcuts app that performs an action for you automatically based on the conditions you choose. For example, it can turn off AdGuard VPN the moment you open an app, and turn it back on when you close that app.
+_Автоматизация_ — функция приложения «Команды», которая сама запускает действия при заданных условиях. Например, она может отключать AdGuard VPN в тот момент, когда вы открываете приложение, и снова включать его, когда вы его закрываете.
 
-This is useful if you want AdGuard VPN off for some apps but not for others. AdGuard VPN for iOS doesn’t have app exclusions, so automation is the closest way to get the same result without switching the VPN on and off yourself every time.
+Так можно отключать AdGuard VPN в одних приложениях, не затрагивая остальные. В AdGuard VPN для iOS нет исключений для приложений. Автоматизация помогает добиться похожего результата, не включая и не отключая VPN вручную каждый раз.
 
-Here’s how to set up an automation that disconnects from AdGuard VPN when you open an app, and turns it back on when you close it.
+Вот как настроить автоматизацию, которая отключает AdGuard VPN при открытии приложения и снова включает при закрытии.
 
-## Turn off AdGuard VPN when you open an app
+## Отключение AdGuard VPN при открытии приложения
 
-1. In the Shortcuts app, go to _Automation_ and tap _New Automation_ or the plus (+) button in the top right corner.
-2. Choose _App_, select one or several apps, and check _Is Opened_.
-3. Turn on _Run Immediately_ and turn off _Notify When Run_.
-4. Tap _Next_, select AdGuard VPN, and pick _Disconnect_.
+1. В приложении «Команды» перейдите в раздел _Автоматизация_ и нажмите _Новая автоматизация_ или + в правом верхнем углу.
+2. Выберите _Приложение_, отметьте нужные приложения и условие _Открыто_.
+3. Включите _Немедленный запуск_ и выключите _Уведомлять о запуске_.
+4. Нажмите _Далее_, выберите AdGuard VPN и выберите _Отключить_.
 
-![App automation](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/automation1-combined.png)
+![Автоматизация для приложения](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/automation1-combined.png)
 
-To turn AdGuard VPN back on when you close the same app, repeat the steps above, but select _Is Closed_ in step 2 and set the action in step 4 to _Connect_.
+Чтобы снова включить AdGuard VPN, когда вы закроете приложение, повторите указанные шаги, но на шаге 2 выберите _Закрыто_, а на шаге 4 установите действие _Подключить_.
 
-## Turn AdGuard VPN off when you join home Wi-Fi
+## Отключение AdGuard VPN при подключении к домашнему Wi-Fi
 
-If you don’t need to use VPN at home, set it to turn off when you join your home Wi-Fi network and back on when you leave.
+Если дома вам не нужен VPN, настройте его отключение при подключении к домашнему Wi-Fi и включение после выхода из сети.
 
-1. In the Shortcuts app, go to _Automation_ and tap _New Automation_ or ‘+’ in the top right corner.
-2. Choose _Wi-Fi_, select _Is Joined_, and choose your home network.
-3. Turn on _Run Immediately_ and _Run After Connection Interruption_.
-4. Tap _Next_, select AdGuard VPN, and pick _Disconnect_.
+1. В приложении «Команды» перейдите в раздел _Автоматизация_ и нажмите _Новая автоматизация_ или + в правом верхнем углу.
+2. Выберите _Wi-Fi_, выберите _Участвует_ и выберите свою домашнюю сеть.
+3. Включите _Немедленный запуск_ и _Запуск после прерванного подключения_.
+4. Нажмите _Далее_, выберите AdGuard VPN и действие _Отключить_.
 
-![Wi-Fi automation \*mobile](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/automation-2-combined.png)
+![Автоматизация для Wi-Fi \*mobile](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/automation-2-combined.png)
 
-## Turn AdGuard VPN back on when you leave
+## Включение AdGuard VPN после отключения от домашнего Wi-Fi
 
-Repeat the steps above, but choose _Is Disconnected_ instead of _Is Joined_, turn on _Run Immediately_, and set the action to _Connect_.
+Повторите шаги выше, но выберите _Отключается_ вместо _Участвует_, включите _Немедленный запуск_ и задайте действие _Подключить_.
