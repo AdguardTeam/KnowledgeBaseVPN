@@ -9,9 +9,9 @@ When getting ready to commit to a [long-term VPN subscription](/general/subscrip
 
 ## 1. 先进的开源协议
 
-从一开始，我们就决定自主研发并部署专属的 VPN 协议，而不是选择现成的方案，那样太过简单，而且我们也不满足于已有的协议。 最终诞生的成果就是 [TrustTunnel](https://trusttunnel.org/)，是一款由 AdGuard VPN 开发的现代化、隐匿且快速的开源 VPN 协议。
+从一开始，我们就决定自主研发并部署专属的 VPN 协议，而不是选择现成的方案，那样太过简单，而且我们也不满足于已有的协议。最终诞生的成果就是 [TrustTunnel](https://trusttunnel.org/)，是一款由 AdGuard VPN 开发的现代化、隐匿且快速的开源 VPN 协议。
 
-在选择 VPN 服务时，人们常常面临「快速」与「安全」之间的取舍。 而 AdGuard VPN 协议完美融合速度与安全性，让用户既无需忍受缓慢的网络连接，也不必在隐私保护上做出妥协。 此外，该协议还能将自身流量伪装成常规网络流量，从而大幅提升检测与拦截的难度。
+在选择 VPN 服务时，人们常常面临「快速」与「安全」之间的取舍。而 AdGuard VPN 协议完美融合速度与安全性，让用户既无需忍受缓慢的网络连接，也不必在隐私保护上做出妥协。此外，该协议还能将自身流量伪装成常规网络流量，从而大幅提升检测与拦截的难度。
 
 ## 2. Website and app exclusions
 

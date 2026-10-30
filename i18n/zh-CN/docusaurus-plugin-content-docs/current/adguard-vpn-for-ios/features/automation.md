@@ -1,37 +1,37 @@
 ---
-title: Automation
+title: 自动化
 sidebar_position: 2
-sidebar_label: Automation
+sidebar_label: 自动化
 ---
 
-_Automation_ is a feature in the Shortcuts app that performs an action for you automatically based on the conditions you choose. For example, it can turn off AdGuard VPN the moment you open an app, and turn it back on when you close that app.
+「自动化」是「快捷指令」应用中的一项功能，它会根据您选择的条件自动为您执行操作。例如，它可以在您打开某个应用时关闭 AdGuard VPN，并在您关闭该应用时重新开启。
 
-This is useful if you want AdGuard VPN off for some apps but not for others. AdGuard VPN for iOS doesn’t have app exclusions, so automation is the closest way to get the same result without switching the VPN on and off yourself every time.
+如果您希望对某些应用关闭 AdGuard VPN，而对其他应用保持开启，这项功能会很有用。 AdGuard VPN iOS 版没有应用排除功能，因此自动化是获得相同效果最接近的方式，无需每次手动开启和关闭 VPN。
 
-Here’s how to set up an automation that disconnects from AdGuard VPN when you open an app, and turns it back on when you close it.
+以下是如何设置自动化：在您打开应用时断开 AdGuard VPN，并在您关闭应用时重新开启。
 
-## Turn off AdGuard VPN when you open an app
+## 在打开应用时关闭 AdGuard VPN
 
-1. In the Shortcuts app, go to _Automation_ and tap _New Automation_ or the plus (+) button in the top right corner.
-2. Choose _App_, select one or several apps, and check _Is Opened_.
-3. Turn on _Run Immediately_ and turn off _Notify When Run_.
-4. Tap _Next_, select AdGuard VPN, and pick _Disconnect_.
+1. 在「快捷指令」应用中，前往「自动化」，然后点击「新建自动化」或右上角的加号 (+) 按钮。
+2. 选择「App」，选择一个或多个应用，然后勾选「已打开」。
+3. 开启「立即运行」，并关闭「运行时通知」。
+4. 点击「下一步」，选择 AdGuard VPN，然后选取「断开」。
 
-![App automation](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/automation1-combined.png)
+![应用自动化](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/automation1-combined.png)
 
-To turn AdGuard VPN back on when you close the same app, repeat the steps above, but select _Is Closed_ in step 2 and set the action in step 4 to _Connect_.
+要在关闭同一应用时重新开启 AdGuard VPN，请重复上述步骤，但在第 2 步中选择「已关闭」，并将第 4 步中的操作设置为「连接」。
 
-## Turn AdGuard VPN off when you join home Wi-Fi
+## 加入家庭 Wi-Fi 时关闭 AdGuard VPN
 
-If you don’t need to use VPN at home, set it to turn off when you join your home Wi-Fi network and back on when you leave.
+如果您在家不需要使用 VPN，可以设置它在您加入家庭 Wi-Fi 网络时关闭，并在您离开时重新开启。
 
-1. In the Shortcuts app, go to _Automation_ and tap _New Automation_ or ‘+’ in the top right corner.
-2. Choose _Wi-Fi_, select _Is Joined_, and choose your home network.
-3. Turn on _Run Immediately_ and _Run After Connection Interruption_.
-4. Tap _Next_, select AdGuard VPN, and pick _Disconnect_.
+1. 在「快捷指令」应用中，前往「自动化」，然后点击「新建自动化」或右上角的 “+”。
+2. 选择「Wi-Fi」，选择「已加入」，然后选择您的家庭网络。
+3. 开启「立即运行」和「连接中断后运行」。
+4. 点击「下一步」，选择 AdGuard VPN，然后选取「断开」。
 
-![Wi-Fi automation \*mobile](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/automation-2-combined.png)
+![Wi-Fi 自动化 \*mobile](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/automation-2-combined.png)
 
-## Turn AdGuard VPN back on when you leave
+## 离开时重新开启 AdGuard VPN
 
-Repeat the steps above, but choose _Is Disconnected_ instead of _Is Joined_, turn on _Run Immediately_, and set the action to _Connect_.
+重复上述步骤，但选择「未连接」而不是「已加入」，开启「立即运行」，并将操作设置为「连接」。
