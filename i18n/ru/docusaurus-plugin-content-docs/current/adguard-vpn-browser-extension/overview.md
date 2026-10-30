@@ -7,7 +7,7 @@ sidebar_position: 1
 
 :::note
 
-Вы можете использовать Браузерное расширение AdGuard VPN только после авторизации. Войдите в аккаунт AdGuard с помощью Google, Facebook или Apple. В последнем случае убедитесь, что ваш аккаунт привязан к тому же адресу, что и аккаунт AdGuard. Если у вас есть [подписка AdGuard VPN](/general/subscription), она будет автоматически активирована в браузерном расширении. У вас нет аккаунта AdGuard? [Создайте его здесь](https://auth.adguardaccount.com/registration.html).
+Вы можете использовать Браузерное расширение AdGuard VPN только после авторизации. Войдите в аккаунт AdGuard с помощью Google, Facebook или Apple. В последнем случае убедитесь, что ваш аккаунт привязан к тому же адресу, что и аккаунт AdGuard. If you have an [AdGuard VPN subscription](/general/subscription), it will be activated automatically in AdGuard VPN Browser Extension. У вас нет аккаунта AdGuard? [Создайте его здесь](https://auth.adguardaccount.com/registration.html).
 
 :::
 
@@ -43,7 +43,7 @@ sidebar_position: 1
 
 Раздел *Статистика* доступен пользователям платной версии.
 
-## Настройки
+## Settings (for the active profile)
 
 Чтобы управлять настройками Браузерного расширения AdGuard VPN:
 
@@ -52,70 +52,97 @@ sidebar_position: 1
 
 После этого вы увидите несколько вкладок слева:
 
-### Основные
+### Settings
 
-Здесь собрано несколько важных настроек. Вы можете выбрать DNS-сервер, добавить или удалить иконку AdGuard VPN из контекстного меню браузера, заблокировать WebRTC, изменить тему расширения, а также позволить AdGuard собирать анонимные отчёты о сбоях и технические данные.
+The *Settings* menu is divided into two distinct sections:
 
-#### DNS-сервер
+- **Settings**: Options here apply exclusively to the currently active profile: *Exclusions*, *DNS server*, *Quick connect*, and *Block WebRTC*.
+- **General settings**: These parameters apply to the entire extension, regardless of which profile is selected: *Theme*, *Language*, *Display AdGuard VPN in the browser context menu*, and *Help improve AdGuard VPN*.
 
-По умолчанию используется [системный DNS-сервер](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns), предоставляемый вашим интернет-провайдером. Однако это может поставить под угрозу вашу конфиденциальность. С помощью расширения AdGuard VPN вы можете выбирать DNS-сервер с более высокой скоростью и безопасностью, который сможет блокировать рекламу и потенциально опасные домены. Краткие описания DNS-серверов помогут вам сориентироваться и принять решение.
+![Settings](https://cdn.adtidy.org/content/release_notes/vpn/browser_extension/2.12/settings.png)
 
-Узнайте больше о [DNS-серверах от различных провайдеров](https://adguard-dns.io/kb/general/dns-providers/).
+#### Exclusions
 
-### Профиль
+The *Exclusions* option allows you to configure website routing. You can choose between two options, each maintaining a separate list:
 
-Профили позволяют сохранять настройки VPN для разных задач и быстро переключаться между ними. Например, можно создать один профиль для работы, другой — для стриминговых сервисов, а третий — для общественных сетей Wi-Fi.
+- **VPN is on everywhere except for the websites below**: AdGuard VPN works on all websites by default, with the exception of the domains added to this list.
+- **VPN is on selectively: only for the websites below**: AdGuard VPN works only on the websites added to this list and remains inactive for all others.
 
-Чтобы создать профили или управлять ими, нажмите значок AdGuard VPN на панели браузера → меню в виде трёх линий в правом верхнем углу (☰) → *Профили*.
+When adding a website to an exclusions list, you can enter the domain manually or select the *From the list* option. It provides predefined categories (such as *Shopping* or *Messengers*) with popular services, allowing you to add all relevant domains for a service in one click.
 
-![Главный экран профиля](https://cdn.adtidy.org/content/release_notes/vpn/browser_extension/2.10/profiles_en.png)
+Managing exclusions via the *Settings* tab applies the lists to the active profile. You can also configure exclusions for any profile under *Manage profiles*.
 
-Вы можете создать до 10 профилей. У каждого профиля может быть собственное имя и настройки:
+##### Import and export
 
-- Локация
-- WebRTC
-- DNS-сервер
-- Исключения
+Not only can you add and remove websites, you can also transfer ready exclusions lists to other devices where AdGuard VPN is installed. To export your exclusions list, follow the 4-step instruction below:
 
-![Настройки профиля](https://cdn.adtidy.org/content/release_notes/vpn/browser_extension/2.10/settings_en.png)
-
-После настройки профилей вы сможете переключаться между ними прямо во всплывающем окне расширения.
-
-![Всплывающее окно расширения](https://cdn.adtidy.org/content/release_notes/vpn/browser_extension/2.10/popup_en.png)
-
-:::note
-
-Локация в профиле останется неизменной, пока вы не поменяете её в настройках профиля. Вы можете выбрать другую локацию во всплывающем окне расширения, но это изменение будет временным. Если вы переключите профиль или перезапустите браузер, AdGuard VPN будет использовать сохранённую локацию из выбранного профиля.
-
-Другие настройки работают иначе. Если изменить *WebRTC*, *DNS-сервер* или *Исключения*, когда профиль активен, AdGuard VPN сохранит изменения в этом профиле.
-
-:::
-
-### Исключения
-
-Следующая вкладка содержит одну из главных отличительных особенностей AdGuard VPN — два режима с отдельными списками исключений.
-
-**В Основном режиме** AdGuard VPN по умолчанию работает на всех сайтах, кроме добавленных в список исключений. **В Выборочном режиме**, наоборот, AdGuard VPN по умолчанию не работает нигде. Вы можете добавить в отдельный от **Основного режима** список исключений те сайты, на которых AdGuard VPN будет работать.
-
-При добавлении сайта в список исключений вы можете ввести сайт вручную или выбрать опцию **Из списка**. В последнем случае вы увидите восемь категорий (например, *Шопинг* или *Мессенджеры* и т. д.), каждая из которых предлагает несколько популярных сервисов. Вы можете исключить любой из этих сервисов в один клик. Это добавит в исключения все домены, относящиеся к этому конкретному сервису.
-
-#### Импорт и экспорт
-
-Вы можете не только добавлять и удалять сайты, но и переносить готовые списки исключений на другие устройства, на которых установлен AdGuard VPN. Чтобы экспортировать списки исключений, следуйте инструкции:
-
-1. Откройте расширение AdGuard VPN, из которого вы хотите экспортировать списки исключений. Найдите соответствующий раздел и нажмите кнопку *Экспортировать*. Будет загружен архив исключений `exclusions.zip`.
-1. Внутри архива находятся два файла `.txt`, по одному для каждого из списков — Основного и Выборочного. Добавляйте к ним дополнительные исключения, удаляйте существующие, переименовывайте файлы или просто оставьте архив как есть.
+1. Open AdGuard VPN Browser Extension from where you want to export your exclusions lists. Найдите соответствующий раздел и нажмите кнопку *Экспортировать*. Будет загружен архив исключений `exclusions.zip`.
+1. There are two `.txt` files inside the archive, one for each of the two exclusions lists. Добавляйте к ним дополнительные исключения, удаляйте существующие, переименовывайте файлы или просто оставьте архив как есть.
 1. При переносе списков между различными устройствами отправьте файл `.zip` на устройство для импорта.
-1. Откройте на этом устройстве AdGuard VPN. Найдите соответствующий раздел, нажмите кнопку *Импортировать* и выберите архив. Готово!
+1. Откройте на этом устройстве AdGuard VPN. Найдите соответствующий раздел, нажмите кнопку *Импортировать* и выберите архив.
+
+Done!
+
+#### DNS server
+
+By default, the *AdGuard DNS Non-filtering* server is selected to ensure privacy without interfering with website content. If you want additional protection, you can choose a DNS server that blocks ads, trackers, or malicious domains, or enables parental control. Brief descriptions under the names of DNS servers will help you navigate and make your decision.
+
+Learn more about [DNS servers from various providers](https://adguard-dns.io/kb/general/dns-providers/).
+
+Configuring *DNS server* directly in the *Settings* tab applies the selected server to the active profile. You can also assign a preferred DNS server to any profile under *Manage profiles*.
+
+#### Quick connect
+
+The *Quick connect* section defines which location the extension connects to when clicking the main *Connect* button:
+
+- Fastest location
+- Last used location
+- Specific countries and servers
+
+Configuring *Quick connect* directly in the *Settings* tab applies these parameters to the active profile. You can also set a preferred connection location for any profile under *Manage profiles*.
+
+![Quick connect](https://cdn.adtidy.org/content/release_notes/vpn/browser_extension/2.12/quick-connect.png)
+
+#### Block WebRTC
+
+This feature blocks WebRTC, which can leak your real IP address even when using a proxy or VPN. Some messengers, streaming platforms, or games may stop working properly with this option enabled.
+
+Toggling *Block WebRTC* directly in the *Settings* tab applies this setting to the active profile. You can also enable or disable WebRTC blocking for any profile under *Manage profiles*.
+
+### General settings
+
+The options in this section apply globally to the entire extension, regardless of which profile is selected:
+
+- **Theme**: Select a preferred interface appearance: Light, Dark, or Browser default.
+- **Language**: Change the display language of the extension.
+- **Display AdGuard VPN in the browser context menu**: Toggle quick access to AdGuard VPN actions from the browser’s right-click menu.
+- **Help improve AdGuard VPN**: Enable sending crash reports and technical data to help improve extension performance and stability. All data is collected anonymously, is never shared with third parties, and you can withdraw your consent at any time.
+
+### Manage profiles
+
+To create, edit, or delete profiles, open the profile switcher in the bottom-left corner of the sidebar and select *Manage profiles*.
+
+You can have up to 10 profiles, including the *Default* profile.
+
+![Manage profiles](https://cdn.adtidy.org/content/release_notes/vpn/browser_extension/2.12/manage-profiles-new.png)
+
+In this view, you can rename profiles, delete setups you no longer need, and configure the following parameters for each profile individually:
+
+- **Quick connect**: Set the default connection behavior (Fastest location, Last used location, or a specific country and server).
+- **DNS server**: Select a dedicated DNS provider or keep the default server (AdGuard DNS Non-filtering).
+- **Block WebRTC**: Enable or disable WebRTC blocking to prevent IP leaks.
+- **Exclusions**: Set up a custom exclusions list and select a routing mode for that profile.
+
+The *Default* profile is protected and cannot be renamed or deleted.
 
 ### Аккаунт
 
-В третьей вкладке расширения AdGuard VPN есть только адрес электронной почты, который вы использовали для входа в аккаунт, и две кнопки: *Управлять* и *Выйти*. Нажав на кнопку *Управлять*, вы перейдёте в личный кабинет AdGuard, где сможете увидеть все текущие лицензии и подписки, а также подключённые к ним устройства.
+The third tab of AdGuard VPN Browser Extension is utterly minimalistic, containing only the email address you used to sign into your account and two buttons, *Manage* and *Sign out*. Clicking the *Manage* button takes you to your personal AdGuard account, where you can see all your current licenses and subscriptions, as well as devices connected to them.
 
 ### Поддержка
 
-Вы можете найти ответы на общие вопросы в разделе FAQ или оставить отзыв: сообщить об ошибке, если что-то работает не так, предложить новую функцию или обсудить AdGuard в любой из социальных сетей.
+You can find answers to common questions in the FAQ section, or leave feedback: report a bug if something isn’t working as it should, suggest adding a new feature, or discuss AdGuard on any of the many social media platforms.
 
 ### О программе
 
-Ещё одна небольшая вкладка, в которой вы можете проверить версию расширения, посетить официальный сайт и просмотреть Лицензионное соглашение или Политику конфиденциальности.
+Another minor tab, where you can check the extension’s version, visit the official website, and view the EULA or Privacy policy.

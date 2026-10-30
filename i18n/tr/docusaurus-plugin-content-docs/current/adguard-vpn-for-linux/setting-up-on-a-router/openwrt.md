@@ -238,7 +238,7 @@ Bunu web arayüzünden veya komut satırından yapabilirsiniz. Aşağıdaki adı
 
 <!-- comment -->
 
-## 7. AdGuard VPN CLI için otomatik başlatmayı ayarlama
+## 7.  AdGuard VPN CLI için otomatik başlatmayı ayarlama
 
 Yönlendirici yeniden başlatıldıktan sonra AdGuard VPN CLI'yi otomatik olarak başlatmak için `…/etc/init.d/adguardvpn` adresinde bir dosya oluşturun.
 
