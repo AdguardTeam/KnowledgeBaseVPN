@@ -1,6 +1,7 @@
 ---
 title: Activate AdGuard VPN subscription
 sidebar_position: 3
+slug: /general/activate-subscription
 ---
 
 To activate your AdGuard VPN subscription, follow these steps:

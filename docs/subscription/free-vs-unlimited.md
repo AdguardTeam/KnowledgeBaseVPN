@@ -1,6 +1,7 @@
 ---
 title: Benefits of AdGuard VPN Unlimited
 sidebar_position: 1
+slug: /general/free-vs-unlimited
 ---
 
 You can use AdGuard VPN for free, but then there will be certain restrictions:
@@ -27,4 +28,4 @@ A subscription allows to have more benefits in comparison with a free account:
 - Secure streaming
 - No port 25 block
 
-To use all the advantages, consider [purchasing a subscription](/subscription/how-to-subscribe).
+To use all the advantages, consider [purchasing a subscription](/general/subscription).

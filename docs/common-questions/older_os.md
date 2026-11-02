@@ -1,6 +1,7 @@
 ---
 title: Installing AdGuard VPN on older OS versions
 sidebar_position: 2
+slug: /general/older_os
 ---
 
 If your device runs an older operating system, you may not be able to install the latest version of AdGuard VPN. If this is the case, you can download an earlier, compatible version of the app using the links below.
