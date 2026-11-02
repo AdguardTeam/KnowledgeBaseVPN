@@ -1,6 +1,6 @@
 ---
 title: What is a DNS leak
-sidebar_position: 9
+sidebar_position: 4
 ---
 
 Once you install a VPN, you want to be sure that there won’t be any leaks that will lead to your de-anonymization. AdGuard VPN reliably protects your traffic and your data from prying eyes. Nevertheless, in some cases you may suspect the presence of DNS leaks in our VPN service. We’ll explain where these concerns come from and why they are unfounded.

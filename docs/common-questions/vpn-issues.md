@@ -1,6 +1,6 @@
 ---
 title: How to use AdGuard VPN in countries with Internet restrictions
-sidebar_position: 10
+sidebar_position: 1
 ---
 
 In certain regions, such as China, Iran, and Russia, users might experience problems connecting to AdGuard VPN. Here are the options that might help.

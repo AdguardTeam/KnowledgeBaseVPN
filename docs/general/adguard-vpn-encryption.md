@@ -1,6 +1,6 @@
 ---
 title: What type of encryption is used in AdGuard VPN
-sidebar_position: 7
+sidebar_position: 3
 ---
 
 ## Introduction

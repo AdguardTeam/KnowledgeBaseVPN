@@ -1,6 +1,6 @@
 ---
 title: VPN modes and Exclusion lists
-sidebar_position: 11
+sidebar_position: 4
 ---
 
 This section explains how to use website and app exclusions in different VPN modes.

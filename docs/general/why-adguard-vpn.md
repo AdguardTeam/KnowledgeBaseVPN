@@ -3,7 +3,7 @@ title: Why AdGuard VPN is the better option
 sidebar_position: 2
 ---
 
-When getting ready to commit to a [long-term VPN subscription](/general/subscription), users most frequently evaluate its speed, security, and price. Those are very important points but there is so much more! AdGuard VPN has a dozen of key assets that make it ’the better option’.
+When getting ready to commit to a [long-term VPN subscription](/subscription/how-to-subscribe), users most frequently evaluate its speed, security, and price. Those are very important points but there is so much more! AdGuard VPN has a dozen of key assets that make it ’the better option’.
 
 *To start with, let’s go over AdGuard VPN’s unmatched features that you won’t find in any other VPN.*
 
