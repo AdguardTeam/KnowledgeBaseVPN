@@ -62,36 +62,36 @@ Ve výchozím nastavení je [systémový DNS server](https://adguard-dns.io/kb/g
 
 Další informace o [DNS serverech od různých poskytovatelů](https://adguard-dns.io/kb/general/dns-providers/).
 
-### Profile
+### Profil
 
-Profiles let you save VPN settings for different tasks and switch between them quickly. For example, you can create one profile for work, another for streaming, and another for public Wi-Fi.
+Profily umožňují ukládat nastavení VPN pro různé úkoly a rychle mezi nimi přepínat. Můžete si například vytvořit jeden profil pro práci, druhý pro streamování a třetí pro veřejné Wi-Fi sítě.
 
-To create or manage profiles, click the AdGuard VPN icon on your browser’s panel → three-line menu in the upper-right corner (☰) → *Profiles*.
+Chcete-li vytvořit nebo spravovat profily, klikněte na ikonu AdGuard VPN v prohlížeči → nabídku se třemi čárkami v pravém horním rohu (☰) → *Profily*.
 
 ![Profile main screen](https://cdn.adtidy.org/content/release_notes/vpn/browser_extension/2.10/profiles_en.png)
 
-You can create up to 10 profiles. Each profile can have its own name and settings:
+Můžete vytvořit až 10 profilů. Každý profil může mít vlastní název a nastavení:
 
-- Server location
+- Umístění serveru
 - WebRTC
 - DNS server
 - Výjimky
 
 ![Profile settings](https://cdn.adtidy.org/content/release_notes/vpn/browser_extension/2.10/settings_en.png)
 
-Once profiles are set up, you can switch between them directly from the extension popup.
+Jakmile jsou profily nastaveny, můžete mezi nimi přepínat přímo z vyskakovacího okna rozšíření.
 
 ![Extension popup](https://cdn.adtidy.org/content/release_notes/vpn/browser_extension/2.10/popup_en.png)
 
 :::note
 
-The location saved in a profile will stay the same until you change it in that profile’s settings. You can still choose another location from the extension popup, but this change is temporary. If you switch profiles or reopen the browser, AdGuard VPN will use the saved location from the selected profile.
+Umístění uložené v profilu zůstane stejné, dokud jej nezměníte v nastavení daného profilu. Z vyskakovacího okna rozšíření si stále můžete vybrat jiné umístění, ale tato změna je dočasná. Pokud přepnete profil nebo znovu spustíte prohlížeč, AdGuard VPN použije uložené umístění z vybraného profilu.
 
-Other settings work differently. If you change *WebRTC*, *DNS server*, or *Exclusions* while a profile is active, AdGuard VPN will save these changes to that profile.
+Ostatní nastavení fungují jinak. Pokud během aktivity profilu změníte *nastavení WebRTC*, *DNS serveru* nebo *výjimek*, AdGuard VPN tyto změny uloží do daného profilu.
 
 :::
 
-### Exclusions
+### Výjimky
 
 Další karta obsahuje jednu z hlavních charakteristických funkcí AdGuard VPN — dva režimy se samostatnými seznamy výjimek.
 

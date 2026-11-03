@@ -72,7 +72,7 @@ Find the `container` package in the list. If it's not there, install it:
 
    The `container` package should appear in the list.
 
-### 3) Enable Container mode
+### 3. Enable Container mode
 
 Enable Container mode and follow the instructions the command gives you. You will need to confirm the device-mode change by performing a cold reboot (physically unplugging and replugging the power).
 
@@ -313,7 +313,7 @@ On first launch, the container will not be able to connect to VPN as authenticat
 
    AdGuard VPN CLI will create a tun0 interface for VPN tunneling.
 
-### 3) Exit the shell
+### 3. Exit the shell
 
 ```bash
 exit
@@ -347,3 +347,27 @@ adguardvpn-cli status
 For additional information on container configuration, networking, and alternative installation methods, see the [official MikroTik Container documentation](https://help.mikrotik.com/docs/spaces/ROS/pages/84901929/Container)
 
 :::
+
+## Known issue: unable to access local router interface when the VPN is active
+
+When the VPN is enabled, you may be unable to access your local router's web interface using its local IP address (for example, `192.168.88.1`).
+
+This happens because traffic destined for the local network is being routed through the VPN instead of your local gateway.
+
+### Solution
+
+Add a routing rule for your local subnet before the VPN routing rule. This ensures that requests to devices on your local network are handled by the main routing table and bypass the VPN.
+
+For example, if your local network uses the `192.168.88.0/24` subnet, add the following rule before the VPN rule:
+
+```text
+Flags: X - DISABLED, I - INACTIVE; * - DEFAULT
+ 0    dst-address=192.168.88.0/24 action=lookup table=main
+
+ 1    ;;; VPN
+      src-address=192.168.88.0/24 action=lookup table=via_vpn
+```
+
+The same approach applies to other private network ranges, such as `10.x.x.x` or `192.168.x.x`. Make sure that the rule directing local traffic to the `main` routing table is placed before the VPN routing rule.
+
+After applying the change, you should be able to access your router and other devices on your local network while keeping the VPN enabled.

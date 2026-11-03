@@ -14,7 +14,7 @@ Initially, VPNs were created to securely connect business networks over the Inte
 
 A VPN connects a user’s computer or mobile device to a server and allows one to browse the net using a “cover” IP address. Thus, third-party observers cannot see the user’s real IP address, which makes it nearly impossible to trace them.
 
-The first thing that users mention in relation to VPN is traffic encryption and the security derived from it. 但这意味着什么呢？ A VPN creates an encrypted tunnel between the user’s device and the remote server. 您的所有网络流量都会经由此隧道，从而在此过程中保护您的数据。 对于外部观察者来说，用户的流量从 VPN 服务器流出，所以看起来用户的设备有这个服务器的 IP 地址。 This trick masks the user’s identity and true location.
+The first thing that users mention in relation to VPN is traffic encryption and the security derived from it. 但这意味着什么呢？ A VPN creates an encrypted tunnel between the user’s device and the remote server. 您的所有网络流量都会经由此隧道，从而在此过程中保护您的数据。对于外部观察者来说，用户的流量从 VPN 服务器流出，所以看起来用户的设备有这个服务器的 IP 地址。 This trick masks the user’s identity and true location.
 
 VPN 可用于：
 
@@ -22,7 +22,7 @@ VPN 可用于：
 - Secure your data — even when connecting to a public Wi-Fi, you can browse the Web safely
 - Protect yourself from spoofing (network traffic interception) and tracking on the part of your Internet service provider
 
-当用户在互联网冲浪时，密码、银行卡信息和普通的个人信息都处于危险之中。 但如果您启用 VPN 连接到全球网络，您可以确信没有他人可以截获您的个人数据。
+当用户在互联网冲浪时，密码、银行卡信息和普通的个人信息都处于危险之中。但如果您启用 VPN 连接到全球网络，您可以确信没有他人可以截获您的个人数据。
 
 ## 为什么要选择 AdGuard VPN？
 
@@ -32,7 +32,7 @@ AdGuard has been present on the market of personal data protection and ad blocki
 
 ### 特有的 VPN 协议
 
-AdGuard VPN 与同类产品的主要区别在于，我们采用 [TrustTunnel](https://trusttunnel.org/)，是一款由我们开发的现代、隐匿且快速的开源 VPN 协议。 本协议将自己伪装成正常流量，因此更难追踪和阻止它。
+AdGuard VPN 与同类产品的主要区别在于，我们采用 [TrustTunnel](https://trusttunnel.org/)，是一款由我们开发的现代、隐匿且快速的开源 VPN 协议。本协议将自己伪装成正常流量，因此更难追踪和阻止它。
 
 ### No-logging policy
 
@@ -40,7 +40,7 @@ No-logging policy means that we don’t collect, store, or transfer users’ per
 
 ### 跟踪保护
 
-任何用户的网络流量都可能引起兴趣，在个人数据的货币化方面尤其有价值。 犯罪分子和不诚实的互联网服务提供商都可以访问用户个人数据。 然而，有了值得信赖的 VPN，您可以确信，无论是您的服务提供商还是其他人都不会检测您的互联网活动。
+任何用户的网络流量都可能引起兴趣，在个人数据的货币化方面尤其有价值。犯罪分子和不诚实的互联网服务提供商都可以访问用户个人数据。然而，有了值得信赖的 VPN，您可以确信，无论是您的服务提供商还是其他人都不会检测您的互联网活动。
 
 ### Ultra-fast VPN servers in 64 countries
 

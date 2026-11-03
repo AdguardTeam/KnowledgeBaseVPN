@@ -7,9 +7,9 @@ If you encounter any problem while using AdGuard VPN for Android, you can inform
 
 ## 收集和发送标准日志
 
-默认情况下，AdGuard VPN 安卓版使用**默认**日志记录级别，即有关应用程序运行进程的基本数据收集。 要发送这些日志，请按照以下步骤进行：
+默认情况下，AdGuard VPN 安卓版使用**默认**日志记录级别，即有关应用程序运行进程的基本数据收集。要发送这些日志，请按照以下步骤进行：
 
-1. 打开 AdGuard VPN 安卓版，如果可以，请您重复导致错误的操作。 请记下发生此错误的确切时间。
+1. 打开 AdGuard VPN 安卓版，如果可以，请您重复导致错误的操作。请记下发生此错误的确切时间。
 
 1. Open *Settings* → *Support* → *Report a bug*.
 
@@ -25,7 +25,7 @@ You can also export and send logs manually. To do this, go to *Settings* → *Ge
 
 ## 收集和发送进阶日志
 
-在大多数情况下， **默认**日志记录级别足以追踪发生的错误。 但在某些情况下，需要有关设备和连接的更详细技术信息，然后我们的支持团队会要求您启用**进阶**或**极端**日志记录级别。 要发送这些类型的日志，请执行以下步骤：
+在大多数情况下， **默认**日志记录级别足以追踪发生的错误。但在某些情况下，需要有关设备和连接的更详细技术信息，然后我们的支持团队会要求您启用**进阶**或**极端**日志记录级别。要发送这些类型的日志，请执行以下步骤：
 
 1. Open AdGuard VPN for Android and select *Settings* (the gear icon at the bottom right corner) → *General* → *Advanced* → *Logging level*.
 

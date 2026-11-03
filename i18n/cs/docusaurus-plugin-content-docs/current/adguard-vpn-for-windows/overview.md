@@ -120,6 +120,12 @@ Pokud chcete, můžete přepnout AdGuard VPN tak, aby místo *automatického vý
 
 WinTun je ovladač směrování provozu, který se běžně používá pro implementace VPN v systému Windows a který zlepšuje kvalitu připojení VPN vytvořením virtuálního síťového adaptéru. Ve výchozím nastavení používá AdGuard VPN běžný ovladač WFP (a ovladač TDI pro Windows 7).
 
+##### IPv6 interface
+
+![IPv6 interface *border](https://cdn.adtidy.org/content/release_notes/vpn/windows/v2.10.1/ipv6_interface_en.png)
+
+The **IPv6 interface** setting controls whether IPv6 traffic is available while you’re connected to AdGuard VPN. It’s enabled by default, so you can use IPv6 if your network supports it. If YouTube, Gemini, or other Google services don’t work with the VPN on, try turning this setting off. This blocks IPv6 traffic and lets you check whether the services work over IPv4.
+
 #### Výjimky podsítě
 
 Tato funkce umožňuje přidávat podsítě pro vyloučení provozu z konkrétních zařízení připojených k síti. Např. váš robotický vysavač.

@@ -9,7 +9,7 @@ AdGuard VPN can only be installed on devices with **Microsoft Windows 11, 10, 8.
 
 ## AdGuard VPN Windows 版的安装
 
-To install AdGuard VPN for Windows, visit [our website](https://adguard-vpn.com/welcome.html) and click the *Download* button. 这将下载 `adguardVPNInstaller.exe`。 运行该安装包并依据提示操作。 这个过程仅需一分钟不到。
+To install AdGuard VPN for Windows, visit [our website](https://adguard-vpn.com/welcome.html) and click the *Download* button. 这将下载 `adguardVPNInstaller.exe`。运行该安装包并依据提示操作。这个过程仅需一分钟不到。
 
 Then you will need to check the box to accept the terms of the EULA and the Privacy policy. 最后，系统会提示您通过 AdGuard 账号或社交网络（Google、Apple、Facebook）进行授权。
 

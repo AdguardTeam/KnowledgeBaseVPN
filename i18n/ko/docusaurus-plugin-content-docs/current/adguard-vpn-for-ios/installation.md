@@ -1,6 +1,6 @@
 ---
 title: 앱 설치 및 제거
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 ## 시스템 요구 사항

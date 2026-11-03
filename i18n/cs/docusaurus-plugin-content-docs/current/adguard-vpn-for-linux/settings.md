@@ -126,7 +126,7 @@ AdGuard VPN CLI spustí rozhraní TUN, ale nemění systémovou směrovací tabu
 
 Tuto možnost použijte, pokud chcete trasy spravovat ručně nebo pomocí nástrojů třetích stran.
 
-To set the tunnel routing mode to `NONE` (no routing), type:
+Chcete-li nastavit režim směrování tunelu na hodnotu `NONE` (žádné směrování), zadejte:
 
 ```shell
 adguardvpn-cli config set-tun-routing-mode NONE
@@ -140,9 +140,9 @@ AdGuard VPN CLI vytváří a udržuje minimální sadu tras potřebných pro fun
 - Zachování přístupu k místním sítím (běžně podsítě RFC1918) a dalším výjimkám, aby byla vaše LAN, tiskárny a routery nadále dostupné.
 - Reakci na opětovné připojení a změny koncových bodů opětovným použitím tras podle potřeby.
 
-Use `AUTO` if you want a “just works” configuration with system-wide protection and no per-app setup.
+Použijte `AUTO`, pokud chcete konfiguraci typu “just works” s ochranou na úrovni celého systému bez nastavení pro jednotlivé aplikace.
 
-To set the tunnel routing mode to `AUTO` (automatic routing), type:
+Chcete-li nastavit režim směrování tunelu na `AUTO` (automatické směrování), zadejte:
 
 ```shell
 adguardvpn-cli config set-tun-routing-mode AUTO
@@ -152,7 +152,7 @@ adguardvpn-cli config set-tun-routing-mode AUTO
 
 AdGuard VPN CLI spouští skript zadaný uživatelem, který přidává nebo odebírá trasy při změně stavu tunelu. Máte plnou kontrolu nad tím, co prochází tunelem a co zůstává přímé.
 
-To set the tunnel routing mode to `SCRIPT` (custom routing script), type:
+Chcete-li nastavit režim směrování tunelu na `SCRIPT` (vlastní směrovací skript), zadejte:
 
 ```shell
 adguardvpn-cli config set-tun-routing-mode SCRIPT
@@ -164,7 +164,7 @@ Chcete-li vytvořit skript tras se správnými oprávněními, zadejte:
 adguardvpn-cli config create-route-script
 ```
 
-Use `SCRIPT` if you need fine-grained split tunneling, enterprise routing policies, or custom exceptions beyond what `AUTO` provides.
+Použijte `SCRIPT`, pokud potřebujete jemně odstupňované rozdělené tunelování, podnikové politiky směrování nebo vlastní výjimky, které přesahují možnosti `AUTO`.
 
 #### Příklady
 
@@ -274,36 +274,36 @@ Toto nastavení je zodpovědné za zobrazení systémových oznámení napříkl
 adguardvpn-cli config set-show-notifications on
 ```
 
-## Exclusions
+## Výjimky
 
-There are two modes. In _General_ mode, websites from the list of exclusions are not routed through VPN. In _Selective_ mode, only websites from the list of exclusions are routed through VPN. There is a separate list of exclusions for each mode.
+Existují dva režimy. V _Obecném_ režimu nejsou webové stránky ze seznamu výjimek směrovány skrze VPN. V _Selektivním_ režimu jsou skrze VPN směrovány pouze webové stránky ze seznamu výjimek. Pro každý režim existuje samostatný seznam výjimek.
 
-To read about what you can do with exclusions, write this in the command-line interface: `adguardvpn-cli site-exclusions -h`.
+Chcete-li si přečíst, co všechno můžete dělat s výjimkami, napište to do rozhraní příkazového řádku: `adguardvpn-cli site-exclusions -h`.
 
-Here are the main options:
+Zde jsou hlavní možnosti:
 
-1. **add** adds specified exclusions
+1. **add** přidá zadané výjimky
 
-   Example: `adguardvpn-cli site-exclusions add`, where `%DOMAIN_NAME%` is the website that you want to add to exclusions.
+   Příklad: `adguardvpn-cli site-exclusions add`, kde `%DOMAIN_NAME%` je webová stránka, kterou chcete přidat do výjimek.
 
    :::note
 
-   To add many exclusions, you need to list them separated by spaces.
+   Chcete-li přidat mnoho výjimek, musíte je zadat oddělené mezerami.
 
    :::
 
-2. **clear** clears the list of exclusions in the current mode
+2. **clear** vymaže seznam výjimek v aktuálním režimu
 
-   Example: `adguardvpn-cli site-exclusions clear`
+   Příklad: `adguardvpn-cli site-exclusions clear`
 
-3. **mode** shows the current mode and allows to switch between them
+3. **mode** zobrazuje aktuální režim a umožňuje mezi nimi přepínat
 
-   Example: `adguardvpn-cli site-exclusions mode selective` (with this command, Selective mode is chosen)
+   Příklad: `adguardvpn-cli site-exclusions mode selective` (tímto příkazem je zvolen selektivní režim)
 
-4. **remove** removes one or more exclusions (if separated by commas)
+4. **remove** odstraní jednu nebo více výjimek (pokud jsou odděleny čárkami)
 
-   Example: `adguardvpn-cli site-exclusions remove %DOMAIN_NAME%` where `%DOMAIN_NAME%` is the website that you want to remove from exclusions.
+   Příklad: `adguardvpn-cli site-exclusions remove %DOMAIN_NAME%`, kde `%DOMAIN_NAME%` je webová stránka, kterou chcete odstranit z výjimek.
 
-5. **show** shows the current list of exclusions
+5. **show** zobrazí aktuální seznam výjimek
 
-   Example: `adguardvpn-cli site-exclusions show`
+   Příklad: `adguardvpn-cli site-exclusions show`

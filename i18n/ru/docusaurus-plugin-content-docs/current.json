@@ -86,5 +86,9 @@
   "sidebar.sidebar.category.solving-problems-vpn-for-routers": {
     "message": "Решение проблем",
     "description": "The label for category 'Solving problems' in sidebar 'sidebar'"
+  },
+  "sidebar.sidebar.category.Features": {
+    "message": "Features",
+    "description": "The label for category 'Features' in sidebar 'sidebar'"
   }
 }

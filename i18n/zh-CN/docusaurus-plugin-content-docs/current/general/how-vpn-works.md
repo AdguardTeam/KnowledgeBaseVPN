@@ -67,7 +67,7 @@ A weak signal, network overload, VPN incompatibility with a firewall, antivirus 
 
 Our VPN service has several important [advantages](/general/why-adguard-vpn):
 
-- [_TrustTunnel_](https://trusttunnel.org/) 是一款由 AdGuard VPN 开发的现代化、隐匿、开源的 VPN 协议。 即使在网络连接较慢时也能稳定可靠地运行，并将自身流量伪装为普通网络流量，使其更难以被追踪和封锁。
+- [_TrustTunnel_](https://trusttunnel.org/) 是一款由 AdGuard VPN 开发的现代化、隐匿、开源的 VPN 协议。即使在网络连接较慢时也能稳定可靠地运行，并将自身流量伪装为普通网络流量，使其更难以被追踪和封锁。
 
 - [_No-logging policy_](https://adguard-vpn.com/privacy.html), which means no personal data can be shared with third parties because AdGuard VPN never collects such data
 

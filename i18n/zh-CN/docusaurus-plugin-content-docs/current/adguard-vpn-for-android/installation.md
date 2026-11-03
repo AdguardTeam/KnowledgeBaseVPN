@@ -29,6 +29,6 @@ However, you still can [download an older, compatible version](https://agrd.io/v
 
 ## 如何卸载 AdGuard VPN 安卓版
 
-如果您决定卸载 AdGuard VPN 安卓版，请找到此应用的图标并长按。 在打开的列表中，点击*卸载*。
+如果您决定卸载 AdGuard VPN 安卓版，请找到此应用的图标并长按。在打开的列表中，点击*卸载*。
 
 You can learn more about the AdGuard VPN for Android in [this article](/adguard-vpn-for-android/overview).

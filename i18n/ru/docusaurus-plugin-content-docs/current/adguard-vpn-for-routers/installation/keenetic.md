@@ -4,9 +4,9 @@ sidebar_position: 3
 ---
 
 :::note
-You can also install and run the AdGuard VPN for Linux on Keenetic routers. This method requires advanced technical knowledge but provides access to all AdGuard VPN features.
+Вы также можете установить и запустить AdGuard VPN для Linux на роутерах Keenetic. Этот метод требует глубоких технических знаний, но предоставляет доступ ко всем функциям AdGuard VPN.
 
-For more information and detailed instructions, refer to [our dedicated guide](/adguard-vpn-for-linux/setting-up-on-a-router/keenetic/).
+Для получения дополнительной информации и подробных инструкций обратитесь [к инструкции](/adguard-vpn-for-linux/setting-up-on-a-router/keenetic/).
 :::
 
 Вы можете настроить AdGuard VPN на роутерах Keenetic, начиная с KeeneticOS 3.5. Выполните следующие шаги:

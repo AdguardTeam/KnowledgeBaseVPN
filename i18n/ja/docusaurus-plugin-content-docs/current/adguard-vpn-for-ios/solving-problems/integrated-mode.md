@@ -5,7 +5,7 @@ sidebar_position: 4
 
 AdGuard VPNには、*「VPN」*と*「併用モード」*という2つの動作モードがあります。
 
-「*VPN*」モードはデフォルトで有効になっており、当社で開発したモダンなオープンソースプロトコル「[TrustTunnel](https://trusttunnel.org/)」を使用しています。 このプロトコルは、接続速度とセキュリティのベストなコンビネーションを提供します。 しかし、「VPN」動作モードでは、AdGuard VPN と AdGuard 広告ブロッカーを同時に動作させることはできません。
+「*VPN*」モードはデフォルトで有効になっており、当社で開発したモダンなオープンソースプロトコル「[TrustTunnel](https://trusttunnel.org/)」を使用しています。このプロトコルは、接続速度とセキュリティのベストなコンビネーションを提供します。しかし、「VPN」動作モードでは、AdGuard VPN と AdGuard 広告ブロッカーを同時に動作させることはできません。
 
 *Integrated mode*, in turn, uses the IPsec protocol, which makes it possible for the AdGuard apps to work together.
 
@@ -17,7 +17,7 @@ If you have installed AdGuard VPN first and only then decided to try AdGuard Ad 
 
 2. Tap *General* → *Operating mode*.
 
-3. 動作モードを「*VPN*」から「*併用モード*」に切り替えてください。 これで完了です。
+3. 動作モードを「*VPN*」から「*併用モード*」に切り替えてください。これで完了です。
 
 :::note
 

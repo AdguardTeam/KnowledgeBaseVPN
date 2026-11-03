@@ -1,6 +1,6 @@
 ---
 title: Installation et désinstallation
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 ## Configuration requise

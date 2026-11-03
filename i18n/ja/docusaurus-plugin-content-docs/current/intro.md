@@ -14,7 +14,7 @@ Initially, VPNs were created to securely connect business networks over the Inte
 
 A VPN connects a user’s computer or mobile device to a server and allows one to browse the net using a “cover” IP address. Thus, third-party observers cannot see the user’s real IP address, which makes it nearly impossible to trace them.
 
-The first thing that users mention in relation to VPN is traffic encryption and the security derived from it. しかし、それはどういう意味なのでしょうか？ A VPN creates an encrypted tunnel between the user’s device and the remote server. すべてのインターネットトラフィックはこのトンネルを通過することによって、データ・個人情報は保護されます。 外部の第三者にとっては、あなたのトラフィックはVPNサーバーから出るので、あなたの端末がこのVPNサーバーのIPアドレスを持っているように見えます。 This trick masks the user’s identity and true location.
+The first thing that users mention in relation to VPN is traffic encryption and the security derived from it. しかし、それはどういう意味なのでしょうか？ A VPN creates an encrypted tunnel between the user’s device and the remote server. すべてのインターネットトラフィックはこのトンネルを通過することによって、データ・個人情報は保護されます。外部の第三者にとっては、あなたのトラフィックはVPNサーバーから出るので、あなたの端末がこのVPNサーバーのIPアドレスを持っているように見えます。 This trick masks the user’s identity and true location.
 
 VPNは次の目的で使用できます:
 
@@ -22,7 +22,7 @@ VPNは次の目的で使用できます:
 - Secure your data — even when connecting to a public Wi-Fi, you can browse the Web safely
 - Protect yourself from spoofing (network traffic interception) and tracking on the part of your Internet service provider
 
-パスワードやカード情報などの個人情報は、インターネットを利用する際に危険にさらされます。 しかし、VPNを使用してインターネットに接続すれば、誰にもデータ・個人情報を傍受されることはありません。
+パスワードやカード情報などの個人情報は、インターネットを利用する際に危険にさらされます。しかし、VPNを使用してインターネットに接続すれば、誰にもデータ・個人情報を傍受されることはありません。
 
 ## AdGuard VPN を選ぶ理由
 
@@ -32,7 +32,7 @@ AdGuard has been present on the market of personal data protection and ad blocki
 
 ### 独自開発のVPNプロトコル
 
-AdGuard VPN とその競合他社との主な違いは、私たちが開発した現代的でステルス性が高く高速なオープンソースVPNプロトコル、「[TrustTunnel](https://trusttunnel.org/)」を使用していることです。 通常のトラフィックに偽装しているため、検知やブロックがより困難になっています。
+AdGuard VPN とその競合他社との主な違いは、私たちが開発した現代的でステルス性が高く高速なオープンソースVPNプロトコル、「[TrustTunnel](https://trusttunnel.org/)」を使用していることです。通常のトラフィックに偽装しているため、検知やブロックがより困難になっています。
 
 ### No-logging policy
 
@@ -40,7 +40,7 @@ No-logging policy means that we don’t collect, store, or transfer users’ per
 
 ### トラッキング（個人情報追跡）を防止
 
-ユーザーのウェブトラフィックは第三者の関心を引く可能性があり、特に個人情報のマネタイズという点で価値があります。 犯罪者や悪徳インターネットプロバイダがトラフィックにアクセスできます。 しかし、信頼できるVPNを利用すれば、プロバイダーや他の第三者にもあなたのインターネット行動を見られることはありません。
+ユーザーのウェブトラフィックは第三者の関心を引く可能性があり、特に個人情報のマネタイズという点で価値があります。犯罪者や悪徳インターネットプロバイダがトラフィックにアクセスできます。しかし、信頼できるVPNを利用すれば、プロバイダーや他の第三者にもあなたのインターネット行動を見られることはありません。
 
 ### Ultra-fast VPN servers in 64 countries
 

@@ -3,7 +3,7 @@ title: 限制模式账户问题
 sidebar_position: 4
 ---
 
-运行 Android 7 及以上操作系统的手机和平板电脑用户可能会因为**限制模式下的账户**而遇到问题。 如果您有这样的账户，**AdGuard VPN** 和其他使用 VPN 的应用在处理 VPN 流量的时候会受到限制。 此外，在您的设备上使用**应用分身/双账户**也可能导致此问题。 下面是发生此问题时的解决建议。
+运行 Android 7 及以上操作系统的手机和平板电脑用户可能会因为**限制模式下的账户**而遇到问题。如果您有这样的账户，**AdGuard VPN** 和其他使用 VPN 的应用在处理 VPN 流量的时候会受到限制。此外，在您的设备上使用**应用分身/双账户**也可能导致此问题。下面是发生此问题时的解决建议。
 
 ## 解决方案
 
@@ -14,7 +14,7 @@ sidebar_position: 4
 1. 激活**开发者模式**并启用**USB 调试**；
 
     - 打开手机自带的「**设置**」；
-    - 点击**系统**部分（一般在设置菜单的最后）。 在此部分中找到子项「**关于手机**」；
+    - 点击**系统**部分（一般在设置菜单的最后）。在此部分中找到子项「**关于手机**」；
     - Click the **Build number** line 7 times. 之后，您会收到通知称**您已处于开发者模式**（有可能会要求您输入设备的解锁密码）；
     - Open **System Settings** → **Developer Options** → Scroll down and enable **USB debugging** → Confirm debugging is enabled in the window **Allow USB debugging** after reading the warning carefully.
 
@@ -53,7 +53,7 @@ In some cases restricted user accounts are created implicitly and cannot be remo
 
 ### LG 和三星设备
 
-**LG** 或**三星**手机用户可能也会遇到类似的问题。 这可能是由**应用分身/双 Messenger 账户**功能（其本质是隐式创建了受限账户）引起的。 要解决此问题，您需要禁用此功能。
+**LG** 或**三星**手机用户可能也会遇到类似的问题。这可能是由**应用分身/双 Messenger 账户**功能（其本质是隐式创建了受限账户）引起的。要解决此问题，您需要禁用此功能。
 
 #### 三星
 

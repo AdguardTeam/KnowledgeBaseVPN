@@ -67,7 +67,7 @@ A weak signal, network overload, VPN incompatibility with a firewall, antivirus 
 
 Our VPN service has several important [advantages](/general/why-adguard-vpn):
 
-- [_TrustTunnel_](https://trusttunnel.org/) — AdGuard VPNによって開発された、モダンでステルス性の高いオープンソースVPNプロトコル。 低速なインターネット環境でも安定して動作し、通常のトラフィックに偽装するため、検出やブロックされにくい。
+- [_TrustTunnel_](https://trusttunnel.org/) — AdGuard VPNによって開発された、モダンでステルス性の高いオープンソースVPNプロトコル。低速なインターネット環境でも安定して動作し、通常のトラフィックに偽装するため、検出やブロックされにくい。
 
 - [_No-logging policy_](https://adguard-vpn.com/privacy.html), which means no personal data can be shared with third parties because AdGuard VPN never collects such data
 

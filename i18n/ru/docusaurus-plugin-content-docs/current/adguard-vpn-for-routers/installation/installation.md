@@ -22,7 +22,7 @@ sidebar_position: 1
 1. Профиль IPSec
 
    - Прост в настройке, поддерживается многими роутерами
-   - Limitations: not available in Russia, China, and Iran, only a limited number of VPN locations (USA, Netherlands, Finland), and no support for exclusions
+   - Ограничения: недоступен в России, только ограниченное количество VPN-локаций (США, Нидерланды, Финляндия) и нет поддержки исключений
 
 2. [AdGuard VPN CLI](/adguard-vpn-for-linux/setting-up-on-a-router)
 

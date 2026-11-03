@@ -126,7 +126,7 @@ AdGuard VPN CLI открывает интерфейс TUN, но не измен�
 
 Используйте эту опцию, если хотите управлять маршрутами вручную или с помощью сторонних инструментов.
 
-To set the tunnel routing mode to `NONE` (no routing), type:
+Чтобы установить режим NONE (без маршрутизации), введите:
 
 ```shell
 adguardvpn-cli config set-tun-routing-mode NONE

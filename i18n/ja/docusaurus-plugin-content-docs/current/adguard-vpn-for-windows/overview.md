@@ -5,11 +5,11 @@ sidebar_position: 1
 
 ## What AdGuard VPN for Windows does
 
-- ネットワークトラフィックの傍受（スプーフィング）から保護します。 AdGuard VPNは、お使いの端末とVPNサーバーの間に暗号化トンネルを作成します。 すべてのインターネットトラフィックはこのトンネルを通過することによって、データ・個人情報は保護されます。 また、 [AdGuardの独自開発プロトコル](https://trusttunnel.org/)のおかげで、高速で安全な接続が保証されます。
+- ネットワークトラフィックの傍受（スプーフィング）から保護します。 AdGuard VPNは、お使いの端末とVPNサーバーの間に暗号化トンネルを作成します。すべてのインターネットトラフィックはこのトンネルを通過することによって、データ・個人情報は保護されます。また、 [AdGuardの独自開発プロトコル](https://trusttunnel.org/)のおかげで、高速で安全な接続が保証されます。
 
-- IPアドレスを隠します。 サイバー犯罪者にとって、あなたの実際のIPアドレスは、あなたの個人情報を把握するための鍵です。 Your name, email address, phone number, credit card information can all fall into the hands of fraudsters if you don’t hide your IP. With AdGuard VPN, all your traffic goes through an encrypted tunnel and comes to the VPN server. The web server registers the IP address of the endpoint of the tunnel, i.e. the VPN server, and not the device’s real IP address.
+- IPアドレスを隠します。サイバー犯罪者にとって、あなたの実際のIPアドレスは、あなたの個人情報を把握するための鍵です。 Your name, email address, phone number, credit card information can all fall into the hands of fraudsters if you don’t hide your IP. With AdGuard VPN, all your traffic goes through an encrypted tunnel and comes to the VPN server. The web server registers the IP address of the endpoint of the tunnel, i.e. the VPN server, and not the device’s real IP address.
 
-- 現在位置を隠します。 その効果は？ For example, the ability to book a hotel at locals’ rates or hide from geotargeted advertising.
+- 現在位置を隠します。その効果は？ For example, the ability to book a hotel at locals’ rates or hide from geotargeted advertising.
 
 AdGuard VPN for Windows has many advantages, so we’ve dedicated [a separate article](/general/why-adguard-vpn) to them. Here, however, we want to focus more on the application itself and how it works.
 
@@ -119,6 +119,12 @@ If you wish, you can switch AdGuard VPN to use only HTTP2/TLS or HTTP3/QUIC prot
 ##### Use WinTun
 
 WinTun is a traffic routing driver commonly used for VPN implementations on Windows that improves the quality of VPN connections by creating a virtual network adapter. By default AdGuard VPN uses the regular WFP driver (and TDI driver for Windows 7).
+
+##### IPv6 interface
+
+![IPv6 interface *border](https://cdn.adtidy.org/content/release_notes/vpn/windows/v2.10.1/ipv6_interface_en.png)
+
+The **IPv6 interface** setting controls whether IPv6 traffic is available while you’re connected to AdGuard VPN. It’s enabled by default, so you can use IPv6 if your network supports it. If YouTube, Gemini, or other Google services don’t work with the VPN on, try turning this setting off. This blocks IPv6 traffic and lets you check whether the services work over IPv4.
 
 #### Subnet exclusions
 

@@ -16,7 +16,7 @@ AdGuard VPN для Linux, также известный как AdGuard VPN CLI, 
 - [Исключения](/adguard-vpn-for-linux/exclusions)
 - [Взаимодействие с AdGuard для Linux](/adguard-vpn-for-linux/interaction-adguard-cli)
 
-Откройте Терминал, чтобы просмотреть все доступные команды. На Linux нажмите Ctrl+Alt+T. On macOS, search for it in Spotlight. Затем введите:
+Откройте Терминал, чтобы просмотреть все доступные команды. На Linux нажмите Ctrl+Alt+T. На macOS найдите его через Spotlight. Затем введите:
 
 ```
 adguardvpn-cli --help-all

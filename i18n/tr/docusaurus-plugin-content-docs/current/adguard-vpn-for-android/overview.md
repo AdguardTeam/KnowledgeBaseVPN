@@ -69,6 +69,20 @@ Bir alan adını veya alt alan adını yanlışlıkla sildiyseniz, *Varsayılana
 
 ![Varsayılana sıfırla *mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/reset.jpg)
 
+### Pre-made exclusions for Russian services
+
+If your app language is Russian, you can add a list of popular Russian websites and services — banks, government services, and marketplaces — to exclusions.
+
+After two successful VPN connections in *General* mode, a dialog appears on the main screen, offering to add the list with one tap.
+
+:::note
+
+Availability depends on the app’s language, not your location.
+
+:::
+
+The list won’t overwrite your own rules or create duplicates. Once it is added, the app takes you to the *Exclusions* screen and shows an *Undo* option so you can revert the change.
+
 ### Uygulamalar
 
 Uygulamalar için VPN'i de yönetebilirsiniz. VPN tünelinden bir uygulamayı hariç tutmak için, *Uygulama ekle* öğesine dokunun. VPN'i **seçici olarak** kullanmak için *Modu değiştir* öğesine dokunun.

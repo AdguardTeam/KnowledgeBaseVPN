@@ -19,7 +19,7 @@ Below we list all low-level settings available in AdGuard VPN for Android and ex
 
 ### AdGuard VPN プロトコル
 
-AdGuard VPN は「TrustTunnel」を使用しています。TrustTunnel はAdGuard独自開発のモダンなオープンソースVPNプロトコルであり、誰でも利用、監査、実装が可能です。 [公式ウェブサイト](https://trusttunnel.org/)でその仕組みと従来のVPNプロトコルに比べて優れている理由を確認できます。
+AdGuard VPN は「TrustTunnel」を使用しています。TrustTunnel はAdGuard独自開発のモダンなオープンソースVPNプロトコルであり、誰でも利用、監査、実装が可能です。[公式ウェブサイト](https://trusttunnel.org/)でその仕組みと従来のVPNプロトコルに比べて優れている理由を確認できます。
 
 ### Include Wi-Fi gateway in VPN routes
 

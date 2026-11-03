@@ -120,6 +120,12 @@ Se desejar, você pode alternar o AdGuard VPN para usar apenas o protocolo HTTP2
 
 O WinTun é um driver de roteamento de tráfego comumente usado para implementações de VPN no Windows que melhora a qualidade das conexões VPN criando um adaptador de rede virtual. Por padrão, o AdGuard VPN usa o driver WFP regular (e o driver TDI para Windows 7).
 
+##### IPv6 interface
+
+![IPv6 interface *border](https://cdn.adtidy.org/content/release_notes/vpn/windows/v2.10.1/ipv6_interface_en.png)
+
+The **IPv6 interface** setting controls whether IPv6 traffic is available while you’re connected to AdGuard VPN. It’s enabled by default, so you can use IPv6 if your network supports it. If YouTube, Gemini, or other Google services don’t work with the VPN on, try turning this setting off. This blocks IPv6 traffic and lets you check whether the services work over IPv4.
+
 #### Exclusões de sub-rede
 
 Este recurso permite adicionar sub-redes para excluir tráfego de dispositivos específicos conectados à sua rede. Por exemplo, seu aspirador de pó robô.
