@@ -81,7 +81,7 @@ Most Linux and macOS systems come with an SSH client pre-installed. For Windows,
 
     Type `Yes` and press Enter.
 
-1. Enter the router’s password when prompted. OpenWrt has no root password set by default — press Enter, or use the password set during initial setup.
+1. Enter the router’s password when prompted. The default password for OpenWrt is typically empty (just press Enter), but you should have set a password during the initial setup.
 
 <!-- comment -->
 
