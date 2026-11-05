@@ -7,7 +7,7 @@ AdGuard VPN Tarayıcı Uzantısı Chrome, Firefox, Opera ve Edge için mevcuttur
 
 :::note
 
-AdGuard VPN Tarayıcı Uzantısını yalnızca giriş yaptığınızda kullanabilirsiniz. AdGuard hesabınızla veya Google, Facebook ya da Apple aracılığıyla giriş yapın. İkinci durumda, hesabınızın AdGuard hesabınızla aynı e-posta adresine bağlı olduğundan emin olun. [AdGuard VPN aboneliğiniz](/general/subscription) varsa, AdGuard VPN Tarayıcı uzantısında otomatik olarak etkinleştirilecektir. Henüz bir AdGuard hesabınız yok mu? [Burada oluşturun](https://auth.adguardaccount.com/registration.html).
+AdGuard VPN Tarayıcı Uzantısını yalnızca giriş yaptığınızda kullanabilirsiniz. AdGuard hesabınızla veya Google, Facebook ya da Apple aracılığıyla giriş yapın. İkinci durumda, hesabınızın AdGuard hesabınızla aynı e-posta adresine bağlı olduğundan emin olun. If you have an [AdGuard VPN subscription](/general/subscription), it will be activated automatically in AdGuard VPN Browser Extension. Henüz bir AdGuard hesabınız yok mu? [Burada oluşturun](https://auth.adguardaccount.com/registration.html).
 
 :::
 
@@ -43,7 +43,7 @@ Tüm istatistikler cihazınızda yerel olarak saklanır. We only calculate how m
 
 *İstatistikler* bölümü, ücretli sürüm kullanıcıları için kullanılabilir.
 
-## Ayarlar
+## Settings (for the active profile)
 
 AdGuard VPN Tarayıcı Uzantınızı yönetmek için:
 
@@ -52,70 +52,97 @@ AdGuard VPN Tarayıcı Uzantınızı yönetmek için:
 
 İşiniz bittiğinde, solda birkaç sekme göreceksiniz:
 
-### Genel
+### Settings
 
-Bu sekmede birkaç önemli ayar toplanmıştır. Burada kullanılacak bir DNS sunucusu seçebilir, tarayıcının içerik menüsüne AdGuard VPN simgesini ekleyebilir veya kaldırabilir, WebRTC'i engelleyebilir, uzantının temasını değiştirebilir ve AdGuard'ın anonim çökme raporları ve teknik veriler toplamasına izin verebilirsiniz.
+The *Settings* menu is divided into two distinct sections:
 
-#### DNS sunucusu
+- **Settings**: Options here apply exclusively to the currently active profile: *Exclusions*, *DNS server*, *Quick connect*, and *Block WebRTC*.
+- **General settings**: These parameters apply to the entire extension, regardless of which profile is selected: *Theme*, *Language*, *Display AdGuard VPN in the browser context menu*, and *Help improve AdGuard VPN*.
 
-Varsayılan olarak, İSS'niz tarafından sağlanan [sistem DNS sunucusu](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns) seçilidir, ancak gizliliğinizi tehlikeye atabilir. AdGuard VPN Tarayıcı uzantısıyla, daha iyi hız ve güvenlik sağlayan ve hatta reklamları veya potansiyel olarak tehlikeli alan adlarını engelleyen bir DNS sunucusu seçebilirsiniz. DNS sunucularının adları altındaki kısa açıklamalar, gezinmenize ve kararınızı vermenize yardımcı olur.
+![Settings](https://cdn.adtidy.org/content/release_notes/vpn/browser_extension/2.12/settings.png)
+
+#### Exclusions
+
+The *Exclusions* option allows you to configure website routing. You can choose between two options, each maintaining a separate list:
+
+- **VPN is on everywhere except for the websites below**: AdGuard VPN works on all websites by default, with the exception of the domains added to this list.
+- **VPN is on selectively: only for the websites below**: AdGuard VPN works only on the websites added to this list and remains inactive for all others.
+
+When adding a website to an exclusions list, you can enter the domain manually or select the *From the list* option. It provides predefined categories (such as *Shopping* or *Messengers*) with popular services, allowing you to add all relevant domains for a service in one click.
+
+Managing exclusions via the *Settings* tab applies the lists to the active profile. You can also configure exclusions for any profile under *Manage profiles*.
+
+##### Import and export
+
+Not only can you add and remove websites, you can also transfer ready exclusions lists to other devices where AdGuard VPN is installed. To export your exclusions list, follow the 4-step instruction below:
+
+1. Open AdGuard VPN Browser Extension from where you want to export your exclusions lists. Uygun bölümü bulun ve "Dışa aktar" düğmesine tıklayın. `exclusions.zip` arşivi indirilecektir.
+1. There are two `.txt` files inside the archive, one for each of the two exclusions lists. Bunlara daha fazla istisna ekleyin, mevcut olanları silin, dosyaları yeniden adlandırın veya arşivi olduğu gibi bırakın.
+1. Farklı cihazlar arasında aktarım yaparken, `.zip` dosyasını içe aktarmak için cihaza gönderin.
+1. Bu cihazda AdGuard VPN'i açın. Uygun bölümü bulun, "İçe aktar" düğmesine tıklayın ve arşivi seçin.
+
+Done!
+
+#### DNS server
+
+By default, the *AdGuard DNS Non-filtering* server is selected to ensure privacy without interfering with website content. If you want additional protection, you can choose a DNS server that blocks ads, trackers, or malicious domains, or enables parental control. Brief descriptions under the names of DNS servers will help you navigate and make your decision.
 
 Learn more about [DNS servers from various providers](https://adguard-dns.io/kb/general/dns-providers/).
 
-### Profile
+Configuring *DNS server* directly in the *Settings* tab applies the selected server to the active profile. You can also assign a preferred DNS server to any profile under *Manage profiles*.
 
-Profiles let you save VPN settings for different tasks and switch between them quickly. For example, you can create one profile for work, another for streaming, and another for public Wi-Fi.
+#### Quick connect
 
-To create or manage profiles, click the AdGuard VPN icon on your browser’s panel → three-line menu in the upper-right corner (☰) → *Profiles*.
+The *Quick connect* section defines which location the extension connects to when clicking the main *Connect* button:
 
-![Profile main screen](https://cdn.adtidy.org/content/release_notes/vpn/browser_extension/2.10/profiles_en.png)
+- Fastest location
+- Last used location
+- Specific countries and servers
 
-You can create up to 10 profiles. Each profile can have its own name and settings:
+Configuring *Quick connect* directly in the *Settings* tab applies these parameters to the active profile. You can also set a preferred connection location for any profile under *Manage profiles*.
 
-- Server location
-- WebRTC
-- DNS server
-- İstisnalar
+![Quick connect](https://cdn.adtidy.org/content/release_notes/vpn/browser_extension/2.12/quick-connect.png)
 
-![Profile settings](https://cdn.adtidy.org/content/release_notes/vpn/browser_extension/2.10/settings_en.png)
+#### Block WebRTC
 
-Once profiles are set up, you can switch between them directly from the extension popup.
+This feature blocks WebRTC, which can leak your real IP address even when using a proxy or VPN. Some messengers, streaming platforms, or games may stop working properly with this option enabled.
 
-![Extension popup](https://cdn.adtidy.org/content/release_notes/vpn/browser_extension/2.10/popup_en.png)
+Toggling *Block WebRTC* directly in the *Settings* tab applies this setting to the active profile. You can also enable or disable WebRTC blocking for any profile under *Manage profiles*.
 
-:::note
+### General settings
 
-The location saved in a profile will stay the same until you change it in that profile’s settings. You can still choose another location from the extension popup, but this change is temporary. If you switch profiles or reopen the browser, AdGuard VPN will use the saved location from the selected profile.
+The options in this section apply globally to the entire extension, regardless of which profile is selected:
 
-Other settings work differently. If you change *WebRTC*, *DNS server*, or *Exclusions* while a profile is active, AdGuard VPN will save these changes to that profile.
+- **Theme**: Select a preferred interface appearance: Light, Dark, or Browser default.
+- **Language**: Change the display language of the extension.
+- **Display AdGuard VPN in the browser context menu**: Toggle quick access to AdGuard VPN actions from the browser’s right-click menu.
+- **Help improve AdGuard VPN**: Enable sending crash reports and technical data to help improve extension performance and stability. All data is collected anonymously, is never shared with third parties, and you can withdraw your consent at any time.
 
-:::
+### Manage profiles
 
-### Exclusions
+To create, edit, or delete profiles, open the profile switcher in the bottom-left corner of the sidebar and select *Manage profiles*.
 
-Bir sonraki sekme, AdGuard VPN'in ana ayırt edici özelliklerinden birini içerir — ayrı istisna listelerine sahip iki mod.
+You can have up to 10 profiles, including the *Default* profile.
 
-**Genel modda**, AdGuard VPN varsayılan olarak istisna listelerine eklediğiniz siteler dışında tüm sitelerde çalışır. **Seçici modda** tam tersi, AdGuard VPN varsayılan olarak hiçbir yerde çalışmaz. **Genel modda** gördüğünüzden ayrı olarak, çalışmasını istediğiniz siteleri bir istisna listesine ekleyebilirsiniz.
+![Manage profiles](https://cdn.adtidy.org/content/release_notes/vpn/browser_extension/2.12/manage-profiles-new.png)
 
-When adding a website to an exclusion list, you can enter the website manually or select the **From the list** option. In the latter case, you’ll see eight categories (for example, *Shopping* or *Messengers*), each suggesting several popular services. You can exclude any of these services in one click. This will add all domains relevant to that specific service to exclusions.
+In this view, you can rename profiles, delete setups you no longer need, and configure the following parameters for each profile individually:
 
-#### İçe ve dışa aktarma
+- **Quick connect**: Set the default connection behavior (Fastest location, Last used location, or a specific country and server).
+- **DNS server**: Select a dedicated DNS provider or keep the default server (AdGuard DNS Non-filtering).
+- **Block WebRTC**: Enable or disable WebRTC blocking to prevent IP leaks.
+- **Exclusions**: Set up a custom exclusions list and select a routing mode for that profile.
 
-Yalnızca site ekleyip çıkarmakla kalmaz, ayrıca hazır istisna listelerini AdGuard VPN'nin yüklü olduğu diğer cihazlara da aktarabilirsiniz. İstisna listenizi dışa aktarmak için aşağıdaki 4 adımlı talimatı uygulayın:
-
-1. İstisnaların listesini dışa aktarmak istediğiniz yerden AdGuard VPN Tarayıcı uzantısını açın. Uygun bölümü bulun ve "Dışa aktar" düğmesine tıklayın. `exclusions.zip` arşivi indirilecektir.
-1. Arşivde, Genel ve Seçici listelerin her biri için birer tane olmak üzere iki `.txt` dosyası vardır. Bunlara daha fazla istisna ekleyin, mevcut olanları silin, dosyaları yeniden adlandırın veya arşivi olduğu gibi bırakın.
-1. Farklı cihazlar arasında aktarım yaparken, `.zip` dosyasını içe aktarmak için cihaza gönderin.
-1. Bu cihazda AdGuard VPN'i açın. Uygun bölümü bulun, "İçe aktar" düğmesine tıklayın ve arşivi seçin. Tamamlandı!
+The *Default* profile is protected and cannot be renamed or deleted.
 
 ### Hesap
 
-AdGuard VPN Tarayıcı uzantısının üçüncü sekmesi, yalnızca hesabınıza giriş yapmak için kullandığınız e-posta adresini, *Yönet* ve *Çıkış yap* olmak üzere iki düğmeyi içeren tamamen minimalistiktir. *Yönet* düğmesine tıklamak sizi tüm mevcut lisanslarınızı, aboneliklerinizi ve bunlara bağlı cihazları görebileceğiniz kişisel AdGuard hesabınıza götürür.
+The third tab of AdGuard VPN Browser Extension is utterly minimalistic, containing only the email address you used to sign into your account and two buttons, *Manage* and *Sign out*. Clicking the *Manage* button takes you to your personal AdGuard account, where you can see all your current licenses and subscriptions, as well as devices connected to them.
 
 ### Destek
 
-Sık sorulan soruların yanıtlarını SSS bölümünde bulabilir veya geri bildirim bırakabilirsiniz: Bir şey olması gerektiği gibi çalışmıyorsa bir hatayı bildirin, yeni bir özellik eklemeyi önerin veya birçok sosyal medya platformundan herhangi birinde AdGuard'ı tartışın.
+You can find answers to common questions in the FAQ section, or leave feedback: report a bug if something isn’t working as it should, suggest adding a new feature, or discuss AdGuard on any of the many social media platforms.
 
 ### Hakkında
 
-Uzantının sürümünü kontrol edebileceğiniz, resmi siteyi ziyaret edebileceğiniz ve SKLS veya Gizlilik politikasını görüntüleyebileceğiniz başka bir küçük sekme.
+Another minor tab, where you can check the extension’s version, visit the official website, and view the EULA or Privacy policy.

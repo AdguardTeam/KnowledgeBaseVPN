@@ -7,7 +7,7 @@ Rozšíření prohlížeče AdGuard VPN je k dispozici pro Chrome, Firefox, Oper
 
 :::note
 
-Rozšíření prohlížeče AdGuard VPN můžete používat pouze po přihlášení. Přihlaste se pomocí účtu AdGuard, přes Google, Facebook nebo Apple. Ve druhém případě se ujistěte, že je váš účet vázán na stejnou e-mailovou adresu jako účet AdGuard. Pokud máte [předplatné AdGuard VPN](/general/subscription), bude v rozšíření prohlížeče AdGuard VPN aktivováno automaticky. Nemáte ještě účet AdGuard? [Zde si jej vytvořte](https://auth.adguardaccount.com/registration.html).
+Rozšíření prohlížeče AdGuard VPN můžete používat pouze po přihlášení. Přihlaste se pomocí účtu AdGuard, přes Google, Facebook nebo Apple. Ve druhém případě se ujistěte, že je váš účet vázán na stejnou e-mailovou adresu jako účet AdGuard. If you have an [AdGuard VPN subscription](/general/subscription), it will be activated automatically in AdGuard VPN Browser Extension. Nemáte ještě účet AdGuard? [Zde si jej vytvořte](https://auth.adguardaccount.com/registration.html).
 
 :::
 
@@ -43,7 +43,7 @@ Všechny statistiky jsou uloženy lokálně ve vašem zařízení. Počítáme p
 
 Sekce *Statistiky* je k dispozici uživatelům placené verze.
 
-## Nastavení
+## Settings (for the active profile)
 
 Chcete-li spravovat rozšíření prohlížeče AdGuard VPN:
 
@@ -52,70 +52,97 @@ Chcete-li spravovat rozšíření prohlížeče AdGuard VPN:
 
 Po dokončení se vlevo zobrazí několik karet:
 
-### Obecné
+### Settings
 
-Na této kartě je shromážděno několik důležitých nastavení. Zde můžete vybrat DNS server, který chcete používat, přidat nebo odebrat ikonu AdGuard VPN z kontextové nabídky prohlížeče, zablokovat WebRTC, změnit motiv rozšíření a povolit AdGuardu shromažďovat anonymizovaná hlášení o pádech a technické údaje.
+The *Settings* menu is divided into two distinct sections:
+
+- **Settings**: Options here apply exclusively to the currently active profile: *Exclusions*, *DNS server*, *Quick connect*, and *Block WebRTC*.
+- **General settings**: These parameters apply to the entire extension, regardless of which profile is selected: *Theme*, *Language*, *Display AdGuard VPN in the browser context menu*, and *Help improve AdGuard VPN*.
+
+![Settings](https://cdn.adtidy.org/content/release_notes/vpn/browser_extension/2.12/settings.png)
+
+#### Exclusions
+
+The *Exclusions* option allows you to configure website routing. You can choose between two options, each maintaining a separate list:
+
+- **VPN is on everywhere except for the websites below**: AdGuard VPN works on all websites by default, with the exception of the domains added to this list.
+- **VPN is on selectively: only for the websites below**: AdGuard VPN works only on the websites added to this list and remains inactive for all others.
+
+When adding a website to an exclusions list, you can enter the domain manually or select the *From the list* option. It provides predefined categories (such as *Shopping* or *Messengers*) with popular services, allowing you to add all relevant domains for a service in one click.
+
+Managing exclusions via the *Settings* tab applies the lists to the active profile. You can also configure exclusions for any profile under *Manage profiles*.
+
+##### Import and export
+
+Not only can you add and remove websites, you can also transfer ready exclusions lists to other devices where AdGuard VPN is installed. To export your exclusions list, follow the 4-step instruction below:
+
+1. Open AdGuard VPN Browser Extension from where you want to export your exclusions lists. Vyhledejte příslušný oddíl a klikněte na tlačítko *Exportovat*. Stáhne se archiv `exclusions.zip`.
+1. There are two `.txt` files inside the archive, one for each of the two exclusions lists. Můžete k nim přidat další výjimky, odstranit stávající, přejmenovat soubory nebo nechat archiv tak, jak je.
+1. Při přenosu mezi různými zařízeními odešlete soubor `.zip` do zařízení pro import.
+1. V tomto zařízení otevřete AdGuard VPN. Vyhledejte příslušnou sekci, klikněte na tlačítko *Importovat* a vyberte archiv.
+
+Done!
 
 #### DNS server
 
-Ve výchozím nastavení je [systémový DNS server](https://adguard-dns.io/kb/general/dns-filtering/#what-is-dns) poskytovaný vaším ISP, ale to může ohrozit vaše soukromí. S rozšířením prohlížeče AdGuard VPN si můžete vybrat DNS server, který poskytuje vyšší rychlost a zabezpečení a dokonce blokuje reklamy nebo potenciálně nebezpečné domény. Stručné popisy pod názvy DNS serverů vám usnadní orientaci a rozhodování.
+By default, the *AdGuard DNS Non-filtering* server is selected to ensure privacy without interfering with website content. If you want additional protection, you can choose a DNS server that blocks ads, trackers, or malicious domains, or enables parental control. Brief descriptions under the names of DNS servers will help you navigate and make your decision.
 
-Další informace o [DNS serverech od různých poskytovatelů](https://adguard-dns.io/kb/general/dns-providers/).
+Learn more about [DNS servers from various providers](https://adguard-dns.io/kb/general/dns-providers/).
 
-### Profil
+Configuring *DNS server* directly in the *Settings* tab applies the selected server to the active profile. You can also assign a preferred DNS server to any profile under *Manage profiles*.
 
-Profily umožňují ukládat nastavení VPN pro různé úkoly a rychle mezi nimi přepínat. Můžete si například vytvořit jeden profil pro práci, druhý pro streamování a třetí pro veřejné Wi-Fi sítě.
+#### Quick connect
 
-Chcete-li vytvořit nebo spravovat profily, klikněte na ikonu AdGuard VPN v prohlížeči → nabídku se třemi čárkami v pravém horním rohu (☰) → *Profily*.
+The *Quick connect* section defines which location the extension connects to when clicking the main *Connect* button:
 
-![Profile main screen](https://cdn.adtidy.org/content/release_notes/vpn/browser_extension/2.10/profiles_en.png)
+- Fastest location
+- Last used location
+- Specific countries and servers
 
-Můžete vytvořit až 10 profilů. Každý profil může mít vlastní název a nastavení:
+Configuring *Quick connect* directly in the *Settings* tab applies these parameters to the active profile. You can also set a preferred connection location for any profile under *Manage profiles*.
 
-- Umístění serveru
-- WebRTC
-- DNS server
-- Výjimky
+![Quick connect](https://cdn.adtidy.org/content/release_notes/vpn/browser_extension/2.12/quick-connect.png)
 
-![Profile settings](https://cdn.adtidy.org/content/release_notes/vpn/browser_extension/2.10/settings_en.png)
+#### Block WebRTC
 
-Jakmile jsou profily nastaveny, můžete mezi nimi přepínat přímo z vyskakovacího okna rozšíření.
+This feature blocks WebRTC, which can leak your real IP address even when using a proxy or VPN. Some messengers, streaming platforms, or games may stop working properly with this option enabled.
 
-![Extension popup](https://cdn.adtidy.org/content/release_notes/vpn/browser_extension/2.10/popup_en.png)
+Toggling *Block WebRTC* directly in the *Settings* tab applies this setting to the active profile. You can also enable or disable WebRTC blocking for any profile under *Manage profiles*.
 
-:::note
+### General settings
 
-Umístění uložené v profilu zůstane stejné, dokud jej nezměníte v nastavení daného profilu. Z vyskakovacího okna rozšíření si stále můžete vybrat jiné umístění, ale tato změna je dočasná. Pokud přepnete profil nebo znovu spustíte prohlížeč, AdGuard VPN použije uložené umístění z vybraného profilu.
+The options in this section apply globally to the entire extension, regardless of which profile is selected:
 
-Ostatní nastavení fungují jinak. Pokud během aktivity profilu změníte *nastavení WebRTC*, *DNS serveru* nebo *výjimek*, AdGuard VPN tyto změny uloží do daného profilu.
+- **Theme**: Select a preferred interface appearance: Light, Dark, or Browser default.
+- **Language**: Change the display language of the extension.
+- **Display AdGuard VPN in the browser context menu**: Toggle quick access to AdGuard VPN actions from the browser’s right-click menu.
+- **Help improve AdGuard VPN**: Enable sending crash reports and technical data to help improve extension performance and stability. All data is collected anonymously, is never shared with third parties, and you can withdraw your consent at any time.
 
-:::
+### Manage profiles
 
-### Výjimky
+To create, edit, or delete profiles, open the profile switcher in the bottom-left corner of the sidebar and select *Manage profiles*.
 
-Další karta obsahuje jednu z hlavních charakteristických funkcí AdGuard VPN — dva režimy se samostatnými seznamy výjimek.
+You can have up to 10 profiles, including the *Default* profile.
 
-V **Obecném režimu** funguje AdGuard VPN ve výchozím nastavení na všech webových stránkách s výjimkou těch, které jste přidali do seznamu výjimek. V **Selektivním režimu** naopak AdGuard VPN ve výchozím nastavení nefunguje nikde. Do seznamu výjimek můžete přidat všechny webové stránky, na kterých chcete, aby to fungovalo, odděleně od seznamu, který jste viděli v **Obecném režimu**.
+![Manage profiles](https://cdn.adtidy.org/content/release_notes/vpn/browser_extension/2.12/manage-profiles-new.png)
 
-Při přidávání webové stránky do seznamu výjimek ji můžete zadat ručně nebo vybrat možnost **Ze seznamu**. V druhém případě se zobrazí osm kategorií (např. *Nákupy* nebo *Zasílání zpráv*), z nichž každá nabízí několik oblíbených služeb. Jedním kliknutím můžete vyloučit kteroukoli z těchto služeb. Tím se do výjimek přidají všechny domény relevantní pro danou službu.
+In this view, you can rename profiles, delete setups you no longer need, and configure the following parameters for each profile individually:
 
-#### Import a export
+- **Quick connect**: Set the default connection behavior (Fastest location, Last used location, or a specific country and server).
+- **DNS server**: Select a dedicated DNS provider or keep the default server (AdGuard DNS Non-filtering).
+- **Block WebRTC**: Enable or disable WebRTC blocking to prevent IP leaks.
+- **Exclusions**: Set up a custom exclusions list and select a routing mode for that profile.
 
-Můžete nejen přidávat a odebírat webové stránky, ale také přenášet připravené seznamy výjimek do jiných zařízení, kde je AdGuard VPN nainstalována. Chcete-li exportovat seznam výjimek, postupujte podle následujících čtyř kroků:
-
-1. Otevřete rozšíření prohlížeče AdGuard VPN, odkud chcete exportovat seznamy výjimek. Vyhledejte příslušný oddíl a klikněte na tlačítko *Exportovat*. Stáhne se archiv `exclusions.zip`.
-1. Uvnitř archivu jsou dva soubory `.txt`, jeden pro Obecný a druhý pro Selektivní seznam. Můžete k nim přidat další výjimky, odstranit stávající, přejmenovat soubory nebo nechat archiv tak, jak je.
-1. Při přenosu mezi různými zařízeními odešlete soubor `.zip` do zařízení pro import.
-1. V tomto zařízení otevřete AdGuard VPN. Vyhledejte příslušnou sekci, klikněte na tlačítko *Importovat* a vyberte archiv. Hotovo!
+The *Default* profile is protected and cannot be renamed or deleted.
 
 ### Účet
 
-Třetí karta rozšíření prohlížeče AdGuard VPN je naprosto minimalistická a obsahuje pouze e-mailovou adresu, kterou jste použili k přihlášení k účtu, a dvě tlačítka: *Spravovat* a *Odhlásit se*. Kliknutím na tlačítko *Spravovat* se dostanete na svůj osobní účet AdGuard, kde uvidíte všechny své aktuální licence a předplatné a také zařízení, která jsou k nim připojena.
+The third tab of AdGuard VPN Browser Extension is utterly minimalistic, containing only the email address you used to sign into your account and two buttons, *Manage* and *Sign out*. Clicking the *Manage* button takes you to your personal AdGuard account, where you can see all your current licenses and subscriptions, as well as devices connected to them.
 
 ### Podpora
 
-Odpovědi na časté otázky najdete v sekci FAQ nebo můžete zanechat zpětnou vazbu: nahlásit chybu, pokud něco nefunguje, jak má, navrhnout přidání nové funkce nebo diskutovat o AdGuardu na některé z mnoha sociálních sítí.
+You can find answers to common questions in the FAQ section, or leave feedback: report a bug if something isn’t working as it should, suggest adding a new feature, or discuss AdGuard on any of the many social media platforms.
 
 ### O produktu
 
-Další menší karta, kde můžete zkontrolovat verzi rozšíření, navštívit oficiální webové stránky a zobrazit smlouvu EULA nebo Zásady ochrany osobních údajů.
+Another minor tab, where you can check the extension’s version, visit the official website, and view the EULA or Privacy policy.

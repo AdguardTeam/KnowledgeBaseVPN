@@ -97,7 +97,7 @@ Většina systémů Linux a macOS je dodávána s předinstalovaným klientem SS
 
 5. Klikněte na _Otevřít_.
 
-6. Po otevření okna Terminalu se přihlaste. Výchozí uživatelské jméno je `root` a výchozí heslo je `keenetic`.
+6. Po otevření okna Terminalu se přihlaste. The default username is `root` and the default password is typically empty (just press Enter), but you should have set a password during the initial setup.
 
 <!-- comment -->
 
@@ -105,90 +105,112 @@ Většina systémů Linux a macOS je dodávána s předinstalovaným klientem SS
 
 Po přihlášení můžete pomocí různých příkazů komunikovat s operačním systémem routeru založeným na Linuxu.
 
-Aktualizace seznamu balíčků (OpenWrt):
+:::note
+
+OpenWrt 25.12 and later use the `apk` package manager, while OpenWrt 24.10 and earlier use `opkg`. To check your OpenWrt version, run `cat /etc/openwrt_release`.
+
+:::
+
+### OpenWrt 25.12 and later
+
+Update package lists:
+
+```text
+apk update
+```
+
+Install required packages:
+
+```text
+apk add curl kmod-tun ca-certificates
+```
+
+### OpenWrt 24.10 and earlier
+
+Update package lists:
 
 ```text
 opkg update
 ```
 
-Nainstalujte požadované balíčky:
+Install required packages:
 
 ```text
 opkg install curl kmod-tun ca-certificates
 ```
 
-Spusťte instalační skript AdGuard VPN CLI:
+Run the AdGuard VPN CLI installation script:
 
 ```text
 curl -fsSL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/release/install.sh | sh -s -- -v
 ```
 
-## 5. Nastavte AdGuard VPN CLI
+## 5. Set up AdGuard VPN CLI
 
-1. Přihlaste se ke svému účtu
+1. Log in to your account
 
-   Chcete-li používat AdGuard VPN pro Linux, potřebujete účet AdGuard.
+   To use AdGuard VPN for Linux, you need an AdGuard account.
 
-   Přihlásit nebo zaregistrovat se můžete na našich [webových stránkách](https://auth.adguardaccount.com/login.html) nebo v Terminalu.
+   You can sign up or log in on our [website](https://auth.adguardaccount.com/login.html) or in the Terminal.
 
-   Chcete-li se zaregistrovat nebo přihlásit, zadejte:
+   To sign up or log in, type:
 
    ```jsx
    adguardvpn-cli login
    ```
 
-   Poznámka: Pokud se nepodařilo propojit binární soubor s `/usr/local/bin`, použijte pro spuštění všech příkazů úplnou cestu k souboru. Např. `/opt/adguardvpn_cli/adguardvpn-cli login`
+   Note: If failed to link the binary to `/usr/local/bin`, use full file path to run all commands. For example, `/opt/adguardvpn_cli/adguardvpn-cli login`
 
-2. Připojte se k VPN
+2. Connect to VPN
 
-   Vyberte si umístění serveru VPN, které nejlépe vyhovuje vašim potřebám.
+   Select a VPN server location that best suits your needs.
 
-   Obecně platí, že čím blíže je server, tím rychlejší je připojení.
+   In general, the closer the server is to you, the faster the connection.
 
-   Chcete-li zobrazit dostupná umístění, zadejte:
+   To view available locations, type:
 
    ```jsx
    adguardvpn-cli list-locations
    ```
 
-   Chcete-li se připojit k určitému umístění, zadejte:
+   To connect to a specific location, type:
 
    ```jsx
    adguardvpn-cli connect -l LOCATION_NAME
    ```
 
-   Nahraďte LOCATION_NAME kódem města, země nebo ISO kódem umístění, ke kterému se chcete připojit.
+   Replace LOCATION_NAME with the city, country, or ISO code of the location you want to connect to.
 
-   Pro rychlé připojení zadejte:
+   For quick connect, type:
 
    ```jsx
    adguardvpn-cli connect
    ```
 
-   AdGuard VPN vybere nejrychlejší dostupné umístění a zapamatuje si ho pro budoucí rychlá připojení.
+   AdGuard VPN will choose the fastest location available and remember it for future quick connections.
 
-3. Upravte nastavení
+3. Adjust your settings
 
-   Získejte seznam všech dostupných příkazů AdGuard VPN a přizpůsobte klienta VPN svým potřebám.
+   Get a list of all available AdGuard VPN commands and customize the VPN client to your needs.
 
-   Chcete-li zobrazit všechny příkazy, zadejte:
+   To view all commands, type:
 
    ```jsx
    adguardvpn-cli --help-all
    ```
 
-   AdGuard VPN CLI vytvoří rozhraní tun0 pro tunel VPN.
+   AdGuard VPN CLI will create a tun0 interface for VPN tunneling.
 
 <!-- comment -->
 
-## 6. Nastavte pravidla brány firewall pro aplikace
+## 6. Set up firewall rules
 
-Můžete to provést ve webovém rozhraní nebo v příkazovém řádku. Níže uvedené kroky popisují nastavení pomocí příkazového řádku SSH.
+You can do it in the web interface or in the command line. Steps below describe setup via SSH command line.
 
-1. Přidání nového nespravovaného rozhraní přes SSH
+1. Add a new unmanaged interface via SSH
 
    ```shell
-   ssh admin@router_ip
+   ssh root@router_ip
    uci set network.tun0='interface'
    uci set network.tun0.proto='none'
    uci set network.tun0.device='tun0'
@@ -196,20 +218,20 @@ Můžete to provést ve webovém rozhraní nebo v příkazovém řádku. Níže 
    /etc/init.d/network reload
    ```
 
-2. Přidání tun0 do zóny WAN
+2. Add tun0 to WAN zone
 
-   Pro přenosy přes VPN přidejte tun0 do zóny WAN.
-   Rozhraní WAN, které se připojuje k Internetu, se obvykle nachází v zóně s názvem `wan` nebo podobně. Zkontrolujte konfigurační soubory routeru nebo nastavení brány firewall a zjistěte, která zóna je přiřazena k rozhraní WAN.
+   For traffic to go through VPN, add tun0 to WAN zone.
+   The WAN interface which connects to the Internet will typically be in a zone named `wan` or something similar. Check your router’s configuration files or firewall settings to find out which zone is associated with the WAN interface.
 
-   Za tímto účelem vytvořte seznam stávajících zón brány firewall:
+   To do so, list the existing firewall zones:
 
    ```shell
    uci show firewall
    ```
 
-   Zobrazí se konfigurační soubor se seznamem všech zón. Hledejte sekci jako `firewall.@zone[1]` nebo podobnou, kde je definován `název volby 'wan'`. Číslo `[1]` se může lišit v závislosti na konfiguraci.
+   This will show a config file with all zones listed. Look for a section like `firewall.@zone[1]` or similar where `option name 'wan'` is defined. The number `[1]` could be different depending on your configuration.
 
-   Spusťte tento příkaz SSH a nahraďte `zone[1]` správnou zónou `wan`, která byla identifikována dříve:
+   Run this SSH command, replace `zone[1]` with correct `wan` zone identified before:
 
    ```shell
    uci show firewall | grep "=zone"
@@ -218,7 +240,7 @@ Můžete to provést ve webovém rozhraní nebo v příkazovém řádku. Níže 
    /etc/init.d/firewall reload
    ```
 
-   Pokud chcete zakázat veškerý provoz, který není chráněn VPN, spusťte následující příkaz. Tímto způsobem nebudete mít v případě odpojení VPN vůbec žádné připojení k internetu. Pokud tento krok neprovedete, bude vaše skutečná IP adresa odhalena, pokud se VPN odpojí.
+   If you want to disable all traffic that is not protected by VPN, run the following command. This way you won’t have an Internet connection at all if VPN disconnects. If you choose not to do this step, your real IP will be exposed if the VPN disconnects.
 
    ```shell
    uci del_list firewall.@zone[1].network='wan'
@@ -227,7 +249,7 @@ Můžete to provést ve webovém rozhraní nebo v příkazovém řádku. Níže 
    /etc/init.d/firewall reload
    ```
 
-   Pokud jste změnili názor a chcete povolit přímý přenos, spusťte následující příkaz:
+   If you’ve changed your mind and want to allow direct traffic, run the following command:
 
    ```shell
    uci add_list firewall.@zone[1].network='wan'
@@ -238,11 +260,11 @@ Můžete to provést ve webovém rozhraní nebo v příkazovém řádku. Níže 
 
 <!-- comment -->
 
-## 7.  Nastavte automatické spouštění pro AdGuard VPN CLI
+## 7.  Set up automatic launch for AdGuard VPN CLI
 
-Chcete-li po restartu routeru automaticky spustit AdGuard VPN CLI, vytvořte soubor v `…/etc/init.d/adguardvpn`.
+To automatically launch AdGuard VPN CLI after rebooting the router, create a file at `…/etc/init.d/adguardvpn`.
 
-Toto vložte do souboru:
+Paste this into the file:
 
 ```text
 #!/bin/sh /etc/rc.common
@@ -261,7 +283,7 @@ stop() {
 }
 ```
 
-Spuštěním tohoto příkazu udělíte přístup k automatickému spouštění a povolíte jej:
+Run this to grant access to and enable auto-launch:
 
 ```jsc
  chmod +x /etc/init.d/adguardvpn
