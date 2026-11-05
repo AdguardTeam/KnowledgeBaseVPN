@@ -1,95 +1,95 @@
 ---
-title: Shortcuts
+title: Kurzbefehle
 sidebar_position: 1
-sidebar_label: Shortcuts
+sidebar_label: Kurzbefehle
 ---
 
-Shortcuts, a tool built into iOS, makes it easy to manage your connections without opening AdGuard VPN. You can place a _Connect_, _Disconnect_, or _Toggle VPN_ shortcut on your Home Screen, in Control Center, or in a widget, or set up a Siri phrase to connect with your voice.
+Mit der in iOS integrierten Funktion „Kurzbefehle“ können Sie Ihre Verbindungen einfach verwalten, ohne AdGuard VPN öffnen zu müssen. Sie können einen Kurzbefehl für _Verbinden_, _Trennen_ oder _VPN ein/aus_ auf Ihrem Home-Bildschirm, im Kontrollzentrum oder in einem Widget platzieren oder einen Siri-Sprachbefehl einrichten, um sich mit Ihrer Stimme zu verbinden.
 
-Shortcuts can also include more complex automations. For example, your banking app might not work with a VPN on, but you always want it on for Instagram, or you want your VPN to turn off automatically on home Wi-Fi. Shortcuts lets you automate these scenarios.
+Kurzbefehle können auch komplexere Automationen beinhalten. Zum Beispiel funktioniert Ihre Banking-App möglicherweise nicht bei aktiviertem VPN, aber Sie möchten es für Instagram immer aktiviert lassen, oder Sie möchten, dass sich Ihr VPN im heimischen WLAN automatisch ausschaltet. Mit Kurzbefehlen können Sie diese Szenarien automatisieren.
 
-## Before you start
+## Bevor Sie beginnen
 
-Make sure that:
+Stellen Sie sicher, dass:
 
-- You have the Shortcuts app installed on your iPhone or iPad;
-- AdGuard VPN is installed;
-- You’re signed in to AdGuard VPN and have a VPN profile installed.
+- Sie haben die Kurzbefehle-App auf Ihrem iPhone oder iPad installiert;
+- AdGuard VPN ist installiert;
+- Sie sind bei AdGuard VPN angemeldet und haben ein VPN-Profil installiert.
 
-## Connect or disconnect in one tap
+## Verbinden oder trennen mit einem Fingertipp
 
-AdGuard VPN provides three ready-made shortcuts: _Connect_, _Disconnect_, _Toggle VPN_. _Connect_ turns on the VPN and connects to your last used location. _Disconnect_ turns off the VPN. _Toggle VPN_ switches between the two: it connects when the VPN is off and disconnects when it’s on.
+AdGuard VPN bietet drei vorgefertigte Kurzbefehle: _Verbinden_, _Trennen_, _VPN ein/aus_. _Verbinden_ aktiviert das VPN und stellt eine Verbindung zu Ihrem zuletzt verwendeten Standort her. _Trennen_ schaltet das VPN aus. _VPN ein/aus_ wechselt zwischen beiden: Es verbindet, wenn das VPN ausgeschaltet ist, und trennt die Verbindung, wenn es eingeschaltet ist.
 
-You’ll find these shortcuts in the Shortcuts app: on iOS 16, look under _App Shortcuts_. Add any of them to the three places listed below.
+Diese Kurzbefehle finden Sie in der App „Kurzbefehle“: Unter iOS 16 finden Sie sie unter _App-Kurzbefehle_. Fügen Sie beliebige davon zu den drei unten aufgelisteten Stellen hinzu.
 
-On iOS 27, find AdGuard VPN shortcuts in the Shortcuts app’s _Library_ under _Apps_ → _AdGuard VPN_. If Shortcuts opens to _All Shortcuts_, tap the back arrow in the top-left corner to return to _Library_.
+In iOS 27 finden Sie die AdGuard VPN-Kurzbefehle in der _Mediathek_ der Kurzbefehle-App unter _Apps_ → _AdGuard VPN_. Wenn die Kurzbefehle-App mit _Alle Kurzbefehle_ geöffnet wird, tippen Sie auf den Zurück-Pfeil in der oberen linken Ecke, um zur _Mediathek_ zurückzukehren.
 
-![Shortcuts on iOS 27](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/shortcuts_library_27.png)
+![Kurzbefehle unter iOS 27](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/shortcuts_library_27.png)
 
-### Home Screen
+### Home-Bildschirm
 
-To set up a shortcut on your Home Screen, follow the quick instructions in the AdGuard VPN app. (_Settings_ → _Shortcuts_ → _Add shortcuts to the Home Screen_).
+Um einen Kurzbefehl auf Ihrem Home-Bildschirm einzurichten, folgen Sie der Kurzanleitung in der AdGuard VPN-App. (_Einstellungen_ → _Kurzbefehle_ → _Kurzbefehle zum Home-Bildschirm hinzufügen_).
 
-![In-app instructions \*mobile_border](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/in_app_instructions.png)
+![In-App-Anleitung \*mobile_border](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/in_app_instructions.png)
 
-Instructions vary across iOS versions. Here are the instructions for iOS 16:
+Die Anleitungen variieren je nach iOS-Version. Hier sind die Anweisungen für iOS 16:
 
-1. Go to the Shortcuts app and tap the plus (+) button.
-2. Tap _Add Action_ and select _AdGuard VPN_.
-3. Choose the shortcut you need: _Connect to VPN_, _Disconnect from VPN_, _Toggle VPN connection_, or _VPN status_.
+1. Öffnen Sie die Kurzbefehle-App und tippen Sie auf das Pluszeichen (+).
+2. Tippen Sie auf _Aktion hinzufügen_ und wählen Sie _AdGuard VPN_.
+3. Wählen Sie den gewünschten Kurzbefehl: _Mit VPN verbinden_, _VPN-Verbindung trennen_, _VPN-Verbindung aktivieren/deaktivieren_ oder _VPN-Status_.
 
-![Add shortcut](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/add_shortcut_ios_16.png)
+![Kurzbefehl hinzufügen](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/add_shortcut_ios_16.png)
 
-Here’s how to add the shortcut to your Home Screen.
+So fügen Sie den Kurzbefehl zu Ihrem Home-Bildschirm hinzu.
 
-1. Long press the shortcut and tap _Share_ → _Add to Home Screen_.
-2. Customize the shortcut name and icon if you need to, then tap _Add_. The shortcut will appear on your Home Screen as a 1x1 icon.
+1. Halten Sie den Kurzbefehl gedrückt und tippen Sie auf _Teilen_ → _Zum Home-Bildschirm_.
+2. Passen Sie bei Bedarf den Namen und das Symbol des Kurzbefehls an und tippen Sie dann auf _Hinzufügen_. Der Kurzbefehl wird auf Ihrem Home-Bildschirm als 1x1-Symbol angezeigt.
 
-![Add to Home Screen](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/add_to_home_screen_ios_16.png)
+![Zum Home-Bildschirm hinzufügen](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/add_to_home_screen_ios_16.png)
 
-### Control Center
+### Kontrollzentrum
 
-You can add an AdGuard VPN shortcut to the Control Center for quick access from anywhere on the device.
+Sie können dem Kontrollzentrum einen AdGuard VPN-Kurzbefehl hinzufügen, um von überall auf dem Gerät schnellen Zugriff zu erhalten.
 
-1. Open Control Center. On an iPhone with Face ID, swipe down from the top right. On an iPhone with a Home button, swipe up from the bottom.
-2. Long-press an empty area and tap _Add a Control_.
-3. Find _Shortcuts_ in the list and tap _Run Shortcut_, then tap _Choose_ and select your AdGuard VPN shortcut. The shortcut will now appear in your Control Center.
+1. Öffnen Sie das Kontrollzentrum. Streichen Sie auf einem iPhone mit Face ID von oben rechts nach unten. Streichen Sie auf einem iPhone mit Home-Taste vom unteren Bildschirmrand nach oben.
+2. Halten Sie einen leeren Bereich gedrückt und tippen Sie auf _Steuerelement hinzufügen_.
+3. Suchen Sie _Kurzbefehle_ in der Liste, tippen Sie auf _Kurzbefehl ausführen_, tippen Sie dann auf _Auswählen_ und wählen Sie Ihren AdGuard VPN-Kurzbefehl aus. Der Kurzbefehl wird nun in Ihrem Kontrollzentrum angezeigt.
 
-Note: The exact steps may vary depending on your iOS version.
+Hinweis: Die genauen Schritte können je nach iOS-Version variieren.
 
-![Add shortcut to Control Center](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/add_to_control_center.png)
+![Kurzbefehl zum Kontrollzentrum hinzufügen](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/add_to_control_center.png)
 
 ### Widget
 
-1. Long-press an empty area on your Home Screen until the apps jiggle, then tap _Edit_ in the top-left corner → _Add Widget_.
-2. Find _Shortcuts_ in the list and choose a widget size. We recommend that you pick one that can display at least two shortcuts.
-3. Tap _Add Widget_.
-4. While in edit mode, tap the widget to open the configuration menu, set _Folder_ to _Custom_, and assign _Connect to VPN_ to one slot and _Disconnect from VPN_ to the other.
+1. Halten Sie einen leeren Bereich auf Ihrem Home-Bildschirm gedrückt, bis die Apps wackeln, und tippen Sie dann in der oberen linken Ecke auf _Bearbeiten_ → _Widget hinzufügen_.
+2. Suchen Sie _Kurzbefehle_ in der Liste und wählen Sie eine Widget-Größe aus. Wir empfehlen, ein Widget zu wählen, das mindestens zwei Kurzbefehle anzeigen kann.
+3. Tippen Sie auf _Widget hinzufügen_.
+4. Tippen Sie im Bearbeitungsmodus auf das Widget, um das Konfigurationsmenü zu öffnen, stellen Sie _Ordner_ auf _Eigene_ und weisen Sie einem Platz _Mit VPN verbinden_ und dem anderen _VPN-Verbindung trennen_ zu.
 
-![Add shortcut as widget](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/widget.png)
+![Kurzbefehl als Widget hinzufügen](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/widget.png)
 
-## One tap to open any app with VPN on
+## Mit einem Tippen jede App mit aktiviertem VPN öffnen
 
-If you need the VPN on for a certain app and nothing else, you can create a custom shortcut that will turn on AdGuard VPN and open the app you want to open — all in one tap. Here’s how to set it up.
+Wenn Sie das VPN für eine bestimmte App und sonst nichts eingeschaltet benötigen, können Sie einen benutzerdefinierten Kurzbefehl erstellen, der AdGuard VPN einschaltet und die App öffnet, die Sie öffnen möchten – alles mit nur einem Fingertipp. So richten Sie es ein.
 
-1. Open the Shortcuts app, tap the plus (+) button, and search for AdGuard VPN. Add the _VPN status_ action.
-2. Add an _If_ action. Shortcuts fills the condition in for you: it takes the VPN status from the previous step and compares it with _Connected_. Inside it, add _Open App_ and set it to the app you want — for example, YouTube.
-3. Under _Otherwise_, add three actions in order: _AdGuard VPN_ → _Connect to VPN_, _Wait_ (set to 2 seconds), and _Open App_ (same app as above).
-4. Tap the name at the top to set a custom icon and name, then test the shortcut with the play button.
-5. Add the shortcut to the Home Screen by tapping the name and selecting _Add to Home Screen_.
+1. Öffnen Sie die Kurzbefehle-App, tippen Sie auf das Pluszeichen (+) und suchen Sie nach AdGuard VPN. Fügen Sie die Aktion _VPN-Status_ hinzu.
+2. Fügen Sie eine _Wenn_-Aktion hinzu. Kurzbefehle füllt die Bedingung automatisch für Sie aus: Der VPN-Status aus dem vorherigen Schritt wird übernommen und mit _Verbunden_ abgeglichen. Fügen Sie darin _App öffnen_ hinzu und stellen Sie die gewünschte App ein – zum Beispiel YouTube.
+3. Fügen Sie unter _Sonst_ der Reihe nach drei Aktionen hinzu: _AdGuard VPN_ → _Mit VPN verbinden_, _Warten_ (auf 2 Sekunden einstellen) und _App öffnen_ (dieselbe App wie oben).
+4. Tippen Sie oben auf den Namen, um ein eigenes Symbol und einen eigenen Namen festzulegen, und testen Sie den Kurzbefehl dann mit der Wiedergabetaste.
+5. Fügen Sie den Kurzbefehl zum Home-Bildschirm hinzu, indem Sie auf den Namen tippen und _Zum Home-Bildschirm_ auswählen.
 
-![Add custom shortcut](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/add_custom_shortcut.png)
+![Benutzerdefinierten Kurzbefehl hinzufügen](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/add_custom_shortcut.png)
 
-## Connect or disconnect with Siri
+## Verbinden oder trennen mit Siri
 
-In the AdGuard VPN app, go to _Settings_ → _Shortcuts_ → _Set up Siri phrases_. You will then have two options: _Record a phrase to connect_ or _Record a phrase to disconnect_.
+Gehen Sie in der AdGuard VPN-App auf _Einstellungen_ → _Kurzbefehle_ → _Siri-Sprachbefehle einrichten_. Sie haben dann zwei Optionen: _Sprachbefehl zum Verbinden aufnehmen_ oder _Sprachbefehl zum Trennen aufnehmen_.
 
-![Connect with Siri](https://cdn.adtidy.org/content/release_notes/vpn/ios/v2.17/siri_connect.png)
+![Mit Siri verbinden](https://cdn.adtidy.org/content/release_notes/vpn/ios/v2.17/siri_connect.png)
 
-Choose _Record a phrase to connect_ or _Record a phrase to disconnect_, then say the phrase you want, for example “Hey Siri, connect to AdGuard VPN.” Once recorded, say the same phrase to Siri any time to run it.
+Wählen Sie _Sprachbefehl zum Verbinden aufnehmen_ oder _Sprachbefehl zum Trennen aufnehmen_ und sprechen Sie dann den gewünschten Befehl ein, zum Beispiel „Hey Siri, verbinde mit AdGuard VPN“. Sobald der Befehl aufgenommen wurde, können Sie ihn jederzeit zu Siri sagen, um ihn auszuführen.
 
-## Automating AdGuard VPN for specific apps
+## AdGuard VPN für bestimmte Apps automatisieren
 
-Some apps, like banking apps, don’t work with a VPN on. Set up two automations so the VPN turns off while you use the app and turns back on once you’re done. When set up correctly, automation can be more convenient than manually launching a shortcut — you don’t have to tap on a Home Screen icon to open the shortcut, simply opening the app is enough. Besides, you can include several apps in one automation. You can use automations to turn AdGuard VPN on or off when you open an app, when you close an app, and when you join or disconnect from your home Wi-Fi.
+Einige Apps, wie etwa Banking-Apps, funktionieren nicht mit aktiviertem VPN. Richten Sie zwei Automationen ein, damit sich das VPN ausschaltet, während Sie die App verwenden, und wieder einschaltet, sobald Sie fertig sind. Wenn sie richtig eingerichtet ist, kann die Automation bequemer sein als das manuelle Starten eines Kurzbefehls – Sie müssen nicht auf ein Symbol auf dem Home-Bildschirm tippen, um den Kurzbefehl zu öffnen, das bloße Öffnen der App reicht aus. Außerdem können Sie mehrere Apps in einer Automation kombinieren. Sie können Automationen verwenden, um AdGuard VPN ein- oder auszuschalten, wenn Sie eine App öffnen, wenn Sie eine App schließen und wenn Sie sich mit Ihrem Heim-WLAN verbinden oder die Verbindung trennen.
 
-[How to set up automations on your iPhone or iPad](/adguard-vpn-for-ios/features/automation/)
+[So richten Sie Automationen auf Ihrem iPhone oder iPad ein](/adguard-vpn-for-ios/features/automation/)
