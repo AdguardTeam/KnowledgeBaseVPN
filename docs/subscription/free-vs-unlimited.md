@@ -1,6 +1,7 @@
 ---
 title: Benefits of AdGuard VPN Unlimited
-sidebar_position: 5
+sidebar_position: 1
+slug: /general/free-vs-unlimited
 ---
 
 You can use AdGuard VPN for free, but then there will be certain restrictions:
