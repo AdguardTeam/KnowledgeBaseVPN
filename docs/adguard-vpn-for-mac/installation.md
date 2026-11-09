@@ -61,7 +61,7 @@ Even if you delete AdGuard VPN, macOS remembers your sign-in details. If you rei
 
 If you are selling or giving away your Mac, or simply want to remove your account completely:
 
-- Log out of the app before moving it to Trash, or
+- Log out of the app before moving it to *Trash*, or
 
 - Follow the [Advanced uninstallation](#advanced-uninstallation) steps below.
 
