@@ -59,11 +59,7 @@ To uninstall AdGuard VPN for Mac, follow two simple steps:
 
 Even if you delete AdGuard VPN, macOS remembers your sign-in details. If you reinstall the app, you will automatically stay logged in.
 
-If you are selling or giving away your Mac, or simply want to remove your account completely:
-
-- Log out of the app before moving it to *Trash*, or
-
-- Follow the [Advanced uninstallation](#advanced-uninstallation) steps below.
+If you are selling or giving away your Mac, or simply want to remove your account completely, log out of the app before moving it to *Trash*, or follow the [advanced uninstallation](#advanced-uninstallation) steps below.
 
 :::
 
