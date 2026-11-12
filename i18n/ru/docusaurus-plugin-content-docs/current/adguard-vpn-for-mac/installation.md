@@ -53,6 +53,14 @@ There are some differences between the Mac App Store version and the standalone 
 
 ![Обычное удаление](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-uninstall-1-en.png)
 
+:::note
+
+Even if you delete AdGuard VPN, macOS remembers your sign-in details. If you reinstall the app, you will automatically stay logged in.
+
+If you are selling or giving away your Mac, or simply want to remove your account completely, log out of the app before moving it to *Trash*, or follow the [advanced uninstallation](#advanced-uninstallation) steps below.
+
+:::
+
 ### Продвинутое удаление
 
 Иногда, в результате неправильного удаления или в других редких случаях, стандартного удаления может оказаться недостаточно. В этом случае в поддержке вас могут попросить выполнить расширенное удаление, чтобы полностью удалить AdGuard VPN с вашего Mac. Для этого выполните следующие шаги:
