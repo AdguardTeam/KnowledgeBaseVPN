@@ -1,37 +1,37 @@
 ---
-title: Automation
+title: 자동화
 sidebar_position: 2
-sidebar_label: Automation
+sidebar_label: 자동화
 ---
 
-_Automation_ is a feature in the Shortcuts app that performs an action for you automatically based on the conditions you choose. For example, it can turn off AdGuard VPN the moment you open an app, and turn it back on when you close that app.
+**자동화**는 사용자가 지정한 조건에 따라 원하는 동작을 자동으로 실행해 주는 단축어 앱의 기능입니다. 예를 들어, 앱을 열자마자 AdGuard VPN을 끄고 앱을 닫으면 다시 켤 수 있습니다.
 
-This is useful if you want AdGuard VPN off for some apps but not for others. AdGuard VPN for iOS doesn’t have app exclusions, so automation is the closest way to get the same result without switching the VPN on and off yourself every time.
+일부 앱에서만 AdGuard VPN을 끄고 싶을 때 유용합니다. iOS용 AdGuard VPN에는 앱 예외 목록 기능이 없으므로, 매번 VPN을 직접 켜고 끄지 않고 같은 효과를 얻으려면 자동화를 사용하는 것이 가장 좋습니다.
 
-Here’s how to set up an automation that disconnects from AdGuard VPN when you open an app, and turns it back on when you close it.
+앱을 열면 AdGuard VPN 연결을 해제하고, 앱을 닫으면 다시 연결하는 자동화를 설정하는 방법은 다음과 같습니다.
 
-## Turn off AdGuard VPN when you open an app
+## 앱을 열 때 AdGuard VPN 끄기
 
-1. In the Shortcuts app, go to _Automation_ and tap _New Automation_ or the plus (+) button in the top right corner.
-2. Choose _App_, select one or several apps, and check _Is Opened_.
-3. Turn on _Run Immediately_ and turn off _Notify When Run_.
-4. Tap _Next_, select AdGuard VPN, and pick _Disconnect_.
+1. 단축어 앱에서 **자동화**로 이동한 다음 **새로운 자동화** 또는 오른쪽 위의 더하기(+) 버튼을 탭합니다.
+2. **앱**을 선택하고, 앱을 하나 이상 고른 다음 **열릴 때**를 선택합니다.
+3. **즉시 실행**을 켜고 **실행되면 알리기**를 끕니다.
+4. **다음**을 탭하고 AdGuard VPN을 선택한 다음 **연결 해제**를 고릅니다.
 
-![App automation](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/automation1-combined.png)
+![앱 자동화](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/automation1-combined_ko.png)
 
-To turn AdGuard VPN back on when you close the same app, repeat the steps above, but select _Is Closed_ in step 2 and set the action in step 4 to _Connect_.
+같은 앱을 닫을 때 AdGuard VPN을 다시 켜려면 위 단계를 반복하되, 2단계에서 **닫힐 때**를 선택하고 4단계의 동작을 **연결**로 설정합니다.
 
-## Turn AdGuard VPN off when you join home Wi-Fi
+## 집 Wi-Fi에 연결하면 AdGuard VPN 끄기
 
-If you don’t need to use VPN at home, set it to turn off when you join your home Wi-Fi network and back on when you leave.
+집에서는 VPN을 쓸 필요가 없다면, 집 Wi-Fi 네트워크에 연결될 때 VPN이 꺼지고 집을 나서면 다시 켜지도록 설정해 보세요.
 
-1. In the Shortcuts app, go to _Automation_ and tap _New Automation_ or ‘+’ in the top right corner.
-2. Choose _Wi-Fi_, select _Is Joined_, and choose your home network.
-3. Turn on _Run Immediately_ and _Run After Connection Interruption_.
-4. Tap _Next_, select AdGuard VPN, and pick _Disconnect_.
+1. 단축어 앱에서 **자동화**로 이동한 다음 **새로운 자동화** 또는 오른쪽 위의 더하기(+) 버튼을 탭합니다.
+2. **Wi-Fi**를 선택하고 **연결될 때**를 고른 다음 집 네트워크를 선택합니다.
+3. **즉시 실행**과 **연결이 중단된 후 실행**을 켭니다.
+4. **다음**을 탭하고 AdGuard VPN을 선택한 다음 **연결 해제**를 고릅니다.
 
-![Wi-Fi automation \*mobile](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/automation-2-combined.png)
+![Wi-Fi 자동화 \*mobile](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/automation-2-combined_ko.png)
 
-## Turn AdGuard VPN back on when you leave
+## 집을 나설 때 AdGuard VPN 다시 켜기
 
-Repeat the steps above, but choose _Is Disconnected_ instead of _Is Joined_, turn on _Run Immediately_, and set the action to _Connect_.
+위 단계를 반복하되, **연결될 때** 대신 **연결 해제될 때**를 선택하고 **즉시 실행**을 켠 다음 동작을 **연결**로 설정합니다.

@@ -1,37 +1,37 @@
 ---
-title: Automation
+title: オートメーション（自動化）
 sidebar_position: 2
-sidebar_label: Automation
+sidebar_label: オートメーション（自動化）
 ---
 
-_Automation_ is a feature in the Shortcuts app that performs an action for you automatically based on the conditions you choose. For example, it can turn off AdGuard VPN the moment you open an app, and turn it back on when you close that app.
+「_オートメーション_」は、選択した条件に基づいて操作を自動的に実行する、「ショートカット」アプリの機能です。この機能を使えば、例えば、特定のアプリを開いた瞬間にAdGuard VPNをが自動的にオフになり、そのアプリを閉じたときには自動的に再びオンになるよう設定することができます。
 
-This is useful if you want AdGuard VPN off for some apps but not for others. AdGuard VPN for iOS doesn’t have app exclusions, so automation is the closest way to get the same result without switching the VPN on and off yourself every time.
+これは、一部のアプリに対してはAdGuard VPNをオフにしておきながら、他のアプリに対してはオフにしたくない場合に便利です。 AdGuard VPN for iOS にはアプリの除外機能がないため、毎回手動でVPNをオン・オフにすることなく同様の結果を得るには、オートメーションが最も近い方法です。
 
-Here’s how to set up an automation that disconnects from AdGuard VPN when you open an app, and turns it back on when you close it.
+特定のアプリを開いたときに AdGuard VPN から切断し、閉じたときに再びオンにするオートメーションの設定方法は以下のとおりです。
 
-## Turn off AdGuard VPN when you open an app
+## アプリを開くときにAdGuard VPNをオフにする
 
-1. In the Shortcuts app, go to _Automation_ and tap _New Automation_ or the plus (+) button in the top right corner.
-2. Choose _App_, select one or several apps, and check _Is Opened_.
-3. Turn on _Run Immediately_ and turn off _Notify When Run_.
-4. Tap _Next_, select AdGuard VPN, and pick _Disconnect_.
+1. 「ショートカット」アプリで「_オートメーション_」に移動し、「_新規オートメーション_」または右上のプラス（+）ボタンをタップします。
+2. 「_アプリ_」を選択し、1つまたは複数のアプリを選択して、「_開いている_」にチェックを入れます。
+3. 「_すぐに実行_」をオンにして、「_実行時に通知_」はオフにします。
+4. 「_次へ_」→「AdGuard VPN」を選択 →「_切断_」を選択します。
 
-![App automation](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/automation1-combined.png)
+![アプリ自動化](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/automation1-combined.png)
 
-To turn AdGuard VPN back on when you close the same app, repeat the steps above, but select _Is Closed_ in step 2 and set the action in step 4 to _Connect_.
+同じアプリを閉じたときに AdGuard VPN を再度オンにするには、上記の手順を繰り返しますが、ステップ2で「_閉じている_」を選択し、ステップ4では操作を「_接続_」に設定します。
 
-## Turn AdGuard VPN off when you join home Wi-Fi
+## 自宅のWi-Fiに接続したときにAdGuard VPNをオフにする
 
-If you don’t need to use VPN at home, set it to turn off when you join your home Wi-Fi network and back on when you leave.
+自宅でVPNを使用する必要がない場合は、自宅のWi-Fiネットワークに接続したときにVPNをオフにし、外出時に再びオンにするよう設定できます。
 
-1. In the Shortcuts app, go to _Automation_ and tap _New Automation_ or ‘+’ in the top right corner.
-2. Choose _Wi-Fi_, select _Is Joined_, and choose your home network.
-3. Turn on _Run Immediately_ and _Run After Connection Interruption_.
-4. Tap _Next_, select AdGuard VPN, and pick _Disconnect_.
+1. 「ショートカット」アプリで「_オートメーション_」に移動し、「_新規オートメーション_」または右上のプラス（+）ボタンをタップします。
+2. 「_Wi-Fi_」を選択し、「_接続時_」を選択して、自宅のネットワークを選択します。
+3. 「_すぐに実行_」と「_接続中断後に実行_」をオンにします。
+4. 「_次へ_」→「AdGuard VPN」を選択 →「_切断_」を選択します。
 
-![Wi-Fi automation \*mobile](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/automation-2-combined.png)
+![Wi-Fi自動化 \*mobile](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/automation-2-combined.png)
 
-## Turn AdGuard VPN back on when you leave
+## 自宅から出たときに AdGuard VPN を再度オンにする
 
-Repeat the steps above, but choose _Is Disconnected_ instead of _Is Joined_, turn on _Run Immediately_, and set the action to _Connect_.
+上記の手順を繰り返しますが、「_接続時_」の代わりに「_接続解除時_」を選択し、「_すぐに実行_」はオンにして、操作を「_接続_」に設定します。
