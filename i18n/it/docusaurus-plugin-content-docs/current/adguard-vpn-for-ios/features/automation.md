@@ -1,37 +1,37 @@
 ---
-title: Automation
+title: Automazione
 sidebar_position: 2
-sidebar_label: Automation
+sidebar_label: Automazione
 ---
 
-_Automation_ is a feature in the Shortcuts app that performs an action for you automatically based on the conditions you choose. For example, it can turn off AdGuard VPN the moment you open an app, and turn it back on when you close that app.
+L'_Automazione_ è una funzionalità nell'app Scorciatoie che esegue automaticamente un'azione per te in base alle condizioni che scegli. Ad esempio, può disattivare AdGuard VPN nel momento in cui apri un'app e riattivarla quando chiudi quell'app.
 
-This is useful if you want AdGuard VPN off for some apps but not for others. AdGuard VPN for iOS doesn’t have app exclusions, so automation is the closest way to get the same result without switching the VPN on and off yourself every time.
+Questa funzione è utile se desideri disattivare AdGuard VPN per alcune app ma non per altre. AdGuard VPN per iOS non prevede la possibilità di escludere determinate app, quindi l'automazione è il modo più efficace per ottenere lo stesso risultato senza dover attivare e disattivare manualmente la VPN ogni volta.
 
-Here’s how to set up an automation that disconnects from AdGuard VPN when you open an app, and turns it back on when you close it.
+Ecco come configurare un'automazione che disconnette la VPN di AdGuard quando apri un'app, e la spegne quando la chiudi.
 
-## Turn off AdGuard VPN when you open an app
+## Disattiva AdGuard VPN quando apri un'app
 
-1. In the Shortcuts app, go to _Automation_ and tap _New Automation_ or the plus (+) button in the top right corner.
-2. Choose _App_, select one or several apps, and check _Is Opened_.
-3. Turn on _Run Immediately_ and turn off _Notify When Run_.
-4. Tap _Next_, select AdGuard VPN, and pick _Disconnect_.
+1. Nell'app Scorciatoie, vai su _Automazione_ e tocca _Nuova automazione_ oppure il pulsante con il segno più (+) nell'angolo in alto a destra.
+2. Scegli _App_, seleziona una o più app e spunta la casella _È aperta_.
+3. Attiva l'opzione _Esegui immediatamente_ e disattiva l'opzione _Avvisa all'esecuzione_.
+4. Tocca _Avanti_, seleziona AdGuard VPN e scegli _Disconnetti_.
 
 ![App automation](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/automation1-combined.png)
 
-To turn AdGuard VPN back on when you close the same app, repeat the steps above, but select _Is Closed_ in step 2 and set the action in step 4 to _Connect_.
+Per riattivare AdGuard VPN dopo aver chiuso la stessa app, ripeti i passaggi sopra indicati, ma al punto 2 seleziona _È chiusa_ e al punto 4 imposta l'azione su _Connetti_.
 
-## Turn AdGuard VPN off when you join home Wi-Fi
+## Disattiva AdGuard VPN quando ti connetti alla rete Wi-Fi di casa
 
-If you don’t need to use VPN at home, set it to turn off when you join your home Wi-Fi network and back on when you leave.
+Se non hai bisogno di usare la VPN a casa, imposta la disattivazione automatica quando ti connetti alla rete Wi-Fi di casa e la riattivazione quando ti disconnetti.
 
-1. In the Shortcuts app, go to _Automation_ and tap _New Automation_ or ‘+’ in the top right corner.
-2. Choose _Wi-Fi_, select _Is Joined_, and choose your home network.
-3. Turn on _Run Immediately_ and _Run After Connection Interruption_.
-4. Tap _Next_, select AdGuard VPN, and pick _Disconnect_.
+1. Nell'app Scorciatoie, vai su _Automazione_ e tocca _Nuova automazione_ o il simbolo “+” nell'angolo in alto a destra.
+2. Seleziona _Wi-Fi_, scegli _È connesso_ e seleziona la tua rete domestica.
+3. Attiva le opzioni _Esegui immediatamente_ e _Esegui dopo l'interruzione della connessione_.
+4. Tocca _Avanti_, seleziona AdGuard VPN e scegli _Disconnetti_.
 
 ![Wi-Fi automation \*mobile](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/automation-2-combined.png)
 
-## Turn AdGuard VPN back on when you leave
+## Riattiva AdGuard VPN quando esci
 
-Repeat the steps above, but choose _Is Disconnected_ instead of _Is Joined_, turn on _Run Immediately_, and set the action to _Connect_.
+Ripeti i passaggi precedenti, ma seleziona _È disconnesso_ invece di _È connesso_, attiva _Esegui immediatamente_ e imposta l'azione su _Connetti_.
