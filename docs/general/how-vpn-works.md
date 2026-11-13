@@ -85,6 +85,6 @@ Currently, AdGuard VPN is available as:
 
 - Command-line interface for [Linux, Mac, and some routers](/adguard-vpn-for-linux/)
 
-- A VPN client for [routers](/adguard-vpn-for-routers/installation/)
+- A VPN client for [routers](/adguard-vpn-for-routers/)
 
 [Learn more about AdGuard VPN features](https://adguard-vpn.com/welcome.html)

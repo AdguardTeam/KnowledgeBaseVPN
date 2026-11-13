@@ -1,6 +1,6 @@
 ---
 title: Connection issues with IKEv2
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 For routers, AdGuard VPN uses the IKEv2 protocol, which is widely supported but can be easily detected. Because of this, access may be limited in some regions (for example, Belarus, Kazakhstan, or Russia) or in restricted network environments such as corporate or school networks. In such cases, you may see a *No connection* message.
