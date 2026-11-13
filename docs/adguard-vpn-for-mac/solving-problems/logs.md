@@ -1,6 +1,6 @@
 ---
 title: How to collect and send logs
-sidebar_position: 1
+sidebar_position: 3
 ---
 
 If you encounter any problems while using AdGuard VPN for Mac, you can inform us about it by sending application logs.

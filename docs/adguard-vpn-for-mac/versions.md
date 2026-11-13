@@ -1,6 +1,6 @@
 ---
 title: Versions of the app
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 ## AdGuard VPN for Mac: Mac App Store version vs. standalone version
