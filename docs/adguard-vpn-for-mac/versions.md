@@ -1,5 +1,5 @@
 ---
-title: Versions of the app
+title: Mac App Store vs standalone version
 sidebar_position: 3
 ---
 

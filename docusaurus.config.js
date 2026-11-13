@@ -88,7 +88,7 @@ module.exports = {
           position: 'right',
           dropdownItemsAfter: [
             {
-              to: '/miscellaneous/update-kb/',
+              to: '/community-guides/contribute/',
               label: 'Help Us Translate',
             },
           ],

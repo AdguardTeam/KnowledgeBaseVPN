@@ -77,14 +77,14 @@ Our VPN service has several important [advantages](/general/why-adguard-vpn):
 
 Currently, AdGuard VPN is available as:
 
-- [Browser extension](/adguard-vpn-browser-extension/overview) for Chrome, Edge, Firefox, and Opera
+- [Browser extension](/adguard-vpn-browser-extension/) for Chrome, Edge, Firefox, and Opera
 
-- Mobile app for [Android](/adguard-vpn-for-android/overview) and [iOS](/adguard-vpn-for-ios/overview)
+- Mobile app for [Android](/adguard-vpn-for-android/) and [iOS](/adguard-vpn-for-ios/)
 
-- Desktop application for [Windows](/adguard-vpn-for-windows/overview) and [Mac](/adguard-vpn-for-mac/overview)
+- Desktop application for [Windows](/adguard-vpn-for-windows/) and [Mac](/adguard-vpn-for-mac/)
 
 - Command-line interface for [Linux, Mac, and some routers](/adguard-vpn-for-linux/)
 
-- A VPN client for [routers](/general/set-up-adguard-vpn-on-your-router/)
+- A VPN client for [routers](/adguard-vpn-for-routers/)
 
 [Learn more about AdGuard VPN features](https://adguard-vpn.com/welcome.html)

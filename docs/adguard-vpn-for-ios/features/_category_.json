@@ -1,6 +1,7 @@
 {
     "position": 2,
     "label": "Features",
+    "key": "features-vpn-for-ios",
     "collapsible": true,
     "collapsed": true
-    }
+}

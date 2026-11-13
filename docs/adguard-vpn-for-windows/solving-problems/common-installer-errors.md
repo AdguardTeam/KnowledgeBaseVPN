@@ -1,6 +1,6 @@
 ---
 title: Common installer errors
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 This article outlines some of the most common errors you may encounter while installing AdGuard VPN for Windows and possible ways to resolve them.

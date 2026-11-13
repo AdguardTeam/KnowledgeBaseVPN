@@ -1,6 +1,6 @@
 ---
-title: Usage issues with subscriptions purchased via the App Store
-sidebar_position: 5
+title: Issues with subscriptions purchased via the App Store
+sidebar_position: 4
 ---
 
 Some users can’t use their AdGuard VPN subscription purchased through the App Store. This issue may occur in two cases:

@@ -1,6 +1,6 @@
 ---
 title: Troubleshooting AdGuard VPN connection issues
-sidebar_position: 7
+sidebar_position: 3
 ---
 
 AdGuard VPN connection issues are typically either network-related (affecting specific Wi-Fi networks) or device-related (occurring across all connections). The following sections will help you identify and resolve these issues. Before proceeding, ensure you’re using the latest version of AdGuard VPN and have tried restarting both your device and router.

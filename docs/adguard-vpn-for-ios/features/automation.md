@@ -1,6 +1,6 @@
 ---
 title: Automation
-sidebar_position: 2
+sidebar_position: 8
 sidebar_label: Automation
 ---
 

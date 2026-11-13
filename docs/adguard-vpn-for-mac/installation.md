@@ -1,6 +1,6 @@
 ---
 title: Installation and removal
-sidebar_position: 2
+sidebar_position: 4
 ---
 
 ## System requirements
@@ -78,4 +78,4 @@ Sometimes, as a result of incorrect removal or in other rare cases, the standard
 
 AdGuard VPN has been completely removed from your Mac.
 
-You can learn more about AdGuard VPN for Mac in [this article](/adguard-vpn-for-mac/overview).
+You can learn more about AdGuard VPN for Mac in [this article](/adguard-vpn-for-mac/).
