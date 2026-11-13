@@ -1,6 +1,6 @@
 ---
 title: How to set up AdGuard VPN on your router
-sidebar_position: 8
+sidebar_position: 7
 unlisted: true
 slug: /general/set-up-adguard-vpn-on-your-router
 ---

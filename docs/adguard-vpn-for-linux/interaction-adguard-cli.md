@@ -1,6 +1,6 @@
 ---
 title: AdGuard for Linux interaction
-sidebar_position: 8
+sidebar_position: 9
 ---
 
 ## AdGuard for Linux interaction

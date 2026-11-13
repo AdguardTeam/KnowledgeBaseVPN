@@ -1,6 +1,6 @@
 ---
 title: How to install AdGuard VPN
-sidebar_position: 3
+sidebar_position: 6
 unlisted: true
 slug: /general/how-to-install
 ---

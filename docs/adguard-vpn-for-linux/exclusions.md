@@ -1,6 +1,6 @@
 ---
 title: Exclusions
-sidebar_position: 7
+sidebar_position: 8
 ---
 
 The *Exclusions* feature lets you decide which domains’ traffic should be excluded from VPN routing. This is handy when you don’t need VPN to work for some websites, because it saves you the hassle of constantly turning VPN on and off.
