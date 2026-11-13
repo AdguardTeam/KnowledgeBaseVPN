@@ -1,6 +1,6 @@
 ---
 title: How to collect and send logs
-sidebar_position: 3
+sidebar_position: 6
 ---
 
 If you encounter any problems while using AdGuard VPN for iOS, you can inform us about it by sending the app logs.

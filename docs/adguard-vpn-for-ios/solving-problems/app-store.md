@@ -1,6 +1,6 @@
 ---
 title: AdGuard VPN has been removed from App Store
-sidebar_position: 1
+sidebar_position: 3
 ---
 
 In some countries, AdGuard VPN is not available in the App Store. If that’s your case, there are two ways to download the app:

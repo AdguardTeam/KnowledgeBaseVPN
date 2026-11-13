@@ -79,7 +79,7 @@ Currently, AdGuard VPN is available as:
 
 - [Browser extension](/adguard-vpn-browser-extension/overview) for Chrome, Edge, Firefox, and Opera
 
-- Mobile app for [Android](/adguard-vpn-for-android/) and [iOS](/adguard-vpn-for-ios/overview)
+- Mobile app for [Android](/adguard-vpn-for-android/) and [iOS](/adguard-vpn-for-ios/)
 
 - Desktop application for [Windows](/adguard-vpn-for-windows/overview) and [Mac](/adguard-vpn-for-mac/overview)
 
