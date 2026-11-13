@@ -1,6 +1,6 @@
 ---
 title: How to collect and send logs
-sidebar_position: 2
+sidebar_position: 6
 ---
 
 If you encounter any problem while using AdGuard VPN for Android, you can inform us about it by sending the app logs.

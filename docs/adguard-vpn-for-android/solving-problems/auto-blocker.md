@@ -1,6 +1,6 @@
 ---
 title: How to disable the Samsung Auto Blocker feature
-sidebar_position: 7
+sidebar_position: 5
 ---
 
 Starting with One UI 6.1.1 (Android 14), Samsung introduced a security enhancement called *Auto Blocker*, which is enabled by default on the latest Galaxy smartphones. This feature automatically blocks sideloaded apps from unverified sources unless the user manually overrides the setting.

@@ -1,5 +1,5 @@
 ---
-title: Low-level settings guide
+title: Low-level settings
 sidebar_position: 6
 ---
 
@@ -40,6 +40,12 @@ Watchdog monitors the VPN process state to check if there are any problems with 
 ### Preferred IP version
 
 Here you can set up the endpoint addresses. There are three options: IPv4, IPv6, or IPv4 and IPv6 (if your device supports both).
+
+:::caution
+
+Before you choose between IPv6 and IPv4, make sure that your network supports that protocol. For example, if you select IPv6 and your network only supports IPv4, you will have problems connecting to the Internet. And vice versa.
+
+:::
 
 ### IPv4 ranges excluded from VPN
 
