@@ -1,6 +1,6 @@
 ---
 title: Login, connection, and update
-sidebar_position: 3
+sidebar_position: 5
 ---
 
 ## Log in and log out

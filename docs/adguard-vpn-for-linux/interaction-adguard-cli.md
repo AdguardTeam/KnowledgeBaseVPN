@@ -1,11 +1,9 @@
 ---
-title: AdGuard for Linux interaction
-sidebar_position: 9
+title: Compatibility with AdGuard for Linux
+sidebar_position: 3
 ---
 
-## AdGuard for Linux interaction
-
-Using  AdGuard VPN CLI in **tunnel mode** together with AdGuard CLI in **automatic proxy mode** is impossible due to a routing loop: AdGuard VPN CLIs traffic currently can not be excluded from being transparently proxied by AdGuard CLI, and AdGuard CLIʼs traffic must go through the AdGuard VPN CLI tunnel.
+Using AdGuard VPN CLI in **tunnel mode** together with AdGuard CLI in **automatic proxy mode** is impossible due to a routing loop: AdGuard VPN CLIʼs traffic currently can not be excluded from being transparently proxied by AdGuard CLI, and AdGuard CLIʼs traffic must go through the AdGuard VPN CLI tunnel.
 
 There are two possible solutions:
 

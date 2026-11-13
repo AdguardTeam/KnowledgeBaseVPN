@@ -1,20 +1,7 @@
 ---
-title: Sending feedback
-sidebar_position: 7
+title: How to collect and send logs
+sidebar_position: 2
 ---
-
-## Report a problem or suggest a feature
-
-If you’ve found a bug in AdGuard VPN for Linux or want to suggest a new feature, here’s how to do it:
-
-- Fill out the [feedback form](https://surveys.adguard.com/en/vpn_linux/form.html).
-- [Create a GitHub issue](https://github.com/AdguardTeam/AdGuardVPNCLI/issues/new/choose). But before you do, check the [repository](https://github.com/AdguardTeam/AdGuardVPNCLI/issues?q=is%3Aissue) for similar issues.
-
-:::note
-If you want to support the implementation of a new feature or bugfix, you can vote for it on GitHub. To vote, just react with some emoji.
-:::
-
-## Collect and send logs
 
 1. Enable debug logging by typing:
 

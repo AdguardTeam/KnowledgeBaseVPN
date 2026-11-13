@@ -1,6 +1,6 @@
 ---
 title: Installation and removal
-sidebar_position: 2
+sidebar_position: 4
 ---
 
 ## Install AdGuard VPN for Linux

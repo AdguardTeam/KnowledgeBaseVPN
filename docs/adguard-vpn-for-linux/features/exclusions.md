@@ -1,6 +1,6 @@
 ---
 title: Exclusions
-sidebar_position: 8
+sidebar_position: 2
 ---
 
 The *Exclusions* feature lets you decide which domains’ traffic should be excluded from VPN routing. This is handy when you don’t need VPN to work for some websites, because it saves you the hassle of constantly turning VPN on and off.
@@ -15,7 +15,7 @@ Each mode has its own list of exclusions.
 
 ![Exclusions](https://cdn.adguard-vpn.com/blog/new/m6pkdVPN-CLI-exclusions.png)
 
-### How to use
+## How to use
 
 To view all exclusion-related commands, type:
 
