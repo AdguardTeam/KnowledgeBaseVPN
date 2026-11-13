@@ -81,7 +81,7 @@ Currently, AdGuard VPN is available as:
 
 - Mobile app for [Android](/adguard-vpn-for-android/) and [iOS](/adguard-vpn-for-ios/)
 
-- Desktop application for [Windows](/adguard-vpn-for-windows/overview) and [Mac](/adguard-vpn-for-mac/overview)
+- Desktop application for [Windows](/adguard-vpn-for-windows/) and [Mac](/adguard-vpn-for-mac/overview)
 
 - Command-line interface for [Linux, Mac, and some routers](/adguard-vpn-for-linux/)
 
