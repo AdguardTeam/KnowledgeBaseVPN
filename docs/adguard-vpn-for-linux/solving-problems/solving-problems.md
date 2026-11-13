@@ -11,4 +11,5 @@ This article covers AdGuard VPN CLI for Linux and macOS, and for MIPS or MIPSel 
 
 Here are some problems you may encounter and workarounds, guides, and instructions you may need.
 
-- [How to collect and send logs](/adguard-vpn-for-linux/solving-problems/logs/)
+- [Sending feedback](/adguard-vpn-for-linux/solving-problems/feedback/)
+- [AdGuard for Linux interaction](/adguard-vpn-for-linux/solving-problems/interaction/)

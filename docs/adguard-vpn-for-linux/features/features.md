@@ -5,17 +5,29 @@ sidebar_position: 1
 
 These articles explain the features available in AdGuard VPN for Linux. Choose the topic you want to learn more about.
 
+- [Settings](/adguard-vpn-for-linux/features/settings/)
+
+    Configure crash reports, the update channel, hints, and notifications.
+
+- [VPN modes: TUN and SOCKS5](/adguard-vpn-for-linux/features/vpn-modes/)
+
+    Choose how AdGuard VPN routes traffic and configure the SOCKS5 proxy.
+
+- [Traffic routing modes](/adguard-vpn-for-linux/features/traffic-routing-modes/)
+
+    Learn about the NONE, AUTO, and SCRIPT routing modes and custom routing scripts.
+
 - [Exclusions](/adguard-vpn-for-linux/features/exclusions/)
 
     Decide which domains’ traffic should be excluded from VPN routing and switch between General and Selective modes.
 
-- [Settings](/adguard-vpn-for-linux/features/settings/)
+- [DNS settings](/adguard-vpn-for-linux/features/dns-settings/)
 
-    Choose between TUN and SOCKS5 modes, set a DNS upstream, and configure crash reports, update channel, hints, and notifications.
+    Set a DNS upstream and use it at the system level.
 
-- [Advanced settings](/adguard-vpn-for-linux/features/advanced-settings/)
+- [Other CLI settings](/adguard-vpn-for-linux/features/other-cli-settings/)
 
-    Learn about the VPN tunnel routing mode, the VPN protocol, and debug logging.
+    Set the VPN protocol and enable debug logging.
 
 - [Command-line completion](/adguard-vpn-for-linux/features/autocomplete/)
 

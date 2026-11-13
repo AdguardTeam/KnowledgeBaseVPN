@@ -9,4 +9,4 @@ If you encounter this problem, we strongly recommend that you install [AdGuard V
 
 If you are in another country and can’t connect to AdGuard VPN on your router, please make sure your router supports IKEv2. If it does and the problem persists, please contact support at [support@adguard-vpn.com](mailto:support@adguard-vpn.com).
 
-You can also connect to our servers using [AdGuard VPN for Linux](/adguard-vpn-for-linux/setting-up-on-a-router), which supports many Keenetic, OpenWRT, and Asuswrt-Merlin routers. To make sure your router offers the support for AdGuard VPN, check if you can install **Entware**, a package manager required to install the AdGuard VPN on your router. If so, they’re likely compatible.
+You can also connect to our servers using [AdGuard VPN for Linux](/adguard-vpn-for-linux/installation-and-setup/setting-up-on-a-router), which supports many Keenetic, OpenWRT, and Asuswrt-Merlin routers. To make sure your router offers the support for AdGuard VPN, check if you can install **Entware**, a package manager required to install the AdGuard VPN on your router. If so, they’re likely compatible.

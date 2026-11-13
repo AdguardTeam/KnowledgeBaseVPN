@@ -24,7 +24,7 @@ There are two main ways to run AdGuard VPN on a router:
     - Easy to set up, supported by many routers
     - Limitations: not available in Russia, China, and Iran, only a limited number of VPN locations (USA, Netherlands, Finland), and no support for exclusions
 
-1. [AdGuard VPN CLI](/adguard-vpn-for-linux/setting-up-on-a-router/)
+1. [AdGuard VPN CLI](/adguard-vpn-for-linux/installation-and-setup/setting-up-on-a-router/)
 
     - Advanced setup that unlocks all AdGuard VPN features, including access to all locations and website exclusions (app exclusions are not available)
     - Requires more technical knowledge

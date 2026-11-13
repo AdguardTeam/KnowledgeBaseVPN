@@ -17,10 +17,10 @@ Open the Terminal to view all available commands. On Linux, press Ctrl+Alt+T. On
 
 ## Starting with the app
 
-To start using AdGuard VPN for Linux, [install it](/adguard-vpn-for-linux/installation/), log in to your AdGuard account, and connect to a server. By default, AdGuard VPN connects to the fastest available or the last used location.
+To start using AdGuard VPN for Linux, install it, log in to your AdGuard account, and connect to a server. By default, AdGuard VPN connects to the fastest available or the last used location.
 
-- [Installation and removal](/adguard-vpn-for-linux/installation/)
-- [Login, connection, and update](/adguard-vpn-for-linux/login/)
+- [Installation and removal](/adguard-vpn-for-linux/installation-and-setup/installation/)
+- [Login, connection, and update](/adguard-vpn-for-linux/installation-and-setup/login/)
 
 ## Using VPN for selected websites and apps
 
@@ -30,10 +30,13 @@ The *Exclusions* feature lets you decide which domains’ traffic should be excl
 
 ## Settings
 
-You can manage AdGuard VPN for Linux settings from the command line: choose between TUN and SOCKS5 modes, set a DNS upstream and the update channel, and more. Advanced settings give you control over traffic routing, the VPN protocol, and debug logging.
+You can manage AdGuard VPN for Linux settings from the command line: choose between TUN and SOCKS5 modes, configure traffic routing and DNS, and more.
 
 - [Settings](/adguard-vpn-for-linux/features/settings/)
-- [Advanced settings](/adguard-vpn-for-linux/features/advanced-settings/)
+- [VPN modes: TUN and SOCKS5](/adguard-vpn-for-linux/features/vpn-modes/)
+- [Traffic routing modes](/adguard-vpn-for-linux/features/traffic-routing-modes/)
+- [DNS settings](/adguard-vpn-for-linux/features/dns-settings/)
+- [Other CLI settings](/adguard-vpn-for-linux/features/other-cli-settings/)
 
 ## Command-line completion
 
@@ -41,33 +44,14 @@ Command-line completion makes navigating through long commands easier: start typ
 
 - [Command-line completion](/adguard-vpn-for-linux/features/autocomplete/)
 
-## Compatibility with AdGuard for Linux
-
-AdGuard VPN CLI can work alongside AdGuard CLI, but some combinations of modes cause a routing loop. Learn how to configure both apps so they don’t interfere with each other.
-
-- [Compatibility with AdGuard for Linux](/adguard-vpn-for-linux/interaction-adguard-cli/)
-
 ## Setting up on a router
 
 AdGuard VPN CLI can be installed on Keenetic, OpenWRT, Asuswrt-Merlin, and MikroTik routers.
 
-- [Setting up on a router](/adguard-vpn-for-linux/setting-up-on-a-router/)
+- [Setting up on a router](/adguard-vpn-for-linux/installation-and-setup/setting-up-on-a-router/)
 
 ## Solving problems
 
 If you’ve found a bug or want to suggest a new feature, fill out the feedback form or create a GitHub issue. If the support team asks you to send logs, use the `export-logs` command.
 
 - [Solving problems](/adguard-vpn-for-linux/solving-problems/)
-
-## Support
-
-If you’ve found a bug in AdGuard VPN for Linux or want to suggest a new feature, here’s how to do it:
-
-- Fill out the [feedback form](https://surveys.adguard.com/en/vpn_linux/form.html).
-- [Create a GitHub issue](https://github.com/AdguardTeam/AdGuardVPNCLI/issues/new/choose). But before you do, check the [repository](https://github.com/AdguardTeam/AdGuardVPNCLI/issues?q=is%3Aissue) for similar issues.
-
-:::note
-
-If you want to support the implementation of a new feature or bugfix, you can vote for it on GitHub. To vote, just react with some emoji.
-
-:::

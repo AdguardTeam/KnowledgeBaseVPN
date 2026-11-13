@@ -1,19 +1,11 @@
 ---
-title: Advanced settings
+title: Traffic routing modes
 sidebar_position: 4
 ---
 
-These settings give you more control over how AdGuard VPN for Linux routes traffic, connects to servers, and writes logs. To view the current configuration, type:
-
-```shell
-adguardvpn-cli config show
-```
-
-## VPN tunnel routing mode: NONE, AUTO, or SCRIPT
-
 With AdGuard VPN CLI, you can choose how traffic is routed through the VPN tunnel. The routing mode controls system routing when the TUN interface is active. It does not automatically redirect traffic in SOCKS5/proxy mode; apps must be configured to use the local SOCKS5 proxy in that case.
 
-### NONE — no routing changes
+## NONE — no routing changes
 
 AdGuard VPN CLI brings up the TUN interface but does not modify the system routing table. No default route to the tunnel is installed, so traffic continues to use the existing OS routes.
 
@@ -25,7 +17,7 @@ To set the tunnel routing mode to `NONE` (no routing), type:
 adguardvpn-cli config set-tun-routing-mode NONE
 ```
 
-### AUTO — automatic routing
+## AUTO — automatic routing
 
 AdGuard VPN CLI creates and maintains the minimal set of routes required for the tunnel to work system-wide. Typical behavior includes:
 
@@ -41,7 +33,7 @@ To set the tunnel routing mode to `AUTO` (automatic routing), type:
 adguardvpn-cli config set-tun-routing-mode AUTO
 ```
 
-### SCRIPT — user-defined routing
+## SCRIPT — user-defined routing
 
 AdGuard VPN CLI executes a user-supplied script that adds or removes routes when the tunnel state changes. You have full control over what goes through the tunnel and what stays direct.
 
@@ -59,7 +51,7 @@ adguardvpn-cli config create-route-script
 
 Use `SCRIPT` if you need fine-grained split tunneling, enterprise routing policies, or custom exceptions beyond what `AUTO` provides.
 
-#### Examples
+### Examples
 
 **Linux custom script:**
 
@@ -104,23 +96,3 @@ route add 172.16.0.0/12 -iface "$INTERFACE"     # Another private range
 # route delete 192.168.0.0/16 2>/dev/null || true
 # route delete 10.0.0.0/8 2>/dev/null || true
 ```
-
-## Set protocol
-
-To set the protocol used by AdGuard VPN (HTTP2, QUIC, or automatic choice between them), type one of the commands, depending on your choice:
-
-```shell
-adguardvpn-cli config set-protocol http2
-adguardvpn-cli config set-protocol quic
-adguardvpn-cli config set-protocol auto
-```
-
-## Debug logging
-
-To report a bug, you may need to share debug logs with the developers or support team. To enable debug logging, type:
-
-```shell
-adguardvpn-cli config set-debug-logging on
-```
-
-Disable this setting after exporting logs.

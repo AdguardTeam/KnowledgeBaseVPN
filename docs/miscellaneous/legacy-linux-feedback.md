@@ -5,4 +5,4 @@ unlisted: true
 slug: /adguard-vpn-for-linux/feedback
 ---
 
-This article has moved: see [How to collect and send logs](/adguard-vpn-for-linux/solving-problems/logs/) and the [Support section](/adguard-vpn-for-linux/#support) of the section landing page.
+This article has moved to [Sending feedback](/adguard-vpn-for-linux/solving-problems/feedback/).

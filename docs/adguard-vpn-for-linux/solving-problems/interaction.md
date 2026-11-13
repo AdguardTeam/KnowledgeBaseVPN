@@ -1,5 +1,5 @@
 ---
-title: Compatibility with AdGuard for Linux
+title: AdGuard for Linux interaction
 sidebar_position: 3
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: Command-line completion
-sidebar_position: 5
+sidebar_position: 8
 ---
 
 To make navigating through different and, sometimes, pretty long commands easier, you can use the command-line completion feature.
