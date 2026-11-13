@@ -1,6 +1,6 @@
 ---
 title: AdGuard VPN’s GitHub repositories
-sidebar_position: 5
+sidebar_position: 2
 ---
 
 At AdGuard, our goal is to make the Internet safer, more comfortable, and more transparent. This commitment is reflected not only in our product features and strict privacy policies, but also in the fact that we keep our work as open as possible. That includes actively interacting with our community.

@@ -1,5 +1,5 @@
 ---
-title: Updating the Knowledge Base
+title: How to contribute to the Knowledge Base
 sidebar_position: 3
 ---
 

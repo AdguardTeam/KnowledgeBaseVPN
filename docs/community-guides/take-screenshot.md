@@ -1,13 +1,13 @@
 ---
 title: How to take a screenshot
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 Screenshot is a capture of your computer’s or mobile device’s screen, which can be obtained by using standard tools or a special program/app.
 
 Sometimes a screenshot (or screenshots) is required by support team to better understand the problem, and not everyone knows how to take screenshots, especially of a separate window or a specific screen area on their devices. If you recognize yourself as one of these users, don’t worry. This article will help you as it describes a range of ways to take screenshots on different platforms.
 
-## How to take a screenshot
+## Screenshots on different platforms
 
 Here you will find all the necessary hotkeys you should know in order to take screenshots on your computer or mobile device.
 
