@@ -33,8 +33,6 @@ When enabled, your device gets an IPv6 address while routing traffic through the
 
 VPN tunneling for the IPv4 ranges listed here is disabled. Enter one IP range per line in CIDR notation (for example, `192.168.0.0/16`) and use `//` to add comments.
 
-By default, the list includes reserved subnets, the multicast range, and ranges used for Wi-Fi calling by T-Mobile, AT&T, UK EE, and Sprint.
-
 ## IPv6 ranges excluded from VPN
 
 VPN tunneling for the IPv6 ranges listed here is disabled. The format is the same as for IPv4 ranges: one range per line, with `//` for comments.
