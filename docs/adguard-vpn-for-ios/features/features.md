@@ -19,7 +19,11 @@ These articles explain the features available in AdGuard VPN for iOS. Choose the
 
 - [Advanced settings](/adguard-vpn-for-ios/features/advanced-settings/)
 
-    Learn about operating modes, logging level, log export, diagnostic data, and the VPN protocol.
+    Learn about operating modes, logging level, log export, and diagnostic data.
+
+- [Low-level settings](/adguard-vpn-for-ios/features/low-level-settings/)
+
+    Choose the VPN protocol and preferred IP version, enable strict VPN routing and the IPv6 interface, and set IP ranges excluded from the VPN.
 
 - [Shortcuts](/adguard-vpn-for-ios/features/shortcuts/)
 

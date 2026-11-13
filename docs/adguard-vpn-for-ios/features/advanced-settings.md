@@ -5,7 +5,7 @@ sidebar_position: 5
 
 To open *Advanced* settings, tap the Settings icon (⚙) in the bottom right corner of the app’s main screen, then tap *General* → *Advanced*.
 
-In *Advanced* settings, you can find several sections — *Operating mode*, *Logging level*, *Export logs and system info*, *Diagnostic data*, and *AdGuard VPN protocol*.
+In *Advanced* settings, you can find several sections — *Operating mode*, *Logging level*, *Export logs and system info*, and *Diagnostic data*. The *Low-level settings* section at the bottom of the screen is described in a [separate article](/adguard-vpn-for-ios/features/low-level-settings/).
 
 ## Operating mode
 
@@ -41,10 +41,6 @@ This option can be used to send the app’s logs and system info to our support 
 
 This option lets you export technical information that can be useful in solving problems and is sometimes requested by our support and developers.
 
-## AdGuard VPN protocol
+## Low-level settings
 
-![Select VPN protocol *mobile_border](https://cdn.adtidy.org/content/release_notes/vpn/ios/v2.8/Auto_EN.PNG)
-
-By default, AdGuard VPN protocol uses dynamic VPN protocol selection (*Auto-select* option). That means that AdGuard VPN automatically figures out which protocol — HTTP2/TLS or HTTP3/QUIC — will give you the best performance and switches to it instantly. This improves VPN speed and stability, which is particularly helpful in regions where VPN usage is restricted or unreliable.
-
-If you wish, you can switch AdGuard VPN to use only HTTP2/TLS or HTTP3/QUIC protocol instead of *Auto-select*. Each protocol has its strengths, but the best choice can vary depending on your location, network conditions, and even the server you connect to.
+Low-level settings include the VPN protocol, strict VPN routing, IPv6 interface, IP ranges excluded from VPN, and the preferred IP version. Read more about them in [Low-level settings](/adguard-vpn-for-ios/features/low-level-settings/).

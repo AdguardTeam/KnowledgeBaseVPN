@@ -1,6 +1,6 @@
 ---
 title: Compatibility with AdGuard Ad Blocker
-sidebar_position: 8
+sidebar_position: 9
 ---
 
 AdGuard VPN has two operating modes: *VPN* and *Integrated*.

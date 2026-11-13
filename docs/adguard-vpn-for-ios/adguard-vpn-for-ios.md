@@ -51,10 +51,11 @@ By default, AdGuard VPN is active for all websites except those added to Exclusi
 
 ## App settings
 
-In *General settings*, you can choose a DNS server, change the app theme, enable Kill Switch, and allow sending technical and interaction data. *Advanced settings* contain the operating mode, logging level, log export, diagnostic data, and the VPN protocol.
+In *General settings*, you can choose a DNS server, change the app theme, enable Kill Switch, and allow sending technical and interaction data. *Advanced settings* contain the operating mode, logging level, log export, and diagnostic data. *Low-level settings* include the VPN protocol, strict VPN routing, and IP range exclusions.
 
 - [General settings](/adguard-vpn-for-ios/features/general-settings/)
 - [Advanced settings](/adguard-vpn-for-ios/features/advanced-settings/)
+- [Low-level settings](/adguard-vpn-for-ios/features/low-level-settings/)
 
 ## Shortcuts and automation
 

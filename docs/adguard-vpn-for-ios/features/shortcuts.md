@@ -1,6 +1,6 @@
 ---
 title: Shortcuts
-sidebar_position: 6
+sidebar_position: 7
 sidebar_label: Shortcuts
 ---
 Shortcuts, a tool built into iOS, makes it easy to manage your connections without opening AdGuard VPN. You can place a *Connect*, *Disconnect*, or *Toggle VPN* shortcut on your Home Screen, in Control Center, or in a widget, or set up a Siri phrase to connect with your voice.
