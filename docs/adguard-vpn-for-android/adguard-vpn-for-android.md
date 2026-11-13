@@ -42,14 +42,9 @@ AdGuard VPN can work simultaneously with AdGuard Ad Blocker in Integrated mode. 
 
 ## Solving problems
 
-Connection issues, the system disabling the app, Restricted Mode, Chromecast, and the Samsung Auto Blocker feature require different steps. The articles below cover each case separately.
+Known issues and possible solutions for connection problems, background work, Restricted Mode, Chromecast, and Samsung Auto Blocker.
 
-- [Troubleshooting AdGuard VPN connection issues](/adguard-vpn-for-android/solving-problems/connection-issues/)
-- [How to protect AdGuard VPN from being disabled by the system](/adguard-vpn-for-android/solving-problems/background-work/)
-- [Problems with Restricted Mode profile](/adguard-vpn-for-android/solving-problems/restricted-mode/)
-- [Compatibility of AdGuard VPN with Chromecast](/adguard-vpn-for-android/solving-problems/chromecast/)
-- [How to disable the Samsung Auto Blocker feature](/adguard-vpn-for-android/solving-problems/auto-blocker/)
-- [How to collect and send logs](/adguard-vpn-for-android/solving-problems/logs/)
+- [Solving problems](/adguard-vpn-for-android/solving-problems/)
 
 ## Support
 

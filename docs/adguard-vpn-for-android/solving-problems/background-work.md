@@ -1,6 +1,6 @@
 ---
 title: How to protect AdGuard VPN from being disabled by the system
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 Apps on Android devices may not always run stably in the background for various reasons, which may differ depending on the device model. This is most often due to the Android OS optimization function, or so-called “battery save mode”. In such cases, the system closes apps in order to reduce the load and free up RAM.

@@ -1,6 +1,6 @@
 ---
 title: Problems with Restricted Mode profile
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 The owners of phones and tablets running the Android 7+ operating system might face the problem caused by using **a profile with Restricted Mode**. If you have such a profile, **AdGuard VPN**, like other applications that use VPN, gets restrictions on selective handling of VPN traffic. Also, one of the reasons for this problem may be using **Dual App/Dual Messenger profile** on your device. Below are described the recommendations that you can apply when this problem occurs.
