@@ -13,18 +13,14 @@ These articles explain the features available in AdGuard VPN browser extension. 
 
     Save the locations you use often and find them quickly in the *Saved* tab.
 
+- [Profiles](/adguard-vpn-browser-extension/features/profiles/)
+
+    Create up to 10 profiles and configure *Quick connect*, *DNS server*, *Block WebRTC*, and *Exclusions* for each of them.
+
 - [Statistics](/adguard-vpn-browser-extension/features/statistics/)
 
     Keep track of how much data passes through your VPN connection.
 
-- [Settings](/adguard-vpn-browser-extension/features/settings/)
-
-    Choose a DNS server, set the location for the *Connect* button, and block WebRTC.
-
 - [General settings](/adguard-vpn-browser-extension/features/general-settings/)
 
     Change the theme and language, enable AdGuard VPN in the browser context menu, and allow sending crash reports.
-
-- [Manage profiles](/adguard-vpn-browser-extension/features/profiles/)
-
-    Create up to 10 profiles with individual settings for each.

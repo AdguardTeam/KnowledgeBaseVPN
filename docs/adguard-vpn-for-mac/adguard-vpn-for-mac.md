@@ -38,7 +38,7 @@ Free users can connect only to certain locations, while others are blocked. Besi
 :::
 
 - [Installation and removal](/adguard-vpn-for-mac/installation/)
-- [Versions of the app](/adguard-vpn-for-mac/versions/)
+- [Mac App Store vs standalone version](/adguard-vpn-for-mac/versions/)
 - [Saved locations](/adguard-vpn-for-mac/features/saved-locations/)
 
 ## Using VPN for selected websites and apps

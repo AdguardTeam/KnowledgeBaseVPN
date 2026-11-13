@@ -3,6 +3,8 @@ title: General settings
 sidebar_position: 6
 ---
 
+To open *General settings*, click the extension icon on the browser’s panel, click the hamburger menu icon, and select *Settings* → *General settings*. You can also go to the *Manage extensions* page in your browser, click *Details* below *AdGuard VPN*, and manage its settings from there.
+
 The options in this section apply globally to the entire extension, regardless of which profile is selected:
 
 - **Theme**: Select a preferred interface appearance: Light, Dark, or Browser default.

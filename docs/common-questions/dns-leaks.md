@@ -1,5 +1,5 @@
 ---
-title: What is a DNS leak
+title: What is a DNS leak and how to detect it
 sidebar_position: 4
 slug: /general/dns-leaks
 ---

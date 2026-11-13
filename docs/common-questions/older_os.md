@@ -1,5 +1,5 @@
 ---
-title: Installing AdGuard VPN on older OS versions
+title: How to install AdGuard VPN on older OS versions
 sidebar_position: 2
 slug: /general/older_os
 ---

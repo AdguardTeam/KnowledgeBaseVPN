@@ -1,6 +1,6 @@
 ---
 title: Statistics
-sidebar_position: 4
+sidebar_position: 5
 ---
 
 The *Stats* section in the menu is a simple way to keep track of how much data passes through your VPN connection.

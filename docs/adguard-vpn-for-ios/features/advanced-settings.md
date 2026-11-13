@@ -21,7 +21,7 @@ In **Integrated** mode, you can’t use the Exclusions feature or choose a DNS s
 
 :::
 
-Read more about it in [Compatibility with AdGuard Ad Blocker](/adguard-vpn-for-ios/compatibility-with-adguard-ad-blocker/).
+Read more about it in [Compatibility with AdGuard Ad Blocker](/adguard-vpn-for-ios/features/compatibility-with-adguard-ad-blocker/).
 
 ## Logging level
 

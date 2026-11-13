@@ -1,5 +1,5 @@
 ---
-title: Activate AdGuard VPN subscription
+title: How to activate
 sidebar_position: 3
 slug: /general/activate-subscription
 ---

@@ -1,5 +1,5 @@
 ---
-title: Usage issues with subscriptions purchased via the App Store
+title: Issues with subscriptions purchased via the App Store
 sidebar_position: 4
 ---
 

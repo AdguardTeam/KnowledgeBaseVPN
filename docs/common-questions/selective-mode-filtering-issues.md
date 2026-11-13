@@ -1,5 +1,5 @@
 ---
-title: WhatsApp and Discord traffic filtering specifics
+title: Routing WhatsApp and Discord traffic in Selective mode
 sidebar_position: 3
 slug: /general/selective-mode-filtering-issues
 ---

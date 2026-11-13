@@ -28,3 +28,7 @@ These articles explain the features available in AdGuard VPN for iOS. Choose the
 - [Automation](/adguard-vpn-for-ios/features/automation/)
 
     Set up AdGuard VPN to turn on or off automatically for specific apps or Wi-Fi networks.
+
+- [Compatibility with AdGuard Ad Blocker](/adguard-vpn-for-ios/features/compatibility-with-adguard-ad-blocker/)
+
+    Use AdGuard VPN together with AdGuard Ad Blocker for iOS in Integrated mode.

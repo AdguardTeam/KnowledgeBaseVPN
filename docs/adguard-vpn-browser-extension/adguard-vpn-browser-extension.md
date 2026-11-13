@@ -30,24 +30,23 @@ By default, AdGuard VPN works on all websites, but you can add the ones you want
 
 - [Exclusions](/adguard-vpn-browser-extension/features/exclusions/)
 
-## Settings
-
-In *Settings*, you can choose a DNS server, set up the connection location for the *Connect* button, and block WebRTC. *General settings* apply to the entire extension: theme, language, context menu, and crash reports.
-
-- [Settings](/adguard-vpn-browser-extension/features/settings/)
-- [General settings](/adguard-vpn-browser-extension/features/general-settings/)
-
 ## Profiles
 
 You can create up to 10 profiles, each with its own exclusions, DNS server, connection location, and WebRTC blocking settings.
 
-- [Manage profiles](/adguard-vpn-browser-extension/features/profiles/)
+- [Profiles](/adguard-vpn-browser-extension/features/profiles/)
 
 ## Statistics
 
 The *Stats* section is a simple way to keep track of how much data passes through your VPN connection. All statistics are stored locally on your device.
 
 - [Statistics](/adguard-vpn-browser-extension/features/statistics/)
+
+## Settings
+
+In *General settings*, you can change the theme and language, enable AdGuard VPN in the browser context menu, and allow sending crash reports.
+
+- [General settings](/adguard-vpn-browser-extension/features/general-settings/)
 
 ## Solving problems
 

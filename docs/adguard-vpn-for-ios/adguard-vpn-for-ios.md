@@ -67,7 +67,7 @@ Connect and disconnect with Shortcuts, Siri, a Home Screen widget, or Control Ce
 
 AdGuard VPN can work simultaneously with AdGuard Ad Blocker for iOS in Integrated mode. If you already have AdGuard Ad Blocker installed, the mode turns on automatically; otherwise, you can switch to it in *Advanced settings*.
 
-- [Compatibility with AdGuard Ad Blocker](/adguard-vpn-for-ios/compatibility-with-adguard-ad-blocker/)
+- [Compatibility with AdGuard Ad Blocker](/adguard-vpn-for-ios/features/compatibility-with-adguard-ad-blocker/)
 
 ## Solving problems
 
