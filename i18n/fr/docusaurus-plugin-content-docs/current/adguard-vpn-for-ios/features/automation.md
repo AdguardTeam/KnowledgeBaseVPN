@@ -1,37 +1,37 @@
 ---
-title: Automation
+title: Automatisation
 sidebar_position: 2
-sidebar_label: Automation
+sidebar_label: Automatisation
 ---
 
-_Automation_ is a feature in the Shortcuts app that performs an action for you automatically based on the conditions you choose. For example, it can turn off AdGuard VPN the moment you open an app, and turn it back on when you close that app.
+_L'automatisation_ est une fonctionnalité de l'application Raccourcis qui exécute automatiquement une action pour vous en fonction des conditions que vous choisissez. Par exemple, elle peut désactiver AdGuard VPN dès que vous ouvrez une application et le réactiver lorsque vous fermez cette application.
 
-This is useful if you want AdGuard VPN off for some apps but not for others. AdGuard VPN for iOS doesn’t have app exclusions, so automation is the closest way to get the same result without switching the VPN on and off yourself every time.
+C’est utile si vous souhaitez désactiver le VPN AdGuard pour certaines applications mais pas pour d’autres. AdGuard VPN pour iOS ne dispose pas d’exclusions d’applications, donc l’automatisation est la façon la plus proche d’obtenir le même résultat sans avoir à activer ou désactiver le VPN vous-même à chaque fois.
 
-Here’s how to set up an automation that disconnects from AdGuard VPN when you open an app, and turns it back on when you close it.
+Voici comment configurer une automatisation qui se déconnecte du VPN AdGuard lorsque vous ouvrez une application, puis la réactive à la fermeture.
 
-## Turn off AdGuard VPN when you open an app
+## Désactiver AdGuard VPN lorsque vous ouvrez une application
 
-1. In the Shortcuts app, go to _Automation_ and tap _New Automation_ or the plus (+) button in the top right corner.
-2. Choose _App_, select one or several apps, and check _Is Opened_.
-3. Turn on _Run Immediately_ and turn off _Notify When Run_.
-4. Tap _Next_, select AdGuard VPN, and pick _Disconnect_.
+1. Dans l’application Raccourcis, allez dans _Automatisation_ et appuyez sur _Nouvelle automatisation_ ou sur le bouton plus (+) en haut à droite.
+2. Choisissez _App_, sélectionnez une ou plusieurs applications et cochez _Est ouverte_.
+3. Activez _Exécuter immédiatement_ et désactivez _Avertir lors de l’exécution_.
+4. Appuyez sur _Suivant_, sélectionnez AdGuard VPN et choisissez _Déconnecter_.
 
 ![App automation](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/automation1-combined.png)
 
-To turn AdGuard VPN back on when you close the same app, repeat the steps above, but select _Is Closed_ in step 2 and set the action in step 4 to _Connect_.
+Pour réactiver le VPN AdGuard lorsque vous fermez la même application, répétez les étapes ci-dessus, mais sélectionnez _Est fermé_ à l’étape 2 et réglez l’action de l’étape 4 sur _Connecter_.
 
-## Turn AdGuard VPN off when you join home Wi-Fi
+## Désactiver AdGuard VPN lorsque vous vous connectez au Wi-Fi domestique
 
-If you don’t need to use VPN at home, set it to turn off when you join your home Wi-Fi network and back on when you leave.
+Si vous n’avez pas besoin d’utiliser un VPN à la maison, réglez-le pour qu’il s’éteigne lorsque vous connectez votre réseau Wi-Fi domestique et le réactive quand vous partez.
 
-1. In the Shortcuts app, go to _Automation_ and tap _New Automation_ or ‘+’ in the top right corner.
-2. Choose _Wi-Fi_, select _Is Joined_, and choose your home network.
-3. Turn on _Run Immediately_ and _Run After Connection Interruption_.
-4. Tap _Next_, select AdGuard VPN, and pick _Disconnect_.
+1. Dans l’application Raccourcis, allez dans _Automatisation_ et appuyez sur _Nouvelle automatisation_ ou '+' en haut à droite.
+2. Choisissez _Wi-Fi_, sélectionnez _Est connecté_, puis choisissez votre réseau domestique.
+3. Activez _Exécuter immédiatement_ et _Exécuter après une interruption de connexion_.
+4. Appuyez sur _Suivant_, sélectionnez AdGuard VPN et choisissez _Déconnecter_.
 
 ![Wi-Fi automation \*mobile](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/automation-2-combined.png)
 
-## Turn AdGuard VPN back on when you leave
+## Réactiver AdGuard VPN lorsque vous partez
 
-Repeat the steps above, but choose _Is Disconnected_ instead of _Is Joined_, turn on _Run Immediately_, and set the action to _Connect_.
+Répétez les étapes ci-dessus, mais choisissez _Est Déconnecté_ au lieu de _Est joint_, activez _Exécuter immédiatement_, et réglez l’action sur _Connecter_.

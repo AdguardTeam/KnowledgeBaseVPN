@@ -4,34 +4,34 @@ sidebar_position: 2
 sidebar_label: Automation
 ---
 
-_Automation_ is a feature in the Shortcuts app that performs an action for you automatically based on the conditions you choose. For example, it can turn off AdGuard VPN the moment you open an app, and turn it back on when you close that app.
+_Automation_ ist eine Funktion in der Kurzbefehle-App, die basierend auf den von Ihnen gewählten Bedingungen automatisch eine Aktion für Sie ausführt. Sie kann AdGuard VPN beispielsweise in dem Moment ausschalten, in dem Sie eine App öffnen, und wieder einschalten, wenn Sie diese App schließen.
 
-This is useful if you want AdGuard VPN off for some apps but not for others. AdGuard VPN for iOS doesn’t have app exclusions, so automation is the closest way to get the same result without switching the VPN on and off yourself every time.
+Dies ist nützlich, wenn Sie AdGuard VPN für manche Apps deaktiviert haben möchten, für andere jedoch nicht. AdGuard VPN für iOS verfügt nicht über App-Ausschlüsse. Die Automation ist daher die beste Möglichkeit, dasselbe Ergebnis zu erzielen, ohne das VPN jedes Mal selbst ein- und ausschalten zu müssen.
 
-Here’s how to set up an automation that disconnects from AdGuard VPN when you open an app, and turns it back on when you close it.
+Hier erfahren Sie, wie Sie eine Automation einrichten, die die Verbindung zu AdGuard VPN trennt, wenn Sie eine App öffnen, und sie wieder einschaltet, wenn Sie die App schließen.
 
-## Turn off AdGuard VPN when you open an app
+## AdGuard VPN ausschalten, wenn Sie eine App öffnen
 
-1. In the Shortcuts app, go to _Automation_ and tap _New Automation_ or the plus (+) button in the top right corner.
-2. Choose _App_, select one or several apps, and check _Is Opened_.
-3. Turn on _Run Immediately_ and turn off _Notify When Run_.
-4. Tap _Next_, select AdGuard VPN, and pick _Disconnect_.
+1. Gehen Sie in der Kurzbefehle-App auf _Automation_ und tippen Sie auf _Neue Automation_ oder auf das Pluszeichen (+) in der oberen rechten Ecke.
+2. Wählen Sie _App_, wählen Sie eine oder mehrere Apps aus und aktivieren Sie _Wird geöffnet_.
+3. Aktivieren Sie _Sofort ausführen_ und deaktivieren Sie _Bei Ausführung benachrichtigen_.
+4. Tippen Sie auf _Weiter_, wählen Sie AdGuard VPN und wählen Sie _Trennen_.
 
-![App automation](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/automation1-combined.png)
+![App-Automation](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/automation1-combined.png)
 
-To turn AdGuard VPN back on when you close the same app, repeat the steps above, but select _Is Closed_ in step 2 and set the action in step 4 to _Connect_.
+Um AdGuard VPN wieder einzuschalten, wenn Sie dieselbe App schließen, wiederholen Sie die obigen Schritte, wählen Sie jedoch in Schritt 2 _Wird geschlossen_ und legen Sie die Aktion in Schritt 4 auf _Verbinden_ fest.
 
-## Turn AdGuard VPN off when you join home Wi-Fi
+## AdGuard VPN ausschalten, wenn Sie sich mit dem Heim-WLAN verbinden
 
-If you don’t need to use VPN at home, set it to turn off when you join your home Wi-Fi network and back on when you leave.
+Wenn Sie zu Hause kein VPN benötigen, können Sie festlegen, dass es sich ausschaltet, wenn Sie sich mit Ihrem Heim-WLAN verbinden, und wieder einschaltet, wenn Sie es verlassen.
 
-1. In the Shortcuts app, go to _Automation_ and tap _New Automation_ or ‘+’ in the top right corner.
-2. Choose _Wi-Fi_, select _Is Joined_, and choose your home network.
-3. Turn on _Run Immediately_ and _Run After Connection Interruption_.
-4. Tap _Next_, select AdGuard VPN, and pick _Disconnect_.
+1. Gehen Sie in der Kurzbefehle-App auf _Automation_ und tippen Sie auf _Neue Automation_ oder auf „+“ in der oberen rechten Ecke.
+2. Wählen Sie _WLAN_, wählen Sie _Verbindet sich mit_ und wählen Sie Ihr Heimnetzwerk aus.
+3. Aktivieren Sie _Sofort ausführen_ und _Nach Verbindungsabbruch ausführen_.
+4. Tippen Sie auf _Weiter_, wählen Sie AdGuard VPN und wählen Sie _Trennen_.
 
-![Wi-Fi automation \*mobile](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/automation-2-combined.png)
+![WLAN-Automation \*mobile](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/automation-2-combined.png)
 
-## Turn AdGuard VPN back on when you leave
+## AdGuard VPN wieder einschalten, wenn Sie das Heim-WLAN verlassen
 
-Repeat the steps above, but choose _Is Disconnected_ instead of _Is Joined_, turn on _Run Immediately_, and set the action to _Connect_.
+Wiederholen Sie die obigen Schritte, wählen Sie jedoch _Trennt Verbindung mit_ statt _Verbindet sich mit_, aktivieren Sie _Sofort ausführen_ und legen Sie die Aktion auf _Verbinden_ fest.

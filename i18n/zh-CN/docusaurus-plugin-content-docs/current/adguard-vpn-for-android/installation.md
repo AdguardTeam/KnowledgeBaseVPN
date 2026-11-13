@@ -5,30 +5,30 @@ sidebar_position: 2
 
 ## 系统要求
 
-AdGuard VPN can only be installed on Android devices with **Android 9.0 or later versions**.
+AdGuard VPN 只能安装在运行 **Android 9.0 或更高版本**的 Android 设备上。
 
-## 如何在安卓设备上安装 AdGuard VPN
+## 如何安装 AdGuard VPN Android 版
 
-You can install the AdGuard VPN for Android app for free from Google Play. To do this, follow [this link](https://play.google.com/store/apps/details?id=com.adguard.vpn) and tap *Install* or follow a few simple steps:
+您可以从 Google Play 免费安装 AdGuard VPN Android 版应用。为此，请点击[此链接](https://play.google.com/store/apps/details?id=com.adguard.vpn)并点按「*安装*」，或按照以下几个简单步骤操作：
 
-1. 打开您设备中的 *Google Play*，点击屏幕顶部的*搜索*。
+1. 在您的设备上打开 *Google Play* 应用，然后点按屏幕顶部的「*搜索*」。
 
-2. Next, in the search bar, start typing *AdGuard* and select *adguard vpn* from the list of suggested options.
+2. 接下来，在搜索栏中输入 *AdGuard*，然后从建议列表中选择 *adguard vpn*。
 
-3. Select *AdGuard VPN - private proxy* from the list of suggested apps and tap *Install*.
+3. 从建议的应用列表中选择 *AdGuard VPN - private proxy*，然后点按「*安装*」。
 
-4. 等待安装完成后点击*打开*。
+4. 等待安装完成，然后点按「*打开*」。
 
-AdGuard VPN 安卓版已成功安装！
+AdGuard VPN Android 版已成功安装！
 
-### Installation on Android 7
+### 在 Android 7 上安装
 
-Android 7 users won’t find a compatible app version in the download section of the AdGuard VPN website, as it’s no longer supported in the latest releases.
+Android 7 用户在 AdGuard VPN 网站的下载区找不到兼容的应用版本，因为最新版本已不再支持 Android 7。
 
-However, you still can [download an older, compatible version](https://agrd.io/vpn_android_7_for_web).
+不过，您仍然可以[下载较旧的兼容版本](https://agrd.io/vpn_android_7_for_web)。
 
-## 如何卸载 AdGuard VPN 安卓版
+## 如何卸载 AdGuard VPN Android 版
 
-如果您决定卸载 AdGuard VPN 安卓版，请找到此应用的图标并长按。在打开的列表中，点击*卸载*。
+如果您决定删除 AdGuard VPN Android 版，请找到该应用的图标并长按。在打开的列表中，点按「*卸载*」。
 
-You can learn more about the AdGuard VPN for Android in [this article](/adguard-vpn-for-android/overview).
+您可以在这篇[文章](/adguard-vpn-for-android/overview)中进一步了解 AdGuard VPN Android 版。

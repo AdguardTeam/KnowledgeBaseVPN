@@ -72,7 +72,7 @@ Find the `container` package in the list. If it's not there, install it:
 
    The `container` package should appear in the list.
 
-### 3) Enable Container mode
+### 3. Enable Container mode
 
 Enable Container mode and follow the instructions the command gives you. You will need to confirm the device-mode change by performing a cold reboot (physically unplugging and replugging the power).
 
@@ -313,7 +313,7 @@ On first launch, the container will not be able to connect to VPN as authenticat
 
    AdGuard VPN CLI will create a tun0 interface for VPN tunneling.
 
-### 3) Exit the shell
+### 3. Exit the shell
 
 ```bash
 exit

@@ -1,95 +1,95 @@
 ---
-title: Shortcuts
+title: 단축어
 sidebar_position: 1
-sidebar_label: Shortcuts
+sidebar_label: 단축어
 ---
 
-Shortcuts, a tool built into iOS, makes it easy to manage your connections without opening AdGuard VPN. You can place a _Connect_, _Disconnect_, or _Toggle VPN_ shortcut on your Home Screen, in Control Center, or in a widget, or set up a Siri phrase to connect with your voice.
+iOS에 기본으로 들어 있는 단축어 앱을 사용하면 AdGuard VPN을 열지 않고도 연결을 간편하게 관리할 수 있습니다. **연결**, **연결 해제**, **VPN 전환** 단축어를 홈 화면, 제어 센터 또는 위젯에 추가하거나, Siri 문구를 설정해 음성으로 연결할 수 있습니다.
 
-Shortcuts can also include more complex automations. For example, your banking app might not work with a VPN on, but you always want it on for Instagram, or you want your VPN to turn off automatically on home Wi-Fi. Shortcuts lets you automate these scenarios.
+단축어로 더 복잡한 자동화도 만들 수 있습니다. 예를 들어 VPN이 켜져 있으면 은행 앱이 작동하지 않는데 Instagram에서는 항상 VPN을 켜 두고 싶을 때, 또는 집 Wi-Fi에서는 VPN이 자동으로 꺼지길 원할 때가 있습니다. 단축어를 사용하면 이런 상황을 자동으로 처리할 수 있습니다.
 
-## Before you start
+## 시작하기 전에
 
-Make sure that:
+다음 사항을 확인하세요.
 
-- You have the Shortcuts app installed on your iPhone or iPad;
-- AdGuard VPN is installed;
-- You’re signed in to AdGuard VPN and have a VPN profile installed.
+- iPhone 또는 iPad에 단축어 앱 설치
+- AdGuard VPN 설치
+- AdGuard VPN 로그인 및 VPN 프로필 설치
 
-## Connect or disconnect in one tap
+## 탭 한 번으로 연결 또는 연결 해제
 
-AdGuard VPN provides three ready-made shortcuts: _Connect_, _Disconnect_, _Toggle VPN_. _Connect_ turns on the VPN and connects to your last used location. _Disconnect_ turns off the VPN. _Toggle VPN_ switches between the two: it connects when the VPN is off and disconnects when it’s on.
+AdGuard VPN은 **연결**, **연결 해제**, **VPN 전환** 세 가지 기본 단축어를 제공합니다. **연결**은 VPN을 켜고 마지막으로 사용한 위치에 연결합니다. **연결 해제**는 VPN을 끕니다. **VPN 전환**은 두 동작을 번갈아 실행합니다. VPN이 꺼져 있으면 연결하고, 켜져 있으면 연결을 해제합니다.
 
-You’ll find these shortcuts in the Shortcuts app: on iOS 16, look under _App Shortcuts_. Add any of them to the three places listed below.
+이 단축어는 단축어 앱에서 찾을 수 있습니다. iOS 26에서는 **모든 단축어**의 **AdGuard VPN**에서 확인하세요. 아래 세 곳 중 원하는 곳에 추가할 수 있습니다.
 
-On iOS 27, find AdGuard VPN shortcuts in the Shortcuts app’s _Library_ under _Apps_ → _AdGuard VPN_. If Shortcuts opens to _All Shortcuts_, tap the back arrow in the top-left corner to return to _Library_.
+iOS 26에서는 단축어 앱의 **보관함** → **앱** → **AdGuard VPN**에서 AdGuard VPN 단축어를 찾을 수 있습니다. 단축어 앱이 **모든 단축어** 화면으로 열리면 왼쪽 위의 뒤로 화살표를 탭해 **보관함**으로 돌아갑니다.
 
-![Shortcuts on iOS 27](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/shortcuts_library_27.png)
+![iOS 27의 단축어](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/shortcuts_library_27_ko.png)
 
-### Home Screen
+### 홈 화면
 
-To set up a shortcut on your Home Screen, follow the quick instructions in the AdGuard VPN app. (_Settings_ → _Shortcuts_ → _Add shortcuts to the Home Screen_).
+홈 화면에 단축어를 추가하려면 AdGuard VPN 앱의 간단한 안내를 따라 하세요. (**설정** → **단축어** → **홈 화면에 단축어 추가**)
 
-![In-app instructions \*mobile_border](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/in_app_instructions.png)
+![앱 내 안내 \*mobile_border](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/in_app_instructions_ko.png)
 
-Instructions vary across iOS versions. Here are the instructions for iOS 16:
+iOS 버전에 따라 사용 방법이 다릅니다. iOS 26에서는 다음과 같이 진행합니다.
 
-1. Go to the Shortcuts app and tap the plus (+) button.
-2. Tap _Add Action_ and select _AdGuard VPN_.
-3. Choose the shortcut you need: _Connect to VPN_, _Disconnect from VPN_, _Toggle VPN connection_, or _VPN status_.
+1. 단축어 앱의 **모든 단축어**에서 더하기(+) 버튼을 탭합니다.
+2. **동작 검색**에 **AdGuard VPN**을 입력합니다.
+3. **VPN에 연결**, **VPN 연결 해제**, **VPN 연결 전환**, **VPN 상태** 중 원하는 단축어를 선택합니다.
 
-![Add shortcut](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/add_shortcut_ios_16.png)
+![단축어 추가](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/add_shortcut_ios_16_ko.png)
 
-Here’s how to add the shortcut to your Home Screen.
+홈 화면에 단축어를 추가하는 방법은 다음과 같습니다.
 
-1. Long press the shortcut and tap _Share_ → _Add to Home Screen_.
-2. Customize the shortcut name and icon if you need to, then tap _Add_. The shortcut will appear on your Home Screen as a 1x1 icon.
+1. 단축어를 길게 누르고 **공유** → **홈 화면에 추가**를 탭합니다.
+2. 필요하면 단축어 이름과 아이콘을 변경한 다음 **추가**를 탭합니다. 홈 화면에 단축어가 1x1 크기 아이콘으로 표시됩니다.
 
-![Add to Home Screen](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/add_to_home_screen_ios_16.png)
+![홈 화면에 추가](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/add_to_home_screen_ios_16_ko.png)
 
-### Control Center
+### 제어 센터
 
-You can add an AdGuard VPN shortcut to the Control Center for quick access from anywhere on the device.
+제어 센터에 AdGuard VPN 단축어를 추가하면 기기 어디에서나 빠르게 실행할 수 있습니다.
 
-1. Open Control Center. On an iPhone with Face ID, swipe down from the top right. On an iPhone with a Home button, swipe up from the bottom.
-2. Long-press an empty area and tap _Add a Control_.
-3. Find _Shortcuts_ in the list and tap _Run Shortcut_, then tap _Choose_ and select your AdGuard VPN shortcut. The shortcut will now appear in your Control Center.
+1. 제어 센터를 엽니다. Face ID가 있는 iPhone에서는 화면 오른쪽 위에서 아래로 쓸어내립니다. 홈 버튼이 있는 iPhone에서는 화면 하단에서 위로 쓸어올립니다.
+2. 빈 공간을 길게 누르고 **제어 항목 추가**를 탭합니다.
+3. 목록에서 **단축어**를 찾아 **단축어 실행**을 탭한 다음, **선택**을 탭하고 AdGuard VPN 단축어를 고릅니다. 이제 제어 센터에 단축어가 표시됩니다.
 
-Note: The exact steps may vary depending on your iOS version.
+참고: 정확한 단계는 iOS 버전에 따라 다를 수 있습니다.
 
-![Add shortcut to Control Center](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/add_to_control_center.png)
+![제어 센터에 단축어 추가](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/add_to_control_center_ko.png)
 
-### Widget
+### 위젯
 
-1. Long-press an empty area on your Home Screen until the apps jiggle, then tap _Edit_ in the top-left corner → _Add Widget_.
-2. Find _Shortcuts_ in the list and choose a widget size. We recommend that you pick one that can display at least two shortcuts.
-3. Tap _Add Widget_.
-4. While in edit mode, tap the widget to open the configuration menu, set _Folder_ to _Custom_, and assign _Connect to VPN_ to one slot and _Disconnect from VPN_ to the other.
+1. 홈 화면의 빈 공간을 앱이 흔들릴 때까지 길게 누른 다음, 왼쪽 위의 **편집** → **위젯 추가**를 탭합니다.
+2. 목록에서 **단축어**를 찾아 위젯 크기를 선택합니다. 단축어가 2개 이상 표시되는 크기를 선택하는 것이 좋습니다.
+3. **위젯 추가**를 탭합니다.
+4. 편집 모드에서 위젯을 탭해 구성 메뉴를 열고 **폴더**를 **사용자 설정**으로 바꾼 다음, 한 칸에는 **연결**, 다른 칸에는 **연결 해제**를 지정합니다.
 
-![Add shortcut as widget](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/widget.png)
+![위젯으로 단축어 추가](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/widget_ko.png)
 
-## One tap to open any app with VPN on
+## 탭 한 번으로 VPN을 켜고 앱 열기
 
-If you need the VPN on for a certain app and nothing else, you can create a custom shortcut that will turn on AdGuard VPN and open the app you want to open — all in one tap. Here’s how to set it up.
+특정 앱에서만 VPN이 필요하다면, 탭 한 번으로 AdGuard VPN을 켜고 원하는 앱까지 바로 여는 사용자 지정 단축어를 만들 수 있습니다. 설정 방법은 다음과 같습니다.
 
-1. Open the Shortcuts app, tap the plus (+) button, and search for AdGuard VPN. Add the _VPN status_ action.
-2. Add an _If_ action. Shortcuts fills the condition in for you: it takes the VPN status from the previous step and compares it with _Connected_. Inside it, add _Open App_ and set it to the app you want — for example, YouTube.
-3. Under _Otherwise_, add three actions in order: _AdGuard VPN_ → _Connect to VPN_, _Wait_ (set to 2 seconds), and _Open App_ (same app as above).
-4. Tap the name at the top to set a custom icon and name, then test the shortcut with the play button.
-5. Add the shortcut to the Home Screen by tapping the name and selecting _Add to Home Screen_.
+1. 단축어 앱을 열고 더하기(+) 버튼을 탭한 다음 AdGuard VPN을 검색합니다. **VPN 상태** 동작을 추가합니다.
+2. _조건문_ 동작을 추가합니다. 조건은 단축어 앱이 자동으로 채워 줍니다. 이전 단계에서 가져온 VPN 상태를 **연결됨**과 비교합니다. 그 안에 **앱 열기**를 추가하고 원하는 앱(예: YouTube)을 지정합니다.
+3. **그렇지 않은 경우** 아래에 **AdGuard VPN** → **VPN에 연결**, **대기**(2초로 설정), **앱 열기**(위와 같은 앱) 동작을 순서대로 추가합니다.
+4. 위쪽의 이름을 탭해 아이콘과 이름을 원하는 대로 설정한 다음, 재생 버튼을 눌러 단축어를 테스트합니다.
+5. 이름을 탭하고 **홈 화면에 추가**를 선택하면 단축어가 홈 화면에 추가됩니다.
 
-![Add custom shortcut](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/add_custom_shortcut.png)
+![사용자 지정 단축어 추가](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/add_custom_shortcut_ko.png)
 
-## Connect or disconnect with Siri
+## Siri로 연결 또는 연결 해제
 
-In the AdGuard VPN app, go to _Settings_ → _Shortcuts_ → _Set up Siri phrases_. You will then have two options: _Record a phrase to connect_ or _Record a phrase to disconnect_.
+AdGuard VPN 앱에서 **설정** → **단축어** → **Siri 문구 설정**으로 이동합니다. **연결할 문구 녹음**과 **연결 해제할 문구 녹음** 두 가지 옵션이 표시됩니다.
 
-![Connect with Siri](https://cdn.adtidy.org/content/release_notes/vpn/ios/v2.17/siri_connect.png)
+![Siri로 연결](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/siri_connect_ko.png)
 
-Choose _Record a phrase to connect_ or _Record a phrase to disconnect_, then say the phrase you want, for example “Hey Siri, connect to AdGuard VPN.” Once recorded, say the same phrase to Siri any time to run it.
+**연결할 문구 녹음** 또는 **연결 해제할 문구 녹음**을 선택한 다음 원하는 문구를 말합니다(예: “Siri야, AdGuard VPN에 연결”). 녹음이 끝나면 언제든지 Siri에게 같은 문구를 말해 실행할 수 있습니다.
 
-## Automating AdGuard VPN for specific apps
+## 특정 앱에서 AdGuard VPN 자동으로 켜고 끄기
 
-Some apps, like banking apps, don’t work with a VPN on. Set up two automations so the VPN turns off while you use the app and turns back on once you’re done. When set up correctly, automation can be more convenient than manually launching a shortcut — you don’t have to tap on a Home Screen icon to open the shortcut, simply opening the app is enough. Besides, you can include several apps in one automation. You can use automations to turn AdGuard VPN on or off when you open an app, when you close an app, and when you join or disconnect from your home Wi-Fi.
+은행 앱처럼 VPN이 켜져 있으면 작동하지 않는 앱도 있습니다. 자동화를 두 개 설정하면 앱을 사용하는 동안에는 VPN이 꺼지고, 사용을 마치면 다시 켜집니다. 제대로 설정해 두면 자동화가 단축어를 직접 실행하는 것보다 더 편리합니다. 홈 화면 아이콘을 탭할 필요 없이 앱을 열기만 하면 됩니다. 또한 자동화 하나에 여러 앱을 넣을 수 있습니다. 자동화를 사용하면 앱을 열거나 닫을 때, 그리고 집 Wi-Fi에 연결되거나 연결이 끊길 때 AdGuard VPN을 켜거나 끌 수 있습니다.
 
-[How to set up automations on your iPhone or iPad](/adguard-vpn-for-ios/features/automation/)
+[iPhone 또는 iPad에서 자동화를 설정하는 방법](/adguard-vpn-for-ios/features/automation/)
