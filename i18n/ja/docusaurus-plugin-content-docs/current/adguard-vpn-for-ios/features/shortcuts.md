@@ -18,78 +18,78 @@ iOSに標準搭載されている「ショートカット」を使えば、AdGua
 
 ## ワンタップでVPN接続・切断
 
-AdGuard VPN には、「接続」、「切断」、「VPNの切り替え」という3つの作成済みショートカットが用意されています。 _Connect_ turns on the VPN and connects to your last used location. _Disconnect_ turns off the VPN. _Toggle VPN_ switches between the two: it connects when the VPN is off and disconnects when it’s on.
+AdGuard VPN には、「接続」、「切断」、「VPNをオン／オフにする」という3つの作成済みショートカットが用意されています。「_接続_」はVPNをオンにして、最後に使用したロケーションに接続します。「_切断する_」はVPNをオフにします。 「_VPNをオン／オフにする_」はこの2つを切り替えます。VPNがオフのときは接続し、オンのときは切断します。
 
-You’ll find these shortcuts in the Shortcuts app: on iOS 16, look under _App Shortcuts_. Add any of them to the three places listed below.
+これらのショートカットは「ショートカット」アプリにあります。iOS 16では、「_アプリショートカット_」で確認してください。それらのいずれかを、下記にリストされている3つの場所に追加します。
 
-On iOS 27, find AdGuard VPN shortcuts in the Shortcuts app’s _Library_ under _Apps_ → _AdGuard VPN_. If Shortcuts opens to _All Shortcuts_, tap the back arrow in the top-left corner to return to _Library_.
+iOS 27では、「ショートカット」アプリの「_ライブラリ_」にある「_アプリ_」 → 「_AdGuard VPN_」でAdGuard VPNのショートカットを見つけることができます。「ショートカット」が「_すべてのショートカット_」で開いた場合は、左上隅の戻る矢印をタップして「_ライブラリ_」に戻ります。
 
-![Shortcuts on iOS 27](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/shortcuts_library_27.png)
+![iOS 27 のショートカット](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/shortcuts_library_27.png)
 
-### Home Screen
+### ホーム画面
 
-To set up a shortcut on your Home Screen, follow the quick instructions in the AdGuard VPN app. (_Settings_ → _Shortcuts_ → _Add shortcuts to the Home Screen_).
+ホーム画面にショートカットを設定するには、AdGuard VPNアプリ内の簡単な手順に沿って行なってください。(「_設定_」 → 「_ショートカット_」 → 「_ホーム画面にショートカットを追加_」)
 
-![In-app instructions \*mobile_border](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/in_app_instructions.png)
+![アプリ内の手順 \*mobile_border](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/in_app_instructions.png)
 
-Instructions vary across iOS versions. Here are the instructions for iOS 16:
+手順はiOSのバージョンによって異なります。 iOS 16の手順は以下のとおりです：
 
-1. Go to the Shortcuts app and tap the plus (+) button.
-2. Tap _Add Action_ and select _AdGuard VPN_.
-3. Choose the shortcut you need: _Connect to VPN_, _Disconnect from VPN_, _Toggle VPN connection_, or _VPN status_.
+1. 「ショートカット」アプリを開き、プラス（+）ボタンをタップします。
+2. 「_アクションを追加_」をタップして「_AdGuard VPN_」を選択します。
+3. 必要なショートカット（「_VPNに接続_」「_VPNから切断_」「_VPNをオン／オフにする_」または「_VPNステータス_」）を選択します。
 
-![Add shortcut](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/add_shortcut_ios_16.png)
+![ショートカットを追加](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/add_shortcut_ios_16.png)
 
-Here’s how to add the shortcut to your Home Screen.
+ホーム画面にショートカットを追加する方法は以下のとおりです：
 
-1. Long press the shortcut and tap _Share_ → _Add to Home Screen_.
-2. Customize the shortcut name and icon if you need to, then tap _Add_. The shortcut will appear on your Home Screen as a 1x1 icon.
+1. ショートカットを長押しして、「_共有_」 → 「_ホーム画面に追加_ 」をタップします。
+2. 必要に応じてショートカットの名前とアイコンをカスタマイズし、「_追加_」をタップします。ショートカットはホーム画面に1x1のアイコンとして表示されます。
 
-![Add to Home Screen](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/add_to_home_screen_ios_16.png)
+![ホーム画面に追加](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/add_to_home_screen_ios_16.png)
 
-### Control Center
+### コントロールセンター
 
-You can add an AdGuard VPN shortcut to the Control Center for quick access from anywhere on the device.
+デバイス上のどこからでも素早くアクセスできるように、コントロールセンターに AdGuard VPN ショートカットを追加できます。
 
-1. Open Control Center. On an iPhone with Face ID, swipe down from the top right. On an iPhone with a Home button, swipe up from the bottom.
-2. Long-press an empty area and tap _Add a Control_.
-3. Find _Shortcuts_ in the list and tap _Run Shortcut_, then tap _Choose_ and select your AdGuard VPN shortcut. The shortcut will now appear in your Control Center.
+1. コントロールセンターを開きます。 （Face IDを搭載したiPhoneでは、右上から下にスワイプします。ホームボタンのあるiPhoneでは、下から上にスワイプします。）
+2. 空いている領域を長押しして、「_コントロールを追加_」をタップします。
+3. リスト内で「_ショートカット_」を見つけて「_ショートカットを実行_」をタップし、「_選択_」をタップしてAdGuard VPNショートカットを選択します。これで、ショートカットがコントロールセンターに表示されるようになります。
 
-Note: The exact steps may vary depending on your iOS version.
+※具体的なステップは、お使いのiOSバージョンによって多少異なる場合があります。
 
-![Add shortcut to Control Center](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/add_to_control_center.png)
+![コントロールセンターにショートカットを追加](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/add_to_control_center.png)
 
-### Widget
+### ウィジェット
 
-1. Long-press an empty area on your Home Screen until the apps jiggle, then tap _Edit_ in the top-left corner → _Add Widget_.
-2. Find _Shortcuts_ in the list and choose a widget size. We recommend that you pick one that can display at least two shortcuts.
-3. Tap _Add Widget_.
-4. While in edit mode, tap the widget to open the configuration menu, set _Folder_ to _Custom_, and assign _Connect to VPN_ to one slot and _Disconnect from VPN_ to the other.
+1. ホーム画面の何もない部分を長押しし、画面上のアプリがブルブルと揺れ始めたら、左上の「_編集_」 → 「_ウィジェットを追加_」をタップします。
+2. リストから「_ショートカット_」を見つけて、ウィジェットのサイズを選択します。少なくとも2つのショートカットを表示できるサイズがおすすめです。
+3. 「_ウィジェットを追加_」をタップします。
+4. 編集モード中にウィジェットをタップして設定メニューを開き、「_フォルダ_」を「_カスタム_」に設定して、一方のスロットに「_VPNに接続_」、もう一方のスロットに「_VPNから切断_」を割り当てます。
 
-![Add shortcut as widget](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/widget.png)
+![ショートカットをウィジェットとして追加](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/widget.png)
 
-## One tap to open any app with VPN on
+## ワンタップで任意のアプリをVPNオンの状態で開く方法
 
-If you need the VPN on for a certain app and nothing else, you can create a custom shortcut that will turn on AdGuard VPN and open the app you want to open — all in one tap. Here’s how to set it up.
+特定のアプリのみに対してVPNをオンにし、それ以外のアプリに対してはオンにする必要がない場合は、AdGuard VPNをオンにして開きたいアプリを開くカスタムショートカットを作成できます。作成後、すべてワンタップで完結します。設定方法は以下のとおりです：
 
-1. Open the Shortcuts app, tap the plus (+) button, and search for AdGuard VPN. Add the _VPN status_ action.
-2. Add an _If_ action. Shortcuts fills the condition in for you: it takes the VPN status from the previous step and compares it with _Connected_. Inside it, add _Open App_ and set it to the app you want — for example, YouTube.
-3. Under _Otherwise_, add three actions in order: _AdGuard VPN_ → _Connect to VPN_, _Wait_ (set to 2 seconds), and _Open App_ (same app as above).
-4. Tap the name at the top to set a custom icon and name, then test the shortcut with the play button.
-5. Add the shortcut to the Home Screen by tapping the name and selecting _Add to Home Screen_.
+1. 「ショートカット」アプリを開き、プラス（+）ボタンをタップして、AdGuard VPN を検索します。 「_VPNステータス_」アクションを追加します。
+2. 「もし」アクションを追加します。ショートカットが自動で条件を入力してくれます: 前のステップからVPNステータスを取得し、「_接続済み_」と比較します。その中で「_アプリを開く_」を追加し、目的のアプリ（例：YouTube）に設定します。
+3. 「_その他の場合_」の下に、次の順序で3つの操作を追加します: 「_AdGuard VPN_」 → 「_VPNに接続_」、「_待機_」（2秒に設定）、「_アプリを開く_」（上記と同じアプリ）。
+4. 上部の名前をタップしてカスタムアイコンと名前を設定し、再生ボタンでショートカットをテストします。
+5. 名前をタップし&#x3066;_&#x30DB;ーム画面に追&#x52A0;_&#x3092;選択し、ショートカットをホーム画面に追加します。
 
-![Add custom shortcut](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/add_custom_shortcut.png)
+![カスタムショートカットを追加](https://cdn.adtidy.org/content/kb/vpn/ios/shortcuts/add_custom_shortcut.png)
 
-## Connect or disconnect with Siri
+## SiriでVPN接続・切断
 
-In the AdGuard VPN app, go to _Settings_ → _Shortcuts_ → _Set up Siri phrases_. You will then have two options: _Record a phrase to connect_ or _Record a phrase to disconnect_.
+AdGuard VPNアプリで、「_設定_」 → 「_ショートカット_」 → 「_Siriフレーズを設定_」 に移動します。その後、「_接続用のフレーズを録音_」「_切断用のフレーズを録音_」という2つの選択肢が表示されます。
 
-![Connect with Siri](https://cdn.adtidy.org/content/release_notes/vpn/ios/v2.17/siri_connect.png)
+![Siriを使って接続](https://cdn.adtidy.org/content/release_notes/vpn/ios/v2.17/siri_connect.png)
 
-Choose _Record a phrase to connect_ or _Record a phrase to disconnect_, then say the phrase you want, for example “Hey Siri, connect to AdGuard VPN.” Once recorded, say the same phrase to Siri any time to run it.
+「_接続用のフレーズを録音_」または「_切断用のフレーズを録音_」を選択し、設定したいフレーズ（例：「Hey Siri、AdGuard VPNに接続して」）を発話します。これで、いつでもSiriに同じフレーズを話しかければ、VONへの接続・切断が実行されます。
 
-## Automating AdGuard VPN for specific apps
+## 特定のアプリに対して AdGuard VPN を自動化する方法
 
-Some apps, like banking apps, don’t work with a VPN on. Set up two automations so the VPN turns off while you use the app and turns back on once you’re done. When set up correctly, automation can be more convenient than manually launching a shortcut — you don’t have to tap on a Home Screen icon to open the shortcut, simply opening the app is enough. Besides, you can include several apps in one automation. You can use automations to turn AdGuard VPN on or off when you open an app, when you close an app, and when you join or disconnect from your home Wi-Fi.
+銀行アプリなどの一部のアプリは、VPNをオンにしていると正しく動作しません。このような場合には、アプリの使用中はVPNがオフになり、アプリを使い終わったら再びオンになるように、2つのオートメーションを設定することができます。適切に設定すれば、オートメーションは手動でショートカットを立ち上げるよりも便利なものです。ショートカットを開くためにホーム画面のアイコンをタップする必要はなく、アプリを開くだけで自動的に実行してくれます。さらに、1つのオートメーションに複数のアプリを含めることができます。オートメーションを使用すると、アプリを開いたとき、アプリを閉じたとき、自宅のWi-Fiに接続・切断したときに、AdGuard VPNがオン・オフになるよう設定することが可能です。
 
-[How to set up automations on your iPhone or iPad](/adguard-vpn-for-ios/features/automation/)
+[iPhone・iPadでVPNオートメーションを設定する方法](/adguard-vpn-for-ios/features/automation/)

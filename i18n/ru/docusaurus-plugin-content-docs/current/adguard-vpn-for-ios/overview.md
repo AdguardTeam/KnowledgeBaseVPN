@@ -69,19 +69,19 @@ VPN создает защищенное соединение с другой с�
 
 ![Список популярных сервисов *mobile_border](https://cdn.adguard-vpn.com/content/release_notes/vpn/ios/v2.4/add_website_en.png)
 
-### Pre-made exclusions for Russian services
+### Готовые исключения для российских сервисов
 
-If your app language is Russian, you can add a list of popular Russian websites and services — banks, government services, and marketplaces — to exclusions.
+Если язык вашего приложения русский, вы можете добавить в список исключений популярные российские сайты и сервисы — банки, государственные службы и маркетплейсы.
 
-After two successful VPN connections in *General* mode, a dialog appears on the main screen, offering to add the list with one tap.
+После двух успешных подключений к VPN в *«Общем»* режиме на главном экране появляется диалоговое окно с предложением добавить список одним касанием.
 
 :::note
 
-Availability depends on the app’s language, not your location.
+Доступность зависит от языка приложения, а не от вашего местоположения.
 
 :::
 
-The list won’t overwrite your own rules or create duplicates. Once it is added, the app takes you to the *Exclusions* screen and shows an *Undo* option so you can revert the change.
+Этот список не перезапишет ваши собственные исключения и не создаст дубликаты. После добавления приложение перенаправит вас на экран *Исключения* и покажет опцию *Отменить* , чтобы вы могли отменить изменение.
 
 ### Импорт/экспорт исключений
 

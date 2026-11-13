@@ -5,7 +5,7 @@ sidebar_position: 2
 
 ## Requisitos del sistema
 
-AdGuard VPN can only be installed on Android devices with **Android 9.0 or later versions**.
+AdGuard VPN solo se puede instalar en dispositivos Android con **Android 9.0 o versiones posteriores**.
 
 ## Como instalar AdGuard VPN para Android
 
@@ -13,7 +13,7 @@ Puede instalar la aplicación AdGuard VPN para Android de forma gratuita desde G
 
 1. Abra la aplicación de *Google Play* en su dispositivo y toque *Buscar* en la parte superior de la pantalla.
 
-2. Next, in the search bar, start typing *AdGuard* and select *adguard vpn* from the list of suggested options.
+2. Luego, en la barra de búsqueda, escriba *"AdGuard"* y seleccione *adGuard VPN* de la lista de opciones sugeridas.
 
 3. Selecciona *AdGuard VPN - proxy privado* de la lista de aplicaciones sugeridas y toca *Instalar*.
 
@@ -21,11 +21,11 @@ Puede instalar la aplicación AdGuard VPN para Android de forma gratuita desde G
 
 ¡AdGuard VPN para Android se ha instalado con exito!
 
-### Installation on Android 7
+### Instalación en Android 7
 
-Android 7 users won’t find a compatible app version in the download section of the AdGuard VPN website, as it’s no longer supported in the latest releases.
+Los usuarios de Android 7 no encontrarán una versión compatible de la aplicación en la sección de descargas del sitio web de AdGuard VPN, ya que las versiones más recientes ya no son compatibles con este sistema.
 
-However, you still can [download an older, compatible version](https://agrd.io/vpn_android_7_for_web).
+Sin embargo, aún puedes [descargar una versión anterior compatible](https://agrd.io/vpn_android_7_for_web).
 
 ## Como desinstalar AdGuard VPN para Android
 

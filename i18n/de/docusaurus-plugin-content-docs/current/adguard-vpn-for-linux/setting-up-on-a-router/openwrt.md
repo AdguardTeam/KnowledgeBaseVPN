@@ -97,7 +97,7 @@ Most Linux and macOS systems come with an SSH client pre-installed. For Windows,
 
 5. Click _Open_.
 
-6. When the Terminal window opens, log in. The default username is `root` and the default password is `keenetic`.
+6. When the Terminal window opens, log in. The default username is `root` and the default password is typically empty (just press Enter), but you should have set a password during the initial setup.
 
 <!-- comment -->
 
@@ -105,7 +105,29 @@ Most Linux and macOS systems come with an SSH client pre-installed. For Windows,
 
 Once logged in, you can use various commands to interact with your router’s Linux-based operating system.
 
-Update package lists (OpenWrt):
+:::note
+
+OpenWrt 25.12 and later use the `apk` package manager, while OpenWrt 24.10 and earlier use `opkg`. To check your OpenWrt version, run `cat /etc/openwrt_release`.
+
+:::
+
+### OpenWrt 25.12 and later
+
+Update package lists:
+
+```text
+apk update
+```
+
+Install required packages:
+
+```text
+apk add curl kmod-tun ca-certificates
+```
+
+### OpenWrt 24.10 and earlier
+
+Update package lists:
 
 ```text
 opkg update
@@ -188,7 +210,7 @@ You can do it in the web interface or in the command line. Steps below describe 
 1. Add a new unmanaged interface via SSH
 
    ```shell
-   ssh admin@router_ip
+   ssh root@router_ip
    uci set network.tun0='interface'
    uci set network.tun0.proto='none'
    uci set network.tun0.device='tun0'
@@ -238,7 +260,7 @@ You can do it in the web interface or in the command line. Steps below describe 
 
 <!-- comment -->
 
-## 7. Set up automatic launch for AdGuard VPN CLI
+## 7.  Set up automatic launch for AdGuard VPN CLI
 
 To automatically launch AdGuard VPN CLI after rebooting the router, create a file at `…/etc/init.d/adguardvpn`.
 
