@@ -1,5 +1,6 @@
 ---
 title: How to use AdGuard VPN in countries with Internet restrictions
+sidebar_label: Using in countries with Internet restrictions
 sidebar_position: 1
 slug: /general/vpn-issues
 ---
