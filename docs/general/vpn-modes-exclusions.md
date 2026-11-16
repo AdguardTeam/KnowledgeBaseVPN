@@ -149,3 +149,9 @@ You need to switch to this mode both for apps and websites. This mode provides t
 2. For apps from the app exclusion list: make sure to add their respective domains to the website exclusion list. For example, if you add *Facebook* to the app exclusion list, add `facebook.com` to the website exclusion list.
 
 :::
+
+## Related articles
+
+- [How VPN works](/general/how-vpn-works/)
+- [Why AdGuard VPN is the better option](/general/why-adguard-vpn/)
+- [Routing WhatsApp and Discord traffic in Selective mode](/general/selective-mode-filtering-issues/)

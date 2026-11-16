@@ -43,3 +43,10 @@ The standalone version operates under the *utun* interface. Utun (short for user
 ## Summary
 
 Both versions of AdGuard VPN for Mac protect your privacy, though they use slightly different means to achieve this. The main differences lie in the available subscription options and the way the apps work, based on Apple’s technical policies.
+
+## Related articles
+
+- [Installation and removal](/adguard-vpn-for-mac/installation/)
+- [Benefits of AdGuard VPN Unlimited](/general/free-vs-unlimited/)
+- [How to subscribe](/general/subscription/)
+- [Statistics](/adguard-vpn-for-mac/features/statistics/)

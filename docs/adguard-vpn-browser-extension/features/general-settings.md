@@ -11,3 +11,8 @@ The options in this section apply globally to the entire extension, regardless o
 - **Language**: Change the display language of the extension.
 - **Display AdGuard VPN in the browser context menu**: Toggle quick access to AdGuard VPN actions from the browser’s right-click menu.
 - **Help improve AdGuard VPN**: Enable sending crash reports and technical data to help improve extension performance and stability. All data is collected anonymously, is never shared with third parties, and you can withdraw your consent at any time.
+
+## Related articles
+
+- [Profiles](/adguard-vpn-browser-extension/features/profiles/)
+- [Exclusions](/adguard-vpn-browser-extension/features/exclusions/)

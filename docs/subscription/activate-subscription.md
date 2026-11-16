@@ -77,3 +77,9 @@ If they don’t match, log out (on iOS and Android, tap the three dots in the to
 If you’ve followed these steps and still can’t activate your subscription, please contact our support team at support@adguard-vpn.com.
 
 :::
+
+## Related articles
+
+- [Benefits of AdGuard VPN Unlimited](/general/free-vs-unlimited/)
+- [How to subscribe](/general/subscription/)
+- [Issues with subscriptions purchased via the App Store](/adguard-vpn-for-ios/solving-problems/access-issues/)

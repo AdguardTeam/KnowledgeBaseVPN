@@ -16,3 +16,9 @@ To solve this problem, please follow these steps:
 1. If the email addresses match, navigate to *Apple ID* → *iCloud* → *Hide My Email*, find our app in the list, copy the email address, and send it to `support@adguard.com` along with a description of your problem. Usually, such an email address ends with `@privaterelay.appleid.com` or `@icloud.com`.
 
 Once the support team has the email address you used for the purchase, they’ll transfer your subscription to the correct account and you’ll be able to start using it. They also may ask for additional information to verify that it’s you. You can provide the support team with your Apple purchase receipt to help speed up the process.
+
+## Related articles
+
+- [How to activate](/general/activate-subscription/)
+- [How to subscribe](/general/subscription/)
+- [AdGuard VPN is unavailable in some App Store regions](/adguard-vpn-for-ios/solving-problems/app-store/)

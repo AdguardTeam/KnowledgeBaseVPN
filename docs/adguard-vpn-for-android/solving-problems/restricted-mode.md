@@ -72,3 +72,9 @@ To solve this issue, you need to disable this feature.
 - Scroll down and then press **Dual App**;
 - Remove all apps from the list;
 - Reboot your device.
+
+## Related articles
+
+- [How to protect AdGuard VPN from being disabled by the system](/adguard-vpn-for-android/solving-problems/background-work/)
+- [Troubleshooting AdGuard VPN connection issues](/adguard-vpn-for-android/solving-problems/connection-issues/)
+- [How to collect and send logs](/adguard-vpn-for-android/solving-problems/logs/)

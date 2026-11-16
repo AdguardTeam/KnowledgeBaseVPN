@@ -93,3 +93,8 @@ Repository of AdGuard DNS filter — the main DNS-level blocking list used in Ad
 ## Where to find all AdGuard repositories
 
 Above, we listed the main AdGuard VPN-related repositories, while in total there are 96 AdGuard repos. You can [find all of them on the AdGuardTeam GitHub page](https://github.com/orgs/AdguardTeam/repositories?type=all&q=visibility%3Apublic+archived%3Afalse).
+
+## Related articles
+
+- [How to contribute to the Knowledge Base](/community-guides/contribute/)
+- [Credits and acknowledgements](/about-the-project/acknowledgements/)

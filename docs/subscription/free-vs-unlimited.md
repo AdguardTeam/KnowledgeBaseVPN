@@ -29,3 +29,9 @@ A subscription allows to have more benefits in comparison with a free account:
 - No port 25 block
 
 To use all the advantages, consider [purchasing a subscription](/general/subscription).
+
+## Related articles
+
+- [How to subscribe](/general/subscription/)
+- [How to activate](/general/activate-subscription/)
+- [Why AdGuard VPN is the better option](/general/why-adguard-vpn/)

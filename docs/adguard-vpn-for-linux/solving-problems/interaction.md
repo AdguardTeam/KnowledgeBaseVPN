@@ -12,3 +12,9 @@ There are two possible solutions:
 - Switch AdGuard VPN CLI to **SOCKS5 mode**, and configure AdGuard CLI with an outbound proxy pointing to the SOCKS5 interface of AdGuard VPN CLI. In this case, itʼs important to keep in mind that:
     - For an appʼs traffic to go through the VPN tunnel it must either have its traffic transparently proxied by AdGuard CLI (which is the case for all apps by default), or manually configured to use AdGuard VPN CLIʼs SOCKS5 interface.
     - In order to avoid a routing loop, the `skip_outbound_proxy` option must be enabled for AdGuard VPN CLI in AdGuard CLIʼs apps configuration section. By default, `skip_outbound_proxy` is enabled for all apps with `vpn` in their name, which includes AdGuard VPN CLI.
+
+## Related articles
+
+- [Sending feedback](/adguard-vpn-for-linux/solving-problems/feedback/)
+- [VPN modes: TUN and SOCKS5](/adguard-vpn-for-linux/features/vpn-modes/)
+- [Traffic routing modes](/adguard-vpn-for-linux/features/traffic-routing-modes/)

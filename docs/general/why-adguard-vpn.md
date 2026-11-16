@@ -102,3 +102,9 @@ We don’t endorse the use of AdGuard VPN to bypass copyright regulations.
 ![Dark mode *mobile_border](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/main_en_black.png)
 
 This little feature deserves special mention. In fact, many users crave for dark mode, so we couldn’t ignore it and added a theme switch for all AdGuard VPN products. Choose the one you like more — light, dark or system default. Hope you’ll join the dark side.
+
+## Related articles
+
+- [How VPN works](/general/how-vpn-works/)
+- [What type of encryption is used in AdGuard VPN](/general/adguard-vpn-encryption/)
+- [VPN modes and Exclusion lists](/general/vpn-modes-exclusions/)

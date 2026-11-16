@@ -75,3 +75,8 @@ Now that you have collected the logs, you need to hand them over to our developm
 
 1. Report a bug on GitHub. Detailed instructions on creating an issue on GitHub can be found in this article.
 1. Send an archive with logs and playback time to `devteam@adguard.com` and attach a link to your GitHub issue. Also you can add an archive with logs and playback time to Google Drive and share it with `devteam@adguard.com` attaching the Google Drive link to your issue on GitHub.
+
+## Related articles
+
+- [How to report a bug](/community-guides/report-a-bug/)
+- [How to take a screenshot](/community-guides/take-screenshot/)

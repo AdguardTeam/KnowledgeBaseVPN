@@ -289,3 +289,10 @@ Run this to grant access to and enable auto-launch:
  chmod +x /etc/init.d/adguardvpn
  /etc/init.d/adguardvpn enable
 ```
+
+## Related articles
+
+- [Setting up on a router](/adguard-vpn-for-linux/installation-and-setup/setting-up-on-a-router/)
+- [How to set up AdGuard VPN for Linux on a Keenetic router](/adguard-vpn-for-linux/installation-and-setup/setting-up-on-a-router/keenetic/)
+- [How to set up AdGuard VPN for Linux on an Asuswrt-Merlin router](/adguard-vpn-for-linux/installation-and-setup/setting-up-on-a-router/asuswrt-merlin/)
+- [AdGuard VPN for routers](/adguard-vpn-for-routers/)

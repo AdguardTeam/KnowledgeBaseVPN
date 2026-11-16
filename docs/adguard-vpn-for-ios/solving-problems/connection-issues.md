@@ -29,3 +29,8 @@ Check system time settings — incorrect date and time may block the app from co
 - Manually set correct time if needed
 
 If the problem persists, please contact the AdGuard VPN support team at support@adguard-vpn.com.
+
+## Related articles
+
+- [How to collect and send logs](/adguard-vpn-for-ios/solving-problems/logs/)
+- [Advanced settings](/adguard-vpn-for-ios/features/advanced-settings/)

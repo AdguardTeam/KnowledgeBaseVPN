@@ -82,3 +82,10 @@ Below are the routers that are currently known to have compatibility issues:
 ### ASUS
 
 ASUS routers do not support IKEv2/IPsec, so you cannot set them up using the general method mentioned above. However, routers running the Asuswrt-Merlin custom firmware can install **AdGuard VPN CLI**, which makes the CLI installation method fully supported.
+
+## Related articles
+
+- [Installation on MikroTik routers](/adguard-vpn-for-routers/installation/mikrotik/)
+- [Installation on Keenetic routers](/adguard-vpn-for-routers/installation/keenetic/)
+- [What is PSK (Pre-shared key)](/adguard-vpn-for-routers/solving-problems/pre-shared-key/)
+- [Connection issues with IKEv2](/adguard-vpn-for-routers/solving-problems/connection-issue/)

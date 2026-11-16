@@ -96,3 +96,9 @@ route add 172.16.0.0/12 -iface "$INTERFACE"     # Another private range
 # route delete 192.168.0.0/16 2>/dev/null || true
 # route delete 10.0.0.0/8 2>/dev/null || true
 ```
+
+## Related articles
+
+- [VPN modes: TUN and SOCKS5](/adguard-vpn-for-linux/features/vpn-modes/)
+- [Exclusions](/adguard-vpn-for-linux/features/exclusions/)
+- [DNS settings](/adguard-vpn-for-linux/features/dns-settings/)

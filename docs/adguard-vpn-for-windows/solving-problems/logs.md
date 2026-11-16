@@ -82,3 +82,8 @@ If you encounter any problems while trying to export logs, there is an alternati
 1. Send it to our support team
 
 :::
+
+## Related articles
+
+- [Troubleshooting AdGuard VPN connection issues](/adguard-vpn-for-windows/solving-problems/connection-issues/)
+- [Advanced settings](/adguard-vpn-for-windows/features/advanced-settings/)

@@ -22,3 +22,9 @@ If you set the parameter to `off`, the system DNS settings remain unchanged and 
 In SOCKS5 mode, the `set-dns` and `set-change-system-dns` commands are inactive. The DNS behavior is determined solely by the settings of each app.
 
 :::
+
+## Related articles
+
+- [Traffic routing modes](/adguard-vpn-for-linux/features/traffic-routing-modes/)
+- [VPN modes: TUN and SOCKS5](/adguard-vpn-for-linux/features/vpn-modes/)
+- [What is a DNS leak and how to detect it](/general/dns-leaks/)

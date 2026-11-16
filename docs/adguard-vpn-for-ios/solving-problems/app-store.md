@@ -70,3 +70,9 @@ Now **link your new account to the App Store**:
 That’s it! Now try to [download AdGuard VPN from the App Store](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602) again.
 
 You can always switch back to your default account this way.
+
+## Related articles
+
+- [Installation and removal](/adguard-vpn-for-ios/installation/)
+- [Issues with subscriptions purchased via the App Store](/adguard-vpn-for-ios/solving-problems/access-issues/)
+- [How to install AdGuard VPN on older OS versions](/general/older_os/)

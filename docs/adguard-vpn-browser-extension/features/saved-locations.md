@@ -10,3 +10,9 @@ You can save your favorite locations for quick access. To do so, just hover over
 Your marked locations will then show up in the *Saved* tab.
 
 ![Saved tab *mobile](https://cdn.adguardvpn.com/content/kb/vpn/browser_extension/saved-tab-en.png)
+
+## Related articles
+
+- [Profiles](/adguard-vpn-browser-extension/features/profiles/)
+- [Statistics](/adguard-vpn-browser-extension/features/statistics/)
+- [General settings](/adguard-vpn-browser-extension/features/general-settings/)

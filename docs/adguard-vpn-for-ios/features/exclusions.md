@@ -73,3 +73,9 @@ You can do it in four steps:
 ![Import/export exclusions *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/exclusions-3dot-menu.png)
 
 To learn more about how VPN modes and exclusion lists work together, see [VPN modes and Exclusion lists](/general/vpn-modes-exclusions).
+
+## Related articles
+
+- [VPN modes and Exclusion lists](/general/vpn-modes-exclusions/)
+- [Routing WhatsApp and Discord traffic in Selective mode](/general/selective-mode-filtering-issues/)
+- [General settings](/adguard-vpn-for-ios/features/general-settings/)

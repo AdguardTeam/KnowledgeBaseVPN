@@ -24,3 +24,9 @@ If you have installed AdGuard VPN first and only then decided to try AdGuard Ad 
 In *Integrated mode*, *Exclusions* and *DNS server* are not available.
 
 :::
+
+## Related articles
+
+- [Why AdGuard VPN is the better option](/general/why-adguard-vpn/)
+- [Exclusions](/adguard-vpn-for-ios/features/exclusions/)
+- [General settings](/adguard-vpn-for-ios/features/general-settings/)

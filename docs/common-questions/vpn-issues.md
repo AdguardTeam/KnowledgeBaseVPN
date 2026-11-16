@@ -52,3 +52,9 @@ Download the installation file from [AdGuard VPN’s mirror website](https://adg
 - If you have connectivity issues, do not enable *Use QUIC* in *Advanced settings*.
 
 If all else fails, don’t hesitate to reach out to our support team at [support@adguard-vpn.com](mailto:support@adguard-vpn.com) for further assistance.
+
+## Related articles
+
+- [How to install AdGuard VPN on older OS versions](/general/older_os/)
+- [AdGuard VPN is unavailable in some App Store regions](/adguard-vpn-for-ios/solving-problems/app-store/)
+- [How VPN works](/general/how-vpn-works/)

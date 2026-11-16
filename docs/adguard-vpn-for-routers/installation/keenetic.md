@@ -1,6 +1,6 @@
 ---
 title: Installation on Keenetic routers
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 :::note
@@ -30,3 +30,10 @@ You can configure AdGuard VPN on Keenetic routers starting from KeeneticOS 3.5. 
 1. Once the connection is established, toggle the switch to *Enabled*. The status of this connection will be displayed on the same page.
 
 1. Assign the highest priority to this connection. Drag the created VPN connection profile to the top of the list.
+
+## Related articles
+
+- [General setup on most routers](/adguard-vpn-for-routers/installation/general-setup/)
+- [Installation on MikroTik routers](/adguard-vpn-for-routers/installation/mikrotik/)
+- [What is PSK (Pre-shared key)](/adguard-vpn-for-routers/solving-problems/pre-shared-key/)
+- [How to set up AdGuard VPN for Linux on a Keenetic router](/adguard-vpn-for-linux/installation-and-setup/setting-up-on-a-router/keenetic/)

@@ -35,3 +35,9 @@ If you don’t need to use VPN at home, set it to turn off when you join your ho
 ## Turn AdGuard VPN back on when you leave
 
 Repeat the steps above, but choose *Is Disconnected* instead of *Is Joined*, turn on *Run Immediately*, and set the action to *Connect*.
+
+## Related articles
+
+- [Shortcuts](/adguard-vpn-for-ios/features/shortcuts/)
+- [General settings](/adguard-vpn-for-ios/features/general-settings/)
+- [Exclusions](/adguard-vpn-for-ios/features/exclusions/)

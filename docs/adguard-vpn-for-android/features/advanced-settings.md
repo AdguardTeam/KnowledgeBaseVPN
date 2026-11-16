@@ -26,3 +26,10 @@ In this section, you can also export logs and system info to share them with sup
 *Diagnostic data* displays the locally stored technical information about the app, device, and connections. You can copy and send it to our support team if necessary.
 
 The last section of *Advanced settings* is [*Low-level settings*](/adguard-vpn-for-android/features/low-level-settings/). There you can enable TUN interface logging or IPv6 protocol on the VPN interface, choose a proxy server port, or select the Internet protocol version to use. We urge you not to enter this section unless you are highly qualified or have been asked to do so by our support team.
+
+## Related articles
+
+- [Low-level settings](/adguard-vpn-for-android/features/low-level-settings/)
+- [General settings](/adguard-vpn-for-android/features/general-settings/)
+- [How to collect and send logs](/adguard-vpn-for-android/solving-problems/logs/)
+- [Compatibility with AdGuard Ad Blocker](/adguard-vpn-for-android/compatibility-with-adguard-ad-blocker/)

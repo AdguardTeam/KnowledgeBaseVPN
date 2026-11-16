@@ -26,3 +26,8 @@ There are different key sizes — 128, 192 and 256 bits — and the blocks are a
 The rounds consist of several steps: splitting the data into blocks, swapping bytes, shifting rows and rearranging columns. The result is a completely random set of characters that will only make sense when using the right encryption key.
 
 AES-256 is the strongest level of encryption: to break this cipher, 2256 discrete combinations, each consisting of 78 digits, would have to be tried.
+
+## Related articles
+
+- [How VPN works](/general/how-vpn-works/)
+- [Why AdGuard VPN is the better option](/general/why-adguard-vpn/)

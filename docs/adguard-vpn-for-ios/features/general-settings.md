@@ -31,3 +31,9 @@ By turning this option on, you are helping us understand better how users intera
 If for some reason your VPN connection suddenly drops, *Kill Switch* will automatically terminate the Internet connection, making sure your data doesn’t leak and your identity stays hidden.
 
 To learn about the remaining options, see [Advanced settings](/adguard-vpn-for-ios/features/advanced-settings/).
+
+## Related articles
+
+- [Advanced settings](/adguard-vpn-for-ios/features/advanced-settings/)
+- [Low-level settings](/adguard-vpn-for-ios/features/low-level-settings/)
+- [What is a DNS leak and how to detect it](/general/dns-leaks/)

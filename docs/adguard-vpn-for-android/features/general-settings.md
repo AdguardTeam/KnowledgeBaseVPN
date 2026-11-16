@@ -14,3 +14,10 @@ In *General*, you can manage basic AdGuard VPN settings:
 - Enable Kill Switch to protect your privacy and disconnect from the Internet if the VPN connection drops
 - Select a color theme
 - Enable anonymous crash reports to notify developers about app issues
+
+## Related articles
+
+- [Advanced settings](/adguard-vpn-for-android/features/advanced-settings/)
+- [Low-level settings](/adguard-vpn-for-android/features/low-level-settings/)
+- [What is a DNS leak and how to detect it](/general/dns-leaks/)
+- [Compatibility with AdGuard Ad Blocker](/adguard-vpn-for-android/compatibility-with-adguard-ad-blocker/)

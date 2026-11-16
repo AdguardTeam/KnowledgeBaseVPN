@@ -39,3 +39,9 @@ If the problem persists, there might be two solutions:
 - Firewalls and third-party DNS services
 
 Restart your PC and check if the issue is resolved. If the problem persists, please contact the AdGuard VPN support team at support@adguard-vpn.com.
+
+## Related articles
+
+- [How to collect and send logs](/adguard-vpn-for-mac/solving-problems/logs/)
+- [Installation and removal](/adguard-vpn-for-mac/installation/)
+- [Advanced settings](/adguard-vpn-for-mac/features/advanced-settings/)

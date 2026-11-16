@@ -41,3 +41,9 @@ You can select any DNS server and configure it in AdGuard VPN:
 - in AdGuard VPN for Android: *Settings* (gear icon) → *App settings* → *DNS server*
 - in AdGuard VPN for iOS: *Settings* (gear icon) → *App settings* → *DNS server*
 - in AdGuard VPN Browser extension: the hamburger menu icon → *Settings* → *DNS server*
+
+## Related articles
+
+- [How VPN works](/general/how-vpn-works/)
+- [What type of encryption is used in AdGuard VPN](/general/adguard-vpn-encryption/)
+- [Why AdGuard VPN is the better option](/general/why-adguard-vpn/)

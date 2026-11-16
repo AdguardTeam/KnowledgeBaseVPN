@@ -36,3 +36,10 @@ This feature blocks WebRTC, which can leak your real IP address even when using 
 ## Exclusions
 
 Set up a custom exclusions list and select a routing mode for the profile. To learn how Exclusions work, see [Exclusions](/adguard-vpn-browser-extension/features/exclusions/).
+
+## Related articles
+
+- [Exclusions](/adguard-vpn-browser-extension/features/exclusions/)
+- [Saved locations](/adguard-vpn-browser-extension/features/saved-locations/)
+- [Statistics](/adguard-vpn-browser-extension/features/statistics/)
+- [General settings](/adguard-vpn-browser-extension/features/general-settings/)

@@ -48,3 +48,8 @@ If for some reason it is more convenient for you to send us logs in another way,
 :::
 
 This section is updated regularly. If you have not found a solution to your problem in the articles given in this section, contact AdGuard technical support at support@adguard-vpn.com.
+
+## Related articles
+
+- [Troubleshooting AdGuard VPN connection issues](/adguard-vpn-for-mac/solving-problems/connection-issues/)
+- [Advanced settings](/adguard-vpn-for-mac/features/advanced-settings/)

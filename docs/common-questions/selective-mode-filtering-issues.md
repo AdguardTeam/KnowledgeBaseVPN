@@ -31,3 +31,9 @@ For stable operation of WhatsApp and Discord, we recommend:
 
 1. Using a mode where AdGuard VPN is active for all apps. In this mode, all traffic is routed through the VPN tunnel.
 1. Avoiding selective AdGuard VPN operation for messengers with dynamic network architectures
+
+## Related articles
+
+- [VPN modes and Exclusion lists](/general/vpn-modes-exclusions/)
+- [Exclusions in AdGuard VPN for Android](/adguard-vpn-for-android/features/exclusions/)
+- [Exclusions in AdGuard VPN for iOS](/adguard-vpn-for-ios/features/exclusions/)

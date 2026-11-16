@@ -52,3 +52,8 @@ If for some reason it is more convenient for you to send us logs in another way,
 To do this, go to *Settings* → *General* → *Advanced* and tap *Export logs and system info*.
 
 :::
+
+## Related articles
+
+- [Troubleshooting AdGuard VPN connection issues](/adguard-vpn-for-ios/solving-problems/connection-issues/)
+- [Advanced settings](/adguard-vpn-for-ios/features/advanced-settings/)

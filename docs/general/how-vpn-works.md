@@ -88,3 +88,9 @@ Currently, AdGuard VPN is available as:
 - A VPN client for [routers](/adguard-vpn-for-routers/)
 
 [Learn more about AdGuard VPN features](https://adguard-vpn.com/welcome.html)
+
+## Related articles
+
+- [Why AdGuard VPN is the better option](/general/why-adguard-vpn/)
+- [What type of encryption is used in AdGuard VPN](/general/adguard-vpn-encryption/)
+- [VPN modes and Exclusion lists](/general/vpn-modes-exclusions/)

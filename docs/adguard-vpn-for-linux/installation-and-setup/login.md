@@ -62,3 +62,9 @@ To check your current subscription information and status, type:
     adguardvpn-cli license
 
 You will see your email and subscription type. Paid users will also see the expiration date of their subscription.
+
+## Related articles
+
+- [Installation and removal](/adguard-vpn-for-linux/installation-and-setup/installation/)
+- [How to subscribe](/general/subscription/)
+- [How to activate](/general/activate-subscription/)

@@ -20,3 +20,9 @@ You can also allow AdGuard VPN to gather and send anonymized crash reports, tech
 One or more DNS servers can be set up here. This is useful if you don’t want to rely on the default DNS server provided by your ISP. Select one from the list of popular DNS services or add a custom server manually. We recommend adding AdGuard DNS, which not only encrypts your DNS traffic, but also identifies requests to malicious websites and redirects them to a “black hole”.
 
 To learn about the remaining options, see [Advanced settings](/adguard-vpn-for-mac/features/advanced-settings/).
+
+## Related articles
+
+- [Advanced settings](/adguard-vpn-for-mac/features/advanced-settings/)
+- [What is a DNS leak and how to detect it](/general/dns-leaks/)
+- [How to collect and send logs](/adguard-vpn-for-mac/solving-problems/logs/)

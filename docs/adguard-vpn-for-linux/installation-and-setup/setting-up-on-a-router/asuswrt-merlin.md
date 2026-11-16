@@ -290,3 +290,10 @@ This step configures firewall rules on an Asuswrt-Merlin router to route traffic
     export HOME=/opt/home/admin
     modprobe tun
     ```
+
+## Related articles
+
+- [Setting up on a router](/adguard-vpn-for-linux/installation-and-setup/setting-up-on-a-router/)
+- [How to set up AdGuard VPN for Linux on a Keenetic router](/adguard-vpn-for-linux/installation-and-setup/setting-up-on-a-router/keenetic/)
+- [How to set up AdGuard VPN for Linux on an OpenWRT router](/adguard-vpn-for-linux/installation-and-setup/setting-up-on-a-router/openwrt/)
+- [AdGuard VPN for routers](/adguard-vpn-for-routers/)

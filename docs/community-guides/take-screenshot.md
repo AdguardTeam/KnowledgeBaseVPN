@@ -101,3 +101,8 @@ Your Mac captures the entire *Touch Bar* and saves it as a file on the desktop.
 To copy a screenshot to the clipboard instead of saving it, hold down *Ctrl* together with any of the combinations above. Then you can paste the screenshot (from the clipboard) into a document or an image you are currently editing by using *Cmd + V* combination.
 
 You can also take screenshots by using **Preview** and choosing **Take screenshot** (of the selected area, window, or the entire screen). With **Preview** you can save your screenshots in JPG, TIFF, PDF, and other file formats.
+
+## Related articles
+
+- [How to report a bug](/community-guides/report-a-bug/)
+- [How to contribute to the Knowledge Base](/community-guides/contribute/)

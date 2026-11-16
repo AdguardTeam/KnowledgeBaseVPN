@@ -16,3 +16,9 @@ You can also use other channels:
 - Find us on [social media](https://adguard-vpn.com/discuss.html). This is not the most efficient way to discuss technical matters, but we’ll always try to be helpful.
 
 - Email our support team from the Support tab in the app or write directly to [support@adguard.com](mailto:support@adguard.com).
+
+## Related articles
+
+- [How to take a screenshot](/community-guides/take-screenshot/)
+- [How to join beta and nightly testing](/community-guides/beta-testing/)
+- [How to contribute to the Knowledge Base](/community-guides/contribute/)

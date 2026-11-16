@@ -48,3 +48,8 @@ Nightly
     curl -SsL https://raw.githubusercontent.com/AdguardTeam/AdGuardVPNCLI/master/scripts/nightly/install.sh | sh -s -- -v -u
 
 If required, enter your admin password.
+
+## Related articles
+
+- [Login, connection, and update](/adguard-vpn-for-linux/installation-and-setup/login/)
+- [Setting up on a router](/adguard-vpn-for-linux/installation-and-setup/setting-up-on-a-router/)

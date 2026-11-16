@@ -56,3 +56,12 @@ https://agrd.io/vpn-windows-7
 Download the `.exe` file and run the installer.
 
 If possible, we recommend updating your operating system to the latest version supported by your device to ensure the best performance and security.
+
+## Related articles
+
+- [How to use AdGuard VPN in countries with Internet restrictions](/general/vpn-issues/)
+- [Installation and removal for Windows](/adguard-vpn-for-windows/installation/)
+- [Installation and removal for Mac](/adguard-vpn-for-mac/installation/)
+- [Installation and removal for Android](/adguard-vpn-for-android/installation/)
+- [Installation and removal for iOS](/adguard-vpn-for-ios/installation/)
+- [Mac App Store vs standalone version](/adguard-vpn-for-mac/versions/)

@@ -79,3 +79,9 @@ Sometimes, as a result of incorrect removal or in other rare cases, the standard
 AdGuard VPN has been completely removed from your Mac.
 
 You can learn more about AdGuard VPN for Mac in [this article](/adguard-vpn-for-mac/).
+
+## Related articles
+
+- [Mac App Store vs standalone version](/adguard-vpn-for-mac/versions/)
+- [Troubleshooting AdGuard VPN connection issues](/adguard-vpn-for-mac/solving-problems/connection-issues/)
+- [How to install AdGuard VPN on older OS versions](/general/older_os/)

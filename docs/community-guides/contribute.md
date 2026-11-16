@@ -27,3 +27,9 @@ When working on AdGuard VPN Knowledge Base articles, you may meet strings contai
 ## Working on open issues
 
 Sometimes there exist [open tasks](https://github.com/AdguardTeam/KnowledgeBaseVPN/issues/) related to updating the Knowledge Base. You can help us speed up their completion [the same way](#suggest-change) you would suggest any other changes to this Knowledge Base. Choose any issue that you find appealing and start working on it. If you have any questions — you can ask them right in the comments to that issue.
+
+## Related articles
+
+- [AdGuard VPN’s GitHub repositories](/about-the-project/github-repos/)
+- [How to report a bug](/community-guides/report-a-bug/)
+- [How to take a screenshot](/community-guides/take-screenshot/)

@@ -52,3 +52,9 @@ Here you can choose which endpoints AdGuard VPN connects to: *IPv4 and IPv6*, *I
 Before you choose between IPv6 and IPv4, make sure that your network supports that protocol. For example, if you select IPv6 and your network only supports IPv4, you may have problems connecting to the Internet — and vice versa.
 
 :::
+
+## Related articles
+
+- [Advanced settings](/adguard-vpn-for-ios/features/advanced-settings/)
+- [General settings](/adguard-vpn-for-ios/features/general-settings/)
+- [What type of encryption is used in AdGuard VPN](/general/adguard-vpn-encryption/)

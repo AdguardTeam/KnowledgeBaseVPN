@@ -1,5 +1,5 @@
 ---
-title: AdGuard VPN browser extension
+title: AdGuard VPN Browser Extension
 sidebar_position: 1
 ---
 

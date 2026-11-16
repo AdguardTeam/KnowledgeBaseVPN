@@ -40,3 +40,9 @@ In most cases, the **Default** logging level is sufficient to trace down possibl
 1. In the form that opens, enter your email address for feedback and describe the error you found, including the time when it occurred.
 
 1. Check mark next to *Send app logs and system info* and tap *Send*.
+
+## Related articles
+
+- [Troubleshooting AdGuard VPN connection issues](/adguard-vpn-for-android/solving-problems/connection-issues/)
+- [How to protect AdGuard VPN from being disabled by the system](/adguard-vpn-for-android/solving-problems/background-work/)
+- [Advanced settings](/adguard-vpn-for-android/features/advanced-settings/)

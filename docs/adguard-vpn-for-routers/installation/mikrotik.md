@@ -1,6 +1,6 @@
 ---
 title: Installation on MikroTik routers
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 :::note
@@ -50,3 +50,10 @@ In the commands above, `SERVER_ADDRESS` indicates the server address. `USERNAME`
 Please note, these commands should be executed exactly as they are.
 
 :::
+
+## Related articles
+
+- [General setup on most routers](/adguard-vpn-for-routers/installation/general-setup/)
+- [Installation on Keenetic routers](/adguard-vpn-for-routers/installation/keenetic/)
+- [What is PSK (Pre-shared key)](/adguard-vpn-for-routers/solving-problems/pre-shared-key/)
+- [How to install AdGuard VPN CLI on MikroTik RouterOS](/adguard-vpn-for-linux/installation-and-setup/setting-up-on-a-router/mikrotik/)

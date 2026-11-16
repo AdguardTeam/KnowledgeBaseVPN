@@ -20,3 +20,9 @@ At the bottom of the page, there are two sections: **DNS servers** and **Advance
 The **DNS servers** tab allows you to add your own DNS server — manually or from the list. You can set up a DNS server by any provider. We recommend adding [AdGuard DNS](https://adguard-dns.io/kb/general/dns-providers/#adguard-dns), a server that can protect against advertising, tracking, and phishing, in addition to the standard functions.
 
 To learn about the remaining options, see [Advanced settings](/adguard-vpn-for-windows/features/advanced-settings/).
+
+## Related articles
+
+- [Advanced settings](/adguard-vpn-for-windows/features/advanced-settings/)
+- [What is a DNS leak and how to detect it](/general/dns-leaks/)
+- [How to collect and send logs](/adguard-vpn-for-windows/solving-problems/logs/)

@@ -18,3 +18,8 @@ If you did not enable completions during installation and would like to do so la
 To use the feature, just start typing the command you want and hit the Tab ↹ key — the command will automatically complete with a necessary word or will show a choice of completion options.
 
 ![bash-completion locations command](https://cdn.adguard-vpn.com/blog/new/1g4nhVPN-CLI-autocomplete.png)
+
+## Related articles
+
+- [Settings](/adguard-vpn-for-linux/features/settings/)
+- [Other CLI settings](/adguard-vpn-for-linux/features/other-cli-settings/)

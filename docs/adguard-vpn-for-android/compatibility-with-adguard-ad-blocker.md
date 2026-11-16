@@ -16,3 +16,9 @@ If you are installing AdGuard Ad Blocker after AdGuard VPN, follow these steps t
 2. Go to *Advanced settings* and select *Operating mode*.
 
 3. Switch to *Integrated mode*. Done!
+
+## Related articles
+
+- [Advanced settings](/adguard-vpn-for-android/features/advanced-settings/)
+- [Exclusions](/adguard-vpn-for-android/features/exclusions/)
+- [Why AdGuard VPN is the better option](/general/why-adguard-vpn/)
