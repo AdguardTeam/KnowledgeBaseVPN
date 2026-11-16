@@ -53,6 +53,14 @@ Chcete-li odinstalovat AdGuard VPN pro macOS, postupujte podle dvou jednoduchýc
 
 ![Běžná odinstalace](https://cdn.adguardvpn.com/public/Adguard/kb/vpn-install/mac-uninstall-1-en.png)
 
+:::note
+
+Even if you delete AdGuard VPN, macOS remembers your sign-in details. If you reinstall the app, you will automatically stay logged in.
+
+If you are selling or giving away your Mac, or simply want to remove your account completely, log out of the app before moving it to *Trash*, or follow the [advanced uninstallation](#advanced-uninstallation) steps below.
+
+:::
+
 ### Pokročilá odinstalace
 
 Někdy v důsledku nesprávného odstranění nebo v jiných vzácných případech nemusí běžná odinstalace stačit. V takovém případě vás naše podpora může požádat, abyste provedli pokročilou odinstalaci a úplně odstranili AdGuard VPN z vašeho počítače Mac. Za tímto účelem proveďte následující kroky:
