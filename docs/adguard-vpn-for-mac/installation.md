@@ -5,7 +5,7 @@ sidebar_position: 4
 
 ## System requirements
 
-**Operating system version**: macOS 11 Big Sur or higher
+**Operating system version**: macOS 12 Monterey or higher
 
 **RAM**: at least 2 GB
 
@@ -41,7 +41,7 @@ There are some differences between the Mac App Store version and the standalone 
 
 ### Installation on older versions of macOS
 
-Since version 2.6, AdGuard VPN for Mac no longer supports macOS versions older than Big Sur. However, if you’re using macOS 10.15 Catalina, you can still [download and install an older, compatible version](https://agrd.io/adguard_vpn_for_macoscatalina) of the app.
+AdGuard VPN for Mac requires macOS 12 Monterey or later. If you’re using macOS 10.15 Catalina, you can still [download and install an older, compatible version](https://agrd.io/adguard_vpn_for_macoscatalina) of the app.
 
 ## Sign in to AdGuard VPN for Mac
 

@@ -13,7 +13,7 @@ This article covers the AdGuard VPN desktop app for Mac.
 
 :::note Compatibility
 
-AdGuard VPN for Mac is currently supported on macOS versions starting from macOS Monterey (version 12).
+AdGuard VPN for Mac is currently supported on macOS 12 Monterey or later.
 
 :::
 
