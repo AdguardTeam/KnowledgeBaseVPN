@@ -11,8 +11,6 @@ This article covers the AdGuard VPN desktop app for Windows.
 
 :::
 
-AdGuard VPN for Windows uses [TrustTunnel, our own protocol](https://trusttunnel.org/), which provides a fast and secure connection. For the full list of AdGuard VPN advantages, see [Why AdGuard VPN is the better option](/general/why-adguard-vpn/).
-
 ## Starting with the app
 
 To start using AdGuard VPN for Windows, download the app from [our website](https://adguard-vpn.com/welcome.html), install it, and sign in. The installer will ask you to accept the User Agreement and the Privacy policy, and to decide whether AdGuard can collect anonymized app usage data.

@@ -11,8 +11,6 @@ This article covers the AdGuard VPN mobile app for iOS.
 
 :::
 
-AdGuard VPN for iOS uses our own VPN protocol. It is extremely difficult to detect compared to other VPN protocols and remains stable even with a poor internet connection. [Read more about the protocol](https://trusttunnel.org/).
-
 ## Starting with the app
 
 To use AdGuard VPN for iOS, first you need to log into your [AdGuard account](https://adguardaccount.com/). You can sign in directly with your AdGuard account credentials, or via Google, Apple ID, or Facebook (if your AdGuard account was registered using the same email address).

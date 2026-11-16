@@ -43,6 +43,12 @@ There are some differences between the Mac App Store version and the standalone 
 
 Since version 2.6, AdGuard VPN for Mac no longer supports macOS versions older than Big Sur. However, if you’re using macOS 10.15 Catalina, you can still [download and install an older, compatible version](https://agrd.io/adguard_vpn_for_macoscatalina) of the app.
 
+## Sign in to AdGuard VPN for Mac
+
+To use AdGuard VPN for Mac, you need to log into your [AdGuard account](https://adguardaccount.com/). You can sign in with your AdGuard account credentials or with an external account: Apple, Google, or Facebook. If you use an external account, make sure it is bound to the same email address as your AdGuard account. If there is a suitable subscription in your AdGuard account, it will be activated automatically in the desktop app.
+
+Still don’t have an AdGuard account? Create it [here](https://auth.adguardaccount.com/registration.html).
+
 ## How to uninstall AdGuard VPN for Mac
 
 ### Standard uninstallation
