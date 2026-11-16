@@ -6,7 +6,7 @@ This website is built using [Docusaurus 2](https://docusaurus.io/), a modern sta
 
 ## How to contribute
 
-You can help by contributing to the Knowledge Base, all details are [in this article](https://adguard-vpn.com/kb/miscellaneous/update-kb/).
+You can help by contributing to the Knowledge Base, all details are [in this article](https://adguard-vpn.com/kb/community-guides/contribute/).
 
 ## How to develop
 

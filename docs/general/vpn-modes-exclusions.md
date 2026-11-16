@@ -1,6 +1,6 @@
 ---
 title: VPN modes and Exclusion lists
-sidebar_position: 11
+sidebar_position: 4
 ---
 
 This section explains how to use website and app exclusions in different VPN modes.
@@ -149,3 +149,7 @@ You need to switch to this mode both for apps and websites. This mode provides t
 2. For apps from the app exclusion list: make sure to add their respective domains to the website exclusion list. For example, if you add *Facebook* to the app exclusion list, add `facebook.com` to the website exclusion list.
 
 :::
+
+## Related articles
+
+- [Routing WhatsApp and Discord traffic in Selective mode](/general/selective-mode-filtering-issues/)
