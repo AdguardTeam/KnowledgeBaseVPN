@@ -43,5 +43,4 @@ If the problem persists, please contact the AdGuard VPN support team at support@
 ## Related articles
 
 - [How to collect and send logs](/adguard-vpn-for-windows/solving-problems/logs/)
-- [Installation and removal](/adguard-vpn-for-windows/installation/)
 - [Advanced settings](/adguard-vpn-for-windows/features/advanced-settings/)

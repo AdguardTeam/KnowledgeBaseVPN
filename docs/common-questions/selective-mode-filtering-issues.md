@@ -35,5 +35,3 @@ For stable operation of WhatsApp and Discord, we recommend:
 ## Related articles
 
 - [VPN modes and Exclusion lists](/general/vpn-modes-exclusions/)
-- [Exclusions in AdGuard VPN for Android](/adguard-vpn-for-android/features/exclusions/)
-- [Exclusions in AdGuard VPN for iOS](/adguard-vpn-for-ios/features/exclusions/)

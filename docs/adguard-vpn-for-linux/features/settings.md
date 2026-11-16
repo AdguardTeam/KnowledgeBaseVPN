@@ -57,4 +57,3 @@ adguardvpn-cli config set-show-notifications on
 
 - [Other CLI settings](/adguard-vpn-for-linux/features/other-cli-settings/)
 - [VPN modes: TUN and SOCKS5](/adguard-vpn-for-linux/features/vpn-modes/)
-- [Traffic routing modes](/adguard-vpn-for-linux/features/traffic-routing-modes/)

@@ -106,5 +106,4 @@ This little feature deserves special mention. In fact, many users crave for dark
 ## Related articles
 
 - [How VPN works](/general/how-vpn-works/)
-- [What type of encryption is used in AdGuard VPN](/general/adguard-vpn-encryption/)
 - [VPN modes and Exclusion lists](/general/vpn-modes-exclusions/)

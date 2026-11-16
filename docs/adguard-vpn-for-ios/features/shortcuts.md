@@ -96,4 +96,3 @@ Some apps, like banking apps, don’t work with a VPN on. Set up two automations
 ## Related articles
 
 - [Automation](/adguard-vpn-for-ios/features/automation/)
-- [General settings](/adguard-vpn-for-ios/features/general-settings/)

@@ -85,4 +85,3 @@ To learn more about how VPN modes and exclusion lists work together, see [VPN mo
 
 - [VPN modes and Exclusion lists](/general/vpn-modes-exclusions/)
 - [Routing WhatsApp and Discord traffic in Selective mode](/general/selective-mode-filtering-issues/)
-- [General settings](/adguard-vpn-for-android/features/general-settings/)

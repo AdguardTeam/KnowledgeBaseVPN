@@ -35,5 +35,4 @@ To learn about the remaining options, see [Advanced settings](/adguard-vpn-for-i
 ## Related articles
 
 - [Advanced settings](/adguard-vpn-for-ios/features/advanced-settings/)
-- [Low-level settings](/adguard-vpn-for-ios/features/low-level-settings/)
 - [What is a DNS leak and how to detect it](/general/dns-leaks/)

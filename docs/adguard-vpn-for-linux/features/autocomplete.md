@@ -21,5 +21,4 @@ To use the feature, just start typing the command you want and hit the Tab ↹ k
 
 ## Related articles
 
-- [Settings](/adguard-vpn-for-linux/features/settings/)
-- [Other CLI settings](/adguard-vpn-for-linux/features/other-cli-settings/)
+- [Installation and removal](/adguard-vpn-for-linux/installation-and-setup/installation/)

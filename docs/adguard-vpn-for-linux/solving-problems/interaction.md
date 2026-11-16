@@ -15,6 +15,5 @@ There are two possible solutions:
 
 ## Related articles
 
-- [Sending feedback](/adguard-vpn-for-linux/solving-problems/feedback/)
 - [VPN modes: TUN and SOCKS5](/adguard-vpn-for-linux/features/vpn-modes/)
 - [Traffic routing modes](/adguard-vpn-for-linux/features/traffic-routing-modes/)

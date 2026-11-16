@@ -18,6 +18,4 @@ In *General*, you can manage basic AdGuard VPN settings:
 ## Related articles
 
 - [Advanced settings](/adguard-vpn-for-android/features/advanced-settings/)
-- [Low-level settings](/adguard-vpn-for-android/features/low-level-settings/)
 - [What is a DNS leak and how to detect it](/general/dns-leaks/)
-- [Compatibility with AdGuard Ad Blocker](/adguard-vpn-for-android/compatibility-with-adguard-ad-blocker/)

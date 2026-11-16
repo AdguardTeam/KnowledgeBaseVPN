@@ -105,4 +105,3 @@ You can also take screenshots by using **Preview** and choosing **Take screensho
 ## Related articles
 
 - [How to report a bug](/community-guides/report-a-bug/)
-- [How to contribute to the Knowledge Base](/community-guides/contribute/)

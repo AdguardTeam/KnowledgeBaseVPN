@@ -38,6 +38,5 @@ If you want to support the implementation of a new feature or bugfix, you can vo
 
 ## Related articles
 
-- [AdGuard for Linux interaction](/adguard-vpn-for-linux/solving-problems/interaction/)
 - [How to report a bug](/community-guides/report-a-bug/)
 - [How to take a screenshot](/community-guides/take-screenshot/)

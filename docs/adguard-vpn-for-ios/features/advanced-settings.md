@@ -48,5 +48,4 @@ Low-level settings include the VPN protocol, strict VPN routing, IPv6 interface,
 ## Related articles
 
 - [Low-level settings](/adguard-vpn-for-ios/features/low-level-settings/)
-- [General settings](/adguard-vpn-for-ios/features/general-settings/)
 - [How to collect and send logs](/adguard-vpn-for-ios/solving-problems/logs/)

@@ -30,5 +30,4 @@ If you spot a bug in the build you are testing, learn how to report it in [How t
 ## Related articles
 
 - [How to report a bug](/community-guides/report-a-bug/)
-- [How to contribute to the Knowledge Base](/community-guides/contribute/)
 - [How to take a screenshot](/community-guides/take-screenshot/)

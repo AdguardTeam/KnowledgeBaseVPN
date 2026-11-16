@@ -32,5 +32,3 @@ Subscriptions purchased on the App Store can be managed in your Apple ID.
 
 - [Benefits of AdGuard VPN Unlimited](/general/free-vs-unlimited/)
 - [How to activate](/general/activate-subscription/)
-- [Issues with subscriptions purchased via the App Store](/adguard-vpn-for-ios/solving-problems/access-issues/)
-- [Mac App Store vs standalone version](/adguard-vpn-for-mac/versions/)

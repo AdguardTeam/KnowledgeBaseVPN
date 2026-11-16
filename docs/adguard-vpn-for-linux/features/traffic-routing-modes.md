@@ -101,4 +101,3 @@ route add 172.16.0.0/12 -iface "$INTERFACE"     # Another private range
 
 - [VPN modes: TUN and SOCKS5](/adguard-vpn-for-linux/features/vpn-modes/)
 - [Exclusions](/adguard-vpn-for-linux/features/exclusions/)
-- [DNS settings](/adguard-vpn-for-linux/features/dns-settings/)

@@ -11,5 +11,5 @@ You can solve the problem by setting up a VPN on a router. This will allow all d
 
 ## Related articles
 
-- [Troubleshooting AdGuard VPN connection issues](/adguard-vpn-for-android/solving-problems/connection-issues/)
-- [Exclusions](/adguard-vpn-for-android/features/exclusions/)
+- [General setup on most routers](/adguard-vpn-for-routers/installation/general-setup/)
+- [Setting up on a router](/adguard-vpn-for-linux/installation-and-setup/setting-up-on-a-router/)

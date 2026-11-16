@@ -11,15 +11,7 @@ This article covers the AdGuard VPN desktop app for Windows.
 
 :::
 
-AdGuard VPN for Windows:
-
-- Protects from network traffic interception (spoofing). AdGuard VPN creates an encrypted tunnel between your device and a remote server. All your Internet traffic passes through this tunnel, so your data is protected along the way. And thanks to [TrustTunnel, our unique protocol](https://trusttunnel.org/), you’re guaranteed a fast and secure connection.
-
-- Masks your IP address. Your true IP address is the key to your personal data for cybercriminals. Your name, email address, phone number, credit card information can all fall into the hands of fraudsters if you don’t hide your IP. With AdGuard VPN, all your traffic goes through an encrypted tunnel and comes to the VPN server. The web server registers the IP address of the endpoint of the tunnel, i.e. the VPN server, and not the device’s real IP address.
-
-- Hides your real location. What does this give you? For example, the ability to book a hotel at locals’ rates or hide from geotargeted advertising.
-
-AdGuard VPN for Windows has many advantages, so we’ve dedicated [a separate article](/general/why-adguard-vpn) to them. Here, however, we want to focus more on the application itself and how it works.
+AdGuard VPN for Windows uses [TrustTunnel, our own protocol](https://trusttunnel.org/), which provides a fast and secure connection. For the full list of AdGuard VPN advantages, see [Why AdGuard VPN is the better option](/general/why-adguard-vpn/).
 
 ## Starting with the app
 

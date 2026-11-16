@@ -25,4 +25,3 @@ To learn about the remaining options, see [Advanced settings](/adguard-vpn-for-w
 
 - [Advanced settings](/adguard-vpn-for-windows/features/advanced-settings/)
 - [What is a DNS leak and how to detect it](/general/dns-leaks/)
-- [How to collect and send logs](/adguard-vpn-for-windows/solving-problems/logs/)

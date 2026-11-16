@@ -40,6 +40,3 @@ Set up a custom exclusions list and select a routing mode for the profile. To le
 ## Related articles
 
 - [Exclusions](/adguard-vpn-browser-extension/features/exclusions/)
-- [Saved locations](/adguard-vpn-browser-extension/features/saved-locations/)
-- [Statistics](/adguard-vpn-browser-extension/features/statistics/)
-- [General settings](/adguard-vpn-browser-extension/features/general-settings/)

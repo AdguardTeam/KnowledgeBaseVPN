@@ -43,5 +43,3 @@ To learn more about how VPN modes and exclusion lists work together, see [VPN mo
 ## Related articles
 
 - [VPN modes and Exclusion lists](/general/vpn-modes-exclusions/)
-- [Statistics](/adguard-vpn-for-windows/features/statistics/)
-- [App settings](/adguard-vpn-for-windows/features/app-settings/)

@@ -97,4 +97,3 @@ Above, we listed the main AdGuard VPN-related repositories, while in total there
 ## Related articles
 
 - [How to contribute to the Knowledge Base](/community-guides/contribute/)
-- [Credits and acknowledgements](/about-the-project/acknowledgements/)

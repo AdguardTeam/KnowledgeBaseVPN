@@ -15,4 +15,3 @@ The options in this section apply globally to the entire extension, regardless o
 ## Related articles
 
 - [Profiles](/adguard-vpn-browser-extension/features/profiles/)
-- [Exclusions](/adguard-vpn-browser-extension/features/exclusions/)

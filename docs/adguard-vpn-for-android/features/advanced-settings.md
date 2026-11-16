@@ -30,6 +30,4 @@ The last section of *Advanced settings* is [*Low-level settings*](/adguard-vpn-f
 ## Related articles
 
 - [Low-level settings](/adguard-vpn-for-android/features/low-level-settings/)
-- [General settings](/adguard-vpn-for-android/features/general-settings/)
-- [How to collect and send logs](/adguard-vpn-for-android/solving-problems/logs/)
 - [Compatibility with AdGuard Ad Blocker](/adguard-vpn-for-android/compatibility-with-adguard-ad-blocker/)

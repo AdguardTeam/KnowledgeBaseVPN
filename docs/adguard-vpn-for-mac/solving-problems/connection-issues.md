@@ -43,5 +43,4 @@ Restart your PC and check if the issue is resolved. If the problem persists, ple
 ## Related articles
 
 - [How to collect and send logs](/adguard-vpn-for-mac/solving-problems/logs/)
-- [Installation and removal](/adguard-vpn-for-mac/installation/)
 - [Advanced settings](/adguard-vpn-for-mac/features/advanced-settings/)

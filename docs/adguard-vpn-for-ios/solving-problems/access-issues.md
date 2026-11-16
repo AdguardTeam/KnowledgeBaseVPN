@@ -21,4 +21,3 @@ Once the support team has the email address you used for the purchase, they’ll
 
 - [How to activate](/general/activate-subscription/)
 - [How to subscribe](/general/subscription/)
-- [AdGuard VPN is unavailable in some App Store regions](/adguard-vpn-for-ios/solving-problems/app-store/)

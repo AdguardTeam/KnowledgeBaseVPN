@@ -33,5 +33,3 @@ If the problem persists, please contact the AdGuard VPN support team at support@
 ## Related articles
 
 - [How to collect and send logs](/adguard-vpn-for-android/solving-problems/logs/)
-- [How to protect AdGuard VPN from being disabled by the system](/adguard-vpn-for-android/solving-problems/background-work/)
-- [Problems with Restricted Mode profile](/adguard-vpn-for-android/solving-problems/restricted-mode/)

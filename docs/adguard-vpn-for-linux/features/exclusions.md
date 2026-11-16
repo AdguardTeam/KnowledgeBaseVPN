@@ -64,5 +64,4 @@ The commands listed above (`add`, `remove`, `show`, `clear`) are applied to the 
 ## Related articles
 
 - [VPN modes: TUN and SOCKS5](/adguard-vpn-for-linux/features/vpn-modes/)
-- [Traffic routing modes](/adguard-vpn-for-linux/features/traffic-routing-modes/)
 - [VPN modes and Exclusion lists](/general/vpn-modes-exclusions/)

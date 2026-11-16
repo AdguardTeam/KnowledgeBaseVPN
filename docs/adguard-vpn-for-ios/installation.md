@@ -47,5 +47,4 @@ You can learn more about the AdGuard VPN app for iOS in [this article](/adguard-
 ## Related articles
 
 - [AdGuard VPN is unavailable in some App Store regions](/adguard-vpn-for-ios/solving-problems/app-store/)
-- [Troubleshooting AdGuard VPN connection issues](/adguard-vpn-for-ios/solving-problems/connection-issues/)
 - [How to install AdGuard VPN on older OS versions](/general/older_os/)

@@ -79,4 +79,3 @@ Now that you have collected the logs, you need to hand them over to our developm
 ## Related articles
 
 - [How to report a bug](/community-guides/report-a-bug/)
-- [How to take a screenshot](/community-guides/take-screenshot/)

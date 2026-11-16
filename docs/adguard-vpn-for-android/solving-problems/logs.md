@@ -44,5 +44,3 @@ In most cases, the **Default** logging level is sufficient to trace down possibl
 ## Related articles
 
 - [Troubleshooting AdGuard VPN connection issues](/adguard-vpn-for-android/solving-problems/connection-issues/)
-- [How to protect AdGuard VPN from being disabled by the system](/adguard-vpn-for-android/solving-problems/background-work/)
-- [Advanced settings](/adguard-vpn-for-android/features/advanced-settings/)

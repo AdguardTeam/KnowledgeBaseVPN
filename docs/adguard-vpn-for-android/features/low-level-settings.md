@@ -82,5 +82,4 @@ Here you can set up the internal SOCKS5 proxy server port. The default option is
 ## Related articles
 
 - [Advanced settings](/adguard-vpn-for-android/features/advanced-settings/)
-- [General settings](/adguard-vpn-for-android/features/general-settings/)
 - [What type of encryption is used in AdGuard VPN](/general/adguard-vpn-encryption/)

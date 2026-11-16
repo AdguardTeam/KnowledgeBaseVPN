@@ -27,6 +27,5 @@ In *Integrated mode*, *Exclusions* and *DNS server* are not available.
 
 ## Related articles
 
-- [Why AdGuard VPN is the better option](/general/why-adguard-vpn/)
+- [Advanced settings](/adguard-vpn-for-ios/features/advanced-settings/)
 - [Exclusions](/adguard-vpn-for-ios/features/exclusions/)
-- [General settings](/adguard-vpn-for-ios/features/general-settings/)

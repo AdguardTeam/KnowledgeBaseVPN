@@ -89,5 +89,4 @@ Replace `<port_number>` with the port you want to connect to.
 ## Related articles
 
 - [Traffic routing modes](/adguard-vpn-for-linux/features/traffic-routing-modes/)
-- [Exclusions](/adguard-vpn-for-linux/features/exclusions/)
 - [DNS settings](/adguard-vpn-for-linux/features/dns-settings/)

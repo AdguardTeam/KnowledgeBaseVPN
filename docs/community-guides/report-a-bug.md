@@ -21,4 +21,3 @@ You can also use other channels:
 
 - [How to take a screenshot](/community-guides/take-screenshot/)
 - [How to join beta and nightly testing](/community-guides/beta-testing/)
-- [How to contribute to the Knowledge Base](/community-guides/contribute/)

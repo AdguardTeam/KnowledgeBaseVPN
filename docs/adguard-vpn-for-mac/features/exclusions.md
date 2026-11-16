@@ -42,5 +42,3 @@ To learn more about how VPN modes and exclusion lists work together, see [VPN mo
 ## Related articles
 
 - [VPN modes and Exclusion lists](/general/vpn-modes-exclusions/)
-- [Mac App Store vs standalone version](/adguard-vpn-for-mac/versions/)
-- [Statistics](/adguard-vpn-for-mac/features/statistics/)

@@ -36,4 +36,3 @@ You can learn more about the AdGuard VPN for Android in [this article](/adguard-
 
 - [Troubleshooting AdGuard VPN connection issues](/adguard-vpn-for-android/solving-problems/connection-issues/)
 - [How to install AdGuard VPN on older OS versions](/general/older_os/)
-- [How to protect AdGuard VPN from being disabled by the system](/adguard-vpn-for-android/solving-problems/background-work/)

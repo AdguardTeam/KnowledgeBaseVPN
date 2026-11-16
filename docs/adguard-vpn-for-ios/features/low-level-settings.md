@@ -56,5 +56,4 @@ Before you choose between IPv6 and IPv4, make sure that your network supports th
 ## Related articles
 
 - [Advanced settings](/adguard-vpn-for-ios/features/advanced-settings/)
-- [General settings](/adguard-vpn-for-ios/features/general-settings/)
 - [What type of encryption is used in AdGuard VPN](/general/adguard-vpn-encryption/)

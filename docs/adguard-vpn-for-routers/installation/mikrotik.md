@@ -54,6 +54,4 @@ Please note, these commands should be executed exactly as they are.
 ## Related articles
 
 - [General setup on most routers](/adguard-vpn-for-routers/installation/general-setup/)
-- [Installation on Keenetic routers](/adguard-vpn-for-routers/installation/keenetic/)
 - [What is PSK (Pre-shared key)](/adguard-vpn-for-routers/solving-problems/pre-shared-key/)
-- [How to install AdGuard VPN CLI on MikroTik RouterOS](/adguard-vpn-for-linux/installation-and-setup/setting-up-on-a-router/mikrotik/)

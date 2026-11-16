@@ -33,4 +33,3 @@ The **IPv6 interface** setting controls whether IPv6 traffic is available while 
 
 - [App settings](/adguard-vpn-for-mac/features/app-settings/)
 - [How to collect and send logs](/adguard-vpn-for-mac/solving-problems/logs/)
-- [What type of encryption is used in AdGuard VPN](/general/adguard-vpn-encryption/)

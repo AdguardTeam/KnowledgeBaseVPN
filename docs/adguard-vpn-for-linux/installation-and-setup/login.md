@@ -67,4 +67,3 @@ You will see your email and subscription type. Paid users will also see the expi
 
 - [Installation and removal](/adguard-vpn-for-linux/installation-and-setup/installation/)
 - [How to subscribe](/general/subscription/)
-- [How to activate](/general/activate-subscription/)

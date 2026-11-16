@@ -29,4 +29,3 @@ To learn more about how VPN modes and exclusion lists work together, see [VPN mo
 
 - [VPN modes and Exclusion lists](/general/vpn-modes-exclusions/)
 - [Profiles](/adguard-vpn-browser-extension/features/profiles/)
-- [General settings](/adguard-vpn-browser-extension/features/general-settings/)

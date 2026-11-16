@@ -30,4 +30,3 @@ AES-256 is the strongest level of encryption: to break this cipher, 2256 discret
 ## Related articles
 
 - [How VPN works](/general/how-vpn-works/)
-- [Why AdGuard VPN is the better option](/general/why-adguard-vpn/)

@@ -80,6 +80,5 @@ If you’ve followed these steps and still can’t activate your subscription, p
 
 ## Related articles
 
-- [Benefits of AdGuard VPN Unlimited](/general/free-vs-unlimited/)
 - [How to subscribe](/general/subscription/)
 - [Issues with subscriptions purchased via the App Store](/adguard-vpn-for-ios/solving-problems/access-issues/)

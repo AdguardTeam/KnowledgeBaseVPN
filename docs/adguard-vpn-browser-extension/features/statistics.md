@@ -26,5 +26,3 @@ The *Stats* section is available to users of the paid version.
 ## Related articles
 
 - [Benefits of AdGuard VPN Unlimited](/general/free-vs-unlimited/)
-- [Profiles](/adguard-vpn-browser-extension/features/profiles/)
-- [Saved locations](/adguard-vpn-browser-extension/features/saved-locations/)

@@ -26,5 +26,4 @@ Disable this setting after exporting logs.
 ## Related articles
 
 - [Settings](/adguard-vpn-for-linux/features/settings/)
-- [VPN modes: TUN and SOCKS5](/adguard-vpn-for-linux/features/vpn-modes/)
 - [Sending feedback](/adguard-vpn-for-linux/solving-problems/feedback/)

@@ -32,4 +32,3 @@ Sometimes there exist [open tasks](https://github.com/AdguardTeam/KnowledgeBaseV
 
 - [AdGuard VPN’s GitHub repositories](/about-the-project/github-repos/)
 - [How to report a bug](/community-guides/report-a-bug/)
-- [How to take a screenshot](/community-guides/take-screenshot/)

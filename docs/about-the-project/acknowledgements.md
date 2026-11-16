@@ -77,6 +77,5 @@ Our dev team would like to thank the developers of the third-party software we u
 
 ## Related articles
 
-- [AdGuard VPN’s GitHub repositories](/about-the-project/github-repos/)
 - [How to join beta and nightly testing](/community-guides/beta-testing/)
 - [How to contribute to the Knowledge Base](/community-guides/contribute/)

@@ -76,5 +76,4 @@ To solve this issue, you need to disable this feature.
 ## Related articles
 
 - [How to protect AdGuard VPN from being disabled by the system](/adguard-vpn-for-android/solving-problems/background-work/)
-- [Troubleshooting AdGuard VPN connection issues](/adguard-vpn-for-android/solving-problems/connection-issues/)
 - [How to collect and send logs](/adguard-vpn-for-android/solving-problems/logs/)

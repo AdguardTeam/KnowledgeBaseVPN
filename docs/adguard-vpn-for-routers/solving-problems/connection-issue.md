@@ -13,7 +13,5 @@ You can also connect to our servers using [AdGuard VPN for Linux](/adguard-vpn-f
 
 ## Related articles
 
-- [General setup on most routers](/adguard-vpn-for-routers/installation/general-setup/)
 - [What is PSK (Pre-shared key)](/adguard-vpn-for-routers/solving-problems/pre-shared-key/)
 - [Setting up on a router](/adguard-vpn-for-linux/installation-and-setup/setting-up-on-a-router/)
-- [How to use AdGuard VPN in countries with Internet restrictions](/general/vpn-issues/)

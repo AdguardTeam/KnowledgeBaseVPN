@@ -22,4 +22,3 @@ The *Email Protection* service by DuckDuckGo works similarly. You get an `@duck.
 ## Related articles
 
 - [How to activate](/general/activate-subscription/)
-- [Why AdGuard VPN is the better option](/general/why-adguard-vpn/)

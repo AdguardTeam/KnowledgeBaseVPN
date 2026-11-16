@@ -48,5 +48,3 @@ Both versions of AdGuard VPN for Mac protect your privacy, though they use sligh
 
 - [Installation and removal](/adguard-vpn-for-mac/installation/)
 - [Benefits of AdGuard VPN Unlimited](/general/free-vs-unlimited/)
-- [How to subscribe](/general/subscription/)
-- [Statistics](/adguard-vpn-for-mac/features/statistics/)

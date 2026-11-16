@@ -84,5 +84,3 @@ The use of the parameters `/console` and `/vpn` is necessary for a successful un
 ## Related articles
 
 - [Common installer errors](/adguard-vpn-for-windows/solving-problems/common-installer-errors/)
-- [Troubleshooting AdGuard VPN connection issues](/adguard-vpn-for-windows/solving-problems/connection-issues/)
-- [How to install AdGuard VPN on older OS versions](/general/older_os/)

@@ -85,7 +85,5 @@ ASUS routers do not support IKEv2/IPsec, so you cannot set them up using the gen
 
 ## Related articles
 
-- [Installation on MikroTik routers](/adguard-vpn-for-routers/installation/mikrotik/)
-- [Installation on Keenetic routers](/adguard-vpn-for-routers/installation/keenetic/)
 - [What is PSK (Pre-shared key)](/adguard-vpn-for-routers/solving-problems/pre-shared-key/)
 - [Connection issues with IKEv2](/adguard-vpn-for-routers/solving-problems/connection-issue/)

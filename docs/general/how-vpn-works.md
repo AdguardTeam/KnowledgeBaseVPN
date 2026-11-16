@@ -93,4 +93,3 @@ Currently, AdGuard VPN is available as:
 
 - [Why AdGuard VPN is the better option](/general/why-adguard-vpn/)
 - [What type of encryption is used in AdGuard VPN](/general/adguard-vpn-encryption/)
-- [VPN modes and Exclusion lists](/general/vpn-modes-exclusions/)

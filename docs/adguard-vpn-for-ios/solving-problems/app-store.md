@@ -74,5 +74,4 @@ You can always switch back to your default account this way.
 ## Related articles
 
 - [Installation and removal](/adguard-vpn-for-ios/installation/)
-- [Issues with subscriptions purchased via the App Store](/adguard-vpn-for-ios/solving-problems/access-issues/)
 - [How to install AdGuard VPN on older OS versions](/general/older_os/)

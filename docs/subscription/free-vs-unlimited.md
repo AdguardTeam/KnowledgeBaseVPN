@@ -34,4 +34,3 @@ To use all the advantages, consider [purchasing a subscription](/general/subscri
 
 - [How to subscribe](/general/subscription/)
 - [How to activate](/general/activate-subscription/)
-- [Why AdGuard VPN is the better option](/general/why-adguard-vpn/)

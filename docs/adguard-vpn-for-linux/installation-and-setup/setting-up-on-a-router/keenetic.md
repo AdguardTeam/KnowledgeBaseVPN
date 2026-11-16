@@ -299,7 +299,4 @@ rm /opt/etc/ndm/wan.d/001-adguardvpn.sh
 
 ## Related articles
 
-- [Setting up on a router](/adguard-vpn-for-linux/installation-and-setup/setting-up-on-a-router/)
-- [How to set up AdGuard VPN for Linux on an OpenWRT router](/adguard-vpn-for-linux/installation-and-setup/setting-up-on-a-router/openwrt/)
-- [How to set up AdGuard VPN for Linux on an Asuswrt-Merlin router](/adguard-vpn-for-linux/installation-and-setup/setting-up-on-a-router/asuswrt-merlin/)
 - [AdGuard VPN for routers](/adguard-vpn-for-routers/)

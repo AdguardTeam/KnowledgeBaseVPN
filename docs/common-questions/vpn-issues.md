@@ -55,6 +55,4 @@ If all else fails, don’t hesitate to reach out to our support team at [support
 
 ## Related articles
 
-- [How to install AdGuard VPN on older OS versions](/general/older_os/)
 - [AdGuard VPN is unavailable in some App Store regions](/adguard-vpn-for-ios/solving-problems/app-store/)
-- [How VPN works](/general/how-vpn-works/)

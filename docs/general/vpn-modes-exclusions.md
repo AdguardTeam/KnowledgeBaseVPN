@@ -152,6 +152,4 @@ You need to switch to this mode both for apps and websites. This mode provides t
 
 ## Related articles
 
-- [How VPN works](/general/how-vpn-works/)
-- [Why AdGuard VPN is the better option](/general/why-adguard-vpn/)
 - [Routing WhatsApp and Discord traffic in Selective mode](/general/selective-mode-filtering-issues/)

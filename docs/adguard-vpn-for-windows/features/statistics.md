@@ -12,5 +12,3 @@ Crucially, all this information is stored exclusively on your device, ensuring t
 ## Related articles
 
 - [Benefits of AdGuard VPN Unlimited](/general/free-vs-unlimited/)
-- [Saved locations](/adguard-vpn-for-windows/features/saved-locations/)
-- [Exclusions](/adguard-vpn-for-windows/features/exclusions/)

@@ -12,5 +12,3 @@ Importantly, all data is stored locally on your device, so no one but you has ac
 ## Related articles
 
 - [Benefits of AdGuard VPN Unlimited](/general/free-vs-unlimited/)
-- [Mac App Store vs standalone version](/adguard-vpn-for-mac/versions/)
-- [Saved locations](/adguard-vpn-for-mac/features/saved-locations/)

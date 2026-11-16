@@ -39,5 +39,3 @@ Repeat the steps above, but choose *Is Disconnected* instead of *Is Joined*, tur
 ## Related articles
 
 - [Shortcuts](/adguard-vpn-for-ios/features/shortcuts/)
-- [General settings](/adguard-vpn-for-ios/features/general-settings/)
-- [Exclusions](/adguard-vpn-for-ios/features/exclusions/)

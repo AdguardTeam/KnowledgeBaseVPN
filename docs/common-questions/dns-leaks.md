@@ -44,6 +44,4 @@ You can select any DNS server and configure it in AdGuard VPN:
 
 ## Related articles
 
-- [How VPN works](/general/how-vpn-works/)
-- [What type of encryption is used in AdGuard VPN](/general/adguard-vpn-encryption/)
 - [Why AdGuard VPN is the better option](/general/why-adguard-vpn/)

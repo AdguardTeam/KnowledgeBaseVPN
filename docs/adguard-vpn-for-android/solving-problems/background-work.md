@@ -9,6 +9,5 @@ If AdGuard VPN is disabled on your device, your personal data will become vulner
 
 ## Related articles
 
-- [Troubleshooting AdGuard VPN connection issues](/adguard-vpn-for-android/solving-problems/connection-issues/)
 - [Problems with Restricted Mode profile](/adguard-vpn-for-android/solving-problems/restricted-mode/)
 - [How to collect and send logs](/adguard-vpn-for-android/solving-problems/logs/)
