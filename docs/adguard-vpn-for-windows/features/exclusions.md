@@ -38,8 +38,6 @@ On the destination device, open AdGuard VPN, click *Exclusions*, and select *Web
 
 This feature allows you to add subnets to exclude traffic from specific devices connected to your network. For example, your robot vacuum cleaner.
 
-To learn more about how VPN modes and exclusion lists work together, see [VPN modes and Exclusion lists](/general/vpn-modes-exclusions).
-
 ## Related articles
 
 - [VPN modes and Exclusion lists](/general/vpn-modes-exclusions/)

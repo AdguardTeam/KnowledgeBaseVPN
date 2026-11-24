@@ -11,6 +11,8 @@ This article covers the AdGuard VPN desktop app for Windows.
 
 :::
 
+AdGuard VPN for Windows creates an encrypted tunnel between your device and a remote server, so your traffic is protected from interception and spoofing, and websites see the IP address of the server instead of yours. Use it to stay safe on public Wi-Fi, open websites and services that are not available in your country, or hide your real location from advertisers. The app uses [TrustTunnel, our own protocol](https://trusttunnel.org/), which provides a fast and secure connection. For the full list of AdGuard VPN advantages, see [Why AdGuard VPN is the better option](/general/why-adguard-vpn/).
+
 ## Starting with the app
 
 To start using AdGuard VPN for Windows, download the app from [our website](https://adguard-vpn.com/welcome.html), install it, and sign in. The installer will ask you to accept the User Agreement and the Privacy policy, and to decide whether AdGuard can collect anonymized app usage data.

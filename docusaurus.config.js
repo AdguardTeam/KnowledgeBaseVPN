@@ -88,7 +88,7 @@ module.exports = {
           position: 'right',
           dropdownItemsAfter: [
             {
-              to: '/community-guides/contribute/',
+              to: '/community-guides/contribute/#translate-adguard',
               label: 'Help Us Translate',
             },
           ],

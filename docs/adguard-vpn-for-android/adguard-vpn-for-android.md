@@ -11,6 +11,8 @@ This article covers the AdGuard VPN mobile app for Android.
 
 :::
 
+AdGuard VPN for Android encrypts your internet traffic and routes it through a remote server, so your real IP address and location stay hidden. Use it to stay safe on public Wi-Fi, open websites and apps that are not available in your region, or keep advertisers and trackers from following you around the web. The app runs on [TrustTunnel, our own protocol](https://trusttunnel.org/), which is extremely difficult to detect and remains stable even with a poor Internet connection. To learn the basics, see [How a VPN works](/general/how-vpn-works/); for what makes our service different, see [Why AdGuard VPN is the better option](/general/why-adguard-vpn/).
+
 ## Starting with the app
 
 The main screen reflects the VPN status (Connected/Disconnected). There are also the *Connect/Disconnect* button and a list of available servers.

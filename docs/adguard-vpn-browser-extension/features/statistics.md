@@ -21,7 +21,7 @@ All statistics are stored locally on your device. We only calculate how much dat
 
 :::
 
-The *Stats* section is available to users of the paid version.
+The *Stats* section is available to users with an AdGuard VPN subscription.
 
 ## Related articles
 

@@ -19,11 +19,12 @@ This option is only available if you have an AdGuard VPN subscription and your r
 
 ## Installation
 
-AdGuard VPN can be set up on most routers that support IPsec in the *VPN Client* settings. We also have step-by-step guides for MikroTik and Keenetic routers.
+AdGuard VPN can be set up on most routers that support IPsec in the *VPN Client* settings. We also have step-by-step guides for MikroTik, Keenetic, and Asuswrt-Merlin routers.
 
 - [General setup on most routers](/adguard-vpn-for-routers/installation/general-setup/)
 - [Installation on MikroTik routers](/adguard-vpn-for-routers/installation/mikrotik/)
 - [Installation on Keenetic routers](/adguard-vpn-for-routers/installation/keenetic/)
+- [Installation on Asuswrt-Merlin routers](/adguard-vpn-for-linux/installation-and-setup/setting-up-on-a-router/asuswrt-merlin/)
 
 ## Solving problems
 

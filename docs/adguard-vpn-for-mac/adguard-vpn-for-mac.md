@@ -11,6 +11,8 @@ This article covers the AdGuard VPN desktop app for Mac.
 
 :::
 
+AdGuard VPN for Mac creates an encrypted tunnel between your device and a remote server, so your traffic is protected from interception and spoofing, and websites see the IP address of the server instead of yours. Use it to stay safe on public Wi-Fi in cafés and airports, open websites and services that are not available in your country, or hide your real location from advertisers. The app uses [TrustTunnel, our own protocol](https://trusttunnel.org/), which provides a fast and secure connection. For the full list of AdGuard VPN advantages, see [Why AdGuard VPN is the better option](/general/why-adguard-vpn/).
+
 :::note Compatibility
 
 AdGuard VPN for Mac is currently supported on macOS 12 Monterey or later.

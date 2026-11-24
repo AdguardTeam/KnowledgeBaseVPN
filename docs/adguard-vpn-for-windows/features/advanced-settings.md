@@ -13,7 +13,7 @@ Despite the fact that there are two operating modes — VPN and SOCKS5 — we ad
 
 ## Logging level
 
-Two levels of logging are available to choose from: **Record by default** and **Record everything**. The first option is enabled by default. The **Record everything** option should only be activated if our support team has asked you to do so. Using the app in this mode for an extended period of time result in increased battery consumption.
+Two levels of logging are available to choose from: **Record by default** and **Record everything**. The first option is enabled by default. The **Record everything** option should only be activated if our support team has asked you to do so. Using the app in this mode for an extended period of time may increase CPU and battery usage.
 
 All logs are stored locally on your device, and you can send them to the support team if needed.
 

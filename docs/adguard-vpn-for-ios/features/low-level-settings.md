@@ -18,7 +18,7 @@ By default, the AdGuard VPN protocol uses dynamic protocol selection (*Auto-sele
 If you wish, you can switch AdGuard VPN to use only TrustTunnel HTTP/2 or TrustTunnel QUIC instead of *Auto-select*. Each protocol has its strengths, but the best choice can vary depending on your location, network conditions, and even the server you connect to.
 
 - **Auto-select**: select protocol based on speed and network conditions.
-- **TrustTunnel HTTP/2**: our protocol based on HTTP/2 over TLS.
+- **TrustTunnel HTTP/2**: our protocol based on HTTP/2-over-TLS.
 - **TrustTunnel QUIC**: our protocol based on HTTP/3 over QUIC.
 
 ## Strict VPN routing

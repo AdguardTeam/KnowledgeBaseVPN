@@ -37,8 +37,6 @@ Archive files from other devices can be similarly imported to your AdGuard VPN f
 
 :::
 
-To learn more about how VPN modes and exclusion lists work together, see [VPN modes and Exclusion lists](/general/vpn-modes-exclusions).
-
 ## Related articles
 
 - [VPN modes and Exclusion lists](/general/vpn-modes-exclusions/)

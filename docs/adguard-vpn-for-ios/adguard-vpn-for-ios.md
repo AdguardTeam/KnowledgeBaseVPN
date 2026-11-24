@@ -11,6 +11,8 @@ This article covers the AdGuard VPN mobile app for iOS.
 
 :::
 
+AdGuard VPN for iOS encrypts your internet traffic and routes it through a remote server, so your real IP address and location stay hidden. Use it to stay safe on public Wi-Fi, open websites and apps that are not available in your region, or keep advertisers and trackers from following you around the web. The app runs on [TrustTunnel, our own protocol](https://trusttunnel.org/), which is extremely difficult to detect and remains stable even with a poor Internet connection. To learn the basics, see [How a VPN works](/general/how-vpn-works/); for what makes our service different, see [Why AdGuard VPN is the better option](/general/why-adguard-vpn/).
+
 ## Starting with the app
 
 To use AdGuard VPN for iOS, first you need to log into your [AdGuard account](https://adguardaccount.com/). You can sign in directly with your AdGuard account credentials, or via Google, Apple ID, or Facebook (if your AdGuard account was registered using the same email address).
@@ -57,7 +59,7 @@ Connect and disconnect with Shortcuts, Siri, a Home Screen widget, or Control Ce
 
 AdGuard VPN can work simultaneously with AdGuard Ad Blocker for iOS in Integrated mode. If you already have AdGuard Ad Blocker installed, the mode turns on automatically; otherwise, you can switch to it in *Advanced settings*.
 
-- [Compatibility with AdGuard Ad Blocker](/adguard-vpn-for-ios/features/compatibility-with-adguard-ad-blocker/)
+- [Compatibility with AdGuard Ad Blocker](/adguard-vpn-for-ios/compatibility-with-adguard-ad-blocker/)
 
 ## Solving problems
 

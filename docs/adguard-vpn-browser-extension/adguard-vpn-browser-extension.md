@@ -9,7 +9,7 @@ This article covers the AdGuard VPN browser extension for Chrome, Firefox, Opera
 
 :::
 
-AdGuard VPN browser extension is available for Chrome, Firefox, Opera, and Edge. The UI and functionality doesn’t differ between browsers, so the overview below will be relevant for AdGuard VPN extensions for all browsers.
+AdGuard VPN browser extension is available for Chrome, Firefox, Opera, and Edge. The UI and functionality don’t differ between browsers, so the overview below will be relevant for AdGuard VPN extensions for all browsers.
 
 :::note
 

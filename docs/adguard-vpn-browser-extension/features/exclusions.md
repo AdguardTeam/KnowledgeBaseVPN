@@ -23,8 +23,6 @@ Not only can you add and remove websites, you can also transfer ready exclusions
 
 Done!
 
-To learn more about how VPN modes and exclusion lists work together, see [VPN modes and Exclusion lists](/general/vpn-modes-exclusions).
-
 ## Related articles
 
 - [VPN modes and Exclusion lists](/general/vpn-modes-exclusions/)
