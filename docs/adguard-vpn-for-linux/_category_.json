@@ -1,6 +1,7 @@
 {
     "position": 10,
     "label": "AdGuard VPN for Linux",
+    "key": "adguard-vpn-for-linux",
     "collapsible": true,
     "collapsed": true
-    }
+}

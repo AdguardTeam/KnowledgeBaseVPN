@@ -3,18 +3,6 @@ title: General setup on most routers
 sidebar_position: 2
 ---
 
-Installing AdGuard VPN directly on your router allows every device in your network to benefit from private and secure Internet access — no separate app required. Follow this guide to add your router to AdGuard VPN, generate credentials, and connect your devices in just a few simple steps.
-
-:::note
-
-If you use a MikroTik or Keenetic router, please check the dedicated setup guides below:
-
-- [How to set up AdGuard VPN on MikroTik routers](/adguard-vpn-for-routers/installation/mikrotik/)
-
-- [How to set up AdGuard VPN on Keenetic routers](/adguard-vpn-for-routers/installation/keenetic/)
-
-:::
-
 ## Installation options
 
 There are two main ways to run AdGuard VPN on a router:

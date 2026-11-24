@@ -1,6 +1,7 @@
 {
     "position": 6,
     "label": "AdGuard VPN for iOS",
+    "key": "adguard-vpn-for-ios",
     "collapsible": true,
     "collapsed": true
-    }
+}
