@@ -77,14 +77,19 @@ AdGuard VPN использует [TrustTunnel](https://trusttunnel.org/) — с�
 
 В настоящее время AdGuard VPN доступен как:
 
-- [Браузерное расширение](/adguard-vpn-browser-extension/overview) для Chrome, Edge, Firefox и Opera
+- [Browser extension](/adguard-vpn-browser-extension/) for Chrome, Edge, Firefox, and Opera
 
-- Мобильное приложение для [Android](/adguard-vpn-for-android/overview) и [iOS](/adguard-vpn-for-ios/overview)
+- Mobile app for [Android](/adguard-vpn-for-android/) and [iOS](/adguard-vpn-for-ios/)
 
-- Десктопное приложение для [Windows](/adguard-vpn-for-windows/overview) и [Mac](/adguard-vpn-for-mac/overview)
+- Desktop application for [Windows](/adguard-vpn-for-windows/) and [Mac](/adguard-vpn-for-mac/)
 
 - Интерфейс командной строки для [Linux, Mac и некоторых роутеров](/adguard-vpn-for-linux/)
 
-- VPN-клиент для [роутеров](/general/set-up-adguard-vpn-on-your-router/)
+- A VPN client for [routers](/adguard-vpn-for-routers/)
 
 [Подробнее о функциях AdGuard VPN](https://adguard-vpn.com/welcome.html)
+
+## Related articles
+
+- [Why AdGuard VPN is the better option](/general/why-adguard-vpn/)
+- [What type of encryption is used in AdGuard VPN](/general/adguard-vpn-encryption/)

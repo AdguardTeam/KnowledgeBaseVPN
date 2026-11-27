@@ -1,6 +1,6 @@
 ---
 title: 앱 설치 및 제거
-sidebar_position: 2
+sidebar_position: 4
 ---
 
 ## 시스템 요구 사항
@@ -31,4 +31,9 @@ However, you still can [download an older, compatible version](https://agrd.io/v
 
 Android용 AdGuard VPN을 삭제하려면 앱의 아이콘을 찾아 길게 누르세요. 열린 목록에서 *제거*를 누릅니다.
 
-[이 글](/adguard-vpn-for-android/overview)에서 Android용 AdGuard VPN에 대해 자세히 알아볼 수 있습니다.
+You can learn more about the AdGuard VPN for Android in [this article](/adguard-vpn-for-android/).
+
+## Related articles
+
+- [Troubleshooting AdGuard VPN connection issues](/adguard-vpn-for-android/solving-problems/connection-issues/)
+- [How to install AdGuard VPN on older OS versions](/general/older_os/)

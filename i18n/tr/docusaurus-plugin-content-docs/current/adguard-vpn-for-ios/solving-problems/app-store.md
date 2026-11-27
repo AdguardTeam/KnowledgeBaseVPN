@@ -1,6 +1,6 @@
 ---
-title: AdGuard VPN, App Store'dan kaldırıldı
-sidebar_position: 1
+title: AdGuard VPN is unavailable in some App Store regions
+sidebar_position: 2
 ---
 
 Bazı ülkelerde AdGuard VPN, App Store'da mevcut değildir. Durumunuz buysa uygulamayı indirmenin iki yolu vardır:
@@ -70,3 +70,8 @@ App Store'da ücretli abonelikleri olan ve yalnızca farklı bölgelerden ücret
 Bu kadar! Şimdi tekrar [App Store'dan AdGuard VPN'i indirmeyi](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602) deneyin.
 
 Bu şekilde her zaman varsayılan hesabınıza geri dönebilirsiniz.
+
+## Related articles
+
+- [Installation and removal](/adguard-vpn-for-ios/installation/)
+- [How to install AdGuard VPN on older OS versions](/general/older_os/)

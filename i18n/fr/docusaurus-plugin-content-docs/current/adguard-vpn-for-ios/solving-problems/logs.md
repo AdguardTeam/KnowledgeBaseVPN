@@ -1,6 +1,6 @@
 ---
 title: Comment collecter et envoyer des journaux
-sidebar_position: 3
+sidebar_position: 6
 ---
 
 Si vous rencontrez des problèmes lors de l'utilisation d'AdGuard VPN pour iOS, vous pouvez nous en informer en envoyant les journaux de l'application.
@@ -50,3 +50,8 @@ In most cases, the default logging level is sufficient to track possible bugs. H
 Si, pour une raison quelconque, il est plus pratique pour vous de nous envoyer les journaux d'une autre manière, vous pouvez les exporter vous-même. To do this, go to *Settings* → *General* → *Advanced* and tap *Export logs and system info*.
 
 :::
+
+## Related articles
+
+- [Troubleshooting AdGuard VPN connection issues](/adguard-vpn-for-ios/solving-problems/connection-issues/)
+- [Advanced settings](/adguard-vpn-for-ios/features/advanced-settings/)

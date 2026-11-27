@@ -1,6 +1,6 @@
 ---
 title: Как собирать и отправлять логи
-sidebar_position: 1
+sidebar_position: 3
 ---
 
 Если у вас возникнут какие-либо проблемы при использовании AdGuard VPN для Mac, вы можете сообщить нам об этом, отправив логи приложения.
@@ -48,3 +48,8 @@ sidebar_position: 1
 :::
 
 Этот раздел регулярно обновляется. Если вы не нашли решение проблемы ни в одной статье раздела , свяжитесь с технической поддержкой AdGuard, отправив письмо на support@adguard-vpn.com.
+
+## Related articles
+
+- [Troubleshooting AdGuard VPN connection issues](/adguard-vpn-for-mac/solving-problems/connection-issues/)
+- [Advanced settings](/adguard-vpn-for-mac/features/advanced-settings/)

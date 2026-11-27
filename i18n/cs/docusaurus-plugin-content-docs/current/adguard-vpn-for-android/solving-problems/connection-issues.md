@@ -1,6 +1,6 @@
 ---
 title: Řešení problémů s připojením AdGuard VPN
-sidebar_position: 8
+sidebar_position: 2
 ---
 
 Problémy s připojením AdGuard VPN obvykle souvisejí buď se sítí (ovlivňují konkrétní sítě Wi-Fi), nebo se zařízením (vyskytují se ve všech připojeních). Následující části vám pomohou tyto problémy identifikovat a vyřešit. Než budete pokračovat, ujistěte se, že používáte nejnovější verzi AdGuard VPN, a zkuste restartovat zařízení i router.
@@ -29,3 +29,7 @@ Zkontrolujte nastavení systémového času — nesprávné datum a čas mohou z
 - V případě potřeby ručně nastavte správný čas
 
 Pokud problém přetrvává, kontaktujte prosím tým podpory AdGuard VPN na adrese support@adguard-vpn.com.
+
+## Related articles
+
+- [How to collect and send logs](/adguard-vpn-for-android/solving-problems/logs/)

@@ -5,7 +5,7 @@ sidebar_position: 4
 
 Android 7 üstündeki işletim sistemini çalıştıran telefon ve tablet sahipleri, **Kısıtlı Mod'da bir profil** kullanmanın neden olduğu sorunla karşılaşabilir. Böyle bir profiliniz varsa, **AdGuard VPN**, VPN kullanan diğer uygulamalar gibi, VPN trafiğinin seçici olarak kullanımı konusunda kısıtlamalar alır. Ayrıca, bu sorunun nedenlerinden biri cihazınızda **Dual App/Dual Messenger** profilini kullanmak olabilir. Aşağıda bu sorun oluştuğunda uygulayabileceğiniz tavsiyeler açıklanmıştır.
 
-## Çözümler
+## Solutions
 
 Sorunu çözmek için iki yolunuz var:
 
@@ -71,3 +71,8 @@ Bazı durumlarda kısıtlanmış kullanıcı hesapları dolaylı olarak oluştur
 - Aşağı kaydırın ve ardından **Dual App** öğesine basın;
 - Tüm uygulamaları listeden kaldırın;
 - Cihazınızı yeniden başlatın.
+
+## Related articles
+
+- [How to protect AdGuard VPN from being disabled by the system](/adguard-vpn-for-android/solving-problems/background-work/)
+- [How to collect and send logs](/adguard-vpn-for-android/solving-problems/logs/)

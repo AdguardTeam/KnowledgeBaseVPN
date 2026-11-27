@@ -1,6 +1,6 @@
 ---
 title: Erros comuns do instalador
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 This article outlines some of the most common errors you may encounter while installing AdGuard VPN for Windows and possible ways to resolve them.
@@ -104,3 +104,8 @@ If you have encountered an error that’s not listed above, it is possible that 
 - Find and save to disk the **Event Viewer** logs. [Este artigo](https://adguard.com/kb/adguard-for-windows/solving-problems/system-logs/) explica como fazer isso.
 
 Envie por e-mail todos esses arquivos das duas etapas anteriores para **support@adguard.com** e descreva o problema no corpo da mensagem. Nossa equipe de suporte responderá o mais rápido possível.
+
+## Related articles
+
+- [Installation and removal](/adguard-vpn-for-windows/installation/)
+- [How to collect and send logs](/adguard-vpn-for-windows/solving-problems/logs/)

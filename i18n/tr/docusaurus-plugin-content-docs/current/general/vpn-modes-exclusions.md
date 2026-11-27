@@ -1,6 +1,6 @@
 ---
 title: VPN modları ve İstisna listeleri
-sidebar_position: 11
+sidebar_position: 4
 ---
 
 Bu bölümde, farklı VPN modlarında site ve uygulama istisnalarının nasıl kullanılacağı açıklanmaktadır.
@@ -149,3 +149,7 @@ Hem uygulamalar hem de siteler için bu moda geçmeniz gerekiyor. Bu mod, en dü
 2. Uygulama istisna listesindeki uygulamalar için: ilgili alan adlarını site istisna listesine eklediğinizden emin olun. Örneğin, uygulama istisna listesine _Facebook_ eklerseniz, site istisna listesine de `facebook.com` alan adını ekleyin.
 
 :::
+
+## Related articles
+
+- [Routing WhatsApp and Discord traffic in Selective mode](/general/selective-mode-filtering-issues/)

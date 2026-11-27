@@ -1,89 +1,20 @@
 ---
-title: Основные настройки на большинстве роутеров
+title: Installation
 sidebar_position: 1
 ---
 
 Установка AdGuard VPN непосредственно на ваш роутер обеспечивает каждому устройству в сети конфиденциальный и безопасный доступ в Интернет — без отдельного приложения. Следуйте этому руководству, чтобы добавить ваш роутер в AdGuard VPN, сгенерировать учётные данные и подключить ваши устройства всего за несколько простых шагов.
 
-:::note
+AdGuard VPN can be run on a router in two ways: an IPsec profile or AdGuard VPN CLI. We have detailed instructions for the most popular router brands.
 
-Если вы используете роутер MikroTik или Keenetic, пожалуйста, ознакомьтесь с соответствующими инструкциями по настройке:
+- [General setup on most routers](/adguard-vpn-for-routers/installation/general-setup/)
 
-- [Как настроить AdGuard VPN на роутерах MikroTik](/adguard-vpn-for-routers/installation/mikrotik.md)
+  Create a VPN connection on any router that supports IPsec in its _VPN Client_ settings.
 
-- [Как настроить AdGuard VPN на роутерах Keenetic](/adguard-vpn-for-routers/installation/keenetic.md)
+- [Installation on MikroTik routers](/adguard-vpn-for-routers/installation/mikrotik/)
 
-:::
+  Configure an IKEv2/IPsec VPN client on your MikroTik router using the terminal.
 
-## Параметры установки
+- [Installation on Keenetic routers](/adguard-vpn-for-routers/installation/keenetic/)
 
-Есть два основных способа запустить AdGuard VPN на роутере:
-
-1. Профиль IPSec
-
-   - Прост в настройке, поддерживается многими роутерами
-   - Ограничения: недоступен в России, только ограниченное количество VPN-локаций (США, Нидерланды, Финляндия) и нет поддержки исключений
-
-2. [AdGuard VPN CLI](/adguard-vpn-for-linux/setting-up-on-a-router)
-
-   - Расширенные возможности настройки, открывающие доступ ко всем функциям AdGuard VPN, включая все локации и исключения сайтов (исключения приложений недоступны)
-   - Требует дополнительных технических знаний
-   - На роутерах с маломощными процессорами скорость подключения может быть ограничена до 30–100 Мбит/c
-
-## Получение учётных данных AdGuard VPN
-
-Прежде чем подключить роутер к AdGuard VPN, необходимо сгенерировать уникальные учётные данные в вашем аккаунте AdGuard. Они включают адрес сервера, логин пользователя и пароль. Вы будете использовать их позже при настройке роутера.
-
-1. [В личном кабинете AdGuard](https://auth.adguardaccount.com/login.html) выберите AdGuard VPN.
-
-2. В разделе _Устройства_ нажмите _Добавить роутер_.
-
-   ![Добавить роутер \*mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/general/2_year.jpg)
-
-3. Выберите нужную локацию VPN-сервера и сгенерируйте учётные данные.
-
-   ![Сгенерировать учётные данные \*mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/general/configure_router.png)
-
-## Основные настройки на большинстве роутеров
-
-Большинство современных роутеров, поддерживающих IKEv2/IPSec, можно настроить для работы с AdGuard VPN всего за несколько шагов. Подготовив учётные данные, следуйте этой общей инструкции по созданию VPN-подключения на роутере.
-
-:::note
-
-Следующие шаги могут отличаться в зависимости от вашего роутера. В качестве примера мы использовали роутер Keenetic.
-
-:::
-
-1. Откройте панель управления роутера
-
-2. Перейдите в настройки роутера
-
-3. Включите _VPN-клиент_ и нажмите _Добавить VPN-сервер_
-
-4. Выберите IPsec-клиент (для некоторых марок роутеров он может называться IKEv2, но не L2TP/IPsec)
-
-5. Введите созданные учётные данные.
-
-   ![Введите учётные данные \*mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/general/vpn_connection.jpg)
-
-   :::note
-
-   В поле _Адрес сервера_ введите _IP-адрес_ из вашего аккаунта AdGuard.
-
-   :::
-
-6. Подключите устройства к роутеру.
-
-:::note
-
-Если вы хотите изменить локацию VPN-сервера, вам нужно будет обновить настройки роутера.
-
-:::
-
-## Роутеры, несовместимые с AdGuard VPN
-
-Ниже перечислены роутеры, у которых, как известно, есть проблемы с совместимостью:
-
-### ASUS
-
-Роутеры ASUS не поддерживают IKEv2/IPsec, поэтому вы не сможете настроить их с помощью общего метода, описанного выше. Однако роутеры с пользовательской прошивкой Asuswrt-Merlin могут устанавливать **AdGuard VPN CLI**, что делает метод установки через CLI полностью поддерживаемым.
+  Set up AdGuard VPN on a Keenetic router running KeeneticOS 3.5 or later.

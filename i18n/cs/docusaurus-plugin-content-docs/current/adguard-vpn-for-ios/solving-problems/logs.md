@@ -1,6 +1,6 @@
 ---
 title: Jak shromažďovat a odesílat protokoly
-sidebar_position: 3
+sidebar_position: 6
 ---
 
 Pokud při používání AdGuard VPN pro iOS narazíte na problém, můžete nás o něm informovat zasláním protokolů aplikace.
@@ -50,3 +50,8 @@ Ve většině případů je výchozí úroveň záznamů dostatečná pro dohled
 Pokud je pro vás z nějakého důvodu pohodlnější poslat nám protokoly jiným způsobem, můžete je exportovat sami. Chcete-li to provést, přejděte na *Nastavení* → *Obecné* → *Pokročilé* a klepněte na *Exportovat protokoly a systémové informace*.
 
 :::
+
+## Related articles
+
+- [Troubleshooting AdGuard VPN connection issues](/adguard-vpn-for-ios/solving-problems/connection-issues/)
+- [Advanced settings](/adguard-vpn-for-ios/features/advanced-settings/)

@@ -1,6 +1,6 @@
 ---
 title: Raccourcis
-sidebar_position: 1
+sidebar_position: 7
 sidebar_label: Raccourcis
 ---
 
@@ -93,3 +93,7 @@ Choisissez _Enregistrer une phrase pour se connecter_ ou _Enregistrer une phrase
 Certaines applications, comme les applications bancaires, ne fonctionnent pas avec un VPN activé. Configurez deux automatisations pour que le VPN se désactive pendant que vous utilisez l'application et se réactive une fois que vous avez terminé. Correctement configurée, l'automatisation peut s'avérer plus pratique que le lancement manuel d'un raccourci : il n'est plus nécessaire d'appuyer sur une icône de l'écran d'accueil pour ouvrir le raccourci, l'ouverture de l'application suffit. De plus, vous pouvez inclure plusieurs applications dans une seule automatisation. Vous pouvez utiliser des automatisations pour activer ou désactiver AdGuard VPN lorsque vous ouvrez une application, lorsque vous fermez une application et lorsque vous vous connectez ou vous déconnectez de votre Wi-Fi domestique.
 
 [Comment configurer des automatisations sur votre iPhone ou iPad](/adguard-vpn-for-ios/features/automation/)
+
+## Related articles
+
+- [Automation](/adguard-vpn-for-ios/features/automation/)

@@ -1,6 +1,6 @@
 ---
 title: Как собирать и отправлять логи
-sidebar position: 1
+sidebar_position: 4
 ---
 
 Если у вас возникнут какие-либо проблемы при использовании AdGuard VPN для Windows, вы можете сообщить нам об этом. Будем признательны, если вы также отправите нам логи приложения — они помогут нам решить проблему гораздо быстрее.
@@ -82,3 +82,8 @@ sidebar position: 1
 1. Отправьте архив нашей команде поддержки
 
 :::
+
+## Related articles
+
+- [Troubleshooting AdGuard VPN connection issues](/adguard-vpn-for-windows/solving-problems/connection-issues/)
+- [Advanced settings](/adguard-vpn-for-windows/features/advanced-settings/)

@@ -1,6 +1,6 @@
 ---
 title: Как отключить функцию Автоблокировка на Samsung
-sidebar_position: 7
+sidebar_position: 6
 ---
 
 Начиная с One UI 6.1.1 (Android 14), компания Samsung представила улучшение безопасности под названием _Автоблокировка_. Эта функция включена по умолчанию на последних смартфонах Galaxy. Эта функция автоматически блокирует приложения, загружаемые из сторонних источников, если пользователь вручную не изменит настройки.
@@ -21,3 +21,8 @@ sidebar_position: 7
 После отключения _Автоблокировки_ вы можете продолжить установку AdGuard VPN.
 
 ![Нажмите Установить \*mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/install_en.png)
+
+## Related articles
+
+- [How to protect AdGuard VPN from being disabled by the system](/adguard-vpn-for-android/solving-problems/background-work/)
+- [How to collect and send logs](/adguard-vpn-for-android/solving-problems/logs/)

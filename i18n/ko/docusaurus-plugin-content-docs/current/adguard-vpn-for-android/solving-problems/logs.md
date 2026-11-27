@@ -1,6 +1,6 @@
 ---
 title: 로그 수집 및 전송 방법
-sidebar_position: 2
+sidebar_position: 7
 ---
 
 Android용 AdGuard VPN을 사용하는 동안 문제가 발생하면 앱 로그를 전송하여 알려주세요.
@@ -40,3 +40,7 @@ You can also export and send logs manually. To do this, go to *Settings* → *Ge
 1. In the form that opens, enter your email address for feedback and describe the error you found, including the time when it occurred.
 
 1. Check mark next to *Send app logs and system info* and tap *Send*.
+
+## Related articles
+
+- [Troubleshooting AdGuard VPN connection issues](/adguard-vpn-for-android/solving-problems/connection-issues/)

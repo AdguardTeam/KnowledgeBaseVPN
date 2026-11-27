@@ -1,6 +1,6 @@
 ---
 title: So sammeln und versenden Sie Protokolle
-sidebar position: 1
+sidebar_position: 4
 ---
 
 If you encounter any problems while using AdGuard VPN for Windows, you can inform us about it. We would appreciate it if you also send application logs, as they help us resolve issues much quicker.
@@ -82,3 +82,8 @@ If you encounter any problems while trying to export logs, there is an alternati
 1. Send it to our support team
 
 :::
+
+## Related articles
+
+- [Troubleshooting AdGuard VPN connection issues](/adguard-vpn-for-windows/solving-problems/connection-issues/)
+- [Advanced settings](/adguard-vpn-for-windows/features/advanced-settings/)

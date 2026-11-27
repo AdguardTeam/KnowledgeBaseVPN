@@ -1,6 +1,6 @@
 ---
 title: So verwenden Sie „E-Mail-Adresse verbergen“
-sidebar_position: 6
+sidebar_position: 5
 ---
 
 Die Funktion *E-Mail-Adresse verbergen* von Apple ist ein großartiges Werkzeug, um Ihre echte E-Mail-Adresse geheim zu halten, wenn Sie sich bei Websites und Anwendungen anmelden, die die Apple ID verwenden. You can even use it for private correspondence and manage all incoming messages just as you would with a regular email account. Auf diese Weise können Sie Ihre Privatsphäre schützen und Ihre echte E-Mail-Adresse vor neugierigen Blicken verbergen.
@@ -18,3 +18,7 @@ You can generate a unique and random email address that forwards incoming messag
 The *Hide My Email* feature is also available in Apple’s Mail app. Um eine E-Mail zu senden, ohne Ihre echte E-Mail-Adresse preiszugeben, wählen Sie einfach *E-Mail-Adresse verbergen* im Feld *Account*, wenn Sie Ihre Nachricht verfassen.
 
 The *Email Protection* service by DuckDuckGo works similarly. You get an `@duck.com` email address and can create email aliases for sign-ups and newsletters. If these aliases begin to attract too much spam, they can be easily discarded.
+
+## Related articles
+
+- [How to activate](/general/activate-subscription/)

@@ -1,6 +1,6 @@
 ---
 title: Günlükler nasıl toplanır ve gönderilir
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 AdGuard VPN Tarayıcı uzantısı günlüklerini toplamanın birkaç yolu vardır, ancak hangisini seçerseniz seçin, aynı veriler toplanacaktır. Uzantıda, günlükler standart ve hata ayıklama olarak ayrılmaz. Karşılaştığınız bir sorunun şu veya bu talimatı kullanmanızı engellediği durumlar için günlük toplama için farklı seçenekler sunulur.
@@ -75,3 +75,7 @@ Artık günlükleri topladığınıza göre, onları geliştirme ekibimize tesli
 
 1. GitHub'da bir hata bildirin. GitHub'da bir sorun oluşturmaya ilişkin ayrıntılı talimatları bu makalede bulabilirsiniz.
 1. Günlükleri ve yeniden oluşturma süresini içeren bir arşivi `devteam@adguard.com` adresine gönderin ve GitHub sorununuza bir bağlantı ekleyin. Ayrıca Google Drive'a günlükleri ve yeniden üretim süresini içeren bir arşiv ekleyebilir ve GitHub'daki sorununuza Google Drive bağlantısını ekleyerek `devteam@adguard.com` ile paylaşabilirsiniz.
+
+## Related articles
+
+- [How to report a bug](/community-guides/report-a-bug/)

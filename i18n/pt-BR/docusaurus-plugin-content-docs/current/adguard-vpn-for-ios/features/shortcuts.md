@@ -1,6 +1,6 @@
 ---
 title: Atalhos
-sidebar_position: 1
+sidebar_position: 7
 sidebar_label: Atalhos
 ---
 
@@ -93,3 +93,7 @@ Escolha _Gravar uma frase para conectar_ ou _Gravar uma frase para desconectar_,
 Alguns aplicativos, como aplicativos bancários, não funcionam com uma VPN ativada. Configure duas automações para que a VPN seja desativada enquanto você usa o aplicativo e reativada quando terminar. Quando configurada corretamente, a automação pode ser mais conveniente do que o lançamento manual de um atalho — você não precisa tocar em um ícone da Tela de Início para abrir o atalho, simplesmente abrir o aplicativo é suficiente. Além disso, você pode incluir vários aplicativos em uma automação. Você pode usar automações para ativar ou desativar o AdGuard VPN ao abrir um aplicativo, ao fechar um aplicativo e ao se conectar ou desconectar do seu Wi-Fi doméstico.
 
 [Como configurar automações no seu iPhone ou iPad](/adguard-vpn-for-ios/features/automation/)
+
+## Related articles
+
+- [Automation](/adguard-vpn-for-ios/features/automation/)

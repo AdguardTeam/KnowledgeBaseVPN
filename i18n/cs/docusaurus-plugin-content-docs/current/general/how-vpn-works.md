@@ -77,14 +77,19 @@ Naše VPN má několik důležitých [výhod](/general/why-adguard-vpn):
 
 V současné době je AdGuard VPN k dispozici jako:
 
-- [Rozšíření prohlížeče](/adguard-vpn-browser-extension/overview) pro prohlížeče Chrome, Edge, Firefox, a Opera
+- [Browser extension](/adguard-vpn-browser-extension/) for Chrome, Edge, Firefox, and Opera
 
-- Mobilní aplikace pro [Android](/adguard-vpn-for-android/overview) a [iOS](/adguard-vpn-for-ios/overview)
+- Mobile app for [Android](/adguard-vpn-for-android/) and [iOS](/adguard-vpn-for-ios/)
 
-- Desktopová aplikace pro [Windows](/adguard-vpn-for-windows/overview) a [macOS](/adguard-vpn-for-mac/overview)
+- Desktop application for [Windows](/adguard-vpn-for-windows/) and [Mac](/adguard-vpn-for-mac/)
 
 - Rozhraní příkazového řádku pro [Linux, Mac a některé routery](/adguard-vpn-for-linux/)
 
-- Klient VPN pro [routery](/general/set-up-adguard-vpn-on-your-router/)
+- A VPN client for [routers](/adguard-vpn-for-routers/)
 
 [Další informace o funkcích AdGuard VPN](https://adguard-vpn.com/welcome.html)
+
+## Related articles
+
+- [Why AdGuard VPN is the better option](/general/why-adguard-vpn/)
+- [What type of encryption is used in AdGuard VPN](/general/adguard-vpn-encryption/)

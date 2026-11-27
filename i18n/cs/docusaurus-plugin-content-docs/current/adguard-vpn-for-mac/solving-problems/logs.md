@@ -1,6 +1,6 @@
 ---
 title: Jak shromažďovat a odesílat protokoly
-sidebar_position: 1
+sidebar_position: 3
 ---
 
 Pokud při používání AdGuard VPN pro macOS narazíte na problém, můžete nás o něm informovat zasláním protokolů aplikace.
@@ -48,3 +48,8 @@ Pokud je pro vás z nějakého důvodu pohodlnější poslat nám protokoly jin�
 :::
 
 Tato sekce je pravidelně aktualizována. Pokud jste v článcích uvedených v této sekci nenašli řešení svého problému, kontaktujte technickou podporu AdGuardu na adrese support@adguard-vpn.com.
+
+## Related articles
+
+- [Troubleshooting AdGuard VPN connection issues](/adguard-vpn-for-mac/solving-problems/connection-issues/)
+- [Advanced settings](/adguard-vpn-for-mac/features/advanced-settings/)

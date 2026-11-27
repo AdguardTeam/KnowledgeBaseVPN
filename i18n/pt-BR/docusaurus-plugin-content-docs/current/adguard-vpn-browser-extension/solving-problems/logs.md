@@ -1,6 +1,6 @@
 ---
 title: Como coletar e enviar logs
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 Existem várias maneiras de coletar logs de extensão do navegador AdGuard VPN. Não importa o método que você escolher, os mesmos dados serão coletados. Na extensão, os logs não são divididos em padrão e debug. E diferentes opções para coletar logs são fornecidas para os casos em que um problema encontrado o impede de usar uma ou outra instrução.
@@ -75,3 +75,7 @@ Agora que você coletou os logs, você precisa entregá-los à nossa equipe de d
 
 1. Reportar um problema no GitHub. Instruções detalhadas sobre como criar um problema no GitHub podem ser encontradas neste artigo.
 1. Envie um arquivo com logs e tempo de reprodução para `devteam@adguard.com` e anexe um link para seu problema no GitHub. Além disso, você pode adicionar um arquivo com logs e tempo de reprodução ao Google Drive e compartilhá-lo com `devteam@adguard.com` anexando o link do Google Drive ao seu problema no GitHub.
+
+## Related articles
+
+- [How to report a bug](/community-guides/report-a-bug/)

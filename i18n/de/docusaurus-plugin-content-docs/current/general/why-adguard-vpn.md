@@ -102,3 +102,8 @@ Wir befürworten nicht die Verwendung von AdGuard VPN zur Umgehung von Urheberre
 ![Dunkles Design *mobile_border](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/main_en_black.png)
 
 Diese kleine Besonderheit verdient eine besondere Erwähnung. Tatsächlich wünschen sich viele ein dunkles Design, so dass wir dies nicht ignorieren konnten und einen Farbschema-Schalter für alle AdGuard VPN-Produkte hinzugefügt haben. Wählen Sie aus, was Ihnen besser gefällt — hell, dunkel oder Systemstandard. Hoffentlich kommen Sie auf die dunkle Seite.
+
+## Related articles
+
+- [How VPN works](/general/how-vpn-works/)
+- [VPN modes and Exclusion lists](/general/vpn-modes-exclusions/)

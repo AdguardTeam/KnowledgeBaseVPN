@@ -1,6 +1,6 @@
 ---
 title: Režimy VPN a seznamy výjimek
-sidebar_position: 11
+sidebar_position: 4
 ---
 
 V této části je vysvětleno, jak používat výjikky webových stránek a aplikací v různých režimech VPN.
@@ -149,3 +149,7 @@ Do tohoto režimu je třeba přepnout aplikace i webové stránky. Tento režim 
 2. Pro aplikace ze seznamu výjimek: nezapomeňte přidat jejich příslušné domény do seznamu výjimek pro webové stránky. Pokud například přidáte _Facebook_ do seznamu výjimek pro aplikace, přidejte `facebook.com` do seznamu výjimek pro webové stránky.
 
 :::
+
+## Related articles
+
+- [Routing WhatsApp and Discord traffic in Selective mode](/general/selective-mode-filtering-issues/)

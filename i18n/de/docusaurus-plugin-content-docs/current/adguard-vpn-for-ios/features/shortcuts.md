@@ -1,6 +1,6 @@
 ---
 title: Kurzbefehle
-sidebar_position: 1
+sidebar_position: 7
 sidebar_label: Kurzbefehle
 ---
 
@@ -93,3 +93,7 @@ Wählen Sie _Sprachbefehl zum Verbinden aufnehmen_ oder _Sprachbefehl zum Trenne
 Einige Apps, wie etwa Banking-Apps, funktionieren nicht mit aktiviertem VPN. Richten Sie zwei Automationen ein, damit sich das VPN ausschaltet, während Sie die App verwenden, und wieder einschaltet, sobald Sie fertig sind. Wenn sie richtig eingerichtet ist, kann die Automation bequemer sein als das manuelle Starten eines Kurzbefehls – Sie müssen nicht auf ein Symbol auf dem Home-Bildschirm tippen, um den Kurzbefehl zu öffnen, das bloße Öffnen der App reicht aus. Außerdem können Sie mehrere Apps in einer Automation kombinieren. Sie können Automationen verwenden, um AdGuard VPN ein- oder auszuschalten, wenn Sie eine App öffnen, wenn Sie eine App schließen und wenn Sie sich mit Ihrem Heim-WLAN verbinden oder die Verbindung trennen.
 
 [So richten Sie Automationen auf Ihrem iPhone oder iPad ein](/adguard-vpn-for-ios/features/automation/)
+
+## Related articles
+
+- [Automation](/adguard-vpn-for-ios/features/automation/)

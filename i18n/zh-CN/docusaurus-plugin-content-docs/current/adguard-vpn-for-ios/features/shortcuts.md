@@ -1,6 +1,6 @@
 ---
 title: 快捷指令
-sidebar_position: 1
+sidebar_position: 7
 sidebar_label: 快捷指令
 ---
 
@@ -93,3 +93,7 @@ AdGuard VPN 提供三个现成的快捷指令：「连接」、「断开」、�
 某些应用（例如银行应用）在开启 VPN 时无法正常工作。设置两个自动化操作，以便在您使用该应用时关闭 VPN，并在完成后重新开启。正确设置后，自动化操作可能比手动启动快捷指令更方便，您无需点击主屏幕图标来打开快捷指令，只需打开应用即可。此外，您还可以在一个自动化操作中包含多个应用。您可以使用自动化操作，在打开应用、关闭应用以及连接或断开家庭 Wi-Fi 时开启或关闭 AdGuard VPN。
 
 [如何在 iPhone 或 iPad 上设置自动化操作](/adguard-vpn-for-ios/features/automation/)
+
+## Related articles
+
+- [Automation](/adguard-vpn-for-ios/features/automation/)

@@ -1,6 +1,6 @@
 ---
 title: Automação
-sidebar_position: 2
+sidebar_position: 8
 sidebar_label: Automação
 ---
 
@@ -35,3 +35,7 @@ Se você não precisa usar VPN em casa, configure-a para desativar quando você 
 ## Ative o AdGuard VPN novamente ao sair
 
 Repita as etapas acima, mas escolha _Ao Desconectar-se_ em vez de _Ao Conectar-se_, ative _Executar Imediatamente_ e defina a ação como _Conectar_.
+
+## Related articles
+
+- [Shortcuts](/adguard-vpn-for-ios/features/shortcuts/)

@@ -1,6 +1,6 @@
 ---
 title: Kurulum ve kaldırma
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 ## Sistem gereksinimleri
@@ -42,4 +42,9 @@ iOS için AdGuard VPN'i silmeye karar verdiyseniz, ana ekranda simgesini bulun v
 
 ![Kaldır *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/quick-action-menu.png)
 
-[Bu makalede](/adguard-vpn-for-ios/overview) iOS için AdGuard VPN uygulaması hakkında daha fazla bilgi edinebilirsiniz.
+You can learn more about the AdGuard VPN app for iOS in [this article](/adguard-vpn-for-ios/).
+
+## Related articles
+
+- [AdGuard VPN is unavailable in some App Store regions](/adguard-vpn-for-ios/solving-problems/app-store/)
+- [How to install AdGuard VPN on older OS versions](/general/older_os/)

@@ -1,6 +1,6 @@
 ---
 title: Comment collecter et envoyer des journaux
-sidebar_position: 2
+sidebar_position: 7
 ---
 
 Si vous rencontrez un problème lors de l'utilisation d'AdGuard VPN pour Android, vous pouvez nous en informer en envoyant les journaux de l'application.
@@ -40,3 +40,7 @@ Dans la plupart des cas, le niveau de journalisation **Par défaut** est suffisa
 1. In the form that opens, enter your email address for feedback and describe the error you found, including the time when it occurred.
 
 1. Check mark next to *Send app logs and system info* and tap *Send*.
+
+## Related articles
+
+- [Troubleshooting AdGuard VPN connection issues](/adguard-vpn-for-android/solving-problems/connection-issues/)

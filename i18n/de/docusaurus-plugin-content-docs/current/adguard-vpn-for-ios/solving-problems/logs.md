@@ -1,6 +1,6 @@
 ---
 title: Wie man Protokolle sammelt und versendet
-sidebar_position: 3
+sidebar_position: 6
 ---
 
 If you encounter any problems while using AdGuard VPN for iOS, you can inform us about it by sending the app logs.
@@ -50,3 +50,8 @@ In most cases, the default logging level is sufficient to track possible bugs. H
 Wenn es für Sie aus irgendeinem Grund bequemer ist, uns Protokolle auf andere Weise zu senden, können Sie sie selbst exportieren. To do this, go to *Settings* → *General* → *Advanced* and tap *Export logs and system info*.
 
 :::
+
+## Related articles
+
+- [Troubleshooting AdGuard VPN connection issues](/adguard-vpn-for-ios/solving-problems/connection-issues/)
+- [Advanced settings](/adguard-vpn-for-ios/features/advanced-settings/)

@@ -1,6 +1,6 @@
 ---
 title: Günlükler nasıl toplanır ve gönderilir
-sidebar_position: 1
+sidebar_position: 3
 ---
 
 Mac için AdGuard VPN kullanırken herhangi bir sorunla karşılaşırsanız, uygulama günlüklerini göndererek bizi bu konuda bilgilendirebilirsiniz.
@@ -48,3 +48,8 @@ Herhangi bir nedenle bize günlükleri başka bir şekilde göndermeniz daha uyg
 :::
 
 Bu bölüm düzenli olarak güncellenmektedir. Bu bölümde verilen makalelerde sorununuza bir çözüm bulamadıysanız, support@adguard-vpn.com adresinden AdGuard teknik desteği ile iletişime geçin.
+
+## Related articles
+
+- [Troubleshooting AdGuard VPN connection issues](/adguard-vpn-for-mac/solving-problems/connection-issues/)
+- [Advanced settings](/adguard-vpn-for-mac/features/advanced-settings/)

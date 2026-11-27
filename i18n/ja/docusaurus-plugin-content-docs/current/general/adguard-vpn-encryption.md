@@ -1,6 +1,6 @@
 ---
 title: AdGuard VPNで使用されている暗号化の種類は？
-sidebar_position: 7
+sidebar_position: 3
 ---
 
 ## はじめに
@@ -26,3 +26,7 @@ AESは共通鍵によるブロック暗号です。共通鍵暗号であるた�
 各ラウンドは、データをブロックに分割する、バイトを入れ替える、行をずらす、列を並べ替えるといった複数ステップで構成されます。 The result is a completely random set of characters that will only make sense when using the right encryption key.
 
 AES-256 is the strongest level of encryption: to break this cipher, 2256 discrete combinations, each consisting of 78 digits, would have to be tried.
+
+## Related articles
+
+- [How VPN works](/general/how-vpn-works/)

@@ -1,6 +1,6 @@
 ---
 title: Como coletar e enviar logs
-sidebar_position: 3
+sidebar_position: 6
 ---
 
 Se encontrar algum problema ao usar o AdGuard VPN para iOS, você pode nos informar enviando os registros do aplicativo.
@@ -50,3 +50,8 @@ In most cases, the default logging level is sufficient to track possible bugs. H
 Se por algum motivo for mais conveniente para você nos enviar os logs de outra maneira, você mesmo poderá exportá-los. To do this, go to *Settings* → *General* → *Advanced* and tap *Export logs and system info*.
 
 :::
+
+## Related articles
+
+- [Troubleshooting AdGuard VPN connection issues](/adguard-vpn-for-ios/solving-problems/connection-issues/)
+- [Advanced settings](/adguard-vpn-for-ios/features/advanced-settings/)

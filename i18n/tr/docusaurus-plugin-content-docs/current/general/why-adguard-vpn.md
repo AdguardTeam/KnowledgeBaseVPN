@@ -102,3 +102,8 @@ Telif hakkı düzenlemelerini atlamak için AdGuard VPN kullanımını onaylamı
 ![Koyu mod *mobile_border](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/main_en_black.png)
 
 Bu küçük özellik özel olarak anılmayı hak ediyor. Aslında, pek çok kullanıcı koyu modu çok istiyor, bu yüzden onu görmezden gelemedik ve tüm AdGuard VPN ürünleri için bir tema anahtarı ekledik. Daha çok hoşunuza gideni seçin — açık, koyu veya sistem varsayılanı. Umarız karanlık tarafa katılırsınız.
+
+## Related articles
+
+- [How VPN works](/general/how-vpn-works/)
+- [VPN modes and Exclusion lists](/general/vpn-modes-exclusions/)

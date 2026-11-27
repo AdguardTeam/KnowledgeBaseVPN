@@ -1,6 +1,6 @@
 ---
 title: '¿Qué tipo de cifrado se utiliza en AdGuard VPN?'
-sidebar_position: 7
+sidebar_position: 3
 ---
 
 ## Introducción
@@ -26,3 +26,7 @@ Hay diferentes tamaños de clave — 128, 192 y 256 bits —  y los bloques tamb
 Las rondas constan de varios pasos: dividir los datos en bloques, intercambiar bytes, desplazar filas y reordenar columnas. The result is a completely random set of characters that will only make sense when using the right encryption key.
 
 AES-256 is the strongest level of encryption: to break this cipher, 2256 discrete combinations, each consisting of 78 digits, would have to be tried.
+
+## Related articles
+
+- [How VPN works](/general/how-vpn-works/)

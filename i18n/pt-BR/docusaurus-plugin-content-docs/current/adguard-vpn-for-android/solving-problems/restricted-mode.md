@@ -5,7 +5,7 @@ sidebar_position: 4
 
 Os proprietários de telefones e tablets que executam o sistema operacional Android 7+ podem enfrentar o problema causado pelo uso de **um perfil com Modo Restrito**. Se você tiver esse perfil, **AdGuard VPN**, como outros aplicativos que usam VPN, obtém restrições no tratamento seletivo do tráfego VPN. Além disso, uma das razões para este problema pode ser o uso do **perfil Dual App/Dual Messenger** em seu dispositivo. Abaixo estão descritas as recomendações que você pode aplicar quando esse problema ocorrer.
 
-## Soluções
+## Solutions
 
 Há duas maneiras de resolver o problema:
 
@@ -71,3 +71,8 @@ Os proprietários de telefones **LG** ou **Samsung** também podem encontrar um 
 - Role para baixo e pressione **Dual App**;
 - Remova todos os aplicativos da lista;
 - Reinicie seu dispositivo.
+
+## Related articles
+
+- [How to protect AdGuard VPN from being disabled by the system](/adguard-vpn-for-android/solving-problems/background-work/)
+- [How to collect and send logs](/adguard-vpn-for-android/solving-problems/logs/)

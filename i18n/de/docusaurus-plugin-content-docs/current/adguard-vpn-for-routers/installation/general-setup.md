@@ -1,0 +1,77 @@
+---
+title: General setup on most routers
+sidebar_position: 2
+---
+
+## Installation options
+
+There are two main ways to run AdGuard VPN on a router:
+
+1. IPSec profile
+
+    - Easy to set up, supported by many routers
+    - Limitations: not available in Russia, China, and Iran, only a limited number of VPN locations (USA, Netherlands, Finland), and no support for exclusions
+
+2. [AdGuard VPN CLI](/adguard-vpn-for-linux/installation-and-setup/setting-up-on-a-router/)
+
+    - Advanced setup that unlocks all AdGuard VPN features, including access to all locations and website exclusions (app exclusions are not available)
+    - Requires more technical knowledge
+    - On routers with low-performance processors, connection speed may be limited to 30-100 Mbps
+
+## Obtain your AdGuard VPN credentials
+
+Before you can connect your router to AdGuard VPN, you need to generate unique credentials for it in your AdGuard account. These credentials include the server address, username, and password, and you’ll use them later when configuring your router.
+
+1. In your [AdGuard account](https://auth.adguardaccount.com/login.html), select AdGuard VPN.
+2. Under _Devices_, click _Add router_.
+
+    ![Add router \*mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/general/2_year.jpg)
+
+3. Select the desired VPN server location and generate credentials.
+
+    ![Generate credentials \*mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/general/configure_router.png)
+
+## Set up a VPN connection
+
+Most modern routers that support IKEv2/IPSec can be configured with AdGuard VPN in just a few steps. Once you have your credentials ready, follow this general instruction to create a VPN connection on your router.
+
+:::note
+
+The next steps may vary depending on your router. We have used the Keenetic router as an example.
+
+:::
+
+1. Open your router’s admin page
+2. Go to the router settings
+3. Enable _VPN Client_ and click _Add VPN server_
+4. Select IPsec-client (for some router brands, it may be called IKEv2; not L2TP/IPsec)
+5. Enter the credentials you’ve created.
+
+    ![Enter the credentials \*mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/general/vpn_connection.jpg)
+
+    :::note
+
+    In the _server address_ field, enter the _IP address_ from your AdGuard account.
+
+    :::
+
+6. Connect devices to your router.
+
+:::note
+
+You’ll need to update your router settings if you want to change the VPN server location.
+
+:::
+
+## Routers known to be incompatible with AdGuard VPN
+
+Below are the routers that are currently known to have compatibility issues:
+
+### ASUS
+
+ASUS routers do not support IKEv2/IPsec, so you cannot set them up using the general method mentioned above. However, routers running the Asuswrt-Merlin custom firmware can install **AdGuard VPN CLI**, which makes the CLI installation method fully supported. See [how to set up AdGuard VPN for Linux on an Asuswrt-Merlin router](/adguard-vpn-for-linux/installation-and-setup/setting-up-on-a-router/asuswrt-merlin/).
+
+## Related articles
+
+- [What is PSK (Pre-shared key)](/adguard-vpn-for-routers/solving-problems/pre-shared-key/)
+- [Connection issues with IKEv2](/adguard-vpn-for-routers/solving-problems/connection-issue/)

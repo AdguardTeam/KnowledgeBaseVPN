@@ -1,6 +1,6 @@
 ---
-title: Nutzungsprobleme bei über den App Store gekauften Abonnements
-sidebar_position: 5
+title: Issues with subscriptions purchased via the App Store
+sidebar_position: 4
 ---
 
 Some users can’t use their AdGuard VPN subscription purchased through the App Store. Dieses Problem kann in zwei Fällen auftreten:
@@ -16,3 +16,8 @@ Um dieses Problem zu lösen, führen Sie bitte die folgenden Schritte aus:
 1. Wenn die E-Mail-Adressen übereinstimmen, navigieren Sie zu *Apple ID* ➜ *iCloud* ➜ *E-Mail-Adresse verbergen*, suchen Sie unsere App in der Liste, kopieren Sie die E-Mail-Adresse und senden Sie sie zusammen mit einer Beschreibung Ihres Problems an `support@adguard.com`. Usually, such an email address ends with `@privaterelay.appleid.com` or `@icloud.com`.
 
 Once the support team has the email address you used for the purchase, they’ll transfer your subscription to the correct account and you’ll be able to start using it. They also may ask for additional information to verify that it’s you. Sie können dem Support-Team Ihre Apple-Kaufquittung vorlegen, um den Vorgang zu beschleunigen.
+
+## Related articles
+
+- [How to activate](/general/activate-subscription/)
+- [How to subscribe](/general/subscription/)

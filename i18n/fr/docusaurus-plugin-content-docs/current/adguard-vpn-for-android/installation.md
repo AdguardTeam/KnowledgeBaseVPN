@@ -1,6 +1,6 @@
 ---
 title: Installation et désinstallation
-sidebar_position: 2
+sidebar_position: 4
 ---
 
 ## Configuration requise
@@ -31,4 +31,9 @@ Cependant, vous pouvez toujours [télécharger une version plus ancienne et comp
 
 Si vous avez décidé de supprimer AdGuard VPN pour Android, trouvez l'icône de cette application et tenez-la. Dans la liste ouverte, appuyez sur *Désinstaller*.
 
-Vous pouvez en savoir plus sur le AdGuard VPN pour Android dans [cet article](/adguard-vpn-for-android/overview).
+You can learn more about the AdGuard VPN for Android in [this article](/adguard-vpn-for-android/).
+
+## Related articles
+
+- [Troubleshooting AdGuard VPN connection issues](/adguard-vpn-for-android/solving-problems/connection-issues/)
+- [How to install AdGuard VPN on older OS versions](/general/older_os/)

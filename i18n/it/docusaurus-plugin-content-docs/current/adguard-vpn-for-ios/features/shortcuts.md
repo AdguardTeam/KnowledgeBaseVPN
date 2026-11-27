@@ -1,6 +1,6 @@
 ---
 title: Comandi Rapidi
-sidebar_position: 1
+sidebar_position: 7
 sidebar_label: Comandi Rapidi
 ---
 
@@ -93,3 +93,7 @@ Scegli _Registra una frase per connetterti_ o _Registra una frase per disconnett
 Alcune app, come quelle bancarie, non funzionano se la VPN è attiva. Imposta due automazioni in modo che la VPN si disattivi mentre utilizzi l'app e si riattivi una volta terminato. Se configurata correttamente, l'automazione può risultare più comoda rispetto all'avvio manuale di un collegamento: non è necessario toccare un'icona sulla schermata Home per aprire il comando rapido, basta semplicemente aprire l'app. Inoltre, è possibile includere diverse app in un’unica automazione. Puoi utilizzare le automazioni per attivare o disattivare AdGuard VPN quando apri un'app, quando chiudi un'app e quando ti connetti o ti disconnetti dalla rete Wi-Fi di casa.
 
 [Come configurare le automazioni sul tuo iPhone o iPad](/adguard-vpn-for-ios/features/automation/)
+
+## Related articles
+
+- [Automation](/adguard-vpn-for-ios/features/automation/)

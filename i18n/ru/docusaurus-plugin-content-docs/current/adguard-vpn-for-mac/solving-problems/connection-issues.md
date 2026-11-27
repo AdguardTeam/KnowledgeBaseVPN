@@ -39,3 +39,8 @@ sidebar_position: 2
 - Фаерволы и сторонние DNS-сервисы
 
 Перезагрузите компьютер и проверьте, получилось ли устранить проблему. Если нет, обратитесь в службу поддержки AdGuard VPN по адресу support@adguard-vpn.com.
+
+## Related articles
+
+- [How to collect and send logs](/adguard-vpn-for-mac/solving-problems/logs/)
+- [Advanced settings](/adguard-vpn-for-mac/features/advanced-settings/)

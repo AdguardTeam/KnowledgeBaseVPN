@@ -1,6 +1,6 @@
 ---
 title: 앱 설치 및 제거
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 ## 시스템 요구 사항
@@ -42,4 +42,9 @@ If you have decided to delete AdGuard VPN for iOS, find and hold its icon on the
 
 ![제거 *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/quick-action-menu.png)
 
-[이 글](/adguard-vpn-for-ios/overview)에서 iOS용 AdGuard VPN 앱에 대해 자세히 알아보세요.
+You can learn more about the AdGuard VPN app for iOS in [this article](/adguard-vpn-for-ios/).
+
+## Related articles
+
+- [AdGuard VPN is unavailable in some App Store regions](/adguard-vpn-for-ios/solving-problems/app-store/)
+- [How to install AdGuard VPN on older OS versions](/general/older_os/)

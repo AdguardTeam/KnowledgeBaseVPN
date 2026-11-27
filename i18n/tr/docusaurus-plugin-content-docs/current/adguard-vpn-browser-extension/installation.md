@@ -1,6 +1,6 @@
 ---
 title: Yükleme ve kaldırma
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 ## AdGuard VPN tarayıcı uzantısı nasıl yüklenir

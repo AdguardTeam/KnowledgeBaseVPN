@@ -8,3 +8,8 @@ A tecnologia integrada do Chromecast é incompatível com a execução de uma VP
 Google has also blocked the ability to change the Chromecast’s network settings by restricting access to its DNS settings. Isso também impede que o Chromecast funcione com uma VPN.
 
 Você pode resolver o problema configurando uma VPN em um roteador. Isso permitirá que todos os dispositivos conectados ao roteador usem a conexão VPN, incluindo o Chromecast. But remember: setting up a VPN on your router may require additional knowledge, so read the manufacturer’s manual.
+
+## Related articles
+
+- [General setup on most routers](/adguard-vpn-for-routers/installation/general-setup/)
+- [Setting up on a router](/adguard-vpn-for-linux/installation-and-setup/setting-up-on-a-router/)

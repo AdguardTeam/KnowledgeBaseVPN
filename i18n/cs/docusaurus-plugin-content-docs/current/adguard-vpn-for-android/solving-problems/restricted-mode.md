@@ -5,7 +5,7 @@ sidebar_position: 4
 
 Majitelé telefonů a tabletů s operačním systémem Android 7+ se mohou potýkat s problémem způsobeným používáním **profilu s Omezeným režimem**. Pokud máte takový profil, **AdGuard VPN**, stejně jako ostatní aplikace využívající VPN, získá omezení pro selektivní zpracování provozu VPN. Jednou z příčin tohoto problému může být také používání profilu **Duální aplikace/Duální Messenger** ve vašem zařízení. Níže jsou popsána doporučení, která můžete použít v případě výskytu tohoto problému.
 
-## Řešení
+## Solutions
 
 Problém můžete vyřešit dvěma způsoby:
 
@@ -71,3 +71,8 @@ S podobným problémem se mohou setkat také majitelé telefonů **LG** nebo **S
 - Přejeďte dolů a stiskněte **Duální aplikace**;
 - Odeberte všechny aplikace ze seznamu;
 - Restartujte zařízení.
+
+## Related articles
+
+- [How to protect AdGuard VPN from being disabled by the system](/adguard-vpn-for-android/solving-problems/background-work/)
+- [How to collect and send logs](/adguard-vpn-for-android/solving-problems/logs/)

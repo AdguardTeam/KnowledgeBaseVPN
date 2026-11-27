@@ -1,6 +1,6 @@
 ---
 title: 내 이메일 숨기기 사용 방법
-sidebar_position: 6
+sidebar_position: 5
 ---
 
 Apple’s *Hide My Email* feature is a great tool to keep your real email address private when signing up for websites and apps that use Apple ID. 일반 이메일 계정과 마찬가지로 비공개 서신에도 사용할 수 있으며 수신되는 모든 메시지를 관리할 수 있습니다. 이렇게 하면 개인정보가 보호되고 실제 이메일 주소가 숨겨집니다.
@@ -18,3 +18,7 @@ To use this feature, go to *Settings* → [Your Apple ID name] → *iCloud* → 
 The *Hide My Email* feature is also available in Apple’s Mail app. 실제 이메일 주소를 공개하지 않고 이메일을 보내려면 메시지를 작성할 때 *보낸 사람* 필드에서 *내 이메일 숨기기*를 선택하면 됩니다.
 
 DuckDuckGo의 *Email Protection* 서비스도 비슷한 방식으로 작동합니다. `@duck.com` 이메일 주소가 부여되며 이메일 별칭을 생성하여 사이트에 등록하고 뉴스레터를 구독할 수 있습니다. 이러한 별칭이 스팸을 너무 많이 받기 시작하면 쉽게 삭제할 수 있습니다.
+
+## Related articles
+
+- [How to activate](/general/activate-subscription/)

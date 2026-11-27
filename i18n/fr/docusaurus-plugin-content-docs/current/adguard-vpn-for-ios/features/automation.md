@@ -1,6 +1,6 @@
 ---
 title: Automatisation
-sidebar_position: 2
+sidebar_position: 8
 sidebar_label: Automatisation
 ---
 
@@ -35,3 +35,7 @@ Si vous n’avez pas besoin d’utiliser un VPN à la maison, réglez-le pour qu
 ## Réactiver AdGuard VPN lorsque vous partez
 
 Répétez les étapes ci-dessus, mais choisissez _Est Déconnecté_ au lieu de _Est joint_, activez _Exécuter immédiatement_, et réglez l’action sur _Connecter_.
+
+## Related articles
+
+- [Shortcuts](/adguard-vpn-for-ios/features/shortcuts/)

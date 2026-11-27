@@ -8,3 +8,8 @@ sidebar_position: 5
 Google также заблокировал возможность изменять сетевые настройки Chromecast, ограничив доступ к его DNS-настройкам. Это также не позволяет Chromecast работать с VPN.
 
 Решить проблему можно, настроив VPN на роутере. Это позволит всем устройствам, подключённым к роутеру, использовать VPN-соединение, включая Chromecast. Но помните: настройка VPN на роутере может потребовать дополнительных знаний, поэтому прочитайте инструкцию производителя.
+
+## Related articles
+
+- [General setup on most routers](/adguard-vpn-for-routers/installation/general-setup/)
+- [Setting up on a router](/adguard-vpn-for-linux/installation-and-setup/setting-up-on-a-router/)

@@ -1,12 +1,12 @@
 ---
 title: Instalace na routerech Keenetic
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 :::note
 AdGuard VPN pro Linux můžete nainstalovat a spustit také na routerech Keenetic. Tento postup vyžaduje pokročilé technické znalosti, ale umožňuje přístup ke všem funkcím AdGuard VPN.
 
-Další informace a podrobné pokyny naleznete v [našem specializovaném průvodci](/adguard-vpn-for-linux/setting-up-on-a-router/keenetic/).
+For more information and detailed instructions, refer to [our dedicated guide](/adguard-vpn-for-linux/installation-and-setup/setting-up-on-a-router/keenetic/).
 :::
 
 AdGuard VPN můžete nakonfigurovat na routerech Keenetic od verze KeeneticOS 3.5. Postupujte podle následujících kroků:
@@ -30,3 +30,8 @@ AdGuard VPN můžete nakonfigurovat na routerech Keenetic od verze KeeneticOS 3.
 6. Jakmile je připojení navázáno, přepněte přepínač na _Povoleno_. Stav tohoto připojení se zobrazí na stejné stránce.
 
 7. Přiřaďte tomuto připojení nejvyšší prioritu. Přetáhněte vytvořený profil připojení VPN na začátek seznamu.
+
+## Related articles
+
+- [General setup on most routers](/adguard-vpn-for-routers/installation/general-setup/)
+- [What is PSK (Pre-shared key)](/adguard-vpn-for-routers/solving-problems/pre-shared-key/)

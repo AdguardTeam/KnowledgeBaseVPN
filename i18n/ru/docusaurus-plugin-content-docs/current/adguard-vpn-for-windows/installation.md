@@ -1,6 +1,6 @@
 ---
 title: Установка и удаление
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 ## Системные требования
@@ -80,3 +80,7 @@ AdGuard VPN успешно удалён
 Для успешного удаления необходимо использовать параметры `/console` и `/vpn`. Параметры `/advanced` и `/settings` являются необязательными.
 
 :::
+
+## Related articles
+
+- [Common installer errors](/adguard-vpn-for-windows/solving-problems/common-installer-errors/)

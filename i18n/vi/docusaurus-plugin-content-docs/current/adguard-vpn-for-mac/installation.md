@@ -1,11 +1,11 @@
 ---
 title: Installation and removal
-sidebar_position: 2
+sidebar_position: 4
 ---
 
 ## System requirements
 
-**Operating system version**: macOS 11 Big Sur or higher
+**Operating system version**: macOS 12 Monterey or higher
 
 **RAM**: at least 2 GB
 
@@ -39,7 +39,13 @@ There are some differences between the Mac App Store version and the standalone 
 
 ### Installation on older versions of macOS
 
-Since version 2.6, AdGuard VPN for Mac no longer supports macOS versions older than Big Sur. However, if you’re using macOS 10.15 Catalina, you can still [download and install an older, compatible version](https://agrd.io/adguard_vpn_for_macoscatalina) of the app.
+AdGuard VPN for Mac requires macOS 12 Monterey or later. If you’re using macOS 10.15 Catalina, you can still [download and install an older, compatible version](https://agrd.io/adguard_vpn_for_macoscatalina) of the app.
+
+## Sign in to AdGuard VPN for Mac
+
+To use AdGuard VPN for Mac, you need to log into your [AdGuard account](https://adguardaccount.com/). You can sign in with your AdGuard account credentials or with an external account: Apple, Google, or Facebook. If you use an external account, make sure it is bound to the same email address as your AdGuard account. If there is a suitable subscription in your AdGuard account, it will be activated automatically in the desktop app.
+
+Still don’t have an AdGuard account? Create it [here](https://auth.adguardaccount.com/registration.html).
 
 ## How to uninstall AdGuard VPN for Mac
 
@@ -74,4 +80,9 @@ Sometimes, as a result of incorrect removal or in other rare cases, the standard
 
 AdGuard VPN has been completely removed from your Mac.
 
-You can learn more about AdGuard VPN for Mac in [this article](/adguard-vpn-for-mac/overview).
+You can learn more about AdGuard VPN for Mac in [this article](/adguard-vpn-for-mac/).
+
+## Related articles
+
+- [Mac App Store vs standalone version](/adguard-vpn-for-mac/versions/)
+- [How to install AdGuard VPN on older OS versions](/general/older_os/)

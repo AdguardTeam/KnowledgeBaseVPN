@@ -1,6 +1,6 @@
 ---
 title: AdGuard VPN 使用的加密方式
-sidebar_position: 7
+sidebar_position: 3
 ---
 
 ## 前言
@@ -26,3 +26,7 @@ AES 是一种带有对称密钥的分组密码。作为一种对称密钥密码�
 轮回由几个步骤组成：将数据分割成块，交换字节，移动行和重新排列列。 The result is a completely random set of characters that will only make sense when using the right encryption key.
 
 AES-256 is the strongest level of encryption: to break this cipher, 2256 discrete combinations, each consisting of 78 digits, would have to be tried.
+
+## Related articles
+
+- [How VPN works](/general/how-vpn-works/)

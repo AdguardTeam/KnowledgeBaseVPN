@@ -1,6 +1,6 @@
 ---
 title: Installation und Entfernung
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 ## Wie man AdGuard VPN Browsererweiterung installiert

@@ -1,6 +1,6 @@
 ---
 title: Kurulum ve kaldırma
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 ## Sistem gereksinimleri
@@ -80,3 +80,7 @@ Besides running the advanced uninstaller in its user-interactive mode, you can a
 Başarılı bir kaldırma işlemi için `/console` ve `/vpn` parametrelerinin kullanılması gereklidir. `/advanced` ve `/settings` parametreleri isteğe bağlıdır.
 
 :::
+
+## Related articles
+
+- [Common installer errors](/adguard-vpn-for-windows/solving-problems/common-installer-errors/)

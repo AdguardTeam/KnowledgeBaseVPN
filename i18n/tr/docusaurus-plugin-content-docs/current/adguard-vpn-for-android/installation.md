@@ -1,6 +1,6 @@
 ---
 title: Yükleme ve kaldırma
-sidebar_position: 2
+sidebar_position: 4
 ---
 
 ## Sistem gereksinimleri
@@ -31,4 +31,9 @@ Ancak, yine de [daha eski ve uyumlu bir sürümü indirebilirsiniz](https://agrd
 
 Android için AdGuard VPN'i silmeye karar verdiyseniz, bu uygulamanın simgesini bulun ve basılı tutun. Açılan listede *Kaldır* öğesine dokunun.
 
-[Bu makalede](/adguard-vpn-for-android/overview) Android için AdGuard VPN hakkında daha fazla bilgi edinebilirsiniz.
+You can learn more about the AdGuard VPN for Android in [this article](/adguard-vpn-for-android/).
+
+## Related articles
+
+- [Troubleshooting AdGuard VPN connection issues](/adguard-vpn-for-android/solving-problems/connection-issues/)
+- [How to install AdGuard VPN on older OS versions](/general/older_os/)

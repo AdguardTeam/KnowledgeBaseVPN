@@ -1,6 +1,6 @@
 ---
 title: Běžné chyby instalačního programu
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 V tomto článku jsou popsány některé z nejčastějších chyb, se kterými se můžete setkat při instalaci AdGuard VPN pro Windows, a možné způsoby jejich řešení.
@@ -104,3 +104,8 @@ Pokud jste narazili na chybu, která není uvedena výše, je možné, že ji do
 - Vyhledejte a uložte na disk **záznamy prohlížeče událostí**. [Tento článek](https://adguard.com/kb/adguard-for-windows/solving-problems/system-logs/) vysvětluje, jak na to.
 
 Všechny tyto soubory z předchozích dvou kroků zašlete e-mailem na adresu **support@adguard.com** a v těle zprávy popište problém. Náš tým podpory vám odpoví co nejdříve.
+
+## Related articles
+
+- [Installation and removal](/adguard-vpn-for-windows/installation/)
+- [How to collect and send logs](/adguard-vpn-for-windows/solving-problems/logs/)

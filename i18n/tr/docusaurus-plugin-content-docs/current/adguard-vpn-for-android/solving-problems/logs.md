@@ -1,6 +1,6 @@
 ---
 title: Günlükler nasıl toplanır ve gönderilir
-sidebar_position: 2
+sidebar_position: 7
 ---
 
 Android için AdGuard VPN'i kullanırken herhangi bir sorunla karşılaşırsanız, uygulama günlüklerini göndererek bizi bu konuda bilgilendirebilirsiniz.
@@ -40,3 +40,7 @@ Ayrıca günlükleri elle dışa aktarabilir ve gönderebilirsiniz. Bunu yapmak 
 1. Açılan formda, geri bildirim için e-posta adresinizi girin ve bulduğunuz hatayı, meydana geldiği zaman da dahil olmak üzere açıklayın.
 
 1. *Uygulama günlüklerini ve sistem bilgisini gönder* öğesinin yanındaki işareti işaretleyin ve *Gönder* öğesine dokunun.
+
+## Related articles
+
+- [Troubleshooting AdGuard VPN connection issues](/adguard-vpn-for-android/solving-problems/connection-issues/)

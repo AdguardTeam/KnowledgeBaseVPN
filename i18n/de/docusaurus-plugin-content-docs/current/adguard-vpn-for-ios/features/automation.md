@@ -1,6 +1,6 @@
 ---
 title: Automation
-sidebar_position: 2
+sidebar_position: 8
 sidebar_label: Automation
 ---
 
@@ -35,3 +35,7 @@ Wenn Sie zu Hause kein VPN benötigen, können Sie festlegen, dass es sich aussc
 ## AdGuard VPN wieder einschalten, wenn Sie das Heim-WLAN verlassen
 
 Wiederholen Sie die obigen Schritte, wählen Sie jedoch _Trennt Verbindung mit_ statt _Verbindet sich mit_, aktivieren Sie _Sofort ausführen_ und legen Sie die Aktion auf _Verbinden_ fest.
+
+## Related articles
+
+- [Shortcuts](/adguard-vpn-for-ios/features/shortcuts/)

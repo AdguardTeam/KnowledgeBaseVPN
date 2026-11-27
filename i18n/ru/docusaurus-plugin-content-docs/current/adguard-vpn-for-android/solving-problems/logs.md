@@ -1,6 +1,6 @@
 ---
 title: Как собрать и отправить логи
-sidebar_position: 2
+sidebar_position: 7
 ---
 
 Если вы столкнулись с какой-либо проблемой при использовании AdGuard VPN для Android, вы можете сообщить нам об этом, отправив логи приложения.
@@ -40,3 +40,7 @@ sidebar_position: 2
 1. В открывшейся форме введите свой адрес электронной почты для обратной связи и опишите обнаруженную ошибку, включая время её возникновения.
 
 1. Установите флажок рядом с *Добавить логи и информацию о системе* и нажмите *Отправить*.
+
+## Related articles
+
+- [Troubleshooting AdGuard VPN connection issues](/adguard-vpn-for-android/solving-problems/connection-issues/)

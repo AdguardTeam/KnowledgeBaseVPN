@@ -77,14 +77,19 @@ VPN hizmetimizin birkaç önemli [avantajı](/general/why-adguard-vpn) vardır:
 
 Şu anda AdGuard VPN şu şekilde mevcuttur:
 
-- Chrome, Edge, Firefox ve Opera için [Tarayıcı uzantısı](/adguard-vpn-browser-extension/overview)
+- [Browser extension](/adguard-vpn-browser-extension/) for Chrome, Edge, Firefox, and Opera
 
-- [Android](/adguard-vpn-for-android/overview) ve [iOS](/adguard-vpn-for-ios/overview) için mobil uygulaması
+- Mobile app for [Android](/adguard-vpn-for-android/) and [iOS](/adguard-vpn-for-ios/)
 
-- [Windows](/adguard-vpn-for-windows/overview) ve [Mac](/adguard-vpn-for-mac/overview) için masaüstü uygulaması
+- Desktop application for [Windows](/adguard-vpn-for-windows/) and [Mac](/adguard-vpn-for-mac/)
 
 - [Linux, Mac ve bazı yönlendiriciler](/adguard-vpn-for-linux/) için komut satırı arayüzü
 
-- [Yönlendiriciler](/general/set-up-adguard-vpn-on-your-router/) için bir VPN istemcisi
+- A VPN client for [routers](/adguard-vpn-for-routers/)
 
 [AdGuard VPN özellikleri hakkında daha fazla bilgi edinin](https://adguard-vpn.com/welcome.html)
+
+## Related articles
+
+- [Why AdGuard VPN is the better option](/general/why-adguard-vpn/)
+- [What type of encryption is used in AdGuard VPN](/general/adguard-vpn-encryption/)

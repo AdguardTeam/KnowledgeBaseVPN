@@ -77,14 +77,19 @@ Unser VPN-Dienst hat mehrere wichtige [Vorteile](/general/why-adguard-vpn):
 
 Derzeit ist AdGuard VPN verfügbar als:
 
-- [Browsererweiterung](/adguard-vpn-browser-extension/overview) für Chrome, Edge, Firefox und Opera
+- [Browser extension](/adguard-vpn-browser-extension/) for Chrome, Edge, Firefox, and Opera
 
-- Mobile App für [Android](/adguard-vpn-for-android/overview) und [iOS](/adguard-vpn-for-ios/overview)
+- Mobile app for [Android](/adguard-vpn-for-android/) and [iOS](/adguard-vpn-for-ios/)
 
-- Desktop-Anwendung für [Windows](/adguard-vpn-for-windows/overview) und [Mac](/adguard-vpn-for-mac/overview)
+- Desktop application for [Windows](/adguard-vpn-for-windows/) and [Mac](/adguard-vpn-for-mac/)
 
 - Befehlszeilenschnittstelle für [Linux, Mac und einige Router](/adguard-vpn-for-linux/)
 
-- Ein VPN-Client für [Router](/general/set-up-adguard-vpn-on-your-router/)
+- A VPN client for [routers](/adguard-vpn-for-routers/)
 
 [Mehr über die Funktionen von AdGuard VPN](https://adguard-vpn.com/welcome.html)
+
+## Related articles
+
+- [Why AdGuard VPN is the better option](/general/why-adguard-vpn/)
+- [What type of encryption is used in AdGuard VPN](/general/adguard-vpn-encryption/)

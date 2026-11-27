@@ -1,12 +1,12 @@
 ---
-title: Problémy s používáním předplatného zakoupeného skrze App Store
-sidebar_position: 5
+title: Issues with subscriptions purchased via the App Store
+sidebar_position: 4
 ---
 
 Někteří uživatelé nemohou používat předplatné AdGuard VPN zakoupené prostřednictvím App Store. Tento problém může nastat ve dvou případech:
 
-- pokud bylo pro tento nákup v App Store použito nesprávné Apple ID
-- nebo pokud jste před vývojáři aplikací skryli svou e-mailovou adresu
+- if an incorrect Apple ID was used for this App Store purchase
+- or if you hid your email address from app developers
 
 Chcete-li tento problém vyřešit, postupujte podle následujících kroků:
 
@@ -16,3 +16,8 @@ Chcete-li tento problém vyřešit, postupujte podle následujících kroků:
 1. Pokud se e-mailové adresy shodují, přejděte na *Apple ID* → *iCloud* → *Skrýt můj e-mail*, najděte v seznamu naši aplikaci, zkopírujte e-mailovou adresu a zašlete ji na adresu `support@adguard.com` spolu s popisem problému. Taková e-mailová adresa obvykle končí `@privaterelay.appleid.com` nebo `@icloud.com`.
 
 Jakmile tým podpory získá e-mailovou adresu, kterou jste použili při nákupu, převede vaše předplatné na správný účet a vy jej budete moci začít používat. Mohou také požádat o další informace, aby si ověřili, že se jedná o vás. Abyste proces urychlili, můžete týmu podpory předložit účtenku o koupi.
+
+## Related articles
+
+- [How to activate](/general/activate-subscription/)
+- [How to subscribe](/general/subscription/)

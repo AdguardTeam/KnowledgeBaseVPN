@@ -1,12 +1,12 @@
 ---
 title: Instalace na routerech MikroTik
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 :::note
 Zásobník AdGuard VPN pro Linux Docker můžete nainstalovat a spustit také na routerech MikroTik se systémem RouterOS. Tento postup vyžaduje pokročilé technické znalosti, ale umožňuje přístup ke všem funkcím AdGuard VPN.
 
-Další informace a podrobné pokyny naleznete v [našem specializovaném průvodci](/adguard-vpn-for-linux/setting-up-on-a-router/mikrotik/).
+For more information and detailed instructions, refer to [our dedicated guide](/adguard-vpn-for-linux/installation-and-setup/setting-up-on-a-router/mikrotik/).
 :::
 
 Chcete-li nastavit AdGuard VPN na routeru MikroTik, postupujte podle těchto kroků:
@@ -50,3 +50,8 @@ Ve výše uvedených příkazech označuje `SERVER_ADDRESS` adresu serveru. `USE
 Upozorňujeme, že tyto příkazy je třeba provést přesně tak, jak jsou uvedeny.
 
 :::
+
+## Related articles
+
+- [General setup on most routers](/adguard-vpn-for-routers/installation/general-setup/)
+- [What is PSK (Pre-shared key)](/adguard-vpn-for-routers/solving-problems/pre-shared-key/)
