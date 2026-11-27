@@ -1,6 +1,7 @@
 {
-"position": 6,
-"label": "AdGuard VPN browser extensions",
-"collapsible": true,
-"collapsed": true
+    "position": 9,
+    "label": "AdGuard VPN Browser Extension",
+    "key": "adguard-vpn-browser-extension",
+    "collapsible": true,
+    "collapsed": true
 }

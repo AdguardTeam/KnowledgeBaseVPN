@@ -1,6 +1,7 @@
 {
-    "position": 8,
+    "position": 11,
     "label": "AdGuard VPN for routers",
+    "key": "adguard-vpn-for-routers",
     "collapsible": true,
     "collapsed": true
-    }
+}

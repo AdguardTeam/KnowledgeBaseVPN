@@ -1,6 +1,7 @@
 {
-    "position": 4,
+    "position": 7,
     "label": "AdGuard VPN for Windows",
+    "key": "adguard-vpn-for-windows",
     "collapsible": true,
     "collapsed": true
 }

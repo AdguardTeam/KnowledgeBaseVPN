@@ -1,6 +1,7 @@
 {
-"position": 3,
-"label": "AdGuard VPN for Android",
-"collapsible": true,
-"collapsed": true
+    "position": 5,
+    "label": "AdGuard VPN for Android",
+    "key": "adguard-vpn-for-android",
+    "collapsible": true,
+    "collapsed": true
 }
