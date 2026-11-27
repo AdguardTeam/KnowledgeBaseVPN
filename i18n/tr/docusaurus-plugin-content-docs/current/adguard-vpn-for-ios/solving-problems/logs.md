@@ -1,6 +1,6 @@
 ---
 title: Günlükler nasıl toplanır ve gönderilir
-sidebar_position: 3
+sidebar_position: 6
 ---
 
 iOS için AdGuard VPN'i kullanırken herhangi bir sorunla karşılaşırsanız, uygulama günlüklerini göndererek bizi bu konuda bilgilendirebilirsiniz.
@@ -50,3 +50,8 @@ Herhangi bir nedenle bize günlükleri başka bir şekilde göndermeniz daha uyg
 Herhangi bir nedenle bize günlükleri başka bir şekilde göndermeniz daha uygunsa, bunları kendiniz dışa aktarabilirsiniz. Bunu yapmak için *Ayarlar* → *Genel* → *Gelişmiş* öğesine gidin ve *Günlükleri ve sistem bilgisini dışa aktar* öğesine dokunun.
 
 :::
+
+## Related articles
+
+- [Troubleshooting AdGuard VPN connection issues](/adguard-vpn-for-ios/solving-problems/connection-issues/)
+- [Advanced settings](/adguard-vpn-for-ios/features/advanced-settings/)

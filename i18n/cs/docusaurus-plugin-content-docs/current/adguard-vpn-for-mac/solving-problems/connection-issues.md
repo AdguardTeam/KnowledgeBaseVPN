@@ -39,3 +39,8 @@ Pokud problém přetrvává, mohou existovat dvě řešení:
 - Firewally a služby DNS třetích stran
 
 Restartujte počítač a zkontrolujte, zda je problém vyřešen. Pokud problém přetrvává, kontaktujte prosím tým podpory AdGuard VPN na adrese support@adguard-vpn.com.
+
+## Related articles
+
+- [How to collect and send logs](/adguard-vpn-for-mac/solving-problems/logs/)
+- [Advanced settings](/adguard-vpn-for-mac/features/advanced-settings/)

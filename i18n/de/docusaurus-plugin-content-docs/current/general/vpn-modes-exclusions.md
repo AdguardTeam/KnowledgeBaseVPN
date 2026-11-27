@@ -1,6 +1,6 @@
 ---
 title: VPN-Modi und Ausschlusslisten
-sidebar_position: 11
+sidebar_position: 4
 ---
 
 In diesem Abschnitt wird erklärt, wie Sie Website- und App-Ausschlüsse in verschiedenen VPN-Modi verwenden können.
@@ -149,3 +149,7 @@ Sie müssen sowohl für Apps als auch für Websites in diesen Modus wechseln. Di
 2. Für Apps aus der App-Ausschlussliste: Stellen Sie sicher, dass Sie die entsprechenden Domains zur Website-Ausschlussliste hinzufügen. Wenn Sie beispielsweise _Facebook_ zur App-Ausschlussliste hinzufügen möchten, fügen Sie `facebook.com` zur Website-Ausschlussliste hinzu.
 
 :::
+
+## Related articles
+
+- [Routing WhatsApp and Discord traffic in Selective mode](/general/selective-mode-filtering-issues/)

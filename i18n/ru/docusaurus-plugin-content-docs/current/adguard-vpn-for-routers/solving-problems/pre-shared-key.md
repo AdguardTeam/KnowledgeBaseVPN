@@ -1,6 +1,11 @@
 ---
 title: Что такое PSK (Pre-shared key)
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 PSK (pre-shared key) — это строка символов, которая используется в качестве пароля для аутентификации в site-to-site VPN, а также с VPN-клиентами сторонних производителей. Он работает с протоколами IPsec и L2TP, которые **не поддерживаются** AdGuard VPN. AdGuard VPN работает только с протоколом IKEv2. Если во время настройки в параметрах вашего роутера вы видите поле, отмеченное как PSK, то это неверный тип подключения.
+
+## Related articles
+
+- [General setup on most routers](/adguard-vpn-for-routers/installation/general-setup/)
+- [Connection issues with IKEv2](/adguard-vpn-for-routers/solving-problems/connection-issue/)

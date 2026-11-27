@@ -1,6 +1,6 @@
 ---
 title: オートメーション（自動化）
-sidebar_position: 2
+sidebar_position: 8
 sidebar_label: オートメーション（自動化）
 ---
 
@@ -35,3 +35,7 @@ sidebar_label: オートメーション（自動化）
 ## 自宅から出たときに AdGuard VPN を再度オンにする
 
 上記の手順を繰り返しますが、「_接続時_」の代わりに「_接続解除時_」を選択し、「_すぐに実行_」はオンにして、操作を「_接続_」に設定します。
+
+## Related articles
+
+- [Shortcuts](/adguard-vpn-for-ios/features/shortcuts/)

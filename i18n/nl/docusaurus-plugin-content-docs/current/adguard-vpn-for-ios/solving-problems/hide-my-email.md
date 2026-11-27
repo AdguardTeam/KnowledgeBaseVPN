@@ -1,6 +1,6 @@
 ---
 title: How to use Hide My Email
-sidebar_position: 6
+sidebar_position: 5
 ---
 
 Apple’s *Hide My Email* feature is a great tool to keep your real email address private when signing up for websites and apps that use Apple ID. You can even use it for private correspondence and manage all incoming messages just as you would with a regular email account. This way, you can protect your privacy and keep your real email address hidden from prying eyes.
@@ -18,3 +18,7 @@ You can generate a unique and random email address that forwards incoming messag
 The *Hide My Email* feature is also available in Apple’s Mail app. To send an email without disclosing your real email address, simply select *Hide My Email* in the *From* field when composing your message.
 
 The *Email Protection* service by DuckDuckGo works similarly. You get an `@duck.com` email address and can create email aliases for sign-ups and newsletters. If these aliases begin to attract too much spam, they can be easily discarded.
+
+## Related articles
+
+- [How to activate](/general/activate-subscription/)

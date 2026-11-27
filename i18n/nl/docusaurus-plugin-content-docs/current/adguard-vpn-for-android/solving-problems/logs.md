@@ -1,6 +1,6 @@
 ---
 title: How to collect and send logs
-sidebar_position: 2
+sidebar_position: 7
 ---
 
 If you encounter any problem while using AdGuard VPN for Android, you can inform us about it by sending the app logs.
@@ -40,3 +40,7 @@ In most cases, the **Default** logging level is sufficient to trace down possibl
 1. In the form that opens, enter your email address for feedback and describe the error you found, including the time when it occurred.
 
 1. Check mark next to *Send app logs and system info* and tap *Send*.
+
+## Related articles
+
+- [Troubleshooting AdGuard VPN connection issues](/adguard-vpn-for-android/solving-problems/connection-issues/)

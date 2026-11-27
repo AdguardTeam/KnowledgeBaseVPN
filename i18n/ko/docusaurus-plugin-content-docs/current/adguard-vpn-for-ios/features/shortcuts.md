@@ -1,6 +1,6 @@
 ---
 title: 단축어
-sidebar_position: 1
+sidebar_position: 7
 sidebar_label: 단축어
 ---
 
@@ -93,3 +93,7 @@ AdGuard VPN 앱에서 **설정** → **단축어** → **Siri 문구 설정**으
 은행 앱처럼 VPN이 켜져 있으면 작동하지 않는 앱도 있습니다. 자동화를 두 개 설정하면 앱을 사용하는 동안에는 VPN이 꺼지고, 사용을 마치면 다시 켜집니다. 제대로 설정해 두면 자동화가 단축어를 직접 실행하는 것보다 더 편리합니다. 홈 화면 아이콘을 탭할 필요 없이 앱을 열기만 하면 됩니다. 또한 자동화 하나에 여러 앱을 넣을 수 있습니다. 자동화를 사용하면 앱을 열거나 닫을 때, 그리고 집 Wi-Fi에 연결되거나 연결이 끊길 때 AdGuard VPN을 켜거나 끌 수 있습니다.
 
 [iPhone 또는 iPad에서 자동화를 설정하는 방법](/adguard-vpn-for-ios/features/automation/)
+
+## Related articles
+
+- [Automation](/adguard-vpn-for-ios/features/automation/)

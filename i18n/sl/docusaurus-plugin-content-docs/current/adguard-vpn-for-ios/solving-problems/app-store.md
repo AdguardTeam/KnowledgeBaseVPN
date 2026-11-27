@@ -1,6 +1,6 @@
 ---
-title: AdGuard VPN has been removed from App Store
-sidebar_position: 1
+title: AdGuard VPN is unavailable in some App Store regions
+sidebar_position: 2
 ---
 
 In some countries, AdGuard VPN is not available in the App Store. If that’s your case, there are two ways to download the app:
@@ -65,8 +65,13 @@ Now **link your new account to the App Store**:
 
 4. Enter the email address and password for your new account.
 
-   ![Login \*mobile\_border](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/apple_id.png)
+   ![Login \*mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/ios/app_store/apple_id.png)
 
 That’s it! Now try to [download AdGuard VPN from the App Store](https://apps.apple.com/us/app/adguard-vpn-unlimited-fast/id1525373602) again.
 
 You can always switch back to your default account this way.
+
+## Related articles
+
+- [Installation and removal](/adguard-vpn-for-ios/installation/)
+- [How to install AdGuard VPN on older OS versions](/general/older_os/)

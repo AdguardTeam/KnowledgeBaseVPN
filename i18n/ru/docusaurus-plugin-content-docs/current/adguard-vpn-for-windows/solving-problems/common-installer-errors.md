@@ -1,6 +1,6 @@
 ---
 title: Типичные ошибки установщика
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 В этой статье собраны наиболее частые ошибки, с которыми вы можете столкнуться во время установки AdGuard для Windows, и возможные пути их решения.
@@ -104,3 +104,8 @@ sidebar_position: 2
 - Найдите и сохраните на диск логи **Просмотра событий**. [Наша статья](https://adguard.com/kb/adguard-for-windows/solving-problems/system-logs/) объясняет, как это сделать.
 
 Пожалуйста, отправьте файлы из двух предыдущих шагов команде поддержки по адресу **support@adguard.com** и опишите проблему. Наши специалисты ответят вам в кратчайшее время.
+
+## Related articles
+
+- [Installation and removal](/adguard-vpn-for-windows/installation/)
+- [How to collect and send logs](/adguard-vpn-for-windows/solving-problems/logs/)

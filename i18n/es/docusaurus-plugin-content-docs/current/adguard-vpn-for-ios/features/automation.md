@@ -1,6 +1,6 @@
 ---
 title: Automatización
-sidebar_position: 2
+sidebar_position: 8
 sidebar_label: Automatización
 ---
 
@@ -35,3 +35,7 @@ Si no necesitas usar VPN en casa, configúrala para que se apague cuando te cone
 ## Vuelve a activar AdGuard VPN al salir
 
 Repite los pasos anteriores, pero elige _Está desconectado_ en lugar de _Está conectado_, activa _Ejecutar inmediatamente_ y establece la acción en _Conectar_.
+
+## Related articles
+
+- [Shortcuts](/adguard-vpn-for-ios/features/shortcuts/)

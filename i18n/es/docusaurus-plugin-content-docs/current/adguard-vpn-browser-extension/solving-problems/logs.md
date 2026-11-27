@@ -1,6 +1,6 @@
 ---
 title: Cómo recopilar y enviar registros
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 Hay varias formas de recopilar registros de la extensión del navegador AdGuard VPN, pero cualquiera que elijas, se recopilarán los mismos datos. En la extensión, los registros no se dividen en estándar y de debug. Y se proporcionan diferentes opciones para recopilar registros para aquellos casos en que un problema que encuentres te impida usar una u otra instrucción.
@@ -75,3 +75,7 @@ Ahora que has recopilado los registros, debes enviarlos a nuestro equipo de desa
 
 1. Reportar un error en GitHub. En este artículo puedes encontrar instrucciones detalladas sobre cómo crear una propuesta en GitHub.
 1. Envía un archivo con registros y tiempo de reproducción a `devteam@adguard.com` y adjunta un enlace a tu problema de GitHub. También puedes agregar un archivo con registros y tiempo de reproducción a Google Drive y compartirlo con `devteam@adguard.com` adjuntando el enlace de Google Drive a tu propuesta en GitHub.
+
+## Related articles
+
+- [How to report a bug](/community-guides/report-a-bug/)

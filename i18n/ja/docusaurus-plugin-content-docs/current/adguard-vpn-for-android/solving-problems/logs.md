@@ -1,6 +1,6 @@
 ---
 title: ログの収集と送信方法
-sidebar_position: 2
+sidebar_position: 7
 ---
 
 AdGuard VPN for Android の使用時に問題が発生した場合、アプリのログを送信することで問題についての情報をお知らせいただくことが可能です。
@@ -40,3 +40,7 @@ AdGuard VPN for Android の使用時に問題が発生した場合、アプリ�
 1. In the form that opens, enter your email address for feedback and describe the error you found, including the time when it occurred.
 
 1. Check mark next to *Send app logs and system info* and tap *Send*.
+
+## Related articles
+
+- [Troubleshooting AdGuard VPN connection issues](/adguard-vpn-for-android/solving-problems/connection-issues/)

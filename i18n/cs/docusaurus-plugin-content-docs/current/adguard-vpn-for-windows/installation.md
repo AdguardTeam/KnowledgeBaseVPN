@@ -1,6 +1,6 @@
 ---
 title: Instalace a odstranění
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 ## Požadavky na systém
@@ -80,3 +80,7 @@ Kromě spuštění pokročilého odinstalátoru v uživatelsky interaktivním re
 Pro úspěšné odinstalování je nutné použít parametry `/console` a `/vpn`. Parametry `/advanced` a `/settings` jsou volitelné.
 
 :::
+
+## Related articles
+
+- [Common installer errors](/adguard-vpn-for-windows/solving-problems/common-installer-errors/)

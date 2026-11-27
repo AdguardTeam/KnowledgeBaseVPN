@@ -1,8 +1,13 @@
 ---
 title: Как настроить фоновую работу AdGuard VPN
-sidebar_position: 1
+sidebar_position: 3
 ---
 
 Приложения на Android-устройствах не всегда продолжают работать и оставаться в фоновом режиме по нескольким причинам. Чаще всего это происходит из-за встроенной функции оптимизации ОС Android или из-за включения режима энергосбережения. Поэтому система закрывает приложения для того, чтобы снизить нагрузку и освободить оперативную память.
 
 Если вы выключите AdGuard VPN, личные данные на вашем устройстве могут стать уязвимыми. Чтобы избежать этого, перейдите [по ссылке](https://adguard.com/kb/adguard-for-android/solving-problems/background-work/) и следуйте инструкциям для вашего устройства с одним отличием: везде, где требуется, вместо AdGuard выбирайте AdGuard VPN.
+
+## Related articles
+
+- [Problems with Restricted Mode profile](/adguard-vpn-for-android/solving-problems/restricted-mode/)
+- [How to collect and send logs](/adguard-vpn-for-android/solving-problems/logs/)

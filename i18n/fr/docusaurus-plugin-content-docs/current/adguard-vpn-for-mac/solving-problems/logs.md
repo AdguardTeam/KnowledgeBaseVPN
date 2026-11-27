@@ -1,6 +1,6 @@
 ---
 title: Comment collecter et envoyer des journaux
-sidebar_position: 1
+sidebar_position: 3
 ---
 
 If you encounter any problems while using AdGuard VPN for Mac, you can inform us about it by sending application logs.
@@ -48,3 +48,8 @@ If for some reason it is more convenient for you to send us logs in another way,
 :::
 
 Cette rubrique est mise à jour régulièrement. Si vous n'avez pas trouvé de solution à votre problème dans les articles donnés dans cette section, contactez l'assistance technique de AdGuard à l'adresse support@adguard-vpn.com.
+
+## Related articles
+
+- [Troubleshooting AdGuard VPN connection issues](/adguard-vpn-for-mac/solving-problems/connection-issues/)
+- [Advanced settings](/adguard-vpn-for-mac/features/advanced-settings/)

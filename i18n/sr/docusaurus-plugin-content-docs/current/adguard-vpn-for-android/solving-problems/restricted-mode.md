@@ -71,3 +71,8 @@ Owners of **LG** or **Samsung** phones may also encounter a similar issue. It ca
 - Scroll down and then press **Dual App**;
 - Remove all apps from the list;
 - Reboot your device.
+
+## Related articles
+
+- [How to protect AdGuard VPN from being disabled by the system](/adguard-vpn-for-android/solving-problems/background-work/)
+- [How to collect and send logs](/adguard-vpn-for-android/solving-problems/logs/)

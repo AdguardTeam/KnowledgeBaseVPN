@@ -1,6 +1,6 @@
 ---
 title: AdGuard VPN'de ne tür şifreleme kullanılır
-sidebar_position: 7
+sidebar_position: 3
 ---
 
 ## Giriş
@@ -26,3 +26,7 @@ Farklı anahtar boyutları vardır — 128, 192 ve 256 bit — ve bloklar da bit
 Turlar birkaç adımdan oluşur: verileri bloklara ayırma, baytları değiştirme, satırları kaydırma ve sütunları yeniden düzenlemek. Sonuç, yalnızca doğru şifreleme anahtarı kullanıldığında anlamlı olacak tamamen rastgele bir karakter kümesidir.
 
 AES-256 en güçlü şifreleme seviyesidir: bu şifreyi kırmak için her biri 78 basamaktan oluşan 2256 ayrı kombinasyonun denenmesi gerekir.
+
+## Related articles
+
+- [How VPN works](/general/how-vpn-works/)

@@ -39,3 +39,8 @@ Sorun devam ederse iki çözüm olabilir:
 - Güvenlik duvarları ve üçüncü taraf DNS hizmetleri
 
 Bilgisayarınızı yeniden başlatın ve sorunun çözülüp çözülmediğini kontrol edin. Sorun devam ederse, lütfen support@adguard-vpn.com adresinden AdGuard VPN destek ekibiyle iletişime geçin.
+
+## Related articles
+
+- [How to collect and send logs](/adguard-vpn-for-mac/solving-problems/logs/)
+- [Advanced settings](/adguard-vpn-for-mac/features/advanced-settings/)

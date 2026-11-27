@@ -1,6 +1,6 @@
 ---
 title: Проблемы с подключением при использовании IKEv2
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 Для роутеров AdGuard VPN использует протокол IKEv2, который широко поддерживается, однако может быть легко обнаружен. По этой причине доступ может быть ограничен в некоторых регионах (например, в Беларуси, Казахстане или России) или в ограниченных сетевых средах, таких как корпоративные или школьные сети. В таких случаях вы увидите сообщение _Нет соединения_.
@@ -9,4 +9,9 @@ sidebar_position: 1
 
 Если вы находитесь в другой стране и не можете подключиться к AdGuard VPN на своем роутере, убедитесь, что он поддерживает IKEv2. Если это так, но проблема не остаётся, обратитесь в службу поддержки по адресу [support@adguard-vpn.com](mailto:support@adguard-vpn.com).
 
-Вы также можете подключиться к нашим серверам, используя [AdGuard VPN для Linux](/adguard-vpn-for-linux/setting-up-on-a-router), который поддерживают многие роутеры Keenetic, OpenWRT и Asuswrt-Merlin. Чтобы убедиться, что ваш роутер поддерживает AdGuard VPN, проверьте, можете ли вы установить **Entware**, менеджер пакетов, необходимый для установки AdGuard VPN на роутер. Если да, то они, скорее всего, совместимы.
+You can also connect to our servers using [AdGuard VPN for Linux](/adguard-vpn-for-linux/installation-and-setup/setting-up-on-a-router), which supports many Keenetic, OpenWRT, and Asuswrt-Merlin routers. Чтобы убедиться, что ваш роутер поддерживает AdGuard VPN, проверьте, можете ли вы установить **Entware**, менеджер пакетов, необходимый для установки AdGuard VPN на роутер. Если да, то они, скорее всего, совместимы.
+
+## Related articles
+
+- [What is PSK (Pre-shared key)](/adguard-vpn-for-routers/solving-problems/pre-shared-key/)
+- [Setting up on a router](/adguard-vpn-for-linux/installation-and-setup/setting-up-on-a-router/)

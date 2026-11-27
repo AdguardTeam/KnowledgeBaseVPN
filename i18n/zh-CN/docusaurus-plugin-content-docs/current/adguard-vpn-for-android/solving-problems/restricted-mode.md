@@ -5,7 +5,7 @@ sidebar_position: 4
 
 运行 Android 7 及以上操作系统的手机和平板电脑用户可能会因为**限制模式下的账户**而遇到问题。如果您有这样的账户，**AdGuard VPN** 和其他使用 VPN 的应用在处理 VPN 流量的时候会受到限制。此外，在您的设备上使用**应用分身/双账户**也可能导致此问题。下面是发生此问题时的解决建议。
 
-## 解决方案
+## Solutions
 
 您有两种方法可以解决此问题：
 
@@ -71,3 +71,8 @@ In some cases restricted user accounts are created implicitly and cannot be remo
 - 下滑并点击「**应用分身**」；
 - Remove all apps from the list;
 - 重启设备。
+
+## Related articles
+
+- [How to protect AdGuard VPN from being disabled by the system](/adguard-vpn-for-android/solving-problems/background-work/)
+- [How to collect and send logs](/adguard-vpn-for-android/solving-problems/logs/)

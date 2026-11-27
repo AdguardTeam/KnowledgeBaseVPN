@@ -1,6 +1,6 @@
 ---
 title: Quel type de chiffrement est utilisé dans AdGuard VPN
-sidebar_position: 7
+sidebar_position: 3
 ---
 
 ## Introduction
@@ -26,3 +26,7 @@ Il existe différentes tailles de clé - 128, 192 et 256 bits - et les blocs son
 Les tours se composent de plusieurs étapes : diviser les données en blocs, échanger des octets, déplacer des lignes et réorganiser les colonnes. The result is a completely random set of characters that will only make sense when using the right encryption key.
 
 AES-256 is the strongest level of encryption: to break this cipher, 2256 discrete combinations, each consisting of 78 digits, would have to be tried.
+
+## Related articles
+
+- [How VPN works](/general/how-vpn-works/)

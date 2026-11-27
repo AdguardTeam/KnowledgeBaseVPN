@@ -1,6 +1,6 @@
 ---
 title: Instalación y eliminación
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 ## Cómo instalar la extensión del navegador AdGuard VPN

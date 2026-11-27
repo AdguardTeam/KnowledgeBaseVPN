@@ -1,6 +1,6 @@
 ---
 title: Jak shromažďovat a odesílat protokoly
-sidebar position: 1
+sidebar_position: 4
 ---
 
 Pokud při používání AdGuard VPN pro Windows narazíte na problém, můžete nás o něm informovat. Uvítali bychom, kdybyste zasílali také protokoly aplikací, protože nám pomáhají řešit problémy mnohem rychleji.
@@ -82,3 +82,8 @@ Pokud při pokusu o export protokolů narazíte na problémy, existuje alternati
 1. Odešlete protokol našemu týmu podpory
 
 :::
+
+## Related articles
+
+- [Troubleshooting AdGuard VPN connection issues](/adguard-vpn-for-windows/solving-problems/connection-issues/)
+- [Advanced settings](/adguard-vpn-for-windows/features/advanced-settings/)

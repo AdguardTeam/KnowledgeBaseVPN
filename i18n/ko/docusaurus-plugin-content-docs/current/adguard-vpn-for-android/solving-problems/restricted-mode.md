@@ -5,7 +5,7 @@ sidebar_position: 4
 
 Android 7 이상 운영 체제를 실행하는 휴대폰 또는 태블릿 사용자는 **제한 모드 프로필** 사용 시 문제를 겪을 수 있습니다. 제한 모드 프로파일을 사용하는 경우 VPN을 사용하는 다른 응용 프로그램과 마찬가지로 **AdGuard VPN**의 VPN 트래픽 필터링 선택에 제한이 발생합니다. 또한 **듀얼 앱/듀얼 메신저 프로필**을 사용할 때 이 문제가 발생할 수 있습니다. 해당 문제를 해결하는 방법은 다음과 같습니다.
 
-## 솔루션
+## Solutions
 
 문제를 해결하는 두 가지 방법이 있습니다.
 
@@ -71,3 +71,8 @@ Android 기기에서 사용자 계정을 관리하는 방법은 [여기](https:/
 - 아래로 스크롤한 다음 **듀얼 앱**를 누릅니다.
 - 목록에서 모든 앱을 제거합니다.
 - 기기를 재부팅합니다.
+
+## Related articles
+
+- [How to protect AdGuard VPN from being disabled by the system](/adguard-vpn-for-android/solving-problems/background-work/)
+- [How to collect and send logs](/adguard-vpn-for-android/solving-problems/logs/)

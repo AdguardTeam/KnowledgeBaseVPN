@@ -33,7 +33,7 @@ A VPN creates a tunnel between your device and the VPN server. Your data goes th
 
 VPN security protocols are tools that encrypt data in a VPN tunnel and allow you to maintain user privacy in the open Internet. At the moment, the vast majority of modern VPN services use one of the following three VPN protocols:
 
-1. [_IPSec_](https://en.wikipedia.org/wiki/IPsec). One of its main advantages is that it is available on most devices and operating systems and provides a high level of security. However, the use of double [encapsulation](https://en.wikipedia.org/wiki/Encapsulation_\(networking\)) in this protocol may result in a lower connection speed.
+1. [_IPSec_](https://en.wikipedia.org/wiki/IPsec). One of its main advantages is that it is available on most devices and operating systems and provides a high level of security. However, the use of double [encapsulation](https://en.wikipedia.org/wiki/Encapsulation_(networking)) in this protocol may result in a lower connection speed.
 
 2. [_OpenVPN_](https://en.wikipedia.org/wiki/OpenVPN). This modern protocol is open source, so third-party manufacturers can improve and update the technology.
 
@@ -77,14 +77,19 @@ Our VPN service has several important [advantages](/general/why-adguard-vpn):
 
 Currently, AdGuard VPN is available as:
 
-- [Browser extension](/adguard-vpn-browser-extension/overview) for Chrome, Edge, Firefox, and Opera
+- [Browser extension](/adguard-vpn-browser-extension/) for Chrome, Edge, Firefox, and Opera
 
-- Mobile app for [Android](/adguard-vpn-for-android/overview) and [iOS](/adguard-vpn-for-ios/overview)
+- Mobile app for [Android](/adguard-vpn-for-android/) and [iOS](/adguard-vpn-for-ios/)
 
-- Desktop application for [Windows](/adguard-vpn-for-windows/overview) and [Mac](/adguard-vpn-for-mac/overview)
+- Desktop application for [Windows](/adguard-vpn-for-windows/) and [Mac](/adguard-vpn-for-mac/)
 
 - Command-line interface for [Linux, Mac, and some routers](/adguard-vpn-for-linux/)
 
-- A VPN client for [routers](/general/set-up-adguard-vpn-on-your-router/)
+- A VPN client for [routers](/adguard-vpn-for-routers/)
 
 [Learn more about AdGuard VPN features](https://adguard-vpn.com/welcome.html)
+
+## Related articles
+
+- [Why AdGuard VPN is the better option](/general/why-adguard-vpn/)
+- [What type of encryption is used in AdGuard VPN](/general/adguard-vpn-encryption/)

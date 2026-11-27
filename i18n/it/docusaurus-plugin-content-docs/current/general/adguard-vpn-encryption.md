@@ -1,6 +1,6 @@
 ---
 title: Che tipo di crittografia viene utilizzata in AdGuard VPN
-sidebar_position: 7
+sidebar_position: 3
 ---
 
 ## Introduzione
@@ -26,3 +26,7 @@ Esistono chiavi di diverse dimensioni - 128, 192 e 256 bit - e anche i blocchi s
 I round consistono in diverse fasi: suddivisione dei dati in blocchi, scambio di byte, spostamento di righe e riordino di colonne. The result is a completely random set of characters that will only make sense when using the right encryption key.
 
 AES-256 is the strongest level of encryption: to break this cipher, 2256 discrete combinations, each consisting of 78 digits, would have to be tried.
+
+## Related articles
+
+- [How VPN works](/general/how-vpn-works/)

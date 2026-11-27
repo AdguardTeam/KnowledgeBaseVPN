@@ -102,3 +102,8 @@ Kill Switch необходим, если вы, например, часто ис
 ![Тёмная тема *mobile_border](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/main_en_black.png)
 
 Эта маленькая «функция» заслуживает отдельного упоминания. На самом деле, многие пользователи обожают тёмный режим, поэтому мы не могли проигнорировать это и добавили выбор темы во все продукты AdGuard VPN. Выбирайте, какая вам нравится больше — светлая, тёмная или системная. Надеемся, вы уже перешли на тёмную сторону.
+
+## Related articles
+
+- [How VPN works](/general/how-vpn-works/)
+- [VPN modes and Exclusion lists](/general/vpn-modes-exclusions/)

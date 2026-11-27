@@ -1,6 +1,6 @@
 ---
 title: 安装和卸载
-sidebar_position: 2
+sidebar_position: 4
 ---
 
 ## 系统要求
@@ -31,4 +31,9 @@ Android 7 用户在 AdGuard VPN 网站的下载区找不到兼容的应用版本
 
 如果您决定删除 AdGuard VPN Android 版，请找到该应用的图标并长按。在打开的列表中，点按「*卸载*」。
 
-您可以在这篇[文章](/adguard-vpn-for-android/overview)中进一步了解 AdGuard VPN Android 版。
+You can learn more about the AdGuard VPN for Android in [this article](/adguard-vpn-for-android/).
+
+## Related articles
+
+- [Troubleshooting AdGuard VPN connection issues](/adguard-vpn-for-android/solving-problems/connection-issues/)
+- [How to install AdGuard VPN on older OS versions](/general/older_os/)

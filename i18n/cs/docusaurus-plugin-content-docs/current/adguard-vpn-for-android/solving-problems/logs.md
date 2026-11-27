@@ -1,6 +1,6 @@
 ---
 title: Jak shromažďovat a odesílat protokoly
-sidebar_position: 2
+sidebar_position: 7
 ---
 
 Pokud při používání AdGuard VPN pro Android narazíte na problém, můžete nás o něm informovat zasláním protokolů aplikace.
@@ -40,3 +40,7 @@ Ve většině případů je **Výchozí** úroveň záznamů dostatečná pro do
 1. V otevřeném formuláři zadejte svou e-mailovou adresu a popište nalezenou chybu včetně času, kdy k ní došlo.
 
 1. Zaškrtněte políčko vedle *Odeslat záznamy aplikací a systémové informace* a klepněte na *Odeslat*.
+
+## Related articles
+
+- [Troubleshooting AdGuard VPN connection issues](/adguard-vpn-for-android/solving-problems/connection-issues/)

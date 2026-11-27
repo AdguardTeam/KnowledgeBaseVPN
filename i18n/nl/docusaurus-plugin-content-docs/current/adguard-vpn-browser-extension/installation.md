@@ -1,6 +1,6 @@
 ---
 title: Installatie en verwijdering
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 ## Hoe installeer je de browseruitbreiding van AdGuard VPN

@@ -1,6 +1,6 @@
 ---
 title: 설치와 제거
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 ## AdGuard VPN 확장 프로그램을 설치하는 방법

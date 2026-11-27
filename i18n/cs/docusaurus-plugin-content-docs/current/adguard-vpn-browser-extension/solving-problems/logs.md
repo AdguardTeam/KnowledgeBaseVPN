@@ -1,6 +1,6 @@
 ---
 title: Jak shromažďovat a odesílat záznamy
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 Existuje několik způsobů shromažďování záznamů rozšíření prohlížeče AdGuard VPN, ale bez ohledu na to, který z nich zvolíte, budou shromažďovány stejné údaje. V rozšíření nejsou záznamy rozděleny na standardní a ladicí. Pro případy, kdy se vyskytne problém, který vám brání v použití jednoho nebo druhého pokynu, jsou k dispozici různé možnosti sběru záznamů.
@@ -75,3 +75,7 @@ Po shromáždění záznamů je třeba je předat našemu vývojovému týmu. K 
 
 1. Nahlásit chybu na GitHub. Podrobné pokyny k vytvoření problému na GitHubu najdete v tomto článku.
 1. Odešlete archiv s protokoly a časem záznamu na adresu `devteam@adguard.com` and attach a link to your GitHub issue. Archiv s protokoly a časem záznamu můžete také přidat na Disk Google a sdílet jej pomocí `devteam@adguard.com` a připojit odkaz na Disk Google ke svému problému na GitHubu.
+
+## Related articles
+
+- [How to report a bug](/community-guides/report-a-bug/)

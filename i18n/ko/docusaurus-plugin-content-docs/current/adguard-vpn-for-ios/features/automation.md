@@ -1,6 +1,6 @@
 ---
 title: 자동화
-sidebar_position: 2
+sidebar_position: 8
 sidebar_label: 자동화
 ---
 
@@ -35,3 +35,7 @@ sidebar_label: 자동화
 ## 집을 나설 때 AdGuard VPN 다시 켜기
 
 위 단계를 반복하되, **연결될 때** 대신 **연결 해제될 때**를 선택하고 **즉시 실행**을 켠 다음 동작을 **연결**로 설정합니다.
+
+## Related articles
+
+- [Shortcuts](/adguard-vpn-for-ios/features/shortcuts/)

@@ -5,7 +5,7 @@ sidebar_position: 4
 
 Die Besitzer von Handys und Tablets mit dem Betriebssystem Android 7+ könnten mit dem Problem konfrontiert werden, das durch die Verwendung von **einem Profil mit eingeschränktem Modus** verursacht wird. Wenn Sie über ein solches Profil verfügen, erhält **AdGuard VPN** wie andere Apps, die VPN verwenden, Einschränkungen für die selektive Behandlung von VPN-Datenverkehr. Einer der Gründe für dieses Problem kann auch die Verwendung von **Dual App/Dual Messenger-Profil** auf Ihrem Gerät sein. Unten finden Sie die Empfehlungen, die Sie anwenden können, wenn dieses Problem auftritt.
 
-## Lösungen
+## Solutions
 
 Sie haben zwei Möglichkeiten, das Problem zu lösen:
 
@@ -71,3 +71,8 @@ Besitzer von **LG** oder **Samsung** Handys können ebenfalls auf ein ähnliches
 - Scrollen Sie nach unten und drücken Sie dann **Dual App**;
 - Entfernen Sie alle Apps aus der Liste;
 - Starten Sie Ihr Gerät neu.
+
+## Related articles
+
+- [How to protect AdGuard VPN from being disabled by the system](/adguard-vpn-for-android/solving-problems/background-work/)
+- [How to collect and send logs](/adguard-vpn-for-android/solving-problems/logs/)

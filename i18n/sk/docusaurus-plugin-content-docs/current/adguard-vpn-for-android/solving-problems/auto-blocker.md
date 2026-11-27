@@ -1,6 +1,6 @@
 ---
 title: How to disable the Samsung Auto Blocker feature
-sidebar_position: 7
+sidebar_position: 6
 ---
 
 Starting with One UI 6.1.1 (Android 14), Samsung introduced a security enhancement called _Auto Blocker_, which is enabled by default on the latest Galaxy smartphones. This feature automatically blocks sideloaded apps from unverified sources unless the user manually overrides the setting.
@@ -21,3 +21,8 @@ Follow the instructions to turn off _Auto Blocker_.
 Once _Auto Blocker_ is disabled, you can proceed with installing AdGuard VPN.
 
 ![Tap Install \*mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/install_en.png)
+
+## Related articles
+
+- [How to protect AdGuard VPN from being disabled by the system](/adguard-vpn-for-android/solving-problems/background-work/)
+- [How to collect and send logs](/adguard-vpn-for-android/solving-problems/logs/)

@@ -1,6 +1,6 @@
 ---
 title: Jaký typ šifrování je používán v AdGuard VPN
-sidebar_position: 7
+sidebar_position: 3
 ---
 
 ## Úvod
@@ -26,3 +26,7 @@ Existují různé velikosti klíčů — 128, 192 a 256 bitů — bloky se také
 Kola se skládají z několika kroků: rozdělení dat do bloků, prohození bajtů, posunutí řádků a přeskupení sloupců. Výsledkem je zcela náhodná sada znaků, která dává smysl pouze při použití správného šifrovacího klíče.
 
 AES-256 je nejsilnější úroveň šifrování: k prolomení této šifry by bylo třeba vyzkoušet 2256 diskrétních kombinací, z nichž každá se skládá ze 78 číslic.
+
+## Related articles
+
+- [How VPN works](/general/how-vpn-works/)

@@ -1,6 +1,6 @@
 ---
 title: Samsung Otomatik Engelleyici özelliği nasıl devre dışı bırakılır
-sidebar_position: 7
+sidebar_position: 6
 ---
 
 Samsung, One UI 6.1.1 (Android 14) sürümüyle birlikte en son Galaxy akıllı telefonlarda varsayılan olarak etkin olan _Otomatik Engelleyici_ adı verilen bir güvenlik geliştirmesi sundu. Bu özellik, kullanıcı ayarı elle geçersiz kılmadığı sürece doğrulanmamış kaynaklardan yandan yüklenen uygulamaları otomatik olarak engeller.
@@ -21,3 +21,8 @@ _Otomatik Engelleyici'yi_ kapatmak için talimatları izleyin.
 _Otomatik Engelleyici_ devre dışı bırakıldıktan sonra AdGuard VPN'i yüklemeye devam edebilirsiniz.
 
 ![Yükle öğesine dokun \*mobile_border](https://cdn.adguard-vpn.com/content/kb/vpn/android/install_en.png)
+
+## Related articles
+
+- [How to protect AdGuard VPN from being disabled by the system](/adguard-vpn-for-android/solving-problems/background-work/)
+- [How to collect and send logs](/adguard-vpn-for-android/solving-problems/logs/)

@@ -8,3 +8,8 @@ Yerleşik Chromecast teknolojisi, VPN bağlantılarını desteklemeyen [DLNA pro
 Google, DNS ayarlarına erişimi kısıtlayarak Chromecast'in ağ ayarlarını değiştirme olanağını da engelledi. Bu, Chromecast'in bir VPN ile çalışmasını da engeller.
 
 Bir yönlendirici üzerinde VPN ayarlayarak sorunu çözebilirsiniz. Bu, yönlendiriciye bağlı tüm cihazların Chromecast dahil olmak üzere VPN bağlantısını kullanmasına izin verir. Ancak unutmayın: yönlendiricinizde bir VPN ayarlamak ek bilgi gerektirebilir, bu nedenle üreticinin kılavuzunu okuyun.
+
+## Related articles
+
+- [General setup on most routers](/adguard-vpn-for-routers/installation/general-setup/)
+- [Setting up on a router](/adguard-vpn-for-linux/installation-and-setup/setting-up-on-a-router/)

@@ -1,6 +1,6 @@
 ---
 title: インストールと削除方法
-sidebar_position: 2
+sidebar_position: 4
 ---
 
 ## 動作環境
@@ -31,4 +31,9 @@ Android 7は最新の安定版ではサポートされなくなったため、An
 
 AdGuard VPN for Androidを削除することを決めた場合、アプリのアイコンを見つけて長押ししてください。開いたリストで、「*アンインストール*」をタップします。
 
-Android用AdGuard VPNについて、 [こちらの記事](/adguard-vpn-for-android/overview)で詳しく説明しておりますので、よければご確認ください。
+You can learn more about the AdGuard VPN for Android in [this article](/adguard-vpn-for-android/).
+
+## Related articles
+
+- [Troubleshooting AdGuard VPN connection issues](/adguard-vpn-for-android/solving-problems/connection-issues/)
+- [How to install AdGuard VPN on older OS versions](/general/older_os/)

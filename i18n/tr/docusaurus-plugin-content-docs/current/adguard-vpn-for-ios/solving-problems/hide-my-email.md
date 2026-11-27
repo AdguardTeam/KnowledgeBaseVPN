@@ -1,6 +1,6 @@
 ---
 title: E-postamı Gizle nasıl kullanılır
-sidebar_position: 6
+sidebar_position: 5
 ---
 
 Apple'ın *E-postamı Gizle* özelliği, Apple ID kullanan sitelere ve uygulamalara kaydolurken gerçek e-posta adresinizi gizli tutmak için harika bir araçtır. Özel yazışmalar için bile kullanabilir ve gelen tüm mesajları normal bir e-posta hesabında yaptığınız gibi yönetebilirsiniz. Bu şekilde, gizliliğinizi koruyabilir ve gerçek e-posta adresinizi meraklı gözlerden uzak tutabilirsiniz.
@@ -18,3 +18,7 @@ Gelen mesajları gerçek adresinize ileten benzersiz ve rastgele bir e-posta adr
 *E-postamı Gizle* özelliği Apple'ın Mail uygulamasında da mevcuttur. Gerçek e-posta adresinizi açıklamadan bir e-posta göndermek için mesajınızı oluştururken *Kimden* alanında *E-postamı Gizle* öğesini seçmeniz yeterlidir.
 
 DuckDuckGo'nun *E-posta Koruması* hizmeti de benzer şekilde çalışır. `@duck.com` e-posta adresine sahip olursunuz, kayıtlar ve bültenler için e-posta takma adları oluşturabilirsiniz. Bu takma adlar çok fazla spam çekmeye başlarsa, kolayca silinebilirler.
+
+## Related articles
+
+- [How to activate](/general/activate-subscription/)

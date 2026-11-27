@@ -1,6 +1,6 @@
 ---
 title: 安装和移除
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 ## 如何安装 AdGuard VPN 浏览器扩展

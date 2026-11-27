@@ -1,6 +1,6 @@
 ---
 title: Устранение неполадок с подключением AdGuard VPN
-sidebar_position: 3
+sidebar_position: 2
 ---
 
 Проблемы с подключением AdGuard VPN обычно связаны либо с сетью (затрагивают опредлённые сети Wi-Fi), либо с устройством (возникают во всех подключениях). Следующие разделы помогут вам выявить и решить эти проблемы. Прежде чем продолжить, убедитесь, что вы используете последнюю версию AdGuard VPN и попробовали перезагрузить как ваше устройство, так и роутер.
@@ -39,3 +39,8 @@ sidebar_position: 3
 2. Перезагрузите компьютер и проверьте, получилось ли устранить проблему.
 
 Если нет, обратитесь в службу поддержки AdGuard VPN по адресу support@adguard-vpn.com.
+
+## Related articles
+
+- [How to collect and send logs](/adguard-vpn-for-windows/solving-problems/logs/)
+- [Advanced settings](/adguard-vpn-for-windows/features/advanced-settings/)

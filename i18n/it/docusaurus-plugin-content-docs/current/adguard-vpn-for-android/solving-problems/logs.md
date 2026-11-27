@@ -1,6 +1,6 @@
 ---
 title: Come raccogliere e inviare i registri
-sidebar_position: 2
+sidebar_position: 7
 ---
 
 Se riscontri qualsiasi problema utilizzando AdGuard VPN per Android, puoi informarci a riguardo inviando i registri dell'app.
@@ -40,3 +40,7 @@ Nella maggior parte dei casi, il livello di registrazione **Predefinito** è suf
 1. In the form that opens, enter your email address for feedback and describe the error you found, including the time when it occurred.
 
 1. Check mark next to *Send app logs and system info* and tap *Send*.
+
+## Related articles
+
+- [Troubleshooting AdGuard VPN connection issues](/adguard-vpn-for-android/solving-problems/connection-issues/)

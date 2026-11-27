@@ -1,6 +1,6 @@
 ---
 title: 로그 수집 및 전송 방법
-sidebar_position: 1
+sidebar_position: 3
 ---
 
 If you encounter any problems while using AdGuard VPN for Mac, you can inform us about it by sending application logs.
@@ -48,3 +48,8 @@ If for some reason it is more convenient for you to send us logs in another way,
 :::
 
 이 섹션은 정기적으로 업데이트됩니다. 이 섹션에서 문제에 대한 해결책을 찾지 못한 경우, support@adguard-vpn.com으로 AdGuard 기술 지원에 문의해 주세요.
+
+## Related articles
+
+- [Troubleshooting AdGuard VPN connection issues](/adguard-vpn-for-mac/solving-problems/connection-issues/)
+- [Advanced settings](/adguard-vpn-for-mac/features/advanced-settings/)

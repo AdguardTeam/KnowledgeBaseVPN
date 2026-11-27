@@ -1,6 +1,6 @@
 ---
 title: Günlükler nasıl toplanır ve gönderilir
-sidebar position: 1
+sidebar_position: 4
 ---
 
 Windows için AdGuard VPN kullanırken herhangi bir sorunla karşılaşırsanız, bizi bu konuda bilgilendirebilirsiniz. Sorunları daha hızlı çözmemize yardımcı oldukları için uygulama günlüklerini de gönderirseniz çok memnun oluruz.
@@ -82,3 +82,8 @@ Günlükleri dışa aktarmaya çalışırken herhangi bir sorunla karşılaşır
 1. Bunu destek ekibimize gönderin
 
 :::
+
+## Related articles
+
+- [Troubleshooting AdGuard VPN connection issues](/adguard-vpn-for-windows/solving-problems/connection-issues/)
+- [Advanced settings](/adguard-vpn-for-windows/features/advanced-settings/)

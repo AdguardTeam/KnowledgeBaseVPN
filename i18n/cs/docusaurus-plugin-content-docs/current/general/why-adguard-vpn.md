@@ -102,3 +102,8 @@ Neschvalujeme používání AdGuard VPN k obcházení předpisů o autorských p
 ![Dark mode *mobile_border](https://cdn.adguardvpn.com/public/Adguard/Blog/vpn/main_en_black.png)
 
 Tato drobnost si zaslouží zvláštní zmínku. Mnoho uživatelů touží po tmavém motivu, takže jsme to nemohli ignorovat a přidali jsme přepínač motivů pro všechny produkty AdGuard VPN. Vyberte si ten, který se vám líbí více — světlý, tmavý nebo podle systému. Doufám, že se přidáte na temnou stranu.
+
+## Related articles
+
+- [How VPN works](/general/how-vpn-works/)
+- [VPN modes and Exclusion lists](/general/vpn-modes-exclusions/)

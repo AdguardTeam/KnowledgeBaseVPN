@@ -1,6 +1,6 @@
 ---
 title: How to collect and send logs
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 There are several ways for collecting AdGuard VPN Browser extension logs, but whichever one you choose, the same data will be collected. In the extension, logs are not divided into standard and debug ones. And different options for collecting logs are provided for those cases when a problem you encounter prevents you from using one or another instruction.
@@ -75,3 +75,7 @@ Now that you have collected the logs, you need to hand them over to our developm
 
 1. Report a bug on GitHub. Detailed instructions on creating an issue on GitHub can be found in this article.
 1. Send an archive with logs and playback time to `devteam@adguard.com` and attach a link to your GitHub issue. Also you can add an archive with logs and playback time to Google Drive and share it with `devteam@adguard.com` attaching the Google Drive link to your issue on GitHub.
+
+## Related articles
+
+- [How to report a bug](/community-guides/report-a-bug/)

@@ -1,6 +1,6 @@
 ---
 title: Welcher Verschlüsselungstyp wird in AdGuard VPN verwendet
-sidebar_position: 7
+sidebar_position: 3
 ---
 
 ## Einleitung
@@ -26,3 +26,7 @@ Es gibt verschiedene Schlüsselgrößen – 128, 192 und 256 Bit – und die Bl�
 Die Runden bestehen aus mehreren Schritten: Daten in Blöcke aufteilen, Bytes ersetzen, Zeilen verschieben und Spalten neu anordnen. Das Ergebnis ist ein völlig zufälliger Zeichensatz, der nur bei Verwendung des richtigen Verschlüsselungscodes Sinn ergibt.
 
 AES-256 ist die stärkste Verschlüsselungsstufe: Um diese Chiffre zu knacken, müssten 2256 diskrete Kombinationen, die jeweils aus 78 Ziffern bestehen, ausprobiert werden.
+
+## Related articles
+
+- [How VPN works](/general/how-vpn-works/)

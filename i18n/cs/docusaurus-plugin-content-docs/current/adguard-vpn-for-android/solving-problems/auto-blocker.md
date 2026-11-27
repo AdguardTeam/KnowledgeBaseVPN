@@ -1,6 +1,6 @@
 ---
 title: Jak zakázat funkci Samsung Auto Blocker
-sidebar_position: 7
+sidebar_position: 6
 ---
 
 Počínaje verzí One UI 6.1.1 (Android 14) zavedl Samsung bezpečnostní vylepšení nazvané _Auto Blocker_, které je v nejnovějších smartphonech Galaxy ve výchozím nastavení povoleno. Tato funkce automaticky blokuje aplikace načtené ze stran z neověřených zdrojů, pokud uživatel toto nastavení ručně nepřepíše.
@@ -21,3 +21,8 @@ Podle těchto pokynů vypněte _Auto Blocker_.
 Po vypnutí _Auto Blocker_ můžete pokračovat v instalaci AdGuard VPN.
 
 ![Tap Install \*mobile_border](https://cdn.adtidy.org/content/kb/vpn/android/install_en.png)
+
+## Related articles
+
+- [How to protect AdGuard VPN from being disabled by the system](/adguard-vpn-for-android/solving-problems/background-work/)
+- [How to collect and send logs](/adguard-vpn-for-android/solving-problems/logs/)

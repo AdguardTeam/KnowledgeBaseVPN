@@ -1,6 +1,6 @@
 ---
 title: 如何收集和发送日志记录
-sidebar_position: 1
+sidebar_position: 3
 ---
 
 If you encounter any problems while using AdGuard VPN for Mac, you can inform us about it by sending application logs.
@@ -48,3 +48,8 @@ If for some reason it is more convenient for you to send us logs in another way,
 :::
 
 我们定期更新本文章。如果您阅读文章后依然没找到解决问题的方法，请联系 AdGuard 技术支持：support@adguard-vpn.com。
+
+## Related articles
+
+- [Troubleshooting AdGuard VPN connection issues](/adguard-vpn-for-mac/solving-problems/connection-issues/)
+- [Advanced settings](/adguard-vpn-for-mac/features/advanced-settings/)

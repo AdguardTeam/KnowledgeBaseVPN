@@ -1,6 +1,6 @@
 ---
 title: Yaygın kurulum programı hataları
-sidebar_position: 2
+sidebar_position: 3
 ---
 
 Bu makale, Windows için AdGuard VPN kurarken karşılaşabileceğiniz en yaygın hatalardan bazılarını ve bunları çözmenin olası yollarını özetlemektedir.
@@ -104,3 +104,8 @@ Yukarıda listelenmeyen bir hatayla karşılaştıysanız, bunu kendimiz çözme
 - **Olay Görüntüleyicisi** günlüklerini bulun ve diske kaydedin. [Bu makale](https://adguard.com/kb/adguard-for-windows/solving-problems/system-logs/) bunun nasıl yapılacağını açıklar.
 
 Lütfen önceki iki adımdaki tüm bu dosyaları **support@adguard.com** adresine e-postayla gönderin ve sorunu mesaj metninde açıklayın. Destek ekibimiz en kısa sürede size cevap verir.
+
+## Related articles
+
+- [Installation and removal](/adguard-vpn-for-windows/installation/)
+- [How to collect and send logs](/adguard-vpn-for-windows/solving-problems/logs/)

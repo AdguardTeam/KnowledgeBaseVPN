@@ -1,6 +1,6 @@
 ---
 title: AdGuard VPN에서 사용되는 암호화 유형
-sidebar_position: 7
+sidebar_position: 3
 ---
 
 ## 소개
@@ -26,3 +26,7 @@ AES는 대칭 키를 사용하는 블록 암호입니다. 대칭 키 암호로�
 라운드는 데이터를 블록으로 분할, 바이트 교환, 행 이동 및 열 재정렬과 같은 여러 단계로 구성됩니다. The result is a completely random set of characters that will only make sense when using the right encryption key.
 
 AES-256 is the strongest level of encryption: to break this cipher, 2256 discrete combinations, each consisting of 78 digits, would have to be tried.
+
+## Related articles
+
+- [How VPN works](/general/how-vpn-works/)

@@ -1,6 +1,6 @@
 ---
 title: Comment utiliser Masquer mon e-mail
-sidebar_position: 6
+sidebar_position: 5
 ---
 
 Apple’s *Hide My Email* feature is a great tool to keep your real email address private when signing up for websites and apps that use Apple ID. Vous pouvez même l'utiliser pour une correspondance privée et gérer tous les messages entrants comme vous le feriez avec un compte de messagerie classique. De cette façon, vous pouvez protéger votre vie privée et garder votre véritable adresse e-mail à l’abri des regards indiscrets.
@@ -18,3 +18,7 @@ Vous pouvez générer une adresse e-mail unique et aléatoire qui transmet les m
 The *Hide My Email* feature is also available in Apple’s Mail app. Pour envoyer un e-mail sans divulguer votre véritable adresse e-mail, sélectionnez simplement *Masquer mon e-mail* dans le champ *De* lors de la rédaction de votre message.
 
 Le service de *Protection des e-mails* de DuckDuckGo fonctionne de la même manière. Vous obtenez une adresse e-mail `@duck.com` et pouvez créer des alias de messagerie pour les inscriptions et les newsletters. Si ces alias commencent à attirer trop de spam, ils peuvent être facilement supprimés.
+
+## Related articles
+
+- [How to activate](/general/activate-subscription/)

@@ -5,7 +5,7 @@ sidebar_position: 4
 
 **制限付きプロファイル**（アカウント）のあるAndroid 7以降デバイスの一部（特にSamsung Galaxy S10系端末）で起こる問題です。このようなプロファイルがある場合、**AdGuard VPN**は、VPNを使用する他アプリケーションと同様に、VPNトラフィックの選択的な処理に対する制限がかかってしまいます。また、この状況の理由の1つは、端末で**デュアルアプリ/デュアルメッセンジャー**を使用していることです。以下に、この問題が発生した場合の対策をまとめました。
 
-## 解決方法
+## Solutions
 
 現在対処方法は２つございます（多くの方にとって方法②のほうが便利かと思いますが）。
 
@@ -71,3 +71,8 @@ In some cases restricted user accounts are created implicitly and cannot be remo
 - 下にスクロールして、「**デュアルアプリ**」をタップ
 - Remove all apps from the list;
 - 端末を再起動する
+
+## Related articles
+
+- [How to protect AdGuard VPN from being disabled by the system](/adguard-vpn-for-android/solving-problems/background-work/)
+- [How to collect and send logs](/adguard-vpn-for-android/solving-problems/logs/)

@@ -1,6 +1,6 @@
 ---
 title: 自动化
-sidebar_position: 2
+sidebar_position: 8
 sidebar_label: 自动化
 ---
 
@@ -35,3 +35,7 @@ sidebar_label: 自动化
 ## 离开时重新开启 AdGuard VPN
 
 重复上述步骤，但选择「未连接」而不是「已加入」，开启「立即运行」，并将操作设置为「连接」。
+
+## Related articles
+
+- [Shortcuts](/adguard-vpn-for-ios/features/shortcuts/)

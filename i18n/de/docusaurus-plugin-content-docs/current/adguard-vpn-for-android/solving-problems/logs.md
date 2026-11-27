@@ -1,6 +1,6 @@
 ---
 title: Wie man Protokolle sammelt und versendet
-sidebar_position: 2
+sidebar_position: 7
 ---
 
 Wenn Sie bei der Verwendung von AdGuard VPN für Android auf ein Problem stoßen, können Sie uns darüber informieren, indem Sie uns die App-Protokolle senden.
@@ -40,3 +40,7 @@ In den meisten Fällen reicht die Protokollierungsebene **Standard** aus, um mö
 1. In the form that opens, enter your email address for feedback and describe the error you found, including the time when it occurred.
 
 1. Check mark next to *Send app logs and system info* and tap *Send*.
+
+## Related articles
+
+- [Troubleshooting AdGuard VPN connection issues](/adguard-vpn-for-android/solving-problems/connection-issues/)

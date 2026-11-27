@@ -1,6 +1,6 @@
 ---
 title: Установка и удаление
-sidebar_position: 3
+sidebar_position: 4
 ---
 
 ## Системные требования
@@ -42,4 +42,9 @@ AdGuard VPN может быть установлен на устройствах
 
 ![Удалить *mobile_border](https://cdn.adguardvpn.com/content/kb/vpn/ios/2.2/quick-action-menu.png)
 
-Узнайте больше об AdGuard VPN для iOS [в этой статье](/adguard-vpn-for-ios/overview).
+You can learn more about the AdGuard VPN app for iOS in [this article](/adguard-vpn-for-ios/).
+
+## Related articles
+
+- [AdGuard VPN is unavailable in some App Store regions](/adguard-vpn-for-ios/solving-problems/app-store/)
+- [How to install AdGuard VPN on older OS versions](/general/older_os/)

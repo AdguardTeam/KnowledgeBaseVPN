@@ -1,6 +1,6 @@
 ---
 title: Как собирать и отправлять логи
-sidebar_position: 3
+sidebar_position: 6
 ---
 
 Если вы столкнулись с какой-либо проблемой при использовании AdGuard VPN для iOS, вы можете сообщить нам об этом, отправив логи приложения.
@@ -50,3 +50,8 @@ sidebar_position: 3
 Если вам по какой-либо причине удобнее отправить нам логи другим способом, вы можете экспортировать их самостоятельно. Для этого перейдите в меню *Настройки* → *Основные* → *Расширенные* и выберите пункт *Экспортировать логи и информацию о системе*.
 
 :::
+
+## Related articles
+
+- [Troubleshooting AdGuard VPN connection issues](/adguard-vpn-for-ios/solving-problems/connection-issues/)
+- [Advanced settings](/adguard-vpn-for-ios/features/advanced-settings/)

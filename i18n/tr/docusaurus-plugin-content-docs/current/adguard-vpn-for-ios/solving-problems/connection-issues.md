@@ -1,6 +1,6 @@
 ---
 title: AdGuard VPN bağlantı sorunlarını giderme
-sidebar_position: 7
+sidebar_position: 3
 ---
 
 AdGuard VPN bağlantı sorunları genellikle ya ağla ilgilidir (belirli Wi-Fi ağlarını etkiler) ya da cihazla ilgilidir (tüm bağlantılarda meydana gelir). Aşağıdaki bölümler bu sorunları belirlemenize ve çözmenize yardımcı olur. Devam etmeden önce, AdGuard VPN'in en son sürümünü kullandığınızdan emin olun ve hem cihazınızı hem de yönlendiricinizi yeniden başlatmayı deneyin.
@@ -29,3 +29,8 @@ Sistem saat ayarlarını kontrol edin — yanlış tarih ve saat uygulamanın su
 - Gerekirse doğru zamanı elle ayarlayın
 
 Sorun devam ederse, lütfen support@adguard-vpn.com adresinden AdGuard VPN destek ekibiyle iletişime geçin.
+
+## Related articles
+
+- [How to collect and send logs](/adguard-vpn-for-ios/solving-problems/logs/)
+- [Advanced settings](/adguard-vpn-for-ios/features/advanced-settings/)
